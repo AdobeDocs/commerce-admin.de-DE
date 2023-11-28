@@ -3,9 +3,9 @@ title: Freigeben von [!DNL Commerce] account
 description: Erfahren Sie, wie Sie eingeschränkten Zugriff auf [!DNL Commerce] andere [!DNL Commerce] Kontoinhaber.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 4c16436d9fd756ed33ca4b90924be58714f971d4
+source-git-commit: 11b2f3f9558bf5a36199015247fb96d559bb5fdc
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,9 @@ Die [!DNL Commerce] Das Supportteam hat keinen Zugriff auf das Konto und kann ke
 
 ## Freigegebenes Konto einrichten
 
-1. Bevor Sie beginnen, erhalten Sie die folgenden Informationen aus dem [!DNL Commerce] des **neuer Benutzer**:
+1. Bevor Sie beginnen, erhalten Sie die folgenden Informationen aus dem [!DNL Commerce] des **neue Zugriffsberechtigung**:
 
+   - Der Benutzer muss sich bereits für ein Konto unter account.adobe.com registriert und über account.magento.com angemeldet haben.
    - Die `Account ID` wird in der linken oberen Ecke des _[!UICONTROL Magento]_Registerkarte direkt über dem **Abmelden**-Link.
    - Die `Email` -Adresse, die mit dem Konto verknüpft ist.
 
