@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Sales] &gt; [!UICONTROL PDF Print-outs] Seite des Commerce-Administrators.
 exl-id: aa30ee9a-4201-4054-82f0-2f42d7b4ba4f
 feature: Configuration, Orders
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 3%
+source-wordcount: '73'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Store-Ansicht | Enthält die Bestell-ID in der Kopfzeile der Rechnungen als Referenz. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Store-Ansicht | Enthält die Bestellkennung in der Kopfzeile der Lieferscheine zur Referenz. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -44,4 +44,4 @@ ht-degree: 3%
 |--- |--- |--- |
 | [!UICONTROL Display Order ID in Header] | Store-Ansicht | Beinhaltet die Bestell-ID in der Kopfzeile der Kreditkarten als Referenz. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

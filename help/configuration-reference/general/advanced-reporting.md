@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Advanced Reporting]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL General] &gt; [!UICONTROL Advanced Reporting] Seite des Commerce-Administrators.
 exl-id: 3f6311c8-3849-4608-8f2c-64359bd3edbc
 feature: Configuration, Commerce Intelligence
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ _[!DNL Advanced Reporting]_ist ein Cloud-basierter Dienst, der von [Adobe Commer
 | [!UICONTROL Industry] | Webseite | Identifiziert Ihre Branche zur Personalisierung. [!DNL Advanced Reporting]. |
 | [!UICONTROL Time of day to send data] | Global | Bestimmt die Zeit, zu der die Speicherdaten an jeden Tag gesendet werden [!DNL Advanced Reporting]. Die Zeit basiert auf einer 24-Stunden-Zeit und umfasst die Minute, die Stunde und die Sekunde in Ihrer Zeitzone. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 [1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html
 [2]: https://experienceleague.adobe.com/docs/commerce-admin/start/reporting/business-intelligence.html#advanced-reporting

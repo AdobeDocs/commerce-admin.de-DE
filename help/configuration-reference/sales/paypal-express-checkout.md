@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL P
 description: Überprüfen Sie die Konfigurationseinstellungen im Abschnitt [!UICONTROL PayPal Express Checkout] im Abschnitt [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] Seite des Commerce-Administrators.
 exl-id: aae5b1d9-f47e-447a-b40c-924f8d2ee824
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Enable In-Context Checkout Experience] | Webseite | Aktiviert optimierte PayPal In-Context Checkout als Zahlungsmethode, die Ihren Kunden zur Verfügung steht. Optionen: `Yes` / `No` |
 | [!UICONTROL Enable PayPal Credit] | Webseite | Aktiviert PayPal Credit, damit Kunden jetzt kaufen können, aber später zahlen können. Sie erhalten zwar vorab bezahlt, aber die Kunden haben mehr Zeit zu bezahlen. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Express Checkout]
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Proxy Host] | Webseite | Wenn die API einen Proxy verwendet, gibt dies die IP-Adresse des Proxy-Hosts an. |
 | [!UICONTROL Proxy Port] | Webseite | Wenn die API einen Proxy verwendet, gibt dies den vom Proxy-Host verwendeten Port an. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Advertise PayPal Credit]
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | Webseite | Bestimmt die Position und Größe der [!DNL PayPal Credit] Banner auf Produktseiten. Optionen: (entspricht für [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | Webseite | Bestimmt die Position und Größe der [!DNL PayPal Credit] Banner auf der Warenkorbseite. Optionen: (entspricht für [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings]
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 | [!UICONTROL Payment Action] | Webseite | Bestimmt die Aktion, die PayPal beim Erhalt einer Bestellung durchführt. Optionen: <br/>**`Authorization`**- Genehmigt den Kauf, aber hält die Mittel fest. Der Betrag wird erst dann zurückgezogen, wenn er vom Händler &quot;erfasst&quot;wurde.<br/>**`Sale`** - Der Kaufbetrag wird genehmigt und sofort vom Konto des Kunden zurückgezogen. <br/>**`Order`**- Stellt einen Vertrag mit PayPal dar, der es dem Händler ermöglicht, innerhalb eines bestimmten Zeitraums einen oder mehrere Beträge bis zum bestellten Gesamtbetrag aus dem Käuferkonto des Kunden zu erfassen. Dies kann bis zu 29 Tage dauern. Eine oder mehrere Rechnungen müssen vom Commerce Admin erstellt werden, um die Mittel zu erfassen. |
 | [!UICONTROL Display on Product Details Page] | Store-Ansicht | Bestimmt, ob die Schaltfläche &quot;Checkout mit PayPal&quot;auf Produktseiten angezeigt wird. Zu den Optionen gehören: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Billing Agreement Signup] | Webseite | Stellt fest, ob Kunden in der Lage sind, [Abrechnungsvereinbarung](../../stores-purchase/paypal-billing-agreements.md) mit Ihrem Geschäft. Optionen: <br/>**`Auto`**- Der Kunde kann sich während des Express Checkout für eine Abrechnungsvereinbarung anmelden.<br/>**`Ask Customer`** - Der Kunde wird gefragt, ob er sich für eine Abrechnungsvereinbarung anmelden möchte. <br/>**`Never`**- Kunden wird nicht die Möglichkeit angeboten, sich für einen Abrechnungsvertrag zu registrieren. |
 | [!UICONTROL Skip Order Review Step] | Webseite | Bestimmt, ob Kunden die Transaktion von der PayPal-Site aus abschließen können oder dazu verpflichtet sind, zu Ihrem Store zurückzukehren und den Schritt &quot;Bestellprüfung&quot;abzuschließen, bevor die Bestellung gesendet wird. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Billing Agreement Settings]
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | Webseite | Wenn diese Option aktiviert ist, zeigt eine Zusammenfassung der Zeileneinträge aus dem Warenkorb auf Ihrer PayPal-Zahlungsseite an. Optionen: `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | Webseite | Wenn diese Option aktiviert ist, können Kunden über das Dashboard ihres Kundenkontos eine Abrechnungsvereinbarung einleiten. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Settlement Report Settings]
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | Webseite | Bestimmt, wie oft Vergleichsberichte von PayPal generiert werden. Optionen: `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | Webseite | Bestimmt die Stunde, Minute und Sekunde, in der die Vergleichsberichte generiert werden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Frontend Experience Settings]
 
@@ -153,7 +153,7 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | Store-Ansicht | Die sechs Zeichen [hexadezimale Farbe](https://en.wikipedia.org/wiki/Web_colors) -Code für den Rahmen von zwei Pixeln um die Kopfzeile. |
 | [!UICONTROL Page Background Color] | Store-Ansicht | Die sechs Zeichen [hexadezimale Farbe](https://en.wikipedia.org/wiki/Web_colors) Code für die Hintergrundfarbe der Checkout-Seite, die hinter der Kopfzeile und dem Zahlungsformular angezeigt wird. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 #### [!UICONTROL Customize Smart Buttons (Basic)]
 
@@ -168,7 +168,7 @@ ht-degree: 0%
 | [!UICONTROL Shape] | Store-Ansicht | Legt die Form der intelligenten Zahlungsschaltfläche fest. Optionen: `Pill` (Standard) / `Rectangle` |
 | [!UICONTROL Color] | Store-Ansicht | Legen Sie die Farbe der Schaltfläche Smart Payment fest. Optionen: `Gold` (Standard) / `Blue` / `Silver` / `Black` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 #### [!UICONTROL Customize Smart Buttons (Features)]
 
@@ -178,4 +178,4 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Disable Funding Options] | Store-Ansicht | Bestimmt, welche anderen PayPal-Finanzierungsoptionen auf der Seite &quot;Checkout&quot;angezeigt werden. Die ausgewählten Optionen werden nie auf der Seite &quot;Auschecken&quot;angezeigt. Nicht ausgewählte Optionen werden nur angezeigt, wenn PayPal die Währung des Stores und den Standort des Käufers unterstützt. Optionen: `PayPal Credit` / `PayPal Guest Checkout` `Credit Card Icons` / `Elektronisches Lastschriftverfahren - German ELV` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

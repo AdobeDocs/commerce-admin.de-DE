@@ -3,10 +3,10 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] Seite des Commerce-Administrators.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 1%
+source-wordcount: '339'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | Store-Ansicht | Bestimmt, wie oft Sitemap-Kategorien aktualisiert werden. Optionen: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Store-Ansicht | Ein Wert zwischen `0.0` und `1.0` , das die Priorität von Kategorie-Sitemap-Aktualisierungen im Verhältnis zu anderen Inhalten bestimmt. Null (`0.0`) hat die niedrigste Priorität. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Products Options]
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 | [!UICONTROL Priority] | Store-Ansicht | Ein Wert zwischen `0.0` und `1.0` , das die Priorität von Produkt-Sitemap-Aktualisierungen im Verhältnis zu anderen Inhalten bestimmt. Null (`0.0`) hat die niedrigste Priorität. |
 | [!UICONTROL Add Images into Sitemap] | Store-Ansicht | Bestimmt, in welchem Umfang Bilder in die Sitemap aufgenommen werden. Optionen: `None` / `Base Only` / `All` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CMS Pages Options]
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | Store-Ansicht | Bestimmt, wie oft CMS-Seiten von Sitemap aktualisiert werden. Optionen: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Store-Ansicht | Ein Wert zwischen `0.0` und `1.0` , das die Priorität von CMS-Seiten-Sitemap-Aktualisierungen im Verhältnis zu anderen Inhalten festlegt. Null (`0.0`) hat die niedrigste Priorität. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Url Options]
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 | [!UICONTROL Frequency] | Store-Ansicht | Bestimmt, wie oft URLs gespeichert werden, die aktualisiert werden. Optionen: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
 | [!UICONTROL Priority] | Store-Ansicht | Ein Wert zwischen `0.0` und `1.0` bestimmt die Priorität von Store-URL-Aktualisierungen im Verhältnis zu anderen Inhalten. Null (`0.0`) hat die niedrigste Priorität. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Generation Settings]
 
@@ -78,7 +78,7 @@ ht-degree: 1%
 | [!UICONTROL Error Email Sender] | Webseite | Identifiziert den Store-Kontakt, der als Absender der Fehlerbenachrichtigung angezeigt wird. Optionen: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Error Email Template] | Webseite | Identifiziert die für die Fehlerbenachrichtigung verwendete E-Mail-Vorlage. Standardvorlage: `Sitemap generate Warnings` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sitemap File Limits]
 
@@ -91,7 +91,7 @@ ht-degree: 1%
 | [!UICONTROL Maximum No of URLs Per File] | Store-Ansicht | Bestimmt die maximale Anzahl von URLs, die in eine Sitemap aufgenommen werden können. |
 | [!UICONTROL Maximum File Size] | Store-Ansicht | Bestimmt die maximale Größe der generierten Sitemap in Byte. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Search Engine Submission Settings]
 
@@ -103,4 +103,4 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enable Submission to Robots.txt] | Store-Ansicht | Ermöglicht die Übermittlung von Anweisungen für die Datei robots.txt . Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

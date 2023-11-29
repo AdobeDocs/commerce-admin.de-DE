@@ -4,9 +4,9 @@ description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTRO
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '802'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Fronten
 |--- |--- |--- |
 | [!UICONTROL Workflow Type] | Global | Bestimmt, ob während der Entwicklung eine geringere Kompilierung auf Client- oder Server-Seite stattfindet. Optionen: <br/>**`Client side less compilation`**- Die Kompilierung erfolgt im Browser mithilfe der nativen Bibliothek less.js.<br/>**`Server side less compilation`** - Die Kompilierung erfolgt auf dem Server mithilfe der Bibliothek Less PHP. Dies ist der Standardmodus für die Produktion. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Developer Client Restrictions]
 
@@ -41,7 +41,7 @@ Weitere Informationen zum Ändern dieser Einstellung finden Sie unter [Kundenbes
 |--- |--- |--- |
 | [!UICONTROL Allow IPs (comma separated)] | Store-Ansicht | Erstellt eine Zulassungsliste von IP-Adressen, die Entwicklertools auf einer Live-Site verwenden können, ohne Kunden im Store zu stören. Änderungen an der Site bei Verwendung eines Entwickler-Tools, z. B. _Inline-Übersetzung_, sind nur aus den IP-Adressen auf der Zulassungsliste sichtbar. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Template Settings]
 
@@ -54,7 +54,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Optimie
 | [!UICONTROL Allow Symlinks] | Store-Ansicht | Aktivieren [symbolische Verknüpfungen](https://en.wikipedia.org/wiki/Symbolic_link) kann Ihre Site Sicherheitsrisiken aussetzen und wird für einen Produktionsspeicher nicht empfohlen. |
 | [!UICONTROL Minify Html] | Store-Ansicht | Bestimmt, ob die HTML für Store-Vorlagen minimiert wird. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Debug]
 
@@ -68,7 +68,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Hinweis
 | [!UICONTROL Enable Template Path Hints for Admin] | Global | Fügt dem Admin eine Notation hinzu, die den Pfad zu den einzelnen Vorlagen angibt, die auf der Seite verwendet werden. Optionen: `Yes` / `No` |
 | [!UICONTROL Add Block Class Type to Hints] | Store-Ansicht | Umfasst die Namen der Blöcke in den Vorlagenpfadhinweisen. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Translate Inline]
 
@@ -81,7 +81,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Inline 
 | [!UICONTROL Enable for Storefront] | Store-Ansicht | Aktiviert den Inline-Übersetzer für die Storefront. Der Oberflächentext kann für jede Store-Ansicht bearbeitet werden. Um den Inline-Übersetzer zu verwenden, ohne den Live Store zu stören, fügen Sie Ihre IP-Adresse zur Zulassungsliste &quot;Developer Client Restrictions&quot;hinzu. |
 | [!UICONTROL Enable for Admin] | Global | Aktiviert den Inline-Übersetzer für den Administrator. Im Gegensatz zur Storefront kann der Administrator nicht in mehrere Sprachen übersetzt werden. Die Feldbezeichnungen und anderen Text in der Benutzeroberfläche können jedoch geändert werden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL JavaScript Settings]
 
@@ -99,7 +99,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Optimie
 | [!UICONTROL Log JS Errors to Session Storage] | Global | Wenn diese Option aktiviert ist, kann von Funktionstests für die Berichterstellung verwendet werden. Optionen: `Yes` / `No` |
 | [!UICONTROL Log JS Errors to Session Storage Key] | Global | Identifiziert den Schlüssel, der zum Abrufen der erfassten JS-Fehler verwendet wird. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL CSS Settings]
 
@@ -113,7 +113,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Optimie
 | [!UICONTROL Minify CSS Files] | Store-Ansicht | Entfernt unnötige Zeichen, Leerzeichen und Einzüge, um die Größe des Codes zu reduzieren. Optionen: `Yes` / `No` |
 | [!UICONTROL Use CSS critical path] | Global | Die _CSS-kritischer Pfad_ liefert minimierte kritische CSS-Inline-Elemente in `<head>` und verschiebt alle nicht kritischen Stile, die asynchron geladen werden. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Image Processing Settings]
 
@@ -123,7 +123,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Optimie
 |--- |--- |--- |
 | [!UICONTROL Image Adapter] | Global | Gibt den Adapter an, der zum Rendern von Bildern verwendet wird. Nachdem Sie die Adaptereinstellung geändert haben, leeren Sie den Cache für Katalogbilder. Optionen: `PHP GD2` / `ImageMagick` <br/><br/>**_Hinweis:_**Der ICO-Dateityp wird nur vom ImageMagik-Adapter unterstützt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Caching Settings]
 
@@ -133,7 +133,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Optimie
 |--- |--- |--- |
 | [!UICONTROL Cache User Defined Attributes] | Global | Wenn diese Option aktiviert ist, werden benutzerdefinierte Attribute und Attribute des Entitätsattributwerts (EAV) des Systems zwischengespeichert. Diese Option kann die Leistung steigern, erfordert aber auch zusätzlichen Speicherplatz für die Zwischenspeicherung. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Static Files Settings]
 
@@ -143,7 +143,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Optimie
 |--- |--- |--- |
 | [!UICONTROL Sign Static Files] | Global | Wenn diese Option aktiviert ist, fügt der URL statischer Dateien eine digitale Signatur hinzu, damit Browser erkennen können, wann eine neuere Version der Datei verfügbar ist. Wenn sich die Signatur einer Datei von der im Cache des Browsers gespeicherten Signatur unterscheidet, wird die neuere Version der Datei verwendet. Statische Dateien, die signiert werden können, umfassen JavaScript, CSS, Bilder und Schriftarten. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Grid Settings]
 
@@ -153,4 +153,4 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Optimie
 |--- |--- |--- |
 | [!UICONTROL Asynchronous Indexing|Global] | Bestimmt, wann Entitäten des Auftragsverarbeitungssystems wie Bestellungen, Rechnungen, Sendungen und Kreditkarten zum Raster hinzugefügt und neu indiziert werden. Die asynchrone Indizierung kann verwendet werden, um Datensperren während Speichervorgängen zu vermeiden und die Verarbeitungszeit zu verkürzen. Optionen: <br/>**`Disable`**- (Standard) Auf die Bestellung bezogene Entitäten werden dem Raster zu verschiedenen Zeiten hinzugefügt. gespeichert werden.<br/>**`Enable`** - Auftragsbezogene Entitäten werden nur während eines geplanten Cron-Auftrags zum Raster hinzugefügt. Cron sollte so konfiguriert werden, dass es jede Minute einmal ausgeführt wird. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

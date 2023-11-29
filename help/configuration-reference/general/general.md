@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL General] &gt; [!UICONTROL General] Seite des Commerce-Administrators.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Siehe [Länderoptionen](../../getting-started/store-details.md#country-options) 
 | [!UICONTROL European Union Countries] | Global | Länder, die Mitglieder der Europäischen Union sind. |
 | [!UICONTROL Top Destinations] | Store-Ansicht | Die wichtigsten Länder, die Sie für den Verkauf auswählen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL State Options]
 
@@ -41,7 +41,7 @@ Siehe [Statusoptionen](../../getting-started/store-details.md#state-options) fü
 | [!UICONTROL State is required for] | Global | Die Länder (in denen Sie geschäftlich tätig sind), in denen eine Region oder ein Staat in die Postanschrift aufgenommen werden muss. |
 | [!UICONTROL Allow to Choose State if It is Optional for Country] | Global | Stellt für Länder, in denen dies nicht erforderlich ist, fest, ob die Variable _Region/Bundesland_ -Feld ist in der Postanschrift des Kunden enthalten.<br /> <br />**`Yes`**- Enthält die _Region/Bundesland_ -Feld in die Kundenadresse ein, auch wenn dies vom Land nicht benötigt wird.<br />**`No`** - Lässt das Feld Region/Bundesland von der Kundenadresse aus zu, wenn dies vom Land nicht benötigt wird. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Locale Options]
 
@@ -57,7 +57,7 @@ Siehe [Gebietsschemaoptionen](../../getting-started/store-details.md#locale-opti
 | [!UICONTROL First Day of Week] | Store-Ansicht | Der Tag, der als erster Tag der Woche auf dem Markt gilt, der von der Store-Ansicht bereitgestellt wird. |
 | [!UICONTROL Weekend Days] | Store-Ansicht | Die Tage, die auf das Wochenende fallen auf dem Markt serviert von der Store-Ansicht. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Website Restrictions]
 
@@ -76,7 +76,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Zugriff
 | [!UICONTROL HTTP Response] | Webseite | Bestimmt die HTTP-Antwort, die gesendet wird, wenn die Website geschlossen wird und eine Verbindung von einem Bot, Crawler oder Spider hergestellt wird.<br /> <br />**`503 Service unavailable`**- Die Seite ist nicht verfügbar, aber der Spider sollte den Index nicht aktualisieren.<br />**`200 OK`** - Die Landingpage ist korrekt und sollte vom Spider als einzige Seite auf der Site behandelt werden. |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | Webseite | Bestimmt, ob die Felder auf der _Anmelden_ und _Kennwort vergessen_ Formulare werden automatisch aus früheren Einträgen ausgefüllt. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Store Information]
 
@@ -97,7 +97,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Store-I
 | [!UICONTROL VAT Number] | Webseite | Die Mehrwertsteuernummer des Unternehmens, dem die Commerce-Installation gehört, falls zutreffend. |
 | [!UICONTROL Validate VAT Number] |  | Überprüft die Umsatzsteuer-Identifikationsnummer. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Single-Store Mode]
 
@@ -109,4 +109,4 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Einzels
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | Global | Wenn dies für Einzelspeicherinstallationen aktiviert ist, blendet das Konfigurationsfeld Umfang und zugehörige Feldbezeichnungen Optionen aus: `Yes` / `No` <br/>**_Hinweis:_**Der Einzelspeichermodus wird bei Geschäften mit mehr als einer Ansicht ignoriert. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Pa
 description: Überprüfen Sie die Konfigurationseinstellungen im Abschnitt [!UICONTROL Payment Services] im Abschnitt [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] Seite des Commerce-Administrators.
 exl-id: 255b7bd8-1d32-4393-9eba-43dc7754c752
 feature: Configuration, Payments
-source-git-commit: aafda7f534f4170825edb7c163e4221df2f205bb
+source-git-commit: bf166c1debd7f10a4d988d231a1a47f32c4cea9e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Zahlungsdienste bieten eine schlüsselfertige Self-Service-Lösung, einschließl
 
 Um auf die Konfigurationseinstellungen für Zahlungsdienste zuzugreifen, rufen Sie die Seite _Admin_ Seitenleiste: **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** und klicken **[!UICONTROL Settings]**.
 
-![Zahlungsdiensteinstellungen](assets/payment-services-menu-small.png){zoomable: no, width: 400px}
+![Zahlungsdiensteinstellungen](assets/payment-services-menu-small.png){width="400"}
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Um auf die Konfigurationseinstellungen für Zahlungsdienste zuzugreifen, rufen S
 
 ## [!UICONTROL General]
 
-![Allgemeine Einstellungen](assets/payments-general-settings.png){zoomable: ja, width: 600px}
+![Allgemeine Einstellungen](assets/payments-general-settings.png){width="600" zoomable="yes"}
 
 | Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |---|---|---|
@@ -34,29 +34,29 @@ Um auf die Konfigurationseinstellungen für Zahlungsdienste zuzugreifen, rufen S
 | [!UICONTROL Payment mode] | Store-Ansicht | Legen Sie die -Methode oder -Umgebung für Ihren Store fest. Optionen: [!UICONTROL Sandbox] / [!UICONTROL Production] |
 | [!UICONTROL Sandbox Merchant ID] | Store-Ansicht | Ihre Sandbox-Händler-ID, die beim Sandbox-Onboarding automatisch generiert wird. |
 | [!UICONTROL Production Merchant ID] | Store-Ansicht | Ihre Produktions-Händler-ID, die beim Sandbox-Onboarding automatisch generiert wird. |
-| [!UICONTROL Soft Descriptor] | Website- oder Store-Ansicht | Fügen Sie Ihren Websites einen weichen Deskriptor hinzu und speichern Sie diese, um Informationen zu Kundentransaktionen hinzuzufügen, die Marken, Stores oder Produktlinien voneinander trennen. Die [!UICONTROL Use website] toggle wendet einen beliebigen Soft-Deskriptor an, der auf Website-Ebene hinzugefügt wird. Die [!UICONTROL Use default] toggle wendet einen beliebigen Softdescriptor an, der als Standard hinzugefügt wurde. |
+| [!UICONTROL Soft Descriptor] | Website- oder Store-Ansicht | Fügen Sie Ihren Websites einen weichen Deskriptor hinzu und speichern Sie Ansichten, die Informationen für Kundentransaktionen bereitstellen und Marken, Stores oder Produktlinien abgrenzen. Die [!UICONTROL Use website] toggle wendet einen beliebigen Soft-Deskriptor an, der auf Website-Ebene hinzugefügt wird. Die [!UICONTROL Use default] toggle wendet einen beliebigen Softdescriptor an, der als Standard hinzugefügt wurde. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit card fields]
 
-![Einstellungen für Kreditkartenfelder](assets/payments-ccfields-settings.png){zoomable: ja, width: 600px}
+![Einstellungen für Kreditkartenfelder](assets/payments-ccfields-settings.png){width="600" zoomable="yes"}
 
 | Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |---|---|---|
-| [!UICONTROL Title] | Store-Ansicht | Fügen Sie den Text für die Anzeige als Titel für diese Zahlungsoption in der Ansicht Zahlungsmethode während des Checkouts hinzu. Optionen: [!UICONTROL text field] |
+| [!UICONTROL Title] | Store-Ansicht | Fügen Sie den Text für die Anzeige als Titel für diese Zahlungsoption in der Ansicht Zahlungsmethode während des Checkouts hinzu. |
 | [!UICONTROL Payment Action] | website | Die [Zahlungsaktion](payment-methods.md#payment-actions) für die angegebene Zahlungsmethode. Optionen: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
 | [!UICONTROL 3DS Secure authentication] | website | Aktivieren oder Deaktivieren [Sichere 3DS-Authentifizierung](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security-compliance/security.html#3ds). Optionen: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | website | Aktivieren oder deaktivieren Sie Kreditkartenfelder, die auf der Checkout-Seite angezeigt werden. Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Vault enabled] | Store-Ansicht | Aktivieren oder Deaktivieren [Kreditkartenausfall](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | Store-Ansicht | Aktivierung oder Deaktivierung der Möglichkeit für Händler, Bestellungen für Kunden in Admin abzuschließen [Verwendung einer gültigen Zahlungsmethode](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | Store-Ansicht | Aktivierung oder Deaktivierung der Möglichkeit, Kundenaufträge in der Admin-Konsole abzuschließen [Verwendung einer gültigen Zahlungsmethode](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | website | Aktivieren oder deaktivieren Sie den Debug-Modus. Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment buttons]
 
-![PayPal-Zahlungsschaltflächen-Einstellungen](assets/payments-ppbuttons-settings.png){zoomable: ja, width: 600px}
+![PayPal-Zahlungsschaltflächen-Einstellungen](assets/payments-ppbuttons-settings.png){width="600" zoomable="yes"}
 
 | Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |---|---|---|
@@ -72,11 +72,12 @@ Um auf die Konfigurationseinstellungen für Zahlungsdienste zuzugreifen, rufen S
 | [!UICONTROL Show Apple Pay button] | Store-Ansicht | Aktivieren oder deaktivieren Sie die Apple-Zahlungsoption, bei der Zahlungsschaltflächen angezeigt werden. Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal Credit and Debit card button] | Store-Ansicht | Aktivieren oder deaktivieren Sie die Option Kreditkartenzahlung und Debitkarte, wenn Zahlungsschaltflächen angezeigt werden. Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | website | Aktivieren oder deaktivieren Sie den Debug-Modus. Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
-{:style=&quot;table-layout:auto&quot;}
+
+{style="table-layout:auto"}
 
 ## [!UICONTROL PayPal Smart Button Styling]
 
-![Stileinstellungen für PayPal-Zahlungsschaltflächen](assets/payments-buttonstyle-settings.png){zoomable: ja, width: 600px}
+![Stileinstellungen für PayPal-Zahlungsschaltflächen](assets/payments-buttonstyle-settings.png){width="600" zoomable="yes"}
 
 | Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -88,4 +89,4 @@ Um auf die Konfigurationseinstellungen für Zahlungsdienste zuzugreifen, rufen S
 | [!UICONTROL Height] | Store-Ansicht | Definieren Sie die Höhe der Zahlungsschaltflächen. Standardwert: keiner |
 | [!UICONTROL Label] | Store-Ansicht | Definieren Sie den Titel, der in den Zahlungsschaltflächen angezeigt wird. Optionen: [!UICONTROL PayPal] / [!UICONTROL Checkout] / [!UICONTROL Buynow] / [!UICONTROL Pay] / [!UICONTROL Installment] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

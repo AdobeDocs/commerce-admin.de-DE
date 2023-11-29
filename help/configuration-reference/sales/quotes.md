@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Quotes]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Sales] &gt; [!UICONTROL Quotes] Seite des Commerce-Administrators.
 exl-id: 9382552d-1be5-47f2-b0e3-931e5c6298d4
 feature: Configuration, Quotes
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Amount Message] | Store-Ansicht | Die Meldung, die im Warenkorb angezeigt wird, wenn ein Kunde versucht, eine Preisanfrage zu stellen, aber der erforderliche Mindestbetrag nicht erreicht wird. |
 | [!UICONTROL Default Expiration Period] | Webseite | Bestimmt die Standardlebensdauer eines [Anführungszeichen](../../b2b/quote-price-negotiation.md) als Zeitraum ab dem Datum, an dem die Angebotsanforderung gesendet wird. Optionen: `Days` / `Weeks` / `Months` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Attached Files]
 
@@ -43,4 +43,4 @@ ht-degree: 0%
 | [!UICONTROL File formats for upload] | Global | Legt die Dateiformate fest, die an ein Anführungszeichen angehängt werden können. Unterstützte Standardwerte: `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png`, und `jpeg` |
 | [!UICONTROL Maximum file size] | Global | Bestimmt die maximale Größe einer Datei, die an ein Anführungszeichen angehängt ist. Diese Einstellung kann durch die Serverkonfiguration überschrieben werden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

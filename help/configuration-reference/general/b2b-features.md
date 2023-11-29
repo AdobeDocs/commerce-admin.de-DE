@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL B2B Features]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL General] &gt; [!UICONTROL B2B Features] Seite des Commerce-Administrators.
 exl-id: fc07a067-b92a-49c7-8512-2dfcc1c6ba0c
 feature: Configuration, B2B
-source-git-commit: 4f4ddb6da9bbf3bc07efb3b8518ee71323d43b49
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '368'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 | [[!UICONTROL Enable Quick Order]](../../b2b/quick-order.md) | Webseite | Wenn diese Option aktiviert ist, können Kunden und Gäste schnell Bestellungen basierend auf der SKU oder dem Produktnamen aufgeben. Optionen: `Yes` / `No` |
 | [[!UICONTROL Enable Requisition List]](../../b2b/configure-requisition-lists.md) | Webseite | Wenn diese Option aktiviert ist, können Kunden Anforderungslisten über ihr Konto-Dashboard erstellen und verwalten. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![B2B Funktionen mit Unternehmen und freigegebenen Katalogen aktiviert](./assets/b2b-features-company-enabled.png)<!-- zoom -->
 
@@ -42,7 +42,7 @@ Wenn die Funktion &quot;Unternehmen&quot;aktiviert ist, stehen zusätzliche Feld
 | [!UICONTROL Enable Shared Catalog direct products price assigning] | Webseite | Wenn die Variable _[!UICONTROL Enable Shared Catalog]_-Feld auf `Yes`, ist diese Option verfügbar. Wenn diese Option aktiviert ist, werden nur Produkte im Preisindex gespeichert, die einem freigegebenen Katalog zugewiesen sind. Produkte, die nicht dem freigegebenen Katalog zugewiesen sind, werden nicht auf der Storefront angezeigt. Optionen: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Webseite | Wenn diese Option aktiviert ist, können Firmenkäufer einen Kostenvoranschlag aus dem Warenkorb einreichen. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Payment Methods]
 
@@ -53,7 +53,7 @@ Wenn die Funktion &quot;Unternehmen&quot;aktiviert ist, stehen zusätzliche Feld
 | [!UICONTROL Applicable Payment Methods] | Global | Bestimmt die Auswahl der Zahlungsmethoden, die für B2B-Käufer verfügbar sind. Optionen: `All Payment Methods` / `Specific Payment Methods` |
 | [!UICONTROL Payment Methods] | Global | Gibt jede Zahlungsmethode an, die B2B-Käufern zur Verfügung steht. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Default B2B Shipping Methods]
 
@@ -64,7 +64,7 @@ Wenn die Funktion &quot;Unternehmen&quot;aktiviert ist, stehen zusätzliche Feld
 | [!UICONTROL Applicable Shipping Methods] | Global | Bestimmt die Auswahl der Versandmethoden, die B2B-Käufern standardmäßig zur Verfügung stehen. Optionen: `All Shipping Methods` / `Specific Shipping Methods` |
 | [!UICONTROL Shipping Methods] | Global | Gibt jede Versandmethode an, die B2B-Käufern standardmäßig zur Verfügung steht. <br/>**_Hinweis:_**Sie können die Versandmethoden auch auf eine bestimmte [Firmenkonto](../../b2b/account-companies.md). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Approval Configuration]
 
@@ -74,6 +74,6 @@ Wenn die Funktion &quot;Unternehmen&quot;aktiviert ist, stehen zusätzliche Feld
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Purchase Orders]](../../stores-purchase/purchase-order.md) | Webseite | Wenn diese Option aktiviert ist, können Unternehmen Bestellungen erstellen. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 

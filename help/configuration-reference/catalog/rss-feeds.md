@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] Seite des Commerce-Administrators.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '165'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | Store-Ansicht | Ermöglicht Kunden den Empfang von RSS-Feeds aus dem Store. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Wish List]
 
@@ -36,7 +36,7 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Enable RSS] | Store-Ansicht | Wenn diese Option aktiviert ist, wird oben auf den Wunschlisten-Seiten ein RSS-Feed-Link angezeigt. Die Seite zur Freigabe der Wunschliste enthält ein Kontrollkästchen, mit dem der Kunde die Verknüpfung zum Feed aus freigegebenen Wunschlisten auswählen kann. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Catalog]
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 | [!UICONTROL Coupons/Discounts] | Store-Ansicht | Wenn diese Option aktiviert ist, wird die Benachrichtigung über Gutscheine oder Rabatte veröffentlicht. |
 | [!UICONTROL Top Level Category] | Store-Ansicht | Veröffentlicht Benachrichtigungen über Änderungen an der Kategoriestruktur der obersten Ebene Ihres Katalogs, was im Hauptmenü angezeigt wird. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -63,4 +63,4 @@ ht-degree: 2%
 |--- |--- |--- |
 | [!UICONTROL Customer Order Status Notification] | Store-Ansicht | Bietet Kunden die Möglichkeit, ihren Bestellstatus nach RSS-Feed zu verfolgen. Wenn diese Option aktiviert ist, wird ein RSS-Feed-Link in der Bestellung angezeigt |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] Seite des Commerce-Administrators.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3812'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Webseite | Bestimmt, ob die Pauschalrate beim Checkout als Option angezeigt wird, wenn die Methode nicht auf den Kauf angewendet wird. Optionen: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge die Pauschalrate angezeigt wird, wenn sie beim Checkout mit anderen Versandmethoden aufgeführt wird. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Free Shipping]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | Methode anzeigen, falls nicht zutreffend | Webseite | Bestimmt, ob beim Checkout als Option der kostenlose Versand angezeigt wird, wenn die Methode nicht auf den Kauf zutrifft. Optionen: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge beim Checkout der kostenlose Versand angezeigt wird, wenn er mit anderen Versandmethoden aufgeführt wird. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Table Rates]
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Webseite | Bestimmt, ob die Tabellenraten beim Checkout als Option angezeigt werden, wenn die Methode nicht auf den Kauf angewendet wird. Optionen: `Yes` / `No` |
 | [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge die Tabellenraten angezeigt werden, wenn sie beim Checkout mit anderen Versandmethoden aufgeführt werden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL In-Store Delivery]
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 | [!UICONTROL Search Radius] | Webseite | Der Radius in km, der bei der Suche nach Auffangstellen verwendet werden soll. |
 | [!UICONTROL Displayed Error Message] | Store-Ansicht | Eine Meldung, die angezeigt wird, wenn ein Kunde die In-Store-Abholung auswählt, die Versandmethode jedoch nicht verfügbar ist. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Carriers]
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 | [!UICONTROL Origin of the Shipment] | Webseite | (Nur UPS XML) Das Land oder die Region, aus dem bzw. der die Produktlieferung stammt. |
 | [!UICONTROL Password] | Store-Ansicht | Ihr UPS-Absenderkonto-Passwort. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS Paketinformationen](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Webseite | Gibt an, ob die Bearbeitungsgebühr auf jede Bestellung oder auf jedes Paket innerhalb einer Bestellung angewendet wird. |
 | [!UICONTROL Handling Fee] | Webseite | Legt die Handhabung fest, die im Versandpreis enthalten ist. Die Bearbeitungsgebühr kann als fester Betrag oder Prozentsatz festgelegt werden. <br/><br/>**_Hinweis:_**Wenn Sie einen Prozentwert eingeben, verwenden Sie das Dezimalformat `0.25` für 25 %. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Zulässige UPS-Methoden](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | Webseite | Legt den Mindestgesamtbetrag fest, den eine Bestellung erreichen muss, um für den kostenlosen Versand infrage zu kommen. |
 | [!UICONTROL Displayed Error Message] | Store-Ansicht | Die Fehlermeldung wird angezeigt, wenn diese Versandmethode aus irgendeinem Grund nicht verfügbar ist. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![UPS Anwendbare Länder und andere Einstellungen](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
@@ -181,7 +181,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Webseite | Gibt an, ob Datenübertragungen zwischen Ihrem Store und UPS zum Debugging im System protokolliert werden. Sofern kein Problem vorliegt, das verfolgt und protokolliert werden muss, sollte diese Option auf `No`. |
 | [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge UPS beim Checkout mit anderen Versandmethoden angezeigt wird. Eingabe `0` für den Anfang der Liste. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL USPS]
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | Webseite | Ihr Passwort für Ihr USPS-Versandkonto. |
 | [!UICONTROL Mode] | Webseite | Bestimmt den Übertragungsmodus für Daten, die an das USPS-System gesendet werden. Zu den Optionen gehören: <br/>**`Development`**- USPS überprüft nicht, ob vom Commerce-Server empfangene Daten über SSL gesendet werden.<br/>**`Live`** - USPS überprüft, ob vom Commerce-Server empfangene Daten über eine sichere Socketschicht (SSL) gesendet werden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![USPS-Paketeinstellungen](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
@@ -213,7 +213,7 @@ ht-degree: 0%
 | [!UICONTROL Machinable] | Webseite | Gibt an, ob das Paket von einem Computer verarbeitet werden kann. Diese Option wirkt sich auf die Berechnung des Versandtarifs aus. |
 | [!UICONTROL Maximum Package Weight] | Webseite | Legt die maximale Gewichtung eines Pakets fest, die von USPS festgelegt werden kann. Wenn die bestellten Produkte die maximale Paketgewichtung überschreiten, ist diese Versandoption nicht verfügbar. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Einstellungen für USPS-Bereitstellungsentgelte](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
@@ -226,7 +226,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Webseite | Gibt an, ob die Bearbeitungsgebühr auf jede Bestellung oder auf jedes Paket innerhalb einer Bestellung angewendet wird. |
 | [!UICONTROL Handling Fee] | Webseite | Legt die Handhabung fest, die im Versandpreis enthalten ist. Die Bearbeitungsgebühr kann als fester Betrag oder Prozentsatz festgelegt werden. <br/><br/>**_Hinweis:_**Verwenden Sie beim Eingeben eines Prozentsatzes das Dezimalformat `0.25` für 25 %. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Zulässige USPS-Methoden](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
@@ -240,7 +240,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Webseite | Legt den Mindestbestellbetrag fest, der erfüllt sein muss, um für den kostenlosen Versand infrage zu kommen. |
 | [!UICONTROL Displayed Error Message] | Store-Ansicht | Die Fehlermeldung, die angezeigt wird, wenn USPS aus irgendeinem Grund nicht verfügbar ist. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![ANWENDENDE LÄNDER DES USPS](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
@@ -254,7 +254,7 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Webseite | Bestimmt, ob das System zum Debugging ein Protokoll der Datenübertragungen zwischen Ihrem Speicher und USPS verwaltet. Sofern kein Problem vorliegt, das verfolgt und protokolliert werden muss, sollte diese Option auf `No`. |
 | [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge USPS angezeigt wird, wenn es beim Checkout mit anderen Versandmethoden aufgeführt wird. Eingabe `0` für den Anfang der Liste. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL FedEx]
 
@@ -276,7 +276,7 @@ ht-degree: 0%
 | [!UICONTROL Sandbox Mode] | Webseite | Um FedEx-Transaktionen in einer Testumgebung auszuführen, setzen Sie Sandbox Mode auf `Yes`. Optionen: `Yes` / `No`. |
 | [!UICONTROL Web-Services URL] | Webseite | Die erforderliche URL hängt von der Einstellung des Sandbox-Modus ab. Optionen: <br/>**`Production`**- Die URL für den Zugriff auf FedEx-Webdienste, wenn der Store live ist.<br/>**`Sandbox`** - Die URL für den Zugriff auf die Testumgebung für FedEx-Webdienste. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx-Verpackung](./assets/delivery-methods-fedex-packaging.png)<!-- zoom -->
 
@@ -290,7 +290,7 @@ ht-degree: 0%
 | [!UICONTROL Dropoff] | Webseite | Wählen Sie in der Liste die Abholmethode aus: <br/>**`Regular Pickup`**- (Standard) Wenn Sie ein hohes Versandvolumen haben, kann es kostengünstig sein, regelmäßige Abholungen zu organisieren.<br/>**`Request Courier`** - Sie müssen einen FedEx-Kurier anrufen und anfordern, um Sendungen abzuholen. <br/>**`Drop Box`**- Sie müssen Sendungen an Ihrem lokalen FedEx-Ablagefeld abbrechen.<br/>**`Business Service Center`** - Sie müssen den Versand in Ihrem FedEx Business Service Center einstellen. <br/>**`Station`**- Sie müssen den Versand an Ihrem lokalen FedEx-Bahnhof abbrechen. |
 | [!UICONTROL Maximum Package Weight] | Webseite | Der Standardwert für FedEx beträgt 150 Pfund. Wenden Sie sich an Ihren Versanddienstleister, um eine maximale unterstützte Gewichtung zu erhalten. Es wird empfohlen, den Standardwert zu verwenden, es sei denn, Sie verfügen über besondere Vereinbarungen mit FedEx. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx-Bereitstellungsgebühr](./assets/delivery-methods-fedex-handling-fee.png)<!-- zoom -->
 
@@ -303,7 +303,7 @@ ht-degree: 0%
 | [!UICONTROL Handling Applied] | Webseite | Legt fest, wie Bearbeitungsgebühren angewendet werden. Optionen: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Webseite | Gibt den Betrag an, der als Bearbeitungsgebühr in Rechnung gestellt wird, basierend auf der Methode zur Berechnung des Betrags. Wenn die Gebühr auf einer festen Gebühr basiert, geben Sie den Betrag als Dezimalzahl an, z. B. `4.90`. Wenn die Bearbeitungsgebühr auf einem Prozentsatz der Bestellung basiert, geben Sie den Betrag als Prozentsatz an. Um beispielsweise sechs Prozent der Bestellung zu berechnen, geben Sie den Wert als `.06`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx-Bereitstellungsmethoden](./assets/delivery-methods-fedex-delivery-methods.png)<!-- zoom -->
 
@@ -320,7 +320,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping Amount Threshold] | Webseite | Gibt den Mindestbestellbetrag an, der für den kostenlosen Versand erforderlich ist. |
 | [!UICONTROL Displayed Error Message] | Store-Ansicht | Die Meldung, die angezeigt wird, wenn FedEx aus irgendeinem Grund nicht verfügbar ist. Sie können die Standardnachricht verwenden oder eine andere eingeben. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![FedEx-anwendbare Länder](./assets/delivery-methods-fedex-applicable-countries.png)<!-- zoom -->
 
@@ -335,7 +335,7 @@ ht-degree: 0%
 | [!UICONTROL Show Method if Not Applicable] | Webseite | Bestimmt, wann FedEx beim Checkout als Versandmethode angezeigt wird. Optionen: <br/>**`Yes`**- Die Option FedEx-Versand wird in der Liste der Versandmethoden angezeigt, unabhängig davon, ob die Bestellung zur Verwendung geeignet ist.<br/>**`No`** - Die Option FedEx-Versand wird nicht in der Liste der Versandmethoden angezeigt, wenn sie nicht auf die Bestellung anwendbar ist (z. B. wenn die Bestellgewichtung die maximale Gewichtung überschreitet). |
 | [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge FedEx angezeigt wird, wenn es beim Checkout mit anderen Versandmethoden aufgeführt wird. Eingabe `0` für den Anfang der Liste. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL DHL]
 
@@ -353,7 +353,7 @@ ht-degree: 0%
 | [!UICONTROL Password] | Webseite | Ihr DHL-Versandkontokennwort. |
 | [!UICONTROL Account Number] | Webseite | Ihre DHL-Versandkontonummer. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL-Paketeinstellungen](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
@@ -369,7 +369,7 @@ ht-degree: 0%
 | [!UICONTROL Weight Unit] | Store-Ansicht | Bestimmt die Maßeinheit für Gewicht, die in Versandberechnungen verwendet wird. Optionen: `Pounds` / `Kilograms` |
 | [!UICONTROL Size] | Store-Ansicht | Bestimmt die Größe des Pakets. Optionen: <br/>**`Regular`**- Die versandten Verpackungen entsprechen den DHL-Standardverpackungsmethoden. Im [!UICONTROL Allowed Methods] wählen Sie jede Verpackungsmethode aus, die zum Versand von Produkten aus Ihrem Geschäft verwendet wird.<br/>**`Specific`** - Wenn die gelieferten Packages benutzerdefinierte Dimensionen aufweisen, führen Sie Folgendes aus: [!UICONTROL Height (cm)] / [!UICONTROL Depth (cm)] / [!UICONTROL Width (cm)] |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Zulässige DHL-Methoden](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
@@ -385,7 +385,7 @@ ht-degree: 0%
 | [!UICONTROL Free Shipping with Minimum Order Amount] | Webseite | Legen Sie einen der folgenden Parameter fest: <br/>**`Enable`**- Ermöglichung des kostenlosen DHL Versands für Bestellungen, die den Mindestbetrag erreichen.<br/>**`Disable`** - Um keine kostenlose DHL Versand mit Mindestbestellung anzubieten. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Webseite | Wenn Sie [!UICONTROL Free Shipping with Minimum Order], geben Sie den Mindestbestellwert in das Feld ein. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![DHL Anwendbare Länder](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
@@ -400,4 +400,4 @@ ht-degree: 0%
 | [!UICONTROL Debug] | Webseite | Erstellt eine Protokolldatei mit Fehlerinformationen. |
 | [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge DHL angezeigt wird, wenn sie beim Checkout mit anderen Versandmethoden aufgeführt wird. Um ihn oben in der Liste zu platzieren, geben Sie `0`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

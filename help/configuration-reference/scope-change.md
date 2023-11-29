@@ -2,9 +2,9 @@
 title: Konfigurationsbereich
 description: Erfahren Sie mehr über das Festlegen des Umfangs für Konfigurationseinstellungen in der Commerce-Admin.
 exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
-source-git-commit: eb61d90c0a3bf5cac976fc8b79b23dc717aca3e6
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1030'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Die Option &quot;Store-Ansicht&quot;in der oberen linken Ecke vieler Konfigurati
 | [!UICONTROL Default Store View] | Der Name der standardmäßigen Store-Ansicht, die mit dem übergeordneten Store verknüpft ist. |
 | [!UICONTROL Stores Configuration] | Wechselt zum Raster &quot;Stores&quot;und entspricht der Auswahl von [!UICONTROL Stores] > [!UICONTROL All Stores] über die Admin-Seitenleiste aus. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ![Kontrollkästchen &quot;Systemwert verwenden&quot;aktiviert](./assets/store-view-control.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ Die Beschriftung des Kontrollkästchens ändert sich entsprechend dem aktuellen 
 | [!UICONTROL Use Default] | Dieses Kontrollkästchen wird angezeigt, wenn der Konfigurationsbereich auf &quot;Haupt&quot;eingestellt ist `Website`und bezieht sich auf den Standardspeicher, der der Website zugewiesen ist. |
 | [!UICONTROL Use Website] | Dieses Kontrollkästchen wird angezeigt, wenn der Konfigurationsbereich auf eine bestimmte Store-Ansicht festgelegt ist. Wenn diese Option aktiviert ist, wird die Einstellung der übergeordneten Website verwendet, die mit der Store-Ansicht verknüpft ist. In diesem Fall wird die Store-Ebene übersprungen, da sie für den Standardspeicher gilt, der mit der Website verknüpft ist. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Festlegen des Umfangs
 
@@ -94,4 +94,4 @@ Bevor Sie eine Konfigurationseinstellung vornehmen, die nur für eine bestimmte 
 | Sprachen | Um mehrere Sprachen zu unterstützen, müssen alle Inhalte einschließlich Produktbeschreibungen [übersetzt](../stores-purchase/store-localize.md#localize-products) für jede Store-Ansicht. |
 | Anzeigenwährung | eine andere [Anzeigenwährung](../stores-purchase/currency-configuration.md) kann für jede Store-Ansicht verwendet werden, obwohl die Transaktionen auf Website-Ebene mithilfe der Basiswährung verarbeitet werden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] Seite des Commerce-Administrators.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Store-Ansicht | Bestimmt, ob Newsletter für den Umfang der Store-Ansicht aktiviert sind. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Subscription Options]
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 | [!UICONTROL Unsubscription Email Sender] | Store-Ansicht | Identifiziert den Store-Kontakt, der als Absender von E-Mails angezeigt wird, die an diejenigen gesendet werden, die die Beendigung ihres Newsletter-Abonnements anfordern. |
 | [!UICONTROL Unsubscription Email Template] | Store-Ansicht | Bestimmt die E-Mail-Vorlage, die für die Benachrichtigung verwendet wird, die an diejenigen gesendet wird, die ihre Newsletter-Anmeldung beenden möchten. Standardvorlage: `Newsletter unsubscription success` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

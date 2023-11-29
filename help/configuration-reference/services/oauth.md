@@ -3,9 +3,9 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL OAuth]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Services] &gt; [!UICONTROL OAuth] Seite des Commerce-Administrators.
 exl-id: 984793e0-6ac9-443b-b234-e0cea717dada
 feature: Configuration, Security
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 | [!UICONTROL Customer Token Lifetime (hours]) | Global | Bestimmt die Dauer in Stunden, bevor ein Kunden-API-Token abläuft. Das Kunden-Token läuft nie ab, wenn das Feld leer ist. Standardwert: `1` |
 | [!UICONTROL Admin Token Lifetime (hours)] | Global | Bestimmt die Dauer in Stunden, bevor ein Admin-API-Token abläuft. Das Admin-Token läuft nie ab, wenn das Feld leer ist. Standardwert: `4` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ ht-degree: 1%
 | [!UICONTROL Cleanup Probability] | Global | Gibt die Anzahl der OAuth-Anfragen an, bevor die Bereinigung gestartet wird. Geben Sie `0` , um die Bereinigung zu deaktivieren. |
 | [!UICONTROL Enable WSDL Cache] | Global | Bestimmt das Alter der Einträge in Minuten, bevor sie bereinigt werden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Consumer Settings]
 
@@ -50,7 +50,7 @@ ht-degree: 1%
 | [!UICONTROL OAuth consumer credentials HTTP Post maxredirects] | Global | Gibt die maximale Anzahl von Weiterleitungen an, die sich auf eine Veröffentlichung von Kundenanmeldeinformationen beziehen. |
 | [!UICONTROL Expiration Period] | Global | Bestimmt die Anzahl der Sekunden, bevor ein nicht verwendeter Schlüssel/Geheimnis nach Beginn des OAuth-Token-Austauschs abläuft. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Authentication Locks]
 
@@ -61,4 +61,4 @@ ht-degree: 1%
 | [!UICONTROL Maximum Login Failures to Lock Out Account] | Global | Gibt die maximale Anzahl von Authentifizierungsfehlern an, für die das Konto gesperrt werden soll. |
 | [!UICONTROL Lockout Time (seconds)] | Global | Gibt den Zeitraum in Sekunden an, nach dem das Konto entsperrt wird. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

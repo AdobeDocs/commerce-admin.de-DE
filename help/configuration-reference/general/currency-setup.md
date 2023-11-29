@@ -4,10 +4,10 @@ description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTRO
 exl-id: a84be30f-f2eb-4c86-942c-2d49e5cf23af
 role: Admin
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 2%
+source-wordcount: '356'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 | [!UICONTROL Default Display Currency] | Store-Ansicht | Die Primärwährung, die zur Anzeige der Preise verwendet wird. |
 | [!UICONTROL Allowed Currencies] | Store-Ansicht | Die Währungen, die von Ihrem Geschäft gegen Bezahlung akzeptiert werden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixer.io (legacy)]
 
@@ -44,7 +44,7 @@ ht-degree: 2%
 | [!UICONTROL API key] | Global | Der Schlüssel, der für den Zugriff auf den Konvertierungsdienst über [!DNL fixer.io] -Konto. Weitere Informationen finden Sie unter [[!DNL fixer.io]](https://fixer.io/). |
 | [!UICONTROL Connection Timeout in Seconds] | Global | Bestimmt die Anzahl der Sekunden Inaktivität, bevor eine Fixer.io-Sitzung mit einem Timeout beendet wird. Standardwert: `100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixer Api (APILayer)]
 
@@ -55,7 +55,7 @@ ht-degree: 2%
 | [!UICONTROL API key] | Global | Der Schlüssel, der für den Zugriff auf den Konvertierungsdienst über [!DNL APILayer] -Konto. Weitere Informationen finden Sie unter [[!DNL APILayer]](https://apilayer.com/). |
 | [!UICONTROL Connection Timeout in Seconds] | Global | Bestimmt die Anzahl der Sekunden Inaktivität vor einer [!DNL APILayer] -Sitzung beendet ist. Der Standardwert ist `100`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Currency Converter API]
 
@@ -66,7 +66,7 @@ ht-degree: 2%
 | [!UICONTROL API key] | Global | Der Schlüssel für den Zugriff auf den Konvertierungsdienst. Weitere Informationen finden Sie unter [[!DNL Currency Convertor] API](https://free.currencyconverterapi.com/). |
 | [!UICONTROL Connection Timeout in Seconds] | Global | Bestimmt die Anzahl der Sekunden Inaktivität vor einer [!DNL Currency Converter] -Sitzung beendet ist. Standardwert:`100` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Scheduled Import Settings]
 
@@ -82,4 +82,4 @@ ht-degree: 2%
 | [!UICONTROL Error Email Sender] | Webseite | Identifiziert den Store-Kontakt, der als Absender der E-Mail-Benachrichtigung angezeigt wird. Standardabsender: `General Contact` |
 | [!UICONTROL Error Email Template] | Webseite | Gibt die Vorlage an, die als Grundlage für die Fehler-E-Mail-Benachrichtigung verwendet wird. Standardvorlage: `Currency Update Warnings` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Sales] &gt; [!UICONTROL Google API] Seite des Commerce-Administrators.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Anonymize IP] | Store-Ansicht | Bestimmt, ob Identifizierungsinformationen aus IP-Adressen entfernt werden, die in [!DNL Google Analytics] Ergebnisse. |
 | [!UICONTROL Enable Content Experiments] | Store-Ansicht | Aktiviert [Google Content Experiments](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), mit dem bis zu zehn verschiedene Versionen derselben Seite getestet werden können. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Analytics - Google Tag Manager]
 
@@ -48,7 +48,7 @@ Wann **[!UICONTROL Account Type]** auf `Google Tag Manager`, werden weitere Feld
 | [!UICONTROL List property for the search results page] | Store-Ansicht | Identifiziert die [!DNL Google Tag Manager] Eigenschaft, die mit der Suchergebnisseite verknüpft ist. Standardwert: `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | Store-Ansicht | Identifiziert die [!DNL Google Tag Manager] -Eigenschaft, die mit den Bezeichnungen für interne Promotions verknüpft ist. Standardwert: `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google AdWords]
 
@@ -68,7 +68,7 @@ Wann **[!UICONTROL Account Type]** auf `Google Tag Manager`, werden weitere Feld
 | [!UICONTROL Conversion Value] | Store-Ansicht | Gibt den Wert an, der für eine _[!UICONTROL Constant]_Konversionswerttyp. |
 | [!UICONTROL Send Order Currency] | Store-Ansicht | Aktiviert transaktionsspezifische Währungskonversionswerte in AdWords (für Websites mit unterschiedlichen Basiswährungen). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google GTag]
 
@@ -88,7 +88,7 @@ Wann **[!UICONTROL Account Type]** auf `Google Tag Manager`, werden weitere Feld
 | [!UICONTROL Anonymize IP] | Store-Ansicht | Bestimmt, ob Identifizierungsinformationen aus IP-Adressen entfernt werden, die in Google Analytics-Ergebnissen angezeigt werden. |
 | [!UICONTROL Enable Content Experiments] | Store-Ansicht | Aktiviert [Google Content Experiments](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207), mit dem bis zu zehn verschiedene Versionen derselben Seite getestet werden können. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google Analytics4 - Google Tag Manager]
 
@@ -108,7 +108,7 @@ Wann **[!UICONTROL Account Type]** auf `Google Tag Manager`, werden weitere Feld
 | [!UICONTROL List property for the search results page] | Store-Ansicht | Identifiziert die [!DNL Google Tag Manager] Eigenschaft, die mit der Suchergebnisseite verknüpft ist. Standardwert: `Search Results` |
 | [!UICONTROL 'Internal Promotions' for promotions field "Label"] | Store-Ansicht | Identifiziert die [!DNL Google Tag Manager] -Eigenschaft, die mit den Bezeichnungen für interne Promotions verknüpft ist. Standardwert: `Label` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Google AdWords]
 
@@ -128,4 +128,4 @@ Wann **[!UICONTROL Account Type]** auf `Google Tag Manager`, werden weitere Feld
 | [!UICONTROL Conversion Value] | Store-Ansicht | Gibt den Wert an, der für eine _[!UICONTROL Constant]_Konversionswerttyp. |
 | [!UICONTROL Send Order Currency] | Store-Ansicht | Aktiviert transaktionsspezifische Währungskonversionswerte in AdWords (für Websites mit unterschiedlichen Basiswährungen). |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

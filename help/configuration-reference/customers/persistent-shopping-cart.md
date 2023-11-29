@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Customers] &gt; [!UICONTROL Persistent Shopping Cart] Seite des Commerce-Administrators.
 exl-id: d6c5ae46-32ed-4fcd-bcd6-ee3a07d7db5f
 feature: Configuration, Shopping Cart
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -39,4 +39,4 @@ ht-degree: 0%
 | [!UICONTROL Persist Recently Viewed Products] | Webseite | ![Adobe Commerce](../../assets/adobe-logo.svg) (Nur Adobe Commerce) Bestimmt, ob der Status der zuletzt angezeigten Produkte beibehalten wird, wenn die Sitzung beendet wird. Optionen: <br/>**`Yes`**- Der Status der zuletzt angezeigten Produkte wird gespeichert, wenn die Sitzung beendet wird.<br/>**`No`** - Der Status der zuletzt angezeigten Produkte wird nicht gespeichert, wenn die Sitzung beendet wird. |
 | [!UICONTROL Persist Customer Group Membership and Segmentation] | Webseite | ![Adobe Commerce](../../assets/adobe-logo.svg) (Nur Adobe Commerce) Bestimmt, ob der Status der Gruppenmitgliedschaft und Segmentierungskriterien von Kunden beibehalten wird, wenn die Sitzung beendet wird. Optionen: <br/>**`Yes`**- Der Status der Gruppenmitgliedschaft und Segmentierungsdaten des Kunden wird gespeichert, wenn die Sitzung beendet wird.<br/>**`No`** - Der Status der Gruppenmitgliedschaft und Segmentierungsdaten des Kunden werden nicht gespeichert, wenn die Sitzung beendet wird. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

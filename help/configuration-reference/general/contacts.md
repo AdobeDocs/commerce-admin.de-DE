@@ -3,10 +3,10 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Contacts]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL General] &gt; [!UICONTROL Contacts] Seite des Commerce-Administrators.
 exl-id: 1acd6683-772d-431f-8b74-230163ded1be
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 |--- |--- |--- |
 | [!UICONTROL Enable Contact Us] | Store-Ansicht | Aktiviert die [_Kontakt_](../../getting-started/store-details.md#contact-us-form) und platziert einen Link in der Fußzeile. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options]
 
@@ -38,4 +38,4 @@ ht-degree: 1%
 | [!UICONTROL Email Sender] | Store-Ansicht | Identifiziert den Store-Kontakt, der für alle Antworten auf E-Mail-Anfragen aus der _Kontakt_ Seite. Standardabsender: `Custom Email 2` |
 | [!UICONTROL Email Template] | Store-Ansicht | Gibt die Vorlage an, die als Grundlage für alle Antworten auf E-Mail-Anfragen aus der _Kontakt_ Seite. Standardvorlage: `Contact Form` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

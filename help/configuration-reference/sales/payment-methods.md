@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] Seite des Commerce-Administrators.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Merchant Country] | Webseite | Gibt das Land an, in dem der Händler zur Geschäftsausführung registriert ist. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Empfohlene Lösungen
 
@@ -86,7 +86,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Maximum Order Total] | Webseite | Der größte Bestellbetrag, der per Scheck oder Geldbestellung bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung qualifiziert sich, wenn die Gesamtsumme zwischen der minimalen oder der maximalen Bestellsumme liegt oder damit übereinstimmt. |
 | [!UICONTROL Sort Order] | Webseite | Eine Zahl, die die Bestellung bestimmt, in der die Zahlung per Scheck oder Geldauftrag erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Eingabe `0` , um ihn oben in der Liste zu platzieren. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
@@ -105,7 +105,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Maximum Order Total] | Webseite | Der größte Bestellbetrag, der per Banküberweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung qualifiziert sich, wenn die Gesamtsumme zwischen der minimalen oder der maximalen Bestellsumme liegt oder damit übereinstimmt. |
 | [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge die Zahlung per Banküberweisung erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Eingabe `0` , um ihn oben in der Liste zu platzieren. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Payment on Account]
 
@@ -126,7 +126,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Maximum Order Total] | Webseite | Der größte Bestellbetrag, der einem Unternehmenskonto in Rechnung gestellt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung qualifiziert sich, wenn die Gesamtsumme zwischen der minimalen oder der maximalen Bestellsumme liegt oder damit übereinstimmt. |
 | [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge die Zahlung auf Konto erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Eingabe `0` , um ihn oben in der Liste zu platzieren. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Maximum Order Total] | Webseite | Der größte Bestellbetrag, der per Banküberweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung qualifiziert sich, wenn die Gesamtsumme zwischen der minimalen oder der maximalen Bestellsumme liegt oder damit übereinstimmt. |
 | [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge die Zahlung per Banküberweisung erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Eingabe `0` , um ihn oben in der Liste zu platzieren. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Zero Subtotal Checkout]
 
@@ -166,7 +166,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Payment from Specific Countries] | Webseite | Identifiziert die spezifischen Länder, für die die Checkout-Zwischensumme null angewendet werden kann. |
 | [!UICONTROL Sort Order] | Webseite | Eine Zahl, die die Reihenfolge bestimmt, in der der Titel, z. B. &quot;Keine Zahlungsinformationen erforderlich&quot;, erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Eingabe `0` , um ihn oben in der Liste zu platzieren. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
 
@@ -185,7 +185,7 @@ Eine umfassende Liste der einzelnen Konfigurationsoptionen finden Sie im Abschni
 | [!UICONTROL Order] | Stellt eine Vereinbarung mit PayPal dar, die es dem Händler ermöglicht, innerhalb einer bestimmten Frist (bis zu 29 Tage) einen oder mehrere Beträge bis zur Bestellsumme aus dem Käuferkonto des Kunden zu erfassen. |
 | [!UICONTROL Sale] | Der Kaufbetrag ist autorisiert und wird sofort vom Konto des Kunden zurückgezogen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -208,4 +208,4 @@ Eine umfassende Liste der einzelnen Konfigurationsoptionen finden Sie im Abschni
 | [!UICONTROL Maximum Order Total] | Webseite | Der größte Bestellbetrag, der von PO bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung qualifiziert sich, wenn die Gesamtsumme zwischen der minimalen oder der maximalen Bestellsumme liegt oder damit übereinstimmt. |
 | [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge die Zahlung durch PO erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Eingabe `0` , um ihn oben in der Liste zu platzieren. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

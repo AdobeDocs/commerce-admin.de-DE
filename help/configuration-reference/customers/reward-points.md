@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] Seite des Commerce-Administrators.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Global | Bestimmt, ob die Belohnungspunkte automatisch vom Erstattungsbetrag abgezogen werden. Optionen: `Yes` / `No`. |
 | [!UICONTROL Landing Page] | Store-Ansicht | Gibt die CMS-Seite an, auf der Ihr Prämienpunktprogramm erläutert wird. Ein Link zur standardmäßigen Belohnungsseite wird an den Stellen in Ihrem Geschäft angezeigt, an denen Punkte gesammelt werden können. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!UICONTROL Review Submission] | Webseite | Bestimmt die Anzahl der Punkte, die ein Kunde erhält, der eine für die Veröffentlichung genehmigte Überprüfung einreicht. |
 | [!UICONTROL Rewarded Reviews Submission Quantity Limit] | Webseite | Begrenzt die Anzahl der Reviews, die verwendet werden können, um Punkte pro Kunde zu sammeln. Lassen Sie das Feld leer, ohne Einschränkung. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Notification Settings]
 
@@ -76,4 +76,4 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Expiry Warning Email] | Store-Ansicht | Bestimmt die Vorlage der E-Mail, die Kunden erhalten, wenn die Ablaufwarnungsbegrenzung für eine Reihe von Punkten erreicht wurde. Standardvorlage: `Reward Points Expiry Warning` |
 | [!UICONTROL Expiry Warning before (days)] | Global | Gibt die Anzahl der Tage vor Ablauf des Punkts an, um die Benachrichtigung zu senden. Lassen Sie das Feld leer, um keine Ablaufbenachrichtigungen zu senden. Eine Benachrichtigung wird nicht gesendet, wenn die angegebene Anzahl von Tagen die verbleibende Lebensdauer der Punkte überschreitet. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

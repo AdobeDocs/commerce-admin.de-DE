@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL Store Email Addresses]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL General] &gt; [!UICONTROL Store Email Addresses] Seite des Commerce-Administrators.
 exl-id: 7c9e519c-dfc9-4de4-a0a4-1770b7c58145
 feature: Configuration, Communications
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '202'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Siehe [E-Mail-Adressen speichern](../../getting-started/store-details.md#store-e
 | [!UICONTROL Sender Name] | Store-Ansicht | Der Name, der als Absender der von der `General Contact` Identität. |
 | [!UICONTROL Sender Email] | Store-Ansicht | Die mit der Variablen `General Contact` Identität. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Sales Representative]
 
@@ -36,7 +36,7 @@ Siehe [E-Mail-Adressen speichern](../../getting-started/store-details.md#store-e
 | [!UICONTROL Sender Name] | Store-Ansicht | Der Name, der als Absender der von der `Sales Representative` Identität. |
 | [!UICONTROL Sender Email] | Store-Ansicht | Die mit der Variablen `Sales Representative` Identität. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer Support]
 
@@ -47,7 +47,7 @@ Siehe [E-Mail-Adressen speichern](../../getting-started/store-details.md#store-e
 | [!UICONTROL Sender Name] | Store-Ansicht | Der Name, der als Absender der von der `Customer Support` Identität. |
 | [!UICONTROL Sender Email] | Store-Ansicht | Die mit der Variablen `Customer Support` Identität. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Benutzerspezifische E-Mail 1
 
@@ -58,7 +58,7 @@ Siehe [E-Mail-Adressen speichern](../../getting-started/store-details.md#store-e
 | [!UICONTROL Sender Name] | Store-Ansicht | Der Name, der als Absender der von der `Custom 1` Identität. |
 | [!UICONTROL Sender Email] | Store-Ansicht | Die mit der Variablen `Custom 1` Identität. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Benutzerdefinierte E-Mail 2
 
@@ -69,4 +69,4 @@ Siehe [E-Mail-Adressen speichern](../../getting-started/store-details.md#store-e
 | [!UICONTROL Sender Name] | Store-Ansicht | Der Name, der als Absender der von der `Custom 2` Identität. |
 | [!UICONTROL Sender Email] | Store-Ansicht | Die mit der Variablen `Custom 2` Identität. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL P
 description: Überprüfen Sie die Konfigurationseinstellungen im Abschnitt [!UICONTROL PayPal Payments Standard] im Abschnitt [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] Seite des Commerce-Administrators.
 exl-id: 846d9b6f-92b9-4610-b894-625f67f4cff8
 feature: Configuration, Payments
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 | [!UICONTROL Enable this Solution] | Webseite | Stellt fest, ob PayPal Payments Pro Ihren Kunden als Zahlungsmethode zur Verfügung steht. |
 | [!UICONTROL Enable PayPal Credit] | Webseite | Stellt fest, ob PayPal-Guthaben Ihren Kunden als Zahlungsoption zur Verfügung steht. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Advertise PayPal Credit
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 | [!UICONTROL Catalog Product Page] | Webseite | Bestimmt die Position und Größe der [!DNL PayPal Credit] Banner auf Produktseiten. Optionen: (entspricht für [!UICONTROL Home Page]) |
 | [!UICONTROL Checkout Cart Page] | Webseite | Bestimmt die Position und Größe der [!DNL PayPal Credit] Banner auf der Warenkorbseite. Optionen: (entspricht für [!UICONTROL Home Page]) |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Basic Settings - PayPal Payments Standard]
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | [!UICONTROL Credit Card Settings] |  |  |
 | [!UICONTROL Allowed Credit Cart Types] | Webseite | Bestimmt die Kreditkarten, die Kunden beim Checkout zur Verfügung stehen. Wählen Sie jede unterstützte Karte aus. Optionen: `American Express` (erfordert eine zusätzliche Vereinbarung) / `Visa` / `MasterCard` / `Discover` / `JCB` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Advanced Settings]
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 | [!UICONTROL Billing Agreement Signup] | Webseite | Stellt fest, ob Kunden in der Lage sind, [Abrechnungsvereinbarung](../../stores-purchase/paypal-billing-agreements.md) mit Ihrem Geschäft. Optionen: <br/>**`Auto`**- Der Kunde kann sich während des Express Checkout für eine Abrechnungsvereinbarung anmelden.<br/>**`Ask Customer`** - Der Kunde wird gefragt, ob er sich für eine Abrechnungsvereinbarung anmelden möchte. <br/>**`Never`**- Kunden wird nicht die Möglichkeit angeboten, sich für einen Abrechnungsvertrag zu registrieren. |
 | [!UICONTROL Skip Order Review Step] | Webseite | Bestimmt, ob Kunden die Transaktion von der PayPal-Site aus abschließen können oder dazu verpflichtet sind, zu Ihrem Store zurückzukehren und den Schritt &quot;Bestellprüfung&quot;abzuschließen, bevor die Bestellung gesendet wird. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Billing Agreement Setting]
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 | [!UICONTROL Transfer Cart Line Items] | Webseite | Wenn diese Option aktiviert ist, zeigt eine Zusammenfassung der Zeileneinträge aus dem Warenkorb auf Ihrer PayPal-Zahlungsseite an. Optionen: `Yes` / `No` |
 | [!UICONTROL Allow in Billing Agreement Wizard] | Webseite | Wenn diese Option aktiviert ist, können Kunden über das Dashboard ihres Kundenkontos eine Abrechnungsvereinbarung einleiten. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Settlement Report Settings]
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 | [!UICONTROL Schedule] | Global | Bestimmt, wie oft Vergleichsberichte von PayPal generiert werden. Optionen: `Daily` / `Every 3 days` / `Every 7 days` / `Every 10 days` / `Every 14 days` / `Every 30 days` / `Every 40 days` |
 | [!UICONTROL Time of Day] | Global | Bestimmt die Stunde, Minute und Sekunde, in der die Vergleichsberichte generiert werden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Frontend Experience Settings]
 
@@ -138,4 +138,4 @@ ht-degree: 0%
 | [!UICONTROL Header Image Border Color] | Store-Ansicht | Der sechsstellige hexadezimale Farbcode für den zweiPixelrahmen um die Kopfzeile. |
 | [!UICONTROL Page Background Color] | Store-Ansicht | Der sechsstellige hexadezimale Farbcode für die Hintergrundfarbe der Checkout-Seite, der hinter der Kopfzeile und dem Zahlungsformular angezeigt wird. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

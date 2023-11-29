@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] Seite des Commerce-Administrators.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | Webseite | Bestimmt, ob Besucher Ihres Stores die Wahl haben, [registrieren](../../customers/customer-sign-in.md) für ein Unternehmenskonto oder ein individuelles Konto. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email Options - Company Registration]
 
@@ -47,7 +47,7 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 | [!UICONTROL Send Email Copy Method] | Store-Ansicht | Die E-Mail-Methode, mit der die Kopie der Registrierungs-E-Mail gesendet wird. Optionen: `Bcc` / `Separate Email` |
 | [!UICONTROL Default Company Registration Email] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig für die Benachrichtigung zur Unternehmensregistrierung verwendet wird. Standardvorlage: `Company Registration Request` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Customer-Related Emails]
 
@@ -63,7 +63,7 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 | [!UICONTROL Default 'Customer Status Active' Email] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn der Status eines Kunden aktiv wird. Diese E-Mail wird nur an den Kunden gesendet. Standardvorlage: `Customer Status Active` |
 | [!UICONTROL Default 'Customer Status Inactive' Email] | Store-Ansicht | Die standardmäßig verwendete E-Mail-Vorlage, wenn der Status eines Kunden inaktiv wird. Diese E-Mail wird nur an den Kunden gesendet. Standardvorlage: `Customer Status Inactive` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Status Change]
 
@@ -80,7 +80,7 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 | [!UICONTROL Default 'Company Status Change to Blocked' Email] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn sich der Status eines Unternehmens in _Blockierung_. Standardvorlage: `Company Status Blocked` |
 | [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn sich der Status eines Unternehmens in _Ausstehende Genehmigung_. Standardvorlage: `Company Status Pending Approval` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Company Credit]
 
@@ -97,4 +97,4 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 | [!UICONTROL Refunded Email Template] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn ein aus einer Bestellung stammender Betrag an das Firmenguthaben zurückerstattet wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn eine Bestellung auf die Unternehmensgutschrift zurückgesetzt wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Order Reverted to Company Credit` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

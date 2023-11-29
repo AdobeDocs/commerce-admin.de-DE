@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Invitations]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Customers] &gt; [!UICONTROL Invitations] Seite des Commerce-Administrators.
 exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '252'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 | [!UICONTROL Allow Customers to Add Custom Message to Invitation Email] | Store-Ansicht | Bestimmt, ob im Einladungsformular ein Feld vorhanden ist, in dem der Einladende eine benutzerdefinierte Nachricht hinzufügen kann, die per E-Mail an die Einladung gesendet wird. Dies wirkt sich nicht auf die Fähigkeit des Administrators aus, einer Einladung eine Nachricht hinzuzufügen. Optionen: `Yes` / `No`. |
 | [!UICONTROL Max Invitations Allowed to be Sent at One Time] | Store-Ansicht | Bestimmt die maximale Anzahl von Einladungen, die der Einladende gleichzeitig senden kann. Jede E-Mail-Adresse, die der Einladende in das Formular einbezieht, erhält eine andere Einladung. Dadurch werden Serverressourcen geschützt, da verhindert wird, dass eine große Anzahl von Einladungen gleichzeitig gesendet wird, und es ist weniger wahrscheinlich, dass Einladungen als Spam gesendet werden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Email]
 
@@ -44,4 +44,4 @@ ht-degree: 1%
 | [!UICONTROL Customer Invitation Email Sender] | Store-Ansicht | Legt den Absender der E-Mail fest, die eingeladene Personen erhalten, wenn eine Einladungs-E-Mail gesendet wird. Standardwert: `General Contact` |
 | [!UICONTROL Customer Invitation Email Template] | Store-Ansicht | Bestimmt die Vorlage der E-Mail, die eingeladene Personen erhalten, wenn eine Einladungs-E-Mail gesendet wird. Standardvorlage: `Customer Invitation` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

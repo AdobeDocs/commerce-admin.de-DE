@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL Security.txt]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Security] &gt; [!UICONTROL Security.txt] Seite des Commerce-Administrators.
 exl-id: 26385864-cfd8-456b-91b2-bf5d019c09e1
 feature: Configuration, Security, Site Management
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Weitere Informationen zum Ändern dieser Konfigurationseinstellungen finden Sie 
 |--- |--- |--- |
 | [!UICONTROL Enable] | Webseite | Wenn diese Option aktiviert ist, wird eine `security.txt` -Datei gespeichert wird, die Informationen enthält, die von Sicherheitsexperten benötigt werden, um potenzielle Sicherheitslücken zu melden. Optionen:<br />**`Yes`**- Erstellt die `security.txt` -Datei anhand der in der Variablen _Kontaktangaben_ und _Weitere Informationen_ Abschnitte.<br />**`No`** - (Standard) Erstellt nicht die `security.txt` -Datei. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Contact information]
 
@@ -36,7 +36,7 @@ Weitere Informationen zum Ändern dieser Konfigurationseinstellungen finden Sie 
 | [!UICONTROL Phone] | Webseite | Eine Telefonnummer, mit der Sicherheitsbedenken gemeldet werden können. |
 | [!UICONTROL Contact Page] | Webseite | Die URL einer Seite auf Ihrer Site, auf der Sicherheitskontakte aufgelistet werden, oder Ihre _Kontakt_ Seite. Beispiele: <br/>`https://mystore.com/security-contact.html`<br/>`https://mystore.com/contact/` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Other information]
 
@@ -51,4 +51,4 @@ Weitere Informationen zum Ändern dieser Konfigurationseinstellungen finden Sie 
 | [!UICONTROL Policy] | Webseite | Die URL der Seite, die Ihre Sicherheitsrichtlinien und die Best Practices für die Meldung von Sicherheitslücken beschreibt. Beispiel: `https://mystore.com/security-reporting.html` Standard: `https://mystore.com/security` |
 | [!UICONTROL Signature] | Webseite | Ein Link zu Ihrer digitalen Signaturdatei. Die digitale Signatur muss über die Befehlszeile generiert und im `.well-known` -Ordner auf dem Server. Weitere Informationen finden Sie unter [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) auf GitHub. Beispiel: `https://mystore.com/.well-known/security.txt.sig` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

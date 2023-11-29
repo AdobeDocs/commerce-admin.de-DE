@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] Seite des Commerce-Administrators.
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-source-git-commit: fcecad03e0b2176dbf5825546efb3d689f3187d5
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Detaillierte Informationen zum Konfigurieren dieser Multishipping-Einstellungen 
 | [!UICONTROL Allow Shipping to Multiple Addresses] | Webseite | Bestimmt, ob einzelne Bestellungen an mehrere Adressen versandt werden dürfen (nur registrierte Kunden). Optionen: `Yes` / `No` |
 | [!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses] | Webseite | Legt eine Begrenzung für die Anzahl der Einheiten eines Produkts fest, die an mehrere Adressen gesendet werden können. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

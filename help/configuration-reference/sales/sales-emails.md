@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Sales] &gt; [!UICONTROL Sales Emails] Seite des Commerce-Administrators.
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
-source-git-commit: 74cc15bd7e0873705b46175ae5f277b1753ec5b5
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2331'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Asynchronous sending] | Global | Bestimmt, ob Verkaufs-E-Mails asynchron gesendet werden. Es wird empfohlen, den asynchronen Versand zu aktivieren. Optionen: <br/>**`Disable`**- (Standard) E-Mails zum Verkauf werden gesendet, wenn sie durch ein Ereignis ausgelöst werden.<br/>**`Enable`** - (Empfohlen) E-Mails zum Verkauf werden in vordefinierten, regelmäßigen Abständen gesendet. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order]
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 | [!UICONTROL Send Order Email Copy To] | Store-Ansicht | Gibt die E-Mail-Adresse eines jeden an, der eine Kopie einer Bestell-E-Mail erhält. Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send Order Email Copy Method] | Store-Ansicht | Gibt die zum Senden der Kopie verwendete E-Mail-Methode an. Zu den Optionen gehören: <br/>**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br/>**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Comments]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 | [!UICONTROL Send Order Email Copy To|Store View] | Gibt die E-Mail-Adresse eines jeden an, der eine Kopie einer E-Mail mit einem Bestellkommentar erhält. Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send Order Email Copy Method] | Store-Ansicht | Gibt die Methode an, die zum Senden der Kopie verwendet wird. Zu den Optionen gehören: <br/>**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br/>**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice]
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 | [!UICONTROL Send Invoice Email Copy To] | Store-Ansicht | Gibt die E-Mail-Adresse eines Empfängers an, um eine Kopie einer E-Mail mit einer Rechnung zu erhalten. Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send Invoice Email Copy Method] | Store-Ansicht | Gibt die Methode an, die zum Senden der Kopie verwendet wird. Zu den Optionen gehören: <br/>**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br/>**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Invoice Comments]
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Send Invoice Comment Email Copy To] | Store-Ansicht | Gibt die E-Mail-Adresse eines jeden an, der eine Kopie einer E-Mail mit einem Rechnungskommentar erhält. Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send Invoice Comments Email Copy Method] | Store-Ansicht | Gibt die zum Senden der Kopie verwendete E-Mail-Methode an. Zu den Optionen gehören: <br/>**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br/>**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment]
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 | [!UICONTROL Send Shipment Email Copy To] | Store-Ansicht | Liefert die E-Mail-Adresse eines jeden Empfängers, der eine Kopie einer Versand-E-Mail erhalten soll. Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send Shipment Email Copy Method] | Store-Ansicht | Gibt die Methode an, die zum Senden der Kopie verwendet wird. Zu den Optionen gehören: <br/>**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br/>**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shipment Comments]
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Send Shipment Comment Email Copy To] | Store-Ansicht | Gibt die E-Mail-Adresse eines jeden an, um eine Kopie einer E-Mail mit einem Versandkommentar zu erhalten. Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send Shipment Comments Email Copy Method] | Store-Ansicht | Gibt die zum Senden der Kopie verwendete E-Mail-Methode an. Zu den Optionen gehören: <br/>**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br/>**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo]
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 | [!UICONTROL Send Credit Memo Email Copy To] | Store-Ansicht | Liefert die E-Mail-Adresse eines jeden Empfängers, der eine Kopie einer Kreditmemo-E-Mail erhalten soll. Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send Credit Memo Email Copy Method] | Store-Ansicht | Gibt die Methode an, die zum Senden der Kopie verwendet wird. Zu den Optionen gehören: <br/>**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br/>**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Credit Memo Comments]
 
@@ -160,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Send Credit Memo Comment Email Copy To] | Store-Ansicht | Gibt die E-Mail-Adresse eines jeden an, der eine Kopie einer E-Mail mit einem Kommentar erhalten soll. Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send Credit Memo Comments Email Copy Method] | Store-Ansicht | Gibt die zum Senden der Kopie verwendete E-Mail-Methode an. Zu den Optionen gehören: <br/>**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br/>**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Order Ready For Pickup in Store]
 
@@ -177,7 +177,7 @@ ht-degree: 0%
 | Bestellung bereit zum Abruf der E-Mail-Kopie an senden | Store-Ansicht | Gibt die E-Mail-Adresse eines jeden an, der eine Kopie eines _Bestellung bereit für Abruf_ E-Mail Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send Order Ready For Pickup Email Copy Method] | Store-Ansicht | Gibt die zum Senden der Kopie verwendete E-Mail-Methode an. Optionen: <br/>**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br/>**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Purchase Order Approval]
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 | [!UICONTROL Error creating Order from Purchase Order (to Buyer)] | Store-Ansicht | Benachrichtigt den Ersteller darüber, dass beim Konvertieren einer Bestellaufgabe ein Fehler aufgetreten ist. |
 | [!UICONTROL Purchase Order required Approval (to Approver)] | Store-Ansicht | Sendet eine E-Mail, um den Genehmiger darüber zu informieren, dass die Bestellung genehmigt werden muss. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Quote]
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 | [!UICONTROL Send Quote Email Copy To] | Store-Ansicht | Gibt die E-Mail-Adresse jeder Person an, die eine Kopie der Angebots-E-Mail erhalten soll. Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send Quote Email Copy Method] | Store-Ansicht | Gibt die zum Senden der Kopie verwendete E-Mail-Methode an. Zu den Optionen gehören: <br/>**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br/>**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA]
 
@@ -238,7 +238,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Email Copy To] | Store-Ansicht | Gibt die E-Mail-Adresse eines jeden an, der eine Kopie einer RMA-E-Mail erhalten soll. Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send RMA  Email Copy Method] | Store-Ansicht | Gibt die zum Senden der Kopie verwendete E-Mail-Methode an. Zu den Optionen gehören: <br/>**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br/>**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Authorization]
 
@@ -257,7 +257,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Authorization Email Copy To] | Store-Ansicht | Gibt die E-Mail-Adresse eines jeden an, um eine Kopie einer RMA-Autorisierungs-E-Mail zu erhalten. Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send RMA Authorization Email Copy Method] | Store-Ansicht | Gibt die zum Senden der Kopie verwendete E-Mail-Methode an. Zu den Optionen gehören: <br/>**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br/>**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Admin Comments]
 
@@ -274,7 +274,7 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Comment Email Copy To] | Store-Ansicht | Gibt die E-Mail-Adresse eines Kontakts an, um eine Kopie der Benachrichtigung zu erhalten. Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send RMA Comments Email Copy Method] | Store-Ansicht | Gibt die zum Senden der Kopie verwendete E-Mail-Methode an. Zu den Optionen gehören: <br/>**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br/>**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL RMA Customer Comments]
 
@@ -293,4 +293,4 @@ ht-degree: 0%
 | [!UICONTROL Send RMA Comment Email Copy To] | Store-Ansicht | Gibt die E-Mail-Adresse eines Kontakts an, um eine Kopie der Benachrichtigung zu erhalten. Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send RMA Comments Email Copy Method] | Store-Ansicht | Gibt die zum Senden der Kopie verwendete E-Mail-Methode an. Zu den Optionen gehören: <br/>**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br/>**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

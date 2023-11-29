@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Inventory]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Catalog] &gt; [!UICONTROL Inventory] Seite des Commerce-Administrators.
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
-source-git-commit: 80630957dbe25d21c45f64d8027a39b7b396619d
+source-git-commit: 768c9fdc37127b408230983e39e98b11149713a7
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Inventory Check On Cart Load] | Global | Bestimmt, ob beim Laden eines Produkts in den Warenkorb eine Bestandsüberprüfung durchgeführt wird. Die Deaktivierung dieser Bestandsüberprüfung kann die Leistung bei Checkout-Schritten verbessern, insbesondere wenn viele Artikel im Warenkorb sind. Wenn Sie die Vorab-Validierung jedoch überspringen, können Kunden _nicht vorrätig_ Fehler später im Checkout-Prozess. Optionen: `Yes` / `No` |
 | [!UICONTROL Synchronize with Catalog] | Global | Wenn festgelegt auf `Yes`, werden die Bestandsdaten entsprechend den Katalogänderungen angepasst (z. B. Produkterneuerungen, Änderungen der Produkt-SKU und Änderungen des Produkttyps) und sorgen für Konsistenz zwischen Bestand und Katalog. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Product Stock Options]
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Qty Increments] | Global | Legt die Anzahl der Produkte fest, aus denen eine Mengenerhöhung besteht. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | Global | Bestimmt, ob in Kreditkarten enthaltene Elemente automatisch in den Bestand zurückgegeben werden. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Admin Bulk Operations]
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 | [!UICONTROL Run asynchronously] | Global | Bestimmt, ob Sie Massenvorgänge für Massenproduktaktionen asynchron ausführen, einschließlich [Massengut](../../inventory-management/bulk-assignment.md) Zuweisen von Quellen, Aufheben der Zuweisung von Quellen und [Bestandsübertragung an Quelle](../../inventory-management/inventory-transfer.md). Sie erfasst Massenaktionen bis zum _[!UICONTROL Asynchronous batch size]_, dann führt diese Aktionen aus. Diese Funktion ist standardmäßig deaktiviert. Es wird empfohlen, Ihre Leistung mit Massenaktionen zu überprüfen, bevor Sie die Aktivierung vornehmen. Optionen:<br/>**`Yes`**- Führt alle Massenvorgänge für [!DNL Inventory Management] asynchron. Um dies zu aktivieren, müssen Sie einen asynchronen Warteschlangenmanager konfigurieren.<br/>**`No`**- Standard. Führt keine asynchronen Massenvorgänge aus. |
 | [!UICONTROL Asynchronous batch size] | Global | Satz **[!UICONTROL Run asynchronously]** nach `Yes` , um einen Wert für _[!UICONTROL Asynchronous batch size]_-Feld. <br/>Die standardmäßige Batch-Größe ist 100. Wenn Massenprozesse diesen Wert erreichen, werden sie ausgeführt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Inventory Indexer Settings]
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Stock/Source reindex strategy] | Global | Bestimmt die Strategie für die Neuindizierung von Beständen/Quellen. Optionen: `Synchronous` / `Asynchronous` (Für den asynchronen Modus muss ein asynchroner Warteschlangenmanager konfiguriert werden.) |
 
+{style="table-layout:auto"}
+
 >[!NOTE]
 >
 > Aufgrund der Abhängigkeiten von Inventaraktualisierungen für die auftragsbezogenen Aktivitäten wird der Inventarindexer auch bei der Produktspeicherung ausgelöst, unabhängig von der `Synchronous` oder `Asynchronous` -Einstellung.
 
-
-{:style=&quot;table-layout:auto&quot;}
 
 ## [!UICONTROL Distance Provider for Distance Based SSA]
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Provider] | Global | Bestimmt den Anbieter, der für den Algorithmus zur Auswahl der Distance Priority Source verwendet werden soll. Diese Funktion ist standardmäßig aktiviert. Optionen: <br/>**`Google MAP`**- Verwendet Google-Dienste zur Berechnung der Entfernung und der Uhrzeit zwischen der Lieferadresse und den Quellspeicherorten (Adresse und GPS-Koordinaten). Für diese Option ist ein Google-API-Schlüssel erforderlich, für den möglicherweise Gebühren über Google anfallen.<br/>**`Offline Calculation`** - Berechnet die Entfernung mithilfe einer eingebetteten Datenbank, um die nächstgelegene Quelle für die Lieferzieladresse zu bestimmen. Um diese Option verwenden zu können, benötigen Sie möglicherweise Hilfe von Entwicklern, um zunächst den Inhalt des Datenbankspeicherorts für alle Länder herunterzuladen, die Sie über eine Befehlszeile versenden. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Google Distance Provider]
 
@@ -111,4 +111,4 @@ ht-degree: 0%
 | [!UICONTROL Computation mode] | Global | Bestimmt die Anweisungen und Pfade zur Berechnung der Entfernung von der Lieferadresse und allen dem Lager zugewiesenen Quellen. Standardmäßig verwenden Berechnungen den Fahrmodus. Optionen: <br/>**`Driving`**- Standardeinstellung, fordert Standardfahrtanweisungen über das Straßennetz an.<br/>**`Walking`** - Fordern Sie Wanderwege mit Fußgängerwegen und Bürgersteigen an (sofern verfügbar). <br/>**`Bicycling`**- fordert Fahrradwege mit Fahrradwegen und bevorzugten Straßen (derzeit nur in den USA und einigen kanadischen Städten verfügbar). |
 | [!UICONTROL Value] | Global | Gibt an, was für die Entfernung und die Zeit der Quellstandorte zur Lieferzieladresse berechnet und zurückgegeben werden soll. Der Distance Priority Algorithm empfiehlt die Quelle mit der kürzesten Entfernung oder der kürzesten Zeit zur Lieferzieladresse, die schneller und möglicherweise kostengünstiger zur Erfüllung von Sendungen ist. Optionen: <br/>**`Distance`**- Gibt die Entfernung zwischen Punkten in Metriken (Kilometer und Meter) oder dem Kaiserreich (Meilen und Füßen) zurück.<br/>**`Time to Destination`** - Gibt die erforderliche Zeit zurück, um von den Quellspeicherorten in Stunden und Minuten zur Lieferadresse zu gelangen. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

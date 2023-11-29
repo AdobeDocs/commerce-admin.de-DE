@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Tax]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Sales] &gt; [!UICONTROL Tax] Seite des Commerce-Administrators.
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
-source-git-commit: 0d1bb3666be18676acd770b6b96e4ee46d3cf1c9
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Steuerk
 | [!UICONTROL Default Tax Class for Product] | Global | Gibt die für Produkte verwendete Standardsteuerklasse an. |
 | [!UICONTROL Default Tax Class for Customer] | Global | Gibt die Standardsteuerklasse an, die für Kunden verwendet wird. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Calculation Settings]
 
@@ -50,7 +50,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Steuerk
 | [!UICONTROL Apply Tax On] | Webseite | Bestimmt, ob die Steuer auf den ursprünglichen Preis oder gegebenenfalls auf einen benutzerdefinierten Preis angewendet wird. Optionen: `Custom price if available` / `Original price only` |
 | [!UICONTROL Enable Cross Border Trade] | Webseite | Wenn diese Option aktiviert ist, wird eine konsistente Preisgestaltung grenzüberschreitend in Regionen mit unterschiedlichen Steuersätzen angewendet. Optionen: `Yes` / `No` <br/><br/>**_Hinweis:_**Durch den grenzüberschreitenden Handel wird die Gewinnspanne nach Steuersatz angepasst. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Default Tax Destination Calculation]
 
@@ -62,7 +62,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Steuerk
 | [!UICONTROL Default State] | Store-Ansicht | Bestimmt den Status, auf dem Steuerberechnungen basieren. Ein Sternchen (*) kann als Platzhalter dienen, der alle Staaten im ausgewählten Land angibt. |
 | [!UICONTROL Default Post Code] | Store-Ansicht | Gibt die Postleitzahl oder Postleitzahl an, auf der die Steuerberechnungen basieren. Ein Sternchen (*) kann als Platzhalter dienen, der alle Postleitzahlen im ausgewählten Status angibt. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Price Display Settings]
 
@@ -75,7 +75,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Preisan
 | [!UICONTROL Display Product Prices in Catalog] | Store-Ansicht | Bestimmt, ob die im Katalog veröffentlichten Produktpreise Steuern enthalten oder ausschließen oder zwei Versionen des Preises anzeigen, eine mit und die andere ohne Steuern. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Hinweis:_**Wenn Sie das Feld Produktpreise anzeigen auf `Including Tax`, wird die Steuer nur angezeigt, wenn eine Steuerregel vorhanden ist, die mit der steuerlichen Herkunft übereinstimmt, oder eine Kundenadresse vorhanden ist, die der Steuerregel entspricht. Zu den Ereignissen, die eine Übereinstimmung Trigger haben können, gehören die Erstellung von Kundenkonten, die Anmeldung oder die Verwendung des Steuerungs- und Versandschätzungs-Tools im Warenkorb. |
 | [!UICONTROL Display Shipping Prices] | Store-Ansicht | Bestimmt, ob die Versandpreise Steuern enthalten oder ausschließen oder zwei Versionen des Versandpreises anzeigen, eine mit und die andere ohne Steuern. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart Display Settings]
 
@@ -92,7 +92,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Anzeige
 | [!UICONTROL Display Full Tax Summary] | Store-Ansicht | Stellt fest, ob der Warenkorb eine vollständige Steuerübersicht enthält. Optionen: `Yes` / `No` |
 | [!UICONTROL Display Zero Tax Subtotal] | Store-Ansicht | Stellt fest, ob der Warenkorb eine Untersumme Steuern enthält, wenn die Steuer gleich null ist. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
@@ -111,7 +111,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Anzeige
 | [!UICONTROL Display Gift Wrapping Prices] | Store-Ansicht | ![Adobe Commerce](../../assets/adobe-logo.svg) (Nur Adobe Commerce) Bestimmt, ob die Geschenkverpackungspreise in der Zwischensumme enthalten sind. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 | [!UICONTROL Display Printed Card Prices] | Store-Ansicht | ![Adobe Commerce](../../assets/adobe-logo.svg) (Nur Adobe Commerce) Bestimmt, ob die Preise für gedruckte Karten in der Zwischensumme enthalten sind. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Fixed Product Taxes]
 
@@ -130,4 +130,4 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Feste P
 | [!UICONTROL FPT Tax Configuration] | Webseite | Bestimmt, wie die FPT-Steuer berechnet wird. Optionen: <br/>**`Not Taxed`**- Wählen Sie diese Option aus, wenn Ihr Steuergebiet FPT nicht besteuert. (Zum Beispiel Kalifornien.)<br/>**`Taxed`** - Wählen Sie diese Option aus, wenn Ihr Steuergebiet FPT besteuert. (Beispiel: Kanada.) <br/>**`Loaded and Displayed with Tax`**- Klicken Sie auf diese Option, wenn FPT vor der Anwendung der Steuer zur Bestellsumme hinzugefügt wird. (Zum Beispiel EU-Länder.) |
 | [!UICONTROL Include FPT in Subtotal] | Webseite | Bestimmt, ob FPT in der Zwischensumme des Warenkorbs enthalten ist. Optionen: <br/>**`Yes`**- Enthält FPT in die Zwischensumme des Warenkorbs.<br/>**`No`** - FPT ist nicht in der Zwischensumme enthalten und wird nach der Zwischensumme im Warenkorb platziert. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

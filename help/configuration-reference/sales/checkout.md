@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Checkout]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Sales] &gt; [!UICONTROL Checkout] Seite des Commerce-Administrators.
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
-source-git-commit: 1f84bf9ab20aeccacf56eab396b2778140964d17
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Enable Address Search] | Webseite | ![Adobe Commerce](../../assets/adobe-logo.svg) (Nur Adobe Commerce) Stellt fest, ob Kunden [Adresssuche](../../stores-purchase/checkout-address-search.md) Funktionen für die Schritte Versand und Überprüfung und Zahlungen . Wenn dies aktiviert ist, verwenden Sie die Option Anzahl der Kundenadressen-Beschränkungen , um die Anzahl der gespeicherten Adressen festzulegen, die zum Aktivieren dieser Funktion beim Checkout erforderlich sind. Optionen: `Yes` / `No` |
 | Begrenzung der Kundenadressen | Webseite | ![Adobe Commerce](../../assets/adobe-logo.svg) (Nur Adobe Commerce) Wenn die Adresssuche aktiviert ist, bestimmt die Anzahl der gespeicherten Adressen, die zum Aktivieren dieser Funktion beim Checkout erforderlich sind. Wenn die Anzahl der gespeicherten Adressen des Kunden diese Zahl erreicht oder überschreitet, wird nur die Standardadresse auf der Seite _Versand_ und _Überprüfung und Zahlungen_ Schritte. Der Kunde kann eine Suchfunktion verwenden, um die ausgewählte Adresse zu ändern. Der Standardwert ist `10`. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart]
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 | [!UICONTROL Preview Quote Lifetime (minutes)] | Store-Ansicht | Bestimmt das maximale Alter des Angebots in Minuten bei der Vorschau über den Warenkorb. |
 | [!UICONTROL Enable Clear Shopping Cart] | Webseite | Bestimmt, ob im Warenkorb die Option angezeigt wird, mit der Benutzer den Inhalt des Warenkorbs in einer einzigen Aktion löschen können. Optionen: `Yes` / `No` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL My Cart Link]
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Display Cart Summary] | Webseite | Bestimmt den Wert, der in Klammern nach dem Link &quot;Mein Warenkorb&quot;angezeigt wird. Optionen: `Display number of items in cart` / `Display item quantities` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Mini-Warenkorb
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL Number of Items to Display Scrollbar] | Store-Ansicht | Bestimmt die Anzahl der Artikel, die im Mini-Warenkorb angezeigt werden können, bevor die Bildlaufleiste ausgelöst wird. Standard: `5` |
 | [!UICONTROL Maximum Number of Items to Display] | Store-Ansicht | Bestimmt die maximale Anzahl von Artikeln, die im Mini-Warenkorb angezeigt werden können. Standard: `10` |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Payment Failed Emails]
 
@@ -95,4 +95,4 @@ ht-degree: 0%
 | [!UICONTROL Send Payment Failed Copy To] | Store-Ansicht | Gibt die E-Mail-Adresse eines Benutzers an, der eine Kopie der E-Mail mit Zahlungsfehler erhält. Trennen Sie mehrere Adressen durch Kommas. |
 | [!UICONTROL Send Payment Failed Copy Method] | Store-Ansicht | Gibt die zum Senden der Kopie verwendete E-Mail-Methode an. Optionen: <br />**`Bcc`**- Sendet eine blinde höfliche Kopie, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.<br />**`Separate Email`** - Sendet die Kopie als separate E-Mail. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

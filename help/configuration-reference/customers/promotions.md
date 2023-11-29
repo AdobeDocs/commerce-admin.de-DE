@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Promotions]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Customers] &gt; [!UICONTROL Promotions] Seite des Commerce-Administrators.
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 | [!UICONTROL Email Send Failure Threshold] | Global | Die Häufigkeit, mit der die Erinnerung versucht, Benachrichtigungen an eine bestimmte E-Mail-Adresse zu senden, und die fehlschlägt. Wenn der Wert auf 0 gesetzt ist, gibt es keinen Schwellenwert, und Benachrichtigungen werden trotz Fehlern weiterhin gesendet. |
 | [!UICONTROL Reminder Email Sender] | Store-Ansicht | Die Store-Identität, die als Absender der E-Mail angezeigt wird. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!UICONTROL Auto Generated Specific Coupon Codes]
 
@@ -48,4 +48,4 @@ ht-degree: 0%
 | [!UICONTROL Code Suffix] | Global | Ein Wert, der an das Ende aller Codes angehängt wird. Wenn Sie kein Suffix verwenden möchten, lassen Sie das Feld leer. |
 | [!UICONTROL Dash Every X Characters] | Global | Das Intervall zum Einfügen eines Bindestrichs (-) in alle Couponcodes. Wenn Sie keinen Bindestrich verwenden möchten, lassen Sie das Feld leer. <br/>_**Hinweis:**_ Couponcodes, die sich nur durch einen Bindestrich unterscheiden, gelten als unterschiedliche Codes. |
 
-{:style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
