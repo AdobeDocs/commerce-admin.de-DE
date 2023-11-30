@@ -3,9 +3,9 @@ title: Freigeben von [!DNL Commerce] account
 description: Erfahren Sie, wie Sie eingeschränkten Zugriff auf [!DNL Commerce] andere [!DNL Commerce] Kontoinhaber.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 11b2f3f9558bf5a36199015247fb96d559bb5fdc
+source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Die [!DNL Commerce] Das Supportteam hat keinen Zugriff auf das Konto und kann ke
 
 1. under _[!UICONTROL Shared Information]_führen Sie folgende Schritte aus:
 
-   - Um das freigegebene Konto zu identifizieren, geben Sie einen **[!UICONTROL Share Name]**. Dieser Name dient als interne Referenz und ist nur für Sie und die Person sichtbar, für die Sie Ihr Konto freigeben.
+   - Um das freigegebene Konto zu identifizieren, geben Sie einen **[!UICONTROL Share Name]**. Dieser Name dient als interne Referenz und ist nur für Sie und die Person sichtbar, für die Sie Ihr Konto freigeben. (Geben Sie keinen Freigabenamen ein, der mit `CLOUD SHARED ACCESS FROM MAG XYX`.
    - Wenn Sie Ihre persönlichen Kontaktinformationen für den neuen Benutzer freigeben möchten, geben Sie **[!UICONTROL Your Email]** und **[!UICONTROL Your Phone]**.
 
 1. under _[!UICONTROL Grant Account Permissions]_, aktivieren Sie das Kontrollkästchen jedes [!DNL Commerce] Produkt und Service, die Sie freigeben möchten.
@@ -95,6 +95,10 @@ Die folgenden Anweisungen werden aus der Perspektive eines freigegebenen Benutze
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Shared Access]**.
 
 1. Suchen Sie nach dem Konto, das unter widerrufen werden soll. _[!UICONTROL Managing Users & Permissions]_und klicken **[!UICONTROL Delete]**.
+
+   >[!NOTE]
+   >
+   > Wenn  **[!UICONTROL Delete]** nicht angezeigt wird, überprüfen Sie, ob die **[!UICONTROL Share Name]** beginnt mit `Cloud Shared Access from MAG XYZ` - in der Regel [diese Konten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) kann nicht gelöscht werden.
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL Delete User]**.
 
