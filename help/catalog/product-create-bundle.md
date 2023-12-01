@@ -3,9 +3,9 @@ title: Paket-Produkt
 description: Erfahren Sie, wie Sie ein Bundle-Produkt erstellen, mit dem Käufer ein benutzerdefiniertes Produkt in Ihrem Geschäft erstellen können.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Die Optionen werden angezeigt, wenn der Kunde auf Folgendes klickt: **[!UICONTRO
 >[!NOTE]
 >
 >Für Bundle-Produkte, die dynamische Preise verwenden, ist der Mindestpreis für Werbung (MAP) nicht verfügbar.
+
+>[!NOTE]
+>
+>Das übergeordnete Bundle-Produkt wird immer automatisch als Upsell-Produkt für alle untergeordneten Produkte angezeigt.
 
 Wenn [Sofortiger Kauf](../stores-purchase/checkout-instant-purchase.md) ist verfügbar, die _Sofortiger Kauf_ -Schaltfläche wird unter der _Zum Warenkorb hinzufügen_ -Schaltfläche für jedes Element im Bundle.
 
@@ -276,3 +280,5 @@ Status des Produktbestands des Bundles ist **_nicht automatisch in &quot;Nicht a
 ![Kontrollkästchen](../assets/checkbox.png) Die Menge kann ein vordefinierter oder ein benutzerdefinierter Wert sein. Weisen Sie jedoch nicht die _[!UICONTROL User Defined]_-Eigenschaft zu aktivieren oder Eingabetypen mit Mehrfachauswahl aktivieren.
 
 ![Kontrollkästchen](../assets/checkbox.png) Bundle-Elemente können zusammen oder separat versendet werden.
+
+![Kontrollkästchen](../assets/checkbox.png) Das übergeordnete Bundle-Produkt wird immer automatisch als Upsell-Produkt für alle untergeordneten Produkte angezeigt.

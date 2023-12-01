@@ -3,9 +3,9 @@ title: Produkteinstellungen - [!UICONTROL Related Products, Up-Sells, and Cross-
 description: Bei einem Produkt muss die Variable [!UICONTROL Related Products, Up-Sells, and Cross-Sells] -Einstellungen definieren einfache Werbeblöcke auf der Produktseite, die eine Auswahl zusätzlicher Produkte hervorheben.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,10 @@ So wählen Sie Upsell-Produkte aus:
    ![Up-Sell-Produkte](./assets/product-up-sell-add.png){width="600" zoomable="yes"}
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Add Selected Products]**.
+
+>[!NOTE]
+>
+>Das übergeordnete Bundle-Produkt wird immer automatisch als Upsell-Produkt für alle untergeordneten Produkte angezeigt.
 
 ## Cross-Sells
 
