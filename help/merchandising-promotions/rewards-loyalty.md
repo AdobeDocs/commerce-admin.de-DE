@@ -3,9 +3,9 @@ title: Lohn- und Treueprogramme
 description: Erfahren Sie mehr über das Bonuspunktsystem, mit dem Sie die Kundeninteraktion fördern und die Kundenloyalität fördern können.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,11 @@ Die Rewards-Punktkonfiguration bestimmt, wie im Store Prämienpunkte angezeigt w
 
 1. Wenn Sie verfügbare Prämienpunkte automatisch zurückerstatten möchten, legen Sie **[!UICONTROL Refund Reward Points Automatically]** nach `Yes`.
 
-1. Wenn Sie Prämienpunkte automatisch abziehen möchten, legen Sie **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** nach `Yes`.
+1. Um durch Käufe verdiente Bonuspunkte zu vermeiden, wenn die Bestellung, die die Punkte gesammelt hat, vollständig oder teilweise zurückerstattet wird, legen Sie **[!UICONTROL Deduct Reward Points from Refund Amount Automatically]** nach `Yes`.
+
+   >[!NOTE]
+   >
+   >Nur die Punkte, die mit der Bestellung verdient werden, die zurückerstattet wird, sind betroffen.
 
 1. Satz **[!UICONTROL Landing Page]** auf die Inhaltsseite, auf der Ihr Bonuspunkt-Programm erläutert wird.
 
@@ -158,7 +162,7 @@ Der Saldo der Prämienpunkte kann vom Administrator aktualisiert werden.
    - **[!UICONTROL Subscribe for Balance Updates]**
    - **[!UICONTROL Subscribe for Points Expiration Notifications]**
 
-1. Klicken **[!UICONTROL Save Customer]**.
+1. Klicks **[!UICONTROL Save Customer]**.
 
 Alle Aktionen im Zusammenhang mit Prämienpunkten werden im _[!UICONTROL Reward Points History]_auf ihrem Konto auf der Storefront.
 
