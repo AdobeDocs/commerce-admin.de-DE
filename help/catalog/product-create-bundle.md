@@ -3,9 +3,9 @@ title: Paket-Produkt
 description: Erfahren Sie, wie Sie ein Bundle-Produkt erstellen, mit dem Käufer ein benutzerdefiniertes Produkt in Ihrem Geschäft erstellen können.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: f6d52b1a3c8dd411ad3aa7c6027e964f9d49d608
+source-git-commit: eca41f653aa6499743982199f067d6df86079010
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,10 @@ Das Formular wird entsprechend der Änderung aktualisiert.
 
    - Um einen festen Preis für das Bundle zu berechnen, legen Sie **[!UICONTROL Dynamic Price]** nach `No` und geben Sie die **[!UICONTROL Price]** die Sie für das Bundle aufladen möchten.
 
+   >[!NOTE]
+   >
+   >[!UICONTROL Special Price] und [!UICONTROL Customer Group Price] (Tier Price) werden immer als Rabattprozentsatz für alle Bundle-Produktarten festgelegt.
+
 1. Da das Produkt noch nicht zur Veröffentlichung bereit ist, legen Sie **[!UICONTROL Enable Product]** nach `No`.
 
 1. Klicks **[!UICONTROL Save]** und fortfahren.
@@ -123,11 +127,11 @@ Das Formular wird entsprechend der Änderung aktualisiert.
 
    **Erstellen Sie eine Kategorie:**
 
-   - Klicken **[!UICONTROL New Category]**.
+   - Klicks **[!UICONTROL New Category]**.
 
    - Geben Sie die **[!UICONTROL Category Name]** und wählen Sie **[!UICONTROL Parent Category]**, der seine Position in der Menüstruktur bestimmt.
 
-   - Klicken **[!UICONTROL Create Category]**.
+   - Klicks **[!UICONTROL Create Category]**.
 
 1. Wählen Sie die **[!UICONTROL Country of Manufacture]**.
 
@@ -163,7 +167,7 @@ Die _[!UICONTROL Bundle Items]_-Abschnitt wird verwendet, um einem Bundle-Produk
 
      Wenn es viele Produkte gibt, verwenden Sie die Listenfilter und Seitenumbruchsteuerungen, um die benötigten Produkte zu finden.
 
-   - Klicken **[!UICONTROL Add Selected Products]**.
+   - Klicks **[!UICONTROL Add Selected Products]**.
 
      ![Ausgewählte Produkte hinzufügen](./assets/product-bundle-add-products-to-option.png){width="600" zoomable="yes"}
 
@@ -282,3 +286,5 @@ Status des Produktbestands des Bundles ist **_nicht automatisch in &quot;Nicht a
 ![Kontrollkästchen](../assets/checkbox.png) Bundle-Elemente können zusammen oder separat versendet werden.
 
 ![Kontrollkästchen](../assets/checkbox.png) Das übergeordnete Bundle-Produkt wird immer automatisch als Upsell-Produkt für alle untergeordneten Produkte angezeigt.
+
+![Kontrollkästchen](../assets/checkbox.png) [!UICONTROL Special Price] und [!UICONTROL Customer Group Price] (Tier Price) werden immer als Rabattprozentsatz für alle Bundle-Produktarten festgelegt.
