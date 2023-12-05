@@ -3,9 +3,9 @@ title: Lohn- und Treueprogramme
 description: Erfahren Sie mehr über das Bonuspunktsystem, mit dem Sie die Kundeninteraktion fördern und die Kundenloyalität fördern können.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: 9d775e8e8521032dc58f6cd1ed7796595db745a0
+source-git-commit: 3376b6f4fd558f7dd10133beeabf87e7228776a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ In diesem Schritt wird die Anzahl der Belohnungspunkte angegeben, die für versc
 
    ![Kundenkonfiguration - Aktionen zum Erwerb von Prämienpunkten durch Kunden](../configuration-reference/customers/assets/reward-points-actions-for-acquiring.png){width="600" zoomable="yes"}
 
-1. Um eine Meldung im Warenkorb anzuzeigen, die die für den Kauf erzielten Prämienpunkte und den aktuellen Prämienpunktstand des Kunden enthält, legen Sie **[!UICONTROL Purchase]** nach `Yes`.
+1. So lassen Sie Belohnungspunkte für die Käufe basierend auf der konfigurierten [Wechselkurse der Prämien](reward-exchange-rates.md), set **[!UICONTROL Purchase]** nach `Yes`.
 
    >[!NOTE]
    >
