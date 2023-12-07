@@ -3,9 +3,9 @@ title: Store-URLs
 description: Erfahren Sie mehr über Store-URLs und wie Sie die Basis-URL und Store-Codes konfigurieren.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 555c54e9a980aa181e0b4380412ad027d80ee10f
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ Wenn nach Befolgen der Konfigurationsanweisungen einige Seiten weiterhin mit der
 
 ## Verwenden einer benutzerdefinierten Admin-URL
 
-Als [Best Practices für die Sicherheit](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adobe-commerce-best-practices-guide.pdf)empfiehlt Adobe, dass Sie eine eindeutige Admin-URL anstelle der standardmäßigen _admin_ oder einen gemeinsamen Begriff wie _Backend_. Obwohl Ihre Site nicht direkt vor einem bestimmten fehlerhaften Schauspieler geschützt wird, kann dies die Exposition gegenüber Skripten verringern, die versuchen, unberechtigten Zugriff zu erhalten.
+Als [Best Practices für die Sicherheit](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)empfiehlt Adobe, dass Sie eine eindeutige Admin-URL anstelle der standardmäßigen _admin_ oder einen gemeinsamen Begriff wie _Backend_. Obwohl Ihre Site nicht direkt vor einem bestimmten fehlerhaften Schauspieler geschützt wird, kann dies die Exposition gegenüber Skripten verringern, die versuchen, unberechtigten Zugriff zu erhalten.
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ Obwohl es möglich ist, die Admin-URL und den Pfad zu einem anderen Speicherort 
 
 >[!NOTE]
 >
->Versuchen Sie als Vorsichtsmaßnahme nicht, die Admin-URL selbst zu ändern, es sei denn, Sie wissen, wie Sie Konfigurationsdateien auf dem Server bearbeiten können.
+>Versuchen Sie als Vorsichtsmaßnahme nicht, die Admin-URL selbst zu ändern, es sei denn, Sie wissen, wie Sie Konfigurationsdateien auf dem Server bearbeiten können. Ändern Sie bei in der Cloud-Infrastruktur bereitgestellten Adobe Commerce-Projekten die Admin-URL wie folgt: [instructions](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#admin-url) im *Handbuch zu Adobe Commerce on Cloud Infrastructure*.
 
 ### Methode 1: Änderung gegenüber dem Administrator
 

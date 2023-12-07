@@ -3,9 +3,9 @@ title: Sicherheit
 description: Erfahren Sie mehr über die verfügbaren Tools zum Sichern Ihrer Stores und Daten sowie Richtlinien für einen Sicherheitsaktionsplan, wenn Sie einen Kompromiss erkennen.
 exl-id: 10eef4ac-de83-4083-9ba3-e42c8eb33781
 feature: Security, Site Management
-source-git-commit: 671ec7015c37b24ca0acc615ae3715b8b870a453
+source-git-commit: fede05a413428520eec89d46f41a1cdd9c9c3a2e
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,15 @@ Es gibt mehrere Möglichkeiten, Ihren Speicher zu sichern und Ihre Datensicherhe
 - Implementierung [CAPTCHA](security-captcha.md) oder [reCAPTCHA](security-google-recaptcha.md)
 - Richten Sie eine [Sicherheitsscan](security-scan.md) für jede Domäne in Ihrer Adobe Commerce- oder Magento Open Source-Installation.
 
-Besuchen Sie die [Sicherheitszentrum](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;} und in der Sicherheitswarnungsregistrierung finden Sie aktuelle Informationen zu möglichen Sicherheitslücken. Informationen zu Best Practices für die Sicherheit finden Sie unter [Sichern Ihrer Commerce-Site und -Infrastruktur](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) im _Implementierungs-Playbook_.
-
 >[!NOTE]
 >
 >Stores, die aktiviert wurden [!DNL Adobe Identity Management Services] (IMS)-Authentifizierung, bei der die native Adobe Commerce und Magento Open Source 2FA deaktiviert sind. Admin-Benutzer, die mit ihren Adobe-Anmeldedaten in ihrer Commerce-Instanz angemeldet sind, müssen sich nicht für viele Admin-Aufgaben erneut authentifizieren. Die Authentifizierung wird von Adobe IMS verarbeitet, wenn sich der Administrator in seiner aktuellen Sitzung anmeldet. Siehe [[!DNL Adobe Identity Management Service] (IMS) Integrationsübersicht](../getting-started/adobe-ims-integration-overview.md).
 
+Besuchen Sie die [Sicherheitszentrum](https://helpx.adobe.com/security.html){:target=&quot;_blank&quot;}, um die neuesten Informationen über potenzielle Schwachstellen zu erhalten, sich für Adobe-Sicherheitsbenachrichtigungen zu registrieren und auf das Adobe Trust Center zuzugreifen.
+
 ![Sicherheitszentrum](./assets/product-security-home.png){width="700" zoomable="yes"}
+
+Informationen zu Best Practices für die Sicherheit finden Sie unter [Sichern Ihrer Commerce-Site und -Infrastruktur](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) im _Implementierungs-Playbook_.
 
 ## Aktionsplan für Sicherheit
 
