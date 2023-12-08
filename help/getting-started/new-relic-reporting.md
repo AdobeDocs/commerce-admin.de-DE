@@ -1,12 +1,12 @@
 ---
-title: ''' Berichte''[!DNL New Relic]'
-description: Erfahren Sie mehr über die Berichte, die für Konten für Adobe Systems Commerce on Cloud-Infrastruktur verfügbar sind und die [!DNL New Relic] Software für den Neu Relic APM-Dienst enthalten.
+title: '[!DNL New Relic] reporting'
+description: Informationen zum [!DNL New Relic] Berichterstellung für Konten für Adobe Commerce in der Cloud-Infrastruktur, die die Software für den New Relic-APM-Dienst enthält.
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: e9a7645aed0e3b48bf565b04cdb6a31ce5d39ca0
+source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1382'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ## Schritt 1: Registrieren Sie sich für eine [!DNL New Relic] account
 
-1. OK auf die [[!DNL New Relic]][1] Website und melden Sie sich für ein Konto an.
+1. Navigieren Sie zu [[!DNL New Relic]][1] und melden Sie sich für ein Konto an.
 
-   Sie können sich auch für eine gratis Testversion Konto.
+   Sie können sich auch für ein kostenloses Testkonto anmelden.
 
 1. Folgen Sie den Anweisungen auf der Website. Wenn Sie dazu aufgefordert werden, wählen Sie das Produkt aus, das Sie zuerst installieren möchten.
 
@@ -28,8 +28,8 @@ ht-degree: 0%
    | Option | Beschreibung |
    | ------ | ----------- |
    | Konto-ID | Von Ihrem [!DNL New Relic] -Konto-Dashboard ist die Konto-ID die Nummer in der URL nach: `/accounts` |
-   | Bewerbungs-ID | Von Ihrem [!DNL New Relic] Konto-Dashboard, klicken Sie auf **[!UICONTROL New Relic APM]**. Wählen Sie im Menü **[!UICONTROL Applications]**. Wählen Sie dann Ihre Anwendung aus. Die Anwendungs-ID ist die Nummer in der URL nach: `/applications/` |
-   | New Relic API-Schlüssel | Von Ihrem [!DNL New Relic] Konto-Dashboard, klicken Sie auf **[!UICONTROL Account Settings]**. Wählen Sie im Menü links unter Integrationen die Option **[!UICONTROL Data Sharing]**. Sie können Ihren API-Schlüssel auf dieser Seite erstellen, neu generieren oder löschen. |
+   | Bewerbungs-ID | Von Ihrem [!DNL New Relic] Konto-Dashboard, klicken Sie auf **[!UICONTROL New Relic APM]**. Wählen Sie im Menü **[!UICONTROL Applications]**. Wählen Sie dann Ihre Anwendung aus. Die Anwendungs-ID ist die Nummer im URL nach: `/applications/` |
+   | Neu Relic-API-Schlüssel | Von Ihrem [!DNL New Relic] Konto-Dashboard, klicken Sie auf **[!UICONTROL Account Settings]**. Wählen Sie im Menü links unter Integrationen die Option **[!UICONTROL Data Sharing]**. Sie können Ihren API-Schlüssel auf dieser Seite erstellen, neu generieren oder löschen. |
    | Insights-API-Schlüssel | Von Ihrem [!DNL New Relic] Konto-Dashboard, klicken Sie auf **[!UICONTROL Insights]**. Wählen Sie im Menü links unter Administration die Option **[!UICONTROL API Keys]**. Ihre Insights-API-Schlüssel werden auf dieser Seite angezeigt. Klicken Sie bei Bedarf auf das Pluszeichen (**+**) neben Schlüssel einfügen , um einen Schlüssel zu generieren. |
 
    {style="table-layout:auto"}
@@ -49,6 +49,11 @@ Verwendung [!DNL New Relic APM Pro] um Daten zu sammeln und zu übertragen, mus
    Weitere Informationen finden Sie unter [Cron konfigurieren und ausführen][5] in der Entwicklerdokumentation.
 
 ## Schritt 3: Konfigurieren Sie Ihren Store.
+
+>[!NOTE]
+>Diese Konfigurationsoptionen gelten nicht für Adobe Commerce on Cloud Infrastructure.
+>
+>Wenn Sie an einem Pro-Abo teilnehmen, ist New Relic bereits verfügbar [standardmäßig vorkonfiguriert und aktiviert](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Wenn Sie mit dem Startplan arbeiten, müssen Sie die [New Relic-Konfigurationsschritte](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) die Teil des Einrichtungsprozesses sind.
 
 1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -72,7 +77,7 @@ Verwendung [!DNL New Relic APM Pro] um Daten zu sammeln und zu übertragen, mus
 
 1. (Optional) Für **[!UICONTROL Send Adminhtml and Frontend as Separate Apps]** auswählen `Yes` , um die erfassten Daten für die Storefront und Admin als separate Apps an New Relic zu senden.
 
-   Diese Option erfordert die Eingabe eines Namens für **[!UICONTROL New Relic Application Name]**.
+   Für diese Option muss ein Name eingegeben werden. **[!UICONTROL New Relic Application Name]**.
 
    >[!NOTE]
    >
@@ -82,7 +87,7 @@ Verwendung [!DNL New Relic APM Pro] um Daten zu sammeln und zu übertragen, mus
 
 ## Schritt 4: Aktivieren von Cron für [!DNL New Relic] Berichterstellung
 
-1. ![Erweitern Erweiterung Selektor](../assets/icon-display-expand.png) den **[!UICONTROL Cron]** Abschnitt.
+1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Cron]** Abschnitt.
 
    ![New Relic Cron-Konfiguration](./assets/new-relic-reporting-cron.png){width="600"}
 
@@ -104,14 +109,14 @@ Gibt die Anzahl der aktiven Admin-Benutzer zurück.
     VON Transaktion
     WHERE appName=&#39;&lt;your_app_name>&quot; SEIT 15 Minuten
 
-#### Aktuell aktive Admin-Benutzer
+#### Derzeit aktive Admin-Benutzer
 
 Gibt die Namen der aktiven Admin-Benutzer zurück.
 
     SELECT uniques(AdminName)
-    FROM Transaktion
-    WHERE appName=&#39;&lt;your_app_name>&#39; SINCE 15
- minutes ago&lt;/your_app_name>
+    VON Transaktion
+    WHERE appName=&#39;&lt;your_app_name>&quot; SEIT 15 Minuten
+
 #### Letzte Admin-Aktivität
 
 Gibt die Anzahl der letzten Admin-Aktionen zurück.
@@ -133,7 +138,7 @@ Gibt detaillierte Informationen zu den letzten Administratoraktionen zurück, ei
 
 #### Kategorie Anzahl
 
-Gibt die Anzahl der Anwendungsereignisse nach Kategorie im angegebenen Zeitraum zurück.
+Gibt die Anzahl der Applikation Ereignisse in Kategorie während der angegebenen Zeitraum zurück.
 
     SELECT average(CatalogCategoryCount)
     VON Cron
@@ -145,12 +150,12 @@ Gibt die Anzahl der Anwendungsereignisse nach Kategorie im angegebenen Zeitraum 
 Gibt die durchschnittliche Anzahl der Anwendungsereignisse im Katalog nach Kategorie im angegebenen Zeitraum zurück.
 
     SELECT average(CatalogCategoryCount)
-    VON Cron
-    WOBEI CatalogCategoryCount NICHT NULL IST
+    FROM Cron
+    WHERE CatalogCategoryCount IS NOT NULL
     AND CatalogCategoryCount > 0
-    AND appName = &#39;&lt;your_app_name>&quot; SEIT 2 Minuten vor LIMIT 1
-
-#### Aktive Produkte
+    AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutes ago LIMIT 1
+&lt;/your_app_name>
+#### Aktiv Produkte
 
 Gibt die Anzahl der Anwendungsereignisse nach Produkt im angegebenen Zeitraum zurück.
 
@@ -281,12 +286,12 @@ Gibt die Anzahl der aktiven Kunden im angegebenen Zeitraum zurück.
 
 #### Aktive Kunden
 
-Gibt die Namen der aktiven Kunden während der angegebenen Zeitraum zurück.
+Gibt die Namen aktiver Kunden im angegebenen Zeitraum zurück.
 
     SELECT uniques(CustomerName)
-    FROM Transaction
-    WHERE appName=&#39;&lt;your_app_name>&#39; SINCE 15 minutes ago
-&lt;/your_app_name>
+    VON Transaktion
+    WHERE appName=&#39;&lt;your_app_name>&quot; SEIT 15 Minuten
+
 #### Top-Kunden
 
 Gibt die wichtigsten Kunden im angegebenen Zeitraum zurück.
@@ -297,7 +302,7 @@ Gibt die wichtigsten Kunden im angegebenen Zeitraum zurück.
 
 #### Letzte Admin-Aktivität
 
-Gibt eine bestimmte Anzahl von Datensätzen der letzten Aktivität zurück, die den Kundennamen und die Dauer der Visit enthalten.
+Gibt eine definierte Anzahl von Datensätzen der letzten Aktivität zurück, einschließlich des Kundennamens und der Dauer des Besuchs.
 
     SELECT CustomerName, duration, name
     FROM Transaction
@@ -312,18 +317,18 @@ Gibt eine bestimmte Anzahl von Datensätzen der letzten Aktivität zurück, die 
 Gibt die Anzahl der Bestellungen zurück, die während der angegebenen Zeitraum erteilt wurden.
 
     SELECT count(Order)
-    AB Transaktion SEIT 1 Tag
+    FROM Transaktion SINCE 1 day ago
 
 #### Gesamtauftragswert
 
 Gibt die Gesamtzahl der Zeileneinträge zurück, die im angegebenen Zeitraum bestellt wurden.
 
     SELECT sum(orderValue)
-    AB Transaktion SEIT 1 Tag
+    FROM Transaktion SINCE 1 day ago
 
-#### Gesamte bestellte Zeileneinträge
+#### Gesamt bestellten Zeileneinträge
 
-Gibt die Gesamtzahl der Zeileneinträge zurück, die im angegebenen Zeitraum bestellt wurden.
+Gibt die Gesamtzahl der während der angegebenen Zeitraum bestellten Zeileneinträge zurück.
 
     SELECT sum(lineItemCount)
     AB Transaktion SEIT 1 Tag
