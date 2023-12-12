@@ -3,16 +3,16 @@ title: E-Mail-Erinnerungen erstellen
 description: Erfahren Sie, wie Sie eine E-Mail-Erinnerungsregel einrichten, die eine bestehende Warenkorbpreisregel verwendet.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: b750accf7aab49357f04e16dc60791e704516141
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
 
 # E-Mail-Erinnerungen erstellen
 
-Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst eine Warenkorbpreisregel einrichten, um die angebotene Promotion zu definieren. Regelbedingungen, die eine E-Mail-Erinnerung an einen Trigger richten können, können auf Warenkorbeigenschaften, Wunschlisten-Eigenschaften oder beidem basieren.
+Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [eine Preisregel für den Warenkorb festlegen](price-rules-cart-create.md) um die angebotene Werbeaktion zu definieren. Regelbedingungen, die eine E-Mail-Erinnerung an einen Trigger richten können, können auf Warenkorbeigenschaften, Wunschlisten-Eigenschaften oder beidem basieren.
 
 >[!NOTE]
 >
@@ -55,7 +55,9 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst eine Wa
 
    >[!NOTE]
    >
-   >Wenn einem Kunden mehr als eine übereinstimmende aufgegebene Warenkorb-, Wunschliste oder Kombination aus beiden vorliegt, wird die E-Mail-Erinnerung nur einmal für diesen Kunden ausgelöst. Um dieselbe E-Mail-Erinnerung erneut Trigger, verwenden Sie die _[!UICONTROL Repeat Schedule]_um die Anzahl der Tage zwischen E-Mails festzulegen.
+   >Wenn einem Kunden mehr als eine übereinstimmende aufgegebene Warenkorb-, Wunschliste oder Kombination aus beiden vorliegt, wird die E-Mail-Erinnerung nur einmal für diesen Kunden ausgelöst. Um dieselbe E-Mail-Erinnerung erneut Trigger, verwenden Sie die _[!UICONTROL Repeat Schedule]_um die Anzahl der Tage zwischen E-Mails festzulegen. <br/>
+   >
+   >Dieselbe E-Mail-Erinnerung ist **_nicht erneut ausgelöst_** für denselben Kunden für **_new_** Warenkorb und Wunschlisten **_after_** die _[!UICONTROL Repeat Schedule]_ist vorbei.
 
    Füllen Sie die Bedingung aus, um das Szenario zu beschreiben, in dem die E-Mail-Erinnerung Trigger wird.
 
