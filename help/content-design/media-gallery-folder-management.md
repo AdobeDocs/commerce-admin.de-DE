@@ -3,10 +3,10 @@ title: Ordnerverwaltung in Media Gallery
 description: Erfahren Sie, wie Sie mit Ordnern Ihre Medien-Assets organisieren können.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 65521c2b2113768ebec43b3aadac487d4d07c3a0
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 1%
+source-wordcount: '139'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +16,13 @@ Verwenden von Ordnern zum Organisieren von Bildern in der neuen [Media Gallery](
 
 ## Ordner erstellen
 
+>[!NOTE]
+>
+>Sie können nur einen Ordner im `pub/media/wysywig` und `pub/media/catalog/category` Ordner.
+
 1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Klicken **[!UICONTROL Create Folder]**.
+1. Klicks **[!UICONTROL Create Folder]**.
 
    Wenn Sie einen Unterordner erstellen möchten, wählen Sie den übergeordneten Ordner aus, bevor Sie auf **[!UICONTROL Create Folder]**.
 
@@ -30,7 +34,7 @@ Verwenden von Ordnern zum Organisieren von Bildern in der neuen [Media Gallery](
 
 >[!WARNING]
 >
->Das Löschen eines Ordners führt dazu, dass alle Bilder in diesem Ordner entfernt werden.
+>Das Löschen eines Ordners führt dazu, dass alle Bilder in diesem Ordner entfernt werden. Sie können nur einen Ordner im `pub/media/wysywig` und `pub/media/catalog/category` Ordner.
 
 1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
@@ -38,6 +42,6 @@ Verwenden von Ordnern zum Organisieren von Bildern in der neuen [Media Gallery](
 
    ![Ordner auswählen](./assets/media-gallery-selected-folder.png){width="600" zoomable="yes"}
 
-1. Klicken **[!UICONTROL Delete Folder]**.
+1. Klicks **[!UICONTROL Delete Folder]**.
 
 1. Klicken Sie zum Bestätigen des Ordnerlöschens auf **[!UICONTROL OK]**.
