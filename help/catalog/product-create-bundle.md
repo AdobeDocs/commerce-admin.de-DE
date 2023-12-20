@@ -3,9 +3,9 @@ title: Paket-Produkt
 description: Erfahren Sie, wie Sie ein Bundle-Produkt erstellen, mit dem Käufer ein benutzerdefiniertes Produkt in Ihrem Geschäft erstellen können.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e38958bb57251ccc9409b849abc1aadb82ff0a54
+source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 Ein Bundle ist eine _Erstellen eigener_, anpassbares Produkt. Jedes Element in einem Bundle kann auf einem der folgenden Produkttypen basieren:
 
 - [Einfaches Produkt](product-create-simple.md)
-- [Virtuelles Produkt](product-create-virtual.md)
-- [herunterladbares Produkt](product-create-downloadable.md)
 - [Virtuelles Produkt](product-create-virtual.md)
 
 ![Paket-Produkt](./assets/product-bundle.png){width="700" zoomable="yes"}
