@@ -3,9 +3,9 @@ title: Erstellen einer Preisregel für den Warenkorb
 description: Erfahren Sie, wie Sie eine Preisregel für den Warenkorb auf der Grundlage von Warenkorb oder Produktattributen erstellen.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: bf52884cb0eccd4d9c7326a95f8600a3ed950918
+source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
 workflow-type: tm+mt
-source-wordcount: '2885'
+source-wordcount: '2971'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
 
 1. So wenden Sie die Regel auf die veröffentlichte [RSS-Feeds](social-rss.md#rss-feeds), set **Öffentlich im RSS-Feed** nach `Yes`.
 
-1. Klicken **[!UICONTROL Save and Continue Edit]**.
+1. Klicks **[!UICONTROL Save and Continue Edit]**.
 
    - ![Magento Open Source](../assets/open-source.svg) (Nur Magento Open Source) Nach dem Speichern der Regel wird der Name der Warenkorbpreisregel oben auf der Seite angezeigt.
 
@@ -178,7 +178,7 @@ Wenn Sie Zielgruppen aus Real-Time CDP verwenden, überspringen Sie [diesem Absc
 
 1. Satz **[!UICONTROL Use for Promo Rule Conditions]** nach `Yes`.
 
-1. Klicken **[!UICONTROL Save Attribute]**.
+1. Klicks **[!UICONTROL Save Attribute]**.
 
 1. Navigieren Sie zu **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]** und öffnen Sie die gewünschte Preisregel für den Warenkorb.
 
@@ -192,7 +192,7 @@ Wenn Sie Zielgruppen aus Real-Time CDP verwenden, überspringen Sie [diesem Absc
 
 1. Klicken Sie auf _Hinzufügen_ (![Symbol &quot;Hinzufügen&quot;](../assets/icon-add-green-circle.png)) und wählen Sie die **[!UICONTROL Product Attribute]** , die Sie für Bedingungen von Werberegeln eingerichtet haben.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicks **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -240,13 +240,13 @@ Die Aktionen der Preisregel für Warenkorb beschreiben, wie Preise aktualisiert 
    | `Percent of product price discount` | Rabattartikel durch Abzug eines Prozentsatzes vom ursprünglichen Preis. Der Rabatt gilt für jeden qualifizierenden Artikel im Warenkorb. Beispiel: Eingabe `10` in [!UICONTROL Discount Amount] für einen aktualisierten Preis, der 10 % unter dem ursprünglichen Preis liegt. |
    | `Fixed amount discount` | Rabattartikel durch Abzug eines festen Betrags vom ursprünglichen Preis jedes qualifizierten Artikels im Warenkorb. Beispiel: Eingabe `10` in [!UICONTROL Discount Amount] für einen aktualisierten Preis, der 10 USD unter dem ursprünglichen Preis liegt. |
    | Fester Rabatt auf den gesamten Warenkorb | Ermäßigt den gesamten Warenkorb durch Abzug eines festen Betrags von der Gesamtsumme des Warenkorbs. Beispiel: Geben Sie 10 ein in [!UICONTROL Discount Amount] um 10 USD von der Gesamtsumme des Warenkorbs abzuziehen. Standardmäßig gilt der Rabatt nur für die Zwischensumme des Warenkorbs. Um den Rabatt auf die Zwischensumme und den Versand separat anzuwenden, verwenden Sie die _[!UICONTROL Apply to Shipping Amount]_-Option. |
-   | `Buy X get Y free` | Definiert eine Menge, die der Kunde kaufen muss, um eine Menge kostenlos zu erhalten. (Die [!UICONTROL Discount Amount] ist Y.) |
+   | `Buy X get Y free` | Definiert eine Menge X, die der Kunde kaufen muss, um eine Menge Y zu erhalten **des gleichen Produkts/der gleichen Variante** kostenlos. (Die [!UICONTROL Discount Amount] ist Y.) Damit der Rabatt angewendet werden kann, muss eine Gesamtmenge von X+Y desselben Artikels im Warenkorb vorhanden bzw. im Warenkorb hinzugefügt werden. |
 
    {style="table-layout:auto"}
 
    - Geben Sie die **[!UICONTROL Discount Amount]** als Zahl, ohne Symbole. Beispielsweise kann die Zahl 1 je nach ausgewählter Rabattoption einen Prozentsatz, einen festen Betrag oder eine Menge an Artikeln angeben.
 
-   - Für _Kauf X erhalten Y Free_ den Rabatt, geben Sie die Menge im **[!UICONTROL Discount Qty Step (Buy X)]** -Feld, das der Kunde erwerben muss, um den Rabatt zu erhalten.
+   - Für _Kauf X erhalten Y Free_ den Rabatt, geben Sie die Menge im **[!UICONTROL Discount Qty Step (Buy X)]** -Feld eines einzelnen Produkts/einer SKU/eines Zeileneintrags, den der Kunde kaufen muss, um den Rabatt auf die Y-Menge zu erhalten. Sowohl X als auch Y beziehen sich auf Mengen derselben SKU, und diese spezifische Menge (Variationen konfigurierbarer Produkte werden separat gezählt) des Artikels muss manuell zum Warenkorb hinzugefügt werden.
 
    - Im **[!UICONTROL Maximum Qty Discount is Applied To]** Geben Sie die Höchstmenge des Produkts ein, für das der Rabatt im selben Kauf gewährt werden kann.
 
