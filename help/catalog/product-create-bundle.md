@@ -3,9 +3,9 @@ title: Paket-Produkt
 description: Erfahren Sie, wie Sie ein Bundle-Produkt erstellen, mit dem Käufer ein benutzerdefiniertes Produkt in Ihrem Geschäft erstellen können.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: 891b94d84ed411232aa163f99bb110780d399dfb
+source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Das Formular wird entsprechend der Änderung aktualisiert.
 
 1. Führen Sie einen der folgenden Schritte aus, um den Preis des Bundles zu ermitteln:
 
-   - Damit der Preis die vom Kunden gewählten Optionen widerspiegelt, setzen Sie **[!UICONTROL Dynamic Price]** nach `Yes` und verlassen **[!UICONTROL Price]** leer.
+   - Damit der Preis die vom Kunden gewählten Optionen widerspiegelt, setzen Sie **[!UICONTROL Dynamic Price]** nach `Yes` und verlassen **[!UICONTROL Price]** leer. In diesem Fall hat ein Bundle-Produkt keinen eigenen Preis aus dem Katalog, und der Produktpreis wird vom Preis der einzelnen Produkte abgeleitet, die im Bundle enthalten sind.
 
    - Um einen festen Preis für das Bundle zu berechnen, legen Sie **[!UICONTROL Dynamic Price]** nach `No` und geben Sie die **[!UICONTROL Price]** die Sie für das Bundle aufladen möchten.
 

@@ -3,9 +3,9 @@ title: Gruppierungsprodukt
 description: Erfahren Sie, wie Sie ein gruppiertes Produkt erstellen, das aus einfachen eigenständigen Produkten besteht, die als Gruppe präsentiert werden.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Wenn die erforderlichen Attribute nicht vorhanden sind, können Sie beim Erstell
 Um dem Produkt ein vorhandenes Attribut hinzuzufügen, verwenden Sie die [Filtersteuerelemente](../getting-started/admin-grid-controls.md) , um das Attribut im Raster zu finden, und gehen Sie wie folgt vor:
 
 - Aktivieren Sie das Kontrollkästchen in der ersten Spalte jedes hinzugefügten Attributs.
-- Klicken **[!UICONTROL Add Selected]**.
+- Klicks **[!UICONTROL Add Selected]**.
 
 ## Schritt 3: Ausführen der erforderlichen Einstellungen
 
@@ -60,6 +60,8 @@ Um dem Produkt ein vorhandenes Attribut hinzuzufügen, verwenden Sie die [Filter
 1. Standard akzeptieren **[!UICONTROL SKU]** , der auf dem Produktnamen basiert, oder geben Sie einen anderen ein.
 
    Beachten Sie Folgendes: **[!UICONTROL Quantity]** ist nicht verfügbar, da der Wert aus den einzelnen Produkten der Gruppe abgeleitet wird.
+
+   Ein gruppiertes Produkt hat keinen eigenen Preis im Katalog. Der gruppierte Produktpreis ergibt sich aus dem Preis der einzelnen Produkte, die in der Gruppe enthalten sind.
 
 1. Da das Produkt noch nicht zur Veröffentlichung bereit ist, legen Sie **[!UICONTROL Enable Product]** nach `No` ( ![Umschalten](../assets/toggle-no.png) ).
 
@@ -85,11 +87,11 @@ Um dem Produkt ein vorhandenes Attribut hinzuzufügen, verwenden Sie die [Filter
 
    **Erstellen Sie eine Kategorie:**
 
-   - Klicken **[!UICONTROL New Category]**.
+   - Klicks **[!UICONTROL New Category]**.
 
    - Geben Sie die **[!UICONTROL Category Name]** und wählen Sie **[!UICONTROL Parent Category]**, der seine Position in der Menüstruktur bestimmt.
 
-   - Klicken **[!UICONTROL Create Category]**.
+   - Klicks **[!UICONTROL Create Category]**.
 
 1. Akzeptieren Sie die **[!UICONTROL Visibility]** Einstellungen von `Catalog, Search`.
 
@@ -180,7 +182,7 @@ Wenn Sie für jedes Produkt in der Gruppe ein anderes Bild haben, können Sie di
 
    Deaktivieren Sie bei Bedarf die **[!UICONTROL Use system value]** aktivieren, um diese Option festzulegen.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
 ## Dinge, die man sich merken sollte
 
@@ -189,5 +191,7 @@ Wenn Sie für jedes Produkt in der Gruppe ein anderes Bild haben, können Sie di
 - Gruppierte untergeordnete Produkte können einfach, herunterladbar oder virtuelle Produkte sein. **[!UICONTROL without custom options]**.
 
 - Jeder gekaufte Artikel erscheint einzeln im Warenkorb und nicht als Teil der Gruppe.
+
+- Ein gruppiertes Produkt hat keinen eigenen Preis im Katalog. Der gruppierte Produktpreis ergibt sich aus dem Preis der einzelnen Produkte, die in der Gruppe enthalten sind.
 
 - Das Miniaturbild im Warenkorb kann so eingestellt werden, dass es das Bild des gruppierten übergeordneten Produkts oder des zugehörigen Produkts anzeigt.

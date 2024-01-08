@@ -3,9 +3,9 @@ title: Geschenkkartenprodukt
 description: Erfahren Sie, wie Sie ein Geschenkkartenprodukt erstellen, das einen eindeutigen Code erzeugt, den ein Empfänger beim Checkout einlösen kann.
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,10 @@ Sie können die Standardeinstellung `Gift Card` -Attributsatz oder wählen Sie e
    - Um den Bereich der zulässigen Mindest- und Höchstwerte festzulegen, geben Sie die **[!UICONTROL Open Amount From]** und **[!UICONTROL To]** -Werte.
 
    Sie können Geschenkgutscheine mit festen Preisen, einem offenen Preis oder beidem erstellen.
+
+   >[!NOTE]
+   >
+   >Ein Geschenkgutschein hat keinen eigenen Preis im Katalog. Der Preis der Geschenkkarte wird aus dem ausgewählten Betrag der Geschenkkarte während des Kaufs abgeleitet.
 
    ![Geldbetrag der Geschenkkarte](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
@@ -152,5 +156,7 @@ Füllen Sie die Informationen in den folgenden Abschnitten nach Bedarf aus:
 - Die Lebensdauer einer Geschenkkarte kann unbegrenzt sein oder auf eine bestimmte Anzahl von Tagen festgelegt werden.
 
 - Der Wert einer Geschenkkarte kann auf einen festen Betrag oder auf einen offenen Betrag mit einem Mindest- und Höchstwert gesetzt werden.
+
+- Ein Geschenkgutschein hat keinen eigenen Preis im Katalog. Der Preis der Geschenkkarte wird aus dem ausgewählten Betrag der Geschenkkarte während des Kaufs abgeleitet.
 
 - Ein Geschenkkartenkonto für den Kunden kann bei der Bestellung oder zum Zeitpunkt der Rechnung erstellt werden.

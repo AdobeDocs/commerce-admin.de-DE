@@ -3,9 +3,9 @@ title: Konfigurierbares Produkt
 description: Erfahren Sie, wie Sie ein konfigurierbares Produkt erstellen, das den Käufern Varianten zur Auswahl bietet.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
 workflow-type: tm+mt
-source-wordcount: '2416'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Die [Attributset](attribute-sets.md) bestimmt die Auswahl der Felder, die im Pro
 
    **Erstellen einer Kategorie**:
 
-   - Klicken **[!UICONTROL New Category]**.
+   - Klicks **[!UICONTROL New Category]**.
 
    - Geben Sie die **[!UICONTROL Category Name]** und wählen Sie **[!UICONTROL Parent Category]**, der seine Position in der Menüstruktur bestimmt.
 
@@ -154,7 +154,7 @@ Die Fortschrittsleiste am oberen Seitenrand zeigt an, wo Sie sich im Prozess bef
 
    - Füllen Sie die Attributeigenschaften aus.
 
-   - Klicken **[!UICONTROL Save Attribute]**.
+   - Klicks **[!UICONTROL Save Attribute]**.
 
    - Aktivieren Sie das Kontrollkästchen für das Attribut.
 
@@ -203,6 +203,10 @@ Da das Bild für das übergeordnete Produkt bereits hochgeladen wurde, können S
    ![Eindeutige Bilder pro SKU](./assets/product-configurable-create-configurations-add-images-unique.png){width="600" zoomable="yes"}
 
 Verwenden Sie eine der folgenden Methoden, um die **[!UICONTROL prices]**:
+
+>[!NOTE]
+>
+>Ein konfigurierbares Produkt hat keinen eigenen Preis im Katalog. Der konfigurierbare Produktpreis ergibt sich aus dem [!UICONTROL In Stock] untergeordnete Produkte.
 
 **Methode 1:** Den gleichen Preis auf alle SKUs anwenden
 
@@ -373,6 +377,8 @@ Die _Lagerstatus_ des konfigurierbaren Produkts teilweise durch den Lagerstatus 
 - [Lagerstatus](../inventory-management/sources-stocks.md) für ein konfigurierbares Produkt eine halbmanuell gesteuerte Einstellung ist. Sie unterscheidet sich vom Lagerstatus des einfachen Produkts, wobei es sich um eine direkte Darstellung der Produktverfügbarkeit handelt. Bei einem konfigurierbaren Produkt ist der Lagerstatus Teil einer Berechnung des Aktienstatus mit mehreren Kriterien.
 
 - Konfigurierbare untergeordnete Produkte können einfache oder virtuelle Produkte sein **ohne benutzerdefinierte Optionen**. Um benutzerdefinierte untergeordnete Produkte virtuell zu gestalten, müssen Sie `Тhis item has no weight` für die **[!UICONTROL Weight]** -Einstellung für jeden von ihnen.
+
+- Ein konfigurierbares Produkt hat keinen eigenen Preis im Katalog. Der konfigurierbare Produktpreis ergibt sich aus dem [!UICONTROL In Stock] untergeordnete Produkte.
 
 - Die Attribute, die für Produktvarianten verwendet werden, müssen einen globalen Umfang aufweisen und der Kunde muss einen Wert auswählen müssen. Die Produktvariantenattribute müssen in den Attributsatz aufgenommen werden, der als Vorlage für das konfigurierbare Produkt verwendet wird.
 
