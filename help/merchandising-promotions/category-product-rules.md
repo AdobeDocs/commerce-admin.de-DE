@@ -3,9 +3,9 @@ title: Kategorieregeln für Merchandising
 description: Erfahren Sie, wie Sie eine Regel erstellen, um die Produktauswahl anhand eines Bedingungssatzes dynamisch zu ändern.
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 50951e5aae51067cdba2d8b50c1e530c7f79007a
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Kategorieproduktregeln können die Zuweisung bestimmter Produkte zu Kategorien b
 
    Die automatischen Sortierungs- und Bedingungsoptionen werden angezeigt.
 
-1. Klicken **[!UICONTROL Add Condition]**.
+1. Klicks **[!UICONTROL Add Condition]**.
 
 1. Wählen Sie die **[!UICONTROL Attribute]** Dies ist die Grundlage der Bedingung.
 
@@ -88,7 +88,7 @@ Kategorieproduktregeln können die Zuweisung bestimmter Produkte zu Kategorien b
 
    ![Automatische Sortierung](./assets/automatic-sorting-field.png){width="600" zoomable="yes"}
 
-   Die Sortierung basiert auf aktuellen Bedingungen:
+   Optionen für Sortierreihenfolge werden global definiert und basierend auf aktuellen Bedingungen angewendet. Sie können keine andere Sortierreihenfolge für die Website-, Store- oder Store-Ansichtsebene festlegen.
 
    | Sortieroption | Beschreibung |
    |-----------| -----------|
