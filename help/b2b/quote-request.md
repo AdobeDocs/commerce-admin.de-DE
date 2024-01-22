@@ -4,9 +4,9 @@ description: Erfahren Sie, wie mit einem Unternehmenskonto verknüpfte Kunden ei
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 265ec236d8391f676c876bcd95c610a8e72f4e70
+source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ Wenn Anführungszeichen in der [Konfiguration der Vertriebsfunktionen](configure
 
 1. Der Kunde meldet sich bei seinem Benutzerkonto als Käufer an [Berechtigung](account-company-roles-permissions.md) , um ein Angebot anzufordern.
 
-1. Fügt die Produkte, die im Angebot enthalten sein sollen, zum Warenkorb hinzu.
+1. Fügt die Produkte hinzu, die in das Angebot aufgenommen werden sollen, und zwar zum Warenkorb.
 
    >[!TIP]
    > 
-   >Wenn Sie über eine Liste von Produkt-SKUs verfügen, die Sie bestellen können, können Sie diese schneller zum Warenkorb hinzufügen, indem Sie [Schnellbestellung](quick-order.md).
+   >Kunden können eine Liste von Produkt-SKUs schneller zum Warenkorb hinzufügen, indem sie [Schnellbestellung](quick-order.md).
 
 1. Auswahl **[!UICONTROL Request a Quote]**.
 
    ![Anfordern eines Angebots aus dem Warenkorb](./assets/quote-request-from-cart.png){width="700" zoomable="yes"}
 
-1. Im **[!UICONTROL Add your comment]** gibt eine kurze Anmerkung ein, die die Anfrage beschreibt.
+1. Im **[!UICONTROL Add your comment]** eingeben, gibt der Kunde eine kurze Notiz ein, um die Anfrage zu beschreiben.
 
 1. Fügt eine **[!UICONTROL Quote Name]**.
 
@@ -51,4 +51,4 @@ Wenn Anführungszeichen in der [Konfiguration der Vertriebsfunktionen](configure
    - Sendet das Angebot durch Auswahl an an den Verkäufer **[!UICONTROL Request a Quote]**.
    - [!BADGE 1.5.0-Beta-Funktion]{type=Informative url="/help/b2b/release-notes.md" tooltip="Nur für Beta-Programmteilnehmer verfügbar"}**[!UICONTROL Save as Draft]**.
 
-     Wenn der Käufer das Angebot als Entwurf speichert, ist das Angebot im [!UICONTROL My Quotes] in `Draft` state. Er ist für den Verkäufer erst sichtbar, wenn der Käufer das Angebot öffnet und einreicht.
+     Wenn der Käufer das Angebot als Entwurf speichert, ist das Angebot verfügbar unter [!UICONTROL My Quotes] in `Draft` state. Für den Verkäufer sind die Angebote nicht sichtbar, bis der Käufer sie zur Überprüfung sendet.
