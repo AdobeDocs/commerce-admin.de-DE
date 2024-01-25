@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: f7b8e47aa5a8113fac768b8086ace3bf673193c5
+source-git-commit: 2eacc773f96540691decaf1ca798328bc51a5d70
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ In diesen Versionshinweisen werden Funktionsänderungen und Fehlerbehebungen im 
 
 _15. August 2023_
 
-![Fehlerbehebung](../assets/new.svg) - Die [Dashboard für Real-Time CDP-Zielgruppen](#real-time-cdp-audiences-dashboard) zur Vereinfachung der Filterung.
+![Fehlerbehebung](../assets/fix.svg) - Die [Dashboard für Real-Time CDP-Zielgruppen](#real-time-cdp-audiences-dashboard) zur Vereinfachung der Filterung.
 
 _27. Juni 2023_
 
@@ -50,7 +50,23 @@ _30. Mai 2023_
 
 +++
 
-### 2.0.0
+### 2.1.0
+
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+
+_24. Januar 2024_
+
+![Neu](../assets/new.svg) - Die [Dashboard für Real-Time CDP-Zielgruppen](#real-time-cdp-audiences-dashboard) , um die Websites einzubeziehen, die die Zielgruppen enthalten, und anzugeben, welche dynamischen Bausteine und Warenkorbpreisregeln für die Verwendung dieser Zielgruppen konfiguriert sind.
+
+### 2,0,1
+
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+
+_16. November 2023_
+
+![Fehlerbehebung](../assets/fix.svg) - Verbesserung der Stabilität.
+
+### 2,0,0
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
@@ -59,7 +75,7 @@ _10. Oktober 2023_
 ![Neu](../assets/new.svg) - Unterstützung für OAuth 2.0 bei [konfigurieren](#configure-the-extension) die Audience Activation-Erweiterung.
 ![Fehlerbehebung](../assets/fix.svg) - Verbesserung der Stabilität.
 
-### 1.2.0
+### 1,2,0
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
@@ -75,7 +91,7 @@ _30. Mai 2023_
 
 ![Neu](../assets/new.svg) - Unterstützung für [dynamische Blöcke](#headless-support) in einer Headless-Storefront.
 
-### 1.0.1
+### 1,0,1
 
 _11. Mai 2023_
 
@@ -84,7 +100,7 @@ _11. Mai 2023_
 ![Fehlerbehebung](../assets/fix.svg) - Es wurde ein Problem behoben, bei dem eine dynamische Block- oder Warenkorbpreisregel nicht auf die Storefront angewendet wurde.
 ![Fehlerbehebung](../assets/fix.svg) - Es wurde ein Problem behoben, bei dem eine nicht konfigurierte Installation der Audience Activation-Erweiterung einen Fehler verursachte, wenn ein Händler versuchte, einen dynamischen Block zu erstellen oder zu aktualisieren.
 
-### 1.0.0
+### 1,0,0
 
 _31. März 2023_
 
@@ -137,16 +153,20 @@ Nach der Installation [!DNL Audience Activation] müssen Sie sich bei Ihrem Comm
 
 1. Klicks **Konfiguration speichern**.
 
-Wenn Zielgruppen für Ihre Adobe Commerce-Instanz aktiviert sind, können Sie:
+## Verwendung von Real-Time CDP-Zielgruppen in Commerce
+
+Mit dem [!DNL Audience Activation] -Erweiterung aktiviert haben, können Sie:
 
 - [Erstellen einer Preisregel für den Warenkorb](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) durch Zielgruppen informiert
 - [Dynamischen Baustein erstellen](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) durch Zielgruppen informiert
 
 ## Dashboard für Real-Time CDP-Zielgruppen
 
-Sie können alle aktiven Zielgruppen anzeigen, die in Ihrer Adobe Commerce-Instanz personalisiert werden können, indem Sie die **Real-Time CDP-Zielgruppen** Dashboard. Beliebige Zielgruppen [enabled](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) im Adobe Commerce-Ziel in Real-Time CDP angezeigt.
+Alle [active](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) Zielgruppen, die in Ihrer Adobe Commerce-Instanz mithilfe der **Real-Time CDP-Zielgruppen** Dashboard.
 
 So greifen Sie auf die **Real-Time CDP-Zielgruppen** Dashboard, navigieren Sie zum _Admin_ Seitenleiste, dann zu **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+
+![Dashboard für Real-Time CDP-Zielgruppen](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 Das Dashboard enthält die folgenden Felder:
 
@@ -156,9 +176,12 @@ Das Dashboard enthält die folgenden Felder:
 | `Search` | Ermöglicht die Suche nach aktiven Zielgruppen in Ihrer Commerce-Instanz. |
 | `Name` | Name der Audience in Real-Time CDP. |
 | `Origin` | Gibt an, woher die Zielgruppe stammt, beispielsweise `Experience Platform`. |
+| `Websites` | Gibt an, welche Websites für die Verwendung der Zielgruppen konfiguriert sind. |
+| `Dynamic Blocks` | Gibt an, welche dynamischen Blöcke für die Verwendung der Zielgruppen konfiguriert sind. |
+| `Cart Price Rules` | Gibt an, welche Regeln für den Warenkorbpreis für die Verwendung der Zielgruppen konfiguriert sind. |
 | `Last updated` | Gibt an, wann die Zielgruppe in Real-Time CDP geändert wurde. |
 | `Sync now` | Ruft neue oder aktualisierte Zielgruppen aus Real-Time CDP ab. |
-| `Customize table` | Ermöglicht das Anzeigen oder Verbergen der `Origin` und `Last updated` Spalten. |
+| `Customize table` | Ermöglicht das Anzeigen oder Verbergen der `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, und `Last updated` Spalten. |
 
 {style="table-layout:auto"}
 
