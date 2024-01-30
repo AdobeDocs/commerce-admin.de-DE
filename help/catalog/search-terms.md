@@ -3,9 +3,9 @@ title: Suchbegriffe verwalten
 description: Erfahren Sie, wie Sie die Suchbegriffe für Ihren Store verwalten, um Kunden mit falsch geschriebenen oder alternativen Begriffen umzuleiten.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 6126943f20f33d52085018ca634159918833efc9
+source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Wenn Sie neue Wörter lernen, die Benutzer für die Suche in Ihrem Geschäft ver
 
 1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**.
 
-1. Klicken **[!UICONTROL Add New Search Term]**.
+1. Klicks **[!UICONTROL Add New Search Term]**.
 
    ![Allgemeine Informationen zu Suchbegriffen](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ Es gibt zwei Methoden zum Löschen eines Suchbegriffs aus dem Raster und auf der
 
 1. Suchen Sie den zu löschenden Suchbegriff und öffnen Sie ihn im Bearbeitungsmodus.
 
-1. Klicken **[!UICONTROL Delete Search]**.
+1. Klicks **[!UICONTROL Delete Search]**.
 
 1. Klicken Sie zur Bestätigung der Aktion auf **[!UICONTROL OK]**.
 
@@ -131,6 +131,10 @@ Adobe Commerce unterstützt zwei verschiedene Synonym-Verwaltungslösungen:
 >
 >Die standardmäßige Funktion &quot;Synonyme suchen&quot;unterstützt standardmäßig `name` und `sku` Produktattribute **_only_**.
 
+>[!IMPORTANT]
+>
+>Die Funktion &quot;Synonyme suchen&quot;verwendet nur die Suchmethode für die Volltextabstimmung.
+
 ![Beispiel-Storefront - Suchergebnisse mit Synonymen](./assets/storefront-search-results-synonyms.png){width="700" zoomable="yes"}
 
 ### Synonymisierungsgruppe erstellen
@@ -141,7 +145,7 @@ Adobe Commerce unterstützt zwei verschiedene Synonym-Verwaltungslösungen:
 
    ![Synonymisierungs-Raster suchen](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
-1. Klicken **[!UICONTROL New Synonym Group]**.
+1. Klicks **[!UICONTROL New Synonym Group]**.
 
    ![Neue Gruppe von Suchsynonymen](./assets/search-synonym-group-new.png){width="700" zoomable="yes"}
 
@@ -182,7 +186,7 @@ Es gibt zwei Methoden zum Löschen einer Synonym-Gruppe - aus dem Raster und auf
 
 1. Klicken Sie im Raster &quot;Synonyme suchen&quot;auf die Zeile eines Datensatzes, um die Synonym-Gruppe im Bearbeitungsmodus zu öffnen.
 
-1. Klicken **[!UICONTROL Delete Synonym Group]**.
+1. Klicks **[!UICONTROL Delete Synonym Group]**.
 
 1. Bestätigen Sie bei entsprechender Aufforderung das Entfernen der Gruppe.
 
@@ -205,7 +209,7 @@ Der Bericht zu Suchbegriffen zeigt die Anzahl der Ergebnisse für jeden Begriff 
    - `CSV` - Eine kommagetrennte Wertdatei mit Textdaten
    - `Excel XML` - Ein XML-basiertes Tabellendatenformat
 
-1. Klicken **[!UICONTROL Export]**.
+1. Klicks **[!UICONTROL Export]**.
 
    Die generierte Datei wird automatisch für Downloads in Ihrem angegebenen Ordner gespeichert.
 
