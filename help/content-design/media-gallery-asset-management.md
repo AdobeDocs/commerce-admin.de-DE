@@ -3,7 +3,7 @@ title: Asset-Verwaltung für Media Gallery
 description: Erfahren Sie, wie Sie hochgeladene Mediendateien und Assets verwalten, die Sie über eine Adobe Stock-Integration erwerben.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: a93e96353f4be0e771064cdcfbdf794772386a28
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Die neue [Media Gallery](media-gallery.md) bietet Tools zum Verwalten von hochge
 
 1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Klicken **[!UICONTROL Upload Image]**.
+1. Klicks **[!UICONTROL Upload Image]**.
 
 1. Wählen Sie die hochzuladende Datei aus.
 
@@ -72,6 +72,8 @@ Assets können im gesamten Admin umfassend verwendet werden, z. B. [Hinzufügen 
 1. Greifen Sie über einen Bereich, in dem Sie Medien-Assets verwenden können, auf die neue Media Gallery zu.
 
 1. Wählen Sie das Asset aus und klicken Sie auf **[!UICONTROL Add Selected]**.
+
+{{$include /help/_includes/image-optimization-animated-gif-note.md}}
 
 ## Löschen von Assets
 
