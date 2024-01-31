@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Erstellung von Unternehmenskonten in de
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
 workflow-type: tm+mt
-source-wordcount: '1770'
+source-wordcount: '1784'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Der Person, die ein Unternehmenskonto über die Storefront erstellt, wird eine R
 
       - **[!UICONTROL Company Legal Name]**
       - **[!UICONTROL VAT/TAX ID]**
-      - **[!UICONTROL Re-seller ID]**
+      - **[!UICONTROL Reseller ID]**
 
    ![Unternehmensinformationen](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
@@ -74,7 +74,7 @@ Der Person, die ein Unternehmenskonto über die Storefront erstellt, wird eine R
 
 1. Schließt die Validierung ab, wenn reCAPTCHA für diese Storefront-Funktion aktiviert ist.
 
-1. Klicken Sie nach Abschluss der Informationen auf **[!UICONTROL Submit]**.
+1. Wenn die Informationen vollständig sind, wählen Sie **[!UICONTROL Submit]**.
 
    Wenn die Anfrage zur Erstellung eines Unternehmenskontos vom Händler genehmigt wird, wird die E-Mail-Benachrichtigung an den Unternehmensadministrator gesendet.
 
@@ -86,7 +86,7 @@ Der Person, die ein Unternehmenskonto über die Storefront erstellt, wird eine R
 
 Der Prozess der Erstellung eines Unternehmens über den Administrator ist im Wesentlichen identisch mit dem der Storefront, jedoch mit zusätzlichen Feldern.
 
-![Neue Firma](./assets/company-update.png){width="700" zoomable="yes"}
+![Hinzufügen eines neuen Unternehmens über den Administrator](./assets/company-add-new.png){width="700" zoomable="yes"}
 
 1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -173,24 +173,24 @@ Der Prozess der Erstellung eines Unternehmens über den Administrator ist im Wes
    - So ändern Sie die **[!UICONTROL Applicable Payment Methods]** die dem Unternehmen zur Verfügung stehen, löschen Sie die **[!UICONTROL Use config settings]** und wählen Sie eine der folgenden Optionen:
 
      | Option | Beschreibung |
-     | ------ | ----------- |
+     |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
      | `B2B Payment Methods` | (Standard) Aktiviert alle [Als Standard festgelegte Zahlungsmethoden](../configuration-reference/general/b2b-features.md#default-b2b-payment-methods) für B2B-Bestellungen. |
      | `All Enabled Payment Methods` | Macht alle [aktivierte Zahlungsmethoden](../configuration-reference/sales/payment-methods.md) für Kundenkonten verfügbar, die mit dem Unternehmenskonto verknüpft sind. |
-     | `Selected Payment Methods` | Ermöglicht die Auswahl der Zahlungsmethoden, die für mit dem Unternehmenskonto verbundene Kundenkonten verfügbar sind. Um mehrere Zahlungsmethoden auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jede Option. |
+     | `Selected Payment Methods` | Ermöglicht die Auswahl der Zahlungsmethoden, die für mit dem Unternehmenskonto verbundene Kundenkonten verfügbar sind. Um mehrere Zahlungsmethoden auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jede Option aus. |
 
      {style="table-layout:auto"}
 
    - So ändern Sie die **[!UICONTROL Applicable Shipping Methods]** die dem Unternehmen zur Verfügung stehen, löschen Sie die **[!UICONTROL Use config settings]** und wählen Sie eine der folgenden Optionen:
 
      | Option | Beschreibung |
-     | ------ | ----------- |
+     |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
      | `B2B Shipping Methods` | (Standard) Aktiviert alle [Versandmethoden als Standard festgelegt](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) für B2B-Bestellungen. |
      | `All Enabled Shipping Methods` | Macht alle [aktivierte Versandmethoden](../configuration-reference/sales/delivery-methods.md) für Kundenkonten verfügbar, die mit dem Unternehmenskonto verknüpft sind. |
-     | `Selected Shipping Methods` | Ermöglicht die Auswahl der Versandmethoden, die für Kundenkonten verfügbar sind, die mit dem Unternehmenskonto verknüpft sind. Um mehrere Versandmethoden auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jede Option. |
+     | `Selected Shipping Methods` | Ermöglicht die Auswahl der Versandmethoden, die für Kundenkonten verfügbar sind, die mit dem Unternehmenskonto verknüpft sind. Um mehrere Versandmethoden auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jede Option aus. |
 
      {style="table-layout:auto"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Wählen Sie nach Abschluss **[!UICONTROL Save]**.
 
    Wenn die Anfrage zur Erstellung eines Unternehmenskontos vom Händler genehmigt wird, wird eine E-Mail-Benachrichtigung an die E-Mail-Adresse des Unternehmensadministrators gesendet.
 
@@ -199,7 +199,7 @@ Der Prozess der Erstellung eines Unternehmens über den Administrator ist im Wes
 ## Schaltflächenleiste
 
 | Schaltfläche | Beschreibung |
-|------- | ----------- |
+|---------------------------|------------------------------------------------------------------|
 | [!UICONTROL Back] | Kehrt zur Seite &quot;Unternehmen&quot;zurück, ohne Änderungen zu speichern. |
 | [!UICONTROL Reset] | Stellt die ursprünglichen Werte in allen Feldern mit nicht gespeicherten Änderungen wieder her. |
 | [!UICONTROL Save] | Speichert Änderungen am Unternehmen und behält das Profil bei. |
@@ -210,7 +210,7 @@ Der Prozess der Erstellung eines Unternehmens über den Administrator ist im Wes
 ## Feldbeschreibungen
 
 | Feld | Beschreibung |
-|--- |--- |
+|-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | Der Unternehmensname wird bei der ersten Erstellung des Unternehmenskontos angegeben und kann eine gekürzte Version des vollständigen rechtlichen Namens sein. |
 | [!UICONTROL Status] | (Nur Administrator) Gibt den aktuellen Status des Unternehmenskontos an. Optionen: <br/>**[!UICONTROL Active]**- Das Unternehmenskonto wird vom Store-Administrator genehmigt. Der Unternehmensadministrator und die zugehörigen Mitglieder können sich über die Storefront bei dem Konto anmelden und Käufe tätigen.<br/>**[!UICONTROL Pending Approval]** - Eine Anfrage zum Öffnen eines Unternehmenskontos wurde eingereicht, aber noch nicht vom Store-Administrator genehmigt. <br/>**[!UICONTROL Rejected]**- Eine Anfrage zum Öffnen eines Unternehmenskontos wurde gesendet, aber vom Store-Administrator nicht genehmigt. Die ursprünglichen Anmeldedaten, die zum Senden der Anfrage verwendet wurden, werden blockiert.<br/>** Blockierung **- Die Mitglieder des Unternehmens können sich anmelden und auf den Katalog zugreifen, jedoch keine Käufe tätigen. Der Store-Administrator blockiert möglicherweise ein Unternehmenskonto, das nicht gut aufgestellt ist. Der Block auf dem Konto kann vom Store-Administrator jederzeit entfernt werden. |
 | [!UICONTROL Company Email] | Die mit dem Unternehmenskonto verknüpfte E-Mail-Adresse. |
@@ -221,7 +221,7 @@ Der Prozess der Erstellung eines Unternehmens über den Administrator ist im Wes
 ### [!UICONTROL Account Information]
 
 | Feld | Beschreibung |
-|--- |--- |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Legal Name] | Der vollständige rechtsgültige Name des Unternehmens. |
 | [!UICONTROL VAT / TAX ID] | Die [Mehrwertsteuer](../stores-purchase/vat.md) Nummer, die dem Unternehmen von einigen Rechtsgebieten für Steuerberichterstattungszwecke zugewiesen wird. Informationen zum Konfigurieren der Mehrwertsteuer-/TAX-ID des Kunden, die in der Storefront angezeigt wird, finden Sie unter [Neue Kontooptionen erstellen](../configuration-reference/customers/customer-configuration.md). <br/> **_Hinweis:_** Der Unternehmensadministrator und andere Benutzer des Unternehmens verfügen nicht über eigene MwSt.-/TAX-ID-Nummern in ihren Kundenkonten. |
 | [!UICONTROL Reseller ID] | Die Wiederverkaufsnummer, die dem Unternehmen für Steuerberichterstattungszwecke zugewiesen wird. |
@@ -232,14 +232,15 @@ Der Prozess der Erstellung eines Unternehmens über den Administrator ist im Wes
 ### [!UICONTROL Company Hierarchy]
 
 | Feld | Beschreibung |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company ID] | Die ID-Nummer des Unternehmens |
 | [!UICONTROL Company Name] | Der vollständige Name des Unternehmens. <br/>A `current company indicator` in der sich in Bearbeitung befindenden Firmenzeile angezeigt. |
 | [!UICONTROL Company Email] | Die mit dem Unternehmenskonto verknüpfte E-Mail-Adresse. |
 | [!UICONTROL Phone Number] | Die primäre Telefonnummer des Unternehmens. |
+| [!UICONTROL Country] | Das Land, in dem die Gesellschaft zur Ausübung ihrer Tätigkeit eingetragen ist. |
 | [!UICONTROL State/Province] | Das Bundesland oder die Provinz, in dem das Unternehmen für die Geschäftstätigkeit registriert ist. |
 | [!UICONTROL City] | Die Stadt, in der das Unternehmen für die Geschäftstätigkeit registriert ist. |
-| [!UICONTROL Customer Group] | (Nur Admin) Gibt die [Kundengruppe](../customers/customer-groups.md) oder [freigegebener Katalog](catalog-shared.md) , das dem Unternehmen zugewiesen ist. |
+| [!UICONTROL Group/Shared Catalog] | (Nur Admin) Gibt die [Kundengruppe](../customers/customer-groups.md) oder [freigegebener Katalog](catalog-shared.md) , das dem Unternehmen zugewiesen ist. |
 | [!UICONTROL Company Admin] | Der vollständige Name des Unternehmensadministrators. |
 | [!UICONTROL Action] | Die Liste möglicher Aktionen für diese Unternehmenszeile. |
 
@@ -248,7 +249,7 @@ Der Prozess der Erstellung eines Unternehmens über den Administrator ist im Wes
 ### [!UICONTROL Legal Address]
 
 | Feld | Beschreibung |
-|--- |--- |
+|------------------------------|-----------------------------------------------------------------------------|
 | [!UICONTROL Street Address] | Die Straßenadresse, unter der die Gesellschaft für die Geschäftstätigkeit registriert ist. |
 | [!UICONTROL City] | Die Stadt, in der das Unternehmen für die Geschäftstätigkeit registriert ist. |
 | [!UICONTROL Country] | Das Land, in dem die Gesellschaft zur Ausübung ihrer Tätigkeit eingetragen ist. |
@@ -261,7 +262,7 @@ Der Prozess der Erstellung eines Unternehmens über den Administrator ist im Wes
 ### [!UICONTROL Company Admin]
 
 | Feld | Beschreibung |
-|--- |--- |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | Bestimmt die Website, zu der der Unternehmensadministrator gehört. |
 | [!UICONTROL Job Title] | Der Titel des Unternehmensadministrators, der das Unternehmenskonto verwaltet. |
 | [!UICONTROL Email] | Die E-Mail-Adresse des Unternehmensadministrators kann mit der E-Mail-Adresse des Unternehmens übereinstimmen. Wenn eine andere E-Mail-Adresse angegeben wird, wird zusätzlich zum Unternehmenskonto ein eigenes Konto für den Unternehmensadministrator erstellt. |
@@ -278,7 +279,7 @@ Der Prozess der Erstellung eines Unternehmens über den Administrator ist im Wes
 ### [!UICONTROL Company Credit]
 
 | Feld | Beschreibung |
-|--- |--- |
+|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Credit Currency] | (Nur Administrator) Die Währung, die vom Store für Käufe auf Firmenkredite akzeptiert wird. |
 | [!UICONTROL Credit Limit] | (Nur Administrator) Die Kreditbeschränkung, die auf das Unternehmenskonto erweitert wird. |
 | [!UICONTROL Allow to Exceed Credit Limit] | (Nur Admin) Gibt an, ob das Unternehmen über die Berechtigung zum Überschreiten des Kreditlimits verfügt. Optionen: `Yes` / `No` |
@@ -289,13 +290,13 @@ Der Prozess der Erstellung eines Unternehmens über den Administrator ist im Wes
 ### [!UICONTROL Advanced Settings]
 
 | Feld | Beschreibung |
-|--- |--- |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Customer Group] | (Nur Admin) Gibt die [Kundengruppe](../customers/customer-groups.md) oder [freigegebener Katalog](catalog-shared.md) , das dem Unternehmen zugewiesen ist. |
 | [!UICONTROL Allow Quotes] | (Nur Administrator) Bestimmt, ob Unternehmensmitglieder im Namen des Unternehmens verhandelbare Kurse vorbereiten und einreichen können. |
 | [!UICONTROL Enable Purchase Orders] | (Nur Administrator) Bestimmt, ob Unternehmensmitglieder Bestellungen als [Bestellaufträge](account-dashboard-my-purchase-orders.md) im Namen des Unternehmens. |
 | Anwendbare Zahlungsmethoden | (Nur Administrator) Gibt die Zahlungsmethoden an, die für Unternehmenskäufe verfügbar sind. Optionen: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
-| [!UICONTROL Payment Methods] | (Nur Administrator) Wird aktiv, wenn bestimmte Zahlungsmethoden aktiviert sind. Um mehrere Zahlungsmethoden für das Unternehmenskonto verfügbar zu machen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jede Option. |
+| [!UICONTROL Payment Methods] | (Nur Administrator) Wird aktiv, wenn bestimmte Zahlungsmethoden aktiviert sind. Um mehrere Zahlungsmethoden für das Unternehmenskonto verfügbar zu machen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jede Option aus. |
 | [!UICONTROL Applicable Shipping Methods] | (Nur Administrator) Gibt die Versandmethoden an, die für Unternehmenskäufe verfügbar sind. Optionen: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |
-| [!UICONTROL Shipping Methods] | (Nur Administrator) Wird aktiv, wenn bestimmte Versandmethoden aktiviert sind. Um mehrere Zahlungsmethoden für das Unternehmenskonto verfügbar zu machen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jede Option. |
+| [!UICONTROL Shipping Methods] | (Nur Administrator) Wird aktiv, wenn bestimmte Versandmethoden aktiviert sind. Um mehrere Zahlungsmethoden für das Unternehmenskonto verfügbar zu machen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jede Option aus. |
 
 {style="table-layout:auto"}

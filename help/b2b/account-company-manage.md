@@ -1,11 +1,11 @@
 ---
 title: Verwalten von Unternehmenskonten
-description: Erfahren Sie mehr über die Seite "Unternehmen"und die im Raster verfügbaren Tools, mit denen Sie Unternehmenskonten für Ihren Adobe Commerce-Store verwalten können.
+description: Erfahren Sie, wie Sie Unternehmenskonten für Ihren Adobe Commerce-Store mithilfe der Seite "Unternehmen"und der im Raster verfügbaren Tools verwalten.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: fa8083570a4637c4bf67f7657ef9d0d48f962c50
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2493'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Die _[!UICONTROL Companies]_auf der Seite werden alle aktuellen Unternehmenskont
 
 Die _[!UICONTROL Actions]_-Kontrolle über das Raster kann verwendet werden, um eine Aktion auf mehrere Firmendatensätze anzuwenden. Anstatt beispielsweise jede einzelne Anforderung eines Unternehmens zu genehmigen, können Sie mehrere Anforderungen auswählen und die Konten in einer einzigen Aktion aktivieren. Die verfügbaren Aktionen hängen von der [Berechtigungen](../systems/permissions.md) für die Rolle, die Ihrem Admin-Benutzerkonto zugewiesen ist.
 
-Verwenden Sie die _[!UICONTROL Search]_-Funktion zum Finden von Unternehmen in **Unternehmen**nach Keyword. Das Unternehmen wird durch die Suche nach dem angegebenen Schlüsselwort im **Firmenname**und **Übergeordnet**Spalten. Sie können nach **Firmentyp**um Muttergesellschaften und ihre verbundenen Unternehmen zu zeigen oder nur untergeordnete Unternehmen zu zeigen.
+Verwenden Sie die _[!UICONTROL Search]_-Funktion zum Finden von Unternehmen in **Unternehmen**nach Keyword. Die Suche indiziert Suchbegriffe aus der **Firmenname**und **Übergeordnet**Spalten. Sie können nach **Firmentyp**, um nur einzelne Unternehmen, nur Muttergesellschaften oder nur untergeordnete Unternehmen anzuzeigen.
 
 ![Unternehmensraster](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
@@ -41,7 +41,7 @@ Die folgenden Aktionen können auf einzelne oder mehrere Datensätze angewendet 
 
 ### Unternehmenskonten aktivieren
 
-1. Legen Sie die **[!UICONTROL Actions]** Kontrolle an `Set Active`.
+1. Aus dem **[!UICONTROL Actions]** Kontrolle, wählen Sie **[!UICONTROL Set Active]**.
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL OK]**.
 
@@ -49,16 +49,16 @@ Die folgenden Aktionen können auf einzelne oder mehrere Datensätze angewendet 
 
 Kunden mit inaktiven Konten können sich nicht über ihre Konten anmelden oder Einkäufe tätigen. Es gibt zwei Methoden, um ein Kundenkonto als aktiv oder inaktiv festzulegen:
 
-Methode 1: **Aus dem Kundenraster**
+Methode 1: **Über das Kundenraster**
 
 1. Im _Admin_ Seitenleiste, navigieren Sie zu [!UICONTROL **Kunden**] > [!UICONTROL **Alle Kunden**].
 
-1. Legen Sie die [!UICONTROL **Aktionen**] ein Steuerelement zu einem der folgenden Elemente hinzufügen:
+1. Aus dem **[!UICONTROL Actions]** Wählen Sie eines der folgenden Elemente aus:
 
-   - `Active`
-   - `Inactive`
+   - **[!UICONTROL Active]**
+   - **[!UICONTROL Inactive]**
 
-1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL OK]**.
+1. Wählen Sie bei Aufforderung **[!UICONTROL OK]** , um die Änderung anzuwenden.
 
 Methode 2: **Auf der Seite zur Kontobearbeitung**
 
@@ -66,7 +66,7 @@ Methode 2: **Auf der Seite zur Kontobearbeitung**
 
 1. Suchen Sie im Raster den zu bearbeitenden Kundendatensatz.
 
-1. Im _Aktionen_ -Spalte ganz rechts klicken Sie auf [!UICONTROL **Bearbeiten**].
+1. Im _Aktionen_ -Spalte ganz rechts auswählen [!UICONTROL **Bearbeiten**].
 
 1. Wählen Sie die [!UICONTROL **Kontoinformationen**] Registerkarte.
 
@@ -78,7 +78,7 @@ Methode 2: **Auf der Seite zur Kontobearbeitung**
 
 Benutzer, die mit einem gesperrten Unternehmenskonto verknüpft sind, können sich anmelden und auf den Katalog zugreifen, jedoch keine Käufe tätigen. Ein Unternehmen mit einem Konto, das nicht in gutem Zustand ist, kann vorübergehend gesperrt werden, bis die Angelegenheit geklärt ist.
 
-1. Legen Sie die **[!UICONTROL Actions]** Kontrolle an `Block`.
+1. Aus dem **[!UICONTROL Actions]** Kontrolle, wählen Sie **[!UICONTROL Block]**.
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL OK]**.
 
@@ -86,7 +86,7 @@ Benutzer, die mit einem gesperrten Unternehmenskonto verknüpft sind, können si
 
 Gelöschte Unternehmenskonten können nicht wiederhergestellt werden. Der Status der Benutzerkonten, die mit dem Unternehmen verknüpft sind, wird auf `Inactive` und die Firmen-ID aus den Profilen der Benutzerkonten entfernt wird. Informationen über Unternehmenstätigkeiten und Transaktionen werden im System gespeichert.
 
-1. Legen Sie die **[!UICONTROL Actions]** Kontrolle an `Delete`.
+1. Aus dem **[!UICONTROL Actions]** Kontrolle, wählen Sie **[!UICONTROL Delete]**.
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL OK]**.
 
@@ -94,7 +94,7 @@ Gelöschte Unternehmenskonten können nicht wiederhergestellt werden. Der Status
 
 Der Kredit in den Konten ausgewählter Unternehmen wird in den aktuellen Kurs der ausgewählten Währung umgerechnet.
 
-1. Legen Sie die **[!UICONTROL Actions]** Kontrolle an `Convert Currency`.
+1. Aus dem **[!UICONTROL Actions]** Kontrolle, wählen Sie **[!UICONTROL Convert Currency]**.
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL OK]**.
 
@@ -104,13 +104,13 @@ Der Kredit in den Konten ausgewählter Unternehmen wird in den aktuellen Kurs de
 
 1. Klicks **[!UICONTROL Proceed]** , um die Konvertierung abzuschließen.
 
-### Bearbeiten von Unternehmenskonten
+## Bearbeiten von Unternehmenskonten
 
 Methode 1: **Schnellbearbeitung**
 
 1. Aktivieren Sie in der ersten Spalte das Kontrollkästchen des zu bearbeitenden Unternehmenskontos.
 
-1. Legen Sie die **[!UICONTROL Actions]** Spalte zu `Edit`.
+1. Aus dem **[!UICONTROL Actions]** Kontrolle, wählen Sie **[!UICONTROL Edit]**.
 
    Jeder zu aktualisierende Wert wird in einem Textfeld angezeigt.
 
@@ -124,13 +124,13 @@ Methode 1: **Schnellbearbeitung**
 
    - **[!UICONTROL Phone Number]**
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicks **[!UICONTROL Save]**.
 
 Methode 2: **Vollständige Bearbeitung**
 
 1. Suchen Sie im Raster den zu bearbeitenden Firmendatensatz.
 
-1. Klicks **[!UICONTROL Edit]** im _[!UICONTROL Action]_Spalte.
+1. Auswählen **[!UICONTROL Edit]** aus dem _[!UICONTROL Action]_Spalte.
 
 1. Nehmen Sie die erforderlichen Änderungen an den Unternehmensinformationen vor.
 
@@ -191,7 +191,7 @@ Die folgenden Abschnitte enthalten eine Referenz zu den verfügbaren Aktionen, O
 ### Aktionssteuerungsoptionen
 
 | Option | Beschreibung |
-|--- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Set Active] | Legt den Status aller ausgewählten Firmendatensätze auf `Active`. Unternehmensadministratoren erhalten Anweisungen zum Festlegen ihrer Kennwörter, damit sie über das Storefront auf ihre Konten zugreifen und ihre Unternehmen verwalten können. |
 | [!UICONTROL Block] | Beschränkt Unternehmenskonten, die nicht gut aufgestellt sind, und behält das Konto bei. Die Mitglieder des Unternehmens können sich anmelden und auf den Katalog zugreifen, können jedoch keine Bestellungen im Namen des Unternehmens tätigen. |
 | [!UICONTROL Delete] | Löscht die ausgewählten Unternehmenskonten. Der Status der Benutzerkonten, die einem gelöschten Unternehmen zugeordnet sind, wird auf `Inactive` und die Firmen-ID aus den Profilen der Benutzerkonten entfernt wird. Informationen über Unternehmenstätigkeiten und Transaktionen werden im System gespeichert. |
@@ -324,11 +324,11 @@ Die folgenden Spalten können durch Ändern der [Spaltenlayout](../getting-start
 #### [!UICONTROL Company Credit]
 
 | Feld | Beschreibung |
-|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Credit Currency] | Die Währung, die vom Store für Käufe auf Firmenkredite akzeptiert wird. |
 | [!UICONTROL Credit Limit] | Die Kreditbeschränkung, die auf das Unternehmenskonto erweitert wird. |
 | [!UICONTROL Allow to Exceed Credit Limit] | Gibt an, ob das Unternehmen berechtigt ist, die Kreditgrenze zu überschreiten. Optionen: Ja/Nein |
-| [!UICONTROL Reason for Change] | Ein Hinweis, der erklärt, warum das Unternehmen die Kreditgrenze überschreiten darf oder nicht. Dieses Feld ist nur dann aktiv, wenn sich die Berechtigung zum Überschreiten des Kreditlimits ändert. |
+| [!UICONTROL Reason for Change] | Ein Hinweis, in dem die Umstände erläutert werden, unter denen das Unternehmen das Kreditlimit überschreiten kann oder nicht. Dieses Feld ist nur dann aktiv, wenn sich die Berechtigung zum Überschreiten des Kreditlimits ändert. |
 
 {style="table-layout:auto"}
 

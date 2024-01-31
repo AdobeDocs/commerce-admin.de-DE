@@ -1,14 +1,14 @@
 ---
 title: Verwalten der Unternehmenshierarchie
-description: Erstellen und verwalten Sie Unternehmenshierarchien, um B2B-Organisationen mit komplexen Betriebsmodellen zu unterstützen.
+description: Erfahren Sie, wie Sie B2B-Organisationen mit komplexen Betriebsmodellen verwalten können, indem Sie Hierarchien von Unternehmen aufbauen.
 feature: B2B, Companies
 role: Admin
 hide: false
 hidefromtoc: false
 exl-id: a277ed95-7935-4d27-adb2-35116972732b
-source-git-commit: 10b01db562777ef2fcc224177d7a83c0a6fc90e7
+source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -17,48 +17,46 @@ ht-degree: 0%
 
 [!BADGE 1.5.0-Beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Nur für Beta-Programmteilnehmer verfügbar"}
 
-Administratoren können eine [!UICONTROL Company Hierarchy] indem verbundene Unternehmen einer benannten Muttergesellschaft zugewiesen werden, die das Unternehmen an der Spitze der Organisationshierarchie steht.
+Administratoren können eine [!UICONTROL Company Hierarchy] indem verbundene Unternehmen einer benannten Muttergesellschaft zugewiesen werden, die das Unternehmen an der Spitze der Organisation ist. Wenn die Variable [!UICONTROL Company Type] is `Company`, ist das Unternehmen nicht Teil einer Organisation und berechtigt, Muttergesellschaft zu werden oder einer bestehenden Muttergesellschaft zuzuweisen.
 
-Erstellen Sie eine Muttergesellschaft, indem Sie ein Unternehmen bearbeiten, das keiner vorhandenen [!UICONTROL Company Hierarchy]und die Zuweisung verbundener Unternehmen.
+Im Admin verwalten Sie Unternehmenszuweisungen, indem Sie ein Unternehmen bearbeiten und dann die [!UICONTROL Company Hierarchy] Konfiguration zum Zuweisen oder Aufheben der Zuweisung von Unternehmen.
 
-![Unternehmenshierarchieraster](./assets/company-detail-view.png){width="700"}
-
-Nachdem ein Unternehmen einer Hierarchie zugewiesen wurde, wird die [!UICONTROL Company type] in der **Unternehmen** Grid identifiziert das Unternehmen als `Parent` oder  `Child` Unternehmen.  Wenn die Variable [!UICONTROL Company Type] is `Company`, ist das Unternehmen nicht Teil einer Unternehmenshierarchie und berechtigt, Muttergesellschaft zu werden oder einer bestehenden Muttergesellschaft zuzuweisen.
+![Unternehmenshierarchieraster](./assets/company-detail-hierarchy-current-flag.png){width="700"}
 
 >[!NOTE]
 >
 >Weitere Informationen zum [!UICONTROL Company Hierarchy] Raster, siehe [Unternehmenshierarchie](account-company-create.md#company-hierarchy) Feldbeschreibungen.
 
-Im Admin verwalten Sie Unternehmenszuweisungen, indem Sie ein Unternehmen bearbeiten und dann die [!UICONTROL Company Hierarchy] Abschnitt [!UICONTROL Company] -Seite, um Unternehmen zuzuweisen oder die Zuweisung aufzuheben.
+## Zuweisen von Unternehmen zu einer Organisation
 
-## Zuweisen von Unternehmen zu einer Muttergesellschaft
-
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Aus dem _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
    ![Unternehmensraster](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-1. Öffnen Sie im Raster Unternehmen die Detailseite des Unternehmens, um die Zuweisungen zu erstellen.
+1. Im [!UICONTROL Companies] -Raster öffnen Sie die Detailseite des Unternehmens, um die Zuweisungen zu erstellen.
 
    - Um einer bestehenden Muttergesellschaft weitere Unternehmen zuzuweisen, wählen Sie die **[!UICONTROL Edit]** Maßnahmen für die Muttergesellschaft.
-   - Um eine neue Muttergesellschaft zu erstellen, wählen Sie die **[!UICONTROL Edit]** Maßnahmen für die Muttergesellschaft.
+   - Um eine Muttergesellschaft zu erstellen, wählen Sie die **[!UICONTROL Edit]** Maßnahmen, damit das Unternehmen als Mutterunternehmen bestimmt wird.
 
-     Es ist nicht möglich, eine neue Muttergesellschaft aus einer bestehenden Muttergesellschaft oder einem untergeordneten Unternehmen zu erstellen.
+     Es ist nicht möglich, eine Muttergesellschaft aus einer bestehenden Muttergesellschaft oder einem untergeordneten Unternehmen zu erstellen.
 
-   ![Neue Firma](./assets/company-update.png){width="700" zoomable="yes"}
+1. Erweitern Sie auf der Seite mit den Unternehmensdetails den **[!UICONTROL Company Hierarchy]**.
 
-1. Erweitern Sie auf der Detailseite Firma die **[!UICONTROL Company Hierarchy]** und wählen Sie **[!UICONTROL Assign Companies]**.
+   ![Unternehmenshierarchieraster](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
-   ![Neue Firma](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+   Das Raster zeigt vorhandene Unternehmenszuweisungen an, sofern vorhanden. Die Muttergesellschaft befindet sich immer oben im [!UICONTROL Company Hierarchy] Gitter. Die `[!UICONTROL Current]` kennzeichnet das zu bearbeitende Unternehmen.
 
-   Wenn Sie diese Ansicht erweitern, können Sie vorhandene Unternehmenszuweisungen sehen, sofern vorhanden. Die Muttergesellschaft erscheint immer über dem _[!UICONTROL Company Hierarchy]_Raster mit `current company indicator` in der Zeile des Unternehmens angezeigt, die bearbeitet wird.
+1. Fügen Sie Unternehmen zur übergeordneten Organisation hinzu.
 
-1. Zur Zuweisung verfügbare Unternehmen werden im Raster aufgeführt. Wählen Sie die zuzuweisenden Unternehmen aus und wählen Sie dann **[!UICONTROL Assign Selected Companies]**.
+   - Wählen Sie aus einer Liste der verfügbaren Unternehmen aus, indem Sie **[!UICONTROL Assign Companies]**.
 
-1. Sie können **Alle auf dieser Seite auswählen** oder eines bestimmten Unternehmens-Zeileneintrags und klicken Sie auf **[!UICONTROL Assign Selected Companies]**.
+   - **Alle auf dieser Seite auswählen** oder wählen Sie ein oder mehrere bestimmte Firmenzeilen-Elemente aus.
 
-   ![Neue Firma](./assets/assign-selected-companies.png){width="700" zoomable="yes"}
+   - Auswählen **[!UICONTROL Assign Selected Companies]**.
 
-1. Wenn Sie dazu aufgefordert werden, schließen Sie die Unternehmenszuweisung ab, indem Sie **[!UICONTROL Assign]**.
+   - Führen Sie die Unternehmenszuweisung durch Auswahl von aus. **[!UICONTROL Assign]**.
+
+     ![Zuweisen von Unternehmen zur Organisation](./assets/assign-selected-companies-hierarchy.png){width="675" zoomable="yes"}
 
 ## Aufheben der Zuweisung von Unternehmen zu einer Muttergesellschaft
 
@@ -66,14 +64,12 @@ Im Admin verwalten Sie Unternehmenszuweisungen, indem Sie ein Unternehmen bearbe
 
    ![Unternehmensraster](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-1. Öffnen Sie auf der Seite &quot;Unternehmen&quot;die Firmendetailseite für das Mutterunternehmen, indem Sie die **[!UICONTROL Edit]** Aktion.
+1. Im [!UICONTROL Companies] -Raster öffnen Sie die Firmendetailseite für das Mutterunternehmen, indem Sie **[!UICONTROL Edit]**.
 
-   ![Neue Firma](./assets/company-update.png){width="700" zoomable="yes"}
+1. Anzeigen der Liste der zugeordneten Unternehmen durch Erweiterung **[!UICONTROL Company Hierarchy]**.
 
-1. Zeigen Sie die Liste der zugewiesenen Unternehmen an, indem Sie die **[!UICONTROL Company Hierarchy]** Dropdown.
+1. Aus dem [!UICONTROL Company Hierarchy] wird die Zuweisung eines Unternehmens mithilfe des **[!UICONTROL Select]** Entscheidungsniveau **[!UICONTROL Unassign from parent]**.
 
-1. Heben Sie die Zuweisung eines Unternehmens in der Hierarchie des Unternehmens auf, indem Sie die **[!UICONTROL Select]** Aktion für das Unternehmen und wählen Sie dann **[!UICONTROL Unassign from parent]**.
-
-   ![Neue Firma](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+   ![Aufheben der Zuweisung von Unternehmen zu einer übergeordneten Organisation](./assets/company-hierarchy-grid-unassign.png){width="700" zoomable="yes"}
 
 1. Entfernen Sie bei Aufforderung das zugewiesene Unternehmen aus der Hierarchie, indem Sie **[!UICONTROL Unassign]**.

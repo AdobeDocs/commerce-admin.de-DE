@@ -6,9 +6,9 @@ role: Admin
 hide: false
 hidefromtoc: false
 exl-id: 8246be3d-ff9f-4f9f-875d-1b999befc534
-source-git-commit: 10b01db562777ef2fcc224177d7a83c0a6fc90e7
+source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -17,20 +17,34 @@ ht-degree: 0%
 
 [!BADGE 1.5.0-Beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Nur für Beta-Programmteilnehmer verfügbar"}
 
-Die Unternehmensverwaltungsfunktion optimiert den Geschäftsbetrieb für Unternehmen mit komplexen Organisationsstrukturen. Administratoren können Unternehmen als Gruppe verwalten, indem sie eine Unternehmenshierarchie erstellen, die verbundene Unternehmen einer bestimmten Muttergesellschaft zuordnet. Diese Zuweisung ermöglicht es dem Administrator der Muttergesellschaft, sein eigenes Konto zu verwalten und das Unternehmen Konten für alle zugewiesenen Unternehmen.
+Das Unternehmensmanagement optimiert den Geschäftsbetrieb für Unternehmen mit komplexen Organisationsstrukturen. Administratoren können eine Unternehmenshierarchie erstellen, um eine B2B-Organisation zu spiegeln, indem sie Unternehmen der angegebenen Muttergesellschaft zuweisen. Diese Zuweisung ermöglicht es dem Administrator der Muttergesellschaft, Unternehmen innerhalb der Organisation anzuzeigen und zu verwalten.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+Starten Sie Unternehmensverwaltungsaufgaben über die *[!UICONTROL Companies]* anzeigen. Navigieren Sie vom Administrator zu  **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Öffnen Sie die Detailseite des Unternehmens im Raster Unternehmen für das Mutterunternehmen, indem Sie die **[!UICONTROL Edit]** Aktion.
+![B2B-Unternehmensraster verwalten](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-![Unternehmensraster](./assets/company-detail-view.png){width="700" zoomable="yes"}
+Im *[!UICONTROL Companies grid]*, die *[!UICONTROL Company Type]* gibt an, ob ein Unternehmen als Teil einer Organisation oder als separates Unternehmen verwaltet wird.
 
-Siehe [Verwalten von Unternehmenskonten](account-company-manage.md) für weitere Informationen über das Unternehmensnetz.
+- `Parent` ist eine Unternehmensorganisation mit einem oder mehreren zugewiesenen Unternehmen. Eine Muttergesellschaft kann nicht als untergeordnetes Element eines anderen Unternehmens zugewiesen werden.
 
-## [!UICONTROL Company Hierarchy]
+- `Child` ist ein Unternehmen, das einer Organisation zugewiesen wurde. Ein Unternehmen kann nur einer Muttergesellschaft zugewiesen werden.
 
-Bei der ersten Erstellung des Unternehmens muss die Variable [!UICONTROL Company Hierarchy] grid ist leer, wenn Sie es erweitern. Nachdem ein Unternehmen erstellt wurde, können Admin-Benutzer mit entsprechenden Berechtigungen die [!UICONTROL Company Hierarchy] eine Muttergesellschaft zu gründen, indem die benannte Muttergesellschaft bearbeitet und verbundene Unternehmen zugewiesen werden.
+- `Company` stellt ein einzelnes Unternehmen dar. Ein einzelnes Unternehmen kann Teil einer Organisation werden, indem es eine Muttergesellschaft wird oder sie einer bestehenden Muttergesellschaft zuweist.
 
-![Hierarchieraster von Unternehmen](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+Wenn Sie ein übergeordnetes oder untergeordnetes Unternehmen bearbeiten, erweitern Sie *[!UICONTROL Company Hierarchy]* um alle Unternehmen in der Organisation anzuzeigen. A `Current` -Markierung gibt das Unternehmen an, das Sie bearbeiten.
 
-Siehe [Zuweisen und Aufheben der Zuweisung von Unternehmen](assign-companies.md) Weitere Informationen zu den verfügbaren Aktionen finden Sie im [!UICONTROL Company Hierarchy] Gitter.
+![Raster &quot;B2B-Unternehmenshierarchie&quot;](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
+
+
+## Anzeigen und Konfigurieren des [!UICONTROL Company Hierarchy]
+
+Bei der ersten Erstellung des Unternehmens muss die Variable [!UICONTROL Company Hierarchy] grid ist leer. Sie ist auch leer, wenn es sich bei dem Unternehmen um ein einzelnes Unternehmen handelt.
+
+![Hierarchieraster B2B-Unternehmen](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+
+Für Mutterunternehmen können Admin-Benutzer mit entsprechenden Berechtigungen die folgenden Aufgaben ausführen:
+
+- Erstellen Sie die Unternehmenshierarchie, indem Sie eine neue übergeordnete Organisation erstellen oder eine bestehende aktualisieren.
+- Verwalten Sie eine bestehende Organisation, um Unternehmen hinzuzufügen oder zu entfernen.
+
+Weitere Informationen finden Sie unter [Verwalten der Unternehmenshierarchie](assign-companies.md).
