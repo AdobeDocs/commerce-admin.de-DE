@@ -3,9 +3,9 @@ title: Freigeben von [!DNL Commerce] account
 description: Erfahren Sie, wie Sie eingeschränkten Zugriff auf [!DNL Commerce] andere [!DNL Commerce] Kontoinhaber.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: adccffa3b9735eaa77f119271d026fa01cd1337b
+source-git-commit: 8d4c37f512030c907d26b0210ddaad11ce605dfe
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Die [!DNL Commerce] Das Supportteam hat keinen Zugriff auf das Konto und kann ke
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Shared Access]**.
 
-1. Klicken **[!UICONTROL Add New User]**.
+1. Klicks **[!UICONTROL Add New User]**.
 
    ![Neuen Benutzer hinzufügen](./assets/shared-access-add.png){width="600" zoomable="yes"}
 
@@ -98,7 +98,12 @@ Die folgenden Anweisungen werden aus der Perspektive eines freigegebenen Benutze
 
    >[!NOTE]
    >
-   > Wenn  **[!UICONTROL Delete]** nicht angezeigt wird, überprüfen Sie, ob die **[!UICONTROL Share Name]** beginnt mit `Cloud Shared Access from MAG XYZ` - in der Regel [diese Konten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) kann nicht gelöscht werden.
+   > Wenn  **[!UICONTROL Delete]** nicht angezeigt wird, überprüfen Sie, ob die **[!UICONTROL Share Name]** beginnt mit `Cloud Shared Access from MAG XYZ` - [diese Konten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users) kann nicht gelöscht werden.
+   > 
+   > Wenn ja, bitten Sie den Kontoinhaber, das Konto für freigegebenen Zugriff zu ändern und die Kontoberechtigungen zu löschen. Nach dieser Aktualisierung ist der freigegebene Zugriff auf eine der Ressourcen für den Benutzer nicht mehr verfügbar.
+   >
+   > Stellen Sie außerdem sicher, dass die Benutzer aus dem Projekt entfernt werden, damit sie keine E-Mail-Benachrichtigungen mehr erhalten: [Ehemalige Teammitglieder erhalten Adobe Commerce-Cloud-Benachrichtigungs-E-Mails](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL Delete User]**.
 
