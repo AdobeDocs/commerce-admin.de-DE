@@ -4,9 +4,9 @@ description: Erfahren Sie, wie ein Verkäufer ein Angebot für einen bestimmten 
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: be3427f6cc2bab68b6d2b0fa0c36b83dc310e528
+source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ Fügen Sie nach der Erstellung des Angebotsentwurfs Produktartikel hinzu, gewäh
 
    Speichern Sie das Angebot als Entwurf oder schicken Sie es an den Käufer.
 
-   Wenn Sie das Angebot an den Käufer senden, ändert sich der Status in `Submitted`und das Angebot gesperrt wird, bis der Käufer das Angebot erhält, der Status zu Entwurf aktualisiert und eine Bestätigungsnachricht angezeigt wird:
+   - Wenn Sie das Anführungszeichen als Entwurf speichern, wird der Status in `Draft` und eine Bestätigungsmeldung angezeigt wird:
 
-   ![Dem Käufer vorgelegter Angebotsentwurf](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+     ![Dem Käufer vorgelegter Angebotsentwurf](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
 
-Der Käufer erhält eine E-Mail-Benachrichtigung, um das Angebot zu überprüfen. Das Angebot ist gesperrt, bis der Käufer es zur weiteren Verhandlung zurückgibt. Der Verkäufer kann das Angebot aus der Tabelle Zitat oder dem Kundenraster anzeigen.
+   - Wenn Sie das Angebot an den Käufer senden, ändert sich der Status in `Submitted`. Der Käufer erhält eine E-Mail-Benachrichtigung, um das Angebot zu überprüfen. Das Angebot ist gesperrt, bis der Käufer es zur weiteren Verhandlung zurückgibt. Der Verkäufer kann das Angebot über das Zitat-Raster oder das Kundenraster anzeigen.
 
 ## Anzeigen und Erstellen von Anführungszeichen aus dem Kundenraster
 
