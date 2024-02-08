@@ -4,9 +4,9 @@ description: Erfahren Sie, wie ein Verkäufer ein Angebot für einen bestimmten 
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 96d592eed0e78234a9ce722f9bf1f904f42eadc1
+source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Fügen Sie nach der Erstellung des Angebotsentwurfs Produktartikel hinzu, gewäh
 
 1. Hinzufügen von Elementen zum Anführungszeichen durch Auswahl von **[!UICONTROL Add Product By SKU]**. Geben Sie die SKU-Nummer und -Menge ein und wählen Sie **[!UICONTROL Add Product]**.
 
-![Verkäufer, der Artikel zu einem Preisentwurf hinzufügt](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+   ![Verkäufer, der Artikel zu einem Preisentwurf hinzufügt](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. Wenden Sie bei Bedarf Rabatte für Zeileneinträge auf Produkte an.
 
@@ -67,7 +67,7 @@ Fügen Sie nach der Erstellung des Angebotsentwurfs Produktartikel hinzu, gewäh
 
    - Im [!UICONTROL Discount Line item] Formular, wählen Sie die **[!UICONTROL Discount Type]**.
 
-   ![Anwenden von Zeileneintrag-Rabatt auf Zitat](./assets/quote-draft-add-items.png){width="700" zoomable="yes"}
+     ![Anwenden von Zeileneintrag-Rabatt auf Zitat](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
    - Im [!UICONTROL Discount] Geben Sie den Wert für den Rabatttyp ein. Wenn Sie beispielsweise einen prozentualen Rabatt ausgewählt haben, geben Sie 10 ein, um einen 10-%-Rabatt auf den Zeileneintrag anzuwenden.
 
@@ -85,7 +85,7 @@ Fügen Sie nach der Erstellung des Angebotsentwurfs Produktartikel hinzu, gewäh
 
 1. Zusätzliche Informationen für den Käufer hinzufügen.
 
-   In [!UICONTROL Negotiation - Comments], fügen Sie eine Notiz hinzu und fügen Sie alle erforderlichen unterstützenden Dateien hinzu, die für den Käufer in [!UICONTROL Negotiation - Comments]
+   Im **[!UICONTROL Negotiation - Comments]** hinzufügen, einen Hinweis hinzufügen und alle für den Käufer erforderlichen unterstützenden Dateien anhängen.
 
    ![Verkäufer fügt Informationen zum Käufer hinzu](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
@@ -95,9 +95,7 @@ Fügen Sie nach der Erstellung des Angebotsentwurfs Produktartikel hinzu, gewäh
 
    Speichern Sie das Angebot als Entwurf oder schicken Sie es an den Käufer.
 
-   - Wenn Sie das Anführungszeichen als Entwurf speichern, wird der Status in `Draft` und eine Bestätigungsmeldung angezeigt wird:
-
-     ![Dem Käufer vorgelegter Angebotsentwurf](./assets/quote-draft-submitted-confirmation.png){width="700" zoomable="yes"}
+   - Wenn Sie das Anführungszeichen als Entwurf speichern, wird der Status in `Draft` und eine Bestätigungsmeldung angezeigt wird.
 
    - Wenn Sie das Angebot an den Käufer senden, ändert sich der Status in `Submitted`. Der Käufer erhält eine E-Mail-Benachrichtigung, um das Angebot zu überprüfen. Das Angebot ist gesperrt, bis der Käufer es zur weiteren Verhandlung zurückgibt. Der Verkäufer kann das Angebot über das Zitat-Raster oder das Kundenraster anzeigen.
 
