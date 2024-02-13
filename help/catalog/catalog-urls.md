@@ -3,9 +3,9 @@ title: Katalog- und Produkt-URLs
 description: Erfahren Sie mehr über die URL-Formattypen für Ihre Katalogprodukte und deren Konfiguration.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Der URL-Schlüssel ist Teil einer statischen URL, die das Produkt oder die Kateg
 
 >[!NOTE]
 >
->Akzentierte Sonderzeichen werden im URL-Schlüssel automatisch durch ihre regulären, nicht akzentrierten Versionen ersetzt. Beispiel: `ñ` automatisch ersetzt durch `n`.
+>Standardmäßig werden Sonderzeichen mit Akzentzeichen automatisch durch ihre regulären, nicht akzentrierten Versionen im URL-Schlüssel ersetzt. Beispiel: `ñ` automatisch ersetzt durch `n`. Dieses Verhalten kann deaktiviert werden, indem die _[!UICONTROL Search Engine Optimization: Apply transliteration for product URL]_Konfigurationsoption zu `No`. Siehe [Konfigurieren von Katalog-URLs](#configure-catalog-urls).
 
 Der URL-Schlüssel sollte aus Kleinbuchstaben mit nicht nachgestellten Bindestrichen zwischen diesen Zeichen bestehen, um Wörter zu trennen. Bindestriche sind am Anfang oder am Ende des URL-Schlüssels nicht zulässig. Ein gut gestalteter, &quot;suchmaschinenfreundlicher&quot;URL-Schlüssel kann den Produktnamen und Schlüsselwörter enthalten, um die Indexierung durch Suchmaschinen zu verbessern. Der URL-Schlüssel kann so konfiguriert werden, dass eine automatische Umleitung erstellt wird, wenn sich der URL-Schlüssel ändert.
 
