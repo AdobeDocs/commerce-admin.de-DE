@@ -5,9 +5,9 @@ breadcrumb-title: Administratorsystemanleitung
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 55b0672984ce8cdb853daf024299919beaf7ce0b
+source-git-commit: 6bc66517b7075e3abe57eec2a229cfa14bbd0633
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '173'
 ht-degree: 2%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 2%
       - [Herunterladbare Produkte importieren](data-transfer-downloadable-products.md)
       - [Importieren von Tier-Preisdaten](data-import-price-tier.md)
    - [Geplanter Import und Export](data-scheduled-import-export.md)
+   - [Data Management Dashboard](data-dashboard.md)
 - Aktionsprotokolle {#action-logs}
    - [Übersicht](action-log.md)
    - [Bericht zu Aktionslogs](action-log-report.md)
