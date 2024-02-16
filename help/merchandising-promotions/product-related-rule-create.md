@@ -3,9 +3,9 @@ title: Erstellen einer verwandten Produktregel
 description: Erfahren Sie, wie Sie eine verwandte Produktregel erstellen, die ausgelöst werden kann, um verwandte Produkte, Upsells und Querverkäufe anzuzeigen.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 8f5a5fb6c277086e5f70221e4a6a5ae1b9e1abfe
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,10 @@ Der Prozess der Erstellung einer verwandten Produktregel ähnelt dem Einrichten 
    - Für **[!UICONTROL Result Limit]** die Anzahl der Datensätze angeben, die in der Ergebnisliste angezeigt werden sollen. Die maximale Zahl ist 20.
 
    - Wenn die Regel für eine bestimmte [Kundensegment](../customers/customer-segments.md), set **[!UICONTROL Customer Segments]** nach `Specified` und wählen Sie das Kundensegment aus der Liste aus.
+
+   - (**Beta**) Wenn die Regel für eine bestimmte [Real-Time CDP-Audience](../customers/audience-activation.md), set **[!UICONTROL Real-Time CDP Audience]** nach `Specified` und wählen Sie die Real-Time CDP-Audience aus der Liste aus. Diese Funktion befindet sich in der Beta-Phase. Wenn Sie dem Betaprogramm beitreten möchten, senden Sie eine Anfrage an [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+     ![Regel für verwandte Produkte - Real-Time CDP-Zielgruppe](./assets/rtcdp-related-products.png){width="500"}
 
 1. Wählen Sie im linken Bereich die Option **[!UICONTROL Products to Match]** und erstellen Sie die Bedingungen wie für einen [Katalogpreisregel](price-rules-catalog.md).
 

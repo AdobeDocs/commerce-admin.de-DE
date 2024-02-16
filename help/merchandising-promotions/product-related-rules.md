@@ -3,9 +3,9 @@ title: Verwandte Produktregeln
 description: Erfahren Sie mehr über verwandte Produktregeln und wie sie verwendet werden, um zugehörige Produkte, Upsells und Querverkäufe dynamisch für Ihre Kunden darzustellen.
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 91e6c63f1f6f16b957366f9d5cc651f9eded31c8
+source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -132,3 +132,12 @@ Das Verhalten von Regeln für Produktbeziehungen und die Anzeige übereinstimmen
 | [!UICONTROL Weighted Random] | Produkte werden randomisiert, sodass Produkte, die zu einer Regel mit höherer Priorität gehören, mit höherer Wahrscheinlichkeit angezeigt werden als Produkte, die zu einer Regel mit niedrigerer Priorität gehören. Die Produkte werden dann auf die konfigurierbare Höchstgrenze reduziert und nach Priorität wieder gruppiert. Dieser Modus bietet die Möglichkeit, dass Produkte mit niedrigerer Priorität manchmal auch dann angezeigt werden, wenn die verbleibenden Slots mit Produkten aus einer Regel mit höherer Priorität gefüllt werden können |
 
 {style="table-layout:auto"}
+
+## Verwenden von Real-Time CDP-Zielgruppen zur Information verwandter Produktregeln
+
+>[!NOTE]
+>
+>Diese Funktion befindet sich in der Beta-Phase. Wenn Sie dem Betaprogramm beitreten möchten, senden Sie eine Anfrage an [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+
+
+Erfahren Sie, wie [Aktivieren](../customers/audience-activation.md) Real-Time CDP-Zielgruppen in Ihre Adobe Commerce-Instanz, um zugehörige Produktregeln zu informieren.
