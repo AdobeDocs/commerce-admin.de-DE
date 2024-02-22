@@ -3,10 +3,10 @@ title: Konfigurieren der Commerce Admin-Integration mit der ID
 description: Befolgen Sie dieses optionale Verfahren zur Integration der Adobe Commerce Admin-Benutzerkontoanmeldungen in Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 20b2560ce2b8071c740907292544519f8b1c3ddf
+source-git-commit: 0c79449ca05056d7a14242bbc859cb1bd4dc526e
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 1%
+source-wordcount: '755'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,8 @@ Commerce-Admin-Benutzer müssen ein Konto mit einer Adobe ID erstellen, um sich 
 
 * Adobe-Organisations-ID von der [Adobe Admin Console](https://adminconsole.adobe.com/)
 * Generieren Sie ein neues Projekt, IMS-API-Schlüssel und einen geheimen Schlüssel aus dem [Adobe Developer-Konsole](https://developer.adobe.com/)
-* Aktivieren Sie die `AdminAdobeIms` Modul
-* Konfigurieren Sie Adobe Commerce-Benutzer in der Adobe Admin Console.
+* Konfigurieren von Adobe Commerce-Benutzern in Adobe Admin Console
+* Aktivieren Sie die `AdminAdobeIms` -Modul.
 
 Für eine erfolgreiche Integration müssen alle Adobe Commerce-Benutzer über Admin-Benutzerkonten mit demselben Namen und derselben primären E-Mail-Adresse verfügen. Wenn kein übereinstimmendes Admin-Benutzerkonto vorhanden ist, muss ein Benutzer mit den erforderlichen Berechtigungen (normalerweise mit der Administratorrolle) manuell [Admin-Benutzerkonto erstellen](../systems/permissions-users-all.md#create-a-user) mit demselben Namen und derselben E-Mail-Adresse.
 
@@ -66,10 +66,32 @@ Um Projekte für eine Organisation zu erstellen, muss das Adobe-Administratorkon
 
    Lassen Sie alle Punkte im Hostnamen maskieren, indem Sie den Punkten vorangehen mit `\\`. Durch Hinzufügen eines Platzhalters am Ende der URL wird der geheime Adobe Commerce-Administratorschlüssel unterstützt.
 
-1. Klicken **[!UICONTROL Save configured API]**.
+1. Klicks **[!UICONTROL Save configured API]**.
 1. Kopieren Sie die [!UICONTROL Client ID] und [!UICONTROL Client Secret] Schlüssel aus dem erstellten Projekt.
 
-### Schritt 3: Aktivieren des AdminAdobeIms-Moduls
+### Schritt 3: Konfigurieren von Adobe Commerce-Benutzern in Adobe Admin Console
+
+Bevor Sie die Integration aktivieren, stellen Sie sicher, dass jedes Adobe Commerce Admin-Benutzerkonto über ein entsprechendes Adobe IMS-Konto verfügt. Adobe Commerce-Benutzer müssen einer bestimmten Adobe-Organisation angehören, um sich mit einer Adobe ID anzumelden.
+
+>[!TIP]
+>
+>Sie können mehrere Benutzerkonten erstellen, indem Sie die Benutzerinformationen aus einer CSV-Datei hochladen. Siehe [Mehrere Benutzer verwalten](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+
+1. Im [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html), navigieren Sie zu **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
+
+1. Klicks **[!UICONTROL Add User]**.
+
+1. Geben Sie die E-Mail-Adresse des Benutzers ein.
+
+   Falls zutreffend, wird der empfohlene ID-Typ automatisch ausgefüllt. Sie können diese Einstellung auf eine der Produkt-IDs in der Liste ändern, die auf dem Kaufplan Ihres Unternehmens basiert.
+
+   Sie können bis zu zehn Benutzer gleichzeitig hinzufügen. Um weitere hinzuzufügen, wiederholen Sie die vorherigen Schritte nach dem Speichern Ihrer Änderungen.
+
+1. Klicks **[!UICONTROL Save]**.
+
+Der Benutzer wird hinzugefügt und im [!UICONTROL Users] Liste.
+
+### Schritt 4: Aktivieren des AdminAdobeIms-Moduls
 
 Die `AdminAdobeIms` ist für die Adobe Commerce/Adobe IMS-Integration verantwortlich. Nachdem Sie das neue Projekt eingerichtet und Ihre Organisations-ID, Client-ID und Ihr Client-Geheimnis kopiert haben, können Sie die `AdminAdobeIms` -Modul.
 
@@ -83,21 +105,3 @@ Eingabe `bin/magento admin:adobe-ims:enable`. Sie werden aufgefordert, die folge
 Adobe Commerce zeigt eine Meldung an, die angibt, ob die Aktivierung erfolgreich war oder fehlgeschlagen ist.
 
 Nach der erfolgreichen Aktivierung dieser Funktion können Sie andere Adobe Commerce-Benutzerkonten in Adobe IMS-Konten übertragen. Adobe Commerce-Benutzer müssen zur konfigurierten Adobe-Organisation gehören, um sich mit einer Adobe ID anzumelden.
-
-### Schritt 4: Konfigurieren von Adobe Commerce-Benutzern in Adobe Admin Console
-
-Nach der erfolgreichen Aktivierung dieser Funktion können Sie andere Adobe Commerce-Benutzerkonten in Adobe IMS-Konten übertragen. Adobe Commerce-Benutzer müssen mindestens einer Adobe-Organisation angehören, um sich mit einer Adobe ID anzumelden.
-
-1. Im [Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html), navigieren Sie zu **[!UICONTROL Users]**  > **[!UICONTROL Users]**.
-
-1. Klicken **[!UICONTROL Add User]**.
-
-1. Geben Sie die E-Mail-Adresse des Benutzers ein.
-
-   Falls zutreffend, wird der empfohlene ID-Typ automatisch ausgefüllt. Sie können diese Einstellung auf eine der Produkt-IDs in der Liste ändern, die auf dem Kaufplan Ihres Unternehmens basiert.
-
-   Sie können bis zu zehn Benutzer gleichzeitig hinzufügen. Um weitere hinzuzufügen, wiederholen Sie die vorherigen Schritte nach dem Speichern Ihrer Änderungen.
-
-1. Klicken **[!UICONTROL Save]**.
-
-Der Benutzer wird hinzugefügt und im [!UICONTROL Users] Liste.
