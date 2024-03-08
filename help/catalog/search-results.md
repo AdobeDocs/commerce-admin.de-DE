@@ -3,9 +3,9 @@ title: Suchergebnisse
 description: Erfahren Sie, wie Sie konfigurieren können, wie Ihre Produkte den Suchkriterien entsprechen, die in das Feld "Schnellsuche"oder in das Formular "Erweiterte Suche"eingegeben wurden.
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4b2e1dd87a39c9be1adc49d867e44d306a969854
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Im folgenden Beispiel wird die Keyword-Zuordnung basierend auf der SKU verwendet
 1. Im _[!UICONTROL Products]_Liste, öffnen Sie die `Chaz Kangaroo Hoodie` (MH01) im Bearbeitungsmodus.
 1. Scrollen Sie nach unten und erweitern Sie die **[!UICONTROL Attributes]** Abschnitt.
 1. Im **[!UICONTROL Search Keywords]** das Feld SKU für das andere Produkt eingeben, `MJ03`.
-1. Klicken **[!UICONTROL Save]**.
+1. Klicks **[!UICONTROL Save]**.
 1. Navigieren Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**und aktualisieren Sie die **[!UICONTROL Page Cache]**.
 
 ### Schritt 4: Testen Sie es im Storefront.
@@ -98,6 +98,10 @@ Im folgenden Beispiel wird die Keyword-Zuordnung basierend auf der SKU verwendet
 ## Gewichtete Suche
 
 Produktattribute, die für die Katalogsuche aktiviert sind, können eine Gewichtung erhalten, um ihnen einen höheren Wert in den Suchergebnissen zu geben. Attribute mit einer höheren Gewichtung werden vor Attributen mit einer geringeren Gewichtung zurückgegeben. Wenn beispielsweise zwei Attribute im System vorhanden sind, _color_ mit einer Suchgewichtung von 3 und _description_ mit einer Suchgewichtung von 1. Eine Suche nach dem Wort _red_ gibt eine Liste von Produkten mit dem Farbattributwert `red` oben in den Suchergebnissen und gibt Produkte mit Beschreibungen zurück, die das Wort enthalten _red_ unten in den Suchergebnissen. In diesem Beispiel wird die `color` hat eine größere definierte Gewichtung als die `description` -Attribut.
+
+>[!IMPORTANT]
+>
+>Die Sortierung nach Relevanz wird durch **_multiple_** Kriterien und Beziehungen zwischen ihnen **_gleichzeitig_**. [!UICONTROL Search Weight] ist nur eines dieser Kriterien. Dies bedeutet, dass Attribute mit geringerer Suchgewichtung manchmal immer noch eine größere Relevanz haben als Attribute mit höherer Suchgewichtung. Andere Kriterien können die Anzahl der Übereinstimmungen in einem beliebigen Attribut, die Position des gefundenen Suchbegriffs und die gesamte Textstruktur vor und nach einem Suchbegriff umfassen.
 
 **_So legen Sie die Suchgewichtseigenschaften eines Attributs fest:_**
 
