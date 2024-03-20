@@ -4,9 +4,9 @@ description: Umfassende Informationen zu Kundenkonten und Segmenten für Adobe C
 seo-title: Adobe Commerce Customer Management Guide
 seo-description: Describes how to use the customer management features in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
-source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
+source-git-commit: 3f0d03ce1bfaa445c654949b69765092582d4643
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ Dieses Handbuch richtet sich an Mitarbeiter des Kundendienstes, die in Adobe Com
 | [Einführung](customers-introduction.md) | Überblick über die Verwendung der Kundenverwaltungsfunktionen in der Commerce-Admin-Instanz. |
 | Tools für die Kundenverwaltung | Erfahren Sie, wie Sie die [[!UICONTROL Customers] grid](customers-all.md) und [[!UICONTROL Now Online] Funktion](now-online.md) im Commerce Admin , mit dem Sie Ihre Store-Kunden verwalten können. |
 | Kundenkonten | Erfahren Sie, wie Sie registrierten Kunden auf der Storefront von [logins](login-landing-page.md) nach [Passwortregel](password-reset.md), und [Unterstützung von Käufern](login-as-customer.md). |
-| [[!DNL Audience Activation]](audience-activation.md) | Erfahren Sie mehr über die neuen [!DNL Audience Activation] Erweiterung, mit der Sie Real-Time CDP-Zielgruppen in Adobe Commerce aktivieren können, um eindeutige Angebote im Warenkorb zu erstellen. |
+| [Skalierte Personalisierung](personalize-scale.md) | Erfahren Sie mehr über die verfügbaren Funktionen, um das Einkaufserlebnis für jeden Kunden-Touchpoint basierend auf dem unmittelbaren Kontext und dem zuvor beobachteten Verhalten zu personalisieren. |
+| [[!DNL Audience Activation]](audience-activation.md) | Informationen zum [!DNL Audience Activation] -Erweiterung, mit der Sie Real-Time CDP-Zielgruppen in Adobe Commerce aktivieren können, um individuelle Angebote im Warenkorb, dynamische Bausteine und zugehörige Produkte zu informieren. |
 | [Kundengruppen](customer-groups.md) | Erfahren Sie, wie Sie mithilfe von Kundengruppen ermitteln können, welche Rabatte für Kunden verfügbar sind, die einer Gruppe zugewiesen sind, und welche Steuerklasse mit der Gruppe verknüpft ist. |
 | [Kundensegmente](customer-segments.md) | Definieren Sie Kundensegmente, mit denen Sie Inhalte und Promotions basierend auf verschiedenen Eigenschaften für bestimmte Kunden dynamisch anzeigen können. |
 

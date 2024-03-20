@@ -2,9 +2,9 @@
 user-guide-title: Handbuch zur Kundenverwaltung
 breadcrumb-title: Kundenverwaltung
 feature: Customers
-source-git-commit: 093df1c806443dee29e604cc4229aaa9304dbec4
+source-git-commit: 142c01f1bc5b1292ee2001c5dd7235e5b592b7cb
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '122'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 2%
 + Tools für die Kundenverwaltung {#customers-menu}
    + [Kundenliste](customers-all.md)
    + [Jetzt online](now-online.md)
+   + [Skalierte Personalisierung](personalize-scale.md)
 + Kundenkonten {#customer-accounts}
    + [Kontoumfang](customer-account-scope.md)
    + Kontooptionen {#configure}
