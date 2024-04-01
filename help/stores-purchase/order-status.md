@@ -3,41 +3,50 @@ title: Bestellstatus
 description: Erfahren Sie mehr über die vordefinierten Bestellstatus und wie Sie benutzerdefinierte Bestellstatus definieren, die an Ihre betrieblichen Anforderungen angepasst sind.
 exl-id: d1153558-a721-4643-a70c-7fc20072983c
 feature: Orders
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c2d5e9b41a76ba58d1343a8b3ee5122104d5bfe0
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # Bestellstatus
 
-Alle Bestellungen haben einen Bestellstatus, der einer Phase in der Auftragsverarbeitung zugeordnet ist [Workflow](order-processing.md). Der Status jeder Bestellung wird im Abschnitt _Status_ Spalte _Bestellungen_ Gitter. Ihr Store verfügt über eine Reihe vordefinierter Einstellungen für den Bestellstatus und den Bestellstatus. Der Bestellstatus beschreibt die Position einer Bestellung im Workflow.
+Alle Bestellungen haben einen Bestellstatus, der einer Phase in der Auftragsverarbeitung zugeordnet ist [Workflow](order-processing.md).\
+Der Unterschied zwischen Bestellstatus und Bestellstatus besteht darin, dass **[!UICONTROL order states]** werden programmgesteuert verwendet. Sie sind für Kunden oder Admin-Benutzer nicht sichtbar. Sie bestimmen den Ablauf einer Bestellung und welche Vorgänge für eine Bestellung in einem bestimmten Status möglich sind.\
+**[!UICONTROL Order statuses]** werden verwendet, um Kunden und Administratoren den Status einer Bestellung mitzuteilen.
+Sie können zusätzliche Bestellstatus erstellen, die Ihren betrieblichen Anforderungen entsprechen. Der Bestellstatus eignet sich hervorragend, um den Fortschritt außerhalb von Adobe Commerce anzuzeigen, z. B. die Bestellauswahl und den Versandfortschritt. Sie haben keine Auswirkungen auf den Auftragsverarbeitungs-Workflow.\
+Jeder Bestellstatus ist mit einem Bestellstatus verknüpft. Ihr Store verfügt über eine Reihe vordefinierter Einstellungen für den Bestellstatus und den Bestellstatus.
+
+![Bestellstatus und -status](./assets/order-states-and-statuses.png){width="700" zoomable="yes"}
+
+Der Status jeder Bestellung wird im Abschnitt _Status_ Spalte _Bestellungen_ Gitter.
 
 ![Bestellstatus](./assets/stores-order-status-column.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
->Der teilweise rückerstattete Auftrag verbleibt in `Processing` Status bis **_all_** bestellte Artikel (einschließlich erstatteter Artikel) werden versandt. Der Bestellstatus ändert sich nicht in `Complete` wenn auch nur ein Bestellartikel noch nicht versandt wurde.
+>Der teilweise rückerstattete Auftrag verbleibt in `Processing` Status bis **_all_** bestellte Artikel (einschließlich erstatteter Artikel) werden versandt. Der Bestellstatus ändert sich nicht in `Complete` bis jeder Artikel in der Bestellung versandt wurde.
 
-## Bestellstatus-Workflow
+## Workflow &quot;Auftragsstatus&quot;
 
-![Bestellstatus-Workflow](./assets/order-workflow.png)
+![Workflow &quot;Auftragsstatus&quot;](./assets/order-state-workflow.png)
 
 ## Vordefinierter Status
 
-| Bestellstatus | Status-Code |  |
-|--- |--- |--- |
-| Verarbeitung läuft | `processing` | Wenn der Status neuer Bestellungen auf &quot;Verarbeitung&quot;festgelegt ist, wird die _Automatisch alle Elemente einrechnen_ in der Konfiguration verfügbar. Rechnungen werden nicht automatisch für Bestellungen erstellt, die mit der Gift Card, Store Credit, Rewards Points oder anderen Offline-Zahlungsmethoden bestellt werden. |
+| Bestellstatus | Status-Code |                                                                                                                                                                                                                                                                                        |
+|--------------------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Erhalten | `received` | Dieser Status ist der Anfangsstatus für Bestellungen, die platziert werden, wenn die asynchrone Bestellplatzierung aktiviert ist. |
 | Verdächtiger Betrug | `fraud` | Manchmal werden Bestellungen, die über PayPal oder ein anderes Zahlungsportal bezahlt werden, als _Verdächtiger Betrug_. Dieser Status bedeutet, dass für die Bestellung keine Rechnung ausgestellt wurde und die Bestätigungs-E-Mail auch nicht gesendet wird. |
+| Verarbeitung läuft | `processing` | Wenn der Status neuer Bestellungen auf &quot;Verarbeitung&quot;festgelegt ist, wird die _Automatisch alle Elemente einrechnen_ in der Konfiguration verfügbar. Rechnungen werden nicht automatisch für Bestellungen erstellt, die mit der Gift Card, Store Credit, Rewards Points oder anderen Offline-Zahlungsmethoden bestellt werden. |
 | Ausstehende Zahlung | `pending_payment` | Dieser Status wird verwendet, wenn die Bestellung erstellt wird und PayPal oder eine ähnliche Zahlungsmethode verwendet wird. Das bedeutet, dass der Kunde zur Payment Gateway-Website geleitet wurde, aber noch keine Rückkehrinformationen eingegangen sind. Dieser Status ändert sich, wenn der Kunde zahlt. |
 | Zahlungsüberprüfung | `payment_review` | Dieser Status wird angezeigt, wenn die Überprüfung der PayPal-Zahlung aktiviert ist. |
 | Ausstehend | `pending` | Dieser Status weist darauf hin, dass keine Rechnung und keine Sendungen vorgelegt wurden. |
 | Halten | `holded` | Dieser Status kann nur manuell zugewiesen werden. Du kannst jede Ordnung auf Eis legen. |
-| Öffnen | `STATE_OPEN` | Dieser Status bedeutet, dass ein Bestell- oder Kreditmemo noch geöffnet ist und möglicherweise weiterer Handlungsbedarf besteht. |
 | Fertig | `complete` | Dieser Status bedeutet, dass die Bestellung erstellt, bezahlt und an den Kunden versandt wird. |
 | Geschlossen | `closed` | Dieser Status zeigt an, dass einer Bestellung ein Kreditmemo zugewiesen wurde und der Kunde eine Rückerstattung erhalten hat. |
 | Abgebrochen | `canceled` | Dieser Status wird manuell im Admin zugewiesen oder bei einigen Zahlungstüren, wenn der Kunde nicht innerhalb der festgelegten Zeit zahlt. |
+| Abgelehnt | `rejected` | Dieser Status bedeutet, dass eine Bestellung während der asynchronen Bestellverarbeitung abgelehnt wurde. Dies geschieht, wenn während der asynchronen Bestellplatzierung ein Fehler auftritt. |
 | PayPal Cancelled Reversal | `paypay_canceled_reversal` | Dieser Status bedeutet, dass PayPal die Umkehrung abgebrochen hat. |
 | Ausstehende PayPal | `pending_paypal` | Dieser Status bedeutet, dass die Bestellung bei PayPal eingegangen ist, die Zahlung jedoch noch nicht verarbeitet wurde. |
 | PayPal umkehrt | `paypal_reversed` | Dieser Status bedeutet, dass PayPal die Transaktion rückgängig gemacht hat. |
@@ -46,7 +55,7 @@ Alle Bestellungen haben einen Bestellstatus, der einer Phase in der Auftragsvera
 
 ## Benutzerdefinierter Bestellstatus
 
-Zusätzlich zu den voreingestellten Einstellungen für den Bestellstatus können Sie auch eigene benutzerdefinierte Bestellstatuseinstellungen erstellen, sie Bestellstatus zuweisen und einen standardmäßigen Bestellstatus für Bestellstatus festlegen. Der Bestellstatus gibt die Position der Bestellung im Workflow für die Auftragsverarbeitung an und der Bestellstatus definiert den Status der Bestellung. Möglicherweise benötigen Sie einen benutzerdefinierten Bestellstatus, z. B. `packaging"`, `backordered`oder einem Status, der Ihren Anforderungen entspricht. Sie können einen beschreibenden Namen für den benutzerdefinierten Status erstellen und ihn dem zugehörigen Bestellstatus im Workflow zuweisen.
+Zusätzlich zu den voreingestellten Einstellungen für den Bestellstatus können Sie eigene benutzerdefinierte Bestellstatuseinstellungen erstellen, sie Bestellstatus zuweisen und Standardsortierungsstatus für Bestellstatus festlegen. Der Bestellstatus gibt die Position der Bestellung im Workflow zur Auftragsbearbeitung an und der Bestellstatus weist der Position der Bestellung eine aussagekräftig übersetzbare Bezeichnung zu. Möglicherweise benötigen Sie einen benutzerdefinierten Bestellstatus, z. B. `packaging"`, `backordered`oder einem Status, der Ihren Anforderungen entspricht. Sie können einen beschreibenden Namen für den benutzerdefinierten Status erstellen und ihn dem zugehörigen Bestellstatus im Workflow zuweisen.
 
 >[!NOTE]
 >
@@ -70,7 +79,7 @@ Zusätzlich zu den voreingestellten Einstellungen für den Bestellstatus können
 
 1. Im _[!UICONTROL Store View Specific Labels]_eingeben, geben Sie alle Bezeichnungen ein, die für verschiedene Store-Ansichten erforderlich sind.
 
-1. Klicken **[!UICONTROL Save Status]**.
+1. Klicks **[!UICONTROL Save Status]**.
 
 ### Zuweisen eines Bestellstatus zu einem Status
 
@@ -98,7 +107,7 @@ Zusätzlich zu den voreingestellten Einstellungen für den Bestellstatus können
 
    ![Status dem Status zuweisen](./assets/order-status-assign-state.png){width="600" zoomable="yes"}
 
-1. Klicken **[!UICONTROL Save Status Assignment]**.
+1. Klicks **[!UICONTROL Save Status Assignment]**.
 
 ### Vorhandenen Bestellstatus bearbeiten
 
@@ -106,7 +115,7 @@ Zusätzlich zu den voreingestellten Einstellungen für den Bestellstatus können
 
 1. Aktualisieren Sie die Statuseinstellungen nach Bedarf.
 
-1. Klicken **[!UICONTROL Save Status]**.
+1. Klicks **[!UICONTROL Save Status]**.
 
 ### Entfernen des Bestellstatus aus einem zugewiesenen Status
 
