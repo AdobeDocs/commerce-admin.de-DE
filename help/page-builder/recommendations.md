@@ -3,20 +3,20 @@ title: Inhalt hinzufügen - Produkt-Recommendations
 description: Erfahren Sie mehr über den Inhaltstyp des Produkt-Recommendations, mit dem Empfehlungen zur [!DNL Page Builder] Bühne.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 13d00168e1253a7d2698b898caa30d9ca2ad3800
+source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # Inhalt hinzufügen - Produkt-Recommendations
 
-Verwenden Sie die _Produkt-Recommendations_ Inhaltstyp zum Hinzufügen eines vorhandenen, aktiven [Empfehlungseinheit](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) der [[!DNL Page Builder] Schritt](workspace.md#stage) für eine CMS-Seite, einen Block oder einen dynamischen Block.
+Verwenden Sie die _Produkt-Recommendations_ Inhaltstyp zum Hinzufügen eines vorhandenen, aktiven [Empfehlungseinheit](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) der [[!DNL Page Builder] Schritt](workspace.md#stage) für eine CMS-Seite, einen Block oder einen dynamischen Block.
 
 >[!NOTE]
 >
->Die [!DNL Page Builder] _Produkt-Recommendations_ Inhaltstyp wird in Adobe Commerce 2.4.4 und höher unterstützt und ist im Abschnitt [Produkt-Recommendations-Metapaket Version 3.0.x oder neuer](https://marketplace.magento.com/magento-product-recommendations.html). Hinzufügen von [!DNL Page Builder] Support für Product Recommendations, [Installationsinformationen anzeigen](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure.html#pbsupport). **Dieser Inhaltstyp steht nicht zur Magento Open Source zur Verfügung.**
+>Die [!DNL Page Builder] _Produkt-Recommendations_ Inhaltstyp wird in Adobe Commerce 2.4.4 und höher unterstützt und ist im Abschnitt [Produkt-Recommendations-Metapaket Version 3.0.x oder neuer](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Hinzufügen von [!DNL Page Builder] Support für Product Recommendations, [Installationsinformationen anzeigen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Dieser Inhaltstyp steht nicht zur Magento Open Source zur Verfügung.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ Verwenden Sie die _Produkt-Recommendations_ Inhaltstyp zum Hinzufügen eines vor
 
 ## Hinzufügen einer vorhandenen Empfehlungseinheit
 
-1. Stellen Sie sicher, dass Sie bereits [eine Empfehlungseinheit erstellt hat](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/admin/create.html) für die [!DNL Page Builder] Seitentyp.
+1. Stellen Sie sicher, dass Sie bereits [eine Empfehlungseinheit erstellt hat](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) für die [!DNL Page Builder] Seitentyp.
 
 >[!NOTE]
 >
@@ -55,8 +55,8 @@ Verwenden Sie die _Produkt-Recommendations_ Inhaltstyp zum Hinzufügen eines vor
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   - Klicken **[!UICONTROL Edit Product Recommendation]**.
-   - Bewegen Sie den Mauszeiger über den leeren Container, um die Toolbox anzuzeigen, und klicken Sie auf _Einstellungen_ (![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+   - Klicks **[!UICONTROL Edit Product Recommendation]**.
+   - Bewegen Sie den Mauszeiger über den leeren Container, um die Toolbox anzuzeigen, und klicken Sie auf _Einstellungen_ (![Symbol Einstellungen](./assets/pb-icon-settings.png)).
 
    ![Produktempfehlungen bearbeiten](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
@@ -84,7 +84,7 @@ Verwenden Sie die _Produkt-Recommendations_ Inhaltstyp zum Hinzufügen eines vor
 
 ## Einstellungen der Empfehlungseinheiten bearbeiten
 
-1. Bewegen Sie den Mauszeiger über den Container der Empfehlungseinheit, um die Toolbox anzuzeigen, und klicken Sie auf die Schaltfläche _Einstellungen_ (![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den Container der Empfehlungseinheit, um die Toolbox anzuzeigen, und klicken Sie auf die Schaltfläche _Einstellungen_ (![Symbol Einstellungen](./assets/pb-icon-settings.png)).
 
    ![Empfehlungs-Toolbox](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 
@@ -94,11 +94,11 @@ Verwenden Sie die _Produkt-Recommendations_ Inhaltstyp zum Hinzufügen eines vor
 
 ## Duplizieren einer Empfehlungseinheit
 
-1. Bewegen Sie den Mauszeiger über den Container der Empfehlungseinheit, um die Toolbox anzuzeigen, und klicken Sie auf die Schaltfläche _Duplizieren_ ( ![Dubletten](./assets/pb-icon-duplicate.png){width="20"} ) in der Toolbox.
+1. Bewegen Sie den Mauszeiger über den Container der Empfehlungseinheit, um die Toolbox anzuzeigen, und klicken Sie auf die Schaltfläche _Duplizieren_ (![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png)) in der Toolbox.
 
    Das Duplikat wird direkt unter dem Original angezeigt.
 
-1. Um die duplizierte Empfehlungseinheit an eine neue Position zu verschieben, bewegen Sie den Mauszeiger über den Container und klicken Sie auf die _Verschieben_ ( ![Symbol Verschieben](./assets/pb-icon-move.png){width="20"} ) in der Toolbox.
+1. Um die duplizierte Empfehlungseinheit an eine neue Position zu verschieben, bewegen Sie den Mauszeiger über den Container und klicken Sie auf die _Verschieben_ (![Symbol Verschieben](./assets/pb-icon-move.png)) in der Toolbox.
 
 1. Wählen Sie die Empfehlungseinheit aus und ziehen Sie sie, bis die rote Führungslinie an der neuen Position angezeigt wird.
 
@@ -106,7 +106,7 @@ Verwenden Sie die _Produkt-Recommendations_ Inhaltstyp zum Hinzufügen eines vor
 
 ## Entfernen einer Empfehlungseinheit aus der Bühne
 
-1. Bewegen Sie den Mauszeiger über den Container der Empfehlungseinheit und klicken Sie auf die _Entfernen_ ( ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="20"} ) in der Toolbox.
+1. Bewegen Sie den Mauszeiger über den Container der Empfehlungseinheit und klicken Sie auf die _Entfernen_ ( ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png)) in der Toolbox.
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL OK]**.
 

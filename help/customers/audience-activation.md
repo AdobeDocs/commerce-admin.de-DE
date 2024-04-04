@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: db8344ab8890c20bb0b3c7d25da95b6007858d6a
+source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30. Mai 2023_
 ![Neu](../assets/new.svg) - Die [Dashboard für Real-Time CDP-Zielgruppen](#real-time-cdp-audiences-dashboard) , um die Möglichkeit zur Sortierung, Suche und Filterung der aktiven Zielgruppen in Ihrer Adobe Commerce-Instanz einzuschließen.
 
 +++
+
+### 2.1.1
+
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+
+_4. April 2024_
+
+![Neu](../assets/new.svg) - Unterstützung für PHP 8.3 hinzugefügt.
 
 ### 2.2.0-beta1
 
@@ -295,7 +303,10 @@ Weitere Informationen zum `dynamicBlocks` GraphQL-Abfrage im [Entwicklerdokument
 
 ## Abrufen von Zielgruppen mit dem Adobe Experience Platform Mobile SDK
 
-Bevor Sie Real-Time CDP-Zielgruppen mit dem Adobe Experience Platform Mobile SDK abrufen können, müssen Sie Folgendes tun: [SDK für Ihre mobile Commerce-Site installieren und konfigurieren](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+Sie können Real-Time CDP-Zielgruppen mit dem Adobe Experience Platform Mobile SDK abrufen.
+
+1. [Installieren](#install-the-extension) die Audience Activation-Erweiterung.
+1. [SDK für Ihre mobile Commerce-Site installieren und konfigurieren](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
