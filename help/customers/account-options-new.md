@@ -1,55 +1,59 @@
 ---
-title: Neue Optionen für Kundenkonten
-description: Erfahren Sie mehr über die Konfigurationsoptionen für neue Kundenkonten in Ihrem Store.
+title: Optionen für neues Kundenkonto
+description: Erfahren Sie mehr über die Konfigurationsoptionen für neue Kundenkonten in Ihrem Geschäft.
 exl-id: aa19f0e2-ffbe-433d-8bd5-c14700b67b37
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-# Neue Optionen für Kundenkonten
+# Optionen für neues Kundenkonto
 
-Im _[!UICONTROL Create New Account Options]_-Abschnitt der Konfiguration werden die grundlegenden Kontooptionen mit erweiterten Optionen kombiniert, die sich auf die Überprüfung der MwSt-ID und benutzerdefinierte Integrationen beziehen. Die folgenden Anweisungen behandeln nur die am häufigsten verwendeten Optionen. Weitere Informationen zu automatischen Kundengruppenzuweisungen finden Sie unter [Mehrwertsteuervalidierung](../stores-purchase/vat.md).
-
-{{beta-updates}}
+In der _[!UICONTROL Create New Account Options]_Im Abschnitt der Konfiguration werden die grundlegenden Kontooptionen mit erweiterten Optionen kombiniert, die sich auf die Validierung der MwSt.-ID und benutzerdefinierte Integrationen beziehen. Die folgenden Anweisungen decken nur die am häufigsten verwendeten Optionen ab. Weitere Informationen zu automatischen Kundengruppenzuweisungen finden Sie unter [Validierung der MwSt](../stores-purchase/vat.md).
 
 ![Neue Kontooptionen erstellen](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
-## Einrichten der grundlegenden Kundenkontooptionen
+## Einrichten der grundlegenden Optionen für das Kundenkonto
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Auf der _Admin_ Seitenleiste, zu gehen **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen **[!UICONTROL Customer Configuration]**.
+1. Erweitern Sie im linken Bereich . **[!UICONTROL Customers]** und wählen **[!UICONTROL Customer Configuration]**.
 
-1. Erweitern Sie die **[!UICONTROL Create New Account Options]** Abschnitt:
+1. Erweitern Sie die **[!UICONTROL Create New Account Options]** Bereich:
 
-   ![Standardeinstellungen für neue Kontooptionen erstellen](../configuration-reference/customers/assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
+   ![Standardeinstellungen für Optionen für neues Konto erstellen](../configuration-reference/customers/assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 
-1. Legen Sie die einzelnen Optionen entsprechend dem Kundenerlebnis fest, das Sie in Ihrer Storefront unterstützen müssen:
+1. Legen Sie jede der Optionen entsprechend dem Kundenerlebnis fest, das Sie in Ihrer Storefront unterstützen müssen:
 
-   - Satz **[!UICONTROL Default Group]** der Kundengruppe, die bei der Erstellung eines Kontos neuen Kunden zugewiesen wird.
+   - set **[!UICONTROL Default Group]** der Kundengruppe, die neuen Kunden bei der Kontoerstellung zugewiesen wird.
 
-   - Wenn Sie _Mehrwertsteuer_ number und möchten, dass sie für Kunden sichtbar ist, legen Sie **[!UICONTROL Show VAT Number on Storefront]** nach `Yes`.
+   - Wenn Sie eine _Mehrwertsteuer_ und für Kunden sichtbar sein sollen, setzen Sie **[!UICONTROL Show VAT Number on Storefront]** bis `Yes`.
 
-   - Um die E-Mail eines Kunden bei der Erstellung einer Admin-Bestellung für einen Kunden zu benötigen, legen Sie **[!UICONTROL Email is required field for Admin order creation]** nach `Yes`.
+   - Um die E-Mail-Adresse eines Kunden während der Erstellung einer Admin-Bestellung für einen Kunden anzufordern, legen Sie Folgendes fest: **[!UICONTROL Email is required field for Admin order creation]** bis `Yes`.
 
-   - Geben Sie die **[!UICONTROL Default Email Domain]** für den Store, beispielsweise `mystore.com`
+   - Geben Sie die **[!UICONTROL Default Email Domain]** für den Store, z. B. `mystore.com`
 
-   - Satz **[!UICONTROL Default Welcome Email]** der Vorlage, die für die an neue Kunden gesendete Begrüßungs-E-Mail verwendet wird.
+   - set **[!UICONTROL Default Welcome Email]** zur Vorlage, die für die Begrüßungs-E-Mail verwendet wird, die an neue Kunden gesendet wird.
 
-   - Satz **[!UICONTROL Default Welcome Email without Password]** in die Vorlage, die verwendet wird, wenn ein Kundenkonto erstellt wird, das noch kein Kennwort hat. Beispielsweise ist einem vom Administrator erstellten Kundenkonto noch kein Kennwort zugewiesen.
+   - Um Kundinnen und Kunden aufzufordern, ihre Anfrage zur Eröffnung eines Kontos bei Ihrem Geschäft zu bestätigen, legen Sie Folgendes fest **[!UICONTROL Require Emails Confirmation]** bis `Yes`. Legen Sie dann fest **[!UICONTROL Confirmation Link Email]** in die Vorlage, die für die Bestätigungs-E-Mail verwendet wird.
 
-   - Satz **[!UICONTROL Email Sender]** an den Store-Kontakt, der als Absender der Begrüßungs-E-Mail angezeigt wird.
+     >[!NOTE]
+     >
+     >Ab Version 2.4.7 müssen Kundinnen und Kunden unabhängig vom Browser ihre E-Mail-Adresse und ihr Passwort erneut eingeben, um sich nach der E-Mail-Bestätigung bei ihrem Konto anzumelden.
 
-   - Wenn Kunden aufgefordert werden sollen, ihre Anfrage zum Öffnen eines Kontos für Ihren Store zu bestätigen, legen Sie **[!UICONTROL Require Emails Confirmation]** nach `Yes`. Legen Sie anschließend **[!UICONTROL Confirmation Link Email]** der Vorlage, die für die Bestätigungs-E-Mail verwendet wird.
+   - set **[!UICONTROL Welcome Email]** zur Vorlage, die für die Begrüßungsnachricht verwendet wird, die nach der Bestätigung des Kontos gesendet wird.
 
-   - Satz **[!UICONTROL Welcome Email]** der Vorlage, die für die Willkommensnachricht verwendet wird, die nach der Bestätigung des Kontos gesendet wird.
+   - set **[!UICONTROL Default Welcome Email without Password]** zu der Vorlage hinzufügen, die verwendet wird, wenn ein Kundenkonto erstellt wird, das noch kein Kennwort hat. Einem Kundenkonto, das über die Administratorrechte erstellt wurde, wurde beispielsweise noch kein Kennwort zugewiesen.
 
-     ![Neue Kontooptionen mit aktivierter Mehrwertsteuer erstellen](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
+   - set **[!UICONTROL Email Sender]** an den Store-Kontakt, der als Absender der Willkommens-E-Mail angezeigt wird.
 
-     Detaillierte Informationen zu den einzelnen in diesem Konfigurationssatz verfügbaren Optionen finden Sie in der _Neue Kontooptionen erstellen_ [Konfigurationsreferenz](../configuration-reference/customers/customer-configuration.md).
+   - Um Kundinnen und Kunden aufzufordern, ihre Anfrage zur Eröffnung eines Kontos bei Ihrem Geschäft zu bestätigen, legen Sie Folgendes fest **[!UICONTROL Require Emails Confirmation]** bis `Yes`. Legen Sie dann fest **[!UICONTROL Confirmation Link Email]** in die Vorlage, die für die Bestätigungs-E-Mail verwendet wird.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+   ![Neue Kontooptionen mit aktivierter MwSt. erstellen](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
+
+   Detaillierte Informationen zu den einzelnen in diesem Konfigurationssatz verfügbaren Optionen finden Sie unter _Neue Kontooptionen erstellen_ [Konfigurationsreferenz](../configuration-reference/customers/customer-configuration.md).
+
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.

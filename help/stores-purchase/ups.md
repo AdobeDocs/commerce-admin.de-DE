@@ -1,84 +1,81 @@
 ---
 title: United Parcel Service (UPS)
-description: Erfahren Sie, wie Sie UPS als Versandunternehmen für Ihr Geschäft einrichten.
+description: Erfahren Sie, wie Sie UPS als Spediteur für Ihren Shop einrichten.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 50b44190a9568a8d6ad38ab29177904596569d75
+source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # United Parcel Service (UPS)
 
-United Parcel Service (UPS) bietet inländische und internationale Seeverkehrsdienstleistungen auf dem Land- und Luftweg in über 220 Ländern an.
+United Parcel Service (UPS) bietet inländische und internationale Verschiffen auf dem Land- und Luftweg in mehr als 220 Länder an.
 
 {{ups-api}}
 
 >[!NOTE]
 >
->UPS kann [Dimensionsgewicht](carriers.md#dimensional-weight) um einige Versandtarife zu bestimmen. Adobe Commerce unterstützt jedoch nur die gewichtsbasierte Berechnung der Versandkosten.
+>USV kann [Flächengewicht](carriers.md#dimensional-weight) um einige Versandraten zu ermitteln. Adobe Commerce unterstützt jedoch nur die gewichtsbasierte Versandkostenberechnung.
 
-## Schritt 1: Öffnen Sie ein UPS-Versandkonto.
+## Schritt 1: Öffnen eines UPS Versandkontos
 
-Um diese Versandmethode Ihren Kunden anzubieten, müssen Sie zunächst ein Konto bei UPS eröffnen.
+Um diese Versandart Ihren Kunden anbieten zu können, müssen Sie zunächst ein Konto bei UPS eröffnen.
 
-## Schritt 2: UPS für Ihren Store aktivieren
+## Schritt 2: Aktivieren von UPS für Ihren Shop
 
-{{beta2-updates}}
+1. Auf der _Admin-Seitenleiste_, zu gehen **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Im _Admin-Seitenleiste_, gehen Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Im Bedienfeld links, unter **[!UICONTROL Sales]**, wählen Sie **[!UICONTROL Delivery Methods]**.
 
-1. Im Bedienfeld auf der linken Seite, unter **[!UICONTROL Sales]** auswählen **[!UICONTROL Delivery Methods]**.
+1. Expand ![Erweiterungsauswahl](../assets/icon-display-expand.png) Die **[!UICONTROL UPS]** -Abschnitt.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL UPS]** Abschnitt.
+1. set **[!UICONTROL Enabled for Checkout]** bis `Yes`.
 
-1. Satz **[!UICONTROL Enabled for Checkout]** nach `Yes`.
+1. Gehen Sie für ein UPS REST-Konto (Standard) wie folgt vor:
 
-1. Für ein UPS XML-Konto (Standard) legen Sie **[!UICONTROL UPS Type]** nach `United Parcel Service XML` und gehen Sie wie folgt vor:
+   - Geben Sie Ihre UPS-Anmeldedaten ein: UPS ClientID als **[!UICONTROL User ID]** UPS, Client-Geheimnis als **[!UICONTROL Password]**
 
-   - Geben Sie Ihre UPS-Anmeldedaten ein: **[!UICONTROL User ID]**, **[!UICONTROL Access License Number]** (das 16-stellige UPS-Konto `Access Key`) und **[!UICONTROL Password]**
+   - set **[!UICONTROL Mode]** bis `Live` um Daten über eine sichere Verbindung an das UPS Versandsystem zu senden. (Der Entwicklungsmodus sendet keine Daten über eine sichere Verbindung.)
 
-   - Satz **[!UICONTROL Mode]** nach `Live` um Daten über eine sichere Verbindung an das UPS Versandsystem zu senden. (Im Entwicklungsmodus werden keine Daten über eine sichere Verbindung gesendet.)
+   - Überprüfen Sie die **[!UICONTROL Gateway URL]** Dies ist erforderlich, um -Anfragen zu senden. Verwenden Sie eine Sandbox-URL für den Testmodus und eine Produktions-URL für Live-Anfragen.
 
-   - Überprüfen Sie die **[!UICONTROL Gateway XML URL]** , die zum Senden von Anforderungen per XML-Datei erforderlich ist.
+   - Überprüfen Sie die **[!UICONTROL Tracking URL]** Dies ist erforderlich, um Tracking-Informationen zu erhalten. Verwenden Sie eine Sandbox-URL für den Testmodus und eine Produktions-URL für Live-Anfragen.
 
-   - Satz **[!UICONTROL Origin of the Shipment]** in die Region, aus der die Verbringung stammt.
+   - set **[!UICONTROL Origin of the Shipment]** in die Region, aus der die Sendung stammt.
 
-   - Wenn Sie Sondertarife mit UPS haben, legen Sie **[!UICONTROL Enable Negotiated Rates]** nach `Yes` und geben Sie die sechsstellige **[!UICONTROL Shipper Number]** Sie werden von UPS zugewiesen.
+   - Wenn Sie Sondertarife bei UPS haben, setzen Sie **[!UICONTROL Enable Negotiated Rates]** bis `Yes` und die sechsstellige Zahl eingeben **[!UICONTROL Shipper Number]** Ihnen von UPS zugewiesen.
 
-1. Für ein Standard-UPS-Konto legen Sie **[!UICONTROL UPS Type]** nach `United Parcel Service` und gehen Sie wie folgt vor:
+   - set **[!UICONTROL Live Account]** eine der folgenden Möglichkeiten:
+
+      - `Yes` - UPS läuft im Produktionsmodus und bietet UPS als Versandmethode an Ihre Kunden.
+      - `No` - UPS wird im Testmodus ausgeführt.
 
    >[!NOTE]
    >
-   >Der standardmäßige United Parcel Service-Typ ist für die Einstellung geplant. Für neue Konfigurationen sollten Sie die Standardeinstellung  `United Parcel Service XML` Typ. Der XML-Typ muss auch generiert werden [Versandtitel](shipping-labels.md).
+   >Für den Standardtyp Einheitlicher Paketdienst ist die Einstellung geplant. Verwenden Sie für neue Konfigurationen die Standardeinstellung `United Parcel Service REST` Typ. Der REST-Typ ist auch erforderlich, um Folgendes zu generieren [Versandetiketten](shipping-labels.md).<br/>
+   >Für die Version 2.4.7 **[!UICONTROL UPS Type]**  wird aus folgenden Gründen entfernt `UPS` und `UPS XML` -Typen sind für die Einstellung geplant und `UPS REST` ist der Standard. Die von der nativen Adobe Commerce-Integration verwendeten United Parcel Service (UPS)-APIs werden vorübergehend nicht mehr unterstützt, da sie derzeit das OAuth 2.0-Sicherheitsmodell nicht unterstützen.
 
-   - Satz **[!UICONTROL Live Account]** auf einen der folgenden Werte zu:
+   >[!IMPORTANT]
+   >
+   >UPS stellt die Unterstützung von HTTP ein, das im aktuellen Standard (Systemwert) verwendet wird. Löschen Sie die **[!UICONTROL Use system value]** Kontrollkästchen aktivieren und die URL ändern, um HTTPS zu verwenden. Beispiel: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
 
-      - `Yes` - Führt UPS im Produktionsmodus aus und bietet UPS als Versandmethode für Ihre Kunden an.
-      - `No` - Führt UPS in einem Testmodus aus.
+1. für **[!UICONTROL Title]**, geben Sie den Namen dieser Versandoption so ein, wie sie während des Checkouts angezeigt werden soll.
 
-   - Im **[!UICONTROL Gateway URL]** Geben Sie die URL ein, die zur Berechnung der UPS Versandraten verwendet wird.
+   Standardmäßig ist dieses Feld auf festgelegt. `United Parcel Service`.
 
-     >[!IMPORTANT]
-     >
-     >UPS stellt die Unterstützung von HTTP ein, die in der aktuellen Standardeinstellung (Systemwert) verwendet wird. Löschen Sie die **[!UICONTROL Use system value]** aktivieren und die URL ändern, um HTTPS zu verwenden. Beispiel: `https://www.ups.com/using/services/rave/qcostcgi.cgi`
-
-1. Für **[!UICONTROL Title]** Geben Sie den Namen dieser Versandoption ein, wie er beim Checkout angezeigt werden soll.
-
-   Standardmäßig ist dieses Feld auf `United Parcel Service`.
-
-   ![UPS aktivieren](../configuration-reference/sales/assets/delivery-methods-ups1.png){width="600" zoomable="yes"}
+   ![USV aktivieren](../configuration-reference/sales/assets/delivery-methods-ups1.png){width="600" zoomable="yes"}
 
 ## Schritt 3: Container-Beschreibung ausfüllen
 
-1. Satz **[!UICONTROL Packages Request Type]** auf einen der folgenden Werte zu:
+1. set **[!UICONTROL Packages Request Type]** eine der folgenden Möglichkeiten:
 
    - `Use origin weight (few requests)`
    - `Divide to equal weight (one request)`
 
-1. Für **[!UICONTROL Container]** die typische Verpackung angeben, die für die Verbringung verwendet wird:
+1. für **[!UICONTROL Container]** Geben Sie hier den typischen Verpackungstyp für den Versand an:
 
    - `Customer Packaging`
    - `UPS Letter Envelope`
@@ -93,21 +90,21 @@ Um diese Versandmethode Ihren Kunden anzubieten, müssen Sie zunächst ein Konto
    - `Medium Express Box`
    - `Large Express Box`
 
-1. Satz **[!UICONTROL Weight Unit]** in das System, das Sie zum Messen der Produktgewichtung verwenden.
+1. set **[!UICONTROL Weight Unit]** auf das System, mit dem Sie das Produktgewicht messen.
 
-   Das von UPS unterstützte Gewichtungssystem ist je nach Land unterschiedlich. Im Zweifelsfall fragen Sie UPS, welches Gewichtssystem Sie verwenden sollten. Zu den Optionen gehören:
+   Das von UPS unterstützte Gewichtssystem variiert je nach Land. Fragen Sie im Zweifelsfall bei UPS nach dem zu verwendenden Gewichtssystem. Zu den Optionen gehören:
 
    - `LBS`
    - `KGS`
 
-1. Satz **[!UICONTROL Destination Type]** auf einen der folgenden Werte zu:
+1. set **[!UICONTROL Destination Type]** eine der folgenden Möglichkeiten:
 
-   - `Residential` - Die meisten Ihrer Sendungen sind geschäftlich (B2C).
-   - `Commercial` - Die meisten Ihrer Sendungen sind geschäftlich (B2B).
+   - `Residential` - Die meisten Ihrer Sendungen sind Business to Consumer (B2C).
+   - `Commercial` - Die meisten Ihrer Sendungen sind Business-to-Business (B2B).
 
 1. Geben Sie die **[!UICONTROL Maximum Package Weight]** vom Beförderer zugelassen.
 
-1. Satz **[!UICONTROL Pickup Method]** auf einen der folgenden Werte zu:
+1. set **[!UICONTROL Pickup Method]** eine der folgenden Möglichkeiten:
 
    - `Regular Daily Pickup`
    - `On Call Air`
@@ -121,76 +118,76 @@ Um diese Versandmethode Ihren Kunden anzubieten, müssen Sie zunächst ein Konto
 
 ## Schritt 4: Einrichten von Bearbeitungsgebühren
 
-Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die zu den UPS Versandkosten hinzukommt. Wenn Sie eine Bearbeitungsgebühr einbeziehen möchten, gehen Sie wie folgt vor:
+Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die zu den UPS Versandkosten hinzugerechnet wird. Wenn Sie eine Bearbeitungsgebühr einbeziehen möchten, gehen Sie wie folgt vor:
 
-1. Satz **[!UICONTROL Calculate Handling Fee]** auf eine der folgenden Methoden anwenden:
+1. set **[!UICONTROL Calculate Handling Fee]** auf eine der folgenden Methoden:
 
    - `Fixed`
    - `Percent`
 
-1. Um festzustellen, wie die Bearbeitungsgebühr angewendet wird, legen Sie **[!UICONTROL Handling Applied]** auf einen der folgenden Werte zu:
+1. Um zu bestimmen, wie die Bearbeitungsgebühr angewendet wird, stellen Sie Folgendes ein: **[!UICONTROL Handling Applied]** eine der folgenden Möglichkeiten:
 
    - `Per Order`
    - `Per Package`
 
-1. Geben Sie die Menge der **[!UICONTROL Handling Fee]** zu berechnen.
+1. Geben Sie den Betrag der **[!UICONTROL Handling Fee]** in Rechnung zu stellen.
 
-   Um einen Prozentsatz einzugeben, verwenden Sie das Dezimalformat. Geben Sie beispielsweise `0.25` für 25 %.
+   Verwenden Sie das Dezimalformat, um einen Prozentsatz einzugeben. Geben Sie beispielsweise ein `0.25` für 25 %.
 
    ![Bearbeitungsgebühr](./assets/ups3.png){width="600" zoomable="yes"}
 
-## Schritt 5: Angeben der zulässigen Methoden und der entsprechenden Länder
+## Schritt 5: Zugelassene Methoden und anwendbare Länder angeben
 
-1. Für **[!UICONTROL Allowed Methods]**, wählen Sie jede UPS Versandmethode aus, um für Ihre Kunden verfügbar zu sein.
+1. für **[!UICONTROL Allowed Methods]** Wählen Sie daher jede UPS Versandart, die Ihren Kunden zur Verfügung stehen soll.
 
-   Die Methoden werden beim Checkout unter UPS angezeigt. Um mehrere Methoden auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jede Option.
+   Die Methoden werden während des Checkouts unter UPS angezeigt. Zur Auswahl mehrerer Methoden halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Optionen.
 
-1. Wenn Sie eine [Kostenloser Versand](shipping-free.md) -Option über UPS festlegen Sie die kostenlosen Versandoptionen:
+1. Wenn Sie eine [kostenloser Versand](shipping-free.md) Option durch UPS, legen Sie die kostenlosen Versandoptionen fest:
 
-   - Satz **[!UICONTROL Free Method]** zu der Methode, die Sie für den kostenlosen Versand verwenden möchten. Wenn Sie keinen kostenlosen Versand über UPS anbieten möchten, wählen Sie `None`.
+   - set **[!UICONTROL Free Method]** auf die Methode, die Sie für den kostenlosen Versand verwenden möchten. Wenn Sie keinen kostenlosen Versand über UPS anbieten möchten, wählen Sie `None`.
 
-   - Um einen Mindestbestellbetrag zu verlangen, der für einen kostenlosen Versand mit UPS qualifiziert ist, legen Sie **[!UICONTROL Enable Free Shipping Threshold]** nach `Enable`. Geben Sie dann den Mindestwert in **[!UICONTROL Free Shipping Amount Threshold]**.
+   - Um einen Mindestbestellbetrag zu verlangen, der eine Bestellung für den kostenlosen Versand mit UPS qualifiziert, setzen Sie **[!UICONTROL Enable Free Shipping Threshold]** bis `Enable`. Geben Sie dann den Mindestwert in ein **[!UICONTROL Free Shipping Amount Threshold]**.
 
 1. Ändern Sie bei Bedarf die **[!UICONTROL Displayed Error Message]**.
 
-   Dieses Textfeld enthält eine Standardmeldung, Sie können jedoch eine andere Meldung eingeben, die angezeigt werden soll, wenn UPS nicht verfügbar ist.
+   Dieses Textfeld ist mit einer Standardmeldung vorbelegt, Sie können jedoch eine andere Nachricht eingeben, die angezeigt werden soll, wenn UPS nicht mehr verfügbar ist.
 
    ![Zulässige Methoden](./assets/ups4.png){width="600" zoomable="yes"}
 
-1. Satz **[!UICONTROL Ship to Applicable Countries]** auf einen der folgenden Werte zu:
+1. set **[!UICONTROL Ship to Applicable Countries]** eine der folgenden Möglichkeiten:
 
-   - `All Allowed Countries` - Kunden von allen [Länder](../getting-started/store-details.md#country-options) Diese in Ihrer Store-Konfiguration angegebene Versandmethode kann verwendet werden.
-   - `Specific Countries` - Wenn Sie diese Option wählen, wird die _Schiff in bestimmte Länder_ angezeigt. Wählen Sie jedes Land in der Liste aus, in dem diese Versandmethode verwendet werden kann.
+   - `All Allowed Countries` - Kunden aus allen [Länder](../getting-started/store-details.md#country-options) Diese Versandmethode kann von der Store-Konfiguration verwendet werden.
+   - `Specific Countries` - Wenn Sie diese Option wählen, wird die _Versand in bestimmte Länder_ Liste angezeigt. Wählen Sie jedes Land in der Liste aus, in dem diese Versandmethode verwendet werden kann.
 
-1. Satz **[!UICONTROL Show Method if Not Applicable]** auf einen der folgenden Werte zu:
+1. set **[!UICONTROL Show Method if Not Applicable]** eine der folgenden Möglichkeiten:
 
-   - `Yes` - Listet alle verfügbaren UPS Versandmethoden während des Checkout auf, einschließlich Methoden, die nicht für den Versand gelten.
-   - `No` - Listet nur die UPS Versandmethoden auf, die für den Versand gelten.
+   - `Yes` - Listet alle verfügbaren UPS Versandmethoden während des Checkouts auf, einschließlich Methoden, die nicht für die Sendung gelten.
+   - `No` - Listet nur die UPS Versandmethoden auf, die für die Sendung gelten.
 
    ![Anwendbare Länder](./assets/ups5.png){width="600" zoomable="yes"}
 
-1. Um eine Protokolldatei mit den Details zu UPS-Sendungen zu erstellen, die von Ihrem Store vorgenommen wurden, legen Sie **[!UICONTROL Debug]** nach `Yes`.
+1. Um eine Protokolldatei mit den Details der UPS-Sendungen aus Ihrem Geschäft zu erstellen, legen Sie Folgendes fest **[!UICONTROL Debug]** bis `Yes`.
 
-1. Für **[!UICONTROL Sort Order]** Geben Sie eine Zahl ein, um die Reihenfolge zu bestimmen, in der UPS beim Checkout mit anderen Versandmethoden angezeigt wird.
+1. für **[!UICONTROL Sort Order]** Geben Sie eine Zahl ein, um die Reihenfolge zu bestimmen, in der UPS beim Checkout mit anderen Versandmethoden aufgelistet wird.
 
-   `0` = first, `1` = Sekunde, `2` = drittes Element usw.
+   `0` = zuerst, `1` = Sekunde, `2` = Dritter usw.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klick **[!UICONTROL Save Config]**.
 
-## Schritt 6: Einrichten der Versandstammadresse
+## Schritt 6: Versandursprungsadresse einrichten
 
-1. Stellen Sie sicher, dass Ihr [Store-Informationen](../getting-started/store-details.md#store-information) ist abgeschlossen.
+1. Stellen Sie sicher, dass Ihre [Informationen speichern](../getting-started/store-details.md#store-information) ist abgeschlossen.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Auf der _Admin_ Seitenleiste, zu gehen **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Shipping Settings]**.
+1. Erweitern Sie im linken Bereich . **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Shipping Settings]**.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Origin]** auf der Seite und konfigurieren Sie die Versandursprungsadresse.
+1. Expand ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Origin]** auf der Seite und konfigurieren Sie die Versandursprungsadresse.
 
-   ![Verkaufskonfiguration - Optionen für Lieferursprungsadressen](./assets/shipping-origin.png){width="600" zoomable="yes"}
+   ![Verkaufskonfiguration - Optionen für die Versandursprungsadresse](./assets/shipping-origin.png){width="600" zoomable="yes"}
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klick **[!UICONTROL Save Config]**.
 
 >[!NOTE]
 >
->Bei der Berechnung der Versandkosten erklärt der Commerce UPS den vollen Bestellpreis nicht. Dieses Verhalten kann nicht geändert werden.
+>Bei der Berechnung der Versandkosten gibt Commerce UPS nicht den vollständigen Bestellpreis an. Dieses Verhalten kann nicht geändert werden.

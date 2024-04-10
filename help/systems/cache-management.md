@@ -1,55 +1,55 @@
 ---
-title: Cacheverwaltung
-description: Erfahren Sie, wie Sie die Cache-Verwaltungstools verwenden, die eine einfache Möglichkeit bieten, die Leistung Ihrer Site zu verbessern.
+title: Cache-Verwaltung
+description: Erfahren Sie, wie Sie die Cache-Management-Tools verwenden, die eine einfache Möglichkeit bieten, die Leistung Ihrer Site zu verbessern.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: add2259bf326d7812999e3e7d4724af10f7497c0
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
 
-# Cacheverwaltung
+# Cache-Verwaltung
 
-Das Cache-Verwaltungssystem von Adobe Commerce und Magento Open Source bietet eine einfache Möglichkeit, die Leistung Ihrer Site zu verbessern. Wenn ein Cache eine Aktualisierung erfordert, wird oben im Arbeitsbereich ein Hinweis angezeigt, der Sie durch den Prozess führt. Folgen Sie dem Link zum Verwalten des Cache und aktualisieren Sie die ungültigen Caches.
+Das Cache-Management-System von Adobe Commerce und Magento Open Source bietet eine einfache Möglichkeit, die Leistung Ihrer Site zu verbessern. Wenn ein Cache eine Aktualisierung erfordert, wird oben im Arbeitsbereich ein Hinweis mit einem Link zur [!UICONTROL Cache Management] Seite, auf der Sie Caches anzeigen und aktualisieren können.
 
-![Produktattribut speichern - Cache-Meldung aktualisieren](./assets/product-attribute-save-msg-update-cache.png){width="500"}
+![Produktattribut speichern - Cache-Nachricht aktualisieren](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
->[!NOTE]
+Die _[!UICONTROL Cache Management]_zeigt den Status jedes primären Caches und des zugehörigen Tags an. Die großen Schaltflächen in der oberen rechten Ecke können verwendet werden, um den Cache oder den All-Inclusive-Cache-Speicher zu leeren. Unten auf der Seite können Sie mit zusätzlichen Schaltflächen den Cache für Katalogproduktbilder und den JavaScript-/CSS-Cache leeren.
+
+>[!IMPORTANT]
 >
->Wenn Katalogentitäten geändert werden, kann sich dies auf andere Seiten auswirken und mehrere Caches gleichzeitig ungültig machen. Wenn Sie die Seite zur Cache-Verwaltung überprüfen, werden möglicherweise ungültige Elemente angezeigt, die aktualisiert werden müssen, wenn sie _**nicht direkt bearbeitet**_. Diese Invalidierung tritt beispielsweise dann auf, wenn Sie ein Produkt im Katalog bearbeiten und es einer beliebigen Kategorie zugewiesen wird oder wenn Sie eine verwandte Produktregel ändern.
+>Wenn Katalogentitäten geändert werden, kann dies Auswirkungen auf andere Seiten haben und mehrere Caches gleichzeitig ungültig machen. Wenn Sie die Seite zur Cache-Verwaltung durchgehen, werden möglicherweise ungültige Elemente angezeigt, die aktualisiert werden müssen, wenn sie aktualisiert wurden _**Nicht direkt bearbeitet**_. Diese Invalidierung tritt beispielsweise auf, wenn Sie ein Produkt im Katalog bearbeiten, das einer beliebigen Kategorie zugewiesen ist, oder wenn Sie eine zugehörige Produktregel ändern.
 
-Die _[!UICONTROL Cache Management]_-Seite zeigt den Status jedes primären Caches und des zugehörigen Tags an. Die großen Schaltflächen in der oberen rechten Ecke können verwendet werden, um den Cache oder den All-Include-Cache-Speicher zu leeren. Am unteren Rand der Seite befinden sich zusätzliche Schaltflächen, um den Cache für Katalogproduktbilder und den JavaScript-/CSS-Cache zu leeren.
+Aktualisieren Sie nach dem Löschen eines Cache immer Ihren Browser, um sicherzustellen, dass Sie die neuesten Dateien sehen können. Durch Löschen des Commerce-Cache wird der Webbrowser-Cache nicht gelöscht. Möglicherweise müssen Sie den Browser-Cache löschen, um aktualisierte Inhalte anzuzeigen.
 
-Nachdem Sie einen Cache gelöscht haben, aktualisieren Sie Ihren Browser immer, um sicherzustellen, dass Sie die neuesten Dateien sehen können. Beim Löschen des Commerce-Cache wird der Cache des Webbrowsers nicht gelöscht. Möglicherweise müssen Sie den Browser-Cache löschen, um aktualisierte Inhalte anzuzeigen.
+Weitere technische Informationen zum Adobe Commerce-Caching finden Sie unter [Cache-Übersicht](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target=„_blank„} in der _Commerce-Frontend-Entwicklungshandbuch_.
 
-Weitere technische Informationen finden Sie unter [Cache-Übersicht](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target=&quot;_blank&quot;} im _Entwicklungshandbuch für Commerce Frontend_.
+Zugriff auf _[!UICONTROL Cache Management]_Führen Sie einen der folgenden Schritte aus:
 
-Zugriff auf _[!UICONTROL Cache Management]_Seite durch einen der folgenden Schritte:
+- Klicken Sie auf die Schaltfläche **[!UICONTROL Cache Management]** -Link in der Nachricht über dem Arbeitsbereich.
+- Auf der _Admin_ Seitenleiste, zu gehen **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
 
-- Klicken Sie auf **[!UICONTROL Cache Management]** in der Meldung über dem Arbeitsbereich.
-- Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
+![Cache-Verwaltung](./assets/cache-management-invalid.png){width="700" zoomable="yes"}
 
-![Cacheverwaltung](./assets/cache-management-invalid.png){width="700" zoomable="yes"}
+## Best Practices für das Caching
 
-## Best Practices für die Zwischenspeicherung
+Die Neuindizierung und das Caching haben in Commerce unterschiedliche Zwecke. [Indizes](index-management.md) Verfolgen Sie Datenbankinformationen, um die Suchleistung zu erhöhen, den Datenabruf für Storefronts zu beschleunigen und vieles mehr. Caches speichern geladene Daten, Bilder, Formate und dergleichen, um das Laden und den Zugriff auf die Storefront zu verbessern.
 
-Die Neuindizierung und Zwischenspeicherung dienen in Commerce unterschiedlichen Zwecken. [Indizes](index-management.md) Nachverfolgen von Datenbankinformationen für eine verbesserte Suchleistung, einen schnelleren Datenabruf für Storefronts und mehr. Caches speichern geladene Daten, Bilder, Formate und Ähnliches für eine verbesserte Leistung beim Laden und Aufrufen der Storefront.
+- Leeren Sie den Cache immer nach der Installation von Erweiterungen/Modulen. Sie können eine oder mehrere Erweiterungen installieren und dann den Cache leeren.
+- Leeren Sie den Cache nach der Installation von Commerce. Bei Neuinstallationen sollten Sie auch eine Neuindizierung vornehmen.
+- Leeren Sie den Cache nach dem Upgrade von einer Version von Open Source oder Commerce auf eine andere.
+- Berücksichtigen Sie beim Leeren von Caches die Art des Caches und planen Sie die Leerung zu anderen Zeiten als Spitzenzeiten. Wählen Sie beispielsweise einen Zeitpunkt aus, zu dem nur wenige Kunden auf die Website zugreifen können, z. B. spät in der Nacht oder am frühen Morgen. Das Löschen einiger Cache-Typen in Spitzenzeiten führt zu einer hohen Belastung für den Administrator und kann zu einer Downsite führen, bis sie abgeschlossen ist.
+- Wenn [Neuindizierung](index-management.md)Es ist nicht erforderlich, auch einen Leer-Cache durchzuführen.
 
-- Leeren Sie den Cache immer, nachdem Sie Erweiterungen/Module installiert haben. Sie können eine oder mehrere Erweiterungen installieren und dann den Cache leeren.
-- Leeren Sie den Cache nach der Installation von Commerce. Bei Neuinstallationen sollten Sie auch neu indizieren.
-- Leeren Sie den Cache, nachdem Sie von einer Open Source- oder Commerce-Version auf eine andere aktualisiert haben.
-- Berücksichtigen Sie beim Leeren von Caches den Cache-Typ und planen Sie die Leerung während Nicht-Spitzenzeiten. Wählen Sie beispielsweise eine Zeit aus, zu der wenige Kunden auf die Site zugreifen können, wie z. B. späte Nacht oder frühe Morgen. Das Löschen einiger Cache-Typen während Spitzenzeiten führt zu einer hohen Belastung des Administrators und kann zu einem Herunterfahren der Site führen, bis diese abgeschlossen ist.
-- Wann [Neuindizierung](index-management.md), müssen Sie nicht auch einen leeren Cache ausführen.
+## Cache-Management-Rollenressourcen
 
-## Rollenressourcen für die Cacheverwaltung
-
-Der Zugriff auf bestimmte Cache-Wartungsaktionen kann Benutzern nach Rolle zugewiesen werden, einschließlich Optionen zum Anzeigen, Umschalten und Leeren von Caches. Adobe empfiehlt die Aktivierung von Flush-Aktionen nur für Benutzer auf Administratorebene. Die Bereitstellung des Zugriffs auf alle Cache-Management-Funktionen kann die Leistung Ihrer Storefront beeinträchtigen.
+Der Zugriff auf bestimmte Cache-Wartungsaktionen kann Benutzern nach Rolle zugewiesen werden, einschließlich Optionen zum Anzeigen, Umschalten und Leeren von Caches. Adobe empfiehlt, Löschaktionen nur für Benutzer auf Administratorebene zu aktivieren. Die Bereitstellung des Zugriffs auf alle Cache-Management-Funktionen kann die Leistung Ihrer Storefront beeinträchtigen.
 
 ![Rollenressourcen - Cache-Verwaltung](./assets/permissions-role-resources-cache-management.png){width="600" zoomable="yes"}
 
-Informationen zum Zuweisen von Ressourcen zur Gewährung des Zugriffs für Admin-Benutzerkonten finden Sie unter [Rollenressourcen](permissions-user-roles.md#role-resources). Die folgenden Ressourcen steuern den Zugriff auf die Cache-Verwaltungstools:
+Informationen zum Zuweisen von Ressourcen, um Admin-Benutzerkonten Zugriff zu gewähren, finden Sie unter [Rollenressourcen](permissions-user-roles.md#role-resources). Die folgenden Ressourcen steuern den Zugriff auf die Cache-Verwaltungstools:
 
 - [!UICONTROL Clean Cache Actions]
 
@@ -67,49 +67,49 @@ Informationen zum Zuweisen von Ressourcen zur Gewährung des Zugriffs für Admin
    - [!UICONTROL Flush Js/Css]
    - [!UICONTROL Flush Static Files]
 
-## Aktualisieren bestimmter Caches
+## Spezifische Caches aktualisieren
 
 1. Aktivieren Sie für jeden Cache, der aktualisiert werden soll, das Kontrollkästchen am Anfang der Zeile.
 
-1. Satz **[!UICONTROL Actions]** nach `Refresh` und klicken **[!UICONTROL Submit]**.
+1. set **[!UICONTROL Actions]** bis `Refresh` und klicken Sie auf **[!UICONTROL Submit]**.
 
-## Aktualisierung der Massenaktion durchführen
+## Massenaktion aktualisieren
 
-1. Um eine Gruppe von Caches auszuwählen, legen Sie **[!UICONTROL Mass Actions]** auf einen der folgenden Werte zu:
+1. Um eine Gruppe von Caches auszuwählen, legen Sie Folgendes fest **[!UICONTROL Mass Actions]** eine der folgenden Möglichkeiten:
 
    - `Select All`
    - `Select Visible`
 
-1. Aktivieren Sie das Kontrollkästchen jedes Caches, auf den die Aktion abzielen soll.
+1. Aktivieren Sie das Kontrollkästchen jedes Caches, der von der Aktion angesprochen werden soll.
 
-1. Satz **[!UICONTROL Actions]** nach `Refresh` und klicken **[!UICONTROL Submit]**.
+1. set **[!UICONTROL Actions]** bis `Refresh` und klicken Sie auf **[!UICONTROL Submit]**.
 
-## Leeren Sie den Cache des Produktbilds.
+## Leeren des Cache für Produktbilder
 
-1. under _[!UICONTROL Additional Cache Management]_klicken **[!UICONTROL Flush Catalog Images Cache]**, um vorgenerierte Produktbilddateien zu löschen.
+1. Unter _[!UICONTROL Additional Cache Management]_, klicken Sie auf **[!UICONTROL Flush Catalog Images Cache]**, um die vorgenerierten Produktbilddateien zu löschen.
 
-   Die `Image cache was cleaned` wird oben im Arbeitsbereich angezeigt.
+   Die `Image cache was cleaned` Die Meldung wird oben im Arbeitsbereich angezeigt.
 
 1. Löschen Sie den Cache Ihres Browsers.
 
-## JavaScript-/CSS-Cache leeren
+## Leeren des JavaScript/CSS-Cache
 
-1. under _[!UICONTROL Additional Cache Management]_klicken **[!UICONTROL Flush JavaScript/CSS Cache]**um alle JavaScript- und CSS-Dateien zu löschen, die in einer Datei zusammengeführt wurden.
+1. Unter _[!UICONTROL Additional Cache Management]_, klicken Sie auf **[!UICONTROL Flush JavaScript/CSS Cache]**, um alle JavaScript- und CSS-Dateien zu löschen, die in einer Datei zusammengeführt wurden.
 
-   Die `The JavaScript/CSS cache has been cleaned` wird oben im Arbeitsbereich angezeigt.
+   Die `The JavaScript/CSS cache has been cleaned` Die Meldung wird oben im Arbeitsbereich angezeigt.
 
 1. Löschen Sie den Cache Ihres Browsers.
 
 ## Leeren mithilfe der Befehlszeile
 
-Commerce bietet über die Befehlszeile zusätzliche Optionen für den Leerungs-Cache. Für diese Optionen ist möglicherweise der Entwicklersupport erforderlich. Ausführliche Informationen und Befehlsoptionen finden Sie unter [Verwalten des Cache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-cache.html){:target=&quot;_blank&quot;} im _Konfigurationshandbuch_.
+Systemadministratoren und Entwickler mit Zugriff auf den Commerce-Anwendungs-Server können die Cache- und Cache-Konfiguration auch über die Befehlszeile mithilfe der Commerce-CLI verwalten. Siehe [Cache verwalten](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#:~:text=You%20can%20also%20clean%20and,bin%2Fmagento%20cache%3Aclean%20.) in der _Konfigurationshandbuch_.{:target=„_blank„}.
 
 ## Steuerelemente
 
 | Kontrolle | Beschreibung |
-|--- |--- |
-| [!UICONTROL Mass Actions] | Aktiviert das Kontrollkästchen mehrerer Caches. Optionen: <br/>**[!UICONTROL Select All]**— Wählt das Kontrollkästchen aller Caches aus.<br/>** Auswahl aufheben **— Löscht das Kontrollkästchen aller Caches.<br/>**[!UICONTROL Select Visible]** — Wählt das Kontrollkästchen aller sichtbaren Caches aus. <br/>**[!UICONTROL Unselect Visible]**— Löscht das Kontrollkästchen aller sichtbaren Caches. |
-| [!UICONTROL Actions] | Bestimmt die Aktion, die auf alle ausgewählten Caches angewendet werden soll. Optionen: <br/>**[!UICONTROL Enable]**— Aktiviert alle ausgewählten Caches.<br/>**[!UICONTROL Disable]** — Deaktiviert alle ausgewählten Caches. <br/>**[!UICONTROL Refresh]**- Aktualisiert alle ausgewählten Caches. |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Mass Actions] | Aktiviert das Kontrollkästchen für mehrere Caches. Optionen: <br/>**[!UICONTROL Select All]**— Aktiviert das Kontrollkästchen aller Caches.<br/>** Auswahl aufheben **— Löscht das Kontrollkästchen für alle Caches.<br/>**[!UICONTROL Select Visible]** — Aktiviert das Kontrollkästchen aller sichtbaren Caches. <br/>**[!UICONTROL Unselect Visible]**— Löscht das Kontrollkästchen für alle sichtbaren Caches. |
+| [!UICONTROL Actions] | Bestimmt die Aktion, die auf alle ausgewählten Caches angewendet werden soll. Optionen: <br/>**[!UICONTROL Enable]**— Aktiviert alle ausgewählten Caches.<br/>**[!UICONTROL Disable]** — Deaktiviert alle ausgewählten Caches. <br/>**[!UICONTROL Refresh]**— Aktualisiert alle ausgewählten Caches. |
 | [!UICONTROL Submit] | Wendet die Aktion auf alle ausgewählten Caches an. |
 
 {style="table-layout:auto"}
@@ -117,82 +117,103 @@ Commerce bietet über die Befehlszeile zusätzliche Optionen für den Leerungs-C
 ### Schaltflächen
 
 | Schaltfläche | Beschreibung |
-|--- |--- |
-| [!UICONTROL Flush Magento Cache] | Entfernt alle Elemente im standardmäßigen Commerce-Cache (`var/cache`), entsprechend den zugehörigen Commerce-Tags. |
-| [!UICONTROL Flush Cache Storage] | Entfernt alle Elemente aus dem Cache, unabhängig vom Commerce-Tag. Wenn Ihr System einen alternativen Cache-Speicherort verwendet, werden alle zwischengespeicherten Dateien, die von anderen Anwendungen verwendet werden, im Prozess entfernt. |
-| [!UICONTROL Flush Catalog Images Cache] | Entfernt alle automatisch in der Größe angepassten und mit Wasserzeichen versehenen Katalogbilder, die in `media/catalog/product/cache`. Wenn kürzlich hochgeladene Bilder nicht im Katalog angezeigt werden, versuchen Sie, den Katalog zu leeren und den Browser zu aktualisieren. |
-| [!UICONTROL Flush JavaScript/CSS Cache] | Entfernt die zusammengeführte Kopie von JavaScript- und CSS-Dateien aus dem Cache. Wenn aktuelle Änderungen am Stylesheet oder JavaScript im Store nicht berücksichtigt werden, versuchen Sie, den JavaScript-/CSS-Cache zu leeren und den Browser zu aktualisieren. |
+|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Flush Magento Cache] | Entfernt alle Elemente im Standard-Commerce-Cache (`var/cache`), entsprechend den zugehörigen Commerce-Tags. |
+| [!UICONTROL Flush Cache Storage] | Entfernt alle Elemente aus dem Cache, unabhängig vom Commerce-Tag. Wenn Ihr System einen alternativen Cache-Speicherort verwendet, werden alle zwischengespeicherten Dateien, die von anderen Anwendungen verwendet werden, während des Prozesses entfernt. |
+| [!UICONTROL Flush Catalog Images Cache] | Entfernt alle automatisch skalierten und mit Wasserzeichen versehenen Katalogbilder, die in gespeichert sind. `media/catalog/product/cache`. Wenn kürzlich hochgeladene Bilder nicht im Katalog angezeigt werden, versuchen Sie, den Katalog zu leeren und Ihren Browser zu aktualisieren. |
+| [!UICONTROL Flush JavaScript/CSS Cache] | Entfernt die zusammengeführte Kopie von JavaScript- und CSS-Dateien aus dem Cache. Wenn die letzten Änderungen am Stylesheet oder an JavaScript nicht im Store widergespiegelt werden, versuchen Sie, den JavaScript/CSS-Cache zu leeren und Ihren Browser zu aktualisieren. |
 | [!UICONTROL Flush Static Files Cache] | Entfernt vorverarbeitete Ansichtsdateien und statische Dateien. |
 
 {style="table-layout:auto"}
 
 ### Caches
 
-| Cache | Beschreibung | Zugeordnetes Tag |
-| ----- | ----------- | -------------- |
-| [!UICONTROL Configuration] | Verschiedene XML-Konfigurationen, die über Module hinweg erfasst und zusammengeführt wurden.<br>**[!UICONTROL System]**-  `config.xml`,`local.xml`<br>**[!UICONTROL Module]** -  `config.xml` | `CONFIG` |
-| [!UICONTROL Layouts] | Anweisungen zum Erstellen von Layouts. | `LAYOUT_GENERAL_CACHE_TAG` |
-| [!UICONTROL Blocks HTML output] | Seitenblöcke - HTML. | `BLOCK_HTML` |
-| [!UICONTROL Collections Data] | Sammlungsdatendateien. | `COLLECTION_DATA` |
-| [!UICONTROL Reflection Data] | Löscht die normalerweise während der Laufzeit generierten Reflexionsdaten der API-Oberfläche. | `REFLECTION` |
-| [!UICONTROL Database DDL operations] | Ergebnisse von DDL-Abfragen, beispielsweise die Beschreibung von Tabellen oder Indizes. | `DB_DDL` |
-| [!UICONTROL Compiled Config] | Ergebnisse der Codekompilierung. | `COMPILED_CONFIG` |
-| [!UICONTROL EAV types and attributes] | Deklarierungs-Cache für Entitätstypen. | `EAV` |
-| [!UICONTROL Customer Notification] | Vorübergehende Benachrichtigungen, die in der Benutzeroberfläche angezeigt werden. | `CUSTOMER_NOTIFICATION` |
-| [!UICONTROL Integrations Configuration] | Integrationskonfigurationsdatei. | `INTEGRATION` |
-| [!UICONTROL Integrations API Configuration] | Integrations-API-Konfigurationsdatei. | `INTEGRATION_API_CONFIG` |
-| [!UICONTROL Page Cache] | Zwischenspeicherung auf der vollständigen Seite. | `FPC` |
-| [!UICONTROL Translations] | Übersetzungsdateien. | `TRANSLATE` |
-| [!UICONTROL Web Services Configuration] | REST- und SOAP-Konfigurationen, generierte WSDL-Datei. | `WEBSERVICE` |
-| [!UICONTROL Target Rule] | Target-Regelindex | `TARGET_RULE` |
+Die [!UICONTROL Cache Management] auf dieser Seite werden die Cache-Typen aufgelistet, die Sie über Admin mit ihrem aktuellen Status verwalten können. In diesem Abschnitt werden die von Adobe Commerce unterstützten Standard-Cache-Typen beschrieben. Die _Cache-Tag_ und _Cache-ID_ Spalten beschreiben die im Commerce-Anwendungs-Code verwendeten Werte:
 
-{style="table-layout:auto"}
+- `cache_type_id` Definiert die eindeutige Kennung für einen Cache-Typ.
 
-## Vollseitenzwischenspeicherung
+- `%CACHE_TYPE_TAG%` Definiert das eindeutige Tag, das beim Gültigkeitsbereich des Cache-Typs verwendet werden soll.
 
-Adobe Commerce und Magento Open Source verwenden das vollständige Caching auf dem Server, um schnell Kategorie-, Produkt- und CMS-Seiten anzuzeigen. Die Zwischenspeicherung über die vollständige Seite verbessert die Antwortzeit und verringert die Auslastung des Servers. Ohne Zwischenspeicherung muss jede Seite möglicherweise Codeblöcke ausführen und Informationen aus der Datenbank abrufen. Bei aktiviertem ganzseitigen Caching kann eine vollständig generierte Seite jedoch direkt aus dem Cache gelesen werden.
+Entwickelnde und Systemintegratoren verwenden diese Werte, um die Zwischenspeicherung zu konfigurieren und zu verwalten, wenn sie Adobe Commerce anpassen oder mit ihm integrieren, z. B. um Integrationen mit GraphQL-APIs zu entwickeln. Die `cache type id` wird auch für die Cache-Verwaltung über die Befehlszeile des Anwendungsservers mithilfe der Commerce-CLI verwendet, z. B. ` bin/magento cache:status config` zeigt den aktuellen Status des Konfigurations-Caches an.
 
 >[!NOTE]
 >
->Es wird empfohlen, [Varnish Cache](https://varnish-cache.org/){:target=&quot;_blank&quot;} darf nur in einer Produktionsumgebung verwendet werden.
+>Entwickler und Systemintegratoren können das Commerce-Cache-Management-System anpassen und erweitern, um benutzerdefinierte Module und Integrationen zu unterstützen. Einzelheiten siehe [Konfigurieren der Zwischenspeicherung](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview) in der _Adobe Commerce-Konfigurationshandbuch_.
 
-Zwischengespeicherte Inhalte können zur Verarbeitung der Anforderungen von ähnlichen Besuchstypen verwendet werden. Daher können Seiten, die einem Gelegenheitsbesucher angezeigt werden, von denen abweichen, die einem Kunden angezeigt werden. Für die Zwischenspeicherung ist jeder Besuch einer von drei Typen:
+<!-- prettier-ignore -->
 
-- `Non-sessioned` - Während eines nicht sitzungsbezogenen Besuchs zeigt der Käufer Seiten an, interagiert jedoch nicht mit dem Store. Das System speichert den Inhalt jeder angezeigten Seite zwischen und stellt ihn anderen Benutzern ohne Sitzung zur Verfügung.
-- `Sessioned` - Während eines Sitzungsbesuchs wird Käufern, die mit dem Geschäft interagieren, eine Sitzungs-ID zugewiesen, beispielsweise durch den Vergleich von Produkten oder das Hinzufügen von Produkten zum Warenkorb. Zwischengespeicherte Seiten, die während der Sitzung generiert werden, werden nur von diesem Käufer während der Sitzung verwendet.
-- `Customer` - Kundensitzungen werden für diejenigen erstellt, die sich für ein Konto bei Ihrem Geschäft registriert und bei ihrem Konto angemeldet haben. Während der Sitzung können Kunden spezielle Angebote, Promotions und Preise unterbreitet werden, die auf ihrer zugewiesenen Kundengruppe basieren.
+#### Details der Cache-Liste
 
-Technische Informationen finden Sie unter [Konfigurieren und Verwenden von Varnish](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target=&quot;_blank&quot;} und [Verwenden von Redis für die Seite &quot;Commerce&quot;und den Standardcache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target=&quot;_blank&quot;} im _Konfigurationshandbuch_.
+| Cache | Beschreibung | Cache-Tag | Cache-ID |
+|-------|------------|----------|----------|
+| [!UICONTROL Configuration] | Commerce erfasst die XML-Konfiguration aus allen Modulen, führt sie zusammen und speichert das zusammengeführte Ergebnis im Cache.<br>**[!UICONTROL System]**-  `config.xml`,`local.xml`<br>**[!UICONTROL Module]** - `config.xml`<br><br>Dieser Cache enthält auch speicherspezifische Einstellungen, die im Dateisystem und in der Datenbank gespeichert sind. Bereinigen oder leeren Sie diesen Cache-Typ nach dem Ändern von Konfigurationsdateien. | `CONFIG` | `config` |
+| [!UICONTROL Layouts] | Kompilierte Seiten-Layouts, d. h. die Layout-Komponenten aus allen Komponenten. Bereinigen oder leeren Sie diesen Cache-Typ nach der Änderung von Layout-Dateien. | `LAYOUT_GENERAL_CACHE_TAG` | `layout` |
+| [!UICONTROL Blocks HTML output] | HTML von Seitenfragmenten pro Block. Bereinigen oder leeren Sie diesen Cache-Typ, nachdem Sie die Ansichtsebene geändert haben. | `BLOCK_HTML` | `block_html` |
+| [!UICONTROL Collections Data] | Sammlungsdatendateien, die die Ergebnisse von Datenbankabfragen speichern. Bei Bedarf bereinigt Commerce diesen Cache automatisch, aber Drittanbieterentwickler können beliebige Daten in jedes Segment des Caches einfügen. Bereinigen oder leeren Sie diesen Cache-Typ, wenn Ihr benutzerdefiniertes Modul Logik verwendet, die zu Cache-Einträgen führt, die Commerce nicht bereinigen kann. | `COLLECTION_DATA` | `collections` |
+| [!UICONTROL Reflections] | Löscht die API-Schnittstellenreflektionsdaten, die normalerweise zur Laufzeit generiert werden. | `REFLECTION` | `reflection` |
+| `Database DDL operations` | Datenbankschema. Bei Bedarf bereinigt Commerce diesen Cache automatisch, aber Drittanbieterentwickler können beliebige Daten in jedes Segment des Caches einfügen. Bereinigen oder leeren Sie diesen Cache-Typ, nachdem Sie benutzerdefinierte Änderungen am Datenbankschema vorgenommen haben. (Mit anderen Worten: Es handelt sich um Aktualisierungen, die Commerce nicht selbst herstellt.) Eine Möglichkeit, das Datenbankschema automatisch zu aktualisieren, besteht in der Verwendung des Magento-Setups:db-schema:Upgrade-Befehl. | `DB_DDL` | `db_ddl` |
+| [!UICONTROL Compiled Config] | Ergebnisse der Code-Kompilierung. | `COMPILED_CONFIG` | `compiled_config` |
+| [!UICONTROL Webhooks Response Cache] | Zwischenspeichert Antworten auf Webhook-Anfragen. Weitere Informationen finden Sie in der [Handbuch zu Webhooks](https://developer.adobe.com/commerce/extensibility/webhooks/release-notes/#enhancements-2) in der Commerce-Entwicklerdokumentation. | `WEBHOOKS_RESPONSE` | `webhooks_response` |
+| [!UICONTROL EAV types and attributes] | Entitätstypdeklarations-Cache für Metadaten, die sich auf EAV-Attribute beziehen (z. B. Speicherbezeichnungen, Links zu zugehörigem PHP-Code, Attribut-Rendering, Sucheinstellungen usw.). In der Regel ist es nicht erforderlich, diesen Cache-Typ zu bereinigen oder zu leeren. | `EAV` | `eav` |
+| [!UICONTROL Customer Notification] | Temporäre Benachrichtigungen, die in der Benutzeroberfläche angezeigt werden. | `CUSTOMER_NOTIFICATION` | `customer_notification` |
+| [!UICONTROL GraphQL Query Resolver Results] | Zwischenspeichert die Ergebnisse von GraphQL-Abfrageauflösern für Kunden-, CMS-Seiten-, CMS-Block- und Produktmediensammlungsentitäten. Lassen Sie diesen Cache aktiviert, um die Leistung von GraphQL zu verbessern. | `GRAPHQL_QUERY_RESOLVER_RESULT` | `graphql_query_resolver_result` |
+| [!UICONTROL Integrations Configuration] | Konfigurationsdatei für die Integration. Bereinigen oder leeren Sie diesen Cache, nachdem Sie Integrationen geändert oder hinzugefügt haben. | `INTEGRATION` | `config_integration` |
+| [!UICONTROL Integrations API Configuration] | Kompilierte Integrations-APIs für Store-Integrationen. | `INTEGRATION_API_CONFIG` | `config_integration_api` |
+| [!UICONTROL Admin UI SDK Cache] | speichert Anpassungen im Admin-Cache. Siehe [Admin-Konfiguration und -Tests](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/configuration/) in der _Admin-Benutzeroberfläche - SDK-Handbuch_. | `ADMIN_UI_SDK` | `admin_ui_sdk` |
+| [!UICONTROL Page Cache] | Vollständige Seitenzwischenspeicherung. | `FPC` | `full_page` |
+| [!UICONTROL Target Rule] | Zielregelindex | `TARGET_RULE` | `target_rule` |
+| [!UICONTROL Web Services Configuration] | Zwischenspeichern der Web-API-Struktur. | `WEBSERVICE` | `config_webservice` |
+| [!UICONTROL Translations] | Übersetzungsdateien. | `TRANSLATE` | `translate` |
 
-**_So konfigurieren Sie den ganzseitigen Cache:_**
+{style="table-layout:auto"}
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+## Vollständige Seitenzwischenspeicherung
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Advanced]** und wählen **[!UICONTROL System]**.
+Adobe Commerce und Magento Open Source verwenden die vollständige Seitenzwischenspeicherung auf dem Server, um Kategorie-, Produkt- und CMS-Seiten schnell anzuzeigen. Die vollständige Seitenzwischenspeicherung verbessert die Antwortzeit und reduziert die Last auf dem Server. Ohne Zwischenspeicherung muss jede Seite möglicherweise Codeblöcke ausführen und Informationen aus der Datenbank abrufen. Wenn jedoch die vollständige Seitenzwischenspeicherung aktiviert ist, kann eine vollständig generierte Seite direkt aus dem Cache gelesen werden.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Full Page Cache]** Abschnitt.
+>[!NOTE]
+>
+>Es wird empfohlen, [Lackcache](https://varnish-cache.org/){:target=„_blank„} nur in einer Produktionsumgebung verwendet werden.
 
-   ![Erweiterte Konfiguration - Vollseitencache](../configuration-reference/advanced/assets/system-full-page-cache.png){width="600" zoomable="yes"}
+Zwischengespeicherte Inhalte können verwendet werden, um Anfragen ähnlicher Besuchstypen zu verarbeiten. Daher können Seiten, die einem gelegentlichen Besucher angezeigt werden, von denen abweichen, die einem Kunden angezeigt werden. Für das Caching ist jeder Besuch einer von drei Typen:
 
-1. Satz **[!UICONTROL Caching Application]** auf einen der folgenden Werte zu:
+- `Non-sessioned` - Während eines nicht sitzungsbezogenen Besuchs zeigt der Käufer die Seiten an, interagiert jedoch nicht mit dem Store. Das System speichert den Inhalt jeder betrachteten Seite im Cache und stellt ihn anderen, nicht sessionierten Käufern zur Verfügung.
+- `Sessioned` - Während eines Sitzungsbesuchs wird Käufern, die mit dem Geschäft interagieren, eine Sitzungs-ID zugewiesen (z. B. durch Aktivitäten wie den Vergleich von Produkten oder das Hinzufügen von Produkten zum Warenkorb). Zwischengespeicherte Seiten, die während der Sitzung generiert werden, werden nur von diesem Erstkäufer während der Sitzung verwendet.
+- `Customer` - Kundensitzungen werden für diejenigen erstellt, die sich bei Ihrem Geschäft und Shop für ein Konto registriert haben, während sie sich bei ihren Konten angemeldet haben. Während der Sitzung können Kunden Sonderangebote, Aktionen und Preise präsentiert werden, die auf ihrer zugewiesenen Kundengruppe basieren.
+
+Technische Informationen finden Sie unter [Konfigurieren und Verwenden von Lack](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target=„_blank„} und [Redis für die Commerce-Seite und den Standard-Cache verwenden](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target=„_blank„} in der _Konfigurationshandbuch_.
+
+**_So konfigurieren Sie den Vollseiten-Cache:_**
+
+1. Auf der _Admin_ Seitenleiste, zu gehen **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. Erweitern Sie im linken Bereich . **[!UICONTROL Advanced]** und wählen **[!UICONTROL System]**.
+
+1. Expand ![Erweiterungsauswahl](../assets/icon-display-expand.png) Die **[!UICONTROL Full Page Cache]** -Abschnitt.
+
+   ![Erweiterte Konfiguration - vollständiger Seiten-Cache](../configuration-reference/advanced/assets/system-full-page-cache.png){width="600" zoomable="yes"}
+
+1. set **[!UICONTROL Caching Application]** eine der folgenden Möglichkeiten:
 
    - `Built-in Application`
    - `Varnish Caching`
 
-1. Um den Timeout für den Seiten-Cache festzulegen, geben Sie die **[!UICONTROL TTL for public content]**. (Der Standardwert ist `86400`)
+1. Um die maximale Wartezeit für den Seiten-Cache festzulegen, geben Sie Folgendes ein **[!UICONTROL TTL for public content]**. (Der Standardwert lautet `86400`)
 
-1. Bei Verwendung von Varnish müssen Sie die **[!UICONTROL Varnish Configuration]** wie folgt:
+1. So geben Sie die maximale Anzahl von an [Layout-Griffe](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) zur Verarbeitung am [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP-Endpunkt eingeben **[!UICONTROL Handles param size]**. Eine Größenbeschränkung kann die Sicherheit und Leistung verbessern. (Der Standardwert lautet `100`)
 
-   - **[!UICONTROL Access list]** - Geben Sie die IP-Adressen ein, die die Varnish-Konfiguration bereinigen können, um eine Konfigurationsdatei zu generieren. Trennen Sie mehrere Einträge durch ein Komma. Der Standardwert ist `localhost`.
+1. Wenn Sie „Lack“ verwenden, vervollständigen Sie **[!UICONTROL Varnish Configuration]** -Abschnitt wie folgt:
 
-   - **[!UICONTROL Backend host]** - Geben Sie die IP-Adresse des Backend-Hosts ein, der Konfigurationsdateien generiert. Der Standardwert ist `localhost`.
+   - **[!UICONTROL Access list]** : Geben Sie die IP-Adressen ein, die die Lackkonfiguration bereinigen können, um eine Konfigurationsdatei zu generieren. Trennen Sie mehrere Einträge durch ein Komma. Der Standardwert lautet `localhost`.
 
-   - **[!UICONTROL Backend port]** - Identifizieren Sie den Backend-Port, der zum Generieren von Konfigurationsdateien verwendet wird. Der Standardwert ist: `8080`.
+   - **[!UICONTROL Backend host]** : Geben Sie die IP-Adresse des Backend-Hosts ein, der Konfigurationsdateien generiert. Der Standardwert lautet `localhost`.
 
-   - **[!UICONTROL Grace period]** - Geben Sie die Anzahl der Sekunden an, die als Übergangsphase zum Generieren von Konfigurationsdateien verwendet werden sollen. Siehe [Erweiterte Varnish-Konfiguration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) im _Konfigurationshandbuch_.
+   - **[!UICONTROL Backend port]** - Identifizieren Sie den Backend-Port, der zum Generieren von Konfigurationsdateien verwendet wird. Der Standardwert lautet: `8080`.
 
-   - So exportieren Sie die Konfiguration als `varnish.vcl` klicken Sie auf die Schaltfläche für die von Ihnen verwendete Version von Varnish.
+   - **[!UICONTROL Grace period]** : Geben Sie die Anzahl der Sekunden an, die als Übergangsphase zum Generieren von Konfigurationsdateien verwendet werden sollen. Siehe [Erweiterte Lackkonfiguration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) in der _Konfigurationshandbuch_.
 
-   ![Erweiterte Konfiguration - Vollbild-Cache-Lack der Seite](../configuration-reference/advanced/assets/system-full-page-cache-varnish.png){width="600" zoomable="yes"}
+   - So exportieren Sie die Konfiguration als `varnish.vcl` auf die Schaltfläche für die Version von Varnish klicken, die Sie verwenden.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+   ![Erweiterte Konfiguration - Lackierung des vollständigen Seiten-Cache](../configuration-reference/advanced/assets/system-full-page-cache-varnish.png){width="600" zoomable="yes"}
+
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.

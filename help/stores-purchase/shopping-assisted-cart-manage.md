@@ -1,20 +1,20 @@
 ---
-title: Warenkorb verwalten
-description: Erfahren Sie, wie Sie einen Kunden direkt vom Administrator bei seinem Warenkorb unterstützen.
+title: Verwalten eines Warenkorbs
+description: Erfahren Sie, wie Sie einem Kunden direkt vom Administrator bei seinem Warenkorb helfen können.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 1%
+source-wordcount: '658'
+ht-degree: 0%
 
 ---
 
-# Warenkorb verwalten
+# Verwalten eines Warenkorbs
 
 {{ee-feature}}
 
-Um eine unterstützende Shopping-Sitzung zu starten, muss der Kunde von der Storefront in sein Konto eingeloggt sein, um die Informationen zur Verfügung zu stellen. Wenn der Kunde über kein Konto verfügt, können Sie [Erstellen einer](../customers/account-create.md).
+Um eine unterstützte Einkaufssession zu starten, muss der Kunde in seinem Konto in der Storefront angemeldet sein, um die Informationen verfügbar zu machen. Wenn der Kunde kein Konto hat, können Sie [Einen erstellen](../customers/account-create.md).
 
 ![Warenkorb im Kundenkonto](./assets/customer-account-manage-cart-items.png){width="600" zoomable="yes"}
 
@@ -23,31 +23,31 @@ Um eine unterstützende Shopping-Sitzung zu starten, muss der Kunde von der Stor
 | Option | Beschreibung |
 |--- |--- |
 | [!UICONTROL Remove] | Entfernt Artikel aus dem aktuellen Warenkorb |
-| [!UICONTROL Move to Wish List] | Verschiebt Elemente in die ausgewählte KundenWunschliste. |
+| [!UICONTROL Move to Wish List] | Verschiebt Artikel in die ausgewählte Kunden-Wunschliste |
 
 {style="table-layout:auto"}
 
-## Schaltflächen
+## Steuertasten
 
 | Schaltfläche | Beschreibung |
 |--- |--- |
-| [!UICONTROL Clear my shopping cart] | Löscht den aktuellen Warenkorb aus allen Produkten. |
-| [!UICONTROL Update Items and Quantities|]Geben Sie die erforderliche Menge in die **[!UICONTROL Qty]** und aktualisieren Sie die Anzahl der Artikel im Warenkorb. |
+| [!UICONTROL Clear my shopping cart] | Löscht den aktuellen Warenkorb von allen Produkten. |
+| [!UICONTROL Update Items and Quantities|]Geben Sie die gewünschte Menge in das Feld **[!UICONTROL Qty]** die Anzahl der Artikel im Warenkorb eingeben und aktualisieren. |
 | [!UICONTROL Add selections to my cart] | Fügt Produkte aus allen Bereichen zum Warenkorb hinzu. |
 
 {style="table-layout:auto"}
 
 ## Überprüfen, ob der Kunde angemeldet ist
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Customers]** > **[!UICONTROL Now Online]**.
+1. Auf der _Admin_ Seitenleiste, zu gehen **[!UICONTROL Customers]** > **[!UICONTROL Now Online]**.
 
    Alle Besucher des Stores und angemeldete Kunden werden in der Liste angezeigt.
 
-   ![Jetzt online](./assets/customers-now-online.png){width="700" zoomable="yes"}
+   ![Kunden jetzt online](./assets/customers-now-online.png){width="700" zoomable="yes"}
 
-## Einkaufen mit Angebotsunterstützung
+## Angebotsunterstützter Einkauf
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Auf der _Admin_ Seitenleiste, zu gehen **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
 1. Öffnen Sie in der Liste den Kundendatensatz im Bearbeitungsmodus.
 
@@ -59,25 +59,25 @@ Um eine unterstützende Shopping-Sitzung zu starten, muss der Kunde von der Stor
 
    ![Kundenprofil eines Online-Kunden](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
-1. Um in den unterstützten Warenkorb zu wechseln, klicken Sie auf **[!UICONTROL Manage Shopping Cart]** in der oberen Schaltflächenleiste.
+1. Um in den unterstützten Einkaufsmodus zu wechseln, klicken Sie auf **[!UICONTROL Manage Shopping Cart]** in der oberen Schaltflächenleiste.
 
-   ![Assisted shopping mode](./assets/customer-manage-shopping-cart.png){width="600" zoomable="yes"}
+   ![Assisted Shopping-Modus](./assets/customer-manage-shopping-cart.png){width="600" zoomable="yes"}
 
-## Produkte dem Warenkorb nach Attribut hinzufügen
+## Produkte nach Attribut zum Warenkorb hinzufügen
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Products]** Abschnitt.
+1. Expand ![Erweiterungsauswahl](../assets/icon-display-expand.png) Die **[!UICONTROL Products]** -Abschnitt.
 
-1. Suchen Sie mithilfe eines Filters oben in jeder Spalte nach einem Produkt.
+1. Suchen Sie mithilfe eines der Filter oben in jeder Spalte nach einem Produkt.
 
-1. Klicken **[!UICONTROL Search]**.
+1. Klick **[!UICONTROL Search]**.
 
-1. Führen Sie je nach Produkttyp eine der folgenden Schritte aus:
+1. Verwenden Sie je nach Produkttyp einen der folgenden Schritte:
 
 ### Einfaches Produkt hinzufügen
 
 1. Klicken Sie auf das Produkt, das Sie bestellen möchten.
 
-   Diese Aktion wählt den Datensatz aus und setzt **[!UICONTROL Quantity]** auf den Standardwert von `1`.
+   Diese Aktion wählt den Datensatz aus und legt fest **[!UICONTROL Quantity]** auf den Standardwert von `1`.
 
 1. Aktualisieren Sie bei Bedarf die bestellte Menge.
 
@@ -95,11 +95,11 @@ Es gibt drei Arten von Produkten, die konfiguriert werden müssen, bevor sie zum
 
 1. Klicken Sie im Raster auf **[!UICONTROL Configure]** neben dem Produktnamen.
 
-   ![Konfigurieren des Produkts](./assets/customer-account-manage-cart-order-configurable-product.png){width="600" zoomable="yes"}
+   ![Produkt konfigurieren](./assets/customer-account-manage-cart-order-configurable-product.png){width="600" zoomable="yes"}
 
-1. Im _Zugehörige Produkte_ wählen, jedes Produkt auswählen, um das zu sortierende Element zu beschreiben, und die **[!UICONTROL Quantity]** und klicken Sie auf **[!UICONTROL OK]**.
+1. In der _Zugehörige Produkte_ Wählen Sie jede Produktoption aus, um den zu bestellenden Artikel zu beschreiben, und geben Sie Folgendes ein **[!UICONTROL Quantity]** und klicken Sie auf **[!UICONTROL OK]**.
 
-   Das Produkt wird mit einem Häkchen ausgewählt und die sortierte Menge wird im Raster angezeigt.
+   Das Produkt wird mit einem Häkchen markiert und die bestellte Menge wird im Raster angezeigt.
 
 1. Um das Produkt zum Warenkorb hinzuzufügen, klicken Sie auf **[!UICONTROL Add selections to my cart]**.
 
@@ -107,15 +107,15 @@ Es gibt drei Arten von Produkten, die konfiguriert werden müssen, bevor sie zum
 
 1. Aktualisieren Sie bei Bedarf die Produktoptionen im Warenkorb:
 
-   - Klicken **[!UICONTROL Configure]**.
+   - Klick **[!UICONTROL Configure]**.
 
-   - Aktualisieren Sie die Optionen und klicken Sie auf **[!UICONTROL OK]**.
+   - Aktualisieren Sie die Optionen und klicken Sie dann auf **[!UICONTROL OK]**.
 
 ## Produkt nach SKU hinzufügen
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Add to Shopping Cart by SKU]** Abschnitt.
+1. Expand ![Erweiterungsauswahl](../assets/icon-display-expand.png) Die **[!UICONTROL Add to Shopping Cart by SKU]** -Abschnitt.
 
-1. Produkte einzeln hinzufügen durch **[!UICONTROL SKU]** oder fügen Sie Produkte hinzu, indem Sie eine CSV-Datei hochladen.
+1. Produkte einzeln hinzufügen nach **[!UICONTROL SKU]** oder fügen Sie Produkte hinzu, indem Sie eine CSV-Datei hochladen.
 
 ### Elemente einzeln nach SKU hinzufügen
 
@@ -125,27 +125,27 @@ Es gibt drei Arten von Produkten, die konfiguriert werden müssen, bevor sie zum
 
    ![Produkte nach SKU hinzufügen](./assets/customer-account-manage-cart-order-product-by-sku.png){width="600" zoomable="yes"}
 
-1. Klicken **[!UICONTROL Add selections to my cart]**.
+1. Klick **[!UICONTROL Add selections to my cart]**.
 
-1. Wenn es sich bei dem Element um ein konfigurierbares Produkt handelt, wählen Sie die Produktoptionen bei entsprechender Aufforderung aus und klicken Sie auf **[!UICONTROL Add to Shopping Cart]**.
+1. Wenn das Element ein konfigurierbares Produkt ist, wählen Sie die Produktoptionen aus, wenn Sie dazu aufgefordert werden, und klicken Sie dann auf **[!UICONTROL Add to Shopping Cart]**.
 
 ### Hinzufügen von Produkten durch Hochladen einer CSV-Datei
 
-1. Vorbereiten einer [CSV-Datei](../systems/data-csv.md) mit den Artikeln, die dem Warenkorb hinzugefügt werden sollen.
+1. Vorbereiten eines [CSV-Datei](../systems/data-csv.md) mit den Artikeln, die dem Warenkorb hinzugefügt werden sollen.
 
-   Die Datei darf nur zwei Spalten enthalten, wobei `sku` und `qty` in der Kopfzeile.
+   Die Datei darf nur zwei Spalten enthalten: `sku` und `qty` in der Kopfzeile.
 
 1. Laden Sie die vorbereitete Datei hoch:
 
-   - Klicken **[!UICONTROL Choose File]**.
+   - Klick **[!UICONTROL Choose File]**.
 
-   - Wählen Sie die aus Ihrem Verzeichnis hochzuladende Datei aus.
+   - Wählen Sie die Datei aus, die aus Ihrem Verzeichnis hochgeladen werden soll.
 
-## Element übertragen
+## Übertragen eines Artikels
 
-Sie können Artikel aus der Wunschliste eines Kunden in den Warenkorb übertragen und kürzlich angezeigte, verglichene oder bestellte Artikel anzeigen. Die Anzahl der Elemente in jedem Abschnitt wird in Klammern nach der Kopfzeile des Abschnitts angezeigt.
+Sie können Artikel aus der Wunschliste eines Kunden in den Warenkorb legen und kürzlich angesehene, verglichene oder bestellte Artikel anzeigen. Die Anzahl der Elemente in den einzelnen Abschnitten wird in Klammern hinter der Abschnittsüberschrift angezeigt.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) einen der folgenden Abschnitte:
+1. Expand ![Erweiterungsauswahl](../assets/icon-display-expand.png) einen der folgenden Abschnitte:
 
    - [!UICONTROL Wish List]
    - [!UICONTROL Products in the Comparison List]
@@ -153,32 +153,32 @@ Sie können Artikel aus der Wunschliste eines Kunden in den Warenkorb übertrage
    - [!UICONTROL Recently Viewed Products]
    - [!UICONTROL Last Ordered Items]
 
-1. Wählen Sie im Raster die zu sortierenden Produkte aus und geben Sie die **[!UICONTROL Quantity]**.
+1. Wählen Sie im Raster jedes zu bestellende Produkt aus und geben Sie die **[!UICONTROL Quantity]**.
 
 1. Um die Optionen für ein konfigurierbares Produkt einzugeben, klicken Sie auf **[!UICONTROL Configure]** und legen Sie die Produktoptionen nach Bedarf fest.
 
-1. Klicken **[!UICONTROL Add selections to my cart]**.
+1. Klick **[!UICONTROL Add selections to my cart]**.
 
-1. Wenden Sie gegebenenfalls einen Gutscheincode an:
+1. Wenden Sie einen oder mehrere Couponcodes an, falls verfügbar:
 
-   - Für **[!UICONTROL Apply Coupon Code]** einen gültigen Gutscheincode eingeben.
+   - für **[!UICONTROL Apply Coupon Code]**, geben Sie einen gültigen Gutscheincode ein.
 
-   - Klicken Sie auf _Anwenden_ ( ![Pfeilsymbol](../assets/icon-apply-arrow.png) ).
+   - Klicken Sie auf die Schaltfläche _Übernehmen_ ( ![Pfeilsymbol](../assets/icon-apply-arrow.png) ) Pfeil.
 
 1. Passen Sie die bestellte Menge nach Bedarf an:
 
-   - Im **[!UICONTROL Qty]** die Spalte des zu berichtigenden Erzeugnisses, den korrekten Betrag angeben.
+   - In der **[!UICONTROL Qty]** Spalte des anzupassenden Produkts. Geben Sie den korrekten Betrag ein.
 
-   - Klicken **[!UICONTROL Update Items and Quantities]**.
+   - Klick **[!UICONTROL Update Items and Quantities]**.
 
 ## Bestellung erstellen
 
-1. Klicken **[!UICONTROL Create Order]**.
+1. Klick **[!UICONTROL Create Order]**.
 
-   Die _[!UICONTROL Create New Order]_zeigt die Artikel im Warenkorb, gefolgt von den Versand- und Zahlungsinformationen an.
+   Die _[!UICONTROL Create New Order]_Die Seite zeigt die Artikel im Warenkorb an, gefolgt von den Versand- und Zahlungsinformationen.
 
 1. Füllen Sie die Versand- und Zahlungsinformationen aus.
 
-1. Klicken **[!UICONTROL Submit Order]**.
+1. Klick **[!UICONTROL Submit Order]**.
 
 Weitere Informationen finden Sie unter [Bestellung erstellen](customer-account-create-order.md).
