@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] Seite des Commerce-Administrators.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 8ce1bca0a14b838c843c66e48a2c1cd895bb1340
+source-git-commit: b99212b2c6977fc788e75df4bdce608fc4998dc4
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3146'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | Store-Ansicht | Bestimmt die Anzahl der Produkte, die standardmäßig in der Rasteransicht pro Seite angezeigt werden. |
 | [!UICONTROL Products per Page on List Allowed Values] | Store-Ansicht | Bestimmt die Anzahl der Produkte, die in der Listenansicht angezeigt werden. Um eine Auswahl an Optionen bereitzustellen, geben Sie mehrere durch Kommas getrennte Werte ein. |
 | [!UICONTROL Products per Page on List Default Value] | Store-Ansicht | Bestimmt die Anzahl der Produkte, die standardmäßig in der Listenansicht pro Seite angezeigt werden. |
-| Sortieren der Produktliste nach | Store-Ansicht | Bestimmt die Sortierreihenfolge der Suchergebnisliste. Die Auswahl der Optionen wird durch die Anzeigeeinstellungen der Kategorie und die verfügbaren Attribute bestimmt, die auf `Used for Sorting in Product Listing`. Die Standardeinstellung ist `Use All Available Attributes` und umfasst normalerweise Best Value, Name, Price |
+| Sortieren der Produktliste nach | Store-Ansicht | Bestimmt die Sortierreihenfolge der Suchergebnisliste. Die Auswahl der Optionen wird durch die Anzeigeeinstellungen der Kategorie und die verfügbaren Attribute bestimmt, die auf `Used for Sorting in Product Listing`. Die Standardeinstellung ist `Use All Available Attributes` und enthält normalerweise Best Value, Name und Preis. Diese Einstellung gilt nicht für die [!DNL Live Search] [Seiten-Widget &quot;Produktliste&quot;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | Store-Ansicht | Wenn auf `Yes`, enthält die `ALL` im Steuerelement &quot;Pro Seite anzeigen&quot;. |
 | [!UICONTROL Remember Category Pagination] | Global | Wenn auf `Yes`, werden die aktuellen Kategoriepaginierungswerte gespeichert, wenn Kunden von einer Kategorie zur anderen in [Produktlisten](../../catalog/navigation-product-listings.md). Das Speichern des Werts verwendet mehr Cache-Speicher und kann sich auf die Art und Weise auswirken, wie Seiten von Suchmaschinen indiziert werden. Optionen: `Yes` / `No` (Standard) |
 | [!UICONTROL Use Flat Catalog Category] | Global | Aktiviert die [flache Kategorienstruktur](../../catalog/catalog-flat.md) (nicht empfohlen). Optionen: `Yes` / `No` |
