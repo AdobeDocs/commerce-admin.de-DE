@@ -3,16 +3,18 @@ title: Adobe Experience Cloud-Integration für Commerce Admin
 description: Erfahren Sie mehr über die Admin Unified Experience-Erweiterung, die Commerce mit Experience Cloud integriert, sodass Kunden von der Experience Cloud-Startseite aus auf Commerce-Projekte zugreifen können.
 feature: Integration
 exl-id: e3fb6337-c7d5-4b6f-8f4a-583697a1f2d2
-source-git-commit: a07c91bc2f01cd110f3e0ccd6d27fe5d37eb2fc9
+source-git-commit: 61874f3dac4f574ad393e8ae258f3d6c56c8f37e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Cloud-Integration für Commerce
 
-{{ee-feature}}
+<table style="border:1px solid red">
+<tr><td><img alt="Adobe Commerce-Funktion" src="../assets/adobe-logo.svg" width="20" height="20" /> Nur in Adobe Commerce verfügbare Funktion (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html#product-editions">Weitere Infos</a>)</td></tr>
+</table>
 
 Integrieren Sie Adobe Commerce-Projekte in Experience Cloud, indem Sie die Admin Unified Experience-Erweiterung aktivieren. Wenn die Integration aktiv ist, können Administratoren von Adobe Experience Cloud aus auf Commerce-Projekte zugreifen.
 
@@ -20,19 +22,19 @@ Integrieren Sie Adobe Commerce-Projekte in Experience Cloud, indem Sie die Admin
 
 ## Verfügbare Commerce-Projekte anzeigen
 
-Administratoren können Commerce-Projekte, auf die sie Zugriff haben, anzeigen, indem sie **[!UICONTROL Commerce]** von der Experience Cloud-Homepage aus.
+Administratoren können Commerce-Projekte anzeigen, auf die sie Zugriff haben, indem sie **[!UICONTROL Commerce]** von der Experience Cloud-Homepage aus.
 
-![Arbeitsbereich &quot;Commerce-Projekte&quot;auf Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
+![Commerce Projects Workspace auf Experience Cloud](./assets/admin-uex-commerce-projects-home.png){width="700" zoomable="yes"}
 
 Administratoren können den Admin und die Storefront für jedes Projekt über die [!DNL Commerce Projects] Arbeitsbereich und weitere Informationen anzeigen.
 
-- **Snapshot der Commerce-Storefront-Startseite**—Schnappschuss der Storefront-Homepage. Wenn ein Projekt mehrere Websites hat, zeigt der Schnappschuss die Startseite für die Standardsite an.
+- **Momentaufnahme der Commerce Storefront-Startseite**—Schnappschuss der Storefront-Homepage. Wenn ein Projekt mehrere Websites hat, zeigt der Schnappschuss die Startseite für die Standardsite an.
 
 - **[Projektname](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**—Identifiziert die Cloud-Projektumgebung für die Instanz. Der Projektname wird standardmäßig auf die [Git-Zweigname](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) im Cloud-Projekt. Ändern oder aktualisieren Sie den Projektnamen im [Einheitliche Experience Store-Konfigurationseinstellungen](admin-unified-experience-integration-manage.md#manage-the-integration-from-the-admin).
 
 - **[Storefront-URL](../stores-purchase/store-urls.md)**—Zeigt die Basis-URL für die Standardwebsite an.
 
-- **[Umgebungstyp](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**—In einer Entwicklungs- oder Staging-Umgebung bereitgestellte Commerce-Instanzen werden mit einer [!UICONTROL Development] oder [!UICONTROL Staging] Beschriftung. Instanzen ohne Beschriftung werden in einer Produktionsumgebung bereitgestellt.
+- **[Umgebungstyp](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-develop-deploy-workflow.html)**—Commerce-Instanzen, die in einer Entwicklungs- oder Staging-Umgebung bereitgestellt werden, werden mit einer [!UICONTROL Development] oder [!UICONTROL Staging] Beschriftung. Instanzen ohne Beschriftung werden in einer Produktionsumgebung bereitgestellt.
 
 - **Commerce Admin-Zugriff**- Öffnen Sie den Administrator, indem Sie auf **[!UICONTROL Open]**.
 
@@ -42,13 +44,13 @@ Administratoren können den Admin und die Storefront für jedes Projekt über di
 
 ## Authentifizierungsfluss
 
-Wenn die Experience Cloud-Integration aktiviert ist, verwenden Administratoren den folgenden Workflow, um sich zu authentifizieren und auf Commerce-Projekte zuzugreifen.
+Wenn die Experience Cloud-Integration aktiviert ist, verwenden Administratoren den folgenden Workflow zum Authentifizieren und Aufrufen von Commerce-Projekten.
 
 1. Melden Sie sich über die Experience Cloud-Anmeldeseite an.
 
    ![Anmeldeseite von Experience Cloud](./assets/admin-uex-experience-cloud-login.png){width="600" zoomable="yes"}
 
-   Administratoren müssen sich mit dem Adobe-Geschäftsprofil für die mit der Commerce-Instanz verknüpfte Organisation bei der Experience Cloud anmelden. Siehe [Adobe-Profile verwalten](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
+   Administratoren müssen sich mit dem Adobe-Geschäftsprofil für die mit der Commerce-Instanz verknüpfte Organisation bei Experience Cloud anmelden. Siehe [Adobe-Profile verwalten](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html).
 
 1. Öffnen Sie auf der Experience Cloud-Startseite die [!UICONTROL Commerce Projects workspace] durch Auswahl **[!UICONTROL Open]**.
 
@@ -78,7 +80,7 @@ Wenn die Experience Cloud-Integration aktiviert ist, verwenden Administratoren d
 
 ## Integration aktivieren
 
-Aktivieren Sie die Integration, indem Sie die Anweisungen zum [Konfigurieren der Experience Cloud-Integration mit dem Commerce Admin](admin-unified-experience-integration-configure.md).
+Aktivieren Sie die Integration, indem Sie die Anweisungen zum [Konfigurieren der Experience Cloud-Integration mit Commerce Admin](admin-unified-experience-integration-configure.md).
 
 >[!TIP]
 >
