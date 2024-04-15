@@ -3,9 +3,9 @@ title: '''[!DNL Inventory Management] Versionshinweise'
 description: In den Versionshinweisen finden Sie Informationen zu allen [!DNL Inventory Management] veröffentlicht.
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: 01d8a1d50f574330f3ce7e8bf03a018f0079f5db
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3445'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ Diese Versionshinweise beschreiben Versionen von [!DNL Inventory Management] und
 [!DNL Inventory Management] ist ein Spezialprojekt der Magento Open Source Community Engineering, das Beitragenden offen steht. Informationen zur Teilnahme und zum Beitrag finden Sie im Abschnitt [GitHub-Projekt](https://github.com/magento/inventory) Repository und [Wiki](https://github.com/magento/inventory/wiki) um zu beginnen. Um das Projekt zu besprechen, nehmen Sie an der [Slack](https://magentocommeng.slack.com/?redir=%2Farchives%2FC5FU5E2HY) channel ([self-signup](https://opensource.magento.com/slack)).
 
 [Veröffentlichungszeitplan](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html){target="_blank"} für unterstützte und kompatible Versionen.
+
+## v1.2.7
+
+[!DNL Inventory Management] 1.2.7 Versionshinweise sind im Abschnitt [Versionshinweise zu Core 2.4.7](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -108,7 +112,7 @@ Diese Versionshinweise beschreiben Versionen von [!DNL Inventory Management] und
 
 Inventory management 1.2.4 (Modulversion: `magento/inventory-metapackage = 1.2.4`) wird mit Version 2.4.4 unterstützt und ist mit Version 2.4.0 von Adobe Commerce, Adobe Commerce über Cloud-Infrastruktur und der Magento Open Source-Codebasis kompatibel.
 
-![Problem behoben](../assets/fix.svg) In der Admin-Produktlistenansicht wird nun für alle Produkte ein genauer Wert für die Verkaufsmenge angezeigt. Zuvor wurde ein leerer Wert für die verkaufbare Menge von Produkten auf Lager mit SKUs angezeigt, die Sonderzeichen enthielten. <!--- MC-41936-->
+![Problem behoben](../assets/fix.svg) In der Admin-Produktlistenansicht zeigt Commerce jetzt einen genauen Wert für die Verkaufsmenge aller Produkte an. Zuvor wurde ein leerer Wert für die verkaufbare Menge von Produkten auf Lager mit SKUs angezeigt, die Sonderzeichen enthielten. <!--- MC-41936-->
 
 ![Problem behoben](../assets/fix.svg) Die Leistung wurde bei Warenkorb- und Checkout-Aktionen verbessert, z. B. beim Hinzufügen von Produkten zum Warenkorb in Bereitstellungen mit vielen (etwa 10.000) Inventarquellen. <!--- MC-42570-->
 
@@ -168,7 +172,7 @@ Inventory management 1.2.4 (Modulversion: `magento/inventory-metapackage = 1.2.4
 
 ![Neu](../assets/new.svg) **Funktionstests.** Es wurden neue Funktionstests eingeführt, die zusätzliche Unterstützung für die In-Store-Abruf-Funktion bieten.
 
-## 1.2.0
+## 1,2,0
 
 [!DNL Inventory Management] 1.2.0 (Modulversion: `magento/inventory-metapackage = 1.2.0`) wird in Version 2.4.0 von Adobe Commerce, Adobe Commerce in der Cloud-Infrastruktur und der Magento Open Source-Codebasis unterstützt.
 
@@ -201,7 +205,7 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 ![Neu](../assets/new.svg) **Asynchrone Neuindizierung des Lagers.** Die Möglichkeit zur asynchronen Neuindizierung von Lagern wurde hinzugefügt und die Leistung verschiedener kritischer Szenarien wurde verbessert.
 
-## 1.1.5
+## 1,1,5
 
 [!DNL Inventory Management] 1.1.5 (Modulversion: `inventory-composer-metapackage = 1.1.5`) wird mit Version 2.3.5 unterstützt und ist mit den Versionen 2.3.4, 2.3.3, 2.3.2, 2.3.1 und 2.3.0 von Adobe Commerce, Adobe Commerce über die Cloud-Infrastruktur und die Magento Open Source-Codebasis kompatibel.
 
