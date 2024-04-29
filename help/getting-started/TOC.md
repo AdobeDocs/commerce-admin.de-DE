@@ -5,9 +5,9 @@ breadcrumb-title: Erste Schritte
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: c97d6eb4050bbae7e766f01ce50b5c3be7544c5c
+source-git-commit: 5c9d61ae16576b3298336b94c9b4101c78c05976
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '208'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 1%
 # Erste Schritte mit Adobe Commerce {#start}
 
 + [Erste Schritte mit Adobe Commerce](guide-overview.md)
++ [Was ist Adobe Commerce?](about.md)
 + [Versionsinformationen](about-this-release.md)
 + [Anmeldedaten und URLs](login-urls.md)
 + Commerce-Konten {#commerce-account}
