@@ -1,26 +1,26 @@
 ---
 title: Erste Schritte mit Adobe Commerce
-description: Umfassende Informationen für Händler, die neu bei Adobe Commerce und Magento Open Source sind.
+description: Umfassende Informationen für Händler, die neu bei Adobe Commerce sind.
 seo-title: Adobe Commerce Getting Started Guide
 seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
 recommendations: noCatalog
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
 # Erste Schritte mit Adobe Commerce
 
-Dieses Handbuch richtet sich an Händler und Systemadministratoren, die neu bei Adobe Commerce und Magento Open Source sind. Es bietet einen Überblick über die Plattform aus ihrer Perspektive und detaillierte Informationen über grundlegende Funktionen, die einen funktionalen Speicher ermöglichen.
+Dieses Handbuch richtet sich an Händler und Systemadministratoren, die neu bei Adobe Commerce sind. Es bietet einen Überblick über die Plattform aus ihrer Perspektive und detaillierte Informationen über grundlegende Funktionen, die einen funktionalen Speicher ermöglichen.
 
 Dieses Handbuch behandelt:
 
 | Betreff | Beschreibung |
 | ------- | ----------- |
-| [Versionsinformationen](about-this-release.md) | Erfahren Sie mehr über die aktuelle Adobe Commerce- und Magento Open Source-Version. |
+| [Über Commerce](about.md) | Erfahren Sie mehr über die aktuelle Adobe Commerce-Version. |
 | [Anmeldedaten und URLs](login-urls.md) | Informationen zum [!DNL Commerce] URLs und Kontoanmeldeinformationen, die für den Zugriff auf Ihren Administrator und Ihre Storefront verwendet werden. |
 | [[!DNL Commerce] Konten](commerce-account-create.md) | Informationen zu [!DNL Commerce] Konten, die die von Ihnen erworbenen Produkte und Dienstleistungen verwalten. |
 | [Der Administrator](admin.md) | Informationen zum [!DNL Commerce] Admin, der Ort, an dem Händler Produkte und Promotions einrichten, Bestellungen verwalten und andere Verwaltungsaufgaben ausführen. |
@@ -32,7 +32,7 @@ Dieses Handbuch behandelt:
 
 {style="table-layout:auto"}
 
-Die detaillierteren Funktionen von Adobe Commerce und Magento Open Source werden nicht abgedeckt.
+Die detaillierteren Funktionen von Adobe Commerce werden nicht abgedeckt.
 
 ## Zusätzliche Dokumentation
 
