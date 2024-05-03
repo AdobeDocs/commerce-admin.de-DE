@@ -3,9 +3,9 @@ title: Geplante Änderungen für Katalogpreisregeln
 description: Erfahren Sie, wie Sie Katalogpreisregeln im Rahmen einer Kampagne planmäßig anwenden und mit anderen Inhaltsänderungen gruppieren können.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Das Feld Geplante Änderungen wird oben auf der Seite angezeigt, wenn eine neue Preisregel gespeichert oder aktualisiert wird. Katalogpreisregeln können planmäßig im Rahmen einer Kampagne angewendet und mit anderen Inhaltsänderungen gruppiert werden. Sie können eine Kampagne auf der Grundlage geplanter Änderungen an einer Preisregel erstellen oder die Änderungen auf eine bestehende Kampagne anwenden.
+
+>[!NOTE]
+>
+>Die [!UICONTROL From] und [!UICONTROL To] -Felder wurden entfernt in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce und können nicht direkt in der Katalogpreisregel geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
 
 >[!NOTE]
 >
@@ -68,7 +72,7 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
 1. Nehmen Sie die erforderlichen Änderungen an der geplanten Aktualisierung vor.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicks **[!UICONTROL Save]**.
 
 ## Vorschau der geplanten Regeländerung
 
@@ -88,7 +92,7 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
    - Wählen Sie ein anderes Datum und/oder eine andere Uhrzeit aus.
 
-   - Klicken **[!UICONTROL Preview]**.
+   - Klicks **[!UICONTROL Preview]**.
 
 1. Um zum Kalender zurückzukehren, klicken Sie auf **[!UICONTROL Calendar]** in der Kopfzeile der Vorschauseite.
 

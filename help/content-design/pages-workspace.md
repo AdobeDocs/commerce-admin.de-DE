@@ -3,9 +3,9 @@ title: Seitenarbeitssteuerelemente
 description: Erfahren Sie mehr über die Workspace-Tools, die zum Suchen und Aktualisieren von Inhaltsseiten verwendet werden.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Der Seitenarbeitsbereich enthält Tools, die Ihnen dabei helfen, die benötigten
 
 | Spalte | Beschreibung |
 |--- |--- |
-| [!UICONTROL Custom design from/to] | Gibt das Start- und Enddatum an, an dem das ausgewählte Design auf die Produktseite angewendet wird |
+| [!UICONTROL Custom design from/to] | Gibt das Start- und Enddatum an, an dem das ausgewählte Design auf die Seite angewendet wird. ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source). |
 | [!UICONTROL Custom Theme] | Wendet ein benutzerdefiniertes Design auf die Seite an |
 | [!UICONTROL Custom Layout] | Legt das benutzerdefinierte Layout der Seite fest |
 | [!UICONTROL Meta Title] | Metadatentitel für die Seite |
@@ -111,7 +111,7 @@ Das Suchfeld oben links im _[!UICONTROL Pages]_raster kann verwendet werden, um 
 | [!UICONTROL Store View] | Filtern Sie die Suche nach der Store-Ansicht. Optionen: `All available` / `Store Views` |
 | [!UICONTROL Layout] | Filtern Sie die Suche nach dem Seitenlayout. Optionen: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Status] | Filtern Sie die Suche nach dem Seitenstatus. Optionen: `Disabled` / `Published` |
-| [!UICONTROL Custom design from / to] | Filtern Sie die Suche nach dem Start- und Enddatum, an dem das ausgewählte Design auf die Produktseite angewendet wird. |
+| [!UICONTROL Custom design from / to] | Filtern Sie die Suche nach dem Start- und Enddatum, wenn das ausgewählte Design auf die Seite angewendet wird. ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source). |
 | [!UICONTROL Asset] | Filtern der Suche nach den Asset-Titeln der Seite |
 | [!UICONTROL Custom Layout] | Filtern Sie die Suche nach einem benutzerdefinierten Layout. Optionen: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
 | [!UICONTROL Custom Theme] | Filtern Sie die Suche nach einem benutzerdefinierten Design. Standardoptionen: `Magento Blank` / `Magento Luma` |
@@ -199,6 +199,10 @@ Klicken Sie auf _Ansicht_ (![Augensymbol](../assets/icon-view-eye.png)) steuern 
 {{ee-feature}}
 
 Seitenänderungen können planmäßig angewendet und mit anderen Inhaltsänderungen gruppiert werden. Sie können eine Kampagne basierend auf geplanten Änderungen auf einer Seite erstellen oder die Änderungen auf eine bestehende Kampagne anwenden. Weitere Informationen finden Sie unter [Inhaltstaging](content-staging.md).
+
+>[!NOTE]
+>
+>Die [!UICONTROL Custom Design Update] Registerkarte wurde entfernt in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce und können nicht direkt auf der Seite geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
 
 >[!NOTE]
 >

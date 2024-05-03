@@ -3,9 +3,9 @@ title: Inhaltstaging
 description: Das Content Staging bietet Ihrem Business-Team die Möglichkeit, direkt vom Administrator aus eine Vielzahl von Inhaltsaktualisierungen für Ihren Store zu erstellen, in der Vorschau anzuzeigen und zu planen.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ Das Content-Staging bietet Ihrem Business-Team die Möglichkeit, eine Vielzahl v
 Der Begriff _Kampagne_ bezieht sich auf den Datensatz einer geplanten Änderung oder einer Sammlung von Änderungen, die über das Staging-Dashboard verwaltet werden. Die Änderungen können in einem Kalender oder einer Timeline angezeigt werden. Die Begriffe _Geplante Änderung_ und _Geplantes Update_ sind austauschbar und beziehen sich auf eine einzige Änderung.
 
 Wenn Sie eine Inhaltsänderung für einen bestimmten Zeitraum planen, kehrt der Inhalt zur vorherigen Version zurück, wenn die geplante Änderung abläuft. Sie können mehrere Versionen desselben Grundinhalts erstellen, die für zukünftige Aktualisierungen verwendet werden. Sie können auch die Zeitleiste durchlaufen, um frühere Versionen des Inhalts anzuzeigen. Um eine Entwurfsversion zu speichern, weisen Sie einfach ein Datum in der Zeitleiste zu, das so weit in die Zukunft liegt, dass es nie in die Produktion geht.
+
+>[!NOTE]
+>
+>Die Felder für Startdatum und Enddatum wurden aus dem Abschnitt ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce und können nicht direkt auf der Warenkorbpreisregel, Katalogpreisregel, Produkt, Kategorie und CMS-Seite geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
 
 ## Content-Staging-Objekte und -Kampagnen
 

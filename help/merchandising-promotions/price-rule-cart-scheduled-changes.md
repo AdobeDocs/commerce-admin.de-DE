@@ -3,9 +3,9 @@ title: Geplante Änderungen für Warenkorbpreisregeln
 description: Erfahren Sie, wie Sie im Rahmen einer Kampagne Regeln für den Warenkorbpreis anwenden und diese mit anderen Inhaltsänderungen gruppieren können.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 {{ee-feature}}
 
 Preisregeln für Warenkorb können planmäßig im Rahmen einer Kampagne angewendet und mit anderen Inhaltsänderungen gruppiert werden. Sie können eine Kampagne auf der Grundlage geplanter Änderungen an einer Preisregel erstellen oder die Änderungen auf eine bestehende Kampagne anwenden.
+
+>[!NOTE]
+>
+>Die [!UICONTROL From] und [!UICONTROL To] -Felder wurden entfernt in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce und können nicht direkt in der Warenkorbpreisregel geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
 
 ![Preisregeln für Warenkorb - geplante Änderungen](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 
