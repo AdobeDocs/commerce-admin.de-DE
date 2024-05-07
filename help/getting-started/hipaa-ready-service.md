@@ -3,9 +3,9 @@ title: HIPAA-Bereitschaft für Adobe Commerce
 description: Erfahren Sie, wie Sie das Adobe Commerce HIPAA-Ready-Modul hinzufügen und zusätzliche Funktionen erhalten können, mit denen Sie Ihre HIPAA-Verpflichtungen erfüllen können.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: 3364a07b4c79a60ed813bf669a04711b69dae6f9
+source-git-commit: c21c8b76e37e617885bae3492801b45093a6b5a5
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Adobe HIPAA-Ready Services ist technisch ein Composer-Metapaket `magento/hipaa-e
 
 ## Funktionsverbesserungen für HIPAA-Bereitschaft
 
-Die `magento/hipaa-ee` -Paket enthält einige Änderungen und Verbesserungen am Commerce-Basisprodukt. Die folgenden Abschnitte enthalten Details zu diesen Änderungen und wie sie das Basisprodukt ändern.
+Die `magento/hipaa-ee` -Paket enthält einige Änderungen und Verbesserungen am grundlegenden Commerce-Produkt. Die folgenden Abschnitte enthalten Details zu diesen Änderungen und wie sie das Basisprodukt ändern.
 
 ### Aktionsprotokolle
 
@@ -182,7 +182,7 @@ Keiner der für Adobe Commerce angebotenen SaaS-Dienste ist im Rahmen des HIPAA-
 ### Standardmäßig deaktivierter Gastkasse
 
 - Der Gast-Checkout birgt ein potenzielles Risiko für verschiedene Aspekte von HIPAA, darunter Protokollierung, Zugangssteuerung, PHI-Hygiene und -Herkunft sowie möglicherweise mehr.
-- Gastauschecken ist standardmäßig im HIPAA-Readiness-Modul deaktiviert, kann aber für meine Händler auf eigene Gefahr aktiviert werden.
+- Gastauschecken ist standardmäßig im HIPAA-Readiness-Modul deaktiviert, kann aber von Händlern auf eigene Gefahr aktiviert werden.
 
 ### Funktion &quot;Newsletter standardmäßig deaktiviert&quot;
 
@@ -191,3 +191,7 @@ Keiner der für Adobe Commerce angebotenen SaaS-Dienste ist im Rahmen des HIPAA-
 ### Die Einstellung des erweiterten Reporting-Dienstes wurde standardmäßig deaktiviert.
 
 Die Einstellung des erweiterten Berichterstellungsdienstes ist standardmäßig deaktiviert, um zu verhindern, dass PHI für die Analyse und Berichterstellung verwendet wird. Sie kann jedoch vom Händler auf eigene Gefahr aktiviert werden.
+
+### Standardmäßig ist der SendGrid-Dienst deaktiviert
+
+Der SendGrid-Dienst ist standardmäßig deaktiviert, da die Anwendung nicht HIPAA-kompatibel ist. Händler können eine Support-Anfrage zur Aktivierung von Sendgrid einreichen, müssen jedoch einräumen, dass sie das Risiko der Nutzung des Dienstes eingehen.
