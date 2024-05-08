@@ -3,9 +3,9 @@ title: Erstellen einer Preisregel für den Warenkorb
 description: Erfahren Sie, wie Sie eine Preisregel für den Warenkorb auf der Grundlage von Warenkorb oder Produktattributen erstellen.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 4f6847208721514eade48356ec27a021ba4fb612
+source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '3302'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ Sie können eine auf einer Real-Time CDP basierende Bedingung für eine Warenkor
    | `Name` | Name der Zielgruppe, z. B. `Orders over $50` |
    | `Description` | Beschreibung der Zielgruppe, z. B. `People who placed an order over $50 in the last month.`. |
    | `Source` | Gibt an, woher die Zielgruppe stammt, beispielsweise `Experience Platform`. |
-   | `Website` | Gibt an, welche Website Sie mit dem Datastream verknüpft haben, der die Zielgruppen enthält. Sie erstellen diesen Link, wenn Sie Ihre Commerce-Instanz über die Experience Platform mit der [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) -Erweiterung. |
+   | `Website` | Gibt an, welche Website Sie mit dem Datastream verknüpft haben, der die Zielgruppen enthält. Sie erstellen diesen Link, wenn Sie Ihre Commerce-Instanz über die Experience Platform mit dem [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) -Erweiterung. |
 
    {style="table-layout:auto"}
 
@@ -328,7 +328,7 @@ Der Titel wird im Abschnitt &quot;Gesamtsummen&quot;der Bestellung angezeigt, um
 
 1. Testen Sie die Regel, um sicherzustellen, dass sie ordnungsgemäß funktioniert.
 
-   Preisregeln werden jede Nacht automatisch mit anderen Systemregeln verarbeitet. Wenn Sie eine Preisregel erstellen, lassen Sie genügend Zeit, um in das System zu gelangen. Testen Sie auch die Regel, um sicherzustellen, dass sie ordnungsgemäß funktioniert. Da neue Regeln hinzugefügt werden, berechnet der Handel die Preise und Prioritäten entsprechend neu.
+   Preisregeln werden jede Nacht automatisch mit anderen Systemregeln verarbeitet. Wenn Sie eine Preisregel erstellen, lassen Sie genügend Zeit, um in das System zu gelangen. Testen Sie auch die Regel, um sicherzustellen, dass sie ordnungsgemäß funktioniert. Da neue Regeln hinzugefügt werden, berechnet Commerce die Preise und Prioritäten entsprechend neu.
 
 ## Demo zur Warenkorbpreisregel
 
@@ -360,6 +360,31 @@ Sehen Sie sich dieses Video an, um mehr über das Erstellen von Preisregeln für
 ### [!UICONTROL Conditions]
 
 Gibt die Bedingungen an, die erfüllt sein müssen, bevor die Preisregel für den Warenkorb in Kraft tritt. Wenn Sie das Feld leer lassen, gilt die Regel für alle Produkte im Warenkorb. Bedingungen können auf einer beliebigen Kombination von Warenkorb- und Produktattributen basieren. Allerdings [anpassbare Optionen](../catalog/settings-advanced-custom-options.md) kann nicht in den Bedingungen der Preisregel des Warenkorbs referenziert werden.
+
+| Feld | Beschreibung |
+|--- |--- |
+| [!UICONTROL **Warenkorbelement-Attribut**] |  |
+| [!UICONTROL Price in cart] | Produktpreis. Die Regel gilt, wenn der Produktpreis in Warenkorbbedingungen erfüllt ist. |
+| [!UICONTROL Quantity in cart] | Produktmenge. Die Regel gilt, wenn die Produktmenge in Warenkorbbedingungen erfüllt ist. |
+| [!UICONTROL Row total in cart] | Gesamtsumme der Produktzeilen. Die Regel gilt, wenn die Gesamtsumme der Produktzeile in der Warenkorbbedingung erfüllt ist. |
+| [!UICONTROL **Produktattribut**] |  |
+| [!UICONTROL Attribute Set] | Produktattributsatz. Die Regel gilt, wenn das Produkt die Produktattributbedingung erfüllt. |
+| [!UICONTROL Category] | Produktkategorie. Die Regel gilt, wenn entweder das Produkt selbst oder sein untergeordnetes Produkt die Kategoriebedingung erfüllt. |
+| [!UICONTROL Category (Children Only)] | Untergeordnete Produktkategorie. Die Regel gilt, wenn nur die untergeordneten Produktelemente die Kategoriebedingung erfüllen (das Produkt selbst ist hier nicht überprüft). |
+| [!UICONTROL Category (Parent Only)] | Übergeordnete Produktkategorie. Die Regel gilt, wenn nur das Produkt selbst die Kategoriebedingung erfüllt (untergeordnete Produkte werden hier nicht überprüft). |
+| [!UICONTROL **Warenkorbattribut**] |  |
+| [!UICONTROL Subtotal (Excl. Tax)] | Teilsumme Warenkorb (ohne Steuern). Die Regel gilt, wenn der Warenkorb die Bedingung der Zwischensumme (ohne Steuern) erfüllt. |
+| [!UICONTROL Subtotal (Incl. Tax)] | Untersumme Warenkorb (inkl. Steuer). Die Regel gilt, wenn der Warenkorb die Bedingung der Zwischensumme (einschließlich Steuern) erfüllt. |
+| [!UICONTROL Subtotal] | Zwischensumme Warenkorb. Die Regel gilt, wenn der Warenkorb eine Zwischenbedingung erfüllt. Durch die Option wird die Steuer entsprechend den aktuellen Steuereinstellungen ein- oder ausgeschlossen. |
+| [!UICONTROL Total Items Quantity] | Gesamtmenge aller Produkte im Warenkorb. Die Regel gilt, wenn der Warenkorb eine Bedingung für die Gesamtmenge der Artikel erfüllt. |
+| [!UICONTROL Total Weight] | Gesamtgewicht aller Produkte im Warenkorb. Die Regel gilt, wenn der Warenkorb die Gesamtgewichtsbedingung erfüllt. |
+| [!UICONTROL Payment Method] | Zahlungsmethode beim Checkout ausgewählt. Die Regel gilt, wenn die Zahlungsmethode-Bedingung erfüllt ist. |
+| [!UICONTROL Shipping Method] | Versandmethode beim Checkout ausgewählt. Die Regel gilt, wenn die Versandmethodenbedingung erfüllt ist. |
+| [!UICONTROL Shipping Postcode] | Postleitzahl der Versandadresse. Die Regel gilt, wenn die Lieferadresse die Postleitzahl-Bedingung erfüllt. |
+| [!UICONTROL Shipping Region] | Versandadressenbereich. Die Regel gilt, wenn die Lieferadresse die Regionsbedingung erfüllt. |
+| [!UICONTROL Shipping State/Province] | Versandadresse Bundesland/-staat Die Regel gilt, wenn die Lieferadresse die Bundesland-/Bundesbedingung erfüllt. |
+| [!UICONTROL Shipping Country] | Land der Versandadresse. Die Regel gilt, wenn die Lieferadresse den Landesbedingungen entspricht. |
+| [!UICONTROL Customer Segment] | Die Regel gilt, wenn ein registrierter oder Gastkunden die Bedingung für das Kundensegment erfüllt. |
 
 ### [!UICONTROL Actions]
 
