@@ -5,7 +5,7 @@ mini-toc-levels: 1
 exl-id: e25d60d5-5489-46ba-a9bf-2f5b95437dc3
 source-git-commit: f4a79dda02e03f88171142128cc79001d9d323c8
 workflow-type: tm+mt
-source-wordcount: '3326'
+source-wordcount: '3322'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Untersuchungen haben gezeigt, dass [64 % der Käufer](https://techreport.com/sta
 Diese neue Hochleistungs-Storefront wurde bereits von mehreren Adobe Commerce-Händlern erfolgreich implementiert, z. B. [Maidenform](https://business.adobe.com/blog/perspectives/how-hanesbrands-and-adobe-built-one-of-the-fastest-ecommerce-websites-in-the-world), eine Eigenschaft von HanesBrands. Die Ergebnisse sprechen für sich. Maidenform-Seiten liefern Google Lighthouse-Bewertungen von [100- und Core Web Vitals-Ergebnisse](https://treo.sh/sitespeed/www.maidenform.com) weit über dem Branchendurchschnitt.
 
 ![Site-Geschwindigkeitsergebnisse](assets/maidenform-site.png){width=&quot;50%&quot; align=center}
-![Core Web Vitals-Diagramm](assets/maidenform-site-stats.png){zoomable=&quot;yes&quot;}
+![Core Web Vitals-Diagramm](assets/maidenform-site-stats.png){zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
@@ -186,7 +186,7 @@ Das anfängliche Adobe Commerce-Playbook ermöglicht es Kunden, einfach aufzugeb
 
 Adobe fügt außerdem Commerce-spezifische Dashboards in Adobe Experience Platform hinzu, damit Marketer ihre Commerce-Daten analysieren und Personalisierungsmöglichkeiten identifizieren können.
 
-![Diagramm einer abgebrochenen Warenkorbkampagne](assets/use-case-playbook.png){zoomable=&quot;yes&quot;}
+![Diagramm einer abgebrochenen Warenkorbkampagne](assets/use-case-playbook.png){zoomable="yes"}
 
 #### Personalisierung mithilfe von Zielgruppen aus der Echtzeit-Kundendatenplattform von Adobe aktivieren
 

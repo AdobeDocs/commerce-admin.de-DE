@@ -5,7 +5,7 @@ exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
 source-git-commit: fb075822e318073053cdf8cdd5cd9bb3a6343904
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Mit dem [Installation](install.md) und [Aktivierung](enable-basic-features.md) d
 
 Die Unternehmenskomponente ist eine Schlüsselentität innerhalb von B2B, von der alle anderen Funktionen in irgendeiner Weise abhängig sind. Sie ermöglicht die Verbindung mehrerer Käufer, die innerhalb eines Unternehmens ansässig sind, zu einem einzigen Unternehmenskonto (oder Unternehmenskonto). Der Unternehmensadministrator kann eine Unternehmensstruktur (Abteilungen, Unterteilungen und Benutzer) erstellen, die das Betriebsmodell für das Unternehmen widerspiegelt und verschiedene Benutzerrollen und Berechtigungen für Unternehmensmitglieder bereitstellt. Diese Struktur ermöglicht es dem Unternehmensadministrator, die Benutzeraktivität für das Unternehmenskonto zu steuern: Bestellung, Angebote, Einkauf, Zugriff auf Unternehmenskreditinformationen oder -profile usw.
 
-Der Administrator der Commerce-Site kann vom Administrator aus konfigurieren, wie das Unternehmen auf der Website funktioniert. Die Konfiguration bestimmt die B2B-Funktionen, die für Benutzer von Unternehmen verfügbar sind, einschließlich Zahlungsmethoden, Preisniveaus, Möglichkeit, Preise mithilfe von Anführungszeichen zu verhandeln, Möglichkeit, Anforderungslisten zu erstellen, und mehr.
+Der Site-Administrator von Commerce kann vom Administrator konfigurieren, wie das Unternehmen auf der Website funktioniert. Die Konfiguration bestimmt die B2B-Funktionen, die für Benutzer von Unternehmen verfügbar sind, einschließlich Zahlungsmethoden, Preisniveaus, Möglichkeit, Preise mithilfe von Anführungszeichen zu verhandeln, Möglichkeit, Anforderungslisten zu erstellen, und mehr.
 
 Weitere Informationen finden Sie unter [Unternehmenskonten](account-companies.md).
 
@@ -48,7 +48,7 @@ Dienste für Adobe Commerce sind gehostete Dienste, die erweiterte Funktionen f�
 
 ## Freigegebene Kataloge
 
-Gemeinsame Kataloge sind die Preisniveaus, die es ermöglichen, für verschiedene Unternehmen auf einer oder mehreren Websites benutzerdefinierte Preise pro Produkt festzulegen. Mithilfe freigegebener Kataloge können Sie Produkte verkaufen, indem Sie unterschiedliche Preisniveaus für verschiedene Kundengruppen anwenden. Unterstützung für freigegebene Kataloge ist nur für Commerce-Stores verfügbar, die zur Unterstützung von Unternehmenskonten konfiguriert sind.
+Gemeinsame Kataloge sind die Preisniveaus, die es ermöglichen, für verschiedene Unternehmen auf einer oder mehreren Websites benutzerdefinierte Preise pro Produkt festzulegen. Mithilfe freigegebener Kataloge können Sie Produkte verkaufen, indem Sie unterschiedliche Preisniveaus für verschiedene Kundengruppen anwenden. Unterstützung für freigegebene Kataloge ist nur für Commerce Stores verfügbar, die zur Unterstützung von Unternehmenskonten konfiguriert sind.
 
 Weitere Informationen finden Sie unter [Arbeiten mit freigegebenen Katalogen](catalog-shared.md).
 

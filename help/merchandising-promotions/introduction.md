@@ -1,10 +1,10 @@
 ---
 title: Einführung in Commerce-Merchandising und -Promotions
-description: Erfahren Sie mehr über Commerce-Tools zur Erstellung gezielter Promotions und Möglichkeiten zur Kundeninteraktion.
+description: Erfahren Sie mehr über Commerce-Tools für die Erstellung gezielter Promotions und Möglichkeiten zur Kundeninteraktion.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
