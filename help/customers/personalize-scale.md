@@ -1,146 +1,105 @@
 ---
-title: Skalierte Personalisierung
-description: Erfahren Sie, welche Funktionen in Adobe Commerce es Ihnen ermöglichen, ein personalisiertes Erlebnis für Ihre Kunden zu erstellen.
+title: Erstellen ansprechender, personalisierter Erlebnisse im Maßstab
+description: Erfahren Sie, welche Funktionen im Adobe verfügbar sind [!DNL Commerce] ermöglichen es Ihnen, ein personalisiertes Erlebnis für Ihre Kunden zu erstellen.
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 5f40c98324c3033cdeb8a11e89a71497ced890b8
+source-git-commit: 1a63af10d76cb9d17a992e8822e99d50bcdfa84e
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1630'
 ht-degree: 0%
 
 ---
 
-# Skalierte Personalisierung
+# Erstellen ansprechender, personalisierter Erlebnisse im Maßstab
 
-&#x200B; Personalisierung im Maßstab ermöglicht es Unternehmen, das Einkaufserlebnis für jeden Kunden-Touchpoint basierend auf dem unmittelbaren Kontext und dem zuvor beobachteten Verhalten zu personalisieren. Ziel ist es, jedes Mal das relevanteste und personalisierteste Erlebnis zu präsentieren.
+Adobe [!DNL Commerce] bietet Ihnen ein leistungsstarkes Toolkit zur Personalisierung jedes Touchpoints beim Kunden, wodurch die Interaktion, Konversion und der Umsatz der Kunden gesteigert werden.
 
-Laden Sie die [_Erste Schritte mit Personalisierung im Maßstab_](https://business.adobe.com/resources/reports/getting-started-with-personalization-at-scale.html) Bericht.
+In diesem Artikel erfahren Sie:
 
-Zum Erstellen eines personalisierten Einkaufserlebnisses müssen Sie sich über die Datentypen informieren, die zum Verständnis des Kundenkontexts erforderlich sind. Dort erfahren Sie mehr über Adobe Commerce-Funktionen, die diese Daten verwenden, um die Kundeneinblicke zu erhalten, die Sie zum Erstellen eines personalisierten Einkaufserlebnisses benötigen.
+- Was ist Personalisierung?
+- Welche Daten benötige ich für die Personalisierung?
+- Wie funktioniert Adobe? [!DNL Commerce] Personalisierung entsperren?
+- Verfügbare Personalisierungsanwendungsfälle
 
-Die folgende Abbildung zeigt die Konzepte zur Personalisierung des Einkaufserlebnisses:
+## Was ist Personalisierung?
 
-![Erstellen einer Personalisierungspipeline](assets/personalization-journey.png){width="700" zoomable="yes"}
+Personalisierung bedeutet, die Aspekte des Kauferlebnisses jedes Kunden an seine individuellen Bedürfnisse, Umstände und Vorlieben anzupassen. Die Personalisierung beschränkt sich nicht auf Inhalte auf der Site oder empfiehlt passende Produkte, sondern umfasst alle Touchpoints auf der gesamten Journey, einschließlich:
 
-In diesem Artikel werden die oben genannten Konzepte ausführlicher erläutert.
+- **Kampagnen und Kommunikation** - Bereitstellung relevanter und konsistenter Nachrichten über Kampagnen und Kommunikation
+- **Produktsuche** - Anzeige der richtigen Produkte für die richtigen Kunden in den richtigen Augenblicken
+- **Promotions und Angebote** - Targeting von Promotions und Angeboten, um jeden Kunden zur Konversion zu bewegen
+- **Inhaltserlebnisse** - Anpassen von Site-Inhalten, um sich für jeden Kunden und dessen Journey hyper zu fühlen
 
-## Wie personalisieren Sie das Einkaufserlebnis?
+![Personalisierungstypen](assets/types-personalization.png){width="700" zoomable="yes"}
 
-Eine erfolgreiche Personalisierung beginnt mit dem Kundenkontext. In diesem Abschnitt erfahren Sie mehr über die Datentypen, die Ihnen beim Erstellen des Kundenkontexts zur Verfügung stehen.
+Diese Arten personalisierter Erlebnisse können für eine kleine Untergruppe von Kunden zwar erreichbar sein, für Tausende oder Millionen von Kunden über jeden Touchpoint und jeden Kanal personalisiert werden, aber in Echtzeit kann sich dies als unmöglich erweisen. In den folgenden Abschnitten erfahren Sie, wie Adobe [!DNL Commerce] und Adobe Experience Cloud können helfen.
 
-### Store-Daten
+## Welche Daten benötige ich für die Personalisierung?
 
-Storefront-Daten, auch Verhaltensdaten oder Browserdaten genannt, können Einblicke in die Interaktion Ihrer Kunden mit Ihrer Site vermitteln. Beispiel:
+Eine effektive Personalisierung erfordert Kontext oder Signale, die Informationen über Kunden bereitstellen, die dann zur Änderung ihres Erlebnisses verwendet werden können. Die folgende Tabelle enthält die verschiedenen Datentypen und die Rolle, die das Adobe [!DNL Commerce] unterstützt die Erfassung und Aktivierung dieser Daten.
 
-- An welchen Produkten und Kategorien interessieren sich meine Käufer am meisten?
-- Welche Art von Suchabfragen sind meine Käufer am meisten beschäftigt?
-- Füllen meine Käufer Produkte zum Warenkorb und geben ihn dann auf?
-- Verwenden meine Käufer einen Desktop- oder einen mobilen Browser?
+| Datentypen | Storefront-Daten (Verhaltensereignisse) | Back Office Data (Server-Side Events) | Kundenprofil und Segmentdaten |
+|---|---|---|---|
+| **Definition** | Klicks oder Aktionen, die Kunden auf Ihrer Site ausführen. | Informationen zum Lebenszyklus und Details der einzelnen Bestellungen (Vergangenheit und aktuell). | Wer Ihre Käufer sind und für welche Segmente sie sich qualifizieren. |
+| **Von Adobe Commerce erfasste Ereignisse** | [pageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#pageview)<br>[productPageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)<br>[searchRequestSent](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#searchrequestsent)<br>[searchResponseReceived](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#searchresponsereceived)<br>[addToCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#addtocart)<br>[openCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#opencart)<br>[signIn](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#signin)<br>[signOut](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#signout)<br>[startCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#startcheckout)<br>[completeCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#completecheckout)<br>[createRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#createrequisitionlist)<br>[addToRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#addtorequisitionlist)<br>[removeFromRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#removefromrequisitionlist) | **Bestellstatus**:<br>[orderPlaced](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#orderplaced)<br>[orderItemsReturnedInitiated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#orderitemsreturnedinitiated)<br>[orderItemsShipped](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#orderitemsshipped)<br>[orderCancelled](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#ordercancelled)<br>[**Auftragsverlauf**](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/fundamentals/connect-data#send-historical-order-data):<br>- SKU, Name, Preismenge, Rabatt<br>- Produktkategorie<br>- Zahlungsbetrag, Art, Währung<br>- Versandmethode und -betrag<br>- Rückerstattungs-ID, Betrag, Währung<br>- Grund für die Rückgabe, Bedingung, Auflösung<br>- Adresse<br>- E-Mail | [**Profildatensatz**](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-profilerecord): (Name, Geschlecht, Adresse, Treuestatus, Telefonnummer, E-Mail-Adresse)<br>**Kontostatus**:<br>[accountCreated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#accountcreated)<br>[accountUpdated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#accountupdated)<br>[accountDeleted](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice#accountdeleted) |
 
-Die folgenden Storefront-Ereignisse erfassen Daten, die Ihnen bei der Beantwortung dieser Fragen helfen können:
+Mit all diesen reichen Erstanbietern [!DNL Commerce] -Daten verwenden, können Sie das Erlebnis jedes einzelnen Käufers gezielt ansprechen und personalisieren. Im nächsten Abschnitt erfahren Sie, wie Sie [!DNL Commerce] Mit Adobe Experience Cloud können Sie personalisierte Erlebnisse und Anwendungsfälle erstellen, die Sie aktivieren können.
 
-- [pageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [searchRequestSent](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [searchResponseReceived](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [productPageView](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [addToCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [openCart](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [signIn](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [signOut](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [startCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [completeCheckout](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [createRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [addToRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
-- [removeFromRequisitionList](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events)
+## Wie funktioniert Adobe? [!DNL Commerce] Personalisierung optimieren?
 
-### Backoffice-Daten
-
-Back Office-Daten, auch Server-seitige Daten genannt, können Einblicke in den Auftragslebenszyklus liefern. Beispiel:
-
-- Gibt es Produkte, die häufiger je nach Saison gekauft werden?
-- Gibt es bei meinen Käufern Produkte zurück?
-- Wie kann ich den Lebenszeitkundenwert berechnen?
-
-Die folgenden Back-Office-Ereignisse erfassen Daten, die Ihnen bei der Beantwortung dieser Fragen helfen können:
-
-- [orderPlaced](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [orderItemsReturnedInitiated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [orderItemsShipped](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [orderCancelled](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-
-### Kundenprofil und Segmentdaten
-
-Kundenprofildaten können Einblicke in die Identität Ihrer Kunden und die Segmente, für die sie sich qualifizieren, liefern. Beispiel:
-
-- Name
-- Geschlecht
-- Adresse
-- Treuestatus
-- Telefonnummer
-- Email-Adresse
-- Treuestatus
-- Telefonnummer
-- Email-Adresse
-- Berechtigung für Upgrades
-- Cross-Channel-Käufer
-- Perspektiven für neue Produkte
-- Treuemitglieder aus Gold, Silber oder Bronze
-
-Die folgenden Profilereignisse erfassen Daten, die Ihnen bei der Beantwortung dieser Fragen helfen können:
-
-- [Profildatensatz](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-profilerecord)
-- [accountCreated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [accountUpdated](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-- [accountDeleted](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice)
-
-Storefront-, Back-Office- und Profildaten bilden die Grundlage für den Commerce-Kunden- und Auftragskontext, der Ihnen hilft zu wissen, welche Produkte Ihre Kunden anzeigen und schließlich kaufen. Anschließend können Sie ihre Interessen verfolgen und ihre Erlebnisse personalisieren. Im nächsten Abschnitt erfahren Sie, welche Arten personalisierter Erlebnisse Sie mit Ihren Kunden verbinden können.
-
-## Typen von personalisierten Erlebnissen
-
-Die Kontextdaten für Kunden und Bestellungen in Commerce bieten folgende Arten personalisierter Erlebnisse:
-
-| Erlebnis | Beschreibung |
-|---|---|
-| **Produktsuche** | Enthält Merchandising-Dienste, die [bereitgestellt als SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas). Diese Funktionen ermöglichen Ihnen die Verwendung von Verhaltensdaten, Produktattributen und Bestandsebene, um die Produkterkennung über Suchergebnisse, Produktempfehlungen und Durchsuchen-Seiten hinweg automatisch zu personalisieren. Alle Funktionen verwenden [Adobe Sensei AI](https://business.adobe.com/products/sensei/adobe-sensei.html). |
-| **Site-Content** | Bezieht sich auf die Möglichkeit, basierend auf dem aktuellen Kunden, der Ihre Site durchsucht, personalisierte dynamische Inhaltsbausteine bereitzustellen. |
-| **Angebote und Kampagnen** | Ermöglicht die Bereitstellung personalisierter Werbeinhalte basierend auf Segmentdaten. |
-| **Messung** | Verwendet Data Intelligence, um Ihr Geschäft besser zu verstehen, einschließlich Umsatz, Kanal- und Merchandising-Leistung, Promotions usw. |
-
-In den nächsten beiden Abschnitten erfahren Sie, wie Sie diese Daten verwenden können, um personalisierte Erlebnisse in [Adobe Experience Platform](#using-commerce-data-in-adobe-experience-platform) und [Native Commerce-Funktionen](#using-commerce-data-in-native-commerce-features).
-
-## Verwenden von Commerce-Daten in Adobe Experience Platform
-
-Um ein personalisiertes Erlebnis für Ihre Kunden über alle Kanäle hinweg zu erstellen, senden Sie Ihre Commerce-Daten an das Experience Platform-Edge Network mit der [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) -Erweiterung.
+Adobe [!DNL Commerce] Mit der Datenfreigabe können Sie die Datentypen der vorherigen Tabelle erfassen und für andere Adobe Experience Cloud-Produkte freigeben, um einheitliche Kundenprofile und -zielgruppen, personalisierte Kampagnen sowie umfassende Analysen und Einblicke zu ermöglichen.
 
 ![Datenfluss zum Experience Platform-Edge](assets/commerce-edge.png){width="700" zoomable="yes"}
 
-In der obigen Abbildung werden Ihre Storefront-, Back-Office- und Kundenprofildaten mithilfe eines SDK, einer API und eines Quell-Connectors an die Experience Platform Edge gesendet. Sie müssen nicht vollständig verstehen, wie diese Teile funktionieren, da die Erweiterung die Komplexität der Datenweitergabe für Sie handhabt. Wenn sich die Ereignisdaten am Rand befinden, können Sie diese Daten in andere Experience Platform-Anwendungen ziehen.
+Adobe [!DNL Commerce] Die Datenfreigabe umfasst zwei wichtige Komponenten:
 
-In der folgenden Tabelle werden einige der verfügbaren Experience Platform-Anwendungen und die Verwendung Ihrer Commerce-Daten durch diese Anwendungen erläutert.
+1. [Datenverbindung](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview): Freigeben von Storefront-, Back-Office- und Kundenprofildaten von Adobe [!DNL Commerce] zum Adobe Experience Platform Edge-Netzwerk zur Verwendung in Adobe Experience Cloud-Anwendungen, einschließlich:
 
-| Erlebnis | Anwendung | Verwendung von Commerce-Daten |
-|---|---|---|
-| **Site-Content** | [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview) | Adobe Commerce-Daten ermöglichen die Integration von Kundenprofilen, wobei Real-Time CDP Daten aus verschiedenen Quellen (ERP, CRM, CMS, POS) in einzelne Profile zusammenführt. Real-Time CDP kann auch regelbasierte und KI-basierte Segmente erstellen, die dann für alle Marketinglösungssätze verwendet werden. Sie können Real-Time CDP-Zielgruppen auch verwenden, um Inhaltsbausteine, Promotions und zugehörige Produktregeln zu personalisieren. Siehe [[!DNL Audience Activation]](../customers/audience-activation.md) Weitere Informationen &#x200B; |
-|  | [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro) | Adobe Commerce-Daten können in Adobe aktiviert werden [!DNL Target] zum Testen, Optimieren und Erstellen dynamischer Landingpages. Sie können die Reihenfolge personalisieren, in der Inhalte auf einer Seite angezeigt werden, z. B. Beschreibungen, Spezifikationen, Überprüfungen und empfohlene Produkte, die auf den gesendeten Commerce-Daten basieren. |
-| **Angebote und Kampagnen** | [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started) | Verhaltensdaten und Back-Office-Daten von Adobe Commerce können als Trigger für personalisierte kanalübergreifende Journey dienen, darunter E-Mail-Kampagnen, SMS, Push-Benachrichtigungen und mehr. &#x200B; |
-| **Messung** | [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview) und [Kunde [!DNL Journey Analytics]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) | Commerce sendet sowohl Storefront- als auch Back-Office-Daten an den Kunden [!DNL Journey Analytics] (und nur Storefront-Daten an Adobe [!DNL Analytics]), um eine umfassendere Analyse über grundlegende Metriken in Adobe Commerce Intelligence hinaus zu ermöglichen, wie Umsatz, Waren und Promotions. &#x200B; |
+   - [Adobe [!DNL Real-Time CDP]](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/overview): Verknüpfen Sie Kundendaten aus verschiedenen Quellen (ERP, CRM, POS) mit einheitlichen Profilen und erstellen Sie regelbasierte oder AI-basierte Segmente.
+   - [Adobe [!DNL Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started): Starten Sie personalisierte Omni-Channel-Journey, einschließlich E-Mail-Kampagnen, SMS, Push-Benachrichtigungen und mehr.
+   - [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) und [Adobe [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/analyze/admin-overview/analytics-overview): Erhalten Sie Einblicke in den Kunden und das Unternehmen.
+   - [Adobe [!DNL Target]](https://experienceleague.adobe.com/en/docs/target/using/introduction/intro): Testen und optimieren Sie Inhalte, empfohlene Produkte, Angebote, Navigation und mehr.
 
-Weitere Informationen dazu, wie Sie Ihre Commerce-Daten an die Experience Platform senden können, finden Sie unter [Datenverbindung](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview).
+1. [[!DNL Audience Activation]](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation): Verwenden Sie [!DNL Real-Time CDP] Zielgruppen, um dynamische Inhaltsbausteine, Promotions und zugehörige Produktregeln auf Ihrer Adobe zu personalisieren. [!DNL Commerce] Site.
 
-## Verwenden von Commerce-Daten in nativen Commerce-Funktionen
+### Vordefinierte Personalisierung: Erste Schritte mit nativem Adobe [!DNL Commerce] Funktionen
 
-Im folgenden Abschnitt erfahren Sie, wie Sie native Commerce-Funktionen wie Produkt-Recommendations und Live Search verwenden können, um ein personalisiertes Einkaufserlebnis zu erstellen. Außerdem erfahren Sie mehr über eine Funktion mit dem Namen [!DNL Audience Activation], bei dem, wie bereits erwähnt, Daten aus einem in der Experience Platform verfügbaren Produkt namens Real-Time CDP verwendet werden [before](#using-commerce-data-in-adobe-experience-platform). Real-Time CDP ist zwar nicht nativ in Commerce, aber seine Informationen können über die [[!DNL Audience Activation]](../customers/audience-activation.md) -Erweiterung.
+Adobe [!DNL Commerce] bietet leistungsstarke Personalisierung mit nativen nativen Funktionen. Die folgende Tabelle beschreibt Folgendes [!DNL Commerce] Funktionen können Sie sofort aktivieren, um mit der Personalisierung-Journey zu beginnen.
 
-In der folgenden Tabelle werden die verfügbaren Commerce-Funktionen erläutert, mit denen Commerce-Kunden- und Auftragskontextdaten in umsetzbare Einblicke umgewandelt werden können.
+| Kategorie | Funktionen |
+|---|---|
+| Personalisierte Produkterkennung | [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview): Personalisieren und optimieren Sie Suchergebnisse basierend auf den verhaltensbezogenen Aktionen und Affinitäten eines Käufers auf der Site mit KI-gestützter Suche.<br>[Intelligent Category Merchandising](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch): KI-gesteuertes Produktranking auf Kategorieseiten basierend auf den Verhaltensaktionen und Affinitäten eines Käufers vor Ort.<br>[Produkt-Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview): KI-gestützte Produktempfehlungen, die auf dem Verhalten, den Trends und den Affinitäten der Käufer basieren.<br>[Verwandte Produktregeln](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules): Definieren Sie benutzerdefinierte Regeln, um Produkte aus Ihrem Katalog anzuzeigen und so Cross- und Up-Sell zu fördern. |
+| Personalisierte Site-Inhalte | [Dynamische Inhaltsbausteine](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks): Zeigt personalisierte Inhaltsbausteine an, z. B. Banner, die auf Kundensegmenten in Adobe Commerce basieren. |
+| Personalisierte Angebote und Promotions | [Warenkorbpreisregeln](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart): Wenden Sie Rabatte auf Artikel im Warenkorb an, die auf einer Reihe von Bedingungen basieren, einschließlich Kundensegmenten im Adobe. [!DNL Commerce]. |
+| Einblicke und Messung | [Adobe [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started): Erfahren Sie, wie Ihre Personalisierungsstrategien funktionieren und sich im Laufe der Zeit verbessern. |
 
-| Erlebnis | Funktion | Beschreibung |
-|---|---|---|
-| **Produktsuche** | [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) | Verwendet KI-Rangalgorithmen, um Suchergebnisse basierend auf den Verhaltensaktionen eines Käufers vor Ort zu personalisieren und zu optimieren, wodurch die Suchrelevanz und Konversion erhöht werden. |
-|  | [Produkt-Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) | Zeigt KI-gestützte Produktempfehlungen basierend auf dem Kaufverhalten, Trends, der Produktähnlichkeit und mehr an. In Kombination mit Ihrem Adobe Commerce-Katalog bieten Produktempfehlungen ein sehr ansprechendes, relevantes und personalisiertes Erlebnis. |
-|  | [Kategorie-Merchandising](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch) | Kategorievermarktung, auf die über den Live-Suchadministrator zugegriffen wird, verwendet KI, um die Produktsequenz auf jeder Kategorieseite automatisch neu zu ordnen, um die Relevanz und Konversion für jeden Käufer zu steigern. Sie können KI-gestützte Regeln erstellen und verwalten, um die Produktreihenfolge auf Kategorieseiten automatisch entsprechend den Aktionen und Affinitäten des Käufers neu zu ordnen. |
-| **Site-Content** | [Dynamische Bausteine, die von nativen Commerce-Funktionen unterstützt werden](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | Ermöglicht die Bereitstellung personalisierter Site-Inhalte basierend auf der in den Preisregeln und Kundensegmenten konfigurierten Logik. |
-|  | [Von Real-Time CDP-Zielgruppen informierte dynamische Bausteine](../customers/audience-activation.md) | Ermöglicht Händlern die Bereitstellung personalisierter Site-Inhalte basierend auf in Real-Time CDP konfigurierten Zielgruppen. |
-| **Angebote und Kampagnen** | [Preisregeln für Warenkorb](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart) | Ermöglicht Ihnen, Rabatte auf Artikel im Warenkorb auf der Grundlage einer Reihe von Bedingungen anzuwenden. |
-|  | [Dynamische Bausteine, die von nativen Commerce-Funktionen unterstützt werden](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks) | Ermöglicht die Anzeige von personalisierten Banneraktionen basierend auf Kundensegmenten, die nativ in Commerce konfiguriert wurden. |
-|  | [Von Real-Time CDP-Zielgruppen informierte dynamische Bausteine](../customers/audience-activation.md) | Ermöglicht die Anzeige personalisierter Promotions basierend auf in Real-Time CDP konfigurierten Zielgruppen. |
-| **Messung** | [Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) | (Zuvor als Magento Business Intelligence bezeichnet) ist eine Cloud-Plattform, die Best Practice-Einblicke bietet, mit deren Hilfe Sie datengesteuerte Entscheidungen treffen und klare und fundierte Maßnahmen treffen können. Adobe Commerce Intelligence kann Ihre Daten analysieren, um Ihnen bei der Beantwortung von Fragen zum Auftragswachstum, zum Kundenverhalten und zur Effektivität von Werbestrategien zu helfen. |
+## Häufigste Personalisierungs-Anwendungsfälle
+
+Adobe [!DNL Commerce] -Kunden nutzen für eine Vielzahl von Anwendungsfällen vordefinierte Funktionen und teilen Daten an Adobe Experience Cloud. In den folgenden Abschnitten werden die wichtigsten Anwendungsfälle hervorgehoben und beschrieben, wie sie mithilfe von Adobe implementiert werden [!DNL Commerce] Nur oder [!DNL Commerce] und Experience Cloud-Apps.
+
+### Personalisierte Kampagnen und Kommunikation
+
+| Anwendungsfall | Lösung |
+|---|---|
+| **Warenkorb abgebrochen und durchsuchen** - Bereitstellen einer personalisierten E-Mail zur erneuten Interaktion oder Benachrichtigung, wenn ein Kunde seinen Warenkorb oder seine Browser-Sitzung nach der Demonstration einer hohen Interaktion beendet | **Adobe [!DNL Commerce] Nur**:<br>[E-Mail-Erinnerungen](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules)<br>**Adobe [!DNL Commerce] mit Adobe Journey Optimizer**:<br>[!DNL Commerce] data dient als Trigger für eine kanalübergreifende Abbruch-Journey. Personalisieren Sie diese Journey anhand von Kundenattributen, abgebrochenen Artikeln, anderen Kaufverhaltensweisen und früheren Käufen.<br>Commerce mit Adobe Journey Optimizer und Real-Time CDP: Kampagnen für abgebrochene Suche auf der Basis von einheitlichen Kundenprofilen und zentral verwalteten Zielgruppen erstellen, z. B. eine Audience mit hoher Abbruchrate. |
+| **Zentralisierte Zielgruppenerstellung** - Erstellen Sie regelbasierte oder KI-basierte Zielgruppen basierend auf dem Verhalten vor Ort, früheren Käufen, Profilattributen, Kategorieaffinitäten, Treuestatus, Kundenwert und mehr | **Adobe [!DNL Commerce] Nur**:<br>Erfassen Sie Kundenprofilinformationen, wenn [!DNL Commerce] -Kunden Konten erstellen. Regelbasiert erstellen [Kundensegmente](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segments) und Kundengruppen , um Inhalte und Promotions zu personalisieren.<br>**Adobe [!DNL Commerce] mit Adobe Real-Time CDP**:<br> [Einheitliche Profile](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) aus Datenquellen und Kanälen; regelbasierte oder KI-gestützte Zielgruppen. |
+| **Personalisierte E-Mail-/SMS-Angebote basierend auf dem Kaufverhalten** - Senden Sie personalisierte Angebote an Kunden über zielgerichtete E-Mails, die auf früheren Käufen und dem Kaufverhalten basieren, z. B. Senden von Angeboten für Produkte oder Kategorien, mit denen Kunden interagiert haben. | **Adobe [!DNL Commerce] Nur**:<br>Exportieren Sie Daten zur Verwendung mit Lösungen zur Marketing-Automatisierung.<br>**Adobe [!DNL Commerce] mit Adobe Journey Optimizer und Real-Time CDP**:<br>[!DNL Commerce] -Daten dienen als Trigger für E-Mail- oder SMS-Angebote und bieten Signale (Verhaltensweisen von Käufern), auf denen Personalisierungen durchgeführt werden können. Real-Time CDP ist nicht erforderlich, aber im Allgemeinen werden diese Angebote und Kampagnen für Zielgruppen erstellt, die in Real-Time CDP erstellt und verwaltet werden. |
+| **Kompatible Produkte/Marken übergreifend oder hochverkaufen** - Wenn ein Kunde ein Produkt oder eine Marke kauft, das bzw. die kompatibel ist oder eine hohe Affinität zu einem anderen Produkt oder einer anderen Marke anzeigt, senden Sie eine Kampagne (E-Mail/SMS), um die Konvertierung über Querverkäufe zu fördern. | **Adobe [!DNL Commerce] Nur**:<br>Adobe verwenden [!DNL Commerce] [Produkt-Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) , um bestimmte Produkte auf der Site zu empfehlen. Sie können auch [Verwandte Produktregeln](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) andere Erzeugnisse vorzuschlagen.<br>**[!DNL Commerce] mit [!DNL Target]**:<br>Adobe [!DNL Target] verfügt außerdem über eine integrierte Produktempfehlungs-Engine mit leistungsstarken Funktionen wie Kategorieaffinität. Dies kann für Cross- oder Upsell verwendet werden.<br>**[!DNL Commerce] mit Adobe Journey Optimizer**:<br>Verwendung [!DNL Target] oder [!DNL Commerce] , um die zu empfehlenden Produkte zu bestimmen, und dann über Adobe Journey Optimizer bereitstellen. |
+
+### Personalisierte Site-Erlebnisse
+
+| Anwendungsfall | Lösung |
+|---|---|
+| **Personalisierte Site-Inhalte** - Personalisieren von Site-Bannern und anderen Seiteninhalten basierend auf Käuferaktionen wie Produktbrowsing und Kategorieaffinitäten. Stellen Sie Inhalte bereit, die auf den Ergebnissen von A/B-Tests oder Geschäftszielen basieren. | **Adobe [!DNL Commerce] Nur**:<br>Bereitstellen segmentspezifischer [dynamische Inhaltsbausteine](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] mit Real-Time CDP **:<br>Verwendung [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) , um zielgruppenspezifische dynamische Inhaltsbausteine bereitzustellen, die auf Echtzeit-Aktionen und einheitliche Kundenprofildaten reagieren, während Profile und Zielgruppen in Real-Time CDP zentral verwaltet werden.<br>**[!DNL Commerce] mit[!DNL Target]**:<br>Personalisieren Sie alle Teile des Site-Erlebnisses, einschließlich Inhalt, Navigationselemente, ganzseitigen Layouts und mehr mithilfe von Adobe. [!DNL Commerce] Daten in Adobe [!DNL Target]. A/B-Test-Inhalte automatisch auswählen und für jeden Kunden bereitstellen.<br>**[!DNL Commerce] mit AEM Assets **:<br>Speichern Sie alle Ihre Inhalte in Adobe Experience Manager Assets. Nativer Zugriff auf diesen Inhalt über Adobe Commerce. Verwenden Sie GenAI, um Inhaltsvarianten zu erstellen und für verschiedene Segmente oder Zielgruppen zu personalisieren. |
+| **Personalisiertes Onsite-Angebot basierend auf Verhalten** - Personalisieren Sie Promotions auf der Basis von Käuferaktionen, wie z. B. Produktsuche und Kategorieaffinitäten. Stellen Sie das nächste beste Angebot basierend auf den Ergebnissen von A/B-Tests oder Geschäftszielen bereit. | **Adobe [!DNL Commerce] Nur**:<br>Bereitstellung des segmentspezifischen Katalogs und [Warenkorbpreisregeln](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart).<br>**Adobe [!DNL Commerce] mit Real-Time CDP**:<br>Verwendung [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) , um zielgruppenspezifische Angebote bereitzustellen und gleichzeitig Profile/Audiences in Real-Time CDP zentral zu verwalten.<br>**Commerce mit[!DNL Target]**: Verwenden Sie offer decisioning, um zu bestimmen, welches Angebot bereitgestellt werden soll, um A/B-Tests durchzuführen oder Geschäftsziele festzulegen, die als Leitfaden für in Adobe Commerce bereitgestellte Angebote dienen. |
+
+### Analytics und Einblicke
+
+| Anwendungsfall | Lösung |
+|---|---|
+| **Kundenverhalten nach Kanal** - Machen Sie sich mit den Nuancen der Interaktion der Kunden mit den einzelnen Kanälen (Web, persönlich, App usw.) vertraut, um die Marketing-Strategien für die einzelnen Kanäle zu beeinflussen; verstehen Sie den Einkaufstrichter und die Schwächen im Kundenerlebnis. | **Adobe [!DNL Commerce] Nur**:<br>[Adobe [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) bietet umfassende Analysen digitaler [!DNL Commerce] -Kanal, jedoch nicht kanalübergreifend oder in größeren Teilen der Kunden-Journey.<br>**Adobe [!DNL Commerce] mit Customer Journey Analytics**:<br>[!DNL Commerce] Daten-Feeds Daten-Dashboards , um detaillierte Details zu allen Phasen des Kundenerlebnisses (kanalübergreifend) zu erhalten. Machen Sie sich mit jedem Touchpoint und dem breiteren Trichter vertraut, um Schwachstellen in der Journey zu identifizieren, an denen Kunden abstürzen können. |
+| **Kauftrends** - Verstehen Sie das Kaufverhalten über einen bestimmten Zeitrahmen (z. B. Warenkorbanalyse, Produktanalyse), um Trends und Saisonabhängigkeit zu identifizieren und das Marketing basierend auf historischen Kaufmustern zu optimieren. | **Adobe [!DNL Commerce] Nur**:<br>[Adobe [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) bietet umfassende Analysen digitaler [!DNL Commerce] -Kanal, jedoch nicht kanalübergreifend oder in größeren Teilen der Kunden-Journey.<br>**Adobe [!DNL Commerce] mit Customer Journey Analytics**:<br>[!DNL Commerce] Daten-Feeds Daten-Dashboards , um detaillierte Details zu allen Phasen des Kundenerlebnisses (kanalübergreifend) zu erhalten. Machen Sie sich mit jedem Touchpoint und dem breiteren Trichter vertraut, um Schwachstellen in der Journey zu identifizieren, an denen Kunden abstürzen können. |
+
+## Anwendungsbeispiel
+
+Erfahren Sie, wie Sie mit Adobe Journey Optimizer [E-Mail mit stehendem Warenkorb senden](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
