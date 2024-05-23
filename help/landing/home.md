@@ -1,6 +1,6 @@
 ---
 title: Dokumentation zum Adobe Commerce-Händler
-description: Adobe Commerce-Produktdokumentation durchsuchen
+description: Durchsuchen der Adobe Commerce-Produktdokumentation
 seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: Dokumentation zu Händlern
