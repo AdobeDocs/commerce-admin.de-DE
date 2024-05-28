@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine erweiterte Sicherheitsprüfung durchfüh
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 1f3173d17cc43227f7d44637f1ef0b62606cd0fd
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -22,22 +22,24 @@ Mit dem erweiterten Sicherheitsscan können Sie jede Ihrer Adobe Commerce- und M
 - Rufen Sie historische Sicherheitsberichte auf, die den Fortschritt Ihrer Sites verfolgen und überwachen.
 - Rufen Sie den Überprüfungsbericht auf, der erfolgreiche und fehlgeschlagene Prüfungen mit empfohlenen Aktionen anzeigt.
 
-Das Sicherheits-Scan-Tool ist im Dashboard Ihrer [Commerce-Konto](../getting-started/commerce-account-create.md). Technische Informationen finden Sie unter [Einrichten des Sicherheitsscan-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) im _Benutzerhandbuch zu Commerce on Cloud Infrastructure_.
+Das Sicherheits-Scan-Tool ist im Dashboard Ihrer [Commerce/Magento-Konto](../getting-started/commerce-account-create.md). Technische Informationen finden Sie unter [Einrichten des Sicherheitsscan-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) im _Handbuch zu Commerce on Cloud Infrastructure_.
 
 ![Sicherheitsscan-Tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Ausführen einer Sicherheitsprüfung
 
-1. Gehen Sie zur Commerce-Startseite und melden Sie sich bei Ihrem [Commerce-Konto](../getting-started/commerce-account-create.md) und gehen Sie wie folgt vor:
+1. Melden Sie sich auf der Commerce-Startseite bei Ihrem [Commerce/Magento-Konto](../getting-started/commerce-account-create.md).
+
+1. Überprüfen und akzeptieren Sie die Bedingungen für die Verwendung des Sicherheitsscan-Tools.
 
    - Wählen Sie im linken Bereich die Option **[!UICONTROL Security Scan]**.
-   - Klicken **[!UICONTROL Go to Security Scan]**.
+   - Klicks **[!UICONTROL Go to Security Scan]**.
    - Lesen Sie die **[!UICONTROL Terms and Conditions]**.
    - Klicks **[!UICONTROL Agree]** , um fortzufahren.
 
 1. Im _[!UICONTROL Monitored Websites]_Seite, klicken **[!UICONTROL +Add Site]**.
 
-   Wenn Sie mehrere Sites mit unterschiedlichen Domänen haben, müssen Sie für jede Domäne eine separate Prüfung konfigurieren.
+   Wenn Sie mehrere Sites mit unterschiedlichen Domänen haben, konfigurieren Sie für jede Domäne eine separate Prüfung.
 
    ![Überwachte Sites](./assets/monitored-website.png){width="600" zoomable="yes"}
 
@@ -46,7 +48,7 @@ Das Sicherheits-Scan-Tool ist im Dashboard Ihrer [Commerce-Konto](../getting-sta
    **Commerce-Storefront**:
 
    - Geben Sie die **[!UICONTROL Site URL]** und **[!UICONTROL Site Name]**.
-   - Klicken **[!UICONTROL Generate Confirmation Code]**.
+   - Klicks **[!UICONTROL Generate Confirmation Code]**.
    - Klicks **Kopieren** , um Ihren Bestätigungscode in die Zwischenablage zu kopieren.
 
      ![Generate Confirmation Code](./assets/scan-site1.png){width="400" zoomable="yes"}
@@ -102,7 +104,7 @@ Das Sicherheits-Scan-Tool ist im Dashboard Ihrer [Commerce-Konto](../getting-sta
 
         Nachdem der Build-Prozess abgeschlossen ist, werden die Änderungen auf Ihrer PWA Store-Front bereitgestellt.
 
-1. Kehren Sie zu _[!UICONTROL Security Scan]_Seite in Ihrem Commerce-Konto und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**um Ihr Eigentum an der Domain zu begründen.
+1. Kehren Sie zu _[!UICONTROL Security Scan]_in Ihrem Commerce-Konto auf und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**zur Feststellung des Eigentums an der Domain.
 
 1. Konfigurieren Sie nach einer erfolgreichen Bestätigung die **[!UICONTROL Set Automatic Security Scan]** Optionen für einen der folgenden Typen:
 
