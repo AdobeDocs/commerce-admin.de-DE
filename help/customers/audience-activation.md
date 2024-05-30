@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: d1079c8eac20c08a17af1f72bf49b6cb859c0699
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Die [!DNL Audience Activation] ermöglicht Ihnen die Aktivierung von Real-Time CDP-Zielgruppen in Adobe Commerce, um eindeutige Angebote im Warenkorb zu erstellen. Zu diesen Angeboten und Anreizen gehören gängige E-Commerce-Merchandising-Techniken wie _Kauf 2 erhalten 1 gratis_, Hero-Banner, die auf diesen Kunden ausgerichtet sind, und geänderte Produktpreise über verschiedene Angebote. Die in Real-Time CDP erstellten Zielgruppen basieren auf Daten aus verschiedenen Unternehmenssystemen, z. B. Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), Point of Sale und Marketing-Systemen. Da Kundensegmentinformationen ständig aktualisiert werden, können Kunden beim Einkauf in Ihrem Geschäft mit einem Segment verknüpft und von diesem getrennt werden.
 
-Sie können Zielgruppen in einer Luma-Storefront aktivieren oder [Headless](#headless-support) Storefront. In einer Luma-Storefront werden Zielgruppendaten (Segmentmitgliedschaft) in einem Cookie auf der Seite &quot;Commerce&quot;gespeichert. In einer Headless-Storefront werden Zielgruppendaten in der GraphQL-API-Kopfzeile als Parameter mit dem Namen übergeben: `aep-segments-membership`.
+Sie können Zielgruppen in einer Luma-Storefront aktivieren oder [Headless](#headless-support) Storefront. In einer Luma-Storefront werden Zielgruppendaten (Segmentzugehörigkeit) in einem Cookie auf Commerce-Seite gespeichert. In einer Headless-Storefront werden Zielgruppendaten in der GraphQL-API-Kopfzeile als Parameter mit dem Namen übergeben: `aep-segments-membership`.
 
 ## Versionshinweise
 
@@ -144,7 +144,7 @@ composer require magento/audiences
 
 ### Konfigurieren der Erweiterung
 
-Nach der Installation [!DNL Audience Activation] müssen Sie sich bei Ihrem Commerce Admin anmelden und Folgendes ausführen:
+Nach der Installation [!DNL Audience Activation] müssen Sie sich bei Ihrem Commerce-Administrator anmelden und Folgendes ausführen:
 
 1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
 
@@ -154,7 +154,7 @@ Nach der Installation [!DNL Audience Activation] müssen Sie sich bei Ihrem Comm
 
 1. Im **[!UICONTROL Datastream ID]** -Feld die Kennung des von Ihnen erstellten Datastreams ein. [enabled](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce als Ziel in Real-Time CDP.
 
-   Dieser Datastream sendet Daten von Ihrer Commerce-Website an Real-Time CDP, um festzustellen, ob ein Käufer zu einer Zielgruppe gehört. Wenn Sie noch keinen Datastream erstellt haben, [erstellen](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) eine in Experience Platform, [add](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) an das Commerce-Ziel in Real-Time CDP und an die [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) -Erweiterung in Admin.
+   Dieser Datastream sendet Daten von Ihrer Commerce-Website an Real-Time CDP, um festzustellen, ob ein Käufer zu einer Zielgruppe gehört. Wenn Sie noch keinen Datastream erstellt haben, [erstellen](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) eine in Experience Platform, [add](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Sie zum Commerce-Ziel in Real-Time CDP und zum [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) -Erweiterung in Admin.
 
    >[!NOTE]
    >
@@ -173,6 +173,8 @@ Mit dem [!DNL Audience Activation] -Erweiterung aktiviert haben, können Sie:
 - [Erstellen einer Preisregel für den Warenkorb](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) durch Zielgruppen informiert
 - [Dynamischen Baustein erstellen](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) durch Zielgruppen informiert
 - [(**Beta**) Erstellen einer verwandten Produktregel](../merchandising-promotions/product-related-rule-create.md) durch Zielgruppen informiert
+
+Für einen vollständigen durchgängigen Anwendungsfall zum Exportieren [!DNL Commerce] Daten an Real-Time CDP übermitteln, eine Zielgruppe erstellen und diese Zielgruppe dann für [!DNL Commerce], siehe [Erstellen einer Zielgruppe in Real-Time CDP mithilfe von [!DNL Commerce] Ereignisdaten](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Dashboard für Real-Time CDP-Zielgruppen
 

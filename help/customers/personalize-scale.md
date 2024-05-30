@@ -3,9 +3,9 @@ title: Erstellen ansprechender, personalisierter Erlebnisse im Maßstab
 description: Erfahren Sie, welche Funktionen im Adobe verfügbar sind [!DNL Commerce] ermöglichen es Ihnen, ein personalisiertes Erlebnis für Ihre Kunden zu erstellen.
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 1a63af10d76cb9d17a992e8822e99d50bcdfa84e
+source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,7 @@ Adobe [!DNL Commerce] -Kunden nutzen für eine Vielzahl von Anwendungsfällen vo
 | **Kundenverhalten nach Kanal** - Machen Sie sich mit den Nuancen der Interaktion der Kunden mit den einzelnen Kanälen (Web, persönlich, App usw.) vertraut, um die Marketing-Strategien für die einzelnen Kanäle zu beeinflussen; verstehen Sie den Einkaufstrichter und die Schwächen im Kundenerlebnis. | **Adobe [!DNL Commerce] Nur**:<br>[Adobe [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) bietet umfassende Analysen digitaler [!DNL Commerce] -Kanal, jedoch nicht kanalübergreifend oder in größeren Teilen der Kunden-Journey.<br>**Adobe [!DNL Commerce] mit Customer Journey Analytics**:<br>[!DNL Commerce] Daten-Feeds Daten-Dashboards , um detaillierte Details zu allen Phasen des Kundenerlebnisses (kanalübergreifend) zu erhalten. Machen Sie sich mit jedem Touchpoint und dem breiteren Trichter vertraut, um Schwachstellen in der Journey zu identifizieren, an denen Kunden abstürzen können. |
 | **Kauftrends** - Verstehen Sie das Kaufverhalten über einen bestimmten Zeitrahmen (z. B. Warenkorbanalyse, Produktanalyse), um Trends und Saisonabhängigkeit zu identifizieren und das Marketing basierend auf historischen Kaufmustern zu optimieren. | **Adobe [!DNL Commerce] Nur**:<br>[Adobe [!DNL Commerce] Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/getting-started) bietet umfassende Analysen digitaler [!DNL Commerce] -Kanal, jedoch nicht kanalübergreifend oder in größeren Teilen der Kunden-Journey.<br>**Adobe [!DNL Commerce] mit Customer Journey Analytics**:<br>[!DNL Commerce] Daten-Feeds Daten-Dashboards , um detaillierte Details zu allen Phasen des Kundenerlebnisses (kanalübergreifend) zu erhalten. Machen Sie sich mit jedem Touchpoint und dem breiteren Trichter vertraut, um Schwachstellen in der Journey zu identifizieren, an denen Kunden abstürzen können. |
 
-## Anwendungsbeispiel
+## Anwendungsbeispiele
 
-Erfahren Sie, wie Sie mit Adobe Journey Optimizer [E-Mail mit stehendem Warenkorb senden](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- Erfahren Sie, wie Sie mit Adobe Journey Optimizer [E-Mail mit stehendem Warenkorb senden](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/using-ajo).
+- Erfahren Sie, wie [Erstellen einer Zielgruppe in Real-Time CDP](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience) , um eine Preisregel für den Warenkorb in Adobe zu informieren. [!DNL Commerce].
