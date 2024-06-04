@@ -3,9 +3,9 @@ title: Kategoriekosten
 description: Erfahren Sie, wie Sie mit den Stufenpreisen über eine Produktliste oder Produktseite einen Mengenrabatt anbieten können.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Die Preise in der Storefront haben Vorrang von der höchsten bis zur niedrigsten
 
 1. Wenn Ihr Store mehrere Websites hat, wählen Sie die **[!UICONTROL Website]** für die die Tier-Preise gelten.
 
-1. Falls nötig, begrenzen Sie die Verfügbarkeit der Preisklasse durch Auswahl der **[!UICONTROL Customer Group]** oder **[!UICONTROL Shared Catalog]** (![B2B für Adobe Commerce](../assets/b2b.svg) Verfügbar mit [B2B für Adobe Commerce](./b2b/../introduction.md) nur).
+1. Falls nötig, begrenzen Sie die Verfügbarkeit der Preisklasse durch Auswahl der **[!UICONTROL Customer Group]** oder **[!UICONTROL Shared Catalog]** (![Adobe Commerce B2B](../assets/b2b.svg) Verfügbar mit [Adobe Commerce B2B](./b2b/../introduction.md) nur).
 
 1. Für **[!UICONTROL Qty]**, geben Sie die Menge ein, die bestellt werden muss, um den Rabatt zu erhalten.
 

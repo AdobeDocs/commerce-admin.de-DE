@@ -3,9 +3,9 @@ title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] Seite des Commerce-Administrators.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Mit der Installation und Aktivierung von B2B für Adobe Commerce kann das Kauferlebnis mit unternehmensspezifischen Funktionen personalisiert werden. B2B für Adobe Commerce ist eine integrierte Lösung, die sowohl B2B- als auch B2C-Modelle unterstützt. Weitere Informationen zu den B2B-Funktionen finden Sie im [B2B für Adobe Commerce-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>Mit der Installation und Aktivierung von Adobe Commerce B2B kann das Kauferlebnis mit unternehmensspezifischen Funktionen personalisiert werden. Adobe Commerce B2B ist eine integrierte Lösung, die sowohl B2B- als auch B2C-Modelle unterstützt. Weitere Informationen zu den B2B-Funktionen finden Sie im [Adobe Commerce B2B-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
 >Der Zugriff auf diese Konfigurationsoptionen für B2B-Funktionen wird von der [Rollenressourcen](../../systems/permissions-user-roles.md#role-resources). Diese Rollenressourcen müssen für die Benutzerrolle festgelegt werden, die dem Admin-Benutzer zugewiesen ist.
 
-Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [Grundlegende B2B-Funktionen aktivieren](../../b2b/enable-basic-features.md) im _B2B für Adobe Commerce-Benutzerhandbuch_.
+Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [Grundlegende B2B-Funktionen aktivieren](../../b2b/enable-basic-features.md) im _Adobe Commerce B2B-Benutzerhandbuch_.
 
 ## [!UICONTROL General]
 

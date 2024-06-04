@@ -3,9 +3,9 @@ title: Bestellung nach SKU
 description: Erfahren Sie, wie Sie Ihren Store so konfigurieren, dass die Bestellung durch SKU unterstützt wird, um Ihre Kunden zu unterstützen.
 exl-id: cb39554f-ab76-46d5-8217-e43bc8f9f88d
 feature: Orders, Storefront, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ _Bestellung nach SKU_ ist [Widget](../content-design/widgets.md) , die im Gesch�
 
    ![Reihenfolge nach SKU-Einstellungen](../configuration-reference/sales/assets/sales-order-by-sku-settings.png){width="600" zoomable="yes"}
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
-![B2B für Adobe Commerce](../assets/b2b.svg) (Nur B2B für Adobe Commerce) _**Um die Funktion &quot;Bestellung nach SKU&quot;zu aktivieren, deaktivieren Sie die Funktion &quot;Quick Order&quot;:**_
+![Adobe Commerce B2B](../assets/b2b.svg) (Nur Adobe Commerce B2B) _**Um die Funktion &quot;Bestellung nach SKU&quot;zu aktivieren, deaktivieren Sie die Funktion &quot;Quick Order&quot;:**_
 
 1. Navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

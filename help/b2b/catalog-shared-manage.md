@@ -3,9 +3,9 @@ title: Verwalten freigegebener Kataloge
 description: Erfahren Sie mehr über die Informationen und Tools, die auf der Seite Freigegebene Kataloge verfügbar sind.
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Die Detailinformationen eines freigegebenen Katalogs können einfach über die S
 | Feld | Beschreibung |
 |--- |--- |
 | [!UICONTROL Name] | Identifiziert den freigegebenen Katalog im gesamten Admin und in den Kundenkonten, in denen er verfügbar ist. Der Katalogname sollte beschreibend sein und nicht länger als 32 Zeichen sein. Sie können nicht zwei freigegebene Kataloge mit demselben Namen haben. Maximale Zeichen: 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifiziert einen Katalog mit benutzerdefinierten Preisen, die nur für die spezifischen Unternehmen verfügbar sind, denen er zugewiesen ist.<br/>**[!UICONTROL Public]**- Identifiziert den freigegebenen Katalog, der für alle Gastbesucher und angemeldete Kunden verfügbar ist, die nicht mit einem Unternehmen verbunden sind. Ein &quot;standardmäßiger&quot;freigegebener Katalog wird erstellt, wenn B2B für Adobe Commerce installiert ist, muss jedoch vom Administrator konfiguriert werden. Es kann jeweils nur ein öffentlicher freigegebener Katalog vorhanden sein. |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifiziert einen Katalog mit benutzerdefinierten Preisen, die nur für die spezifischen Unternehmen verfügbar sind, denen er zugewiesen ist.<br/>**[!UICONTROL Public]**- Identifiziert den freigegebenen Katalog, der für alle Gastbesucher und angemeldete Kunden verfügbar ist, die nicht mit einem Unternehmen verbunden sind. Ein &quot;standardmäßiger&quot;freigegebener Katalog wird erstellt, wenn Adobe Commerce B2B installiert ist, muss jedoch vom Administrator konfiguriert werden. Es kann jeweils nur ein öffentlicher freigegebener Katalog vorhanden sein. |
 | [!UICONTROL Customer Tax Class] | Bestimmt die Steuerklasse, die für Käufe verwendet wird, die aus dem Katalog getätigt werden. Die Optionen umfassen alle verfügbaren Steuerklassen. |
 | [!UICONTROL Description] | Kurze Erläuterung der Verwendung des Katalogs. |
 

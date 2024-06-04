@@ -3,9 +3,9 @@ title: Preissegment
 description: Erfahren Sie mehr über den Umfang, der für Produktpreise verwendet wird und der so konfiguriert werden kann, dass er auf globaler oder Website-Ebene angewendet werden kann.
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Der Anwendungsbereich der [Basiswährung](../stores-purchase/currency-configurat
 
 Verschiedene Faktoren können sich auf den Preis desselben Produkts an einem Ort und nicht an einem anderen auswirken. Beispielsweise können zusätzliche Vertriebskosten für das Produkt und andere Aspekte vorliegen, die sich auf den Preis von Produkten auswirken, die in einem bestimmten Geschäft verkauft werden. Das folgende Diagramm zeigt eine Multisite-Installation, bei der die Basiswährung auf Website-Ebene eingestellt ist. Die Stores und Store-Ansichten, die mit jeder Website verknüpft sind, spiegeln die Produktpreise wider, die auf der Website-Ebene festgelegt werden.
 
-![B2B für Adobe Commerce](../assets/b2b.svg) Wenn Sie freigegebene Kataloge verwenden, lesen Sie auch den Abschnitt [Festlegen der gemeinsamen Preise und Struktur von Katalogen](../b2b/catalog-shared-pricing-structure.md) im _B2B für Adobe Commerce-Handbuch_.
+![Adobe Commerce B2B](../assets/b2b.svg) Wenn Sie freigegebene Kataloge verwenden, lesen Sie auch den Abschnitt [Festlegen der gemeinsamen Preise und Struktur von Katalogen](../b2b/catalog-shared-pricing-structure.md) im _Adobe Commerce B2B-Anleitung_.
 
 ![Preisdiagramm](./assets/catalog-price-scope.svg){width="550"}
 
@@ -39,7 +39,7 @@ Verschiedene Faktoren können sich auf den Preis desselben Produkts an einem Ort
 
 ## Verwendungsbereich zur Einrichtung der Produktpreise
 
-In Commerce ist es nicht möglich, für jeden Store einen Produktpreis festzulegen. Sie können jedoch den Preis pro Website ändern:
+Commerce lässt die Festlegung eines Produktpreises für jeden Store nicht zu. Sie können jedoch den Preis pro Website ändern:
 
 1. Im _Admin_ Menü, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

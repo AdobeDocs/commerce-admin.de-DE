@@ -3,9 +3,9 @@ title: Erweiterte Storefront-Erlebnisse
 description: Erfahren Sie mehr über die vielen Tools, mit denen Sie die Interaktion, Treue und Treue Ihrer Kunden maximieren können.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: ecc1ae5a741cab915369eac619905728d1c61061
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Adobe Commerce und Magento Open Source bieten eine Reihe von Tools, die Ihnen da
 
 - **Automatisierte Geschäftsregeln** - Einrichten [automatisierte Geschäftsregeln](../merchandising-promotions/price-rules-cart.md) , die Produktbeziehungen definieren und Preisregeln verwenden, die Trigger auf der Grundlage verschiedener Bedingungen Rabatte gewähren.
 
-- **Integriertes B2B und B2C** - mit [B2B für Adobe Commerce](../b2b/introduction.md), können Sie sowohl B2C- als auch B2B-Kunden bedienen. Über ein benutzerfreundliches Kundenportal können B2B-Kunden mehrere Stufen von Käufern mit bestimmten Rollen und Berechtigungen einrichten, Anführungszeichen und Bestellungen verfolgen, Regeln zur Bestellvalidierung definieren und ihre Gutschrift online verwalten.
+- **Integriertes B2B und B2C** - mit [Adobe Commerce B2B](../b2b/introduction.md), können Sie sowohl B2C- als auch B2B-Kunden bedienen. Über ein benutzerfreundliches Kundenportal können B2B-Kunden mehrere Stufen von Käufern mit bestimmten Rollen und Berechtigungen einrichten, Anführungszeichen und Bestellungen verfolgen, Regeln zur Bestellvalidierung definieren und ihre Gutschrift online verwalten.
 
 ## Kaufzeitpunkt
 

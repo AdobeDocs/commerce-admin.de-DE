@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über das Erstellen freigegebener Kataloge und da
 exl-id: 969c352c-ff88-4902-8347-334ee8b79afb
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Wenn Sie über eine Multisite-Installation verfügen, konfigurieren Sie den Prei
 
    ![Katalogpreisumfang](../configuration-reference/catalog/assets/catalog-price.png){width="600" zoomable="yes"}
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
 ## Schritt 1: Freigegebenen Katalog erstellen
 
@@ -131,7 +131,7 @@ Sehen Sie sich dieses Video an, um eine Demonstration der gemeinsamen Katalogver
 | Feld | Beschreibung |
 |--- |--- |
 | [!UICONTROL Name] | Identifiziert den freigegebenen Katalog im gesamten Admin und in den Kundenkonten, in denen er verfügbar ist. Der Katalogname sollte beschreibend sein und nicht länger als 32 Zeichen sein. Sie können nicht zwei freigegebene Kataloge mit demselben Namen haben. Maximale Zeichen: 32 |
-| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifiziert einen Katalog mit benutzerdefinierten Preisen, die nur für die spezifischen Unternehmen verfügbar sind, denen er zugewiesen ist.<br/>**[!UICONTROL Public]**- Identifiziert den freigegebenen Katalog, der für alle Gastbesucher und angemeldete Kunden verfügbar ist, die nicht mit einem Unternehmen verbunden sind. Ein standardmäßiger öffentlicher freigegebener Katalog wird erstellt, wenn [!DNL B2B for Adobe Commerce] installiert ist, aber von einem Store-Administrator konfiguriert werden muss. Es kann jeweils nur ein öffentlicher freigegebener Katalog vorhanden sein. |
+| [!UICONTROL Type] | **[!UICONTROL Custom]** - Identifiziert einen Katalog mit benutzerdefinierten Preisen, die nur für die spezifischen Unternehmen verfügbar sind, denen er zugewiesen ist.<br/>**[!UICONTROL Public]**- Identifiziert den freigegebenen Katalog, der für alle Gastbesucher und angemeldete Kunden verfügbar ist, die nicht mit einem Unternehmen verbunden sind. Ein standardmäßiger öffentlicher freigegebener Katalog wird erstellt, wenn [!DNL Adobe Commerce B2B] installiert ist, aber von einem Store-Administrator konfiguriert werden muss. Es kann jeweils nur ein öffentlicher freigegebener Katalog vorhanden sein. |
 | [!UICONTROL Customer Tax Class] | Bestimmt die Steuerklasse, die für Käufe verwendet wird, die aus dem Katalog getätigt werden. Die Optionen umfassen alle verfügbaren Steuerklassen. |
 | [!UICONTROL Description] | Kurze Erläuterung der Verwendung des Katalogs. |
 

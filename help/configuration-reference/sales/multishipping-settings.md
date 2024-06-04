@@ -3,10 +3,10 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Sales] &gt; [!UICONTROL Multishipping Settings] Seite des Commerce-Administrators.
 exl-id: 4cacac8c-33af-4275-b1dd-9802d38ec3c8
 feature: Configuration, Shipping/Delivery
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 0%
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 
@@ -31,4 +31,4 @@ Detaillierte Informationen zum Konfigurieren dieser Multishipping-Einstellungen 
 
 >[!NOTE]
 >
->![B2B für Adobe Commerce](../../assets/b2b.svg) (Nur bei B2B für Adobe Commerce verfügbar) Bei Bestellungen mit mehreren Versandadressen muss die Variable [Kontozahlung](../../b2b/enable-basic-features.md#configure-payment-on-account) Die Zahlungsmethode ist, selbst wenn sie aktiviert ist, während des Checkouts nicht verfügbar.
+>![Adobe Commerce B2B](../../assets/b2b.svg) (Nur bei Adobe Commerce B2B erhältlich) Bei Bestellungen mit mehreren Versandadressen muss die Variable [Kontozahlung](../../b2b/enable-basic-features.md#configure-payment-on-account) Die Zahlungsmethode ist, selbst wenn sie aktiviert ist, während des Checkouts nicht verfügbar.

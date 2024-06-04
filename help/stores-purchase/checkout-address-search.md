@@ -3,9 +3,9 @@ title: Adressensuche beim Checkout
 description: Erfahren Sie, wie Sie die Adresssuche beim Checkout in Ihren Store einbeziehen.
 exl-id: 8153c456-0848-4bb4-8deb-8219323344ed
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Wenn der Kunde keine standardmäßige Lieferadresse hat, wird die _Versand_ Seit
 
 ## Gesperrte Adresssuche nach Anführungszeichen
 
-![B2B für Adobe Commerce](../assets/b2b.svg) (Nur mit B2B für Adobe Commerce verfügbar)
+![Adobe Commerce B2B](../assets/b2b.svg) (Nur bei Adobe Commerce B2B verfügbar)
 
 Die Aktivierung der Adressensuche wirkt sich auch auf den Checkout für Bestellungen aus, die aus Anführungszeichen erstellt werden, bei denen die Anzahl der gespeicherten Adressen des Kunden das konfigurierte Limit erreicht oder überschreitet. Wenn das Angebot abgeschlossen ist und der Kunde zum Checkout übergeht, wird nur die ausgewählte Lieferadresse angezeigt. Auf der Seite wird auch eine Meldung angezeigt, dass die Versandadresse gesperrt ist und nur im Angebot geändert werden kann.
 
@@ -56,4 +56,4 @@ Die Aktivierung der Adressensuche wirkt sich auch auf den Checkout für Bestellu
 
    Wenn die Anzahl der gespeicherten Adressen des Kunden diese Grenze erreicht oder überschreitet, zeigt die Seite entweder die Standardadresse an (wenn der Kunde eine hat) oder _Keine Adresse ausgewählt_ mit dem _Adresse ändern_ -Option. Die Standardbeschränkung beträgt `10`.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.

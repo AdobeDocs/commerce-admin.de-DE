@@ -3,9 +3,9 @@ title: Zahlungsübersicht
 description: Erfahren Sie mehr über die Zahlungsmethoden und -dienste, die nativ in Adobe Commerce und Magento Open Source unterstützt werden.
 exl-id: 474bf6df-96e2-4db3-ad3c-1804b5de33b0
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Commerce und Magento Open Source umfassen mehrere integrierte Offline-Zahl
 - [Banküberweisungszahlung](bank-transfer.md)
 - [Überprüfen/Monatsbestellung](check-money-order.md)
 - [Bestellung](purchase-order.md)
-- [Kontozahlung](../b2b/enable-basic-features.md#configure-payment-on-account) ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit B2B für Adobe Commerce)
+- [Kontozahlung](../b2b/enable-basic-features.md#configure-payment-on-account) ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Commerce B2B)
 
 ## Online-Zahlungsmethoden
 
@@ -78,7 +78,7 @@ Betrügerische Schutzdienste und Filter prüfen eingereichte Bestellungen, bevor
 
 >[!NOTE]
 >
->Um Updates für die Sicherheitskonformität zu unterstützen, wird ab Version 2.4.0 der Schutz vor schweren Betrugsfällen aus Commerce entfernt. Wenn Sie die Signifyd-Integration in einer Version 2.3.x oder einer früheren Version verwendet haben, wird empfohlen, zum [Signifikante Fraud &amp; Chargeback Protection-Erweiterung](https://marketplace.magento.com/signifyd-module-connect.html){:target=&quot;_blank&quot;}. Stellen Sie sicher, dass Sie Aktualisierungen für die Erweiterung gemäß den Richtlinien des Anbieters verwalten.
+>Um Updates für die Sicherheitskonformität zu unterstützen, wird ab Version 2.4.0 der Signifikante Betrugsschutz aus Commerce entfernt. Wenn Sie die Signifyd-Integration in einer Version 2.3.x oder einer früheren Version verwendet haben, wird empfohlen, zum [Signifikante Fraud &amp; Chargeback Protection-Erweiterung](https://marketplace.magento.com/signifyd-module-connect.html){:target=&quot;_blank&quot;}. Stellen Sie sicher, dass Sie Aktualisierungen für die Erweiterung gemäß den Richtlinien des Anbieters verwalten.
 
 ## Fehlerbehebung bei Ressourcen
 

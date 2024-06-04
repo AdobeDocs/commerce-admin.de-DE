@@ -1,20 +1,20 @@
 ---
-title: Installieren Sie die [!DNL B2B for Adobe Commerce] Erweiterung
-description: Erfahren Sie, wie Sie die [!DNL B2B for Adobe Commerce] Metapaket.
+title: Installieren Sie die [!DNL Adobe Commerce B2B] Erweiterung
+description: Erfahren Sie, wie Sie die [!DNL Adobe Commerce B2B] Metapaket.
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: e57aa4e8919c2de5341c4b8363197d6380bbb0f6
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
 
-# Installieren Sie die [!DNL B2B for Adobe Commerce] Erweiterung
+# Installieren Sie die [!DNL Adobe Commerce B2B] Erweiterung
 
-Die B2B für Adobe Commerce-Erweiterung ist nur für Adobe Commerce v2.2.0 oder höher verfügbar. Es wird nach der Installation von Adobe Commerce installiert.
+Die Adobe Commerce B2B-Erweiterung ist nur für Adobe Commerce v2.2.0 oder höher verfügbar. Es wird nach der Installation von Adobe Commerce installiert.
 
 Installieren Sie die neueste Version der B2B-Erweiterung, die von der bereitgestellten Adobe Commerce-Version unterstützt wird.
 
@@ -81,7 +81,7 @@ Konfigurieren und starten Sie nach Abschluss der Installation die Nachricht, ein
 
 ## Verbraucher informieren
 
-Die Erweiterung B2B for Adobe Commerce verwendet MySQL für die Verwaltung von Nachrichtenwarteschlangen. In der folgenden Tabelle sind die Nachrichtenkunden aufgeführt, die B2B-Funktionen unterstützen. Nachdem Sie die Erweiterung installiert haben, starten Sie die Nachricht für die B2B-Funktionen, die für Ihre Commerce-Storefront erforderlich sind.
+Die Adobe Commerce B2B-Erweiterung verwendet MySQL für die Verwaltung von Nachrichtenwarteschlangen. In der folgenden Tabelle sind die Nachrichtenkunden aufgeführt, die B2B-Funktionen unterstützen. Nachdem Sie die Erweiterung installiert haben, starten Sie die Nachricht für die B2B-Funktionen, die für Ihre Commerce-Storefront erforderlich sind.
 
 | Verbraucher | Beschreibung |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -154,4 +154,4 @@ Sie können Zeitpläne für Nachrichtenverbraucher auch über die [Konfiguration
 
 ## B2B-Funktionen in Admin aktivieren
 
-Nach der Installation der B2B-Erweiterung für Adobe Commerce und dem Starten von Nachrichtenkonsumenten müssen Sie auch [B2B-Funktionen in Admin aktivieren](enable-basic-features.md).
+Nach der Installation der Adobe Commerce-B2B-Erweiterung und dem Starten von Nachrichtenempfängern müssen Sie außerdem [B2B-Funktionen in Admin aktivieren](enable-basic-features.md).

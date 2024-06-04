@@ -3,9 +3,9 @@ title: Erweiterte Preise
 description: Erfahren Sie mehr über die erweiterten Preiskontrollen in Adobe Commerce.
 exl-id: 0f353341-1b6b-4093-bba9-4a1b88323f8a
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Die _[!UICONTROL Advanced Pricing]_-Einstellungen definieren die Bedingungen fü
 
 Erweiterte Preisdaten werden mit Produktseiten synchronisiert. Wenn Sie beispielsweise eine Tier-Preismenge aktualisieren, aktualisiert das System den Wert auf der Produktseite.
 
-![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit [B2B für Adobe Commerce](./b2b/../introduction.md) Nur) Wenn Sie freigegebene Kataloge verwenden, werden erweiterte Preisdaten sowohl mit Produktseiten als auch mit freigegebenen Katalogen synchronisiert. Wenn Sie beispielsweise eine Tier-Preismenge aktualisieren, aktualisiert das System den Wert im freigegebenen Katalog und auf der Produktseite. Alle benutzerdefinierten Preise, die im freigegebenen Katalog angegeben sind, haben Vorrang vor den Preisen für Kundengruppen. Siehe auch [Festlegen der gemeinsamen Preise und Struktur von Katalogen](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) im _B2B für Adobe Commerce-Handbuch_.
+![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit [Adobe Commerce B2B](./b2b/../introduction.md) Nur) Wenn Sie freigegebene Kataloge verwenden, werden erweiterte Preisdaten sowohl mit Produktseiten als auch mit freigegebenen Katalogen synchronisiert. Wenn Sie beispielsweise eine Tier-Preismenge aktualisieren, aktualisiert das System den Wert im freigegebenen Katalog und auf der Produktseite. Alle benutzerdefinierten Preise, die im freigegebenen Katalog angegeben sind, haben Vorrang vor den Preisen für Kundengruppen. Siehe auch [Festlegen der gemeinsamen Preise und Struktur von Katalogen](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) im _Adobe Commerce B2B-Anleitung_.
 
 ![Erweiterte Preise](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

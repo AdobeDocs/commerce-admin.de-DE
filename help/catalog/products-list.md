@@ -3,9 +3,9 @@ title: Liste der Produkte
 description: Erfahren Sie mehr über das _[!UICONTROL Products]_ Seite in Admin, auf der Sie Produkte erstellen und vorhandene bearbeiten können.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Alle Produkte im Katalog sind über den _[!UICONTROL Products]_in der Admin-Seite, auf der Sie Produkte erstellen und vorhandene bearbeiten können. Für eine Installation auf mehreren Sites kann jede Website eine andere Auswahl von Produkten zum Verkauf aus demselben Katalog anbieten.
 
-Die _[!UICONTROL Products]_enthält alle Produkte im Katalog, zeigt die Websites an, auf denen sie verfügbar sind, und ob sie derzeit zum Verkauf angeboten werden. B2B für Adobe Commerce-Installationen mit [freigegebene Kataloge](../b2b/catalog-shared.md) aktiviert ist, enthält das Raster eine Spalte, die anzeigt, welche Produkte in einem freigegebenen Katalog alternative Rabattpreise haben.
+Die _[!UICONTROL Products]_enthält alle Produkte im Katalog, zeigt die Websites an, auf denen sie verfügbar sind, und ob sie derzeit zum Verkauf angeboten werden. Bei Adobe Commerce-B2B-Installationen mit [freigegebene Kataloge](../b2b/catalog-shared.md) aktiviert ist, enthält das Raster eine Spalte, die anzeigt, welche Produkte in einem freigegebenen Katalog alternative Rabattpreise haben.
 
 Sie können die Listenseite nach Seite durchsuchen oder nach bestimmten Produkten suchen. Verwenden Sie den Standard [Steuerelemente](../getting-started/admin-grid-controls.md) , um die Liste zu sortieren und zu filtern, und anwenden [Aktionen](../getting-started/admin-actions-control.md) ausgewählten Produkten.
 
@@ -84,7 +84,7 @@ Diese Konfigurationseinstellung für die Anzeigebegrenzung für das Produkt ist 
 | [!UICONTROL Status] | Gibt den Status des Produkts an. Optionen: `Enabled` und `Disabled` |
 | [!UICONTROL Websites] | Gibt die Websites an, auf denen das Produkt verfügbar ist. |
 | [!UICONTROL Action] | Öffnet das Produkt im Bearbeitungsmodus. |
-| [!UICONTROL Shared Catalog] | ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit [B2B für Adobe Commerce](./b2b/../introduction.md) nur) Gibt die freigegebenen Kataloge an, die benutzerdefinierte Preise für das Produkt enthalten. |
+| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit [Adobe Commerce B2B](./b2b/../introduction.md) nur) Gibt die freigegebenen Kataloge an, die benutzerdefinierte Preise für das Produkt enthalten. |
 
 {style="table-layout:auto"}
 

@@ -4,9 +4,9 @@ description: Umfassende Informationen zu Produktkatalogfunktionen für Adobe Com
 seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
-source-git-commit: 45a13c41bdb8a08b6b99790b6a47792219ed0bcd
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Dieses Handbuch behandelt:
 
 >[!TIP]
 >
->B2B für Adobe Commerce bietet Ihnen die Möglichkeit, gespeicherte freigegebene Kataloge mit benutzerdefinierten Preisen für verschiedene Unternehmen zu verwalten. Zusätzlich zum standardmäßigen, primären Produktkatalog bietet es Kunden Zugriff auf zwei Arten freigegebener Kataloge mit unterschiedlichen Preisstrukturen. Weitere Informationen zur Funktion des freigegebenen Katalogs finden Sie unter [B2B für Adobe Commerce-Benutzerhandbuch](../b2b/catalog-shared.md).
+>Adobe Commerce B2B bietet Ihnen die Möglichkeit, geordnete freigegebene Kataloge mit benutzerdefinierten Preisen für verschiedene Unternehmen zu verwalten. Zusätzlich zum standardmäßigen, primären Produktkatalog bietet es Kunden Zugriff auf zwei Arten freigegebener Kataloge mit unterschiedlichen Preisstrukturen. Weitere Informationen zur Funktion des freigegebenen Katalogs finden Sie unter [Adobe Commerce B2B-Benutzerhandbuch](../b2b/catalog-shared.md).
 
 ## Verfügbare Dokumentation
 

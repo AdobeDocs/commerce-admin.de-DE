@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL B2B for Adobe Commerce] Versionshinweise'
-description: Informationen zu Änderungen in [!DNL B2B for Adobe Commerce] Erweiterungsversionen.
+title: '''[!DNL Adobe Commerce B2B] Versionshinweise'
+description: Informationen zu Änderungen in [!DNL Adobe Commerce B2B] veröffentlicht.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 1123cf4b257a83a61914c378104c43e952512e7d
+source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
 workflow-type: tm+mt
-source-wordcount: '6937'
+source-wordcount: '6851'
 ht-degree: 0%
 
 ---
 
-# [!DNL B2B for Adobe Commerce] Versionshinweise
+# [!DNL Adobe Commerce B2B] Versionshinweise
 
 Diese Versionshinweise für die B2B-Erweiterung erfassen Ergänzungen und Fehlerbehebungen, die Adobe während eines Versionszyklus hinzugefügt hat, einschließlich:
 
@@ -114,7 +114,7 @@ Diese Version enthält neue Funktionen und Verbesserungen für verhandelbare Anf
 
 ![Problem behoben](../assets/fix.svg) <!--ACP2E-1429--> In den Speicherkonfigurationseinstellungen für B2B-Funktionen muss die Variable **[!UICONTROL Enable Shared Catalog direct products price assigning]** -Feld ist jetzt automatisch deaktiviert. Auf der Storefront wird sie ausgeblendet, wenn die **[!UICONTROL Enable Company]** Einstellung oder **[!UICONTROL Enable Shared Catalog]** festgelegt ist auf **[!UICONTROL No]**.
 
-![Problem behoben](../assets/fix.svg) <!--ACP2E-1683--> Beim Erstellen eines Unternehmenskontos über das Storefront validiert Commerce jetzt die E-Mail-Adresse, bevor die Firmenregistrierung verarbeitet wird. Wenn die E-Mail-Adresse ungültig ist, schlägt der Vorgang fehl und es werden keine Kontoaktualisierungen verarbeitet. Zuvor wurde ein Kundenkonto erstellt, selbst wenn die Anfrage zur Erstellung eines Unternehmenskontos aufgrund einer ungültigen E-Mail-Adresse fehlschlug.
+![Problem behoben](../assets/fix.svg) <!--ACP2E-1683--> Beim Erstellen eines Unternehmenskontos aus dem Storefront validiert Commerce jetzt die E-Mail-Adresse, bevor die Registrierung des Unternehmens verarbeitet wird. Wenn die E-Mail-Adresse ungültig ist, schlägt der Vorgang fehl und es werden keine Kontoaktualisierungen verarbeitet. Zuvor wurde ein Kundenkonto erstellt, selbst wenn die Anfrage zur Erstellung eines Unternehmenskontos aufgrund einer ungültigen E-Mail-Adresse fehlschlug.
 
 ![Problem behoben](../assets/fix.svg) <!--ACP2E-1664--> Produkt-SKUs, die doppelte Anführungszeichen im freigegebenen Katalog und die Preisstruktur enthalten, verursachen keine Fehler mehr im Admin.
 
@@ -148,7 +148,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 >[!NOTE]
 >
->Nach dem Upgrade von Commerce von 2.4.6 auf die [neueste Version](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), stellen Sie sicher, dass Sie auf die unterstützte B2B 1.3.5 Patch-Version aktualisieren. Oder aktualisieren Sie die B2B-Erweiterung von Version 1.3.5 auf Version 1.4.0 oder höher, um die neuesten Funktionen zu erhalten.
+>Nach dem Upgrade von Commerce von 2.4.6 auf [neueste Version](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6), stellen Sie sicher, dass Sie auf die unterstützte B2B 1.3.5 Patch-Version aktualisieren. Oder aktualisieren Sie die B2B-Erweiterung von Version 1.3.5 auf Version 1.4.0 oder höher, um die neuesten Funktionen zu erhalten.
 
 ![Neu](../assets/new.svg) Adobe Commerce 2.4.6 wird nun unterstützt.
 

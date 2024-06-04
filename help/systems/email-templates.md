@@ -3,7 +3,7 @@ title: E-Mail-Vorlagen
 description: Erfahren Sie mehr über E-Mail-Vorlagen und wie Sie sie verwenden können, um die Kommunikation mit Ihren Kunden zu unterstützen und Ihre Marke zu stärken.
 exl-id: dfe28c77-607e-41e4-b872-3a07bcd67962
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 E-Mail-Vorlagen definieren das Layout, den Inhalt und die Formatierung automatisierter Nachrichten, die von Ihrem Store gesendet werden. Sie werden als Transaktions-E-Mails bezeichnet, da jede E-Mail mit einem bestimmten Transaktions- oder Ereignistyp verknüpft ist.
 
-Commerce umfasst eine Reihe responsiver E-Mail-Vorlagen, die von verschiedenen Ereignissen ausgelöst werden, die während des Betriebs Ihres Stores stattfinden. Jede Vorlage ist für jede Bildschirmgröße optimiert und kann vom Desktop aus sowie auf Tablets und Mobilgeräten angezeigt werden. Es gibt verschiedene vorbereitete E-Mail-Vorlagen, die sich auf Kundenaktivitäten, Verkäufe, Produktwarnungen, Administratoraktionen und Systemnachrichten beziehen. [Anpassen](email-template-custom.md) , um Ihre Marke widerzuspiegeln.
+Commerce enthält eine Reihe responsiver E-Mail-Vorlagen, die durch verschiedene Ereignisse ausgelöst werden, die während des Betriebs Ihres Stores stattfinden. Jede Vorlage ist für jede Bildschirmgröße optimiert und kann vom Desktop aus sowie auf Tablets und Mobilgeräten angezeigt werden. Es gibt verschiedene vorbereitete E-Mail-Vorlagen, die sich auf Kundenaktivitäten, Verkäufe, Produktwarnungen, Administratoraktionen und Systemnachrichten beziehen. [Anpassen](email-template-custom.md) , um Ihre Marke widerzuspiegeln.
 
 Commerce-E-Mails können von HTML- und Text-E-Mail-Clients gerendert werden. Die Art und Weise, wie E-Mails gerendert werden, kann zwischen den Clients variieren.
 
@@ -98,7 +98,7 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 
 ### [!DNL Magento_Company]
 
-![B2B für Adobe Commerce](../assets/b2b.svg) (Nur mit B2B für Adobe Commerce verfügbar)
+![Adobe Commerce B2B](../assets/b2b.svg) (Nur bei Adobe Commerce B2B verfügbar)
 
 | Vorlage | Konfigurationspfad |
 |--- |--- |
@@ -121,7 +121,7 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 
 ### [!DNL Magento_CompanyCredit]
 
-![B2B für Adobe Commerce](../assets/b2b.svg) (Nur mit B2B für Adobe Commerce verfügbar)
+![Adobe Commerce B2B](../assets/b2b.svg) (Nur bei Adobe Commerce B2B verfügbar)
 
 | Vorlage | Konfigurationspfad |
 |--- |--- |
@@ -233,7 +233,7 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 
 ### [!DNL Magento_NegotiableQuote]
 
-![B2B für Adobe Commerce](../assets/b2b.svg) (Nur mit B2B für Adobe Commerce verfügbar)
+![Adobe Commerce B2B](../assets/b2b.svg) (Nur bei Adobe Commerce B2B verfügbar)
 
 | Vorlage | Konfigurationspfad |
 |--- |--- |

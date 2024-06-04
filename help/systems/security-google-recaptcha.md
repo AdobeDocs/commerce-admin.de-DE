@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Google reCAPTCHA für den Administratorzugrif
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Google reCAPTCHA ist separat für Admin und Storefront konfiguriert.
 
-- Für Admin kann Google reCAPTCHA auf der [Anmelden](../getting-started/admin-signin.md) und wenn ein Benutzer ein Zurücksetzen des Kennworts anfordert. Wenn der standardmäßige Commerce [CAPTCHA](security-captcha.md) aktiviert ist, kann Google reCAPTCHA ohne Probleme gleichzeitig verwendet werden.
+- Für Admin kann Google reCAPTCHA auf der [Anmelden](../getting-started/admin-signin.md) und wenn ein Benutzer ein Zurücksetzen des Kennworts anfordert. Wenn die standardmäßige Commerce [CAPTCHA](security-captcha.md) aktiviert ist, kann Google reCAPTCHA ohne Probleme gleichzeitig verwendet werden.
 
 - Für die Storefront kann Google reCAPTCHA verwendet werden, um sich bei einer [Kundenkonto](../customers/customer-sign-in.md), senden Sie eine Nachricht aus dem [Kontakt](../getting-started/store-details.md#contact-us-form) und an zahlreichen anderen Storefront-Standorten.
 
@@ -160,7 +160,7 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Sie können 
    - [!UICONTROL Enable for Forgot Password]
    - [!UICONTROL Enable for Create New Customer Account]
    - [!UICONTROL Enable for Edit Customer Account]
-   - [!UICONTROL Enable for Create New Company Account] ![B2B für Adobe Commerce](../assets/b2b.svg) (Nur mit B2B für Adobe Commerce verfügbar)
+   - [!UICONTROL Enable for Create New Company Account] ![Adobe Commerce B2B](../assets/b2b.svg) (Nur bei Adobe Commerce B2B verfügbar)
    - [!UICONTROL Enable for Contact Us]
    - [!UICONTROL Enable for Product Review]
    - [!UICONTROL Enable for Newsletter Subscription]

@@ -2,9 +2,9 @@
 title: Einführung in Stores und Kauferlebnisse
 description: Erfahren Sie mehr über die Funktionen, mit denen Sie Ihre Online-Stores erstellen und verwalten können, sowie über die Einkaufserfahrung für Ihre Kunden.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: a56509eeedbb30a1e9cacfd521ea4c18e0241d94
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Adobe Commerce und Magento Open Source reduzieren Bestellfehler, indem sie die S
 
 >[!TIP]
 >
->![B2B für Adobe Commerce](../assets/b2b.svg) Mit der Installation und Aktivierung von B2B für Adobe Commerce können Sie _Schnellbestellung_ für Kunden, die mit einem Unternehmenskonto verknüpft sind. Diese Funktion reduziert den Bestellvorgang auf mehrere Klicks, wenn sie den Namen oder die SKU der Produkte kennen, die sie bestellen möchten. Sie können auch die Unterstützung für verhandelbare Anführungszeichen für Ihre Unternehmenskonten konfigurieren. Weitere Informationen zu den B2B-Funktionen finden Sie im [B2B für Adobe Commerce-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce B2B](../assets/b2b.svg) Mit der Installation und Aktivierung von Adobe Commerce B2B können Sie _Schnellbestellung_ für Kunden, die mit einem Unternehmenskonto verknüpft sind. Diese Funktion reduziert den Bestellvorgang auf mehrere Klicks, wenn sie den Namen oder die SKU der Produkte kennen, die sie bestellen möchten. Sie können auch die Unterstützung für verhandelbare Anführungszeichen für Ihre Unternehmenskonten konfigurieren. Weitere Informationen zu den B2B-Funktionen finden Sie im [Adobe Commerce B2B-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ## Shopping-Hilfe
 

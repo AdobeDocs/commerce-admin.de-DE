@@ -3,9 +3,9 @@ title: Warenkorbkonfiguration
 description: Erfahren Sie mehr über die Warenkorbfunktionen, die Sie konfigurieren können, um das Kauferlebnis in Ihrem Geschäft zu unterstützen.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2445'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Der Link kann so konfiguriert werden, dass die Anzahl der verschiedenen Produkte
    - Für **[!UICONTROL Number of Items to Display Scrollbar]** Geben Sie die Anzahl der Elemente ein, die in der Seitenleiste angezeigt werden können, bevor die Bildlaufleiste ausgelöst wird.
    - Für **[!UICONTROL Maximum Display Recently Added Item(s)]**, geben Sie die maximale Anzahl der kürzlich hinzugefügten Artikel ein, die Sie im Mini-Warenkorb anzeigen möchten.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
 ### Warenkorb-Link konfigurieren
 
@@ -86,7 +86,7 @@ Der Link kann so konfiguriert werden, dass die Anzahl der verschiedenen Produkte
 
    ![Konfigurationsoptionen für meinen Warenkorb-Link](../configuration-reference/sales/assets/checkout-my-cart-link.png){width="600" zoomable="yes"}
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
 ## Zum Warenkorb umleiten
 
@@ -111,11 +111,11 @@ Die Warenkorbseite kann so konfiguriert werden, dass sie immer dann angezeigt wi
    - `Yes` - Zeigt die Warenkorbseite unmittelbar nach dem Hinzufügen eines Produkts zum Warenkorb an.
    - `No` - Deaktiviert die Umleitung zum Warenkorb nach einer Produktaktualisierung zum Warenkorb.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
 ## Anführungslebensdauer
 
-Mit der Installation und Aktivierung von B2B für Adobe Commerce können Sie Unterstützung für die _Anführungszeichen_ Funktion. Diese Funktion ermöglicht es autorisierten Käufern, den Preisverhandelungsprozess einzuleiten, indem sie eine Anfrage vom Warenkorb einreichen. Die _Anführungszeichen_ grid listet jedes erhaltene Angebot auf und pflegt einen Verlauf der Kommunikation zwischen Käufer und Verkäufer. Weitere Informationen zu den B2B-Funktionen finden Sie unter [Verhandlungsanführungszeichen](../b2b/quotes.md) im _B2B für Adobe Commerce-Benutzerhandbuch_.
+Mit der Installation und Aktivierung von Adobe Commerce B2B können Sie Unterstützung für die _Anführungszeichen_ Funktion. Diese Funktion ermöglicht es autorisierten Käufern, den Preisverhandelungsprozess einzuleiten, indem sie eine Anfrage vom Warenkorb einreichen. Die _Anführungszeichen_ grid listet jedes erhaltene Angebot auf und pflegt einen Verlauf der Kommunikation zwischen Käufer und Verkäufer. Weitere Informationen zu den B2B-Funktionen finden Sie unter [Verhandlungsanführungszeichen](../b2b/quotes.md) im _Adobe Commerce B2B-Benutzerhandbuch_.
 
 Sie können feststellen, wie lange ein Preis gültig ist, indem Sie die Lebensdauer des Warenkorbangebots in der Konfiguration festlegen. Wenn beispielsweise ein Käufer einen Warenkorb nach mehreren Tagen unbeaufsichtigt lässt, ist der Anführungspreis für einige Artikel möglicherweise nicht mehr derselbe. Standardmäßig ist die Anführungszeitdauer auf 30 Tage eingestellt.
 
@@ -135,7 +135,7 @@ Sie können feststellen, wie lange ein Preis gültig ist, indem Sie die Lebensda
 
 1. Für **[!UICONTROL Quote Lifetime (days)]** geben Sie die Anzahl der Tage an, für die ein notierter Preis gültig bleibt.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
 ## Mindestauftragsbetrag
 
@@ -189,7 +189,7 @@ Mit der Konfiguration können Sie einen Mindestbetrag festlegen, um nach Anwendu
 
      Lassen Sie die Felder der Nachrichtenbeschreibung leer, um die Standardmeldungen zu verwenden.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
 ## Mindestauftragsmenge
 
@@ -211,7 +211,7 @@ Sie können die für eine Bestellung zulässige Mindestmenge festlegen. Die Mind
 
    - Um für alle Kunden dieselbe Mindestmengenbegrenzung festzulegen, halten Sie die Variable `ALL GROUPS` und geben Sie die **[!UICONTROL Minimum Qty]**.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
    ![Mindestmengenanforderung im Warenkorb](./assets/minimum-qty-allowed-in-shopping-cart.png){width="700" zoomable="yes"}
 
@@ -245,7 +245,7 @@ Das Miniaturbild für gruppierte und konfigurierbare Produkte kann so eingestell
    - `Product Thumbnail Itself` - Verwendet die der Produktvariante zugewiesene Miniaturansicht, die dem Warenkorb hinzugefügt wird.
    - `Parent Product Thumbnail` - Verwendet die dem übergeordneten Produkt zugewiesene Miniaturansicht.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
 ## Geschenkoptionen
 
@@ -283,7 +283,7 @@ Die Konfiguration der Geschenkoptionen gilt für die gesamte Website, kann jedoc
 
 1. ![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce) Geben Sie die **[!UICONTROL Default Price for Printed Card]**.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
 ### Geschenkpackung
 
@@ -323,7 +323,7 @@ Das Geschenkverpackungsbild sollte ein Muster sein, das das Wiederholungsmuster 
 
    Eine Miniaturansicht des Bildes wird im _[!UICONTROL Gift Wrapping Information]_nachdem der Datensatz gespeichert wurde.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicks **[!UICONTROL Save]**.
 
 #### Design einer Geschenkpackung bearbeiten
 
@@ -337,7 +337,7 @@ Das Geschenkverpackungsbild sollte ein Muster sein, das das Wiederholungsmuster 
 
 1. Nehmen Sie die erforderlichen Änderungen vor.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicks **[!UICONTROL Save]**.
 
 #### Löschen von Geschenkverpackungsdesigns
 
@@ -357,7 +357,7 @@ Mit dem _Geschenkverpackung_ Öffnen Sie das Raster und verwenden Sie eine diese
 
 1. Legen Sie die **[!UICONTROL Actions]** Kontrolle an `Delete`.
 
-1. Klicken **[!UICONTROL Submit]**.
+1. Klicks **[!UICONTROL Submit]**.
 
 ### Steuern auf Geschenkoptionen
 
@@ -393,4 +393,4 @@ Die Preise für Geschenkverpackungen und gedruckte Geschenkkarten können so kon
    - `Including Tax`
    - `Including and Excluding Tax`
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.

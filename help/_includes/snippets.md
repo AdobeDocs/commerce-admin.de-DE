@@ -1,9 +1,9 @@
 ---
 title: Snippets
 description: Wiederverwendete Hinweise und visuelle Elemente zum Notizen einer Funktion oder Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 ## Nur B2B-Funktion {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="B2B für Adobe Commerce-Funktion" src="../assets/b2b.svg" width="20" height="20" /> Ausschließliche Funktion nur mit <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">B2B für Adobe Commerce</a></td></tr>
+<tr><td><img alt="Adobe Commerce B2B-Funktion" src="../assets/b2b.svg" width="20" height="20" /> Ausschließliche Funktion nur mit <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=en">Adobe Commerce B2B</a></td></tr>
 </table>
 
 ## Nur CE-Funktion {#ce-feature}

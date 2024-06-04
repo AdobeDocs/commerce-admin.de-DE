@@ -1,19 +1,19 @@
 ---
-title: '[!DNL B2B for Adobe Commerce] Guide'
-description: Umfassende Informationen für [!DNL B2B for Adobe Commerce] Administratoren, einschließlich Installation und Konfiguration.
+title: '[!DNL Adobe Commerce B2B] Guide'
+description: Umfassende Informationen für [!DNL Adobe Commerce B2B] Administratoren, einschließlich Installation und Konfiguration.
 breadcrumb-title: Handbuch-Übersicht
-seo-title: '[!DNL B2B for Adobe Commerce] Guide'
+seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: 4eb20fc8a52330976dd6f95ea45b9b32dc6fb1c1
+source-git-commit: b30790b252bcab38c4d0372d5d5bd0d5b6f41a07
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 1%
+source-wordcount: '335'
+ht-degree: 0%
 
 ---
 
-# B2B für Adobe Commerce-Handbuch
+# Adobe Commerce B2B-Anleitung
 
 Dieses Handbuch richtet sich an Administratoren von Adobe Commerce. Es enthält detaillierte Informationen zur Installation und Aktivierung dieses Moduls, einschließlich Konfiguration und Verwaltung seiner Funktionen. Es wird von einem grundlegenden Verständnis des Kerns ausgegangen. [!DNL Commerce] Konfiguration und Funktionalität.
 
@@ -26,12 +26,12 @@ Dieses Handbuch behandelt:
 
 | Betreff | Beschreibung |
 | ------- | ----------- |
-| [Einführung](introduction.md) | Welche Funktionen sind mit verfügbar? [!DNL B2B for Adobe Commerce]? |
-| [Versionshinweise](release-notes.md) | Überprüfen Sie die in den einzelnen [!DNL B2B for Adobe Commerce] Modulversion. |
-| [Installieren](install.md) | Installieren Sie die [!DNL B2B for Adobe Commerce] -Erweiterung. |
-| [Grundlegende B2B-Funktionen aktivieren](enable-basic-features.md) | Nach der Installation [!DNL B2B for Adobe Commerce]müssen Sie die Funktionen aktivieren, die Sie für Ihren Store aktivieren möchten. |
+| [Einführung](introduction.md) | Welche Funktionen sind mit verfügbar? [!DNL Adobe Commerce B2B]? |
+| [Versionshinweise](release-notes.md) | Überprüfen Sie die in den einzelnen [!DNL Adobe Commerce B2B] verfügbar. |
+| [Installieren](install.md) | Installieren Sie die [!DNL Adobe Commerce B2B] -Erweiterung. |
+| [Grundlegende B2B-Funktionen aktivieren](enable-basic-features.md) | Nach der Installation [!DNL Adobe Commerce B2B]müssen Sie die Funktionen aktivieren, die Sie für Ihren Store aktivieren möchten. |
 | [Unternehmenskonten](account-companies.md) | Erfahren Sie mehr über Unternehmenskonten und wie sie den Hauptbaustein für die Unterstützung von B2B-Käufern in Ihrem Geschäft bilden. |
-| [Unternehmensverwaltung](manage-companies.md) | Erfahren Sie, wie B2B Commerce-Site-Administratoren Unternehmenshierarchien erstellen können, um die Verwaltung mehrerer Unternehmen zu optimieren, die zum selben Unternehmen gehören. |
+| [Unternehmensverwaltung](manage-companies.md) | Erfahren Sie, wie Site-Administratoren von B2B Commerce Unternehmenshierarchien erstellen können, um die Verwaltung mehrerer Unternehmen zu optimieren, die zum selben Unternehmen gehören. |
 | [Freigegebene Kataloge](catalog-shared.md) | Erfahren Sie mehr über die Verwendung freigegebener Kataloge zur Pflege von strukturierten Katalogen mit benutzerdefinierten Preisen für verschiedene Unternehmen. |
 | [Schnellbestellungen](quick-order.md) | Erfahren Sie mehr über die schnelle Bestellfunktion und deren Aktivierung für Ihre Kunden. |
 | [Bestellungen](purchase-order-flow.md) | Erfahren Sie mehr über Workflows für Bestellungen, mit denen Unternehmen ihre Ausgaben verfolgen und kontrollieren können. |

@@ -3,9 +3,9 @@ title: Negotiable Anführungszeichen
 description: Erfahren Sie mehr über Zitat-Workflows und wie Sie diesen Dienst für Ihre Unternehmenskonten bereitstellen können.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Während des Verhandlungsprozesses kann das Zitat nur von der Person aktualisier
 
 Negative Anführungszeichen sind nur verfügbar, wenn Adobe Commerce die folgenden Konfigurationseinstellungen aufweist:
 
-- [Die B2B für Adobe Commerce-Erweiterung ist installiert.](install.md)
+- [Die Adobe Commerce B2B-Erweiterung ist installiert.](install.md)
 - [Konfigurierte B2B-Funktionen](enable-basic-features.md)
    - Unternehmenskonten aktivieren
    - B2B-Anführungszeichen aktivieren
@@ -134,7 +134,7 @@ Nur Angebotsanfragen mit `Open` -Status abgelehnt werden.
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Send] | Übermittelt das aktualisierte Angebot als Antwort auf die Anfrage des Käufers. Diese Schaltfläche ist deaktiviert, wenn der Verkäufer auf eine Antwort des Käufers wartet. |
 | [!UICONTROL Back] | Gibt Folgendes zurück _Anführungszeichen_ Seite ohne Speichern von Änderungen. |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0-Beta-Funktionen]{type=Informative url="/help/b2b/release-notes.md" tooltip="Nur für Beta-Programmteilnehmer verfügbar"}`<original quote name> (copy)`. Ändern Sie den Namen, indem Sie den Wert im [!UICONTROL Name] und das Anführungszeichen als Entwurf speichern. |
+| [!UICONTROL Create Copy] | [!BADGE 1.5.0-Beta-Funktionen]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Nur für Beta-Programmteilnehmer verfügbar&quot;} Erstellen Sie ein neues Zitat aus dem aktuellen Zitat, indem Sie es kopieren und umbenennen. Wenn das neue Anführungszeichen geöffnet wird, lautet der Standardname `<original quote name> (copy)`. Ändern Sie den Namen, indem Sie den Wert im [!UICONTROL Name] und das Anführungszeichen als Entwurf speichern. |
 | [!UICONTROL Print] | Sendet das Anführungszeichen an einen Drucker oder speichert es als PDF-Datei. |
 | [!UICONTROL Create a copy] | Erstellt eine Kopie des Anführungszeichens mit dem Namen `<original quote name> (copy)` und öffnet es. Benennen Sie das neue Angebot nach Bedarf um und aktualisieren Sie es, bevor Sie es als Entwurf speichern oder an den Käufer senden. |
 | [!UICONTROL Save as Draft] | Speichert alle Änderungen an dem Angebot, sendet es jedoch nicht an den Käufer zurück. |

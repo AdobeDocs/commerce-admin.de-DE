@@ -1,10 +1,10 @@
 ---
 title: '[!UICONTROL Sales] menu'
-description: Der Commerce Admin umfasst die [!UICONTROL Sales] -Menü, das den Zugriff auf Tools für die Arbeit mit Bestellungen ermöglicht, je nachdem, wo sie sich im Workflow befinden.
+description: Der Commerce-Administrator umfasst die [!UICONTROL Sales] -Menü, das den Zugriff auf Tools für die Arbeit mit Bestellungen ermöglicht, je nachdem, wo sie sich im Workflow befinden.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: a7c6203cf738e3fb9be887d637010ca9c155937a
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Im _Admin_ Seitenleiste, klicken Sie **[!UICONTROL Sales]**.
 
 ### [!UICONTROL Quotes]
 
-![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit B2B für Adobe Commerce)
+![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Commerce B2B)
 
 Autorisierte Käufer können [Preisverhandlungen führen](../b2b/quotes.md) mit dem Verkäufer durch Versand einer [Anfrage](../b2b/quote-request.md) aus dem Warenkorb.
 

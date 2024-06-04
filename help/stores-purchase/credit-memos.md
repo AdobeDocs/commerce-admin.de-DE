@@ -3,9 +3,9 @@ title: Kreditkarten
 description: Erfahren Sie mehr über Kreditkarten und wie sie zur Ausgabe einer teilweisen oder vollständigen Rückerstattung verwendet werden.
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ Sie können Bestellungen auf drei Arten zurückgeben:
 
 - Kontoguthaben—Bestellungen, die über ein Konto gezahlt werden, können als Kontonummer zurückerstattet werden:
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce) [Store-Guthaben](../customers/store-credit-using.md)
-   - ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit B2B für Adobe Commerce) [Kontozahlung](../b2b/enable-basic-features.md#configure-payment-on-account) (Offline-Methode)
-   - ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit B2B für Adobe Commerce) [Firmenguthaben](../b2b/credit-company.md)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Commerce B2B) [Kontozahlung](../b2b/enable-basic-features.md#configure-payment-on-account) (Offline-Methode)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Commerce B2B) [Firmenguthaben](../b2b/credit-company.md)
 - [Online-Rückerstattung](payments.md#online-payment-methods)—Bestellungen, die per Kreditkarte über ein Zahlungsportal wie PayPal oder Braintree bezahlt werden, werden online über den Zahlungsverarbeiter zurückerstattet.
 - [Offline-Erstattung](payments.md#offline-payment-methods)—Bestellungen, die per Nachnahme bezahlt werden ([COD](cash-on-delivery.md)) oder durch [Scheck- oder Geldbestellung](check-money-order.md) werden offline zurückerstattet.
 

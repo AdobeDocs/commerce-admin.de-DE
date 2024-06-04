@@ -4,9 +4,9 @@ description: Umfassende Informationen zu Kundenkonten und Segmenten für Adobe C
 seo-title: Adobe Commerce Customer Management Guide
 seo-description: Describes how to use the customer management features in Adobe Commerce or Magento Open Source.
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
-source-git-commit: 3f0d03ce1bfaa445c654949b69765092582d4643
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Adobe Commerce-Kundenverwaltungsanleitung
 
-Dieses Handbuch richtet sich an Mitarbeiter des Kundendienstes, die in Adobe Commerce und Magento Open Source arbeiten. Es enthält detaillierte Informationen zu den Kundenverwaltungsfunktionen im Commerce Admin und zum Kundenkontoerlebnis im Storefront. Es wird von einem grundlegenden Verständnis der grundlegenden Commerce-Konfiguration und -Funktionalität ausgegangen.
+Dieses Handbuch richtet sich an Mitarbeiter des Kundendienstes, die in Adobe Commerce und Magento Open Source arbeiten. Es enthält detaillierte Informationen zu den Kundenverwaltungsfunktionen in Commerce Admin und zum Kundenkontoerlebnis in der Storefront. Es wird von einem grundlegenden Verständnis der grundlegenden Commerce-Konfiguration und -Funktionalität ausgegangen.
 
 | Betreff | Beschreibung |
 | ------- | ----------- |
-| [Einführung](customers-introduction.md) | Überblick über die Verwendung der Kundenverwaltungsfunktionen in der Commerce-Admin-Instanz. |
-| Tools für die Kundenverwaltung | Erfahren Sie, wie Sie die [[!UICONTROL Customers] grid](customers-all.md) und [[!UICONTROL Now Online] Funktion](now-online.md) im Commerce Admin , mit dem Sie Ihre Store-Kunden verwalten können. |
+| [Einführung](customers-introduction.md) | Überblick über die Verwendung der Kundenverwaltungsfunktionen in Commerce Admin. |
+| Tools für die Kundenverwaltung | Erfahren Sie, wie Sie die [[!UICONTROL Customers] grid](customers-all.md) und [[!UICONTROL Now Online] Funktion](now-online.md) in der Commerce-Admin, mit der Sie Ihre Store-Kunden verwalten können. |
 | Kundenkonten | Erfahren Sie, wie Sie registrierten Kunden auf der Storefront von [logins](login-landing-page.md) nach [Passwortregel](password-reset.md), und [Unterstützung von Käufern](login-as-customer.md). |
 | [Skalierte Personalisierung](personalize-scale.md) | Erfahren Sie mehr über die verfügbaren Funktionen, um das Einkaufserlebnis für jeden Kunden-Touchpoint basierend auf dem unmittelbaren Kontext und dem zuvor beobachteten Verhalten zu personalisieren. |
 | [[!DNL Audience Activation]](audience-activation.md) | Informationen zum [!DNL Audience Activation] -Erweiterung, mit der Sie Real-Time CDP-Zielgruppen in Adobe Commerce aktivieren können, um individuelle Angebote im Warenkorb, dynamische Bausteine und zugehörige Produkte zu informieren. |
@@ -28,7 +28,7 @@ Dieses Handbuch richtet sich an Mitarbeiter des Kundendienstes, die in Adobe Com
 
 >[!TIP]
 >
->Mit B2B für Adobe Commerce können Sie Unternehmenskonten verwalten, die an individuelle Storefront-Kundenkonten gebunden sind. Weitere Informationen zur Funktion &quot;Unternehmenskonten&quot;finden Sie unter [B2B für Adobe Commerce-Benutzerhandbuch](../b2b/account-companies.md).
+>Adobe Commerce B2B ermöglicht Ihnen die Führung von Unternehmenskonten, die an individuelle Storefront-Kundenkonten gebunden sind. Weitere Informationen zur Funktion &quot;Unternehmenskonten&quot;finden Sie unter [Adobe Commerce B2B-Benutzerhandbuch](../b2b/account-companies.md).
 
 ## Zusätzliche Dokumentation
 

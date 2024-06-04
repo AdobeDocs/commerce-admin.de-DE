@@ -3,9 +3,9 @@ title: Ein Kreditmemo ausgeben
 description: Erfahren Sie, wie Sie ein Kreditmemo für eine fakturierte Bestellung generieren und drucken.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2132'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 Bevor ein Kreditmemo gedruckt werden kann, muss es zunächst für eine [Rechnungsstellung](invoices.md#create-an-invoice). Sie können je nach Zahlungsmethode sowohl Online- als auch Offline-Erstattungen (teilweise oder vollständig) aus einem offenen Kreditmemo ausstellen.
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce) Erstattungen können auf die Kreditspeicherung angewendet werden.
-- ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit B2B für Adobe Commerce) Rückerstattungen können auf Firmenkredite angewendet werden.
+- ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Commerce B2B) Rückerstattungen können auf Firmenkredite angewendet werden.
 - Mit Kreditkarte getätigte Käufe können entweder online oder offline zurückerstattet werden.
 - Käufe, die per Scheck oder Geldbestellung getätigt werden, müssen offline zurückerstattet werden.
 
@@ -102,19 +102,19 @@ Bestimmen Sie die Art der Rückerstattung, die Sie vornehmen möchten - für ein
 
    - Um eine E-Mail-Benachrichtigung an den Kunden zu senden, wählen Sie die **[!UICONTROL Email Copy of Credit Memo]** aktivieren.
 
-1. Klicken **[!UICONTROL Update Totals]**.
+1. Klicks **[!UICONTROL Update Totals]**.
 
 1. Führen Sie gegebenenfalls folgende Schritte aus:
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce) Um den Betrag an das Kundenkonto-Guthaben zurückzuerstatten, wählen Sie die **[!UICONTROL Refund to Store Credit]** aktivieren.
 
-   - ![B2B für Adobe Commerce](../assets/b2b.svg) (Bei B2B für Adobe Commerce verfügbar) Um den Betrag auf das Firmenguthaben des Kunden zurückzuerstatten, wählen Sie die **[!UICONTROL Refund to Company Credit]** aktivieren.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Commerce B2B) Um den Betrag auf das Firmenguthaben des Kunden zurückzuerstatten, wählen Sie die **[!UICONTROL Refund to Company Credit]** aktivieren.
 
    - Klicken Sie auf , um die Offline-Rückerstattung zu beantragen. **[!UICONTROL Refund Offline]**.
 
    - Um eine Online-Rückerstattung zu erteilen, klicken Sie auf **[!UICONTROL Refund]**.
 
-   - ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit B2B für Adobe Commerce) Wenn der Kauf mit Firmenguthaben bezahlt wurde, klicken Sie auf **[!UICONTROL Refund to Company Credit]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar bei Adobe Commerce B2B) Wenn der Kauf mit Firmenguthaben bezahlt wurde, klicken Sie auf **[!UICONTROL Refund to Company Credit]**.
 
    Siehe [Credit Memos](credit-memos.md) für weitere Informationen zu Offline- und Online-Erstattungen.
 
@@ -195,7 +195,7 @@ Bestimmen Sie die Art der Rückerstattung, die Sie vornehmen möchten - für ein
 | [!UICONTROL Customer Name] | Der Name des Kunden oder Käufers, der die Bestellung aufgegeben hat. Der Kundenname ist mit dem Kundenprofil verknüpft. |
 | [!UICONTROL Email] | Die E-Mail-Adresse des Kunden oder Käufers. Die E-Mail-Adresse ist mit dem Öffnen einer neuen E-Mail verknüpft. |
 | [!UICONTROL Customer Group] | Der Name der Kundengruppe oder des freigegebenen Katalogs, der der Kunde zugewiesen ist. |
-| [!UICONTROL Company Name] | ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit B2B für Adobe Commerce) Der Name des mit dem Käufer verbundenen Unternehmens, in dessen Namen die Bestellung aufgegeben wird. Der Firmenname ist mit dem Firmenprofil verknüpft. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Commerce B2B) Der Name des mit dem Käufer verbundenen Unternehmens und in dessen Auftrag die Bestellung aufgegeben wird. Der Firmenname ist mit dem Firmenprofil verknüpft. |
 
 {style="table-layout:auto"}
 
@@ -222,7 +222,7 @@ Bestimmen Sie die Art der Rückerstattung, die Sie vornehmen möchten - für ein
 | Feld | Beschreibung |
 |--- |--- |
 | [!UICONTROL Product] | Produktname, SKU und Optionen (falls zutreffend). |
-| [!UICONTROL Price] | Der Kaufpreis des Artikels. Bei B2B für Adobe Commerce spiegelt dieser Wert ggf. jeden Rabatt wider, der auf den Artikel aus dem freigegebenen Katalog angewendet wird. |
+| [!UICONTROL Price] | Der Kaufpreis des Artikels. Bei Adobe Commerce B2B spiegelt dieser Wert ggf. jeden Rabatt wider, der auf den Artikel aus dem freigegebenen Katalog angewendet wird. |
 | [!UICONTROL Qty] | Die bestellte Menge. |
 | [!UICONTROL Return to Stock] | Kontrollkästchen, das angibt, ob das zurückgegebene Element auf Lager zurückgegeben werden soll. |
 | [!UICONTROL Qty to Refund] | Gibt die Anzahl der vom Produkt zurückgegebenen Einheiten an. |
@@ -254,7 +254,7 @@ Bestimmen Sie die Art der Rückerstattung, die Sie vornehmen möchten - für ein
 | [!UICONTROL Append Comments] | Kontrollkästchen, mit denen bestimmt wird, ob Kommentare in das Kreditmemo aufgenommen werden. |
 | [!UICONTROL Email Copy of Credit Memo] | Kontrollkästchen, mit dem bestimmt wird, ob eine Kopie des Guthabens per E-Mail versendet wird. |
 | [!UICONTROL Refund to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce) Kontrollkästchen, mit denen bestimmt wird, ob der Gesamtbetrag an [Store-Gutschrift](../customers/store-credit-using.md). |
-| [!UICONTROL Subtotal] | ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit B2B für Adobe Commerce) Die Gesamtzahl aller zu erstattenden Zeileneinträge. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar bei Adobe Commerce B2B) Die Gesamtzahl aller zu erstattenden Zeileneinträge. |
 
 {style="table-layout:auto"}
 
@@ -266,7 +266,7 @@ Die für die Bestellung verwendete Zahlungsmethode bestimmt die Erstattungsschal
 |--- |--- |
 | **[!UICONTROL Refund]** | Wenn der ursprüngliche Kauf über eine Kreditkarte über ein Zahlungsportal bezahlt wurde, wird der Erstattungsbetrag vom Zahlungsverarbeiter verwaltet. Informationen zur Verwaltung von Erstattungen finden Sie in der von Ihrem Zahlungsdienstleister bereitgestellten Dokumentation. |
 | **[!UICONTROL Refund Offline]** | Wenn der ursprüngliche Kauf per Scheck oder Zahlungsanweisung bezahlt wurde, wird die Rückerstattung direkt an den Kunden gezahlt, indem ein Scheck, eine Geschenkkarte oder Bargeld, wenn Sie eine Backsteine und Mörtel Storefront haben. Das Kreditmemo dient als Datensatz der Offline-Transaktion. |
-| **[!UICONTROL Refund to Company Credit]** | ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar bei B2B für Adobe Commerce) Wenn der Kauf auf Firmenguthaben angerechnet wurde, wird der Rückerstattung an den [Firmenkonto](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar bei Adobe Commerce B2B) Wenn der Kauf dem Firmenguthaben angerechnet wurde, wird die Rückerstattung an den [Firmenkonto](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 
@@ -282,7 +282,7 @@ Zum Drucken oder Anzeigen des ausgefüllten Credit Memos muss ein PDF-Reader ins
 
 1. Öffnen Sie im Raster das Kreditmemo.
 
-1. Klicken **[!UICONTROL Print]**.
+1. Klicks **[!UICONTROL Print]**.
 
    ![Kreditkartenauszug drucken](./assets/credit-memo-print.png){width="600" zoomable="yes"}
 

@@ -3,9 +3,9 @@ title: Gruppenpreise
 description: Erfahren Sie, wie Sie mithilfe von Gruppenpreisen die Preise für vergünstigte Artikel basierend auf Kundengruppen in Ihrem Geschäft festlegen können.
 exl-id: bc5be23f-64eb-47c3-beda-01168abfbf96
 feature: Catalog Management, Products, Customers
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Die Preise für Kundengruppen sind eine Komponente von [gestaffelte Preise](prod
 
 1. Im _[!UICONTROL Customer Group Price]_Abschnitt, klicken Sie auf **[!UICONTROL Add]**.
 
-   Wenn Ihr Store [B2B für Adobe Commerce](../b2b/introduction.md) und [freigegebene Kataloge](../b2b/catalog-shared.md) aktiviert ist, wird dieser Abschnitt _[!UICONTROL Catalog and Tier Price]_.
+   Wenn Ihr Store [Adobe Commerce B2B](../b2b/introduction.md) und [freigegebene Kataloge](../b2b/catalog-shared.md) aktiviert ist, wird dieser Abschnitt _[!UICONTROL Catalog and Tier Price]_.
 
    ![Erweiterte Preise](./assets/product-price-group.png){width="600" zoomable="yes"}
 

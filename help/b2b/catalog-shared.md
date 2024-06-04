@@ -1,18 +1,18 @@
 ---
 title: Übersicht über freigegebenen Katalog
-description: Erfahren Sie mehr über die freigegebenen Kataloge, die von B2B für Adobe Commerce bereitgestellt werden, und wie Sie sie verwenden können, um geordnete Kataloge mit benutzerdefinierten Preisen für verschiedene Unternehmenskonten zu verwalten.
+description: Erfahren Sie mehr über die von Adobe Commerce B2B bereitgestellten freigegebenen Kataloge und wie Sie sie verwenden können, um geordnete Kataloge mit benutzerdefinierten Preisen für verschiedene Unternehmenskonten zu verwalten.
 exl-id: cf7c9099-9b7d-407b-adb9-06a4815624ee
 feature: B2B, Companies, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
 
 # Übersicht über freigegebenen Katalog
 
-B2B für Adobe Commerce bietet Ihnen die Möglichkeit, die Erfassung von Daten beizubehalten _shared_ Kataloge mit benutzerdefinierten Preisen für verschiedene Unternehmen. Zusätzlich zur Norm _primary_, Produktkatalog, bietet er Kunden Zugriff auf zwei Arten freigegebener Kataloge mit unterschiedlichen Preisstrukturen.
+Adobe Commerce B2B bietet Ihnen die Möglichkeit, die Erfassung von Daten zu verwalten _shared_ Kataloge mit benutzerdefinierten Preisen für verschiedene Unternehmen. Zusätzlich zur Norm _primary_, Produktkatalog, bietet er Kunden Zugriff auf zwei Arten freigegebener Kataloge mit unterschiedlichen Preisstrukturen.
 
 Wenn die Variable [Freigegebene Katalogfunktion](enable-basic-features.md) in der Konfiguration aktiviert ist, bleibt der ursprüngliche primäre Katalog vom Administrator sichtbar, aber nur der öffentliche Standardkatalog (Allgemein) ist im Storefront sichtbar. Darüber hinaus können benutzerdefinierte Kataloge erstellt werden, die nur für Mitglieder bestimmter [Firma](account-companies.md) Konten.
 
@@ -56,7 +56,7 @@ Die [Aktionssteuerelemente](../getting-started/admin-actions-control.md) in der 
 | [!UICONTROL Select] | Wählt freigegebene Katalogdatensätze für die Anwendung einer Aktion aus. Mit dem Steuerelement in der Kopfzeile können Sie alle freigegebenen Katalogdatensätze im Raster auswählen oder die Auswahl aufheben. Um einen einzelnen freigegebenen Katalog auszuwählen, aktivieren Sie das Kontrollkästchen. |
 | [!UICONTROL ID] | Eine eindeutige numerische Kennung, die bei der Erstellung des Katalogs der Sequenz zugeordnet wird. |
 | [!UICONTROL Name] | Der Name des freigegebenen Katalogs. Standardmäßig ist der standardmäßige freigegebene Katalog (Allgemein) verfügbar. |
-| [!UICONTROL Type] | Identifiziert den Typ des freigegebenen Katalogs wie folgt: <br/>**[!UICONTROL Public]**- Der standardmäßige öffentliche freigegebene Katalog wird automatisch erstellt, wenn B2B für Adobe Commerce installiert ist. Sie wird zunächst dem `General` und `Not Logged In` Kundengruppen und ist für Gäste und einzelne angemeldete Kunden sichtbar, die nicht mit einem Unternehmen verbunden sind. Das System unterstützt jeweils nur einen öffentlichen freigegebenen Katalog.<br/>**[!UICONTROL Custom]** - Ein benutzerdefinierter freigegebener Katalog enthält Preise, die nur für angemeldete Mitarbeiter der zugewiesenen Unternehmenskonten sichtbar sind. Sie können beliebig viele benutzerdefinierte freigegebene Kataloge erstellen. |
+| [!UICONTROL Type] | Identifiziert den Typ des freigegebenen Katalogs wie folgt: <br/>**[!UICONTROL Public]**- Der öffentliche Standardkatalog wird automatisch erstellt, wenn Adobe Commerce B2B installiert ist. Sie wird zunächst dem `General` und `Not Logged In` Kundengruppen und ist für Gäste und einzelne angemeldete Kunden sichtbar, die nicht mit einem Unternehmen verbunden sind. Das System unterstützt jeweils nur einen öffentlichen freigegebenen Katalog.<br/>**[!UICONTROL Custom]** - Ein benutzerdefinierter freigegebener Katalog enthält Preise, die nur für angemeldete Mitarbeiter der zugewiesenen Unternehmenskonten sichtbar sind. Sie können beliebig viele benutzerdefinierte freigegebene Kataloge erstellen. |
 | [!UICONTROL Customer Tax Class] | Die der entsprechenden Kundengruppe zugewiesene Steuerklasse. Diese Spalte wird nicht im Standardraster angezeigt, kann jedoch durch Änderung des Spaltenlayouts hinzugefügt werden. |
 | [!UICONTROL Created At] | Datum und Uhrzeit der Erstellung des freigegebenen Katalogs. |
 | [!UICONTROL Created By] | Der Vor- und Nachname des Store-Administrators, der den freigegebenen Katalog erstellt hat. |

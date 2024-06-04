@@ -3,9 +3,9 @@ title: Checkout-Prozess und Optionen
 description: Erfahren Sie, wie der Checkout-Prozess für Adobe Commerce und Magento Open Source die zum Abschluss der Transaktion erforderlichen Informationen erfasst und die Checkout-Seite den Kunden durch jeden Prozessschritt führt.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -66,13 +66,13 @@ Im zweiten Schritt des Checkout-Prozesses wählt der Kunde die [Zahlungsmethode]
 
 >[!NOTE]
 >
->Obwohl Commerce die Konfiguration mehrerer Couponcodes ermöglicht, kann ein Kunde nur einen Couponcode auf den Warenkorb anwenden. (Siehe [Coupon-Codes](../merchandising-promotions/price-rules-cart-coupon.md) für weitere Informationen.)
+>Commerce ermöglicht zwar die Konfiguration mehrerer Couponcodes, kann jedoch nur einen Couponcode auf den Warenkorb anwenden. (Siehe [Coupon-Codes](../merchandising-promotions/price-rules-cart-coupon.md) für weitere Informationen.)
 
 ![Überprüfungs- und Zahlungsseite während des Checkouts](./assets/storefront-checkout-step2-payment-review.png){width="700" zoomable="yes"}
 
 ### Überprüfung und Zahlungen - Bestellung
 
-![B2B für Adobe Commerce](../assets/b2b.svg) (Nur mit B2B für Adobe Commerce verfügbar)
+![Adobe Commerce B2B](../assets/b2b.svg) (Nur bei Adobe Commerce B2B verfügbar)
 
 Wenn ein Kunde mit einem Unternehmen verknüpft ist, das [Bestellaufträge](../b2b/purchase-order-flow.md), werden alle Bestellungen als Bestellungen verarbeitet. Die verfügbaren Zahlungsmethoden werden durch die Kontoeinstellungen des Unternehmens bestimmt.
 
@@ -102,7 +102,7 @@ Admin-Benutzer können die maximale Anzahl von Elementen ändern, die in der Bes
 
 1. Für **[!UICONTROL Maximum Number of Items to Display in Order Summary]**, geben Sie die maximale Anzahl der anzuzeigenden Elemente an.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
    Mit diesem Update ist die beim Checkout angezeigte Bestellübersicht auf die angegebene Anzahl von Elementen beschränkt.
 
@@ -127,7 +127,7 @@ Eine ausführliche Beschreibung der einzelnen Konfigurationseinstellungen finden
 1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Checkout]**.
 1. Legen Sie die folgenden erforderlichen Optionen fest.
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
 1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Checkout Options]** Abschnitt.
 
@@ -137,7 +137,7 @@ Eine ausführliche Beschreibung der einzelnen Konfigurationseinstellungen finden
 
 1. Legen Sie die Checkout-Optionen fest.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
 ### Verfügbare Checkout-Optionen
 

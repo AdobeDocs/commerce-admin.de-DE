@@ -3,9 +3,9 @@ title: Bestellworkflow und -verarbeitung
 description: Erfahren Sie mehr über den Auftrags-Workflow, den Status, der bei jedem Schritt angewendet wird, und wie Sie Bestellungen durch diesen Prozess bewegen können.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1718'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Nur Verkaufsaufträge, die nicht in Rechnung gestellt werden, haben den Status `
 | [!UICONTROL Order Date] | Datum und Uhrzeit der Bestellung. |
 | [!UICONTROL Purchased From] | Gibt die Website-, Store- und Store-Ansicht an, in der die Bestellung aufgegeben wurde. |
 | [!UICONTROL Placed from IP] | Gibt die IP-Adresse des Computers an, von dem aus die Bestellung aufgegeben wurde. |
-| [!UICONTROL Order Placed from Quote] | ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit B2B für Adobe Commerce) Gibt die [Anführungszeichen](../b2b/quotes.md) gegebenenfalls von dem aus die Bestellung generiert wurde. Der Anführungszeichenname ist mit dem Anführungszeichen verknüpft. |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Commerce B2B) Gibt die [Anführungszeichen](../b2b/quotes.md) gegebenenfalls von dem aus die Bestellung generiert wurde. Der Anführungszeichenname ist mit dem Anführungszeichen verknüpft. |
 
 {style="table-layout:auto"}
 
@@ -141,7 +141,7 @@ Nur Verkaufsaufträge, die nicht in Rechnung gestellt werden, haben den Status `
 | [!UICONTROL Customer Name] | Der Name des Kunden oder Käufers, der die Bestellung aufgegeben hat. Der Kundenname ist mit dem Kundenprofil verknüpft. |
 | [!UICONTROL Email] | Die E-Mail-Adresse des Kunden oder Käufers. Die E-Mail-Adresse ist mit dem Öffnen einer neuen E-Mail verknüpft. |
 | [!UICONTROL Customer Group] | Der Name der Kundengruppe oder des freigegebenen Katalogs, der der Kunde zugewiesen ist. |
-| [!UICONTROL Company Name] | ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit B2B für Adobe Commerce) Der Name des Unternehmens, mit dem der Käufer verbunden ist und in dessen Auftrag die Bestellung aufgegeben wird. Der Name des Unternehmens ist mit dem [Firmenprofil](../b2b/account-companies.md). |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Commerce B2B) Der Name des Unternehmens, mit dem der Käufer verbunden ist und in dessen Auftrag die Bestellung aufgegeben wird. Der Name des Unternehmens ist mit dem [Firmenprofil](../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 
@@ -220,9 +220,9 @@ Im **[!UICONTROL Order Total]** führen Sie folgende Schritte aus:
 | [!UICONTROL Total Refunded] | Der Gesamtbetrag, der ggf. aus der Bestellung zurückerstattet wurde. |
 | [!UICONTROL Total Due] | Der Gesamtbetrag, der fällig ist. |
 | [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce) Der Betrag des verfügbaren Store-Guthabens, der auf die Bestellung angewendet wird, sofern zutreffend. |
-| [!UICONTROL Catalog Total Price] | ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit B2B für Adobe Commerce) Der Gesamtpreis der Artikel im Angebot ohne Steuern gemäß der Preisgestaltung im freigegebenen Katalog oder Standardkatalog, der als Grundlage für das Angebot verwendet wird. Wenn sich die Anzeigewährung der Storefront von der Basiswährung unterscheidet, wird der Wert in beiden Währungen angezeigt, wobei die Storefront in eckigen Klammern angezeigt wird. |
-| [!UICONTROL Negotiated Discount] | ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit B2B für Adobe Commerce) Der Rabatt, der aus einem zwischen Käufer und Verkäufer ausgehandelten Angebot resultiert. Wenn sich die Anzeigewährung der Storefront von der Basiswährung unterscheidet, wird der Wert in beiden Währungen angezeigt, wobei die Storefront in eckigen Klammern angezeigt wird. |
-| [!UICONTROL Subtotal] | ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit B2B für Adobe Commerce) Der Gesamtpreis des Katalogs abzüglich des verhandelten Rabatts. |
+| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Commerce B2B) Der Gesamtpreis der Artikel im Angebot ohne Steuern gemäß der Preisgestaltung im freigegebenen Katalog oder Standardkatalog, der als Grundlage für das Angebot verwendet wird. Wenn sich die Anzeigewährung der Storefront von der Basiswährung unterscheidet, wird der Wert in beiden Währungen angezeigt, wobei die Storefront in eckigen Klammern angezeigt wird. |
+| [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar bei Adobe Commerce B2B) Der Rabatt, der aus einem zwischen Käufer und Verkäufer ausgehandelten Angebot resultiert. Wenn sich die Anzeigewährung der Storefront von der Basiswährung unterscheidet, wird der Wert in beiden Währungen angezeigt, wobei die Storefront in eckigen Klammern angezeigt wird. |
+| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Commerce B2B) Der Gesamtpreis des Katalogs abzüglich des verhandelten Rabatts. |
 
 {style="table-layout:auto"}
 

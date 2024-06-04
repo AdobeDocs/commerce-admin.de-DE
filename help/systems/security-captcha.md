@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie CAPTCHA für den Administratorzugriff und ver
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Für eine zusätzliche Sicherheitsstufe können Sie der Seite &quot;Admin Sign-I
 
 1. Legen Sie in der oberen rechten Ecke **[!UICONTROL Store View]** nach `Default`.
 
-   Wenn die Variable [Umfang](../getting-started/websites-stores-views.md#scope-settings) der Commerce-Installation mehrere Websites umfasst, wählen Sie die Websites aus, auf die die CAPTCHA-Konfiguration angewendet werden soll.
+   Wenn die Variable [Umfang](../getting-started/websites-stores-views.md#scope-settings) Wählen Sie für Ihre Commerce-Installation mehrere Websites aus, auf die die CAPTCHA-Konfiguration angewendet werden soll.
 
 1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL CAPTCHA]** Abschnitt.
 
@@ -100,7 +100,7 @@ Kunden können aufgefordert werden, bei jeder Anmeldung bei ihren Konten oder na
       - `Payflow Pro` (siehe [Sicherheits-Patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html) _Wissensdatenbank_ Artikel)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
-      - `Create company` ![B2B für Adobe Commerce](../assets/b2b.svg) (Nur mit B2B für Adobe Commerce verfügbar)
+      - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) (Nur bei Adobe Commerce B2B verfügbar)
 
    - Satz **[!UICONTROL Displaying Mode]** auf einen der folgenden Werte zu:
 

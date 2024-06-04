@@ -3,9 +3,9 @@ title: Social Media- und RSS-Dienste
 description: Erfahren Sie, wie Sie soziale Medien und andere RSS-Feed-Integration hinzufügen können, um Marken- und Produktbewusstsein zu schaffen.
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -81,11 +81,11 @@ Social-Networking-Sites verfügen über eine Vielzahl von Plugins, die einfach z
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add Widget]** und gehen Sie wie folgt vor:
 
-   - ![B2B für Adobe Commerce](../assets/b2b.svg) (Nur bei B2B für Adobe Commerce verfügbar) Im _Einstellungen_ Abschnitt, festlegen **[!UICONTROL Type]** nach `CMS Static Block` und klicken **[!UICONTROL Continue]**.
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Nur bei Adobe Commerce B2B verfügbar) Im _Einstellungen_ Abschnitt, festlegen **[!UICONTROL Type]** nach `CMS Static Block` und klicken **[!UICONTROL Continue]**.
 
    - Stellen Sie sicher, dass **[!UICONTROL Design Theme]** auf das aktuelle Design eingestellt ist.
 
-   - Klicken **[!UICONTROL Continue]**.
+   - Klicks **[!UICONTROL Continue]**.
 
 1. Im **[!UICONTROL Storefront Properties]** führen Sie folgende Schritte aus:
 
@@ -107,7 +107,7 @@ Social-Networking-Sites verfügen über eine Vielzahl von Plugins, die einfach z
 
    - Annehmen der Standardeinstellung für **[!UICONTROL Template]**, der auf `CMS Static Block Default Template`.
 
-   - Klicken **[!UICONTROL Save and Continue Edit]**.
+   - Klicks **[!UICONTROL Save and Continue Edit]**.
 
 1. Wählen Sie im Bedienfeld auf der linken Seite **[!UICONTROL Widget Options]**.
 

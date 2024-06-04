@@ -3,9 +3,9 @@ title: Umfang des Kundenkontos
 description: Der Umfang der Kundenkonten kann auf die Website beschränkt werden, auf der das Konto erstellt wurde, oder für alle Websites und Stores in der Store-Hierarchie freigegeben werden.
 exl-id: c401bee2-763e-4fad-88cd-5d5a43c46186
 feature: Customers, Configuration
-source-git-commit: 2541b2d55516e2a9c824825100c8348d81201ca9
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 Die Kopfzeile jeder Seite in Ihrem Store erweitert eine Einladung für Käufer auf _Anmelden oder registrieren_ für ein Konto bei Ihrem Geschäft. Kunden, die ein Konto öffnen, profitieren von einer Reihe von Vorteilen, darunter:
 
 * **Kundenkonto erstellen** - Besucher können ein Kundenkonto erstellen, damit sie die Storefront als registrierten Kunden verwenden können.
-* **Unternehmenskonto erstellen** Je nach Konfiguration kann ein Besucher Ihres Geschäfts ein Unternehmenskonto erstellen. Weitere Informationen finden Sie unter [B2B für Adobe Commerce](../b2b/introduction.md).
+* **Unternehmenskonto erstellen** Je nach Konfiguration kann ein Besucher Ihres Geschäfts ein Unternehmenskonto erstellen. Weitere Informationen finden Sie unter [Adobe Commerce B2B](../b2b/introduction.md).
 * **Schnellerer Checkout** — Registrierte Kunden durchlaufen schneller den Checkout, da ein Großteil der Informationen bereits in ihren Konten enthalten ist.
 * **Self-Service** — Registrierte Kunden können ihre Informationen aktualisieren, den Status von Bestellungen überprüfen und sogar von ihren Konten aus neu anordnen.
 

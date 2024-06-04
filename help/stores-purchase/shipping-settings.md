@@ -3,9 +3,9 @@ title: Versandeinstellungen
 description: Erfahren Sie, wie Sie die Versandeinstellungen konfigurieren, die den Ausgangspunkt und die Versandrichtlinie für Ihren Store definieren.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Der Ausgangspunkt wird verwendet, um die Gebühr für Sendungen aus Ihrem Gesch�
    - [!UICONTROL City]
    - [!UICONTROL Street Address] (und Zeile 2, falls erforderlich)
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
 ## Versandpolitik
 
@@ -58,7 +58,7 @@ Um Ihre Versandrichtlinien während des Checkout anzuzeigen, füllen Sie die Ver
 
    ![Versandrichtlinienparameter](../configuration-reference/sales/assets/shipping-settings-shipping-policy-parameters.png){width="600" zoomable="yes"}
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
 ## Mehrere Adressen
 
@@ -76,8 +76,8 @@ Die Versandoptionen mit mehreren Adressen ermöglichen es Kunden, eine Bestellun
 
 1. Geben Sie die **[!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses]**.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicks **[!UICONTROL Save Config]**.
 
 >[!NOTE]
 >
->![B2B für Adobe Commerce](../assets/b2b.svg) (B2B für Adobe Commerce) Bei Bestellungen mit mehreren Versandadressen muss die Variable [Kontozahlung](../b2b/enable-basic-features.md#configure-payment-on-account) Zahlungsmethode, auch wenn sie aktiviert ist, ist während des Checkouts nicht verfügbar.
+>![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Bei Bestellungen mit mehreren Versandadressen muss die Variable [Kontozahlung](../b2b/enable-basic-features.md#configure-payment-on-account) Zahlungsmethode, auch wenn sie aktiviert ist, ist während des Checkouts nicht verfügbar.

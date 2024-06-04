@@ -5,9 +5,9 @@ seo-title: Services for Adobe Commerce
 seo-description: Documentation and resources for Adobe Commerce and Magento Open Source users working in the Admin.
 breadcrumb-title: Dokumentation zu Händlern
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
-source-git-commit: e64045a84f79a204450e6da71bcf9f7f72882403
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -43,8 +43,8 @@ Magento Open Source ist die Codebasis, zu der Adobe offiziell beiträgt und die 
   </tr>
 <tr>
   <td valign="top">
-      <img alt="B2B für Adobe Commerce" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong>B2B für Adobe Commerce</strong></a>
+      <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html"><strong>Adobe Commerce B2B</strong></a>
     <div><em>Diese Funktion wurde entwickelt, um den Bedürfnissen von Verkäufern (Händlern) zu entsprechen, deren Kunden in erster Linie Unternehmen sind - möglicherweise mit komplexen Organisationsstrukturen und mehreren Mitarbeitern mit verschiedenen Rollen und Ebenen der Kaufberechtigungen.</em>
     <br></div>
   </td>
@@ -123,8 +123,8 @@ Magento Open Source ist die Codebasis, zu der Adobe offiziell beiträgt und die 
 
 | Beschreibung | Typ | Datum |
 | ----------- | ---- | ---- |
-| **1.4.0 B2B-Version** - In den Versionshinweisen zu B2B für Adobe Commerce werden Änderungen und Ergänzungen für die [Version 1.4.0](../b2b/release-notes.md#b2b-v140). | Aktualisieren | 13.06.23 |
-| **1.4.0 B2B-Version** - die [Ankündigung eines Angebots für einen Käufer](../b2b/sales-rep-initiates-quote.md) -Thema ist jetzt in der _B2B für Adobe Commerce-Handbuch_. Er beschreibt, wie ein Verkäufer ein Angebot für einen bestimmten Käufer erstellen kann, um den Verhandlungsprozess zu starten. | Neu | 13.06.23 |
+| **1.4.0 B2B-Version** - In den Adobe Commerce B2B-Versionshinweisen werden Änderungen und Ergänzungen für die [Version 1.4.0](../b2b/release-notes.md#b2b-v140). | Aktualisieren | 13.06.23 |
+| **1.4.0 B2B-Version** - die [Ankündigung eines Angebots für einen Käufer](../b2b/sales-rep-initiates-quote.md) -Thema ist jetzt in der _Adobe Commerce B2B-Anleitung_. Er beschreibt, wie ein Verkäufer ein Angebot für einen bestimmten Käufer erstellen kann, um den Verhandlungsprozess zu starten. | Neu | 13.06.23 |
 | **1.4.0 B2B-Version** - die [Anführungszeichen verhandeln](../b2b/quote-price-negotiation.md), [Negotiable Anführungszeichen](../b2b/quotes.md), und [B2B-Funktionen aktivieren](../b2b/enable-basic-features.md) -Themen werden aktualisiert, um Änderungen für vom Verkäufer initiierte Anführungszeichen und Standardfunktionen widerzuspiegeln. | Aktualisieren | 13.06.23 |
 | **Version 2.2.0 der Adobe IMS-Integration** - die [Commerce Admin-Integration mit Adobe ID deaktivieren](../getting-started/adobe-ims-disable.md) -Thema ist jetzt in der _Handbuch &quot;Erste Schritte&quot;_. Hier wird ein optionales Verfahren zum Deaktivieren der Adobe Commerce Admin-Integration mit Adobe IMS beschrieben. | Neu | 13.06.23 |
 | **Version 2.2.0 der Adobe IMS-Integration** - Änderungen im [Übersicht über die Integration von Adobe Identity Management Service (IMS)](../getting-started/adobe-ims-integration-overview.md) und [Konfigurieren der Commerce Admin-Integration mit Adobe ID](../getting-started/adobe-ims-config.md) Themen, um die aktualisierte Funktionalität widerzuspiegeln. | Aktualisieren | 13.06.23 |

@@ -3,9 +3,9 @@ title: Bestellungen
 description: Erfahren Sie mehr über den Arbeitsbereich "Bestellungen"und die Suchfunktionen, mit denen Bestellungen in Admin gefunden werden können.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Klicken Sie oben rechts auf die _Spalten_ ( ![Spalteneinstellungen](../assets/i
 
 1. Klicken Sie auf **[!UICONTROL View]** ( ![Augensymbol](../assets/icon-view-eye.png) ).
 
-1. Klicken **[!UICONTROL Save Current View]**.
+1. Klicks **[!UICONTROL Save Current View]**.
 
 1. Geben Sie einen **[!UICONTROL name]** für die Ansicht.
 
@@ -131,7 +131,7 @@ Zusätzliche verfügbare Spalten:
 | [!UICONTROL Payment Method] | Die Zahlungsmethode, die für die Bestellung verwendet wird. |
 | [!UICONTROL Total Refunded] | Alle Beträge aus der Bestellung, die dem Kunden zurückerstattet werden sollen. |
 | [!UICONTROL Refunded to Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce) Jeder Betrag aus der Bestellung, der an den Kundenvorrat zurückgezahlt werden soll. |
-| [!UICONTROL Company Name] | ![B2B für Adobe Commerce](../assets/b2b.svg) (Verfügbar mit B2B für Adobe Commerce) Der Name der [Firma](../b2b/account-companies.md) der die Bestellung aufgegeben hat. |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Commerce B2B) Der Name der [Firma](../b2b/account-companies.md) der die Bestellung aufgegeben hat. |
 
 {style="table-layout:auto"}
 
@@ -185,7 +185,7 @@ Das Suchfeld oben links im Raster Bestellungen kann verwendet werden, um bestimm
 
 ## Fehlerbehebung bei Ressourcen
 
-Hilfe zur Fehlerbehebung bei Bestellproblemen finden Sie in den folgenden Knowledge Base-Artikeln des Commerce-Supports:
+Hilfe zur Fehlerbehebung bei Bestellproblemen finden Sie in den folgenden Artikeln der Commerce Support Knowledge Base:
 
 - [Anzeigefehler der Bestellungen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
 - [Fehler &quot;PayPal doppelte Bestellungen 10415&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)

@@ -3,10 +3,10 @@ user-guide-title: Adobe Commerce-Händlerdokumentation
 user-guide-description: Dokumentation und Ressourcen für Adobe Commerce- und Magento Open Source-Händler, die in der Verwaltung arbeiten.
 title: Adobe Commerce-Händlerdokumentation
 feature: Admin Workspace
-source-git-commit: 2cd6c06478e35b68db55c49f99e8bfa898ef6c2b
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 20%
+source-wordcount: '70'
+ht-degree: 38%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 - [Adobe Commerce-Händlerdokumentation](home.md)
 - [Erste Schritte](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)
-- [B2B für Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html)
+- [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html)
 - [Katalogverwaltung](https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html)
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html)
 - [Merchandising und Promotions](https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html)
@@ -24,4 +24,4 @@ ht-degree: 20%
 - [Stores und Kauferlebnis](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html)
 - [Admin-Systeme](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html)
 - [Konfigurationshandbuch](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html)
-- [Services für Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)
+- [Dienste für Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)

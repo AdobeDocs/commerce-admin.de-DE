@@ -2,9 +2,9 @@
 title: Einführung in das Kundenmanagement
 description: Erfahren Sie, wie Sie mit den Commerce-Kundenverwaltungsfunktionen das Kundenerlebnis für Ihr Geschäft verbessern können.
 exl-id: 1af76dd0-3f22-4ed1-b05c-75025b813e60
-source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,6 @@ Im _Admin_ Seitenleiste, klicken Sie [!UICONTROL Customers] um die Menüoptionen
 | [!UICONTROL Now Online] | Listet alle Kunden und Besucher auf, die derzeit [online](../customers/now-online.md) in Ihrem Geschäft. |
 | [!UICONTROL Segments] | Listet die [Kundensegmente](../customers/customer-segments.md) die verwendet werden, um Inhalte und Promotions basierend auf verschiedenen Eigenschaften für bestimmte Kunden dynamisch anzuzeigen. |
 | [!UICONTROL Customer Groups] | Die [Kundengruppen](../customers/customer-groups.md) bestimmen, welche Rabatte den Käufern zur Verfügung stehen und welche Steuerklasse für den Kauf gilt. |
-| [!UICONTROL Companies] | (B2B für Adobe Commerce erforderlich) Listet alle aktiven [Unternehmenskonten](../b2b/account-companies.md) und ausstehende Anforderungen, unabhängig von der Statuseinstellung, und stellt die Tools bereit, die zum Erstellen und [verwalten](../b2b/account-company-manage.md) Unternehmenskonten. |
+| [!UICONTROL Companies] | (Adobe Commerce B2B erforderlich) Listet alle aktiven [Unternehmenskonten](../b2b/account-companies.md) und ausstehende Anforderungen, unabhängig von der Statuseinstellung, und stellt die Tools bereit, die zum Erstellen und [verwalten](../b2b/account-company-manage.md) Unternehmenskonten. |
 
 {style="table-layout:auto"}

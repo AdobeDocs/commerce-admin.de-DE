@@ -1,12 +1,12 @@
 ---
 title: Festlegen der gemeinsamen Preise und Struktur von Katalogen
-description: Erfahren Sie mehr über B2B für Adobe Commerce, wie Sie die Preise und die Struktur eines freigegebenen Katalogs einrichten.
+description: Erfahren Sie mit Adobe Commerce B2B, wie Sie die Preise und die Struktur eines freigegebenen Katalogs einrichten.
 exl-id: 67caf56f-1b31-44bb-98dc-ea6ea7d8a4d5
 feature: B2B, Companies, Catalog Management
 role: Admin
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Nur Kategorien mit ausgewählten Produkten werden in der [oberste Navigation](..
 
    Die Kategorieeinstellungen, die Sie vornehmen, werden erst dann dauerhaft in der Datenbank gespeichert, wenn die Konfiguration gespeichert wurde. Sie werden jedoch vorübergehend gespeichert, wenn Sie an der Struktur und den Preisen arbeiten.
 
-1. Klicken **[!UICONTROL Next]**.
+1. Klicks **[!UICONTROL Next]**.
 
    ![Produkte für Katalog auswählen](./assets/shared-catalog-select-products-step-1.png){width="600" zoomable="yes"}
 
