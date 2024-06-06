@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -370,7 +370,7 @@ Dieses Problem kann durch unzureichende API-Berechtigungen für das generierte T
 1. Lassen Sie den Systemadministrator Adobe Experience Platform starten und navigieren Sie zu **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
 1. Suchen Sie mithilfe der E-Mail-Adresse des technischen Kontos oben nach den zu ändernden Anmeldeinformationen.
 1. Öffnen Sie die Anmeldeinformationen und wählen Sie **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
-1. Hinzufügen **Zugriff auf alle Produktionen**.
+1. Hinzufügen der Rolle, die **[!UICONTROL Manage destinations]** -Berechtigung.
 1. Klicks **[!UICONTROL Save]**.
 1. [Regenerieren](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) das Zugriffstoken in der Konsole.
 1. Stellen Sie sicher, dass das Token eine gültige Antwort mit der [Target-Verbindungs-API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
