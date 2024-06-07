@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Informationen zum [!DNL Commerce Marketplace], das Händlern eine kuratierte Auswahl an Lösungen anbietet und qualifizierten Entwicklern die Tools, Plattform und den besten Standort für den Aufbau eines florierenden Unternehmens bietet.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 1a5a00493e9994343c7decc763f2decdd11192c7
+source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Entwickler haben PHP traditionell verwendet, um in Prozessen enthaltene Erweiter
 
 Die folgenden Ressourcen bieten einen Ausgangspunkt für neue Anwender, um sich mit Apps vertraut zu machen:
 
-### Commerce-Ressourcen:
+### Commerce-Ressourcen
 
 - [Einrichten von I/O-Ereignissen für Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
 - [Konfigurieren von Ereignissen für Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
 - [Einrichten des Admin UI SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [Konvertieren einer Erweiterung in eine App](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
-### App Builder-Ressourcen:
+### App Builder-Ressourcen
 
-- [Commerce App Builder - Übersicht](https://developer.adobe.com/commerce/extensibility/app-development/)
+- [Übersicht über Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
 - [Einrichten des API-Netzwerks für Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 - [App Builder-Apps bereitstellen](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [CI/CD für App Builder-Apps](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
@@ -65,7 +65,7 @@ Sie können mehrere Zugriffsschlüssel für verschiedene Zwecke erstellen und si
 
    ![Zugriffsschlüssel](./assets/access-keys.png){width="600"}
 
-   - Klicken **[!UICONTROL Create a New Access Key]**. Geben Sie einen Namen für das neue Schlüsselpaar ein und klicken Sie auf **[!UICONTROL OK]**. Gültige Zeichen sind Groß- und Kleinbuchstaben und Bindestriche anstelle von Leerzeichen.
+   - Klicks **[!UICONTROL Create a New Access Key]**. Geben Sie einen Namen für das neue Schlüsselpaar ein und klicken Sie auf **[!UICONTROL OK]**. Gültige Zeichen sind Groß- und Kleinbuchstaben und Bindestriche anstelle von Leerzeichen.
 
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL OK]**.
 
@@ -85,11 +85,55 @@ Der Installationsprozess für [!DNL Marketplace] -Käufe unterscheiden sich von 
 
 ## Support
 
-Wenn Sie Hilfe bei der Installation oder Verwendung einer Erweiterung benötigen, lesen Sie zuerst in der Dokumentation, die der Erweiterung beigefügt ist. Wenn Sie die Antwort auf Ihre Frage nicht finden können, verwenden Sie die Kontaktinformationen in der Erweiterungsliste, um den Entwickler direkt zu kontaktieren.
+Wenn Sie Hilfe bei der Installation oder Verwendung einer Erweiterung benötigen, lesen Sie zuerst in der Dokumentation, die der Erweiterung beigefügt ist. Wenn Sie die Antwort auf Ihre Frage nicht finden können, verwenden Sie die Kontaktinformationen in der Erweiterungsliste, um den Entwickler direkt zu kontaktieren. Wenn das, was Sie in Marketplace kaufen, Ihren Anforderungen nicht entspricht, können Sie [eine Erstattung verlangen](#refund-requests) innerhalb von 25 Tagen ab Kaufdatum. Adobe prüft alle Erstattungsanträge und gibt (falls genehmigt) die entsprechende Erstattung aus. Support-Probleme im Zusammenhang mit Commerce Marketplace finden Sie im Abschnitt [[!DNL Marketplace] Hilfe-Center][5].
 
-Wenn das, was Sie auf Commerce Marketplace kaufen, nicht Ihren Bedürfnissen entspricht, können Sie innerhalb von 25 Tagen nach dem Kaufdatum eine Rückerstattung beantragen. Adobe prüft alle Erstattungsanträge und gibt, falls genehmigt, die entsprechende Erstattung aus.
+### Checkout-Probleme
 
-Support-Probleme im Zusammenhang mit Commerce Marketplace finden Sie im Abschnitt [[!DNL Marketplace] Hilfe-Center][5].
+Die Adressfelder in Ihrem Kontoprofil müssen zur Verifizierung im Marketplace-Einkaufssystem ausgefüllt werden.
+
+1. Fügen Sie die Adressfelder in Ihr Marketplace-Kontoprofil ein.
+1. Speichern Sie das aktualisierte Profil.
+1. Fahren Sie mit Ihrem Checkout fort.
+
+### Anmeldungsprobleme
+
+Anmeldungsprobleme beziehen sich normalerweise auf eine Abweichung zwischen Ihrer MAGEID- und E-Mail-Adresse in der Kontodatenbank. Wenden Sie sich für Unterstützung an den Support von Marketplace.
+
+>[!INFO]
+>
+>App- und Erweiterungskäufe können nicht getätigt werden [übertragen](#purchase-transfers) in ein neues Konto ein.
+
+### Open-Source-Fragen
+
+Das Support-Team von Marketplace löst Probleme im Zusammenhang mit dem [commerce.marketplace.adobe.com/](https://commercemarketplace.adobe.com/) und [commerce.developer.adobe.com/](https://commercedeveloper.adobe.com/) nur Sites. Bitte richten Sie Fragen zur Magento Open Source an die [Community-Forum](https://community.magento.com/) oder [Partner kontaktieren](https://business.adobe.com/products/magento/partners.html) wer bei der Magento Open Source helfen kann.
+
+### Erstattungsanträge
+
+Um eine Rückerstattung für einen Einkauf in Marketplace anzufordern, melden Sie sich bei Ihrem Konto an und führen Sie die folgenden Schritte aus:
+
+1. Klicks [!UICONTROL **Mein Profil**] > [!UICONTROL **Kaufverlauf**].
+1. Suchen Sie den Kauf und klicken Sie auf [!UICONTROL **Erstattungsantrag**].
+1. Füllen Sie das Formular für die Erstattungsbestellung aus.
+
+Der Support von Marketplace fordert Informationen an, nachdem die Rückerstattungsanforderung generiert wurde. Die Rückerstattungsoption ist 25 Tage nach dem Kaufdatum verfügbar. Siehe [Marketplace-Kundenvereinbarung](https://www.adobe.com/legal/terms/enterprise-licensing/magento-legacy-terms.html).
+
+### Bestellrechnungen
+
+Sie können Bestellrechnungen von der [!UICONTROL **Kaufverlauf**] in Ihrem Marketplace-Konto. Die Rechnung liefert weder die MwSt noch die Adresse des Verkäufers, da sie derzeit keine Marketplace-Anforderung ist.
+
+Um eine Bestellrechnung für einen Kauf in Marketplace herunterzuladen, melden Sie sich bei Ihrem Marketplace-Konto an und führen Sie die folgenden Schritte aus:
+
+1. Klicks [!UICONTROL **Mein Profil**] > [!UICONTROL **Kaufverlauf**].
+1. Suchen Sie den Kauf.
+1. Klicken Sie auf das Druckersymbol in der oberen rechten Ecke der Bestellung.
+
+### Kaufüberweisungen
+
+Das Support-Team von Marketplace kann Käufe nicht auf ein anderes Konto übertragen. Sie müssen alle Apps und Erweiterungen unter dem primären Commerce-Konto erwerben, um Installations- und Bereitstellungsprobleme zu vermeiden. Adobe Commerce hat eine Berechtigung für eine eindeutige Kennung. Da Composer für die Installation verwendet wird, ist nur ein Satz von [Zugriffsschlüssel](#create-an-access-key) mit dem primären Konto verknüpft ist, kann verwendet werden. Die einzige verfügbare Lösung besteht darin, [eine Erstattung verlangen](#refund-requests) über das Kaufkonto von Marketplace (sofern durch die Adobe Commerce-Erstattungsrichtlinie gestattet).
+
+Sie können [share](commerce-account-share.md) eine Commerce-Instanz über das primäre Konto. Der gemeinsame Zugriff gewährt einem untergeordneten Konto aus einem primären Konto spezielle Berechtigungen. Der freigegebene Zugriffspunkt wird aus dem primären Konto generiert. Das Hauptkonto kann das Konto mit Berechtigung für Commerce, das Hauptkaufmännische oder ein innerhalb eines Unternehmens freigegebenes Konto sein.
+
+Diese speziellen Berechtigungen gewähren auf Adobe Commerce denselben Zugriff wie auf die primäre Instanz. Sie werden jedoch nicht auf den Adobe Commerce Marketplace oder das Entwicklerportal übertragen. Das bedeutet, dass der Kauf einer Erweiterung über ein untergeordnetes Konto im Marketplace nicht für das primäre Konto freigegeben werden kann. Der freigegebene Zugriff ist eine Einbahnstraße (Hauptkonto, das untergeordnet werden soll). Es funktioniert nicht, wenn ein untergeordnetes Konto versucht, es an die primäre Instanz zu teilen.
 
 [1]: https://marketplace.magento.com/
 [2]: https://www.paypal.com/us/home
