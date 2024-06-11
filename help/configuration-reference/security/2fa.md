@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Security] &gt; [!UICONTROL 2FA] Seite des Commerce-Administrators.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Zweifak
 
 | Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | Global | Die Lebensdauer in Sekunden jedes einmaligen Kennworts (OTP), das vom Google Authenticator generiert wurde. Standard: `30` |
+| [!UICONTROL OTP Window] | Global | Bestimmt, wie lange (in Sekunden) das System das einmalige Kennwort (OTP) eines Administrators akzeptiert, nachdem es abgelaufen ist. Darf nicht länger sein als die Lebensdauer eines einzelnen OTP (normalerweise 30 Sekunden). Standard: `29` |
 
 {style="table-layout:auto"}
 

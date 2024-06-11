@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Zwei-Faktor-Authentifizierungsunterstü
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: c391a3eef8be0dd45cc8a499b63bcb0fc32640aa
+source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,11 @@ Füllen Sie die Einstellungen für jede erforderliche 2FA-Methode aus.
 
 Um zu ändern, wie lange das einmalige Kennwort (OTP) während der Anmeldung verfügbar ist, löschen Sie die **[!UICONTROL Use system value]** aktivieren. Geben Sie dann die gewünschte Anzahl von Sekunden ein. **[!UICONTROL OTP Window]** gültig sein.
 
+![Sicherheitskonfiguration - Google](../configuration-reference/security/assets/2fa-google.png){width="600" zoomable="yes"}
+
 >[!NOTE]
 >
->In Adobe Commerce 2.4.7 und höher steuert die OTP-Fensterkonfigurationseinstellung, wie lange (in Sekunden) das System das einmalige Kennwort (OTP) eines Administrators nach dessen Ablauf akzeptiert. Dieser Wert muss weniger als 30 Sekunden betragen. Die Standardeinstellung des Systems lautet `1`.<br><br> In Version 2.4.6 bestimmt die OTP-Fenstereinstellung die Anzahl der vergangenen und zukünftigen OTP-Codes, die gültig bleiben. Ein Wert von `1` gibt an, dass der aktuelle OTP-Code sowie ein Code in der Vergangenheit und ein Code in der Zukunft zu jedem beliebigen Zeitpunkt gültig bleiben.
+>In Adobe Commerce 2.4.7 und höher steuert die OTP-Fensterkonfigurationseinstellung, wie lange (in Sekunden) das System das einmalige Kennwort (OTP) eines Administrators nach dessen Ablauf akzeptiert. Dieser Wert muss weniger als 30 Sekunden betragen. Die Standardeinstellung des Systems lautet `29`.<br><br> In Version 2.4.6 bestimmt die OTP-Fenstereinstellung die Anzahl der vergangenen und zukünftigen OTP-Codes, die gültig bleiben. Ein Wert von `1` gibt an, dass der aktuelle OTP-Code sowie ein Code in der Vergangenheit und ein Code in der Zukunft zu jedem beliebigen Zeitpunkt gültig bleiben.
 
 ### [!DNL Duo Security]
 
