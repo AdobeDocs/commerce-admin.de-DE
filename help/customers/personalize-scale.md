@@ -3,9 +3,9 @@ title: Erstellen ansprechender, personalisierter Erlebnisse im Maßstab
 description: Erfahren Sie, welche Funktionen im Adobe verfügbar sind [!DNL Commerce] ermöglichen es Ihnen, ein personalisiertes Erlebnis für Ihre Kunden zu erstellen.
 feature: Customers, Storefront, Personalization
 exl-id: 9546e1b8-796b-4694-8396-773a2b0e9c12
-source-git-commit: 9884d0991cceda7c2917f723467230d3702b2d0f
+source-git-commit: 728a1fdb413009a00377cd8205dde93cd4feadc8
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1808'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,22 @@ Adobe [!DNL Commerce] Die Datenfreigabe umfasst zwei wichtige Komponenten:
 
 1. [[!DNL Audience Activation]](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation): Verwenden Sie [!DNL Real-Time CDP] Zielgruppen, um dynamische Inhaltsbausteine, Promotions und zugehörige Produktregeln auf Ihrer Adobe zu personalisieren. [!DNL Commerce] Site.
 
+### Personalisierte Storefront-Erlebnisse für alle Kanäle im großen Maßstab
+
+Adobe [!DNL Commerce] kann die Vorteile einer leistungsstarken Storefront mit dem Namen [Edge Delivery Services](https://experienceleague.adobe.com/developer/commerce/storefront/), um personalisierte Erlebnisse über alle Ihre Kanäle hinweg bereitzustellen, mit KI-Funktionen im Kern und Geschwindigkeit als Grundlage.
+
+Mit Edge Delivery Services können Sie:
+
+- **Personalisierte Inhalte erstellen**: Verwenden Sie dokumentbasiertes Authoring und native Experimente mit generativen KI-Text- und Bildvarianten, um das Erlebnis skaliert zu personalisieren. Verwenden Sie Assets und die Generative AI-Inhaltserstellung, um skaliert Produkt- und Marketing-Bilder zu erstellen.
+
+- **Generieren von Varianten**: Ermöglicht es Inhaltsautoren, mithilfe der generativen KI große Mengen personalisierter KI zu erstellen [Textinhalt und Bildvarianten](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/generative-ai/generate-variations) mit Adobe Firefly.
+
+- **Bereitstellen über Edge Delivery Services Storefront**: Content on the Edge and Commerce-Funktionen basierend auf Dropdown-Komponenten, um für Ihre Zielgruppen maßgeschneiderte Shopping-fähige Erlebnisse zu erstellen.
+
+- **Commerce und Adobe Experience Manager Assets**: Generative KI-Produktsortimente und Skalierungsversionen. Erstellen, liefern und überwachen Sie die Inhaltsbereitstellung über jeden Kanal hinweg.
+
+![Dropins: Produktdetailseite](assets/drop-in.png){width="700" zoomable="yes"}
+
 ### Vordefinierte Personalisierung: Erste Schritte mit nativem Adobe [!DNL Commerce] Funktionen
 
 Adobe [!DNL Commerce] bietet leistungsstarke Personalisierung mit nativen nativen Funktionen. Die folgende Tabelle beschreibt Folgendes [!DNL Commerce] Funktionen können Sie sofort aktivieren, um mit der Personalisierung-Journey zu beginnen.
@@ -90,7 +106,7 @@ Adobe [!DNL Commerce] -Kunden nutzen für eine Vielzahl von Anwendungsfällen vo
 
 | Anwendungsfall | Lösung |
 |---|---|
-| **Personalisierte Site-Inhalte** - Personalisieren von Site-Bannern und anderen Seiteninhalten basierend auf Käuferaktionen wie Produktbrowsing und Kategorieaffinitäten. Stellen Sie Inhalte bereit, die auf den Ergebnissen von A/B-Tests oder Geschäftszielen basieren. | **Adobe [!DNL Commerce] Nur**:<br>Bereitstellen segmentspezifischer [dynamische Inhaltsbausteine](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] mit Real-Time CDP **:<br>Verwendung [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) , um zielgruppenspezifische dynamische Inhaltsbausteine bereitzustellen, die auf Echtzeit-Aktionen und einheitliche Kundenprofildaten reagieren, während Profile und Zielgruppen in Real-Time CDP zentral verwaltet werden.<br>**[!DNL Commerce] mit[!DNL Target]**:<br>Personalisieren Sie alle Teile des Site-Erlebnisses, einschließlich Inhalt, Navigationselemente, ganzseitigen Layouts und mehr mithilfe von Adobe. [!DNL Commerce] Daten in Adobe [!DNL Target]. A/B-Test-Inhalte automatisch auswählen und für jeden Kunden bereitstellen.<br>**[!DNL Commerce] mit AEM Assets **:<br>Speichern Sie alle Ihre Inhalte in Adobe Experience Manager Assets. Nativer Zugriff auf diesen Inhalt über Adobe Commerce. Verwenden Sie GenAI, um Inhaltsvarianten zu erstellen und für verschiedene Segmente oder Zielgruppen zu personalisieren. |
+| **Personalisierte Site-Inhalte** - Personalisieren von Site-Bannern und anderen Seiteninhalten basierend auf Käuferaktionen wie Produktbrowsing und Kategorieaffinitäten. Stellen Sie Inhalte bereit, die auf den Ergebnissen von A/B-Tests oder Geschäftszielen basieren. | **Adobe [!DNL Commerce] Nur**:<br>Bereitstellen segmentspezifischer [dynamische Inhaltsbausteine](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/dynamic-blocks/dynamic-blocks).<br>**[!DNL Commerce] mit Real-Time CDP **:<br>Verwendung [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) , um zielgruppenspezifische dynamische Inhaltsbausteine bereitzustellen, die auf Echtzeit-Aktionen und einheitliche Kundenprofildaten reagieren, während Profile und Zielgruppen in Real-Time CDP zentral verwaltet werden.<br>**[!DNL Commerce] mit[!DNL Target]**:<br>Personalisieren Sie alle Teile des Site-Erlebnisses, einschließlich Inhalt, Navigationselemente, ganzseitigen Layouts und mehr mithilfe von Adobe. [!DNL Commerce] Daten in Adobe [!DNL Target]. A/B-Test-Inhalte automatisch auswählen und für jeden Kunden bereitstellen.<br>**[!DNL Commerce] mit AEM Assets **:<br>Speichern Sie alle Ihre Inhalte in Adobe Experience Manager Assets. Nativer Zugriff auf diesen Inhalt über Adobe Commerce. Verwenden Sie Generative KI, um Inhaltsvarianten zu erstellen und für verschiedene Segmente oder Zielgruppen zu personalisieren. |
 | **Personalisiertes Onsite-Angebot basierend auf Verhalten** - Personalisieren Sie Promotions auf der Basis von Käuferaktionen, wie z. B. Produktsuche und Kategorieaffinitäten. Stellen Sie das nächste beste Angebot basierend auf den Ergebnissen von A/B-Tests oder Geschäftszielen bereit. | **Adobe [!DNL Commerce] Nur**:<br>Bereitstellung des segmentspezifischen Katalogs und [Warenkorbpreisregeln](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart).<br>**Adobe [!DNL Commerce] mit Real-Time CDP**:<br>Verwendung [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) , um zielgruppenspezifische Angebote bereitzustellen und gleichzeitig Profile/Audiences in Real-Time CDP zentral zu verwalten.<br>**Commerce mit[!DNL Target]**: Verwenden Sie offer decisioning, um zu bestimmen, welches Angebot bereitgestellt werden soll, um A/B-Tests durchzuführen oder Geschäftsziele festzulegen, die als Leitfaden für in Adobe Commerce bereitgestellte Angebote dienen. |
 
 ### Analytics und Einblicke
