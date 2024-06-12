@@ -3,9 +3,9 @@ title: Erstellen einer verwandten Produktregel
 description: Erfahren Sie, wie Sie eine verwandte Produktregel erstellen, die ausgelöst werden kann, um verwandte Produkte, Upsells und Querverkäufe anzuzeigen.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
+source-git-commit: cea943cd7f4d148c885fbd113c3bc08bfdf63ea0
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Der Prozess der Erstellung einer verwandten Produktregel ähnelt dem Einrichten 
 
    - Wenn die Regel für eine bestimmte [Kundensegment](../customers/customer-segments.md), set **[!UICONTROL Customer Segments]** nach `Specified` und wählen Sie das Kundensegment aus der Liste aus.
 
-   - (**Beta**) Wenn die Regel für eine bestimmte [Real-Time CDP-Audience](../customers/audience-activation.md), set **[!UICONTROL Real-Time CDP Audience]** nach `Specified` und wählen Sie die Real-Time CDP-Audience aus der Liste aus. Diese Funktion befindet sich in der Beta-Phase. Wenn Sie dem Betaprogramm beitreten möchten, senden Sie eine Anfrage an [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - Wenn die Regel für eine bestimmte [Real-Time CDP-Audience](../customers/audience-activation.md), set **[!UICONTROL Real-Time CDP Audience]** nach `Specified` und wählen Sie die Real-Time CDP-Audience aus der Liste aus. Diese Funktion befindet sich in der Beta-Phase. Wenn Sie dem Betaprogramm beitreten möchten, senden Sie eine Anfrage an [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
 
      ![Regel für verwandte Produkte - Real-Time CDP-Zielgruppe](./assets/rtcdp-related-products.png){width="500"}
 

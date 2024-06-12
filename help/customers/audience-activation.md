@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: aacba21dc4472b04e87b0a3c5e722b3ecd52770d
+source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30. Mai 2023_
 ![Neu](../assets/new.svg) - Die [Dashboard für Real-Time CDP-Zielgruppen](#real-time-cdp-audiences-dashboard) , um die Möglichkeit zur Sortierung, Suche und Filterung der aktiven Zielgruppen in Ihrer Adobe Commerce-Instanz einzuschließen.
 
 +++
+
+### 2,2,0
+
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+
+_12. Juni 2024_
+
+![Neu](../assets/new.svg) - GA-Version für [verwandte Produktregeln](../merchandising-promotions/product-related-rule-create.md) durch Zielgruppen informiert werden.
 
 ### 2.1.1
 
@@ -172,9 +180,11 @@ Mit dem [!DNL Audience Activation] -Erweiterung aktiviert haben, können Sie:
 
 - [Erstellen einer Preisregel für den Warenkorb](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) durch Zielgruppen informiert
 - [Dynamischen Baustein erstellen](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) durch Zielgruppen informiert
-- [(**Beta**) Erstellen einer verwandten Produktregel](../merchandising-promotions/product-related-rule-create.md) durch Zielgruppen informiert
+- [Erstellen einer verwandten Produktregel](../merchandising-promotions/product-related-rule-create.md) durch Zielgruppen informiert
 
-Für einen vollständigen durchgängigen Anwendungsfall zum Exportieren [!DNL Commerce] Daten an Real-Time CDP übermitteln, eine Zielgruppe erstellen und diese Zielgruppe dann für [!DNL Commerce], siehe [Erstellen einer Zielgruppe in Real-Time CDP mithilfe von [!DNL Commerce] Ereignisdaten](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>[!TIP]
+>
+>Für einen vollständigen durchgängigen Anwendungsfall zum Exportieren [!DNL Commerce] Daten an Real-Time CDP übermitteln, eine Zielgruppe erstellen und diese Zielgruppe dann für [!DNL Commerce], siehe [Erstellen einer Zielgruppe in Real-Time CDP mithilfe von [!DNL Commerce] Ereignisdaten](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Dashboard für Real-Time CDP-Zielgruppen
 
@@ -195,6 +205,7 @@ Das Dashboard enthält die folgenden Felder:
 | `Websites` | Gibt an, welche Websites für die Verwendung der Zielgruppen konfiguriert sind. |
 | `Dynamic Blocks` | Gibt an, welche dynamischen Blöcke für die Verwendung der Zielgruppen konfiguriert sind. |
 | `Cart Price Rules` | Gibt an, welche Regeln für den Warenkorbpreis für die Verwendung der Zielgruppen konfiguriert sind. |
+| `Related Product Rules` | Gibt an, welche verwandten Produktregeln für die Verwendung der Zielgruppen konfiguriert sind. |
 | `Last updated` | Gibt an, wann die Zielgruppe in Real-Time CDP geändert wurde. |
 | `Sync now` | Ruft neue oder aktualisierte Zielgruppen aus Real-Time CDP ab. |
 | `Customize table` | Ermöglicht das Anzeigen oder Verbergen der `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, und `Last updated` Spalten. |
