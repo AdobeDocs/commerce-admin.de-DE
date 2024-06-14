@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce und Magento Open Source enthalten viele T
 breadcrumb-title: Merchandising und Promotions
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: f9d1f66f8fb8d5c00bfa298234ab22becec33f56
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '267'
 ht-degree: 1%
 
 ---
@@ -87,3 +87,5 @@ ht-degree: 1%
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Google Content Experiments](google-content-experiments.md)
+- [Zurück zu den Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+

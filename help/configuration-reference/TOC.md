@@ -5,9 +5,9 @@ breadcrumb-title: Konfigurationsreferenz
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 76bd1b1af9b55d69bd98209d70fb5518f190a3e1
+source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '161'
 ht-degree: 1%
 
 ---
@@ -78,9 +78,11 @@ ht-degree: 1%
 - [Sales Channel](./sales-channels.md)
 - Dienste {#services}
    - [Web-API](./services/magento-web-api.md)
-   - [Commerce-Services](./services/saas.md)
+   - [Commerce Services](./services/saas.md)
    - [OAuth](./services/oauth.md)
 - Erweitert {#advanced}
    - [Admin](./advanced/admin.md)
    - [System](./advanced/system.md)
    - [Entwickler](./advanced/developer.md)
+- [Zurück zu den Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+
