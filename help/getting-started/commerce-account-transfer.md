@@ -1,12 +1,12 @@
 ---
 title: Übertragen eines Commerce-Kontos
-description: Erfahren Sie, wie Sie Ihr Commerce-Konto an einen anderen Eigentümer oder eine E-Mail-Adresse übertragen können.
+description: Erfahren Sie, wie Sie Ihr Commerce-Konto an einen anderen Eigentümer oder eine andere E-Mail-Adresse übertragen können.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: dd8ccda17b0ef83cb4b0ce130fdc9315026733b1
+source-git-commit: 59a88468dabfd1042b664f658225de2504b66b1b
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 1%
+source-wordcount: '986'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Wenn sich die Verantwortlichkeiten der Unternehmen ändern, müssen Sie möglicherweise das Eigentum an Ihrem bestehenden Commerce-Konto an einen neuen Eigentümer oder an eine andere E-Mail-Adresse übertragen. Diese Übertragung erfordert eine Änderung der primären Benutzer-E-Mail, die mit dem Konto verknüpft ist.
 
-Die folgenden Informationen beschreiben den Vorgang zum Übertragen eines Commerce-Kontos (MAGEID). Es enthält keine Änderungen für das Eigentum an Cloud-Konten (Cloud-Projekt). Weitere Informationen zum Zugriff auf Cloud-Projekte finden Sie unter [Verwalten des Benutzerzugriffs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) im _Benutzerhandbuch zu Commerce on Cloud Infrastructure_.
+Die folgenden Informationen beschreiben die Übertragung eines Commerce-Kontos (MAGEID). Es enthält keine Änderungen für das Eigentum an Cloud-Konten (Cloud-Projekt oder New Relic). Weitere Informationen zum Zugriff auf Cloud-Projekte finden Sie unter [Verwalten des Benutzerzugriffs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) im _Handbuch zu Commerce on Cloud Infrastructure_.
 
 ## Transfertyp identifizieren
 
@@ -46,29 +46,29 @@ Für diesen Transfertyp müssen Sie zunächst einen zugehörigen Adobe ID erstel
 
 1. Gehen Sie zu [Commerce-Konto](https://account.magento.com/customer/account/login/).
 
-1. Klicken **[!UICONTROL Sign in with Adobe ID]**.
+1. Klicks **[!UICONTROL Sign in with Adobe ID]**.
 
-1. Klicken **[!UICONTROL Create an account]**.
+1. Klicks **[!UICONTROL Create an account]**.
 
 1. Geben Sie die E-Mail-Adresse des aktuellen Eigentümers und ein Kennwort ein.
 
-1. Klicken **[!UICONTROL Continue]**.
+1. Klicks **[!UICONTROL Continue]**.
 
    Dadurch wird eine Adobe ID erstellt und mit dem aktuellen Commerce-Konto (MAGEID) verknüpft. Mit diesem Konto-Link wird die _[!UICONTROL Email]_-Feld für alle Änderungen blockiert wird. Die zugehörige E-Mail-Adresse wird vom Adobe ID-Konto verwaltet.
 
 1. Navigieren Sie zu [account.adobe.com](https://account.adobe.com/).
 
-1. Klicken **[!UICONTROL Change Email]**.
+1. Klicks **[!UICONTROL Change Email]**.
 
 1. Geben Sie die E-Mail-Adresse des neuen Eigentümers ein.
 
-1. Klicken **[!UICONTROL Change]**.
+1. Klicks **[!UICONTROL Change]**.
 
    Dadurch wird eine Verifizierungs-E-Mail an die neue E-Mail-Adresse gesendet. Die E-Mail enthält einen Bestätigungscode, der zum Abschließen der Änderung der E-Mail-Adresse erforderlich ist.
 
 1. Geben Sie den Bestätigungscode ein, der an die neue E-Mail-Adresse gesendet wird.
 
-1. Klicken **[!UICONTROL Verify]**.
+1. Klicks **[!UICONTROL Verify]**.
 
 ## Email change
 
@@ -82,13 +82,13 @@ Für diesen Transfertyp müssen Sie zunächst einen zugehörigen Adobe ID erstel
 
 1. Geben Sie im Dialogfeld die E-Mail-Adresse des neuen Eigentümers ein.
 
-1. Klicken **[!UICONTROL Change]**.
+1. Klicks **[!UICONTROL Change]**.
 
    Dadurch wird eine Verifizierungs-E-Mail an die neue E-Mail-Adresse gesendet. Die E-Mail enthält einen Bestätigungscode, der zum Abschließen der Änderung der E-Mail-Adresse erforderlich ist.
 
 1. Geben Sie den Bestätigungscode ein, der an die neue E-Mail-Adresse gesendet wird.
 
-1. Klicken **[!UICONTROL Verify]**.
+1. Klicks **[!UICONTROL Verify]**.
 
 ## Adobe ID-Kontowechsel
 
@@ -110,13 +110,13 @@ Der aktuelle Eigentümer führt diese Schritte aus, um seinen Adobe ID mit einer
 
    Sie müssen Zugriff auf die E-Mail-Adresse haben, damit Sie die E-Mail mit dem Bestätigungscode abrufen können.
 
-1. Klicken **[!UICONTROL Change]**.
+1. Klicks **[!UICONTROL Change]**.
 
    Dadurch wird eine Verifizierungs-E-Mail an die temporäre E-Mail-Adresse gesendet. Die E-Mail enthält einen Bestätigungscode, der zum Abschließen der Änderung der E-Mail-Adresse erforderlich ist.
 
 1. Geben Sie den Bestätigungscode ein, der an die temporäre E-Mail-Adresse gesendet wird.
 
-1. Klicken **[!UICONTROL Verify]**.
+1. Klicks **[!UICONTROL Verify]**.
 
 1. Melden Sie sich vom Adobe-Konto ab.
 
@@ -130,13 +130,13 @@ Nachdem der aktuelle Eigentümer die Übertragung an eine temporäre E-Mail-Adre
 
 1. Geben Sie im Dialogfeld die ursprüngliche E-Mail-Adresse des aktuellen Eigentümers ein.
 
-1. Klicken **[!UICONTROL Change]**.
+1. Klicks **[!UICONTROL Change]**.
 
    Dadurch wird eine Verifizierungs-E-Mail an diese E-Mail-Adresse gesendet. Die E-Mail enthält einen Bestätigungscode, der zum Abschließen der Änderung der E-Mail-Adresse erforderlich ist.
 
 1. Geben Sie den Bestätigungscode ein, der an den aktuellen Eigentümer gesendet wird.
 
-1. Klicken **[!UICONTROL Verify]**.
+1. Klicks **[!UICONTROL Verify]**.
 
 1. Melden Sie sich vom Adobe-Konto ab.
 
@@ -152,13 +152,13 @@ Nachdem der neue Eigentümer sein Adobe-Konto erfolgreich an den aktuellen (jetz
 
 1. Geben Sie im Dialogfeld die E-Mail-Adresse des neuen Eigentümers ein.
 
-1. Klicken **[!UICONTROL Change]**.
+1. Klicks **[!UICONTROL Change]**.
 
    Dadurch wird eine Verifizierungs-E-Mail an diese E-Mail-Adresse gesendet. Die E-Mail enthält einen Bestätigungscode, der zum Abschließen der Änderung der E-Mail-Adresse erforderlich ist.
 
 1. Geben Sie den Bestätigungscode ein, der an den neuen Eigentümer gesendet wird.
 
-1. Klicken **[!UICONTROL Verify]**.
+1. Klicks **[!UICONTROL Verify]**.
 
 1. **Senden einer Support-Anfrage** , um das Supportteam darüber zu informieren, dass Sie die E-Mail-Adresse des Kontoinhabers aktualisiert haben.
 
