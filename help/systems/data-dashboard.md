@@ -3,9 +3,9 @@ title: Data Management Dashboard
 description: Erfahren Sie, wie Sie auf Einblicke über Datenströme für zugreifen können. [!DNL Catalog Service], [!DNL Live Search], und [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 13f47c8dccb98a721924df716ae0793db6889f3a
+source-git-commit: e883a678885aefaf832cece431e458c5d7741c40
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,10 @@ Wenn Sie Produkte in der Commerce-Datenbank aktualisieren, werden die Produktdat
 >Die Zeit, die zum Abschluss der Synchronisierung benötigt wird, hängt von der Größe Ihres Katalogs und dem Volumen der aktualisierten Daten ab.
 
 Wenn die Anzahl der verarbeiteten Produkte mit der Anzahl der aktualisierten Produkte übereinstimmt, zeigt dies an, dass die Synchronisierung abgeschlossen ist.
+
+>[!NOTE]
+>
+>Adobe bietet außerdem eine Befehlszeilenschnittstelle und Systemprotokolle, die Entwickler und Systemintegratoren verwenden können, um Synchronisierungsvorgänge zu verwalten und zu verfolgen und Fehler für Commerce SaaS-Dienste zu beheben. Weitere Informationen finden Sie unter [SaaS-Datenexportanleitung](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### Liste der synchronisierten Produkte
 
