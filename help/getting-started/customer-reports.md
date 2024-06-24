@@ -3,9 +3,9 @@ title: Kundenberichte
 description: Kundenberichte, die in Adobe Commerce und Magento Open Source verfügbar sind, bieten Einblicke in Kundenaktivitäten während eines bestimmten Zeitraums oder Datumsbereichs.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -41,8 +41,8 @@ Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTR
 | [!UICONTROL Interval] | Das Gesamtbestellungsintervall nach `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Der Name des Kunden, der die Bestellungen aufgegeben hat. |
 | [!UICONTROL Orders] | Die Anzahl der Bestellungen für das angegebene Intervall. |
-| [!UICONTROL Average] | Durchschnittlicher Bestellbetrag. |
-| [!UICONTROL Total] | Die Summe aller Bestellungen für den Zeitraum. |
+| [!UICONTROL Average] | Durchschnittlicher Bestellbetrag. Dieser Betrag wird immer für die Produktpreise berechnet **ohne Steuern** auch wenn die Preise der Katalogprodukte, die Zwischensumme der Bestellungen und die Gesamtbestellsumme Steuern enthalten. Daher unterscheidet sich der im Bericht angezeigte Betrag von dem in den Bestelldetails angegebenen Betrag, wenn die Bestellsummen Steuern enthalten. |
+| [!UICONTROL Total] | Die Summe aller Bestellungen für den Zeitraum. Dieser Betrag wird immer für die Produktpreise berechnet **ohne Steuern** auch wenn die Preise der Katalogprodukte, die Zwischensumme der Bestellungen und die Gesamtbestellsumme Steuern enthalten. Daher unterscheidet sich die im Bericht angezeigte Summe von dem in den Bestelldetails angezeigten Betrag, wenn die Bestellsummen Steuern enthalten. |
 
 {style="table-layout:auto"}
 
@@ -73,8 +73,8 @@ Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTR
 | [!UICONTROL Interval] | Das Bestellzählungsintervall, nach `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Der Kunde, der die Bestellung aufgegeben hat. |
 | [!UICONTROL Orders] | Die Anzahl der Bestellungen für das angegebene Intervall. |
-| [!UICONTROL Average] | Durchschnittlicher Bestellbetrag. |
-| [!UICONTROL Total] | Die Summe aller Bestellungen für den Zeitraum. |
+| [!UICONTROL Average] | Durchschnittlicher Bestellbetrag. Dieser Betrag wird immer für die Produktpreise berechnet **ohne Steuern** auch wenn die Preise der Katalogprodukte, die Zwischensumme der Bestellungen und die Gesamtbestellsumme Steuern enthalten. Daher unterscheidet sich der im Bericht angezeigte Betrag von dem in den Bestelldetails angegebenen Betrag, wenn die Bestellsummen Steuern enthalten. |
+| [!UICONTROL Total] | Die Summe aller Bestellungen für den Zeitraum. Dieser Betrag wird immer für die Produktpreise berechnet **ohne Steuern** auch wenn die Preise der Katalogprodukte, die Zwischensumme der Bestellungen und die Gesamtbestellsumme Steuern enthalten. Infolgedessen unterscheidet sich die im Bericht angezeigte Summe von dem in den Bestelldetails angezeigten Betrag, wenn die Bestellsummen Tas enthalten. |
 
 {style="table-layout:auto"}
 
