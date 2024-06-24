@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Ihrem Adobe Commerce-Store einem Unternehm
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 feature: B2B, Companies, Configuration, Customers
 role: Admin, User
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: a5a8da076d6cd91eb6c3e573fec5b3fb9d2d3341
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,10 @@ Die Zuweisung einer Kundengruppe zu einem Unternehmen entspricht im Wesentlichen
 
    Wenn Sie die dem Unternehmen zugewiesene Kundengruppe ändern, werden die Profile aller Unternehmensmitglieder aktualisiert.
 
+   >[!NOTE]
+   >
+   >Nachdem ein Benutzer die Unternehmensgruppe geändert hat, muss er sich bei der Storefront abmelden und sich dort anmelden, um neue Preise im Katalog zu sehen.
+
    ![Ändern der Kundengruppe oder des freigegebenen Katalogs](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
    >[!NOTE]
@@ -43,4 +47,4 @@ Die Zuweisung einer Kundengruppe zu einem Unternehmen entspricht im Wesentlichen
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL Proceed]**.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicks **[!UICONTROL Save]**.
