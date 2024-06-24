@@ -3,9 +3,9 @@ title: Freigeben von [!DNL Commerce] account
 description: Erfahren Sie, wie Sie eingeschränkten Zugriff auf [!DNL Commerce] andere [!DNL Commerce] Kontoinhaber.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 1bf75814ed292a4623b934910026f9fb127058be
+source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ Die [!DNL Commerce] Das Supportteam hat keinen Zugriff auf das Konto und kann ke
    Die neuen Benutzerinformationen werden im _[!UICONTROL Manage Permissions]_und eine E-Mail-Einladung mit Anweisungen zum Zugriff auf das freigegebene Konto an den neuen Benutzer gesendet.
 
    ![Berechtigungen für freigegebenen Zugriff verwalten](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Der Zugriff auf die _[!UICONTROL Security Tool]_- Jeder Benutzer mit einer MAGE-ID kann das Sicherheitsscan-Tool mit seinem eigenen Konto einrichten. Sie benötigen lediglich die erforderlichen Berechtigungen, um Änderungen an der Site vorzunehmen und mithilfe eines der [erforderliche Methoden](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)).
 
 ## Auf freigegebene Konten zugreifen
 
