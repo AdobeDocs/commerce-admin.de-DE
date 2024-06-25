@@ -3,9 +3,9 @@ title: "Konfigurieren [!DNL Inventory Management]"
 description: Informationen zur Konfiguration von [!DNL Inventory Management] Optionen, die die Verfügbarkeit der Quelle, Storefront-Produkte und den Versand von Bestellungen bestimmen.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Eine andere Möglichkeit, den Schwellenwert für die Lagerverfügbarkeit zu nutz
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Bestimmt, ob Teile eines Produkts separat ausgeliefert werden können. Diese Option ist sichtbar, wenn **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | Gibt an, ob Rückläufe zulässig sind. Wird auf der Ebene der Quelle angegeben, berechnet auf der Ebene des Lagers basierend auf zugewiesenen Quellen. Wenn diese Option aktiviert ist, um Rückstände zuzulassen, legen Sie einen negativen Wert für den Schwellenwert für &quot;Nicht auf Lager&quot; fest (siehe [Konfigurieren von Rückständen](backorders.md)) wird empfohlen. Optionen:<br />**[!UICONTROL No Backorders]**: Akzeptiert keine Nachbestellungen, wenn das Produkt nicht vorrätig ist.<br />**[!UICONTROL Allow Qty Below 0]**: Akzeptiert Rückaufträge, wenn die Menge unter null fällt.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: Akzeptiert Rückaufträge, wenn die Menge unter null fällt, benachrichtigt Kunden jedoch darüber, dass weiterhin Bestellungen aufgegeben werden können. |
 | [!UICONTROL Notify for Quantity Below] | Legt die Menge fest, die Trigger eine Meldung über die Menge unter und warnt vor einem niedrigen Lagerbestand. Dieser Betrag wird von der Verkaufsmenge abgezogen, nicht von der Bestandsmenge. |
-| [!UICONTROL Enable Qty Increments] | Bestimmt, ob das Produkt in Mengenschritten verkauft werden kann. Wenn diese Option aktiviert ist, geben Sie die Menge der Produkte an, die in einem inkrementellen Schritt erworben werden müssen. |
+| [!UICONTROL Enable Qty Increments] | Bestimmt, ob das Produkt in Mengenschritten verkauft werden kann. Wenn diese Option aktiviert ist, geben Sie die Menge der Produkte an, die in einem inkrementellen Schritt erworben werden müssen. Inkrementierungen legen fest, wie viele Produktelemente als einzelnes Produkt und als untergeordnetes Element konfigurierbarer, gruppierter und gebündelter Produkte erworben werden müssen. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] verwendet diesen Wert nicht. Wenn Sie eine Rückgabe oder ein Kreditmemo abschließen, wird die Produktmenge automatisch an die betroffene Quellmenge zurückgegeben. Siehe [Konfigurieren von Produktoptionen](product-options.md). |
 
 ## Zurückfallen und Vererbung der Konfiguration

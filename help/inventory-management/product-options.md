@@ -3,9 +3,9 @@ title: "Konfigurieren [!DNL Inventory Management] Produktoptionen"
 description: Erfahren Sie, wie Sie die [!DNL Inventory Management] Produktkonfigurationsoptionen.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-source-git-commit: ccd93a54b6fa23a7a54fb423f8232c72cd8fe027
+source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,8 @@ Konfigurieren Sie die Mengen und zusätzlichen Einstellungen pro [hinzugefügte 
 
    So kann beispielsweise ein Artikel, der in sechs Schritten verkauft wird, in Mengen von 6, 12, 18 usw. gekauft werden.
 
+   **[!UICONTROL Qty Increments]** -Feld legt fest, wie viele Produktelemente als einzelnes Produkt und als untergeordnetes Element konfigurierbarer, gruppierter und gebündelter Produkte erworben werden müssen.
+
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Done]** und dann **[!UICONTROL Save]**.
 
 ### Feldbeschreibungen
@@ -113,7 +115,7 @@ Konfigurieren Sie die Mengen und zusätzlichen Einstellungen pro [hinzugefügte 
 | [!UICONTROL Qty Uses Decimals] | Global | Bestimmt, ob Kunden bei der Eingabe der bestellten Menge einen Dezimalwert anstelle einer Ganzzahl verwenden können. Optionen:<br />`Yes` - Erlaubt die Eingabe von Werten als Dezimalstellen anstelle von Ganzzahlen. Dezimalstellen eignen sich für Produkte, die nach Gewicht, Volumen oder Länge verkauft werden.<br />`No` - Erfordert die Angabe von Mengenwerten als Ganzzahlen. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Global | Bestimmt, ob Teile des Produkts separat ausgeliefert werden können. Diese Option ist sichtbar, wenn **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
 | [!UICONTROL Backorders] | Global | Bestimmt, wie Rückstände verwaltet werden. Aufstockungen ändern den Verarbeitungsstatus der Bestellung nicht. Die Mittel werden weiterhin unmittelbar bei der Bestellung zugelassen oder erfasst, unabhängig davon, ob das Produkt vorrätig ist. Produkte werden versandt, sobald sie verfügbar werden. Wenn diese Option aktiviert ist, wird empfohlen, einen negativen Betrag für den Schwellenwert außerhalb des Lagers einzugeben. Optionen:<br/>`No Backorders` - Keine Nachbestellungen, wenn das Produkt nicht vorrätig ist.<br />`Allow Qty Below 0` - Akzeptiert Rückstände, wenn die Menge unter null fällt.<br />`Allow Qty Below 0 and Notify Customer` - Akzeptiert Rückaufträge, wenn die Menge unter null fällt, benachrichtigt Kunden jedoch darüber, dass weiterhin Bestellungen aufgegeben werden können. |
-| [!UICONTROL Enable Qty Increments] | Global | Bestimmt, ob das Produkt in Mengenschritten verkauft werden kann. |
+| [!UICONTROL Enable Qty Increments] | Global | Bestimmt, ob das Produkt in Mengenschritten verkauft werden kann. Inkrementierungen legen fest, wie viele Produktelemente als einzelnes Produkt und als untergeordnetes Element konfigurierbarer, gruppierter und gebündelter Produkte erworben werden müssen. |
 
 >[!NOTE]
 >
