@@ -3,7 +3,7 @@ title: Data Management Dashboard
 description: Erfahren Sie, wie Sie auf Einblicke über Datenströme für zugreifen können. [!DNL Catalog Service], [!DNL Live Search], und [!DNL Product Recommendation]s.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: e883a678885aefaf832cece431e458c5d7741c40
+source-git-commit: 4495a27b57c04c6f9c37b2c5237b5f2233cc8532
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Das Data Management Dashboard bietet einen Überblick über den Synchronisierung
 
 ## Zielgruppe
 
-Das Data Management Dashboard ist für alle Commerce-Händler, die [[!DNL Product Recommendations]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview)oder [[!DNL Catalog Service]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) mit einer aktiven Lizenz.
+Das Data Management Dashboard ist für alle Commerce-Händler, die [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview)oder [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) mit einer aktiven Lizenz.
 
 Das Dashboard für die Datenverwaltung befindet sich unter *System* > Datenübertragung > *Data Management Dashboard*.
 
