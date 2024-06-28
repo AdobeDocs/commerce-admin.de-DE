@@ -3,9 +3,9 @@ title: '''[!DNL Adobe Commerce B2B] Versionshinweise'
 description: Informationen zu Änderungen in [!DNL Adobe Commerce B2B] veröffentlicht.
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: e837dded8569cf917be8c36277362f5df77fb708
+source-git-commit: 17eec4e7755ce4e83fb0533940bdce6c96ddc717
 workflow-type: tm+mt
-source-wordcount: '6851'
+source-wordcount: '6867'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,13 @@ Die Version B2B v1.5.0 Beta enthält neue Funktionen, Qualitätsverbesserungen u
 ![Problem behoben](../assets/fix.svg) <!--ACP2E-1825-->Kaufaufträge können von einem mit dem Unternehmen verbundenen Benutzer nicht mehr erteilt werden, nachdem das Unternehmen blockiert wurde. Zuvor konnte ein mit dem Unternehmen verbundener Benutzer Bestellungen aufgeben, wenn das Unternehmen blockiert wurde.
 
 ![Problem behoben](../assets/fix.svg)<!--ACP2E-1933-->Unternehmensadministratoren können nun Unternehmensbenutzer aus der Storefront hinzufügen. Zuvor hat Commerce einen Fehler protokolliert, wenn ein Admin-Benutzer versucht hat, einen neuen Benutzer hinzuzufügen: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+## B2B v1.4.2-p1
+
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
+
+![Neu](../assets/new.svg) Kompatibilität mit den Sicherheits-Patch-Versionen Adobe Commerce 2.4.7-p1 und 2.4.6-p6 hinzugefügt.
+
 
 ## B2B v1.4.2
 
