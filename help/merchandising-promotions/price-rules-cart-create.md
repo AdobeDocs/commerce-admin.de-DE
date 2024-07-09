@@ -3,9 +3,9 @@ title: Erstellen einer Preisregel für den Warenkorb
 description: Erfahren Sie, wie Sie eine Preisregel für den Warenkorb auf der Grundlage von Warenkorb oder Produktattributen erstellen.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 968ccc5eed5b79be8c51b350d6394e358805ad93
+source-git-commit: 6ac8d41de0f97767296216f8239311bc6fbf168e
 workflow-type: tm+mt
-source-wordcount: '3302'
+source-wordcount: '3320'
 ht-degree: 0%
 
 ---
@@ -393,7 +393,7 @@ Gibt die Bedingungen an, die erfüllt sein müssen, bevor die Preisregel für de
 | [!UICONTROL Apply] | Bestimmt den Berechnungstyp, der auf den Kauf angewendet wird. Optionen: <br/>**[!UICONTROL Percent of product price discount]**- Ermäßigung durch Abzug eines Prozentsatzes vom ursprünglichen Preis. Beispiel: Eingabe `10` in _[!UICONTROL Discount Amount]_für einen aktualisierten Preis, der 10 % unter dem ursprünglichen Preis liegt.<br/>**[!UICONTROL Fixed amount discount]**- Rabattartikel durch Abzug eines festen Betrags vom ursprünglichen Preis jedes qualifizierten Artikels im Warenkorb. Beispiel: Eingabe `10` in_[!UICONTROL Discount Amount]_ für einen aktualisierten Preis, der 10 USD unter dem ursprünglichen Preis liegt. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Ermäßigt den gesamten Warenkorb durch Abzug eines festen Betrags von der Teilsumme des Warenkorbs. Beispiel: Eingabe `10` in _[!UICONTROL Discount Amount]_um 10 USD von der Teilsumme des Warenkorbs abzuziehen. Standardmäßig gilt der Rabatt nur für die Zwischensumme des Warenkorbs. Informationen zur getrennten Anwendung des Rabatts auf die Zwischensumme und den Versand finden Sie unter_Auf Versandbetrag anwenden _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definiert eine Menge, die der Kunde kaufen muss, um eine Menge kostenlos zu erhalten. (Die_[!UICONTROL Discount Amount]_ ist Y.) |
 | [!UICONTROL Discount Amount] | (Erforderlich) Die Höhe des angebotenen Rabatts. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Legt die maximale Anzahl von Produkten fest, auf die der Rabatt im selben Kauf angewendet werden kann. |
-| [!UICONTROL Discount Qty Step (Buy X)] | Legt die Anzahl der Produkte fest, die durch `X` in einer `Buy X Get Y Free` Förderung. |
+| [!UICONTROL Discount Qty Step (Buy X)] | Legt die Anzahl der Produkte fest, die durch `X` in einer `Buy X Get Y Free` Förderung. Außerdem wird definiert, wie viele Produkte in Stapeln zum Warenkorb hinzugefügt werden müssen, damit sie angewendet werden `Fixed amount discount` und `Percent of product price discount` Promotions. |
 | [!UICONTROL Apply to Shipping Amount] | Bestimmt, ob der Rabatt getrennt auf die Zwischensumme und die Versandbeträge angewendet wird. Andernfalls wird sie nur auf die Zwischensumme angewendet. Optionen: `Yes` / `No` |
 | [!UICONTROL Discard Subsequent Rules] | Bestimmt, ob Regeln mit niedrigerer Priorität (1 ist die höchste Priorität) auf das Produkt angewendet werden können, wenn diese Preisregel für den Warenkorb eine Übereinstimmung ist. Aktivieren Sie diese Option, um zu verhindern, dass mehrere Rabatte auf dasselbe Produkt angewendet werden. Optionen: `Yes` / `No` |
 | [!UICONTROL Free Shipping] | Bestimmt, ob die kostenlose Lieferung in der Promotion enthalten ist und wenn ja, für welche Artikel. Optionen: <br/>**[!UICONTROL No]**- Kostenloser Versand ist für die aktuelle Regel nicht verfügbar.<br/>**[!UICONTROL For matching items only]** - Kostenloser Versand ist nur für bestimmte Artikel im Warenkorb verfügbar, die der Regel entsprechen. <br/>**[!UICONTROL For shipment with matching items]**- Kostenloser Versand ist für alle Artikel im Warenkorb verfügbar. Die [Kostenloser Versand](../stores-purchase/shipping-free.md) -Versandmethode muss aktiviert sein, damit diese Option verwendet werden kann. |
