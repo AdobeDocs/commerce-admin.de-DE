@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Informationen zum [!DNL Commerce Marketplace], das Händlern eine kuratierte Auswahl an Lösungen anbietet und qualifizierten Entwicklern die Tools, Plattform und den besten Standort für den Aufbau eines florierenden Unternehmens bietet.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 02e7c71fc47e6850371bfbdc1be50f65ec8015e9
+source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,8 @@ Die folgenden Ressourcen bieten einen Ausgangspunkt für neue Anwender, um sich 
 ### App Builder-Ressourcen
 
 - [Übersicht über Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [Einrichten des API-Netzwerks für Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
-- [App Builder-Apps bereitstellen](https://developer.adobe.com/app-builder/docs/guides/deployment/)
+- [Einrichten eines API-Gitters für Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
+- [Bereitstellen von App Builder-Apps](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [CI/CD für App Builder-Apps](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - Erste Schritte mit App Builder/Developer Console
    - [Erste Schritte mit App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
@@ -85,7 +85,7 @@ Der Installationsprozess für [!DNL Marketplace] -Käufe unterscheiden sich von 
 
 ## Support
 
-Wenn Sie Hilfe bei der Installation oder Verwendung einer Erweiterung benötigen, lesen Sie zuerst in der Dokumentation, die der Erweiterung beigefügt ist. Wenn Sie die Antwort auf Ihre Frage nicht finden können, verwenden Sie die Kontaktinformationen in der Erweiterungsliste, um den Entwickler direkt zu kontaktieren. Wenn das, was Sie in Marketplace kaufen, Ihren Anforderungen nicht entspricht, können Sie [eine Erstattung verlangen](#refund-requests) innerhalb von 25 Tagen ab Kaufdatum. Adobe prüft alle Erstattungsanträge und gibt (falls genehmigt) die entsprechende Erstattung aus. Support-Probleme im Zusammenhang mit Commerce Marketplace finden Sie im Abschnitt [[!DNL Marketplace] Hilfe-Center][5].
+Wenn Sie Hilfe bei der Installation oder Verwendung einer Erweiterung benötigen, lesen Sie zuerst in der Dokumentation, die der Erweiterung beigefügt ist. Wenn Sie die Antwort auf Ihre Frage nicht finden können, verwenden Sie die Kontaktinformationen in der Erweiterungsliste, um den Entwickler direkt zu kontaktieren. Wenn das, was Sie in Marketplace kaufen, Ihren Anforderungen nicht entspricht, können Sie [eine Erstattung verlangen](#refund-requests) innerhalb von 25 Tagen ab Kaufdatum. Adobe prüft alle Erstattungsanträge und gibt (falls genehmigt) die entsprechende Erstattung aus. Wenden Sie sich bei Problemen im Zusammenhang mit Commerce Marketplace an [Support](mailto:commercemarketplacesupport@adobe.com).
 
 ### Checkout-Probleme
 
@@ -139,5 +139,4 @@ Diese speziellen Berechtigungen gewähren auf Adobe Commerce denselben Zugriff w
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[5]: https://marketplacesupport.magento.com/hc/en-us
 [6]: https://business.adobe.com/products/magento/magento-commerce.html
