@@ -23,14 +23,14 @@ In diesem Artikel erfahren Sie:
 
 ## Was ist Personalisierung?
 
-Personalisierung bedeutet, die Aspekte des Kauferlebnisses jedes Kunden an seine individuellen Bedürfnisse, Umstände und Vorlieben anzupassen. Die Personalisierung beschränkt sich nicht auf Inhalte auf der Site oder empfiehlt passende Produkte, sondern umfasst alle Touchpoints auf der gesamten Journey, einschließlich:
+Personalization bedeutet, dass die Aspekte des Kauferlebnisses jedes Kunden an seine individuellen Bedürfnisse, Gegebenheiten und Präferenzen angepasst werden. Personalization beschränkt sich nicht auf Inhalte auf der Site oder empfiehlt passende Produkte, sondern umfasst alle Touchpoints auf der gesamten Journey, einschließlich:
 
 - **Kampagnen und Kommunikation** - Bereitstellung relevanter und konsistenter Nachrichten über Kampagnen und Kommunikation
 - **Produktsuche** - Anzeige der richtigen Produkte für die richtigen Kunden in den richtigen Augenblicken
 - **Promotions und Angebote** - Targeting von Promotions und Angeboten, um jeden Kunden zur Konversion zu bewegen
 - **Inhaltserlebnisse** - Anpassen von Site-Inhalten, um sich für jeden Kunden und dessen Journey hyper zu fühlen
 
-![Personalisierungstypen](assets/types-personalization.png){width="700" zoomable="yes"}
+![Typen von Personalization](assets/types-personalization.png){width="700" zoomable="yes"}
 
 Diese Arten personalisierter Erlebnisse können für eine kleine Untergruppe von Kunden zwar erreichbar sein, für Tausende oder Millionen von Kunden über jeden Touchpoint und jeden Kanal personalisiert werden, aber in Echtzeit kann sich dies als unmöglich erweisen. In den folgenden Abschnitten erfahren Sie, wie Adobe [!DNL Commerce] und Adobe Experience Cloud können helfen.
 
@@ -68,17 +68,17 @@ Adobe [!DNL Commerce] kann die Vorteile einer leistungsstarken Storefront mit de
 
 Mit Edge Delivery Services können Sie:
 
-- **Personalisierte Inhalte erstellen**: Verwenden Sie dokumentbasiertes Authoring und native Experimente mit generativen KI-Text- und Bildvarianten, um das Erlebnis skaliert zu personalisieren. Verwenden Sie Assets und die Generative AI-Inhaltserstellung, um skaliert Produkt- und Marketing-Bilder zu erstellen.
+- **Personalisierte Inhalte erstellen**: Verwenden Sie dokumentbasiertes Authoring und native Experimente mit generativen KI-Text- und Bildvarianten, um das Erlebnis skaliert zu personalisieren. Verwenden Sie die Inhaltserstellung für Assets und Generative KI, um skaliert Produkt- und Marketingbilder zu erstellen.
 
 - **Generieren von Varianten**: Ermöglicht es Inhaltsautoren, mithilfe der generativen KI große Mengen personalisierter KI zu erstellen [Textinhalt und Bildvarianten](https://experienceleague.adobe.com/en/docs/experience-manager-learn/sites/generative-ai/generate-variations) mit Adobe Firefly.
 
-- **Bereitstellen über Edge Delivery Services Storefront**: Content on the Edge and Commerce-Funktionen basierend auf Dropdown-Komponenten, um für Ihre Zielgruppen maßgeschneiderte Shopping-fähige Erlebnisse zu erstellen.
+- **Bereitstellen über Edge Delivery Services Storefront**: Inhalte zu den Edge- und Commerce-Funktionen, die durch Dropdown-Komponenten bereitgestellt werden, um für Ihre Zielgruppen maßgeschneiderte Erlebnisse mit Shopping-Funktion zu erstellen.
 
 - **Commerce und Adobe Experience Manager Assets**: Generative KI-Produktsortimente und Skalierungsversionen. Erstellen, liefern und überwachen Sie die Inhaltsbereitstellung über jeden Kanal hinweg.
 
 ![Dropins: Produktdetailseite](assets/drop-in.png){width="700" zoomable="yes"}
 
-### Vordefinierte Personalisierung: Erste Schritte mit nativem Adobe [!DNL Commerce] Funktionen
+### Native Personalization: Erste Schritte mit nativem Adobe [!DNL Commerce] Funktionen
 
 Adobe [!DNL Commerce] bietet leistungsstarke Personalisierung mit nativen nativen Funktionen. Die folgende Tabelle beschreibt Folgendes [!DNL Commerce] Funktionen können Sie sofort aktivieren, um mit der Personalisierung-Journey zu beginnen.
 
