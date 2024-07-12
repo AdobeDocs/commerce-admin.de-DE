@@ -1,22 +1,22 @@
 ---
 title: Liste der Produkte
-description: Erfahren Sie mehr über das _[!UICONTROL Products]_ Seite in Admin, auf der Sie Produkte erstellen und vorhandene bearbeiten können.
+description: Erfahren Sie mehr über die Seite _[!UICONTROL Products]_ im Admin, auf der Sie Produkte erstellen und vorhandene bearbeiten können.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Liste der Produkte
 
-Alle Produkte im Katalog sind über den _[!UICONTROL Products]_in der Admin-Seite, auf der Sie Produkte erstellen und vorhandene bearbeiten können. Für eine Installation auf mehreren Sites kann jede Website eine andere Auswahl von Produkten zum Verkauf aus demselben Katalog anbieten.
+Auf alle Produkte im Katalog kann über die Seite &quot;_[!UICONTROL Products]_&quot;in Admin zugegriffen werden. Dort können Sie Produkte erstellen und vorhandene bearbeiten. Für eine Installation auf mehreren Sites kann jede Website eine andere Auswahl von Produkten zum Verkauf aus demselben Katalog anbieten.
 
-Die _[!UICONTROL Products]_enthält alle Produkte im Katalog, zeigt die Websites an, auf denen sie verfügbar sind, und ob sie derzeit zum Verkauf angeboten werden. Bei Adobe Commerce-B2B-Installationen mit [freigegebene Kataloge](../b2b/catalog-shared.md) aktiviert ist, enthält das Raster eine Spalte, die anzeigt, welche Produkte in einem freigegebenen Katalog alternative Rabattpreise haben.
+Die Liste _[!UICONTROL Products]_enthält alle Produkte im Katalog, zeigt die Websites an, auf denen sie verfügbar sind, und ob sie derzeit zum Verkauf angeboten werden. In Adobe Commerce-B2B-Installationen mit aktivierten [freigegebenen Katalogen](../b2b/catalog-shared.md) enthält das Raster eine Spalte, die angibt, welche Produkte in einem freigegebenen Katalog über alternative Rabattpreise verfügen.
 
-Sie können die Listenseite nach Seite durchsuchen oder nach bestimmten Produkten suchen. Verwenden Sie den Standard [Steuerelemente](../getting-started/admin-grid-controls.md) , um die Liste zu sortieren und zu filtern, und anwenden [Aktionen](../getting-started/admin-actions-control.md) ausgewählten Produkten.
+Sie können die Listenseite nach Seite durchsuchen oder nach bestimmten Produkten suchen. Verwenden Sie die standardmäßigen [Steuerelemente](../getting-started/admin-grid-controls.md) zum Sortieren und Filtern der Liste und wenden Sie [Aktionen](../getting-started/admin-actions-control.md) auf ausgewählte Produkte an.
 
 ![Produktraster](./assets/products-grid.png){width="700" zoomable="yes"}
 
@@ -34,23 +34,23 @@ Diese Konfigurationseinstellung für die Anzeigebegrenzung für das Produkt ist 
 
 >[!NOTE]
 >
->Wenn Sie nicht möchten, dass Ihr Produktraster eingeschränkt wird, verwenden Sie Filter genauer, um eine Sammlung zu erstellen, die weniger Elemente enthält als die in der _[!UICONTROL Records Limit]_-Feld.
+>Wenn Sie nicht möchten, dass Ihr Produktraster eingeschränkt wird, verwenden Sie Filter genauer, um eine Sammlung zu erstellen, die weniger Elemente enthält als die im Feld _[!UICONTROL Records Limit]_angegebene Zahl.
 
 **_So konfigurieren Sie die Anzeigebegrenzung für das Produkt:_**
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern **[!UICONTROL Advanced]** und wählen **[!UICONTROL Admin]**.
+1. Erweitern Sie **[!UICONTROL Advanced]** und wählen Sie **[!UICONTROL Admin]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Admin Grids]** und führen Sie folgende Schritte aus:
+1. Erweitern Sie den Abschnitt **[!UICONTROL Admin Grids]** des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
 
-   - Satz **[!UICONTROL Limit Number of Products in Grid]** nach `Yes`.
+   - Setzen Sie **[!UICONTROL Limit Number of Products in Grid]** auf `Yes`.
 
-   - (Optional) Geben Sie einen Wert in die **[!UICONTROL Records Limit]** -Feld, um die Anzahl der Produkte im Raster auf einen bestimmten Wert zu begrenzen. Der Standardwert für den Mindestwert ist `20000`.
+   - (Optional) Geben Sie einen Wert in das Feld **[!UICONTROL Records Limit]** ein, um die Anzahl der Produkte im Raster auf einen bestimmten Wert zu begrenzen. Der Standardwert für den Mindestwert ist `20000`.
 
    ![Konfigurationseinstellungen für Admin Grids](../configuration-reference/advanced/assets/admin-admin-grids.png){width="600" zoomable="yes"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ## Seitensteuerelemente
 
@@ -70,7 +70,7 @@ Diese Konfigurationseinstellung für die Anzeigebegrenzung für das Produkt ist 
 
 | Spalte | Beschreibung |
 |--- |--- |
-| (Kontrollkästchen) | Wählt mehrere Datensätze aus, für die eine Aktion durchgeführt werden soll. Das Kontrollkästchen in der ersten Spalte jedes ausgewählten Datensatzes ist markiert. Optionen: <br/>**[!UICONTROL Select All]**- Auswahl aller gefundenen Datensätze, die den aktuellen Filtereinstellungen entsprechen.<br/>**[!UICONTROL Select All on This Page]** - Wählt nur die auf der aktuellen Seite gefundenen Datensätze aus, die den Filtereinstellungen entsprechen. |
+| (Kontrollkästchen) | Wählt mehrere Datensätze aus, für die eine Aktion durchgeführt werden soll. Das Kontrollkästchen in der ersten Spalte jedes ausgewählten Datensatzes ist markiert. Optionen: <br/>**[!UICONTROL Select All]**- Wählt alle gefundenen Datensätze aus, die den aktuellen Filtereinstellungen entsprechen.<br/>**[!UICONTROL Select All on This Page]** - Wählt nur die auf der aktuellen Seite gefundenen Datensätze aus, die den Filtereinstellungen entsprechen. |
 | [!UICONTROL ID] | Eine eindeutige, sequenzielle Zahl, die zugewiesen wird, wenn ein neues Produkt zum ersten Mal gespeichert wird. |
 | [!UICONTROL Thumbnail] | Zeigt eine Miniaturansicht des Hauptproduktbilds an. |
 | [!UICONTROL Name] | Der Produktname. |
@@ -83,8 +83,9 @@ Diese Konfigurationseinstellung für die Anzeigebegrenzung für das Produkt ist 
 | [!UICONTROL Visibility] | Gibt an, wo das Produkt im Katalog sichtbar ist. Optionen: `Not Visible Individually` / `Catalog` / `Search` / `Catalog, Search` |
 | [!UICONTROL Status] | Gibt den Status des Produkts an. Optionen: `Enabled` und `Disabled` |
 | [!UICONTROL Websites] | Gibt die Websites an, auf denen das Produkt verfügbar ist. |
+| [!UICONTROL Remote Media URL] | Wenn Produktmedien-Assets mit der [AEM Assets-Integration für Commerce](../content-design/aem-assets.md) verwaltet werden, zeigt dieses Feld die URL zum Anzeigen des Commerce-Assets im Digital Asset Management-Speicher für AEM Assets an, dem zentralen Repository, in dem die Assets gespeichert sind. Dieses Feld wird nur angezeigt, wenn die AEM Assets-Integration aktiviert ist. |
 | [!UICONTROL Action] | Öffnet das Produkt im Bearbeitungsmodus. |
-| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit [Adobe Commerce B2B](./b2b/../introduction.md) nur) Gibt die freigegebenen Kataloge an, die benutzerdefinierte Preise für das Produkt enthalten. |
+| [!UICONTROL Shared Catalog] | ![Adobe Commerce B2B](../assets/b2b.svg) (nur mit [Adobe Commerce B2B](./b2b/../introduction.md) verfügbar) Gibt die freigegebenen Kataloge an, die benutzerdefinierte Produktpreise enthalten. |
 
 {style="table-layout:auto"}
 

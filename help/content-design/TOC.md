@@ -3,10 +3,10 @@ user-guide-title: Anleitung für Inhalt und Design
 user-guide-description: Umfassende Informationen zu Inhalts- und Designfunktionen für Adobe Commerce- und Magento Open Source-Administratoren sowie E-Commerce-Marketer.
 breadcrumb-title: Inhalt und Design
 feature: CMS, Page Content
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 270a549af1a3eeda6c01f806171ede9d8a41b5d2
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 4%
+source-wordcount: '232'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 4%
       - [Neues Produktlisten-Widget](widget-new-products-list.md)
       - [Widget &quot;Bestellungen und Rückgaben&quot;](widget-orders-returns.md)
       - [Karussell-Widget &quot;Katalogereignisse&quot;](widget-event-carousel.md)
-- WYSIWYG Editor {#wysiwyg}
+- WYSIWYG-Editor {#wysiwyg}
    - [Übersicht](editor.md)
    - [Link einfügen](editor-insert-link.md)
    - [Bild einfügen](editor-insert-image.md)
@@ -63,12 +63,19 @@ ht-degree: 4%
       - [Mediendatenbank verwenden](media-storage-database.md)
       - [Netzwerk zur Inhaltsbereitstellung verwenden](media-storage-content-delivery-network.md)
       - [URLs für dynamische Medien](catalog-urls-dynamic-media.md)
+   - Experience Manager Assets {#aem-assets}
+      - [Assets-Integration](aem-assets.md)
+      - Onboarding {#onboarding}
+         - [Konfigurieren von AEM Assets](aem-assets-configure-aem.md)
+         - [Konfigurieren von Adobe Commerce](aem-assets-configure-commerce.md)
+         - [Synchronisierungsdienste einrichten](aem-assets-setup-synchronization.md)
+      - [Verwenden von AEM Assets](aem-assets-manage.md)
    - Adobe Stock {#adobe-stock}
       - [Adobe Stock-Integration](adobe-stock.md)
       - [Adobe Stock-Bilder verwenden](adobe-stock-manage.md)
       - [Speichern einer Stock-Bildvorschau](adobe-stock-save-preview.md)
       - [Lagerbild lizenzieren](adobe-stock-license-image.md)
-   - Media Gallery {#gallery}
+   - Mediensammlung {#gallery}
       - [Übersicht](media-gallery.md)
       - [Asset-Management](media-gallery-asset-management.md)
       - [Ordnerverwaltung](media-gallery-folder-management.md)
@@ -79,5 +86,5 @@ ht-degree: 4%
    - [Staging-Dashboard](content-staging-dashboard.md)
    - [Kampagnenelement hinzufügen](content-staging-add-item.md)
    - [Vorschau einer Kampagne](content-staging-preview.md)
-- [Zurück zu den Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
