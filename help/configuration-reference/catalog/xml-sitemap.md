@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] Seite des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Catalog] &gt; [!UICONTROL XML Sitemap] des Commerce-Administrators.
 exl-id: 319c34e9-bd5f-46f8-810f-bc4d5228f9c9
 feature: Configuration, Site Navigation
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -16,14 +16,14 @@ ht-degree: 2%
 
 ## [!UICONTROL Categories Options]
 
-![Kategorieoptionen](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
+![Optionen für Kategorien](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
 
 <!-- [Categories Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Store-Ansicht | Bestimmt, wie oft Sitemap-Kategorien aktualisiert werden. Optionen: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Store-Ansicht | Ein Wert zwischen `0.0` und `1.0` , das die Priorität von Kategorie-Sitemap-Aktualisierungen im Verhältnis zu anderen Inhalten bestimmt. Null (`0.0`) hat die niedrigste Priorität. |
+| [!UICONTROL Priority] | Store-Ansicht | Ein Wert zwischen `0.0` und `1.0` , der die Priorität von Kategorie-Sitemap-Aktualisierungen in Bezug auf anderen Inhalt bestimmt. Null (`0.0`) hat die niedrigste Priorität. |
 
 {style="table-layout:auto"}
 
@@ -33,10 +33,10 @@ ht-degree: 2%
 
 <!-- [Products Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Store-Ansicht | Bestimmt, wie oft Sitemap-Produkte aktualisiert werden. Optionen: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Store-Ansicht | Ein Wert zwischen `0.0` und `1.0` , das die Priorität von Produkt-Sitemap-Aktualisierungen im Verhältnis zu anderen Inhalten bestimmt. Null (`0.0`) hat die niedrigste Priorität. |
+| [!UICONTROL Priority] | Store-Ansicht | Ein Wert zwischen `0.0` und `1.0` , der die Priorität von Produkt-Sitemap-Aktualisierungen im Verhältnis zu anderen Inhalten bestimmt. Null (`0.0`) hat die niedrigste Priorität. |
 | [!UICONTROL Add Images into Sitemap] | Store-Ansicht | Bestimmt, in welchem Umfang Bilder in die Sitemap aufgenommen werden. Optionen: `None` / `Base Only` / `All` |
 
 {style="table-layout:auto"}
@@ -47,19 +47,19 @@ ht-degree: 2%
 
 <!-- [CMS Pages Options](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Store-Ansicht | Bestimmt, wie oft CMS-Seiten von Sitemap aktualisiert werden. Optionen: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Store-Ansicht | Ein Wert zwischen `0.0` und `1.0` , das die Priorität von CMS-Seiten-Sitemap-Aktualisierungen im Verhältnis zu anderen Inhalten festlegt. Null (`0.0`) hat die niedrigste Priorität. |
+| [!UICONTROL Priority] | Store-Ansicht | Ein Wert zwischen `0.0` und `1.0` , der die Priorität von CMS-Seitensitemap-Aktualisierungen in Bezug auf anderen Inhalt bestimmt. Null (`0.0`) hat die niedrigste Priorität. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Store Url Options]
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Frequency] | Store-Ansicht | Bestimmt, wie oft URLs gespeichert werden, die aktualisiert werden. Optionen: `Always` / `Hourly` / `Daily` / `Weekly` / `Monthly` / `Yearly` / `Never` |
-| [!UICONTROL Priority] | Store-Ansicht | Ein Wert zwischen `0.0` und `1.0` bestimmt die Priorität von Store-URL-Aktualisierungen im Verhältnis zu anderen Inhalten. Null (`0.0`) hat die niedrigste Priorität. |
+| [!UICONTROL Priority] | Store-Ansicht | Ein Wert zwischen `0.0` und `1.0` , der die Priorität von Store-URL-Aktualisierungen im Vergleich zu anderen Inhalten bestimmt. Null (`0.0`) hat die niedrigste Priorität. |
 
 {style="table-layout:auto"}
 
@@ -69,7 +69,7 @@ ht-degree: 2%
 
 <!-- [Generation Settings](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Store-Ansicht | Bestimmt, ob eine XML-Sitemap für den Store verfügbar ist. Optionen: `Yes` / `No` |
 | [!UICONTROL Start Time] | Store-Ansicht | Gibt die Stunde, Minute und Sekunde des Tages an, in der die Sitemap aktualisiert wird. |
@@ -82,11 +82,11 @@ ht-degree: 2%
 
 ## [!UICONTROL Sitemap File Limits]
 
-![Dateibeschränkungen für Sitemap](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
+![Dateibeschränkungen der Sitemap](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
 <!-- [Sitemap File Limits](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Maximum No of URLs Per File] | Store-Ansicht | Bestimmt die maximale Anzahl von URLs, die in eine Sitemap aufgenommen werden können. |
 | [!UICONTROL Maximum File Size] | Store-Ansicht | Bestimmt die maximale Größe der generierten Sitemap in Byte. |
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 <!-- [Search Engine Submission Settings](https://docs.magento.com/user-guide/marketing/sitemap-xml-configure.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enable Submission to Robots.txt] | Store-Ansicht | Ermöglicht die Übermittlung von Anweisungen für die Datei robots.txt . Optionen: `Yes` / `No` |
 

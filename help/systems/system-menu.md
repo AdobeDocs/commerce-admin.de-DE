@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL System] menu'
-description: Der Commerce Admin umfasst die [!UICONTROL System] -Menü, das Zugriff auf Tools zum Importieren und Exportieren von Daten, System-Cache und Indexverwaltung, Verwaltung von Administratorzugriff und Berechtigungen, Sicherungen, Systembenachrichtigungen und benutzerdefinierten Variablen bietet.
+description: Der Commerce-Administrator enthält das Menü "[!UICONTROL System]", das Zugriff auf Tools zum Importieren und Exportieren von Daten, System-Cache- und Indexverwaltung, Verwaltung von Administratorzugriff und -berechtigungen, Sicherungen, Systembenachrichtigungen und benutzerdefinierten Variablen bietet.
 exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
 source-git-commit: 97eeb733836f0336401664c5cfb3df2b9f2f2ccf
 workflow-type: tm+mt
@@ -9,44 +9,44 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL System] Menü
+# Menü [!UICONTROL System]
 
-Die [!UICONTROL System] enthält Tools zum Importieren und Exportieren von Daten, zum Verwalten von Systemcaches und Indizes, zum Verwalten von Berechtigungen, Sicherungen, Systembenachrichtigungen und benutzerdefinierten Variablen.
+Das Menü [!UICONTROL System] enthält Tools zum Importieren und Exportieren von Daten, zum Verwalten von Systemzwischenspeichern und -indizes, zum Verwalten von Berechtigungen, Sicherungen, Systembenachrichtigungen und benutzerdefinierten Variablen.
 
 ![Systemmenü](./assets/system-menu.png){width="600" zoomable="yes"}
 
-**_So zeigen Sie [!UICONTROL System] Menü:_**
+**_So zeigen Sie das Menü [!UICONTROL System] an:_**
 
-Im _Admin_ Seitenleiste, klicken Sie **[!UICONTROL System]**.
+Klicken Sie in der Seitenleiste _Admin_ auf **[!UICONTROL System]**.
 
 ## [!UICONTROL Data Transfer]
 
-Diese [tools](data-transfer.md) bieten Ihnen die Möglichkeit, mehrere Datensätze in einem Vorgang zu verwalten. Sie können neue Artikel importieren sowie vorhandene Produkte und Steuersätze aktualisieren, ersetzen und löschen.
+Diese [Tools](data-transfer.md) bieten Ihnen die Möglichkeit, mehrere Datensätze in einem Vorgang zu verwalten. Sie können neue Artikel importieren sowie vorhandene Produkte und Steuersätze aktualisieren, ersetzen und löschen.
 
 ## [!UICONTROL Extensions]
 
-Verwalten [Drittanbieterintegrationen](integrations.md) und Erweiterungen für Ihren Store.
+Verwalten Sie [Drittanbieterintegrationen](integrations.md) und Erweiterungen für Ihren Store.
 
 ## [!UICONTROL Tools]
 
-Verwenden Sie diese Sammlung von Tools zur Verwaltung Ihrer Systemressourcen, einschließlich [cache](cache-management.md) und [index](index-management.md) Verwaltung, [Sicherungen](backups.md)und Installationseinstellungen.
+Verwenden Sie diese Sammlung von Tools, um Ihre Systemressourcen zu verwalten, einschließlich der Verwaltung von [Cache](cache-management.md) und [Index](index-management.md), der Verwaltung von [Sicherungen](backups.md) und der Installationseinstellungen.
 
 ## [!UICONTROL Support]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
-Die [Support-Tools](support.md) kann als Ressource während der Entwicklungs- und Optimierungsprozesse und als Diagnosetool verwendet werden, um unserem Supportteam zu helfen, Probleme mit Ihrem System zu identifizieren und zu lösen.
+Die [Support-Tools](support.md) können während der Entwicklungs- und Optimierungsprozesse als Ressource und als Diagnose-Tool verwendet werden, um unserem Supportteam zu helfen, Probleme mit Ihrem System zu identifizieren und zu lösen.
 
 ## [!UICONTROL Permissions]
 
-Verwendung von Adobe Commerce und Magento Open Source [Rollen und Berechtigungen](permissions.md) , um verschiedene Zugriffsebenen für Admin-Benutzer zu erstellen. Mit diesen Tools können Administratoren Berechtigungen für eine _Notwendigkeit zu wissen_ Grundlage für Personen, die auf Ihrer Site arbeiten.
+Adobe Commerce und Magento Open Source verwenden [Rollen und Berechtigungen](permissions.md), um verschiedene Zugriffsebenen für Admin-Benutzer zu erstellen. Mit diesen Tools können Administratoren Personen, die auf Ihrer Site arbeiten, die Berechtigung auf der Basis von _Für erforderlich_ erteilen.
 
 ## [!UICONTROL Action Log]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
-Die [Aktionsprotokoll](action-log.md) verfolgt die Aktivitäten von Administratoren, die in Ihrem Store arbeiten. Bei den meisten Ereignissen umfassen die verfügbaren Informationen die Aktion, den Namen des Benutzers, ob es sich um einen Erfolg oder einen Fehler handelte, und die Kennung des Objekts, auf das die Aktion abzielte. Das Archiv &quot;Admin Actions&quot;listet die CSV-Protokolldateien auf, die auf dem Server gespeichert sind.
+Das [Aktionsprotokoll](action-log.md) verfolgt die Aktivitäten von Administratoren, die in Ihrem Store arbeiten. Bei den meisten Ereignissen umfassen die verfügbaren Informationen die Aktion, den Namen des Benutzers, ob es sich um einen Erfolg oder einen Fehler handelte, und die Kennung des Objekts, auf das die Aktion abzielte. Das Archiv &quot;Admin Actions&quot;listet die CSV-Protokolldateien auf, die auf dem Server gespeichert sind.
 
 ## [!UICONTROL Other Settings]
 
-Verwalten Sie die [Benachrichtigungen](notifications.md) Erstellen Sie in Ihrem Posteingang [benutzerdefinierte Variablen](variables-custom.md)und erstellen Sie eine neue [Verschlüsselungsschlüssel](encryption-key.md).
+Verwalten Sie die [Benachrichtigungen](notifications.md) in Ihrem Posteingang, erstellen Sie [benutzerdefinierte Variablen](variables-custom.md) und generieren Sie einen neuen [Verschlüsselungsschlüssel](encryption-key.md).

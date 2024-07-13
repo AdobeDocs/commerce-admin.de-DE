@@ -5,7 +5,7 @@ exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -14,79 +14,79 @@ ht-degree: 0%
 
 Verwalten Sie Inventar- und Auftragserfüllung von mehreren Standorten mit benutzerdefinierten Quellen. Erstellen Sie für jeden Standort eine Quelle, z. B. Lagerhäuser, Bausteine- und Mörtelgeschäfte, Vertriebszentren und Spediteure. Zuweisen von Quellen und Aktualisieren von Mengen pro Produkt
 
-Beim Bearbeiten der Standardquelle können Sie alle Konfigurationen mit Ausnahme von Name und Code bearbeiten. Es wird empfohlen, Einzelquell-Händler Informationen hinzuzufügen, die ihrem Standort entsprechen.
+Beim Bearbeiten des Standard-Source können Sie alle Konfigurationen mit Ausnahme des Namens und des Codes bearbeiten. Es wird empfohlen, Einzelquell-Händler Informationen hinzuzufügen, die ihrem Standort entsprechen.
 
 ## Hinzufügen einer Inventarquelle
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 
-1. Klicken **[!UICONTROL Add New Source]**.
+1. Klicken Sie auf **[!UICONTROL Add New Source]**.
 
    ![Quellen verwalten](assets/inventory-sources.png)
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL General]** und führen Sie folgende Schritte aus:
+1. Erweitern Sie den Abschnitt **[!UICONTROL General]** des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
 
-   - Geben Sie eine eindeutige **[!UICONTROL Name]**.
+   - Geben Sie eine eindeutige **[!UICONTROL Name]** ein, um die Inventarquelle zu identifizieren.
 
-   - Eindeutige Eingabe **[!UICONTROL Code]**.
+   - Geben Sie eine eindeutige **[!UICONTROL Code]** ein.
 
      Der Code unterstützt Groß- und Kleinbuchstaben, Zahlen, Gedankenstriche und Unterstriche. Der Code ist eine eindeutige ID, die beim Zuweisen zu Lager- und Export-/Import-Daten verwendet wird.
 
-   - Wenn diese Inventarquelle einsatzbereit ist, legen Sie **[!UICONTROL Is Enabled]** nach `Yes`.
+   - Wenn diese Inventarquelle einsatzbereit ist, setzen Sie **[!UICONTROL Is Enabled]** auf `Yes`.
 
-   - Kurzbeschreibung eingeben **[!UICONTROL Description]** für diesen Ort, um kurze Informationen oder zusätzliche Details zu erhalten.
+   - Geben Sie eine kurze Beschreibung **[!UICONTROL Description]** für diesen Ort ein, um einen kurzen Überblick oder weitere Details zu erhalten.
 
-   - Für **[!UICONTROL Latitude]** und **[!UICONTROL Longitude]**, geben Sie die GPS-Koordinaten (Global Positioning System) der Anlage an.
+   - Geben Sie für **[!UICONTROL Latitude]** und **[!UICONTROL Longitude]** die GPS-Koordinaten (Global Positioning System) des Anlagenstandorts ein.
 
-     So suchen Sie die GPS-Koordinaten mit [Google Maps][1], geben Sie die Adresse in das Suchfeld ein. Klicken Sie mit der rechten Maustaste auf die Markierung auf der Karte und wählen Sie **[!UICONTROL What's here?]**. Die GPS-Koordinaten werden im Detailfeld unter der Straßenadresse angezeigt.
+     Um die GPS-Koordinaten mit [Google Maps][1] zu finden, geben Sie die Adresse in das Suchfeld ein. Klicken Sie mit der rechten Maustaste auf die Markierung auf der Karte und wählen Sie &quot;**[!UICONTROL What's here?]**&quot;. Die GPS-Koordinaten werden im Detailfeld unter der Straßenadresse angezeigt.
 
      ![Allgemeine Quelloptionen](assets/inventory-source-general.png)
 
-   - Wenn diese Inventarquelle ein Abholort ist, legen Sie **[!UICONTROL Use as Pickup Location]** nach `Yes`.
+   - Wenn diese Inventarquelle ein Abholort ist, setzen Sie **[!UICONTROL Use as Pickup Location]** auf `Yes`.
 
-     Die Standardquelle kann nicht als Abholort für In-Store-Abholaufträge verwendet werden.
+     Der Standard-Source kann nicht als Abholort für In-Store-Abholaufträge verwendet werden.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Contact Info]** und führen Sie folgende Schritte aus:
+1. Erweitern Sie den Abschnitt **[!UICONTROL Contact Info]** des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
 
-   - Für **[!UICONTROL Contact Name]**, geben Sie den vollständigen Namen des Hauptkontakts an.
+   - Geben Sie für &quot;**[!UICONTROL Contact Name]**&quot; den vollständigen Namen des Hauptkontakts am Speicherort ein.
 
-   - Geben Sie eine **[!UICONTROL Email]** Adresse zur Kontaktaufnahme mit dem Standort.
+   - Geben Sie eine **[!UICONTROL Email]** -Adresse ein, um den Standort zu kontaktieren.
 
-   - Für **[!UICONTROL Phone]**, geben Sie den Ortscode und die Telefonnummer ein.
+   - Geben Sie für &quot;**[!UICONTROL Phone]**&quot;den Bereichs-Code und die Telefonnummer ein.
 
-   - Für **[!UICONTROL Fax]**, geben Sie gegebenenfalls die Ortsnummer und Telefonnummer des Faxgeräts an.
+   - Geben Sie für &quot;**[!UICONTROL Fax]**&quot;die Bereichs- und Telefonnummer des Faxgeräts ein, sofern verfügbar.
 
-     ![Kontaktangaben](assets/inventory-source-contact-info.png)
+     ![Kontaktinfo](assets/inventory-source-contact-info.png)
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Address Data]** und führen Sie folgende Schritte aus:
+1. Erweitern Sie den Abschnitt **[!UICONTROL Address Data]** des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
 
-   - Wählen Sie die **[!UICONTROL Country]**.
+   - Wählen Sie die **[!UICONTROL Country]** aus.
 
-   - Für **[!UICONTROL State/Province]** die Standardabkürzung für das Bundesland oder die Bundesrepublik Deutschland.
+   - Geben Sie für &quot;**[!UICONTROL State/Province]**&quot; die Standardabkürzung für das Bundesland oder den Bundesstaat ein.
 
-   - Geben Sie die **[!UICONTROL City]**.
+   - Geben Sie den Wert **[!UICONTROL City]** ein.
 
-   - Physische Daten eingeben **[!UICONTROL Street]** Adresse.
+   - Geben Sie die physische **[!UICONTROL Street]** -Adresse ein.
 
-   - Für **[!UICONTROL Postcode]**, geben Sie die Postleitzahl ein.
+   - Geben Sie für **[!UICONTROL Postcode]** die Postleitzahl ein.
 
      ![Adressdaten](assets/inventory-source-address.png)
 
-1. Wenn Sie die Quelle im vorherigen Schritt als Pickup-Position festlegen, erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Pickup Location]** und beschreibende Informationen zum Standort bereitstellen:
+1. Wenn Sie die Quelle als Pickup-Position im vorherigen Schritt festlegen, erweitern Sie den Abschnitt ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Pickup Location]** und geben Sie beschreibende Informationen zum Speicherort an:
 
-   - Geben Sie die **[!UICONTROL Frontend Name]** des Abholorts.
+   - Geben Sie die **[!UICONTROL Frontend Name]** der Abholposition ein.
 
-   - Geben Sie einen **[!UICONTROL Frontend Description]** des Abholorts. Verwenden Sie dieses Textfeld, um Store-Stunden, den Standort relativ zu anderen Wahrzeichen oder andere nützliche Informationen anzuzeigen, die dem Kunden bei der Auswahl des richtigen Pickup-Standorts helfen.
+   - Geben Sie eine **[!UICONTROL Frontend Description]** der Abholposition ein. Verwenden Sie dieses Textfeld, um Store-Stunden, den Standort relativ zu anderen Wahrzeichen oder andere nützliche Informationen anzuzeigen, die dem Kunden bei der Auswahl des richtigen Pickup-Standorts helfen.
 
-     ![Abmeldeort](assets/inventory-pickup-location.png)
+     ![Abholposition](assets/inventory-pickup-location.png)
 
-   Weitere Informationen zum Konfigurieren von E-Mail-Benachrichtigungen bei der Verwendung einer Quelle als Abmeldeort finden Sie unter [Verkaufs-E-Mails](../configuration-reference/sales/sales-emails.md) im _Konfigurationshandbuch_.
+   Weitere Informationen zum Konfigurieren von E-Mail-Benachrichtigungen bei der Verwendung einer Quelle als Pickup-Speicherort finden Sie unter [E-Mails für Vertrieb](../configuration-reference/sales/sales-emails.md) im _Konfigurationshandbuch_.
 
 1. Führen Sie einen der folgenden Schritte aus, um Ihre Arbeit zu speichern:
 
-   - Um Ihre Arbeit zu speichern und die Bearbeitung fortzusetzen, klicken Sie auf **[!UICONTROL Save & Continue]**.
+   - Um Ihre Arbeit zu speichern und mit der Bearbeitung fortzufahren, klicken Sie auf **[!UICONTROL Save & Continue]**.
 
-   - Um Ihre Arbeit zu speichern und zur Seite Quellen verwalten zurückzukehren, klicken Sie auf den Abwärtspfeil (![Menüpfeil](../assets/icon-menu-down-arrow-red.png)) und wählen Sie **[!UICONTROL Save & Close]**.
+   - Um Ihre Arbeit zu speichern und zur Seite &quot;Quellen verwalten&quot;zurückzukehren, klicken Sie auf den Abwärtspfeil (![Menüpfeil](../assets/icon-menu-down-arrow-red.png)) und wählen Sie **[!UICONTROL Save & Close]** aus.
 
    - Um Ihre Arbeit am aktuellen Quelldatensatz zu speichern und eine neue Quelle einzugeben, wählen Sie **[!UICONTROL Save & New]**.
 

@@ -5,7 +5,7 @@ exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
 source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ Verwenden Sie Commerce Intelligence-Tools, um Einblicke zu erhalten, die für fu
 
 ## [!DNL Commerce Intelligence] account
 
-Wenn Sie eine [!DNL Commerce Intelligence] -Konto über Adobe nutzen, erhalten Sie Zugriff auf fünf Dashboards mit ca. 70 Berichten. Diese Berichte sollen Einblicke in Ihre Daten bieten und Fragen wie &quot;Wie wachsen meine Bestellungen monatlich?&quot;, &quot;Wer sind meine treusten Kunden?&quot;und &quot;Funktioniert meine Couponstrategie?&quot;beantworten. Detaillierte Informationen zu diesem Tool-Set finden Sie im Abschnitt [Benutzerhandbuch für Commerce Intelligence][1].
+Wenn Sie ein [!DNL Commerce Intelligence] -Konto über Adobe aktivieren, erhalten Sie Zugriff auf fünf Dashboards mit etwa 70 Berichten. Diese Berichte sollen Einblicke in Ihre Daten bieten und Fragen wie &quot;Wie wachsen meine Bestellungen monatlich?&quot;, &quot;Wer sind meine treusten Kunden?&quot;und &quot;Funktioniert meine Couponstrategie?&quot;beantworten. Ausführliche Informationen zu diesem Tool-Set finden Sie im [Commerce Intelligence-Benutzerhandbuch][1].
 
 ## [!DNL Advanced Reporting]
 
-[!DNL Advanced Reporting] ist in Adobe Commerce und Magento Open Source enthalten. Mit dieser Funktion erhalten Sie Zugriff auf eine Suite dynamischer Berichte, die auf Ihren Produkt-, Bestell- und Kundendaten basieren, mit einem personalisierten Dashboard, das auf Ihre geschäftlichen Anforderungen zugeschnitten ist. while [!DNL Advanced Reporting] uses [!DNL Commerce Intelligence] für Analytics benötigen Sie kein Commerce Intelligence-Konto, das verwendet werden kann. [!DNL Advanced Reporting].
+[!DNL Advanced Reporting] ist in Adobe Commerce und Magento Open Source enthalten. Mit dieser Funktion erhalten Sie Zugriff auf eine Suite dynamischer Berichte, die auf Ihren Produkt-, Bestell- und Kundendaten basieren, mit einem personalisierten Dashboard, das auf Ihre geschäftlichen Anforderungen zugeschnitten ist. Während [!DNL Advanced Reporting] [!DNL Commerce Intelligence] für Analysen verwendet, benötigen Sie kein Commerce Intelligence-Konto, um [!DNL Advanced Reporting] zu verwenden.
 
-Technische Informationen finden Sie im Abschnitt [[!DNL Advanced Reporting]][2]{:target=&quot;_blank&quot;} Thema in der Entwicklerdokumentation.
+Technische Informationen finden Sie im Thema [[!DNL Advanced Reporting]][2]{:target=&quot;_blank&quot;} in der Entwicklerdokumentation.
 
 >[!NOTE]
 >
->Aufgrund von Kompatibilitätsproblemen mit [!DNL Adobe Commerce Intelligence], ist Commerce vorübergehend nicht in der Lage, die erweiterte Berichterstellung mit AWS S3 Bucket als Medium für Quelldatendateien in [!DNL Commerce Intelligence].
+>Aufgrund von Kompatibilitätsproblemen mit [!DNL Adobe Commerce Intelligence] kann Commerce die erweiterte Berichterstellung vorübergehend nicht mit AWS S3 Bucket als Medium für Quelldatendateien in [!DNL Commerce Intelligence] unterstützen.
 
 ![Erweitertes Berichterstellungs-Dashboard](./assets/reporting-advanced.png){width="700"}
 
@@ -38,92 +38,92 @@ Technische Informationen finden Sie im Abschnitt [[!DNL Advanced Reporting]][2]{
 
 * [!DNL Commerce] muss ohne Fehler erfolgreich installiert oder aktualisiert worden sein.
 
-* Im [!DNL Commerce] Konfiguration für [Store-URLs](../stores-purchase/store-urls.md), die **[!UICONTROL Base URL (Secure)]** -Einstellung für die Store-Ansicht muss auf die sichere URL verweisen. Beispiel: `https://yourdomain.com`.
+* In der [!DNL Commerce] -Konfiguration für [Store-URLs](../stores-purchase/store-urls.md) muss die Einstellung **[!UICONTROL Base URL (Secure)]** für die Store-Ansicht auf die sichere URL verweisen. Beispiel: `https://yourdomain.com`.
 
-* Im [!DNL Commerce] Konfiguration für Store-URLs, **[!UICONTROL Use Secure URLs on Storefront]** und **[!UICONTROL Use Secure URLs in Admin]** muss auf `Yes`.
+* In der [!DNL Commerce] -Konfiguration für Store-URLs müssen **[!UICONTROL Use Secure URLs on Storefront]** und **[!UICONTROL Use Secure URLs in Admin]** auf `Yes` gesetzt werden.
 
-* [[!DNL Commerce] crontab][3] erstellt und auf dem installierten Server werden Cron-Aufträge ausgeführt.
+* [[!DNL Commerce] crontab][3] wird erstellt und Cron-Aufträge werden auf dem installierten Server ausgeführt.
 
 >[!NOTE]
 >
->[!DNL Advanced Reporting] kann nur mit [!DNL Commerce] Installationen, die kontinuierlich eine [Basiswährung](../stores-purchase/currency-configuration.md).
+>[!DNL Advanced Reporting] kann nur mit [!DNL Commerce] -Installationen verwendet werden, die kontinuierlich eine einzelne [Basiswährung](../stores-purchase/currency-configuration.md) verwendet haben.
 
 
-### Schritt 1: Aktivieren [!DNL Advanced Reporting]
+### Schritt 1: Aktivieren Sie [!DNL Advanced Reporting]
 
-Im [!DNL Commerce] Konfiguration, [[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) ist standardmäßig aktiviert und wird automatisch gestartet, wenn cron [konfiguriert](../configuration-reference/advanced/system.md) und laufen. Der Versuch, das Abonnement einzurichten, wird zu Beginn jeder Stunde über die nächsten 24 Stunden bis zum Erfolg gestartet. Der Abonnementstatus lautet &quot;Ausstehend&quot;, bis das Abonnement erfolgreich eingerichtet wurde.
+In der [!DNL Commerce] -Konfiguration ist [[!DNL Advanced Reporting]](../configuration-reference/general/advanced-reporting.md) standardmäßig aktiviert und startet automatisch, wenn der Cron [konfiguriert](../configuration-reference/advanced/system.md) ist und ausgeführt wird. Der Versuch, das Abonnement einzurichten, wird zu Beginn jeder Stunde über die nächsten 24 Stunden bis zum Erfolg gestartet. Der Abonnementstatus lautet &quot;Ausstehend&quot;, bis das Abonnement erfolgreich eingerichtet wurde.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. In der linken Navigationsleiste, in der **[!UICONTROL General]** erweitert ist, wählen Sie **[!UICONTROL Advanced Reporting]** und gehen Sie wie folgt vor:
+1. Wählen Sie im linken Navigationsbereich, in dem **[!UICONTROL General]** erweitert ist, **[!UICONTROL Advanced Reporting]** und gehen Sie wie folgt vor:
 
-   * Stellen Sie sicher, dass **[!UICONTROL Advanced Reporting Service]** auf `Enable` (Standardeinstellung).
+   * Stellen Sie sicher, dass **[!UICONTROL Advanced Reporting Service]** auf `Enable` gesetzt ist (die Standardeinstellung).
 
-   * Legen Sie die **[!UICONTROL Time of day to send data]** auf die Stunde, Minute und Sekunde, nach einer 24-Stunden-Zeit, die Sie möchten, dass der Dienst aktualisierte Daten von Ihrem Store erhält. Standardmäßig werden die Daten um 2:00 Uhr gesendet.
+   * Stellen Sie den Wert &quot;**[!UICONTROL Time of day to send data]**&quot;auf die Stunde, Minute und Sekunde (gemäß einer 24-Stunden-Uhr-Zeit) ein, die der Dienst für den Empfang aktualisierter Daten aus Ihrem Store benötigen soll. Standardmäßig werden die Daten um 2:00 Uhr gesendet.
 
-   * under **[!UICONTROL Industry Data]**, wählen Sie die **[!UICONTROL Industry]** die Ihr Geschäft am besten beschreibt.
+   * Wählen Sie unter **[!UICONTROL Industry Data]** die **[!UICONTROL Industry]** aus, die Ihr Geschäft am besten beschreibt.
 
    ![Erweiterte Berichtkonfiguration](./assets/advanced-reporting-config.png){width="400"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
-1. Klicken Sie bei Aufforderung auf **[[!UICONTROL Cache Management]](../systems/cache-management.md)** in der Nachricht am oberen Seitenrand ein und aktualisieren Sie alle ungültigen Caches.
+1. Wenn Sie dazu aufgefordert werden, klicken Sie in der Meldung oben auf der Seite auf **[[!UICONTROL Cache Management]](../systems/cache-management.md)** und aktualisieren Sie alle ungültigen Caches.
 
-1. Warten Sie über Nacht oder bis nach dem Zeitpunkt des nächsten geplanten Updates. Überprüfen Sie dann den Status Ihres Abonnements. Wenn der Status weiterhin ist _pending_, stellen Sie sicher, dass Ihre Installation alle Anforderungen erfüllt.
+1. Warten Sie über Nacht oder bis nach dem Zeitpunkt des nächsten geplanten Updates. Überprüfen Sie dann den Status Ihres Abonnements. Wenn der Status immer noch _ausstehend_ lautet, stellen Sie sicher, dass Ihre Installation alle Anforderungen erfüllt.
 
-### Schritt 2: Zugriff [!DNL Advanced Reporting]
+### Schritt 2: Zugriff auf [!DNL Advanced Reporting]
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Im _Admin_ Seitenleiste, wählen **[!UICONTROL Dashboard]**. Klicken Sie anschließend auf **[!UICONTROL Go to Advanced Reporting]**.
-   * Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTROL Business Intelligence]_>**[!UICONTROL Advanced Reporting]**.
+   * Wählen Sie in der Seitenleiste _Admin_ die Option **[!UICONTROL Dashboard]** aus. Klicken Sie dann auf **[!UICONTROL Go to Advanced Reporting]**.
+   * Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Reports]** > _[!UICONTROL Business Intelligence]_>**[!UICONTROL Advanced Reporting]**.
 
-   Die [!DNL Advanced Reporting] Dashboard bietet eine schnelle Zusammenfassung Ihrer Bestellungen, Kunden und Produkte. Scrollen Sie nach unten, um das vollständige Dashboard anzuzeigen.
+   Das Dashboard [!DNL Advanced Reporting] bietet eine schnelle Zusammenfassung Ihrer Bestellungen, Kunden und Produkte. Scrollen Sie nach unten, um das vollständige Dashboard anzuzeigen.
 
-1. Um eine bessere Ansicht der Daten zu erhalten, legen Sie die **[!UICONTROL Filters]** in der oberen rechten Ecke des Zeitraums und der Speicheransicht, die Sie in den Bericht aufnehmen möchten. Führen Sie dann die folgenden Schritte aus:
+1. Um eine bessere Ansicht der Daten zu erhalten, setzen Sie &quot;**[!UICONTROL Filters]**&quot;in der oberen rechten Ecke auf den Zeitraum und die Store-Ansicht, die Sie in den Bericht aufnehmen möchten. Führen Sie dann die folgenden Schritte aus:
 
    * Bewegen Sie den Mauszeiger über einen Datenpunkt, um weitere Informationen zu erhalten.
    * Um alle Dashboard-Berichte anzuzeigen, klicken Sie auf jede Registerkarte.
 
    ![Datenpunkt](./assets/reporting-advanced-data-point.png){width="600" zoomable="yes"}
 
-## Zugriff [!DNL Advanced Reporting] Datenressourcen
+## Zugriff auf [!DNL Advanced Reporting] Datenressourcen
 
-Klicken Sie oben rechts im Dashboard für erweiterte Berichte auf **[!UICONTROL Additional Resources]**.
+Klicken Sie in der oberen rechten Ecke des Dashboards Erweiterte Berichterstellung auf **[!UICONTROL Additional Resources]**.
 
-![Erweiterte Berichtsdatenressourcen](./assets/advanced-reporting-your-data-resources.png){width="600" zoomable="yes"}
+![Erweiterte Berichterstellungsdatenressourcen](./assets/advanced-reporting-your-data-resources.png){width="600" zoomable="yes"}
 
 ## Fehlerbehebung
 
-Wenn Sie die Meldung &quot;Seite nicht gefunden&quot;mit dem Code 404 erhalten, überprüfen Sie, ob Ihr Store die Anforderungen für [!DNL Advanced Reporting]. Folgen Sie dann den Anweisungen, um zu überprüfen, ob die Integration installiert ist.
+Wenn Sie die Meldung &quot;Seite nicht gefunden&quot;mit dem Code 404 erhalten, überprüfen Sie, ob Ihr Store die Anforderungen für [!DNL Advanced Reporting] erfüllt. Folgen Sie dann den Anweisungen, um zu überprüfen, ob die Integration installiert ist.
 
 ### Überprüfen, ob die Integration aktiv ist
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _[!UICONTROL Extensions]_>**[!UICONTROL Integration]**.
 
-1. Stellen Sie sicher, dass **[!UICONTROL Magento Analytics user]** wird in der Liste angezeigt und die **[!UICONTROL Status]** is `Active`.
+1. Stellen Sie sicher, dass die **[!UICONTROL Magento Analytics user]** -Integration in der Liste angezeigt wird und die **[!UICONTROL Status]** den Wert `Active` aufweist.
 
-1. Um den Benutzer wiederherzustellen, klicken Sie auf **[!UICONTROL Reauthorize]** und gehen Sie wie folgt vor:
+1. Um den Benutzer wiederherzustellen, klicken Sie auf **[!UICONTROL Reauthorize]** und führen Sie die folgenden Schritte aus:
 
    ![Neu autorisieren](./assets/advanced-reporting-integration-reauthorize.png){width="600"}
 
-   * Klicken Sie bei Aufforderung auf **[!UICONTROL Reauthorize]** um den Zugriff auf die API-Ressourcen zu genehmigen.
+   * Klicken Sie bei Aufforderung auf **[!UICONTROL Reauthorize]** , um den Zugriff auf die API-Ressourcen zu genehmigen.
 
-     ![Zugriff auf API-Ressourcen erneut autorisieren](./assets/advanced-reporting-integration-api.png){width="600"}
+     ![Erneutes Autorisieren des Zugriffs auf API-Ressourcen](./assets/advanced-reporting-integration-api.png){width="600"}
 
-   * Überprüfen Sie, ob die Liste der Integrationstoken für Erweiterungen abgeschlossen ist. Klicken Sie anschließend auf **Fertig**.
+   * Überprüfen Sie, ob die Liste der Integrationstoken für Erweiterungen abgeschlossen ist. Klicken Sie dann auf **Fertig**.
 
      ![Integrationstoken](./assets/advanced-reporting-integration-tokens-for-extensions.png){width="600"}
 
-1. Suchen Sie nach der Meldung, die die Integration anzeigt. `Magento Analytics user` erneut autorisiert wird.
+1. Suchen Sie nach der Meldung, die angibt, dass die Integration `Magento Analytics user` erneut autorisiert ist.
 
 1. Warten Sie über Nacht oder bis nach dem Zeitpunkt des nächsten geplanten Updates.
 
 ### Einheitliche Basiswährung überprüfen
 
-[!DNL Advanced Reporting] kann nur mit [!DNL Commerce] -Installationen, die nur eine [Basiswährung](../stores-purchase/currency-configuration.md) seit dem Zeitpunkt der Installation. Das Ergebnis ist, dass im Verlauf alle Bestellungen dieselbe Basiswährung verwenden. [!DNL Advanced Reporting] funktioniert nicht, wenn Sie Ihre Basiswährung jederzeit geändert haben und Bestellungen in Ihrer Geschichte haben, die mit verschiedenen Basiswährungen verarbeitet wurden.
+[!DNL Advanced Reporting] kann nur mit [!DNL Commerce] -Installationen verwendet werden, die seit dem Zeitpunkt der Installation nur eine einzige [Basiswährung](../stores-purchase/currency-configuration.md) verwendet haben. Das Ergebnis ist, dass im Verlauf alle Bestellungen dieselbe Basiswährung verwenden. [!DNL Advanced Reporting] funktioniert nicht, wenn Sie zu irgendeinem Zeitpunkt Ihre Basiswährung geändert haben und Bestellungen in Ihrem Verlauf haben, die mit verschiedenen Basiswährungen verarbeitet wurden.
 
-Um festzustellen, ob Ihr Store mehrere Basiswährungen hat, können Sie Ihre [!DNL Commerce] -Datenbank über die Befehlszeile unter Verwendung des folgenden MySQL-Beispiels. Möglicherweise müssen Sie die Tabellennamen entsprechend Ihrer Datenstruktur ändern:
+Um festzustellen, ob Ihr Store mehrere Basiswährungen hat, können Sie Ihre [!DNL Commerce] -Datenbank über die Befehlszeile mit dem folgenden MySQL-Beispiel abfragen. Möglicherweise müssen Sie die Tabellennamen entsprechend Ihrer Datenstruktur ändern:
 
 ```sql
 select distinct base_currency_code from sales_order;
@@ -131,7 +131,7 @@ select distinct base_currency_code from sales_order;
 
 ### Datendiskrepanz
 
-Wenn Sie feststellen, dass die Variable `Data last updated...` -Beschriftung das gestrige Datum und nicht das heutige Datum anzeigt. Möglicherweise kann es zu einer Verzögerung von bis zu einem Tag in den Aktualisierungen der erweiterten Berichterstellung kommen. Diese Verzögerung ist auf eine größer als erwartete Warteschlangengröße zurückzuführen.
+Wenn Sie feststellen, dass die Beschriftung `Data last updated...` das gestrige Datum und nicht das heutige anzeigt, kann es in den Aktualisierungen der erweiterten Berichterstellung zu einer Verzögerung von bis zu einem Tag kommen. Diese Verzögerung ist auf eine größer als erwartete Warteschlangengröße zurückzuführen.
 
 ## Dashboard-Berichte
 

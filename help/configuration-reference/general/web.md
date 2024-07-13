@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL General] &gt; [!UICONTROL Web] Seite des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL General] &gt; [!UICONTROL Web] des Commerce-Administrators.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1795'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 | Feld | Anwendungsbereich | Beschreibung |
 |  ---  |  ---  |  ---  |
-| [!UICONTROL Add Store Code to URLs] | Global | Wenn Webserver-Neuschreibungen aktiviert sind, fügt den Store-Code der aktuellen Ansicht in die URL ein. Optionen: `Yes` / `No`. <br />Wenn dieses Feld auf `Yes`müssen Sie Store-Codes in Ihre Browser-URLs aufnehmen, um sicherzustellen, dass URL-Neuschreibungen korrekt zugeordnet und alle Seiten erfolgreich geöffnet werden. Dies vermeidet _404 Seite nicht gefunden_ Fehler. |
-| [!UICONTROL Auto-redirect to Base URL] | Store-Ansicht | (Bei Einzelspeicher-Setups) Wenn auf Ihrer Site ein defekter Link vorhanden ist, leitet den Traffic zur Basis-URL weiter und nicht zu einer Seite mit der Meldung &quot;404 Seite nicht gefunden&quot;. Optionen:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_Wichtig:_**Verwenden Sie keine automatische Umleitung zur Basis-URL für Multi-Store-Setups. |
-| [!UICONTROL Catalog media URL format] | Global | Definiert die [URL-Format](../../catalog/catalog-urls.md) den Produkten und Kategorien zugeordnet werden. Optionen: Eindeutiger Hash pro Bildvariante (Legacy-Modus) definiert den konvertierten Dateinamen als einen eindeutigen Hash-Wert. Bildoptimierung basierend auf Abfrageparametern definiert [Bildoptimierung](../../content-design/media-gallery-image-optimization.md) -Prozess abhängig von Abfrageparametern. |
+| [!UICONTROL Add Store Code to URLs] | Global | Wenn Webserver-Neuschreibungen aktiviert sind, fügt den Store-Code der aktuellen Ansicht in die URL ein. Optionen: `Yes` / `No`. <br />Wenn dieses Feld auf `Yes` gesetzt ist, müssen Sie Store-Codes in Ihre Browser-URLs aufnehmen, um sicherzustellen, dass URL-Neuschreibungen korrekt zugeordnet und alle Seiten erfolgreich geöffnet werden. Dadurch werden Fehler vom Typ _404 Seite nicht gefunden_ vermieden. |
+| [!UICONTROL Auto-redirect to Base URL] | Store-Ansicht | (Bei Einzelspeicher-Setups) Wenn auf Ihrer Site ein defekter Link vorhanden ist, leitet den Traffic zur Basis-URL weiter und nicht zu einer Seite mit der Meldung &quot;404 Seite nicht gefunden&quot;. Optionen:` No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br />**_Wichtig:_**Verwenden Sie die automatische Weiterleitung nicht zur Basis-URL für Multi-Store-Setups. |
+| [!UICONTROL Catalog media URL format] | Global | Definiert das [URL-Format](../../catalog/catalog-urls.md), das Produkten und Kategorien zugewiesen ist. Optionen: Eindeutiger Hash pro Bildvariante (Legacy-Modus) definiert den konvertierten Dateinamen als einen eindeutigen Hash-Wert. Bildoptimierung basierend auf Abfrageparametern definiert den Prozess [Bildoptimierung](../../content-design/media-gallery-image-optimization.md) je nach Abfrageparametern. |
 
 {style="table-layout:auto"}
 
@@ -34,19 +34,19 @@ ht-degree: 0%
 
 <!-- [Search Engine Optimization configuration settings](https://docs.magento.com/user-guide/marketing/url-rewrite.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Use Web Server Rewrites] | Store-Ansicht | PHP-basierte Systeme enthalten normalerweise eine Datei namens `index.php` im Stammordner. Standardmäßig wird der Dateiname in der URL direkt nach dem Namen des Stammordners angezeigt. Wenn diese Option aktiviert ist, werden vom System keine `index.php` von der URL aus. Diese Best Practice für die Benutzerfreundlichkeit macht jede URL präziser und hat keine Auswirkungen auf die Leistung oder den Site-Rang. Optionen: `Yes` / `No` |
+| [!UICONTROL Use Web Server Rewrites] | Store-Ansicht | PHP-basierte Systeme enthalten normalerweise eine Datei mit dem Namen `index.php` im Stammordner. Standardmäßig wird der Dateiname in der URL direkt nach dem Namen des Stammordners angezeigt. Wenn dies aktiviert ist, lässt das System `index.php` aus der URL weg. Diese Best Practice für die Benutzerfreundlichkeit macht jede URL präziser und hat keine Auswirkungen auf die Leistung oder den Site-Rang. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Base URLs]
 
-![Web > Basis-URLs](./assets/web-base-urls.png)<!-- zoom -->
+![Web > Basis-URLS](./assets/web-base-urls.png)<!-- zoom -->
 
 <!-- [Base URLS configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Base URL] | Store-Ansicht | Die vollständige Adresse des Commerce-Stammordners, der nicht über einen verschlüsselten (SSL-)Kanal ausgeführt wird. Die URL muss mit einem Schrägstrich enden. |
 | [!UICONTROL Base Link URL] | Store-Ansicht | Ein Markup-Tag, das als Platzhalter für die Basis-URL verwendet wird. |
@@ -61,17 +61,17 @@ ht-degree: 0%
 
 <!-- [Base URLs (Secure) configuration settings](https://docs.magento.com/user-guide/stores/store-urls.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Secure Base URL] | Store-Ansicht | Die vollständige Adresse des Commerce-Stammordners, der mit dem verschlüsselten sicheren (SSL/TLS) Protokoll bereitgestellt wird. Die URL muss mit einem Schrägstrich enden. |
+| [!UICONTROL Secure Base URL] | Store-Ansicht | Die vollständige Adresse des Commerce-Stammordners, der mit dem verschlüsselten sicheren (SSL/TLS)-Protokoll bereitgestellt wird. Die URL muss mit einem Schrägstrich enden. |
 | [!UICONTROL Secure Base Link URL] | Store-Ansicht | Ein Markup-Tag, das als Platzhalter für die Basis-URL verwendet wird, die über einen sicheren Kanal ausgeführt wird. |
-| [!UICONTROL Secure Base URL for Static View Files] | Store-Ansicht | Ein Markup-Tag, das auf den Speicherort von statischen Dateien wie CSS, Schriftarten, Bilder und JavaScript verweist, die vom Design verwendet werden. Die Dateien können sich auf einem unsicheren oder sicheren Kanal befinden. Wenn Ihre Commerce-Installation über mehrere Sites mit derselben Ordnerstruktur verfügt, können Sie für jede Site einen anderen Ordner haben. Legen Sie den Konfigurationsbereich auf die richtige Site fest, bevor Sie die Basis-URL für statische Ansichtsdateien eingeben. Sie können auch einen Ordner außerhalb Ihrer Commerce-Installation angeben. |
+| [!UICONTROL Secure Base URL for Static View Files] | Store-Ansicht | Ein Markup-Tag, das auf den Speicherort statischer Dateien wie CSS, Schriftarten, Bilder und JavaScript verweist, die vom Design verwendet werden. Die Dateien können sich auf einem unsicheren oder sicheren Kanal befinden. Wenn Ihre Commerce-Installation über mehrere Sites mit derselben Ordnerstruktur verfügt, können Sie für jede Site einen anderen Ordner haben. Legen Sie den Konfigurationsbereich auf die richtige Site fest, bevor Sie die Basis-URL für statische Ansichtsdateien eingeben. Sie können auch einen Ordner außerhalb Ihrer Commerce-Installation angeben. |
 | [!UICONTROL Secure Base URL for User Media Files] | Store-Ansicht | Ein Pfad, der auf den Speicherort von Katalogbildern und anderen Mediendateien verweist. Die Dateien können sich auf einem unsicheren oder sicheren Kanal befinden. Ein Platzhalter wird zur Darstellung der Basis-URL verwendet. Wenn Ihre Commerce-Installation über mehrere Sites mit derselben Ordnerstruktur verfügt, können Sie für jeden Ordner einen anderen Medienordner verwenden. Dadurch können Sie jeden Medienordner separat sichern und wiederherstellen. Sie können auch einen Medienordner außerhalb Ihrer Commerce-Installation angeben. |
-| [!UICONTROL Use Secure URLs on Storefront] | Store-Ansicht | Wenn Ihre Domäne über ein Sicherheitszertifikat verfügt, können Sie die Storefront mit oder ohne SSL-Verschlüsselung ausführen. Optionen:<br />**`Yes`**- Store-URLs beginnen mit `https` , um anzugeben, dass die Seite mit einem verschlüsselten, sicheren Protokoll bereitgestellt wird.<br />**`No`** - Store-URLs beginnen mit `http` , um anzugeben, dass die Seite ohne sicheres Protokoll bereitgestellt wird. |
-| [!UICONTROL Use Secure URLs in Admin] | Global | Wenn Ihre Domäne über ein Sicherheitszertifikat verfügt, können Sie den Store-Administrator mit oder ohne SSL-Verschlüsselung ausführen. Optionen: <br />**`Yes`**- Admin-URLs beginnen mit `https` , um anzugeben, dass die Seite mit einem verschlüsselten, sicheren Protokoll bereitgestellt wird.<br />**`No`** - Admin-URLs beginnen mit `http` , um anzugeben, dass die Seite ohne sicheres Protokoll bereitgestellt wird.<br /> Wenn sichere URLs sowohl für den Store als auch für Admin aktiviert sind, werden zwei zusätzliche Felder angezeigt, um die `HSTS`. |
-| [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | Store-Ansicht | Wenn aktiviert, [`HSTS`][1] bietet eine Sicherheitsmaßnahme gegen Angriffe vom Typ &quot;man in der Mitte&quot;und verhindert, dass Benutzer die Meldung &quot;ungültiges Zertifikat&quot;überschreiben. Optionen: `Yes` / `No` |
-| [!UICONTROL Upgrade Insecure Requests] | Store-Ansicht | Wenn diese Option aktiviert ist, konvertiert unsecure (`HTTP`) -Anfragen, die vom Browser an die sichere (`HTTPS`). Optionen: `Yes` / `No` |
-| [!UICONTROL Offloader Header] | Global | Gibt die `offloader_header` -Wert in Ihrer Serverkonfiguration verwenden, um das Protokoll zwischen dem Client und dem Lastenausgleich zu identifizieren. Die meisten Commerce-Installationen verwenden den Standardwert, `X-Forwarded-Proto` (XFP), um das Protokoll als `HTTP` oder `HTTPS`. |
+| [!UICONTROL Use Secure URLs on Storefront] | Store-Ansicht | Wenn Ihre Domäne über ein Sicherheitszertifikat verfügt, können Sie die Storefront mit oder ohne SSL-Verschlüsselung ausführen. Optionen:<br />**`Yes`**- Store-URLs beginnen mit `https` , um anzugeben, dass die Seite mit dem verschlüsselten, sicheren Protokoll bereitgestellt wird.<br />**`No`** - Store-URLs beginnen mit `http` , um anzugeben, dass die Seite ohne sicheres Protokoll bereitgestellt wird. |
+| [!UICONTROL Use Secure URLs in Admin] | Global | Wenn Ihre Domäne über ein Sicherheitszertifikat verfügt, können Sie den Store-Administrator mit oder ohne SSL-Verschlüsselung ausführen. Optionen: <br />**`Yes`**- Admin-URLs beginnen mit `https`, um anzugeben, dass die Seite mit dem verschlüsselten, sicheren Protokoll bereitgestellt wird.<br />**`No`** - Admin-URLs beginnen mit `http`, um anzugeben, dass die Seite ohne sicheres Protokoll bereitgestellt wird.<br /> Wenn sichere URLs sowohl für den Speicher als auch für den Administrator aktiviert sind, werden zwei zusätzliche Felder angezeigt, um `HSTS` zu aktivieren und zu konfigurieren. |
+| [!UICONTROL Enable HTTP Strict Transport Security (HSTS)] | Store-Ansicht | Wenn diese Option aktiviert ist, bietet [`HSTS`][1] eine Sicherheitsmaßnahme gegen Angriffe vom Typ &quot;man in der Mitte&quot;und verhindert, dass Benutzer die Meldung &quot;ungültiges Zertifikat&quot;überschreiben. Optionen: `Yes` / `No` |
+| [!UICONTROL Upgrade Insecure Requests] | Store-Ansicht | Wenn diese Option aktiviert ist, wandelt unsichere (`HTTP`) Anforderungen, die vom Browser empfangen wurden, in das sichere (`HTTPS`) Protokoll um. Optionen: `Yes` / `No` |
+| [!UICONTROL Offloader Header] | Global | Gibt den `offloader_header` -Wert in Ihrer Serverkonfiguration an, um das Protokoll zwischen dem Client und dem Lastenausgleich zu identifizieren. Die meisten Commerce-Installationen verwenden den Standardwert `X-Forwarded-Proto` (XFP), um das Protokoll entweder als `HTTP` oder als `HTTPS` zu kennzeichnen. |
 
 {style="table-layout:auto"}
 
@@ -81,11 +81,11 @@ ht-degree: 0%
 
 <!-- [Default Pages configuration settings](https://docs.magento.com/user-guide/cms/pages-default.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Default Web URL] | Store-Ansicht | Gibt die Landingpage an, die mit der Basis-URL verknüpft ist. Standardmäßig ist dies auf &quot;cms&quot;gesetzt, um eine Seite aus dem Commerce Content Management System (CMS) anzugeben. Sie können auch einen anderen Landingpage-Typ verwenden, z. B. einen Blog. Wenn beispielsweise ein Blog auf dem Server unter `magento/blog`können Sie den Namen des Ordners &quot;blog&quot; als relativen Pfad zur Seitenauswahl eingeben. |
+| [!UICONTROL Default Web URL] | Store-Ansicht | Gibt die Landingpage an, die mit der Basis-URL verknüpft ist. Standardmäßig ist dies auf &quot;cms&quot;gesetzt, um eine Seite aus dem Commerce Content Management System (CMS) anzugeben. Sie können auch einen anderen Landingpage-Typ verwenden, z. B. einen Blog. Wenn beispielsweise ein Blog unter `magento/blog` auf dem Server installiert ist, können Sie den Namen des Ordners &quot;Blog&quot;als relativen Pfad zur Seitenauswahl eingeben. |
 | [!UICONTROL CMS Home Page] | Store-Ansicht | Um die Startseite für den Store auszuwählen, wählen Sie einfach die CMS-Seite aus der Liste aus. Standardmäßig listet die CMS-Startseite die gesamte Auswahl an CMS-Seiten auf, die für Ihren Store verfügbar sind. |
-| [!UICONTROL Default No-route URL] | Store-Ansicht | Enthält die URL der Standardseite, die angezeigt werden soll, wenn eine `404 Page not Found` Fehler auftritt. Der Standardwert ist `cms/noroute/index`. |
+| [!UICONTROL Default No-route URL] | Store-Ansicht | Enthält die URL der Standardseite, die angezeigt werden soll, wenn ein `404 Page not Found` -Fehler auftritt. Der Standardwert ist `cms/noroute/index`. |
 | [!UICONTROL CMS No Route Page] | Store-Ansicht | Identifiziert eine bestimmte CMS-Seite, die angezeigt werden soll, wenn der Fehler &quot;404 Seite nicht gefunden&quot;auftritt. Die Standardseite ist 404 Not Found. |
 | [!UICONTROL CMS No Cookies Page] | Store-Ansicht | Identifiziert eine bestimmte CMS-Seite, die angezeigt wird, wenn Cookies für den Browser nicht aktiviert sind. Auf dieser Seite wird erläutert, warum Cookies verwendet werden und wie sie für jeden Browser aktiviert werden. Die Standardseite ist Cookies aktivieren . |
 | [!UICONTROL Show Breadcrumbs for CMS Pages] | Store-Ansicht | Bestimmt, ob eine Breadcrumb-Leiste auf allen CMS-Seiten im Katalog angezeigt wird. Optionen: `Yes` / `No` |
@@ -98,11 +98,11 @@ ht-degree: 0%
 
 <!--[Default Layouts](https://docs.magento.com/user-guide/design/page-layout.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Default Product Layout] | Global | Bestimmt die [layout](../../content-design/page-layout.md) wird standardmäßig für Produktseiten verwendet. Optionen: <br/>**`No layout updates`**- Standardmäßig sind keine Layoutaktualisierungen für Produktseiten verfügbar.<br/>**`Empty`** - Standardmäßig wird ein leeres Layout für Produktseiten verwendet. <br/>**`1 column`**- Standardmäßig wird ein einspaltiges Layout für Produktseiten verwendet.<br/>**`2 columns with left bar`** - Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der linken Seite für Produktseiten verwendet. <br/>**`2 columns with right bar`**- Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der rechten Seite für Produktseiten verwendet.<br/>**`3 columns`** - Standardmäßig wird ein dreiseitiges Layout mit Seitenleisten auf der linken und rechten Seite für Produktseiten verwendet.<br/>**`Page -- Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig wird das Layout Seite - Vollbreite für Produktseiten verwendet.<br/>**`Category - Full Width`** - (Erfordert [!DNL Page Builder]) Standardmäßig wird das Layout Kategorie - Vollständige Breite für Produktseiten verwendet. <br/>**`Product - Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig wird das Layout Produkt - Vollständige Breite für Produktseiten verwendet. |
-| [!UICONTROL Default Category Layout] | Global | Bestimmt die [layout](../../content-design/page-layout.md) wird standardmäßig für Kategorieseiten verwendet. Optionen: <br/>**`No layout updates`**- Standardmäßig sind keine Layoutaktualisierungen für Kategorieseiten verfügbar.<br/>**`Empty`** - Standardmäßig wird ein leeres Layout für Kategorieseiten verwendet. <br/>**`1 column`**- Standardmäßig wird ein einspaltiges Layout für Kategorieseiten verwendet.<br/>**`2 columns with left bar`** - Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der linken Seite für Kategorieseiten verwendet. <br/>**`2 columns with right bar`**- Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der rechten Seite für Kategorieseiten verwendet.<br/>**`3 columns`** - Standardmäßig wird ein dreiseitiges Layout mit Seitenleisten auf der linken und rechten Seite für Kategorieseiten verwendet.<br/>**`Page - Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig wird das Layout Seite - Vollbreite für Kategorieseiten verwendet.<br/>**`Category - Full Width`** - (Erfordert [!DNL Page Builder]) Standardmäßig wird das Layout Kategorie - Vollständige Breite für Kategorieseiten verwendet. <br/>**`Product - Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig wird das Layout Produkt - Vollständige Breite für Kategorieseiten verwendet. |
-| Standardseitenlayout | Global | Bestimmt die [layout](../../content-design/page-layout.md) wird standardmäßig für CMS-Seiten verwendet. Optionen: <br/>**`No layout updates`**- Standardmäßig sind keine Layoutaktualisierungen für CMS-Seiten verfügbar.<br/>**`Empty`** - Standardmäßig wird ein leeres Layout für CMS-Seiten verwendet. <br/>**`1 column`**- Standardmäßig wird ein einspaltiges Layout für CMS-Seiten verwendet.<br/>**`2 columns with left bar`** - Standardmäßig verwendet ein zweispaltiges Layout mit der Seitenleiste auf der linken Seite für CMS-Seiten.<br/>**`2 columns with right bar`**- Standardmäßig verwendet ein zweispaltiges Layout mit der Seitenleiste auf der rechten Seite für CMS-Seiten.<br/>**`3 columns`** - Standardmäßig verwendet ein dreiseitiges Layout mit Seitenleisten auf der linken und rechten Seite für CMS-Seiten.<br/>**`Page - Full Width`**- (Erfordert [!UICONTROL Page Builder]) Standardmäßig verwendet das Layout Seite - Vollbreite für CMS-Seiten.<br/>**`Category - Full Width`** - (Erfordert [!UICONTROL Page Builder]) Standardmäßig verwendet das Layout Kategorie - Vollbreite für CMS-Seiten. <br/>**`Product - Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig verwendet das Layout Produkt - Vollständige Breite für CMS-Seiten. |
+| [!UICONTROL Default Product Layout] | Global | Bestimmt das standardmäßig für Produktseiten verwendete [layout](../../content-design/page-layout.md). Optionen: <br/>**`No layout updates`**- Standardmäßig sind keine Layoutaktualisierungen für Produktseiten verfügbar.<br/>**`Empty`** - Standardmäßig wird ein leeres Layout für Produktseiten verwendet. <br/>**`1 column`**- Standardmäßig wird ein einspaltiges Layout für Produktseiten verwendet.<br/>**`2 columns with left bar`** - Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der linken Seite für Produktseiten verwendet. <br/>**`2 columns with right bar`**- Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der rechten Seite für Produktseiten verwendet.<br/>**`3 columns`** - Standardmäßig wird ein dreiseitiges Layout mit Seitenleisten auf der linken und rechten Seite für Produktseiten verwendet.<br/>**`Page -- Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig wird das Layout Seite - Vollständige Breite für Produktseiten verwendet.<br/>**`Category - Full Width`** - (Erfordert [!DNL Page Builder]) Standardmäßig wird das Layout Kategorie - Vollständige Breite für Produktseiten verwendet. <br/>**`Product - Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig wird das Layout Produkt - Vollständige Breite für Produktseiten verwendet. |
+| [!UICONTROL Default Category Layout] | Global | Bestimmt das [layout](../../content-design/page-layout.md) , das standardmäßig für Kategorieseiten verwendet wird. Optionen: <br/>**`No layout updates`**- Standardmäßig sind keine Layoutaktualisierungen für Kategorieseiten verfügbar.<br/>**`Empty`** - Standardmäßig wird ein leeres Layout für Kategorieseiten verwendet. <br/>**`1 column`**- Standardmäßig wird ein einzelnes Spaltenlayout für Kategorieseiten verwendet.<br/>**`2 columns with left bar`** - Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste links für Kategorieseiten verwendet. <br/>**`2 columns with right bar`**- Standardmäßig wird für Kategorieseiten ein zweispaltiges Layout mit der Seitenleiste rechts verwendet.<br/>**`3 columns`** - Standardmäßig wird für Kategorieseiten ein dreiseitiges Layout mit Seitenleisten links und rechts verwendet.<br/>**`Page - Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig wird das Layout Seite - Vollständige Breite für Kategorieseiten verwendet.<br/>**`Category - Full Width`** - (Erfordert [!DNL Page Builder]) Standardmäßig wird das Layout Kategorie - Vollständige Breite für Kategorieseiten verwendet. <br/>**`Product - Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig wird das Layout Produkt - Vollständige Breite für Kategorieseiten verwendet. |
+| Standardseitenlayout | Global | Bestimmt das [layout](../../content-design/page-layout.md) , das standardmäßig für CMS-Seiten verwendet wird. Optionen: <br/>**`No layout updates`**- Standardmäßig sind keine Layoutaktualisierungen für CMS-Seiten verfügbar.<br/>**`Empty`** - Standardmäßig wird ein leeres Layout für CMS-Seiten verwendet. <br/>**`1 column`**- Standardmäßig wird ein einspaltiges Layout für CMS-Seiten verwendet.<br/>**`2 columns with left bar`** - Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste links für CMS-Seiten verwendet.<br/>**`2 columns with right bar`**- Standardmäßig wird für CMS-Seiten ein zweispaltiges Layout mit der Seitenleiste auf der rechten Seite verwendet.<br/>**`3 columns`** - Standardmäßig wird für CMS-Seiten ein dreiseitiges Layout mit Seitenleisten auf der linken und rechten Seite verwendet.<br/>**`Page - Full Width`**- (Erfordert [!UICONTROL Page Builder]) Standardmäßig verwendet das Layout Seite - Vollbreite für CMS-Seiten.<br/>**`Category - Full Width`** - (Erfordert [!UICONTROL Page Builder]) Standardmäßig wird das Layout Kategorie - Vollständige Breite für CMS-Seiten verwendet. <br/>**`Product - Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig wird das Layout Produkt - Vollständige Breite für CMS-Seiten verwendet. |
 
 {style="table-layout:auto"}
 
@@ -112,12 +112,12 @@ ht-degree: 0%
 
 <!-- [Default Cookie configuration settings](https://docs.magento.com/user-guide/stores/compliance-cookie-law.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Cookie Lifetime] | Store-Ansicht | Bestimmt, wie lange ein Cookie vorhanden sein kann, bevor es automatisch gelöscht wird. Der Standardwert ist 3600 Sekunden (1 Stunde). |
-| [!UICONTROL Cookie Path] | Store-Ansicht | Gibt die Ordner auf dem Server an, in denen Commerce-Cookies verwendet werden können. Um Commerce-Cookies überall in der Installation verfügbar zu machen, setzen Sie den Cookie-Pfad auf einen einzigen Schrägstrich: `/`. Dieser Wert kann nur den Cookie-Pfad enthalten und **_cannot_** enthält alle anderen Cookie-Parameter. |
-| [!UICONTROL Cookie Domain] | Store-Ansicht | Bestimmt, ob Commerce-Cookies für Subdomains verfügbar sind. So unterstützen Sie beispielsweise `mysubdomain`.domain.com geben Sie den Namen Ihrer Domäne mit einem Punkt am Anfang ein, z. B. `.domain.com`. Dieser Wert kann nur die Cookie-Domäne enthalten und **_cannot_** enthält alle anderen Cookie-Parameter. |
-| [!UICONTROL Use HTTP Only] | Store-Ansicht | Bestimmt, ob Commerce-Cookies nur über einen unsicheren Kanal (http) verwendet werden können oder auch über einen verschlüsselten Kanal (https) verwendet werden können. Optionen: `Yes` / `No` |
+| [!UICONTROL Cookie Path] | Store-Ansicht | Gibt die Ordner auf dem Server an, in denen Commerce-Cookies verwendet werden können. Um Commerce-Cookies überall in der Installation verfügbar zu machen, setzen Sie den Cookie-Pfad auf einen einzigen Schrägstrich: `/`. Dieser Wert kann nur den Cookie-Pfad enthalten und **_kann_** keine anderen Cookie-Parameter enthalten. |
+| [!UICONTROL Cookie Domain] | Store-Ansicht | Bestimmt, ob Commerce-Cookies für Subdomains verfügbar sind. Um beispielsweise `mysubdomain`.domain.com zu unterstützen, geben Sie den Namen Ihrer Domäne mit einem Punkt am Anfang ein, z. B. `.domain.com`. Dieser Wert kann nur die Cookie-Domäne enthalten und **_kann_** keine anderen Cookie-Parameter enthalten. |
+| [!UICONTROL Use HTTP Only] | Store-Ansicht | Bestimmt, ob Commerce-Cookies nur über einen unsicheren Kanal (http) oder auch über einen verschlüsselten Kanal (https) verwendet werden können. Optionen: `Yes` / `No` |
 | [!UICONTROL Cookie Restriction Mode] | Webseite | Bestimmt, ob der Cookie-Einschränkungsmodus aktiviert ist. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -128,12 +128,12 @@ ht-degree: 0%
 
 <!-- [Session Validation configuration settings](https://docs.magento.com/user-guide/stores/security-session-validation.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Validate REMOTE_ADDR] | Global | Überprüft, ob die IP-Adresse einer Anforderung mit `$_SESSION` Daten. Die Sitzung wird beendet, wenn eine andere IP-Adresse erkannt wird. Optionen: `Yes` / `No` |
-| [!UICONTROL Validate HTTP_VIA] | Global | Überprüft eingehende Proxy-Daten und prüft, ob die Proxy-Adresse einer Anforderung übereinstimmt `$_SESSION` Daten. Die Sitzung wird beendet, wenn eine andere Proxy-Adresse erkannt wird. Optionen: `Yes` / `No` |
-| [!UICONTROL Validate HTTP_x_FORWARDED_FOR] | Global | Überprüft ausgehende Proxy-Daten und prüft, ob die weitergeleitete Adresse einer Anfrage übereinstimmt  `$_SESSION` Daten. Die Sitzung wird beendet, wenn eine andere weitergeleitete Adresse erkannt wird. Optionen: `Yes` / `No` |
-| [!UICONTROL Validate HTTP_USER_AGENT] | Global | `USER_AGENT` bezieht sich auf den Browser oder das Gerät, mit dem auf die Website zugegriffen wird. Es wird überprüft, ob der Name und die Version des Browsers und des Betriebssystems mit `$_SESSION` Daten. Die Sitzung wird beendet, wenn ein anderer Benutzeragent in derselben Sitzung von einer Anfrage zu einer anderen erkannt wird. Optionen: `Yes` / `No` |
+| [!UICONTROL Validate REMOTE_ADDR] | Global | Überprüft, ob die IP-Adresse einer Anforderung mit den `$_SESSION` -Daten übereinstimmt. Die Sitzung wird beendet, wenn eine andere IP-Adresse erkannt wird. Optionen: `Yes` / `No` |
+| [!UICONTROL Validate HTTP_VIA] | Global | Überprüft eingehende Proxy-Daten und prüft, ob die Proxy-Adresse einer Anforderung mit `$_SESSION` -Daten übereinstimmt. Die Sitzung wird beendet, wenn eine andere Proxy-Adresse erkannt wird. Optionen: `Yes` / `No` |
+| [!UICONTROL Validate HTTP_x_FORWARDED_FOR] | Global | Überprüft ausgehende Proxy-Daten und prüft, ob die weitergeleitete für die Adresse einer Anfrage `$_SESSION` -Daten entspricht. Die Sitzung wird beendet, wenn eine andere weitergeleitete Adresse erkannt wird. Optionen: `Yes` / `No` |
+| [!UICONTROL Validate HTTP_USER_AGENT] | Global | `USER_AGENT` bezieht sich auf den Browser oder das Gerät, mit dem auf die Website zugegriffen wird. Es wird überprüft, ob der Name und die Version des Browsers und des Betriebssystems mit den `$_SESSION` -Daten übereinstimmen. Die Sitzung wird beendet, wenn ein anderer Benutzeragent in derselben Sitzung von einer Anfrage zu einer anderen erkannt wird. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -143,10 +143,10 @@ ht-degree: 0%
 
 <!-- [Browser Capabilities Detection configuration settings](https://docs.magento.com/user-guide/stores/security-browser-capabilities-detection.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Redirect to CMS-page if Cookies are Disabled] | Store-Ansicht | Wenn Cookies vom Browser deaktiviert werden, wird automatisch zur Seite &quot;Keine Cookies&quot;des CMS weitergeleitet. Optionen: `Yes` / `No` |
-| [!UICONTROL Show Notice if JavaScript is Disabled] | Store-Ansicht | Wenn JavaScript vom Browser deaktiviert ist, wird ein Hinweis angezeigt, der den Benutzer auffordert, JavaScript-Optionen zu aktivieren: `Yes` / `No` (deaktiviert) |
+| [!UICONTROL Show Notice if JavaScript is Disabled] | Store-Ansicht | Wenn JavaScript vom Browser deaktiviert wird, wird ein Hinweis angezeigt, in dem der Benutzer aufgefordert wird, die JavaScript-Optionen zu aktivieren: `Yes` / `No` (deaktiviert) |
 | [!UICONTROL Show Notice if Local Storage is Disabled] | Store-Ansicht | Zeigt eine Meldung an, wenn der lokale Cache deaktiviert ist. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}

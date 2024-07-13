@@ -1,18 +1,18 @@
 ---
 title: '[!DNL Page Builder] Workspace'
-description: Erfahren Sie mehr über die Tools im [!DNL Page Builder] Arbeitsbereich, wenn Sie grundlegende Seiten, Produkt- und Katalogseiten, Blöcke und dynamische Blöcke erstellen.
+description: Erfahren Sie mehr über die Tools, die im Arbeitsbereich [!DNL Page Builder] verfügbar sind, wenn Sie einfache Seiten, Produkt- und Katalogseiten, Blöcke und dynamische Blöcke erstellen.
 exl-id: 1cd7b300-0a18-490f-bc11-36de3fec13dc
 feature: Page Builder, Page Content
 source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] Arbeitsbereich
+# [!DNL Page Builder] Workspace
 
-Wann [[!DNL Page Builder] ist aktiviert](setup.md), die _[!UICONTROL Content]_Der Prozess zur Erstellung von Abschnitten und Inhalten wurde geändert, um die Vorteile der erweiterten [!DNL Page Builder] Tools für CMS [pages](../content-design/page-add.md), [product](../catalog/product-content.md) und [category](../catalog/categories-content-settings.md) Seiten, [Bausteine](../content-design/block-add.md), und [dynamische Blöcke](../content-design/dynamic-blocks.md). Dieser Abschnitt enthält eine_ Inhaltsüberschrift _ein Feld, eine Vorschau des Inhalts und einfachen Zugriff auf den Vollbildmodus [!DNL Page Builder] Arbeitsbereich.
+Wenn [[!DNL Page Builder] aktiviert ist](setup.md), werden der Abschnitt _[!UICONTROL Content]_und der Inhaltserstellungsprozess geändert, um die erweiterten [!DNL Page Builder]-Tools für CMS [pages](../content-design/page-add.md), [product](../catalog/product-content.md) und [category](../catalog/categories-content-settings.md) Seiten, [blocks](../content-design/block-add.md) und [dynamische Blöcke](../content-design/dynamic-blocks.md) zu nutzen. Dieser Abschnitt enthält ein Feld für die_ Inhaltsüberschrift _, eine Vorschau des Inhalts und einen einfachen Zugriff auf den Arbeitsbereich für den Vollbildmodus [!DNL Page Builder].
 
 ![Inhaltsabschnitt mit [!DNL Page Builder] Vorschau](./assets/pb-content-preview.png){width="700" zoomable="yes"}
 
@@ -22,29 +22,29 @@ Da Suchmaschinen nach Überschriften der Stufe 1 (H1) suchen, ist das Hinzufüge
 
 >[!NOTE]
 >
->Die _[!UICONTROL Content Heading]_-Feld, das oben auf der Seite angezeigt wird, ist ein Legacy-Feld, das Inhalte unterstützt, die zuvor mit [!DNL Commerce] veröffentlicht. Sie ist jedoch nicht Teil von [!DNL Page Builder]. Die [!UICONTROL Content Heading] wird als H1-Überschrift entsprechend dem Stylesheet formatiert, das dem aktuellen Design zugeordnet ist. Er befindet sich direkt über dem aktiven Inhaltsbereich, der durch die Variable [!DNL Page Builder] Bühne.
+>Das Feld _[!UICONTROL Content Heading]_, das oben auf der Seite angezeigt wird, ist ein Legacy-Feld, das Inhalte unterstützt, die mit früheren [!DNL Commerce]-Versionen erstellt wurden. Sie ist jedoch nicht Teil von [!DNL Page Builder]. Der [!UICONTROL Content Heading] wird entsprechend dem Stylesheet, das dem aktuellen Design zugeordnet ist, als H1-Überschrift formatiert. Er befindet sich direkt über dem aktiven Inhaltsbereich, der durch die [!DNL Page Builder] -Phase definiert wird.
 
-Damit Sie die Positionierung und das Format von Überschriften aller Ebenen optimal steuern können, sollten Sie die _[!UICONTROL Content Heading]_leer ist, und verwenden Sie die [!DNL Page Builder] [Überschrift](heading.md) Inhaltstyp.
+Damit Sie die Positionierung und das Format von Überschriften aller Ebenen optimal steuern können, sollten Sie das Feld _[!UICONTROL Content Heading]_leer lassen und den Inhaltstyp [!DNL Page Builder] [Überschrift](heading.md) verwenden.
 
 ![Inhaltsüberschrift und andere Überschriften](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
 ## Vorschau
 
-Wenn Sie die _[!UICONTROL Content]_und es existierenden Inhalt gibt, der mit [!DNL Page Builder], wird eine Vorschau des Inhalts angezeigt, wie er auf einer Seite angezeigt würde. Klicks **[!UICONTROL Edit with Page Builder]**oder innerhalb des Inhaltsvorschaubereichs, um die [!DNL Page Builder] Arbeitsbereich, in dem Sie erforderliche Aktualisierungen vornehmen können.
+Wenn Sie den Abschnitt _[!UICONTROL Content]_erweitern und bereits vorhandener Inhalt mit [!DNL Page Builder] erstellt wurde, wird eine Vorschau des Inhalts so angezeigt, wie er auf einer Seite angezeigt würde. Klicken Sie auf &quot;**[!UICONTROL Edit with Page Builder]**&quot;oder in der Inhaltsvorschau, um den Arbeitsbereich &quot;[!DNL Page Builder]&quot;zu öffnen, wo Sie erforderliche Aktualisierungen vornehmen können.
 
 ![Vorschau der Produktbeschreibung](./assets/pb-product-category-content-preview.png){width="500" zoomable="yes"}
 
 >[!NOTE]
 >
->Für Produkt- und Kategorieformulare ist diese Inhaltsvorschau standardmäßig aktiviert, kann jedoch deaktiviert werden. Wenn die Leistung durch das Laden der Vorschau beeinträchtigt wird, können Sie die Vorschau im [Content Management-Konfiguration](../configuration-reference/general/content-management.md#advanced-content-tools) -Einstellungen.
+>Für Produkt- und Kategorieformulare ist diese Inhaltsvorschau standardmäßig aktiviert, kann jedoch deaktiviert werden. Wenn die Leistung durch das Laden der Vorschau beeinträchtigt wird, können Sie die Vorschau in den Einstellungen für die [Konfiguration des Content Managements](../configuration-reference/general/content-management.md#advanced-content-tools) deaktivieren.
 
 ## Staging
 
-Wenn Sie die [!DNL Page Builder] Der Arbeitsbereich von der Vorschau aus ist die Bühne der primäre Arbeitsbereich, in dem Sie Inhalte erstellen und formatieren und sogar schnelle Bearbeitungen an Live-Inhalten vornehmen können. Die Bühne ist anfangs leer, da die Entwurfsoberfläche zur Verfügung steht, über die Sie Zeilen, Spalten und Registerkarten aus dem linken Bereich ziehen können.
+Wenn Sie den Arbeitsbereich &quot;[!DNL Page Builder]&quot;über die Vorschau öffnen, ist die Bühne der primäre Arbeitsbereich, in dem Sie Inhalte erstellen und formatieren und sogar schnelle Bearbeitungen an Live-Inhalten vornehmen können. Die Bühne ist anfangs leer, da die Entwurfsoberfläche zur Verfügung steht, über die Sie Zeilen, Spalten und Registerkarten aus dem linken Bereich ziehen können.
 
 >[!NOTE]
 >
->Ab Version 2.4.1 ist die Inhaltsbearbeitung jetzt nur noch für alle Bereiche im Vollbildmodus, die von [!DNL Page Builder]—CMS-Seiten, Produkt- und Kategorieseiten, Blöcke und dynamische Blöcke. Die Bearbeitung im Vollbildmodus konzentriert sich auf Ihren Inhalt und bietet eine Ansicht, die dem Benutzererlebnis auf der Storefront besser entspricht.
+>Ab Version 2.4.1 ist die Inhaltsbearbeitung jetzt nur noch für alle Bereiche im Vollbildmodus, die von [!DNL Page Builder] gesteuert werden - CMS-Seiten, Produkt- und Kategorieseiten, Blöcke und dynamische Blöcke. Die Bearbeitung im Vollbildmodus konzentriert sich auf Ihren Inhalt und bietet eine Ansicht, die dem Benutzererlebnis auf der Storefront besser entspricht.
 
 ![Staging mit Seiteninhalt](./assets/pb-workspace-simple-page.png){width="600" zoomable="yes"}
 
@@ -52,9 +52,9 @@ Wenn Sie die [!DNL Page Builder] Der Arbeitsbereich von der Vorschau aus ist die
 
 ## Viewports
 
-A _viewport_ ist der sichtbare Bereich einer Webseite, den ein Benutzer sieht. Im Designmodus für den Vollbildmodus werden die Viewport-Schaltflächen über dem [!DNL Page Builder] -Bühne, um Ihnen den Inhalt anzuzeigen, sobald der Site-Benutzer ihn auf der Storefront sieht.
+Ein _Viewport_ ist der sichtbare Bereich einer Webseite, den ein Benutzer sieht. Im Designmodus für den Vollbildmodus werden die Viewport-Schaltflächen oberhalb der [!DNL Page Builder]-Bühne angezeigt, um Ihnen den Inhalt anzuzeigen, sobald der Site-Benutzer ihn auf der Storefront sieht.
 
-![Anzeigeschaltflächen](./assets/pb-workspace-viewport-buttons.png){width="500" zoomable="yes"}
+![Viewport-Schaltflächen](./assets/pb-workspace-viewport-buttons.png){width="500" zoomable="yes"}
 
 [!DNL Page Builder] definiert auch Haltepunkte für Viewports. Breakpoints definieren Mindest- und Höchstbreiten, innerhalb derer bestimmte Stile angewendet werden. Die [!DNL Page Builder] Viewports bieten die folgenden Inhaltshaltepunkte:
 
@@ -65,45 +65,45 @@ A _viewport_ ist der sichtbare Bereich einer Webseite, den ein Benutzer sieht. I
 
 ### Inhaltsvorschau
 
-Standardmäßig ist [!DNL Page Builder] bietet zwei Viewport-Vorschauen:
+Standardmäßig bietet [!DNL Page Builder] zwei Viewport-Vorschauen:
 
-- **Desktop** — Zeigt die Inhaltsvorschau ohne vordefinierte Breite an. Desktop-definierte Stile (mit einer Breakpoint-Mindestbreite von 1024 Pixel) werden weiterhin auf die Seite angewendet. Die Breite des Desktop-Viewports wird jedoch durch Einstellungen für Container-Inhaltstypen wie Zeilen definiert. Wenn Sie den Desktop-Viewport auswählen, wird angezeigt, wie der Inhalt auf der Storefront formatiert wird, wenn die Browser-Seitenbreite 1024 Pixel und mehr beträgt.
+- **Desktop** - Zeigt die Inhaltsvorschau ohne vordefinierte Breite an. Desktop-definierte Stile (mit einer Breakpoint-Mindestbreite von 1024 Pixel) werden weiterhin auf die Seite angewendet. Die Breite des Desktop-Viewports wird jedoch durch Einstellungen für Container-Inhaltstypen wie Zeilen definiert. Wenn Sie den Desktop-Viewport auswählen, wird angezeigt, wie der Inhalt auf der Storefront formatiert wird, wenn die Browser-Seitenbreite 1024 Pixel und mehr beträgt.
 
   ![Desktop Viewport-Vorschau mit 1024 Pixel Mindestbreite](./assets/pb-workspace-viewport-desktop.png){width="500" zoomable="yes"}
 
-- **Mobilnummer** — Zeigt die Inhaltsvorschau mit einer vordefinierten Breite von 768 Pixel an. Im Gegensatz zum Desktop-Viewport zeigt der mobile Viewport Ihren Seiteninhalt mit einer Breite von 768 Pixel zusammen mit den Stilen an, die für die Breakpoint-Breiten von 768 Pixel (Maximum) und 640 Pixel (Minimum) definiert sind.
+- **Mobil** - Zeigt die Inhaltsvorschau mit einer vordefinierten Breite von 768 Pixel an. Im Gegensatz zum Desktop-Viewport zeigt der mobile Viewport Ihren Seiteninhalt mit einer Breite von 768 Pixel zusammen mit den Stilen an, die für die Breakpoint-Breiten von 768 Pixel (Maximum) und 640 Pixel (Minimum) definiert sind.
 
   ![Mobile Viewport-Vorschau mit 768 Pixel Mindestbreite](./assets/pb-workspace-viewport-mobile.png){width="500" zoomable="yes"}
 
 ### Breakpoint-Einstellungen
 
-Die Viewport-Schaltflächen bieten außerdem die Möglichkeit, verschiedene Breakpoint-Stile auf Inhaltstypen anzuwenden, die auf dem ausgewählten Viewport basieren. Standardmäßig ist [!DNL Page Builder] stellt Breakpoint-Einstellungen für die _[!UICONTROL Minimum Height]_Felder von Zeilen, Spalten, Registerkarten, Registerkartenelementen, Bannern, Reglern und Folien. Wenn Sie den mobilen Viewport auswählen und dann den Editor für einen dieser Inhaltstypen öffnen, können Sie Feldwerte eingeben, die für die Mobile Viewport-Haltepunkte spezifisch sind. Inhaltsfelder, die bestimmte Breakpoint-Einstellungen ermöglichen, zeigen ein Symbol rechts neben dem Feld an, ähnlich wie im folgenden Beispiel für eine Zeile:
+Die Viewport-Schaltflächen bieten außerdem die Möglichkeit, verschiedene Breakpoint-Stile auf Inhaltstypen anzuwenden, die auf dem ausgewählten Viewport basieren. Standardmäßig bietet [!DNL Page Builder] Breakpoint-Einstellungen für die _[!UICONTROL Minimum Height]_-Felder von Zeilen, Spalten, Registerkarten, Registerkartenelementen, Bannern, Reglern und Folien. Wenn Sie den mobilen Viewport auswählen und dann den Editor für einen dieser Inhaltstypen öffnen, können Sie Feldwerte eingeben, die für die Mobile Viewport-Haltepunkte spezifisch sind. Inhaltsfelder, die bestimmte Breakpoint-Einstellungen ermöglichen, zeigen ein Symbol rechts neben dem Feld an, ähnlich wie im folgenden Beispiel für eine Zeile:
 
 ![Symbolanzeige für Breakpoint-Einstellung](./assets/pb-workspace-viewport-field-breakpoint.png){width="400"}
 
 ## Bedienfeld
 
-Die [!DNL Page Builder] befindet sich links neben der Bühne und enthält Inhaltstypen, die in die Bühne gezogen werden können. Ein Container, der für den Inhaltstyp spezifisch ist, wird dann mit einer Toolbox mit Optionen angezeigt. Inhaltstypen sind im Bereich wie folgt organisiert:
+Das Bedienfeld &quot;[!DNL Page Builder]&quot; befindet sich links neben der Bühne und enthält Inhaltstypen, die in die Bühne gezogen werden können. Ein Container, der für den Inhaltstyp spezifisch ist, wird dann mit einer Toolbox mit Optionen angezeigt. Inhaltstypen sind im Bereich wie folgt organisiert:
 
 ### Layout
 
-Die _[!UICONTROL Layout]_Abschnitt [!DNL Page Builder] -Bedienfeld wird verwendet, um der Bühne Zeilen, Spalten oder Registerkarten hinzuzufügen. Wenn Sie einen Inhaltstyp aus dem Bedienfeld auf die Bühne ziehen, wird ein Container mit einer Toolbox von Optionen angezeigt, die für den Inhaltstyp spezifisch sind.
+Der Abschnitt &quot;_[!UICONTROL Layout]_&quot;im Bedienfeld &quot;[!DNL Page Builder]&quot;wird verwendet, um der Bühne Zeilen, Spalten oder Registerkarten hinzuzufügen. Wenn Sie einen Inhaltstyp aus dem Bedienfeld auf die Bühne ziehen, wird ein Container mit einer Toolbox von Optionen angezeigt, die für den Inhaltstyp spezifisch sind.
 
-Standardmäßig wird die Variable [!DNL Page Builder] stage ist leer. Wenn Sie Layout-Inhaltstypen aus dem Bedienfeld auf die Bühne ziehen, können Sie sie über, unter oder in andere Layout-Container auf der Seite platzieren. Zeilen können nur direkt zur Bühne hinzugefügt werden.
+Standardmäßig ist die [!DNL Page Builder] -Phase leer. Wenn Sie Layout-Inhaltstypen aus dem Bedienfeld auf die Bühne ziehen, können Sie sie über, unter oder in andere Layout-Container auf der Seite platzieren. Zeilen können nur direkt zur Bühne hinzugefügt werden.
 
 ![[!DNL Page Builder] Bedienfeld mit Layout-Inhaltstypen und Bühne](./assets/pb-stage-toolbox.png){width="600" zoomable="yes"}
 
 | Layout-Inhaltstyp | Beschreibung |
 | ------------------- |------------ |
 | [Zeile](row.md) | Eine neue Zeile kann nur vom Bedienfeld auf die Bühne gezogen und entweder über oder unter einer anderen Zeile, Registerkarte oder Spaltengruppe positioniert werden. Sie können auch die Option Duplizieren verwenden, um eine Kopie einer vorhandenen Zeile zu erstellen. |
-| [Spalte](column.md) | Eine Spalte kann vom Bedienfeld in die Bühne oder in Zeilen und Registerkarten gezogen werden. Die maximale Anzahl der Spalten, die hinzugefügt werden können, hängt von der Anzahl der Rasterdivisionen ab, die in der Variablen [Konfiguration](setup.md). |
+| [Column](column.md) | Eine Spalte kann vom Bedienfeld in die Bühne oder in Zeilen und Registerkarten gezogen werden. Die maximale Anzahl der Spalten, die hinzugefügt werden können, wird durch die Anzahl der Rasterdivisionen bestimmt, die in der [Konfiguration](setup.md) angegeben sind. |
 | [Registerkarten](tabs.md) | Eine einzelne Registerkarte kann vom Bedienfeld in die Bühne oder in Zeilen und Spalten gezogen werden. Zusätzliche Registerkarten können über die Toolbox hinzugefügt werden. |
 
 {style="table-layout:auto"}
 
 ### Elemente
 
-Verwenden Sie die _[!UICONTROL Elements]_Abschnitt [!DNL Page Builder] -Bedienfeld zum Hinzufügen von Text, Überschriften, Schaltflächen, Dividern und HTML-Code zu einem Layout-Container im [[!DNL Page Builder] Schritt](workspace.md#stage). Wenn Sie einen Inhaltstyp aus dem Bedienfeld in eine Zeile oder Spalte oder in eine auf der Bühne festgelegte Registerkarte ziehen, wird ein Container angezeigt. Verwenden Sie die Inhaltstyp-Toolbox, um auf die für den Typ spezifischen Einstellungen zuzugreifen.
+Verwenden Sie den Abschnitt &quot;_[!UICONTROL Elements]_&quot;des Bereichs &quot;[!DNL Page Builder]&quot;, um Text, Überschriften, Schaltflächen, Trennlinien und HTML-Code zu einem Layout-Container auf der [[!DNL Page Builder] Bühne](workspace.md#stage) hinzuzufügen. Wenn Sie einen Inhaltstyp aus dem Bedienfeld in eine Zeile oder Spalte oder in eine auf der Bühne festgelegte Registerkarte ziehen, wird ein Container angezeigt. Verwenden Sie die Inhaltstyp-Toolbox, um auf die für den Typ spezifischen Einstellungen zuzugreifen.
 
 ![[!DNL Page Builder] Bedienfeld mit Elementinhaltstypen](./assets/pb-elements.png){width="600" zoomable="yes"}
 
@@ -112,14 +112,14 @@ Verwenden Sie die _[!UICONTROL Elements]_Abschnitt [!DNL Page Builder] -Bedienfe
 | [Text](text.md) | Fügt einen Textcontainer und Editor zur Bühne hinzu. |
 | [Überschrift](heading.md) | Fügt der Bühne einen Überschriftencontainer hinzu. |
 | [Schaltflächen](buttons.md) | Fügt einen Container für eine einzelne Schaltfläche oder einen Satz von Schaltflächen zur Bühne hinzu. |
-| [Trennlinie](divider.md) | Fügt der Bühne einen Container für einen Divider hinzu. |
+| [Divider](divider.md) | Fügt der Bühne einen Container für einen Divider hinzu. |
 | [HTML-Code](html-code.md) | Fügt der Bühne einen Container für HTML-Code hinzu. |
 
 {style="table-layout:auto"}
 
 ### Medien
 
-Verwenden Sie die _[!UICONTROL Media]_Abschnitt [!DNL Page Builder] Bedienfeld zum Hinzufügen von Bildern, Videos, Bannern, Reglern und [!DNL Google Maps] zu einem Layout-Container auf der [[!DNL Page Builder] Schritt](workspace.md#stage). Wenn ein Medien-Content-Typ aus dem Bedienfeld auf die Bühne gezogen wird, wird ein Container mit einer Toolbox von Optionen angezeigt, die für den Inhaltstyp spezifisch sind.
+Verwenden Sie den Abschnitt &quot;_[!UICONTROL Media]_&quot;des Bereichs &quot;[!DNL Page Builder]&quot;, um Bilder, Videos, Banner, Schieberegler und [!DNL Google Maps] zu jedem Layout-Container auf der [[!DNL Page Builder] Bühne](workspace.md#stage) hinzuzufügen. Wenn ein Medien-Content-Typ aus dem Bedienfeld auf die Bühne gezogen wird, wird ein Container mit einer Toolbox von Optionen angezeigt, die für den Inhaltstyp spezifisch sind.
 
 ![[!DNL Page Builder] Bedienfeld mit Medientypen](./assets/pb-media-content-types.png){width="600" zoomable="yes"}
 
@@ -129,15 +129,15 @@ Verwenden Sie die _[!UICONTROL Media]_Abschnitt [!DNL Page Builder] Bedienfeld z
 | [Video](video.md) | Fügt einen Video-Container zur Bühne hinzu. |
 | [Banner](banner.md) | Fügt der Bühne einen Banner-Container hinzu. |
 | [Regler](slider.md) | Fügt der Bühne einen Regler-Container hinzu. |
-| [Zuordnung](map.md) | Fügt eine [!DNL Google Maps] Container zur Bühne hinzufügen. |
+| [Karte](map.md) | Fügt der Bühne einen [!DNL Google Maps] -Container hinzu. |
 
 {style="table-layout:auto"}
 
 ### Inhalt hinzufügen
 
-Verwenden Sie die _[!UICONTROL Add Content]_Abschnitt [!DNL Page Builder] Bereich zum Hinzufügen vorhandener Inhalte zum [[!DNL Page Builder] Schritt](workspace.md#stage). Wenn Sie einen Medientyp aus dem Bedienfeld auf die Bühne ziehen, wird ein Container angezeigt. Verwenden Sie die Inhaltstyp-Toolbox, um auf die_ Einstellungen _die für den Typ spezifisch sind.
+Verwenden Sie den Abschnitt _[!UICONTROL Add Content]_des Bereichs [!DNL Page Builder] , um vorhandenen Inhalt zur [[!DNL Page Builder] Bühne](workspace.md#stage) hinzuzufügen. Wenn Sie einen Medientyp aus dem Bedienfeld auf die Bühne ziehen, wird ein Container angezeigt. Verwenden Sie die Inhaltstyp-Toolbox, um auf die für den Typ spezifischen_ Einstellungen _zuzugreifen.
 
-![[!DNL Page Builder] Bedienfeld mit Typ &quot;Inhalt hinzufügen&quot;](./assets/pb-add-content.png){width="600" zoomable="yes"}
+Bedienfeld ![[!DNL Page Builder] mit Typ &quot;Inhalt hinzufügen&quot;](./assets/pb-add-content.png){width="600" zoomable="yes"}
 
 | Inhaltstyp | Beschreibung |
 | ---------------------------------------------------------------- | -------------------------------------------- |
@@ -162,11 +162,11 @@ Bewegen Sie den Mauszeiger über den Container, um die Toolbox anzuzeigen und ei
 
 | Option | Symbol | Beschreibung |
 | --------- | ---------------------------------------- | ------------ |
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png){width="25"} | Verschiebt den aktuellen Inhalts-Container an eine andere Position auf der Bühne. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png){width="25"} | Verschiebt den aktuellen Inhalts-Container an eine andere Position auf der Bühne. |
 | Hinzufügen | ![Symbol &quot;Hinzufügen&quot;](./assets/pb-icon-add.png){width="25"} | Fügt untergeordnete Elemente wie eine Schaltfläche, Folie oder Registerkarte hinzu. |
 | (Titel) |           | Gibt den Container-Inhaltstyp an. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} | Öffnet die Eigenschaften des Inhaltscontainers im Bearbeitungsmodus. |
-| Ausblenden | ![Symbol &quot;Ausblenden&quot;](./assets/pb-icon-hide.png){width="25"} | Blendet den aktuellen Inhaltscontainer aus. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} | Öffnet die Eigenschaften des Inhaltscontainers im Bearbeitungsmodus. |
+| Ausblenden | ![Symbol zum Ausblenden](./assets/pb-icon-hide.png){width="25"} | Blendet den aktuellen Inhaltscontainer aus. |
 | Anzeigen | ![Symbol &quot;Anzeigen&quot;](./assets/pb-icon-show.png){width="25"} | Zeigt den aktuellen Inhaltscontainer an. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="25"} | Kopiert den aktuellen Inhalts-Container. |
 | Entfernen | ![Entfernen](./assets/pb-icon-remove.png){width="25"} | Löscht den aktuellen Inhalts-Container aus der Bühne. |

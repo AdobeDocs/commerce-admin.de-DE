@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Kreditkarten
 
-A _Credit Memo_ ist ein Dokument, das den Betrag angibt, der dem Kunden für eine vollständige oder teilweise Rückerstattung geschuldet wird. Der Betrag kann auf einen Kauf angewendet oder dem Kunden zurückerstattet werden. Sie können ein Kreditmemo für eine einzelne Bestellung oder für mehrere Bestellungen als Batch drucken. Bevor ein Kreditmemo gedruckt werden kann, muss es zunächst für die Bestellung generiert werden. Die _Credit Memos_ auf der Seite werden die Kreditkarten aufgelistet, die an Kunden ausgegeben wurden.
+Ein _Credit Memo_ ist ein Dokument, das den Betrag angibt, der dem Kunden für eine vollständige oder teilweise Rückerstattung geschuldet wird. Der Betrag kann auf einen Kauf angewendet oder dem Kunden zurückerstattet werden. Sie können ein Kreditmemo für eine einzelne Bestellung oder für mehrere Bestellungen als Batch drucken. Bevor ein Kreditmemo gedruckt werden kann, muss es zunächst für die Bestellung generiert werden. Auf der Seite _Kreditkarten_ werden die Kreditkarten aufgelistet, die an Kunden ausgegeben wurden.
 
 ![Credit Memos](./assets/credit-memos.png){width="700" zoomable="yes"}
 
@@ -23,23 +23,23 @@ Die [Zahlungsmethode](payments.md) für die Bestellung bestimmt in einem bestimm
 Sie können Bestellungen auf drei Arten zurückgeben:
 
 - Kontoguthaben—Bestellungen, die über ein Konto gezahlt werden, können als Kontonummer zurückerstattet werden:
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce) [Store-Guthaben](../customers/store-credit-using.md)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Commerce B2B) [Kontozahlung](../b2b/enable-basic-features.md#configure-payment-on-account) (Offline-Methode)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Commerce B2B) [Firmenguthaben](../b2b/credit-company.md)
-- [Online-Rückerstattung](payments.md#online-payment-methods)—Bestellungen, die per Kreditkarte über ein Zahlungsportal wie PayPal oder Braintree bezahlt werden, werden online über den Zahlungsverarbeiter zurückerstattet.
-- [Offline-Erstattung](payments.md#offline-payment-methods)—Bestellungen, die per Nachnahme bezahlt werden ([COD](cash-on-delivery.md)) oder durch [Scheck- oder Geldbestellung](check-money-order.md) werden offline zurückerstattet.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) [Speichergutschrift](../customers/store-credit-using.md)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar bei Adobe Commerce B2B) [Zahlung auf Konto](../b2b/enable-basic-features.md#configure-payment-on-account) (Offline-Methode)
+   - ![Adobe Commerce B2B](../assets/b2b.svg) (Verfügbar bei Adobe Commerce B2B) [Unternehmensgutschrift](../b2b/credit-company.md)
+- [Online-Rückerstattung](payments.md#online-payment-methods): Bestellungen, die von einer Kreditkarte über ein Zahlungsportal wie PayPal oder Braintree bezahlt werden, werden online über den Zahlungsverarbeiter zurückerstattet.
+- [Offline-Rückerstattung](payments.md#offline-payment-methods): Bestellungen, die per Cash on Delivery ([COD](cash-on-delivery.md)) oder durch [Scheck oder Geldbestellung](check-money-order.md) bezahlt werden, werden offline zurückerstattet.
 
 Sie können für jede Zahlungsmethode eine Offline-Rückerstattung oder einen Kontokredit (sofern aktiviert) ausgeben.
 
-Eine Bestellung, die per Cash on Delivery bezahlt wurde ([COD](cash-on-delivery.md)) oder durch [Scheck- oder Geldbestellung](check-money-order.md) wird offline zurückerstattet.
+Eine Bestellung, die per Cash on Delivery ([COD](cash-on-delivery.md)) oder durch [Scheck oder Geldauftrag](check-money-order.md) bezahlt wurde, wird offline zurückerstattet.
 
 ## Erstattungs-Workflow
 
-1. **Zahlungsaktion** - Wenn die [Zahlungsaktion](credit-memo-create.md#payment-action-setting) -Konfiguration auf `Authorize`müssen Sie eine Rechnung erstellen, bevor Sie ein Kreditmemo erstellen - fahren Sie mit Schritt 2 fort. Wenn auf `Authorize and Capture`, wurde bereits eine Rechnung erstellt - fahren Sie mit Schritt 3 fort.
+1. **Zahlungsaktion** - Wenn die Konfiguration für die [Zahlungsaktion](credit-memo-create.md#payment-action-setting) auf `Authorize` festgelegt ist, müssen Sie eine Rechnung erstellen, bevor Sie ein Kreditmemo erstellen - fahren Sie mit Schritt 2 fort. Wenn der Wert auf &quot;`Authorize and Capture`&quot; gesetzt ist, wurde bereits eine Rechnung erstellt. Fahren Sie mit Schritt 3 fort.
 
-1. **Rechnung generieren** - [Rechnung erstellen](invoices.md#create-an-invoice) für die Bestellung, damit Sie eine Rückerstattung per Kreditkarte an den Kunden senden können.
+1. **Generieren Sie Rechnung** - [Erstellen Sie eine Rechnung](invoices.md#create-an-invoice) für die Bestellung, damit Sie dem Kunden eine Rückerstattung per Kreditkarte senden können.
 
-1. **Erstellen eines Credit Memos** - [Ein Kreditmemo ausgeben](credit-memo-create.md) im Admin für eine [Kreditkauf](credit-memo-create.md#issue-a-refund-for-a-credit-purchase)oder [Scheck- oder Geldbestellung](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order).
+1. **Erstellen Sie ein Kreditmemo** - [Geben Sie ein Kreditmemo](credit-memo-create.md) im Admin für einen [Kreditkauf](credit-memo-create.md#issue-a-refund-for-a-credit-purchase) oder eine [Scheck- oder Geldbestellung](credit-memo-create.md#issue-an-offline-refund-for-check-or-money-order).
 
 ## Spaltenbeschreibungen
 
@@ -53,7 +53,7 @@ Eine Bestellung, die per Cash on Delivery bezahlt wurde ([COD](cash-on-delivery.
 | [!UICONTROL Bill-to Name] | Der Name der Person, die für die Bestellung verantwortlich ist. |
 | [!UICONTROL Status] | Gibt den aktuellen Status einer Kreditnachrichtenanforderung an. |
 | [!UICONTROL Refunded] | Der Gesamtbetrag, der von der Bestellung zurückerstattet wurde. |
-| [!UICONTROL Actions] | **[!UICONTROL View]** - Öffnet den Antrag auf ein Kreditmemo und führt eine Aufzeichnung der Verhandlungen zwischen Käufer und Verkäufer. |
+| [!UICONTROL Actions] | **[!UICONTROL View]** - Öffnet den Antrag auf ein Kreditmemo und führt einen Bericht über die Verhandlungen zwischen Käufer und Verkäufer. |
 | [!UICONTROL Order Status] | Gibt den Bestellstatus an. |
 | [!UICONTROL Purchased From] | Gibt die Website-, Store- und Store-Ansicht an, in der die Bestellung aufgegeben wurde. |
 | [!UICONTROL Billing Address] | Die Rechnungsadresse des Kunden, der die Bestellung aufgegeben hat. |

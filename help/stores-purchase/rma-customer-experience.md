@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Kunden können eine der folgenden Funktionen verwenden, um eine RMA von der Storefront anzufordern:
 
-- [Widget &quot;Bestellungen&quot;und &quot;Rückgaben&quot;](../content-design/widget-orders-returns.md) in der Seitenleiste
-- _Bestellungen und Rückgaben_ Link in der Fußzeile
+- [Bestellungen und gibt Widget](../content-design/widget-orders-returns.md) in der Seitenleiste zurück
+- Link _Bestellungen und Rückgaben_ in der Fußzeile
 
 Als Best Practice sollten Sie eine Beschreibung Ihrer RMA-Anforderungen und -Prozesse in die Richtlinie für den Kundendienst aufnehmen.
 
 >[!NOTE]
 >
->Wenn Sie zusätzliche Informationen zu Rückgaben erfassen möchten, können Sie Ihre eigenen benutzerdefinierten [gibt Attribute zurück](attributes-returns.md).
+>Wenn Sie zusätzliche Informationen zu den Rückgaben erfassen möchten, können Sie Ihre eigenen benutzerdefinierten Attribute [return attributes](attributes-returns.md) hinzufügen.
 
 Alle Kunden-RMA-Informationen werden auf der Seite **[!UICONTROL My Returns]** im Dashboard des Kundenkontos angezeigt.
 
@@ -45,37 +45,37 @@ Der Kunde führt die folgenden Schritte in der Storefront aus, um eine RMA zu se
 
    ![Bestellungen und Rückgaben](./assets/storefront-orders-and-returns.png){width="700" zoomable="yes"}
 
-1. Klicks unterhalb des Bestelldatums **[!UICONTROL Return]**.
+1. Klicken Sie unterhalb des Bestelldatums auf **[!UICONTROL Return]**.
 
    ![Bestelldetails](./assets/storefront-orders-and-returns-order-information.png){width="700" zoomable="yes"}
 
-1. Wählen Sie das zurückzugebende Element aus und geben Sie die **[!UICONTROL Quantity to Return]**.
+1. Wählt das zurückzugebende Element aus und gibt den **[!UICONTROL Quantity to Return]** ein.
 
-1. Sets **[!UICONTROL Resolution]** auf einen der folgenden Werte zu:
+1. Legt **[!UICONTROL Resolution]** auf einen der folgenden Werte fest:
 
    - Exchange
    - [Erstattung](../customers/refunds-customer-account.md)
    - [Store-Guthaben](../customers/store-credit-using.md)
 
-1. Sets **[!UICONTROL Item Condition]** auf einen der folgenden Werte zu:
+1. Legt **[!UICONTROL Item Condition]** auf einen der folgenden Werte fest:
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. Sets **[!UICONTROL Reason to Return]** auf einen der folgenden Werte zu:
+1. Legt **[!UICONTROL Reason to Return]** auf einen der folgenden Werte fest:
 
    - `Wrong Color`
    - `Wrong Size`
    - `Out of Service`
    - `Other`
 
-   ![Neue Rückgabe erstellen](./assets/storefront-orders-and-returns-create-new-return.png){width="700" zoomable="yes"}
+   ![Neuen Rücklauf erstellen](./assets/storefront-orders-and-returns-create-new-return.png){width="700" zoomable="yes"}
 
-1. Bei Bedarf Sets **[!UICONTROL Contact Email Address]** und **[!UICONTROL Comments]**.
+1. Bei Bedarf werden **[!UICONTROL Contact Email Address]** und **[!UICONTROL Comments]** eingestellt.
 
    >[!NOTE]
    >
-   >Wenn die Bestellung mehrere Artikel enthält und der Kunde ein anderes Element zurückgeben möchte, kann er auf **[!UICONTROL Add Item To Return]**, wählen Sie das Element aus und legen Sie dann alle erwähnten Optionen fest.
+   >Wenn die Bestellung mehrere Artikel enthält und der Kunde ein anderes Element zurückgeben möchte, kann er auf &quot;**[!UICONTROL Add Item To Return]**&quot;klicken, das Element auswählen und dann alle erwähnten Optionen festlegen.
 
 1. Klicks **[!UICONTROL Submit]**.

@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Fügen Sie viele Anweisungen ein, insbesondere Widgets wie _Kürzlich angezeigt_ / _Vergleichbare Produkte_ -Typ kann beim ersten Laden der Seite einen negativen Effekt erzielen, wenn sie nicht zwischengespeichert wird. Verwenden Sie sie daher mit Vorsicht. Normalerweise wird dadurch kein Problem verursacht. Aber Sie sollten dieses potenzielle Problem mit Ihrem Entwicklungsteam besprechen.
+>Das Einfügen vieler Direktiven, insbesondere Widgets vom Typ _Zuletzt angesehen_ / _Vergleichsprodukte_, kann beim ersten Laden der Seite einen negativen Effekt verursachen, wenn sie nicht zwischengespeichert wird. Verwenden Sie sie daher mit Vorsicht. Normalerweise wird dadurch kein Problem verursacht. Aber Sie sollten dieses potenzielle Problem mit Ihrem Entwicklungsteam besprechen.

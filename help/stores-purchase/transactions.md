@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Transaktionen
 
-Die _Transaktionen_ auf der Seite werden alle Zahlungsaktivitäten aufgelistet, die zwischen Ihrem Geschäft und einem Zahlungssystem stattgefunden haben, und erhalten Zugriff auf detailliertere Informationen.
+Auf der Seite _Transaktionen_ werden alle Zahlungsaktivitäten aufgelistet, die zwischen Ihrem Store und einem Zahlungssystem stattgefunden haben, und Sie erhalten Zugriff auf detailliertere Informationen.
 
 ## Transaktionen anzeigen
 
-Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
+Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
 
 ![Transaktionsraster](./assets/transactions.png){width="600" zoomable="yes"}
 
@@ -41,7 +41,7 @@ Auf der Seite mit den Transaktionsdetails können Sie das Raster mit den Transak
 
 ### Transaktionsdaten
 
-Dieser Abschnitt enthält Informationen zur Transaktion und stellt einen Link zur Bestellseite im **Auftrags-ID** Spalte.
+Dieser Abschnitt enthält Informationen zur Transaktion und stellt einen Link zur Bestellseite in der Spalte **Bestell-ID** bereit.
 
 | Spalte | Beschreibung |
 |--- |--- |
@@ -55,7 +55,7 @@ Dieser Abschnitt enthält Informationen zur Transaktion und stellt einen Link zu
 
 ### Kindergeschäfte
 
-Untergeordnete Transaktionen werden nach der Erstellung von Rechnungen für [Bestellungen](orders.md). In diesem Format können Sie den Transaktionsverlauf anhand einer Transaktionshierarchie verfolgen.
+Untergeordnete Transaktionen werden im Raster angezeigt, nachdem Rechnungen für [Bestellungen](orders.md) erstellt wurden. In diesem Format können Sie den Transaktionsverlauf anhand einer Transaktionshierarchie verfolgen.
 
 ### [!UICONTROL Transaction Details]
 
@@ -86,4 +86,4 @@ Dieser Abschnitt enthält die zusätzlichen Informationen zu einer Transaktion. 
 
 >[!NOTE]
 >
->Wenn die Transaktionsdetails nicht verfügbar sind oder veraltet sind, klicken Sie auf **[!UICONTROL Fetch]** in der Schaltflächenleiste, um sie zu aktualisieren.
+>Wenn die Transaktionsdetails nicht verfügbar oder veraltet sind, klicken Sie in der Schaltflächenleiste auf **[!UICONTROL Fetch]** , um sie zu aktualisieren.

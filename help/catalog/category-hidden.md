@@ -16,14 +16,14 @@ Es gibt viele Möglichkeiten, ausgeblendete Kategorien zu verwenden. Möglicherw
 
 ## Verborgene Kategorien erstellen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Wählen Sie im Kategoriebaum die Kategorie aus, die Sie ausblenden möchten, und gehen Sie wie folgt vor:
 
-   - Satz **[!UICONTROL Is Active]** nach `Yes`.
-   - Satz **[!UICONTROL Include in Menu]** nach `No`.
+   - Setzen Sie **[!UICONTROL Is Active]** auf `Yes`.
+   - Setzen Sie **[!UICONTROL Include in Menu]** auf `No`.
 
-1. Im **[!UICONTROL Display Settings]** Abschnitt, festlegen **[!UICONTROL Anchor]** nach `No`.
+1. Setzen Sie im Abschnitt **[!UICONTROL Display Settings]** **[!UICONTROL Anchor]** auf `No`.
 
    ![Ausgeblendete Kategorie](./assets/hidden-categories.png){width="600" zoomable="yes"}
 
@@ -35,9 +35,9 @@ Es gibt viele Möglichkeiten, ausgeblendete Kategorien zu verwenden. Möglicherw
    >
    >Obwohl die Kategorie ausgeblendet ist, können Sie darunter Unterkategorien erstellen und sie aktivieren.
 
-   - Satz **[!UICONTROL Enable Category]** nach `Yes`.
-   - Im **[!UICONTROL Display Settings]** Abschnitt, festlegen **[!UICONTROL Anchor]** nach `Yes`.
+   - Setzen Sie **[!UICONTROL Enable Category]** auf `Yes`.
+   - Setzen Sie im Abschnitt **[!UICONTROL Display Settings]** **[!UICONTROL Anchor]** auf `Yes`.
 
    Als aktive Kategorien können Sie jetzt Links zu ihnen von anderen Stellen in Ihrem Geschäft aus erstellen, sie werden jedoch nicht im Menü angezeigt.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.

@@ -18,7 +18,7 @@ Preisregeln für Warenkorb können planmäßig im Rahmen einer Kampagne angewend
 
 >[!NOTE]
 >
->Die [!UICONTROL From] und [!UICONTROL To] -Felder wurden entfernt in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce und können nicht direkt in der Warenkorbpreisregel geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
+>Die Felder [!UICONTROL From] und [!UICONTROL To] wurden in der Adobe Commerce ![Adobe Commerce](../assets/adobe-logo.svg) entfernt und können nicht direkt in der Preisregel des Warenkorbs geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
 
 ![Preisregeln für Warenkorb - geplante Änderungen](./assets/content-staging-price-rules-cart-scheduled-changes.png){width="700" zoomable="yes"}
 
@@ -26,14 +26,14 @@ Preisregeln für Warenkorb können planmäßig im Rahmen einer Kampagne angewend
 >
 >Alle geplanten Aktualisierungen werden nacheinander angewendet. Das bedeutet, dass jeder Entität nur eine geplante Aktualisierung zu einem bestimmten Zeitpunkt zugewiesen werden kann. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb des Zeitrahmens angewendet. Daher kann eine Entität nicht mehrere geplante Aktualisierungen für verschiedene Store-Ansichten gleichzeitig aufweisen. Alle Entitätsattributwerte in allen Store-Ansichten, die von der aktuellen geplanten Aktualisierung nicht betroffen sind, werden von den Standardwerten übernommen und nicht von der vorherigen geplanten Aktualisierung.
 
-Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, wird die Variable _[!UICONTROL Priority]_bestimmt, welche Regel Vorrang hat. Weitere Informationen finden Sie unter [Inhaltstaging](../content-design/content-staging.md).
+Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die Einstellung _[!UICONTROL Priority]_der Preisregel, welche Regel Vorrang hat. Weitere Informationen finden Sie unter [Inhaltstaging](../content-design/content-staging.md).
 
 Beachten Sie die folgenden Einschränkungen:
 
 - Wenn eine Kampagne, die eine Preisregel enthält, zunächst ohne Enddatum erstellt wird, kann die Kampagne später nicht mehr so bearbeitet werden, dass sie ein Enddatum enthält. Es wird empfohlen, entweder beim Erstellen der Kampagne ein Enddatum hinzuzufügen oder eine duplizierte Version der vorhandenen Kampagne zu erstellen und das Enddatum nach Bedarf dem Duplikat hinzuzufügen.
 - Wenn Sie eine geplante Aktualisierung verwenden, um eine Regel zum Warenkorbpreis mit einem Enddatum zu aktivieren, stellen Sie sicher, dass Sie die Regel so einstellen, dass sie ursprünglich deaktiviert war. Regeln, die bereits aktiv sind, respektieren nicht das Enddatum.
-- Coupons sind nicht an die Preisregeln für den Warenkorb gebunden. Eine geplante Aktualisierung bietet keinen Zugriff auf die _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_, und_[!UICONTROL Uses per Customer]_ -Felder auf _[!UICONTROL Rule Information]_Registerkarte. Außerdem werden alle Einstellungen aus dem_[!UICONTROL Manage Coupon Codes]_ nicht verfügbar sind.
+- Coupons sind nicht an die Preisregeln für den Warenkorb gebunden. Eine geplante Aktualisierung bietet keinen Zugriff auf die Felder _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_und_[!UICONTROL Uses per Customer]_ auf der Registerkarte _[!UICONTROL Rule Information]_. Außerdem sind nicht alle Einstellungen auf der Registerkarte_[!UICONTROL Manage Coupon Codes]_ verfügbar.
 
 >[!IMPORTANT]
 >
->Kampagne **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** muss mithilfe der **_default_** Admin-Zeitzone, die aus der lokalen Zeitzone jeder Website konvertiert wird. Betrachten wir ein Beispiel, bei dem Sie mehrere Websites in verschiedenen Zeitzonen haben, aber die Kampagne auf der Grundlage einer US-Zeitzone starten möchten. In diesem Fall müssen Sie für jede lokale Zeitzone eine separate Aktualisierung planen und **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** wird aus jeder lokalen Website-Zeitzone in die standardmäßige Admin-Zeitzone konvertiert.
+>Campaign **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** müssen mithilfe der **_default_** Admin-Zeitzone definiert werden, die aus der lokalen Zeitzone jeder Website konvertiert wird. Betrachten wir ein Beispiel, bei dem Sie mehrere Websites in verschiedenen Zeitzonen haben, aber die Kampagne auf der Grundlage einer US-Zeitzone starten möchten. In diesem Fall müssen Sie für jede lokale Zeitzone eine separate Aktualisierung planen und **[!UICONTROL Start Date]** und **[!UICONTROL End Date]**, die aus jeder lokalen Website-Zeitzone konvertiert wurden, auf die standardmäßige Zeitzone &quot;Admin&quot;setzen.

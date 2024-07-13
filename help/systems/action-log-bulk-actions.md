@@ -14,30 +14,30 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Das Massenaktionsprotokoll zeichnet die Details asynchroner Massenvorgänge auf, die im Hintergrund ausgeführt werden, z. B. Import/Export oder Zuweisung [benutzerspezifische Preise](../b2b/catalog-shared-manage.md#update-custom-pricing) für mehrere Produkte in einer [freigegebener Katalog](../b2b/catalog-shared.md).
+Das Massenaktionsprotokoll zeichnet die Details asynchroner Massenvorgänge auf, die im Hintergrund ausgeführt werden, z. B. Import/Export oder Zuweisung von [benutzerdefinierten Preisen](../b2b/catalog-shared-manage.md#update-custom-pricing) zu mehreren Produkten in einem [freigegebenen Katalog](../b2b/catalog-shared.md).
 
-![Massenaktionsprotokoll](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
+![Protokoll mit Massenaktionen](./assets/bulk-actions-log.png){width="600" zoomable="yes"}
 
 ## Massenaktionen konfigurieren
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Advanced]** und wählen **[!UICONTROL System]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Advanced]** und wählen Sie **[!UICONTROL System]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Bulk Actions]** und legen Sie die Option zum Speichern des Protokolls fest:
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Bulk Actions]** und legen Sie die Option zum Speichern des Protokolls fest:
 
    **[!UICONTROL Days Saved in Log]** - Geben Sie die Anzahl der Tage ein, für die Massenaktionen in einem Protokoll gespeichert werden.
 
    ![Erweiterte Konfiguration - Massenaktionen](../configuration-reference/advanced/assets/system-bulk-actions.png){width="600" zoomable="yes"}
 
-   Eine detaillierte Liste der Konfigurationseinstellungen finden Sie unter [_Massenaktionen_](../configuration-reference/advanced/system.md) im _Konfigurationsreferenz_.
+   Eine detaillierte Liste der Konfigurationseinstellungen finden Sie unter [_Massenaktionen_](../configuration-reference/advanced/system.md) in der _Konfigurationsreferenz_.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ## Anzeigen von Massenaktionen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Bulk Actions]**.
 
 1. Suchen Sie die gewünschte Aktion im Protokoll.
 
-1. Im _[!UICONTROL Action]_Spalte, klicken **[!UICONTROL Details]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Details]**.

@@ -14,19 +14,19 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Die _Aktionsprotokolle_ zeigt einen detaillierten Datensatz aller Admin-Aktionen an, die für die Protokollierung aktiviert sind. Jeder Datensatz ist mit einem Zeitstempel versehen und zeichnet die IP-Adresse und den Namen des Benutzers auf. Die Protokolldetails enthalten Admin-Benutzerdaten und zugehörige Änderungen, die während der Aktion vorgenommen wurden.
+Der Bericht _Aktionsprotokolle_ enthält einen detaillierten Datensatz aller Admin-Aktionen, die für die Protokollierung aktiviert sind. Jeder Datensatz ist mit einem Zeitstempel versehen und zeichnet die IP-Adresse und den Namen des Benutzers auf. Die Protokolldetails enthalten Admin-Benutzerdaten und zugehörige Änderungen, die während der Aktion vorgenommen wurden.
 
-Die Aktionen, die Sie im Bericht anzeigen möchten, müssen im [Protokollierung von Admin-Aktionen](action-log.md) in den Store-Einstellungen. Wenn der Aktionstyp aktiviert (aktiviert) ist, werden diese Arten von Admin-Aktionen im Bericht &quot;Aktionsprotokolle&quot;angezeigt.
+Die Aktionen, die Sie im Bericht anzeigen möchten, müssen im Bildschirm [Protokollierung der Admin-Aktionen](action-log.md) in den Store-Einstellungen aktiviert sein. Wenn der Aktionstyp aktiviert (aktiviert) ist, werden diese Arten von Admin-Aktionen im Bericht &quot;Aktionsprotokolle&quot;angezeigt.
 
 Der Bericht kann mithilfe der Optionen in den einzelnen Spalten gefiltert werden. Sie können eine Einzelfilteroption festlegen oder Filteroptionen für mehrere Spalten festlegen, um den Bericht auf die Auflistung bestimmter Aktionen zu beschränken. Sie können Berichtsdaten auch im CSV- oder Excel-XML-Format exportieren.
 
 Der Bericht &quot;Aktionsprotokolle&quot;enthält die folgenden Informationen:
 
 - **[!UICONTROL Time]** - Datum und Uhrzeit der Aktion
-- **[!UICONTROL Action Group]** - Zeigt den Aktionstyp an, korreliert mit den in aktivierten Aktionen. _Protokollierung von Admin-Aktionen_ Bildschirm in den Store-Einstellungen
+- **[!UICONTROL Action Group]** - Zeigt den Aktionstyp an und entspricht den Aktionen, die auf dem Bildschirm &quot;Protokollierung von Admin-Aktionen&quot;_in Ihren Store-Einstellungen aktiviert wurden._
 - **[!UICONTROL Action]** - Zeigt die protokollierte Aktion an
 - **[!UICONTROL IP Address]** - Zeigt die IP-Adresse des Computers an, auf dem die Aktion ausgeführt wurde
-- **[!UICONTROL Username]** - Zeigt die Anmelde-ID des Benutzers an, der die Aktion ausgeführt hat
+- **[!UICONTROL Username]** - Zeigt die Anmelde-ID für den Benutzer an, der die Aktion ausgeführt hat
 - **[!UICONTROL Result]** - Zeigt den Erfolg oder Misserfolg der Benutzeraktion an
 - **[!UICONTROL Full Action Name]** - Zeigt den Namen der Backend-Aktion an
 - **[!UICONTROL Details]** - Zeigt die Kategorie der Backend-Aktion an
@@ -34,25 +34,25 @@ Der Bericht &quot;Aktionsprotokolle&quot;enthält die folgenden Informationen:
 
 ## Bericht &quot;Aktionsprotokolle&quot;anzeigen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Report]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Report]**.
 
    ![Aktionsprotokolle](./assets/action-log-report.png){width="600" zoomable="yes"}
 
 1. Um die vollständigen Details einer aufgelisteten Admin-Aktion anzuzeigen, klicken Sie auf **[!UICONTROL View]**.
 
-   ![Details zum Action Log-Eintrag](./assets/action-log-report-view.png){width="600" zoomable="yes"}
+   ![Details zum Aktionsprotokolleintrag](./assets/action-log-report-view.png){width="600" zoomable="yes"}
 
 ## Bericht &quot;Aktionsprotokolle&quot;filtern
 
-Sie können die Felder für Filteroptionen definieren und auf **[!UICONTROL Search]** , um die angezeigten Aktionen einzuschränken.
+Sie können die Felder für Filteroptionen definieren und dann auf **[!UICONTROL Search]** klicken, um die angezeigten Aktionen einzuschränken.
 
 Um die Filteroptionen zu löschen und zum vollständigen Bericht zurückzukehren, klicken Sie auf **[!UICONTROL Reset Filter]**.
 
-![Filter für Aktionsprotokolle](./assets/action-log-report-filters.png){width="600" zoomable="yes"}
+![Action log report filters](./assets/action-log-report-filters.png){width="600" zoomable="yes"}
 
 | Feld | description |
 |--- |--- |
-| [!UICONTROL Time] | In **[!UICONTROL From]** klicken Sie auf , um ein Datum aus dem dynamischen Kalender auszuwählen und das Anfangsdatum für den Filter zu definieren. In **[!UICONTROL To]** klicken Sie auf , um ein Datum auszuwählen und das Enddatum für den Filter festzulegen. |
+| [!UICONTROL Time] | Klicken Sie in &quot;**[!UICONTROL From]**&quot;, um ein Datum aus dem dynamischen Kalender auszuwählen und das Anfangsdatum für den Filter zu definieren. Klicken Sie in &quot;**[!UICONTROL To]**&quot;auf , um ein Datum auszuwählen und das Enddatum für den Filter zu definieren. |
 | [!UICONTROL Action Group] | Wählen Sie eine Aktionsgruppe aus. |
 | [!UICONTROL Action] | Wählen Sie eine Aktion aus. |
 | [!UICONTROL IP Address] | Geben Sie die IP-Adresse des für eine Aktion verwendeten Computers ein. |
@@ -65,12 +65,12 @@ Um die Filteroptionen zu löschen und zum vollständigen Bericht zurückzukehren
 
 ## Bericht &quot;Aktionsprotokolle&quot;exportieren
 
-1. Für **[!UICONTROL Export to]**, wählen Sie ein Exportformat aus:
+1. Wählen Sie für **[!UICONTROL Export to]** ein Exportformat:
 
    - `CSV` - Eine kommagetrennte Wertdatei mit Textdaten
    - `Excel XML` - Ein XML-basiertes Tabellendatenformat
 
-1. Klicken **[!UICONTROL Export]**.
+1. Klicken Sie auf **[!UICONTROL Export]**.
 
    Die generierte Datei wird automatisch für Downloads in Ihrem angegebenen Ordner gespeichert.
 

@@ -1,30 +1,30 @@
 ---
 title: Layout - Spalte
-description: Erfahren Sie mehr über den Inhaltstyp Spalte , mit dem eine Seite in mehrere Spalten im [!DNL Page Builder] Bühne.
+description: Erfahren Sie mehr über den Inhaltstyp Spalte , der verwendet wird, um eine Seite in mehrere Spalten in der Phase [!DNL Page Builder] zu unterteilen.
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
 source-git-commit: 63b620f2af106108c672a9a91cb66923c5231c53
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1574'
 ht-degree: 0%
 
 ---
 
 # Layout - Spalte
 
-Verwenden Sie die _Spalte_ Inhaltstyp , um eine Seite in mehrere Spalten im [[!DNL Page Builder] Schritt](workspace.md#stage). Wenn Sie eine Spalte zu einer Zeile, Registerkarte oder direkt zur Bühne hinzufügen, wird die Spaltengruppe zunächst in zwei Spalten mit gleicher Breite unterteilt. Sie können bei Bedarf Spalten hinzufügen oder entfernen. Die Größe einer Spalte kann durch Ziehen des Rands zwischen zwei Spalten geändert werden. Die Breite der nächsten Spalte wird angepasst, um den verfügbaren Platz in der Zeile, Registerkarte oder Bühne auszufüllen. Eine einzelne Spalte erweitert die gesamte Breite der Bühne oder ihres Containers.
+Verwenden Sie den Inhaltstyp _Spalte_ , um eine Seite in mehrere Spalten in der [[!DNL Page Builder] Bühne](workspace.md#stage) zu unterteilen. Wenn Sie eine Spalte zu einer Zeile, Registerkarte oder direkt zur Bühne hinzufügen, wird die Spaltengruppe zunächst in zwei Spalten mit gleicher Breite unterteilt. Sie können bei Bedarf Spalten hinzufügen oder entfernen. Die Größe einer Spalte kann durch Ziehen des Rands zwischen zwei Spalten geändert werden. Die Breite der nächsten Spalte wird angepasst, um den verfügbaren Platz in der Zeile, Registerkarte oder Bühne auszufüllen. Eine einzelne Spalte erweitert die gesamte Breite der Bühne oder ihres Containers.
 
-![Spalte hinzufügen](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
+![Hinzufügen einer Spalte](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Aktualisierungen in Version 2.4.5
 
-Die Funktionen von Page Builder werden in Version 2.4.5 aktualisiert, sodass Benutzer jetzt _[!DNL Columns]_als übergeordneten Container für einzelne Spalten. Dieser neue Container unterstützt auch Eigenschaften für den Hintergrund und entfällt die Notwendigkeit, Spalten in eine Zeile einzuschließen. Dadurch werden unnötiges Markup reduziert und die Anzeige und das Erlebnis in der Storefront besser gesteuert.
+Die Funktionen von Page Builder werden in Version 2.4.5 aktualisiert, sodass Benutzer jetzt _[!DNL Columns]_als übergeordneten Container für einzelne Spalten verwenden. Dieser neue Container unterstützt auch Eigenschaften für den Hintergrund und entfällt die Notwendigkeit, Spalten in eine Zeile einzuschließen. Dadurch werden unnötiges Markup reduziert und die Anzeige und das Erlebnis in der Storefront besser gesteuert.
 
-Sie können das Layout der [!DNL Columns] -Container, indem Sie eine Spalte über oder unter andere Spalten in der Gruppe ziehen und stapeln. Dadurch wird eine neue Vielzahl möglicher Layoutkombinationen eröffnet, die ohne die Notwendigkeit einer Anpassung durch Entwickler erreicht werden können.
+Sie können das Layout des Containers [!DNL Columns] ändern, indem Sie eine Spalte über oder unter andere Spalten in der Gruppe ziehen und stapeln. Dadurch wird eine neue Vielzahl möglicher Layoutkombinationen eröffnet, die ohne die Notwendigkeit einer Anpassung durch Entwickler erreicht werden können.
 
-Sehen Sie sich dieses Video an, um zu erfahren, wie die [!DNL Columns] -Container können verwendet werden, um Ihre Seitenlayouts zu verfeinern:
+In diesem Video erfahren Sie, wie Sie mit dem Container [!DNL Columns] die Seitenlayouts verfeinern können:
 
 >[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
 
@@ -34,9 +34,9 @@ Jede Spalte verfügt über eine Toolbox mit Optionen, die angezeigt wird, wenn S
 
 | Tool | Symbol | Beschreibung |
 |--- |--- |--- |
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png){width="25"} | Verschiebt die Spalte und ihren Inhalt in Bezug auf andere Spalten an eine andere Position. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png){width="25"} | Verschiebt die Spalte und ihren Inhalt in Bezug auf andere Spalten an eine andere Position. |
 | (Titel) | Spalte | Identifiziert den aktuellen Container als Spalte. Bewegen Sie den Mauszeiger über den Spaltenbehälter, um die Toolbox anzuzeigen. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite Spalte bearbeiten , auf der Sie die Eigenschaften des Containers ändern können. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite Spalte bearbeiten , auf der Sie die Eigenschaften des Containers ändern können. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="25"} | Kopiert die aktuelle Spalte. |
 | Entfernen | ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="25"} | Löscht die aktuelle Spalte und ihren Inhalt. |
 
@@ -44,9 +44,9 @@ Jede Spalte verfügt über eine Toolbox mit Optionen, die angezeigt wird, wenn S
 
 ## Spaltenraster
 
-Die [grid](workspace.md) stellt sicher, dass der Inhalt in einer Spalte konsistent ausgerichtet ist und die Seite auf Desktop- und Mobilgeräten korrekt dargestellt wird. Weitere Informationen finden Sie unter [Erweiterte Inhaltswerkzeuge](setup.md) Abschnitt [!DNL Page Builder] Konfiguration.
+Das [grid](workspace.md) stellt sicher, dass der Inhalt in einer Spalte konsistent ausgerichtet ist, und hilft der Seite beim korrekten Rendern auf Desktop- und Mobilgeräten. Weitere Informationen finden Sie im Abschnitt [Erweiterte Inhaltswerkzeuge](setup.md) der [!DNL Page Builder] -Konfiguration.
 
-![Rasterunterteilungen in einer Zeile mit einer Spalte](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
+![Rasteraufteilungen in einer Zeile mit einer Spalte](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
 
 Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am oberen Rand jedes Spaltenbehälters die Anzahl der Rasterdivisionen in jeder Spalte und die Gesamtzahl der Divisionen an. In diesem Fall entspricht die Spalte der Breite von sechs von insgesamt 12 Rastereinheiten.
 
@@ -54,19 +54,19 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
 ## Spalte hinzufügen
 
-1. Im [!DNL Page Builder] Bereich unter _[!UICONTROL Layout]_, ziehen Sie eine **[!UICONTROL Column]**auf die Bühne.
+1. Ziehen Sie im Bedienfeld [!DNL Page Builder] unter _[!UICONTROL Layout]_eine **[!UICONTROL Column]**auf die Bühne.
 
    ![Ziehen einer Spalte auf die Bühne](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
    Die Spaltengruppe ist nun in zwei Spalten mit gleicher Breite unterteilt. Jede Spalte ist ein separater Container für Inhalte und verfügt über einen eigenen Satz an Toolbox-Optionen.
 
-   ![Zwei gleiche Spalten](./assets/pb-layout-columns-two-empty.png){width="600" zoomable="yes"}
+   ![Zwei gleich große Spalten](./assets/pb-layout-columns-two-empty.png){width="600" zoomable="yes"}
 
-1. Klicken Sie in der linken oberen Ecke der Spaltengruppe auf die _Raster_ Tool (![Grid Control](./assets/pb-icon-grid-control.png)) und passen Sie die Rastergröße nach Bedarf an.
+1. Klicken Sie in der linken oberen Ecke der Spaltengruppe auf das Tool _Raster_ (![Raster-Steuerelement](./assets/pb-icon-grid-control.png)) und passen Sie die Rastergröße nach Bedarf an.
 
-   Die Positionierung von Inhalten im Raster hilft, Inhalte konsistent auszurichten, und stellt die Seite auf Desktop- und Mobilgeräten korrekt dar. Weitere Informationen finden Sie unter [Erweiterte Inhaltswerkzeuge](../configuration-reference/general/content-management.md) Abschnitt [!DNL Page Builder] Konfiguration.
+   Die Positionierung von Inhalten im Raster hilft, Inhalte konsistent auszurichten, und stellt die Seite auf Desktop- und Mobilgeräten korrekt dar. Weitere Informationen finden Sie im Abschnitt [Erweiterte Inhaltswerkzeuge](../configuration-reference/general/content-management.md) der [!DNL Page Builder] -Konfiguration.
 
-   ![Rasterunterteilungen in zwei Spalten](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
+   ![Rasterdivisionen auf zwei Spalten](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 
 ## Spaltengröße ändern
 
@@ -74,23 +74,23 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
    Der Rahmen wird hervorgehoben und das Toolbox für die ausgewählte Spalte wird angezeigt.
 
-   ![Rahmen zwischen zwei Spalten hervorgehoben](./assets/pb-column-resize-border.png){width="600" zoomable="yes"}
+   ![Markierter Rahmen zwischen zwei Spalten](./assets/pb-column-resize-border.png){width="600" zoomable="yes"}
 
 1. Halten Sie die Maustaste gedrückt, um das Raster anzuzeigen, und ziehen Sie den Rahmen an eine neue Position auf dem Raster.
 
-   Die Breite beider Spalten wird entsprechend der Änderung angepasst. Die neue Breite jeder Spalte wird nach der Beschriftung angezeigt, z. B. `4/12` (vier von 12) und `8/12` (acht von zwölf).
+   Die Breite beider Spalten wird entsprechend der Änderung angepasst. Die neue Breite jeder Spalte wird nach der Beschriftung angezeigt, z. B. `4/12` (vier von 12) und `8/12` (acht von 12).
 
-   ![Größenangepasste Spalten](./assets/pb-columns-resized-grid.png){width="600" zoomable="yes"}
+   ![Spaltengröße geändert](./assets/pb-columns-resized-grid.png){width="600" zoomable="yes"}
 
 ## Spalte entfernen
 
-1. Bewegen Sie den Mauszeiger über die Spalte, die Sie entfernen möchten, um die Toolbox anzuzeigen und die _Entfernen_ ( ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über die Spalte, die Sie entfernen möchten, um die Toolbox anzuzeigen, und wählen Sie das Symbol _Entfernen_ ( ![Symbol Entfernen](./assets/pb-icon-remove.png){width="20"} ).
 
    ![Spalten-Toolbox](./assets/pb-column-toolbox-remove.png){width="600" zoomable="yes"}
 
-1. Wenn die Spalte Inhalt enthält, klicken Sie auf **[!UICONTROL OK]** zur Bestätigung.
+1. Wenn die Spalte Inhalt enthält, klicken Sie zur Bestätigung auf **[!UICONTROL OK]** .
 
-   Um den Prozess in Zukunft zu beschleunigen, können Sie den Bestätigungsschritt überspringen, indem Sie die **[!UICONTROL Do not show this again]** aktivieren.
+   Um den Prozess in Zukunft zu beschleunigen, können Sie den Bestätigungsschritt überspringen, indem Sie das Kontrollkästchen **[!UICONTROL Do not show this again]** aktivieren.
 
    Die Spaltengruppe verfügt nun über eine einzige Spalte (12/12) und ein Raster. Da das Raster nur für Spalten verfügbar ist, können Sie dieses Verfahren verwenden, um das Raster anzuzeigen.
 
@@ -98,23 +98,23 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
 1. Wenn die Spaltengruppe die verbleibende Spalte auf die volle Breite der Zeile oder Phase erweitern soll:
 
-   - Bewegen Sie den Mauszeiger über die Spalte, um die Toolbox anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+   - Bewegen Sie den Mauszeiger über die Spalte, um die Toolbox anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
-   - Scrollen Sie nach unten zum _[!UICONTROL Advanced]_und legen Sie alle vier **[!UICONTROL Padding]**Werte in `0`.
+   - Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Advanced]_und setzen Sie alle vier **[!UICONTROL Padding]**-Werte auf `0`.
 
      ![Verwenden des Nullpunkts](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-   - Klicken Sie oben rechts auf **[!UICONTROL Save]** zum Schließen der _[!UICONTROL Edit Column]_Seite.
+   - Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Seite _[!UICONTROL Edit Column]_zu schließen.
 
-1. Klicken Sie auf _Vollbild schließen_ ( ![Symbol &quot;Vollbild schließen&quot;](./assets/pb-icon-reduce.png){width="20"} ) in der oberen rechten Ecke des Arbeitsbereichs angezeigt, und klicken Sie dann auf **[!UICONTROL Save]** in der oberen rechten Ecke.
+1. Klicken Sie oben rechts im Arbeitsbereich auf das Symbol _Vollbild schließen_ ( ![Vollbildsymbol schließen](./assets/pb-icon-reduce.png){width="20"} ) und klicken Sie dann oben rechts auf **[!UICONTROL Save]** .
 
 ## Spalteneinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über die Spalte, um die Toolbox anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über die Spalte, um die Toolbox anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Spalten-Toolbox](./assets/pb-column-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. Ändern Sie die **[!UICONTROL Appearance]** nach Bedarf.
+1. Ändern Sie die Einstellungen für **[!UICONTROL Appearance]** nach Bedarf.
 
    - Wählen Sie die Ausrichtungseinstellung aus, die die Position der Spalte in Bezug auf ihren Container bestimmt.
 
@@ -127,9 +127,9 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
      {style="table-layout:auto"}
 
-   - Geben Sie bei Bedarf die **[!UICONTROL Minimum Height]** für die Spalte. Sie können beispielsweise die Mindesthöhe so festlegen, dass sie der Höhe eines Hintergrundbilds entspricht.
+   - Geben Sie bei Bedarf den Wert **[!UICONTROL Minimum Height]** für die Spalte ein. Sie können beispielsweise die Mindesthöhe so festlegen, dass sie der Höhe eines Hintergrundbilds entspricht.
 
-   - Wenn Sie die Mindesthöhe festlegen, legen Sie die **[!UICONTROL Vertical Alignment]**  zur Steuerung der Position der Inhaltscontainer, die der Spalte hinzugefügt werden (`Top`, `Center`oder `Bottom`).
+   - Wenn Sie die Mindesthöhe festlegen, legen Sie die **[!UICONTROL Vertical Alignment]** fest, um die Position der Inhaltscontainer zu steuern, die der Spalte hinzugefügt werden (`Top`, `Center` oder `Bottom`).
 
 1. Ändern Sie den Hintergrund für den Spalteninhalt.
 
@@ -157,7 +157,7 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
      {style="table-layout:auto"}
 
-   - **[!UICONTROL Background Position]** - Ändern Sie diese Einstellung, um den Ankerpunkt des Bildes in Bezug auf die Spalte zu bestimmen. Optionen: `Top Left`, `Top Center`, `Top Right`, `Center Left`, `Center`, `Center Right`, `Bottom Left`, `Bottom Center`oder `Bottom Right`
+   - **[!UICONTROL Background Position]** - Ändern Sie diese Einstellung, um den Ankerpunkt des Bildes in Bezug auf die Spalte zu bestimmen. Optionen: `Top Left`, `Top Center`, `Top Right`, `Center Left`, `Center`, `Center Right`, `Bottom Left`, `Bottom Center` oder `Bottom Right`
 
    - **[!UICONTROL Background Attachment]** - Ändern Sie diese Einstellung, um festzulegen, wie sich das Hintergrundbild im Verhältnis zur Scrollseite bewegt:
 
@@ -168,11 +168,11 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
      {style="table-layout:auto"}
 
-   - **[!UICONTROL Background Repeat]** - Wenn Sie das Hintergrundbild zum Ausfüllen des Bereichs wiederholen möchten, ändern Sie diese Einstellung `Yes`.
+   - **[!UICONTROL Background Repeat]** - Wenn Sie das Hintergrundbild wiederholen möchten, um den Raum zu füllen, ändern Sie diese Einstellung `Yes`.
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_-Einstellungen nach Bedarf.
 
-   - Um die horizontale Positionierung der Inhaltscontainer zu steuern, die der Spalte hinzugefügt werden, wählen Sie eine **[!UICONTROL Alignment]**:
+   - Um die horizontale Positionierung der Inhaltscontainer zu steuern, die der Spalte hinzugefügt werden, wählen Sie einen **[!UICONTROL Alignment]**:
 
      | Option | Beschreibung |
      | ------ | ----------- |
@@ -183,7 +183,7 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
      {style="table-layout:auto"}
 
-   - Legen Sie die **[!UICONTROL Border]** -Stil, der auf alle vier Seiten des Spaltencontainers angewendet wird:
+   - Legen Sie den Stil **[!UICONTROL Border]** fest, der auf alle vier Seiten des Spaltencontainers angewendet wird:
 
      | Option | Beschreibung |
      | ------ | ----------- |
@@ -200,7 +200,7 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
      {style="table-layout:auto"}
 
-   - Wenn Sie einen anderen Rahmenstil als `None`, füllen Sie die Randanzeigeoptionen aus:
+   - Wenn Sie einen anderen Rahmenstil als `None` festlegen, füllen Sie die Anzeigeoptionen für die Rahmenanzeige aus:
 
      | Option | Beschreibung |
      | ------ |------------ |
@@ -210,11 +210,11 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
      {style="table-layout:auto"}
 
-   - (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet, das auf den Spaltencontainer angewendet werden soll.
+   - (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet an, das auf den Spaltencontainer angewendet werden soll.
 
      Trennen Sie mehrere Klassennamen durch ein Leerzeichen.
 
-   - Geben Sie Werte in Pixel für die **[!UICONTROL Margins and Padding]** um die äußeren Ränder und den inneren Abstand der Spalte anzugeben.
+   - Geben Sie Werte in Pixel an, damit der Wert **[!UICONTROL Margins and Padding]** die äußeren Ränder und den inneren Abstand der Spalte angibt.
 
      Geben Sie jeden entsprechenden Wert in das Spaltenbehälterdiagramm ein.
 
@@ -225,4 +225,4 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
      {style="table-layout:auto"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.

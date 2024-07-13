@@ -19,6 +19,6 @@ Darüber hinaus können Sie den Admin-Zugriff auf nur eine bestimmte Site oder b
 
 Wenn der Zugriff eines Admin-Benutzers auf eine bestimmte Website oder einen bestimmten Store beschränkt ist, sind die Benutzer, für die sie nicht autorisiert sind, entweder nicht sichtbar oder erscheinen grau ausgeblendet. Für den Benutzer werden nur die Verkaufs- und anderen Daten für zugelassene Websites und Stores angezeigt.
 
-- ![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce) Standardmäßig protokolliert das System automatisch alle Aktionen, die von einem Benutzer ausgeführt werden, wenn er Änderungen auf einen Store anwendet. Admin-Aktionen können im Abschnitt [Bericht &quot;Aktionsprotokolle&quot;](action-log-report.md). Anmeldung konfigurieren [Protokollierung von Admin-Aktionen](action-log.md) in den erweiterten Admin-Einstellungen Ihres Stores.
+- ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Standardmäßig protokolliert das System automatisch alle Aktionen, die von einem Benutzer ausgeführt werden, wenn er Änderungen an einem Store vornimmt. Admin-Aktionen können im Bericht [Aktionsprotokolle](action-log-report.md) überprüft werden. Konfigurieren Sie die Protokollierung in der [Protokollierung von Admin-Aktionen](action-log.md) in den erweiterten Admin-Einstellungen Ihres Stores.
 
 ![Admin - alle Benutzerkonten](./assets/users-all.png){width="700" zoomable="yes"}

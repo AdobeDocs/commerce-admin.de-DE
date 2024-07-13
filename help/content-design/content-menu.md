@@ -1,34 +1,34 @@
 ---
 title: '[!UICONTROL Content] menu'
-description: Verwenden Sie die [!UICONTROL Content] -Menü, um auf mehrere Funktionen zur Verwaltung des Inhalts in Ihrem Store zuzugreifen.
+description: Verwenden Sie das Menü [!UICONTROL Content] , um auf mehrere Funktionen zur Verwaltung des Inhalts in Ihrem Store zuzugreifen.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Content] Menü
+# Menü [!UICONTROL Content]
 
-![Die [!UICONTROL Content] im Admin-Menü angezeigt](./assets/admin-menu-content.png){width="400" zoomable="yes"}
+![Das im Admin](./assets/admin-menu-content.png){width="400" zoomable="yes"} angezeigte Menü [!UICONTROL Content]
 
 >[!NOTE]
 >
->Wenn das neue [[!DNL Media Gallery]](media-gallery.md) aktiviert ist, wird die _[!UICONTROL Media]_mit einer einzigen Option für den Zugriff auf [!DNL Media Gallery]. Sie können die **[!UICONTROL Enable Old Media Gallery]**-Option `No` durch **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** und Auswahl **[!UICONTROL Advanced]** > **[!UICONTROL System]** im linken Bereich.
+>Wenn der neue [[!DNL Media Gallery]](media-gallery.md) aktiviert ist, wird der Abschnitt _[!UICONTROL Media]_mit einer einzigen Option für den Zugriff auf die [!DNL Media Gallery] angezeigt. Sie können die **[!UICONTROL Enable Old Media Gallery]**-Option auf `No` setzen, indem Sie zu **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** gehen und im linken Bereich **[!UICONTROL Advanced]** > **[!UICONTROL System]** auswählen.
 
-## Anzeigen der [!UICONTROL Content] Menü
+## Anzeigen des Menüs [!UICONTROL Content]
 
-Im _Admin_ Seitenleiste, wählen **[!UICONTROL Content]**.
+Wählen Sie in der Seitenleiste _Admin_ die Option **[!UICONTROL Content]** aus.
 
 ## [!UICONTROL Elements]
 
-- Erstellen [pages](pages.md) mit Text, Bildern, Blöcken, Variablen und Widgets. Ihre Seiten können in die Navigation Ihres Stores integriert und mit anderen Seiten verknüpft werden.
-- ![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce) Organisieren Sie Ihre Seiten in einer [hierarchy](page-hierarchy.md) mit Navigation.
-- Erstellen [Bausteine](blocks.md) von Inhalten ohne Code zu schreiben. Blöcke können Text, Bilder und sogar Videos enthalten und beliebigen Teilen des Seitenlayouts zugewiesen werden.
-- ![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce) Erstellen [dynamische Blöcke](dynamic-blocks.md) zur Integration von interaktiven Rich-Inhalten, die von der Logik aus gesteuert werden [Preisregeln](../merchandising-promotions/introduction.md#promotions) und [Kundensegmente](../customers/customer-segments.md).
-- Erstellen [Widgets](widgets.md) , die dynamische Daten anzeigen und Blöcke, Links und interaktive Elemente am häufigsten in Ihrem Store hinzufügen.
-- Erstellen [templates](../page-builder/templates.md) aus Ihrem Seitenaufbau-Inhalt erstellen und Zeit und Mühe beim Hinzufügen neuer Inhalte (oder beim Ersetzen älterer Inhalte) sparen.
+- Erstellen Sie [Seiten](pages.md) mit Text, Bildern, Blöcken, Variablen und Widgets. Ihre Seiten können in die Navigation Ihres Stores integriert und mit anderen Seiten verknüpft werden.
+- ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Organisieren Sie Ihre Seiten in einer [Hierarchie](page-hierarchy.md) mit Navigation.
+- Erstellen Sie [Bausteine](blocks.md) des Inhalts, ohne Code zu schreiben. Blöcke können Text, Bilder und sogar Videos enthalten und beliebigen Teilen des Seitenlayouts zugewiesen werden.
+- ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Erstellen Sie [dynamische Bausteine](dynamic-blocks.md), um Rich-Interaktive Inhalte zu integrieren, die von Logik der [Preisregeln](../merchandising-promotions/introduction.md#promotions) und [Kundensegmente](../customers/customer-segments.md) gesteuert werden.
+- Erstellen Sie [Widgets](widgets.md), die dynamische Daten anzeigen und am häufigsten in Ihrem Store Blöcke, Links und interaktive Elemente hinzufügen.
+- Erstellen Sie [Vorlagen](../page-builder/templates.md) aus Ihrem Seitenaufbau-Inhalt und sparen Sie Zeit und Mühe beim Hinzufügen neuer Inhalte (oder Ersetzen älterer Inhalte).
 
 >[!NOTE]
 >
@@ -38,14 +38,14 @@ Im _Admin_ Seitenleiste, wählen **[!UICONTROL Content]**.
 
 Verwalten Sie die visuelle Präsentation Ihres Stores:
 
-- Legen Sie die [Designkonfiguration](configuration.md) , um unterschiedliche Einstellungen für jede Website, jeden Store und jede Ansicht in Ihrer [!DNL Commerce] Installation.
+- Legen Sie die [Design-Konfiguration](configuration.md) fest, um für jede Website, jeden Store und jede Ansicht in Ihrer [!DNL Commerce]-Installation unterschiedliche Einstellungen beizubehalten.
 
-- Verwendung [themes](themes.md): Sammlungen von Layout-Dateien, Vorlagendateien, Übersetzungsdateien und Skins, um die visuelle Darstellung Ihres Stores zu bestimmen.
+- Verwenden Sie [Designs](themes.md), d. h. Sammlungen von Layout-Dateien, Vorlagendateien, Übersetzungsdateien und Skins, um die visuelle Präsentation Ihres Stores zu bestimmen.
 
-- Verwenden Sie die [Zeitplan](schedule.md) , um vorab Designänderungen für eine Saison oder eine Promotion zu planen.
+- Verwenden Sie den [Zeitplan](schedule.md) , um Designänderungen im Voraus für eine Staffel oder Promotion zu planen.
 
 ## [!UICONTROL Content Staging]
 
 {{ee-feature}}
 
-[Inhaltstaging](content-staging.md) bietet Ihrem Business-Team die Möglichkeit, eine Vielzahl von Inhaltsaktualisierungen einfach direkt vom Administrator Ihres Stores aus zu erstellen, in der Vorschau anzuzeigen und zu planen.
+Mit der [Staging-Umgebung für Inhalte](content-staging.md) können Ihr Geschäftsteam mühelos eine große Auswahl an Inhaltsaktualisierungen direkt vom Administrator Ihres Stores aus erstellen, in der Vorschau anzeigen und planen.

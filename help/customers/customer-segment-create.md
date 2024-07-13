@@ -5,7 +5,7 @@ exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
 source-git-commit: 8d5cd6fa586feb5e44819755245814bff7678d34
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Das Erstellen eines Kundensegments ähnelt dem Erstellen eines [Warenkorbpreisregel](../merchandising-promotions/price-rules-cart.md), allerdings umfassen die Optionen [Kundensegmentspezifische Attribute](../customers/customer-segments.md).
+Das Erstellen eines Kundensegments ähnelt dem Erstellen einer [Warenkorbpreisregel](../merchandising-promotions/price-rules-cart.md), allerdings umfassen die Optionen [kundensegmentspezifische Attribute](../customers/customer-segments.md).
 
 ![Liste der Kundensegmente](assets/customer-segments.png){width="700" zoomable="yes"}
 
@@ -24,28 +24,28 @@ _**[!UICONTROL Customer Segments]grid **_
 |--- |--- |
 | **[!UICONTROL ID]** | Die eindeutige ID des Kundensegments. |
 | **[!UICONTROL Segment]** | Der Name des Kundensegments. |
-| **[!UICONTROL Status]** | Gibt an, ob das Kundensegment _[!UICONTROL Active]_oder_[!UICONTROL Inactive]_. |
+| **[!UICONTROL Status]** | Gibt an, ob das Kundensegment _[!UICONTROL Active]_oder_[!UICONTROL Inactive]_ ist. |
 | **[!UICONTROL Website]** | Gibt die Website an, zu der das Kundensegment gehört. |
 
 {style="table-layout:auto"}
 
 ## Voraussetzung: Kundensegmente aktivieren
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]**  > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen **[!UICONTROL Customer Configuration]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Customer Configuration]** aus.
 
-1. Erweitern Sie die **[!UICONTROL Customer Segments]** Abschnitt.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Customer Segments]** .
 
-1. Stellen Sie sicher, dass **[!UICONTROL Enable Customer Segment Functionality]** auf `Yes`.
+1. Stellen Sie sicher, dass **[!UICONTROL Enable Customer Segment Functionality]** auf `Yes` gesetzt ist.
 
    ![Kundenkonfiguration - Kundensegmente](../configuration-reference/customers/assets/customer-configuration-customer-segments.png){width="600" zoomable="yes"}
 
-1. (Optional) Um die Echtzeit-Validierung für Kundensegmente zu deaktivieren, legen Sie **[!UICONTROL Real-time Check if Customer is Matched by Segment]** nach `No`.
+1. (Optional) Um die Echtzeit-Validierung für Kundensegmente zu deaktivieren, setzen Sie **[!UICONTROL Real-time Check if Customer is Matched by Segment]** auf `No`.
 
    Wenn Sie die Echtzeit-Validierung deaktivieren, werden Kundensegmente durch eine einzige kombinierte Bedingungs-SQL-Abfrage validiert. Die Deaktivierung dieser Funktion verbessert die Leistung der Segmentvalidierung, wenn das System viele Kundensegmente enthält. Die Validierung funktioniert jedoch nicht mit einer geteilten Datenbank oder wenn keine registrierten Kunden vorhanden sind.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ## Segment erstellen
 
@@ -53,19 +53,19 @@ Die folgenden Schritte verwenden ein Beispiel zum Erstellen eines Kundensegments
 
 ### Schritt 1: Hinzufügen eines Kundensegments
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Add Segment]**.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Add Segment]**.
 
-1. Geben Sie einen **[!UICONTROL Segment Name]** identifiziert das Kundensegment bei der Arbeit in der Admin-Konsole.
+1. Geben Sie einen **[!UICONTROL Segment Name]** -Wert ein, der das Kundensegment beim Arbeiten in der Admin-Konsole identifiziert.
 
-1. Kurzbeschreibung eingeben **[!UICONTROL Description]** erläutert den Zweck des Segments.
+1. Geben Sie einen kurzen **[!UICONTROL Description]** -Wert ein, der den Zweck des Segments erklärt.
 
-1. Satz **[!UICONTROL Assigned to Website]** auf der Website, auf der das Kundensegment verwendet werden kann.
+1. Setzen Sie **[!UICONTROL Assigned to Website]** auf die Website, auf der das Kundensegment verwendet werden kann.
 
-1. Legen Sie die **[!UICONTROL Status]** nach _Aktiv_ oder _Inaaktiv_.
+1. Setzen Sie den **[!UICONTROL Status]** auf _Aktiv_ oder _Inaktiv_.
 
-1. Um die Kundentypen zu identifizieren, die Sie für die Anwendung des Segments verwenden möchten, legen Sie **[!UICONTROL Apply to]** auf einen der folgenden Werte zu:
+1. Um die Kundentypen zu identifizieren, die Sie für die Anwendung des Segments verwenden möchten, setzen Sie **[!UICONTROL Apply to]** auf einen der folgenden Werte:
 
    - `Visitors and Registered Customers` - Umfasst alle Käufer, unabhängig davon, ob sie bei einem Konto angemeldet sind.
    - `Registered Customers` - Umfasst nur Käufer, die bei einem Konto angemeldet sind.
@@ -77,12 +77,12 @@ Die folgenden Schritte verwenden ein Beispiel zum Erstellen eines Kundensegments
 
    >[!NOTE]
    >
-   > Wenn ein Segment für `Visitors and Registered Customers`, die [!UICONTROL Matched Customers] nur anzeigen `Registered Customers`. Dies ist auch dann der Fall, wenn Besucher auf Grundlage von Bedingungen, die für sie gelten, als Ziel ausgewählt werden können. Für `Visitors` nur Segmente, keine `Matched Customers` angezeigt.
+   > Wenn ein Segment für `Visitors and Registered Customers` gilt, zeigt die [!UICONTROL Matched Customers] nur `Registered Customers` an. Dies ist auch dann der Fall, wenn Besucher auf Grundlage von Bedingungen, die für sie gelten, als Ziel ausgewählt werden können. Für nur `Visitors` Segmente wird keine Registerkarte `Matched Customers` angezeigt.
 
 
-1. Klicken **[!UICONTROL Save and Continue Edit]**.
+1. Klicken Sie auf **[!UICONTROL Save and Continue Edit]**.
 
-   Nach dem Speichern des Segments _[!UICONTROL General Properties]_, stehen im linken Bereich zusätzliche Optionen zur Verfügung.
+   Nach dem Speichern des Segments &quot;_[!UICONTROL General Properties]_&quot; werden im linken Bereich zusätzliche Optionen verfügbar.
 
    ![Segmenteigenschaften](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
@@ -107,49 +107,49 @@ Die folgenden Schritte verwenden ein Beispiel zum Erstellen eines Kundensegments
 
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Conditions]**.
 
-   Die Standardbedingung beginnt mit _[!UICONTROL If ALL of these conditions are TRUE:]_auf der Seite.
+   Die Standardbedingung beginnt auf der Seite mit &quot;_[!UICONTROL If ALL of these conditions are TRUE:]_&quot;.
 
    ![Bedingungen](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
 1. Erstellen Sie eine Bedingung für weibliche Kunden:
 
-   - Klicken Sie auf **[!UICONTROL Add]** Symbol, um die Liste der Bedingungen anzuzeigen, und wählen Sie `Gender`.
+   - Klicken Sie auf das Symbol **[!UICONTROL Add]** , um die Liste der Bedingungen anzuzeigen, und wählen Sie `Gender` aus.
 
-   - Behalten Sie die Standardeinstellung bei **is** Option zur Bedingungssteuerung.
+   - Behalten Sie die standardmäßige Bedingungssteueroption **ist** bei.
 
-   - Klicks **...** und wählen `female`.
+   - Klicken Sie auf **..** und wählen Sie `female` aus.
 
    ![Bedingungszeile 1](assets/customer-segment-condition-line1.png){width="600" zoomable="yes"}
 
 1. Erstellen Sie eine weitere Bedingung, die auf die Einwohner von Los Angeles abzielt:
 
-   - Klicken Sie in der nächsten Zeile auf die **[!UICONTROL Add]** Symbol und wählen Sie `Customer Address`.
+   - Klicken Sie in der nächsten Zeile auf das Symbol **[!UICONTROL Add]** und wählen Sie `Customer Address` aus.
 
      Diese Aktion erstellt eine übergeordnete Bedingung, in der Sie ein oder mehrere Adressfelder definieren können, die abgeglichen werden sollen.
 
-   - Klicken Sie auf **[!UICONTROL Add]** Symbol, um die Liste der Adressfelder anzuzeigen, und wählen Sie `City`.
+   - Klicken Sie auf das Symbol &quot;**[!UICONTROL Add]**&quot;, um die Liste der Adressfelder anzuzeigen, und wählen Sie &quot;`City`&quot;.
 
-   - Klicks **is** , um die Optionen zur Bedingungssteuerung anzuzeigen, und wählen Sie `contains`.
+   - Klicken Sie auf **is** , um die Optionen zur Bedingungssteuerung anzuzeigen und `contains` auszuwählen.
 
-   - Klicks **...** und eingeben `Los Angeles`.
+   - Klicken Sie auf **..** und geben Sie `Los Angeles` ein.
 
-   - Klicken Sie in der nächsten Zeile auf die **[!UICONTROL Add]** Symbol und wählen Sie `State/Province`.
+   - Klicken Sie in der nächsten Zeile auf das Symbol **[!UICONTROL Add]** und wählen Sie `State/Province` aus.
 
-   - Behalten Sie die Standardeinstellung bei **is** Option zur Bedingungssteuerung.
+   - Behalten Sie die standardmäßige Bedingungssteueroption **ist** bei.
 
-   - Klicks **...** und wählen `United States > California`.
+   - Klicken Sie auf **..** und wählen Sie `United States > California` aus.
 
    ![Bedingungen für Frauen in Los Angeles, Kalifornien](assets/customer-segment-conditions-la-ladies.png){width="600" zoomable="yes"}
 
-1. Klicken **[!UICONTROL Save and Continue Edit]**.
+1. Klicken Sie auf **[!UICONTROL Save and Continue Edit]**.
 
 ### Schritt 3: Überprüfen der Liste der übereinstimmenden Kunden
 
-1. Klicken Sie im linken Bereich auf **[!UICONTROL Matched Customers]** , um alle Kunden anzuzeigen, die mit der Bedingung übereinstimmen.
+1. Klicken Sie im linken Bereich auf **[!UICONTROL Matched Customers]** , um alle Kunden anzuzeigen, die die Bedingung erfüllen.
 
-   ![Zugewiesene Kunden](assets/customer-segment-matched-customers.png){width="600" zoomable="yes"}
+   ![Matched Customers](assets/customer-segment-matched-customers.png){width="600" zoomable="yes"}
 
-1. Wenn die Kundenliste Ihr Ziel erreicht, klicken Sie auf **[!UICONTROL Save]** , um das Kundensegment abzuschließen.
+1. Wenn die Kundenliste Ihr Ziel erfüllt, klicken Sie auf **[!UICONTROL Save]** , um das Kundensegment abzuschließen.
 
 1. Das Kundensegment kann jetzt für Targeting-Promotions, Inhalte und Mailings verwendet werden.
 
@@ -171,19 +171,19 @@ _**[!UICONTROL Matched Customers]grid **_
 
 ## Entfernen eines Kundensegments
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
 
 1. Suchen Sie das zu löschende Segment und wählen Sie es aus.
 
-1. Klicken Sie in der Menüleiste auf **[!UICONTROL Delete]** Schaltfläche.
+1. Klicken Sie in der Menüleiste auf die Schaltfläche **[!UICONTROL Delete]** .
 
-1. Klicken Sie zur Bestätigung der Aktion auf **[!UICONTROL OK]**.
+1. Um die Aktion zu bestätigen, klicken Sie auf **[!UICONTROL OK]**.
 
 ## Schaltflächenleiste
 
 | Schaltfläche | Beschreibung |
 |--- |--- |
-| **[!UICONTROL Back]** | Gibt Folgendes zurück _[!UICONTROL Customer Segments]_Seite ohne Speichern von Änderungen. |
+| **[!UICONTROL Back]** | Kehrt zur Seite _[!UICONTROL Customer Segments]_zurück, ohne die Änderungen zu speichern. |
 | **[!UICONTROL Delete]** | Löscht das aktuelle Kundensegment. Kunden oder abgeschlossene Bestellungen, die mit dem Kunden im Segment verknüpft sind, werden nicht entfernt. |
 | **[!UICONTROL Reset]** | Setzt nicht gespeicherte Änderungen im Kundensegmentformular auf ihre vorherigen Werte zurück. |
 | **[!UICONTROL Refresh Segment Data]** | Aktualisiert die Segmentdaten auf die zuletzt gespeicherten Werte. Relevant, wenn Segmentdaten nicht verfügbar oder veraltet sind. |

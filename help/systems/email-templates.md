@@ -14,7 +14,7 @@ ht-degree: 0%
 
 E-Mail-Vorlagen definieren das Layout, den Inhalt und die Formatierung automatisierter Nachrichten, die von Ihrem Store gesendet werden. Sie werden als Transaktions-E-Mails bezeichnet, da jede E-Mail mit einem bestimmten Transaktions- oder Ereignistyp verknüpft ist.
 
-Commerce enthält eine Reihe responsiver E-Mail-Vorlagen, die durch verschiedene Ereignisse ausgelöst werden, die während des Betriebs Ihres Stores stattfinden. Jede Vorlage ist für jede Bildschirmgröße optimiert und kann vom Desktop aus sowie auf Tablets und Mobilgeräten angezeigt werden. Es gibt verschiedene vorbereitete E-Mail-Vorlagen, die sich auf Kundenaktivitäten, Verkäufe, Produktwarnungen, Administratoraktionen und Systemnachrichten beziehen. [Anpassen](email-template-custom.md) , um Ihre Marke widerzuspiegeln.
+Commerce enthält eine Reihe responsiver E-Mail-Vorlagen, die durch verschiedene Ereignisse ausgelöst werden, die während des Betriebs Ihres Stores stattfinden. Jede Vorlage ist für jede Bildschirmgröße optimiert und kann vom Desktop aus sowie auf Tablets und Mobilgeräten angezeigt werden. Es gibt verschiedene vorbereitete E-Mail-Vorlagen für Kundenaktivitäten, Verkäufe, Produktwarnungen, Admin-Aktionen und Systemnachrichten, die Sie [anpassen](email-template-custom.md) können, um Ihre Marke widerzuspiegeln.
 
 Commerce-E-Mails können von HTML- und Text-E-Mail-Clients gerendert werden. Die Art und Weise, wie E-Mails gerendert werden, kann zwischen den Clients variieren.
 
@@ -43,37 +43,37 @@ In der Regel können Sie ein Bild kleiner als das Original machen, jedoch nicht 
 
 ## E-Mail-Vorlagen konfigurieren
 
-Die Konfiguration bestimmt das Logo, das in der Standardkopfzeilenvorlage angezeigt wird, und alle benutzerdefinierten [header](email-template-custom.md#header-template) und [Fußzeile](email-template-custom.md#footer-template) Vorlagen, die Sie für von Ihren Stores gesendete Transaktions-E-Mail-Nachrichten verwenden möchten.
+Die Konfiguration bestimmt das Logo, das in der standardmäßigen Kopfzeilenvorlage angezeigt wird, sowie alle benutzerdefinierten Vorlagen [header](email-template-custom.md#header-template) und [footer](email-template-custom.md#footer-template), die Sie für Transaktions-E-Mail-Nachrichten verwenden möchten, die von Ihren Stores gesendet werden.
 
-![E-Mail-Design für Transaktionen](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
+![E-Mail-Entwurf für Transaktionen](./assets/design-configuration-transactional-emails.png){width="600" zoomable="yes"}
 
-Eine detaillierte Liste der Konfigurationseinstellungen finden Sie unter [_Transaktions-E-Mails_](../content-design/configuration.md) im _Anleitung für Inhalt und Design_.
+Eine detaillierte Liste der Konfigurationseinstellungen finden Sie unter [_Transaktions-E-Mails_](../content-design/configuration.md) im _Inhalts- und Designhandbuch_.
 
 ## Schritt 1. Hochladen Ihres Logos
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie auf **[!UICONTROL Edit]** im _[!UICONTROL Action]_Spalte.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
-1. under _[!UICONTROL Other Settings]_, erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Transactional Emails]**Abschnitt.
+1. Erweitern Sie unter _[!UICONTROL Other Settings]_den Abschnitt ![Erweiterungsauswahl](../assets/icon-display-expand.png) um den Abschnitt **[!UICONTROL Transactional Emails]**.
 
-1. So laden Sie Ihre vorbereiteten Daten hoch **[!UICONTROL Logo Image]** klicken **[!UICONTROL Upload]** und wählen Sie die Datei aus Ihrem System aus.
+1. Um Ihre vorbereitete **[!UICONTROL Logo Image]** hochzuladen, klicken Sie auf **[!UICONTROL Upload]** und wählen Sie die Datei aus Ihrem System aus.
 
-1. Für **[!UICONTROL Logo Image Alt]**, geben Sie alternativen Text ein, um das Bild zu identifizieren.
+1. Geben Sie für **[!UICONTROL Logo Image Alt]** alternativen Text ein, um das Bild zu identifizieren.
 
-1. Geben Sie die **[!UICONTROL Logo Width]** und **[!UICONTROL Logo Height]** in Pixel.
+1. Geben Sie die Werte **[!UICONTROL Logo Width]** und **[!UICONTROL Logo Height]** in Pixel ein.
 
-   Geben Sie jeden Wert als Zahl ein, ohne die `px` Abkürzung. Diese Werte beziehen sich auf die Anzeigedimensionen des Logos in der Kopfzeile und nicht auf die tatsächliche Bildgröße.
+   Geben Sie jeden Wert als Zahl ohne die Abkürzung `px` ein. Diese Werte beziehen sich auf die Anzeigedimensionen des Logos in der Kopfzeile und nicht auf die tatsächliche Bildgröße.
 
 ## Schritt 2. Kopf- und Fußzeilenvorlagen auswählen
 
-Wenn Sie benutzerdefinierte Kopf- und Fußzeilenvorlagen für Ihren Store oder für verschiedene Stores haben, können Sie je nach [Umfang](../getting-started/websites-stores-views.md#scope-settings) der Konfiguration. Andernfalls werden die Standardvorlagen verwendet. Weitere Informationen finden Sie unter [Anpassen von E-Mail-Vorlagen](email-template-custom.md).
+Wenn Sie benutzerdefinierte Kopf- und Fußzeilenvorlagen für Ihren Store oder für verschiedene Stores haben, können Sie entsprechend dem [Umfang](../getting-started/websites-stores-views.md#scope-settings) der Konfiguration festlegen, welche Vorlagen jeweils verwendet werden. Andernfalls werden die Standardvorlagen verwendet. Weitere Informationen finden Sie unter [Anpassen von E-Mail-Vorlagen](email-template-custom.md).
 
-1. Wählen Sie die **[!UICONTROL Header Template]** für alle Transaktions-E-Mail-Nachrichten verwendet werden.
+1. Wählen Sie die **[!UICONTROL Header Template]** aus, die für alle Transaktions-E-Mail-Nachrichten verwendet werden soll.
 
-1. Wählen Sie die **[!UICONTROL Footer Template]** für alle Transaktions-E-Mail-Nachrichten verwendet werden.
+1. Wählen Sie die **[!UICONTROL Footer Template]** aus, die für alle Transaktions-E-Mail-Nachrichten verwendet werden soll.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ## Liste der E-Mail-Vorlagen
 
@@ -98,7 +98,7 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 
 ### [!DNL Magento_Company]
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Nur bei Adobe Commerce B2B verfügbar)
+![Adobe Commerce B2B](../assets/b2b.svg) (nur bei Adobe Commerce B2B verfügbar)
 
 | Vorlage | Konfigurationspfad |
 |--- |--- |
@@ -121,7 +121,7 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 
 ### [!DNL Magento_CompanyCredit]
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Nur bei Adobe Commerce B2B verfügbar)
+![Adobe Commerce B2B](../assets/b2b.svg) (nur bei Adobe Commerce B2B verfügbar)
 
 | Vorlage | Konfigurationspfad |
 |--- |--- |
@@ -147,20 +147,20 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 |--- |--- |
 | `Change Email` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Abschnitt:** [!UICONTROL Account Information Options]<br/>**Feld:** [!UICONTROL Change Email Template] |
 | E-Mail und Kennwort ändern | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Abschnitt:** [!UICONTROL Account Information Options]<br/>**Feld:** [!UICONTROL Change Email and Password Template] |
-| `Forgot Password` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Abschnitt:** [!UICONTROL Password Options]<br/>**Feld:** E-Mail-Vorlage vergessen |
+| `Forgot Password` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Abschnitt:** [!UICONTROL Password Options]<br/>**Feld:** E-Mail-Vorlage vergessen: |
 | `New Account` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Abschnitt:** [!UICONTROL Create New Account Options]<br/>**Feld:** Standard-Willkommens-E-Mail |
 | `New Account (Magento/luma)` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Abschnitt:** [!UICONTROL Create New Account Options]<br/>**Feld:** Standard-Willkommens-E-Mail |
 | `New Account Confirmation Key` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Abschnitt:** [!UICONTROL Create New Account Options]<br/>**Feld:** Bestätigungslink-E-Mail |
 | `New Account Confirmed` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Abschnitt:** [!UICONTROL Create New Account Options]<br/>**Feld:** Willkommens-E-Mail |
-| `New Account Without Password` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Abschnitt:** [!UICONTROL Create New Account Options]<br/>**Feld:** Standard-Willkommens-E-Mail ohne Kennwort |
-| `Remind Password` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Abschnitt:** [!UICONTROL Password Options]<br/>**Feld:** Remind Email Template |
+| `New Account Without Password` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Abschnitt:** [!UICONTROL Create New Account Options]<br/>**Feld:** Standardmäßige Willkommens-E-Mail ohne Kennwort |
+| `Remind Password` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Abschnitt:** [!UICONTROL Password Options]<br/>**Feld:** E-Mail-Vorlage erinnern |
 | `Reset Password` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Customer Configuration]](../configuration-reference/customers/customer-configuration.md)<br/>**Abschnitt:** [!UICONTROL Password Options] <br/>**Feld:** Kennwortvorlage zurücksetzen |
 
 {style="table-layout:auto"}
 
 ### [!DNL Magento_CustomerBalance]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
 | Vorlage | Konfigurationspfad |
 |--- |--- |
@@ -188,7 +188,7 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 
 ### [!UICONTROL Magento_GiftCard]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
 | Vorlage | Konfigurationspfad |
 |--- |--- |
@@ -233,7 +233,7 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 
 ### [!DNL Magento_NegotiableQuote]
 
-![Adobe Commerce B2B](../assets/b2b.svg) (Nur bei Adobe Commerce B2B verfügbar)
+![Adobe Commerce B2B](../assets/b2b.svg) (nur bei Adobe Commerce B2B verfügbar)
 
 | Vorlage | Konfigurationspfad |
 |--- |--- |
@@ -284,7 +284,7 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 
 ### [!DNL Magento_Reminder]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
 | Vorlage | Konfigurationspfad |
 |--- |--- |
@@ -294,7 +294,7 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 
 ### [!DNL Magento_Reward]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
 | Vorlage | Konfigurationspfad |
 |--- |--- |
@@ -305,7 +305,7 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 
 ### [!DNL Magento_Rma]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
 | Vorlage | Konfigurationspfad |
 |--- |--- |
@@ -360,7 +360,7 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 
 ### [!DNL Magento_ScheduledImportExport]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
 | Vorlage | Konfigurationspfad |
 |--- |--- |
@@ -374,7 +374,7 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 
 | Vorlage | Konfigurationspfad |
 |--- |--- |
-| `Send Product Link to Friend` | **Seite:** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**Abschnitt:** [!UICONTROL Email Templates]<br/>**Feld:** [!UICONTROL Select Email Template] |
+| `Send Product Link to Friend` | **Seite:** [!UICONTROL Catalog] > [[!UICONTROL Email to a Friend]](../configuration-reference/catalog/email-to-a-friend.md)<br/>**Abschnitt:** [!UICONTROL Email Templates]<br/>**Feld:** [!UICONTROL Select Email Template] |
 
 {style="table-layout:auto"}
 
@@ -399,7 +399,7 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 
 | Vorlage | Konfigurationspfad |
 |--- |--- |
-| `Forgot Admin Password` | **Seite:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Abschnitt:** [!UICONTROL Admin User Emails]<br/>**Feld:** Kennwort-E-Mail-Vorlage vergessen |
+| `Forgot Admin Password` | **Seite:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Abschnitt:** [!UICONTROL Admin User Emails]<br/>**Feld:** KennwortEmail-Vorlage vergessen |
 | `User Notification` | **Seite:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Abschnitt:** [!UICONTROL Admin User Emails]<br/>**Feld:** Vorlage für Benutzerbenachrichtigungen |
 | `New User Notification` | **Seite:** [!UICONTROL Advanced] > [[!UICONTROL Admin]](../configuration-reference/advanced/admin.md)<br/>**Abschnitt:** [!UICONTROL Admin User Emails]<br/>**Feld:** [!UICONTROL New User Notification Template] |
 

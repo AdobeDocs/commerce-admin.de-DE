@@ -1,6 +1,6 @@
 ---
 title: Elemente - Überschrift
-description: Erfahren Sie mehr über den Inhaltstyp "Überschrift", mit dem ein Textcontainer mit einer Überschriftenebene von H1 bis H6 zum [!DNL Page Builder] Bühne.
+description: Erfahren Sie mehr über den Inhaltstyp "Überschrift", mit dem ein Textcontainer mit einer Überschriftenebene von H1 bis H6 zur  [!DNL Page Builder] Bühne hinzugefügt wird.
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Elemente - Überschrift
 
-Überschriftenebenen bilden eine Hierarchie, die Inhalte organisiert und Suchmaschinen bei der Indexierung jeder Seite unterstützt. Verwenden Sie die _Überschrift_ Inhaltstyp in [[!DNL Page Builder] Schritt](workspace.md#stage) , um einen Textcontainer mit einer Überschriftenebene von H1 bis H6 zur Bühne hinzuzufügen. Überschriften werden entsprechend dem Stylesheet formatiert, das dem aktuellen Design zugeordnet ist.
+Überschriftenebenen bilden eine Hierarchie, die Inhalte organisiert und Suchmaschinen bei der Indexierung jeder Seite unterstützt. Verwenden Sie den Inhaltstyp _Überschrift_ in der [[!DNL Page Builder] Bühne](workspace.md#stage) , um einen Textcontainer mit einer Überschriftenebene von H1 bis H6 zur Bühne hinzuzufügen. Überschriften werden entsprechend dem Stylesheet formatiert, das dem aktuellen Design zugeordnet ist.
 
-Die [Inhaltsüberschrift](workspace.md) im Feld _[!UICONTROL Content]_-Abschnitt kann verwendet werden, um oben auf der Seite eine H1-Überschrift hinzuzufügen. Das Feld ist jedoch eine alte [!DNL Commerce] und wird bereitgestellt, um ältere Inhalte zu unterstützen. Dieses Feld nutzt nicht [!DNL Page Builder]erweiterte Funktionen. Es wird empfohlen, das Feld Inhaltsüberschrift leer zu lassen und die [!DNL Page Builder] Inhaltstyp für Überschriften , um Überschriften beliebiger Ebenen zur Seite hinzuzufügen.
+Das Feld [Inhaltsüberschrift](workspace.md) im Abschnitt _[!UICONTROL Content]_kann verwendet werden, um eine H1-Überschrift oben auf der Seite hinzuzufügen. Das Feld ist jedoch eine ältere Version von [!DNL Commerce] und wird zur Unterstützung älterer Inhalte bereitgestellt. Dieses Feld nutzt nicht die erweiterten Funktionen von [!DNL Page Builder]. Es wird empfohlen, das Feld Inhaltsüberschrift leer zu lassen und den Inhaltstyp [!DNL Page Builder] Überschrift zu verwenden, um Überschriften beliebiger Ebenen zur Seite hinzuzufügen.
 
 Das folgende Beispiel zeigt, wie die Inhaltsüberschrift und der Inhaltstyp &quot;Überschrift&quot;angezeigt werden, wenn sie durch das Luma-Design formatiert sind.
 
-![Inhaltsüberschrift und Überschriftenebene auf der Storefront](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
+![Überschriften- und Überschriftenebenen des Inhalts auf der Storefront](./assets/pb-storefront-heading-levels.png){width="700" zoomable="yes"}
 
-Sie können eine Überschrift aus der _Elemente_ Abschnitt [!DNL Page Builder] auf eine Zeile, Spalte oder Registerkarte, die auf der Bühne festgelegt ist. Die Überschriftenebene und die Ausrichtung können über die Editor-Symbolleiste auf der Bühne oder über die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+Sie können eine Überschrift aus dem Abschnitt _Elemente_ des Bedienfelds [!DNL Page Builder] in eine Zeile, Spalte oder Registerkarte ziehen, die auf der Bühne festgelegt ist. Die Überschriftenebene und die Ausrichtung können über die Editor-Symbolleiste auf der Bühne oder über das Steuerelement _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) gesteuert werden.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -32,14 +32,14 @@ Sie können eine Überschrift aus der _Elemente_ Abschnitt [!DNL Page Builder] a
 
 Wie bei allen Inhalts-Containern wird die Toolbox angezeigt, wenn Sie den Mauszeiger über den Container bewegen.
 
-![Überschriftencontainer-Toolbox](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
+![ Überschriftencontainer-Toolbox](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
 
 | Tool | Symbol | Beschreibung |
 | --------- | ----------------- | ---------------------- |
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png){width="25"} | Verschiebt den Überschriftenbehälter an eine andere gültige Position auf der Seite. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png){width="25"} | Verschiebt den Überschriftenbehälter an eine andere gültige Position auf der Seite. |
 | (Titel) | Überschrift | Identifiziert den aktuellen Container als Überschrift. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite Überschrift bearbeiten , auf der Sie die Eigenschaften des Containers ändern können. |
-| Ausblenden | ![Symbol &quot;Ausblenden&quot;](./assets/pb-icon-hide.png){width="25"} | Blendet den Überschriftenbehälter aus. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite Überschrift bearbeiten , auf der Sie die Eigenschaften des Containers ändern können. |
+| Ausblenden | ![Symbol zum Ausblenden](./assets/pb-icon-hide.png){width="25"} | Blendet den Überschriftenbehälter aus. |
 | Anzeigen | ![Symbol &quot;Anzeigen&quot;](./assets/pb-icon-show.png){width="25"} | Zeigt den ausgeblendeten Überschriftenbehälter an. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="25"} | Kopiert den Überschriftencontainer. |
 | Entfernen | ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="25"} | Löscht den Überschriftenbehälter und seinen Inhalt aus der Bühne. |
@@ -50,11 +50,11 @@ Wie bei allen Inhalts-Containern wird die Toolbox angezeigt, wenn Sie den Mausze
 
 ## Hinzufügen einer Überschrift
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Elements]** und ziehen Sie eine **[!UICONTROL Heading]** Platzhalter für eine Zeile, Spalte oder Registerkarte, die auf der Bühne festgelegt ist.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Eintrag **[!UICONTROL Elements]** und ziehen Sie einen Platzhalter **[!UICONTROL Heading]** auf eine Zeile, Spalte oder Registerkarte, die auf der Bühne festgelegt ist.
 
    ![Ziehen einer Überschrift auf die Bühne](./assets/pb-elements-heading-drag.png){width="600" zoomable="yes"}
 
-1. Geben Sie im Editor den Überschriftentext über dem `Edit Heading Text` Platzhalter.
+1. Geben Sie im Editor den Überschriftentext über dem Platzhalter `Edit Heading Text` ein.
 
    Standardmäßig wird dem Überschriftentext ein Überschriftentyp der Ebene 2 (H2) zugewiesen.
 
@@ -66,17 +66,17 @@ Wie bei allen Inhalts-Containern wird die Toolbox angezeigt, wenn Sie den Mausze
 
 ## Bearbeiten von Kopfzeileneinstellungen
 
-1. Bewegen Sie den Mauszeiger über den Überschriftenbehälter, um die Symbolleiste anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den Überschriftenbehälter, um die Werkzeugleiste anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
-   ![Überschriften-Toolbox](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
+   ![Überschrift-Toolbox](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
 
-1. Aktualisieren Sie den Überschrifteninhalt (**[!UICONTROL Heading Type]** und **[!UICONTROL Heading Text]**), falls erforderlich.
+1. Aktualisieren Sie bei Bedarf den Überschrifteninhalt (**[!UICONTROL Heading Type]** und **[!UICONTROL Heading Text]**).
 
    Sie können diesen Inhalt auch im Überschrifteneditor aktualisieren.
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_-Einstellungen nach Bedarf.
 
-   - Um die Positionierung der Überschrift innerhalb des übergeordneten Containers zu steuern, wählen Sie eine **[!UICONTROL Alignment]**:
+   - Um die Positionierung der Überschrift innerhalb des übergeordneten Containers zu steuern, wählen Sie einen **[!UICONTROL Alignment]**:
 
      | Option | Beschreibung |
      | ------ | ----------- |
@@ -87,7 +87,7 @@ Wie bei allen Inhalts-Containern wird die Toolbox angezeigt, wenn Sie den Mausze
 
      {style="table-layout:auto"}
 
-   - Legen Sie die **[!UICONTROL Border]** Stil, der auf alle vier Seiten des Überschriftencontainers angewendet wird:
+   - Legen Sie den **[!UICONTROL Border]** -Stil fest, der auf alle vier Seiten des Überschriftencontainers angewendet wird:
 
      | Option | Beschreibung |
      | ------ | ----------- |
@@ -104,7 +104,7 @@ Wie bei allen Inhalts-Containern wird die Toolbox angezeigt, wenn Sie den Mausze
 
      {style="table-layout:auto"}
 
-   - Wenn Sie einen anderen Rahmenstil als `None`, füllen Sie die Randanzeigeoptionen aus:
+   - Wenn Sie einen anderen Rahmenstil als `None` festlegen, füllen Sie die Anzeigeoptionen für die Rahmenanzeige aus:
 
      | Option | Beschreibung |
      | ------ |------------ |
@@ -114,11 +114,11 @@ Wie bei allen Inhalts-Containern wird die Toolbox angezeigt, wenn Sie den Mausze
 
      {style="table-layout:auto"}
 
-   - (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet, das auf den Container angewendet werden soll.
+   - (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet an, das auf den Container angewendet werden soll.
 
      Trennen Sie mehrere Klassennamen durch ein Leerzeichen.
 
-   - Geben Sie Werte in Pixel für die **[!UICONTROL Margins and Padding]** um die äußeren Ränder und den inneren Abstand des Überschriftenbehälters zu bestimmen.
+   - Geben Sie Werte in Pixel für den Wert **[!UICONTROL Margins and Padding]** ein, um die äußeren Ränder und den inneren Abstand des Überschriftencontainers zu bestimmen.
 
      Geben Sie die entsprechenden Werte in das Diagramm ein.
 
@@ -129,21 +129,21 @@ Wie bei allen Inhalts-Containern wird die Toolbox angezeigt, wenn Sie den Mausze
 
      {style="table-layout:auto"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ## Überschrift duplizieren
 
 Für eine formatierte Überschrift mit bestimmten Einstellungen ist es effizienter, die Überschrift zu duplizieren, anstatt mit einem neuen Platzhalter zu beginnen.
 
-1. Bewegen Sie den Mauszeiger über den Überschriftenbehälter, um die Symbolleiste anzuzeigen und die _Duplizieren_ ( ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den Überschriftenbehälter, um die Symbolleiste anzuzeigen, und wählen Sie das Symbol _Duplizieren_ ( ![Symbol Duplizieren](./assets/pb-icon-duplicate.png){width="20"} ).
 
    Das Duplikat wird direkt unter dem Original angezeigt.
 
    ![Duplizieren eines Überschriftencontainers](./assets/pb-elements-heading-duplicate.png){width="500" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den neuen Überschriftenbehälter, um die Symbolleiste anzuzeigen und die _Verschieben_ ( ![Symbol Verschieben](./assets/pb-icon-move.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den neuen Überschriftenbehälter, um die Werkzeugleiste anzuzeigen, und wählen Sie das Symbol _Verschieben_ ( ![Symbol Verschieben](./assets/pb-icon-move.png){width="20"} ).
 
-   ![Verschieben einer Überschrift](./assets/pb-elements-heading-move.png){width="500" zoomable="yes"}
+   ![ Verschieben einer Überschrift](./assets/pb-elements-heading-move.png){width="500" zoomable="yes"}
 
 1. Wählen Sie die Überschrift aus und ziehen Sie sie, bis die rote Führungslinie die neue Position markiert.
 

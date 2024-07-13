@@ -14,22 +14,22 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Prämienpunkte können Kunden gemäß einer [Warenkorbpreisregel](price-rules-cart.md). Die Zuweisung von Punkten kann die einzige Aktion der Preisregel sein oder mit einem Rabatt verwendet werden.
+Prämienpunkte können Kunden gemäß einer [Warenkorbpreisregel](price-rules-cart.md) zugewiesen werden. Die Zuweisung von Punkten kann die einzige Aktion der Preisregel sein oder mit einem Rabatt verwendet werden.
 
 >[!NOTE]
 >
->[Wechselkurse der Prämien](reward-exchange-rates.md) -Konfiguration ist erforderlich, damit Kunden und Admin-Benutzer während des Checkout die Punkte einlösen können.
+>Die Konfiguration der Rewards-Wechselkurse ](reward-exchange-rates.md) ist erforderlich, damit Kunden und Admin-Benutzer während des Checkout die Punkte einlösen können.[
 
 ## Hinzufügen von Belohnungspunkten zu einer Preisregel
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**.
 
-1. Klicks **[!UICONTROL Add New Rule]** , um eine Preisregel für den Warenkorb zu erstellen, oder klicken Sie auf eine bestehende Preisregel für den Warenkorb, um sie zu öffnen.
+1. Klicken Sie auf **[!UICONTROL Add New Rule]** , um eine Regel zum Warenkorbpreis zu erstellen, oder klicken Sie auf eine bestehende Regel zum Warenkorbpreis, um sie zu öffnen.
 
-1. Nach unten scrollen, erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Actions]** -Abschnitt, legen Sie die Bedingungen fest und geben Sie die Anzahl der Punkte im **[!UICONTROL Add Reward Points]** -Feld.
+1. Scrollen Sie nach unten, erweitern Sie den Abschnitt **[!UICONTROL Actions]** um ![Erweiterungsauswahl](../assets/icon-display-expand.png), legen Sie die Bedingungen fest und geben Sie die Anzahl der Punkte in das Feld **[!UICONTROL Add Reward Points]** ein.
 
-   ![Warenkorbpreisregel - Prämienpunkte](./assets/reward-points-price-rule-actions.png){width="600" zoomable="yes"}
+   ![Warenkorbpreisregel - Belohnungspunkte](./assets/reward-points-price-rule-actions.png){width="600" zoomable="yes"}
 
-1. Befolgen Sie die Standardanweisungen, um die [Warenkorbpreisregel](price-rules-cart-create.md).
+1. Befolgen Sie die Standardanweisungen, um die [Warenkorbpreisregel](price-rules-cart-create.md) abzuschließen.
 
    Wenn die Preisregel aktiviert wird, erscheint eine Meldung im Warenkorb, die Kunden mitteilt, wie viele Punkte sie durch die Bestellung verdienen können. Dies gilt nur für registrierte Benutzer und kann bei der Anmeldung eines Benutzers variieren.

@@ -1,24 +1,24 @@
 ---
 title: URL-Neuschreibungen für Inhaltsseiten
-description: Erfahren Sie, wie Sie mit URL-Neuschreibungen für Inhaltsseiten Links zur URL einer anderen Inhaltsseite in Ihrem Commerce-Store umleiten können.
+description: Erfahren Sie, wie Sie mit URL-Neuschreibungen für Inhaltsseiten Links zur URL einer anderen Inhaltsseite in Ihrem Commerce Store umleiten können.
 exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
 feature: Page Content, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
 # URL-Neuschreibungen für Inhaltsseiten
 
-Bevor Sie beginnen, sollten Sie genau wissen, was die Umleitung erreichen soll. Denken Sie an _target_ / _source_ oder _umleiten zu_ / _umleiten von_. Auch wenn Personen von Suchmaschinen oder veralteten Links aus zur ersten Seite navigieren, bewirkt die Umleitung, dass Ihr Store zum neuen Ziel wechselt.
+Bevor Sie beginnen, sollten Sie genau wissen, was die Umleitung erreichen soll. Denken Sie an _target_ / _source_ oder _redirect to_ / _redirect from_. Auch wenn Personen von Suchmaschinen oder veralteten Links aus zur ersten Seite navigieren, bewirkt die Umleitung, dass Ihr Store zum neuen Ziel wechselt.
 
 ![URL-Neuschreibungen - CMS-Seite](./assets/url-rewrite-cms-page.png){width="700" zoomable="yes"}
 
 ## Schritt 1. Neuschreiben planen
 
-Um Fehler zu vermeiden, schreiben Sie den URL-Schlüssel des _umleiten zu_ und _umleiten von_ Seite.
+Um Fehler zu vermeiden, schreiben Sie den URL-Schlüssel der Seite _Umleitung auf_ und der Seite _Umleitung von der Seite_ auf.
 
 Wenn Sie sich nicht sicher sind, öffnen Sie jede Seite in Ihrem Store und kopieren Sie den Pfad aus der Adressleiste Ihres Browsers.
 
@@ -32,49 +32,49 @@ Umleiten von: `old-page`
 
 {{url-rewrite-params}}
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
 
 1. Bevor Sie fortfahren, führen Sie die folgenden Schritte aus, um sicherzustellen, dass der Anfragepfad verfügbar ist.
 
-   - Im Suchfilter oben im **[!UICONTROL Request Path]** eingeben, den URL-Schlüssel der Seite eingeben, die umgeleitet werden soll, und auf **[!UICONTROL Search]**.
+   - Geben Sie im Suchfilter oben in der Spalte **[!UICONTROL Request Path]** den URL-Schlüssel der Seite ein, die umgeleitet werden soll, und klicken Sie auf **[!UICONTROL Search]**.
 
    - Wenn mehrere Umleitungsdatensätze für die Seite vorhanden sind, suchen Sie den, der der entsprechenden Store-Ansicht entspricht, und öffnen Sie ihn im Bearbeitungsmodus.
 
-   - Klicken Sie oben rechts auf **[!UICONTROL Delete]**. Klicken Sie bei Aufforderung auf **[!UICONTROL OK]** zur Bestätigung.
+   - Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Delete]**. Klicken Sie nach Aufforderung zur Bestätigung auf **[!UICONTROL OK]** .
 
 1. Wenn Sie zur Seite &quot;URL-Neuschreibungen&quot;zurückkehren, klicken Sie auf **[!UICONTROL Add URL Rewrite]**.
 
-1. Satz **[!UICONTROL Create URL Rewrite]** nach `for CMS page`.
+1. Setzen Sie **[!UICONTROL Create URL Rewrite]** auf `for CMS page`.
 
 1. Suchen Sie Ihre neue Zielseite im Raster und öffnen Sie sie im Bearbeitungsmodus.
 
-   ![URL-Neuschreiben hinzufügen - für CMS-Seite](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
+   ![URL-Neuschreibungen hinzufügen - für CMS-Seite](./assets/url-rewrite-cms-page-add.png){width="700" zoomable="yes"}
 
 1. Führen Sie unter &quot;URL Rewrite Information&quot;die folgenden Schritte aus:
 
-   - Wenn Sie mehrere Store-Ansichten haben, wählen Sie die **[!UICONTROL Store]** wobei die Neufassung gilt.
+   - Wenn Sie mehrere Store-Ansichten haben, wählen Sie die **[!UICONTROL Store]** aus, für die das Neuschreiben gilt.
 
-   - Für **[!UICONTROL Request Path]** Geben Sie den URL-Schlüssel der Originalseite ein, die der Kunde anfordert. Dies ist die _umleiten von_ Seite.
+   - Geben Sie für &quot;**[!UICONTROL Request Path]**&quot;den URL-Schlüssel der Originalseite ein, die der Kunde anfordert. Dies ist die _Umleitung von der Seite_ .
 
      >[!NOTE]
      >
      >Der Anfragepfad muss für den angegebenen Store eindeutig sein. Wenn bereits eine Weiterleitung vorhanden ist, die denselben Anfragepfad verwendet, erhalten Sie beim Speichern der Weiterleitung einen Fehler. Die vorherige Umleitung muss gelöscht werden, bevor Sie sie erstellen können.
 
-   - Satz **[!UICONTROL Redirect]** auf einen der folgenden Werte zu:
+   - Setzen Sie **[!UICONTROL Redirect]** auf einen der folgenden Werte:
 
       - `Temporary (302)`
       - `Permanent (301)`
 
    - Geben Sie als Referenz eine kurze Beschreibung des Neuschreibens ein.
 
-   ![URL-Umschreibungsinformationen](./assets/url-rewrite-cms-page-information.png){width="600" zoomable="yes"}
+   ![Informationen zum Umschreiben der URL](./assets/url-rewrite-cms-page-information.png){width="600" zoomable="yes"}
 
 1. Bevor Sie die Umleitung speichern, überprüfen Sie Folgendes:
 
    - Der Link oben links zeigt den Namen der Zielseite an.
-   - Der Anfragepfad enthält den Pfad für das Original _umleiten von_ Seite.
+   - Der Anfragepfad enthält den Pfad für die ursprüngliche Umleitung _von der Seite_.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
    Das neue Neuschreiben wird im Raster oben in der Liste angezeigt.
 
@@ -84,8 +84,8 @@ Umleiten von: `old-page`
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   - Navigieren zum Original _umleiten von_ Seite.
-   - Geben Sie in der Adressleiste des Browsers den Namen des Originals ein _umleiten von_ Seite direkt nach der Store-URL und drücken Sie **Eingabe**.
+   - Navigieren Sie von der Seite _zur ursprünglichen_ Umleitung.
+   - Geben Sie in der Adressleiste des Browsers den Namen der ursprünglichen _Umleitung von der_ -Seite direkt nach der Store-URL ein und drücken Sie die **Eingabetaste**.
 
    Die neue Zielseite wird anstelle der ursprünglichen Seitenanforderung angezeigt.
 

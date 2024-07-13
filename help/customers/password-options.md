@@ -16,56 +16,56 @@ Die Optionen für das Kundenkennwort bestimmen die Sicherheitsstufe, die für An
 
 ## Optionen für das Kundenkennwort konfigurieren
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen **[!UICONTROL Customer Configuration]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Customer Configuration]** aus.
 
-1. Erweitern Sie die **[!UICONTROL Password Options]** Abschnitt.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Password Options]** .
 
    ![Kennwortoptionen](../configuration-reference/customers/assets/customer-configuration-password-options.png){width="600" zoomable="yes"}
 
-1. Legen Sie die **[!UICONTROL Password Reset Protection Type]** zu der Methode hinzu, die Sie zum Überprüfen von Anforderungen zum Zurücksetzen des Kennworts verwenden möchten:
+1. Setzen Sie &quot;**[!UICONTROL Password Reset Protection Type]**&quot;auf die Methode, die Sie zur Überprüfung von Kennwortrücksetzanforderungen verwenden möchten:
 
-   - `By IP and Email` - Prüfen Sie, ob Sie zuvor versucht haben, das Kennwort für eine bestimmte E-Mail oder von einer bestimmten IP-Adresse zurückzusetzen.
+   - `By IP and Email` - Überprüfen Sie, ob Sie zuvor versucht haben, das Kennwort für eine bestimmte E-Mail oder von einer bestimmten IP-Adresse zurückzusetzen.
    - `By IP` - Überprüfen Sie, ob Sie zuvor versucht haben, das Kennwort von einer bestimmten IP-Adresse zurückzusetzen.
-   - `By Email` - Prüfen Sie, ob Sie versucht haben, das Kennwort für eine bestimmte E-Mail zurückzusetzen.
+   - `By Email` - Überprüfen Sie, ob Sie zuvor versucht haben, das Kennwort für eine bestimmte E-Mail zurückzusetzen.
    - `None` - Schutz deaktiviert (keine Beschränkungen für das Zurücksetzen des Kennworts).
 
    Die **[!UICONTROL Max Number of Password Reset Requests]** und **[!UICONTROL Min Time Between Password Reset Requests]** werden anhand dieser Konfiguration berechnet.
 
 1. Gehen Sie wie folgt vor, um die Anzahl der pro Stunde gesendeten Anforderungen zum Zurücksetzen des Kennworts zu begrenzen:
 
-   - Für **[!UICONTROL Max Number of Password Reset Requests]** Geben Sie die maximale Anzahl von Anforderungen zum Zurücksetzen des Kennworts ein, die pro Stunde gesendet werden können.
+   - Geben Sie für &quot;**[!UICONTROL Max Number of Password Reset Requests]**&quot;die maximale Anzahl von Anforderungen zum Zurücksetzen des Kennworts ein, die pro Stunde gesendet werden können.
 
-   - Für **[!UICONTROL Min Time Between Password Reset Requests]**, geben Sie die Mindestanzahl von Minuten an, die zwischen den Anforderungen verstreichen muss.
+   - Geben Sie für &quot;**[!UICONTROL Min Time Between Password Reset Requests]**&quot;die Mindestanzahl von Minuten ein, die zwischen Anforderungen verstreichen muss.
 
 1. Gehen Sie wie folgt vor, um die E-Mail-Benachrichtigung zum Zurücksetzen des Kennworts zu konfigurieren:
 
-   - Satz **[!UICONTROL Forgot Email Template]** der Vorlage, die für die E-Mail verwendet wird, die an Kunden gesendet wird, die ihr Passwort vergessen haben.
+   - Setzen Sie **[!UICONTROL Forgot Email Template]** auf die Vorlage, die für die an Kunden gesendete E-Mail verwendet wird, die ihr Passwort vergessen haben.
 
-   - Satz **[!UICONTROL Remind Email Template]** auf die Vorlage zu setzen, die verwendet wird, wenn ein Kundenkennwort von einem Admin-Benutzer zurückgesetzt wird.
+   - Setzen Sie **[!UICONTROL Remind Email Template]** auf die Vorlage, die verwendet wird, wenn ein Kundenkennwort von einem Admin-Benutzer zurückgesetzt wird.
 
-   - Satz **[!UICONTROL Reset Password Template]** der Vorlage, die verwendet wird, wenn Kunden ihr Passwort ändern.
+   - Setzen Sie **[!UICONTROL Reset Password Template]** auf die Vorlage, die verwendet wird, wenn Kunden ihr Passwort ändern.
 
-   - Satz **[!UICONTROL Password Template Email Sender]** der [Store-Kontakt](../getting-started/store-details.md) , der als Absender kennwortbezogener Benachrichtigungen erscheint.
+   - Setzen Sie **[!UICONTROL Password Template Email Sender]** auf den [store contact](../getting-started/store-details.md) , der als Absender kennwortbezogener Benachrichtigungen angezeigt wird.
 
 1. Führen Sie die folgenden Sicherheitsoptionen für das Zurücksetzen des Kennworts aus:
 
-   - Für **[!UICONTROL Recovery Link Expiration Period (hours)]** Geben Sie die Anzahl der Stunden ein, bevor der Passwortwiederherstellungs-Link abläuft.
+   - Geben Sie für &quot;**[!UICONTROL Recovery Link Expiration Period (hours)]**&quot;die Anzahl der Stunden ein, bevor der Link zur Passwortwiederherstellung abläuft.
 
-   - Wenn Sie möchten, dass die Felder in der Kundenanmeldung automatisch ausgefüllt werden und die Passwortformulare von früheren Einträgen vergessen werden, legen Sie **[!UICONTROL Enable Autocomplete on login/forgot password forms]** nach `Yes`.
+   - Wenn Sie möchten, dass die Felder in der Kundenanmeldung automatisch ausgefüllt werden und die Kennwortformulare aus früheren Einträgen nicht ausgefüllt werden, setzen Sie **[!UICONTROL Enable Autocomplete on login/forgot password forms]** auf `Yes`.
 
-   - Für **[!UICONTROL Number of Required Character Classes]** Geben Sie die Anzahl der verschiedenen Zeichentypen ein, die in ein Kennwort einbezogen werden müssen, basierend auf den folgenden Zeichenklassen:
+   - Geben Sie für **[!UICONTROL Number of Required Character Classes]** die Anzahl verschiedener Zeichentypen ein, die basierend auf den folgenden Zeichenklassen in ein Kennwort einbezogen werden müssen:
 
       - `Lowercase`
       - `Uppercase`
       - `Numeric`
       - `Special Characters`
 
-   - Für **[!UICONTROL Maximum Login Failures to Lockout Account]** eingeben, geben Sie die Anzahl fehlgeschlagener Anmeldeversuche ein, bis das Kundenkonto gesperrt ist. Geben Sie für unbegrenzte Versuche null (`0`).
+   - Geben Sie für &quot;**[!UICONTROL Maximum Login Failures to Lockout Account]**&quot;die Anzahl fehlgeschlagener Anmeldeversuche ein, bis das Kundenkonto gesperrt ist. Geben Sie für unbegrenzte Versuche null (`0`) ein.
 
-   - Für **[!UICONTROL Minimum Password Length]** Geben Sie die Mindestanzahl von Zeichen ein, die in einem Kennwort verwendet werden können. Die Zahl muss größer als null sein.
+   - Geben Sie für &quot;**[!UICONTROL Minimum Password Length]**&quot;die Mindestanzahl von Zeichen ein, die in einem Kennwort verwendet werden können. Die Zahl muss größer als null sein.
 
-   - Für **[!UICONTROL Lockout Time (minutes)]** eingeben, geben Sie die Anzahl der Minuten ein, in denen ein Kundenkonto nach zu vielen fehlgeschlagenen Anmeldeversuchen gesperrt wird.
+   - Geben Sie für &quot;**[!UICONTROL Lockout Time (minutes)]**&quot;die Anzahl der Minuten ein, nach denen ein Kundenkonto nach zu vielen fehlgeschlagenen Anmeldeversuchen gesperrt wird.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.

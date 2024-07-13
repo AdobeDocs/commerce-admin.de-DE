@@ -14,27 +14,27 @@ ht-degree: 0%
 
 Sie können so viele Newsletter-Vorlagen erstellen, wie Sie für verschiedene Zwecke benötigen. Sie können eine wöchentliche Produktaktualisierung, einen monatlichen Newsletter oder einen jährlichen Feiertagsnewsletter versenden. Newsletter-Vorlagen können mit HTML Markup oder als Text vorbereitet werden. Im Gegensatz zu HTML enthalten Nur-Text-Newsletter keine Bilder, Rich-Text oder formatierten Links. Im Raster gibt die Spalte Vorlagentyp an, ob es sich bei einer Vorlage um HTML oder Text handelt.
 
-![Newsletter-Vorlagen - zur Newsletter-Warteschlange hinzufügen](./assets/newsletter-templates-grid.png){width="700" zoomable="yes"}
+![Newsletter-Vorlagen - Hinzufügen zur Newsletter-Warteschlange](./assets/newsletter-templates-grid.png){width="700" zoomable="yes"}
 
 ## Erstellen einer Newsletter-Vorlage
 
-1. Navigieren Sie in der Admin-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
+1. Wechseln Sie in der Admin-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
 
 1. Um eine Vorlage hinzuzufügen, klicken Sie auf **[!UICONTROL Add New Template]**.
 
 1. Füllen Sie die Vorlageneinstellungen aus:
 
-   - Für **[!UICONTROL Template Name]**, geben Sie einen Namen für die interne Referenz ein.
+   - Geben Sie für &quot;**[!UICONTROL Template Name]**&quot; den Namen für die interne Referenz ein.
 
-   - Für **[!UICONTROL Template Subject]**, beschreiben Sie den Zweck des Newsletters.
+   - Geben Sie für &quot;**[!UICONTROL Template Subject]**&quot;den Zweck des Newsletters an.
 
-   - Für **[!UICONTROL Sender Name]**, geben Sie den Namen der Person ein, die als Absender des Newsletters erscheinen soll.
+   - Geben Sie für **[!UICONTROL Sender Name]** den Namen der Person ein, die als Absender des Newsletters erscheinen soll.
 
-   - Für **[!UICONTROL Sender Email]**, geben Sie die E-Mail-Adresse des Absenders des Newsletters ein.
+   - Geben Sie für &quot;**[!UICONTROL Sender Email]**&quot; die E-Mail-Adresse des Absenders des Newsletters ein.
 
-   ![Newsletter-Vorlageninformationen](./assets/newsletter-template-information2.png){width="600" zoomable="yes"}
+   ![Informationen zur Newsletter-Vorlage](./assets/newsletter-template-information2.png){width="600" zoomable="yes"}
 
-   - Für **[!UICONTROL Template Content]** klicken **[!UICONTROL Show / Hide Editor]** , um den WYSIWYG-Editor anzuzeigen und den Inhalt nach Bedarf zu aktualisieren.
+   - Klicken Sie für **[!UICONTROL Template Content]** auf **[!UICONTROL Show / Hide Editor]** , um den WYSIWYG-Editor anzuzeigen und den Inhalt nach Bedarf zu aktualisieren.
 
      Weitere Informationen finden Sie unter [Verwenden des Editors](../content-design/editor.md).
 
@@ -42,19 +42,19 @@ Sie können so viele Newsletter-Vorlagen erstellen, wie Sie für verschiedene Zw
      >
      >Entfernen Sie nicht den Abmelde-Link am unteren Rand des Vorlageninhalts. In einigen Rechtsordnungen ist die Verknüpfung gesetzlich vorgeschrieben.
 
-   - Für **[!UICONTROL Template Styles]** Geben Sie die CSS-Deklarationen ein, die zum Formatieren des Inhalts erforderlich sind.
+   - Geben Sie für **[!UICONTROL Template Styles]** die CSS-Deklarationen ein, die zum Formatieren des Inhalts erforderlich sind.
 
-1. Klicks **[!UICONTROL Preview Template]** um zu sehen, wie es aussieht, und nehmen Sie erforderliche Änderungen vor.
+1. Klicken Sie auf **[!UICONTROL Preview Template]** , um zu sehen, wie es aussieht, und nehmen Sie erforderliche Änderungen vor.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Template]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Template]**.
 
-   Nach dem Speichern einer Vorlage **[!UICONTROL Save As]** wird angezeigt, wenn Sie die Vorlage das nächste Mal bearbeiten. Sie kann verwendet werden, um Varianten der Vorlage zu speichern, ohne das Original zu überschreiben.
+   Nachdem Sie eine Vorlage gespeichert haben, wird beim nächsten Bearbeiten der Vorlage **[!UICONTROL Save As]** angezeigt. Sie kann verwendet werden, um Varianten der Vorlage zu speichern, ohne das Original zu überschreiben.
 
 ## Konvertieren der Vorlage in Text
 
-1. Klicken Sie oben auf der Seite auf **[!UICONTROL Convert to Plain Text]** und klicken **[!UICONTROL OK]** angezeigt.
+1. Klicken Sie oben auf der Seite auf **[!UICONTROL Convert to Plain Text]** und klicken Sie auf **[!UICONTROL OK]** , wenn Sie dazu aufgefordert werden.
 
-1. Um eine Vorschau der Textversion der Vorlage anzuzeigen, klicken Sie auf **[!UICONTROL Preview Template]**.
+1. Um die Textversion der Vorlage in der Vorschau anzuzeigen, klicken Sie auf **[!UICONTROL Preview Template]**.
 
    Die Vorschau wird in einer neuen Browser-Registerkarte geöffnet.
 
@@ -64,21 +64,21 @@ Sie können so viele Newsletter-Vorlagen erstellen, wie Sie für verschiedene Zw
 
 1. Klicken Sie oben auf der Seite auf **[!UICONTROL Return HTML Version]**.  
 
-1. Um die HTML-Version der Vorlage in der Vorschau anzuzeigen, klicken Sie auf **[!UICONTROL Preview Template]**.
+1. Um eine Vorschau der HTML-Version der Vorlage anzuzeigen, klicken Sie auf **[!UICONTROL Preview Template]**.
 
    Die Vorschau wird in einer neuen Browser-Registerkarte geöffnet.
 
-1. Klicken Sie zum Speichern der HTML-Version auf **[!UICONTROL Save Template]**.
+1. Um die HTML-Version zu speichern, klicken Sie auf **[!UICONTROL Save Template]**.
 
 ## Löschen einer Newsletter-Vorlage
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Template]**.
 
 1. Suchen Sie die zu löschende Newsletter-Vorlage und öffnen Sie sie im Bearbeitungsmodus.
 
-1. Klicken Sie in der Menüleiste auf die **[!UICONTROL Delete Template]** Schaltfläche.
+1. Klicken Sie in der Menüleiste auf die Schaltfläche **[!UICONTROL Delete Template]** .
 
-1. Klicken Sie zur Bestätigung der Aktion auf **[!UICONTROL OK]**.
+1. Um die Aktion zu bestätigen, klicken Sie auf **[!UICONTROL OK]**.
 
 ## Rasterspalten
 
@@ -91,6 +91,6 @@ Sie können so viele Newsletter-Vorlagen erstellen, wie Sie für verschiedene Zw
 | [!UICONTROL Subject] | Betreff der Newsletter-Vorlage |
 | [!UICONTROL Sender] | Kontaktinformationen für den Absender |
 | [!UICONTROL Template Type] | Der Vorlagentyp: `html` oder `text` |
-| [!UICONTROL Actions] | **[!UICONTROL Preview]**: öffnet ein separates Fenster zur Vorschau der Vorlage. <br>**[!UICONTROL Queue Newsletter]**: Setzt die Newsletter-Vorlage in die Versandwarteschlange. |
+| [!UICONTROL Actions] | **[!UICONTROL Preview]**: Öffnet ein separates Fenster zur Vorschau der Vorlage <br>**[!UICONTROL Queue Newsletter]**: Hiermit wird die Newsletter-Vorlage in die Versandwarteschlange gestellt. |
 
 {style="table-layout:auto"}

@@ -1,33 +1,33 @@
 ---
 title: Layout - Zeile
-description: Erfahren Sie mehr über den Inhaltstyp Zeile , der zum Hinzufügen einer Zeile im [!DNL Page Builder] Bühne.
+description: Erfahren Sie mehr über den Inhaltstyp Zeile , der zum Hinzufügen einer Zeile in der  [!DNL Page Builder] Bühne verwendet wird.
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
 source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
 
 # Layout - Zeile
 
-Verwenden Sie die _Zeile_ Inhaltstyp zum Hinzufügen einer Zeile im [[!DNL Page Builder] Schritt](workspace.md#stage).
+Verwenden Sie den Inhaltstyp _Zeile_ , um eine Zeile zur [[!DNL Page Builder] Bühne](workspace.md#stage) hinzuzufügen.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Zeilen-Toolbox
 
-Die Zeilen-Symbolleiste wird angezeigt, wenn Sie den Mauszeiger über den Zeilencontainer bewegen. Die Toolbox enthält Optionen zum Verschieben, Ausblenden, Duplizieren, Bearbeiten oder Entfernen der Zeile. Die Auswahl der Einstellungen bestimmt das Erscheinungsbild, den Hintergrund und das Layout der Zeile. Zusätzliche Inhaltselemente können aus dem [!DNL Page Builder] auf der linken Seite.
+Die Zeilen-Symbolleiste wird angezeigt, wenn Sie den Mauszeiger über den Zeilencontainer bewegen. Die Toolbox enthält Optionen zum Verschieben, Ausblenden, Duplizieren, Bearbeiten oder Entfernen der Zeile. Die Auswahl der Einstellungen bestimmt das Erscheinungsbild, den Hintergrund und das Layout der Zeile. Zusätzliche Inhaltselemente können aus dem Bereich &quot;[!DNL Page Builder]&quot;auf der linken Seite in die Zeile gezogen werden.
 
 ![Zeilen-Toolbox](./assets/pb-layout-page-add-content-row-tools.png){width="600" zoomable="yes"}
 
 | Tool | Symbol | Beschreibung |
 | --------- | ---------- | ----------- |
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png){width="25"} | Verschiebt die Zeile an eine andere Position im Verhältnis zu anderen Zeilen auf der Bühne. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png){width="25"} | Verschiebt die Zeile an eine andere Position im Verhältnis zu anderen Zeilen auf der Bühne. |
 | (Titel) | [!UICONTROL Row] | Identifiziert den aktuellen Inhaltscontainer als Zeile. Bewegen Sie den Mauszeiger über den Container, um die Toolbox anzuzeigen. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite Zeile bearbeiten , auf der Sie die Eigenschaften des Containers ändern können. |
-| Ausblenden | ![Symbol &quot;Ausblenden&quot;](./assets/pb-icon-hide.png){width="25"} | Blendet die aktuelle Zeile aus. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite Zeile bearbeiten , auf der Sie die Eigenschaften des Containers ändern können. |
+| Ausblenden | ![Symbol zum Ausblenden](./assets/pb-icon-hide.png){width="25"} | Blendet die aktuelle Zeile aus. |
 | Anzeigen | ![Symbol &quot;Anzeigen&quot;](./assets/pb-icon-show.png){width="25"} | Zeigt die ausgeblendete Zeile an. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="25"} | Kopiert die Zeile. |
 | Entfernen | ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="25"} | Löscht den Zeilencontainer und seinen Inhalt aus der Bühne. |
@@ -38,27 +38,27 @@ Die Zeilen-Symbolleiste wird angezeigt, wenn Sie den Mauszeiger über den Zeilen
 
 ## Zeile hinzufügen
 
-1. Im [!DNL Page Builder] Bereich unter _[!UICONTROL Layout]_, ziehen Sie eine neue **[!UICONTROL Row]**auf die Bühne, direkt unterhalb der ersten Zeile.
+1. Ziehen Sie im Bedienfeld [!DNL Page Builder] unter _[!UICONTROL Layout]_eine neue **[!UICONTROL Row]**auf die Bühne, direkt unterhalb der ersten Zeile.
 
-1. Um die Zeile zu formatieren, bewegen Sie den Mauszeiger über den Zeilencontainer, um die Symbolleiste anzuzeigen, und wählen Sie die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Um die Zeile zu formatieren, bewegen Sie den Mauszeiger über den Zeilencontainer, um die Toolbox anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
    In den folgenden Abschnitten finden Sie detaillierte Informationen zum Abschließen der verfügbaren Einstellungen.
 
-   ![Zeile hinzufügen](./assets/pb-layout-row-add.png){width="600" zoomable="yes"}
+   ![Hinzufügen einer Zeile](./assets/pb-layout-row-add.png){width="600" zoomable="yes"}
 
 ## Zeileneinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über den Zeilencontainer, um die Symbolleiste anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den Zeilencontainer, um die Werkzeugleiste anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Zeilen-Toolbox](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
 1. In den folgenden Abschnitten finden Sie detaillierte Informationen zum Aktualisieren der verfügbaren Einstellungen.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ## Erscheinungsbild
 
-Verwenden Sie die _Erscheinungsbild_ -Einstellungen, um festzulegen, wie Inhalte in der Zeile angezeigt werden.
+Verwenden Sie die Einstellungen für _Erscheinungsbild_ , um festzulegen, wie Inhalte in der Zeile angezeigt werden.
 
 ![Erscheinungsbildeinstellungen](./assets/pb-row-layout.png){width="600" zoomable="yes"}
 
@@ -68,15 +68,15 @@ Verwenden Sie die _Erscheinungsbild_ -Einstellungen, um festzulegen, wie Inhalte
   | ------ | ----------- |
   | [!UICONTROL Contained] | Die Hintergrundfarbe oder das Bild ist auf die maximale Seitenbreite beschränkt, die vom Design definiert wird. |
   | [!UICONTROL Full Width] | Beschränkt den Inhalt auf die maximale Seitenbreite, die vom Design definiert wird. Die Hintergrundfarbe und/oder das Bild sind nicht beschränkt und erweitern die gesamte Breite der Zeile. |
-  | [!UICONTROL Full Bleed] | Der Inhalt und das Hintergrundbild und/oder die Farbe sind nicht beschränkt und erweitern die gesamte Breite der Zeile. Vollständiger Anschnitt kann nur mit [themes](../content-design/themes.md) die das Layout unterstützen. |
+  | [!UICONTROL Full Bleed] | Der Inhalt und das Hintergrundbild und/oder die Farbe sind nicht beschränkt und erweitern die gesamte Breite der Zeile. Der vollständige Anschnitt kann nur mit [Designs](../content-design/themes.md) verwendet werden, die das Layout unterstützen. |
 
   {style="table-layout:auto"}
 
-- Geben Sie die **[!UICONTROL Minimum Height]** für die Zeile. Dieser Wert kann eine Zahl mit einer beliebigen gültigen CSS-Einheit sein (z. B. `100px`, `50%`, `50em`, `100vh`) oder einer Berechnung (z. B. `100vh - 237px`).
+- Geben Sie die **[!UICONTROL Minimum Height]** für die Zeile ein. Dieser Wert kann eine Zahl mit einer beliebigen gültigen CSS-Einheit (z. B. `100px`, `50%`, `50em`, `100vh`) oder eine Berechnung (z. B. `100vh - 237px`) sein.
 
   Sie können beispielsweise die Mindesthöhe einer Zeile so festlegen, dass die gesamte Höhe der Seite gestreckt wird, sodass Sie überzeugende Optionen für Hintergrundbilder und Videos mit vollständigem Seitenumbruch erhalten.
 
-- Wählen Sie eine **[!UICONTROL Vertical Alignment]** Einstellung, um alle Inhaltscontainer auszurichten, die der Zeile hinzugefügt werden (oben, zentriert oder unten).
+- Wählen Sie die Einstellung &quot;**[!UICONTROL Vertical Alignment]**&quot;, um alle Inhaltscontainer auszurichten, die der Zeile hinzugefügt werden (oben, zentriert oder unten).
 
 ## Hintergrund
 
@@ -91,30 +91,30 @@ Geben Sie die Hintergrundfarbe an, indem Sie ein Muster auswählen, auf die Farb
 Sie können den Wert auf eine von drei Arten festlegen:
 
 - Ein vordefinierter Farbname, z. B. `White`
-- Der hexadezimale Farbwert für die Farbe, beispielsweise `#ffffff`
-- Der rgba-Wert für die Farbe mit Deckkraft in Prozent, z. B. `rgba(255, 255, 255, 0.75)`
+- Der hexadezimale Farbwert für die Farbe, z. B. `#ffffff`
+- Der rgba-Wert für die Farbe mit Deckkraft-Prozent, z. B. `rgba(255, 255, 255, 0.75)`
 
-Wenn Sie eine Farbe auswählen möchten, klicken Sie auf das Farbfeld links neben _Keine Farbe_ ankreuzen.
+Wenn Sie eine Farbe auswählen möchten, klicken Sie auf das Muster links neben dem Feld _Keine Farbe_.
 
-![Farbmuster auswählen](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
+![Auswählen eines Farbmusters](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 Wenn Sie auf das Farbfeld klicken, um die Farbauswahl erneut zu öffnen, zeigt das Feld unter dem Schieberegler die aktuellen Rot-, Grün-, Blau- und Alpha-Werte (rgba) an. Die letzte Zahl gibt den aktuellen Deckkraftprozentsatz als Dezimalzahl an. Sie können den Schieberegler verwenden, um die Deckkraft anzupassen, oder den gewünschten Dezimalwert eingeben.
 
-![Deckkraft festlegen](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+![Einstellen der Deckkraft](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->[!DNL Page Builder] auch eine Transparenzschicht unterstützt oder _Alphakanal_, in Hintergrundbildern, die verwendet werden können, um Hintergründe mit unterschiedlicher Deckkraft zu erstellen.
+>[!DNL Page Builder] unterstützt auch eine Transparenzschicht (oder den _Alphakanal_) in Hintergrundbildern, mit der Hintergründe mit unterschiedlicher Deckkraft erstellt werden können.
 
 ### [!UICONTROL Background Type]
 
-Ein Hintergrundtyp kann ein Bild oder ein Video sein. [!DNL Page Builder] standardmäßig auf `Image` und zeigt verschiedene Bildeinstellungen an. Wenn Sie `Video`, [!DNL Page Builder] Tauscht die Bildeinstellungen mit Videoeinstellungen aus. Beide Hintergrundtypen werden wie folgt beschrieben.
+Ein Hintergrundtyp kann ein Bild oder ein Video sein. [!DNL Page Builder] ist standardmäßig auf `Image` eingestellt und zeigt verschiedene Bildeinstellungen an. Wenn Sie `Video` auswählen, tauscht [!DNL Page Builder] die Bildeinstellungen mit Videoeinstellungen. Beide Hintergrundtypen werden wie folgt beschrieben.
 
 ![Hintergrundtyp](./assets/pb-background-type.png){width="200"}
 
 ### Bildtypeinstellungen
 
-Wenn Sie die _[!UICONTROL Background Type]_nach `Image`verwenden Sie die folgenden Einstellungen, um die Anzeige des Hintergrundbilds zu definieren.
+Wenn Sie die _[!UICONTROL Background Type]_auf `Image` setzen, verwenden Sie die folgenden Einstellungen, um die Anzeige des Hintergrundbilds zu definieren.
 
 ![Hintergrundbild](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -130,7 +130,7 @@ Wenn Sie die _[!UICONTROL Background Type]_nach `Image`verwenden Sie die folgend
 
 - **[!UICONTROL Background Mobile Image]** - Verwenden Sie bei Bedarf dieselben Tools, um ein anderes Hintergrundbild für die Anzeige auf Mobilgeräten auszuwählen.
 
-- **[!UICONTROL Background Size]** - Legen Sie diese Option fest, um festzulegen, wie das Hintergrundbild im Verhältnis zur Breite der Zeile skaliert wird:
+- **[!UICONTROL Background Size]** - Legen Sie diese Option fest, um zu bestimmen, wie das Hintergrundbild im Verhältnis zur Breite der Zeile skaliert wird:
 
   | Option | Beschreibung |
   | ------ | ----------- |
@@ -163,42 +163,42 @@ Wenn Sie die _[!UICONTROL Background Type]_nach `Image`verwenden Sie die folgend
 
   {style="table-layout:auto"}
 
-- **[!UICONTROL Background Repeat]** - Legen Sie `Yes` um das Hintergrundbild zu wiederholen, um den verfügbaren Platz in der Zeile auszufüllen.
+- **[!UICONTROL Background Repeat]** - Auf `Yes` setzen, um das Hintergrundbild zu wiederholen und den verfügbaren Platz in der Zeile auszufüllen.
 
 ### Videotypeinstellungen
 
-Wenn Sie die _Hintergrundtyp_ nach `Video`verwenden Sie die folgenden Einstellungen, um die Anzeige des Hintergrundbilds zu definieren.
+Wenn Sie den _Hintergrundtyp_ auf `Video` festlegen, verwenden Sie die folgenden Einstellungen, um die Anzeige des Hintergrundbilds zu definieren.
 
 - **[!UICONTROL Video URL]** - Geben Sie eine gültige Video-URL ein. Gültige Video-URLs können Links zu folgenden Elementen sein:
 
    - YouTube-Videos: `https://youtu.be/CoDhMRUUjeI`
-   - Videos: `https://vimeo.com/190156113`
+   - Video-Videos: `https://vimeo.com/190156113`
    - Gültige Videodateien (`.mp4` wird empfohlen): `https://myvideos.com/spiral.mp4`
 
-  ![Video-URL im Hintergrund](./assets/pb-video-url.png){width="300"}
+  ![ Video-URL im Hintergrund](./assets/pb-video-url.png){width="300"}
 
-- **[!UICONTROL Overlay Color]** - Wählen Sie eine Farbe aus, um einen transparenten Farbton auf das Video anzuwenden.
+- **[!UICONTROL Overlay Color]** - Wählen Sie eine Farbe, um einen transparenten Farbton auf das Video anzuwenden.
 
-- **[!UICONTROL Infinite Loop]** - Legen Sie `No` , damit das Video einmal wiedergegeben und gestoppt wird. Wenn diese Option auf `Yes` (Standard) wiederholt sich das Video in einer Endlosschleife.
+- **[!UICONTROL Infinite Loop]** - Auf `No` setzen, damit das Video einmal wiedergegeben und gestoppt wird. Wenn diese Option auf &quot;`Yes`&quot;(Standard) gesetzt ist, wiederholt sich das Video in einer Endlosschleife.
 
-- **[!UICONTROL Lazy Load]** - Legen Sie `No` , damit das Video mit der Seite geladen wird, selbst wenn es nicht sichtbar ist. Wenn diese Option auf `Yes` (Standard) wird das Video nur aus der Quelle geladen, wenn es auf dem Bildschirm sichtbar ist.
+- **[!UICONTROL Lazy Load]** - Auf `No` setzen, um das Video mit der Seite zu laden, selbst wenn es nicht sichtbar ist. Wenn diese Option auf &quot;`Yes`&quot;(Standard) gesetzt ist, wird das Video nur aus der Quelle geladen, wenn es auf dem Bildschirm sichtbar ist.
 
-- **[!UICONTROL Play Only When Visible]** - Legen Sie `No` , damit das Video sofort nach dem Laden wiedergegeben wird, unabhängig davon, ob es sichtbar ist. Wenn diese Option auf `Yes` (Standard) beginnt die Videowiedergabe nur, wenn sie sichtbar ist.
+- **[!UICONTROL Play Only When Visible]** - Auf `No` setzen, damit das Video sofort nach dem Laden wiedergegeben wird, unabhängig davon, ob es sichtbar ist. Wenn diese Option auf &quot;`Yes`&quot;(Standard) gesetzt ist, beginnt die Wiedergabe des Videos nur, wenn es sichtbar ist.
 
-- **[!UICONTROL Fallback Image]** - Geben Sie bei Bedarf ein Bild an, das vor dem Laden des Videos auf dem Bildschirm angezeigt werden soll und wenn das Video aus irgendeinem Grund nicht geladen wird.
+- **[!UICONTROL Fallback Image]** - Geben Sie bei Bedarf ein Bild an, das auf dem Bildschirm angezeigt werden soll, bevor das Video geladen wird, und wenn das Video aus irgendeinem Grund nicht geladen wird.
 
 ## Parallax-Hintergrund
 
 Mit diesen Optionen können Sie die Geschwindigkeit eines Bildlaufhintergrundbilds oder -videos im Verhältnis zum Bildlauf der Seite steuern. Der Hintergrund kann so eingestellt werden, dass er langsamer scrollt, um ein Gefühl der Eintauchen zu schaffen.
 
-- Satz **Parallax-Hintergrund aktivieren** nach `Yes`.
-- Geben Sie die **Parallax-Geschwindigkeit** als Dezimalwert zwischen `-1.0` und `2.0`.
+- Setzen Sie **Parallax-Hintergrund aktivieren** auf `Yes`.
+- Geben Sie die **Parallax-Geschwindigkeit** als Dezimalwert zwischen `-1.0` und `2.0` ein.
 
 ![Parallax-Hintergrundeinstellungen](./assets/pb-settings-parallax-background.png){width="600" zoomable="yes"}
 
 ## Erweitert
 
-- Um die horizontale Positionierung der Inhaltscontainer zu steuern, die der Zeile hinzugefügt werden, wählen Sie eine **[!UICONTROL Alignment]**:
+- Um die horizontale Positionierung der Inhaltscontainer zu steuern, die der Zeile hinzugefügt werden, wählen Sie einen **[!UICONTROL Alignment]**:
 
   | Option | Beschreibung |
   | ------ | ----------- |
@@ -209,7 +209,7 @@ Mit diesen Optionen können Sie die Geschwindigkeit eines Bildlaufhintergrundbil
 
   {style="table-layout:auto"}
 
-- Legen Sie die **[!UICONTROL Border]** -Stil, der auf alle vier Seiten des Zeilencontainers angewendet wird:
+- Legen Sie den **[!UICONTROL Border]** -Stil fest, der auf alle vier Seiten des Zeilenbehälters angewendet wird:
 
   | Option | Beschreibung |
   | ------ | ----------- |
@@ -226,7 +226,7 @@ Mit diesen Optionen können Sie die Geschwindigkeit eines Bildlaufhintergrundbil
 
   {style="table-layout:auto"}
 
-- Wenn Sie einen anderen Rahmenstil als `None`, füllen Sie die Randanzeigeoptionen aus:
+- Wenn Sie einen anderen Rahmenstil als `None` festlegen, füllen Sie die Anzeigeoptionen für die Rahmenanzeige aus:
 
   ![Rahmenfarbe](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
@@ -240,13 +240,13 @@ Mit diesen Optionen können Sie die Geschwindigkeit eines Bildlaufhintergrundbil
 
   Die Zeile im folgenden Beispiel hat einen Rahmenradius von 15.
 
-  ![Zeile mit Rahmenradius 15](./assets/pb-settings-border-radius-15.png){width="500"}
+  ![Zeile mit Rahmenradius von 15](./assets/pb-settings-border-radius-15.png){width="500"}
 
-- (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet, das auf den Zeilencontainer angewendet werden soll.
+- (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet an, das auf den Zeilencontainer angewendet werden soll.
 
   Trennen Sie mehrere Klassennamen durch ein Leerzeichen.
 
-- Geben Sie Werte in Pixel für die **[!UICONTROL Margins and Padding]** um die äußeren Ränder und den inneren Abstand der Zeile anzugeben.
+- Geben Sie Werte in Pixel an, damit der Wert **[!UICONTROL Margins and Padding]** die äußeren Ränder und den inneren Abstand der Zeile angibt.
 
   Geben Sie jeden entsprechenden Wert in das Zeilenbehälterdiagramm ein.
 

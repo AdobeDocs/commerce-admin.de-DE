@@ -5,7 +5,7 @@ exl-id: 05fb3769-6f99-45c0-81d6-3ccdd50dc047
 feature: Support
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ Adobe bietet eine Fülle von geschäftlichen und technischen Ressourcen, Selbsth
 
 | Ökosystemressource | Beschreibung |
 | ------------------ | ----------- |
-| [Produktdokumentation][1] | Merchandiser, Designer und Entwickler können die Dokumentation verwenden, um einen tieferen Einblick in die Möglichkeiten zu erhalten, mit denen sie die Leistung von [!DNL Commerce] um ihr Geschäft auszubauen. |
-| [Commerce-Ressourcen-Bibliothek][3] | Greifen Sie auf E-Books, Commerce-Whitepapers und Webinare zu, um sich einen Einblick in Expertenwissen und Online-Geschäftsressourcen zu verschaffen, die Sie bei der Entwicklung und Verbesserung Ihres Geschäfts unterstützen. |
-| [Adobe Product Security Incident Response][4] | Treten Sie der Sicherheitswarnungsregistrierung bei, um aktuelle Informationen über potenzielle Sicherheitslücken zu erhalten und [Best Practices für die Sicherheit][5]. |
+| [Produktdokumentation][1] | Händler, Designer und Entwickler können die Dokumentation verwenden, um einen tieferen Einblick in die Möglichkeiten zu erhalten, die ihnen durch die Anwendung von [!DNL Commerce] geboten werden, um ihr Geschäft auszubauen. |
+| [Commerce-Ressourcenbibliothek][3] | Greifen Sie auf Ebooks, Commerce-Whitepapers und Webinare zu, um sich einen Einblick in Expertenwissen und Online-Geschäftsressourcen zu verschaffen, die Sie bei der Entwicklung und Verbesserung Ihres Geschäfts unterstützen. |
+| [Adobe Product Security Incident Response][4] | Treten Sie der Sicherheitswarnungsregistrierung bei, um aktuelle Informationen über potenzielle Sicherheitslücken und die [Best Practices für die Sicherheit][5] zu erhalten. |
 | [Community-Foren][6] | Die Foren bieten Zugriff auf ein Netzwerk von engagierten Adobe Commerce- und Magento Open Source-Enthusiasten, die Tipps, Tricks und Support teilen. |
 | [Blog][7] | In diesem Blog finden Sie aktuelle Informationen über neue Funktionen, Trends, Best Practices, bevorstehende Ereignisse und mehr. |
-| [Veranstaltungen und Webinare][8] | Listen Sie den Kalender bevorstehender Veranstaltungen und Webinare auf. Es passiert immer etwas im [!DNL Commerce] Ökosystem. |
-| [[!DNL Commerce Marketplace]][9] | Besuchen Sie die [!DNL Commerce] Marketplace der nächsten Generation für digitale Commerce-Lösungen. [!DNL Commerce Marketplace] bietet Händlern eine kuratierte Auswahl an Lösungen und bietet qualifizierten Entwicklern die Werkzeuge, die Plattform und den besten Standort für ein florierendes Unternehmen. |
-| [Schulung und Zertifizierung][10] | Erfahren Sie, wie Sie die Leistungsfähigkeit und Flexibilität von Adobe Commerce und Magento Open Source entfesseln können. Schulungen werden für jede Rolle in Ihrem Unternehmen bereitgestellt, einschließlich Marketing-Experten, Designern, Entwicklern und mehr. Erfahren [!DNL Commerce] Profis können ihre realen Fähigkeiten durch einen Gewinn von [!DNL Commerce] Zertifizierung. |
+| [Ereignisse und Webinare][8] | Listen Sie den Kalender bevorstehender Veranstaltungen und Webinare auf. Im 0-Ökosystem geschieht immer etwas.[!DNL Commerce] |
+| [[!DNL Commerce Marketplace]][9] | Besuchen Sie den Marktplatz der nächsten Generation für Digital Commerce-Lösungen. [!DNL Commerce] [!DNL Commerce Marketplace] bietet Händlern eine kuratierte Auswahl an Lösungen und stellt qualifizierten Entwicklern die Tools, die Plattform und den besten Standort für ein florierendes Unternehmen zur Verfügung. |
+| [Schulung und Zertifizierung][10] | Erfahren Sie, wie Sie die Leistungsfähigkeit und Flexibilität von Adobe Commerce und Magento Open Source entfesseln können. Schulungen werden für jede Rolle in Ihrem Unternehmen bereitgestellt, einschließlich Marketing-Experten, Designern, Entwicklern und mehr. Erfahrene [!DNL Commerce] Profis können ihre realen Fähigkeiten durch eine [!DNL Commerce] Zertifizierung überprüfen. |
 | [Partner][12] | Adobe-Partner engagieren sich für Ihren Erfolg und bieten benutzerdefinierte Integrationen, erstklassige Kundenerlebnisse, strategische Marketinginitiativen sowie eine sachkundige Leistungs- und Skalierbarkeitsoptimierung für On-Premise- und Cloud-basierte Lösungen. |
 | [Adobe Commerce Managed Services][13] | Das Adobe Commerce Managed Services-Team hilft Händlern und Lösungspartnern bei der Optimierung ihres Erfolgs. Diese Experten bieten umfassende Analysen und Empfehlungen zu Best Practices, von der Architekturplanung bis hin zur Post-Implementierung. |
 

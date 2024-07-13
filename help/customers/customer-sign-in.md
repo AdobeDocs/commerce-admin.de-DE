@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Kundenanmeldung
 
-Kunden haben von jeder Seite in Ihrem Geschäft aus einfachen Zugriff auf ihre Konten. Je nach [Konfiguration](../customers/account-options-new.md)können Kunden zu ihrem Konto-Dashboard weitergeleitet werden oder nach der Anmeldung bei ihren Konten mit dem Einkauf fortfahren.
+Kunden haben von jeder Seite in Ihrem Geschäft aus einfachen Zugriff auf ihre Konten. Abhängig von der [Konfiguration](../customers/account-options-new.md) können Kunden zu ihrem Konto-Dashboard weitergeleitet werden oder nach der Anmeldung bei ihren Konten mit dem Einkaufen fortfahren.
 
-Wenn [CAPTCHA](../systems/security-captcha.md) in der Konfiguration aktiviert ist, muss die Person einen Test, der überprüft, ob sie menschlich ist, ordnungsgemäß durchführen, bevor sie Zugriff auf ihre Konten erhält.
+Wenn [CAPTCHA](../systems/security-captcha.md) in der Konfiguration aktiviert ist, muss die Person einen Test ordnungsgemäß durchführen, um sicherzustellen, dass sie menschlich ist, bevor sie Zugriff auf ihre Konten erhält.
 
-Wenn Kunden ihr Passwort vergessen, wird ein Link zum Zurücksetzen an die E-Mail-Adresse gesendet, die dem Konto zugeordnet ist. Die [Kennwortoptionen](../customers/password-options.md) -Konfiguration steuert das Kundenerlebnis bei Anmeldeversuchen:
+Wenn Kunden ihr Passwort vergessen, wird ein Link zum Zurücksetzen an die E-Mail-Adresse gesendet, die dem Konto zugeordnet ist. Die Konfiguration [Kennwortoptionen](../customers/password-options.md) steuert das Kundenerlebnis bei Anmeldeversuchen:
 
 - Die Häufigkeit, mit der ein Kunde versuchen kann, ein Kennwort einzugeben
 - Die Anzahl von Minuten zwischen Versuchen
@@ -31,57 +31,57 @@ Wenn Kunden ihr Passwort vergessen, wird ein Link zum Zurücksetzen an die E-Mai
 
    ![Kundenanmeldung](assets/login.png){width="700" zoomable="yes"}
 
-1. Endet ihre **[!UICONTROL Email]** Adresse und **[!UICONTROL Password]**.
+1. Fügt ihre **[!UICONTROL Email]** -Adresse und ihre **[!UICONTROL Password]** ein.
 
 1. Klicks **[!UICONTROL Sign in]**.
 
    >[!IMPORTANT]
    >
-   >Wenn der Kunde sein Kennwort nicht speichern kann, kann er auf **[!UICONTROL Forgot Your Password?]** und folgen Sie dem [instructions](../customers/password-reset.md) , um das Kennwort zurückzusetzen.
+   >Wenn er sich sein Kennwort nicht merken kann, kann der Kunde auf **[!UICONTROL Forgot Your Password?]** klicken und den [Anweisungen](../customers/password-reset.md) folgen, um das Kennwort zurückzusetzen.
 
 ## Stellen Sie die Umleitung auf das Konto-Dashboard ein, nachdem Sie sich beim Kunden angemeldet haben
 
 Sie können den Store so konfigurieren, dass Kunden nach der Anmeldung zum Konto-Dashboard weitergeleitet werden oder dass sie weiterhin einkaufen können.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen **[!UICONTROL Customer Configuration]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Customer Configuration]** aus.
 
-1. Erweitern Sie die **[!UICONTROL Login Options]** Abschnitt.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Login Options]** .
 
-1. Satz **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Redirect Customer to Account Dashboard after Logging in]** auf einen der folgenden Werte:
 
    - `Yes` - Das Konto-Dashboard wird angezeigt, wenn sich Kunden bei ihren Konten anmelden.
-   - `No` - Kunden können nach der Anmeldung bei ihren Konten weiterhin einkaufen.
+   - `No` - Kunden können nach dem Anmelden bei ihren Konten weiterhin einkaufen.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ## Mit Amazon anmelden
 
-Für Stores mit konfigurierten [!DNL Amazon Pay] und [!DNL Login with Amazon] -Integration, können sich Kunden bei ihrem Amazon-Käuferkonto anmelden.
+Bei Stores mit konfigurierter Integration von [!DNL Amazon Pay] und [!DNL Login with Amazon] können sich Kunden bei ihrem Amazon-Käuferkonto anmelden.
 
 1. In der Kopfzeile des Stores klickt der Kunde auf **[!UICONTROL Sign in]**.
 
 1. Klicks **[!UICONTROL Login with Amazon]**.
 
-   ![Mit Amazon anmelden](assets/amazon-pay.png){width="700" zoomable="yes"}
+   ![Anmeldung bei Amazon](assets/amazon-pay.png){width="700" zoomable="yes"}
 
-1. Wenn der Kunde aufgefordert wird, sich anzumelden, gibt er die **[!UICONTROL email address]** und **[!UICONTROL password]** für ihr Amazon-Käuferkonto.
+1. Wenn der Kunde dazu aufgefordert wird, sich anzumelden, gibt er für sein Amazon-Käuferkonto den Wert **[!UICONTROL email address]** und den Wert **[!UICONTROL password]** ein.
 
    ![Amazon-Anmeldedaten eingeben](assets/amazon-popup1.png){width="700" zoomable="yes"}
 
-1. Um Amazon die Berechtigung zu erteilen, die folgenden Informationen aus ihrem Konto für den Store freizugeben, wenn Käufe verarbeitet werden, klicken Sie auf **Okay**.
+1. Um Amazon die Berechtigung zu erteilen, die folgenden Informationen aus ihrem Konto beim Verarbeiten von Käufen für den Store freizugeben, klicken Sie auf **OK**.
 
    - Name
    - Email-Adresse
    - Versandadressen
 
-   ![Berechtigung zum Freigeben von Daten gewähren](assets/amazon-popup2.png){width="700" zoomable="yes"}
+   ![Erteilen der Berechtigung zum Freigeben von Daten](assets/amazon-popup2.png){width="700" zoomable="yes"}
 
 ## Abmelden von einem Kundenkonto
 
-1. In der oberen rechten Ecke neben  _[!UICONTROL Welcome, Customer Name!]_, klickt der Kunde auf die **[!UICONTROL v]**Menüauswahl.
+1. In der oberen rechten Ecke neben _[!UICONTROL Welcome, Customer Name!]_klickt der Kunde auf die Menüauswahl **[!UICONTROL v]**.
 
-1. Auswählen **[!UICONTROL Sign Out]**.
+1. Wählen Sie **[!UICONTROL Sign Out]** aus.
 
 Nach dem Abmelden wird der Kunde auf die Startseite umgeleitet.

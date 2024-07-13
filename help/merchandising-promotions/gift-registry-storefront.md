@@ -14,9 +14,9 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Die [Geschenkregistrierung](gift-registries.md) im Abschnitt des Kundenkontos werden die aktuellen Geschenkregistrierung und das zugehörige Ereignis aufgelistet. Kunden können die aktuellen Registrierungen verwalten und neue hinzufügen.
+Im Abschnitt [Geschenkregistrierung](gift-registries.md) des Kundenkontos werden die aktuellen Geschenkregistrieren des Kunden und das zugehörige Ereignis aufgelistet. Kunden können die aktuellen Registrierungen verwalten und neue hinzufügen.
 
-![Geschenkregistrierung](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
+![Gift Registry](./assets/account-dashboard-gift-registry.png){width="700" zoomable="yes"}
 
 ## Gift-Registrierungsinformationen
 
@@ -40,11 +40,11 @@ Kunden können Geschenkgutschriften über ihre Konten erstellen und verwalten. A
 
 ## Erstellen einer Geschenkregistrierung
 
-1. Der Kunde wählt **[!UICONTROL Gift Registry]** in ihrem Konto-Dashboard.
+1. Der Kunde wählt im Konto-Dashboard **[!UICONTROL Gift Registry]** aus.
 
-1. Im _Geschenkregistrierung_ Seite, Klicks **[!UICONTROL Add New]**.
+1. Klicken Sie auf der Seite _Gift Registry_ auf **[!UICONTROL Add New]**.
 
-1. Wählt eine **[!UICONTROL Gift Registry Type]**, z. B.:
+1. Wählt einen **[!UICONTROL Gift Registry Type]** aus, z. B.:
 
    - Geburtstag
 
@@ -70,40 +70,40 @@ Kunden können Geschenkgutschriften über ihre Konten erstellen und verwalten. A
 
 ## Freigeben einer Geschenkregistrierung
 
-1. Über das Konto-Dashboard ruft der Kunde **[!UICONTROL Gift Registry]**.
+1. Der Kunde wechselt vom Konto-Dashboard zu **[!UICONTROL Gift Registry]**.
 
 1. Findet das Registrierungsereignis, das sie verwalten möchten, und klickt auf **[!UICONTROL Share]**.
 
-1. Fügt die erforderlichen Informationen und Klicks ein **[!UICONTROL Share Gift Registry]**.
+1. Fügt die erforderlichen Informationen ein und klickt auf **[!UICONTROL Share Gift Registry]**.
 
 ## Geschenkregistrierung bearbeiten
 
-1. Über das Konto-Dashboard ruft der Kunde **[!UICONTROL Gift Registry]**.
+1. Der Kunde wechselt vom Konto-Dashboard zu **[!UICONTROL Gift Registry]**.
 
 1. Findet das Registrierungsereignis, das sie verwalten möchten, und klickt auf **[!UICONTROL Edit]**.
 
 1. Ändert nach Bedarf alle Optionen.
 
-1. Die erforderlichen Optionen und Klicks bearbeiten **[!UICONTROL Save]**.
+1. Bearbeiten Sie die erforderlichen Optionen und klicken Sie auf **[!UICONTROL Save]**.
 
 ## Verwalten von Geschenkgutregistereinträgen
 
-1. Über das Konto-Dashboard ruft der Kunde **[!UICONTROL Gift Registry]**.
+1. Der Kunde wechselt vom Konto-Dashboard zu **[!UICONTROL Gift Registry]**.
 
-   ![Verwalten von Geschenkregisterelementen](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
+   ![Verwalten von Geschenk-Registrierungselementen](./assets/account-dashboard-gift-registry-items-management.png){width="700" zoomable="yes"}
 
 1. Findet das Registrierungsereignis, wählt die Elemente aus, die sie verwalten möchten, und klickt auf **[!DNL Manage Items]**.
 
-1. Ändert die erforderlichen Optionen, z. B. **[!UICONTROL Note]** und **[!UICONTROL Qty]**.
+1. Ändert die erforderlichen Optionen wie **[!UICONTROL Note]** und **[!UICONTROL Qty]**.
 
-1. Entfernt bei Bedarf ein Element aus der Geschenkregistrierung, indem Sie das Kontrollkästchen aktivieren und auf **[!UICONTROL Delete]**.
+1. Entfernt bei Bedarf ein Element aus der Geschenkregistrierung, indem Sie das Kontrollkästchen aktivieren und auf **[!UICONTROL Delete]** klicken.
 
-1. Klicks **[!UICONTROL Update Gift Registry]** , um die Änderungen zu speichern.
+1. Klicken Sie auf **[!UICONTROL Update Gift Registry]** , um die Änderungen zu speichern.
 
 ## Löschen einer Geschenkregistrierung
 
-1. Über das Konto-Dashboard ruft der Kunde **[!UICONTROL Gift Registry]**.
+1. Der Kunde wechselt vom Konto-Dashboard zu **[!UICONTROL Gift Registry]**.
 
 1. Findet das Registrierungsereignis, das sie verwalten möchten, und klickt auf **[!UICONTROL Delete]**.
 
-1. Klicks **[!UICONTROL OK]** zur Bestätigung.
+1. Klicken Sie zur Bestätigung auf **[!UICONTROL OK]** .

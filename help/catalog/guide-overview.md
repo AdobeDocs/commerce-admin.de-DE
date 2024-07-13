@@ -13,14 +13,14 @@ ht-degree: 0%
 
 # Anleitung zur Katalogverwaltung in Adobe Commerce
 
-Dieses Handbuch richtet sich an Produkt-Merchandiser und Inventarmanager, die in Adobe Commerce und Magento Open Source arbeiten. Es enthält detaillierte Informationen zu Produktkatalog-Funktionen, einschließlich der Erstellung der Navigationsstrukturen für einen Katalog. Es wird von einem grundlegenden Verständnis des Kerns ausgegangen. [!DNL Commerce] Konfiguration und Funktionalität.
+Dieses Handbuch richtet sich an Produkt-Merchandiser und Inventarmanager, die in Adobe Commerce und Magento Open Source arbeiten. Es enthält detaillierte Informationen zu Produktkatalog-Funktionen, einschließlich der Erstellung der Navigationsstrukturen für einen Katalog. Es wird von einem grundlegenden Verständnis der Core-Konfiguration und -Funktionalität von [!DNL Commerce] ausgegangen.
 
 Dieses Handbuch behandelt:
 
 | Betreff | Beschreibung |
 | ------- | ----------- |
 | [Einführung](introduction.md) | Überblick über die Verwendung der Katalogverwaltungsfunktionen, die zeigen, wie Kunden Produkte in Ihrem Geschäft finden sollen. |
-| [Katalogmenü](catalog-menu.md) | Verwenden Sie die [!UICONTROL Catalog] , um auf mehrere Funktionen zur Verwaltung von Katalogen, Kategorien und Produkten für Ihren Store zuzugreifen. |
+| [Katalogmenü](catalog-menu.md) | Verwenden Sie das Menü [!UICONTROL Catalog] , um auf mehrere Funktionen für die Verwaltung von Katalogen, Kategorien und Produkten für Ihren Store zuzugreifen. |
 | [Katalog- und Produkt-URLs](catalog-urls.md) | Überprüfen Sie die grundlegenden URL-Typen und wie Sie Ihre URLs entwerfen können, um die Suchmaschinenoptimierung zu maximieren. |
 | [Katalognavigation](navigation.md) | Verwenden Sie die Navigationstools, um festzulegen, wie Ihre Käufer im gesamten Store von Seite zu Seite wechseln. |
 | [Katalogsuche](search.md) | Überprüfen Sie die Tools, die Kunden verwenden können, um Produkte in der Storefront zu finden, und konfigurieren Sie das Sucherlebnis entsprechend Ihrem Produktkatalog. |
@@ -32,7 +32,7 @@ Dieses Handbuch behandelt:
 
 >[!TIP]
 >
->Adobe Commerce B2B bietet Ihnen die Möglichkeit, geordnete freigegebene Kataloge mit benutzerdefinierten Preisen für verschiedene Unternehmen zu verwalten. Zusätzlich zum standardmäßigen, primären Produktkatalog bietet es Kunden Zugriff auf zwei Arten freigegebener Kataloge mit unterschiedlichen Preisstrukturen. Weitere Informationen zur Funktion des freigegebenen Katalogs finden Sie unter [Adobe Commerce B2B-Benutzerhandbuch](../b2b/catalog-shared.md).
+>Adobe Commerce B2B bietet Ihnen die Möglichkeit, geordnete freigegebene Kataloge mit benutzerdefinierten Preisen für verschiedene Unternehmen zu verwalten. Zusätzlich zum standardmäßigen, primären Produktkatalog bietet es Kunden Zugriff auf zwei Arten freigegebener Kataloge mit unterschiedlichen Preisstrukturen. Weitere Informationen zur Funktion des freigegebenen Katalogs finden Sie im [Adobe Commerce B2B-Benutzerhandbuch](../b2b/catalog-shared.md).
 
 ## Verfügbare Dokumentation
 

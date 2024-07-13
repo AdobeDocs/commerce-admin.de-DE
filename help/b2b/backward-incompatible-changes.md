@@ -1,7 +1,8 @@
 ---
 title: Abwärtskompatible Änderungen von Adobe Commerce B2B
 description: Erfahren Sie mehr über Änderungen in B2B-Versionen von Adobe Commerce, bei denen Sie möglicherweise Ihren benutzerdefinierten Code aktualisieren müssen.
-source-git-commit: d794e7891d9c15d8a106535ba2fdc93fdc5515ea
+exl-id: 79b66843-3f34-4fe9-9670-53d19b749eb4
+source-git-commit: 148b2f7a6d778fbff440783df02d2138984a9940
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 0%

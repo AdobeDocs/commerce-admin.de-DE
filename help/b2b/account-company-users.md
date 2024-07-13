@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Verwalten von Unternehmensbenutzerkonten
 
-Unternehmensbenutzer werden vom Unternehmensadministrator zugewiesen und sind über den Administrator im _[!UICONTROL Customers]_Raster nach Kundentyp,_[!UICONTROL Company User]_. Diese Personen sind in der Regel Käufer mit unterschiedlichen Berechtigungen für den Zugriff auf Store-Dienste und -Ressourcen.
+Unternehmensbenutzer werden vom Unternehmensadministrator zugewiesen und sind vom Kundentyp _[!UICONTROL Company User]_im Raster_[!UICONTROL Customers]_ im Admin sichtbar. Diese Personen sind in der Regel Käufer mit unterschiedlichen Berechtigungen für den Zugriff auf Store-Dienste und -Ressourcen.
 
-Der Unternehmensadministrator richtet zunächst die [Unternehmensstruktur](account-company-structure.md)und führt dann bei Bedarf die folgenden Aufgaben aus:
+Der Unternehmensadministrator richtet zunächst die [Unternehmensstruktur](account-company-structure.md) ein und führt dann bei Bedarf die folgenden Aufgaben aus:
 
 - Erstellen von Unternehmensbenutzern und Zuweisen von Benutzern zu Teams
 
@@ -29,15 +29,15 @@ Der Unternehmensadministrator richtet zunächst die [Unternehmensstruktur](accou
 
 1. Der Unternehmensadministrator meldet sich von der Storefront aus bei seinem Konto an.
 
-1. Wählen Sie im linken Bereich **[!UICONTROL Company Users]**.
+1. Wählen Sie im linken Bereich **[!UICONTROL Company Users]** aus.
 
    ![Firmenbenutzer](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-1. Klicks **[!UICONTROL Add New User]** und führt Folgendes aus:
+1. klickt auf **[!UICONTROL Add New User]** und führt Folgendes aus:
 
-   - Fügt die **[!UICONTROL Job Title]** des neuen Benutzers.
+   - Fügt die **[!UICONTROL Job Title]** des neuen Benutzers ein.
 
-   - Wählen Sie die geeignete **[!UICONTROL User Role]** , wenn die Rollen und Berechtigungen definiert sind. Andernfalls können sie später zurückkehren, um die Rolle zuzuweisen.
+   - Wählen Sie den entsprechenden **[!UICONTROL User Role]** aus, wenn die Rollen und Berechtigungen definiert sind. Andernfalls können sie später zurückkehren, um die Rolle zuzuweisen.
 
      ![Neuen Benutzer hinzufügen](./assets/company-structure-users-add.png){width="700" zoomable="yes"}
 
@@ -47,33 +47,33 @@ Der Unternehmensadministrator richtet zunächst die [Unternehmensstruktur](accou
       - **[!UICONTROL Email]**
       - **[!UICONTROL Phone Number]**
 
-   Standardmäßig wird die Variable **[!UICONTROL Status]** des Kontos `Active`.
+   Standardmäßig ist die **[!UICONTROL Status]** des Kontos `Active`.
 
-1. Klicken Sie nach Abschluss **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
 1. Wiederholt den Vorgang, um so viele Unternehmensbenutzer wie nötig zu erstellen.
 
    Die neuen Benutzer werden zusammen mit dem Unternehmensadministrator in der Liste der Unternehmensbenutzer angezeigt.
 
-Um Zeit während der ersten Bestellung zu sparen, kann der Unternehmensadministrator jeden Unternehmensbenutzer daran erinnern, die standardmäßige Abrechnungs- und Lieferadresse des Unternehmens zu seiner [Adressbuch](../customers/account-dashboard-address-book.md).
+Um Zeit während der ersten Bestellung zu sparen, kann der Unternehmensadministrator jeden Unternehmensbenutzer daran erinnern, die standardmäßige Abrechnungs- und Lieferadresse des Unternehmens zu seinem [Adressbuch](../customers/account-dashboard-address-book.md) hinzuzufügen.
 
 ## Bearbeiten von Firmenbenutzern
 
 1. Der Unternehmensadministrator meldet sich von der Storefront aus bei seinem Konto an.
 
-1. Wählen Sie im linken Bereich **[!UICONTROL Company Users]**.
+1. Wählen Sie im linken Bereich **[!UICONTROL Company Users]** aus.
 
-1. Findet den zu aktualisierenden Benutzerdatensatz und klickt auf **[!UICONTROL Edit]**.
+1. Sucht den zu aktualisierenden Benutzerdatensatz und klickt auf **[!UICONTROL Edit]**.
 
 1. Nehmen Sie die erforderlichen Änderungen vor.
 
-1. Klicken Sie nach Abschluss **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
 ## Entfernen eines Unternehmensbenutzers
 
 1. Der Unternehmensadministrator meldet sich von der Storefront aus bei seinem Konto an.
 
-1. Wählen Sie im linken Bereich **[!UICONTROL Company Structure]**.
+1. Wählen Sie im linken Bereich **[!UICONTROL Company Structure]** aus.
 
 1. Wählt den Unternehmensbenutzer in der Unternehmensstruktur aus.
 
@@ -81,16 +81,16 @@ Um Zeit während der ersten Bestellung zu sparen, kann der Unternehmensadministr
 
    ![Benutzer löschen](./assets/company-structure-delete-user.png){width="600" zoomable="yes"}
 
-1. Wenn Sie zur Bestätigung aufgefordert werden, klickt **[!UICONTROL Delete]**.
+1. Wenn Sie zur Bestätigung aufgefordert werden, klicken Sie auf **[!UICONTROL Delete]**.
 
-Im Admin bleibt der Unternehmensbenutzer im [Kunden](../customers/customers-all.md) Raster, jedoch mit einer `Inactive` -Status.
+Im Admin bleibt der Unternehmensbenutzer im Raster [Kunden](../customers/customers-all.md) aufgeführt, jedoch mit dem Status `Inactive`.
 
 ## Feldbeschreibungen
 
 | Feld | Beschreibung |
 |--------------|---------------|
 | [!UICONTROL Job Title] | Die Berufsbezeichnung des Unternehmensbenutzers. |
-| [!UICONTROL User Role] | Die [Rolle](account-company-roles-permissions.md) dem Unternehmensbenutzer zugewiesen. Optionen: `Default User` / (andere Rollen) |
+| [!UICONTROL User Role] | Die dem Unternehmensbenutzer zugewiesene [Rolle](account-company-roles-permissions.md). Optionen: `Default User` / (andere Rollen) |
 | [!UICONTROL First Name] | Der Vorname des Unternehmensbenutzers. |
 | [!UICONTROL Last Name] | Der Nachname des Unternehmensbenutzers. |
 | [!UICONTROL Email] | Die E-Mail-Adresse des Unternehmensbenutzers. |

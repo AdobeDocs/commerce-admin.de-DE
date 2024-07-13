@@ -5,7 +5,7 @@ exl-id: 765e5f90-3e93-43cf-a5bc-6132e00b506c
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,19 @@ DHL bietet integrierte internationale Dienstleistungen und maßgeschneiderte, ku
 
 ## Schritt 1: Aktivieren Sie DHL
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Delivery Methods]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Delivery Methods]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL DHL]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL DHL]** .
 
    >[!NOTE]
    >
-   >Bei Bedarf muss zunächst die **[!UICONTROL Use system value]** aktivieren, um die folgenden Einstellungen wie beschrieben zu ändern.
+   >Deaktivieren Sie bei Bedarf zunächst das Kontrollkästchen **[!UICONTROL Use system value]** , um die folgenden Einstellungen wie beschrieben zu ändern.
 
-1. Satz **[!UICONTROL Enabled for Checkout]** nach `Yes`.
+1. Setzen Sie **[!UICONTROL Enabled for Checkout]** auf `Yes`.
 
-1. In der Regel können Sie die Standardeinstellung **[!UICONTROL Gateway URL]**.
+1. Normalerweise können Sie den Standardwert **[!UICONTROL Gateway URL]** akzeptieren.
 
    Wenn DHL Ihnen eine alternative URL gegeben hat, geben Sie diesen Wert in dieses Feld ein.
 
@@ -42,7 +42,7 @@ DHL bietet integrierte internationale Dienstleistungen und maßgeschneiderte, ku
 
 ## Schritt 2: Geben Sie die Paketbeschreibung und die Bearbeitungsgebühr ein
 
-1. Im **[!UICONTROL Content Type]** die Option auswählen, die den von Ihnen gelieferten Pakettyp am besten beschreibt:
+1. Wählen Sie in der Liste &quot;**[!UICONTROL Content Type]**&quot;die Option aus, die den von Ihnen gelieferten Pakettyp am besten beschreibt:
 
    - `Documents`
    - `Non documents`
@@ -51,87 +51,87 @@ DHL bietet integrierte internationale Dienstleistungen und maßgeschneiderte, ku
 
    Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die zu den Versandkosten von DHL hinzukommt. Wenn Sie eine Bearbeitungsgebühr einbeziehen möchten, gehen Sie wie folgt vor:
 
-   - Für **[!UICONTROL Calculate Handling Fee]** wählen Sie die Methode aus, die Sie zur Berechnung der Bearbeitungsgebühren verwenden möchten:
+   - Wählen Sie für **[!UICONTROL Calculate Handling Fee]** die Methode aus, die Sie zur Berechnung der Bearbeitungsgebühren verwenden möchten:
 
       - `Fixed`
       - `Percentage`
 
-   - Für **[!UICONTROL Handling Applied]** auswählen, wie die Bearbeitungsgebühren angewendet werden sollen:
+   - Wählen Sie für **[!UICONTROL Handling Applied]** aus, wie die Bearbeitungsgebühren angewendet werden sollen:
 
       - `Per Order`
       - `Per Package`
 
-   - Für **[!UICONTROL Handling Fee]**, geben Sie den zu berechnenden Betrag nach der Methode an, die Sie zur Berechnung des Betrags gewählt haben.
+   - Geben Sie für **[!UICONTROL Handling Fee]** den zu berechnenden Betrag basierend auf der Methode ein, die Sie zur Berechnung des Betrags ausgewählt haben.
 
-     Wenn die Gebühr beispielsweise auf einer festen Gebühr basiert, geben Sie den Betrag als Dezimalzahl ein, z. B. `4.90`. Wenn die Bearbeitungsgebühr jedoch auf einem Prozentsatz der Bestellung basiert, geben Sie den Betrag als Prozentsatz an. Wenn Sie beispielsweise sechs Prozent der Bestellung aufladen, geben Sie den Wert als `.06`.
+     Wenn die Gebühr beispielsweise auf einer festen Gebühr basiert, geben Sie den Betrag als Dezimalzahl ein, z. B. `4.90`. Wenn die Bearbeitungsgebühr jedoch auf einem Prozentsatz der Bestellung basiert, geben Sie den Betrag als Prozentsatz an. Wenn Sie beispielsweise sechs Prozent der Bestellung aufladen, geben Sie den Wert als `.06` ein.
 
-   - Um eine Aufteilung des Gesamtauftragsgewichts zu ermöglichen, um eine genaue Berechnung der Versandkosten zu gewährleisten, legen Sie **[!UICONTROL Divide Order Weight]** nach `Yes`.
+   - Damit die Gesamtauftragsgewichtung aufgeteilt werden kann, um eine genaue Berechnung der Versandkosten zu gewährleisten, setzen Sie **[!UICONTROL Divide Order Weight]** auf `Yes`.
 
-   - Legen Sie die **[!UICONTROL Weight Unit]** des Pakets zu einem der folgenden Punkte:
+   - Setzen Sie die **[!UICONTROL Weight Unit]** des Pakets auf einen der folgenden Werte:
 
       - `Pounds`
       - `Kilograms`
 
-   - Legen Sie die **[!UICONTROL Size]** eines typischen Pakets mit einer der folgenden Eigenschaften:
+   - Setzen Sie die **[!UICONTROL Size]** eines typischen Pakets auf einen der folgenden Werte:
 
       - `Regular`
       - `Specific`
 
-     Wenn Sie `Specific`, geben Sie die **[!UICONTROL Height]**, **[!UICONTROL Depth]**, und **[!UICONTROL Width]** der Packung in Zentimetern.
+     Wenn Sie `Specific` auswählen, geben Sie die **[!UICONTROL Height]**, **[!UICONTROL Depth]** und **[!UICONTROL Width]** des Pakets in Zentimetern ein.
 
    ![DHL-Paketeinstellungen](../configuration-reference/sales/assets/delivery-methods-dhl-package-settings.png){width="600" zoomable="yes"}
 
 ## Schritt 3: Festlegen der zulässigen Versandmethoden
 
-1. Für **[!UICONTROL Allowed Methods]** wählen Sie die einzelnen Methoden aus, die Kunden zur Verfügung stehen sollen.
+1. Wählen Sie für &quot;**[!UICONTROL Allowed Methods]**&quot;jede Methode aus, die Kunden zur Verfügung stehen soll.
 
    Um mehrere Methoden auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jede Option.
 
-   Um die richtige Liste der Versandmethoden anzuzeigen, müssen Sie zunächst die [Herkunftsland](../configuration-reference/sales/shipping-settings.md).
+   Um die richtige Liste der Versandmethoden anzuzeigen, müssen Sie zunächst das [Ursprungsland](../configuration-reference/sales/shipping-settings.md) angeben.
 
-1. Für **[!UICONTROL Ready Time]**, geben Sie die Anzahl der Stunden an, nach denen eine Bestellung versandbereit ist.
+1. Geben Sie für &quot;**[!UICONTROL Ready Time]**&quot;die Anzahl der Stunden ein, nach denen eine Bestellung gesendet wurde, die zum Versand eines Pakets erforderlich ist.
 
 1. Bearbeiten Sie die **[!UICONTROL Displayed Error Message]** nach Bedarf.
 
    Diese Meldung wird angezeigt, wenn eine ausgewählte Methode nicht verfügbar ist.
 
-1. Wenn Sie eine [Kostenloser Versand](shipping-free.md) -Option über DHL die kostenlosen Versandoptionen festlegen.
+1. Wenn Sie die Option [Free Shipping](shipping-free.md) über DHL bereitstellen möchten, legen Sie die kostenlosen Versandoptionen fest.
 
-   - Für **[!UICONTROL Free Method]**, wählen Sie die Methode, die Sie für den kostenlosen Versand bevorzugen.
+   - Wählen Sie für **[!UICONTROL Free Method]** die Methode, die Sie für den kostenlosen Versand bevorzugen.
 
-   - Satz **[!UICONTROL Free Shipping Amount Threshold]**:
+   - Legen Sie **[!UICONTROL Free Shipping Amount Threshold]** fest:
 
-     `Enable` - Wenn Sie kostenlosen Versand mit Mindestbestellung anbieten, geben Sie die **[!UICONTROL Minimum Order Amount for Free Shipping]**.
+     `Enable` - Wenn Sie kostenlosen Versand mit Mindestbestellung anbieten, geben Sie die **[!UICONTROL Minimum Order Amount for Free Shipping]** ein.
 
-     `Disable` - gilt nicht für den kostenlosen DHL Versand auf Bestellungen.
+     `Disable` - Keine kostenlose DHL-Lieferung auf Bestellungen.
 
-     Diese Einstellung ähnelt der für den Standard _Kostenloser Versand_ -Methode, wird jedoch im Abschnitt DHL angezeigt, damit Kunden wissen, welche Methode für ihre Bestellung verwendet wird.
+     Diese Einstellung ähnelt der für die standardmäßige _kostenlose Versandmethode_ , wird jedoch im Abschnitt DHL angezeigt, damit Kunden wissen, welche Methode für ihre Bestellung verwendet wird.
 
-   - Für **[!UICONTROL Free Shipping Amount Threshold]** Geben Sie den Mindestbetrag für eine Bestellung ein, um für den kostenlosen Versand infrage zu kommen.
+   - Geben Sie für **[!UICONTROL Free Shipping Amount Threshold]** den Mindestbetrag für eine Bestellung ein, um für den kostenlosen Versand infrage zu kommen.
 
      ![Zulässige DHL-Methoden](../configuration-reference/sales/assets/delivery-methods-dhl-allowed-methods.png){width="600" zoomable="yes"}
 
 ## Schritt 4: Bestimmen Sie die entsprechenden Länder.
 
-1. Satz **[!UICONTROL Ship to Applicable Countries]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Ship to Applicable Countries]** auf einen der folgenden Werte:
 
    - `All Allowed Countries`
    - `Specific Countries`
 
-   Wenn Sie einen Versand in bestimmte Länder durchführen möchten, wählen Sie jedes Land aus dem **[!UICONTROL Ship to Specific Countries]** Liste.
+   Wenn Sie einen Versand in bestimmte Länder durchführen, wählen Sie aus der Liste **[!UICONTROL Ship to Specific Countries]** jedes Land aus.
 
-1. Satz **[!UICONTROL Show Method if Not Applicable]**:
+1. Legen Sie **[!UICONTROL Show Method if Not Applicable]** fest:
 
-   `Yes` - Zeigt DHL als Versandmethode während des Checkout an, auch wenn es nicht auf die Bestellung anwendbar ist.
+   `Yes` - Zeigt DHL als Versandmethode beim Checkout an, auch wenn dies nicht für die Bestellung gilt.
 
-   `No` - Zeigt DHL nur bei Bedarf als Versandmethode während des Checkout an.
+   `No` - Zeigt DHL beim Checkout nur dann als Versandmethode an, wenn zutreffend.
 
-1. Um eine Protokolldatei mit den Details zu DHL-Sendungen zu erstellen, die aus Ihrem Speicher durchgeführt wurden, legen Sie **[!UICONTROL Debug]** nach `Yes`.
+1. Um eine Protokolldatei mit Details zu DHL-Sendungen aus Ihrem Speicher zu erstellen, setzen Sie **[!UICONTROL Debug]** auf `Yes`.
 
-1. Für **[!UICONTROL Sort Order]** Geben Sie eine Zahl ein, um die Reihenfolge zu bestimmen, in der DHL beim Checkout mit anderen Versandmethoden angezeigt wird.
+1. Geben Sie für &quot;**[!UICONTROL Sort Order]**&quot; eine Zahl ein, um die Sequenz zu bestimmen, in der DHL beim Checkout mit anderen Versandmethoden angezeigt wird.
 
-   `0` = first, `1` = Sekunde, `2` = drittes Element usw.
+   `0` = first, `1` = second, `2` = third usw.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
-   ![DHL Anwendbare Länder](../configuration-reference/sales/assets/delivery-methods-dhl-applicable-countries.png){width="600" zoomable="yes"}
+   ![DHL-Anwendbare Länder](../configuration-reference/sales/assets/delivery-methods-dhl-applicable-countries.png){width="600" zoomable="yes"}

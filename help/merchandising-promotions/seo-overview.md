@@ -12,69 +12,69 @@ ht-degree: 0%
 
 # SEO-Übersicht
 
-_Suchmaschinenoptimierung_ (SEO) ist die Praxis der Feinabstimmung des Inhalts und der Präsentation einer Website, um die Art und Weise zu verbessern, wie die Seiten von Suchmaschinen indiziert werden. Der Handel umfasst verschiedene Funktionen, die Ihre laufenden SEO-Bemühungen unterstützen.
+_Suchmaschinenoptimierung_ (SEO) ist die Vorgehensweise, den Inhalt und die Darstellung einer Site zu optimieren, um die Indexierung der Seiten durch Suchmaschinen zu verbessern. Commerce bietet verschiedene Funktionen, um Ihre laufenden SEO-Bemühungen zu unterstützen.
 
 ## Metadaten
 
-Erfahren Sie mehr über das Hinzufügen und Verbessern von schlüsselwortreichen Inhalten [Metadaten](meta-data.md) für Ihre Site und Ihr Geschäft.
+Erfahren Sie mehr über das Hinzufügen und Verbessern von schlüsselwortreichen [Metadaten](meta-data.md) für Ihre Site und Ihren Store.
 
 ## Verwenden einer Sitemap
 
-A [Sitemap](sitemap-xml.md) verbessert die Indexierung Ihres Stores durch Suchmaschinen und ist so konzipiert, dass Seiten gefunden werden, die von Webcrawlern möglicherweise übersehen werden. Eine Sitemap kann so konfiguriert werden, dass alle Seiten und Bilder indiziert werden.
+Eine [Sitemap](sitemap-xml.md) verbessert die Indexierung Ihres Stores durch Suchmaschinen und dient dazu, Seiten zu finden, die von Webcrawlern übersehen werden. Eine Sitemap kann so konfiguriert werden, dass alle Seiten und Bilder indiziert werden.
 
 ## URL-Neuschreibungen
 
-Die [URL-Neufassung](url-rewrite.md) können Sie jede URL ändern, die mit einem Produkt, einer Kategorie oder einer CMS-Seite verknüpft ist.
+Mit dem Tool [URL Rewrite](url-rewrite.md) können Sie jede URL ändern, die mit einem Produkt, einer Kategorie oder einer CMS-Seite verknüpft ist.
 
 ## Suchmaschinen-Roboter
 
-Die Commerce-Konfiguration enthält Einstellungen zum Generieren und Verwalten von Anweisungen für Webcrawler und Bots, die Ihre Site indizieren. Wenn die Anforderung für `robots.txt` Commerce erreicht (statt einer physischen Datei), wird sie dynamisch zum Robotercontroller weitergeleitet. Die Anweisungen sind Anweisungen, die von den meisten Suchmaschinen erkannt und befolgt werden.
+Die Commerce-Konfiguration umfasst Einstellungen zum Generieren und Verwalten von Anweisungen für Webcrawler und Bots, die Ihre Site indizieren. Wenn die Anfrage für `robots.txt` Commerce erreicht (und nicht eine physische Datei), wird sie dynamisch an den Robotercontroller weitergeleitet. Die Anweisungen sind Anweisungen, die von den meisten Suchmaschinen erkannt und befolgt werden.
 
 Standardmäßig enthält die von Commerce generierte Datei robots.txt Anweisungen für Webcrawler, um die Indizierung bestimmter Teile der Site zu vermeiden, die Dateien enthalten, die intern vom System verwendet werden. Sie können die Standardeinstellungen verwenden oder eigene benutzerdefinierte Anweisungen für alle oder für bestimmte Suchmaschinen definieren. Es gibt viele Artikel online, die das Thema im Detail untersuchen.
 
 ### Beispiel für benutzerdefinierte Anweisungen
 
-**Ermöglicht uneingeschränkten Zugriff**
+**Ermöglicht vollständigen Zugriff**
 
     User-agent:*
-    Nicht zulassen:
+    disallow:
 
-**Ermöglicht Zugriff auf alle Ordner**
+**Ermöglicht den Zugriff auf alle Ordner**
 
     User-agent:*
-    Nicht zulassen: /
+    disallow: /
 
 **Standardanweisungen**
 
-    User-agent: *
-    Disallow: /index.php/
+    Benutzeragent: *
+    Nicht zulassen: /index.php/
     Nicht zulassen: /*?
-    Disallow: /checkout/
-    Disallow: /app/
-    Disallow: /lib/
+    Nicht zulassen: /checkout/
+    Nicht zulassen: /app/
+    Nicht zulassen: /lib/
     Nicht zulassen: /*.php$
     Nicht zulassen: /pkginfo/
     Nicht zulassen: /report/
     Nicht zulassen: /var/
     Nicht zulassen: /catalog/
-    Disallow: /customer/
-    Disallow: /sendfriend/
+    Nicht zulassen: /customer/
+    Nicht zulassen/
     Nicht zulassen: /review/
     Nicht zulassen: /*SID=
 
-### Konfigurieren `robots.txt`
+### Konfigurieren von `robots.txt`
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die **[!UICONTROL Global]** Konfiguration in der ersten Zeile des Rasters und klicken Sie auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Konfiguration **[!UICONTROL Global]** in der ersten Zeile des Rasters und klicken Sie auf **[!UICONTROL Edit]**.
 
    ![Globale Designkonfiguration](./assets/design-configuration-grid.png){width="700" zoomable="yes"}
 
-1. Hinunter scrollen und erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Search Engine Robots]** und führen Sie folgende Schritte aus:
+1. Scrollen Sie nach unten und erweitern Sie den Abschnitt **[!UICONTROL Search Engine Robots]** um den ![Erweiterungsselektor](../assets/icon-display-expand.png) und gehen Sie folgendermaßen vor:
 
    ![Designkonfiguration - Suchmaschinen-Roboter](./assets/design-configuration-search-engine-robots.png){width="600" zoomable="yes"}
 
-   - Satz **[!UICONTROL Default Robots]** auf einen der folgenden Werte zu:
+   - Setzen Sie **[!UICONTROL Default Robots]** auf einen der folgenden Werte:
 
      | Option | Beschreibung |
      |------|------------|
@@ -85,8 +85,8 @@ Standardmäßig enthält die von Commerce generierte Datei robots.txt Anweisunge
 
      {style="table-layout:auto"}
 
-   - Geben Sie bei Bedarf benutzerdefinierte Anweisungen in das **[!UICONTROL Edit Custom instruction of robots.txt file]** ankreuzen. Während sich beispielsweise eine Site in der Entwicklung befindet, sollten Sie den Zugriff auf alle Ordner untersagen.
+   - Geben Sie bei Bedarf benutzerdefinierte Anweisungen in das Feld **[!UICONTROL Edit Custom instruction of robots.txt file]** ein. Während sich beispielsweise eine Site in der Entwicklung befindet, sollten Sie den Zugriff auf alle Ordner untersagen.
 
    - Um die Standardanweisungen wiederherzustellen, klicken Sie auf **[!UICONTROL Reset to Default]**.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Configuration]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Configuration]**.

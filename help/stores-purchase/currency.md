@@ -5,14 +5,14 @@ exl-id: 5255fb63-a615-4b05-8b00-5c5a089cbb2d
 feature: Currency, Storefront
 source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 # Währung
 
-Adobe Commerce bietet Ihnen die Möglichkeit, Währungen aus mehr als 200 Ländern weltweit zu akzeptieren. Wenn der Store mehrere Währungen unterstützt, wird ein _Währungsauswahl_ wird in der Kopfzeile angezeigt, nachdem die Währungskurse [aktualisiert](currency-update.md).
+Adobe Commerce bietet Ihnen die Möglichkeit, Währungen aus mehr als 200 Ländern weltweit zu akzeptieren. Wenn der Store mehrere Währungen unterstützt, wird in der Kopfzeile eine _Währungsauswahl_ angezeigt, nachdem die Währungskurse [aktualisiert wurden](currency-update.md).
 
 >[!NOTE]
 >

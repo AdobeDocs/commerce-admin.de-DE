@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] Seite des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] des Commerce-Administrators.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Der Zugriff auf diese Konfigurationsoptionen für B2B-Funktionen wird von der [Rollenressourcen](../../systems/permissions-user-roles.md#role-resources). Diese Rollenressourcen müssen für die Benutzerrolle festgelegt werden, die dem Admin-Benutzer zugewiesen ist.
+>Der Zugriff auf diese Konfigurationsoptionen für B2B-Funktionen wird durch die [Rollenressourcen](../../systems/permissions-user-roles.md#role-resources) gesteuert. Diese Rollenressourcen müssen für die Benutzerrolle festgelegt werden, die dem Admin-Benutzer zugewiesen ist.
 
 Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [Grundlegende B2B-Funktionen aktivieren](../../b2b/enable-basic-features.md) im _Adobe Commerce B2B-Benutzerhandbuch_.
 
@@ -30,9 +30,9 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 
 ![Allgemein](./assets/company-general.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Allow Company Registration from the Storefront] | Webseite | Bestimmt, ob Besucher Ihres Stores die Wahl haben, [registrieren](../../customers/customer-sign-in.md) für ein Unternehmenskonto oder ein individuelles Konto. Optionen: `Yes` / `No` |
+| [!UICONTROL Allow Company Registration from the Storefront] | Webseite | Bestimmt, ob Besucher Ihres Stores die Wahl haben, [sich ](../../customers/customer-sign-in.md) für ein Unternehmenskonto oder ein einzelnes Konto zu registrieren. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -40,7 +40,7 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 
 ![E-Mail-Optionen - Firmenregistrierung](./assets/company-email-options-company-registration.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Company Registration Email Recipient] | Store-Ansicht | Der Store-Kontakt, der benachrichtigt wird, wenn eine Registrierungsanfrage für ein Unternehmen von der Storefront gesendet wird. Optionen: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Send Company Registration Email Copy To] | Store-Ansicht | Die E-Mail-Adresse jeder Person, die eine Kopie der Registrierungsbenachrichtigung erhalten soll. Trennen Sie mehrere E-Mail-Adressen durch Kommas. |
@@ -53,7 +53,7 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 
 ![Kundenbezogene E-Mails](./assets/company-email-options-customer-related-emails.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Default 'Sales Rep Assigned' Email] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn einem Unternehmenskonto ein Vertriebsmitarbeiter zugewiesen wird. Diese E-Mail wird an den Vertriebsmitarbeiter und den Unternehmensadministrator gesendet. Standardvorlage: `Sales Representative Assigned to Company` |
 | [!UICONTROL Default 'Assign Company to Customer' Email] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn ein einzelnes Kundenkonto einem Unternehmenskonto zugewiesen wird. Diese E-Mail wird nur an den Kunden gesendet. Standardvorlage: `Assign Company to Customer` |
@@ -69,16 +69,16 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 
 ![Änderung des Unternehmensstatus](./assets/company-email-options-company-status-change.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Company Status Change Email Recipient] | Store-Ansicht | Der Store-Kontakt, der benachrichtigt wird, wenn sich der Status eines Unternehmens ändert. Optionen: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Send Company Status Change Email Copy To] | Store-Ansicht | Die E-Mail-Adresse jeder Person, die eine Kopie der Benachrichtigung über die Statusänderung des Unternehmens erhalten soll. Trennen Sie mehrere E-Mail-Adressen durch Kommas. |
 | [!UICONTROL Send Email Copy Method] | Store-Ansicht | Die E-Mail-Methode, mit der die Kopie der Benachrichtigung über die Statusänderung gesendet wird. Optionen: `Bcc` / `Separate Email` |
-| [!UICONTROL Default "Company Status Change to Active 1' Email] | Store-Ansicht | Die E-Mail-Vorlage, die verwendet wird, wenn sich der Status eines Unternehmens ändert von _Ausstehende Genehmigung_ nach _Aktiv_. Standardvorlage: `Company Status Active 1` |
-| [!UICONTROL Default 'Company Status Change to Active 2' Email] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn sich der Status eines Unternehmens ändert von _Abgelehnt_ oder _Blockierung_ nach _Aktiv_. Standardvorlage: `Company Status Active 2` |
-| [!UICONTROL Default 'Company Status Change to Rejected' Email] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn sich der Status eines Unternehmens in _Abgelehnt_. Standardvorlage: `Company Status Rejected` |
-| [!UICONTROL Default 'Company Status Change to Blocked' Email] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn sich der Status eines Unternehmens in _Blockierung_. Standardvorlage: `Company Status Blocked` |
-| [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn sich der Status eines Unternehmens in _Ausstehende Genehmigung_. Standardvorlage: `Company Status Pending Approval` |
+| [!UICONTROL Default "Company Status Change to Active 1' Email] | Store-Ansicht | Die E-Mail-Vorlage, die verwendet wird, wenn sich der Status eines Unternehmens von _Ausstehende Genehmigung_ in _Aktiv_ ändert. Standardvorlage: `Company Status Active 1` |
+| [!UICONTROL Default 'Company Status Change to Active 2' Email] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn sich der Status eines Unternehmens von _Abgelehnt_ oder _Blockiert_ in _Aktiv_ ändert. Standardvorlage: `Company Status Active 2` |
+| [!UICONTROL Default 'Company Status Change to Rejected' Email] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn sich der Status eines Unternehmens in _Abgelehnt_ ändert. Standardvorlage: `Company Status Rejected` |
+| [!UICONTROL Default 'Company Status Change to Blocked' Email] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn sich der Status eines Unternehmens in _Blocked_ ändert. Standardvorlage: `Company Status Blocked` |
+| [!UICONTROL Default 'Company Status Change to Pending Approval' Email] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn sich der Status eines Unternehmens in _Ausstehende Genehmigung_ ändert. Standardvorlage: `Company Status Pending Approval` |
 
 {style="table-layout:auto"}
 
@@ -86,14 +86,14 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 
 ![Firmenguthaben](./assets/company-email-options-company-credit.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Company Credit Change Email Sender] | Store-Ansicht | Der Store-Kontakt, der benachrichtigt wird, wenn eine Änderung am Guthaben eines Unternehmens stattfindet. Optionen: `General Contact` / `Sales Representative` / `Customer Support` / `Custom Email 1` / `Custom Email 2` |
 | [!UICONTROL Send Company Credit Change Email Copy To] | Store-Ansicht | Die E-Mail-Adresse jeder Person, die eine Kopie der Benachrichtigung über eine Unternehmenskreditänderung erhält. Trennen Sie mehrere E-Mail-Adressen durch Kommas. |
 | [!UICONTROL Send Email Copy Method] | Store-Ansicht | Die E-Mail-Methode, mit der die Kopie der Benachrichtigung über eine Kreditänderung gesendet wird. Optionen: `Bcc` / `Separate Email` |
 | [!UICONTROL Allocated Email Template] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig bei der Zuweisung von Firmenguthaben verwendet wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Credit Limit Allocated` |
 | [!UICONTROL Updated Email Template] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn das Kreditlimit eines Unternehmens aktualisiert wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Credit Limit Updated` |
-| [!UICONTROL Reimbursed Email Template] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn ein [Rückerstattung](../../b2b/credit-company.md#apply-a-payment-to-a-company-account) wird dem Unternehmen zugeschrieben. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Credit Reimbursed` |
+| [!UICONTROL Reimbursed Email Template] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn dem Unternehmen eine [Kostenerstattung](../../b2b/credit-company.md#apply-a-payment-to-a-company-account) zugeschrieben wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Credit Reimbursed` |
 | [!UICONTROL Refunded Email Template] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn ein aus einer Bestellung stammender Betrag an das Firmenguthaben zurückerstattet wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | Store-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn eine Bestellung auf die Unternehmensgutschrift zurückgesetzt wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Order Reverted to Company Credit` |
 

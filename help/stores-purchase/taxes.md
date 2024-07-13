@@ -5,20 +5,20 @@ exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
 
 # Steuern
 
-Konfigurieren Sie Ihren Speicher so, dass Steuern entsprechend den Anforderungen Ihres Gebietsschemas berechnet werden. Sie können [Steuerklassen](tax-class.md) für Produkte und Kundengruppen und erstellen Sie [Steuervorschriften](tax-rules.md) die Produkt- und Kundenklassen, Steuerzonen und Tarife kombinieren. Der Handel bietet außerdem Konfigurationseinstellungen für feste Produktsteuern, zusammengesetzte Steuern und Preisangaben über internationale Grenzen hinweg. Wenn Sie eine [Mehrwertsteuer](vat.md), können Sie Ihren Store so einrichten, dass der entsprechende Betrag bei Validierung automatisch berechnet wird.
+Konfigurieren Sie Ihren Speicher so, dass Steuern entsprechend den Anforderungen Ihres Gebietsschemas berechnet werden. Sie können [Steuerklassen](tax-class.md) für Produkte und Kundengruppen einrichten und [Steuerregeln](tax-rules.md) erstellen, die Produkt- und Kundenklassen, Steuerzonen und Steuersätze kombinieren. Commerce bietet außerdem Konfigurationseinstellungen für feste Produktsteuern, zusammengesetzte Steuern und Preisangaben über internationale Grenzen hinweg. Wenn Sie eine [Mehrwertsteuer](vat.md) erfassen müssen, können Sie Ihren Speicher so einrichten, dass der entsprechende Betrag bei Validierung automatisch berechnet wird.
 
 >[!NOTE]
 >
->Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source umfassten die vom Vertex-Anbieter entwickelte Erweiterung, die zur Integration in die Vertex Cloud verwendet wurde, um Steuerverwaltung und Adressbereinigung zu ermöglichen. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Paket mit der Kernversion enthalten und muss über die Commerce Marketplace oder direkt vom Anbieter installiert und aktualisiert werden. [Kontaktverweis](https://marketplace.magento.com/partner/vertex_inc) für Informationen zur Erweiterung und Dokumentation.<br><br>
+>Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source umfassten die vom Vertex-Anbieter entwickelte Erweiterung, die zur Integration in die Vertex Cloud verwendet wurde, um Steuerverwaltung und Adressbereinigung zu ermöglichen. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Paket mit der Kernversion enthalten und muss über die Commerce Marketplace oder direkt vom Anbieter installiert und aktualisiert werden. [Wenden Sie sich an Vertex](https://marketplace.magento.com/partner/vertex_inc) , um Informationen zur Erweiterung und Dokumentation zu erhalten.<br><br>
 >
->Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Composer.json-Datei im Rahmen des Aktualisierungsprozesses von 2.4.4 aktualisieren und zukünftige Erweiterungs-Updates verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Upgrade-Handbuch_.
+>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Composer.json-Datei im Rahmen des Aktualisierungsprozesses von 2.4.4 aktualisieren und zukünftige Erweiterungs-Updates verwalten. Siehe [Aktualisierungsmodule](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Aktualisierungshandbuch_.
 
 ## Kurzübersicht
 
@@ -28,11 +28,11 @@ Verwenden Sie die folgenden Tabellen als Referenz bei der Konfiguration der Steu
 
 ### Methoden der Steuerberechnung
 
-Optionen für die Steuerberechnungsmethode: [!UICONTROL Unit Price], [!UICONTROL Row Total], und [!UICONTROL Total]. In der folgenden Tabelle wird erläutert, wie die Rundung (auf zwei Stellen) für verschiedene Einstellungen durchgeführt wird.
+Zu den Optionen für die Steuerberechnungsmethode gehören [!UICONTROL Unit Price], [!UICONTROL Row Total] und [!UICONTROL Total]. In der folgenden Tabelle wird erläutert, wie die Rundung (auf zwei Stellen) für verschiedene Einstellungen durchgeführt wird.
 
 | Einstellung | Berechnung und Anzeige |
 |--- |--- |
-| [!UICONTROL Unit Price] | Der Handel berechnet die Steuer für jeden Artikel und zeigt die Preise inklusive Steuern an. Zur Berechnung des Steuergesamtbetrags wird die Steuer für jedes Element gerundet und dann addiert. |
+| [!UICONTROL Unit Price] | Commerce berechnet die Steuer für jeden Artikel und zeigt die Preise inklusive Steuern an. Zur Berechnung des Steuergesamtbetrags wird die Steuer für jedes Element gerundet und dann addiert. |
 | [!UICONTROL Row Total] | Commerce berechnet die Steuer für jede Zeile. Zur Berechnung der Steuersumme wird die Steuer für jeden Zeileneintrag gerundet und dann addiert. |
 | [!UICONTROL Total] | Commerce berechnet die Steuer für jedes Element und fügt diese Steuerwerte hinzu, um den nicht gerundeten Steuerbetrag für die Bestellung zu berechnen. Anschließend wird der angegebene Rundungsmodus auf die Gesamtsteuer angewendet, um die Gesamtsteuer für die Bestellung zu ermitteln. |
 
@@ -40,7 +40,7 @@ Optionen für die Steuerberechnungsmethode: [!UICONTROL Unit Price], [!UICONTROL
 
 ### Katalogpreise mit oder ohne Steuern
 
-Die möglichen Anzeigefelder variieren je nach Berechnungsmethode und je nachdem, ob die Katalogpreise Steuern enthalten oder ausschließen. Anzeigefelder haben in normalen Berechnungen eine zweidezimale Genauigkeit. Einige Kombinationen aus Preiseinstellungen zeigen Preise an, die sowohl Steuern enthalten als auch ausschließen. Wenn beide im selben Zeilenelement angezeigt werden, kann es für Kunden verwirrend sein, und Trigger können [warning](taxes.md#warning-messages).
+Die möglichen Anzeigefelder variieren je nach Berechnungsmethode und je nachdem, ob die Katalogpreise Steuern enthalten oder ausschließen. Anzeigefelder haben in normalen Berechnungen eine zweidezimale Genauigkeit. Einige Kombinationen aus Preiseinstellungen zeigen Preise an, die sowohl Steuern enthalten als auch ausschließen. Wenn beide im selben Zeilenelement angezeigt werden, kann es für Kunden verwirrend sein, und Trigger erhalten eine [Warnung](taxes.md#warning-messages).
 
 | Einstellung | Berechnung und Anzeige |
 |--- |--- |
@@ -51,7 +51,7 @@ Die möglichen Anzeigefelder variieren je nach Berechnungsmethode und je nachdem
 
 >[!IMPORTANT]
 >
->Es gibt Änderungen gegenüber früheren Versionen für EU-Händler oder andere MwSt-Händler, die Preise anzeigen, einschließlich Steuern und in mehreren Ländern mit mehreren Store-Ansichten. Wenn Sie Preise mit mehr als zwei Stellen genau laden, rundet Commerce automatisch alle Preise auf zwei Stellen, um sicherzustellen, dass den Käufern ein einheitlicher Preis präsentiert wird.
+>Es gibt Änderungen gegenüber früheren Versionen für EU-Händler oder andere MwSt-Händler, die Preise anzeigen, einschließlich Steuern und in mehreren Ländern mit mehreren Store-Ansichten. Wenn Sie Preise mit mehr als zwei Stellen genau laden, rundet Commerce alle Preise automatisch auf zwei Stellen auf, um sicherzustellen, dass den Käufern ein einheitlicher Preis präsentiert wird.
 
 ### Versandpreise mit oder ohne Steuern
 
@@ -64,11 +64,11 @@ Die möglichen Anzeigefelder variieren je nach Berechnungsmethode und je nachdem
 
 ### Steuerbeträge als Posten
 
-Um zwei verschiedene Steuerbeträge als separate Zeileneinträge anzuzeigen, wie z. B. GST und PST für kanadische Geschäfte, müssen Sie für die entsprechenden Steuerregeln unterschiedliche Prioritäten festlegen. In früheren Steuerberechnungen würden jedoch automatisch Steuern mit unterschiedlichen Prioritäten erhöht. Um separate Steuerbeträge ohne fehlerhafte Addition der Steuerbeträge korrekt anzuzeigen, können Sie verschiedene Prioritäten festlegen und auch die _Nur Zwischensumme berechnen_ aktivieren. Diese Einstellung erzeugt korrekt berechnete Steuerbeträge, die als separate Zeileneinträge angezeigt werden.
+Um zwei verschiedene Steuerbeträge als separate Zeileneinträge anzuzeigen, wie z. B. GST und PST für kanadische Geschäfte, müssen Sie für die entsprechenden Steuerregeln unterschiedliche Prioritäten festlegen. In früheren Steuerberechnungen würden jedoch automatisch Steuern mit unterschiedlichen Prioritäten erhöht. Um separate Steuerbeträge ohne falsche Addition der Steuerbeträge korrekt anzuzeigen, können Sie verschiedene Prioritäten festlegen und auch das Kontrollkästchen _Nur Zwischensumme berechnen_ aktivieren. Diese Einstellung erzeugt korrekt berechnete Steuerbeträge, die als separate Zeileneinträge angezeigt werden.
 
 ## Warnmeldungen
 
-Einige Kombinationen von steuerbezogenen Optionen können für Kunden verwirrend sein und eine Warnung an den Trigger verwerfen. Diese Bedingungen können auftreten, wenn die Methode zur Berechnung der Steuern auf `Row` oder `Total`und dem Kunden Preise angezeigt werden, die sowohl Steuern als auch Steuern enthalten. Sie kann auch auftreten, wenn im Warenkorb Steuern pro Artikel erhoben werden. Da die Steuerberechnung gerundet wird, kann der im Warenkorb angezeigte Betrag von dem Betrag abweichen, den ein Kunde erwartet.
+Einige Kombinationen von steuerbezogenen Optionen können für Kunden verwirrend sein und eine Warnung an den Trigger verwerfen. Diese Bedingungen können auftreten, wenn die Methode zur Berechnung der Steuern auf `Row` oder `Total` festgelegt ist und dem Kunden Preise angezeigt werden, die sowohl Steuern als auch Steuern ausschließen. Sie kann auch auftreten, wenn im Warenkorb Steuern pro Artikel erhoben werden. Da die Steuerberechnung gerundet wird, kann der im Warenkorb angezeigte Betrag von dem Betrag abweichen, den ein Kunde erwartet.
 
 Wenn Ihre Steuerberechnung auf einer problematischen Konfiguration basiert, werden die folgenden Warnungen angezeigt:
 
@@ -97,7 +97,7 @@ _**So sammeln Sie Informationen zur digitalen Gütersteuer:**_
 
 1. Weisen Sie alle Ihre digitalen Waren der Produktsteuerklasse für digitale Waren zu.
 
-1. Erstellen [Steuervorschriften](tax-rules.md) für Ihre Waren, unter Verwendung von Körperschaftssteuerklassen und unter Berücksichtigung der entsprechenden Steuersätze.
+1. Erstellen Sie [Steuerregeln](tax-rules.md) für Ihre körperlichen Gegenstände, verwenden Sie physische Produktsteuerklassen und verbinden Sie sie mit den entsprechenden Steuersätzen.
 
 1. Erstellen Sie Steuerregeln für Ihre digitalen Waren, verwenden Sie die Produktsteuerklasse für digitale Waren und verbinden Sie sie mit den entsprechenden Steuersätzen für EU-Mitgliedstaaten.
 
@@ -107,8 +107,8 @@ _**So sammeln Sie Informationen zur digitalen Gütersteuer:**_
 
 Zusätzliche Ressourcen:
 
-- [Europäische Kommission - Steuern und Zollunion][1]
-- [EU 1015 - Veränderungen beim Versorgungsort][2]
+- [Steuern und Zollunion der Europäischen Kommission][1]
+- [Änderungen am Ort der Lieferung in EU 1015][2]
 
 [1]: https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm
 [2]: https://www2.deloitte.com/global/en/services/tax.html

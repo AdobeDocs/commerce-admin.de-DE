@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists] Seite des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists] des Commerce-Administrators.
 exl-id: 3720d9de-a5cc-4c44-a42a-af7409021f52
 feature: Configuration, B2B
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Der Zugriff auf diese Konfigurationsoptionen für B2B-Funktionen wird von der [Rollenressourcen](../../systems/permissions-user-roles.md#role-resources). Diese Rollenressourcen müssen für die Benutzerrolle festgelegt werden, die dem Admin-Benutzer zugewiesen ist.
+>Der Zugriff auf diese Konfigurationsoptionen für B2B-Funktionen wird durch die [Rollenressourcen](../../systems/permissions-user-roles.md#role-resources) gesteuert. Diese Rollenressourcen müssen für die Benutzerrolle festgelegt werden, die dem Admin-Benutzer zugewiesen ist.
 
 ## [!UICONTROL General]
 
@@ -30,8 +30,8 @@ ht-degree: 0%
 
 <!-- General](https://docs.magento.com/user-guide/stores/b2b-configure-requisition-lists.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Number of Requisition Lists] | Store-Ansicht | Bestimmt die maximale Anzahl von Anforderungslisten, die pro Kundenkonto verwaltet werden können. Die Mindestanzahl ist `2`und die maximale Zahl lautet `999`. |
+| [!UICONTROL Number of Requisition Lists] | Store-Ansicht | Bestimmt die maximale Anzahl von Anforderungslisten, die pro Kundenkonto verwaltet werden können. Die Mindestanzahl ist `2` und die Höchstzahl ist `999`. |
 
 {style="table-layout:auto"}

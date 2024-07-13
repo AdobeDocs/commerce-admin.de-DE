@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Beschaffungstypen für Händler
 
-[!DNL Commerce] unterstützt [!DNL Inventory Management] für alle Unternehmensgrößen, einschließlich eines einzigen Stores mit einer Website zu einem internationalen Netz von Websites, Geschäften, Lagern und Drop-Spediteuren. Alle Händler, die Adobe Commerce oder Magento Open Source verwenden, fallen je nach Anzahl der Standorte oder Quellen in Ihrem Unternehmen in zwei Typen.
+[!DNL Commerce] unterstützt [!DNL Inventory Management] für alle Unternehmensgrößen, einschließlich eines einzigen Geschäfts mit einer Website zu einem internationalen Netzwerk von Websites, Geschäften, Lagern und Drop-Spediteuren. Alle Händler, die Adobe Commerce oder Magento Open Source verwenden, fallen je nach Anzahl der Standorte oder Quellen in Ihrem Unternehmen in zwei Typen.
 
 - Einzelquellenhändler liefern Produkte von einem Ort aus. Sie werden als Einzelquellenhändler/-modus betrachtet, bis Sie mit dem Hinzufügen von benutzerdefinierten Quellen und Lagern zu Ihrer Installation beginnen.
 
@@ -26,15 +26,15 @@ Sie verfügen beispielsweise über eine Website oder eine Multi-Site-Implementie
 
 Erste Schritte:
 
-- Konfigurieren [globale und Produkteinstellungen](configuration.md) für den Lagerbestand Ihres Stores nach Bedarf.
+- Konfigurieren Sie die globalen Einstellungen [und die Produkteinstellungen](configuration.md) für den Lagerbestand Ihres Stores nach Bedarf.
 
-- Aktualisieren Sie die [Standardquelle](sources-manage.md) mit Informationen für Ihren einzelnen Lagerort. Das Erstellen zusätzlicher Quellen ist nicht erforderlich.
+- Aktualisieren Sie die [standardmäßige Source](sources-manage.md) mit Informationen für Ihren einzelnen Lagerort. Das Erstellen zusätzlicher Quellen ist nicht erforderlich.
 
-- Aktualisieren Sie die [Standardbestand](stocks-manage.md). Stellen Sie sicher, dass alle Ihre Websites als Vertriebskanäle ausgewählt sind. Beim Hinzufügen neuer Websites [!DNL Commerce] fügt sie automatisch zum Standardbestand hinzu. Die Erstellung zusätzlicher Lager ist nicht erforderlich.
+- Aktualisieren Sie den [Standardbestand](stocks-manage.md). Stellen Sie sicher, dass alle Ihre Websites als Vertriebskanäle ausgewählt sind. Wenn Sie neue Websites hinzufügen, fügt [!DNL Commerce] diese automatisch zum Standardbestand hinzu. Die Erstellung zusätzlicher Lager ist nicht erforderlich.
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen expandiert, fügen Sie zusätzliche Quellen und Lager hinzu und aktualisieren Sie Ihre [!DNL Inventory Management] -Konfiguration, um zu einem Multi-Source-Händler zu werden. Siehe [Inventar erweitern und umstrukturieren](expand-restructure.md) für alle Details.
+>Wenn Ihr Unternehmen expandiert, fügen Sie zusätzliche Quellen und Lager hinzu und aktualisieren Sie Ihre [!DNL Inventory Management]-Konfiguration, um zu einem Händler mit mehreren Quellen zu werden. Alle Details finden Sie unter [Inventar erweitern und neu strukturieren](expand-restructure.md) .
 
 ## Händler mit mehreren Quellen
 
@@ -46,9 +46,9 @@ Erste Schritte:
 
 - Konfigurieren Sie nach Bedarf globale Einstellungen für den Lagerbestand Ihres Stores.
 
-- Hinzufügen [benutzerdefinierte Quellen](sources-add.md) für Ihre Lagerstandorte: Lagerhäuser, Geschäfte, Vertriebszentren und Spediteure.
+- Fügen Sie [benutzerdefinierte Quellen](sources-add.md) für Ihre Lagerstandorte hinzu: Lagerhäuser, Geschäfte, Vertriebszentren und Spediteure.
 
-- Hinzufügen [benutzerdefinierte Bestände](stocks-add.md) für jede Region, um Ihre Websites mehreren Quellen zuzuordnen. Ordnen Sie die Quellen in jedem Lager in Priorität des Standorts an, was bei der Erfüllung Ihrer Bestellungen hilfreich ist.
+- Fügen Sie [benutzerdefinierte Lager](stocks-add.md) für jede Region hinzu, um Ihre Websites mit mehreren Quellen zu mappen. Ordnen Sie die Quellen in jedem Lager in Priorität des Standorts an, was bei der Erfüllung Ihrer Bestellungen hilfreich ist.
 
 - Weisen Sie den Produkten Quellen zu, indem Sie Mengen pro Standort hinzufügen.
 

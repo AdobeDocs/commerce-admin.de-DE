@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Ein konfigurierbares Produkt sieht aus wie ein einzelnes Produkt mit einer Dropdown-Liste jeder Variante. Jedes Listenelement ist tatsächlich ein separates einfaches Produkt mit einer eindeutigen SKU, die es ermöglicht, das Inventar für jede Produktvariante zu verfolgen. Sie können einen ähnlichen Effekt erzielen, indem Sie ein einfaches Produkt mit benutzerdefinierten Optionen verwenden, aber ohne die Möglichkeit, Inventar für jede Variante zu verfolgen.
 
-Die folgenden Anweisungen zeigen den Prozess der Erstellung eines konfigurierbaren Produkts mit einem [Produktvorlage](attribute-sets.md), erforderliche Felder und grundlegende Einstellungen. Jedes erforderliche Feld ist mit einem roten Sternchen (`*`). Wenn Sie die Grundlagen abgeschlossen haben, können Sie die anderen Produkteinstellungen nach Bedarf abschließen.
+Die folgenden Anweisungen zeigen den Prozess der Erstellung eines konfigurierbaren Produkts mit einer [Produktvorlage](attribute-sets.md), erforderlichen Feldern und grundlegenden Einstellungen. Jedes erforderliche Feld ist mit einem roten Sternchen (`*`) gekennzeichnet. Wenn Sie die Grundlagen abgeschlossen haben, können Sie die anderen Produkteinstellungen nach Bedarf abschließen.
 
 ![Konfigurierbares Produkt](./assets/product-configurable.png){width="700" zoomable="yes"}
 
@@ -22,7 +22,7 @@ Die folgenden Anweisungen zeigen den Prozess der Erstellung eines konfigurierbar
 
 Obwohl ein konfigurierbares Produkt mehr SKUs verwendet und die Einrichtung zunächst etwas länger dauern kann, kann es am Ende Zeit sparen. Wenn Sie Ihr Unternehmen erweitern möchten, ist der konfigurierbare Produkttyp eine gute Wahl für Produkte mit mehreren Optionen.
 
-Bevor Sie beginnen, bereiten Sie eine [Attributset](attribute-sets.md) , das ein Attribut enthält, das auf einen der zulässigen Eingabetypen für jede Produktvariante festgelegt ist. Beispielsweise kann der Attributsatz Dropdown-Attribute für Farbe und Größe enthalten.
+Bevor Sie beginnen, bereiten Sie einen [Attributsatz](attribute-sets.md) vor, der ein Attribut enthält, das auf einen der zulässigen Eingabetypen für jede Produktvariante festgelegt ist. Beispielsweise kann der Attributsatz Dropdown-Attribute für Farbe und Größe enthalten.
 
 Die Eigenschaften jedes Attributs, das für eine konfigurierbare Produktvariante verwendet wird, müssen die folgenden Einstellungen aufweisen:
 
@@ -31,26 +31,26 @@ Die Eigenschaften jedes Attributs, das für eine konfigurierbare Produktvariante
 | Eigenschaft | Einstellung |
 |--- |--- |
 | [!UICONTROL Scope] | `Global` |
-| [!UICONTROL Catalog Input Type for Store Owner] | Der Eingabetyp eines Attributs, das für eine Produktvariante verwendet wird, muss einer der folgenden sein: `Dropdown`, `Visual Swatch`oder `Text Swatch`. |
+| [!UICONTROL Catalog Input Type for Store Owner] | Der Eingabetyp eines Attributs, das für eine Produktvariante verwendet wird, muss einer der folgenden sein: `Dropdown`, `Visual Swatch` oder `Text Swatch`. |
 | [!UICONTROL Values Required] | `Yes` |
 
 {style="table-layout:auto"}
 
 ### Schritt 1: Produkttyp auswählen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu  **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Im _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) in der oberen rechten Ecke auswählen **[!UICONTROL Configurable Product]**.
+1. Wählen Sie im Menü _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) oben rechts **[!UICONTROL Configurable Product]**aus.
 
    ![Konfigurierbares Produkt hinzufügen](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
 ### Schritt 2: Attributsatz auswählen
 
-Die [Attributset](attribute-sets.md) bestimmt die Auswahl der Felder, die im Produkt verwendet werden. Der im folgenden Beispiel verwendete Attributsatz hat Attribute für Farbe und Größe. Der Name des Attributsatzes wird oben auf der Seite angezeigt und zunächst auf `Default`.
+Der [Attributsatz](attribute-sets.md) bestimmt die Auswahl der im Produkt verwendeten Felder. Der im folgenden Beispiel verwendete Attributsatz hat Attribute für Farbe und Größe. Der Name des Attributsatzes wird oben auf der Seite angezeigt und zunächst auf `Default` gesetzt.
 
 1. Um den Attributsatz für das Produkt auszuwählen, klicken Sie auf das Feld oben auf der Seite und führen Sie einen der folgenden Schritte aus:
 
-   - Für **[!UICONTROL Search]**, geben Sie den Namen des Attributsatzes ein.
+   - Geben Sie für &quot;**[!UICONTROL Search]**&quot;den Namen des Attributsatzes ein.
    - Wählen Sie in der Liste den Attributsatz aus, den Sie verwenden möchten.
 
    Das Formular wird entsprechend der Änderung aktualisiert.
@@ -61,74 +61,74 @@ Die [Attributset](attribute-sets.md) bestimmt die Auswahl der Felder, die im Pro
 
 ### Schritt 3: Ausführen der erforderlichen Einstellungen
 
-1. Produkt eingeben **[!UICONTROL Product Name]**.
+1. Geben Sie das Produkt **[!UICONTROL Product Name]** ein.
 
-1. Standard akzeptieren **[!UICONTROL SKU]** , der auf dem Produktnamen basiert, oder geben Sie einen anderen ein.
+1. Nehmen Sie die standardmäßige **[!UICONTROL SKU]** an, die auf dem Produktnamen basiert, oder geben Sie einen anderen ein.
 
-1. Produkt eingeben **[!UICONTROL Price]**.
+1. Geben Sie das Produkt **[!UICONTROL Price]** ein.
 
-1. Da das Produkt noch nicht zur Veröffentlichung bereit ist, legen Sie **[!UICONTROL Enable Product]** nach `No`.
+1. Da das Produkt noch nicht zur Veröffentlichung bereit ist, setzen Sie **[!UICONTROL Enable Product]** auf `No`.
 
-1. click **[!UICONTROL Save]** und fortfahren.
+1. Klicken Sie auf **[!UICONTROL Save]** und fahren Sie fort.
 
-   Wenn das Produkt gespeichert wird, wird die [Store-Ansicht](introduction.md#product-scope) wird in der linken oberen Ecke angezeigt.
+   Wenn das Produkt gespeichert wird, wird die Auswahl für die [Store-Ansicht](introduction.md#product-scope) in der oberen linken Ecke angezeigt.
 
-1. Wählen Sie die **[!UICONTROL Store View]** wo das Produkt verfügbar sein soll.
+1. Wählen Sie die **[!UICONTROL Store View]** aus, in der das Produkt verfügbar sein soll.
 
    ![Auswählen der Store-Ansicht](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ### Schritt 4: Grundlegende Einstellungen durchführen
 
-1. Satz **[!UICONTROL Tax Class]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Tax Class]** auf einen der folgenden Werte:
 
    - `None`
    - `Taxable Goods`
 
-1. Die **[!UICONTROL Quantity]** wird durch die Produktvarianten bestimmt, sodass Sie es leer lassen können.
+1. Die **[!UICONTROL Quantity]** wird durch die Produktvarianten bestimmt, sodass Sie sie leer lassen können.
 
-1. Lassen Sie die **[!UICONTROL Stock Status]** festgelegt ist.
+1. Belassen Sie die **[!UICONTROL Stock Status]** wie festgelegt.
 
-   Der Lagerstatus eines konfigurierbaren Produkts wird durch jede zugeordnete Konfiguration bestimmt. Da das Produkt ohne Eingabe einer Menge gespeichert wurde, wird die **[!UICONTROL Stock Status]** auf `Out of Stock`.
+   Der Lagerstatus eines konfigurierbaren Produkts wird durch jede zugeordnete Konfiguration bestimmt. Da das Produkt gespeichert wurde, ohne eine Menge einzugeben, wird **[!UICONTROL Stock Status]** auf `Out of Stock` gesetzt.
 
    >[!NOTE]
    >
-   >Die **Lagerstatus** des konfigurierbaren Produkts ist ein **_halbmanuell_** geregelte Einstellung. Sie wird zum Teil durch den Bestandsstatus ihrer untergeordneten Produkte kontrolliert. Es ist Teil eines **_Mehrfachkriterien_** Berechnung des Aktienstatus, wie im Abschnitt [Konfigurieren des Lagerstatus](#configure-the-stock-status) Abschnitt.
+   >Der **Lagerstatus** des konfigurierbaren Produkts ist eine durch **_halbmanuell_** gesteuerte Einstellung. Sie wird zum Teil durch den Bestandsstatus ihrer untergeordneten Produkte kontrolliert. Sie ist Teil einer Aktienstatusberechnung mit **_mehreren Kriterien_**, die im Abschnitt [Lagerstatus konfigurieren](#configure-the-stock-status) beschrieben wird.
 
-1. Produkt eingeben **[!UICONTROL Weight]**.
+1. Geben Sie das Produkt **[!UICONTROL Weight]** ein.
 
 >[!NOTE]
 >
->Ein konfigurierbares Produkt muss immer eine Gewichtung aufweisen. Wenn Sie **[!UICONTROL This item has no weight]** aus der Dropdown-Liste wird er automatisch in **[!UICONTROL This item has weight]** nach dem Speichern des Produkts.
+>Ein konfigurierbares Produkt muss immer eine Gewichtung aufweisen. Wenn Sie aus der Dropdownliste die Option &quot;**[!UICONTROL This item has no weight]**&quot; auswählen, wird sie nach dem Speichern des Produkts automatisch in &quot;**[!UICONTROL This item has weight]**&quot;geändert.
 
-1. Standard akzeptieren **[!UICONTROL Visibility]** Einstellung von `Catalog, Search`.
+1. Nehmen Sie die standardmäßige **[!UICONTROL Visibility]** -Einstellung von `Catalog, Search` an.
 
-1. So stellen Sie das Produkt in der Liste der [neue Produkte](../content-design/widget-new-products-list.md), wählen Sie die **[!UICONTROL Set Product as New]** aktivieren.
+1. Um das Produkt in der Liste der [neuen Produkte](../content-design/widget-new-products-list.md) zu kennzeichnen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Set Product as New]** .
 
-1. Um dem Produkt Kategorien zuzuweisen, klicken Sie auf das **[!UICONTROL Select…]** und führen Sie einen der folgenden Schritte aus:
+1. Um dem Produkt Kategorien zuzuweisen, klicken Sie auf das Feld **[!UICONTROL Select…]** und führen Sie einen der folgenden Schritte aus:
 
-   **Vorhandene Kategorie auswählen**:
+   **Wählen Sie eine vorhandene Kategorie**:
 
    - Beginnen Sie mit der Eingabe in das Feld, bis Sie eine Übereinstimmung finden.
 
    - Aktivieren Sie das Kontrollkästchen der Kategorie, die zugewiesen werden soll.
 
-   ![Wählen Sie eine oder mehrere Kategorien für das Paket-Produkt aus](./assets/product-create-categories.png){width="600" zoomable="yes"}
+   ![Wählen Sie eine oder mehrere Kategorien für das Bundle-Produkt aus](./assets/product-create-categories.png){width="600" zoomable="yes"}
 
    **Erstellen einer Kategorie**:
 
-   - Klicks **[!UICONTROL New Category]**.
+   - Klicken Sie auf **[!UICONTROL New Category]**.
 
-   - Geben Sie die **[!UICONTROL Category Name]** und wählen Sie **[!UICONTROL Parent Category]**, der seine Position in der Menüstruktur bestimmt.
+   - Geben Sie den Wert **[!UICONTROL Category Name]** ein und wählen Sie den Wert **[!UICONTROL Parent Category]** aus, der seine Position in der Menüstruktur bestimmt.
 
-   s-Click **[!UICONTROL Create Category]**.
+   s - Klicken Sie auf **[!UICONTROL Create Category]**.
 
-1. Wählen Sie die **[!UICONTROL Country of Manufacture]**.
+1. Wählen Sie die **[!UICONTROL Country of Manufacture]** aus.
 
    Es kann zusätzliche Attribute geben, mit denen das Produkt beschrieben wird. Die Auswahl variiert je nach Attributsatz und kann zu einem späteren Zeitpunkt abgeschlossen werden.
 
 ### Schritt 5: Speichern und fortfahren
 
-Jetzt ist eine gute Zeit, um Ihre Arbeit zu retten. Klicken Sie oben rechts auf **[!UICONTROL Save]**. In den nächsten Schritten richten Sie die Konfigurationen für jede Produktvariante ein.
+Jetzt ist eine gute Zeit, um Ihre Arbeit zu retten. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Save]**. In den nächsten Schritten richten Sie die Konfigurationen für jede Produktvariante ein.
 
 ## Teil 2: Hinzufügen von Konfigurationen
 
@@ -138,27 +138,27 @@ Die Fortschrittsleiste am oberen Seitenrand zeigt an, wo Sie sich im Prozess bef
 
 ### Schritt 1: Attribute auswählen
 
-1. Scrollen Sie von oben nach unten zum _[!UICONTROL Configurations]_und klicken Sie auf **[!UICONTROL Create Configurations]**.
+1. Scrollen Sie weiter oben zum Abschnitt _[!UICONTROL Configurations]_hinunter und klicken Sie auf **[!UICONTROL Create Configurations]**.
 
    ![Konfigurationen](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
 1. Aktivieren Sie das Kontrollkästchen jedes Attributs, das Sie als Konfiguration einbeziehen möchten.
 
-   In diesem Beispiel `color` und `size` ausgewählt sind.
+   Für dieses Beispiel sind `color` und `size` ausgewählt.
 
    ![Attribute auswählen](./assets/product-create-configurable-step1.png){width="600" zoomable="yes"}
 
    Die Liste enthält alle Attribute aus dem Attributsatz, die in einem konfigurierbaren Produkt verwendet werden können.
 
-1. Wenn Sie ein Attribut hinzufügen möchten, klicken Sie auf **[!UICONTROL Create New Attribute]** und gehen Sie wie folgt vor:
+1. Wenn Sie ein Attribut hinzufügen möchten, klicken Sie auf **[!UICONTROL Create New Attribute]** und führen Sie die folgenden Schritte aus:
 
    - Füllen Sie die Attributeigenschaften aus.
 
-   - Klicks **[!UICONTROL Save Attribute]**.
+   - Klicken Sie auf **[!UICONTROL Save Attribute]**.
 
    - Aktivieren Sie das Kontrollkästchen für das Attribut.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Next]**.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Next]**.
 
 ### Schritt 2: Attributwerte eingeben
 
@@ -166,7 +166,7 @@ Die Fortschrittsleiste am oberen Seitenrand zeigt an, wo Sie sich im Prozess bef
 
    ![Attributwerte](./assets/product-create-configurable-step2.png){width="600" zoomable="yes"}
 
-1. Um die Attribute neu anzuordnen, rufen Sie die _Neu anordnen_ ( ![Symbol &quot;Sortierung&quot;](../assets/icon-sort-order.png) ) und verschieben Sie den Abschnitt an eine neue Position.
+1. Um die Attribute neu anzuordnen, greifen Sie auf das Symbol _Neu anordnen_ ( ![Symbol &quot;Sortierreihenfolge&quot;](../assets/icon-sort-order.png) ) und verschieben Sie den Abschnitt an eine neue Position.
 
    Die Reihenfolge bestimmt die Position der Dropdownlisten auf der Produktseite.
 
@@ -178,67 +178,67 @@ Dieser Schritt bestimmt die Bilder, Preise und Menge jeder Konfiguration. Die ve
 
 Wählen Sie die zutreffenden Konfigurationsoptionen aus.
 
-Verwenden Sie eine der folgenden Methoden, um die **[!UICONTROL images]**:
+Verwenden Sie eine der folgenden Methoden, um den **[!UICONTROL images]** zu konfigurieren:
 
-**Methode 1:** Anwenden eines einzigen Bildsatzes auf alle SKUs
+**Methode 1:** Anwenden eines einzelnen Bildsatzes auf alle SKUs
 
-1. Auswählen **[!UICONTROL Apply single set of images to all SKUs]**.
+1. Wählen Sie **[!UICONTROL Apply single set of images to all SKUs]** aus.
 
 1. Navigieren Sie zu jedem Bild, das Sie in die Produktgalerie aufnehmen möchten, oder ziehen Sie es in das Feld.
 
-![Verwenden Sie dieselben Bilder für alle SKUs.](./assets/product-configurations-images-apply-single-set.png){width="600" zoomable="yes"}
+![Verwenden Sie dieselben Bilder für alle SKUs](./assets/product-configurations-images-apply-single-set.png){width="600" zoomable="yes"}
 
 **Methode 2:** Anwenden eindeutiger Bilder für jede SKU
 
 Da das Bild für das übergeordnete Produkt bereits hochgeladen wurde, können Sie mit dieser Option ein Bild jeder Farbe hochladen. Sie können ein anderes Bild hinzufügen, das im Warenkorb angezeigt wird, wenn jemand den Artikel in einer bestimmten Farbe kauft.
 
-1. Auswählen **[!UICONTROL Apply unique images by attribute to each SKU]**.
+1. Wählen Sie **[!UICONTROL Apply unique images by attribute to each SKU]** aus.
 
-1. Wählen Sie die **[!UICONTROL Attribute]** dass die Bilder illustrieren, z. B. `color`.
+1. Wählen Sie den **[!UICONTROL Attribute]** aus, den die Bilder illustrieren, z. B. `color`.
 
 1. Durchsuchen Sie für jeden Attributwert die Bilder, die Sie für diese Konfiguration verwenden möchten, oder ziehen Sie sie in das Feld.
 
-   Wenn Sie das Bild in ein Wertefeld ziehen, wird es auch in den Abschnitten für die anderen Werte angezeigt. Wenn Sie ein Bild löschen möchten, klicken Sie auf die _Papierkorb_ (![Papierkorbsymbol](../assets/icon-delete-trashcan-solid.png)).
+   Wenn Sie das Bild in ein Wertefeld ziehen, wird es auch in den Abschnitten für die anderen Werte angezeigt. Wenn Sie ein Bild löschen möchten, klicken Sie auf das Symbol &quot;_Papierkorb_&quot;(![Papierkorbsymbol](../assets/icon-delete-trashcan-solid.png)).
 
    ![Eindeutige Bilder pro SKU](./assets/product-configurable-create-configurations-add-images-unique.png){width="600" zoomable="yes"}
 
-Verwenden Sie eine der folgenden Methoden, um die **[!UICONTROL prices]**:
+Verwenden Sie eine der folgenden Methoden, um den **[!UICONTROL prices]** zu konfigurieren:
 
 >[!NOTE]
 >
->Ein konfigurierbares Produkt hat keinen eigenen Preis im Katalog. Der konfigurierbare Produktpreis ergibt sich aus dem [!UICONTROL In Stock] untergeordnete Produkte.
+>Ein konfigurierbares Produkt hat keinen eigenen Preis im Katalog. Der konfigurierbare Produktpreis wird von den untergeordneten [!UICONTROL In Stock] -Produkten abgeleitet.
 
-**Methode 1:** Den gleichen Preis auf alle SKUs anwenden
+**Methode 1:** Wenden Sie denselben Preis auf alle SKUs an
 
-1. Wenn der Preis für alle Varianten gleich ist, wählen Sie **[!UICONTROL Apply single price to all SKUs]**.
+1. Wenn der Preis für alle Varianten gleich ist, wählen Sie **[!UICONTROL Apply single price to all SKUs]** aus.
 
-1. Geben Sie die **[!UICONTROL Price]**.
+1. Geben Sie den Wert **[!UICONTROL Price]** ein.
 
-   ![Gleicher Preis pro SKU](./assets/product-configurable-create-configurations-price-all-skus.png){width="600" zoomable="yes"}
+   ![Derselbe Preis pro SKU](./assets/product-configurable-create-configurations-price-all-skus.png){width="600" zoomable="yes"}
 
 **Methode 2:** Anwenden eines anderen Preises für jede SKU
 
-1. Wenn der Preis für jede oder für einige Varianten des Produkts unterschiedlich ist, wählen Sie **[!UICONTROL Apply unique prices by attribute to each SKU]**.
+1. Wenn der Preis für jede oder für einige Varianten des Produkts unterschiedlich ist, wählen Sie **[!UICONTROL Apply unique prices by attribute to each SKU]** aus.
 
-1. Wählen Sie die **[!UICONTROL Attribute]** die Grundlage der Preisdifferenz ist.
+1. Wählen Sie die **[!UICONTROL Attribute]** aus, die die Grundlage der Preisdifferenz darstellt.
 
-1. Geben Sie die **[!UICONTROL Price]** für jeden Attributwert.
+1. Geben Sie für jeden Attributwert den Wert **[!UICONTROL Price]** ein.
 
    In diesem Beispiel kostet die XL-Größe mehr.
 
-   ![Einzelpreis pro SKU](./assets/product-configurable-create-configurations-price-unique.png){width="600" zoomable="yes"}
+   ![Eindeutiger Preis pro SKU](./assets/product-configurable-create-configurations-price-unique.png){width="600" zoomable="yes"}
 
-Verwenden Sie eine der folgenden Methoden, um die **[!UICONTROL Quantity]**:
+Verwenden Sie eine der folgenden Methoden, um den **[!UICONTROL Quantity]** zu konfigurieren:
 
-**Methode 1:** Dieselbe Menge auf alle SKUs anwenden
+**Methode 1:** Wenden Sie dieselbe Menge auf alle SKUs an
 
 Wenn die Menge für alle SKUs identisch ist, wählen Sie **[!UICONTROL Apply single quantity to each SKU]** und geben Sie die Menge an.
 
-_Einzelquell-Händler_ - Geben Sie die **[!UICONTROL Quantity]**.
+_Einzelquellenhändler_ - Geben Sie den **[!UICONTROL Quantity]** ein.
 
-_Multi-Source-Händler mit [Inventory management](../inventory-management/introduction.md)_ - Weisen Sie Quellen zu und fügen Sie für alle erzeugten Produktvarianten Mengen hinzu:
+_Multi-Source-Händler, die [Inventory management](../inventory-management/introduction.md)_ verwenden: Weisen Sie Quellen zu und fügen Sie Mengen für alle generierten Produktvarianten hinzu:
 
-1. Wählen Sie die **[!UICONTROL Apply single quantity to each SKU]** -Option.
+1. Wählen Sie die Option **[!UICONTROL Apply single quantity to each SKU]** aus.
 
 1. Um eine Quelle hinzuzufügen, klicken Sie auf **[!UICONTROL Assign Sources]**.
 
@@ -250,17 +250,17 @@ _Multi-Source-Händler mit [Inventory management](../inventory-management/introd
 
 **Methode 2:** Anwenden einer anderen Menge nach Attribut
 
-_Einzelquell-Händler_ - Geben Sie die **[!UICONTROL Quantity]**.
+_Einzelquellenhändler_ - Geben Sie den **[!UICONTROL Quantity]** ein.
 
-_Multi-Source-Händler mit [Inventory management](../inventory-management/introduction.md)_ - Weisen Sie Quellen zu und fügen Sie für alle erzeugten Produktvarianten Mengen hinzu:
+_Multi-Source-Händler, die [Inventory management](../inventory-management/introduction.md)_ verwenden: Weisen Sie Quellen zu und fügen Sie Mengen für alle generierten Produktvarianten hinzu:
 
-1. Wenn die Menge für jede SKU unterschiedlich ist, wählen Sie **[!UICONTROL Apply unique quantity by attribute to each SKU]**.
+1. Wenn die Menge für jede SKU unterschiedlich ist, wählen Sie **[!UICONTROL Apply unique quantity by attribute to each SKU]** aus.
 
-1. Geben Sie die **[!UICONTROL Quantity]** für jede.
+1. Geben Sie jeweils den Wert **[!UICONTROL Quantity]** ein.
 
    ![Verschiedene Mengen pro Attribut](./assets/product-configurations-quantity-different.png){width="600" zoomable="yes"}
 
-Klicken Sie nach Abschluss der Konfiguration für Bilder, Preise und Menge auf **[!UICONTROL Next]** in der oberen rechten Ecke.
+Wenn die Konfiguration für Bilder, Preise und Menge abgeschlossen ist, klicken Sie oben rechts auf **[!UICONTROL Next]** .
 
 ### Schritt 4: Produktkonfigurationen generieren
 
@@ -268,19 +268,19 @@ Warten Sie einen Moment, bis die Liste der Produkte angezeigt wird, und führen 
 
 - Wenn Sie mit den Konfigurationen zufrieden sind, klicken Sie auf **[!UICONTROL Generate Products]**.
 
-- Um Korrekturen vorzunehmen, klicken Sie auf **[!UICONTROL Back]**.
+- Klicken Sie auf &quot;**[!UICONTROL Back]**&quot;, um Korrekturen vorzunehmen.
 
-![Lesen Sie die Zusammenfassung, bevor Sie Produktvarianten generieren](./assets/product-create-configurable-summary.png){width="600" zoomable="yes"}
+![Überprüfen Sie die Zusammenfassung, bevor Sie Produktvarianten generieren](./assets/product-create-configurable-summary.png){width="600" zoomable="yes"}
 
-Die aktuellen Produktvarianten werden unten in der _Konfiguration_ Abschnitt.
+Die aktuellen Produktvarianten werden unten im Abschnitt _Konfiguration_ angezeigt.
 
 ![Aktuelle Konfigurationen](./assets/product-create-configurable-generated.png){width="600" zoomable="yes"}
 
 ### Schritt 5: Hinzufügen von Produktbildern
 
-1. Hinunter scrollen und erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die _[!UICONTROL Images and Videos]_Abschnitt.
+1. Scrollen Sie nach unten und erweitern Sie den Abschnitt _[!UICONTROL Images and Videos]_um den ![Erweiterungsselektor](../assets/icon-display-expand.png).
 
-1. Klicken Sie auf _Kamera_ und navigieren Sie zum Hauptbild, das Sie für das konfigurierbare Produkt verwenden möchten.
+1. Klicken Sie auf die Kachel _Kamera_ und navigieren Sie zum Hauptbild, das Sie für das konfigurierbare Produkt verwenden möchten.
 
 Weitere Informationen finden Sie unter [Bilder und Videos](product-images-and-video.md).
 
@@ -302,15 +302,15 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
 - [Geschenkoptionen](product-gift-options.md)
 
-### Schritt 7: Produkt veröffentlichen
+### Schritt 7: Publish des Produkts
 
-1. Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, legen Sie **[!UICONTROL Enable Product]** nach `Yes` und führen Sie einen der folgenden Schritte aus:
+1. Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, setzen Sie **[!UICONTROL Enable Product]** auf `Yes` und führen Sie einen der folgenden Schritte aus:
 
    - **Methode 1:** Speichern und Vorschau anzeigen
 
-      - Klicken Sie oben rechts auf **[!UICONTROL Save]**.
+      - Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Save]**.
 
-      - Um das Produkt in Ihrem Geschäft anzuzeigen, wählen Sie **[!UICONTROL Customer View]** auf _Admin_ ( ![Menüpfeil](../assets/icon-menu-down-arrow-black.png) ).
+      - Um das Produkt in Ihrem Store anzuzeigen, wählen Sie im Menü _Admin_ ( ![Menüpfeil](../assets/icon-menu-down-arrow-black.png) ) die Option **[!UICONTROL Customer View]** aus.
 
      Der Store wird in einer neuen Browser-Registerkarte geöffnet.
 
@@ -318,67 +318,67 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
    - **Methode 2:** Speichern und schließen
 
-     Im _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ), wählen Sie **[!UICONTROL Save & Close]**.
+     Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**.
 
 ### Schritt 8: Konfigurieren Sie die Miniaturansichten des Warenkorbs
 
 Wenn Sie für jede Variante ein anderes Bild haben, können Sie die Konfiguration so konfigurieren, dass das richtige Bild für die Warenkorbminiatur verwendet wird.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Checkout]** darunter.
+1. Erweitern Sie im linken Bedienfeld den Wert **[!UICONTROL Sales]** und wählen Sie unter &quot;**[!UICONTROL Checkout]**&quot;.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die _[!UICONTROL Shopping Cart]_Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt _[!UICONTROL Shopping Cart]_.
 
-1. Satz **[!UICONTROL Configurable Product Image]** nach `Product Thumbnail Itself`.
+1. Setzen Sie **[!UICONTROL Configurable Product Image]** auf `Product Thumbnail Itself`.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
    ![Warenkorb - konfigurierbares Produktbild](./assets/config-checkout-configurable-product.png){width="600" zoomable="yes"}
 
 ## Konfigurieren des Lagerstatus
 
-Der konfigurierbare Produktstatus unterscheidet sich vom Lagerstatus des einfachen Produkts, wobei es sich um eine direkte Darstellung der Produktverfügbarkeit handelt. Bei einem konfigurierbaren Produkt ist der Lagerstatus Teil eines **_Mehrfachkriterien_** Berechnung des Aktienstatus.
+Der konfigurierbare Produktstatus unterscheidet sich vom Lagerstatus des einfachen Produkts, wobei es sich um eine direkte Darstellung der Produktverfügbarkeit handelt. Bei einem konfigurierbaren Produkt ist der Lagerstatus Teil einer **_Berechnung des Aktienstatus mit mehreren Kriterien_**.
 
 ### Übersicht
 
 Die wichtigsten Grundsätze für die Beziehungen zum Lagerstatus sind:
 
-- Wenn Sie die **[!UICONTROL Stock Status]** des konfigurierbaren Produkts `Out of Stock` und klicken **[!UICONTROL Save]**, ist es **_nicht kontrolliert_** nach dem Bestandsstatus der untergeordneten Erzeugnisse. Sie wird immer als `Out of Stock` in der Admin- und Storefront angezeigt.
+- Wenn Sie den **[!UICONTROL Stock Status]** des konfigurierbaren Produkts in `Out of Stock` ändern und auf **[!UICONTROL Save]** klicken, wird er **_nicht durch den Lagerstatus seiner untergeordneten Produkte gesteuert_**. Er wird immer als `Out of Stock` in der Admin- und Storefront angezeigt.
 
-- Wenn Sie **[!UICONTROL Stock Status]** des konfigurierbaren Produkts `In Stock` und klicken **[!UICONTROL Save]**, ist es **_nur teilweise kontrolliert_** durch den Lagerstatus der untergeordneten Produkte, der sich in der Admin- und Storefront widerspiegelt.
+- Wenn Sie den **[!UICONTROL Stock Status]** des konfigurierbaren Produkts auf `In Stock` setzen und auf **[!UICONTROL Save]** klicken, wird **_nur teilweise durch den Lagerstatus der untergeordneten Produkte gesteuert, was in der Admin- und Storefront angezeigt wird._**
 
 ### Detaillierte Beschreibung
 
-Die _Lagerstatus_ des konfigurierbaren Produkts teilweise durch den Lagerstatus seiner untergeordneten Produkte kontrolliert wird, und zwar gemäß **_Mehrfachkriterien_** Bestandsstatusberechnungen:
+Der _Lagerstatus_ des konfigurierbaren Produkts wird teilweise durch den Lagerstatus seiner untergeordneten Produkte und gemäß den folgenden **_Mehrfachkriterien_** Bestandsstatusberechnungen gesteuert:
 
 #### Nur Standardquelle/Lager:
 
-- Wenn der konfigurierbare Produktstatus &quot;Stock Status&quot;lautet **_manuell_** auf `Out of Stock` von einem Admin-Benutzer, Dateiimport oder API-Aufruf beibehalten als `Out of Stock` auf beiden **_Admin_** und **_Storefront_** bis  **_manuell_** geändert auf `In stock` durch einen Admin-Benutzer, einen Dateiimport oder einen API-Aufruf. Sie kann nicht durch den Bestandsstatus ihrer untergeordneten Produkte kontrolliert werden.
+- Wenn der konfigurierbare Produktspeicherstatus von einem Admin-Benutzer, Dateiimport oder API-Aufruf auf **_manuell_** festgelegt ist, bleibt er sowohl für den **_Admin_** als auch für den **_Storefront_** als `Out of Stock`, bis er von einem Admin-Benutzer, Dateiimport oder API-Aufruf auf **_manuell_** geändert wird. `Out of Stock``In stock` Sie kann nicht durch den Bestandsstatus ihrer untergeordneten Produkte kontrolliert werden.
 
-- Wenn der konfigurierbare Produktstatus &quot;Stock Status&quot;lautet **_manuell_** auf `In Stock` durch einen Admin-Benutzer, einen Dateiimport- oder API-Aufruf, lautet der Lagerstatus **_automatisch_** durch den Bestandsstatus seiner untergeordneten Erzeugnisse auf beiden **_Admin_** und **_Storefront_**.
+- Wenn der konfigurierbare Produktspeicherstatus von einem Admin-Benutzer, Dateiimport oder API-Aufruf auf **_manuell_** festgelegt wird, wird der Lagerstatus von **_automatisch_** durch den Lagerstatus seiner untergeordneten Produkte sowohl in der **_Admin_** als auch in der **_Storefront_** gesteuert.`In Stock`
 
 >[!NOTE]
 >
->Benutzerdefinierte Bestände und Quellen sind Teil der [Inventory management](../inventory-management/sources-stocks.md) und es wird dringend empfohlen, dieses Tool ausschließlich für die Verwaltung von Lager und Quelle zu verwenden. Die standardmäßigen Quell- und Lagerfunktionen sind Teil der `CatalogInventory` -Modul, das jetzt nicht mehr unterstützt wird.
+>Benutzerdefinierte Lager und Quellen sind Teil der Erweiterung [Inventory management](../inventory-management/sources-stocks.md) und es wird dringend empfohlen, dieses Tool ausschließlich für die Verwaltung von Lagern und Quellen zu verwenden. Die standardmäßigen Quell- und Lagerfunktionen sind Teil des Moduls `CatalogInventory`, das jetzt nicht mehr unterstützt wird.
 
 #### Mit mindestens einer benutzerdefinierten Quelle/Lager:
 
-- Wenn der konfigurierbare Produktstatuswert **_manuell_** auf `Out of Stock` von einem Admin-Benutzer, Dateiimport oder API-Aufruf beibehalten als `Out of Stock` auf beiden **_Admin_** und **_Storefront_** bis **_manuell_** geändert auf `In Stock` durch einen Admin-Benutzer, einen Dateiimport oder einen API-Aufruf. Es **_cannot_** durch den Bestandsstatus seiner untergeordneten Erzeugnisse kontrolliert werden.
+- Wenn der konfigurierbare Wert für den Produktstatus-Status **_manuell_** von einem Admin-Benutzer, Dateiimport oder API-Aufruf auf `Out of Stock` festgelegt ist, bleibt er sowohl in der **_Admin_**- als auch in der **_Storefront_** als `Out of Stock` erhalten, bis er von einem Admin-Benutzer, Dateiimport oder API-Aufruf auf **_manuell_** geändert wird. `In Stock` Er kann **_nicht_** durch den Lagerstatus seiner untergeordneten Produkte gesteuert werden.
 
-- Wenn der konfigurierbare Produktstatuswert **_manuell_** auf `In Stock` durch einen Admin-Benutzer, einen Dateiimport- oder API-Aufruf, lautet der Lagerstatus **_automatisch_** durch den Bestandsstatus seiner untergeordneten Erzeugnisse auf der **_Storefront_** nur.
+- Wenn der konfigurierbare Wert für den Produktstatus &quot;Stock Status&quot;von einem Admin-Benutzer, Dateiimport oder API-Aufruf auf &quot;**_manuell_**&quot;`In Stock` festgelegt ist, wird sein Lagerstatus nur durch den Lagerstatus seiner untergeordneten Produkte in der **_Storefront_** automatisch gesteuert.**__**
 
-- Wenn der konfigurierbare Produktstatuswert **_manuell_** auf `In Stock` von einem Admin-Benutzer, Dateiimport oder API-Aufruf beibehalten als `In Stock` im **_Admin_** bis **_manuell_** geändert auf `Out of Stock` durch einen Admin-Benutzer, einen Dateiimport oder einen API-Aufruf. Es **_cannot_** durch den Bestandsstatus seiner untergeordneten Erzeugnisse kontrolliert werden.
+- Wenn der konfigurierbare Wert für den Produktstatus-Status **_manuell_** von einem Admin-Benutzer, Dateiimport oder API-Aufruf auf `In Stock` festgelegt ist, bleibt er im **_Admin_** als `In Stock` erhalten, bis er von einem Admin-Benutzer, Dateiimport oder API-Aufruf auf **_manuell_** geändert wird. `Out of Stock` Er kann **_nicht_** durch den Lagerstatus seiner untergeordneten Produkte gesteuert werden.
 
 ## Dinge, die man sich merken sollte
 
 - Ein konfigurierbares Produkt ermöglicht es dem Käufer, Optionen aus Dropdown-, Mehrfachauswahl-, visuellen Farb- und Textmuster-Eingabetypen auszuwählen. Jede Option ist ein separates, einfaches Produkt.
 
-- [Lagerstatus](../inventory-management/sources-stocks.md) für ein konfigurierbares Produkt eine halbmanuell gesteuerte Einstellung ist. Sie unterscheidet sich vom Lagerstatus des einfachen Produkts, wobei es sich um eine direkte Darstellung der Produktverfügbarkeit handelt. Bei einem konfigurierbaren Produkt ist der Lagerstatus Teil einer Berechnung des Aktienstatus mit mehreren Kriterien.
+- [Lagerstatus](../inventory-management/sources-stocks.md) für ein konfigurierbares Produkt ist eine halbmanuell gesteuerte Einstellung. Sie unterscheidet sich vom Lagerstatus des einfachen Produkts, wobei es sich um eine direkte Darstellung der Produktverfügbarkeit handelt. Bei einem konfigurierbaren Produkt ist der Lagerstatus Teil einer Berechnung des Aktienstatus mit mehreren Kriterien.
 
-- Konfigurierbare untergeordnete Produkte können einfache oder virtuelle Produkte sein **ohne benutzerdefinierte Optionen**. Um benutzerdefinierte untergeordnete Produkte virtuell zu gestalten, müssen Sie `Тhis item has no weight` für die **[!UICONTROL Weight]** -Einstellung für jeden von ihnen.
+- Konfigurierbare untergeordnete Produkte können einfache oder virtuelle Produkte **ohne benutzerdefinierte Optionen** sein. Um benutzerdefinierte untergeordnete Produkte virtuell zu machen, müssen Sie für jede dieser Optionen **[!UICONTROL Weight]** als Einstellung wählen.`Тhis item has no weight`
 
-- Ein konfigurierbares Produkt hat keinen eigenen Preis im Katalog. Der konfigurierbare Produktpreis ergibt sich aus dem [!UICONTROL In Stock] untergeordnete Produkte.
+- Ein konfigurierbares Produkt hat keinen eigenen Preis im Katalog. Der konfigurierbare Produktpreis wird von den untergeordneten [!UICONTROL In Stock] -Produkten abgeleitet.
 
 - Die Attribute, die für Produktvarianten verwendet werden, müssen einen globalen Umfang aufweisen und der Kunde muss einen Wert auswählen müssen. Die Produktvariantenattribute müssen in den Attributsatz aufgenommen werden, der als Vorlage für das konfigurierbare Produkt verwendet wird.
 
@@ -386,6 +386,6 @@ Die _Lagerstatus_ des konfigurierbaren Produkts teilweise durch den Lagerstatus 
 
 - Das Miniaturbild im Warenkorb kann so eingestellt werden, dass es das Bild aus dem konfigurierbaren Produktdatensatz oder aus der Produktvariante anzeigt.
 
-- [Farbattribute](swatches.md#create-swatches-for-products) kann so konfiguriert werden, dass keine entsprechenden einfachen Produktbilder angezeigt werden, wenn das Farbfeld ausgewählt wird, indem Sie die Einstellung **[!UICONTROL Update Product Preview Image]** Optionswert auf `No` auf der Seite zur Attributbearbeitung in der Admin-Konsole.
+- [Farbfeldattribute](swatches.md#create-swatches-for-products) können so konfiguriert werden, dass keine entsprechenden einfachen Produktbilder angezeigt werden, wenn das Muster ausgewählt wird, indem der Optionswert **[!UICONTROL Update Product Preview Image]** auf der Attributbearbeitungsseite in der Admin-Konsole auf `No` gesetzt wird.
 
-- Das Design steuert, wie sich die Image Gallery verhält, wenn ein Benutzer zwischen Produktkonfigurationen wechselt. Das Standardverhalten für die _Leer_ -Design ist es, die übergeordneten konfigurierbaren Produktbilder mit der ausgewählten Produktvariante zu überschreiben. Beim Thema Luma besteht das Standardverhalten darin, den übergeordneten konfigurierbaren Produktbildern die ausgewählten Produktvariantenbilder vorzuhängen.
+- Das Design steuert, wie sich die Image Gallery verhält, wenn ein Benutzer zwischen Produktkonfigurationen wechselt. Das Standardverhalten des Designs _Leer_ besteht darin, die übergeordneten konfigurierbaren Produktbilder mit der ausgewählten Produktvariante zu überschreiben. Beim Thema Luma besteht das Standardverhalten darin, den übergeordneten konfigurierbaren Produktbildern die ausgewählten Produktvariantenbilder vorzuhängen.

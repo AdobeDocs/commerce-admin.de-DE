@@ -5,7 +5,7 @@ exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 feature: Payments
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Bei Händlern außerhalb der USA heißt es: _PayPal Website Payments Standard_.
+>Bei Händlern außerhalb der USA wird dies als _PayPal Website Payments Standard_ bezeichnet.
 
 Mit PayPal Payments Standard können Sie Kreditkarten auf Mobilgeräten wischen. Es gibt keine monatliche Gebühr und Sie können per eBay bezahlt werden. Zu den unterstützten Kreditkarten gehören Visa, MasterCard, Discover und American Express. Darüber hinaus können Kunden direkt von ihren persönlichen PayPal-Konten bezahlen. PayPal Payments Standard ist in allen Ländern auf der weltweiten PayPal Referenzliste verfügbar.
 
 >[!IMPORTANT]
 >
->**PSD2-Anforderungen:** <br/>
->Ab dem 14. September 2019 könnten europäische Banken Zahlungen ablehnen, die nicht erfüllt sind [PSD2](../getting-started/compliance-payment-services-directive.md) Anforderungen. Für die Einhaltung von PSD2 ist kein Eingreifen erforderlich, da alle Anforderungen von PayPal bearbeitet werden.
+>**Anforderungen an PSD2:** <br/>
+>Ab dem 14. September 2019 könnten europäische Banken Zahlungen ablehnen, die nicht den Anforderungen von [PSD2](../getting-started/compliance-payment-services-directive.md) entsprechen. Für die Einhaltung von PSD2 ist kein Eingreifen erforderlich, da alle Anforderungen von PayPal bearbeitet werden.
 
 ## Handelsanforderungen
 
@@ -33,7 +33,7 @@ Mit PayPal Payments Standard können Sie Kreditkarten auf Mobilgeräten wischen.
 
 Für Kunden ist PayPal Payments Standard ein einstufiger Prozess, wenn die Kreditkarteninformationen auf ihren persönlichen PayPal-Konten auf dem neuesten Stand sind.
 
-1. **Customer Places Order** - Der Kunde klickt/tippt auf die _Jetzt bezahlen_ zum Abschließen des Kaufs.
+1. **Customer Places Order** - Der Kunde klickt/tippt auf die Schaltfläche _Jetzt bezahlen_ , um den Kauf abzuschließen.
 
 1. **PayPal verarbeitet die Transaktion** - Der Kunde wird zur PayPal-Site weitergeleitet, um die Transaktion abzuschließen.
 
@@ -45,25 +45,25 @@ Für Kunden ist PayPal Payments Standard ein einstufiger Prozess, wenn die Kredi
 
 >[!TIP]
 >
->Klicks **[!UICONTROL Save Config]** um den Fortschritt zu speichern.
+>Klicken Sie jederzeit auf **[!UICONTROL Save Config]** , um Ihren Fortschritt zu speichern.
 
 ### Schritt 1: Konfiguration beginnen
 
 Bei dieser Einrichtungsmethode wird davon ausgegangen, dass Sie über ein vorhandenes PayPal-Konto verfügen.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Payment Methods]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Payment Methods]** aus.
 
-1. Wenn Ihre Commerce-Installation über mehrere Websites, Stores oder Ansichten verfügt, legen Sie **[!UICONTROL Store View]** in die Store-Ansicht, auf die Sie diese Konfiguration anwenden möchten.
+1. Wenn Ihre Commerce-Installation über mehrere Websites, Stores oder Ansichten verfügt, setzen Sie **[!UICONTROL Store View]** auf die Store-Ansicht, auf die Sie diese Konfiguration anwenden möchten.
 
-1. Im _[!UICONTROL Merchant Location]_auswählen, wählen Sie die **[!UICONTROL Merchant Country]**wo sich Ihr Unternehmen befindet.
+1. Wählen Sie im Abschnitt _[!UICONTROL Merchant Location]_die **[!UICONTROL Merchant Country]**aus, in der sich Ihr Unternehmen befindet.
 
    Diese Einstellung bestimmt die Auswahl der PayPal-Lösungen, die in der Konfiguration angezeigt werden.
 
-   ![Merchant Country](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
+   ![Handelsland](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. Erweitern **[!UICONTROL PayPal All-in-One Payment Solutions]** und klicken **[!UICONTROL Configure]** für **[!UICONTROL Payments Standard]**.
+1. Erweitern Sie **[!UICONTROL PayPal All-in-One Payment Solutions]** und klicken Sie auf **[!UICONTROL Configure]** für **[!UICONTROL Payments Standard]**.
 
    ![PayPal Payments Standard](./assets/paypal-payments-standard.png){width="700" zoomable="yes"}
 
@@ -73,22 +73,22 @@ Bei dieser Einrichtungsmethode wird davon ausgegangen, dass Sie über ein vorhan
 
 1. Verbinden Sie Ihr Konto für Test oder Produktion:
 
-   - Klicken Sie für den Testmodus (Entwicklung) auf **[!UICONTROL Sandbox Credentials]** und geben Sie [PayPal-Sandbox][3] Anmeldedaten.
-   - Klicken Sie im Produktionsmodus auf **[!UICONTROL Connect with PayPal]** und geben Sie die Anmeldedaten für das Produktionskonto ein.
+   - Klicken Sie zum Testen des (Entwicklungs-)Modus auf **[!UICONTROL Sandbox Credentials]** und geben Sie Ihre [PayPal-Sandbox][3]-Anmeldeinformationen ein.
+   - Klicken Sie im Produktionsmodus auf **[!UICONTROL Connect with PayPal]** und geben Sie die Anmeldeinformationen Ihres Produktionskontos ein.
 
    Wenn Ihre Verbindung validiert wurde, können Sie fortfahren.
 
-1. Satz **[!UICONTROL Enable this Solution]** nach `Yes`.
+1. Setzen Sie **[!UICONTROL Enable this Solution]** auf `Yes`.
 
-1. Wenn Sie ein Angebot erstellen möchten [PayPal Credit](paypal.md#paypal-credit-and-pay-later) für Ihre Kunden festlegen, **[!UICONTROL Enable PayPal Credit]** nach `Yes`.
+1. Wenn Sie Ihren Kunden [PayPal Credit](paypal.md#paypal-credit-and-pay-later) anbieten möchten, setzen Sie **[!UICONTROL Enable PayPal Credit]** auf `Yes`.
 
 ### Schritt 3: Ausführen der Einstellungen für den Payments-Standard
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Payments Standard]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Payments Standard]** .
 
    ![Erforderliche Einstellungen](../configuration-reference/sales/assets/payment-methods-paypal-payments-standard-required.png){width="600" zoomable="yes"}
 
-1. Geben Sie die **[!UICONTROL Email Associated with your PayPal Merchant Account]**.
+1. Geben Sie den Wert **[!UICONTROL Email Associated with your PayPal Merchant Account]** ein.
 
    >[!IMPORTANT]
    >
@@ -96,7 +96,7 @@ Bei dieser Einrichtungsmethode wird davon ausgegangen, dass Sie über ein vorhan
 
    Wenn Sie kein PayPal-Konto haben, klicken Sie auf **[!UICONTROL Start accepting payments via PayPal]**.
 
-1. Satz **[!UICONTROL API Authentication Methods]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL API Authentication Methods]** auf einen der folgenden Werte:
 
    - `API Signature` - Diese PayPal-Authentifizierungsmethode ist am einfachsten zu implementieren und basiert auf Ihrem Benutzernamen, Kennwort und einer eindeutigen Zeichenfolge aus Zeichen und Zahlen, die Ihr Konto identifiziert. API-Signaturberechtigungen laufen nicht ab.
    - `API Certificate` - Diese PayPal-Authentifizierungsmethode ist sicherer und basiert auf Ihrem Benutzernamen, Kennwort und einem herunterladbaren Zertifikat. API-Anmeldeinformationen laufen nach drei Jahren ab und müssen verlängert werden.
@@ -107,11 +107,11 @@ Bei dieser Einrichtungsmethode wird davon ausgegangen, dass Sie über ein vorhan
    - **[!UICONTROL API Password]**
    - **[!UICONTROL API Signature]**
 
-1. Wenn Sie Anmeldeinformationen aus Ihrem Sandbox-Konto verwenden, legen Sie **[!UICONTROL Sandbox Mode]** nach `Yes`.
+1. Wenn Sie Anmeldeinformationen aus Ihrem Sandbox-Konto verwenden, setzen Sie **[!UICONTROL Sandbox Mode]** auf `Yes`.
 
-   Verwenden Sie beim Testen der Konfiguration in einer Sandbox nur [Kreditkartennummern][2] die von PayPal empfohlen werden. Wenn Sie bereit sind, zur Produktion zu wechseln, kehren Sie zur Konfiguration zurück und legen Sie den Sandbox-Modus auf `No` und stellen Sie eine Verbindung zu Ihrem PayPal-Produktionskonto her.
+   Verwenden Sie beim Testen der Konfiguration in einer Sandbox nur die von PayPal empfohlenen [Kreditkartennummern][2]. Wenn Sie bereit sind, zur Produktion zu wechseln, kehren Sie zur Konfiguration zurück, setzen Sie den Sandbox-Modus auf &quot;`No`&quot;und stellen Sie eine Verbindung zu Ihrem PayPal-Produktionskonto her.
 
-1. Wenn Ihr System einen Proxy-Server verwendet, um die Verbindung zwischen Adobe Commerce oder Magento Open Source und dem PayPal-Zahlungssystem herzustellen, setzen Sie **[!UICONTROL API Uses Proxy]** nach `Yes` und führen Sie Folgendes aus:
+1. Wenn Ihr System einen Proxy-Server verwendet, um die Verbindung zwischen Adobe Commerce oder Magento Open Source und dem PayPal-Zahlungssystem herzustellen, setzen Sie **[!UICONTROL API Uses Proxy]** auf `Yes` und führen Sie Folgendes aus:
 
    - **[!UICONTROL Proxy Host]**
    - **[!UICONTROL Proxy Port]**
@@ -120,33 +120,33 @@ Bei dieser Einrichtungsmethode wird davon ausgegangen, dass Sie über ein vorhan
 
 Ab Version 2.4.3 wird PayPal PayLater in Implementierungen unterstützt, die PayPal enthalten. Diese Funktion ermöglicht es den Käufern, eine Bestellung in zweiwöchigen Tranchen zu bezahlen, anstatt den vollen Betrag zum Zeitpunkt des Kaufs zu zahlen. Das PayPal-Krediterlebnis wird nicht mehr unterstützt.
 
-Satz **[!UICONTROL Enable PayPal PayLater Experience]** auf einen der folgenden Werte zu:
+Setzen Sie **[!UICONTROL Enable PayPal PayLater Experience]** auf einen der folgenden Werte:
 
-- `Yes` - Einrichten von Advertise PayPal PayLater
-- `No` - So richten Sie Advertising PayPal Credit ein
+- `Yes` - So richten Sie Advertise PayPal PayLater ein
+- `No` - So richten Sie Advertising PayPal-Guthaben ein
 
 #### Advertise PayPal Credit
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Advertise PayPal Credit]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Advertise PayPal Credit]** .
 
-   ![Advertising PayPal Credit - Einstellungen der Startseite](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
+   ![Einstellungen der Advertise PayPal Credit-Startseite ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit-home-page.png){width="600" zoomable="yes"}
 
 1. Um Ihre Kontoinformationen zu erhalten, klicken Sie auf **[!UICONTROL Get Publisher ID from PayPal]** und befolgen Sie die Anweisungen.
 
-1. Geben Sie Ihre **[!UICONTROL Publisher ID]**.
+1. Geben Sie Ihren **[!UICONTROL Publisher ID]** ein.
 
-   ![Advertise PayPal Credit](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
+   ![PayPal-Guthaben für Werbung](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png){width="600" zoomable="yes"}
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Home Page]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Home Page]** .
 
-1. Um ein Banner auf der Seite zu platzieren, legen Sie **[!UICONTROL Display]** nach `Yes`.
+1. Um ein Banner auf der Seite zu platzieren, setzen Sie **[!UICONTROL Display]** auf `Yes`.
 
-1. Satz **[!UICONTROL Position]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Position]** auf einen der folgenden Werte:
 
    - `Header (center)`
    - `Sidebar (right)`
 
-1. Satz **[!UICONTROL Size]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Size]** auf einen der folgenden Werte:
 
    - `190 x 100`
    - `234 x 60`
@@ -155,7 +155,7 @@ Satz **[!UICONTROL Enable PayPal PayLater Experience]** auf einen der folgenden 
    - `728 x 90`
    - `800 x 66`
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die verbleibenden Abschnitte und wiederholen Sie die vorherigen Schritte:
+1. Erweitern Sie ![Erweiterungsselektor](../assets/icon-display-expand.png) die verbleibenden Abschnitte und wiederholen Sie die vorherigen Schritte:
 
    - **[!UICONTROL Catalog Category Page]**
    - **[!UICONTROL Catalog Product Page]**
@@ -163,47 +163,47 @@ Satz **[!UICONTROL Enable PayPal PayLater Experience]** auf einen der folgenden 
 
 #### Advertise PayPal PayLater
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Advertise PayPal PayLater]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Advertise PayPal PayLater]** .
 
-1. Satz **[!UICONTROL Enable PayPal PayLater]** nach `Yes`.
+1. Setzen Sie **[!UICONTROL Enable PayPal PayLater]** auf `Yes`.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Home Page]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Home Page]** .
 
-   ![Advertising PayPal Credit - Einstellungen der Startseite](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
+   ![Einstellungen der Advertise PayPal Credit-Startseite ](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-advertise-paypal-paylater-home-page.png){width="600" zoomable="yes"}
 
-1. Um ein Banner auf der Seite zu platzieren, legen Sie **[!UICONTROL Display]** nach `Yes`.
+1. Um ein Banner auf der Seite zu platzieren, setzen Sie **[!UICONTROL Display]** auf `Yes`.
 
-1. Satz **[!UICONTROL Position]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Position]** auf einen der folgenden Werte:
 
    - `Header (center)`
    - `Sidebar`
 
-1. Satz **[!UICONTROL Style Layout]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Style Layout]** auf einen der folgenden Werte:
 
    - `Text`
    - `Flex`
 
-1. Für [!UICONTROL Style Layout] **[!UICONTROL Text]** nur festlegen **[!UICONTROL Logo Type]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Logo Type]** nur für [!UICONTROL Style Layout] **[!UICONTROL Text]** auf einen der folgenden Werte:
 
    - `Primary`
    - `Alternative`
    - `Inline`
    - `None`
 
-1. Für [!UICONTROL Style Layout] **[!UICONTROL Text]** nur festlegen **[!UICONTROL Logo Position]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Logo Position]** nur für [!UICONTROL Style Layout] **[!UICONTROL Text]** auf einen der folgenden Werte:
 
    - `Left`
    - `Right`
    - `Top`
 
-1. Für [!UICONTROL Style Layout] **[!UICONTROL Text]** nur festlegen **[!UICONTROL Text Color]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Text Color]** nur für [!UICONTROL Style Layout] **[!UICONTROL Text]** auf einen der folgenden Werte:
 
    - `Black`
    - `White`
    - `Monochrome`
    - `Grayscale`
 
-1. Für [!UICONTROL Style Layout] **[!UICONTROL Text]** nur festlegen **[!UICONTROL Text Size]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Text Size]** nur für [!UICONTROL Style Layout] **[!UICONTROL Text]** auf einen der folgenden Werte:
 
    - `10px`
    - `11px`
@@ -213,14 +213,14 @@ Satz **[!UICONTROL Enable PayPal PayLater Experience]** auf einen der folgenden 
    - `15px`
    - `16px`
 
-1. Für [!UICONTROL Style Layout] **[!UICONTROL Flex]** nur festlegen **[!UICONTROL Ratio]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Ratio]** nur für [!UICONTROL Style Layout] **[!UICONTROL Flex]** auf einen der folgenden Werte:
 
    - `1x1`
    - `1x4`
    - `8x1`
    - `20x1`
 
-1. Für [!UICONTROL Style Layout] **[!UICONTROL Flex]** nur festlegen **[!UICONTROL Color]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Color]** nur für [!UICONTROL Style Layout] **[!UICONTROL Flex]** auf einen der folgenden Werte:
 
    - `Blue`
    - `Black`
@@ -230,83 +230,83 @@ Satz **[!UICONTROL Enable PayPal PayLater Experience]** auf einen der folgenden 
    - `Monochrome`
    - `Grayscale`
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die verbleibenden Abschnitte und wiederholen Sie die vorherigen Schritte:
+1. Erweitern Sie ![Erweiterungsselektor](../assets/icon-display-expand.png) die verbleibenden Abschnitte und wiederholen Sie die vorherigen Schritte:
 
    - **[!UICONTROL Catalog Product Page]**
    - **[!UICONTROL Checkout Cart Page]**
-   - **Zahlungsschritt**
+   - **Checkout-Zahlungsschritt**
    - **[!UICONTROL Catalog Category Page]**
 
 ### Schritt 5: Grundlegende Einstellungen durchführen
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Basic Settings - PayPal Website Payments Standard]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Basic Settings - PayPal Website Payments Standard]** .
 
    ![Grundlegende Einstellungen](./assets/paypal-payments-basic.png){width="600" zoomable="yes"}
 
-1. Für **[!UICONTROL Title]** Geben Sie einen Titel ein, der diese Zahlungsmethode beim Checkout angibt.
+1. Geben Sie für **[!UICONTROL Title]** einen Titel ein, der diese Zahlungsmethode beim Checkout angibt.
 
-   Es wird empfohlen, den Titel _PayPal_ für alle Store-Ansichten.
+   Es wird empfohlen, den Titel _PayPal_ für alle Store-Ansichten zu verwenden.
 
-1. Wenn Sie mehrere Zahlungsmethoden anbieten, geben Sie eine Zahl für **[!UICONTROL Sort Order]** um die Reihenfolge zu bestimmen, in der PayPal Payments Standard erscheint, wenn es mit den anderen Zahlungsmethoden aufgeführt wird.
+1. Wenn Sie mehrere Zahlungsmethoden anbieten, geben Sie eine Zahl für **[!UICONTROL Sort Order]** ein, um die Sequenz zu bestimmen, in der PayPal Payments Standard angezeigt wird, wenn es mit den anderen Zahlungsmethoden aufgeführt wird.
 
-   Diese Zahl ist relativ zu den anderen Zahlungsmethoden. (`0` = first, `1` = Sekunde, `2` = drittes Element usw.)
+   Diese Zahl ist relativ zu den anderen Zahlungsmethoden. (`0` = first, `1` = second, `2` = third usw.)
 
-1. Satz **[!UICONTROL Payment Action]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Payment Action]** auf einen der folgenden Werte:
 
-   - `Authorization` - Genehmigt den Kauf und hält die Mittel fest. Der Betrag wird erst zurückgezogen, wenn er vom Händler eingezogen wurde.
-   - `Sale` - Der Kaufbetrag wird genehmigt und sofort vom Konto des Kunden zurückgezogen.
+   - `Authorization` - Genehmigt den Kauf und legt einen Besitz an den Fonds fest. Der Betrag wird erst zurückgezogen, wenn er vom Händler eingezogen wurde.
+   - `Sale` - Der Betrag des Kaufs wird genehmigt und sofort vom Konto des Kunden zurückgezogen.
 
-1. So zeigen Sie _[!UICONTROL Check out with PayPal]_Schaltfläche auf der Produktseite festlegen **[!UICONTROL Display on Product Details Page]**nach `Yes`.
+1. Um die Schaltfläche _[!UICONTROL Check out with PayPal]_auf der Produktseite anzuzeigen, setzen Sie **[!UICONTROL Display on Product Details Page]**auf `Yes`.
 
 ### Schritt 6: Erweiterte Einstellungen durchführen
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Advanced Settings]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Advanced Settings]** .
 
    ![Erweiterte Einstellungen](../configuration-reference/sales/assets/payment-methods-paypal-payment-standard-advanced.png){width="600" zoomable="yes"}
 
-1. Um PayPal Payments Standard sowohl im Warenkorb als auch im Mini-Warenkorb verfügbar zu machen, legen Sie **[!UICONTROL Display on Shopping Cart]** nach `Yes`.
+1. Um PayPal Payments Standard sowohl im Warenkorb als auch im Mini-Warenkorb verfügbar zu machen, setzen Sie **[!UICONTROL Display on Shopping Cart]** auf `Yes`.
 
-1. Satz **[!UICONTROL Payment from Applicable Countries]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Payment from Applicable Countries]** auf einen der folgenden Werte:
 
-   - `All Allowed Countries` - Kunden von allen [Länder](../getting-started/store-details.md#country-options) Diese Zahlungsmethode kann in Ihrer Store-Konfiguration verwendet werden.
-   - `Specific Countries` - Wenn Sie diese Option ausgewählt haben, wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Um mehrere Länder auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jede Option.
+   - `All Allowed Countries` - Kunden aus allen in Ihrer Store-Konfiguration angegebenen [Ländern](../getting-started/store-details.md#country-options) können diese Zahlungsmethode verwenden.
+   - `Specific Countries` - Nachdem Sie diese Option ausgewählt haben, wird die Liste _[!UICONTROL Payment from Specific Countries]_angezeigt. Um mehrere Länder auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jede Option.
 
-1. Um die Kommunikation mit dem Zahlungssystem in der Protokolldatei aufzuzeichnen, legen Sie **[!UICONTROL Debug Mode]** nach `Yes`.
+1. Um die Kommunikation mit dem Zahlungssystem in der Protokolldatei aufzuzeichnen, setzen Sie **[!UICONTROL Debug Mode]** auf `Yes`.
 
    >[!NOTE]
    >
    >Die Protokolldatei wird auf dem Server gespeichert und steht nur Entwicklern zur Verfügung. Gemäß PCI Data Security Standards werden Kreditkarteninformationen nicht in der Protokolldatei aufgezeichnet.
 
-1. Um die SSL-Verifizierung zu aktivieren, legen Sie **[!UICONTROL Enable SSL Verification]** nach `Yes`.
+1. Um die SSL-Verifizierung zu aktivieren, setzen Sie **[!UICONTROL Enable SSL Verification]** auf `Yes`.
 
-1. Um eine Zusammenfassung jedes Zeileneintrags in der Bestellung auf Ihrer PayPal-Zahlungsseite anzuzeigen, legen Sie **[!UICONTROL Transfer Cart Line Items]** nach `Yes`.
+1. Um eine Zusammenfassung jedes Zeileneintrags in der Bestellung auf Ihrer PayPal-Zahlungsseite anzuzeigen, setzen Sie **[!UICONTROL Transfer Cart Line Items]** auf `Yes`.
 
-   Um bis zu zehn Versandoptionen in die Zusammenfassung aufzunehmen, legen Sie **[!UICONTROL Transfer Shipping Options]** nach `Yes`. (Diese Option wird nur angezeigt, wenn Zeileneinträge für die Übertragung festgelegt sind.)
+   Um bis zu zehn Versandoptionen in die Zusammenfassung aufzunehmen, setzen Sie **[!UICONTROL Transfer Shipping Options]** auf `Yes`. (Diese Option wird nur angezeigt, wenn Zeileneinträge für die Übertragung festgelegt sind.)
 
-1. Um den Bildtyp zu bestimmen, der für die PayPal-Akzeptanzschaltfläche verwendet wird, legen Sie **[!UICONTROL Shortcut Buttons Flavor]** auf einen der folgenden Werte zu:
+1. Um den Bildtyp zu bestimmen, der für die PayPal-Akzeptanzschaltfläche verwendet wird, setzen Sie **[!UICONTROL Shortcut Buttons Flavor]** auf einen der folgenden Werte:
 
    - `Dynamic` - (Empfohlen) Zeigt ein Bild an, das dynamisch vom PayPal-Server aus geändert werden kann.
    - `Static` - Zeigt ein bestimmtes Bild an, das nicht dynamisch geändert werden kann.
 
-1. Damit Kunden, die kein PayPal-Konto haben, mit dieser Methode einen Kauf tätigen können, legen Sie **[!UICONTROL Enable PayPal Guest Checkout]** nach `Yes`.
+1. Damit Kunden, die kein PayPal-Konto haben, mit dieser Methode einen Kauf tätigen können, setzen Sie **[!UICONTROL Enable PayPal Guest Checkout]** auf `Yes`.
 
-1. Satz **[!UICONTROL Require Customer's Billing Address]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Require Customer's Billing Address]** auf einen der folgenden Werte:
 
    - `Yes` - Erfordert die Rechnungsadresse des Kunden für alle Käufe.
-   - `No` - Für Käufe ist die Rechnungsadresse des Kunden nicht erforderlich.
-   - `For Virtual Quotes Only` - Erfordert nur die Abrechnungsadresse des Kunden für virtuelle Angebote.
+   - `No` - Für Käufe ist die Abrechnungsadresse des Kunden nicht erforderlich.
+   - `For Virtual Quotes Only` - Erfordert nur die Abrechnungsadresse des Kunden für virtuelle Anführungszeichen.
 
-1. So lassen Sie zu, dass ein Kunde eine [PayPal-Abrechnungsvertrag](paypal-billing-agreements.md) mit Ihrem Geschäft, wenn im Kundenkonto keine aktiven Abrechnungsvereinbarungen verfügbar sind, legen Sie **[!UICONTROL Billing Agreement Signup]** auf einen der folgenden Werte zu:
+1. Damit ein Kunde mit Ihrem Store einen [PayPal-Abrechnungsvertrag](paypal-billing-agreements.md) abschließen kann, wenn im Kundenkonto keine aktiven Abrechnungsvereinbarungen verfügbar sind, setzen Sie **[!UICONTROL Billing Agreement Signup]** auf einen der folgenden Werte:
 
-   - `Auto` - Der Kunde kann entweder während des Express Checkout-Flusses einen Abrechnungsvertrag schließen oder eine andere Zahlungsmethode verwenden.
+   - `Auto` - Der Kunde kann entweder während des Express-Checkout-Flusses einen Abrechnungsvertrag schließen oder eine andere Zahlungsmethode verwenden.
    - `Ask Customer` - Der Kunde kann während des Express Checkout-Workflows entscheiden, ob er einen Abrechnungsvertrag schließt.
    - `Never` - Der Kunde kann während des Express-Checkout-Workflows keinen Abrechnungsvertrag schließen.
 
    >[!NOTE]
    >
-   >Händler müssen den technischen Support von PayPal Merchant anfordern, um Abrechnungsvereinbarungen in ihren Konten zu ermöglichen. Die _Unterzeichnung des Abrechnungsabkommens_ kann nur aktiviert werden, nachdem PayPal bestätigt hat, dass Abrechnungsvereinbarungen für Ihr Händlerkonto aktiviert sind.
+   >Händler müssen den technischen Support von PayPal Merchant anfordern, um Abrechnungsvereinbarungen in ihren Konten zu ermöglichen. Der Parameter _Abrechnungsvereinbarung unterschreiben_ kann erst aktiviert werden, nachdem PayPal bestätigt hat, dass Abrechnungsvereinbarungen für Ihr Händlerkonto aktiviert sind.
 
-1. Damit der Kunde die Transaktion von der PayPal-Site aus abschließen kann, ohne zur Bestellprüfung zu Ihrem Store zurückzukehren, legen Sie **[!UICONTROL Skip Order Review Step]** nach `Yes`.
+1. Damit der Kunde die Transaktion von der PayPal-Site ausführen kann, ohne zur Überprüfung der Bestellung zu Ihrem Store zurückzukehren, setzen Sie **[!UICONTROL Skip Order Review Step]** auf `Yes`.
 
 ### Schritt 7: Konfigurationseinstellungen abschließen und speichern
 
@@ -316,72 +316,72 @@ Satz **[!UICONTROL Enable PayPal PayLater Experience]** auf einen der folgenden 
    - [Berichtseinstellungen einrichten](#settlement-report-settings)
    - [Frontend-Erlebniseinstellungen](#frontend-experience-settings)
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 #### Einstellungen der PayPal-Abrechnungsvereinbarung
 
-A [Abrechnungsvereinbarung](paypal-billing-agreements.md) ist ein Kaufvertrag zwischen dem Händler und dem Kunden, der von PayPal zur Verwendung mit mehreren Bestellungen genehmigt wurde. Während des Checkout-Prozesses wird die Zahlungsoption für die Abrechnungsvereinbarung nur für Kunden angezeigt, die bereits einen Abrechnungsvertrag mit Ihrem Unternehmen geschlossen haben. Nachdem PayPal die Vereinbarung genehmigt hat, gibt das Zahlungssystem eine eindeutige Referenz-ID aus, um jede Bestellung zu identifizieren, die der Vereinbarung zugeordnet ist. Ähnlich wie bei einer Bestellung gibt es keine Begrenzung für die Anzahl der Abrechnungsvereinbarungen, die ein Kunde mit Ihrem Unternehmen schließen kann.
+Ein [Abrechnungsvertrag](paypal-billing-agreements.md) ist ein Kaufvertrag zwischen dem Händler und dem Kunden, der von PayPal zur Verwendung mit mehreren Bestellungen genehmigt wurde. Während des Checkout-Prozesses wird die Zahlungsoption für die Abrechnungsvereinbarung nur für Kunden angezeigt, die bereits einen Abrechnungsvertrag mit Ihrem Unternehmen geschlossen haben. Nachdem PayPal die Vereinbarung genehmigt hat, gibt das Zahlungssystem eine eindeutige Referenz-ID aus, um jede Bestellung zu identifizieren, die der Vereinbarung zugeordnet ist. Ähnlich wie bei einer Bestellung gibt es keine Begrenzung für die Anzahl der Abrechnungsvereinbarungen, die ein Kunde mit Ihrem Unternehmen schließen kann.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL PayPal Billing Agreement Settings]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL PayPal Billing Agreement Settings]** .
 
-   ![Rechnungsabschlussparameter](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png){width="600" zoomable="yes"}
+   ![Rechnungsvertragseinstellungen](../configuration-reference/sales/assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png){width="600" zoomable="yes"}
 
-1. Satz **[!UICONTROL Enabled]** nach `Yes`.
+1. Setzen Sie **[!UICONTROL Enabled]** auf `Yes`.
 
-1. Für **[!UICONTROL Title]** eingeben, geben Sie einen Titel ein, der die Methode der PayPal-Abrechnungsvereinbarung während des Kassengangs angibt.
+1. Geben Sie für &quot;**[!UICONTROL Title]**&quot;einen Titel ein, der die Methode der PayPal-Abrechnungsvereinbarung während des Checkouts identifiziert.
 
-1. Wenn Sie mehrere Zahlungsmethoden anbieten, geben Sie im Feld **[!UICONTROL Sort Order]** -Feld, um die Reihenfolge zu bestimmen, in der die Abrechnungsvereinbarung angezeigt wird, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgelistet wird.
+1. Wenn Sie mehrere Zahlungsmethoden anbieten, geben Sie im Feld **[!UICONTROL Sort Order]** eine Zahl ein, um die Reihenfolge zu bestimmen, in der die Abrechnungsvereinbarung erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird.
 
-1. Satz **[!UICONTROL Payment Action]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Payment Action]** auf einen der folgenden Werte:
 
-   - `Authorization` - Genehmigt den Kauf und hält die Mittel fest. Der Betrag wird erst dann zurückgezogen, wenn er vom Händler &quot;erfasst&quot;wurde.
-   - `Sale` - Der Kaufbetrag wird genehmigt und sofort vom Konto des Kunden zurückgezogen.
+   - `Authorization` - Genehmigt den Kauf und legt einen Besitz an den Fonds fest. Der Betrag wird erst dann zurückgezogen, wenn er vom Händler &quot;erfasst&quot;wurde.
+   - `Sale` - Der Betrag des Kaufs wird genehmigt und sofort vom Konto des Kunden zurückgezogen.
 
-1. Satz **[!UICONTROL Payment Applicable From]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Payment Applicable From]** auf einen der folgenden Werte:
 
    - `All Allowed Countries` - Kunden aus allen in Ihrer Store-Konfiguration angegebenen Ländern können diese Zahlungsmethode verwenden.
-   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Um mehrere Länder auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jedes Land.
+   - `Specific Countries` - Nach Auswahl dieser Option wird die Liste _[!UICONTROL Payment from Specific Countries]_angezeigt. Um mehrere Länder auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jedes Land.
 
-1. Um die Kommunikation mit dem Zahlungssystem in der Protokolldatei aufzuzeichnen, legen Sie **[!UICONTROL Debug Mode]** nach `Yes`.
+1. Um die Kommunikation mit dem Zahlungssystem in der Protokolldatei aufzuzeichnen, setzen Sie **[!UICONTROL Debug Mode]** auf `Yes`.
 
    >[!NOTE]
    >
    >Die Protokolldatei wird auf dem Server gespeichert und steht nur Entwicklern zur Verfügung. Gemäß PCI Data Security Standards werden Kreditkarteninformationen nicht in der Protokolldatei aufgezeichnet.
 
-1. Um die SSL-Verifizierung zu aktivieren, legen Sie **[!UICONTROL Enable SSL Verification]** nach `Yes`.
+1. Um die SSL-Verifizierung zu aktivieren, setzen Sie **[!UICONTROL Enable SSL Verification]** auf `Yes`.
 
-1. Um eine Zusammenfassung jedes Zeileneintrags in der Bestellung des Kunden auf Ihrer PayPal-Zahlungsseite anzuzeigen, legen Sie **[!UICONTROL Transfer Cart Line Items]** nach `Yes`.
+1. Um eine Zusammenfassung jedes Zeileneintrags in der Bestellung des Kunden auf Ihrer PayPal-Zahlungsseite anzuzeigen, setzen Sie **[!UICONTROL Transfer Cart Line Items]** auf `Yes`.
 
-1. Um Kunden die Möglichkeit zu geben, eine Abrechnungsvereinbarung über das Dashboard ihres Kundenkontos zu initiieren, legen Sie **[!UICONTROL Allow in Billing Agreement Wizard]** nach `Yes`.
+1. Damit Kunden eine Abrechnungsvereinbarung über das Dashboard ihres Kundenkontos initiieren können, setzen Sie **[!UICONTROL Allow in Billing Agreement Wizard]** auf `Yes`.
 
 #### Berichtseinstellungen einrichten
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Settlement Report Settings]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Settlement Report Settings]** .
 
-   ![Berichtseinstellungen einrichten](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
+   ![Berichtseinstellungen festlegen](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png){width="600" zoomable="yes"}
 
-1. Für **[!UICONTROL SFTP Credentials]** führen Sie folgende Schritte aus:
+1. Gehen Sie für **[!UICONTROL SFTP Credentials]** wie folgt vor:
 
    - Wenn Sie sich für den PayPal Secure FTP Server angemeldet haben, geben Sie die folgenden SFTP-Anmeldedaten ein:
 
       - Anmelden
       - Kennwort
 
-   - Um Testberichte auszuführen, bevor Sie mit dem Express Checkout auf Ihrer Site live geschaltet werden, legen Sie **[!UICONTROL Sandbox Mode]** nach `Yes`.
+   - Um Testberichte auszuführen, bevor Sie mit Express Checkout auf Ihrer Site live gehen, setzen Sie **[!UICONTROL Sandbox Mode]** auf `Yes`.
 
-   - Geben Sie die **[!UICONTROL Custom Endpoint Hostname or IP Address]**.
+   - Geben Sie den Wert **[!UICONTROL Custom Endpoint Hostname or IP Address]** ein.
 
-     Standardmäßig lautet der Wert `reports.paypal.com`.
+     Der Standardwert ist `reports.paypal.com`.
 
-   - Geben Sie die **[!UICONTROL Custom Path]** wo Berichte gespeichert werden.
+   - Geben Sie den **[!UICONTROL Custom Path]** ein, in dem Berichte gespeichert werden.
 
-     Standardmäßig lautet der Wert `/ppreports/outgoing`.
+     Der Standardwert ist `/ppreports/outgoing`.
 
-1. Um Berichte planmäßig zu erstellen, müssen Sie die Variable **[!UICONTROL Scheduled Fetching]** Einstellungen:
+1. Um Berichte planmäßig zu erstellen, führen Sie die Einstellungen für **[!UICONTROL Scheduled Fetching]** aus:
 
-   - Satz **[!UICONTROL Enable Automatic Fetching]** nach `Yes`.
+   - Setzen Sie **[!UICONTROL Enable Automatic Fetching]** auf `Yes`.
 
-   - Satz **[!UICONTROL Schedule]** auf einen der folgenden Werte zu:
+   - Setzen Sie **[!UICONTROL Schedule]** auf einen der folgenden Werte:
 
       - `Daily`
       - `Every 3 Days`
@@ -393,17 +393,17 @@ A [Abrechnungsvereinbarung](paypal-billing-agreements.md) ist ein Kaufvertrag zw
 
      PayPal behält jeden Bericht für 45 Tage bei.
 
-   - Satz **[!UICONTROL Time of Day]** auf die Stunde, Minute und Sekunde, in der die Berichte erstellt werden sollen.
+   - Stellen Sie **[!UICONTROL Time of Day]** auf die Stunde, Minute und Sekunde ein, wenn die Berichte generiert werden sollen.
 
 #### Frontend-Erlebniseinstellungen
 
-Verwenden Sie die _[!UICONTROL Frontend Experience Settings]_, um zu wählen, welche PayPal-Logos auf Ihrer Website erscheinen, und um das Erscheinungsbild Ihrer PayPal-Händlergeseiten anzupassen.
+Verwenden Sie den _[!UICONTROL Frontend Experience Settings]_, um festzulegen, welche PayPal-Logos auf Ihrer Site erscheinen, und um das Erscheinungsbild Ihrer PayPal-Händlerseiten anzupassen.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Frontend Experience Settings]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Frontend Experience Settings]** .
 
    ![Frontend-Erlebniseinstellungen](../configuration-reference/sales/assets/payment-methods-paypal-payments-advanced-frontend-experience-settings1.png){width="600" zoomable="yes"}
 
-1. Wählen Sie die **[!UICONTROL PayPal Product Logo]** die Sie im PayPal-Block in Ihrem Geschäft erscheinen möchten.
+1. Wählen Sie den **[!UICONTROL PayPal Product Logo]** aus, der im Block PayPal in Ihrem Geschäft angezeigt werden soll.
 
    Die PayPal Logos sind in vier Formaten und in zwei Größen erhältlich:
 
@@ -415,22 +415,22 @@ Verwenden Sie die _[!UICONTROL Frontend Experience Settings]_, um zu wählen, we
 
 1. So passen Sie das Erscheinungsbild Ihrer PayPal-Händlerseiten an:
 
-   - Geben Sie den Namen der **[!UICONTROL Page Style]** die Sie auf Ihre PayPal-Händlerseiten anwenden möchten:
+   - Geben Sie den Namen des **[!UICONTROL Page Style]** ein, den Sie auf Ihre PayPal-Händlergeseiten anwenden möchten:
 
       - `paypal` - Verwendet den PayPal-Seitenstil.
-      - `primary` - Verwendet den Seitenstil, den Sie als _primary_ -Stile in Ihrem Kontoprofil.
+      - `primary` - Verwendet den Seitenstil, den Sie in Ihrem Kontoprofil als _primär_ -Stil identifiziert haben.
       - `your_custom_value` - Verwendet einen benutzerdefinierten Zahlungsseitenstil, der in Ihrem Kontoprofil angegeben ist.
 
-   - Für **[!UICONTROL Header Image URL]** Geben Sie die URL des Bildes ein, das Sie in der linken oberen Ecke der Zahlungsseite anzeigen möchten. Die maximale Dateigröße ist 750 Pixel breit und 90 Pixel hoch.
+   - Geben Sie für &quot;**[!UICONTROL Header Image URL]**&quot;die URL des Bildes ein, das oben links auf der Zahlungsseite angezeigt werden soll. Die maximale Dateigröße ist 750 Pixel breit und 90 Pixel hoch.
 
      >[!NOTE]
      >
-     >PayPal empfiehlt, dass sich das Bild auf einem sicheren (HTTPS-)Server befindet. Andernfalls kann ein Browser darauf hinweisen, dass _Die Seite enthält sowohl sichere als auch nicht sichere Elemente._.
+     >PayPal empfiehlt, dass sich das Bild auf einem sicheren (HTTPS-)Server befindet. Andernfalls kann ein Browser warnen, dass _die Seite sowohl sichere als auch nicht sichere Elemente enthält_.
 
-   - Um die Farbe für Ihre Seiten festzulegen, geben Sie den sechsstelligen Hexadezimalcode ohne die `#` für jedes der folgenden Zeichen:
+   - Um die Farbe für Ihre Seiten festzulegen, geben Sie den sechsstelligen Hexadezimalcode ohne das `#` -Symbol für jeden der folgenden Elemente ein:
 
-      - **[!UICONTROL Header Background Color]** - Hintergrundfarbe für die Kopfzeile der Kassenseite.
-      - **[!UICONTROL Header Border Color]** - Farbe für den Rahmen von zwei Pixeln um die Kopfzeile.
+      - **[!UICONTROL Header Background Color]** - Hintergrundfarbe für die Kopfzeile der Checkout-Seite.
+      - **[!UICONTROL Header Border Color]** - Farbe für einen Rahmen von zwei Pixeln um die Kopfzeile.
       - **[!UICONTROL Page Background Color]** - Hintergrundfarbe für die Checkout-Seite und um die Kopfzeile und das Zahlungsformular.
 
 [1]: https://www.paypal.com/webapps/mpp/how-to-sell-online

@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Reward Points]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] Seite des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Reward Points] des Commerce-Administrators.
 exl-id: 0b7f8806-74c5-4467-87da-0faae50f164b
 feature: Configuration, Rewards
 source-git-commit: 1ae3e1fd10e29de690f7f159c36101a9817dea91
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[Wechselkurse der Prämien](../../merchandising-promotions/reward-exchange-rates.md) -Konfiguration ist erforderlich, damit Kunden und Administratoren während des Checkouts die Punkte einlösen können.
+>[Die Konfiguration der Rewards-Wechselkurse](../../merchandising-promotions/reward-exchange-rates.md) ist erforderlich, damit Kunden und Administratoren während des Checkout die Punkte einlösen können.
 
 ## [!UICONTROL Reward Points]
 
-![Prämienpunkte](./assets/reward-points-reward-points.png)<!-- zoom -->
+![Belohnungspunkte](./assets/reward-points-reward-points.png)<!-- zoom -->
 
 <!-- [Reward Points](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Reward Points Functionality] | Global | Aktiviert oder deaktiviert Prämienpunkte. Optionen: `Yes` / `No`. |
 | [!UICONTROL Enable Reward Points Functionality on Storefront] | Webseite | Wenn diese Option aktiviert ist, können Kunden durch ihre Aktivitäten Punkte sammeln und sie beim Checkout einlösen. Wenn diese Option deaktiviert ist, können nur Admin-Benutzer im Namen von Kunden Punkte zuweisen und einlösen. Optionen: `Yes` / `No`. |
@@ -34,7 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Reward Points Balance Redemption Threshold] | Webseite | Erfordert Kunden, einen minimalen Punktstand zu erzielen, bevor sie diese für Bestellungen einlösen können. Leer lassen - kein Minimum. |
 | [!UICONTROL Cap Reward Points Balance At] | Webseite | Verhindert, dass Kunden mehr als diesen maximalen Punktstand erzielen. Leer lassen für kein Maximum. |
 | [!UICONTROL Reward Points Expire in (days)] | Webseite | Gibt die Lebensdauer der Belohnungspunkte in Tagen an. Jeder Punktstapel, der bei separaten Aktivitäten gesammelt wird, hat eine separate Lebensdauer. Jeder Batch im Verlauf der Punkte zeigt die Anzahl der Tage an, die noch vergangen sind, bevor die Punkte ablaufen. Der Verlauf kann über das Konto-Dashboard des Kunden, sofern aktiviert, und über den Admin angezeigt werden. Lassen Sie das Feld für keinen Ablauf leer. |
-| [!UICONTROL Reward Points Expiry Calculation] | Webseite | Bestimmt die Methode, mit der bestimmt wird, wann die Belohnungspunkte ablaufen. Optionen: <br/>**`Static`**- Bestimmt die verbleibende Lebensdauer der Bonuspunkte basierend auf der in der Konfiguration festgelegten Anzahl von Tagen. Wenn sich das Ablaufdatum in der Konfiguration ändert, ändert sich das Ablaufdatum vorhandener Punkte nicht.<br/>**`Dynamic`** - Berechnet die Anzahl der verbleibenden Tage, wenn der Saldo des Bonuspunkts zunimmt. Wenn sich das Ablauflimit in der Konfiguration ändert, werden die Ablaufberechnungen für alle vorhandenen Punkte entsprechend aktualisiert. |
+| [!UICONTROL Reward Points Expiry Calculation] | Webseite | Bestimmt die Methode, mit der bestimmt wird, wann die Belohnungspunkte ablaufen. Optionen: <br/>**`Static`**- Bestimmt die verbleibende Lebensdauer der Belohnungspunkte anhand der in der Konfiguration festgelegten Anzahl von Tagen. Wenn sich das Ablaufdatum in der Konfiguration ändert, ändert sich das Ablaufdatum vorhandener Punkte nicht.<br/>**`Dynamic`** - Berechnet die Anzahl der verbleibenden Tage, sobald der Saldo des Belohnungspunkts zunimmt. Wenn sich das Ablauflimit in der Konfiguration ändert, werden die Ablaufberechnungen für alle vorhandenen Punkte entsprechend aktualisiert. |
 | [!UICONTROL Refund Reward Points Automatically] | Global | Bestimmt, ob verfügbare Bonuspunkte automatisch zurückerstattet werden. Optionen: `Yes` / `No` |
 | [!UICONTROL Deduct Reward Points from Refund Amount Automatically] | Global | Dies bestimmt, ob die durch Käufe eingenommenen Bonuspunkte bei der Rückerstattung der Bestellung ganz oder teilweise aufgehoben werden, wenn diese Funktion aktiviert ist. Nur Belohnungspunkte aus der Bestellung, die sie verdient haben, sind betroffen, wenn diese Bestellung zurückerstattet wird. Optionen: `Yes` / `No`. |
 | [!UICONTROL Landing Page] | Store-Ansicht | Gibt die CMS-Seite an, auf der Ihr Prämienpunktprogramm erläutert wird. Ein Link zur standardmäßigen Belohnungsseite wird an den Stellen in Ihrem Geschäft angezeigt, an denen Punkte gesammelt werden können. |
@@ -43,13 +43,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Actions for Acquiring Reward Points by Customers]
 
-![Aktionen zum Erfassen von Prämienpunkten durch Kunden](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
+![Aktionen für das Erfassen von Belohnungspunkten durch Kunden](./assets/reward-points-actions-for-acquiring.png)<!-- zoom -->
 
 <!-- [Actions for Acquiring Reward Points by Customers](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Purchase] | Webseite | Bestimmt anhand der konfigurierten [Wechselkurse der Prämien](../../merchandising-promotions/reward-exchange-rates.md). Optionen: `Yes` / `No` |
+| [!UICONTROL Purchase] | Webseite | Bestimmt anhand der konfigurierten [Rewards-Wechselkurse](../../merchandising-promotions/reward-exchange-rates.md), ob für die Käufe Prämienpunkte erzielt werden. Optionen: `Yes` / `No` |
 | [!UICONTROL Registration] | Webseite | Gibt die Anzahl der Punkte an, die für das Öffnen eines Kundenkontos gesammelt wurden. |
 | [!UICONTROL Newsletter Signup] | Webseite | Gibt die Anzahl der Punkte an, die registrierte Kunden erhalten haben, die einen Newsletter abonnieren. (Punkte stehen nicht für Abonnements durch Gäste zur Verfügung.) Wenn sich ein Kunde abmeldet und sich dann erneut anmeldet, werden für das zweite Abonnement keine Punkte gesammelt. |
 | [!UICONTROL Converting Invitation to Customer] | Webseite | Gibt die Anzahl der Punkte an, die ein Kunde erhält, der eine Einladung sendet, wenn der Empfänger dann ein Kundenkonto öffnet. |
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 <!-- [Email Notification Settings](https://docs.magento.com/user-guide/marketing/reward-point-configure.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Email Sender] | Store-Ansicht | Bestimmt den Store-Kontakt, der als Absender der E-Mail-Benachrichtigung zur Bilanzaktualisierung und zum Ablauf angezeigt wird. |
 | [!UICONTROL Subscribe Customers by Default] | Global | Bestimmt den standardmäßigen Abonnementstatus von Kunden für E-Mails zu Kontoaktualisierungen und Ablaufbenachrichtigungen. |

@@ -14,25 +14,25 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Die Rückgabeattribute werden verwendet, um Informationen zu speichern, die während des Rückgabevorgangs des Produkts benötigt werden. Zu den Standardattributen gehören die Bedingung des zurückgegebenen Produkts, der Grund für die Rückgabe und ein Feld, das angibt, wie die Rückgabe aufgelöst wurde. Der Prozess zum Erstellen eines Rückgabeattributs ähnelt dem Erstellen einer [Kundenattribut](../customers/attribute-properties.md).
+Die Rückgabeattribute werden verwendet, um Informationen zu speichern, die während des Rückgabevorgangs des Produkts benötigt werden. Zu den Standardattributen gehören die Bedingung des zurückgegebenen Produkts, der Grund für die Rückgabe und ein Feld, das angibt, wie die Rückgabe aufgelöst wurde. Der Prozess zum Erstellen eines Rückgabeattributs ähnelt dem Erstellen eines [Kundenattributs](../customers/attribute-properties.md).
 
 ![Admin - Gibt Attribute zurück](./assets/attribute-returns.png){width="700" zoomable="yes"}
 
 ## Rückgabeattribut erstellen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Returns]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Returns]**.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Add New Attribute]**.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Add New Attribute]**.
 
    ![Neue Rückgabe - Attributeigenschaften](./assets/attribute-returns-new-properties.png){width="600" zoomable="yes"}
 
 ### Eigenschaften definieren
 
-1. Um das Attribut während der Dateneingabe zu identifizieren, legen Sie die **[!UICONTROL Default Label]**.
+1. Um das Attribut während der Dateneingabe zu identifizieren, legen Sie den Wert **[!UICONTROL Default Label]** fest.
 
-1. Für **[!UICONTROL Attribute Code]** eingeben, geben Sie einen Code ein, der das Attribut im System identifiziert.
+1. Geben Sie für &quot;**[!UICONTROL Attribute Code]**&quot;einen Code ein, der das Attribut im System angibt.
 
-1. Um den Typ des Eingabeditors zu bestimmen, der für die Dateneingabe verwendet wird, legen Sie **[!UICONTROL Input Type]** auf einen der folgenden Werte zu:
+1. Um den Typ des Eingabeditors zu bestimmen, der für die Dateneingabe verwendet wird, setzen Sie **[!UICONTROL Input Type]** auf einen der folgenden Werte:
 
    - `Text Field`
    - `Text Area`
@@ -41,11 +41,11 @@ Die Rückgabeattribute werden verwendet, um Informationen zu speichern, die wäh
    - `File`
    - `Image File`
 
-1. Um das Feld zu einem erforderlichen Element zu machen, legen Sie **[!UICONTROL Values Required]** nach `Yes`.
+1. Um das Feld zu einem erforderlichen Element zu machen, setzen Sie **[!UICONTROL Values Required]** auf `Yes`.
 
-1. Um dem Feld einen Anfangswert zuzuweisen, geben Sie einen **[!UICONTROL Default Value]**.
+1. Um dem Feld einen Anfangswert zuzuweisen, geben Sie einen **[!UICONTROL Default Value]** ein.
 
-1. Um die in das Feld eingegebenen Daten auf Genauigkeit zu überprüfen, bevor der Datensatz gespeichert wird, legen Sie **[!UICONTROL Input Validation]** auf einen der folgenden Werte zu:
+1. Um die in das Feld eingegebenen Daten auf ihre Genauigkeit zu überprüfen, bevor der Datensatz gespeichert wird, setzen Sie **[!UICONTROL Input Validation]** auf einen der folgenden Werte:
 
    - `None`
    - `Alphanumeric`
@@ -55,30 +55,30 @@ Die Rückgabeattribute werden verwendet, um Informationen zu speichern, die wäh
    - `URL`
    - `Email`
 
-1. Für `Text Field` und `Text Area` Eingabetypen, geben Sie die **[!UICONTROL Minimum Text Length]** und **[!UICONTROL Maximum Text Length]**.
+1. Geben Sie für die Eingabetypen `Text Field` und `Text Area` die Werte **[!UICONTROL Minimum Text Length]** und **[!UICONTROL Maximum Text Length]** ein.
 
-1. Um einen Vorverarbeitungsfilter anzuwenden, legen Sie **[!UICONTROL Input/Output Filter]** auf einen der folgenden Werte zu:
+1. Um einen Vorverarbeitungsfilter anzuwenden, legen Sie **[!UICONTROL Input/Output Filter]** auf einen der folgenden Werte fest:
 
    - `None`
    - `Strip HTML Tags`
    - `Escape  HTML Entities`
 
-1. Um das Attribut für Kunden sichtbar zu machen, legen Sie **[!UICONTROL Show on Storefront]** nach `Yes` im _[!UICONTROL Storefront Properties]_Abschnitt.
+1. Um das Attribut für Kunden sichtbar zu machen, setzen Sie im Abschnitt _[!UICONTROL Storefront Properties]_den Wert **[!UICONTROL Show on Storefront]**auf `Yes`.
 
-1. (Optional) Für **[!UICONTROL Sort Order]** geben Sie eine Zahl ein, um zu bestimmen, wo dieses Attribut relativ zu den anderen im selben Teil der Seite angezeigt wird. (`0` = first, `1` = Sekunde, `2` = drittes Element usw.)
+1. (Optional) Geben Sie für &quot;**[!UICONTROL Sort Order]**&quot;eine Zahl ein, um zu bestimmen, wo dieses Attribut relativ zu den anderen im selben Teil der Seite angezeigt wird. (`0` = first, `1` = second, `2` = third usw.)
 
 ### Verwalten der Bezeichnungen/Optionen
 
-1. Wählen Sie im linken Bereich die Option **[!UICONTROL Manage Labels/Options]**.
+1. Wählen Sie im linken Bereich **[!UICONTROL Manage Labels/Options]** aus.
 
-1. Im **[!UICONTROL Manage Titles (Size, Color, etc.)]** geben Sie den Titel für jede Store-Ansicht ein.
+1. Geben Sie im Abschnitt **[!UICONTROL Manage Titles (Size, Color, etc.)]** den Titel für jede Store-Ansicht ein.
 
-   ![Verwalten von Bezeichnungen](./assets/return-attributes.png){width="600" zoomable="yes"}
+   ![Bezeichnungen verwalten](./assets/return-attributes.png){width="600" zoomable="yes"}
 
-1. Wenn die Variable **[!UICONTROL Input Type]** für das Attribut `Dropdown`verwalten Sie die Optionen in der **[!UICONTROL Manage Options (Values of Your Attribute)]** Abschnitt.
+1. Wenn die **[!UICONTROL Input Type]** für das Attribut `Dropdown` ist, verwalten Sie die Optionen im Abschnitt **[!UICONTROL Manage Options (Values of Your Attribute)]** .
 
-   - Um eine Option hinzuzufügen, klicken Sie auf **[!UICONTROL Add Option]** und geben Sie den Titel für Admin und jede Store-Ansicht ein.
-   - Um eine Option als Standard festzulegen, wählen Sie **[!UICONTROL Is Default]**.
-   - Klicken Sie zum Entfernen einer Option auf **[!UICONTROL Delete]**.
+   - Um eine Option hinzuzufügen, klicken Sie auf **[!UICONTROL Add Option]** und geben Sie den Titel für &quot;Admin&quot;und jede Store-Ansicht ein.
+   - Um eine Option zum ausgewählten Standard zu machen, wählen Sie &quot;**[!UICONTROL Is Default]**&quot;.
+   - Um eine Option zu entfernen, klicken Sie auf **[!UICONTROL Delete]**.
 
 1. Klicken Sie zum Speichern der Änderungen auf **[!UICONTROL Save Attribute]**.

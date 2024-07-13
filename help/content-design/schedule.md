@@ -17,36 +17,36 @@ Planen Sie Ihre Designänderungen im Voraus, damit sie entsprechend Ihren Gesch�
 
 ## Geplante Designänderung hinzufügen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
-1. Klicken **[!UICONTROL Add Design Change]**.
+1. Klicken Sie auf **[!UICONTROL Add Design Change]**.
 
    ![Neue Einstellungen zur Änderung des Store-Designs](./assets/design-schedule-change-new.png){width="600" zoomable="yes"}
 
-1. Satz **[!UICONTROL Store]** in die Store-Ansicht, auf die Sie die Änderungen anwenden möchten.
+1. Setzen Sie **[!UICONTROL Store]** auf die Store-Ansicht, auf die Sie die Änderungen anwenden möchten.
 
-1. Satz **[!UICONTROL Custom Design]** zum zu verwendenden Design oder der Variante eines Designs.
+1. Setzen Sie **[!UICONTROL Custom Design]** auf das zu verwendende Design oder die Variante eines Designs.
 
-1. Für **[!UICONTROL Date From]** und **[!UICONTROL Date To]**, klicken Sie auf die _Kalender_ (![Kalendersymbol](../assets/icon-calendar.png)), um die Start- und Endwerte für den Zeitraum auszuwählen, in dem die Änderung wirksam ist.
+1. Klicken Sie für **[!UICONTROL Date From]** und **[!UICONTROL Date To]** auf das Symbol _Kalender_ (![Kalendersymbol](../assets/icon-calendar.png)), um die Start- und Endwerte für den Zeitraum auszuwählen, in dem die Änderung wirksam ist.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
 ## Geplante Designänderung bearbeiten
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. Wählen Sie das Element aus, das Sie bearbeiten möchten.
 
 1. Nehmen Sie die erforderlichen Änderungen vor.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
 ## Geplante Designänderung löschen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Schedule]**.
 
 1. Wählen Sie das Element aus, das Sie löschen möchten.
 
 1. Klicken Sie in der Schaltflächenleiste oben auf der Seite auf **[!UICONTROL Delete]**.
 
-1. Klicken Sie zur Bestätigung der Aktion auf **[!UICONTROL OK]**.
+1. Um die Aktion zu bestätigen, klicken Sie auf **[!UICONTROL OK]**.

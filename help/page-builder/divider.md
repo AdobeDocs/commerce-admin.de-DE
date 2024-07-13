@@ -1,18 +1,18 @@
 ---
 title: Elemente - Trennlinie
-description: Erfahren Sie mehr über den Inhaltstyp "Divider", mit dem eine Regel als visueller Umbruch zwischen Inhaltsabschnitten in der [!DNL Page Builder] Bühne.
+description: Erfahren Sie mehr über den Inhaltstyp "Divider", mit dem eine Regel als visueller Umbruch zwischen Inhaltsabschnitten in der  [!DNL Page Builder] Bühne hinzugefügt wird.
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
 # Elemente - Trennlinie
 
-Verwenden Sie die _Trennlinie_ Inhaltstyp , um eine Regel als visuellen Umbruch zwischen Inhaltsabschnitten im [[!DNL Page Builder] Schritt](workspace.md#stage). Sie können die Linienfarbe, die Dicke und die Breite des Trennzeichens angeben. Sie können auch die Ausrichtung, die Ränder und den Abstand sowie das Format des Containerrahmens steuern. Standardmäßig ist der Divider eine Haarregel, die die gesamte Breite des Containers erweitert, wobei der Abstand berücksichtigt wird.
+Verwenden Sie den Inhaltstyp _Divider_ , um eine Regel als visuellen Umbruch zwischen Inhaltsabschnitten in der [[!DNL Page Builder] Phase](workspace.md#stage) hinzuzufügen. Sie können die Linienfarbe, die Dicke und die Breite des Trennzeichens angeben. Sie können auch die Ausrichtung, die Ränder und den Abstand sowie das Format des Containerrahmens steuern. Standardmäßig ist der Divider eine Haarregel, die die gesamte Breite des Containers erweitert, wobei der Abstand berücksichtigt wird.
 
 ![Standardunterteilung in einem Container ohne Rahmen](./assets/pb-elements-divider-default.png){width="500" zoomable="yes"}
 
@@ -26,10 +26,10 @@ Obwohl die meisten Divider-Container unsichtbar sind, zeigt das folgende Beispie
 
 | Tool | Symbol | Beschreibung |
 | ---- | --------------------| ------------|
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png){width="25"} | Verschiebt den Divider-Container an eine andere gültige Position auf der Seite. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png){width="25"} | Verschiebt den Divider-Container an eine andere gültige Position auf der Seite. |
 | (Titel) | DIVIDER | Identifiziert den aktuellen Container als Trennelement. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite Divider bearbeiten , auf der Sie die Eigenschaften des Dividers und seines Containers ändern können. |
-| Ausblenden | ![Symbol &quot;Ausblenden&quot;](./assets/pb-icon-hide.png){width="25"} | Blendet den Trenncontainer aus. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite Divider bearbeiten , auf der Sie die Eigenschaften des Dividers und seines Containers ändern können. |
+| Ausblenden | ![Symbol zum Ausblenden](./assets/pb-icon-hide.png){width="25"} | Blendet den Trenncontainer aus. |
 | Anzeigen | ![Symbol &quot;Anzeigen&quot;](./assets/pb-icon-show.png){width="25"} | Zeigt den ausgeblendeten Divider-Container an. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="25"} | Kopiert den Divider-Container. |
 | Entfernen | ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="25"} | Löscht den Divider-Container und seinen Inhalt aus der Bühne. |
@@ -40,42 +40,42 @@ Obwohl die meisten Divider-Container unsichtbar sind, zeigt das folgende Beispie
 
 ## Divider hinzufügen
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Elements]** und ziehen Sie eine **[!UICONTROL Divider]** Platzhalter für eine Zeile, Spalte oder Registerkarte, die auf der Bühne festgelegt ist.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Eintrag **[!UICONTROL Elements]** und ziehen Sie einen Platzhalter **[!UICONTROL Divider]** auf eine Zeile, Spalte oder Registerkarte, die auf der Bühne festgelegt ist.
 
    Verwenden Sie die rote Führungslinie für die Referenz, wenn Sie die Trennlinie entweder vor oder nach einem anderen Inhaltscontainer auf der Bühne positionieren.
 
-   ![Ziehen einer Trennlinie auf die Bühne](./assets/pb-elements-divider-drag.png){width="600" zoomable="yes"}
+   ![ Ziehen einer Trennlinie auf die Bühne](./assets/pb-elements-divider-drag.png){width="600" zoomable="yes"}
 
    Im folgenden Beispiel markiert die Trennlinie den Anfang eines neuen Textabschnitts.
 
-   ![Trennlinien für Textabschnitte](./assets/pb-elements-dividers-multiple-text-row.png){width="500" zoomable="yes"}
+   ![Trennen von Textabteilungen](./assets/pb-elements-dividers-multiple-text-row.png){width="500" zoomable="yes"}
 
 1. Gehen Sie wie folgt vor, um die Einstellungen der neuen Trennlinie festzulegen.
 
 ## Dividereinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über den Divider-Container, um die Toolbox anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den Divider-Container, um die Toolbox anzuzeigen und das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) zu wählen.
 
-   ![Trennlinien-Toolbox](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
+   ![ Trennlinien-Toolbox](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
 
-1. Divider ändern **[!UICONTROL Line Color]** Verwendung einer der folgenden Methoden:
+1. Ändern Sie den Divider **[!UICONTROL Line Color]** mit einer der folgenden Methoden:
 
-   - Gültige eingeben [HTML-Farbname][1]. Beispiel, `Teal`.
-   - Geben Sie den hexadezimalen Farbwert ein. Beispiel, `#008080`.
+   - Geben Sie einen gültigen [HTML-Farbnamen][1] ein. Beispiel: `Teal`.
+   - Geben Sie den hexadezimalen Farbwert ein. Beispiel: `#008080`.
 
-   Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Apply]**.
+   Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Apply]**.
 
    ![Festlegen der Linienfarbe](./assets/pb-elements-divider-settings-line-color.png){width="600" zoomable="yes"}
 
-1. Geben Sie die **[!UICONTROL Line Thickness]** in Pixel.
+1. Geben Sie den Wert **[!UICONTROL Line Thickness]** in Pixel ein.
 
-1. Um die Maßeinheit anzugeben, geben Sie die **[!UICONTROL Line Width]** gefolgt von `px` oder `%`.
+1. Um die Maßeinheit anzugeben, geben Sie den Wert **[!UICONTROL Line Width]** gefolgt von `px` oder `%` ein.
 
-   ![Festlegen von Linienfarbe, -dicke und -breite](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
+   ![Festlegen der Linienfarbe, -dicke und -breite](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_-Einstellungen nach Bedarf.
 
-   - Um die Positionierung des Trennzeichens im übergeordneten Container zu steuern, wählen Sie die **[!UICONTROL Alignment]**:
+   - Um die Positionierung des Trennzeichens innerhalb des übergeordneten Containers zu steuern, wählen Sie den Wert **[!UICONTROL Alignment]**:
 
      | Option | Beschreibung |
      | ------ | ----------- |
@@ -90,7 +90,7 @@ Obwohl die meisten Divider-Container unsichtbar sind, zeigt das folgende Beispie
 
      ![Trennlinie mit Mittelausrichtung](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
 
-   - Legen Sie die **[!UICONTROL Border]** Stil, der auf alle vier Seiten des Trenncontainers angewendet wird:
+   - Legen Sie den **[!UICONTROL Border]** -Stil fest, der auf alle vier Seiten des Divider-Containers angewendet wird:
 
      | Option | Beschreibung |
      | ------ | ----------- |
@@ -107,7 +107,7 @@ Obwohl die meisten Divider-Container unsichtbar sind, zeigt das folgende Beispie
 
      {style="table-layout:auto"}
 
-   - Wenn Sie einen anderen Rahmenstil als `None`, füllen Sie die Randanzeigeoptionen aus:
+   - Wenn Sie einen anderen Rahmenstil als `None` festlegen, füllen Sie die Anzeigeoptionen für die Rahmenanzeige aus:
 
      | Option | Beschreibung |
      | ------ |------------ |
@@ -117,11 +117,11 @@ Obwohl die meisten Divider-Container unsichtbar sind, zeigt das folgende Beispie
 
      {style="table-layout:auto"}
 
-   - (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet, das auf den Container angewendet werden soll.
+   - (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet an, das auf den Container angewendet werden soll.
 
      Trennen Sie mehrere Klassennamen durch ein Leerzeichen.
 
-   - Geben Sie Werte in Pixel für die **[!UICONTROL Margins and Padding]** um die äußeren Ränder und den inneren Abstand des Trennbehälters zu bestimmen.
+   - Geben Sie Werte in Pixel für den Wert **[!UICONTROL Margins and Padding]** ein, um die äußeren Ränder und den inneren Abstand des Divider-Containers zu bestimmen.
 
      Geben Sie die entsprechenden Werte in das Diagramm ein.
 
@@ -132,7 +132,7 @@ Obwohl die meisten Divider-Container unsichtbar sind, zeigt das folgende Beispie
 
      {style="table-layout:auto"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
    ![In einer Zeile zentrierte Trennlinie](./assets/pb-elements-divider-settings-2px-centered.png){width="500" zoomable="yes"}
 
@@ -140,20 +140,20 @@ Obwohl die meisten Divider-Container unsichtbar sind, zeigt das folgende Beispie
 
 Für einen formatierten Divider mit bestimmten Einstellungen ist es effizienter, ein Duplikat zu erstellen, anstatt von vorn mit einem neuen Platzhalter zu beginnen.
 
-1. Bewegen Sie den Mauszeiger über den Divider-Container, um die Toolbox anzuzeigen und die _Duplizieren_ ( ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den Divider-Container, um die Werkzeugleiste anzuzeigen, und wählen Sie das Symbol _Duplizieren_ ( ![Duplizieren-Symbol](./assets/pb-icon-duplicate.png){width="20"} ).
 
    Der doppelte Divider-Container wird direkt unter dem Original angezeigt.
 
-   ![Duplizierte Trennlinie](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
+   ![Duplizierter Divider](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den neuen Divider-Container, um die Toolbox anzuzeigen und die _Verschieben_ ( ![Symbol Verschieben](./assets/pb-icon-move.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den neuen Divider-Container, um die Toolbox anzuzeigen und das Symbol _Verschieben_ ( ![Verschieben-Symbol](./assets/pb-icon-move.png){width="20"} ) zu wählen.
 
-   ![Verschieben einer Trennlinie](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
+   ![Verschieben eines Trennzeichens](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
 
 1. Wählen Sie die Trennlinie aus und ziehen Sie sie, bis die rote Führungslinie die neue Position markiert.
 
    Die oberen und unteren Ränder jedes Containers werden als gestrichelte Linien angezeigt, während der Divider verschoben wird.
 
-   ![Duplizierte Trennlinie in Position verschieben](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
+   ![Verschieben des duplizierten Trennzeichens in Position](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
 [1]: https://en.wikipedia.org/wiki/Web_colors

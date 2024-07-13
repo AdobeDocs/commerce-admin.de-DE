@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] menu'
-description: Verwenden Sie die [!UICONTROL Catalog] -Menü, um auf die Tools zur Produkterstellung, Kategorie und Lagerbestandsverwaltung zuzugreifen.
+description: Verwenden Sie das Menü "[!UICONTROL Catalog]", um auf die Tools zur Produkterstellung, Kategorie und Lagerbestandsverwaltung zuzugreifen.
 exl-id: cfb163d6-eccc-4ab9-bd19-37c611abbc78
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
@@ -9,28 +9,28 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Catalog] Menü
+# Menü [!UICONTROL Catalog]
 
-Die [!UICONTROL Catalog] bietet einfachen Zugriff auf Tools zur Produkterstellung, Kategorie- und Bestandsverwaltung sowie freigegebene Kataloge für benutzerdefinierte Preise in [B2B-Geschäfte](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+Das Menü [!UICONTROL Catalog] bietet einfachen Zugriff auf Tools zur Produkterstellung, Kategorie- und Lagerbestandsverwaltung sowie freigegebene Kataloge für benutzerdefinierte Preise in [B2B Stores](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 ![Katalogmenü](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
-Im _Admin_ Seitenleiste, klicken Sie **[!UICONTROL Catalog]**.
+Klicken Sie in der Seitenleiste _Admin_ auf **[!UICONTROL Catalog]**.
 
 ## [!UICONTROL Products]
 
-Erstellen [products](products-list.md) und verwalten Sie Ihr Inventar.
+Erstellen Sie [Produkte](products-list.md) jedes Typs und verwalten Sie Ihren Bestand.
 
 ![Produktraster](./assets/products-grid.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Categories]
 
-Erstellen Sie die [category](categories.md) -Struktur, die die Grundlage für die Navigation Ihres Stores darstellt.
+Erstellen Sie die Struktur [category](categories.md) , die die Grundlage der Navigation Ihres Stores bildet.
 
-![Kategoriearbeitsbereich](./assets/category-workspace.png){width="700" zoomable="yes"}
+![Arbeitsbereich &quot;Kategorie&quot;](./assets/category-workspace.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Shared Catalogs]
 
-Bei Geschäften mit installiertem und aktiviertem Adobe Commerce B2B: [freigegebene Kataloge](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) Sie erhalten die Möglichkeit, den verschiedenen Unternehmen individuelle Preise zur Verfügung zu stellen.
+Bei Geschäften mit installiertem und aktiviertem Adobe Commerce B2B-Speicher bieten Ihnen die [freigegebenen Kataloge](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) die Möglichkeit, den verschiedenen Unternehmen benutzerdefinierte Preise zur Verfügung zu stellen.
 
-![Gemeinsame Katalogprodukte](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
+![Freigegebene Katalogprodukte](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

@@ -11,19 +11,19 @@ ht-degree: 0%
 
 # Link in den Editor einfügen
 
-Eine einfache Möglichkeit, einen Link einzufügen, besteht darin, die _Link_ im [editor](editor.md) Symbolleiste. Es erfordert keine Kenntnis von HTML, und das Ergebnis ist dasselbe.
+Sie können einen Link einfach einfügen, indem Sie die Schaltfläche _Link_ in der Symbolleiste [Editor](editor.md) verwenden. Es erfordert keine Kenntnis von HTML, und das Ergebnis ist dasselbe.
 
 1. Wählen Sie den Text aus, in dem Sie den Link erstellen möchten.
 
-1. Klicken Sie auf _Link einfügen/bearbeiten_ in der Editor-Symbolleiste.
+1. Klicken Sie in der Editor-Symbolleiste auf das Symbol _Link einfügen/bearbeiten_ .
 
    ![Editor-Symbolleiste - Link einfügen](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   Diese Aktion öffnet die _[!UICONTROL Insert link]_angezeigt.
+   Durch diese Aktion wird das Dialogfeld &quot;_[!UICONTROL Insert link]_&quot; geöffnet.
 
    ![Editor - Dialogfeld &quot;Link einfügen&quot;](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 
-1. Für **[!UICONTROL Url]** einen der folgenden Werte eingeben:
+1. Geben Sie für &quot;**[!UICONTROL Url]**&quot;eine der folgenden Optionen ein:
 
    - Der URL-Schlüssel einer Seite in Ihrem Store.
 
@@ -33,9 +33,9 @@ Eine einfache Möglichkeit, einen Link einzufügen, besteht darin, die _Link_ im
 
    Die Standardeinstellung ist der Text, den Sie für den Link ausgewählt haben. Sie können sie im Textfeld ändern.
 
-1. Für **[!UICONTROL Title]** Geben Sie den QuickInfo-Text ein, der angezeigt werden soll, wenn der Mauszeiger über den Link bewegt wird.
+1. Geben Sie für **[!UICONTROL Title]** den QuickInfo-Text ein, der angezeigt werden soll, wenn der Mauszeiger über den Link bewegt wird.
 
-1. Satz **[!UICONTROL Target]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Target]** auf einen der folgenden Werte:
 
    - `Open link in the same window`
 

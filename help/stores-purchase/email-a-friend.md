@@ -18,57 +18,57 @@ ht-degree: 0%
 
 ## E-Mail-a-Freund konfigurieren
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen **[!UICONTROL Email to a Friend]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Catalog]** und wählen Sie **[!UICONTROL Email to a Friend]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Email Templates]** und legen Sie die Optionen fest:
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Email Templates]** und legen Sie die Optionen fest:
 
    ![Katalogkonfiguration - E-Mail-Vorlagen](../configuration-reference/catalog/assets/email-to-a-friend-email-templates.png){width="600" zoomable="yes"}
 
    Eine ausführliche Beschreibung der einzelnen Konfigurationseinstellungen finden Sie unter [E-Mail-Vorlagen](../configuration-reference/catalog/email-to-a-friend.md) im _Konfigurationshandbuch_.
 
-   Um die Standardeinstellung eines beliebigen Felds zu ändern, deaktivieren Sie die **[!UICONTROL Use system value]** aktivieren, damit das Feld bearbeitbar ist.
+   Um die Standardeinstellung eines beliebigen Felds zu ändern, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use system value]** , damit das Feld bearbeitbar wird.
 
-   - Satz **[!UICONTROL Enabled]** nach `Yes`.
+   - Setzen Sie **[!UICONTROL Enabled]** auf `Yes`.
 
-   - Satz **[!UICONTROL Select Email Template]** der Vorlage, die Sie als Grundlage für die Nachrichten verwenden möchten.
+   - Setzen Sie **[!UICONTROL Select Email Template]** auf die Vorlage, die Sie als Basis für die Nachrichten verwenden möchten.
 
-   - Wenn Sie verlangen möchten, dass nur registrierte Kunden E-Mails an Freunde senden können, legen Sie **[!UICONTROL Allow for Guests]** nach `No`.
+   - Wenn Sie verlangen möchten, dass nur registrierte Kunden E-Mails an Freunde senden können, setzen Sie **[!UICONTROL Allow for Guests]** auf `No`.
 
-   - Für **[!UICONTROL Max Recipients]**, geben Sie die maximale Anzahl von Freunden an, die auf der Verteilungsliste für eine Nachricht stehen können.
+   - Geben Sie für &quot;**[!UICONTROL Max Recipients]**&quot;die maximale Anzahl von Freunden an, die auf der Verteilungsliste für eine einzelne Nachricht stehen können.
 
-   - Für **[!UICONTROL Max Products Sent in 1 Hour]** Geben Sie die maximale Anzahl von Produkten ein, die von einem einzelnen Benutzer mit Freunden über einen Zeitraum von einer Stunde geteilt werden können.
+   - Geben Sie für &quot;**[!UICONTROL Max Products Sent in 1 Hour]**&quot;die maximale Anzahl von Produkten ein, die von einem einzelnen Benutzer mit Freunden über einen Zeitraum von einer Stunde geteilt werden können.
 
-   - Satz **[!UICONTROL Limit Sending By]** einer der folgenden Methoden zur Identifizierung des Absenders von E-Mails:
+   - Setzen Sie **[!UICONTROL Limit Sending By]** auf eine der folgenden Methoden, um den Absender von E-Mails zu identifizieren:
 
-     `IP Address`  - (Empfohlen) Identifiziert den Absender anhand der IP-Adresse des Computers, der zum Senden der E-Mails verwendet wird.
+     `IP Address` - (Empfohlen) Identifiziert den Absender anhand der IP-Adresse des Computers, der zum Senden der E-Mails verwendet wird.
 
      `Cookie (unsafe)` - Identifiziert den Absender nach Browser-Cookie. Diese Methode ist weniger effektiv, da der Absender das Cookie löschen kann, um die Beschränkung zu umgehen.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ## E-Mail an einen Freund im Storefront senden
 
 Wenn diese Funktion konfiguriert ist, führen die Store-Kunden die folgenden Schritte aus, um Produktinformationen für Freunde freizugeben.
 
-1. Auf einer Katalogseite klickt der Kunde auf die Variable **[!UICONTROL Email]** -Link.
+1. Auf einer Katalogseite klickt der Kunde auf den Link **[!UICONTROL Email]** .
 
 1. Wenn die Funktion nur für registrierte Benutzer konfiguriert ist, führt einen der folgenden Schritte aus:
 
    - Melden Sie sich bei Ihrem Kundenkonto an.
    - Melden Sie sich für ein neues Konto an.
 
-1. Schließt die **[!UICONTROL Message]** und gibt den Empfänger ein **[!UICONTROL Name]** und **[!UICONTROL Email Address]**.
+1. Schließt den **[!UICONTROL Message]** aus und gibt den Empfänger **[!UICONTROL Name]** und **[!UICONTROL Email Address]** ein.
 
    Bei Bedarf kann der Kunde weitere Empfänger hinzufügen:
 
    - Klicks **[!UICONTROL Add Invitee]**.
 
-   - Fügt die **[!UICONTROL Name]** und **[!UICONTROL Email Address]** der zusätzlichen Person.
+   - Fügt die **[!UICONTROL Name]** und **[!UICONTROL Email Address]** der zusätzlichen Person ein.
 
-     Sie können die Nachricht an so viele zusätzliche Personen senden, wie die Konfiguration zulässt. Sie können die hinzugefügte Einladung entfernen, indem Sie auf die **[!DNL Remove]** -Link.
+     Sie können die Nachricht an so viele zusätzliche Personen senden, wie die Konfiguration zulässt. Sie können die hinzugefügte Einladung entfernen, indem sie auf den Link **[!DNL Remove]** klicken.
 
-1. Wenn die Nachricht versandbereit ist, klickt auf **[!UICONTROL Send Email]**.
+1. Wenn die Nachricht gesendet werden kann, klickt auf **[!UICONTROL Send Email]**.
 
    ![Beispiel-Storefront - E-Mail an einen Freund](./assets/storefront-email-a-friend-form.png){width="700" zoomable="yes"}

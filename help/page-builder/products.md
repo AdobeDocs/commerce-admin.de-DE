@@ -1,38 +1,38 @@
 ---
 title: Inhalt hinzufügen - Produkte
-description: Erfahren Sie mehr über den Inhaltstyp Produkte , der zum Hinzufügen einer Liste von Produkten zum [!DNL Page Builder] Bühne.
+description: Erfahren Sie mehr über den Inhaltstyp Produkte , der zum Hinzufügen einer Liste von Produkten zur Phase [!DNL Page Builder] verwendet wird.
 exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1913'
 ht-degree: 0%
 
 ---
 
 # Inhalt hinzufügen - Produkte
 
-Verwenden Sie die _Produkte_ Inhaltstyp , um der [[!DNL Page Builder] Schritt](workspace.md#stage), entweder mit einem Raster- oder Karusselllayout. Verwenden Sie die [Inhalt hinzufügen - Block](block.md) -Tool, um den Block auf der [!DNL Page Builder] und fügen Sie dann eine Produktliste in den Block ein. Alternativ können Sie die Produktliste direkt in einer Zeile auf einer Seite hinzufügen.
+Verwenden Sie den Inhaltstyp _Produkte_ , um der [[!DNL Page Builder] Bühne](workspace.md#stage) eine Liste von Produkten hinzuzufügen, indem Sie entweder ein Raster- oder ein Karusselllayout verwenden. Verwenden Sie das Tool [Inhalt hinzufügen - Block](block.md) , um den Block auf der [!DNL Page Builder] -Bühne zu platzieren und dann eine Produktliste innerhalb des Blocks zu platzieren. Alternativ können Sie die Produktliste direkt in einer Zeile auf einer Seite hinzufügen.
 
 ## Richtlinien für die Verwendung des Produktkarussells
 
 Das Produktkarussell bietet eine leistungsstarke und ansprechende Möglichkeit, Ihre Produkte anzuzeigen. Die folgenden Richtlinien werden empfohlen, um das bestmögliche Ergebnis zu erzielen:
 
-- Fügen Sie Produktkarussells direkt zu Seitenbreitenbehältern wie Zeilen, Registerkarten oder einspaltigen Layouts hinzu. Die Verwendung von Layouts mit Seitenbreite gewährleistet die optimale responsive Anzeige Ihrer Produkte. [!DNL Page Builder] verringert die Anzahl der angezeigten Produkte in Abhängigkeit von der Breite der Seite und nicht von der Breite des Containers.
+- Fügen Sie Produktkarussells direkt zu Seitenbreitenbehältern wie Zeilen, Registerkarten oder einspaltigen Layouts hinzu. Die Verwendung von Layouts mit Seitenbreite gewährleistet die optimale responsive Anzeige Ihrer Produkte. [!DNL Page Builder] reduziert die Anzahl der angezeigten Produkte in Abhängigkeit von der Breite der Seite und nicht von der Breite des Containers.
 
-- Fügen Sie einer schmalen Spalte kein Produktkarussell hinzu. Wie bereits erwähnt [!DNL Page Builder]bestimmt standardmäßig die Anzahl der anzuzeigenden Produkte basierend auf der Seitenbreite, nicht auf der Spaltenbreite.
+- Fügen Sie einer schmalen Spalte kein Produktkarussell hinzu. Wie bereits erwähnt, bestimmt [!DNL Page Builder] standardmäßig die Anzahl der anzuzeigenden Produkte basierend auf der Seitenbreite und nicht auf der Spaltenbreite.
 
-- Wenn Sie möchten, dass das Produktkarussell kontinuierlich automatisch scrollt, legen Sie beide fest. **[!UICONTROL Autoplay]** und **[!UICONTROL Infinite Loop]** nach `Yes`. Wenn die automatische Wiedergabe auf `Yes` aber Unendliche Schleife auf `No`, stoppt der automatische Bildlauf am Ende Ihrer Produktliste.
+- Wenn Sie möchten, dass Ihr Produktkarussell kontinuierlich automatisch scrollt, setzen Sie sowohl **[!UICONTROL Autoplay]** als auch **[!UICONTROL Infinite Loop]** auf `Yes`. Wenn &quot;Autoplay&quot;auf &quot;`Yes`&quot;festgelegt ist, die &quot;Unendliche Schleife&quot;jedoch auf &quot;`No`&quot;gesetzt ist, stoppt der automatische Bildlauf am Ende Ihrer Produktliste.
 
-- Legen Sie die **[!UICONTROL Carousel Mode]** nach `Continuous` , um ein Produkt im Karussell einzeln hervorzuheben, zu zentrieren und zu scrollen. Die anderen Produkte sind in der Liste sichtbar, aber transparent, um das zentrierte Produkt hervorzuheben.
+- Setzen Sie die **[!UICONTROL Carousel Mode]** auf `Continuous`, um ein Produkt gleichzeitig im Karussell hervorzuheben, zu zentrieren und zu scrollen. Die anderen Produkte sind in der Liste sichtbar, aber transparent, um das zentrierte Produkt hervorzuheben.
 
   ![Produktliste im kontinuierlichen Karussellmodus](./assets/pb-products-settings-carousel-continuous.png){width="600"}
 
-- Um bis zu fünf Produkte gleichzeitig im Karussell anzuzeigen und zu scrollen, halten Sie die **[!UICONTROL Carousel Mode]** auf `Default`.
+- Um bis zu fünf Produkte gleichzeitig im Karussell anzuzeigen und zu scrollen, halten Sie die **[!UICONTROL Carousel Mode]** auf `Default` eingestellt.
 
   ![Produktliste im standardmäßigen Karussellmodus](./assets/pb-products-settings-carousel-default.png){width="600"}
 
-Die folgenden Anweisungen zeigen, wie Sie einem Baustein eine Produktliste hinzufügen. Sie können dann eine [Widget](../content-design/widgets.md) , um den Block an einer bestimmten Stelle auf einer beliebigen Seite in Ihrem Geschäft zu platzieren.
+Die folgenden Anweisungen zeigen, wie Sie einem Baustein eine Produktliste hinzufügen. Anschließend können Sie das Widget [widget](../content-design/widgets.md) verwenden, um den Block an einer bestimmten Stelle auf einer beliebigen Seite in Ihrem Store zu platzieren.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -40,9 +40,9 @@ Die folgenden Anweisungen zeigen, wie Sie einem Baustein eine Produktliste hinzu
 
 | Tool | Symbol | Beschreibung |
 | --------- | ------------- | ----------------- |
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png){width="25"} | Verschiebt den Produkt-Container und seinen Inhalt an eine andere Position auf der Bühne. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} | Öffnet die _Produkte bearbeiten_ Seite, auf der Sie die Produktliste auswählen und die Eigenschaften des Containers ändern können. |
-| Ausblenden | ![Symbol &quot;Ausblenden&quot;](./assets/pb-icon-hide.png){width="25"} | Blendet den aktuellen Produkt-Container und seinen Inhalt aus. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png){width="25"} | Verschiebt den Produkt-Container und seinen Inhalt an eine andere Position auf der Bühne. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite _Produkte bearbeiten_ , auf der Sie die Produktliste auswählen und die Eigenschaften des Containers ändern können. |
+| Ausblenden | ![Symbol zum Ausblenden](./assets/pb-icon-hide.png){width="25"} | Blendet den aktuellen Produkt-Container und seinen Inhalt aus. |
 | Anzeigen | ![Symbol &quot;Anzeigen&quot;](./assets/pb-icon-show.png){width="25"} | Zeigt den ausgeblendeten Produktbehälter und seinen Inhalt an. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="25"} | Kopiert den Produktcontainer und seinen Inhalt. |
 | Entfernen | ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="25"} | Löscht den Produkt-Container und seinen Inhalt aus der Phase. |
@@ -53,27 +53,27 @@ Die folgenden Anweisungen zeigen, wie Sie einem Baustein eine Produktliste hinzu
 
 ## Produktlistenbaustein erstellen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
 
-1. Klicken **[!UICONTROL Add New Block]**.
+1. Klicken Sie auf **[!UICONTROL Add New Block]**.
 
-1. Geben Sie die **[!UICONTROL Block Title]** und **[!UICONTROL Identifier]**.
+1. Geben Sie die Werte **[!UICONTROL Block Title]** und **[!UICONTROL Identifier]** ein.
 
-1. Wählen Sie die **[!UICONTROL Store View]** wo der Block verfügbar sein soll.
+1. Wählen Sie die **[!UICONTROL Store View]** aus, wo der Block verfügbar sein soll.
 
-1. Scrollen Sie nach unten und klicken Sie auf **[!UICONTROL Edit with Page Builder]** oder innerhalb des Inhaltsvorschaubereichs, um die [!DNL Page Builder] Arbeitsbereich.
+1. Scrollen Sie nach unten und klicken Sie auf **[!UICONTROL Edit with Page Builder]** oder innerhalb des Inhaltsvorschaubereichs, um den Arbeitsbereich [!DNL Page Builder] zu öffnen.
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Add Content]** und ziehen Sie eine **[!UICONTROL Products]** Platzhalter zur Bühne.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Wert **[!UICONTROL Add Content]** und ziehen Sie einen Platzhalter **[!UICONTROL Products]** auf die Bühne.
 
-   ![Inhaltstyp &quot;Produkte hinzufügen&quot;](./assets/pb-add-content-products-drag.png){width="600" zoomable="yes"}
+   ![Hinzufügen des Inhaltstyps &quot;Produkte&quot;](./assets/pb-add-content-products-drag.png){width="600" zoomable="yes"}
 
 ## Konfigurieren des Produktlistencontainers
 
-Bewegen Sie den Mauszeiger über das leere Element _Produkte_ Container zum Anzeigen der Toolbox und klicken Sie auf _Einstellungen_ (![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+Bewegen Sie den Mauszeiger über den leeren Behälter _Produkte_ , um die Toolbox anzuzeigen, und klicken Sie auf das Symbol _Einstellungen_ (![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
-![Produkt-Toolbox](./assets/pb-add-content-products-toolbox.png){width="500" zoomable="yes"}
+![Produktsymbolleiste](./assets/pb-add-content-products-toolbox.png){width="500" zoomable="yes"}
 
-Führen Sie die _Einstellungen_ entsprechend den folgenden Abschnitten:
+Füllen Sie die _Einstellungen_ gemäß den folgenden Abschnitten aus:
 
 ### Erscheinungsbild
 
@@ -81,30 +81,30 @@ Führen Sie die _Einstellungen_ entsprechend den folgenden Abschnitten:
 
    | Typ | Beschreibung |
    | ---- | ----------- |
-   | Produktraster | Zeigt die Produkte in einem Raster an, das standardmäßig fünf Produkte pro Zeile anzeigt (mit so vielen Zeilen wie erforderlich), um die in der Variablen **[!UICONTROL Number of Products to Display]** -Einstellung. |
-   | Karussell | Zeigt die Produkte in einem Karussell an (auch als Regler bezeichnet). Das Karussell zeigt bis zu fünf Produkte pro Folie. <br/><br/>**Reaktionswarnung**: Wenn Sie dieses Erscheinungsbild auswählen, empfiehlt es sich, den Inhaltstyp Produkte direkt zu einer Zeile, einem Tab oder einem einspaltigen Layout hinzuzufügen, wo er responsiv ist und auf kleineren Bildschirmen weniger Produkte pro Seite anzeigt. Wenn Sie sie zu Content-Typen hinzufügen, die kleiner als die Breite der Seite sind (z. B. eine schmale Spalte), zeigt das Karussell mehr Produkte pro Folie an, als der Container zulässt, unabhängig von der Bildschirmgröße. |
+   | Produktraster | Zeigt die Produkte in einem Raster an, das (standardmäßig) fünf Produkte pro Zeile anzeigt und so viele Zeilen enthält, wie für die Anzeige der in der Einstellung &quot;**[!UICONTROL Number of Products to Display]**&quot; eingegebenen Zahl erforderlich sind. |
+   | Karussell | Zeigt die Produkte in einem Karussell an (auch als Regler bezeichnet). Das Karussell zeigt bis zu fünf Produkte pro Folie. <br/><br/>**Reaktionswarnung**: Wenn Sie dieses Erscheinungsbild auswählen, ist es am besten, den Inhaltstyp &quot;Produkte&quot;direkt zu einem Zeilen-, Tab- oder einspaltigen Layout hinzuzufügen, wo er responsiv ist, wobei auf kleineren Bildschirmen weniger Produkte pro Seite angezeigt werden. Wenn Sie sie zu Content-Typen hinzufügen, die kleiner als die Breite der Seite sind (z. B. eine schmale Spalte), zeigt das Karussell mehr Produkte pro Folie an, als der Container zulässt, unabhängig von der Bildschirmgröße. |
 
    {style="table-layout:auto"}
 
    ![Produkterscheinung](./assets/pb-products-appearances.png){width="300"}
 
-   Wenn Sie das Karussell auswählen, müssen Sie auch die [Karusselleinstellungen](#carousel-settings).
+   Wenn Sie das Karussell auswählen, müssen Sie auch die [Karusselleinstellungen](#carousel-settings) konfigurieren.
 
-1. Für **[!UICONTROL Select Products By]** wählen Sie die Methode für die Produktauswahl aus:
+1. Wählen Sie für &quot;**[!UICONTROL Select Products By]**&quot;die Methode für die Produktauswahl:
 
-   Sie können Ihre Produkte nach Kategorie, SKU oder Bedingung auswählen. Diese Optionen schließen sich gegenseitig aus. Sie können beispielsweise nicht die Option Kategorie auswählen, die Auswahl Kategorie verwenden und dann zur Option Bedingung wechseln, um einige Bedingungen hinzuzufügen. Ihre Produkte werden nur basierend auf dem ausgewählt, was Sie für _one_ von diesen drei Optionen.
+   Sie können Ihre Produkte nach Kategorie, SKU oder Bedingung auswählen. Diese Optionen schließen sich gegenseitig aus. Sie können beispielsweise nicht die Option Kategorie auswählen, die Auswahl Kategorie verwenden und dann zur Option Bedingung wechseln, um einige Bedingungen hinzuzufügen. Ihre Produkte werden nur basierend auf dem ausgewählt, was Sie für _eine_ dieser drei Optionen festgelegt haben.
 
    - **[!UICONTROL Category]** - Wählen Sie diese Option, um Produkte mit einer ausgewählten Kategorie anzuzeigen.
 
      ![Produktauswahl nach Kategorie](./assets/pb-products-settings_category.png){width="500"}
 
-     Bei Auswahl dieser Option wird eine **[!UICONTROL Category]** auswählen. Klicken Sie auf den Pfeil und führen Sie einen Drilldown durch, um die Kategorie der anzuzeigenden Produkte auszuwählen. Beispiel: in der [!DNL Commerce] Beispieldaten, Einbohren und Auswählen _Frauen > Tops > Tees_ zeigt alle Produkte für diese Kategorie an.
+     Wenn diese Option aktiviert ist, wird der Selektor **[!UICONTROL Category]** angezeigt. Klicken Sie auf den Pfeil und führen Sie einen Drilldown durch, um die Kategorie der anzuzeigenden Produkte auszuwählen. Beispielsweise werden in den Beispieldaten [!DNL Commerce] beim Einbohren und Auswählen von _Frauen > Tops > Tees_ alle Produkte für diese Kategorie angezeigt.
 
      ![Auswählen einer Katalogkategorie](./assets/pb-select-products-by-category.png){width="500"}
 
    - **[!UICONTROL SKU]** - Wählen Sie diese Option, um Produkte mit einer oder mehreren SKUs anzuzeigen.
 
-     Bei Auswahl dieser Option wird eine **[!UICONTROL Product SKUs]** Textfeld, in das Sie eine kommagetrennte Liste der anzuzeigenden SKUs eingeben müssen.
+     Wenn diese Option aktiviert ist, wird das Textfeld &quot;**[!UICONTROL Product SKUs]**&quot;angezeigt, in das Sie eine kommagetrennte Liste der anzuzeigenden SKUs eingeben müssen.
 
      ![Produktauswahl nach SKU](./assets/pb-products-settings_sku.png){width="500"}
 
@@ -116,11 +116,11 @@ Führen Sie die _Einstellungen_ entsprechend den folgenden Abschnitten:
 
      >[!NOTE]
      >
-     >Wenn Sie die Option Kategorie oder SKU auswählen, wird das **[!UICONTROL Sort By]** Option `Position`. Bei dieser Sortierungsoption werden die Produkte in derselben Reihenfolge angezeigt wie in Ihrem Katalog.</br>
+     >Wenn Sie die Option Kategorie oder SKU auswählen, erhalten Sie die Option **[!UICONTROL Sort By]** von `Position`. Bei dieser Sortieroption werden die Produkte in derselben Reihenfolge angezeigt wie in Ihrem Katalog.</br>
      >
-     >Bei der Option Kategorie zeigt die Sortierung nach Position die Produkte in derselben Reihenfolge an, in der sie in Ihrem Katalog angezeigt werden. Bei der SKU-Option zeigt die Sortierung nach Position die Produkte in der Reihenfolge an, in der Sie sie in der **[!UICONTROL Product SKUs]** Textfeld.
+     >Bei der Option Kategorie zeigt die Sortierung nach Position die Produkte in derselben Reihenfolge an, in der sie in Ihrem Katalog angezeigt werden. Bei der SKU-Option zeigt die Sortierung nach Position die Produkte in der Reihenfolge an, in der Sie sie im Textfeld **[!UICONTROL Product SKUs]** eingeben.
 
-1. Für **[!UICONTROL Sort By]** die Sortierreihenfolge für die Produkte in der Liste auswählen:
+1. Wählen Sie für **[!UICONTROL Sort By]** die Sortierreihenfolge für die Produkte in der Liste aus:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -138,11 +138,11 @@ Führen Sie die _Einstellungen_ entsprechend den folgenden Abschnitten:
 
    {style="table-layout:auto"}
 
-   ![Sortierungsoptionen für Produkte](./assets/pb-products-sortby.png){width="300"}
+   ![Produktsortierungsoptionen](./assets/pb-products-sortby.png){width="300"}
 
-1. Geben Sie die **[!UICONTROL Number of Products to Display]** im Karussell oder Raster angezeigt.
+1. Geben Sie den Wert **[!UICONTROL Number of Products to Display]** in das Karussell oder Raster ein.
 
-   Werte können aus `1` nach `999`. Der Standardwert ist `5` für ein Raster und `20` für ein Karussell.
+   Die Werte können zwischen `1` und `999` liegen. Der Standardwert ist `5` für ein Raster und `20` für ein Karussell.
 
    >[!NOTE]
    >
@@ -150,11 +150,11 @@ Führen Sie die _Einstellungen_ entsprechend den folgenden Abschnitten:
 
    >[!IMPORTANT]
    >
-   >Die Preise für konfigurierbare, gruppierte und gebündelte (dynamische Preise) Produkte sind im Admin nicht definiert. Daher werden diese Produkte nicht im **[!UICONTROL Preview]** wenn die Erzeugnisse nach Preis gefiltert werden. Diese Produkte können nicht korrekt im **[!UICONTROL Preview]** wenn nach Preis bestellt.
+   >Die Preise für konfigurierbare, gruppierte und gebündelte (dynamische Preise) Produkte sind im Admin nicht definiert. Daher werden diese Produkte nicht im **[!UICONTROL Preview]** angezeigt, wenn die Produkte nach Preis gefiltert werden. Diese Produkte können nicht richtig im **[!UICONTROL Preview]** bestellt werden, wenn sie nach Preis sortiert sind.
 
 ### Karusselleinstellungen
 
-1. Um zu bestimmen, wie die Produkte im Karussell angezeigt werden, wählen Sie die **[!UICONTROL Carousel Mode]**:
+1. Um zu bestimmen, wie die Produkte im Karussell angezeigt werden, wählen Sie den Wert **[!UICONTROL Carousel Mode]**:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -163,35 +163,35 @@ Führen Sie die _Einstellungen_ entsprechend den folgenden Abschnitten:
 
    {style="table-layout:auto"}
 
-   Wenn Sie zwischen diesen beiden Modi wechseln, werden die anderen Karusselleinstellungen beibehalten, mit Ausnahme der **[!UICONTROL Infinite Loop]** Einstellung, die immer auf `Yes` im kontinuierlichen Modus und das Feld deaktiviert ist.
+   Wenn Sie zwischen diesen beiden Modi wechseln, werden die anderen Karusselleinstellungen beibehalten, mit Ausnahme der Einstellung &quot;**[!UICONTROL Infinite Loop]**&quot;, die im kontinuierlichen Modus immer auf &quot;`Yes`&quot; gesetzt und das Feld deaktiviert ist.
 
    ![Karusselleinstellungen](./assets/pb-products-carousel-settings.png){width="600" zoomable="yes"}
 
-1. Legen Sie bei Bedarf die **[!UICONTROL Autoplay]** -Option `Yes`.
+1. Setzen Sie bei Bedarf die Option **[!UICONTROL Autoplay]** auf `Yes`.
 
-   Wenn die automatische Wiedergabe aktiviert ist, beginnt das Karussell beim Laden der Seite automatisch mit dem Scrollen. Wenn Sie die Standardeinstellung (`No`), muss der Kunde auf die Foliennavigation (Punkte oder Pfeile) klicken, um jede Folie nacheinander anzuzeigen.
+   Wenn die automatische Wiedergabe aktiviert ist, beginnt das Karussell beim Laden der Seite automatisch mit dem Scrollen. Wenn Sie die Standardeinstellung (`No`) beibehalten, muss der Kunde auf die Foliennavigation (Punkte oder Pfeile) klicken, um jede Folie nacheinander anzuzeigen.
 
-   Wenn Sie diese Funktion aktivieren, geben Sie **[!UICONTROL Autoplay Speed]** um die Verzögerung in Millisekunden zwischen den einzelnen Folien anzugeben. Der Standardwert ist `4000` (4 Sekunden).
+   Wenn Sie diese Funktion aktivieren, geben Sie **[!UICONTROL Autoplay Speed]** ein, um die Verzögerung in Millisekunden zwischen den einzelnen Folien anzugeben. Der Standardwert ist `4000` (4 Sekunden).
 
-1. Legen Sie bei Bedarf die **[!UICONTROL Infinite Loop]** -Option `Yes`.
+1. Setzen Sie bei Bedarf die Option **[!UICONTROL Infinite Loop]** auf `Yes`.
 
-   Wenn die Endlosschleife aktiviert ist, wird die Diashow unbegrenzt wiederholt, während die Seite geöffnet ist. Wenn Sie die Standardeinstellung (`No`), wird die Diashow nur einmal wiedergegeben.
+   Wenn die Endlosschleife aktiviert ist, wird die Diashow unbegrenzt wiederholt, während die Seite geöffnet ist. Wenn Sie die Standardeinstellung (`No`) beibehalten, wird die Diashow nur einmal wiedergegeben.
 
    >[!NOTE]
    >
-   >Wenn Sie **[!UICONTROL Infinite Loop]** nach `No` und **[!UICONTROL Autoplay]** auf `Yes`, wird die automatische Wiedergabe am Ende der Anzahl der anzuzeigenden Produkte angehalten.
+   >Wenn Sie **[!UICONTROL Infinite Loop]** auf `No` und **[!UICONTROL Autoplay]** auf `Yes` setzen, stoppt die automatische Wiedergabe am Ende der Anzahl der anzuzeigenden Produkte.
 
-1. Legen Sie bei Bedarf die **[!UICONTROL Show Arrows]** -Option `Yes`.
+1. Setzen Sie bei Bedarf die Option **[!UICONTROL Show Arrows]** auf `Yes`.
 
-   Wenn diese Option aktiviert ist, enthält jede Folie _next_ und _previous_ Navigationspfeile auf der linken und rechten Seite. Wenn Sie die Standardeinstellung (`No`), zeigen die Folien keine Navigationspfeile an.
+   Wenn diese Option aktiviert ist, enthält jede Folie die Navigationspfeile &quot;_next_&quot;und &quot;_previous_&quot;auf der linken und rechten Seite. Wenn Sie die Standardeinstellung (`No`) beibehalten, werden auf den Folien keine Navigationspfeile angezeigt.
 
-1. Legen Sie bei Bedarf die **[!UICONTROL Show Dots]** -Option `No`.
+1. Setzen Sie bei Bedarf die Option **[!UICONTROL Show Dots]** auf `No`.
 
-   Wenn auf die Standardeinstellung (`Yes`), werden Navigationspunkte unten im Karussellregler angezeigt. Wenn Sie diese Einstellung deaktivieren, zeigt der Karussellregler keine Navigationspunkte an.
+   Wenn die Standardeinstellung (`Yes`) festgelegt ist, werden die Navigationspunkte unten im Karussell-Schieberegler angezeigt. Wenn Sie diese Einstellung deaktivieren, zeigt der Karussellregler keine Navigationspunkte an.
 
 ### Erweitert
 
-1. Um die Positionierung der Produktliste innerhalb des übergeordneten Containers zu steuern, wählen Sie die **[!UICONTROL Alignment]**:
+1. Um die Positionierung der Liste &quot;Products&quot;innerhalb des übergeordneten Containers zu steuern, wählen Sie den Wert **[!UICONTROL Alignment]** aus:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -202,7 +202,7 @@ Führen Sie die _Einstellungen_ entsprechend den folgenden Abschnitten:
 
    {style="table-layout:auto"}
 
-1. Legen Sie die **[!UICONTROL Border]** -Stil, der auf alle vier Seiten des Container &quot;Products&quot;angewendet wird:
+1. Legen Sie den **[!UICONTROL Border]** -Stil fest, der auf alle vier Seiten des Container &quot;Products&quot;angewendet wird:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -219,7 +219,7 @@ Führen Sie die _Einstellungen_ entsprechend den folgenden Abschnitten:
 
    {style="table-layout:auto"}
 
-1. Wenn Sie einen anderen Rahmenstil als `None`, füllen Sie die Randanzeigeoptionen aus:
+1. Wenn Sie einen anderen Rahmenstil als `None` festlegen, füllen Sie die Anzeigeoptionen für die Rahmenanzeige aus:
 
    | Option | Beschreibung |
    | ------ |------------ |
@@ -229,11 +229,11 @@ Führen Sie die _Einstellungen_ entsprechend den folgenden Abschnitten:
 
    {style="table-layout:auto"}
 
-1. (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet, das auf den Container angewendet werden soll.
+1. (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet an, das auf den Container angewendet werden soll.
 
    Trennen Sie mehrere Klassennamen durch ein Leerzeichen.
 
-1. Geben Sie Werte in Pixel für die **[!UICONTROL Margins and Padding]** um die äußeren Ränder und den inneren Abstand des Produktbehälters zu bestimmen.
+1. Geben Sie Werte in Pixel für den Wert **[!UICONTROL Margins and Padding]** ein, um die äußeren Ränder und den inneren Abstand des Containers &quot;Products&quot;zu bestimmen.
 
    Geben Sie die entsprechenden Werte in das Diagramm ein.
 
@@ -245,10 +245,10 @@ Führen Sie die _Einstellungen_ entsprechend den folgenden Abschnitten:
 
 ## Speichern und Vorschau auf der Bühne anzeigen
 
-Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 Wenn Sie ein Produktkarussell konfiguriert haben, sollte es in etwa wie im folgenden Beispiel aussehen:
 
 ![Karussell auf der Bühne](./assets/pb-products-admin-carousel.png){width="600"}
 
-Sie können jetzt eine [Widget](../content-design/widgets.md) um diesen Block an die Stelle zu setzen, an der er im Laden erscheinen soll. Oder Sie können [Inhalt hinzufügen - Block](block.md) , um den Baustein einer vorhandenen Seite, Registerkarte oder Baustein hinzuzufügen.
+Sie können jetzt ein [Widget](../content-design/widgets.md) verwenden, um diesen Block an die Stelle zu setzen, an der er im Store angezeigt werden soll. Sie können auch [Inhalt hinzufügen - Block](block.md) verwenden, um den Baustein zu einer vorhandenen Seite, Registerkarte oder Baustein hinzuzufügen.

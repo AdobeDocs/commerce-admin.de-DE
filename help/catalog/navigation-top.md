@@ -5,7 +5,7 @@ exl-id: 8b71fe73-2716-4820-9e57-4cb1e6888132
 feature: Catalog Management, Categories, Site Navigation
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Die Kategoriestruktur Ihres Katalogs kann beeinflussen, wie gut Ihre Site von Su
 | Posten | Beschreibung |
 |--- |--- |
 | Ebene 1 | Die erste Ebene ist die Stammkategorie, die in den Beispieldaten den Namen &quot;Standardkategorie&quot;trägt. Der Stammordner ist ein Container für das Menü und sein Name erscheint nicht als Option im Menü. |
-| Ebene 2 | Auf einem Desktop-Display ist die obere Navigation das Hauptmenü, das oben auf der Seite angezeigt wird. Auf einem Mobilgerät wird das Hauptmenü in der Regel als Flyout-Menü mit Optionen angezeigt. Die Optionen der zweiten Ebene im Store &quot;Luma&quot;sind _Neue Funktionen_, _Frauen_, _Männer_, _Fanggerät_, _Schulung_, und _Verkauf_. |
-| Ebene 3 | Die dritte Ebene wird unter jeder Hauptmenüoption angezeigt. Beispiel: unter _Frauen_, sind die Optionen der dritten Ebene _Tops_ und _Unterleib_. |
-| Ebene 4 | Die Optionen der vierten Ebene sind Unterkategorien, die von einer Option der dritten Ebene abfliegen. Beispiel: unter _Tops_, sind die Menüoptionen der vierten Ebene _Jacken_, _Hoodies &amp; Sweatshirts_, _Tees_, und _Brand &amp; Tanks_. |
+| Ebene 2 | Auf einem Desktop-Display ist die obere Navigation das Hauptmenü, das oben auf der Seite angezeigt wird. Auf einem Mobilgerät wird das Hauptmenü in der Regel als Flyout-Menü mit Optionen angezeigt. Die Optionen der zweiten Ebene im Luma-Speicher sind _Neue Funktionen_, _Frauen_, _Männer_, _Zahnrad_, _Trainings_ und _Verkauf_. |
+| Ebene 3 | Die dritte Ebene wird unter jeder Hauptmenüoption angezeigt. Beispielsweise sind unter _Women_ die Optionen der dritten Ebene _Tops_ und _Bottom_. |
+| Ebene 4 | Die Optionen der vierten Ebene sind Unterkategorien, die von einer Option der dritten Ebene abfliegen. Beispielsweise sind unter _Tops_ die Menüoptionen der vierten Ebene _Jackets_, _Hoodies &amp; Sweatshirts_, _Tees_ und _Bras &amp; Tanks_. |
 
 {style="table-layout:auto"}
 
@@ -35,45 +35,45 @@ Damit eine Kategorie in der oberen Navigation eines Stores angezeigt wird, führ
 
 ### Schritt 1: Erstellen einer Kategorie
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. Legen Sie eine **[!UICONTROL Store View]** um zu bestimmen, wo die neue Kategorie verfügbar sein soll.
+1. Legen Sie einen **[!UICONTROL Store View]** fest, um zu bestimmen, wo die neue Kategorie verfügbar sein soll.
 
 1. Wählen Sie im Kategoriebaum die übergeordnete Kategorie der neuen Kategorie aus.
 
-   Wenn Sie von Anfang an ohne Daten beginnen, enthält die Liste möglicherweise nur zwei Kategorien: _Standardkategorie_, das der Stamm ist, und ein _Beispielkategorie_.
+   Wenn Sie von Anfang an ohne Daten beginnen, gibt es möglicherweise nur zwei Kategorien in der Liste: _Standardkategorie_, die der Stamm ist, und eine _Beispielkategorie_.
 
-1. Klicken **[!UICONTROL Add Subcategory]**.
+1. Klicken Sie auf **[!UICONTROL Add Subcategory]**.
 
 1. Füllen Sie die grundlegenden Informationen mit den folgenden Einstellungen aus:
 
-   - **[!UICONTROL Enable Category]** auf `Yes`
-   - **[!UICONTROL Include in Menu]** auf `Yes`
+   - **[!UICONTROL Enable Category]** auf `Yes` gesetzt
+   - **[!UICONTROL Include in Menu]** auf `Yes` gesetzt
 
-1. Anzeigeeinstellung **[!UICONTROL Anchor]** nach `Yes`.
+1. Setzen Sie in der Anzeigeeinstellung **[!UICONTROL Anchor]** auf `Yes`.
 
-1. Alle anderen erforderlichen Angaben [Kategorieneinstellungen](category-create.md).
+1. Nehmen Sie alle weiteren erforderlichen [Kategorieeinstellungen](category-create.md) vor.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
-Bei einer Multistore-Installation kann ein anderes Hauptmenü als [Stammkategorie](category-root.md) für jeden [store](../stores-purchase/stores.md#add-stores).
+Bei einer Multistore-Installation kann für jeden [store](../stores-purchase/stores.md#add-stores) ein anderes Hauptmenü als [Stammkategorie](category-root.md) zugewiesen werden.
 
 ### Schritt 2: Festlegen der Tiefe der oberen Navigation
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen **[!UICONTROL Catalog]** darunter.
+1. Erweitern Sie im linken Bedienfeld den Wert **[!UICONTROL Catalog]** und wählen Sie unter &quot;**[!UICONTROL Catalog]**&quot;.
 
-1. Erweitern Sie die **[!UICONTROL Category Top Navigation]** Abschnitt.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Category Top Navigation]** .
 
-   ![Obere Kategorienavigation](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"}
+   ![Obere Navigation nach Kategorie](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"}
 
-   Da die Tiefe der oberen Navigation eine globale [Konfigurationsbereich](../getting-started/websites-stores-views.md#scope-settings)festgelegt ist, gilt die Einstellung für alle Websites, Stores und Store-Ansichten in der Commerce-Installation. Die _[!UICONTROL Category Top Navigation]_Konfigurationsabschnitt ist nur verfügbar, wenn_[!UICONTROL Store View]_ in der linken oberen Ecke auf `Default Config`.
+   Da die Tiefe der oberen Navigation einen globalen [Konfigurationsbereich](../getting-started/websites-stores-views.md#scope-settings) aufweist, gilt die Einstellung für alle Websites, Stores und Store-Ansichten in der Commerce-Installation. Der Konfigurationsabschnitt _[!UICONTROL Category Top Navigation]_ist nur verfügbar, wenn_[!UICONTROL Store View]_ in der oberen linken Ecke auf `Default Config` gesetzt ist.
 
-   Eine detaillierte Liste dieser Optionen finden Sie unter [Obere Kategorienavigation](../configuration-reference/catalog/catalog.md#layered-navigation) im _Konfigurationsreferenz_.
+   Eine detaillierte Liste dieser Optionen finden Sie unter [Obere Navigation der Kategorie](../configuration-reference/catalog/catalog.md#layered-navigation) in der _Konfigurationsreferenz_.
 
-1. Um die Anzahl der Unterkategorien zu begrenzen, die in der oberen Navigation angezeigt werden, geben Sie die Zahl für **[!UICONTROL Maximal Depth]**.
+1. Um die Anzahl der Unterkategorien zu begrenzen, die in der oberen Navigation angezeigt werden, geben Sie die Zahl für **[!UICONTROL Maximal Depth]** ein.
 
-   Der Standardwert ist `0`, wodurch die Anzahl der Unterkategorien nicht begrenzt wird.
+   Der Standardwert ist &quot;`0`&quot;, was keine Begrenzung für die Anzahl der Unterkategorie-Ebenen darstellt.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.

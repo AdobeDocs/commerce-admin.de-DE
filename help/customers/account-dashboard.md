@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Kunden können ihre eigenen Informationen und Aktivitäten über ihr Konto-Dashboard verwalten und überwachen. Kunden können Bestellungen neu bestellen, Bestellungen nachverfolgen, Versandadressen und Zahlungsmethoden verwalten, Produktbewertungen, Newsletter-Abonnements und vieles mehr.
 
-![Konto-Dashboard auf der Storefront](assets/customer-account-dashboard.png){width="700" zoomable="yes"}
+![Konto-Dashboard in der Storefront](assets/customer-account-dashboard.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Die folgende Tabelle enthält Informationen zu allen Abschnitten, die im Dashboa
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Quotes]**](../b2b/account-dashboard-my-quotes.md) | (Nur Unternehmen) Listet alle vom Kunden eingereichten Angebote mit einem Link zu detaillierten Informationen auf. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL My Requisition Lists]**](../b2b/account-dashboard-requisition-lists-manage.md) | (Nur Unternehmen) Alle vom Kunden erstellten Anforderungslisten verwalten. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Profile]**](../b2b/account-company-manage.md#update-a-company-profile) | (Nur Unternehmen) Ein benannter Unternehmensadministrator kann Unternehmensinformationen verwalten, einschließlich Firmenname und -adresse, Kontaktinformationen des Unternehmensadministrators und Zahlungsinformationen. |
-| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | (Nur Unternehmen) Zeigt den aktuellen ausstehenden Saldo, den verfügbaren Kredit und die dem Konto zugewiesene Kreditgrenze sowie eine Liste der ausstehenden Rechnungen an. Der Abschnitt &quot;Firmenguthaben&quot;wird nur dann im Dashboard angezeigt, wenn [Kontozahlung](../b2b/enable-basic-features.md#configure-payment-on-account) in der Konfiguration aktiviert ist. |
+| ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Credit]**](../b2b/credit-company.md#storefront-credit-information) | (Nur Unternehmen) Zeigt den aktuellen ausstehenden Saldo, den verfügbaren Kredit und die dem Konto zugewiesene Kreditgrenze sowie eine Liste der ausstehenden Rechnungen an. Der Abschnitt &quot;Firmenguthaben&quot;wird nur dann im Dashboard angezeigt, wenn in der Konfiguration die Option [Zahlung auf Konto](../b2b/enable-basic-features.md#configure-payment-on-account) aktiviert ist. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Structure]**](../b2b/account-company-structure.md) | (Nur Unternehmen) Vom Unternehmensadministrator verwendet, um die Geschäftsstruktur des Unternehmens zu definieren. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Company Users]**](../b2b/account-company-users.md) | (Nur Unternehmen) Vom Unternehmensadministrator zum Erstellen von Benutzerkonten für Firmenkäufer verwendet. |
 | ![Adobe Commerce B2B](../assets/b2b.svg) [**[!UICONTROL Roles and Permissions]**](../b2b/account-company-roles-permissions.md) | (Nur Unternehmen) Wird vom Unternehmensadministrator verwendet, um Rollen für Unternehmensbenutzer mit verschiedenen Berechtigungsstufen zu definieren. |

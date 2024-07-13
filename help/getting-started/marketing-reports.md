@@ -16,24 +16,24 @@ Marketing-Berichte enthalten Informationen zum Status von Warenkörben, zur Verw
 
 ## [!UICONTROL Products in Cart]
 
-Die [!UICONTROL Products in Cart] enthält eine Liste aller Produkte, die sich derzeit in Warenkörben befinden. Er enthält den Namen und den Preis jedes Artikels, die Anzahl der Warenkörbe mit dem Artikel und die Anzahl der Bestellungen jedes Artikels.
+Der Bericht [!UICONTROL Products in Cart] enthält eine Liste aller Produkte, die sich derzeit in Warenkörben befinden. Er enthält den Namen und den Preis jedes Artikels, die Anzahl der Warenkörbe mit dem Artikel und die Anzahl der Bestellungen jedes Artikels.
 
 ![Bericht &quot;Produkte im Warenkorb&quot;](./assets/products-in-cart.png){width="600"}
 
 ## [!UICONTROL Search Terms Report]
 
-Die [Suchbegriffe](../catalog/search-terms.md#search-terms-report) zeigt an, wonach Ihre Kunden in jeder Store-Ansicht suchen. Der Bericht enthält die Anzahl der übereinstimmenden Elemente, die im Katalog gefunden wurden, und wie oft der Suchbegriff verwendet wurde.
+Der Bericht [Suchbegriffe](../catalog/search-terms.md#search-terms-report) zeigt an, wonach Ihre Kunden in jeder Store-Ansicht suchen. Der Bericht enthält die Anzahl der übereinstimmenden Elemente, die im Katalog gefunden wurden, und wie oft der Suchbegriff verwendet wurde.
 
-![Suchbegriffbericht](./assets/search-terms.png){width="600"}
+![Bericht zu Suchbegriffen](./assets/search-terms.png){width="600"}
 
 ## [!UICONTROL Abandoned Carts]
 
-Die [!UICONTROL Abandoned Carts] enthält alle registrierten Kunden, die ihren Warenkorb abgebrochen haben und noch nicht abgelaufen sind. Der Bericht enthält den Kundennamen und die E-Mail-Adresse, die Anzahl der Produkte im Warenkorb und die Zwischensumme, das Erstellungsdatum und das Datum der letzten Aktualisierung.
+Der Bericht [!UICONTROL Abandoned Carts] listet alle registrierten Kunden auf, die ihren Warenkorb abgebrochen haben und noch nicht abgelaufen sind. Der Bericht enthält den Kundennamen und die E-Mail-Adresse, die Anzahl der Produkte im Warenkorb und die Zwischensumme, das Erstellungsdatum und das Datum der letzten Aktualisierung.
 
-![Bericht &quot;Warenkorb abgebrochen&quot;](./assets/abandoned-carts.png){width="600"}
+![ Bericht über abgebrochene Warenkörbe](./assets/abandoned-carts.png){width="600"}
 
 ## [!UICONTROL Newsletter Problems Report]
 
-Die [!UICONTROL Newsletter Problems Report] enthält Informationen zu einer Newsletter-Warteschlange, die nicht erfolgreich übertragen werden konnte. Der Bericht enthält den Namen jedes Abonnenten, das Datum der Warteschlange und den Betreff sowie Informationen zum Fehler.
+Der [!UICONTROL Newsletter Problems Report] enthält Informationen zu jeder Newsletter-Warteschlange, die nicht erfolgreich übertragen werden konnte. Der Bericht enthält den Namen jedes Abonnenten, das Datum der Warteschlange und den Betreff sowie Informationen zum Fehler.
 
-![Bericht zu Problemen mit Newslettern](./assets/newsletter-problems.png){width="600"}
+![Bericht zu Newsletter-Problemen](./assets/newsletter-problems.png){width="600"}

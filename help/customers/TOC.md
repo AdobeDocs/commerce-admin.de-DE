@@ -17,7 +17,7 @@ ht-degree: 2%
 + Tools für die Kundenverwaltung {#customers-menu}
    + [Kundenliste](customers-all.md)
    + [Jetzt online](now-online.md)
-   + [Skalierte Personalisierung](personalize-scale.md)
+   + [Personalization im Maßstab](personalize-scale.md)
 + Kundenkonten {#customer-accounts}
    + [Kontoumfang](customer-account-scope.md)
    + Kontooptionen {#configure}
@@ -37,7 +37,7 @@ ht-degree: 2%
       + [Attributeigenschaften](attribute-properties.md)
       + [Adressattribute](address-attributes.md)
       + [Adressenvorlagen](address-templates.md)
-   + Store-Gutschrift {#store-credit}
+   + Store Credit {#store-credit}
       + [Workflow &quot;Gutschriften speichern&quot;](store-credit.md)
       + [Konfigurieren von Store-Gutschriften](credit-configure.md)
       + [Anwenden von Store-Gutschriften](store-credit-using.md)
@@ -55,5 +55,5 @@ ht-degree: 2%
    + [Kundensegmente erstellen und löschen](customer-segment-create.md)
    + [Kundensegmente in Preisregeln](customer-segment-price-rule.md)
    + [Kundensegmentbericht](customer-segment-reports.md)
-+ [Zurück zu den Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

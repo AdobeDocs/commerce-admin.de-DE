@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Die in der Beta-Version 1.5.0 verfügbaren Funktionen waren für Kunden verfügbar, die am Beta-Programm teilnahmen. **Das Beta-Programm ist jetzt geschlossen.** Die Funktionen der Beta-Version B2B Commerce 1.5.0 werden jedoch in der Version 1.5.0 der allgemeinen Verfügbarkeit verfügbar sein.
+> Die in der Beta-Version 1.5.0 verfügbaren Funktionen waren für Kunden verfügbar, die am Beta-Programm teilnahmen. **Das Beta-Programm ist jetzt geschlossen.** Die Funktionen, die in der Beta-Version B2B Commerce 1.5.0 enthalten sind, sind jedoch in der Version 1.5.0 der allgemeinen Verfügbarkeit verfügbar.

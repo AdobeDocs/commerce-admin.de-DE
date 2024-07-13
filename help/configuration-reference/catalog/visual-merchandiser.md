@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] Seite des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Catalog] &gt; [!UICONTROL Visual Merchandiser] des Commerce-Administrators.
 exl-id: 264f0f21-7324-4e37-938e-9f0cdbb3dfe8
 feature: Configuration, Merchandising
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 <!-- [General Options](https://docs.magento.com/user-guide/marketing/visual-merchandiser-configuration.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Visible Attributes for Category Rules] | Global | Identifiziert zusätzliche Attribute, die mit Kategorieregeln verwendet werden können. Verwenden Sie die Mehrfachauswahl (Strg- oder Befehlstaste), um alle Attribute auszuwählen, die verfügbar gemacht werden sollen. |
 | [!UICONTROL Minimum Stock Threshold] | Global | Legt die Mindestlagergrenze für Produkte fest, die Produkte nach Lagerbestand sortieren sollen. Standardwert: `1` |

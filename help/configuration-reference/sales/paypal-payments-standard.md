@@ -1,21 +1,21 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL PayPal Payments Standard]'
-description: Überprüfen Sie die Konfigurationseinstellungen im Abschnitt [!UICONTROL PayPal Payments Standard] im Abschnitt [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] Seite des Commerce-Administrators.
+title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL PayPal Payments Standard]'
+description: Überprüfen Sie die Konfigurationseinstellungen im Abschnitt [!UICONTROL PayPal Payments Standard] auf der Seite [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] des Commerce-Administrators.
 exl-id: 846d9b6f-92b9-4610-b894-625f67f4cff8
 feature: Configuration, Payments
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payments Standard]
+# [!UICONTROL Sales] > [!UICONTROL Payment Methods] > [!UICONTROL PayPal Payments Standard]
 
 >[!IMPORTANT]
 >
->**PSD2-Anforderungen:**<br/>
->Ab dem 14. September 2019 könnten europäische Banken Zahlungen ablehnen, die nicht erfüllt sind [PSD2](../../getting-started/compliance-payment-services-directive.md) Anforderungen. Es sind keine Maßnahmen erforderlich für [!DNL PayPal Payments Standard] um PSD2 einzuhalten, da alle Anforderungen von PayPal bearbeitet werden.
+>**Anforderungen an PSD2:**<br/>
+>Ab dem 14. September 2019 könnten europäische Banken Zahlungen ablehnen, die nicht den Anforderungen von [PSD2](../../getting-started/compliance-payment-services-directive.md) entsprechen. Damit [!DNL PayPal Payments Standard] PSD2 einhält, ist keine Maßnahme erforderlich, da alle Anforderungen von PayPal erfüllt werden.
 
 {{config}}
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ![Erforderliche Einstellungen](./assets/payment-methods-paypal-payments-standard-required.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | Webseite | (Optional) Alle E-Mail-Adressen, die mit Ihrem PayPal-Handelskonto verknüpft sind. Bei E-Mail-Adressen muss die Groß-/Kleinschreibung beachtet werden und die Adressen müssen exakt mit denen in Ihrem Konto übereinstimmen. |
 | [!UICONTROL Partner] | Webseite | gegebenenfalls Ihre PayPal-Partner-ID. |
@@ -31,7 +31,7 @@ ht-degree: 0%
 | Benutzer | Webseite | Die ID eines anderen Benutzers in Ihrem PayPal-Konto. |
 | [!UICONTROL Password] | Webseite | Das Kennwort, das Ihrem PayPal-Kaufkonto zugeordnet ist. |
 | [!UICONTROL Test Mode] | Webseite | Wenn diese Option aktiviert ist, führt PayPal Payments Pro in einer Testumgebung aus. Deaktivieren Sie den Testmodus, wenn Sie bereit sind, im Produktionsmodus live zu gehen. Optionen: `Yes` / `No` |
-| [!UICONTROL Use Proxy] | Webseite | Ein Proxy kann verwendet werden, um den Traffic umzuleiten, wenn die Server-Firewall den direkten Zugriff auf den PayPal-Server verhindert. Gibt ggf. den Proxy-Server an, der zum Herstellen einer Verbindung mit dem PayPal-Server verwendet wird. Optionen: `Yes` / `No` <br/><br/>Wenn diese Option aktiviert ist, legen Sie die Optionen fest: <br/>**`Proxy Host`**- Die IP-Adresse des Proxyhosts.<br/>**`Proxy Port`** - Die Nummer des Proxy-Ports. |
+| [!UICONTROL Use Proxy] | Webseite | Ein Proxy kann verwendet werden, um den Traffic umzuleiten, wenn die Server-Firewall den direkten Zugriff auf den PayPal-Server verhindert. Gibt ggf. den Proxy-Server an, der zum Herstellen einer Verbindung mit dem PayPal-Server verwendet wird. Optionen: `Yes` / `No` <br/><br/>Legen Sie bei Aktivierung die Optionen fest: <br/>**`Proxy Host`**- Die IP-Adresse des Proxyhosts.<br/>**`Proxy Port`** - Die Nummer des Proxy-Ports. |
 | [!UICONTROL Enable this Solution] | Webseite | Stellt fest, ob PayPal Payments Pro Ihren Kunden als Zahlungsmethode zur Verfügung steht. |
 | [!UICONTROL Enable PayPal Credit] | Webseite | Stellt fest, ob PayPal-Guthaben Ihren Kunden als Zahlungsoption zur Verfügung steht. |
 
@@ -39,16 +39,16 @@ ht-degree: 0%
 
 ## Advertise PayPal Credit
 
-![Advertise PayPal Credit](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
+![PayPal-Guthaben für Werbung](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Publisher ID] | Webseite | Die Herausgeber-ID, die Ihrem PayPal-Konto zugeordnet ist. |
 | [!UICONTROL Get Publisher ID from PayPal] |  | Ruft Ihre Herausgeber-ID von PayPal ab. |
-| [!UICONTROL Home Page] | Webseite | Bestimmt die Position und Größe der [!DNL PayPal Credit] Banner auf der Startseite. Optionen: <br/>**`Display`**- Bestimmt, ob eine [!DNL PayPal Credit] Banner wird auf der Startseite Ihres Stores angezeigt. Optionen: `Yes` / `No`<br/>**`Position`** - Bestimmt die Position der [!DNL PayPal Credit] Banner auf der Startseite. Optionen: `Header (center)` / `Sidebar (right)` <br/>**`Size`**- Bestimmt die Größe der [!DNL PayPal Credit] Banner auf der Startseite. Optionen: `190 x 100` / `234 x 60` / `300 x 50` / `468 x 60` / `728 x 90` /` 800 x 66` |
-| [!UICONTROL Catalog Category Page] | Webseite | Bestimmt die Position und Größe der [!DNL PayPal Credit] Banner auf Kategorieseiten. Optionen: (entspricht für [!UICONTROL Home Page]) |
-| [!UICONTROL Catalog Product Page] | Webseite | Bestimmt die Position und Größe der [!DNL PayPal Credit] Banner auf Produktseiten. Optionen: (entspricht für [!UICONTROL Home Page]) |
-| [!UICONTROL Checkout Cart Page] | Webseite | Bestimmt die Position und Größe der [!DNL PayPal Credit] Banner auf der Warenkorbseite. Optionen: (entspricht für [!UICONTROL Home Page]) |
+| [!UICONTROL Home Page] | Webseite | Bestimmt die Position und Größe des [!DNL PayPal Credit] -Banners auf der Startseite. Optionen: <br/>**`Display`**- Bestimmt, ob ein [!DNL PayPal Credit] -Banner auf der Startseite Ihres Stores angezeigt wird. Optionen: `Yes` / `No`<br/>**`Position`** - Bestimmt die Position des [!DNL PayPal Credit] -Banners auf der Startseite. Optionen: `Header (center)` / `Sidebar (right)` <br/>**`Size`**- Bestimmt die Größe des [!DNL PayPal Credit] -Banners auf der Startseite. Optionen: `190 x 100` / `234 x 60` / `300 x 50` / `468 x 60` / `728 x 90` /` 800 x 66` |
+| [!UICONTROL Catalog Category Page] | Webseite | Bestimmt die Position und Größe des [!DNL PayPal Credit] -Banners auf Kategorieseiten. Optionen: (wie für [!UICONTROL Home Page]) |
+| [!UICONTROL Catalog Product Page] | Webseite | Bestimmt die Position und Größe des [!DNL PayPal Credit] -Banners auf Produktseiten. Optionen: (wie für [!UICONTROL Home Page]) |
+| [!UICONTROL Checkout Cart Page] | Webseite | Bestimmt die Position und Größe des [!DNL PayPal Credit] -Banners auf der Warenkorbseite. Optionen: (wie für [!UICONTROL Home Page]) |
 
 {style="table-layout:auto"}
 
@@ -56,11 +56,11 @@ ht-degree: 0%
 
 ![Grundlegende Einstellungen](./assets/paypal-standard-basic-settings.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Title] | Store-Ansicht | Ein Name, der PayPal Payments Pro als Zahlungsmethode beim Checkout angibt. |
 | [!UICONTROL Sort Order] | Store-Ansicht | Eine Zahl, die bestimmt, in welcher Reihenfolge PayPal Payments Pro angezeigt wird, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. |
-| [!UICONTROL Payment Action] | Webseite | Legt fest, welche Aktion von PayPal bei der Absendung einer Bestellung durchgeführt wird. Optionen: <br/>**`Authorization`**- Genehmigt den Kauf, aber hält die Mittel fest. Der Betrag wird erst dann zurückgezogen, wenn er vom Händler &quot;erfasst&quot;wurde.<br/>**`Sale`** - Der Kaufbetrag wird genehmigt und sofort vom Konto des Kunden zurückgezogen. |
+| [!UICONTROL Payment Action] | Webseite | Legt fest, welche Aktion von PayPal bei der Absendung einer Bestellung durchgeführt wird. Optionen: <br/>**`Authorization`**- Genehmigt den Kauf, legt jedoch einen Halten für die Fonds fest. Der Betrag wird erst dann zurückgezogen, wenn er vom Händler &quot;erfasst&quot;wurde.<br/>**`Sale`** - Der Betrag des Kaufs wird genehmigt und sofort vom Konto des Kunden zurückgezogen. |
 | [!UICONTROL Credit Card Settings] |  |  |
 | [!UICONTROL Allowed Credit Cart Types] | Webseite | Bestimmt die Kreditkarten, die Kunden beim Checkout zur Verfügung stehen. Wählen Sie jede unterstützte Karte aus. Optionen: `American Express` (erfordert eine zusätzliche Vereinbarung) / `Visa` / `MasterCard` / `Discover` / `JCB` |
 
@@ -82,21 +82,21 @@ ht-degree: 0%
 | [!UICONTROL Shortcut Buttons Flavor] | Store-Ansicht | Bestimmt den Typ des Bildes, das für die PayPal-Akzeptanzschaltfläche verwendet wird. Optionen: <br/>**`Dynamic`**- (Empfohlen) Zeigt ein Bild an, das dynamisch vom PayPal-Server aus geändert werden kann.<br/>**`Static`** - Zeigt ein statisches Bild an, das nicht dynamisch geändert werden kann. |
 | [!UICONTROL Enable PayPal Guest Checkout] | Webseite | Ermöglicht Kunden, die keine PayPal-Konten haben, mit PayPal Express Checkout Einkäufe zu tätigen. Optionen: `Yes` / `No` |
 | [!UICONTROL Require Customer's Billing Address] | Webseite | Bestimmt, ob die Rechnungsadresse des Kunden erforderlich ist. Optionen: `Yes` / `No` / `For Virtual Quotes Only` |
-| [!UICONTROL Billing Agreement Signup] | Webseite | Stellt fest, ob Kunden in der Lage sind, [Abrechnungsvereinbarung](../../stores-purchase/paypal-billing-agreements.md) mit Ihrem Geschäft. Optionen: <br/>**`Auto`**- Der Kunde kann sich während des Express Checkout für eine Abrechnungsvereinbarung anmelden.<br/>**`Ask Customer`** - Der Kunde wird gefragt, ob er sich für eine Abrechnungsvereinbarung anmelden möchte. <br/>**`Never`**- Kunden wird nicht die Möglichkeit angeboten, sich für einen Abrechnungsvertrag zu registrieren. |
+| [!UICONTROL Billing Agreement Signup] | Webseite | Bestimmt, ob Kunden mit Ihrem Store eine [Abrechnungsvereinbarung](../../stores-purchase/paypal-billing-agreements.md) schließen können. Optionen: <br/>**`Auto`**- Der Kunde kann sich während des Express Checkout für eine Abrechnungsvereinbarung anmelden.<br/>**`Ask Customer`** - Der Kunde wird gefragt, ob er sich für eine Abrechnungsvereinbarung anmelden möchte. <br/>**`Never`**- Kunden wird nicht die Möglichkeit angeboten, sich für einen Abrechnungsvertrag zu registrieren. |
 | [!UICONTROL Skip Order Review Step] | Webseite | Bestimmt, ob Kunden die Transaktion von der PayPal-Site aus abschließen können oder dazu verpflichtet sind, zu Ihrem Store zurückzukehren und den Schritt &quot;Bestellprüfung&quot;abzuschließen, bevor die Bestellung gesendet wird. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Billing Agreement Setting]
 
-![Rechnungsabschlussparameter](./assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png)<!-- zoom -->
+![Rechnungsvertragseinstellungen](./assets/payment-methods-paypal-express-checkout-billing-agreement-settings.png)<!-- zoom -->
 
 | Feld | Anwendungsbereich | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Webseite | Wenn diese Option aktiviert ist, erscheinen Abrechnungsvereinbarungen den Kunden während des Checkout als Zahlungsoption. Optionen: `Yes` / `No` |
 | [!UICONTROL Title] | Store-Ansicht | Der Titel für die PayPal-Abrechnungsoption, die beim Checkout als Zahlungsoption angezeigt wird. |
 | [!UICONTROL Sort Order] | Store-Ansicht | Bestimmt die Reihenfolge, in der Abrechnungsvereinbarungen während des Checkout mit anderen Zahlungsmethoden aufgelistet werden. |
-| [!UICONTROL Payment Action] | Webseite | Bestimmt, wie PayPal die Transaktion verwaltet: Optionen: <br/>**`Authorization`**- Genehmigt den Kauf, aber hält die Mittel fest. Der Betrag wird erst dann zurückgezogen, wenn er vom Händler &quot;erfasst&quot;wurde.<br/>**`Sale`** - Der Kaufbetrag wird genehmigt und sofort vom Konto des Kunden zurückgezogen. |
+| [!UICONTROL Payment Action] | Webseite | Bestimmt, wie PayPal die Transaktion verwaltet: Optionen: <br/>**`Authorization`**- Genehmigt den Kauf, legt jedoch einen Halten für die Mittel fest. Der Betrag wird erst dann zurückgezogen, wenn er vom Händler &quot;erfasst&quot;wurde.<br/>**`Sale`** - Der Betrag des Kaufs wird genehmigt und sofort vom Konto des Kunden zurückgezogen. |
 | [!UICONTROL Payment Applicable From] | Webseite | Bestimmt den Bereich der entsprechenden Länderauswahl. Optionen: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Countries Payment Applicable From] | Webseite | Identifiziert jedes Land, aus dem die Zahlung akzeptiert wird. Mit dieser Zahlungsmethode können nur Kunden mit einer Rechnungsadresse in einem ausgewählten Land Einkäufe tätigen. |
 | [!UICONTROL Debug Mode] | Webseite | Zeichnet die Kommunikation mit dem Zahlungssystem in einer Protokolldatei auf. Optionen: `Yes` / `No` <br/><br/>**_Hinweis:_**Die Protokolldatei wird auf dem Server gespeichert und steht nur Entwicklern zur Verfügung. Gemäß PCI Data Security Standards werden Kreditkarteninformationen nicht in der Protokolldatei aufgezeichnet. |
@@ -108,9 +108,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Settlement Report Settings]
 
-![Berichtseinstellungen einrichten](./assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png)<!-- zoom -->
+![Berichtseinstellungen festlegen](./assets/payment-methods-paypal-payments-advanced-settlement-report-settings.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Login] | Webseite | Ihr Benutzername, der zum Anmelden beim sicheren FTP-Server von PayPal erforderlich ist. |
 | [!UICONTROL Password] | Webseite | Ihr Kennwort, das zum Anmelden beim sicheren FTP-Server von PayPal erforderlich ist. |
@@ -128,13 +128,13 @@ ht-degree: 0%
 
 ![Frontend-Erlebniseinstellungen](./assets/payment-methods-paypal-payments-advanced-frontend-experience-settings.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL PayPal Product Logo] | Store-Ansicht | Bestimmt das PayPal-Logo, das in Ihrem Store angezeigt wird. Es gibt vier grundlegende Stile in zwei Größen. Optionen: `No Logo` / `We prefer PayPal (150 x 60)` / `We prefer PayPal (150 x 40)` / `Now accepting PayPal (150 x 60)` / `Now accepting PayPal (150 x 40)` / `Payments by PayPal (150 x 60)` / `Payments by PayPal (150 x 40)` / `Shop now using (150 x 60)` / `Shop now using (150 x 40)` |
 | [!UICONTROL PayPal Merchant Pages Style] |  |  |
 | [!UICONTROL Page Style] | Store-Ansicht | Bestimmt das Erscheinungsbild Ihrer PayPal-Kaufseite. Zulässige Werte: <br/>**`paypal`**- Verwendet den PayPal-Seitenstil.<br/>**`primary`** - Verwendet den Seitenstil, den Sie in Ihrem Kontoprofil als &quot;primär&quot;identifiziert haben. <br/>**`your_custom_value`**- Verwendet einen benutzerdefinierten Zahlungsseitenstil, der in Ihrem Kontoprofil angegeben ist. |
 | [!UICONTROL Header Image URL] | Store-Ansicht | Die URL des Bildes, das in der oberen linken Ecke der Checkout-Seite angezeigt wird. Die maximale Größe beträgt 750 x 90 Pixel. <br/><br/>**_Hinweis:_**PayPal empfiehlt, dass das Bild auf einem sicheren (HTTPS-)Server gespeichert wird. Andernfalls kann der Browser des Kunden warnen, dass &quot;die Seite sowohl sichere als auch nicht sichere Elemente enthält&quot;. |
-| [!UICONTROL Header Image Background Color] | Store-Ansicht | Die sechs Zeichen [hexadezimale Farbe](https://en.wikipedia.org/wiki/Web_colors) Code für die Hintergrundfarbe der Kopfzeile auf der Checkout-Seite. Sie können den Code in Groß- und Kleinbuchstaben eingeben. |
+| [!UICONTROL Header Image Background Color] | Store-Ansicht | Der sechsstellige Code [hexadezimale Farbe](https://en.wikipedia.org/wiki/Web_colors) für die Hintergrundfarbe der Kopfzeile auf der Checkout-Seite. Sie können den Code in Groß- und Kleinbuchstaben eingeben. |
 | [!UICONTROL Header Image Border Color] | Store-Ansicht | Der sechsstellige hexadezimale Farbcode für den zweiPixelrahmen um die Kopfzeile. |
 | [!UICONTROL Page Background Color] | Store-Ansicht | Der sechsstellige hexadezimale Farbcode für die Hintergrundfarbe der Checkout-Seite, der hinter der Kopfzeile und dem Zahlungsformular angezeigt wird. |
 

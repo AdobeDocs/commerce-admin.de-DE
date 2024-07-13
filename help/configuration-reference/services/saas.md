@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] Seite des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] des Commerce-Administrators.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 1%
+source-wordcount: '198'
+ht-degree: 2%
 
 ---
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Informationen zum Verbinden Ihres Stores mit Adobe Commerce-Diensten finden Sie unter [Commerce-Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+Informationen zum Verbinden Ihres Stores mit Adobe Commerce-Diensten finden Sie unter [Commerce-Dienste](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
 
 {{config}}
 
@@ -20,7 +20,7 @@ Informationen zum Verbinden Ihres Stores mit Adobe Commerce-Diensten finden Sie 
 
 ![Sandbox-API-Schlüssel](./assets/sandbox-key-saas-configuration.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Sandbox public API key] | Global | API-Schlüssel, der den Autor und gegebenenfalls deren Berechtigungen identifiziert. |
 | [!UICONTROL Sandbox private API key] | Global | Ein mit dem API-Schlüssel verknüpfter privater Schlüssel. |
@@ -31,7 +31,7 @@ Informationen zum Verbinden Ihres Stores mit Adobe Commerce-Diensten finden Sie 
 
 ![Produktions-API-Schlüssel](./assets/prod-key-saas-configuration.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Production public API key] | Global | API-Schlüssel, der den Autor und gegebenenfalls deren Berechtigungen identifiziert. |
 | [!UICONTROL Production private API key] | Global | Ein mit dem API-Schlüssel verknüpfter privater Schlüssel. |
@@ -42,10 +42,10 @@ Informationen zum Verbinden Ihres Stores mit Adobe Commerce-Diensten finden Sie 
 
 ![SaaS-Kennung](./assets/saas-identifier.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Project] | Global | Name des SaaS-Projekts, das alle Ihre SaaS-Datenräume gruppiert. A _Projekt erstellen_ wird angezeigt, wenn keine SaaS-Projekte vorhanden sind. |
-| [!UICONTROL Data Space] | Global | Listet die SaaS-Datenräume im angegebenen SaaS-Projekt auf. Die Anzahl der SaaS-Datenräume hängt von Ihrer [Commerce-Lizenz](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html):<br />Adobe Commerce - Ein Produktionsdatenraum; zwei Testdatenbereiche;<br />Magento Open Source - Ein Produktionsdatenraum; keine Testdatenbereiche |
+| [!UICONTROL Project] | Global | Name des SaaS-Projekts, das alle Ihre SaaS-Datenräume gruppiert. Wenn keine SaaS-Projekte vorhanden sind, wird die Schaltfläche _Projekt erstellen_ angezeigt. |
+| [!UICONTROL Data Space] | Global | Listet die SaaS-Datenräume im angegebenen SaaS-Projekt auf. Die Anzahl der SaaS-Datenräume hängt von Ihrer [Commerce-Lizenz](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html) ab:<br />Adobe Commerce - Ein Produktionsdatenraum, zwei Testdatenräumen, <br />Magento Open Source - Ein Produktionsdatenraum, keine Testdatenräume. |
 
 {style="table-layout:auto"}
 

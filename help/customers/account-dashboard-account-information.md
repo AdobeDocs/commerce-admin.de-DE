@@ -16,23 +16,23 @@ Die grundlegenden Kundenkontoinformationen enthalten Ihren Namen, Ihre E-Mail-Ad
 
 ![Kontoinformationen in der Storefront](assets/account-dashboard-account-information-storefront.png){width="700" zoomable="yes"}
 
-In der Seitenleiste Ihres Kontos kann der Kunde **[!UICONTROL Account Information]** und führen Sie einen der folgenden Schritte aus, um ihre Kontoinformationen zu aktualisieren.
+In der Seitenleiste Ihres Kontos kann der Kunde **[!UICONTROL Account Information]** auswählen und einen der folgenden Schritte ausführen, um seine Kontoinformationen zu aktualisieren.
 
 ## Name des Kontos aktualisieren
 
-Um den Namen für das Konto zu aktualisieren, ändert der Kunde die Werte in der Variablen **[!UICONTROL First Name]** und **[!UICONTROL Last Name]** nach Bedarf.
+Um den Namen des Kontos zu aktualisieren, ändert der Kunde die Werte in den Feldern **[!UICONTROL First Name]** und **[!UICONTROL Last Name]** nach Bedarf.
 
 >[!INFO]
 >
->Zusätzliche Felder werden als Teil des Namens angezeigt, wenn die Variable [Kundenkonfiguration](../configuration-reference/customers/customer-configuration.md) enthält ein -Präfix, das mittlere Initial und das -Suffix.
+>Zusätzliche Felder werden als Teil des Namens angezeigt, wenn die [Kundenkonfiguration](../configuration-reference/customers/customer-configuration.md) ein Präfix, ein erstes Mittel und ein Suffix enthält.
 
 ## E-Mail-Adresse ändern
 
-1. Der Kunde wählt die **[!UICONTROL Change Email]** aktivieren.
+1. Der Kunde markiert das Kontrollkästchen **[!UICONTROL Change Email]** .
 
-1. Fügt ihr neues ein **[!UICONTROL Email]** Adresse.
+1. Fügt ihre neue **[!UICONTROL Email]** -Adresse ein.
 
-1. Endet ihre **[!UICONTROL Current Password]**.
+1. Fügt ihre **[!UICONTROL Current Password]** ein.
 
    ![E-Mail-Adresse ändern](assets/account-dashboard-account-information-change-email-address.png){width="700" zoomable="yes"}
 
@@ -40,11 +40,11 @@ Um den Namen für das Konto zu aktualisieren, ändert der Kunde die Werte in der
 
 ## Kennwort ändern
 
-1. Der Kunde wählt die **[!UICONTROL Change Password]** aktivieren.
+1. Der Kunde markiert das Kontrollkästchen **[!UICONTROL Change Password]** .
 
-1. Endet ihre **[!UICONTROL Current Password]**.
+1. Fügt ihre **[!UICONTROL Current Password]** ein.
 
-1. Endet ihre **[!UICONTROL New Password]**.
+1. Fügt ihre **[!UICONTROL New Password]** ein.
 
    >[!INFO]
    >

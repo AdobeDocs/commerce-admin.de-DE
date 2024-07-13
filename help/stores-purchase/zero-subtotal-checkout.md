@@ -12,55 +12,55 @@ ht-degree: 0%
 
 # Null subtotal-Checkout
 
-_Null subtotal-Checkout_ kann für Bestellungen mit einer Zwischensumme von null verwendet werden, die besteuert werden, nachdem ein Rabatt angewendet wurde. Beispielsweise kann der Checkout mit einer Zwischensumme von null in folgenden Situationen verwendet werden:
+Der Checkout-Vorgang mit der Zwischensumme _kann für Bestellungen mit einer Zwischensumme von null verwendet werden, die besteuert werden, nachdem ein Rabatt angewendet wurde._ Beispielsweise kann der Checkout mit einer Zwischensumme von null in folgenden Situationen verwendet werden:
 
 - Ein Rabatt deckt den gesamten Kaufpreis ohne zusätzliche Versandkosten ab.
 
-- Der Kunde fügt eine [herunterladbar](../catalog/product-create-downloadable.md) oder [virtual](../catalog/product-create-virtual.md) Produkt in den Warenkorb, und der Preis entspricht null.
+- Der Kunde fügt dem Warenkorb ein [herunterladbares](../catalog/product-create-downloadable.md) - oder [virtuelles](../catalog/product-create-virtual.md) -Produkt hinzu und der Preis entspricht null.
 
-- Der Preis eines [einfach](../catalog/product-create-simple.md) -Produkt null ist und die [kostenloser Versand](shipping-free.md) -Methode verfügbar ist.
+- Der Preis eines [einfachen](../catalog/product-create-simple.md) -Produkts ist null, und die Methode [kostenloser Versand](shipping-free.md) ist verfügbar.
 
-- A [Coupon-Code](../merchandising-promotions/price-rules-cart-coupon.md) deckt den vollen Preis der Produkte und des Versands ab.
+- Ein [Couponcode](../merchandising-promotions/price-rules-cart-coupon.md) deckt den vollen Preis der Produkte und der Lieferung ab.
 
 Um Zeit zu sparen, können keine Teilsummenbestellungen auf die automatische Rechnung gesetzt werden.
 
-**_So konfigurieren Sie die Checkout-Funktion für die Zwischensumme null:_**
+**_So konfigurieren Sie den Checkout für die Zwischensumme null:_**
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Payment Methods]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Payment Methods]** aus.
 
-1. under _[!UICONTROL Other Payment Methods]_, erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Zero Subtotal Checkout]**Abschnitt.
+1. Erweitern Sie unter _[!UICONTROL Other Payment Methods]_den Abschnitt ![Erweiterungsauswahl](../assets/icon-display-expand.png) um den Abschnitt **[!UICONTROL Zero Subtotal Checkout]**.
 
    ![Null Zwischensumme Checkout](../configuration-reference/sales/assets/payment-methods-zero-subtotal-checkout.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Bei Bedarf muss zunächst die **[!UICONTROL Use system value]** aktivieren, um diese Einstellungen zu ändern.
+   >Deaktivieren Sie bei Bedarf zunächst das Kontrollkästchen **[!UICONTROL Use system value]** , um diese Einstellungen zu ändern.
 
-1. Um den Ausschluss ohne Zwischensumme zu aktivieren, legen Sie **[!UICONTROL Enabled]** nach `Yes`.
+1. Setzen Sie **[!UICONTROL Enabled]** auf `Yes`, um die Zwischensumme des Auscheckens auf null zu aktivieren.
 
-1. Für **[!UICONTROL Title]** Geben Sie einen Titel ein, der die Null-Zwischensummen-Methode beim Checkout angibt.
+1. Geben Sie für &quot;**[!UICONTROL Title]**&quot;einen Titel ein, der die Null-Zwischensumme-Methode beim Checkout angibt.
 
-1. Wenn Bestellungen in der Regel auf die Validierung warten, akzeptieren Sie die Standardeinstellung **[!UICONTROL New Order Status]** as `Pending"` bis die Bestellung validiert wurde.
+1. Wenn Bestellungen in der Regel auf die Genehmigung warten, akzeptieren Sie den Standardwert **[!UICONTROL New Order Status]** als `Pending"`, bis die Bestellung validiert wurde.
 
-   Wenn Sie es bevorzugen, können Sie die `Processing` oder `Suspected Fraud` Status für neue Bestellungen mit dieser Zahlungsmethode.
+   Wenn Sie es bevorzugen, können Sie den Status `Processing` oder `Suspected Fraud` für neue Bestellungen mit dieser Zahlungsmethode verwenden.
 
-1. Satz **[!UICONTROL Automatically Invoice All Items]** nach `Yes` wenn Sie automatisch alle Artikel mit Nullsaldo berechnen möchten.
+1. Setzen Sie **[!UICONTROL Automatically Invoice All Items]** auf `Yes` , wenn Sie automatisch alle Artikel in Rechnung stellen möchten, die einen Nullsaldo aufweisen.
 
-   Diese Option ist nur verfügbar, wenn die Variable **[!UICONTROL New Order Status]** ist auf `Processing`.
+   Diese Option ist nur verfügbar, wenn die **[!UICONTROL New Order Status]** -Option auf `Processing` gesetzt ist.
 
    >[!NOTE]
    >
-   >Wenn _[!UICONTROL New Order Status]_auf `Processing` und_[!UICONTROL Automatically Invoice All Items]_ auf `No`, müssen Sie **[!UICONTROL Order Status]** = `Processing` für die **[!UICONTROL Order State]** = `Pending` und **[!UICONTROL Default Status]** = `No` -Zuordnung auf der [Bestellstatus](order-status.md#custom-order-status) Seite.
+   >Wenn _[!UICONTROL New Order Status]_auf `Processing` und_[!UICONTROL Automatically Invoice All Items]_ auf `No` gesetzt ist, müssen Sie auch **[!UICONTROL Order Status]** = `Processing` für die Zuordnung **[!UICONTROL Order State]** = `Pending` und **[!UICONTROL Default Status]** = `No` auf der Seite [Bestellstatus](order-status.md#custom-order-status) zuweisen.
 
-1. Satz **[!UICONTROL Payment from Applicable Countries]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Payment from Applicable Countries]** auf einen der folgenden Werte:
 
-   - `All Allowed Countries` - Kunden von allen [Länder](../getting-started/store-details.md#country-options) Diese Zahlungsmethode kann in Ihrer Store-Konfiguration verwendet werden.
-   - `Specific Countries` - Wenn Sie diese Option ausgewählt haben, wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Um mehrere Länder auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jede Option.
+   - `All Allowed Countries` - Kunden aus allen in Ihrer Store-Konfiguration angegebenen [Ländern](../getting-started/store-details.md#country-options) können diese Zahlungsmethode verwenden.
+   - `Specific Countries` - Nachdem Sie diese Option ausgewählt haben, wird die Liste _[!UICONTROL Payment from Specific Countries]_angezeigt. Um mehrere Länder auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jede Option.
 
-1. Für **[!UICONTROL Sort Order]** eingeben, geben Sie eine Zahl ein, die die Position dieses Elements in der Liste der Zahlungsmethoden bestimmt, die beim Checkout angezeigt werden.
+1. Geben Sie für **[!UICONTROL Sort Order]** eine Zahl ein, die die Position dieses Elements in der Liste der Zahlungsmethoden bestimmt, die beim Checkout angezeigt werden.
 
-   Diese Zahl ist relativ zu den anderen Zahlungsmethoden. (`0` = first, `1` = Sekunde, `2` = drittes Element usw.)
+   Diese Zahl ist relativ zu den anderen Zahlungsmethoden. (`0` = first, `1` = second, `2` = third usw.)
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.

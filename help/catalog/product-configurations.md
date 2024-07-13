@@ -1,6 +1,6 @@
 ---
 title: Produkteinstellungen - [!UICONTROL Configurations]
-description: Bei einem Produkt muss die Variable [!UICONTROL Configurations] -Einstellungen definieren Varianten für die Verwendung mit dem konfigurierbaren Produkttyp.
+description: Für ein Produkt definieren die [!UICONTROL Configurations] -Einstellungen Varianten für die Verwendung mit dem konfigurierbaren Produkttyp.
 exl-id: 75c594e1-ef75-464b-a1f0-0eb63b9d165f
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Produkteinstellungen - [!UICONTROL Configurations]
 
-Die _[!UICONTROL Configurations]_enthält alle vorhandenen Produktvarianten und kann verwendet werden, um Varianten für den konfigurierbaren Produkttyp zu generieren. Weitere Informationen finden Sie unter [Konfigurierbares Produkt](product-create-configurable.md).
+Im Abschnitt _[!UICONTROL Configurations]_werden alle vorhandenen Varianten des Produkts aufgelistet und können verwendet werden, um Varianten für den konfigurierbaren Produkttyp zu generieren. Weitere Informationen finden Sie unter [Konfigurierbares Produkt](product-create-configurable.md).
 
-![Konfigurationsabschnitt](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
+![Abschnitt &quot;Konfigurationen&quot;](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
 ![Produktkonfigurationen](./assets/product-configurations-hoodie.png){width="600" zoomable="yes"}
 

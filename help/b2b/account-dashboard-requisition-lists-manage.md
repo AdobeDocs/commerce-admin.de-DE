@@ -18,9 +18,9 @@ Der Hauptgrund für die Pflege einer Anforderungsliste besteht darin, die Neuano
 
 ## Eine Anforderungsliste öffnen
 
-1. Im Konto-Dashboard wählt der Kunde **[!UICONTROL My Requisition Lists]**.
+1. Der Kunde wählt im Konto-Dashboard **[!UICONTROL My Requisition Lists]** aus.
 
-1. Findet die Liste der Anforderungen, die sie öffnen möchten, und klickt auf **[!UICONTROL View]** und führen Sie einen der folgenden Schritte aus:
+1. Sucht die gewünschte Anforderungsliste, klickt auf **[!UICONTROL View]** und führt einen der folgenden Schritte aus:
 
 ### Produkte zum Warenkorb hinzufügen
 
@@ -29,23 +29,23 @@ Der Hauptgrund für die Pflege einer Anforderungsliste besteht darin, die Neuano
    - Markiert das Kontrollkästchen jedes Elements.
    - Klicks **[!UICONTROL Select All]**.
 
-1. Fügt die **[!UICONTROL Qty]** zum Warenkorb hinzugefügt werden.
+1. Fügt die **[!UICONTROL Qty]** ein, die dem Warenkorb hinzugefügt werden sollen.
 
 1. Zum Ändern von Produktoptionen gehen Sie wie folgt vor:
 
-   - Klicken Sie im Zeileneintrag auf die _Bearbeiten_ (![Stiftsymbol](../assets/icon-edit-pencil.png)).
+   - Klicken Sie im Zeilenelement auf das Symbol _Bearbeiten_ (![Bleistiftsymbol](../assets/icon-edit-pencil.png)).
    - Ändert erforderliche Optionen.
    - Klicks **[!UICONTROL Update Requisition List]**.
 
 1. Klicks **[!UICONTROL Add to Cart]**.
 
-   ![Details zur Anforderungsliste](./assets/requisition-list-view.png){width="700" zoomable="yes"}
+   ![Detail der Anforderungsliste](./assets/requisition-list-view.png){width="700" zoomable="yes"}
 
 ### Elemente in eine andere Liste kopieren
 
 1. Der Kunde wählt das Kontrollkästchen jedes zu verschiebenden Elements aus.
 
-1. Klicks **[!UICONTROL Copy Selected]** und führt einen der folgenden Schritte aus:
+1. klickt auf **[!UICONTROL Copy Selected]** und führt einen der folgenden Schritte aus:
 
    - Wählt eine vorhandene Anforderungsliste aus.
    - Klicks **[!UICONTROL Create New Requisition List]**.
@@ -54,15 +54,15 @@ Der Hauptgrund für die Pflege einer Anforderungsliste besteht darin, die Neuano
 
 1. Der Kunde öffnet die zu exportierende Anforderungsliste.
 
-1. Klicks auf die **[!UICONTROL Export]** -Link.
+1. Klicken Sie auf den Link **[!UICONTROL Export]** .
 
-Adobe Commerce generiert und lädt eine CSV-Liste mit `sku` und `qty` -Werte.
+Adobe Commerce generiert eine CSV-Liste mit den Werten `sku` und `qty` und lädt sie herunter.
 
 ### Verschieben von Elementen in eine andere Liste
 
 1. Der Kunde wählt das Kontrollkästchen jedes zu verschiebenden Elements aus.
 
-1. Klicks **[!UICONTROL Move Selected]** und führen Sie einen der folgenden Schritte aus:
+1. Klicken Sie auf **[!UICONTROL Move Selected]** und führen Sie einen der folgenden Schritte aus:
 
    - Wählt eine vorhandene Anforderungsliste aus.
    - Klicks **[!UICONTROL Create New Requisition List]**.
@@ -79,7 +79,7 @@ Adobe Commerce generiert und lädt eine CSV-Liste mit `sku` und `qty` -Werte.
 
 Um Produktoptionen in der Liste zu bearbeiten, führt der Kunde Folgendes aus:
 
-1. Klicks auf die _Bleistift_ (![Stiftsymbol](../assets/icon-edit-pencil.png)), um die Produktseite zu öffnen.
+1. Klicken Sie auf das Symbol _Bleistift_ (![Bleistiftsymbol](../assets/icon-edit-pencil.png)), um die Produktseite zu öffnen.
 
 1. Ändert erforderliche Optionen.
 
@@ -89,7 +89,7 @@ Um Produktoptionen in der Liste zu bearbeiten, führt der Kunde Folgendes aus:
 
 Ein Produkt in der Anforderungsliste kann bearbeitet werden, wenn:
 
-- Das Produkt **[!UICONTROL all options set]** (wenn es sich um eine [konfiguriertes Produkt](../catalog/product-create-configurable.md) in der Anforderungsliste).
+- Das Produkt hat **[!UICONTROL all options set]** (wenn es sich um ein [konfiguriertes Produkt](../catalog/product-create-configurable.md) in der Anforderungsliste handelt).
 
   Das Produkt ist **[!UICONTROL added to this Requisition List]**.
 
@@ -103,17 +103,17 @@ Ein Produkt in der Anforderungsliste kann bearbeitet werden, wenn:
 
 1. Klicks **[!UICONTROL Remove Selected]**.
 
-1. Wenn Sie zur Bestätigung aufgefordert werden, klickt **[!UICONTROL Delete]**.
+1. Wenn Sie zur Bestätigung aufgefordert werden, klicken Sie auf **[!UICONTROL Delete]**.
 
 ### Liste umbenennen
 
 1. Nach dem Listentitel klickt der Kunde auf **[!UICONTROL Rename]**.
 
-1. Fügt eine andere **[!UICONTROL Requisition List Name]**.
+1. Fügt einen anderen **[!UICONTROL Requisition List Name]** ein.
 
 1. Klicks **[!UICONTROL Save]**.
 
-   ![Anforderungsliste umbenennen](./assets/requisition-list-rename.png){width="300"}
+   ![ Anforderungsliste umbenennen](./assets/requisition-list-rename.png){width="300"}
 
 
 ### Liste mit Anforderungen entfernen
@@ -122,7 +122,7 @@ Ein Produkt in der Anforderungsliste kann bearbeitet werden, wenn:
 
 1. Klicks **[!UICONTROL Delete Requisition List]**.
 
-1. Wenn Sie zur Bestätigung aufgefordert werden, klickt **[!UICONTROL Delete]**.
+1. Wenn Sie zur Bestätigung aufgefordert werden, klicken Sie auf **[!UICONTROL Delete]**.
 
 >[!NOTE]
 >

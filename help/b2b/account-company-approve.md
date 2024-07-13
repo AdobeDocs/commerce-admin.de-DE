@@ -13,26 +13,26 @@ ht-degree: 0%
 
 # Unternehmenskonto genehmigen
 
-Der Status von Anforderungen, die von der Storefront zum Erstellen eines Unternehmens empfangen wurden, lautet `Pending Approval` bis die Anfrage vom Store-Administrator überprüft und entweder genehmigt oder abgelehnt wird. Der Status eines Unternehmenskontos kann auf einen der folgenden Werte festgelegt werden:
+Der Status der Anforderungen, die vom Storefront zum Erstellen eines Unternehmens empfangen werden, lautet &quot;`Pending Approval`&quot;, bis die Anfrage vom Store-Administrator überprüft und entweder genehmigt oder abgelehnt wird. Der Status eines Unternehmenskontos kann auf einen der folgenden Werte festgelegt werden:
 
 - [!UICONTROL Active]
 - [!UICONTROL Pending Approval]
 - [!UICONTROL Rejected]
 - [!UICONTROL Blocked]
 
-Sie können auch die [Aktionssteuerung](account-company-manage.md) um mehrere Unternehmensanfragen zu genehmigen.
+Sie können auch das Steuerelement [Aktionen](account-company-manage.md) verwenden, um mehrere Unternehmensanforderungen zu genehmigen.
 
 ![Ausstehende Genehmigung](./assets/companies-pending-approval.png){width="700" zoomable="yes"}
 
 ## Genehmigen eines ausstehenden Unternehmenskontos
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-   Sie können die _[!UICONTROL Columns]_Auswahl über dem Raster zum Anzeigen der **[!UICONTROL Status]**Spalte.
+   Sie können den &quot;_[!UICONTROL Columns]_&quot;-Selektor über dem Raster verwenden, um die Spalte &quot;**[!UICONTROL Status]**&quot;anzuzeigen.
 
-1. Im _[!UICONTROL Action]_Spalte, klicken **[!UICONTROL Edit]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
-1. Satz **[!UICONTROL Company Status]** nach `Active`.
+1. Setzen Sie **[!UICONTROL Company Status]** auf `Active`.
 
    ![Festlegen des Unternehmensstatus](./assets/company-status-active.png){width="700" zoomable="yes"}
 
@@ -40,13 +40,13 @@ Sie können auch die [Aktionssteuerung](account-company-manage.md) um mehrere Un
 
    Der Unternehmensadministrator erhält eine E-Mail-Benachrichtigung, dass das Unternehmen jetzt aktiv ist.
 
-1. Falls zutreffend, legen Sie **[!UICONTROL Sales Representative]** zu einem bestimmten Admin-Benutzerkonto hinzugefügt.
+1. Stellen Sie ggf. **[!UICONTROL Sales Representative]** auf ein bestimmtes Admin-Benutzerkonto ein.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png)  die **[!UICONTROL Account Information]** und verwenden Sie **[!UICONTROL Comment]** -Feld, um Hinweise zum Konto einzugeben.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Account Information]** und geben Sie im Feld **[!UICONTROL Comment]** Notizen zum Konto ein.
 
    Die Kommentare sind in der Storefront nicht sichtbar.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
    Dem Unternehmens- und Unternehmensadministrator wird eine Bestätigungs-E-Mail gesendet, in der bestätigt wird, dass das Unternehmenskonto genehmigt wurde.
 

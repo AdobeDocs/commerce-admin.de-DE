@@ -5,60 +5,60 @@ exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
 
 # Einfaches Produkt
 
-Einer der Schlüssel zur Nutzung der Leistungsfähigkeit von Produktarten besteht darin, zu lernen, wann ein einfaches, eigenständiges Produkt verwendet werden soll. Ein einfaches Produkt kann einzeln oder als Teil eines gruppierten, konfigurierbaren oder gebündelten Produkts verkauft werden. Ein einfaches Produkt mit benutzerdefinierten Optionen wird manchmal auch als _zusammengesetztes Produkt_.
+Einer der Schlüssel zur Nutzung der Leistungsfähigkeit von Produktarten besteht darin, zu lernen, wann ein einfaches, eigenständiges Produkt verwendet werden soll. Ein einfaches Produkt kann einzeln oder als Teil eines gruppierten, konfigurierbaren oder gebündelten Produkts verkauft werden. Ein einfaches Produkt mit benutzerdefinierten Optionen wird manchmal als _zusammengesetztes Produkt_ bezeichnet.
 
-Die folgenden Anweisungen zeigen den Prozess der Erstellung eines einfachen Produkts mit einer [Produktvorlage](attribute-sets.md), erforderliche Felder und grundlegende Einstellungen. Jedes erforderliche Feld ist mit einem roten Sternchen (`*`). Wenn Sie die Grundlagen abgeschlossen haben, können Sie die anderen Produkteinstellungen nach Bedarf abschließen.
+Die folgenden Anweisungen zeigen den Prozess der Erstellung eines einfachen Produkts mit einer [Produktvorlage](attribute-sets.md), erforderlichen Feldern und grundlegenden Einstellungen. Jedes erforderliche Feld ist mit einem roten Sternchen (`*`) gekennzeichnet. Wenn Sie die Grundlagen abgeschlossen haben, können Sie die anderen Produkteinstellungen nach Bedarf abschließen.
 
 ![Einfaches Produkt](./assets/product-simple.png){width="700" zoomable="yes"}
 
 ## Schritt 1: Produkttyp auswählen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Im _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) oben rechts, wählen Sie **[!UICONTROL Simple Product]**.
+1. Wählen Sie im Menü _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) oben rechts **[!UICONTROL Simple Product]**aus.
 
    ![Einfaches Produkt hinzufügen](./assets/product-add-simple.png){width="700" zoomable="yes"}
 
 ## Schritt 2: Attributsatz auswählen
 
-So wählen Sie die [Attributset](attribute-sets.md) wird als Vorlage für das Produkt verwendet:
+So wählen Sie den als Vorlage für das Produkt verwendeten [Attributsatz](attribute-sets.md) aus:
 
-- Klicken Sie in der **[!UICONTROL Attribute Set]** und geben Sie den gesamten oder einen Teil des Namens des Attributsatzes ein.
+- Klicken Sie in das Feld **[!UICONTROL Attribute Set]** und geben Sie den gesamten oder einen Teil des Namens des Attributsatzes ein.
 
 - Wählen Sie in der angezeigten Liste den zu verwendenden Attributsatz aus.
 
 Das Formular wird entsprechend der Änderung aktualisiert.
 
-![Attributset auswählen](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
+![Attributsatz auswählen](./assets/product-create-choose-attribute-set.png){width="600" zoomable="yes"}
 
 ## Schritt 3: Ausführen der erforderlichen Einstellungen
 
-1. Geben Sie die **[!UICONTROL Product Name]**.
+1. Geben Sie den Wert **[!UICONTROL Product Name]** ein.
 
-1. Standard akzeptieren **[!UICONTROL SKU]** , der auf dem Produktnamen basiert, oder geben Sie einen anderen ein.
+1. Nehmen Sie die standardmäßige **[!UICONTROL SKU]** an, die auf dem Produktnamen basiert, oder geben Sie einen anderen ein.
 
-1. Produkt eingeben **[!UICONTROL Price]**.
+1. Geben Sie das Produkt **[!UICONTROL Price]** ein.
 
-1. Da das Produkt noch nicht zur Veröffentlichung bereit ist, legen Sie die **[!UICONTROL Enable Product]** -Option `No`.
+1. Da das Produkt noch nicht zur Veröffentlichung bereit ist, setzen Sie die Option **[!UICONTROL Enable Product]** auf `No`.
 
-1. click **[!UICONTROL Save]** und fortfahren.
+1. Klicken Sie auf **[!UICONTROL Save]** und fahren Sie fort.
 
-   Wenn das Produkt gespeichert wird, wird die [Store-Ansicht](introduction.md#product-scope) wird in der linken oberen Ecke angezeigt.
+   Wenn das Produkt gespeichert wird, wird die Auswahl für die [Store-Ansicht](introduction.md#product-scope) in der oberen linken Ecke angezeigt.
 
-1. Wählen Sie die **[!UICONTROL Store View]** wo das Produkt verfügbar sein soll.
+1. Wählen Sie die **[!UICONTROL Store View]** aus, in der das Produkt verfügbar sein soll.
 
    ![Auswählen der Store-Ansicht](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## Schritt 4: Grundlegende Einstellungen durchführen
 
-1. Satz **[!UICONTROL Tax Class]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Tax Class]** auf einen der folgenden Werte:
 
    - `None`
    - `Taxable Goods`
@@ -71,21 +71,21 @@ Das Formular wird entsprechend der Änderung aktualisiert.
    - `VAT Reduced`
    - `VAT Standard`
 
-1. Geben Sie die **[!UICONTROL Quantity]** des vorrätigen Erzeugnisses.
+1. Geben Sie den Wert **[!UICONTROL Quantity]** des vorrätigen Produkts ein.
 
-   Standardmäßig ist **[!UICONTROL Stock Status]** auf `In Stock`.
+   Standardmäßig ist **[!UICONTROL Stock Status]** auf `In Stock` gesetzt.
 
    >[!NOTE]
    >
-   >Wenn Sie [Inventory management](../inventory-management/introduction.md), legen Einzelquellenhändler die Menge in diesem Abschnitt fest. Multi-Source-Händler fügen Quellen und Mengen im Bereich Quellen hinzu. Siehe Folgendes _Zuweisen von Quellen und Mengen (Inventory management)_ Abschnitt.
+   >Wenn Sie [Inventory management](../inventory-management/introduction.md) aktivieren, legen Einzelhändler der Source die Menge in diesem Abschnitt fest. Mehrere Source-Händler fügen im Bereich Quellen Quellen und Mengen hinzu. Siehe folgenden Abschnitt _Quellen und Mengen zuweisen (Inventory management)_ .
 
-1. Geben Sie die **[!UICONTROL Weight]** des Erzeugnisses.
+1. Geben Sie den Wert **[!UICONTROL Weight]** des Produkts ein.
 
-1. Standard akzeptieren **[!UICONTROL Visibility]** Einstellung von `Catalog, Search`.
+1. Nehmen Sie die standardmäßige **[!UICONTROL Visibility]** -Einstellung von `Catalog, Search` an.
 
-1. Zuweisen _[!UICONTROL Categories]_klicken Sie auf das **[!UICONTROL Select…]**und führen Sie einen der folgenden Schritte aus:
+1. Um dem Produkt _[!UICONTROL Categories]_zuzuweisen, klicken Sie auf das Feld **[!UICONTROL Select…]**und führen Sie einen der folgenden Schritte aus:
 
-   **Vorhandene Kategorie auswählen**:
+   **Wählen Sie eine vorhandene Kategorie**:
 
    - Beginnen Sie mit der Eingabe in das Feld, bis Sie eine Übereinstimmung finden.
 
@@ -93,15 +93,15 @@ Das Formular wird entsprechend der Änderung aktualisiert.
 
    **Erstellen einer Kategorie**:
 
-   - Klicken **[!UICONTROL New Category]**.
+   - Klicken Sie auf **[!UICONTROL New Category]**.
 
-   - Geben Sie die **[!UICONTROL Category Name]** und wählen Sie **[!UICONTROL Parent Category]**, der seine Position in der Menüstruktur bestimmt.
+   - Geben Sie den Wert **[!UICONTROL Category Name]** ein und wählen Sie den Wert **[!UICONTROL Parent Category]** aus, der seine Position in der Menüstruktur bestimmt.
 
-   - Klicken **[!UICONTROL Create Category]**.
+   - Klicken Sie auf **[!UICONTROL Create Category]**.
 
-1. So stellen Sie das Produkt in der Liste der [neue Produkte](../content-design/widget-new-products-list.md), wählen Sie die **[!UICONTROL Set Product as New]** aktivieren.
+1. Um das Produkt in der Liste der [neuen Produkte](../content-design/widget-new-products-list.md) zu kennzeichnen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Set Product as New]** .
 
-1. Wählen Sie die **[!UICONTROL Country of Manufacture]**.
+1. Wählen Sie die **[!UICONTROL Country of Manufacture]** aus.
 
 Es kann zusätzliche individuelle Attribute geben, die das Produkt beschreiben. Die Auswahl variiert je nach Attributsatz und kann zu einem späteren Zeitpunkt abgeschlossen werden.
 
@@ -122,17 +122,17 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 - [Design](settings-advanced-design.md)
 - [Geschenkoptionen](product-gift-options.md)
 
-## Schritt 6: Produkt veröffentlichen
+## Schritt 6: Publish des Produkts
 
-1. Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, legen Sie die **[!UICONTROL Enable Product]** Switch zu `Yes`.
+1. Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, setzen Sie den **[!UICONTROL Enable Product]** -Umschalter auf `Yes`.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    - **Methode 1:** Speichern und Vorschau anzeigen
 
-      - Klicken Sie oben rechts auf **[!UICONTROL Save]**.
+      - Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Save]**.
 
-      - Um das Produkt in Ihrem Geschäft anzuzeigen, wählen Sie **[!UICONTROL Customer View]** auf _Admin_ (![Menüpfeil](../assets/icon-menu-down-arrow-black.png)).
+      - Um das Produkt in Ihrem Store anzuzeigen, wählen Sie im Menü _Admin_ (![Menüpfeil](../assets/icon-menu-down-arrow-black.png)) die Option **[!UICONTROL Customer View]** aus.
 
      Der Store wird in einer neuen Browser-Registerkarte geöffnet.
 
@@ -140,7 +140,7 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
    - **Methode 2:** Speichern und schließen
 
-     Im _[!UICONTROL Save]_ ( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ), wählen Sie **[!UICONTROL Save & Close]**.
+     Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**.
 
 ## Dinge, die man sich merken sollte
 

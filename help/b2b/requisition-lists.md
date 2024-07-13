@@ -16,7 +16,7 @@ Durch die Verwendung einer Anforderungsliste sparen Sie Zeit beim Kauf häufig b
 
 >[!NOTE]
 >
->Informationen zum Aktivieren von Anforderungslisten für Ihren Store finden Sie unter [B2B-Funktionen aktivieren](enable-basic-features.md). Je nach der [Konfiguration](configure-requisition-lists.md).
+>Informationen zum Aktivieren von Anforderungslisten für Ihren Store finden Sie unter [B2B-Funktionen aktivieren](enable-basic-features.md). Je nach [Konfiguration](configure-requisition-lists.md) können für jedes Kundenkonto bis zu 999 Anforderungslisten beibehalten werden.
 
 Die Funktionalität der Anforderungsliste ähnelt den Wunschlisten, mit folgenden Unterschieden:
 
@@ -29,27 +29,27 @@ Die Funktionalität der Anforderungsliste ähnelt den Wunschlisten, mit folgende
 
 Ein angemeldeter Kunde, der mit einem Unternehmenskonto verknüpft ist, kann über sein Konto-Dashboard eine Anforderungsliste erstellen.
 
-1. In der Seitenleiste ihres Kontos wählt **[!UICONTROL My Requisition Lists]**.
+1. Wählen Sie in der Seitenleiste ihres Kontos **[!UICONTROL My Requisition Lists]** aus.
 
-1. Im _[!UICONTROL Requisition Lists]_Seite, Klicks **[!UICONTROL Create New Requisition List]**.
+1. Klicken Sie auf der Seite _[!UICONTROL Requisition Lists]_auf **[!UICONTROL Create New Requisition List]**.
 
-1. Fügt die **[!UICONTROL Requisition List Name]** und **[!UICONTROL Description]**.
+1. Fügt die Werte **[!UICONTROL Requisition List Name]** und **[!UICONTROL Description]** ein.
 
-   ![Anforderungsliste erstellen](./assets/requisition-list-create.png){width="300"}
+   ![ Anforderungsliste erstellen](./assets/requisition-list-create.png){width="300"}
 
-1. Klicken Sie nach Abschluss **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
 ## Erstellen einer Anforderungsliste von einer Produktseite
 
 Ein angemeldeter Kunde, der mit einem Unternehmenskonto verknüpft ist, kann von einer Produktseite aus eine Anforderungsliste erstellen. Diese Methode bietet eine einfache Verknüpfung zum Erstellen der Liste und zum Hinzufügen des Produkts.
 
-1. Klicken Sie auf der Produktdetailseite auf **[!UICONTROL Add to Requisition List]**.
+1. Auf der Produktdetailseite klickt der Kunde auf **[!UICONTROL Add to Requisition List]**.
 
 1. Klicks **[!UICONTROL Create New Requisition List]**.
 
-1. Fügt die **[!UICONTROL Requisition List Name]** und **[!UICONTROL Description]**.
+1. Fügt die Werte **[!UICONTROL Requisition List Name]** und **[!UICONTROL Description]** ein.
 
-1. Klicken Sie nach Abschluss **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
 ## Produkte zu einer Anforderungsliste hinzufügen
 
@@ -64,7 +64,7 @@ Kunden können Produkte zu einer Anforderungsliste hinzufügen, indem sie:
 
 1. Der Kunde ruft von der Storefront die Detailseite des Produkts auf, die der Anforderungsliste hinzugefügt werden soll.
 
-1. Klicks **[!UICONTROL Add to Requisition List]** und führt einen der folgenden Schritte aus:
+1. klickt auf **[!UICONTROL Add to Requisition List]** und führt einen der folgenden Schritte aus:
 
    - Wählt eine vorhandene Anforderungsliste aus.
    - Erstellt eine Anforderungsliste.
@@ -77,7 +77,7 @@ Kunden können Produkte zu einer Anforderungsliste hinzufügen, indem sie:
 
 1. Bewegen Sie die Maus über das Produkt.
 
-1. Klicks **[!UICONTROL Add to Requisition List]** und führt einen der folgenden Schritte aus:
+1. klickt auf **[!UICONTROL Add to Requisition List]** und führt einen der folgenden Schritte aus:
 
    - Wählt eine vorhandene Anforderungsliste aus.
    - Erstellt eine Anforderungsliste.
@@ -86,9 +86,9 @@ Kunden können Produkte zu einer Anforderungsliste hinzufügen, indem sie:
 
 ### Aus einer bestehenden Bestellung
 
-1. Der Kunde wählt in der Seitenleiste seines Konto-Dashboards **[!UICONTROL My Orders]**.
+1. In der Seitenleiste des Konto-Dashboards wählt der Kunde **[!UICONTROL My Orders]** aus.
 
-1. Klicken Sie oben in der Bestellung auf **[!UICONTROL Add to Requisition List]** und führt einen der folgenden Schritte aus:
+1. Klicken Sie oben in der Reihenfolge auf **[!UICONTROL Add to Requisition List]** und führt einen der folgenden Schritte aus:
 
    - Wählt eine vorhandene Anforderungsliste aus.
    - Erstellt eine Anforderungsliste.
@@ -97,7 +97,7 @@ Kunden können Produkte zu einer Anforderungsliste hinzufügen, indem sie:
 
 ### Aus dem Warenkorb
 
-1. Unter dem Artikel klickt der Kunde auf die **[!UICONTROL Add to Requisition List]** und führt einen der folgenden Schritte aus:
+1. Unter dem Element klickt der Kunde auf das Menü **[!UICONTROL Add to Requisition List]** und führt einen der folgenden Schritte aus:
 
    - Wählt eine vorhandene Anforderungsliste aus.
    - Erstellt eine Anforderungsliste.
@@ -112,12 +112,12 @@ Wenn ein Kunde in seinem Konto angemeldet ist, kann er eine der folgenden Method
 
 ### Über das Konto-Dashboard
 
-1. Wählen Sie in der Seitenleiste des Dashboards ihres Kontos **[!UICONTROL My Requisition Lists]**.
+1. Wählen Sie in der Seitenleiste ihres Konto-Dashboards **[!UICONTROL My Requisition Lists]** aus.
 
-1. In der Liste der Anforderungslisten klicken Sie auf **[!UICONTROL View]** im _Aktionen_ Spalte.
+1. Klicken Sie in der Liste der Anforderungslisten auf **[!UICONTROL View]** in der Spalte _Aktionen_ .
 
 ### Von einer Storefront-Seite aus
 
 1. Klicken Sie in der Symbolleiste mit den Schnelllinks oben auf der Seite auf den Benutzernamen.
 
-1. Wählen Sie im Menü **[!UICONTROL My Requisition Lists]**.
+1. Wählen Sie im Menü **[!UICONTROL My Requisition Lists]** aus.

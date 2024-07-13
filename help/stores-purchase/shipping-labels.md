@@ -5,14 +5,14 @@ exl-id: 5da03cf9-5e92-4bb8-ba53-67c6469665ed
 feature: Shipping/Delivery, Orders
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Versandtitel
 
-Der Handel umfasst ein hohes Maß an Integration mit den wichtigsten Versandunternehmen, die Ihnen den Zugriff auf die Versandsysteme von Spediteuren ermöglicht, um Bestellungen zu verfolgen, Versandbeschriftungen zu erstellen und vieles mehr. Für regelmäßige Sendungen und Produkte mit Rücksendungserlaubnis können Versandetiketten erstellt werden. Zusätzlich zu den vom Versandunternehmen bereitgestellten Informationen enthält das Etikett auch die Bestellnummer des Handelsunternehmens, die Nummer des Pakets und die Gesamtmenge der Packstücke für den Versand.
+Commerce verfügt über eine weit reichende Integration mit den wichtigsten Versandunternehmen, die Ihnen den Zugriff auf die Versandsysteme von Frachtführern ermöglicht, um Bestellungen zu verfolgen, Versandbeschriftungen zu erstellen und vieles mehr. Für regelmäßige Sendungen und Produkte mit Rücksendungserlaubnis können Versandetiketten erstellt werden. Zusätzlich zu den vom Versandunternehmen übermittelten Informationen enthält das Etikett auch die Commerce-Bestellnummer, die Paketnummer und die Gesamtverpackungsmenge für die Sendung.
 
 ![USPS Priority Shipping Label](./assets/shipping-usps-priority-label.png){width="300"}
 
@@ -29,7 +29,7 @@ Der Händler/Store-Manager füllt die zum Generieren von Bezeichnungen erforderl
 
 ### Schritt 2: Anfrage an den Netzbetreiber senden
 
-Der Handel kontaktiert den Reedereien und erstellt eine Bestellung im System des Frachtführers. Für jedes versandte Paket wird eine separate Bestellung erstellt.
+Commerce kontaktiert den Spediteur und erstellt eine Bestellung im System des Spediteurs. Für jedes versandte Paket wird eine separate Bestellung erstellt.
 
 ### Schritt 3: Netzbetreiber sendet Titel und Trackingnummer
 

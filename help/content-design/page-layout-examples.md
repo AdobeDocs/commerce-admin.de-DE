@@ -25,13 +25,13 @@ Der Inhaltsbereich für ein einspaltiges Layout umfasst die gesamte Breite der H
 
 Der Inhaltsbereich dieses Layouts ist in zwei Spalten unterteilt. Die Hauptinhaltsspalte schwebt nach rechts und die Seitenleiste nach links.
 
-![Beispiel für zwei Spalten mit linker Leiste](./assets/page-layout-2-col-left-bar.png){width="700" zoomable="yes"}
+![Beispiel zweier Spalten mit linker Leiste](./assets/page-layout-2-col-left-bar.png){width="700" zoomable="yes"}
 
 ## Zwei Spalten mit rechter Leiste
 
 Dieses Layout ist ein Spiegelbild des anderen zweispaltigen Layouts. Diesmal schwebt die Seitenleiste nach rechts und die Hauptinhaltsspalte nach links.
 
-![Beispiel für zwei Spalten mit der rechten Leiste](./assets/page-layout-2-col-right-bar.png){width="700" zoomable="yes"}
+![Beispiel zweier Spalten mit der rechten Leiste](./assets/page-layout-2-col-right-bar.png){width="700" zoomable="yes"}
 
 ## Drei Spalten
 

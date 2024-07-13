@@ -12,37 +12,37 @@ ht-degree: 0%
 
 # Zuweisen von Quellen pro Produkt
 
-Vor der Änderung von Mengen und Einstellungen müssen Sie [sources](sources-manage.md) zu den Erzeugnissen.
+Bevor Sie Mengen und Einstellungen ändern, müssen Sie den Produkten [Quellen](sources-manage.md) zuweisen.
 
 {{$include /help/_includes/unassign-source.md}}
 
 ## Zuweisen von Quellen zu einem Produkt
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Öffnen Sie ein Produkt in _Bearbeiten_ -Modus.
+1. Öffnen Sie ein Produkt im Modus _Bearbeiten_ .
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Sources]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Sources]** .
 
    In diesem Abschnitt können Sie die Quelle ändern, Lagerbestandsmengen aktualisieren und vieles mehr.
 
    >[!NOTE]
    >
-   >Derzeit unterstützen nur einfache, konfigurierbare, virtuelle, herunterladbare und gruppierte Produkte mehrere Quellen. Bundle-Produkte können nur mit der Standardquelle und dem Standardbestand erstellt und verwaltet werden.
+   >Derzeit unterstützen nur einfache, konfigurierbare, virtuelle, herunterladbare und gruppierte Produkte mehrere Quellen. Bundle-Produkte können nur mit dem Standard-Source und -Lager erstellt und verwaltet werden.
 
    ![Abschnitt &quot;Produktquellen&quot;](assets/inventory-product-sources-before.png){width="600" zoomable="yes"}
 
 1. Um eine Quelle hinzuzufügen, klicken Sie auf **[!UICONTROL Assign Sources]**.
 
-1. Im _[!UICONTROL Assign Sources]_aktivieren Sie das Kontrollkästchen neben allen Quellen, die Sie für das Produkt zuweisen möchten.
+1. Aktivieren Sie auf der Seite &quot;_[!UICONTROL Assign Sources]_&quot;das Kontrollkästchen neben jeder Quelle, die Sie für das Produkt zuweisen möchten.
 
    ![Produkt - Quellen zuweisen](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 
-1. Klicks **[!UICONTROL Done]** , um die Quellen hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL Done]** , um die Quellen hinzuzufügen.
 
 1. Führen Sie einen der folgenden Schritte aus, um zu speichern:
 
-   - Klicken **[!UICONTROL Save]**.
-   - Im _[!UICONTROL Save]_ (![Menüpfeil](../assets/icon-menu-down-arrow-red.png)), wählen Sie **[!UICONTROL Save & Close]**.
+   - Klicken Sie auf **[!UICONTROL Save]**.
+   - Wählen Sie im Menü _[!UICONTROL Save]_(![Menüpfeil](../assets/icon-menu-down-arrow-red.png)) die Option **[!UICONTROL Save & Close]**.
 
-Aktualisieren Sie nach dem Zuweisen von Quellen die [Lagermenge](quantities-assign-per-product.md) für jede Produktquelle.
+Aktualisieren Sie nach dem Zuweisen von Quellen die [Lagerbestandsmenge](quantities-assign-per-product.md) für jede Produktquelle.

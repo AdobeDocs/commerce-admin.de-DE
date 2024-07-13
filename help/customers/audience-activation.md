@@ -14,21 +14,21 @@ ht-degree: 0%
 
 # [!DNL Audience Activation]
 
-Die [!DNL Audience Activation] ermöglicht Ihnen die Aktivierung von Real-Time CDP-Zielgruppen in Adobe Commerce, um eindeutige Angebote im Warenkorb zu erstellen. Zu diesen Angeboten und Anreizen gehören gängige E-Commerce-Merchandising-Techniken wie _Kauf 2 erhalten 1 gratis_, Hero-Banner, die auf diesen Kunden ausgerichtet sind, und geänderte Produktpreise über verschiedene Angebote. Die in Real-Time CDP erstellten Zielgruppen basieren auf Daten aus verschiedenen Unternehmenssystemen, z. B. Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), Point of Sale und Marketing-Systemen. Da Kundensegmentinformationen ständig aktualisiert werden, können Kunden beim Einkauf in Ihrem Geschäft mit einem Segment verknüpft und von diesem getrennt werden.
+Mit der Erweiterung [!DNL Audience Activation] können Sie Real-Time CDP-Zielgruppen in Adobe Commerce aktivieren, um eindeutige Angebote im Warenkorb zu erstellen. Zu diesen Angeboten und Anreizen gehören gängige E-Commerce-Merchandising-Techniken, wie z. B. _Kauf 2 erhält 1 kostenlose_, Hero-Banner, die auf diesen Kunden ausgerichtet sind, und modifizierte Produktpreise über verschiedene Angebote. Die in Real-Time CDP erstellten Zielgruppen basieren auf Daten aus verschiedenen Unternehmenssystemen, z. B. Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), Point of Sale und Marketing-Systemen. Da Kundensegmentinformationen ständig aktualisiert werden, können Kunden beim Einkauf in Ihrem Geschäft mit einem Segment verknüpft und von diesem getrennt werden.
 
-Sie können Zielgruppen in einer Luma-Storefront aktivieren oder [Headless](#headless-support) Storefront. In einer Luma-Storefront werden Zielgruppendaten (Segmentzugehörigkeit) in einem Cookie auf Commerce-Seite gespeichert. In einer Headless-Storefront werden Zielgruppendaten in der GraphQL-API-Kopfzeile als Parameter mit dem Namen übergeben: `aep-segments-membership`.
+Sie können Zielgruppen in einer Luma-Storefront oder einer [Headless](#headless-support) Storefront aktivieren. In einer Luma-Storefront werden Zielgruppendaten (Segmentzugehörigkeit) in einem Cookie auf Commerce-Seite gespeichert. In einer Headless-Storefront werden Zielgruppendaten in der GraphQL-API-Kopfzeile als Parameter mit dem Namen `aep-segments-membership` übergeben.
 
 ## Versionshinweise
 
 Dieser Abschnitt enthält Informationen zu Aktualisierungen der Audience Activation-Erweiterung und umfasst:
 
 ![Neu](../assets/new.svg) - Neue Funktionen
-![Fehlerbehebung](../assets/fix.svg) - Fehlerbehebungen und Verbesserungen
+![Korrektur](../assets/fix.svg) - Fehlerbehebungen und Verbesserungen
 ![Fehler](../assets/bug.svg) - Bekannte Probleme
 
-Siehe [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) , um mehr über die Veröffentlichungszeitpläne und die Unterstützung zu erfahren.
+Unter [Bevorstehende Versionen](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) erfahren Sie mehr über die Veröffentlichungszeitpläne und die Unterstützung.
 
-Siehe die Entwicklerdokumentation zu [Informationen zur Produktkompatibilität](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html).
+Weitere Informationen zur Produktkompatibilität finden Sie in der Entwicklerdokumentation zu [.](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html)
 
 ## Unterstützte Dienstaktualisierungen
 
@@ -38,15 +38,15 @@ In diesen Versionshinweisen werden Funktionsänderungen und Fehlerbehebungen im 
 
 _15. August 2023_
 
-![Fehlerbehebung](../assets/fix.svg) - Die [Dashboard für Real-Time CDP-Zielgruppen](#real-time-cdp-audiences-dashboard) zur Vereinfachung der Filterung.
+![Fehlerbehebung](../assets/fix.svg) - Aktualisierung des Dashboards [Real-Time CDP-Zielgruppen](#real-time-cdp-audiences-dashboard) zur Vereinfachung der Filterung.
 
 _27. Juni 2023_
 
-![Fehlerbehebung](../assets/fix.svg) - Unterstützung für PHP 8.2 im `magento/module-data-services-graphql` Paket.
+![Korrektur](../assets/fix.svg) - Unterstützung für PHP 8.2 im `magento/module-data-services-graphql`-Paket hinzugefügt.
 
 _30. Mai 2023_
 
-![Neu](../assets/new.svg) - Die [Dashboard für Real-Time CDP-Zielgruppen](#real-time-cdp-audiences-dashboard) , um die Möglichkeit zur Sortierung, Suche und Filterung der aktiven Zielgruppen in Ihrer Adobe Commerce-Instanz einzuschließen.
+![Neu](../assets/new.svg) - Das Dashboard [Real-Time CDP-Zielgruppen](#real-time-cdp-audiences-dashboard) wurde aktualisiert und bietet nun die Möglichkeit, die aktiven Zielgruppen in Ihrer Adobe Commerce-Instanz zu sortieren, zu suchen und zu filtern.
 
 +++
 
@@ -56,7 +56,7 @@ _30. Mai 2023_
 
 _12. Juni 2024_
 
-![Neu](../assets/new.svg) - GA-Version für [verwandte Produktregeln](../merchandising-promotions/product-related-rule-create.md) durch Zielgruppen informiert werden.
+![Neu](../assets/new.svg) - GA-Version für [verwandte Produktregeln](../merchandising-promotions/product-related-rule-create.md), die von Zielgruppen informiert werden.
 
 ### 2.1.1
 
@@ -72,8 +72,8 @@ _4. April 2024_
 
 _16. Februar 2024_
 
-![Neu](../assets/new.svg) - Wenn Sie an der Beta-Phase teilnehmen, stellen Sie sicher, dass Ihre `composer.json` -Datei hat Folgendes auf der Stammebene: ` "minimum-stability": "beta"`.
-![Neu](../assets/new.svg) - (**Beta**) Zusätzliche Funktion zum Erstellen [verwandte Produktregeln](../merchandising-promotions/product-related-rule-create.md) durch Zielgruppen informiert werden.
+![Neu](../assets/new.svg) - Wenn Sie an der Beta-Phase teilnehmen, stellen Sie sicher, dass Ihre `composer.json`-Datei auf der Stammebene Folgendes aufweist: ` "minimum-stability": "beta"`.
+![Neu](../assets/new.svg) - (**Beta**) Es wurde die Möglichkeit hinzugefügt, durch Zielgruppen informierte [verwandte Produktregeln](../merchandising-promotions/product-related-rule-create.md) zu erstellen.
 
 ### 2.1.0
 
@@ -81,7 +81,7 @@ _16. Februar 2024_
 
 _24. Januar 2024_
 
-![Neu](../assets/new.svg) - Die [Dashboard für Real-Time CDP-Zielgruppen](#real-time-cdp-audiences-dashboard) , um die Websites einzubeziehen, die die Zielgruppen enthalten, und anzugeben, welche dynamischen Bausteine und Warenkorbpreisregeln für die Verwendung dieser Zielgruppen konfiguriert sind.
+![Neu](../assets/new.svg) - Das Dashboard [Real-Time CDP-Zielgruppen](#real-time-cdp-audiences-dashboard) wurde aktualisiert und enthält nun auch die Websites mit den Zielgruppen sowie die zur Verwendung dieser Zielgruppen konfigurierten dynamischen Bausteine und Warenkorbpreisregeln.
 
 ### 2,0,1
 
@@ -89,7 +89,7 @@ _24. Januar 2024_
 
 _16. November 2023_
 
-![Fehlerbehebung](../assets/fix.svg) - Verbesserung der Stabilität.
+![Fix](../assets/fix.svg) - Verbesserte Stabilität.
 
 ### 2,0,0
 
@@ -97,8 +97,8 @@ _16. November 2023_
 
 _10. Oktober 2023_
 
-![Neu](../assets/new.svg) - Unterstützung für OAuth 2.0 bei [konfigurieren](#configure-the-extension) die Audience Activation-Erweiterung.
-![Fehlerbehebung](../assets/fix.svg) - Verbesserung der Stabilität.
+![Neu](../assets/new.svg) - Unterstützung für OAuth 2.0 wurde hinzugefügt, wenn Sie die Audience Activation-Erweiterung [konfigurieren](#configure-the-extension).
+![Fix](../assets/fix.svg) - Verbesserte Stabilität.
 
 ### 1,2,0
 
@@ -114,7 +114,7 @@ _30. Mai 2023_
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
-![Neu](../assets/new.svg) - Unterstützung für [dynamische Blöcke](#headless-support) in einer Headless-Storefront.
+![Neu](../assets/new.svg) - Unterstützung für [dynamische Blöcke](#headless-support) in einer Headless-Storefront hinzugefügt.
 
 ### 1,0,1
 
@@ -122,8 +122,8 @@ _11. Mai 2023_
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
-![Fehlerbehebung](../assets/fix.svg) - Es wurde ein Problem behoben, bei dem eine dynamische Block- oder Warenkorbpreisregel nicht auf die Storefront angewendet wurde.
-![Fehlerbehebung](../assets/fix.svg) - Es wurde ein Problem behoben, bei dem eine nicht konfigurierte Installation der Audience Activation-Erweiterung einen Fehler verursachte, wenn ein Händler versuchte, einen dynamischen Block zu erstellen oder zu aktualisieren.
+![Korrektur](../assets/fix.svg) - Es wurde ein Problem behoben, bei dem keine dynamische Block- oder Warenkorbpreisregel auf die Storefront angewendet wurde.
+![Korrektur](../assets/fix.svg) - Es wurde ein Problem behoben, bei dem eine nicht konfigurierte Installation der Audience Activation-Erweiterung einen Fehler verursachte, wenn ein Händler versuchte, einen dynamischen Block zu erstellen oder zu aktualisieren.
 
 ### 1,0,0
 
@@ -139,12 +139,12 @@ Die folgenden Aufgaben gelten sowohl für die Implementierung von Luma als auch 
 
 - Installieren Sie Adobe Commerce-Version 2.4.4 oder höher
 - [Aktivieren](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Adobe Commerce als Ziel in Real-Time CDP
-- [Installieren](#install-the-extension) die [!DNL Audience Activation] Erweiterung in der Admin-Konsole
-- [Konfigurieren](#configure-the-extension) die [!DNL Audience Activation] Erweiterung in der Admin-Konsole
+- [Installieren](#install-the-extension) Sie die Erweiterung [!DNL Audience Activation] im Admin
+- [Konfigurieren Sie](#configure-the-extension) die Erweiterung [!DNL Audience Activation] im Admin
 
 ### Installieren der Erweiterung
 
-Installieren Sie die [!DNL Audience Activation] -Erweiterung aus der [Marketplace](https://commercemarketplace.adobe.com/magento-audiences.html)oder führen Sie den folgenden Befehl aus:
+Installieren Sie die Erweiterung [!DNL Audience Activation] vom [Marketplace](https://commercemarketplace.adobe.com/magento-audiences.html) oder führen Sie den folgenden Befehl aus:
 
 ```bash
 composer require magento/audiences
@@ -152,63 +152,63 @@ composer require magento/audiences
 
 ### Konfigurieren der Erweiterung
 
-Nach der Installation [!DNL Audience Activation] müssen Sie sich bei Ihrem Commerce-Administrator anmelden und Folgendes ausführen:
+Nach der Installation der Erweiterung [!DNL Audience Activation] müssen Sie sich bei Ihrem Commerce-Administrator anmelden und Folgendes ausführen:
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
 
-1. [Anmelden](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#organizationid) auf Ihr Adobe-Konto klicken und Ihre Organisations-ID auswählen.
+1. [Melden Sie sich bei Ihrem Adobe-Konto an und wählen Sie Ihre Organisations-ID aus.](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#organizationid)
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**.
 
-1. Im **[!UICONTROL Datastream ID]** -Feld die Kennung des von Ihnen erstellten Datastreams ein. [enabled](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Adobe Commerce als Ziel in Real-Time CDP.
+1. Fügen Sie im Feld **[!UICONTROL Datastream ID]** die ID des Datastreams ein, den Sie beim [Aktivieren](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) von Adobe Commerce als Ziel in Real-Time CDP erstellt haben.
 
-   Dieser Datastream sendet Daten von Ihrer Commerce-Website an Real-Time CDP, um festzustellen, ob ein Käufer zu einer Zielgruppe gehört. Wenn Sie noch keinen Datastream erstellt haben, [erstellen](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) eine in Experience Platform, [add](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) Sie zum Commerce-Ziel in Real-Time CDP und zum [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) -Erweiterung in Admin.
+   Dieser Datastream sendet Daten von Ihrer Commerce-Website an Real-Time CDP, um festzustellen, ob ein Käufer zu einer Zielgruppe gehört. Wenn Sie noch keinen Datastream erstellt haben, erstellen Sie [einen in der Experience Platform, [fügen Sie ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) ihn zum Commerce-Ziel in Real-Time CDP und zur Erweiterung [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) im Admin hinzu.](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create)
 
    >[!NOTE]
    >
-   >Wenn Sie eine Datastream-ID angeben, müssen Sie [Zuordnung zu einer bestimmten Website](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) im [!DNL Data Connection] -Erweiterung. Wenn Ihr Commerce-Store über mehrere Websites verfügt, [Ziel erstellen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) für jede Website in Real-Time CDP verwenden und jeweils eine andere Datastream-ID verwenden.
+   >Wenn Sie eine Datastraam-ID angeben, verknüpfen Sie sie [mit einer bestimmten Website](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) in der Erweiterung [!DNL Data Connection] . Wenn Ihr Commerce-Store über mehrere Websites verfügt, erstellen Sie in Real-Time CDP für jede Website ein Ziel ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) und verwenden Sie für jede Website eine andere Datastraam-ID.[
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern **[!UICONTROL Services]** und wählen **[!UICONTROL [!DNL Data Connection]]**.
+1. Erweitern Sie **[!UICONTROL Services]** und wählen Sie **[!UICONTROL [!DNL Data Connection]]** aus.
 
-1. [Hinzufügen](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) Dienstkonto und Anmeldedaten.
+1. [Fügen Sie das Dienstkonto und die Anmeldeinformationen hinzu.](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details)
 
 ## Verwendung von Real-Time CDP-Zielgruppen in Commerce
 
-Mit dem [!DNL Audience Activation] -Erweiterung aktiviert haben, können Sie:
+Wenn die [!DNL Audience Activation] -Erweiterung aktiviert ist, können Sie:
 
-- [Erstellen einer Preisregel für den Warenkorb](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences) durch Zielgruppen informiert
-- [Dynamischen Baustein erstellen](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) durch Zielgruppen informiert
-- [Erstellen einer verwandten Produktregel](../merchandising-promotions/product-related-rule-create.md) durch Zielgruppen informiert
+- [Erstellen einer Preisregel für den Warenkorb](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), die von Zielgruppen informiert wird
+- [Dynamischen Block erstellen](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks), der von Zielgruppen informiert wird
+- [Erstellen einer verwandten Produktregel](../merchandising-promotions/product-related-rule-create.md), die von Zielgruppen informiert wird
 
 >[!TIP]
 >
->Für einen vollständigen durchgängigen Anwendungsfall zum Exportieren [!DNL Commerce] Daten an Real-Time CDP übermitteln, eine Zielgruppe erstellen und diese Zielgruppe dann für [!DNL Commerce], siehe [Erstellen einer Zielgruppe in Real-Time CDP mithilfe von [!DNL Commerce] Ereignisdaten](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>Ein vollständiges Nutzungsszenario zum Exportieren von [!DNL Commerce] -Daten in Real-Time CDP, Erstellen einer Zielgruppe und Aktivieren dieser Zielgruppe für [!DNL Commerce] finden Sie unter [Erstellen einer Zielgruppe in Real-Time CDP mithilfe von [!DNL Commerce] Ereignisdaten](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
 
 ## Dashboard für Real-Time CDP-Zielgruppen
 
-Alle [active](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) Zielgruppen, die in Ihrer Adobe Commerce-Instanz mithilfe der **Real-Time CDP-Zielgruppen** Dashboard.
+Sie können alle [aktiven](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html) Zielgruppen anzeigen, die in Ihrer Adobe Commerce-Instanz mithilfe des Dashboards **Real-Time CDP-Zielgruppen** personalisiert werden können.
 
-So greifen Sie auf die **Real-Time CDP-Zielgruppen** Dashboard, navigieren Sie zum _Admin_ Seitenleiste, dann zu **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
+Um auf das Dashboard **Real-Time CDP-Zielgruppen** zuzugreifen, wechseln Sie zur Seitenleiste _Admin_ und dann zu **[!UICONTROL Customers]** > **[!UICONTROL Real-time CDP Audience]**.
 
-![Dashboard für Real-Time CDP-Zielgruppen](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
+![Real-Time CDP-Zielgruppen-Dashboard](./assets/real-time-cdp-dashboard.png){width="700" zoomable="yes"}
 
 Das Dashboard enthält die folgenden Felder:
 
 | Spalte | Beschreibung |
 |--- |--- |
-| `Hide filters` | Ermöglicht das Anzeigen oder Verbergen von Filtern, die Sie auf das Dashboard anwenden können. Derzeit ist der einzige Filter, den Sie anwenden können `Last updated`. Mit diesem Filter können Sie einen Datumsbereich für Zielgruppen auswählen, basierend auf dem Zeitpunkt der letzten Aktualisierung. |
+| `Hide filters` | Ermöglicht das Anzeigen oder Verbergen von Filtern, die Sie auf das Dashboard anwenden können. Derzeit ist der einzige Filter, den Sie anwenden können, `Last updated`. Mit diesem Filter können Sie einen Datumsbereich für Zielgruppen auswählen, basierend auf dem Zeitpunkt der letzten Aktualisierung. |
 | `Search` | Ermöglicht die Suche nach aktiven Zielgruppen in Ihrer Commerce-Instanz. |
 | `Name` | Name der Audience in Real-Time CDP. |
-| `Origin` | Gibt an, woher die Zielgruppe stammt, beispielsweise `Experience Platform`. |
+| `Origin` | Gibt an, woher die Zielgruppe stammt, z. B. `Experience Platform`. |
 | `Websites` | Gibt an, welche Websites für die Verwendung der Zielgruppen konfiguriert sind. |
 | `Dynamic Blocks` | Gibt an, welche dynamischen Blöcke für die Verwendung der Zielgruppen konfiguriert sind. |
 | `Cart Price Rules` | Gibt an, welche Regeln für den Warenkorbpreis für die Verwendung der Zielgruppen konfiguriert sind. |
 | `Related Product Rules` | Gibt an, welche verwandten Produktregeln für die Verwendung der Zielgruppen konfiguriert sind. |
 | `Last updated` | Gibt an, wann die Zielgruppe in Real-Time CDP geändert wurde. |
 | `Sync now` | Ruft neue oder aktualisierte Zielgruppen aus Real-Time CDP ab. |
-| `Customize table` | Ermöglicht das Anzeigen oder Verbergen der `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules`, und `Last updated` Spalten. |
+| `Customize table` | Hiermit können Sie die Spalten `Origin`, `Websites`, `Dynamic Blocks`, `Cart Price Rules` und `Last updated` ein- oder ausblenden. |
 
 {style="table-layout:auto"}
 
@@ -218,13 +218,13 @@ Sie können Zielgruppen in einer Headless-Adobe Commerce-Instanz aktivieren, z. 
 
 ### Preisregeln für Warenkorb und zugehörige Produktregeln
 
-Bei Warenkorbpreisregeln und damit zusammenhängenden Produktregeln kommuniziert eine Headless-Storefront über die [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html). Das Framework stellt eine serverseitige API bereit, die mithilfe von GraphQL implementiert wird. Zielgruppendaten wie das Segment eines Käufers werden über einen GraphQL-Header-Parameter mit dem Namen an Commerce übergeben: `aep-segments-membership`.
+Bei Warenkorbpreisregeln und damit zusammenhängenden Produktregeln kommuniziert eine Headless-Storefront über die [Commerce integration framework (CIF)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/integrations/magento.html) an die Experience Platform. Das Framework stellt eine serverseitige API bereit, die mithilfe von GraphQL implementiert wird. Zielgruppendaten wie das Segment eines Käufers werden über einen GraphQL-Header-Parameter mit dem Namen `aep-segments-membership` an Commerce übergeben.
 
 Die Gesamtarchitektur sieht wie folgt aus:
 
 ![Senden von Daten von Headless-Storefront an Backend](./assets/aem-commerce-architecture.png){width="700" zoomable="yes"}
 
-Nach [install](#install-the-extension) und [konfigurieren](#configure-the-extension) In der -Erweiterung enthält das Experience Platform Web SDK die Zielgruppeninformationen in Form einer Segmentmitgliedschaft.
+Nachdem Sie die Erweiterung [install](#install-the-extension) und [configure](#configure-the-extension) installiert haben, enthält das Experience Platform Web SDK die Zielgruppeninformationen in Form einer Segmentmitgliedschaft.
 
 Informationen zum Erfassen dieser Segmentmitgliedschaften vom SDK finden Sie in diesem [Codeausschnitt](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html#example-response-for-custom-personalization-with-attributes).
 
@@ -236,7 +236,7 @@ curl 'http://magento.config/graphql' -H 'Authorization: Bearer abc123' -H 'aep-s
 
 ### Dynamische Blöcke
 
-Bei dynamischen Bausteinen: GraphQL `dynamicBlocks` -Abfragen können `audience_id` Eingabeattribut. Wenn Sie eine oder mehrere `audience_id` Werte in einer `dynamicBlocks` -Abfrage eine Liste mit dynamischen Bausteinen zurückgibt, die diesen Zielgruppen zugewiesen sind.
+Bei dynamischen Bausteinen können GraphQL `dynamicBlocks`-Abfragen das Eingabeattribut `audience_id` enthalten. Wenn Sie in einer `dynamicBlocks` -Abfrage einen oder mehrere `audience_id` -Werte angeben, wird eine Liste mit dynamischen Bausteinen zurückgegeben, die diesen Zielgruppen zugewiesen sind.
 
 #### Beispielverwendung
 
@@ -312,14 +312,14 @@ Die folgende Abfrage gibt alle dynamischen Blöcke zurück, die mit mehreren Zie
 }
 ```
 
-Weitere Informationen zum `dynamicBlocks` GraphQL-Abfrage im [Entwicklerdokumentation](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
+Weitere Informationen zur Abfrage von `dynamicBlocks` GraphQL finden Sie in der [Entwicklerdokumentation](https://developer.adobe.com/commerce/webapi/graphql/schema/store/queries/dynamic-blocks/).
 
 ## Abrufen von Zielgruppen mit dem Adobe Experience Platform Mobile SDK
 
 Sie können Real-Time CDP-Zielgruppen mit dem Adobe Experience Platform Mobile SDK abrufen.
 
-1. [Installieren](#install-the-extension) die Audience Activation-Erweiterung.
-1. [SDK für Ihre mobile Commerce-Site installieren und konfigurieren](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [Installieren Sie](#install-the-extension) die Audience Activation-Erweiterung.
+1. [Installieren und Konfigurieren des SDK für Ihre mobile Commerce-Site](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >
@@ -353,13 +353,13 @@ Edge.sendEvent(experienceEvent: experienceEvent) { (handles: [EdgeEventHandle]) 
 }
 ```
 
-Nachdem die Daten abgerufen wurden, können Sie sie verwenden, um zielgruppeninformierte [Warenkorbpreisregeln](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [dynamische Blöcke](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) und  [verwandte Produktregeln](../merchandising-promotions/product-related-rule-create.md) in der Commerce-App.
+Nachdem die Daten abgerufen wurden, können Sie sie verwenden, um zielgruppenbezogene [Warenkorbpreisregeln](../merchandising-promotions/price-rules-cart-create.md#set-a-condition-using-real-time-cdp-audiences), [dynamische Bausteine](../content-design/dynamic-blocks.md#use-real-time-cdp-audiences-in-dynamic-blocks) und [zugehörige Produktregeln](../merchandising-promotions/product-related-rule-create.md) in der Commerce-App zu erstellen.
 
 ## Zielgruppen werden nicht in Commerce angezeigt
 
 Wenn Real-Time CDP-Zielgruppen nicht in Commerce angezeigt werden, kann dies folgende Gründe haben:
 
-- Falscher Authentifizierungstyp, der in der **Datenverbindung** Konfigurationsseite
+- Falscher Authentifizierungstyp, der auf der Konfigurationsseite **Datenverbindung** ausgewählt wurde
 - Unzureichende Berechtigungen für generiertes Token
 
 In den folgenden beiden Abschnitten wird beschrieben, wie Sie in beiden Fällen eine Fehlerbehebung durchführen.
@@ -367,9 +367,9 @@ In den folgenden beiden Abschnitten wird beschrieben, wie Sie in beiden Fällen 
 ### Falscher Authentifizierungstyp in der Konfiguration ausgewählt
 
 1. Öffnen Sie Ihre Commerce-Instanz.
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
-1. Erweitern **[!UICONTROL Services]** und wählen **[!UICONTROL [!DNL Data Connection]]**.
-1. Stellen Sie sicher, dass die von Ihnen in der Variablen **[!UICONTROL Authentication Type]** korrekt ist. Adobe empfiehlt, **OAuth**. JWT ist veraltet. [Weitere Infos](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Erweitern Sie **[!UICONTROL Services]** und wählen Sie **[!UICONTROL [!DNL Data Connection]]** aus.
+1. Vergewissern Sie sich, dass die von Ihnen im Feld **[!UICONTROL Authentication Type]** angegebene Server-zu-Server-Autorisierungsmethode korrekt ist. Adobe empfiehlt die Verwendung von **OAuth**. JWT ist veraltet. [Weitere Infos](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
 ### Unzureichende Berechtigungen für generiertes Token
 
@@ -377,11 +377,11 @@ Dieses Problem kann durch unzureichende API-Berechtigungen für das generierte T
 
 1. Identifizieren Sie den Systemadministrator für Adobe Experience Platform in Ihrem Unternehmen.
 1. Suchen Sie das Projekt und die Anmeldeinformationen, die Sie verwenden werden.
-1. Geben Sie die E-Mail-Adresse des technischen Kontos an, z. B.: `fe3c9476-1234-1234-abcd-2a51a785009a@techacct.adobe.com`.
-1. Lassen Sie den Systemadministrator Adobe Experience Platform starten und navigieren Sie zu **[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**.
+1. Geben Sie die E-Mail-Adresse des technischen Kontos an, z. B. `fe3c9476-1234-1234-abcd-2a51a785009a@techacct.adobe.com`.
+1. Lassen Sie den Systemadministrator Adobe Experience Platform starten und gehen Sie zu &quot;**[!UICONTROL Permissions]** -> **[!UICONTROL Users]** -> **[!UICONTROL API credentials]**&quot;.
 1. Suchen Sie mithilfe der E-Mail-Adresse des technischen Kontos oben nach den zu ändernden Anmeldeinformationen.
-1. Öffnen Sie die Anmeldeinformationen und wählen Sie **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]**.
-1. Hinzufügen der Rolle, die **[!UICONTROL Manage destinations]** -Berechtigung.
-1. Klicks **[!UICONTROL Save]**.
-1. [Regenerieren](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) das Zugriffstoken in der Konsole.
-1. Stellen Sie sicher, dass das Token eine gültige Antwort mit der [Target-Verbindungs-API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections).
+1. Öffnen Sie die Anmeldeinformationen und wählen Sie dann **[!UICONTROL Roles]** -> **[!UICONTROL Add roles]** aus.
+1. Fügen Sie die Rolle hinzu, die die Berechtigung **[!UICONTROL Manage destinations]** enthält.
+1. Klicken Sie auf **[!UICONTROL Save]**.
+1. [Regenerieren](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html#generate-access-token) Sie das Zugriffstoken in der Konsole.
+1. Stellen Sie sicher, dass das Token mithilfe der [Target-Verbindungs-API](https://developer.adobe.com/experience-platform-apis/references/destinations/#tag/Target-connections/operation/getTargetConnections) eine gültige Antwort bereitstellt.

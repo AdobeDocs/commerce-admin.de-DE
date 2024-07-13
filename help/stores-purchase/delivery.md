@@ -5,18 +5,18 @@ exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
 # Versand und Lieferung
 
-Studien zeigen, dass Geschäfte, die Kunden eine Auswahl verschiedener Bereitstellungsmethoden anbieten, höhere Konversionsraten aufweisen als Geschäfte, die eine einzige Methode verwenden. Sie können verschiedene Versandmethoden und Versandunternehmen einrichten. Die [Versandeinstellungen](shipping-settings.md) den Ausgangspunkt für alle Sendungen aus Ihrem Geschäft oder Lager sowie Ihre Präferenz für die Verwaltung von Bestellungen, die an mehrere Adressen versandt werden. Sie können einfach [Versandtitel](shipping-labels.md) für neue und vorhandene Bestellungen vom Administrator Ihres Stores. Beschriftungen können bei der Erstellung einer Sendung oder später erstellt werden. Versandtitel werden im PDF-Format gespeichert und auf Ihren Computer heruntergeladen.
+Studien zeigen, dass Geschäfte, die Kunden eine Auswahl verschiedener Bereitstellungsmethoden anbieten, höhere Konversionsraten aufweisen als Geschäfte, die eine einzige Methode verwenden. Sie können verschiedene Versandmethoden und Versandunternehmen einrichten. Die [Versandeinstellungen](shipping-settings.md) geben den Ausgangspunkt für alle Sendungen an, die aus Ihrem Geschäft oder Lager durchgeführt werden, und Ihre bevorzugte Verwaltung der an mehrere Adressen versandten Bestellungen. Sie können einfach [Versandbezeichnungen](shipping-labels.md) für neue und vorhandene Bestellungen vom Administrator Ihres Stores erstellen. Beschriftungen können bei der Erstellung einer Sendung oder später erstellt werden. Versandtitel werden im PDF-Format gespeichert und auf Ihren Computer heruntergeladen.
 
 >[!NOTE]
 >
->Aufgrund des Herunterfahrens von Temando, unterstützt [!DNL Magento Shipping] wird in 2.4.0 entfernt. Detaillierte Statusinformationen und Empfehlungen für neue Versandimplementierungen in Commerce finden Sie im Abschnitt [Produktinformationen](https://business.adobe.com/products/magento/shipping.html){:target=&quot;_blank&quot;} Seite.
+>Aufgrund des Herunterfahrens von Temando wird die Unterstützung für [!DNL Magento Shipping] in Version 2.4.0 entfernt. Detaillierte Statusinformationen und Empfehlungen für neue Versandimplementierungen in Commerce finden Sie auf der Seite [Produktinformationen](https://business.adobe.com/products/magento/shipping.html){:target=&quot;_blank&quot;}.
 
 ## Grundlegende Versandmethoden
 
@@ -30,11 +30,11 @@ Adobe Commerce und Magento Open Source unterstützen eine breite Palette von Ver
 
 * [In-Store-Bereitstellung](shipping-in-store-delivery.md)
 
-  Wenn Sie [Inventory management](../inventory-management/introduction.md)können Sie auch Quellen einrichten, um Ihren Kunden In-Store-Bereitstellungsoptionen bereitzustellen.
+  Wenn Sie [Inventory management](../inventory-management/introduction.md) verwenden, können Sie auch Quellen einrichten, um Ihren Kunden Bereitstellungsoptionen im Geschäft bereitzustellen.
 
 ## Schifffahrtsunternehmen
 
-Wenn Sie über ein Geschäftskonto mit einem oder mehreren [unterstützte Luftfahrtunternehmen](carriers.md)können Sie Ihren Kunden die Vorteile von Echtzeit-Versandtarifen, Paketverfolgung und Beschriftungen bieten. Zu den integrierten Netzbetreiber-Integrationen gehören UPS, USPS, DHL und FedEx.
+Wenn Sie über ein kommerzielles Konto mit einem oder mehreren [unterstützten Betreibern](carriers.md) verfügen, können Sie Ihren Kunden die Vorteile von Echtzeit-Versandtarifen, Pakettracking und Beschriftungen bieten. Zu den integrierten Netzbetreiber-Integrationen gehören UPS, USPS, DHL und FedEx.
 
 ## Demo zu Versand- und Versandmethoden
 

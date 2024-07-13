@@ -1,6 +1,6 @@
 ---
 user-guide-title: Konfigurationshandbuch
-user-guide-description: Dieses Handbuch enthält Referenzinformationen für alle Speicherkonfigurationseinstellungen, auf die über die Seitenleiste _Admin_ unter ** zugegriffen wird.[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]**.
+user-guide-description: Dieses Handbuch enthält Referenzinformationen für alle Speicherkonfigurationseinstellungen, auf die über die Seitenleiste _Admin_ unter **[!UICONTROL Stores]* > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** zugegriffen wird.
 breadcrumb-title: Konfigurationsreferenz
 hide: false
 role: Admin, Developer, User
@@ -84,5 +84,5 @@ ht-degree: 1%
    - [Admin](./advanced/admin.md)
    - [System](./advanced/system.md)
    - [Entwickler](./advanced/developer.md)
-- [Zurück zu den Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

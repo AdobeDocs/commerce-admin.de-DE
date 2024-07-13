@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] Seite des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] des Commerce-Administrators.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Zahlungsdienste für Adobe Commerce und Magento Open Source bieten eine schlüsselfertige Self-Service-Lösung, einschließlich Sandbox-Tests und einer einfachen Einrichtung, die eine robuste und sichere Zahlungsverarbeitung ermöglicht. Weitere Informationen zu diesem leistungsstarken Tool-Set und dazu, wie Sie damit Einblicke und Kontrolle erhalten, die Sie benötigen, um das beste Erlebnis für Ihre Käufer zu erstellen, finden Sie in der [_Benutzerhandbuch für Zahlungsdienste_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+>Zahlungsdienste für Adobe Commerce und Magento Open Source bieten eine schlüsselfertige Self-Service-Lösung, einschließlich Sandbox-Tests und einer einfachen Einrichtung, die eine robuste und sichere Zahlungsverarbeitung ermöglicht. Weitere Informationen zu diesem leistungsstarken Tool-Set und dazu, wie Sie damit Einblicke und Kontrolle erhalten, die Sie benötigen, um das beste Erlebnis für Ihre Käufer zu erstellen, finden Sie im [_Benutzerhandbuch für Zahlungsdienste_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
 
 {{config}}
 
 ## [!UICONTROL Merchant Location]
 
-![Handelsplatz](./assets/payment-methods-merchant-location.png)<!-- zoom -->
+![Speicherort des Händlers](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
 <!-- [Merchant Location](https://docs.magento.com/user-guide/payment/merchant-location.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Merchant Country] | Webseite | Gibt das Land an, in dem der Händler zur Geschäftsausführung registriert ist. |
 
@@ -40,13 +40,13 @@ Die folgenden Zahlungslösungen sind als einfache Möglichkeit für Händler emp
 
 >[!NOTE]
 >
->Einige Zahlungsintegrationen und gebündelte Erweiterungen wurden in Version 2.4.x entfernt und auf Commerce Marketplace verschoben. Die neuesten offiziellen Erweiterungen der Zahlungsintegration finden Sie unter [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}.
+>Einige Zahlungsintegrationen und gebündelte Erweiterungen wurden in Version 2.4.x entfernt und auf Commerce Marketplace verschoben. Sie finden die neuesten offiziellen Zahlungsintegrationserweiterungen in [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target=&quot;_blank&quot;}.
 ><br/>
->**Amazon Pay** und **Klarna**: Die Adobe Commerce- und Magento Open Source-Versionen 2.4.0 bis 2.4.3 enthielten diese von Anbietern entwickelten Erweiterungen. Ab Version 2.4.4 sind diese Erweiterungen nicht mehr im Paket mit der Kernversion enthalten und müssen über die Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
+>**Amazon Pay** und **Klarna**: Adobe Commerce- und Magento Open Source-Versionen 2.4.0 bis 2.4.3 umfassten diese vom Anbieter entwickelten Erweiterungen. Ab Version 2.4.4 sind diese Erweiterungen nicht mehr im Paket mit der Kernversion enthalten und müssen über die Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
 ><br/>
->Wenn Sie eine dieser gebündelten Erweiterungen aktiviert und konfiguriert haben, müssen Sie Ihre `composer.json` -Datei als Teil des Aktualisierungsprozesses 2.4.4 und zur Verwaltung künftiger Erweiterungs-Updates. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Upgrade-Handbuch_ für weitere Informationen.<br/>
+>Wenn Sie eine dieser gebündelten Erweiterungen aktiviert und konfiguriert haben, müssen Sie Ihre `composer.json` -Datei im Rahmen des Aktualisierungsprozesses für 2.4.4 aktualisieren und die künftigen Erweiterungs-Updates verwalten. Weitere Informationen finden Sie unter [Aktualisierungsmodule](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Aktualisierungshandbuch_.<br/>
 ><br/>
->**Worldpay**, **Eway**, **CyberSource**, und **Authorize.Net**: Weitere Informationen zum sicheren Übergang von diesen Zahlungsintegrationen finden Sie unter [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;}.
+>**Worldpay**, **Eway**, **CyberSource** und **Authorize.Net**: Weitere Informationen zum Herstellen einer sicheren Transition aus diesen Zahlungsintegrationen finden Sie im [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target=&quot;_blank&quot;}.
 
 ## Andere PayPal-Methoden
 
@@ -60,8 +60,8 @@ PayPal bietet verschiedene Zahlungslösungen an, die den Bedürfnissen von Unter
 
 ### PayPal-ZahlungsGateways
 
-- [PayPal Payflow Pro](paypal-payflow-pro.md) (Enthält Express-Checkout)
-- [PayPal-Payflow-Link](paypal-payflow-link.md) (Enthält Express-Checkout)
+- [PayPal Payflow Pro](paypal-payflow-pro.md) (einschließlich Express-Checkout)
+- [PayPal Payflow Link](paypal-payflow-link.md) (einschließlich Express-Checkout)
 
 ## Grundlegende Zahlungsmethoden
 
@@ -69,32 +69,32 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 
 ### [!UICONTROL Check / Money Order]
 
-![Überprüfen/Monatsbestellung](./assets/payment-methods-check-money-order.png)<!-- zoom -->
+![Überprüfen / Money Order](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
 <!-- [Check / Money Order](https://docs.magento.com/user-guide/payment/check-money-order.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Webseite | Bestimmt, ob Kunden per Scheck oder Geldbestellung zahlen können. Optionen: `Yes` / `No` |
 | [!UICONTROL Title] | Store-Ansicht | Der Name für diese Zahlungsmethode, der Kunden beim Checkout angezeigt wird. |
-| [!UICONTROL New Order Status] | Webseite | Bestimmt die anfängliche [Bestellstatus](../../stores-purchase/order-status.md) bei Bestellungen, die per Scheck oder Geldbestellung bestellt wurden. Standardwert: `Pending` |
+| [!UICONTROL New Order Status] | Webseite | Bestimmt den anfänglichen [Bestellstatus](../../stores-purchase/order-status.md), der Bestellungen zugewiesen wird, die durch eine Scheck- oder Geldbestellung bestellt wurden. Standardwert: `Pending` |
 | [!UICONTROL Payment from Applicable Countries] | Webseite | Bestimmt die Länder, aus denen Sie die Zahlung per Scheck oder Geldbestellung annehmen. Optionen: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webseite | Identifiziert die Länder, aus denen Sie die Zahlung per Scheck oder Überweisung annehmen. |
 | [!UICONTROL Make Check Payable to] | Store-Ansicht | Name des Unternehmens, an das Schecks und Geldaufträge zu zahlen sind. |
 | [!UICONTROL Send Check to] | Store-Ansicht | Die Straße oder das Postfach, an das Schecks und Geldbestellungen gesendet werden sollen. |
 | [!UICONTROL Minimum Order Total] | Webseite | Der kleinste Bestellbetrag, der per Scheck oder Geldbestellung bezahlt werden kann. |
 | [!UICONTROL Maximum Order Total] | Webseite | Der größte Bestellbetrag, der per Scheck oder Geldbestellung bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung qualifiziert sich, wenn die Gesamtsumme zwischen der minimalen oder der maximalen Bestellsumme liegt oder damit übereinstimmt. |
-| [!UICONTROL Sort Order] | Webseite | Eine Zahl, die die Bestellung bestimmt, in der die Zahlung per Scheck oder Geldauftrag erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Eingabe `0` , um ihn oben in der Liste zu platzieren. |
+| [!UICONTROL Sort Order] | Webseite | Eine Zahl, die die Bestellung bestimmt, in der die Zahlung per Scheck oder Geldauftrag erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Geben Sie `0` ein, um es oben in der Liste zu platzieren. |
 
 {style="table-layout:auto"}
 
 ### [!UICONTROL Bank Transfer Payment]
 
-![Banküberweisungszahlung](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
+![Überweisungszahlung ](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
 <!-- [Bank Transfer Payment](https://docs.magento.com/user-guide/payment/bank-transfer.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Webseite | Stellt fest, ob Kunden zahlen können, indem sie Zahlungen direkt von ihrer Bank auf Ihr Händlerkonto übertragen. Optionen: `Yes` / `No` |
 | [!UICONTROL Title] | Store-Ansicht | Der Name für diese Zahlungsmethode, der Kunden beim Checkout angezeigt wird. |
@@ -103,7 +103,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Payment from Specific Countries] | Webseite | Identifiziert die Länder, aus denen Sie die Zahlung per Banküberweisung annehmen. |
 | [!UICONTROL Minimum Order Total] | Webseite | Der kleinste Bestellbetrag, der per Banküberweisung bezahlt werden kann. |
 | [!UICONTROL Maximum Order Total] | Webseite | Der größte Bestellbetrag, der per Banküberweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung qualifiziert sich, wenn die Gesamtsumme zwischen der minimalen oder der maximalen Bestellsumme liegt oder damit übereinstimmt. |
-| [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge die Zahlung per Banküberweisung erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Eingabe `0` , um ihn oben in der Liste zu platzieren. |
+| [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge die Zahlung per Banküberweisung erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Geben Sie `0` ein, um es oben in der Liste zu platzieren. |
 
 {style="table-layout:auto"}
 
@@ -111,11 +111,11 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 
 {{b2b-feature}}
 
-![Kontozahlung](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
+![Zahlung auf Konto](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
 <!-- [Payment on Account](https://docs.magento.com/user-guide/payment/payment-on-account.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Webseite | Bestimmt, ob Unternehmen Firmenkredite für Käufe verwenden können. Optionen: `Yes` / `No` |
 | [!UICONTROL Title] | Store-Ansicht | Der Name für diese Zahlungsmethode, der Kunden beim Checkout angezeigt wird. |
@@ -124,21 +124,21 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Payment from Specific Countries] | Webseite | Gibt an, in welchen Ländern Unternehmen Einkäufe auf ihren Konten tätigen können. |
 | [!UICONTROL Minimum Order Total] | Webseite | Gibt den kleinsten Bestellbetrag an, der einem Unternehmenskonto berechnet werden kann. |
 | [!UICONTROL Maximum Order Total] | Webseite | Der größte Bestellbetrag, der einem Unternehmenskonto in Rechnung gestellt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung qualifiziert sich, wenn die Gesamtsumme zwischen der minimalen oder der maximalen Bestellsumme liegt oder damit übereinstimmt. |
-| [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge die Zahlung auf Konto erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Eingabe `0` , um ihn oben in der Liste zu platzieren. |
+| [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge die Zahlung auf Konto erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Geben Sie `0` ein, um es oben in der Liste zu platzieren. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Die Zahlung auf Konto wird bei Bestellungen mit [mehrere Versandadressen](../../stores-purchase/shipping-settings.md#multiple-addresses) und wird nicht unter den Zahlungsoptionen angezeigt.
+>Die Zahlung auf Konto wird bei Bestellungen mit [mehreren Versandadressen](../../stores-purchase/shipping-settings.md#multiple-addresses) nicht unterstützt und erscheint nicht unter den Zahlungsoptionen.
 
 ### [!UICONTROL Cash On Delivery Payment]
 
-![Barzahlung bei Lieferung](./assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
+![Cash On Delivery Payment](./assets/payment-methods-cash-on-delivery-payment.png)<!-- zoom -->
 
 <!-- [Cash On Delivery Payment](../../stores-purchase/cash-on-delivery.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Webseite | Stellt fest, ob Kunden zahlen können, indem sie Zahlungen direkt von ihrer Bank auf Ihr Händlerkonto übertragen. Optionen: `Yes` / `No` |
 | [!UICONTROL Title] | Store-Ansicht | Der Name für diese Zahlungsmethode, der Kunden beim Checkout angezeigt wird. |
@@ -147,7 +147,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Payment from Specific Countries] | Webseite | Identifiziert die Länder, aus denen Sie die Zahlung per Banküberweisung annehmen. |
 | [!UICONTROL Minimum Order Total] | Webseite | Gibt den kleinsten Bestellbetrag an, der per Überweisung gezahlt werden kann. |
 | [!UICONTROL Maximum Order Total] | Webseite | Der größte Bestellbetrag, der per Banküberweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung qualifiziert sich, wenn die Gesamtsumme zwischen der minimalen oder der maximalen Bestellsumme liegt oder damit übereinstimmt. |
-| [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge die Zahlung per Banküberweisung erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Eingabe `0` , um ihn oben in der Liste zu platzieren. |
+| [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge die Zahlung per Banküberweisung erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Geben Sie `0` ein, um es oben in der Liste zu platzieren. |
 
 {style="table-layout:auto"}
 
@@ -157,20 +157,20 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 
 <!-- [Zero Subtotal Checkout](../../stores-purchase/zero-subtotal-checkout.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Title] | Store-Ansicht | Der Name, der für diese Zahlungsmethode beim Checkout verwendet wird. Standardwert: Keine Zahlungsinformationen erforderlich |
 | [!UICONTROL Enabled] | Webseite | Stellt fest, ob die Zwischensumme &quot;Null&quot;für den Store-Administrator verfügbar ist, um Bestellungen mit einer Zwischensumme von null zu verwalten, wie z. B. Bestellungen, die besteuert wurden, durch einen Rabatt jedoch den Betrag auf null reduziert wurde. Optionen: `Yes` / `No` |
 | [!UICONTROL New Order Status] | Webseite | Bestimmt den anfänglichen Bestellstatus, der Bestellungen zugewiesen ist, die als &quot;Null Subtotal Checkout&quot;verarbeitet wurden. Standardwert: `Pending` |
 | [!UICONTROL Payment from Applicable Countries] | Webseite | Bestimmt die Länder, aus denen die Zwischensumme für das Auschecken ohne Zwischensummen angewendet werden kann. Optionen: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webseite | Identifiziert die spezifischen Länder, für die die Checkout-Zwischensumme null angewendet werden kann. |
-| [!UICONTROL Sort Order] | Webseite | Eine Zahl, die die Reihenfolge bestimmt, in der der Titel, z. B. &quot;Keine Zahlungsinformationen erforderlich&quot;, erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Eingabe `0` , um ihn oben in der Liste zu platzieren. |
+| [!UICONTROL Sort Order] | Webseite | Eine Zahl, die die Reihenfolge bestimmt, in der der Titel, z. B. &quot;Keine Zahlungsinformationen erforderlich&quot;, erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Geben Sie `0` ein, um es oben in der Liste zu platzieren. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Payment actions]
 
-Zahlungsaktionen sind konfiguriert _pro Zahlungsmethode_. Die Zahlungsaktion bestimmt, wann die Mittel erfasst werden und wann Rechnungen für Ihre Verkaufsaufträge erstellt werden.
+Zahlungsaktionen werden _pro Zahlungsmethode_ konfiguriert. Die Zahlungsaktion bestimmt, wann die Mittel erfasst werden und wann Rechnungen für Ihre Verkaufsaufträge erstellt werden.
 
 Eine umfassende Liste der einzelnen Konfigurationsoptionen finden Sie im Abschnitt Grundlegende Einstellungen der einzelnen Zahlungsmethoden .
 
@@ -189,7 +189,7 @@ Eine umfassende Liste der einzelnen Konfigurationsoptionen finden Sie im Abschni
 
 >[!NOTE]
 >
->Wählen Sie nicht die _[!UICONTROL Not Capture]_, es sei denn, Sie sind sicher, dass Sie die Zahlung später über Commerce erfassen werden. Sie können ein Kreditmemo erst dann erstellen, wenn die Zahlung über die Schaltfläche Erfassen erfasst wurde.
+>Wählen Sie die Option _[!UICONTROL Not Capture]_nur aus, wenn Sie sicher sind, dass Sie die Zahlung später über Commerce erfassen werden. Sie können ein Kreditmemo erst dann erstellen, wenn die Zahlung über die Schaltfläche Erfassen erfasst wurde.
 
 ## [!UICONTROL Purchase Order]
 
@@ -197,15 +197,15 @@ Eine umfassende Liste der einzelnen Konfigurationsoptionen finden Sie im Abschni
 
 <!-- [Purchase Order](../../stores-purchase/purchase-order.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Webseite | Stellt fest, ob Kunden nach Bestellung (Bestellformular) bezahlen können. Optionen: `Yes` / `No` |
 | [!UICONTROL Title] | Store-Ansicht | Der Name dieser Zahlungsmethode, der Kunden beim Checkout angezeigt wird. |
-| [!UICONTROL New Order Status] | Webseite | Bestimmt die anfängliche [Bestellstatus](../../stores-purchase/order-status.md) die den von der PO getätigten Bestellungen zugeteilt werden. Standardwert: Ausstehend |
+| [!UICONTROL New Order Status] | Webseite | Bestimmt den anfänglichen [Bestellstatus](../../stores-purchase/order-status.md), der Bestellungen zugewiesen ist, die von der Bestellabteilung bestellt wurden. Standardwert: Ausstehend |
 | [!UICONTROL Payment from Applicable Countries] | Webseite | Bestimmt die Länder, aus denen Sie die Zahlung durch den PO akzeptieren. Optionen: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Webseite | Identifiziert die Länder, aus denen Sie die Zahlung durch den PO annehmen. |
 | [!UICONTROL Minimum Order Total] | Webseite | Der kleinste Bestellbetrag, der von PO bezahlt werden kann. |
 | [!UICONTROL Maximum Order Total] | Webseite | Der größte Bestellbetrag, der von PO bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung qualifiziert sich, wenn die Gesamtsumme zwischen der minimalen oder der maximalen Bestellsumme liegt oder damit übereinstimmt. |
-| [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge die Zahlung durch PO erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Eingabe `0` , um ihn oben in der Liste zu platzieren. |
+| [!UICONTROL Sort Order] | Webseite | Eine Zahl, die bestimmt, in welcher Reihenfolge die Zahlung durch PO erscheint, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. Geben Sie `0` ein, um es oben in der Liste zu platzieren. |
 
 {style="table-layout:auto"}

@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # Paket-Produkt
 
-Ein Bundle ist eine _Erstellen eigener_, anpassbares Produkt. Jedes Element in einem Bundle kann auf einem der folgenden Produkttypen basieren:
+Ein Bundle ist ein _eigenes, anpassbares Produkt_ erstellen. Jedes Element in einem Bundle kann auf einem der folgenden Produkttypen basieren:
 
 - [Einfaches Produkt](product-create-simple.md)
 - [Virtuelles Produkt](product-create-virtual.md)
 
 ![Paket-Produkt](./assets/product-bundle.png){width="700" zoomable="yes"}
 
-Die Optionen werden angezeigt, wenn der Kunde auf Folgendes klickt: **[!UICONTROL Customize]** oder **[!UICONTROL Add to Cart]**. Da die im Bundle enthaltenen Produkte variieren, können SKU, Preis und Gewichtung entweder auf einen dynamischen oder auf einen festen Wert eingestellt werden.
+Die Optionen werden angezeigt, wenn der Kunde auf **[!UICONTROL Customize]** oder **[!UICONTROL Add to Cart]** klickt. Da die im Bundle enthaltenen Produkte variieren, können SKU, Preis und Gewichtung entweder auf einen dynamischen oder auf einen festen Wert eingestellt werden.
 
 >[!NOTE]
 >
@@ -29,25 +29,25 @@ Die Optionen werden angezeigt, wenn der Kunde auf Folgendes klickt: **[!UICONTRO
 >
 >Das übergeordnete Bundle-Produkt wird immer automatisch als Upsell-Produkt für alle untergeordneten Produkte angezeigt.
 
-Wenn [Sofortiger Kauf](../stores-purchase/checkout-instant-purchase.md) ist verfügbar, die _Sofortiger Kauf_ -Schaltfläche wird unter der _Zum Warenkorb hinzufügen_ -Schaltfläche für jedes Element im Bundle.
+Wenn [Sofortiger Kauf](../stores-purchase/checkout-instant-purchase.md) verfügbar ist, wird die Schaltfläche _Sofortiger Kauf_ unter der Schaltfläche _Zum Warenkorb hinzufügen_ für jedes Element im Bundle angezeigt.
 
-![Bundle anpassen](./assets/product-bundle-customize.png){width="600" zoomable="yes"}
+![Paket anpassen](./assets/product-bundle-customize.png){width="600" zoomable="yes"}
 
-Die folgenden Anweisungen führen Sie durch den Prozess der Erstellung eines Bundle-Produkts mit einem [Produktvorlage](attribute-sets.md), erforderliche Felder und grundlegende Einstellungen. Jedes erforderliche Feld ist mit einem roten Sternchen (`*`). Wenn Sie die Grundlagen abgeschlossen haben, können Sie die anderen Produkteinstellungen nach Bedarf abschließen.
+Die folgenden Anweisungen führen Sie durch den Prozess der Erstellung eines Bundle-Produkts mit einer [Produktvorlage](attribute-sets.md), erforderlichen Feldern und grundlegenden Einstellungen. Jedes erforderliche Feld ist mit einem roten Sternchen (`*`) gekennzeichnet. Wenn Sie die Grundlagen abgeschlossen haben, können Sie die anderen Produkteinstellungen nach Bedarf abschließen.
 
 ## Schritt 1: Produkttyp auswählen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. In der oberen rechten Ecke auf der _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ), wählen Sie **[!UICONTROL Bundle Product]**.
+1. Wählen Sie in der rechten oberen Ecke des Menüs _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Bundle Product]**.
 
    ![Paket-Produkt hinzufügen](./assets/product-add-bundle.png){width="700" zoomable="yes"}
 
 ## Schritt 2: Attributsatz auswählen
 
-So wählen Sie die [Attributset](attribute-sets.md) , die als Vorlage für das Produkt verwendet wird, führen Sie einen der folgenden Schritte aus:
+Führen Sie einen der folgenden Schritte aus, um den [Attributsatz](attribute-sets.md) auszuwählen, der als Vorlage für das Produkt verwendet wird:
 
-- Für **[!UICONTROL Search]** den Namen des Attributsatzes eingeben,
+- Geben Sie für &quot;**[!UICONTROL Search]**&quot;den Namen des Attributsatzes ein.
 - Wählen Sie in der Liste den Attributsatz aus, den Sie verwenden möchten.
 
 Das Formular wird entsprechend der Änderung aktualisiert.
@@ -56,151 +56,151 @@ Das Formular wird entsprechend der Änderung aktualisiert.
 
 ## Schritt 3: Ausführen der erforderlichen Einstellungen
 
-1. Produkt eingeben **[!UICONTROL Product Name]**.
+1. Geben Sie das Produkt **[!UICONTROL Product Name]** ein.
 
-1. Akzeptieren Sie entweder die Standardeinstellung **[!UICONTROL SKU]** , der auf dem Produktnamen basiert, oder geben Sie einen anderen Wert ein.
+1. Nehmen Sie entweder die standardmäßige **[!UICONTROL SKU]** an, die auf dem Produktnamen basiert, oder geben Sie einen anderen Wert ein.
 
    Gehen Sie wie folgt vor, um den SKU-Typ zu ermitteln, der jedem Bundle-Element zugewiesen ist:
 
-   - A **[!UICONTROL Dynamic SKU]** kann automatisch jedem Bundle-Element zugewiesen werden, indem der standardmäßigen SKU ein Suffix hinzugefügt wird. Standardmäßig ist er auf `Yes`.
+   - Jedem Bundle-Element kann automatisch ein **[!UICONTROL Dynamic SKU]** zugewiesen werden, indem der standardmäßigen SKU ein Suffix hinzugefügt wird. Standardmäßig ist er auf `Yes` gesetzt.
 
-   - Wenn Sie für jedes Bundle-Element eine eindeutige SKU zuweisen möchten, legen Sie **[!UICONTROL Dynamic SKU]** nach `No`.
+   - Wenn Sie für jedes Bundle-Element eine eindeutige SKU zuweisen möchten, setzen Sie **[!UICONTROL Dynamic SKU]** auf `No`.
 
    ![Dynamische SKU und Preis](./assets/product-bundle-manual-sku.png){width="600" zoomable="yes"}
 
 1. Führen Sie einen der folgenden Schritte aus, um den Preis des Bundles zu ermitteln:
 
-   - Damit der Preis die vom Kunden gewählten Optionen widerspiegelt, setzen Sie **[!UICONTROL Dynamic Price]** nach `Yes` und verlassen **[!UICONTROL Price]** leer. In diesem Fall hat ein Bundle-Produkt keinen eigenen Preis aus dem Katalog, und der Produktpreis wird vom Preis der einzelnen Produkte abgeleitet, die im Bundle enthalten sind.
+   - Damit der Preis die vom Kunden gewählten Optionen widerspiegelt, setzen Sie **[!UICONTROL Dynamic Price]** auf `Yes` und lassen Sie **[!UICONTROL Price]** leer. In diesem Fall hat ein Bundle-Produkt keinen eigenen Preis aus dem Katalog, und der Produktpreis wird vom Preis der einzelnen Produkte abgeleitet, die im Bundle enthalten sind.
 
-   - Um einen festen Preis für das Bundle zu berechnen, legen Sie **[!UICONTROL Dynamic Price]** nach `No` und geben Sie die **[!UICONTROL Price]** die Sie für das Bundle aufladen möchten.
+   - Um einen festen Preis für das Bundle zu berechnen, setzen Sie **[!UICONTROL Dynamic Price]** auf `No` und geben Sie die **[!UICONTROL Price]** ein, die Sie für das Bundle aufladen möchten.
 
    >[!NOTE]
    >
    >[!UICONTROL Special Price] und [!UICONTROL Customer Group Price] (Tier Price) werden immer als Rabattprozentsatz für alle Bundle-Produktarten festgelegt.
 
-1. Da das Produkt noch nicht zur Veröffentlichung bereit ist, legen Sie **[!UICONTROL Enable Product]** nach `No`.
+1. Da das Produkt noch nicht zur Veröffentlichung bereit ist, setzen Sie **[!UICONTROL Enable Product]** auf `No`.
 
-1. Klicks **[!UICONTROL Save]** und fortfahren.
+1. Klicken Sie auf **[!UICONTROL Save]** und fahren Sie fort.
 
-   Wenn das Produkt gespeichert wird, wird die [Store-Ansicht](introduction.md#product-scope) wird in der linken oberen Ecke angezeigt.
+   Wenn das Produkt gespeichert wird, wird die Auswahl für die [Store-Ansicht](introduction.md#product-scope) in der oberen linken Ecke angezeigt.
 
-1. Wählen Sie die **[!UICONTROL Store View]** wo das Produkt verfügbar sein soll.
+1. Wählen Sie die **[!UICONTROL Store View]** aus, in der das Produkt verfügbar sein soll.
 
-   ![Store-Ansicht auswählen](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![Speicheransicht auswählen](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ## Schritt 4: Grundlegende Einstellungen durchführen
 
-1. Wenn das Bundle feste Preise hat, legen Sie **[!UICONTROL Tax Class]** auf einen der folgenden Werte zu:
+1. Wenn das Bundle feste Preise aufweist, setzen Sie **[!UICONTROL Tax Class]** auf einen der folgenden Werte:
 
    - `None`
    - `Taxable Goods`
 
-   Wenn das Bundle über dynamische Preise verfügt, wird die Steuer für **_each_** Bundle-Element Wenn das Bundle feste Preise hat, wird die Steuer für die Variable **_ganz_** Paket-Produkt.
+   Wenn das Bundle über dynamische Preise verfügt, wird die Steuer für **_jedes_** Bundle-Element bestimmt. Wenn das Bundle feste Preise hat, wird die Steuer für das Paket **_full_** festgelegt.
 
 1. Beachten Sie Folgendes:
 
-   - Die **[!UICONTROL Quantity]** ist nicht verfügbar, da der Wert für jedes Bundle-Element bestimmt wird.
+   - Der **[!UICONTROL Quantity]** ist nicht verfügbar, da der Wert für jedes Bundle-Element bestimmt wird.
 
-   - Standardmäßig wird die Variable **[!UICONTROL Stock Status]** auf `In Stock`.
+   - Standardmäßig ist **[!UICONTROL Stock Status]** auf `In Stock` gesetzt.
 
 1. Führen Sie einen der folgenden Schritte aus, um die Gewichtung des Bundles zu bestimmen:
 
-   - Damit die Gewichtung den vom Kunden gewählten Optionen entspricht, legen Sie **[!UICONTROL Dynamic Weight]** set `Yes` und verlassen **[!UICONTROL Weight]** leer.
+   - Damit die Gewichtung die vom Kunden gewählten Optionen widerspiegelt, setzen Sie **[!UICONTROL Dynamic Weight]** auf `Yes` und lassen Sie **[!UICONTROL Weight]** leer.
 
-   - Um dem Bundle eine feste Gewichtung zuzuweisen, legen Sie **[!UICONTROL Dynamic Weight]** nach `No` und geben Sie die **[!UICONTROL Weight]** des Bundles.
+   - Um dem Bundle eine feste Gewichtung zuzuweisen, setzen Sie **[!UICONTROL Dynamic Weight]** auf `No` und geben Sie die **[!UICONTROL Weight]** des Bundles ein.
 
    ![Dynamische Gewichtung](./assets/product-bundle-dynamic-weight.png){width="600" zoomable="yes"}
 
-1. So stellen Sie das Produkt in der Liste der [neue Produkte](../content-design/widget-new-products-list.md), wählen Sie die **[!UICONTROL Set Product as New]** aktivieren.
+1. Um das Produkt in der Liste der [neuen Produkte](../content-design/widget-new-products-list.md) zu kennzeichnen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Set Product as New]** .
 
-1. Standard akzeptieren **[!UICONTROL Visibility]** Einstellung von `Catalog, Search`.
+1. Nehmen Sie die standardmäßige **[!UICONTROL Visibility]** -Einstellung von `Catalog, Search` an.
 
-1. Zuweisen _[!UICONTROL Categories]_klicken Sie auf das **[!UICONTROL Select…]**und führen Sie einen der folgenden Schritte aus:
+1. Um dem Produkt _[!UICONTROL Categories]_zuzuweisen, klicken Sie auf das Feld **[!UICONTROL Select…]**und führen Sie einen der folgenden Schritte aus:
 
-   **Wählen Sie eine vorhandene Kategorie aus:**
+   **Wählen Sie eine vorhandene Kategorie:**
 
    - Beginnen Sie mit der Eingabe in das Feld, bis Sie eine Übereinstimmung finden.
 
    - Aktivieren Sie das Kontrollkästchen der jeweiligen Kategorie, die zugewiesen werden soll.
 
-   ![Wählen Sie eine oder mehrere Kategorien für das Paket-Produkt aus](./assets/product-create-categories.png){width="600" zoomable="yes"}
+   ![Wählen Sie eine oder mehrere Kategorien für das Bundle-Produkt aus](./assets/product-create-categories.png){width="600" zoomable="yes"}
 
-   **Erstellen Sie eine Kategorie:**
+   **Erstellen einer Kategorie:**
 
-   - Klicks **[!UICONTROL New Category]**.
+   - Klicken Sie auf **[!UICONTROL New Category]**.
 
-   - Geben Sie die **[!UICONTROL Category Name]** und wählen Sie **[!UICONTROL Parent Category]**, der seine Position in der Menüstruktur bestimmt.
+   - Geben Sie den Wert **[!UICONTROL Category Name]** ein und wählen Sie den Wert **[!UICONTROL Parent Category]** aus, der seine Position in der Menüstruktur bestimmt.
 
-   - Klicks **[!UICONTROL Create Category]**.
+   - Klicken Sie auf **[!UICONTROL Create Category]**.
 
-1. Wählen Sie die **[!UICONTROL Country of Manufacture]**.
+1. Wählen Sie die **[!UICONTROL Country of Manufacture]** aus.
 
    Es kann zusätzliche Attribute geben, die das Produkt beschreiben. Die Auswahl variiert den Attributsatz und kann später abgeschlossen werden.
 
 ## Schritt 5: Hinzufügen der Bundle-Elemente
 
-Die _[!UICONTROL Bundle Items]_-Abschnitt wird verwendet, um einem Bundle-Produkttyp Elemente hinzuzufügen und die aktuelle Elementauswahl zu bearbeiten.
+Der Abschnitt _[!UICONTROL Bundle Items]_wird verwendet, um einem Bundle-Produkttyp Elemente hinzuzufügen und die aktuelle Auswahl von Elementen zu bearbeiten.
 
-![Für ein Produkt definierte Elemente bündeln](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
+![Für ein Produkt definierte Bundle-Elemente](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
-1. Scrollen Sie nach unten zum _Bundle-Elemente_ Abschnitt und Satz **[!UICONTROL Ship Bundle Items]** auf einen der folgenden Werte zu:
+1. Scrollen Sie nach unten zum Abschnitt _Bundle Items_ und legen Sie **[!UICONTROL Ship Bundle Items]** auf einen der folgenden Werte fest:
 
    - `Separately`
    - `Together`
 
-   Wenn Sie `Together`, müssen alle Bundle-Elemente denselben [source](../inventory-management/sources-manage.md).
+   Wenn Sie &quot;`Together`&quot;auswählen, müssen allen Bundle-Elementen dieselbe [Quelle](../inventory-management/sources-manage.md) zugewiesen werden.
 
-1. Klicks **[!UICONTROL Add Option]** und gehen Sie wie folgt vor:
+1. Klicken Sie auf **[!UICONTROL Add Option]** und führen Sie die folgenden Schritte aus:
 
-   - Geben Sie eine **[!UICONTROL Option Title]** als Feldbezeichnung verwendet werden.
+   - Geben Sie eine **[!UICONTROL Option Title]** ein, die als Feldbezeichnung verwendet werden soll.
 
-   - Satz **[!UICONTROL Input Type]** auf einen der folgenden Werte zu:
+   - Setzen Sie **[!UICONTROL Input Type]** auf einen der folgenden Werte:
 
       - `Drop-down`
       - `Radio buttons`
       - `Checkbox`
       - `Multiple Select`
 
-   - Um das Feld zu einem erforderlichen Eintrag zu machen, wählen Sie die **[!UICONTROL Required]** aktivieren.
+   - Um das Feld zu einem erforderlichen Eintrag zu machen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Required]** .
 
-   - Klicks **[!UICONTROL Add Products to Option]** und aktivieren Sie das Kontrollkästchen jedes Produkts, das Sie in diese Option aufnehmen möchten.
+   - Klicken Sie auf **[!UICONTROL Add Products to Option]** und aktivieren Sie das Kontrollkästchen der einzelnen Produkte, die Sie in diese Option aufnehmen möchten.
 
      Wenn es viele Produkte gibt, verwenden Sie die Listenfilter und Seitenumbruchsteuerungen, um die benötigten Produkte zu finden.
 
-   - Klicks **[!UICONTROL Add Selected Products]**.
+   - Klicken Sie auf **[!UICONTROL Add Selected Products]**.
 
      ![Ausgewählte Produkte hinzufügen](./assets/product-bundle-add-products-to-option.png){width="600" zoomable="yes"}
 
-   - Nachdem die Elemente im _Optionen_ -Abschnitt ein Element auswählen, um **[!UICONTROL Default]** auswählen.
+   - Nachdem die Elemente im Abschnitt _Optionen_ angezeigt wurden, wählen Sie ein Element als **[!UICONTROL Default]** Auswahl aus.
 
-   - Im _Standardmenge_ geben Sie die Menge jedes Elements ein, das dem Bundle hinzugefügt werden soll, wenn ein Kunde das Element auswählt.
+   - Geben Sie in der Spalte _Standardmenge_ die Menge jedes Elements ein, das dem Bundle hinzugefügt werden soll, wenn ein Kunde das Element auswählt.
 
-   - Um Kunden die Änderung der Menge eines Bundle-Elements zu ermöglichen, wählen Sie **[!UICONTROL User Defined]**.
+   - Um Kunden zu ermöglichen, die Menge eines Bundle-Elements zu ändern, wählen Sie **[!UICONTROL User Defined]** aus.
 
 
      >[!NOTE]
      >
-     >Die Menge kann ein vordefinierter oder ein benutzerdefinierter Wert sein. Weisen Sie jedoch nicht die _[!UICONTROL User Defined]_-Eigenschaft zu aktivieren oder Eingabetypen mit Mehrfachauswahl aktivieren.
+     >Die Menge kann ein vordefinierter oder ein benutzerdefinierter Wert sein. Weisen Sie die Eigenschaft _[!UICONTROL User Defined]_jedoch nicht dem Kontrollkästchen oder Mehrfachauswahleingabetypen zu.
 
      Standardmäßig kann die Standardmenge, die in einem Bundle-Element enthalten ist, vom Kunden nicht geändert werden. Der Kunde kann jedoch die Menge des Elements eingeben, das in das Bundle aufgenommen werden soll.
 
-     Wenn beispielsweise die Standardmenge des Sprite-Status-Balls auf `2` und Kundenbestellungen `4` der Option &quot;Bundle&quot;die Gesamtzahl der gekauften Kugeln beträgt `8`.
+     Wenn beispielsweise die Standardmenge des Sprite Status Ball auf `2` gesetzt ist und der Kunde die Option `4` dieses Bundles bestellt, beträgt die Gesamtzahl der gekauften Kugeln `8`.
 
-     ![Elementdetail](./assets/product-bundle-item-detail.png){width="600" zoomable="yes"}
+     ![Elementdetails](./assets/product-bundle-item-detail.png){width="600" zoomable="yes"}
 
 1. Wiederholen Sie diese Schritte für jedes Element, das Sie zum Bundle hinzufügen möchten.
 
-1. Um die Reihenfolge der Elemente in einem Bundle-Abschnitt zu ändern, klicken Sie auf das _Verschieben_ ( ![Symbol Verschieben](../assets/icon-move.png) ) am Anfang der Zeile und ziehen Sie das Element an die gewünschte Position.
+1. Um die Reihenfolge der Elemente in einem Bundle-Abschnitt zu ändern, klicken Sie am Anfang der Zeile auf das Symbol _Verschieben_ ( ![Verschieben-Symbol](../assets/icon-move.png) ) und ziehen Sie das Element an die Position.
 
-   ![Ändern der Reihenfolge von Bundle-Elementen](./assets/product-bundle-items-move.png){width="600" zoomable="yes"}
+   ![Reihenfolge der Bundle-Elemente ändern](./assets/product-bundle-items-move.png){width="600" zoomable="yes"}
 
    Die Reihenfolge der Elemente kann auch in den Daten eines exportierten Bundle-Produkts geändert und dann erneut in den Katalog importiert werden. Weitere Informationen finden Sie unter [Importieren von Bundle-Produkten](../systems/data-transfer-bundle-products.md).
 
    Um eine bessere Ansicht des Arbeitsbereichs zu erhalten, reduzieren Sie zunächst jeden Abschnitt und ziehen ihn dann an die gewünschte Position.
 
-1. Um ein Element aus dem Paket zu entfernen, klicken Sie auf das **[!UICONTROL Delete]** ( ![Papierkorbsymbol](../assets/icon-delete-trashcan.png) ).
+1. Um ein Element aus dem Bundle zu entfernen, klicken Sie auf das Symbol **[!UICONTROL Delete]** ( ![Papierkorbsymbol](../assets/icon-delete-trashcan.png) ).
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
 ## Schritt 6: Produktinformationen ausfüllen
 
@@ -215,17 +215,17 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 - [Design](settings-advanced-design.md)
 - [Geschenkoptionen](product-gift-options.md)
 
-## Schritt 7: Produkt veröffentlichen
+## Schritt 7: Publish des Produkts
 
-1. Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, legen Sie **[!UICONTROL Enable Product]** nach `Yes` ( ![Ja umschalten](../assets/toggle-yes.png) ).
+1. Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, setzen Sie **[!UICONTROL Enable Product]** auf `Yes` ( ![Umschalten ja](../assets/toggle-yes.png) ).
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    **Methode 1:** Speichern und Vorschau anzeigen
 
-   - Klicken Sie oben rechts auf **[!UICONTROL Save]**.
+   - Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Save]**.
 
-   - Um das Produkt in Ihrem Geschäft anzuzeigen, wählen Sie **[!UICONTROL Customer View]** auf _Admin_ ( ![Menüpfeil](../assets/icon-menu-down-arrow-black.png) ).
+   - Um das Produkt in Ihrem Store anzuzeigen, wählen Sie im Menü _Admin_ ( ![Menüpfeil](../assets/icon-menu-down-arrow-black.png) ) die Option **[!UICONTROL Customer View]** aus.
 
      Der Store wird in einer neuen Browser-Registerkarte geöffnet.
 
@@ -233,7 +233,7 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
    **Methode 2:** Speichern und schließen
 
-   Im _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ), wählen Sie **[!UICONTROL Save & Close]**.
+   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**.
 
 ## Eingabefelder
 
@@ -259,31 +259,31 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
 ## Produktstatus des Bundles
 
-Status des Produktbestands des Bundles ist **_automatisch in &quot;Nicht vorrätig&quot;geändert_** wenn eines dieser Szenarien eintritt:
+Der Status des Produktbestands des Bundles lautet **_automatisch auf &quot;Nicht auf Lager&quot;_** , wenn eines dieser Szenarien eintritt:
 
-- Alle Optionen sind optional und alle zugehörigen Produkte sind _Nicht vorrätig_.
+- Alle Optionen sind optional und alle zugehörigen Produkte sind _nicht auf Lager_.
 
-- Einige Optionen sind erforderlich und Produkte, die mit den erforderlichen Optionen verknüpft sind, sind _Nicht vorrätig_.
+- Einige Optionen sind erforderlich und Produkte, die mit den erforderlichen Optionen verknüpft sind, sind _nicht auf Lager_.
 
-Status des Produktbestands des Bundles ist **_nicht automatisch in &quot;Nicht auf Lager&quot;geändert_** wenn eines dieser Szenarien eintritt:
+Der Status des Produktbestands des Bundles lautet **_nicht automatisch auf &quot;Nicht auf Lager&quot;_**, wenn eines dieser Szenarien eintritt:
 
-- Alle Optionen sind optional und mindestens ein verknüpftes Produkt ist verfügbar. _Auf Lager_.
+- Alle Optionen sind optional und mindestens ein zugehöriges Produkt ist _Auf Lager_.
 
 - Einige Optionen sind erforderlich und mindestens ein zugehöriges Produkt in jeder erforderlichen Option ist _Auf Lager_.
 
 ## Dinge, die man sich merken sollte
 
-![Kontrollkästchen](../assets/checkbox.png) Kunden können _Erstellen eigener_ Paket-Produkt.
+![Kontrollkästchen](../assets/checkbox.png) Kunden können _ein eigenes Bundle-Produkt vom Typ_ erstellen.
 
 ![Kontrollkästchen](../assets/checkbox.png) Bundle-Elemente können einfache oder virtuelle Produkte ohne benutzerdefinierte Optionen sein.
 
-![Kontrollkästchen](../assets/checkbox.png) Die Preisansicht kann auf Folgendes eingestellt werden: `Price Range` oder `As Low As`.
+![Kontrollkästchen](../assets/checkbox.png) Die Preisansicht kann auf `Price Range` oder `As Low As` eingestellt werden.
 
-![Kontrollkästchen](../assets/checkbox.png) SKU und Gewichtung können entweder `Fixed` oder `Dynamic`.
+![Kontrollkästchen](../assets/checkbox.png) SKU und Gewichtung können entweder `Fixed` oder `Dynamic` sein.
 
-![Kontrollkästchen](../assets/checkbox.png) Die Menge kann ein vordefinierter oder ein benutzerdefinierter Wert sein. Weisen Sie jedoch nicht die _[!UICONTROL User Defined]_-Eigenschaft zu aktivieren oder Eingabetypen mit Mehrfachauswahl aktivieren.
+![Kontrollkästchen](../assets/checkbox.png) Die Menge kann ein vordefinierter oder ein benutzerdefinierter Wert sein. Weisen Sie die Eigenschaft _[!UICONTROL User Defined]_jedoch nicht dem Kontrollkästchen oder Mehrfachauswahleingabetypen zu.
 
-![Kontrollkästchen](../assets/checkbox.png) Bundle-Elemente können zusammen oder separat versendet werden.
+![Kontrollkästchen](../assets/checkbox.png) Bundle-Elemente können zusammen oder separat ausgeliefert werden.
 
 ![Kontrollkästchen](../assets/checkbox.png) Das übergeordnete Bundle-Produkt wird immer automatisch als Upsell-Produkt für alle untergeordneten Produkte angezeigt.
 

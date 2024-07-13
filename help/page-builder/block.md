@@ -1,6 +1,6 @@
 ---
 title: Inhalt hinzufügen - Block
-description: Erfahren Sie mehr über den Inhaltstyp Block , der zum Hinzufügen eines wiederverwendbaren Bausteins zum [!DNL Page Builder] Bühne.
+description: Erfahren Sie mehr über den Inhaltstyp Block , der zum Hinzufügen eines wiederverwendbaren Bausteins zur Phase [!DNL Page Builder] verwendet wird.
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Inhalt hinzufügen - Block
 
-Verwenden Sie die _Block_ Inhaltstyp zum Hinzufügen eines vorhandenen, aktiven [block](../content-design/blocks.md) der [[!DNL Page Builder] Schritt](workspace.md#stage). Im folgenden Beispiel enthält die erste Spalte den Block mit einem Seitenmenü für die Seite. Die zweite Spalte enthält ein Bild.
+Verwenden Sie den Inhaltstyp _Block_ , um einen vorhandenen, aktiven [Block](../content-design/blocks.md) zur [[!DNL Page Builder] Bühne](workspace.md#stage) hinzuzufügen. Im folgenden Beispiel enthält die erste Spalte den Block mit einem Seitenmenü für die Seite. Die zweite Spalte enthält ein Bild.
 
-![Block mit einem Seitenmenü](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
+![Blockieren mit einem Seitenmenü](./assets/pb-add-content-block-example.png){width="600" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -22,9 +22,9 @@ Verwenden Sie die _Block_ Inhaltstyp zum Hinzufügen eines vorhandenen, aktiven 
 
 | Tool | Symbol | Beschreibung |
 | --------- | -------- | ------------- |
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png) | Verschiebt den Block-Container und seinen Inhalt an eine andere Position auf der Bühne. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png) | Öffnet die Seite Block bearbeiten , auf der Sie den Block auswählen und die Eigenschaften des Containers ändern können. |
-| Ausblenden | ![Symbol &quot;Ausblenden&quot;](./assets/pb-icon-hide.png) | Blendet den aktuellen Block-Container und seinen Inhalt aus. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png) | Verschiebt den Block-Container und seinen Inhalt an eine andere Position auf der Bühne. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png) | Öffnet die Seite Block bearbeiten , auf der Sie den Block auswählen und die Eigenschaften des Containers ändern können. |
+| Ausblenden | ![Symbol zum Ausblenden](./assets/pb-icon-hide.png) | Blendet den aktuellen Block-Container und seinen Inhalt aus. |
 | Anzeigen | ![Symbol &quot;Anzeigen&quot;](./assets/pb-icon-show.png) | Zeigt den ausgeblendeten Block-Container und seinen Inhalt an. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png) | Kopiert den Block-Container und seinen Inhalt. |
 | Entfernen | ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png) | Löscht den Block-Container und seinen Inhalt aus der Bühne. |
@@ -35,19 +35,19 @@ Verwenden Sie die _Block_ Inhaltstyp zum Hinzufügen eines vorhandenen, aktiven 
 
 ## Vorhandenen Baustein hinzufügen
 
-1. Navigieren Sie zum [!DNL Page Builder] Arbeitsbereich auf der Zielseite, im Baustein, in dynamischen Bausteinen, in Produkten oder in Kategorien.
+1. Navigieren Sie auf der Zielseite, dem Baustein, dem dynamischen Block, dem Produkt oder der Kategorie zum Arbeitsbereich &quot;[!DNL Page Builder]&quot;.
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Add Content]** und ziehen Sie eine **[!UICONTROL Block]** Platzhalter zur Bühne.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Wert **[!UICONTROL Add Content]** und ziehen Sie einen Platzhalter **[!UICONTROL Block]** auf die Bühne.
 
-   ![Einen Block auf die Bühne ziehen](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
+   ![Ziehen eines Blocks auf die Bühne](./assets/pb-add-content-block-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den leeren Block-Container, um die Symbolleiste anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} ).
+1. Bewegen Sie den Mauszeiger über den leeren Block-Container, um die Toolbox anzuzeigen und das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} ) zu wählen.
 
-1. Klicken **[!UICONTROL Select Block]**.
+1. Klicken Sie auf **[!UICONTROL Select Block]**.
 
-   ![Baustein auswählen](./assets/pb-add-content-block-select.png){width="200"}
+   ![Auswählen eines Blocks](./assets/pb-add-content-block-select.png){width="200"}
 
-1. Klicken Sie in der Zeile des Blocks, den Sie hinzufügen möchten, auf **[!UICONTROL Select]** in der letzten Spalte.
+1. Klicken Sie in der Zeile des Blocks, den Sie hinzufügen möchten, in der letzten Spalte auf **[!UICONTROL Select]** .
 
    ![Ausgewählter Block](./assets/pb-add-content-block-selected.png){width="600" zoomable="yes"}
 
@@ -57,11 +57,11 @@ Verwenden Sie die _Block_ Inhaltstyp zum Hinzufügen eines vorhandenen, aktiven 
 
 1. Nehmen Sie die restlichen Einstellungen wie gewünscht vor und verwenden Sie die Feldbeschreibungen am Ende dieser Seite, um sie zu referenzieren.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ### Erweiterte Einstellungen
 
-1. Um die Positionierung des Blocks innerhalb des übergeordneten Containers zu steuern, wählen Sie eine **[!UICONTROL Alignment]**:
+1. Um die Positionierung des Blocks innerhalb des übergeordneten Containers zu steuern, wählen Sie einen **[!UICONTROL Alignment]**:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -72,7 +72,7 @@ Verwenden Sie die _Block_ Inhaltstyp zum Hinzufügen eines vorhandenen, aktiven 
 
    {style="table-layout:auto"}
 
-1. Legen Sie eine **[!UICONTROL Border]** -Stil, der auf alle vier Seiten des Block-Containers angewendet wird:
+1. Legen Sie einen **[!UICONTROL Border]** -Stil fest, der auf alle vier Seiten des Block-Containers angewendet wird:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -89,7 +89,7 @@ Verwenden Sie die _Block_ Inhaltstyp zum Hinzufügen eines vorhandenen, aktiven 
 
    {style="table-layout:auto"}
 
-1. Wenn Sie einen anderen Rahmenstil als `None`, füllen Sie die Randanzeigeoptionen aus:
+1. Wenn Sie einen anderen Rahmenstil als `None` festlegen, füllen Sie die Anzeigeoptionen für die Rahmenanzeige aus:
 
    | Option | Beschreibung |
    | ------ |------------ |
@@ -99,11 +99,11 @@ Verwenden Sie die _Block_ Inhaltstyp zum Hinzufügen eines vorhandenen, aktiven 
 
    {style="table-layout:auto"}
 
-1. (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet, das auf den Container angewendet werden soll.
+1. (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet an, das auf den Container angewendet werden soll.
 
    Trennen Sie mehrere Klassennamen durch ein Leerzeichen.
 
-1. Geben Sie Werte in Pixel für die **[!UICONTROL Margins and Padding]** um die äußeren Ränder und den inneren Abstand des Blockbehälters zu bestimmen.
+1. Geben Sie Werte in Pixel für den Wert **[!UICONTROL Margins and Padding]** ein, um die äußeren Ränder und den inneren Abstand des Block-Containers zu bestimmen.
 
    Geben Sie die entsprechenden Werte in das Diagramm ein.
 
@@ -116,26 +116,26 @@ Verwenden Sie die _Block_ Inhaltstyp zum Hinzufügen eines vorhandenen, aktiven 
 
 ## Blockeinstellungen bearbeiten
 
-1. Bewegen Sie den Mauszeiger über den Block-Container und wählen Sie die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} ) in der Toolbox.
+1. Bewegen Sie den Mauszeiger über den Block-Container und wählen Sie in der Toolbox das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} ).
 
    ![Block Toolbox](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
 1. Um einen anderen Block auszuwählen, klicken Sie auf **[!UICONTROL Select Block]**.
 
-   - Klicken Sie in der Liste der aktiven Blöcke auf **[!UICONTROL Select]** den Block, den Sie hinzufügen möchten.
-   - Klicken **[!UICONTROL Add Selected]**.
+   - Klicken Sie in der Liste der aktiven Bausteine auf den Block &quot;**[!UICONTROL Select]**&quot;, den Sie hinzufügen möchten.
+   - Klicken Sie auf **[!UICONTROL Add Selected]**.
 
 1. Aktualisieren Sie die restlichen Einstellungen nach Bedarf mithilfe der Feldbeschreibungen am Ende dieser Seite, um sie zu referenzieren.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ## Baustein duplizieren
 
-1. Bewegen Sie den Mauszeiger über den Block-Container, um die Toolbox anzuzeigen und die _Duplizieren_ (![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png)).
+1. Bewegen Sie den Mauszeiger über den Block-Container, um die Symbolleiste anzuzeigen, und wählen Sie das Symbol _Duplizieren_ (![Symbol Duplizieren](./assets/pb-icon-duplicate.png)).
 
    Das Duplikat wird direkt unter dem Original angezeigt.
 
-1. Um den neuen Block an eine neue Position zu verschieben, bewegen Sie den Mauszeiger über den Container und klicken Sie dann auf _Verschieben_ (![Symbol Verschieben](./assets/pb-icon-move.png)) in der Toolbox.
+1. Um den neuen Block an eine neue Position zu verschieben, bewegen Sie den Mauszeiger über den Container und klicken Sie dann in der Toolbox auf _Verschieben_ (![Verschieben-Symbol](./assets/pb-icon-move.png)).
 
 1. Wählen Sie den Block aus und ziehen Sie ihn, bis die rote Führungslinie an der neuen Position angezeigt wird.
 
@@ -143,6 +143,6 @@ Verwenden Sie die _Block_ Inhaltstyp zum Hinzufügen eines vorhandenen, aktiven 
 
 ## Entfernen eines Bausteins aus der Bühne
 
-1. Bewegen Sie den Mauszeiger über den Block-Container, um die Toolbox anzuzeigen und die _Entfernen_ (![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png)).
+1. Bewegen Sie den Mauszeiger über den Block-Container, um die Toolbox anzuzeigen, und wählen Sie das Symbol _Entfernen_ (![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png)).
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL OK]**.

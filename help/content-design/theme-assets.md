@@ -1,6 +1,6 @@
 ---
 title: Designelemente
-description: Erfahren Sie, wie Sie Design-Assets wie CSS-, Schriftarten-, Bilder- und JavaScript-Dateien verwalten.
+description: Erfahren Sie, wie Sie Design-Assets wie CSS-, Schriftarten-, Bild- und JavaScript-Dateien verwalten.
 exl-id: 326c648e-eace-45a0-b53d-bbc8702fee05
 feature: Page Content, Themes
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 # Designelemente
 
-Die _statische Dateien_ sind die Sammlung von Assets wie CSS, Schriftarten, Bildern und JavaScript, die von einem Design verwendet werden. Der Speicherort statischer Dateien wird im Abschnitt [Basis-URL](../stores-purchase/store-urls.md) Konfiguration. Sie können der URL jeder statischen Datei eine digitale Signatur hinzufügen, damit Browser erkennen können, wann eine neuere Version verfügbar ist. Die neuere Version der Datei wird verwendet, wenn sich die Signatur von der im Browser-Cache gespeicherten Signatur unterscheidet.
+Die _statischen Dateien_ sind die von einem Design verwendeten Assets wie CSS, Schriftarten, Bilder und JavaScript. Der Speicherort statischer Dateien wird in der Konfiguration [Basis-URL](../stores-purchase/store-urls.md) angegeben. Sie können der URL jeder statischen Datei eine digitale Signatur hinzufügen, damit Browser erkennen können, wann eine neuere Version verfügbar ist. Die neuere Version der Datei wird verwendet, wenn sich die Signatur von der im Browser-Cache gespeicherten Signatur unterscheidet.
 
-Bei einer Standardinstallation werden die mit einem Design verknüpften Assets im `web` Ordner am folgenden Speicherort unter dem Ordner [!DNL Commerce] root.
+Bei einer Standardinstallation sind die mit einem Design verknüpften Assets im Ordner &quot;`web`&quot;am folgenden Speicherort unter dem Stammordner &quot;[!DNL Commerce]&quot;organisiert.
 
 `[commerce_root]/app/design/frontend/Magento/[theme_name]/web`
 
 ## Hinzufügen einer digitalen Signatur zu statischen Datei-URLs
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Advanced]** und wählen **[!UICONTROL Developer]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Advanced]** und wählen Sie **[!UICONTROL Developer]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Static Files Settings]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Static Files Settings]** .
 
    ![Einstellungen für statische Dateien](./assets/developer-static-files-settings.png){width="500" zoomable="yes"}
 
-1. Satz **[!UICONTROL Sign Static Files]** nach `Yes`.
+1. Setzen Sie **[!UICONTROL Sign Static Files]** auf `Yes`.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 | Dateityp | Beschreibung |
 |--- |--- |
@@ -47,21 +47,21 @@ Im Rahmen der Optimierung Ihrer Site und der Verkürzung der Seitenladezeit kön
 
 >[!NOTE]
 >
->CSS-Dateien können aus der _Admin_ nur beim Arbeiten in [Entwicklermodus](../systems/developer-tools.md#operation-modes).
+>CSS-Dateien können nur dann aus dem Bedienfeld _Admin_ zusammengeführt werden, wenn Sie im [Entwicklermodus](../systems/developer-tools.md#operation-modes) arbeiten.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Im linken Bereich: **[!UICONTROL Advanced]** und wählen **[!UICONTROL Developer]**.
+1. Wählen Sie im linken Bereich **[!UICONTROL Advanced]** und dann **[!UICONTROL Developer]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL CSS Settings]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL CSS Settings]** .
 
    ![CSS-Einstellungen](./assets/developer-css-settings.png){width="500" zoomable="yes"}
 
-   Eine ausführliche Beschreibung dieser Konfigurationsoptionen finden Sie unter [CSS-Einstellungen](../configuration-reference/advanced/developer.md#css-settings) im _Konfigurationsreferenz_.
+   Detaillierte Beschreibungen dieser Konfigurationsoptionen finden Sie unter [CSS-Einstellungen](../configuration-reference/advanced/developer.md#css-settings) in der _Konfigurationsreferenz_.
 
-1. Satz **[!UICONTROL Merge CSS Files]** nach `Yes`.
+1. Setzen Sie **[!UICONTROL Merge CSS Files]** auf `Yes`.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ## Zusammenführen von JavaScript-Dateien
 
@@ -69,18 +69,18 @@ Mehrere JavaScript-Dateien können zu einer einzigen, gekürzten Datei zusammeng
 
 >[!NOTE]
 >
->JavaScript-Dateien können aus der _Admin_ nur beim Arbeiten in [Entwicklermodus](../systems/developer-tools.md#operation-modes).
+>JavaScript-Dateien können nur beim Arbeiten im [Entwicklermodus](../systems/developer-tools.md#operation-modes) aus dem Bedienfeld _Admin_ zusammengeführt werden.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Im linken Bereich: **[!UICONTROL Advanced]** und wählen **[!UICONTROL Developer]**.
+1. Wählen Sie im linken Bereich **[!UICONTROL Advanced]** und dann **[!UICONTROL Developer]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL JavaScript Settings]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL JavaScript Settings]** .
 
    ![JavaScript-Einstellungen](./assets/developer-javascript-settings.png){width="600" zoomable="yes"}
 
-   Eine ausführliche Beschreibung dieser Konfigurationsoptionen finden Sie unter [JavaScript-Einstellungen](../configuration-reference/advanced/developer.md#javascript-settings) im _Konfigurationsreferenz_.
+   Detaillierte Beschreibungen dieser Konfigurationsoptionen finden Sie unter [JavaScript-Einstellungen](../configuration-reference/advanced/developer.md#javascript-settings) in der _Konfigurationsreferenz_.
 
-1. Satz **[!UICONTROL Merge JavaScript Files]** nach `Yes`.
+1. Setzen Sie **[!UICONTROL Merge JavaScript Files]** auf `Yes`.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.

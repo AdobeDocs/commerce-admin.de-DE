@@ -16,9 +16,9 @@ Kundenberichte bieten Einblicke in Kundenaktivitäten während eines bestimmten 
 
 ## [!UICONTROL Order Total Report]
 
-Die [!UICONTROL Order Total Report] zeigt Kundenaufträge für einen bestimmten Zeitraum oder Datumsbereich an. Der Bericht enthält die Anzahl der Bestellungen pro Kunde, den durchschnittlichen Bestellbetrag und den Gesamtbetrag.
+Der [!UICONTROL Order Total Report] zeigt Kundenaufträge für ein bestimmtes Zeitintervall oder einen bestimmten Datumsbereich an. Der Bericht enthält die Anzahl der Bestellungen pro Kunde, den durchschnittlichen Bestellbetrag und den Gesamtbetrag.
 
-Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
+Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Total]**.
 
 ![Bestellsummenbericht](./assets/customers-order-total.png){width="600"}
 
@@ -41,16 +41,16 @@ Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTR
 | [!UICONTROL Interval] | Das Gesamtbestellungsintervall nach `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Der Name des Kunden, der die Bestellungen aufgegeben hat. |
 | [!UICONTROL Orders] | Die Anzahl der Bestellungen für das angegebene Intervall. |
-| [!UICONTROL Average] | Durchschnittlicher Bestellbetrag. Dieser Betrag wird immer für die Produktpreise berechnet **ohne Steuern** auch wenn die Preise der Katalogprodukte, die Zwischensumme der Bestellungen und die Gesamtbestellsumme Steuern enthalten. Daher unterscheidet sich der im Bericht angezeigte Betrag von dem in den Bestelldetails angegebenen Betrag, wenn die Bestellsummen Steuern enthalten. |
-| [!UICONTROL Total] | Die Summe aller Bestellungen für den Zeitraum. Dieser Betrag wird immer für die Produktpreise berechnet **ohne Steuern** auch wenn die Preise der Katalogprodukte, die Zwischensumme der Bestellungen und die Gesamtbestellsumme Steuern enthalten. Daher unterscheidet sich die im Bericht angezeigte Summe von dem in den Bestelldetails angezeigten Betrag, wenn die Bestellsummen Steuern enthalten. |
+| [!UICONTROL Average] | Durchschnittlicher Bestellbetrag. Dieser Betrag wird immer für die Produktpreise **ohne Steuern** berechnet, selbst wenn die Preise für Katalogprodukte, die Zwischensumme der Bestellungen und die Gesamtbestellsumme Steuern enthalten. Daher unterscheidet sich der im Bericht angezeigte Betrag von dem in den Bestelldetails angegebenen Betrag, wenn die Bestellsummen Steuern enthalten. |
+| [!UICONTROL Total] | Die Summe aller Bestellungen für den Zeitraum. Dieser Betrag wird immer für die Produktpreise **ohne Steuern** berechnet, selbst wenn die Preise für Katalogprodukte, die Zwischensumme der Bestellungen und die Gesamtbestellsumme Steuern enthalten. Daher unterscheidet sich die im Bericht angezeigte Summe von dem in den Bestelldetails angezeigten Betrag, wenn die Bestellsummen Steuern enthalten. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Order Count Report]
 
-Die [!UICONTROL Order Count Report] zeigt die Anzahl der Bestellungen pro Kunde für einen bestimmten Zeitraum oder Datumsbereich an. Der Bericht enthält die Anzahl der Bestellungen pro Kunde, den durchschnittlichen Bestellbetrag und den Gesamtbetrag.
+Der [!UICONTROL Order Count Report] zeigt die Anzahl der Bestellungen pro Kunde für ein bestimmtes Zeitintervall oder einen bestimmten Datumsbereich an. Der Bericht enthält die Anzahl der Bestellungen pro Kunde, den durchschnittlichen Bestellbetrag und den Gesamtbetrag.
 
-Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
+Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Order Count]**.
 
 ![Bericht zur Bestellanzahl](./assets/customer-order-count.png){width="600"}
 
@@ -70,19 +70,19 @@ Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTR
 
 | Spalte | Beschreibung |
 |--- |--- |
-| [!UICONTROL Interval] | Das Bestellzählungsintervall, nach `Month` / `Day` / `Year`. |
+| [!UICONTROL Interval] | Das Bestellzählungsintervall nach `Month` / `Day` / `Year`. |
 | [!UICONTROL Customer] | Der Kunde, der die Bestellung aufgegeben hat. |
 | [!UICONTROL Orders] | Die Anzahl der Bestellungen für das angegebene Intervall. |
-| [!UICONTROL Average] | Durchschnittlicher Bestellbetrag. Dieser Betrag wird immer für die Produktpreise berechnet **ohne Steuern** auch wenn die Preise der Katalogprodukte, die Zwischensumme der Bestellungen und die Gesamtbestellsumme Steuern enthalten. Daher unterscheidet sich der im Bericht angezeigte Betrag von dem in den Bestelldetails angegebenen Betrag, wenn die Bestellsummen Steuern enthalten. |
-| [!UICONTROL Total] | Die Summe aller Bestellungen für den Zeitraum. Dieser Betrag wird immer für die Produktpreise berechnet **ohne Steuern** auch wenn die Preise der Katalogprodukte, die Zwischensumme der Bestellungen und die Gesamtbestellsumme Steuern enthalten. Infolgedessen unterscheidet sich die im Bericht angezeigte Summe von dem in den Bestelldetails angezeigten Betrag, wenn die Bestellsummen Tas enthalten. |
+| [!UICONTROL Average] | Durchschnittlicher Bestellbetrag. Dieser Betrag wird immer für die Produktpreise **ohne Steuern** berechnet, selbst wenn die Preise für Katalogprodukte, die Zwischensumme der Bestellungen und die Gesamtbestellsumme Steuern enthalten. Daher unterscheidet sich der im Bericht angezeigte Betrag von dem in den Bestelldetails angegebenen Betrag, wenn die Bestellsummen Steuern enthalten. |
+| [!UICONTROL Total] | Die Summe aller Bestellungen für den Zeitraum. Dieser Betrag wird immer für die Produktpreise **ohne Steuern** berechnet, selbst wenn die Preise für Katalogprodukte, die Zwischensumme der Bestellungen und die Gesamtbestellsumme Steuern enthalten. Infolgedessen unterscheidet sich die im Bericht angezeigte Summe von dem in den Bestelldetails angezeigten Betrag, wenn die Bestellsummen Tas enthalten. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL New Accounts Report]
 
-Die [!UICONTROL New Accounts Report] zeigt die Anzahl neuer Kundenkonten an, die in einem bestimmten Zeitintervall oder Datumsbereich geöffnet wurden.
+Der [!UICONTROL New Accounts Report] zeigt die Anzahl neuer Kundenkonten an, die in einem bestimmten Zeitintervall oder Datumsbereich geöffnet wurden.
 
-Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
+Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL New]**.
 
 ![Bericht &quot;Neue Konten&quot;](./assets/customers-new-accounts.png){width="600"}
 
@@ -109,11 +109,11 @@ Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTR
 
 ## [!UICONTROL Customer Wish List Report]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
 Die [!UICONTROL Customer Wish List Report] enthält Informationen zu Kundenwunschlisten.
 
-Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
+Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Wish Lists]**.
 
 ![Wunschlistenbericht](./assets/customer-wish-list.png){width="600"}
 
@@ -149,11 +149,11 @@ Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTR
 
 ## [!UICONTROL Customer Segment Report]
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
-Die [!UICONTROL Customer Segment Report] liefert Informationen über die Anzahl der Kunden in jedem Segment.
+Der [!UICONTROL Customer Segment Report] enthält Informationen zur Anzahl der Kunden in jedem Segment.
 
-Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
+Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Reports]** > _[!UICONTROL Customers]_>**[!UICONTROL Segments]**.
 
 ![Segmentbericht](./assets/customers-segments.png){width="600"}
 

@@ -1,6 +1,6 @@
 ---
 user-guide-title: "[!DNL Inventory Management] Benutzerhandbuch"
-user-guide-description: Verwendung von [!DNL Inventory Management] Funktionen zur Aufrechterhaltung der Verkaufsmengen und zur Abwicklung von Sendungen [!DNL Commerce] Bestellungen.
+user-guide-description: Erfahren Sie, wie Sie mit den [!DNL Inventory Management] Funktionen die Verkaufsmengen verwalten und Sendungen zur Ausführung von [!DNL Commerce] Bestellungen bearbeiten können.
 breadcrumb-title: "[!DNL Inventory Management]"
 role: Admin, Leader, User
 feature: Inventory
@@ -19,7 +19,7 @@ ht-degree: 5%
 - [Versionshinweise](release-notes.md)
 - Grundlagen zum Bestand {#basics}
    - [Quellen und Bestände](sources-stocks.md)
-   - [Quellauswahl und -reservierung](selection-reservations.md)
+   - [Auswahl und Reservierung von Source](selection-reservations.md)
    - [Status der Bestellung und Reservierung](order-status.md)
    - [Produkttypen](product-types.md)
 - Erste Schritte {#get-started}
@@ -42,7 +42,7 @@ ht-degree: 5%
    - [Übersicht](sources-manage.md)
    - [Quellen hinzufügen](sources-add.md)
    - [Quellen deaktivieren](sources-disable.md)
-- Verwalten von Lagern {#stocks}
+- Lagerbestände verwalten {#stocks}
    - [Übersicht](stocks-manage.md)
    - [Hinzufügen von Lagern](stocks-add.md)
    - [Priorisierung der Lagerbestände](stocks-prioritize-sources.md)
@@ -58,5 +58,5 @@ ht-degree: 5%
    - [Übersicht](shipments.md)
    - [Sendungen erstellen](shipments-create.md)
 - [CLI-Referenz](cli.md)
-- [Zurück zu den Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Inventar - Zuteilung von Quellen und Mengen
 
-Für Multisource-Händler mit [[!DNL Inventory Management]](../inventory-management/introduction.md), scrollen Sie nach unten zu **Quellen** und Zuteilung von Quellen und Mengen:
+Scrollen Sie bei Multisource-Händlern mit [[!DNL Inventory Management]](../inventory-management/introduction.md) nach unten zum Abschnitt **Quellen** und weisen Sie Quellen und Mengen zu:
 
 1. Um eine Quelle hinzuzufügen, klicken Sie auf **[!UICONTROL Assign Sources]**.
 
@@ -18,18 +18,18 @@ Für Multisource-Händler mit [[!DNL Inventory Management]](../inventory-managem
 
    ![Zuweisen von Quellen zum Produkt](../catalog/assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 
-1. Klicks **[!UICONTROL Done]** , um die Quellen hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL Done]** , um die Quellen hinzuzufügen.
 
-1. Um die Menge und den Status der Quelle zu verwalten, klicken Sie auf **[!UICONTROL Advanced Inventory]** und **[!UICONTROL Manage Stock]** nach `Yes`.
+1. Um die Menge und den Status der Quelle zu verwalten, klicken Sie auf **[!UICONTROL Advanced Inventory]** und legen Sie **[!UICONTROL Manage Stock]** auf `Yes` fest.
 
-1. Satz **[!UICONTROL Source Item Status]** nach `In Stock`.
+1. Setzen Sie **[!UICONTROL Source Item Status]** auf `In Stock`.
 
-1. Geben Sie einen Betrag ein, um die **[!UICONTROL Qty]** für gebrauchte Waren.
+1. Geben Sie einen Betrag ein, um den **[!UICONTROL Qty]** für das On-hand-Lager zu aktualisieren.
 
 1. Führen Sie einen der folgenden Schritte aus, um eine Meldung für die Lagerbestandsmengen festzulegen:
 
-   - _Anzahl benutzerdefinierter Benachrichtigungen_ - Löschen Sie die **[!UICONTROL Notify Quantity Use Default]** aktivieren und einen Betrag eingeben in **[!UICONTROL Notify Quantity]**.
+   - _Benutzerdefinierte Menge benachrichtigen_ - Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Notify Quantity Use Default]** und geben Sie einen Betrag in **[!UICONTROL Notify Quantity]** ein.
 
-   - _Standardmenge benachrichtigen_ - Wählen Sie die **[!UICONTROL Notify Quantity Use Default]** aktivieren. Commerce-Prüfungen und -Einstellungen in [!UICONTROL Advanced Inventory] oder globale Store-Konfiguration.
+   - _Standardmenge benachrichtigen_ - Aktivieren Sie das Kontrollkästchen **[!UICONTROL Notify Quantity Use Default]**. Commerce überprüft und verwendet die Einstellung in [!UICONTROL Advanced Inventory] oder der globalen Store-Konfiguration.
 
-   ![Aktualisieren der Produktmengen pro Quelle](../catalog/assets/inventory-product-quantity.png){width="600" zoomable="yes"}
+   ![Aktualisieren der Produktmengen pro Source](../catalog/assets/inventory-product-quantity.png){width="600" zoomable="yes"}

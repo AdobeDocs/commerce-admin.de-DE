@@ -4,7 +4,7 @@ description: Mit Kundensegmenten können Sie Inhalte und Promotions für bestimm
 exl-id: b254a6ac-cb0b-46c1-9ef7-ffc97360a98e
 source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Mit Kundensegmenten können Sie bestimmten Kunden basierend auf verschiedenen Eigenschaften Inhalte und Promotions dynamisch anzeigen. Beispiele sind Kundenadresse, Bestellverlauf und Warenkorbinhalte. Sie können Marketinginitiativen anhand von zielgerichteten Segmenten mit Warenkorbpreisregeln optimieren. Sie können auch Berichte erstellen und die Liste der Zielkunden exportieren. Da Kundensegmentinformationen ständig aktualisiert werden, können Kunden beim Einkauf in Ihrem Geschäft mit einem Segment verknüpft und von diesem getrennt werden.
 
-Um den Unterschied zwischen [Kundengruppen](../customers/customer-groups.md) und Kundensegmenten verwenden, beachten Sie, wo sie verwendet werden:
+Um den Unterschied zwischen [Kundengruppen](../customers/customer-groups.md) und Kundensegmenten besser zu verstehen, beachten Sie, wo sie verwendet werden:
 
 |  | Kundensegment | Kundengruppe |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ Um den Unterschied zwischen [Kundengruppen](../customers/customer-groups.md) und
 
 ## Kundensegmentattribute
 
-Kundensegmentattribute werden ähnlich wie Einkaufswagen- und Katalogpreisregeln definiert. Damit ein Attribut in einer Kundensegmentbedingung verwendet werden kann, muss _[!UICONTROL Use in Customer Segment]_[property](attribute-properties.md#) muss auf `Yes`. Kundensegmentbedingungen können die folgenden Attributtypen enthalten:
+Kundensegmentattribute werden ähnlich wie Einkaufswagen- und Katalogpreisregeln definiert. Damit ein Attribut in einer Bedingung für Kundensegmente verwendet werden kann, muss die Eigenschaft _[!UICONTROL Use in Customer Segment]_[property](attribute-properties.md#) auf `Yes` gesetzt werden. Kundensegmentbedingungen können die folgenden Attributtypen enthalten:
 
 | Attribut | Beschreibung |
 |---|---|
@@ -42,9 +42,9 @@ Kundensegmentattribute werden ähnlich wie Einkaufswagen- und Katalogpreisregeln
 
 {style="table-layout:auto"}
 
-Siehe [Kundensegmente erstellen und löschen](../customers/customer-segment-create.md) für weitere Informationen zur Definition von Kundensegmenten.
+Weitere Informationen zur Definition von Kundensegmenten finden Sie unter [Erstellen und Löschen von Kundensegmenten](../customers/customer-segment-create.md) .
 
 ## eBooks
 
-- **Kundensegmentierung** — Holen Sie sich die [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) , um zu erfahren, wie Sie die Gewinne und die Kundenzufriedenheit insgesamt steigern können.
-- **Segmentierungstaktiken** — Holen Sie sich die [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html) , um die Zielgruppenbestimmung Ihrer Nachrichten und Promotions zu verbessern und so sinnvolle Gespräche mit Ihren Kunden zu führen.
+- **Kundensegmentierung** - Rufen Sie das [eBook](https://business.adobe.com/resources/identifying-your-most-profitable-customers-introduction-customer-segmentation.html) ab, um zu erfahren, wie Sie den Gewinn und die Kundenzufriedenheit insgesamt steigern können.
+- **Segmentierungstaktiken** - Besorgen Sie sich das [eBook](https://business.adobe.com/resources/3-segmentation-tactics-ignite-conversion.html), um das Targeting Ihrer Nachrichten und Promotions zu verbessern und sinnvolle Gespräche mit Ihren Kunden zu führen.

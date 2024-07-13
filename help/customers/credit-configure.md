@@ -16,23 +16,23 @@ ht-degree: 0%
 
 Die Konfiguration der Store-Gutschriften steuert automatische Erstattungen, die Anzeige der verfügbaren Gutschriften in Kundenkonten und die E-Mail-Vorlage, die für an Kunden gesendete Benachrichtigungen verwendet wird.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen **[!UICONTROL Customer Configuration]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Customer Configuration]** aus.
 
-1. Erweitern Sie die **[!UICONTROL Store Credit Options]** Abschnitt.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Store Credit Options]** .
 
-   ![Kreditoptionen speichern](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
+   ![Speicherkreditoptionen](../configuration-reference/customers/assets/customer-configuration-store-credit-options.png){width="600" zoomable="yes"}
 
-1. Satz **[!UICONTROL Enable Store Credit Functionality]** nach `Yes`.
+1. Setzen Sie **[!UICONTROL Enable Store Credit Functionality]** auf `Yes`.
 
 1. Legen Sie je nach Ihrer Voreinstellung Folgendes fest:
 
    * **[!UICONTROL Show Store Credit History to Customers]**
    * **[!UICONTROL Refund Store Credit Automatically]**
 
-1. Satz **[!UICONTROL Store Credit Update Email Sender]** an die Store-Identität, die als Absender von E-Mail-Benachrichtigungen erscheint, die an Kunden gesendet werden.
+1. Setzen Sie **[!UICONTROL Store Credit Update Email Sender]** auf die Store-Identität, die als Absender von E-Mail-Benachrichtigungen angezeigt wird, die an Kunden gesendet werden.
 
-1. Satz **[!UICONTROL Store Credit Update Email Template]** der Vorlage, die für an Kunden gesendete E-Mail-Benachrichtigungen verwendet wird.
+1. Setzen Sie **[!UICONTROL Store Credit Update Email Template]** auf die Vorlage, die für E-Mail-Benachrichtigungen verwendet wird, die an Kunden gesendet werden.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.

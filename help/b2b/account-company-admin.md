@@ -15,31 +15,31 @@ ht-degree: 0%
 
 Der Unternehmensadministrator wird beim ersten Erstellen des Unternehmenskontos zunächst zugewiesen und kann nur von einem Store-Administrator des Administrators geändert werden.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
 1. Suchen Sie das Unternehmen in der Liste und klicken Sie auf **[!UICONTROL Edit]**.
 
    ![Unternehmen](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Company Admin]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Company Admin]** .
 
    ![Unternehmensadministrator](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
-1. Geben Sie die **[!UICONTROL Job Title]** des neuen Unternehmensadministrators und klicken Sie auf **[!UICONTROL Proceed]** , um fortzufahren.
+1. Geben Sie den Wert **[!UICONTROL Job Title]** des neuen Unternehmensadministrators ein und klicken Sie auf **[!UICONTROL Proceed]** , um fortzufahren.
 
-   Durch diese Aktion werden das Formular und die erforderlichen _[!UICONTROL First Name]_und_[!UICONTROL Last Name]_ -Felder hervorgehoben werden.
+   Durch diese Aktion wird das Formular gelöscht und die erforderlichen Felder _[!UICONTROL First Name]_und_[!UICONTROL Last Name]_ werden hervorgehoben.
 
-1. Geben Sie die **[!UICONTROL Email]** Adresse des neuen Unternehmensadministrators.
+1. Geben Sie die **[!UICONTROL Email]** -Adresse des neuen Unternehmensadministrators ein.
 
    Wenn das System die E-Mail-Adresse nicht in der Datenbank findet, werden Sie aufgefordert zu bestätigen, dass Sie den Unternehmensadministrator ersetzen möchten.
 
-   - Wenn für den neuen Unternehmensadministrator kein Benutzerkonto vorhanden ist, erstellt das System ein Konto der `Company Admin` Typ.
+   - Wenn für den neuen Unternehmensadministrator kein Benutzerkonto vorhanden ist, erstellt das System ein Konto vom Typ `Company Admin`.
 
    - Wenn das Benutzerkonto im System vorhanden ist, wird es an die Stelle des Unternehmensadministrators in der Unternehmensstruktur verschoben.
 
-1. Geben Sie die **[!UICONTROL First Name]** und **[!UICONTROL Last Name]** sowie alle anderen für den neuen Unternehmensadministrator relevanten Informationen.
+1. Geben Sie die Werte **[!UICONTROL First Name]** und **[!UICONTROL Last Name]** sowie alle anderen Informationen ein, die für den neuen Unternehmensadministrator gelten.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
    Das individuelle Konto des ehemaligen Unternehmensadministrators verbleibt im System als aktives individuelles Benutzerkonto in der Unternehmensstruktur, das der Standardbenutzerrolle zugewiesen ist.
 

@@ -1,138 +1,138 @@
 ---
-title: '''[!DNL Page Builder] Exemplarische Vorgehensweise: Teil 2: Blöcke'
-description: Erfahren Sie bei der Verwendung von [!DNL Page Builder].
+title: '[!DNL Page Builder] Exemplarische Vorgehensweise: Teil 2: Blöcke'
+description: Erfahren Sie mehr über den Unterschied zwischen einfachen und dynamischen Bausteinen bei Verwendung von  [!DNL Page Builder].
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
 source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2073'
 ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] Exemplarische Vorgehensweise: Teil 2: Blöcke
+# [!DNL Page Builder] Durchgehender Teil 2: Blöcke
 
-Die folgende Übung zeigt den Unterschied zwischen [einfache Blöcke](../content-design/blocks.md) und [dynamische Blöcke](dynamic-block.md)und Verwendung [!DNL Page Builder] um jeden Block-Typ zu erstellen.
+Die folgende Übung zeigt den Unterschied zwischen [einfachen Bausteinen](../content-design/blocks.md) und [dynamischen Bausteinen](dynamic-block.md) und der Verwendung von [!DNL Page Builder] zur Erstellung der einzelnen Bausteine.
 
 >[!NOTE]
 >
->[!DNL Page Builder] hat einen neuen Inhaltstyp namens _Banner_, das in der ersten exemplarischen Vorgehensweise vorgestellt wird und nicht mit der vorherigen Bannerfunktion in Zusammenhang steht. Was war zuvor die Banneroption im [Inhaltsmenü](../content-design/content-menu.md), ist jetzt _Dynamischer Block_.
+>[!DNL Page Builder] hat einen neuen Inhaltstyp namens _Banner_, der in der ersten exemplarischen Vorgehensweise vorgestellt wird und nicht mit der vorherigen Bannerfunktion in Zusammenhang steht. Zuvor war die Banneroption im Menü [Inhalt](../content-design/content-menu.md) jetzt _Dynamischer Block_.
 
 ![Dynamischer Block in der Storefront](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
 
-Bei dieser Übung wird davon ausgegangen, dass Sie [Teil 1: Einfache Seite](1-simple-page.md), einschließlich der Voraussetzungen und [heruntergeladene Beispieldateien](./assets/simple-page-assets.zip). Befolgen Sie die Teile dieser exemplarischen Vorgehensweise in der richtigen Reihenfolge.
+Bei dieser Übung wird davon ausgegangen, dass Sie [Teil 1: Einfache Seite](1-simple-page.md) abgeschlossen haben, einschließlich der Voraussetzungen und der [heruntergeladenen Beispieldateien](./assets/simple-page-assets.zip). Befolgen Sie die Teile dieser exemplarischen Vorgehensweise in der richtigen Reihenfolge.
 
 >[!NOTE]
 >
->Diese exemplarischen Vorgehensweisen werden aktualisiert, um die jüngsten Änderungen an der [!DNL Page Builder] Arbeitsbereich in Version 2.4.1. Wenn Sie eine frühere Adobe Commerce-Version verwenden, verwenden Sie die [!DNL Page Builder] Übungen im [[!DNL Commerce] 2.3 Benutzerhandbuch](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html).
+>Diese exemplarischen Vorgehensweisen werden aktualisiert, um die jüngsten Änderungen am Arbeitsbereich [!DNL Page Builder] in Version 2.4.1 widerzuspiegeln. Wenn Sie eine frühere Adobe Commerce-Version verwenden, verwenden Sie die im [[!DNL Commerce] 2.3 Benutzerhandbuch](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html) enthaltenen [!DNL Page Builder] Übungen.
 
 ## Teil 1: Erstellen eines einfachen Blocks
 
-In dieser exemplarischen Vorgehensweise erstellen Sie einen einfachen Block mit Inhalt aus [!DNL Google Maps]. Einfache Blöcke werden manchmal als _CMS-Blöcke_ oder _statische Bausteine_, da sich der Inhalt nicht ändert. Ein einfacher Block eignet sich ideal für Inhalte, die Sie wiederverwenden möchten.
+In dieser exemplarischen Vorgehensweise erstellen Sie einen einfachen Block mit Inhalt von [!DNL Google Maps]. Einfache Blöcke werden manchmal als _CMS-Blöcke_ oder _statische Blöcke_ bezeichnet, da sich der Inhalt nicht ändert. Ein einfacher Block eignet sich ideal für Inhalte, die Sie wiederverwenden möchten.
 
 ### 1. Schritt: Baustein erstellen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Add New Block]**.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Add New Block]**.
 
-1. Für **[!UICONTROL Block Title]**, eingeben `Google Map`.
+1. Geben Sie für **[!UICONTROL Block Title]** den Wert `Google Map` ein.
 
-1. Für **[!UICONTROL Identifier]**, eingeben `google-map`.
+1. Geben Sie für **[!UICONTROL Identifier]** den Wert `google-map` ein.
 
-1. Wählen Sie die **[!UICONTROL Store View]** wo der Block verfügbar sein soll.
+1. Wählen Sie die **[!UICONTROL Store View]** aus, wo der Block verfügbar sein soll.
 
    ![Blockinformationen](./assets/pb-tutorial2-block-new-google-map.png){width="600" zoomable="yes"}
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Save]**.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Save]**.
 
-### Schritt 2: Hinzufügen einer [!DNL Google Map]
+### Schritt 2: Hinzufügen eines [!DNL Google Map]
 
-1. Scrollen Sie nach unten zum [!DNL Page Builder] Inhaltsvorschau (derzeit leer) und klicken Sie auf **[!UICONTROL Edit with Page Builder]**.
+1. Scrollen Sie nach unten zur Inhaltsvorschau [!DNL Page Builder] (derzeit leer) und klicken Sie auf **[!UICONTROL Edit with Page Builder]**.
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Media]** und ziehen Sie eine **[!UICONTROL Map]** Platzhalter zur Bühne.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Wert **[!UICONTROL Media]** und ziehen Sie einen Platzhalter **[!UICONTROL Map]** auf die Bühne.
 
-   ![Ziehen einer Karte auf die Bühne](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
+   ![Ziehen einer Zuordnung zur Bühne](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
 
    Eine Zuordnung zu Ihrem Speicherort wird angezeigt, wenn [!DNL Google Maps] für Ihren Store konfiguriert ist.
 
-   ![Konfigurierte Google Map für Ihren Store](./assets/pb-tutorial2-google-map.png){width="600" zoomable="yes"}
+   ![Konfigurierte Google-Karte für Ihren Store](./assets/pb-tutorial2-google-map.png){width="600" zoomable="yes"}
 
    Eine Platzhalterzuordnung wird angezeigt, wenn [!DNL Google Maps] noch nicht für Ihren Store konfiguriert ist.
 
    ![[!DNL Google Maps] Platzhalter](./assets/pb-tutorial2-media-map-not-configured.png){width="600" zoomable="yes"}
 
-1. Klicken Sie in der rechten oberen Ecke der Bühne auf die _Vollbild schließen_ (![Symbol &quot;Vollbild schließen&quot;](./assets/pb-icon-reduce.png)).
+1. Klicken Sie in der oberen rechten Ecke der Bühne auf das Symbol _Vollbild schließen_ (![Vollbildsymbol schließen](./assets/pb-icon-reduce.png)).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_für den Baustein, in dem die Vorschau angezeigt wird.
+   Wenn Sie auf dieses Symbol klicken, gelangen Sie zum Abschnitt &quot;_[!UICONTROL Content]_&quot;für den Block mit der Vorschau.
 
-1. Klicken Sie oben rechts auf die **[!UICONTROL Save]** Pfeil und Auswahl **[!UICONTROL Save & Close]**.
+1. Klicken Sie in der oberen rechten Ecke auf den Pfeil **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]**.
 
-### Schritt 3: Konfigurieren [!DNL Google Maps]
+### Schritt 3: Konfigurieren Sie [!DNL Google Maps]
 
-Wenn [!DNL Google Maps] für Ihren Store bereits konfiguriert ist, können Sie diesen Schritt überspringen und mit dem nächsten fortfahren.
+Wenn [!DNL Google Maps] bereits für Ihren Store konfiguriert ist, können Sie diesen Schritt überspringen und mit dem nächsten fortfahren.
 
-1. Navigieren Sie zu [Google Cloud Platform-Konsole](https://console.cloud.google.com/google/maps-apis/overview).
+1. Wechseln Sie zur [Google Cloud Platform Console](https://console.cloud.google.com/google/maps-apis/overview).
 
 1. Klicken Sie auf das Projekt-Dropdown-Menü und wählen oder erstellen Sie das Projekt, für das Sie einen API-Schlüssel hinzufügen möchten.
 
-1. Um Ihre API-Anmeldeinformationen zu konfigurieren, folgen Sie dem [instructions][1] im [!DNL Google Maps] Dokumentation.
+1. Um Ihre API-Anmeldeinformationen zu konfigurieren, befolgen Sie die [Anweisungen][1] in der [!DNL Google Maps] -Dokumentation.
 
 1. Kopieren Sie Ihren API-Schlüssel in die Zwischenablage.
 
-1. Kehren Sie zu [!DNL Commerce] Admin und gehen Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Kehren Sie zum [!DNL Commerce] Admin zurück und gehen Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Im linken Bereich unter _[!UICONTROL General]_auswählen **[!UICONTROL Content Management]**.
+1. Wählen Sie im linken Bereich unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
-   ![Erweiterte Inhaltswerkzeuge](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
+   ![Erweiterte Content-Tools](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
-   Weitere Informationen zum [!UICONTROL Content Management Advanced Tools] Konfigurationsoptionen, siehe [_Konfigurationshandbuch_](../configuration-reference/general/content-management.md).
+   Weitere Informationen zu den [!UICONTROL Content Management Advanced Tools] -Konfigurationsoptionen finden Sie im [_Konfigurationshandbuch_](../configuration-reference/general/content-management.md).
 
-1. Für **[!UICONTROL Google Maps API Key]**, fügen Sie den kopierten Schlüssel ein.
+1. Fügen Sie für **[!UICONTROL Google Maps API Key]** den kopierten Schlüssel ein.
 
-1. Klicken **[!UICONTROL Test Key]**.
+1. Klicken Sie auf **[!UICONTROL Test Key]**.
 
-   Wenn ein Problem mit Ihrem Schlüssel vorliegt, kehren Sie zum [!DNL Google Maps] Plattform-Site zur Lösung des Problems. Versuchen Sie es dann erneut.
+   Wenn ein Problem mit Ihrem Schlüssel auftritt, kehren Sie zur Platform-Site &quot;[!DNL Google Maps]&quot;zurück, um das Problem zu beheben. Versuchen Sie es dann erneut.
 
 1. Nachdem Ihr Schlüssel verifiziert wurde, klicken Sie auf **[!UICONTROL Save Config]**.
 
 ### Schritt 4: Baustein zu einer Seite hinzufügen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Suchen Sie im Raster die _[!UICONTROL Simple Page]_, die Sie im ersten Tutorial erstellt haben, und wählen Sie **[!UICONTROL Edit]**im_[!UICONTROL Action]_ Spalte.
+1. Suchen Sie im Raster nach dem im ersten Tutorial erstellten _[!UICONTROL Simple Page]_und wählen Sie **[!UICONTROL Edit]**in der Spalte_[!UICONTROL Action]_ aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Content]** und klicken Sie auf **[!UICONTROL Edit with Page Builder]** oder innerhalb des Inhaltsvorschaubereichs.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Content]** und klicken Sie auf **[!UICONTROL Edit with Page Builder]** oder innerhalb des Inhaltsvorschaubereichs.
 
-1. Im [!DNL Page Builder] Bereich unter _[!UICONTROL Layout]_, ziehen Sie eine **[!UICONTROL Row]**-Platzhalter an den Anfang der Bühne.
+1. Ziehen Sie im Bedienfeld [!DNL Page Builder] unter _[!UICONTROL Layout]_einen Platzhalter **[!UICONTROL Row]**an den Anfang der Bühne.
 
-   ![Zeile am Anfang der Phase hinzufügen](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
+   ![Hinzufügen der Zeile zum Anfang der Phase](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Add Content]** und ziehen Sie eine **[!UICONTROL Block]** Platzhalter für die neue Zeile.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Wert **[!UICONTROL Add Content]** und ziehen Sie einen Platzhalter **[!UICONTROL Block]** in die neue Zeile.
 
-1. Bewegen Sie den Mauszeiger über den leeren Block-Container, um die Symbolleiste anzuzeigen und die _Einstellungen_ (![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den leeren Block-Container, um die Toolbox anzuzeigen und das Symbol _Einstellungen_ (![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) zu wählen.
 
-   ![Block-Toolbox](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
+   ![Block toolbox](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
 1. Klicken Sie auf der Seite Block bearbeiten auf **[!UICONTROL Select Block]**.
 
    ![Block auswählen](./assets/pb-add-content-block-settings-block-select.png){width="600" zoomable="yes"}
 
-1. Geben Sie in das Suchfeld `map` und drücken Sie die Eingabetaste, um den von Ihnen erstellten Baustein zu finden.
+1. Geben Sie im Suchfeld `map` ein und drücken Sie die Eingabetaste, um den von Ihnen erstellten Block zu suchen.
 
    ![Block in Liste suchen](./assets/pb-add-content-block-settings-block-find.png){width="600" zoomable="yes"}
 
-1. Klicken Sie im Raster auf **[!UICONTROL Select]** zur Auswahl der [!DNL Google Maps] blockieren.
+1. Klicken Sie im Raster auf **[!UICONTROL Select]** , um den Block [!DNL Google Maps] auszuwählen.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen zu speichern und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen zu speichern und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
-1. Klicken Sie in der rechten oberen Ecke der Bühne auf die _Vollbild schließen_ (![Symbol &quot;Vollbild schließen&quot;](./assets/pb-icon-reduce.png)).
+1. Klicken Sie in der oberen rechten Ecke der Bühne auf das Symbol _Vollbild schließen_ (![Vollbildsymbol schließen](./assets/pb-icon-reduce.png)).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_für die Seite, in der die Vorschau angezeigt wird.
+   Wenn Sie auf dieses Symbol klicken, gelangen Sie zum Abschnitt &quot;_[!UICONTROL Content]_&quot;für die Seite, in der die Vorschau angezeigt wird.
 
-1. Klicken Sie oben rechts auf die **[!UICONTROL Save]** Pfeil und Auswahl **[!UICONTROL Save & Close]**.
+1. Klicken Sie in der oberen rechten Ecke auf den Pfeil **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]**.
 
 **Herzlichen Glückwunsch!** Sie haben den ersten Teil der Gruppenübung abgeschlossen. Achten Sie darauf, dass Sie Ihre Arbeit zur Referenz behalten.
 
@@ -144,53 +144,53 @@ Ein dynamischer Block umfasst eine Logik, die bestimmt, wo, wann und wem er ange
 
 ### Schritt 1: Erstellen eines neuen dynamischen Blocks
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
 
-   ![Liste dynamischer Blöcke](./assets/pb-tutorial2-block-dynamic-add.png){width="700" zoomable="yes"}
+   ![Liste der dynamischen Blöcke](./assets/pb-tutorial2-block-dynamic-add.png){width="700" zoomable="yes"}
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Add Dynamic Block]**.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Add Dynamic Block]**.
 
-   ![Neue Seite &quot;Dynamischer Block&quot;](./assets/pb-tutorial2-block-dynamic-new.png){width="600" zoomable="yes"}
+   ![Neue dynamische Blockseite](./assets/pb-tutorial2-block-dynamic-new.png){width="600" zoomable="yes"}
 
 1. Konfigurieren Sie die grundlegenden Einstellungen für den neuen dynamischen Block:
 
-   - Satz **[!UICONTROL Enable Dynamic Block]** nach `Yes`.
+   - Setzen Sie **[!UICONTROL Enable Dynamic Block]** auf `Yes`.
 
-   - Für **[!UICONTROL Dynamic Block Name]**, eingeben `Tee Shirt Promo`.
+   - Geben Sie für **[!UICONTROL Dynamic Block Name]** den Wert `Tee Shirt Promo` ein.
 
-   - Satz **[!UICONTROL Dynamic Block Type]** nach `Content Area` und klicken **[!UICONTROL Done]**.
+   - Setzen Sie **[!UICONTROL Dynamic Block Type]** auf `Content Area` und klicken Sie auf **[!UICONTROL Done]**.
 
-     Der dynamische Blocktyp legt fest, wo im [Seitenlayout](../content-design/page-layout.md) dass der Block platziert ist. Beim Einrichten eines dynamischen Blocks für Ihren Store sollten Sie sowohl das Seitenlayout als auch die [Design](../content-design/themes.md), damit Sie den verfügbaren Platz optimal nutzen können. Einige Stores haben einen aktiven Inhaltsbereich, der auf eine feste Breite beschränkt ist, während andere die volle Breite des Bildschirms erweitern.
+     Der dynamische Blocktyp bestimmt, wo der Block im [Seitenlayout](../content-design/page-layout.md) platziert wird. Beim Einrichten eines dynamischen Blocks für Ihren Store sollten Sie sowohl das Seitenlayout als auch das [Design](../content-design/themes.md) berücksichtigen, damit Sie den verfügbaren Platz sinnvoll einsetzen können. Einige Stores haben einen aktiven Inhaltsbereich, der auf eine feste Breite beschränkt ist, während andere die volle Breite des Bildschirms erweitern.
 
      ![Einstellung &quot;Dynamischer Blocktyp&quot;](./assets/pb-dynamic-block-type.png){width="600" zoomable="yes"}
 
-   - Für **[!UICONTROL Customer Segment]** aktivieren Sie die Kontrollkästchen der einzelnen Segmente, die Sie auf den dynamischen Block anwenden möchten, und klicken Sie auf **Fertig** , um die Segmentliste zu speichern.
+   - Aktivieren Sie für &quot;**[!UICONTROL Customer Segment]**&quot;das Kontrollkästchen jedes Segments, das Sie auf den dynamischen Block anwenden möchten, und klicken Sie auf &quot;**Fertig**&quot;, um die Segmentliste zu speichern.
 
-     Im folgenden Beispiel gibt es zwei [Kundensegmente](../customers/customer-segments.md) die registrierte Kunden nach Geschlecht identifizieren. Dieser dynamische Block erscheint nur registrierten weiblichen Kunden, die bei ihrem Einkauf in Ihrem Geschäft bei ihren Konten angemeldet sind.
+     Im folgenden Beispiel gibt es zwei [Kundensegmente](../customers/customer-segments.md), die registrierte Kunden nach Geschlecht identifizieren. Dieser dynamische Block erscheint nur registrierten weiblichen Kunden, die bei ihrem Einkauf in Ihrem Geschäft bei ihren Konten angemeldet sind.
 
      ![Auswählen der Kundensegmente](./assets/pb-dynamic-block-customer-segment.png){width="600" zoomable="yes"}
 
 ### Schritt 2: Einstellungen abschließen
 
-Scrollen Sie nach unten zum _[!UICONTROL Content]_-Abschnitt, der ein leeres [!DNL Page Builder] Inhaltsvorschau und klicken Sie auf **[!UICONTROL Edit with Page Builder]**. Führen Sie dann die folgenden Aufgaben aus:
+Scrollen Sie nach unten zum Abschnitt &quot;_[!UICONTROL Content]_&quot;, in dem eine leere &quot;[!DNL Page Builder]&quot;-Inhaltsvorschau angezeigt wird, und klicken Sie auf &quot;**[!UICONTROL Edit with Page Builder]**&quot;. Führen Sie dann die folgenden Aufgaben aus:
 
 **Aufgabe 1:** Hintergrundbild hinzufügen
 
-1. Bewegen Sie den Mauszeiger über den Zeilencontainer, um die Symbolleiste anzuzeigen und die _Einstellungen_ (![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den Zeilencontainer, um die Symbolleiste anzuzeigen und das Symbol _Einstellungen_ (![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) zu wählen.
 
-1. under _[!UICONTROL Appearance]_auswählen **[!UICONTROL Full Bleed]**.
+1. Wählen Sie unter &quot;_[!UICONTROL Appearance]_&quot;die Option &quot;**[!UICONTROL Full Bleed]**&quot;.
 
-1. Für **[!UICONTROL Minimum Height]**, eingeben `400px`.
+1. Geben Sie für **[!UICONTROL Minimum Height]** den Wert `400px` ein.
 
-1. Scrollen Sie zum _[!UICONTROL Background]_und legen Sie die **[!UICONTROL Background Image]**durch Klicken auf **[!UICONTROL Select from Gallery]**und wählen Sie `wide-banner-background.png` Bild, das im ersten Tutorial hochgeladen wurde.
+1. Scrollen Sie zum Abschnitt &quot;_[!UICONTROL Background]_&quot;und legen Sie den Wert &quot;**[!UICONTROL Background Image]**&quot;fest, indem Sie auf &quot;**[!UICONTROL Select from Gallery]**&quot;klicken und das im ersten Tutorial hochgeladene Bild &quot;`wide-banner-background.png`&quot;auswählen.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
    ![Zeile mit dem Bild](./assets/pb-tutorial2-row-image.png){width="600" zoomable="yes"}
 
 **Aufgabe 2:** Spalten hinzufügen
 
-Im [!DNL Page Builder] Bereich unter _[!UICONTROL Layout]_, ziehen Sie eine **[!UICONTROL Column]**Platzhalter in der Zeile.
+Ziehen Sie im Bedienfeld [!DNL Page Builder] unter _[!UICONTROL Layout]_einen Platzhalter **[!UICONTROL Column]**auf die Zeile.
 
 ![Ziehen des Spaltentyps in die Zeile](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
@@ -198,7 +198,7 @@ Die Zeile ist nun in zwei Spalten mit gleicher Breite unterteilt.
 
 **Aufgabe 3:** Text hinzufügen
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Elements]** und ziehen Sie eine **Text** Platzhalter zur zweiten Spalte.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Eintrag **[!UICONTROL Elements]** und ziehen Sie einen Platzhalter **Text** in die zweite Spalte.
 
    ![Ziehen eines Textfelds in die zweite Spalte](./assets/pb-tutorial2-column-text-drag.png){width="600" zoomable="yes"}
 
@@ -212,11 +212,11 @@ Die Zeile ist nun in zwei Spalten mit gleicher Breite unterteilt.
 
    ![Texteingabe für die Spalte](./assets/pb-tutorial2-column-text-editor.png){width="600" zoomable="yes"}
 
-1. Wählen Sie alle drei Textzeilen aus und legen Sie über die Symbolleiste **Zeilenhöhe** nach `40px`.
+1. Wählen Sie alle drei Textzeilen aus und legen Sie mithilfe der Symbolleiste die **Zeilenhöhe** auf `40px` fest.
 
-   ![Zeilenhöhe festlegen](./assets/pb-tutorial2-column-text-editor-line-height.png){width="600" zoomable="yes"}
+   ![Festlegen der Zeilenhöhe](./assets/pb-tutorial2-column-text-editor-line-height.png){width="600" zoomable="yes"}
 
-1. Legen Sie die **[!UICONTROL Font Size]** für jede Zeile wie folgt:
+1. Legen Sie für jede Zeile den Wert **[!UICONTROL Font Size]** wie folgt fest:
 
    | Linie | Schriftgröße |
    |-----| ---------- |
@@ -230,103 +230,105 @@ Die Zeile ist nun in zwei Spalten mit gleicher Breite unterteilt.
 
 **Aufgabe 4:** Link hinzufügen
 
-In der ersten Übung haben Sie gelernt, wie Sie die [Schaltfläche](buttons.md) Inhaltstyp , um einen Link zu erstellen. In diesem Beispiel wird gezeigt, wie ein Link aus der Editor-Symbolleiste eingefügt wird.
+In der ersten Übung haben Sie erfahren, wie Sie mit dem Inhaltstyp [Schaltfläche](buttons.md) einen Link erstellen können. In diesem Beispiel wird gezeigt, wie ein Link aus der Editor-Symbolleiste eingefügt wird.
 
 1. Öffnen Sie auf einer anderen Browser-Registerkarte die Storefront und navigieren Sie zu der Seite, die das Ziel des Links sein soll.
 
    Sie können die vollständig qualifizierte URL oder eine relative URL verwenden, die den Verweis auf Ihre Store-Domäne weglässt.
 
-   Vollständige URL : `https://mystore.com/women/tops-women/tees-women.html`
+   Vollständige URL
+: `https://mystore.com/women/tops-women/tees-women.html`
 
-   Relative URL : `../women/tops-women/tees-women.html`
+   Relative URL
+: `../women/tops-women/tees-women.html`
 
-1. Kehren Sie zu [!DNL Page Builder] Registerkarte &quot;Arbeitsbereich&quot;und Texteditor auswählen `Shop Tees >` Text in der dritten Zeile und wählen Sie **Fett** (![Schaltfläche &quot;Bold&quot;](./assets/editor-btn-bold.png)) in der Editor-Symbolleiste.
+1. Kehren Sie zur Registerkarte &quot;[!DNL Page Builder] Arbeitsbereich&quot;und zum Texteditor zurück, wählen Sie den Text &quot;`Shop Tees >`&quot;in der dritten Zeile aus und wählen Sie in der Editor-Symbolleiste die Option &quot;**Fett**&quot;(![Fett-Schaltfläche](./assets/editor-btn-bold.png)).
 
-1. Mit dem `Shop Tees >` Text in der dritten, noch ausgewählten Zeile, wählen Sie **Link einfügen/bearbeiten** (![Schaltfläche &quot;Link einfügen/bearbeiten&quot;](./assets/pb-icon-add-link.png)) in der Editor-Symbolleiste.
+1. Wählen Sie bei ausgewähltem Text `Shop Tees >` in der dritten Zeile **Link einfügen/bearbeiten** (![Schaltfläche &quot;Link einfügen/bearbeiten&quot;](./assets/pb-icon-add-link.png)) in der Editor-Symbolleiste.
 
    ![Link einfügen](./assets/pb-tutorial2-column-text-editor-link-insert.png){width="600" zoomable="yes"}
 
-1. Für **[!UICONTROL URL]**, geben Sie den von Ihnen vorbereiteten relativen Link ein.
+1. Geben Sie für &quot;**[!UICONTROL URL]**&quot;den relativen Link ein, den Sie vorbereitet haben.
 
-1. Satz **[!UICONTROL Target]** nach `None`.
+1. Setzen Sie **[!UICONTROL Target]** auf `None`.
 
    Mit dieser Einstellung wird die Seite im selben Browserfenster geöffnet, anstatt eine neue Registerkarte zu öffnen.
 
-1. Für **[!UICONTROL Title]**, eingeben `Shop Tees`.
+1. Geben Sie für **[!UICONTROL Title]** den Wert `Shop Tees` ein.
 
    Das Attribut Titel-Link wird von einigen Browsern als QuickInfo verwendet.
 
-1. So speichern Sie den Link und kehren zur [!DNL Page Builder] Arbeitsbereich, klicken Sie auf **[!UICONTROL OK]**.
+1. Um den Link zu speichern und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren, klicken Sie auf **[!UICONTROL OK]**.
 
    ![Link-Details](./assets/pb-tutorial2-column-text-editor-link-insert-detail.png){width="600" zoomable="yes"}
 
-1. Klicken Sie in der rechten oberen Ecke der Bühne auf die _Vollbild schließen_ (![Symbol &quot;Vollbild schließen&quot;](./assets/pb-icon-reduce.png)).
+1. Klicken Sie in der oberen rechten Ecke der Bühne auf das Symbol _Vollbild schließen_ (![Vollbildsymbol schließen](./assets/pb-icon-reduce.png)).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_für den dynamischen Baustein mit der Vorschau angezeigt.
+   Wenn Sie auf dieses Symbol klicken, gelangen Sie zum Abschnitt &quot;_[!UICONTROL Content]_&quot; des dynamischen Blocks mit der Vorschau.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Save]**.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Save]**.
 
 ### Schritt 3: Hinzufügen einer Preisregel
 
-1. Öffnen Sie die _Tee Shirt Promo_ dynamischer Baustein erneut im Bearbeitungsmodus.
+1. Öffnen Sie den dynamischen Block _Tee Shirt Promo_ erneut im Bearbeitungsmodus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Related Promotions]** und klicken Sie auf **[!UICONTROL Add Cart Price Rules]**.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Related Promotions]** und klicken Sie auf **[!UICONTROL Add Cart Price Rules]**.
 
    ![Verwandte Promotions](./assets/pb-dynamic-blocks-related-promotions.png){width="600" zoomable="yes"}
 
-1. Im _Hinzufügen verwandter Preisregeln für Warenkorb_ Seite, aktivieren Sie das Kontrollkästchen für die _Kaufen Sie 3 T-Shirts und erhalten Sie die 4. gratis_ Preisregel und Klick **[!UICONTROL Add Selected]**.
+1. Aktivieren Sie auf der Seite _Zugehörige Warenkorbpreisregeln hinzufügen_ das Kontrollkästchen für die Shirts vom Typ _Kauf 3 , erhalten Sie die 4. Preisregel von free_ und klicken Sie auf **[!UICONTROL Add Selected]**.
 
-   ![Hinzufügen einer entsprechenden Preisregel für den Warenkorb](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
+   ![Hinzufügen einer zugehörigen Warenkorbpreisregel](./assets/pb-dynamic-block-add-related-cart-price-rules.png){width="600" zoomable="yes"}
 
-   Die Preisregel wird im _Verwandte Promotions_ Abschnitt _Preisregel für verwandten Warenkorb_. Sie können mehrere Preisregeln mit einem dynamischen Block verknüpfen. In diesem einfachen Beispiel wird jedoch nur eine verwendet.
+   Die Preisregel wird im Abschnitt _Zugehörige Promotions_ unter der Regel _Zugehörige Warenkorbpreise_ angezeigt. Sie können mehrere Preisregeln mit einem dynamischen Block verknüpfen. In diesem einfachen Beispiel wird jedoch nur eine verwendet.
 
-   ![Gewählte Preisregel für Warenkorb](./assets/pb-dynamic-block-related-cart-price-rule-list.png){width="600" zoomable="yes"}
+   ![Ausgewählte Preisregel für den Warenkorb](./assets/pb-dynamic-block-related-cart-price-rule-list.png){width="600" zoomable="yes"}
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Save]**.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Save]**.
 
 ### Schritt 4: Dynamischen Baustein zu einer Seite hinzufügen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**
 
-1. Suchen Sie die _Einfache Seite_ , die Sie in der [Erste exemplarische Vorgehensweise](1-simple-page.md) und öffnen Sie sie im Bearbeitungsmodus.
+1. Suchen Sie die _einfache Seite_, die Sie in der ersten exemplarischen Vorgehensweise ](1-simple-page.md) erstellt haben, und öffnen Sie sie im Bearbeitungsmodus.[
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Content]** und klicken Sie auf **[!UICONTROL Edit with Page Builder]**.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Content]** und klicken Sie auf **[!UICONTROL Edit with Page Builder]**.
 
-1. Bewegen Sie den Mauszeiger über die oberste Zeile mit demselben Bild wie der dynamische Block, um die Symbolleiste und die _Entfernen_ ( ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über die oberste Zeile mit demselben Bild wie der dynamische Block, um die Toolbox und das Symbol _Entfernen_ ( ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="20"} ) anzuzeigen.
 
-   Um das Entfernen der Zeile von der Seite zu bestätigen, klicken Sie auf  **[!UICONTROL OK]** .
+   Um das Entfernen der Zeile von der Seite zu bestätigen, klicken Sie auf **[!UICONTROL OK]** .
 
-1. Im [!DNL Page Builder] Bereich unter _[!UICONTROL Layout]_, ziehen Sie eine neue **[!UICONTROL Row]**-Platzhalter an den Anfang der Bühne.
+1. Ziehen Sie im Bedienfeld [!DNL Page Builder] unter _[!UICONTROL Layout]_einen neuen **[!UICONTROL Row]**Platzhalter an den Anfang der Bühne.
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Add Content]** und ziehen Sie eine **[!UICONTROL Dynamic Block]** Platzhalter für die neue Zeile.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Wert **[!UICONTROL Add Content]** und ziehen Sie einen Platzhalter **[!UICONTROL Dynamic Block]** in die neue Zeile.
 
    ![Dynamischen Block auf die Zeile ziehen](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den dynamischen Block-Container, um die Symbolleiste anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den dynamischen Block-Container, um die Toolbox anzuzeigen und das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) zu wählen.
 
    ![Dynamische Block-Toolbox](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
-1. Im _[!UICONTROL Edit Dynamic Block]_Seite, klicken **[!UICONTROL Select Dynamic Block]**.
+1. Klicken Sie auf der Seite _[!UICONTROL Edit Dynamic Block]_auf **[!UICONTROL Select Dynamic Block]**.
 
    ![Dynamischen Block auswählen](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
-1. Suchen Sie die _[!DNL Tee Shirt Promo]_dynamischer Block, den Sie erstellt haben, und klicken Sie auf **[!UICONTROL Select]**.
+1. Suchen Sie den von Ihnen erstellten dynamischen Block _[!DNL Tee Shirt Promo]_und klicken Sie auf **[!UICONTROL Select]**.
 
    Nachfolgend finden Sie eine Zusammenfassung der dynamischen Blockinformationen.
 
-   ![Dynamische Blockinformationen](./assets/pb-tutorial2-dynamic-block-edit.png){width="600" zoomable="yes"}
+   ![Informationen zu dynamischen Blöcken](./assets/pb-tutorial2-dynamic-block-edit.png){width="600" zoomable="yes"}
 
-1. Standard akzeptieren **[!UICONTROL Template]**, `Dynamic Block Block Template`.
+1. Nehmen Sie die standardmäßigen **[!UICONTROL Template]**, `Dynamic Block Block Template` an.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen zu speichern und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen zu speichern und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
    ![Dynamischer Block in der Seitenvorschau](./assets/pb-tutorial2-dynamic-block-on-page.png){width="600" zoomable="yes"}
 
-1. Klicken Sie in der rechten oberen Ecke der Bühne auf die _Vollbild schließen_ (![Symbol &quot;Vollbild schließen&quot;](./assets/pb-icon-reduce.png)).
+1. Klicken Sie in der oberen rechten Ecke der Bühne auf das Symbol _Vollbild schließen_ (![Vollbildsymbol schließen](./assets/pb-icon-reduce.png)).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_für die Seite, in der die Vorschau angezeigt wird.
+   Wenn Sie auf dieses Symbol klicken, gelangen Sie zum Abschnitt &quot;_[!UICONTROL Content]_&quot;für die Seite, in der die Vorschau angezeigt wird.
 
-1. Klicken Sie oben rechts auf die **[!UICONTROL Save]** Pfeil und Auswahl **[!UICONTROL Save & Close]**.
+1. Klicken Sie in der oberen rechten Ecke auf den Pfeil **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]**.
 
 Sie haben den zweiten Teil der Gruppenübung abgeschlossen. Achten Sie darauf, dass Sie Ihre Arbeit zur Referenz behalten.
 
@@ -338,11 +340,11 @@ In diesem letzten Teil der Übung bearbeiten Sie einen dynamischen Block, währe
 
 ### Schritt 1: Dynamischen Baustein bearbeiten
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
 
-1. Suchen Sie Ihre _[!DNL Tee Shirt Promo]_dynamischer Baustein im Raster und öffnen Sie ihn im Bearbeitungsmodus.
+1. Suchen Sie den dynamischen Block _[!DNL Tee Shirt Promo]_im Raster und öffnen Sie ihn im Bearbeitungsmodus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Content]** und klicken Sie auf **[!UICONTROL Edit with Page Builder]**.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Content]** und klicken Sie auf **[!UICONTROL Edit with Page Builder]**.
 
 1. Spaltenbreite ändern:
 
@@ -350,7 +352,7 @@ In diesem letzten Teil der Übung bearbeiten Sie einen dynamischen Block, währe
 
    - Halten Sie die Maustaste gedrückt und ziehen Sie den Rahmen zwei Trennlinien nach links.
 
-     ![Gitterunterteilungen](./assets/pb-tutorial2-dynamic-block-edit-column-width.png){width="600" zoomable="yes"}
+     ![Rasterdivisionen](./assets/pb-tutorial2-dynamic-block-edit-column-width.png){width="600" zoomable="yes"}
 
      Die erste Spalte ist nun vier von 12 (4/12) Rasterabteilungen breit, die zweite Spalte ist acht von 12 (8/12) Divisionen breit.
 
@@ -360,15 +362,15 @@ In diesem letzten Teil der Übung bearbeiten Sie einen dynamischen Block, währe
 
    - Wählen Sie die ersten beiden Textzeilen aus.
 
-   - Wählen Sie in der Editor-Symbolleiste **[!UICONTROL Text Color]** und klicken Sie auf **[!UICONTROL White]** Muster.
+   - Wählen Sie in der Editor-Symbolleiste **[!UICONTROL Text Color]** und klicken Sie auf das Muster **[!UICONTROL White]**.
 
    ![Textfarbe](./assets/pb-tutorial2-dynamic-block-edit-text-color.png){width="600" zoomable="yes"}
 
-1. Klicken Sie in der rechten oberen Ecke der Bühne auf die _Vollbild schließen_ (![Symbol &quot;Vollbild schließen&quot;](./assets/pb-icon-reduce.png)).
+1. Klicken Sie in der oberen rechten Ecke der Bühne auf das Symbol _Vollbild schließen_ (![Vollbildsymbol schließen](./assets/pb-icon-reduce.png)).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_für den dynamischen Baustein mit der Vorschau angezeigt.
+   Wenn Sie auf dieses Symbol klicken, gelangen Sie zum Abschnitt &quot;_[!UICONTROL Content]_&quot; des dynamischen Blocks mit der Vorschau.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Save]**.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Save]**.
 
 ### Schritt 2: Anzeigen des dynamischen Blocks
 
@@ -386,15 +388,15 @@ Da dieser dynamische Block nur für Mitglieder eines bestimmten Kundensegments s
 
 1. Melden Sie sich als weiblicher Kunde an:
 
-   - Klicken Sie oben rechts auf Ihrer Startseite auf **[!UICONTROL Sign In]**.
+   - Klicken Sie in der rechten oberen Ecke Ihrer Startseite auf **[!UICONTROL Sign In]**.
 
    - Wenn die Luma-Beispieldaten auf Ihrem System installiert sind, verwenden Sie die folgenden Anmeldeinformationen:
 
      **[!UICONTROL Email]** - `roni_cost@example.com`
 
-     **[!UICONTROL Password]** -  `roni_cost3@example.com`
+     **[!UICONTROL Password]** - `roni_cost3@example.com`
 
-   - Klicken **[!UICONTROL Sign In]**.
+   - Klicken Sie auf **[!UICONTROL Sign In]**.
 
    - Kehren Sie zur Beispielseite zurück, um den dynamischen Baustein anzuzeigen, den Sie mit der Tee Shirt-Promo erstellt haben.
 
@@ -402,6 +404,6 @@ Da dieser dynamische Block nur für Mitglieder eines bestimmten Kundensegments s
 
 Sie haben die Gruppenübung abgeschlossen. Achten Sie darauf, dass Sie Ihre Arbeit zur Referenz behalten.
 
-Wenn Sie bereit sind, fahren Sie mit [Teil 3: Kataloginhalt](3-catalog-content.md)
+Wenn Sie bereit sind, fahren Sie mit [Teil 3: Kataloginhalt](3-catalog-content.md) fort.
 
 [1]: https://developers.google.com/maps/documentation/javascript/get-api-key

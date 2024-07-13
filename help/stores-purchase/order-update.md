@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Auftrag aktualisieren
 
-Bei der Unterstützung eines Kunden, der eine Bestellung aufgegeben hat, müssen Sie den Status der Bestellung ermitteln. Die verfügbaren Optionen für eine `Pending` -Reihenfolge sich von den Optionen für `Processing` bestellen. Weitere Informationen finden Sie unter [Auftrag verarbeiten](order-processing.md).
+Bei der Unterstützung eines Kunden, der eine Bestellung aufgegeben hat, müssen Sie den Status der Bestellung ermitteln. Die verfügbaren Optionen für eine `Pending` -Bestellung unterscheiden sich von den Optionen für eine `Processing` -Bestellung. Weitere Informationen finden Sie unter [Verarbeiten einer Bestellung](order-processing.md).
 
 ## Ausstehende Bestellungen
 
-Nachdem ein Kunde eine Bestellung aufgegeben hat, aber bevor die Zahlung eingegangen ist, befindet sich die Bestellung in `Pending` -Status. Sie können die Reihenfolge bearbeiten, sie auf lange halten oder ganz abbrechen. Die Schaltflächenleiste einer ausstehenden Bestellung listet die verfügbaren Aktionen für eine Bestellung auf.
+Nachdem ein Kunde eine Bestellung aufgegeben hat, aber bevor die Zahlung eingegangen ist, befindet sich die Bestellung im Status `Pending`. Sie können die Reihenfolge bearbeiten, sie auf lange halten oder ganz abbrechen. Die Schaltflächenleiste einer ausstehenden Bestellung listet die verfügbaren Aktionen für eine Bestellung auf.
 
 ![Ausstehende Bestelloptionen](./assets/order-button-bar-pending.png){width="600" zoomable="yes"}
 
@@ -28,101 +28,101 @@ Wenn Sie wesentliche Teile einer Bestellung ändern, wird die ursprüngliche Bes
 | **[!UICONTROL Login as Customer]** | Ermöglicht es einem Admin-Benutzer, Kunden bei ihren Bestellungen zu unterstützen. |
 | **[!UICONTROL Cancel]** | Bricht die ausstehende Bestellung ab. |
 | **[!UICONTROL Send Email]** | Sendet eine E-Mail über die ausstehende Bestellung an den Kunden. |
-| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändert den Status der ausstehenden Bestellung in `On Hold`. Um den Laderaum freizugeben, wählen Sie _[!UICONTROL Unhold]_. |
-| **[!UICONTROL Invoice]** | Erstellt eine [Rechnung](invoices.md#create-an-invoice) aus der ausstehenden Bestellung durch Konvertieren der Bestellung in eine Rechnung und ändert den Bestellstatus in `processing`. |
-| **[!UICONTROL Ship]** | Erstellt eine [Verbringung](shipments.md#create-a-shipment) -Datensatz für die Bestellung. |
+| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändert den Status der ausstehenden Bestellung in `On Hold`. Wählen Sie &quot;_[!UICONTROL Unhold]_&quot;, um den Halten freizugeben. |
+| **[!UICONTROL Invoice]** | Erstellt eine [Rechnung](invoices.md#create-an-invoice) aus der ausstehenden Bestellung, indem die Bestellung in eine Rechnung konvertiert wird, und ändert den Bestellstatus in `processing`. |
+| **[!UICONTROL Ship]** | Erstellt einen [delivery](shipments.md#create-a-shipment) -Datensatz für die Bestellung. |
 | **[!UICONTROL Reorder]** | Erstellt eine neue ausstehende Bestellung, die ein Duplikat der aktuellen ausstehenden Bestellung ist. |
-| **[!UICONTROL Edit]** | Öffnet eine ausstehende Bestellung im Bearbeitungsmodus. Die Schaltfläche Bearbeiten steht nur bei ausstehenden Bestellungen oder bei auf Verhandlungsbasis erfolgten Bestellungen zur Verfügung [Anführungszeichen](../b2b/quotes.md). |
+| **[!UICONTROL Edit]** | Öffnet eine ausstehende Bestellung im Bearbeitungsmodus. Die Schaltfläche Bearbeiten steht nur für ausstehende Bestellungen oder für Bestellungen mit ausgehandelten [Anführungszeichen](../b2b/quotes.md) zur Verfügung. |
 
 {style="table-layout:auto"}
 
 ## Verarbeitungsaufträge
 
-Eine Bestellung gibt einen `Processing` state when:
+Eine Bestellung wechselt in den Status &quot;`Processing`&quot;, wenn:
 
-* Die Zahlung für eine Bestellung wird empfangen/erfasst und die Rechnung wird generiert, wenn die Zahlungsaktion auf `Authorize and Capture`.
-* Ein Bestellvorgang ist autorisiert, aber die Zahlung wird noch nicht erfasst, wenn die Zahlungsaktion auf `Authorize`.
+* Die Zahlung für eine Bestellung wird empfangen/erfasst und die Rechnung wird generiert - wenn die Zahlungsaktion auf `Authorize and Capture` gesetzt ist.
+* Ein Bestellvorgang ist autorisiert, aber die Zahlung wird noch nicht erfasst - wenn die Zahlungsaktion auf `Authorize` gesetzt ist.
 
-Die [Konfiguration der Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) bestimmt, welche Bestellaktionen nach der Erstellung einer Bestellung verfügbar sind.
+Die Konfiguration der [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) bestimmt, welche Bestellaktionen nach der Erstellung einer Bestellung verfügbar sind.
 
-Sie können eine `Processing` bestellen, aber Sie können die Abrechnungs- und Lieferadresse bearbeiten.
+Sie können eine `Processing` -Bestellung nicht wesentlich ändern, aber Sie können die Abrechnungs- und Lieferadresse bearbeiten.
 
-![Optionen für Verarbeitungsreihenfolge](./assets/order-button-bar-processing.png){width="600" zoomable="yes"}
+![Verarbeitungsreihenfolgen-Optionen](./assets/order-button-bar-processing.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Wenn die Zahlungsaktion der Zahlungsmethode auf `Authorize and Capture`, wird automatisch eine Rechnung erstellt, wenn der Kunde eine Bestellung aufgibt. In diesem Fall können Sie die Rückerstattung von Geldern mithilfe eines [Credit Memo](credit-memo-create.md), aber nicht [cancel](#cancel-a-pending-order) oder [void](#void-a-processing-order) die Bestellung.
+>Wenn die Zahlungsaktion der Zahlungsmethode auf `Authorize and Capture` eingestellt ist, wird automatisch eine Rechnung erstellt, wenn der Kunde eine Bestellung aufgibt. In diesem Fall können Sie Geldmittel mit einem [Credit Memo](credit-memo-create.md) zurückerstatten, aber [stornieren](#cancel-a-pending-order) oder [void](#void-a-processing-order) nicht in der Bestellung.
 
 | Schaltfläche | Beschreibung |
 |--- |--- |
 | **[!UICONTROL Back]** | Kehrt zur Seite Bestellungen zurück, ohne Änderungen zu speichern. |
 | **[!UICONTROL Send Email]** | Sendet eine E-Mail über die Bestellung an den Kunden. |
 | **[!UICONTROL Void]** | [Voids](#void-a-processing-order) eine Bestelltransaktion oder eine Teilbestelltransaktion. |
-| **[!UICONTROL Credit Memo]** | Initiiert den Prozess zum Erstellen einer [Credit Memo](credit-memo-create.md). |
-| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändert den Status des Verkaufsauftrags in `On Hold`. Wählen Sie die Option, um den Kaufauftrag freizugeben. _[!UICONTROL Unhold]_. |
+| **[!UICONTROL Credit Memo]** | Initiiert den Prozess zum Erstellen eines [Credit Memo](credit-memo-create.md). |
+| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändert den Status der Verkaufsreihenfolge in `On Hold`. Wählen Sie &quot;_[!UICONTROL Unhold]_&quot;, um den Halten für den Verkaufsauftrag freizugeben. |
 | **[!UICONTROL Reorder]** | Erstellt eine neue ausstehende Bestellung basierend auf der aktuellen Bestellung. |
-| **[!UICONTROL Create Returns]** | ![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce) Initiiert den Prozess in [return](returns.md) ein oder mehrere Artikel aus der Bestellung. |
+| **[!UICONTROL Create Returns]** | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Initiiert den Prozess zum [return](returns.md) eines oder mehrerer Elemente aus der Bestellung. |
 
 {style="table-layout:auto"}
 
 ## Eine Verarbeitungsreihenfolge ausschließen
 
-Wenn sich eine Bestellung noch in einer `Processing` Status und Zahlungsintegration auf `Authorize` (nicht `Authorize and Capture`), können Sie nur eine Transaktion stornieren oder eine Bestellung stornieren. [Abbruch einer Bestellung](#cancel-a-pending-order) auch die Zulassung entfällt.
+Wenn eine Bestellung noch den Status &quot;`Processing`&quot; aufweist und die Zahlungsintegration auf &quot;`Authorize`&quot;(nicht auf &quot;`Authorize and Capture`&quot;) gesetzt ist, können Sie nur eine Transaktion stornieren oder eine Bestellung stornieren. [Durch Abbruch einer Bestellung](#cancel-a-pending-order) wird auch die Autorisierung aufgehoben.
 
-Wenn eine Bestellung mithilfe einer Zahlungsmethode aufgegeben wird und die Zahlungsaktion auf `Authorize and Capture` Sie können die Mittel über ein Kreditmemo zurückerstatten, aber nicht stornieren, weil es fakturiert wird und die Zahlung erfasst wird.
+Wenn eine Bestellung mittels einer Zahlungsmethode mit der Zahlungsaktion auf `Authorize and Capture` gestellt wird, können Sie die Mittel über die Kreditkarte zurückerstatten, sie aber nicht stornieren, weil sie fakturiert und die Zahlung erfasst wird.
 
-Ihre Zahlungsmethode bestimmt Ihre verfügbaren Zahlungsaktionen. Siehe [Zahlungsaktionen](../configuration-reference/sales/payment-methods.md#payment-actions) für weitere Informationen.
+Ihre Zahlungsmethode bestimmt Ihre verfügbaren Zahlungsaktionen. Weitere Informationen finden Sie unter [Zahlungsaktionen](../configuration-reference/sales/payment-methods.md#payment-actions) .
 
-**_So löschen Sie eine Bestellung:_**
+**_So lassen Sie eine Bestellung aus:_**
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
-1. Im **[!UICONTROL Action]** die Spalte für die zu bearbeitende Reihenfolge, klicken Sie auf **[!UICONTROL View]**.
+1. Klicken Sie in der Spalte &quot;**[!UICONTROL Action]**&quot;, damit die Reihenfolge bearbeitet werden kann, auf &quot;**[!UICONTROL View]**&quot;.
 
-1. Klicks **[!UICONTROL Void]** , um den Auftrag zu annullieren.
+1. Klicken Sie auf **[!UICONTROL Void]** , um die Bestellung aufzuheben.
 
-1. Klicken Sie in der Eingabeaufforderung auf **[!UICONTROL OK]** , um den Auftrag zu annullieren.
+1. Klicken Sie in der Eingabeaufforderung auf **[!UICONTROL OK]** , um die Bestellung aufzuheben.
 
-Sie können alle erforderlichen Erstattungen über eine [Credit Memo](credit-memo-create.md) nachdem Mittel erfasst wurden. Sie können auch eine [Zulassung von Rückwaren (RMA)](returns.md) ausgegeben für Produktrückgaben. Weitere Informationen finden Sie unter [Verarbeitung einer Bestellung](order-processing.md).
+Sie können alle erforderlichen Rückerstattungen mithilfe eines [Credit Memo](credit-memo-create.md) vornehmen, nachdem die Mittel erfasst wurden. Sie können auch eine [RMA (Return Merchandise Autorisierung)](returns.md) erstellen, die für die Produktrückgabe ausgestellt wurde. Weitere Informationen finden Sie unter [Verarbeitung einer Bestellung](order-processing.md).
 
 ## Bearbeiten einer ausstehenden Bestellung
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
-1. Im **[!UICONTROL Action]** die Spalte für die zu bearbeitende Reihenfolge, klicken Sie auf **[!UICONTROL View]**.
+1. Klicken Sie in der Spalte &quot;**[!UICONTROL Action]**&quot;, damit die Reihenfolge bearbeitet werden kann, auf &quot;**[!UICONTROL View]**&quot;.
 
-1. Klicken **[!UICONTROL Edit]**.
+1. Klicken Sie auf **[!UICONTROL Edit]**.
 
    ![Reihenfolge bearbeiten](./assets/order-edit.png){width="600" zoomable="yes"}
 
-1. Klicken Sie in der Eingabeaufforderung auf **[!UICONTROL OK]** , um die Bearbeitung fortzusetzen.
+1. Klicken Sie in der Eingabeaufforderung auf **[!UICONTROL OK]** , um mit der Bearbeitung fortzufahren.
 
 1. Aktualisieren Sie die Bestellung nach Bedarf.
 
 1. Wenden Sie Ihre Änderungen an:
-   * Klicken Sie zum Speichern der an der Abrechnungs- oder Versandadresse vorgenommenen Änderungen auf **[!UICONTROL Save]**.
-   * Um an Zeileneinträgen vorgenommene Änderungen zu speichern und die Reihenfolge erneut zu verarbeiten, klicken Sie auf **[!UICONTROL Submit Order]**.
+   * Klicken Sie auf **[!UICONTROL Save]**, um die an der Abrechnungs- oder Versandadresse vorgenommenen Änderungen zu speichern.
+   * Klicken Sie auf &quot;**[!UICONTROL Submit Order]**&quot;, um an den Zeileneinträgen vorgenommene Änderungen zu speichern und die Reihenfolge erneut zu verarbeiten.
 
 ## Auf Eis legen
 
 Wenn die bevorzugte Zahlungsmethode des Kunden nicht verfügbar ist oder der Artikel vorübergehend nicht vorrätig ist, können Sie die Bestellung auf Lager halten.
 
-1. Im _Bestellungen_ Raster, suchen Sie die `Pending` Ordnung, die Sie auf Eis legen wollen.
+1. Suchen Sie im Raster _Bestellungen_ die `Pending`-Reihenfolge, die Sie auf Halten platzieren möchten.
 
-1. Im _Aktion_ Spalte, klicken **[!UICONTROL View]**.
+1. Klicken Sie in der Spalte _Aktion_ auf **[!UICONTROL View]**.
 
-1. Klicks **[!UICONTROL Hold]** um den Befehl auf Eis zu legen.
+1. Klicken Sie auf &quot;**[!UICONTROL Hold]**&quot;, um die Bestellung aufzubewahren.
 
-Um den Haltepunkt einer Bestellung zu entfernen, bearbeiten Sie die Reihenfolge erneut und klicken Sie auf **[!UICONTROL Unhold]**.
+Um den Haltepunkt einer Bestellung zu entfernen, bearbeiten Sie die Bestellung erneut und klicken Sie auf **[!UICONTROL Unhold]**.
 
 ## Abbrechen einer ausstehenden Bestellung
 
-Wenn eine Bestellung abgebrochen wird, ändert sich ihr Status von `Pending` nach `Canceled`.
+Wenn eine Bestellung abgebrochen wird, ändert sich ihr Status von `Pending` in `Canceled`.
 
-1. Im _[!UICONTROL Orders]_Suchen Sie nach der ausstehenden Bestellung, die abgebrochen werden soll.
+1. Suchen Sie im Raster _[!UICONTROL Orders]_nach der ausstehenden Bestellung, die abgebrochen werden soll.
 
-1. Im _[!UICONTROL Action]_Spalte, klicken **[!UICONTROL View]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View]**.
 
-1. Klicks **[!UICONTROL Cancel]** , um die Bestellung abzubrechen.
+1. Klicken Sie auf **[!UICONTROL Cancel]** , um die Bestellung abzubrechen.
 
-Der Status der Bestellung lautet jetzt `Canceled`.
+Der Status der Bestellung ist jetzt `Canceled`.

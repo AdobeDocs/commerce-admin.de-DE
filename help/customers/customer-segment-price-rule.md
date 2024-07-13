@@ -14,28 +14,28 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Ein Kundensegment kann für zielgerichtete Promotions verwendet werden, indem es mit einer [Warenkorbpreisregel](../merchandising-promotions/price-rules-cart.md).
+Ein Kundensegment kann für zielgerichtete Promotions verwendet werden, indem es mit einer [Warenkorbpreisregel](../merchandising-promotions/price-rules-cart.md) verknüpft wird.
 
 ![Warenkorbpreisregel - zielgerichtetes Kundensegment](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
 _**So verknüpfen Sie ein Segment mit einer Warenkorbpreisregel:**_
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
 
 1. Öffnen Sie eine neue oder vorhandene Regel:
 
-   * Um eine neue Regel zu verwenden, klicken Sie auf **[!UICONTROL Add New Rule]** in der oberen rechten Ecke.
+   * Um eine neue Regel zu verwenden, klicken Sie oben rechts auf **[!UICONTROL Add New Rule]** .
    * Um eine vorhandene Regel zu verwenden, klicken Sie in der Liste auf die Regel, um sie im Bearbeitungsmodus zu öffnen.
 
-1. Scrollen Sie nach unten und erweitern Sie die **[!UICONTROL Conditions]** Abschnitt.
+1. Scrollen Sie nach unten und erweitern Sie den Abschnitt **[!UICONTROL Conditions]** .
 
 1. Fügen Sie die Bedingung hinzu.
 
-   * Klicken Sie auf _Hinzufügen_ (![Listen-Symbol](../assets/icon-add-green-circle.png)), das die Liste der Bedingungen anzeigt. Wählen Sie anschließend **[!UICONTROL Customer Segment]**.
+   * Klicken Sie auf das Symbol _Hinzufügen_ (![Listensymbol](../assets/icon-add-green-circle.png)), das die Liste der Bedingungen anzeigt. Wählen Sie dann **[!UICONTROL Customer Segment]** aus.
 
    ![Preisregel für Warenkorb - Bedingung für Kundensegment hinzufügen](assets/condition-customer-segment.png){width="600" zoomable="yes"}
 
-   Standardmäßig ist die Bedingung so eingestellt, dass eine passende Bedingung gefunden wird. Klicken Sie bei Bedarf auf die **[!UICONTROL matches]** verknüpfen und den Operator in einen der folgenden Werte ändern:
+   Standardmäßig ist die Bedingung so eingestellt, dass eine passende Bedingung gefunden wird. Klicken Sie bei Bedarf auf den Link **[!UICONTROL matches]** und ändern Sie den Operator in einen der folgenden Werte:
 
    * `does not match`
    * `is one of`
@@ -43,14 +43,14 @@ _**So verknüpfen Sie ein Segment mit einer Warenkorbpreisregel:**_
 
    ![Bedingungsoperator](assets/price-rule-condition-customer-segment-operator.png){width="600" zoomable="yes"}
 
-1. Um ein bestimmtes Segment als Ziel festzulegen, klicken Sie auf Mehr **...** -Link, um weitere Optionen anzuzeigen. Klicken Sie dann auf die _Auswahl_ (![Listen-Symbol](../assets/icon-list-chooser.png)), um die Liste der Kundensegmente anzuzeigen.
+1. Um ein bestimmtes Segment als Ziel festzulegen, klicken Sie auf den Link Mehr **...** , um weitere Optionen anzuzeigen. Klicken Sie dann auf das Symbol _Auswahl_ (![Listensymbol](../assets/icon-list-chooser.png)), um die Liste der Kundensegmente anzuzeigen.
 
 1. Aktivieren Sie in der Liste das Kontrollkästchen jedes Segments, das Sie mit der Bedingung als Ziel auswählen möchten.
 
-   ![Preisregel für Warenkorb - Liste für Bedingungsauswahl](assets/condition-segment-chooser-list.png){width="600" zoomable="yes"}
+   ![Preisregel für Warenkorb - Liste der Bedingungsauswahl](assets/condition-segment-chooser-list.png){width="600" zoomable="yes"}
 
-1. Klicks **[!UICONTROL Select]** , um die ausgewählten Kundensegmente in die Bedingung einzufügen.
+1. Klicken Sie auf **[!UICONTROL Select]** , um die ausgewählten Kundensegmente in die Bedingung einzufügen.
 
 1. Nehmen Sie den Rest der Preisregel nach Bedarf vor.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.

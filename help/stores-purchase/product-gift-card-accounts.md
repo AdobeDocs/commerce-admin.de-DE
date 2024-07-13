@@ -5,7 +5,7 @@ exl-id: f8caff04-38fd-4195-ab11-77dae900976d
 feature: Products, Gift, Configuration
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -22,33 +22,33 @@ Die Konfiguration der Geschenkkarte legt die Standardeinstellungen für alle Ges
 
 ### Schritt 1: E-Mail-Benachrichtigungen konfigurieren
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Gift Cards]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Gift Cards]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die _[!UICONTROL Gift Card Email Settings]_und führen Sie folgende Schritte aus:
+1. Erweitern Sie den Abschnitt _[!UICONTROL Gift Card Email Settings]_des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
 
-   - Satz **[!UICONTROL Gift Card Notification Email Sender]** zur Store-Identität, die als Absender von Geschenkkartenbenachrichtigungen angezeigt wird.
+   - Setzen Sie &quot;**[!UICONTROL Gift Card Notification Email Sender]**&quot;auf die Store-Identität, die als Absender von Geschenkkartenbenachrichtigungen angezeigt wird.
 
-   - Satz **[!UICONTROL Gift Card Notification Email Template]** der Vorlage, die für die Benachrichtigung verwendet wird.
+   - Setzen Sie **[!UICONTROL Gift Card Notification Email Template]** auf die Vorlage, die für die Benachrichtigung verwendet wird.
 
-   ![E-Mail-Einstellungen für Gift-Karten](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
+   ![E-Mail-Einstellungen für die Gift-Karte](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die _[!UICONTROL Email Sent from Gift Card Account Management]_und führen Sie folgende Schritte aus:
+1. Erweitern Sie den Abschnitt _[!UICONTROL Email Sent from Gift Card Account Management]_des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
 
-   - Satz **[!UICONTROL Gift Card Email Sender]** in die Store-Identität, damit sie als Absender der Geschenkkarten erscheint.
+   - Setzen Sie **[!UICONTROL Gift Card Email Sender]** auf die Store-Identität, damit diese als Absender der Geschenkkarten angezeigt wird.
 
-   - Satz **[!UICONTROL Gift Card Template]** auf die Vorlage, die Sie für die Geschenkkarte verwenden möchten.
+   - Setzen Sie **[!UICONTROL Gift Card Template]** auf die Vorlage, die Sie für die Geschenkkarte verwenden möchten.
 
-Siehe [E-Mail-Adressen speichern](../configuration-reference/general/store-email-addresses.md) für bestimmte Konfigurationsfelder und Optionen.
+Spezifische Konfigurationsfelder und Optionen finden Sie unter [E-Mail-Adressen speichern](../configuration-reference/general/store-email-addresses.md) .
 
 ### Schritt 2: Allgemeine Einstellungen festlegen
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die _[!UICONTROL Gift Card General Settings]_Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt _[!UICONTROL Gift Card General Settings]_.
 
-1. Damit der Kunde den Wert auf der Karte gegen Bargeld einlösen kann, setzen Sie **[!UICONTROL Redeemable]** nach `Yes`.
+1. Damit der Kunde den Wert auf der Karte gegen Bargeld einlösen kann, setzen Sie **[!UICONTROL Redeemable]** auf `Yes`.
 
-1. Für **[!UICONTROL Lifetime (days)]**, geben Sie die Anzahl der Tage vor Ablauf der Karte an.
+1. Geben Sie für **[!UICONTROL Lifetime (days)]** die Anzahl der Tage ein, bevor die Karte abläuft.
 
    Wenn kein Ablaufdatum angegeben ist, lassen Sie das Feld leer.
 
@@ -56,20 +56,20 @@ Siehe [E-Mail-Adressen speichern](../configuration-reference/general/store-email
    >
    >Abhängig von Ihrem Standort kann es unzulässig sein, Geschenkgutscheine abzugeben. Prüfen Sie Ihre lokalen Gesetze, bevor Sie eine Lebensdauer für Ihre Geschenkgutscheine festlegen.
 
-1. Um Kunden die Möglichkeit zu geben, eine Meldung einzugeben, die die Geschenkkarte begleitet, legen Sie **[!UICONTROL Allow Gift Message]** nach `Yes` und geben Sie die Anzahl der Zeichen ein, die für die Nachricht verfügbar sind für **[!UICONTROL Gift Message Maximum Length]**.
+1. Um Kunden die Möglichkeit zu geben, eine der Geschenkkarte beigefügte Meldung einzugeben, setzen Sie **[!UICONTROL Allow Gift Message]** auf `Yes` und geben Sie die Anzahl der Zeichen ein, die für die Nachricht für **[!UICONTROL Gift Message Maximum Length]** verfügbar sind.
 
-1. Satz **[!UICONTROL Generate Gift Card Account when Orders Item is]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Generate Gift Card Account when Orders Item is]** auf einen der folgenden Werte:
 
    - `Ordered` - Das Geschenkkartenkonto wird erstellt, wenn die Bestellung aufgegeben wird.
    - `Invoiced` - Das Geschenkkartenkonto wird erstellt, nachdem die Zahlung erfasst und die Bestellung fakturiert wurde.
 
-   ![Allgemeine Einstellungen der Gift Card](../configuration-reference/sales/assets/gift-cards-gift-card-general-settings.png){width="600" zoomable="yes"}
+   ![Allgemeine Einstellungen für die Geschenkkarte](../configuration-reference/sales/assets/gift-cards-gift-card-general-settings.png){width="600" zoomable="yes"}
 
 ### Schritt 3: Einrichtung des Pools für den Code der Geschenkkarte
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die _[!UICONTROL Gift Card Account General Settings]_und führen Sie folgende Schritte aus:
+1. Erweitern Sie den Abschnitt _[!UICONTROL Gift Card Account General Settings]_des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
 
-   ![Allgemeine Einstellungen für Gift Card-Konten](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
+   ![Allgemeine Einstellungen des Gift-Card-Kontos](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
    - Um den Code anzupassen, führen Sie je nach Ihrer Voreinstellung Folgendes aus:
 
@@ -79,81 +79,81 @@ Siehe [E-Mail-Adressen speichern](../configuration-reference/general/store-email
       - Code-Suffix
       - Alle x Zeichen streichen
 
-   - Um die Anzahl der zu erzeugenden Codes zu bestimmen, geben Sie die **[!UICONTROL New Pool Size]**.
+   - Geben Sie den Wert **[!UICONTROL New Pool Size]** ein, um die Anzahl der zu erzeugenden Codes zu bestimmen.
 
-   - Um festzulegen, wann Sie eine Benachrichtigung erhalten, um den Code-Pool erneut vorzubereiten, geben Sie die **[!UICONTROL Low Code Pool Threshold]**.
+   - Geben Sie den Wert **[!UICONTROL Low Code Pool Threshold]** ein, um anzugeben, wann Sie die Benachrichtigung erhalten, dass der Code-Pool erneut vorrätig wird.
 
 1. Bevor Sie den Code-Pool generieren, klicken Sie auf **[!UICONTROL Save Config]**.
 
-1. Klicken **[!UICONTROL Generate]**.
+1. Klicken Sie auf **[!UICONTROL Generate]**.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ## Vorhandenes Geschenkkartenkonto überprüfen
 
 1. Gehen Sie wie folgt vor, um die Nummer des Kontos der Geschenkkarte für eine aktuelle Bestellung zu ermitteln:
 
-   - Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+   - Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
-   - Suchen Sie die Reihenfolge in der Liste und klicken Sie auf **[!UICONTROL View]** im _[!UICONTROL Action]_Spalte.
+   - Suchen Sie die Reihenfolge in der Liste und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View]**.
 
-   - Scrollen Sie nach unten zum _[!UICONTROL Items Ordered]_Abschnitt.
+   - Scrollen Sie nach unten zum Abschnitt &quot;_[!UICONTROL Items Ordered]_&quot;.
 
-   Die Zahl befindet sich im _[!UICONTROL Product]_Spalte, unter **[!UICONTROL Gift Card Accounts]**.
+   Die Zahl befindet sich in der Spalte _[!UICONTROL Product]_unter **[!UICONTROL Gift Card Accounts]**.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
 1. Suchen Sie das Konto für die Geschenkkarte im Raster und öffnen Sie es im Bearbeitungsmodus.
 
-   Der Code der Geschenkkarte wird oben im _Informationen_ Abschnitt.
+   Der Code der Geschenkkarte wird oben im Abschnitt _Informationen_ angezeigt.
 
-   ![Kontoinformationen für Geschenkgutscheine](./assets/gift-card-account-information.png){width="600" zoomable="yes"}
+   ![Kontoinformationen für Gift-Karten](./assets/gift-card-account-information.png){width="600" zoomable="yes"}
 
 ## Geschenkkartenkonto erstellen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add Gift Card Account]**.
 
-1. Im _[!UICONTROL Information]_Abschnitt, festlegen **[!UICONTROL Active]**nach `Yes` und gehen Sie wie folgt vor:
+1. Setzen Sie im Abschnitt _[!UICONTROL Information]_**[!UICONTROL Active]**auf `Yes` und führen Sie folgende Schritte aus:
 
-   - Damit der Kartensaldo beim Checkout eingelöst oder auf das Kundenkonto übertragen werden kann, legen Sie **[!UICONTROL Redeemable]** nach `Yes`.
+   - Setzen Sie **[!UICONTROL Redeemable]** auf `Yes`, damit der Kartenstand beim Checkout eingelöst oder auf das Kundenkonto übertragen werden kann.
 
-   - Wählen Sie die **[!UICONTROL Website]** wo das Geschenkkartenkonto verwendet werden kann.
+   - Wählen Sie die **[!UICONTROL Website]** aus, in der das Konto für die Geschenkkarte verwendet werden kann.
 
-   - Geben Sie den ersten **[!UICONTROL Balance]** auf der Geschenkkarte.
+   - Geben Sie den anfänglichen **[!UICONTROL Balance]** auf die Geschenkkarte ein.
 
-   - _(Optional)_ So legen Sie eine **[!UICONTROL Expiration Date]** für die Geschenkkarte das Datum aus dem Kalender auswählen ![Kalendersymbol](../assets/icon-calendar.png).
+   - _(Optional)_ Um eine **[!UICONTROL Expiration Date]** für die Geschenkkarte festzulegen, wählen Sie das Datum aus dem Kalender ![Kalendersymbol](../assets/icon-calendar.png).
 
      Wenn Sie das Feld leer lassen, läuft das Geschenkkartenkonto nicht ab.
 
      ![Neues Konto](./assets/gift-card-account-add-new.png){width="600" zoomable="yes"}
 
-1. Wählen Sie im linken Bereich die Option **[!UICONTROL Send Gift Card]** und gehen Sie wie folgt vor:
+1. Wählen Sie im linken Bereich **[!UICONTROL Send Gift Card]** aus und gehen Sie wie folgt vor:
 
-   - Geben Sie die **[!UICONTROL Recipient Email]** Adresse.
+   - Geben Sie die Adresse **[!UICONTROL Recipient Email]** ein.
 
-   - Geben Sie die **[!UICONTROL Recipient Name]**.
+   - Geben Sie den Wert **[!UICONTROL Recipient Name]** ein.
 
-   - Satz **[!UICONTROL Send Email from the Following Store View]** in die Store-Ansicht, die als Absender der Benachrichtigung über die Geschenkkarte angezeigt wird.
+   - Setzen Sie **[!UICONTROL Send Email from the Following Store View]** auf die Store-Ansicht, die als Absender der Benachrichtigung über die Geschenkkarte angezeigt wird.
 
-   ![Senden von Karteneinstellungen für Geschenkartikel](./assets/marketing-gift-card-accounts-new-send.png){width="600" zoomable="yes"}
+   ![Einstellungen der Gift-Karte senden](./assets/marketing-gift-card-accounts-new-send.png){width="600" zoomable="yes"}
 
 1. Führen Sie einen der folgenden Schritte aus, um das neue Konto zu speichern:
 
-   - Wenn Sie die Geschenkkarte noch nicht versenden möchten, klicken Sie auf **[!UICONTROL Save]**.
+   - Wenn Sie noch nicht bereit sind, die Geschenkkarte zu senden, klicken Sie auf **[!UICONTROL Save]**.
 
    - Um die Änderungen zu speichern und die Geschenkkarte per E-Mail an den Empfänger zu senden, klicken Sie auf **Speichern und E-Mail senden**.
 
 ## Verlauf des Geschenkkartenkontos anzeigen
 
-1. Navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Gehen Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
 1. Öffnen Sie die Geschenkkarte im Bearbeitungsmodus.
 
-1. Die **[!UICONTROL History]** der Geschenkkarte angezeigt.
+1. Die **[!UICONTROL History]** der Geschenkkarte wird angezeigt.
 
-   ![Verlauf der Geschenkkarte](./assets/gift-card-history.png){width="600" zoomable="yes"}
+   ![Geschichte der Geschenkkarte](./assets/gift-card-history.png){width="600" zoomable="yes"}
 
 | Spalte | Beschreibung |
 |--- |--- |
@@ -168,13 +168,13 @@ Siehe [E-Mail-Adressen speichern](../configuration-reference/general/store-email
 
 ## Geschenkkartenkonto löschen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
 1. Wählen Sie das zu löschende Konto für die Geschenkkarte aus und öffnen Sie es im Bearbeitungsmodus.
 
 1. Klicken Sie in der Menüleiste auf **[!UICONTROL Delete]**.
 
-1. Klicken Sie zur Bestätigung der Aktion auf **[!UICONTROL OK]**.
+1. Um die Aktion zu bestätigen, klicken Sie auf **[!UICONTROL OK]**.
 
 ## Spaltenbeschreibungen
 

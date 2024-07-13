@@ -14,31 +14,31 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Der Administrator [Aktionen](action-log.md) archivieren listet die CSV-Protokolldateien auf, die auf dem Server gespeichert sind. In der Konfiguration können Sie angeben, wie lange die Protokolleinträge gespeichert werden und wie oft sie archiviert werden. Standardmäßig enthält der Dateiname das aktuelle Datum im ISO-Format:  `yyyyMMddHH`
+Das Admin-Archiv [actions](action-log.md) listet die CSV-Protokolldateien auf, die auf dem Server gespeichert sind. In der Konfiguration können Sie angeben, wie lange die Protokolleinträge gespeichert werden und wie oft sie archiviert werden. Standardmäßig enthält der Dateiname das aktuelle Datum im ISO-Format:  `yyyyMMddHH`
 
 >[!NOTE]
 >
->Die Protokollarchivierung erfordert eine [Cron-Auftrag](cron.md) festgelegt werden.
+>Für die Protokollarchivierung muss ein [cron-Auftrag](cron.md) eingerichtet werden.
 
 ## Protokollarchiv konfigurieren
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Advanced]** und wählen **[!UICONTROL System]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Advanced]** und wählen Sie **[!UICONTROL System]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Admin Actions Log Archiving]** und legen Sie die folgenden Optionen fest:
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Admin Actions Log Archiving]** und legen Sie die folgenden Optionen fest:
 
-   - **[!UICONTROL Log Entry Lifetime, Days]** — Geben Sie die Anzahl der Tage an, nach denen die Protokolleinträge in der Datenbank beibehalten werden sollen, bevor sie entfernt werden.
-   - **[!UICONTROL Log Archiving Frequency]** — Legen Sie `Daily`, `Weekly`oder `Monthly`.
+   - **[!UICONTROL Log Entry Lifetime, Days]** - Geben Sie die Anzahl der Tage ein, nach denen die Protokolleinträge in der Datenbank beibehalten werden sollen, bevor sie entfernt werden.
+   - **[!UICONTROL Log Archiving Frequency]** - Auf `Daily`, `Weekly` oder `Monthly` setzen.
 
    ![Erweiterte Konfiguration - Archivierung des Admin-Aktionsprotokolls](../configuration-reference/advanced/assets/system-admin-actions-log-archiving.png){width="600" zoomable="yes"}
 
-   Eine detaillierte Liste der Konfigurationseinstellungen finden Sie unter [Archivierung des Admin Actions](../configuration-reference/advanced/system.md) im _Konfigurationsreferenz_.
+   Eine detaillierte Liste der Konfigurationseinstellungen finden Sie unter [Protokollarchivierung von Admin-Aktionen](../configuration-reference/advanced/system.md) in der _Konfigurationsreferenz_.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ## Archiv anzeigen
 
-Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Archive]**.
+Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _[!UICONTROL Actions Logs]_>**[!UICONTROL Archive]**.
 
-![Aktionsprotokoll-Archiv](./assets/action-log-archive.png){width="600" zoomable="yes"}
+![Action log archive](./assets/action-log-archive.png){width="600" zoomable="yes"}

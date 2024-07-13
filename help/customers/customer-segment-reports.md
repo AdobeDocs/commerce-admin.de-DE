@@ -5,7 +5,7 @@ exl-id: a767ee80-7b6e-4acd-9772-2f8adcf3233e
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Der Bericht &quot;Kundensegment&quot;enthält Informationen zur Anzahl der Kunden in den einzelnen Segmenten.
 
-![Kundensegmentbericht](assets/customer-segments-reports.png){width="700" zoomable="yes"}
+![Bericht &quot;Kundensegment&quot;](assets/customer-segments-reports.png){width="700" zoomable="yes"}
 
 | Spalte | Beschreibung |
 |--- |--- |
@@ -32,14 +32,14 @@ Sie können einen Drilldown zu einer Liste von Kunden im Segment durchführen un
 
 ![Drilldown zu Kundendaten](assets/customer-segment-drilldown.png){width="600" zoomable="yes"}
 
-Damit Sie über die neuesten Daten verfügen, müssen die Segmentdaten aktualisiert werden. Wenn die Segmentdaten nicht verfügbar sind oder veraltet sind, klicken Sie auf **[!UICONTROL Refresh Segment Data]** in der zu aktualisierenden Schaltflächenleiste.
+Damit Sie über die neuesten Daten verfügen, müssen die Segmentdaten aktualisiert werden. Wenn die Segmentdaten nicht verfügbar oder veraltet sind, klicken Sie in der Schaltflächenleiste auf **[!UICONTROL Refresh Segment Data]** , um sie zu aktualisieren.
 
-1. Für **[!UICONTROL Export to]**, wählen Sie ein Exportformat aus:
+1. Wählen Sie für **[!UICONTROL Export to]** ein Exportformat:
 
    * CSV - Eine kommagetrennte Wertdatei mit Textdaten.
    * Excel XML - Ein XML-basiertes Tabellendatenformat.
 
-1. Klicken **[!UICONTROL Export]**.
+1. Klicken Sie auf **[!UICONTROL Export]**.
 
    | Spalte | Beschreibung |
    |--- |--- |

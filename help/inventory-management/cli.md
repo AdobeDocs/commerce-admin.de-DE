@@ -1,19 +1,19 @@
 ---
-title: '''[!DNL Inventory Management] CLI-Referenz"'
-description: Erfahren Sie mehr über die Befehle, die von der [!DNL Inventory Management] -Modul zur Verwaltung von Bestandsdaten und Konfigurationseinstellungen.
+title: '[!DNL Inventory Management] CLI-Referenz'
+description: Erfahren Sie mehr über die Befehle des [!DNL Inventory Management] Moduls zum Verwalten von Bestandsdaten und Konfigurationseinstellungen.
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
 # [!DNL Inventory Management] CLI-Referenz
 
-[!DNL Inventory Management] bietet Befehle zum Verwalten von Bestandsdaten und Konfigurationseinstellungen.
+[!DNL Inventory Management] stellt Befehle zum Verwalten von Bestandsdaten und Konfigurationseinstellungen bereit.
 
 Zu diesen Befehlen gehören:
 
@@ -26,8 +26,8 @@ Bei Reservierungen wird eine Verkaufsmenge für Produkt-SKUs pro Lager aufbewahr
 
 [!DNL Inventory Management] stellt zwei Befehle zum Überprüfen und Auflösen von Reservierungsinkonsistenzen bereit:
 
-- [`inventory:reservation:list-inkonsistenzen&quot;](#list-inconsistencies-command)
-- [`inventory:reservation:Ausgleichszahlungen&quot;](#create-compensations-command)
+- [&quot;inventory:reservation:list-inkonsistences&quot;](#list-inconsistencies-command)
+- [`inventory:reservation:create-kompenations`](#create-compensations-command)
 
 ### Gründe für Unstimmigkeiten bei den Reservierungen
 
@@ -40,21 +40,21 @@ Bei Reservierungen wird eine Verkaufsmenge für Produkt-SKUs pro Lager aufbewahr
 
 Reservierungsinkonsistenzen können auftreten, wenn:
 
-- [!DNL Inventory Management] verliert die ursprüngliche Reservierung und führt zu viele Reservierungsausgleichszahlungen ein (Überkompensierung und zu inkonsistenten Beträgen führt).
-- [!DNL Inventory Management] die ursprüngliche Reservierung korrekt platziert, aber die Reservierung verliert.
+- [!DNL Inventory Management] verliert die ursprüngliche Reservierung und gibt zu viele Reservierungsausgleichszahlungen ein (Überkompensierung und zu inkonsistenten Beträgen führt).
+- [!DNL Inventory Management] platziert die anfängliche Reservierung korrekt, verliert jedoch die Reservierungen.
 
-Sie können die Reservierungen im `inventory_reservation` Tabelle.
+Sie können die Reservierungen in der Tabelle `inventory_reservation` manuell überprüfen und überprüfen.
 
 Die folgenden Konfigurationen und Ereignisse können zu Reservierungsinkonsistenzen führen:
 
-- **Aktualisieren Sie auf 2.3.x mit Bestellungen, die sich nicht im finalen Zustand befinden (Complete, Cancelled oder Closed).** [!DNL Inventory Management] für diese Bestellungen Ausgleichsvorbehalte vorsieht, jedoch nicht den ursprünglichen Vorbehalt, der von der verkaufbaren Menge abgezogen wird, eingeht oder hat. Es wird empfohlen, diese Befehle nach der Aktualisierung auf Adobe Commerce oder Magento Open Source v2.3.x von 2.1.x oder 2.2.x zu verwenden. Wenn Sie ausstehende Bestellungen haben, aktualisieren die Befehle Ihre Verkaufsmenge und Reservierungen für den Vertrieb und die Bestellabwicklung korrekt.
-- **Sie verwalten kein Lager und ändern diese Konfiguration später.** Sie können 2.3.x mit **[!UICONTROL Manage Stock]** auf `No` in der Konfiguration. [!DNL Commerce] keine Reservierungen bei Bestellplatzierungs- und Versandereignissen. Wenn Sie die Variable **[!UICONTROL Manage Stock]** -Konfiguration und einige Bestellungen erstellt werden, würde die Salable Qty mit einer Reservierung von Ausgleichszahlungen beschädigt werden, wenn Sie diese Bestellung bearbeiten und erfüllen.
-- **Sie weisen das Lager für eine Website neu zu, während Bestellungen an diese Website gesendet werden**. Die Erstreservierung wird für das Anfangsbestand und alle Reservierungen für die Entschädigung in das neue Lager eingetragen.
-- **Die Gesamtheit aller Vorbehalte darf nicht auf `0`.** Alle Vorbehalte im Rahmen einer Bestellung in einem endgültigen Status (Complete, Cancelled, Closed) sollten zu `0`, wobei alle Verkaufsmengen gelöscht werden.
+- **Aktualisieren Sie auf 2.3.x mit Bestellungen, die sich nicht im finalen Zustand befinden (Complete, Cancelled oder Closed).** [!DNL Inventory Management] führt zu Ausgleichsreservierungen für diese Bestellungen, aber es tritt nicht ein oder hat nicht die ursprüngliche Reservierung, die von der verkaufbaren Menge abgezogen wird. Es wird empfohlen, diese Befehle nach der Aktualisierung auf Adobe Commerce oder Magento Open Source v2.3.x von 2.1.x oder 2.2.x zu verwenden. Wenn Sie ausstehende Bestellungen haben, aktualisieren die Befehle Ihre Verkaufsmenge und Reservierungen für den Vertrieb und die Bestellabwicklung korrekt.
+- **Sie verwalten kein Lager und ändern diese Konfiguration später.** Sie können mit der Verwendung von 2.3.x beginnen, wobei **[!UICONTROL Manage Stock]** in der Konfiguration auf `No` gesetzt ist. [!DNL Commerce] stellt keine Reservierungen bei Bestellplatzierungs- und Versandereignissen auf. Wenn Sie später die **[!UICONTROL Manage Stock]** -Konfiguration aktivieren und einige Bestellungen erstellt werden, wird die Salable Qty bei der Bearbeitung und Erfüllung dieser Bestellung mit einer Reservierung beschädigt.
+- **Sie weisen den Stock für eine Website zu, während Bestellungen an diese Website gesendet werden**. Die Erstreservierung wird für das Anfangsbestand und alle Reservierungen für die Entschädigung in das neue Lager eingetragen.
+- **Die Summe aller Reservierungen darf nicht auf `0` aufgelöst werden.** Alle Vorbehalte im Rahmen einer Bestellung in einem endgültigen Zustand (Complete, Cancelled, Closed) sollten auf `0` aufgelöst werden, wodurch alle verkaufbaren Mengen gelöscht werden.
 
 ### Inkonsistenzen auflisten, Befehl
 
-Die `list-inconsistencies` erkennt und listet alle Reservierungsinkonsistenzen auf. Verwenden Sie die Befehlsoptionen, um nur abgeschlossene oder unvollständige Bestellungen oder alle zu überprüfen.
+Der Befehl `list-inconsistencies` erkennt und listet alle Reservierungsinkonsistenzen auf. Verwenden Sie die Befehlsoptionen, um nur abgeschlossene oder unvollständige Bestellungen oder alle zu überprüfen.
 
 ```bash
 bin/magento inventory:reservation:list-inconsistencies
@@ -67,7 +67,7 @@ Befehlsoptionen:
 - `-b`, `--bunch-size` - Definiert, wie viele Bestellungen gleichzeitig geladen werden.
 - `-r`, `--raw` - Rohausgabe.
 
-Antworten mit `-r` return in `<ORDER_INCREMENT_ID>:<SKU>:<QUANTITY>:<STOCK-ID>` format:
+Antworten mit `-r` geben im Format `<ORDER_INCREMENT_ID>:<SKU>:<QUANTITY>:<STOCK-ID>` zurück:
 
 - Die Bestell-ID gibt den Umfang der Inkonsistenz an.
 - Die SKU zeigt das Produkt mit der Inkonsistenz an.
@@ -94,9 +94,9 @@ Wenn keine Probleme gefunden werden, gibt diese Meldung zurück: Es wurden keine
 
 ### Ausgleichszahlungen erstellen, Befehl
 
-Die `create-compensations` -Befehl führt zu Ausgleichsreservierungen. Je nach Problem werden neue Reservierungen erstellt, um entweder eine Verkaufsmenge zu platzieren oder freizugeben.
+Der Befehl `create-compensations` erzeugt Ausgleichsreservierungen. Je nach Problem werden neue Reservierungen erstellt, um entweder eine Verkaufsmenge zu platzieren oder freizugeben.
 
-Um Reservierungen zu erstellen, geben Sie Ausgleichszahlungen im Format an `<ORDER_INCREMENT_ID>:<SKU>:<QUANTITY>:<STOCK-ID>` wie `172:bike-123:+2.000000:1`.
+Um Reservierungen zu erstellen, stellen Sie Ausgleichszahlungen im Format `<ORDER_INCREMENT_ID>:<SKU>:<QUANTITY>:<STOCK-ID>` wie `172:bike-123:+2.000000:1` bereit.
 
 ```bash
 bin/magento inventory:reservation:create-compensations
@@ -129,7 +129,7 @@ bin/magento inventory:reservation:create-compensations 172:"bike 123":+2.000000:
 
 ### Inkonsistenzen erkennen und Ausgleichszahlungen erstellen
 
-Sie können Inkonsistenzen erkennen und sofort Ausgleichszahlungen erstellen, indem Sie einen senkrechten Strich verwenden, um beide `list-inconsistencies` und `create-compensations`. Verwenden Sie die `-r` Befehlsoption zum Generieren und Senden der Rohdaten an `create-compensations`.
+Sie können Inkonsistenzen erkennen und sofort Ausgleichszahlungen erstellen, indem Sie einen senkrechten Strich verwenden, um sowohl die `list-inconsistencies` als auch die `create-compensations` auszuführen. Verwenden Sie die Befehlsoption `-r` , um die Rohdaten zu generieren und an `create-compensations` zu senden.
 
 ```bash
 bin/magento inventory:reservation:list-inconsistencies -r | bin/magento inventory:reservation:create-compensations
@@ -157,7 +157,7 @@ bin/magento inventory:reservation:list-inconsistencies -r
 No order inconsistencies were found.
 ```
 
-Sie können die Befehle auch zur Erkennung von Inkonsistenzen und zur Erstellung von Ausgleichszahlungen für nur unvollständig (`-i`) oder abgeschlossen (`-c`) Bestellungen.
+Sie können auch die Befehle zum Erkennen von Inkonsistenzen und Erstellen von Ausgleichszahlungen nur für unvollständige (`-i`) oder vollständige (`-c`) Bestellungen senden.
 
 ```bash
 bin/magento inventory:reservation:list-inconsistencies -r -i | bin/magento inventory:reservation:create-compensations
@@ -169,17 +169,17 @@ bin/magento inventory:reservation:list-inconsistencies -r -c | bin/magento inven
 
 ## Importieren von Geocodes
 
-[!DNL Inventory Management] stellt die [Distance Priority-Algorithmus](distance-priority-algorithm.md), was dazu beiträgt, die beste Option für den Versand einer vollständigen oder teilweisen Bestellung zu bestimmen. Der Algorithmus verwendet GPS-Informationen oder Geocodes, um den Abstand zwischen der Quelle (einem Lager oder einem anderen physischen Standort) jedes Artikels in einer Bestellung und der Lieferadresse zu berechnen. Basierend auf diesen Ergebnissen empfiehlt der Algorithmus, welche Quelle zum Versand der einzelnen Elemente in der Reihenfolge verwendet werden soll.
+[!DNL Inventory Management] bietet den [Distance Priority-Algorithmus](distance-priority-algorithm.md), der bei der Bestimmung der besten Option für den Versand einer vollständigen oder teilweisen Bestellung hilft. Der Algorithmus verwendet GPS-Informationen oder Geocodes, um den Abstand zwischen der Quelle (einem Lager oder einem anderen physischen Standort) jedes Artikels in einer Bestellung und der Lieferadresse zu berechnen. Basierend auf diesen Ergebnissen empfiehlt der Algorithmus, welche Quelle zum Versand der einzelnen Elemente in der Reihenfolge verwendet werden soll.
 
 Der Händler wählt den Anbieter der GPS- oder Geocode-Daten aus, die zur Berechnung der Entfernungen erforderlich sind:
 
-- **GOOGLE MAP** uses [Google Maps-Plattform](https://mapsplatform.google.com/) Dienste zur Berechnung der Entfernung und der Zeit zwischen der Lieferadresse und den Quellstandorten. Für diese Option ist ein Google-Abrechnungsplan erforderlich, für den möglicherweise Gebühren über Google anfallen.
+- **Google MAP** verwendet [Google Maps Platform](https://mapsplatform.google.com/)-Dienste, um den Abstand und die Zeit zwischen der Lieferzieladresse und den Quellspeicherorten zu berechnen. Für diese Option ist ein Google-Abrechnungsplan erforderlich, für den möglicherweise Gebühren über Google anfallen.
 
-- **Offline-Berechnung** berechnet die Entfernung anhand von heruntergeladenen Daten aus [geonames.org](https://www.geonames.org/) und mit einem Befehl in Commerce importiert. Diese Option ist kostenlos.
+- **Offline calculate** berechnet die Entfernung mithilfe von Daten, die von [geonames.org](https://www.geonames.org/) heruntergeladen und mit einem Befehl in Commerce importiert wurden. Diese Option ist kostenlos.
 
 So importieren Sie Geocodes für die Offline-Berechnung:
 
-Geben Sie den folgenden Befehl mit einer durch Leerzeichen getrennten Liste von [ISO-3166 Alpha2-Ländercodes](https://www.geonames.org/countries/):
+Geben Sie den folgenden Befehl mit einer durch Leerzeichen getrennten Liste von [ISO-3166 Alpha2-Ländercodes](https://www.geonames.org/countries/) ein:
 
 ```bash
 bin/magento inventory-geonames:import <country code> <country code> ...
@@ -191,4 +191,4 @@ Beispiel:
 bin/magento inventory-geonames:import us ca gb de
 ```
 
-Das System lädt die Geocode-Daten herunter und importiert sie in Ihre Datenbank und zeigt dann die Nachricht an  `Importing <country code>: OK`.
+Das System lädt die Geocode-Daten herunter und importiert sie in Ihre Datenbank und zeigt dann die Meldung `Importing <country code>: OK` an.

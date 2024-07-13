@@ -37,9 +37,9 @@ ht-degree: 6%
 + Unternehmensverwaltung {#company-management}
    + [Übersicht](manage-companies.md)
    + [Verwalten der Unternehmenshierarchie](assign-companies.md)
-+ Freigegebene Kataloge {#shared-catalogs}
++ Gemeinsame Kataloge {#shared-catalogs}
    + [Übersicht](catalog-shared.md)
-   + Freigegebene Kataloge definieren {#define}
+   + Definieren freigegebener Kataloge {#define}
       + [Freigegebenen Katalog erstellen](catalog-shared-create.md)
       + [Produkte zu einem freigegebenen Katalog hinzufügen](catalog-shared-product-add.md)
       + [Festlegen von Katalogpreisen und -struktur](catalog-shared-pricing-structure.md)
@@ -64,4 +64,4 @@ ht-degree: 6%
 + Referenz {#reference}
    + [Abwärtskompatible Änderungen](backward-incompatible-changes.md)
    + [Pakete](packages.md)
-+ [Zurück zu den Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

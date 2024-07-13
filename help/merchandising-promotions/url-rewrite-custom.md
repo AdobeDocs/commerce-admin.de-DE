@@ -5,7 +5,7 @@ exl-id: b15054be-e463-48e6-b6c1-0a8a2141cc01
 feature: Search, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Eine benutzerdefinierte Umschreibung kann verwendet werden, um verschiedene Umleitungen zu verwalten, z. B. das Umleiten einer Seite von Ihrem Store zu einer externen Website. Sie können beispielsweise zwei Commerce-Websites verwenden, von denen jede über eine eigene Domäne verfügt. Sie können eine benutzerdefinierte Umleitung verwenden, um Anforderungen für ein Produkt, eine Kategorie oder eine Seite erneut an die andere Website zu senden. Im Gegensatz zu anderen Umleitungstypen wird das Ziel einer benutzerdefinierten Umleitung nicht aus einer Liste vorhandener Seiten in Ihrem Store ausgewählt.
 
-Bevor Sie beginnen, sollten Sie genau wissen, was die Umleitung erreichen soll. Denken Sie an _target_ / _source_ oder _umleiten zu_ / _umleiten von_. Auch wenn Personen von Suchmaschinen oder veralteten Links aus zur ersten Seite navigieren, bewirkt die Umleitung, dass Ihr Store zum neuen Ziel wechselt.
+Bevor Sie beginnen, sollten Sie genau wissen, was die Umleitung erreichen soll. Denken Sie an _target_ / _source_ oder _redirect to_ / _redirect from_. Auch wenn Personen von Suchmaschinen oder veralteten Links aus zur ersten Seite navigieren, bewirkt die Umleitung, dass Ihr Store zum neuen Ziel wechselt.
 
 ## Schritt 1. Neuschreiben planen
 
-Um Fehler zu vermeiden, schreiben Sie die URL der _umleiten zu_ und dem URL-Schlüssel der _umleiten von_ Seite.
+Um Fehler zu vermeiden, schreiben Sie die URL der Seite _Umleitung auf_ und den URL-Schlüssel der Seite _Umleitung von_ auf.
 
 Wenn Sie sich nicht sicher sind, öffnen Sie jede Seite und kopieren Sie die URL aus der Adressleiste Ihres Browsers.
 
@@ -40,35 +40,35 @@ Umleiten von:
 
 {{url-rewrite-params}}
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
 
 1. Bevor Sie fortfahren, führen Sie die folgenden Schritte aus, um sicherzustellen, dass der Anfragepfad verfügbar ist:
 
-   - Im Suchfilter oben im **[!UICONTROL Request Path]** eingeben, den URL-Schlüssel der Seite eingeben, die umgeleitet werden soll, und auf **[!UICONTROL Search]**.
+   - Geben Sie im Suchfilter oben in der Spalte **[!UICONTROL Request Path]** den URL-Schlüssel der Seite ein, die umgeleitet werden soll, und klicken Sie auf **[!UICONTROL Search]**.
 
    - Wenn mehrere Umleitungsdatensätze für die Seite vorhanden sind, suchen Sie den, der der entsprechenden Store-Ansicht entspricht, und öffnen Sie ihn im Bearbeitungsmodus.
 
-   - Klicken Sie oben rechts auf **[!UICONTROL Delete]**. Klicken Sie bei Aufforderung auf **[!UICONTROL OK]** zur Bestätigung.
+   - Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Delete]**. Klicken Sie nach Aufforderung zur Bestätigung auf **[!UICONTROL OK]** .
 
 1. Wenn Sie zur Seite &quot;URL-Neuschreibungen&quot;zurückkehren, klicken Sie auf **[!UICONTROL Add URL Rewrite]**.
 
-1. Satz **[!UICONTROL Create URL Rewrite]** nach `Custom`.
+1. Setzen Sie **[!UICONTROL Create URL Rewrite]** auf `Custom`.
 
-   ![URL-Neuschreibungen - benutzerdefiniert](./assets/url-rewrite-custom.png){width="600" zoomable="yes"}
+   ![URL-Neuschreibungen - custom](./assets/url-rewrite-custom.png){width="600" zoomable="yes"}
 
 1. Führen Sie unter &quot;URL Rewrite Information&quot;die folgenden Schritte aus:
 
-   - Wenn Sie mehrere Store-Ansichten haben, wählen Sie die **[!UICONTROL Store]** wobei die Neufassung gilt.
+   - Wenn Sie mehrere Store-Ansichten haben, wählen Sie die **[!UICONTROL Store]** aus, für die das Neuschreiben gilt.
 
-   - Für **[!UICONTROL Request Path]**, geben Sie den URL-Schlüssel und den Pfad (falls zutreffend) der umzuleitenden Produkt-, Kategorie- oder CMS-Seite ein.
+   - Geben Sie für &quot;**[!UICONTROL Request Path]**&quot;den URL-Schlüssel und den Pfad (falls zutreffend) der umzuleitenden Produkt-, Kategorie- oder CMS-Seite ein.
 
      >[!NOTE]
      >
      >Der Anfragepfad muss für den angegebenen Store eindeutig sein. Wenn bereits eine Weiterleitung vorhanden ist, die denselben Anfragepfad verwendet, erhalten Sie beim Speichern der Weiterleitung einen Fehler. Die vorherige Umleitung muss gelöscht werden, bevor Sie sie erstellen können.
 
-   - Für **[!UICONTROL Target Path]**, geben Sie die URL des Ziels ein. Wenn sich die Zielgruppe auf einer anderen Website befindet, geben Sie die vollständig qualifizierte URL ein.
+   - Geben Sie für &quot;**[!UICONTROL Target Path]**&quot;die URL des Ziels ein. Wenn sich die Zielgruppe auf einer anderen Website befindet, geben Sie die vollständig qualifizierte URL ein.
 
-   - Satz **Umleiten** auf einen der folgenden Werte zu:
+   - Setzen Sie **Redirect** auf einen der folgenden Werte:
 
       - `Temporary (302)`
       - `Permanent (301)`
@@ -77,10 +77,10 @@ Umleiten von:
 
 1. Bevor Sie die Umleitung speichern, überprüfen Sie Folgendes:
 
-   - Die [!UICONTROL Request Path] enthält den URL-Schlüssel oder Pfad des ursprünglichen _umleiten von_ Seite.
-   - Die [!UICONTROL Target Path] enthält die URL der _umleiten zu_ Seite.
+   - Der [!UICONTROL Request Path] enthält den URL-Schlüssel oder Pfad der ursprünglichen _Umleitung von der_ Seite.
+   - Der [!UICONTROL Target Path] enthält die URL der Seite _Umleitung auf_.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
    Das neue Neuschreiben wird im Raster oben in der Liste angezeigt.
 
@@ -90,8 +90,8 @@ Umleiten von:
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   - Navigieren zum Original _umleiten von_ Seite.
-   - Geben Sie in der Adressleiste des Browsers den Namen des Originals ein _umleiten von_ Seite direkt nach der Store-URL und drücken Sie **Eingabe**.
+   - Navigieren Sie von der Seite _zur ursprünglichen_ Umleitung.
+   - Geben Sie in der Adressleiste des Browsers den Namen der ursprünglichen _Umleitung von der_ -Seite direkt nach der Store-URL ein und drücken Sie die **Eingabetaste**.
 
    Die neue Zielseite wird anstelle der ursprünglichen Seitenanforderung angezeigt.
 

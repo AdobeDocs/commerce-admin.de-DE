@@ -5,16 +5,16 @@ exl-id: 6df83549-ba38-43f7-aab1-dbf3f6b89d74
 feature: Shipping/Delivery, Invoices
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 1%
+source-wordcount: '948'
+ht-degree: 0%
 
 ---
 
 # Sendungen
 
-Die _[!UICONTROL Shipments]_grid listet den Versanddatensatz aller Rechnungen auf, die für den Versand vorbereitet wurden. Ein Versanddatensatz kann erstellt werden, wenn eine Bestellung [fakturiert](invoices.md) oder höher.
+Das Raster _[!UICONTROL Shipments]_listet den Versanddatensatz aller für den Versand vorbereiteten Rechnungen auf. Ein Versanddatensatz kann generiert werden, wenn eine Bestellung [in Rechnung gestellt](invoices.md) oder höher ist.
 
-Adobe Commerce und Magento Open Source unterstützen einen teilweisen und vollständigen Auftragsantrag mit zusätzlichen Optionen von [Inventory management](../inventory-management/introduction.md) und Drittanbietererweiterungen.
+Adobe Commerce und Magento Open Source unterstützen den teilweisen und vollständigen Versand von Bestellungen, mit zusätzlichen Optionen, die über [Inventory management](../inventory-management/introduction.md) und Erweiterungen von Drittanbietern verfügbar sind.
 
 ![Versand-Raster](./assets/shipments.png){width="600" zoomable="yes"}
 
@@ -51,9 +51,9 @@ Zusätzliche Spalten:
 
 ## Erstellen einer Sendung
 
-Die folgenden Anweisungen führen Sie durch den Prozess zur Erstellung einer Sendung in Adobe Commerce oder Magento Open Source. Wenn Sie Inventory management aktiviert haben, sollten Sie [Erstellen von Sendungen mit mehreren Quellen](../inventory-management/shipments-create.md) und wählen Sie eine Quelle (oder einen Ort) und eine Menge aus, die pro Zeileneintrag gesendet werden sollen.
+Die folgenden Anweisungen führen Sie durch den Prozess zur Erstellung einer Sendung in Adobe Commerce oder Magento Open Source. Wenn Sie Inventory management aktiviert haben, sollten Sie den Abschnitt [Erstellen von Multi-Source-Sendungen](../inventory-management/shipments-create.md) lesen und eine Quelle (oder einen Ort) und eine Menge auswählen, die pro Zeileneintrag gesendet werden sollen.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Suchen Sie die Reihenfolge im Raster und öffnen Sie sie.
 
@@ -65,21 +65,21 @@ Die folgenden Anweisungen führen Sie durch den Prozess zur Erstellung einer Sen
 
 ### [!UICONTROL Items to Ship]
 
-Für jedes Zeilenelement in der Reihenfolge ändern Sie die **[!UICONTROL Qty to Ship]** nach Bedarf.
+Ändern Sie für jedes Zeilenelement in der Reihenfolge die **[!UICONTROL Qty to Ship]** nach Bedarf.
 
 ### [!UICONTROL Shipping Information]
 
 **Methode 1:** Verwenden der Bestellseite
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-1. Im **[!UICONTROL Action]** Spalte für die ausgewählte Reihenfolge, klicken Sie auf **[!UICONTROL View]**.
+1. Klicken Sie in der Spalte **[!UICONTROL Action]** für die ausgewählte Reihenfolge auf **[!UICONTROL View]**.
 
-1. Klicken **[!UICONTROL Ship]**.
+1. Klicken Sie auf **[!UICONTROL Ship]**.
 
-1. Scrollen Sie nach unten zum _[!UICONTROL Payment & Shipping Method]_Block und klicken Sie auf **[!UICONTROL Add Tracking Number]**.
+1. Scrollen Sie nach unten zum Block _[!UICONTROL Payment & Shipping Method]_und klicken Sie auf **[!UICONTROL Add Tracking Number]**.
 
-1. Satz **[!UICONTROL Carrier]**:
+1. Legen Sie **[!UICONTROL Carrier]** fest:
 
    - `Custom Value`
    - `DHL`
@@ -87,26 +87,26 @@ Für jedes Zeilenelement in der Reihenfolge ändern Sie die **[!UICONTROL Qty to
    - `United Parcel Service`
    - `United States Postal Service`
 
-1. Um die Sendung zu verfolgen, geben Sie die **[!UICONTROL Title]** und **[!UICONTROL Number]** .
+1. Um die Sendung zu verfolgen, geben Sie die Werte **[!UICONTROL Title]** und **[!UICONTROL Number]** ein.
 
 **Methode 2:** Verwenden der Versandseite
 
 Diese Methode ist nur zulässig, wenn die Auftragslieferung bereits von der Bestellseite aus erstellt wurde.
 Sie können die Versand- und Tracking-Informationen nach Bedarf über die Seite für den direkten Versand ändern:
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > **[!UICONTROL Shipments]**.
 
 1. Suchen und öffnen Sie die Sendung im Bearbeitungsmodus.
 
-1. Scrollen Sie nach unten zum _[!UICONTROL Payment & Shipping Method]_blockieren.
+1. Scrollen Sie nach unten zum Block _[!UICONTROL Payment & Shipping Method]_.
 
-1. Wählen Sie die **[!UICONTROL Carrier]**.
+1. Wählen Sie den Wert **[!UICONTROL Carrier]** aus.
 
-1. Geben Sie einen **[!UICONTROL Title]** für das Paket.
+1. Geben Sie eine **[!UICONTROL Title]** für das Paket ein.
 
-1. Tracking eingeben **[!UICONTROL Number]**.
+1. Geben Sie das Tracking **[!UICONTROL Number]** ein.
 
-1. Klicken **[!UICONTROL Add]**.
+1. Klicken Sie auf **[!UICONTROL Add]**.
 
 1. Um eine E-Mail mit Tracking-Informationen an den Kunden zu senden, klicken Sie auf **[!UICONTROL Send Tracking Information]** und bestätigen Sie die Aktion.
 
@@ -126,53 +126,53 @@ Sie können die Versand- und Tracking-Informationen nach Bedarf über die Seite 
 
 ### Versandkommentare
 
-1. Eingabe **Kommentare** für die Verbringung, falls erforderlich.
+1. Geben Sie bei Bedarf **Kommentare** für die Sendung ein.
 
 1. Wenn die Sendung fertig ist, klicken Sie auf **Sendung übermitteln**.
 
 ## Anmerkungen für Sendungen einrichten
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. under _[!UICONTROL Sales]_auswählen **[!UICONTROL Sales Email]**.
+1. Wählen Sie unter &quot;_[!UICONTROL Sales]_&quot;die Option &quot;**[!UICONTROL Sales Email]**&quot;.
 
-1. Erweitern Sie die **Versandreaktionen** und ändern Sie die Einstellungen nach Bedarf:
+1. Erweitern Sie den Abschnitt **Versandkommentare** und ändern Sie die Einstellungen nach Bedarf:
 
-   ![Konfiguration von Versandkommentaren](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
+   ![Konfiguration des Versandkommentars](../configuration-reference/sales/assets/sales-emails-shipment-comments.png){width="600" zoomable="yes"}
 
-   - Die **[!UICONTROL Enabled]** ist auf `Yes` Standardmäßig bedeutet dies, dass die E-Mail an einen Kunden gesendet wird, wenn ein Versandkommentar eingegeben wird.
+   - Die Option **[!UICONTROL Enabled]** ist standardmäßig auf `Yes` gesetzt, was bedeutet, dass die E-Mail an einen Kunden gesendet wird, wenn ein Versandkommentar eingegeben wird.
 
-   - Für **[!UICONTROL Shipment Comment Email Sender]**, wählen Sie die Person aus, von der die E-Mail mit dem Versandkommentar versandt wird. Standardmäßig sind fünf E-Mail-Adressen verfügbar.
+   - Wählen Sie für **[!UICONTROL Shipment Comment Email Sender]** die Person aus, von der die E-Mail mit dem Versandkommentar gesendet wird. Standardmäßig sind fünf E-Mail-Adressen verfügbar.
 
-   - Für **[!UICONTROL Shipment Comment Email Template]**, wählen Sie die Vorlage basierend auf Ihrer Anforderung oder die Standardoption aus.
+   - Wählen Sie für **[!UICONTROL Shipment Comment Email Template]** die Vorlage basierend auf Ihrer Anforderung oder die Standardoption aus.
 
-   - Für **[!UICONTROL Shipment Comment Email Template for Guests]** wählen Sie die Vorlage aus, die für Kunden verwendet wird, die kein Konto in Ihrem Geschäft haben.
+   - Wählen Sie für **[!UICONTROL Shipment Comment Email Template for Guests]** die Vorlage aus, die für Kunden verwendet wird, die kein Konto in Ihrem Store haben.
 
-   - Für **[!UICONTROL Shipment Comment Email Copy To]** Geben Sie die E-Mail-Adressen ein, um eine E-Mail-Kopie des Versandkommentars zu versenden. Trennen Sie mehrere E-Mail-Adressen durch Kommas.
+   - Geben Sie für &quot;**[!UICONTROL Shipment Comment Email Copy To]**&quot; die E-Mail-Adressen ein, an die eine E-Mail-Kopie für Versandkommentare gesendet werden soll. Trennen Sie mehrere E-Mail-Adressen durch Kommas.
 
-   - Für **[!UICONTROL Shipment Comment Email Copy Method]** auswählen `bcc` (Blindkohlekopie) oder `separate email copy` -Methode basierend auf Ihrer Präferenz.
+   - Wählen Sie für **[!UICONTROL Shipment Comment Email Copy Method]** die Methode `bcc` (Blinde Kopie des Kohlenstoffs) oder `separate email copy` basierend auf Ihrer Voreinstellung aus.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
 ## Abbrechen einer Sendung
 
 Bevor eine Sendung an einen Beförderer versandt wird, kann sie durch Öffnen der Bestellung und Navigieren zur Sendung storniert werden, sofern der Beförderer Stornierungen unterstützt. Einige Fluggesellschaften beschränken oder beschränken Stornierungen nach einer Buchung. Beispielsweise erlaubt UPS Absagen, aber Sie müssen 24 Stunden warten, nachdem die Sendung gebucht wurde. Bei Annullierung einer Sendung kann die Stornierung nicht rückgängig gemacht werden. Der einzige Rückgriff besteht darin, die Bestellung neu zu erstellen.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Suchen Sie die Reihenfolge im Raster.
 
-1. Im _Aktion_ Spalte, wählen **[!UICONTROL View]**.
+1. Wählen Sie in der Spalte _Aktion_ die Option **[!UICONTROL View]**.
 
-1. Wählen Sie im linken Bereich die Option **[!UICONTROL Shipments]**.
+1. Wählen Sie im linken Bereich **[!UICONTROL Shipments]** aus.
 
-   Kann die Sendung storniert werden, _[!UICONTROL Cancel Shipment]_wird als Option in der oberen Schaltflächenleiste angezeigt.
+   Wenn die Sendung abgebrochen werden kann, erscheint _[!UICONTROL Cancel Shipment]_als Option in der oberen Schaltflächenleiste.
 
-1. Klicken **[!UICONTROL Cancel Shipment]**.
+1. Klicken Sie auf **[!UICONTROL Cancel Shipment]**.
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL OK]**.
 
-Der Status der Verbringung ändert sich in `Canceled`. Wenn der Beförderer Stornierungen nicht unterstützt, erscheint eine Fehlermeldung, in der erklärt wird, warum die Sendung nicht storniert werden konnte.
+Der Status der Sendung ändert sich in `Canceled`. Wenn der Beförderer Stornierungen nicht unterstützt, erscheint eine Fehlermeldung, in der erklärt wird, warum die Sendung nicht storniert werden konnte.
 
 ## Beschreibung der Versandfelder
 
@@ -222,6 +222,6 @@ Der Status der Verbringung ändert sich in `Canceled`. Wenn der Beförderer Stor
 
 | Feld | Beschreibung |
 |-----|-----------|
-| [!UICONTROL Package Label] | **PNG** - Laden Sie das Versandverpackungsetikett herunter. Größe: A6 (105 x 148 mm; 4,1 x 5,6 Zoll) |
+| [!UICONTROL Package Label] | **PNG** - Laden Sie die Beschriftung des Versandpakets herunter. Größe: A6 (105 x 148 mm; 4,1 x 5,6 Zoll) |
 
 {style="table-layout:auto"}

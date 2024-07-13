@@ -5,18 +5,18 @@ exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
 
 # Rechnungen
 
-Eine Rechnung ist eine Aufzeichnung der Zahlungsaufzeichnungen für eine Bestellung. Mehrere Rechnungen können [created](#create-an-invoice) für eine einzelne Bestellung und jede kann beliebig viele oder nur wenige der von Ihnen angegebenen gekauften Produkte enthalten. Sie können auch [druckfertige PDF-Rechnungen](#print-invoices) als Verkaufsdokumente für Ihre Kunden.
+Eine Rechnung ist eine Aufzeichnung der Zahlungsaufzeichnungen für eine Bestellung. Mehrere Rechnungen können [für eine einzelne Bestellung erstellt](#create-an-invoice) werden und jeweils beliebig viele oder nur wenige der gekauften Produkte enthalten, die Sie angeben. Sie können auch [druckfertige PDF-Rechnungen](#print-invoices) als Verkaufsdokumente für Ihre Kunden erstellen.
 
-Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Sales]** > _Aktivitäten_ > **Rechnungen** , um die _Rechnungen_ und greifen Sie auf Ihre erstellten Rechnungen zu.
+Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > _Vorgänge_ > **Rechnungen** , um das Raster _Rechnungen_ zu öffnen und auf Ihre erstellten Rechnungen zuzugreifen.
 
-![Rechnungsraster](./assets/invoices.png){width="700" zoomable="yes"}
+![Rechnungen grid](./assets/invoices.png){width="700" zoomable="yes"}
 
 ## Spaltenbeschreibungen
 
@@ -49,89 +49,89 @@ Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Sales]** > _Aktivitäte
 
 Wenn Sie eine Rechnung für eine Bestellung erstellen, wird sie in einen Status versetzt, in dem sie nicht storniert oder geändert werden kann. Eine neue Rechnungsseite ähnelt einer abgeschlossenen Bestellung mit einigen zusätzlichen Feldern. Jede Aktivität im Zusammenhang mit einer Bestellung wird im Abschnitt Kommentare der Rechnung angegeben.
 
-Normalerweise werden Bestellungen bei Beginn des Versandvorgangs in Rechnung gestellt und erfasst. Wenn es sich bei der Zahlungsmethode um einen Kaufauftrag handelt oder wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) auf `Authorize and Capture`, wird die Bestellung fakturiert und die Zahlung beim Checkout erfasst. Sie können eine Rechnung mit einem Verpackungsschein generieren und auch Versandtitel von Ihrem Betreiberkonto ausdrucken. Eine einzige Bestellung kann in Teilsendungen unterteilt werden, die bei Bedarf gesondert in Rechnung gestellt werden.
+Normalerweise werden Bestellungen bei Beginn des Versandvorgangs in Rechnung gestellt und erfasst. Wenn es sich bei der Zahlungsmethode um eine Bestellung handelt oder die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) auf `Authorize and Capture` festgelegt ist, wird die Bestellung in Rechnung gestellt und die Zahlung während des Checkout erfasst. Sie können eine Rechnung mit einem Verpackungsschein generieren und auch Versandtitel von Ihrem Betreiberkonto ausdrucken. Eine einzige Bestellung kann in Teilsendungen unterteilt werden, die bei Bedarf gesondert in Rechnung gestellt werden.
 
-Wenn der Status neuer Bestellungen auf `Processing`, die Option _Automatisch alle Elemente einrechnen_ wird in der Konfiguration verfügbar. Einige Kreditkartenzahlmethoden schließen den Rechnungsschritt als Teil des Prozesses ab, wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) auf `Authorize and Capture`. In diesem Fall wird die Schaltfläche Rechnungsstellung nicht angezeigt und die Bestellung kann versandbereit sein.
+Wenn der Status neuer Bestellungen auf `Processing` festgelegt ist, wird die Option auf _Alle Elemente automatisch aufrechnen_ in der Konfiguration verfügbar. Einige Kreditkartenzahlmethoden schließen den Rechnungsschritt als Teil des Prozesses ab, wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) auf `Authorize and Capture` gesetzt ist. In diesem Fall wird die Schaltfläche Rechnungsstellung nicht angezeigt und die Bestellung kann versandbereit sein.
 
 >[!NOTE]
 >
->Rechnungen werden nicht automatisch für Bestellungen erstellt, die mithilfe von `Gift Card`, `Store Credit`, `Reward Points`oder anderen Offline-Zahlungsmethoden.
+>Rechnungen werden nicht automatisch für Bestellungen erstellt, die mit `Gift Card`, `Store Credit`, `Reward Points` oder anderen Offline-Zahlungsmethoden aufgegeben werden.
 
-Eine Rechnung für die Bestellung muss vor dem Drucken erstellt werden. Laden Sie zum Anzeigen oder Drucken des PDF zunächst einen PDF-Reader herunter und installieren Sie ihn, z. B. [Adobe Acrobat Reader][1].
+Eine Rechnung für die Bestellung muss vor dem Drucken erstellt werden. Um das PDF anzuzeigen oder zu drucken, laden Sie zunächst einen PDF-Reader wie [Adobe Acrobat Reader][1] herunter und installieren Sie ihn.
 
 **_So berechnen Sie eine Bestellung:_**
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
-1. Suchen Sie nach der Bestellung mit dem Status `Processing` im Raster. Führen Sie dann die folgenden Schritte aus:
+1. Suchen Sie die Verkaufsreihenfolge mit dem Status &quot;`Processing`&quot; im Raster. Führen Sie dann die folgenden Schritte aus:
 
-1. Im _Aktion_ Spalte, klicken **[!UICONTROL View]**.
+1. Klicken Sie in der Spalte _Aktion_ auf **[!UICONTROL View]**.
 
-1. Wählen Sie in der Kopfzeile des Verkaufsauftrags die **[!UICONTROL Invoice]** -Option.
+1. Wählen Sie in der Kopfzeile des Verkaufsauftrags die Option **[!UICONTROL Invoice]** aus.
 
    >[!NOTE]
    >
-   >Die _[!UICONTROL Invoice]_wird nicht angezeigt, wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) für Ihre [Zahlungsmethode](../configuration-reference/sales/payment-methods.md) auf `Authorize and Capture`, wodurch automatisch eine Rechnung generiert wird. Dies ist auch der Fall, wenn die Bestellung aufgegeben wird und die Zahlungsaktion für Ihre Zahlungsmethode auf `Authorize` und die Bestellung in Rechnung gestellt wird.
+   >Die Option _[!UICONTROL Invoice]_wird nicht angezeigt, wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) für Ihre spezifische [Zahlungsmethode](../configuration-reference/sales/payment-methods.md) auf `Authorize and Capture` gesetzt ist, wodurch automatisch eine Rechnung generiert wird. Dies ist auch der Fall, wenn die Bestellung aufgegeben wird und die Zahlungsaktion für Ihre Zahlungsmethode auf `Authorize` gesetzt ist und die Bestellung in Rechnung gestellt wird.
 
-   ![Rechnungsverkaufsauftrag](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
+   ![Invoice Sales Order](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
    Die neue Rechnungsseite ähnelt einer abgeschlossenen Bestellseite mit zusätzlichen Feldern, die bearbeitet werden können.
 
 1. Wenn die Artikel versandbereit sind, erstellen Sie gleichzeitig mit der Erstellung der Rechnung einen Verpackungsschein für die Sendung:
 
-   - Im _Versandinformationen_ klicken Sie auf die **[!UICONTROL Create Shipment]** aktivieren, um es auszuwählen.
+   - Klicken Sie im Abschnitt _Versandinformationen_ auf das Kontrollkästchen **[!UICONTROL Create Shipment]** , um es auszuwählen.
 
      Der Versanddatensatz wird gleichzeitig mit der Erstellung der Rechnung erstellt.
 
    - Fügen Sie eine Trackingnummer hinzu:
 
-      - Klicken **[!UICONTROL Add Tracking Number]**.
-      - Geben Sie die Tracking-Informationen ein: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_, und _[!UICONTROL Number]_
+      - Klicken Sie auf **[!UICONTROL Add Tracking Number]**.
+      - Geben Sie die Tracking-Informationen ein: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ und _[!UICONTROL Number]_
 
      ![Erstellen einer Fedex-Sendung](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - Optional können Sie eine Teilrechnung erstellen:
 
-      - Im _Rechnungselemente_ -Abschnitt aktualisieren Sie die **[!UICONTROL Qty to Invoice]** -Spalte, um nur bestimmte Elemente auf der Rechnung aufzunehmen.
-      - Klicken Sie anschließend auf **[!UICONTROL Update Qty's]**.
+      - Aktualisieren Sie im Abschnitt _Elemente zur Rechnung_ die Spalte **[!UICONTROL Qty to Invoice]**, um nur bestimmte Elemente auf der Rechnung einzuschließen.
+      - Klicken Sie dann auf **[!UICONTROL Update Qty's]**.
 
-        ![Rechnungselemente](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+        ![Zu belastende Elemente](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
-1. Wenn für die Bestellung eine Online-Zahlungsmethode verwendet wurde, legen Sie **[!UICONTROL Amount]** zur entsprechenden Option.
+1. Wenn für die Bestellung eine Online-Zahlungsmethode verwendet wurde, setzen Sie **[!UICONTROL Amount]** auf die entsprechende Option.
 
 1. Gehen Sie wie folgt vor, um Kunden per E-Mail zu benachrichtigen, wenn die Rechnung erstellt wird:
 
-   - Wählen Sie die **[!UICONTROL Email Copy of Invoice]** aktivieren.
+   - Aktivieren Sie das Kontrollkästchen **[!UICONTROL Email Copy of Invoice]** .
 
-   - Beliebige eingeben **[!UICONTROL Invoice Comments]**. Um die Kommentare in die Benachrichtigungs-E-Mail aufzunehmen, markieren Sie die **[!UICONTROL Append Comments]** aktivieren.
+   - Geben Sie beliebige **[!UICONTROL Invoice Comments]** ein. Um die Kommentare in die Benachrichtigungs-E-Mail aufzunehmen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Append Comments]** .
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Submit Invoice]** unten auf der Seite.
+1. Klicken Sie nach Abschluss des Vorgangs unten auf der Seite auf **[!UICONTROL Submit Invoice]** .
 
    **_Online-Zahlungsmethode:_**
 
-   ![Submit Invoice - Online-Zahlungsmethode](./assets/invoice-submit-invoice-capture-online.png){width="600" zoomable="yes"}
+   ![Rechnung einreichen - Online-Zahlungsmethode](./assets/invoice-submit-invoice-capture-online.png){width="600" zoomable="yes"}
 
    **_Offline-Zahlungsmethode:_**
 
-   ![Submit Invoice - Offline-Zahlungsmethode](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
+   ![Rechnungen übermitteln - Offline-Zahlungsmethode)](./assets/invoice-submit-invoice.png){width="600" zoomable="yes"}
 
-   Der Status der Bestellung ändert sich von `Pending` nach `Complete`.
+   Der Status der Reihenfolge ändert sich von `Pending` in `Complete`.
 
    ![Abgeschlossene Rechnungszusammenfassung](./assets/invoice-complete.png){width="600" zoomable="yes"}
 
 ## Druckrechnungen
 
-Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor eine Rechnung jedoch gedruckt werden kann, muss sie zunächst für die Bestellung generiert werden. Sie können ein hochauflösendes Logo für eine druckfertige PDF-Rechnung hochladen und die [Auftrags-ID](../stores-purchase/sales-documents.md#add-reference-ids) in der Kopfzeile. Informationen zum Anpassen der Rechnungsvorlage mit Ihrem Logo und Ihrer Adresse finden Sie unter [PDF-Logo-Anforderungen](../stores-purchase/sales-documents.md#image-formats).
+Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor eine Rechnung jedoch gedruckt werden kann, muss sie zunächst für die Bestellung generiert werden. Sie können ein hochauflösendes Logo für eine druckfertige PDF-Rechnung hochladen und die [Bestell-ID](../stores-purchase/sales-documents.md#add-reference-ids) in die Kopfzeile einschließen. Informationen zum Anpassen der Rechnungsvorlage mit Ihrem Logo und Ihrer Adresse finden Sie unter [PDF Logo Requirements](../stores-purchase/sales-documents.md#image-formats).
 
 >[!NOTE]
 >
->Um die PDF anzeigen oder drucken zu können, benötigen Sie einen PDF-Reader. Sie können [Adobe Reader][1] kostenlos.
+>Um die PDF anzeigen oder drucken zu können, benötigen Sie einen PDF-Reader. Sie können [Adobe Reader][1] kostenlos herunterladen.
 
 ### Eine einzelne Rechnung drucken
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Im _[!UICONTROL Invoices]_Raster, Rechnung suchen und klicken **[!UICONTROL View]**im_ Aktion _Spalte.
+1. Suchen Sie im Raster _[!UICONTROL Invoices]_die Rechnung und klicken Sie in der Spalte_ Aktion _auf **[!UICONTROL View]**.
 
 1. Klicken Sie oben auf der Rechnung auf **[!UICONTROL Print]** , um eine PDF der Rechnung zu generieren.
 
@@ -139,11 +139,11 @@ Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor eine Rechnung 
 
 ### Mehrere Rechnungen drucken
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Im _[!UICONTROL Invoices]_ausfüllen, aktivieren Sie das Kontrollkästchen für jede zu druckende Rechnung.
+1. Aktivieren Sie im Raster _[!UICONTROL Invoices]_das Kontrollkästchen für jede Rechnung, die gedruckt werden soll.
 
-1. Legen Sie die **[!UICONTROL Actions]** Kontrolle an `PDF Invoices`.
+1. Setzen Sie das Steuerelement **[!UICONTROL Actions]** auf `PDF Invoices`.
 
    ![Mehrere Rechnungen drucken](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
@@ -151,10 +151,10 @@ Die Rechnungen werden in einer einzigen PDF-Datei gespeichert, die an einen Druc
 
 ## Fehlerbehebung bei Ressourcen
 
-Hilfe zur Fehlerbehebung bei Rechnungsproblemen finden Sie unter folgenden Themen _Knowledge Base für Commerce-Support_ Artikel:
+Hilfe zur Fehlerbehebung bei Rechnungsproblemen finden Sie in den folgenden Artikeln der _Commerce Support Knowledge Base_:
 
-- [Bundle-Produkte können nicht virtuell und einfach berechnet werden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
-- [Rechnungsstellung ohne Store-Kreditdaten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
+- [Kann Bundle-Produkte nicht virtuell und einfach berechnen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
+- [Rechnung ohne Store-Kreditinfo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
 - [Die Steuer wird auf der Rechnung mit 100 % Rabatt angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.html)
 - [Bestellrechnungen werden nicht automatisch gesendet](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-13/mdva-32545-magento-patch-order-invoices-don-t-send-automatically.html)
 

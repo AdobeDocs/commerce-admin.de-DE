@@ -40,7 +40,7 @@ ht-degree: 3%
       + [Aktualisieren von Währungskursen](currency-update.md)
    + [Verkaufs-E-Mails](sales-email.md)
    + [Verkaufsdokumente](sales-documents.md)
-+ Kaufpunkt {#point-of-purchase}
++ Point of purchase {#point-of-purchase}
    + [Sofortiger Kauf](checkout-instant-purchase.md)
    + Warenkorb {#cart}
       + [Übersicht](cart.md)
@@ -62,9 +62,9 @@ ht-degree: 3%
    + Geschenkkarten {#gift-cards}
       + [Kartenkauf und -einlösung](product-gift-card-workflow.md)
       + [Gift-Kartenkonten](product-gift-card-accounts.md)
-+ Käuferwerkzeuge {#shopper-tools}
++ Shopper Tools {#shopper-tools}
    + [Freund per E-Mail senden](email-a-friend.md)
-   + Listen wünschen {#wish-lists}
+   + Wunschlisten {#wish-lists}
       + [Übersicht](wishlists.md)
       + [Wunschlisten konfigurieren](wishlist-configuration.md)
       + [Erlebnis in Listen-Storefront wünschen](wishlist-storefront.md)
@@ -104,10 +104,10 @@ ht-degree: 3%
       + [Lagerbestellverwaltung](orders-storefront.md)
    + [Rechnungen](invoices.md)
    + [Sendungen](shipments.md)
-   + Kreditkarten {#credit-memos}
+   + Credit Memos {#credit-memos}
       + [Übersicht](credit-memos.md)
       + [Ein Kreditmemo ausgeben](credit-memo-create.md)
-   + Rückgabe {#returns}
+   + Gibt {#returns} zurück
       + [Übersicht](returns.md)
       + [Rückgaben konfigurieren](rma-configure.md)
       + [Rückkehrattribute](attributes-returns.md)
@@ -121,7 +121,7 @@ ht-degree: 3%
       + [Pauschalsatz](shipping-flat-rate.md)
       + [Tabellenraten](shipping-table-rate.md)
       + [In-store-Versand](shipping-in-store-delivery.md)
-   + Schifffahrtsunternehmen {#shipping-carriers}
+   + Versandunternehmen {#shipping-carriers}
       + [Einrichtung des Versandnetzbetreibers](carriers.md)
       + [UPS](ups.md)
       + [USPS](usps.md)
@@ -131,5 +131,5 @@ ht-degree: 3%
       + [Versandtitel - Übersicht](shipping-labels.md)
       + [Konfigurieren von Versandbeschriftungen](shipping-label-configure.md)
       + [Versandtitel erstellen](shipping-label-create.md)
-+ [Zurück zu den Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -1,24 +1,24 @@
 ---
 title: Media - Banner
-description: Erfahren Sie mehr über den Inhaltstyp des Banners, der zum Hinzufügen einer illustrierten, interaktiven Komponente in der [!DNL Page Builder] Bühne.
+description: Erfahren Sie mehr über den Banner-Inhaltstyp, der zum Hinzufügen einer illustrierten, interaktiven Komponente in der  [!DNL Page Builder] Bühne verwendet wird.
 exl-id: 287d866c-8a63-4531-8c1b-40d560a07947
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2302'
 ht-degree: 0%
 
 ---
 
 # Media - Banner
 
-Verwenden Sie die _Banner_ Inhaltstyp zum Hinzufügen einer illustrierten, interaktiven Komponente, die Benutzer mit einem Aktionsaufruf und einer Schaltfläche im [[!DNL Page Builder] Schritt](workspace.md#stage).
+Verwenden Sie den Inhaltstyp _Banner_ , um eine illustrierte, interaktive Komponente hinzuzufügen, die Benutzer mit einem Aktionsaufruf und einer Schaltfläche in der [[!DNL Page Builder] Bühne](workspace.md#stage) interagiert.
 
 >[!NOTE]
 >
->Was war zuvor der _Banner_ Option im Menü &quot;Inhalt&quot;jetzt [Dynamischer Block](../content-design/dynamic-blocks.md).
+>Zuvor war die Option _Banner_ im Menü &quot;Inhalt&quot;jetzt [Dynamischer Block](../content-design/dynamic-blocks.md).
 
-![Banner auf der Startseite einer Storefront](./assets/pb-banner-homepage.png){width="700" zoomable="yes"}
+![Banner auf einer Storefront-Startseite](./assets/pb-banner-homepage.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -26,14 +26,14 @@ Verwenden Sie die _Banner_ Inhaltstyp zum Hinzufügen einer illustrierten, inter
 
 Die Banner-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Banner-Container bewegen.
 
-![Banner-Toolbox](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
+![Banner toolbox](./assets/pb-tutorial1-banner-toolbox.png){width="600" zoomable="yes"}
 
 | Tool | Symbol | Beschreibung |
 |--- |--- |--- |
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png){width="25"} | Verschiebt das Banner an eine andere Position auf der Bühne. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png){width="25"} | Verschiebt das Banner an eine andere Position auf der Bühne. |
 | (Titel) | Banner | Identifiziert den aktuellen Inhaltscontainer als Banner. Bewegen Sie den Mauszeiger über den Container, um die Toolbox anzuzeigen. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite Banner bearbeiten , auf der Sie die Eigenschaften des Banners und Containers ändern können. |
-| Ausblenden | ![Symbol &quot;Ausblenden&quot;](./assets/pb-icon-hide.png){width="25"} | Blendet das aktuelle Banner aus. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite Banner bearbeiten , auf der Sie die Eigenschaften des Banners und Containers ändern können. |
+| Ausblenden | ![Symbol zum Ausblenden](./assets/pb-icon-hide.png){width="25"} | Blendet das aktuelle Banner aus. |
 | Anzeigen | ![Symbol &quot;Anzeigen&quot;](./assets/pb-icon-show.png){width="25"} | Zeigt das ausgeblendete Banner an. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="25"} | Kopiert das Banner. |
 | Entfernen | ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="25"} | Löscht das Banner aus der Bühne. |
@@ -46,19 +46,19 @@ Die Banner-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Banner-Cont
 
 ## Banner hinzufügen
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Media]** und ziehen Sie eine **[!UICONTROL Banner]** Platzhalter zur Bühne.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Wert **[!UICONTROL Media]** und ziehen Sie einen Platzhalter **[!UICONTROL Banner]** auf die Bühne.
 
    ![Ziehen eines Bannerinhaltstyps auf die Bühne](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   Die _[!UICONTROL Upload Image]_und_[!UICONTROL Select from Gallery]_ -Schaltflächen enthalten sind, damit Sie den Bannerinhalt direkt von der Bühne aus ändern können. Sie können auch den Inhalt der _[!UICONTROL Edit Banner]_Seite.
+   Die Schaltflächen _[!UICONTROL Upload Image]_und_[!UICONTROL Select from Gallery]_ sind enthalten, sodass Sie den Bannerinhalt direkt von der Bühne aus ändern können. Sie können auch den Inhalt auf der Seite _[!UICONTROL Edit Banner]_ändern.
 
-1. Klicken Sie in den Banner-Platzhalter, um die [Texteditor](../content-design/editor.md) und geben Sie Inhalt für das Banner ein.
+1. Klicken Sie in den Banner-Platzhalter, um den [Texteditor](../content-design/editor.md) anzuzeigen und Inhalt für das Banner einzugeben.
 
-   Sie können auch komplexere Bannerinhalte mit der [Inhalt](#content) -Einstellungen.
+   Mithilfe der Einstellungen für [Inhalt](#content) können Sie auch komplexere Bannerinhalte einfügen.
 
 ## Ändern der Bannereinstellungen
 
-1. Bewegen Sie den Mauszeiger über den Banner-Container, um die Symbolleiste anzuzeigen und die _Einstellungen_ (![Symbol Einstellungen](./assets/pb-icon-settings.png)).
+1. Bewegen Sie den Mauszeiger über den Banner-Container, um die Toolbox anzuzeigen, und wählen Sie das Symbol _Einstellungen_ (![Einstellungssymbol](./assets/pb-icon-settings.png)).
 
 1. In den folgenden Abschnitten finden Sie detaillierte Informationen zum Aktualisieren der verfügbaren Einstellungen:
 
@@ -67,9 +67,9 @@ Die Banner-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Banner-Cont
    - [[!UICONTROL Background]](#background)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** in der oberen rechten Ecke, um die _[!UICONTROL Edit Banner]_Seite.
+1. Klicken Sie nach Abschluss des Vorgangs in der oberen rechten Ecke auf **[!UICONTROL Save]** , um die Seite _[!UICONTROL Edit Banner]_zu schließen.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ## [!UICONTROL Appearance]
 
@@ -86,11 +86,11 @@ Banner können einfach eingerichtet und gepflegt werden, da sie auf einer von vi
 
   {style="table-layout:auto"}
 
-  ![Erscheinungsbild - Collage right](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
+  ![Erscheinungsbild - Sammelrecht](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-- (Optional) Geben Sie die **[!UICONTROL Minimum Height]** für die Zeile.
+- (Optional) Geben Sie den **[!UICONTROL Minimum Height]** für die Zeile ein.
 
-  Die Mindesthöhe kann eine Zahl mit einer beliebigen gültigen CSS-Einheit sein (z. B. `100px`, `50%`, `50em`, `100vh`) oder einer Berechnung (z. B. `100vh - 237px`).
+  Die Mindesthöhe kann eine Zahl mit einer beliebigen gültigen CSS-Einheit (z. B. `100px`, `50%`, `50em`, `100vh`) oder eine Berechnung (z. B. `100vh - 237px`) sein.
 
   Sie können beispielsweise die Mindesthöhe eines Banners so festlegen, dass die gesamte Höhe der Seite gestreckt wird. So erhalten Sie überzeugende Optionen für Hintergrundbilder und Videos mit vollständigem Seitenumbruch.
 
@@ -107,30 +107,30 @@ Geben Sie die Hintergrundfarbe an, indem Sie ein Muster auswählen, auf die Farb
 Sie können den Wert auf eine von drei Arten festlegen:
 
 - Ein vordefinierter Farbname, z. B. `White`
-- Der hexadezimale Farbwert für die Farbe, beispielsweise `#ffffff`
-- Der rgba-Wert für die Farbe mit Deckkraft in Prozent, z. B. `rgba(255, 255, 255, 0.75)`
+- Der hexadezimale Farbwert für die Farbe, z. B. `#ffffff`
+- Der rgba-Wert für die Farbe mit Deckkraft-Prozent, z. B. `rgba(255, 255, 255, 0.75)`
 
-Wenn Sie eine Farbe auswählen möchten, klicken Sie auf das Farbfeld links neben _Keine Farbe_ ankreuzen.
+Wenn Sie eine Farbe auswählen möchten, klicken Sie auf das Muster links neben dem Feld _Keine Farbe_.
 
-![Farbmuster auswählen](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
+![Auswählen eines Farbmusters](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 Wenn Sie auf das Farbfeld klicken, um die Farbauswahl erneut zu öffnen, zeigt das Feld unter dem Schieberegler die aktuellen Rot-, Grün-, Blau- und Alpha-Werte (rgba) an. Die letzte Zahl gibt den aktuellen Deckkraftprozentsatz als Dezimalzahl an. Sie können den Schieberegler verwenden, um die Deckkraft anzupassen, oder den gewünschten Dezimalwert eingeben.
 
-![Deckkraft festlegen](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+![Einstellen der Deckkraft](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->[!DNL Page Builder] auch eine Transparenzschicht unterstützt oder _Alphakanal_, in Hintergrundbildern, die verwendet werden können, um Hintergründe mit unterschiedlicher Deckkraft zu erstellen.
+>[!DNL Page Builder] unterstützt auch eine Transparenzschicht (oder den _Alphakanal_) in Hintergrundbildern, mit der Hintergründe mit unterschiedlicher Deckkraft erstellt werden können.
 
 ### [!UICONTROL Background Type]
 
-Ein Hintergrundtyp kann ein Bild oder ein Video sein. [!DNL Page Builder] standardmäßig auf `Image` und zeigt verschiedene Bildeinstellungen an. Wenn Sie `Video`, [!DNL Page Builder] Tauscht die Bildeinstellungen mit Videoeinstellungen aus. Die beiden Einstellungen für den Hintergrundtyp werden in den folgenden Abschnitten beschrieben.
+Ein Hintergrundtyp kann ein Bild oder ein Video sein. [!DNL Page Builder] ist standardmäßig auf `Image` eingestellt und zeigt verschiedene Bildeinstellungen an. Wenn Sie `Video` auswählen, tauscht [!DNL Page Builder] die Bildeinstellungen mit Videoeinstellungen. Die beiden Einstellungen für den Hintergrundtyp werden in den folgenden Abschnitten beschrieben.
 
 ![Hintergrundtyp](./assets/pb-background-type.png){width="200"}
 
 ### Bildtypeinstellungen
 
-Wenn Sie die _Hintergrundtyp_ nach `Image`verwenden Sie die folgenden Einstellungen, um die Anzeige des Hintergrundbilds zu definieren.
+Wenn Sie den _Hintergrundtyp_ auf `Image` festlegen, verwenden Sie die folgenden Einstellungen, um die Anzeige des Hintergrundbilds zu definieren.
 
 ![Banner mit Hintergrundbild](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -158,7 +158,7 @@ Wenn Sie die _Hintergrundtyp_ nach `Image`verwenden Sie die folgenden Einstellun
 
   ![Hintergrundgröße](./assets/pb-layout-row-settings-background-size-cover.png){width="200"}
 
-- **[!UICONTROL Background Position]** - Legen Sie diese Option fest, um festzulegen, wie das Hintergrundbild im Verhältnis zum Banner verankert ist:
+- **[!UICONTROL Background Position]** - Legen Sie diese Option fest, um zu bestimmen, wie das Hintergrundbild im Verhältnis zum Banner verankert ist:
 
   | Anker | Positionen |
   | ------ | ----------- |
@@ -179,33 +179,33 @@ Wenn Sie die _Hintergrundtyp_ nach `Image`verwenden Sie die folgenden Einstellun
 
   {style="table-layout:auto"}
 
-- **[!UICONTROL Background Repeat]** - Wenn Sie das Hintergrundbild zum Ausfüllen des Bereichs wiederholen möchten, ändern Sie diese Einstellung `Yes`.
+- **[!UICONTROL Background Repeat]** - Wenn Sie das Hintergrundbild wiederholen möchten, um den Raum zu füllen, ändern Sie diese Einstellung `Yes`.
 
 ### Videotypeinstellungen
 
-Wenn Sie die _[!UICONTROL Background Type]_nach `Video`verwenden Sie die folgenden Einstellungen, um die Anzeige des Hintergrundbilds zu definieren.
+Wenn Sie die _[!UICONTROL Background Type]_auf `Video` setzen, verwenden Sie die folgenden Einstellungen, um die Anzeige des Hintergrundbilds zu definieren.
 
 - **[!UICONTROL Video URL]** - Geben Sie eine gültige Video-URL ein. Gültige Video-URLs können Links zu folgenden Elementen sein:
 
    - YouTube-Videos: `https://youtu.be/CoDhMRUUjeI`
-   - Videos: `https://vimeo.com/190156113`
+   - Video-Videos: `https://vimeo.com/190156113`
    - Gültige Videodateien (`.mp4` wird empfohlen): `https://myvideos.com/spiral.mp4`
 
-  ![Video-URL im Hintergrund](./assets/pb-video-url.png){width="200"}
+  ![ Video-URL im Hintergrund](./assets/pb-video-url.png){width="200"}
 
-- **[!UICONTROL Overlay Color]** - Wählen Sie eine Farbe aus, um einen transparenten Farbton auf das Video anzuwenden.
+- **[!UICONTROL Overlay Color]** - Wählen Sie eine Farbe, um einen transparenten Farbton auf das Video anzuwenden.
 
-- **[!UICONTROL Infinite Loop]** - Legen Sie `No` , damit das Video einmal wiedergegeben und gestoppt wird. Wann wird er auf `Yes` (Standard) wiederholt sich das Video in einer Endlosschleife.
+- **[!UICONTROL Infinite Loop]** - Auf `No` setzen, damit das Video einmal wiedergegeben und gestoppt wird. Wenn der Wert auf &quot;`Yes`&quot;(Standard) gesetzt ist, wiederholt sich das Video in einer Endlosschleife.
 
-- **[!UICONTROL Lazy Load]** - Legen Sie `No` , damit das Video mit der Seite geladen wird, selbst wenn es nicht sichtbar ist. Wann wird er auf `Yes` (Standard) wird das Video nur aus der Quelle geladen, wenn es auf dem Bildschirm sichtbar ist.
+- **[!UICONTROL Lazy Load]** - Auf `No` setzen, um das Video mit der Seite zu laden, selbst wenn es nicht sichtbar ist. Wenn der Wert auf &quot;`Yes`&quot;(Standard) gesetzt ist, wird das Video nur aus der Quelle geladen, wenn es auf dem Bildschirm sichtbar ist.
 
-- **[!UICONTROL Play Only When Visible]** - Legen Sie `No` , damit das Video sofort nach dem Laden wiedergegeben wird, unabhängig davon, ob es sichtbar ist. Wann wird er auf `Yes` (Standard) beginnt die Videowiedergabe nur, wenn sie sichtbar ist.
+- **[!UICONTROL Play Only When Visible]** - Auf `No` setzen, damit das Video sofort nach dem Laden wiedergegeben wird, unabhängig davon, ob es sichtbar ist. Wenn der Wert auf `Yes` (Standard) gesetzt ist, beginnt die Wiedergabe des Videos nur, wenn es sichtbar ist.
 
-- **[!UICONTROL Fallback Image]** - Geben Sie bei Bedarf ein Bild an, das vor dem Laden des Videos auf dem Bildschirm angezeigt werden soll und wenn das Video aus irgendeinem Grund nicht geladen wird.
+- **[!UICONTROL Fallback Image]** - Geben Sie bei Bedarf ein Bild an, das auf dem Bildschirm angezeigt werden soll, bevor das Video geladen wird, und wenn das Video aus irgendeinem Grund nicht geladen wird.
 
 ## [!UICONTROL Content]
 
-Sie können den Bannerinhalt direkt auf der Bühne oder beim Ändern der Einstellungen ändern. Die Einstellungen bieten komplexere Inhaltsfunktionen wie Bannerlinks, Schaltflächen und Überlagerungen. Die Position des Inhalts spiegelt die [Erscheinungsbild](#appearance) Platzierungseinstellung.
+Sie können den Bannerinhalt direkt auf der Bühne oder beim Ändern der Einstellungen ändern. Die Einstellungen bieten komplexere Inhaltsfunktionen wie Bannerlinks, Schaltflächen und Überlagerungen. Die Position des Inhalts spiegelt die Platzierungseinstellung [Erscheinungsbild](#appearance) wider.
 
 ### Einfacher Inhalt auf der Bühne
 
@@ -217,30 +217,30 @@ Sie können den Bannerinhalt direkt auf der Bühne oder beim Ändern der Einstel
 
 1. Verwenden Sie die Editor-Symbolleiste, um Text einzugeben und zu formatieren sowie Elemente wie Links, Bilder und Widgets einzufügen.
 
-   ![Bühne mit formatiertem Text](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
+   ![Staging mit formatiertem Text](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="600" zoomable="yes"}
 
 ### Komplexe Inhalte in den Einstellungen
 
-1. Bewegen Sie den Mauszeiger über den Banner-Container, um die Symbolleiste anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} ).
+1. Bewegen Sie den Mauszeiger über den Banner-Container, um die Toolbox anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} ).
 
-1. Scrollen Sie nach unten zum _[!UICONTROL Content]_und verwenden Sie **[!UICONTROL Message Text]**-Editor, um Bannertext einzugeben und zu formatieren.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_und verwenden Sie den Editor **[!UICONTROL Message Text]**, um Bannertext einzugeben und zu formatieren.
 
    Sie können auch Elemente wie Textlinks, Bilder und Widgets einfügen.
 
-   ![Texteditor](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
+   ![Nachrichtentext-Editor](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
-1. Geben Sie bei Bedarf eine **[!UICONTROL Link]** für das Banner.
+1. Geben Sie bei Bedarf **[!UICONTROL Link]** für das Banner an.
 
    Der Link ist die Zielseite, die angezeigt wird, wenn der Kunde auf die Bannerschaltfläche oder -fläche klickt. Sie können einen von drei Linktypen verwenden:
 
    - **[!UICONTROL URL]** - Links zu einer relativen oder vollständig qualifizierten URL.
-   - **[!UICONTROL Product]** - Identifiziert die Zielseite basierend auf dem Produktnamen oder der SKU. Suchen Sie nach dem Produkt anhand des Namens, der entweder auf einem Teil- oder einem vollständigen Namen basiert. Wählen Sie das Produkt aus der Liste der Suchergebnisse aus.
+   - **[!UICONTROL Product]** - Identifiziert die Zielseite anhand des Produktnamen oder der SKU. Suchen Sie nach dem Produkt anhand des Namens, der entweder auf einem Teil- oder einem vollständigen Namen basiert. Wählen Sie das Produkt aus der Liste der Suchergebnisse aus.
    - **[!UICONTROL Category]** - Identifiziert die Zielseite als eine bestimmte Kategorie oder Unterkategorie im Kategoriebaum. Suchen Sie nach der Kategorie basierend auf einem Teil- oder Vollnamen. Wählen Sie die Kategorie aus dem erweiterten Bereich des angezeigten Baums aus.
-   - **[!UICONTROL Page]** - Identifiziert die Zielseite als spezifische Inhaltsseite. Suchen Sie nach der Seite, die auf einem Teil- oder vollständigen Namen basiert. Wählen Sie die Seite aus der Liste der Suchergebnisse aus.
+   - **[!UICONTROL Page]** - Identifiziert die Zielseite als bestimmte Inhaltsseite. Suchen Sie nach der Seite, die auf einem Teil- oder vollständigen Namen basiert. Wählen Sie die Seite aus der Liste der Suchergebnisse aus.
 
    >[!NOTE]
    >
-   >Ab Version 2.4.1 [!DNL Page Builder] unterstützt das Verknüpfen von Bannern und Links im verschachtelten Text aufgrund von Problemen mit der Anzeige auf der Storefront nicht mehr. Wenn Sie einen Link im _[!UICONTROL Message Text]_, können Sie die_[!UICONTROL Link]_ -Option. Wenn Sie lieber einen einzelnen Link für das gesamte Banner verwenden möchten, können Sie alle Links aus dem Text entfernen.<br/>
+   >Ab Version 2.4.1 unterstützt [!DNL Page Builder] die Verknüpfung von Banner und Links innerhalb des verschachtelten Texts aufgrund von Problemen mit der Anzeige auf der Storefront nicht mehr. Wenn Sie einen Link in der _[!UICONTROL Message Text]_verwenden, können Sie die_[!UICONTROL Link]_ -Option nicht konfigurieren. Wenn Sie lieber einen einzelnen Link für das gesamte Banner verwenden möchten, können Sie alle Links aus dem Text entfernen.<br/>
    >
    >![Link-Konfiguration ist blockiert](./assets/pb-nested-link-blocked.png){width="200"}
 
@@ -253,9 +253,9 @@ Sie können den Bannerinhalt direkt auf der Bühne oder beim Ändern der Einstel
 
    >[!NOTE]
    >
-   >Sie können auch mehrere Schaltflächen oder Links verwenden, indem Sie eine [block](block.md) zum Banner hinzu. Um Konflikte zu vermeiden, behalten Sie alle Links oder Schaltflächen im separaten Block bei und fügen Sie dem Banner keinen Link oder keine Schaltfläche direkt hinzu.
+   >Sie können auch mehrere Schaltflächen oder Links verwenden, indem Sie dem Banner einen [Block](block.md) hinzufügen. Um Konflikte zu vermeiden, behalten Sie alle Links oder Schaltflächen im separaten Block bei und fügen Sie dem Banner keinen Link oder keine Schaltfläche direkt hinzu.
 
-   - Satz **[!UICONTROL Show Button]** auf einen der folgenden Werte zu:
+   - Setzen Sie **[!UICONTROL Show Button]** auf einen der folgenden Werte:
 
      | Option | Beschreibung |
      | ------ | ----------- |
@@ -265,9 +265,9 @@ Sie können den Bannerinhalt direkt auf der Bühne oder beim Ändern der Einstel
 
      {style="table-layout:auto"}
 
-   - Geben Sie die **[!UICONTROL Button Text]** auf der Schaltfläche angezeigt.
+   - Geben Sie den **[!UICONTROL Button Text]** ein, der auf der Schaltfläche angezeigt werden soll.
 
-   - Satz **[!UICONTROL Button Type]** auf einen der folgenden Werte zu:
+   - Setzen Sie **[!UICONTROL Button Type]** auf einen der folgenden Werte:
 
      | Option | Beschreibung |
      | ------ | ----------- |
@@ -279,7 +279,7 @@ Sie können den Bannerinhalt direkt auf der Bühne oder beim Ändern der Einstel
 
      Der Schaltflächenstil des aktuellen Designs bestimmt das Schaltflächenformat. In der Regel hat eine primäre Schaltfläche eine auffälligere Hintergrundfarbe als eine sekundäre Schaltfläche.
 
-1. Satz **[!UICONTROL Show Overlay]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Show Overlay]** auf einen der folgenden Werte:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -289,16 +289,16 @@ Sie können den Bannerinhalt direkt auf der Bühne oder beim Ändern der Einstel
 
    {style="table-layout:auto"}
 
-   Sie können eine Überlagerung verwenden, um eine Hintergrundfarbe auf den aktiven Inhaltsbereich anzuwenden, der durch die Variable [!UICONTROL Appearance] -Einstellung. Das Hintergrundbild des Banners bleibt für die gesamte Breite des Banners sichtbar.
+   Sie können eine Überlagerung verwenden, um eine Hintergrundfarbe auf den aktiven Inhaltsbereich anzuwenden, der durch die Einstellung [!UICONTROL Appearance] definiert wird. Das Hintergrundbild des Banners bleibt für die gesamte Breite des Banners sichtbar.
 
-   Wenn Sie eine Überlagerung anzeigen, legen Sie die **[!UICONTROL Overlay Color]**:
+   Wenn Sie eine Überlagerung anzeigen, legen Sie den Wert **[!UICONTROL Overlay Color]** fest:
 
-   - Klicken Sie auf **Keine Farbe** und wählen Sie ein Muster aus.
-   - Im **Keine Farbe** -Feld entweder einen gültigen Farbnamen oder einen Hexadezimalwert eingeben.
+   - Klicken Sie auf das Muster **Keine Farbe** und wählen Sie ein Muster aus.
+   - Geben Sie im Feld **Keine Farbe** entweder einen gültigen Farbnamen oder einen hexadezimalen Wert ein.
 
    ![Überlagerungsfarbe](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
    ![Banner mit Textmeldung und Schaltfläche](./assets/pb-tutorial1-banner-stage-background-color.png){width="600" zoomable="yes"}
 
@@ -307,17 +307,17 @@ Sie können den Bannerinhalt direkt auf der Bühne oder beim Ändern der Einstel
 
 Text für diese Einstellungen ist für Suchmaschinen sichtbar und verbessert die Indexierung der Seite.
 
-- Für **[!UICONTROL Alternative Text]**, geben Sie eine _alt_ Textbeschreibung für die anzuzeigenden Tools für die digitale Barrierefreiheit.
+- Geben Sie für &quot;**[!UICONTROL Alternative Text]**&quot;eine _alt_ -Textbeschreibung für die anzuzeigenden Tools für die digitale Barrierefreiheit ein.
 
-  Die Verwendung von Alternativtext ist eine Best Practice für Barrierefreiheit und ist in einigen Gebietsschemata gesetzlich vorgeschrieben. In HTML wird die `alt` -Attribut ist eine Untergruppe der `image` Tag: `<image title="tooltip" alt="description" src="image.jpg">`.
+  Die Verwendung von Alternativtext ist eine Best Practice für Barrierefreiheit und ist in einigen Gebietsschemata gesetzlich vorgeschrieben. In HTML ist das Attribut `alt` eine Untergruppe des Tags `image`: `<image title="tooltip" alt="description" src="image.jpg">`.
 
-- Für **[!UICONTROL Title Attribute]** eingeben, geben Sie den Text ein, der beim Bewegen des Mauszeigers als QuickInfo angezeigt werden soll.
+- Geben Sie für &quot;**[!UICONTROL Title Attribute]**&quot;den Text ein, der beim Bewegen des Mauszeigers als QuickInfo angezeigt werden soll.
 
-  Als Best Practice wird empfohlen, einen beschreibenden, schlüsselwortreichen Titel zu wählen, um die Indexierung des Bildes durch Suchmaschinen zu verbessern. In HTML wird die `title` -Attribut ist eine Untergruppe der `image` Tag: `<image title="tooltip" alt="description" src="image.jpg">`.
+  Als Best Practice wird empfohlen, einen beschreibenden, schlüsselwortreichen Titel zu wählen, um die Indexierung des Bildes durch Suchmaschinen zu verbessern. In HTML ist das Attribut `title` eine Untergruppe des Tags `image`: `<image title="tooltip" alt="description" src="image.jpg">`.
 
 ## [!UICONTROL Advanced]
 
-1. Um die horizontale Position von Inhaltsbehältern zu steuern, die dem Banner hinzugefügt werden, wählen Sie eine **[!UICONTROL Alignment]**:
+1. Um die horizontale Position der Inhaltscontainer zu steuern, die dem Banner hinzugefügt werden, wählen Sie einen **[!UICONTROL Alignment]**:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -328,7 +328,7 @@ Text für diese Einstellungen ist für Suchmaschinen sichtbar und verbessert die
 
    {style="table-layout:auto"}
 
-1. Legen Sie die **[!UICONTROL Border]** Stil angewendet auf alle vier Seiten des Banner-Containers:
+1. Legen Sie den **[!UICONTROL Border]** -Stil fest, der auf alle vier Seiten des Bannercontainers angewendet wird:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -345,21 +345,21 @@ Text für diese Einstellungen ist für Suchmaschinen sichtbar und verbessert die
 
    {style="table-layout:auto"}
 
-1. Wenn Sie einen anderen Rahmenstil als `None`, füllen Sie die Randanzeigeoptionen aus:
+1. Wenn Sie einen anderen Rahmenstil als `None` festlegen, füllen Sie die Anzeigeoptionen für die Rahmenanzeige aus:
 
    - **[!UICONTROL Border Color]** - Geben Sie die Farbe an, indem Sie ein Muster auswählen, auf die Farbauswahl klicken oder einen gültigen Farbnamen oder einen entsprechenden Hexadezimalwert eingeben.
 
      ![Rahmenfarbe](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Border Width]** - Geben Sie die Anzahl Pixel für die Rahmenlinienbreite ein.
+   - **[!UICONTROL Border Width]** - Geben Sie die Anzahl der Pixel für die Rahmenlinienbreite ein.
 
-   - **[!UICONTROL Border Radius]** - Geben Sie die Anzahl Pixel an, um die die Größe des Radius definiert wird, der für die Runde der einzelnen Ecken des Rahmens verwendet wird.
+   - **[!UICONTROL Border Radius]** - Geben Sie die Anzahl der Pixel an, um die Größe des Radius zu definieren, der zum Runden jeder Ecke des Rahmens verwendet wird.
 
-1. (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet, das auf den Bannercontainer angewendet werden soll.
+1. (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet an, das auf den Bannercontainer angewendet werden soll.
 
    Trennen Sie mehrere Klassennamen durch ein Leerzeichen.
 
-1. Geben Sie Werte in Pixel für die **[!UICONTROL Margins and Padding]** um die äußeren Ränder und den inneren Abstand des Banners anzugeben.
+1. Geben Sie Werte in Pixel an, damit der Wert **[!UICONTROL Margins and Padding]** die äußeren Ränder und den inneren Abstand des Banners angibt.
 
    Geben Sie jeden entsprechenden Wert in das Banner-Container-Diagramm ein.
 

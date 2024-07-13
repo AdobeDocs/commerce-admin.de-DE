@@ -1,5 +1,5 @@
 ---
-title: Quellprioritäts-Algorithmus konfigurieren
+title: Konfigurieren des Source-Prioritätsalgorithmus
 description: Erfahren Sie, wie Sie die Quellpriorität konfigurieren, die für die Reihenfolge der zugewiesenen Quellen in Ihrem Lager verwendet wird, um Empfehlungen zu geben.
 exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 feature: Inventory, Shipping/Delivery
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Quellprioritäts-Algorithmus konfigurieren
+# Konfigurieren des Source-Prioritätsalgorithmus
 
 Benutzerdefinierte Lager enthalten eine zugewiesene Liste von Quellen, um verfügbare Produktbestände über Ihre Storefront zu verkaufen und zu versenden. Dieser Algorithmus verwendet die Reihenfolge der zugewiesenen Quellen in Ihrem Lager, um Empfehlungen abzugeben.
 
@@ -24,25 +24,25 @@ Wenn der Algorithmus ausgeführt wird:
 
 - Überspringt deaktivierte Quellen, wenn sie in der Liste gefunden werden
 
-Zum Konfigurieren ordnen Sie diese Quellen prioritär von oben nach unten an, um Bestellungen zu erfüllen. Der Quellauswahlalgorithmus (SSA) bietet eine Algorithmuspriorität, die diese Reihenfolge bei der Bestimmung von Versand- und Bestandsabzügen verwendet. Siehe [Priorisieren von Quellen für einen Bestand](stocks-prioritize-sources.md).
+Zum Konfigurieren ordnen Sie diese Quellen prioritär von oben nach unten an, um Bestellungen zu erfüllen. Der Source Selection Algorithm (SSA) bietet eine Algorithmuspriorität, die diese Reihenfolge bei der Bestimmung von Versand- und Bestandsabzügen verwendet. Siehe [Priorisieren von Quellen für einen Lagerbestand](stocks-prioritize-sources.md).
 
 ## Konfigurieren der Priorität von Quellen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**.
 
-1. Öffnen Sie ein Lager im Bearbeitungsmodus und navigieren Sie zum _[!UICONTROL Sources]_Bereich.
+1. Öffnen Sie ein Lager im Bearbeitungsmodus und navigieren Sie zum Bereich _[!UICONTROL Sources]_.
 
-1. Klicken **[!UICONTROL Assign Sources]**.
+1. Klicken Sie auf **[!UICONTROL Assign Sources]**.
 
-1. Im _[!UICONTROL Assign Sources]_anzeigen, aktivieren Sie das Kontrollkästchen für die gewünschte Quelle und klicken Sie auf **[!UICONTROL Done]**, um dem Lager eine Quelle zuzuweisen.
+1. Aktivieren Sie in der Ansicht &quot;_[!UICONTROL Assign Sources]_&quot;das Kontrollkästchen für die gewünschte Quelle und klicken Sie dann auf &quot;**[!UICONTROL Done]**&quot;, um dem Lager eine Quelle zuzuweisen.
 
 >[!NOTE]
 >
->Bei Verwendung von [Distance Priority](distance-priority-algorithm.md) Versandalgorithmus, wenn Routen und Daten für die ausgewählte [Berechnungsmodus](distance-priority-algorithm.md) (Fahren, Radfahren oder Gehen) für eine Sendung verwendet die SSA standardmäßig die Quellpriorität.
+>Bei Verwendung des Algorithmus [Entfernungspriorität](distance-priority-algorithm.md) für den Versand verwendet die SSA standardmäßig die Source-Priorität, wenn Routen und Daten für den ausgewählten [Berechnungsmodus](distance-priority-algorithm.md) (Fahren, Fahren oder Gehen) für eine Sendung nicht zurückgegeben werden.
 
-![Quellreihenfolge nach Priorisierung](assets/inventory-stock-priority-after.png)
+![Reihenfolge der Source nach der Priorisierung](assets/inventory-stock-priority-after.png)
 
 | Symbole | Beschreibung |
 |----------------------------------------------|----------------------------------------------------------------|
-| ![Ziehen und Ablegen des Symbols zum Festlegen der Priorität](assets/icon-drag-and-drop-action.png) | Verwenden Sie , um Quellen je nach Priorität per Drag-and-Drop zu verschieben. |
-| ![Klicken Sie auf Symbol , um die Zuweisung einer Quelle aufzuheben](assets/icon-delete-action.png) | Aufheben der Zuweisung einer Quelle zu einem Lager. |
+| ![Ziehen Sie das Symbol per Drag-and-Drop, um die Priorität festzulegen](assets/icon-drag-and-drop-action.png) | Verwenden Sie , um Quellen je nach Priorität per Drag-and-Drop zu verschieben. |
+| ![Klicken Sie auf das Symbol, um die Zuweisung einer Quelle aufzuheben](assets/icon-delete-action.png) | Aufheben der Zuweisung einer Quelle zu einem Lager. |

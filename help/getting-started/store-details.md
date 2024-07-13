@@ -5,7 +5,7 @@ exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1786'
 ht-degree: 0%
 
 ---
@@ -14,41 +14,41 @@ ht-degree: 0%
 
 Die grundlegenden Informationen für Ihren Store umfassen den Namen und die Adresse des Stores, die Telefonnummer und die E-Mail-Adresse, die in E-Mail-Nachrichten, Rechnungen und anderen an Ihre Kunden gesendeten Nachrichten angezeigt werden.
 
-![Allgemeine Konfiguration - Store-Details](./assets/config-general-store-details.png){width="900" zoomable="yes"}
+![Allgemeine Konfiguration - Speicherdetails](./assets/config-general-store-details.png){width="900" zoomable="yes"}
 
 ## [!UICONTROL Store Information]
 
-Die _[!UICONTROL Store Information]_enthält die grundlegenden Informationen, die in Verkaufsdokumenten und anderen Kommunikationen angezeigt werden.
+Der Abschnitt &quot;_[!UICONTROL Store Information]_&quot; enthält die grundlegenden Informationen, die in Verkaufsdokumenten und anderen Kommunikationen angezeigt werden.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. under **[!UICONTROL General]** Wählen Sie im linken Navigationsbereich die Option **[!UICONTROL General]**.
+1. Wählen Sie unter &quot;**[!UICONTROL General]**&quot;im linken Navigationsbereich &quot;**[!UICONTROL General]**&quot;.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Store Information]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Store Information]** .
 
    ![Allgemeine Konfiguration - Informationen speichern](./assets/general-store-information.png){width="700"}
 
 1. Legen Sie die Optionen entsprechend Ihren Store-Details fest:
 
-   - Geben Sie die **[!UICONTROL Store Name]** die Sie in allen Kommunikationen verwenden möchten.
+   - Geben Sie den **[!UICONTROL Store Name]** ein, den Sie in allen Kommunikationen verwenden möchten.
 
-   - Geben Sie die **[!UICONTROL Store Phone Number]**, formatiert, wie Sie es sehen möchten.
+   - Geben Sie den **[!UICONTROL Store Phone Number]** ein, der so formatiert ist, wie er angezeigt werden soll.
 
-   - Für **[!UICONTROL Store Hours of Operation]**, geben Sie die Stunden ein, in denen Ihr Geschäft für Geschäftszwecke geöffnet ist. Beispiel: `Mon - Fri, 9-5, Sat 9-noon PST`.
+   - Geben Sie für &quot;**[!UICONTROL Store Hours of Operation]**&quot;die Stunden ein, in denen Ihr Geschäft geöffnet ist. Beispiel: `Mon - Fri, 9-5, Sat 9-noon PST`.
 
-   - Wählen Sie die **[!UICONTROL Country]** wo sich Ihr Unternehmen befindet.
+   - Wählen Sie die **[!UICONTROL Country]** aus, in der sich Ihr Unternehmen befindet.
 
-   - Wählen Sie die **[!UICONTROL Region/State]** mit dem Land.
+   - Wählen Sie die **[!UICONTROL Region/State]** mit dem Land aus.
 
-   - Geben Sie die **[!UICONTROL Store Address]**. Wenn die Adresse lang ist, setzen Sie die Adresse auf **Adresszeile 2**.
+   - Geben Sie den Wert **[!UICONTROL Store Address]** ein. Wenn die Adresse lang ist, setzen Sie die Adresse in **Adresszeile speichern 2** fort.
 
-   - Geben Sie gegebenenfalls die **[!UICONTROL VAT Number]** Ihres Ladens.
+   - Falls zutreffend, geben Sie die **[!UICONTROL VAT Number]** Ihres Stores ein.
 
-     Um die Zahl zu überprüfen, klicken Sie auf die **[!UICONTROL Validate VAT Number]** Schaltfläche. Weitere Informationen finden Sie unter [MwSt-ID-Validierung](../stores-purchase/vat.md#vat-id-validation).
+     Um die Zahl zu überprüfen, klicken Sie auf die Schaltfläche **[!UICONTROL Validate VAT Number]** . Weitere Informationen finden Sie unter [MwSt.-ID-Validierung](../stores-purchase/vat.md#vat-id-validation).
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
-Weitere Informationen zu den Konfigurationsoptionen für Speicherinformationen finden Sie unter [_Konfigurationshandbuch_](../configuration-reference/general/general.md#store-information).
+Weitere Informationen zu den Konfigurationsoptionen für Speicherinformationen finden Sie im [_Konfigurationshandbuch_](../configuration-reference/general/general.md#store-information).
 
 ## [!UICONTROL Locale Options]
 
@@ -63,29 +63,29 @@ Das Gebietsschema bestimmt die Anzahl der Einstellungen, die im gesamten Speiche
 
 Die Einstellung für das Gebietsschema bestimmt die Zeitzone und Sprache, die für jeden Store verwendet werden, und identifiziert die Wochentage der Arbeitswoche in dem Gebiet.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Im linken Navigationsbereich unter **[!UICONTROL General]** auswählen **[!UICONTROL General]**.
+1. Wählen Sie im linken Navigationsbereich unter **[!UICONTROL General]** die Option **[!UICONTROL General]**.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Locale Options]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Locale Options]** .
 
-   ![Allgemeine Konfiguration - Gebietsschemaoptionen](./assets/general-locale-options.png){width="700"}
+   ![Allgemeine Konfiguration - Gebietsschema-Optionen](./assets/general-locale-options.png){width="700"}
 
-1. Wählen Sie **[!UICONTROL Timezone]** aus der Liste.
+1. Wählen Sie Ihren **[!UICONTROL Timezone]** aus der Liste aus.
 
-1. Satz **[!UICONTROL Locale]** in die Store-Sprache.
+1. Setzen Sie **[!UICONTROL Locale]** auf die Store-Sprache.
 
-1. Satz **[!UICONTROL Weight Unit]** zur Maßeinheit, die normalerweise für Sendungen aus Ihrem Gebietsschema verwendet wird.
+1. Setzen Sie **[!UICONTROL Weight Unit]** auf die Maßeinheit, die normalerweise für Sendungen aus Ihrem Gebietsschema verwendet wird.
 
-1. Satz **[!UICONTROL First Day of the Week]** an dem Tag, der als erster Wochentag in Ihrer Gegend gilt.
+1. Setzen Sie **[!UICONTROL First Day of the Week]** auf den Tag, der als erster Tag der Woche in Ihrer Region gilt.
 
-1. Im **[!UICONTROL Weekend Days]** -Liste die Tage auswählen, die auf ein Wochenende in Ihrer Gegend fallen.
+1. Wählen Sie in der Liste **[!UICONTROL Weekend Days]** die Tage aus, die auf ein Wochenende in Ihrer Gegend fallen.
 
    Um mehrere Tage auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jedes Element.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
-Weitere Informationen zu den Konfigurationsoptionen für Gebietsschemata finden Sie unter [Konfigurationshandbuch](../configuration-reference/general/general.md#locale-options).
+Weitere Informationen zu den Konfigurationsoptionen für Gebietsschemas finden Sie im [Referenzhandbuch für die Konfiguration](../configuration-reference/general/general.md#locale-options).
 
 ## [!UICONTROL State Options]
 
@@ -93,25 +93,25 @@ In vielen Ländern ist das Bundesland, die Provinz oder die Region ein erforderl
 
 Da die Standardadressenformate von Land zu Land variieren, können Sie auch die Vorlage bearbeiten, die zum Formatieren der Adresse für Rechnungen, Packungsbeilagen und Versandbeschriftungen verwendet wird.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. under **[!UICONTROL General]** Wählen Sie im linken Navigationsbereich die Option **[!UICONTROL General]**.
+1. Wählen Sie unter &quot;**[!UICONTROL General]**&quot;im linken Navigationsbereich &quot;**[!UICONTROL General]**&quot;.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL State Options]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL State Options]** .
 
    ![Allgemeine Konfiguration - Statusoptionen](./assets/general-state-options.png){width="700"}
 
-1. Verwenden Sie die **[!UICONTROL State is required for]** Liste, um jedes Land auszuwählen, in dem Region/Bundesstaat ein erforderlicher Eintrag ist.
+1. Verwenden Sie die Liste &quot;**[!UICONTROL State is required for]**&quot;, um jedes Land auszuwählen, in dem Region/Bundesstaat ein erforderlicher Eintrag ist.
 
-1. Satz **[!UICONTROL Allow to Choose State if it is Optional for Country]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Allow to Choose State if it is Optional for Country]** auf einen der folgenden Werte:
 
-   `Yes` - In Ländern, in denen das Feld &quot;Bundesland&quot;nicht erforderlich ist, schließt das Feld Bundesland als optionalen Eintrag ein.
+   `Yes` - Enthält in Ländern, in denen das Statusfeld nicht erforderlich ist, das Feld &quot;Bundesland&quot;als optionalen Eintrag.
 
-   `No` - In Ländern, in denen das Feld &quot;Bundesland&quot;nicht erforderlich ist, wird das Feld &quot;Bundesland&quot;weggelassen.
+   `No` - In Ländern, in denen das Statusfeld nicht erforderlich ist, wird das Feld &quot;Bundesland&quot;weggelassen.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
-Weitere Informationen zu den Statuskonfigurationsoptionen finden Sie unter [Konfigurationshandbuch](../configuration-reference/general/general.md#state-options).
+Weitere Informationen zu den Statuskonfigurationsoptionen finden Sie im [Konfigurationshandbuch](../configuration-reference/general/general.md#state-options).
 
 ## [!UICONTROL Country Options]
 
@@ -119,84 +119,84 @@ Die Länderoptionen geben an, in welchem Land sich Ihr Unternehmen befindet und 
 
 ### Festlegen der Länderoptionen für Ihren Store
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Im linken Navigationsbereich unter **[!UICONTROL General]** auswählen **[!UICONTROL General]**.
+1. Wählen Sie im linken Navigationsbereich unter **[!UICONTROL General]** die Option **[!UICONTROL General]**.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Country Options]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Country Options]** .
 
    >[!NOTE]
    >
-   >Falls erforderlich, löschen Sie die **[!UICONTROL Use system value]** für jede Einstellung, die Sie ändern möchten.
+   >Deaktivieren Sie bei Bedarf das Kontrollkästchen **[!UICONTROL Use system value]** für jede Einstellung, die Sie ändern möchten.
 
    ![Allgemeine Konfiguration - Ländereinstellungen](./assets/general-country-options.png){width="700"}
 
-1. Wählen Sie die **[!UICONTROL Default Country]** wo sich Ihr Unternehmen befindet.
+1. Wählen Sie die **[!UICONTROL Default Country]** aus, in der sich Ihr Unternehmen befindet.
 
-1. Im **[!UICONTROL Allow Countries]** wählen Sie jedes Land aus, aus dem Sie Bestellungen annehmen.
+1. Wählen Sie in der Liste **[!UICONTROL Allow Countries]** jedes Land aus, aus dem Sie Bestellungen annehmen.
 
    Standardmäßig sind alle Länder in der Liste ausgewählt. Um mehrere Länder auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jedes Element.
 
-1. Verwenden Sie die **[!UICONTROL Zip/Postal Code is Optional for]** Liste, um jedes Land auszuwählen, in dem Sie Geschäfte tätigen, für das keine Postleitzahl oder Postleitzahl als Teil der Straßenanschrift erforderlich ist.
+1. Verwenden Sie die Liste &quot;**[!UICONTROL Zip/Postal Code is Optional for]**&quot;, um jedes Land auszuwählen, in dem Sie geschäftlich tätig sind und für das keine Postleitzahl oder Postleitzahl erforderlich ist.
 
-1. Im **[!UICONTROL European Union Countries]** wählen Sie jedes Land in der EU aus, in dem Sie tätig sind.
+1. Wählen Sie in der Liste **[!UICONTROL European Union Countries]** jedes Land in der EU aus, in dem Sie Geschäfte tätigen.
 
    Standardmäßig sind alle EU-Länder ausgewählt. Um die gewünschten Länder auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jedes Element.
 
-1. Im **[!UICONTROL Top Destinations]** auswählen, wählen Sie die Primärländer aus, die Sie für den Verkauf als Ziel auswählen.
+1. Wählen Sie in der Liste &quot;**[!UICONTROL Top Destinations]**&quot;die primären Länder aus, die Sie für den Verkauf als Ziel auswählen.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ### Festlegen der Länderoptionen für bestimmte Bereitstellungsmethoden
 
-Sie können für jede verfügbare Option auch den Versand in bestimmte Länder konfigurieren [Versandmethode](../stores-purchase/delivery.md) (UPS, FedEx usw.).
+Sie können auch den Versand an bestimmte Länder für jede verfügbare [Versandmethode](../stores-purchase/delivery.md) (UPS, FedEx usw.) konfigurieren.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Navigationsbereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Delivery Methods]**.
+1. Erweitern Sie im linken Navigationsbereich den Eintrag **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Delivery Methods]**.
 
 1. Wählen Sie den Versandunternehmen aus, auf den Sie bestimmte Länder anwenden möchten.
 
-1. Für **[!UICONTROL Ship to Applicable Countries]**, deaktivieren Sie die **[!UICONTROL Use system value]** aktivieren und wählen Sie die **[!UICONTROL Specific Countries]** -Option.
+1. Deaktivieren Sie für **[!UICONTROL Ship to Applicable Countries]** das Kontrollkästchen **[!UICONTROL Use system value]** und wählen Sie die Option **[!UICONTROL Specific Countries]** aus.
 
-1. Im **[!UICONTROL Top Destinations]** Liste die Primärländer auswählen, die Sie für den Versand auswählen.
+1. Wählen Sie in der Liste &quot;**[!UICONTROL Top Destinations]**&quot;die primären Länder aus, die Sie für den Versand als Zielgruppe wählen.
 
    ![Beispiel für das Festlegen der Länderoptionen für die DHL-Versandmethode](./assets/country-options-for-specific-delivery-method.png){width="700"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ### Fehlerbehebung bei Ressourcen
 
-Hilfe zur Fehlerbehebung bei Problemen mit der Länderkonfiguration finden Sie unter folgenden Themen: [!DNL Commerce] Knowledge Base-Artikel unterstützen:
+Hilfe zur Fehlerbehebung bei Problemen mit der Länderkonfiguration finden Sie in den folgenden Artikeln der Support Knowledge Base: [!DNL Commerce]
 
 - [Hinzufügen eines Landes](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 - [Die bereitgestellte countryId ist nicht vorhanden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
 ## [!UICONTROL Merchant Location]
 
-Die Einstellung &quot;Merchant Location&quot;wird zum Konfigurieren von [Zahlungsmethoden](../stores-purchase/payments.md). Wenn für diese Einstellung kein Wert vorhanden ist, wird die [Standardland](#uicontrol-country-options) verwendet wird.
+Die Einstellung &quot;Merchant Location&quot;wird verwendet, um [Zahlungsmethoden](../stores-purchase/payments.md) zu konfigurieren. Wenn für diese Einstellung kein Wert vorhanden ist, wird die Einstellung [Standardland](#uicontrol-country-options) verwendet.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Navigationsbereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Payment Methods]**.
+1. Erweitern Sie im linken Navigationsbereich den Eintrag **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Payment Methods]**.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **Handelsplatz** auswählen. **[!UICONTROL Merchant Country]**.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **Handelsposition** und wählen Sie Ihren **[!UICONTROL Merchant Country]** aus.
 
-   ![Standort des Ausführers festlegen](./assets/payment-methods-merchant-location.png){width="600"}
+   ![Standort des Händlers festlegen](./assets/payment-methods-merchant-location.png){width="600"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
-Weitere Informationen zu den Konfigurationsoptionen für Zahlungsmethoden finden Sie unter [Konfigurationshandbuch](../configuration-reference/sales/payment-methods.md).
+Weitere Informationen zu den Konfigurationsoptionen für Zahlungsmethoden finden Sie im [Konfigurationshandbuch](../configuration-reference/sales/payment-methods.md).
 
 ## Währung
 
-Währungseinstellungen - Definiert die Basis [currency](../stores-purchase/currency-configuration.md) und alle zusätzlichen Währungen, die als Zahlung akzeptiert werden. Stellt außerdem die Importverbindung und den Zeitplan her, die verwendet werden, um die Währungsraten automatisch zu aktualisieren.
+Währungseinstellungen - Definiert die Basis-Währung [Währung](../stores-purchase/currency-configuration.md) und alle zusätzlichen Währungen, die als Zahlung akzeptiert werden. Stellt außerdem die Importverbindung und den Zeitplan her, die verwendet werden, um die Währungsraten automatisch zu aktualisieren.
 
-Währungssymbole - Definiert die [Währungssymbole](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) die in Produktpreisen und Verkaufsunterlagen wie Bestellungen und Rechnungen aufgeführt sind. [!DNL Commerce] unterstützt Währungen aus über 200 Ländern auf der ganzen Welt.
+Währungssymbole - Definiert die [Währungssymbole](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional), die in Produktpreisen und Verkaufsdokumenten wie Bestellungen und Rechnungen angezeigt werden. [!DNL Commerce] unterstützt Währungen aus über 200 Ländern auf der ganzen Welt.
 
-Aktualisieren von Währungsraten - Währungskurse können [aktualisiert](../stores-purchase/currency-update.md) manuell oder nach Bedarf oder gemäß einem vordefinierten Zeitplan in Ihren Speicher importiert werden.
+Aktualisieren der Währungsraten - Die Währungsraten können [manuell aktualisiert](../stores-purchase/currency-update.md) oder nach Bedarf oder gemäß einem vordefinierten Zeitplan in Ihren Speicher importiert werden.
 
-Währungsauswahl - Wenn mehrere Währungen verfügbar sind, wird die Variable [Währungsauswahl](../stores-purchase/currency.md) ist in der Kopfzeile des Stores verfügbar.
+Währungsauswahl - Wenn mehrere Währungen verfügbar sind, ist die [Währungsauswahl](../stores-purchase/currency.md) in der Kopfzeile des Stores verfügbar.
 
 ## [!UICONTROL Store Email Addresses]
 
@@ -214,27 +214,27 @@ Bevor Sie E-Mail-Adressen für den Store konfigurieren können, muss jede als g�
 
 ### Schritt 2: E-Mail-Adressen für Ihren Store konfigurieren
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. under **[!UICONTROL General]** Wählen Sie im linken Navigationsbereich die Option **[!UICONTROL Store Email Addresses]**.
+1. Wählen Sie unter &quot;**[!UICONTROL General]**&quot;im linken Navigationsbereich &quot;**[!UICONTROL Store Email Addresses]**&quot;.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL General Contact]** und führen Sie folgende Schritte aus:
+1. Erweitern Sie den Abschnitt **[!UICONTROL General Contact]** des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
 
    ![Allgemeine Konfiguration - E-Mail-Adressen speichern](./assets/store-email-addresses-general-contact.png){width="600"}
 
-   - Für **[!UICONTROL Sender Name]** Geben Sie den Namen der Person ein, die mit der allgemeinen Kontaktidentität verknüpft ist, um als Absender von E-Mail-Nachrichten angezeigt zu werden.
+   - Geben Sie für &quot;**[!UICONTROL Sender Name]**&quot;den Namen der Person ein, die mit der allgemeinen Kontaktidentität verknüpft ist, um als Absender von E-Mail-Nachrichten angezeigt zu werden.
 
-   - Für **[!UICONTROL Sender Email]**, geben Sie die entsprechende E-Mail-Adresse ein.
+   - Geben Sie für &quot;**[!UICONTROL Sender Email]**&quot;die zugehörige E-Mail-Adresse ein.
 
 1. Wiederholen Sie diesen Vorgang für jede Store-E-Mail-Adresse, die Sie verwenden möchten.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ### Schritt 3: Konfiguration der Verkaufs-E-Mail aktualisieren
 
 Wenn Sie benutzerdefinierte E-Mail-Adressen verwenden, stellen Sie sicher, dass Sie die Konfiguration zugehöriger E-Mail-Nachrichten aktualisieren, damit die richtige Identität als Absender angezeigt wird.
 
-1. Erweitern Sie im linken Navigationsbereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Sales Emails]**.
+1. Erweitern Sie im linken Navigationsbereich den Eintrag **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Sales Emails]**.
 
    Die Seite verfügt über einen eigenen Abschnitt für jeden der folgenden Punkte:
 
@@ -242,27 +242,27 @@ Wenn Sie benutzerdefinierte E-Mail-Adressen verwenden, stellen Sie sicher, dass 
    - Rechnungen und Rechnungskommentare
    - Anmerkungen zu Versand und Versand
    - Kommentare zu Credit Memo und Credit Memo
-   - RMA, RMA Authorization, RMA Admin Comments und RMA Customer Comments ![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+   - RMA, RMA Authorization, RMA Admin Comments und RMA Customer Comments ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
-1. Einstieg in **[!UICONTROL Order]**, erweitern Sie den Bereich für jede Nachricht und stellen Sie sicher, dass der richtige Absender ausgewählt ist.
+1. Erweitern Sie ab **[!UICONTROL Order]** den Abschnitt für jede Nachricht und stellen Sie sicher, dass der richtige Absender ausgewählt ist.
 
-   ![Vertriebskonfiguration - Verkaufs-E-Mails](./assets/sales-emails-order.png){width="600"}
+   ![Verkaufskonfiguration - E-Mails zum Vertrieb](./assets/sales-emails-order.png){width="600"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
-Weitere Informationen zu den Konfigurationsoptionen für E-Mails für Verkäufe finden Sie in der [_Konfigurationshandbuch_](../configuration-reference/sales/sales-emails.md).
+Weitere Informationen zu den Konfigurationsoptionen für E-Mails für Vertrieb finden Sie im [_Konfigurationshandbuch_](../configuration-reference/sales/sales-emails.md).
 
 ## Kontaktformular
 
-Die _Kontakt_ -Link in der Fußzeile des Stores ist eine einfache Möglichkeit für Kunden, mit Ihnen in Kontakt zu bleiben. Kunden können das Formular ausfüllen, um eine Nachricht an Ihren Store zu senden. Ein Standard [!DNL Commerce] Installation zeigt die Standardeinstellung an _Kontakt_ Formular. Nach dem Senden des Formulars wird eine Dankesmeldung angezeigt
+Der Link _Kontaktaufnahme mit uns_ in der Fußzeile des Stores ist eine einfache Möglichkeit für Kunden, mit Ihnen in Kontakt zu bleiben. Kunden können das Formular ausfüllen, um eine Nachricht an Ihren Store zu senden. Bei einer Standardinstallation von [!DNL Commerce] wird das standardmäßige Formular _Kontaktaufnahme_ angezeigt. Nach dem Senden des Formulars wird eine Dankesmeldung angezeigt
 
 Es ist wichtig zu verstehen, dass das standardmäßige Kontaktformular direkt aus dem Code und nicht aus einer CMS-Seite gerendert wird.
 
-![Standardseite &quot;Kontakt&quot;](./assets/page-contact-us-default.png){width="700"}
+![Standardseite für den Kontakt](./assets/page-contact-us-default.png){width="700"}
 
 Die Fußzeile des Stores enthält einen Link zur Seite Kontakt , die im gesamten Store verfügbar ist.
 
-![Link in der Fußzeile](./assets/storefront-footer-contact-us.png){width="700"}
+![Link &quot;Kontaktaufnahme&quot;in der Fußzeile](./assets/storefront-footer-contact-us.png){width="700"}
 
 Die Luma-Beispieldaten enthalten zusätzliche Informationen auf der Seite Kontakt , die zeigt, wie Sie die Seite für Ihren Store anpassen können.
 
@@ -270,39 +270,39 @@ Die Luma-Beispieldaten enthalten zusätzliche Informationen auf der Seite Kontak
 
 ### Kontaktformular konfigurieren
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Im linken Navigationsbereich unter **[!UICONTROL General]** auswählen **[!UICONTROL Contacts]**.
+1. Wählen Sie im linken Navigationsbereich unter **[!UICONTROL General]** die Option **[!UICONTROL Contacts]**.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Contact Us]** Abschnitt und Satz **[!UICONTROL Enable Contact Us]** nach `Yes`.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Contact Us]** und legen Sie **[!UICONTROL Enable Contact Us]** auf `Yes` fest.
 
    ![Allgemeine Konfiguration - Kontakt](./assets/contacts-contact-us.png){width="600"}
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Email Options]** und legen Sie die E-Mail-Kontaktoptionen fest:
+1. Erweitern Sie den Abschnitt ![Erweiterungsauswahl](../assets/icon-display-expand.png) und legen Sie die E-Mail-Kontaktoptionen fest:**[!UICONTROL Email Options]**
 
    ![Allgemeine Konfiguration - E-Mail-Optionen](./assets/contacts-email-options.png){width="600"}
 
-   - Für **[!UICONTROL Send Emails to]** Geben Sie die E-Mail-Adresse ein, an die Nachrichten aus dem Kontaktformular gesendet werden.
+   - Geben Sie für &quot;**[!UICONTROL Send Emails to]**&quot; die E-Mail-Adresse ein, an die Nachrichten aus dem Kontaktformular gesendet werden.
 
-   - Satz **[!UICONTROL Email Sender]** zur Store-Identität, die als Absender der Nachricht aus dem Kontaktformular angezeigt wird. Beispiel: Benutzerdefinierte E-Mail 2.
+   - Setzen Sie **[!UICONTROL Email Sender]** auf die Store-Identität, die als Absender der Nachricht aus dem Kontaktformular angezeigt wird. Beispiel: Benutzerdefinierte E-Mail 2.
 
-   - Satz **[!UICONTROL Email Template]** der Vorlage, die für vom Kontaktformular gesendete Nachrichten verwendet wird.
+   - Setzen Sie **[!UICONTROL Email Template]** auf die Vorlage, die für Nachrichten verwendet wird, die über das Kontaktformular gesendet werden.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie in der Wettbewerbsphase auf **[!UICONTROL Save Config]**.
 
 ### Inhalt anpassen
 
-Sie können den Inhalt im _Kontakt_ Formular an die Anforderungen Ihrer Store- und Kundendienstrichtlinien anzupassen.
+Sie können den Inhalt im Formular _Kontaktaufnahme mit uns_ an die Anforderungen Ihrer Store- und Kundendienstrichtlinien anpassen.
 
 ### Methode 1: Verwendung von Beispieldaten
 
-Die Luma-Beispieldaten enthalten eine _Kontaktinformationen_ -Block, der für Ihren Store angepasst werden kann. Die `contact-us-info` [block](../content-design/blocks.md) kann einfach geändert werden, um eigene Inhalte zur Kontaktseite hinzuzufügen.
+Die Luma-Beispieldaten enthalten einen Block _Contact Us Info_ , der für Ihren Store angepasst werden kann. Der `contact-us-info` [block](../content-design/blocks.md) kann einfach geändert werden, um eigene Inhalte zur Seite &quot;Kontakt&quot;hinzuzufügen.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Blocks]**.
 
-1. Suchen Sie die **[!UICONTROL Contact Us Info]** -Block in der Liste ein und öffnen Sie **[!UICONTROL Edit]** -Modus.
+1. Suchen Sie den Block **[!UICONTROL Contact Us Info]** in der Liste und öffnen Sie ihn im Modus **[!UICONTROL Edit]** .
 
-   ![Block &quot;Kontaktinformationen&quot;](./assets/content-block-contact-us-info.png){width="700"}
+   ![Kontaktaufnahme mit uns Info block](./assets/content-block-contact-us-info.png){width="700"}
 
 1. Klicken Sie unten auf der Blockseite auf **[!UICONTROL Edit with Page Builder]**.
 
@@ -310,15 +310,15 @@ Die Luma-Beispieldaten enthalten eine _Kontaktinformationen_ -Block, der für Ih
 
    >[!NOTE]
    >
-   >Wenn Sie [[!DNL Page Builder] disabled](../page-builder/setup.md#disable-dnl-page-builder), können Sie den Editor [toolbar](../content-design/editor.md) , um den Text zu formatieren, und hinzufügen [images](../content-design/editor-insert-image.md) und [links](../content-design/editor-insert-link.md).
+   >Wenn Sie [[!DNL Page Builder] disabled](../page-builder/setup.md#disable-dnl-page-builder) haben, können Sie den Text mit dem Editor [toolbar](../content-design/editor.md) formatieren und [images](../content-design/editor-insert-image.md) und [links](../content-design/editor-insert-link.md) hinzufügen.
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](../page-builder/assets/pb-icon-settings.png) ).
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](../page-builder/assets/pb-icon-settings.png) ).
 
-1. Bearbeiten Sie den HTML-Code, um die Kontaktinformationen für Ihren Store anzugeben, und klicken Sie auf **[!UICONTROL Save]**.
+1. Bearbeiten Sie den HTML-Code entsprechend den Kontaktdaten für Ihren Store und klicken Sie auf **[!UICONTROL Save]**.
 
    ![Inhaltsbaustein - HTML-Code bearbeiten](./assets/content-block-contact-us-html.png){width="700"}
 
-1. Beenden Sie die [!DNL Page Builder] Bühne und Klicken **[!UICONTROL Save Block]**.
+1. Beenden Sie die [!DNL Page Builder] Bühne und klicken Sie auf **[!UICONTROL Save Block]**.
 
 ### Methode 2: Ohne Beispieldaten
 
@@ -326,6 +326,6 @@ Die Luma-Beispieldaten enthalten eine _Kontaktinformationen_ -Block, der für Ih
 >
 >Ab Version 2.4.0 kann das Kontaktformular nicht mehr in einem CMS-Block oder einer CMS-Seite aufrufen. Die Anpassung des Kontaktformulars sollte mit der Layout-XML oder benutzerdefinierten Designvorlagen erfolgen.
 
-Standardmäßig greifen Käufer über die _Kontaktlink_ in der Fußzeile der Storefront-Seiten. Weiterführende Informationen zur Anpassung der Kontaktseite finden Sie im Abschnitt [Frontend-Entwicklerhandbuch][theme-guide].
+Standardmäßig greifen Käufer über den Link _Kontakt_ in der Fußzeile der Storefront-Seiten auf das Kontaktformular zu. Weitere Informationen zum Anpassen der Kontaktseite finden Sie im [Frontend-Entwicklerhandbuch][theme-guide].
 
 [theme-guide]: https://developer.adobe.com/commerce/frontend-core/guide/themes/

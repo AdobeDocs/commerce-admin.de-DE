@@ -14,13 +14,13 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Eine E-Mail-Erinnerung soll Personen, die Ihren Laden besucht haben, dazu anregen, von einer Promotion zu profitieren und einen Kauf zu tätigen. E-Mail-Erinnerungen können automatisch an Kunden gesendet werden, wenn bestimmte Bedingungen erfüllt sind. Sie können beispielsweise eine Erinnerung an Kunden senden, die etwas zu ihrem Warenkorb oder ihrer Wunschliste hinzugefügt, aber noch keinen Kauf getätigt haben. Sie können E-Mail-Erinnerungen verwenden, um Kunden dazu anzuregen, zu Ihrem Geschäft zurückzukehren und eine [Coupon-Code](price-rules-cart-coupon.md) als Anreiz. Gutscheincodes können automatisch für jeden Batch von E-Mail-Erinnerungen generiert werden, um Ihnen die Kontrolle über die Angebote zu geben, die mit jedem Batch verknüpft sind.
+Eine E-Mail-Erinnerung soll Personen, die Ihren Laden besucht haben, dazu anregen, von einer Promotion zu profitieren und einen Kauf zu tätigen. E-Mail-Erinnerungen können automatisch an Kunden gesendet werden, wenn bestimmte Bedingungen erfüllt sind. Sie können beispielsweise eine Erinnerung an Kunden senden, die etwas zu ihrem Warenkorb oder ihrer Wunschliste hinzugefügt, aber noch keinen Kauf getätigt haben. Sie können E-Mail-Erinnerungen verwenden, um Kunden dazu anzuregen, zu Ihrem Geschäft zurückzukehren, und einen [Couponcode](price-rules-cart-coupon.md) als Anreiz einschließen. Gutscheincodes können automatisch für jeden Batch von E-Mail-Erinnerungen generiert werden, um Ihnen die Kontrolle über die Angebote zu geben, die mit jedem Batch verknüpft sind.
 
 E-Mail-Erinnerungen können ausgelöst werden, nachdem eine bestimmte Anzahl von Tagen vergangen ist, seit ein Warenkorb abgebrochen wurde, oder für jede andere Bedingung, die Sie definieren möchten. Zu den gebräuchlichen Bedingungen gehören der Gesamtwert des Warenkorbs, die Menge, Artikel im Warenkorb usw.
 
 >[!NOTE]
 >
->Wenn einem Kunden mehr als eine übereinstimmende aufgegebene Warenkorb-, Wunschliste oder Kombination aus beiden vorliegt, wird die E-Mail-Erinnerung nur einmal für diesen Kunden ausgelöst. Um dieselbe E-Mail-Erinnerung erneut Trigger, verwenden Sie die _[!UICONTROL Repeat Schedule]_um die Anzahl der Tage zwischen E-Mails festzulegen.
+>Wenn einem Kunden mehr als eine übereinstimmende aufgegebene Warenkorb-, Wunschliste oder Kombination aus beiden vorliegt, wird die E-Mail-Erinnerung nur einmal für diesen Kunden ausgelöst. Um dieselbe E-Mail-Erinnerung erneut Trigger, verwenden Sie das Feld _[!UICONTROL Repeat Schedule]_, um die Anzahl der Tage zwischen E-Mails festzulegen.
 
 ![E-Mail-Erinnerungen](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -28,53 +28,53 @@ E-Mail-Erinnerungen können ausgelöst werden, nachdem eine bestimmte Anzahl von
 
 E-Mail-Erinnerungsregeln können in regelmäßigen Abständen nach Minute, Stunde oder Tag gesendet werden. Die Konfiguration bestimmt, wie viele E-Mails in einem Batch gesendet werden, sowie die Store-Identität, die als Absender der Nachricht angezeigt wird.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen **[!UICONTROL Promotions]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Promotions]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Automated Email Reminder Rules]** und führen Sie folgende Schritte aus:
+1. Erweitern Sie den Abschnitt **[!UICONTROL Automated Email Reminder Rules]** des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
 
    ![Kundenkonfiguration - automatisierte E-Mail-Erinnerungsregeln](../configuration-reference/customers/assets/promotions-automated-email-reminder-rules.png){width="600" zoomable="yes"}
 
-   - Satz **[!UICONTROL Enable Reminder Emails]** nach `Yes`.
+   - Setzen Sie **[!UICONTROL Enable Reminder Emails]** auf `Yes`.
 
-   - Um festzulegen, wie oft Prüfungen für neue Kunden durchgeführt werden, die automatisierte E-Mail-Erinnerungen qualifizieren, legen Sie **[!UICONTROL Frequency]** auf einen der folgenden Werte zu:
+   - Um festzulegen, wie oft Prüfungen für neue Kunden durchgeführt werden sollen, die automatisierte E-Mail-Erinnerungen qualifizieren, setzen Sie **[!UICONTROL Frequency]** auf einen der folgenden Werte:
 
       - `Minute Intervals`
       - `Hourly`
       - `Daily`
 
-   - Legen Sie die entsprechende **[!UICONTROL Interval]**, basierend auf der _[!UICONTROL Frequency]_-Einstellung.
+   - Legen Sie die entsprechende **[!UICONTROL Interval]** -Einstellung basierend auf der Einstellung _[!UICONTROL Frequency]_fest.
 
-   - Satz **[!UICONTROL Start Time]** auf die Stunde, Minute und Sekunde, an der die E-Mail gesendet wird, basierend auf einer 24-Stunden-Zeit.
+   - Setzen Sie **[!UICONTROL Start Time]** auf die Stunde, Minute und Sekunde, in der die E-Mail gesendet wird, basierend auf einer 24-Stunden-Zeit.
 
-   - Um die Anzahl der E-Mails zu begrenzen, die in einem Batch gesendet werden können, geben Sie die Zahl in **[!UICONTROL Maximum Emails per One Run]** -Feld.
+   - Geben Sie die Zahl im Feld **[!UICONTROL Maximum Emails per One Run]** ein, um die Anzahl der E-Mails zu begrenzen, die in einem Batch gesendet werden können.
 
-   - Um wiederholte Versuche zum Senden fehlgeschlagener E-Mails zu vermeiden, geben Sie die maximale Anzahl von Versuchen in die **[!UICONTROL Email Send Failure Threshold]** -Feld.
+   - Um wiederholte Versuche zum Senden fehlgeschlagener E-Mails zu vermeiden, geben Sie die maximale Anzahl von Versuchen in das Feld **[!UICONTROL Email Send Failure Threshold]** ein.
 
-   - Satz **[!UICONTROL Reminder Email Sender]** der [Store-Kontakt](../getting-started/store-details.md#store-email-addresses) , der als Absender der Erinnerungsmail angezeigt wird.
+   - Setzen Sie **[!UICONTROL Reminder Email Sender]** auf den [store contact](../getting-started/store-details.md#store-email-addresses) , der als Absender der Erinnerungsmail angezeigt wird.
 
-   Eine detaillierte Liste dieser Optionen finden Sie unter [Automatisierte E-Mail-Erinnerungsregeln](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) im _Konfigurationsreferenz_.
+   Eine detaillierte Liste dieser Optionen finden Sie unter [Regeln für die automatische E-Mail-Erinnerung](../configuration-reference/customers/promotions.md#automated-email-reminder-rules) in der _Konfigurationsreferenz_.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ## E-Mail-Erinnerungsvorlagen
 
-Die Standard-E-Mail-Erinnerungsvorlage kann angepasst und zusätzliche Vorlagen für verschiedene Promotions erstellt werden. E-Mail-Erinnerungen verfügen über eine Auswahl spezifischer Variablen, die in die Nachricht integriert werden können. Die Informationen in diesen Variablen werden durch die von Ihnen eingerichtete E-Mail-Erinnerungsregel und die mit dem Gutschein verknüpfte Warenkorbpreisregel bestimmt. Mit der Schaltfläche Variable einfügen können Sie das Markup-Tag mit der Variablen in die Vorlage einfügen. Weitere Informationen finden Sie unter [Email](../systems/email-templates.md).
+Die Standard-E-Mail-Erinnerungsvorlage kann angepasst und zusätzliche Vorlagen für verschiedene Promotions erstellt werden. E-Mail-Erinnerungen verfügen über eine Auswahl spezifischer Variablen, die in die Nachricht integriert werden können. Die Informationen in diesen Variablen werden durch die von Ihnen eingerichtete E-Mail-Erinnerungsregel und die mit dem Gutschein verknüpfte Warenkorbpreisregel bestimmt. Mit der Schaltfläche Variable einfügen können Sie das Markup-Tag mit der Variablen in die Vorlage einfügen. Weitere Informationen finden Sie unter [E-Mail](../systems/email-templates.md).
 
 ![E-Mail-Erinnerungsvorschau](./assets/email-reminder-preview-promotion-template.png){width="600" zoomable="yes"}
 
 ### E-Mail-Erinnerungsvorlage anpassen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Email Templates]**.
 
-1. Klicken **[!UICONTROL Add New Template]**.
+1. Klicken Sie auf **[!UICONTROL Add New Template]**.
 
-1. Im **[!UICONTROL Template]** Liste unter `Magento_Reminder`, wählen Sie die **[!UICONTROL Promotion Notification/Reminder]** Vorlage.
+1. Wählen Sie in der Liste **[!UICONTROL Template]** unter `Magento_Reminder` die Vorlage **[!UICONTROL Promotion Notification/Reminder]** aus.
 
-1. Klicken **[!UICONTROL Load Template]**.
+1. Klicken Sie auf **[!UICONTROL Load Template]**.
 
-Befolgen Sie den Standard [instructions](../systems/email-template-custom.md) , um die Vorlage anzupassen.
+Befolgen Sie die standardmäßigen [Anweisungen](../systems/email-template-custom.md) , um die Vorlage anzupassen.
 
 ### E-Mail-Erinnerungsvariablen
 

@@ -18,37 +18,37 @@ Im folgenden Beispiel wird der Kategorieseite während der Kampagne ein Werbe-Bi
 
 ## Kampagnenelement für eine Kategorie hinzufügen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Suchen Sie die Kategorie, die Sie in der Kampagne verwenden möchten, und öffnen Sie sie im Bearbeitungsmodus.
 
-1. Klicken **[!UICONTROL Schedule New Update]**.
+1. Klicken Sie auf **[!UICONTROL Schedule New Update]**.
 
-1. Auswählen **[!UICONTROL Assign to Existing Campaign]**.
+1. Wählen Sie **[!UICONTROL Assign to Existing Campaign]** aus.
 
 1. Wählen Sie in der Liste die zu ändernde Kampagne aus.
 
-   ![Einer vorhandenen Kampagne zuweisen](./assets/content-staging-assign-to-existing-campaign.png){width="600" zoomable="yes"}
+   ![Zuweisen zu einer vorhandenen Kampagne](./assets/content-staging-assign-to-existing-campaign.png){width="600" zoomable="yes"}
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
 
-1. Für **[!UICONTROL Category Image]** klicken **[!UICONTROL Upload]** und wählen Sie das Bild aus, das während der Kampagne auf der Kategorieseite angezeigt werden soll.
+1. Klicken Sie für &quot;**[!UICONTROL Category Image]**&quot;auf &quot;**[!UICONTROL Upload]**&quot;und wählen Sie das Bild aus, das während der Kampagne auf der Kategorieseite angezeigt werden soll.
 
    ![Hinzufügen eines Kategoriebilds](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
 ## Artikel validieren
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu  **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
 
 1. Suchen Sie die Kampagne in der angezeigten Liste oder Timeline und öffnen Sie sie, um auf die Details zuzugreifen:
 
-   - Klicken Sie für eine Listenanzeige auf **[!UICONTROL Select]** und dann **[!UICONTROL View/Edit]** im _[!UICONTROL Action]_Spalte.
-   - Klicken Sie für eine Timeline-Anzeige einmal, um die Zusammenfassung anzuzeigen, und klicken Sie dann auf **[!UICONTROL View/Edit]**.
+   - Klicken Sie für eine Listenanzeige in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**und dann auf **[!UICONTROL View/Edit]**.
+   - Klicken Sie für eine Timeline-Anzeige einmal auf , um die Zusammenfassung anzuzeigen, und klicken Sie dann auf **[!UICONTROL View/Edit]**.
 
    ![Kampagnendetails](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Categories]** um die Liste der zugewiesenen Kategorien anzuzeigen.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Categories]** , um die Liste der zugewiesenen Kategorien anzuzeigen.
 
-1. Um die Seiten der Kategorie zu überprüfen, wenn die Kampagne aktiv ist, kehren Sie zum Dashboard zurück, klicken Sie erneut auf die Kampagne und klicken Sie auf **[!UICONTROL Preview]**.
+1. Um die Seiten für die Kategorie zu überprüfen, wenn die Kampagne aktiv ist, kehren Sie zum Dashboard zurück, klicken Sie erneut auf die Kampagne und klicken Sie dann auf **[!UICONTROL Preview]**.

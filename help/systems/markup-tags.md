@@ -5,14 +5,14 @@ exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 # Markup-Tags
 
-Ein Markup-Tag ist eine Direktive, die einen Codeausschnitt mit einem relativen Verweis auf ein Objekt in Ihrem Store enthält, z. B. eine Variable, eine URL, ein Bild oder einen Block. Markup-Tags können überall dort verwendet werden, wo der Editor verfügbar und in die HTML von [email](email-templates.md) und [Newsletter](../merchandising-promotions/newsletter-template.md) Vorlagen sowie andere Typen von [content](../content-design/introduction.md#content).
+Ein Markup-Tag ist eine Direktive, die einen Codeausschnitt mit einem relativen Verweis auf ein Objekt in Ihrem Store enthält, z. B. eine Variable, eine URL, ein Bild oder einen Block. Markup-Tags können überall dort verwendet werden, wo der Editor verfügbar ist und in die HTML der Vorlagen [email](email-templates.md) und [newsletter](../merchandising-promotions/newsletter-template.md) sowie anderer Typen von [content](../content-design/introduction.md#content) integriert ist.
 
 Markup-Tags sind in doppelte, geschweifte Klammern eingeschlossen und können entweder vom Widget-Tool generiert oder direkt in HTML-Inhalte eingegeben werden. Anstatt beispielsweise den vollständigen Pfad zu einer Seite fest zu kodieren, können Sie ein Markup-Tag verwenden, um die Store-URL darzustellen. Die Markup-Tags in den folgenden Beispielen umfassen:
 
@@ -20,13 +20,13 @@ Markup-Tags sind in doppelte, geschweifte Klammern eingeschlossen und können en
 
 ## Benutzerdefinierte Variable
 
-Mit dem Variablen-Markup-Tag können Sie eine [benutzerdefinierte Variable](variables-custom.md) in eine E-Mail-Vorlage, Bausteine, Newsletter und Inhaltsseiten.
+Mit dem Variable Markup-Tag können Sie eine [benutzerdefinierte Variable](variables-custom.md) in eine E-Mail-Vorlage, in Blöcke, Newsletter und Inhaltsseiten einfügen.
 
 \{CustomVar code= &quot;my_custom_variable&quot;}
 
 ## Store-URL
 
-Das Markup-Tag Store-URL stellt die Basis-URL Ihrer Website dar und wird als Ersatz für den ersten Teil einer vollständigen URL verwendet, einschließlich des Domänennamens. Es gibt zwei Versionen dieses Markup-Tags: eine, die direkt zu Ihrem Store gehört, und die andere mit einem Schrägstrich (`/`) am Ende, das beim Hinzufügen eines Pfads verwendet wird.
+Das Markup-Tag Store-URL stellt die Basis-URL Ihrer Website dar und wird als Ersatz für den ersten Teil einer vollständigen URL verwendet, einschließlich des Domänennamens. Es gibt zwei Versionen dieses Markup-Tags: eine, die direkt zu Ihrem Store gehört, und die andere mit einem Schrägstrich (`/`) am Ende, der beim Hinzufügen eines Pfads verwendet wird.
 
 \{\{store url=&#39;apparel/shoes/womens&#39;}
 
@@ -70,7 +70,7 @@ Sie können Markup-Tags mit HTML-Anker-Tags verwenden und direkt eine Verknüpfu
 
 ### Schritt 1. Ziel-URL identifizieren
 
-Navigieren Sie nach Möglichkeit zu der Seite, mit der Sie einen Link verknüpfen möchten, und kopieren Sie die vollständige URL aus der Adressleiste Ihres Browsers. Der benötigte Teil der URL folgt dem `.com/`. Kopieren Sie andernfalls den URL-Schlüssel von der CMS-Seite, die Sie als Link-Ziel verwenden möchten.
+Navigieren Sie nach Möglichkeit zu der Seite, mit der Sie einen Link verknüpfen möchten, und kopieren Sie die vollständige URL aus der Adressleiste Ihres Browsers. Der benötigte Teil der URL wird nach dem `.com/` zurückgegeben. Kopieren Sie andernfalls den URL-Schlüssel von der CMS-Seite, die Sie als Link-Ziel verwenden möchten.
 
 #### Vollständige URL zur Kategorieseite
 
@@ -88,7 +88,7 @@ Navigieren Sie nach Möglichkeit zu der Seite, mit der Sie einen Link verknüpfe
 
 ### Schritt 2. Hinzufügen des Markups zur URL
 
-Das Tag Store-URL stellt die Basis-URL Ihrer Website dar und wird als Ersatz für den Teil der HTTP-Adresse der Store-URL verwendet, einschließlich des Domänennamens und `.com`. Es gibt zwei Versionen des Tags, die Sie je nach den gewünschten Ergebnissen verwenden können.
+Das Store-URL-Tag stellt die Basis-URL Ihrer Website dar und wird als Ersatz für den HTTP-Adressteil der Store-URL verwendet, einschließlich des Domänennamens und `.com`. Es gibt zwei Versionen des Tags, die Sie je nach den gewünschten Ergebnissen verwenden können.
 
 `store direct_url` - Links direkt zu einer Seite.
 
@@ -96,7 +96,7 @@ Das Tag Store-URL stellt die Basis-URL Ihrer Website dar und wird als Ersatz fü
 
 In den folgenden Beispielen ist der URL-Schlüssel in einfache Anführungszeichen gesetzt und das gesamte Markup-Tag ist in zwei geschweifte Klammern eingeschlossen. Bei Verwendung mit einem Anker-Tag wird das Markup-Tag in die doppelten Anführungszeichen des Anchers gesetzt. Um Verwirrung zu vermeiden, können Sie für jeden verschachtelten Satz von Anführungszeichen einfache und doppelte Anführungszeichen verwenden.
 
-Wenn Sie mit einer vollständigen URL beginnen, löschen Sie die HTTP-Adresse (`http://` oder `https://`) Teil der URL, bis hin zu und einschließlich der `.com/`. Geben Sie an seiner Stelle das Markup-Tag Store-URL ein, und zwar durch das öffnende einfache Anführungszeichen.
+Wenn Sie mit einer vollständigen URL beginnen, löschen Sie den Teil der HTTP-Adresse (`http://` oder `https://`) der URL bis einschließlich `.com/`. Geben Sie an seiner Stelle das Markup-Tag Store-URL ein, und zwar durch das öffnende einfache Anführungszeichen.
 
 #### Store-URL-Markup-Tag
 
@@ -120,10 +120,10 @@ Schließen Sie das abgeschlossene Markup-Tag in ein Anker-Tag ein, indem Sie das
 
 #### Markup im Anker-Tag
 
-\&lt;a href=&quot;\{\{markup tag goes here}}&quot;>Link Text\&lt;/a>
+\&lt;a href=&quot;\{\{markup tag go here}}&quot;>Link Text\&lt;/a>
 
 Fügen Sie das abgeschlossene Anker-Tag in den Code einer beliebigen CMS-Seite, eines Blocks, Banners oder einer E-Mail-Vorlage ein, in der der Link angezeigt werden soll.
 
 ### Vollständiger Link mit Markup
 
-\&lt;a href=&quot;\{\{store url=&amp;#39;apparel/shoes&amp;#39;}}&quot;>Shoe Sale\&lt;/a>
+\&lt;a href=&quot;\{\{store url=&#39;apparel/shoes&#39;}&quot;>Schuhverkauf\&lt;/a>

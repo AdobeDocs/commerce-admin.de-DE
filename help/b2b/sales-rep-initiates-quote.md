@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Initiieren eines Angebots für einen Käufer
 
-Wenn Anführungszeichen in der [Konfiguration der Vertriebsfunktionen](configure-quotes.md)kann ein Vertriebsmitarbeiter den Verhandlungsprozess mit einem Firmenkäufer einleiten, indem er ein Angebot vom Administrator erstellt.
+Wenn Anführungszeichen in der Konfiguration der [Verkaufsfunktionen](configure-quotes.md) aktiviert sind, kann ein Vertriebsmitarbeiter den Verhandlungsprozess mit einem Firmenkäufer starten, indem er ein Angebot vom Administrator erstellt.
 
 - Entwurfsangebote sind nur für den Verkäufer sichtbar.
 - Kostenentwürfe können erst eingereicht werden, wenn der Vertriebsmitarbeiter Artikel, relevante Rabatte und Hinweise zur Erstellung des ersten Angebots für den Käufer hinzufügt.
 - Ein Verkäufer kann ein Angebot aus den Anführungszeichen oder dem Kundenraster erstellen.
 
-Der Vertriebsmitarbeiter sendet das Angebot an den Käufer, um den Verhandlungsprozess einzuleiten. Siehe [Anführungszeichen verhandeln](quote-price-negotiation.md).
+Der Vertriebsmitarbeiter sendet das Angebot an den Käufer, um den Verhandlungsprozess einzuleiten. Siehe [Ein Zitat verhandeln](quote-price-negotiation.md).
 
 ## Angebotserstellung für Vertriebsmitarbeiter
 
@@ -27,27 +27,27 @@ Ein Vertriebsmitarbeiter kann ein Angebot aus den Anführungszeichen oder dem Ku
 
 >[!NOTE]
 >
->Eine Videodemo eines Verkäufers, der ein Angebot für einen Käufer erstellt, finden Sie unter [Kundenbetreuer initiiert das Angebot](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) in _Handelsvideos und Tutorials_.
+>Eine Videodemo eines Verkäufers, der ein Angebot für einen Käufer erstellt, finden Sie unter [Verkaufsmitarbeiter initiiert das Angebot](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) in _Videos und Tutorials in Commerce_.
 
 ### Erstellen eines Zitats aus dem Raster &quot;Anführungszeichen&quot;
 
-1. Der Vertriebsmitarbeiter meldet sich als Administrator mit [Berechtigungen für Verkaufsvorgänge](../systems/permissions.md) , um Anführungszeichen zu verwalten.
+1. Der Vertriebsmitarbeiter meldet sich beim Administrator als Administrator mit [Berechtigung für Verkaufsvorgänge](../systems/permissions.md) an, um Angebote zu verwalten.
 
-1. Navigieren Sie im Admin zur [!UICONTROL Quotes] Raster durch Auswahl **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Quotes]**.
+1. Wechseln Sie im Admin zum Raster [!UICONTROL Quotes] , indem Sie **[!UICONTROL Sales]** auswählen und dann auf **[!UICONTROL Quotes]** klicken.
 
 1. Erstellen Sie ein Angebot für einen Käufer.
 
-   - Wählen Sie im Raster Anführungszeichen die Option **[!UICONTROL Create New Quote]**.
+   - Wählen Sie im Raster Anführungszeichen die Option **[!UICONTROL Create New Quote]** aus.
 
-     ![Verkäufer, der vom Administrator ein Kaufangebot initiiert](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
+     ![Verkäufer, der ein Käuferangebot vom Administrator initiiert](./assets/quote-draft-from-admin.png){width="700" zoomable="yes"}
 
-   - Im [!UICONTROL Create New Quote] auf, wählen Sie den Kunden (Firmenkäufer) aus, um das Angebot zu erstellen.
+   - Wählen Sie auf der Seite [!UICONTROL Create New Quote] den Kunden (Firmenkäufer) aus, um das Angebot zu erstellen.
 
      ![Kunden für neues Angebot auswählen](./assets/quote-draft-from-admin-select-buyer.png){width="700" zoomable="yes"}
 
-     Ein neues Anführungszeichen wird in `Draft` -Status.
+     Ein neues Anführungszeichen wird im Status `Draft` angezeigt.
 
-     ![Neuer Entwurf eines Angebots, der vom Verkäufer erstellt wurde](./assets/quote-create-by-seller.png){width="700" zoomable="yes"}
+     ![Neuer Entwurf eines vom Verkäufer erstellten Angebots](./assets/quote-create-by-seller.png){width="700" zoomable="yes"}
 
    - Aktualisieren Sie den Anführungszeichen und ändern Sie das Ablaufdatum nach Bedarf.
 
@@ -57,19 +57,19 @@ Ein Vertriebsmitarbeiter kann ein Angebot aus den Anführungszeichen oder dem Ku
 
 Fügen Sie nach der Erstellung des Angebotsentwurfs Produktartikel hinzu, gewähren Sie Rabatte und kommunizieren Sie mit dem Käufer, indem Sie Kommentare und alle damit verbundenen Dateien zum Angebot hinzufügen. Senden Sie dann das Angebot an den Käufer zur Überprüfung oder speichern Sie es als Entwurf.
 
-1. Hinzufügen von Elementen zum Anführungszeichen durch Auswahl von **[!UICONTROL Add Product By SKU]**. Geben Sie die SKU-Nummer und -Menge ein und wählen Sie **[!UICONTROL Add Product]**.
+1. Fügen Sie dem Anführungszeichen Elemente hinzu, indem Sie **[!UICONTROL Add Product By SKU]** auswählen. Geben Sie die SKU-Nummer und -Menge ein und wählen Sie dann **[!UICONTROL Add Product]** aus.
 
-   ![Verkäufer, der Artikel zu einem Preisentwurf hinzufügt](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
+   ![Verkäufer, der Artikel zum Entwurf des Preises für Käufer hinzufügt](./assets/quote-draft-add-items.png){width="675" zoomable="yes"}
 
 1. Wenden Sie bei Bedarf Rabatte für Zeileneinträge auf Produkte an.
 
-   - Aus dem [!UICONTROL Select] Aktionsmenü auswählen **[!UICONTROL Discount Item]**.
+   - Wählen Sie im Aktionsmenü [!UICONTROL Select] die Option **[!UICONTROL Discount Item]**.
 
-   - Im [!UICONTROL Discount Line item] Formular, wählen Sie die **[!UICONTROL Discount Type]**.
+   - Wählen Sie im Formular [!UICONTROL Discount Line item] den Wert **[!UICONTROL Discount Type]** aus.
 
-     ![Anwenden von Zeileneintrag-Rabatt auf Zitat](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
+     ![Wenden Sie den Zeileneintrag-Rabatt auf Zitat an](./assets/quote-discount-line-item.png){width="675" zoomable="yes"}
 
-   - Im [!UICONTROL Discount] Geben Sie den Wert für den Rabatttyp ein. Wenn Sie beispielsweise einen prozentualen Rabatt ausgewählt haben, geben Sie 10 ein, um einen 10-%-Rabatt auf den Zeileneintrag anzuwenden.
+   - Geben Sie im Feld [!UICONTROL Discount] den Wert für den Rabatttyp ein. Wenn Sie beispielsweise einen prozentualen Rabatt ausgewählt haben, geben Sie 10 ein, um einen 10-%-Rabatt auf den Zeileneintrag anzuwenden.
 
    - [!BADGE 1.5.0-Beta-Funktionen]{type=Informative url="/help/b2b/release-notes.md" tooltip="Nur für Beta-Programmteilnehmer verfügbar"}
 
@@ -77,7 +77,7 @@ Fügen Sie nach der Erstellung des Angebotsentwurfs Produktartikel hinzu, gewäh
 
 1. Wenden Sie bei Bedarf einen Rabatt auf Anführungszeichen an:
 
-   - Im [!UICONTROL Quote Totals - Negotiated Price] wählen Sie den Rabatttyp aus und geben Sie dann den anzuwendenden Wert ein.
+   - Wählen Sie im Abschnitt [!UICONTROL Quote Totals - Negotiated Price] den Rabatttyp aus und geben Sie dann den anzuwendenden Wert ein.
 
      ![Verkäufer fügt Rabatt auf Anführungsebene hinzu](./assets/quote-draft-total-discount.png){width="700" zoomable="yes"}
 
@@ -85,36 +85,36 @@ Fügen Sie nach der Erstellung des Angebotsentwurfs Produktartikel hinzu, gewäh
 
 1. Zusätzliche Informationen für den Käufer hinzufügen.
 
-   Im **[!UICONTROL Negotiation - Comments]** hinzufügen, einen Hinweis hinzufügen und alle für den Käufer erforderlichen unterstützenden Dateien anhängen.
+   Fügen Sie auf dem Tab **[!UICONTROL Negotiation - Comments]** einen Hinweis hinzu und fügen Sie alle für den Käufer erforderlichen unterstützenden Dateien hinzu.
 
-   ![Verkäufer fügt Informationen zum Käufer hinzu](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
+   ![Der Verkäufer fügt Informationen für Käufer hinzu](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
-   Standardmäßig wird ein [angehängte Datei](configure-quotes.md) kann bis zu 2 MB in einem der folgenden Dateiformate betragen: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG oder JPEG, PNG.
+   Standardmäßig kann eine [angehängte Datei](configure-quotes.md) in einem der folgenden Dateiformate bis zu 2 MB groß sein: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG oder JPEG, PNG.
 
 1. Verarbeiten Sie das Anführungszeichen.
 
    Speichern Sie das Angebot als Entwurf oder schicken Sie es an den Käufer.
 
-   - Wenn Sie das Anführungszeichen als Entwurf speichern, wird der Status in `Draft` und eine Bestätigungsmeldung angezeigt wird.
+   - Wenn Sie das Anführungszeichen als Entwurf speichern, wird der Status auf `Draft` aktualisiert und eine Bestätigungsmeldung wird angezeigt.
 
    - Wenn Sie das Angebot an den Käufer senden, ändert sich der Status in `Submitted`. Der Käufer erhält eine E-Mail-Benachrichtigung, um das Angebot zu überprüfen. Das Angebot ist gesperrt, bis der Käufer es zur weiteren Verhandlung zurückgibt. Der Verkäufer kann das Angebot über das Zitat-Raster oder das Kundenraster anzeigen.
 
 ## Anzeigen und Erstellen von Anführungszeichen aus dem Kundenraster
 
-1. Navigieren Sie im Admin zur [!UICONTROL Customer] Raster durch Auswahl **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL All Customers]**.
+1. Wechseln Sie im Admin zum Raster [!UICONTROL Customer] , indem Sie **[!UICONTROL Customers]** auswählen und dann auf **[!UICONTROL All Customers]** klicken.
 
 1. Wählen Sie die Kunden-ID für einen Firmenkäufer aus.
 
-   ![Dem Käufer vorgelegter Angebotsentwurf](./assets/quote-view-customer-quotes.png){width="700" zoomable="yes"}
+   ![Dem Käufer übermitteltes Anführungszeichen für den Bestätigungsentwurf](./assets/quote-view-customer-quotes.png){width="700" zoomable="yes"}
 
-1. Auswählen **[!UICONTROL Edit]** , um die Kundeninformationen anzuzeigen.
+1. Wählen Sie **[!UICONTROL Edit]** aus, um die Kundeninformationen anzuzeigen.
 
-1. Erstellen Sie ein Angebot für den Kunden, indem Sie **[!UICONTROL Create Quote]** und dem Prozess folgen, um das Angebot zu aktualisieren und an den Kunden zu senden.
+1. Erstellen Sie ein Angebot für den Kunden, indem Sie auf &quot;**[!UICONTROL Create Quote]**&quot;klicken und dem Prozess folgen, um den Entwurf des Angebots zu aktualisieren und ihn an den Kunden zu senden.
 
-1. Zeigen Sie die vorhandenen Angebote des Kunden an, indem Sie **[!UICONTROL Quotes]**.
+1. Zeigen Sie die vorhandenen Anführungszeichen von Kunden an, indem Sie **[!UICONTROL Quotes]** auswählen.
 
-   ![Dem Käufer vorgelegter Angebotsentwurf](./assets/quote-list-from-customer-information.png){width="700" zoomable="yes"}
+   ![Dem Käufer übermitteltes Anführungszeichen für den Bestätigungsentwurf](./assets/quote-list-from-customer-information.png){width="700" zoomable="yes"}
 
-1. Öffnen Sie ein Angebot durch Auswahl von **[!UICONTROL View]**.
+1. Öffnen Sie ein Anführungszeichen, indem Sie **[!UICONTROL View]** auswählen.
 
-Einzelheiten zur Verwaltung des Anführungsgesprächs finden Sie unter [Anführungszeichen verhandeln](quote-price-negotiation.md)
+Weitere Informationen zur Verwaltung des Anführungszeichenverhandelungsprozesses finden Sie unter [Anführungszeichen verhandeln](quote-price-negotiation.md)

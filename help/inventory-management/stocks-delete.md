@@ -15,20 +15,20 @@ Wenn Sie den Bestand löschen, werden alle zugewiesenen Websites dem Standardbes
 
 >[!IMPORTANT]
 >
->Löschen eines [stock](stocks-manage.md) kann sich auf die Verkaufsmengen und nicht verarbeiteten Bestellungen eines Vertriebskanals auswirken. Wenn Sie weiterhin einen Vertriebskanal verwenden, fügen Sie den Vertriebskanal einem anderen vorhandenen oder neuen Lager hinzu.
+>Das Löschen eines [Lagers](stocks-manage.md) kann sich auf die Verkaufsmengen und nicht verarbeiteten Bestellungen eines Verkaufskanals auswirken. Wenn Sie weiterhin einen Vertriebskanal verwenden, fügen Sie den Vertriebskanal einem anderen vorhandenen oder neuen Lager hinzu.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
 
 1. Wählen Sie einen oder mehrere zu löschende Lager aus.
 
    Markieren oder suchen Sie die Kontrollkästchen der zu löschenden Bestände und aktivieren Sie sie.
 
-1. Aus dem **[!UICONTROL Actions]** Menü auswählen **[!UICONTROL Delete]**.
+1. Wählen Sie im Menü **[!UICONTROL Actions]** die Option **[!UICONTROL Delete]** aus.
 
-   ![Wählen Sie im Menü Aktionen die Option Löschen .](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
+   ![Wählen Sie Löschen aus dem Menü Aktionen](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
 
 1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL OK]**.
 
    Das Lager wird gelöscht und alle zugewiesenen Absatzkanäle werden nicht zugeordnet.
 
-   ![Überprüfungsmeldung zum Löschen von Lagern](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}
+   ![Überprüfungsmeldung zur Löschung auf Lager ](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}

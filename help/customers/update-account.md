@@ -4,14 +4,14 @@ description: Greifen Sie auf Informationen zu Kundenaktivitäten zu, z. B. wann 
 exl-id: 8e805095-76b2-4237-98dc-aa32f15f2637
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # Kundenprofil aktualisieren
 
-Das linke Bedienfeld der _[!UICONTROL Customer Information]_enthält Informationen zu Kundenaktivität, Adressen, Bestellstatistiken, aktuellen Bestellungen, Warenkorbinhalten, Produktbewertungen und Newsletter-Abonnements.
+Das linke Bedienfeld der Seite &quot;_[!UICONTROL Customer Information]_&quot; enthält Informationen zu Kundenaktivitäten, Adressen, Bestellstatistiken, aktuellen Bestellungen, Warenkorbinhalten, Produktbewertungen und Newsletter-Abonnements.
 
 ![Kundenprofil](assets/cust-profile.png){width="700" zoomable="yes"}
 
@@ -21,13 +21,13 @@ Methode 1: **_Schnellbearbeitung_**
 
 1. Aktivieren Sie in der ersten Spalte das Kontrollkästchen des zu bearbeitenden Kundenkontos.
 
-1. Legen Sie die **[!UICONTROL Actions]** Spalte zu `Edit`.
+1. Setzen Sie die Spalte **[!UICONTROL Actions]** auf `Edit`.
 
    >[!INFO]
    >
    >Der Wert jedes Werts, der aktualisiert werden kann, wird in einem Textfeld angezeigt. Nur einige Werte des ausgewählten Kundendatensatzes können aus dem Raster bearbeitet werden.
 
-   ![Schnellbearbeitung](assets/customers-grid-quick-edit.png){width="700" zoomable="yes"}
+   ![Quick Edit](assets/customers-grid-quick-edit.png){width="700" zoomable="yes"}
 
 1. Aktualisieren Sie nach Bedarf einen der folgenden Werte:
 
@@ -36,88 +36,88 @@ Methode 1: **_Schnellbearbeitung_**
    * **[!UICONTROL Tax/VAT Number]**
    * **[!UICONTROL Gender]**
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 Methode 2: **_Vollständige Bearbeitung_**
 
 1. Suchen Sie im Raster den zu bearbeitenden Kundendatensatz.
 
-1. Im _Aktionen_ -Spalte ganz rechts klicken Sie auf **[!UICONTROL Edit]**.
+1. Klicken Sie in der Spalte _Aktionen_ ganz rechts auf **[!UICONTROL Edit]**.
 
 1. Nehmen Sie die erforderlichen Änderungen an den Unternehmensinformationen vor.
 
    >[!INFO]
    >
-   >Weitere Informationen finden Sie unter [Kundenprofil aktualisieren](../customers/update-account.md).
+   >Weitere Informationen finden Sie unter [Aktualisieren eines Kundenprofils](../customers/update-account.md).
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Customer]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Customer]**.
 
 >[!INFO]
 >
->Wenn Sie alle Änderungen vor dem Speichern rückgängig machen möchten, klicken Sie auf **[!UICONTROL Reset]** in der oberen Schaltflächenleiste, um alle Änderungen zur zuletzt gespeicherten Version zurückzugeben.
+>Wenn Sie alle Änderungen vor dem Speichern rückgängig machen möchten, klicken Sie in der oberen Schaltflächenleiste auf **[!UICONTROL Reset]** , um alle Änderungen zur zuletzt gespeicherten Version zurückzugeben.
 
 ## Kundeninformationen
 
 ### [!UICONTROL Customer View]
 
-Die _Kundenansicht_ enthält Informationen zum Kunden, einschließlich **[!UICONTROL Personal Information]**, **[!UICONTROL Reward Points Balance]**, und **[!UICONTROL Store Credit Balance]**.
+Die Registerkarte _Kundenansicht_ enthält Informationen zum Kunden, einschließlich **[!UICONTROL Personal Information]**, **[!UICONTROL Reward Points Balance]** und **[!UICONTROL Store Credit Balance]**.
 
 ### [!UICONTROL Account Information]
 
-Die [Kontoinformationen](../customers/account-dashboard-account-information.md) -Tab enthält detaillierte Informationen zum Kunden, in denen ein Admin-Benutzer personenbezogene Daten, E-Mails, Remote-Einkaufsunterstützung, Geburtsdatum bearbeiten und Kunden an die Website oder das Unternehmen anhängen kann.
+Die Registerkarte [Kontoinformationen](../customers/account-dashboard-account-information.md) enthält detaillierte Informationen zum Kunden, in denen ein Admin-Benutzer persönliche Informationen, E-Mails, Remote-Kaufunterstützung, Geburtsdatum und Kunden an die Website oder das Unternehmen anhängen kann.
 
 ### [!UICONTROL Addresses]
 
-Die [Adressen](../customers/account-dashboard-address-book.md) enthält die standardmäßigen Abrechnungs- und Versandadressen des Kunden sowie alle zusätzlichen häufig verwendeten Adressen.
+Der Tab [Adressen](../customers/account-dashboard-address-book.md) enthält die standardmäßigen Abrechnungs- und Versandadressen des Kunden sowie alle weiteren häufig verwendeten Adressen.
 
 ### [!UICONTROL Orders]
 
-Die [Bestellungen](../stores-purchase/orders.md) enthält eine Liste aller aktuellen Kundenaufträge. Der Administrator kann den Fortschritt verfolgen.
+Das Raster [Bestellungen](../stores-purchase/orders.md) enthält eine Liste aller aktuellen Kundenaufträge. Der Administrator kann den Fortschritt verfolgen.
 
 ### [!UICONTROL Returns]
 
 {{ee-feature}}
 
-Die [Rückgabe](../stores-purchase/returns.md) -Tab listet die aktuellen zurückgegebenen Kundenanfragen auf.
+Auf der Registerkarte [Rückgaben](../stores-purchase/returns.md) werden die aktuellen zurückgegebenen Kundenanforderungen aufgelistet.
 
 ### [!UICONTROL Shopping cart]
 
-Die [Warenkorb](../stores-purchase/cart.md) -Tab zeigt Produkte an, die sich derzeit im Warenkorb befinden, aber aus irgendeinem Grund wurde der Kauf nicht abgeschlossen.
+Auf der Registerkarte [Warenkorb](../stores-purchase/cart.md) werden Produkte angezeigt, die sich derzeit im Warenkorb befinden, aber aus irgendeinem Grund wurde der Kauf nicht abgeschlossen.
 
 ### [!UICONTROL Wish List]
 
-A [Wunschliste](../stores-purchase/wishlists.md) zeigt eine Liste der Produkte an, die ein Kunde zu einem späteren Zeitpunkt in den Warenkorb übertragen kann.
+Eine [Wunschliste](../stores-purchase/wishlists.md) zeigt eine Liste der Produkte an, die ein Kunde später in den Warenkorb übertragen kann.
 
 ### [!UICONTROL Gift Registry]
 
 {{ee-feature}}
 
-Die [Geschenkregistrierung](../merchandising-promotions/gift-registry-storefront.md) enthält die aktuellen Geschenkgutscheine des Kunden und das zugehörige Ereignis.
+Im Abschnitt [Geschenkregistrierung](../merchandising-promotions/gift-registry-storefront.md) werden die aktuellen Geschenkgutachter des Kunden und das zugehörige Ereignis aufgelistet.
 
 
 ### [!UICONTROL Store Credit]
 
 {{ee-feature}}
 
-Die [Store-Gutschrift](../customers/store-credit.md) einen Betrag anzeigt, der in einem Kundenkonto wiederhergestellt wurde, kann der Administrator diesen Wert verwalten.
+Auf der Registerkarte [Gutschrift speichern](../customers/store-credit.md) wird ein Betrag angezeigt, der in ein Kundenkonto wiederhergestellt wurde. Der Administrator kann diesen Wert verwalten.
 
 ### [!UICONTROL Newsletter]
 
-Die [Newsletter](../merchandising-promotions/newsletters.md) zeigt alle E-Mails an, die an den aktuellen Kunden gesendet wurden.
+Auf der Registerkarte [Newsletter](../merchandising-promotions/newsletters.md) werden alle E-Mails angezeigt, die an den aktuellen Kunden gesendet werden.
 
 ### [!UICONTROL Billing Agreements]
 
-Die [Abrechnungsabkommen](../stores-purchase/paypal-billing-agreements.md) auf der Registerkarte werden alle PayPal-Abrechnungsvereinbarungen zwischen dem Store und dem Kunden aufgelistet.
+Im Tab [Abrechnungsabkommen](../stores-purchase/paypal-billing-agreements.md) werden alle PayPal-Abrechnungsvereinbarungen zwischen dem Store und dem Kunden aufgelistet.
 
 ### [!UICONTROL Product Reviews]
 
-Die [Produktüberprüfungen](../catalog/settings-advanced-product-reviews.md) zeigt alle von diesem Kunden übermittelten Bewertungen an.
+Auf der Registerkarte [Produktüberprüfungen](../catalog/settings-advanced-product-reviews.md) werden alle von diesem Kunden gesendeten Bewertungen angezeigt.
 
 ### [!UICONTROL Reward Points]
 
 {{ee-feature}}
 
-Die [Prämienpunkte](../merchandising-promotions/rewards-loyalty.md) zeigt den aktuellen Saldo der Belohnungspunkte des Kunden an. Ein Admin-Benutzer kann diesen Wert verwalten.
+Der Abschnitt [Bonuspunkte](../merchandising-promotions/rewards-loyalty.md) zeigt den aktuellen Saldo der Belohnungspunkte des Kunden an. Ein Admin-Benutzer kann diesen Wert verwalten.
 
 ## Schaltflächenleiste
 
@@ -127,7 +127,7 @@ Die [Prämienpunkte](../merchandising-promotions/rewards-loyalty.md) zeigt den a
 | **[!UICONTROL Login as Customer]** | Ermöglicht dem Händler, sich als Kunde anzumelden. |
 | **[!UICONTROL Delete Customer]** | Löscht das Kundenkonto. |
 | **[!UICONTROL Reset]** | Setzt nicht gespeicherte Änderungen im Kundenformular auf die vorherigen Werte zurück. |
-| **[!UICONTROL Create Order]** | [Erstellt eine Bestellung](../stores-purchase/customer-account-create-order.md) , das mit dem Kundenkonto verknüpft ist. |
+| **[!UICONTROL Create Order]** | [Erstellt eine Bestellung](../stores-purchase/customer-account-create-order.md), die mit dem Kundenkonto verknüpft ist. |
 | **[!UICONTROL Reset Password]** | Setzt das Kennwort des Kunden zurück. |
 | **[!UICONTROL Force Sign-In]** | Löscht die mit dem Kennwort des Kunden verknüpften Token und gewährt dem Administrator Zugriff auf das Konto. |
 | **[!UICONTROL Manage Shopping Cart]** | Bietet Zugriff auf den Warenkorb eines Kunden. |

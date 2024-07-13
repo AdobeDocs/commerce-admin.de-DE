@@ -6,47 +6,47 @@ feature: B2B, Companies, Configuration, Quotes
 role: Admin
 source-git-commit: d4c3ea4b49e30ae3af249516d32fb28437d218b8
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
 # Anführungszeichen konfigurieren
 
-Wenn Anführungszeichen im Allgemeinen aktiviert sind [B2B-Funktionen](enable-basic-features.md)können Sie die Unterstützung für Anführungszeichen in Admin konfigurieren. Die Anführungszeichenkonfiguration bestimmt den erforderlichen Mindestbestellbetrag für Anführungsanfragen, die Lebensdauer des Anführungszeichens und die unterstützten Dateiformate für angehängte Dateien.
+Wenn Anführungszeichen in den allgemeinen [B2B-Funktionen](enable-basic-features.md) aktiviert sind, können Sie die Unterstützung für Anführungszeichen in Admin konfigurieren. Die Anführungszeichenkonfiguration bestimmt den erforderlichen Mindestbestellbetrag für Anführungsanfragen, die Lebensdauer des Anführungszeichens und die unterstützten Dateiformate für angehängte Dateien.
 
 >[!NOTE]
 >
->Konfigurationsoptionen für Anführungszeichen und die Möglichkeit zur Verwendung von Anführungszeichen-Verhandlungsfunktionen werden mithilfe der Variablen [Rollenressourcen](../systems/permissions-user-roles.md#role-resources). Diese Rollenressourcen müssen für die Administrator-Benutzerrolle ausgewählt sein, die dem Admin-Benutzerkonto zugewiesen ist. Um Zugriff auf Anführungsfunktionen im Admin zu gewähren, gehen Sie zu **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**, wählen Sie die Rolle aus und navigieren Sie zu [!UICONTROL Sales] > [!UICONTROL Operations] > [!UICONTROL Quotes] im_ Rollenressourcen _Baum.
+>Die Konfigurationsoptionen für Zitate und die Möglichkeit, Angebotsverhandlungen zu verwenden, werden mithilfe der [Rollenressourcen](../systems/permissions-user-roles.md#role-resources) gesteuert. Diese Rollenressourcen müssen für die Administrator-Benutzerrolle ausgewählt sein, die dem Admin-Benutzerkonto zugewiesen ist. Um Zugriff auf Anführungszeichenfunktionen im Admin zu gewähren, gehen Sie zu &quot;**[!UICONTROL System]**&quot;> &quot;_[!UICONTROL Permissions]_&quot;> &quot;**[!UICONTROL User Roles]**&quot;, wählen Sie die Rolle aus und navigieren Sie zu &quot;[!UICONTROL Sales]&quot;> &quot;[!UICONTROL Operations]&quot;> &quot;[!UICONTROL Quotes]&quot;im Baum &quot;_ Rollenressourcen _&quot;.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Quotes]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Quotes]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL General]** und führen Sie folgende Schritte aus:
+1. Erweitern Sie den Abschnitt **[!UICONTROL General]** des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
 
-   ![Konfiguration der Verkaufskurse - Allgemein](./assets/quotes-general.png){width="700" zoomable="yes"}
+   ![Konfiguration der Verkaufs-Anführungszeichen - Allgemein](./assets/quotes-general.png){width="700" zoomable="yes"}
 
-   Siehe [Anführungszeichen](../configuration-reference/sales/quotes.md) im _Konfigurationsreferenz_ für eine vollständige Liste der Anführungsfunktion und ihrer Funktionen.
+   Eine vollständige Liste der Anführungsoptionen und deren Funktionen finden Sie unter [Anführungszeichen](../configuration-reference/sales/quotes.md) in der _Konfigurationsreferenz_ .
 
-   - Geben Sie die **[!UICONTROL Minimum Amount]** im Warenkorb, der erfüllt werden muss, bevor eine Angebotsanfrage eingereicht werden kann.
+   - Geben Sie den Wert **[!UICONTROL Minimum Amount]** in den Warenkorb ein, der erfüllt sein muss, bevor eine Angebotsanforderung gesendet werden kann.
 
-   - Für **[!UICONTROL Minimum Amount Message]** eingeben, geben Sie die Meldung ein, die angezeigt werden soll, wenn die Gesamtsumme des Warenkorbs nicht den erforderlichen Mindestbetrag erreicht.
+   - Geben Sie für &quot;**[!UICONTROL Minimum Amount Message]**&quot;die Meldung ein, die angezeigt werden soll, wenn die Gesamtsumme des Warenkorbs nicht den erforderlichen Mindestbetrag erreicht.
 
-   - Für **[!UICONTROL Default Expiration Period]**, geben Sie die Anzahl der **[!UICONTROL days]**, **[!UICONTROL weeks]** oder **[!UICONTROL months]** dass ein Anführungszeichen gültig bleiben soll.
+   - Geben Sie für **[!UICONTROL Default Expiration Period]** die Anzahl der Werte **[!UICONTROL days]**, **[!UICONTROL weeks]** oder **[!UICONTROL months]** ein, die ein Anführungszeichen gültig bleiben soll.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Attached files]** und führen Sie folgende Schritte aus:
+1. Erweitern Sie den Abschnitt **[!UICONTROL Attached files]** des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
 
-   - Für **[!UICONTROL File formats for upload]**, geben Sie das Suffix jedes Dateityps ein, den Sie für Dateien unterstützen, die an ein Anführungszeichen angehängt sind.
+   - Geben Sie für &quot;**[!UICONTROL File formats for upload]**&quot;das Suffix jedes Dateityps ein, den Sie für Dateien unterstützen, die an ein Anführungszeichen angehängt sind.
 
      Geben Sie jedes Dateisuffix in Kleinbuchstaben und durch ein Komma getrennt ein.
 
-     Standardmäßig werden die folgenden Formate unterstützt: `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png`, und `jpeg`
+     Standardmäßig werden die folgenden Formate unterstützt: `doc`, `docx`, `xls`, `xlsx`, `pdf`, `txt`, `jpg`, `png` und `jpeg`
 
-   - Für **[!UICONTROL Maximum file size]**, geben Sie die maximale Größe einer angehängten Datei in Megabyte ein.
+   - Geben Sie für &quot;**[!UICONTROL Maximum file size]**&quot; die maximale Größe einer angehängten Datei in Megabyte ein.
 
      Der von Ihnen eingegebene Wert wird möglicherweise von der Servereinstellung überschrieben.
 
-     ![Konfiguration der Verkaufskurse - angehängte Dateien](./assets/quotes-attached-files.png){width="600" zoomable="yes"}
+     ![Konfiguration der Verkaufs-Anführungszeichen - angehängte Dateien](./assets/quotes-attached-files.png){width="600" zoomable="yes"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.

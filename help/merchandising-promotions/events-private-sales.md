@@ -20,21 +20,21 @@ Private Verkaufs- und andere Katalogereignisse eignen sich hervorragend, um mit 
 
 ## Ereignisverwaltungskomponenten
 
-- **Kategorien** - Jedes Ereignis ist mit einem [category](../catalog/category-create.md) aus Ihrem Katalog.
+- **Kategorien** - Jedes Ereignis ist einer [Kategorie](../catalog/category-create.md) aus Ihrem Katalog zugeordnet.
 
-- **Veranstaltungen** - Ereignisverkäufe basieren auf einem Start- und einem Enddatum. Sie können eine [Countdown-Ticker](#event-ticker) um die verbleibende Zeit anzuzeigen.
+- **Ereignisse** - Ereignisverkäufe basieren auf einem Start- und einem Enddatum. Sie können einen [Countdown-Ticker](#event-ticker) verwenden, um die verbleibende Zeit anzuzeigen.
 
-- **Karussell von Katalogereignissen** - Wenn die Variable [Catalog Event-Widget](../content-design/widget-event-carousel.md) in der Konfiguration aktiviert ist, kann sie als Liste offener und bevorstehender Ereignisse auf Store-Seiten platziert werden, sortiert nach Enddatum. Wenn zwei oder mehr Ereignisse dasselbe Enddatum haben, werden die Ereignisse anhand der in der Konfiguration angegebenen Reihenfolge sortiert.
+- **Katalogereignis-Karussell** - Wenn das [Katalogereignis-Widget](../content-design/widget-event-carousel.md) in der Konfiguration aktiviert ist, kann es als Liste offener und bevorstehender Ereignisse auf Store-Seiten platziert werden, sortiert nach Enddatum. Wenn zwei oder mehr Ereignisse dasselbe Enddatum haben, werden die Ereignisse anhand der in der Konfiguration angegebenen Reihenfolge sortiert.
 
 - **[!UICONTROL Websites]** - Kategorieberechtigungen basieren hauptsächlich auf [Kundengruppen](../customers/customer-groups.md).
 
-- **Kategorienberechtigungen** - [Kategorienberechtigungen](../catalog/category-permissions.md) gibt Ihnen vollständige Kontrolle über die spezifischen Aktivitäten, die in einer bestimmten Kategorie stattfinden können.
+- **Kategorieberechtigungen** - [Kategorieberechtigungen](../catalog/category-permissions.md) geben Ihnen vollständige Kontrolle über die spezifischen Aktivitäten, die in einer bestimmten Kategorie stattfinden können.
 
-- **Zugriffsbeschränkungen** - Verhindert die öffentliche [access](event-configure.md#restrict-access) zur Site weiterleiten, indem Sie zu einer Landingpage, Anmeldeseite oder Registrierungsseite weiterleiten.
+- **Zugriffsbeschränkungen** - Verhindert den öffentlichen [Zugriff](event-configure.md#restrict-access) auf die Site durch Weiterleitung zu einer Landingpage, Anmeldeseite oder Registrierungsseite.
 
-- **Einladungen** - E-Mail-Nachrichten werden mit einem Link gesendet, um ein Konto im Store zu erstellen. Sie können die Möglichkeit, ein Konto zu erstellen, auf diejenigen beschränken, die eine [Einladung](invitations.md).
+- **Einladungen** - E-Mail-Nachrichten werden mit einem Link gesendet, um ein Konto im Store zu erstellen. Sie können die Möglichkeit, ein Konto zu erstellen, auf diejenigen beschränken, die eine [Einladung](invitations.md) erhalten.
 
-- **Private Verkaufsberichte** - die [Berichte zu privaten Verkäufen](../getting-started/private-sales-reports.md) Informationen zu gesendeten Einladungen, eingeladenen Kunden und Konversionen bereitstellen.
+- **Berichte zu privaten Verkäufen** - Die [Berichte zu privaten Verkäufen](../getting-started/private-sales-reports.md) enthalten Informationen zu gesendeten, eingeladenen Kunden und Konversionen.
 
 ## Ereignisticker
 

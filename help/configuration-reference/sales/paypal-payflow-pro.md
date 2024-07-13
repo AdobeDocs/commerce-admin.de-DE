@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt;  [!UICONTROL PayPal Payflow Pro]'
-description: Überprüfen Sie die Konfigurationseinstellungen im Abschnitt [!UICONTROL PayPal Payflow Pro] im Abschnitt [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] Seite des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen im Abschnitt [!UICONTROL PayPal Payflow Pro] auf der Seite [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] des Commerce-Administrators.
 exl-id: 2aae038b-15c0-452a-98bc-4d97efbb60f6
 feature: Configuration, Payments
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**PSD2-Anforderungen:** <br/>
->Ab dem 14. September 2019 könnten europäische Banken Zahlungen ablehnen, die nicht erfüllt sind [PSD2](../../getting-started/compliance-payment-services-directive.md) Anforderungen. Einhaltung von PSD 2, [!DNL PayPal Payflow Pro] muss in [!DNL Cardinal Commerce]. Weitere Informationen finden Sie unter [3-D-Sicherheit für Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
+>**Anforderungen an PSD2:** <br/>
+>Ab dem 14. September 2019 könnten europäische Banken Zahlungen ablehnen, die nicht den Anforderungen von [PSD2](../../getting-started/compliance-payment-services-directive.md) entsprechen. Um PSD2 zu erfüllen, muss [!DNL PayPal Payflow Pro] in [!DNL Cardinal Commerce] integriert sein. Weitere Informationen finden Sie unter [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
 
 {{config}}
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ![Erforderliche Einstellungen](./assets/paypal-payflow-pro-settings.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | Webseite | (Optional) Alle E-Mail-Adressen, die mit Ihrem PayPal-Handelskonto verknüpft sind. Bei E-Mail-Adressen muss die Groß-/Kleinschreibung beachtet werden und die Adressen müssen exakt mit denen in Ihrem Konto übereinstimmen. |
 | [!UICONTROL Partner] | Webseite | gegebenenfalls Ihre PayPal-Partner-ID. |
@@ -31,7 +31,7 @@ ht-degree: 0%
 | Benutzer | Webseite | Die ID eines anderen Benutzers in Ihrem PayPal-Konto. |
 | [!UICONTROL Password] | Webseite | Das Kennwort, das Ihrem PayPal-Kaufkonto zugeordnet ist. |
 | [!UICONTROL Test Mode] | Webseite | Wenn diese Option aktiviert ist, führt PayPal Payflow Pro in einer Testumgebung aus. Deaktivieren Sie den Testmodus, wenn Sie bereit sind, im Produktionsmodus live zu gehen. Optionen: `Yes` / `No` |
-| [!UICONTROL Use Proxy] | Webseite | Ein Proxy kann verwendet werden, um den Traffic umzuleiten, wenn die Server-Firewall den direkten Zugriff auf den PayPal-Server verhindert. Gibt ggf. den Proxy-Server an, der zum Herstellen einer Verbindung mit dem PayPal-Server verwendet wird. Optionen: `Yes` / `No` <br/><br/>Wenn diese Option aktiviert ist, legen Sie die Proxy-Optionen fest: <br/>**`Proxy Host`**- Die IP-Adresse des Proxyhosts.<br/>**`Proxy Port`** - Die Nummer des Proxy-Ports. |
+| [!UICONTROL Use Proxy] | Webseite | Ein Proxy kann verwendet werden, um den Traffic umzuleiten, wenn die Server-Firewall den direkten Zugriff auf den PayPal-Server verhindert. Gibt ggf. den Proxy-Server an, der zum Herstellen einer Verbindung mit dem PayPal-Server verwendet wird. Optionen: `Yes` / `No` <br/><br/>Legen Sie bei Aktivierung die Proxy-Optionen fest: <br/>**`Proxy Host`**- Die IP-Adresse des Proxy-Hosts.<br/>**`Proxy Port`** - Die Nummer des Proxy-Ports. |
 | [!UICONTROL Enable this Solution] | Webseite | Stellt fest, ob PayPal Payflow Pro Ihren Kunden als Zahlungsmethode zur Verfügung steht. |
 | [!UICONTROL Enable PayPal Credit] | Webseite | Stellt fest, ob PayPal-Guthaben Ihren Kunden als Zahlungsoption zur Verfügung steht. |
 
@@ -39,16 +39,16 @@ ht-degree: 0%
 
 ## [!UICONTROL Advertise PayPal Credit]
 
-![Advertise PayPal Credit](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
+![PayPal-Guthaben für Werbung](./assets/payment-methods-paypal-payments-advanced-advertise-paypal-credit.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Publisher ID] | Webseite | Die Herausgeber-ID, die Ihrem PayPal-Konto zugeordnet ist. |
 | [!UICONTROL Get Publisher ID from PayPal] |  | Ruft Ihre Herausgeber-ID von PayPal ab. |
-| [!UICONTROL Home Page] | Webseite | Bestimmt die Position und Größe der [!DNL PayPal Credit] Banner auf der Startseite. Optionen: <br/>**`Display`**- Bestimmt, ob eine[!DNL PayPal Credit] Banner wird auf der Startseite Ihres Stores angezeigt. Optionen: `Yes` / `No`<br/>**`Position`** - Bestimmt die Position der [!DNL PayPal Credit] Banner auf der Startseite. Optionen: Kopfzeile (zentriert)/Seitenleiste (rechts) <br/>**`Size`**- Bestimmt die Größe der [!DNL PayPal Credit] Banner auf der Startseite. Optionen: `190 x 100` / `234 x 60` / `300 x 50` / `468 x 60` / `728 x 90` /` 800 x 66` |
-| [!UICONTROL Catalog Category Page] | Webseite | Bestimmt die Position und Größe der [!DNL PayPal Credit] Banner auf Kategorieseiten. Optionen: (entspricht für [!UICONTROL Home Page]) |
-| [!UICONTROL Catalog Product Page] | Webseite | Bestimmt die Position und Größe der [!DNL PayPal Credit] Banner auf Produktseiten. Optionen: (entspricht für [!UICONTROL Home Page]) |
-| [!UICONTROL Checkout Cart Page] | Webseite | Bestimmt die Position und Größe der [!DNL PayPal Credit] Banner auf der Warenkorbseite. Optionen: (entspricht für [!UICONTROL Home Page]) |
+| [!UICONTROL Home Page] | Webseite | Bestimmt die Position und Größe des [!DNL PayPal Credit] -Banners auf der Startseite. Optionen: <br/>**`Display`**- Bestimmt, ob ein [!DNL PayPal Credit] -Banner auf der Startseite Ihres Stores angezeigt wird. Optionen: `Yes` / `No`<br/>**`Position`** - Bestimmt die Position des [!DNL PayPal Credit] -Banners auf der Startseite. Optionen: Kopfzeile (zentriert) / Seitenleiste (rechts) <br/>**`Size`**- Legt die Größe des [!DNL PayPal Credit] -Banners auf der Startseite fest. Optionen: `190 x 100` / `234 x 60` / `300 x 50` / `468 x 60` / `728 x 90` /` 800 x 66` |
+| [!UICONTROL Catalog Category Page] | Webseite | Bestimmt die Position und Größe des [!DNL PayPal Credit] -Banners auf Kategorieseiten. Optionen: (wie für [!UICONTROL Home Page]) |
+| [!UICONTROL Catalog Product Page] | Webseite | Bestimmt die Position und Größe des [!DNL PayPal Credit] -Banners auf Produktseiten. Optionen: (wie für [!UICONTROL Home Page]) |
+| [!UICONTROL Checkout Cart Page] | Webseite | Bestimmt die Position und Größe des [!DNL PayPal Credit] -Banners auf der Warenkorbseite. Optionen: (wie für [!UICONTROL Home Page]) |
 
 {style="table-layout:auto"}
 
@@ -56,11 +56,11 @@ ht-degree: 0%
 
 ![Grundlegende Einstellungen](./assets/payment-methods-paypal-payflow-pro-basic-settings.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Title] | Store-Ansicht | Ein Name, der PayPal Payflow Pro als Zahlungsmethode beim Checkout angibt. |
 | [!UICONTROL Sort Order] | Store-Ansicht | Eine Zahl, die bestimmt, in welcher Reihenfolge PayPal Payflow Pro angezeigt wird, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgeführt wird. |
-| [!UICONTROL Payment Action] | Webseite | Legt fest, welche Aktion von PayPal bei der Absendung einer Bestellung durchgeführt wird. Optionen: <br/>**`Authorization`**- Genehmigt den Kauf, aber hält die Mittel fest. Der Betrag wird erst dann zurückgezogen, wenn er vom Händler &quot;erfasst&quot;wurde.<br/>**`Sale`** - Der Kaufbetrag wird genehmigt und sofort vom Konto des Kunden zurückgezogen. |
+| [!UICONTROL Payment Action] | Webseite | Legt fest, welche Aktion von PayPal bei der Absendung einer Bestellung durchgeführt wird. Optionen: <br/>**`Authorization`**- Genehmigt den Kauf, legt jedoch einen Halten für die Fonds fest. Der Betrag wird erst dann zurückgezogen, wenn er vom Händler &quot;erfasst&quot;wurde.<br/>**`Sale`** - Der Betrag des Kaufs wird genehmigt und sofort vom Konto des Kunden zurückgezogen. |
 | **[!UICONTROL Credit Card Settings]** |  |  |
 | [!UICONTROL Allowed Credit Cart Types] | Webseite | Bestimmt die Kreditkarten, die Kunden beim Checkout zur Verfügung stehen. Wählen Sie jede unterstützte Karte aus. Optionen: `American Express` (erfordert eine zusätzliche Vereinbarung) / `Visa` / `MasterCard` / `Discover` / `JCB` |
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ![Erweiterte Einstellungen](./assets/payment-methods-paypal-payflow-pro-advanced-settings.png)<!-- zoom -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | Anzeige im Warenkorb | Store-Ansicht | Bestimmt, ob PayPal Express Checkout als Zahlungsoption im Warenkorb angezeigt wird. Optionen: Ja (empfohlen) / Nein |
 | [!UICONTROL Payment Action Applicable From] | Webseite | Bestimmt den Bereich der entsprechenden Länderauswahl. Optionen: Alle zugelassenen Länder/spezifischen Länder |

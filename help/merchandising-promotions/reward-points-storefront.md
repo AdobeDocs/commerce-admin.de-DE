@@ -14,19 +14,19 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Die [Prämienpunkte](rewards-loyalty.md) -Abschnitt des Kundenkontos zeigt an, dass der aktuelle Saldo der vom Kunden verdienten Bonuspunkte und eine Übersicht über den Saldo seiner Bonuspunkte.
+Der Abschnitt [Bonuspunkte](rewards-loyalty.md) des Kundenkontos zeigt, dass der aktuelle Saldo der vom Kunden verdienten Bonuspunkte und der Verlauf seines Bonuspunkts angezeigt werden.
 
-![Prämienpunkte](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
+![Belohnungspunkte](./assets/account-dashboard-reward-points.png){width="700" zoomable="yes"}
 
 ## Ersetzen Sie die Prämienpunkte während des Checkouts.
 
-Wenn [Revenue Exchange Rate](reward-exchange-rates.md) mit `Points to Currency` -Richtung konfiguriert ist, können Kunden während des Checkouts Belohnungspunkte verwenden.
+Wenn die Richtung [Reward Exchange Rate](reward-exchange-rates.md) mit `Points to Currency` konfiguriert ist, können Kunden während des Checkout Prämienpunkte verwenden.
 
 1. Nachdem alle benötigten Produkte in den Warenkorb gelegt wurden, navigiert der Kunde zum Checkout.
 
-1. Fügt alle erforderlichen Versandinformationen ein und navigiert zur _Überprüfung und Zahlungen_ Schritt.
+1. Fügt alle erforderlichen Versandinformationen ein und navigiert zum Schritt _Überprüfen und Zahlungen_ .
 
-1. Im _[!UICONTROL Reward points]_überprüft die Anzahl der verfügbaren Punkte und deren Währungswert.
+1. Prüft im Abschnitt _[!UICONTROL Reward points]_die Anzahl der verfügbaren Punkte und deren Währungswert.
 
 1. Klicks **[!UICONTROL Use reward points]**.
 

@@ -16,7 +16,7 @@ Sie können die Produktkonfigurationseinstellungen in der Admin-Konsole verwende
 
 Der ermäßigte Preis eines Produkts kann Mitgliedern einer bestimmten Kundengruppe angeboten werden, wenn der Käufer bei seinem Konto angemeldet ist. Der Kundengruppenpreis wird zusammen mit dem regulären Preis auf der Produktseite angezeigt, sodass ein Käufer die Preise einfach vergleichen und entsprechend handeln kann. Nachdem der Kunde das Produkt zum Warenkorb hinzugefügt hat, wird der reguläre Preis durch den auf seiner Kundengruppe basierenden Gruppenpreis ersetzt.
 
-Die Preise für Kundengruppen sind eine Komponente von [gestaffelte Preise](product-price-tier.md) und auf ähnliche Weise festgelegt ist. Der einzige Unterschied besteht darin, dass die Preise der Kundengruppen eine Menge von 1 aufweisen.
+Die Preise für Kundengruppen sind Bestandteil der [gestaffelten Preise](product-price-tier.md) und werden auf ähnliche Weise festgelegt. Der einzige Unterschied besteht darin, dass die Preise der Kundengruppen eine Menge von 1 aufweisen.
 
 ![Kundengruppenrabatt](./assets/storefront-price-group.png){width="600" zoomable="yes"}
 
@@ -34,38 +34,38 @@ Die Preise für Kundengruppen sind eine Komponente von [gestaffelte Preise](prod
 
 1. Öffnen Sie das Produkt im Bearbeitungsmodus.
 
-1. Unter dem _[!UICONTROL Price]_Feld, klicken Sie auf **[!UICONTROL Advanced Pricing]**.
+1. Klicken Sie unter dem Feld _[!UICONTROL Price]_auf **[!UICONTROL Advanced Pricing]**.
 
-1. Im _[!UICONTROL Customer Group Price]_Abschnitt, klicken Sie auf **[!UICONTROL Add]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Customer Group Price]_auf **[!UICONTROL Add]**.
 
-   Wenn Ihr Store [Adobe Commerce B2B](../b2b/introduction.md) und [freigegebene Kataloge](../b2b/catalog-shared.md) aktiviert ist, wird dieser Abschnitt _[!UICONTROL Catalog and Tier Price]_.
+   Wenn Ihr Store [Adobe Commerce B2B](../b2b/introduction.md) enthält und [freigegebene Kataloge](../b2b/catalog-shared.md) aktiviert ist, wird dieser Abschnitt mit _[!UICONTROL Catalog and Tier Price]_beschriftet.
 
    ![Erweiterte Preise](./assets/product-price-group.png){width="600" zoomable="yes"}
 
 1. Konfigurieren Sie den Gruppenpreis:
 
-   - Wählen Sie für eine Installation mit mehreren Sites die **[!UICONTROL Website]** wenn der Gruppenpreis gilt.
+   - Wählen Sie für eine Installation mit mehreren Sites den Wert &quot;**[!UICONTROL Website]**&quot;, für den der Gruppenpreis gilt.
 
-   - Wählen Sie die **[!UICONTROL Customer Group]** das heißt, den Rabatt zu erhalten.
+   - Wählen Sie die **[!UICONTROL Customer Group]** aus, die den Rabatt erhalten soll.
 
-   - Geben Sie einen **[!UICONTROL Quantity]** von `1`.
+   - Geben Sie den Wert **[!UICONTROL Quantity]** von `1` ein.
 
-   - Für **[!UICONTROL Price]**, legen Sie den Preistyp und den Betrag fest:
+   - Legen Sie für **[!UICONTROL Price]** den Preistyp und den Betrag fest:
 
       - `Fixed` - Geben Sie den ermäßigten Produktpreis ein.
 
-      - `Discount` - Geben Sie den ermäßigten Preis als Prozentsatz des Produktpreises an.
+      - `Discount` - Geben Sie den ermäßigten Preis als Prozentsatz des Produktpreises ein.
 
      ![Preise für Kundengruppen](./assets/product-price-group-discount.png){width="600" zoomable="yes"}
 
 1. Um einen weiteren Gruppenpreis hinzuzufügen, klicken Sie auf **[!UICONTROL Add]** und wiederholen Sie den vorherigen Schritt.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Done]** und dann **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Done]** und dann auf **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Die **_final_** Der Produktpreis wird als **_Minimum_** relevanter Preis nach folgender Formel: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
+>Der Produktpreis **_final_** wird als relevanter Preis für **_Minimum_** anhand der folgenden Formel berechnet: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
 
 >[!NOTE]
 >
->**_Festpreis_** Anpassbare Produktoptionen sind _not_ beeinflusst von den Regeln für Gruppenpreis, Tier-Preis, Sonderpreis oder Katalogpreis.
+>**_Der feste Preis_** Die anpassbaren Optionen für das Produkt sind _nicht_ von den Regeln für Gruppenpreis, Tier-Preis, Sonderpreis oder Katalogpreis betroffen.

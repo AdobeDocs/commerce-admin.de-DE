@@ -17,7 +17,7 @@ ht-degree: 2%
 
 - [Administratorsystemanleitung](guide-overview.md)
 - [Einführung in Administratorsysteme](introduction.md)
-- [[!UICONTROL System] Menü](system-menu.md)
+- [Menü [!UICONTROL System]](system-menu.md)
 - Admin-Benutzerkonten {#user-accounts}
    - [Administratorberechtigungen](permissions.md)
    - [Benutzerkonten verwalten](permissions-users-all.md)
@@ -28,7 +28,7 @@ ht-degree: 2%
    - [Benutzerdefinierte Variablen](variables-custom.md)
    - [Variablenreferenz](variables-reference.md)
    - [Markup-Tags](markup-tags.md)
-- Kommunikation {#communications}
+- Communications {#communications}
    - [E-Mail-Vorlagen](email-templates.md)
    - [E-Mail-Vorlagen anpassen](email-template-custom.md)
    - [E-Mail konfigurieren](email-communications.md)
@@ -77,6 +77,6 @@ ht-degree: 2%
    - [Sitzungsverwaltung](security-session-management.md)
    - [Erkennung von Browserfunktionen](security-browser-capabilities-detection.md)
    - [Sicherheitsfehlerberichte](security-issue-reporting.md)
-- [Zurück zu den Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 

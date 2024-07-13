@@ -14,28 +14,28 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Die Berichte zu privaten Verkäufen enthalten Informationen zu [Veranstaltungen und private Verkäufe](../merchandising-promotions/events-private-sales.md).
+Die privaten Verkaufsberichte enthalten Informationen zu [Ereignissen und privaten Verkäufen](../merchandising-promotions/events-private-sales.md).
 
 ## [!UICONTROL Invitations Report]
 
-Die [!UICONTROL Invitations Report] zeigt die Anzahl der [Einladungen](../merchandising-promotions/invitations.md) im angegebenen Zeitraum gesendet wurden, die akzeptierte Zahl und die verworfene Zahl.
+Der Wert [!UICONTROL Invitations Report] gibt die Anzahl der [Einladungen](../merchandising-promotions/invitations.md) an, die im angegebenen Zeitraum gesendet wurden, sowie die akzeptierte und verworfene Zahl.
 
-Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
+Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invitations]**.
 
 ![Einladungsbericht](./assets/private-sales-invitations.png){width="600"}
 
 ## [!UICONTROL Invited Customers Report]
 
-Die [!UICONTROL Invited Customers Report] zeigt alle Kunden an, denen Einladungen zu einem privaten Verkauf oder Ereignis gesendet wurden. Er enthält den Namen und die E-Mail-Adresse, die Kundengruppe, die Anzahl der gesendeten Einladungen und die akzeptierte Zahl.
+Der [!UICONTROL Invited Customers Report] zeigt alle Kunden an, denen Einladungen zu einem privaten Verkauf oder Ereignis gesendet wurden. Er enthält den Namen und die E-Mail-Adresse, die Kundengruppe, die Anzahl der gesendeten Einladungen und die akzeptierte Zahl.
 
-Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invited Customers]**.
+Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Invited Customers]**.
 
 ![Bericht &quot;Eingeladene Kunden&quot;](./assets/private-sales-invited-customers.png){width="600"}
 
 ## [!UICONTROL Conversion Rate Report]
 
-Die [!UICONTROL Conversion Rate Report] zeigt die Anzahl der gesendeten und akzeptierten Einladungen, die Anzahl der Einladungen, die zu einem Kauf führten, und die Konversionsrate als Prozentsatz an.
+Der Wert [!UICONTROL Conversion Rate Report] zeigt die Anzahl der gesendeten und akzeptierten Einladungen, die Anzahl der Einladungen, die zu einem Kauf führten, und die Konversionsrate in Prozent an.
 
-Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Conversions]**.
+Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Reports]** > _[!UICONTROL Private Sales]_>**[!UICONTROL Conversions]**.
 
 ![Konversionsratenbericht](./assets/private-sales-conversions.png){width="600"}

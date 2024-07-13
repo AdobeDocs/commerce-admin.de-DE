@@ -1,6 +1,6 @@
 ---
 title: Inhalt hinzufügen - Dynamischer Block
-description: Erfahren Sie mehr über den Inhaltstyp "Dynamischer Block", mit dem der [!DNL Page Builder] Bühne.
+description: Erfahren Sie mehr über den Inhaltstyp "Dynamischer Block", der zum Hinzufügen eines wiederverwendbaren dynamischen Bausteins zur  [!DNL Page Builder] Bühne verwendet wird.
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Inhalt hinzufügen - Dynamischer Block
 
-Verwenden Sie den Content-Typ Dynamischer Block , um einen vorhandenen hinzuzufügen. [dynamischer Block](../content-design/dynamic-blocks.md) der [[!DNL Page Builder] Schritt](workspace.md#stage).
+Verwenden Sie den Inhaltstyp &quot;Dynamischer Block&quot;, um einen vorhandenen [dynamischen Block](../content-design/dynamic-blocks.md) zur [[!DNL Page Builder] Bühne](workspace.md#stage) hinzuzufügen.
 
 ![Dynamischer Block auf der Storefront](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
 
@@ -22,9 +22,9 @@ Verwenden Sie den Content-Typ Dynamischer Block , um einen vorhandenen hinzuzuf�
 
 | Tool | Symbol | Beschreibung |
 | --------- | ------------- | ----------------- |
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png){width="25"} | Verschiebt den Block-Container und seinen Inhalt an eine andere Position auf der Bühne. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} | Öffnet die _Block bearbeiten_ Seite, auf der Sie den Block auswählen und die Eigenschaften des Containers ändern können. |
-| Ausblenden | ![Symbol &quot;Ausblenden&quot;](./assets/pb-icon-hide.png){width="25"} | Blendet den aktuellen Block-Container und seinen Inhalt aus. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png){width="25"} | Verschiebt den Block-Container und seinen Inhalt an eine andere Position auf der Bühne. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite _Block bearbeiten_ , auf der Sie den Block auswählen und die Eigenschaften des Containers ändern können. |
+| Ausblenden | ![Symbol zum Ausblenden](./assets/pb-icon-hide.png){width="25"} | Blendet den aktuellen Block-Container und seinen Inhalt aus. |
 | Anzeigen | ![Symbol &quot;Anzeigen&quot;](./assets/pb-icon-show.png){width="25"} | Zeigt den ausgeblendeten Block-Container und seinen Inhalt an. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="25"} | Kopiert den Block-Container und seinen Inhalt. |
 | Entfernen | ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="25"} | Löscht den Block-Container und seinen Inhalt aus der Bühne. |
@@ -35,29 +35,29 @@ Verwenden Sie den Content-Typ Dynamischer Block , um einen vorhandenen hinzuzuf�
 
 ## Hinzufügen eines vorhandenen dynamischen Blocks zur Bühne
 
-1. Navigieren Sie zum [!DNL Page Builder] Arbeitsbereich auf der Zielseite, dem Baustein, dem Produkt oder der Kategorie.
+1. Navigieren Sie auf der Zielseite, dem Baustein, dem Produkt oder der Kategorie zum Arbeitsbereich &quot;[!DNL Page Builder]&quot;.
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Add Content]** und ziehen Sie eine **[!UICONTROL Dynamic Block]** Platzhalter zur Bühne.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Wert **[!UICONTROL Add Content]** und ziehen Sie einen Platzhalter **[!UICONTROL Dynamic Block]** auf die Bühne.
 
    ![Ziehen eines dynamischen Block-Platzhalters auf die Bühne](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den leeren Container des dynamischen Blocks, um die Symbolleiste anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den leeren Container mit dynamischen Bausteinen, um die Toolbox anzuzeigen und das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) zu wählen.
 
-   ![Dynamic Block-Toolbox](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
+   ![Dynamic Block toolbox](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
-1. Im _Dynamischen Block bearbeiten_ Seite, klicken **[!UICONTROL Select Dynamic Block]** und wählen Sie den Block mithilfe der Liste aus.
+1. Klicken Sie auf der Seite _Dynamischen Block bearbeiten_ auf **[!UICONTROL Select Dynamic Block]** und wählen Sie den Block mithilfe der Liste aus.
 
-   ![Dynamische Bausteine auswählen](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
+   ![Dynamischen Block auswählen](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
-   Suchen Sie in der Liste den dynamischen Baustein, den Sie einfügen möchten, und klicken Sie auf **[!UICONTROL Select]**. Klicken Sie anschließend auf **[!UICONTROL Add Selected]**.
+   Suchen Sie in der Liste den dynamischen Baustein, den Sie einfügen möchten, und klicken Sie auf **[!UICONTROL Select]**. Klicken Sie dann auf **[!UICONTROL Add Selected]**.
 
-   ![Dynamische Bausteine in der Liste auswählen](./assets/pb-add-content-dynamic-block-select-list.png){width="600" zoomable="yes"}
+   ![Dynamischen Baustein in der Liste auswählen](./assets/pb-add-content-dynamic-block-select-list.png){width="600" zoomable="yes"}
 
    Nachfolgend finden Sie eine Zusammenfassung der dynamischen Blockinformationen.
 
    ![Zusammenfassung dynamischer Blöcke](./assets/pb-add-content-dynamic-block-summary.png){width="600" zoomable="yes"}
 
-1. Satz **[!UICONTROL Template]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Template]** auf einen der folgenden Werte:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -70,11 +70,11 @@ Verwenden Sie den Content-Typ Dynamischer Block , um einen vorhandenen hinzuzuf�
 
 1. Nehmen Sie die erweiterten Einstellungen nach Bedarf vor.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ### Erweiterte Einstellungen
 
-1. Um die Positionierung des dynamischen Blocks innerhalb des übergeordneten Containers zu steuern, wählen Sie eine **[!UICONTROL Alignment]**:
+1. Um die Positionierung des dynamischen Blocks innerhalb des übergeordneten Containers zu steuern, wählen Sie einen **[!UICONTROL Alignment]**:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -85,7 +85,7 @@ Verwenden Sie den Content-Typ Dynamischer Block , um einen vorhandenen hinzuzuf�
 
    {style="table-layout:auto"}
 
-1. Legen Sie die **[!UICONTROL Border]** -Stil, der auf alle vier Seiten des dynamischen Block-Containers angewendet wird:
+1. Legen Sie den **[!UICONTROL Border]** -Stil fest, der auf alle vier Seiten des dynamischen Block-Containers angewendet wird:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -102,7 +102,7 @@ Verwenden Sie den Content-Typ Dynamischer Block , um einen vorhandenen hinzuzuf�
 
    {style="table-layout:auto"}
 
-1. Wenn Sie einen anderen Rahmenstil als `None`, füllen Sie die Randanzeigeoptionen aus:
+1. Wenn Sie einen anderen Rahmenstil als `None` festlegen, füllen Sie die Anzeigeoptionen für die Rahmenanzeige aus:
 
    | Option | Beschreibung |
    | ------ |------------ |
@@ -112,11 +112,11 @@ Verwenden Sie den Content-Typ Dynamischer Block , um einen vorhandenen hinzuzuf�
 
    {style="table-layout:auto"}
 
-1. (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet, das auf den Container angewendet werden soll.
+1. (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet an, das auf den Container angewendet werden soll.
 
    Trennen Sie mehrere Klassennamen durch ein Leerzeichen.
 
-1. Geben Sie Werte in Pixel für die **[!UICONTROL Margins and Padding]** um die äußeren Ränder und den inneren Abstand des dynamischen Blockcontainers zu bestimmen.
+1. Geben Sie Werte in Pixel für den Wert **[!UICONTROL Margins and Padding]** ein, um die äußeren Ränder und den inneren Abstand des dynamischen Block-Containers zu bestimmen.
 
    Geben Sie die entsprechenden Werte in das Diagramm ein.
 
@@ -129,31 +129,31 @@ Verwenden Sie den Content-Typ Dynamischer Block , um einen vorhandenen hinzuzuf�
 
 ## Einstellungen für dynamische Blockcontainer bearbeiten
 
-1. Bewegen Sie den Mauszeiger über den dynamischen Block-Container, um die Symbolleiste anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den dynamischen Block-Container, um die Toolbox anzuzeigen und das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) zu wählen.
 
-   ![Dynamic Block-Toolbox](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
+   ![Dynamic Block toolbox](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
 
 1. Ändern Sie bei Bedarf den dynamischen Baustein:
 
-   - Klicken **[!UICONTROL Select Dynamic Block]**.
+   - Klicken Sie auf **[!UICONTROL Select Dynamic Block]**.
 
-     ![Dynamische Blöcke auswählen](./assets/pb-add-content-dynamic-block-select.png){width="20"}
+     ![Auswählen eines weiteren dynamischen Blocks](./assets/pb-add-content-dynamic-block-select.png){width="20"}
 
-   - Klicken Sie in der Liste der aktiven dynamischen Blöcke auf **[!UICONTROL Select]** für den Block, den Sie hinzufügen möchten.
+   - Klicken Sie in der Liste der aktiven dynamischen Blöcke für den hinzuzufügenden Block auf **[!UICONTROL Select]** .
 
 1. Aktualisieren Sie die restlichen Einstellungen nach Bedarf.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ## Dynamischen Block duplizieren
 
-1. Bewegen Sie den Mauszeiger über den dynamischen Block-Container, um die Symbolleiste anzuzeigen und die _Duplizieren_ ( ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den dynamischen Block-Container, um die Symbolleiste anzuzeigen, und wählen Sie das Symbol _Duplizieren_ ( ![Duplizieren-Symbol](./assets/pb-icon-duplicate.png){width="20"} ).
 
    Das Duplikat wird direkt unter dem Original angezeigt.
 
-   ![Dynamische Bausteine duplizieren](./assets/pb-add-content-dynamic-block-duplicate.png){width="500" zoomable="yes"}
+   ![Dynamischen Block duplizieren](./assets/pb-add-content-dynamic-block-duplicate.png){width="500" zoomable="yes"}
 
-1. Um den neuen dynamischen Block an eine andere Position zu verschieben, bewegen Sie den Mauszeiger über den Container und wählen Sie dann _Verschieben_ ( ![Symbol Verschieben](./assets/pb-icon-move.png){width="20"} ) in der Toolbox.
+1. Um den neuen dynamischen Block an eine andere Position zu verschieben, bewegen Sie den Mauszeiger über den Container und wählen Sie dann in der Toolbox _Verschieben_ ( ![Verschieben-Symbol](./assets/pb-icon-move.png){width="20"} ).
 
 1. Wählen Sie den dynamischen Block aus und ziehen Sie ihn, bis die rote Führungslinie an der neuen Position angezeigt wird.
 
@@ -161,6 +161,6 @@ Verwenden Sie den Content-Typ Dynamischer Block , um einen vorhandenen hinzuzuf�
 
 ## Dynamischen Baustein aus der Bühne entfernen
 
-1. Bewegen Sie den Mauszeiger über den dynamischen Block-Container, um die Symbolleiste anzuzeigen und die _Entfernen_ ( ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den dynamischen Block-Container, um die Toolbox anzuzeigen, und wählen Sie das Symbol _Entfernen_ ( ![Symbol Entfernen](./assets/pb-icon-remove.png){width="20"} ).
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL OK]**.

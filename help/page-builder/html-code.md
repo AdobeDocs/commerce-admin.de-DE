@@ -1,18 +1,18 @@
 ---
 title: Elemente - HTML-Code
-description: Erfahren Sie mehr über den Content-Typ HTML-Code , der zum Hinzufügen von Snippets von HTML-, CSS- und JavaScript-Code im [!DNL Page Builder] Bühne.
+description: Erfahren Sie mehr über den Content-Typ HTML-Code , der zum Hinzufügen von Snippets von HTML-, CSS- und JavaScript-Code in der  [!DNL Page Builder] Bühne verwendet wird.
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
 source-git-commit: 556394327a6eff9282acb09bdd16777dd3fee360
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
 
 # Elemente - HTML-Code
 
-Verwenden Sie die _HTML-Code_ Inhaltstyp zum Hinzufügen von Snippets von HTML-, CSS- und JavaScript-Code im [[!DNL Page Builder] Schritt](workspace.md#stage). Sie können beispielsweise eine benutzerdefinierte HTML hinzufügen und eine CSS-Klasse deklarieren, die auf ein Seitenelement angewendet werden kann. Sie können auch einen Codeausschnitt für ein Logo, eine Schaltfläche oder ein Banner hinzufügen, das Sie von einem Drittanbieter erhalten haben.
+Verwenden Sie den Inhaltstyp _HTML-Code_ , um Snippets von HTML-, CSS- und JavaScript-Code in der [[!DNL Page Builder] Bühne](workspace.md#stage) hinzuzufügen. Sie können beispielsweise eine benutzerdefinierte HTML hinzufügen und eine CSS-Klasse deklarieren, die auf ein Seitenelement angewendet werden kann. Sie können auch einen Codeausschnitt für ein Logo, eine Schaltfläche oder ein Banner hinzufügen, das Sie von einem Drittanbieter erhalten haben.
 
 ## HTML-Code-Toolbox
 
@@ -20,9 +20,9 @@ Verwenden Sie die _HTML-Code_ Inhaltstyp zum Hinzufügen von Snippets von HTML-,
 
 | Tool | Symbol | Beschreibung |
 | --------- | ---------- | ----------------- |
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png){width="25"} | Verschiebt den HTML-Code-Container an eine andere gültige Position auf der Seite. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite HTML-Code bearbeiten , auf der Sie die Eigenschaften des Containers ändern können. |
-| Ausblenden | ![Symbol &quot;Ausblenden&quot;](./assets/pb-icon-hide.png){width="25"} | Blendet den HTML-Code-Container aus. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png){width="25"} | Verschiebt den HTML-Code-Container an eine andere gültige Position auf der Seite. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite HTML-Code bearbeiten , auf der Sie die Eigenschaften des Containers ändern können. |
+| Ausblenden | ![Symbol zum Ausblenden](./assets/pb-icon-hide.png){width="25"} | Blendet den HTML-Code-Container aus. |
 | Anzeigen | ![Symbol &quot;Anzeigen&quot;](./assets/pb-icon-show.png){width="25"} | Zeigt den ausgeblendeten HTML-Code-Container an. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="25"} | Kopiert den HTML-Code-Container. |
 | Entfernen | ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="25"} | Löscht den HTML-Code-Container und seinen Inhalt aus der Phase. |
@@ -31,20 +31,20 @@ Verwenden Sie die _HTML-Code_ Inhaltstyp zum Hinzufügen von Snippets von HTML-,
 
 ## HTML-Code hinzufügen
 
-Das folgende Beispiel zeigt, wie Sie [Google Font][1] und deklarieren benutzerdefinierte Überschriftenklassen, die das aktuelle Stylesheet überschreiben.
+Das folgende Beispiel zeigt, wie Sie den Code für [Google Font][1] einbetten und benutzerdefinierte Überschriftenklassen deklarieren, die das aktuelle Stylesheet überschreiben.
 
 ### Schritt 1: Auswählen einer Google-Schriftart
 
-1. Besuchen Sie die [Google Fonts][1] und wählen Sie die Schriftfamilie aus, die Sie verwenden möchten.
+1. Besuchen Sie die Seite [Google Fonts][1] und wählen Sie die Schriftfamilie aus, die Sie verwenden möchten.
 
-1. Kopieren Sie den generierten Code, der in die `<head>` und fügen Sie sie vorübergehend in einen Texteditor ein.
+1. Kopieren Sie den generierten Code, der in den Abschnitt `<head>` der Seite eingebettet werden soll, und fügen Sie ihn vorübergehend in einen Texteditor ein.
 
    - Einbetten von Schriftcode
    - CSS-Regel
 
-1. Fügen Sie die Schriftartregel zu jeder Überschriftenklasse hinzu und schließen Sie die Überschriftenklassen in eine `<style>` -Tag.
+1. Fügen Sie die Schriftartregel zu jeder Überschriftenklasse hinzu und schließen Sie die Überschriftenklassen in ein `<style>` -Tag ein.
 
-   Dieser Code wird in [!DNL Page Builder].
+   Dieser Code wird in [!DNL Page Builder] eingefügt.
 
    ```html
    <style>
@@ -56,19 +56,19 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1] und deklarieren benutzerde
 
 ### Schritt 2: Hinzufügen des Codes zur Seite
 
-1. Im _Admin_ Seitenleiste Ihres Stores, gehen Sie zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ Ihres Stores zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
 1. Suchen Sie die Seite, auf der die Schrift verfügbar sein soll, und öffnen Sie sie im Bearbeitungsmodus.
 
-1. Scrollen Sie nach unten und erweitern Sie die **[!UICONTROL Content]** Abschnitt.
+1. Scrollen Sie nach unten und erweitern Sie den Abschnitt **[!UICONTROL Content]** .
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Elements]** und ziehen Sie **[!UICONTROL HTML Code]** Platzhalter für eine Zeile, Spalte oder Registerkarte, die auf der Bühne festgelegt ist.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Eintrag **[!UICONTROL Elements]** und ziehen Sie einen Platzhalter **[!UICONTROL HTML Code]** auf eine Zeile, Spalte oder Registerkarte, die auf der Bühne festgelegt ist.
 
    Verwenden Sie die rote Führungslinie, um die Trennlinie entweder vor oder nach einem anderen Inhaltscontainer in der Zeile, Spalte oder Registerkartengruppe zu positionieren.
 
    ![Ziehen eines HTML-Code-Platzhalters auf die Bühne](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ), Symbol.
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Fügen Sie in das Textfeld den von Ihnen vorbereiteten Code für Google-Schriftarten und Stildeklarationen ein.
 
@@ -76,31 +76,31 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1] und deklarieren benutzerde
 
    ![HTML-Code und -Stile](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. Aktualisieren Sie die restlichen Einstellungen nach Bedarf (siehe [HTML-Codeeinstellungen ändern](#html-settings) für Details).
+1. Aktualisieren Sie die restlichen Einstellungen nach Bedarf (weitere Informationen finden Sie unter [HTML-Codeeinstellungen ändern](#html-settings) ).
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
    Die neue Schriftart wird gerendert, wenn die Seite über einen Browser angezeigt wird.
 
 ### Schritt 3: Vorschau der Seite anzeigen
 
-1. Im _[!UICONTROL Currently Active]_Abschnitt, festlegen **[!UICONTROL Enable Page]**nach `Yes`.
+1. Setzen Sie im Abschnitt _[!UICONTROL Currently Active]_**[!UICONTROL Enable Page]**auf `Yes`.
 
-   ![Seite aktivieren](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
+   ![Aktivieren der Seite](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
-1. Klicken Sie oben rechts auf die **[!UICONTROL Save]** Pfeil und Auswahl **[!UICONTROL Save & Close]**.
+1. Klicken Sie in der oberen rechten Ecke auf den Pfeil **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]**.
 
-1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** im _[!UICONTROL Actions]_Spalte.
+1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_aus.
 
-   ![Vorschau der Seitenüberschriften mit der neuen Schriftfamilie](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
+   ![Anzeigen einer Vorschau der Seitenüberschriften mit der neuen Schriftfamilie](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
 ## HTML-Codeeinstellungen ändern {#html-settings}
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Bearbeiten Sie den Code im Textfeld nach Bedarf.
 
-   HTML-, CSS- und JavaScript-Code werden unterstützt. Codefragmente, die in der `<head>` -Abschnitt der Seite können Sie hier eingeben.
+   HTML-, CSS- und JavaScript-Code werden unterstützt. Hier können Code-Snippets eingegeben werden, die zum Abschnitt &quot;`<head>`&quot;der Seite gehören.
 
    Der Editor bietet außerdem Schaltflächen zum Einfügen von Sonderelementen in den Code:
 
@@ -110,9 +110,9 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1] und deklarieren benutzerde
    | Bild einfügen... | Klicken Sie auf , um ein hochgeladenes Bild oder ein Bild aus der Galerie an der Cursorposition im Textfeld HTML einzufügen. |
    | Variable einfügen.. | Klicken Sie auf , um eine Variable an der Cursorposition im Textfeld HTML einzufügen. |
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_-Einstellungen nach Bedarf.
 
-   - Um die Positionierung des Codes innerhalb des übergeordneten Containers zu steuern, wählen Sie eine **[!UICONTROL Alignment]**:
+   - Um die Positionierung des Codes innerhalb des übergeordneten Containers zu steuern, wählen Sie einen **[!UICONTROL Alignment]**:
 
      | Option | Beschreibung |
      | ------ | ----------- |
@@ -125,7 +125,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1] und deklarieren benutzerde
 
      ![Trennlinie mit Mittelausrichtung](./assets/pb-elements-divider-settings-advanced-alignment-center.png){width="600" zoomable="yes"}
 
-   - Legen Sie die **[!UICONTROL Border]** -Stil, der auf alle vier Seiten des Code-Containers angewendet wird:
+   - Legen Sie den **[!UICONTROL Border]** -Stil fest, der auf alle vier Seiten des Code-Containers angewendet wird:
 
      | Option | Beschreibung |
      | ------ | ----------- |
@@ -140,7 +140,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1] und deklarieren benutzerde
      | `Inset` | Der Container-Rahmen wird als Inset-Zeile angezeigt. |
      | `Outset` | Der Container-Rahmen wird als Ausgangspunkt angezeigt. |
 
-   - Wenn Sie einen anderen Rahmenstil als `None`, füllen Sie die Randanzeigeoptionen aus:
+   - Wenn Sie einen anderen Rahmenstil als `None` festlegen, füllen Sie die Anzeigeoptionen für die Rahmenanzeige aus:
 
      | Option | Beschreibung |
      | ------ |------------ |
@@ -150,11 +150,11 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1] und deklarieren benutzerde
 
      {style="table-layout:auto"}
 
-   - (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet, das auf den Container angewendet werden soll.
+   - (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet an, das auf den Container angewendet werden soll.
 
      Trennen Sie mehrere Klassennamen durch ein Leerzeichen.
 
-   - Geben Sie Werte in Pixel für die **[!UICONTROL Margins and Padding]** um die äußeren Ränder und den inneren Abstand des Code-Containers zu bestimmen.
+   - Geben Sie Werte in Pixel für den Wert **[!UICONTROL Margins and Padding]** ein, um die äußeren Ränder und den inneren Abstand des Code-Containers zu bestimmen.
 
      Geben Sie die entsprechenden Werte in das Diagramm ein.
 

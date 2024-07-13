@@ -52,7 +52,7 @@ ht-degree: 0%
    + [Liste der Produkte](products-list.md)
    + [Produktarbeitsbereich](product-workspace.md)
    + [Produkt erstellen](product-create.md)
-   + Produkttypen {#types}
+   + Produktarten {#types}
       + [Einfaches Produkt](product-create-simple.md)
       + [Konfigurierbares Produkt](product-create-configurable.md)
       + [Gruppierungsprodukt](product-create-grouped.md)
@@ -65,7 +65,7 @@ ht-degree: 0%
       + [Bild-Asset-Konfiguration](product-image-config.md)
       + [Verwalten von Produktbildern](product-image.md)
       + [Produktvideos hinzufügen](product-video.md)
-      + Produkt-3D-Modelle verwalten {#product-3d-model}
+      + Verwalten von Produkt-3D-Modellen {#product-3d-model}
          + [Übersicht über den AR-Viewer](ar-viewer-overview.md)
          + [AR-Viewer-Einrichtung](ar-viewer-setup.md)
    + Preise verwalten {#pricing}
@@ -76,7 +76,7 @@ ht-degree: 0%
       + [Kategoriekosten](product-price-tier.md)
       + [Mindestpreis](product-price-minimum-advertised.md)
    + [Produktaktualisierungen planen](product-scheduled-changes.md)
-   + Referenz zu Produkteinstellungen {#settings}
+   + Referenz für Produkteinstellungen {#settings}
       + [Quellen](sources.md)
       + [Inhalt](product-content.md)
       + [Konfigurationen](product-configurations.md)
@@ -95,9 +95,9 @@ ht-degree: 0%
    + [Attributeingabetyp](attributes-input-types.md)
    + [Hinzufügen von Attributen zu einem Produkt](product-attributes-add.md)
    + [Produktmuster](swatches.md)
-   + Attribute erstellen und aktualisieren {#create}
+   + Erstellen und Aktualisieren von Attributen {#create}
       + [Erstellen und Löschen von Attributen](attribute-product-create.md)
       + [Massenaktualisierungen](bulk-product-attribute-update.md)
       + [Attributsätze](attribute-sets.md)
-+ [Zurück zu den Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

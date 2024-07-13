@@ -1,36 +1,36 @@
 ---
 title: Medien - Regler
-description: Erfahren Sie mehr über den Slider-Inhaltstyp, mit dem eine Diashow von Bildern zur [!DNL Page Builder] Bühne.
+description: Erfahren Sie mehr über den Slider-Inhaltstyp, mit dem eine Diashow von Bildern zur [!DNL Page Builder] Bühne hinzugefügt wird.
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
 source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
 workflow-type: tm+mt
-source-wordcount: '3799'
+source-wordcount: '3810'
 ht-degree: 0%
 
 ---
 
 # Medien - Regler
 
-Verwenden Sie die _Regler_ Inhaltstyp zum Hinzufügen einer Diashow von Bildern zum [[!DNL Page Builder] Schritt](workspace.md#stage). Sie können neue Bilder hochladen oder vorhandene Bilder aus der Galerie oder dem Produktkatalog auswählen. Ein Regler kann so eingestellt werden, dass er automatisch abgespielt wird oder manuell mit Navigationsschaltflächen gesteuert wird. Informationen zum Verknüpfen des Reglers mit einer bestimmten Promotion finden Sie unter [Dynamischer Block](dynamic-block.md).
+Verwenden Sie den Inhaltstyp _Regler_ , um eine Diashow von Bildern zur [[!DNL Page Builder] Bühne](workspace.md#stage) hinzuzufügen. Sie können neue Bilder hochladen oder vorhandene Bilder aus der Galerie oder dem Produktkatalog auswählen. Ein Regler kann so eingestellt werden, dass er automatisch abgespielt wird oder manuell mit Navigationsschaltflächen gesteuert wird. Informationen zum Verknüpfen des Reglers mit einer bestimmten Promotion finden Sie unter [Dynamischer Block](dynamic-block.md).
 
-![Medienregler auf der Storefront](./assets/pb-media-slider-buy3-get1free-storefront.png){width="700" zoomable="yes"}
+![Medienregler auf die Storefront](./assets/pb-media-slider-buy3-get1free-storefront.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Toolboxes
 
-Wenn Sie mit dem Slider-Inhaltstyp arbeiten, fügen Sie einzelne Folien und den Regler-Container, der mindestens eine Folie enthält, hinzu und bearbeiten diese. Jede Folie verfügt über eine eigene Werkzeugleiste, mit der Sie Folien auf [!DNL Page Builder] Bühne.
+Wenn Sie mit dem Slider-Inhaltstyp arbeiten, fügen Sie einzelne Folien und den Regler-Container, der mindestens eine Folie enthält, hinzu und bearbeiten diese. Jede Folie verfügt über eine eigene Toolbox, mit der Sie Folien auf der [!DNL Page Builder]-Bühne entwerfen.
 
 ## Einzelne Folien-Toolbox
 
-![Einzelne Folien-Toolbox](./assets/pb-media-slider-toolbox-slide-row.png){width="500" zoomable="yes"}
+![Individuelle Folien-Toolbox](./assets/pb-media-slider-toolbox-slide-row.png){width="500" zoomable="yes"}
 
 | Tool | Symbol | Beschreibung |
 |--- |--- |--- |
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png){width="25"} | Verschiebt die Folie an eine andere Position auf dem Schieberegler. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png){width="25"} | Verschiebt die Folie an eine andere Position auf dem Schieberegler. |
 | (Titel) | Folie # | Gibt die Nummer der aktuellen Folie an. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} | Öffnet die _[!UICONTROL Edit Slide]_Seite, auf der Sie die Eigenschaften der aktuellen Folie ändern können. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite _[!UICONTROL Edit Slide]_, auf der Sie die Eigenschaften der aktuellen Folie ändern können. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="25"} | Kopiert die aktuelle Folie. |
 | Entfernen | ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="25"} | Löscht die aktuelle Folie aus dem Regler. |
 
@@ -40,10 +40,10 @@ Wenn Sie mit dem Slider-Inhaltstyp arbeiten, fügen Sie einzelne Folien und den 
 
 | Tool | Symbol | Beschreibung |
 |--- |--- |--- |
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png){width="25"} | Verschiebt den Regler an eine andere Position auf der Bühne. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png){width="25"} | Verschiebt den Regler an eine andere Position auf der Bühne. |
 | (Titel) | [!UICONTROL Slider] | Gibt den Regler-Container an. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} | Öffnet die _[!UICONTROL Edit Slider]_Seite, auf der Sie die Eigenschaften des Videos und Containers ändern können. |
-| Ausblenden | ![Symbol &quot;Ausblenden&quot;](./assets/pb-icon-hide.png){width="25"} | Blendet den aktuellen Schieberegler aus. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite &quot;_[!UICONTROL Edit Slider]_&quot;, auf der Sie die Eigenschaften des Videos und Containers ändern können. |
+| Ausblenden | ![Symbol zum Ausblenden](./assets/pb-icon-hide.png){width="25"} | Blendet den aktuellen Schieberegler aus. |
 | Anzeigen | ![Symbol &quot;Anzeigen&quot;](./assets/pb-icon-show.png){width="25"} | Zeigt den ausgeblendeten Regler an. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="25"} | Kopiert den Regler. |
 | Entfernen | ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="25"} | Löscht den Regler aus der Bühne. |
@@ -54,9 +54,9 @@ Wenn Sie mit dem Slider-Inhaltstyp arbeiten, fügen Sie einzelne Folien und den 
 
 ## Hinzufügen einer einzelnen Folie
 
-1. Öffnen Sie die Seite, den Block oder den dynamischen Block, in den Sie den Schieberegler platzieren möchten, und erweitern Sie die **[!UICONTROL Content]** Abschnitt.
+1. Öffnen Sie die Seite, den Block oder den dynamischen Block, in den Sie den Schieberegler platzieren möchten, und erweitern Sie den Abschnitt &quot;**[!UICONTROL Content]**&quot;.
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Media]** und ziehen Sie eine **[!UICONTROL Slider]** Platzhalter zu einer Zeile, Spalte oder Registerkarte auf der Bühne.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Eintrag **[!UICONTROL Media]** und ziehen Sie einen Platzhalter **[!UICONTROL Slider]** auf eine Zeile, Spalte oder Registerkarte auf der Bühne.
 
    Im folgenden Beispiel ist die Hintergrundfarbe der Zeile gelb (`#fffd16`).
 
@@ -64,11 +64,11 @@ Wenn Sie mit dem Slider-Inhaltstyp arbeiten, fügen Sie einzelne Folien und den 
 
    Der Regler-Container wird auf der Bühne mit einer einzigen, leeren Folie angezeigt.
 
-1. Klicken Sie in den Regler-Container, um die [Texteditor](../content-design/editor.md) und geben Sie Inhalt für die erste Folie ein.
+1. Klicken Sie in den Regler-Container, um den [Texteditor](../content-design/editor.md) anzuzeigen, und geben Sie Inhalt für die erste Folie ein.
 
-   Sie können auch komplexere Bannerinhalte mit der [Inhalt](#content) -Einstellungen.
+   Mithilfe der Einstellungen für [Inhalt](#content) können Sie auch komplexere Bannerinhalte einfügen.
 
-1. Klicken Sie auf den Navigationspunkt unten im Regler, um die Symbolleiste für die jeweilige Folie anzuzeigen, und wählen Sie die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Klicken Sie auf den Navigationspunkt unten im Regler, um die Symbolleiste für die jeweilige Folie anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
    Regler haben zwei Werkzeugkästen. Stellen Sie sicher, dass Sie die Folie-Toolbox am unteren Rand verwenden.
 
@@ -80,7 +80,7 @@ Wenn Sie mit dem Slider-Inhaltstyp arbeiten, fügen Sie einzelne Folien und den 
    - [[!UICONTROL Search Engine Optimization]](#seo)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ## Hinzufügen weiterer Folien
 
@@ -92,11 +92,11 @@ Verwenden Sie zum Hinzufügen von Folien eine oder eine Kombination der folgende
 
 Sie können Zeit sparen, indem Sie eine Folie duplizieren, die bereits mit den gewünschten Einstellungen konfiguriert wurde.
 
-1. Klicken Sie auf den Navigationspunkt unter der Folie, um die Symbolleiste anzuzeigen und die _Duplizieren_ ( ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Klicken Sie auf den Navigationspunkt unter der Folie, um die Symbolleiste anzuzeigen, und wählen Sie das Symbol _Duplizieren_ ( ![Duplizieren-Symbol](./assets/pb-icon-duplicate.png){width="20"} ).
 
    ![Duplizieren einer Folie](./assets/pb-media-slider-duplicate-slide.png){width="500" zoomable="yes"}
 
-1. Klicken Sie auf den Navigationspunkt für die neue Folie, um die Symbolleiste anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Klicken Sie auf den Navigationspunkt für die neue Folie, um die Toolbox anzuzeigen und das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) auszuwählen.
 
 1. Ändern Sie die Einstellungen nach Bedarf entsprechend den folgenden Abschnitten:
 
@@ -105,19 +105,19 @@ Sie können Zeit sparen, indem Sie eine Folie duplizieren, die bereits mit den g
    - [[!UICONTROL Content]](#content)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ### Methode 2: Neue leere Folie hinzufügen
 
-1. Bewegen Sie den Mauszeiger über den Regler-Container oben, um die Werkzeugleiste anzuzeigen und die _Hinzufügen_ ( ![Symbol &quot;Hinzufügen&quot;](./assets/pb-icon-add.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den Regler-Container oben, um die Toolbox anzuzeigen und das Symbol _Hinzufügen_ ( ![Symbol Hinzufügen](./assets/pb-icon-add.png){width="20"} ) zu wählen.
 
    ![Hinzufügen einer leeren Folie](./assets/pb-media-slider-toolbox-add.png){width="500" zoomable="yes"}
 
    Eine neue leere Folie mit einem eigenen Navigationspunkt und einer eigenen Werkzeugleiste wird dem Regler hinzugefügt und auf der Bühne angezeigt.
 
-   ![Neue Folie mit Werkzeugleiste](./assets/pb-media-slider-slide2-toolbox.png){width="500" zoomable="yes"}
+   ![Neue Folie mit Toolbox](./assets/pb-media-slider-slide2-toolbox.png){width="500" zoomable="yes"}
 
-1. Klicken Sie auf den Navigationspunkt für die neue Folie, um die Symbolleiste anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Klicken Sie auf den Navigationspunkt für die neue Folie, um die Toolbox anzuzeigen und das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) auszuwählen.
 
 1. Ändern Sie die Einstellungen nach Bedarf entsprechend den folgenden Abschnitten:
 
@@ -126,33 +126,33 @@ Sie können Zeit sparen, indem Sie eine Folie duplizieren, die bereits mit den g
    - [[!UICONTROL Content]](#content)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** in der oberen rechten Ecke, um die _[!UICONTROL Edit Slide]_Seite.
+1. Klicken Sie nach Abschluss des Vorgangs in der oberen rechten Ecke auf **[!UICONTROL Save]** , um die Seite _[!UICONTROL Edit Slide]_zu schließen.
 
 ### Widget auf einer Folie hinzufügen
 
-Sie können jede [Widget-Typ](../content-design/widgets.md#widget-types) zu Ihrer Folie in [!DNL Page Builder] Staging mithilfe der folgenden Schritte durchführen:
+Sie können Ihrer Folie jeden [Widget-Typ](../content-design/widgets.md#widget-types) in einer [!DNL Page Builder]-Bühne hinzufügen, indem Sie die folgenden Schritte ausführen:
 
-1. [Widget erstellen](../content-design/widget-create.md) die Sie auf einer Folie sehen wollen.
+1. [Erstellen Sie das Widget](../content-design/widget-create.md), das Sie auf einer Folie sehen möchten.
 
-1. Öffnen Sie die Seite, den Block oder den dynamischen Block, in den Sie den Schieberegler platzieren möchten, und erweitern Sie die **[!UICONTROL Content]** Abschnitt.
+1. Öffnen Sie die Seite, den Block oder den dynamischen Block, in den Sie den Schieberegler platzieren möchten, und erweitern Sie den Abschnitt &quot;**[!UICONTROL Content]**&quot;.
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Media]** und ziehen Sie eine **[!UICONTROL Slider]** Platzhalter zu einer Zeile, Spalte oder Registerkarte auf der Bühne.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Eintrag **[!UICONTROL Media]** und ziehen Sie einen Platzhalter **[!UICONTROL Slider]** auf eine Zeile, Spalte oder Registerkarte auf der Bühne.
 
-1. Klicken Sie in den Regler-Container, um die [Texteditor](../content-design/editor.md) und klicken Sie auf _Widget einfügen_ ( ![Symbol &quot;Widget einfügen&quot;](./assets/editor-btn-insert-widget.png){width="20"} ).
+1. Klicken Sie in den Regler-Container, um die Symbolleiste [Texteditor](../content-design/editor.md) anzuzeigen, und klicken Sie auf das Symbol _Widget einfügen_ ( ![Widget-Symbol einfügen](./assets/editor-btn-insert-widget.png){width="20"} ).
 
-1. Wählen Sie die **[!UICONTROL Widget Type]** benötigen.
+1. Wählen Sie den benötigten **[!UICONTROL Widget Type]** aus.
 
 1. Legen Sie die Einstellungen fest, die je nach Typ des Widgets unterschiedlich sind
 
    ![Beispiel für das Einfügen eines Widgets auf der Folie](./assets/insert-widget-to-slide-page.png){width="600" zoomable="yes"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Insert Widget]** in der oberen rechten Ecke.
+1. Klicken Sie nach Abschluss des Vorgangs oben rechts auf **[!UICONTROL Insert Widget]** .
 
 1. Ändern Sie die anderen Einstellungen nach Bedarf.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** in der oberen rechten Ecke.
+1. Klicken Sie nach Abschluss des Vorgangs oben rechts auf **[!UICONTROL Save]** .
 
-   ![Beispiel eines eingefügten Widgets auf der Folie](./assets/inserting-widget-on-slide.png){width="600" zoomable="yes"}
+   ![Beispiel des eingefügten Widgets auf der Folie](./assets/inserting-widget-on-slide.png){width="600" zoomable="yes"}
 
 ### Jede Folie anzeigen
 
@@ -174,7 +174,7 @@ Die Folie im vorherigen Beispiel enthält ein Hintergrundbild, ein transparentes
 | [!UICONTROL Show Button] | `Always` |
 | [!UICONTROL Button Text] | `Buy Now` |
 | [!UICONTROL Show Overlay] | `Never Show` |
-| [!UICONTROL Alignment] | `Center` (zur Ausrichtung der Schaltfläche) |
+| [!UICONTROL Alignment] | `Center` (zum Ausrichten der Schaltfläche) |
 | [!UICONTROL Border] | `Solid` |
 | [!UICONTROL Border Color] | `#000000` (Schwarz) |
 | [!UICONTROL Border Width] | `1 px` |
@@ -185,9 +185,9 @@ Die Folie im vorherigen Beispiel enthält ein Hintergrundbild, ein transparentes
 
 1. Ändern Sie die Anzeige des Reglers auf der Bühne und zeigen Sie die Folie an, die Sie ändern möchten.
 
-1. Wählen Sie in der Symbolleiste der einzelnen Folien die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ) und füllen Sie die Einstellungen nach Bedarf entsprechend den folgenden Abschnitten aus.
+1. Wählen Sie in der Symbolleiste der einzelnen Folien das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus und füllen Sie die Einstellungen nach Bedarf gemäß den folgenden Abschnitten aus.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ### [!UICONTROL Appearance]
 
@@ -202,17 +202,17 @@ Die Folie im vorherigen Beispiel enthält ein Hintergrundbild, ein transparentes
 
    {style="table-layout:auto"}
 
-   ![Reglerpositionierung](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![Anzeigeposition auf der Folie](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
 
-1. Geben Sie die **[!UICONTROL Slide Name]**.
+1. Geben Sie den Wert **[!UICONTROL Slide Name]** ein.
 
    Wenn Sie im Bearbeitungsmodus arbeiten, wird der Name der Folie als QuickInfo über dem Navigationspunkt angezeigt. Der Name der Folie ist in der Storefront nicht sichtbar.
 
-   ![Folienname in der Navigation](./assets/pb-media-slider-name-buy3-get1free.png){width="500" zoomable="yes"}
+   ![Anzeigename in der Navigation](./assets/pb-media-slider-name-buy3-get1free.png){width="500" zoomable="yes"}
 
-1. Geben Sie die **[!UICONTROL Minimum Height]** für die Folie.
+1. Geben Sie die **[!UICONTROL Minimum Height]** für die Folie ein.
 
-   Die Mindesthöhe kann eine Zahl mit einer beliebigen gültigen CSS-Einheit sein (z. B. `100px`, `50%`, `50em`, `100vh`) oder einer Berechnung (z. B. `100vh - 237px`).
+   Die Mindesthöhe kann eine Zahl mit einer beliebigen gültigen CSS-Einheit (z. B. `100px`, `50%`, `50em`, `100vh`) oder eine Berechnung (z. B. `100vh - 237px`) sein.
 
    Sie können beispielsweise die Mindesthöhe der Folie so festlegen, dass sie die gesamte Höhe der Seite abdeckt, und dann Hintergrundbilder und Videos für überzeugende Designoptionen verwenden.
 
@@ -233,12 +233,12 @@ Geben Sie die Hintergrundfarbe an, indem Sie ein Muster auswählen, auf die Farb
 Sie können den Wert auf eine von drei Arten festlegen:
 
 - Ein vordefinierter Farbname, z. B. `White`
-- Der hexadezimale Farbwert für die Farbe, beispielsweise `#ffffff`
-- Der rgba-Wert für die Farbe mit Deckkraft in Prozent, z. B. `rgba(255, 255, 255, 0.75)`
+- Der hexadezimale Farbwert für die Farbe, z. B. `#ffffff`
+- Der rgba-Wert für die Farbe mit Deckkraft-Prozent, z. B. `rgba(255, 255, 255, 0.75)`
 
-Wenn Sie eine Farbe auswählen möchten, klicken Sie auf das Farbfeld links neben _Keine Farbe_ ankreuzen.
+Wenn Sie eine Farbe auswählen möchten, klicken Sie auf das Muster links neben dem Feld _Keine Farbe_.
 
-![Farbmuster auswählen](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
+![Auswählen eines Farbmusters](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
 Wenn Sie auf das Farbfeld klicken, um die Farbauswahl erneut zu öffnen, zeigt das Feld unter dem Schieberegler die aktuellen Rot-, Grün-, Blau- und Alpha-Werte (rgba) an. Die letzte Zahl gibt den aktuellen Deckkraftprozentsatz als Dezimalzahl an. Sie können den Schieberegler verwenden, um die Deckkraft anzupassen, oder den gewünschten Dezimalwert eingeben.
 
@@ -246,17 +246,17 @@ Wenn Sie auf das Farbfeld klicken, um die Farbauswahl erneut zu öffnen, zeigt d
 
 >[!NOTE]
 >
->[!DNL Page Builder] auch eine Transparenzschicht unterstützt oder _Alphakanal_, in Hintergrundbildern, die verwendet werden können, um Hintergründe mit unterschiedlicher Deckkraft zu erstellen.
+>[!DNL Page Builder] unterstützt auch eine Transparenzschicht (oder den _Alphakanal_) in Hintergrundbildern, mit der Hintergründe mit unterschiedlicher Deckkraft erstellt werden können.
 
 ### [!UICONTROL Background Type]
 
-Ein Hintergrundtyp kann ein Bild oder ein Video sein. [!DNL Page Builder] standardmäßig auf `Image` und zeigt verschiedene Bildeinstellungen an. Wenn Sie `Video`, [!DNL Page Builder] Tauscht die Bildeinstellungen mit Videoeinstellungen aus. Die beiden Einstellungen für den Hintergrundtyp werden in den folgenden Abschnitten beschrieben.
+Ein Hintergrundtyp kann ein Bild oder ein Video sein. [!DNL Page Builder] ist standardmäßig auf `Image` eingestellt und zeigt verschiedene Bildeinstellungen an. Wenn Sie `Video` auswählen, tauscht [!DNL Page Builder] die Bildeinstellungen mit Videoeinstellungen. Die beiden Einstellungen für den Hintergrundtyp werden in den folgenden Abschnitten beschrieben.
 
 ![Hintergrundtyp](./assets/pb-background-type.png){width="400"}
 
 ### Bildtypeinstellungen
 
-Wenn Sie die _[!UICONTROL Background Type]_nach `Image`verwenden Sie die folgenden Einstellungen, um die Anzeige des Hintergrundbilds zu definieren.
+Wenn Sie die _[!UICONTROL Background Type]_auf `Image` setzen, verwenden Sie die folgenden Einstellungen, um die Anzeige des Hintergrundbilds zu definieren.
 
 ![Banner mit Hintergrundbild](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -296,33 +296,33 @@ Wenn Sie die _[!UICONTROL Background Type]_nach `Image`verwenden Sie die folgend
 
   Der Ankerpunkt ist wie eine Push-Taste, die das Bild an der angegebenen Hintergrundposition am Banner anhängt.
 
-- **[!UICONTROL Background Repeat]** - Wenn Sie das Hintergrundbild zum Ausfüllen des Bereichs wiederholen möchten, ändern Sie diese Einstellung `Yes`.
+- **[!UICONTROL Background Repeat]** - Wenn Sie das Hintergrundbild wiederholen möchten, um den Raum zu füllen, ändern Sie diese Einstellung `Yes`.
 
 ### Videotypeinstellungen
 
-Wenn Sie die _Hintergrundtyp_ nach `Video`verwenden Sie die folgenden Einstellungen, um die Anzeige des Hintergrundbilds zu definieren.
+Wenn Sie den _Hintergrundtyp_ auf `Video` festlegen, verwenden Sie die folgenden Einstellungen, um die Anzeige des Hintergrundbilds zu definieren.
 
 - **[!UICONTROL Video URL]** - Geben Sie eine gültige Video-URL ein. Gültige Video-URLs können Links zu folgenden Elementen sein:
 
    - YouTube-Videos: `https://youtu.be/CoDhMRUUjeI`
-   - Videos: `https://vimeo.com/190156113`
+   - Video-Videos: `https://vimeo.com/190156113`
    - Gültige Videodateien (`.mp4` wird empfohlen): `https://myvideos.com/spiral.mp4`
 
-  ![Video-URL im Hintergrund](./assets/pb-video-url.png){width="500"}
+  ![ Video-URL im Hintergrund](./assets/pb-video-url.png){width="500"}
 
-- **[!UICONTROL Overlay Color]** - Wählen Sie eine Farbe aus, um einen transparenten Farbton auf das Video anzuwenden.
+- **[!UICONTROL Overlay Color]** - Wählen Sie eine Farbe, um einen transparenten Farbton auf das Video anzuwenden.
 
-- **[!UICONTROL Infinite Loop]** - Legen Sie `No` , damit das Video einmal wiedergegeben und gestoppt wird. Wenn diese Option auf `Yes` (Standard) wiederholt sich das Video in einer Endlosschleife.
+- **[!UICONTROL Infinite Loop]** - Auf `No` setzen, damit das Video einmal wiedergegeben und gestoppt wird. Wenn diese Option auf &quot;`Yes`&quot;(Standard) gesetzt ist, wiederholt sich das Video in einer Endlosschleife.
 
-- **[!UICONTROL Lazy Load]** - Legen Sie `No` , damit das Video mit der Seite geladen wird, selbst wenn es nicht sichtbar ist. Wenn diese Option auf `Yes` (Standard) wird das Video nur aus der Quelle geladen, wenn es auf dem Bildschirm sichtbar ist.
+- **[!UICONTROL Lazy Load]** - Auf `No` setzen, um das Video mit der Seite zu laden, selbst wenn es nicht sichtbar ist. Wenn diese Option auf &quot;`Yes`&quot;(Standard) gesetzt ist, wird das Video nur aus der Quelle geladen, wenn es auf dem Bildschirm sichtbar ist.
 
-- **[!UICONTROL Play Only When Visible]** - Legen Sie `No` , damit das Video sofort nach dem Laden wiedergegeben wird, unabhängig davon, ob es sichtbar ist. Wenn diese Option auf `Yes` (Standard) beginnt die Videowiedergabe nur, wenn sie sichtbar ist.
+- **[!UICONTROL Play Only When Visible]** - Auf `No` setzen, damit das Video sofort nach dem Laden wiedergegeben wird, unabhängig davon, ob es sichtbar ist. Wenn diese Option auf &quot;`Yes`&quot;(Standard) gesetzt ist, beginnt die Wiedergabe des Videos nur, wenn es sichtbar ist.
 
-- **[!UICONTROL Fallback Image]** - Geben Sie bei Bedarf ein Bild an, das vor dem Laden des Videos auf dem Bildschirm angezeigt werden soll und wenn das Video aus irgendeinem Grund nicht geladen wird.
+- **[!UICONTROL Fallback Image]** - Geben Sie bei Bedarf ein Bild an, das auf dem Bildschirm angezeigt werden soll, bevor das Video geladen wird, und wenn das Video aus irgendeinem Grund nicht geladen wird.
 
 ## [!UICONTROL Content]
 
-Sie können den Inhalt der Folie direkt auf der Bühne oder beim Ändern der Einstellungen ändern. Die Einstellungen bieten komplexere Inhaltsfunktionen, wie z. B. Folienlinks, Schaltflächen und Überlagerungen. Die Position des Inhalts spiegelt die [Erscheinungsbild](#appearance) Platzierungseinstellung.
+Sie können den Inhalt der Folie direkt auf der Bühne oder beim Ändern der Einstellungen ändern. Die Einstellungen bieten komplexere Inhaltsfunktionen, wie z. B. Folienlinks, Schaltflächen und Überlagerungen. Die Position des Inhalts spiegelt die Platzierungseinstellung [Erscheinungsbild](#appearance) wider.
 
 ### Einfacher Inhalt auf der Bühne
 
@@ -332,59 +332,59 @@ Sie können den Inhalt der Folie direkt auf der Bühne oder beim Ändern der Ein
 
 1. Verwenden Sie die Editor-Symbolleiste, um Text einzugeben und zu formatieren sowie Elemente wie Links, Bilder und Widgets einzufügen.
 
-   ![Bühne mit formatiertem Text](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="500" zoomable="yes"}
+   ![Staging mit formatiertem Text](./assets/pb-tutorial1-banner-stage-text-format-line2.png){width="500" zoomable="yes"}
 
 ### Komplexe Inhalte in den Einstellungen
 
-1. Klicken Sie auf den Navigationspunkt unten im Regler, um die Symbolleiste für die jeweilige Folie anzuzeigen, und wählen Sie die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Klicken Sie auf den Navigationspunkt unten im Regler, um die Symbolleiste für die jeweilige Folie anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Im _[!UICONTROL Content]_eingeben.**[!UICONTROL Message Text]**die Sie mit der Folie anzeigen möchten.
+1. Geben Sie im Abschnitt _[!UICONTROL Content]_den **[!UICONTROL Message Text]**ein, der mit der Folie angezeigt werden soll.
 
-1. Scrollen Sie nach unten zum _[!UICONTROL Content]_und verwenden Sie **[!UICONTROL Message Text]**-Editor, um Bannertext einzugeben und zu formatieren.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_und verwenden Sie den Editor **[!UICONTROL Message Text]**, um Bannertext einzugeben und zu formatieren.
 
    Sie können auch Elemente wie Textlinks, Bilder und Widgets einfügen.
 
 1. Formatieren Sie den Text nach Bedarf mithilfe der Editor-Symbolleiste.
 
-   Die erste Folie in diesem Beispiel hat ein Hintergrundbild, aber keinen Nachrichtentext. Die `Buy 3 Get 1 Free` Text über dem Regler befindet sich in einem Textcontainer (später hinzugefügt).
+   Die erste Folie in diesem Beispiel hat ein Hintergrundbild, aber keinen Nachrichtentext. Der Text `Buy 3 Get 1 Free` über dem Regler befindet sich in einem Textcontainer (später hinzugefügt).
 
-1. Geben Sie bei Bedarf eine **[!UICONTROL Link]** für die Folie.
+1. Geben Sie bei Bedarf einen **[!UICONTROL Link]** für die Folie an.
 
    Der Link ist die Zielseite, die angezeigt wird, wenn der Kunde auf den Objektträger klickt. Sie können einen von drei Linktypen verwenden:
 
    - **[!UICONTROL URL]** - Links zu einer relativen oder vollständig qualifizierten URL.
 
-   - **[!UICONTROL Product]** - Identifiziert die Zielseite basierend auf dem Produktnamen oder der SKU. Suchen Sie nach dem Produkt anhand des Namens, der entweder auf einem Teil- oder einem vollständigen Namen basiert. Wählen Sie das Produkt aus der Liste der Suchergebnisse aus.
+   - **[!UICONTROL Product]** - Identifiziert die Zielseite anhand des Produktnamen oder der SKU. Suchen Sie nach dem Produkt anhand des Namens, der entweder auf einem Teil- oder einem vollständigen Namen basiert. Wählen Sie das Produkt aus der Liste der Suchergebnisse aus.
 
-     ![Produkt auswählen, das verknüpft werden soll](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
+     ![Auswählen eines zu verknüpfenden Produkts](./assets/pb-media-image-settings-image-link-product-results.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Category]** - Identifiziert die Zielseite als eine bestimmte Kategorie oder Unterkategorie im Kategoriebaum. Suchen Sie nach der Kategorie basierend auf einem Teil- oder Vollnamen. Wählen Sie die Kategorie aus dem erweiterten Bereich des angezeigten Baums aus.
 
-     ![Zu verlinkende Kategorie auswählen](./assets/pb-settings-link-category-womens-tees.png){width="600" zoomable="yes"}
+     ![Auswählen einer zu verknüpfenden Kategorie](./assets/pb-settings-link-category-womens-tees.png){width="600" zoomable="yes"}
 
-   - **[!UICONTROL Page]** - Identifiziert die Zielseite als spezifische Inhaltsseite. Suchen Sie nach der Seite, die auf einem Teil- oder vollständigen Namen basiert. Wählen Sie die Seite aus der Liste der Suchergebnisse aus.
+   - **[!UICONTROL Page]** - Identifiziert die Zielseite als bestimmte Inhaltsseite. Suchen Sie nach der Seite, die auf einem Teil- oder vollständigen Namen basiert. Wählen Sie die Seite aus der Liste der Suchergebnisse aus.
 
-     ![Zu verlinkende Seite auswählen](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
+     ![Auswählen einer zu verknüpfenden Seite](./assets/pb-media-image-settings-image-link-page-results.png){width="600" zoomable="yes"}
 
    <div class="bs-callout-info" markdown="1">
-   Ab Version 2.4.1 [!DNL Page Builder] unterstützt aufgrund von Problemen mit der Anzeige auf der Storefront nicht mehr die Verknüpfung von Folie und Links im verschachtelten Text. Wenn Sie einen Link im _ verwenden[!UICONTROL Message Text]_ können Sie das _ nicht konfigurieren[!UICONTROL Link]_ Option. Wenn Sie lieber einen einzigen Link für die gesamte Folie verwenden möchten, können Sie alle Links aus dem Text entfernen.
+   Ab Version 2.4.1 unterstützt [!DNL Page Builder] die Verknüpfung von Folie und Links innerhalb des verschachtelten Texts aufgrund von Problemen mit der Anzeige auf der Storefront nicht mehr. Wenn Sie einen Link im _[!UICONTROL Message Text]_ verwenden, können Sie die Option _[!UICONTROL Link]_ nicht konfigurieren. Wenn Sie lieber einen einzigen Link für die gesamte Folie verwenden möchten, können Sie alle Links aus dem Text entfernen.
 
    ![Link-Konfiguration ist blockiert](./assets/pb-nested-link-blocked.png){width="300"}
    </div>
 
-   Wenn Sie verhindern möchten, dass der Besucher von Ihrem Store weg navigiert, wählen Sie die **[!UICONTROL Open in new tab]** aktivieren. Wenn das Kontrollkästchen deaktiviert wird, wird das verknüpfte Ziel in derselben Browser-Registerkarte geöffnet, wodurch der Besucher effektiv von Ihrem Store weg navigiert.
+   Wenn Sie verhindern möchten, dass der Besucher von Ihrem Store weg navigiert, aktivieren Sie das Kontrollkästchen **[!UICONTROL Open in new tab]** . Wenn das Kontrollkästchen deaktiviert wird, wird das verknüpfte Ziel in derselben Browser-Registerkarte geöffnet, wodurch der Besucher effektiv von Ihrem Store weg navigiert.
 
 1. Fügen Sie bei Bedarf eine Schaltfläche hinzu, um Kunden aufzufordern, dem Link zu folgen.
 
-   Die Folie _Erscheinungsbild_ -Position platziert einen einzelnen Link oder eine einzelne Schaltfläche unter dem Text. Füllen Sie die Eigenschaften des Links oder der Schaltfläche aus, den/die Sie hinzufügen möchten.
+   Die Position der Folie _Erscheinungsbild_ platziert einen einzelnen Link oder eine Schaltfläche unter dem Text. Füllen Sie die Eigenschaften des Links oder der Schaltfläche aus, den/die Sie hinzufügen möchten.
 
-   ![Slide-Erscheinungsbild - Collage rechts](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
+   ![Bildschirmanzeige - Collage right](./assets/pb-slide-appearance-collage-right.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Sie können auch mehrere Schaltflächen oder Links verwenden, indem Sie eine [block](block.md) zum Banner hinzu. Um Konflikte zu vermeiden, behalten Sie alle Links oder Schaltflächen im separaten Block bei und fügen Sie dem Banner keinen Link oder keine Schaltfläche direkt hinzu.
+   >Sie können auch mehrere Schaltflächen oder Links verwenden, indem Sie dem Banner einen [Block](block.md) hinzufügen. Um Konflikte zu vermeiden, behalten Sie alle Links oder Schaltflächen im separaten Block bei und fügen Sie dem Banner keinen Link oder keine Schaltfläche direkt hinzu.
 
-   - Satz **[!UICONTROL Show Button]** auf einen der folgenden Werte zu:
+   - Setzen Sie **[!UICONTROL Show Button]** auf einen der folgenden Werte:
 
      | Option | Beschreibung |
      | ------ | ----------- |
@@ -394,9 +394,9 @@ Sie können den Inhalt der Folie direkt auf der Bühne oder beim Ändern der Ein
 
      {style="table-layout:auto"}
 
-   - Geben Sie die **[!UICONTROL Button Text]** , um auf der Schaltfläche anzuzeigen.
+   - Geben Sie den **[!UICONTROL Button Text]** ein, der auf der Schaltfläche angezeigt werden soll.
 
-   - Satz **[!UICONTROL Button Type]** auf einen der folgenden Werte zu:
+   - Setzen Sie **[!UICONTROL Button Type]** auf einen der folgenden Werte:
 
      | Option | Beschreibung |
      | ------ | ----------- |
@@ -408,7 +408,7 @@ Sie können den Inhalt der Folie direkt auf der Bühne oder beim Ändern der Ein
 
      Der Schaltflächenstil des aktuellen Designs bestimmt das Schaltflächenformat. In der Regel hat eine primäre Schaltfläche eine auffälligere Hintergrundfarbe als eine sekundäre Schaltfläche.
 
-1. Satz **[!UICONTROL Show Overlay]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Show Overlay]** auf einen der folgenden Werte:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -420,12 +420,12 @@ Sie können den Inhalt der Folie direkt auf der Bühne oder beim Ändern der Ein
 
    Sie können eine Überlagerung verwenden, um eine Hintergrundfarbe auf den aktiven Inhaltsbereich anzuwenden, der durch die Einstellung Erscheinungsbild definiert wird. Das Hintergrundbild der Folie bleibt für die gesamte Breite der Folie sichtbar.
 
-   ![Einstellungen für Überlagerungen von Folien](./assets/pb-media-slider-overlay-settings.png){width="600" zoomable="yes"}
+   ![Einstellungen für die Überlagerung von Folien](./assets/pb-media-slider-overlay-settings.png){width="600" zoomable="yes"}
 
-   Wenn Sie eine Überlagerung anzeigen, legen Sie die **[!UICONTROL Overlay Color]**:
+   Wenn Sie eine Überlagerung anzeigen, legen Sie den Wert **[!UICONTROL Overlay Color]** fest:
 
-   - Klicken Sie auf _Keine Farbe_ und wählen Sie ein Muster aus.
-   - Im **[!UICONTROL Color]** -Feld entweder einen gültigen Farbnamen oder einen Hexadezimalwert eingeben.
+   - Klicken Sie auf das Muster _Keine Farbe_ und wählen Sie ein Muster aus.
+   - Geben Sie im Feld **[!UICONTROL Color]** einen gültigen Farbnamen oder einen Hexadezimalwert ein.
 
    ![Überlagerungsfarbe für Folie](./assets/pb-tutorial1-banner-settings-overlay-color.png){width="600" zoomable="yes"}
 
@@ -434,17 +434,17 @@ Sie können den Inhalt der Folie direkt auf der Bühne oder beim Ändern der Ein
 
 Text für diese Einstellungen ist für Suchmaschinen sichtbar und verbessert die Indexierung der Seite.
 
-- Für **[!UICONTROL Alternative Text]**, geben Sie eine _alt_ Textbeschreibung für die anzuzeigenden Tools für die digitale Barrierefreiheit.
+- Geben Sie für &quot;**[!UICONTROL Alternative Text]**&quot;eine _alt_ -Textbeschreibung für die anzuzeigenden Tools für die digitale Barrierefreiheit ein.
 
-  Die Verwendung von Alternativtext ist eine Best Practice für Barrierefreiheit und ist in einigen Gebietsschemata gesetzlich vorgeschrieben. In HTML wird die `alt` -Attribut ist eine Untergruppe der `image` Tag: `<image title="tooltip" alt="description" src="image.jpg">`.
+  Die Verwendung von Alternativtext ist eine Best Practice für Barrierefreiheit und ist in einigen Gebietsschemata gesetzlich vorgeschrieben. In HTML ist das Attribut `alt` eine Untergruppe des Tags `image`: `<image title="tooltip" alt="description" src="image.jpg">`.
 
-- Für **[!UICONTROL Title Attribute]** eingeben, geben Sie den Text ein, der beim Bewegen des Mauszeigers als QuickInfo angezeigt werden soll.
+- Geben Sie für &quot;**[!UICONTROL Title Attribute]**&quot;den Text ein, der beim Bewegen des Mauszeigers als QuickInfo angezeigt werden soll.
 
-  Als Best Practice wird empfohlen, einen beschreibenden, schlüsselwortreichen Titel zu wählen, um die Indexierung des Bildes durch Suchmaschinen zu verbessern. In HTML wird die `title` -Attribut ist eine Untergruppe der `image` Tag: `<image title="tooltip" alt="description" src="image.jpg">`.
+  Als Best Practice wird empfohlen, einen beschreibenden, schlüsselwortreichen Titel zu wählen, um die Indexierung des Bildes durch Suchmaschinen zu verbessern. In HTML ist das Attribut `title` eine Untergruppe des Tags `image`: `<image title="tooltip" alt="description" src="image.jpg">`.
 
 ## [!UICONTROL Advanced]
 
-1. Um die horizontale Positionierung von Inhalten zu steuern, die der Folie hinzugefügt werden, wählen Sie die **[!UICONTROL Alignment]**:
+1. Um die horizontale Positionierung des Inhalts zu steuern, der der Folie hinzugefügt wird, wählen Sie den Wert **[!UICONTROL Alignment]**:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -455,7 +455,7 @@ Text für diese Einstellungen ist für Suchmaschinen sichtbar und verbessert die
 
    {style="table-layout:auto"}
 
-1. Legen Sie die **[!UICONTROL Border]** Stil, der auf alle vier Seiten der Folie angewendet wird:
+1. Legen Sie den **[!UICONTROL Border]** -Stil fest, der auf alle vier Seiten der Folie angewendet wird:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -472,7 +472,7 @@ Text für diese Einstellungen ist für Suchmaschinen sichtbar und verbessert die
 
    {style="table-layout:auto"}
 
-1. Wenn Sie einen anderen Rahmenstil als `None`, füllen Sie die Randanzeigeoptionen aus:
+1. Wenn Sie einen anderen Rahmenstil als `None` festlegen, füllen Sie die Anzeigeoptionen für die Rahmenanzeige aus:
 
    ![Rahmenfarbe](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
@@ -484,11 +484,11 @@ Text für diese Einstellungen ist für Suchmaschinen sichtbar und verbessert die
 
    {style="table-layout:auto"}
 
-1. (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet, das auf die Folie angewendet werden soll.
+1. (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet an, das auf die Folie angewendet werden soll.
 
    Trennen Sie mehrere Klassennamen durch ein Leerzeichen.
 
-1. Geben Sie Werte in Pixel für die **[!UICONTROL Margins and Padding]** um die äußeren Ränder und den inneren Abstand der Folie anzugeben.
+1. Geben Sie Werte in Pixel an, damit der Wert **[!UICONTROL Margins and Padding]** die äußeren Ränder und den inneren Abstand der Folie angibt.
 
    Geben Sie jeden entsprechenden Wert in das Dia-Diagramm ein.
 
@@ -501,13 +501,13 @@ Text für diese Einstellungen ist für Suchmaschinen sichtbar und verbessert die
 
 ## Einen Regler-Titel hinzufügen
 
-Wenn Sie einen Titel über dem Regler wünschen, fügen Sie einfach einen [Textinhalt] über den Schieberegler. Formatieren Sie dann den Text nach Bedarf.
+Wenn Sie einen Titel über dem Regler wünschen, fügen Sie einfach einen [Textinhaltstyp] über dem Regler hinzu. Formatieren Sie dann den Text nach Bedarf.
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Elements]** und ziehen Sie eine **Text** Platzhalter für eine Zeile, Spalte oder Registerkarte, die auf der Bühne festgelegt ist.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Eintrag **[!UICONTROL Elements]** und ziehen Sie einen Platzhalter für **Text** auf eine Zeile, Spalte oder Registerkarte, die auf der Bühne festgelegt ist.
 
    Beim Ziehen markiert eine rote Führungslinie den Einfügepunkt über dem Schieberegler.
 
-   ![Ziehen eines Text-Platzhalters über einen Regler](./assets/pb-media-slider-elements-text-drag.png){width="600" zoomable="yes"}
+   ![Ziehen eines Text-Platzhalters über einen Schieberegler](./assets/pb-media-slider-elements-text-drag.png){width="600" zoomable="yes"}
 
 1. Formatieren Sie den Text nach Bedarf im Editor.
 
@@ -515,47 +515,47 @@ Wenn Sie einen Titel über dem Regler wünschen, fügen Sie einfach einen [Texti
 
 ## Ändern der Reglereinstellungen
 
-1. Bewegen Sie den Mauszeiger über den Regler-Container, um die Haupt-Toolbox anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den Regler-Container, um die Haupt-Toolbox anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
    ![Regler-Toolbox](./assets/pb-media-slider-tee-shirts-main-toolbox.png){width="500" zoomable="yes"}
 
-1. Geben Sie die **[!UICONTROL Minimum Height]** für die Folie.
+1. Geben Sie die **[!UICONTROL Minimum Height]** für die Folie ein.
 
-   Die Mindesthöhe kann eine Zahl mit einer beliebigen gültigen CSS-Einheit sein (z. B. `100px`, `50%`, `50em`, `100vh`) oder einer Berechnung (z. B. `100vh - 237px`).
+   Die Mindesthöhe kann eine Zahl mit einer beliebigen gültigen CSS-Einheit (z. B. `100px`, `50%`, `50em`, `100vh`) oder eine Berechnung (z. B. `100vh - 237px`) sein.
 
    Sie können beispielsweise die Mindest-Höhe eines Schiebereglers so festlegen, dass die gesamte Höhe der Seite gestreckt wird. So erhalten Sie überzeugende Optionen für Hintergrundbilder und Videos mit vollständigem Seitenumbruch.
 
    ![Reglermindesthöhe](./assets/pb-media-slider-settings-minimum-height.png){width="400"}
 
-1. Wenn der Regler beim Laden der Seite beginnen soll, legen Sie **[!UICONTROL Autoplay]** nach `Yes` und **[!UICONTROL Autoplay Speed]** auf die Anzahl der Millisekunden in der Verzögerung zwischen den Folien.
+1. Wenn der Regler beim Laden der Seite beginnen soll, setzen Sie **[!UICONTROL Autoplay]** auf `Yes` und setzen Sie **[!UICONTROL Autoplay Speed]** auf die Anzahl der Millisekunden in der Verzögerung zwischen den Folien.
 
-   Standardmäßig ist die Geschwindigkeit auf 4000 ms eingestellt, was vier Sekunden beträgt. Wenn Sie die automatische Wiedergabe auf `No`, wird die erste Folie standardmäßig angezeigt und der Kunde muss auf die Foliennavigation (Punkte oder Pfeile) klicken, um die nächste Folie nacheinander anzuzeigen.
+   Standardmäßig ist die Geschwindigkeit auf 4000 ms eingestellt, was vier Sekunden beträgt. Wenn Sie die automatische Wiedergabe auf &quot;`No`&quot; setzen, wird standardmäßig die erste Folie angezeigt und der Kunde muss auf die Foliennavigation (Punkte oder Pfeile) klicken, um die nächste Folie nacheinander anzuzeigen.
 
-   ![Automatische Reglereinstellungen](./assets/pb-media-slider-settings-autoplay.png){width="600" zoomable="yes"}
+   ![Einstellungen für automatische Reglerabspielung](./assets/pb-media-slider-settings-autoplay.png){width="600" zoomable="yes"}
 
-1. Um den Übergang von einer Folie zur nächsten zu glätten, legen Sie **[!UICONTROL Fade]** nach `Yes`.
+1. Um den Übergang von einer Folie zur nächsten zu glätten, setzen Sie **[!UICONTROL Fade]** auf `Yes`.
 
    Mit verblassen scheinen die Folien an Ort und Stelle zu bleiben, doch der Inhalt ändert sich reibungslos von einem zum nächsten. Ohne Überblendung sehen Sie die horizontale Bewegung von einer Folie zur nächsten.
 
-   ![Regler-Fade- und Endlosschleifeneinstellungen](./assets/pb-media-slider-settings-fade-infinite-loop.png){width="600" zoomable="yes"}
+   ![Einstellungen für Überblendung und Endlosschleife ](./assets/pb-media-slider-settings-fade-infinite-loop.png){width="600" zoomable="yes"}
 
-1. Damit die Diashow unbegrenzt wiederholt wird, während die Seite geöffnet ist, legen Sie **[!UICONTROL Infinite Loop]** nach `Yes`.
+1. Damit die Diashow unbegrenzt wiederholt wird, während die Seite geöffnet ist, setzen Sie **[!UICONTROL Infinite Loop]** auf `Yes`.
 
 1. Gehen Sie wie folgt vor, um den Navigationstyp für den Schieberegler auszuwählen:
 
-   - Einbeziehen _Nächste_ und _Vorherige_ Pfeile auf der linken und rechten Seite jeder Folie, festlegen **[!UICONTROL Show Arrows]** nach `Yes`.
+   - Um die Pfeile _Weiter_ und _Zurück_ auf der linken und rechten Seite jeder Folie einzufügen, setzen Sie **[!UICONTROL Show Arrows]** auf `Yes`.
 
-   - Um einen Satz von Navigationspunkten unter dem Schieberegler einzubeziehen, legen Sie **[!UICONTROL Show Dots]** nach `Yes`.
+   - Um eine Reihe von Navigationspunkten unter dem Schieberegler einzubeziehen, setzen Sie **[!UICONTROL Show Dots]** auf `Yes`.
 
-   ![Pfeile und Punkte im Regler anzeigen](./assets/pb-media-slider-settings-show-arrows-dots.png){width="600" zoomable="yes"}
+   ![Regler zeigen Pfeile und Punkte an](./assets/pb-media-slider-settings-show-arrows-dots.png){width="600" zoomable="yes"}
 
-1. Führen Sie die [Erweitert](#slider-advanced) Regler-Einstellungen nach Bedarf.
+1. Füllen Sie die Regler-Einstellungen für [Erweitert](#slider-advanced) nach Bedarf aus.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ### Erweitert - Regler {#slider-advanced}
 
-1. Um die Positionierung der Folien innerhalb des übergeordneten Regler-Containers zu steuern, wählen Sie die **[!UICONTROL Alignment]**:
+1. Um die Positionierung der Folien innerhalb des übergeordneten Regler-Containers zu steuern, wählen Sie den Wert **[!UICONTROL Alignment]**:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -566,7 +566,7 @@ Wenn Sie einen Titel über dem Regler wünschen, fügen Sie einfach einen [Texti
 
    {style="table-layout:auto"}
 
-1. Legen Sie die **[!UICONTROL Border]** -Stil, der auf alle vier Seiten des Regler-Containers angewendet wird:
+1. Legen Sie den **[!UICONTROL Border]** -Stil fest, der auf alle vier Seiten des Regler-Containers angewendet wird:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -583,7 +583,7 @@ Wenn Sie einen Titel über dem Regler wünschen, fügen Sie einfach einen [Texti
 
    {style="table-layout:auto"}
 
-1. Wenn Sie einen anderen Rahmenstil als `None`, füllen Sie die Randanzeigeoptionen aus:
+1. Wenn Sie einen anderen Rahmenstil als `None` festlegen, füllen Sie die Anzeigeoptionen für die Rahmenanzeige aus:
 
    | Option | Beschreibung |
    | ------ |------------ |
@@ -593,11 +593,11 @@ Wenn Sie einen Titel über dem Regler wünschen, fügen Sie einfach einen [Texti
 
    {style="table-layout:auto"}
 
-1. (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet, das auf den Regler-Container angewendet werden soll.
+1. (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet an, das auf den Regler-Container angewendet werden soll.
 
    Trennen Sie mehrere Klassennamen durch ein Leerzeichen.
 
-1. Geben Sie Werte in Pixel für die **[!UICONTROL Margins and Padding]** um die äußeren Ränder und den inneren Abstand des Reglerbehälters zu bestimmen.
+1. Geben Sie Werte in Pixel für den Wert **[!UICONTROL Margins and Padding]** ein, um die äußeren Ränder und den inneren Abstand des Regler-Containers zu bestimmen.
 
    Geben Sie die entsprechenden Werte in das Diagramm ein.
 
@@ -610,14 +610,14 @@ Wenn Sie einen Titel über dem Regler wünschen, fügen Sie einfach einen [Texti
 
 ## Regler testen
 
-1. Öffnen Sie die Seite, auf der Sie den Regler eingefügt haben, und legen Sie **[!UICONTROL Enable Page]** nach `Yes`.
+1. Öffnen Sie die Seite, auf der Sie den Regler eingefügt haben, und setzen Sie **[!UICONTROL Enable Page]** auf `Yes`.
 
-1. Klicken Sie oben rechts auf die **[!UICONTROL Save]** Pfeil und Auswahl **[!UICONTROL Save & Close]**.
+1. Klicken Sie in der oberen rechten Ecke auf den Pfeil **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]**.
 
-1. Suchen Sie die Seite im _Seiten_ Raster und auswählen **[!UICONTROL View]** im _[!UICONTROL Action]_Spalte.
+1. Suchen Sie die Seite im Raster _Seiten_ und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Action]_aus.
 
    ![Reglervorschau - Standardansicht](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
 
    Ändern Sie bei der Vorschau des Reglers die Größe des Fensters, damit Sie sehen können, wie es auf einem Mobilgerät angezeigt wird.
 
-   ![Regler-Vorschau - Mobile Ansicht](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
+   ![Reglervorschau - Mobile-Ansicht](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}

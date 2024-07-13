@@ -18,23 +18,23 @@ Bevor Sie ein Ereignis erstellen können, müssen Sie die grundlegende Konfigura
 
 ## Ereignisse aktivieren und konfigurieren
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen **[!UICONTROL Catalog]** darunter.
+1. Erweitern Sie im linken Bedienfeld den Wert **[!UICONTROL Catalog]** und wählen Sie unter &quot;**[!UICONTROL Catalog]**&quot;.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Catalog Events]** und führen Sie folgende Schritte aus:
+1. Erweitern Sie den Abschnitt **[!UICONTROL Catalog Events]** des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
 
    ![Katalogkonfiguration - Katalogereignisse](../configuration-reference/catalog/assets/catalog-events.png){width="600" zoomable="yes"}
 
-   - Satz **[!UICONTROL Enable Catalog Events Functionality]** nach `Yes`.
+   - Setzen Sie **[!UICONTROL Enable Catalog Events Functionality]** auf `Yes`.
 
-   - Satz **[!UICONTROL Enable Catalog Event Widget on Storefront]** nach `Yes`.
+   - Setzen Sie **[!UICONTROL Enable Catalog Event Widget on Storefront]** auf `Yes`.
 
-   - Geben Sie die **[!UICONTROL Number of Events to be Displayed in the Event Slider Sidebar Widget]**. Standardmäßig ist dieser Wert auf `5`. Wenn Sie immer nur ein Ereignis im Regler anzeigen möchten, geben Sie `1`.
+   - Geben Sie den Wert **[!UICONTROL Number of Events to be Displayed in the Event Slider Sidebar Widget]** ein. Standardmäßig ist dieser Wert auf `5` gesetzt. Wenn Sie immer nur ein Ereignis im Regler anzeigen möchten, geben Sie `1` ein.
 
-   - Geben Sie die Anzahl der **[!UICONTROL Events to Scroll per Click in Event Slider Sidebar Widget]**. Standardmäßig ist dieser Wert auf `2`. Wenn der Regler das nächste Ereignis nach Klicken anzeigen soll, geben Sie `1`.
+   - Geben Sie die Anzahl von **[!UICONTROL Events to Scroll per Click in Event Slider Sidebar Widget]** ein. Standardmäßig ist dieser Wert auf `2` gesetzt. Wenn der Regler beim Klicken das nächste Ereignis in Folge anzeigen soll, geben Sie `1` ein.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ## Zugriffsbeschränkungen
 
@@ -48,21 +48,21 @@ Der Zugriff auf einen privaten Verkauf, ein privates Ereignis oder eine Site kan
 
 ![Allgemeine Konfiguration - Website-Beschränkungen](../configuration-reference/general/assets/general-website-restrictions.png){width="600" zoomable="yes"}
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL General]** und wählen **[!UICONTROL General]** darunter.
+1. Erweitern Sie im linken Bedienfeld den Wert **[!UICONTROL General]** und wählen Sie unter &quot;**[!UICONTROL General]**&quot;.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Website Restrictions]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Website Restrictions]** .
 
-1. Satz **[!UICONTROL Access Restriction]** nach `Yes`.
+1. Setzen Sie **[!UICONTROL Access Restriction]** auf `Yes`.
 
-1. Satz **[!UICONTROL Restriction Mode]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Restriction Mode]** auf einen der folgenden Werte:
 
    - `Website Closed`
    - `Private Sales: Login Only`
    - `Private Sales: Login and Register`
 
-1. Satz **[!UICONTROL Startup Page]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Startup Page]** auf einen der folgenden Werte:
 
    - `To login form (302 Found)` - Benutzer werden zum Anmeldeformular weitergeleitet, bevor sie Zugriff auf die Site erhalten.
 
@@ -72,22 +72,22 @@ Der Zugriff auf einen privaten Verkauf, ein privates Ereignis oder eine Site kan
      >
      >Stellen Sie sicher, dass Sie von der Landingpage aus einen Link zur Anmeldeseite einfügen, damit sich Kunden anmelden und auf die Site zugreifen können.
 
-1. Wählen Sie die **[!UICONTROL Landing Page]** wird angezeigt, bevor sich Kunden bei der privaten Verkaufs-Site anmelden.
+1. Wählen Sie die **[!UICONTROL Landing Page]** aus, die angezeigt wird, bevor sich Kunden bei der privaten Verkaufs-Site anmelden.
 
-1. Damit Bots und Spider von Suchmaschinen wissen, dass die Landingpage korrekt ist und keine anderen Seiten auf der Site indiziert werden können, legen Sie **[!UICONTROL HTTP Response]** nach `200 OK`.
+1. Damit Bots und Spider von Suchmaschinen wissen, dass die Landingpage korrekt ist und keine anderen Seiten auf der Site indiziert werden können, setzen Sie **[!UICONTROL HTTP Response]** auf `200 OK`.
 
-   In allen anderen Fällen auf `503 Service Unavailable`.
+   In allen anderen Fällen auf `503 Service Unavailable` gesetzt.
 
    >[!NOTE]
    >
-   >Gilt nur, wenn der Beschränkungsmodus auf _Website geschlossen_. Die Landingpage wird als rohe HTML gerendert.
+   >Gilt nur, wenn der Beschränkungsmodus auf _Website geschlossen_ gesetzt ist. Die Landingpage wird als rohe HTML gerendert.
 
-1. Wenn Sie möchten, dass die Felder in der Kundenanmeldung automatisch ausgefüllt werden und die Passwortformulare von früheren Einträgen vergessen werden, legen Sie **[!UICONTROL Enable Autocomplete on login/forgot password forms]** nach `Yes`.
+1. Wenn Sie möchten, dass die Felder in der Kundenanmeldung automatisch ausgefüllt werden und die Kennwortformulare aus früheren Einträgen nicht ausgefüllt werden, setzen Sie **[!UICONTROL Enable Autocomplete on login/forgot password forms]** auf `Yes`.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ### Verkäufe beschränken
 
-Standardmäßig sind Produkte, die in anstehenden oder geschlossenen Ereignissen angezeigt werden, nicht für den allgemeinen Verkauf verfügbar und die _[!UICONTROL Add to Cart]_-Schaltfläche nicht in der Produktliste oder Produktseite angezeigt.
+Standardmäßig sind Produkte, die in bevorstehenden oder geschlossenen Ereignissen angezeigt werden, nicht für den allgemeinen Verkauf verfügbar und die Schaltfläche &quot;_[!UICONTROL Add to Cart]_&quot; wird nicht auf der Produktliste oder Produktseite angezeigt.
 
-So stellen Sie die _[!UICONTROL Add to Cart]_-Schaltfläche für ein geschlossenes Ereignis verwenden, muss das Ereignis gelöscht werden (siehe [Ereignisse aktualisieren](event-create.md#update-events)). Wenn ein Produkt jedoch einer anderen Kategorie zugeordnet ist, die keine Verkaufsbeschränkungen aufweist, ist die Schaltfläche auf der Produktseite verfügbar. Auf ähnliche Weise wird der Ticker-Block nicht auf der Produktseite angezeigt, wenn das Produkt einer anderen Kategorie zugeordnet ist, die keine Verkaufsbeschränkungen aufweist.
+Um die Schaltfläche _[!UICONTROL Add to Cart]_für ein geschlossenes Ereignis wiederherzustellen, muss das Ereignis gelöscht werden (siehe [Ereignisse aktualisieren](event-create.md#update-events)). Wenn ein Produkt jedoch einer anderen Kategorie zugeordnet ist, die keine Verkaufsbeschränkungen aufweist, ist die Schaltfläche auf der Produktseite verfügbar. Auf ähnliche Weise wird der Ticker-Block nicht auf der Produktseite angezeigt, wenn das Produkt einer anderen Kategorie zugeordnet ist, die keine Verkaufsbeschränkungen aufweist.

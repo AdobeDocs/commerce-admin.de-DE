@@ -5,14 +5,14 @@ exl-id: b19d0208-68b3-45ba-9896-318e12ff4131
 feature: Products, Data Import/Export
 source-git-commit: 55b0672984ce8cdb853daf024299919beaf7ce0b
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
 
 # Einfuhrstufungspreise
 
-anstatt [Staffelpreise](../catalog/product-price-tier.md) manuell für jedes Produkt verwenden, kann es effizienter sein, [importieren](data-import.md) die Preisdaten. Bevor Sie beginnen, erstellen Sie eine Beispieldatei mit exportierten Tier-Preisdaten, die Sie als Vorlage verwenden können.
+Anstatt für jedes Produkt die [Tier-Preise](../catalog/product-price-tier.md) manuell einzugeben, kann es effizienter sein, die Preisdaten [zu importieren](data-import.md). Bevor Sie beginnen, erstellen Sie eine Beispieldatei mit exportierten Tier-Preisdaten, die Sie als Vorlage verwenden können.
 
 ![Beispiel-Storefront - gestaffelte Preise](./assets/storefront-tier-pricing-water-bottle.png){width="700" zoomable="yes"}
 
@@ -22,11 +22,11 @@ Im folgenden Beispiel werden die Kategoriedaten für ein einzelnes Produkt expor
 
 ![Produktgestaffelte Preise](./assets/price-tier-customer-group-discount.png){width="600" zoomable="yes"}
 
-1. on _Admin_ Seitenleiste, navigieren Sie zu  **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
-1. under _[!UICONTROL Export Settings]_, set **[!UICONTROL Entity Type]**nach `Advanced Pricing`.
+1. Setzen Sie unter _[!UICONTROL Export Settings]_**[!UICONTROL Entity Type]**auf `Advanced Pricing`.
 
-1. Im **[!UICONTROL Entity Attributes]** scrollen Sie nach unten zu den SKU-Attributen und führen Sie die folgenden Schritte aus:
+1. Scrollen Sie im Raster **[!UICONTROL Entity Attributes]** nach unten zu den SKU-Attributen und führen Sie folgende Schritte aus:
 
    - Für Tier-Preise, die auf einem Rabattprozentsatz basieren, geben Sie die SKU jedes zu exportierenden Produkts ein, getrennt durch Kommas.
 
@@ -38,7 +38,7 @@ Im folgenden Beispiel werden die Kategoriedaten für ein einzelnes Produkt expor
 
 1. Suchen Sie die Exportdatei im Speicherort für Downloads Ihres Webbrowsers und öffnen Sie die Datei.
 
-   ![Beispiel: exportierte Rabattstufenpreisdaten der Kundengruppe](./assets/price-tier-customer-group-discount-export.png){width="600" zoomable="yes"}
+   ![Beispiel: Exportierte Discount-Tier-Preisdaten der Kundengruppe](./assets/price-tier-customer-group-discount-export.png){width="600" zoomable="yes"}
 
 **_Exportierte Tier-Preisdaten_**
 
@@ -67,15 +67,15 @@ Sie verwenden die exportierten Daten als Vorlage zum Importieren von Tier-Preisd
 
 ## Schritt 3: Aktualisierte Daten importieren
 
-1. on _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. under _Importeinstellungen_, set **[!UICONTROL Entity Type]** nach `Advanced Pricing`.
+1. Legen Sie unter _Importeinstellungen_ **[!UICONTROL Entity Type]** auf `Advanced Pricing` fest.
 
-1. Satz **[!UICONTROL Import Behavior]** nach `Add/Update`.
+1. Setzen Sie **[!UICONTROL Import Behavior]** auf `Add/Update`.
 
-1. under **[!UICONTROL File to Import]** klicken **[!UICONTROL Choose File]** und wählen Sie die Datei aus, die Sie für den Import aus Ihrem Verzeichnis vorbereitet haben.
+1. Klicken Sie unter &quot;**[!UICONTROL File to Import]**&quot;auf &quot;**[!UICONTROL Choose File]**&quot;und wählen Sie die Datei aus, die Sie für den Import aus Ihrem Verzeichnis vorbereitet haben.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Check Data]**.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Check Data]**.
 
 1. Wenn die Datei gültig ist, klicken Sie auf **[!UICONTROL Import]**.
 

@@ -5,7 +5,7 @@ exl-id: df8cf89a-c897-4a9a-9e84-3bae946683a4
 feature: Customers, Storefront
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -22,25 +22,25 @@ Eine Wunschliste ist eine bequeme Möglichkeit für Kunden, sich an Produkte zu 
 
 ## Erstellen einer Wunschliste
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
 Im Storefront kann ein Kunde eine Wunschliste aus seinem Konto-Dashboard, einer Produktseite, einer Katalogseite und dem Warenkorb erstellen.
 
 ### Methode 1: Aus einem Kundenkonto
 
-1. Der Kunde wählt in der Seitenleiste seines Konto-Dashboards **[!UICONTROL My Wish List]**.
+1. In der Seitenleiste des Konto-Dashboards wählt der Kunde **[!UICONTROL My Wish List]** aus.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Create New Wish List]**.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Create New Wish List]**.
 
 1. Geben Sie den Namen der Wunschliste ein.
 
-1. Um anderen die Anzeige ihrer Wunschliste zu ermöglichen, wählt die **[!UICONTROL Public Wish List]** aktivieren.
+1. Um anderen die Anzeige ihrer Wunschliste zu ermöglichen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Public Wish List]** .
 
    >[!NOTE]
    >
-   >Der Hauptunterschied zwischen `Public` und `Private` Wunschlisten sind keine privaten Wunschlisten. [durchsuchbar](wishlist-configuration.md#add-wish-list-search) durch Wunschlisten.
+   >Der Hauptunterschied zwischen den Wunschlisten `Public` und `Private` besteht darin, dass private Wunschlisten nicht durch Wunschlisten [durchsuchbar](wishlist-configuration.md#add-wish-list-search) sind.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
    ![Neue Wunschliste erstellen](./assets/account-dashboard-wishlist-create-new.png){width="700" zoomable="yes"}
 
@@ -50,51 +50,51 @@ Im Storefront kann ein Kunde eine Wunschliste aus seinem Konto-Dashboard, einer 
 
 1. Bewegen Sie die Maus über das Produkt.
 
-1. Der Kunde klickt auf den Pfeil neben _Zur Wunschliste hinzufügen_ und wählt das **[!UICONTROL Create New Wish List]**.
+1. Der Kunde klickt auf den Pfeil neben dem Symbol _Zur Wunschliste hinzufügen_ und wählt **[!UICONTROL Create New Wish List]** aus.
 
 1. Fügt den Namen der Wunschliste ein.
 
-1. Um anderen die Anzeige ihrer Wunschliste zu ermöglichen, wählt die **[!UICONTROL Public Wish List]** aktivieren.
+1. Um anderen die Anzeige ihrer Wunschliste zu ermöglichen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Public Wish List]** .
 
-1. Klicken Sie nach Abschluss **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
 ### Methode 3: Auf der Produktdetailseite
 
 1. Der Kunde ruft von der Storefront die Detailseite des Produkts auf, das er einer Wunschliste hinzufügen möchte.
 
-1. Klicken Sie auf den Pfeil neben **[!UICONTROL Add to Wish List]** und wählt **[!UICONTROL Create New Wish List]**.
+1. Klicken Sie auf den Pfeil neben **[!UICONTROL Add to Wish List]** und wählen Sie **[!UICONTROL Create New Wish List]** aus.
 
-1. Fügt die **[!UICONTROL Wish List Name]**.
+1. Fügt den Wert **[!UICONTROL Wish List Name]** ein.
 
-1. Um anderen die Anzeige ihrer Wunschliste zu ermöglichen, wählt die **[!UICONTROL Public Wish List]** aktivieren.
+1. Um anderen die Anzeige ihrer Wunschliste zu ermöglichen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Public Wish List]** .
 
-1. Klicken Sie nach Abschluss **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
-   ![Erstellen einer neuen Wunschliste über die Seite &quot;Produktdetails&quot;](./assets/account-dashboard-wishlist-create-from-pdp.png){width="700" zoomable="yes"}
+   ![Erstellen einer neuen Wunschliste von der Produktdetailseite](./assets/account-dashboard-wishlist-create-from-pdp.png){width="700" zoomable="yes"}
 
 ### Methode 4: Aus dem Warenkorb
 
-1. Der Kunde öffnet die **[!UICONTROL Shopping Cart]** Seite.
+1. Der Kunde öffnet die Seite &quot;**[!UICONTROL Shopping Cart]**&quot;.
 
-1. Klicken Sie unter dem Element auf den Pfeil neben **[!UICONTROL Move to Wishlist]** und wählt **[!UICONTROL Create New Wish List]**.
+1. Klicken Sie unter dem Element auf den Pfeil neben **[!UICONTROL Move to Wishlist]** und wählen Sie **[!UICONTROL Create New Wish List]** aus.
 
-1. Fügt die **[!UICONTROL Wish List Name]**.
+1. Fügt den Wert **[!UICONTROL Wish List Name]** ein.
 
-1. Um anderen die Anzeige ihrer Wunschliste zu ermöglichen, wählt die **[!UICONTROL Public Wish List]** aktivieren.
+1. Um anderen die Anzeige ihrer Wunschliste zu ermöglichen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Public Wish List]** .
 
-1. Klicken Sie nach Abschluss **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
-![Erstellen einer neuen Wunschliste über die Seite &quot;Warenkorb&quot;](./assets/account-dashboard-wishlist-create-from-cart.png){width="700" zoomable="yes"}
+![Erstellen einer neuen Wunschliste von der Seite &quot;Warenkorb&quot;](./assets/account-dashboard-wishlist-create-from-cart.png){width="700" zoomable="yes"}
 
 ## Aktualisieren der Produktliste
 
 1. Aus der Wunschliste verweist der Kunde auf das Produkt, um die Optionen anzuzeigen.
 
-1. So fügen Sie eine **[!UICONTROL Comment]** über das Produkt, geben Sie den Text in das Feld unter dem Preis ein.
+1. Um eine **[!UICONTROL Comment]** für das Produkt hinzuzufügen, geben Sie den Text in das Feld unter dem Preis ein.
 
    ![Bearbeitungsoptionen](./assets/account-dashboard-wishlist-edit-options.png){width="700" zoomable="yes"}
 
-1. Klicken Sie auf , um die Auswahl der Produktoptionen zu ändern. **[!UICONTROL Edit]** und führt Folgendes aus:
+1. Um die Auswahl der Produktoptionen zu ändern, klicken Sie auf **[!UICONTROL Edit]** und gehen wie folgt vor:
 
    - Aktualisiert die Optionen auf der Produktdetailseite.
    - Klicks **[!UICONTROL Update Wish List]**.
@@ -103,7 +103,7 @@ Im Storefront kann ein Kunde eine Wunschliste aus seinem Konto-Dashboard, einer 
 
 1. In der Wunschliste verweist der Kunde auf das Produkt, das Sie hinzufügen möchten.
 
-1. Aktualisiert die **[!UICONTROL Qty]** und bearbeiten Sie die anderen Optionen nach Bedarf.
+1. Aktualisiert die **[!UICONTROL Qty]** und bearbeitet die anderen Optionen nach Bedarf.
 
 1. Klicks **[!UICONTROL Add to Cart]**.
 
@@ -113,13 +113,13 @@ Im Storefront kann ein Kunde eine Wunschliste aus seinem Konto-Dashboard, einer 
 
 1. Fügt die E-Mail-Adresse jeder Person ein, die die Wunschliste erhalten soll, getrennt durch Kommas.
 
-1. Fügt eine **[!UICONTROL Message]** in die E-Mail aufgenommen werden.
+1. Fügt einen **[!UICONTROL Message]** hinzu, der in die E-Mail aufgenommen werden soll.
 
 1. Klicks **[!UICONTROL Share Wish List]**.
 
-   ![Wunschliste freigeben](./assets/account-dashboard-wishlist-sharing.png){width="700" zoomable="yes"}
+   ![Geben Sie Ihre Wunschliste frei](./assets/account-dashboard-wishlist-sharing.png){width="700" zoomable="yes"}
 
-   Die Nachricht wird von Ihrer primären [Store-Kontakt](../getting-started/store-details.md#store-email-addresses) und enthält ein Miniaturbild der einzelnen Produkte mit Links zu Ihrem Store.
+   Die Nachricht wird von Ihrem primären [Store-Kontakt](../getting-started/store-details.md#store-email-addresses) gesendet und enthält ein Miniaturbild jedes Produkts mit Links zu Ihrem Store.
 
    ![Freigegebene Wunschlisten-E-Mail](./assets/account-dashboard-wishlist-sharing-email.png){width="500" zoomable="yes"}
 
@@ -129,35 +129,35 @@ Kunden können ihre Wunschliste auf verschiedene Weise über ihr Konto-Dashboard
 
 ### Verschieben von Elementen in eine andere Liste
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
 1. Der Kunde wählt das Kontrollkästchen jedes zu verschiebenden Elements aus.
 
-1. Klicks **[!UICONTROL Move Selected to Wish List]** und führt einen der folgenden Schritte aus:
+1. klickt auf **[!UICONTROL Move Selected to Wish List]** und führt einen der folgenden Schritte aus:
 
    - Auswahl einer existierenden Wunschliste.
    - Klicks **[!UICONTROL Create New Wish List]**.
 
 ### Elemente in eine andere Liste kopieren
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
 1. Aktivieren Sie das Kontrollkästchen der zu verschiebenden Elemente.
 
-1. Klicks **[!UICONTROL Copy Selected to Wish List]** und führt einen der folgenden Schritte aus:
+1. klickt auf **[!UICONTROL Copy Selected to Wish List]** und führt einen der folgenden Schritte aus:
 
    - Auswahl einer existierenden Wunschliste.
    - Klicks **[!UICONTROL Create New Wish List]**.
 
 ## Wunschliste löschen
 
-![Adobe Commerce](../assets/adobe-logo.svg) (Nur Adobe Commerce)
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
 1. Der Kunde öffnet die zu löschende Wunschliste.
 
 1. Klicks **[!UICONTROL Delete Wish List]**.
 
-1. Wenn Sie zur Bestätigung aufgefordert werden, klickt **[!UICONTROL OK]**.
+1. Wenn Sie zur Bestätigung aufgefordert werden, klicken Sie auf **[!UICONTROL OK]**.
 
 >[!IMPORTANT]
 >
@@ -165,23 +165,23 @@ Kunden können ihre Wunschliste auf verschiedene Weise über ihr Konto-Dashboard
 
 ## Übertragen von Wunschlistenelementen in den Warenkorb
 
-Um alle Wunschlistenartikel in den Warenkorb zu übertragen, klickt der Kunde auf **[!UICONTROL Add All to Cart]**.
+Um alle Wunschlisteneinträge in den Warenkorb zu übertragen, klickt der Kunde auf **[!UICONTROL Add All to Cart]**.
 
 Um ein einzelnes Element hinzuzufügen, führt der Kunde folgende Schritte durch:
 
-1. Bewegen Sie den Mauszeiger über das Element und geben Sie die **[!UICONTROL Qty]** die sie zum Warenkorb hinzufügen möchten.
+1. Bewegen Sie den Mauszeiger über das Element und geben Sie den **[!UICONTROL Qty]** ein, den sie zum Warenkorb hinzufügen möchten.
 
 1. Klicks **[!UICONTROL Add to Cart]**.
 
 ## Kundenwunschliste suchen
 
-Wenn die Variable [Widget &quot;Suche nach Listen&quot;](wishlist-configuration.md#add-wish-list-search) in Ihren Store-Seiten enthalten sind, können Kunden nach dem Namen oder der E-Mail-Adresse des Eigentümers der Wunschliste suchen.
+Wenn das Widget [Wunschlisten-Suche](wishlist-configuration.md#add-wish-list-search) in Ihren Store-Seiten enthalten ist, können Kunden nach dem Namen oder der E-Mail-Adresse des Eigentümers der Wunschliste suchen.
 
 1. Im Widget zur Wunschlisten-Suche wählt der Kunde eine Suchoption aus.
 
 1. Fügt den Namen oder die E-Mail-Adresse des Eigentümers der Wunschliste ein und klickt auf **[!UICONTROL Search]**.
 
-   Die _Suche nach Listen_ -Seite geöffnet und alle entsprechenden Wunschlisten werden im Suchergebnisbereich angezeigt.
+   Die Seite _Suche nach Listen_ wird geöffnet und alle entsprechenden Wunschlisten werden im Abschnitt mit den Suchergebnissen angezeigt.
 
    >[!NOTE]
    >

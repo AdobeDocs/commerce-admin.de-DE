@@ -18,29 +18,29 @@ Jeder Tag oder Zeitraum während einer Kampagne kann in der Vorschau angezeigt u
 
 1. Verwenden Sie eine der folgenden Methoden, um ein Vorschaufenster zu öffnen:
 
-   - _Über das Content Staging-Dashboard_
+   - _vom Inhalts-Staging-Dashboard_
 
-      - Im _Admin_ Seitenleiste, navigieren Sie zu  **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
-      - Klicken Sie auf ein beliebiges Element auf der Seite und dann auf **[!UICONTROL Preview]** in der angezeigten Zusammenfassung für die Kampagne.
+      - Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+      - Klicken Sie auf ein beliebiges Element auf der Seite und klicken Sie dann in den angezeigten Zusammenfassungsinformationen für die Kampagne auf &quot;**[!UICONTROL Preview]**&quot;.
 
-   - _Von allen Seiten mit geplanten Änderungen_
+   - _Von jeder Seite mit geplanten Änderungen_
 
-      - Jede Seite mit einer _[!UICONTROL Scheduled Changes]_oben.
-      - Klicken **[!UICONTROL Preview]**.
+      - Öffnen Sie eine beliebige Seite mit dem Feld &quot;_[!UICONTROL Scheduled Changes]_&quot; oben.
+      - Klicken Sie auf **[!UICONTROL Preview]**.
 
    Die Vorschau wird in einer neuen Browser-Registerkarte geöffnet und zeigt an, wie das Produkt während der geplanten Kampagne erscheint.
 
-1. Klicken Sie oben links im Vorschaufenster auf **[!UICONTROL Calendar]**.
+1. Klicken Sie in der linken oberen Ecke des Vorschaufensters auf **[!UICONTROL Calendar]**.
 
    Die Kalenderdetails zeigen andere Kampagnen an, die für denselben Tag geplant sind. Jeder Datensatz in der Liste ist eine separate Kampagne.
 
 1. Vorschau eines bestimmten Tages oder einer bestimmten Uhrzeit:
 
-   - Klicken Sie auf **[!UICONTROL Date & Time]** Kalender (![Kalendersymbol](../assets/icon-calendar.png){width="10" zoomable="no"}).
+   - Klicken Sie auf den Kalender **[!UICONTROL Date & Time]** (![Kalendersymbol](../assets/icon-calendar.png){width="10" zoomable="no"}).
 
    - Wählen Sie ein anderes Datum und/oder eine andere Uhrzeit aus.
 
-   - Klicken **[!UICONTROL Preview]**.
+   - Klicken Sie auf **[!UICONTROL Preview]**.
 
 1. Ändern Sie den Umfang der Vorschau für eine andere Store-Ansicht:
 
@@ -50,16 +50,16 @@ Jeder Tag oder Zeitraum während einer Kampagne kann in der Vorschau angezeigt u
 
    >[!NOTE]
    >
-   >Die Vorschau beginnt immer mit der **default** Store-Ansicht, die das Kundenerlebnis beim Navigieren durch die Kampagne emuliert. Einstufige Kampagnen können Änderungen umfassen, die sich auf mehrere Store-Ansichten und Websites auswirken. Stellen Sie sicher, dass diese Ansichten/Websites die Kampagne ordnungsgemäß anzeigen.
+   >Die Vorschau beginnt immer mit der Store-Ansicht &quot;**default**&quot;, die das Kundenerlebnis beim Navigieren durch die Kampagne emuliert. Einstufige Kampagnen können Änderungen umfassen, die sich auf mehrere Store-Ansichten und Websites auswirken. Stellen Sie sicher, dass diese Ansichten/Websites die Kampagne ordnungsgemäß anzeigen.
 
 1. Link zur Vorschau freigeben:
 
-   - Klicks **[!UICONTROL Share]** und kopieren Sie den Link in die Zwischenablage.
+   - Klicken Sie auf &quot;**[!UICONTROL Share]**&quot;und kopieren Sie den Link in die Zwischenablage.
 
    - Fügen Sie den Link in den Nachrichten-Textkörper ein.
 
      >[!NOTE]
      >
-     >Für die Anzeige einer freigegebenen Vorschau ist ein Administratorkonto erforderlich. Wenn Sie berechtigt sind, [Admin-Benutzerkonto erstellen](../systems/permissions-users-all.md#create-a-user)müssen Sie das Konto für einen neuen Benutzer vor der Freigabe erstellen.
+     >Für die Anzeige einer freigegebenen Vorschau ist ein Administratorkonto erforderlich. Wenn Sie berechtigt sind, [ein Admin-Benutzerkonto zu erstellen](../systems/permissions-users-all.md#create-a-user), müssen Sie das Konto für einen neuen Benutzer vor der Freigabe erstellen.
 
-1. Um zum Kampagnenkalender zurückzukehren, klicken Sie **[!UICONTROL Calendar]** in der Kopfzeile der Vorschauseite.
+1. Um zum Kampagnenkalender zurückzukehren, klicken Sie in der Kopfzeile der Vorschauseite auf **[!UICONTROL Calendar]** .

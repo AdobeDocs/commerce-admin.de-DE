@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der [!UICONTROL Customers] &gt; [!UICONTROL Wish List] Seite des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Wish List] des Commerce-Administrators.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 1%
 
 ---
@@ -24,12 +24,12 @@ ht-degree: 1%
 
 <!--[General Options](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enabled] | Store-Ansicht | Aktiviert das Wunschlisten-Modul für Ihren Store. Optionen: `Yes` / `No` |
 | [!UICONTROL Show in Sidebar] | Store-Ansicht | Gibt die Sichtbarkeit der Wunschlisten in der Seitenleiste an. <br/>Optionen: `Yes` / `No` |
-| [!UICONTROL Enable Multiple Wish Lists] | Store-Ansicht | ![Adobe Commerce](../../assets/adobe-logo.svg) (Nur Adobe Commerce) Wenn auf `Yes`ermöglicht es Kunden, mehrere Wunschlisten zu erstellen und zu verwalten. Optionen: `Yes` / `No` |
-| [!UICONTROL Number of Multiple Wish Lists] | Store-Ansicht | ![Adobe Commerce](../../assets/adobe-logo.svg) (Nur Adobe Commerce) Wenn mehrere Wunschlisten aktiviert sind, bestimmt die maximale Anzahl von Wunschlisten, die Kunden ihrem Konto zugeordnet haben können. |
+| [!UICONTROL Enable Multiple Wish Lists] | Store-Ansicht | ![Adobe Commerce](../../assets/adobe-logo.svg) (nur Adobe Commerce) Wenn auf `Yes` festgelegt, können Kunden mehrere Wunschlisten erstellen und verwalten. Optionen: `Yes` / `No` |
+| [!UICONTROL Number of Multiple Wish Lists] | Store-Ansicht | ![Adobe Commerce](../../assets/adobe-logo.svg) (nur Adobe Commerce) Wenn mehrere Wunschlisten aktiviert sind, bestimmt die maximale Anzahl von Wunschlisten, die Kunden ihrem Konto zugeordnet haben können. |
 
 {style="table-layout:auto"}
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 <!-- [Share Options](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Email Sender] | Store-Ansicht | Bestimmt den Store-Kontakt, der als Absender der Nachricht angezeigt wird, die gesendet wird, wenn eine Wunschliste freigegeben wird. Standardkontakt: `General Contact` |
 | [!UICONTROL Email Template] | Store-Ansicht | Bestimmt die E-Mail-Vorlage, die für die Nachricht verwendet wird, die gesendet wird, wenn eine Wunschliste freigegeben wird. Standardvorlage: `Share Wishlist` |
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 <!--[My Wish List Link](https://docs.magento.com/user-guide/marketing/wishlist-configuration.html) -->
 
-| Feld | [Anwendungsbereich](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Display Wish List Summary] | Webseite | Konfiguriert die Anzeige der Zusammenfassung der Wunschliste im Dashboard des Kundenkontos. Optionen: `Display number of items in wish list` / `Display item quantities` |
 

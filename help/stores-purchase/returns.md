@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Rückgabe
 
-A _Zurückgegebene Warenautorisierung_ (RMA) können Kunden gewährt werden, die eine Rücksendung für Ersatz oder Rückerstattung beantragen. In der Regel kontaktiert der Kunde den Händler, um eine Rückerstattung zu verlangen. Bei Genehmigung wird eine eindeutige RMA-Nummer zugewiesen, um das zurückgegebene Produkt zu identifizieren. In der Konfiguration können Sie entweder RMA für alle Produkte aktivieren oder RMA nur für bestimmte Produkte zulassen. Die _[!UICONTROL Returns]_grid listet die aktuellen zurückgegebenen Merchandise-Anfragen (RMAs) auf und wird zur Eingabe neuer Rückgabeanforderungen verwendet.
+Eine _zurückgegebene Warenautorisierung_ (RMA) kann Kunden gewährt werden, die einen Artikel zur Ersatz- oder Rückerstattung zurückgeben möchten. In der Regel kontaktiert der Kunde den Händler, um eine Rückerstattung zu verlangen. Bei Genehmigung wird eine eindeutige RMA-Nummer zugewiesen, um das zurückgegebene Produkt zu identifizieren. In der Konfiguration können Sie entweder RMA für alle Produkte aktivieren oder RMA nur für bestimmte Produkte zulassen. Das Raster _[!UICONTROL Returns]_listet die aktuellen zurückgegebenen Merchandise-Anfragen (RMAs) auf und wird zur Eingabe neuer Rückgabeanforderungen verwendet.
 
-![Gibt Raster zurück](./assets/return.png){width="600" zoomable="yes"}
+![Gibt grid](./assets/return.png){width="600" zoomable="yes"} zurück
 
 RMAs können für einfache, gruppierte, konfigurierbare und gebündelte Produktarten ausgestellt werden. RMAs sind jedoch nicht für virtuelle Produkte, herunterladbare Produkte und Geschenkkarten verfügbar.
 
@@ -35,13 +35,13 @@ RMAs können für einfache, gruppierte, konfigurierbare und gebündelte Produkta
 
 ## RMA- und Rückkehr-Workflow
 
-1. **Anfrage empfangen** - Wenn [enabled](rma-configure.md#enable-rmas-for-your-store) für die Storefront können sowohl registrierte Kunden als auch Gäste eine RMA anfordern. Sie können auch [Senden einer RMA-Anfrage in der Admin-Konsole](#create-a-return-request-in-the-admin).
+1. **Receive request** - Wenn [enabled](rma-configure.md#enable-rmas-for-your-store) für die Storefront ist, können sowohl registrierte Kunden als auch Gäste eine RMA anfordern. Sie können auch [eine RMA-Anfrage in Admin](#create-a-return-request-in-the-admin) senden.
 
-2. **RMA-Ausgabe** - Nachdem Sie die Anfrage geprüft haben, können Sie sie teilweise, vollständig oder abbrechen. Wenn Sie die Rücksendung genehmigen und zustimmen, für die Rücksendung zu zahlen, können Sie einen Versandauftrag vom Administrator mit einem unterstützten Frachtführer erstellen.
+2. **RMA created** - Nachdem Sie die Anfrage geprüft haben, können Sie sie teilweise, vollständig oder stornieren. Wenn Sie die Rücksendung genehmigen und zustimmen, für die Rücksendung zu zahlen, können Sie einen Versandauftrag vom Administrator mit einem unterstützten Frachtführer erstellen.
 
-3. **Empfangsbestätigungen und verarbeitete Produktempfehlungen** - Das folgende Flussdiagramm beschreibt die Betriebsreihenfolge zum Abschließen des Rückgabeverfahrens:
+3. **empfangene und verarbeitete Produkt-Rückgabe** - Das folgende Flussdiagramm beschreibt die Betriebsreihenfolge zum Abschließen des Rückgabeprozesses:
 
-   ![Workflow zur Produktrückgabe](./assets/workflow-customer-returns.png){width="500"}
+   ![Workflow für die Produktrückgabe](./assets/workflow-customer-returns.png){width="500"}
 
 ## RMA-Status
 
@@ -64,45 +64,45 @@ Während seines Lebenszyklus kann einer zurückgegebenen Warenautorisierung (RMA
 
 ## Erstellen einer Rückkehranfrage in der Admin-Konsole
 
-Ein Händler kann vom Administrator eine Rückkehranfrage im Namen des Kunden erstellen. Kunden können [eine Rückgabeanforderung erstellen](rma-customer-experience.md) auf der Storefront für einen Adobe Commerce Store.
+Ein Händler kann vom Administrator eine Rückkehranfrage im Namen des Kunden erstellen. Kunden können [eine Rückkehranfrage ](rma-customer-experience.md) in der Storefront für einen Adobe Commerce-Store erstellen.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > **[!UICONTROL Returns]**.
 
-1. Klicken **[!UICONTROL New Return Request]**.
+1. Klicken Sie auf **[!UICONTROL New Return Request]**.
 
-1. Um eine Rückgabeanforderung zu erstellen, klicken Sie auf eine Bestellung mit einer `Complete` -Status.
+1. Um eine Rückgabeanforderung zu erstellen, klicken Sie auf eine Bestellung mit dem Status `Complete` .
 
-1. Unter dem _[!UICONTROL Return Information]_auswählen, wählen Sie die **[!UICONTROL Return Items]**Registerkarte.
+1. Wählen Sie unter dem Abschnitt _[!UICONTROL Return Information]_die Registerkarte **[!UICONTROL Return Items]**aus.
 
 1. Um Elemente hinzuzufügen, die zurückgegeben werden sollen, klicken Sie auf **[!UICONTROL Add Items]**.
 
 1. Aktivieren Sie das Kontrollkästchen für das gewünschte Produkt und klicken Sie auf **[!UICONTROL Add Selected Product to returns]**.
 
-1. Für **[!UICONTROL Requested]**, geben Sie die Anzahl der zurückzugebenden Elemente an.
+1. Geben Sie für &quot;**[!UICONTROL Requested]**&quot;die Anzahl der zurückzugebenden Elemente ein.
 
-1. Satz **[!UICONTROL Return Reason]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Return Reason]** auf einen der folgenden Werte:
 
    - `Wrong Color`
    - `Wrong Size`
    - `Out of Service`
    - `Other`
 
-   Wenn sich der Grund für die Rückkehr von den aufgelisteten Optionen unterscheidet, können Sie Ihre eigene eingeben, wenn Sie die `Other` -Option.
+   Wenn sich der Grund für die Rückgabe von den aufgelisteten Optionen unterscheidet, können Sie Ihre eigenen eingeben, wenn Sie die Option `Other` auswählen.
 
-1. Satz **[!UICONTROL Item Condition]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Item Condition]** auf einen der folgenden Werte:
 
    - `Unopened`
    - `Opened`
    - `Damaged`
 
-1. Satz **[!UICONTROL Resolution]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Resolution]** auf einen der folgenden Werte:
 
    - `Exchange`
    - `Refund`
    - `Store Credit`
 
-1. Klicken Sie auf , um eine Rückgabe zu erstellen **[!UICONTROL Submit Returns]**.
+1. Klicken Sie auf **[!UICONTROL Submit Returns]**, um eine Rückgabe zu erstellen.
 
-   ![Beantragte RMA-Elemente](./assets/return-item-request.png){width="600" zoomable="yes"}
+   ![angeforderte RMA-Elemente](./assets/return-item-request.png){width="600" zoomable="yes"}
 
-   Die neu gesendete RMA-Anfrage wird auf der Seite **[!UICONTROL Returns]** Seite mit einer `Pending` -Status.
+   Die neu gesendete RMA-Anfrage wird auf der Seite **[!UICONTROL Returns]** mit dem Status `Pending` angezeigt.

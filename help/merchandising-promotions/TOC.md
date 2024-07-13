@@ -28,16 +28,16 @@ ht-degree: 1%
       - [Einrichtung der Geschenkregistrierung](gift-registry-create.md)
       - [Hinzufügen der Suche nach Geschenkregistern](gift-registry-search.md)
       - [Geschenkregistrierung - Storefront](gift-registry-storefront.md)
-   - Prämienpunkte {#reward-points}
+   - Belohnungspunkte {#reward-points}
       - [Übersicht und Konfiguration der Prämien](rewards-loyalty.md)
       - [Wechselkurse](reward-exchange-rates.md)
       - [Bonuspunkte in den Preisregeln](reward-points-price-rules.md)
       - [Storefront-Erlebnis für Punkte belohnen](reward-points-storefront.md)
-   - Produktübersichten {#product-reviews}
+   - Produktüberprüfungen {#product-reviews}
       - [Kundenproduktübersichten](product-reviews.md)
       - [Moderieren von Bewertungen](product-reviews-moderate.md)
 - Promotions {#promotions}
-   - Private Verkäufe und Veranstaltungen {#events}
+   - Private Verkäufe und Ereignisse {#events}
       - [Übersicht über Ereignisse](events-private-sales.md)
       - [Ereignisse konfigurieren](event-configure.md)
       - [Ereignisse erstellen](event-create.md)
@@ -60,7 +60,7 @@ ht-degree: 1%
       - [Übersicht](product-relationships.md)
       - [Regeln für verwandte Produkte und Konfiguration](product-related-rules.md)
       - [Erstellen einer verwandten Produktregel](product-related-rule-create.md)
-- Marketingkommunikation {#communications}
+- Marketingnachrichten {#communications}
    - Newsletter {#newsletters}
       - [Newsletter aktivieren](newsletters.md)
       - [Newsletter-Vorlagen](newsletter-template.md)
@@ -87,5 +87,5 @@ ht-degree: 1%
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Google Content Experiments](google-content-experiments.md)
-- [Zurück zu den Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

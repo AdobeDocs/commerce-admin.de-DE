@@ -5,7 +5,7 @@ exl-id: b1cbc3b0-c245-4b8a-886f-b2cfc104db16
 feature: Customers, Storefront
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Kunden, die ihre Adressbücher aktuell halten, können den Checkout-Prozess besc
 
 ## Adresse hinzufügen
 
-1. Im linken Navigationsbereich seines Kundenkontos wählt der Kunde **[!UICONTROL Address Book]**.
+1. Im linken Navigationsbereich seines Kundenkontos wählt der Kunde **[!UICONTROL Address Book]** aus.
 
-1. Im _[!UICONTROL Address Book]_Seite unter_ Zusätzliche Adresseinträge _, Klicks **[!UICONTROL Add New Address]**.
+1. Klicken Sie auf der Seite _[!UICONTROL Address Book]_unter_ Zusätzliche Adresseneinträge _auf **[!UICONTROL Add New Address]**.
 
    ![Neue Adresse hinzufügen](assets/add-new-address.png){width="600" zoomable="yes"}
 
@@ -39,17 +39,17 @@ Kunden, die ihre Adressbücher aktuell halten, können den Checkout-Prozess besc
    * [!UICONTROL Use as my default billing address]
    * [!UICONTROL Use as my default shipping address]
 
-1. Klicken Sie nach Abschluss **[!UICONTROL Save Address]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Address]**.
 
    >[!INFO]
    >
-   >Die neue Adresse ist unter [!UICONTROL Additional Address Entries].
+   >Die neue Adresse wird unter [!UICONTROL Additional Address Entries] aufgeführt.
 
    ![Zusätzliche Adresseinträge](assets/customer-account-dashboard-address-saved.png){width="700" zoomable="yes"}
 
 ## Adresse bearbeiten
 
-1. Im linken Navigationsbereich seines Kundenkontos wählt der Kunde **[!UICONTROL Address Book]**.
+1. In der linken Navigation ihres Kundenkontos wählt der Kunde **[!UICONTROL Address Book]** aus.
 
 1. Sucht den zu bearbeitenden Adresseintrag.
 
@@ -59,29 +59,29 @@ Kunden, die ihre Adressbücher aktuell halten, können den Checkout-Prozess besc
 
    >[!INFO]
    >
-   >Der Kunde kann diese Adresse als Standard festlegen **[!UICONTROL Shipping or Billing]** Adresse durch Auswahl der _Als Standard-Rechnungsadresse verwenden_ Kontrollkästchen.
+   >Der Kunde kann diese Adresse als Standardadresse **[!UICONTROL Shipping or Billing]** festlegen, indem er die Kontrollkästchen _Als Standardabrechnungsadresse verwenden_ aktiviert.
 
 1. Wenn die Änderungen abgeschlossen sind, klicken Sie auf **[!UICONTROL Save Address]**.
 
 ## Standardadresse ändern
 
-1. Im linken Navigationsbereich seines Kundenkontos wählt der Kunde **[!UICONTROL Address Book]**.
+1. In der linken Navigation ihres Kundenkontos wählt der Kunde **[!UICONTROL Address Book]** aus.
 
 1. Auswahl einer der Bearbeitungsmethoden:
 
-   * Klicks **[!UICONTROL Change Billing/Shipping Address]** im _[!UICONTROL Default Addresses]_Abschnitt.
+   * Klicken Sie auf **[!UICONTROL Change Billing/Shipping Address]** im Abschnitt _[!UICONTROL Default Addresses]_.
 
-   * Klicks **[!UICONTROL Edit]** im _[!UICONTROL Additional Address Entries]_Gitter.
+   * Klicks **[!UICONTROL Edit]** im Raster _[!UICONTROL Additional Address Entries]_.
 
-1. Nehmen Sie die erforderlichen Änderungen vor und klicken Sie auf **[!UICONTROL Save Address]**.
+1. Führt die erforderlichen Änderungen durch und klickt auf **[!UICONTROL Save Address]**.
 
 ## Adresse löschen
 
-1. Im linken Navigationsbereich seines Kundenkontos wählt der Kunde **[!UICONTROL Address Book]**.
+1. In der linken Navigation ihres Kundenkontos wählt der Kunde **[!UICONTROL Address Book]** aus.
 
 1. Findet den zu löschenden Adresseintrag.
 
-1. Klicks **[!UICONTROL Delete]** im _[!UICONTROL Additional Address Entries]_Gitter.
+1. Klicks **[!UICONTROL Delete]** im Raster _[!UICONTROL Additional Address Entries]_.
 
 1. Klicken Sie zur Bestätigung der Aktion auf **[!UICONTROL OK]**.
 

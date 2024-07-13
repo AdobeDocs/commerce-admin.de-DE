@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 source-git-commit: 6ec075d9cbce41ebc056e631b1ae7b4f2749c161
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,16 @@ Erstellen Sie eine Unternehmenshierarchie auf der Detailseite &quot;Unternehmen&
 
 ## Öffnen Sie die Detailseite &quot;Firma&quot;.
 
-1. Aus dem _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Öffnen Sie die Detailseite des Unternehmens im Raster Unternehmen für das Mutterunternehmen, indem Sie die **[!UICONTROL Edit]** Aktion.
+1. Öffnen Sie die Detailseite des Unternehmens im Raster Unternehmen für das Mutterunternehmen, indem Sie die Aktion **[!UICONTROL Edit]** auswählen.
 
-Siehe [Verwalten von Unternehmenskonten](account-company-manage.md) für weitere Informationen über das Unternehmensnetz.
+Weitere Informationen zum Raster &quot;Unternehmen&quot;finden Sie unter [Unternehmenskonten verwalten](account-company-manage.md) .
 
 ## [!UICONTROL Company Hierarchy]
 
-Bei der ersten Erstellung des Unternehmens muss die Variable [!UICONTROL Company Hierarchy] grid ist leer, wenn Sie es erweitern. Nachdem ein Unternehmen erstellt wurde, können Admin-Benutzer mit entsprechenden Berechtigungen die [!UICONTROL Company Hierarchy] eine Muttergesellschaft zu gründen, indem die benannte Muttergesellschaft bearbeitet und verbundene Unternehmen zugewiesen werden.
+Bei der ersten Unternehmenserstellung ist das Raster [!UICONTROL Company Hierarchy] leer, wenn Sie es erweitern. Nachdem ein Unternehmen erstellt wurde, können Admin-Benutzer mit entsprechenden Berechtigungen den [!UICONTROL Company Hierarchy] verwenden, um eine Mutterunternehmen-Organisation zu erstellen, indem sie die vorgesehene Muttergesellschaft bearbeiten und verbundene Unternehmen zuweisen.
 
-![Hierarchieraster von Unternehmen](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+![Hierarchieraster der Unternehmen](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
-Siehe [Zuweisen und Aufheben der Zuweisung von Unternehmen](assign-companies.md) Weitere Informationen zu den verfügbaren Aktionen finden Sie im [!UICONTROL Company Hierarchy] Gitter.
+Weitere Informationen zu den verfügbaren Aktionen im Raster [!UICONTROL Company Hierarchy] finden Sie unter [Zuweisen und Aufheben der Zuweisung von Unternehmen](assign-companies.md) .

@@ -6,7 +6,7 @@ feature: B2B, Companies, Configuration
 role: Admin
 source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Je nach Rolle und Berechtigungen des Unternehmens können Benutzer Genehmigungsr
 
 >[!IMPORTANT]
 >
->Die Einrichtung einer Genehmigungsregel erfordert eine definierte [Unternehmensstruktur](account-company-structure.md) um die Validierung durch den Manager des Käufers zu bestimmen.
+>Die Einrichtung von Validierungsregeln erfordert eine definierte [Unternehmensstruktur](account-company-structure.md), um die Genehmigung durch den Manager des Einkaufskunden festzulegen.
 
 ## Zahlungsmethoden
 
@@ -36,47 +36,47 @@ Die Validierungsabläufe für Bestellungen unterstützen sowohl Online- als auch
 
 ## Einrichten von Genehmigungsregeln
 
-Mit den erforderlichen [Berechtigungen für ihre Rolle](account-company-roles-permissions.md), können B2B-Kunden Genehmigungsregeln einrichten, um Unternehmensrichtlinien durchzusetzen, indem sie auf **[!UICONTROL Approval Rules]** im linken Bereich für ihr Kundenkonto.
+Mit den erforderlichen [Berechtigungen für ihre Rolle](account-company-roles-permissions.md) können B2B-Kunden Genehmigungsregeln einrichten, um Unternehmensrichtlinien zu erzwingen, indem sie im linken Bereich für ihr Kundenkonto auf **[!UICONTROL Approval Rules]** klicken.
 
-![Regeln zur Unternehmensvalidierung](./assets/approval-rules.png){width="700" zoomable="yes"}
+![Regeln zur Unternehmensgenehmigung](./assets/approval-rules.png){width="700" zoomable="yes"}
 
 Um eine Validierungsregel zu erstellen, führt ein Kunde die folgenden Schritte aus:
 
-1. Klicks **[!UICONTROL Add New Rule]** , um eine Regel zu erstellen.
+1. Klicken Sie auf **[!UICONTROL Add New Rule]** , um eine Regel zu erstellen.
 
-1. Ändert bei Bedarf die Regel aus **[!UICONTROL Enabled]** nach **[!UICONTROL Disabled]**.
+1. Ändert bei Bedarf die Regel von **[!UICONTROL Enabled]** in **[!UICONTROL Disabled]**.
 
    Die Regel ist standardmäßig aktiviert, aber ein Kunde kann die Regel mit einer deaktivierten Einstellung erstellen und sie später aktivieren, wenn er bereit ist, sie zu erzwingen.
 
-1. Für **[!UICONTROL Rule name]** gibt einen kurzen, aber beschreibenden Namen für die Regel ein, z. B. `Orders less than $100`.
+1. Geben Sie für **[!UICONTROL Rule name]** einen kurzen, aber beschreibenden Namen für die Regel ein, z. B. `Orders less than $100`.
 
    Regelnamen müssen eindeutig sein.
 
-1. Für **[!UICONTROL Description]**, gibt eine längere Erläuterung der Regel ein.
+1. Für **[!UICONTROL Description]** gibt eine längere Erläuterung der Regel ein.
 
-1. Für **[!UICONTROL Applies to]**, wählt eine oder mehrere Unternehmensrollen aus, die für die Anwendung der Regel verwendet werden.
+1. Wählen Sie für &quot;**[!UICONTROL Applies to]**&quot;eine oder mehrere Unternehmensrollen aus, die für die Anwendung der Regel verwendet werden.
 
-1. Wählen Sie die **[!UICONTROL Rule Type]** und definiert die Regel.
+1. Wählen Sie den **[!UICONTROL Rule Type]** aus und definiert die Regel.
 
    Die folgenden Abschnitte enthalten eine ausführliche Erläuterung und ein Beispiel für jeden Regeltyp.
 
-   ![Neue Validierungsregel erstellen](./assets/approval-rules-create.png){width="700" zoomable="yes"}
+   ![Erstellen einer neuen Genehmigungsregel](./assets/approval-rules-create.png){width="700" zoomable="yes"}
 
-1. Für **[!UICONTROL Requires approval from]** wählen je nach Typ der Genehmigung einen oder mehrere erforderliche Genehmiger aus.
+1. Wählen Sie für **[!UICONTROL Requires approval from]** je nach Typ der Genehmigung einen oder mehrere erforderliche Genehmiger aus.
 
    >[!NOTE]
    >
    >* Stellen Sie beim Zuweisen einer Rolle als Genehmiger sicher, dass mindestens ein Benutzer in dieser Rolle vorhanden ist.
-   >* Wenn es zwei oder mehr Benutzer mit derselben Rolle als Genehmiger gibt, kann der Ersteller der Bestellung sie nicht genehmigen. In diesem Fall ist eine manuelle Genehmigung von jedem anderen Benutzer mit dieser Rolle erforderlich. Wenn jedoch `Auto-approve POs created within this role` -Option in der [Rollenberechtigungen](account-company-roles-permissions.md), wird die Bestellung automatisch validiert.
-   >* Wenn nur ein Benutzer mit der Rolle &quot;Genehmiger&quot;vorhanden ist und dieser Benutzer der Ersteller ist, wird die Bestellung immer automatisch genehmigt - die `Auto-approve POs created within this role` Berechtigungseinstellung wird ignoriert.
+   >* Wenn es zwei oder mehr Benutzer mit derselben Rolle als Genehmiger gibt, kann der Ersteller der Bestellung sie nicht genehmigen. In diesem Fall ist eine manuelle Genehmigung von jedem anderen Benutzer mit dieser Rolle erforderlich. Wenn jedoch die Option `Auto-approve POs created within this role` in den [Rollenberechtigungen](account-company-roles-permissions.md) festgelegt ist, wird die Bestellung automatisch genehmigt.
+   >* Wenn nur ein Benutzer mit der Rolle &quot;Genehmiger&quot;vorhanden ist und dieser Benutzer der Ersteller ist, wird die Bestellung immer automatisch genehmigt - die Einstellung für die Berechtigung `Auto-approve POs created within this role` wird ignoriert.
 
-1. Klicken **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 ### [!UICONTROL Order Total]
 
 Dieser Regeltyp wird verwendet, um eine EO-Genehmigung basierend auf der Bestellsumme einschließlich Steuern zu verlangen.
 
-1. Wählen Sie eine **[!UICONTROL Order Total amount]** Option:
+1. Wählen Sie eine **[!UICONTROL Order Total amount]** -Option:
 
    * `is more than`
    * `is less than`
@@ -85,13 +85,13 @@ Dieser Regeltyp wird verwendet, um eine EO-Genehmigung basierend auf der Bestell
 
 1. Wählt den Währungstyp aus und geben Sie den Betrag ein.
 
-![Genehmigungsregel für Auftrag](./assets/approval-rules-order-total.png){width="600" zoomable="yes"}
+![Genehmigungsregel für Gesamtbestellung](./assets/approval-rules-order-total.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Shipping Cost]
 
 Dieser Regeltyp wird verwendet, um eine EO-Genehmigung basierend auf Versandkosten zu verlangen, die viele Unternehmen benötigen.
 
-1. Legt die **[!UICONTROL Shipping cost value]**:
+1. Legt den Wert **[!UICONTROL Shipping cost value]** fest:
 
    * `is more than`
    * `is less than`
@@ -100,7 +100,7 @@ Dieser Regeltyp wird verwendet, um eine EO-Genehmigung basierend auf Versandkost
 
 1. Legt den gewünschten Versandbetrag fest.
 
-![Validierungsregel für Versandkosten](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
+![Regel zur Genehmigung der Versandkosten](./assets/approval-rules-shipping-cost.png){width="600" zoomable="yes"}
 
 ### [!UICONTROL Number of SKUs]
 
@@ -111,7 +111,7 @@ Dieser Regeltyp wird verwendet, um eine PO-Genehmigung basierend auf der Anzahl 
 
 In diesem Beispiel werden fünf Elemente, aber zwei unterschiedliche SKUs angegeben.
 
-1. Legt die **[!UICONTROL Number of SKUs]** Wert:
+1. Legt den Wert **[!UICONTROL Number of SKUs]** fest:
 
    * `is more than`
    * `is less than`
@@ -126,19 +126,19 @@ In diesem Beispiel werden fünf Elemente, aber zwei unterschiedliche SKUs angege
 
 Um eine vorhandene Genehmigungsregel zu ändern, kann ein Kunde die folgenden Schritte ausführen:
 
-1. In der Seitenleiste seines Kontos wählt der Kunde **[!UICONTROL Approval Rules]**.
+1. In der Seitenleiste seines Kontos wählt der Kunde **[!UICONTROL Approval Rules]** aus.
 
 1. Sucht den Eintrag der zu bearbeitenden Validierungsregel.
 
 1. Klicks **[!UICONTROL Edit]**.
 
-1. nimmt alle erforderlichen Änderungen und Klicks vor **[!UICONTROL Save]**.
+1. Führt alle erforderlichen Änderungen durch und klickt auf **[!UICONTROL Save]**.
 
 ## Validierungsregeln löschen
 
 Um eine vorhandene Genehmigungsregel zu entfernen, kann ein Kunde die folgenden Schritte ausführen:
 
-1. In der Seitenleiste ihres Kontos wählt **[!UICONTROL Approval Rules]**.
+1. Wählen Sie in der Seitenleiste ihres Kontos **[!UICONTROL Approval Rules]** aus.
 
 1. Sucht nach dem zu löschenden Eintrag der Validierungsregel.
 

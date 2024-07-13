@@ -5,7 +5,7 @@ exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) bietet ein schnelles, superrelevantes und intuitives Sucherlebnis und steht Adobe Commerce ohne zusätzliche Kosten zur Verfügung. In diesem Abschnitt werden die Standardsuchfunktionen beschrieben, die sich von [!DNL Live Search].
+>[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) bietet ein schnelles, superrelevantes und intuitives Sucherlebnis und ist für Adobe Commerce kostenlos verfügbar. In diesem Abschnitt wird die Standardsuchfunktion beschrieben, die von [!DNL Live Search] abweichen kann.
 
 Untersuchungen zeigen, dass Personen, die die Suche verwenden, mit höherer Wahrscheinlichkeit einen Kauf tätigen als Kunden, die sich allein auf die Navigation verlassen. Tatsächlich ist es nach einigen Studien fast doppelt so wahrscheinlich, dass Menschen, die die Suche verwenden, einen Kauf tätigen.
 
@@ -26,17 +26,17 @@ In den folgenden Abschnitten werden die grundlegenden Katalogsuchfunktionen besc
 
 >[!NOTE]
 >
->Die native Suchfunktion in Commerce bietet exakte Suchergebnisse. while [!DNL Live Search], ein optionales Modul, das in Adobe Commerce installiert und aktiviert werden kann, ist anders implementiert und das Ergebnis ist nicht auf die exakte Suchzeichenfolge beschränkt. Wenn Sie beispielsweise zehn Produkte numerisch für _Omega_: Eine Suche nach `Omega 1` führt zu einer einzelnen Übereinstimmung für _Omega 1_ mit der nativen Suchfunktion. Dieselbe Suchzeichenfolge, die durch die Live-Suche unterstützt wird, führt jedoch zu einer Übereinstimmung für mehrere Elemente. _Omega 1_ und _Omega 10_.
+>Die native Suchfunktion in Commerce bietet exakte Suchergebnisse. Während [!DNL Live Search], ein optionales Modul, das in Adobe Commerce installiert und aktiviert werden kann, unterschiedlich implementiert ist und das Ergebnis nicht auf die exakte Suchzeichenfolge beschränkt ist. Wenn Sie beispielsweise zehn Produkte numerisch für _Omega_ beschriftet haben: Eine Suche nach `Omega 1` führt zu einer einzelnen Übereinstimmung für _Omega 1_ mit der nativen Suchfunktion. Dieselbe Suchzeichenfolge, die von der Live-Suche unterstützt wird, führt jedoch zu einer Übereinstimmung für mehrere Elemente, _Omega 1_ und _Omega 10_.
 
 ## Schnellsuche
 
 >[!NOTE]
 >
->Wann [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html) installiert ist, gibt das Suchfeld die Ergebnisse &quot;Suche beim Eingeben&quot;in einem Popup-Fenster zurück.
+>Wenn [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html) installiert ist, gibt das Suchfeld die Ergebnisse &quot;Suche beim Eingeben&quot;in einem Popup zurück.
 
 Das Suchfeld in der Kopfzeile des Stores hilft Besuchern, Produkte in Ihrem Katalog zu finden. Der Suchtext kann der vollständige oder teilweise Produktname oder ein beliebiges anderes Wort oder eine Wortgruppe sein, das bzw. die das Produkt beschreibt. Die Suchbegriffe, die Personen zum Suchen von Produkten verwenden, können vom Administrator verwaltet werden.
 
-1. Für **[!UICONTROL Search]**, gibt der Kunde die ersten Buchstaben des gesuchten Inhalts ein.
+1. Für **[!UICONTROL Search]** gibt der Kunde die ersten Buchstaben des gesuchten Inhalts ein.
 
    Alle Übereinstimmungen im Katalog werden unten mit der Anzahl der gefundenen Ergebnisse angezeigt.
 
@@ -58,10 +58,10 @@ Jedes Feld im Formular entspricht einem Attribut aus Ihrem Produktkatalog. Um ei
 
 1. In der Fußzeile des Stores klickt der Kunde auf **[!UICONTROL Advanced Search]**.
 
-1. Im _Erweiterte Suche_ -Formular, fügt vollständige oder teilweise Werte in so vielen Feldern wie nötig hinzu.
+1. Fügt im Formular _Erweiterte Suche_ vollständige oder teilweise Werte in so vielen Feldern wie nötig hinzu.
 
-1. Klicks **[!UICONTROL Search]** , um die Ergebnisse anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Search]** , um die Ergebnisse anzuzeigen.
 
    ![Suchergebnisse](./assets/storefront-search-advanced-results-modify.png){width="700" zoomable="yes"}
 
-1. Wenn der Kunde in den Suchergebnissen nicht sieht, wonach er sucht, klickt er auf **[!UICONTROL Modify your search]** und versucht eine andere Kombination von Kriterien.
+1. Wenn der Kunde nicht sieht, wonach er in den Suchergebnissen sucht, klickt er auf **[!UICONTROL Modify your search]** und versucht eine andere Kombination von Kriterien.

@@ -5,14 +5,14 @@ exl-id: 3ce69583-0f7f-4c23-b3e3-7d2502bc1bca
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Kostenloser Versand
 
-_Kostenloser Versand_ ist eine der effektivsten Promotions, die Sie anbieten können. Sie kann auf einem Mindestkauf basieren oder als [Warenkorbpreisregel](../merchandising-promotions/price-rules-cart.md) wird angewendet, wenn eine Reihe von Bedingungen erfüllt ist. Wenn beide auf dieselbe Reihenfolge zutreffen, hat die Konfigurationseinstellung Vorrang vor der Warenkorbregel.
+_Kostenloser Versand_ ist eine der effektivsten Promotions, die Sie anbieten können. Sie kann auf einem Mindestkauf basieren oder als [Warenkorbpreisregel](../merchandising-promotions/price-rules-cart.md) einrichten, die angewendet wird, wenn eine Reihe von Bedingungen erfüllt ist. Wenn beide auf dieselbe Reihenfolge zutreffen, hat die Konfigurationseinstellung Vorrang vor der Warenkorbregel.
 
 >[!NOTE]
 >
@@ -20,62 +20,62 @@ _Kostenloser Versand_ ist eine der effektivsten Promotions, die Sie anbieten kö
 
 ## Schritt 1: Konfigurieren des kostenlosen Versands
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Delivery Methods]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Delivery Methods]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Free Shipping]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Free Shipping]** .
 
    >[!NOTE]
    >
-   >Heben Sie bei Bedarf die Auswahl der **[!UICONTROL Use system value]** aktivieren, um die folgenden Einstellungen wie beschrieben zu ändern.
+   >Heben Sie bei Bedarf zunächst das Kontrollkästchen **[!UICONTROL Use system value]** auf, um die folgenden Einstellungen wie beschrieben zu ändern.
 
-1. Satz **[!UICONTROL Enabled]** nach `Yes`.
+1. Setzen Sie **[!UICONTROL Enabled]** auf `Yes`.
 
-1. Für **[!UICONTROL Title]**, geben Sie einen Titel ein, der die Methode des kostenlosen Versands beim Checkout angibt, und einen **[!UICONTROL Method Name]** um es zu beschreiben.
+1. Geben Sie für **[!UICONTROL Title]** einen Titel ein, der die Methode des kostenlosen Versands beim Checkout angibt, und einen **[!UICONTROL Method Name]**, um sie zu beschreiben.
 
-1. Für **[!UICONTROL Minimum Order Amount]**, geben Sie den Mindestgesamtwert an, der für den kostenlosen Versand infrage kommt.
+1. Geben Sie für &quot;**[!UICONTROL Minimum Order Amount]**&quot;den Mindestgesamtwert ein, der für den kostenlosen Versand infrage kommt.
 
    >[!TIP]
    >
-   >Verwenden des kostenlosen Versands mit [Tabellenraten](shipping-table-rate.md), erstellen Sie _[!UICONTROL Minimum Order Amount]_so hoch, dass es nie erfüllt wird. Die Verwendung dieses hohen Werts verhindert, dass der freie Versand in Kraft tritt, es sei denn, er wird durch eine Preisregel ausgelöst.
+   >Um den kostenlosen Versand mit [Tabellenraten](shipping-table-rate.md) zu verwenden, machen Sie die _[!UICONTROL Minimum Order Amount]_so hoch, dass sie nie erfüllt werden. Die Verwendung dieses hohen Werts verhindert, dass der freie Versand in Kraft tritt, es sei denn, er wird durch eine Preisregel ausgelöst.
 
-1. Satz **[!UICONTROL Include Tax to Amount]**:
+1. Legen Sie **[!UICONTROL Include Tax to Amount]** fest:
 
-   - `Yes` - Umfasst die Steuer bei der Berechnung des Mindestauftragsbetrags (Zwischensumme + Steuern - Rabatt).
+   - `Yes` - Umfasst die Steuer bei der Berechnung des Mindestauftragsbetrags (Zwischensumme + Steuer - Rabatt).
    - `No` - Bei der Berechnung des Mindestauftragsbetrags (Zwischensumme - Rabatt) ist keine Steuer enthalten.
 
    ![Kostenloser Versand](../configuration-reference/sales/assets/delivery-methods-free-shipping.png){width="600" zoomable="yes"}
 
-1. Für **[!UICONTROL Displayed Error Message]**, geben Sie die Meldung ein, die erscheint, wenn der kostenlose Versand nicht mehr verfügbar ist.
+1. Geben Sie für **[!UICONTROL Displayed Error Message]** die Meldung ein, die angezeigt werden soll, wenn der kostenlose Versand nicht mehr verfügbar ist.
 
-1. Satz **[!UICONTROL Ship to Applicable Countries]**:
+1. Legen Sie **[!UICONTROL Ship to Applicable Countries]** fest:
 
-   - `All Allowed Countries` - Kunden von allen [Länder](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können kostenlosen Versand verwenden.
+   - `All Allowed Countries` - Kunden aus allen in Ihrer Store-Konfiguration angegebenen [Ländern](../getting-started/store-details.md#country-options) können den kostenlosen Versand verwenden.
 
-   - `Specific Countries` - Nach Auswahl dieses Werts wird die _[!UICONTROL Ship to Specific Countries]_angezeigt. Wählen Sie jedes Land in der Liste aus, in dem der kostenlose Versand verwendet werden kann.
+   - `Specific Countries` - Nach Auswahl dieses Werts wird die Liste _[!UICONTROL Ship to Specific Countries]_angezeigt. Wählen Sie jedes Land in der Liste aus, in dem der kostenlose Versand verwendet werden kann.
 
-1. Satz **[!UICONTROL Show Method if Not Applicable]**:
+1. Legen Sie **[!UICONTROL Show Method if Not Applicable]** fest:
 
-   - `Yes` - Zeigt immer die kostenlose Versandmethode an, auch wenn diese nicht anwendbar ist.
-   - `No` - Zeigt die kostenlose Versandmethode nur an, wenn zutreffend.
+   - `Yes` - Zeigt immer die Methode des kostenlosen Versands an, auch wenn diese nicht anwendbar ist.
+   - `No` - Zeigt die Methode des kostenlosen Versands nur an, wenn zutreffend.
 
-1. Für **[!UICONTROL Sort Order]**, geben Sie die Nummer, die die Position des kostenlosen Versands bestimmt, in die Liste der Versandmethoden während des Checkout ein.
+1. Geben Sie für &quot;**[!UICONTROL Sort Order]**&quot; die Zahl ein, die die Position des kostenlosen Versands während des Checkout in der Liste der Versandmethoden bestimmt.
 
-   `0` = first, `1` = Sekunde, `2` = drittes Element usw.
+   `0` = first, `1` = second, `2` = third usw.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
 ## Schritt 2: Kostenlosen Versand in der Betreiberkonfiguration aktivieren
 
-Stellen Sie sicher, dass Sie alle Konfigurationen vornehmen, die für jeden Betreiber erforderlich sind, den Sie für den kostenlosen Versand verwenden möchten. Wenn beispielsweise Ihre [UPS-Konfiguration](ups.md) andernfalls werden die folgenden Einstellungen aktualisiert, um den kostenlosen Versand zu aktivieren und zu konfigurieren.
+Stellen Sie sicher, dass Sie alle Konfigurationen vornehmen, die für jeden Betreiber erforderlich sind, den Sie für den kostenlosen Versand verwenden möchten. Wenn beispielsweise Ihre [UPS-Konfiguration](ups.md) anderweitig abgeschlossen ist, aktualisieren Sie die folgenden Einstellungen, um den kostenlosen Versand zu aktivieren und zu konfigurieren.
 
-1. Im _[!UICONTROL Delivery Methods]_Konfiguration, erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL UPS]**Abschnitt.
+1. Erweitern Sie in der _[!UICONTROL Delivery Methods]_-Konfiguration den Abschnitt ![Erweiterungsauswahl](../assets/icon-display-expand.png) für den Abschnitt **[!UICONTROL UPS]**.
 
-1. Satz **[!UICONTROL Free Method]** nach `UPS Ground` oder einen anderen Typ, den Sie für den kostenlosen Versand festlegen möchten.
+1. Setzen Sie **[!UICONTROL Free Method]** auf `UPS Ground` oder einen anderen Typ, den Sie für den kostenlosen Versand festlegen möchten.
 
-1. Um eine Mindestbestellung für kostenlosen Versand zu verlangen, legen Sie **[!UICONTROL Enable Free Shipping Threshold]** nach `Enable`.
+1. Um eine Mindestbestellung für den kostenlosen Versand zu verlangen, setzen Sie **[!UICONTROL Enable Free Shipping Threshold]** auf `Enable`.
 
-   Wenn Sie sich für eine Mindestbestellung entscheiden, geben Sie den erforderlichen Betrag für **[!UICONTROL Free Shipping Amount Threshold]**.
+   Wenn Sie sich für eine Mindestbestellung entscheiden, geben Sie den erforderlichen Betrag für **[!UICONTROL Free Shipping Amount Threshold]** ein.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicken Sie auf **[!UICONTROL Save Config]**.

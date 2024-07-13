@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Es kann ein Unternehmenskonto eingerichtet werden, das die Struktur des Unternehmens widerspiegelt. Zunächst umfasst die Unternehmensstruktur nur den Unternehmensadministrator, kann jedoch erweitert werden, um Teams von Benutzern aufzunehmen. Die Benutzer können Teams zugeordnet oder innerhalb einer Hierarchie von Abteilungen und Unterteilungen innerhalb des Unternehmens organisiert werden.
 
-![Unternehmensstruktur mit Geschäftsbereichen](./assets/company-structure-diagram.svg){width="500"}
+![Unternehmensstruktur mit Divisionen](./assets/company-structure-diagram.svg){width="500"}
 
 Im Konto-Dashboard des Unternehmensadministrators wird die Unternehmensstruktur als Struktur dargestellt und besteht zunächst nur aus dem Unternehmensadministrator.
 
@@ -27,24 +27,24 @@ Es ist möglich, dass die Person, die als Unternehmensadministrator fungiert, in
 
 ![Unternehmensstruktur mit Administrator- und Benutzerkonto](./assets/company-structure-tree-admin-user.png){width="600" zoomable="yes"}
 
-Bei Händlern spiegelt sich die gesamte Unternehmensstruktur in der _Unternehmen_ und _Kunden_ Raster innerhalb des Administrators. Das Unternehmensnetz listet alle Unternehmen unabhängig vom Status auf. Das folgende Beispiel zeigt zwei Unternehmen: die _ACME_ und _Vendelay_ Unternehmen.
+Bei Händlern spiegelt sich die gesamte Unternehmensstruktur in den Rastern _Unternehmen_ und _Kunden_ innerhalb des Administrators wider. Das Unternehmensnetz listet alle Unternehmen unabhängig vom Status auf. Das folgende Beispiel zeigt Konten für zwei Unternehmen: das Unternehmen _ACME_ und das Unternehmen _Vendelay_.
 
 ![Unternehmensraster](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-Das folgende Beispiel zeigt die [!UICONTROL Customers] mit den anfänglichen Unternehmensadministratorkonten für diese Unternehmen.
+Das folgende Beispiel zeigt das Raster [!UICONTROL Customers] mit den anfänglichen Unternehmensadministratorkonten für diese Unternehmen.
 
-![Kunden werden mit dem Unternehmensadministratorkonto über das Raster informiert](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![Kundenraster mit dem Unternehmensadministratorkonto](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-Nach Erstellung des Kontos muss der Unternehmensadministrator die Unternehmensstruktur von [Teams](account-company-structure.md), richten Sie die [Unternehmensbenutzer](account-company-users.md)und [Rollen und Berechtigungen](account-company-roles-permissions.md) für jede.
+Nach Erstellung des Kontos muss der Unternehmensadministrator die Unternehmensstruktur von [Teams](account-company-structure.md) definieren, die [Unternehmensbenutzer](account-company-users.md) einrichten und für jede Gruppe [Rollen und Berechtigungen](account-company-roles-permissions.md) festlegen.
 
 ## Symbole für die Unternehmensstruktur
 
 | Symbol | Beschreibung |
 | ---- | ----------------- |
-| ![Symbol für Unternehmensadministrator](./assets/company-icon-admin.png) | Bezeichnet den Unternehmensadministrator in der Unternehmensstruktur. |
+| ![Symbol &quot;Unternehmensadministrator&quot;](./assets/company-icon-admin.png) | Bezeichnet den Unternehmensadministrator in der Unternehmensstruktur. |
 | ![Team-Symbol](./assets/company-icon-team.png) | Stellt ein Team in der Unternehmensstruktur dar. |
 | ![Benutzersymbol](./assets/company-icon-user.png) | Stellt einen Benutzer in der Unternehmensstruktur dar. |
-| ![Symbol Verschieben](./assets/company-icon-move.png) | Verschiebt ein Team an eine andere Position in der Unternehmensstruktur. |
+| ![Symbol &quot;Verschieben&quot;](./assets/company-icon-move.png) | Verschiebt ein Team an eine andere Position in der Unternehmensstruktur. |
 | ![Erweiterungssymbol](./assets/company-icon-expand.png) | Erweitert ein Team in der Unternehmensstruktur. |
 | ![Symbol &quot;Reduzieren&quot;](./assets/company-icon-collapse.png) | Reduziert ein Team in der Unternehmensstruktur. |
 
@@ -54,23 +54,23 @@ Nach Erstellung des Kontos muss der Unternehmensadministrator die Unternehmensst
 
 Die Struktur eines Unternehmenskontos sollte die Einkaufs-Organisation widerspiegeln, sei es einfach und einfach oder komplex eine Organisation mit unterschiedlichen Teams für jede Unterteilung und jeden Geschäftsbereich des Unternehmens.
 
-Wenn der Store [konfiguriert](enable-basic-features.md) Damit Unternehmen ihre eigenen Konten verwalten können, gehört die Einrichtung der Unternehmensstruktur zu den ersten Aufgaben, die ein Unternehmensadministrator nach Genehmigung des Kontos abschließen muss. Im Unternehmenskonto wird die Struktur des Unternehmens als Baum dargestellt, wobei sich der Unternehmensadministrator oben befindet.
+Wenn der Store [konfiguriert](enable-basic-features.md) ist, damit Unternehmen ihre eigenen Konten verwalten können, ist die Einrichtung der Unternehmensstruktur eine der ersten Aufgaben, die ein Unternehmensadministrator nach der Genehmigung des Kontos abschließen muss. Im Unternehmenskonto wird die Struktur des Unternehmens als Baum dargestellt, wobei sich der Unternehmensadministrator oben befindet.
 
 ![Unternehmensstruktur mit Teams](./assets/company-structure-teams-diagram.svg){width="450"}
 
 1. Der Unternehmensadministrator meldet sich bei seinem Konto an.
 
-1. Wählen Sie im linken Bereich **[!UICONTROL Company Structure]**.
+1. Wählen Sie im linken Bereich **[!UICONTROL Company Structure]** aus.
 
-1. under **[!UICONTROL Business Structure]**, Klicks **[!UICONTROL Add Team]** und führt Folgendes aus:
+1. Klicken Sie unter &quot;**[!UICONTROL Business Structure]**&quot;auf &quot;**[!UICONTROL Add Team]**&quot;und führt Folgendes aus:
 
-   - Fügt die **[!UICONTROL Team Title]** und **[!UICONTROL Description]**.
+   - Fügt die Werte **[!UICONTROL Team Title]** und **[!UICONTROL Description]** ein.
 
      Der Teamtitel kann beliebig sein, was die Struktur des Unternehmens darstellt, z. B. ein Team, ein Büro oder eine Abteilung innerhalb des Unternehmens
 
      ![Team hinzufügen](./assets/company-structure-add-team.png){width="700" zoomable="yes"}
 
-   - Klicken Sie nach Abschluss **[!UICONTROL Save]**.
+   - Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
    - Erstellt so viele Teams wie nötig.
 
@@ -78,17 +78,17 @@ Wenn der Store [konfiguriert](enable-basic-features.md) Damit Unternehmen ihre e
 
 1. Gehen Sie wie folgt vor, um eine Hierarchie von Teams zu erstellen:
 
-   - Wählen Sie das übergeordnete Team aus und klicken Sie auf **[!UICONTROL Add Team]**.
+   - Wählt das übergeordnete Team aus und klicken Sie auf **[!UICONTROL Add Team]**.
 
-     ![Unternehmensstruktur mit Geschäftsbereichen](./assets/company-structure-northwest-division.png){width="600" zoomable="yes"}
+     ![Unternehmensstruktur mit Divisionen](./assets/company-structure-northwest-division.png){width="600" zoomable="yes"}
 
-   - Fügt die **[!UICONTROL Team Title]** und **[!UICONTROL Description]**.
+   - Fügt die Werte **[!UICONTROL Team Title]** und **[!UICONTROL Description]** ein.
 
    - Klicks **[!UICONTROL Save]**.
 
 1. Wiederholt diese Schritte, um so viele Teams, Divisionen und Unterteilungen wie nötig zu erstellen.
 
-   ![Unternehmensstruktur mit Abteilungen und Unterteilungen](./assets/company-structure-divisions.png){width="600" zoomable="yes"}
+   ![Unternehmensstruktur mit Divisionen und Unterteilungen](./assets/company-structure-divisions.png){width="600" zoomable="yes"}
 
 ## Verschieben eines Teams
 
@@ -108,7 +108,7 @@ Wenn der Unternehmensadministrator mit der Unternehmensstruktur arbeitet, kann e
 
 1. Klicks **[!UICONTROL Delete Selected]**.
 
-1. Wenn Sie zur Bestätigung aufgefordert werden, klickt **[!UICONTROL Delete]**.
+1. Wenn Sie zur Bestätigung aufgefordert werden, klicken Sie auf **[!UICONTROL Delete]**.
 
 ## Erweitern oder Reduzieren der Teamstruktur
 
@@ -116,11 +116,11 @@ Wenn der Unternehmensadministrator mit der Unternehmensstruktur arbeitet, kann e
 
 - Klicks **[!UICONTROL Collapse All]** oder **[!UICONTROL Expand All]**.
 
-- Klicks ![Symbol &quot;Erweitert&quot;](../assets/icon-display-collapse.png) zum Reduzieren eines Teams oder ![Reduziertes Symbol](../assets/icon-display-expand.png) , um ein Team zu erweitern.
+- Klicken Sie auf das Symbol ![Erweitert](../assets/icon-display-collapse.png) , um ein Team zu reduzieren, oder auf das Symbol &quot;Reduziert&quot;](../assets/icon-display-expand.png), um ein Team zu erweitern.![
 
 ## Zuweisen von Benutzern zu Teams
 
-Wenn Teams und Benutzer zum ersten Mal zum [Unternehmensstruktur](account-company-structure.md), werden sie unter dem Unternehmensadministrator auf derselben Ebene platziert.
+Wenn Teams und Benutzer zum ersten Mal zur [Unternehmensstruktur](account-company-structure.md) hinzugefügt werden, werden sie unter dem Unternehmensadministrator auf derselben Ebene platziert.
 
 ![Unternehmensstruktur mit Benutzern und Teams](./assets/company-users-added.png){width="700" zoomable="yes"}
 
@@ -133,8 +133,8 @@ Wenn Teams und Benutzer zum ersten Mal zum [Unternehmensstruktur](account-compan
 
 {style="table-layout:auto"}
 
-1. Im linken Bereich wählt der Unternehmensadministrator **[!UICONTROL Company Structure]**.
+1. Im linken Bereich wählt der Unternehmensadministrator **[!UICONTROL Company Structure]** aus.
 
-1. Um einen Benutzer einem vorhandenen Team zuzuweisen, ziehen sie (![Symbol Verschieben](../assets/icon-move.png)) den Benutzer unter dem entsprechenden Team.
+1. Um einen Benutzer einem vorhandenen Team zuzuweisen, ziehen sie den Benutzer (![Verschieben-Symbol](../assets/icon-move.png)) unter das entsprechende Team.
 
-   ![Teamzuweisungen](./assets/company-structure-teams-users-assigned.png){width="700" zoomable="yes"}
+   ![Team-Zuweisungen](./assets/company-structure-teams-users-assigned.png){width="700" zoomable="yes"}

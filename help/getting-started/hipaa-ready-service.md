@@ -19,9 +19,9 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**Gesetz über die Portabilität und die Rechenschaftspflicht von Krankenversicherungen (HIPAA)**
+**Health Insurance Portability and Accounability Act (HIPAA)**
 
-Der Health Insurance Portability and Accounability Act (HIPAA) ist das wichtigste Bundesdatenschutzgesetz in den USA und wird vom US-amerikanischen Gesundheitsministerium für Gesundheit und menschliche Dienstleistungen (HHS) durchgesetzt. HIPAA gilt für _Gedeckte Entitäten_ (wie Gesundheitsdienstleister, Versicherer und Clearinghäuser) und _Betriebsräte_ (z. B. die Stellen, die Dienste für abgedeckte Stellen erbringen). Die HIPAA-Anforderungen gelten für drei separate Regeln: Datenschutzregel, Sicherheitsregel und Regel für die Verletzung von Benachrichtigungen. Adobe fungiert als Business Associate für bestimmte Produkte, die von Adobe als &quot;HIPAA-Ready Services&quot;klassifiziert werden. Im Rahmen des HIPAA geregelte Daten werden als _Geschützte Gesundheitsinformationen_ oder PHI. PHI ist eine Untergruppe von Gesundheitsinformationen, die (1) von einem Gesundheitsdienstleister, einem Gesundheitsplan oder einem Clearinghaus für die Gesundheitsversorgung erstellt oder empfangen wird, (2) sich auf die frühere, aktuelle oder künftige physische oder psychische Gesundheit oder den Gesundheitszustand einer Person, die Gesundheitsversorgung einer Person oder die frühere, gegenwärtige oder künftige Zahlung für die Bereitstellung von Gesundheitsdienstleistungen an eine Person beziehen und (3) die Person oder die Grundlage für die Annahme gibt. die Informationen können zur Identifizierung der Person verwendet werden. Nach den HIPAA-Datenschutz- und -Sicherheitsregeln muss ein abgedecktes Unternehmen schriftliche Zusicherungen von einem Business Associate in Form eines Business Associate Agreement (BPA) erhalten, in denen es vom Business Associate (BAT) verlangt, die Privatsphäre und Sicherheit des PHI des abgedeckten Unternehmens zu schützen. Weitere Informationen finden Sie unter [HIPAA- und Adobe-Produkte und -Dienste](https://www.adobe.com/trust/compliance/hipaa-ready.html) im Adobe Trust Center.
+Der Health Insurance Portability and Accounability Act (HIPAA) ist das wichtigste Bundesdatenschutzgesetz in den USA und wird vom US-amerikanischen Gesundheitsministerium für Gesundheit und menschliche Dienstleistungen (HHS) durchgesetzt. Die HIPAA gilt für _abgedeckte Entitäten_ (z. B. Gesundheitsdienstleister, Versicherer und Clearinghäuser) und _Geschäftspartner_ (z. B. Unternehmen, die Dienstleistungen für abgedeckte Stellen erbringen). Die HIPAA-Anforderungen gelten für drei separate Regeln: Datenschutzregel, Sicherheitsregel und Regel für die Verletzung von Benachrichtigungen. Adobe fungiert als Business Associate für bestimmte Produkte, die von Adobe als &quot;HIPAA-Ready Services&quot;klassifiziert werden. Unter HIPAA regulierte Daten werden als _geschützte Gesundheitsinformationen_ oder PHI bezeichnet. PHI ist eine Untergruppe von Gesundheitsinformationen, die (1) von einem Gesundheitsdienstleister, einem Gesundheitsplan oder einem Clearinghaus für die Gesundheitsversorgung erstellt oder empfangen wird, (2) sich auf die frühere, aktuelle oder künftige physische oder psychische Gesundheit oder den Gesundheitszustand einer Person, die Gesundheitsversorgung einer Person oder die frühere, gegenwärtige oder künftige Zahlung für die Bereitstellung von Gesundheitsdienstleistungen an eine Person beziehen und (3) die Person oder die Grundlage für die Annahme gibt. die Informationen können zur Identifizierung der Person verwendet werden. Nach den HIPAA-Datenschutz- und -Sicherheitsregeln muss ein abgedecktes Unternehmen schriftliche Zusicherungen von einem Business Associate in Form eines Business Associate Agreement (BPA) erhalten, in denen es vom Business Associate (BAT) verlangt, die Privatsphäre und Sicherheit des PHI des abgedeckten Unternehmens zu schützen. Weitere Informationen finden Sie unter [HIPAA und Adobe Products and Services](https://www.adobe.com/trust/compliance/hipaa-ready.html) im Adobe Trust Center.
 
 >[!ENDSHADEBOX]
 
@@ -29,13 +29,13 @@ Der Health Insurance Portability and Accounability Act (HIPAA) ist das wichtigst
 
 Die Adobe Commerce HIPAA-Ready-Erweiterung fügt Adobe Commerce-Installationen zusätzliche Funktionen hinzu, mit denen Händler ihren jeweiligen HIPAA-Verpflichtungen nachkommen können.
 
-Die Adobe Commerce HIPAA-Ready-Erweiterung, `magento/hipaa-ee` ist für Adobe Commerce in Cloud-Infrastruktur- oder Adobe Managed Services-Projekten verfügbar. Der HIPAA-bereite Installationsprozess von Adobe Commerce deaktiviert einige native Dienste und Funktionen, um die HIPAA-Anforderungen zu erfüllen. Siehe [Behinderte Dienste und Funktionen](#disabled-services-and-features).
+Die Adobe Commerce HIPAA-Ready-Erweiterung `magento/hipaa-ee` ist für Adobe Commerce in Cloud-Infrastruktur- oder Adobe Managed Services-Projekten verfügbar. Der HIPAA-bereite Installationsprozess von Adobe Commerce deaktiviert einige native Dienste und Funktionen, um die HIPAA-Anforderungen zu erfüllen. Siehe [Deaktivierte Dienste und Funktionen](#disabled-services-and-features).
 
 >[!NOTE]
 >
 >Der Zugriff auf die HIPAA-fähigen Funktionen ist nur für Händler verfügbar, die das Health Care Add-On für Adobe Commerce erworben haben.
 
-*Diese Materialien dienen nur zu Informationszwecken. Die Bereitstellung dieser Informationen berechtigt den Empfänger nicht zu vertraglichen oder sonstigen Rechten. Es wurden zwar Anstrengungen unternommen, um die Richtigkeit der Informationen ab dem Zeitpunkt ihrer Bereitstellung sicherzustellen, es wird jedoch keine Darstellung dafür vorgenommen, dass diese Informationen korrekt und vollständig sind. Adobe verpflichtet sich nicht, diese Informationen zu aktualisieren, wenn sich das Recht oder die Adobe ändern. Dieses Dokument darf ohne schriftliche Zustimmung von Adobe an keine andere Partei als den vorgesehenen Empfänger weitergegeben werden.*
+*Diese Materialien dienen nur zu Informationszwecken. Die Bereitstellung dieser Informationen berechtigt den Empfänger nicht zu vertraglichen oder sonstigen Rechten. Es wurden zwar Anstrengungen unternommen, um die Richtigkeit der Informationen ab dem Zeitpunkt ihrer Bereitstellung sicherzustellen, es wird jedoch keine Darstellung dafür vorgenommen, dass diese Informationen korrekt und vollständig sind. Adobe verpflichtet sich nicht, diese Informationen zu aktualisieren, wenn sich das Recht oder die Adobe ändern. Außerdem darf dieses Dokument nur mit schriftlicher Zustimmung von Adobe an den vorgesehenen Empfänger weitergegeben werden.*
 
 ## Systemanforderungen
 
@@ -48,17 +48,17 @@ Adobe Commerce muss entweder auf Adobe Commerce in der Cloud-Infrastruktur oder 
 >[!BEGINSHADEBOX]
 
 - Adobe hat Ihr Adobe Commerce-Konto für den Zugriff auf die HIPAA Ready-Erweiterung bereitgestellt.
-- Zugriff auf [repo.magento.com](https://repo.magento.com) , um die Erweiterung zu installieren. Informationen zur Schlüsselgenerierung und zum Erhalt der erforderlichen Berechtigungen finden Sie unter [Abrufen der Authentifizierungsschlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- Zugriff auf [repo.magento.com](https://repo.magento.com) , um die Erweiterung zu installieren. Informationen zur Schlüsselgenerierung und zum Abrufen der erforderlichen Berechtigungen finden Sie unter [Abrufen Ihrer Authentifizierungsschlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 >[!ENDSHADEBOX]
 
-Installieren Sie die neueste Version der Adobe HIPAA-Ready Services-Erweiterung (`magento/hipaa-ee`) auf einer Instanz, die Adobe Commerce-Version 2.4.6-p3 oder höher ausführt. Die Erweiterung wird als Composer-Metapaket aus dem [repo.magento.com](https://repo.magento.com) Repository. Das Metapaket umfasst die Sammlung von Modulen, die die HIPAA-Funktionen für eine Adobe Commerce-Instanz aktivieren.
+Installieren Sie die neueste Version der Adobe HIPAA-Ready Services-Erweiterung (`magento/hipaa-ee`) auf einer Instanz, auf der die Adobe Commerce-Version 2.4.6-p3 oder höher ausgeführt wird. Die Erweiterung wird als Composer-Metapaket vom Repository [repo.magento.com](https://repo.magento.com) bereitgestellt. Das Metapaket umfasst die Sammlung von Modulen, die die HIPAA-Funktionen für eine Adobe Commerce-Instanz aktivieren.
 
 1. Wechseln Sie auf Ihrer lokalen Workstation zum Projektverzeichnis für Ihr Adobe Commerce-Projekt in der Cloud-Infrastruktur-Projekt.
 
    >[!NOTE]
    >
-   >Informationen zum lokalen Verwalten von Commerce-Projektumgebungen finden Sie unter  [Verwalten von Verzweigungen mit der CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) im _Benutzerhandbuch zu Adobe Commerce on Cloud Infrastructure_.
+   >Informationen zum lokalen Verwalten von Commerce-Projektumgebungen finden Sie unter [Verwalten von Verzweigungen mit der CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) im _Benutzerhandbuch zu Adobe Commerce on Cloud Infrastructure_.
 
 1. Checken Sie die Umgebungsverzweigung aus, die mit der Adobe Commerce Cloud-CLI aktualisiert werden soll.
 
@@ -66,7 +66,7 @@ Installieren Sie die neueste Version der Adobe HIPAA-Ready Services-Erweiterung 
    magento-cloud environment:checkout <environment-id>
    ```
 
-1. Metapaket hinzufügen `magento/hipaa-ee` zur Komponentenkonfiguration mithilfe der Composer-CLI hinzugefügt.
+1. Fügen Sie das Metapaket `magento/hipaa-ee` mithilfe der Composer-CLI zur Komponentenkonfiguration hinzu.
 
    ```shell
    composer require "magento/hipaa-ee" --no-update
@@ -86,11 +86,11 @@ Installieren Sie die neueste Version der Adobe HIPAA-Ready Services-Erweiterung 
    git push origin <branch-name>
    ```
 
-   Wenn Sie die Aktualisierungen pushen, wird die [Commerce Cloud-Bereitstellungsprozess](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) , um die Änderungen anzuwenden. Überprüfen Sie den Bereitstellungsstatus im [Bereitstellungsprotokoll](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Durch das Übermitteln der Aktualisierungen wird der [Commerce-Cloud-Bereitstellungsprozess](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) initiiert, um die Änderungen anzuwenden. Überprüfen Sie den Bereitstellungsstatus im [Bereitstellungsprotokoll](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Installation überprüfen
 
-Überprüfen Sie nach der Bereitstellung der Aktualisierungen, ob die `Hipaa*` Erweiterung ist installiert
+Nachdem die Aktualisierungen bereitgestellt wurden, überprüfen Sie, ob die `Hipaa*`-Erweiterung installiert ist.
 
 1. Verwenden Sie SSH, um sich bei der Remote-Cloud-Umgebung anzumelden.
 
@@ -121,7 +121,7 @@ Installieren Sie die neueste Version der Adobe HIPAA-Ready Services-Erweiterung 
    <truncated for brevity>
    ```
 
-   Alle Module mit dem Präfix `Magento_Hipaa` muss sich im Abschnitt Aktivierte Module befinden.
+   Alle Module mit dem Präfix `Magento_Hipaa` müssen sich im Abschnitt &quot;Aktivierte Module&quot;befinden.
 
 ## Funktionsverbesserungen für HIPAA-Bereitschaft
 
@@ -129,29 +129,29 @@ Die `magento/hipaa-ee` -Erweiterung führt einige Änderungen und Verbesserungen
 
 ### Aktionsprotokolle
 
-Die Prüfprotokollierung ist eine HIPAA-Anforderung. In Adobe Commerce wird die [Aktionsprotokolle](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en) erfasst alle Änderungen, die von einem Admin-Benutzer vorgenommen wurden, der in Ihrem Store arbeitet. Um die HIPAA-Anforderungen für das Auditprotokoll zu erfüllen, wurde die Funktion aktualisiert und enthält nun alle Admin-Benutzer- und Kundenaktionen, die über die Admin-Benutzeroberfläche und über API-Aufrufe ausgeführt werden.
+Die Prüfprotokollierung ist eine HIPAA-Anforderung. In Adobe Commerce erfasst die Funktion [Aktionsprotokolle](https://experienceleague.adobe.com/docs/commerce-admin/systems/action-logs/action-log.html?lang=en) jede Änderung, die von einem in Ihrem Store tätigen Admin-Benutzer vorgenommen wurde. Um die HIPAA-Anforderungen für das Auditprotokoll zu erfüllen, wurde die Funktion aktualisiert und enthält nun alle Admin-Benutzer- und Kundenaktionen, die über die Admin-Benutzeroberfläche und über API-Aufrufe ausgeführt werden.
 
 #### Bericht &quot;Action Logs&quot;
 
-Die _Aktionsprotokolle_ Berichtsraster (**[!UICONTROL System]** > Aktionsprotokolle > Bericht) geändert, um Kundenaktionen aufzunehmen, die über die Admin-Benutzeroberfläche und -API ausgeführt werden.
+Das Berichtsraster _Aktionsprotokolle_ (**[!UICONTROL System]** > Aktionsprotokolle > Bericht) wurde geändert, um Kundenaktionen aufzunehmen, die über die Admin-Benutzeroberfläche und -API ausgeführt werden.
 
 1. Es wurden zwei Spalten hinzugefügt:
-   - ***Quelle***: Zeigt an, wo die Aktion ausgeführt wurde.
+   - ***Source***: Zeigt an, wo die Aktion ausgeführt wurde.
 Werte: `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
    - ***Client-Typ***: Zeigt den Client-Typ an.
 Werte: Kunde | Admin | Integration
 
-2. Die ***Benutzername*** Spalte bis ***Client-Kennung***
+2. Die Spalte ***Benutzername*** wurde in ***Client-Kennung*** umbenannt.
    - ***Client-Kennung***: Zeigt die Anmelde-ID des Benutzers an, der die Aktion ausgeführt hat.
 Werte:
       - eine E-Mail, wenn der Client-Typ Kunde ist
       - einen Benutzernamen, wenn der Client-Typ Admin ist
       - einen Namen, wenn der Client-Typ Integration ist
 
-3. Die ***Vollständiger Aktionsname*** Spalte zu ***Target***
-   - ***Target***: Zeigt den Aktionsnamen an.
+3. Die Spalte ***Full Action Name*** wurde in ***Target*** umbenannt.
+   - ***Ziel***: Zeigt den Aktionsnamen an.
 Werte:
-      - einen Endpunkt, wenn die Quelle eine REST-API oder eine SOAP-API ist
+      - einen Endpunkt, wenn Source eine REST-API oder SOAP-API ist
       - einen Abfrage- oder Mutationsnamen, wenn eine GraphQL-API
       - einen Aktionsnamen, wenn es sich um eine Administrator-Benutzeroberfläche oder eine Kundenbenutzeroberfläche handelt.
 
@@ -165,11 +165,11 @@ Die Verbesserungen bei Import- und Exportfunktionen konzentrieren sich auf die V
 
 >[!NOTE]
 >
->Diese ***Die Core-Logik von Import und Export wird durch Verbesserungen nicht geändert.***; vielmehr erweitern sie die Funktionalität, um eine umfassendere Protokollierung und verbesserte Datenzuordnung zu bieten. Die grundlegende Funktionalität von Import und Export bleibt unverändert. Benutzer können die vorhandenen Funktionen und Workflows ohne Unterbrechung weiterhin verwenden.
+>Diese ***Verbesserungen ändern nicht die Import- und Export-Kernlogik***, sondern erweitern die Funktionalität, um eine umfassendere Protokollierung und verbesserte Datenzuordnung zu bieten. Die grundlegende Funktionalität von Import und Export bleibt unverändert. Benutzer können die vorhandenen Funktionen und Workflows ohne Unterbrechung weiterhin verwenden.
 
 #### Protokollierung administrativer Aktionen
 
-Eine der wichtigsten Verbesserungen der Import- und Exportfunktionen ist die verbesserte Protokollierung von Verwaltungsaktionen. Diese Verbesserung bietet die Möglichkeit, Aktivitäten im Zusammenhang mit dem Datenimport und -export genauer zu untersuchen und so zu einer verbesserten Nachverfolgung und Auditbarkeit beizutragen. Die folgenden Aktionen werden jetzt protokolliert und in der **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**grid:
+Eine der wichtigsten Verbesserungen der Import- und Exportfunktionen ist die verbesserte Protokollierung von Verwaltungsaktionen. Diese Verbesserung bietet die Möglichkeit, Aktivitäten im Zusammenhang mit dem Datenimport und -export genauer zu untersuchen und so zu einer verbesserten Nachverfolgung und Auditbarkeit beizutragen. Die folgenden Aktionen werden nun protokolliert und im Raster **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**angezeigt:
 
 | Typ | Aktionen |
 | ---- | ------- |
@@ -183,24 +183,24 @@ Um Admin-Benutzern informativere Raster bereitzustellen, bietet der HIPAA-Ready-
 
 #### Importverlauf ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Import History])
 
-- Filterung für alle Spalten mit Ausnahme von **[!UICONTROL Imported File]**, **[!UICONTROL Error File]**, **[!UICONTROL Execution Time]**, und **[!UICONTROL Summary]**.
+- Das Filtern aller Spalten mit Ausnahme von **[!UICONTROL Imported File]**, **[!UICONTROL Error File]**, **[!UICONTROL Execution Time]** und **[!UICONTROL Summary]** wurde aktiviert.
 
 #### Export ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Export])
 
-- Hinzufügung von **[!UICONTROL ID]** Spalte.
-- Hinzufügung von **[!UICONTROL Requested At]** column (_Datum und Uhrzeit der Exportanforderung_).
-- Hinzufügung von **[!UICONTROL User]** column (_Benutzername eines Administrators, der die Anfrage ausgeführt hat_).
-- Entfernt ein **[!UICONTROL Action]** Spalte.
-- Verschieben Sie die **[!UICONTROL Download]** Link zu einer **[!UICONTROL File name]** column (_zum Beispiel das Raster Importverlauf_).
-- Die Aktion zum Löschen einer exportierten Datei (_zur Verbesserung des Trackings_).
-- Sortierung für alle Spalten außer **[!UICONTROL File name]**.
+- Es wurde eine **[!UICONTROL ID]** -Spalte hinzugefügt.
+- Es wurde eine **[!UICONTROL Requested At]** -Spalte hinzugefügt (_Datum und Uhrzeit, zu der der Export angefordert wurde_).
+- Eine Spalte **[!UICONTROL User]** wurde hinzugefügt (_Benutzername eines Administrators, der die Anfrage ausgeführt hat_).
+- Eine **[!UICONTROL Action]** -Spalte wurde entfernt.
+- Der Link **[!UICONTROL Download]** wurde in eine Spalte **[!UICONTROL File name]** verschoben (_wie das Raster &quot;Importverlauf&quot;_).
+- Die Aktion, die für das Löschen einer exportierten Datei verantwortlich ist (_zur Verbesserung des Trackings_), wurde deaktiviert.
+- Die Sortierung wurde für alle Spalten mit Ausnahme von **[!UICONTROL File name]** aktiviert.
 - Die Filterung aller Spalten wurde aktiviert.
 
 #### Geplante Importe und Exporte ([!UICONTROL System] > _[!UICONTROL Data Transfer]_> [!UICONTROL Scheduled Import/Export])
 
-- Hinzufügung von **[!UICONTROL ID]** Spalte.
-- Hinzufügung von **[!UICONTROL Scheduled At]** -Spalte _Datum und Uhrzeit der Planung des Imports oder Exports_).
-- Hinzufügung von **[!UICONTROL User]** -Spalte _Benutzername eines Admin-Benutzers, der den Import oder Export geplant hat_).
+- Es wurde eine **[!UICONTROL ID]** -Spalte hinzugefügt.
+- Eine Spalte **[!UICONTROL Scheduled At]** wurde hinzugefügt (Datum und Uhrzeit, zu der der Import oder Export geplant wurde _)._
+- Eine Spalte **[!UICONTROL User]** wurde hinzugefügt (der Benutzername _eines Admin-Benutzers, der den Import oder Export geplant hat_).
 
 ## Behinderte Dienste und Funktionen
 
@@ -208,21 +208,21 @@ Um HIPAA-Anforderungen zu entsprechen, sind einige von Adobe Commerce unterstüt
 
 ### Dienste
 
-- **Adobe Commerce-Dienste**—Keiner der Adobe Commerce-Dienste oder Erweiterbarkeitsdienste ist im Rahmen des HIPAA-Bereitschaft-Angebots verfügbar. Zu diesen Diensten gehören unter anderem:
+- **Adobe Commerce-Dienste**: Keine der Adobe Commerce-Dienste oder Erweiterbarkeitsdienste sind unter dem HIPAA-Bereitstellungsangebot verfügbar. Zu diesen Diensten gehören unter anderem:
 
    - Live Search
    - API-Mesh
    - App Builder
    - Catalog Service
 
-- **[SendGrid-Dienst](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**—Dieser Dienst ist standardmäßig deaktiviert, da die Anwendung nicht HIPAA-kompatibel ist.
+- **[SendGrid-Dienst](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**: Dieser Dienst ist standardmäßig deaktiviert, da die Anwendung nicht HIPAA-kompatibel ist.
 
 ### Funktionen, die standardmäßig deaktiviert sind
 
 Die folgenden Funktionen sind im HIPAA-Readiness-Modul standardmäßig deaktiviert. Händler können diese Funktionen auf eigene Gefahr aktivieren.
 
-- **[Gastkasse](../stores-purchase/checkout-guest.md)**—Diese Funktion stellt ein potenzielles Risiko für verschiedene Aspekte von HIPAA dar, darunter Protokollierung, Zugangskontrolle, PHI-Hygiene und -Herkunft sowie möglicherweise mehr.
+- **[Gast-Checkout](../stores-purchase/checkout-guest.md)** - Diese Funktion stellt ein potenzielles Risiko für verschiedene Aspekte von HIPAA dar, darunter Protokollierung, Zugriffskontrolle, PHI-Hygiene und -Herkunft sowie möglicherweise mehr.
 
-- **[Newsletter-Funktion](../merchandising-promotions/newsletters.md)**—Diese Funktion ist deaktiviert, um die Verwendung von PHI in einem Marketingkontext zu verhindern.
+- **[Newsletter-Funktion](../merchandising-promotions/newsletters.md)**: Diese Funktion ist deaktiviert, um zu verhindern, dass PHI in einem Marketingkontext verwendet wird.
 
-- **[Einstellung des erweiterten Berichterstellungsdienstes](../getting-started/business-intelligence.md)**— Diese Konfigurationseinstellung ist deaktiviert, um zu verhindern, dass PHI für die Analyse und Berichterstellung verwendet wird.
+- **[Erweiterte Einstellung des Reporting-Dienstes](../getting-started/business-intelligence.md)** - Diese Konfigurationseinstellung ist deaktiviert, um zu verhindern, dass PHI für die Analyse und Berichterstellung verwendet wird.

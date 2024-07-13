@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Bestellstatus und -reservierung
 
-[!DNL Inventory Management] unterstützt teilweise und vollständige Rechnungsstellung, Zahlungen, Versand und Stornierungen pro Bestellung. Wenn Sie eine Bestellung durch Verarbeitung, Rechnungsstellung, Lieferung und mögliche Rückerstattung verwalten, [!DNL Commerce] automatisch Reservierungen eingibt oder ändert, um die Verkaufsmenge für ein Lager (oder einen Verkaufskanal) und die handwerkliche Lagermenge pro Quelle zu aktualisieren. Sie müssen nicht aktiv auf Reservierungen zugreifen oder diese eingeben. Die Durchführung von Aktionen zur Erfüllung, Stornierung oder Rückerstattung einer Bestellung macht dies für Sie.
+[!DNL Inventory Management] unterstützt die teilweise und vollständige Rechnungsstellung, Zahlungen, Versand und Stornierungen pro Bestellung. Bei der Verwaltung einer Bestellung durch Verarbeitung, Rechnungsstellung, Sendung und möglicherweise Rückerstattung gibt [!DNL Commerce] automatisch Reservierungen ein oder ändert diese, um die Verkaufsmenge für einen Lager (oder Verkaufskanal) und die Lagerbestandsmenge pro Quelle zu aktualisieren. Sie müssen nicht aktiv auf Reservierungen zugreifen oder diese eingeben. Die Durchführung von Aktionen zur Erfüllung, Stornierung oder Rückerstattung einer Bestellung macht dies für Sie.
 
 Diese Reservierungen passen immer Ihre Verkaufsmenge an, mit positiven oder negativen Beträgen, um die Mengen zu erhöhen oder zu verringern. Das Ergebnis ist eine Aktualisierung Ihres eigenen Bestands und Ihrer Verkaufsmengen für eine aktuelle Produktverfügbarkeit.
 
-Einzelheiten zu Bestellungen und Sendungen siehe [Verwalten von Bestellungen und Sendungen](shipments.md).
+Weitere Informationen zu Bestellungen und Sendungen finden Sie unter [Verwalten von Bestellungen und Sendungen](shipments.md).
 
 ## Bestellverwaltungsoptionen
 
@@ -32,30 +32,30 @@ Wenn ein Kunde seine Bestellung vor dem Versand (teilweise oder vollständig) st
 
 ### Erstattete Aufträge
 
-Wenn ein Kunde eine Rückerstattung anfordert, geben Sie das Kreditvermerk für die Teil- oder Vollmengen des Produkts aus. Wenn Sie die zurückgegebenen Produkte erhalten, geben Sie ein Kreditmemo ein, um die Mittel bereitzustellen und die Produktbeträge zu aktualisieren. Wenn Sie die Option Zurück zu Lager auswählen, [!DNL Commerce] fügt den Erzeugnissen und Quellen, die die Bestellungen und Reservierungsausgleichszahlungen versandt haben, wieder Mengen hinzu, um die Verkaufsmengen für den betreffenden Bestand zu aktualisieren.
+Wenn ein Kunde eine Rückerstattung anfordert, geben Sie das Kreditvermerk für die Teil- oder Vollmengen des Produkts aus. Wenn Sie die zurückgegebenen Produkte erhalten, geben Sie ein Kreditmemo ein, um die Mittel bereitzustellen und die Produktbeträge zu aktualisieren. Bei der Auswahl der Option Zurück zu Lager fügt [!DNL Commerce] die Mengen wieder zu den Produkten und Quellen hinzu, die die Bestellungen und Reservierungsausgleichszahlungen versandt haben, um die Verkaufsmengen für das dazugehörige Lager zu aktualisieren.
 
 ## Bestelltypen
 
-Einfache Bestellungen beginnen mit einem Warenkorb, zahlen weiter und enden mit einem zufrieden gestellten Versand. In dieser Reihenfolge [!DNL Inventory Management] einfache Bearbeitung von Reservierungen gegen die Verfügbarkeit (oder die Verkaufsmenge) im Warenkorb und Kasse und Abzüge aus dem Bordbestand bei der Lieferung.
+Einfache Bestellungen beginnen mit einem Warenkorb, zahlen weiter und enden mit einem zufrieden gestellten Versand. In diesen Bestellungen verarbeitet [!DNL Inventory Management] einfach Reservierungen gegen die Verfügbarkeit (oder die Verkaufsmenge) im Warenkorb und beim Checkout und zieht sie beim Versand von dem Inventar ab.
 
-![Verfahren für einfache Bestellungen](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
+![Verarbeitung für eine einfache Bestellung](assets/diagram-simple-order-flow.png){width="600" zoomable="yes"}
 
 Eine kompliziertere Bestellung kann teilweise Annullierungen, Teillieferungen und Erstattungen zur Folge haben. In diesen Fällen wirken sich die Vorbehalte auf das verfügbare Inventar aus, um die Mengen für Annullierungen und Erstattungen hinzuzufügen und die Mengen bei Bestellung und Versand zu verringern.
 
-![Verfahren für eine komplizierte Reihenfolge](assets/diagram-complicated-order-flow.png){width="600" zoomable="yes"}
+![Verarbeitung für eine komplizierte Reihenfolge](assets/diagram-complicated-order-flow.png){width="600" zoomable="yes"}
 
 Verfügbarkeitsreservierungen und Bestandsänderungen erfolgen je nach Bestellstatus.
 
 ## Status und Reservierungen
 
-In den folgenden Tabellen werden die Reihenfolge und der Status des Kreditspeichers mit den von [!DNL Commerce] , um Ihr Inventar zu verwalten.
+In den folgenden Tabellen werden die Reihenfolge und der Status des Guthabens mit Buchungsänderungen detailliert beschrieben, die von [!DNL Commerce] eingegeben wurden, um Ihr Inventar zu verwalten.
 
 | Bestellstatus | Beschreibung | Reservierung für veräußerbare Menge |
 |--|--|--|
 | [!UICONTROL Open] | Neu und kürzlich gesendet, keine Verarbeitung | Die Reservierung wird gespeichert, wenn die Bestellung für das Lager eingereicht wird. |
 | [!UICONTROL Canceled] | Teilweise oder vollständig vor Zahlung storniert | Die Reservierungsvergütung wird so eingestellt, dass die Restmenge teilweise oder vollständig auf die verkaufbare Lagermenge zurückgesetzt wird. |
 | [!UICONTROL On Hold] | Zahlung und Versand nicht verarbeitet oder fakturiert | Die Reservierung bleibt vorhanden. |
-| [!UICONTROL Suspected Fraud] | Nicht verarbeitet aufgrund von Betrug | Wenn die Reservierung genehmigt wurde oder noch geprüft wird, bleibt sie bestehen.<br/>Wenn die Reservierung abgelehnt wird, bleibt die Reservierung bestehen, bis der Händler beschließt, sie zu genehmigen oder zu stornieren.<br/>Bei Stornierung wird der Reservierungsausgleich so eingestellt, dass die gesamte Menge auf die verkaufbare Lagermenge zurückgesetzt wird. |
+| [!UICONTROL Suspected Fraud] | Nicht verarbeitet aufgrund von Betrug | Wenn die Reservierung genehmigt wurde oder noch geprüft wird, bleibt sie bestehen.<br/>Wenn die Reservierung abgelehnt wird, bleibt die Reservierung bestehen, bis der Händler entscheidet, sie zu genehmigen oder zu stornieren.<br/>Bei Stornierung wird die Reservierungsvergütung so eingestellt, dass die gesamte Menge auf die verkaufbare Lagermenge zurückgesetzt wird. |
 | [!UICONTROL Pending] | Zahlungsaufschub | Die Reservierung bleibt erhalten. |
 | [!UICONTROL Processing] | Zahlungsverarbeitung, nicht eingegangen | Die Reservierung bleibt erhalten. |
 | [!UICONTROL Pending Payment] | Nicht eingegangene Zahlung | Die Reservierung bleibt erhalten. |
@@ -76,14 +76,14 @@ Sie kaufen zwei große Parkbikes für ihre kleinen Kinder, ein BMX-Fahrrad für 
 
 ![Komplexe Reihenfolge](assets/diagram-order-complex.png){width="600" zoomable="yes"}
 
-Sie zeigen ihrer Familie, was sie gefunden haben, aber nehmen einige Änderungen vor. Bevor die Zahlung abgeschlossen ist, stornieren sie zwei der 33-BikeFun SKUs (Kinder mochten sie nicht). Dies ist eine teilweise Stornierung aufgrund einer ausstehenden Zahlung, sodass kein Kreditmemo erforderlich. Aktualisieren Sie [!DNL Commerce] fügt dem verkaufbaren Mengenbestand für Kanada wieder zu. Die Bestellung wird bezahlt, und alle Produkte werden versandt, rechtzeitig für den Urlaub ankommen. [!DNL Commerce] aktualisiert die Verkaufsmenge und die Quellmengen der Versandlager für die versandten Erzeugnisse.
+Sie zeigen ihrer Familie, was sie gefunden haben, aber nehmen einige Änderungen vor. Bevor die Zahlung abgeschlossen ist, stornieren sie zwei der 33-BikeFun SKUs (Kinder mochten sie nicht). Dies ist eine teilweise Stornierung aufgrund einer ausstehenden Zahlung, sodass kein Kreditmemo erforderlich. Um aktualisiert zu werden, wird [!DNL Commerce] wieder zum verkaufbaren Mengenbestand für Kanada hinzugefügt. Die Bestellung wird bezahlt, und alle Produkte werden versandt, rechtzeitig für den Urlaub ankommen. [!DNL Commerce] aktualisiert die Verkaufsmenge und die Quellmengen der Versandlager für die versandten Erzeugnisse.
 
 Aber das Hemd passte nicht ganz zu ihrem Ehepartner. Blake verlangt eine Rückerstattung und sendet sein Hemd zurück. Die Erstellung des Credit Memos fügt dem Lager- und Versandlager von Kanada ein 54-BikeLife-Shirt hinzu.
 
-- **Versandprodukte** - bei gekauften und versandten Produkten, [!DNL Commerce] aktualisiert den Bestand. Reservierungsausgleichszahlungen, die in vorrätige Vorratsumsätze von der versandten Quelle umgerechnet werden. Die verfügbare Verkaufsmenge wird für den Bestand aktualisiert.
+- **Lieferbare Produkte** - Mit gekauften und gelieferten Produkten aktualisiert [!DNL Commerce] den Bestand. Reservierungsausgleichszahlungen, die in vorrätige Vorratsumsätze von der versandten Quelle umgerechnet werden. Die verfügbare Verkaufsmenge wird für den Bestand aktualisiert.
 
-- **Abgebrochene Produkte** - Stornierung des Lagers, [!DNL Commerce] entfernt die Reservierung für dieses Produkt. Die Reservierungsentschädigung wird in die Lagerposition eingetragen, um die verkaufbaren Mengen für die teilweise Stornierung von zwei Hemden wieder einzutragen. Dies wirkt sich nicht auf die Lagerbestandsmenge auf der Quellebene aus.
+- **Abgebrochene Produkte** - Durch Abbruch des Lagers entfernt [!DNL Commerce] die Reservierung für dieses Produkt. Die Reservierungsentschädigung wird in die Lagerposition eingetragen, um die verkaufbaren Mengen für die teilweise Stornierung von zwei Hemden wieder einzutragen. Dies wirkt sich nicht auf die Lagerbestandsmenge auf der Quellebene aus.
 
-- **Kreditvermerk/erstattetes Produkt** - Bei der Rücksendung ist die Menge wieder aufzufüllen. Bei der Ausstellung des Kreditmemo können Sie auswählen, ob Sie wieder auf Lager sind. [!DNL Commerce] fügt die Lagerbestandsmenge der versandten Quelle für das Produkt zurück. Die Reservierungsentschädigung dient dazu, die verbleibenden Reservierungen zu löschen. Die verkaufbare Menge wird mit der aktualisierten Menge neu berechnet.
+- **Kreditkarte/erstattetes Produkt** - Durch Rückgabe des Lagers muss es wieder zu den Mengen hinzugefügt werden. Bei der Ausstellung des Kreditmemo können Sie auswählen, ob Sie wieder auf Lager sind. [!DNL Commerce] fügt die Lagerbestandsmenge der versandten Quelle für das Produkt zurück. Die Reservierungsentschädigung dient dazu, die verbleibenden Reservierungen zu löschen. Die verkaufbare Menge wird mit der aktualisierten Menge neu berechnet.
 
-![Änderungen der Bestellrückerstattungsmenge](assets/diagram-order-refund.png){width="600" zoomable="yes"}
+![Aktualisierungen der Bestellrückerstattungsmenge](assets/diagram-order-refund.png){width="600" zoomable="yes"}

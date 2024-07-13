@@ -13,23 +13,23 @@ ht-degree: 0%
 
 # Unternehmensrollen und -berechtigungen
 
-Rollen für Unternehmensbenutzer werden mit verschiedenen Berechtigungsstufen für den Zugriff auf Verkaufsinformationen und -ressourcen eingerichtet. Der Unternehmensadministrator ist standardmäßig ein _Superuser_ mit vollständigen Berechtigungen. Die [Zugriff verweigert](../content-design/pages.md#access-denied) angezeigt, wenn der Benutzer nicht über die nötigen Berechtigungen zum Zugriff auf die Seite verfügt.
+Rollen für Unternehmensbenutzer werden mit verschiedenen Berechtigungsstufen für den Zugriff auf Verkaufsinformationen und -ressourcen eingerichtet. Standardmäßig ist der Unternehmensadministrator ein _Superuser_ mit vollen Berechtigungen. Die Seite [Zugriff verweigert](../content-design/pages.md#access-denied) wird angezeigt, wenn der Benutzer nicht über die Berechtigung zum Zugriff auf die Seite verfügt.
 
-![Seite &quot;Rollen und Berechtigungen&quot;mit Standardrolle](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
+![Rollen- und Berechtigungsseite mit Standardrolle](./assets/company-roles-permissions.png){width="700" zoomable="yes"}
 
-Das System verfügt über eine vordefinierte Standardbenutzerrolle, die Sie verwenden können. _as is_ oder ändern Sie sie entsprechend Ihren Anforderungen. Sie können so viele Rollen erstellen, wie für Ihre Unternehmensstruktur und organisatorische Aufgaben erforderlich sind, z. B.:
+Das System verfügt über eine vordefinierte Standardbenutzerrolle, die Sie _wie besehen_ verwenden oder entsprechend Ihren Anforderungen ändern können. Sie können so viele Rollen erstellen, wie für Ihre Unternehmensstruktur und organisatorische Aufgaben erforderlich sind, z. B.:
 
-- **Standardbenutzer** — Der Standardbenutzer hat vollen Zugriff auf Aktivitäten im Zusammenhang mit Verkäufen und Anführungszeichen sowie schreibgeschützten Zugriff auf Unternehmensprofil- und Kreditdaten.
+- **Standardbenutzer** - Der Standardbenutzer hat vollen Zugriff auf Aktivitäten im Zusammenhang mit Verkäufen und Anführungszeichen sowie schreibgeschützten Zugriff auf Unternehmensprofile und Kreditdaten.
 
-- **Hauptkäufer** — Ein älterer Käufer hat möglicherweise Zugriff auf alle Ressourcen für Verkäufe und Preisangebote sowie auf schreibgeschützte Berechtigungen für das Unternehmensprofil, Benutzer und Teams, Zahlungsinformationen und Firmenkredite.
+- **Hauptkäufer** - Ein älterer Käufer hat möglicherweise Zugriff auf alle Ressourcen für Verkauf und Preisangebote sowie auf schreibgeschützte Berechtigungen für das Unternehmensprofil, Benutzer und Teams, Zahlungsinformationen und Unternehmensgutschriften.
 
-- **Assistent: Käufer** — Ein Assistenzkäufer kann die Erlaubnis haben, eine Bestellung über _Checkout mit Anführungszeichen_ und um Bestellungen, Anführungszeichen und Informationen im Firmenprofil anzuzeigen.
+- **Assistant Buyer**: Ein Assistant Buyer kann berechtigt sein, eine Bestellung mithilfe von _Checkout mit Anführungszeichen_ zu tätigen und Bestellungen, Anführungszeichen und Informationen im Firmenprofil anzuzeigen.
 
 ## Rollen und Berechtigungen verwalten
 
 1. Der Unternehmensadministrator meldet sich bei seinem Store-Konto an.
 
-1. Wählen Sie im linken Bereich **[!UICONTROL Roles and Permissions]**.
+1. Wählen Sie im linken Bereich **[!UICONTROL Roles and Permissions]** aus.
 
 1. Führt eine der folgenden Aufgaben aus.
 
@@ -39,13 +39,13 @@ Das System verfügt über eine vordefinierte Standardbenutzerrolle, die Sie verw
 
    ![Neue Rolle hinzufügen](./assets/company-roles-permissions-add-storefront.png){width="600" zoomable="yes"}
 
-1. Fügt eine Beschreibung ein **[!UICONTROL Role Name]**.
+1. Fügt einen beschreibenden **[!UICONTROL Role Name]** ein.
 
-1. under _[!UICONTROL Role Permissions]_, führt einen der folgenden Schritte aus:
+1. Führt unter _[!UICONTROL Role Permissions]_einen der folgenden Schritte aus:
 
    - Markiert das Kontrollkästchen der einzelnen Ressourcen oder Aktivitäten, denen Benutzer, denen die Rolle zugewiesen wurde, Zugriff gewähren.
 
-   - Wählt die **[!UICONTROL All]** und deaktivieren das Kontrollkästchen der einzelnen Ressourcen oder Aktivitäten, auf die die Benutzer, die der Rolle zugewiesen sind, keinen Zugriff haben.
+   - Aktivieren Sie das Kontrollkästchen **[!UICONTROL All]** und deaktivieren Sie das Kontrollkästchen der einzelnen Ressourcen oder Aktivitäten, auf die Benutzer, die der Rolle zugewiesen sind, keine Zugriffsberechtigung haben.
 
 1. Klicks **[!UICONTROL Save Role]**.
 
@@ -53,19 +53,19 @@ Das System verfügt über eine vordefinierte Standardbenutzerrolle, die Sie verw
 
 ### Rollen ändern
 
-1. Damit die Rolle geändert werden kann, klickt der Unternehmensadministrator auf **[!UICONTROL Edit]** im _[!UICONTROL Actions]_Spalte.
+1. Damit die Rolle geändert werden kann, klickt der Unternehmensadministrator in der Spalte _[!UICONTROL Actions]_auf **[!UICONTROL Edit]**.
 
 1. Nehmen Sie die erforderlichen Änderungen an den Namen- und Berechtigungseinstellungen vor.
 
-1. Klicken Sie nach Abschluss **[!UICONTROL Save Role]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Role]**.
 
 ### Rolle duplizieren
 
-1. Damit die Rolle dupliziert wird, klickt der Unternehmensadministrator auf **[!UICONTROL Duplicate]** im _[!UICONTROL Actions]_Spalte.
+1. Damit die Rolle dupliziert werden kann, klickt der Unternehmensadministrator in der Spalte _[!UICONTROL Actions]_auf **[!UICONTROL Duplicate]**.
 
 1. Nehmen Sie die erforderlichen Änderungen an den Namen- und Berechtigungseinstellungen vor.
 
-1. Klicken Sie nach Abschluss **[!UICONTROL Save Role]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Role]**.
 
 ### Rollen löschen
 
@@ -73,15 +73,15 @@ Das System verfügt über eine vordefinierte Standardbenutzerrolle, die Sie verw
 
    Es können nur Rollen ohne zugewiesene Benutzer gelöscht werden.
 
-1. Klicks **[!UICONTROL Delete]** im _[!UICONTROL Actions]_Spalte.
+1. Klicks **[!UICONTROL Delete]** in der Spalte _[!UICONTROL Actions]_.
 
-1. Wenn Sie zur Bestätigung aufgefordert werden, klickt **[!UICONTROL OK]**.
+1. Wenn Sie zur Bestätigung aufgefordert werden, klicken Sie auf **[!UICONTROL OK]**.
 
 ## Aktionen
 
 | Aktion | Beschreibung |
 |-----------| ----------- |
-| [!UICONTROL Duplicate] | Erstellt eine Kopie der ausgewählten Rolle. Der Name der doppelten Rolle hat `- Duplicated` hinzugefügt. |
+| [!UICONTROL Duplicate] | Erstellt eine Kopie der ausgewählten Rolle. Am Ende des Namens der doppelten Rolle wurde `- Duplicated` hinzugefügt. |
 | [!UICONTROL Edit] | Ändern Sie den Namen und/oder den Berechtigungssatz. |
 | [!UICONTROL Delete] | Löschen Sie die Rolle. Es können nur Rollen ohne zugewiesene Benutzer gelöscht werden. |
 
@@ -130,14 +130,14 @@ Nach der Definition der erforderlichen Rollen weist der Unternehmensadministrato
 
 1. Melden Sie sich bei ihrem Unternehmenskonto als Unternehmensadministrator an.
 
-1. Wählen Sie im linken Bereich **[!UICONTROL Company Users]**.
+1. Wählen Sie im linken Bereich **[!UICONTROL Company Users]** aus.
 
    ![Firmenbenutzer](./assets/company-users-list-storefront.png){width="700" zoomable="yes"}
 
-1. Findet den Benutzer in der Liste und klickt auf **[!UICONTROL Edit]**.
+1. Sucht den Benutzer in der Liste und klickt auf **[!UICONTROL Edit]**.
 
-1. Wählen Sie die geeignete **[!UICONTROL User Role]** für den Benutzer.
+1. Wählen Sie den entsprechenden **[!UICONTROL User Role]** für den Benutzer aus.
 
-   ![Benutzer bearbeiten - Benutzerrolle auswählen](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
+   ![Benutzer bearbeiten - Wählen Sie eine Benutzerrolle](./assets/company-user-assign-role.png){width="700" zoomable="yes"}
 
 1. Klicks **[!UICONTROL Save]**.

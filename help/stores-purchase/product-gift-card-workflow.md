@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Geschenkgutscheine werden im Warenkorb ähnlich wie Gutscheine auf eine Bestellung angewendet. Während des Kassengangs gibt der Käufer den Gutscheincode ein, um einen Betrag von der Geschenkkarte auf den Kauf anzuwenden. Karteninhaber mit Kundenkonten können den Status und den Restbetrag im Konto-Dashboard überprüfen. Einzel- und Mehrfachgutscheine können verwendet werden, um eine Bestellung ganz oder teilweise zu bezahlen.
 
-Der angewendete Geschenkkartencode kann angezeigt werden, indem Sie die Bestellung im _Admin_, was es Ihnen ermöglicht, den Code abzurufen, um ihn bei Bedarf auf einer physischen Geschenkkarte zu platzieren. Bei Stornierung oder Rückerstattung eines Geschenkkartenauftrags müssen Sie das entsprechende Geschenkkartenkonto manuell kündigen. Sie können das Konto entweder vollständig löschen oder deaktivieren.
+Der angewendete Geschenkkarten-Code kann angezeigt werden, indem Sie die Bestellung in _Admin_ öffnen. Dadurch können Sie den Code abrufen, um ihn bei Bedarf auf einer physischen Geschenkkarte zu platzieren. Bei Stornierung oder Rückerstattung eines Geschenkkartenauftrags müssen Sie das entsprechende Geschenkkartenkonto manuell kündigen. Sie können das Konto entweder vollständig löschen oder deaktivieren.
 
-![Geschenkkartendetails im Warenkorb](./assets/storefront-gift-card-order-customer-account.png){width="700" zoomable="yes"}
+![Detail der Geschenkkarte im Warenkorb](./assets/storefront-gift-card-order-customer-account.png){width="700" zoomable="yes"}
 
 Beispielsweise kann ein Kunde, der im Demo-Luma-Laden einkauft, entweder eine virtuelle oder eine physische Geschenkkarte erwerben.
 
 **Virtuelle Geschenkkarte** - Eine virtuelle Geschenkkarte von Luma wird dem Empfänger per E-Mail mit einer optionalen Nachricht zugeschickt. Sie kann auf jeder der Luma-Websites eingelöst werden und läuft nie ab.
 
-**Geschenkgutschein** - Eine Luma Geschenkkarte wird in einem benutzerdefinierten Kunst-Mailer verpackt und kostenlos an den Empfänger gesendet. Es kann im Voraus produziert, mit eindeutigen Codes gekennzeichnet und im Geschäft, per Telefon oder auf einer der Websites der Familie Luma eingelöst werden. Es läuft nie ab.
+**Physikalische Geschenkkarte** - Eine Geschenkkarte von Luma wird in einem benutzerdefinierten Kunst-Mailer verpackt und kostenlos an den Empfänger gesendet. Es kann im Voraus produziert, mit eindeutigen Codes gekennzeichnet und im Geschäft, per Telefon oder auf einer der Websites der Familie Luma eingelöst werden. Es läuft nie ab.
 
 **Kombinierte Geschenkkarte** - Eine kombinierte Geschenkkarte hat sowohl die Eigenschaften einer virtuellen als auch einer physischen Geschenkkarte. Eine kombinierte Geschenkkarte von Luma wird versandt und per E-Mail an den Empfänger verschickt. Die E-Mail und die Lieferadresse sind während des Kaufs der Geschenkkarte erforderlich. Es läuft nie ab.
 
@@ -36,13 +36,13 @@ Beispielsweise kann ein Kunde, der im Demo-Luma-Laden einkauft, entweder eine vi
 
 1. **Der Kunde vervollständigt die Geschenkkarteninformationen**.
 
-   Bei einer physischen Geschenkkarte gibt der Kunde die **Absendername** und **Empfängername**. Bei virtuellen oder kombinierten Geschenkkarten gibt der Kunde auch die **Absenderadresse** und **Empfänger-E-Mail**. Wenn der Kunde angemeldet ist, werden der Absendername (und gegebenenfalls die Absender-E-Mail-Adresse) automatisch in seinem Konto angegeben. Je nach Konfiguration kann der Kunde auch eine Nachricht an den Empfänger eingeben.
+   Bei einer physischen Geschenkkarte gibt der Kunde den **Absendernamen** und den **Empfängernamen** ein. Bei virtuellen oder kombinierten Geschenkkarten gibt der Kunde auch die **Sender Email** und die **Empfänger-E-Mail** ein. Wenn der Kunde angemeldet ist, werden der Absendername (und gegebenenfalls die Absender-E-Mail-Adresse) automatisch in seinem Konto angegeben. Je nach Konfiguration kann der Kunde auch eine Nachricht an den Empfänger eingeben.
 
-1. **Customer completes Checkout**.
+1. **Kunde schließt Checkout ab**.
 
    Die Geschenkkarte wird als Zeileneintrag im Warenkorb mit Details angezeigt, die den Namen des Absenders, Empfängers und der Nachricht (falls zutreffend) enthalten. Der mit der Geschenkkarte verbundene Betrag wird beim Hinzufügen zum Warenkorb in die Basiswährung des Stores konvertiert.
 
-1. **Der Kunde erhält die Auftragsbestätigung**.
+1. **Der Kunde erhält die Bestätigung der Bestellung**.
 
    Der Käufer der Geschenkkarte kann auf den Link in der Bestätigung klicken, um die Bestellung über sein Konto-Dashboard zu verfolgen.
 
@@ -50,7 +50,7 @@ Beispielsweise kann ein Kunde, der im Demo-Luma-Laden einkauft, entweder eine vi
 
    Bei virtuellen oder kombinierten Geschenkkarten erhält der Empfänger eine E-Mail mit dem Code der Geschenkkarte, dem Namen des Absenders und gegebenenfalls der Nachricht. Wenn mehrere Geschenkkarten in einer Bestellung erworben werden und der Typ entweder virtuell oder kombiniert ist, werden alle entsprechenden Geschenkkarten-Codes in einer E-Mail an den Empfänger gesendet. Geschenkgutscheine können direkt an den Empfänger oder den Kunden versandt werden, der die Geschenkkarte dann persönlich an den Empfänger übergeben kann.
 
-1. **Empfänger wendet Geschenkkarte an**.
+1. **Der Empfänger wendet eine Geschenkkarte auf den Kauf an**.
 
    Der Empfänger kauft einen Artikel in Ihrem Geschäft und wendet den Geschenkkartencode während des Kassengangs an. Jedes Mal, wenn eine Geschenkkarte beim Checkout angewendet wird, wird der Betrag in der Gesamtbestelleinheit angezeigt und von der Gesamtsumme abgezogen. Der volle Restbetrag jeder Geschenkkarte wird von der Gesamtsumme des Warenkorbs abgezogen. Wenn mehrere Geschenkkarten für einen Kauf verwendet werden, werden sie in aufsteigender Reihenfolge angewendet, beginnend mit der Karte mit dem kleinsten Restbetrag, bis alle angewendet werden oder die Gesamtsumme null ist. Erreicht die Gesamtsumme den Nullwert, erhält das letzte auf den Warenkorb angewendete Geschenkkartenkonto einen teilweisen Abzug. Alle Karten, die nicht in den Warenkorb gelegt wurden, erhalten keinen Saldoabzug. Die Beträge werden erst nach der Bestellung von den Geschenkgutscheinen abgezogen.
 
@@ -66,7 +66,7 @@ Funktionsweise von Geschenkgutscheinen auf der Storefront:
 
 - Konten für Geschenkcodes werden erstellt, um den Saldo eines bestimmten Gutscheins zu verfolgen. Ein Store-Administrator kann den Saldo manuell anpassen.
 
-Der empfangende Kunde kann die _[!UICONTROL Gift Card]_im Konto-Dashboard, um den Saldo ihrer [Geschenkgutkonto](product-gift-card-accounts.md) einlösen und Geschenkgutscheine für [Store-Gutschrift](../customers/store-credit-using.md).
+Der empfangende Kunde kann den Abschnitt _[!UICONTROL Gift Card]_seines Konto-Dashboards verwenden, um den Saldo seines [Geschenkkartekontos](product-gift-card-accounts.md) zu überprüfen und Geschenkkarten für [Kredit speichern](../customers/store-credit-using.md) einzulösen.
 
 ![Geschenkkarte](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 
@@ -74,7 +74,7 @@ Der empfangende Kunde kann die _[!UICONTROL Gift Card]_im Konto-Dashboard, um de
 
 1. Über die Storefront meldet sich der Kunde an und öffnet die Seite seines Kundenkontos.
 
-1. Der Kunde öffnet die **[!UICONTROL Gift Card]** und gibt den Geschenkkartencode ein.
+1. Der Kunde öffnet die Seite &quot;**[!UICONTROL Gift Card]**&quot; und gibt den Code der Geschenkkarte ein.
 
 1. Der Kunde klickt auf **[!UICONTROL Check status and balance]**.
 
@@ -84,7 +84,7 @@ Der Restbetrag der Geschenkkarte wird angezeigt.
 
 ### Aktivierung der Giftkarte
 
-1. Im _[!UICONTROL Gift Card]_-Seite, gibt der Kunde den Geschenkkartencode ein.
+1. Auf der Seite _[!UICONTROL Gift Card]_gibt der Kunde den Code der Geschenkkarte ein.
 
 1. Der Kunde klickt auf **[!UICONTROL Redeem Gift Card]**.
 
@@ -92,18 +92,18 @@ Der Restbetrag der Geschenkkarte wird angezeigt.
 
 Der Betrag der Geschenkkarte wird aktiviert und zum Gesamtkonto des Geschäfts hinzugefügt.
 
-![Guthaben-Geschäft](./assets/store-credit.png){width="700" zoomable="yes"}
+![Guthabenkonto speichern](./assets/store-credit.png){width="700" zoomable="yes"}
 
-Alle Vorgänge für den Restbetrag der Geschenkkarte sind auf der Website verfügbar. _[!UICONTROL Store Credit]_Seite.
+Alle Vorgänge für den Restbetrag der Geschenkkarte sind auf der Seite _[!UICONTROL Store Credit]_verfügbar.
 
 ### Anwenden einer Geschenkkarte beim Auschecken
 
 Wenn die Geschenkkarte nicht eingelöst werden kann, kann ein Kunde den Geschenkgutschein-Code während des Auscheckens anwenden.
 
-1. Während _Überprüfung und Zahlungen_ Schritt, auf den der Kunde klickt **[!UICONTROL Apply Gift Card]**.
+1. Während des Schritts _Überprüfung und Zahlungen_ klickt der Kunde auf **[!UICONTROL Apply Gift Card]**.
 
 1. Fügt den Code der Geschenkkarte ein und klickt dann auf **[!UICONTROL Apply]**.
 
-   Der Rabatt sollte im Abschnitt _[!UICONTROL Order Summary]_.
+   Der Rabatt sollte in den _[!UICONTROL Order Summary]_widergespiegelt werden.
 
-1. Klicks **[!UICONTROL Place Order]** um die Bestellung abzuschließen.
+1. Klicken Sie auf **[!UICONTROL Place Order]** , um die Bestellung abzuschließen.

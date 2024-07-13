@@ -5,7 +5,7 @@ exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ Wenn Sie über ein kommerzielles Konto mit einem unterstützten Netzbetreiber ve
 
 >[!NOTE]
 >
->Siehe [Commerce Marketplace](../getting-started/commerce-marketplace.md) für zusätzliche Versanddienstleistungen für Ihre Commerce-Installation.
+>Weitere Versanddienste für Ihre Commerce-Installation finden Sie unter [Commerce Marketplace](../getting-started/commerce-marketplace.md) .
 
 Bevor Sie Ihren Kunden eine Auswahl an Versandunternehmen anbieten können, müssen Sie die folgenden Schritte ausführen:
 
-- Konfigurieren Sie die [Versandeinstellungen](shipping-settings.md) um den Herkunftsort für Ihr Geschäft zu bestimmen.
+- Konfigurieren Sie die [Versandeinstellungen](shipping-settings.md), um den Ausgangspunkt für Ihren Store festzulegen.
 
 - Konfigurieren Sie die Einstellungen für jeden Provider-Dienst, den Sie anbieten möchten.
 
-   - [**UPS**](ups.md)  - United Parcel Service (UPS) bietet inländische und internationale Seeverkehrsdienstleistungen auf dem Land- und Luftweg in über 220 Ländern an.
+   - [**UPS**](ups.md) - United Parcel Service (UPS) bietet inländische und internationale Seeverkehrsdienstleistungen auf dem Land- und Luftweg in über 220 Länder an.
    - [**USPS**](usps.md) - Der US-Postdienst (USPS) ist der unabhängige Postdienst der US-Regierung. USPS bietet inländische und internationale Schifffahrtsdienste auf dem Land- und Luftweg an.
-   - [**FedEx**](fedex.md) - FedEx bietet inländische und internationale Schifffahrtsdienste auf dem Land- und Luftweg in mehr als 220 Ländern an.
+   - [**FedEx**](fedex.md) - FedEx bietet inländische und internationale Seeverkehrsdienstleistungen an Land und Luft in über 220 Länder an.
    - [**DHL**](dhl.md) - DHL bietet integrierte internationale Dienstleistungen und maßgeschneiderte, kundenorientierte Lösungen für die Verwaltung und den Transport von Briefen, Gütern und Informationen.
 
 ## Dimensionsgewicht

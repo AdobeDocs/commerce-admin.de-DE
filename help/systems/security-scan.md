@@ -22,22 +22,22 @@ Mit dem erweiterten Sicherheitsscan können Sie jede Ihrer Adobe Commerce- und M
 - Rufen Sie historische Sicherheitsberichte auf, die den Fortschritt Ihrer Sites verfolgen und überwachen.
 - Rufen Sie den Überprüfungsbericht auf, der erfolgreiche und fehlgeschlagene Prüfungen mit empfohlenen Aktionen anzeigt.
 
-Das Sicherheits-Scan-Tool ist im Dashboard Ihrer [Commerce/Magento-Konto](../getting-started/commerce-account-create.md). Technische Informationen finden Sie unter [Einrichten des Sicherheitsscan-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) im _Handbuch zu Commerce on Cloud Infrastructure_.
+Das Sicherheitsscan-Tool ist im Dashboard Ihres [Commerce/Magento-Kontos](../getting-started/commerce-account-create.md) kostenlos verfügbar. Technische Informationen finden Sie unter [Einrichten des Sicherheitsscan-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) im _Commerce on Cloud Infrastructure Guide_.
 
-![Sicherheitsscan-Tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
+![Sicherheits-Scan-Tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
 ## Ausführen einer Sicherheitsprüfung
 
-1. Melden Sie sich auf der Commerce-Startseite bei Ihrem [Commerce/Magento-Konto](../getting-started/commerce-account-create.md).
+1. Melden Sie sich auf der Commerce-Startseite bei Ihrem [Commerce/Magento-Konto](../getting-started/commerce-account-create.md) an.
 
 1. Überprüfen und akzeptieren Sie die Bedingungen für die Verwendung des Sicherheitsscan-Tools.
 
-   - Wählen Sie im linken Bereich die Option **[!UICONTROL Security Scan]**.
-   - Klicks **[!UICONTROL Go to Security Scan]**.
+   - Wählen Sie im linken Bereich **[!UICONTROL Security Scan]** aus.
+   - Klicken Sie auf **[!UICONTROL Go to Security Scan]**.
    - Lesen Sie die **[!UICONTROL Terms and Conditions]**.
-   - Klicks **[!UICONTROL Agree]** , um fortzufahren.
+   - Klicken Sie auf **[!UICONTROL Agree]** , um fortzufahren.
 
-1. Im _[!UICONTROL Monitored Websites]_Seite, klicken **[!UICONTROL +Add Site]**.
+1. Klicken Sie auf der Seite _[!UICONTROL Monitored Websites]_auf **[!UICONTROL +Add Site]**.
 
    Wenn Sie mehrere Sites mit unterschiedlichen Domänen haben, konfigurieren Sie für jede Domäne eine separate Prüfung.
 
@@ -45,38 +45,38 @@ Das Sicherheits-Scan-Tool ist im Dashboard Ihrer [Commerce/Magento-Konto](../get
 
 1. Führen Sie einen der folgenden Schritte aus, um durch Hinzufügen eines Bestätigungscodes zu überprüfen, ob Sie Eigentümer der Website-Domäne sind:
 
-   **Commerce-Storefront**:
+   **Commerce storefront**:
 
-   - Geben Sie die **[!UICONTROL Site URL]** und **[!UICONTROL Site Name]**.
-   - Klicks **[!UICONTROL Generate Confirmation Code]**.
-   - Klicks **Kopieren** , um Ihren Bestätigungscode in die Zwischenablage zu kopieren.
+   - Geben Sie die Werte **[!UICONTROL Site URL]** und **[!UICONTROL Site Name]** ein.
+   - Klicken Sie auf **[!UICONTROL Generate Confirmation Code]**.
+   - Klicken Sie auf **Kopieren** , um Ihren Bestätigungscode in die Zwischenablage zu kopieren.
 
-     ![Generate Confirmation Code](./assets/scan-site1.png){width="400" zoomable="yes"}
+     ![Generieren von Bestätigungscode](./assets/scan-site1.png){width="400" zoomable="yes"}
 
    - Melden Sie sich beim Administrator Ihres Stores als Benutzer mit vollständigen Administratorrechten an und führen Sie die folgenden Schritte aus:
 
-      - Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+      - Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
       - Suchen Sie Ihre Site in der Liste und klicken Sie auf **[!UICONTROL Edit]**.
-      - Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL HTML Head]** Abschnitt.
-      - Nach unten scrollen zu **[!UICONTROL Scripts and Style Sheets]** und klicken Sie am Ende eines vorhandenen Codes auf das Textfeld und fügen Sie den Bestätigungscode in das Textfeld ein.
+      - Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL HTML Head]** .
+      - Scrollen Sie nach unten zu &quot;**[!UICONTROL Scripts and Style Sheets]**&quot;, klicken Sie am Ende eines vorhandenen Codes auf das Textfeld und fügen Sie den Bestätigungscode in das Textfeld ein.
 
-        ![Skripten und Stylesheets](./assets/scan-paste-code.png){width="600" zoomable="yes"}
+        ![Skripte und Stylesheets](./assets/scan-paste-code.png){width="600" zoomable="yes"}
 
-      - Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Configuration]**.
+      - Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Configuration]**.
 
    **PWA storefront**:
 
-   - Geben Sie die **[!UICONTROL Site URL]** und **[!UICONTROL Site Name]**.
+   - Geben Sie die Werte **[!UICONTROL Site URL]** und **[!UICONTROL Site Name]** ein.
 
-   - Für **[!UICONTROL Confirmation Code]**, wählen Sie die `META Tag` und klicken Sie auf **[!UICONTROL Generate Code]**.
+   - Wählen Sie für **[!UICONTROL Confirmation Code]** die Option `META Tag` und klicken Sie dann auf **[!UICONTROL Generate Code]**.
 
-   - Klicks **[!UICONTROL Copy]** , um den generierten Bestätigungscode META Tag in die Zwischenablage zu kopieren.
+   - Klicken Sie auf **[!UICONTROL Copy]** , um den generierten Bestätigungscode-META-Tag in die Zwischenablage zu kopieren.
 
-     ![Generate Confirmation Code](./assets/scan-site2.png){width="400" zoomable="yes"}
+     ![Generieren von Bestätigungscode](./assets/scan-site2.png){width="400" zoomable="yes"}
 
    - Wechseln Sie zum Projektverzeichnis für das PWA Studio-Storefront-Projekt und führen Sie die folgenden Schritte aus:
 
-      - Wechseln Sie im Projektverzeichnis des PWA Studios zu `packages > venia-concept > template.html`.
+      - Wechseln Sie im Projektverzeichnis des PWA Studios zu &quot;`packages > venia-concept > template.html`&quot;.
       - Fügen Sie den kopierten Bestätigungscode (das generierte META-Tag) zum HTML-Head hinzu und speichern Sie die Änderungen.
 
         ![Bestätigungscode kopieren](./assets/code-pwa.png){width="600" zoomable="yes"}
@@ -88,7 +88,7 @@ Das Sicherheits-Scan-Tool ist im Dashboard Ihrer [Commerce/Magento-Konto](../get
         yarn build
         ```
 
-      - *In Ihrem Cloud-Projekt*, erstellen Sie eine `pwa` und kopieren Sie den Inhalt in das Repository-Projekt `dist` Ordner.
+      - *Erstellen Sie in Ihrem Cloud-Projekt* einen Ordner &quot;`pwa`&quot;und kopieren Sie den Inhalt in den Ordner &quot;`dist`&quot;Ihres Storefront-Projekts.
 
         ```sh
         mkdir pwa && cp -r <path to your storefront project>/dist/* pwa
@@ -104,29 +104,29 @@ Das Sicherheits-Scan-Tool ist im Dashboard Ihrer [Commerce/Magento-Konto](../get
 
         Nachdem der Build-Prozess abgeschlossen ist, werden die Änderungen auf Ihrer PWA Store-Front bereitgestellt.
 
-1. Kehren Sie zu _[!UICONTROL Security Scan]_in Ihrem Commerce-Konto auf und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**zur Feststellung des Eigentums an der Domain.
+1. Kehren Sie zur Seite &quot;_[!UICONTROL Security Scan]_&quot;in Ihrem Commerce-Konto zurück und klicken Sie auf &quot;**[!UICONTROL Verify Confirmation Code]**&quot;, um das Eigentum an der Domäne zu erlangen.
 
-1. Konfigurieren Sie nach einer erfolgreichen Bestätigung die **[!UICONTROL Set Automatic Security Scan]** Optionen für einen der folgenden Typen:
+1. Konfigurieren Sie nach einer erfolgreichen Bestätigung die **[!UICONTROL Set Automatic Security Scan]** -Optionen für einen der folgenden Typen:
 
-   **Wöchentlich scannen (empfohlen)**:
+   **Wöchentlichen Scan (empfohlen)**:
 
-   - Wählen Sie die **[!UICONTROL Week Day]**, **[!UICONTROL Time]**, und **[!UICONTROL Time Zone]** dass die Prüfung jede Woche stattfinden soll.
+   - Wählen Sie die **[!UICONTROL Week Day]**, **[!UICONTROL Time]** und **[!UICONTROL Time Zone]** aus, die wöchentlich überprüft werden sollen.
    - Standardmäßig ist geplant, die Prüfung jede Woche um Mitternacht Samstag, UTC zu beginnen und am frühen Sonntag weiterzumachen.
 
-     ![Wöchentlich scannen](./assets/scan-weekly.png){width="500" zoomable="yes"}
+     ![Wöchentlichen Scan](./assets/scan-weekly.png){width="500" zoomable="yes"}
 
    **Täglich scannen**:
 
-   - Wählen Sie die **[!UICONTROL Time]**, und **[!UICONTROL Time Zone]** dass die Prüfung jeden Tag stattfinden soll.
+   - Wählen Sie die **[!UICONTROL Time]** und **[!UICONTROL Time Zone]** aus, die täglich überprüft werden sollen.
    - Standardmäßig ist geplant, die Prüfung jeden Tag um Mitternacht (UTC) zu starten.
 
      ![Täglich scannen](./assets/scan-daily.png){width="500" zoomable="yes"}
 
-1. Geben Sie die **[!UICONTROL Email Address]** wo Sie Benachrichtigungen über abgeschlossene Prüfungen und Sicherheitsaktualisierungen erhalten möchten.
+1. Geben Sie den **[!UICONTROL Email Address]** -Wert ein, an den Sie Benachrichtigungen über abgeschlossene Prüfungen und Sicherheitsupdates erhalten möchten.
 
-   ![Email-Adresse](./assets/scan-notification-email.png){width="400" zoomable="yes"}
+   ![E-Mail-Adresse](./assets/scan-notification-email.png){width="400" zoomable="yes"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Submit]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Submit]**.
 
    Nachdem das Eigentum an der Domäne überprüft wurde, wird die Site in der Liste &quot;Überwachte Websites&quot;Ihres Commerce-Kontos angezeigt.
 

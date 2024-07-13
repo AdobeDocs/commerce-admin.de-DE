@@ -5,16 +5,16 @@ exl-id: 28949cfc-2c96-4d0a-a35b-b37b3aa2d1e9
 feature: Customers, Configuration
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
 
 # Optionen für Kundenname und Adresse
 
-Die _Name und Adressenoptionen_ bestimmen, welche Felder in Namen- und Adressformularen enthalten sind, wenn Kunden eine [account](../customers/account-create.md) mit Ihrem Geschäft.
+Die _Name- und Adressenoptionen_ bestimmen, welche Felder in den Namen- und Adressformularen enthalten sind, wenn Kunden ein [Konto](../customers/account-create.md) für Ihren Store erstellen.
 
-![Anmeldeformular für Kundenkonto](assets/storefront-customer-account-address-book.png){width="500" zoomable="yes"}
+![Anmeldeformular für das Kundenkonto](assets/storefront-customer-account-address-book.png){width="500" zoomable="yes"}
 
 Die Schritte zum Konfigurieren der Namen- und Adressenoptionen unterscheiden sich je nach Adobe Commerce und Magento Open Source.
 
@@ -24,46 +24,46 @@ Sie können die Namen- und Adressoptionen konfigurieren, die Kunden auf der Stor
 
 ### Schritt 1: Festlegen des Umfangs der Konfiguration
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen **[!UICONTROL Customer Configuration]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Customer Configuration]** aus.
 
-1. Erweitern Sie die **[!UICONTROL Name and Address Options]** Abschnitt.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Name and Address Options]** .
 
    >[!INFO]
    >
-   >Beachten Sie, dass der Umfang der Namen- und Adressenoptionen auf der `website` Ebene.
+   >Beachten Sie, dass der Umfang der Namen- und Adressenoptionen auf `website` -Ebene gilt.
 
 1. Scrollen Sie nach oben auf der Seite und legen Sie den Umfang der Konfiguration auf einen der folgenden Werte fest:
 
    - `Default Config`
-   - `Main Website` (oder spezifische Site für Installationen mehrerer Standorte)
+   - `Main Website` (oder spezifische Site für Installationen mehrerer Sites)
 
    >[!INFO]
    >
-   >Die _[!UICONTROL Name and Address Options]_wird nicht angezeigt, wenn der Bereich auf `Default Store View`.
+   >Der Abschnitt _[!UICONTROL Name and Address Options]_wird nicht angezeigt, wenn der Umfang auf `Default Store View` festgelegt ist.
 
-   ![Konfigurationsumfang](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
+   ![Konfigurationsbereich](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 
 ### Schritt 2: Konfigurieren Sie die Namen- und Adressenoptionen.
 
-1. Kehren Sie zu [!UICONTROL _Name und Adressenoptionen_] auf der Seite &quot;Kundenkonfiguration&quot;angezeigt.
+1. Kehren Sie zum Abschnitt [!UICONTROL _Name und Adressenoptionen_] auf der Seite &quot;Kundenkonfiguration&quot;zurück.
 
    >[!INFO]
    >
-   > Wenn Sie die Variable `Default config` Scope-Einstellung festlegen, müssen Sie die `Use Default` für jedes Feld ein, bevor der Wert geändert wird.
+   > Wenn Sie die Bereichseinstellung `Default config` nicht verwenden, müssen Sie das Kontrollkästchen `Use Default` für jedes Feld deaktivieren, bevor Sie den Wert ändern.
 
    ![Name und Adressenoptionen](../configuration-reference/customers/assets/customer-configuration-name-address-options-ee.png){width="600" zoomable="yes"}
 
-1. Für **[!UICONTROL Prefix Dropdown Options]** Geben Sie jedes Präfix ein, das in der Liste angezeigt werden soll (durch Semikolon getrennt).
+1. Geben Sie für &quot;**[!UICONTROL Prefix Dropdown Options]**&quot;jedes Präfix ein, das in der Liste angezeigt werden soll (durch Semikolon getrennt).
 
    >[!IMPORTANT]
    >
    >Setzen Sie ein Semikolon vor den ersten Wert, um oben in der Liste einen leeren Wert anzuzeigen.
 
-1. Für **[!UICONTROL Suffix Dropdown Options]** Geben Sie jedes Suffix ein, das in der Liste angezeigt werden soll (durch Semikolon getrennt).
+1. Geben Sie für &quot;**[!UICONTROL Suffix Dropdown Options]**&quot;jedes Suffix ein, das in der Liste angezeigt werden soll (durch Semikolon getrennt).
 
-1. Um die folgenden Felder in Kundenformulare einzuschließen, setzen Sie den Wert für jedes auf `Optional` oder `Required`nach Bedarf.
+1. Um die folgenden Felder in Kundenformulare einzuschließen, setzen Sie den Wert für jeden auf `Optional` oder `Required`.
 
    - **[!UICONTROL Show Telephone]**
    - **[!UICONTROL Show Company]**
@@ -71,75 +71,75 @@ Sie können die Namen- und Adressoptionen konfigurieren, die Kunden auf der Stor
 
 ### Schritt 3: Speichern und aktualisieren
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
-1. Klicken Sie in der Nachricht oben auf der Seite auf **[!UICONTROL Cache Management]** und [Aktualisieren](../systems/cache-management.md) jeden ungültigen Cache.
+1. Klicken Sie in der Meldung oben auf der Seite auf **[!UICONTROL Cache Management]** und [refresh](../systems/cache-management.md) jeden ungültigen Cache.
 
 ## Name und Adressenoptionen für die Magento Open Source konfigurieren
 
 Konfigurieren Sie die Namen- und Adressenoptionen, die Kunden auf der Storefront angezeigt werden, wenn sie ihr Konto erstellen.
 
-![Anmeldeformular für Kundenkonto](assets/storefront-customer-account-signup.png){width="500" zoomable="yes"}
+![Anmeldeformular für das Kundenkonto](assets/storefront-customer-account-signup.png){width="500" zoomable="yes"}
 
 ### Schritt 1: Festlegen des Umfangs der Konfiguration
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen **[!UICONTROL Customer Configuration]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Customer Configuration]** aus.
 
-1. Erweitern Sie die **[!UICONTROL Name and Address Options]** Abschnitt.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Name and Address Options]** .
 
    >[!IMPORTANT]
    >
-   > Beachten Sie, dass der Umfang der Namen- und Adressenoptionen auf der `website` Ebene.
+   > Beachten Sie, dass der Umfang der Namen- und Adressenoptionen auf `website` -Ebene gilt.
 
    ![Name und Adressenoptionen](../configuration-reference/customers/assets/customer-configuration-name-address-options-ce.png){width="600" zoomable="yes"}
 
 1. Scrollen Sie nach oben auf der Seite zurück und legen Sie den Umfang der Konfiguration auf einen der folgenden Werte fest:
 
    - `Default Config`
-   - `Main Website` (oder spezifische Site für Installationen mehrerer Standorte)
+   - `Main Website` (oder spezifische Site für Installationen mehrerer Sites)
 
    >[!NOTE]
    >
-   >Die _Name und Adressenoptionen_ wird nicht angezeigt, wenn der Bereich auf `Default Store View`.
+   >Der Abschnitt _Name und Adressenoptionen_ wird nicht angezeigt, wenn der Umfang auf `Default Store View` festgelegt ist.
 
-   ![Konfigurationsumfang](assets/configuration-scope.png){width="600" zoomable="yes"}
+   ![Konfigurationsbereich](assets/configuration-scope.png){width="600" zoomable="yes"}
 
 ### Schritt 2: Konfigurieren Sie die Namen- und Adressenoptionen.
 
-1. Kehren Sie zu [!UICONTROL _Name und Adressenoptionen_] auf der Seite &quot;Kundenkonfiguration&quot;angezeigt.
+1. Kehren Sie zum Abschnitt [!UICONTROL _Name und Adressenoptionen_] auf der Seite &quot;Kundenkonfiguration&quot;zurück.
 
    >[!INFO]
    >
-   >Wenn Sie die Variable `Default config` Scope-Einstellung festlegen, müssen Sie die `Use Default` für jedes Feld ein, bevor der Wert geändert wird.
+   >Wenn Sie die Bereichseinstellung `Default config` nicht verwenden, müssen Sie das Kontrollkästchen `Use Default` für jedes Feld deaktivieren, bevor Sie den Wert ändern.
 
-1. Für **Anzahl der Zeilen in einer Straße**, geben Sie eine Zahl von 1 bis 4 ein.
+1. Geben Sie für **Anzahl der Zeilen in einer Straßenadresse** eine Zahl zwischen 1 und 4 ein.
 
    >[!WARNING]
    >
    >Standardmäßig beträgt die Straße drei Zeilen.
 
-1. Um ein Präfix (z. B. Herr oder Frau) als Teil des Namens einzubeziehen, legen Sie **Präfix anzeigen** nach `Yes`.
+1. Um ein Präfix (z. B. Herr oder Frau) als Teil des Namens einzufügen, setzen Sie **Präfix anzeigen** auf `Yes`.
 
    ![Präfix im Anmeldeformular für Kunden](assets/storefront-customer-account-prefix.png){width="600" zoomable="yes"}
 
    >[!INFO]
    >
-   >Für **Dropdown-Optionen für Präfix** Geben Sie jedes Präfix ein, das in der Liste angezeigt werden soll (durch Semikolon getrennt). Sie können ein Semikolon vor dem ersten Wert platzieren, um oben in der Liste einen leeren Wert anzuzeigen.
+   >Geben Sie für &quot;**Präfix-Dropdown-Optionen**&quot;jedes Präfix ein, das in der Liste angezeigt werden soll (durch Semikolon getrennt). Sie können ein Semikolon vor dem ersten Wert platzieren, um oben in der Liste einen leeren Wert anzuzeigen.
 
-1. Um ein optionales Feld für den Vornamen oder den Anfangs-Namen des Kunden einzuschließen, legen Sie **[!UICONTROL Show Middle Name (initial)]** nach `Yes`.
+1. Um ein optionales Feld für den Vornamen oder den Anfangstitel des Kunden einzuschließen, setzen Sie **[!UICONTROL Show Middle Name (initial)]** auf `Yes`.
 
-1. So fügen Sie ein Suffix hinzu (z. B. Jr. oder Sr) nach dem Kundennamen, setzen Sie **[!UICONTROL Show Suffix]** auf einen der folgenden Werte zu:
+1. So fügen Sie ein Suffix hinzu (z. B. Jr. oder Sr.) nach dem Kundennamen, setzen Sie **[!UICONTROL Show Suffix]** auf einen der folgenden Werte:
 
    - `Optional`
    - `Required`
 
    >[!INFO]
    >
-   >Für **Suffix-Dropdown-Optionen** Geben Sie jedes Suffix ein, das in der Liste angezeigt werden soll (durch Semikolon getrennt). Sie können ein Semikolon vor dem ersten Wert platzieren, um oben in der Liste einen leeren Wert anzuzeigen.
+   >Geben Sie für **Suffix-Dropdown-Optionen** jedes Suffix ein, das in der Liste angezeigt werden soll, getrennt durch Semikolon. Sie können ein Semikolon vor dem ersten Wert platzieren, um oben in der Liste einen leeren Wert anzuzeigen.
 
-1. Um das Geburtsdatum einzubeziehen, legen Sie **[!UICONTROL Show Date of Birth]** auf einen der folgenden Werte zu:
+1. Um das Geburtsdatum einzubeziehen, setzen Sie **[!UICONTROL Show Date of Birth]** auf einen der folgenden Werte:
 
    - `Optional`
    - `Required`
@@ -152,19 +152,19 @@ Konfigurieren Sie die Namen- und Adressenoptionen, die Kunden auf der Storefront
 
    ![Geburtsdatum im Anmeldeformular des Kunden](assets/storefront-customer-account-date-of-birth.png){width="600" zoomable="yes"}
 
-1. So lassen Sie Kunden die Eingabe ihrer Steuer oder [Mehrwertsteuer](../stores-purchase/vat.md) Zahl, festgelegt **[!UICONTROL Show Tax/VAT Number]** auf einen der folgenden Werte zu:
+1. Um Kunden die Eingabe ihrer Steuer oder [Mehrwertsteuer](../stores-purchase/vat.md)-Nummer zu ermöglichen, setzen Sie **[!UICONTROL Show Tax/VAT Number]** auf einen der folgenden Werte:
 
    - `Optional`
    - `Required`
 
-1. Um ein Feld für das Geschlecht in das Kundenformular aufzunehmen, legen Sie **[!UICONTROL Show Gender]** auf einen der folgenden Werte zu:
+1. Um ein Feld für das Geschlecht in das Kundenformular einzuschließen, setzen Sie **[!UICONTROL Show Gender]** auf einen der folgenden Werte:
 
    - `Optional`
    - `Required`
 
    ![Geschlechteroptionen im Anmeldeformular für Kunden](assets/storefront-customer-account-gender.png){width="600" zoomable="yes"}
 
-1. Um die folgenden Felder in Kundenformulare einzuschließen, setzen Sie den Wert für jedes auf `Optional` oder `Required`nach Bedarf.
+1. Um die folgenden Felder in Kundenformulare einzuschließen, setzen Sie den Wert für jeden auf `Optional` oder `Required`.
 
    - **[!UICONTROL Show Telephone]**
    - **[!UICONTROL Show Company]**
@@ -172,6 +172,6 @@ Konfigurieren Sie die Namen- und Adressenoptionen, die Kunden auf der Storefront
 
 ### Schritt 3: Speichern und aktualisieren
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
-1. Klicken Sie in der Nachricht oben auf der Seite auf **[!UICONTROL Cache Management]** und [Aktualisieren](../systems/cache-management.md) jeden ungültigen Cache.
+1. Klicken Sie in der Meldung oben auf der Seite auf **[!UICONTROL Cache Management]** und [refresh](../systems/cache-management.md) jeden ungültigen Cache.

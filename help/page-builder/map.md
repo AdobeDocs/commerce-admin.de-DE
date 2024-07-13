@@ -1,20 +1,20 @@
 ---
 title: Media - Map
-description: Erfahren Sie mehr über den Inhaltstyp "Map"zum Hinzufügen einer Zuordnung aus [!DNL Google Maps] Plattform für [!DNL Page Builder] Bühne.
+description: Erfahren Sie mehr über den Inhaltstyp Zuordnung , mit dem eine Zuordnung von  [!DNL Google Maps] Plattform zur [!DNL Page Builder] Bühne hinzugefügt wird.
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
 source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
 
 # Media - Map
 
-Verwenden Sie die _Zuordnung_ Inhaltstyp zum Hinzufügen einer Zuordnung aus [[!DNL Google Maps] Plattform][1] der [[!DNL Page Builder] Schritt](workspace.md#stage). Sie können beispielsweise eine Zuordnung zu einem Block hinzufügen und den Block dann zum [Über uns](../content-design/pages.md#about-us) und [Kontakt](../getting-started/store-details.md#contact-us-form) Seiten.
+Verwenden Sie den Inhaltstyp _Zuordnung_ , um der [[!DNL Page Builder] Bühne](workspace.md#stage) eine Zuordnung von [[!DNL Google Maps] Plattform][1] hinzuzufügen. Sie können beispielsweise einem Block eine Zuordnung hinzufügen und den Block dann den Seiten [Über uns](../content-design/pages.md#about-us) und [Kontakt](../getting-started/store-details.md#contact-us-form) hinzufügen.
 
-So nutzen Sie das Beste aus [!DNL Google Maps] Platform: Sie können die Zuordnung anpassen, Ihre Speicherorte hervorheben und Google verwenden [Orte][2] um umfassende Informationen zu Ihrem Geschäft zu allen hinzuzufügen [!DNL Google Maps].
+Um das Beste aus der [!DNL Google Maps]-Plattform zu erhalten, können Sie die Karte anpassen, Ihre Speicherorte hervorheben und Google [Places][2] verwenden, um allen [!DNL Google Maps] umfassende Informationen über Ihren Store hinzuzufügen.
 
 ## Vorteile der Einbettung einer Google-Karte
 
@@ -26,7 +26,7 @@ So nutzen Sie das Beste aus [!DNL Google Maps] Platform: Sie können die Zuordnu
 
 1. Wenn Sie über eine Kette von physischen Stores verfügen, hilft das Hinzufügen einer Google-Karte auf Ihrer Site, Ihr Markenbewusstsein und Ihre Glaubwürdigkeit in Form von hervorgehobenen Artikeln zu steigern.
 
-![Beispiel-Storefront - Karte mit Standort](./assets/pb-media-maps-storefront.png){width="700" zoomable="yes"}
+![Beispiel-Storefront - Zuordnung mit Position](./assets/pb-media-maps-storefront.png){width="700" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -36,10 +36,10 @@ Die Zuordnungs-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Zuordnu
 
 | Tool | Symbol | Beschreibung |
 |--- |--- |--- |
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png){width="25"} | Verschiebt die Karte an eine andere Position auf der Bühne. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png){width="25"} | Verschiebt die Karte an eine andere Position auf der Bühne. |
 | (Titel) | [!UICONTROL Map] | Identifiziert den aktuellen Inhalts-Container als Zuordnung. Bewegen Sie den Mauszeiger über den Zuordnungsbehälter, um die Toolbox anzuzeigen. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite Zuordnung bearbeiten , auf der Sie die Eigenschaften der Zuordnung und des Containers ändern können. |
-| Ausblenden | ![Symbol &quot;Ausblenden&quot;](./assets/pb-icon-hide.png){width="25"} | Blendet die aktuelle Karte aus. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite Zuordnung bearbeiten , auf der Sie die Eigenschaften der Zuordnung und des Containers ändern können. |
+| Ausblenden | ![Symbol zum Ausblenden](./assets/pb-icon-hide.png){width="25"} | Blendet die aktuelle Karte aus. |
 | Anzeigen | ![Symbol &quot;Anzeigen&quot;](./assets/pb-icon-show.png){width="25"} | Zeigt die ausgeblendete Karte an. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="25"} | Kopiert die Karte. |
 | Entfernen | ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="25"} | Löscht die Zuordnung aus der Bühne. |
@@ -48,49 +48,49 @@ Die Zuordnungs-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Zuordnu
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
-## Konfigurieren [!DNL Google Maps] für Ihren Administrator
+## Konfigurieren Sie [!DNL Google Maps] für Ihren Admin
 
-Bevor Sie eine Zuordnung hinzufügen, müssen Sie zunächst eine [account][3] für einen kostenlosen Prozess von [!DNL Google Maps] Plattform. Die kostenlose Testversion dauert 12 Monate und beinhaltet 300 USD. Wenn Sie Ihr Guthaben in Anspruch nehmen, rechnet Google Ihr Konto nicht ohne Ihre Erlaubnis ab.
+Bevor Sie eine Zuordnung hinzufügen, müssen Sie zunächst ein [Konto][3] für eine kostenlose Testversion von [!DNL Google Maps] Platform öffnen. Die kostenlose Testversion dauert 12 Monate und beinhaltet 300 USD. Wenn Sie Ihr Guthaben in Anspruch nehmen, rechnet Google Ihr Konto nicht ohne Ihre Erlaubnis ab.
 
-### Schritt 1: Herunterladen [!DNL Google Maps] API-Schlüssel
+### Schritt 1: Abrufen des [!DNL Google Maps]-API-Schlüssels
 
-Je nachdem, ob Sie bereits über eine [!DNL Google Maps] verwenden Sie eines der folgenden Verfahren, um den für die Konfiguration erforderlichen API-Schlüssel abzurufen. So richten Sie eine [!DNL Google Maps] eingeben, müssen Sie ein autorisierter Site-Administrator sein, um die Abrechnung für Ihr Konto zu aktivieren. Wenn Sie noch nicht bereit sind, eine [!DNL Google Maps] Platform-Konto können Sie diesen Schritt überspringen und die Platzhalterzuordnung für jetzt verwenden.
+Je nachdem, ob Sie bereits über einen [!DNL Google Maps] -Schlüssel verfügen, verwenden Sie eine der folgenden Vorgehensweisen, um den für die Konfiguration erforderlichen API-Schlüssel abzurufen. Um einen [!DNL Google Maps] -Schlüssel einzurichten, müssen Sie ein Site-Administrator sein, der zur Aktivierung der Abrechnung für Ihr Konto berechtigt ist. Wenn Sie noch nicht bereit sind, ein [!DNL Google Maps] Platform-Konto einzurichten, können Sie diesen Schritt überspringen und die Platzhalterzuordnung für den Moment verwenden.
 
-1. Navigieren Sie zu [Google Cloud Platform-Konsole](https://cloud.google.com/console/google/maps-apis/overview).
+1. Wechseln Sie zur [Google Cloud Platform Console](https://cloud.google.com/console/google/maps-apis/overview).
 
 1. Klicken Sie auf das Projekt-Dropdown-Menü und wählen oder erstellen Sie das Projekt, für das Sie einen API-Schlüssel hinzufügen möchten.
 
-1. Um Ihre API-Anmeldeinformationen zu konfigurieren, folgen Sie dem [instructions][4] im [!DNL Google Maps] Dokumentationen.
+1. Um Ihre API-Anmeldeinformationen zu konfigurieren, befolgen Sie die [Anweisungen][4] in der [!DNL Google Maps] -Dokumentation.
 
 1. Kopieren Sie Ihren API-Schlüssel in die Zwischenablage.
 
-### Schritt 2: Konfigurieren [!DNL Google Maps] in [!DNL Commerce]
+### Schritt 2: Konfigurieren Sie [!DNL Google Maps] in [!DNL Commerce]
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Im linken Bereich unter _[!UICONTROL General]_auswählen **[!UICONTROL Content Management]**.
+1. Wählen Sie im linken Bereich unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
-   ![Erweiterte Inhaltswerkzeuge](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
+   ![Erweiterte Content-Tools](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
-   Weitere Informationen zu den Konfigurationsoptionen für erweiterte Content Management-Tools finden Sie in der [Konfigurationshandbuch](../configuration-reference/general/content-management.md).
+   Weitere Informationen zu den Konfigurationsoptionen für die erweiterten Werkzeuge für Content Management finden Sie im [Konfigurationshandbuch](../configuration-reference/general/content-management.md).
 
-1. Für **[!UICONTROL Google Maps API Key]**, fügen Sie den Schlüssel ein, den Sie in Schritt 1 kopiert haben.
+1. Fügen Sie für **[!UICONTROL Google Maps API Key]** den Schlüssel ein, den Sie in Schritt 1 kopiert haben.
 
-1. Klicken **[!UICONTROL Test Key]**.
+1. Klicken Sie auf **[!UICONTROL Test Key]**.
 
-   Wenn ein Problem mit Ihrem Schlüssel vorliegt, kehren Sie zum [!DNL Google Maps] Plattform-Site zur Lösung des Problems. Versuchen Sie es dann erneut.
+   Wenn ein Problem mit Ihrem Schlüssel auftritt, kehren Sie zur Platform-Site &quot;[!DNL Google Maps]&quot;zurück, um das Problem zu beheben. Versuchen Sie es dann erneut.
 
 1. Nachdem Ihr Schlüssel verifiziert wurde, klicken Sie auf **[!UICONTROL Save Config]**.
 
 ## Hinzufügen einer Karte zur Bühne
 
-1. Öffnen Sie die Seite, den Baustein oder den dynamischen Baustein in der [!DNL Page Builder] Arbeitsbereich.
+1. Öffnen Sie die Seite, den Block oder den dynamischen Block im Arbeitsbereich [!DNL Page Builder] .
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Media]** und ziehen Sie eine **[!UICONTROL Map]** Platzhalter zur Bühne.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Wert **[!UICONTROL Media]** und ziehen Sie einen Platzhalter **[!UICONTROL Map]** auf die Bühne.
 
-   ![Ziehen einer Karte auf die Bühne](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
+   ![Ziehen einer Zuordnung zur Bühne](./assets/pb-media-map-drag.png){width="600" zoomable="yes"}
 
    Wenn [!DNL Google Maps] Platform für Ihren Store konfiguriert ist, wird eine Zuordnung für Ihren Store-Speicherort angezeigt.
 
@@ -102,33 +102,33 @@ Je nachdem, ob Sie bereits über eine [!DNL Google Maps] verwenden Sie eines der
 
 ## Hinzufügen eines benutzerdefinierten Zuordnungsstandorts
 
-1. Bewegen Sie den Mauszeiger über den Map-Container, um die Toolbox anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den Zuordnungsbehälter, um die Toolbox anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
-1. In der oberen rechten Ecke der _[!UICONTROL Edit Map]_Seite, klicken **[!UICONTROL Add Location]**.
+1. Klicken Sie in der rechten oberen Ecke der Seite _[!UICONTROL Edit Map]_auf **[!UICONTROL Add Location]**.
 
-1. Geben Sie die **[!UICONTROL Location Name]** die Sie mit dem Pin auf der Karte verknüpfen möchten.
+1. Geben Sie den **[!UICONTROL Location Name]** ein, der mit dem Pin auf der Karte verknüpft werden soll.
 
 1. Erfassen Sie die Standortkoordinaten, die Sie für den benutzerdefinierten Speicherort verwenden möchten.
 
-   Alternativ können Sie in der **[!UICONTROL Position]** können Sie den Stift in die angezeigte Karte ziehen.
+   Alternativ können Sie im Feld &quot;**[!UICONTROL Position]**&quot; den Pin auf die angezeigte Karte ziehen.
 
-   Gehen Sie bei Bedarf zu [[!DNL Google Maps]][5] in einem neuen Browserfenster verwenden und eine der folgenden Methoden verwenden, um die Koordinaten abzurufen:
+   Wechseln Sie bei Bedarf in einem neuen Browserfenster zu [[!DNL Google Maps]][5] und verwenden Sie eine der folgenden Methoden, um die Koordinaten abzurufen:
 
-   ![Map Coordinates](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
+   ![Zuordnungskoordinaten](./assets/pb-media-maps-settings-add-location-coordinates.png){width="600" zoomable="yes"}
 
-   **Methode 1:** Aus URL kopieren
+   **Methode 1:** Kopie von URL
 
-   - Geben Sie in der linken oberen Ecke die Adresse in das Feld **[!UICONTROL Search]** und klicken Sie auf _Suche_ ( ![Suchsymbol](../assets/icon-magnify-search.png){width="20"} ).
+   - Geben Sie oben links die Adresse in das Feld **[!UICONTROL Search]** ein und klicken Sie auf das Symbol _Suchen_ ( ![Suchsymbol](../assets/icon-magnify-search.png){width="20"} ).
 
    - Kopieren Sie die Koordinaten in der URL und fügen Sie sie in ein Notebook ein.
 
    **Methode 2:** Kopie von &quot;Was ist hier?&quot;
 
-   - Klicken Sie mit der rechten Maustaste auf den roten Pin, der die Position auf der Karte markiert, und wählen Sie **[!UICONTROL What's here?]** im Menü.
+   - Klicken Sie mit der rechten Maustaste auf den roten Pin, der die Position auf der Karte markiert, und wählen Sie im Menü **[!UICONTROL What's here?]** aus.
 
    - Kopieren Sie in der angezeigten Beschriftung den Text, einschließlich der Koordinaten, und fügen Sie den Text in ein Notizblock ein.
 
-1. Geben Sie in jedem der **[!UICONTROL Coordinates]** Boxen.
+1. Geben Sie die Zahlen ohne Komma in die einzelnen **[!UICONTROL Coordinates]**-Felder ein.
 
    Sie können auch so viele der restlichen Informationen eingeben, die Sie auf der Karte zur Verfügung haben möchten.
 
@@ -146,47 +146,47 @@ Je nachdem, ob Sie bereits über eine [!DNL Google Maps] verwenden Sie eines der
 
    {style="table-layout:auto"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
-   Die neue Position wird auf der Karte und im Raster für die Zuordnungsposition auf der Karte angezeigt _[!UICONTROL Edit Map]_Seite.
+   Die neue Position wird auf der Karte und im Raster für die Zuordnungsposition auf der Seite _[!UICONTROL Edit Map]_angezeigt.
 
-   ![[!DNL Page Builder] - Zuordnungsspeichergitter](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] - ordnet das Positionsraster](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"} zu
 
 ## Zuordnung formatieren {#styling}
 
-Verwenden Sie die [!DNL Google Maps] Assistent für den Plattformstil , um ein von sechs vordefinierten Designs anzuwenden oder ein benutzerdefiniertes Design zu erstellen. Sie können eine JSON-Datei mit den Eigenschaften des Zuordnungsstils oder einen Link zur formatierten Zuordnung generieren.
+Verwenden Sie den Assistenten für Plattformstile, um ein von sechs vordefinierten Designs anzuwenden oder ein benutzerdefiniertes Design zu erstellen. [!DNL Google Maps] Sie können eine JSON-Datei mit den Eigenschaften des Zuordnungsstils oder einen Link zur formatierten Zuordnung generieren.
 
 ### Ändern des Zuordnungsstils
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Im linken Bereich unter _[!UICONTROL General]_auswählen **[!UICONTROL Content Management]**.
+1. Wählen Sie im linken Bereich unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
-1. Unter dem **[!UICONTROL Google Maps Style]** Textfeld, klicken Sie auf [Kartenstil erstellen][6].
+1. Klicken Sie unter dem Textfeld **[!UICONTROL Google Maps Style]** auf [Zuordnungsstil erstellen][6].
 
-   Diese Aktion öffnet die [[!DNL Google Maps] Assistent für die Platform-Formatierung][6] auf einer separaten Registerkarte, auf der Sie einen Stil für Ihre [!DNL Google Maps] Plattform-Projekt.
+   Durch diese Aktion wird der [[!DNL Google Maps] Assistent für die Platform-Formatierung][6] auf einer separaten Registerkarte geöffnet, auf der Sie einen Stil für Ihr [!DNL Google Maps] Platform-Projekt definieren können.
 
-1. Klicks **[!UICONTROL Create a Style]** und befolgen Sie die angegebenen Anweisungen.
+1. Klicken Sie auf **[!UICONTROL Create a Style]** und befolgen Sie die angegebenen Anweisungen.
 
-   Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Finish]**.
+   Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Finish]**.
 
-1. Exportieren Sie den abgeschlossenen Stil als JSON-Code oder als URL, damit Sie ihn zum [!DNL Commerce] Konfiguration.
+1. Exportieren Sie den abgeschlossenen Stil als JSON-Code oder als URL, damit Sie ihn zur [!DNL Commerce] -Konfiguration hinzufügen können.
 
    - **JSON**: Klicken Sie unter dem Feld mit dem generierten JSON-Code auf **[!UICONTROL Copy JSON]**.
 
    - **[!UICONTROL URL]**: Klicken Sie unter dem Feld mit der generierten URL auf **[!UICONTROL Copy URL]**.
 
-1. Kehren Sie zur Registerkarte Ihres Admin-Browsers zurück und fügen Sie den generierten Code oder die URL in die **Stil von Google Maps** ankreuzen.
+1. Kehren Sie zur Registerkarte Ihres Admin-Browsers zurück und fügen Sie den generierten Code oder die URL in das Feld **Google Maps Style** ein.
 
-   Wenn Sie eine URL verwenden, ersetzen Sie die `YOUR_API_KEY` Platzhalter mit Ihrem [!DNL Google Maps] API-Schlüssel. Diese URL verweist auf Ihre formatierte Google Map.
+   Wenn Sie eine URL verwenden, ersetzen Sie den Platzhalter `YOUR_API_KEY` durch Ihren API-Schlüssel [!DNL Google Maps] . Diese URL verweist auf Ihre formatierte Google Map.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Save Config]**.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Save Config]**.
 
 ### Ändern der Zuordnungseinstellungen
 
-1. Bewegen Sie den Mauszeiger über den Zuordnungsbehälter, um das Tool-Feld anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den Zuordnungsbehälter, um das Tool-Feld anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Ändern Sie die grundlegenden Einstellungen nach Bedarf:
 
@@ -197,9 +197,9 @@ Verwenden Sie die [!DNL Google Maps] Assistent für den Plattformstil , um ein v
 
    {style="table-layout:auto"}
 
-1. Ändern Sie die _[!UICONTROL Advanced]_Einstellungen nach Bedarf:
+1. Ändern Sie die Einstellungen für _[!UICONTROL Advanced]_nach Bedarf:
 
-   - Um die horizontale Positionierung des Zuordnungsinhalts zu steuern, der dem Container hinzugefügt wird, wählen Sie eine **[!UICONTROL Alignment]**:
+   - Um die horizontale Positionierung des Zuordnungsinhalts zu steuern, der dem Container hinzugefügt wird, wählen Sie einen **[!UICONTROL Alignment]**:
 
      | Option | Beschreibung |
      | ------ | ----------- |
@@ -210,7 +210,7 @@ Verwenden Sie die [!DNL Google Maps] Assistent für den Plattformstil , um ein v
 
      {style="table-layout:auto"}
 
-   - Legen Sie die **[!UICONTROL Border]** Stil angewendet auf alle vier Seiten des Map-Containers:
+   - Legen Sie den **[!UICONTROL Border]** -Stil fest, der auf alle vier Seiten des Zuordnungscontainers angewendet wird:
 
      | Option | Beschreibung |
      | ------ | ----------- |
@@ -227,7 +227,7 @@ Verwenden Sie die [!DNL Google Maps] Assistent für den Plattformstil , um ein v
 
      {style="table-layout:auto"}
 
-   - Wenn Sie einen anderen Rahmenstil als `None`, füllen Sie die Randanzeigeoptionen aus:
+   - Wenn Sie einen anderen Rahmenstil als `None` festlegen, füllen Sie die Anzeigeoptionen für die Rahmenanzeige aus:
 
      ![Rahmenfarbe](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
@@ -239,11 +239,11 @@ Verwenden Sie die [!DNL Google Maps] Assistent für den Plattformstil , um ein v
 
      {style="table-layout:auto"}
 
-   - (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet, das auf den Zuordnungscontainer angewendet werden soll.
+   - (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet an, das auf den Zuordnungscontainer angewendet werden soll.
 
      Trennen Sie mehrere Klassennamen durch ein Leerzeichen.
 
-   - Geben Sie Werte in Pixel für die **[!UICONTROL Margins and Padding]** um die äußeren Ränder und den inneren Abstand des Kartencontainers anzugeben.
+   - Geben Sie Werte in Pixel an, damit der **[!UICONTROL Margins and Padding]** die äußeren Ränder und den inneren Abstand des Zuordnungscontainers angibt.
 
      Geben Sie jeden entsprechenden Wert in das Zuordnungsbehälterdiagramm ein.
 
@@ -258,31 +258,31 @@ Verwenden Sie die [!DNL Google Maps] Assistent für den Plattformstil , um ein v
      >
      >Der Abstand ist für den Inhaltstyp Zuordnung nicht verfügbar.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ### Rastergröße ändern
 
-Die Rastergröße bestimmt die Größe der Karte, die sich auf eine [column](column.md) auf [!DNL Page Builder] Bühne. Standardmäßig ist die Karte 12 Spalten breit, mit maximal 16 Spalten.
+Die Rastergröße bestimmt die Größe der Karte, die sich auf eine [Spalte](column.md) auf der [!DNL Page Builder]-Bühne bezieht. Standardmäßig ist die Karte 12 Spalten breit, mit maximal 16 Spalten.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Im linken Bereich unter _[!UICONTROL General]_auswählen **[!UICONTROL Content Management]**.
+1. Wählen Sie im linken Bereich unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
 1. Aktualisieren Sie die Rasteroptionen nach Bedarf:
 
    >[!NOTE]
    >
-   >Falls erforderlich, löschen Sie die **[!UICONTROL Use system value]** aktivieren, um diese Einstellungen zu ändern.
+   >Deaktivieren Sie bei Bedarf das Kontrollkästchen **[!UICONTROL Use system value]** , um diese Einstellungen zu ändern.
 
-   - Für **[!UICONTROL Default Column Grid Size]**, geben Sie einen neuen Wert für die Standardgröße des Rasters ein.
+   - Geben Sie für **[!UICONTROL Default Column Grid Size]** einen neuen Wert für die Standardgröße des Rasters ein.
 
-   - Für **[!UICONTROL Maximum Column Grid Size]**, geben Sie einen neuen Wert für die standardmäßige maximale Rastergröße ein.
+   - Geben Sie für **[!UICONTROL Maximum Column Grid Size]** einen neuen Wert für die standardmäßige maximale Rastergröße ein.
 
-   ![Größeneinstellungen des Spalten-Rasters](./assets/pb-configure-advanced-content-tools-grid-size.png){width="600" zoomable="yes"}
+   ![Einstellungen für die Spaltenrastergröße](./assets/pb-configure-advanced-content-tools-grid-size.png){width="600" zoomable="yes"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 [1]: https://cloud.google.com/maps-platform/
 [2]: https://cloud.google.com/maps-platform/places/

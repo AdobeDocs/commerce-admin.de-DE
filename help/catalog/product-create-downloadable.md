@@ -5,7 +5,7 @@ exl-id: c3dd4c5f-adc1-4a8f-a9da-7f0dedd1ee34
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Ein herunterladbares Produkt kann alles sein, was Sie als Datei bereitstellen k�
 
 Da der Download erst nach dem Kauf verfügbar ist, können Sie Beispiele wie einen Auszug aus einem Buch, einen Clip aus einer Audiodatei oder einen Trailer aus einem Video bereitstellen. Ein Beispiel kann der Kunde vor dem Kauf des Produkts ausprobieren. Die Dateien, die Sie zum Herunterladen bereitstellen, können entweder auf Ihren Server oder von einem anderen Server hochgeladen werden.
 
-![herunterladbares Produkt](./assets/storefront-product-downloadable.png){width="700" zoomable="yes"}
+![ Herunterladbares Produkt](./assets/storefront-product-downloadable.png){width="700" zoomable="yes"}
 
 Herunterladbare Produkte können so konfiguriert werden, dass der Kunde sich bei einem Konto anmeldet, um den Link zu erhalten, oder dass er per E-Mail gesendet und für andere freigegeben werden kann. Der Status der Bestellung, bevor der Download verfügbar wird, Standardwerte und andere Bereitstellungsoptionen werden in der Konfiguration festgelegt. Beachten Sie beim Planen der herunterladbaren Katalogadditionen Folgendes:
 
@@ -26,59 +26,59 @@ Herunterladbare Produkte können so konfiguriert werden, dass der Kunde sich bei
 
 - Kunden, die ein herunterladbares Produkt erwerben, müssen sich vor dem Checkout anmelden.
 
-- Die Bereitstellung eines herunterladbaren Produkts kann erfolgen, wenn die Bestellung entweder in einer `Pending` oder `Invoiced` -Status.
+- Der Versand eines herunterladbaren Produkts kann erfolgen, wenn die Bestellung entweder den Status `Pending` oder `Invoiced` aufweist.
 
-- Da herunterladbare Produkte nicht ausgeliefert werden, wird die _Versand_ Schritt des Checkout wird übersprungen, wenn der Warenkorb nur das herunterladbare Produkt enthält.
+- Da herunterladbare Produkte nicht ausgeliefert werden, wird der Schritt _Versand_ des Checkouts übersprungen, wenn der Warenkorb nur das herunterladbare Produkt enthält.
 
 
 ## Download-Optionen konfigurieren
 
 Die herunterladbaren Konfigurationseinstellungen bestimmen die Standardwerte und Bereitstellungsoptionen für herunterladbare Produkte und geben an, ob Gäste Downloads erwerben können.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen **[!UICONTROL Catalog]** darunter.
+1. Erweitern Sie im linken Bedienfeld den Wert **[!UICONTROL Catalog]** und wählen Sie unter &quot;**[!UICONTROL Catalog]**&quot;.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die _[!UICONTROL Downloadable Product Options]_Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt _[!UICONTROL Downloadable Product Options]_.
 
    ![Herunterladbare Produktoptionen](../configuration-reference/catalog/assets/catalog-downloadable-product-options.png){width="700" zoomable="yes"}
 
-   Eine detaillierte Liste dieser Konfigurationsoptionen finden Sie unter [_Herunterladbare Produktoptionen_](../configuration-reference/catalog/catalog.md#downloadable-product-options) im _Konfigurationsreferenz_.
+   Eine detaillierte Liste dieser Konfigurationsoptionen finden Sie unter [_Download-Produktoptionen_](../configuration-reference/catalog/catalog.md#downloadable-product-options) in der _Konfigurationsreferenz_.
 
-1. Um den Status des Bestellprozesses zu bestimmen, wenn der Download verfügbar wird, legen Sie **[!UICONTROL Order Item Status to Enable Downloads]** auf einen der folgenden Werte zu:
+1. Um den Status des Bestellprozesses zu bestimmen, wenn der Download verfügbar wird, setzen Sie **[!UICONTROL Order Item Status to Enable Downloads]** auf einen der folgenden Werte:
 
    - `Pending`
    - `Invoiced`
 
-1. Geben Sie die Zahl für ein **[!UICONTROL Default Maximum Number of Downloads]**.
+1. Geben Sie die Zahl für **[!UICONTROL Default Maximum Number of Downloads]** ein, um die Anzahl der Downloads, die ein einzelner Kunde ausführen kann, standardmäßig zu begrenzen.
 
-1. Satz **[!UICONTROL Shareable]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Shareable]** auf einen der folgenden Werte:
 
-   - `Yes` - Ermöglicht es Kunden, den Download-Link per E-Mail an andere Personen zu senden.
-   - `No` - Verhindert, dass Kunden den Download-Link für andere freigeben, indem sie Kunden auffordern, sich bei ihren Konten anzumelden, um auf Download-Links zugreifen zu können.
+   - `Yes` - Ermöglicht es Kunden, den Downloadlink per E-Mail an andere weiterzuleiten.
+   - `No` - Verhindert, dass Kunden den Downloadlink für andere freigeben, indem sie Kunden auffordern, sich bei ihren Konten anzumelden, um auf Download-Links zugreifen zu können.
 
-1. Für **[!UICONTROL Default Sample Title]** Geben Sie die Überschrift ein, die oberhalb der Auswahl der Beispiele angezeigt werden soll.
+1. Geben Sie für &quot;**[!UICONTROL Default Sample Title]**&quot;die Überschrift ein, die über der Auswahl der Beispiele angezeigt werden soll.
 
    ![Beispieltitel](./assets/product-downloadable-config-sample-title.png){width="400"}
 
-1. Für **[!UICONTROL Default Link Title]** Geben Sie den Standardtext ein, den Sie für Downloadlinks verwenden möchten.
+1. Geben Sie für &quot;**[!UICONTROL Default Link Title]**&quot;den Standardtext ein, den Sie für Downloadlinks verwenden möchten.
 
-1. Wenn der Download-Link in einem neuen Browser-Fenster geöffnet werden soll, legen Sie **[!UICONTROL Opens Links in New Window]** nach `Yes`.
+1. Wenn der Downloadlink in einem neuen Browserfenster geöffnet werden soll, setzen Sie **[!UICONTROL Opens Links in New Window]** auf `Yes`.
 
    Mit dieser Einstellung wird das Browser-Fenster für Ihren Store geöffnet gehalten.
 
-1. Legen Sie fest, wie herunterladbare Inhalte bereitgestellt werden sollen **[!UICONTROL Use Content Disposition]** auf einen der folgenden Werte zu:
+1. Um zu bestimmen, wie herunterladbare Inhalte bereitgestellt werden, setzen Sie **[!UICONTROL Use Content Disposition]** auf einen der folgenden Werte:
 
-   - `Attachment` - Stellt den Download-Link per E-Mail als Anhang bereit.
-   - `Inline` - Stellt den Downloadlink als Link auf einer Webseite bereit.
+   - `Attachment` - Stellt den Download-Link per E-Mail als Anlage bereit.
+   - `Inline` - Stellt den Download-Link als Link auf einer Webseite bereit.
 
-1. Wenn Sie verlangen möchten, dass sich Käufer für ein Kundenkonto registrieren und sich vor dem Kauf eines Downloads anmelden, legen Sie **[!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items]** nach `Yes`.
+1. Wenn Sie verlangen möchten, dass sich Käufer für ein Kundenkonto registrieren und sich vor dem Kauf eines Downloads anmelden, setzen Sie **[!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items]** auf `Yes`.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ## Erstellen eines herunterladbaren Produkts
 
-Die folgenden Anweisungen zeigen den Prozess der Erstellung eines herunterladbaren Produkts mit einem [Produktvorlage](attribute-sets.md), erforderliche Felder und grundlegende Einstellungen. Jedes erforderliche Feld ist mit einem roten Sternchen (`*`). Wenn Sie die Grundlagen abgeschlossen haben, können Sie die anderen Produkteinstellungen nach Bedarf abschließen.
+Die folgenden Anweisungen zeigen den Prozess der Erstellung eines herunterladbaren Produkts mit einer [Produktvorlage](attribute-sets.md), erforderlichen Feldern und grundlegenden Einstellungen. Jedes erforderliche Feld ist mit einem roten Sternchen (`*`) gekennzeichnet. Wenn Sie die Grundlagen abgeschlossen haben, können Sie die anderen Produkteinstellungen nach Bedarf abschließen.
 
 >[!NOTE]
 >
@@ -86,70 +86,70 @@ Die folgenden Anweisungen zeigen den Prozess der Erstellung eines herunterladbar
 
 ### Schritt 1: Produkttyp auswählen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Im _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) in der oberen rechten Ecke auswählen `Downloadable Product`.
+1. Wählen Sie im Menü _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) oben rechts `Downloadable Product` aus.
 
    ![Herunterladbares Produkt hinzufügen](./assets/product-add-downloadable.png){width="700" zoomable="yes"}
 
 ### Schritt 2: Attributsatz auswählen
 
-Die Beispieldaten enthalten eine [Attributset](attribute-sets.md) aufgerufen _herunterladbar_ , die spezielle Felder für herunterladbare Produkte enthält. Sie können eine vorhandene Vorlage verwenden oder eine andere erstellen, bevor das Produkt gespeichert wird.
+Die Beispieldaten enthalten einen [Attributsatz](attribute-sets.md) namens _herunterladbar_ mit speziellen Feldern für herunterladbare Produkte. Sie können eine vorhandene Vorlage verwenden oder eine andere erstellen, bevor das Produkt gespeichert wird.
 
 Führen Sie einen der folgenden Schritte aus, um den Attributsatz auszuwählen, der als Vorlage für das Produkt verwendet wird:
 
-- Für **[!UICONTROL Search]**, geben Sie den Namen des Attributsatzes ein.
+- Geben Sie für &quot;**[!UICONTROL Search]**&quot;den Namen des Attributsatzes ein.
 
-- Wählen Sie in der Liste die `Downloadable` -Attributsatz.
+- Wählen Sie in der Liste den Attributsatz `Downloadable` aus.
 
 Das Formular wird entsprechend der Änderung aktualisiert.
 
-![Attributset auswählen](./assets/product-create-choose-attribute-set-downloadable.png){width="600" zoomable="yes"}
+![Attributsatz auswählen](./assets/product-create-choose-attribute-set-downloadable.png){width="600" zoomable="yes"}
 
 ### Schritt 3: Ausführen der erforderlichen Einstellungen
 
-1. Geben Sie die **[!UICONTROL Product Name]**.
+1. Geben Sie den Wert **[!UICONTROL Product Name]** ein.
 
-1. Standard akzeptieren **[!UICONTROL SKU]** , der auf dem Produktnamen basiert, oder geben Sie einen anderen ein.
+1. Nehmen Sie die standardmäßige **[!UICONTROL SKU]** an, die auf dem Produktnamen basiert, oder geben Sie einen anderen ein.
 
-1. Produkt eingeben **[!UICONTROL Price]**.
+1. Geben Sie das Produkt **[!UICONTROL Price]** ein.
 
-1. Da das Produkt noch nicht zur Veröffentlichung bereit ist, legen Sie **[!UICONTROL Enable Product]** nach `No`.
+1. Da das Produkt noch nicht zur Veröffentlichung bereit ist, setzen Sie **[!UICONTROL Enable Product]** auf `No`.
 
-1. click **[!UICONTROL Save]** und fortfahren.
+1. Klicken Sie auf **[!UICONTROL Save]** und fahren Sie fort.
 
-   Wenn das Produkt gespeichert wird, wird die [Store-Ansicht](introduction.md#product-scope) wird in der linken oberen Ecke angezeigt.
+   Wenn das Produkt gespeichert wird, wird die Auswahl für die [Store-Ansicht](introduction.md#product-scope) in der oberen linken Ecke angezeigt.
 
-1. Wählen Sie die **[!UICONTROL Store View]** wo das Produkt verfügbar sein soll.
+1. Wählen Sie die **[!UICONTROL Store View]** aus, in der das Produkt verfügbar sein soll.
 
-   ![Store-Ansicht auswählen](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
+   ![Speicheransicht auswählen](./assets/product-create-store-view-choose.png){width="600" zoomable="yes"}
 
 ### Schritt 4: Grundlegende Einstellungen durchführen
 
-1. Satz **[!UICONTROL Tax Class]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Tax Class]** auf einen der folgenden Werte:
 
    - `None`
    - `Taxable Goods`
 
-1. Geben Sie die **[!UICONTROL Quantity]** des vorrätigen Erzeugnisses.
+1. Geben Sie den Wert **[!UICONTROL Quantity]** des vorrätigen Produkts ein.
 
    Beachten Sie Folgendes:
 
-   - Standardmäßig ist **[!UICONTROL Stock Status]** auf `Out of Stock`.
+   - Standardmäßig ist **[!UICONTROL Stock Status]** auf `Out of Stock` gesetzt.
 
-   - Da herunterladbare Produkte nicht ausgeliefert werden, wird die **[!UICONTROL Weight]** nicht verwendet. Wenn Sie diese Funktion aktivieren, wird sie zu einem [Einfaches Produkt](product-create-simple.md) und _Ist dieses herunterladbare Produkt?_ -Registerkarte nicht verwendet werden.
+   - Da herunterladbare Produkte nicht ausgeliefert werden, wird das Feld **[!UICONTROL Weight]** nicht verwendet. Wenn Sie diese Funktion aktivieren, wird sie zu einem [einfachen Produkt](product-create-simple.md) und _Ist dieses herunterladbare Produkt?Der Tab_ kann nicht verwendet werden.
 
    >[!NOTE]
    >
-   >Wenn Sie [Inventory management](../inventory-management/introduction.md), legen Einzelquellenhändler die Menge in diesem Abschnitt fest. Multi-Source-Händler fügen Quellen und Mengen im Bereich Quellen hinzu. Siehe Folgendes _Zuweisen von Quellen und Mengen (Inventory management)_ Abschnitt.
+   >Wenn Sie [Inventory management](../inventory-management/introduction.md) aktivieren, legen Einzelhändler der Source die Menge in diesem Abschnitt fest. Mehrere Source-Händler fügen im Bereich Quellen Quellen und Mengen hinzu. Siehe folgenden Abschnitt _Quellen und Mengen zuweisen (Inventory management)_ .
 
-1. Standard akzeptieren **[!UICONTROL Visibility]** Einstellung von `Catalog, Search`.
+1. Nehmen Sie die standardmäßige **[!UICONTROL Visibility]** -Einstellung von `Catalog, Search` an.
 
-1. So stellen Sie das Produkt im [Liste der neuen Produkte](../content-design/widget-new-products-list.md), wählen Sie die **[!UICONTROL Set Product as New]** aktivieren.
+1. Um das Produkt in der Liste [ der neuen Produkte](../content-design/widget-new-products-list.md) zu kennzeichnen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Set Product as New]** .
 
-1. Zuweisen _[!UICONTROL Categories]_klicken Sie auf das **[!UICONTROL Select…]**und führen Sie einen der folgenden Schritte aus:
+1. Um dem Produkt _[!UICONTROL Categories]_zuzuweisen, klicken Sie auf das Feld **[!UICONTROL Select…]**und führen Sie einen der folgenden Schritte aus:
 
-   **Vorhandene Kategorie auswählen**:
+   **Wählen Sie eine vorhandene Kategorie**:
 
    - Beginnen Sie mit der Eingabe in das Feld, bis Sie eine Übereinstimmung finden.
 
@@ -157,18 +157,18 @@ Das Formular wird entsprechend der Änderung aktualisiert.
 
    **Erstellen einer Kategorie**:
 
-   - Klicken **[!UICONTROL New Category]**.
+   - Klicken Sie auf **[!UICONTROL New Category]**.
 
-   - Geben Sie die **[!UICONTROL Category Name]** und wählen Sie **[!UICONTROL Parent Category]**, der seine Position in der [Menüstruktur](category-root.md).
+   - Geben Sie den Wert **[!UICONTROL Category Name]** ein und wählen Sie den Wert **[!UICONTROL Parent Category]** aus, der seine Position in der [Menüstruktur](category-root.md) bestimmt.
 
-   - Klicken **[!UICONTROL Create Category]**.
+   - Klicken Sie auf **[!UICONTROL Create Category]**.
 
-1. Satz **[!UICONTROL Format]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Format]** auf einen der folgenden Werte:
 
    - `Download`
    - `DVD`
 
-   Bei Bedarf können Sie die [attribute](attribute-product-create.md) , um weitere Werte hinzuzufügen.
+   Bei Bedarf können Sie das [Attribut](attribute-product-create.md) bearbeiten, um weitere Werte hinzuzufügen.
 
    Es kann zusätzliche Attribute geben, die das Produkt beschreiben. Die Auswahl variiert je nach Attributsatz und kann zu einem späteren Zeitpunkt abgeschlossen werden.
 
@@ -178,43 +178,43 @@ Das Formular wird entsprechend der Änderung aktualisiert.
 
 ### Schritt 5: Herunterladbare Informationen ausfüllen
 
-Nach unten scrollen, erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die _[!UICONTROL Downloadable Information]_und wählen Sie die **[!UICONTROL Is this downloadable product?]**aktivieren.
+Scrollen Sie nach unten, erweitern Sie den Abschnitt _[!UICONTROL Downloadable Information]_um ![Erweiterungsauswahl](../assets/icon-display-expand.png) und aktivieren Sie das Kontrollkästchen **[!UICONTROL Is this downloadable product?]**.
 
-Wenn diese Option aktiviert ist, wird die _[!UICONTROL Downloadable Information]_-Bereich besteht aus zwei Teilen. Der erste Teil beschreibt jeden Downloadlink und der zweite Teil jede Beispieldatei. Der Standardwert für viele dieser Optionen kann im [Konfiguration](#configure-the-download-options).
+Wenn diese Option aktiviert ist, besteht der Abschnitt &quot;_[!UICONTROL Downloadable Information]_&quot; aus zwei Teilen. Der erste Teil beschreibt jeden Downloadlink und der zweite Teil jede Beispieldatei. Der Standardwert für viele dieser Optionen kann in der [Konfiguration](#configure-the-download-options) festgelegt werden.
 
-![herunterladbare Informationen](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
+![Herunterladbare Informationen](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### Links ausfüllen
 
-1. Im _[!UICONTROL Links]_eingeben.**[!UICONTROL Title]**die Sie als Überschrift für die Downloadlinks verwenden möchten.
+1. Geben Sie im Abschnitt &quot;_[!UICONTROL Links]_&quot;den **[!UICONTROL Title]**ein, den Sie als Überschrift für die Downloadlinks verwenden möchten.
 
-1. Wählen Sie ggf. die **[!UICONTROL Links can be purchased separately]** aktivieren.
+1. Aktivieren Sie gegebenenfalls das Kontrollkästchen **[!UICONTROL Links can be purchased separately]** .
 
-1. Klicks **[!UICONTROL Add Link]** und gehen Sie wie folgt vor:
+1. Klicken Sie auf **[!UICONTROL Add Link]** und führen Sie die folgenden Schritte aus:
 
-   - Geben Sie die **[!UICONTROL Title]** und **[!UICONTROL Price]** des Downloads.
+   - Geben Sie die Werte **[!UICONTROL Title]** und **[!UICONTROL Price]** des Downloads ein.
 
-   - Für beide **[!UICONTROL File]** und **[!UICONTROL Sample]** -Dateien, wählen Sie eine der folgenden Verteilungsmethoden für die Downloads:
+   - Wählen Sie für sowohl **[!UICONTROL File]**- als auch **[!UICONTROL Sample]**-Dateien eine der folgenden Verteilungsmethoden für die Downloads:
 
       - `Upload File` - Wählen Sie diese Methode, um die Verteilungsdatei auf den Server hochzuladen. Navigieren Sie zur Datei und wählen Sie sie zum Hochladen aus.
       - `URL` - Wählen Sie diese Methode, um über eine URL auf die Verteilungsdatei zuzugreifen. Geben Sie die vollständige URL zur Download-Datei ein.
 
    >[!NOTE]
    >
-   >Links zu externen Ressourcen können nicht als herunterladbare Produkte verwendet werden. Gültige Link-Domänen werden programmgesteuert im `env.php` Datei (siehe [env.php-Referenz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html) im _Konfigurationshandbuch_).
+   >Links zu externen Ressourcen können nicht als herunterladbare Produkte verwendet werden. Gültige Link-Domänen sind in der Datei `env.php` programmgesteuert vordefiniert (siehe [env.php-Referenz](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html) im _Konfigurationshandbuch_).
 
-   - Satz **[!UICONTROL Shareable]** auf einen der folgenden Werte zu:
+   - Setzen Sie **[!UICONTROL Shareable]** auf einen der folgenden Werte:
 
-      - `No` - Erfordert Kunden, sich bei ihren Konten anzumelden, um auf den Downloadlink zuzugreifen.
+      - `No` - Erfordert von Kunden, sich bei ihren Konten anzumelden, um auf den Downloadlink zuzugreifen.
 
       - `Yes` - Sendet den Link per E-Mail, den Kunden für andere freigeben können.
 
-      - `Use Config` - Verwendet die in der Variablen [Herunterladbare Produktoptionen](../configuration-reference/catalog/catalog.md) Konfiguration.
+      - `Use Config` - Verwendet die Methode, die in der Konfiguration [herunterladbare Produktoptionen](../configuration-reference/catalog/catalog.md) angegeben ist.
 
    - Führen Sie einen der folgenden Schritte aus:
 
-      - Um Downloads pro Kunde zu begrenzen, geben Sie die maximale Anzahl für **[!UICONTROL Max. Downloads]**.
-      - Um unbegrenzte Downloads zu ermöglichen, wählen Sie die **[!UICONTROL Unlimited]** aktivieren.
+      - Um Downloads pro Kunde zu begrenzen, geben Sie die maximale Anzahl für **[!UICONTROL Max. Downloads]** ein.
+      - Um unbegrenzte Downloads zu ermöglichen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Unlimited]** .
 
    ![Link-Detail](./assets/product-downloadable-link-detail.png){width="600" zoomable="yes"}
 
@@ -222,15 +222,15 @@ Wenn diese Option aktiviert ist, wird die _[!UICONTROL Downloadable Information]
 
 #### Füllen Sie die Beispiele aus
 
-1. Im _[!UICONTROL Samples]_eingeben.**[!UICONTROL Title]**die Sie als Überschrift für die Beispiele verwenden möchten.
+1. Geben Sie im Abschnitt _[!UICONTROL Samples]_den **[!UICONTROL Title]**ein, den Sie als Überschrift für die Beispiele verwenden möchten.
 
 1. Um die Informationen für jedes Beispiel auszufüllen, klicken Sie auf **[!UICONTROL Add Link]**.
 
-   ![Stichproben](./assets/product-downloadable-samples.png){width="600" zoomable="yes"}
+   ![Beispiele](./assets/product-downloadable-samples.png){width="600" zoomable="yes"}
 
 1. Füllen Sie die Link-Details wie folgt aus:
 
-   - Geben Sie die **[!UICONTROL Title]** der Einzelprobe.
+   - Geben Sie den Wert **[!UICONTROL Title]** des einzelnen Musters ein.
 
    - Wählen Sie eine der folgenden Verteilungsmethoden:
 
@@ -239,7 +239,7 @@ Wenn diese Option aktiviert ist, wird die _[!UICONTROL Downloadable Information]
 
    - Um ein weiteres Beispiel hinzuzufügen, klicken Sie auf **[!UICONTROL Add Link]** und wiederholen Sie diese Schritte.
 
-   - Um die Reihenfolge der Proben zu ändern, nehmen Sie die _Reihenfolge ändern_ ( ![Positionsverantwortlicher](../assets/icon-sort-order.png) ) und ziehen Sie das Beispiel an eine neue Position.
+   - Um die Reihenfolge der Beispiele zu ändern, ziehen Sie das Symbol _Reihenfolge ändern_ ( ![Controller positionieren](../assets/icon-sort-order.png) ) und ziehen Sie das Beispiel an eine neue Position.
 
 ### Schritt 6: Produktinformationen ausfüllen
 
@@ -254,15 +254,15 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 - [Design](settings-advanced-design.md)
 - [Geschenkoptionen](product-gift-options.md)
 
-### Schritt 7: Produkt veröffentlichen
+### Schritt 7: Publish des Produkts
 
-Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, legen Sie **[!UICONTROL Enable Product]** nach `Yes` und führen Sie einen der folgenden Schritte aus:
+Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, setzen Sie **[!UICONTROL Enable Product]** auf `Yes` und führen Sie einen der folgenden Schritte aus:
 
 **Methode 1:** Speichern und Vorschau anzeigen
 
-- Klicken Sie oben rechts auf **[!UICONTROL Save]**.
+- Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Save]**.
 
-- Um das Produkt in Ihrem Geschäft anzuzeigen, wählen Sie **[!UICONTROL Customer View]** auf _Admin_ ( ![Menüpfeil](../assets/icon-menu-down-arrow-black.png) ).
+- Um das Produkt in Ihrem Store anzuzeigen, wählen Sie im Menü _Admin_ ( ![Menüpfeil](../assets/icon-menu-down-arrow-black.png) ) die Option **[!UICONTROL Customer View]** aus.
 
   Der Store wird in einer neuen Browser-Registerkarte geöffnet.
 
@@ -270,19 +270,19 @@ Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, legen Sie **[!
 
 **Methode 2:** Speichern und schließen
 
-Im _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ), wählen Sie **[!UICONTROL Save & Close]**.
+Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**.
 
 ## Storefront-Erlebnis
 
-Im Dashboard des Kundenkontos muss die _[!UICONTROL My Downloadable Products]_Seitenlinks zu den einzelnen Bestellungen der herunterladbaren Produkte. Die Downloads sind über das Kundenkonto verfügbar, sobald die Bestellung abgeschlossen ist.
+Im Dashboard des Kundenkontos verlinkt die Seite &quot;_[!UICONTROL My Downloadable Products]_&quot; zu jeder Bestellung herunterladbarer Produkte. Die Downloads sind über das Kundenkonto verfügbar, sobald die Bestellung abgeschlossen ist.
 
 ![Meine herunterladbaren Produkte](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
-Die folgende Tabelle beschreibt die _Meine herunterladbaren Produkte_ -Werte:
+In der folgenden Tabelle werden die Werte für _Meine herunterladbaren Produkte_ beschrieben:
 
 | Spalte | Beschreibung |
 |--- |--- |
-| [!UICONTROL Order#] | Die [bestellen](../stores-purchase/orders.md) in dem das herunterladbare Produkt gekauft wurde. Stellt einen Link zu den Bestelldetails bereit. |
+| [!UICONTROL Order#] | Die [Bestellung](../stores-purchase/orders.md), in der das herunterladbare Produkt gekauft wurde. Stellt einen Link zu den Bestelldetails bereit. |
 | [!UICONTROL Date] | Erstellungsdatum der Bestellung. |
 | [!UICONTROL Title] | Der Name des herunterladbaren Produkts, das mit der Bestellung gekauft wurde. Stellt einen Link zum herunterladbaren Produkt bereit. |
 | [!UICONTROL Status] | Auftragsverarbeitungsstatus. |
@@ -290,10 +290,10 @@ Die folgende Tabelle beschreibt die _Meine herunterladbaren Produkte_ -Werte:
 
 _**So laden Sie eine Produktdatei vom Konto-Dashboard herunter**_
 
-1. Im Dashboard seines Kontos wählt der Kunde **[!UICONTROL My Downloadable Products]**.
+1. Der Kunde wählt in seinem Konto-Dashboard **[!UICONTROL My Downloadable Products]** aus.
 
 1. Sucht die Reihenfolge in der Liste und klickt auf den Link nach dem Titel.
 
-1. Klicken Sie rechts unten im Download-Fenster auf die Schaltfläche _herunterladen_ Symbol.
+1. Klicken Sie in der rechten unteren Ecke des Download-Fensters auf das Symbol _Download_ .
 
 1. Platziert die Datei am Speicherort des Downloads und speichert sie am gewünschten Speicherort.

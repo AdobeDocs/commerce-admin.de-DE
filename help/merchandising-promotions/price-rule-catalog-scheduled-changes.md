@@ -18,7 +18,7 @@ Das Feld Geplante Änderungen wird oben auf der Seite angezeigt, wenn eine neue 
 
 >[!NOTE]
 >
->Die [!UICONTROL From] und [!UICONTROL To] -Felder wurden entfernt in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce und können nicht direkt in der Katalogpreisregel geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
+>Die Felder [!UICONTROL From] und [!UICONTROL To] wurden in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce entfernt und können nicht direkt in der Katalogpreisregel geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
 
 >[!NOTE]
 >
@@ -34,49 +34,49 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
 ## Aktualisierung einer Katalogpreisregel planen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**Katalogpreisregel**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**Katalogpreisregel**.
 
 1. Öffnen Sie die Regel im Bearbeitungsmodus.
 
-1. Im **[!UICONTROL Scheduled Changes]** Klicken Sie oben auf der Seite auf **[!UICONTROL Schedule New Update]**.
+1. Klicken Sie im Feld **[!UICONTROL Scheduled Changes]** oben auf der Seite auf **[!UICONTROL Schedule New Update]**.
 
-1. Mit dem **[!UICONTROL Save as a New Update]** die Option aktiviert ist, gehen Sie wie folgt vor:
+1. Führen Sie bei ausgewählter Option **[!UICONTROL Save as a New Update]** folgende Schritte aus:
 
-   - Für **[!UICONTROL Update Name]** Geben Sie einen Namen für die Aktualisierung der Regel ein.
+   - Geben Sie für &quot;**[!UICONTROL Update Name]**&quot;einen Namen für die Aktualisierung der Regel ein.
 
-   - Kurzbeschreibung eingeben **[!UICONTROL Description]** der Aktualisierung, einschließlich der Art und Weise und der Gründe ihrer Anwendung.
+   - Geben Sie eine kurze Beschreibung **[!UICONTROL Description]** der Aktualisierung ein, einschließlich der Art und Weise ihrer Anwendung.
 
-   - Verwenden Sie die _Kalender_ (![Kalendersymbol](../assets/icon-calendar.png)), um die **[!DNL Start Date]** und **[!UICONTROL End Date]** , damit die geplante Änderung in Kraft tritt. Lassen Sie das Enddatum leer, um eine offene Änderung zu erstellen.
+   - Verwenden Sie den _Kalender_ (![Kalendersymbol](../assets/icon-calendar.png)), um die **[!DNL Start Date]** und die **[!UICONTROL End Date]** auszuwählen, damit die geplante Änderung wirksam wird. Lassen Sie das Enddatum leer, um eine offene Änderung zu erstellen.
 
-   ![Katalogpreisregeln - Neue geplante Änderungen](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
+   ![Katalogpreisregeln - neue geplante Änderungen](./assets/price-rule-catalog-schedule-update.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
    >Das Start- und Enddatum/die Endzeit wird durch das Standarddatum/die Standardzeit und die Zeitzone des Admin-Bedienfelds und nicht durch die Zeitzone einer bestimmten Website bestimmt. Beachten Sie die Zeitzone der Website, um die Start- und Endzeiten richtig zu bestimmen. Erstellen Sie separate Regeln für Websites in verschiedenen Zeitzonen, die zu bestimmten lokalen Zeiten beginnen und/oder anhalten müssen.
 
-1. Scrollen Sie nach unten zum **[!UICONTROL Rule Information]** und ändern Sie die Regel nach Bedarf.
+1. Scrollen Sie nach unten zum Abschnitt **[!UICONTROL Rule Information]** und ändern Sie die Regel nach Bedarf.
 
    Sie können Änderungen für jeden Regelparameter planen, einschließlich der Websites (Bereich)/Kundengruppen für die Regel, der Bedingungen der Regel und der von der Regel angewendeten Aktionen. Weitere Informationen finden Sie unter [Erstellen einer Katalogpreisregel](price-rules-catalog-create.md).
 
    >[!NOTE]
    >
-   >Wenn Sie zu einem der Regelinformationsparameter wechseln, stellen Sie sicher, dass die Variable _[!UICONTROL Status]_korrekt eingestellt ist. Wenn die Änderung zu einer aktiv angewendeten Regel führen soll, sollte der Status`Active`.
+   >Wenn Sie zu einem der Regelinformationsparameter wechseln, stellen Sie sicher, dass der _[!UICONTROL Status]_richtig eingestellt ist. Wenn die Änderung zu einer aktiv angewendeten Regel führen soll, sollte der Status `Active` lauten.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
    Die geplante Änderung wird oben auf der Seite mit dem Start- und Enddatum der Kampagne angezeigt.
 
 ## Geplante Regeländerung bearbeiten
 
-1. Im **[!UICONTROL Scheduled Changes]** Klicken Sie oben auf der Seite auf **[!UICONTROL View/Edit]**.
+1. Klicken Sie im Feld **[!UICONTROL Scheduled Changes]** oben auf der Seite auf **[!UICONTROL View/Edit]**.
 
 1. Nehmen Sie die erforderlichen Änderungen an der geplanten Aktualisierung vor.
 
-1. Klicks **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
 
 ## Vorschau der geplanten Regeländerung
 
-1. Im **[!UICONTROL Scheduled Changes]** Klicken Sie oben auf der Seite auf **[!UICONTROL Preview]**.
+1. Klicken Sie im Feld **[!UICONTROL Scheduled Changes]** oben auf der Seite auf **[!UICONTROL Preview]**.
 
    Die Vorschau öffnet eine neue Browser-Registerkarte, die Ihre Storefront mit der angewendeten geplanten Änderung lädt. Navigieren Sie zu einem Produkt, das von der Änderung betroffen ist.
 
@@ -88,13 +88,13 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
    ![Liste der geplanten Aktualisierungen für ein bestimmtes Datum](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
 
-1. Um eine Vorschau eines anderen Tages oder einer anderen Uhrzeit anzuzeigen, klicken Sie auf das **[!UICONTROL Date & Time]** calendar ![Kalendersymbol](../assets/icon-calendar.png) und gehen Sie wie folgt vor:
+1. Um eine Vorschau für einen anderen Tag oder eine andere Uhrzeit anzuzeigen, klicken Sie auf das **[!UICONTROL Date & Time]** Kalendersymbol ![ Kalender ](../assets/icon-calendar.png) und führen Sie die folgenden Schritte aus:
 
    - Wählen Sie ein anderes Datum und/oder eine andere Uhrzeit aus.
 
-   - Klicks **[!UICONTROL Preview]**.
+   - Klicken Sie auf **[!UICONTROL Preview]**.
 
-1. Um zum Kalender zurückzukehren, klicken Sie auf **[!UICONTROL Calendar]** in der Kopfzeile der Vorschauseite.
+1. Um zum Kalender zurückzukehren, klicken Sie in der Kopfzeile der Vorschauseite auf **[!UICONTROL Calendar]** .
 
    Von hier aus können Sie Folgendes tun:
 
@@ -104,10 +104,10 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
    >[!NOTE]
    >
-   >Für die Anzeige einer freigegebenen Vorschau ist ein Administratorkonto erforderlich. Wenn [Rolle hat Zugriff](../systems/permissions-user-roles.md) um ein Admin-Benutzerkonto zu erstellen, müssen Sie vor der Freigabe das Konto für einen neuen Benutzer erstellen.
+   >Für die Anzeige einer freigegebenen Vorschau ist ein Administratorkonto erforderlich. Wenn Ihre [Rolle Zugriff auf ](../systems/permissions-user-roles.md) hat, um ein Admin-Benutzerkonto zu erstellen, müssen Sie das Konto für einen neuen Benutzer erstellen, bevor Sie es freigeben können.
 
    **Ändern des Umfangs der Vorschau**
 
-   Um geplante Änderungen für verschiedene Store-Ansichten anzuzeigen, klicken Sie auf **[!UICONTROL Scope]** in der Kopfzeile der Vorschauseite. Wählen Sie die Website-, Store- oder Store-Ansicht aus, die Sie in der Vorschau anzeigen möchten.
+   Um geplante Änderungen für verschiedene Store-Ansichten anzuzeigen, klicken Sie in der Kopfzeile der Vorschauseite auf **[!UICONTROL Scope]** . Wählen Sie die Website-, Store- oder Store-Ansicht aus, die Sie in der Vorschau anzeigen möchten.
 
-1. Kehren Sie bei Bedarf zum Kalender zurück und klicken Sie auf **[!UICONTROL View/Edit]** im _[!UICONTROL Action]_um eine weitere geplante Aktualisierung zu öffnen.
+1. Kehren Sie bei Bedarf zum Kalender zurück und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View/Edit]**, um ein weiteres geplantes Update zu öffnen.

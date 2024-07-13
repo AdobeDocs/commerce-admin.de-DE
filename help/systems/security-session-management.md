@@ -6,7 +6,7 @@ role: Admin
 feature: Configuration, Security
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,20 @@ Eine Sitzung ist eine Sequenz von Netzwerk-HTTP-Anforderungs- und Antworttransak
 
 Verwenden Sie die folgenden Konfigurationseinstellungen, um die maximale Sitzungsgröße für Admin-Benutzer und Storefront-Besucher zu begrenzen:
 
-- **[!UICONTROL Max Session Size in Admin]**—Begrenzen Sie die maximale Sitzungsgröße in Byte. Verwendung `0` , um zu deaktivieren.
-- **[!UICONTROL Max Session Size in Storefront]**—Begrenzen Sie die maximale Sitzungsgröße in Byte. Verwendung `0` , um zu deaktivieren.
+- **[!UICONTROL Max Session Size in Admin]** - Begrenzen Sie die maximale Sitzungsgröße in Byte. Verwenden Sie `0` , um zu deaktivieren.
+- **[!UICONTROL Max Session Size in Storefront]** - Begrenzen Sie die maximale Sitzungsgröße in Byte. Verwenden Sie `0` , um zu deaktivieren.
 
 >[!TIP]
 >
->Beide Einstellungen werden in Byte gemessen und standardmäßig auf `256000` Byte (oder 256 KB).
+>Beide Einstellungen werden in Byte gemessen und standardmäßig in `256000` Byte (oder 256 KB).
 
 **_So konfigurieren Sie die maximale Sitzungsgröße:_**
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]**  > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Advanced]** und wählen **[!UICONTROL System]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Advanced]** und wählen Sie **[!UICONTROL System]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Security]** -Abschnitt, um auf die Sitzungseinstellungen zuzugreifen.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Security]** , um auf die Sitzungseinstellungen zuzugreifen.
 
    ![Sitzungseinstellungen](../configuration-reference/advanced/assets/system-security.png){width="600" zoomable="yes"}
 
@@ -42,13 +42,13 @@ Verwenden Sie die folgenden Konfigurationseinstellungen, um die maximale Sitzung
 
    >[!WARNING]
    >
-   >Das Festlegen eines zu niedrigen Werts kann zu Problemen führen. Wenn Sie eine der Optionen unter den Standardwert von 256000 Byte setzen, wird eine Warnmeldung angezeigt. Wenn Sie auf **[!UICONTROL No]**, ändert das System den Wert in `256000`.
+   >Das Festlegen eines zu niedrigen Werts kann zu Problemen führen. Wenn Sie eine der Optionen unter den Standardwert von 256000 Byte setzen, wird eine Warnmeldung angezeigt. Wenn Sie auf **[!UICONTROL No]** klicken, ändert das System den Wert in `256000`.
 
-1. Klicken **[!UICONTROL Save Config]**.
+1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
 ### Admin-Sitzungen
 
-Wenn Sie die maximale Sitzungsgröße überschreiten, wird eine Fehlermeldung angezeigt und das System protokolliert die Sitzungsgrößenbegrenzung auf `var/log` Verzeichnis.
+Wenn Sie die maximale Sitzungsgröße überschreiten, wird eine Fehlermeldung angezeigt und das System protokolliert die Sitzungsgrößenbegrenzung in den Ordner &quot;`var/log`&quot;.
 
 Wenn Sie den Zugriff auf den Admin verlieren, nachdem Sie die Sitzungsgröße zu niedrig eingestellt haben, verwenden Sie die CLI, um die Konfiguration zurückzusetzen:
 
@@ -58,74 +58,74 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### Storefront-Sitzungen
 
-Wenn Sie die maximale Sitzungsgröße überschreiten, wird kein Fehler angezeigt, aber das System protokolliert die Sitzungsgrößenbegrenzung auf `var/log` Verzeichnis.
+Wenn Sie die maximale Sitzungsgröße überschreiten, wird kein Fehler angezeigt, aber das System protokolliert die Sitzungsgrößenbegrenzung in den Ordner &quot;`var/log`&quot;.
 
 ## Sitzungsvalidierung
 
 Mit Adobe Commerce und Magento Open Source können Sie Sitzungsvariablen als Schutzmaßnahme gegen mögliche Sitzungsfixierungsangriffe oder Versuche überprüfen, Benutzersitzungen zu vergiften oder zu verbergen. Die Sitzungsvalidierungseinstellungen bestimmen, wie Sitzungsvariablen bei jedem Store-Besuch validiert werden und ob die Sitzungs-ID in der URL des Stores enthalten ist.
 
-Technische Informationen finden Sie unter [Verwenden von Redizes für die Sitzungsspeicherung](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) im _Konfigurationshandbuch_.
+Technische Informationen finden Sie unter [Verwenden von Redis für die Sitzungsspeicherung](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) im _Konfigurationshandbuch_.
 
-![Allgemeine Konfiguration - Validierung von Websitzungen](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
+![Allgemeine Konfiguration - Validierung der Websitzung](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
-Die Validierung überprüft, ob Besucher die sind, für die sie sich entscheiden, indem der Wert in den Validierungsvariablen mit den Sitzungsdaten verglichen wird, die in `$_SESSION` Daten für den Benutzer. Die Validierung schlägt fehl, wenn die Informationen nicht erwartungsgemäß übermittelt werden und die entsprechende Variable leer ist. Wenn eine Sitzungsvariable den Validierungsprozess je nach Sitzungsvalidierungseinstellungen nicht durchführt, wird die Client-Sitzung sofort beendet.
+Durch die Validierung wird überprüft, ob Besucher die von ihnen angegebenen sind, indem der Wert in den Validierungsvariablen mit den Sitzungsdaten verglichen wird, die für den Benutzer in `$_SESSION` -Daten gespeichert sind. Die Validierung schlägt fehl, wenn die Informationen nicht erwartungsgemäß übermittelt werden und die entsprechende Variable leer ist. Wenn eine Sitzungsvariable den Validierungsprozess je nach Sitzungsvalidierungseinstellungen nicht durchführt, wird die Client-Sitzung sofort beendet.
 
 Die Aktivierung aller Validierungsvariablen kann dazu beitragen, Angriffe zu verhindern, aber auch die Leistung des Servers beeinträchtigen. Standardmäßig ist die Validierung aller Sitzungsvariablen deaktiviert. Es wird empfohlen, mit den Einstellungen zu experimentieren, um die beste Kombination für Ihre Adobe Commerce- oder Magento Open Source-Installation zu finden. Die Aktivierung aller Validierungsvariablen kann sich als übermäßig restriktiv erweisen und den Zugriff auf Kunden verhindern, die Internetverbindungen haben, die über einen Proxy-Server weitergeleitet werden oder von einer Firewall stammen. Weitere Informationen zu Sitzungsvariablen und deren Verwendung finden Sie in der Dokumentation zur Systemadministration für Ihr Linux®-System.
 
 **_So konfigurieren Sie die Sitzungsvalidierung:_**
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu  **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich _[!UICONTROL General]_und wählen **[!UICONTROL Web]**.
+1. Erweitern Sie im linken Bereich den Wert _[!UICONTROL General]_und wählen Sie **[!UICONTROL Web]**aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Session Validation Settings]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Session Validation Settings]** .
 
 1. Legen Sie die einzelnen Konfigurationsoptionen fest:
 
-   - **[!UICONTROL Validate REMOTE_ADDR]** — Legen Sie `Yes` , um zu überprüfen, ob die IP-Adresse einer Anfrage mit der in der `$_SESSION` -Variable.
+   - **[!UICONTROL Validate REMOTE_ADDR]** - Auf `Yes` setzen, um sicherzustellen, dass die IP-Adresse einer Anforderung mit der in der Variable `$_SESSION` gespeicherten übereinstimmt.
 
-   - **[!UICONTROL Validate HTTP_VIA]** — Legen Sie `Yes` , um zu überprüfen, ob die Proxy-Adresse einer eingehenden Anfrage mit der in der `$_SESSION` -Variable.
+   - **[!UICONTROL Validate HTTP_VIA]** - Auf `Yes` setzen, um sicherzustellen, dass die Proxy-Adresse einer eingehenden Anfrage mit der in der Variable `$_SESSION` gespeicherten übereinstimmt.
 
-   - **[!UICONTROL Validate HTTP_X_FORWARDED_FOR]** — Legen Sie `Yes` , um zu überprüfen, ob die weitergeleitete Adresse einer Anfrage mit der in der `$_SESSION` -Variable.
+   - **[!UICONTROL Validate HTTP_X_FORWARDED_FOR]** - Auf `Yes` setzen, um sicherzustellen, dass die weitergeleitete Adresse einer Anfrage mit der in der Variable `$_SESSION` gespeicherten übereinstimmt.
 
-   - **[!UICONTROL Validate HTTP_USER_AGENT]** — Legen Sie `Yes` , um zu überprüfen, ob der Browser oder das Gerät, mit dem während einer Sitzung auf den Store zugegriffen wird, mit dem übereinstimmt, was in der `$_SESSION` -Variable.
+   - **[!UICONTROL Validate HTTP_USER_AGENT]** - Auf `Yes` setzen, um zu überprüfen, ob der Browser oder das Gerät, mit dem während einer Sitzung auf den Store zugegriffen wird, mit dem übereinstimmt, was in der Variable `$_SESSION` gespeichert ist.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 ## Lebensdauer der Admin-Sitzung
 
-Als Sicherheitsmaßnahme wird die _Admin_ nach 900 Sekunden (15 Minuten) Tastaturinaktivität zunächst auf eine Zeitüberschreitung eingestellt ist. Sie können die Lebensdauer der Sitzung an Ihren Arbeitsstil anpassen.
+Als Sicherheitsmaßnahme wird der _Admin_ zunächst auf eine Zeitüberschreitung nach 900 Sekunden (15 Minuten) Tastaturinaktivität eingestellt. Sie können die Lebensdauer der Sitzung an Ihren Arbeitsstil anpassen.
 
 **_So passen Sie die Lebensdauer der Admin-Sitzung an:_**
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Hinunter scrollen und erweitern **[!UICONTROL Advanced]** im linken Seitenbereich.
+1. Scrollen Sie nach unten und erweitern Sie **[!UICONTROL Advanced]** im linken Seitenbereich.
 
-1. Klicken **[!UICONTROL Admin]**.
+1. Klicken Sie auf **[!UICONTROL Admin]**.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die _[!UICONTROL Security]_Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt _[!UICONTROL Security]_.
 
-1. Für **[!UICONTROL Admin Session Lifetime (seconds)]** eingeben, geben Sie die Anzahl der Sekunden ein, die eine Sitzung aktiv bleibt, bevor eine Zeitüberschreitung eintritt.
+1. Geben Sie für &quot;**[!UICONTROL Admin Session Lifetime (seconds)]**&quot;die Anzahl der Sekunden ein, die eine Sitzung aktiv bleibt, bevor eine Zeitüberschreitung eintritt.
 
-   ![Erweiterte Konfiguration - Admin-Sicherheitseinstellungen](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
+   ![Erweiterte Konfiguration - Sicherheitseinstellungen für Administratoren](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.## Lebensdauer der Admin-Sitzung
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.## Lebensdauer der Admin-Sitzung
 
-Als Sicherheitsmaßnahme wird die _Admin_ nach 900 Sekunden (15 Minuten) Tastaturinaktivität zunächst auf eine Zeitüberschreitung eingestellt ist. Sie können die Lebensdauer der Sitzung an Ihren Arbeitsstil anpassen.
+Als Sicherheitsmaßnahme wird der _Admin_ zunächst auf eine Zeitüberschreitung nach 900 Sekunden (15 Minuten) Tastaturinaktivität eingestellt. Sie können die Lebensdauer der Sitzung an Ihren Arbeitsstil anpassen.
 
 **_So passen Sie die Lebensdauer der Admin-Sitzung an:_**
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Hinunter scrollen und erweitern **[!UICONTROL Advanced]** im linken Seitenbereich.
+1. Scrollen Sie nach unten und erweitern Sie **[!UICONTROL Advanced]** im linken Seitenbereich.
 
-1. Klicken **[!UICONTROL Admin]**.
+1. Klicken Sie auf **[!UICONTROL Admin]**.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die _Sicherheit_ Abschnitt.
+1. Erweitern Sie den Abschnitt _Sicherheit_ um ![Erweiterungsauswahl](../assets/icon-display-expand.png).
 
-1. Für **[!UICONTROL Admin Session Lifetime (seconds)]** eingeben, geben Sie die Anzahl der Sekunden ein, die eine Sitzung aktiv bleibt, bevor eine Zeitüberschreitung eintritt.
+1. Geben Sie für &quot;**[!UICONTROL Admin Session Lifetime (seconds)]**&quot;die Anzahl der Sekunden ein, die eine Sitzung aktiv bleibt, bevor eine Zeitüberschreitung eintritt.
 
-   ![Erweiterte Konfiguration - Admin-Sicherheitseinstellungen](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
+   ![Erweiterte Konfiguration - Sicherheitseinstellungen für Administratoren](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.

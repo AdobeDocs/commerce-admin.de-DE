@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Standardeinstellungen für die Hauptteile
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ Die Hauptabschnitte der Seite werden teilweise durch eine Reihe von Standard-HTM
 
 ## HTML-Head
 
-Die Einstellungen im Bereich HTML-Head entsprechen dem `<head>` -Tag einer HTML-Seite und kann für jede Store-Ansicht konfiguriert werden. Zusätzlich zu den Metadaten für Seitentitel, Beschreibung und Keywords enthält der Abschnitt einen Link zum Favicon sowie verschiedene Skripte. Anweisungen für Suchmaschinen-Roboter und die Anzeige des Store-Demohinweises werden ebenfalls in diesem Abschnitt konfiguriert.
+Die Einstellungen im Bereich HTML Head entsprechen dem Tag `<head>` einer HTML-Seite und können für jede Store-Ansicht konfiguriert werden. Zusätzlich zu den Metadaten für Seitentitel, Beschreibung und Keywords enthält der Abschnitt einen Link zum Favicon sowie verschiedene Skripte. Anweisungen für Suchmaschinen-Roboter und die Anzeige des Store-Demohinweises werden ebenfalls in diesem Abschnitt konfiguriert.
 
 ### Konfigurieren des HTML-Head
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie auf **[!UICONTROL Edit]** im _[!UICONTROL Action]_Spalte.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
-1. under _Andere Einstellungen_, erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL HTML Head]** Abschnitt.
+1. Erweitern Sie unter _Andere Einstellungen_ den Abschnitt ![Erweiterungsauswahl](../assets/icon-display-expand.png) um den Abschnitt **[!UICONTROL HTML Head]**.
 
-   ![HTML-Head-Konfigurationseinstellungen](./assets/configuration-html-head.png){width="500" zoomable="yes"}
+   ![Konfigurationseinstellungen für den HTML-Head](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
-1. Aktualisieren Sie die [favicon](../getting-started/storefront-branding.md#add-a-favicon) bei Bedarf.
+1. Aktualisieren Sie bei Bedarf das [favicon](../getting-started/storefront-branding.md#add-a-favicon).
 
 1. Aktualisieren Sie die Einstellungen für den Seitentitel entsprechend Ihren Anforderungen:
 
@@ -48,11 +48,11 @@ Die Einstellungen im Bereich HTML-Head entsprechen dem `<head>` -Tag einer HTML-
    - **[!UICONTROL Default Meta Description]**
    - **[!UICONTROL Default Meta Keywords]**
 
-1. Beliebige eingeben **[!UICONTROL Scripts and Style Sheets]** nach Bedarf.
+1. Geben Sie ggf. **[!UICONTROL Scripts and Style Sheets]** ein.
 
-1. Aktivieren oder deaktivieren Sie die [Demostore-Hinweis](../getting-started/storefront-branding.md#set-the-store-demo-notice) bei Bedarf.
+1. Aktivieren oder deaktivieren Sie bei Bedarf den [Demospeicherhinweis](../getting-started/storefront-branding.md#set-the-store-demo-notice).
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Configuration]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Configuration]**.
 
 ### Feldbeschreibungen für HTML-Kopfzeilen
 
@@ -64,7 +64,7 @@ Die Einstellungen im Bereich HTML-Head entsprechen dem `<head>` -Tag einer HTML-
 | [!UICONTROL Page Title Suffix] | Store-Ansicht | Nach dem Titel kann ein Suffix hinzugefügt werden, um einen zweiteiligen oder dreiteiligen Titel zu erstellen. Ein vertikaler Balken oder Doppelpunkt kann als Trennzeichen am Ende des Präfixes verwendet werden, um ihn vom Text des Haupttitels zu unterscheiden. |
 | [!UICONTROL Default Meta Description] | Store-Ansicht | Die Beschreibung bietet eine Zusammenfassung Ihrer Site für Suchmaschinenlisten mit einer Länge von maximal 160 Zeichen. |
 | [!UICONTROL Default Meta Keywords] | Store-Ansicht | Eine Reihe von Suchbegriffen, die Ihren Store beschreiben, von denen jeder durch ein Komma getrennt ist. |
-| [!UICONTROL Scripts and Style Sheets] | Store-Ansicht | Enthält Skripte, die vor dem schließenden HTML in den -Abschnitt eingefügt werden müssen `<head>` -Tag. Beispielsweise alle JavaScript-Dateien von Drittanbietern, die vor dem `<body>` -Tag können hier eingegeben werden. |
+| [!UICONTROL Scripts and Style Sheets] | Store-Ansicht | Enthält Skripte, die vor dem schließenden `<head>` -Tag in der HTML enthalten sein müssen. Hier können Sie beispielsweise alle JavaScript von Drittanbietern eingeben, die vor dem Tag `<body>` platziert werden müssen. |
 | [!UICONTROL Display Demo Store Notice] | Store-Ansicht | Steuert die Anzeige des Demospeicherhinweises oben auf der Seite. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -77,18 +77,18 @@ Die Kopfzeilenkonfiguration identifiziert den Pfad zu Ihrem Store-Logo und gibt 
 
 ### Konfigurieren der Kopfzeile
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie auf **[!UICONTROL Edit]** im _[!UICONTROL Action]_Spalte.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
-1. under _Andere Einstellungen_, erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Header]** Abschnitt.
+1. Erweitern Sie unter _Andere Einstellungen_ den Abschnitt ![Erweiterungsauswahl](../assets/icon-display-expand.png) um den Abschnitt **[!UICONTROL Header]**.
 
 1. Nehmen Sie alle für die Store-Ansicht erforderlichen Änderungen vor:
 
-   - [Logo](../getting-started/storefront-branding.md#upload-your-logo) settings
-   - [Willkommensnachricht](../getting-started/storefront-branding.md#change-the-welcome-message) settings
+   - Einstellungen für [Logo](../getting-started/storefront-branding.md#upload-your-logo)
+   - [Einstellungen für Willkommensnachrichten](../getting-started/storefront-branding.md#change-the-welcome-message)
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Configuration]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Configuration]**.
 
 ### Beschreibungen der Kopfzeilenfelder
 
@@ -99,34 +99,34 @@ Die Kopfzeilenkonfiguration identifiziert den Pfad zu Ihrem Store-Logo und gibt 
 | [!UICONTROL Logo Attribute Height] | Store-Ansicht | Die Höhe des Logobilds in Pixel. |
 | [!UICONTROL Welcome Text] | Store-Ansicht | Die Willkommensnachricht wird in der Kopfzeile der Seite angezeigt und enthält den Namen der angemeldeten Kunden. |
 | [!UICONTROL Logo Image Alt] | Store-Ansicht | Der Alt-Text, der mit dem Logo verknüpft ist. |
-| [!UICONTROL Translate Title] | Store-Ansicht | Bestimmt, ob die `Page Title` oder `Meta Title` übersetzt werden. |
+| [!UICONTROL Translate Title] | Store-Ansicht | Bestimmt, ob die `Page Title` oder `Meta Title` übersetzt werden sollen. |
 
 {style="table-layout:auto"}
 
 ## Fußzeile
 
-Im Abschnitt zur Fußzeilenkonfiguration können Sie die [Copyright-Hinweis](../getting-started/storefront-branding.md#change-the-copyright-notice) die unten auf der Seite angezeigt wird, und geben Sie verschiedene Skripte ein, die vor dem schließenden `<body>` -Tag.
+Im Abschnitt zur Fußzeilenkonfiguration können Sie den am unteren Rand der Seite angezeigten [Copyright-Hinweis](../getting-started/storefront-branding.md#change-the-copyright-notice) aktualisieren und verschiedene Skripte eingeben, die vor dem schließenden `<body>` -Tag positioniert werden müssen.
 
 ![Fußzeilenkonfigurationseinstellungen](./assets/configuration-footer.png){width="400" zoomable="yes"}
 
 ### Fußzeile konfigurieren
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie auf **[!UICONTROL Edit]** im _[!UICONTROL Action]_Spalte.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
-1. under _Andere Einstellungen_, erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Footer]** Abschnitt.
+1. Erweitern Sie unter _Andere Einstellungen_ den Abschnitt ![Erweiterungsauswahl](../assets/icon-display-expand.png) um den Abschnitt **[!UICONTROL Footer]**.
 
-1. Nehmen Sie die erforderlichen Änderungen an der **[!UICONTROL Copyright]** und **[!UICONTROL Miscellaneous HTML]** -Einstellungen.
+1. Nehmen Sie alle erforderlichen Änderungen an den Einstellungen **[!UICONTROL Copyright]** und **[!UICONTROL Miscellaneous HTML]** vor.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Configuration]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Configuration]**.
 
 ## Beschreibung der Fußzeilen
 
 | Feld | Anwendungsbereich | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Miscellaneous HTML] | Store-Ansicht | Ein Eingabefeld, in das Sie verschiedene Skripte auf den Server hochladen können, die direkt vor dem schließenden `<body>` -Tag. |
-| [!UICONTROL Copyright] | Store-Ansicht | Die Urheberrechtserklärung, die unten auf jeder Seite angezeigt wird. Verwenden Sie die Entität für HTML-Zeichen, um das Copyright-Symbol einzuschließen. `\&copy;` wie folgt: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Stellen Sie sicher, dass Sie den Beispiel-Copyright-Hinweis durch Ihren eigenen ersetzen. |
+| [!UICONTROL Miscellaneous HTML] | Store-Ansicht | Ein Eingabefeld, in das Sie verschiedene Skripte auf den Server hochladen können, die direkt vor dem schließenden `<body>` -Tag platziert werden müssen. |
+| [!UICONTROL Copyright] | Store-Ansicht | Die Urheberrechtserklärung, die unten auf jeder Seite angezeigt wird. Um das Copyright-Symbol einzuschließen, verwenden Sie die HTML-Zeichenentität `\&copy;` wie in folgendem Beispiel: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Stellen Sie sicher, dass Sie den Beispiel-Copyright-Hinweis durch Ihren eigenen ersetzen. |
 | [!UICONTROL Display Report Bugs Link] | Store-Ansicht | Bestimmt, ob der Link zum Fehlerbericht (der für einige Designs unterstützt wird) aktiviert oder deaktiviert ist. |
 
 {style="table-layout:auto"}

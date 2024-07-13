@@ -12,67 +12,67 @@ ht-degree: 0%
 
 # Moderieren von Produktübersichten
 
-Für Commerce-Produktüberprüfungen muss eine gesendete Produktüberprüfung genehmigt werden, bevor sie angezeigt werden kann. Dadurch wird sichergestellt, dass Rezensionen für die öffentliche Anzeige Ihres Stores geeignet sind. Eine eingereichte Überprüfung befindet sich in einer `Pending` Status an, bis sie genehmigt oder abgelehnt wird.
+Für Commerce-Produktüberprüfungen muss eine eingereichte Produktüberprüfung genehmigt werden, bevor sie angezeigt werden kann. Dadurch wird sichergestellt, dass Rezensionen für die öffentliche Anzeige Ihres Stores geeignet sind. Eine eingereichte Überprüfung weist den Status &quot;`Pending`&quot;auf, bis sie genehmigt oder abgelehnt wird.
 
 ## Anzeigen von Produktüberprüfungen in der Admin-Konsole
 
 Gehen Sie wie folgt vor, um alle Überprüfungen für ein bestimmtes Produkt in der Admin-Konsole anzuzeigen:
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Suchen Sie das Produkt, das Sie anzeigen möchten, und klicken Sie auf **[!UICONTROL Edit]** im _[!UICONTROL Action]_Spalte.
+1. Suchen Sie das Produkt, das Sie anzeigen möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
-1. Scrollen Sie auf der Produktseite nach unten und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Product Reviews]** Abschnitt.
+1. Scrollen Sie auf der Produktseite nach unten und erweitern Sie den Abschnitt ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Product Reviews]** .
 
-   In diesem Raster können Sie die spezifische Überprüfung auch ändern, indem Sie auf die **[!UICONTROL Edit]** -Link in _[!UICONTROL Action]_Spalte.
+   In diesem Raster können Sie die spezifische Überprüfung auch ändern, indem Sie auf den Link **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_klicken.
 
 ## Status von Überprüfungen aktualisieren
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**oder **[!UICONTROL All Reviews]**.
+1. Wechseln Sie auf der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**oder **[!UICONTROL All Reviews]**.
 
 1. Klicken Sie in der Liste auf eine ausstehende Überprüfung, um die Details anzuzeigen und bei Bedarf zu bearbeiten.
 
-1. Ändern Sie die **[!UICONTROL Status]** entsprechend Ihrer Beurteilung:
+1. Ändern Sie den **[!UICONTROL Status]** entsprechend Ihrer Bewertung:
 
-   - Um eine ausstehende Überprüfung zu genehmigen, wählen Sie `Approved`.
+   - Um eine ausstehende Überprüfung zu genehmigen, wählen Sie `Approved` aus.
 
-   - Um eine Überprüfung abzulehnen, wählen Sie `Not Approved`. Nicht genehmigte Überprüfungen werden aus der Liste der _[!UICONTROL Pending Reviews]_Seite.
+   - Um eine Überprüfung abzulehnen, wählen Sie `Not Approved` aus. Nicht genehmigte Überprüfungen werden nicht in der Liste der Seite &quot;_[!UICONTROL Pending Reviews]_&quot; angezeigt.
 
    >[!NOTE]
    >
-   >Überprüfungen mit der `Pending` und `Not Approved` -Status werden nicht in der Storefront angezeigt.
+   >Bewertungen mit den Status `Pending` und `Not Approved` werden nicht auf der Storefront angezeigt.
 
-1. Falls zutreffend, legen Sie die **[!UICONTROL Visibility]** einer Produktüberprüfung für die Anzeige in verschiedenen Store-Ansichten.
+1. Falls zutreffend, legen Sie die **[!UICONTROL Visibility]** einer Produktüberprüfung fest, um in verschiedenen Store-Ansichten angezeigt zu werden.
 
-1. Ändern Sie bei Bedarf die Werte für **[!UICONTROL Detailed Rating]**, **[!UICONTROL Nickname]**, und **[!UICONTROL Summary of Review]**.
+1. Ändern Sie bei Bedarf die Werte für **[!UICONTROL Detailed Rating]**, **[!UICONTROL Nickname]** und **[!UICONTROL Summary of Review]**.
 
-   Um die Store-Ansicht zu ändern, in der eine Überprüfung verfügbar ist, wählen Sie die gewünschte Store-Ansicht im _[!UICONTROL Visibility]_Spalte.
+   Um die Store-Ansicht zu ändern, in der eine Überprüfung verfügbar ist, wählen Sie in der Spalte _[!UICONTROL Visibility]_die gewünschte Store-Ansicht aus.
 
-   ![Bearbeiten der Prüfungsseite](./assets/edit-review-page.png){width="600" zoomable="yes"}
+   ![Prüfungsseite bearbeiten](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Review]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Review]**.
 
 ## Batch-Aktualisierung
 
 Sie können mehrere Überprüfungen gleichzeitig aktualisieren oder löschen:
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
 
 1. Wählen Sie die Rezensionen aus, die Sie aktualisieren möchten.
 
-1. Verwenden Sie die _[!UICONTROL Action]_Auswahl oben links, um eine Aktion anzuwenden.
+1. Verwenden Sie den &quot;_[!UICONTROL Action]_&quot;-Selektor oben links, um eine Aktion anzuwenden.
 
-1. Klicken **[!UICONTROL Submit]**
+1. Klicken Sie auf **[!UICONTROL Submit]**
 
 ## Produktprüfung löschen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL All Reviews]**.
 
 1. Suchen Sie die zu löschende Produktüberprüfung und öffnen Sie sie im Bearbeitungsmodus.
 
-1. Klicken Sie in der Menüleiste auf **[!UICONTROL Delete Review]** Schaltfläche.
+1. Klicken Sie in der Menüleiste auf die Schaltfläche **[!UICONTROL Delete Review]** .
 
-1. Klicken Sie zur Bestätigung der Aktion auf **[!UICONTROL OK]**.
+1. Um die Aktion zu bestätigen, klicken Sie auf **[!UICONTROL OK]**.
 
 ## Schaltflächenleiste
 

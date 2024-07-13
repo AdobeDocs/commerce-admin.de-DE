@@ -12,20 +12,20 @@ ht-degree: 0%
 
 # Berichte überprüfen
 
-Wenn Sie die integrierte [!DNL Commerce] Bewertungen und Bewertungsberichte enthalten Informationen über Produktüberprüfungen nach Kunde und Produkt.
+Wenn Sie die integrierten [!DNL Commerce] Bewertungen verwenden, bieten Überprüfungsberichte Informationen über Produktüberprüfungen nach Kunde und Produkt.
 
 ## [!UICONTROL Customer Reviews Report]
 
-Die [!UICONTROL Customer Reviews Report] bietet eine Liste aller Kunden, die Produktüberprüfungen eingereicht haben. Der Bericht enthält die Anzahl der von jedem Kunden eingereichten Rezensionen und einen Link zur Liste der Rezensionen.
+Der [!UICONTROL Customer Reviews Report] enthält eine Liste aller Kunden, die Produktüberprüfungen eingereicht haben. Der Bericht enthält die Anzahl der von jedem Kunden eingereichten Rezensionen und einen Link zur Liste der Rezensionen.
 
-Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**.
+Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Customers]**.
 
 ![Bericht von Kunden überprüfen](./assets/customer-reviews.png){width="600"}
 
 ## [!UICONTROL Product Reviews Report]
 
-Die [!UICONTROL Product Reviews Report] listet alle Produkte auf, die von Kunden geprüft wurden. Der Bericht enthält die Anzahl der Bewertungen und die durchschnittliche Bewertung, das Produkt wurde zuletzt überarbeitet und einen Link zur Liste der Bewertungen für jedes Produkt.
+Der [!UICONTROL Product Reviews Report] listet alle Produkte auf, die von Kunden geprüft wurden. Der Bericht enthält die Anzahl der Bewertungen und die durchschnittliche Bewertung, das Produkt wurde zuletzt überarbeitet und einen Link zur Liste der Bewertungen für jedes Produkt.
 
-Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**.
+Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Reports]** > _[!UICONTROL Reviews]_>**[!UICONTROL By Products]**.
 
 ![Bericht nach Produkt überprüfen](./assets/product-reviews.png){width="600"}

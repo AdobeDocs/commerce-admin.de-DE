@@ -4,26 +4,26 @@ description: Erfahren Sie mehr über das Admin-Dashboard, bei dem es sich normal
 exl-id: 56957c0a-1618-444b-a37a-ecf0d7b27eae
 source-git-commit: 7b6d70e2f3052af69075790cec1f396e2505bf8b
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
 # Admin-Dashboard
 
-Das Dashboard ist normalerweise die erste Seite, die bei der Anmeldung bei der _Admin_ und bietet einen Echtzeitüberblick über Vertrieb und Kundenaktivität. Dashboard-Daten liefern eine Momentaufnahme der Lebensdauerverkäufe, der durchschnittlichen Bestellmenge, der letzten Bestellungen und Suchbegriffe. Das Diagramm zeigt abgeschlossene Bestellungen und Beträge für den ausgewählten Datumsbereich an und kann entweder aus dynamischen, Echtzeit- oder historischen aggregierten Daten generiert werden. Die Registerkarten am unteren Rand bieten schnelle Berichte zu Ihren am besten verkauften Produkten, den am häufigsten angezeigten Produkten, neuen Kunden und Kunden, die am häufigsten gekauft haben.
+Das Dashboard ist normalerweise die erste Seite, die bei der Anmeldung bei _Admin_ angezeigt wird und einen Echtzeitüberblick über Vertrieb und Kundenaktivität bieten kann. Dashboard-Daten liefern eine Momentaufnahme der Lebensdauerverkäufe, der durchschnittlichen Bestellmenge, der letzten Bestellungen und Suchbegriffe. Das Diagramm zeigt abgeschlossene Bestellungen und Beträge für den ausgewählten Datumsbereich an und kann entweder aus dynamischen, Echtzeit- oder historischen aggregierten Daten generiert werden. Die Registerkarten am unteren Rand bieten schnelle Berichte zu Ihren am besten verkauften Produkten, den am häufigsten angezeigten Produkten, neuen Kunden und Kunden, die am häufigsten gekauft haben.
 
 Wenn Sie eine erhebliche Menge an zu verarbeitenden Daten haben, kann das Diagramm zur Leistungsverbesserung deaktiviert werden. Das Dashboard im folgenden Beispiel ist so konfiguriert, dass Echtzeitdaten verwendet werden. Es zeigt abgeschlossene Bestellungen nach Stunde für die letzten 24 Stunden an. Das Diagramm wird für jede abgeschlossene Bestellung aktualisiert.
 
-![Dashboard](./assets/dashboard-full.png){zoomable=&quot;yes&quot;}
+![Dashboard](./assets/dashboard-full.png){zoomable="yes"}
 
-[Fortschrittliche Berichterstellung](business-intelligence.md#advanced-reporting) zeigt ein personalisiertes Dashboard basierend auf Ihren Produkt-, Bestell- und Kundendaten an.
+[Erweiterte Berichterstellung](business-intelligence.md#advanced-reporting) zeigt ein personalisiertes Dashboard an, das auf Ihren Produkt-, Bestell- und Kundendaten basiert.
 
-![Fortschrittliche Berichterstellung](./assets/dashboard-advanced-reporting.png){zoomable=&quot;yes&quot;}
+![Erweiterte Berichterstellung](./assets/dashboard-advanced-reporting.png){zoomable="yes"}
 
 ## Dashboard konfigurieren
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**und führen Sie eine der folgenden Einstellungen aus.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**und nehmen Sie die folgenden Einstellungen vor.
 
 1. Klicken Sie nach Abschluss der Konfiguration auf **[!UICONTROL Save Config]**.
 
@@ -33,60 +33,60 @@ Wenn Sie eine erhebliche Menge an zu verarbeitenden Daten haben, kann das Diagra
 
 Wenn Sie eine große Datenmenge verarbeiten müssen, können Sie die Anzeige der Grafik deaktivieren, um die Leistung zu verbessern. Wenn die Option nicht aktiviert ist, wird anstelle der Grafik die Meldung &quot;Keine Daten gefunden&quot;angezeigt, obwohl die Summen der Zusammenfassung unten noch generiert werden.
 
-1. Im linken Navigationsbereich unter **[!UICONTROL Advanced]** auswählen **[!UICONTROL Admin]**.
+1. Wählen Sie im linken Navigationsbereich unter **[!UICONTROL Advanced]** die Option **[!UICONTROL Admin]**.
 
-1. Erweitern Sie bei Bedarf die **[!UICONTROL Dashboard]** Abschnitt.
+1. Erweitern Sie ggf. den Abschnitt **[!UICONTROL Dashboard]** .
 
    ![Erweiterte Konfiguration - Grafiken aktivieren](./assets/admin-dashboard-config.png){width="600"}
 
-1. Um den Standardwert zu ändern, löschen Sie die **[!UICONTROL Use system value]** aktivieren.
+1. Um den Standardwert zu ändern, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use system value]** .
 
-1. Satz **Diagramme aktivieren** nach `Yes`.
+1. Setzen Sie **Grafiken aktivieren** auf `Yes`.
 
-Weitere Informationen zu den Admin-Konfigurationsoptionen finden Sie unter [Konfigurationshandbuch](../configuration-reference/advanced/admin.md).
+Weitere Informationen zu den Admin-Konfigurationsoptionen finden Sie im [Konfigurationshandbuch](../configuration-reference/advanced/admin.md).
 
 ### Startseite ändern
 
-Das Dashboard ist die Standardeinstellung [Startseite](../configuration-reference/advanced/admin.md) für den Administrator, obwohl Sie eine andere Startseite konfigurieren können.
+Das Dashboard ist die standardmäßige [Startseite](../configuration-reference/advanced/admin.md) für den Admin. Sie können jedoch eine andere Startseite konfigurieren.
 
-1. Wenn Sie die Admin-Konfigurationsoptionen noch nicht geöffnet haben, wählen Sie **[!UICONTROL Admin]** under _[!UICONTROL Advanced]_im linken Navigationsbereich.
+1. Wenn Sie die Admin-Konfigurationsoptionen noch nicht geöffnet haben, wählen Sie im linken Navigationsbereich unter _[!UICONTROL Advanced]_die Option **[!UICONTROL Admin]**aus.
 
-1. Klicken Sie auf , um die **Startseite** Abschnitt.
+1. Klicken Sie auf , um den Abschnitt **Startseite** zu erweitern.
 
    ![Admin-Dashboard - Einstellung der Startseite](./assets/admin-startup-page.png){width="600"}
 
-1. Löschen Sie die **[!UICONTROL Use system value]** aktivieren und wählen Sie die **Startseite** die bei der Anmeldung beim Administrator angezeigt werden sollen.
+1. Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use system value]** und wählen Sie die **Startseite** aus, die bei der Anmeldung beim Administrator angezeigt werden soll.
 
 ### Startdatum auswählen
 
-1. Im linken Navigationsbereich unter **[!UICONTROL General]** auswählen **Berichte**.
+1. Wählen Sie im linken Navigationsbereich unter **[!UICONTROL General]** die Option **Berichte**.
 
-1. Erweitern Sie auf der Seite die **[!UICONTROL Dashboard]** Abschnitt.
+1. Erweitern Sie auf der Seite den Abschnitt **[!UICONTROL Dashboard]** .
 
-1. Löschen Sie die **[!UICONTROL Use system value]** Kontrollkästchen für die Datumseinstellungen und gehen Sie wie folgt vor:
+1. Deaktivieren Sie die Kontrollkästchen **[!UICONTROL Use system value]** für die Datumseinstellungen und gehen Sie wie folgt vor:
 
-   - Satz **Start im Jahr** der **Monat** und **Tag**.
+   - Setzen Sie **Jahr-zu-Datum-Starts** auf **Monat** und **Tag**.
 
-   - Satz **Aktuelle Monatsstarts** der **Tag**.
+   - Setzen Sie **Aktuelle Monatsstarts** auf den **Tag**.
 
-   ![Admin Dashboard - Datumseinstellungen](./assets/reports-dashboard.png){width="600"}
+   ![Admin-Dashboard - Datumseinstellungen](./assets/reports-dashboard.png){width="600"}
 
-Weitere Informationen zum [!UICONTROL Reports] Konfigurationsoptionen, siehe [_Konfigurationshandbuch_](../configuration-reference/general/reports.md).
+Weitere Informationen zu den [!UICONTROL Reports] -Konfigurationsoptionen finden Sie im [_Konfigurationshandbuch_](../configuration-reference/general/reports.md).
 
 ### Konfigurieren der Datenquelle
 
 Das Dashboard-Diagramm kann in Echtzeit oder mithilfe von historischen, aggregierten Daten erstellt werden. Wenn die Leistung ein Problem darstellt, können Sie die Dinge durch die Verwendung aggregierter Daten beschleunigen.
 
-1. Klicken Sie im linken Navigationsbereich auf zum Erweitern **Vertrieb** und wählen **Vertrieb** darunter.
+1. Klicken Sie im linken Navigationsbereich auf **Verkauf** erweitern und unter dem Punkt **Verkauf** auswählen.
 
-1. Erweitern Sie auf der Seite die **[!UICONTROL Dashboard]** Abschnitt.
+1. Erweitern Sie auf der Seite den Abschnitt **[!UICONTROL Dashboard]** .
 
    ![Admin-Dashboard - Datenquelleneinstellung](./assets/config-sales-dashboard.png){width="600"}
 
-1. Löschen Sie die **[!UICONTROL Use system value]** Kontrollkästchen und festlegen **[!UICONTROL Use Aggregated Data]** auf einen der folgenden Werte zu:
+1. Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use system value]** und legen Sie **[!UICONTROL Use Aggregated Data]** auf einen der folgenden Werte fest:
 
-   - Für historische, aggregierte Daten wählen Sie `Yes`.
-   - Wählen Sie für Echtzeitdaten `No`.
+   - Wählen Sie für historische aggregierte Daten `Yes` aus.
+   - Wählen Sie für Echtzeitdaten &quot;`No`&quot;.
 
 ## Diagrammabschnitte
 
@@ -127,6 +127,6 @@ Das Dashboard-Diagramm kann in Echtzeit oder mithilfe von historischen, aggregie
 | Schaltfläche | Beschreibung |
 |--- |--- |
 | [!UICONTROL Reload Data] | Aktualisiert Dashboard-Daten. |
-| [!UICONTROL Go to Advanced Reporting] | Zeigt ein personalisiertes Dashboard mit dynamischen Diagrammen und Berichten an, die auf Ihren Produkt-, Bestell- und Kundendaten basieren. Eine ausführlichere Analyse finden Sie unter [Fortschrittliche Berichterstellung](business-intelligence.md#advanced-reporting). |
+| [!UICONTROL Go to Advanced Reporting] | Zeigt ein personalisiertes Dashboard mit dynamischen Diagrammen und Berichten an, die auf Ihren Produkt-, Bestell- und Kundendaten basieren. Weitere Informationen finden Sie unter [Erweiterte Berichterstellung](business-intelligence.md#advanced-reporting). |
 
 {style="table-layout:auto"}

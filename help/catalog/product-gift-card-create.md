@@ -14,67 +14,67 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Jede Geschenkkarte verfügt über einen eindeutigen Code, der von nur einem Kunden während des Checkout eingelöst werden kann. A [Code-Pool](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) vor dem Verkauf der Geschenkgutscheine müssen Sie feststellen. Siehe [GitCard-Workflow](../stores-purchase/product-gift-card-workflow.md) für Informationen darüber, wie Geschenkkarten im Warenkorb eingelöst werden.
+Jede Geschenkkarte verfügt über einen eindeutigen Code, der von nur einem Kunden während des Checkout eingelöst werden kann. Ein [Code-Pool](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) muss eingerichtet werden, bevor Geschenkkarten verkauft werden können. Informationen dazu, wie Geschenkkarten im Warenkorb eingelöst werden, finden Sie unter [Workflow für Geschenkkarten](../stores-purchase/product-gift-card-workflow.md) .
 
-![Produktseite für Geschenkkarten](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
+![Produktseite der Gift-Karte](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
 
 Es gibt drei Arten von Geschenkgutscheinprodukten:
 
-- **Virtual** - Eine virtuelle Geschenkkarte wird an die E-Mail-Adresse des Empfängers geschickt, die während des Kaufs der Geschenkkarte benötigt wird. Eine Lieferadresse ist nicht erforderlich.
+- **Virtual** - Eine virtuelle Geschenkkarte wird an die E-Mail-Adresse des Empfängers gesendet, die während des Kaufs der Geschenkkarte erforderlich ist. Eine Lieferadresse ist nicht erforderlich.
 
-- **Physikalisch** - Eine physische Geschenkkarte wird an die Empfängeradresse versandt, die während des Kaufs der Geschenkkarte benötigt wird.
+- **Physikalisch** - Eine physische Geschenkkarte wird an die Adresse des Empfängers versandt, was während des Kaufs der Geschenkkarte erforderlich ist.
 
-- **Kombiniert** - Eine kombinierte Geschenkkarte wird versandt und per E-Mail an den Empfänger geschickt. Die E-Mail-Adresse des Empfängers und die Lieferadresse sind während des Kaufs der Geschenkkarte erforderlich.
+- **Kombiniert** - Eine kombinierte Geschenkkarte wird versandt und per E-Mail an den Empfänger gesendet. Die E-Mail-Adresse des Empfängers und die Lieferadresse sind während des Kaufs der Geschenkkarte erforderlich.
 
 ## Geschenkkartenprodukt erstellen
 
-Die folgenden Anweisungen zeigen den Vorgang der Erstellung einer Geschenkkarte mit einer [Produktvorlage](attribute-sets.md), erforderliche Felder und grundlegende Einstellungen. Jedes erforderliche Feld ist mit einem roten Sternchen (`*`). Wenn Sie die Grundlagen abgeschlossen haben, können Sie die anderen Produkteinstellungen nach Bedarf abschließen.
+Die folgenden Anweisungen zeigen den Prozess der Erstellung einer Geschenkkarte mit einer [Produktvorlage](attribute-sets.md), erforderlichen Feldern und grundlegenden Einstellungen. Jedes erforderliche Feld ist mit einem roten Sternchen (`*`) gekennzeichnet. Wenn Sie die Grundlagen abgeschlossen haben, können Sie die anderen Produkteinstellungen nach Bedarf abschließen.
 
 ### Schritt 1: Produkttyp auswählen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. In der oberen rechten Ecke auf der _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"}  ), wählen Sie **[!UICONTROL Gift Card]**.
+1. In der oberen rechten Ecke des _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"})  ), wählen Sie **[!UICONTROL Gift Card]**.
 
-   ![Hinzufügen der Geschenkkarte](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
+   ![Geschenkkarte hinzufügen](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
 
 ### Schritt 2: Attributsatz auswählen
 
-Sie können die Standardeinstellung `Gift Card` -Attributsatz oder wählen Sie eine andere. Führen Sie einen der folgenden Schritte aus, um den Attributsatz auszuwählen, der als Vorlage für das Produkt verwendet wird:
+Sie können den standardmäßigen Attributsatz `Gift Card` verwenden oder einen anderen auswählen. Führen Sie einen der folgenden Schritte aus, um den Attributsatz auszuwählen, der als Vorlage für das Produkt verwendet wird:
 
-- Klicken Sie in der **[!UICONTROL Attribute Set]** und geben Sie den Namen des Attributsatzes ganz oder teilweise ein.
+- Klicken Sie in das Feld **[!UICONTROL Attribute Set]** und geben Sie den gesamten oder einen Teil des Namens des Attributsatzes ein.
 
 - Wählen Sie in der angezeigten Liste den zu verwendenden Attributsatz aus.
 
-![Attributset auswählen](./assets/product-create-choose-attribute-set-gift-card.png){width="600" zoomable="yes"}
+![Attributsatz auswählen](./assets/product-create-choose-attribute-set-gift-card.png){width="600" zoomable="yes"}
 
 ### Schritt 3: Ausführen der erforderlichen Einstellungen
 
-1. Geben Sie einen **[!UICONTROL Product Name]** für die Geschenkkarte.
+1. Geben Sie eine **[!UICONTROL Product Name]** für die Geschenkkarte ein.
 
    Sie können auch den Typ der Geschenkkarte im Namen angeben. Beispiel: _Luma Virtual Gift Card_.
 
-1. Geben Sie einen **[!UICONTROL SKU]** für das Produkt.
+1. Geben Sie einen **[!UICONTROL SKU]** für das Produkt ein.
 
    Standardmäßig wird der Produktname als standardmäßige SKU verwendet.
 
-1. Satz **[!UICONTROL Card Type]** auf einen der folgenden Werte zu:
+1. Setzen Sie **[!UICONTROL Card Type]** auf einen der folgenden Werte:
 
    - `Virtual` - Virtuelle Geschenkkarten werden dem Empfänger per E-Mail zugestellt.
-   - `Physical` - Körperliche Geschenkgutscheine können im Voraus in großem Maßstab hergestellt und mit einmaligen Codes versehen werden.
+   - `Physical` - Körperliche Geschenkgutscheine können im Voraus gebündelt und mit einmaligen Codes versehen werden.
    - `Combined` - Eine kombinierte Geschenkkarte hat sowohl die Eigenschaften einer virtuellen als auch einer physischen Geschenkkarte.
 
    ![Geschenkkartentyp](./assets/product-create-gift-card-type.png){width="600" zoomable="yes"}
 
-1. Klicken Sie auf , um dem Kunden eine Auswahl an Festbeträgen anzubieten. **[!UICONTROL Add Amount]** und geben Sie den ersten festen Wert der Karte als Dezimalzahl ein.
+1. Um dem Kunden eine Auswahl von Festbeträgen anzubieten, klicken Sie auf **[!UICONTROL Add Amount]** und geben Sie den ersten festen Wert der Karte als Dezimalzahl ein.
 
    Wiederholen Sie diesen Schritt für jede Komponente, um die Festbeträge auszuwählen.
 
 1. Gehen Sie wie folgt vor, um Kunden die Möglichkeit zu geben, den Wert der Geschenkkarte festzulegen:
 
-   - Satz **[!UICONTROL Open Amount]** nach `Yes`.
+   - Setzen Sie **[!UICONTROL Open Amount]** auf `Yes`.
 
-   - Um den Bereich der zulässigen Mindest- und Höchstwerte festzulegen, geben Sie die **[!UICONTROL Open Amount From]** und **[!UICONTROL To]** -Werte.
+   - Geben Sie die Werte **[!UICONTROL Open Amount From]** und **[!UICONTROL To]** ein, um den Mindest- und den Höchstwert festzulegen.
 
    Sie können Geschenkgutscheine mit festen Preisen, einem offenen Preis oder beidem erstellen.
 
@@ -82,31 +82,31 @@ Sie können die Standardeinstellung `Gift Card` -Attributsatz oder wählen Sie e
    >
    >Ein Geschenkgutschein hat keinen eigenen Preis im Katalog. Der Preis der Geschenkkarte wird aus dem ausgewählten Betrag der Geschenkkarte während des Kaufs abgeleitet.
 
-   ![Geldbetrag der Geschenkkarte](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
+   ![Geldkartenbeträge](./assets/product-create-gift-card-amounts.png){width="600" zoomable="yes"}
 
 ### Schritt 4: Grundlegende Einstellungen durchführen
 
-1. Geben Sie für eine physische oder kombinierte Geschenkkarte die **[!UICONTROL Quantity]** auf Lager.
+1. Geben Sie für eine physische oder kombinierte Geschenkkarte die **[!UICONTROL Quantity]** auf Lager ein.
 
-1. Wenn die zu versendende Geschenkkarte, geben Sie die **[!UICONTROL Weight]** des Pakets.
+1. Wenn die zu versendende Geschenkkarte, geben Sie die **[!UICONTROL Weight]** des Pakets ein.
 
-1. Im **[!UICONTROL Categories]** Feld, wählen Sie `Gift Card`.
+1. Wählen Sie im Feld **[!UICONTROL Categories]** die Option `Gift Card` aus.
 
 Es kann zusätzliche individuelle Attribute geben, die das Produkt beschreiben. Die Auswahl variiert den Attributsatz und kann später abgeschlossen werden.
 
 ### Schritt 5: Geschenkgutschein-Informationen ausfüllen
 
-Die _[!UICONTROL Gift Card Information]_-Abschnitt der Produkteinstellungen verwendet werden, um die [Konfiguration der Geschenkkarte](../configuration-reference/sales/gift-cards.md) -Einstellungen, die bestimmen, wie die Karte verwaltet wird.
+Der Abschnitt &quot;_[!UICONTROL Gift Card Information]_&quot;der Produkteinstellungen kann verwendet werden, um die Einstellungen für die [Konfiguration der Geschenkkarte](../configuration-reference/sales/gift-cards.md) zu überschreiben, die bestimmen, wie die Karte verwaltet wird.
 
-1. Scrollen Sie nach unten zum _[!UICONTROL Gift Card Information]_Abschnitt.
+1. Scrollen Sie nach unten zum Abschnitt &quot;_[!UICONTROL Gift Card Information]_&quot;.
 
    Die Standardeinstellungen in diesem Abschnitt werden durch die Systemkonfiguration bestimmt.
 
-   ![Informationen zu Geschenkkarten](./assets/product-gift-card-information.png){width="600" zoomable="yes"}
+   ![Informationen zur Gift-Karte](./assets/product-gift-card-information.png){width="600" zoomable="yes"}
 
 1. Ändern Sie zusätzliche Felder entsprechend der gewünschten Funktion der Geschenkkarte:
 
-   - **[!UICONTROL Treat Balance as Store Credit]** - Stellt fest, ob der Besitzer der Geschenkkarte den Restbetrag als Gutschrift im Geschäft einlösen kann.
+   - **[!UICONTROL Treat Balance as Store Credit]** - Stellt fest, ob der Besitzer der Geschenkkarte den Restbetrag als Gutschrift einlösen kann.
 
    - **[!UICONTROL Lifetime (days)]** - Bestimmt die Anzahl der Tage nach dem Kauf, bis die Geschenkkarte abläuft. Wenn Sie keine Begrenzung für die Lebensdauer der Karte festlegen möchten, lassen Sie dieses Feld leer.
 
@@ -127,31 +127,31 @@ Füllen Sie die Informationen in den folgenden Abschnitten nach Bedarf aus:
 - [Design](settings-advanced-design.md)
 - [Geschenkoptionen](product-gift-options.md)
 
-### Schritt 7: Produkt veröffentlichen
+### Schritt 7: Publish des Produkts
 
-1. Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, legen Sie die **Produkt aktivieren** Switch zu `Yes`.
+1. Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, setzen Sie den Schalter **Produkt aktivieren** auf `Yes`.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    **Methode 1:** Speichern und Vorschau anzeigen
 
-   - Klicken Sie oben rechts auf **[!UICONTROL Save]**.
+   - Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Save]**.
 
-   - Um das Produkt in Ihrem Geschäft anzuzeigen, wählen Sie **[!UICONTROL Customer View]** auf _Admin_ ( ![Menüpfeil](../assets/icon-menu-down-arrow-black.png) ),
+   - Um das Produkt in Ihrem Store anzuzeigen, wählen Sie **[!UICONTROL Customer View]** im Menü _Admin_ ( ![Menüpfeil](../assets/icon-menu-down-arrow-black.png) ),
 
    ![Kundenansicht](./assets/product-admin-customer-view.png){width="600" zoomable="yes"}
 
    **Methode 2:** Speichern und schließen
 
-   Im _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ), wählen Sie **[!UICONTROL Save & Close]**.
+   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**.
 
 ## Dinge, die man sich merken sollte
 
-- A _Code-Pool_ die individuellen Nummern müssen erzeugt werden, bevor eine Geschenkkarte zum Verkauf angeboten werden kann.
+- Ein _Codepool_ mit eindeutigen Zahlen muss generiert werden, bevor eine Geschenkkarte zum Verkauf angeboten werden kann.
 
-- Geschenkkarten können auf `Redeemable` oder `Non-Redeemable`.
+- Geschenkkarten können auf `Redeemable` oder `Non-Redeemable` gesetzt werden.
 
-- Steuern **_nicht angewendet_** für Geschenkgutscheine während des Geschenkes. Steuern werden nur auf Produkte erhoben, wenn eine erworbene Geschenkkarte zum Kauf von Produkten verwendet wird.
+- Steuern werden **_nicht auf Geschenkkarten während des Geschenkkartenkaufes angewendet_**. Steuern werden nur auf Produkte erhoben, wenn eine erworbene Geschenkkarte zum Kauf von Produkten verwendet wird.
 
 - Die Lebensdauer einer Geschenkkarte kann unbegrenzt sein oder auf eine bestimmte Anzahl von Tagen festgelegt werden.
 

@@ -1,78 +1,76 @@
 ---
-title: Auftrag stornieren zulassen
-description: Erfahren Sie, wie Sie Ihren Kunden Abbruchfunktionen bereitstellen können.
+title: Reihenfolge zum Abbrechen zulassen
+description: Erfahren Sie, wie Sie Ihren Kunden Funktionen zum Abbrechen bereitstellen.
 feature: Orders, Storefront
-source-git-commit: 613c081c02dd9b5e55de37dccd021af4e429d424
+exl-id: 5a8ef668-f929-4188-8574-0bccdd076f3e
+source-git-commit: a9d1dc4fe50e98f0f1dfc8ec204930e2cc885d6e
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
 
 ---
 
+# Reihenfolge zum Abbrechen zulassen
 
-# Auftrag stornieren zulassen
+Wenn diese Option aktiviert ist, können Sie eine Bestellung direkt über das Kundenkonto stornieren. Abbrechen ist standardmäßig deaktiviert.
 
-Wenn diese Option aktiviert ist, können Sie eine Bestellung direkt über das Konto des Kunden stornieren. Abbrechen ist standardmäßig deaktiviert.
+## Kriterien für die Stornierung, die für eine Bestellung aktiviert werden soll
 
-## Kriterien für die Stornierung, die für eine Bestellung aktiviert werden sollen
+- Die Konfigurationsoption _Reihenfolge abbrechen zulassen_ muss aktiviert sein.
 
-- Die _Bestellung stornieren zulassen_ Die Konfigurationsoption muss aktiviert sein.
+- Wenn die Reihenfolge den Status `Hold`, `Canceled`, `Complete` oder `Closed` aufweist, ist die Option zum Abbrechen auf der Storefront deaktiviert.
 
-- Wenn die Bestellung in `Hold`, `Canceled`, `Complete`, oder `Closed` Status festgelegt ist, ist die Option Abbrechen in der Storefront deaktiviert.
+- Wenn eines der Artikel in der Bestellung versandt wurde, ist die Option &quot;Abbrechen&quot;auf der Storefront deaktiviert.
 
-- Wenn ein Artikel in der Bestellung versendet wurde, ist die Option „Abbrechen“ in der Storefront deaktiviert.
+- Wenn ein Artikel bezahlt wurde, wird die Option &quot;Abbrechen&quot;aktiviert und die Rückerstattung für diesen Artikel erstellt.
 
-- Wenn ein Artikel bezahlt wurde, ist die Option „Stornieren“ aktiviert und die Rückerstattung wird für diesen Artikel erstellt.
+- Wenn die Bestellung den Status `Pending` oder `Processing` aufweist, ist die Option zum Abbrechen auf der Storefront aktiviert.
 
-- Wenn die Bestellung in `Pending` oder `Processing` Status festgelegt ist, wird die Option Abbrechen in der Storefront aktiviert.
+## Konfigurieren, um das Abbrechen von Kundendaten zuzulassen und die Abbruchsgründe anzupassen
 
-## Konfigurieren Sie so, dass Kunden stornieren können und die Stornierungsgründe angepasst werden können
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Auf der _Admin_ Seitenleiste, zu gehen **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Erweitern Sie im linken Bereich den Eintrag **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Sales]** aus.
 
-1. Erweitern Sie im linken Bereich . **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Sales]**.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Order cancellation]** .
 
-1. Expand ![Erweiterungsauswahl](../assets/icon-display-expand.png) Die **[!UICONTROL Order cancellation]** -Abschnitt.
+   ![Bestellabbruchsoptionen](../configuration-reference/sales/assets/sales-order-cancellation.png){width="600" zoomable="yes"}
 
-   ![Optionen für Auftragsstornierungen](../configuration-reference/sales/assets/sales-order-cancellation.png){width="600" zoomable="yes"}
+1. Setzen Sie **[!UICONTROL Order cancellation through GraphQL]** auf `Yes`.
 
-1. set **[!UICONTROL Order cancellation through GraphQL]** bis `Yes`.
+   Diese Einstellung ermöglicht die Funktion zum Abbrechen vom Kundenkonto auf der Storefront.
 
-   Mit dieser Einstellung wird die Abbruchfunktion für das Kundenkonto in der Storefront aktiviert.
+1. In der **[!UICONTROL Order Order cancellation reasons]** können Sie einen beliebigen Löschgrund hinzufügen, löschen oder ändern.
 
-1. In der **[!UICONTROL Order Order cancellation reasons]** Sie können einen beliebigen Abbruchgrund hinzufügen, löschen oder ändern.
+   Mit dieser Einstellung werden dem Kunden auf der Storefront Stornierungsgründe angezeigt, wenn er eine Bestellung storniert.
+Achten Sie darauf, mindestens einen Grund angegeben zu haben.
 
-   Mit dieser Einstellung werden Stornierungsgründe dem Kunden in der Storefront angezeigt, wenn er eine Bestellung storniert.
-Stellen Sie sicher, dass Sie mindestens einen Grund angegeben haben.
+1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
-1. Klick **[!UICONTROL Save Config]**.
+## Abbrechen über die Storefront
 
-## Aus der Storefront abbrechen
+Ein Kunde kann die Funktion zum Abbrechen für eine bestimmte Bestellung von drei Seiten aus initiieren:
 
-Ein Kunde kann die Abbruchfunktion für eine bestimmte Bestellung von drei Seiten aus starten:
+- Seite _Meine Bestellungen_
 
-- _Meine Bestellungen_ Seite
+- Seite _Bestellansicht_
 
-- _Bestellansicht_ Seite
-
-- _Mein Konto_ Seite
+- Seite _Mein Konto_
 
 ### Meine Bestellungen
 
-Die _Bestellung stornieren_ Die Schaltfläche „Meine Bestellungen“ wird auf der Seite „Meine Bestellungen“ angezeigt, wenn die Bestellung storniert werden kann.
+Die Schaltfläche _Bestellung abbrechen_ wird auf der Seite &quot;Meine Bestellungen&quot;angezeigt, wenn die Bestellung storniert werden kann.
 
-![Beispiel einer Storefront - Seite „Meine Bestellungen“](./assets/my-order-page-view-cancel.png){width="700" zoomable="yes"}
+![Beispiel-Storefront - Seite &quot;Meine Bestellungen&quot;](./assets/my-order-page-view-cancel.png){width="700" zoomable="yes"}
 
-### Bestellansichtsseite
+### Bestellseite
 
-Die _Bestellung stornieren_ auf der Seite Bestellung anzeigen angezeigt wird, wenn die Bestellung storniert werden kann.
+Die Schaltfläche _Reihenfolge abbrechen_ wird auf der Seite &quot;Bestellung anzeigen&quot;angezeigt, wenn die Bestellung storniert werden kann.
 
-![Seite mit den Bestelldetails](./assets/order-view-page-cancel.png){width="700" zoomable="yes"}
+![Bestelldetailseite](./assets/order-view-page-cancel.png){width="700" zoomable="yes"}
 
 ### Mein Konto
 
-Die _Bestellung stornieren_ Die Schaltfläche „Letzte Bestellungen“ wird auf der Seite Mein Konto angezeigt, wenn die Bestellung storniert werden kann.
+Die Schaltfläche _Bestellung abbrechen_ wird im Abschnitt &quot;Letzte Bestellungen&quot;auf der Seite &quot;Mein Konto&quot;angezeigt, wenn die Bestellung storniert werden kann.
 
-![Seite Mein Konto](./assets/my-account-page-view-cancel.png){width="700" zoomable="yes"}
-
-
+![Seite &quot;Mein Konto&quot;](./assets/my-account-page-view-cancel.png){width="700" zoomable="yes"}

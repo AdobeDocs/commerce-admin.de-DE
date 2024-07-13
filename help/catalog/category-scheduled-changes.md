@@ -18,7 +18,7 @@ Kategorieaktualisierungen können planmäßig angewendet und mit anderen Inhalts
 
 >[!NOTE]
 >
->Die [!UICONTROL Schedule Design Update] Registerkarte wurde entfernt in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce und können nicht direkt in der Kategorie geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
+>Die Registerkarte [!UICONTROL Schedule Design Update] wurde in der Adobe Commerce ![Adobe Commerce](../assets/adobe-logo.svg) entfernt und kann nicht direkt in der Kategorie geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
 
 >[!NOTE]
 >
@@ -26,46 +26,46 @@ Kategorieaktualisierungen können planmäßig angewendet und mit anderen Inhalts
 
 ## Eine Aktualisierung auf eine Kategorie planen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Wählen Sie in der Kategorienstruktur auf der linken Seite die zu ändernde Kategorie aus.
 
-1. Im _Geplante Änderungen_ Klicken Sie oben auf der Seite auf **[!UICONTROL Schedule New Update]**.
+1. Klicken Sie im Feld _Geplante Änderungen_ oben auf der Seite auf **[!UICONTROL Schedule New Update]**.
 
    ![Geplante Änderungen](./assets/category-scheduled-changes.png){width="600" zoomable="yes"}
 
-1. Mit dem **[!UICONTROL Save as a New Update]** die Option ausgewählt ist, legen Sie die grundlegenden Parameter für die Aktualisierung fest:
+1. Legen Sie bei ausgewählter Option **[!UICONTROL Save as a New Update]** die grundlegenden Parameter für die Aktualisierung fest:
 
-   - Für **[!UICONTROL Update Name]** Geben Sie einen Namen für die neue Inhaltstaging-Kampagne ein.
+   - Geben Sie für **[!UICONTROL Update Name]** einen Namen für die neue Inhaltstaging-Kampagne ein.
 
-   - Kurzbeschreibung eingeben **[!UICONTROL Description]** der Aktualisierung und ihrer Verwendung.
+   - Geben Sie eine kurze Beschreibung **[!UICONTROL Description]** der Aktualisierung ein und geben Sie an, wie sie verwendet werden soll.
 
-   - Verwenden Sie den Kalender ( ![Kalendersymbol](../assets/icon-calendar.png) ), um das **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** für die Kampagne.
+   - Verwenden Sie das Tool Kalender ( ![Kalendersymbol](../assets/icon-calendar.png) ), um die **[!UICONTROL Start Date]** und die **[!UICONTROL End Date]** für die Kampagne auszuwählen.
 
    >[!IMPORTANT]
    >
-   >Kampagne **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** muss mithilfe der **_default_** Admin-Zeitzone, die aus der lokalen Zeitzone jeder Website konvertiert wird. Bei mehreren Websites in verschiedenen Zeitzonen, auf denen Sie eine Kampagne basierend auf einer US-Zeitzone starten möchten, müssen Sie beispielsweise für jede lokale Zeitzone eine separate Aktualisierung planen. Sie legen die **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** für jede Variable, die aus der Zeitzone der lokalen Website in die standardmäßige Zeitzone des Administrators konvertiert wird.
+   >Campaign **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** müssen mithilfe der **_default_** Admin-Zeitzone definiert werden, die aus der lokalen Zeitzone jeder Website konvertiert wird. Bei mehreren Websites in verschiedenen Zeitzonen, auf denen Sie eine Kampagne basierend auf einer US-Zeitzone starten möchten, müssen Sie beispielsweise für jede lokale Zeitzone eine separate Aktualisierung planen. Sie legen die **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** für jede Variable fest, die aus der Zeitzone der lokalen Website in die standardmäßige Zeitzone des Administrators konvertiert werden.
 
    ![Geplante Änderungen](./assets/category-scheduled-changes-new-update.png){width="600" zoomable="yes"}
 
 1. Nehmen Sie die erforderlichen Änderungen an der geplanten Aktualisierung vor.
 
-1. Um eine Vorschau der Änderungen anzuzeigen, klicken Sie auf **[!UICONTROL Preview]** in der oberen rechten Schaltflächenleiste.
+1. Um eine Vorschau der Änderungen anzuzeigen, klicken Sie in der oberen rechten Schaltflächenleiste auf **[!UICONTROL Preview]** .
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
 
 ## Einer vorhandenen Aktualisierung zuweisen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Wählen Sie in der Kategorienstruktur auf der linken Seite die zu ändernde Kategorie aus.
 
-1. Im _Geplante Änderungen_ Klicken Sie oben auf der Seite auf **[!UICONTROL Schedule New Update]**.
+1. Klicken Sie im Feld _Geplante Änderungen_ oben auf der Seite auf **[!UICONTROL Schedule New Update]**.
 
-1. Auswählen **[!UICONTROL Assign to Existing Campaign]**.
+1. Wählen Sie **[!UICONTROL Assign to Existing Campaign]** aus.
 
 1. Suchen Sie in der Liste die gewünschte Kampagne und klicken Sie auf **[!UICONTROL Select]**.
 
 1. Nehmen Sie die erforderlichen Änderungen an der geplanten Aktualisierung vor.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.

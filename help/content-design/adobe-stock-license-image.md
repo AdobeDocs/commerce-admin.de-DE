@@ -5,30 +5,30 @@ exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
 # Adobe Stock-Bild lizenzieren
 
-Adobe Stock-Assets, die Sie für Ihre Produktions-Adobe Commerce- und Magento Open Source-Stores verwenden möchten, sollten lizenziert sein. Diese Lizenzierung stellt sicher, dass Sie rechtlichen Zugriff auf das Bild haben und das Adobe Stock-Wasserzeichen, das auf allen [Bildvorschau][save-preview]. Um Bilder zu lizenzieren oder bereits lizenzierte Bilder zu speichern, müssen Sie bei Ihrem Adobe-Konto angemeldet sein.
+Adobe Stock-Assets, die Sie für Ihre Produktions-Adobe Commerce- und Magento Open Source-Stores verwenden möchten, sollten lizenziert sein. Diese Lizenzierung stellt sicher, dass Sie rechtlichen Zugriff auf das Bild haben und das Adobe Stock-Wasserzeichen, das in allen [Bildvorschauen][save-preview] vorhanden ist, entfernen. Um Bilder zu lizenzieren oder bereits lizenzierte Bilder zu speichern, müssen Sie bei Ihrem Adobe-Konto angemeldet sein.
 
-Die neue [[!DNL Media Gallery]](media-gallery.md) bietet eine direkte Integration mit Adobe Stock, wodurch die direkte Lizenzierung Ihrer Bilder von der Galerieseite aus erleichtert wird.
+Das neue [[!DNL Media Gallery]](media-gallery.md) bietet eine direkte Integration in Adobe Stock, sodass Sie Ihre Bilder einfach direkt von der Galerieseite aus lizenzieren können.
 
 ## Voraussetzungen
 
-Diese Funktion erfordert die [Adobe Stock-Integration][adobe-stock-integration] -Modul und -Konfiguration. Lizenzierung [Adobe Stock][adobe-stock] Bilder erfordern einen bezahlten Adobe Stock-Plan und eine [Adobe-Konto][adobe-signin].
+Für diese Funktion sind das Modul und die Konfiguration [Adobe Stock Integration][adobe-stock-integration] erforderlich. Für die Lizenzierung von [Adobe Stock][adobe-stock] -Bildern sind ein bezahlter Adobe Stock-Plan und ein [Adobe-Konto][adobe-signin] erforderlich.
 
-## Ein Bild vom neuen [!DNL Media Gallery]
+## Ein Bild aus dem neuen [!DNL Media Gallery] lizenzieren
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Führen Sie die Schritte unter [Verwenden von Adobe Stock-Bildern][using-adobe-stock] , um sich anzumelden und Vorschaubilder in der [Medienspeicher][media-storage].
+1. Führen Sie die Schritte unter [Verwenden von Adobe Stock-Bildern][using-adobe-stock] aus, um sich anzumelden und Vorschaubilder im [Medienspeicher][media-storage] zu speichern.
 
-   ![Gespeichertes Vorschaubild](./assets/adobe-stock-gallery-unlicensed.png){width="600" zoomable="yes"}
+   ![ Vorschaubild gespeichert](./assets/adobe-stock-gallery-unlicensed.png){width="600" zoomable="yes"}
 
-1. Klicken Sie auf die drei Punkte unter dem Bild (![Asset-Menüsymbol](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) und klicken Sie dann auf **[!UICONTROL License]**.
+1. Klicken Sie auf die drei Punkte unter dem Bild (![Asset-Menüsymbol](./assets/media-gallery-asset-menu-icon.png){width="10" zoomable="no"}) und dann auf **[!UICONTROL License]**.
 
    ![Adobe Stock-Bildaktionen](./assets/adobe-stock-gallery-image-actions.png){width="600" zoomable="yes"}
 
@@ -36,35 +36,35 @@ Diese Funktion erfordert die [Adobe Stock-Integration][adobe-stock-integration] 
    >
    >Wenn Sie nicht angemeldet sind, wird das Anmeldeformular angezeigt. Weitere Informationen zur Anmeldung finden Sie unter [Verwenden von Adobe Stock-Bildern][using-adobe-stock].
 
-1. Klicken Sie im Dialogfeld zur Lizenzbestätigung auf **[!UICONTROL Confirm]** um das Bild zu lizenzieren.
+1. Klicken Sie im Dialogfeld zur Lizenzbestätigung auf **[!UICONTROL Confirm]** , um das Bild zu lizenzieren.
 
    ![Lizenzbestätigung](./assets/adobe-stock-gallery-license-confirm.png){width="350" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Sie müssen verfügbar sein [Adobe Stock-Gutschriften][stock-credits] in Ihrem Konto, um das Bild zu lizenzieren.
+   >Sie müssen über [Adobe Stock Credits][stock-credits] in Ihrem Konto verfügen, um das Bild zu lizenzieren.
 
 ## Lizenzieren eines Bildes aus dem standardmäßigen Medienspeicher
 
-1. [Zugriff auf das Adobe Stock-Suchraster][access-search].
+1. [Greifen Sie auf das Adobe Stock-Suchraster][access-search] zu.
 
-1. nach [Bilddetails anzeigen][view-details], klicken Sie in der Reihenfolge auf ein Bild im Suchraster.
+1. Um [die Bilddetails anzuzeigen][view-details], klicken Sie in der Reihenfolge auf ein Bild im Suchraster.
 
 1. Führen Sie je nach aktuellem Lizenzstatus des Bildes einen der folgenden Schritte aus:
 
    - Wenn das Bild bereits lizenziert ist, klicken Sie auf **[!UICONTROL Save]**.
 
-   - Wenn das Bild _not_ lizenziert, klicken Sie auf **[!UICONTROL License and Save]**.
+   - Wenn das Bild _nicht_ lizenziert ist, klicken Sie auf **[!UICONTROL License and Save]**.
 
      >[!NOTE]
      >
-     >Sie müssen verfügbar sein [Adobe Stock-Gutschriften][stock-credits] in Ihrem Konto, um das Bild zu lizenzieren.
+     >Sie müssen über [Adobe Stock Credits][stock-credits] in Ihrem Konto verfügen, um das Bild zu lizenzieren.
 
-   Durch diese Aktion werden Sie aufgefordert, einen Dateinamen anzugeben, mit dem das Bild in der [Medienspeicher][media-storage]. Es wird ein standardmäßiger Dateiname angegeben, aber Sie können den Namen Ihren Voreinstellungen anpassen.
+   Bei dieser Aktion werden Sie aufgefordert, einen Dateinamen anzugeben, mit dem das Bild im [Medienspeicher][media-storage] gespeichert wird. Es wird ein standardmäßiger Dateiname angegeben, aber Sie können den Namen Ihren Voreinstellungen anpassen.
 
-   ![Adobe Stock-lizenziertes Bild speichern](./assets/adobe-stock-save-licensed.png){width="550" zoomable="yes"}
+   ![Adobe Stock lizenziertes Bild speichern](./assets/adobe-stock-save-licensed.png){width="550" zoomable="yes"}
 
-1. Klicken **[!UICONTROL Confirm]**.
+1. Klicken Sie auf **[!UICONTROL Confirm]**.
 
    Die Seite wird zum Medienspeicher weitergeleitet und Ihre gespeicherte Vorschau wird angezeigt.
 

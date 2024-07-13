@@ -21,7 +21,7 @@ Sie können Widgets verwenden, um Landingpages für Marketingkampagnen zu erstel
 
 ## Widget-Typen
 
-Wenn Sie [Widget erstellen](widget-create.md), müssen Sie den Typ festlegen. Dieser Typ bestimmt, wie das Widget funktioniert.
+Wenn Sie [ein Widget ](widget-create.md) erstellen, müssen Sie den Typ festlegen. Dieser Typ bestimmt, wie das Widget funktioniert.
 
 | Typ | Beschreibung |
 |--- |--- |

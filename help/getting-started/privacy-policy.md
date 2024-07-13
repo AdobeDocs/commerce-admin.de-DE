@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Datenschutzrichtlinie speichern
 
-Ihr Store enthält eine Beispiel-Datenschutzrichtlinie, die mit Ihren eigenen Informationen aktualisiert werden muss. Ihre Datenschutzrichtlinien sollten die Art der von Ihrem Unternehmen erfassten Informationen und deren Verwendung beschreiben. Außerdem sollten die Dateinamen von [Cookies](compliance-cookie-law.md#default-cookies) die auf den Computern von Personen platziert werden, die Ihren Laden besuchen. Alle zusätzlichen Cookies, die mit Erweiterungen und Add-ons von Drittanbietern verknüpft sind, sollten in die Liste aufgenommen werden.
+Ihr Store enthält eine Beispiel-Datenschutzrichtlinie, die mit Ihren eigenen Informationen aktualisiert werden muss. Ihre Datenschutzrichtlinien sollten die Art der von Ihrem Unternehmen erfassten Informationen und deren Verwendung beschreiben. Außerdem sollten die Dateinamen von [Cookies](compliance-cookie-law.md#default-cookies) aufgelistet werden, die auf den Computern von Personen platziert werden, die Ihren Store besuchen. Alle zusätzlichen Cookies, die mit Erweiterungen und Add-ons von Drittanbietern verknüpft sind, sollten in die Liste aufgenommen werden.
 
 ## Personenbezogene Daten
 
@@ -34,18 +34,18 @@ Jede Darstellung von Informationen, die die Identität einer Person, für die di
 >
 >Die Luma-Beispieldaten enthalten eine Beispiel-Datenschutzrichtlinie, die Sie für Ihre Verwendung ändern können.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Suchen Sie im Raster nach **[!UICONTROL Privacy Policy]**. Dann in der _[!UICONTROL Action]_Spalte, klicken **[!UICONTROL Select]**und wählen **[!UICONTROL Edit]**.
+1. Suchen Sie im Raster nach **[!UICONTROL Privacy Policy]**. Klicken Sie dann in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**und wählen Sie **[!UICONTROL Edit]**.
 
    >[!NOTE]
    >
-   >Wenn Sie den URL-Schlüssel der Seite mit den Datenschutzrichtlinien ändern, müssen Sie auch eine [benutzerdefiniertes URL-Rewrite](../merchandising-promotions/url-rewrite-custom.md) , um den Traffic zum neuen URL-Schlüssel umzuleiten. Andernfalls gibt der Link in der Fußzeile zurück `404 Page Not Found`.
+   >Wenn Sie den URL-Schlüssel der Seite mit den Datenschutzrichtlinien ändern, müssen Sie auch eine [benutzerdefinierte URL-Umschreibungen](../merchandising-promotions/url-rewrite-custom.md) erstellen, um den Traffic zum neuen URL-Schlüssel umzuleiten. Andernfalls gibt der Link in der Fußzeile `404 Page Not Found` zurück.
 
-1. Erweitern Sie die **[!UICONTROL Content]** und nehmen Sie die erforderlichen Änderungen am Inhalt vor.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Content]** und nehmen Sie die erforderlichen Änderungen am Inhalt vor.
 
-   Weitere Informationen zur Verwendung der Seiteninhaltswerkzeuge finden Sie unter [Inhalt ausfüllen](../content-design/page-add.md#step-2-complete-the-content) im _Anleitung für Inhalt und Design_.
+   Weitere Informationen zur Verwendung der Seiteninhaltswerkzeuge finden Sie unter [Vervollständigen des Inhalts](../content-design/page-add.md#step-2-complete-the-content) im _Inhalts- und Designhandbuch_.
 
    ![Seite &quot;Datenschutzrichtlinie&quot;- Inhalt bearbeiten](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Page]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Page]**.

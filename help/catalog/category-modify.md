@@ -16,7 +16,7 @@ Nachdem eine Kategorie erstellt wurde, kann sie bearbeitet, an eine andere Posit
 
 ## Verschieben von Kategorien
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Um eine Kategorie zu verschieben, ziehen Sie die Kategorie per Drag &amp; Drop an eine neue Position im Baum.
 
@@ -28,8 +28,8 @@ Nachdem eine Kategorie erstellt wurde, kann sie bearbeitet, an eine andere Posit
 
    Eine gelöschte Kategorie kann nicht wiederhergestellt werden. Stellen Sie daher sicher, dass Sie die richtige Kategorie ausgewählt haben, bevor Sie fortfahren.
 
-1. Klicken **[!UICONTROL Delete Category]**.
+1. Klicken Sie auf **[!UICONTROL Delete Category]**.
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL OK]**.
 
-Sie können auch [Ereignisse aktualisieren](../merchandising-promotions/event-create.md#create-and-update-events) mit einer Kategorie aus der **[!UICONTROL Events]** oder **[!UICONTROL Category]** Seite.
+Sie können auch die mit einer Kategorie verknüpften Ereignisse ](../merchandising-promotions/event-create.md#create-and-update-events) auf der Seite **[!UICONTROL Events]** oder auf der Seite **[!UICONTROL Category]** aktualisieren.[

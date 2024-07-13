@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Breadcrumb-Pfad
 
-A _Breadcrumb-Pfad_ ist ein Satz von Links, der dem Kunden zeigt, wo er sich im Verhältnis zu anderen Seiten im Store befindet. Sie können auf einen beliebigen Link im Breadcrumb-Pfad klicken, um zur vorherigen Seite zurückzukehren.
+Ein _Breadcrumb-Pfad_ ist ein Satz von Links, die dem Kunden zeigen, wo er sich im Verhältnis zu anderen Seiten im Store befindet. Sie können auf einen beliebigen Link im Breadcrumb-Pfad klicken, um zur vorherigen Seite zurückzukehren.
 
 Die Breadcrumb-Leiste kann so konfiguriert werden, dass sie auf Inhaltsseiten und auf Katalogseiten angezeigt wird. Das Format und die Position des Breadcrumb-Pfads variieren nach Thema, befinden sich jedoch normalerweise direkt unter der Kopfzeile. Standardmäßig wird die Breadcrumb-Leiste auf CMS-Seiten angezeigt.
 
@@ -46,20 +46,20 @@ Beispiel: `Home > Suits > All Suits > Refined by > Slim Fit`
 
 ## Hinzufügen/Entfernen von Breadcrumbs aus CMS-Seiten
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Im linken Bereich unter _[!UICONTROL General]_auswählen **[!UICONTROL Web]**.
+1. Wählen Sie im linken Bereich unter _[!UICONTROL General]_die Option **[!UICONTROL Web]**.
 
    ![Breadcrumbs für CMS-Seiten anzeigen](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 
-1. Erweitern Sie die _[!UICONTROL Default Pages]_Abschnitt.
+1. Erweitern Sie den Abschnitt _[!UICONTROL Default Pages]_.
 
-1. Deaktivieren Sie die **[!UICONTROL Use system value]** aktivieren.
+1. Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use system value]** .
 
-1. Satz **[!UICONTROL Show Breadcrumbs for CMS Pages]** nach `No` oder `Yes`.
+1. Setzen Sie **[!UICONTROL Show Breadcrumbs for CMS Pages]** auf `No` oder `Yes`.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
 
 >[!NOTE]
 >
->Die übergeordnete Kategorie wird auf der untergeordneten Kategorieseite nicht auf der Breadcrumb-Leiste angezeigt, wenn sie `Browsing Category`= `Deny` [Kategorienberechtigung](category-permissions.md) -Einstellungen.
+>Die übergeordnete Kategorie wird auf der untergeordneten Kategorieseite nicht im Breadcrumb-Pfad angezeigt, wenn sie über die Einstellungen `Browsing Category`= `Deny` [Kategorieberechtigung](category-permissions.md) verfügt.

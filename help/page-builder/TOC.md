@@ -1,6 +1,6 @@
 ---
 user-guide-title: "[!DNL Page Builder] Benutzerhandbuch"
-user-guide-description: Verwendung von [!DNL Page Builder] Funktionen zum Erstellen von inhaltsreichen Seiten mit benutzerdefinierten Layouts, die Ihr visuelles Erzählen von Geschichten verbessern und die Kundeninteraktion und -loyalität steigern.
+user-guide-description: Erfahren Sie, wie Sie mit den [!DNL Page Builder] Funktionen inhaltsreiche Seiten mit benutzerdefinierten Layouts erstellen, die Ihr visuelles Geschichtenerzählen verbessern und die Kundeninteraktion und -loyalität steigern.
 breadcrumb-title: "[!DNL Page Builder]"
 topic: Commerce, Content Management
 feature: Page Builder
@@ -8,7 +8,7 @@ role: User
 source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 2%
 - [Einführung in [!DNL Page Builder]](introduction.md)
 - [Versionshinweise](release-notes.md)
 - [Konfiguration und Einrichtung](setup.md)
-- Exemplarische Vorgehensweise {#walkthrough}
+- Exemplarische Vorgehensweise: {#walkthrough}
    - [Teil 1: Einfache Seite](1-simple-page.md)
    - [Teil 2: Blöcke](2-blocks.md)
    - [Teil 3: Kataloginhalt](3-catalog-content.md)
-- [Arbeitsbereich](workspace.md)
+- [Workspace](workspace.md)
 - Layout {#layout}
    - [Zeilen](row.md)
    - [Spalten](column.md)
@@ -46,5 +46,5 @@ ht-degree: 2%
    - [Produkte](products.md)
    - [Produkt-Recommendations](recommendations.md)
 - [Vorlagen](templates.md)
-- [Zurück zu den Merchant Guides](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Variablenreferenz
 
-Am meisten [E-Mail-Vorlagen](email-template-custom.md) einen Abschnitt von [vordefinierte Variablen](variables-predefined.md) die für die Vorlage spezifisch sind. Die folgende Liste enthält Beispiele für häufig verwendete E-Mail-Vorlagen und die zugehörigen Variablen.
+Die meisten [E-Mail-Vorlagen](email-template-custom.md) verfügen über einen Abschnitt mit [vordefinierten Variablen](variables-predefined.md), die für die Vorlage spezifisch sind. Die folgende Liste enthält Beispiele für häufig verwendete E-Mail-Vorlagen und die zugehörigen Variablen.
 
 ## E-Mail-Vorlagenvariablen
 

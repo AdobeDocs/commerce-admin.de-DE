@@ -12,32 +12,32 @@ ht-degree: 0%
 
 # Systembenachrichtigungen
 
-Die _Benachrichtigungen_ -Seite listet alle Nachrichten nach Schweregrad auf, wobei sich die neueste Seite oben befindet. Mit den Aktionsbefehlen können Sie einzelne Nachrichten als gelesen markieren, detailliertere Informationen anzeigen oder die Nachricht aus dem Posteingang entfernen.
+Auf der Seite _Benachrichtigungen_ werden alle Nachrichten nach Schweregrad aufgelistet, wobei die neueste nach oben sortiert ist. Mit den Aktionsbefehlen können Sie einzelne Nachrichten als gelesen markieren, detailliertere Informationen anzeigen oder die Nachricht aus dem Posteingang entfernen.
 
-1. Führen Sie einen der folgenden Schritte aus, um den _[!UICONTROL Notifications]_Seite:
+1. Führen Sie einen der folgenden Schritte aus, um die Seite _[!UICONTROL Notifications]_zu öffnen:
 
-   - Klicken Sie auf _Benachrichtigung_ in der Kopfzeile. Wenn eine oder mehrere neue Nachrichten angezeigt werden, klicken Sie auf **[!UICONTROL See All]**.
+   - Klicken Sie in der Kopfzeile auf das Symbol _Benachrichtigung_ . Wenn eine oder mehrere neue Nachrichten angezeigt werden, klicken Sie auf **[!UICONTROL See All]**.
 
-   - Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
+   - Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
 
-1. Im **[!UICONTROL Action]** -Spalte einen der folgenden Schritte ausführen:
+1. Führen Sie in der Spalte **[!UICONTROL Action]** einen der folgenden Schritte aus:
 
-   - Klicken Sie für weitere Informationen auf **[!UICONTROL Read Details]** um die verknüpfte Seite in einem neuen Fenster zu öffnen.
+   - Klicken Sie für weitere Informationen auf **[!UICONTROL Read Details]** , um die verknüpfte Seite in einem neuen Fenster zu öffnen.
 
    - Um die Nachricht in Ihrem Posteingang zu behalten, klicken Sie auf **[!UICONTROL Mark As Read]**.
 
-     ![Admin - Benachrichtigungen](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
+     ![Admin - notifications](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
 
    - Um die Nachricht zu löschen, klicken Sie auf **[!UICONTROL Remove]**.
 
 1. Um eine Aktion auf mehrere Nachrichten anzuwenden, führen Sie einen der folgenden Schritte aus:
 
    - Aktivieren Sie das Kontrollkästchen in der ersten Spalte für jede Nachricht, die verwaltet werden soll.
-   - Um mehrere Nachrichten auszuwählen, legen Sie die **[!UICONTROL Mass Actions]** nach Bedarf.
+   - Um mehrere Nachrichten auszuwählen, legen Sie das Steuerelement **[!UICONTROL Mass Actions]** nach Bedarf fest.
 
-1. Legen Sie die **[!UICONTROL Actions]** ein Steuerelement zu einem der folgenden Elemente hinzufügen:
+1. Setzen Sie das Steuerelement **[!UICONTROL Actions]** auf einen der folgenden Werte:
 
    - `Mark as Read`
    - `Remove`
 
-1. Klicks **[!UICONTROL Submit]** , um den Prozess abzuschließen.
+1. Klicken Sie auf **[!UICONTROL Submit]** , um den Vorgang abzuschließen.

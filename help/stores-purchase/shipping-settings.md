@@ -16,15 +16,15 @@ Die Versandkonfiguration bestimmt den Herkunftsort für alle Sendungen, Ihre Ver
 
 ## Ursprungsort
 
-Der Ausgangspunkt wird verwendet, um die Gebühr für Sendungen aus Ihrem Geschäft oder Lager zu berechnen und auch den Steuersatz für verkaufte Produkte zu bestimmen. Bei der Berechnung [EU-Steuern](international-tax-guidelines.md#eu-tax-configuration), stellen Sie sicher, dass die Variable [Standardmäßige Berechnung des Steuerziels](../configuration-reference/sales/tax.md) für jede Store-Ansicht dem Ausgangspunkt der Versandeinstellungen entspricht.
+Der Ausgangspunkt wird verwendet, um die Gebühr für Sendungen aus Ihrem Geschäft oder Lager zu berechnen und auch den Steuersatz für verkaufte Produkte zu bestimmen. Stellen Sie bei der Berechnung von [EU-Steuern](international-tax-guidelines.md#eu-tax-configuration) sicher, dass die [Berechnung des Standardsteuerziels](../configuration-reference/sales/tax.md) für jede Store-Ansicht dem Ausgangspunkt für die Versandeinstellungen entspricht.
 
 ![Origin](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Shipping Settings]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Shipping Settings]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Origin]** und führen Sie Folgendes aus:
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Origin]** und führen Sie Folgendes aus:
 
    - [!UICONTROL Country]
    - [!UICONTROL Region / State]
@@ -32,25 +32,25 @@ Der Ausgangspunkt wird verwendet, um die Gebühr für Sendungen aus Ihrem Gesch�
    - [!UICONTROL City]
    - [!UICONTROL Street Address] (und Zeile 2, falls erforderlich)
 
-1. Klicks **[!UICONTROL Save Config]**.
+1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
 ## Versandpolitik
 
 Eine Versandpolitik sollte die Geschäftsregeln und Richtlinien Ihres Unternehmens für Sendungen erläutern. Wenn Sie beispielsweise über Preisregeln verfügen, die den kostenlosen Versand von Triggern ermöglichen, können Sie die Bedingungen in Ihrer Versandrichtlinie erläutern.
 
-![Versandrichtlinien während der Kasse](./assets/storefront-checkout-shipping-policy.png){width="700" zoomable="yes"}
+![Versandrichtlinie während der Kasse](./assets/storefront-checkout-shipping-policy.png){width="700" zoomable="yes"}
 
-Um Ihre Versandrichtlinien während des Checkout anzuzeigen, füllen Sie die Versandrichtlinien-Parameter in der Konfiguration aus. Der Text wird angezeigt, wenn Kunden auf _Siehe Versandpolitik ._ während des Checkout.
+Um Ihre Versandrichtlinien während des Checkout anzuzeigen, füllen Sie die Versandrichtlinien-Parameter in der Konfiguration aus. Der Text wird angezeigt, wenn Kunden beim Checkout auf _See our shipping policy_ klicken.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Shipping Settings]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Shipping Settings]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Shipping Policy Parameters]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Shipping Policy Parameters]** .
 
-1. Satz **[!UICONTROL Apply Custom Shipping Policy]** nach `Yes`.
+1. Setzen Sie **[!UICONTROL Apply Custom Shipping Policy]** auf `Yes`.
 
-1. Fügen Sie entweder Ihre **[!UICONTROL Shipping Policy]** in das Textfeld ein.
+1. Fügen Sie entweder Ihren **[!UICONTROL Shipping Policy]**-Wert in das Textfeld ein oder geben Sie ihn ein.
 
    >[!NOTE]
    >
@@ -58,26 +58,26 @@ Um Ihre Versandrichtlinien während des Checkout anzuzeigen, füllen Sie die Ver
 
    ![Versandrichtlinienparameter](../configuration-reference/sales/assets/shipping-settings-shipping-policy-parameters.png){width="600" zoomable="yes"}
 
-1. Klicks **[!UICONTROL Save Config]**.
+1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
 ## Mehrere Adressen
 
 Die Versandoptionen mit mehreren Adressen ermöglichen es Kunden, eine Bestellung während des Checkout an mehrere Adressen zu senden und die maximale Anzahl von Adressen zu bestimmen, an die eine Bestellung versandt werden kann.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen **[!UICONTROL Multishipping Settings]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Multishipping Settings]** aus.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die **[!UICONTROL Options]** Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Options]** .
 
-   ![Versandoptionen für mehrere Adressen](../configuration-reference/sales/assets/multishipping-settings-options.png){width="600" zoomable="yes"}
+   ![Optionen für die Bereitstellung mehrerer Adressen](../configuration-reference/sales/assets/multishipping-settings-options.png){width="600" zoomable="yes"}
 
-1. Satz **[!UICONTROL Allow Shipping to Multiple Addresses]** nach `Yes`.
+1. Setzen Sie **[!UICONTROL Allow Shipping to Multiple Addresses]** auf `Yes`.
 
-1. Geben Sie die **[!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses]**.
+1. Geben Sie den Wert **[!UICONTROL Maximum Qty Allowed for Shipping to Multiple Addresses]** ein.
 
-1. Klicks **[!UICONTROL Save Config]**.
+1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
 >[!NOTE]
 >
->![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Bei Bestellungen mit mehreren Versandadressen muss die Variable [Kontozahlung](../b2b/enable-basic-features.md#configure-payment-on-account) Zahlungsmethode, auch wenn sie aktiviert ist, ist während des Checkouts nicht verfügbar.
+>![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Bei Bestellungen mit mehreren Versandadressen ist die Zahlungsmethode [Zahlung auf Konto](../b2b/enable-basic-features.md#configure-payment-on-account) während des Checkout nicht verfügbar, selbst wenn sie aktiviert ist.

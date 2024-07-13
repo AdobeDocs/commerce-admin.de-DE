@@ -14,41 +14,41 @@ ht-degree: 0%
 
 Als Best Practice sollten Sie Ihre Abonnementliste regelmäßig verwalten und alle Abmeldeanfragen verarbeiten. In einigen Rechtsordnungen ist es gesetzlich vorgeschrieben, dass Abmeldeanfragen innerhalb eines bestimmten Zeitraums bearbeitet werden.
 
-Sie können Ihre Abonnenten einfach über eine einfache Liste aktiver Abonnements verwalten. Wenn ein Kunde eine Abmeldeanforderung sendet, können Sie einfach eine _Abmelden_ Aktion auf ein oder mehrere ausgewählte Abonnements.
+Sie können Ihre Abonnenten einfach über eine einfache Liste aktiver Abonnements verwalten. Wenn ein Kunde eine Abmeldeanforderung sendet, können Sie einfach eine _Abmeldung_ -Aktion auf ein oder mehrere ausgewählte Abonnements anwenden.
 
 Bei Einzelsite-Setups mit mehreren Store-Ansichten kann ein Kundenkontoabonnement einer bestimmten Store-Ansicht zugeordnet werden.
 
-In Multi-Store- und Multi-Site-Setups mit einer globalen [Kundenkontobereich](../customers/customer-account-scope.md), kann ein Kundenkonto für Newsletter für mehrere Sites/Geschäfte abonniert werden. In diesem Fall können Sie das Kundenkonto bearbeiten, um eine Gruppe von Abonnements zu verwalten oder ein Abonnement für eine bestimmte Site/einen bestimmten Store abzubrechen, um eine Anfrage zu berücksichtigen.
+Bei Multi-Store- und Multi-Site-Setups mit einem globalen [Kundenkontobereich](../customers/customer-account-scope.md) kann ein Kundenkonto für Newsletter für mehrere Sites/Stores abonniert werden. In diesem Fall können Sie das Kundenkonto bearbeiten, um eine Gruppe von Abonnements zu verwalten oder ein Abonnement für eine bestimmte Site/einen bestimmten Store abzubrechen, um eine Anfrage zu berücksichtigen.
 
 Wenn Sie Newsletter mit einem Drittanbieterdienst versenden möchten, können Sie Ihre Abonnementliste als CSV- oder XML-Datei exportieren.
 
 ## Verwalten von Abonnements für Kunden
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Suchen Sie den Kunden im Raster und klicken Sie auf **[!UICONTROL Edit]** im _[!UICONTROL Action]_Spalte.
+1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
-1. Klicks **[!UICONTROL Newsletter]** im linken Bereich.
+1. Klicken Sie im linken Bereich auf **[!UICONTROL Newsletter]** .
 
 1. Ändern Sie die Abonnements für den Kunden entsprechend Ihrer Site-/Store-Einrichtung.
 
-   Bei einer einzelnen Site-/Einzelspeichereinrichtung können Sie einfach die **[!UICONTROL Subscribed to Newsletter]** aktivieren.
+   Bei einer einzelnen Site-/Einzelspeichereinrichtung können Sie einfach das Kontrollkästchen **[!UICONTROL Subscribed to Newsletter]** aktivieren oder deaktivieren.
 
-   ![Kästchen für die Abonnement eines Einzelstore-Kunden-Newsletters](./assets/newsletter-customer-single-store.png){width="500" zoomable="yes"}
+   ![Kontrollkästchen für die Anmeldung eines Einzelspeicherkunden-Newsletters](./assets/newsletter-customer-single-store.png){width="500" zoomable="yes"}
 
-   Bei einer einzelnen Site-/Multi-Store-Einrichtung können Sie die **[!UICONTROL Subscribed to Newsletter]** Kontrollkästchen und festlegen **[!UICONTROL Subscribed on Store View]** zur richtigen Store-Ansicht für das Abonnement.
+   Bei einer einzelnen Site-/Multi-Store-Einrichtung können Sie das Kontrollkästchen **[!UICONTROL Subscribed to Newsletter]** aktivieren bzw. deaktivieren und **[!UICONTROL Subscribed on Store View]** auf die richtige Store-Ansicht für das Abonnement setzen.
 
-   ![Kontrollkästchen für Abonnements für Newsletter von mehreren Stores und Auswahl der Store-Ansicht](./assets/newsletter-customer-multi-store.png){width="500" zoomable="yes"}
+   ![Kontrollkästchen für die Abonnementaktivität für Newsletter mehrerer Stores und Auswahl der Store-Ansicht](./assets/newsletter-customer-multi-store.png){width="500" zoomable="yes"}
 
-   Bei einer Einrichtung mit mehreren Sites/mehreren Stores mit einem globalen Kundenkontobereich zeigt die Seite den Abonnementstatus für alle Sites an. Sie können die **[!UICONTROL Subscribed]** und/oder ändern Sie **[!UICONTROL Store View]** für das Abonnement.
+   Bei einer Einrichtung mit mehreren Sites/mehreren Stores mit einem globalen Kundenkontobereich zeigt die Seite den Abonnementstatus für alle Sites an. Sie können das Kontrollkästchen **[!UICONTROL Subscribed]** aktivieren bzw. deaktivieren und/oder die **[!UICONTROL Store View]** für das Abonnement ändern.
 
-   ![Abonnement-Checkboxes für Newsletter von mehreren Sites und Store-Ansichtsauswahl](./assets/newsletter-customer-multi-site.png){width="500" zoomable="yes"}
+   ![Abonnement-Checkboxes für mehrseitige Newsletter-Kunden und Store-Ansichtsauswahl](./assets/newsletter-customer-multi-site.png){width="500" zoomable="yes"}
 
-1. Klicken **[!UICONTROL Save Customer]**.
+1. Klicken Sie auf **[!UICONTROL Save Customer]**.
 
 ## Abbrechen von Abonnements über die Abonnentenliste
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Subscribers]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Subscribers]**.
 
    Bei einer Einrichtung mit mehreren Sites, bei der einige Kunden Abonnements für mehr als eine Site haben, wird jedes Abonnement als Zeileneintrag in der Tabelle angezeigt.
 
@@ -58,7 +58,7 @@ Wenn Sie Newsletter mit einem Drittanbieterdienst versenden möchten, können Si
    >
    >Aktivieren Sie für eine Massenabmeldung das Kontrollkästchen jedes Abonnenten, den Sie abbrechen möchten.
 
-1. Legen Sie die _[!UICONTROL Action]_Kontrolle an **[!UICONTROL Unsubscribe]**und klicken **[!UICONTROL Submit]**.
+1. Setzen Sie das Steuerelement _[!UICONTROL Action]_auf **[!UICONTROL Unsubscribe]**und klicken Sie auf **[!UICONTROL Submit]**.
 
    ![Newsletter abmelden](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -66,23 +66,23 @@ Wenn Sie Newsletter mit einem Drittanbieterdienst versenden möchten, können Si
 
 ## Liste der Abonnenten exportieren
 
-1. Aus dem _[!UICONTROL Newsletter Subscribers]_Liste verwenden Sie die Filtersteuerelemente, um nur Datensätze mit einer_ Status _von `Subscribed` und für die entsprechende Website-, Store- oder Store-Ansicht.
+1. Verwenden Sie in der Liste _[!UICONTROL Newsletter Subscribers]_die Filtersteuerelemente, um nur Datensätze mit dem Status_ Status _von `Subscribed` und für die entsprechende Website-, Store- oder Store-Ansicht einzuschließen.
 
-1. Legen Sie die **[!UICONTROL Export to]** ein Steuerelement zu einem der folgenden Elemente hinzufügen:
+1. Setzen Sie das Steuerelement **[!UICONTROL Export to]** auf einen der folgenden Werte:
 
    - `CSV`
    - `XML`
 
-1. Klicks **[!UICONTROL Export]** und suchen Sie nach der Eingabeaufforderung am unteren Bildschirmrand und speichern Sie die Datei.
+1. Klicken Sie auf &quot;**[!UICONTROL Export]**&quot;, suchen Sie nach der Eingabeaufforderung am unteren Bildschirmrand und speichern Sie die Datei.
 
    ![Newsletter-Abonnenten exportieren](./assets/newsletter-subscribers-export.png){width="600" zoomable="yes"}
 
 ## Abonnenten aus der Abonnentenliste löschen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Subscribers]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL Communications]_>**[!UICONTROL Newsletter Subscribers]**.
 
 1. Suchen Sie den Abonnenten im Raster und aktivieren Sie das Kontrollkästchen in der ersten Spalte.
 
-1. Legen Sie die _[!UICONTROL Action]_Kontrolle an **[!UICONTROL Delete]**und klicken **[!UICONTROL Submit]**.
+1. Setzen Sie das Steuerelement _[!UICONTROL Action]_auf **[!UICONTROL Delete]**und klicken Sie auf **[!UICONTROL Submit]**.
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL OK]**.

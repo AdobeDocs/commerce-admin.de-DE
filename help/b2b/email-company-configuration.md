@@ -13,34 +13,34 @@ ht-degree: 0%
 
 # E-Mail-Optionen für Unternehmen konfigurieren
 
-Die [Vertriebsmitarbeiter](account-company-manage.md) wird als Hauptkontakt für ein Unternehmen zugewiesen und ist standardmäßig als Absender vieler automatisierter E-Mail-Nachrichten konfiguriert, die an das Unternehmen gesendet werden.
+Der [Vertriebsmitarbeiter](account-company-manage.md), der als Hauptkontakt für ein Unternehmen zugewiesen ist, ist standardmäßig als Absender vieler automatisierter E-Mail-Nachrichten konfiguriert, die an das Unternehmen gesendet werden.
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen **[!UICONTROL Company Configuration]**.
+1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Company Configuration]** aus.
 
-1. Legen Sie bei Bedarf **[!UICONTROL Store View]** in die Store-Ansicht, um die [Umfang](../getting-started/websites-stores-views.md#scope-settings) der Konfiguration.
+1. Stellen Sie bei Bedarf **[!UICONTROL Store View]** auf die Store-Ansicht ein, um den [Perimeter](../getting-started/websites-stores-views.md#scope-settings) der Konfiguration zu definieren.
 
-1. Führen Sie die **[!UICONTROL Company Registration]** Abschnitt:
+1. Füllen Sie den Abschnitt **[!UICONTROL Company Registration]** aus:
 
    >[!NOTE]
    >
-   >Löschen Sie die **[!UICONTROL Use system value]** aktivieren, damit das Feld bearbeitbar ist.
+   >Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use system value]** , um das Feld bearbeitbar zu machen.
 
-   - Satz **[!UICONTROL Company Registration Email Recipient]** der [Store-Kontakt](../getting-started/store-details.md#store-email-addresses) der benachrichtigt werden soll, wenn ein neuer Antrag auf Eintragung einer Unternehmensregistrierung eingeht.
+   - Setzen Sie **[!UICONTROL Company Registration Email Recipient]** auf den [Speicherkontakt](../getting-started/store-details.md#store-email-addresses) , der benachrichtigt werden soll, wenn eine neue Registrierungsanfrage für ein Unternehmen empfangen wird.
 
-   - Im **[!UICONTROL Send Company Registration Email Copy To]** geben Sie die E-Mail-Adresse jeder Person ein, die eine Kopie der Registrierungsbenachrichtigung erhalten soll. Trennen Sie mehrere E-Mail-Adressen durch Kommas.
+   - Geben Sie im Feld **[!UICONTROL Send Company Registration Email Copy To]** die E-Mail-Adresse jeder Person ein, die eine Kopie der Registrierungsbenachrichtigung erhalten soll. Trennen Sie mehrere E-Mail-Adressen durch Kommas.
 
-   - Um zu bestimmen, wie die Kopie der Benachrichtigung gesendet wird, legen Sie **[!UICONTROL Send Email Copy Method]** auf einen der folgenden Werte zu:
+   - Um zu bestimmen, wie die Kopie der Benachrichtigung gesendet wird, setzen Sie **[!UICONTROL Send Email Copy Method]** auf einen der folgenden Werte:
 
-      - `Bcc` - Sendet eine _Blind Höflichkeitskopie_ indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.
+      - `Bcc` - Sendet eine _Blinde höfliche Kopie_, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.
       - `Separate Email` - Sendet die Kopie als separate E-Mail.
 
-   - Wenn Sie eine E-Mail-Vorlage vorbereitet haben, die anstelle der Standardeinstellung verwendet werden soll, legen Sie **[!UICONTROL Default Company Registration Email]** zum Namen der Vorlage. Standardmäßig wird die Variable `Company Registration Request` verwendet.
+   - Wenn Sie eine E-Mail-Vorlage vorbereitet haben, die anstelle der Standardvorlage verwendet werden soll, setzen Sie &quot;**[!UICONTROL Default Company Registration Email]**&quot;auf den Namen der Vorlage. Standardmäßig wird die Vorlage `Company Registration Request` verwendet.
 
-     ![Kundenkonfiguration - Registrierung des Unternehmens](./assets/company-email-options-company-registration.png){width="600" zoomable="yes"}
+     ![Kundenkonfiguration - Unternehmensregistrierung](./assets/company-email-options-company-registration.png){width="600" zoomable="yes"}
 
-1. Führen Sie die **[!UICONTROL Customer-Related Emails]** Abschnitt:
+1. Füllen Sie den Abschnitt **[!UICONTROL Customer-Related Emails]** aus:
 
    Wenn Sie alternative E-Mail-Vorlagen für die Verwendung anstelle der Standardeinstellungen vorbereitet haben, wählen Sie die Vorlage aus, die Sie für jeden der folgenden Schritte verwenden möchten:
 
@@ -54,38 +54,38 @@ Die [Vertriebsmitarbeiter](account-company-manage.md) wird als Hauptkontakt für
 
    ![Kundenkonfiguration - kundenbezogene E-Mails](./assets/company-email-options-customer-related-emails.png){width="600" zoomable="yes"}
 
-1. Führen Sie die **[!UICONTROL Company Status Change]** Abschnitt:
+1. Füllen Sie den Abschnitt **[!UICONTROL Company Status Change]** aus:
 
-   - Satz **[!UICONTROL Company Status Change for Email Recipient]** der [Store-Kontakt](../getting-started/store-details.md#store-email-addresses) der benachrichtigt werden soll, wenn sich der Status eines Unternehmens ändert.
+   - Setzen Sie **[!UICONTROL Company Status Change for Email Recipient]** auf den [Speicherkontakt](../getting-started/store-details.md#store-email-addresses) , der benachrichtigt werden soll, wenn sich der Status eines Unternehmens ändert.
 
-   - Im **[!UICONTROL Send Company Status Change Email Copy To]** Geben Sie die E-Mail-Adresse jeder Person ein, die eine Kopie der Benachrichtigung über die Statusänderung erhalten soll. Trennen Sie mehrere E-Mail-Adressen durch Kommas.
+   - Geben Sie im Feld **[!UICONTROL Send Company Status Change Email Copy To]** die E-Mail-Adresse jeder Person ein, die eine Kopie der Benachrichtigung über die Statusänderung erhalten soll. Trennen Sie mehrere E-Mail-Adressen durch Kommas.
 
-   - Um zu bestimmen, wie die Kopie der Benachrichtigung gesendet wird, legen Sie **[!UICONTROL Send Email Copy Method]** auf einen der folgenden Werte zu:
+   - Um zu bestimmen, wie die Kopie der Benachrichtigung gesendet wird, setzen Sie **[!UICONTROL Send Email Copy Method]** auf einen der folgenden Werte:
 
-      - `Bcc` - Sendet eine _Blind Höflichkeitskopie_ indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.
+      - `Bcc` - Sendet eine _Blinde höfliche Kopie_, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.
       - `Separate Email` - Sendet die Kopie als separate E-Mail.
 
-   - Wenn Sie über eine vorbereitete E-Mail-Vorlage verfügen, die anstelle der Standardvorlage verwendet werden soll, wenn sich der Unternehmensstatus ändert von `Pending Approval` nach `Active`, set **[!UICONTROL Default 'Company Status Change to Active 1' Email]** zu dieser Vorlage hinzufügen. Standardmäßig wird die Variable `Company Status Active 1` verwendet.
+   - Wenn Sie über eine vorbereitete E-Mail-Vorlage verfügen, die anstelle der Standardvorlage verwendet werden soll, wenn sich der Unternehmensstatus von `Pending Approval` in `Active` ändert, legen Sie **[!UICONTROL Default 'Company Status Change to Active 1' Email]** auf diese Vorlage fest. Standardmäßig wird die Vorlage `Company Status Active 1` verwendet.
 
-   - Wenn Sie über eine vorbereitete E-Mail-Vorlage verfügen, die anstelle der Standardvorlage verwendet werden soll, wenn sich der Unternehmensstatus ändert von `Rejected` oder `Blocked` nach `Active`, set **[!UICONTROL Default 'Company Status Change to Active 2' Email]** zu dieser Vorlage hinzufügen. Standardmäßig wird die Variable `Company Status Active 2` verwendet.
+   - Wenn Sie über eine vorbereitete E-Mail-Vorlage verfügen, die anstelle der Standardvorlage verwendet werden soll, wenn sich der Unternehmensstatus von `Rejected` oder `Blocked` in `Active` ändert, legen Sie **[!UICONTROL Default 'Company Status Change to Active 2' Email]** auf diese Vorlage fest. Standardmäßig wird die Vorlage `Company Status Active 2` verwendet.
 
-   - Wenn Sie über eine vorbereitete E-Mail-Vorlage verfügen, die anstelle der Standardvorlage verwendet werden soll, wenn sich der Unternehmensstatus in `Rejected`, set **[!UICONTROL Default 'Company Status Change to Rejected' Email]** zu dieser Vorlage hinzufügen. Standardmäßig wird die Variable `Company Status Rejected` verwendet.
+   - Wenn Sie über eine vorbereitete E-Mail-Vorlage verfügen, die anstelle der Standardvorlage verwendet werden soll, wenn sich der Unternehmensstatus in `Rejected` ändert, setzen Sie **[!UICONTROL Default 'Company Status Change to Rejected' Email]** auf diese Vorlage. Standardmäßig wird die Vorlage `Company Status Rejected` verwendet.
 
-   - Wenn Sie über eine vorbereitete E-Mail-Vorlage verfügen, die anstelle der Standardvorlage verwendet werden soll, wenn sich der Unternehmensstatus in `Blocked`, set **[!UICONTROL Default 'Company Status Change to Blocked' Email]** zu dieser Vorlage hinzufügen. Standardmäßig wird die Variable `Company Status Blocked` verwendet.
+   - Wenn Sie über eine vorbereitete E-Mail-Vorlage verfügen, die anstelle der Standardvorlage verwendet werden soll, wenn sich der Unternehmensstatus in `Blocked` ändert, setzen Sie **[!UICONTROL Default 'Company Status Change to Blocked' Email]** auf diese Vorlage. Standardmäßig wird die Vorlage `Company Status Blocked` verwendet.
 
-   - Wenn Sie über eine vorbereitete E-Mail-Vorlage verfügen, die anstelle der Standardvorlage verwendet werden soll, wenn sich der Unternehmensstatus in `Pending Approval`, set **[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** zu dieser Vorlage hinzufügen. Standardmäßig wird die Variable `Company Status Pending Approval` verwendet.
+   - Wenn Sie über eine vorbereitete E-Mail-Vorlage verfügen, die anstelle der Standardvorlage verwendet werden soll, wenn sich der Unternehmensstatus in `Pending Approval` ändert, setzen Sie **[!UICONTROL Default 'Company Status Change to Pending Approval' Email]** auf diese Vorlage. Standardmäßig wird die Vorlage `Company Status Pending Approval` verwendet.
 
      ![Kundenkonfiguration - Änderung des Unternehmensstatus](./assets/company-email-options-company-status-change.png){width="600" zoomable="yes"}
 
-1. Führen Sie die **[!UICONTROL Company Credit Emails]** Abschnitt:
+1. Füllen Sie den Abschnitt **[!UICONTROL Company Credit Emails]** aus:
 
-   - Satz **[!UICONTROL Company Credit Change Email Sender]** der [Store-Kontakt](../getting-started/store-details.md#store-email-addresses) der benachrichtigt werden soll, wenn eine Änderung an der einem Unternehmen zugewiesenen Kreditbeschränkung vorgenommen wird. Standardmäßig wird die Benachrichtigung an _Vertriebsmitarbeiter_.
+   - Setzen Sie **[!UICONTROL Company Credit Change Email Sender]** auf den [Speicherkontakt](../getting-started/store-details.md#store-email-addresses) , der benachrichtigt werden soll, wenn eine Änderung an der einem Unternehmen zugewiesenen Kreditbeschränkung vorgenommen wird. Standardmäßig wird die Benachrichtigung an den _Kundenbetreuer_ gesendet.
 
-   - Im **[!UICONTROL Send Company Credit Change Email Copy To]** Geben Sie die E-Mail-Adresse jeder Person ein, die eine Kopie der Benachrichtigung über eine Kreditänderung erhalten soll. Trennen Sie mehrere E-Mail-Adressen durch Kommas.
+   - Geben Sie im Feld **[!UICONTROL Send Company Credit Change Email Copy To]** die E-Mail-Adresse jeder Person ein, die eine Kopie der Benachrichtigung über eine Kreditänderung erhalten soll. Trennen Sie mehrere E-Mail-Adressen durch Kommas.
 
-   - Um zu bestimmen, wie die Kopie der Benachrichtigung gesendet wird, legen Sie **[!UICONTROL Send Email Copy Method]** auf einen der folgenden Werte zu:
+   - Um zu bestimmen, wie die Kopie der Benachrichtigung gesendet wird, setzen Sie **[!UICONTROL Send Email Copy Method]** auf einen der folgenden Werte:
 
-      - `Bcc` - Sendet eine _Blind Höflichkeitskopie_ indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.
+      - `Bcc` - Sendet eine _Blinde höfliche Kopie_, indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.
       - `Separate Email` - Sendet die Kopie als separate E-Mail.
 
    - Wenn Sie E-Mail-Vorlagen für die Verwendung anstelle der Standardwerte vorbereitet haben, wählen Sie die Vorlage für jede der folgenden Benachrichtigungen aus, die an den Unternehmensadministrator gesendet werden.
@@ -98,4 +98,4 @@ Die [Vertriebsmitarbeiter](account-company-manage.md) wird als Hauptkontakt für
 
    ![Kundenkonfiguration - E-Mails zu Firmenkrediten](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save Config]**.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.

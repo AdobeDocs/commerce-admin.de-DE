@@ -6,33 +6,33 @@ feature: Catalog Management, Categories, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Hinzufügen und Entfernen von Kategorieprodukten
 
-Aus dem [Produkte der Kategorie](categories-product-assignments.md) kann ein Store-Administrator Produkte zur Kategorie hinzufügen. In diesem Abschnitt werden alle Produkte aufgelistet, die der Kategorie zugewiesen sind, und angezeigt. **[!UICONTROL Add Product]** when **[!UICONTROL Match products by rule]** auf `No`.
+Im Abschnitt [Produkte in Kategorie](categories-product-assignments.md) kann ein Store-Administrator Produkte zur Kategorie hinzufügen. In diesem Abschnitt werden alle Produkte aufgelistet, die der Kategorie zugewiesen sind, und es wird **[!UICONTROL Add Product]** angezeigt, wenn **[!UICONTROL Match products by rule]** auf `No` gesetzt ist.
 
-![Produkte im Abschnitt Kategorie](./assets/category-products-in-category.png){width="600" zoomable="yes"}
+![Produkte im Abschnitt &quot;Kategorie&quot;](./assets/category-products-in-category.png){width="600" zoomable="yes"}
 
 ## Suche nach Produkten zum Hinzufügen
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Wählen Sie in der Kategorienstruktur auf der linken Seite die Kategorie aus, der Sie ein Produkt hinzufügen möchten.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die _Produkte der Kategorie_ Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _Produkte in Kategorie_ .
 
-1. Klicken **[!UICONTROL Add Products]**.
+1. Klicken Sie auf **[!UICONTROL Add Products]**.
 
-1. Verwendung _Suche nach Keyword_ oder Filtern, um die Produkte zu finden, die Sie hinzufügen möchten.
+1. Verwenden Sie _Suche nach Keyword_ oder Filter, um die Produkte zu finden, die Sie hinzufügen möchten.
 
    ![Registerkarte &quot;Alle Produkte durchsuchen&quot;](./assets/search-all-product.png){width="700" zoomable="yes"}
 
-1. Im _[!UICONTROL Assign]_Spalte, um die Option auf `Yes` für jedes Produkt, das Sie hinzufügen möchten.
+1. Schalten Sie in der Spalte _[!UICONTROL Assign]_die Option für jedes Produkt, das Sie hinzufügen möchten, auf `Yes` um.
 
-   Wenn Sie alle angezeigten Produkte einbeziehen möchten, können Sie auf den Menüpfeil in der Spaltenüberschrift klicken und die Option **[!UICONTROL Select All]**.
+   Wenn Sie alle angezeigten Produkte einbeziehen möchten, können Sie auf den Menüpfeil in der Spaltenüberschrift klicken und **[!UICONTROL Select All]** auswählen.
 
 1. Um Ihre Änderungen anzuwenden, klicken Sie auf **[!UICONTROL Save and Close]**.
 
@@ -49,28 +49,28 @@ Aus dem [Produkte der Kategorie](categories-product-assignments.md) kann ein Sto
 
 ## Produkte nach SKU hinzufügen
 
-1. Klicken **[!UICONTROL Add Products]**
+1. Klicken Sie auf **[!UICONTROL Add Products]**
 
-1. Wählen Sie die **[!UICONTROL Add Products by SKU]** Registerkarte.
+1. Wählen Sie die Registerkarte **[!UICONTROL Add Products by SKU]** aus.
 
-1. Geben Sie die SKUs ein (eine pro Zeile) und klicken Sie auf **[!UICONTROL Assign]**.
+1. Geben Sie die SKUs (eine pro Zeile) ein und klicken Sie auf **[!UICONTROL Assign]**.
 
    Um die Änderungen zu verwerfen, klicken Sie auf **[!UICONTROL Remove]**.
 
-   ![Registerkarte &quot;Produkte nach SKU hinzufügen&quot;](./assets/add-product-by-sku.png){width="700" zoomable="yes"}
+   ![Hinzufügen von Produkten nach SKU-Registerkarte](./assets/add-product-by-sku.png){width="700" zoomable="yes"}
 
 1. Um Ihre Änderungen anzuwenden, klicken Sie auf **[!UICONTROL Save and Close]**.
 
 ## Entfernen von Produkten aus einer Kategorie
 
-1. Im _Admin_ Seitenleiste, navigieren Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Wählen Sie links im Kategoriebaum die Kategorie aus, die Sie bearbeiten möchten.
 
-1. Erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) die _[!UICONTROL Products in Category]_Abschnitt.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt _[!UICONTROL Products in Category]_.
 
 1. Suchen Sie die Produkte, die entfernt werden sollen.
 
-1. Im _[!UICONTROL Actions]_Spalte, klicken **[!UICONTROL Unassign]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Actions]_auf **[!UICONTROL Unassign]**.
 
 1. Um Ihre Änderungen anzuwenden, klicken Sie auf **[!UICONTROL Save]**.

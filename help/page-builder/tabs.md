@@ -1,35 +1,35 @@
 ---
 title: Layout - Registerkarten
-description: Erfahren Sie mehr über den Inhaltstyp Registerkarten , mit dem eine Reihe von Registerkarten im [!DNL Page Builder] Bühne.
+description: Erfahren Sie mehr über den Inhaltstyp Registerkarten , der zum Hinzufügen einer Reihe von Registerkarten in der  [!DNL Page Builder] Bühne verwendet wird.
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
 source-git-commit: 67bf39e8c09d6169ec5ec5e2f396e973476af56a
 workflow-type: tm+mt
-source-wordcount: '2037'
+source-wordcount: '2039'
 ht-degree: 0%
 
 ---
 
 # Layout - Registerkarten
 
-Verwenden Sie die _Registerkarten_ Inhaltstyp , um eine Reihe von Registerkarten im [[!DNL Page Builder] Schritt](workspace.md#stage). Wenn Sie den Registerkarten-Platzhalter aus dem Bedienfeld auf die Bühne ziehen, wird zunächst eine einzelne Standardregisterkarte angezeigt. Sie können weitere Registerkarten hinzufügen, um einen vollständigen Satz zu erstellen. Die Breite des Registerkartensatzes wird durch die Breite des übergeordneten Containers und der Abstandseinstellungen bestimmt.
+Verwenden Sie den Inhaltstyp _Registerkarten_ , um eine Reihe von Registerkarten zur [[!DNL Page Builder] Bühne](workspace.md#stage) hinzuzufügen. Wenn Sie den Registerkarten-Platzhalter aus dem Bedienfeld auf die Bühne ziehen, wird zunächst eine einzelne Standardregisterkarte angezeigt. Sie können weitere Registerkarten hinzufügen, um einen vollständigen Satz zu erstellen. Die Breite des Registerkartensatzes wird durch die Breite des übergeordneten Containers und der Abstandseinstellungen bestimmt.
 
-![Tabulatorsatz](./assets/pb-layout-tab-example.png){width="500" zoomable="yes"}
+![Gruppe von Registerkarten](./assets/pb-layout-tab-example.png){width="500" zoomable="yes"}
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
 ## Toolboxes
 
-Wenn Sie mit dem _Registerkarten_ Inhaltstyp, können Sie einzelne Registerkarten und den Registerkarten-Container hinzufügen und bearbeiten, der mindestens eine Registerkarte enthält. Jede Registerkarte verfügt über eine eigene Toolbox, mit der Sie Registerkarten für das Erstellen von [!DNL Page Builder] Bühne.
+Wenn Sie mit dem Inhaltstyp _Registerkarten_ arbeiten, fügen Sie einzelne Registerkarten und den Registerkarten-Container hinzu und bearbeiten Sie ihn, der mindestens eine Registerkarte enthält. Jede Registerkarte verfügt über eine eigene Toolbox, mit der Sie Registerkarten auf der [!DNL Page Builder]-Bühne entwerfen.
 
 ### Symbolleiste für einzelne Registerkarten
 
-![Registerkarten-Toolbox](./assets/pb-layout-tab1-toolbox.png){width="500" zoomable="yes"}
+![Tab toolbox](./assets/pb-layout-tab1-toolbox.png){width="500" zoomable="yes"}
 
 | Tool | Symbol | Beschreibung |
 |--- |--- |--- |
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png){width="25"} | Mit diesem Steuerelement neben der Tabulatorbeschriftung können Sie die einzelne Registerkarte in der Registerkarte an eine andere Position verschieben. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite &quot;Registerkarten bearbeiten&quot;, auf der Sie die Eigenschaften der einzelnen Registerkarten ändern können. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png){width="25"} | Mit diesem Steuerelement neben der Tabulatorbeschriftung können Sie die einzelne Registerkarte in der Registerkarte an eine andere Position verschieben. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite &quot;Registerkarten bearbeiten&quot;, auf der Sie die Eigenschaften der einzelnen Registerkarten ändern können. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="25"} | Kopiert die Registerkarte. |
 | Entfernen | ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="25"} | Löscht die Registerkarte aus dem Registerkartensatz. |
 
@@ -37,15 +37,15 @@ Wenn Sie mit dem _Registerkarten_ Inhaltstyp, können Sie einzelne Registerkarte
 
 ### Registerkarten-Container-Toolbox
 
-![Registerkarten-Container-Toolbox](./assets/pb-tabs-toolbox-settings.png){width="500" zoomable="yes"}
+![Tab-Container-Toolbox](./assets/pb-tabs-toolbox-settings.png){width="500" zoomable="yes"}
 
 | Tool | Symbol | Beschreibung |
 |--- |--- |--- |
-| Verschieben | ![Symbol Verschieben](./assets/pb-icon-move.png){width="25"} | Verschiebt den Satz von Registerkarten an eine andere Position im Raster im übergeordneten Container. |
+| Verschieben | ![Symbol &quot;Verschieben&quot;](./assets/pb-icon-move.png){width="25"} | Verschiebt den Satz von Registerkarten an eine andere Position im Raster im übergeordneten Container. |
 | Hinzufügen | ![Symbol &quot;Hinzufügen&quot;](./assets/pb-icon-add.png){width="25"} | Fügt dem Registerkartensatz eine Registerkarte hinzu. |
 | (Titel) | [!UICONTROL Tabs] | Identifiziert den aktuellen Container als Registerkartensatz. Bewegen Sie den Mauszeiger über den oberen Rand des Containers, um die Toolbox anzuzeigen. |
-| Einstellungen | ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite &quot;Registerkarte bearbeiten&quot;, auf der Sie die Eigenschaften des Containers ändern können. |
-| Ausblenden | ![Symbol &quot;Ausblenden&quot;](./assets/pb-icon-hide.png){width="25"} | Blendet den Registerkartencontainer aus. |
+| Einstellungen | ![Einstellungssymbol](./assets/pb-icon-settings.png){width="25"} | Öffnet die Seite &quot;Registerkarte bearbeiten&quot;, auf der Sie die Eigenschaften des Containers ändern können. |
+| Ausblenden | ![Symbol zum Ausblenden](./assets/pb-icon-hide.png){width="25"} | Blendet den Registerkartencontainer aus. |
 | Anzeigen | ![Symbol &quot;Anzeigen&quot;](./assets/pb-icon-show.png){width="25"} | Zeigt den ausgeblendeten Registerkarten-Container an. |
 | Duplizieren | ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="25"} | Kopiert die aktuelle Registerkarte. |
 | Entfernen | ![Symbol &quot;Entfernen&quot;](./assets/pb-icon-remove.png){width="25"} | Löscht den aktuellen Tab-Satz aus der Bühne. |
@@ -56,48 +56,48 @@ Wenn Sie mit dem _Registerkarten_ Inhaltstyp, können Sie einzelne Registerkarte
 
 ## Hinzufügen einer einzelnen Registerkarte
 
-1. Im [!DNL Page Builder] Bereich unter _[!UICONTROL Layout]_, ziehen Sie die **[!UICONTROL Tabs]**Platzhalter direkt zur Bühne oder zu einer Zeile oder Spalte auf der Bühne.
+1. Ziehen Sie im Bedienfeld [!DNL Page Builder] unter _[!UICONTROL Layout]_den Platzhalter **[!UICONTROL Tabs]**direkt auf die Bühne oder auf eine Zeile oder Spalte auf der Bühne.
 
-   ![Ziehen von Registerkarten in eine Zeile](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
+   ![Ziehen von Registerkarten auf eine Zeile](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
-1. Klicken Sie auf **[!UICONTROL Tab 1]** Beschriftung zum Anzeigen der einzelnen Registerkarten-Toolbox und zur Auswahl der _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Klicken Sie auf die Beschriftung **[!UICONTROL Tab 1]** , um die einzelne Registerkarten-Toolbox anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
-1. Geben Sie die **[!UICONTROL Tab Name]** die Sie als Beschriftung verwenden möchten.
+1. Geben Sie den **[!UICONTROL Tab Name]** ein, den Sie als Beschriftung verwenden möchten.
 
    ![Registernamen eingeben](./assets/pb-layout-tab1-toolbox-settings-general-tab-name.png){width="600" zoomable="yes"}
 
-1. Geben Sie bei Bedarf die **[!UICONTROL Minimum Height]** für die Registerkarte.
+1. Geben Sie bei Bedarf die **[!UICONTROL Minimum Height]** für die Registerkarte ein.
 
-   Dieser Wert kann eine Zahl mit einer beliebigen gültigen CSS-Einheit sein (z. B. `100px`, `50%`, `50em`, `100vh`) oder einer Berechnung (z. B. `100vh - 237px`).
+   Dieser Wert kann eine Zahl mit einer beliebigen gültigen CSS-Einheit (z. B. `100px`, `50%`, `50em`, `100vh`) oder eine Berechnung (z. B. `100vh - 237px`) sein.
 
-1. Wählen Sie eine **[!UICONTROL Vertical Alignment]** Einstellung, um alle Inhaltscontainer auszurichten, die der Registerkarte hinzugefügt werden (oben, zentriert oder unten).
+1. Wählen Sie die Einstellung &quot;**[!UICONTROL Vertical Alignment]**&quot;, um alle Inhaltscontainer auszurichten, die der Registerkarte hinzugefügt werden (oben, zentriert oder unten).
 
 1. Legen Sie bei Bedarf die anderen Optionen mithilfe der folgenden Abschnitte als Anleitung fest:
 
    - [[!UICONTROL Background]][background]
    - [[!UICONTROL Advanced]][advanced]
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ## Hinzufügen einer Reihe von Registerkarten
 
 Die folgenden Schritte beginnen mit einer einzelnen Registerkarte und erstellen eine Reihe von drei Registerkarten innerhalb eines Registerkarten-Containers. Wenn Sie noch keine einzelne Registerkarte haben, befolgen Sie die vorherigen Anweisungen, um der Bühne eine einzelne Registerkarte hinzuzufügen.
 
-1. Bewegen Sie den Mauszeiger über den Registerkarten-Container, um die Symbolleiste anzuzeigen und die _Hinzufügen_ ( ![Symbol &quot;Hinzufügen&quot;](./assets/pb-icon-add.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den Registerkarten-Container, um die Toolbox anzuzeigen, und wählen Sie das Symbol _Hinzufügen_ ( ![Symbol Hinzufügen](./assets/pb-icon-add.png){width="20"} ).
 
-1. Klicken Sie in der **[!UICONTROL Tab 2]** Titel, um den Cursor anzuzeigen, und geben Sie einen eigenen Titel für die Registerkarte ein.
+1. Klicken Sie auf die Bezeichnung **[!UICONTROL Tab 2]** , um den Cursor anzuzeigen, und geben Sie einen eigenen Titel für die Registerkarte ein.
 
-1. Klicken Sie erneut auf die zweite Registerkarte auf der Bühne und wählen Sie die _Duplizieren_ ( ![Symbol &quot;Duplizieren&quot;](./assets/pb-icon-duplicate.png){width="20"} ).
+1. Klicken Sie erneut auf die zweite Registerkarte auf der Bühne und wählen Sie das Symbol _Duplizieren_ ( ![Symbol Duplizieren](./assets/pb-icon-duplicate.png){width="20"} ).
 
-1. Klicken Sie in den YourName **[!UICONTROL Copy]** Titel, um den Cursor anzuzeigen, und geben Sie einen eigenen Titel für die dritte Registerkarte ein.
+1. Klicken Sie auf die Bezeichnung YourName **[!UICONTROL Copy]** , um den Cursor anzuzeigen und geben Sie einen eigenen Titel für die dritte Registerkarte ein.
 
-![Übereinstimmende Gruppe von Registerkarten mit Toolbox](./assets/pb-layout-tabs3-toolbox-main.png){width="600" zoomable="yes"}
+![Übereinstimmender Satz von Registerkarten mit Toolbox](./assets/pb-layout-tabs3-toolbox-main.png){width="600" zoomable="yes"}
 
 ## Verschieben einer Registerkarte innerhalb des Sets
 
 1. Klicken Sie auf die Registerkarte, die Sie verschieben möchten.
 
-1. Auswählen und Ziehen des _Verschieben_ ( ![Symbol Verschieben](./assets/pb-icon-move.png){width="20"} ), das direkt vor dem Titel-Text der Registerkarte angezeigt wird, an eine neue Position innerhalb des Registerkartensets.
+1. Wählen Sie das Symbol _Verschieben_ ( ![Verschieben-Symbol](./assets/pb-icon-move.png){width="20"} ), das direkt vor dem Registerkartenbeschriftungstext angezeigt wird, aus und ziehen Sie es an eine neue Position innerhalb des Registerkartensets.
 
 ## Inhalt zu einer Registerkarte hinzufügen
 
@@ -105,19 +105,19 @@ Sie können jeden Inhaltstyp auf eine Registerkarte genau so wie auf eine Zeile 
 
 1. Klicken Sie auf die Registerkarte, auf der Sie den Inhalt hinzufügen möchten.
 
-1. Im [!DNL Page Builder] Bedienfeld, erweitern **[!UICONTROL Elements]** und ziehen Sie eine **Text** Platzhalter zur Registerkarte.
+1. Erweitern Sie im Bedienfeld [!DNL Page Builder] den Eintrag **[!UICONTROL Elements]** und ziehen Sie einen Platzhalter für **Text** auf die Registerkarte.
 
 1. Geben Sie Text in den Editor ein oder fügen Sie ihn ein und verwenden Sie die Editor-Symbolleiste, um ihn nach Bedarf zu formatieren.
 
-   Siehe [Elemente - Text](text.md) für weitere Informationen zum Arbeiten mit dem Textinhalttyp.
+   Weitere Informationen zum Arbeiten mit dem Textinhalttyp finden Sie unter [Elemente - Text](text.md) .
 
-   ![Textinhalt bearbeiten, der auf der Registerkarte hinzugefügt wurde](./assets/pb-layout-tab-text.png){width="500" zoomable="yes"}
+   ![Bearbeiten von Textinhalten, die auf der Registerkarte hinzugefügt wurden](./assets/pb-layout-tab-text.png){width="500" zoomable="yes"}
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Save]**.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Save]**.
 
 ## Einzelne Registerkarteneinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über eine einzelne Registerkarte, um die Symbolleiste anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über eine einzelne Registerkarte, um die Toolbox anzuzeigen und das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) auszuwählen.
 
 1. Ändern Sie bei Bedarf die grundlegenden Einstellungen für die Registerkarte:
 
@@ -129,7 +129,7 @@ Sie können jeden Inhaltstyp auf eine Registerkarte genau so wie auf eine Zeile 
 
 1. Ändern Sie die anderen Einstellungen nach Bedarf mithilfe der folgenden Abschnitte für Details.
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ### Hintergrund
 
@@ -141,21 +141,21 @@ Sie können jeden Inhaltstyp auf eine Registerkarte genau so wie auf eine Zeile 
 
    - Ein vordefinierter Farbname, z. B. `White`
 
-   - Der hexadezimale Farbwert für die Farbe, beispielsweise `#ffffff`
+   - Der hexadezimale Farbwert für die Farbe, z. B. `#ffffff`
 
-   - Der rgba-Wert für die Farbe mit Deckkraft in Prozent, z. B. `rgba(255, 255, 255, 0.75)`
+   - Der rgba-Wert für die Farbe mit Deckkraft-Prozent, z. B. `rgba(255, 255, 255, 0.75)`
 
-  Wenn Sie eine Farbe auswählen möchten, klicken Sie auf das Farbfeld links neben _Keine Farbe_ ankreuzen.
+  Wenn Sie eine Farbe auswählen möchten, klicken Sie auf das Muster links neben dem Feld _Keine Farbe_.
 
-  ![Farbmuster auswählen](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
+  ![Auswählen eines Farbmusters](./assets/pb-settings-background-color-picker-swatch.png){width="600" zoomable="yes"}
 
   Wenn Sie auf das Farbfeld klicken, um die Farbauswahl erneut zu öffnen, zeigt das Feld unter dem Schieberegler die aktuellen Rot-, Grün-, Blau- und Alpha-Werte (rgba) an. Die letzte Zahl gibt den aktuellen Deckkraftprozentsatz als Dezimalzahl an. Sie können den Schieberegler verwenden, um die Deckkraft anzupassen, oder den gewünschten Dezimalwert eingeben.
 
-  ![Deckkraft festlegen](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
+  ![Einstellen der Deckkraft](./assets/pb-settings-background-color.png){width="600" zoomable="yes"}
 
   >[!NOTE]
   >
-  >[!DNL Page Builder] auch eine Transparenzschicht unterstützt oder _Alphakanal_, in Hintergrundbildern, die verwendet werden können, um Hintergründe mit unterschiedlicher Deckkraft zu erstellen.
+  >[!DNL Page Builder] unterstützt auch eine Transparenzschicht (oder den _Alphakanal_) in Hintergrundbildern, mit der Hintergründe mit unterschiedlicher Deckkraft erstellt werden können.
 
 - **[!UICONTROL Background Image]** - Verwenden Sie bei Bedarf die bereitgestellten Tools, um ein Hintergrundbild auszuwählen, das auf die Registerkarte angewendet werden soll:
 
@@ -190,11 +190,11 @@ Sie können jeden Inhaltstyp auf eine Registerkarte genau so wie auf eine Zeile 
 
   {style="table-layout:auto"}
 
-- **[!UICONTROL Background Repeat]** - Legen Sie `Yes` um das Hintergrundbild zu wiederholen, um den verfügbaren Platz auf der Registerkarte auszufüllen.
+- **[!UICONTROL Background Repeat]** - Auf `Yes` setzen, um das Hintergrundbild zu wiederholen und den verfügbaren Platz auf der Registerkarte zu füllen.
 
 ### Erweitert
 
-- Um die horizontale Ausrichtung der Inhaltscontainer zu steuern, die der Registerkarte hinzugefügt werden, wählen Sie eine **[!UICONTROL Alignment]** .
+- Um die horizontale Ausrichtung der Inhaltscontainer zu steuern, die der Registerkarte hinzugefügt werden, wählen Sie eine **[!UICONTROL Alignment]** aus.
 
   | Option | Beschreibung |
   | --- | --- |
@@ -205,7 +205,7 @@ Sie können jeden Inhaltstyp auf eine Registerkarte genau so wie auf eine Zeile 
 
   {style="table-layout:auto"}
 
-- Legen Sie die **[!UICONTROL Border]** -Stil, der auf alle vier Seiten des Registerkartencontainers angewendet wird:
+- Legen Sie den **[!UICONTROL Border]** -Stil fest, der auf alle vier Seiten des Registerkartencontainers angewendet wird:
 
   | Option | Beschreibung |
   | --- | --- |
@@ -222,7 +222,7 @@ Sie können jeden Inhaltstyp auf eine Registerkarte genau so wie auf eine Zeile 
 
   {style="table-layout:auto"}
 
-- Wenn Sie einen anderen Rahmenstil als `None`, füllen Sie die Randanzeigeoptionen aus:
+- Wenn Sie einen anderen Rahmenstil als `None` festlegen, füllen Sie die Anzeigeoptionen für die Rahmenanzeige aus:
 
   ![Rahmenfarbe](./assets/pb-settings-border-color.png){width="600" zoomable="yes"}
 
@@ -236,13 +236,13 @@ Sie können jeden Inhaltstyp auf eine Registerkarte genau so wie auf eine Zeile 
 
   Die Zeile im folgenden Beispiel hat einen Rahmenradius von 15.
 
-  ![Zeile mit Rahmenradius 15](./assets/pb-settings-border-radius-15.png){width="500"}
+  ![Zeile mit Rahmenradius von 15](./assets/pb-settings-border-radius-15.png){width="500"}
 
-- (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet, das auf den Spaltencontainer angewendet werden soll.
+- (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet an, das auf den Spaltencontainer angewendet werden soll.
 
   Trennen Sie mehrere Klassennamen durch ein Leerzeichen.
 
-- Geben Sie Werte in Pixel für die **[!UICONTROL Margins and Padding]** um die äußeren Ränder und den inneren Abstand der Spalte anzugeben.
+- Geben Sie Werte in Pixel an, damit der Wert **[!UICONTROL Margins and Padding]** die äußeren Ränder und den inneren Abstand der Spalte angibt.
 
   Geben Sie jeden entsprechenden Wert in das Tab-Container-Diagramm ein.
 
@@ -255,21 +255,21 @@ Sie können jeden Inhaltstyp auf eine Registerkarte genau so wie auf eine Zeile 
 
 ## Einstellungen für Registerkarteneinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über den oberen Rand des Registerkartenset-Containers, um die Toolbox anzuzeigen und die _Einstellungen_ ( ![Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den oberen Rand des Registerkartenset-Containers, um die Toolbox anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ).
 
 1. Ändern Sie bei Bedarf die **[!UICONTROL Default Active Tab]**.
 
    Wählen Sie die Registerkarte im Set aus, die aktiv sein soll, wenn die Seite geladen wird.
 
-1. Geben Sie die **[!UICONTROL Minimum Height]**, in Pixeln, wenn Sie die automatische Höhe für den Registerkartensatz überschreiben möchten.
+1. Geben Sie den Wert **[!UICONTROL Minimum Height]** in Pixel ein, wenn Sie die automatische Höhe für den Registerkartensatz überschreiben möchten.
 
-1. Um die Navigationsregisterkarten am oberen Rand des Registerkartensets zu positionieren, wählen Sie die **[!UICONTROL Tab Navigation Alignment]** (`Left`, `Center`oder `Right`).
+1. Um die Navigations-Registerkarten am oberen Rand des Registerkartensets zu positionieren, wählen Sie den Wert **[!UICONTROL Tab Navigation Alignment]** (`Left`, `Center` oder `Right`).
 
-   ![Rechtsbündige Navigationsregisterkarten](./assets/pb-layout-tabs-navigation-alignment-right.png){width="500" zoomable="yes"}
+   ![ Rechtsbündige Navigationsregisterkarten](./assets/pb-layout-tabs-navigation-alignment-right.png){width="500" zoomable="yes"}
 
 1. Legen Sie die erweiterten Optionen für den Registerkartensatz fest:
 
-   - Um die Positionierung des Registerkartensatzes innerhalb des übergeordneten Containers zu steuern, wählen Sie eine **[!UICONTROL Alignment]**:
+   - Um die Positionierung des Registerkartensatzes innerhalb des übergeordneten Containers zu steuern, wählen Sie einen **[!UICONTROL Alignment]**:
 
      | Option | Beschreibung |
      | ------ | ---------- |
@@ -280,7 +280,7 @@ Sie können jeden Inhaltstyp auf eine Registerkarte genau so wie auf eine Zeile 
 
      {style="table-layout:auto"}
 
-   - Legen Sie die **[!UICONTROL Border]** Stil angewendet auf alle vier Seiten des Registerkarten-Containers:
+   - Legen Sie den **[!UICONTROL Border]** -Stil fest, der auf alle vier Seiten des Registerkarten-Containers angewendet wird:
 
      | Option | Beschreibung |
      | ------ | ---------- |
@@ -297,7 +297,7 @@ Sie können jeden Inhaltstyp auf eine Registerkarte genau so wie auf eine Zeile 
 
      {style="table-layout:auto"}
 
-   - Wenn Sie einen anderen Rahmenstil als `None`, füllen Sie die Randanzeigeoptionen aus:
+   - Wenn Sie einen anderen Rahmenstil als `None` festlegen, füllen Sie die Anzeigeoptionen für die Rahmenanzeige aus:
 
      | Option | Beschreibung |
      | ------ |------------ |
@@ -307,11 +307,11 @@ Sie können jeden Inhaltstyp auf eine Registerkarte genau so wie auf eine Zeile 
 
      {style="table-layout:auto"}
 
-   - (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet, das auf den Registerkarten-Container angewendet werden soll.
+   - (Optional) Geben Sie die Namen von **[!UICONTROL CSS classes]** aus dem aktuellen Stylesheet an, das auf den Registerkarten-Container angewendet werden soll.
 
      Trennen Sie mehrere Klassennamen durch ein Leerzeichen.
 
-   - Geben Sie Werte in Pixel für die **[!UICONTROL Margins and Padding]** um die äußeren Ränder und den inneren Abstand des Registerkartenbehälters zu bestimmen.
+   - Geben Sie Werte in Pixel für den Wert **[!UICONTROL Margins and Padding]** ein, um die äußeren Ränder und den inneren Abstand des Registerkarten-Containers zu bestimmen.
 
      Geben Sie die entsprechenden Werte in das Containerdiagramm der Registerkarten ein.
 
@@ -322,7 +322,7 @@ Sie können jeden Inhaltstyp auf eine Registerkarte genau so wie auf eine Zeile 
 
      {style="table-layout:auto"}
 
-1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum [!DNL Page Builder] Arbeitsbereich.
+1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 [background]: #background
 [advanced]: #advanced

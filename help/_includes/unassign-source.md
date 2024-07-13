@@ -12,4 +12,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Wenn Sie die Zuweisung einer Quelle aufheben, werden alle Mengendaten gelöscht. Die Neuzuweisung einer Quelle kann möglicherweise zu Problemen mit Verkaufsmengen, Reservierungen und ausstehenden Bestellungen führen. Es wird empfohlen, alle Bestellungen zu verarbeiten, bevor Sie die Zuweisung von Quellen aufheben oder andere Quelländerungen vornehmen. Sie können auch neue Befehle verwenden, um Reservierungen zu erkennen und zu aktualisieren. Siehe [[!DNL Inventory Management] CLI-Referenz](../inventory-management/cli.md) für weitere Informationen.
+>Wenn Sie die Zuweisung einer Quelle aufheben, werden alle Mengendaten gelöscht. Die Neuzuweisung einer Quelle kann möglicherweise zu Problemen mit Verkaufsmengen, Reservierungen und ausstehenden Bestellungen führen. Es wird empfohlen, alle Bestellungen zu verarbeiten, bevor Sie die Zuweisung von Quellen aufheben oder andere Quelländerungen vornehmen. Sie können auch neue Befehle verwenden, um Reservierungen zu erkennen und zu aktualisieren. Weitere Informationen finden Sie unter [[!DNL Inventory Management] CLI-Referenz](../inventory-management/cli.md) .

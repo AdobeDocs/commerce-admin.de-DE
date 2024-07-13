@@ -14,7 +14,7 @@ ht-degree: 2%
 
 Im Gegensatz zum Standardmodell von Business zu Consumer sind integrierte B2B-Funktionen (Business to Business) so konzipiert, dass sie den Anforderungen von Verkäufern (Adobe Commerce-Händlern) gerecht werden, deren Kunden Unternehmen sind. Es unterstützt Unternehmen mit komplexen Organisationsstrukturen und mehreren Benutzern mit verschiedenen Rollen und unterschiedlichen Einkaufsberechtigungen. Ein typischer B2B-Kunde könnte der Geschäftsführer eines Einzelhandelsgeschäfts oder ein Käufer sein, der im Namen eines Unternehmens Einkäufe tätigt. In beiden Fällen erfolgt die Transaktion zwischen Ihrem Unternehmen und dem Unternehmen. Sie können Produkte auch direkt an den Verbraucher verkaufen. [!DNL Adobe Commerce B2B] ist eine integrierte Lösung, die sowohl B2B- als auch B2C-Modelle unterstützt.
 
-Mit dem [Installation](install.md) und [Aktivierung](enable-basic-features.md) der B2B-Erweiterung in Ihrem Adobe Commerce-Store, kann das Kauferlebnis mit kundenspezifischen Katalogen und Preisen sowie zielgerichteten Inhalten und Promotions personalisiert werden.
+Mit der [Installation](install.md) und der [Aktivierung](enable-basic-features.md) der B2B-Erweiterung in Ihrem Adobe Commerce-Store kann das Kauferlebnis mit kundenspezifischen Katalogen und Preisen sowie zielgerichteten Inhalten und Promotions personalisiert werden.
 
 ## Unternehmenskonten
 
@@ -26,15 +26,15 @@ Weitere Informationen finden Sie unter [Unternehmenskonten](account-companies.md
 
 >[!NOTE]
 >
->Wenn dieser aktiviert ist, kann Ihr Store Unternehmen die Möglichkeit geben, _Kontobezahlung_, d. h. Einkäufe über eine Firmenkreditlinie tätigen. Als Händler können Sie einem Unternehmenskonto Guthaben zuweisen und die Krediteinstellungen für ein Unternehmen verwalten sowie die Kreditrückerstattung vornehmen.
+>Wenn diese Option aktiviert ist, kann Ihr Store Unternehmen die Option &quot;_Auf Konto bezahlen_&quot;geben, was bedeutet, dass sie Käufe über eine Firmenkreditlinie tätigen. Als Händler können Sie einem Unternehmenskonto Guthaben zuweisen und die Krediteinstellungen für ein Unternehmen verwalten sowie die Kreditrückerstattung vornehmen.
 
 ## Unternehmensverwaltung
 
-[!BADGE 1.5.0-Beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Nur für Beta-Programmteilnehmer verfügbar"}
+[!BADGE 1.5.0-beta]{type=Informative url="/help/b2b/release-notes.md" tooltip="Nur für Beta-Programmteilnehmer verfügbar"}
 
 Die Unternehmensverwaltung hilft Händlern, die Verwaltung und Verwaltung von B2B-Organisationen mit komplexen Betriebsmodellen zu optimieren.
 
-Benutzer mit entsprechenden Berechtigungen können vom Administrator eine **[!UICONTROL Company Hierarchy]** , die die Organisationsstruktur eines aus mehreren Unternehmen bestehenden Unternehmens widerspiegelt. Diese Hierarchie ermöglicht es ihnen, Unternehmen als Gruppe anzuzeigen und zu verwalten. Beispielsweise kann der Administrator eine Muttergesellschaft bestimmen und alle Unternehmen zuweisen, die als Tochterunternehmen der Muttergesellschaft tätig sind. Anschließend kann der Administrator der Muttergesellschaft Unternehmenskonten für alle zugewiesenen Unternehmen anzeigen und verwalten.
+Vom Administrator können Benutzer mit entsprechenden Berechtigungen einen **[!UICONTROL Company Hierarchy]** erstellen, der die Organisationsstruktur eines aus mehreren Unternehmen bestehenden Unternehmens widerspiegelt. Diese Hierarchie ermöglicht es ihnen, Unternehmen als Gruppe anzuzeigen und zu verwalten. Beispielsweise kann der Administrator eine Muttergesellschaft bestimmen und alle Unternehmen zuweisen, die als Tochterunternehmen der Muttergesellschaft tätig sind. Anschließend kann der Administrator der Muttergesellschaft Unternehmenskonten für alle zugewiesenen Unternehmen anzeigen und verwalten.
 
 Weitere Informationen finden Sie unter [Unternehmensverwaltung](manage-companies.md).
 
@@ -66,7 +66,7 @@ Verwenden Sie die Funktion Angebote , um Preisverhandlungen zwischen einem Firme
 
 * Ein Verkäufer kann ein Angebot für einen Käufer von Admin einreichen.
 
-Käufer und Verkäufer verwenden das Angebot, um den Verhandlungsprozess zu verwalten, z. B. das Hinzufügen von Artikeln, die Aktualisierung von Mengen, die Anforderung und die Anwendung von Rabatten, bis sie eine Einigung erzielen. Die _Anführungszeichen_ im Admin-Raster werden die einzelnen erhaltenen Angebote aufgelistet und die Kommunikation zwischen Käufer und Verkäufer protokolliert.
+Käufer und Verkäufer verwenden das Angebot, um den Verhandlungsprozess zu verwalten, z. B. das Hinzufügen von Artikeln, die Aktualisierung von Mengen, die Anforderung und die Anwendung von Rabatten, bis sie eine Einigung erzielen. Das Raster _Anführungszeichen_ im Admin listet jedes erhaltene Angebot auf und verwaltet einen Verlauf der Kommunikation zwischen Käufer und Verkäufer.
 
 Die Unterstützung für verhandelbare Anführungszeichen ist nur für Commerce-Stores verfügbar, die zur Unterstützung von Unternehmenskonten konfiguriert sind.
 
@@ -76,7 +76,7 @@ Weitere Informationen finden Sie unter [Negotiable Anführungszeichen](quotes.md
 
 Wenn die Bestellung für ein Unternehmenskonto aktiviert wird, werden alle Bestellungen automatisch als Bestellungen (Bestellformular) erstellt. Unternehmensbenutzer mit den erforderlichen Berechtigungen können von ihnen erstellte und von untergeordneten Benutzern erstellte POs und POs erstellen, bearbeiten und löschen. Je nach Rolle und Bestellung können Benutzer des Unternehmens mehreren Validierungsregeln unterliegen.
 
-Weitere Informationen finden Sie unter [Bestellungen für Unternehmen](purchase-order-flow.md).
+Weitere Informationen finden Sie unter [Bestellungen für Unternehmen kaufen](purchase-order-flow.md).
 
 ## Anforderungslisten
 

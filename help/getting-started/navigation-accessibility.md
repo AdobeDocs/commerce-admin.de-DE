@@ -5,7 +5,7 @@ exl-id: 7e3becf2-6c47-4993-8581-e253607ab381
 feature: Compliance
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Einige Besucher Ihrer Site verwenden für die Navigation Tastaturbefehle - und nicht eine Maus -, während andere Touch- oder Sprachbefehle verwenden können. Obwohl die Tastaturnavigationssteuerelemente je nach Browser und Plattform variieren, wird der Fokus häufig mithilfe der Tabulatortaste durch die Felder, Links und Schaltflächen auf einer Seite bewegt. Weitere Informationen finden Sie unter [Tastaturbefehle][1]{:target=&quot;_blank&quot;}.
 
-Weitere Informationen zur Barrierefreiheit finden Sie unter [Richtlinien zur Barrierefreiheit][2]{:target=&quot;_blank&quot;} in der Entwicklerdokumentation.
+Weitere Informationen zur Barrierefreiheit finden Sie unter [Richtlinien für Barrierefreiheit][2]{:target=&quot;_blank&quot;} in der Entwicklerdokumentation.
 
 ## Windows
 
