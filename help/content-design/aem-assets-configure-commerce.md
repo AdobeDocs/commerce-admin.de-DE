@@ -2,7 +2,7 @@
 title: Installieren und Konfigurieren der Experience Manager Assets-Integration
 description: "Erfahren Sie, wie Sie den [!DNL AEM Assets Integration for Adobe Commerce] installieren und konfigurieren."
 feature: CMS, Media
-source-git-commit: 8d981258fcfe3515280fa8a7cc99770db7f467f4
+source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 0%
@@ -171,8 +171,8 @@ Die AEM Assets-Integration verwendet den Adobe I/O Events-Dienst, um benutzerdef
 Für die Einrichtung sind die folgenden Schritte erforderlich.
 
 1. Aktivieren Sie das Commerce Eventing-Framework, indem Sie Adobe I/O-Ereignisse auf dem Anwendungsserver und im Admin konfigurieren.
-1. Aktivieren Sie die Datensynchronisation zwischen Adobe Commerce und AEM Assets, indem Sie die Assets Rules Engine Service-API zum Konfigurieren der Verbindung verwenden
-1. AEM Assets-Integration in Admin aktivieren
+1. Aktivieren Sie die Datensynchronisation zwischen Adobe Commerce und AEM Assets, indem Sie die Assets Rules Engine Service-API zum Konfigurieren der Verbindung verwenden.
+1. Aktivieren Sie die AEM Assets-Integration in der Admin-Konsole.
 
 ### Aktivieren des Commerce Eventframework
 
@@ -258,7 +258,7 @@ Sie generieren die Anmeldeinformationen, indem Sie die Integration zur Commerce-
 
    1. Klicken Sie im linken Bereich auf **[!UICONTROL API]**.
 E
-   1. Wählen Sie die externe Medienressource (**[!UICONTROL Catalog > Inventory > Products > External Media]**) aus.
+   1. Wählen Sie die externe Medienressource **[!UICONTROL Catalog > Inventory > Products > External Media]** aus.
 
    ![Konfiguration der Admin-Integration für API-Ressourcen](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
 
@@ -281,15 +281,3 @@ Generieren Sie auf der Seite Integrationen die OAuth-Authentifizierungsberechtig
 >[!NOTE]
 >
 >Sie können auch Authentifizierungsberechtigungen mithilfe der Adobe Commerce-APIs generieren. Weitere Informationen zu diesem Vorgang und weitere Informationen zur OAuth-basierten Authentifizierung für Adobe Commerce finden Sie unter [OAuth-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in der Adobe Developer-Dokumentation.
-
-
-
-
-
-
-
-
-
-
-
-
