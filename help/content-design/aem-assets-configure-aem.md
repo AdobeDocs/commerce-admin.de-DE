@@ -2,9 +2,9 @@
 title: Konfigurieren von Experience Manager Assets
 description: Fügen Sie die Asset-Metadaten hinzu, die erforderlich sind, damit die AEM Assets-Integration für Commerce Assets zwischen Adobe Commerce- und Experience Manager Assets-Projekten synchronisieren kann.
 feature: CMS, Media, Integration
-source-git-commit: f04648a41fc16154d5f10278f810114d707b670c
+source-git-commit: d91ba86b77ef91e849d1737628b575f2309376b8
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -114,4 +114,4 @@ Metadaten werden zugeordnet, wenn ein Commerce-Asset zum ersten Mal veröffentli
 Führen Sie die folgenden Aufgaben aus, bevor Sie mit der Asset-Zuordnung beginnen können:
 
 - [Installieren und Konfigurieren der AEM Assets-Integration für Commerce](aem-assets-configure-commerce.md)
-- [Richten Sie Synchronisierungsdienste ein, um Assets zwischen Ihrer Adobe Commerce-Projektumgebung und der AEM Assets-Projektumgebung zu übertragen.](aem-assets-setup-synchronization.md)
+- [Aktivieren Sie die Asset-Synchronisierung, um Assets zwischen Ihrer Adobe Commerce-Projektumgebung und der AEM Assets-Projektumgebung zu übertragen.](aem-assets-setup-synchronization.md)

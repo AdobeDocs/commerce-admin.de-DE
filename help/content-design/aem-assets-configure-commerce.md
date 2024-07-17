@@ -2,9 +2,9 @@
 title: Installieren und Konfigurieren der Experience Manager Assets-Integration
 description: "Erfahren Sie, wie Sie den [!DNL AEM Assets Integration for Adobe Commerce] installieren und konfigurieren."
 feature: CMS, Media
-source-git-commit: 81910c45f85cde9c7b2264a55ea6fb2759107d40
+source-git-commit: 65a4339f0f6d4e9eb280ce90d6173caf671fde0f
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,12 @@ Installieren und konfigurieren Sie die AEM Assets-Integration für Commerce, ind
 - PHP 8.1, 8.2, 8.3
 - Verfasser: 2.x
 
-## Voraussetzungen
+**Konfigurationsanforderungen**
 
 - Adobe Commerce muss für die Verwendung der [Adobe IMS-Authentifizierung](/help/getting-started/adobe-ims-config.md) konfiguriert sein.
-- Kontobereitstellung und -berechtigungen - Administratoren müssen Zugriff auf die folgenden Ressourcen haben, um die Experience Manager Assets-Integration zu konfigurieren:
-   - Commerce-Anwendungsadministrator - Installieren Sie die erforderlichen Erweiterungen und konfigurieren Sie den Commerce-Anwendungsserver über den Administrator oder die Befehlszeile
+- Kontobereitstellung und Berechtigungen
+   - [Commerce-Cloud-Projekt-Administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - Installieren Sie die erforderlichen Erweiterungen und konfigurieren Sie den Commerce-Anwendungsserver über den Admin oder die Befehlszeile
    - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - Aktualisieren der Speicherkonfiguration und Verwalten von Commerce-Benutzerkonten
-   - [Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/introduction): Adobe IMS-Anwendungsadministrator oder -Benutzerkonto. Konto muss über die Berechtigungen zum Erstellen und Verwalten von Ordnern und Erstellen öffentlicher Sammlungen, zum Hochladen von Assets, zum Einrichten von Berechtigungen und zum Einrichten von Metadaten verfügen.
 
 ## Konfigurationsübersicht
 
