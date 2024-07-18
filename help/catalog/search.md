@@ -3,9 +3,9 @@ title: Katalogsuche - Übersicht
 description: Erfahren Sie mehr über die Schnellsuche- und erweiterten Suchwerkzeuge, mit denen Kunden Produkte in der Storefront finden können.
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 65d295694e13be2e0a0de29b8b396faa9f2c9cd4
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ In den folgenden Abschnitten werden die grundlegenden Katalogsuchfunktionen besc
 
 >[!NOTE]
 >
->Wenn [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html) installiert ist, gibt das Suchfeld die Ergebnisse &quot;Suche beim Eingeben&quot;in einem Popup zurück.
+>Wenn [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) installiert ist und das Widget [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/storefront-popover) aktiviert ist, gibt das Suchfeld &quot;Suche beim Eingeben&quot;zurück, was zu einem Popup-Fenster führt.
 
 Das Suchfeld in der Kopfzeile des Stores hilft Besuchern, Produkte in Ihrem Katalog zu finden. Der Suchtext kann der vollständige oder teilweise Produktname oder ein beliebiges anderes Wort oder eine Wortgruppe sein, das bzw. die das Produkt beschreibt. Die Suchbegriffe, die Personen zum Suchen von Produkten verwenden, können vom Administrator verwaltet werden.
 
