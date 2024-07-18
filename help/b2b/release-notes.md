@@ -3,7 +3,7 @@ title: '[!DNL Adobe Commerce B2B] Versionshinweise'
 description: Informationen zu Änderungen in [!DNL Adobe Commerce B2B] Versionen finden Sie in den Versionshinweisen .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 35402eda770e59cc2862b204e6e54b55190ded13
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '6867'
 ht-degree: 0%
@@ -131,7 +131,7 @@ Diese Version enthält neue Funktionen und Verbesserungen für verhandelbare Anf
 
 Wenn Sie B2B 1.4.0 auf [Adobe Commerce-Version 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html) installieren oder aktualisieren, tritt der folgende Fehler auf:
 
-```terminal
+```
 Your requirements could not be resolved to an installable set of packages.
 
   Problem 1

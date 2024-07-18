@@ -3,7 +3,7 @@ title: Importieren von Produktbildern
 description: Erfahren Sie, wie Sie Produktbilder mithilfe des Pfads und des Dateinamens der einzelnen Bilder importieren.
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Bevor Sie versuchen, viele Bilder zu importieren, überprüfen Sie die Schritte 
 
 1. Laden Sie die Bilddateien auf dem Commerce-Server in den Ordner `var/import/images` oder einen Unterordner hoch, z. B. `var/import/images/product_images`. Dies ist der Standardstammordner für den Import von Produktbildern.
 
-   ```terminal
+   ```
    <Magento root folder>/var/import/images
    ```
 
@@ -50,7 +50,7 @@ Bevor Sie versuchen, viele Bilder zu importieren, überprüfen Sie die Schritte 
 
 1. Geben Sie nach Auswahl der zu importierenden Datei den relativen Pfad nach **[!UICONTROL Images File Directory]** ein.
 
-   ```terminal
+   ```
    var/import/images
    ```
 
@@ -68,7 +68,7 @@ Bevor Sie versuchen, viele Bilder zu importieren, überprüfen Sie die Schritte 
 
 1. Geben Sie in den CSV-Daten die vollständige URL für jede Bilddatei in der richtigen Spalte nach Bildtyp (`base_image`, `small_image`, `thumbnail_image` oder `additional_images`) ein.
 
-   ```terminal
+   ```
    https://example.com/images/image.jpg
    ```
 
@@ -78,7 +78,7 @@ Bevor Sie versuchen, viele Bilder zu importieren, überprüfen Sie die Schritte 
 
 1. Laden Sie die Bilddateien im Remote-Speichermodul in den Ordner `var/import/images` oder einen Unterordner hoch, z. B. `var/import/images/product_images`. Dies ist der Standardstammordner für den Import von Produktbildern.
 
-   ```terminal
+   ```bash
    <remote-storage-root-folder>/var/import/images
    ```
 
@@ -100,7 +100,7 @@ Bevor Sie versuchen, viele Bilder zu importieren, überprüfen Sie die Schritte 
 
 1. Geben Sie nach Auswahl der zu importierenden Datei den relativen Pfad nach **[!UICONTROL Images File Directory]** ein.
 
-   ```terminal
+   ```
    var/import/images/product_images
    ```
 
