@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Ihren eigenen Verschlüsselungsschlüssel aut
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 21be3c7a56cb72d685b2b3605bc27266e8e55f37
+source-git-commit: 2469b3853d074f7a7adfe822b645e41d1420259a
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,33 @@ Während der ersten Installation werden Sie aufgefordert, entweder Commerce eine
 
 Technische Informationen finden Sie unter [Erweiterte lokale Installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) im _Installationshandbuch_.
 
-## Schritt 1: Datei schreiben
+>[!IMPORTANT]
+>
+>Bevor Sie diese Anweisungen zum Ändern des Verschlüsselungsschlüssels befolgen, stellen Sie sicher, dass die folgende Datei schreibbar ist: `[your store]/app/etc/env.php`
 
-Um den Verschlüsselungsschlüssel zu ändern, stellen Sie sicher, dass die folgende Datei schreibbar ist: `[your store]/app/etc/env.php`
+**So ändern Sie einen Verschlüsselungsschlüssel:**
 
-## Schritt 2: Verschlüsselungsschlüssel ändern
+Die folgenden Anweisungen erfordern den Zugriff auf ein Terminal.
+
+1. Aktivieren Sie den [Wartungsmodus](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
+
+   ```bash
+   bin/magento maintenance:enable
+   ```
+
+1. Deaktivieren Sie Cron-Aufträge.
+
+   _Cloud-Infrastrukturprojekte:_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:disable
+   ```
+
+   _Vor-Ort-Projekte_
+
+   ```bash
+   crontab -e
+   ```
 
 1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**.
 
@@ -36,6 +58,40 @@ Um den Verschlüsselungsschlüssel zu ändern, stellen Sie sicher, dass die folg
 
 1. Klicken Sie auf **[!UICONTROL Change Encryption Key]**.
 
-1. Verwahren Sie den neuen Schlüssel an einem sicheren Speicherort auf.
+   >[!NOTE]
+   >
+   >Verwahren Sie den neuen Schlüssel an einem sicheren Speicherort auf. Es ist erforderlich, die Daten zu entschlüsseln, wenn Probleme mit Ihren Dateien auftreten.
 
-   Es ist erforderlich, die Daten zu entschlüsseln, wenn Probleme mit Ihren Dateien auftreten.
+1. Leeren Sie den Cache.
+
+   _Cloud-Infrastrukturprojekte:_
+
+   ```bash
+   magento-cloud cc
+   ```
+
+   _Vor Ort durchgeführte Projekte:_
+
+   ```bash
+   bin/magento cache:flush
+   ```
+
+1. Aktivieren Sie Cron-Aufträge.
+
+   _Cloud-Infrastrukturprojekte:_
+
+   ```bash
+   ./vendor/bin/ece-tools cron:enable
+   ```
+
+   _Vor Ort durchgeführte Projekte:_
+
+   ```bash
+   crontab -e
+   ```
+
+1. Wartungsmodus deaktivieren.
+
+   ```bash
+   bin/magento maintenance:disable
+   ```
