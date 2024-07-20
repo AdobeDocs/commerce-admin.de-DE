@@ -3,9 +3,9 @@ title: Tabellenversand
 description: Erfahren Sie, wie Sie eine Versandoption mit Tabellenraten für Ihren Store einrichten.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 0f368e87275a85e3801e6770b8985184e2071384
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -117,6 +117,7 @@ Der erste Schritt besteht darin, die Standardeinstellungen für Tabellenraten ab
    - Verwenden Sie ein Sternchen (*) als Platzhalter, der alle in einer Kategorie möglichen Werte darstellt.
    - Die Spalte _[!UICONTROL Country]_muss einen [gültigen dreistelligen Code][1] für jede Zeile enthalten.
    - Sortieren Sie die Daten nach &quot;_[!UICONTROL Region/State]_&quot;, sodass sich die jeweiligen Positionen oben in der Liste und die Platzhalterstandorte unten befinden. Bei Verwendung dieser Methode werden die Regeln zuerst mit den absoluten Werten und später mit den Platzhalterwerten verarbeitet.
+   - Postleitzahlbereiche werden nicht unterstützt. Verwenden Sie ein Sternchen (*), um alle Codes innerhalb des Bereichs/Status zuzulassen, oder geben Sie einen einzelnen Code für eine bestimmte Position in der Spalte _[!UICONTROL Zip/Postal Code]_an.
    - Die Werte in der Spalte _[!UICONTROL Weight (and above)]_können maximal vier Dezimalstellen haben (z. B. `2.5075`). Wenn Sie mehr Dezimalstellen in den Daten verwenden, schlägt der Import fehl.
 
    ![Gewichtung vs. Ziel (Australien)](./assets/table-rates-weight-destination-csv.png){width="500"}
