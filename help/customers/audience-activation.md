@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: c9eb7f2b0b28f39ee9039be1e0fba4fe282ba7b3
+source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -359,10 +359,34 @@ Nachdem die Daten abgerufen wurden, können Sie sie verwenden, um zielgruppenbez
 
 Wenn Real-Time CDP-Zielgruppen nicht in Commerce angezeigt werden, kann dies folgende Gründe haben:
 
+- Ungültige Verbindung
 - Falscher Authentifizierungstyp, der auf der Konfigurationsseite **Datenverbindung** ausgewählt wurde
 - Unzureichende Berechtigungen für generiertes Token
 
-In den folgenden beiden Abschnitten wird beschrieben, wie Sie in beiden Fällen eine Fehlerbehebung durchführen.
+In den folgenden Abschnitten wird beschrieben, wie Sie diese Probleme beheben können.
+
+### Verbindung überprüfen
+
+Führen Sie den folgenden Befehl aus, um die Anmeldeinformationen und die Antwort von Adobe Experience Platform zu überprüfen:
+
+```bash
+bin/magento audiences:config:status
+```
+
+Dieser Befehl gibt den Verbindungsstatus zurück. Fügen Sie das Flag `-v` hinzu, um eine zusätzliche ausführlichere Information bereitzustellen:
+
+```
+./bin/magento audiences:config:status -v  
+```
+
+Beispiel:
+
+```
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| Client ID                        | Client secret | Technical account ID                        | Technical account email                                 | Sandbox name |
++----------------------------------+---------------+---------------------------------------------+---------------------------------------------------------+--------------+
+| 1234bd57fac8497d8933327c535347d8 | *****         | 12341E116638D6B00A495C80@techacct.adobe.com | 12345-b95b-4894-a41c-a4130d26bd80@techacct.adobe.com | dev          |
+```
 
 ### Falscher Authentifizierungstyp in der Konfiguration ausgewählt
 
