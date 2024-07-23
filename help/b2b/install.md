@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie das [!DNL Adobe Commerce B2B] Metapaket insta
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
+source-git-commit: 97717f367e2709c6b940ef16dec788027704799e
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,12 @@ Die Adobe Commerce B2B-Erweiterung `magento/extension-b2b` ist für alle unterst
 ## Voraussetzungen
 
 - [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html), alle unterstützten Versionen
-- PHP 8.1 / 8.2 / 8.3
+- PHP 8.1 und 8.2
 - [!DNL Composer]
+
+>[!IMPORTANT]
+>
+>Adobe Commerce B2B Version 1.4.2+ ist nicht mit PHP 8.3 kompatibel. Wenn Sie die Commerce-Instanz auf die Commerce-Version 2.4.7+ aktualisieren, stellen Sie sicher, dass die auf der Instanz installierte PHP 8.2 ist, um die Kompatibilität mit B2B 1.4.2+ zu gewährleisten.
 
 ## Unterstützte Plattformen
 
