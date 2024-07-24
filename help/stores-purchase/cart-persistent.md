@@ -3,167 +3,85 @@ title: Warenkorbpersistenz
 description: Erfahren Sie, wie ein beständiger Warenkorb nicht gekaufte Artikel verfolgt und die Informationen für den nächsten Besuch des Kunden speichert.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 26d4bb35c6e1878a8ea8c5f05a982559e5d6dc35
+source-git-commit: ea3aae3fce7f5e18155138b2bb9e7df0b3831fdd
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
 
 # Warenkorbpersistenz
 
-Ein beständiger Warenkorb verfolgt nicht gekaufte Artikel, die noch im Warenkorb sind, und speichert die Informationen für den nächsten Besuch des Kunden. Kunden, die _an_ erinnern, können den Inhalt ihres Warenkorbs beim nächsten Besuch in Ihrem Geschäft wiederherstellen lassen.
+Ein beständiger Warenkorb verfolgt nicht gekaufte Artikel im Warenkorb und speichert die Informationen. Dadurch wird sichergestellt, dass der Inhalt des Warenkorbs auch nach Ablauf der angemeldeten Sitzung verfügbar bleibt.
 
-Die Verwendung eines beständigen Warenkorbs kann dazu beitragen, die Anzahl der abgebrochenen Warenkörbe zu reduzieren und den Umsatz zu steigern. Es ist wichtig zu verstehen, dass der beständige Warenkorb zu keinem Zeitpunkt sensible Kontoinformationen anzeigt. Während der beständige Warenkorb verwendet wird, müssen sich sowohl registrierte Kunden als auch Gastkäufer entweder bei einem vorhandenen Konto anmelden oder ein Konto erstellen, bevor sie zum Checkout gehen. Für Gastkäufer ist ein beständiger Warenkorb die einzige Möglichkeit, Informationen aus einer vorherigen Sitzung abzurufen.
+Wenn ein Kunde _an_ erinnert wird, bleibt der Inhalt seines Warenkorbs auf dem aktuellen Gerät verfügbar, wenn die angemeldete Sitzung abläuft. Nach Ablauf der Sitzung wird der Warenkorb des Kunden über die persistente Warenkorbsitzung aufgerufen. Wenn sich derselbe Kunde auf einem anderen Gerät oder Browser anmeldet und etwas zum Warenkorb hinzufügt und dann mit einer aktiven, beständigen Sitzung zum Gerät zurückkehrt, wird sein Warenkorb mit den hinzugefügten Artikeln aktualisiert.
+
+Die Verwendung eines beständigen Warenkorbs kann die Anzahl der abgebrochenen Warenkörbe reduzieren und den Umsatz steigern. Der beständige Warenkorb **zeigt keine vertraulichen Kontoinformationen an.**
 
 Um die Verwendung der Warenkorbpersistenz für Ihre Site oder in bestimmten Store-Ansichten zu verwalten, können Sie [persistente Warenkorbeinstellungen konfigurieren](#configure-a-persistent-cart). Weitere Informationen dazu, wie sich diese Einstellungen auf das Kundenerlebnis in Ihrer Storefront auswirken, finden Sie unter [Workflow für beständigen Warenkorb](#persistent-cart-workflow).
 
 >[!NOTE]
 >
->Bei Verwendung eines persistenten Warenkorbs wird empfohlen, die Lebensdauer der Serversitzung und des Sitzungs-Cookies auf einen langen Zeitraum festzulegen. Weitere Informationen finden Sie unter [Sitzungslebensdauer](../customers/customer-online-options.md) .
-
-Um den beständigen Warenkorb zu verwenden, muss der Browser des Kunden so eingestellt sein, dass Cookies zugelassen werden. Es gibt zwei Arten von Cookies, die für Warenkorbvorgänge verwendet werden:
-
-- **Sitzungs-Cookie** - Ein kurzfristiges Sitzungs-Cookie ist während eines einzelnen Besuchs auf Ihrer Site vorhanden und läuft ab, wenn der Kunde die Site verlässt oder nach einem bestimmten Zeitraum.
-
-- **Persistentes Cookie** - Ein langfristiges, beständiges Cookie besteht nach Ende der Sitzung weiter und speichert einen Datensatz mit den Warenkorbinhalten des Kunden, um ihn später erneut darauf hinzuweisen.
+>Die beständige Warenkorbfunktion ist nur für Kunden verfügbar, die registriert und angemeldet sind. Gastkäufer können die persistente Warenkorbfunktion nicht verwenden.
 
 ## Workflow für beständigen Warenkorb
 
 Wenn der beständige Warenkorb [aktiviert](#configure-a-persistent-cart) ist, hängt der Workflow von Folgendem ab:
 
-- Die Werte der Einstellungen _Enable Merken Me_ und _Clear Persistence on Log Out_
-- Die Entscheidung des Kunden, das Kontrollkästchen _Angaben speichern_ auszuwählen oder zu deaktivieren
+- Die Werte der Einstellungen _[!UICONTROL Enable Remember Me]_und_[!UICONTROL Clear Persistence on Log Out]_
+- Die Entscheidung des Kunden, das Kontrollkästchen _[!UICONTROL Remember Me]_auszuwählen oder zu deaktivieren
 - Wenn das persistente Cookie gelöscht wird
 
-Wenn ein beständiges Cookie angewendet wird, wird im Seitenkopf ein `Not Jane Smith?` -Link angezeigt. Mit dieser Aufforderung kann der Kunde die persistente Sitzung beenden und als Gast arbeiten oder sich als anderer Kunde anmelden. Das System speichert einen Datensatz mit den Inhalten des Warenkorbs, auch wenn der Kunde später verschiedene Geräte verwendet, um in Ihrem Geschäft einzukaufen. Beispielsweise kann ein Kunde einen Artikel von einem Laptop zum Warenkorb hinzufügen, weitere Artikel von einem Mobilgerät hinzufügen und den Checkout-Prozess von einem Tablet abschließen.
+Wenn die Kundensitzung abläuft, wird in der Kopfzeile der Seite unter den folgenden Bedingungen ein `Not Jane Smith?` -Link angezeigt:
+- der angemeldete Kunde die Option _[!UICONTROL Remember Me]_ausgewählt hat und ein beständiges Cookie angewendet wird
+- Der Kunde meldet sich ab, wenn das System mit _[!UICONTROL Clear Persistence on Sign Out]_als `No` konfiguriert ist.
 
-Für jeden Browser gibt es ein separates unabhängiges beständiges Cookie. Wenn der Kunde während einer einzelnen persistenten Sitzung mehrere Browser verwendet, während er Ihren Store besucht, werden Änderungen, die in einem Browser vorgenommen wurden, bei einer Seitenaktualisierung in einem anderen Browser übernommen. Während der beständige Warenkorb aktiviert ist, erstellt und verwaltet Ihr Store ein separates beständiges Cookie für jeden Browser, der von einem Kunden zum Anmelden oder Erstellen eines Kontos verwendet wird.
+Das System speichert den Inhalt des Warenkorbs auf dem aktuellen Gerät, auch wenn die angemeldete Sitzung abläuft. Der Link `Not Jane Smith?` ermöglicht es dem Kunden, die persistente Sitzung zu beenden und zu beginnen, als Gast zu arbeiten, oder sich als ein anderer oder derselbe Kunde anzumelden.
 
-### Beispiel: Eine offene Sitzung auf einem freigegebenen Computer
+Wenn der Kunde beim Anmelden das Kontrollkästchen _[!UICONTROL Remember Me]_aktiviert hat, erstellt und verwaltet Ihr Store ein separates persistentes Cookie. Dieses Cookie hilft, den Warenkorb des Kunden auch dann zugänglich zu machen, wenn er den Browser schließt oder zu einer anderen Site navigiert und die angemeldete Sitzung abläuft.
 
-Jane schließt ihren Urlaubseinkauf mit einer anhaltenden Sitzung ab. Sie fügt John ein Geschenk zum Warenkorb und etwas für ihre Mutter hinzu. Dann geht sie zum Imbiss in die Küche.
+Wenn derselbe Kunde Ihren Store mit mehreren Browsern besucht, während er angemeldet ist oder eine persistente Sitzung aktiv ist, spiegeln sich die vom Kunden vorgenommenen Änderungen am Warenkorbinhalt in einem Browser in anderen Browsern wider, wenn die Seite aktualisiert wird.
 
-John sitzt am Computer, um schnell einkaufen zu können, während Jane in der Küche ist. Ohne den `Not Jane Smith?` -Link oben auf der Seite zu sehen, findet er ein schönes Geschenk für Jane und fügt es zum Warenkorb hinzu. Wenn er zum Checkout geht und sich wie sich selbst anmeldet, werden beide Artikel im Warenkorb von Jane in seinen Warenkorb gelegt. John hat es so eilig, dass er die zusätzlichen Elemente während der _Bestellprüfung_ nicht bemerkt und die Bestellung sendet. Janes Warenkorb ist jetzt leer, und John kaufte alle Geschenke.
+>[!NOTE]
+>
+>Um die Synchronisierung des Warenkorbs über mehrere Geräte oder Browser hinweg sicherzustellen, müssen sich Kunden auf jedem neuen Gerät, das sie zum Einkaufen verwenden, anmelden. Für angemeldete Kunden werden die Inhalte des Warenkorbs über mehrere Geräte und Browser hinweg synchronisiert, solange sie unter demselben Konto angemeldet sind, unabhängig von der Konfiguration des beständigen Warenkorbs.
 
-### Angaben speichern
+### Verhalten des Kontrollkästchens &quot;Angaben speichern&quot;
 
-Kunden können auf der Anmeldeseite das Kontrollkästchen _Angaben speichern_ aktivieren, um den Inhalt ihres Warenkorbs zu speichern.
+Kunden können das Kontrollkästchen _[!UICONTROL Remember Me]_auf der Anmeldeseite oder beim Erstellen eines neuen Kontos aktivieren, um den Inhalt des Warenkorbs beim Ablauf der angemeldeten Sitzung auf dem aktuellen Gerät zugänglich zu machen.
 
 | Erinnern Sie sich an mich? | Ergebnis |
 | ------------ |  ------ |
-| Ausgewählt | Erstellt ein beständiges Cookie und speichert den Inhalt des Warenkorbs für die nächste angemeldete Sitzung des Kunden. |
-| Nicht ausgewählt | Erstellt kein beständiges Cookie und speichert die Warenkorbinformationen nicht für die nächste angemeldete Sitzung des Kunden. |
-
-{style="table-layout:auto"}
-
-### Beibehalten beim Abmelden - nein
-
-| Aktion | Ergebnis |
-| ------ | ------ |
-| Kundenanmeldung | Ruft das persistente Cookie zusätzlich zum Sitzungs-Cookie auf, das bereits verwendet wird. |
-| Kunden meldet sich ab | Löscht das Sitzungs-Cookie, aber das beständige Cookie bleibt in Kraft. Wenn sich der Kunde das nächste Mal anmeldet, werden die Warenkorbelemente wiederhergestellt oder zu neuen Artikeln hinzugefügt, die im Warenkorb platziert wurden. |
-| Der Kunde meldet sich nicht ab und das Sitzungs-Cookie läuft ab | Das beständige Cookie bleibt in Kraft. |
+| Ausgewählt | Erstellt ein beständiges Cookie und behält den Inhalt des Warenkorbs auf dem aktuellen Gerät bei, wenn die Kundenanmeldesitzung abläuft. |
+| Nicht ausgewählt | Erstellt kein beständiges Cookie und behält den Inhalt des Warenkorbs beim Ablauf der Anmeldesitzung auf dem aktuellen Gerät nicht bei. Beachten Sie, dass der Warenkorbinhalt weiterhin im Kundenkonto gespeichert und neu geladen wird, wenn sich der Kunde das nächste Mal anmeldet. |
 
 {style="table-layout:auto"}
 
 ### Löschen der Persistenz beim Abmelden
 
-| Aktion | Ergebnis |
-| ------ | ------ |
-| Kundenanmeldung | Ruft das persistente Cookie zusätzlich zum Sitzungs-Cookie auf, das bereits verwendet wird. |
-| Kunden meldet sich ab | Löscht beide Cookies. |
-| Der Kunde meldet sich nicht ab, aber das Sitzungs-Cookie läuft ab | Das beständige Cookie bleibt in Kraft. |
+Wenn sich der Kunde anmeldet oder sich bei der ausgewählten Option _Angaben speichern_ registriert, bestimmt die Konfiguration der Option _Persistenz beim Abmelden löschen_ das Verhalten des Warenkorbs.
 
-{style="table-layout:auto"}
+|  | &quot;Persistenz beim Abmelden&quot;auf &quot;Ja&quot;festlegen | &quot;Persistenz beim Abmelden&quot;auf &quot;Nein&quot;setzen |
+| ------ | ------ | ------ |
+| _Erinnert_ Kunden meldet sich ab | Löscht sowohl Sitzungs- als auch persistente Cookies, sodass der Warenkorbinhalt auf dem aktuellen Gerät ausgeblendet wird, bis sich derselbe Kunde wieder anmeldet. | Löscht das Sitzungs-Cookie, aber das beständige Cookie bleibt in Kraft. Der Warenkorbinhalt bleibt auf dem aktuellen Gerät verfügbar. |
+| _Erinnerter_ Kunde meldet sich nicht ab, doch das Sitzungs-Cookie läuft ab | Das persistente Cookie bleibt in Kraft, und der Warenkorbinhalt kann vom aktuellen Gerät aus aufgerufen werden. | Das persistente Cookie bleibt in Kraft, und der Warenkorbinhalt kann vom aktuellen Gerät aus aufgerufen werden. |
 
-## Persistente Warenkorbeinstellungen und -effekte
+### Beispiel einer offenen Sitzung auf einem freigegebenen Computer
 
-| Einstellungen | Effekt |
-|----------|--------|
-| **[!UICONTROL Enable Remember Me]** ist auf `No` gesetzt.<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**hat einen beliebigen Wert.<br/><br/>Das Kontrollkästchen** Angaben speichern **ist auf der Anmelde- und Registrierungsseite nicht verfügbar. | Das persistente Cookie wird nicht verwendet. |
-| **[!UICONTROL Enable Remember Me]** ist auf `Yes` gesetzt.<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**hat einen beliebigen Wert.<br/><br/>** Angaben speichern **ist nicht ausgewählt. | Das Sitzungs-Cookie wird wie gewohnt angewendet. Das persistente Cookie wird nicht verwendet. |
-| **[!UICONTROL Enable Remember Me]** ist auf `Yes` gesetzt.<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**ist auf `Yes` gesetzt.<br/><br/>** Angaben speichern **ist auf `Yes` gesetzt. | Wenn sich ein Kunde anmeldet, werden beide Cookies angewendet. Wenn sich ein Kunde abmeldet, werden beide Cookies gelöscht. Wenn sich ein Kunde nicht anmeldet, das Sitzungs-Cookie jedoch abläuft, wird weiterhin das persistente Cookie verwendet. Abgesehen von der Abmeldung wird das persistente Cookie gelöscht, wenn seine Lebensdauer abgelaufen ist oder der Kunde auf den Link `Not Jane Smith` klickt. |
-| **[!UICONTROL Enable Remember Me]** ist auf `Yes` gesetzt.<br/><br/>**[!UICONTROL Clear Persistence on Log Out]**ist auf `No` gesetzt.<br/><br/>** Angaben speichern **ist auf `Yes` gesetzt | Wenn sich ein Kunde anmeldet, werden beide Cookies angewendet. Wenn sich ein Kunde abmeldet, wird das Sitzungs-Cookie gelöscht, die persistente Sitzung wird fortgesetzt. Das persistente Cookie wird gelöscht, wenn seine Lebensdauer abgelaufen ist oder der Kunde auf den Link `Not Jane Smith` klickt. |
+Jane beendet ihren Weihnachtseinkauf als angemeldeter Kunde _Erinnert_. Sie fügt John ein Geschenk zum Warenkorb und etwas für ihre Mutter hinzu. Dann geht sie zum Snack in die Küche und ihre Anmeldesitzung läuft ab.
 
-{style="table-layout:auto"}
+John sitzt am Computer, um schnell einkaufen zu können, während Jane in der Küche ist. Ohne den `Not Jane Smith?` -Link oben auf der Seite zu sehen, findet John ein schönes Geschenk für Jane und fügt es zum Warenkorb hinzu. Wenn er auscheckt, merkt er, dass die Versand- und Rechnungsadresse vorausgefüllt sind und glaubt, dass er angemeldet ist. John hat es so eilig, dass er die zusätzlichen Elemente während der _Bestellprüfung_ nicht bemerkt und die Bestellung sendet. Janes Warenkorb ist jetzt leer, und John kaufte alle Geschenke.
 
 ## Persistenten Warenkorb konfigurieren
 
 Bei der Einrichtung eines beständigen Warenkorbs können Sie die Lebensdauer der Cookies und die Optionen festlegen, die Sie für verschiedene Kundenaktivitäten verfügbar machen möchten.
 
-Weitere Informationen dazu, wie der Kunden-Workflow durch diese Einstellungen bestimmt wird, finden Sie unter [Workflow für den beständigen Warenkorb](#persistent-cart-workflow).
+Um den beständigen Warenkorb zu verwenden, muss der Browser des Kunden so eingestellt sein, dass Cookies zugelassen werden. Es gibt zwei Arten von Cookies, die für Warenkorbvorgänge verwendet werden:
 
->[!NOTE]
->
->Wenn das Sitzungs-Cookie abläuft, während der Kunde angemeldet ist, bleibt das persistente Cookie aktiv.
+- **Sitzungs-Cookie** - Ein kurzfristiges Sitzungs-Cookie ist während eines einzelnen Besuchs Ihrer Site vorhanden. Dieses Cookie läuft ab, wenn sich der Kunde abmeldet oder die Sitzung abläuft.
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+- **Persistentes Cookie** - Ein langfristiges, beständiges Cookie existiert nach dem Ende der angemeldeten Sitzung weiterhin. Dieses Cookie stellt sicher, dass der Inhalt des Warenkorbs eines Kunden weiterhin verfügbar ist, wenn sich der Kunde abmeldet oder die Sitzung abläuft.
 
-1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Persistent Shopping Cart]** aus.
+Weitere Informationen dazu, wie sich diese Konfigurationseinstellungen auf den Kunden-Workflow auswirken, finden Sie unter [Workflow für beständigen Warenkorb](#persistent-cart-workflow).
 
-1. Um den beständigen Warenkorb zu aktivieren und zusätzliche Optionen anzuzeigen, setzen Sie **[!UICONTROL Enable Persistence]** auf `Yes`.
-
-   ![Aktivieren und Konfigurieren der Warenkorbspersistenz](../configuration-reference/customers/assets/persistent-shopping-cart-general.png){width="600" zoomable="yes"}
-
-   Weitere Informationen zu den einzelnen Konfigurationseinstellungen finden Sie in der [_Konfigurationsreferenz_](../configuration-reference/customers/persistent-shopping-cart.md)
-
-   >[!NOTE]
-   >
-   >Deaktivieren Sie bei Bedarf das Kontrollkästchen **[!UICONTROL Use system value]** , um diese Einstellungen zu ändern.
-
-1. Geben Sie für &quot;**[!UICONTROL Persistence Lifetime (seconds)]**&quot;die Dauer in Sekunden ein, für die das persistente Cookie beibehalten werden soll.
-
-   Der Standardwert von 31.536.000 Sekunden ist gleich einem Jahr. Die maximal zulässige Zeit beträgt 100 Jahre.
-
-1. Setzen Sie **[!UICONTROL Enable "Remember Me"]** auf einen der folgenden Werte:
-
-   - `Yes` - Zeigt das Kontrollkästchen _Angaben speichern_ auf der Anmeldeseite Ihres Stores an, damit Kunden ihre Warenkorbinformationen speichern können.
-
-   - `No` - Die Persistenz kann weiterhin aktiviert werden, Kunden können jedoch nicht auswählen, ob sie ihre Informationen speichern möchten.
-
-1. Um das Kontrollkästchen _Angaben speichern_ für den Kunden vorab zu aktivieren, setzen Sie **[!UICONTROL Remember Me Default Value]** auf `Yes`.
-
-   Der Kunde kann diese Option bei Wahl löschen.
-
-1. Setzen Sie **[!UICONTROL Clear Persistence on Log Out]** auf einen der folgenden Werte:
-
-   - `Yes` - Der Warenkorb wird gelöscht, wenn sich ein registrierter Kunde abmeldet.
-
-   - `No` - Der Warenkorb wird gespeichert, wenn sich ein registrierter Kunde abmeldet.
-
-   >[!NOTE]
-   >
-   >Wenn das Sitzungs-Cookie abläuft, während der Kunde noch angemeldet ist, bleibt das persistente Cookie in Verwendung.
-
-1. Setzen Sie **[!UICONTROL Persist Shopping Cart]** auf einen der folgenden Werte:
-
-   - `Yes` - Wenn das Sitzungs-Cookie abläuft, wird das persistente Cookie beibehalten. Wenn sich ein Gastkäufer später anmeldet oder ein Konto erstellt, wird der Warenkorb wiederhergestellt.
-
-   - `No` - Der Warenkorb wird für Gäste nach Ablauf des Sitzungs-Cookies nicht beibehalten.
-
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Legen Sie **[!UICONTROL Persist Wish List]** fest, um zu bestimmen, ob der Status der Kundenwunschlisten beim Beenden der Sitzung beibehalten wird:
-
-   - `Yes` - Der Inhalt der Wunschliste wird gespeichert, wenn die Sitzung beendet wird.
-
-   - `No` - Die Wunschliste wird nicht gespeichert, wenn die Sitzung beendet wird.
-
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Legen Sie **[!UICONTROL Persist Recently Ordered Items]** fest, um zu bestimmen, ob der Status der kürzlich sortierten Elemente beibehalten wird, wenn die Sitzung beendet wird:
-
-   - `Yes` - Der Status der zuletzt sortierten Elemente wird gespeichert, wenn die Sitzung beendet wird.
-
-   - `No` - Der Status der zuletzt sortierten Elemente wird nicht gespeichert, wenn die Sitzung beendet wird.
-
-1. Setzen Sie **[!UICONTROL Persist Currently Compared Products]** auf `Yes` oder `No`.
-
-1. Setzen Sie **[!UICONTROL Persist Comparison History]** auf `Yes` oder `No`.
-
-1. Setzen Sie **[!UICONTROL Persist Recently Viewed Products]** auf `Yes` oder `No`.
-
-1. ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Legen Sie **[!UICONTROL Persist Customer Group Membership and Segmentation]** fest, um zu bestimmen, ob der Status der Gruppenmitgliedschaft und Segmentierungskriterien des Kunden beim Beenden der Sitzung beibehalten wird:
-
-   - `Yes` - Der Status der Gruppenmitgliedschafts- und Segmentierungsdaten des Kunden wird gespeichert, wenn die Sitzung beendet wird.
-
-   - `No` - Der Status der Gruppenmitgliedschaft und Segmentierungsdaten des Kunden werden nicht gespeichert, wenn die Sitzung beendet wird.
-
-1. Klicken Sie auf **[!UICONTROL Save Config]**.
+{{$include /help/_includes/persistent-cart-configuration.md}}
