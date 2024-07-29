@@ -5,9 +5,9 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 9f351ab659b21377310f8327fef5bc29cc9f7c89
+source-git-commit: 0690430d3c6ac6a58a2ef98045148de8ad6a4bad
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,14 @@ _30. Mai 2023_
 ![Neu](../assets/new.svg) - Das Dashboard [Real-Time CDP-Zielgruppen](#real-time-cdp-audiences-dashboard) wurde aktualisiert und bietet nun die Möglichkeit, die aktiven Zielgruppen in Ihrer Adobe Commerce-Instanz zu sortieren, zu suchen und zu filtern.
 
 +++
+
+### 2,3,0
+
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+
+_29. Juli 2024_
+
+![Neu](../assets/new.svg) - Die Befehlszeilensyntax wurde hinzugefügt, sodass Sie [Anmeldedaten testen](#validate-the-connection) können, um festzustellen, ob sie aktualisiert werden müssen, um Zielgruppendaten aus Adobe Experience Platform abzurufen.
 
 ### 2,2,0
 
