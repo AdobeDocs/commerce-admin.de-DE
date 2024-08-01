@@ -4,14 +4,18 @@ description: Erfahren Sie, wie Sie Ihren eigenen Verschlüsselungsschlüssel aut
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 2469b3853d074f7a7adfe822b645e41d1420259a
+source-git-commit: cbe4cfd59b1cacbac22a01ca96617f52bcdd7d3a
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
 # Verschlüsselungsschlüssel
+
+>[!NOTE]
+>
+>Wenn Sie versucht haben, diese Schritte auszuführen, und Probleme auftreten, finden Sie weitere Informationen im Knowledge Base-Artikel [Fehlerbehebung für die Verschlüsselungsschlüssel-Rotation: CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) .
 
 Adobe Commerce und Magento Open Source verwenden einen Verschlüsselungsschlüssel, um Kennwörter und andere vertrauliche Daten zu schützen. Ein branchenüblicher [!DNL ChaCha20-Poly1305]-Algorithmus wird mit einem 256-Bit-Schlüssel verwendet, um alle Daten zu verschlüsseln, die verschlüsselt werden müssen. Dazu gehören Kreditkartendaten und Integrationskennwörter (Zahlungs- und Versandmodul). Darüber hinaus wird ein starker sicherer Hash-Algorithmus (SHA-256) verwendet, um alle Daten zu hash, die nicht entschlüsselt werden müssen.
 
