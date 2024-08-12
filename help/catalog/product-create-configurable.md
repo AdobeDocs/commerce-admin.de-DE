@@ -3,9 +3,9 @@ title: Konfigurierbares Produkt
 description: Erfahren Sie, wie Sie ein konfigurierbares Produkt erstellen, das den Käufern Varianten zur Auswahl bietet.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: f6140fda2769e109d2b38c2f9c458f67097dff0a
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2506'
 ht-degree: 0%
 
 ---
@@ -377,6 +377,8 @@ Der _Lagerstatus_ des konfigurierbaren Produkts wird teilweise durch den Lagerst
 - [Lagerstatus](../inventory-management/sources-stocks.md) für ein konfigurierbares Produkt ist eine halbmanuell gesteuerte Einstellung. Sie unterscheidet sich vom Lagerstatus des einfachen Produkts, wobei es sich um eine direkte Darstellung der Produktverfügbarkeit handelt. Bei einem konfigurierbaren Produkt ist der Lagerstatus Teil einer Berechnung des Aktienstatus mit mehreren Kriterien.
 
 - Konfigurierbare untergeordnete Produkte können einfache oder virtuelle Produkte **ohne benutzerdefinierte Optionen** sein. Um benutzerdefinierte untergeordnete Produkte virtuell zu machen, müssen Sie für jede dieser Optionen **[!UICONTROL Weight]** als Einstellung wählen.`Тhis item has no weight`
+
+- Alle untergeordneten Produkte werden dem konfigurierbaren Produkt **_global_** zugewiesen und nicht zugewiesen. Dies gilt für alle Websites, Stores und Storeansichten gleichzeitig.
 
 - Ein konfigurierbares Produkt hat keinen eigenen Preis im Katalog. Der konfigurierbare Produktpreis wird von den untergeordneten [!UICONTROL In Stock] -Produkten abgeleitet.
 

@@ -3,9 +3,9 @@ title: Gruppierungsprodukt
 description: Erfahren Sie, wie Sie ein gruppiertes Produkt erstellen, das aus einfachen eigenständigen Produkten besteht, die als Gruppe präsentiert werden.
 exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
-source-git-commit: 140930df515d1e0604b18a4ebf689254b9487b53
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,8 @@ Wenn Sie für jedes Produkt in der Gruppe ein anderes Bild haben, können Sie di
 ## Dinge, die man sich merken sollte
 
 - Ein gruppiertes Produkt ist im Wesentlichen eine Sammlung einfacher verknüpfter Produkte.
+
+- Alle untergeordneten Produkte werden dem gruppierten Produkt **_global_** zugewiesen und nicht zugewiesen. Dies gilt für alle Websites, Stores und Storeansichten gleichzeitig.
 
 - Gruppierte untergeordnete Produkte können einfach, herunterladbar oder virtuelle Produkte **[!UICONTROL without custom options]** sein.
 

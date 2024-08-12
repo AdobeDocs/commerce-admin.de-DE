@@ -3,9 +3,9 @@ title: Paket-Produkt
 description: Erfahren Sie, wie Sie ein Bundle-Produkt erstellen, mit dem Käufer ein benutzerdefiniertes Produkt in Ihrem Geschäft erstellen können.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-source-git-commit: e16fdc9f55cada17f82777fdaaaca44780c91e4b
+source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -274,6 +274,8 @@ Der Status des Produktbestands des Bundles lautet **_nicht automatisch auf &quot
 ## Dinge, die man sich merken sollte
 
 ![Kontrollkästchen](../assets/checkbox.png) Kunden können _ein eigenes Bundle-Produkt vom Typ_ erstellen.
+
+![Kontrollkästchen](../assets/checkbox.png) Alle untergeordneten Produkte werden dem Bundle-Produkt **_global_** zugewiesen und nicht zugewiesen. Dies gilt für alle Websites, Stores und Storeansichten gleichzeitig.
 
 ![Kontrollkästchen](../assets/checkbox.png) Bundle-Elemente können einfache oder virtuelle Produkte ohne benutzerdefinierte Optionen sein.
 
