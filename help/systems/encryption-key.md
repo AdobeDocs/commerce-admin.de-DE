@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Ihren eigenen Verschlüsselungsschlüssel aut
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: cbe4cfd59b1cacbac22a01ca96617f52bcdd7d3a
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Commerce und Magento Open Source verwenden einen Verschlüsselungsschlüssel, um Kennwörter und andere vertrauliche Daten zu schützen. Ein branchenüblicher [!DNL ChaCha20-Poly1305]-Algorithmus wird mit einem 256-Bit-Schlüssel verwendet, um alle Daten zu verschlüsseln, die verschlüsselt werden müssen. Dazu gehören Kreditkartendaten und Integrationskennwörter (Zahlungs- und Versandmodul). Darüber hinaus wird ein starker sicherer Hash-Algorithmus (SHA-256) verwendet, um alle Daten zu hash, die nicht entschlüsselt werden müssen.
 
-Während der ersten Installation werden Sie aufgefordert, entweder Commerce einen Verschlüsselungsschlüssel generieren zu lassen oder einen eigenen einzugeben. Mit dem Verschlüsselungsschlüssel-Tool können Sie den Schlüssel nach Bedarf ändern. Der Verschlüsselungsschlüssel sollte regelmäßig geändert werden, um die Sicherheit zu verbessern, und der ursprüngliche Schlüssel kann jederzeit beeinträchtigt werden. Bei jeder Änderung des Schlüssels werden alle Legacy-Daten mit dem neuen Schlüssel neu kodiert.
+Während der ersten Installation werden Sie aufgefordert, entweder Commerce einen Verschlüsselungsschlüssel generieren zu lassen oder einen eigenen einzugeben. Mit dem Verschlüsselungsschlüssel-Tool können Sie den Schlüssel nach Bedarf ändern. Der Verschlüsselungsschlüssel sollte regelmäßig geändert werden, um die Sicherheit zu verbessern, und der ursprüngliche Schlüssel kann jederzeit beeinträchtigt werden.
 
 Technische Informationen finden Sie unter [Erweiterte lokale Installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) im _Installationshandbuch_.
 

@@ -3,9 +3,9 @@ title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Security] &gt; [!UICONTROL 2FA] des Commerce-Administrators.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
-source-git-commit: d6f9c5186276b28cada318cbe765e2271d34bb58
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '310'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Zweifak
 |--- |--- |--- |
 | [!UICONTROL Providers to use] | Global | Gibt die zweifaktoriellen Authentifizierungsmethoden an, die Sie benötigen. Wenn Sie mehr als einen Anbieter auswählen, muss jeder Benutzer bei der nächsten Anmeldung jede 2FA-Methode konfigurieren. |
 | [!UICONTROL Configuration Email URL for Web API] | Global | Bei benutzerdefinierten Implementierungen die URL für einen alternativen E-Mail-Konfigurationslink, der bei der ersten Anmeldung an _Admin_ -Benutzer gesendet wird. Verwenden Sie in der E-Mail-Vorlage den Platzhalter `:tfat`, um anzugeben, wo das Token eingefügt wird. |
+| [!UICONTROL Retry attempt limit for Two-Factor Authentication] | Global | Bestimmt, wie oft ein Administrator einen &quot;[!DNL one-time password (OTP)]&quot;-Wert eingeben kann, bevor sein Konto vorübergehend deaktiviert wird. Standard: `10` |
+| [!UICONTROL Two-Factor Authentication lockout time (seconds)] | Global | Bestimmt, wie lange (in Sekunden) ein Administrator warten kann, bis er einen [!DNL one-time password (OTP)] eingibt, bevor sein Konto vorübergehend deaktiviert wird. Standard: `300` |
 
 {style="table-layout:auto"}
 
@@ -37,7 +39,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Zweifak
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL OTP Window] | Global | Bestimmt, wie lange (in Sekunden) das System das einmalige Kennwort (OTP) eines Administrators akzeptiert, nachdem es abgelaufen ist. Darf nicht länger sein als die Lebensdauer eines einzelnen OTP (normalerweise 30 Sekunden). Standard: `29` |
+| [!UICONTROL OTP Window] | Global | Bestimmt, wie lange (in Sekunden) das System die [!DNL one-time-password (OTP)] eines Administrators akzeptiert, nachdem sie abgelaufen ist. Darf nicht länger sein als die Lebensdauer eines einzelnen OTP (normalerweise 30 Sekunden). Standard: `29` |
 
 {style="table-layout:auto"}
 

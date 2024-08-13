@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die Zwei-Faktor-Authentifizierungsunterstü
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: b31ed0e76df67a486012d8ec4997d9f19e17d371
+source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Sie können sich dieses [Video-Demo](https://video.tv.adobe.com/v/339104?quality
 
    Um mehrere Methoden auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jedes Element.
 
-1. Führen Sie die Einstellungen für jede erforderliche 2FA-Methode aus.
+1. Füllen Sie die [Einstellungen](../configuration-reference/security/2fa.md) für jede erforderliche 2FA-Methode aus.
 
    ![Sicherheitskonfiguration - 2FA](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 
