@@ -3,9 +3,9 @@ title: Attributsätze
 description: Erfahren Sie, wie Sie Attribute in Gruppen organisieren, die bestimmen, wo sie im Produktdatensatz angezeigt werden.
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 43550b9370f4ed4b631ae7773324ed0913718a79
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Die Attribute sind in Gruppen unterteilt, die bestimmen, wo sie im Produktdatens
    - In der Mitte der Seite wird die aktuelle Auswahl der Attributgruppen aufgelistet.
    - In der rechten Spalte wird die Auswahl der Attribute aufgelistet, die dem Attributsatz derzeit nicht zugewiesen sind.
 
-1. Um dem Satz ein Attribut hinzuzufügen, ziehen Sie das Attribut aus der Liste **[!UICONTROL Unassigned Attributes]** in den entsprechenden Ordner in der Spalte **[!UICONTROL Groups]** .
+1. Um dem Satz ein Attribut hinzuzufügen, ziehen Sie das Attribut aus der Liste **[!UICONTROL Unassigned Attributes]** in den entsprechenden Ordner in der Spalte **[!UICONTROL Groups]** . Um ein Attribut aus dem Satz zu entfernen, ziehen Sie es in die Liste **[!UICONTROL Unassigned Attributes]** .
 
    >[!NOTE]
    >
@@ -58,6 +58,7 @@ Die Attribute sind in Gruppen unterteilt, die bestimmen, wo sie im Produktdatens
 
    - Ziehen Sie **[!UICONTROL Unassigned Attributes]** in die neue Gruppe.
    - Ziehen Sie Attribute aus einer anderen Gruppe in die neue Gruppe.
+   - Ziehen Sie unnötige Attribute in **[!UICONTROL Unassigned Attributes]**.
 
    Die neue Gruppe wird zu einem Abschnitt mit Attributen in jedem Produkt, das auf dem Attributsatz basiert.
 
