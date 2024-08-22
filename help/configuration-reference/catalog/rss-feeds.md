@@ -3,9 +3,9 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] des Commerce-Administrators.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 239295ada2bdb3b94d9654b960a31ad8e102f93e
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 2%
 | [!UICONTROL Enable RSS] | Store-Ansicht | Ermöglicht Kunden den Empfang von RSS-Feeds aus dem Store. |
 
 {style="table-layout:auto"}
+
+Weitere Informationen zur Verwendung von RSS-Feeds nach der Aktivierung finden Sie unter [Social Media und RSS-Feeds](../../merchandising-promotions/social-rss.md).
 
 ## [!UICONTROL Wish List]
 
