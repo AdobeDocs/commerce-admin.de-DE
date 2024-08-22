@@ -2,9 +2,9 @@
 title: Seiteneinrichtung
 description: Erfahren Sie, wie Sie die Standardeinstellungen für die Hauptteile einer Store-Seite konfigurieren.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ Die Einstellungen im Bereich HTML Head entsprechen dem Tag `<head>` einer HTML-S
    - **[!UICONTROL Default Meta Keywords]**
 
 1. Geben Sie ggf. **[!UICONTROL Scripts and Style Sheets]** ein.
+
+   >[!NOTE]
+   >
+   >Alle JavaScript, die in das Feld [!UICONTROL Scripts and Style Sheets] eingegeben wurden, müssen in den Einstellungen der Inhaltssicherheitsrichtlinie (Content Security Policy, CSP) auf die Whitelist gesetzt sein. Andernfalls wird sie nicht auf den Checkout-Seiten ausgeführt. Weitere Informationen finden Sie unter [Inhaltssicherheitsrichtlinie](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
+
 
 1. Aktivieren oder deaktivieren Sie bei Bedarf den [Demospeicherhinweis](../getting-started/storefront-branding.md#set-the-store-demo-notice).
 
@@ -118,6 +123,10 @@ Im Abschnitt zur Fußzeilenkonfiguration können Sie den am unteren Rand der Sei
 1. Erweitern Sie unter _Andere Einstellungen_ den Abschnitt ![Erweiterungsauswahl](../assets/icon-display-expand.png) um den Abschnitt **[!UICONTROL Footer]**.
 
 1. Nehmen Sie alle erforderlichen Änderungen an den Einstellungen **[!UICONTROL Copyright]** und **[!UICONTROL Miscellaneous HTML]** vor.
+
+   >[!NOTE]
+   >
+   >Alle JavaScript, die in das Feld [!UICONTROL Miscellaneous HTML] eingegeben wurden, müssen in den Einstellungen der Inhaltssicherheitsrichtlinie (Content Security Policy, CSP) auf die Whitelist gesetzt sein. Andernfalls wird sie nicht auf den Checkout-Seiten ausgeführt. Weitere Informationen finden Sie unter [Inhaltssicherheitsrichtlinie](https://developer.adobe.com/commerce/php/development/security/content-security-policies).
 
 1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Configuration]**.
 

@@ -3,9 +3,9 @@ title: '[!DNL Google Tag Manager]'
 description: Erfahren Sie, wie Sie mit [!DNL Google Tag Manager] die vielen Tags (Codefragmente) verwalten können, die sich auf Ihre Marketingkampagnenereignisse auf Ihren Adobe Commerce-Sites beziehen.
 exl-id: 9c24239b-9efd-42ee-9b99-5a194f3c4347
 feature: Marketing Tools, Integration
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+source-git-commit: be426ca16fb7a72ebeda4a2f92c0f0062a9acc62
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-[!DNL Google Tag Manager] unterstützt Sie bei der Verwaltung der vielen Tags (Codefragmente), die mit Ihren Marketing-Kampagnenereignissen verbunden sind. [!DNL Google Tag Manager] gibt Ihnen die Möglichkeit, Tracking-Tags zu Ihrer Site hinzuzufügen, um die Zielgruppe zu messen oder Suchmaschinen-Marketing-Initiativen zu personalisieren, neu auszurichten oder durchzuführen.
+[!DNL Google Tag Manager] ist ein leistungsstarkes Tool, mit dem Sie effizient verschiedene Tags (Codefragmente) verwalten und bereitstellen können, die mit Ihren Marketingkampagnenereignissen verknüpft sind. [!DNL Google Tag Manager] gibt Ihnen die Möglichkeit, Tracking-Tags zu Ihrer Site hinzuzufügen, um die Zielgruppe zu messen oder Suchmaschinen-Marketing-Initiativen zu personalisieren, neu auszurichten oder durchzuführen.
 
 [!DNL Google Tag Manager] überträgt Daten und Ereignisse direkt an [!DNL Google Analytics], Enhanced E-Commerce und andere Analyselösungen von Drittanbietern, um ein klares Bild von der Leistung Ihrer Site, Produkte und Promotions zu erhalten.
 
@@ -137,24 +137,6 @@ Die folgenden Anweisungen zeigen, wie Sie einen neuen Container mit den grundleg
 >[!NOTE]
 >
 >Jeder Container ist mit einer Website verknüpft und Sie benötigen nur einen Container pro Konto. Wenn Sie über eine Commerce-Instanz mit mehreren Sites verfügen, benötigen Sie separate Container.
-
-## Schritt 4. Fügen Sie Ihrem Adobe Commerce-Store den GTM-Code hinzu.
-
-1. Um den GTM-Code zu kopieren, gehen Sie zu **[!UICONTROL Admin]** > **[!UICONTROL Install Google Tag Manager]**.
-
-   Es müssen zwei GTM-Code-Snippets zu Ihrer Commerce-Site hinzugefügt werden: das erste für das Tag `<head>` und das zweite für das Tag `<body>`.
-
-1. Wechseln Sie in Commerce Admin zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**und öffnen Sie die Store-Ansicht im Bearbeitungsmodus.
-
-1. Erweitern Sie unter _[!UICONTROL Other Settings]_den Wert **[!UICONTROL HTML Head]**und fügen Sie den Code, den Sie für das Tag `<head>` aus GTM kopiert haben, in das Feld **[!UICONTROL Scripts and Style Sheets]**ein.
-
-   ![Einfügen von Code in den HTML-Head](./assets/head-tag.png){width="600" zoomable="yes"}
-
-1. Erweitern Sie **[!UICONTROL Footer]** und fügen Sie den GTM-Code für `<body>` in das Feld **[!UICONTROL Miscellaneous HTML]** ein.
-
-   ![Einfügen von Code in die Fußzeile](./assets/footer-tag-section.png){width="600" zoomable="yes"}
-
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Configuration]**.
 
 ## Feldbeschreibungen
 
