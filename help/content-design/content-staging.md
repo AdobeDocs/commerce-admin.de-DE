@@ -3,9 +3,9 @@ title: Inhaltstaging
 description: Das Content Staging bietet Ihrem Business-Team die Möglichkeit, direkt vom Administrator aus eine Vielzahl von Inhaltsaktualisierungen für Ihren Store zu erstellen, in der Vorschau anzuzeigen und zu planen.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: d4c5cac590bff290e81c1c8fa55a5ca7b4d9a017
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Der Begriff _campaign_ bezieht sich auf den Datensatz einer geplanten Änderung 
 
 Wenn Sie eine Inhaltsänderung für einen bestimmten Zeitraum planen, kehrt der Inhalt zur vorherigen Version zurück, wenn die geplante Änderung abläuft. Sie können mehrere Versionen desselben Grundinhalts erstellen, die für zukünftige Aktualisierungen verwendet werden. Sie können auch die Zeitleiste durchlaufen, um frühere Versionen des Inhalts anzuzeigen. Um eine Entwurfsversion zu speichern, weisen Sie einfach ein Datum in der Zeitleiste zu, das so weit in die Zukunft liegt, dass es nie in die Produktion geht.
 
->[!NOTE]
->
->Felder, die sich auf das Startdatum und das Enddatum beziehen, wurden in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce entfernt und können nicht direkt auf der Warenkorbpreisregel, Katalogpreisregel, Produkt, Kategorie und CMS-Seite geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
-
 ## Content-Staging-Objekte und -Kampagnen
+
+Felder, die sich auf das Startdatum und das Enddatum beziehen, wurden aus Adobe Commerce entfernt und können nicht direkt auf der Warenkorbpreisregel, Katalogpreisregel, Produkt, Kategorie und CMS-Seite geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
+
+Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h. jede Entität kann nur eine geplante Aktualisierung gleichzeitig haben. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb des Zeitrahmens angewendet. Daher kann eine Entität nicht gleichzeitig eine andere geplante Aktualisierung für verschiedene Store-Ansichten haben. Alle Entitätsattributwerte in allen Store-Ansichten, die von der aktuellen geplanten Aktualisierung nicht betroffen sind, werden von den Standardwerten übernommen und nicht von der vorherigen geplanten Aktualisierung.
 
 Wenn eine neue geplante Aktualisierung für eines der folgenden Objekte erstellt wird, wird eine entsprechende Kampagne als Platzhalter erstellt und das Feld _[!UICONTROL Scheduled Changes]_wird oben auf der Seite angezeigt. Die Platzhalterkampagne hat ein Startdatum, aber kein Enddatum. Sie können Aktualisierungen des Inhalts im Rahmen einer Kampagne planen und die Änderungen dann in der Vorschau anzeigen und nach Datum, Uhrzeit oder Store-Ansicht freigeben. Nachdem eine neue Kampagne für ein Objekt erstellt wurde, können Sie sie anderen Objekten als geplante Aktualisierung zuweisen.
 
@@ -45,17 +45,17 @@ Wenn eine neue geplante Aktualisierung für eines der folgenden Objekte erstellt
 
    Erstellen Sie Ihre erste Kampagne mit dem Start- und dem Enddatum nach Bedarf. Lassen Sie das Enddatum leer, damit die Kampagne offen endet. Wenn die erste Kampagne beendet wird, wird der ursprüngliche Ausgangsinhalt wiederhergestellt.
 
-   >[!NOTE]
-   >
-   >Das Start- und Enddatum der Kampagne muss mithilfe der Zeitzone **_default_** Admin definiert werden, die aus der lokalen Zeitzone jeder Website konvertiert wird. Betrachten wir ein Beispiel, bei dem Sie mehrere Websites in verschiedenen Zeitzonen haben, aber eine Kampagne basierend auf einer US-Zeitzone starten möchten. In diesem Fall müssen Sie für jede lokale Zeitzone ein separates Update planen und **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** in Konvertierung aus jeder lokalen Website-Zeitzone in die standardmäßige Admin-Zeitzone einstellen.
+   Das Start- und Enddatum der Kampagne muss mithilfe der Zeitzone **_default_** Admin definiert werden, die aus der lokalen Zeitzone jeder Website konvertiert wird. Betrachten wir ein Beispiel, bei dem Sie mehrere Websites in verschiedenen Zeitzonen haben, aber eine Kampagne basierend auf einer US-Zeitzone starten möchten. In diesem Fall müssen Sie für jede lokale Zeitzone ein separates Update planen und **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** in Konvertierung aus jeder lokalen Website-Zeitzone in die standardmäßige Admin-Zeitzone einstellen.
 
 1. **Fügen Sie eine zweite Kampagne hinzu**
 
    Erstellen Sie die zweite Kampagne mit dem Start- und dem Enddatum. Die zweite Kampagne kann einem ganz anderen Zeitraum zugewiesen werden. Beim Erstellen mehrerer Kampagnen für dasselbe Asset können sich die Kampagnen nicht überschneiden. Sie können beliebig viele Kampagnen erstellen.
 
+   Einer bereits existierenden Kampagne, die noch nicht gestartet wurde, können mehrere Assets zugewiesen werden. Beispielsweise können zwei verschiedene Produktpreise im Rahmen derselben Kampagne mit einem zukünftigen Startdatum aktualisiert werden.
+
    >[!NOTE]
    >
-   >Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h. jede Entität kann nur eine geplante Aktualisierung gleichzeitig haben. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb des Zeitrahmens angewendet. Daher kann eine Entität nicht gleichzeitig eine andere geplante Aktualisierung für verschiedene Store-Ansichten haben. Alle Entitätsattributwerte in allen Store-Ansichten, die von der aktuellen geplanten Aktualisierung nicht betroffen sind, werden von den Standardwerten übernommen und nicht von der vorherigen geplanten Aktualisierung.
+   >Wenn eine Kampagne mit mehreren Entitäten verknüpft ist, kann die Kampagne nur über das Dashboard [Inhaltstaging-Dashboard](content-staging-dashboard.md) bearbeitet werden.
 
 1. **Wiederherstellen des Grundlinieninhalts**
 

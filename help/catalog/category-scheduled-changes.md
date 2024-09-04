@@ -3,9 +3,9 @@ title: Geplante Änderungen für Kategorien
 description: Erfahren Sie, wie Sie Kategorieänderungen zur Unterstützung von Marketing-Kampagnen und zum Speichern von Promotions planen.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -69,3 +69,7 @@ Kategorieaktualisierungen können planmäßig angewendet und mit anderen Inhalts
 1. Nehmen Sie die erforderlichen Änderungen an der geplanten Aktualisierung vor.
 
 1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
+
+   >[!NOTE]
+   >
+   >Wenn eine Kampagne mit mehr als einer Kategorie verknüpft ist, kann die Kampagne nur über das Dashboard [Inhaltstaging-Dashboard](../content-design/content-staging-dashboard.md) bearbeitet werden.

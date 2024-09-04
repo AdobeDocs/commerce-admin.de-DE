@@ -3,9 +3,9 @@ title: Seitenarbeitssteuerelemente
 description: Erfahren Sie mehr über die Workspace-Tools, die zum Suchen und Aktualisieren von Inhaltsseiten verwendet werden.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,10 @@ Klicken Sie auf das Steuerelement _Ansicht_ (![Augensymbol](../assets/icon-view-
 {{ee-feature}}
 
 Seitenänderungen können planmäßig angewendet und mit anderen Inhaltsänderungen gruppiert werden. Sie können eine Kampagne basierend auf geplanten Änderungen auf einer Seite erstellen oder die Änderungen auf eine bestehende Kampagne anwenden. Weitere Informationen finden Sie unter [Inhaltstaging](content-staging.md).
+
+>[!NOTE]
+>
+>Wenn eine Kampagne mit mehr als einer Seite verknüpft ist, kann die Kampagne nur über das Dashboard [Inhaltstaging-Dashboard](content-staging-dashboard.md) bearbeitet werden.
 
 >[!NOTE]
 >

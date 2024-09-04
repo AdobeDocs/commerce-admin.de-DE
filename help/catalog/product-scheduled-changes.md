@@ -3,9 +3,9 @@ title: Geplante Produktaktualisierungen
 description: Erfahren Sie, wie Sie Änderungen an Ihren Produktlisten planen, um Kampagnen und Werbeprogramme zu unterstützen.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 3d04e7213d90bb4c323acce69ac31c1dbcb7ca49
+source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -85,6 +85,10 @@ Die geplante Änderung wird oben auf der Produktseite mit dem Start- und Enddatu
 1. Klicken Sie im Feld _[!UICONTROL Scheduled Changes]_oben auf der Seite auf **[!UICONTROL View/Edit]**.
 
 1. Nehmen Sie die erforderlichen Änderungen an der geplanten Aktualisierung vor.
+
+>[!NOTE]
+>
+>Wenn eine Kampagne mit mehreren Produkten verknüpft ist, kann die Kampagne nur über das Dashboard [Inhaltstaging-Dashboard](../content-design/content-staging-dashboard.md) bearbeitet werden.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
