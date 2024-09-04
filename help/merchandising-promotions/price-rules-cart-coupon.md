@@ -3,9 +3,9 @@ title: Couponcodes
 description: Erfahren Sie, wie Sie Coupons-Codes mit Warenkorbpreisregeln verwenden können, um einen Rabatt anzuwenden, wenn eine Reihe von Bedingungen erfüllt ist.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7407df02ca62e36b4dd60dba418eae3e6aa34491
+source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
 workflow-type: tm+mt
-source-wordcount: '1839'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ Coupons-Codes werden mit [Warenkorbpreisregeln](price-rules-cart.md) verwendet, 
 Couponcodes können per E-Mail oder in Newslettern, Katalogen und Anzeigen versendet werden. Die Liste der Gutscheincodes kann exportiert und an einen kommerziellen Drucker gesendet werden. Sie können auch In-Store-Gutscheine mit einem Schnellantwort-Code erstellen, den Kunden mit ihren Smartphones scannen können. Der QR-Code kann mit einer Seite auf Ihrer Site verlinken, die weitere Informationen zur Promotion enthält.
 
 Ab Commerce 2.4.7 können Käufer mehrere Gutscheine auf einen Warenkorb anwenden. Händler können auch mehrere Coupons mithilfe von Shopping-Hilfe anwenden.
+
+>[!NOTE]
+>
+>Preisregeln für Warenkorb mit derselben Priorität führen nicht zu einem kombinierten Rabatt. Jede Regel (Coupon) wird entsprechend der in der Datenbank enthaltenen Regel-ID für den Warenkorbpreis einzeln auf übereinstimmende Produkte angewendet. Um die Reihenfolge zu steuern, in der Rabatte angewendet werden, empfiehlt Adobe, für jede hinzugefügte Preisregel einen anderen Wert festzulegen.
 
 ## Gutscheincodes konfigurieren
 

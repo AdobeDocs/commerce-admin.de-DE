@@ -3,9 +3,9 @@ title: Erstellen einer Preisregel für den Warenkorb
 description: Erfahren Sie, wie Sie eine Preisregel für den Warenkorb auf der Grundlage von Warenkorb oder Produktattributen erstellen.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7058e08de0de72999b3baf7762126be4e9040dba
+source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3379'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
 
    >[!NOTE]
    >
-   >Preisregeln für Warenkorb mit derselben Priorität führen nicht zu einem kombinierten Rabatt. Jede Regel wird einzeln auf übereinstimmende Produkte angewendet, und zwar einzeln.
+   >Preisregeln für Warenkorb mit derselben Priorität führen nicht zu einem kombinierten Rabatt. Jede Regel (Coupon) wird entsprechend der in der Datenbank enthaltenen Regel-ID für den Warenkorbpreis einzeln auf übereinstimmende Produkte angewendet. Um die Reihenfolge zu steuern, in der Rabatte angewendet werden, empfiehlt Adobe, für jede hinzugefügte Preisregel einen anderen Wert festzulegen.
 
 1. Um die Regel auf veröffentlichte [RSS-Feeds](social-rss.md#rss-feeds) anzuwenden, setzen Sie **Öffentlich im RSS-Feed** auf `Yes`.
 
