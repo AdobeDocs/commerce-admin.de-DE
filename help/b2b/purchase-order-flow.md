@@ -3,9 +3,9 @@ title: Kaufaufträge für Unternehmen
 description: Erfahren Sie mehr über Workflows für Bestellungen, mit denen Unternehmen Ausgaben verfolgen und kontrollieren können.
 exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
-source-git-commit: 4b34645377102e890779059e57c61cf23f71f34c
+source-git-commit: c1d8bdcd2d09567846ef6819660c57468062ab01
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Der Workflow für die Bestellung eines Unternehmens kann auf verschiedene Weise 
   >Standardmäßig wird den Benutzern des Unternehmens immer eine `Purchase order has been submitted for approval` -Meldung angezeigt, selbst wenn keine Validierungsregeln festgelegt sind. Wenn kein Validierungsprozess erforderlich ist, erhalten die Benutzer des Unternehmens automatisch eine E-Mail, in der sie darüber informiert werden, dass die Bestellung erstellt und validiert wurde.
 
 - Wenn die Genehmigungsregeln vom Unternehmensadministrator definiert werden, durchlaufen die Benutzer den Genehmigungsprozess.
+- Wenn für eine Bestellung mehrere Validierungsregeln gelten, müssen alle eindeutigen erforderlichen Genehmiger sie genehmigen.
 - Bei der Erstellung der Bestellung werden die Details der Offline-Zahlung angegeben.
 - Die Online-Zahlungsdetails werden nach der Validierung der Bestellung angegeben.
 
@@ -57,7 +58,7 @@ Genehmigungsregeln werden verwendet, um Ausgaben anhand von Unternehmensrichtlin
 - Für Bestellungen über 1000 USD ist die Genehmigung durch Ihren Manager und den Unternehmensadministrator erforderlich.
 - Für Bestellungen mit mehr als 30 eindeutigen SKUs ist die Genehmigung des Unternehmens-Administrators erforderlich.
 
-Wenn diese Regeln für ein Unternehmen gelten, kann ein Unternehmensbenutzer die Bestellung sofort abschließen, wenn die Bestellung weniger als 100 USD beträgt. Informationen zur Definition von Genehmigungsregeln finden Sie unter [Genehmigungsregeln](account-dashboard-approval-rules.md)
+Wenn diese Regeln für ein Unternehmen gelten, kann ein Unternehmensbenutzer die Bestellung sofort abschließen, wenn die Bestellung weniger als 100 USD beträgt. Informationen zur Definition von Genehmigungsregeln finden Sie unter [Genehmigungsregeln](account-dashboard-approval-rules.md).
 
 ### Typen von Store-Benutzern
 
