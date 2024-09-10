@@ -3,9 +3,9 @@ title: Installieren und Konfigurieren der Experience Manager Assets-Integration
 description: Erfahren Sie, wie Sie [!DNL AEM Assets Integration for Adobe Commerce] auf einer Adobe Commerce-Instanz installieren und konfigurieren.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
-source-git-commit: c9dd925faf8396251a79b8326b11187ede61d2a7
+source-git-commit: 5e3de8e9b99c864e5650c59998e518861ca106f5
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -144,13 +144,13 @@ Der Commerce Services Connector ermöglicht die Datensynchronisation und Kommuni
 
 Um Daten zwischen Ihrer Adobe Commerce-Instanz und den Diensten zu übertragen, die die AEM Assets-Integration aktivieren, konfigurieren Sie den Commerce Services Connector wie folgt:
 
-- Konfigurieren Sie Ihre Commerce-Instanz mit Produktions- und Sandbox-API-Schlüsseln für die Authentifizierung.
-- Geben Sie einen Datenraum (SaaS-Kennung) für sicheren Cloud-Speicher an.
-- Melden Sie sich bei derselben IMS-Organisation an, mit der Sie auf AEM Assets zugreifen, um die Verbindung zwischen Ihrem Datensatz und der Adobe Experience Platform herzustellen.
+- Produktions- und Sandbox-API-Schlüssel für die Authentifizierung.
+- Richten Sie einen Datenraum (SaaS-Kennung) für sicheren Cloud-Speicher ein.
+- Geben Sie die IMS-Organisations-ID an, in der Ihre Commerce- und AEM Assets-Umgebungen bereitgestellt sind.
 
 Detaillierte Anweisungen finden Sie unter [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid).
 
-Wenn Sie den Commerce Services Connector konfigurieren, generiert das System die SaaS-Projekt- und Datenbank-IDs. Sie benötigen diese IDs während des Mandanten-Onboarding-Prozesses.
+Nachdem Sie den Commerce Services Connector konfiguriert haben, generiert das System die SaaS-Projekt- und Datenbank-IDs, die die sichere Cloud-Speicher-Umgebung für Ihre Commerce-Services identifizieren und die IDs in der Admin-Konfiguration anzeigen. Diese Werte sind erforderlich, um den Onboarding-Prozess für die Asset-Synchronisierung abzuschließen.
 
 ![Speichern von Projekt- und Datenspeicherungs-IDs für die AEM Assets-Integration](assets/aem-saas-project-config.png){width="600" zoomable="yes"}
 
@@ -165,8 +165,11 @@ Die AEM Assets-Integration verwendet den Adobe I/O Events-Dienst, um benutzerdef
 - Stellen Sie sicher, dass RabbitMQ aktiviert ist und auf Ereignisse wartet.
    - [RabbitMQ-Einrichtung für Adobe Commerce in lokalen Betrieben](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
    - [RabbitMQ-Einrichtung für Adobe Commerce in der Cloud-Infrastruktur](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - Stellen Sie sicher, dass [cron-Aufträge aktiviert sind](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Cron-Aufträge sind für die Kommunikation und Workflows für die AEM Assets-Integration erforderlich.
 
-- Für Projekte mit Commerce-Version 2.4.5 müssen Sie [die Adobe I/O-Module installieren](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). Ab Commerce-Version 2.4.6 werden diese Module automatisch geladen.
+>[!NOTE]
+>
+> Für Projekte mit Commerce-Version 2.4.5 müssen Sie [die Adobe I/O-Module installieren](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). Ab Commerce-Version 2.4.6 werden diese Module automatisch geladen. Für die AEM Assets-Integration für Commerce müssen Sie nur die Module installieren. Die Einrichtung von App Builder ist nicht erforderlich.
 
 >[!ENDSHADEBOX]
 
@@ -182,9 +185,7 @@ Aktivieren Sie das Eventing-Framework über den Commerce-Administrator.
 
    ![Adobe I/O Events Commerce Admin-Konfiguration - Aktivieren von Commerce-Ereignissen](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
-   >[!NOTE]
-   >
-   >Stellen Sie sicher, dass [cron-Aufträge aktiviert sind](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Cron-Aufträge sind erforderlich, damit Commerce Kommunikation und Workflows zwischen AEM Assets und Commerce verwalten kann.
+1. Geben Sie den Namen des Händlers in die Felder **[!UICONTROL Merchant ID]** und den Umgebungsnamen in **[!UICONTROL Environment ID]** ein. Verwenden Sie beim Festlegen dieser Werte nur alphanumerische Zeichen und Unterstriche.
 
 ## Abrufen von Authentifizierungsberechtigungen für den API-Zugriff
 
@@ -233,4 +234,3 @@ Generieren Sie auf der Seite Integrationen die OAuth-Authentifizierungsberechtig
 >[!NOTE]
 >
 >Sie können auch Authentifizierungsberechtigungen mithilfe der Adobe Commerce-APIs generieren. Weitere Informationen zu diesem Vorgang und weitere Informationen zur OAuth-basierten Authentifizierung für Adobe Commerce finden Sie unter [OAuth-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in der Adobe Developer-Dokumentation.
-
