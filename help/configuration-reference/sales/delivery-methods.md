@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods] des Commerce-Administrators.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 8e80e6f33ede2f49f320394905b9d1a964cf8331
 workflow-type: tm+mt
-source-wordcount: '3773'
+source-wordcount: '3792'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ ht-degree: 0%
 | [!UICONTROL Live Account] | Store-Ansicht | Gibt an, dass das United Parcel Service-Konto aktiv ist. Optionen: `Yes` / `No` |
 | [!UICONTROL Title] | Store-Ansicht | Der Name, der für diese Versandmethode beim Checkout verwendet wird. |
 | _[!UICONTROL UPS REST Account Settings]_ |  |  |
-| [!UICONTROL Gateway URL] | Webseite | Zeigt für den UPS REST-Dienst die folgenden URLs an, die zur Übertragung von JSON-Daten erforderlich sind: Gateway-URL, Tracking-URL, Versand-URL |
+| [!UICONTROL Gateway URL] | Webseite | Für den UPS REST-Dienst werden die folgenden URLs angezeigt, die zur Übertragung von JSON-Daten erforderlich sind: Gateway-URL, Tracking-URL, Versand-URL. Verwenden Sie entweder Sandbox- oder Produktions-Endpunkte gemäß der Einstellung &quot;Live-Konto&quot;. |
 | [!UICONTROL Mode] | Webseite | Bestimmt den Übertragungsmodus für Daten, die an das UPS-System gesendet werden. Optionen: <br/>**`Development`**- UPS überprüft nicht, ob vom Commerce-Server empfangene Daten über SSL gesendet werden.<br/>**`Live`** - UPS überprüft, ob vom Commerce-Server empfangene Daten über eine sichere Socketschicht (SSL) gesendet werden. |
 | Benutzer-ID | Webseite | Ihre UPS Versandkonto-Client-ID. |
 | [!UICONTROL Origin of the Shipment] | Webseite | (Nur UPS REST) Das Land oder die Region, aus dem bzw. in der das Produkt versandt wird. |
@@ -140,7 +140,7 @@ ht-degree: 0%
 | [!UICONTROL Shipper Number] | Webseite | (Nur UPS REST) Die sechsstellige UPS Shipper Number ist erforderlich, damit auf die ausgehandelten Tarife verwiesen wird. |
 | [!UICONTROL Container] | Webseite | Legt den Behältertyp fest, der zum Verpacken von Sendungen verwendet wird. Optionen: `Customer Packaging` / `UPS Letter Envelope` / `Customer Packaging` / `UPS Letter Envelope` / `UPS Tube` / `UPS Express Box` / `UPS Worldwide 25 kilo` / `UPS Worldwide 10 kilo` |
 | [!UICONTROL Weight Unit] | Webseite | Legt die Standardmaßeinheit für die Produktgewichtung in Ihrem Geschäft fest. Weitere Informationen finden Sie unter [Dimensional weight](../../stores-purchase/carriers.md#dimensional-weight) . |
-| [!UICONTROL Tracking URL] | Webseite | (Nur UPS REST) Die UPS-URL, die zum Tracking von Paketen verwendet wird. |
+| [!UICONTROL Tracking URL] | Webseite | (Nur UPS REST) Die UPS-URL, die zum Tracking von Paketen verwendet wird. Verwenden Sie `https://onlinetools.ups.com/api/track` für die Produktion ODER `https://wwwcie.ups.com/api/track` für die Sandbox-Einrichtung. |
 | [!UICONTROL Destination Type] | Webseite | Legt den standardmäßigen Versandzieltyp fest. Optionen: `Business` / `Residential` |
 | [!UICONTROL Maximum Package Weight] | Webseite | Legt die maximale Gewichtung fest, die ein Paket gemäß den UPS-Vorgaben erhalten kann. Wenn die bestellten Produkte die maximale Paketgewichtung überschreiten, ist diese Versandoption nicht verfügbar. Gemäß [UPS.com](https://www.ups.com/us/en/global.page) dürfen Pakete nicht mehr als 150 lbs (70 kg) betragen. Wenden Sie sich an Ihren Versandunternehmen, um das Höchstgewicht zu überprüfen. |
 | [!UICONTROL Pickup Method] | Webseite | Legt die UPS-Erfassungsmethode fest. Optionen: `Regular Daily Pickup` / `On Call Air` / `One Time Pickup` / `Letter Center` / `Customer Counter` |

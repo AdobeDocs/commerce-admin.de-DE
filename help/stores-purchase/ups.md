@@ -3,9 +3,9 @@ title: United Parcel Service (UPS)
 description: Erfahren Sie, wie Sie UPS als Versandunternehmen für Ihr Geschäft einrichten.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Um diese Versandmethode Ihren Kunden anzubieten, müssen Sie zunächst ein Konto
 
    - Setzen Sie **[!UICONTROL Mode]** auf `Live` , um Daten über eine sichere Verbindung an das UPS Versandsystem zu senden. (Im Entwicklungsmodus werden keine Daten über eine sichere Verbindung gesendet.)
 
-   - Überprüfen Sie die **[!UICONTROL Gateway URL]** , die zum Senden von Anforderungen erforderlich ist. Verwenden Sie eine Sandbox-URL für den Testmodus und eine Produktions-URL für Live-Anfragen.
+   - Überprüfen Sie die **[!UICONTROL Gateway URL]** , die zum Senden von Anforderungen erforderlich ist. Verwenden Sie eine Sandbox-URL (`https://wwwcie.ups.com/`) für den Testmodus und eine Produktions-URL für Live-Anfragen (`https://onlinetools.ups.com`). Stellen Sie sicher, dass Sie die entsprechenden Endpunkte für jede Anfrage mit dem angegebenen Host verwenden.
 
-   - Überprüfen Sie die **[!UICONTROL Tracking URL]** , die zum Abrufen der Tracking-Informationen erforderlich ist. Verwenden Sie eine Sandbox-URL für den Testmodus und eine Produktions-URL für Live-Anfragen.
+   - Überprüfen Sie die **[!UICONTROL Tracking URL]** , die zum Abrufen der Tracking-Informationen erforderlich ist. Verwenden Sie eine Sandbox-URL (`https://wwwcie.ups.com/`) für den Testmodus und eine Produktions-URL für Live-Anfragen (`https://onlinetools.ups.com`). Stellen Sie sicher, dass Sie die entsprechenden Endpunkte für jede Anfrage mit dem angegebenen Host verwenden.
 
    - Setzen Sie **[!UICONTROL Origin of the Shipment]** auf die Region, aus der die Sendung stammt.
 
@@ -50,8 +50,8 @@ Um diese Versandmethode Ihren Kunden anzubieten, müssen Sie zunächst ein Konto
 
    - Setzen Sie **[!UICONTROL Live Account]** auf einen der folgenden Werte:
 
-      - `Yes` - Führt UPS im Produktionsmodus aus und bietet UPS als Versandmethode für Ihre Kunden an.
-      - `No` - Führt UPS in einem Testmodus aus.
+      - `Yes` - Führt UPS im Produktionsmodus aus und bietet UPS als Versandmethode für Ihre Kunden an. Stellen Sie sicher, dass Sie die richtigen Endpunkte unter Gateway-URL und Tracking-URL verwenden.
+      - `No` - Führt UPS in einem Testmodus aus. Stellen Sie sicher, dass Sie die richtigen Endpunkte unter Gateway-URL und Tracking-URL verwenden.
 
    >[!NOTE]
    >
