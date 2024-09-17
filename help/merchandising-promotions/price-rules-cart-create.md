@@ -3,9 +3,9 @@ title: Erstellen einer Preisregel für den Warenkorb
 description: Erfahren Sie, wie Sie eine Preisregel für den Warenkorb auf der Grundlage von Warenkorb oder Produktattributen erstellen.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: a8971c883c39dcea515e966a57102f63f7781446
+source-git-commit: 83f341c59ab9517a076eaaba71f4988e21abf826
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3386'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
 
    >[!NOTE]
    >
-   >Die Einstellung Priorität ist wichtig, wenn zwei Warenkorbregeln/Couponcodes für dasselbe Produkt gleichzeitig gültig sind. Die Regel mit der höchsten Prioritätseinstellung (`1`) steuert die Warenkorbaktion. Siehe _Nachfolgende Preisregeln verwerfen_ im Schritt _Aktionen definieren_ .
+   >Die Einstellung _[!UICONTROL Priority]_ist wichtig, wenn zwei Warenkorbregeln oder Couponcodes für dasselbe Produkt gleichzeitig gültig sind. Die Regel mit der höchsten [!UICONTROL Priority] -Einstellung, die die Warenkorbaktion steuert.  Die Prioritäten vom höchsten zum niedrigsten sind `0,1,2,3...`. Siehe_ Nachfolgende Preisregeln verwerfen _im Schritt_[ Aktionen definieren ](#step-3-define-the-actions)_.
 
    >[!NOTE]
    >
@@ -350,7 +350,7 @@ Sehen Sie sich dieses Video an, um mehr über das Erstellen von Preisregeln für
 | [!UICONTROL Coupon] | (Erforderlich) Gibt an, ob ein Coupon mit der Regel verknüpft ist. Optionen: <br/>**[!UICONTROL No Coupon]**- Der Regel ist kein Coupon zugeordnet.<br/>**[!UICONTROL Specific Coupon]** - Ein bestimmter Coupon ist mit der Regel verknüpft. <br/>**[!UICONTROL Coupon Code]**- Geben Sie bei Aufforderung den Coupon-Code ein, den der Kunde eingeben muss, um die Promotion nutzen zu können.<br/>**[!UICONTROL Use Auto Generation]** - Aktivieren Sie das Kontrollkästchen, um automatisch mehrere Coupon-Codes zu generieren, die mit der Promotion verwendet werden können. <br/>**[!UICONTROL Auto]**- Zeigt den Abschnitt _[!UICONTROL Manage Coupon Codes]_an, um das Format der zu erzeugenden Couponcodes zu definieren. |
 | [!UICONTROL Uses per Coupon] | Bestimmt, wie oft der Gutscheincode verwendet werden kann. Wenn keine Begrenzung vorhanden ist, lassen Sie das Feld leer. |
 | [!UICONTROL Uses per Customer] | Bestimmt, wie oft die Warenkorbpreisregel von demselben registrierten Kunden verwendet werden kann, der zu einer ausgewählten Kundengruppe gehört. Gilt nicht für Gastkäufer, die Mitglieder der NOT LOGGED IN-Kundengruppe sind, oder für Kunden, die einkaufen, ohne sich bei ihren Konten anzumelden. Lassen Sie das Feld leer, wenn keine Beschränkung festgelegt wurde. |
-| [!UICONTROL Priority] | Eine Zahl, die die Priorität dieser Regel im Verhältnis zu anderen angibt. Die höchste Priorität ist die Zahl `1`. |
+| [!UICONTROL Priority] | Eine Zahl, die die Priorität dieser Regel im Verhältnis zu anderen angibt. Die Prioritäten vom höchsten zum niedrigsten sind `0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | Bestimmt, ob die Promotion im öffentlichen RSS-Feed Ihres Stores enthalten ist. Optionen:  `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Das erste Datum, an dem der Gutschein verwendet werden kann. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Das letzte Datum, an dem der Gutschein verwendet werden kann. |

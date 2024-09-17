@@ -3,9 +3,9 @@ title: Erstellen einer Katalogpreisregel
 description: Erfahren Sie, wie Sie eine Katalogpreisregel erstellen, die einen Rabatt auf bestimmte Produkte anwendet, sobald eine Reihe von Bedingungen erfüllt ist.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Befolgen Sie diese Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwende
 
    >[!NOTE]
    >
-   >Die Einstellung _[!UICONTROL Priority]_ist wichtig, wenn dasselbe Katalogprodukt die Bedingungen für mehr als eine Preisregel erfüllt. Die Regel mit der Einstellung mit der höchsten Priorität (1 ist die höchste) wird für das Produkt aktiv.
+   >Die Einstellung _[!UICONTROL Priority]_ist wichtig, wenn dasselbe Katalogprodukt die Bedingungen für mehr als eine Preisregel erfüllt. Die Regel mit der höchsten Priorität (Prioritäten von der höchsten bis zur niedrigsten sind 0,1,2,3 ...) wird für das Produkt aktiv.
 
 ## Schritt 2: Bedingungen definieren
 
@@ -236,7 +236,7 @@ Sehen Sie sich dieses Video an, um mehr über das Erstellen von Katalogpreisrege
 | [!UICONTROL Description] | Eine Beschreibung der Regel sollte den Zweck der Regel enthalten und erläutern, wie sie verwendet wird. |
 | [!UICONTROL Websites] | (Erforderlich) Identifiziert die Websites, auf denen die Regel verwendet werden kann. |
 | [!UICONTROL Customer Groups] | (Erforderlich) Identifiziert die Kundengruppen, für die die Regel gilt. |
-| [!UICONTROL Priority] | Eine Zahl, die die Priorität dieser Regel im Verhältnis zu anderen angibt. Die höchste Priorität ist Nummer 1. |
+| [!UICONTROL Priority] | Eine Zahl, die die Priorität dieser Regel im Verhältnis zu anderen angibt. Die Prioritäten vom höchsten zum niedrigsten sind `0,1,2,3...` |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Bestimmt, ob die Regel im Store aktiv ist. Optionen: `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Gibt den ersten Tag an, an dem die Preisregel in Kraft ist. Wenn Sie das Feld leer lassen, wird die Preisregel beim Speichern wirksam. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Gibt den letzten Tag an, an dem die Preisregel in Kraft ist. Wenn Sie das Feld leer lassen, wird die Preisregel auf unbestimmte Zeit fortgesetzt. |
