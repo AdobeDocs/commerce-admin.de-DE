@@ -3,9 +3,9 @@ title: Adobe Stock-Bild lizenzieren
 description: Lizenzieren Sie Ihre Adobe Stock-Bilder, um sicherzustellen, dass Sie Zugriff auf das Adobe Stock-Wasserzeichen haben, und um es zu eliminieren.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: ee619d6a46948a714789dfbc275735df8669cdcb
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,13 @@ Adobe Stock-Assets, die Sie für Ihre Produktions-Adobe Commerce- und Magento Op
 
 Das neue [[!DNL Media Gallery]](media-gallery.md) bietet eine direkte Integration in Adobe Stock, sodass Sie Ihre Bilder einfach direkt von der Galerieseite aus lizenzieren können.
 
-## Voraussetzungen
+>[!BEGINSHADEBOX]
 
-Für diese Funktion sind das Modul und die Konfiguration [Adobe Stock Integration][adobe-stock-integration] erforderlich. Für die Lizenzierung von [Adobe Stock][adobe-stock] -Bildern sind ein bezahlter Adobe Stock-Plan und ein [Adobe-Konto][adobe-signin] erforderlich.
+**Voraussetzungen**
+
+Die Adobe Stock-Lizenzierungsfunktion ist nur verfügbar, wenn die [Adobe Stock-Integration][adobe-stock-integration] installiert und konfiguriert ist. Für die Lizenzierung von [Adobe Stock][adobe-stock] -Bildern sind ein bezahlter Adobe Stock-Plan und ein [Adobe-Konto][adobe-signin] erforderlich.
+
+>[!ENDSHADEBOX]
 
 ## Ein Bild aus dem neuen [!DNL Media Gallery] lizenzieren
 
