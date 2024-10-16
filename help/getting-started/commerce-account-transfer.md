@@ -3,9 +3,9 @@ title: Übertragen eines Commerce-Kontos
 description: Erfahren Sie, wie Sie Ihr Commerce-Konto an einen anderen Eigentümer oder eine andere E-Mail-Adresse übertragen können.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 59a88468dabfd1042b664f658225de2504b66b1b
+source-git-commit: 03a16730eebe3979157bc9eb847ac2b232d938bf
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,6 @@ Nachdem der neue Eigentümer sein Adobe-Konto erfolgreich an den aktuellen (jetz
 
 1. Klicken Sie auf **[!UICONTROL Verify]**.
 
-1. **Senden Sie eine Support-Anfrage** , um das Supportteam darüber zu informieren, dass Sie die E-Mail-Adresse des Kontoinhabers aktualisiert haben.
+1. **Senden Sie eine Support-Anfrage** , um das Supportteam darüber zu informieren, dass Sie die E-Mail-Adresse des Kontoinhabers aktualisiert haben. Fügen Sie die E-Mail-Adresse des früheren Kontoinhabers in Ihre Anfrage ein.
 
 Der Support muss weitere Schritte durchführen, z. B. die Aktualisierung der E-Mail-Adresse in Ihrem [Commerce Marketplace](https://commercemarketplace.adobe.com/) -Profil.
