@@ -3,9 +3,9 @@ title: Freigabe eines [!DNL Commerce] Kontos
 description: Erfahren Sie, wie Sie anderen [!DNL Commerce] Kontoinhabern eingeschränkten Zugriff auf Ihr [!DNL Commerce] Konto gewähren.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: ec634ebedd43b8bbc6b4a3e5079035b055740f2d
+source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,11 @@ Die folgenden Anweisungen werden aus der Perspektive eines freigegebenen Benutze
    Das linke Navigationsfenster Ihres Kontos verfügt über eine neue Registerkarte _[!UICONTROL Shared with me]_. Das Steuerelement_[!UICONTROL Switch Accounts]_ in der oberen rechten Ecke verfügt über Optionen für `My Account` und den Namen des freigegebenen Kontos.
 
    ![Für mich freigegeben](./assets/shared-with-me.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >   Wenn das Steuerelement _[!UICONTROL Switch Accounts]_nicht angezeigt wird, wenden Sie sich an den Inhaber des Primärkontos und bestätigen Sie, dass er Ihre korrekten [Kontoinformationen](#set-up-a-shared-account) eingegeben hat.
+
 
 1. Um Zugriff auf das freigegebene Konto zu erhalten, setzen Sie **[!UICONTROL Switch Accounts]** auf den Namen des freigegebenen Kontos.
 
