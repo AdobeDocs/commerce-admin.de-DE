@@ -3,9 +3,9 @@ title: Geplante Produktaktualisierungen
 description: Erfahren Sie, wie Sie Änderungen an Ihren Produktlisten planen, um Kampagnen und Werbeprogramme zu unterstützen.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 2cdf3452f1648dc1ed607d6dfb5ade4be5ed5ce9
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,20 @@ ht-degree: 0%
 
 Produktaktualisierungen können planmäßig angewendet und mit anderen Inhaltsänderungen gruppiert werden. Sie können [Inhaltstaging](../content-design/content-staging.md) verwenden, um eine Kampagne basierend auf geplanten Änderungen am Produkt zu erstellen, oder die Änderungen auf eine bestehende Kampagne anwenden.
 
+Beachten Sie beim Konfigurieren von Zeitplänen für Produktaktualisierungen und Bearbeitungskampagnen Folgendes:
+
+- Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h. jede Entität kann nur eine geplante Aktualisierung gleichzeitig haben. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb des Zeitrahmens angewendet. Daher kann eine Entität nicht mehrere geplante Aktualisierungen für verschiedene Store-Ansichten gleichzeitig aufweisen. Alle Entitätsattributwerte in allen Store-Ansichten, die von der aktuellen geplanten Aktualisierung nicht betroffen sind, werden von den Standardwerten übernommen und nicht von der vorherigen geplanten Aktualisierung.
+
+- Eine Staging-Vorschau für eine geplante Aktualisierung beginnt immer in der Store-Ansicht &quot;**default**&quot;, in der das Kundenerlebnis der Navigation durch die Staging-Update-Kampagne emuliert wird.
+
+- Wenn eine Kampagne mit mehreren Produkten verknüpft ist, kann die Kampagne nur über das Dashboard [Inhaltstaging-Dashboard](../content-design/content-staging-dashboard.md) bearbeitet werden.
+
+- Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne später nicht mehr so bearbeitet werden, dass ein Enddatum angegeben wird. In diesem Fall ist es erforderlich, eine doppelte Kampagne zu erstellen und das erforderliche Enddatum einzugeben.
+
+
 >[!NOTE]
 >
 >Die Felder [!UICONTROL Set Product as New From] und [!UICONTROL To] sowie die Registerkarte [!UICONTROL Schedule Design Update] wurden in der Adobe Commerce für ![Adobe Commerce](../assets/adobe-logo.svg) entfernt und können nicht direkt am Produkt geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
-
->[!NOTE]
->
->Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h. jede Entität kann nur eine geplante Aktualisierung gleichzeitig haben. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb des Zeitrahmens angewendet. Daher kann eine Entität nicht mehrere geplante Aktualisierungen für verschiedene Store-Ansichten gleichzeitig aufweisen. Alle Entitätsattributwerte in allen Store-Ansichten, die von der aktuellen geplanten Aktualisierung nicht betroffen sind, werden von den Standardwerten übernommen und nicht von der vorherigen geplanten Aktualisierung.
-
->[!NOTE]
->
->Eine Staging-Vorschau für eine geplante Aktualisierung beginnt immer in der Store-Ansicht &quot;**default**&quot;, in der das Kundenerlebnis der Navigation durch die Staging-Update-Kampagne emuliert wird.
 
 ## Geplantes Update erstellen
 
@@ -86,10 +89,6 @@ Die geplante Änderung wird oben auf der Produktseite mit dem Start- und Enddatu
 
 1. Nehmen Sie die erforderlichen Änderungen an der geplanten Aktualisierung vor.
 
->[!NOTE]
->
->Wenn eine Kampagne mit mehreren Produkten verknüpft ist, kann die Kampagne nur über das Dashboard [Inhaltstaging-Dashboard](../content-design/content-staging-dashboard.md) bearbeitet werden.
-
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
 ## Die geplante Änderung entfernen
@@ -102,9 +101,7 @@ Die geplante Änderung wird oben auf der Produktseite mit dem Start- und Enddatu
 
 1. Wählen Sie im Dialogfeld **[!UICONTROL Delete the Update]** aus und klicken Sie auf **[!UICONTROL Done]**.
 
-   >[!NOTE]
-   >
-   >Das Produkt wird aus der Aktualisierung entfernt und alle geplanten Änderungen gehen verloren.
+   Das Produkt wird aus der Aktualisierung entfernt und alle geplanten Änderungen gehen verloren.
 
 ## Planen einer Design-Aktualisierung
 

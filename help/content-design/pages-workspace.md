@@ -3,9 +3,9 @@ title: Seitenarbeitssteuerelemente
 description: Erfahren Sie mehr über die Workspace-Tools, die zum Suchen und Aktualisieren von Inhaltsseiten verwendet werden.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -200,22 +200,21 @@ Klicken Sie auf das Steuerelement _Ansicht_ (![Augensymbol](../assets/icon-view-
 
 Seitenänderungen können planmäßig angewendet und mit anderen Inhaltsänderungen gruppiert werden. Sie können eine Kampagne basierend auf geplanten Änderungen auf einer Seite erstellen oder die Änderungen auf eine bestehende Kampagne anwenden. Weitere Informationen finden Sie unter [Inhaltstaging](content-staging.md).
 
->[!NOTE]
->
->Wenn eine Kampagne mit mehr als einer Seite verknüpft ist, kann die Kampagne nur über das Dashboard [Inhaltstaging-Dashboard](content-staging-dashboard.md) bearbeitet werden.
+Beachten Sie beim Konfigurieren von Zeitplänen für Seitenänderungen und beim Bearbeiten von Kampagnen Folgendes:
+
+- Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h. jede Entität kann an einem Punkt nur eine geplante Aktualisierung erhalten. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb des Zeitrahmens angewendet. Daher kann eine Entität nicht gleichzeitig eine andere geplante Aktualisierung für verschiedene Store-Ansichten haben. Alle Entitätsattributwerte in allen Store-Ansichten, die von der aktuellen geplanten Aktualisierung nicht betroffen sind, werden von den Standardwerten übernommen und nicht von der vorherigen geplanten Aktualisierung.
+
+- Wenn eine Kampagne mit mehr als einer Seite verknüpft ist, kann die Kampagne nur über das Dashboard [Inhaltstaging-Dashboard](content-staging-dashboard.md) bearbeitet werden.
+
+- Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne später nicht mehr so bearbeitet werden, dass ein Enddatum angegeben wird. In diesem Fall ist es erforderlich, eine doppelte Kampagne zu erstellen und das erforderliche Enddatum einzugeben.
+
+- Das Start- und Enddatum der Kampagne muss mithilfe der Zeitzone **_default_** Admin definiert werden, die aus der lokalen Zeitzone jeder Website konvertiert wird. Betrachten wir ein Beispiel, bei dem Sie mehrere Websites in verschiedenen Zeitzonen haben, aber eine Kampagne basierend auf einer US-Zeitzone starten möchten. In diesem Fall müssen Sie für jede lokale Zeitzone ein separates Update planen und **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** in Konvertierung aus jeder lokalen Website-Zeitzone in die standardmäßige Admin-Zeitzone einstellen.
+
+- Sie können Änderungen für Produktaktualisierungen planen und in der Vorschau anzeigen. Weitere Informationen finden Sie unter [Planen einer Aktualisierung](content-staging-scheduled-update.md).
 
 >[!NOTE]
 >
 >Die Registerkarte &quot;[!UICONTROL Custom Design Update]&quot; wurde in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce entfernt und kann nicht direkt auf der Seite geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
 
->[!NOTE]
->
->Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h. jede Entität kann an einem Punkt nur eine geplante Aktualisierung erhalten. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb des Zeitrahmens angewendet. Daher kann eine Entität nicht gleichzeitig eine andere geplante Aktualisierung für verschiedene Store-Ansichten haben. Alle Entitätsattributwerte in allen Store-Ansichten, die von der aktuellen geplanten Aktualisierung nicht betroffen sind, werden von den Standardwerten übernommen und nicht von der vorherigen geplanten Aktualisierung.
-
 ![Auf der Startseite werden geplante Änderungen am oberen Rand angezeigt](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 
->[!NOTE]
->
->Das Start- und Enddatum der Kampagne muss mithilfe der Zeitzone **_default_** Admin definiert werden, die aus der lokalen Zeitzone jeder Website konvertiert wird. Betrachten wir ein Beispiel, bei dem Sie mehrere Websites in verschiedenen Zeitzonen haben, aber eine Kampagne basierend auf einer US-Zeitzone starten möchten. In diesem Fall müssen Sie für jede lokale Zeitzone ein separates Update planen und **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** in Konvertierung aus jeder lokalen Website-Zeitzone in die standardmäßige Admin-Zeitzone einstellen.
-
-Außerdem können Sie Änderungen für Produktaktualisierungen planen und in der Vorschau anzeigen. Weitere Informationen finden Sie unter [Planen einer Aktualisierung](content-staging-scheduled-update.md).

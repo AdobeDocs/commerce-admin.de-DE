@@ -3,9 +3,9 @@ title: Content-Staging-Dashboard
 description: Greifen Sie über das Dashboard für die Inhaltstaging-Umgebung auf eine Übersicht aller aktiven und künftigen Kampagnen zu.
 exl-id: 67c18c1c-94c3-4d89-ae1e-868a465431e3
 feature: Page Content, Staging
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Vorhandene Kampagnenobjekte können über das Staging-Dashboard bearbeitet werde
 
 >[!NOTE]
 >
->Wenn eine Kampagne, die eine Preisregel enthält, zunächst ohne Enddatum erstellt wird, kann die Kampagne später nicht so bearbeitet werden, dass ein Enddatum enthalten ist. In diesem Fall ist es erforderlich, eine doppelte Kampagne zu erstellen und das erforderliche Enddatum einzugeben.
+>Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne später nicht mehr so bearbeitet werden, dass ein Enddatum angegeben wird. In diesem Fall ist es erforderlich, eine doppelte Kampagne zu erstellen und das erforderliche Enddatum einzugeben.
 
 ![Kampagnendetails](./assets/content-staging-dashboard-view-edit.png){width="600" zoomable="yes"}
 

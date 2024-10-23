@@ -3,9 +3,9 @@ title: Inhaltstaging
 description: Das Content Staging bietet Ihrem Business-Team die Möglichkeit, direkt vom Administrator aus eine Vielzahl von Inhaltsaktualisierungen für Ihren Store zu erstellen, in der Vorschau anzuzeigen und zu planen.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: d4c5cac590bff290e81c1c8fa55a5ca7b4d9a017
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,10 @@ Wenn eine neue geplante Aktualisierung für eines der folgenden Objekte erstellt
 1. **Wiederherstellen des Grundlinieninhalts**
 
    Wenn alle Kampagnen Enddaten aufweisen, wird der Grundlinieninhalt wiederhergestellt, sobald alle aktiven Kampagnen beendet werden.
+
+   >[!NOTE]
+   >
+   >Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne später nicht mehr so bearbeitet werden, dass ein Enddatum angegeben wird. In diesem Fall ist es erforderlich, eine doppelte Kampagne zu erstellen und das erforderliche Enddatum einzugeben.
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: Geplante Änderungen für Kategorien
 description: Erfahren Sie, wie Sie Kategorieänderungen zur Unterstützung von Marketing-Kampagnen und zum Speichern von Promotions planen.
 exl-id: 9e25082f-4e76-4148-b76e-dca0b14971eb
 feature: Catalog Management, Categories
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 714904d6d81bde6374a5ce644262de252c70a391
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ ht-degree: 0%
 
 Kategorieaktualisierungen können planmäßig angewendet und mit anderen Inhaltsänderungen gruppiert werden. Sie können eine Kampagne basierend auf geplanten Änderungen an der Kategorie erstellen oder die Änderungen auf eine bestehende Kampagne anwenden. Weitere Informationen finden Sie unter [Inhaltstaging](../content-design/content-staging.md).
 
->[!NOTE]
->
->Die Registerkarte [!UICONTROL Schedule Design Update] wurde in der Adobe Commerce ![Adobe Commerce](../assets/adobe-logo.svg) entfernt und kann nicht direkt in der Kategorie geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
+Beachten Sie beim Planen von Änderungen für Kategorien Folgendes:
+
+- Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h. jede Entität kann nur eine geplante Aktualisierung gleichzeitig haben. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb des Zeitrahmens angewendet. Daher kann eine Entität nicht mehrere geplante Aktualisierungen für verschiedene Store-Ansichten gleichzeitig haben. Alle Entitätsattributwerte in allen Store-Ansichten, die von der aktuellen geplanten Aktualisierung nicht betroffen sind, werden von den Standardwerten übernommen und nicht von der vorherigen geplanten Aktualisierung.
+
+- Wenn eine Kampagne mit mehr als einer Kategorie verknüpft ist, kann die Kampagne nur über das Dashboard [Inhaltstaging-Dashboard](../content-design/content-staging-dashboard.md) bearbeitet werden.
+
+- Wenn eine Kampagne mit mehr als einer Kategorie verknüpft ist, kann die Kampagne nur über das Dashboard [Inhaltstaging-Dashboard](../content-design/content-staging-dashboard.md) bearbeitet werden.
 
 >[!NOTE]
 >
->Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h. jede Entität kann nur eine geplante Aktualisierung gleichzeitig haben. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb des Zeitrahmens angewendet. Daher kann eine Entität nicht mehrere geplante Aktualisierungen für verschiedene Store-Ansichten gleichzeitig haben. Alle Entitätsattributwerte in allen Store-Ansichten, die von der aktuellen geplanten Aktualisierung nicht betroffen sind, werden von den Standardwerten übernommen und nicht von der vorherigen geplanten Aktualisierung.
+>Die Registerkarte [!UICONTROL Schedule Design Update] wurde in der Adobe Commerce ![Adobe Commerce](../assets/adobe-logo.svg) entfernt und kann nicht direkt in der Kategorie geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
 
 ## Eine Aktualisierung auf eine Kategorie planen
 
@@ -69,7 +73,3 @@ Kategorieaktualisierungen können planmäßig angewendet und mit anderen Inhalts
 1. Nehmen Sie die erforderlichen Änderungen an der geplanten Aktualisierung vor.
 
 1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
-
-   >[!NOTE]
-   >
-   >Wenn eine Kampagne mit mehr als einer Kategorie verknüpft ist, kann die Kampagne nur über das Dashboard [Inhaltstaging-Dashboard](../content-design/content-staging-dashboard.md) bearbeitet werden.

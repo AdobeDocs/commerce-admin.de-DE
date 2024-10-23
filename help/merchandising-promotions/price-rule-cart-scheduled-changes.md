@@ -3,9 +3,9 @@ title: Geplante Änderungen für Warenkorbpreisregeln
 description: Erfahren Sie, wie Sie im Rahmen einer Kampagne Regeln für den Warenkorbpreis anwenden und diese mit anderen Inhaltsänderungen gruppieren können.
 exl-id: 4c9caa04-1e11-440d-b3db-7cc5fc83a08f
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ Preisregeln für Warenkorb können planmäßig im Rahmen einer Kampagne angewend
 >Alle geplanten Aktualisierungen werden nacheinander angewendet. Das bedeutet, dass jeder Entität nur eine geplante Aktualisierung zu einem bestimmten Zeitpunkt zugewiesen werden kann. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb des Zeitrahmens angewendet. Daher kann eine Entität nicht mehrere geplante Aktualisierungen für verschiedene Store-Ansichten gleichzeitig aufweisen. Alle Entitätsattributwerte in allen Store-Ansichten, die von der aktuellen geplanten Aktualisierung nicht betroffen sind, werden von den Standardwerten übernommen und nicht von der vorherigen geplanten Aktualisierung.
 
 Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die Einstellung _[!UICONTROL Priority]_der Preisregel, welche Regel Vorrang hat. Weitere Informationen finden Sie unter [Inhaltstaging](../content-design/content-staging.md).
+
+>[!NOTE]
+>
+>Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne später nicht mehr so bearbeitet werden, dass ein Enddatum angegeben wird. In diesem Fall ist es erforderlich, eine doppelte Kampagne zu erstellen und das erforderliche Enddatum einzugeben.
 
 >[!NOTE]
 >

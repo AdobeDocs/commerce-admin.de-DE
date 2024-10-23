@@ -3,9 +3,9 @@ title: Geplante Änderungen für Katalogpreisregeln
 description: Erfahren Sie, wie Sie Katalogpreisregeln im Rahmen einer Kampagne planmäßig anwenden und mit anderen Inhaltsänderungen gruppieren können.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 74cc26e74c3efabc914c27b6d8327a85a77fd6e6
+source-git-commit: 11f8fcba70491f9dcb6c20d14b406fba4b14cab4
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
 >[!IMPORTANT]
 >
->Wenn eine Kampagne, die eine Preisregel enthält, zunächst ohne Enddatum erstellt wird, kann die Kampagne später nicht so bearbeitet werden, dass ein Enddatum enthalten ist. Es wird empfohlen, entweder beim Erstellen der Kampagne ein Enddatum hinzuzufügen oder eine duplizierte Version der vorhandenen Kampagne zu erstellen und das Enddatum nach Bedarf dem Duplikat hinzuzufügen.
+>Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne später nicht mehr so bearbeitet werden, dass ein Enddatum angegeben wird. In diesem Fall ist es erforderlich, eine doppelte Kampagne zu erstellen und das erforderliche Enddatum einzugeben.
 
 ![Katalogpreisregel - Geplante Änderungen](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
 
