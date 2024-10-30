@@ -5,9 +5,9 @@ breadcrumb-title: "[!DNL Adobe Commerce B2B]"
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
-source-git-commit: c88e5be54ac4af04302abbb25cc3f7db7b6b2606
+source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '161'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 6%
       + [Definition der Unternehmensstruktur](account-company-structure.md)
 + Unternehmensverwaltung {#company-management}
    + [Übersicht](manage-companies.md)
-   + [Verwalten der Unternehmenshierarchie](assign-companies.md)
+   + [Verwalten der Unternehmenshierarchie](manage-company-hierarchy.md)
 + Gemeinsame Kataloge {#shared-catalogs}
    + [Übersicht](catalog-shared.md)
    + Definieren freigegebener Kataloge {#define}
@@ -56,7 +56,11 @@ ht-degree: 6%
    + [Angebotsanforderung](quote-request.md)
    + [Ankündigung eines Angebots für einen Käufer](sales-rep-initiates-quote.md)
    + [Anführungszeichen verhandeln](quote-price-negotiation.md)
+   + [Erstellen einer Angebotsvorlage](quote-templates.md)
    + [[!UICONTROL My Quotes]](account-dashboard-my-quotes.md)
++ Anführungszeichenvorlagen {#templates}
+   + [Anwendungsfall und Workflow](quote-templates-overview.md)
+   + [[!UICONTROL My Quote Templates]](account-dashboard-my-quote-templates.md)
 + Anforderungslisten {#requisition-lists}
    + [Übersicht](requisition-lists.md)
    + [Konfigurieren des Listenmaximum](configure-requisition-lists.md)

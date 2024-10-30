@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Aktivierung von B2B-Funktionen für Ihr
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 7e36d0b7c9b414cb072118b87cd903b3374bb9de
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Standardmäßig sind alle B2B-Funktionen zunächst deaktiviert. Ein Store-Admini
 
 Wenn Sie den Support für Kundenunternehmen aktivieren, werden automatisch zusätzliche B2B-Funktionen aktiviert:
 
-- [!DNL Shared Catalog]
+- [[!DNL Shared Catalog]](catalog-shared.md)
 
   Unterstützt benutzerdefinierte Preiskonfigurationen für verschiedene Unternehmen und ermöglicht zudem Kategorieberechtigungen für alle Stores.
 
@@ -25,7 +25,7 @@ Wenn Sie den Support für Kundenunternehmen aktivieren, werden automatisch zusä
 
   Verbessert die Site-Leistung, indem nur Produkte gespeichert werden, die einem freigegebenen Katalog im Preisindex zugewiesen sind. Die Aktivierung dieser Funktion ist eine Best Practice für Händler, die über viele freigegebene Kataloge verfügen, um benutzerdefinierte Preise für verschiedene Unternehmen zu verwalten.
 
-- [!DNL B2B Quotes]
+- [[!DNL B2B Quotes]](quotes.md)
 
   Bietet Verkäufern und Firmenkäufern die Möglichkeit, Preise zu verhandeln.
 
@@ -35,7 +35,7 @@ Wenn Sie den Support für Kundenunternehmen aktivieren, werden automatisch zusä
 
 Konfigurationseinstellungen für diese Funktionen sind nur sichtbar, wenn [!DNL Enable Company] auf `Yes` gesetzt ist.
 
-B2B [!DNL Quick Order] - und [!DNL Requisition List] -Funktionen können unabhängig aktiviert und deaktiviert werden.
+Die Funktionen B2B [[!DNL Quick Order]](quick-order.md) und [[!DNL Requisition List]](requisition-lists.md) können unabhängig voneinander aktiviert und deaktiviert werden.
 
 ## B2B-Funktionen konfigurieren
 
@@ -52,6 +52,8 @@ Die Optionen zum Konfigurieren von Adobe Commerce B2B-Funktionen sind nur bei Co
    - Ermöglichen Sie es Kunden, ihre eigenen Unternehmenskonten zu verwalten und die Unterstützung für zusätzliche B2B-Funktionen zu aktivieren, indem Sie **[!UICONTROL Enable Company]** auf `Yes` setzen.
 
      Wenn Sie die Unternehmensunterstützung aktivieren, werden der freigegebene Katalog, das B2B-Angebot, die B2B-Zahlungsmethoden und die B2B-Versandmethoden automatisch aktiviert.
+
+     ![B2B-Konfiguration - Unternehmensfunktionen](assets/b2b-additional-features.png){width="600"}
 
    - Damit Kunden und Gäste schnell Bestellungen basierend auf der SKU oder dem Produktnamen aufgeben können, setzen Sie **[!UICONTROL Enable Quick Order]** auf `Yes`.
 

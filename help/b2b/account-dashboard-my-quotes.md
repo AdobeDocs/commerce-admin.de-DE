@@ -3,9 +3,9 @@ title: '[!UICONTROL My Quotes]'
 description: Erfahren Sie mehr über das Kundenerlebnis bei Angeboten, die in ihrem Konto-Dashboard verfügbar sind.
 exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 feature: B2B, Companies, Quotes
-source-git-commit: 27b0c43f72faa2c2e8717fd5929f36d12f9e1b08
+source-git-commit: 6cf53c7caf37c24be473afecfba829595c14cb8c
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,44 @@ Wenn Anführungszeichen aktiviert sind, werden im Abschnitt &quot;_[!UICONTROL M
 
 Der Käufer startet den Prozess durch [Einreichen einer Anfrage](quote-request.md) für ein Angebot aus dem Warenkorb. E-Mail wird während des [Verhandlungsprozesses](quote-price-negotiation.md) zwischen Käufer und Verkäufer ausgetauscht. Für den Käufer ist die Seite &quot;[!UICONTROL My Quotes]&quot; die zentrale Stelle für die Kommunikation zwischen Käufer und Verkäufer während des Verhandlungsprozesses. Ein Käufer, der den vom Verkäufer angebotenen ausgehandelten Preis akzeptiert, kann direkt von der Angebotsseite zur Kasse gehen. Dem ausgehandelten Angebot können keine zusätzlichen Rabatte hinzugefügt werden.
 
-Ein Käufer kann bei der Aushandlung eines Angebots die folgenden Schritte ausführen:
+Bei der Verhandlung eines Angebots hat ein Käufer mehrere Möglichkeiten, entweder das Angebot zu verwalten oder das Kursdetail zu aktualisieren.
 
-* Überprüfen der Artikelpreise und -aktualisierungen
-* Verfolgen Sie den Verhandlungsprozess über die Abschnitte [!UICONTROL Comments] und [!UICONTROL History].
-* Anführungszeichen ändern, um Elemente zu entfernen
-* Kommunizieren und verhandeln Sie mit dem Verkäufer, indem Sie Notizen auf der Posten- und Anführungsebene hinzufügen.
-* Angebot an Verkäufer zur Überprüfung senden
-* Konvertieren des Anführungszeichens in eine Bestellung, wenn die Bedingungen akzeptabel sind
-* Anführungszeichen schließen
-* Anführungszeichen löschen
-* [!BADGE 1.5.0-Beta-Funktionen]{type=Informative url="/help/b2b/release-notes.md" tooltip="Nur für Beta-Programmteilnehmer verfügbar"}
+* Aktionen im Zusammenhang mit der Verwaltung des Zitats:
+
+   * Erstellen Sie eine Kopie des Zitats
+   * Anführungszeichen schließen
+   * Anführungszeichen löschen
+   * Anführungszeichen umbenennen
+   * Anführungszeichen drucken
+   * Erstellen einer Vorlage
+
+* Aktionen zum Aktualisieren von Anführungszeichendetails:
+
+   * Überprüfen der Artikelpreise und -aktualisierungen
+   * Verfolgen Sie den Verhandlungsprozess über die Abschnitte [!UICONTROL Comments] und [!UICONTROL History].
+   * Anführungszeichen ändern, um Elemente zu entfernen
+   * Kommunizieren und verhandeln Sie mit dem Verkäufer, indem Sie Notizen auf der Posten- und Anführungsebene hinzufügen.
+   * Versandadresse hinzufügen
+   * Zeilenelemente in eine Anforderungsliste verschieben
+   * Konvertieren des Anführungszeichens in eine Bestellung, wenn die Bedingungen akzeptabel sind
+
+* Allgemeine Verhandlungsmaßnahmen:
+
+   * Angebot an Verkäufer zur Überprüfung senden
+   * Zur Kasse gehen
 
 Das folgende Beispiel zeigt ein Angebot, das vom Käufer aktualisiert und zur Überprüfung an den Verkäufer zurückgesendet wurde.
 
 
-![Ansicht des Käufers von Angebot](./assets/account-dashboard-my-quote-detail.png){width="700" zoomable="yes"}
+![Ansicht des Käufers von Angebot](./assets/account-dashboard-my-quote-detailed.png){width="700" zoomable="yes"}
 
 Anführungszeichen mit dem Status `Updated` werden gesperrt, bis der Verkäufer das Anführungszeichen zurückgibt.
 
 ## Anführungszeichen anzeigen
 
-Mit den erforderlichen [Berechtigungen für ihre Rolle](account-company-roles-permissions.md) können Kunden, die mit einem Unternehmenskonto verknüpft sind, Anführungszeichen sehen, die von [untergeordneten Benutzern angefordert werden](account-company-structure.md). Unternehmensadministratoren können alle Anführungszeichen für das Unternehmenskonto anzeigen.
+Mit den erforderlichen [Berechtigungen für ihre Rolle](account-company-roles-permissions.md) können Käufer, die mit einem Unternehmenskonto verknüpft sind, Anführungszeichen sehen, die von [untergeordneten Benutzern angefordert werden](account-company-structure.md). Unternehmensadministratoren können alle Anführungszeichen für das Unternehmenskonto anzeigen.
 
-1. Der Kunde meldet sich bei seinem Konto in der Storefront an.
+1. Der Käufer meldet sich auf seinem Konto an der Storefront an.
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL My Quotes]** .
 
@@ -52,15 +66,89 @@ Mit den erforderlichen [Berechtigungen für ihre Rolle](account-company-roles-pe
 
 ## Ansehen eines Angebots
 
-1. Der Kunde meldet sich bei seinem Konto an.
+1. Der Käufer meldet sich auf sein Konto an.
 
 1. Wählen Sie im linken Bereich **[!UICONTROL My Quotes]** aus.
 
 1. Sucht das Anführungszeichen in der Liste und klickt in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View]**.
 
+## Anführungszeichen kopieren
+
+1. Der Käufer meldet sich bei seinem Firmenkonto in der Storefront an.
+
+1. Wählen Sie im linken Bereich **[!UICONTROL My Quotes]** aus.
+
+1. Suchen Sie nach dem gewünschten Angebot in der Liste und klicken Sie im ursprünglichen Angebot auf **[!UICONTROL Create Copy]** .
+
+## Vorlage erstellen
+
+1. Der Käufer meldet sich auf sein Konto an.
+
+1. Wählen Sie im linken Bereich **[!UICONTROL My Quote Templates]** aus.
+
+1. Sucht das Anführungszeichen in der Liste **[!UICONTROL My Quotes]** und klickt in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Create Quote Template]**.
+
+## Zeileneinträge aus einem Anführungszeichen in eine Anforderungsliste verschieben
+
+1. Der Käufer meldet sich auf sein Konto an.
+
+1. Wählen Sie im linken Bereich **[!UICONTROL My Quotes]** aus.
+
+1. Suchen Sie nach dem gewünschten Angebot und greifen Sie darauf zu.
+
+1. Wählen Sie die Zeileneinträge aus.
+
+1. Klicken Sie im Dropdown-Menü _[!UICONTROL Actions]_auf **[!UICONTROL Move to Requisition list]**.
+
+1. Wählen Sie eine vorhandene Anforderungsliste aus, um die ausgewählten Elemente zu verschieben.
+
+1. Klicken Sie auf **[!UICONTROL Move item]**.
+
+Weitere Informationen zu diesem Prozess finden Sie unter [Hinzufügen von Produkten zu einer Anforderungsliste](requisition-lists.md) .
+
+>[!NOTE]
+>
+> Sie können beim Verschieben von Elementen keine neue Anforderungsliste erstellen. Elemente können nur in eine vorhandene Anforderungsliste verschoben werden.
+
+## Zeilenelemente in ein neues Anführungszeichen verschieben
+
+1. Der Käufer meldet sich auf sein Konto an.
+
+1. Wählen Sie im linken Bereich **[!UICONTROL My Quotes]** aus.
+
+1. Suchen Sie nach dem gewünschten Angebot und greifen Sie darauf zu.
+
+1. Wählen Sie die Zeileneinträge aus.
+
+1. Klicken Sie im Dropdown-Menü _[!UICONTROL Actions]_auf **[!UICONTROL Move item to new quote]**.
+
+1. Benennen Sie das neue Anführungszeichen im Modal.
+
+1. Wählen Sie **[!UICONTROL Move to quote]** aus, um das ausgewählte Element in das neue Anführungszeichen zu verschieben.
+
+>[!NOTE]
+>
+> Bei Auswahl mehrerer Elemente wird modal als **[!UICONTROL Move selected items to new quote]** angezeigt.
+
+## Hinzufügen einer Versandadresse
+
+1. Der Käufer meldet sich auf sein Konto an.
+
+1. Wählen Sie im linken Bereich **[!UICONTROL My Quotes]** aus.
+
+1. Wählt das gewünschte Angebot aus.
+
+1. Klicken Sie im Abschnitt **[!UICONTROL Shipping Information]** auf **[!UICONTROL Add New Address]**.
+
+1. Fügt Details für die neue Adresse ein.
+
+1. Klicks **[!UICONTROL Save Address]**.
+
+Wenn der Käufer die Adresse hinzufügt, stellt der Verkäufer die Versand- und Lieferoptionen zur Verfügung. Diese Aktualisierungen können sich auf die ausgehandelte Preisgestaltung auswirken. Die Versandoptionen sind beim Checkout gesperrt.
+
 ## Anführungszeichen drucken
 
-1. In dem offenen Angebot rechts neben dem Abschnitt _[!UICONTROL Items Quoted]_klickt der Kunde auf **[!UICONTROL Print]**.
+1. In dem offenen Angebot rechts neben dem Abschnitt _[!UICONTROL Items Quoted]_klickt der Käufer auf **[!UICONTROL Print]**.
 
 1. Überprüft die **[!UICONTROL Destination]** entweder als Drucker oder PDF.
 
@@ -82,9 +170,10 @@ Mit den erforderlichen [Berechtigungen für ihre Rolle](account-company-roles-pe
 
 | Aktion | Beschreibung |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Umbenennen | [!BADGE 1.5.0-beta-Funktionen]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Nur für Beta-Programmteilnehmer verfügbar&quot;} Ändern Sie den Namen des Zitats |
-| Erstellen einer Kopie | [!BADGE 1.5.0-beta-Funktionen]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Nur für Beta-Programmteilnehmer verfügbar&quot;} Ein Käufer kann ein neues Zitat aus dem aktuellen Zitat erstellen, indem er es kopiert und umbenennt. |
+| Umbenennen | Anführungszeichen ändern |
+| Kopie erstellen | Ein Käufer kann ein Angebot aus dem aktuellen Angebot erstellen, indem er es kopiert und umbenennt. |
 | Anführungszeichen | Ein Käufer schließt ein Angebot und kann es nicht erneut öffnen. Bei Bedarf kann der Käufer sie mithilfe der Aktion [!UICONTROL Create Copy] neu erstellen. Diese Option ist nicht verfügbar, wenn der Anführungszeichenstatus `Draft` ist. |
+| Vorlage erstellen | Erstellen Sie eine auf dem aktuellen Angebot basierende Angebotsvorlage. Zitatvorlagen optimieren die Preisverhandlungen, indem sie es Käufern und Verkäufern ermöglichen, sich auf Verträge und Preisbedingungen zu einigen, die auf mehrere Anführungszeichen angewendet werden können.  Auf Vereinbarung kann der Käufer ein vorab genehmigtes verknüpftes Angebot aus der Vorlage für nachfolgende Bestellungen generieren, anstatt den Prozess der Angebotsanforderung (RFQ) neu zu starten. |
 | Anführungszeichen löschen | Wenn ein Käufer ein Angebot löscht, wird es aus dem System entfernt und ist nicht mehr verfügbar. |
 | Drucken | Öffnet ein Druckformular zum Speichern des Anführungszeichens als PDF, Datei oder Drucken auf einem konfigurierten Drucker. |
 

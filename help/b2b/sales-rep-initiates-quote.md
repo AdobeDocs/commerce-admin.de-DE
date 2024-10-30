@@ -4,9 +4,9 @@ description: Erfahren Sie, wie ein Verkäufer ein Angebot für einen bestimmten 
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: 8130ccb809a6aec80db63c5a6ea9f47488248805
+source-git-commit: 69396421bae610ff02b12054bdea2278a8c0efe5
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,15 @@ Fügen Sie nach der Erstellung des Angebotsentwurfs Produktartikel hinzu, gewäh
 
    - Geben Sie im Feld [!UICONTROL Discount] den Wert für den Rabatttyp ein. Wenn Sie beispielsweise einen prozentualen Rabatt ausgewählt haben, geben Sie 10 ein, um einen 10-%-Rabatt auf den Zeileneintrag anzuwenden.
 
-   - [!BADGE 1.5.0-Beta-Funktionen]{type=Informative url="/help/b2b/release-notes.md" tooltip="Nur für Beta-Programmteilnehmer verfügbar"}
+   - Sperren Sie optional den Rabattwert für Zeileneinträge, damit der Produktpreis nicht durch auf Anführungszeichen angewendete Rabatte weiter reduziert wird.
 
      Nach Bestätigung der Änderung wird der angewendete Rabattbetrag durch die Zeileneintrag-Attribute im Produktraster aktualisiert. Wenn der Rabatt gesperrt ist, wird ein Sperrsymbol angezeigt.
+
+   Ein Vertriebsmitarbeiter kann einen Rabatt von einem bestimmten Zeileneintrag in einem Angebot anfordern.
+
+   >[!NOTE]
+   >
+   >Eine Videodemo dazu, wie Rabatte im Zeileneintrag funktionieren, finden Sie unter [Kundenbetreuer wendet Rabatt auf einen Kostenvoranschlagzeileneintrag](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) in _Commerce-Videos und Tutorials_.
 
 1. Wenden Sie bei Bedarf einen Rabatt auf Anführungszeichen an:
 
@@ -90,6 +96,14 @@ Fügen Sie nach der Erstellung des Angebotsentwurfs Produktartikel hinzu, gewäh
    ![Der Verkäufer fügt Informationen für Käufer hinzu](./assets/quote-draft-add-info-for-buyer.png){width="700" zoomable="yes"}
 
    Standardmäßig kann eine [angehängte Datei](configure-quotes.md) in einem der folgenden Dateiformate bis zu 2 MB groß sein: DOC, DOCX, XLS, XLSX, PDF, TXT, JPG oder JPEG, PNG.
+
+1. Lieferadresse während der Verhandlungen hinzufügen.
+
+   Ein Vertriebsmitarbeiter kann eine Versand- und Lieferauswahl vornehmen, sobald der Käufer dem Angebot eine Lieferadresse hinzugefügt hat.
+
+   Die Versandoptionen sind beim Checkout gesperrt.
+
+   Weitere Informationen finden Sie unter [Meine Anführungszeichen](account-dashboard-my-quotes.md#adding-a-shipping-address).
 
 1. Verarbeiten Sie das Anführungszeichen.
 

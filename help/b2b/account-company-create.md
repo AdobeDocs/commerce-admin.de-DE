@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Erstellung von Unternehmenskonten in de
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-source-git-commit: 582f15c422e43af9acec6313c7b777b3126030f8
+source-git-commit: 30c988ac7d4108ae85980498472d96363107212c
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1750'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Der Person, die über die Storefront ein Unternehmenskonto eingerichtet hat, wir
 
 >[!IMPORTANT]
 >
->Um diese Methode zu unterstützen (sodass Kunden ihr Unternehmen über die Storefront registrieren können), stellen Sie sicher, dass die [B2B-Funktionen](enable-basic-features.md) so konfiguriert sind, dass **[!UICONTROL Allow Company Registration from the Storefront]** auf `Yes` eingestellt ist.
+>Um diese Methode zu unterstützen (sodass Kunden ihr Unternehmen über die Storefront registrieren können), stellen Sie sicher, dass die [B2B-Funktionen](enable-basic-features.md) aktiviert sind.
 
 1. In der oberen rechten Ecke der Storefront-Kopfzeile klickt der Kunde auf **[!UICONTROL Create an Account]** und wählt **[!UICONTROL Create New Company Account]**.
 
@@ -29,7 +29,7 @@ Der Person, die über die Storefront ein Unternehmenskonto eingerichtet hat, wir
 
    >[!NOTE]
    >
-   >Wenn ein Besucher bei einem registrierten Benutzerkonto angemeldet ist, kann er ein Unternehmenskonto erstellen, indem er zu _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**navigiert. Bei Erstellung des Unternehmenskontos wird das Kundenkonto als Hauptkontakt zugewiesen. Andernfalls erstellt das System einen Kunden, der eine E-Mail erhält, um ein Kennwort festzulegen.
+   >Wenn ein Besucher bei einem registrierten Benutzerkonto angemeldet ist, kann er ein Unternehmenskonto erstellen, indem er zu _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**navigiert.
 
 1. Im Abschnitt _[!UICONTROL Company Information]_führt der Kunde Folgendes aus:
 

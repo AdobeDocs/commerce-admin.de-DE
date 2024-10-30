@@ -3,9 +3,9 @@ title: Anführungszeichen verhandeln
 description: Erfahren Sie mehr über Workflows für Preisverhandlungen und wie Sie mit Käufern für den Kauf arbeiten können.
 exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
-source-git-commit: 734290b9d609a173186325b418cd92cbf41b0efb
+source-git-commit: ec00288f33af2abb785d1b37dd67aaf1ebe35c06
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Während des Verhandlungsprozesses kann der Verkäufer vom Administrator Folgend
 
 - Produkte hinzufügen oder entfernen
 - Menge ändern
-- Anwenden eines Rabatts auf Zeileneinträge oder den Gesamtpreis
+- Anwenden eines Rabatts auf Zeileneinträge oder auf das gesamte Angebot
 - Versandmethode hinzufügen oder ändern
 - Kommentare hinzufügen
 - Senden Sie das aktualisierte Angebot an den Käufer oder speichern Sie es als Entwurf
@@ -118,23 +118,33 @@ sowohl der Rabatt für Zeileneinträge als auch jeglicher Rabatt auf Anführungs
 
    Die maximal zulässige Dateigröße für Anhänge beträgt 2 MB.
 
-1. So wenden Sie einen Rabatt auf das gesamte Angebot an:
+1. So wenden Sie einen Rabatt auf das Angebot an:
 
    - Wählen Sie unter _[!UICONTROL Quote Totals]_im Abschnitt_[!UICONTROL Negotiated Price]_ einen der folgenden Rabatttypen aus:
 
-      - `Percentage Discount`
-      - `Amount Discount`
-      - `Proposed Price`
+      - `Percentage Discount`: Ein prozentualer Rabatt reduziert den ursprünglichen Preis um einen bestimmten Prozentsatz.
+      - `Amount Discount`: Ein Rabatt für einen Betrag bewirkt eine pauschale Preissenkung.
+      - `Proposed Price`: Ein vorgeschlagener Preisnachlass setzt den Endpreis unabhängig vom ursprünglichen Preis auf einen bestimmten Betrag.
 
    - Geben Sie den Betrag in Prozent oder als Pauschalpreis an.
 
      ![Kommentare zu Verhandlungen](./assets/quote-detail-negotiation-comments.png){width="600" zoomable="yes"}
+
+   - Sie können Rabatte auf jeden Zeileneintrag oder das gesamte Angebot anwenden:
+
+      - **Zeileneintrag-Rabatte**: Zeileneintrag-Rabatte werden auf einzelne Artikel im Warenkorb angewendet. Der Rabatt kann ein `percentage`, ein bestimmter `amount` oder ein `proposed price` sein.
+      - **Rabatte auf Warenkorbebene**: Rabatte auf Warenkorbebene werden auf den gesamten Warenkorb angewendet. Der Rabatt kann entweder ein `percentage` oder ein bestimmter `amount` sein und wird auf den Gesamtwert des Warenkorbs angewendet.
+      - **Kombination von Warenkorb- und Zeileneintrag-Rabatten**: In einigen Fällen können Rabatte sowohl auf Warenkorb- als auch auf Zeileneinträgen angewendet werden. Der Zeileneintrag Rabatt wird zuerst angewendet, gefolgt vom Rabatt auf Warenkorbebene auf die verbleibende Gesamtsumme.
 
 1. Anführungszeichen senden oder speichern:
 
    - Wenn das Angebot zum Zurücksenden an den Käufer bereit ist, klicken Sie auf **[!UICONTROL Send]**.
 
    - Um die Arbeit an dem Zitat später fortzusetzen, klicken Sie auf **[!UICONTROL Save as Draft]**.
+
+>[!NOTE]
+>
+> Während der Preisverhandlungen können Rabatte gesperrt werden, um weitere Änderungen zu verhindern. Sobald ein Anführungszeichen gesperrt ist, können weder der Rabatttyp noch der Betrag geändert werden, ohne das Anführungszeichen zuerst zu entsperren. Durch diese Sperrmethode wird sichergestellt, dass die vereinbarten Bedingungen zwischen dem Verkäufer und dem Käufer erhalten bleiben.
 
 ## Schritt 4: Anleitung zu einem Zitat
 
@@ -152,7 +162,8 @@ Um seine Position im Workflow zu überwachen, überprüfen Sie Ihre E-Mail und d
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back] | Kehrt zur Seite _[!UICONTROL Quotes]_zurück, ohne die Änderungen zu speichern. |
 | [!UICONTROL Print] | Sendet das Anführungszeichen an einen Drucker oder speichert es als PDF-Datei. |
-| [!UICONTROL Create Copy] | [!BADGE 1.5.0-beta-Funktionen]{type=Informative url=&quot;/help/b2b/release-notes.md&quot; tooltip=&quot;Nur für Beta-Programmteilnehmer verfügbar&quot;} Erstellt und öffnet eine Kopie des aktuellen Zitats mit dem Zusatz &quot;`(copy)`&quot; am Originalnamen. Benennen Sie das neue Anführungszeichen um, indem Sie das Feld [!UICONTROL Name] bearbeiten. Verarbeiten Sie das neue Angebot, indem Sie es als Entwurf speichern oder an den Kunden senden. |
+| [!UICONTROL Create Copy] | Erstellt eine Kopie des aktuellen Anführungszeichens und öffnet diese mit dem Zusatz &quot;`(copy)`&quot;, der an den ursprünglichen Namen angehängt ist. Benennen Sie das neue Anführungszeichen um, indem Sie das Feld [!UICONTROL Name] bearbeiten. Verarbeiten Sie das neue Angebot, indem Sie es als Entwurf speichern oder an den Kunden senden. |
+| Vorlage erstellen | Erstellen Sie eine auf dem aktuellen Angebot basierende Angebotsvorlage. Zitatvorlagen optimieren die Preisverhandlungen, indem sie es Käufern und Verkäufern ermöglichen, sich auf Verträge und Preisbedingungen zu einigen, die auf mehrere Anführungszeichen angewendet werden können. . Auf Vereinbarung kann der Käufer ein vorab genehmigtes verknüpftes Angebot aus der Vorlage für nachfolgende Bestellungen generieren, anstatt den Prozess der Angebotsanforderung (RFQ) neu zu starten. |
 | [!UICONTROL Save as Draft] | Speichern Sie alle Änderungen, die an dem Angebot vorgenommen wurden, senden Sie es jedoch nicht an den Käufer zurück. |
 | [!UICONTROL Decline] | Der Vorschlag, die Preise zu verhandeln, wird entweder im Rahmen der ersten Untersuchung oder während der laufenden Verhandlungen abgelehnt. Wenn ein Angebot abgelehnt wird, sollte der Verkäufer einen Kommentar hinzufügen, um die Entscheidung zu erläutern. Wenn ein Angebot abgelehnt wird, werden alle ausgehandelten Preise auf die ursprünglichen Werte zurückgesetzt. Diese Schaltfläche ist deaktiviert, während der Verkäufer auf eine Antwort vom Käufer wartet. |
 | [!UICONTROL Send] | Übermittelt das aktualisierte Angebot als Antwort auf die Anfrage des Käufers. Diese Schaltfläche ist deaktiviert, wenn der Verkäufer auf eine Antwort des Käufers wartet. |

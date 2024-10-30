@@ -4,9 +4,9 @@ description: Erfahren Sie, wie mit einem Unternehmenskonto verknüpfte Kunden ei
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-source-git-commit: b53d77364f09e587813c50221ebd85ac633f1296
+source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,6 @@ Wenn Anführungszeichen in der Konfiguration der [Verkaufsfunktionen](configure-
 1. Erstellt und verarbeitet das Anführungszeichen:
 
    - Sendet das Angebot durch Auswahl von **[!UICONTROL Request a Quote]** an den Verkäufer.
-   - [!BADGE 1.5.0-Beta-Funktion]{type=Informative url="/help/b2b/release-notes.md" tooltip="Nur für Beta-Programmteilnehmer verfügbar"}**[!UICONTROL Save as Draft]**.
+   - Speichert das Anführungszeichen als Entwurf durch Auswahl von **[!UICONTROL Save as Draft]**.
 
      Wenn der Käufer das Angebot als Entwurf speichert, ist das Angebot im Status [!UICONTROL My Quotes] im Status `Draft` verfügbar. Für den Verkäufer sind die Angebote nicht sichtbar, bis der Käufer sie zur Überprüfung sendet.

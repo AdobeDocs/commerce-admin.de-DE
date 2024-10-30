@@ -3,7 +3,7 @@ title: Unternehmenskonten
 description: Erfahren Sie, wie Unternehmenskonten, die in Ihrem Adobe Commerce-Store verwaltet werden, es ermöglichen, mehrere Käufer, die demselben Unternehmen angehören, zu einem Unternehmenskonto zusammenzuführen.
 exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -12,7 +12,11 @@ ht-degree: 0%
 
 # Unternehmenskonten
 
-Wenn Sie B2B-Unternehmenskonten in Ihren Store integrieren, können Sie das Einkaufserlebnis für Unternehmen vereinfachen, indem Sie Unternehmen die Möglichkeit geben, mehrere Unterkonten mit flexiblen Berechtigungen zu erstellen, die auf den Benutzerrollen in ihrer Organisation basieren. Je nach Unternehmen kann ein Store-Administrator Promotions und Preise an ihre Bedürfnisse anpassen und hochgradig angepasste Angebote erstellen, die den Anforderungen der Kunden gerecht werden und die Bestellungen erhöhen. Durch Hinzufügen einer Unternehmenskontozuordnung zu einer standardmäßigen [Person](../customers/account-create.md) kann der Kunde die spezifischen Einkaufs-Workflows verwenden, die für das Unternehmen definiert sind.
+Wenn Sie B2B-Unternehmenskonten in Ihren Store integrieren, können Sie das Einkaufserlebnis für Unternehmen vereinfachen, indem Sie Unternehmen die Möglichkeit geben, mehrere Unterkonten mit flexiblen Berechtigungen zu erstellen, die auf den Benutzerrollen in ihrer Organisation basieren.
+
+Je nach Unternehmen kann ein Store-Administrator Promotions und Preise an ihre Bedürfnisse anpassen und hochgradig angepasste Angebote erstellen, die den Anforderungen der Kunden gerecht werden und die Bestellungen erhöhen.
+
+Durch Hinzufügen einer Unternehmenskontozuordnung zu einer standardmäßigen [Person](../customers/account-create.md) kann der Kunde die spezifischen Einkaufs-Workflows verwenden, die für das Unternehmen definiert sind.
 
 Vorteile eines Unternehmenskontos:
 
@@ -22,7 +26,7 @@ Vorteile eines Unternehmenskontos:
 
 - Bietet Händlern einen Mechanismus, um ihr Einkommen zu steigern, indem sie [Unternehmensspeicherkredite](credit-company.md) als Zahlungsmethode anbieten.
 
-- Unterstützt die [Verwaltung](account-company-manage.md) aller Unternehmenskonten im Admin.
+- Unterstützt die [Verwaltung](account-company-manage.md) aller Unternehmenskonten vom Administrator.
 
 ## Unternehmenskonten anzeigen
 
@@ -34,7 +38,7 @@ Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > **[!UIC
 
 ![Unternehmensraster](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-Das Raster [!UICONTROL Companies] listet alle Unternehmen unabhängig vom Status auf. Im folgenden Beispiel werden zwei Unternehmen erfasst: das Unternehmen ACME und das Unternehmen Vandelay.
+Das Raster [!UICONTROL Companies] listet alle Unternehmen unabhängig vom Status auf. Die Unternehmensauflistung gibt an, ob ein Unternehmen mit einer [Unternehmenshierarchie](manage-company-hierarchy.md) verknüpft ist, und liefert [detaillierte Informationen](/help/b2b/account-company-manage.md#company-options-and-columns) über das Unternehmen, den Unternehmensadministrator und andere Informationen. Passen Sie die Ansicht mithilfe der [Admin-Rastersteuerelemente](../getting-started/admin-grid-controls.md) an, um Filter, Spaltenansichtsoptionen und mehr festzulegen.
 
 ## Firmenadministrator
 
@@ -42,7 +46,7 @@ Das folgende Beispiel zeigt das Raster _Kunden_ mit den anfänglichen Unternehme
 
 ![Kundenraster mit dem Unternehmensadministratorkonto](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-Es ist möglich, dass die Person, die als Unternehmensadministrator fungiert, innerhalb des Unternehmens über mehrere Rollen verfügt. Wenn für den Unternehmensadministrator eine separate E-Mail-Adresse angegeben wird, umfasst die ursprüngliche Unternehmensstruktur den Unternehmensadministrator sowie ein einzelnes Benutzerkonto im Namen des Unternehmensadministrators. In diesem Fall kann sich der Unternehmensadministrator als Unternehmen oder als einzelner Benutzer beim Konto anmelden.
+Jedes Unternehmen verfügt über einen einzigen Unternehmensadministrator, der anhand der E-Mail-Adresse des Kontos und des Vor- und Nachnamens des Administrators identifiziert wird. Der Administrator kann anderen Unternehmen als Benutzer zugewiesen werden, kann aber nur Administrator für ein Unternehmen sein.
 
 Nach Erstellung des Kontos definiert der Unternehmensadministrator die Unternehmensstruktur von [Teams](account-company-structure.md), richtet die [Unternehmensbenutzer](account-company-users.md) ein und richtet für jede Gruppe [Rollen und Berechtigungen](account-company-roles-permissions.md) ein.
 
@@ -58,7 +62,7 @@ Nach Erstellung des Kontos definiert der Unternehmensadministrator die Unternehm
 
 1. Befolgt die Anweisungen und klickt auf [!UICONTROL **link**] , um das Kennwort festzulegen.
 
-1. Fügt ein [!UICONTROL **neues Kennwort**] für ihr Konto ein und bestätigt es erneut.
+1. Fügt ein [!UICONTROL **neues Kennwort**] und eine Kennwortbestätigung für ihr Konto ein.
 
    Das Kennwort muss mindestens drei der folgenden Zeichentypen enthalten:
 

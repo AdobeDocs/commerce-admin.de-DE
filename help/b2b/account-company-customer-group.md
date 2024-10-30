@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie in Ihrem Adobe Commerce-Store einem Unternehm
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 feature: B2B, Companies, Configuration, Customers
 role: Admin, User
-source-git-commit: a5a8da076d6cd91eb6c3e573fec5b3fb9d2d3341
+source-git-commit: 581d2cf82880552432471171b69a1a597da54c30
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,12 @@ ht-degree: 0%
 
 Die Zuweisung einer Kundengruppe zu einem Unternehmen entspricht im Wesentlichen der Zuweisung eines freigegebenen Katalogs. Wenn &quot;Freigegebener Katalog&quot;in der Konfiguration nicht ](enable-basic-features.md) aktiviert ist, wird einer Firma eine Kundengruppe (und nicht ein freigegebener Katalog) zugewiesen.[
 
->[!NOTE]
->
-> Einem Unternehmen kann jeweils nur eine Kundengruppe oder ein freigegebener Katalog zugewiesen werden. Eine Kundengruppe, die mit einem freigegebenen Katalog verknüpft ist, kann nicht gelöscht werden.
+- Einem Unternehmen kann jeweils nur eine Kundengruppe oder ein freigegebener Katalog zugewiesen werden. Eine Kundengruppe, die mit einem freigegebenen Katalog verknüpft ist, kann nicht gelöscht werden.
+- Wenn Sie die dem Unternehmen zugewiesene Kundengruppe ändern, werden die Profile aller Unternehmensmitglieder aktualisiert.
+- Wenn die Kundengruppenzuweisung von einem freigegebenen Katalog in eine reguläre Kundengruppe geändert wird, verlieren Unternehmensmitglieder den Zugriff auf den freigegebenen Katalog und der Hauptkatalog steht ihnen über das Storefront zur Verfügung.
+- Nachdem ein Benutzer die Unternehmensgruppe geändert hat, muss er sich bei der Storefront abmelden und sich dort anmelden, um neue Preise im Katalog zu sehen.
+
+## Ändern der Kundengruppe
 
 1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -29,21 +32,9 @@ Die Zuweisung einer Kundengruppe zu einem Unternehmen entspricht im Wesentlichen
 
 1. Legen Sie die entsprechende **[!UICONTROL Customer Group]** fest.
 
-   >[!NOTE]
-   >
-   >Die Liste &quot;[!UICONTROL Customer Group]&quot;enthält alle vorhandenen freigegebenen Kataloge, auch wenn die Option &quot;Freigegebene Kataloge&quot;in der Konfiguration deaktiviert ist.
-
-   Wenn Sie die dem Unternehmen zugewiesene Kundengruppe ändern, werden die Profile aller Unternehmensmitglieder aktualisiert.
-
-   >[!NOTE]
-   >
-   >Nachdem ein Benutzer die Unternehmensgruppe geändert hat, muss er sich bei der Storefront abmelden und sich dort anmelden, um neue Preise im Katalog zu sehen.
+   Die Liste &quot;[!UICONTROL Customer Group]&quot;enthält alle vorhandenen freigegebenen Kataloge, auch wenn die Option &quot;Freigegebene Kataloge&quot;in der Konfiguration deaktiviert ist.
 
    ![Ändern der Kundengruppe oder des freigegebenen Katalogs](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
-
-   >[!NOTE]
-   >
-   >Wenn die Kundengruppenzuweisung von einem freigegebenen Katalog in eine reguläre Kundengruppe geändert wird, verlieren Unternehmensmitglieder den Zugriff auf den freigegebenen Katalog und der Hauptkatalog steht ihnen über das Storefront zur Verfügung.
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL Proceed]**.
 

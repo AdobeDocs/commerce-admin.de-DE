@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] Versionshinweise'
 description: Informationen zu Änderungen in [!DNL Adobe Commerce B2B] Versionen finden Sie in den Versionshinweisen .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: a63af8ac948422e4c6dd64408eaa48252b771d7f
+source-git-commit: b3892e2b34aae1579472f3562e479267cca2dce3
 workflow-type: tm+mt
-source-wordcount: '7198'
+source-wordcount: '7776'
 ht-degree: 0%
 
 ---
@@ -22,47 +22,84 @@ Diese Versionshinweise für die B2B-Erweiterung erfassen Ergänzungen und Fehler
 >
 >Informationen zu den für verfügbare Adobe Commerce-Versionen unterstützten Versionen der B2B Commerce-Erweiterung finden Sie unter [Produktverfügbarkeit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) .
 
-## B2B 1.5.0-beta
 
-{{$include /help/_includes/b2b-beta-note.md}}
+## B2B 1.5.0
 
-*13. November 2023*
+*30. Oktober 2024*
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
+Kompatibel mit den Adobe Commerce-Versionen 2.4.8-Beta1, 2.4.7 bis 2.4.7-p2, 2.4.6 bis 2.4.6-p7
 
-Die Version B2B v1.5.0 Beta enthält neue Funktionen, Qualitätsverbesserungen und Fehlerbehebungen.
+Version 1.5.0 von B2B umfasst neue Funktionen, Qualitätsverbesserungen und Fehlerbehebungen.
 
-![Neu](../assets/new.svg) Verbesserungen an den Anführungsfunktionen helfen Käufern und Verkäufern, Anführungszeichen und Preisverhandlungen effektiver zu verwalten.
+### Unternehmensverwaltung
 
-- **Zitat als Entwurf speichern**<!--B2B-2566--> - Beim Erstellen einer [Anführungsanforderung](quote-request.md) aus dem Warenkorb können Käufer das Angebot jetzt als Entwurf speichern, indem sie im Formular [!UICONTROL Request a Quote] die Option **[!UICONTROL Save as Draft]** auswählen.
+![Neu](../assets/new.svg) **Unternehmensverwaltung**<!--B2B-2901-->: Händler können Adobe Commerce-Unternehmen jetzt als hierarchische Organisationen anzeigen und verwalten, indem sie bestimmte Mutterunternehmen zuweisen. Nachdem ein Unternehmen einer Muttergesellschaft zugewiesen wurde, kann der Administrator des Mutterunternehmens das Unternehmenskonto verwalten. Nur autorisierte Admin-Benutzer können Unternehmenszuweisungen hinzufügen und verwalten. Weitere Informationen finden Sie unter [Verwalten der Unternehmenshierarchie](manage-company-hierarchy.md).
 
-  Das Ablaufdatum des Zitats im Entwurf ist nicht angegeben. Käufer können Entwurfsangebote im Abschnitt [!UICONTROL My Quotes] ihres Konto-Dashboards überprüfen und aktualisieren.
+- Fügen Sie Unternehmenszuweisungen aus dem neuen Abschnitt &quot;*[!UICONTROL Company Hierarchy]*&quot;auf der Seite &quot;*[!UICONTROL Company Account]*&quot;im Admin hinzu und verwalten Sie sie.
+
+- Sortieren und filtern Sie Unternehmen nach der neuen Einstellung *[!UICONTROL Company Type]* . Im Unternehmensraster gibt die Spalte *[!UICONTROL Company Type]* an, ob ein Unternehmen ein einzelnes Unternehmen oder Teil einer hierarchischen Struktur ist (über- oder untergeordnet).
+
+![Neu](../assets/new.svg) **Verwalten der Unternehmenskonfiguration im Maßstab**<!--B2B-2849--> - Ändern Sie schnell die Konfigurationseinstellungen des Unternehmens für ausgewählte Unternehmen mithilfe der Massenaktion *[!UICONTROL Change company setting]* , die jetzt bei der Verwaltung von Unternehmen über das Raster *[!UICONTROL Companies]* oder *[!UICONTROL Company Hierarchy]* verfügbar ist. Wenn Sie beispielsweise einen neuen freigegebenen Katalog für eine Unternehmensgruppe erstellen, können Sie die freigegebene Katalogkonfiguration in einer einzigen Aktion ändern, anstatt jedes Unternehmen einzeln zu bearbeiten.
+
+![Neu](../assets/new.svg) API-Entwickler können den neuen REST-API-Endpunkt &quot;Unternehmen Relations&quot;`/V1/company/{parentId}/relations` verwenden, um Unternehmenszuweisungen zu erstellen, anzuzeigen und zu entfernen. Siehe [Verwalten von Unternehmensobjekten](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) im *Web API Developer Guide*.
+
+### Unternehmenskonten
+
+![Neu](../assets/new.svg)<!--B2B-2828--> **Zuweisung mehrerer Unternehmen**: Vereinfachen Sie den Zugriff auf Unternehmenskonten für Unternehmensbenutzer, indem Sie einen Benutzer mehreren Unternehmen zuweisen. Wenn Sie beispielsweise einen Käufer haben, der von mehreren Firmen-Sites bestellt wird, erstellen Sie ein einziges Konto und weisen Sie alle Unternehmen, mit denen der Käufer arbeitet, diesem Konto zu. Dann kann sich der Käufer einmalig anmelden und zwischen den Unternehmenskonten wechseln, indem er das Unternehmen aus der Storefront auswählt.
+
+>[!NOTE]
+>
+>Ein Unternehmensbenutzer kann mehreren Unternehmen zugewiesen werden, kann jedoch nur für ein Unternehmen als Unternehmensadministrator fungieren.
+
+![New](../assets/new.svg) <!--B2B-2747--> **Auswahl des Unternehmensbereichs**: Bietet Benutzern des Unternehmens, die mehreren Unternehmen zugewiesen sind, die Möglichkeit, Unternehmen im Storefront zu wechseln. Wenn der Umfang geändert wird, werden die Daten aktualisiert, um die Informationen basierend auf dem neuen Unternehmenskontext anzuzeigen. Wenn das neue Unternehmen beispielsweise einen anderen freigegebenen Katalog verwendet, werden dem Benutzer des Unternehmens Produkte, Preise und andere Informationen basierend auf dem neuen freigegebenen Katalog angezeigt. Inhalte im Zusammenhang mit Bestellungen, Anführungszeichen, Angebotsvorlagen werden ebenfalls entsprechend dem Kontext des ausgewählten Unternehmens aktualisiert.
+
+>[!NOTE]
+>
+>Wenn der Benutzer des Unternehmens Unternehmen mit Artikeln im Warenkorb wechselt, aktualisieren Sie den Warenkorb, um das Produktangebot, die Preise und Werberabatte basierend auf dem neuen Unternehmenskontext widerzuspiegeln.
+
+![Problem behoben](../assets/fix.svg)<!--ACP2E-1933--> Unternehmensadministratoren können nun Unternehmensbenutzer aus dem Storefront hinzufügen. Zuvor hat Commerce einen Fehler protokolliert, wenn ein Admin-Benutzer versucht hat, einen neuen Benutzer hinzuzufügen: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
+
+### Anführungszeichenvorlagen
+
+Verbesserungen der Anführungsfunktionen helfen Käufern und Verkäufern bei der effektiveren Verwaltung von Angeboten und Offering-Verhandlungen.
+
+![Neu](../assets/new.svg) **Anführungsvorlagen**—<!--B2B-3367-->Käufer und Verkäufer können jetzt den Angebotsprozess optimieren, indem sie wiederverwendbare und anpassbare Anführungsvorlagen erstellen. Mithilfe von Angebotsvorlagen kann der Prozess der Angebotsverhandlung einmal abgeschlossen werden und Käufer können vorab genehmigte verknüpfte Angebote für wiederkehrende Bestellungen generieren, anstatt den Prozess der Angebotsverhandlung für jede Bestellung zu durchlaufen. Anführungsvorlagen erweitern die vorhandene Anführungsfunktion durch die folgenden erweiterten Funktionen:
+
+- **Bestellschwellen** ermöglichen es den Verkäufern, Mindest- und Höchstbestellungsverpflichtungen festzulegen, um sicherzustellen, dass der Käufer vereinbarte Kaufmengen einhält.
+- **Die Festlegung von Mindest- und Höchstmengen für die Artikelbestellung** gibt dem Käufer die Möglichkeit, die Bestellmengen für das verknüpfte Angebot anzupassen, ohne dass eine neue Vorlage oder weitere Verhandlungen erforderlich sind.
+- **Verfolgen Sie die Anzahl der verknüpften Angebote, die generiert und erfolgreich abgeschlossen wurden**, um Einblicke in die Erfüllung ausgehandelter Vereinbarungen zu erhalten.
+- **Verknüpfte Anführungszeichen** sind vorab genehmigte Anführungszeichen, die der Käufer aus einer aktiven Anführungsvorlage generiert, um wiederkehrende Bestellungen basierend auf den in der Anführungsvorlage ausgehandelten Bedingungen zu senden.
+
+![Neu](../assets/new.svg) **Verbesserungen der vorhandenen Anführungsfunktionen**
+
+- **Aktualisierte Regeln der Commerce Access Control List (ACL)** ermöglichen es B2B-Managern und -Aufsichtsbehörden, Anführungszeichen und Anführungszeichenvorlagen untergeordneter Benutzer zu verwalten. Separate Regeln unterstützen eine detaillierte Konfiguration für den Zugriff auf Ansicht, Bearbeitung und Löschung.
+
+- **Zitat als Entwurf speichern**<!--B2B-2566-->: Beim Erstellen einer [Preisanfrage](quote-request.md) aus dem Warenkorb können Käufer das Angebot jetzt als Entwurf speichern, damit sie es überprüfen und aktualisieren können, bevor sie den Prozess der Preisverhandlungen mit dem Verkäufer starten. Das Ablaufdatum des Zitats im Entwurf ist nicht angegeben. Käufer können Entwurfsangebote im Abschnitt [!UICONTROL My Quotes] ihres Konto-Dashboards überprüfen und aktualisieren.
 
 - **Zitat umbenennen**<!--B2B-2596-->: Käufer können jetzt einen Anführungsnamen auf der Seite [Anführungszeichen Detail](account-dashboard-my-quotes.md#quote-actions) ändern, indem sie die Option **[!UICONTROL Rename]** auswählen. Diese Option steht autorisierten Käufern zur Verfügung, wenn sie das Angebot bearbeiten. Namensänderungsereignisse werden im Anführungsverlauf-Protokoll aufgezeichnet.
 
 - **Zitat duplizieren**<!--B2B-2701-->: Käufer und Verkäufer können jetzt ein neues Angebot erstellen, indem sie ein vorhandenes Angebot kopieren. Eine Kopie wird aus der Detailansicht des Zitats erstellt, indem Sie in der Detailansicht des Anführungszeichens [Anführungszeichen ](quote-price-negotiation.md#button-bar) in der Admin- oder Storefront [4} die Option **[!UICONTROL Create Copy]** auswählen.](account-dashboard-my-quotes.md#quote-actions)
 
-- **Sperren des Zeilendiskonts**<!--B2B-2597-->: Während der Preisverhandlungen können Verkäufer die Diskontsperre für Zeileneinträge verwenden, um beim Anwenden von Rabatten mehr Flexibilität zu erzielen. Beispielsweise kann ein Verkäufer einen Sonderrabatt für Zeileneinträge auf einen Artikel anwenden und den Artikel sperren, um weitere Rabatte zu vermeiden. Wenn ein Artikel gesperrt ist, kann der Artikelpreis nicht aktualisiert werden, wenn ein Rabatt auf Anführungszeichen angewendet wird. Siehe [Angebot für einen Käufer initiieren](sales-rep-initiates-quote.md).
+- **Verschieben Sie das Anführungszeichen in die Anforderungsliste**<!--B2B-2755-->: Käufer haben jetzt die Möglichkeit, Produkte aus einem Angebot zu entfernen und in einer Anforderungsliste zu speichern, wenn sie sich entscheiden, sie nicht in den Anführungszeichenverhandlungsvorgang aufzunehmen.
 
-![Neu ](../assets/new.svg)**Unternehmensverwaltung**<!--B2B-2901-->: Händler können Adobe Commerce-Unternehmen jetzt als hierarchische Organisationen anzeigen und verwalten, indem sie bestimmte Mutterunternehmen zuweisen. Nachdem ein Unternehmen einer Muttergesellschaft zugewiesen wurde, kann der Administrator des Mutterunternehmens das Unternehmenskonto verwalten. Nur autorisierte Admin-Benutzer können Unternehmenszuweisungen hinzufügen und verwalten. Weitere Informationen finden Sie unter [Verwalten der Unternehmenshierarchie](assign-companies.md).
+- **Entfernen Sie mehrere Produkte aus einem Anführungszeichen**<!--B2B-2881-->: In Anführungszeichen mit einer großen Anzahl von Produkten können Käufer jetzt mehrere Produkte aus dem Anführungszeichen entfernen, indem sie sie auswählen und die Option *[!UICONTROL Remove]* aus dem Steuerelement *[!UICONTROL Actions]* auf der Anführungsdetailseite verwenden. In früheren Versionen musste ein Käufer Produkte einzeln löschen.
 
-- Auf der Seite &quot;Unternehmen&quot;gibt ein neues **[!UICONTROL Company Type]** -Feld übergeordnete und untergeordnete Unternehmen an. Händler können die Unternehmensansicht nach Unternehmenstyp filtern und Unternehmen mithilfe von Zeileneinträgen oder Massenaktionen verwalten.
+- **Sperren des Zeilendiskonts**<!--B2B-2597-->: Während der Preisverhandlungen können Verkäufer die Diskontsperre für Zeileneinträge verwenden, um beim Anwenden von Rabatten während des Anführungszeichenverhandelungsprozesses mehr Flexibilität zu erzielen. Beispielsweise kann ein Verkäufer einen Sonderrabatt für Zeileneinträge auf einen Artikel anwenden und den Artikel sperren, um weitere Rabatte zu vermeiden. Wenn ein Artikel gesperrt ist, kann der Artikelpreis nicht aktualisiert werden, wenn ein Rabatt auf Anführungszeichen angewendet wird. Siehe [Angebot für einen Käufer initiieren](sales-rep-initiates-quote.md).
 
-- Händler können Unternehmenszuweisungen aus dem neuen Abschnitt **[!UICONTROL Company Hierarchy]** auf der Seite [!UICONTROL Company Account] hinzufügen und verwalten.
+![Korrektur des Fehlers](../assets/fix.svg) **Korrekturen für vorhandene Anführungsfunktionen**
 
-- API-Entwickler können den neuen REST-API-Endpunkt &quot;Unternehmen Relations&quot;`/V1/company/{parentId}/relations` verwenden, um Unternehmenszuweisungen zu erstellen, anzuzeigen und zu entfernen. Siehe [Verwalten von Unternehmensobjekten](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) im *Web API Developer Guide*.
+- Händler, die in der Detailansicht des Zitats in der Admin-Ansicht auf die Schaltfläche *[!UICONTROL Print]* klicken, werden jetzt aufgefordert, das Angebot als PDF zu speichern. Zuvor wurden Händler zu einer Seite umgeleitet, die Anführungszeichendetails enthielt. <!--ACP2E-1984-->
 
-![Korrektur des Fehlers](../assets/fix.svg)<!--ACP2E-1984-->Händler, die in der Detailansicht des Zitats in Admin auf die Schaltfläche **[!UICONTROL Print]** klicken, werden jetzt aufgefordert, das Angebot als PDF zu speichern. Zuvor wurden Händler zu einer Seite umgeleitet, die Anführungszeichendetails enthielt.
+- Beim Versand eines Kundenangebots mit dem Prozentsatz `0` und einer Mengenänderung löst der Administrator zuvor eine Ausnahme aus, speichert aber die Menge. Nachdem diese Korrektur angewendet wurde, wird für die ordnungsgemäße Ausnahme `0 percentage` mit einer Meldung ausgelöst. <!--ACP2E-1742-->
 
-![Korrektur des Fehlers](../assets/fix.svg) <!--ACP2E-1742-->Zuvor löste der Administrator beim Versand eines Kundenangebots mit 0 Prozent und der Mengenänderung eine Ausnahme aus, aber die Menge wurde gespeichert. Nachdem diese Korrektur angewendet wurde, wird für die ordnungsgemäße Ausnahme `0 percentage` mit einer Meldung ausgelöst.
+- Während der Preisverhandlungen kann ein Verkäufer nun im Feld Rabatt für verhandelte Angebote einen `0%` Rabatt angeben und das Angebot an den Käufer zurücksenden. Wenn der Verkäufer zuvor einen Rabatt von 0 % eingegeben und das Angebot an den Käufer zurückgesendet hat, hat der Administrator eine Fehlermeldung vom Typ `Exception occurred during quote sending` zurückgegeben. <!--ACP2E-1742-->
 
-![Korrektur des Fehlers](../assets/fix.svg) <!--ACP2E-1742-->Während der Preisverhandlungen kann ein Verkäufer jetzt einen `0%` Rabatt im Feld Rabatt für verhandelte Zitate angeben und das Angebot an den Käufer zurücksenden. Wenn der Verkäufer zuvor einen Rabatt von 0 % eingegeben und das Angebot an den Käufer zurückgesendet hat, hat der Administrator eine Fehlermeldung vom Typ `Exception occurred during quote sending` zurückgegeben.
+- Die ReCaptcha-Validierung funktioniert jetzt beim Checkout-Prozess für ein B2B-Angebot ordnungsgemäß, wenn ReCaptcha V3 für den Storefront-Checkout konfiguriert ist. Zuvor schlug die Validierung mit der Fehlermeldung `recaptcha validation failed, please try again` fehl.  <!--ACP2E-2097-->
 
-![Korrektur des Fehlers](../assets/fix.svg) <!--ACP2E-2097-->Die ReCaptcha-Validierung funktioniert jetzt beim Checkout-Prozess für ein B2B-Zitat ordnungsgemäß, wenn ReCaptcha V3 für den Storefront-Checkout konfiguriert ist. Zuvor schlug die Validierung mit der Fehlermeldung `recaptcha validation failed, please try again` fehl.
+### Bestellungen
 
 ![Korrektur des Problems](../assets/fix.svg) <!--ACP2E-1825-->Bestellungen können nicht mehr von einem mit dem Unternehmen verknüpften Benutzer aufgegeben werden, nachdem das Unternehmen blockiert wurde. Zuvor konnte ein mit dem Unternehmen verbundener Benutzer Bestellungen aufgeben, wenn das Unternehmen blockiert wurde.
-
-![Korrektur des Problems](../assets/fix.svg)<!--ACP2E-1933-->Unternehmensadministratoren können jetzt Unternehmensbenutzer aus dem Storefront hinzufügen. Zuvor hat Commerce einen Fehler protokolliert, wenn ein Admin-Benutzer versucht hat, einen neuen Benutzer hinzuzufügen: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
 ## B2B v1.4.2-p3
 

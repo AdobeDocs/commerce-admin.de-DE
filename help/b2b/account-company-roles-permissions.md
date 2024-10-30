@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über Rollen und Berechtigungen, die ein Unterneh
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
 feature: B2B, Companies, Roles/Permissions
 role: Admin
-source-git-commit: 03d1892799ca5021aad5c19fc9f2bb4f5da87c76
+source-git-commit: bad59798a1a6d97826dc421fe8614ef511e067bd
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -89,40 +89,9 @@ Das System verfügt über eine vordefinierte Standardbenutzerrolle, die Sie _wie
 
 ## Rollenberechtigungen
 
-- Alle
-   - Vertrieb
-      - Auschecken zulassen (Reihenfolge festlegen)
-         - Methode &quot;Pay On Account&quot;verwenden
-      - Bestellungen anzeigen
-         - Anzeigen von Bestellungen untergeordneter Benutzer
-- Anführungszeichen
-   - Ansicht
-      - Anfrage, Bearbeiten, Löschen
-      - Checkout mit Anführungszeichen
-      - Anzeigen von Anführungszeichen untergeordneter Benutzer
-- Bestellgenehmigungen
-   - Meine Kaufaufträge anzeigen
-      - Anzeigen für Untergeordnete
-      - Anzeigen für alle Unternehmen
-   - Automatische Genehmigung von in dieser Rolle erstellten EOs
-   - Kaufaufträge ohne andere Genehmigungen genehmigen
-   - Anzeigen von Genehmigungsregeln
-      - Erstellen, Bearbeiten und Löschen
-- Firmenprofil
-   - Kontoinformationen (Ansicht)
-      - Bearbeiten
-   - Anschrift
-      - Bearbeiten
-   - Kontakte (Ansicht)
-   - Zahlungsinformationen (Ansicht)
-   - Versandinformationen (Ansicht)
-- Benutzerverwaltung in Unternehmen
-   - Rollen und Berechtigungen anzeigen
-      - Rollen und Berechtigungen verwalten
-   - Benutzer und Teams anzeigen
-      - Benutzer und Teams verwalten
-- Firmenguthaben
-   - Ansicht
+Unternehmensadministratoren können die Berechtigungskonfiguration für eine Rolle aktualisieren, indem sie den Wert [!UICONTROL Edit action] auswählen und dann Berechtigungen in der Liste **Rollenberechtigungen** auswählen oder entfernen.
+
+![Rollen und Berechtigungsliste](./assets/role-permissions-list.png){width="700" zoomable="yes"}
 
 ## Zuweisen einer Rolle zu einem Unternehmensbenutzer
 
