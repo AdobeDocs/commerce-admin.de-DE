@@ -3,9 +3,9 @@ title: '[!DNL Page Builder] Exemplarische Vorgehensweise: Teil 2: Blöcke'
 description: Erfahren Sie mehr über den Unterschied zwischen einfachen und dynamischen Bausteinen bei Verwendung von  [!DNL Page Builder].
 exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
-source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
+source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2054'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Bei dieser Übung wird davon ausgegangen, dass Sie [Teil 1: Einfache Seite](1-si
 
 >[!NOTE]
 >
->Diese exemplarischen Vorgehensweisen werden aktualisiert, um die jüngsten Änderungen am Arbeitsbereich [!DNL Page Builder] in Version 2.4.1 widerzuspiegeln. Wenn Sie eine frühere Adobe Commerce-Version verwenden, verwenden Sie die im [[!DNL Commerce] 2.3 Benutzerhandbuch](https://docs.magento.com/user-guide/v2.3/cms/page-builder-learn.html) enthaltenen [!DNL Page Builder] Übungen.
+>Diese exemplarischen Vorgehensweisen werden aktualisiert, um die jüngsten Änderungen am Arbeitsbereich [!DNL Page Builder] in Version 2.4.1 widerzuspiegeln.
 
 ## Teil 1: Erstellen eines einfachen Blocks
 
