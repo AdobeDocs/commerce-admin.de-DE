@@ -1,21 +1,17 @@
 ---
 title: WYSIWYG Editor
-description: Erfahren Sie, wie Sie den Editor verwenden und mit Inhalten in der Ansicht _What You See Is What You Get_ (WYSIWYG) arbeiten.
+description: Erfahren Sie, wie Sie den Editor verwenden und mit Inhalten in einer _What You See Is What You Get_ (WYSIWYG)-Ansicht arbeiten.
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 3cc17d79762d1a67c5329bc1971169f0e7cf5090
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
 # WYSIWYG Editor
 
-Der Editor bietet Ihnen die Möglichkeit, während der Arbeit in einer Ansicht _Was Sie sehen ist was Sie erhalten_ (WYSIWYG) des Inhalts eingeben und formatieren zu können. Wenn Sie es vorziehen, direkt mit dem zugrunde liegenden HTML-Code zu arbeiten, können Sie die Modi einfach ändern. Mit dem Editor können Inhalte für [Seiten](pages.md), [Blöcke](blocks.md) und [Produktbeschreibungen](../catalog/product-content.md) erstellt werden. Wenn Sie an Produktdetails arbeiten, greifen Sie auf den Editor zu, indem Sie auf **[!UICONTROL Show / Hide Editor]** klicken.
-
->[!NOTE]
->
->TinyMCE 5 ist der standardmäßige WYSIWYG-Editor. Durch ein Update der TinyMCE 5.10-Bibliothek in Adobe Commerce und Magento Open Source 2.4.5 wurde eine Sicherheitslücke behoben, die eine beliebige Ausführung von JavaScript bei der Aktualisierung eines Bildes oder Links mit einigen URL-Typen ermöglichte. TinyMCE 3 wurde in Version 2.4.0 eingestellt und in Version 2.4.3 entfernt. TinyMCE 4 wurde in Version 2.4.4 entfernt.
+Der Editor bietet Ihnen die Möglichkeit, während der Arbeit in einer _What You See Is What You Get_ (WYSIWYG)-Ansicht des Inhalts ein- und zu formatieren. Wenn Sie es vorziehen, direkt mit dem zugrunde liegenden HTML-Code zu arbeiten, können Sie die Modi einfach ändern. Mit dem Editor können Inhalte für [Seiten](pages.md), [Blöcke](blocks.md) und [Produktbeschreibungen](../catalog/product-content.md) erstellt werden. Wenn Sie an Produktdetails arbeiten, greifen Sie auf den Editor zu, indem Sie auf **[!UICONTROL Show / Hide Editor]** klicken.
 
 ![Editor-Symbolleiste](./assets/editor-toolbar.png){width="700" zoomable="yes"}
 
@@ -28,7 +24,7 @@ Die folgenden Themen enthalten detaillierte Informationen zur Verwendung des Edi
 
 ## Konfigurieren des Editors
 
-Der WYSIWYG-Editor ist standardmäßig aktiviert und kann zum Bearbeiten von Inhalten auf CMS-Seiten und -Blöcken sowie in Produkten und Kategorien verwendet werden. In der Konfiguration können Sie den Editor aktivieren oder deaktivieren und festlegen, dass anstelle von [dynamisch](../catalog/catalog-urls.md#dynamic-url) statische URLs für Medieninhalte in Produkt- und Kategoriebeschreibungen verwendet werden.
+Der WYSIWYG-Editor ist standardmäßig aktiviert und kann zum Bearbeiten von Inhalten auf CMS-Seiten und -Bausteinen sowie in Produkten und Kategorien verwendet werden. In der Konfiguration können Sie den Editor aktivieren oder deaktivieren und festlegen, dass anstelle von [dynamisch](../catalog/catalog-urls.md#dynamic-url) statische URLs für Medieninhalte in Produkt- und Kategoriebeschreibungen verwendet werden.
 
 ![WYSIWYG-Optionen](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
 
