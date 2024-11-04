@@ -3,9 +3,9 @@ title: Lokalisierung speichern
 description: Erfahren Sie, wie Sie eine Store- oder Store-Ansicht lokalisieren.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Der Großteil des Texts, der auf Seiten in Ihrem Store hartcodiert zu sein scheint, kann sofort in eine andere Sprache geändert werden, indem das Gebietsschema der Ansicht geändert wird. Das Ändern des Gebietsschemas übersetzt den Text nicht wörtlich, sondern verweist einfach auf eine andere Übersetzungstabelle, die den im gesamten Speicher verwendeten Schnittstellentext bereitstellt. Der Text, der geändert werden kann, umfasst Navigationstitel, Beschriftungen, Schaltflächen und Links wie _Mein Warenkorb_ und _Mein Konto_. Sie können auch das Tool [Inline-Übersetzung](../configuration-reference/advanced/developer.md) verwenden, um Text in der Benutzeroberfläche zu berühren.
 
-Sprachpakete finden Sie unter [Übersetzungen und Lokalisierung][1]{:target=&quot;_blank&quot;} auf dem Commerce Marketplace. Neue Erweiterungen werden fortlaufend zu Marketplace hinzugefügt. Überprüfen Sie daher häufig.
+Sprachpakete finden Sie unter [Übersetzungen und Lokalisierung][1]{:target="_blank"} auf dem Commerce Marketplace. Neue Erweiterungen werden fortlaufend zu Marketplace hinzugefügt. Überprüfen Sie daher häufig.
 
 ## Schritt 1: Installieren eines Sprachpakets
 
@@ -46,11 +46,9 @@ Befolgen Sie die Standardanweisungen zum Installieren der Sprachpack-Erweiterung
 
 1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Setzen Sie oben links **[!UICONTROL Store View]** auf die spezifische Ansicht, auf die die Konfiguration angewendet werden soll.
+1. Wählen Sie im Dropdown-Menü **[!UICONTROL Scope]** die zu konfigurierende Store-Ansicht aus und klicken Sie auf **[!UICONTROL OK]** , wenn Sie dazu aufgefordert werden.
 
-1. Wenn Sie aufgefordert werden, den Perimeterwechsel zu bestätigen, klicken Sie auf **[!UICONTROL OK]**.
-
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Locale Options]** .
+1. Erweitern Sie auf der Konfigurationsseite *[!UICONTROL General]* den Abschnitt ![Erweiterungsauswahl](../assets/icon-display-expand.png) für den Abschnitt **[!UICONTROL Locale Options]**.
 
 1. Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use Website]** und stellen Sie **[!UICONTROL Locale]** auf die Sprache ein, die Sie der Ansicht zuweisen möchten.
 
