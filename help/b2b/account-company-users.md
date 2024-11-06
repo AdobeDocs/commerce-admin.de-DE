@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über Unternehmensbenutzerkonten und deren Funkti
 exl-id: 36b55f61-e579-4eb8-8f67-0156221d378e
 feature: B2B, Companies, User Account, Storefront
 role: Admin, User
-source-git-commit: fec72b792cf3149c05803874795c45f9f4e28673
+source-git-commit: 9c16d7a3909598328cc42bbcbf39fc14ae6a9eb9
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Unternehmensbenutzer können nur vom Unternehmensadministrator hinzugefügt, bea
    - Fügt die Benutzerinformationen in den übrigen Feldern hinzu:
       - **[!UICONTROL First Name]** und **[!UICONTROL Last Name]**
       - **[!UICONTROL Email]**
-      - **[!UICONTROL Phone Number]**
+      - **[!UICONTROL Work Phone Number]**
 
    Standardmäßig ist die **[!UICONTROL Status]** des Kontos `Active`.
 
@@ -103,7 +103,7 @@ Unternehmensadministratoren können Profilinformationen zu Benutzerkonten aktual
 
 >[!NOTE]
 >
->Wenn Sie ein Unternehmensbenutzerkonto bearbeiten und feststellen, dass dem Profil die erforderlichen Kontoinformationen wie die Berufsbezeichnung und die Telefonnummer fehlen, zeigt dies an, dass das Konto von einem Commerce-Site-Administrator hinzugefügt wurde. Diese Konten können nicht über die Storefront bearbeitet werden. Wenden Sie sich an Ihren Site-Administrator, um Informationen zu aktualisieren oder den Kontostatus zu ändern.
+>Wenn Sie ein Unternehmensbenutzerkonto bearbeiten und feststellen, dass dem Profil die erforderlichen Kontoinformationen wie z. B. die Berufsbezeichnung und die Telefonnummer fehlen, deutet dies darauf hin, dass das Konto von einem Commerce-Site-Administrator hinzugefügt wurde. Diese Konten können nicht über die Storefront bearbeitet werden. Wenden Sie sich an Ihren Site-Administrator, um Informationen zu aktualisieren oder den Kontostatus zu ändern.
 
 ### Deaktivieren oder Löschen eines aktiven Kontos
 
@@ -120,13 +120,13 @@ Unternehmensadministratoren können Profilinformationen zu Benutzerkonten aktual
 ## Feldbeschreibungen für das Profil von Unternehmensbenutzern
 
 | Feld | Beschreibung |
-|--------------|---------------|
+|--------------------------------|---------------|
 | [!UICONTROL Job Title] | Die Berufsbezeichnung des Unternehmensbenutzers. |
 | [!UICONTROL User Role] | Die dem Unternehmensbenutzer zugewiesene [Rolle](account-company-roles-permissions.md). Optionen: `Default User` / (andere Rollen) |
 | [!UICONTROL First Name] | Der Vorname des Unternehmensbenutzers. |
 | [!UICONTROL Last Name] | Der Nachname des Unternehmensbenutzers. |
 | [!UICONTROL Email] | Die E-Mail-Adresse des Unternehmensbenutzers. |
-| [!UICONTROL Phone Number] | Die Telefonnummer des Unternehmensbenutzers. |
+| [!UICONTROL Work Phone Number] | Die geschäftliche Telefonnummer des Unternehmensbenutzers. |
 | [!UICONTROL Status] | Der Status des Unternehmensbenutzerkontos. Optionen: `Active` / `Inactive` |
 
 {style="table-layout:auto"}
