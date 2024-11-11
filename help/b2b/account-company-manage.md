@@ -3,9 +3,9 @@ title: Verwalten von Unternehmenskonten
 description: Erfahren Sie, wie Sie Unternehmenskonten für Ihren Adobe Commerce-Store mithilfe der Seite "Unternehmen"und der im Raster verfügbaren Tools verwalten.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
+source-git-commit: d930c2294f0313cfa36d81c8a153b3cb35183f85
 workflow-type: tm+mt
-source-wordcount: '2706'
+source-wordcount: '2726'
 ht-degree: 0%
 
 ---
@@ -256,6 +256,7 @@ Die folgenden Abschnitte enthalten eine Referenz zu den verfügbaren Aktionen, O
 | [!UICONTROL Outstanding Balance] | Der ausstehende Saldo des Unternehmensabschlusses. die Spalte ist leer, wenn das Unternehmen keinen Kreditverlauf hat und sein Kreditlimit null ist. |
 | [!UICONTROL Company Admin] | Der Vor- und Nachname des Unternehmensadministrators. |
 | [!UICONTROL Job Title] | Die Berufsbezeichnung des Unternehmensadministrators. |
+| [!UICONTROL Work Phone Number] | Die Telefon-Nummer des Unternehmensadministrators. |
 | [!UICONTROL Email] | Die E-Mail-Adresse des Unternehmensadministrators. |
 | [!UICONTROL Action] | **[!UICONTROL Edit]** - Öffnet das Unternehmenskonto im Bearbeitungsmodus. |
 
@@ -347,9 +348,10 @@ Die folgenden Spalten sind verfügbar, indem Sie das [Spaltenlayout](../getting-
 #### [!UICONTROL Company Admin]
 
 | Feld | Beschreibung |
-|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Website] | Legen Sie den [Website-Umfang](../getting-started/websites-stores-views.md) für das Unternehmenskonto fest. Die Standardeinstellung ist *[!UICONTROL Main Website]*. |
 | [!UICONTROL Job Title] | Der Titel des Unternehmensadministrators, der das Unternehmenskonto verwaltet. |
+| [!UICONTROL Work Phone Number] | Die Telefonnummer des Unternehmensadministrators, der das Unternehmenskonto verwaltet. |
 | [!UICONTROL Email] | Die E-Mail-Adresse des Unternehmensadministrators kann mit der E-Mail-Adresse des Unternehmens übereinstimmen. Wenn eine andere E-Mail-Adresse angegeben wird, wird zusätzlich zum Unternehmenskonto ein eigenes Konto für den Unternehmensadministrator erstellt. |
 | [!UICONTROL Prefix] | Gegebenenfalls das Präfix, das mit dem Namen des Unternehmensadministrators verknüpft ist (z. B. `Mr.`, `Ms.`, `Mrs.` oder `Dr.`). Je nach Konfiguration kann das Eingabefeld ein Textfeld oder eine Liste sein. |
 | [!UICONTROL First Name] | Der Vorname des Unternehmensadministrators. |
