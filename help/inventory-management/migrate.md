@@ -3,7 +3,7 @@ title: '[!DNL Commerce] upgrades'
 description: Erfahren Sie, wie sich Aktualisierungen von Adobe Commerce und Magento Open Source auf Katalog- und [!DNL Inventory Management] Konfigurationen auswirken.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 392d8550741fe6fca3ea1301575c9ebb5e2483bd
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -72,5 +72,5 @@ Sie können [!DNL Inventory Management] -Module deaktivieren, um:
 
 Vollständige Informationen finden Sie unter [Installieren und Aktualisieren](install-update.md).
 
-[1]: https://omsdocs.magento.com/
-[2]: https://omsdocs.magento.com/en/getting-started/feature-list/
+[1]: https://commerce-docs.github.io/oms-documentation-archive/
+[2]: https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/
