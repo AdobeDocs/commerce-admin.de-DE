@@ -3,9 +3,9 @@ title: PayPal Payflow Pro
 description: Erfahren Sie, wie Sie PayPal Payflow Pro als Online-Zahlungslösung in Ihrem Geschäft einrichten.
 exl-id: c720b33c-44e1-4954-b5be-38932393a43c
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
@@ -136,8 +136,8 @@ Bei dieser Einrichtungsmethode wird davon ausgegangen, dass Sie über ein vorhan
 1. Geben Sie eine der folgenden Anmeldedaten ein, mit denen Sie sich bei Ihrem PayPal-Handelskonto anmelden:
 
    - **[!UICONTROL Partner]** - Ihre PayPal-Partner-ID.
-   - **[!UICONTROL User]** - Die ID eines anderen Benutzers, der in Ihrem PayPal-Konto eingerichtet ist.
-   - **[!UICONTROL Vendor]** - Ihr Name für die PayPal-Benutzeranmeldung.
+   - **[!UICONTROL User]** - Wenn Sie einen oder mehrere zusätzliche Benutzer für das Konto einrichten, ist dieser Wert die ID des Benutzers, der zur Verarbeitung von Transaktionen berechtigt ist. Wenn Sie jedoch keine zusätzlichen Benutzer eingerichtet haben, hat **[!UICONTROL USER]** denselben Wert wie **[!UICONTROL Vendor]**.
+   - **[!UICONTROL Vendor]** - Ihre Merchant-Anmelde-ID, die erstellt wurde, als Sie sich für das Konto registriert haben.
 
 1. Geben Sie die **[!UICONTROL Password]** ein, die mit Ihrem PayPal-Konto verknüpft ist.
 

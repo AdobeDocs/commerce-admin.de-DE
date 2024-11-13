@@ -3,16 +3,16 @@ title: E-Mail-Vorlagen anpassen
 description: Erfahren Sie, wie Sie E-Mail-Vorlagen für jede Website-, Store- oder Store-Ansicht anpassen können.
 exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
 
 # E-Mail-Vorlagen anpassen
 
-Commerce enthält eine Standard-E-Mail-Vorlage für den Hauptteil jeder vom System gesendeten Nachricht. Die Vorlage für den Textinhalt wird mit der Kopf- und Fußzeilenvorlage kombiniert, um die gesamte Nachricht zu erstellen. Der Inhalt ist mit HTML und CSS formatiert und kann einfach bearbeitet und angepasst werden, indem [Variablen](variables-predefined.md) und [Widgets](../content-design/widgets.md) hinzugefügt werden. E-Mail-Vorlagen können für jede Website-, Store- oder Store-Ansicht angepasst werden. Achten Sie bei Verwendung benutzerdefinierter Vorlagen darauf, die [Systemkonfiguration](email-templates.md#configure-email-templates) zu aktualisieren, um sicherzustellen, dass die richtige Vorlage verwendet wird.
+Commerce enthält eine Standard-E-Mail-Vorlage für den Hauptteil jeder vom System gesendeten Nachricht. Die Vorlage für den Textinhalt wird mit der Kopf- und Fußzeilenvorlage kombiniert, um die gesamte Nachricht zu erstellen. Der Inhalt ist mit HTML und CSS formatiert und kann einfach bearbeitet und angepasst werden, indem [Variablen](variables-predefined.md) hinzugefügt werden. E-Mail-Vorlagen können für jede Website-, Store- oder Store-Ansicht angepasst werden. Achten Sie bei Verwendung benutzerdefinierter Vorlagen darauf, die [Systemkonfiguration](email-templates.md#configure-email-templates) zu aktualisieren, um sicherzustellen, dass die richtige Vorlage verwendet wird. Informationen dazu, wie Sie bedingte Anweisungen beim Anpassen der E-Mail-Vorlage verwenden können, finden Sie in der [Entwicklerdokumentation](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1) .
 
 ![Beispiel - Begrüßungs-E-Mail-Vorschau](./assets/email-template-preview.png){width="500" zoomable="yes"}
 
