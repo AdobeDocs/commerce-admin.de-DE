@@ -2,7 +2,7 @@
 title: Bestände und Quellen
 description: Lernen Sie die Beziehungen zwischen Produkten, Quellen und Lagern kennen.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -65,4 +65,4 @@ Die folgenden Optionen sind wichtig, um [!DNL Inventory Management] zu verstehen
 
 Sehen Sie sich dieses Video an, um mehr über Inventory management-Quellen und -Lager zu erfahren:
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)

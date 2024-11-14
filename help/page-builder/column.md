@@ -3,7 +3,7 @@ title: Layout - Spalte
 description: Erfahren Sie mehr über den Inhaltstyp Spalte , der verwendet wird, um eine Seite in mehrere Spalten in der Phase [!DNL Page Builder] zu unterteilen.
 exl-id: 9701e1b5-3584-4602-9512-051567274f21
 feature: Page Builder, Page Content
-source-git-commit: 63b620f2af106108c672a9a91cb66923c5231c53
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Sie können das Layout des Containers [!DNL Columns] ändern, indem Sie eine Spa
 
 In diesem Video erfahren Sie, wie Sie mit dem Container [!DNL Columns] die Seitenlayouts verfeinern können:
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
 
 ## Spalten-Toolbox
 

@@ -3,7 +3,7 @@ title: Inhaltstaging
 description: Das Content Staging bietet Ihrem Business-Team die Möglichkeit, direkt vom Administrator aus eine Vielzahl von Inhaltsaktualisierungen für Ihren Store zu erstellen, in der Vorschau anzuzeigen und zu planen.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: 0ceb61e6f1629a3bef16c550362c1db25b4aefa5
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Das [!UICONTROL Content Staging] [Dashboard](content-staging-dashboard.md) biete
 
 Sehen Sie sich dieses Video an, um mehr über Content Staging zu erfahren:
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
 
 ## Fehlerbehebung bei Ressourcen
 

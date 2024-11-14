@@ -3,7 +3,7 @@ title: Erstellen einer Katalogpreisregel
 description: Erfahren Sie, wie Sie eine Katalogpreisregel erstellen, die einen Rabatt auf bestimmte Produkte anwendet, sobald eine Reihe von Bedingungen erfüllt ist.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 0f26e981a1ba5bffb1acdeeb4320415772826aba
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 0%
@@ -224,7 +224,7 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. La
 
 Sehen Sie sich dieses Video an, um mehr über das Erstellen von Katalogpreisregeln zu erfahren:
 
->[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Feldbeschreibungen
 

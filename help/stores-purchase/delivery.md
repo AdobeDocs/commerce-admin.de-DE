@@ -3,9 +3,9 @@ title: Versand und Lieferung
 description: Erfahren Sie mehr über die Unterstützung verschiedener Versandmethoden und Versandunternehmen, die Sie Ihren Kunden anbieten können.
 exl-id: 79fce11c-d45d-4176-94ac-80261c65b7ad
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Studien zeigen, dass Geschäfte, die Kunden eine Auswahl verschiedener Bereitste
 
 >[!NOTE]
 >
->Aufgrund des Herunterfahrens von Temando wird die Unterstützung für [!DNL Magento Shipping] in Version 2.4.0 entfernt. Detaillierte Statusinformationen und Empfehlungen für neue Versandimplementierungen in Commerce finden Sie auf der Seite [Produktinformationen](https://business.adobe.com/products/magento/shipping.html){:target=&quot;_blank&quot;}.
+>Aufgrund des Herunterfahrens von Temando wird die Unterstützung für [!DNL Magento Shipping] in Version 2.4.0 entfernt. Detaillierte Statusinformationen und Empfehlungen für neue Versandimplementierungen in Commerce finden Sie auf der Seite [Produktinformationen](https://business.adobe.com/products/magento/shipping.html){:target="_blank"} .
 
 ## Grundlegende Versandmethoden
 
@@ -40,4 +40,4 @@ Wenn Sie über ein kommerzielles Konto mit einem oder mehreren [unterstützten B
 
 In diesem Video erfahren Sie mehr über Versandmethoden und Versandmethoden:
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)

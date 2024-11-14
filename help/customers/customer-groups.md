@@ -3,7 +3,7 @@ title: Kundengruppen
 description: Verwenden Sie Kundengruppen, um zu bestimmen, welche Rabatte für Kunden verfügbar sind, die einer Gruppe zugewiesen sind, und die mit der Gruppe verbundene Steuerklasse.
 exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
-source-git-commit: c2fd228311a4b990be9c1409d2cdd2b5677fe2af
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -110,4 +110,4 @@ Kundengruppen bestimmen, welche Rabatte verfügbar sind und welche Steuerklasse 
 
 In dieser Demo erfahren Sie mehr über die Erstellung von Kundengruppen:
 
->[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)

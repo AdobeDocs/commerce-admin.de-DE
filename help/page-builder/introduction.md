@@ -2,7 +2,7 @@
 title: Einführung in [!DNL Page Builder]
 description: Erfahren Sie mehr über die [!DNL Page Builder] Tools zur einfachen Inhaltserstellung in Adobe Commerce und Magento Open Source.
 exl-id: 2f71f910-4141-4fe5-bc0f-b891daeb8334
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -38,4 +38,4 @@ Unabhängig davon, ob Sie neu bei [!DNL Commerce] oder ein erfahrener Benutzer s
 
 Sehen Sie sich dieses Video an, um mehr über die Funktionen von Page Builder zu erfahren:
 
->[!VIDEO](https://video.tv.adobe.com/v/343781?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343781?quality=12&learn=on)

@@ -3,7 +3,7 @@ title: Bestellworkflow und -verarbeitung
 description: Erfahren Sie mehr über den Auftrags-Workflow, den Status, der bei jedem Schritt angewendet wird, und wie Sie Bestellungen durch diesen Prozess bewegen können.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 0%
@@ -230,4 +230,4 @@ Gehen Sie im Abschnitt **[!UICONTROL Order Total]** wie folgt vor:
 
 Sehen Sie sich dieses Video an und erfahren Sie mehr über die Auftragsverarbeitung und den Status:
 
->[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

@@ -2,7 +2,7 @@
 title: Einführung in Stores und Kauferlebnisse
 description: Erfahren Sie mehr über die Funktionen, mit denen Sie Ihre Online-Stores erstellen und verwalten können, sowie über die Einkaufserfahrung für Ihre Kunden.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Kunden benötigen manchmal Hilfe, um einen Kauf abzuschließen. Einige Kunden ka
 
 In diesem Video erfahren Sie mehr über den von Verkäufern unterstützten Einkauf:
 
->[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
 
 ## Auftragsverwaltung und -vorgänge
 

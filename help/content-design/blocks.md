@@ -2,7 +2,7 @@
 title: Inhaltsbausteine
 description: Ein Block kann verwendet werden, um feste Informationen wie Text, Bilder, eingebettete Videos und dynamische Informationen anzuzeigen.
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -21,6 +21,6 @@ Sie können benutzerdefinierte Inhaltsbausteine erstellen, ohne Code zu schreibe
 
 In diesem Video erfahren Sie mehr über statische und [dynamische Bausteine](dynamic-blocks.md):
 
->[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
 
 [1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/

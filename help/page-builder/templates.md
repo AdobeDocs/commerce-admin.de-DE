@@ -3,7 +3,7 @@ title: '[!DNL Page Builder] Vorlagen'
 description: Erfahren Sie, wie Sie Ihren vorhandenen [!DNL Page Builder] Inhalt als Vorlage speichern und diese Vorlage dann auf einen anderen Bereich anwenden.
 exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
-source-git-commit: 06c8864e35dc37997bc26720ee9a95aff97f7987
+source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -91,4 +91,4 @@ Das Raster _Vorlage anwenden_ und das Seitenraster _Vorlagen_ bieten zwei Mögli
 
 Sehen Sie sich dieses Video an, um mehr über die Seitenaufbau-Inhaltsvorlagen zu erfahren:
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)
