@@ -2,13 +2,13 @@
 title: '[!UICONTROL My Quote Templates]'
 description: Erfahren Sie mehr über das Kundenerlebnis für Angebotsvorlagen, die im Dashboard des Storefront-Kontos verfügbar sind.
 feature: B2B, Companies, Quotes
-source-git-commit: c2cb4db24effa764996b0fb77fbda67727392efe
+exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
+source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
 
 ---
-
 
 # [!UICONTROL My Quote Templates]
 
@@ -114,7 +114,3 @@ Käufer können die folgenden Aktionen über ein verknüpftes Angebot ausführen
 Klicken Sie auf der Anführungsvorlagenseite auf **[!UICONTROL Cancel Quote Template]**.
 
 Die Anführungszeichenvorlage wird abgebrochen und der Anführungszeichenstatus wird in `Closed` geändert. Das geschlossene Anführungszeichen bleibt in Ihrer Liste mit *[!UICONTROL Inactive]* Anführungszeichen und bleibt im Raster _[!UICONTROL Quote Templates]_im Admin aufgeführt.
-
-
-
-
