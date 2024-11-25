@@ -3,9 +3,9 @@ title: Rechnungen
 description: Erfahren Sie, wie Sie Rechnungen erstellen und drucken können, um die Auftragsverarbeitung und den Kundendienst zu unterstützen.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -148,15 +148,5 @@ Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor eine Rechnung 
    ![Mehrere Rechnungen drucken](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 Die Rechnungen werden in einer einzigen PDF-Datei gespeichert, die an einen Drucker gesendet oder gespeichert werden kann.
-
-## Fehlerbehebung bei Ressourcen
-
-Hilfe zur Fehlerbehebung bei Rechnungsproblemen finden Sie in den folgenden Artikeln der _Commerce Support Knowledge Base_:
-
-- [Kann Bundle-Produkte nicht virtuell und einfach berechnen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-9/mdva-30889-magento-patch-can-t-invoice-bundle-products-virtual-and-simple.html)
-- [Rechnung ohne Store-Kreditinfo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-8/mdva-31150-magento-patch-invoice-without-store-credit-info.html)
-- [Die Steuer wird auf der Rechnung mit 100 % Rabatt angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-22/mdva-35773-tax-appears-on-invoice-with-100-discount.html)
-- [Bestellrechnungen werden nicht automatisch gesendet](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-13/mdva-32545-magento-patch-order-invoices-don-t-send-automatically.html)
-
 
 [1]: https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader abrufen"

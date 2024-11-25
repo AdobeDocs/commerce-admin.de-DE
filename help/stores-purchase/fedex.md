@@ -3,9 +3,9 @@ title: FedEx
 description: Erfahren Sie, wie Sie FedEx als Versandunternehmen für Ihr Geschäft einrichten.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ FedEx ist eines der weltweit größten Schifffahrtsunternehmen, das Luft-, Frach
 
 ## Schritt 1: Registrieren Sie sich für die FedEx Web Services Production.
 
-Ein [FedEx-Handelskonto][1] und eine Registrierung für den Zugriff auf die FedEx-Web-Services-Produktion sind erforderlich. Lesen Sie nach der Erstellung eines FedEx-Kontos die Seite mit den Produktionskontoinformationen und klicken Sie dann unten auf der Seite auf den Link _Produktionsschlüssel abrufen_ , um sich zu registrieren und einen Schlüssel zu erhalten.
+Ein FedEx-Handelskonto und eine Registrierung für den FedEx Web Services Production Access sind erforderlich. Lesen Sie nach der Erstellung eines FedEx-Kontos die Seite mit den Produktionskontoinformationen und klicken Sie dann unten auf der Seite auf den Link _Produktionsschlüssel abrufen_ , um sich zu registrieren und einen Schlüssel zu erhalten.
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Ein [FedEx-Handelskonto][1] und eine Registrierung für den Zugriff auf die FedE
    - Interne Optionen - Express Saver, Ground, First, Overnight, Home Delivery, Standard Übernachtung
    - Internationale Optionen - Internationale Wirtschaft, Intl Economy Freight, International First, International Ground, International, Priority Intl
    - Prioritätsoptionen - Fracht, Priorität - Übernachtung
-   - Smart Post - Wenn die Smart Post-Methode angeboten wird (geben Sie die **Hub-ID** ein)
+   - Smart Post-Wenn die Smart-Post-Methode anbietet (geben Sie die **Hub-ID** ein)
    - Frachtoptionen - Fracht, Nationaler Güterverkehr
 
 1. Wenn Sie über FedEx die Option [Free Shipping](shipping-free.md) bereitstellen möchten, legen Sie die kostenlosen Versandoptionen fest.
@@ -159,5 +159,3 @@ Ein [FedEx-Handelskonto][1] und eine Registrierung für den Zugriff auf die FedE
 >[!NOTE]
 >
 >Commerce meldet bei der Berechnung der Versandkosten immer den vollen Bestellpreis an FedEx. Dieses Verhalten kann nicht geändert werden.
-
-[1]: https://www.fedex.com/login/web/jsp/contactInfo1.jsp

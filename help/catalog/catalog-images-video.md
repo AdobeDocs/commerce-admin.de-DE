@@ -3,9 +3,9 @@ title: Katalogbilder und -video
 description: Erfahren Sie mehr über die Verwendung digitaler Medien zur Erweiterung Ihrer Katalogproduktseiten und zur Bereitstellung von Visualisierungen für Ihre Kunden.
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,6 @@ Es gibt viele Leuchtkästen und Regler von Drittanbietern, mit denen Sie die Pr�
 Hilfe zur Behebung von Bild- und Videoproblemen finden Sie in den folgenden Artikeln der Commerce-Support-Knowledge Base:
 
 - [Nach der Installation werden keine Bilder und Stylesheets geladen. Nur Text wird angezeigt, keine Grafiken](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-- [Probleme mit der Verwaltung von Produktbildern über die REST-API](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-5/mdva-28763-magento-patch-issues-with-managing-product-images-via-rest-api.html)
-- [Importieren Sie duplizierte .csv-Bilder von Produkten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-14/mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
+mdva-31969-magento-patch-import-products-.csv-images-duplicated.html)
 - [Produktbilder werden trotz der Bildrollen &quot;Produkt bearbeiten&quot;nicht angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
 - [Nach der Bereitstellung nicht angezeigte Bilder speichern](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)

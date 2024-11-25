@@ -4,9 +4,9 @@ description: Umfassende Informationen zu [!DNL Page Builder] für Adobe Commerce
 seo-title: Adobe Commerce [!DNL Page Builder] User Guide
 seo-description: Describes how to use the [!DNL Page Builder] module in Adobe Commerce or Magento Open Source.
 exl-id: 983ef3a8-b803-40ff-a9f5-07eb895df31c
-source-git-commit: fa4030d391fc9a3b21cf8fb6f681df9e9165157d
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,3 @@ Die Kernfunktionen von Adobe Commerce und Magento Open Source werden nicht abged
 Hilfe zur Fehlerbehebung bei [!DNL Page Builder] -Problemen finden Sie in den folgenden Artikeln der Support Knowledge Base:[!DNL Commerce]
 
 - [Leere Seite, wenn DotDigital [!DNL Page Builder] Formular gespeichert wurde](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)
-- [[!DNL Page Builder] lädt keine Mediensalerie](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-12/mdva-32133-magento-patch-page-builder-doesn-t-load-media-gallery.html)
-- [[!DNL Page Builder] Vorschau bricht den Produktpreis je nach Site ab](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-16/mdva-33453-page-builder-preview-breaks-product-price-differs-across-sites.html)
-- [Kann die Seite &quot;Begriffe&quot;nicht speichern](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-19/mdva-33614-magento-patch-can-t-save-terms-page.html)

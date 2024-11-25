@@ -3,9 +3,9 @@ title: Store-Details
 description: Erfahren Sie, wie Sie die grundlegenden Informationen für Ihren Store aktualisieren.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
@@ -170,7 +170,6 @@ Sie können auch den Versand an bestimmte Länder für jede verfügbare [Versand
 Hilfe zur Fehlerbehebung bei Problemen mit der Länderkonfiguration finden Sie in den folgenden Artikeln der Support Knowledge Base: [!DNL Commerce]
 
 - [Hinzufügen eines Landes](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
-- [Die bereitgestellte countryId ist nicht vorhanden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-15/mdva-33393-magento-patch-provided-countryid-does-not-exist.html)
 
 ## [!UICONTROL Merchant Location]
 
@@ -324,7 +323,7 @@ Die Luma-Beispieldaten enthalten einen Block _Contact Us Info_ , der für Ihren 
 
 >[!IMPORTANT]
 >
->Ab Version 2.4.0 kann das Kontaktformular nicht mehr in einem CMS-Block oder einer CMS-Seite aufrufen. Die Anpassung des Kontaktformulars sollte mit der Layout-XML oder benutzerdefinierten Designvorlagen erfolgen.
+>Ab Version 2.4.0 kann das Kontaktformular nicht mehr innerhalb eines CMS-Blocks oder einer CMS-Seite aufrufen. Die Anpassung des Kontaktformulars sollte mit der Layout-XML oder benutzerdefinierten Designvorlagen erfolgen.
 
 Standardmäßig greifen Käufer über den Link _Kontakt_ in der Fußzeile der Storefront-Seiten auf das Kontaktformular zu. Weitere Informationen zum Anpassen der Kontaktseite finden Sie im [Frontend-Entwicklerhandbuch][theme-guide].
 

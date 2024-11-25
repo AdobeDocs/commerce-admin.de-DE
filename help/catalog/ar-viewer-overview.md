@@ -2,7 +2,7 @@
 title: '[!DNL AR Viewer] für Adobe Commerce'
 description: Erfahren Sie, wie die [!DNL AR Viewer] Ihrer Adobe Commerce-Instanz zugute kommen könnte und wie Sie die Erweiterung erfolgreich integrieren und einrichten können.
 exl-id: 9f9f3ff3-2402-4f70-9fc7-031dd2bb3916
-source-git-commit: f84667a7bbc93504499279d77967796bcd11791c
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Die Erweiterung [!DNL AR Viewer] für Adobe Commerce bietet ein nahtloses Erlebn
 
 Die Informationen in diesem Handbuch geben einen Überblick über das Onboarding-Erlebnis für die [!DNL AR Viewer] in Adobe Commerce und darüber, wie die [!DNL AR Viewer] für den Benutzer von Vorteil ist, sowie über Best Practices, die für diese Journey gelten.
 
-[Universal Scene Description (USD)](https://www.pixar.com/usd){target=_blank} wurde von Pixar entwickelt und ist die erste Open-Source-Software, mit der 3D-Szenen, die aus vielen verschiedenen Assets, Quellen und Animationen bestehen können, robust und skalierbar ausgetauscht werden können. Gleichzeitig werden sehr kollaborative Workflows gefördert. Dieser USD wird in `.USDZ` -Dateien verwendet. Diese `.USDZ`-Datei stellt AR- und 3D-Inhalte für die Geräte des Benutzers bereit.
+[Universal Scene Description (USD)](https://openusd.org/release/index.html){target=_blank} wurde von Pixar entwickelt und ist die erste Open-Source-Software, mit der 3D-Szenen, die aus vielen verschiedenen Assets, Quellen und Animationen bestehen können, robust und skalierbar ausgetauscht werden können. Gleichzeitig werden sehr kollaborative Workflows gefördert. Dieser USD wird in `.USDZ` -Dateien verwendet. Diese `.USDZ`-Datei stellt AR- und 3D-Inhalte für die Geräte des Benutzers bereit.
 
 >[!NOTE]
 >

@@ -3,7 +3,7 @@ title: Freigabe eines [!DNL Commerce] Kontos
 description: Erfahren Sie, wie Sie anderen [!DNL Commerce] Kontoinhabern eingeschränkten Zugriff auf Ihr [!DNL Commerce] Konto gewähren.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 8f8cb141c79b8b5a57363faf7ec5c8f2e75bb473
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -91,11 +91,11 @@ Die folgenden Anweisungen werden aus der Perspektive eines freigegebenen Benutze
 
    ![Support](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   Sie können das [Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) aus dem freigegebenen Konto verwenden, um nach Artikeln und Informationen zur Fehlerbehebung zu suchen, Patches für bekannte Probleme zu finden und Support-Tickets zu erstellen.
+   Sie können das [Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) aus dem freigegebenen Konto verwenden, um nach Artikeln und Informationen zur Fehlerbehebung zu suchen, Patches für bekannte Probleme zu finden und Support-Tickets zu erstellen.
 
    >[!NOTE]
    >
-   >Nach Erhalt des freigegebenen Zugriffs muss sich der Benutzer bei seinem [[!DNL Commerce] Konto](https://account.magento.com/customer/account/login) anmelden, zu _Gemeinsamer Zugriff_ navigieren und auf die Registerkarte **[!UICONTROL Support]** klicken. Diese Aktion ist erstmalig erforderlich, um sicherzustellen, dass die [Wissensdatenbank des Adobe Commerce-Supports](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview.html) über den `SSO` -Aufruf ordnungsgemäß konfiguriert ist.
+   >Nach Erhalt des freigegebenen Zugriffs muss sich der Benutzer bei seinem [[!DNL Commerce] Konto](https://account.magento.com/customer/account/login) anmelden, zu _Gemeinsamer Zugriff_ navigieren und auf die Registerkarte **[!UICONTROL Support]** klicken. Diese Aktion ist erstmalig erforderlich, um sicherzustellen, dass die [Wissensdatenbank des Adobe Commerce-Supports](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) über den `SSO` -Aufruf ordnungsgemäß konfiguriert ist.
 
 1. Um zu Ihrem eigenen Konto zurückzukehren, klicken Sie in Ihren Browsersteuerelementen auf **Zurück** und legen Sie **[!UICONTROL Switch Accounts]** auf `My Account` fest.
 
@@ -113,11 +113,11 @@ Die folgenden Anweisungen werden aus der Perspektive eines freigegebenen Benutze
    > 
    > Wenn ja, bitten Sie den Kontoinhaber, das Konto für freigegebenen Zugriff zu ändern, um die Kontoberechtigungen zu löschen. Nach dieser Aktualisierung kann der Benutzer auf keine Kontoressourcen zugreifen.
    >
-   > Stellen Sie außerdem sicher, dass die Benutzer aus dem Projekt entfernt werden, damit sie keine E-Mail-Benachrichtigungen mehr erhalten: [Ehemalige Teammitglieder erhalten Adobe Commerce-Cloud-Benachrichtigungs-E-Mails ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+   > Stellen Sie außerdem sicher, dass die Benutzer aus dem Projekt entfernt werden, damit sie keine E-Mail-Benachrichtigungen mehr erhalten: [Ehemalige Teammitglieder erhalten Adobe Commerce-Cloud-Benachrichtigungs-E-Mails ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL Delete User]**.
 
 >[!NOTE]
 >
->Sie können Benutzer mit dem Freigabenamen _Freigegebener Cloud-Zugriff nicht von MAG[XYZ]_ in dieser Benutzeroberfläche löschen. Siehe [Wie lösche ich Benutzer, denen freigegebener Zugriff über ein Cloud-Projekt gewährt wurde?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#remove-cloud-shared-access-users).
+>Sie können Benutzer mit dem Freigabenamen _Freigegebener Cloud-Zugriff nicht von MAG[XYZ]_ in dieser Benutzeroberfläche löschen. Siehe [Wie lösche ich Benutzer, denen freigegebener Zugriff über ein Cloud-Projekt gewährt wurde?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting).

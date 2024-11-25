@@ -3,7 +3,7 @@ title: Bestellung erstellen
 description: Erfahren Sie, wie Sie in Commerce Admin eine Bestellung für einen Kunden erstellen.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Sie können Artikel aus der Wunschliste eines Kunden oder aus kürzlich angezeig
 
 >[!NOTE]
 >
->Weitere Informationen zu den Zahlungsmethoden, die diese Funktion unterstützen, wenn die Zahlungsdiensterweiterung installiert und konfiguriert ist, finden Sie im [Leitfaden für Zahlungsdienste](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/create-order.html) .
+>Weitere Informationen zu den Zahlungsmethoden, die diese Funktion unterstützen, wenn die Zahlungsdiensterweiterung installiert und konfiguriert ist, finden Sie im [Leitfaden für Zahlungsdienste](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) .
 
 ## Schritt 3: Bestellung absenden
 

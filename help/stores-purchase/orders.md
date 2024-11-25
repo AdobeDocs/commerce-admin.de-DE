@@ -3,9 +3,9 @@ title: Bestellungen
 description: Erfahren Sie mehr über den Arbeitsbereich "Bestellungen"und die Suchfunktionen, mit denen Bestellungen in Admin gefunden werden können.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,4 @@ Das Suchfeld oben links im Raster Bestellungen kann verwendet werden, um bestimm
 Hilfe zur Fehlerbehebung bei Bestellproblemen finden Sie in den folgenden Artikeln der Commerce Support Knowledge Base:
 
 - [Anzeigefehler der Bestellungen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
-- [PayPal doppelte Bestellungen 10415 Fehler](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.html)
-- [Neue Bestellungen werden an Archiv gesendet](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.html)
 - [Bestellungen werden nicht im Raster Bestellungen in Admin angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)
-- [Bestellstatus - über die REST-API erstellte falsche Sendung](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/v1-0-7/mdva-30972-magento-patch-order-status-incorrect-shipment-created-via-rest-api.html)

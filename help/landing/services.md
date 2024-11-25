@@ -3,7 +3,8 @@ title: Commerce SaaS-Dienste
 description: Erfahren Sie mehr über die verfügbaren Commerce SaaS-Dienste zur Erweiterung der Commerce-Storefront-Funktionen.
 seo-title: Commerce Services
 seo-description: Get an overview of available services that help Adobe Commerce merchants extend storefront capabilities to support key components of their business.
-source-git-commit: ab886855f087186bb1598ab4a780f49c15757c16
+exl-id: 2e673eb2-a90b-491a-b320-e9bd089d19f2
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Adobe bietet eine Sammlung von Commerce-Diensten, Integrationsdiensten und Daten
 
 ![Suche](../landing/assets/icon-magnify.svg){width="40"}**[Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)**: Implementieren Sie ein KI-gestütztes Suchwerkzeug, das intelligentere, schnellere und relevantere Ergebnisse für B2C-Käufer liefert.
 
-![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Product Recommendations](https://experienceleague.adobe.com/en/en/docs/commerce-merchant-services/product-recommendations/overview)**: Fügen Sie KI-gestützte Empfehlungen hinzu, die auf dem Kundenverhalten, beliebten Trends, der Produktähnlichkeit und mehr basieren.
+![ThumbsUp](../landing/assets/icon-thumbs-up.svg){width="40"}**[Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)**: Fügen Sie KI-gestützte Empfehlungen hinzu, die auf dem Kundenverhalten, beliebten Trends, der Produktähnlichkeit und mehr basieren.
 
 ![Katalogdaten für verbundene Dienste](../landing/assets/icon-data-book.svg){width="40"}**[Katalogdienst](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/overview)**- Geben Sie Ihren Kunden ein optimiertes Produkterlebnis, während Sie die Leistung steigern, die Skalierbarkeit verbessern und Konversionen steigern.
 

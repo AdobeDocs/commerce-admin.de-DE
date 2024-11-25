@@ -3,9 +3,9 @@ title: Steuerleitlinien nach Ländern
 description: Überprüfen Sie die empfohlenen Steuereinstellungen nach Land.
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Diese empfohlenen Einstellungen können für die meisten Steuerkonfigurationen f
 
 >[!IMPORTANT]
 >
->Händler in der Provinz GST/PST (Montreal) sollten eine Steuerregel erstellen und einen kombinierten Steuerbetrag anzeigen. Wenden Sie sich bei Fragen an eine qualifizierte Steuerbehörde. Weitere Informationen zu den steuerlichen Anforderungen bestimmter Provinzen finden Sie unter: [Revenu Québec][1], [Government of Saskatchewan][2] und [Manitoba Information für Anbieter][3]
+>Händler in der Provinz GST/PST (Montreal) sollten eine Steuerregel erstellen und einen kombinierten Steuerbetrag anzeigen. Wenden Sie sich bei Fragen an eine qualifizierte Steuerbehörde.
 
 | Steueroption | Empfehlung |
 |--- |--- |
@@ -411,14 +411,10 @@ Führen Sie die folgenden allgemeinen Steuereinstellungen aus:
 
       - Standardland
       - Standardstatus
-      - Post-Standardcode
+      - Standard-Postleitzahl
 
      Diese Einstellung stellt sicher, dass die Steuer korrekt berechnet wird, wenn die Produktpreise die Steuer enthalten.
 
      ![Berechnung des steuerlichen Ziels ](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
 1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
-
-[1]: https://www.revenuquebec.ca/en/businesses/
-[2]: https://www.saskatchewan.ca/finance
-[3]: https://www.gov.mb.ca/finance/taxation/bulletins/004.pdf
