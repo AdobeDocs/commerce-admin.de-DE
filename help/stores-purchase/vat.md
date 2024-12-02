@@ -1,6 +1,6 @@
 ---
 title: Mehrwertsteuer (MwSt)
-description: '&lt;Beschreibung hier hinzufügen&gt;'
+description: hier hinzufügen&gt;
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7

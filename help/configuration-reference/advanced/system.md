@@ -153,10 +153,10 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Systems
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Global | Bestimmt, ob die Commerce-Instanz Backups zulässt. Optionen: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Global | (Wird angezeigt, wenn _[!UICONTROL Enable Backup]_auf `Yes` gesetzt ist.) Bestimmt, ob die Commerce-Instanz automatisch nach einem regulären Zeitplan gesichert wird. Optionen: `Yes` / `No` |
-| [!UICONTROL Scheduled Backup Type] | Global | (Wird angezeigt, wenn _[!UICONTROL Enable Scheduled Backup]_auf `Yes` gesetzt ist.) Bestimmt die Elemente der Commerce-Instanz, die im Backup enthalten sind. Optionen: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | Global | (Wird angezeigt, wenn [!UICONTROL Enable Scheduled Backup] auf `Yes` gesetzt ist.) Gibt die Stunde, Minute und Sekunde an, in der die geplante Sicherung beginnt. |
-| [!UICONTROL Frequency] | Global | (Wird angezeigt, wenn [!UICONTROL Enable Scheduled Backup] auf `Yes` gesetzt ist.) Bestimmt, wie oft die geplante Sicherung stattfindet. Optionen: `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Wird angezeigt, wenn _[!UICONTROL Enable Backup]_auf `Yes` gesetzt ist.) Stellt fest, ob die Commerce-Instanz automatisch in einem regelmäßigen Zeitplan gesichert wird. Optionen: `Yes` / `No` |
+| [!UICONTROL Scheduled Backup Type] | Global | (Wird angezeigt, wenn _[!UICONTROL Enable Scheduled Backup]_auf `Yes` gesetzt ist.) Bestimmt die Elemente der Commerce-Instanz, die in der Sicherung enthalten sind. Optionen: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
+| [!UICONTROL Start Time] | Global | (Wird angezeigt, wenn [!UICONTROL Enable Scheduled Backup] auf `Yes` gesetzt ist.) Gibt die Stunde, die Minute und die Sekunde an, in der die geplante Sicherung beginnt. |
+| [!UICONTROL Frequency] | Global | (Wird angezeigt, wenn [!UICONTROL Enable Scheduled Backup] auf `Yes` gesetzt ist.) Bestimmt, wie oft das geplante Backup durchgeführt wird. Optionen: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL Maintenance Mode] | Global | (Wird angezeigt, wenn [!UICONTROL Enable Scheduled Backup] auf `Yes` gesetzt ist.) Bestimmt, ob der Speicher während der geplanten Sicherung in den Wartungsmodus versetzt wird. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
