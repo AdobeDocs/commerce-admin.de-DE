@@ -1,20 +1,20 @@
 ---
-title: Beispiel einer Warenkorbpreisregel - Rabatt mit Mindestkauf
-description: Sehen Sie sich ein Beispiel für die Verwendung einer Preisregel für den Warenkorb an, um einen Rabatt mit einem Mindestkauf anzubieten.
+title: Beispiel einer Warenkorbpreisregel - Rabatt mit Mindestproduktpreis
+description: Sehen Sie sich ein Beispiel für die Verwendung einer Regel zum Warenkorbpreis an, um einen Rabatt mit einem Mindestproduktpreis anzubieten.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 6bc76c76bc7a17e115696911cc2499075d35c541
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # Beispiel einer Warenkorbpreisregel - Rabatt mit Mindestkauf
 
-Mit den Regeln zum Warenkorbpreis können Sie einen prozentualen Rabatt auf der Grundlage eines Mindestkäufs anbieten. Im folgenden Beispiel wird ein Rabatt von 25 % auf alle Käufe über 200,00 USD in einer bestimmten Kategorie angewendet. Der Rabatt hat folgendes Format:
+Mit Warenkorbpreisregeln können Sie einen prozentualen Rabatt auf der Grundlage eines Mindestproduktpreises im Warenkorb anbieten. Im folgenden Beispiel wird ein Rabatt von 10 % auf alle Produkte im gesamten Warenkorb angewendet, wenn mindestens 1 Produkt mit einem Preis über 30,00 USD aus einer bestimmten Kategorie zum Warenkorb hinzugefügt wird. Der Rabatt hat folgendes Format:
 
-X % aller Y (Kategorie) über Z Dollar
+X % des gesamten Warenkorbs, wenn mindestens 1 Produkt aus der Kategorie Y stammt und sein Preis über $Z beträgt.
 
 ## Schritt 1. Eine Warenkorbregel erstellen
 
