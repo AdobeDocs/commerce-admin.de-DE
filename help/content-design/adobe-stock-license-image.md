@@ -3,7 +3,7 @@ title: Adobe Stock-Bild lizenzieren
 description: Lizenzieren Sie Ihre Adobe Stock-Bilder, um sicherzustellen, dass Sie Zugriff auf das Adobe Stock-Wasserzeichen haben, und um es zu eliminieren.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-source-git-commit: ee619d6a46948a714789dfbc275735df8669cdcb
+source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Adobe Stock-Bild lizenzieren
 
-Adobe Stock-Assets, die Sie für Ihre Produktions-Adobe Commerce- und Magento Open Source-Stores verwenden möchten, sollten lizenziert sein. Diese Lizenzierung stellt sicher, dass Sie rechtlichen Zugriff auf das Bild haben und das Adobe Stock-Wasserzeichen, das in allen [Bildvorschauen][save-preview] vorhanden ist, entfernen. Um Bilder zu lizenzieren oder bereits lizenzierte Bilder zu speichern, müssen Sie bei Ihrem Adobe-Konto angemeldet sein.
+Adobe Stock-Assets, die Sie für Ihre Produktions-Adobe Commerce- und Magento Open Source-Stores verwenden möchten, sollten lizenziert sein. Diese Lizenzierung stellt sicher, dass Sie rechtlichen Zugriff auf das Bild haben und das Adobe Stock-Wasserzeichen, das in allen [Bildvorschauen](./adobe-stock-save-preview.md) vorhanden ist, entfernen. Um Bilder zu lizenzieren oder bereits lizenzierte Bilder zu speichern, müssen Sie bei Ihrem Adobe-Konto angemeldet sein.
 
 Das neue [[!DNL Media Gallery]](media-gallery.md) bietet eine direkte Integration in Adobe Stock, sodass Sie Ihre Bilder einfach direkt von der Galerieseite aus lizenzieren können.
 
@@ -20,7 +20,7 @@ Das neue [[!DNL Media Gallery]](media-gallery.md) bietet eine direkte Integratio
 
 **Voraussetzungen**
 
-Die Adobe Stock-Lizenzierungsfunktion ist nur verfügbar, wenn die [Adobe Stock-Integration][adobe-stock-integration] installiert und konfiguriert ist. Für die Lizenzierung von [Adobe Stock][adobe-stock] -Bildern sind ein bezahlter Adobe Stock-Plan und ein [Adobe-Konto][adobe-signin] erforderlich.
+Die Adobe Stock-Lizenzierungsfunktion ist nur verfügbar, wenn die [Adobe Stock-Integration](./adobe-stock.md) installiert und konfiguriert ist. Für die Lizenzierung von [Adobe Stock][adobe-stock] -Bildern sind ein bezahlter Adobe Stock-Plan und ein [Adobe-Konto][adobe-signin] erforderlich.
 
 >[!ENDSHADEBOX]
 
@@ -28,7 +28,7 @@ Die Adobe Stock-Lizenzierungsfunktion ist nur verfügbar, wenn die [Adobe Stock-
 
 1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
-1. Führen Sie die Schritte unter [Verwenden von Adobe Stock-Bildern][using-adobe-stock] aus, um sich anzumelden und Vorschaubilder im [Medienspeicher][media-storage] zu speichern.
+1. Führen Sie die Schritte unter [Verwenden von Adobe Stock-Bildern](./adobe-stock-manage.md) aus, um sich anzumelden und Vorschaubilder im [Medienspeicher](./media-storage.md) zu speichern.
 
    ![ Vorschaubild gespeichert](./assets/adobe-stock-gallery-unlicensed.png){width="600" zoomable="yes"}
 
@@ -38,7 +38,7 @@ Die Adobe Stock-Lizenzierungsfunktion ist nur verfügbar, wenn die [Adobe Stock-
 
    >[!NOTE]
    >
-   >Wenn Sie nicht angemeldet sind, wird das Anmeldeformular angezeigt. Weitere Informationen zur Anmeldung finden Sie unter [Verwenden von Adobe Stock-Bildern][using-adobe-stock].
+   >Wenn Sie nicht angemeldet sind, wird das Anmeldeformular angezeigt. Weitere Informationen zur Anmeldung finden Sie unter [Verwenden von Adobe Stock-Bildern](./adobe-stock-manage.md).
 
 1. Klicken Sie im Dialogfeld zur Lizenzbestätigung auf **[!UICONTROL Confirm]** , um das Bild zu lizenzieren.
 
@@ -64,7 +64,7 @@ Die Adobe Stock-Lizenzierungsfunktion ist nur verfügbar, wenn die [Adobe Stock-
      >
      >Sie müssen über [Adobe Stock Credits][stock-credits] in Ihrem Konto verfügen, um das Bild zu lizenzieren.
 
-   Bei dieser Aktion werden Sie aufgefordert, einen Dateinamen anzugeben, mit dem das Bild im [Medienspeicher][media-storage] gespeichert wird. Es wird ein standardmäßiger Dateiname angegeben, aber Sie können den Namen Ihren Voreinstellungen anpassen.
+   Bei dieser Aktion werden Sie aufgefordert, einen Dateinamen anzugeben, mit dem das Bild im [Medienspeicher](./media-storage.md) gespeichert wird. Es wird ein standardmäßiger Dateiname angegeben, aber Sie können den Namen Ihren Voreinstellungen anpassen.
 
    ![Adobe Stock lizenziertes Bild speichern](./assets/adobe-stock-save-licensed.png){width="550" zoomable="yes"}
 
@@ -72,10 +72,6 @@ Die Adobe Stock-Lizenzierungsfunktion ist nur verfügbar, wenn die [Adobe Stock-
 
    Die Seite wird zum Medienspeicher weitergeleitet und Ihre gespeicherte Vorschau wird angezeigt.
 
-[adobe-stock-integration]: adobe-stock.md
-[media-storage]: media-storage.md
-[using-adobe-stock]: adobe-stock-manage.md
-[save-preview]: adobe-stock-save-preview.md
 [access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
 [view-details]: adobe-stock-manage.md#view-image-details
 [stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
