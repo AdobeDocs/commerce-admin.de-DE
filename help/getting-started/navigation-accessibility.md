@@ -1,24 +1,24 @@
 ---
-title: Zugänglichkeit
-description: Überprüfen Sie die allgemeinen Tastaturbefehle für die barrierefreie Site-Navigation für Ihre Kunden.
+title: Barrierefreiheit
+description: Überprüfen Sie die allgemeinen Tastatursteuerelemente für barrierefreie Site-Navigation für Ihre Kunden.
 exl-id: 7e3becf2-6c47-4993-8581-e253607ab381
 feature: Compliance
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
-# Zugänglichkeit
+# Barrierefreiheit
 
-Einige Besucher Ihrer Site verwenden für die Navigation Tastaturbefehle - und nicht eine Maus -, während andere Touch- oder Sprachbefehle verwenden können. Obwohl die Tastaturnavigationssteuerelemente je nach Browser und Plattform variieren, wird der Fokus häufig mithilfe der Tabulatortaste durch die Felder, Links und Schaltflächen auf einer Seite bewegt. Weitere Informationen finden Sie unter [Tastaturbefehle][1]{:target=&quot;_blank&quot;}.
+Manche Besucher Ihrer Site verwenden Tastatursteuerelemente für die Navigation - anstelle einer Maus -, während andere möglicherweise Touch- oder Sprachbefehle verwenden. Obwohl die Steuerelemente für die Tastaturnavigation je nach Browser und Plattform variieren, wird häufig die Tabulatortaste verwendet, um den Fokus durch die Felder, Links und Schaltflächen auf einer Seite zu verschieben. Weitere Informationen finden Sie unter [Tastaturbefehle][1]{:target="_blank"}.
 
-Weitere Informationen zur Barrierefreiheit finden Sie unter [Richtlinien für Barrierefreiheit][2]{:target=&quot;_blank&quot;} in der Entwicklerdokumentation.
+Weitere Informationen zur Barrierefreiheit finden Sie unter [Richtlinien für die Barrierefreiheit][2]{:target="_blank"} in der Entwicklerdokumentation.
 
 ## Windows
 
-| Funktion | Standardtastaturkürzel |
+| Funktion | Standardtastaturbefehl |
 |--- |--- |
 | Nächste Seite | `Alt + Right` |
 | Vorherige Seite | `Alt + Left` |
@@ -29,7 +29,7 @@ Weitere Informationen zur Barrierefreiheit finden Sie unter [Richtlinien für Ba
 
 ## macOS
 
-| Funktion | Standardtastaturkürzel |
+| Funktion | Standardtastaturbefehl |
 |--- |--- |
 | Nächste Seite | `Cmd + Right` |
 | Vorherige Seite | `Cmd + Left` |
@@ -40,13 +40,13 @@ Weitere Informationen zur Barrierefreiheit finden Sie unter [Richtlinien für Ba
 
 ## Allgemein
 
-| Funktion | Standardtastaturkürzel |
+| Funktion | Standardtastaturbefehl |
 |--- |--- |
-| Schaltfläche - Auswahl | `Enter` (Zurück) |
-| Link - Gehen Sie zu | `Enter` (Zurück) |
+| Schaltfläche - Auswählen | `Enter` (zurück) |
+| Link - zu | `Enter` (zurück) |
 | Optionen - Navigieren | `Up`, `Down`, `Left`, `Right` |
-| Optionen - Auswahl | `Spacebar` |
-| Regler | `Left`, `Right`, `Home`, `End` |
+| Optionen - wählen | `Spacebar` |
+| Schieberegler | `Left`, `Right`, `Home`, `End` |
 | Schließen | `Esc` |
 | Vertikal scrollen | `PgUp`, `PgDn` |
 | Horizontal scrollen | `Left`, `Right` |

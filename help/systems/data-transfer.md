@@ -1,6 +1,6 @@
 ---
 title: Datenübertragung
-description: Erfahren Sie mehr über die Unterstützung für die Datenübertragung, einschließlich der Datenvalidierung.
+description: Erfahren Sie mehr über die Unterstützung für die Datenübertragung, einschließlich Datenvalidierung.
 exl-id: 5057e398-c458-42e9-8ec0-bf116a667a3c
 feature: System, Data Import/Export
 source-git-commit: b89d6b08d0559dc769a8c51570696f033f23c7f3
@@ -12,38 +12,38 @@ ht-degree: 0%
 
 # Datenübertragungen
 
-Verwenden Sie die Import- und Export-Tools, um mehrere Datensätze in einem Vorgang zu verwalten. Sie können neue Elemente importieren sowie vorhandene Produktsätze aktualisieren, ersetzen und löschen.
+Verwenden Sie die Import- und Exportwerkzeuge, um mehrere Datensätze in einem einzigen Vorgang zu verwalten. Sie können neue Artikel importieren sowie vorhandene Produktsätze aktualisieren, ersetzen und löschen.
 
-Sie können beispielsweise Ihrem Inventar neue Produkte hinzufügen, Produktdaten und erweiterte Preisdaten aktualisieren und eine Reihe vorhandener Produkte durch neue Produkte ersetzen. Mit den Import- und Exportwerkzeugen können Sie große Produktkataloge effizienter verwalten, da Sie die Daten exportieren, in einer Tabelle bearbeiten und wieder in Ihren Speicher importieren können, anstatt mehrere Vorgänge in der Admin-Konsole auszuführen.
+Sie können beispielsweise neue Produkte zu Ihrem Inventar hinzufügen, Produktdaten und erweiterte Preisdaten aktualisieren und einen Satz vorhandener Produkte durch neue Produkte ersetzen. Mit den Import- und Exportwerkzeugen können Sie große Produktkataloge effizienter verwalten, da Sie die Daten exportieren, in einer Tabelle bearbeiten und wieder in Ihren Store importieren können, anstatt mehrere Vorgänge im Administrator durchzuführen.
 
 
 >[!NOTE]
 >
->Adobe Commerce unterstützt auch den SAAS-Datenexport, um Produktdaten vom Commerce-Server an SaaS-Dienste zu übertragen. Der SAAS-Datenexport ist in Commerce SaaS-Dienste integriert, einschließlich [Produkt Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) und [Katalogdienst](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Weitere Informationen finden Sie im [SAAS-Datenexport-Handbuch](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe Commerce unterstützt auch den SaaS-Datenexport, um Produktdaten vom Commerce-Server an SaaS-Services zu übertragen. Der SaaS-Datenexport ist in Commerce SaaS-Services integriert, einschließlich [Produkt-Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/overview.html), [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) und [Catalog Service](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview). Weitere Informationen finden Sie im [SaaS-Datenexporthandbuch](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ## Datenvalidierung
 
-Alle Daten müssen validiert werden, um die Qualität, Genauigkeit und Integrität der Werte sicherzustellen, bevor sie in den Speicher importiert werden. Die Validierung beginnt, wenn Sie auf **[!UICONTROL Check Data]** klicken. Während des Vorgangs werden alle Entitäten in der Importdatei für Folgendes überprüft:
+Alle Daten müssen die Validierung bestehen, um Qualität, Genauigkeit und Integrität der Werte vor dem Import in den Store sicherzustellen. Die Validierung beginnt, wenn Sie auf **[!UICONTROL Check Data]** klicken. Während des Vorgangs werden alle Entitäten in der Importdatei auf Folgendes überprüft:
 
-- **Attribute** - Spaltenkopfzeilennamen werden überprüft, um sicherzustellen, dass sie mit den entsprechenden Attributen in der Systemdatenbank übereinstimmen. Der Wert jedes Attributs wird überprüft, um sicherzustellen, dass die Anforderungen des Datentyps (Dezimalzahl, Ganzzahl, Varchar, Text und Datum/Uhrzeit) erfüllt sind.
-- **Komplexe Daten** - Werte, die aus einem definierten Satz stammen, z. B. eine Dropdown-Liste oder ein Mehrfachauswahleingabetyp, werden überprüft, um sicherzustellen, dass die Werte im definierten Satz vorhanden sind.
-- **Dienstdaten** - Die Werte in den Dienstdatenspalten werden überprüft, um sicherzustellen, dass die Eigenschaften oder komplexen Datenwerte mit den bereits in der Systemdatenbank definierten übereinstimmen.
-- **Erforderliche Werte** - Für neue Entitäten ist das Vorhandensein erforderlicher Attributwerte in der Datei markiert. Für vorhandene Entitäten müssen Sie nicht erneut überprüfen, ob die erforderlichen Attributwerte vorhanden sind.
-- **Trennzeichen** - Obwohl die Trennzeichen bei der Anzeige in einem Arbeitsblatt nicht sichtbar sind, werden Datenwerte in einer CSV-Datei durch Kommas getrennt und Textwerte werden in doppelte Anführungszeichen gesetzt. Während des Validierungsprozesses wird die Formatierung für die Trennzeichen und die einzelnen Anführungszeichen, die Zeichenfolgen enthalten, überprüft.
+- **Attribute** - Spaltenkopfzeilennamen werden überprüft, um sicherzustellen, dass sie mit den entsprechenden Attributen in der Systemdatenbank übereinstimmen. Der Wert jedes Attributs wird überprüft, um sicherzustellen, dass es die Anforderungen des Datentyps (Decimal, Integer, Varchar, Text und Datetime) erfüllt.
+- **Komplexe Daten** - Werte, die aus einem definierten Satz stammen, z. B. einem Dropdown-Menü oder einem Eingabetyp mit Mehrfachauswahl, werden überprüft, um sicherzustellen, dass die Werte im definierten Satz vorhanden sind.
+- **Service-**: Die Werte in den Service-Datenspalten werden überprüft, um sicherzustellen, dass die Eigenschaften oder komplexen Datenwerte mit dem übereinstimmen, was bereits in der Systemdatenbank definiert ist.
+- **Erforderliche Werte** - Bei neuen Entitäten wird geprüft, ob die Datei die erforderlichen Attributwerte enthält. Bei bestehenden Entitäten ist es nicht erforderlich, erneut zu überprüfen, ob erforderliche Attributwerte vorhanden sind.
+- **Trennzeichen** - Obwohl die Trennzeichen in einer Tabelle nicht sichtbar sind, werden die Datenwerte in einer CSV-Datei durch Kommas getrennt und die Textwerte in doppelte Anführungszeichen gesetzt. Während des Validierungsprozesses werden die Formatierung der Trennzeichen und alle Anführungszeichen, die Zeichenfolgen einschließen, überprüft.
 
 Die Ergebnisse der Validierung werden im Abschnitt Validierungsergebnisse angezeigt und enthalten die folgenden Informationen:
 
-- Die Anzahl der geprüften Entitäten
-- Die Anzahl ungültiger Zeilen
+- Die Anzahl der überprüften Entitäten
+- Die Anzahl der ungültigen Zeilen
 - Die Anzahl der gefundenen Fehler
 
-Wenn die Daten gültig sind, wird die Meldung _Erfolg importieren_ angezeigt.
+Wenn die Daten gültig sind, wird die Meldung _Erfolg_.
 
 ![Systemmeldung - Datei ist gültig](./assets/data-import-validation-message.png){width="500" zoomable="yes"}
 
-Wenn die Validierung fehlschlägt, lesen Sie die Beschreibung der einzelnen Fehler und korrigieren Sie das Problem in der CSV-Datei. Wenn beispielsweise eine Zeile eine ungültige SKU enthält, wird der Importvorgang gestoppt, diese Zeile und alle nachfolgenden Zeilen werden nicht importiert. Importieren Sie die Daten nach der korrekten Problembehebung erneut. Wenn viele Fehler auftreten, kann es mehrere Versuche dauern, die Validierung zu bestehen.
+Wenn die Validierung fehlschlägt, lesen Sie die Beschreibung jedes Fehlers und beheben Sie das Problem in der CSV-Datei. Wenn eine Zeile beispielsweise eine ungültige SKU enthält, wird der Importvorgang gestoppt, und diese Zeile wird nicht importiert, und alle nachfolgenden Zeilen werden nicht importiert. Nachdem das Problem korrekt behoben wurde, importieren Sie die Daten erneut. Wenn viele Fehler auftreten, kann es mehrere Versuche dauern, bis die Validierung erfolgreich ist.
 
-### Datenvalidierungsmeldungen
+### Nachrichten zur Datenvalidierung
 
 #### Validierung
 

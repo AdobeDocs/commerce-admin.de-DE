@@ -1,6 +1,6 @@
 ---
-title: Aktualisieren von Währungskursen
-description: Erfahren Sie, wie Sie Währungsraten manuell festlegen oder in Ihren Speicher importieren können.
+title: Währungskurse aktualisieren
+description: Erfahren Sie, wie Sie Währungskurse manuell festlegen oder in Ihren Store importieren.
 exl-id: 316a7bc8-1118-46e7-82ff-891ada04cd13
 feature: Currency, Configuration, Data Import/Export
 source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
@@ -10,50 +10,50 @@ ht-degree: 0%
 
 ---
 
-# Aktualisieren von Währungskursen
+# Währungskurse aktualisieren
 
-Währungsraten können manuell festgelegt oder in den Store importiert werden. Um sicherzustellen, dass Ihr Store über die aktuellsten Tarife verfügt, können Sie die Währungsraten so konfigurieren, dass sie automatisch planmäßig aktualisiert werden.
+Die Währungskurse können manuell festgelegt oder in den Store importiert werden. Um sicherzustellen, dass Ihr Geschäft über die aktuellen Kurse verfügt, können Sie die Währungskurse so konfigurieren, dass sie automatisch planmäßig aktualisiert werden.
 
-Bevor Sie Währungskurse importieren, führen Sie die [Einrichtung des Währungskurses](currency-configuration.md) durch, um die Währungen anzugeben, die Sie akzeptieren, und um die Importverbindung und den Zeitplan festzulegen.
+Bevor Sie Währungskurse importieren, schließen Sie die [Währungskurseinrichtung“ ab](currency-configuration.md) um die akzeptierten Währungen anzugeben und die Importverbindung und den Zeitplan einzurichten.
 
 ![Währungskurse](./assets/stores-currency-rate-update.png){width="600" zoomable="yes"}
 
-## Manuelles Aktualisieren der Währungsrate
+## Wechselkurs manuell aktualisieren
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**.
 
-1. Klicken Sie auf den Wechselkurs, den Sie ändern möchten, und geben Sie für jede unterstützte Währung den neuen Wert ein.
+1. Klicken Sie auf den Kurs, den Sie ändern möchten, und geben Sie den neuen Wert für jede unterstützte Währung ein.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Currency Rates]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Currency Rates]**.
 
 ## Währungskurse importieren
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Rates]**.
 
-1. Setzen Sie **[!UICONTROL Import Service]** auf den Währungskursanbieter.
+1. Legen Sie **[!UICONTROL Import Service]** auf den Währungskursanbieter fest.
 
    Der Standardanbieter ist `fixer.io (legacy)`.
 
    >[!IMPORTANT]
    >
-   >Ab Version 2.4.6 wird der Dienst [[!DNL Fixer.io]](https://fixer.io/) nicht mehr unterstützt und durch den Dienst [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api) ersetzt. Es wird dringend empfohlen, ein APILayer-Konto anstelle eines veralteten [!DNL Fixer.io] -Kontos zu verwenden.
+   >Ab Version 2.4.6 wird der [[!DNL Fixer.io]](https://fixer.io/)-Service nicht mehr unterstützt und durch den Service [[!DNL Fixer API] (APILayer)](https://apilayer.com/marketplace/fixer-api) ersetzt. Es wird dringend empfohlen, ein APILayer-Konto anstelle eines veralteten [!DNL Fixer.io]-Kontos zu verwenden.
 
 1. Klicken Sie auf **[!UICONTROL Import]**.
 
-   Die aktualisierten Raten werden in der Liste _[!UICONTROL Currency Rates]_angezeigt. Wenn sich die Tarife seit der letzten Aktualisierung geändert haben, wird die alte Rate unten als Referenz angezeigt.
+   Die aktualisierten Tarife werden in der Liste _[!UICONTROL Currency Rates]_angezeigt. Wenn sich die Kurse seit der letzten Aktualisierung geändert haben, wird der alte Kurs unten als Referenz angezeigt.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Currency Rates]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Currency Rates]**.
 
 1. Wenn Sie aufgefordert werden, den Cache zu aktualisieren, klicken Sie auf den Link **[!UICONTROL Cache Management]** und aktualisieren Sie den ungültigen Cache.
 
-   ![Systemmeldung - Aktualisieren des ungültigen Caches](./assets/currency-cache-update.png){width="600" zoomable="yes"}
+   ![Systemmeldung - Aktualisieren Sie den ungültigen Cache](./assets/currency-cache-update.png){width="600" zoomable="yes"}
 
 ## Währungskurse planmäßig importieren
 
-1. Stellen Sie sicher, dass [Cron](../systems/cron.md) für Ihren Store aktiviert ist.
+1. Stellen Sie sicher[ dass &quot;](../systems/cron.md)&quot; für Ihren Store aktiviert ist.
 
-1. Um die Währungen anzugeben, die Sie akzeptieren, die Importverbindung herzustellen und den Zeitplan festzulegen, führen Sie die [Einrichtung der Währungsrate](currency-configuration.md) durch.
+1. Um die Währungen anzugeben, die Sie akzeptieren, und die Importverbindung und den Zeitplan einzurichten, schließen Sie die Einrichtung [Währungskurses“ ](currency-configuration.md).
 
-1. Um sicherzustellen, dass die Tarife planmäßig importiert werden, überprüfen Sie die Liste _[!UICONTROL Currency Rates]_.
+1. Um sicherzustellen, dass die Tarife planmäßig importiert werden, überprüfen Sie die _[!UICONTROL Currency Rates]_.
 
-1. Warten Sie auf den für den Zeitplan festgelegten Zeitraum der Frequenzeinstellung und überprüfen Sie die Tarife erneut.
+1. Warten Sie auf den Zeitraum der für den Zeitplan festgelegten Häufigkeitseinstellung und überprüfen Sie die Tarife erneut.

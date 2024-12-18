@@ -1,6 +1,6 @@
 ---
-title: "Enable [!DNL Inventory Management]"
-description: Erfahren Sie, wie Sie [!DNL Inventory Management] auf globaler Store- oder Produktebene aktivieren.
+title: Aktivieren [!DNL Inventory Management]
+description: Erfahren Sie, wie Sie  [!DNL Inventory Management]  auf globaler Store- oder Produktebene aktivieren.
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
@@ -12,50 +12,50 @@ ht-degree: 0%
 
 # [!DNL Inventory Management] aktivieren
 
-Um Ihren Produktbestand zu verwalten, aktivieren Sie [!DNL Inventory Management] auf der globalen Store- oder Produktebene. Wenn die Option _Stock verwalten_ aktiviert ist, verfolgt [!DNL Inventory Management] die für die Site verfügbaren Produktmengen automatisch über konfigurierte Lager und Quellen. Jede Funktion und Option beginnt mit dem Tracking und Reporting, sobald sie aktiviert ist, ohne zusätzliche Konfiguration.
+Um Ihren Produktbestand zu verwalten, aktivieren Sie [!DNL Inventory Management] auf globaler Store- oder Produktebene. Wenn die Option _Lager verwalten_ aktiviert ist, verfolgt [!DNL Inventory Management] automatisch die für die Site verfügbaren Produktmengen über konfigurierte Lager und Quellen. Jede Funktion und Option beginnt mit dem Tracking und Reporting, wenn sie aktiviert sind, ohne zusätzliche Konfiguration.
 
-Ihr Geschäft läuft und Inventaraktualisierungen mit der Geschwindigkeit des Umsatzes. Wenn Kunden kaufen, erhalten Sie exakte, aktualisierte Informationen für verfügbare Lager pro Vertriebskanal und Quelle. Verfügbare Mengen werden pro Lager aktualisiert, wenn Kunden Produkte zum Warenkorb hinzufügen und Käufe abschließen und wenn und Sie Bestellungen verwalten, Sendungen erstellen und Erstattungen vornehmen. Ankunft von neuen oder übertragenen Lagerergänzungen in Ihren Quellen, sofort verfügbar für Online-Verkäufe. Aufstockungen werden bis zu bestimmten Schwellenwerten ohne unendliche Bestellungen oder zusätzliche Konfigurationen ausgeführt. Und Sie geben einen Teil- oder Vollversand aus einer oder mehreren Quellen mit Empfehlungen ab und geben Ihnen so die volle Kontrolle über die Auftragserfüllung und die Lagerbestände.
+Ihr Unternehmen läuft und aktualisiert Ihren Bestand mit der Geschwindigkeit des Verkaufs. Wenn Kunden einkaufen, erhalten Sie exakte, aktualisierte Informationen zu verfügbaren Lagerbeständen pro Vertriebskanal und Quelle. Verfügbare verkäufliche Mengen werden pro Lager aktualisiert, wenn Kunden Produkte zum Warenkorb hinzufügen und Käufe abschließen und wenn und Sie Bestellungen verwalten, Sendungen erstellen und Rückerstattungen ausstellen. Ankunft von neuen oder übertragenen Lageraktualisierungen zu Ihren Quellen, sofort für Online-Verkäufe verfügbar. Nachbestellungen werden bis zu den angegebenen Schwellenwerten abgeschlossen, ohne dass unendliche Bestellungen oder zusätzliche Konfigurationen erforderlich sind. Und Sie können Teil- oder Volllieferungen über eine oder mehrere Quellen mit Empfehlungen eingeben und abschließen, sodass Sie die volle Kontrolle über die Auftragserfüllung und den Lagerbestand haben.
 
 >[!NOTE]
 >
->Standardmäßig ist [!DNL Inventory Management] bei der Installation oder Aktualisierung von [!DNL Commerce] aktiviert. Je nach Ihren geschäftlichen Anforderungen können Sie die getrackten [!DNL Inventory Management] innerhalb von [!DNL Commerce] aktivieren oder deaktivieren.
+>Standardmäßig ist [!DNL Inventory Management] bei der Installation oder Aktualisierung von [!DNL Commerce] aktiviert. Je nach Ihren Geschäftsanforderungen können Sie die verfolgten [!DNL Inventory Management] in [!DNL Commerce] aktivieren oder deaktivieren.
 
-Wie diese Einstellung in Einzel- und Mehrfachquellen-Inventaren funktioniert:
+Funktionsweise dieser Einstellung in Inventaren aus einzelnen und mehreren Quellen:
 
 - Um [!DNL Inventory Management] zu verwenden, aktivieren Sie _[!UICONTROL Manage Stock]_.
 
-- [!UICONTROL Manage Stock] -Einstellungen auf Produktebene überschreiben die Speicherkonfiguration.
+- [!UICONTROL Manage Stock] Einstellungen auf Produktebene setzen die Store-Konfiguration außer Kraft.
 
-- Um Order Management oder Dienste von Drittanbietern (z. B. ERP) zu verwenden, deaktivieren Sie [!UICONTROL Manage Stock].
+- Um Order Management oder Drittanbieterdienste (wie ERP) zu verwenden, deaktivieren Sie [!UICONTROL Manage Stock].
 
-- Wenn die Konfiguration auf Produktebene den Systemstandard verwendet, überschreibt die Speicherkonfiguration.
+- Wenn die Konfiguration auf Produktebene den Systemstandard verwendet, überschreibt die Store-Konfiguration.
 
-Wenn [!DNL Inventory Management] aktiviert ist, sehen Sie Folgendes, um alle Einstellungen zu konfigurieren:
+Wenn [!DNL Inventory Management] aktiviert ist, können Sie alle Einstellungen wie folgt konfigurieren:
 
-- [Konfigurieren globaler Optionen](global-options.md) - Einstellungen, die sich auf Ihren gesamten Katalog auswirken, werden als Systemstandardeinstellungen betrachtet.
+- [Konfigurieren von globalen Optionen](global-options.md) - Einstellungen, die sich auf Ihren gesamten Katalog auswirken, gelten als Systemstandardeinstellungen.
 
-- [Konfigurieren von Produktoptionen](product-options.md) - Einstellungen für ein bestimmtes Produkt, das globale Optionen außer Kraft setzt.
+- [Konfigurieren von Produktoptionen](product-options.md) - Einstellungen für ein bestimmtes Produkt, die globale Optionen überschreiben.
 
-## [!DNL Inventory Management] aktivieren oder deaktivieren
+## Aktivieren oder Deaktivieren von [!DNL Inventory Management]
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Catalog]** und wählen Sie **[!UICONTROL Inventory]** aus.
+1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen Sie **[!UICONTROL Inventory]**.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) _Produktspeicheroptionen_ und konfigurieren Sie:
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) _Produktlageroptionen_ und konfigurieren Sie:
 
-   ![Optionen für Produktspeicher](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
+   ![Produktaktienoptionen](assets/config-catalog-inventory-product-stock-options.png){width="600" zoomable="yes"}
 
-   - Um den Bestand zu verwalten und alle [!DNL Commerce]-Funktionen zu verwenden, setzen Sie **[!UICONTROL Manage Stock]** auf `Yes` (Standard).
+   - Um den Bestand zu verwalten und alle [!DNL Commerce] Funktionen zu verwenden, setzen Sie **[!UICONTROL Manage Stock]** auf `Yes` (Standard).
 
-   - Um [!DNL Inventory Management] zu deaktivieren, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use system value]** und legen Sie **[!UICONTROL Manage Stock]** auf `No` fest.
+   - Um [!DNL Inventory Management] zu deaktivieren, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use system value]** und setzen **[!UICONTROL Manage Stock]** auf `No`.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-## Verwalten von Lagern
+## Verwalten von Lagern für ein Geschäft
 
-Siehe [Globale Optionen konfigurieren](global-options.md).
+Siehe [Konfigurieren globaler Optionen](global-options.md).
 
-## Verwalten von Lagern für ein Produkt
+## Verwalten des Lagerbestands für ein Produkt
 
 Siehe [Konfigurieren von Produktoptionen](product-options.md).

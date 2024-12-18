@@ -1,6 +1,6 @@
 ---
-title: Produkt-URL-Neuschreibungen
-description: Erfahren Sie, wie Sie mithilfe von Produkt-URL-Neuschreibungen Links zur URL eines anderen Produkts in Ihrem Commerce Store umleiten können.
+title: Neuschreibungen der Produkt-URL
+description: Erfahren Sie, wie Sie Produkt-URL-Neuschreibungen verwenden, um Links zur URL eines anderen Produkts in Ihrem Commerce Store umzuleiten.
 exl-id: 42b28ff7-e148-44f2-b6b4-63a38458e752
 feature: Products, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
@@ -10,19 +10,19 @@ ht-degree: 0%
 
 ---
 
-# Produkt-URL-Neuschreibungen
+# Neuschreibungen der Produkt-URL
 
-Bevor Sie beginnen, sollten Sie genau wissen, was die Umleitung erreichen soll. Denken Sie an die Werte _target_ / _original request_ oder _redirect to_ / _redirect from_. Auch wenn Personen von Suchmaschinen oder veralteten Links aus zur ersten Seite navigieren, bewirkt die Umleitung, dass Ihr Store zum neuen Ziel wechselt.
+Bevor Sie beginnen, stellen Sie sicher, dass Sie genau verstehen, was die Umleitung erreichen soll. Denken Sie an _target_ / _ursprüngliche Anfrage_ oder _umleiten zu_ / _umleiten von_. Obwohl Personen möglicherweise immer noch über Suchmaschinen oder veraltete Links zur vorherigen Seite navigieren, führt die Umleitung dazu, dass Ihr Store zum neuen Ziel wechselt.
 
-Wenn [automatische Umleitungen](url-redirect-product-automatic.md) für Ihren Store aktiviert sind, müssen Sie keine Umschreibungen erstellen, wenn ein Produkt [URL-Schlüssel](../catalog/catalog-urls.md) geändert wird.
+Wenn [automatische Weiterleitungen](url-redirect-product-automatic.md) für Ihren Store aktiviert sind, müssen Sie keine Neuschreibungen erstellen, wenn ein Produkt (URL[Schlüssel](../catalog/catalog-urls.md) geändert wird.
 
 {{url-rewrite-skip}}
 
-## Schritt 1. Neuschreiben planen
+## Schritt 1. Umschreiben planen
 
-Um Fehler zu vermeiden, schreiben Sie den Pfad _redirect to_ und den Pfad _redirect from_ auf und fügen Sie den URL-Schlüssel und das Suffix hinzu (falls zutreffend).
+Um Fehler zu vermeiden, schreiben Sie den Pfad _umleiten zu_ und _umleiten von_ auf und fügen Sie den URL-Schlüssel und das Suffix (falls zutreffend) hinzu.
 
-Wenn Sie sich nicht sicher sind, öffnen Sie jede Produktseite in Ihrem Store und kopieren Sie den Pfad aus der Adressleiste Ihres Browsers. Beim Erstellen einer Produktumleitung können Sie den [Kategoriepfad](../catalog/catalog-urls.md) entweder ein- oder ausschließen. In diesem Beispiel erstellen wir eine Produktumleitung ohne Kategoriepfad.
+Wenn Sie sich nicht sicher sind, öffnen Sie jede Produktseite in Ihrem Store und kopieren Sie den Pfad aus der Adressleiste Ihres Browsers. Beim Erstellen einer Produktumleitung können Sie den [Kategoriepfad“ entweder ein- oder ](../catalog/catalog-urls.md). Für dieses Beispiel erstellen wir eine Produktumleitung ohne Kategoriepfad.
 
 ### Produkt mit Kategoriepfad
 
@@ -36,70 +36,70 @@ Umleiten zu: `impulse-duffle.html`
 
 Umleiten von: `overnight-duffle.html`
 
-## Schritt 2. Erstellen des Neuschreibens
+## Schritt 2. Umschreiben erstellen
 
 {{url-rewrite-params}}
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL URL Rewrites]**.
 
-1. Bevor Sie fortfahren, führen Sie die folgenden Schritte aus, um sicherzustellen, dass der Anfragepfad verfügbar ist.
+1. Bevor Sie fortfahren, gehen Sie wie folgt vor, um zu überprüfen, ob der Anfragepfad verfügbar ist.
 
    - Geben Sie im Suchfilter oben in der Spalte **[!UICONTROL Request Path]** den URL-Schlüssel der umzuleitenden Seite ein und klicken Sie auf **[!UICONTROL Search]**.
 
-   - Wenn mehrere Umleitungsdatensätze für die Seite vorhanden sind, suchen Sie den, der der entsprechenden Store-Ansicht entspricht, und öffnen Sie ihn im Bearbeitungsmodus.
+   - Wenn mehrere Umleitungsdatensätze für die Seite vorhanden sind, suchen Sie den entsprechenden Umleitungsdatensatz in der Store-Ansicht und öffnen Sie ihn im Bearbeitungsmodus.
 
-   - Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Delete]**. Klicken Sie nach Aufforderung zur Bestätigung auf **[!UICONTROL OK]** .
+   - Klicken Sie oben rechts auf **[!UICONTROL Delete]**. Wenn Sie dazu aufgefordert werden, klicken Sie zur Bestätigung auf **[!UICONTROL OK]** .
 
-1. Klicken Sie in der rechten oberen Ecke der Seite &quot;URL-Neuschreibungen&quot;auf **URL-Neuschreibungen hinzufügen**.
+1. Klicken Sie oben rechts auf der Seite „URL-Neuschreibungen“ auf **URL-Neuschreibungen hinzufügen**.
 
-1. Setzen Sie **[!UICONTROL Create URL Rewrite]** auf `For product`.
+1. Legen Sie **[!UICONTROL Create URL Rewrite]** auf `For product` fest.
 
-1. Suchen Sie im Raster das Produkt, das das Ziel (Ziel) der Umleitung ist, und klicken Sie auf die Zeile.
+1. Suchen Sie im Raster das Produkt, das das Ziel (Ziel) der Umleitung ist, und klicken Sie auf die Zeile .
 
-   ![URL-Neuschreibungen - product](./assets/url-rewrite-product.png){width="700" zoomable="yes"}
+   ![URL-Neuschreibungen - Produkt](./assets/url-rewrite-product.png){width="700" zoomable="yes"}
 
-1. Klicken Sie unter der Kategorienstruktur auf **[!UICONTROL Skip Category Selection]**.
+1. Klicken Sie unter der Kategoriestruktur auf **[!UICONTROL Skip Category Selection]**.
 
-   In diesem Beispiel enthält die Umleitung keine Kategorie.
+   Bei diesem Beispiel enthält die Umleitung keine Kategorie.
 
-   ![Neuschreiben der Produkt-URL - Überspringen der Kategorieauswahl](./assets/url-rewrite-skip-category-selection.png){width="600" zoomable="yes"}
+   ![Neuschreiben der Produkt-URL - Kategorieauswahl überspringen](./assets/url-rewrite-skip-category-selection.png){width="600" zoomable="yes"}
 
-   Auf der Seite URL-Neufassung für ein Produkt hinzufügen wird links oben ein Link zum Ziel angezeigt. Im Feld Zielpfad wird die Systemversion des Pfads angezeigt, die nicht geändert werden kann. Zunächst zeigt das Feld Umleitungspfad auch den Zielpfad an.
+   Die Seite URL-Umschreibung für ein Produkt hinzufügen zeigt oben links einen Link zum Ziel an, und das Feld Zielpfad zeigt die Systemversion des Pfads an, die nicht geändert werden kann. Zunächst wird im Feld Umleitungspfad auch der Zielpfad angezeigt.
 
-   - Wenn Sie mehrere Store-Ansichten haben, setzen Sie &quot;**[!UICONTROL Store]**&quot;auf die Ansicht, für die das Neuschreiben gilt. Andernfalls wird für jede Ansicht ein Umschreiben erstellt.
+   - Wenn Sie mehrere Store-Ansichten haben, legen Sie **[!UICONTROL Store]** auf die Ansicht fest, für die die Umschreibung gilt. Andernfalls wird für jede Ansicht eine Neufassung erstellt.
 
-   - Ersetzen Sie für **[!UICONTROL Request Path]** den Standardwert, indem Sie den URL-Schlüssel und das Suffix (falls zutreffend) der ursprünglichen Produktanfrage eingeben. Dies ist die _Umleitung von_ -Produkt, die Sie im Planungsschritt identifiziert haben.
+   - Ersetzen Sie **[!UICONTROL Request Path]** die Standardeinstellung, indem Sie den URL-Schlüssel und das Suffix (falls zutreffend) der ursprünglichen Produktanfrage eingeben. Dies ist das Produkt _Umleitung von_ das Sie im Planungsschritt identifiziert haben.
 
      >[!NOTE]
      >
-     >Der Anfragepfad muss für den angegebenen Store eindeutig sein. Wenn bereits eine Weiterleitung vorhanden ist, die denselben Anfragepfad verwendet, erhalten Sie beim Speichern der Weiterleitung einen Fehler. Die vorherige Umleitung muss gelöscht werden, bevor Sie sie erstellen können.
+     >Der Anfragepfad muss für den angegebenen Speicher eindeutig sein. Wenn bereits eine Umleitung vorhanden ist, die denselben Anfragepfad verwendet, erhalten Sie eine Fehlermeldung, wenn Sie versuchen, die Umleitung zu speichern. Die vorherige Umleitung muss gelöscht werden, bevor Sie eine erstellen können.
 
-   - Setzen Sie **[!UICONTROL Redirect Type]** auf einen der folgenden Werte:
+   - Legen Sie **[!UICONTROL Redirect Type]** auf eine der folgenden Einstellungen fest:
 
       - `Temporary (302)`
       - `Permanent (301)`
 
-   - Geben Sie für Ihre eigene Referenz eine kurze **[!UICONTROL Description]** des Neuschreibens ein.
+   - Geben Sie zur eigenen Referenz einen kurzen **[!UICONTROL Description]** der Neufassung ein.
 
-   ![Umschreiben der Produkt-URL - Informationen](./assets/url-rewrite-product-permanent-301.png){width="600" zoomable="yes"}
+   ![Neuschreiben der Produkt-URL - Informationen](./assets/url-rewrite-product-permanent-301.png){width="600" zoomable="yes"}
 
 1. Bevor Sie die Umleitung speichern, überprüfen Sie Folgendes:
 
-   - Der Link oben links zeigt den Namen des Zielprodukts an.
-   - Der Anfragepfad enthält den Pfad für die ursprüngliche _Umleitung vom_ -Produkt.
+   - Der Link in der oberen linken Ecke zeigt den Namen des Zielprodukts an.
+   - Der Anfragepfad enthält den Pfad für das ursprüngliche Produkt _Umleitung von_.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-   Das neue Produkt-Rewrite wird jetzt oben im Raster URL-Neuschreibungen angezeigt.
+   Die neue Produktumschreibung wird jetzt oben im URL-Umschreibungsraster angezeigt.
 
-## Schritt 3. Ergebnis testen
+## Schritt 3. Testen des Ergebnisses
 
-1. Gehen Sie zur Startseite Ihres Stores.
+1. Navigieren Sie zur Startseite Ihres Geschäfts.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   - Navigieren Sie von der Seite mit der Produktanfrage _zur ursprünglichen_ Umleitung.
-   - Geben Sie in der Adressleiste des Browsers den Pfad zur ursprünglichen _Umleitung vom_ -Produkt direkt nach der Store-URL ein und drücken Sie die **Eingabetaste**.
+   - Navigieren Sie zur ursprünglichen _Umleitung von_ Produktanfrageseite.
+   - Geben Sie in der Adressleiste des Browsers den Pfad zum ursprünglichen Produkt _Umleitung von_ unmittelbar nach der Store-URL ein und drücken Sie die **Eingabetaste**.
 
    Das neue Zielprodukt wird anstelle der ursprünglichen Produktanfrage angezeigt.
 
@@ -107,11 +107,11 @@ Umleiten von: `overnight-duffle.html`
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Create URL Rewrite] | Gibt den Typ des Neuschreibens an. Der Typ kann nach der Erstellung des Neuschreibens nicht mehr geändert werden. Optionen: `Custom` / `For category` / `For product` / `For CMS page` |
-| [!UICONTROL Request Path] | Das Produkt, das umgeleitet werden soll. Je nach Konfiguration kann der Anfragepfad das Suffix `.html` oder das Suffix `.htm` und die Kategorie enthalten. Der Anfragepfad muss eindeutig sein und kann nicht von einer anderen Umleitung verwendet werden. Wenn Sie eine Fehlermeldung erhalten, dass der Anfragepfad vorhanden ist, löschen Sie die vorhandene Umleitung und versuchen Sie es erneut. |
+| [!UICONTROL Create URL Rewrite] | Gibt den Typ der Neuschreibung an. Der Typ kann nach dem Erstellen der Neuschreibung nicht mehr geändert werden. Optionen: `Custom` / `For category` / `For product` / `For CMS page` |
+| [!UICONTROL Request Path] | Das Produkt, das umgeleitet werden soll. Abhängig von Ihrer Konfiguration kann der Anfragepfad das Suffix `.html` oder `.htm` und die Kategorie enthalten. Der Anfragepfad muss eindeutig sein und kann nicht von einer anderen Umleitung verwendet werden. Wenn Sie eine Fehlermeldung erhalten, dass der Anfragepfad vorhanden ist, löschen Sie die vorhandene Umleitung und versuchen Sie es erneut. |
 | [!UICONTROL Target Path] | Der interne Pfad, der vom System verwendet wird, um auf das Ziel der Umleitung zu verweisen. Der Zielpfad ist ausgegraut und kann nicht bearbeitet werden. |
-| [!UICONTROL Redirect] | Bestimmt den Typ der Umleitung. Optionen: <br/>**[!UICONTROL No]**- Es wird keine Umleitung angegeben. Viele Vorgänge erstellen Umleitungsanfragen dieses Typs. Jedes Mal, wenn Sie beispielsweise Produkte zu einer Kategorie hinzufügen, wird für jede Store-Ansicht eine Umleitung vom Typ `No` erstellt.<br/>**[!UICONTROL Temporary (302)]** - Gibt Suchmaschinen an, dass das Neuschreiben für eine begrenzte Zeit erfolgt. Suchmaschinen speichern in der Regel keine Seiteneinstufungsinformationen für temporäre Neuschreibungen. <br/>**[!UICONTROL Permanent (301)]**- Gibt Suchmaschinen an, dass das Neuschreiben dauerhaft ist. Suchmaschinen behalten in der Regel Seiteneinstufungsinformationen für permanente Neuschreibungen bei. |
-| [!UICONTROL Description] | Beschreibt den Zweck des Neuschreibens für interne Verweise. |
+| [!UICONTROL Redirect] | Bestimmt den Umleitungstyp. Optionen: <br/>**[!UICONTROL No]**- Keine Umleitung angegeben. Viele Vorgänge erstellen Umleitungsanfragen dieses Typs. Jedes Mal, wenn Sie beispielsweise Produkte zu einer Kategorie hinzufügen, wird für jede Shop-Ansicht eine Umleitung des `No` erstellt.<br/>**[!UICONTROL Temporary (302)]** - Gibt Suchmaschinen an, dass die Neufassung für eine begrenzte Zeit erfolgt. Suchmaschinen speichern im Allgemeinen keine Seitenrangangaben für temporäre Neuschreibungen. <br/>**[!UICONTROL Permanent (301)]**- Gibt Suchmaschinen an, dass die Neuschreibung dauerhaft ist. Suchmaschinen behalten im Allgemeinen Seitenrangangaben für permanente Neuschreibungen bei. |
+| [!UICONTROL Description] | Beschreibt den Zweck der Neufassung für interne Referenzen. |
 
 {style="table-layout:auto"}
 
@@ -119,20 +119,20 @@ Umleiten von: `overnight-duffle.html`
 
 Mit den folgenden Schritten können Sie URL-Neuschreibungen für mehrere oder alle Produkte gleichzeitig aktualisieren.
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Wählen Sie alle Produkte aus, für die Sie URL-Neuschreibungen aktualisieren möchten.
 
-1. Wählen Sie unter _[!UICONTROL Actions]_**[!UICONTROL Update attributes]**aus, um mehrere oder alle Neuschreibungen zu aktualisieren.
+1. Wählen Sie unter _[!UICONTROL Actions]_die Option **[!UICONTROL Update attributes]**aus, um mehrere oder alle Neuschreibungen zu aktualisieren.
 
-1. Klicken Sie unter &quot;_[!UICONTROL PRODUCTS INFORMATION]_&quot;auf die Registerkarte &quot;**[!UICONTROL Websites]**&quot;.
+1. Klicken Sie unter _[!UICONTROL PRODUCTS INFORMATION]_auf die Registerkarte **[!UICONTROL Websites]**.
 
 1. Wählen Sie im Abschnitt _[!UICONTROL Add Product To Websites]_alle Websites aus, für die Sie URL-Neuschreibungen wiederherstellen möchten.
 
-1. Klicken Sie, wenn Sie bereit zur Aktualisierung sind, auf **[!UICONTROL Save]**.
+1. Wenn Sie bereit zum Aktualisieren sind, klicken Sie auf **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Alle ausgewählten Produkte werden auf den ausgewählten Websites angezeigt und URL-Neuschreibungen werden neu generiert.
+>Alle ausgewählten Produkte werden zu den ausgewählten Websites hinzugefügt und URL-Neuschreibungen werden neu generiert.
 
-![Attribute aktualisieren - Mehrere URL-Neuschreibungen aktualisieren](./assets/url-rewrites-update.png){width="600" zoomable="yes"}
+![Attribute aktualisieren - mehrere URL-Neuschreibungen aktualisieren](./assets/url-rewrites-update.png){width="600" zoomable="yes"}

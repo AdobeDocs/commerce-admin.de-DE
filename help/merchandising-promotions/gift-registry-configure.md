@@ -1,6 +1,6 @@
 ---
-title: Konfigurieren von Geschenkgutscheinen
-description: Erfahren Sie, wie Sie Geschenkregistern aktivieren und die entsprechenden E-Mail-Benachrichtigungen konfigurieren.
+title: Konfigurieren von Geschenkregistrierungen
+description: Erfahren Sie, wie Sie Geschenkregistrierungen aktivieren und die zugehörigen E-Mail-Benachrichtigungen konfigurieren.
 exl-id: 48193621-731d-4640-8ea8-5b201915cdf1
 feature: Gift, Storefront, Configuration
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
@@ -10,62 +10,62 @@ ht-degree: 0%
 
 ---
 
-# Konfigurieren von Geschenkgutscheinen
+# Konfigurieren von Geschenkregistrierungen
 
 {{ee-feature}}
 
-Bevor Sie Ihren Kunden Geschenkgutscheine anbieten können, müssen Sie Geschenkregistern aktivieren und die entsprechenden E-Mail-Benachrichtigungen konfigurieren. Adobe Commerce sendet die folgenden E-Mail-Benachrichtigungen als Reaktion auf Ereignisse im Workflow für die Registrierung von Geschenkgutscheinen.
+Bevor Sie Ihren Kunden Geschenkregistrierungen anbieten können, müssen Sie Geschenkregistrierungen aktivieren und die entsprechenden E-Mail-Benachrichtigungen konfigurieren. Adobe Commerce sendet die folgenden E-Mail-Benachrichtigungen als Reaktion auf Ereignisse im Workflow zur Geschenkregistrierung.
 
-- Wenn eine neue Geschenkregistrierung erstellt wird, wird eine E-Mail an den Eigentümer mit einem Link zur Registrierung gesendet, der freigegeben werden kann.
-- Optional kann der Laden eine Benachrichtigung mit einem Link zur Geschenkregistrierung an Freunde und Familie des Eigentümers der Geschenkregistrierung senden.
-- Der Eigentümer wird benachrichtigt, wenn Artikel in der Geschenkregistrierung erworben werden, gibt jedoch nicht den Käufer an.
+- Wenn eine neue Geschenkregistrierung erstellt wird, wird eine E-Mail mit einem Link zur Registrierung an den Besitzer gesendet, die freigegeben werden kann.
+- Optional kann der Store eine Benachrichtigung mit einem Link zur Geschenkregistrierung an Freunde und Familie des Besitzers der Geschenkregistrierung senden.
+- Der Besitzer wird benachrichtigt, wenn Artikel aus der Geschenkregistrierung gekauft werden, aber nicht den Käufer.
 
 Adobe Commerce verfügt über vordefinierte Vorlagen für jede dieser E-Mail-Nachrichten, die für Ihre Marke angepasst werden können.
 
-## Schritt 1. Geschenkregister aktivieren
+## Schritt 1. Aktivieren von Geschenkregistern
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich den Eintrag **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Gift Registry]** aus.
+1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Gift Registry]**
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL General Options]** des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL General Options]** und führen Sie folgende Schritte aus:
 
-   ![Kundenkonfiguration - Allgemeine Geschenkregistrierung](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
+   ![Kundenkonfiguration - Geschenkregistrierung allgemein](../configuration-reference/customers/assets/gift-registry-general-options.png){width="600" zoomable="yes"}
 
-   - Die Gift Registry ist standardmäßig aktiviert. Setzen Sie bei Bedarf **[!UICONTROL Enable Gift Registry]** auf `Yes`.
+   - Die Geschenkregistrierung ist standardmäßig aktiviert. Falls erforderlich, setzen Sie **[!UICONTROL Enable Gift Registry]** auf `Yes`.
 
-   - Geben Sie für **[!UICONTROL Maximum Registrants]** die maximale Anzahl von Personen an, die zur Teilnahme an einem Geschenkregisterereignis eingeladen werden können.
+   - Geben Sie **[!UICONTROL Maximum Registrants]** die maximale Anzahl von Personen ein, die zur Teilnahme an einem Geschenkregistrierungs-Event eingeladen werden können.
 
-## Schritt 2. E-Mail-Benachrichtigungen konfigurieren
+## Schritt 2. Konfigurieren von E-Mail-Benachrichtigungen
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Owner Notification]** des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Owner Notification]** und führen Sie folgende Schritte aus:
 
-   ![Kundenkonfiguration - Benachrichtigung des Eigentümers der Geschenkregistrierung](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
+   ![Kundenkonfiguration - Benachrichtigung zum Besitzer der Geschenkregistrierung](../configuration-reference/customers/assets/gift-registry-owner-notification.png){width="600" zoomable="yes"}
 
-   - Wählen Sie die **[!UICONTROL Email Template]** aus, die die Besitzer der Geschenkregistrierung benachrichtigt, wenn ihre Register erstellt werden.
+   - Wählen Sie die **[!UICONTROL Email Template]** aus, die Besitzer von Geschenkregistrierungen benachrichtigt, wenn ihre Registrierungen erstellt werden.
 
-   - Wählen Sie den [Store contact](../getting-started/store-details.md#store-email-addresses) aus, der als **[!UICONTROL Email Sender]** der Nachricht angezeigt wird.
+   - Wählen Sie den [Store-](../getting-started/store-details.md#store-email-addresses)), der als **[!UICONTROL Email Sender]** der Nachricht angezeigt wird.
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Gift Registry Sharing]** des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Gift Registry Sharing]** und führen Sie folgende Schritte aus:
 
-   ![Kundenkonfiguration - Freigabe einer Geschenkregistrierung](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
+   ![Kundenkonfiguration - Freigabe der Geschenkregistrierung](../configuration-reference/customers/assets/gift-registry-gift-registry-sharing.png){width="600" zoomable="yes"}
 
-   - Wählen Sie die **[!UICONTROL Email Template]** aus, die die Empfänger der Geschenkregistrierung benachrichtigt, wenn eine Registrierung für sie freigegeben ist.
+   - Wählen Sie die **[!UICONTROL Email Template]** aus, die Empfänger von Geschenkregistrierungen benachrichtigt, wenn eine Registrierung für sie freigegeben wird.
 
-   - Wählen Sie die Store-Kennung aus, die als **[!UICONTROL Email Sender]** der Nachricht angezeigt wird.
+   - Wählen Sie die Store-ID aus, die als **[!UICONTROL Email Sender]** der Nachricht angezeigt wird.
 
-   - Geben Sie für &quot;**[!UICONTROL Maximum Sent Emails Threshold]**&quot;die maximale Anzahl an E-Mails an, die gleichzeitig gesendet werden können.
+   - Geben Sie **[!UICONTROL Maximum Sent Emails Threshold]** die maximale Anzahl von E-Mails ein, die gleichzeitig gesendet werden können.
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Gift Registry Update]** des Erweiterungsselektors ![Erweiterung](../assets/icon-display-expand.png) und führen Sie folgende Schritte aus:
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Gift Registry Update]** und führen Sie folgende Schritte aus:
 
    ![Kundenkonfiguration - Aktualisierung der Geschenkregistrierung](../configuration-reference/customers/assets/gift-registry-gift-registry-update.png){width="600" zoomable="yes"}
 
-   - Wählen Sie die **[!UICONTROL Email Template]** aus, die die Besitzer der Geschenkregistrierung über Änderungen an der Registrierung informiert.
+   - Wählen Sie die **[!UICONTROL Email Template]** aus, die Besitzer von Geschenkregistrierungen über Änderungen an der Registrierung benachrichtigt.
 
-   - Wählen Sie die Store-Kennung aus, die als **[!UICONTROL Email Sender]** der Nachricht angezeigt wird.
+   - Wählen Sie die Store-ID aus, die als **[!UICONTROL Email Sender]** der Nachricht angezeigt wird.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-1. Wenn Sie dazu aufgefordert werden, aktualisieren Sie den Cache.
+1. Aktualisieren Sie den Cache, wenn Sie dazu aufgefordert werden.
 
-   Nachdem der Cache aktualisiert wurde, wird die Geschenkregistrierung im Menü Geschäfte unter Andere Einstellungen angezeigt und ist in Kundenkonten verfügbar.
+   Nachdem der Cache aktualisiert wurde, wird die Geschenkregistrierung im Menü Stores unter Andere Einstellungen angezeigt und wird in Kundenkonten verfügbar.

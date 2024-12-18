@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Page Builder] setup'
-description: Erfahren Sie mehr über die Konfiguration von [!DNL Page Builder] Funktionen in Admin für Adobe Commerce und Magento Open Source.
+title: '[!DNL Page Builder]'
+description: Erfahren Sie mehr über  [!DNL Page Builder]  Konfiguration von Funktionen in der Admin Console für Adobe Commerce und Magento Open Source.
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
 source-git-commit: 2299beb6c11af801076d3aff0b026d41b9dbd212
@@ -10,63 +10,63 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Page Builder] Setup
+# [!DNL Page Builder]
 
-Wenn in der Konfiguration aktiviert, ist [!DNL Page Builder] das standardmäßige Tool zur Inhaltserstellung für CMS-Seiten, -Blöcke und dynamische Blöcke. Darüber hinaus bietet die Schaltfläche _[!UICONTROL Enable Advanced CMS]_[!DNL Page Builder] als Option für Kategorien und Produkte. Sie können auch das standardmäßige [Seitenlayout](../content-design/page-layout.md) auswählen, das Sie für Produkte, Kategorien und CMS-Seiten verwenden möchten. [!DNL Page Builder] ist nicht für Newsletterinhalte verfügbar, die den WYSIWYG [editor](../content-design/editor.md) verwenden.
+Wenn es in der -Konfiguration aktiviert ist, ist [!DNL Page Builder] das standardmäßige Tool zur Inhaltserstellung für CMS-Seiten, -Blöcke und -dynamische Blöcke. Darüber hinaus bietet die _[!UICONTROL Enable Advanced CMS]_-Schaltfläche [!DNL Page Builder] als Option für Kategorien und Produkte. Sie können auch das standardmäßige [Seiten-Layout](../content-design/page-layout.md) auswählen, das Sie für Produkte, Kategorien und CMS-Seiten verwenden möchten. [!DNL Page Builder] ist nicht für Newsletter-Inhalte verfügbar, die den WYSIWYG-[Editor) ](../content-design/editor.md).
 
 >[!NOTE]
 >
->Bei der Installation überschreibt [!DNL Page Builder] die Standardeinstellung für das Konfigurationsfeld [!UICONTROL Mask for Meta Description]. Der Wert wird von `{{name}} {{description}}` in `{{name}}` geändert.
+>Wenn installiert, überschreibt [!DNL Page Builder] die Standardeinstellung für das Feld [!UICONTROL Mask for Meta Description]. Der Wert wird von `{{name}} {{description}}` in `{{name}}` geändert.
 ><br>
->Sie können auf diese Einstellung zugreifen, wenn Sie &quot;[!UICONTROL Stores]&quot;> &quot;_[!UICONTROL Settings]_&quot;> &quot;[!UICONTROL Configuration]&quot;, &quot;[!UICONTROL Catalog]&quot;erweitern und &quot;[!UICONTROL Catalog]&quot;darunter auswählen. Das Feld [!UICONTROL Mask for Meta Description] befindet sich im Abschnitt [!UICONTROL Product Fields Auto-generation] .
+>Sie können auf diese Einstellung zugreifen, wenn Sie zu [!UICONTROL Stores] > _[!UICONTROL Settings]_> [!UICONTROL Configuration] gehen, [!UICONTROL Catalog] erweitern und darunter [!UICONTROL Catalog] auswählen. Das Feld [!UICONTROL Mask for Meta Description] befindet sich im Abschnitt [!UICONTROL Product Fields Auto-generation] .
 
 >[!NOTE]
 >
->Ein Admin-Benutzer muss über [!UICONTROL Content] -Berechtigungen für seinen [Rollenbereich](../systems/permissions-user-roles.md) verfügen, um die [!UICONTROL Edit with Page Builder] -Schaltflächen anzuzeigen und den Seitenaufbau verwenden zu können.
+>Ein Administrator bzw. eine Administratorin muss über [!UICONTROL Content] Berechtigungen für den [Rollenbereich](../systems/permissions-user-roles.md) verfügen, um [!UICONTROL Edit with Page Builder] Schaltflächen sehen und Page Builder verwenden zu können.
 
-Weitere Informationen zu den Konfigurationsoptionen für die erweiterten Werkzeuge für Content Management finden Sie im [_Konfigurationshandbuch_](../configuration-reference/general/content-management.md).
+Weitere Informationen zu den Konfigurationsoptionen für die erweiterten Content-Management-Tools finden Sie [_„Konfigurationshandbuch_](../configuration-reference/general/content-management.md).
 
 ## Konfigurieren von [!DNL Page Builder]
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bereich unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** und überprüfen Sie, ob **[!UICONTROL Enable Page Builder]** auf `Yes` eingestellt ist.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** und stellen Sie sicher, dass **[!UICONTROL Enable Page Builder]** auf `Yes` gesetzt ist.
 
-   ![Erweiterte Content-Tools](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
+   ![Erweiterte Inhalts-Tools](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
 1. Wenn Sie bereit sind, [!DNL Google Maps] einzurichten, gehen Sie wie folgt vor:
 
-   - Folgen Sie bei Bedarf den Anweisungen [API-Schlüssel abrufen][1] , kopieren Sie dann Ihren **[!UICONTROL Google Maps API Key]** und fügen Sie ihn ein.
+   - Folgen Sie bei Bedarf den Anweisungen [API-Schlüssel abrufen][1] und kopieren Sie dann Ihre **[!UICONTROL Google Maps API Key]** und fügen Sie sie ein.
 
-   - Fügen Sie zum Ändern von **[!UICONTROL Google Maps Style]** den JSON-Code ein, der vom [[!DNL Google Maps] APIs-Stilassistenten][2] generiert wird.
-
-   >[!NOTE]
-   >
-   >Weitere Informationen zur Verwendung von [!DNL Google Maps] in Ihrem [!DNL Page Builder]-Inhalt finden Sie unter [Medien - Zuordnung](map.md) .
-
-1. Gehen Sie wie folgt vor, um die Anzahl der Führungslinien im Spaltenraster [!DNL Page Builder] zu konfigurieren:
-
-   - Geben Sie für &quot;**[!UICONTROL Default Column Grid Size]**&quot;die Standardanzahl der Spalten ein, die im Raster angezeigt werden sollen.
-
-   - Geben Sie für &quot;**[!UICONTROL Maximum Column Grid Size]**&quot;die größte Anzahl von Spalten ein, die im Raster verfügbar sein soll.
+   - Um die **[!UICONTROL Google Maps Style]** zu ändern, fügen Sie den JSON-Code ein, der vom [[!DNL Google Maps] API-Stilassistenten“ generiert ][2].
 
    >[!NOTE]
    >
-   >Weitere Informationen zur Verwendung des Spaltenrasters beim Arbeiten mit Ihrem [!DNL Page Builder] -Inhalt finden Sie unter [Layout - Spalte](column.md) .
+   >Weitere Informationen [ Verwendung von [!DNL Google Maps] in [!DNL Page Builder] Inhalten finden Sie unter ](map.md)Medien - Karte .
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
+1. Gehen Sie wie folgt vor, um die Anzahl der Richtlinien im [!DNL Page Builder] Spaltenraster zu konfigurieren:
 
-## Standardlayouts konfigurieren
+   - Geben Sie **[!UICONTROL Default Column Grid Size]** die Standardanzahl der Spalten ein, die im Raster angezeigt werden sollen.
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+   - Geben Sie **[!UICONTROL Maximum Column Grid Size]** die größte Anzahl von Spalten ein, die im Raster verfügbar sein sollen.
 
-1. Wählen Sie im linken Bereich unter _[!UICONTROL General]_die Option **[!UICONTROL Web]**.
+   >[!NOTE]
+   >
+   >Weitere Informationen [ Verwendung des Spaltenrasters beim Arbeiten mit [!DNL Page Builder] Inhalten finden Sie unter ](column.md)Layout - Spalte .
 
-1. Erweitern Sie ![Erweiterungsselektor](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]** und führen Sie folgende Schritte aus:
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-   ![Standardlayouts](../configuration-reference/general/assets/web-default-layouts.png){width="600" zoomable="yes"}
+## Standard-Layouts konfigurieren
+
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Web]**aus.
+
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Default Layouts]** und führen Sie folgende Schritte aus:
+
+   ![Standard-Layouts](../configuration-reference/general/assets/web-default-layouts.png){width="600" zoomable="yes"}
 
    Weitere Informationen zu den Web-Konfigurationsoptionen finden Sie im [_Konfigurationshandbuch_](../configuration-reference/general/web.md#default-layouts).
 
@@ -76,25 +76,25 @@ Weitere Informationen zu den Konfigurationsoptionen für die erweiterten Werkzeu
 
    - Wählen Sie die **[!UICONTROL Default Page Layout]** aus, die Sie für CMS-Seiten verwenden möchten.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
 ## [!DNL Page Builder] deaktivieren
 
 >[!NOTE]
 >
->Durch die Deaktivierung von [!DNL Page Builder] werden die erweiterten Content-Tools durch den WYSIWYG [editor](../content-design/editor.md) ersetzt und es können Anzeigefehler im Storefront auftreten. Inhalte, die Sie zuvor mit [!DNL Page Builder] erstellt haben, können möglicherweise nicht vom Administrator bearbeitet werden.
+>Durch Deaktivieren von [!DNL Page Builder] werden die erweiterten Inhaltstools durch WYSIWYG [Editor](../content-design/editor.md) ersetzt, was zu Anzeigefehlern in der Storefront führen kann. Inhalte, die Sie zuvor mit [!DNL Page Builder] erstellt haben, können möglicherweise nicht von Admin aus bearbeitet werden.
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bereich unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]** und legen Sie **[!UICONTROL Enable Page Builder]** auf `No` fest.
 
-1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL Turn Off]**.
+1. Wenn Sie zum Bestätigen aufgefordert werden, klicken Sie auf **[!UICONTROL Turn Off]**.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-1. Wenn Sie dazu aufgefordert werden, [aktualisieren](../systems/cache-management.md) alle ungültigen Zwischenspeicher.
+1. Wenn Sie dazu aufgefordert werden[ aktualisieren Sie ](../systems/cache-management.md) ungültigen Cache.
 
 [1]: https://developers.google.com/maps/documentation/javascript/get-api-key
 [2]: https://mapstyle.withgoogle.com/

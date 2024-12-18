@@ -1,6 +1,6 @@
 ---
-title: Hinzufügen eines Elements zu einer Kampagne
-description: Sehen Sie sich dieses Kampagnenbeispiel an, mit dem der Kategorieseite während der Kampagne ein Werbe-Bild hinzugefügt wird.
+title: Element zu einer Kampagne hinzufügen
+description: Sehen Sie sich dieses Kampagnenbeispiel an, um der Kategorieseite während der Kampagne ein Werbebild hinzuzufügen.
 exl-id: cd46b657-2586-46dd-beab-42f42d3476b6
 feature: Page Content, Staging
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# Hinzufügen eines Elements zu einer Kampagne
+# Element zu einer Kampagne hinzufügen
 
 {{ee-feature}}
 
-Im folgenden Beispiel wird der Kategorieseite während der Kampagne ein Werbe-Bild hinzugefügt. Dasselbe können Sie auch für eine Produktseite oder CMS-Seite tun.
+Im folgenden Beispiel wird der Kategorieseite während der Kampagne ein Werbebild hinzugefügt. Dasselbe können Sie auch für eine Produktseite oder CMS-Seite tun.
 
-## Kampagnenelement für eine Kategorie hinzufügen
+## Hinzufügen des Kampagnenelements für eine Kategorie
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
 1. Suchen Sie die Kategorie, die Sie in der Kampagne verwenden möchten, und öffnen Sie sie im Bearbeitungsmodus.
 
@@ -32,23 +32,23 @@ Im folgenden Beispiel wird der Kategorieseite während der Kampagne ein Werbe-Bi
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Content]**.
 
-1. Klicken Sie für &quot;**[!UICONTROL Category Image]**&quot;auf &quot;**[!UICONTROL Upload]**&quot;und wählen Sie das Bild aus, das während der Kampagne auf der Kategorieseite angezeigt werden soll.
+1. Klicken Sie **[!UICONTROL Category Image]** auf **[!UICONTROL Upload]** und wählen Sie das Bild aus, das während der Kampagne auf der Kategorieseite angezeigt werden soll.
 
-   ![Hinzufügen eines Kategoriebilds](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
+   ![Kategoriebild hinzufügen](./assets/content-staging-existing-category-image.png){width="600" zoomable="yes"}
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-## Artikel validieren
+## Element validieren
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Content Staging]_>**[!UICONTROL Dashboard]**.
 
-1. Suchen Sie die Kampagne in der angezeigten Liste oder Timeline und öffnen Sie sie, um auf die Details zuzugreifen:
+1. Suchen Sie die Kampagne in der angezeigten Liste oder Zeitleiste und öffnen Sie sie, um auf die Details zuzugreifen:
 
-   - Klicken Sie für eine Listenanzeige in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**und dann auf **[!UICONTROL View/Edit]**.
-   - Klicken Sie für eine Timeline-Anzeige einmal auf , um die Zusammenfassung anzuzeigen, und klicken Sie dann auf **[!UICONTROL View/Edit]**.
+   - Klicken Sie zur Anzeige einer Liste auf **[!UICONTROL Select]** und dann in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View/Edit]**.
+   - Klicken Sie für eine Zeitleisten-Anzeige einmal, um die Zusammenfassung anzuzeigen, und klicken Sie dann auf **[!UICONTROL View/Edit]**.
 
    ![Kampagnendetails](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Categories]** , um die Liste der zugewiesenen Kategorien anzuzeigen.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Categories]**, um die Liste der zugewiesenen Kategorien anzuzeigen.
 
 1. Um die Seiten für die Kategorie zu überprüfen, wenn die Kampagne aktiv ist, kehren Sie zum Dashboard zurück, klicken Sie erneut auf die Kampagne und klicken Sie dann auf **[!UICONTROL Preview]**.

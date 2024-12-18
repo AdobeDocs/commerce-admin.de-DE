@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] des Commerce Admin-Bereichs.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
 source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Der Newsletter ist Teil von Marketinginstrumenten, mit denen Nachrichten, Rabatte und andere Marketing-E-Mails an Kunden gesendet werden können. Registrierte Kunden können ihr Abonnement über ihr [Konto-Dashboard](../../customers/account-dashboard-my-account.md) verwalten.
+>Der Newsletter ist Teil von Marketing-Instrumenten, die den Versand von Nachrichten, Rabatten und anderen Marketing-E-Mails an Kunden ermöglichen. Registrierte Kunden können ihr Abonnement über ihr [Account-Dashboard](../../customers/account-dashboard-my-account.md) verwalten.
 
 ## [!UICONTROL General Options]
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | Store-Ansicht | Bestimmt, ob Newsletter für den Umfang der Store-Ansicht aktiviert sind. Optionen: `Yes` / `No` |
+| [!UICONTROL Enabled] | Shop-Ansicht | Legt fest, ob Newsletter für den Store-Ansichtsbereich aktiviert sind. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -36,13 +36,13 @@ ht-degree: 0%
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Allow Guest Subscription] | Store-Ansicht | Bestimmt, ob abgemeldete Gäste einen Newsletter abonnieren können. Optionen: `Yes` / `No` |
-| [!UICONTROL Need to Confirm] | Store-Ansicht | Bestimmt, ob Abonnementanforderungen bestätigt werden müssen. Diese Methode der Anmeldung mit zweifacher Bestätigung ist eine Validierung, die verhindert, dass Personen ohne ihre Einwilligung ein Abonnement erhalten. Optionen: `Yes` / `No` |
-| [!UICONTROL Confirmation Email Sender] | Store-Ansicht | Identifiziert den Store-Kontakt, der als Absender der zur Bestätigung einer Abonnementanforderung gesendeten E-Mail angezeigt wird. |
-| [!UICONTROL Confirmation Email Template] | Store-Ansicht | Bestimmt die E-Mail-Vorlage, die für die gesendete Benachrichtigung verwendet wird, um die Anmeldung für einen Newsletter zu bestätigen. Standardvorlage: `Newsletter subscription confirmation` |
-| Success Email Sender | Store-Ansicht | Identifiziert den Store-Kontakt, der als Absender von E-Mails erscheint, die an Abonnenten eines Newsletters gesendet werden. |
-| [!UICONTROL Success Email Template] | Store-Ansicht | Bestimmt die E-Mail-Vorlage, die für die Benachrichtigung verwendet wird, die an diejenigen gesendet wird, die sich erfolgreich für einen Newsletter angemeldet haben. Standardvorlage: `Newsletter subscription success` |
-| [!UICONTROL Unsubscription Email Sender] | Store-Ansicht | Identifiziert den Store-Kontakt, der als Absender von E-Mails angezeigt wird, die an diejenigen gesendet werden, die die Beendigung ihres Newsletter-Abonnements anfordern. |
-| [!UICONTROL Unsubscription Email Template] | Store-Ansicht | Bestimmt die E-Mail-Vorlage, die für die Benachrichtigung verwendet wird, die an diejenigen gesendet wird, die ihre Newsletter-Anmeldung beenden möchten. Standardvorlage: `Newsletter unsubscription success` |
+| [!UICONTROL Allow Guest Subscription] | Shop-Ansicht | Legt fest, ob nicht registrierte Gäste einen Newsletter abonnieren können. Optionen: `Yes` / `No` |
+| [!UICONTROL Need to Confirm] | Shop-Ansicht | Bestimmt, ob Abonnementanfragen bestätigt werden müssen. Diese Double-Opt-in-Methode ist eine Validierungsmaßnahme, die verhindert, dass Personen sich ohne ihre Zustimmung anmelden. Optionen: `Yes` / `No` |
+| [!UICONTROL Confirmation Email Sender] | Shop-Ansicht | Identifiziert den Store-Kontakt, der als Absender einer zur Bestätigung einer Abonnementanfrage gesendeten E-Mail angezeigt wird. |
+| [!UICONTROL Confirmation Email Template] | Shop-Ansicht | Bestimmt die E-Mail-Vorlage, die für die Benachrichtigung zum Bestätigen einer Anforderung zum Abonnieren eines Newsletters verwendet wird. Standardvorlage: `Newsletter subscription confirmation` |
+| E-Mail-Absender erfolgreich | Shop-Ansicht | Identifiziert den Store-Kontakt, der als Absender der E-Mail angezeigt wird, die an Personen gesendet wurde, die einen Newsletter erfolgreich abonniert haben. |
+| [!UICONTROL Success Email Template] | Shop-Ansicht | Bestimmt die E-Mail-Vorlage, die für die Benachrichtigung der Personen verwendet wird, die erfolgreich einen Newsletter abonniert haben. Standardvorlage: `Newsletter subscription success` |
+| [!UICONTROL Unsubscription Email Sender] | Shop-Ansicht | Identifiziert den Store-Kontakt, der als Absender der E-Mail angezeigt wird, die an diejenigen gesendet wurde, die ihr Newsletter-Abonnement beenden möchten. |
+| [!UICONTROL Unsubscription Email Template] | Shop-Ansicht | Legt die E-Mail-Vorlage fest, die für die Benachrichtigung verwendet wird, die an diejenigen gesendet wird, die ihr Newsletter-Abonnement beenden möchten. Standardvorlage: `Newsletter unsubscription success` |
 
 {style="table-layout:auto"}

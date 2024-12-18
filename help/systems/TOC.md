@@ -1,26 +1,26 @@
 ---
-user-guide-title: Administratorsystemanleitung
-user-guide-description: Dieses Handbuch enthält ausführliche Informationen zu Administrator-Sicherheit, Wartungsvorgängen und systemweiten Ressourcen, die Organisationsfunktionen in Ihrem Adobe Commerce-Store unterstützen.
-breadcrumb-title: Administratorsystemanleitung
+user-guide-title: Handbuch für Admin-Systeme
+user-guide-description: Dieses Handbuch enthält detaillierte Informationen zur Admin-Sicherheit, zu Wartungsvorgängen und zu systemweiten Ressourcen, die organisatorische Funktionen in Ihrem Adobe Commerce-Store unterstützen.
+breadcrumb-title: Handbuch für Admin-Systeme
 hide: false
 role: Admin, Leader
 feature: System
 source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 
-# Administratorsystemanleitung {#systems}
+# Handbuch für Admin-Systeme {#systems}
 
-- [Administratorsystemanleitung](guide-overview.md)
-- [Einführung in Administratorsysteme](introduction.md)
+- [Handbuch für Admin-Systeme](guide-overview.md)
+- [Einführung in Admin-Systeme](introduction.md)
 - [Menü [!UICONTROL System]](system-menu.md)
 - Admin-Benutzerkonten {#user-accounts}
    - [Administratorberechtigungen](permissions.md)
-   - [Benutzerkonten verwalten](permissions-users-all.md)
+   - [Verwalten von Benutzerkonten](permissions-users-all.md)
    - [Benutzerrollen](permissions-user-roles.md)
 - [Systembenachrichtigungen](notifications.md)
 - Variablen {#variables}
@@ -28,55 +28,55 @@ ht-degree: 2%
    - [Benutzerdefinierte Variablen](variables-custom.md)
    - [Variablenreferenz](variables-reference.md)
    - [Markup-Tags](markup-tags.md)
-- Communications {#communications}
+- {#communications}
    - [E-Mail-Vorlagen](email-templates.md)
    - [E-Mail-Vorlagen anpassen](email-template-custom.md)
    - [E-Mail konfigurieren](email-communications.md)
-- Datenübertragung {#data-transfer}
+- {#data-transfer}
    - [Übersicht](data-transfer.md)
    - [CSV-Dateien](data-csv.md)
-   - Import {#import}
-      - [Importprozess](data-import.md)
+   - {#import} importieren
+      - [Importvorgang](data-import.md)
       - [Produktbilder](data-import-product-images.md)
    - [Export](data-export.md)
    - [Referenz zu Produktdatenattributen](data-attributes-product.md)
    - [Referenz zu Kundendatenattributen](data-attributes-customer.md)
-   - [Aktualisierung der Steuersatzdaten](data-transfer-tax-rates.md)
+   - [Steuersatzdaten aktualisieren](data-transfer-tax-rates.md)
    - Beispiele {#examples}
-      - [Importieren von Bundle-Produkten](data-transfer-bundle-products.md)
+      - [Bundle-Produkte importieren](data-transfer-bundle-products.md)
       - [Konfigurierbare Produkte importieren](data-transfer-configurable-products.md)
       - [Herunterladbare Produkte importieren](data-transfer-downloadable-products.md)
-      - [Importieren von Tier-Preisdaten](data-import-price-tier.md)
+      - [Preisdaten der Importstufe](data-import-price-tier.md)
    - [Geplanter Import und Export](data-scheduled-import-export.md)
-   - [Data Management Dashboard](data-dashboard.md)
+   - [Dashboard für das Daten-Management](data-dashboard.md)
 - Aktionsprotokolle {#action-logs}
    - [Übersicht](action-log.md)
    - [Bericht zu Aktionslogs](action-log-report.md)
    - [Protokollarchiv](action-log-archive.md)
    - [Massenaktionen](action-log-bulk-actions.md)
-- Systemwerkzeuge und -einstellungen {#tools}
-   - [Cacheverwaltung](cache-management.md)
+- Systemtools und -einstellungen {#tools}
+   - [Cache-Verwaltung](cache-management.md)
    - [Indexverwaltung](index-management.md)
    - [Systemsicherungen](backups.md)
    - [Cron (geplante Aufgaben)](cron.md)
-   - [Entwicklertools](developer-tools.md)
+   - [Entwickler-Tools](developer-tools.md)
    - [Support-Tools](support.md)
 - [Integrationen](integrations.md)
-- Sicherheit {#security}
+- {#security}
    - [Übersicht](security.md)
    - [Verschlüsselungsschlüssel](encryption-key.md)
-   - [Sicherheitsscan](security-scan.md)
-   - [Admin Security konfigurieren](security-admin.md)
+   - [Sicherheitsüberprüfung](security-scan.md)
+   - [Konfigurieren der Admin-Sicherheit](security-admin.md)
    - CAPTCHA {#captcha}
       - [Standard-CAPTCHA](security-captcha.md)
       - [Google reCAPTCHA](security-google-recaptcha.md)
-   - Zweifaktorauthentifizierung (2FA) {#2fa}
+   - Zwei-Faktor-Authentifizierung (2FA) {#2fa}
       - [Übersicht](security-two-factor-authentication.md)
-      - [Einrichten von Benutzerkonten für 2FA](security-two-factor-authentication-use.md)
-      - [Verwalten von 2FA](security-two-factor-authentication-manage.md)
+      - [Benutzerkonto-Setup für 2FA](security-two-factor-authentication-use.md)
+      - [2FA verwalten](security-two-factor-authentication-manage.md)
    - [Sitzungsverwaltung](security-session-management.md)
-   - [Erkennung von Browserfunktionen](security-browser-capabilities-detection.md)
-   - [Sicherheitsfehlerberichte](security-issue-reporting.md)
-- [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+   - [Erkennung von Browser-Funktionen](security-browser-capabilities-detection.md)
+   - [Meldung von Sicherheitsproblemen](security-issue-reporting.md)
+- [Zurück zu Händlerleitfäden](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 

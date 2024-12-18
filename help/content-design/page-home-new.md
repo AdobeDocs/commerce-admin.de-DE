@@ -1,6 +1,6 @@
 ---
-title: Startseite festlegen
-description: Erfahren Sie, wie Sie die als Standard-CMS-Seite verwendete Startseite ändern.
+title: Festlegen der Startseite
+description: Erfahren Sie, wie Sie die Startseite ändern, die als standardmäßige CMS-Seite verwendet wird.
 exl-id: 0065da5a-ca55-45ef-b9a7-9b5548ef73d1
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
@@ -9,19 +9,19 @@ ht-degree: 0%
 
 ---
 
-# Startseite festlegen
+# Festlegen der Startseite
 
 Sie können eine Auswahl verschiedener Startseiten verwalten und die Seite aktivieren, die Sie als Standard-Startseite verwenden möchten.
 
 1. Führen Sie die Schritte für [Hinzufügen einer Seite](page-add.md) aus.
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bereich unter _[!UICONTROL General]_die Option **[!UICONTROL Web]**.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Web]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Default Pages]** und legen Sie **[!UICONTROL CMS Home Page]** auf die neue Seite fest.
 
-   ![Konfiguration der Webseiten-Standardseiten](./assets/web-default-pages.png){width="600" zoomable="yes"}
+   ![Konfiguration von Web-Standardseiten](./assets/web-default-pages.png){width="600" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Save Config]**.
 

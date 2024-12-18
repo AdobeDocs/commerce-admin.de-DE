@@ -12,10 +12,10 @@ ht-degree: 0%
 
 # Warenkorb
 
-Der Warenkorb wird am Ende des zu kaufenden Pfads an der Kreuzung von _Kauf_ und _Abbruch_ positioniert und ist eine der wichtigsten Seiten in Ihrem Store. Im Warenkorb wird die Bestellsumme zusammen mit Rabattgutscheinen und geschätzten Versand- und Steuereinnahmen berechnet. Es ist ein großartiger Ort, Ihre Vertrauensabzeichen und Siegel zu zeigen und eine ideale Gelegenheit, einen letzten Artikel anzubieten. Sie können die Artikel auswählen, die als Crosssell-Impuls-Kauf angeboten werden sollen, sobald ein bestimmter Artikel im Warenkorb erscheint.
+Der Warenkorb befindet sich am Ende des Kaufpfads, an der Kreuzung von _Buy_ und _Abbruch_ und ist eine der wichtigsten Seiten in Ihrem Geschäft. Im Warenkorb wird die Bestellsumme berechnet, zusammen mit Rabattgutscheinen und geschätzter Versand- und Steuerkosten. Es ist ein großartiger Ort, um Ihre Vertrauensabzeichen und Siegel zu zeigen, und eine ideale Gelegenheit, ein letztes Element anzubieten. Sie können die Artikel auswählen, die als Crosssell-Impulskauf angeboten werden sollen, wenn ein bestimmter Artikel im Warenkorb erscheint.
 
-![Auf der Warenkorbseite werden Tools angezeigt, die der Käufer verwenden kann, um die Produkte für seine Bestellung zu verwalten ](./assets/storefront-cart-full.png){width="700" zoomable="yes"}
+![Auf der Warenkorbseite werden Tools angezeigt, mit denen der Käufer die Produkte für seine ](./assets/storefront-cart-full.png){width="700" zoomable="yes"} verwalten kann
 
-- Konfigurieren Sie die [Warenkorboptionen](cart-configuration.md), um zu bestimmen, welche Tools den Käufern zur Verfügung stehen, und ändern Sie die Anzeige.
-- Konfigurieren Sie das Verhalten [Warenkorbpersistenz](cart-persistent.md) , damit Käufer den Inhalt ihres Warenkorbs beibehalten können.
-- Fügen Sie das Widget [Bestellung durch SKU](order-by-sku.md) hinzu, um allen Käufern oder nur Käufern in bestimmten Kundengruppen die SKU und Mengeninformationen direkt auf einer Seite hinzuzufügen.
+- Konfigurieren Sie die [Optionen für den Warenkorb](cart-configuration.md), um zu bestimmen, welche Tools Käufern zur Verfügung stehen, und ändern Sie die Anzeige.
+- Konfigurieren Sie das [Warenkorb-Persistenz](cart-persistent.md)-Verhalten, damit Käufer den Inhalt ihres Warenkorbs beibehalten können.
+- Fügen Sie das Widget [Bestellung nach SKU](order-by-sku.md) hinzu, um es allen Käufern oder nur Käufern in bestimmten Kundengruppen zu erleichtern, die SKU- und Mengeninformationen direkt auf einer Seite einzugeben.

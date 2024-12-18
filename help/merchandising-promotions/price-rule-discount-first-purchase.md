@@ -1,6 +1,6 @@
 ---
-title: Beispiel einer Preisregel für den Warenkorb - Rabatt mit Erstkauf
-description: Sehen Sie sich ein Beispiel für die Verwendung einer Preisregel für den Warenkorb an, um Erstkunden einen Rabatt anzubieten.
+title: Beispiel für Warenkorb-Preisregel - Rabatt beim ersten Kauf
+description: Sehen Sie sich ein Beispiel für die Verwendung einer Warenkorb-Preisregel an, um Erstkunden einen Rabatt anzubieten.
 exl-id: 46add769-6fa9-40e0-9f4f-af2215f36283
 feature: Merchandising, Price Rules, Shopping Cart
 source-git-commit: dbe31fa6e7b83ac852e6e4988ac61627e30d9089
@@ -10,155 +10,155 @@ ht-degree: 0%
 
 ---
 
-# Beispiel einer Preisregel für den Warenkorb - Rabatt mit Erstkauf
+# Beispiel für Warenkorb-Preisregel - Rabatt beim ersten Kauf
 
 {{ee-feature}}
 
-Mit den Preisregeln für Warenkorb können Kunden automatisch einen Rabatt auf ihren ersten Kauf anbieten, ohne dass ein Gutschein erforderlich ist.
+Die Preisregeln für den Warenkorb können verwendet werden, um Kunden beim ersten Kauf automatisch einen Rabatt anzubieten, ohne dass ein Coupon erforderlich ist.
 
-Um einen Rabatt für Erstkunden anzubieten, können Sie:
+Um einen Rabatt für Erstkunden anzubieten, haben Sie folgende Möglichkeiten:
 
-- Erstellen Sie ein Kundensegment, das als _Käufer ohne Bestellungen_ definiert ist, und dann
-- Erstellen Sie eine Warenkorbpreisregel, die auf das neue Kundensegment ausgerichtet ist.
+- Erstellen Sie ein Kundensegment, das als &quot;_ohne Bestellungen“ definiert_, und
+- Erstellen Sie eine Warenkorb-Preisregel, die auf das neue Kundensegment abzielt.
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass die Funktion Kundensegmente aktiviert ist. Siehe [Kundensegment erstellen](../customers/customer-segment-create.md).
+>Stellen Sie sicher, dass die Funktion Kundensegmente aktiviert ist. Siehe [Erstellen eines Kundensegments](../customers/customer-segment-create.md).
 
-## Schritt 1. Kundensegment erstellen
+## Schritt 1. Erstellen eines Kundensegments
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Segments]**.
 
-1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Add Segment]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Add Segment]**.
 
 1. Definieren Sie die **[!UICONTROL General Properties]**.
 
-   - Geben Sie einen **[!UICONTROL Segment Name]** ein, um das Kundensegment zu identifizieren (Beispiel: _Erstmaliger Kunde_).
+   - Geben Sie eine **[!UICONTROL Segment Name]** ein, um das Kundensegment zu identifizieren (Beispiel _„Erstkunde_).
 
-   - Wählen Sie für **[!UICONTROL Assigned to Website]** die Website aus, auf der das Kundensegment verwendet werden kann.
+   - Wählen Sie **[!UICONTROL Assigned to Website]** die Website aus, auf der das Kundensegment verwendet werden kann.
 
-   - Wählen Sie für **[!UICONTROL Status]** `Active` aus.
+   - Wählen Sie **[!UICONTROL Status]** `Active` aus.
 
-   - Wählen Sie für **[!UICONTROL Apply to]** `Visitors and Registered Customers` aus.
+   - Wählen Sie **[!UICONTROL Apply to]** `Visitors and Registered Customers` aus.
 
-   - Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save and Continue Edit]**.
+   - Klicken Sie abschließend auf **[!UICONTROL Save and Continue Edit]**.
 
-     Im Bedienfeld auf der linken Seite stehen zusätzliche Optionen zur Verfügung.
+     Zusätzliche Optionen werden im Bedienfeld auf der linken Seite verfügbar.
 
-   ![Eigenschaften des Kundensegments](./assets/customer-segment-first-time.png){width="600" zoomable="yes"}
+   ![Kundensegmenteigenschaften](./assets/customer-segment-first-time.png){width="600" zoomable="yes"}
 
 1. Definieren Sie die **[!UICONTROL Conditions]**.
 
-   In diesem Beispiel zielt die Bedingung auf Kunden ab, für die die Gesamtanzahl der Bestellungen kleiner als 1 _&quot;Wahr&quot;ist._
+   In diesem Beispiel zielt die Bedingung auf Kunden ab, für die _Gesamtzahl der Bestellungen kleiner als 1 ist_ „true“ ist.
 
-   - Wählen Sie im Bedienfeld auf der linken Seite **[!UICONTROL Conditions]** aus.
+   - Wählen Sie im Bedienfeld auf der linken Seite **[!UICONTROL Conditions]**.
 
-     Die Standardbedingung beginnt mit &quot;Wenn ALLE dieser Bedingungen TRUE sind:&quot;
+     Die Standardbedingung beginnt mit „Wenn alle diese Bedingungen erfüllt sind:“
 
-   - Klicken Sie auf _Hinzufügen_ (![Symbol hinzufügen](../assets/icon-add-green-circle.png)) und wählen Sie `Number of Orders` aus.
+   - Klicken Sie _Hinzufügen_ (![Symbol hinzufügen](../assets/icon-add-green-circle.png)) und wählen Sie `Number of Orders` aus.
 
    - Klicken Sie auf **[!UICONTROL is]** und wählen Sie `less than` aus.
 
-   - Klicken Sie auf **..** und geben Sie `1` in das Feld ein.
+   - Klicken Sie auf **…** und geben Sie `1` in das Feld ein.
 
-   - Klicken Sie auf das grüne Häkchen ( ![grünes Häkchen](../assets/icon-checkmark-green-circle.png) ), um die Bedingungseinstellung zu speichern.
+   - Klicken Sie auf das grüne Häkchen ( ![grünes Häkchen](../assets/icon-checkmark-green-circle.png) ), um die Einstellung der Bedingung zu speichern.
 
-   ![Bedingung für Kundensegment](./assets/customer-segment-first-time-condition.png){width="600" zoomable="yes"}
+   ![Bedingung des Kundensegments](./assets/customer-segment-first-time-condition.png){width="600" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-Das Kundensegment wird im Raster _[!UICONTROL Customer Segments]_erstellt und angezeigt.
+Das Kundensegment wird erstellt und im _[!UICONTROL Customer Segments]_Raster angezeigt.
 
 >[!TIP]
 >
->Notieren Sie sich die Segment-ID. Sie verwenden diese ID-Nummer, um die Preisregel für den Warenkorb zu erstellen.
+>Notieren Sie sich die Segment-ID. Mit dieser ID-Nummer erstellen Sie die Preisregel für den Warenkorb.
 
-## Schritt 2. Erstellen der Preisregel für den Warenkorb
+## Schritt 2. Erstellen der Warenkorb-Preisregel
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rule]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rule]**.
 
-1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Add New Rule]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Add New Rule]**.
 
-   Der Abschnitt **[!UICONTROL Rule Information]** wird standardmäßig mit erweiterbaren Abschnitten für **[!UICONTROL Conditions]** und **[!UICONTROL Conditions]** angezeigt.
+   Standardmäßig wird der Abschnitt **[!UICONTROL Rule Information]** mit erweiterbaren Abschnitten für **[!UICONTROL Conditions]** und **[!UICONTROL Conditions]** angezeigt.
 
 1. Definieren Sie die **[!UICONTROL Rule Information]**.
 
-   - Füllen Sie die Felder **[!UICONTROL Rule Name]** und **[!UICONTROL Description]** aus. Diese Felder dienen nur Ihrer internen Referenz.
+   - Füllen Sie die Felder **[!UICONTROL Rule Name]** und **[!UICONTROL Description]** aus. Diese Felder dienen nur als interne Referenz.
 
-   - Wählen Sie für &quot;**[!UICONTROL Websites]**&quot;die Website aus, auf der die Regel verfügbar sein soll.
+   - Wählen Sie **[!UICONTROL Websites]** die Website aus, auf der die Regel verfügbar sein soll.
 
-   - Wählen Sie für **[!UICONTROL Customer Groups]** die Kundengruppe aus, für die diese Regel gilt.
+   - Wählen Sie **[!UICONTROL Customer Groups]** die Kundengruppe aus, für die diese Regel gilt.
 
-     Um mehrere Gruppen auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jede Option.
-
-     >[!NOTE]
-     >
-     >Die Optionen in dieser Liste hängen von den in **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]** erstellten und verwalteten Kundengruppen ab.
-
-   - Wählen Sie für **[!UICONTROL Coupon]** `No Coupon` aus.
-
-   - Geben Sie für **[!UICONTROL Uses per Customer]** den Wert `1` ein.
-
-   - Geben Sie für **[!UICONTROL Priority]** eine Zahl ein, um die Priorität dieser Regel im Vergleich zu anderen Regeln festzulegen.
+     Zur Auswahl mehrerer Gruppen halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Optionen.
 
      >[!NOTE]
      >
-     >Die Einstellung Priorität ist wichtig, wenn dasselbe Katalogprodukt die Bedingungen für mehr als eine Preisregel erfüllt. Die Regel mit der Einstellung &quot;höchste Priorität&quot;wird für den Kunden aktiv. Die höchste Priorität ist 1. In diesem Beispiel bedeutet die Eingabe von `1`, dass diese Regel vor jeder anderen Preisregel angewendet wird. Dieser Wert wird von der Einstellung **[!UICONTROL Discard Subsequent Rules]** im Abschnitt **[!UICONTROL Action]** verwendet.
+     >Die Optionen in dieser Liste hängen von den Kundengruppen ab, die in **[!UICONTROL Customers]** > **[!UICONTROL Customer Groups]** erstellt und verwaltet werden.
 
-   - Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save and Continue Edit]**.
+   - Wählen Sie **[!UICONTROL Coupon]** `No Coupon` aus.
 
-     Im Bedienfeld auf der linken Seite stehen zusätzliche Optionen zur Verfügung.
+   - Geben Sie **[!UICONTROL Uses per Customer]** `1` ein.
 
-   ![Informationen zur Preisregel für Warenkorb](./assets/rule-information-first-time.png){width="600" zoomable="yes"}
+   - Geben Sie **[!UICONTROL Priority]** eine Zahl ein, um die Priorität dieser Regel gegenüber anderen Regeln festzulegen.
+
+     >[!NOTE]
+     >
+     >Die Einstellung „Priorität“ ist wichtig, wenn dasselbe Katalogprodukt die Bedingungen für mehr als eine Preisregel erfüllt. Die Regel mit der höchsten Prioritätseinstellung wird für den Kunden aktiv. Die höchste Priorität ist 1. Wenn Sie für dieses Beispiel `1` eingeben, wird diese Regel vor jeder anderen Preisregel angewendet. Dieser Wert wird von der Einstellung **[!UICONTROL Discard Subsequent Rules]** im Abschnitt **[!UICONTROL Action]** verwendet.
+
+   - Klicken Sie abschließend auf **[!UICONTROL Save and Continue Edit]**.
+
+     Zusätzliche Optionen werden im Bedienfeld auf der linken Seite verfügbar.
+
+   ![Informationen zur Warenkorbpreisregel](./assets/rule-information-first-time.png){width="600" zoomable="yes"}
 
 1. Definieren Sie die **[!UICONTROL Conditions]**.
 
-   - Scrollen Sie nach unten und erweitern Sie den Abschnitt **[!UICONTROL Conditions]** um den ![Erweiterungsselektor](../assets/icon-display-expand.png).
+   - Scrollen Sie nach unten und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Conditions]** .
 
-     Die Standardregel beginnt mit &quot;Wenn ALLE dieser Bedingungen TRUE sind:&quot;.
+     Die Standardregel beginnt mit „Wenn alle diese Bedingungen erfüllt sind:“.
 
-   - Klicken Sie auf _Hinzufügen_ (![Symbol hinzufügen](../assets/icon-add-green-circle.png)) und wählen Sie `Customer Segment` aus.
+   - Klicken Sie _Hinzufügen_ (![Symbol hinzufügen](../assets/icon-add-green-circle.png)) und wählen Sie `Customer Segment` aus.
 
-     Das Qualifikationsfeld ist standardmäßig auf `matches` eingestellt.
+     Das Feld „Kennzeichner“ ist standardmäßig auf `matches` eingestellt.
 
-   - Klicken Sie auf &quot;**..**&quot;und geben Sie die Segment-ID des Kundensegments ein, das Sie als Ziel auswählen möchten.
+   - Klicken Sie auf **…** und geben Sie die Segment-ID des Kundensegments ein, das Sie ansprechen möchten.
 
-     In diesem Beispiel lautet die Segment-ID für das neue Segment, das in Schritt 1 erstellt wurde, `2`.
+     In diesem Beispiel wird die Segment-ID für das neue Segment, das in Schritt 1 erstellt wurde, `2`.
 
      >[!NOTE]
      >
-     >Wenn Sie die Segment-ID nicht kennen, klicken Sie auf das Auswahlsymbol ( ![Listensymbol](../assets/icon-list-chooser.png) ), um die Liste Kundensegment anzuzeigen. Sie können die ID manuell in das Feld eingeben oder das Kontrollkästchen für das gewünschte Segment aktivieren, um das Feld automatisch auszufüllen.
+     >Wenn Sie die Segment-ID nicht kennen, klicken Sie auf das Auswahlsymbol ( ![list icon](../assets/icon-list-chooser.png) ), um die Liste der Kundensegmente anzuzeigen. Sie können die ID manuell in das Feld eingeben oder das Kontrollkästchen für das gewünschte Segment aktivieren, um das Feld automatisch auszufüllen.
 
-   - Klicken Sie auf das grüne Häkchen ( ![grünes Häkchen](../assets/icon-checkmark-green-circle.png) ), um die Bedingungseinstellung zu speichern.
+   - Klicken Sie auf das grüne Häkchen ( ![grünes Häkchen](../assets/icon-checkmark-green-circle.png) ), um die Einstellung der Bedingung zu speichern.
 
-   - Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save and Continue Edit]**.
+   - Klicken Sie abschließend auf **[!UICONTROL Save and Continue Edit]**.
 
-     Diese Zeile der Regel gilt für alle Kunden, die mit der Kundensegment-ID 2 übereinstimmen.
+     Diese Regelzeile gilt für alle Kunden, die der Kundensegment-ID 2 entsprechen.
 
-   ![Bedingung für Kundensegment](./assets/customer-segment-matches.png){width="400"}
+   ![Bedingung des Kundensegments](./assets/customer-segment-matches.png){width="400"}
 
-1. Scrollen Sie nach unten und erweitern Sie den Abschnitt ![Erweiterungsauswahl](../assets/icon-display-expand.png)im Abschnitt **[!UICONTROL Conditions]** und definieren Sie die Aktionen für die Regel.
+1. Scrollen Sie nach unten und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Conditions]** und definieren Sie die Aktionen für die Regel.
 
-   In diesem Abschnitt definieren Sie die Art des Rabatts und den Wert/Betrag des Rabatts, den Sie für Erstkunden anwenden möchten. In diesem Beispiel wird ein Rabatt von 10 % für alle Kunden definiert, die die definierte Bedingung erfüllen. Weitere Informationen zu anderen verfügbaren Optionen finden Sie unter [Erstellen einer Warenkorbpreisregel](price-rules-cart-create.md).
+   In diesem Abschnitt definieren Sie die Art des Rabatts und den Wert/Betrag des Rabatts, den Sie für Erstkunden anwenden möchten. In diesem Beispiel wird ein Rabatt von 10 % für alle Kunden definiert, die die definierte Bedingung erfüllen. Weitere Informationen zu anderen verfügbaren Optionen finden Sie unter [Erstellen einer Warenkorb-Preisregel](price-rules-cart-create.md).
 
-   - Wählen Sie für &quot;**[!UICONTROL Apply]**&quot;Prozent des Produktpreisrabatts aus.
+   - Wählen Sie **[!UICONTROL Apply]** „Prozent des Produktpreisrabatts“ aus.
 
-   - Geben Sie für **[!UICONTROL Discount Amount]** den Wert `10` ein.
+   - Geben Sie **[!UICONTROL Discount Amount]** `10` ein.
 
-   - Um diese Preisregel nur auf Produktmengen anzuwenden, setzen Sie **[!UICONTROL Apply to Shipping Amount]** auf `No`.
+   - Um diese Preisregel nur auf Produktbeträge anzuwenden, setzen Sie **[!UICONTROL Apply to Shipping Amount]** auf `No`.
 
    - Um zu verhindern, dass das System mehrere Preisregeln auf dasselbe Produkt anwendet, setzen Sie **[!UICONTROL Discard Subsequent Rules]** auf `Yes`.
 
-   - Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
+   - Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-   ![Aktionen der Preisregel für Warenkorb](./assets/actions-first-time.png){width="600" zoomable="yes"}
+   ![Aktionen für Warenkorbpreisregeln](./assets/actions-first-time.png){width="600" zoomable="yes"}
 
 Die neue Regel ist normalerweise innerhalb einer Stunde verfügbar. Testen Sie die Regel, um sicherzustellen, dass sie wie definiert funktioniert.
 
-## Schritt 3: Speichern und testen Sie die Regel
+## Schritt 3: Speichern und Testen der Regel
 
 {{new-price-rule}}
 
-1. Klicken Sie nach Abschluss der Regel auf **[!UICONTROL Save Rule]**.
+1. Wenn Ihre Regel abgeschlossen ist, klicken Sie auf **[!UICONTROL Save Rule]**.
 
-1. Testen Sie die Regel, um sicherzustellen, dass sie ordnungsgemäß funktioniert.
+1. Testen Sie die Regel, um sicherzustellen, dass sie korrekt funktioniert.

@@ -1,6 +1,6 @@
 ---
-title: Data Management Dashboard
-description: Erfahren Sie, wie Sie auf Einblicke in Datenströme für [!DNL Catalog Service],  [!DNL Live Search] und  [!DNL Product Recommendation]s zugreifen können.
+title: Dashboard für das Daten-Management
+description: Erfahren Sie, wie Sie auf Einblicke zu Datenströmen für [!DNL Catalog Service],  [!DNL Live Search] und  [!DNL Product Recommendation] zugreifen können.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
 source-git-commit: 4495a27b57c04c6f9c37b2c5237b5f2233cc8532
@@ -10,69 +10,69 @@ ht-degree: 0%
 
 ---
 
-# Data Management Dashboard
+# Dashboard für das Daten-Management
 
-Das Data Management Dashboard bietet einen Überblick über den Synchronisierungsstatus für Produktdaten, die von der Commerce-Datenbank an Commerce SaaS-Dienste übertragen werden. Benutzer können den Status der Produktsynchronisierung bequem überwachen und die Datensynchronisierung über ein einheitliches Dashboard starten. Diese Funktion bietet wertvolle Einblicke in die Verfügbarkeit von Produktdaten für Ihre Storefront und stellt sicher, dass sie Ihren Kunden umgehend angezeigt werden kann.
+Das Daten-Management-Dashboard bietet einen Überblick über den Synchronisierungsstatus für Produktdaten, die aus der Commerce-Datenbank an Commerce SaaS-Services übertragen werden. Benutzer können den Status der Produktsynchronisierung bequem überwachen und die Datensynchronisierung über ein einheitliches Dashboard starten. Diese Funktion bietet wertvolle Einblicke in die Verfügbarkeit von Produktdaten für Ihre Storefront, sodass sie Ihren Kundinnen und Kunden sofort angezeigt werden können.
 
 ## Zielgruppe
 
-Das Data Management Dashboard ist für alle Commerce-Händler, die [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) oder [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) mit einer aktiven Lizenz verwenden, kostenlos verfügbar.
+Das Daten-Management-Dashboard steht allen Commerce-Händlern, die [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) oder [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) mit einer aktiven Lizenz verwenden, ohne zusätzliche Kosten zur Verfügung.
 
-Das Dashboard &quot;Datenverwaltung&quot;befindet sich unter &quot;*System*&quot;> &quot;Datenübertragung&quot;> &quot;*Dashboard &quot;Datenverwaltung&quot;*&quot;.
+Das Daten-Management-Dashboard befindet sich unter *System* > Datenübertragung > *Daten-Management-Dashboard*.
 
-![Dashboard &quot;Datenverwaltung&quot;](assets/data-management-dashboard.png)
+![Daten-Management-Dashboard](assets/data-management-dashboard.png)
 
 Das Dashboard enthält die folgenden Felder:
 
 | Feld | Beschreibung |
 |--- |--- |
-| Anwendungsbereich | Spezifische Website für die synchronisierten Daten. |
+| Umfang | Spezifische Website für die synchronisierten Daten. |
 | [!DNL Product Recommendations] | Zeigt den Synchronisierungsstatus, die Anzahl der synchronisierten Produkte und eine Tabelle der [anzeigbaren](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) synchronisierten Produkte für [!DNL Product Recommendations] an. |
 | [!DNL Live Search] | Zeigt den Synchronisierungsstatus, die Anzahl der synchronisierten Produkte und eine Tabelle der [anzeigbaren](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) synchronisierten Produkte für [!DNL Live Search] an. |
 | [!DNL Catalog Service] | Zeigt den Synchronisierungsstatus, die Anzahl der synchronisierten Produkte und eine Tabelle der synchronisierten Produkte für [!DNL Catalog Service] an. |
-| Einstellungen | Öffnet ein Dialogfeld, in dem Sie die Katalogdaten [ manuell neu synchronisieren können.](#resync-catalog-data) |
-| Synchronisierungsstatus | Zeigt die Anzahl der Produkte an, die innerhalb der letzten drei Stunden von der Commerce-Datenbank an einen der SaaS-Dienste übertragen wurden. Wenn Sie selten einen Katalog aktualisieren, ist dieser Wert häufig null. Wenn eine Synchronisation ausgeführt wird, klicken Sie auf &quot;**[!UICONTROL Refresh]**&quot;, um eine aktualisierte Zählung zu erhalten. |
-| Produktanzahl | Gibt die Gesamtanzahl der für den Dienst verfügbaren Katalogprodukte an. Die Dashboards [!DNL Product Recommendations] und [!DNL Live Search] zeigen die Gesamtanzahl der _anzeigbaren_ Produkte an. [!DNL Catalog Service] filtert keine Produkte nach anzuzeigenden Werten. Wenn Sie also sowohl [!DNL Catalog Service] als auch [!DNL Live Search] oder [!DNL Product Recommendations] installiert haben, können die beiden Dashboards zwei unterschiedliche Werte für die Produktanzahl anzeigen. |
-| Synchrone Produkte | Enthält Details zu den Produkten im Commerce-Core-Index. Standardmäßig ist diese Tabelle nach &quot;Zuletzt aktualisiert&quot;sortiert. Um ein bestimmtes Produkt zu finden, verwenden Sie das Feld **[!UICONTROL Search by SKU]** . Um zu steuern, welche Spalten angezeigt werden, klicken Sie rechts neben der Tabelle auf **[!UICONTROL Customize Table]** . |
+| Einstellungen | Öffnet ein Dialogfeld, in dem Sie [die Katalogdaten manuell neu synchronisieren](#resync-catalog-data). |
+| Synchronisierungsstatus | Zeigt die Anzahl der Produkte an, die innerhalb der letzten drei Stunden von der Commerce-Datenbank zu einem der SaaS-Services übertragen wurden. Wenn Sie Ihren Katalog gelegentlich aktualisieren, ist dieser Wert häufig null. Wenn eine Synchronisierung ausgeführt wird, klicken Sie auf **[!UICONTROL Refresh]** , um eine aktualisierte Anzahl abzurufen. |
+| Anzahl der Produkte | Gibt die Gesamtzahl der Katalogprodukte an, die für den Service verfügbar sind. Die [!DNL Product Recommendations]- und [!DNL Live Search]-Dashboards zeigen die Gesamtzahl der _anzeigbaren_ an. [!DNL Catalog Service] filtert Produkte nicht nach anzeigbaren Inhalten. Wenn Sie also sowohl [!DNL Catalog Service] als auch [!DNL Live Search] oder [!DNL Product Recommendations] installiert haben, können die beiden Dashboards zwei verschiedene Werte für die Produktanzahl anzeigen. |
+| Synchronisierte Produkte | Enthält Details zu den Produkten im Commerce-Kernindex. Standardmäßig wird diese Tabelle nach „Zuletzt aktualisiert“ sortiert. Um ein bestimmtes Produkt zu finden, verwenden Sie das Feld **[!UICONTROL Search by SKU]** . Um zu steuern, welche Spalten angezeigt werden, klicken Sie auf **[!UICONTROL Customize Table]** rechts neben der Tabelle. |
 
 ## Verwenden des Daten-Management-Dashboards
 
-Wenn Sie Produkte in der Commerce-Datenbank aktualisieren, werden die Produktdaten gemäß Ihrer Systemkonfiguration an die SaaS-Dienste übertragen. Wenn der Synchronisierungsprozess initiiert wird, gibt **Produktanzahl** die Anzahl der Produkte an, die an SaaS-Dienste gesendet werden.
+Wenn Sie Produkte in der Commerce-Datenbank aktualisieren, werden Produktdaten entsprechend Ihrer Systemkonfiguration an SaaS-Services übertragen. Wenn der Synchronisierungsvorgang gestartet wird, gibt **Produktanzahl** die Anzahl der an SaaS-Services gesendeten Produkte an.
 
 >[!IMPORTANT]
 >
->Die Zeit, die zum Abschluss der Synchronisierung benötigt wird, hängt von der Größe Ihres Katalogs und dem Volumen der aktualisierten Daten ab.
+>Die Zeit, die zum Abschluss der Synchronisierung benötigt wird, hängt von Ihrer Kataloggröße und dem Volumen der aktualisierten Daten ab.
 
-Wenn die Anzahl der verarbeiteten Produkte mit der Anzahl der aktualisierten Produkte übereinstimmt, zeigt dies an, dass die Synchronisierung abgeschlossen ist.
+Wenn die Anzahl der verarbeiteten Produkte mit der Anzahl der aktualisierten Produkte übereinstimmt, bedeutet dies, dass die Synchronisierung abgeschlossen ist.
 
 >[!NOTE]
 >
->Adobe bietet außerdem eine Befehlszeilenschnittstelle und Systemprotokolle, die Entwickler und Systemintegratoren verwenden können, um Synchronisierungsvorgänge zu verwalten und zu verfolgen und Fehler für Commerce SaaS-Dienste zu beheben. Weitere Informationen finden Sie im [SAAS-Datenexport-Handbuch](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe bietet außerdem eine Befehlszeilenschnittstelle und Systemprotokolle, die Entwickler und Systemintegratoren verwenden können, um Synchronisierungsvorgänge zu verwalten und zu verfolgen und Fehler für Commerce SaaS-Services zu beheben. Weitere Informationen finden Sie im [SaaS-Datenexporthandbuch](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
 
 ### Liste der synchronisierten Produkte
 
 Um die Details eines synchronisierten Produkts anzuzeigen, klicken Sie in der Tabelle auf das Produkt.
 
-![Synchronisierte Produktdetails](assets/sync-product-detail.png)
+![Produktdetails synchronisieren](assets/sync-product-detail.png)
 
-### Resynchronisation von Katalogdaten
+### Katalogdaten neu synchronisieren
 
-Um sicherzustellen, dass Ihre Commerce SaaS-Dienste immer auf dem neuesten Stand der Produktinformationen sind, sollten Sie [einen Zeitplan ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) für die Synchronisierung von Katalogdaten implementieren.
+Um sicherzustellen, dass Ihre Commerce SaaS-Services immer mit den neuesten Produktinformationen aktualisiert werden, sollten Sie [einen Zeitplan) ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) Synchronisieren von Katalogdaten implementieren.
 
-Sie können zwar [manuell ](#manually-resync-catalog) eine Neusynchronisierung von Katalogdaten aus der Commerce-Datenbank mit SaaS-Diensten starten, es wird jedoch nicht empfohlen, da dies die Belastung der Hardware-Ressourcen erhöhen kann. In den folgenden Szenarien kann es jedoch erforderlich sein, den Katalog manuell neu zu synchronisieren:
+Sie können zwar [manuell initiieren](#manually-resync-catalog) eine Neusynchronisierung von Katalogdaten aus der Commerce-Datenbank mit SaaS-Services durchführen, dies wird jedoch nicht empfohlen, da dies die Belastung der Hardwareressourcen erhöhen kann. In den folgenden Szenarien kann es jedoch erforderlich sein, den Katalog manuell neu zu synchronisieren:
 
-- Wenn wichtige Änderungen an Ihrem Produktkatalog vorgenommen werden, z. B. das Hinzufügen neuer Produkte, das Aktualisieren von Produktdetails oder das Ändern von Kategorien
+- Wenn wesentliche Änderungen an Ihrem Produktkatalog vorgenommen werden, z. B. beim Hinzufügen neuer Produkte, Aktualisieren von Produktdetails oder Ändern von Kategorien
 
-- Wenn Sie Abweichungen oder Leistungsprobleme bei der Anzeige von Produktdaten auf Ihren Storefronts feststellen
+- Wenn Sie Diskrepanzen oder Leistungsprobleme bei der Anzeige von Produktdaten auf Ihren Storefronts bemerken
 
-- Nach Aktualisierungen oder Änderungen an Integrationen zwischen der Commerce-Datenbank und SaaS-Diensten
+- Nach allen Aktualisierungen oder Änderungen an Integrationen zwischen der Commerce-Datenbank und den SaaS-Services
 
-- Bei der Bereitstellung von Anpassungen oder Konfigurationen, die sich auf das Produktdatenmanagement oder Synchronisierungsprozesse auswirken
+- Beim Bereitstellen von Anpassungen oder Konfigurationen, die sich auf die Verwaltung von Produktdaten oder Synchronisierungsprozesse auswirken
 
-Durch die Einhaltung dieser Richtlinien und die proaktive Neusynchronisierung von Katalogdaten nach Bedarf können Sie die Datenkonsistenz, Genauigkeit und Zuverlässigkeit in Ihrem gesamten Adobe Commerce-Ökosystem sicherstellen.
+Durch Befolgung dieser Richtlinien und das proaktive Neusynchronisieren von Katalogdaten nach Bedarf können Sie die Konsistenz, Genauigkeit und Zuverlässigkeit der Daten in Ihrem gesamten Adobe Commerce-Ökosystem gewährleisten.
 
-#### Manuelles erneutes Synchronisieren von Katalogen
+#### Katalog manuell neu synchronisieren
 
-Wenn Sie Katalogdaten neu synchronisieren müssen, klicken Sie rechts auf der Seite auf **[!UICONTROL Settings]** , um ein Dialogfeld anzuzeigen, in dem Sie eine Neusynchronisierung starten können. Die erneute Synchronisierung von Katalogdaten zwingt den Dienst dazu, Daten aus der Commerce-Datenbank auf SaaS-Dienste zurückzusetzen.
+Wenn Sie Katalogdaten erneut synchronisieren müssen, klicken Sie auf der rechten Seite der Seite auf **[!UICONTROL Settings]** , um ein Dialogfeld anzuzeigen, in dem Sie eine erneute Synchronisierung starten können. Durch das Neusynchronisieren von Katalogdaten wird der Service gezwungen, Daten erneut aus der Commerce-Datenbank auf SaaS-Services abzurufen.
 
 ![Produkte manuell synchronisieren](assets/resync-data.png)

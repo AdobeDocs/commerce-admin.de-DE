@@ -1,6 +1,6 @@
 ---
 title: Erweiterungen von Adobe
-description: Überprüfen Sie Informationen zu Erweiterungen für Adobe Commerce und Magento Open Source, die von Adobe veröffentlicht werden.
+description: Lesen Sie Informationen zu Erweiterungen für Adobe Commerce und Magento Open Source, die von Adobe veröffentlicht wurden.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
 source-git-commit: 6414a7aea7dcbe0f2379ed74455518220a1fbd64
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Erweiterungen von Adobe
 
-Dieses Thema enthält Informationen zu Erweiterungen für Adobe Commerce und Magento Open Source, die von Adobe veröffentlicht werden. Erweiterungen fügen dem Admin und der Storefront Funktionen, Dienste und Integrationen hinzu. Einige dieser Erweiterungen werden durch Gemeinschaftsbeiträge der Magento Open Source entwickelt. Einige Erweiterungen erfordern eine separate Installation, andere sind standardmäßig installiert.
+In diesem Abschnitt finden Sie Informationen zu Erweiterungen für Adobe Commerce und Magento Open Source, die auf Adobe veröffentlicht werden. Erweiterungen fügen Funktionen, Dienste und Integrationen zur Admin- und Storefront hinzu. Einige dieser Erweiterungen werden durch Beiträge der Magento Open Source Community entwickelt. Einige Erweiterungen müssen separat installiert werden, andere sind standardmäßig installiert.
 
 ## Installierte Erweiterungen
 
@@ -20,77 +20,77 @@ Es gibt einige Erweiterungen, die automatisch mit Adobe Commerce oder Magento Op
 
 ### [!DNL Inventory Management]
 
-[!DNL Commerce] [[!DNL Inventory Management]](../inventory-management/introduction.md) bietet ein verbessertes Lager- und Versandmanagement über einen oder mehrere Standorte und Vertriebskanäle hinweg mit gleichzeitigen Algorithmen zum Checkout-Schutz und zum Abgleich von Sendungen. Verfolgen Sie Ihre Lagerbestandsmengen, liefern Sie exakte Verkaufsmengen an Kunden, und versenden Sie gemäß Empfehlungen oder manueller Auswahl, um Ihren gesamten Bestand zu kontrollieren. Konfigurieren Sie Verwaltungseinstellungen global, pro Quelle und pro Produkt.
+[!DNL Commerce] [[!DNL Inventory Management]](../inventory-management/introduction.md) bietet ein verbessertes Lager- und Versandmanagement an einem oder mehreren Standorten und über verschiedene Vertriebskanäle mit gleichzeitigem Checkout-Schutz und Algorithmen zum Abgleich von Sendungen. Verfolgen Sie Ihre Lagermengen, liefern Sie genaue verkaufbare Lagermengen an Kunden und versenden Sie gemäß Empfehlungen oder manueller Auswahl, um Ihren gesamten Bestand zu kontrollieren. Konfigurieren Sie Verwaltungseinstellungen global, pro Quelle und pro Produkt.
 
 >[!NOTE]
 >
->Diese Erweiterung wurde im Rahmen des Projekts [[!DNL Inventory Management]](https://github.com/magento/inventory) (ehemals MSI) im Rahmen des Engineering-Programms der Community entwickelt.
+>Diese Erweiterung wurde im Rahmen des Projekts [[!DNL Inventory Management]](https://github.com/magento/inventory) (ehemals MSI) durch das Community Engineering-Programm entwickelt.
 
-[!DNL Inventory Management] installiert mit allen standardmäßig aktivierten Funktionen. Zur Aktivierung dieser Bestandsfunktionen sind keine zusätzlichen Schritte erforderlich. Weitere Informationen zu den Funktionen von [!DNL Inventory Management] finden Sie im [[!DNL Inventory Management] Benutzerhandbuch](../inventory-management/guide-overview.md).
+[!DNL Inventory Management] wird mit allen standardmäßig aktivierten Funktionen installiert. Zur Aktivierung dieser Bestandsfunktionen sind keine zusätzlichen Schritte erforderlich. Weitere Informationen zu den [!DNL Inventory Management] finden Sie im [[!DNL Inventory Management] Benutzerhandbuch](../inventory-management/guide-overview.md).
 
 ### Braintree
 
-PayPal und Gene Commerce haben gemeinsam die offizielle Braintree-Erweiterung für Commerce 2.4.x Stores entwickelt. Dank eines verbesserten Checkout-Erlebnisses, das die Konversion fördern soll, enthalten die Updates PayLater-Optionen, mit denen Verbraucher beim Einkauf und während des Checkout automatisch relevante PayLater-Nachrichten und -Schaltflächen sehen können.
+PayPal und Gene Commerce entwickelten gemeinsam die offizielle Braintree-Erweiterung für Commerce 2.4.x Stores. Die Updates bieten ein verbessertes Checkout-Erlebnis zur Steigerung der Konversionsrate und beinhalten PayLater-Optionen, mit denen beim Einkaufen und beim Checkout automatisch relevante PayLater-Nachrichten und -Schaltflächen angezeigt werden.
 
-Diese Erweiterung ist standardmäßig installiert, erfordert jedoch, dass ein [Braintree-Konto](https://www.braintreepayments.com/) und eine Konfiguration im Admin für Ihren Store aktiviert sind. Um die Gebühren zu bestimmen, die bei der Verwendung von Braintree zur Verarbeitung Ihrer Transaktionen anfallen, überprüfen Sie die [Braintree-Preise](https://www.braintreepayments.com/braintree-pricing).
+Diese Erweiterung wird standardmäßig installiert, erfordert jedoch ein [Braintree-Konto](https://www.braintreepayments.com/) und die Konfiguration im Admin-Bereich, um für Ihren Store aktiviert zu werden. Um die Gebühren zu ermitteln, die bei der Verwendung von Braintree zur Verarbeitung Ihrer Transaktionen anfallen, überprüfen Sie die [Braintree-Preise](https://www.braintreepayments.com/braintree-pricing).
 
-Informationen zur Braintree-Konfiguration im Admin finden Sie im Thema [Braintree](../stores-purchase/braintree.md) im _Verkaufs- und Kauferlebnis-Handbuch_.
+Informationen zur Braintree-Konfiguration in Admin finden Sie im [Braintree](../stores-purchase/braintree.md)-Thema im _Handbuch zu Vertrieb und Kauf_.
 
 ### Google reCAPTCHA
 
-Google reCAPTCHA bietet sowohl für die Storefront als auch für die Admin-Benutzeroberfläche ein höheres Sicherheitsniveau als mit dem Standard-CAPTCHA verfügbar ist und bietet Ihnen die Möglichkeit:
+Google reCAPTCHA bietet ein höheres Maß an Sicherheit sowohl für die Storefront als auch für die Admin-Benutzeroberfläche als mit standardmäßigem CAPTCHA verfügbar ist und bietet Ihnen folgende Möglichkeiten:
 
 - Überprüfen Sie, wann Kunden Konten erstellen, Kennwörter abrufen, sich bei ihren Konten anmelden oder sich an Ihr Unternehmen wenden.
 - Erhöhen Sie die Sicherheit bei der Anmeldung von Admin-Benutzern.
 
-Dadurch wird der potenzielle Benutzerfehler bei der Eingabe eines Captcha-Codes reduziert und die Konversion des Warenkorbs gefördert, ohne dass beim Checkout Hürden hinzugefügt werden. [Aktivieren und konfigurieren Sie reCAPTCHA](../systems/security-google-recaptcha.md) mithilfe unsichtbarer oder interaktiver Prüfungen, um den sicheren Zugriff auf die [!DNL Commerce] Admin- und Storefront zu verbessern.
+Dadurch werden potenzielle Benutzerfehler bei der Eingabe eines CAPTCHA-Codes reduziert und die Konversion in den Warenkorb gefördert, ohne dass beim Checkout Hürden hinzugefügt werden. [Aktivieren und konfigurieren Sie reCAPTCHA](../systems/security-google-recaptcha.md) indem Sie unsichtbare oder interaktive Prüfungen verwenden, um den sicheren Zugriff auf die [!DNL Commerce] Admin- und Storefront zu verbessern.
 
-### Zweifaktorauthentifizierung
+### Zwei-Faktor-Authentifizierung
 
-Der Administrator [!DNL Commerce] bietet Zugriff auf Ihre Store-, Bestellungen- und Kundendaten. [Zweifaktorauthentifizierung](../systems/security-two-factor-authentication.md) (2FA oder TFA) verbessert die Sicherheit, da zusätzliche Authentifizierung erforderlich ist, die über den standardmäßigen Anmeldenamen und das Standardkennwort hinausgeht und für den Zugriff auf den [!DNL Commerce] -Administrator von allen Geräten aus erforderlich ist. Die Erweiterung unterstützt mehrere Authentifizierer, einschließlich Google Authenticator-, Authy-, [!DNL Duo]- und U2F-Schlüssel. Diese Authentifizierung gilt nur für Admin-Benutzer. Sie ist nicht für Storefront-Kundenkonten verfügbar.
+Der [!DNL Commerce] Admin bietet Zugriff auf alle Ihre Stores, Bestellungen und Kundendaten. [Zwei-Faktor-Authentifizierung](../systems/security-two-factor-authentication.md) (2FA oder TFA) erhöht die Sicherheit, indem eine zusätzliche Authentifizierung über den standardmäßigen Anmeldenamen und das Kennwort hinaus erforderlich ist, um von allen Geräten aus auf den [!DNL Commerce]-Administrator zuzugreifen. Die Erweiterung unterstützt mehrere Authentifizierer, einschließlich Google Authenticator, Authy, [!DNL Duo] und U2F-Schlüsseln. Diese Authentifizierung gilt nur für Admin-Benutzer. Sie ist nicht für Storefront-Kundenkonten verfügbar.
 
-Diese Funktionen sind standardmäßig aktiviert. Jeder Admin-Benutzer muss einen der unterstützten Authentifizierer installieren und konfigurieren.
+Diese Funktionen sind standardmäßig aktiviert. Jeder Admin-Benutzer muss einen der unterstützten Authentifikatoren installieren und konfigurieren.
 
 >[!NOTE]
 >
->Bei Adobe Commerce-Stores, bei denen die Authentifizierung für Adobe Identity Management Services (IMS) für den Admin aktiviert wurde, ist die native Commerce 2FA deaktiviert. Benutzer, die mit ihren Adobe-Anmeldedaten beim Admin angemeldet sind, müssen sich nicht für viele Administratoraufgaben erneut authentifizieren. Die Authentifizierung wird von Adobe IMS verarbeitet, wenn sich der Administrator in seiner aktuellen Sitzung anmeldet. Siehe [Adobe Identity Management Service (IMS)-Integrationsübersicht](./adobe-ims-integration-overview.md).
+>In Adobe Commerce-Stores, in denen die Adobe Identity Management Services (IMS)-Authentifizierung für den Administrator aktiviert ist, ist das native Commerce 2FA deaktiviert. Benutzende, die mit ihren Adobe-Anmeldeinformationen bei Admin angemeldet sind, müssen sich für viele Administratoraufgaben nicht erneut authentifizieren. Die Authentifizierung wird von Adobe IMS durchgeführt, wenn sich der Administrator bei seiner aktuellen Sitzung anmeldet. Siehe Übersicht über die Integration von [Adobe Identity Management Service (IMS)](./adobe-ims-integration-overview.md).
 
-## Hinzufügen von Erweiterungen
+## Hinzuzufügende Erweiterungen
 
-Der [[!DNL Commerce Marketplace]](https://marketplace.magento.com/) ist die globale eCommerce-Ressource für Anwendungen und Dienste, die [!DNL Commerce] -Lösungen mit leistungsstarken neuen Funktionen und Funktionen erweitern. Adobe gibt mehrere Erweiterungen über die [!DNL Marketplace] frei, die in Ihrem Adobe Commerce- oder Magento Open Source-Store installiert und konfiguriert werden können, um erweiterte Integrationen und Funktionen bereitzustellen.
+Die [[!DNL Commerce Marketplace]](https://marketplace.magento.com/) ist die globale eCommerce-Ressource für Programme und Services, die [!DNL Commerce] Lösungen um leistungsstarke neue Funktionen erweitert. Adobe veröffentlicht mehrere Erweiterungen über die [!DNL Marketplace], die in Ihrem Adobe Commerce- oder Magento Open Source-Store installiert und konfiguriert werden können, um erweiterte Integrationen und Funktionen bereitzustellen.
 
 ### [!DNL Live Search]
 
-![Adobe Commerce](../assets/adobe-logo.svg) Nur Adobe Commerce
+![Nur Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce
 
-Die Erweiterung [!DNL Live Search] verbindet Ihren Store mit dem Live-Suchdienst - einer kostenlosen Suchplattform aus Adobe Commerce, mit der Verkäufer nahtlos in die Lage versetzt werden, Kunden eine KI-gestützte Sucherfahrung anzubieten. Intelligente Faceting-Tools, die mit künstlicher Intelligenz von Adobe entwickelt wurden, helfen Händlern, mit weniger zu arbeiten, indem die manuelle Arbeit rund um Facettierung/Filterung entfernt wird.
+Die [!DNL Live Search]-Erweiterung verbindet Ihren Store mit dem Live Search-Service - einer kostenlosen Suchplattform von Adobe Commerce, mit der Verkäufer nahtlos Kunden ein KI-optimiertes Sucherlebnis bieten können. Adobe Sensei, das auf der Adobe-Ebene mit künstlicher Intelligenz basiert, hilft Händlern, mit weniger Aufwand mehr zu erreichen, indem sie die manuelle Arbeit um das Facettieren/Filtern entfernen.
 
-Weitere Informationen finden Sie im [Live Search-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html) .
+Weitere Informationen finden Sie [Live Search-](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)).
 
 ### [!DNL Product Recommendations]
 
-![Adobe Commerce](../assets/adobe-logo.svg) Nur Adobe Commerce
+![Nur Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce
 
-Die Erweiterung [!DNL Product Recommendations] verbindet Ihren Store mit dem Product Recommendations-Dienst - einem leistungsstarken Marketing-Tool, mit dem Sie Konversionen, Umsätze und Interaktionen steigern können. [!DNL Product Recommendations] wurde von Adobe Commerce erstellt und wird von der geprüfteten künstlichen Intelligenz Adobe Sensei angetrieben, sodass Sie die Interaktion und Konversion sicher fördern können. Diese Funktion entfernt die manuelle Arbeit, die erforderlich ist, um jedem Käufer relevante Produktempfehlungen zu unterbreiten.
+Die [!DNL Product Recommendations]-Erweiterung verbindet Ihren Shop mit dem Produkt-Recommendations-Service - einem leistungsstarken Marketing-Tool, mit dem Sie Konversionen, Umsätze und Interaktionen steigern können. [!DNL Product Recommendations] wurde von Adobe Commerce entwickelt und wird von seiner kampferprobten künstlichen Intelligenz, Adobe Sensei, angetrieben, sodass Sie mit Zuversicht Interaktion und Konversion fördern können. Mit dieser Funktion entfällt die manuelle Arbeit, die erforderlich ist, um relevante Produktempfehlungen an jeden Käufer zu senden.
 
-Weitere Informationen finden Sie im [[!DNL Product Recommendations] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html?lang=en) .
+Weitere Informationen finden Sie [[!DNL Product Recommendations] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html?lang=en) .
 
 ### [!DNL Catalog Service]
 
-Mit dem [!DNL Catalog Service] können Sie Kunden ein optimiertes Produkterlebnis bereitstellen und gleichzeitig die Leistung steigern, die Skalierbarkeit verbessern und Konversionen steigern. Weitere Informationen finden Sie im [[!DNL Catalog Service] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html) .
+Die [!DNL Catalog Service] ermöglicht es Ihnen, Kunden ein optimiertes Produkterlebnis zu bieten und gleichzeitig die Leistung zu steigern, die Skalierbarkeit zu verbessern und die Konversionen zu erhöhen. Weitere Informationen finden Sie [[!DNL Catalog Service] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html) .
 
 ### [!DNL Payment Services]
 
-[!DNL Payment services] für Adobe Commerce und Magento Open Source ist eine vollständig integrierte Zahlungslösung, die das Zahlungsmanagement vereinfacht und Ihren Kunden die Möglichkeit gibt, ihren Weg zu finden. Sichere Abstimmung aller Zahlungs- und Transaktionsdaten innerhalb des Adobe Commerce-Administrators, sodass Sie Bestellungen und Zahlungen zentral verwalten und gleichzeitig einen nahtlosen Checkout durchführen können. Weitere Informationen finden Sie im [[!DNL Payment Services] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) .
+[!DNL Payment services] für Adobe Commerce und Magento Open Source ist eine vollständig integrierte Zahlungslösung, die die Zahlungsverwaltung vereinfacht und Ihren Kunden die Möglichkeit gibt, ihren Zahlungsprozess mitzugestalten. So können Sie alle Zahlungs- und Transaktionsdaten innerhalb von Adobe Commerce Admin sicher abstimmen, sodass Sie Bestellungen und Zahlungen an einem Ort verwalten und gleichzeitig einen nahtlosen Checkout bieten können. Weitere Informationen finden Sie [[!DNL Payment Services] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) .
 
 ### [!DNL Store Fulfillment]
 
-Store Fulfillment für Adobe Commerce und Magento Open Source ermöglicht einen erstklassigen Online-Einkauf, eine BOPIS-Kundenerfahrung und eine maximale Mitarbeiterproduktivität, indem ein umfassender, auf einem Mobilgerät aktivierter Fulfillment-Workflow bereitgestellt wird. Weitere Informationen finden Sie im [[!DNL Store Fulfillment] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) .
+Store Fulfillment für Adobe Commerce und Magento Open Source ermöglicht einen hervorragenden Online-Einkauf, die Aufnahme im Geschäft (BOPIS)-Kundenerlebnis und maximiert die Mitarbeiterproduktivität durch Bereitstellung eines umfassenden Fulfillment-Workflows, der über ein Mobilgerät ermöglicht wird. Weitere Informationen finden Sie [[!DNL Store Fulfillment] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) .
 
 ### [!DNL Amazon Sales Channel]
 
-Mit dem Wert &quot;[!DNL Amazon Sales Channel] für Adobe Commerce&quot;können Sie Ihre Amazon Seller Central-Listing-Datenbank in Ihren [!DNL Commerce] -Produktkatalog integrieren und Ihre Amazon-Auflistungen und -Verkäufe in der Commerce Admin verwalten. Weitere Informationen finden Sie im [[!DNL Amazon Sales] Benutzerhandbuch für Handbücher](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html) .
+Die [!DNL Amazon Sales Channel] für Adobe Commerce ermöglicht es Ihnen, Ihre Amazon Seller Central-Listendatenbank mit Ihrem [!DNL Commerce] Produktkatalog zu integrieren und Ihre Amazon-Listen und -Verkäufe in der Commerce Admin zu verwalten. Weitere Informationen finden Sie [[!DNL Amazon Sales] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-channels/amazon/guide-overview.html).
 
 ### [!DNL Channel Manager]
 
-Mit [!DNL Channel Manager] können Sie den Umsatz steigern, neue Kunden erreichen, den Betrieb optimieren und Zeit sparen, indem Sie einen Adobe Commerce- oder Magento Open Source-Produktkatalog in den Walmart Marketplace integrieren. Nachdem Sie die Erweiterung installiert und konfiguriert haben, können Ihre Mitarbeiter die Walmart Marketplace-Listen, Inventare, Bestellungen, Rückgaben und Erstattungen nahtlos über die [!DNL Commerce Admin] verwalten. Weitere Informationen finden Sie im [[!DNL Channel Manager] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html) .
+[!DNL Channel Manager] ermöglicht es Ihnen, durch die Integration eines Adobe Commerce- oder Magento Open Source-Produktkatalogs in den Walmart Marketplace den Umsatz zu steigern, neue Kunden zu erreichen, den Betrieb zu optimieren und Zeit zu sparen. Nach der Installation und Konfiguration der Erweiterung können Ihre Mitarbeiter Walmart Marketplace-Listen, Inventar, Bestellungen, Rücksendungen und Rückerstattungen nahtlos von der [!DNL Commerce Admin] aus verwalten. Weitere Informationen finden Sie [[!DNL Channel Manager] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html) .

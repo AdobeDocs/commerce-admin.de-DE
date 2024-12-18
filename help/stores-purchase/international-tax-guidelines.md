@@ -1,6 +1,6 @@
 ---
-title: Steuerleitlinien nach Ländern
-description: Überprüfen Sie die empfohlenen Steuereinstellungen nach Land.
+title: Steuerrichtlinien nach Land
+description: Überprüfen Sie die empfohlenen Steuereinstellungen je nach Land.
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
 source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Steuerleitlinien nach Ländern
+# Steuerrichtlinien nach Land
 
 ## US-Steuerkonfiguration
 
@@ -18,13 +18,13 @@ Diese empfohlenen Einstellungen können für die meisten Steuerkonfigurationen f
 
 | Steueroption | Empfehlung |
 |--- |--- |
-| Katalogpreise | Steuern ausschließen |
-| FPT | Nein, weil FPT nicht besteuert wird. |
-| Auf Steuerbasis | Versandursprung |
-| Steuerberechnung | Gesamt |
-| Steuerliche Schifffahrt? | Nein |
+| Katalogpreise laden | Ohne Steuer |
+| FPT | Nein, denn FTP wird nicht besteuert. |
+| Steuer auf Basis der | Versandherkunft |
+| Steuerberechnung | Insgesamt |
+| Versand besteuern? | Nein |
 | Rabatt anwenden | Vor Steuern |
-| Kommentar | Alle Steuerzonen haben dieselbe Priorität. Idealerweise eine Zone für den Bundesstaat und eine oder mehrere Zonen für die Postleitzahlensuche. |
+| Kommentar | Alle Steuerzonen haben dieselbe Priorität; idealerweise eine Zone für den Bundesstaat und eine oder mehrere Zonen für die Suche nach Postleitzahlen. |
 
 {style="table-layout:auto"}
 
@@ -32,11 +32,11 @@ Diese empfohlenen Einstellungen können für die meisten Steuerkonfigurationen f
 
 | Steuerklasse | Empfohlene Einstellung |
 |--- |--- |
-| Steuerklasse für die Schifffahrt | Keines |
+| Steuerklasse für den Versand | Keine |
 
 {style="table-layout:auto"}
 
-### Berechnungseinstellungen
+### Berechnungsparameter
 
 | Option | Empfohlene Einstellung |
 |--- |--- |
@@ -49,17 +49,17 @@ Diese empfohlenen Einstellungen können für die meisten Steuerkonfigurationen f
 
 {style="table-layout:auto"}
 
-### Standardmäßige Zielbestimmungsberechnung
+### Standardmäßige Steuerzielberechnung
 
 | Option | Empfohlene Einstellung |
 |--- |--- |
 | [!UICONTROL Default Country] | `United States` |
-| [!UICONTROL Default State] | Staat, in dem das Unternehmen seinen Sitz hat. |
-| [!UICONTROL Default Post Code] | Die Postleitzahl, die in Ihren Steuerzonen verwendet wird. |
+| [!UICONTROL Default State] | Bundesland, in dem das Unternehmen seinen Sitz hat. |
+| [!UICONTROL Default Post Code] | Die in Ihren Steuerzonen verwendete Postleitzahl. |
 
 {style="table-layout:auto"}
 
-### Anzeigeparameter des Preises
+### Einstellungen zur Preisanzeige
 
 | Option | Empfohlene Einstellung |
 |--- |--- |
@@ -83,7 +83,7 @@ Diese empfohlenen Einstellungen können für die meisten Steuerkonfigurationen f
 
 {style="table-layout:auto"}
 
-### Bestellungen, Rechnungen, Kreditkarten und Anzeigeeinstellungen
+### Bestellungen, Rechnungen, Gutschriften und Anzeigeeinstellungen
 
 | Option | Empfohlene Einstellung |
 |--- |--- |
@@ -100,73 +100,73 @@ Diese empfohlenen Einstellungen können für die meisten Steuerkonfigurationen f
 
 | Option | Empfohlene Einstellung |
 |--- |--- |
-| [!UICONTROL Enable FPT] | 0, außer in Kalifornien.`No` |
+| [!UICONTROL Enable FPT] | `No` außer in Kalifornien. |
 
 {style="table-layout:auto"}
 
-## Steuerkonfiguration im Vereinigten Königreich
+## Steuerkonfiguration für Großbritannien
 
-Diese empfohlenen Einstellungen können für die meisten Steuerkonfigurationen für Geschäfte im Vereinigten Königreich verwendet werden.
+Diese empfohlenen Einstellungen können für die meisten Steuerkonfigurationen für Geschäfte in Großbritannien verwendet werden.
 
-### UK - B2C-Steuerkonfiguration
+### GB B2C-Steuerkonfiguration
 
 | Steueroption | Empfehlung |
 |--- |--- |
-| Katalogpreise | Steuern ausschließen |
-| FPT | Ja, einschließlich FPT und Beschreibung |
-| Auf Steuerbasis | [!UICONTROL Shipping Address] |
-| Steuerberechnung | Gesamt |
-| Steuerliche Schifffahrt? | Ja |
-| Rabatt anwenden | Vor Steuern, Rabatt auf die Preise, einschließlich Steuern. |
-| Kommentar | Bei Händlern, die Lieferantenrechnungen ausweisen (einschließlich MwSt.). |
+| Katalogpreise laden | Ohne Steuer |
+| FPT | Ja, einschließlich FTP und Beschreibung |
+| Steuer auf Basis der | [!UICONTROL Shipping Address] |
+| Steuerberechnung | Insgesamt |
+| Versand besteuern? | Ja |
+| Rabatt anwenden | Vor Steuern, Rabatt auf Preise, einschließlich Steuern. |
+| Kommentar | Für Händler, die Lieferantenrechnungen (einschließlich MwSt.) markieren. |
 
 {style="table-layout:auto"}
 
-### U.K. B2B-Steuerkonfiguration
+### Britische B2B-Steuerkonfiguration
 
 | Steueroption | Empfehlung |
 |--- |--- |
-| Katalogpreise | Steuern ausschließen |
-| FPT | Ja, einschließlich FPT und Beschreibung |
-| Auf Steuerbasis | [!UICONTROL Shipping Address] |
-| Steuerberechnung | Zum Element |
-| Steuerliche Schifffahrt? | Ja |
-| Rabatt anwenden | Vor Steuern, Rabatt auf die Preise, einschließlich Steuern. |
-| Kommentar | B2B-Händler sollten einfachere Aspekte der MwSt-Lieferkette vorlegen. Die Berechnung der Steuern in der Zeile ist ebenfalls gültig. Bitte fragen Sie jedoch bei Ihrem Steuergericht nach. Bei der Einrichtung wird davon ausgegangen, dass sich ein Händler in der Lieferkette befindet und dass verkaufte Waren von anderen Anbietern für MwSt-Rabatte usw. verwendet werden. Durch diese Definition ist es leicht, die Steuern für eine schnellere Rabatterzeugung nach Einzelposten zu ermitteln. <br/><br/>**_Hinweis:_**Einige Rechtssysteme erfordern unterschiedliche Rundungsstrategien, die derzeit nicht von Commerce unterstützt werden, und dass nicht alle Rechtssysteme eine Steuer auf Element- oder Zeilenebene zulassen. |
+| Katalogpreise laden | Ohne Steuer |
+| FPT | Ja, einschließlich FTP und Beschreibung |
+| Steuer auf Basis der | [!UICONTROL Shipping Address] |
+| Steuerberechnung | Bei Element |
+| Versand besteuern? | Ja |
+| Rabatt anwenden | Vor Steuern, Rabatt auf Preise, einschließlich Steuern. |
+| Kommentar | B2B-Händler sollten einfachere Überlegungen zur MwSt.-Lieferkette anstellen. Die Steuerberechnung in Zeile ist ebenfalls gültig. Wenden Sie sich jedoch an Ihre Steuerzuständigkeit. Setup geht davon aus, dass sich ein Händler in der Lieferkette befindet und die verkauften Waren von anderen Anbietern für Mehrwertsteuerrabatte usw. verwendet werden. Diese Definition erleichtert die Unterscheidung der Steuern nach Posten, was eine schnellere Rabatterstellung ermöglicht. <br/><br/>**_Hinweis _**Einige Länder und Gebiete erfordern unterschiedliche Rundungsstrategien, die derzeit nicht von Commerce unterstützt werden, und nicht alle Länder und Gebiete erlauben eine Steuer auf Element- oder Zeilenebene. |
 
 {style="table-layout:auto"}
 
-## Kanadische Steuerkonfiguration
+## Steuerkonfiguration für Kanada
 
 >[!IMPORTANT]
 >
->Händler in der Provinz GST/PST (Montreal) sollten eine Steuerregel erstellen und einen kombinierten Steuerbetrag anzeigen. Wenden Sie sich bei Fragen an eine qualifizierte Steuerbehörde.
+>Händler, die sich in einer GST/PST-Provinz (Montreal) befinden, sollten eine Steuerregel erstellen und einen kombinierten Steuerbetrag anzeigen. Bei Fragen wenden Sie sich bitte an eine qualifizierte Steuerbehörde.
 
 | Steueroption | Empfehlung |
 |--- |--- |
-| Katalogpreise | Steuern ausschließen |
-| FPT | Ja, einschließlich FPT, Beschreibung und Anwendung der Steuer auf FPT. |
-| Auf Steuerbasis | Versandursprung |
-| Steuerberechnung | Gesamt |
-| Steuerliche Schifffahrt? | Ja |
+| Katalogpreise laden | Ohne Steuer |
+| FPT | Ja, einschließlich FTP, Beschreibung, und Steuern auf FTP erheben. |
+| Steuer auf Basis der | Versandherkunft |
+| Steuerberechnung | Insgesamt |
+| Versand besteuern? | Ja |
 | Rabatt anwenden | Vor Steuern |
 
 {style="table-layout:auto"}
 
-Im folgenden Beispiel wird gezeigt, wie GST-Steuersätze für Kanada und PST-Steuersätze für Saskatchewan eingerichtet werden, mit Steuerregeln, die die beiden Steuersätze berechnen und anzeigen. In diesen Informationen wird eine Beispielkonfiguration beschrieben. Stellen Sie sicher, dass Sie die richtigen Steuersätze und -regeln für Ihre Steuergebiete überprüfen. Legen Sie beim Einrichten von Steuern den Speicherbereich fest, um die Konfiguration auf alle zutreffenden Stores und Websites anzuwenden.
+Das folgende Beispiel zeigt, wie Sie GST-Steuersätze für Kanada und PST-Steuersätze für Saskatchewan mit Steuerregeln einrichten, die die beiden Steuersätze berechnen und anzeigen. In diesen Informationen wird eine Beispielkonfiguration beschrieben. Überprüfen Sie die korrekten Steuersätze und -regeln für Ihre Steuergebiete. Legen Sie bei der Einrichtung von Steuern den Bereich des Stores fest, um die Konfiguration auf alle entsprechenden Stores und Websites anzuwenden.
 
 - Die feste Produktsteuer ist für relevante Waren als Produktattribut enthalten.
-- In Quebec wird PST als TVQ bezeichnet. Wenn Sie eine Rate für Quebec einrichten möchten, stellen Sie sicher, dass Sie TVQ als Kennung verwenden.
+- In Quebec wird PST als TVQ bezeichnet. Wenn Sie einen Tarif für Quebec einrichten möchten, stellen Sie sicher, dass Sie TVQ als Kennung verwenden.
 
-### Schritt 1: Vollständige Steuerberechnungseinstellungen
+### Schritt 1: Einstellungen für die Steuerberechnung abschließen
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Legen Sie für eine Multisite-Konfiguration **[!UICONTROL Store View]** auf die Website fest und speichern Sie, das das Ziel der Konfiguration ist.
+1. Legen Sie für eine Multi-Site-Konfiguration **[!UICONTROL Store View]** auf die Website und den Store fest, der das Ziel der Konfiguration ist.
 
-1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Tax]** aus.
+1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Tax]**.
 
-1. Klicken Sie auf , um die einzelnen Abschnitte auf der Seite zu erweitern und die folgenden Einstellungen abzuschließen:
+1. Klicken Sie auf , um die einzelnen Abschnitte auf der Seite zu erweitern und die folgenden Einstellungen vorzunehmen:
 
 #### Einstellungen für die Steuerberechnung
 
@@ -190,17 +190,17 @@ Im folgenden Beispiel wird gezeigt, wie GST-Steuersätze für Kanada und PST-Ste
 
 {style="table-layout:auto"}
 
-#### Standardmäßige Berechnung des Steuerziels
+#### Zielberechnung der Standardsteuer
 
 | Feld | Empfohlene Einstellung |
 |--- |--- |
 | [!UICONTROL Default Country] | `Canada` |
-| [!UICONTROL Default State] | (gegebenenfalls) |
+| [!UICONTROL Default State] | (falls zutreffend) |
 | [!UICONTROL Default Postal Code] | `*` (Sternchen) |
 
 {style="table-layout:auto"}
 
-#### Anzeigeeinstellungen für Warenkorb
+#### Anzeigeeinstellungen für den Warenkorb
 
 | Feld | Empfohlene Einstellung |
 |--- |--- |
@@ -215,7 +215,7 @@ Im folgenden Beispiel wird gezeigt, wie GST-Steuersätze für Kanada und PST-Ste
 | Feld | Empfohlene Einstellung |
 |--- |--- |
 | [!UICONTROL Enable FPT] | `Yes` |
-| Alle FPT-Anzeigeeinstellungen | `Including FPT and FPT description` |
+| Alle FTP-Anzeigeeinstellungen | `Including FPT and FPT description` |
 | [!UICONTROL Apply Discounts to FPT] | `No` |
 | [!UICONTROL Apply Tax to FPT] | `Yes` |
 | [!UICONTROL Include FPT in Subtotal] | `No` |
@@ -224,9 +224,9 @@ Im folgenden Beispiel wird gezeigt, wie GST-Steuersätze für Kanada und PST-Ste
 
 ### Schritt 2: Einrichten der kanadischen Waren- und Dienstleistungssteuer (GST)
 
-Um die GST-Nummer auf Rechnungen und anderen Verkaufsunterlagen auszudrucken, geben Sie sie in die Bezeichnung der anwendbaren Steuersätze ein. Der GST wird als Teil des GST-Betrags in einer beliebigen Bestellübersicht angezeigt.
+Wenn Sie die GST-Nummer auf Rechnungen und anderen Verkaufsbelegen drucken möchten, fügen Sie sie dem Namen der anwendbaren Steuersätze hinzu. Die globale Gutschrift wird als Teil des Gesamtbetrags der Gutschrift in jeder Auftragszusammenfassung angezeigt.
 
-#### Steuerzonen und -sätze verwalten
+#### Verwalten von Steuerzonen und Steuersätzen
 
 | Feld | Empfohlene Einstellung |
 |--- |--- |
@@ -239,11 +239,11 @@ Um die GST-Nummer auf Rechnungen und anderen Verkaufsunterlagen auszudrucken, ge
 
 {style="table-layout:auto"}
 
-### Schritt 3: Einrichten der kanadischen Provinzsteuer (PST)
+### Schritt 3: Einrichten der Canadian Provincial Sales Tax (PST)
 
-einen weiteren Steuersatz für die betreffende Provinz einrichten.
+Richten Sie einen anderen Steuersatz für die entsprechende Provinz ein.
 
-#### Informationen über Steuersätze
+#### Informationen zum Steuersatz
 
 | Feld | Empfohlene Einstellung |
 |--- |--- |
@@ -258,13 +258,13 @@ einen weiteren Steuersatz für die betreffende Provinz einrichten.
 
 ### Schritt 4: Erstellen einer GST-Steuerregel
 
-Um eine Verschmelzung der Steuer zu vermeiden und die berechnete Steuer ordnungsgemäß als separate Zeileneinträge für GST und PST anzuzeigen, legen Sie für jede Regel unterschiedliche Prioritäten fest und aktivieren Sie das Kontrollkästchen **Nur Zwischensumme berechnen** . Jede Steuer wird als separater Zeileneintrag angezeigt, die Steuerbeträge werden jedoch nicht addiert.
+Um eine Aufrechnung der Steuer zu vermeiden und die berechnete Steuer korrekt als separate Zeileneinträge für GST und PST anzuzeigen, legen Sie für jede Regel unterschiedliche Prioritäten fest und aktivieren Sie das Kontrollkästchen **Nur Zwischensumme berechnen**. Jede Steuer wird als separater Zeileneintrag angezeigt, die Steuerbeträge werden jedoch nicht zusammengerechnet.
 
-#### Informationen zu Steuerregeln
+#### Informationen zur Steuerregel
 
 | Feld | Empfohlene Einstellung |
 |--- |--- |
-| Name | `Retail-Canada-GST` |
+| -Name | `Retail-Canada-GST` |
 | [!UICONTROL Customer Tax Class] | `Retail Customer` |
 | [!UICONTROL Product Tax Class] | `Taxable GoodsShipping` |
 | [!UICONTROL Tax Rate] | `Canada-GST` |
@@ -276,9 +276,9 @@ Um eine Verschmelzung der Steuer zu vermeiden und die berechnete Steuer ordnungs
 
 ### Schritt 5: Erstellen einer PST-Steuerregel für Saskatchewan
 
-Stellen Sie für diese Steuerregel sicher, dass Sie die Priorität auf 0 setzen, und aktivieren Sie das Kontrollkästchen **Nur Zwischensumme berechnen** . Jede Steuer wird als separater Zeileneintrag angezeigt, die Steuerbeträge werden jedoch nicht addiert.
+Stellen Sie für diese Steuerregel sicher, dass Sie die Priorität auf 0 setzen und das Kontrollkästchen **Nur Zwischensumme berechnen** aktivieren. Jede Steuer wird als separater Zeileneintrag angezeigt, die Steuerbeträge werden jedoch nicht zusammengerechnet.
 
-#### Informationen zu Steuerregeln
+#### Informationen zur Steuerregel
 
 | Feld | Empfohlene Einstellung |
 |--- |--- |
@@ -292,42 +292,42 @@ Stellen Sie für diese Steuerregel sicher, dass Sie die Priorität auf 0 setzen,
 
 {style="table-layout:auto"}
 
-### Schritt 6: Ergebnisse speichern und testen
+### Schritt 6: Speichern und Testen der Ergebnisse
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
 1. Kehren Sie zu Ihrer Storefront zurück und erstellen Sie eine Beispielreihenfolge, um die Ergebnisse zu testen.
 
-## EU-Steuerkonfiguration
+## EU-Steuerregelung
 
-Das folgende Beispiel zeigt einen in Frankreich ansässigen Laden, der 100.000 Euro+ in Frankreich und 100.000 Euro+ in Deutschland verkauft.
+Das folgende Beispiel zeigt ein Geschäft mit Sitz in Frankreich, das in Frankreich über 100.000 Euro und in Deutschland über 100.000 Euro verkauft.
 
 - Steuerberechnungen werden auf Website-Ebene verwaltet.
-- Die Optionen für Währungsumrechnung und Steueranzeige werden einzeln auf der Ebene der Store-Ansicht gesteuert (Aktivieren Sie das Kontrollkästchen Website verwenden , um die Standardeinstellung zu überschreiben).
-- Wenn Sie das Standardsteuerland festlegen, können Sie die richtige Steuer für die Gerichtsbarkeit dynamisch anzeigen.
+- Die Optionen für die Währungsumrechnung und die Steueranzeige werden einzeln auf der Store-Ansichtsebene gesteuert (aktivieren Sie das Kontrollkästchen „Website verwenden“, um die Standardeinstellung zu überschreiben).
+- Wenn Sie das standardmäßige Steuerland festlegen, können Sie die korrekte Steuer für die Gerichtsbarkeit dynamisch anzeigen.
 - Die feste Produktsteuer ist für relevante Waren als Produktattribut enthalten.
-- Es kann erforderlich sein, den Katalog zu bearbeiten, um sicherzustellen, dass er in der richtigen Kategorie/Website/Store-Ansicht angezeigt wird.
+- Möglicherweise muss der Katalog bearbeitet werden, um sicherzustellen, dass er in der richtigen Kategorie-/Website-/Store-Ansicht angezeigt wird.
 
 ### Schritt 1: Erstellen Sie drei Produktsteuerklassen
 
-In diesem Beispiel wird davon ausgegangen, dass nicht mehrere mehrwertsteuerermäßigte Produktsteuerklassen benötigt werden.
+Bei diesem Beispiel wird davon ausgegangen, dass mehrere mehrwertsteuerermäßigte Produktsteuerklassen nicht erforderlich sind.
 
-1. Erstellen Sie eine MwSt-Standardproduktsteuerklasse.
+1. Erstellen Sie eine MwSt.-Standard-Produktsteuerklasse.
 
-1. Erstellen Sie eine MwSt-ermäßigte Produktsteuerklasse.
+1. Erstellen Sie eine Klasse mit ermäßigter MwSt. für Produkte.
 
-1. Erstellen Sie eine MwSt-freie Produktsteuerklasse.
+1. Erstellen Sie eine MwSt.-freie Produktsteuerklasse.
 
-### 2. Schritt: Einführung von Steuersätzen für Frankreich und Deutschland
+### Schritt 2: Steuersätze für Frankreich und Deutschland erstellen
 
 Erstellen Sie die folgenden Steuersätze:
 
 | Steuersätze | Einstellungen |
 |--- |--- |
-| Frankreich-StandardMwSt | Land: Frankreich <br/>Bundesland/-region: * <br/>Postleitzahl: * <br/>Fördersatz: 20 % |
-| Frankreich - Ermäßigte Mehrwertsteuer | Land: Frankreich <br/>Bundesland/-region: * <br/>Postleitzahl: * <br/>Rate: 5% |
-| Deutschland-StandardMwSt | Land: Deutschland <br/>Bundesland/-region: * <br/>Postleitzahl: * Rate: 19% |
-| Deutschland - ermäßigte MwSt | Land: Deutschland <br/>Bundesland/-region: * <br/>Postleitzahl: * <br/>Fördersatz: 7% |
+| Frankreich - MwSt | Land: Frankreich <br/>Bundesland/Region: * <br/>Postleitzahl: * <br/>Tarif: 20% |
+| Frankreich - ermäßigte MwSt | Land: Frankreich <br/>Bundesland/Region: * <br/>Postleitzahl: * <br/>Tarif: 5% |
+| Germany-StandardVAT | Land: Deutschland <br/>Bundesland/Region: * <br/>Postleitzahl: * Tarif: 19% |
+| Deutschland-ermäßigte MwSt | Land: Deutschland <br/>Bundesland/Region: * <br/>Postleitzahl: * <br/>Tarif: 7% |
 
 {style="table-layout:auto"}
 
@@ -337,38 +337,38 @@ Erstellen Sie die folgenden Steuerregeln:
 
 | Steuervorschriften | Einstellungen |
 |--- |--- |
-| Einzelhandel-Frankreich-StandardVAT | Kundenklasse: Einzelhandelskunde <br/>Steuerklasse: MwSt-Standard <br/>Steuersatz: Frankreich-StandardMwSt <br/>Priorität: 0 <br/>Sortierreihenfolge: 0 |
-| Einzelhandel - Frankreich - ermäßigte Mehrwertsteuer | Kundenklasse: Einzelhandelskunde <br/>Steuerklasse: Ermäßigter Mehrwertsteuersatz <br/>Steuersatz: Frankreich-Ermäßigte Mehrwertsteuer <br/>Priorität: 0 <br/>Sortierreihenfolge: 0 |
-| Einzelhandel-Deutschland-StandardVAT | Kundenklasse: Einzelhandelskunde <br/>Steuerklasse: MwSt-Standard <br/>Steuersatz: Deutschland-StandardMwSt <br/>Priorität: 0 <br/>Sortierreihenfolge: 0 |
-| Einzelhandel - Deutschland - ermäßigte Mehrwertsteuer | Kundenklasse: Einzelhandelskunde <br/>Steuerklasse: MwSt.-ermäßigter <br/>Steuersatz: Deutschland-ReducedVAT <br/>Priorität: 0 <br/>Sortierreihenfolge: 0 |
+| Retail-France-StandardMwSt | Kundenklasse: Einzelhandelskunde <br/>Steuerklasse: MwSt.-Standard <br/>Steuersatz: Frankreich-StandardMwSt. <br/>Priorität: 0 <br/>Sortierreihenfolge: 0 |
+| Einzelhandel - Frankreich - ermäßigte MwSt | Kundenklasse: Einzelhandelskunde <br/>Steuerklasse: MwSt. ermäßigt <br/>Steuersatz: Frankreich-ermäßigtMwSt. <br/>Priorität: 0 <br/>Sortierreihenfolge: 0 |
+| Retail-Germany-StandardVAT | Kundenklasse: Einzelhandelskunde <br/>Steuerklasse: MwSt.-Standard <br/>Steuersatz: Deutschland-StandardMwSt. <br/>Priorität: 0 <br/>Sortierreihenfolge: 0 |
+| Einzelhandel-Deutschland-ermäßigte MwSt | Kundenklasse: Einzelhandelskunde <br/>Steuerklasse: MwSt.-ermäßigt <br/>Steuersatz: Deutschland-ermäßigtMwSt. <br/>Priorität: 0 <br/>Sortierreihenfolge: 0 |
 
 {style="table-layout:auto"}
 
-### Schritt 4: Einrichten einer Store-Ansicht für Deutschland
+### Schritt 4: Einrichten einer Shop-Ansicht für Deutschland
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
 
-1. Erstellen Sie unter der Standardwebsite eine Store-Ansicht für **[!UICONTROL Germany]**.
+1. Erstellen Sie unter der Standard-Website eine Store-Ansicht für **[!UICONTROL Germany]**.
 
-1. Führen Sie als Nächstes die folgenden Schritte aus:
+1. Gehen Sie dann wie folgt vor:
 
-   - Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+   - Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-   - Setzen Sie oben links **[!UICONTROL Default Config]** auf den französischen Store.
+   - Setzen Sie sich in der oberen linken Ecke **[!UICONTROL Default Config]** den französischen Laden.
 
-   - Erweitern Sie auf der Seite Allgemein den Abschnitt **[!UICONTROL Countries Options]** um den Eintrag ![Expansion selector](../assets/icon-display-expand.png) und setzen Sie das Standardland auf `France`.
+   - Erweitern Sie auf der Seite Allgemein ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Countries Options]** und legen Sie das Standardland auf `France` fest.
 
-   - Füllen Sie die Gebietsschemaoptionen nach Bedarf aus.
+   - Füllen Sie die Gebietsschema-Optionen nach Bedarf aus.
 
-1. Wählen Sie in der linken oberen Ecke die deutsche **[!UICONTROL Store View]** aus.
+1. Wählen Sie oben links die deutsche **[!UICONTROL Store View]** aus.
 
-1. Erweitern Sie auf der Seite _Allgemein_ den Erweiterungs-Selektor ![ 3} **[!UICONTROL Countries Options]** und setzen Sie das Standardland auf `Germany`.](../assets/icon-display-expand.png)
+1. Erweitern Sie auf der _Allgemein_ die **[!UICONTROL Countries Options]** ![Erweiterungsauswahl](../assets/icon-display-expand.png) und legen Sie das Standardland auf `Germany` fest.
 
-1. Füllen Sie die Gebietsschemaoptionen nach Bedarf aus.
+1. Füllen Sie die Gebietsschema-Optionen nach Bedarf aus.
 
-### Schritt 5: Konfiguration der Steuereinstellungen für Frankreich
+### Schritt 5: Konfigurieren der Steuereinstellungen für Frankreich
 
-Führen Sie die folgenden allgemeinen Steuereinstellungen aus:
+Füllen Sie die folgenden allgemeinen Steuereinstellungen aus:
 
 | Feld | Empfohlene Einstellung |
 |--- |--- |
@@ -395,26 +395,26 @@ Führen Sie die folgenden allgemeinen Steuereinstellungen aus:
 
 {style="table-layout:auto"}
 
-### Schritt 6: Konfiguration der Steuereinstellungen für Deutschland
+### Schritt 6: Steuereinstellungen für Deutschland konfigurieren
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Setzen Sie oben rechts **[!UICONTROL Store View]** auf die Ansicht des deutschen Stores und klicken Sie zur Bestätigung auf **[!UICONTROL OK]** .
+1. Setzen Sie in der oberen rechten Ecke **[!UICONTROL Store View]** auf die Ansicht zum deutschen Geschäft und klicken Sie zur Bestätigung auf **[!UICONTROL OK]** .
 
-1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Tax]** aus.
+1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Tax]**.
 
 1. Gehen Sie im Abschnitt **[!UICONTROL Default Tax Destination Calculation]** wie folgt vor:
 
    - Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use Website]** nach jedem Feld.
 
-   - Aktualisieren Sie die folgenden Werte, um die Versandeinstellungen [des Herkunftspunkts](shipping-settings.md#point-of-origin) Ihrer Site anzupassen:
+   - Aktualisieren Sie die folgenden Werte, um den Versandeinstellungen [ Website (](shipping-settings.md#point-of-origin)) zu entsprechen:
 
       - Standardland
-      - Standardstatus
+      - Standardzustand
       - Standard-Postleitzahl
 
      Diese Einstellung stellt sicher, dass die Steuer korrekt berechnet wird, wenn die Produktpreise die Steuer enthalten.
 
-     ![Berechnung des steuerlichen Ziels ](./assets/destination-calc-french.png){width="600" zoomable="yes"}
+     ![Standardmäßige Zielberechnung der Steuer](./assets/destination-calc-french.png){width="600" zoomable="yes"}
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.

@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists] des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Requisition Lists] des Commerce Admin-Bereichs.
 exl-id: 3720d9de-a5cc-4c44-a42a-af7409021f52
 feature: Configuration, B2B
 source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
@@ -32,6 +32,6 @@ ht-degree: 0%
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Number of Requisition Lists] | Store-Ansicht | Bestimmt die maximale Anzahl von Anforderungslisten, die pro Kundenkonto verwaltet werden können. Die Mindestanzahl ist `2` und die Höchstzahl ist `999`. |
+| [!UICONTROL Number of Requisition Lists] | Shop-Ansicht | Bestimmt die maximale Anzahl von Anforderungslisten, die pro Kundenkonto gepflegt werden können. Die Mindestzahl ist `2`, die Höchstzahl `999`. |
 
 {style="table-layout:auto"}

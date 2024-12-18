@@ -1,6 +1,6 @@
 ---
-title: Gutschriften im Dashboard des Kundenkontos speichern
-description: Auf der Seite [!UICONTROL Store Credit] des Dashboards für Kundenkonten werden die Beträge aus Rückgaben und Erstattungen aufgelistet, die auf zukünftige Käufe angewendet werden können.
+title: Guthaben im Dashboard des Kundenkontos speichern
+description: Auf der Seite [!UICONTROL Store Credit] des Dashboards für Kundenkonten werden Beträge aus Rücksendungen und Rückerstattungen aufgelistet, die auf zukünftige Käufe angewendet werden können.
 exl-id: 9273b9a3-6095-4fc9-ad6f-3e4a6da60a89
 feature: Customers, Storefront, Checkout
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
@@ -10,48 +10,48 @@ ht-degree: 0%
 
 ---
 
-# Gutschriften im Dashboard des Kundenkontos speichern
+# Guthaben im Dashboard des Kundenkontos speichern
 
 {{ee-feature}}
 
-Auf der Seite _[!UICONTROL Store Credit]_des Dashboards für Kundenkonten werden die Beträge aus Rückgaben und Erstattungen aufgelistet, die auf zukünftige Käufe angewendet werden können. Kunden können den Wert auch über eine Geschenkkarte einlösen.
+Auf der Seite _[!UICONTROL Store Credit]_des Dashboards für Kundenkonten werden Beträge aus Rücksendungen und Rückerstattungen aufgelistet, die auf zukünftige Käufe angewendet werden können. Kunden können den Wert auch von einer Geschenkkarte einlösen.
 
-![Kundenspeicherguthaben](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
+![Kundenkreditgeschäft](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
 
-## Anwenden von Store-Gutschriften während des Checkout
+## Warenkorb-Guthaben während des Checkouts anwenden
 
-1. Der Kunde bestimmt die Menge des verfügbaren Store-Guthabens.
+1. Der Kunde bestimmt den Betrag des verfügbaren Speicherguthabens.
 
-   Während des Schritts _Überprüfung und Zahlungen_ wird der verfügbare Betrag unter **[!UICONTROL Store Credit]** angezeigt.
+   Während des Schritts _Überprüfen und_&quot; wird der verfügbare Betrag unter &quot;**[!UICONTROL Store Credit]**&quot; angezeigt.
 
 1. Um den Betrag auf die Bestellung anzuwenden, klickt der Kunde auf **[!UICONTROL Use Store Credit]**.
 
-   ![Verwenden Sie die Store-Gutschrift beim Checkout](assets/storefront-checkout-use-store-credit.png){width="600" zoomable="yes"}
+   ![Store-Guthaben an der Kasse verwenden](assets/storefront-checkout-use-store-credit.png){width="600" zoomable="yes"}
 
-1. Die Bestellsumme wird neu berechnet und die angewendete Menge an Store-Gutschriften wird in der Bestellzusammenfassung angezeigt.
+1. Die Bestellsumme wird neu berechnet, und der Betrag der angewendeten Speichergutschrift wird in der Bestellzusammenfassung angezeigt.
 
-   ![Bestellzusammenfassung mit angewendetem Store-Guthaben](assets/storefront-checkout-use-store-credit-order-summary.png){width="600" zoomable="yes"}
+   ![Bestellzusammenfassung mit angewendetem Filialguthaben](assets/storefront-checkout-use-store-credit-order-summary.png){width="600" zoomable="yes"}
 
-1. Wenn fertig, klickt auf **[!UICONTROL Place Order]**.
+1. Wenn Sie bereit sind, klicken Sie auf **[!UICONTROL Place Order]**.
 
-## Anzeigen des Kontostands und des Verlaufs von Stores
+## Speicherkreditkonto und -verlauf anzeigen
 
-Es gibt zwei Methoden für die Anzeige von Guthaben und Verlauf:
+Es gibt zwei Methoden zum Anzeigen von Kreditsalden und Historie:
 
-Methode 1: **Über das Dashboard des Kundenkontos**
+Methode 1: **Vom Kundenkonto-Dashboard**
 
-1. Über die Storefront meldet sich der Kunde bei seinem Konto an.
+1. In der Storefront meldet sich der Kunde beim Konto an.
 
-1. Wählen Sie im linken Bereich **[!UICONTROL Store Credit]** aus.
+1. Wählt **[!UICONTROL Store Credit]** im linken Bedienfeld aus.
 
-Methode 2: **von der Seite _Überprüfung und Zahlungen_**
+Methode 2: **Von der Seite _Überprüfung und Zahlungen_**
 
 1. Der Kunde fügt dem Warenkorb ein Produkt hinzu.
 
-1. Fahren Sie mit der Checkout-Seite fort.
+1. Wechselt zur Kasse.
 
-1. Übergibt den Schritt **[!UICONTROL Shipping]** .
+1. Übergibt den **[!UICONTROL Shipping]** Schritt.
 
-1. Wenn die Store-Gutschrift verfügbar ist, klickt der Kunde auf **Store Credit verwenden**.
+1. Wenn ein Warenkorb verfügbar ist, klickt der Kunde auf **Warenkorb verwenden**.
 
-1. Wenn der Kunde seine Meinung zur Verwendung des Store-Guthabens ändert, klickt im Abschnitt _[!UICONTROL Order Summary]_auf **[!UICONTROL Remove]**.
+1. Wenn der Kunde sich von der Verwendung des Gutscheins für den Store ändert, klickt auf **[!UICONTROL Remove]** im _[!UICONTROL Order Summary]_Abschnitt.

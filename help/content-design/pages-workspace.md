@@ -1,6 +1,6 @@
 ---
-title: Seitenarbeitssteuerelemente
-description: Erfahren Sie mehr über die Workspace-Tools, die zum Suchen und Aktualisieren von Inhaltsseiten verwendet werden.
+title: Steuerelemente für den Seitenarbeitsbereich
+description: Erfahren Sie mehr über die Arbeitsbereich-Tools, die zum Suchen und Aktualisieren von Inhaltsseiten verwendet werden.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
 source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# Seitenarbeitssteuerelemente
+# Steuerelemente für den Seitenarbeitsbereich
 
-Der Seitenarbeitsbereich enthält Tools, die Ihnen dabei helfen, die benötigten Seiten schnell zu finden, sowie Befehle zur routinemäßigen Wartung auf einzelnen oder mehreren Seiten. Sie können die Seiteneigenschaften auch schnell über das Raster aktualisieren.
+Der Seitenarbeitsbereich enthält Tools, mit denen Sie die benötigten Seiten schnell finden können, sowie Befehle zur Durchführung von Routinewartungsaufgaben auf einzelnen oder mehreren Seiten. Sie können die Seiteneigenschaften auch schnell über das Raster aktualisieren.
 
 ![Seitenraster](./assets/pages-grid.png){width="700" zoomable="yes"}
 
 ## Schnelles Aktualisieren der Seiteneigenschaften
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 1. Klicken Sie auf eine beliebige Zeile im Raster.
 
    ![Seiteneigenschaften können im Seitenraster bearbeitet werden](./assets/page-grid-properties-update.png){width="600" zoomable="yes"}
@@ -32,18 +32,18 @@ Der Seitenarbeitsbereich enthält Tools, die Ihnen dabei helfen, die benötigten
    - **[!UICONTROL Status]**
    - **[!UICONTROL Layout]**
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
 ## Workspace-Steuerelemente
 
 | Kontrolle | Beschreibung |
 |--- |--- |
 | [!UICONTROL Add New Page] | Fügt eine Seite hinzu. |
-| [!UICONTROL Search] | Startet eine Katalogsuche basierend auf den aktuellen Filtern. |
-| [!UICONTROL Actions] | Listet alle Aktionen auf, die auf ausgewählte Elemente in der Liste angewendet werden können. Um eine Aktion auf eine Seite oder mehrere Seiten anzuwenden, aktivieren Sie das Kontrollkästchen in der ersten Spalte jedes Datensatzes, für den die Aktion gilt. Optionen: `Delete` / `Disable` / `Enable` / `Edit` |
-| [!UICONTROL Select] | Das Steuerelement in der Kopfzeile der ersten Spalte kann verwendet werden, um mehrere Datensätze als Zielgruppe der Aktion auszuwählen. Aktivieren Sie das Kontrollkästchen in der ersten Spalte jedes Datensatzes, den Sie auswählen möchten. Optionen: `Select All` / `Deselect All` |
+| [!UICONTROL Search] | Startet eine Katalogsuche anhand der aktuellen Filter. |
+| [!UICONTROL Actions] | Listet alle Aktionen auf, die auf ausgewählte Elemente in der Liste angewendet werden können. Wenn Sie eine Aktion auf eine Seite oder auf mehrere Seiten anwenden möchten, aktivieren Sie das Kontrollkästchen in der ersten Spalte jedes Datensatzes, der der Aktion unterliegt. Optionen: `Delete` / `Disable` / `Enable` / `Edit` |
+| [!UICONTROL Select] | Mit dem Steuerelement in der Kopfzeile der ersten Spalte können mehrere Datensätze als Ziel der Aktion ausgewählt werden. Aktivieren Sie das Kontrollkästchen in der ersten Spalte jedes Datensatzes, den Sie auswählen möchten. Optionen: `Select All` / `Deselect All` |
 | [!UICONTROL Save Edits] | Wendet die aktuelle Aktion auf ausgewählte Datensätze an. |
-| [!UICONTROL Edit] | Öffnet den Datensatz im Bearbeitungsmodus. Sie können dasselbe erreichen, indem Sie auf eine beliebige Stelle in der Zeile klicken. |
+| [!UICONTROL Edit] | Öffnet den Datensatz im Bearbeitungsmodus. Dasselbe können Sie erreichen, indem Sie auf eine beliebige Stelle in der Zeile klicken. |
 
 {style="table-layout:auto"}
 
@@ -51,51 +51,51 @@ Der Seitenarbeitsbereich enthält Tools, die Ihnen dabei helfen, die benötigten
 
 | Spalte | Beschreibung |
 |--- |--- |
-| [!UICONTROL Select] | Das Kontrollkästchen in der ersten Spalte wird zur Auswahl mehrerer Datensätze verwendet. Optionen: `Select All` / `Deselect All` |
-| [!UICONTROL ID] | Die ID ist eine inkrementelle Zahl, die jeder Seite zugewiesen wird. |
+| [!UICONTROL Select] | Mit dem Kontrollkästchen in der ersten Spalte werden mehrere Datensätze ausgewählt. Optionen: `Select All` / `Deselect All` |
+| [!UICONTROL ID] | Die ID ist eine fortlaufende Zahl, die jeder Seite zugewiesen wird. |
 | [!UICONTROL Title] | Der Titel, der oben auf der Seite angezeigt wird. |
 | [!UICONTROL URL Key] | Der URL-Schlüssel ähnelt einem Dateinamen und identifiziert die Seite in der URL. |
-| [!UICONTROL Layout] | Bestimmt, ob die Seite mit Seitenleisten rechts oder links neben dem Hauptinhaltsbereich angezeigt wird. Optionen: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
-| [!UICONTROL Store View] | Wird verwendet, um die Seite einer bestimmten Store-Ansicht zuzuordnen. |
+| [!UICONTROL Layout] | Legt fest, ob die Seite mit Seitenleisten rechts oder links vom Hauptinhaltsbereich angezeigt wird. Optionen: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
+| [!UICONTROL Store View] | Wird verwendet, um die Seite mit einer bestimmten Store-Ansicht zu verknüpfen. |
 | [!UICONTROL Status] | Gibt an, ob die Seite online oder offline ist. Optionen: `Enabled` / `Disabled` |
-| [!UICONTROL Created] | Das Datum der Erstellung der Seite. |
+| [!UICONTROL Created] | Das Datum der Seitenerstellung. |
 | [!UICONTROL Modified] | Das Datum der letzten Änderung der Seite. |
 | [!UICONTROL Action] | Zu den Aktionen, die auf einen einzelnen Datensatz angewendet werden können, gehören:<br/>**[!UICONTROL Edit]**- Öffnet die Seite im Bearbeitungsmodus.<br/>**[!UICONTROL Delete]** - Löscht die Seite.<br/>**[!UICONTROL View]**- Zeigt die Seite im Vorschaumodus an. |
 
 {style="table-layout:auto"}
 
-## Sonstige Spalten
+## Andere Spalten
 
 | Spalte | Beschreibung |
 |--- |--- |
-| [!UICONTROL Custom design from/to] | Gibt das Start- und Enddatum an, an dem das ausgewählte Design auf die Seite angewendet wird. ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source). |
+| [!UICONTROL Custom design from/to] | Gibt das Start- und Enddatum an, an dem das ausgewählte Design auf die Seite angewendet wird. ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source). |
 | [!UICONTROL Custom Theme] | Wendet ein benutzerdefiniertes Design auf die Seite an |
-| [!UICONTROL Custom Layout] | Legt das benutzerdefinierte Layout der Seite fest |
-| [!UICONTROL Meta Title] | Metadatentitel für die Seite |
-| [!UICONTROL Meta Keywords] | Die Meta-Suchbegriffe für die Seite |
+| [!UICONTROL Custom Layout] | Bestimmt das benutzerdefinierte Layout der Seite |
+| [!UICONTROL Meta Title] | Meta-Titel für die Seite |
+| [!UICONTROL Meta Keywords] | Die Meta-Schlüsselwörter für die Seite |
 | [!UICONTROL Meta Description] | Die Meta-Beschreibung für die Seite |
 
 {style="table-layout:auto"}
 
 ## Seitensuche
 
-Das Suchfeld oben links im Raster _[!UICONTROL Pages]_kann verwendet werden, um bestimmte Seiten nach Keyword zu finden. Für eine erweiterte Suche können Sie die Suche mit [Filter](../getting-started/admin-grid-controls.md) nach mehreren Parametern filtern.
+Das Suchfeld oben links im _[!UICONTROL Pages]_Raster kann verwendet werden, um bestimmte Seiten nach Keyword zu finden. Für eine erweiterte Suche können Sie [ Suche ](../getting-started/admin-grid-controls.md) mehreren Parametern filtern.
 
-### Suche nach Keyword
+### Nach Keyword suchen
 
 1. Geben Sie einen Suchbegriff in das Seitensuchfeld ein.
 
-1. Um die Ergebnisse anzuzeigen, klicken Sie auf das Symbol Suchen (![Lupensymbol](../assets/icon-magnify-search.png)).
+1. Um die Ergebnisse anzuzeigen, klicken Sie auf das Symbol Suchen ![Lupensymbol](../assets/icon-magnify-search.png).
 
-   Die Ergebnisse umfassen alle Seiten, die den Suchbegriff enthalten.
+   Die Ergebnisse umfassen alle Seiten, die das Keyword enthalten.
 
-### Suchergebnisse filtern
+### Filtern von Suchergebnissen
 
 1. Klicken Sie ggf. auf **[!UICONTROL Clear All]** , um die vorherigen Suchkriterien zu löschen.
 
-1. Um die Auswahl der Suchfilter anzuzeigen, klicken Sie auf **[!UICONTROL Filters]** !([Trichtersymbol](../assets/icon-filter-search.png)).
+1. Um die Auswahl der Suchfilter anzuzeigen, klicken Sie auf das **[!UICONTROL Filters]** !([Trichtersymbol](../assets/icon-filter-search.png)) Registerkarte.
 
-1. Füllen Sie so viele Filter wie nötig aus, um die Seiten zu beschreiben, die Sie finden möchten.
+1. Schließen Sie so viele Filter wie nötig ab, um die Seiten zu beschreiben, die Sie finden möchten.
 
 1. Klicken Sie auf **[!UICONTROL Apply Filters]** , um die Ergebnisse anzuzeigen.
 
@@ -107,17 +107,17 @@ Das Suchfeld oben links im Raster _[!UICONTROL Pages]_kann verwendet werden, um 
 | [!UICONTROL Title] | Filtern Sie die Suche nach dem Seitentitel. |
 | [!UICONTROL URL Key] | Filtern Sie die Suche nach dem URL-Schlüssel. |
 | [!UICONTROL Created] | Filtern Sie die Suche nach dem Datum, an dem die Seite erstellt wurde. |
-| [!UICONTROL Modified] | Filtern Sie die Suche nach dem Datum, an dem die Seite zuletzt geändert wurde. |
+| [!UICONTROL Modified] | Filtern Sie die Suche nach dem Datum der letzten Änderung der Seite. |
 | [!UICONTROL Store View] | Filtern Sie die Suche nach der Store-Ansicht. Optionen: `All available` / `Store Views` |
-| [!UICONTROL Layout] | Filtern Sie die Suche nach dem Seitenlayout. Optionen: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
+| [!UICONTROL Layout] | Filtern Sie die Suche nach dem Seiten-Layout. Optionen: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Status] | Filtern Sie die Suche nach dem Seitenstatus. Optionen: `Disabled` / `Published` |
-| [!UICONTROL Custom design from / to] | Filtern Sie die Suche nach dem Start- und Enddatum, wenn das ausgewählte Design auf die Seite angewendet wird. ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source). |
-| [!UICONTROL Asset] | Filtern der Suche nach den Asset-Titeln der Seite |
+| [!UICONTROL Custom design from / to] | Filtern Sie die Suche nach dem Start- und Enddatum, wenn das ausgewählte Design auf die Seite angewendet wird. ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source). |
+| [!UICONTROL Asset] | Filtern der Suche nach Seitentitel-Assets |
 | [!UICONTROL Custom Layout] | Filtern Sie die Suche nach einem benutzerdefinierten Layout. Optionen: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
 | [!UICONTROL Custom Theme] | Filtern Sie die Suche nach einem benutzerdefinierten Design. Standardoptionen: `Magento Blank` / `Magento Luma` |
-| [!UICONTROL Meta Keywords] | Filtern Sie die Suche nach den Meta-Keywords für die Seite. |
-| [!UICONTROL Meta Title] | Filtern Sie die Suche anhand des Metadatentitels für die Seite. |
-| [!UICONTROL Meta Description] | Filtern Sie die Suche anhand der Metadatenbeschreibung für die Seite. |
+| [!UICONTROL Meta Keywords] | Filtern Sie die Suche anhand der Meta-Keywords für die Seite. |
+| [!UICONTROL Meta Title] | Filtern Sie die Suche nach dem Meta-Titel für die Seite. |
+| [!UICONTROL Meta Description] | Filtern Sie die Suche nach der Meta-Beschreibung für die Seite. |
 
 {style="table-layout:auto"}
 
@@ -133,64 +133,64 @@ Das Suchfeld oben links im Raster _[!UICONTROL Pages]_kann verwendet werden, um 
 
 ## Seitenaktionen
 
-Seiten können bearbeitet, deaktiviert, aktiviert und gelöscht werden. Um eine Aktion auf eine einzelne Seite anzuwenden, aktivieren Sie das Kontrollkästchen in der ersten Spalte. Um alle Seiten auszuwählen oder die Auswahl aufzuheben, verwenden Sie das Auswahlsteuerelement oben in der Spalte.
+Seiten können bearbeitet, deaktiviert, aktiviert und gelöscht werden. Um eine Aktion auf eine einzelne Seite anzuwenden, aktivieren Sie das Kontrollkästchen in der ersten Spalte. Um alle Seiten ein- oder auszuwählen, verwenden Sie das Auswahlsteuerelement oben in der Spalte.
 
 ![Seitenaktionen](./assets/pages-select.png){width="400" zoomable="yes"}
 
-### Einzelaktion
+### Einzelklage
 
 Verwenden Sie die Spalte _[!UICONTROL Action]_ganz rechts, um eine der folgenden Aktionen auf die einzelne Seite anzuwenden:
 
 - [!UICONTROL Edit] - öffnet die Seite im Bearbeitungsmodus
-- [!UICONTROL Delete] - Löscht die Seite (Bestätigung erforderlich)
-- [!UICONTROL View] - Öffnet eine Seite direkt auf der Storefront
+- [!UICONTROL Delete] - löscht die Seite (Bestätigung erforderlich)
+- [!UICONTROL View] - Öffnet eine Seite direkt in der Storefront
 
 ![Einzelseitenaktionen](./assets/page-grid-actions.png){width="600" zoomable="yes"}
 
 ### Massenaktionen
 
-Wenden Sie mit der Auswahl &quot;_[!UICONTROL Action]_&quot;oben links eine der folgenden Aktionen auf mehrere ausgewählte Seiten an:
+Wenden Sie mithilfe der _[!UICONTROL Action]_oben links eine der folgenden Aktionen auf mehrere ausgewählte Seiten gleichzeitig an:
 
-- [!UICONTROL Delete] - Löscht die Seiten (Bestätigung erforderlich)
-- [!UICONTROL Disable] - Deaktiviert die Seiten auf der Storefront
-- [!UICONTROL Enable] - aktiviert die Seiten auf der Storefront
-- [!UICONTROL Edit] - öffnet Spalten auf dem Raster im Bearbeitungsmodus (**[!UICONTROL Title]**, **[!UICONTROL URL Key]**, **[!UICONTROL Layout]** und **[!UICONTROL Status]**)
+- [!UICONTROL Delete] - löscht die Seiten (Bestätigung erforderlich)
+- [!UICONTROL Disable] - Deaktiviert die Seiten in der Storefront
+- [!UICONTROL Enable] - Aktiviert die Seiten in der Storefront
+- [!UICONTROL Edit] - Öffnet Spalten im Raster im Bearbeitungsmodus (**[!UICONTROL Title]**, **[!UICONTROL URL Key]**, **[!UICONTROL Layout]** und **[!UICONTROL Status]**)
 
-## Seiten-Raster-Layout
+## Layout des Seitenrasters
 
 Die Auswahl der Spalten und ihre Reihenfolge im Raster können nach Ihren Wünschen geändert werden. Um die neue Spaltenanordnung beizubehalten, können Sie sie als Ansicht speichern.
 
 ### Spaltenauswahl ändern
 
-Klicken Sie oben rechts auf das Steuerelement _Spalten_ (![Spaltensymbol](../assets/icon-columns.png)) und führen Sie folgende Schritte aus:
+Klicken Sie in der oberen rechten Ecke auf das Steuerelement _Spalten_ (![Spaltensymbol](../assets/icon-columns.png)) und führen Sie die folgenden Schritte aus:
 
-- Aktivieren Sie das Kontrollkästchen einer Spalte, die Sie zum Raster hinzufügen möchten.
+- Aktivieren Sie das Kontrollkästchen einer beliebigen Spalte, die Sie dem Raster hinzufügen möchten.
 
-- Deaktivieren Sie das Kontrollkästchen aller Spalten, die Sie aus dem Raster entfernen möchten.
+- Deaktivieren Sie das Kontrollkästchen für alle Spalten, die Sie aus dem Raster entfernen möchten.
 
-### Verschieben einer Spalte
+### Spalte verschieben
 
 1. Klicken Sie auf die Spaltenüberschrift und halten Sie die Maustaste gedrückt.
 
-1. Ziehen Sie die Spalte an die neue Position und veröffentlichen Sie sie.
+1. Ziehen Sie die Spalte an die neue Position und lassen Sie sie los.
 
 ### Ansicht speichern
 
-1. Klicken Sie auf das Steuerelement _Ansicht_ (![Augensymbol](../assets/icon-view-eye.png)) und dann auf **[!UICONTROL Save View As]**.
+1. Klicken Sie auf _Steuerelement_ Ansicht![ (Augensymbol](../assets/icon-view-eye.png)) und dann auf **[!UICONTROL Save View As]**.
 
 1. Geben Sie einen Namen für die Ansicht ein.
 
-1. Um die Ansicht zu speichern, klicken Sie auf den Pfeil _Pfeil_ (![Pfeilsymbol](../assets/icon-arrow-save.png)).
+1. Um die Ansicht zu speichern, klicken Sie auf _Pfeil_ (![Pfeilsymbol](../assets/icon-arrow-save.png)).
 
    Der Name der Ansicht wird jetzt als aktuelle Ansicht angezeigt.
 
-### Ansicht ändern
+### Ändern der Ansicht
 
-Klicken Sie auf das Steuerelement _Ansicht_ (![Augensymbol](../assets/icon-view-eye.png)) und führen Sie einen der folgenden Schritte aus:
+Klicken Sie auf _Ansicht_ (![Augensymbol](../assets/icon-view-eye.png)) und führen Sie einen der folgenden Schritte aus:
 
 - Wählen Sie die Ansicht aus, die Sie verwenden möchten.
 
-- Ändern Sie den Namen einer Ansicht, indem Sie auf das Symbol &quot;Bearbeiten&quot;(![Bleistiftsymbol](../assets/icon-edit-pencil.png)) klicken und den Namen aktualisieren.
+- Ändern Sie den Namen einer Ansicht, indem Sie auf das Symbol Bearbeiten ![Bleistiftsymbol](../assets/icon-edit-pencil.png) klicken und den Namen aktualisieren.
 
   ![Die gespeicherte Ansicht wird in den Ansichtssteuerelementen mit einem Bearbeitungssymbol angezeigt](./assets/pages-default-grid-control.png){width="600" zoomable="yes"}
 
@@ -198,23 +198,23 @@ Klicken Sie auf das Steuerelement _Ansicht_ (![Augensymbol](../assets/icon-view-
 
 {{ee-feature}}
 
-Seitenänderungen können planmäßig angewendet und mit anderen Inhaltsänderungen gruppiert werden. Sie können eine Kampagne basierend auf geplanten Änderungen auf einer Seite erstellen oder die Änderungen auf eine bestehende Kampagne anwenden. Weitere Informationen finden Sie unter [Inhaltstaging](content-staging.md).
+Seitenänderungen können planmäßig angewendet und mit anderen Inhaltsänderungen gruppiert werden. Sie können eine Kampagne auf der Grundlage geplanter Änderungen an einer Seite erstellen oder die Änderungen auf eine vorhandene Kampagne anwenden. Weitere Informationen finden Sie unter [Inhaltsbereitstellung](content-staging.md).
 
 Beachten Sie beim Konfigurieren von Zeitplänen für Seitenänderungen und beim Bearbeiten von Kampagnen Folgendes:
 
-- Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h. jede Entität kann an einem Punkt nur eine geplante Aktualisierung erhalten. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb des Zeitrahmens angewendet. Daher kann eine Entität nicht gleichzeitig eine andere geplante Aktualisierung für verschiedene Store-Ansichten haben. Alle Entitätsattributwerte in allen Store-Ansichten, die von der aktuellen geplanten Aktualisierung nicht betroffen sind, werden von den Standardwerten übernommen und nicht von der vorherigen geplanten Aktualisierung.
+- Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h., jede Entität kann immer nur eine geplante Aktualisierung haben. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb ihres Zeitrahmens angewendet. Daher kann eine Entität nicht gleichzeitig verschiedene geplante Aktualisierungen für verschiedene Store-Ansichten haben. Alle Entitätsattributwerte in allen Store-Ansichten, die nicht von der aktuellen geplanten Aktualisierung betroffen sind, werden aus den Standardwerten übernommen, nicht aus der vorherigen geplanten Aktualisierung.
 
-- Wenn eine Kampagne mit mehr als einer Seite verknüpft ist, kann die Kampagne nur über das Dashboard [Inhaltstaging-Dashboard](content-staging-dashboard.md) bearbeitet werden.
+- Wenn eine Kampagne mit mehr als einer Seite verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard“ bearbeitet ](content-staging-dashboard.md).
 
-- Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne später nicht mehr so bearbeitet werden, dass ein Enddatum angegeben wird. In diesem Fall ist es erforderlich, eine doppelte Kampagne zu erstellen und das erforderliche Enddatum einzugeben.
+- Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne nicht später bearbeitet werden, um ein Enddatum einzuschließen. In diesem Fall müssen Sie eine doppelte Kampagne erstellen und das erforderliche Enddatum eingeben.
 
-- Das Start- und Enddatum der Kampagne muss mithilfe der Zeitzone **_default_** Admin definiert werden, die aus der lokalen Zeitzone jeder Website konvertiert wird. Betrachten wir ein Beispiel, bei dem Sie mehrere Websites in verschiedenen Zeitzonen haben, aber eine Kampagne basierend auf einer US-Zeitzone starten möchten. In diesem Fall müssen Sie für jede lokale Zeitzone ein separates Update planen und **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** in Konvertierung aus jeder lokalen Website-Zeitzone in die standardmäßige Admin-Zeitzone einstellen.
+- Das Start- und Enddatum einer Kampagne müssen mithilfe der Admin-Zeitzone **_Standard_** definiert werden, die aus der lokalen Zeitzone jeder Website konvertiert wird. Angenommen, Sie haben mehrere Websites in verschiedenen Zeitzonen, möchten aber eine Kampagne basierend auf einer US-Zeitzone starten. In diesem Fall müssen Sie für jede lokale Zeitzone eine separate Aktualisierung planen und **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** in festlegen, die von jeder lokalen Website-Zeitzone in die standardmäßige Admin-Zeitzone konvertiert werden.
 
-- Sie können Änderungen für Produktaktualisierungen planen und in der Vorschau anzeigen. Weitere Informationen finden Sie unter [Planen einer Aktualisierung](content-staging-scheduled-update.md).
+- Sie können Änderungen für Produktaktualisierungen planen und in der Vorschau anzeigen. Weitere Informationen finden Sie unter [Planung einer Aktualisierung](content-staging-scheduled-update.md).
 
 >[!NOTE]
 >
->Die Registerkarte &quot;[!UICONTROL Custom Design Update]&quot; wurde in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce entfernt und kann nicht direkt auf der Seite geändert werden. Sie müssen eine geplante Aktualisierung für diese Aktivierungen erstellen.
+>Die Registerkarte [!UICONTROL Custom Design Update] wurde in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce entfernt und kann nicht direkt auf der Seite geändert werden. Für diese Aktivierungen muss ein geplantes Update erstellt werden.
 
-![Auf der Startseite werden geplante Änderungen am oberen Rand angezeigt](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
+![Auf der Startseite werden geplante Änderungen oben angezeigt](./assets/page-scheduled-change.png){width="600" zoomable="yes"}
 

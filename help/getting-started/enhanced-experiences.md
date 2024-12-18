@@ -1,18 +1,18 @@
 ---
-title: Erweiterte Storefront-Erlebnisse
-description: Erfahren Sie mehr über die vielen Tools, mit denen Sie die Interaktion, Treue und Treue Ihrer Kunden maximieren können.
+title: Verbesserte Storefront-Erlebnisse
+description: Erfahren Sie mehr über die vielen Tools, mit denen Sie Kundeninteraktion, Kundenbindung und Loyalität maximieren können.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
 
-# Erweiterte Storefront-Erlebnisse
+# Verbesserte Storefront-Erlebnisse
 
-Neben den Standardelementen, mit denen Kunden in Ihrem Geschäft Einkäufe tätigen können, gibt es viele Tools, mit denen Sie die Interaktion, Treue und Treue Ihrer Kunden maximieren können.
+Zusätzlich zu den Standardelementen, mit denen Kundinnen und Kunden in Ihrem Geschäft Einkäufe tätigen können, gibt es viele Tools, die Ihnen dabei helfen, Kundeninteraktion, Kundenbindung und Loyalität zu maximieren.
 
 <!-- This is not currently working >[!TIP]
 >
@@ -22,118 +22,118 @@ Neben den Standardelementen, mit denen Kunden in Ihrem Geschäft Einkäufe täti
 
 ## Neue Kunden gewinnen
 
-Adobe Commerce und Magento Open Source sind mit Funktionen ausgestattet, die die Erstellung von _suchmaschinenfreundlichen_ Websites erleichtern und die Wahrscheinlichkeit erhöhen, dass die richtigen Kunden zu Ihrer Site gelangen.
+Adobe Commerce und Magento Open Source sind voll gepackt mit Funktionen, die die Erstellung _(suchmaschinenfreundlicher)_ erleichtern und die Wahrscheinlichkeit erhöhen, die richtigen Kunden auf Ihre Site zu bringen.
 
-- **Suchmaschinenoptimierung** - [!DNL Commerce] bietet leistungsstarke, native Funktionen zur Optimierung der [Suchmaschinenoptimierung (SEO)](../merchandising-promotions/seo-overview.md)-Vorgehensweisen für die Inhalts- und Site-Exposition, die mit dem Admin integriert sind und direkt an das Benutzererlebnis gebunden sind.
+- **Suchmaschinenoptimierung** - [!DNL Commerce] bietet leistungsstarke, native Funktionen zur Optimierung von [Suchmaschinenoptimierung (SEO)](../merchandising-promotions/seo-overview.md) Practices für die Offenlegung von Inhalten und Websites, die mit dem Administrator integriert und direkt in das Benutzererlebnis eingebunden sind.
 
-- **Benutzerdefinierte URLs** - Geben Sie [benutzerdefinierte URLs](../stores-purchase/store-urls.md) an, damit sie kurz, sauber und leicht zu merken sind. Sie können auch suchfreundliche URLs automatisch generieren, um Ihren Kaufpfad zu optimieren.
+- **Benutzerdefinierte URLs** - Geben Sie [benutzerdefinierte URLs](../stores-purchase/store-urls.md) an, damit sie kurz, sauber und leicht zu merken sind. Sie können auch automatisch suchfreundliche URLs generieren, um Ihren Kaufpfad zu optimieren.
 
-- **Metadaten** - Verbessern Sie den Rang Ihrer Suchmaschine, indem Sie bestimmte Kriterien auswählen, mit denen Suchmaschinen Ihre Produkte leichter finden und indizieren können. Sie können [Metadaten](../merchandising-promotions/meta-data.md) für Produkt-, Kategorie- und Inhaltsseiten eingeben.
+- **Meta-Daten** - Verbessern Sie Ihr Suchmaschinen-Ranking, indem Sie bestimmte Kriterien auswählen, die Suchmaschinen dabei helfen, Ihre Produkte leichter zu finden und zu indizieren. Sie können [Metadaten](../merchandising-promotions/meta-data.md) für Produkt-, Kategorie- und Inhaltsseiten eingeben.
 
 - **Sitemap** - Link zu einer [Sitemap](../merchandising-promotions/sitemap-xml.md) in der Fußzeile Ihres Stores, um Kunden einen Überblick über die Katalogstruktur mit Links zu allen Kategorien und Produkten im Store zu geben. Einfache Integration mit Google Sitemap.
 
-- **Analytics** - Neben der Überwachung Ihrer Site über das Admin-Dashboard können Sie auch Analysetools von Drittanbietern wie [Google Analytics](../merchandising-promotions/google-analytics.md) und [New Relic-Berichterstellung](new-relic-reporting.md) integrieren, um detaillierte Statistiken zu Traffic und Vertrieb zu erhalten.
+- **Analytics** - Zusätzlich zur Überwachung Ihrer Site über das Admin-Dashboard können Sie Analyse-Tools von Drittanbietern wie [Google Analytics](../merchandising-promotions/google-analytics.md) und [New Relic-Reporting](new-relic-reporting.md) integrieren, um detaillierte Traffic- und Verkaufsstatistiken zu erhalten.
 
-## Kunden einbinden
+## Kundeninteraktion
 
-Adobe Commerce und Magento Open Source machen es einfach, ein benutzerdefiniertes, ansprechendes Site-Erlebnis zu erstellen. Ermutigen Sie Ihre Kunden, mehr Zeit mit der Erkundung Ihrer Site zu verbringen, und geben Sie ihnen die Tools, damit sie schneller finden können, was sie möchten.
+Adobe Commerce und Magento Open Source erleichtern die Erstellung eines benutzerspezifischen, ansprechenden Site-Erlebnisses. Motivieren Sie Ihre Kunden, mehr Zeit mit der Erkundung Ihrer Site zu verbringen, und geben Sie ihnen die Tools, die es ihnen erleichtern, schneller das zu finden, was sie möchten.
 
-- **Content Management** - [Page Builder](../page-builder/introduction.md) vereinfacht die Erstellung von Zielseiten mit interaktiven Elementen, die Ihre Kunden ansprechen. Selbst Benutzer ohne technologischen Hintergrund können Site-Inhalte erstellen und verwalten.
+- **Content-Management** - [Page Builder](../page-builder/introduction.md) vereinfacht die Erstellung zielgerichteter Seiten mit interaktiven Elementen, die Ihre Kunden ansprechen. Selbst Benutzer ohne Technologiehintergrund können Site-Inhalte erstellen und verwalten.
 
-- **Design und Design** - Steuern Sie die [visuellen Elemente](../content-design/themes.md) Ihres Stores mit einer Sammlung von Vorlagen und Designdateien. Sie können diese visuellen Elemente auf alle Seiten in Ihrem Geschäft anwenden, sodass Ihr Store ein einheitliches Erscheinungsbild erhält.
+- **Design und Design** - Steuern Sie die [visuellen Elemente](../content-design/themes.md) Ihres Stores mit einer Sammlung von Vorlagen und Designdateien. Sie können diese visuellen Elemente auf alle Seiten in Ihrem Store anwenden und Ihrem Store so ein einheitliches Erscheinungsbild verleihen.
 
 - **Mehrere Stores, Sites und Ansichten** - Steuern Sie das Erscheinungsbild von [mehreren Sites](websites-stores-views.md), führen Sie neue Märkte und Sprachen ein und verfolgen Sie Analysen von einem einzigen Administrator.
 
-- **Mehrere Geräte** - Die leistungsstarken Funktionen von [!DNL Commerce] erleichtern die Erstellung von [Storefronts](../content-design/themes.md), die für iPhone-, Android™- und Mobile Opera-Browser optimiert sind, damit Sie Verbraucher mit mobilem Commerce jetzt und in die Zukunft binden können.
+- **Mehrere Geräte** - Die leistungsstarken [!DNL Commerce] erleichtern die Erstellung [Storefronts](../content-design/themes.md) die für iPhone, Android™ und Mobile Opera optimiert sind, damit Sie Verbraucher jetzt und in Zukunft mit Mobile Commerce interagieren können.
 
-- **Shopping-Tools** - Ihr Store enthält eine Reihe von [Shopping-Tools](../stores-purchase/email-a-friend.md), die Ihren Kunden die Möglichkeit bieten, mit Ihrem Store zu interagieren, eine Verbindung in sozialen Medien herzustellen und mit Freunden zu teilen.
+- **Einkaufs-Tools** - Ihr Store enthält eine Reihe von [Einkaufs-Tools](../stores-purchase/email-a-friend.md) die Ihren Kunden Möglichkeiten bieten, mit Ihrem Store zu interagieren, sich über soziale Medien zu verbinden und mit Freunden zu teilen.
 
-- **Hoch entwickelte Suche** - [Filtern Sie das Produkt](../catalog/search.md) nach Preis, Hersteller oder anderen Kriterien, um die Kaufzeit zu verkürzen.
+- **Intelligente Suche** - [Produkt ](../catalog/search.md) Preis, Hersteller oder andere Kriterien filtern, um die Kaufzeit zu verkürzen.
 
-## Differenzieren und Personalisieren
+## Differenzieren und personalisieren
 
-Adobe Commerce und Magento Open Source bieten eine Vielzahl von Tools, mit denen Sie personalisierte Erlebnisse basierend auf Kundenaktivität und -profil über mehrere digitale Touchpoints hinweg erstellen können.
+Adobe Commerce und Magento Open Source bieten zahlreiche Tools, um basierend auf Kundenaktivität und Kundenprofil personalisierte Erlebnisse über mehrere digitale Touchpoints hinweg zu erstellen.
 
-- **Benutzerdefinierter Katalog und Preislisten** - Bieten Sie eine kuratierte Produktauswahl mit benutzerspezifischen [Preisen für bestimmte Unternehmen](../b2b/catalog-shared-pricing-structure.md) an, während Sie weiterhin den Standardkatalog mit regelmäßigen Preisen für allgemeine Kunden anbieten.
+- **Benutzerdefinierter Katalog und Preislisten** - Bieten Sie eine kuratierte Produktauswahl mit benutzerspezifischen [Preisen für bestimmte Unternehmen](../b2b/catalog-shared-pricing-structure.md), während Sie weiterhin den Standardkatalog mit regelmäßigen Preisen für allgemeine Kunden anbieten.
 
-- **Zielgerichtete Segmentierung** - Optimieren Sie Ihre Marketinginitiativen mit dynamischen Inhalten, Promotions und Banner [ basierend auf Eigenschaften](../customers/customer-segments.md) wie Kundenadresse, Bestellverlauf und Warenkorbinhalten.
+- **Zielgruppensegmentierung** - Optimieren Sie Ihre Marketing-Initiativen mit dynamischen Inhalten, Werbeaktionen und Bannern [basierend auf Eigenschaften](../customers/customer-segments.md) wie Kundenadresse, Bestellverlauf und Inhalten des Warenkorbs.
 
-- **Smart Shopping Rules** - Passen Sie das Einkaufserlebnis mit Preisregeln und [Promotions](../merchandising-promotions/introduction.md#promotions) an, die der Trigger auf Produkt- oder Warenkorbebene durchführt.
+- **Smart Shopping Rules**: Passen Sie das Einkaufserlebnis mit Preisregeln und [Promotions](../merchandising-promotions/introduction.md#promotions) an, die Trigger auf Produkt- oder Warenkorbebene verwenden.
 
-- **Kundengruppen** - Bieten Sie unterschiedliche Produkte und Preise gemäß [Kundengruppe](../customers/customer-groups.md) oder [freigegebenen Katalog](../b2b/catalog-shared.md) an. Bestimmen Sie, welche Rabatte verfügbar sind und welche Steuerklasse für die Bestellung gilt.
+- **Kundengruppen** - Bieten Sie verschiedene Produkte und Preise nach [Kundengruppe](../customers/customer-groups.md) oder [freigegebenen Katalog](../b2b/catalog-shared.md). Bestimmen Sie, welche Rabatte verfügbar sind und welche Steuerklasse für die Bestellung gilt.
 
 ## Durchschnittlichen Bestellwert erhöhen
 
-Adobe Commerce und Magento Open Source bieten eine Reihe von Tools, die Ihnen dabei helfen, das Einkaufserlebnis anzupassen, und Ihre Kunden ermutigen, mehr Artikel in ihren Warenkorb zu legen und mehr Geld auszugeben.
+Adobe Commerce und Magento Open Source bieten eine Reihe von Tools, mit denen Sie das Einkaufserlebnis anpassen und Ihre Kunden dazu ermutigen können, mehr Artikel in ihren Warenkorb zu legen und mehr Geld auszugeben.
 
-- **Targeted Promotions** - Verwenden Sie Katalog- und Warenkorbpreisregeln, um [Promotions](../merchandising-promotions/introduction.md#promotions) zu erstellen, die aktiviert werden, wenn eine Reihe von Bedingungen erfüllt ist. Segmentieren Sie in Adobe Commerce Kunden dynamisch und erstellen Sie Segmente basierend auf bestimmten Merkmalen wie Kundenadresse, Bestellverlauf, Warenkorbinhalt und vieles mehr. Verwenden Sie dann [[!DNL Page Builder]](../page-builder/introduction.md) , um einen dynamischen Block zu erstellen, der durch eine Promotion ausgelöst wird und nur dem zielgerichteten Kundensegment angezeigt wird.
+- **Gezielte Werbeaktionen** - Verwenden Sie Preisregeln für Kataloge und Warenkorb, um [Werbeaktionen](../merchandising-promotions/introduction.md#promotions) zu erstellen, die in Gang kommen, wenn eine Reihe von Bedingungen erfüllt ist. Segmentieren Sie in Adobe Commerce Kundinnen und Kunden dynamisch und erstellen Sie Segmente auf der Grundlage spezifischer Merkmale wie Kundenadresse, Bestellverlauf, Warenkorbinhalt und vieles mehr. Verwenden Sie dann [[!DNL Page Builder]](../page-builder/introduction.md) , um einen dynamischen Block zu erstellen, der durch eine Promotion ausgelöst wird und nur für das Zielkundensegment angezeigt wird.
 
-- **Promotionereignisse** - Halten Sie ein Einladungsereignis [event](../merchandising-promotions/events-private-sales.md), um eine Marke zu starten, und bieten Sie einen [Abzählungsticker](../merchandising-promotions/events-private-sales.md#event-ticker) für Einzelverkäufe an.
+- **Werbeveranstaltungen** - Führen Sie eine [-Veranstaltung ](../merchandising-promotions/events-private-sales.md), um eine Marke zu starten, und bieten Sie einen [Countdown-Ticker](../merchandising-promotions/events-private-sales.md#event-ticker) für Verkäufe an, die nur Mitglieder sind.
 
-- **Coupons** - Erstellen Sie zeitlich begrenzte Angebote und [Coupons](../merchandising-promotions/price-rules-cart-coupon.md), die Kunden mit ihrem Telefon scannen und auf einen Kauf anwenden können.
+- **Gutscheine** - Erstellen Sie zeitlich begrenzte Angebote und [Gutscheine](../merchandising-promotions/price-rules-cart-coupon.md) die Kunden mit ihrem Smartphone scannen und auf einen Kauf anwenden können.
 
-- **Produktempfehlungen** - Eine weitere Möglichkeit, AOV zu erhöhen, besteht darin, [Vorschläge](../catalog/related-products-up-sells-cross-sells.md) für verwandte Produkte und Möglichkeiten zum Up-Sell und Crosssell an strategischen Punkten entlang des Pfads zur Konversion anzubieten.
+- **Produktvorschläge** - Eine weitere Möglichkeit, die AOV zu erhöhen, besteht darin, [Vorschläge](../catalog/related-products-up-sells-cross-sells.md) für verwandte Produkte anzubieten und Möglichkeiten zum Upsell und Crosssell an strategischen Punkten auf dem Weg zur Konversion zu bieten.
 
-- **E-Mail-Erinnerungen** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Senden Sie automatisierte [Erinnerungsnachrichten](../merchandising-promotions/email-reminder-rules.md) an Kunden, die Artikel zu ihrem Warenkorb hinzugefügt, aber noch keinen Kauf getätigt haben. Verschiedene Trigger können automatisierte E-Mails starten, darunter Gesamtwert des Warenkorbs, Menge, Artikel im Warenkorb und mehr.
+- **E-Mail**-Erinnerungen: ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Senden Sie automatisierte [Erinnerungs-E-](../merchandising-promotions/email-reminder-rules.md) an Kunden, die Artikel zu ihrem Warenkorb oder ihrer Wunschliste hinzugefügt, aber keinen Kauf getätigt haben. Verschiedene Trigger können automatisierte E-Mails starten, darunter Gesamtwert des Warenkorbs, Menge, Artikel im Warenkorb und mehr.
 
-- **Zwischenspeicherung auf der vollständigen Seite** - Erhöhen Sie die Leistung durch das Zwischenspeichern von primären Seiten durch [](../systems/cache-management.md#full-page-caching). Das Zwischenspeichern von Seiten verbessert die Antwortzeiten des Servers, reduziert die Auslastung und erhöht den nachhaltigen Traffic. Sie können Tags verwenden, um festzulegen, welche Komponenten zwischengespeichert werden sollen, sodass bei Aktualisierungen nur relevante Seiten zwischengespeichert werden. Sie kann Besucher auch von Käufern identifizieren und unterscheiden.
+- **Vollständige Seitenzwischenspeicherung** - Verbessern der Leistung durch [Zwischenspeichern primärer Seiten](../systems/cache-management.md#full-page-caching). Das Caching von Seiten verbessert die Antwortzeiten des Servers, reduziert die Auslastung und erhöht den nachhaltigen Traffic. Sie können Tags verwenden, um zu definieren, welche Komponenten zwischengespeichert werden sollen, sodass beim Aktualisieren nur relevante Seiten zwischengespeichert werden. Außerdem können damit Besucher und Käufer identifiziert und unterschieden werden.
 
-- **Archiv der Verkaufsaufträge** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) [Archivieren von Bestellungen](../stores-purchase/order-archive.md) gibt Ressourcen frei und verbessert die Leistung, wenn Vertriebsmitarbeiter Kunden bei Bestellungen unterstützen.
+- **Kundenauftragsarchiv** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) [Aufträge ](../stores-purchase/order-archive.md) Ressourcen frei und verbessert die Leistung, wenn Vertriebsmitarbeiter Kunden bei Bestellungen unterstützen.
 
-- **Indexverwaltung** - Die automatische [Neuindizierung](../systems/index-management.md) findet immer statt, wenn sich die Preise ändern, Warenkörbe aktualisiert oder neue Kategorien erstellt werden. Die Neuindizierung ist ein Hintergrundprozess, der keine Auswirkungen auf Store-Vorgänge hat.
+- **Indexverwaltung** - Die automatische [Neuindizierung](../systems/index-management.md) erfolgt bei Preisänderungen, Warenkorbaktualisierungen oder der Erstellung neuer Kategorien. Die Neuindizierung ist ein Hintergrundprozess, der Speichervorgänge nicht beeinträchtigt.
 
-## Optimieren von Geschäftsprozessen und Rentabilität
+## Geschäftsprozesse und Rentabilität optimieren
 
-- **[!DNL Advanced Reporting]** - Verschaffen Sie sich wertvolle Einblicke mit dynamischen Produkt-, Bestell- und Kundenberichten, die auf [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en) basieren.
+- **[!DNL Advanced Reporting]** - Erhalten Sie mit dynamischen Produkt-, Auftrags- und Kundenberichten auf der Basis von [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en) wertvolle Einblicke auf einen Blick.
 
-- **Dashboard-Momentaufnahmen** - Es ist entscheidend, Ihr Marketing-Budget zu maximieren, wenn Sie wissen, was auf Ihrer Site von Interesse ist. Verwenden Sie diese [-Informationen in Ihrem Dashboard](admin-dashboard.md), um zu bestimmen, was Sie an treue Kunden weiterverkaufen oder welche Produkte zum Verkauf angeboten werden sollen.
+- **Dashboard-Momentaufnahmen** - Um Ihr Marketing-Budget zu maximieren, ist es von entscheidender Bedeutung zu wissen, was auf Ihrer Site von Interesse ist. Verwenden Sie diese [Informationen auf Ihrem Dashboard](admin-dashboard.md), um zu bestimmen, was Sie an treue Kunden weiterverkaufen und aufstocken sollen oder welche Produkte zum Verkauf angeboten werden sollen.
 
-- **Steuern** - Verwalten Sie Ihre [Steuern](../stores-purchase/taxes.md) mit nativen Tools oder fügen Sie Drittanbietererweiterungen von [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target=&quot;_blank&quot;} hinzu.
+- **Steuern** - Verwalten Sie Ihre [Steuern](../stores-purchase/taxes.md) mit nativen Tools oder fügen Sie Erweiterungen von Drittanbietern aus [[!DNL Commerce Marketplace]](https://marketplace.magento.com/){:target="_blank"} hinzu.
 
-- **Automatisierte Geschäftsregeln** - Richten Sie [automatisierte Geschäftsregeln](../merchandising-promotions/price-rules-cart.md) ein, die Produktbeziehungen definieren und Preisregeln verwenden, bei denen Trigger je nach Bedingungen Rabatte gewähren.
+- **Automatisierte Geschäftsregeln** - Richten Sie [automatisierte Geschäftsregeln](../merchandising-promotions/price-rules-cart.md) ein, die Produktbeziehungen definieren und Preisregeln verwenden, die Trigger-Rabatte auf der Grundlage verschiedener Bedingungen gewähren.
 
-- **Integriertes B2B und B2C** - Mit [Adobe Commerce B2B](../b2b/introduction.md) können Sie sowohl B2C- als auch B2B-Kunden bedienen. Über ein benutzerfreundliches Kundenportal können B2B-Kunden mehrere Stufen von Käufern mit bestimmten Rollen und Berechtigungen einrichten, Anführungszeichen und Bestellungen verfolgen, Regeln zur Bestellvalidierung definieren und ihre Gutschrift online verwalten.
+- **Integrierte B2B- und B2C**-Lösungen - Mit [Adobe Commerce B2B](../b2b/introduction.md) können Sie sowohl B2C- als auch B2B-Kunden unterstützen. Über ein benutzerfreundliches Kundenportal können B2B-Kunden mehrere Käuferebenen mit bestimmten Rollen und Berechtigungen einrichten, Angebote und Bestellungen verfolgen, Kaufgenehmigungsregeln definieren und ihr Guthaben online verwalten.
 
 ## Kaufzeitpunkt
 
-Erleichtern Sie Kunden den Abschluss ihrer Käufe. Adobe Commerce und Magento Open Source sollen Ihnen dabei helfen, Ihr Kassenprozesse zu optimieren und gleichzeitig Konversionsraten zu steigern.
+Machen Sie es Kunden leicht, ihre Käufe abzuschließen. Adobe Commerce und Magento Open Source helfen Ihnen, Ihren Checkout-Prozess zu optimieren und gleichzeitig die Konversionsraten zu steigern.
 
-**Sofortiger Kauf** - Vereinfachen Sie die Bestellung und steigern Sie die Konversionsraten, indem Sie Ihren Kunden ermöglichen, durch die Verwendung gespeicherter Zahlungs- und Versandinformationen die [Geschwindigkeit beim Checkout](../stores-purchase/checkout-instant-purchase.md) zu erhöhen.
+**Sofortiger Kauf** - Vereinfachen Sie die Bestellung und erhöhen Sie die Konversionsraten, indem Sie Ihren Kunden [ ermöglichen, durch ](../stores-purchase/checkout-instant-purchase.md) Verwendung gespeicherter Zahlungs- und Versandinformationen die Geschwindigkeit der Bestellung zu erhöhen.
 
-**Shopping-Hilfe** - [Unterstütztes Shopping](../stores-purchase/shopping-assisted-cart-manage.md) erleichtert es Kundendienstmitarbeitern, Bestellungen für Kunden zu erstellen. In Adobe Commerce haben Kundendienstmitarbeiter, die in Admin arbeiten, Zugriff auf Warenkorbinhalte und können Artikel aus einer Wunschliste in einen Warenkorb verschieben, Couponcodes anwenden und vieles mehr.
+**Einkaufsunterstützung** - [Assisted Shopping](../stores-purchase/shopping-assisted-cart-manage.md) erleichtert es den Kundendienstmitarbeitern, Bestellungen für Kunden zu erstellen. In Adobe Commerce haben Kundendienstmitarbeiter, die in der Admin arbeiten, Zugriff auf den Inhalt des Warenkorbs und können Artikel von einer Wunschliste in einen Warenkorb verschieben, Couponcodes anwenden und vieles mehr.
 
-**Sicherheit** - Unabhängig davon, ob eine Bestellung online oder über das Telefon ausgeführt wird, bietet [!DNL Commerce] [komplexe Sicherheit](../systems/security.md), einschließlich [CAPTCHA](../systems/security-captcha.md) und SSL-Verschlüsselung, die die besten Verschlüsselungs- und Hashing-Algorithmen aufweist, um die Sicherheit des Systems zu schützen.
+**Sicherheit** - Unabhängig davon, ob eine Bestellung online oder telefonisch erfüllt wird, bietet [!DNL Commerce] [hoch entwickelte ](../systems/security.md), einschließlich [CAPTCHA](../systems/security-captcha.md) und SSL-Verschlüsselung, mit erstklassiger Verschlüsselung und Hash-Algorithmen, um die Sicherheit des Systems zu schützen.
 
-**Auftragsverarbeitung** - [!DNL Commerce] unterstützt einen kompletten [Auftragsverarbeitung](../stores-purchase/order-processing.md) -Workflow. Es ist einfach, den Bestellstatus anzupassen und die Kommunikation zwischen Vertriebsmitarbeitern und Kunden zu verfolgen.
+**Auftragsverarbeitung** - [!DNL Commerce] unterstützt einen vollständigen Workflow [Auftragsverarbeitung](../stores-purchase/order-processing.md). Der Bestellstatus kann einfach angepasst und die Kommunikation zwischen Vertriebsmitarbeitern und Kunden verfolgt werden.
 
-**Mehrere Zahlungsoptionen** - [!DNL Commerce] unterstützt die [Zahlungsmethoden](../stores-purchase/payments.md) und Währungen, die für den globalen Handel erforderlich sind. Sie können die Angebote auswählen, die Sie anbieten möchten, und Ihre Kunden können am Checkout die von ihnen bevorzugten auswählen.
+**Mehrere Zahlungsoptionen** - [!DNL Commerce] unterstützt die [Zahlungsmethoden](../stores-purchase/payments.md) und Währungen, die für den globalen Handel erforderlich sind. Sie können die auswählen, die Sie anbieten möchten, und Ihre Kunden können die auswählen, die sie an der Kasse bevorzugen.
 
-**PayPal Merchant Solutions** - Es ist einfach, ein [PayPal Payments](../stores-purchase/paypal.md) -Konto zu integrieren, um Ihren Kunden schnellere und sicherere Checkout-Optionen zu bieten.
+**PayPal Merchant Solutions** - Einfaches Integrieren eines [PayPal Payments](../stores-purchase/paypal.md)-Kontos, um Ihren Kunden schnellere und sicherere Checkout-Optionen zu bieten.
 
-**Versandbeschriftungen** - Händler haben die vollständige Kontrolle über Paketmerkmale wie Gewicht und Größe. [Versandtitel](../stores-purchase/shipping-labels.md), Rate und Barcode-Informationen stammen direkt vom Anbieter. Sie können einfach Bezeichnungen für eine einzelne Bestellung oder für mehrere Bestellungen generieren.
+**Versandetiketten** - Händler haben vollständige Kontrolle über Paketeigenschaften wie Gewicht und Größe. [Versandetiketten](../stores-purchase/shipping-labels.md), Tarif und Barcode-Informationen stammen direkt vom Spediteur. Sie können mühelos Beschriftungen für eine einzelne Bestellung oder für mehrere Bestellungen generieren.
 
 ## Kunden binden
 
-Adobe Commerce und Magento Open Source machen es Ihnen einfach, sich zu wiederholen und die Markentreue zu stärken. Damit erhalten Sie uneingeschränkte Kontrolle und Flexibilität bei der Erstellung und Überarbeitung von Prämien wie Prämienprogrammen, benutzerdefinierten Gutscheinen und automatisierten E-Mails, damit Ihre Kunden immer wieder zurückkehren.
+Adobe Commerce und Magento Open Source erleichtern Ihnen den Einstieg in die Wiederholungsbranche und den Aufbau von Markentreue. Damit haben Sie die volle Kontrolle und Flexibilität beim Erstellen und Überarbeiten von Leckereien wie Prämienprogrammen, benutzerdefinierten Gutscheinen und automatisierten E-Mails, damit Ihre Kundinnen und Kunden immer wieder zurückkommen.
 
-**Merchandise return** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Kunden können Anfragen für die [Rückgabe der Merchandise-Autorisierung](../stores-purchase/returns.md) aus Ihrem Store senden. Sie können Versandaufträge in einem Frachtführer-System erstellen und Versandtitel mit RMA-Nummern drucken.
+**Warenrückgabe** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) -Kunden können Anfragen für [Warenrücksendeautorisierung](../stores-purchase/returns.md) von Ihrem Store senden. Sie können Versandaufträge in einem Transportsystem erstellen und Versandaufkleber mit RMA-Nummern drucken.
 
-**Guthaben speichern** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Halten Sie Kunden treu und zufrieden, indem Sie Erstattungen als [Guthaben speichern](../customers/store-credit.md) oder virtuelle Geschenkkarten ausgeben, um sicherzustellen, dass das Geld, das sie ausgeben, in Ihrem Geschäft verbleibt.
+**Store-Guthaben** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Halten Sie Ihre Kunden loyal und zufrieden, indem Sie Rückerstattungen als [Store-Guthaben](../customers/store-credit.md) oder virtuelle Geschenkkarten ausgeben, um sicherzustellen, dass das Geld, das sie ausgeben, in Ihrem Geschäft bleibt.
 
-**Prämienpunkte** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) - Erhöhen Sie die Kundeninteraktion mit [Prämienprogrammen und Punkten](../merchandising-promotions/rewards-loyalty.md) auf der Grundlage einer Reihe von Transaktionen und Kundenverhalten. Basierende Einlösung auf verschiedenen Faktoren wie Saldo, Kundenverlauf und Konversionsraten.
+**Belohnungspunkte** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Fördern die Kundeninteraktion mit [Belohnungsprogrammen und -punkten](../merchandising-promotions/rewards-loyalty.md) basierend auf einer Reihe von Transaktionen und Kundenverhalten. Die Rücknahme basiert auf verschiedenen Faktoren, wie Saldo, Kundenverlauf und Konversionsraten.
 
-**Target shopping history** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Ermutigen Sie Kunden, anhand ihres Einkaufsverlaufs Rückkäufe mit gezielten Promotions zu tätigen. Mit Adobe Commerce können Sie einfach [Segmente ](../customers/customer-segments.md) basierend auf Ihrer Kundenbasis erstellen.
+**Target-Einkaufsverlauf** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Ermutigen Sie Kunden, Rückkäufe mit zielgerichteten Werbeaktionen auf der Grundlage ihres Einkaufsverlaufs zu tätigen. Mit Adobe Commerce können Sie ganz einfach [Segmente erstellen](../customers/customer-segments.md) basierend auf Ihrem Kundenstamm.
 
-**Newsletter** - Kontaktieren Sie aktuelle Kunden, die sich für den Erhalt von [Newslettern](../merchandising-promotions/newsletters.md) entschieden haben. Sie können beliebig viele Newsletter-Vorlagen erstellen.
+**Newsletter** - Bleiben Sie in Kontakt mit aktuellen Kunden, die sich für den Erhalt [Newsletters](../merchandising-promotions/newsletters.md) entschieden haben. Sie können beliebig viele Newsletter-Vorlagen erstellen.
 
-**RSS-Feed** - Wenn [RSS-Feeds](../merchandising-promotions/social-rss.md#rss-feeds) aktiviert ist, erhalten Abonnenten jedes Feeds automatisch Warnhinweise über alle Ergänzungen zu Produkten, Sonderaktionen, Kategorien und Gutscheinen. Ein Link zu allen RSS-Feeds, die Sie veröffentlichen, wird in der Fußzeile Ihres Stores bereitgestellt.
+**RSS-Feed** - Wenn [RSS-Feeds](../merchandising-promotions/social-rss.md#rss-feeds) aktiviert sind, erhalten Abonnentinnen und Abonnenten jedes Feeds automatisch Warnhinweise über alle Ergänzungen zu Produkten, Sonderaktionen, Kategorien und Coupons. Ein Link zu allen RSS-Feeds, die Sie veröffentlichen, finden Sie in der Fußzeile Ihres Stores.
 
-## Treue und Interessenvertretung
+## Loyalität und Fürsprache
 
-Stellen Sie Kunden eine direkte Verbindung zu Ihrer Marke her, indem Sie ihnen ermöglichen, Kundenkonten zu erstellen, über die sie ihren Kaufverlauf, ihre Wunschliste und Newsletter-Abonnementinformationen anzeigen können. Verwenden Sie Produktbewertungen und Bewertungen, um neuen Kunden objektive Produktanschauungen zu geben und ein Gefühl für Community zu fördern. Diese Funktionen machen die Kundenzufriedenheit zu einem der leistungsfähigsten und kostengünstigsten Marketing-Tools, die Ihnen zur Verfügung stehen.
+Geben Sie Kundinnen und Kunden eine direkte Verbindung zu Ihrer Marke, indem Sie ihnen ermöglichen, Kundenkonten zu erstellen, in denen sie ihren Kaufverlauf, ihre Wunschliste und ihre Newsletter-Abonnementinformationen sehen können. Verwenden Sie Produktbewertungen und Reviews, um neuen Kunden objektive Produktbewertungen zu geben und das Gemeinschaftsgefühl zu fördern. Diese Funktionen machen die Kundenzufriedenheit zu einem der leistungsfähigsten und kosteneffizientesten Marketing-Tools, die Ihnen zur Verfügung stehen.
 
-**Kundenkonten** - Durch das Öffnen eines Kontos erhalten [Kunden](../customers/manage-account.md) ein personalisiertes Einkaufserlebnis, das sie für ihre Freunde freigeben können. Kunden können ihre Kaufpräferenzen speichern und ihre eigenen Abrechnungs- und Versandinformationen verwalten.
+**Kundenkonten** - Die Eröffnung eines Kontos bietet [Kunden](../customers/manage-account.md) ein personalisiertes Einkaufserlebnis, das sie mit ihren Freunden teilen können. Kunden können ihre Einkaufspräferenzen speichern und ihre eigenen Store-Abrechnungs- und Versandinformationen verwalten.
 
-**Advocacy-Tools** - Kunden, die [Wunschlisten](../stores-purchase/wishlists.md) teilen und [Geschenkkarten](../catalog/product-gift-card-create.md) senden, unterstreichen Ihre Marke mit Nachdruck. Wunschlisten werden zu leistungsstarken Advertising Tools, wenn sie per E-Mail oder RSS-Feed geteilt werden, und Geschenkkarten bringen motivierte neue Käufer in Ihren Shop. (Geschenkkarten sind nur eine Funktion von Adobe Commerce.)
+**Advocacy-Tools** - Kunden, die [Wunschlisten](../stores-purchase/wishlists.md) teilen und [Geschenkgutscheine](../catalog/product-gift-card-create.md) machen Ihre Marke deutlich bekannt. Wunschlisten werden zu leistungsstarken Advocacy-Tools, wenn sie per E-Mail oder RSS-Feed geteilt werden, und Geschenkkarten bringen motivierte neue Käufer in Ihren Laden. (Geschenkgutscheine sind nur eine Funktion von Adobe Commerce.)
 
-**Bewertungen und Bewertungen** - [Produktübersichten](../merchandising-promotions/product-reviews.md) geben Ihren Kunden die Möglichkeit, mit Ihrer Marke zu interagieren und gleichzeitig ein Gefühl der Community zu fördern. Sie können Ihre Bewertungen mit Tools kuratieren, die Ihnen helfen, Kommentare zu ungeeigneten Inhalten zu bearbeiten und zu genehmigen, bevor sie live geschaltet werden.
+**Bewertungen und Bewertungen** - [Produktbewertungen](../merchandising-promotions/product-reviews.md) geben Ihren Kunden eine Möglichkeit, mit Ihrer Marke zu interagieren und gleichzeitig das Gemeinschaftsgefühl zu fördern. Sie können Ihre Rezensionen mit Tools kuratieren, die Sie bei der Bearbeitung und Genehmigung von Kommentaren zu unangemessenen Inhalten unterstützen, bevor diese live geschaltet werden.

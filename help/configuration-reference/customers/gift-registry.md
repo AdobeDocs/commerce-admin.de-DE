@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Customers] &gt; [!UICONTROL Gift Registry]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Gift Registry] des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Gift Registry] des Commerce Admin-Bereichs.
 exl-id: c5153c4e-897a-41d2-bde1-8483855d1a37
 feature: Configuration, Gift
 source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 {{config}}
 
-Ausführliche Informationen zur Verwendung dieser Einstellungen zum Aktivieren von Geschenkregistern für Ihre Store-Kunden finden Sie unter [Konfigurieren von Geschenkregistern](../../merchandising-promotions/gift-registry-configure.md). Weitere Informationen zum Einschließen der Suche in die Geschenkregistrierung in die Storefront finden Sie unter [Hinzufügen der Suche in der Geschenkregistrierung](../../merchandising-promotions/gift-registry-search.md).
+Detaillierte Informationen zur Verwendung dieser Einstellungen zum Aktivieren von Geschenkregistrierungen für Ihre Store-Kunden finden Sie unter [Konfigurieren von Geschenkregistrierungen](../../merchandising-promotions/gift-registry-configure.md). Weitere Informationen zur Verwendung der Geschenkregistrierung in der Storefront finden Sie unter [Geschenkregistrierung hinzufügen](../../merchandising-promotions/gift-registry-search.md).
 
 ## [!UICONTROL General Options]
 
@@ -26,47 +26,47 @@ Ausführliche Informationen zur Verwendung dieser Einstellungen zum Aktivieren v
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Enable Gift Registry] | Store-Ansicht | Bestimmt, ob Geschenkgutscheine verfügbar sind. Optionen: <br/>**`Yes`**- Aktiviert Geschenkeintragungen für die ausgewählte Store-Ansicht. Die Registerkarte Gift Registry wird im Konto-Dashboard registrierter Kunden angezeigt.<br/>**`No`** - Geschenk-Registrierungen sind nicht für die Store-Ansicht verfügbar. |
-| [!UICONTROL Maximum Registrants] | Store-Ansicht | Legt die Anzahl der Personen fest, die ein Kunde einer Geschenkregistrierung hinzufügen kann. Der Kunde teilt die Geschenkregistrierung mit jedem Registrierungspflichtigen. In der Storefront steht Kunden die Schaltfläche _Registrant hinzufügen_ zur Verfügung, bis die maximale Anzahl erreicht ist. |
+| [!UICONTROL Enable Gift Registry] | Shop-Ansicht | Legt fest, ob Geschenkregistrierungen verfügbar sind. Optionen: <br/>**`Yes`**- Ermöglicht Geschenkregistrierungen für die ausgewählte Shop-Ansicht. Die Registerkarte Geschenkregistrierung wird im Konto-Dashboard registrierter Kundinnen und Kunden angezeigt.<br/>**`No`** - Geschenkregistrierungen sind für die Store-Ansicht nicht verfügbar. |
+| [!UICONTROL Maximum Registrants] | Shop-Ansicht | Legt die Anzahl der Personen fest, die eine Kundin oder ein Kunde einer Geschenkregistrierung hinzufügen kann. Der Kunde teilt die Geschenkregistrierung mit jedem Registranten. In der Storefront ist die Schaltfläche _Registranten hinzufügen_ für Kundinnen und Kunden verfügbar, bis die maximale Anzahl erreicht ist. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Owner Notification]
 
-![Benachrichtigung des Eigentümers](./assets/gift-registry-owner-notification.png)<!-- zoom -->
+![Benachrichtigung des Inhabers](./assets/gift-registry-owner-notification.png)<!-- zoom -->
 
 <!-- [Owner Notification](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Email Template] | Store-Ansicht | Legt die Vorlage fest, die für die E-Mail-Benachrichtigung des Eigentümers verwendet wird, die beim Erstellen einer Geschenkregistrierung gesendet wird. Standardvorlage: Benachrichtigung des Eigentümers der Geschenkregistrierung |
-| [!UICONTROL Email Sender] | Store-Ansicht | Gibt den [Store-Kontakt](../../getting-started/store-details.md#store-email-addresses) an, der als Absender der Benachrichtigungs-E-Mail für Geschenkregistereigentümer angezeigt wird. Standardwert: `General Contact` |
+| [!UICONTROL Email Template] | Shop-Ansicht | Bestimmt die Vorlage für die E-Mail-Benachrichtigung des Inhabers, die bei der Erstellung einer Geschenkregistrierung gesendet wird. Standardvorlage: Benachrichtigung des Inhabers der Geschenkregistrierung |
+| [!UICONTROL Email Sender] | Shop-Ansicht | Identifiziert den [Store-Kontakt](../../getting-started/store-details.md#store-email-addresses) der als Absender der E-Mail mit der Benachrichtigung des Eigentümers der Geschenkregistrierung angezeigt wird. Standardwert: `General Contact` |
 
 {style="table-layout:auto"}
 
 ## Freigabe der Geschenkregistrierung
 
-![Freigabe der Geschenkregistrierung](./assets/gift-registry-gift-registry-sharing.png)<!-- zoom -->
+![Gift Registry Sharing](./assets/gift-registry-gift-registry-sharing.png)<!-- zoom -->
 
 <!-- Gift Registry Sharing](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Email Template] | Store-Ansicht | Legt die Vorlage fest, die für die E-Mail-Freigabe in der Geschenkregistrierung verwendet wird, die gesendet wird, wenn eine Geschenkregistrierung erstellt wird. Wenn der Inhaber auf _Geschenkregistrierung teilen_ klickt, wird die E-Mail an jeden Empfänger gesendet. Standardvorlage: `Gift Registry Sharing` |
-| [!UICONTROL Email Sender] | Store-Ansicht | Gibt den [Store-Kontakt](../../getting-started/store-details.md#store-email-addresses) an, der als Absender der E-Mail zur Freigabe der Geschenkregistrierung erscheint. Standardwert: `General Contact` |
-| [!UICONTROL Maximum Sent Emails Threshold] | Store-Ansicht | Die maximale Anzahl von E-Mail-Benachrichtigungen, die gleichzeitig an die Geschenkregistrierung gesendet werden können. |
+| [!UICONTROL Email Template] | Shop-Ansicht | Bestimmt die Vorlage für die E-Mail zur Freigabe der Geschenkregistrierung, die bei der Erstellung einer Geschenkregistrierung gesendet wird. Wenn der Besitzer auf _Geschenkregistrierung freigeben_ klickt, wird die E-Mail an jeden Empfänger gesendet. Standardvorlage: `Gift Registry Sharing` |
+| [!UICONTROL Email Sender] | Shop-Ansicht | Identifiziert den [Store-Kontakt](../../getting-started/store-details.md#store-email-addresses) der als Absender der E-Mail zur Freigabe der Geschenkregistrierung angezeigt wird. Standardwert: `General Contact` |
+| [!UICONTROL Maximum Sent Emails Threshold] | Shop-Ansicht | Die maximale Anzahl von E-Mail-Benachrichtigungsnachrichten zur Gift Registry-Freigabe, die gleichzeitig gesendet werden können. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Gift Registry Update]
 
-![Aktualisierung der Geschenkregistrierung](./assets/gift-registry-gift-registry-update.png)<!-- zoom -->
+![Geschenkregistrierungs-Aktualisierung](./assets/gift-registry-gift-registry-update.png)<!-- zoom -->
 
 <!-- [Gift Registry Update](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Email Template] | Store-Ansicht | Legt die Vorlage fest, die für die E-Mail-Aktualisierung der Geschenkregistrierung verwendet wird, die an den Eigentümer der Geschenkregistrierung gesendet wird, wenn ein Kauf aus der Geschenkregistrierung getätigt wird. Die Aktualisierung enthält Informationen über den gekauften Artikel und die gekaufte Menge, enthält jedoch nicht den Namen der Person, die die Bestellung aufgegeben hat. Standardvorlage: `Gift Registry Update` |
-| [!UICONTROL Email Sender] | Store-Ansicht | Identifiziert den [Store-Kontakt](../../getting-started/store-details.md#store-email-addresses), der als Absender der E-Mail &quot;Gift Registry-Update&quot;angezeigt wird. Standardwert: `General Contact` |
+| [!UICONTROL Email Template] | Shop-Ansicht | Bestimmt die Vorlage für die E-Mail zur Aktualisierung der Geschenkregistrierung, die an den Besitzer der Geschenkregistrierung gesendet wird, wenn ein Kauf über die Geschenkregistrierung getätigt wird. Die Aktualisierung enthält Informationen über den Artikel und die gekaufte Menge, aber nicht den Namen der Person, die die Bestellung aufgegeben hat. Standardvorlage: `Gift Registry Update` |
+| [!UICONTROL Email Sender] | Shop-Ansicht | Identifiziert den [Store-Kontakt](../../getting-started/store-details.md#store-email-addresses) der als Absender der E-Mail mit der Aktualisierung der Geschenkregistrierung angezeigt wird. Standardwert: `General Contact` |
 
 {style="table-layout:auto"}

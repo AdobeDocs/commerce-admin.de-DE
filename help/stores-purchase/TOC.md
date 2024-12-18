@@ -1,6 +1,6 @@
 ---
-user-guide-title: Handbuch für Stores und Einkaufserlebnisse
-user-guide-description: Umfassende Informationen für Site-Administratoren, Kundendienstmitarbeiter und Vertriebsmitarbeiter, die in Adobe Commerce und Magento Open Source arbeiten.
+user-guide-title: Handbuch zu Stores und Kauferlebnissen
+user-guide-description: Umfassende Informationen für Site-Administratoren, Kundendienstmitarbeiter und Vertriebsleiter, die in Adobe Commerce und Magento Open Source arbeiten.
 breadcrumb-title: Stores und Kauferlebnis
 role: Admin, User
 feature: Storefront
@@ -13,123 +13,123 @@ ht-degree: 3%
 ---
 
 
-# Handbuch für Stores und Einkaufserlebnisse {#stores-sales}
+# Handbuch zu Stores und Kauferlebnissen {#stores-sales}
 
-+ [Handbuch für Stores und Einkaufserlebnisse](guide-overview.md)
-+ [Einführung in Stores und Kauferlebnisse](introduction.md)
-+ Site- und Store-Verwaltung {#site-store}
-   + [Menü &quot;Stores&quot;](stores-menu.md)
++ [Handbuch zu Stores und Kauferlebnissen](guide-overview.md)
++ [Einführung in Geschäfte und Kauferlebnis](introduction.md)
++ Site- und Store-{#site-store}
+   + [Speichermenü](stores-menu.md)
    + [Store- und Site-Struktur](stores.md)
-   + [Store-Ansichten](store-views.md)
-   + [Lokalisierung speichern](store-localize.md)
-   + [Store-URLs](store-urls.md)
-   + Steuern {#taxes}
+   + [Ansichten speichern](store-views.md)
+   + [Store-Lokalisierung](store-localize.md)
+   + [URLs speichern](store-urls.md)
+   + {#taxes}
       + [Übersicht](taxes.md)
-      + [Steuerkonfigurationseinstellungen](tax-settings-general.md)
-      + [Anzeigeparameter des Preises](display-settings.md)
+      + [Einstellungen für die Steuerkonfiguration](tax-settings-general.md)
+      + [Einstellungen zur Preisanzeige](display-settings.md)
       + [Steuervorschriften](tax-rules.md)
       + [Steuerklassen](tax-class.md)
       + [Feste Produktsteuer](fixed-product-tax.md)
       + [Ausgeblendete Steuerberechnung](hidden-tax-calculation.md)
       + [Steuergebiete und Steuersätze](tax-zones-rates.md)
-      + [Mehrwertsteuer (MwSt)](vat.md)
-      + [Steuerleitlinien nach Ländern](international-tax-guidelines.md)
-   + Währung {#currency}
+      + [Mehrwertsteuer (MwSt.)](vat.md)
+      + [Steuerrichtlinien nach Land](international-tax-guidelines.md)
+   + {#currency}
       + [Übersicht](currency.md)
       + [Währungskonfiguration](currency-configuration.md)
-      + [Aktualisieren von Währungskursen](currency-update.md)
+      + [Währungskurse aktualisieren](currency-update.md)
    + [Verkaufs-E-Mails](sales-email.md)
-   + [Verkaufsdokumente](sales-documents.md)
-+ Point of purchase {#point-of-purchase}
-   + [Sofortiger Kauf](checkout-instant-purchase.md)
+   + [Verkaufsunterlagen](sales-documents.md)
++ Point of Purchase {#point-of-purchase}
+   + [Sofortkauf](checkout-instant-purchase.md)
    + Warenkorb {#cart}
       + [Übersicht](cart.md)
       + [Warenkorbkonfiguration](cart-configuration.md)
-      + [Warenkorbpersistenz](cart-persistent.md)
+      + [Warenkorb-Persistenz](cart-persistent.md)
       + [Bestellung nach SKU](order-by-sku.md)
-   + Shopping-Hilfe {#assist}
-      + [Warenkorb verwalten](shopping-assisted-cart-manage.md)
+   + Shopping-{#assist}
+      + [Verwalten eines Warenkorbs](shopping-assisted-cart-manage.md)
       + [Bestellung erstellen](customer-account-create-order.md)
       + [Aktualisieren einer Kundenbestellung](order-update.md)
-   + Checkout {#checkout}
+   + {#checkout}
       + [Übersicht](checkout-process.md)
-      + [einseitige Kasse](checkout-one-page.md)
-      + [Gastkasse](checkout-guest.md)
+      + [Einseitiger Checkout](checkout-one-page.md)
+      + [Gast-Checkout](checkout-guest.md)
       + [Allgemeine Geschäftsbedingungen](terms-and-conditions.md)
       + [Adresssuche](checkout-address-search.md)
-      + [Benachrichtigung über Zahlungsausfall](checkout-payment-failed-emails.md)
+      + [Benachrichtigung über Zahlungsausfälle](checkout-payment-failed-emails.md)
       + [Sortierreihenfolge für Checkout-Summen](checkout-totals-sort-order.md)
    + Geschenkkarten {#gift-cards}
-      + [Kartenkauf und -einlösung](product-gift-card-workflow.md)
-      + [Gift-Kartenkonten](product-gift-card-accounts.md)
-+ Shopper Tools {#shopper-tools}
-   + [Freund per E-Mail senden](email-a-friend.md)
+      + [Kauf und Einlösung von Geschenkkarten](product-gift-card-workflow.md)
+      + [Geschenkkartenkonten](product-gift-card-accounts.md)
++ Shopper Tools-{#shopper-tools}
+   + [Freund per E-Mail benachrichtigen](email-a-friend.md)
    + Wunschlisten {#wish-lists}
       + [Übersicht](wishlists.md)
-      + [Wunschlisten konfigurieren](wishlist-configuration.md)
-      + [Erlebnis in Listen-Storefront wünschen](wishlist-storefront.md)
+      + [Konfigurieren von Wunschlisten](wishlist-configuration.md)
+      + [Wunschliste Storefront-Erlebnis](wishlist-storefront.md)
    + [Produkte vergleichen](product-compare.md)
-   + [Vor Kurzem angezeigt oder verglichen](products-viewed-compared.md)
-   + [Neuberechtigungen zulassen](reorders-allow.md)
-   + [Reihenfolge zum Abbrechen zulassen](cancel-allow.md)
-+ Zahlungen {#payments}
+   + [Kürzlich angesehen oder verglichen](products-viewed-compared.md)
+   + [Neuanordnung von Datensätzen zulassen](reorders-allow.md)
+   + [Auftrag stornieren zulassen](cancel-allow.md)
++ {#payments}
    + [Übersicht](payments.md)
    + PayPal-Zahlungslösungen {#paypal}
       + [Übersicht über PayPal-Lösungen](paypal.md)
-      + [PayPal Express Checkout](paypal-express-checkout.md)
-      + [PayPal Payments Advanced](paypal-payments-advanced.md)
+      + [PayPal Express-Checkout](paypal-express-checkout.md)
+      + [PayPal-Zahlungen - Erweitert](paypal-payments-advanced.md)
       + [PayPal Payments Pro](paypal-payments-pro.md)
-      + [PayPal Payments Standard](paypal-payments-standard.md)
+      + [PayPal-Zahlungsstandard](paypal-payments-standard.md)
       + [PayPal Payflow Pro](paypal-payflow-pro.md)
       + [PayPal-Payflow-Link](paypal-payflow-link.md)
       + [PayPal-Abrechnungsvereinbarungen](paypal-billing-agreements.md)
-      + [PayPal-Vergleichsberichte](paypal-settlement-reports.md)
+      + [PayPal-Abrechnungsberichte](paypal-settlement-reports.md)
    + [Braintree](braintree.md)
    + [Gespeicherte Zahlungsmethoden](stored-payment-methods.md)
    + Offline-Zahlungsmethoden {#offline}
-      + [Schecks und Geldaufträge](check-money-order.md)
-      + [Zustellbar](cash-on-delivery.md)
+      + [Schecks und Zahlungsanweisungen](check-money-order.md)
+      + [Nachnahme](cash-on-delivery.md)
       + [Banküberweisungen](bank-transfer.md)
       + [Bestellungen](purchase-order.md)
-      + [Null subtotal-Checkout](zero-subtotal-checkout.md)
-+ Bestellfluss verwalten {#order-management}
-   + [Verkaufsmenü](sales-menu.md)
+      + [Kein Zwischensummen-Checkout](zero-subtotal-checkout.md)
++ Verwalten des Auftragsflusses {#order-management}
+   + [Menü „Verkauf“](sales-menu.md)
    + Bestellungen {#orders}
       + [Übersicht](orders.md)
       + [Workflow und Verarbeitung](order-processing.md)
-      + [Auftrag versenden](order-ship.md)
+      + [Bestellung versenden](order-ship.md)
       + [Bestellstatus](order-status.md)
-      + [Vorgänge für geplante Aufträge](order-scheduled-operations.md)
-      + [Archivierungsaufträge](order-archive.md)
-      + [Lagerbestellverwaltung](orders-storefront.md)
+      + [Geplante Bestellvorgänge](order-scheduled-operations.md)
+      + [Bestellungen archivieren](order-archive.md)
+      + [Storefront-Bestellverwaltung](orders-storefront.md)
    + [Rechnungen](invoices.md)
    + [Sendungen](shipments.md)
-   + Credit Memos {#credit-memos}
+   + Gutschriften {#credit-memos}
       + [Übersicht](credit-memos.md)
-      + [Ein Kreditmemo ausgeben](credit-memo-create.md)
-   + Gibt {#returns} zurück
+      + [Gutschrift ausstellen](credit-memo-create.md)
+   + Gibt {#returns}
       + [Übersicht](returns.md)
-      + [Rückgaben konfigurieren](rma-configure.md)
-      + [Rückkehrattribute](attributes-returns.md)
-      + [Gibt storefront-Erlebnis zurück](rma-customer-experience.md)
+      + [Konfigurieren von Rücksendungen](rma-configure.md)
+      + [Attribute zurückgeben](attributes-returns.md)
+      + [Gibt das Storefront-Erlebnis zurück](rma-customer-experience.md)
    + [Transaktionen](transactions.md)
-+ Versand {#delivery}
++ {#delivery}
    + [Übersicht](delivery.md)
    + [Versandeinstellungen](shipping-settings.md)
    + Grundlegende Versandmethoden {#basic-methods}
       + [Kostenloser Versand](shipping-free.md)
-      + [Pauschalsatz](shipping-flat-rate.md)
-      + [Tabellenraten](shipping-table-rate.md)
-      + [In-store-Versand](shipping-in-store-delivery.md)
-   + Versandunternehmen {#shipping-carriers}
-      + [Einrichtung des Versandnetzbetreibers](carriers.md)
-      + [UPS](ups.md)
+      + [Pauschalpreis](shipping-flat-rate.md)
+      + [Tabellen-Tarife](shipping-table-rate.md)
+      + [Versand im Geschäft](shipping-in-store-delivery.md)
+   + Spediteure {#shipping-carriers}
+      + [Einrichtung des Spediteurs](carriers.md)
+      + [USV](ups.md)
       + [USPS](usps.md)
       + [FedEx](fedex.md)
       + [DHL](dhl.md)
-   + Versandtitel {#shipping-labels}
+   + Versand-Kennzeichnungen {#shipping-labels}
       + [Versandtitel - Übersicht](shipping-labels.md)
-      + [Konfigurieren von Versandbeschriftungen](shipping-label-configure.md)
-      + [Versandtitel erstellen](shipping-label-create.md)
-+ [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+      + [Konfigurieren von Versandkennzeichnungen](shipping-label-configure.md)
+      + [Erstellen von Versandkennzeichnungen](shipping-label-create.md)
++ [Zurück zu Händlerleitfäden](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

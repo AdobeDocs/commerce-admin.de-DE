@@ -1,5 +1,5 @@
 ---
-title: Lagerbestellverwaltung
+title: Storefront-Bestellverwaltung
 description: Erfahren Sie, wie Kunden ihren Auftragsverlauf in der Commerce-Storefront anzeigen und verwalten können.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
@@ -10,49 +10,49 @@ ht-degree: 0%
 
 ---
 
-# Lagerbestellverwaltung
+# Storefront-Bestellverwaltung
 
-Kunden haben von ihrem Konto aus Zugriff auf alle ihre Bestellungen. Bestellungen können als neue Bestellungen angezeigt, gefiltert, nachverfolgt und erneut gesendet werden. Je nach Status der Bestellung können Kunden ihre Bestellungen, Rechnungen, Sendungen und Erstattungsaufzeichnungen drucken.
+Kunden haben von ihrem Konto aus Zugriff auf alle Bestellungen. Bestellungen können als neue Bestellungen angezeigt, gefiltert, verfolgt und erneut übermittelt werden. Abhängig vom Status der Bestellung können Kunden ihre Bestellungen, Rechnungen, Lieferungen und Rückerstattungsaufzeichnungen drucken.
 
-## Filtern von Bestellungen
+## Bestellungen filtern
 
 {{b2b-feature}}
 
-Ihre anfänglichen _[!UICONTROL My Orders]_-Ergebnisse enthalten auch übereinstimmende Bestellungen von untergeordneten Benutzern von allen Websites innerhalb der Commerce-Instanz. Ein Kunde, der mit einem Unternehmenskonto verknüpft ist, kann die Liste der Bestellungen filtern, um schnell Datensätze in den Ergebnissen zu finden. Um die Filteroptionen anzuzeigen, klickt der Kunde auf **[!UICONTROL Filter]**und klickt auf **[!UICONTROL Close]**, um die Filter auszublenden.
+Ihre ersten _[!UICONTROL My Orders]_enthalten auch übereinstimmende Bestellungen von untergeordneten Benutzern aller Websites innerhalb der Commerce-Instanz. Ein Kunde, der einem Unternehmenskonto zugeordnet ist, kann die Auftragsliste filtern, um Datensätze in den Ergebnissen schnell zu finden. Um die Filteroptionen anzuzeigen, klickt der Kunde auf &quot;**[!UICONTROL Filter]**&quot; und auf &quot;**[!UICONTROL Close]**&quot;, um die Filter auszublenden.
 
 ![Meine Bestellungen](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
 | Filter | Beschreibung |
 | ------ | ----------- |
-| [!UICONTROL SKU or Product Name] | Fügt entweder eine SKU oder einen Produktnamen ein. |
+| [!UICONTROL SKU or Product Name] | Gibt entweder eine SKU oder einen Produktnamen ein. |
 | [!UICONTROL Order Number] | Kann entweder eine vollständige oder eine Teilbestellnummer sein. |
-| [!UICONTROL Order Status] | Wählt einen Wert aus der Dropdown-Liste aus, um nach Status zu filtern. |
-| [!UICONTROL Invoice Number] | Fügt entweder eine vollständige oder eine Teilrechnung ein. |
+| [!UICONTROL Order Status] | Wählt einen Wert aus dem Dropdown-Menü aus, um nach Status zu filtern. |
+| [!UICONTROL Invoice Number] | Geben Sie entweder eine vollständige oder eine teilweise Rechnungsnummer ein. |
 | [!UICONTROL Order Date] | Legt ein oder beide Datumsfelder fest, die nach Bestelldatum gefiltert werden sollen. |
-| [!UICONTROL Created by] | Filtert Firmenbestellungen durch den Bestellersteller. |
-| [!UICONTROL Order Total] | Legt die Werte min, max oder beides fest, um nach Bestellsumme zu filtern. |
+| [!UICONTROL Created by] | Filtert Firmenbestellungen nach dem Ersteller des Auftrags. |
+| [!UICONTROL Order Total] | Legt die Werte „Min.“, „Max.“ oder „Beide“ fest, die nach der Bestellsumme gefiltert werden sollen. |
 
 ## Bestellung anzeigen
 
-Ein Kunde findet die Bestellung in der Liste und klickt auf **[!UICONTROL View Order]**. In der geöffneten Reihenfolge können sie einen der folgenden Schritte ausführen:
+Ein Kunde findet die Bestellung in der Liste und klickt auf **[!UICONTROL View Order]**. Aus der offenen Reihenfolge können sie einen der folgenden Schritte ausführen:
 
-![Reihenfolge anzeigen](./assets/customer-account-order-items-ordered.png){width="700" zoomable="yes"}
+![Bestellung anzeigen](./assets/customer-account-order-items-ordered.png){width="700" zoomable="yes"}
 
 ### Kürzlich bestellte Produkte anzeigen
 
-Der Block **[!UICONTROL Recent Orders]** wird in der Seitenleiste und auf der Seite **[!UICONTROL My Account]** für Kunden angezeigt, die nach der Bestellung angemeldet sind. Es werden fünf Produkte seit dem letzten Kauf angezeigt.
+Der **[!UICONTROL Recent Orders]** wird in der Seitenleiste und auf der **[!UICONTROL My Account]** für Kunden angezeigt, die nach einer Bestellung angemeldet sind. Es zeigt fünf Produkte aus dem letzten Kauf an.
 
-Der Kunde kann Produkte in den Warenkorb lesen, indem er die Produkte auswählt und auf **[!UICONTROL Add to Cart]** klickt. Sie können auch die letzte Bestellung anzeigen, indem sie auf **[!UICONTROL View all]** klicken, wodurch sie zur Seite _[!UICONTROL My Account]_und zum Block **[!UICONTROL Recent Orders]**weitergeleitet werden.
+Der Kunde kann Produkte aus dem Warenkorb lesen, indem er die Produkte auswählt und auf **[!UICONTROL Add to Cart]** klickt. Sie können die letzte Reihenfolge auch anzeigen, indem sie auf **[!UICONTROL View all]** klicken, das zur _[!UICONTROL My Account]_Seite und zum **[!UICONTROL Recent Orders]**weiterleitet.
 
-### Druckauftrag
+### Druckreihenfolge
 
 1. Der Kunde klickt auf **[!UICONTROL Print Order]**.
 
-1. Befolgt die Anweisungen im Dialogfeld Drucken , um den Druck abzuschließen.
+1. Befolgt die Anweisungen im Dialogfeld „Drucken“, um den Druck abzuschließen.
 
-### Druckrechnungen
+### Rechnungen drucken
 
-1. Auf der Registerkarte **[!UICONTROL Invoices]** klickt der Kunde auf einen der folgenden Punkte:
+1. Auf der Registerkarte **[!UICONTROL Invoices]** klickt der Kunde auf eine der folgenden Optionen:
 
    - **[!UICONTROL Print All Invoices]**
 
@@ -60,11 +60,11 @@ Der Kunde kann Produkte in den Warenkorb lesen, indem er die Produkte auswählt 
 
    ![Rechnungen](./assets/customer-account-order-invoices.png){width="700" zoomable="yes"}
 
-1. Verwendet das Dialogfeld Drucken , um den Druck abzuschließen.
+1. Verwendet das Druckdialogfeld, um den Druck abzuschließen.
 
-### Drucksendungen
+### Sendungen drucken
 
-1. Auf der Registerkarte **[!UICONTROL Order Shipments]** klickt der Kunde auf einen der folgenden Punkte:
+1. Auf der Registerkarte **[!UICONTROL Order Shipments]** klickt der Kunde auf eine der folgenden Optionen:
 
    - **[!UICONTROL Print All Shipments]**
 
@@ -72,103 +72,103 @@ Der Kunde kann Produkte in den Warenkorb lesen, indem er die Produkte auswählt 
 
    ![Alle Sendungen drucken](./assets/customer-account-order-shipments.png){width="700" zoomable="yes"}
 
-1. Verwendet das Dialogfeld Drucken , um den Druck abzuschließen.
+1. Verwendet das Druckdialogfeld, um den Druck abzuschließen.
 
-### Verfolgen von Sendungen
+### Verfolgen einer Sendung
 
 1. Klicken Sie auf der Registerkarte **[!UICONTROL Order Shipments]** auf **[!UICONTROL Track this Shipment]**.
 
    Alle verfügbaren Tracking-Informationen werden in einem Popup-Fenster angezeigt.
 
-1. Wenn der Kunde bereit ist, klickt er auf **[!UICONTROL Close Window]**.
+1. Wenn er bereit ist, klickt der Kunde auf **[!UICONTROL Close Window]**.
 
-### Druckrückerstattungen
+### Rückerstattungen drucken
 
-1. Auf der Registerkarte **Rückerstattungen** klickt der Kunde auf einen der folgenden Punkte:
+1. Auf der **Rückerstattungen** klickt der Kunde auf eine der folgenden Optionen:
 
-   - **Alle Rückerstattungen drucken**
+   - **Drucken Sie alle Rückerstattungen**
 
-   - **Druckrückerstattungen drucken**
+   - **Rückerstattung drucken**
 
-   ![Rückerstattungen](./assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
+   ![Erstattungen](./assets/customer-account-order-refunds.png){width="700" zoomable="yes"}
 
-1. Verwendet das Dialogfeld Drucken , um den Druck abzuschließen.
+1. Verwendet das Druckdialogfeld, um den Druck abzuschließen.
 
-Neuanordnung ist für Kunden verfügbar, wenn die Konfigurationsoption [_Neuanordnung zulassen_](reorders-allow.md) aktiviert ist.
+Neuanordnungen sind für Kunden verfügbar, wenn die Konfigurationsoption [_Neu anordnen zulassen_](reorders-allow.md) aktiviert ist.
 
-Ein Kunde kann die Neuanordnungsfunktion für eine bestimmte Bestellung von zwei Seiten aus initiieren:
+Ein Kunde kann die Funktion zur Neuanordnung für eine bestimmte Bestellung von zwei Seiten aus starten:
 
-- Seite &quot;Meine Bestellungen&quot;
-- Seite &quot;Auftragsansicht&quot;
+- Seite Meine Bestellungen
+- Seite „Bestellansicht“
 
-## Nachbestellungen
+## Neu anordnen
 
-Der Link _[!UICONTROL Reorder]_wird in der Liste mit Bestellungen in der Nähe des Links_[!UICONTROL View]_ angezeigt.
+Der _[!UICONTROL Reorder]_Link wird in der Liste mit Bestellungen nahe dem_[!UICONTROL View]_ Link angezeigt.
 
-![Link auf der Seite &quot;Meine Bestellung&quot;neu anordnen](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
+![Link auf der Seite „Meine Bestellung“ neu anordnen](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
-**1. Fall.** Alle Produkte aus der Bestellung sind zur Neubestellung verfügbar
+**Fall 1.** Alle Produkte aus der Bestellung können nachbestellt werden
 
-Der Kunde wird zum Warenkorb umgeleitet und alle Produkte werden zum Warenkorb hinzugefügt.
+Der Kunde wird zum Warenkorb weitergeleitet, und alle Produkte werden zum Warenkorb hinzugefügt.
 
-**2. Fall.** Einige/alle Produkte aus der Bestellung sind nicht zur Neubestellung verfügbar
+**Fall 2.** Einige/alle Produkte aus der Bestellung können nicht nachbestellt werden
 
 >[!NOTE]
 >
->Es ist möglich, `Not Visible Individually` -Produkte neu anzuordnen.
+>Es ist möglich, `Not Visible Individually` Produkte neu zu bestellen.
 
-Der Link _[!UICONTROL Reorder]_wird nicht auf den Seiten_[!UICONTROL My Orders]_ und _[!UICONTROL View Order]_angezeigt.
+Der _[!UICONTROL Reorder]_Link wird nicht auf den Seiten_[!UICONTROL My Orders]_ und _[!UICONTROL View Order]_angezeigt.
 
 ![Meine Bestellseite](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
->Wenn der Warenkorb nicht leer ist und der Kunde auf &quot;**[!UICONTROL Reorder]**&quot;(auf der Seite &quot;[!UICONTROL My Orders]&quot;oder &quot;[!UICONTROL Order View]&quot;) klickt, bleiben die vorhandenen Produkte mit den hinzugefügten Produkten zur Neuanordnung im Warenkorb.
+>Wenn der Warenkorb nicht leer ist und der Kunde auf **[!UICONTROL Reorder]** klickt (auf der Seite [!UICONTROL My Orders] oder [!UICONTROL Order View]), bleiben die vorhandenen Produkte im Warenkorb, wobei die hinzugefügten Produkte neu angeordnet werden.
 
-## Bestellungen abbrechen
+## Bestellungen stornieren
 
 Abbrechen ist für Kunden verfügbar, wenn die Konfigurationsoption [_Abbrechen zulassen_](cancel-allow.md) aktiviert ist.
 
-Ein Kunde kann die Funktion zum Abbrechen für eine bestimmte Bestellung von drei Seiten aus initiieren:
+Ein Kunde kann die Abbruchfunktion für eine bestimmte Bestellung von drei Seiten aus starten:
 
-- Seite &quot;Meine Bestellungen&quot;
-- Seite &quot;Auftragsansicht&quot;
-- Seite &quot;Mein Konto&quot;
+- Seite Meine Bestellungen
+- Seite „Bestellansicht“
+- Seite Mein Konto
 
-Der Link _[!UICONTROL Cancel Order]_wird neben dem Link_[!UICONTROL Reorder]_ angezeigt. Wenn die Bestellung nicht storniert werden kann, wird der Link nicht angezeigt.
+Der _[!UICONTROL Cancel Order]_Link wird neben dem_[!UICONTROL Reorder]_ Link angezeigt. Wenn die Bestellung nicht storniert werden kann, wird der Link nicht angezeigt.
 
-![Link &quot;Abbrechen&quot;auf der Seite &quot;Meine Bestellung&quot;](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
+![Link „Abbrechen“ auf der Seite „Meine Bestellung“](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
 Um den Abbruch durchzuführen, muss der Kunde:
 
 1. Klicks **[!UICONTROL Cancel Order]**
 
-1. Gibt einen Abbruchsgrund an
+1. Gibt einen Abbruchgrund an
 
-   ![Gründe für die Abbrechen der Bestellung](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
+   ![Gründe für Stornierungen](./assets/cancel-order-reasons.png){width="700" zoomable="yes"}
 
-   Sie können die Löschgründe auf der Seite [_Abbrechen zulassen_](cancel-allow.md) anpassen.
+   Sie können die Abbruchsgründe auf der Seite [_Abbrechen zulassen_](cancel-allow.md) anpassen.
 
 1. Klicks **[!UICONTROL Confirm]**
 
-   ![Abbrechen auf der Seite &quot;Meine Bestellung&quot;](./assets/cancel-order.png){width="700" zoomable="yes"}
+   ![Abbrechen auf der Seite Meine Bestellung](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Nach dem Abbruch werden die Bestellungen, die den Status _[!UICONTROL Pending]_hatten, in den Status_[!UICONTROL Canceled]_ geändert, die Bestellungen, die den Status _[!UICONTROL Processing]_hatten, in den Status_[!UICONTROL Closed]_ geändert und eine Rückerstattung verarbeitet.
+   Nach der Stornierung werden die Bestellungen, die sich im Status _[!UICONTROL Pending]_befanden, in den Status_[!UICONTROL Canceled]_ geändert, die Bestellungen, die sich im Status _[!UICONTROL Processing]_befanden, in den Status_[!UICONTROL Closed]_ und eine Rückerstattung verarbeitet.
 
-   Wenn die Stornierung abgeschlossen ist, wird eine E-Mail an den Kunden gesendet.
+   Nach Abschluss der Stornierung wird eine E-Mail an den Kunden gesendet.
 
-   ![Abbrechen der Bestell-E-Mail](./assets/cancel-order-email.png){width="700" zoomable="yes"}
+   ![E-Mail zum Abbrechen der Bestellung](./assets/cancel-order-email.png){width="700" zoomable="yes"}
 
-   Die Stornierungsinformationen werden dem Auftragsverlauf des Kunden hinzugefügt. Sie wird in den Notizen der Reihenfolge und im Tab Kommentar-Verlauf angezeigt.
+   Die Stornierungsinformationen werden dem Bestellverlauf des Kunden hinzugefügt. Er wird in den Notizen der Bestellung und auf der Registerkarte „Kommentar-Verlauf“ angezeigt.
 
-   ![Bestellhinweise abbrechen](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
+   ![Bestellhinweise stornieren](./assets/cancel-order-notes.png){width="700" zoomable="yes"}
 
-   ![Kommentar-Verlauf abbrechen](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
+   ![Kommentarverlauf abbrechen](./assets/cancel-order-comments.png){width="700" zoomable="yes"}
 
-   Wenn die Bestellung aus irgendeinem Grund in einen Status geändert wurde, der nicht storniert werden kann und der Kunde die Seite nicht aktualisiert hat, wird der Link zum Abbrechen der Bestellung weiterhin angezeigt. Wenn sie jedoch versuchen, abzubrechen, wird eine Fehlermeldung angezeigt.
+   Wenn die Bestellung aus irgendeinem Grund in einen Status geändert wurde, der nicht storniert werden kann, und der Kunde die Seite nicht aktualisiert hat, wird der Link zum Stornieren der Bestellung weiterhin angezeigt. Wenn er/sie jedoch versucht, abzubrechen, wird eine Fehlermeldung angezeigt.
 
-   ![Fehlermeldung &quot;Bestellung abbrechen&quot;](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
+   ![Fehlermeldung zum Abbrechen der Bestellung](./assets/cancel-order-error-message.png){width="700" zoomable="yes"}
 
    Nach dem Aktualisieren der Seite können Sie sehen, dass die Bestellung bereits abgeschlossen war. Aus diesem Grund hat die Stornierung nicht funktioniert.
 
-   ![Reihenfolge nach Aktualisierung abbrechen](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}
+   ![Bestellung nach Aktualisierung abbrechen](./assets/cancel-order-after-refresh.png){width="700" zoomable="yes"}

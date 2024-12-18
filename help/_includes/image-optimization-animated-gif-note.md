@@ -1,6 +1,6 @@
 ---
-title: Animated GIF Image Optimization-Hinweis
-description: Animierte GIF-Datei kann die Animation verlieren, nachdem sie während der Bildoptimierung herunterskaliert wurde
+title: Animierte GIF-Bildoptimierungsnotiz
+description: Animierte GIF-Datei verliert möglicherweise die Animation, wenn sie während der Bildoptimierung herunterskaliert wird
 source-git-commit: a3ac9999a4841230bea9cdfcdc86cb12ddc3ebc1
 workflow-type: tm+mt
 source-wordcount: '63'
@@ -8,8 +8,8 @@ ht-degree: 0%
 
 ---
 
-# Animated GIF Image Optimization-Hinweis
+# Animierte GIF-Bildoptimierungsnotiz
 
 >[!NOTE]
 >
->Die Optimierung animierter GIF-Bilder wird nicht unterstützt. Diese Bilder können ihre Animation nach der Bildoptimierung verlieren. Um dies zu vermeiden, stellen Sie sicher, dass die animierte GIF-Bildgröße unter der in den [[!UICONTROL Media Gallery Image Optimization] -Konfigurationseinstellungen](../content-design/media-gallery-image-optimization.md) festgelegten Maximalbreite und -höhe liegt.
+>Die Optimierung von animierten GIF-Bildern wird nicht unterstützt. Solche Bilder können nach dem Bildoptimierungsprozess ihre Animation verlieren. Um dies zu vermeiden, stellen Sie sicher, dass die Größe des animierten GIF-Bildes unter der in den [[!UICONTROL Media Gallery Image Optimization] Konfigurationseinstellungen festgelegten Maximalbreite und -höhe liegt](../content-design/media-gallery-image-optimization.md).

@@ -1,6 +1,6 @@
 ---
-user-guide-title: Handbuch für Adobe Commerce Merchandising und Promotions
-user-guide-description: Adobe Commerce und Magento Open Source enthalten viele Tools, mit denen Sie Ihre Verkaufszahlen steigern, Möglichkeiten zur Kundeninteraktion schaffen und gezielte Promotions einrichten können.
+user-guide-title: Handbuch für Adobe Commerce-Merchandising und -Promotions
+user-guide-description: Adobe Commerce und Magento Open Source umfassen viele Tools, mit denen Sie den Umsatz steigern, Möglichkeiten für die Kundeninteraktion schaffen und zielgerichtete Promotions einrichten können.
 breadcrumb-title: Merchandising und Promotions
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
@@ -12,34 +12,34 @@ ht-degree: 1%
 ---
 
 
-# Handbuch für Adobe Commerce Merchandising und Promotions {#marketing}
+# Handbuch für Adobe Commerce-Merchandising und -Promotions {#marketing}
 
 - [Handbuch-Übersicht](guide-overview.md)
 - [Einführung in Merchandising und Promotions](introduction.md)
-- [Marketing-Menü](marketing-menu.md)
-- Merchandising {#merchandising}
-   - Visual Merchandiser {#visual-merch}
+- [Menü „Marketing“](marketing-menu.md)
+- {#merchandising}
+   - Visual Merchandiser-{#visual-merch}
       - [Übersicht über Visual Merchandiser](visual-merchandiser.md)
       - [Kategorieregeln für Merchandising](category-product-rules.md)
-      - [Konfigurieren von Smart-Attributen](smart-attributes-configure.md)
-   - Geschenkregister {#gift-registry}
+      - [Smart-Attribute konfigurieren](smart-attributes-configure.md)
+   - Geschenkregistrierungen {#gift-registry}
       - [Übersicht über die Geschenkregistrierung](gift-registries.md)
-      - [Konfigurieren von Geschenkgutscheinen](gift-registry-configure.md)
+      - [Konfigurieren von Geschenkregistrierungen](gift-registry-configure.md)
       - [Einrichtung der Geschenkregistrierung](gift-registry-create.md)
-      - [Hinzufügen der Suche nach Geschenkregistern](gift-registry-search.md)
-      - [Geschenkregistrierung - Storefront](gift-registry-storefront.md)
-   - Belohnungspunkte {#reward-points}
-      - [Übersicht und Konfiguration der Prämien](rewards-loyalty.md)
-      - [Wechselkurse](reward-exchange-rates.md)
-      - [Bonuspunkte in den Preisregeln](reward-points-price-rules.md)
-      - [Storefront-Erlebnis für Punkte belohnen](reward-points-storefront.md)
-   - Produktüberprüfungen {#product-reviews}
-      - [Kundenproduktübersichten](product-reviews.md)
-      - [Moderieren von Bewertungen](product-reviews-moderate.md)
+      - [Geschenkregistrierungssuche hinzufügen](gift-registry-search.md)
+      - [Erlebnis mit Geschenkregistrierung-Storefront](gift-registry-storefront.md)
+   - Prämienpunkte {#reward-points}
+      - [Übersicht und Konfiguration von Belohnungen](rewards-loyalty.md)
+      - [Belohnungswechselkurse](reward-exchange-rates.md)
+      - [Prämienpunkte in Preisregeln](reward-points-price-rules.md)
+      - [Prämienpunkte für Storefront-Erlebnis](reward-points-storefront.md)
+   - Produktbewertungen {#product-reviews}
+      - [Produktbewertungen von Kunden](product-reviews.md)
+      - [Moderate Bewertungen](product-reviews-moderate.md)
 - Promotions {#promotions}
-   - Private Verkäufe und Ereignisse {#events}
+   - Private Verkäufe und Veranstaltungen {#events}
       - [Übersicht über Ereignisse](events-private-sales.md)
-      - [Ereignisse konfigurieren](event-configure.md)
+      - [Konfigurieren von Ereignissen](event-configure.md)
       - [Ereignisse erstellen](event-create.md)
       - [Ereigniseinladungen](invitations.md)
    - Katalogpreisregeln {#catalog-rules}
@@ -47,45 +47,45 @@ ht-degree: 1%
       - [Erstellen einer Katalogpreisregel](price-rules-catalog-create.md)
       - [Geplante Änderungen für Katalogpreisregeln](price-rule-catalog-scheduled-changes.md)
       - [Preisregel mit mehreren SKUs](price-rule-multiple-sku.md)
-   - Preisregeln für Warenkorb {#cart-rules}
-      - [Übersicht über die Preisregeln für Warenkorb](price-rules-cart.md)
-      - [Erstellen einer Preisregel für den Warenkorb](price-rules-cart-create.md)
+   - Warenkorb-Preisregeln {#cart-rules}
+      - [Übersicht über Warenkorbpreisregeln](price-rules-cart.md)
+      - [Erstellen einer Warenkorb-Preisregel](price-rules-cart-create.md)
       - [Couponcodes](price-rules-cart-coupon.md)
       - [Geplante Änderungen für Warenkorbpreisregeln](price-rule-cart-scheduled-changes.md)
-      - [Beispiel: Kostenlose Versandaktion](price-rules-cart-free-shipping.md)
-      - [Beispiel: kaufen Sie diesen kostenlosen](price-rules-cart-buy-this-get-that.md)
+      - [Beispiel: kostenlose Versandaktion](price-rules-cart-free-shipping.md)
+      - [Beispiel: Kaufen Sie dies und erhalten Sie es kostenlos](price-rules-cart-buy-this-get-that.md)
       - [Beispiel: Rabatt mit Mindestkauf](price-rule-discount-minimum-purchase.md)
-      - [Beispiel: Rabatt mit Erstkauf](price-rule-discount-first-purchase.md)
-   - Produktbeziehungen {#product-relationships}
+      - [Beispiel: Rabatt beim Erstkauf](price-rule-discount-first-purchase.md)
+   - {#product-relationships} der Produktbeziehungen
       - [Übersicht](product-relationships.md)
-      - [Regeln für verwandte Produkte und Konfiguration](product-related-rules.md)
-      - [Erstellen einer verwandten Produktregel](product-related-rule-create.md)
-- Marketingnachrichten {#communications}
+      - [Regeln und Konfiguration für verwandte Produkte](product-related-rules.md)
+      - [Erstellen einer zugehörigen Produktregel](product-related-rule-create.md)
+- Marketing-{#communications}
    - Newsletter {#newsletters}
       - [Newsletter aktivieren](newsletters.md)
       - [Newsletter-Vorlagen](newsletter-template.md)
       - [Newsletter senden](newsletter-queue.md)
       - [Abonnenten verwalten](newsletter-subscribers.md)
-   - [Social Media- und RSS-Dienste](social-rss.md)
+   - [Social Media und RSS-Feeds](social-rss.md)
    - E-Mail-Erinnerungen {#email-reminders}
       - [E-Mail-Erinnerungen aktivieren](email-reminder-rules.md)
       - [E-Mail-Erinnerungen erstellen](email-reminder-rules-create.md)
-- Suchmaschinenoptimierung {#seo}
-   - [SEO - Übersicht und Best Practices](seo-overview.md)
+- {#seo} zur Suchmaschinenoptimierung
+   - [SEO - Überblick und Best Practices](seo-overview.md)
    - [Metadaten](meta-data.md)
-   - [Sitemap](sitemap-xml.md)
+   - [Sitemaps](sitemap-xml.md)
    - URL-Neuschreibungen {#url-rewrites}
       - [Übersicht und Konfiguration](url-rewrite.md)
-      - [Kategorieüberarbeitungen](url-rewrite-category.md)
+      - [Neuschreibungen von Kategorien](url-rewrite-category.md)
       - [Produktneuschreibungen](url-rewrite-product.md)
-      - [CMS-Seitenumbrüche](url-rewrite-cms-page.md)
+      - [CMS-Seitenumschreibungen](url-rewrite-cms-page.md)
       - [Benutzerdefinierte Neuschreibungen](url-rewrite-custom.md)
-      - [Automatische Umleitungen](url-redirect-product-automatic.md)
-- Google-Site-Tools {#google-tools}
+      - [Automatische Weiterleitungen](url-redirect-product-automatic.md)
+- Google Site Tools-{#google-tools}
    - [Übersicht](google-tools.md)
    - [Google Analytics](google-analytics.md)
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-   - [Google Content Experiments](google-content-experiments.md)
-- [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+   - [Google-Inhaltsexperimente](google-content-experiments.md)
+- [Zurück zu Händlerleitfäden](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

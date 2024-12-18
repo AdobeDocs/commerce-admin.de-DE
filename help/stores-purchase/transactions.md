@@ -1,6 +1,6 @@
 ---
 title: Transaktionen
-description: Erfahren Sie mehr über die Seite Transaktionen und wie Sie damit die Aktivität zwischen Ihrem Store und einem Zahlungssystem verfolgen können.
+description: Erfahren Sie mehr über die Seite Transaktionen und wie Sie damit Aktivitäten zwischen Ihrem Geschäft und einem Zahlungssystem verfolgen können.
 exl-id: 5970db88-146d-4caf-aab4-d9315357a4fe
 feature: Payments
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
@@ -12,78 +12,78 @@ ht-degree: 0%
 
 # Transaktionen
 
-Auf der Seite _Transaktionen_ werden alle Zahlungsaktivitäten aufgelistet, die zwischen Ihrem Store und einem Zahlungssystem stattgefunden haben, und Sie erhalten Zugriff auf detailliertere Informationen.
+Die _Transaktionen_ Seite listet alle Zahlungsaktivitäten auf, die zwischen Ihrem Geschäft und einem Zahlungssystem stattgefunden haben, und bietet Zugriff auf detailliertere Informationen.
 
-## Transaktionen anzeigen
+## Buchungen anzeigen
 
-Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
+Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Transactions]**.
 
 ![Transaktionsraster](./assets/transactions.png){width="600" zoomable="yes"}
 
 | Spalte | Beschreibung |
 |--- |--- |
-| [!UICONTROL ID] | Eine eindeutige numerische Kennung, die jeder Transaktion zugewiesen wird. |
+| [!UICONTROL ID] | Eine eindeutige numerische Kennung, die jeder Transaktion zugewiesen ist. |
 | [!UICONTROL Order ID] | Eine eindeutige Kennung, die zugewiesen wird, wenn ein Kunde eine Bestellung aufgibt. |
 | [!UICONTROL Transaction ID] | Eine eindeutige numerische Kennung, die zugewiesen wird, wenn eine Transaktion stattfindet, nachdem ein Kunde eine Bestellung aufgegeben hat. |
-| [!UICONTROL Parent Transaction ID] | Die ID-Nummer der übergeordneten Transaktion |
+| [!UICONTROL Parent Transaction ID] | Die ID-Nummer der übergeordneten Transaktion. |
 | [!UICONTROL Payment Method] | Die mit einer Transaktion verknüpfte Zahlungsmethode. |
-| [!UICONTROL Transaction Type] | Art der Transaktion, bei der es sich um Bestellung, Autorisierung, Erfassung, Nichterfüllung oder Erstattung handeln kann. |
-| [!UICONTROL Closed] | Ob eine Transaktion geschlossen wird oder nicht. |
-| [!UICONTROL Created] | Zeitpunkt und Datum der Erstellung der Transaktion. |
+| [!UICONTROL Transaction Type] | Art der Transaktion, die Bestellung, Autorisierung, Erfassung, Annullierung oder Rückerstattung sein kann. |
+| [!UICONTROL Closed] | Ob eine Transaktion abgeschlossen ist oder nicht. |
+| [!UICONTROL Created] | Uhrzeit und Datum, an dem die Transaktion erstellt wurde. |
 
 {style="table-layout:auto"}
 
-## Anzeigen von Transaktionsdetails
+## Transaktionsdetails anzeigen
 
 Klicken Sie auf den Eintrag, den Sie anzeigen möchten.
 
-Auf der Seite mit den Transaktionsdetails können Sie das Raster mit den Transaktionsdetails und untergeordneten Transaktionen anzeigen.
+Auf der Seite „Transaktionsdetails“ können Sie das Transaktionsdetail und das Raster für untergeordnete Transaktionen sehen.
 
 ### Transaktionsdaten
 
-Dieser Abschnitt enthält Informationen zur Transaktion und stellt einen Link zur Bestellseite in der Spalte **Bestell-ID** bereit.
+Dieser Abschnitt enthält Informationen zur Transaktion und enthält einen Link zur Auftragsseite in der Spalte **Auftrags-ID**.
 
 | Spalte | Beschreibung |
 |--- |--- |
-| [!UICONTROL Transaction ID] | Die Transaktions-ID-Nummer |
+| [!UICONTROL Transaction ID] | Die Transaktions-ID. |
 | [!UICONTROL Parent Transaction ID] | Eine entsprechende ID-Nummer der übergeordneten Transaktion, falls zutreffend. |
-| [!UICONTROL Transaction Type] | Art der Transaktion, bei der es sich um Bestellung, Autorisierung, Erfassung, Nichterfüllung oder Erstattung handeln kann. |
-| [!UICONTROL Is Closed] | Ob eine Transaktion geschlossen wird oder nicht. |
-| [!UICONTROL Created At] | Zeitpunkt und Datum der Erstellung der Transaktion. |
+| [!UICONTROL Transaction Type] | Art der Transaktion, die Bestellung, Autorisierung, Erfassung, Annullierung oder Rückerstattung sein kann. |
+| [!UICONTROL Is Closed] | Ob eine Transaktion abgeschlossen ist oder nicht. |
+| [!UICONTROL Created At] | Uhrzeit und Datum, an dem die Transaktion erstellt wurde. |
 
 {style="table-layout:auto"}
 
-### Kindergeschäfte
+### Untergeordnete Transaktionen
 
-Untergeordnete Transaktionen werden im Raster angezeigt, nachdem Rechnungen für [Bestellungen](orders.md) erstellt wurden. In diesem Format können Sie den Transaktionsverlauf anhand einer Transaktionshierarchie verfolgen.
+Untergeordnete Transaktionen werden im Raster angezeigt, nachdem Rechnungen für [Bestellungen](orders.md) erstellt wurden. Mit diesem Format können Sie den Transaktionsverlauf verfolgen, indem Sie einer Transaktionshierarchie folgen.
 
 ### [!UICONTROL Transaction Details]
 
-Dieser Abschnitt enthält die zusätzlichen Informationen zu einer Transaktion. Informationen werden in Form von Schlüsseln und Werten angezeigt. Die verfügbaren Schlüssel sind:
+Dieser Abschnitt enthält die zusätzlichen Informationen für eine bestimmte Transaktion. Die Informationen werden in Form von Schlüsseln und Werten angezeigt. Die verfügbaren Schlüssel sind:
 
 - authAmount
-- authCode
-- aVSResponse
+- Authentifizierungs-Code
+- eVSResponse
 - billTo
 - cardCodeResponse
-- customer
+- Kunde
 - customerIP
 - lineItems
 - marketType
-- bestellen
-- payment
-- product
-- recurringBilling
+- Reihenfolge
+- Zahlung
+- Produkt
+- wiederkehrende Abrechnung
 - responseCode
 - responseReasonCode
 - responseReasonDescription
-- settleAmount
+- SettleAmount
 - Lösung
 - submitTimeLocal
 - submitTimeUTC
-- taxExempt
+- steuerfrei
 - transactionStatus
 
 >[!NOTE]
 >
->Wenn die Transaktionsdetails nicht verfügbar oder veraltet sind, klicken Sie in der Schaltflächenleiste auf **[!UICONTROL Fetch]** , um sie zu aktualisieren.
+>Wenn die Transaktionsdetails nicht verfügbar oder veraltet sind, klicken Sie in der Symbolleiste auf **[!UICONTROL Fetch]** , um sie zu aktualisieren.

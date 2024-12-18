@@ -1,6 +1,6 @@
 ---
-title: Tabellenversand
-description: Erfahren Sie, wie Sie eine Versandoption mit Tabellenraten für Ihren Store einrichten.
+title: Versandtabelle
+description: Erfahren Sie, wie Sie eine Versandoption mit tabellarischer Rate für Ihren Store einrichten.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
 source-git-commit: 0f368e87275a85e3801e6770b8985184e2071384
@@ -10,33 +10,33 @@ ht-degree: 3%
 
 ---
 
-# Tabellenversand
+# Versandtabelle
 
-Die Versandmethode _Tabellenrate_ verweist auf eine Tabelle mit Daten, um Versandraten anhand einer Kombination von Bedingungen zu berechnen, darunter:
+Die Versandmethode _Tabellensatz_ verweist auf eine Datentabelle, um Versandraten basierend auf einer Kombination von Bedingungen zu berechnen, einschließlich:
 
-- Gewichtung v. Ziel
-- Preis v. Ziel
-- Anzahl der Elemente v. Ziel
+- Gewichtung vs. Ziel
+- Preis v. Bestimmungsort
+- Anzahl der Elemente vs. Ziel
 
-Wenn Ihr Lager beispielsweise in Los Angeles liegt, kostet es weniger, nach San Diego zu verschicken als nach Vermont. Sie können den Versand von Tabellen verwenden, um die Einsparungen an Ihre Kunden weiterzugeben.
+Wenn Ihr Lager zum Beispiel in Los Angeles ist, kostet es weniger, nach San Diego zu versenden als nach Vermont. Sie können den Versand mit Tabellensätzen verwenden, um die Einsparungen an Ihre Kunden weiterzugeben.
 
-Die Daten, die zur Berechnung der Tabellenraten verwendet werden, werden in einer Tabelle vorbereitet und in Ihren Speicher importiert. Wenn der Kunde ein Angebot anfordert, werden die Ergebnisse im Abschnitt Versandschätzung des Warenkorbs angezeigt.
+Die Daten, die zur Berechnung der Tariftabellen verwendet werden, werden in einer Tabelle vorbereitet und in Ihren Shop importiert. Wenn der Kunde ein Angebot anfordert, werden die Ergebnisse im Abschnitt „Versandschätzung“ des Warenkorbs angezeigt.
 
 >[!NOTE]
 >
->Es kann jeweils nur ein Datensatz mit Tabellenraten aktiv sein.
+>Es kann immer nur ein Datensatz der Tabellensatzdaten aktiv sein.
 
-![Versandoption &quot;Tabellenrate&quot;in der Bestellübersicht des Warenkorbs](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
+![Versandoption „Tabellenrate“ in der Bestellübersicht für den Warenkorb](./assets/storefront-cart-table-rate.png){width="700" zoomable="yes"}
 
-## Schritt 1: Standardeinstellungen festlegen
+## Schritt 1: Standardeinstellungen vervollständigen
 
-Der erste Schritt besteht darin, die Standardeinstellungen für Tabellenraten abzuschließen. Sie können diesen Schritt abschließen, ohne den Umfang der Konfiguration zu ändern.
+Der erste Schritt besteht darin, die Standardeinstellungen für die Tarife abzuschließen. Sie können diesen Schritt abschließen, ohne den Umfang der Konfiguration zu ändern.
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im Abschnitt _[!UICONTROL Sales]_des linken Bedienfelds die Option **[!UICONTROL Delivery Methods]**.
+1. Wählen Sie im _[!UICONTROL Sales]_Bereich des linken Bedienfelds **[!UICONTROL Delivery Methods]**aus.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Table Rates]** .
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Table Rates]** .
 
    >[!NOTE]
    >
@@ -44,63 +44,63 @@ Der erste Schritt besteht darin, die Standardeinstellungen für Tabellenraten ab
 
    ![Tabellenraten](../configuration-reference/sales/assets/delivery-methods-table-rates.png){width="600" zoomable="yes"}
 
-1. Setzen Sie **[!UICONTROL Enabled]** auf `Yes`.
+1. Legen Sie **[!UICONTROL Enabled]** auf `Yes` fest.
 
-1. Geben Sie den **[!UICONTROL Title]** ein, der beim Checkout für die Tabellenraten angezeigt werden soll.
+1. Geben Sie die **[!UICONTROL Title]** ein, die während des Checkouts für den Abschnitt „Tabellensätze“ angezeigt werden soll.
 
-   Der Standardtitel ist `Best Way`.
+   Der Standardtitel lautet `Best Way`.
 
-1. Geben Sie den **[!UICONTROL Method Name]** ein, der als Titel neben der berechneten Rate im Warenkorb angezeigt werden soll.
+1. Geben Sie die **[!UICONTROL Method Name]** ein, die im Warenkorb als Titel neben der berechneten Rate angezeigt werden soll.
 
-1. Setzen Sie **[!UICONTROL Condition]** auf eine der folgenden Berechnungsmethoden:
+1. Legen Sie **[!UICONTROL Condition]** auf eine der folgenden Berechnungsmethoden fest:
 
    - `Weight v. Destination`
    - `Price v. Destination`
    - `Number of Items v. Destination`
 
-1. Setzen Sie für Bestellungen mit virtuellen Produkten **[!UICONTROL Include Virtual Products in Price Calculation]** auf `Yes` , wenn Sie die virtuellen Produkte in die Berechnung einbeziehen möchten.
+1. Legen Sie für Bestellungen, die virtuelle Produkte enthalten, **[!UICONTROL Include Virtual Products in Price Calculation]** auf `Yes` fest, wenn Sie die virtuellen Produkte in die Berechnung einbeziehen möchten.
 
    >[!NOTE]
    >
-   >Da virtuelle Produkte - wie z. B. Dienste - keine Gewichtung haben, können sie das Ergebnis einer Berechnung nicht ändern, die auf der Bedingung Gewicht v Ziel basiert. Virtual Produkte können jedoch das Ergebnis einer Berechnung ändern, die entweder auf der Bedingung Preis v. Ziel oder Anzahl der Elemente vs. Ziel basiert.
+   >Da virtuelle Produkte - z. B. Services - keine Gewichtung haben, können sie das Ergebnis einer Berechnung, die auf der Gewichtung vs. Zielbedingung basiert, nicht ändern. Virtuelle Produkte können jedoch das Ergebnis einer Berechnung ändern, die entweder auf der Bedingung „Preis vs. Ziel“ oder „Anzahl der Artikel vs. Ziel“ basiert.
 
-1. Konfigurieren Sie die Optionen für die Bearbeitungsgebühr entsprechend Ihren Anforderungen.
+1. Konfigurieren Sie die Bearbeitungsgebührenoptionen entsprechend Ihren Anforderungen.
 
-   Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die zu den Versandkosten hinzukommt. Wenn Sie eine Bearbeitungsgebühr einbeziehen möchten, gehen Sie wie folgt vor:
+   Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die zu den Versandkosten hinzugerechnet wird. Wenn Sie eine Bearbeitungsgebühr einbeziehen möchten, gehen Sie wie folgt vor:
 
-   - Legen Sie **[!UICONTROL Calculate Handling Fee]** fest:
+   - **[!UICONTROL Calculate Handling Fee]** festlegen:
 
       - `Fixed`
       - `Percent`
 
-   - Geben Sie den **[!UICONTROL Handling Fee]**-Satz entsprechend der Methode zur Berechnung der Gebühr ein.
+   - Geben Sie den **[!UICONTROL Handling Fee]** nach der Methode ein, die zur Berechnung der Gebühr verwendet wurde.
 
-     Wenn die Gebühr beispielsweise auf einer festen Gebühr basiert, geben Sie den Betrag als Dezimalzahl ein, z. B. `4.90`. Wenn die Bearbeitungsgebühr jedoch auf einem Prozentsatz der Bestellung basiert, geben Sie den Betrag als Prozentsatz an. Wenn Sie beispielsweise sechs Prozent der Bestellung aufladen, geben Sie den Wert als `.06` ein.
+     Wenn die Gebühr beispielsweise auf einer festen Gebühr basiert, geben Sie den Betrag als Dezimalzahl ein, z. B. `4.90`. Wenn die Bearbeitungsgebühr jedoch auf einem Prozentsatz der Bestellung basiert, geben Sie den Betrag als Prozentsatz ein. Wenn Sie beispielsweise sechs Prozent der Bestellung berechnen, geben Sie den Wert als `.06` ein.
 
 1. Ändern Sie bei Bedarf die **[!UICONTROL Displayed Error Message]**.
 
-   Dieses Textfeld enthält eine Standardnachricht. Sie können jedoch eine andere Nachricht eingeben, die angezeigt werden soll, wenn diese Versandmethode nicht mehr verfügbar ist.
+   In diesem Textfeld wird eine Standardnachricht vorgegeben. Sie können jedoch eine andere Nachricht eingeben, die angezeigt werden soll, wenn diese Versandmethode nicht mehr verfügbar ist.
 
-1. Legen Sie **[!UICONTROL Ship to Applicable Countries]** fest:
+1. **[!UICONTROL Ship to Applicable Countries]** festlegen:
 
-   - `All Allowed Countries` - Kunden aus allen in Ihrer Store-Konfiguration angegebenen [Ländern](../getting-started/store-details.md#country-options) können diese Bereitstellungsmethode verwenden.
-   - `Specific Countries` - Wenn Sie diese Option auswählen, wird die Liste _[!UICONTROL Ship to Specific Countries]_angezeigt. Wählen Sie jedes Land in der Liste aus, in dem diese Versandmethode verwendet werden kann.
+   - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können diese Versandmethode verwenden.
+   - `Specific Countries` - Wenn Sie diese Option wählen, wird die _[!UICONTROL Ship to Specific Countries]_angezeigt. Wählen Sie jedes Land in der Liste aus, in dem diese Versandmethode verwendet werden kann.
 
-1. Setzen Sie **[!UICONTROL Show Method if Not Applicable]** auf `Yes` , wenn Sie die Tabellenzahlen immer anzeigen möchten
+1. Legen Sie **[!UICONTROL Show Method if Not Applicable]** auf `Yes` fest, wenn Sie die Tabellensätze immer anzeigen möchten
 
-1. Geben Sie für &quot;**[!UICONTROL Sort Order]**&quot; eine Zahl ein, um die Reihenfolge zu bestimmen, in der der Tabellenquotenversand angezeigt wird, wenn er beim Checkout mit anderen Versandmethoden aufgeführt wird.
+1. Geben Sie **[!UICONTROL Sort Order]** eine Zahl ein, um die Reihenfolge zu bestimmen, in der die Versandtabelle angezeigt wird, wenn sie während des Checkouts mit anderen Versandmethoden aufgelistet wird.
 
-   `0` = first, `1` = second, `2` = third usw.
+   `0` = First, `1` = Second, `2` = Third usw.
 
 1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
 ## Schritt 2: Tabellensatzdaten vorbereiten
 
-1. Setzen Sie oben links **[!UICONTROL Store View]** auf `Main Website` oder auf eine andere Website, auf die die Konfiguration angewendet wird.
+1. Setzen Sie **[!UICONTROL Store View]** in der oberen linken Ecke auf `Main Website` oder auf eine andere Website, für die die Konfiguration gilt.
 
    >[!NOTE]
    >
-   >Heben Sie bei Bedarf zunächst das Kontrollkästchen **[!UICONTROL Use system value]** auf, um die folgenden Einstellungen wie beschrieben zu ändern.
+   >Deaktivieren Sie bei Bedarf zunächst das Kontrollkästchen **[!UICONTROL Use system value]** , um die folgenden Einstellungen wie beschrieben zu ändern.
 
 1. Ändern Sie die **[!UICONTROL Condition]** nach Bedarf.
 
@@ -108,47 +108,47 @@ Der erste Schritt besteht darin, die Standardeinstellungen für Tabellenraten ab
 
    ![CSV exportieren](./assets/shipping-table-rates-export.png){width="700" zoomable="yes"}
 
-1. Speichern Sie die Datei &quot;`tablerates.csv`&quot; auf Ihrem System.
+1. Speichern Sie die `tablerates.csv` auf Ihrem System.
 
-1. Öffnen Sie die Datei in einer Tabellenkalkulationsanwendung.
+1. Öffnen Sie die Datei in einem Tabellenkalkulationsprogramm.
 
 1. Füllen Sie die Tabelle mit den entsprechenden Werten für die Versandberechnungsbedingung aus.
 
-   - Verwenden Sie ein Sternchen (*) als Platzhalter, der alle in einer Kategorie möglichen Werte darstellt.
-   - Die Spalte _[!UICONTROL Country]_muss einen [gültigen dreistelligen Code][1] für jede Zeile enthalten.
-   - Sortieren Sie die Daten nach &quot;_[!UICONTROL Region/State]_&quot;, sodass sich die jeweiligen Positionen oben in der Liste und die Platzhalterstandorte unten befinden. Bei Verwendung dieser Methode werden die Regeln zuerst mit den absoluten Werten und später mit den Platzhalterwerten verarbeitet.
-   - Postleitzahlbereiche werden nicht unterstützt. Verwenden Sie ein Sternchen (*), um alle Codes innerhalb des Bereichs/Status zuzulassen, oder geben Sie einen einzelnen Code für eine bestimmte Position in der Spalte _[!UICONTROL Zip/Postal Code]_an.
-   - Die Werte in der Spalte _[!UICONTROL Weight (and above)]_können maximal vier Dezimalstellen haben (z. B. `2.5075`). Wenn Sie mehr Dezimalstellen in den Daten verwenden, schlägt der Import fehl.
+   - Verwenden Sie ein Sternchen (*) als Platzhalter für alle möglichen Werte in einer beliebigen Kategorie.
+   - Die Spalte _[!UICONTROL Country]_muss für jede Zeile [gültigen ][1]-Code) enthalten.
+   - Sortieren Sie die Daten nach _[!UICONTROL Region/State]_, sodass die spezifischen Speicherorte oben in der Liste und die Platzhalterspeicherorte unten angezeigt werden. Mit dieser Methode werden die Regeln zuerst mit den absoluten Werten und später mit den Platzhalterwerten verarbeitet.
+   - Postleitzahlbereiche werden nicht unterstützt. Verwenden Sie ein Sternchen (*), um alle Codes innerhalb der Region/des Bundeslandes zuzulassen, oder geben Sie einen einzelnen Code für eine bestimmte Position in der Spalte &quot;_[!UICONTROL Zip/Postal Code]_&quot; an.
+   - Werte in der Spalte _[!UICONTROL Weight (and above)]_können maximal vier Dezimalstellen aufweisen (z. B. `2.5075`). Die Verwendung von mehr Dezimalstellen in den Daten führt dazu, dass der Import fehlschlägt.
 
-   ![Gewichtung vs. Ziel (Australien)](./assets/table-rates-weight-destination-csv.png){width="500"}
+   ![Gewicht vs. Ziel (Australien)](./assets/table-rates-weight-destination-csv.png){width="500"}
 
-1. Speichern Sie die Datei &quot;`tablerates.csv`&quot;.
+1. Speichern Sie die `tablerates.csv`.
 
-## 3. Schritt: Tabellensatzdaten importieren
+## Schritt 3: Importieren der Tabellensatzdaten
 
 1. Kehren Sie zum Abschnitt **[!UICONTROL Table Rates]** Ihrer Store-Konfiguration zurück.
 
-1. Setzen Sie oben links **[!UICONTROL Store View]** auf die Website, auf der diese Methode verwendet wird.
+1. Setzen Sie in der oberen linken Ecke **[!UICONTROL Store View]** auf die Website, auf der diese Methode verwendet wird.
 
-1. Klicken Sie für **[!UICONTROL Import]** auf **[!UICONTROL Choose File]** und wählen Sie Ihre abgeschlossene `tablerates.csv` -Datei aus, um die Raten zu importieren.
+1. Klicken Sie **[!UICONTROL Import]** auf **[!UICONTROL Choose File]** und wählen Sie die fertig gestellte `tablerates.csv` aus, um die Tarife zu importieren.
 
-   ![Tabellenraten importieren](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
+   ![Importieren von Tabellensätzen](./assets/shipping-table-rates-import.png){width="600" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
-## Schritt 4: Überprüfen der Raten
+## Schritt 4: Tarife überprüfen
 
-Um sicherzustellen, dass die Daten der Tabellenrate korrekt sind, gehen Sie den Zahlungsprozess mit mehreren unterschiedlichen Adressen durch, um sicherzustellen, dass die Versand- und Bearbeitungsraten korrekt berechnet werden.
+Um sicherzustellen, dass die Tabellensatzdaten korrekt sind, durchlaufen Sie den Zahlungsprozess mit mehreren verschiedenen Adressen, um sicherzustellen, dass die Versand- und Bearbeitungsraten korrekt berechnet werden.
 
-### Beispiel 1: Preis und Ziel
+### Beispiel 1: Preis und Zielort
 
-In diesem Beispiel wird die Bedingung Preis v. Ziel verwendet, um eine Reihe von drei verschiedenen Versandtarifen zu erstellen, basierend auf der Menge der Auftragsubsumme für die kontinentalen Vereinigten Staaten, Alaska und Hawaii. Das Sternchen (*) ist ein Platzhalter, der alle Werte darstellt.
+In diesem Beispiel wird die Bedingung Preis vs. Ziel verwendet, um einen Satz von drei verschiedenen Versandraten basierend auf dem Betrag der Zwischensumme der Bestellung für den kontinentalen US-amerikanischen Kontinent, Alaska und Hawaii zu erstellen. Das Sternchen (*) ist ein Platzhalter für alle Werte.
 
-| LAND | REGION/STAAT | Postleitzahl | BESTELLUNGS-ZWISCHENSUMME (und höher) | VERSANDPREIS |
+| LAND | REGION/BUNDESLAND | POSTLEITZAHL | ZWISCHENSUMME BESTELLUNG (und höher) | VERSANDPREIS |
 |--- |--- |--- |--- |--- |
-| USA | HI | * | 100 | 10 |
-| USA | HI | * | 50 | 15 |
-| USA | HI | * | 0 | 20 |
+| USA | HALLO | * | 100 | 10 |
+| USA | HALLO | * | 50 | 15 |
+| USA | HALLO | * | 0 | 20 |
 | USA | AK | * | 100 | 10 |
 | USA | AK | * | 50 | 15 |
 | USA | AK | * | 0 | 20 |
@@ -158,11 +158,11 @@ In diesem Beispiel wird die Bedingung Preis v. Ziel verwendet, um eine Reihe von
 
 {style="table-layout:auto"}
 
-### Beispiel 2: Gewichtung und Ziel
+### Beispiel 2: Gewicht und Ziel
 
-In diesem Beispiel wird die Bedingung Gewicht v. Ziel verwendet, um basierend auf der Gewichtung der Bestellung unterschiedliche Versandraten zu erstellen.
+In diesem Beispiel wird die Bedingung „Gewichtung vs. Ziel“ verwendet, um verschiedene Versandraten basierend auf der Gewichtung der Bestellung zu erstellen.
 
-| LAND | REGION/STAAT | Postleitzahl | GEWICHT (und höher) | VERSANDPREIS |
+| LAND | REGION/BUNDESLAND | POSTLEITZAHL | GEWICHT (und darüber) | VERSANDPREIS |
 |--- |--- |--- |--- |--- |
 | AUS | NT | * | 9 | 39,95 |
 | AUS | NT | * | 0 | 19,95 |
@@ -175,11 +175,11 @@ In diesem Beispiel wird die Bedingung Gewicht v. Ziel verwendet, um basierend au
 
 {style="table-layout:auto"}
 
-### Beispiel 3: Beschränkung des freien Seeverkehrs auf die kontinentalen Vereinigten Staaten
+### Beispiel 3: Kostenlosen Versand auf den amerikanischen Kontinent beschränken
 
-1. Erstellen Sie eine `tablerates.csv` -Datei, die alle Statusziele enthält, für die Sie einen kostenlosen Versand bereitstellen möchten.
+1. Erstellen Sie eine `tablerates.csv`-Datei, die alle Bundesstaat-Ziele enthält, für die Sie einen kostenlosen Versand bereitstellen möchten.
 
-1. Schließen Sie die Konfiguration der Tabellenrate mit den folgenden Einstellungen ab:
+1. Schließen Sie die Konfiguration des Abrechnungssatzes mit den folgenden Einstellungen ab:
 
    | Einstellung | Wert |
    |----------|-------|
@@ -191,9 +191,9 @@ In diesem Beispiel wird die Bedingung Gewicht v. Ziel verwendet, um basierend au
 
    {style="table-layout:auto"}
 
-1. Setzen Sie oben links **[!UICONTROL Store View]** auf `Main Website` oder auf eine andere Website, auf die die Konfiguration angewendet wird.
+1. Setzen Sie **[!UICONTROL Store View]** in der oberen linken Ecke auf `Main Website` oder auf eine andere Website, für die die Konfiguration gilt.
 
-1. Klicken Sie für **[!UICONTROL Import]** auf **[!UICONTROL Choose File]** und wählen Sie Ihre abgeschlossene `tablerates.csv` -Datei aus, um die Raten zu importieren.
+1. Klicken Sie **[!UICONTROL Import]** auf **[!UICONTROL Choose File]** und wählen Sie die fertig gestellte `tablerates.csv` aus, um die Tarife zu importieren.
 
 
 [1]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3

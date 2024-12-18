@@ -1,6 +1,6 @@
 ---
-title: Verwalten von Firmenkrediten
-description: Erfahren Sie mehr über die Kreditlinien von Unternehmen, das Festlegen von Parametern und die Verarbeitung von Zahlungen für Konten.
+title: Firmenkredite verwalten
+description: Erfahren Sie mehr über Firmenkreditlinien, das Festlegen von Parametern und die Verarbeitung von Zahlungen auf Konto.
 exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
 role: Admin
@@ -11,112 +11,112 @@ ht-degree: 0%
 
 ---
 
-# Verwalten von Firmenkrediten
+# Firmenkredite verwalten
 
-Wenn in der Konfiguration die Option [Zahlung auf Konto](../getting-started/../b2b/enable-basic-features.md#configure-payment-on-account) aktiviert ist, können Unternehmen bis zu dem dem Unternehmen gewährten Kreditlimit auf ihrem Konto Einkäufe tätigen. Wenn diese Option aktiviert ist, können Kunden den Status ihrer Unternehmensgutschrift über ihr Konto-Dashboard überprüfen.
+Wenn [Zahlung auf Konto](../getting-started/../b2b/enable-basic-features.md#configure-payment-on-account) in der Konfiguration aktiviert ist, können Unternehmen bis zu dem Kreditlimit, das dem Unternehmen gewährt wird, auf ihrem Konto Käufe tätigen. Wenn diese Option aktiviert ist, können Kundinnen und Kunden den Status ihres Firmenguthabens über ihr Konto-Dashboard überprüfen.
 
-![Firmenguthaben](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
+![Firmenkredit](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-Sie können für jedes Unternehmensprofil die folgenden kreditbezogenen Parameter festlegen:
+Für jedes Unternehmensprofil können die folgenden kreditbezogenen Parameter festgelegt werden:
 
 - Kreditwährung
-- Kreditbeschränkung
-- Erlauben, die Kreditbeschränkung zu überschreiten
-- Grund für die Veränderung
+- Kreditlimit
+- Überschreiten des Kreditlimits zulassen
+- Änderungsgrund
 
-Wenn das Unternehmen über einen ausstehenden Saldo verfügt, wird oben in der Bestellung ein Hinweis an den Store-Administrator angezeigt, wenn er vom Administrator angezeigt wird. Weitere Informationen finden Sie unter [Erstellen eines Unternehmenskontos](account-company-create.md).
+Wenn das Unternehmen über einen ausstehenden Saldo verfügt, wird bei der Anzeige im Admin-Bereich oben im Kundenauftrag ein Hinweis an den Filialadministrator angezeigt. Weitere Informationen finden Sie unter [Erstellen eines Unternehmenskontos](account-company-create.md).
 
-## Firmenkreditgeschäfte
+## Firmenkreditaktivität
 
-Im Abschnitt &quot;[!UICONTROL Company Credit]&quot; des Firmenprofils wird eine Zusammenfassung der Kundenkreditaktivität mit einer Übersicht über den Verlauf des Firmenkredits angezeigt.
+Im Abschnitt [!UICONTROL Company Credit] des Firmenprofils wird eine Zusammenfassung der Aktivität „Kundenkredit“ mit einem Raster der Historie der Firmenkredite angezeigt.
 
-![Aktivität &quot;Unternehmensgutschrift&quot;](./assets/company-credit-reimbursements-grid.png){width="700" zoomable="yes"}
+![Firmenkreditaktivität](./assets/company-credit-reimbursements-grid.png){width="700" zoomable="yes"}
 
 | Spalte | Beschreibung |
 |--- |--- |
 | [!UICONTROL Date] | Das Datum der Transaktion. Um Datum und Uhrzeit anzuzeigen, bewegen Sie den Mauszeiger über das Datum. |
-| [!UICONTROL Operation] | Der mit der Transaktion verknüpfte Aktivitätstyp. Werte: <br/>**[!UICONTROL Allocated]**- Dem Unternehmen zugewiesene Gutschrift.<br/>**[!UICONTROL Updated]** - Eine Änderung wurde auf eines der folgenden Felder angewendet: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- Eine Bestellung wurde platziert.<br/>**[!UICONTROL Reimbursed]** - Der ausstehende Saldo wurde erstattet. <br/>**[!UICONTROL Refunded]**- Ein Kreditnachrichtenbetrag wurde zurückerstattet.<br/>**[!UICONTROL Reverted]** - Die Bestellung wurde storniert und der Betrag wurde zum Guthaben zurückgegeben. |
-| [!UICONTROL Amount] | Der Transaktionsbetrag, der den folgenden Transaktionstypen zugeordnet ist: `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>Bei Kaufbeträgen wird der Betrag in der Anzeigewährung des Geschäfts und im Format der Kreditwährungseinstellung angezeigt, gefolgt von der aktuellen Konversionsrate (falls zutreffend). Beispiel: <br/>20.000,00 EUR ($ 22.400,00) <br/>USD/EUR 0,8928 |
-| [!UICONTROL Outstanding Balance] | Der erstattete Betrag abzüglich der fälligen Gesamtsumme aller Bestellungen, die mit der Methode Zahlung auf Konto aufgegeben wurden. Der Betrag kann als positiver oder negativer Wert erscheinen. <br/>**[!UICONTROL Positive value]**- Eine Vorauszahlung wird als positiver Wert dargestellt.<br/>**[!UICONTROL Negative value]** - Ein fälliger Betrag wird als negativer Wert dargestellt. |
-| [!UICONTROL Available Credit] | Die Summe der _[!UICONTROL Credit Limit]_und der_[!UICONTROL Outstanding Balance]_. Wenn das Unternehmen die Kreditgrenze überschritten hat, erscheint der Betrag als negativer Wert. |
-| [!UICONTROL Credit Limit] | Die dem Unternehmen gewährte Kreditsumme. |
+| [!UICONTROL Operation] | Der Aktivitätstyp, der mit der Transaktion verbunden ist. Werte: <br/>**[!UICONTROL Allocated]**- Dem Unternehmen zugewiesene Gutschrift.<br/>**[!UICONTROL Updated]** - Änderung wurde auf eines der folgenden Felder angewendet: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- Bestellung wurde aufgegeben.<br/>**[!UICONTROL Reimbursed]** - Der ausstehende Restbetrag wurde zurückgezahlt. <br/>**[!UICONTROL Refunded]**- Ein Gutschriftsbetrag wurde zurückerstattet.<br/>**[!UICONTROL Reverted]** - Der Auftrag wurde storniert und der Betrag auf das Guthaben zurückgeführt. |
+| [!UICONTROL Amount] | Der Transaktionsbetrag, der den folgenden Transaktionsarten zugeordnet ist: `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>Bei Kaufbeträgen wird der Betrag in der Anzeigewährung des Geschäfts und im Format der Einstellung der Kreditwährung angezeigt, gefolgt vom aktuellen Umrechnungskurs (falls zutreffend). Beispiel: <br/>EUR 20.000,00 ($22.400,00) <br/>USD/EUR 0,8928 |
+| [!UICONTROL Outstanding Balance] | Der erstattete Betrag abzüglich des fälligen Gesamtbetrags aller Bestellungen, die mit der Zahlungsmethode „Auf Konto“ aufgegeben wurden. Der Betrag kann als positiver oder negativer Wert erscheinen. <br/>**[!UICONTROL Positive value]**- Eine Vorauszahlung wird als positiver Wert dargestellt.<br/>**[!UICONTROL Negative value]** - Ein fälliger Betrag wird als negativer Wert dargestellt. |
+| [!UICONTROL Available Credit] | Die Summe aus _[!UICONTROL Credit Limit]_und_[!UICONTROL Outstanding Balance]_. Wenn das Unternehmen das Kreditlimit überschritten hat, erscheint der Betrag als negativer Wert. |
+| [!UICONTROL Credit Limit] | Der dem Unternehmen gewährte Kreditbetrag. |
 | [!UICONTROL Updated By] | Der Name der Person, die den Vorgang initiiert hat. |
-| [!UICONTROL Custom Reference Number] | Die mit der Transaktion verknüpfte benutzerdefinierte Referenznummer. |
-| [!UICONTROL Comment] | Eine Kompilierung der Werte aus dem Feld `Reason for Change` entsprechend dem Kampagnentyp. <br/>**[!UICONTROL Purchased]**- Enthält Kommentare aus dem Kauf, die Bestellnummer und den Link zur Bestellung.<br/>**[!UICONTROL Reimbursed]** - Umfasst Kommentare aus der rückerstatteten Transaktion. |
-| [!UICONTROL Action] | Nur für `Reimbursed` -Vorgänge. **[!UICONTROL Edit]** - Ermöglicht die Aktualisierung des Erstattungsbetrags. |
+| [!UICONTROL Custom Reference Number] | Die benutzerdefinierte Referenznummer, die mit der Transaktion verknüpft ist. |
+| [!UICONTROL Comment] | Eine Kompilierung der Werte aus dem `Reason for Change` Feld, abhängig vom Vorgangstyp. <br/>**[!UICONTROL Purchased]**- Enthält Kommentare zum Kauf sowie die Bestellnummer und den Link zur Bestellung.<br/>**[!UICONTROL Reimbursed]** - Enthält Kommentare aus der zurückgezahlten Transaktion. |
+| [!UICONTROL Action] | Nur für `Reimbursed` Vorgänge. **[!UICONTROL Edit]** - Ermöglicht die Aktualisierung des Erstattungsbetrags. |
 
 {style="table-layout:auto"}
 
 ## Aktualisieren der Kreditdaten
 
-Wenn der Kunde die Zahlung für die ausstehende Gutschrift an den Händler vornimmt, muss ein Store-Administrator die Kundenkreditinformationen dann im Admin aktualisieren.
+Wenn der Kunde die Zahlung für seinen ausstehenden Kredit an den Händler leistet, muss ein Store-Administrator die Kundenkreditinformationen in der Admin aktualisieren.
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **Kunden > Unternehmen**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **Kunden > Firmen**.
 
-1. Suchen Sie das Unternehmen im Raster und öffnen Sie es im Modus _Bearbeiten_ .
+1. Suchen Sie die Firma im Raster und öffnen Sie im _Bearbeiten_-Modus.
 
-1. Erweitern Sie den Abschnitt **Firmenguthaben** .
+1. Erweitern Sie den Abschnitt **Firmenkredite**.
 
-1. Geben Sie für **Kreditlimit** den neuen Wert ein.
+1. Geben **unter „Kreditlimit** den neuen Wert ein.
 
 1. Ändern Sie die anderen Werte nach Bedarf.
 
-1. Klicken Sie nach Abschluss der Aktualisierungen auf **[!UICONTROL Save]**.
+1. Wenn die Aktualisierungen abgeschlossen sind, klicken Sie auf **[!UICONTROL Save]**.
 
-## Empfangen von Zahlungen
+## Zahlungen empfangen
 
-Ein erstatteter Saldo ist eine Offline-Zahlung, die von einem Unternehmen zum Saldo seines Kontos geleistet wird. Der Store-Administrator gibt den Betrag manuell in das Firmenprofil ein, indem er die Schaltfläche _Restbetrag erstatten_ verwendet. Bei Einreichung des Betrags berechnet das System den ausstehenden Saldo und die verfügbaren Unternehmenskredite neu und erfasst die Aktion in der Kreditgeschichte des Unternehmens. Der erstattete Betrag wird in der in der Konfiguration angegebenen Kreditwährung angegeben.
+Ein erstatteter Saldo ist eine Offline-Zahlung, die von einem Unternehmen auf den Saldo seines Kontos geleistet wird. Der Store-Administrator gibt den Betrag manuell im Firmenprofil ein, indem er die Schaltfläche _Saldo zurückerstatten_ verwendet. Wenn der Betrag übermittelt wird, berechnet das System den ausstehenden Saldo und die verfügbare Unternehmensgutschrift neu und erfasst die Aktion in der Kredithistorie des Unternehmens. Der erstattete Betrag wird in der Kreditwährung angegeben, wie in der Konfiguration angegeben.
 
-### Anwenden einer Zahlung auf ein Unternehmenskonto
+### Zahlung auf ein Firmenkonto anwenden
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Suchen Sie den Firmendatensatz in der Liste und öffnen Sie ihn im Modus **[!UICONTROL Edit]** .
+1. Suchen Sie den Firmendatensatz in der Liste und öffnen Sie ihn im **[!UICONTROL Edit]**.
 
-1. Klicken Sie oben auf der Seite auf **Zahlungsausgleich**.
+1. Klicken Sie oben auf der Seite auf **Kontostand**.
 
 1. Fügen Sie im Dialogfeld die Zahlungsinformationen hinzu:
 
-   ![Rückzahlungssaldo](./assets/company-reimburse-balance.png){width="500"}
+   ![Rückerstattungsbetrag](./assets/company-reimburse-balance.png){width="500"}
 
    - Geben Sie den **Betrag** der Zahlung ein.
 
-     Der Betrag kann als positiver oder negativer Wert angegeben werden.
+     Der Betrag kann als positiver oder negativer Wert eingegeben werden.
 
-   - Geben Sie, falls zutreffend, die **benutzerdefinierte Referenznummer** als Referenz ein.
+   - Geben Sie gegebenenfalls als Referenz **Benutzerdefinierte Referenznummer** ein.
 
-     Pro Kostenerstattung kann nur eine benutzerdefinierte Referenznummer angegeben werden. Um die Zahlung auf mehrere EOs anzuwenden, erstellen Sie jeweils eine separate Erstattung.
+     Pro Kostenerstattung kann nur eine individuelle Referenznummer eingegeben werden. Um die Zahlung auf mehrere Bestellungen anzuwenden, erstellen Sie für jede Bestellung eine separate Kostenerstattung.
 
-   - Geben Sie nach Bedarf **Kommentar** ein, um die Erstattung zu beschreiben.
+   - Geben Sie bei Bedarf einen **Kommentar** ein, um die Erstattung zu beschreiben.
 
-1. Klicken Sie auf **Kostenerstattung**.
+1. Klicken Sie **Rückerstattung**.
 
-   Der ausstehende Saldo und die verfügbaren Kredite des Unternehmens werden neu berechnet und der Verlauf der Unternehmenskredite wird aktualisiert, um die Rückzahlung widerzuspiegeln.
+   Der ausstehende Saldo des Unternehmens und das verfügbare Guthaben des Unternehmens werden neu berechnet, und die Kredithistorie des Unternehmens wird aktualisiert, um die Rückzahlung widerzuspiegeln.
 
-### Kostenerstattung bearbeiten
+### Bearbeiten einer Kostenerstattung
 
-1. Öffnen Sie das Firmenprofil im Modus **[!UICONTROL Edit]** .
+1. Öffnen Sie das Unternehmensprofil im **[!UICONTROL Edit]**.
 
-1. Erweitern Sie den Abschnitt **Unternehmensgutschrift** um ![Erweiterungsauswahl](../assets/icon-display-expand.png).
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **Firmenkredite**.
 
-1. Suchen Sie die Kostenerstattungstransaktion in der Tabelle und klicken Sie auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Rückerstattungstransaktion im Raster und klicken Sie auf **[!UICONTROL Edit]**.
 
-1. Nehmen Sie alle erforderlichen Änderungen an **Benutzerdefinierte Referenznummer** und **Kommentar** vor.
+1. Nehmen Sie die erforderlichen Änderungen an **Benutzerdefinierte Referenznummer** und &quot;**&quot;**.
 
    Der Erstattungsbetrag kann nicht geändert werden.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-## Storefront-Kreditdaten
+## Storefront-Kreditinformationen
 
-Für den Unternehmensadministrator wird im Konto-Dashboard der Abschnitt _Firmenguthaben_ angezeigt. Sie enthält den aktuellen ausstehenden Saldo, die verfügbaren Kredite und die Kreditgrenze, die ihrem Unternehmenskonto zugeordnet werden, gefolgt von einer Liste der ausstehenden Rechnungen.
+Für den Unternehmensadministrator zeigt das Konto-Dashboard den Abschnitt _Firmenguthaben_ an. Sie enthält den aktuellen ausstehenden Saldo, das verfügbare Guthaben und das Kreditlimit, das ihrem Unternehmenskonto zugeordnet ist, gefolgt von einer Liste ausstehender Rechnungen.
 
-Wenn der Händler einen Auftrag storniert, der dem Firmenguthaben in Rechnung gestellt wurde, wird der Auftragsbetrag an den Unternehmensstand zurückgegeben und der _Verlauf der Kreditzuweisung_ enthält einen Datensatz der Aktion.
+Wenn der Händler eine Bestellung storniert, die mit dem Firmenkredit belastet wurde, wird der Auftragsbetrag an den Firmensaldo zurückgegeben und in der _Kreditzuordnungshistorie_ wird die Aktion aufgezeichnet.
 
-![Firmenguthaben](./assets/company-credit.png){width="700" zoomable="yes"}
+![Firmenkredit](./assets/company-credit.png){width="700" zoomable="yes"}
 
-## Demo zu Firmenkrediten
+## Firmenkreditdemo
 
-In diesem Demo-Video erfahren Sie, wie Sie Firmenkredite verwalten:
+In diesem Demovideo erfahren Sie mehr über die Verwaltung von Firmenkrediten:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)

@@ -13,85 +13,85 @@ ht-degree: 0%
 
 ---
 
-# Verwalten der [!UICONTROL Company Hierarchy]
+# [!UICONTROL Company Hierarchy] verwalten
 
-Administratoren können eine &quot;[!UICONTROL Company Hierarchy]&quot;-Variable erstellen, indem sie verbundene Unternehmen einer bestimmten Muttergesellschaft zuweisen, der das Unternehmen oben in der Organisationshierarchie angehört.
+Administratoren können eine [!UICONTROL Company Hierarchy] erstellen, indem sie verknüpfte Unternehmen einer bestimmten übergeordneten Firma zuweisen, welche die Firma an der Spitze der Organisationshierarchie ist.
 
-Erstellen Sie ausgehend vom Administrator eine Muttergesellschaft, indem Sie ein einzelnes Unternehmen (`[!UICONTROL Company Type] = Company`) bearbeiten und verbundene Unternehmen in der [!UICONTROL Company Hierarchy] -Konfiguration zuweisen.
+Erstellen Sie vom Administrator aus eine übergeordnete Firma, indem Sie eine einzelne Firma (`[!UICONTROL Company Type] = Company`) bearbeiten und in der [!UICONTROL Company Hierarchy]-Konfiguration verwandte Firmen zuweisen.
 
-![Unternehmenshierarchieraster](./assets/company-hierarchy-grid.png){width="700"}
+![Unternehmenshierarchierarchieraster](./assets/company-hierarchy-grid.png){width="700"}
 
 
 >[!NOTE]
 >
->Weitere Informationen zum Raster [!UICONTROL Company Hierarchy] finden Sie unter Feldbeschreibungen für die [Unternehmenshierarchie](account-company-create.md#company-hierarchy) .
+>Weitere Informationen zum [!UICONTROL Company Hierarchy] finden Sie unter [Unternehmenshierarchie](account-company-create.md#company-hierarchy) Feldbeschreibungen.
 
-Verwalten Sie Unternehmenszuweisungen, indem Sie eine Muttergesellschaft bearbeiten und das Raster *[!UICONTROL Company Hierarchy]* zum Hinzufügen oder Entfernen von Unternehmen verwenden. Verwenden Sie das Steuerelement *[!UICONTROL Actions]* , um die Konfiguration der erweiterten Einstellungen [ für Unternehmen in der Organisation zu verwalten.](#change-company-settings)
+Verwalten Sie Unternehmenszuweisungen, indem Sie eine übergeordnete Firma bearbeiten und mithilfe des *[!UICONTROL Company Hierarchy]* Firmen hinzufügen oder entfernen. Verwenden Sie das *[!UICONTROL Actions]*, um die [erweiterten Einstellungen“ für ](#change-company-settings) in der Organisation zu verwalten.
 
-## Zuweisen von Unternehmen zu einer Muttergesellschaft
+## Firmen einer übergeordneten Firma zuweisen
 
-1. Navigieren Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-   ![Unternehmensraster](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+   ![Firmen-Raster](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-1. Öffnen Sie im Raster [!UICONTROL Companies] die Detailseite des Unternehmens, um die Zuweisungen zu erstellen.
+1. Öffnen Sie im [!UICONTROL Companies] die Seite „Firmendetails“, um die Zuweisungen zu erstellen.
 
-   - Um einer bestehenden Muttergesellschaft weitere Unternehmen zuzuweisen, wählen Sie die Aktion **[!UICONTROL Edit]** für die Muttergesellschaft aus.
-   - Um eine Muttergesellschaft zu erstellen, wählen Sie die Aktion &quot;**[!UICONTROL Edit]**&quot;für das als Mutterunternehmen bezeichnete Unternehmen aus.
+   - Um einer bestehenden übergeordneten Firma zusätzliche Firmen zuzuweisen, wählen Sie die **[!UICONTROL Edit]** für die übergeordnete Firma aus.
+   - Um eine übergeordnete Firma zu erstellen, wählen Sie die **[!UICONTROL Edit]** Aktion für die als übergeordnete Firma angegebene Firma aus.
 
-     Es ist nicht möglich, eine neue Muttergesellschaft aus einer bestehenden Muttergesellschaft oder einem untergeordneten Unternehmen zu erstellen.
+     Sie können keine neue übergeordnete Firma aus einer vorhandenen übergeordneten oder untergeordneten Firma erstellen.
 
-1. Erweitern Sie auf der Detailseite Firma den Eintrag **[!UICONTROL Company Hierarchy]** und wählen Sie dann **[!UICONTROL Assign Companies]** aus.
+1. Erweitern Sie auf der Seite „Unternehmensdetails“ **[!UICONTROL Company Hierarchy]** und klicken Sie dann auf **[!UICONTROL Assign Companies]**.
 
-   ![Mutterunternehmen erstellen](./assets/company-hierarchy-grid.png){width="675" zoomable="yes"}
+   ![Übergeordnete Firma erstellen](./assets/company-hierarchy-grid.png){width="675" zoomable="yes"}
 
-1. Wählen Sie aus der Liste der verfügbaren Unternehmen die zuzuweisenden Unternehmen und dann **[!UICONTROL Assign Selected Companies]** aus.
+1. Wählen Sie aus der Liste der verfügbaren Unternehmen die zuzuweisenden Unternehmen aus und klicken Sie dann auf **[!UICONTROL Assign Selected Companies]**.
 
-   ![Wählen Sie die Unternehmen aus, die zugewiesen werden sollen.](./assets/company-hierarchy-select-companies-assign.png){width="675" zoomable="yes"}
+   ![Firmen zum Zuweisen auswählen](./assets/company-hierarchy-select-companies-assign.png){width="675" zoomable="yes"}
 
-1. Wenn Sie dazu aufgefordert werden, schließen Sie die Unternehmenszuweisung durch Auswahl von **[!UICONTROL Assign]** ab.
+1. Wenn Sie dazu aufgefordert werden, schließen Sie die Unternehmenszuweisung ab, indem Sie **[!UICONTROL Assign]** auswählen.
 
-## Aufheben der Zuweisung von Unternehmen zu einer Muttergesellschaft
+## Zuweisung von Firmen zu einer übergeordneten Firma aufheben
 
-1. Öffnen Sie auf der Seite &quot;Unternehmen&quot;die Firmendetailseite für das Mutterunternehmen, indem Sie die Aktion &quot;**[!UICONTROL Edit]**&quot;auswählen.
+1. Öffnen Sie auf der Seite Firmen die Firmendetailseite für die übergeordnete Firma, indem Sie die Aktion **[!UICONTROL Edit]** auswählen.
 
-   ![Übergeordnete Firmendetailseite](./assets/company-update.png){width="700" zoomable="yes"}
+   ![Detailseite des übergeordneten Unternehmens](./assets/company-update.png){width="700" zoomable="yes"}
 
-1. Zeigen Sie die Liste der zugewiesenen Unternehmen durch Erweiterung von **[!UICONTROL Company Hierarchy]** an.
+1. Anzeigen der Liste der zugewiesenen Unternehmen durch Erweitern von **[!UICONTROL Company Hierarchy]**.
 
-1. Entfernen Sie das Unternehmen aus der Organisation.
+1. Entfernen Sie die Firma aus der Organisation.
 
-   - In der Spalte [!UICONTROL Action] für das zu entfernende Unternehmen **[!UICONTROL Select]** > **[!UICONTROL Unassign from parent]**.
+   - Wählen Sie in der Spalte [!UICONTROL Action] für das zu entfernende Unternehmen **[!UICONTROL Select]** > **[!UICONTROL Unassign from parent]** aus.
 
-     ![Entfernen eines Unternehmens aus einer Organisation](./assets/company-hierarchy-grid-unassign.png){width="640" zoomable="yes"}
+     ![Entfernen einer Firma aus einer Organisation](./assets/company-hierarchy-grid-unassign.png){width="640" zoomable="yes"}
 
-   - Entfernen Sie bei Aufforderung das zugewiesene Unternehmen aus der Hierarchie, indem Sie **[!UICONTROL Unassign]** auswählen.
+   - Wenn Sie dazu aufgefordert werden, entfernen Sie die zugewiesene Firma aus der Hierarchie, indem Sie **[!UICONTROL Unassign]** auswählen.
 
-## Unternehmenseinstellungen für eine Organisation verwalten
+## Verwalten von Unternehmenseinstellungen für eine Organisation
 
-Aktualisieren Sie die Konfiguration [Erweiterte Einstellungen](account-company-create.md#advanced-settings) für eine Organisation, um die übergeordnete Konfiguration auf alle untergeordneten Unternehmen anzuwenden oder um dieselben Einstellungen auf ausgewählte Unternehmen in der Organisation anzuwenden.
+Aktualisieren Sie die [Erweiterte Einstellungen](account-company-create.md#advanced-settings) für eine Organisation, um die übergeordnete Konfiguration auf alle untergeordneten Unternehmen anzuwenden oder dieselben Einstellungen auf ausgewählte Unternehmen in der Organisation anzuwenden.
 
-Während des Aktualisierungsprozesses werden die ursprünglichen Konfigurationswerte standardmäßig auf die für das Mutterunternehmen konfigurierten aktuellen Werte gesetzt. Sie müssen mindestens eine Einstellung ändern, um die Konfiguration für ausgewählte Unternehmen zu aktualisieren.
+Während des Aktualisierungsprozesses entsprechen die anfänglichen Konfigurationswerte standardmäßig den aktuellen Werten, die für die übergeordnete Firma konfiguriert wurden. Sie müssen mindestens eine Einstellung ändern, um die Konfiguration für ausgewählte Unternehmen zu aktualisieren.
 
-**Ändern der Konfiguration der erweiterten Einstellungen für mehrere Unternehmen**
+**Ändern Sie die Konfiguration der erweiterten Einstellungen für mehrere Unternehmen**
 
-1. Navigieren Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Bearbeiten Sie im Raster [!UICONTROL Companies] die übergeordnete Firma, indem Sie in der Spalte **[!UICONTROL Action]** die Option **[!UICONTROL Edit]** auswählen.
+1. Bearbeiten Sie im [!UICONTROL Companies] das übergeordnete Unternehmen, indem Sie **[!UICONTROL Edit]** aus der Spalte **[!UICONTROL Action]** auswählen.
 
-1. Erweitern Sie auf der Detailseite des übergeordneten Unternehmens den Abschnitt **[!UICONTROL Company Hierarchy]** , um die in der Organisation enthaltenen Unternehmen anzuzeigen.
+1. Erweitern Sie auf der Seite mit den übergeordneten Firmendetails **[!UICONTROL Company Hierarchy]** Abschnitt, um die in der Organisation enthaltenen Unternehmen anzuzeigen.
 
 1. Wählen Sie die zu konfigurierenden Unternehmen aus.
 
    ![Unternehmen aus der Unternehmenshierarchie auswählen](assets/company-hierarchy-select-companies.png){width="675" zoomable="yes"}
 
-1. Wählen Sie aus dem Steuerelement **[!UICONTROL Actions]** oberhalb des Rasters **[!UICONTROL Change company settings]** aus.
+1. Wählen Sie im **[!UICONTROL Actions]** über dem Raster **[!UICONTROL Change company settings]** aus.
 
    ![Ändern der Unternehmenseinstellungen für die Unternehmenshierarchie](assets/company-hierarchy-change-company-settings-action.png){width="675" zoomable="yes"}
 
-1. Ändern Sie die Konfiguration der Einstellungen.
+1. Ändern Sie die Konfigurationseinstellungen.
 
-   - Suchen Sie auf der Seite [!UICONTROL Change company settings] nach der Konfigurationseinstellung, die geändert werden soll.
+   - Suchen Sie auf der Seite [!UICONTROL Change company settings] nach der zu ändernden Konfigurationseinstellung.
 
    - Aktivieren Sie das Kontrollkästchen **[!UICONTROL Change]** , um die Einstellung zu aktivieren.
 
@@ -105,4 +105,4 @@ Während des Aktualisierungsprozesses werden die ursprünglichen Konfigurationsw
 
 >[!TIP]
 >
->Verwalten Sie die Konfiguration der erweiterten Einstellungen für ein einzelnes Unternehmen, indem Sie den Zeileneintrag &quot;Unternehmen&quot;bearbeiten.
+>Verwalten Sie die erweiterten Konfigurationseinstellungen für eine einzelne Firma, indem Sie den Zeileneintrag der Firma bearbeiten.

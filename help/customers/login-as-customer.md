@@ -1,6 +1,6 @@
 ---
-title: Unterstützung von Käufern
-description: Wenn Sie die Funktion Als Kunde anmelden verwenden, können Sie sehen, was die Kunden sehen, und in ihrem Namen Aktualisierungen vornehmen.
+title: Kundenunterstützung bereitstellen
+description: Wenn Sie die Funktion „Anmeldung als Kunde“ verwenden, können Sie sehen, was die Kunden sehen, und in ihrem Namen Aktualisierungen vornehmen.
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
@@ -10,120 +10,120 @@ ht-degree: 0%
 
 ---
 
-# Unterstützung von Käufern
+# Kundenunterstützung bereitstellen
 
-Manchmal benötigen Kunden Hilfe bei ihrer Bestellung. Store-Administratoren können _Als Kunde anmelden_ verwenden, damit sie sehen können, was der Kunde sieht, und Aktualisierungen vornehmen können, um ihn zu unterstützen.
+Manchmal benötigen Kunden Hilfe bei ihrer Bestellung. Store-Administratoren können &quot;_als Kunde anmelden_ verwenden, damit sie sehen können, was der Kunde sieht, und Aktualisierungen vornehmen, um ihn zu unterstützen.
 
-Alle Aktionen, die bei der Anmeldung als Kunde durchgeführt werden, werden auf das Konto des tatsächlichen Kunden angewendet.
+Alle Aktionen, die während der Anmeldung als Kunde durchgeführt werden, werden auf das Konto des tatsächlichen Kunden angewendet.
 
-Wenn sie für einen Benutzer vom Typ _Admin_ aktiviert ist, wird die Schaltfläche _[!UICONTROL Login as Customer]_auf mehreren Seiten angezeigt:
+Wenn sie für einen _Admin_-Benutzer aktiviert ist, wird die _[!UICONTROL Login as Customer]_-Schaltfläche auf mehreren Seiten angezeigt:
 
-* [Seite &quot;Kundenbearbeitung&quot;](../customers/update-account.md)
-* [Seite &quot;Auftragsansicht&quot;](../stores-purchase/order-processing.md)
-* [Rechnungsansichtsseite](../stores-purchase/invoices.md)
-* [Seite &quot;Versandansicht&quot;](../stores-purchase/shipments.md)
-* [Seite &quot;Credit Memo-Ansicht&quot;](../stores-purchase/credit-memo-create.md)
+* [Seite „Kunden bearbeiten“](../customers/update-account.md)
+* [Seite „Bestellansicht“](../stores-purchase/order-processing.md)
+* [Seite „Rechnungsansicht“](../stores-purchase/invoices.md)
+* [Seite „Lieferungsansicht“](../stores-purchase/shipments.md)
+* [Seite „Gutschriftsansicht“](../stores-purchase/credit-memo-create.md)
 
 ![Als Kunde anmelden](assets/login-as-customer.png){width="600" zoomable="yes"}
 
-## Aktivieren Sie die Anmeldung als Kunde .
+## Anmeldung als Kunde aktivieren
 
-Für die Aktivierung von _Als Kunde anmelden_ müssen Sie die Funktion in Ihrer Commerce-Instanz aktivieren und dann den Zugriff für Admin-Benutzer in den Benutzerrollenberechtigungen aktivieren.
+Für die Aktivierung _Als Kunde anmelden_ müssen Sie die Funktion in Ihrer Commerce-Instanz aktivieren und dann den Zugriff für Admin-Benutzer in den Benutzerrollenberechtigungen aktivieren.
 
 ### Funktion aktivieren
 
-1. Wechseln Sie in der Admin-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der Seitenleiste Admin zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Login as Customer]** aus.
+1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Login as Customer]**.
 
    ![Konfigurationsoptionen - Als Kunde anmelden](../configuration-reference/customers/assets/login-as-customer.png){width="600" zoomable="yes"}
 
-1. Setzen Sie **[!UICONTROL Enable Login as Customer]** auf `Yes`.
+1. Legen Sie **[!UICONTROL Enable Login as Customer]** auf `Yes` fest.
 
-1. _(Optional)_ Legen Sie **[!UICONTROL Disable Page Cache for Admin User]** auf `No` fest, um den Seiten-Cache zu aktivieren, wenn sich der Admin-Benutzer als Kunde anmeldet.
+1. _(Optional)_ Legen Sie **[!UICONTROL Disable Page Cache for Admin User]** auf `No` fest, um den Seitencache zu aktivieren, wenn sich ein Administrator als Kunde anmeldet.
 
    >[!WARNING]
    >
-   > Durch Deaktivieren des Seiten-Caches (`Yes` - Standard) wird sichergestellt, dass der Benutzer, der sich beim Kunden anmeldet, neue, nicht zwischengespeicherte Daten erhält.
+   > Durch Deaktivieren des Seiten-Caches (`Yes` - Standard) wird sichergestellt, dass der Benutzer, der sich als Kunde anmeldet, neue, nicht zwischengespeicherte Daten erhält.
 
-1. _(Optional)_ Legen Sie **[!UICONTROL Store View to Log in]** auf `Manual Selection` fest, wenn Sie eine Multi-Site- und/oder Multi-Store-Einrichtung haben und der Administrator die Store-Ansicht beim Anmelden als Kunde auswählen soll.
+1. _(Optional)_ Legen Sie **[!UICONTROL Store View to Log in]** auf `Manual Selection` fest, wenn Sie eine Einrichtung mit mehreren Sites und/oder mehreren Stores haben und möchten, dass die Admin-Benutzerin bzw. der Admin-Benutzer die Store-Ansicht auswählt, wenn Sie sich als Kundin bzw. Kunde anmelden.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-### Zugriff für Admin-Benutzer aktivieren
+### Aktivieren des Zugriffs für Admin-Benutzer
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _Berechtigungen_ > **[!UICONTROL User Roles]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL System]** > _Berechtigungen_ > **[!UICONTROL User Roles]**.
 
 1. Klicken Sie auf die Rolle in der Liste.
 
-1. Klicken Sie im linken Bereich [!UICONTROL _Rolleninformationen_] auf **[!UICONTROL Role Resources]**.
+1. Klicken Sie [!UICONTROL _linken Bedienfeld_] Rolleninformationen“ auf **[!UICONTROL Role Resources]**.
 
 1. Ändern Sie **[!UICONTROL Role Resources]** auf der Seite in `Custom`.
 
    >[!INFO]
    >
-   > Wenn diese Option aktiviert ist, wird die Ressourcenhierarchie auf der Seite angezeigt.
+   > Wenn diese Option ausgewählt ist, wird die Ressourcenhierarchie auf der Seite angezeigt.
 
-1. Scrollen Sie zum übergeordneten Element **[!UICONTROL Customers]** und zum Element **[!UICONTROL Login as Customer]** darunter. Wählen Sie dann die Ressourcen aus, die Sie für die Rolle aktivieren möchten:
+1. Scrollen Sie zum **[!UICONTROL Customers]** übergeordneten Element und zum **[!UICONTROL Login as Customer]** Element darunter. Wählen Sie dann die Ressourcen aus, die Sie für die Rolle aktivieren möchten:
 
-   * **[!UICONTROL Allow Login as Customer]** - Ermöglicht dem Admin-Benutzer die Verwendung der Funktion _Als Kunde anmelden_ .
-   * **[!UICONTROL View Login as Customer Log]** - Ermöglicht dem Admin-Benutzer, das Protokoll _Als Kunde anmelden_ anzuzeigen.
+   * **[!UICONTROL Allow Login as Customer]** - Ermöglicht es dem Administrator, die Funktion _Als Kunde anmelden_ zu verwenden.
+   * **[!UICONTROL View Login as Customer Log]** - Ermöglicht es dem Admin-Benutzer, das _Als Kunde anmelden_-Protokoll anzuzeigen.
 
    ![Rollenressourcen - Als Kunde anmelden](assets/customers-login-as-customer-role-resources.png){width="400" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Save Role]**.
 
-## Melden Sie sich vom Administrator als Kunde an
+## Melden Sie sich als Kunde über den Administrator an
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > [!UICONTROL _Alle Kunden_].
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > [!UICONTROL _Alle Kunden_].
 
 1. Öffnen Sie einen Benutzer im Bearbeitungsmodus.
 
 1. Wählen Sie im Bedienfeld **[!UICONTROL Customer Information]** den Abschnitt **[!UICONTROL Account Information]** aus.
 
-1. Setzen Sie die **[!UICONTROL Allow remote shopping assistance]** auf `Yes`.
+1. Legen Sie die **[!UICONTROL Allow remote shopping assistance]** auf `Yes` fest.
 
    >[!INFO]
    >
-   >Der Administrator kann sich jetzt als Benutzer ohne seine Berechtigung von der Storefront aus anmelden.
+   >Der Administrator kann sich jetzt ohne seine Berechtigung von der Storefront aus als Benutzer anmelden.
 
-## Berechtigung für Kundenkonto für Remote-Shopping-Hilfe
+## Kundenkonto-Berechtigung für Unterstützung beim Remote-Shopping
 
-Um den Kontozugriff für Mitarbeiter des Store-Supports über den Administrator zu aktivieren, muss ein Kunde die Funktion für sein Konto aktivieren:
+Um den Kontozugriff für Mitarbeiter des Store-Supports über die Admin zu aktivieren, muss eine Kundin oder ein Kunde die Funktion für ihr Konto aktivieren:
 
-1. Der Kunde besucht die Seite &quot;**[!UICONTROL Account Information]**&quot;.
+1. Der Kunde navigiert zur Seite **[!UICONTROL Account Information]** .
 
 1. Aktiviert das Kontrollkästchen **[!UICONTROL Allow remote shopping assistance]** .
 
 1. Der Kunde klickt auf **[!UICONTROL Save]**.
 
-![Seite mit Kontoinformationen](assets/permission.png){width="700" zoomable="yes"}
+![Kontoinformationsseite](assets/permission.png){width="700" zoomable="yes"}
 
 >[!WARNING]
 >
->Ohne diese Berechtigung kann sich ein Administrator nicht als dieser Kunde anmelden.
+>Ohne diese Berechtigung kann sich ein Admin-Benutzer nicht als dieser Kunde anmelden.
 
-## Als Kunde anmelden
+## Anmeldung als Kunde verwenden
 
 >[!INFO]
 >
 >Um _Als Kunde anmelden_ zu verwenden, stellen Sie sicher, dass Ihr Administrator wie zuvor beschrieben konfiguriert ist.
 
-Mit _Als Kunde anmelden_ können Sie die Site genau so anzeigen, wie der Kunde es tut, und Sie können Fehler beheben und andere Aktionen für den Kunden durchführen. Wenn Sie über eine zugewiesene Benutzerrolle mit den erforderlichen Berechtigungen verfügen:
+_Als Kunde anmelden_ ermöglicht es Ihnen, die Site so anzuzeigen, wie es der Kunde tut, und ermöglicht es Ihnen, eine Fehlerbehebung durchzuführen und andere Aktionen für den Kunden durchzuführen. Wenn Ihnen eine Benutzerrolle mit den erforderlichen Berechtigungen zugewiesen wurde:
 
-1. Sie können auf den im vorherigen Abschnitt aufgelisteten Seiten auf &quot;**[!UICONTROL Login as Customer]**&quot;klicken.
-1. Die Aktionen Als Kunde anmelden sind im Aktionsbericht verfügbar.
+1. Sie können auf den im vorherigen Abschnitt aufgelisteten Seiten auf **[!UICONTROL Login as Customer]** klicken.
+1. Die Aktionen Anmelden als Kunde sind im Aktionsbericht verfügbar.
 
 >[!WARNING]
 >
->Alle Aktionen, die bei der Anmeldung bei [!UICONTROL _als Kunde_] durchgeführt werden (z. B. Produkte hinzufügen/entfernen), werden auf die tatsächliche Bestellung des Kunden angewendet. Auf der Storefront wird ein Banner angezeigt, wenn Sie `logged in as customer_name` sind, um eine Erinnerung an den speziellen Status zu geben.
+>Alle Aktionen, die während der Anmeldung [!UICONTROL _als Kunde_] durchgeführt werden (z. B. Hinzufügen/Entfernen von Produkten), werden auf die Bestellung des tatsächlichen Kunden angewendet. In der Storefront wird ein Banner angezeigt, wenn Sie an den speziellen Status erinnern `logged in as customer_name`.
 
 ## Als Kundenprotokollierung anmelden
 
 {{ee-feature}}
 
-Adobe Commerce stellt eine Protokollierung für die Aktionen _Als Kunde anmelden_ bereit. Er listet alle Sitzungen auf, in denen ein Admin-Benutzer auf die Funktion zugreift. Um auf die protokollierten Aktionen zuzugreifen, gehen Sie zum Bericht [Admin-Aktionen](../systems/action-log-report.md).
+Adobe Commerce stellt eine Protokollierung für die Aktionen _Als Kunde anmelden_ bereit. Es werden alle Sitzungen aufgelistet, bei denen ein Administrator auf die Funktion zugreift. Um auf die protokollierten Aktionen zuzugreifen, gehen Sie zum [Admin-](../systems/action-log-report.md)&quot;.
 
-Sie können die Berichtseinstellung **[!UICONTROL Action Group]** nach `Login As Customer` oben auf der Seite filtern und auf **[!UICONTROL Search]** klicken.
+Sie können die Berichtseinstellung so filtern, **[!UICONTROL Action Group]** oben auf der Seite `Login As Customer` und auf **[!UICONTROL Search]** geklickt wird.
 
-![Den Aktionsbericht filtern](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}
+![Filtern Sie den Aktionsbericht](assets/customers-login-as-customer-log-filter.png){width="700" zoomable="yes"}

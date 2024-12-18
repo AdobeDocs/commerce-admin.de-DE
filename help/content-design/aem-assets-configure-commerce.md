@@ -1,6 +1,6 @@
 ---
 title: Installieren und Konfigurieren der Experience Manager Assets-Integration
-description: Erfahren Sie, wie Sie [!DNL AEM Assets Integration for Adobe Commerce] auf einer Adobe Commerce-Instanz installieren und konfigurieren.
+description: Erfahren Sie, wie Sie das  [!DNL AEM Assets Integration for Adobe Commerce]  auf einer Adobe Commerce-Instanz installieren und konfigurieren.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
 source-git-commit: 5e3de8e9b99c864e5650c59998e518861ca106f5
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/aem-assets-integration-beta-note.md}}
 
-Bereiten Sie Ihre Commerce-Umgebung auf die Verwendung der AEM Assets-Integration für Commerce vor, indem Sie die PHP-Erweiterung `aem-assets-integration` installieren. Aktualisieren Sie dann die Admin-Konfiguration, um die Kommunikation und Workflows zwischen Adobe Commerce und AEM Assets zu aktivieren.
+Bereiten Sie Ihre Commerce-Umgebung auf die Verwendung der AEM Assets-Integration für Commerce vor, indem Sie die `aem-assets-integration` PHP-Erweiterung installieren. Aktualisieren Sie dann die Admin-Konfiguration, um die Kommunikation und Workflows zwischen Adobe Commerce und AEM Assets zu ermöglichen.
 
 ## Systemanforderungen
 
@@ -24,73 +24,73 @@ Für die AEM Assets-Integration für Commerce gelten die folgenden System- und K
 
 - Adobe Commerce 2.4.5+
 - PHP 8.1, 8.2, 8.3
-- Verfasser: 2.x
+- Komponist: 2.x
 
 **Konfigurationsanforderungen**
 
-- Adobe Commerce muss für die Verwendung der [Adobe IMS-Authentifizierung](/help/getting-started/adobe-ims-config.md) konfiguriert sein.
+- Adobe Commerce muss für die Verwendung von [Adobe IMS-Authentifizierung](/help/getting-started/adobe-ims-config.md) konfiguriert werden.
 - Kontobereitstellung und Berechtigungen
-   - [Commerce-Cloud-Projekt-Administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - Installieren Sie die erforderlichen Erweiterungen und konfigurieren Sie den Commerce-Anwendungsserver über den Admin oder die Befehlszeile
-   - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview) - Aktualisieren der Speicherkonfiguration und Verwalten von Commerce-Benutzerkonten
+   - [Commerce Cloud Project-Administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - Installieren Sie die erforderlichen Erweiterungen und konfigurieren Sie den Commerce-Anwendungsserver über den Administrator oder die Befehlszeile
+   - [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview): Aktualisieren der Store-Konfiguration und Verwalten von Commerce-Benutzerkonten
 
 ## Konfigurationsübersicht
 
 Aktivieren Sie die Integration, indem Sie die folgenden Aufgaben ausführen:
 
-1. [Installieren Sie die AEM Assets Integration-Erweiterung (`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
-1. [Konfigurieren Sie den Commerce Services Connector](#configure-the-commerce-services-connector), um Ihre Adobe Commerce-Instanz mit den Diensten zu verbinden, die die Übertragung von Daten zwischen Adobe Commerce und AEM Assets ermöglichen.
-1. [Adobe I/O-Ereignisse für Commerce konfigurieren](#configure-adobe-io-events-for-commerce)
-1. [Abrufen von Authentifizierungsberechtigungen für den API-Zugriff](#get-authentication-credentials-for-api-access)
+1. [Installieren der AEM Assets-Integrationserweiterung (`aem-assets-integration`)](#install-the-aem-assets-integration-extension).
+1. [Konfigurieren Sie den Commerce Services Connector](#configure-the-commerce-services-connector), um Ihre Adobe Commerce-Instanz und mit den Services zu verbinden, die die Übertragung von Daten zwischen Adobe Commerce und AEM Assets ermöglichen.
+1. [Konfigurieren von Adobe I/O-Ereignissen für Commerce](#configure-adobe-io-events-for-commerce)
+1. [Abrufen von Authentifizierungsdaten für API-Zugriff](#get-authentication-credentials-for-api-access)
 
-## Installieren der AEM Assets Integration-Erweiterung
+## Installieren der AEM Assets-Integrationserweiterung
 
 >[!BEGINSHADEBOX]
 
 **Voraussetzung**
 
-- Rufen Sie [repo.magento.com](https://repo.magento.com/admin/dashboard) auf, um die Erweiterung zu installieren.
+- Greifen Sie auf [repo.magento.com](https://repo.magento.com/admin/dashboard) zu, um die Erweiterung zu installieren.
 
-  Informationen zur Schlüsselgenerierung und zum Abrufen der erforderlichen Berechtigungen finden Sie unter [Abrufen Ihrer Authentifizierungsschlüssel](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Informationen zu Cloud-Installationen finden Sie im [Commerce on Cloud Infrastructure Guide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+  Informationen zum Generieren von Schlüsseln und zum Abrufen der erforderlichen Berechtigungen finden Sie unter [Abrufen Ihrer Authentifizierungsschlüssel](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Informationen zu Cloud-Installationen finden Sie im Handbuch [Commerce on Cloud Infrastructure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
 
 - Zugriff auf die Befehlszeile des Adobe Commerce-Anwendungsservers.
 
 >[!ENDSHADEBOX]
 
-Installieren Sie die neueste Version der AEM Assets Integration-Erweiterung (`aem-assets-integration`) auf einer Adobe Commerce-Instanz mit der Version Adobe Commerce 2.4.5+. Die AEM Asset-Integration wird als Composer-Metapaket vom Repository [repo.magento.com](https://repo.magento.com/admin/dashboard) bereitgestellt.
+Installieren Sie die neueste Version der AEM Assets-Integrationserweiterung (`aem-assets-integration`) auf einer Adobe Commerce-Instanz mit Version Adobe Commerce 2.4.5+. Die AEM Asset-Integration wird als Composer-Metapaket aus dem Repository [repo.magento.com](https://repo.magento.com/admin/dashboard) bereitgestellt.
 
 >[!BEGINTABS]
 
 >[!TAB Cloud-Infrastruktur]
 
-Verwenden Sie diese Methode, um die [!DNL AEM Assets Integration] -Erweiterung für eine Commerce Cloud-Instanz zu installieren.
+Verwenden Sie diese Methode, um die [!DNL AEM Assets Integration]-Erweiterung für eine Commerce Cloud-Instanz zu installieren.
 
-1. Wechseln Sie auf Ihrer lokalen Workstation zum Projektverzeichnis für Ihr Adobe Commerce-Projekt in der Cloud-Infrastruktur-Projekt.
+1. Wechseln Sie auf Ihrer lokalen Workstation in das Projektverzeichnis für Ihr Adobe Commerce on Cloud-Infrastrukturprojekt.
 
    >[!NOTE]
    >
-   >Informationen zum lokalen Verwalten von Commerce-Projektumgebungen finden Sie unter [Verwalten von Verzweigungen mit der CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) im _Benutzerhandbuch zu Adobe Commerce on Cloud Infrastructure_.
+   >Informationen zur lokalen Verwaltung von Commerce-Projektumgebungen finden Sie unter [Verwalten von Verzweigungen mit der CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) im _Benutzerhandbuch für Adobe Commerce auf Cloud-Infrastruktur_.
 
-1. Sehen Sie sich die Umgebungsverzweigung an, die mit der Adobe Commerce Cloud-CLI aktualisiert werden soll.
+1. Checken Sie die Umgebungsverzweigung aus, um sie mithilfe der Adobe Commerce Cloud-CLI zu aktualisieren.
 
    ```shell
    magento-cloud environment:checkout <environment-id>
    ```
 
-1. Fügen Sie die AEM Assets Integration for Commerce -Erweiterung hinzu.
+1. Fügen Sie die Erweiterung AEM Assets Integration for Commerce hinzu.
 
    ```shell
    composer require "magento/aem-assets-integration" "<version-tbd>" --no-update
    ```
 
-1. Aktualisieren Sie Package-Abhängigkeiten.
+1. Paketabhängigkeiten aktualisieren.
 
    ```shell
    composer update "magento/aem-assets-integration"
    ```
 
-1. Übernehmen und pushen Sie Code-Änderungen für die Dateien `composer.json` und `composer.lock`.
+1. Code-Änderungen für `composer.json` und `composer.lock` übertragen und übertragen.
 
-1. Fügen Sie die Codeänderungen für die Dateien `composer.json` und `composer.lock` hinzu, übertragen Sie sie und übertragen Sie sie in die Cloud-Umgebung.
+1. Fügen Sie die Code-Änderungen für die `composer.json`- und `composer.lock`-Dateien hinzu, übertragen Sie sie und übertragen Sie sie in die Cloud-Umgebung.
 
    ```shell
    git add -A
@@ -98,13 +98,13 @@ Verwenden Sie diese Methode, um die [!DNL AEM Assets Integration] -Erweiterung f
    git push origin <branch-name>
    ```
 
-   Durch das Übermitteln der Aktualisierungen wird der [Commerce-Cloud-Bereitstellungsprozess](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) initiiert, um die Änderungen anzuwenden. Überprüfen Sie den Bereitstellungsstatus im [Bereitstellungsprotokoll](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Durch das Pushen der Aktualisierungen wird der [Commerce-Cloud-Bereitstellungsprozess](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) zum Anwenden der Änderungen initiiert. Überprüfen Sie den Bereitstellungsstatus im [Bereitstellungsprotokoll](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
->[!TAB On-premise]
+>[!TAB On-Premises]
 
-Verwenden Sie diese Methode, um die Erweiterung [!DNL AEM Assets Integration] für eine lokale Instanz zu installieren.
+Verwenden Sie diese Methode, um die [!DNL AEM Assets Integration]-Erweiterung für eine lokale Instanz zu installieren.
 
-1. Verwenden Sie Composer, um Ihrem Projekt die AEM Assets Integration für Commerce-Erweiterung hinzuzufügen:
+1. Verwenden Sie Composer, um Ihrem Projekt die Erweiterung AEM Assets Integration for Commerce hinzuzufügen:
 
    ```shell
    composer require "magento/aem-assets-integration" --no-update
@@ -116,7 +116,7 @@ Verwenden Sie diese Methode, um die Erweiterung [!DNL AEM Assets Integration] f�
    composer update  "magento/aem-assets-integration"
    ```
 
-1. Upgrade von Adobe Commerce:
+1. Adobe Commerce aktualisieren:
 
    ```shell
    bin/magento setup:upgrade
@@ -130,98 +130,98 @@ Verwenden Sie diese Methode, um die Erweiterung [!DNL AEM Assets Integration] f�
 
 >[!TIP]
 >
->Bei der Bereitstellung in der Produktion sollten Sie den kompilierten Code nicht löschen, um Zeit zu sparen. Sichern Sie Ihr System immer, bevor Sie Änderungen vornehmen.
+>Wenn Sie in der Produktion bereitstellen, sollten Sie den kompilierten Code nicht löschen, um Zeit zu sparen. Erstellen Sie immer eine Systemsicherung, bevor Sie Änderungen vornehmen.
 
 >[!ENDTABS]
 
-## Konfigurieren von Commerce Services Connector
+## Konfigurieren des Commerce Services-Connectors
 
-Der Commerce Services Connector ermöglicht die Datensynchronisation und Kommunikation zwischen der Commerce-Instanz, dem Asset Rule Engine-Dienst und anderen unterstützenden Diensten.
+Der Commerce Services Connector ermöglicht die Datensynchronisation und Kommunikation zwischen der Commerce-Instanz, dem Asset Rule Engine Service und anderen unterstützenden Services.
 
 >[!NOTE]
 >
->Die Einrichtung des Commerce Services Connector ist ein einmaliger Prozess, der für die Verwendung von [Adobe Commerce SaaS-Diensten](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#availableservices) erforderlich ist. Wenn Sie den Connector bereits für einen anderen Dienst konfiguriert haben, können Sie die vorhandene Konfiguration über den Commerce-Administrator anzeigen, indem Sie **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]** auswählen.
+>Die Einrichtung des Commerce Services-Connectors ist ein einmaliger Prozess, der für die Verwendung von [Adobe Commerce SaaS-Services erforderlich ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#availableservices). Wenn Sie den Connector bereits für einen anderen Service konfiguriert haben, können Sie die vorhandene Konfiguration über den Commerce-Admin anzeigen, indem Sie **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]** auswählen.
 
-Um Daten zwischen Ihrer Adobe Commerce-Instanz und den Diensten zu übertragen, die die AEM Assets-Integration aktivieren, konfigurieren Sie den Commerce Services Connector wie folgt:
+Um Daten zwischen Ihrer Adobe Commerce-Instanz und den Services zu übertragen, die die AEM Assets-Integration aktivieren, konfigurieren Sie den Commerce Services Connector wie folgt:
 
 - Produktions- und Sandbox-API-Schlüssel für die Authentifizierung.
-- Richten Sie einen Datenraum (SaaS-Kennung) für sicheren Cloud-Speicher ein.
-- Geben Sie die IMS-Organisations-ID an, in der Ihre Commerce- und AEM Assets-Umgebungen bereitgestellt sind.
+- Richten Sie einen Datenspeicher (SaaS-Kennung) für eine sichere Cloud-Datenspeicherung ein.
+- Geben Sie die IMS-Organisations-ID an, unter der Ihre Commerce- und AEM Assets-Umgebungen bereitgestellt werden.
 
 Detaillierte Anweisungen finden Sie unter [Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#organizationid).
 
-Nachdem Sie den Commerce Services Connector konfiguriert haben, generiert das System die SaaS-Projekt- und Datenbank-IDs, die die sichere Cloud-Speicher-Umgebung für Ihre Commerce-Services identifizieren und die IDs in der Admin-Konfiguration anzeigen. Diese Werte sind erforderlich, um den Onboarding-Prozess für die Asset-Synchronisierung abzuschließen.
+Nachdem Sie den Commerce Services-Connector konfiguriert haben, generiert das System die SaaS-Projekt- und Datenbank-IDs, die die sichere Cloud-Speicherumgebung für Ihre Commerce Services identifizieren und die IDs in der Admin-Konfiguration anzeigen. Diese Werte sind erforderlich, um den Onboarding-Prozess für die Synchronisierung von Assets abzuschließen.
 
-![Speichern von Projekt- und Datenspeicherungs-IDs für die AEM Assets-Integration](assets/aem-saas-project-config.png){width="600" zoomable="yes"}
+![SaaS-Projekt- und Datenspeicher-IDs für die AEM Assets-Integration](assets/aem-saas-project-config.png){width="600" zoomable="yes"}
 
-## Adobe I/O-Ereignisse für Commerce konfigurieren
+## Konfigurieren von Adobe I/O-Ereignissen für Commerce
 
-Die AEM Assets-Integration verwendet den Adobe I/O Events-Dienst, um benutzerdefinierte Ereignisdaten zwischen der Commerce-Instanz und der Experience Cloud zu senden. Die Ereignisdaten werden zur Koordinierung der Workflows für die AEM Assets-Integration verwendet.
+Die AEM Assets-Integration verwendet den Adobe I/O-Ereignisdienst, um benutzerdefinierte Ereignisdaten zwischen der Commerce-Instanz und Experience Cloud zu senden. Die Ereignisdaten werden zur Koordinierung von Workflows für die AEM Assets-Integration verwendet.
 
 >[!BEGINSHADEBOX]
 
 **Voraussetzung**
 
 - Stellen Sie sicher, dass RabbitMQ aktiviert ist und auf Ereignisse wartet.
-   - [RabbitMQ-Einrichtung für Adobe Commerce in lokalen Betrieben](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-   - [RabbitMQ-Einrichtung für Adobe Commerce in der Cloud-Infrastruktur](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
-   - Stellen Sie sicher, dass [cron-Aufträge aktiviert sind](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Cron-Aufträge sind für die Kommunikation und Workflows für die AEM Assets-Integration erforderlich.
+   - [RabbitMQ-Setup für Adobe Commerce On-Premise](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - [RabbitMQ-Setup für Adobe Commerce in der Cloud-Infrastruktur](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/rabbitmq)
+   - Stellen Sie sicher[ dass Cron-Aufträge aktiviert ](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/#check-cron-and-message-queue-configuration). Cron-Aufträge sind für die Kommunikation und Workflows für die AEM Assets-Integration erforderlich.
 
 >[!NOTE]
 >
-> Für Projekte mit Commerce-Version 2.4.5 müssen Sie [die Adobe I/O-Module installieren](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). Ab Commerce-Version 2.4.6 werden diese Module automatisch geladen. Für die AEM Assets-Integration für Commerce müssen Sie nur die Module installieren. Die Einrichtung von App Builder ist nicht erforderlich.
+> Für Projekte mit Commerce Version 2.4.5 müssen Sie [die Adobe I/O-Module installieren](https://developer.adobe.com/commerce/extensibility/events/installation/#install-adobe-io-modules-on-commerce). In Commerce ab Version 2.4.6 werden diese Module automatisch geladen. Für die AEM Assets-Integration für Commerce müssen Sie nur die -Module installieren. App Builder-Setup ist nicht erforderlich.
 
 >[!ENDSHADEBOX]
 
-### Aktivieren des Commerce Eventframework
+### Aktivieren des Commerce Eventing-Frameworks
 
-Aktivieren Sie das Eventing-Framework über den Commerce-Administrator.
+Aktivieren Sie das Ereignis-Framework über den Commerce-Administrator.
 
-1. Navigieren Sie vom Administrator zu **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O Events**.
+1. Navigieren Sie vom Administrator aus zu **[!UICONTROL Stores]** > [!UICONTROL Settings] > **[!UICONTROL Configuration]** > **[!UICONTROL Adobe Services]** > **Adobe I/O-Ereignisse**.
 
 1. Erweitern Sie **[!UICONTROL Commerce events]**.
 
-1. Setzen Sie **[!UICONTROL Enabled]** auf `Yes`.
+1. Legen Sie **[!UICONTROL Enabled]** auf `Yes` fest.
 
-   ![Adobe I/O Events Commerce Admin-Konfiguration - Aktivieren von Commerce-Ereignissen](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
+   ![Adobe I/O-Ereignisse Commerce-Admin-Konfiguration - Commerce-Ereignisse aktivieren](assets/aem-enable-io-event-admin-config.png){width="600" zoomable="yes"}
 
-1. Geben Sie den Namen des Händlers in die Felder **[!UICONTROL Merchant ID]** und den Umgebungsnamen in **[!UICONTROL Environment ID]** ein. Verwenden Sie beim Festlegen dieser Werte nur alphanumerische Zeichen und Unterstriche.
+1. Geben Sie den Namen des Händlerunternehmens in die **[!UICONTROL Merchant ID]** und den Umgebungsnamen in **[!UICONTROL Environment ID]** Felder ein. Verwenden Sie beim Festlegen dieser Werte nur alphanumerische Zeichen und Unterstriche.
 
-## Abrufen von Authentifizierungsberechtigungen für den API-Zugriff
+## Abrufen von Authentifizierungsdaten für API-Zugriff
 
-Für die AEM Assets-Integration für Commerce sind OAuth-Authentifizierungsberechtigungen erforderlich, um API-Zugriff auf die Commerce-Instanz zu ermöglichen. Diese Anmeldeinformationen sind erforderlich, um API-Anfragen bei der Verwaltung von Assets mithilfe der AEM Assets-Integration zu authentifizieren.
+Die AEM Assets-Integration für Commerce erfordert OAuth-Authentifizierungsberechtigungen, um API-Zugriff auf die Commerce-Instanz zu ermöglichen. Diese Anmeldeinformationen sind erforderlich, um API-Anfragen zu authentifizieren, wenn Sie Assets mit der AEM Assets-Integration verwalten.
 
-Sie generieren die Anmeldeinformationen, indem Sie die Integration zur Commerce-Instanz hinzufügen und sie aktivieren.
+Sie generieren die Anmeldeinformationen, indem Sie die Integration zur Commerce-Instanz hinzufügen und aktivieren.
 
 ### Integration zur Commerce-Umgebung hinzufügen
 
-1. Wechseln Sie vom Administrator zu **System** > Erweiterungen > **Integrationen** und klicken Sie dann auf **Neue Integration hinzufügen**.
+1. Gehen Sie von der Admin aus zu **System** > Erweiterungen > **Integrationen** und klicken Sie dann auf **Neue Integration hinzufügen**.
 
 1. Geben Sie Informationen zur Integration ein.
 
-   Geben Sie im Abschnitt **Allgemein** nur die Integration **Name** und **E-Mail** an. Verwenden Sie die E-Mail für ein Adobe IMS-Konto mit Zugriff auf die Organisation, in der Commerce und Experience Manager Assets bereitgestellt werden.
+   Geben Sie im Abschnitt **Allgemein** nur die Integration **Name** und **Email** an. Verwenden Sie die E-Mail-Adresse für ein Adobe IMS-Konto mit Zugriff auf das Unternehmen, in dem Commerce und Experience Manager Assets bereitgestellt werden.
 
-   ![AEM Assets-Integration für die Commerce-Admin-Konfiguration](assets/aem-add-commerce-integration.png){width="600" zoomable="yes"}
+   ![AEM Assets-Integration für Commerce-Admin-Konfiguration](assets/aem-add-commerce-integration.png){width="600" zoomable="yes"}
 
 1. Überprüfen Sie Ihre Identität, indem Sie auf **Identität bestätigen** klicken.
 
-   Das System überprüft Ihre Identität, indem es sich bei der Experience Cloud mit Ihrer Adobe-ID authentifiziert.
+   Das System überprüft Ihre Identität, indem es sich mit Ihrer Adobe-ID beim Experience Cloud authentifiziert.
 
-1. API-Ressourcen konfigurieren
+1. Konfigurieren von API-Ressourcen.
 
-   1. Klicken Sie im linken Bereich auf **[!UICONTROL API]**.
+   1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL API]**.
 
-   1. Wählen Sie die externe Medienressource **[!UICONTROL Catalog > Inventory > Products > External Media]** aus.
+   1. Wählen Sie die **[!UICONTROL Catalog > Inventory > Products > External Media]** Externe Medienressource aus.
 
-      ![Konfiguration der Admin-Integration für API-Ressourcen](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
+      ![Admin-Integrationskonfiguration für API-Ressourcen](assets/aem-commerce-integration-api-resources.png){width="600" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
 ### Anmeldeinformationen generieren
 
-Generieren Sie auf der Seite Integrationen die OAuth-Authentifizierungsberechtigungen, indem Sie für die Assets-Integration auf **Aktivieren** klicken. Sie benötigen diese Anmeldeinformationen, um das Commerce-Projekt beim Assets Rule Engine-Dienst zu registrieren und API-Anfragen zum Verwalten von Assets zwischen Adobe Commerce und AEM Assets zu senden.
+Generieren Sie auf der Seite Integrationen die OAuth-Authentifizierungsberechtigungen, indem Sie für **Assets-Integration auf** Aktivieren“ klicken. Sie benötigen diese Anmeldeinformationen, um das Commerce-Projekt beim Assets Rule Engine Service zu registrieren und API-Anfragen zum Verwalten von Assets zwischen Adobe Commerce und AEM Assets zu senden.
 
-1. Generieren Sie auf der Seite Integrationen die Anmeldeinformationen durch Klicken auf **[!UICONTROL Activate]**.
+1. Generieren Sie auf der Seite Integrationen die Anmeldeinformationen, indem Sie auf **[!UICONTROL Activate]** klicken.
 
    ![Aktivieren der Commerce-Konfiguration für die Assets-Integration](assets/aem-activate-commerce-integration.png){width="600" zoomable="yes"}
 
@@ -233,4 +233,4 @@ Generieren Sie auf der Seite Integrationen die OAuth-Authentifizierungsberechtig
 
 >[!NOTE]
 >
->Sie können auch Authentifizierungsberechtigungen mithilfe der Adobe Commerce-APIs generieren. Weitere Informationen zu diesem Vorgang und weitere Informationen zur OAuth-basierten Authentifizierung für Adobe Commerce finden Sie unter [OAuth-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in der Adobe Developer-Dokumentation.
+>Sie können Authentifizierungsdaten auch mithilfe der Adobe Commerce-APIs generieren. Weitere Informationen zu diesem Prozess und weitere Informationen zur OAuth-basierten Authentifizierung für Adobe Commerce finden Sie unter [OAuth-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in der Dokumentation zu Adobe Developer.

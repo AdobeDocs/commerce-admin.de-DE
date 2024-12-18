@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Sales] &gt; [!UICONTROL Tax]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Sales] &gt; [!UICONTROL Tax] des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Sales] &gt; [!UICONTROL Tax] des Commerce Admin-Bereichs.
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
 source-git-commit: f95e6d22f83b518c64b254f0d98147e3c6ebaf42
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source enthielten die vom Vertex-Anbieter entwickelte Erweiterung, die zur Integration in den [!UICONTROL Vertex Cloud] verwendet wurde. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Paket mit der Kernversion enthalten und muss über die Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
+>Die Adobe Commerce- und Magento Open Source-Versionen 2.4.0 bis 2.4.3 enthielten die von Vertex entwickelte Erweiterung, die zur Integration mit dem [!UICONTROL Vertex Cloud] verwendet wurde. Ab Version 2.4.4 ist diese Erweiterung nicht mehr mit der Hauptversion gebündelt und muss von der Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
 ><br><br>
->Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Composer.json-Datei im Rahmen des Aktualisierungsprozesses von 2.4.4 aktualisieren und zukünftige Erweiterungs-Updates verwalten. Weitere Informationen finden Sie unter [Upgrade-Module und -Erweiterungen](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Upgrade-Handbuch_.
+>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Weitere Informationen [ Sie unter „Upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)Module und -Erweiterungen“ _„Upgrade-Handbuch_.
 
 {{config}}
 
@@ -24,14 +24,14 @@ ht-degree: 0%
 
 ![Steuerklassen](./assets/tax-tax-classes.png)<!-- zoom -->
 
-Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Steuerklassen](../../stores-purchase/tax-class.md) im _Erlebnis-Handbuch für Geschäfte und Kauf_.
+Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Steuerklassen](../../stores-purchase/tax-class.md) im Handbuch _Stores und Kauferlebnis_.
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Tax Class for Shipping] | Webseite | Gibt die für den Versand verwendete Steuerklasse an. Zu den Optionen gehören alle verfügbaren Produktsteuerklassen: `None` / `Taxable Goods` / `Shipping` / `Tax Exempt` |
-| [!UICONTROL Tax Class for Gift Options] | Webseite | ![Adobe Commerce](../../assets/adobe-logo.svg) (nur Adobe Commerce) Gibt die Standardsteuerklasse an, die für Geschenkoptionen verwendet wird. |
-| [!UICONTROL Default Tax Class for Product] | Global | Gibt die für Produkte verwendete Standardsteuerklasse an. |
-| [!UICONTROL Default Tax Class for Customer] | Global | Gibt die Standardsteuerklasse an, die für Kunden verwendet wird. |
+| [!UICONTROL Tax Class for Shipping] | Website | Gibt die Steuerklasse an, die für den Versand verwendet wird. Die Optionen umfassen alle verfügbaren Produktsteuerklassen: `None` / `Taxable Goods` / `Shipping` / `Tax Exempt` |
+| [!UICONTROL Tax Class for Gift Options] | Website | ![Adobe Commerce](../../assets/adobe-logo.svg) (nur Adobe Commerce) Gibt die standardmäßige Steuerklasse an, die für Geschenkoptionen verwendet wird. |
+| [!UICONTROL Default Tax Class for Product] | Global | Gibt die standardmäßige Steuerklasse an, die für Produkte verwendet wird. |
+| [!UICONTROL Default Tax Class for Customer] | Global | Gibt die standardmäßige Steuerklasse an, die für Debitoren verwendet wird. |
 
 {style="table-layout:auto"}
 
@@ -41,26 +41,26 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Steuerk
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | Webseite | Bestimmt die Methode zur Berechnung der Steuer für eine Bestellung. Optionen:<br/>**`Unit Price`**- Steuerberechnungen basieren auf dem Stückpreis jedes Produkts.<br/>**`Row Total`** - Steuerberechnungen basieren auf der Zeileneintrag &quot;Summe&quot;. <br/>**`Total`**- Steuerberechnungen basieren auf der Bestellsumme.<br/><br/>_** Hinweis: **_Wenn vom Marketplace eine Erweiterung für die Steuerberechnung installiert wird, z. B. _Vertex Cloud_, wird der Erweiterungsdienst als Option aufgelistet. |
-| [!UICONTROL Tax Calculation Based On] | Webseite | Bestimmt, ob die Steuerberechnung auf der Lieferadresse, der Rechnungsadresse oder dem Versandursprung basiert. Optionen: `Shipping Address` / `Billing Address` / `Shipping Origin` |
-| [!UICONTROL Catalog Prices] | Webseite | Bestimmt, ob die Katalogpreise Steuern enthalten oder ausschließen. Optionen: `Excluding Tax` / `Including Tax` |
-| [!UICONTROL Shipping Prices] | Webseite | Die Bestimmung der Versandpreise schließt die Steuer ein oder schließt sie aus. Optionen: `Excluding Tax` / `Including Tax` |
-| [!UICONTROL Apply Customer Tax] | Webseite | Bestimmt, ob die Steuer vor oder nach einem Rabatt angewendet wird. Optionen: `Before Discount` / `After Discount` |
-| [!UICONTROL Apply Discount on Prices] | Webseite | Bestimmt, ob Abzinsungspreise Steuern enthalten oder ausschließen. Optionen: `Excluding Tax` / `Including Tax` |
-| [!UICONTROL Apply Tax On] | Webseite | Bestimmt, ob die Steuer auf den ursprünglichen Preis oder gegebenenfalls auf einen benutzerdefinierten Preis angewendet wird. Optionen: `Custom price if available` / `Original price only` |
-| [!UICONTROL Enable Cross Border Trade] | Webseite | Wenn diese Option aktiviert ist, wird eine konsistente Preisgestaltung grenzüberschreitend in Regionen mit unterschiedlichen Steuersätzen angewendet. Optionen: `Yes` / `No` <br/><br/>**_Hinweis:_**Durch die Verwendung des grenzüberschreitenden Handels wird die Gewinnspanne nach Steuersatz angepasst. |
+| [!UICONTROL Tax Calculation Method Based On] | Website | Bestimmt die Methode, die zur Berechnung der Steuer für einen Auftrag verwendet wird. Optionen: <br/>**`Unit Price`**- Steuerberechnungen basieren auf dem Einheitspreis jedes Produkts.<br/>**`Row Total`** - Steuerberechnungen basieren auf der Zeileneintragssumme. <br/>**`Total`**- Steuerberechnungen basieren auf der Bestellsumme.<br/><br/>_** Hinweis:**_Wenn eine Steuerberechnungserweiterung vom Marketplace installiert wird, z. B. _Vertex Cloud_, wird der Erweiterungsdienst als Option aufgeführt. |
+| [!UICONTROL Tax Calculation Based On] | Website | Bestimmt, ob die Steuerberechnung auf der Lieferadresse, der Rechnungsadresse oder der Versandherkunft basiert. Optionen: `Shipping Address` / `Billing Address` / `Shipping Origin` |
+| [!UICONTROL Catalog Prices] | Website | Legt fest, ob Katalogpreise Steuern enthalten oder nicht. Optionen: `Excluding Tax` / `Including Tax` |
+| [!UICONTROL Shipping Prices] | Website | Bestimmt in den Versandpreisen inklusive oder exklusive Steuer. Optionen: `Excluding Tax` / `Including Tax` |
+| [!UICONTROL Apply Customer Tax] | Website | Bestimmt, ob vor oder nach einem Rabatt eine Steuer erhoben wird. Optionen: `Before Discount` / `After Discount` |
+| [!UICONTROL Apply Discount on Prices] | Website | Bestimmt, ob Rabattpreise Steuern enthalten oder nicht. Optionen: `Excluding Tax` / `Including Tax` |
+| [!UICONTROL Apply Tax On] | Website | Legt fest, ob die Steuer auf den ursprünglichen Preis oder, falls verfügbar, auf einen benutzerdefinierten Preis angewendet wird. Optionen: `Custom price if available` / `Original price only` |
+| [!UICONTROL Enable Cross Border Trade] | Website | Wenn diese Option aktiviert ist, wird eine konsistente Preisgestaltung über Grenzen von Regionen mit unterschiedlichen Steuersätzen hinweg angewendet. Optionen: `Yes` / `No` <br/><br/>**_Hinweis:_**Bei grenzüberschreitendem Handel wird die Gewinnspanne nach Steuersatz angepasst. |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Default Tax Destination Calculation]
 
-![Berechnung des steuerlichen Ziels ](./assets/tax-default-tax-destination-calculation.png)<!-- zoom -->
+![Standardmäßige Zielberechnung der Steuer](./assets/tax-default-tax-destination-calculation.png)<!-- zoom -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Default Country] | Store-Ansicht | Bestimmt das Land, auf dem die Steuerberechnungen basieren. |
-| [!UICONTROL Default State] | Store-Ansicht | Bestimmt den Status, auf dem Steuerberechnungen basieren. Ein Sternchen (*) kann als Platzhalter dienen, der alle Staaten im ausgewählten Land angibt. |
-| [!UICONTROL Default Post Code] | Store-Ansicht | Gibt die Postleitzahl oder Postleitzahl an, auf der die Steuerberechnungen basieren. Ein Sternchen (*) kann als Platzhalter dienen, der alle Postleitzahlen im ausgewählten Status angibt. |
+| [!UICONTROL Default Country] | Shop-Ansicht | Bestimmt das Land, auf dem die Steuerberechnungen basieren. |
+| [!UICONTROL Default State] | Shop-Ansicht | Bestimmt den Status, auf dem die Steuerberechnungen basieren. Ein Sternchen (*) kann als Platzhalter dienen, um alle Bundesstaaten innerhalb des gewählten Landes anzuzeigen. |
+| [!UICONTROL Default Post Code] | Shop-Ansicht | Gibt die Postleitzahl oder Postleitzahl an, auf der die Steuerberechnungen basieren. Ein Sternchen (*) kann als Platzhalter dienen, um alle Postleitzahlen innerhalb des gewählten Status anzuzeigen. |
 
 {style="table-layout:auto"}
 
@@ -68,48 +68,48 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Steuerk
 
 ![Preisanzeigeeinstellungen](./assets/tax-price-display-settings.png)<!-- zoom -->
 
-Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Einstellungen für die Preisanzeige konfigurieren](../../stores-purchase/display-settings.md#configure-price-display-settings) im Handbuch _Stores and Purchase Experience Guide_.
+Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Konfigurieren der Preisanzeigeeinstellungen](../../stores-purchase/display-settings.md#configure-price-display-settings) im _Shops und Kauferlebnis_.
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Display Product Prices in Catalog] | Store-Ansicht | Bestimmt, ob die im Katalog veröffentlichten Produktpreise Steuern enthalten oder ausschließen oder zwei Versionen des Preises anzeigen, eine mit und die andere ohne Steuern. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Hinweis:_**Wenn Sie das Feld &quot;Produktpreise anzeigen&quot;auf `Including Tax` setzen, wird die Steuer nur angezeigt, wenn eine Steuerregel vorhanden ist, die mit der Steuerursache übereinstimmt, oder es eine Kundenadresse gibt, die der Steuerregel entspricht. Zu den Ereignissen, die eine Übereinstimmung Trigger haben können, gehören die Erstellung von Kundenkonten, die Anmeldung oder die Verwendung des Steuerungs- und Versandschätzungs-Tools im Warenkorb. |
-| [!UICONTROL Display Shipping Prices] | Store-Ansicht | Bestimmt, ob die Versandpreise Steuern enthalten oder ausschließen oder zwei Versionen des Versandpreises anzeigen, eine mit und die andere ohne Steuern. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Display Product Prices in Catalog] | Shop-Ansicht | Bestimmt, ob im Katalog veröffentlichte Produktpreise Steuern enthalten oder ausschließen oder zwei Versionen des Preises anzeigen, eine mit und die andere ohne Steuer. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` <br/><br/>**_Hinweis:_**Wenn Sie das Feld „Produktpreise anzeigen“ auf `Including Tax` setzen, wird die Steuer nur angezeigt, wenn eine Steuerregel vorhanden ist, die mit der Steuerherkunft übereinstimmt, oder wenn eine Kundenadresse vorhanden ist, die mit der Steuerregel übereinstimmt. Zu den Ereignissen, bei denen eine Übereinstimmung Trigger werden kann, gehören die Erstellung von Kundenkonten, die Anmeldung oder die Verwendung des Tools für Steuer- und Versandschätzungen im Warenkorb. |
+| [!UICONTROL Display Shipping Prices] | Shop-Ansicht | Bestimmt, ob die Versandpreise Steuern beinhalten oder ausschließen oder zwei Versionen des Versandpreises anzeigen, eine mit und die andere ohne Steuern. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Shopping Cart Display Settings]
 
-![Anzeigeeinstellungen für Warenkorb](./assets/tax-shopping-cart-display-settings.png)<!-- zoom -->
+![Anzeigeeinstellungen für den Warenkorb](./assets/tax-shopping-cart-display-settings.png)<!-- zoom -->
 
-Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Einstellungen für die Anzeige des Warenkorbs konfigurieren](../../stores-purchase/display-settings.md#step-2-configure-shopping-cart-display-settings) im Handbuch _Stores and Purchase Experience Guide_.
+Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Konfigurieren der Anzeigeeinstellungen für den Warenkorb](../../stores-purchase/display-settings.md#step-2-configure-shopping-cart-display-settings) im _Handbuch für Stores und Kauferlebnisse_.
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Display Prices] | Store-Ansicht | Bestimmt, ob die Warenkorbpreise Steuern enthalten oder ausschließen oder zwei Versionen des Preises anzeigen, eine mit und die andere ohne Steuern. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
-| [!UICONTROL Display Subtotal|Store View] | Bestimmt, ob in der Zwischensumme des Warenkorbs Steuern enthalten sind oder ausgeschlossen sind, oder zeigt zwei Versionen der Zwischensumme an: eine mit und die andere ohne Steuern. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
-| [!UICONTROL Display Shipping Amount] | Store-Ansicht | Stellt fest, ob der Versandbetrag des Warenkorbs Steuern enthält oder ausschließt, oder zeigt zwei Versionen des Versandbetrags an: eine mit und die andere ohne Steuern. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
-| [!UICONTROL Additionally Show Order Total Without Tax] | Store-Ansicht | Bestimmt, ob eine zusätzliche Zeile mit dem Gesamtwert ohne Steuern im Warenkorb angezeigt wird. Optionen: `Yes` / `No` |
-| [!UICONTROL Display Full Tax Summary] | Store-Ansicht | Stellt fest, ob der Warenkorb eine vollständige Steuerübersicht enthält. Optionen: `Yes` / `No` |
-| [!UICONTROL Display Zero Tax Subtotal] | Store-Ansicht | Stellt fest, ob der Warenkorb eine Untersumme Steuern enthält, wenn die Steuer gleich null ist. Optionen: `Yes` / `No` |
+| [!UICONTROL Display Prices] | Shop-Ansicht | Bestimmt, ob die Preise des Warenkorbs Steuern enthalten oder ausschließen oder zwei Versionen des Preises anzeigen, eine mit und die andere ohne Steuern. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Display Subtotal|Store View] | Bestimmt, ob die Zwischensumme des Warenkorbs die Steuer enthält oder ausschließt oder ob zwei Versionen der Zwischensumme angezeigt werden, eine mit und die andere ohne Steuer. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Display Shipping Amount] | Shop-Ansicht | Bestimmt, ob der Warenkorb-Versandbetrag die Steuer beinhaltet oder ausschließt oder zwei Versionen des Versandbetrags anzeigt; eine mit und die andere ohne Steuer. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Additionally Show Order Total Without Tax] | Shop-Ansicht | Legt fest, ob eine zusätzliche Zeile mit dem Gesamtbetrag ohne Steuer im Warenkorb angezeigt wird. Optionen: `Yes` / `No` |
+| [!UICONTROL Display Full Tax Summary] | Shop-Ansicht | Legt fest, ob der Warenkorb eine vollständige Steuerzusammenfassung enthält. Optionen: `Yes` / `No` |
+| [!UICONTROL Display Zero Tax Subtotal] | Shop-Ansicht | Bestimmt, ob der Warenkorb eine Steuerzwischensumme enthält, wenn die Steuer null ist. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
 ## [!UICONTROL Orders, Invoices, Credit Memos Display Settings]
 
-![Anzeigeeinstellungen für Bestellungen, Rechnungen, Credit Memos](./assets/tax-orders-invoices-credit-memos-display-settings.png)<!-- zoom -->
+![Einstellungen für Bestellungen, Rechnungen, Gutschriften](./assets/tax-orders-invoices-credit-memos-display-settings.png)<!-- zoom -->
 
-Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Einstellungen für die Anzeige von Bestell-, Handels- und Kreditkarten konfigurieren](../../stores-purchase/display-settings.md#step-3-configure-order-invoice-and-credit-memo-display-settings) im _Erlebnis-Handbuch für Geschäfte und Kauf_.
+Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Anzeigeeinstellungen für Bestellungen, Rechnungen und Gutschriften konfigurieren](../../stores-purchase/display-settings.md#step-3-configure-order-invoice-and-credit-memo-display-settings) im Handbuch _Stores und Kauf_.
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Display Prices] | Store-Ansicht | Bestimmt, ob die Preise für Verkaufsdokumente Steuern enthalten oder ausschließen oder ob in jedem Dokument zwei Versionen des Preises angezeigt werden: eine mit und die andere ohne Steuern. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
-| [!UICONTROL Display Subtotal] | Store-Ansicht | Bestimmt, ob die Zwischensumme bei Verkaufsdokumenten Steuern enthält oder ausschließt oder ob in jedem Dokument zwei Versionen der Zwischensumme angezeigt werden: eine mit und die andere ohne Steuern. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
-| [!UICONTROL Display Shipping Amount] | Store-Ansicht | Bestimmt, ob der Versandbetrag für Verkaufsdokumente Steuern enthält oder ausschließt oder ob in jedem Dokument zwei Versionen der Zwischensumme angezeigt werden, eine mit und die andere ohne Steuern. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
-| [!UICONTROL Additionally Show Order Total Without Tax] | Store-Ansicht | Bestimmt, ob eine zusätzliche Zeile mit dem Gesamtbetrag ohne Steuern in Verkaufsdokumenten angezeigt wird. Optionen: `Yes` / `No` |
-| [!UICONTROL Display Full Tax Summary] | Store-Ansicht | Bestimmt, ob die vollständige Steuerübersicht in Verkaufsdokumenten angezeigt wird. Optionen: `Yes` / `No` |
-| [!UICONTROL Display Zero Tax Subtotal] | Store-Ansicht | Bestimmt, welcher Teil der Zwischensumme bei Verkaufsunterlagen angezeigt wird, wenn keine Steuer erhoben wird. Optionen: `Yes` / `No` |
-| [!UICONTROL Display Gift Wrapping Prices] | Store-Ansicht | ![Adobe Commerce](../../assets/adobe-logo.svg) (nur Adobe Commerce) Bestimmt, ob die Geschenkverpackungspreise in der Zwischensumme enthalten sind. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
-| [!UICONTROL Display Printed Card Prices] | Store-Ansicht | ![Adobe Commerce](../../assets/adobe-logo.svg) (nur Adobe Commerce) Bestimmt, ob die Preise für gedruckte Karten in der Zwischensumme enthalten sind. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Display Prices] | Shop-Ansicht | Bestimmt, ob die Preise in Verkaufsbelegen Steuern enthalten oder nicht enthalten oder ob jedes Dokument zwei Versionen des Preises anzeigt, eine mit und die andere ohne Steuern. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Display Subtotal] | Shop-Ansicht | Bestimmt, ob die Zwischensumme der Verkaufsbelege Steuern enthält oder ausschließt oder ob jedes Dokument zwei Versionen der Zwischensumme anzeigt, eine mit und die andere ohne Steuern. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Display Shipping Amount] | Shop-Ansicht | Bestimmt, ob der Versandbetrag auf den Verkaufsbelegen die Steuer beinhaltet oder ausschließt oder ob jeder Beleg zwei Versionen der Zwischensumme anzeigt, eine mit und die andere ohne Steuer. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Additionally Show Order Total Without Tax] | Shop-Ansicht | Legt fest, ob eine zusätzliche Zeile mit dem Gesamtbetrag ohne Steuer auf Verkaufsbelegen angezeigt wird. Optionen: `Yes` / `No` |
+| [!UICONTROL Display Full Tax Summary] | Shop-Ansicht | Legt fest, ob die vollständige Steuerzusammenfassung in den Verkaufsbelegen angezeigt wird. Optionen: `Yes` / `No` |
+| [!UICONTROL Display Zero Tax Subtotal] | Shop-Ansicht | Bestimmt, welcher Zwischensummenabschnitt auf Verkaufsbelegen angezeigt wird, wenn keine Steuer erhoben wird. Optionen: `Yes` / `No` |
+| [!UICONTROL Display Gift Wrapping Prices] | Shop-Ansicht | ![Adobe Commerce](../../assets/adobe-logo.svg) (nur Adobe Commerce) Legt fest, ob Preise für Geschenkverpackungen in der Zwischensumme enthalten sind. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
+| [!UICONTROL Display Printed Card Prices] | Shop-Ansicht | ![Adobe Commerce](../../assets/adobe-logo.svg) (nur Adobe Commerce) Legt fest, ob die Preise für gedruckte Karten in der Zwischensumme enthalten sind. Optionen: `Excluding Tax` / `Including Tax` / `Including and Excluding Tax` |
 
 {style="table-layout:auto"}
 
@@ -117,16 +117,16 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Einstel
 
 ![Feste Produktsteuer](./assets/tax-fixed-product-taxes.png)<!-- zoom -->
 
-Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Feste Produktsteuer (FPT)](../../stores-purchase/fixed-product-tax.md) im _Handbuch zu Geschäften und Kauferlebnissen_.
+Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Feste Produktsteuer (FPT)](../../stores-purchase/fixed-product-tax.md) im _Handbuch zu Stores und Kauferlebnissen_.
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Enable FPT] | Webseite | Bestimmt, ob FPT verfügbar ist. Optionen: `Yes` / `No` |
-| [!UICONTROL Display Prices in Product Lists] | Webseite | Steuert die Anzeige von FPT in Produktlisten. Optionen:<br/> **`Including FPT Only`** - Die angezeigten Preise beinhalten feste Produktsteuern. Der FPT-Betrag wird nicht separat angezeigt.<br/>**`Including FPT and FPT description`**- Die angezeigten Preise beinhalten feste Produktsteuern. Der FPT-Betrag wird separat angezeigt.<br/>**`Excluding FPT. Including FPT description and final price`** - Die angezeigten Preise enthalten keine festen Produktsteuern. Der FPT-Betrag wird separat angezeigt.<br/>**`Excluding FPT`**- Die angezeigten Preise enthalten keine festen Produktsteuern. Der FPT-Betrag wird nicht separat angezeigt. |
-| [!UICONTROL Display Prices On Product View Page] | Webseite | Steuert die Anzeige von FPT auf der Produktseite. Optionen:<br/> **`Including FPT Only`** - Die angezeigten Preise beinhalten feste Produktsteuern. Der FPT-Betrag wird nicht separat angezeigt.<br/>**`Including FPT and FPT description`**- Die angezeigten Preise beinhalten feste Produktsteuern. Der FPT-Betrag wird separat angezeigt.<br/>**`Excluding FPT. Including FPT description and final price`** - Die angezeigten Preise enthalten keine festen Produktsteuern. Der FPT-Betrag wird separat angezeigt.<br/>**`Excluding FPT`**- Die angezeigten Preise enthalten keine festen Produktsteuern. Der FPT-Betrag wird nicht separat angezeigt. |
-| [!UICONTROL Display Prices in Sales Modules] | Webseite | Steuert die Anzeige von FPT im Warenkorb und während des Kassengangs. Optionen:<br/> **`Including FPT Only`** - Die angezeigten Preise beinhalten feste Produktsteuern. Der FPT-Betrag wird nicht separat angezeigt.<br/>**`Including FPT and FPT description`**- Die angezeigten Preise beinhalten feste Produktsteuern. Der FPT-Betrag wird separat angezeigt.<br/>**`Excluding FPT. Including FPT description and final price`** - Die angezeigten Preise enthalten keine festen Produktsteuern. Der FPT-Betrag wird separat angezeigt.<br/>**`Excluding FPT`**- Die angezeigten Preise enthalten keine festen Produktsteuern. Der FPT-Betrag wird nicht separat angezeigt. |
-| [!UICONTROL Display Prices in Emails] | Webseite | Steuert die Anzeige von FPT in E-Mails. Optionen:<br/> **`Including FPT Only`** - Die angezeigten Preise beinhalten feste Produktsteuern. Der FPT-Betrag wird nicht separat angezeigt.<br/>**`Including FPT and FPT description`**- Die angezeigten Preise beinhalten feste Produktsteuern. Der FPT-Betrag wird separat angezeigt.<br/>** Ausschließen von FPT. Einschließlich FPT-Beschreibung und Endpreis **- Angezeigte Preise enthalten keine festen Produktsteuern. Der FPT-Betrag wird separat angezeigt.<br/>**`Excluding FPT`** - Die angezeigten Preise enthalten keine festen Produktsteuern. Der FPT-Betrag wird nicht separat angezeigt. |
-| [!UICONTROL Apply Tax to FPT] | Webseite | Bestimmt, ob die Steuer auf den FPT-Betrag angewendet wird. Optionen: `Yes` / `No` |
-| [!UICONTROL Include FPT in Subtotal] | Webseite | Bestimmt, ob FPT in der Zwischensumme des Warenkorbs enthalten ist. Optionen: <br/>**`Yes`**- Schließt die FPT in die Zwischensumme des Warenkorbs ein.<br/>**`No`** - FPT ist nicht in der Zwischensumme enthalten und wird nach der Zwischensumme im Warenkorb platziert. |
+| [!UICONTROL Enable FPT] | Website | Legt fest, ob FTP verfügbar ist. Optionen: `Yes` / `No` |
+| [!UICONTROL Display Prices in Product Lists] | Website | Steuert die Anzeige von Schriftarten in Produktlisten. Optionen:<br/> **`Including FPT Only`** - Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt.<br/>**`Including FPT and FPT description`**- Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT. Including FPT description and final price`** - Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT`**- Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt. |
+| [!UICONTROL Display Prices On Product View Page] | Website | Steuert die Anzeige von FTP auf der Produktseite. Optionen:<br/> **`Including FPT Only`** - Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt.<br/>**`Including FPT and FPT description`**- Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT. Including FPT description and final price`** - Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT`**- Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt. |
+| [!UICONTROL Display Prices in Sales Modules] | Website | Steuert die Anzeige von FTP im Warenkorb und beim Checkout. Optionen:<br/> **`Including FPT Only`** - Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt.<br/>**`Including FPT and FPT description`**- Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT. Including FPT description and final price`** - Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT`**- Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt. |
+| [!UICONTROL Display Prices in Emails] | Website | Steuert die Anzeige von FTP in E-Mails. Optionen:<br/> **`Including FPT Only`** - Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt.<br/>**`Including FPT and FPT description`**- Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>** Ohne FTP. Einschließlich FTP-Beschreibung und Endpreis **- Die angezeigten Preise beinhalten keine festen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT`** - Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt. |
+| [!UICONTROL Apply Tax to FPT] | Website | Legt fest, ob der FTP-Betrag mit Steuern belegt wird. Optionen: `Yes` / `No` |
+| [!UICONTROL Include FPT in Subtotal] | Website | Bestimmt, ob die FTP in der Zwischensumme des Warenkorbs enthalten ist. Optionen: <br/>**`Yes`**- Enthält FPT in der Zwischensumme des Warenkorbs.<br/>**`No`** - FPT ist nicht in der Zwischensumme enthalten und wird nach der Zwischensumme im Warenkorb platziert. |
 
 {style="table-layout:auto"}

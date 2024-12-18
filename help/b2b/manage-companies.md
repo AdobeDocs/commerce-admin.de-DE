@@ -1,6 +1,6 @@
 ---
-title: Unternehmensverwaltung
-description: Optimierung der Verwaltung und Verwaltung von B2B-Organisationen mit komplexen Betriebsmodellen.
+title: Unternehmensleitung
+description: Optimieren Sie die Verwaltung und das Management von B2B-Organisationen mit komplexen Betriebsmodellen.
 feature: B2B, Companies, Storefront
 role: Admin
 hide: false
@@ -13,38 +13,38 @@ ht-degree: 0%
 
 ---
 
-# Unternehmensverwaltung
+# Unternehmensleitung
 
-Das Unternehmensmanagement optimiert den Geschäftsbetrieb für Unternehmen mit komplexen Organisationsstrukturen. Administratoren können eine Unternehmenshierarchie erstellen, um eine B2B-Organisation zu spiegeln, indem sie Unternehmen der angegebenen Muttergesellschaft zuweisen. Diese Zuweisung ermöglicht es dem Administrator der Muttergesellschaft, Unternehmen innerhalb der Organisation anzuzeigen und zu verwalten.
+Das Unternehmensmanagement optimiert die Geschäftsprozesse für Unternehmen mit komplexen Organisationsstrukturen. Admin-Benutzer können eine Unternehmenshierarchie erstellen, die eine B2B-Organisation spiegelt, indem sie der designierten übergeordneten Firma Firmen zuweisen. Diese Zuweisung ermöglicht es dem Administrator der übergeordneten Firma, Unternehmen innerhalb der Organisation anzuzeigen und zu verwalten.
 
-Starten Sie Unternehmensverwaltungsaufgaben über die Ansicht &quot;*[!UICONTROL Companies]*&quot;. Wechseln Sie vom Administrator zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+Starten Sie Unternehmensverwaltungsaufgaben über die *[!UICONTROL Companies]*. Navigieren Sie vom Administrator aus zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-![B2B Unternehmenssteuerfeld verwalten](./assets/companies-grid-view.png){width="700" zoomable="yes"}
+![B2B-Unternehmensraster verwalten](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
-Die Spalte *[!UICONTROL Company Type]* gibt an, ob ein Unternehmen als Teil eines Unternehmens oder als separates Unternehmen verwaltet wird.
+Die Spalte *[!UICONTROL Company Type]* gibt an, ob ein Unternehmen als Teil einer Organisation oder als separates Unternehmen verwaltet wird.
 
-- `Parent` ist eine Geschäftsorganisation mit einem oder mehreren zugewiesenen Unternehmen. Eine Muttergesellschaft kann nicht als untergeordnetes Element eines anderen Unternehmens zugewiesen werden.
+- `Parent` ist eine Unternehmensorganisation mit einem oder mehreren zugeordneten Unternehmen. Eine Muttergesellschaft kann nicht als untergeordnetes Element einer anderen Gesellschaft zugewiesen werden.
 
-- `Child` ist ein Unternehmen, das einer Organisation zugewiesen wurde. Ein Unternehmen kann nur einer Muttergesellschaft zugewiesen werden.
+- `Child` ist eine Firma, die einer Organisation zugewiesen wurde. Eine Firma kann nur einer übergeordneten Firma zugewiesen werden.
 
-- `Company` steht für ein einzelnes Unternehmen. Ein einzelnes Unternehmen kann Teil einer Organisation werden, indem es eine Muttergesellschaft wird oder sie einer bestehenden Muttergesellschaft zuweist.
+- `Company` repräsentiert ein einzelnes Unternehmen. Ein einzelnes Unternehmen kann Teil einer Organisation werden, indem es zu einer Muttergesellschaft wird oder indem es einer bestehenden Muttergesellschaft zugewiesen wird.
 
-Wenn Sie ein übergeordnetes oder untergeordnetes Unternehmen bearbeiten, erweitern Sie *[!UICONTROL Company Hierarchy]* , um alle Unternehmen in der Organisation anzuzeigen. Eine `Current` -Markierung gibt das Unternehmen an, das Sie bearbeiten.
+Wenn Sie ein übergeordnetes oder untergeordnetes Unternehmen bearbeiten, erweitern Sie *[!UICONTROL Company Hierarchy]* , um alle Unternehmen in der Organisation anzuzeigen. Eine `Current` Markierung zeigt das Unternehmen an, das Sie bearbeiten.
 
-![B2B-Unternehmenshierarchie-Raster](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
+![B2B-Unternehmens-Hierarchieraster](./assets/company-detail-hierarchy-current-flag.png){width="700" zoomable="yes"}
 
-## Anzeigen und Konfigurieren des [!UICONTROL Company Hierarchy]
+## Anzeigen und Konfigurieren der [!UICONTROL Company Hierarchy]
 
-Bei der ersten Unternehmenserstellung ist das Raster *[!UICONTROL Company Hierarchy]* leer. Sie ist auch leer, wenn es sich bei dem Unternehmen um ein einzelnes Unternehmen handelt.
+Bei der ersten Erstellung des Unternehmens ist das *[!UICONTROL Company Hierarchy]* leer. Es ist auch leer, wenn es sich bei dem Unternehmen um ein einzelnes Unternehmen handelt.
 
-![B2B-Firmenhierarchieraster](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
+![B2B-Unternehmens-Hierarchieraster](./assets/company-hierarchy-grid.png){width="700" zoomable="yes"}
 
-Wenn das Unternehmen ein Mutterunternehmen einer Organisation ist und die Konten des Unternehmens für andere Unternehmen in der Organisation bereits in Adobe Commerce konfiguriert wurden, können Admin-Benutzer mit entsprechenden Berechtigungen Unternehmen zuweisen und das Raster *[!UICONTROL Company Hierarchy]* verwenden, um andere Unternehmensverwaltungsaufgaben durchzuführen:
+Wenn die Firma eine übergeordnete Firma für eine Organisation ist und die Unternehmenskonten für andere Firmen in der Organisation bereits in Adobe Commerce konfiguriert wurden, können Admin-Benutzer mit entsprechenden Berechtigungen Unternehmen zuweisen und das *[!UICONTROL Company Hierarchy]*-Raster verwenden, um andere Unternehmensverwaltungsaufgaben abzuschließen:
 
-- Alle mit dem Mutterunternehmen verbundenen Unternehmen anzeigen.
-- Weisen Sie der Organisation von einer Detailseite des Mutterunternehmens aus weitere Unternehmen zu.
-- Entfernen Sie ein Unternehmen aus einer Organisation, indem Sie die Aktion *[!UICONTROL Unassign from parent]* verwenden.
-- Aktualisieren Sie die Konfiguration *[!UICONTROL Advanced Settings]* , um dieselben Einstellungen auf mehrere Unternehmen anzuwenden.
+- Alle mit der übergeordneten Firma verknüpften Firmen anzeigen.
+- Weisen Sie der Organisation auf der Seite mit den übergeordneten Firmendetails weitere Firmen zu.
+- So entfernen Sie mithilfe der *[!UICONTROL Unassign from parent]* eine Firma aus einer Organisation.
+- Aktualisieren Sie die *[!UICONTROL Advanced Settings]*, um dieselben Einstellungen auf mehrere Unternehmen anzuwenden.
 
-Detaillierte Anweisungen finden Sie unter [Verwalten der Unternehmenshierarchie](manage-company-hierarchy.md).
+Detaillierte Anweisungen finden Sie unter [Verwalten der Firmenhierarchie](manage-company-hierarchy.md).
 

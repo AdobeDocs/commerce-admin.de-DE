@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Catalog] &gt; [!UICONTROL RSS Feeds] des Commerce Admin-Bereichs.
 exl-id: 3d71b1b9-08aa-495c-a269-b6e336f7ba06
 feature: Configuration, Communications
 source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
@@ -22,11 +22,11 @@ ht-degree: 2%
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Enable RSS] | Store-Ansicht | Ermöglicht Kunden den Empfang von RSS-Feeds aus dem Store. |
+| [!UICONTROL Enable RSS] | Shop-Ansicht | Ermöglicht Kunden den Empfang von RSS-Feeds aus dem Store. |
 
 {style="table-layout:auto"}
 
-Weitere Informationen zur Verwendung von RSS-Feeds nach der Aktivierung finden Sie unter [Social Media und RSS-Feeds](../../merchandising-promotions/social-rss.md).
+Weitere Informationen zur Verwendung von RSS-Feeds nach deren Aktivierung finden Sie unter [Social Media- und RSS-Feeds](../../merchandising-promotions/social-rss.md).
 
 ## [!UICONTROL Wish List]
 
@@ -36,7 +36,7 @@ Weitere Informationen zur Verwendung von RSS-Feeds nach der Aktivierung finden S
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Enable RSS] | Store-Ansicht | Wenn diese Option aktiviert ist, wird oben auf den Wunschlisten-Seiten ein RSS-Feed-Link angezeigt. Die Seite zur Freigabe der Wunschliste enthält ein Kontrollkästchen, mit dem der Kunde die Verknüpfung zum Feed aus freigegebenen Wunschlisten auswählen kann. |
+| [!UICONTROL Enable RSS] | Shop-Ansicht | Nach der Aktivierung wird ein RSS-Feed-Link oben auf den Wunschlistenseiten angezeigt. Die Seite zur Freigabe der Wunschliste enthält ein Kontrollkästchen, das der Kunde auswählen kann, um in freigegebenen Wunschlisten eine Verknüpfung mit dem Feed herzustellen. |
 
 {style="table-layout:auto"}
 
@@ -48,10 +48,10 @@ Weitere Informationen zur Verwendung von RSS-Feeds nach der Aktivierung finden S
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL New Products] | Store-Ansicht | Wenn diese Option aktiviert ist, wird die Benachrichtigung über neue Produkte veröffentlicht, die zum Store-Katalog hinzugefügt wurden. |
-| [!UICONTROL Special Products] | Store-Ansicht | Wenn diese Option aktiviert ist, wird die Benachrichtigung über alle Produkte mit Sonderpreisen veröffentlicht. |
-| [!UICONTROL Coupons/Discounts] | Store-Ansicht | Wenn diese Option aktiviert ist, wird die Benachrichtigung über Gutscheine oder Rabatte veröffentlicht. |
-| [!UICONTROL Top Level Category] | Store-Ansicht | Veröffentlicht Benachrichtigungen über Änderungen an der Kategoriestruktur der obersten Ebene Ihres Katalogs, was im Hauptmenü angezeigt wird. |
+| [!UICONTROL New Products] | Shop-Ansicht | Wenn diese Option aktiviert ist, werden Benachrichtigungen über neue Produkte veröffentlicht, die zum Store-Katalog hinzugefügt wurden. |
+| [!UICONTROL Special Products] | Shop-Ansicht | Wenn diese Option aktiviert ist, werden Benachrichtigungen zu Produkten mit Sonderpreisen veröffentlicht. |
+| [!UICONTROL Coupons/Discounts] | Shop-Ansicht | Wenn diese Option aktiviert ist, werden Benachrichtigungen über Gutscheine oder Rabatte veröffentlicht. |
+| [!UICONTROL Top Level Category] | Shop-Ansicht | Veröffentlicht Benachrichtigungen über Änderungen an der Kategoriestruktur auf oberster Ebene Ihres Katalogs, die im Hauptmenü angezeigt werden. |
 
 {style="table-layout:auto"}
 
@@ -63,6 +63,6 @@ Weitere Informationen zur Verwendung von RSS-Feeds nach der Aktivierung finden S
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Customer Order Status Notification] | Store-Ansicht | Bietet Kunden die Möglichkeit, ihren Bestellstatus nach RSS-Feed zu verfolgen. Wenn diese Option aktiviert ist, wird ein RSS-Feed-Link in der Bestellung angezeigt |
+| [!UICONTROL Customer Order Status Notification] | Shop-Ansicht | Ermöglicht Kunden, ihren Bestellstatus per RSS-Feed zu verfolgen. Nach der Aktivierung wird ein RSS-Feed-Link auf der Bestellung angezeigt |
 
 {style="table-layout:auto"}

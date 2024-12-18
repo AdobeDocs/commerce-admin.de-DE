@@ -1,6 +1,6 @@
 ---
-title: Dynamischen Baustein hinzufügen
-description: Präsentation einer Diashow interaktiver Inhalte auf der Storefront durch Hinzufügen mehrerer dynamischer Bausteine zu einem Rotator.
+title: Dynamischen Block hinzufügen
+description: Präsentieren Sie eine Bildschirmpräsentation mit interaktiven Inhalten auf der Storefront, indem Sie einem Rotator mehrere dynamische Blöcke hinzufügen.
 exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
 source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
 workflow-type: tm+mt
@@ -9,99 +9,99 @@ ht-degree: 0%
 
 ---
 
-# Dynamischen Baustein hinzufügen
+# Dynamischen Block hinzufügen
 
 {{ee-feature}}
 
-Um eine Diashow mit interaktiven Inhalten zu präsentieren, können Sie mehrere [dynamische Bausteine](dynamic-blocks.md) zu einem Rotator hinzufügen. Mit dem Tool [widget](widgets.md) können Sie den Rotator an einer bestimmten Stelle auf einer einzelnen Seite oder auf mehreren Seiten in Ihrem Store platzieren.
+Um eine Bildschirmpräsentation mit interaktiven Inhalten zu präsentieren, können Sie mehrere [dynamische Blöcke](dynamic-blocks.md) zu einem Rotator hinzufügen. Das [Widget](widgets.md)-Tool wird verwendet, um den Rotator an einer bestimmten Stelle entweder auf einer einzelnen Seite oder auf mehreren Seiten in Ihrem Geschäft zu platzieren.
 
-![Dynamischer Blockdreher](./assets/widget-dynamic-block-rotator.png){width="700" zoomable="yes"}
+![Dynamischer Blockrotator](./assets/widget-dynamic-block-rotator.png){width="700" zoomable="yes"}
 
-## Schritt 1: Erstellen einzelner dynamischer Blöcke
+## Schritt 1: Erstellen Sie einzelne dynamische Blöcke
 
-Gehen Sie wie folgt vor, um die dynamischen Blöcke ](dynamic-blocks.md) zu erstellen, die Sie im Rotator platzieren möchten:[
+Um [ dynamischen Blöcke zu erstellen](dynamic-blocks.md) die Sie in den Rotator einfügen möchten, befolgen Sie die folgenden Anweisungen:
 
-## Schritt 2: Hinzufügen eines Widgets vom Typ &quot;Dynamischer Blockdreher&quot;
+## Schritt 2: Dynamisches Block-Rotator-Widget hinzufügen
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Widgets]**.
 
-1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Add Widget]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Add Widget]**.
 
-1. Setzen Sie unter _Einstellungen_ **[!UICONTROL Type]** auf `Dynamic Blocks Rotator`.
+1. Legen _unter &quot;_&quot; **[!UICONTROL Type]** auf `Dynamic Blocks Rotator` fest.
 
 1. Wählen Sie die aktuelle **[!UICONTROL Design Theme]** des Stores aus.
 
-   Mit dieser Einstellung wird das aktuelle Paket bzw. [Design](themes.md) identifiziert, das das Seitenlayout des Stores bestimmt.
+   Diese Einstellung identifiziert das aktuelle Paket oder [Design](themes.md) das das Seiten-Layout des Stores bestimmt.
 
 1. Klicken Sie auf **[!UICONTROL Continue]**.
 
-   ![Dynamische Blockdrehzahleinstellungen](./assets/widget-dynamic-block-rotator-settings.png){width="600" zoomable="yes"}
+   ![Dynamische Blockrotator-Einstellungen](./assets/widget-dynamic-block-rotator-settings.png){width="600" zoomable="yes"}
 
-## Schritt 3: Optionen abschließen
+## Schritt 3: Vervollständigen Sie die Optionen
 
-1. Legen Sie unter _Storefront Properties_ die Optionen fest:
+1. Legen _unter „Storefront-_&quot; die folgenden Optionen fest:
 
    - Geben Sie einen **[!UICONTROL Title]** für den Rotator ein.
 
-   - Wählen Sie in der Liste &quot;**[!UICONTROL Assign to Store Views]**&quot;die [Ansichten speichern](../getting-started/websites-stores-views.md)&quot;, in denen der Rotator verfügbar ist.
+   - Wählen Sie in der Liste **[!UICONTROL Assign to Store Views]** die Option [Store-](../getting-started/websites-stores-views.md)) aus, in der der Rotator verfügbar ist.
 
-   - (Optional) Geben Sie eine **[!UICONTROL Sort Order]**-Zahl ein, um die Position des Rotators im Zielbehälter zu bestimmen. Sie ist relativ zu anderen Widgets, die dem gleichen Container zugewiesen werden können.
+   - (Optional) Geben Sie eine **[!UICONTROL Sort Order]** ein, um die Position des Rotators im Zielcontainer zu bestimmen. Sie ist relativ zu anderen Widgets, die demselben Container zugewiesen sein können.
 
-   ![Eigenschaften der Rotator-Storefront](./assets/widget-dynamic-block-rotator-storefront-properties.png){width="600" zoomable="yes"}
+   ![Rotator-Storefront-Eigenschaften](./assets/widget-dynamic-block-rotator-storefront-properties.png){width="600" zoomable="yes"}
 
-1. Klicken Sie unter _Layout-Optionen_ auf **[!UICONTROL Add Layout Update]** und führen Sie die folgenden Schritte aus:
+1. Klicken _unter_ Layout-Optionen“ auf **[!UICONTROL Add Layout Update]** und führen Sie folgende Schritte aus:
 
-   - Setzen Sie &quot;**[!UICONTROL Display on]**&quot;auf die Seite oder den Seitentyp, auf der der Rotator angezeigt werden soll.
+   - Legen Sie **[!UICONTROL Display on]** auf die Seite bzw. den Seitentyp fest, auf der der Rotator angezeigt werden soll.
 
-      - `Categories` - Zeigt den Rotator auf den Kategorieseiten [anker](../catalog/navigation-layered.md) oder Nicht-Anker an. Optionen: Ankerkategorien/Nicht-Anker-Kategorien
-      - `Products` - Zeigt den Router auf einer bestimmten Produktseite oder auf allen Produktseiten an. Optionen: Alle Produkttypen / [Einfaches Produkt](../catalog/product-create-simple.md) / [virtuelles Produkt](../catalog/product-create-virtual.md) / [Paket Produkt](../catalog/product-create-bundle.md) / [herunterladbares Produkt](../catalog/product-create-downloadable.md) / [Geschenkkarte](../catalog/product-gift-card-create.md) / [Konfigurierbares Produkt](../catalog/product-create-configurable.md) / [Grouped Product](../catalog/product-create-grouped.md)
-      - `Generic Pages` - Zeigt den Trichter auf allen Seiten, einer bestimmten Seite oder nur auf Seiten mit einem bestimmten Layout an. Optionen: `All Pages` / `Specified Page` / `Page Layouts`
+      - `Categories` - Zeigt den Rotator auf Kategorieseiten [Anker](../catalog/navigation-layered.md) oder Nicht-Anker an. Optionen: Ankerkategorien/Kategorien ohne Anker
+      - `Products` - Zeigt den Rotator entweder auf einer bestimmten Produktseite oder auf allen Produktseiten an. Optionen: Alle Produktarten / [Einfaches Produkt](../catalog/product-create-simple.md) / [Virtuelles Produkt](../catalog/product-create-virtual.md) / [Bundle-Produkt](../catalog/product-create-bundle.md) / [Herunterladbares Produkt](../catalog/product-create-downloadable.md) / [Geschenkkarte](../catalog/product-gift-card-create.md) / [Konfigurierbares Produkt](../catalog/product-create-configurable.md) / [gruppiertes Produkt](../catalog/product-create-grouped.md)
+      - `Generic Pages` - Zeigt den Rotator auf allen Seiten, auf einer bestimmten Seite oder nur auf Seiten mit einem bestimmten Layout an. Optionen: `All Pages` / `Specified Page` / `Page Layouts`
 
-     In diesem Beispiel soll der Rotator auf einem `Specified Page` platziert werden.
+     Im Beispiel soll der Rotator auf einem `Specified Page` platziert werden.
 
-   - Wählen Sie den spezifischen **[!UICONTROL Page]** aus, an dem der Rotator angezeigt werden soll.
+   - Wählen Sie die spezifische **[!UICONTROL Page]** aus, in der der Rotator angezeigt werden soll.
 
-   - Setzen Sie &quot;**[!UICONTROL Container]**&quot;auf den Teil des [Seitenlayouts](page-layout.md#standard-page-layouts), in dem der Rotator angezeigt werden soll.
+   - Legen Sie **[!UICONTROL Container]** auf den Teil des [Seiten-Layouts](page-layout.md#standard-page-layouts) fest, in dem der Rotator angezeigt werden soll.
 
-     Wenn dem gleichen Container andere Widgets zugewiesen sind, werden sie in der Reihenfolge nach der Sortierreihenfolge angezeigt.
+     Wenn andere Widgets demselben Container zugewiesen sind, werden sie entsprechend der Sortierreihenfolge nacheinander angezeigt.
 
-   - Akzeptieren Sie `Dynamic Block Template` als Standard-Wert **[!UICONTROL Template]**.
+   - Akzeptieren Sie `Dynamic Block Template` als **[!UICONTROL Template]**.
 
-     Diese Einstellung legt die Vorlage fest, die zum Formatieren des Rotators verwendet wird, je nachdem, ob der Rotator allein stehen soll oder in vorhandenen Text platziert werden soll.
+     Diese Einstellung bestimmt die Vorlage, die zum Formatieren des Rotators verwendet wird, je nachdem, ob der Rotator eigenständig sein oder in vorhandenen Text platziert werden soll.
 
      ![Aktualisierungen des Rotator-Layouts](./assets/widget-dynamic-block-rotator-layout-updates.png){width="600" zoomable="yes"}
 
    - Klicken Sie auf **[!UICONTROL Save and Continue Edit]**.
 
-1. Wählen Sie im linken Bereich **[!UICONTROL Widget Options]** aus.
+1. Wählen Sie im linken Bedienfeld **[!UICONTROL Widget Options]** aus.
 
 1. Für die **[!UICONTROL Dynamic Blocks to Display]** akzeptieren Sie `Specified Dynamic Blocks`.
 
-   Diese Einstellung bestimmt den Typ der dynamischen Bausteine, die im Rotator enthalten sind.
+   Diese Einstellung bestimmt den Typ der dynamischen Blöcke, die im Rotator enthalten sind.
 
-   - `Specified Dynamic Blocks` - Umfasst nur bestimmte dynamische Blöcke.
-   - `Cart Price Rule Related` - Umfasst nur dynamische Blöcke, die mit einer Warenkorbpreisregel verknüpft sind.
-   - `Catalog Price Rule Related` - Umfasst nur dynamische Blöcke, die mit einer Katalogpreisregel verknüpft sind.
+   - `Specified Dynamic Blocks` - Enthält nur bestimmte dynamische Blöcke.
+   - `Cart Price Rule Related` - Enthält nur dynamische Blöcke, die mit einer Warenkorb-Preisregel verknüpft sind.
+   - `Catalog Price Rule Related` - Enthält nur dynamische Blöcke, die mit einer Katalogpreisregel verknüpft sind.
 
-1. Wählen Sie &quot;`Content Area`&quot;, um den Wert &quot;**[!UICONTROL Restrict the Dynamic Block Types]**&quot; anzugeben, der mit dem Widget verwendet werden kann.
+1. Um **[!UICONTROL Restrict the Dynamic Block Types]**, die mit dem Widget verwendet werden können, wählen Sie `Content Area` aus.
 
-   Diese Einstellung beschränkt das Banner auf einen bestimmten Teil des Seitenlayouts.
+   Diese Einstellung beschränkt das Banner auf einen bestimmten Teil des Seiten-Layouts.
 
-   - `Content Area` - Setzt den dynamischen Block in den Hauptinhaltsbereich der Seite.
+   - `Content Area` - Platziert den dynamischen Block im Hauptinhaltsbereich der Seite.
    - `Footer` - Platziert den dynamischen Block in der Fußzeile der Seite.
-   - `Header` - Platziert den dynamischen Block in der Kopfzeile der Seite.
-   - `Left Column` - Setzt den dynamischen Block in die linke Spalte des Seitenlayouts, falls verfügbar.
-   - `Right Column` - Setzt den dynamischen Block in die rechte Spalte des Seitenlayouts, falls verfügbar.
+   - `Header` - Platziert den dynamischen Block im Seitenkopf.
+   - `Left Column` - Platziert den dynamischen Block in der linken Spalte des Seiten-Layouts, sofern verfügbar.
+   - `Right Column` - Platziert den dynamischen Block in der rechten Spalte des Seiten-Layouts, sofern verfügbar.
 
-1. Setzen Sie **[!UICONTROL Rotation Mode]** auf einen der folgenden Werte:
+1. Legen Sie **[!UICONTROL Rotation Mode]** auf eine der folgenden Einstellungen fest:
 
-   - `Display all instead of rotating` - Zeigt einen Stapel dynamischer Blöcke an, in denen alle sichtbar sind.
+   - `Display all instead of rotating` : Zeigt einen Stapel dynamischer Blöcke an, auf denen alle sichtbar sind.
    - `One at a time, Random` - Zeigt die angegebenen dynamischen Blöcke in zufälliger Reihenfolge an. Wenn die Seite aktualisiert wird, wird ein anderer (und zufälliger) dynamischer Block angezeigt.
-   - `One at the time, Series` - Zeigt die angegebenen dynamischen Blöcke in der Sequenz an, in der sie hinzugefügt wurden. Wenn die Seite aktualisiert wird, wird der nächste dynamische Block in der Sequenz angezeigt.
-   - `One at the time, Shuffle` - Zeigt jeweils einen dynamischen Block in einer geschwungenen Reihenfolge an. Diese Option ähnelt der Option `One at a time, Random` , allerdings wird derselbe dynamische Block nicht wiederholt.
+   - `One at the time, Series` - Zeigt die angegebenen dynamischen Blöcke in der Reihenfolge an, in der sie hinzugefügt wurden. Nach dem Aktualisieren der Seite wird der nächste dynamische Block in der Sequenz angezeigt.
+   - `One at the time, Shuffle` : Zeigt einen dynamischen Block nach dem anderen in einer gemischten Reihenfolge an. Diese Option ähnelt der Option `One at a time, Random`, mit dem Unterschied, dass derselbe dynamische Block nicht wiederholt wird.
 
-     ![Rotations-Widget-Optionen](./assets/widget-dynamic-block-rotator-widget-options.png){width="600" zoomable="yes"}
+     ![Optionen für Rotator-Widgets](./assets/widget-dynamic-block-rotator-widget-options.png){width="600" zoomable="yes"}
 
-1. Aktivieren Sie im Raster **[!UICONTROL Specify Dynamic Blocks]** das Kontrollkästchen jedes dynamischen Blocks, den Sie in den Rotator einbeziehen möchten.
+1. Aktivieren Sie im **[!UICONTROL Specify Dynamic Blocks]** das Kontrollkästchen jedes dynamischen Blocks, den Sie in den Rotator aufnehmen möchten.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save]**.

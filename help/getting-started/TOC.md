@@ -1,6 +1,6 @@
 ---
 user-guide-title: Erste Schritte mit Adobe Commerce
-user-guide-description: Wenn Sie mit Adobe Commerce oder Magento Open Source noch nicht vertraut sind, sollten Sie die Ressourcen des [!DNL Commerce] Ökosystems entdecken, der Journey folgen, um Ihren Store zu erkunden und sich über die wichtigsten Funktionen zu informieren.
+user-guide-description: Wenn Sie Adobe Commerce oder Magento Open Source noch nicht kennen, entdecken Sie Ressourcen des  [!DNL Commerce] -Ökosystems, folgen Sie der Kunden-Journey, um Ihren Shop zu erkunden, und erfahren Sie mehr über die wichtigsten Funktionen.
 breadcrumb-title: Erste Schritte
 role: Admin, Leader, User
 feature: Admin Workspace
@@ -18,35 +18,35 @@ ht-degree: 1%
 + [Erste Schritte mit Adobe Commerce](guide-overview.md)
 + [Was ist Adobe Commerce?](about.md)
 + [Anmeldedaten und URLs](login-urls.md)
-+ Commerce-Konten {#commerce-account}
-   + [Erstellen und Zugreifen auf Ihr Konto](commerce-account-create.md)
-   + [Sichern Ihres Kontos](commerce-account-secure.md)
++ Commerce-{#commerce-account}
+   + [Konto erstellen und aufrufen](commerce-account-create.md)
+   + [Konto sichern](commerce-account-secure.md)
    + [Konto freigeben](commerce-account-share.md)
    + [Konto übertragen](commerce-account-transfer.md)
-+ Site-Compliance {#compliance}
-   + [HIPAA-Bereitschaft für Adobe Commerce](hipaa-ready-service.md)
-   + Datenschutz {#privacy}
++ Site-Compliance-{#compliance}
+   + [HIPAA-Bereitschaft auf Adobe Commerce](hipaa-ready-service.md)
+   + {#privacy}
       + [Datenschutzrichtlinie speichern](privacy-policy.md)
       + [CCPA-Konformität](compliance-ccpa.md)
-      + [DSGVO-Konformität](compliance-gdpr.md)
-      + [Einhaltung von Cookie-Rechtsvorschriften](compliance-cookie-law.md)
-   + Zahlungen {#payments}
+      + [DSGVO-Compliance](compliance-gdpr.md)
+      + [Cookie-Gesetzestreue](compliance-cookie-law.md)
+   + {#payments}
       + [PCI-Compliance](compliance-pci.md)
-      + [Richtlinie über Zahlungsdienste](compliance-payment-services-directive.md)
-   + [Zugänglichkeit](navigation-accessibility.md)
-+ Der Admin {#admin}
+      + [Zahlungsdiensterichtlinie](compliance-payment-services-directive.md)
+   + [Barrierefreiheit](navigation-accessibility.md)
++ Die Admin-{#admin}
    + [Was ist der Administrator?](admin.md)
    + [Ihr Admin-Benutzerkonto](admin-signin.md)
-   + Integration von Adobe Identity Management Service (IMS) {#ims}
+   + Adobe Identity Management Service (IMS)-{#ims}
       + [Übersicht über die IMS-Integration](adobe-ims-integration-overview.md)
       + [Konfigurieren der Admin-Integration mit IMS](adobe-ims-config.md)
-      + [Admin-Integration mit IMS deaktivieren](adobe-ims-disable.md)
-   + Adobe Experience Cloud-Integration {#unifiedexperience}
+      + [Deaktivieren der Admin-Integration mit IMS](adobe-ims-disable.md)
+   + Adobe Experience Cloud-{#unifiedexperience}
       + [Übersicht](admin-unified-experience-integration-overview.md)
       + [Integration konfigurieren](admin-unified-experience-integration-configure.md)
-      + [Experience Cloud-Integration verwalten](admin-unified-experience-integration-manage.md)
+      + [Verwalten der Experience Cloud-Integration](admin-unified-experience-integration-manage.md)
       + [Versionshinweise](admin-unified-experience-release-notes.md)
-   + Admin Tools und Arbeitsbereich {#tools}
+   + Admin-Tools und Arbeitsbereich-{#tools}
       + [Workspace](admin-workspace.md)
       + [Die Admin-Seitenleiste](admin-menu.md)
       + [Dashboard](admin-dashboard.md)
@@ -55,25 +55,25 @@ ht-degree: 1%
       + [Aktionssteuerung](admin-actions-control.md)
 + Die Storefront {#storefront}
    + [Was ist die Storefront?](storefront.md)
-   + [Erweiterte Store-Erlebnisse](enhanced-experiences.md)
-+ Grundlegendes Setup und Konfiguration {#setup}
-   + [Site-, Store- und Ansichtsbereich](websites-stores-views.md)
+   + [Verbesserte Store-Erlebnisse](enhanced-experiences.md)
++ Grundlegende Einrichtung und {#setup}
+   + [Site-, Speicher- und Anzeigebereich](websites-stores-views.md)
    + [Store-Details](store-details.md)
    + [Storefront-Branding](storefront-branding.md)
-   + [Vorabstartprüfliste](prelaunch-checklist.md)
-+ Standardberichterstellung {#reporting}
-   + [Berichte, Menü](reports-menu.md)
+   + [Checkliste für den Vorabstart](prelaunch-checklist.md)
++ Standard-{#reporting}
+   + [Menü Berichte](reports-menu.md)
    + [Marketing-Berichte](marketing-reports.md)
    + [Berichte überprüfen](review-reports.md)
    + [Verkaufsberichte](sales-reports.md)
    + [Kundenberichte](customer-reports.md)
    + [Produktberichte](product-reports.md)
-   + [Private Verkaufsberichte](private-sales-reports.md)
+   + [Berichte zum Privatverkauf](private-sales-reports.md)
    + [Commerce Intelligence-Tools](business-intelligence.md)
-   + [New Relic Reporting](new-relic-reporting.md)
-+ Ressourcen {#resources}
+   + [New Relic-Berichte](new-relic-reporting.md)
++ Ressourcen-{#resources}
    + [Ökosystem](resources.md)
    + [Erweiterungen](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Zurück zu Händlerleitfäden](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

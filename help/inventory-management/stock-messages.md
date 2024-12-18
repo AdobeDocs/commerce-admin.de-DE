@@ -1,6 +1,6 @@
 ---
-title: Szenarien mit Lagermeldungen
-description: Erfahren Sie mehr über die Kombination von Konfigurationseinstellungen, die Meldungen zur Lagerverfügbarkeit auf Produktseiten und in Listen von Produkten auf Katalogseiten steuern.
+title: Szenarien für Stock-Nachrichten
+description: Erfahren Sie mehr über die Kombination aus Konfigurationseinstellungen, die Nachrichten zur Lagerverfügbarkeit auf Produktseiten und in Listen von Produkten auf Katalogseiten steuern.
 exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
@@ -10,23 +10,23 @@ ht-degree: 1%
 
 ---
 
-# Szenarien mit Lagermeldungen
+# Szenarien für Stock-Nachrichten
 
-Sie können eine Kombination aus Konfigurationseinstellungen verwenden, um Meldungen zur Lagerverfügbarkeit auf Produktseiten und in Listen von Produkten auf Katalogseiten zu steuern.
+Sie können eine Kombination aus Konfigurationseinstellungen verwenden, um Nachrichten zur Verfügbarkeit von Lagern auf Produktseiten und in Listen von Produkten auf Katalogseiten zu steuern.
 
-![Gruppiertes Produkt mit Meldung &quot;Nicht auf Lager&quot;](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
+![Gruppiertes Produkt mit Nachricht „Nicht vorrätig“](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 
-## Lagerpositionen der Produktseiten
+## Stock-Nachrichten auf der Produktseite
 
-Je nach Kombination der Einstellungen für die Verwaltung von Lagern und die Lagerverfügbarkeit stehen für die Produktseite verschiedene Varianten der Nachrichten zur Verfügung.
+Abhängig von der Kombination der Einstellungen „Stock verwalten“ und „Lagerverfügbarkeit“ gibt es für die Produktseite mehrere Varianten von Nachrichten.
 
 ### Beispiel 1: Verfügbarkeitsmeldung anzeigen
 
 #### Szenario 1
 
-Diese Kombination von Einstellungen bewirkt, dass die Verfügbarkeitsmeldung je nach Lagerverfügbarkeit der einzelnen Produkte auf der Produktseite angezeigt wird.
+Diese Kombination von Einstellungen führt dazu, dass die Verfügbarkeitsmeldung auf der Produktseite entsprechend der Lagerverfügbarkeit der einzelnen Produkte angezeigt wird.
 
-| Lageroptionen | Einstellung | Nachricht |
+| Aktienoptionen | Einstellung | Nachricht |
 |--|--|--|
 | [!UICONTROL Display product availability in stock in the frontend] | `Yes` | |
 | [!UICONTROL Manage Stock] | `Yes` | |
@@ -35,65 +35,65 @@ Diese Kombination von Einstellungen bewirkt, dass die Verfügbarkeitsmeldung je 
 
 #### Szenario 2
 
-Wenn für ein Produkt kein Lager verwaltet wird, kann diese Kombination von Einstellungen verwendet werden, um die Verfügbarkeitsmeldung auf der Produktseite anzuzeigen.
+Wenn das Lager nicht für ein Produkt verwaltet wird, kann diese Kombination von Einstellungen verwendet werden, um die Verfügbarkeitsmeldung auf der Produktseite anzuzeigen.
 
-| Lageroptionen | Einstellung | Nachricht |
+| Aktienoptionen | Einstellung | Nachricht |
 |--|--|--|
 | [!UICONTROL Display product availability in stock in the frontend] | `Yes` |  |
 | [!UICONTROL Manage Stock] | `No` | _[!UICONTROL Availability: In Stock]_ |
 
-### Beispiel 2: Meldung zur Verfügbarkeit ausblenden
+### Beispiel 2: Verfügbarkeitsmeldung ausblenden
 
 #### Szenario 1
 
-Diese Kombination aus Konfiguration und Produkteinstellungen verhindert, dass die Verfügbarkeitsmeldung auf der Produktseite angezeigt wird.
+Diese Kombination aus Konfigurations- und Produkteinstellungen verhindert, dass die Verfügbarkeitsmeldung auf der Produktseite angezeigt wird.
 
-| Lageroptionen | Einstellung | Nachricht |
+| Aktienoptionen | Einstellung | Nachricht |
 |--|--|--|
 | [!UICONTROL Display product availability in stock in the frontend] | `No` |  |
 | [!UICONTROL Manage Stock] | `Yes` |  |
-| [!UICONTROL Stock Availability] | `In Stock` | Keines |
-|  | `Out of Stock` | Keines |
+| [!UICONTROL Stock Availability] | `In Stock` | Keine |
+|  | `Out of Stock` | Keine |
 
 #### Szenario 2
 
-Wenn für ein Produkt kein Lager verwaltet wird, verhindert diese Kombination aus Konfiguration und Produkteinstellungen, dass die Verfügbarkeitsmeldung auf der Produktseite angezeigt wird.
+Wenn Stock nicht für ein Produkt verwaltet wird, verhindert diese Kombination aus Konfiguration und Produkteinstellungen, dass die Verfügbarkeitsmeldung auf der Produktseite angezeigt wird.
 
-| Lageroptionen | Einstellung | Nachricht |
+| Aktienoptionen | Einstellung | Nachricht |
 |--|--|--|
 | [!UICONTROL Display product availability in stock in the frontend] | `No` |  |
-| [!UICONTROL Manage Stock] | `No` | Keines |
+| [!UICONTROL Manage Stock] | `No` | Keine |
 
-## Lagerergänzungen für Katalogseiten
+## Stock-Nachrichten für Katalogseite
 
-Die folgenden Anzeigeoptionen sind je nach Produktverfügbarkeit und Konfigurationseinstellungen für die Kategorie und die Liste der Suchergebnisse möglich.
+Je nach Produktverfügbarkeit und Konfigurationseinstellungen sind für die Kategorie- und Suchergebnislisten die folgenden Anzeigeoptionen möglich.
 
-![Nicht vorrätige Meldung auf Kategorieseite](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
+![Nicht vorrätige Nachricht auf Kategorieseite](assets/storefront-out-of-stock-catalog-page.png){width="600" zoomable="yes"}
 
-### Beispiel 1: Produkt mit Meldung &quot;Nicht vorrätig&quot;anzeigen
+### Beispiel 1: Produkt mit der Nachricht „Nicht vorrätig“ anzeigen
 
-Diese Kombination von Konfigurationseinstellungen umfasst nicht vorrätige Produkte in der Kategorie und Suchergebnislisten und zeigt eine Meldung &quot;Nicht vorrätig&quot;an.
+Diese Kombination von Konfigurationseinstellungen umfasst nicht vorrätige Produkte in den Kategorie- und Suchergebnislisten und zeigt eine Meldung „Nicht vorrätig“ an.
 
-| Lageroptionen | Einstellung | Nachricht |
+| Aktienoptionen | Einstellung | Nachricht |
 |--|--|--|
 | [!UICONTROL Display Out of Stock Products] | `Yes` |  |
 | [!UICONTROL Display product availability in stock in the frontend] | `Yes` | _[!UICONTROL Out of stock]_ |
 | [!UICONTROL Display Out of Stock Products] | `Yes` |  |
-| [!UICONTROL Display product availability in stock in the frontend] | `No` | Keines |
+| [!UICONTROL Display product availability in stock in the frontend] | `No` | Keine |
 
-### Beispiel 2: Produkt ohne Meldung &quot;Nicht vorrätig&quot; anzeigen
+### Beispiel 2: Produkt ohne Nachricht „Nicht vorrätig“ anzeigen
 
-Diese Kombination von Konfigurationseinstellungen umfasst nicht vorrätige Produkte in der Kategorie und Suchergebnislisten, zeigt jedoch keine Nachricht an.
+Diese Kombination von Konfigurationseinstellungen umfasst nicht vorrätige Produkte in den Kategorie- und Suchergebnislisten, zeigt jedoch keine Meldung an.
 
-| Lageroptionen | Einstellung | Nachricht |
+| Aktienoptionen | Einstellung | Nachricht |
 |--|--|--|
-| [!UICONTROL Display Out of Stock Products] | `Yes` | Keines |
+| [!UICONTROL Display Out of Stock Products] | `Yes` | Keine |
 | [!UICONTROL Display product availability in stock in the frontend] | `No` |  |
 
-### Beispiel 3: Produkt so lange ausblenden, bis es wieder auf Lager ist
+### Beispiel 3: Produkt ausblenden bis wieder auf Lager
 
-Bei dieser Konfigurationseinstellung werden Lagerprodukte vollständig aus der Kategorie und Suchergebnisliste ausgeschlossen, bis sie wieder auf Lager sind.
+Bei dieser Konfigurationseinstellung werden nicht mehr vorrätige Produkte vollständig aus der Kategorie- und Suchergebnisliste entfernt, bis sie wieder vorrätig sind.
 
-| Lageroptionen | Einstellung | Nachricht |
+| Aktienoptionen | Einstellung | Nachricht |
 |--|--|--|
-| [!UICONTROL Display Out of Stock Products] | `No` | Keines |
+| [!UICONTROL Display Out of Stock Products] | `No` | Keine |

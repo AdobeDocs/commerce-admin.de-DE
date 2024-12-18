@@ -1,6 +1,6 @@
 ---
-title: Erstellen von Sendungen aus mehreren Quellen
-description: Erfahren Sie, wie Händler mit mehreren Quellen Sendungen erstellen und versenden können.
+title: Sendungen aus mehreren Quellen erstellen
+description: Erfahren Sie, wie Händler mit mehreren Quellen Sendungen erstellen und senden können.
 exl-id: d2995139-0fc3-4379-a4ec-b0d38ed566bb
 feature: Inventory, Shipping/Delivery
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
@@ -10,54 +10,54 @@ ht-degree: 0%
 
 ---
 
-# Erstellen von Sendungen aus mehreren Quellen
+# Sendungen aus mehreren Quellen erstellen
 
-Mit [!DNL Inventory Management] senden Sie eine oder mehrere Sendungen, wie Sie über Inventar verfügen. Um bei Bedarf weitere Sendungen zu erstellen, wiederholen Sie diese Anweisungen unter Verwendung empfohlener oder manuell eingegebener Mengen und Quellen. In diesen Anweisungen wird beschrieben, wie Händler mit mehreren Quellen Sendungen senden. Einzelquell-Händler senden Sendungen ohne diese zusätzlichen Schritte (siehe [Erstellen einer Sendung](../stores-purchase/shipments.md#create-a-shipment){target="_blank"} im Benutzerhandbuch zu Kernaufgaben).
+Senden Sie mit [!DNL Inventory Management] eine oder mehrere Lieferungen, sobald Sie über Lagerbestand verfügen. Um bei Bedarf zusätzliche Lieferungen zu erzeugen, wiederholen Sie diese Anweisungen mit empfohlenen oder manuell eingegebenen Mengen und Quellen. Diese Anweisungen beschreiben, wie Händler aus mehreren Quellen Sendungen durchführen. Händler aus einer Hand versenden Sendungen ohne diese zusätzlichen Schritte (siehe [Sendung erstellen](../stores-purchase/shipments.md#create-a-shipment){target="_blank"} im Benutzerhandbuch zu Core).
 
-Verwenden Sie beim Erstellen von Sendungen den Source-Auswahlalgorithmus für berechnete Empfehlungen. Befolgen Sie diese Empfehlungen und verwenden Sie sie oder legen Sie die Beträge pro Quelle fest, indem Sie benutzerdefinierte Sendungen generieren. Sie kontrollieren Ihren ausgehenden Bestand für jede Bestellung, legen die abzugsfähigen Mengen fest, senden einen oder mehrere Sendungen und liefern Lagerbestände und Rückstände, da Bestand verfügbar ist. Geben Sie für jeden Zeileneintrag in der Reihenfolge einen Abzugsbetrag von der Quellmenge an.
+Verwenden Sie beim Erstellen von Sendungen den Source-Auswahlalgorithmus für berechnete Empfehlungen. Befolgen und verwenden Sie diese Empfehlungen oder legen Sie die Beträge pro Quelle fest, um benutzerdefinierte Sendungen zu generieren. Sie steuern Ihren ausgehenden Bestand für jede Bestellung, legen die abzuziehenden Beträge fest, versenden eine oder mehrere Lieferungen und liefern Lagerbestände und Nachbestellungen, sobald der Bestand verfügbar ist. Geben Sie für jeden Einzelposten im Auftrag einen Betrag ein, der von der Bezugsmenge abgezogen werden soll.
 
-Sie können Teilsendungen an folgende Empfänger senden:
+Sie können Teilsendungen an folgende Adressen senden:
 
-- Aufstockung bei Bestandsaufnahme
+- Auftragsrückstände beim Eintreffen des Inventars erfüllen
 
-- Bestandsabzüge über Quellen hinweg
+- Saldo der Lagerabzüge über Quellen hinweg
 
-Bei der Verschiffung werden die von Ihnen eingenommenen Lagerbestandsmengen abgesetzt. In der Tat konvertieren Reservierungen in tatsächliche Mengenabzüge.
+Wenn Sie Lieferungen eingeben, werden die eingegebenen Beträge von den Lagerbestandsmengen abgezogen. Buchungen werden in tatsächliche Mengenabzüge umgewandelt.
 
 ## Erstellen einer Sendung
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
-1. Suchen Sie die Reihenfolge und öffnen Sie sie im Ansichtsmodus.
+1. Suchen Sie die Bestellung und öffnen Sie sie im Ansichtsmodus.
 
-1. Wenn die Bestellung bezahlt und in Rechnung gestellt wird und versandbereit ist, klicken Sie auf **[!UICONTROL Ship]**.
+1. Wenn die Bestellung bezahlt und fakturiert wurde und versandbereit ist, klicken Sie auf **[!UICONTROL Ship]**.
 
-1. Führen Sie die Source-Auswahl für den Versand von Produkten pro Quelle aus:
+1. Schließen Sie die Source-Auswahl für den Versand von Produkten pro Quelle ab:
 
-   - Um Empfehlungen zum Versand anzuzeigen, klicken Sie auf **[!UICONTROL Source Selection Algorithm]** und wählen Sie einen Algorithmus aus.
+   - Um Versandempfehlungen anzuzeigen, klicken Sie auf **[!UICONTROL Source Selection Algorithm]** und wählen Sie einen Algorithmus aus.
 
      | Algorithmus | Beschreibung |
      |--|--|
-     | [Source-Priorität](source-priority-algorithm.md) | Empfiehlt Sendungen aus Quellen entsprechend den Bestellungen der dem Lager zugewiesenen Quellen. |
-     | [Distance Priority](distance-priority-algorithm.md) | Empfiehlt Sendungen aus Quellen, die der Lieferadresse am nächsten sind, auf der Grundlage der physischen Entfernung oder der kürzesten Lieferzeit. |
+     | [Source-Priorität](source-priority-algorithm.md) | empfiehlt Lieferungen aus Quellen entsprechend den Bestellungen der dem Lager zugeordneten Quellen. |
+     | [Priorität der Entfernung](distance-priority-algorithm.md) | empfiehlt Sendungen aus Quellen, die der Versandadresse am nächsten liegen, basierend auf der physischen Entfernung oder der kürzesten Lieferzeit. |
 
      >[!IMPORTANT]
      >
-     >Wenn der Distance Priority-Algorithmus für Versand verwendet wird und Routen und Daten für den ausgewählten [Berechnungsmodus](distance-priority-algorithm.md) (Fahren, Fahren, Fahren oder Gehen) für eine Sendung nicht zurückgegeben werden, wird der SSA-Standardwert für die Source-Priorität verwendet. Es wird empfohlen, auch die [Priorität für Quellen pro Lager](stocks-prioritize-sources.md) festzulegen.
+     >Wenn Sie den Distance Priority-Algorithmus für Versand und Routen verwenden und die Daten für den ausgewählten [Berechnungsmodus) (](distance-priority-algorithm.md), Fahrradfahren oder Gehen) für eine Sendung nicht zurückgegeben werden, verwendet die SSA standardmäßig die Source-Priorität. Es wird empfohlen, auch die [Priorität für Quellen pro Lager) ](stocks-prioritize-sources.md).
 
 
-   - Wählen Sie für **[!UICONTROL Select a Source to Ship from]** eine Quelle aus, an die eine Sendung gesendet werden soll.
+   - Wählen Sie **[!UICONTROL Select a Source to Ship from]** eine Quelle aus, um eine Sendung zu versenden.
 
-   - Behalten Sie für jeden Zeileneintrag den empfohlenen Betrag bei oder geben Sie einen bestimmten Betrag in den Wert **[!UICONTROL Qty to Deduct]** ein. Dieser Wert gibt den Betrag an, der vom Bestand der ausgewählten Quelle abgezogen wird.
+   - Behalten Sie für jeden Zeileneintrag den empfohlenen Betrag bei oder geben Sie einen bestimmten Betrag in die **[!UICONTROL Qty to Deduct]** ein. Dieser Wert gibt den Betrag an, der vom Bestand der ausgewählten Quelle abgezogen wird.
 
    - Klicken Sie auf **[!UICONTROL Proceed to Shipment]**.
 
      ![Wählen Sie eine Source aus und geben Sie eine Menge ein](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. Überprüfen Sie die Seite _[!UICONTROL New Shipment]_und geben Sie bei Bedarf weitere Änderungen ein.
+1. Überprüfen Sie die _[!UICONTROL New Shipment]_Seite und geben Sie bei Bedarf zusätzliche Änderungen ein.
 
-   Im Abschnitt &quot;_[!UICONTROL Inventory]_&quot; werden die Quelle, der Versand von Produkten, die bestellte Gesamtmenge und die zu versendende Menge angezeigt.
+   Im Abschnitt _[!UICONTROL Inventory]_werden die Herkunft, die Lieferprodukte, die bestellte Gesamtmenge und die zu versendende Menge angezeigt.
 
-   ![Inventardetails für die Lieferung, z. B. Teillieferung](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
+   ![Lagerdetails für die Lieferung, z. B. Teillieferung](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 
-1. Klicken Sie auf **[!UICONTROL Submit Shipment]** , um abzuschließen.
+1. Klicken Sie zum Abschluss auf **[!UICONTROL Submit Shipment]** .

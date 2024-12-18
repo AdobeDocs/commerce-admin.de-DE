@@ -1,6 +1,6 @@
 ---
-title: Aktivieren der Asset-Synchronisierung
-description: Erfahren Sie, wie Sie Ihre Adobe Commerce- und Experience Manager Assets-Projekte verbinden, um die Asset-Synchronisierung zwischen diesen beiden Systemen zu ermöglichen.
+title: Asset-Synchronisierung aktivieren
+description: Erfahren Sie, wie Sie Ihre Adobe Commerce- und Experience Manager Assets-Projekte verbinden, um die Synchronisierung von Assets zwischen diesen beiden Systemen zu aktivieren.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
 source-git-commit: e069f0a99ed9289b22cafe06fe2f787912cbba23
@@ -10,57 +10,57 @@ ht-degree: 0%
 
 ---
 
-# Aktivieren der Asset-Synchronisierung
+# Asset-Synchronisierung aktivieren
 
-Während des Aktivierungsprozesses registrieren Sie die Mandantenkennung für das Projekt mit der Programm- und Umgebungs-ID für Ihre AEM Authoring-Umgebung. Diese IDs identifizieren das AEM Assets-Projekt, mit dem Sie eine Verbindung herstellen, und geben die Anmeldeinformationen an, um die Kommunikation zwischen den Commerce- und AEM Assets-Umgebungen zu ermöglichen.
+Während des Aktivierungsprozesses registrieren Sie die Mandanten-ID für das Projekt mithilfe der Programm- und Umgebungs-ID für Ihre AEM-Autorenumgebung. Diese IDs identifizieren das AEM Assets-Projekt, mit dem Sie eine Verbindung herstellen, und geben die Anmeldeinformationen an, um die Kommunikation zwischen der Commerce- und der AEM Assets-Umgebung zu ermöglichen.
 
-Nachdem Sie das AEM Asset-Projekt identifiziert haben, wählen Sie die passende Regel zum Synchronisieren von Assets zwischen Adobe Commerce und AEM Assets aus.
+Nachdem Sie das AEM Assets-Projekt identifiziert haben, wählen Sie die Zuordnungsregel für die Synchronisierung von Assets zwischen Adobe Commerce und AEM Assets aus.
 
-- **[!UICONTROL Match by product SKU]** - Standardregel, die die SKU in den Asset-Metadaten mit der [Commerce-Produkt-SKU](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#sku) abgleicht, um sicherzustellen, dass Assets den richtigen Produkten zugeordnet sind.
+- **[!UICONTROL Match by product SKU]** - Standardregel, die die SKU in den Asset-Metadaten mit der [Commerce-Produkt-SKU](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#sku) abgleicht, um sicherzustellen, dass Assets mit den richtigen Produkten verknüpft sind.
 
-- **[!UICONTROL Custom match]** - Übereinstimmende Regel für komplexere Szenarien oder spezifische Geschäftsanforderungen, für die eine benutzerdefinierte Übereinstimmungslogik erforderlich ist. Die Implementierung benutzerdefinierter Abgleiche erfordert die Entwicklung von benutzerdefiniertem Code in Adobe Developer App Builder, um zu definieren, wie Assets mit Produkten abgeglichen werden. Weitere Details werden bald folgen...
+- **[!UICONTROL Custom match]** - Matching-Regel für komplexere Szenarien oder spezifische Geschäftsanforderungen, die eine benutzerdefinierte Matching-Logik erfordern. Für die Implementierung des benutzerdefinierten Abgleichs ist die Entwicklung von benutzerdefiniertem Code in Adobe Developer App Builder erforderlich, um zu definieren, wie Assets mit Produkten abgeglichen werden. Weitere Details folgen in Kürze…
 
-Verwenden Sie für das erstmalige Onboarding die standardmäßige Regel *Übereinstimmung mit Produkt-SKU* .
+Verwenden Sie für das Onboarding die Standardregel *Übereinstimmung nach Produkt-SKU*.
 
 ## Voraussetzungen
 
-- [Konfigurieren AEM Experience Manager Assets zum Verwalten von Commerce-Assets](#aem-assets-configure-aem)
-- [Installieren und konfigurieren Sie die AEM Assets-Integration für Commerce](#aem-assets-configure-commerce.md) , um die Erweiterung hinzuzufügen und die erforderlichen Anmeldeinformationen und Verbindungen für die Verwendung der Erweiterung zu generieren.
+- [Konfigurieren von AEM Experience Manager Assets zum Verwalten von Commerce-Assets](#aem-assets-configure-aem)
+- [Installieren und konfigurieren Sie die AEM Assets-Integration für Commerce](#aem-assets-configure-commerce.md), um die Erweiterung hinzuzufügen und die erforderlichen Anmeldeinformationen und Verbindungen zur Verwendung der Erweiterung zu generieren.
 
-## Verbindung konfigurieren
+## Konfigurieren der Verbindung
 
-1. Rufen Sie die Projekt- und Umgebungs-ID der [AEM Assets-Autorenumgebung](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start) ab.
+1. Rufen Sie die Projekt- und Umgebungs-ID der ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start)0}AEM Assets-Autorenumgebung ab.[
 
    1. Öffnen Sie die AEM Sites-Konsole und wählen Sie **[!UICONTROL Assets]** aus.
 
-   1. Kopieren und speichern Sie die Projekt- und Umgebungs-IDs aus der URL:<br>`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/`|
+   1. Kopieren Sie die Projekt- und Umgebungs-IDs aus der URL und speichern Sie sie:<br>`https://author-p[Program ID]-e[EnvironmentID].adobeaemcloud.com/`|
 
-1. Öffnen Sie über Commerce Admin die AEM Assets-Integrationskonfiguration.
+1. Öffnen Sie vom Commerce-Administrator aus die AEM Assets-Integrationskonfiguration.
 
-   1. Gehen Sie zu **[!UICONTROL Store]** > Konfiguration > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**.
+   1. Wechseln Sie zu **[!UICONTROL Store]** > Konfiguration > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**.
 
-      ![AEM Assets-Integration aktivieren Sie die Integration](assets/aem-assets-integration-enable-config.png){width="600" zoomable="yes"}
+      ![AEM Assets-Integration aktivieren](assets/aem-assets-integration-enable-config.png){width="600" zoomable="yes"}
 
-1. Geben Sie die AEM Assets-Umgebung **[!UICONTROL Program ID]** und **[!UICONTROL Environment ID]** ein.
+1. Geben Sie die **[!UICONTROL Program ID]** und **[!UICONTROL Environment ID]** der AEM Assets-Umgebung ein.
 
-1. Geben Sie **[!UICONTROL Asset Selector IMS Client ID] ein.
+1. Geben Sie die **[!UICONTROL Asset Selector IMS Client ID] ein.
 
-   Mit der [IMS-ID](../getting-started/adobe-ims-config.md) können Sie AEM Assets in den Seitenaufbau integrieren.
+   Mit [IMS-ID](../getting-started/adobe-ims-config.md) können Sie AEM Assets mit Page Builder integrieren.
 
-1. Wählen Sie [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)** für Authentifizierungsanfragen zwischen Commerce und dem Asset-Abgleichdienst aus.
+1. Wählen Sie die [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment)** für die Authentifizierung von Anfragen zwischen Commerce und dem Asset Matching-Service aus.
 
-1. Erlauben Sie Commerce, eingehende Aktualisierungen von AEM Assets zu akzeptieren, indem Sie **[!UICONTROL Integration enabled]** auf `Yes` setzen.
+1. Zulassen, dass Commerce eingehende Updates von AEM Assets akzeptiert, indem **[!UICONTROL Integration enabled]** auf `Yes` gesetzt wird.
 
-   Nachdem Sie die Integration aktiviert haben, konfigurieren Sie die Asset-Übereinstimmungsregel.
+   Konfigurieren Sie nach der Aktivierung der Integration die Regel für den Asset-Abgleich .
 
-   ![AEM Assets-Integration: Auswahl der Asset-Übereinstimmungsregel](assets/aem-assets-config-matching-rule.png){width="600" zoomable="yes"}
+   ![AEM Assets-Integration - Asset-Übereinstimmungsregel auswählen](assets/aem-assets-config-matching-rule.png){width="600" zoomable="yes"}
 
-1. Definieren Sie die passende Regel für die Asset-Synchronisierung.
+1. Definieren Sie die Zuordnungsregel für die Asset-Synchronisierung.
 
    1. Wählen Sie **[!UICONTROL Match by product SKU]** aus.
 
-   1. Fügen Sie den für Commerce-Produkt-SKUs definierten [AEM Assets-Metadatenfeldnamen](aem-assets-configure-aem.md#configure-metadata) im Feld **[!UICONTROL Match by product SKU attribute name]** hinzu, z. B. `commerce:skus`.
+   1. Fügen Sie den [AEM Assets-Metadatenfeldnamen](aem-assets-configure-aem.md#configure-metadata) der für Commerce-Produkt-SKUs definiert ist, in das **[!UICONTROL Match by product SKU attribute name]** ein, `commerce:skus`. B.
 
-   ![AEM Assets-Integration: Auswahl der Asset-Übereinstimmungsregel](assets/aem-assets-config-matching-rule.png){width="600" zoomable="yes"}
+   ![AEM Assets-Integration - Asset-Übereinstimmungsregel auswählen](assets/aem-assets-config-matching-rule.png){width="600" zoomable="yes"}
 
-1. Wählen Sie **[!UICONTROL Save Config]** aus, um Aktualisierungen anzuwenden und die Asset-Synchronisierung zu starten.
+1. **[!UICONTROL Save Config]** auswählen, um Aktualisierungen anzuwenden und die Synchronisierung der Assets zu starten

@@ -1,6 +1,6 @@
 ---
-title: Produktübersichten
-description: Erfahren Sie, wie Produktbewertungen Ihr Geschäft verbessern und Ihre Produkte glaubwürdiger machen können.
+title: Produktbewertungen
+description: Erfahren Sie, wie Produktbewertungen Ihren Shop verbessern und Ihren Produkten mehr Glaubwürdigkeit verleihen können.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
@@ -10,108 +10,108 @@ ht-degree: 0%
 
 ---
 
-# Produktübersichten
+# Produktbewertungen
 
-Produktüberprüfungen helfen, ein Gefühl der Community zu schaffen, und werden als glaubwürdiger angesehen, als jedes Werbegeld kaufen kann. Tatsächlich geben einige Suchmaschinen Sites mit Produktbewertungen einen höheren Rang als solche ohne. Diejenigen, die Ihre Site finden, indem sie nach einem bestimmten Produkt suchen, ist eine Produktüberprüfung im Wesentlichen die Landingpage Ihres Stores. Produktüberprüfungen helfen den Leuten dabei, Ihr Geschäft zu finden, sie zu binden und oft zum Verkauf zu führen.
+Produktbewertungen tragen dazu bei, ein Gemeinschaftsgefühl aufzubauen, und werden als glaubwürdiger angesehen, als jedes Werbegeld kaufen kann. Tatsächlich geben einige Suchmaschinen Sites mit Produktbewertungen ein höheres Ranking als die ohne. Für diejenigen, die Ihre Site durch die Suche nach einem bestimmten Produkt finden, ist eine Produktbewertung im Wesentlichen die Landingpage Ihres Stores. Produktbewertungen helfen Kunden, Ihren Laden zu finden, sie bei der Stange zu halten und führen oft zum Verkauf.
 
-Commerce verfügt über eine native Produktüberprüfungsfunktion, die Sie über den Administrator verwalten können. Sie können auch eine Erweiterung aus dem [Commerce Marketplace](../getting-started/commerce-marketplace.md) verwenden, um ein gehostetes Überprüfungsmanagementsystem zu verwenden.
+Commerce enthält eine native Funktion zur Produktüberprüfung, die Sie über den Administrator verwalten können. Sie können auch eine Erweiterung von der [Commerce Marketplace](../getting-started/commerce-marketplace.md) verwenden, um ein gehostetes Überprüfungsverwaltungssystem zu verwenden.
 
 >[!NOTE]
 >
->Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source umfassten die vom Yotpo-Anbieter entwickelte Erweiterung. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Paket mit der Kernversion enthalten und muss über die Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
+>Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source enthielten die vom Yotpo-Anbieter entwickelte -Erweiterung. Ab Version 2.4.4 ist diese Erweiterung nicht mehr mit der Hauptversion gebündelt und muss von der Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
 ><br><br>
->Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Composer.json-Datei im Rahmen des Aktualisierungsprozesses von 2.4.4 aktualisieren und zukünftige Erweiterungs-Updates verwalten. Weitere Informationen finden Sie unter [Aktualisierungsmodule](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Aktualisierungshandbuch_.
+>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Upgrade-Handbuch_ für weitere Informationen.
 
-## Produktüberprüfungen auf der Storefront
+## Produktbewertungen in der Storefront
 
-Wenn die native Funktion &quot;Produktüberprüfungen&quot;aktiviert ist, können Kunden Bewertungen für jedes Produkt in Ihrem Katalog schreiben. Bewertungen können über die Produktseite geschrieben werden, indem Sie auf Folgendes klicken:
+Wenn die native Funktion für Produktbewertungen aktiviert ist, können Kunden für jedes Produkt in Ihrem Katalog Bewertungen schreiben. Bewertungen können über die Produktseite geschrieben werden, indem Sie auf Folgendes klicken:
 
-- **Fügen Sie Ihre Überprüfung hinzu** für Produkte mit vorhandenen Bewertungen.
+- **Fügen Sie Ihre Bewertung** für Produkte mit vorhandenen Bewertungen hinzu.
 
-- **Seien Sie der Erste, der dieses Produkt überprüft** für Produkte ohne vorhandene Bewertungen.
+- **Seien Sie der erste, der dieses Produkt bewertet** für Produkte ohne bestehende Bewertungen.
 
 Auf der Registerkarte [!UICONTROL Reviews] werden alle aktuellen Überprüfungen und das Formular aufgelistet, das zum Senden einer Überprüfung verwendet wurde.
 
-Ihre Konfiguration bestimmt, ob Kunden ein Konto bei Ihrem Store öffnen müssen, bevor sie Produktüberprüfungen schreiben, oder ob sie Bewertungen als Gäste einreichen können. Die Anforderung, dass Überprüfer ein Konto öffnen müssen, verhindert anonyme Übermittlungen und verbessert die Qualität von Überprüfungen.
+Ihre Konfiguration bestimmt, ob Kundinnen und Kunden ein Konto bei Ihrem Store eröffnen müssen, bevor sie Produktbewertungen schreiben, oder ob sie Bewertungen als Gäste senden können. Die Anforderung, dass Überprüfende ein Konto eröffnen müssen, verhindert anonyme Übermittlungen und verbessert die Qualität der Überprüfungen.
 
-![Beispiel-Storefront - Hinzufügen Ihres Reviews](./assets/storefront-review-this-product.png){width="700" zoomable="yes"}
+![Beispiel-Storefront - Fügen Sie Ihre Bewertung hinzu](./assets/storefront-review-this-product.png){width="700" zoomable="yes"}
 
-Die Anzahl der Sterne zeigt die Zufriedenheitsbewertung des Produkts. Besucher können auf den Link klicken, um die Bewertungen zu lesen und ihre eigenen zu schreiben. Als Anreiz können Kunden Belohnungspunkte für die Einreichung einer Überprüfung erhalten. Wenn eine Überprüfung gesendet wird, wird sie zur Moderation an den Administrator gesendet. Nach der Genehmigung wird die Überprüfung in Ihrem Store veröffentlicht.
+Die Anzahl der Sterne gibt die Zufriedenheitsbewertung des Produkts an. Besucher können auf den Link klicken, um die Rezensionen zu lesen und ihre eigenen zu schreiben. Als Anreiz können Kunden Prämienpunkte für die Einreichung einer Bewertung erhalten. Wenn eine Überprüfung eingereicht wird, wird sie zur Moderation an den Administrator gesendet. Nach der Genehmigung wird die Überprüfung in Ihrem Store veröffentlicht.
 
-![Beispiel-Storefront - Registerkarte &quot;Überprüfungen&quot;](./assets/storefront-reviews-tab.png){width="700" zoomable="yes"}
+![Beispiel-Storefront - Registerkarte „Überprüfungen“](./assets/storefront-reviews-tab.png){width="700" zoomable="yes"}
 
 ### [!UICONTROL My Product Reviews]
 
-Im Abschnitt &quot;_[!UICONTROL My Product Reviews]_&quot; des Dashboards &quot;Kundenkonto&quot;werden alle vom Kunden eingereichten und zur Veröffentlichung genehmigten Rezensionen aufgelistet. Jede Reviewzusammenfassung enthält das Datum, an dem die Überprüfung eingereicht wurde, Links zur Produktseite und Reviewdetails.
+Im Abschnitt _[!UICONTROL My Product Reviews]_des Kundenkonto-Dashboards werden alle vom Kunden eingereichten und zur Veröffentlichung genehmigten Bewertungen aufgelistet. Jede Überprüfungszusammenfassung enthält das Datum, an dem die Überprüfung eingereicht wurde, Links zur Produktseite und Details zur Überprüfung.
 
-![Meine Produktübersichten](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
+![Meine Produktbewertungen](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
 1. In der Seitenleiste seines Kontos wählt der Kunde **[!UICONTROL My Product Reviews]** aus.
 
-1. Klicken Sie auf &quot;**[!UICONTROL See Details]**&quot;, um die vollständige Überprüfung anzuzeigen.
+1. Um die vollständige Überprüfung anzuzeigen, klicken Sie auf **[!UICONTROL See Details]**.
 
-   ![Prüfungsdetails](./assets/account-dashboard-my-product-reviews-details.png){width="700" zoomable="yes"}
+   ![Details überprüfen](./assets/account-dashboard-my-product-reviews-details.png){width="700" zoomable="yes"}
 
-## Funktionen zur Produktüberprüfung aktivieren
+## Produktüberprüfungsfunktionen aktivieren
 
-Die Funktion Commerce Product Reviews ist standardmäßig aktiviert.
+Die Commerce-Produktüberprüfungsfunktion ist standardmäßig aktiviert.
 
 >[!NOTE]
 >
->Um diese Felder auf `No` festzulegen und die Commerce-Produktüberprüfungen zu deaktivieren, müssen Sie die Kontrollkästchen **Systemwert verwenden** deaktivieren.
+>Um diese Felder zum `No` und Deaktivieren von Commerce-Produktüberprüfungen festzulegen, müssen Sie die Kontrollkästchen **Systemwert verwenden** deaktivieren.
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich den Eintrag **[!UICONTROL Catalog]** und wählen Sie unter &quot;**[!UICONTROL Catalog]**&quot;aus.
+1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen Sie darunter **[!UICONTROL Catalog]** aus.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Product Reviews]** .
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Product Reviews]** .
 
-   ![Katalogkonfiguration - Commerce-Produktübersichten](../configuration-reference/catalog/assets/catalog-product-reviews.png){width="600" zoomable="yes"}
+   ![Katalogkonfiguration - Commerce-Produktbewertungen](../configuration-reference/catalog/assets/catalog-product-reviews.png){width="600" zoomable="yes"}
 
-1. Setzen Sie **[!UICONTROL Enabled]** auf `Yes`.
+1. Legen Sie **[!UICONTROL Enabled]** auf `Yes` fest.
 
    Dies ist die Standardeinstellung, die Produktüberprüfungen ermöglicht.
 
-1. Setzen Sie **[!UICONTROL Allow Guests to Write Reviews]** auf `Yes`.
+1. Legen Sie **[!UICONTROL Allow Guests to Write Reviews]** auf `Yes` fest.
 
-   Dies ist die Standardeinstellung, die bestimmt, ob Kunden ein Konto mit Ihrem Store öffnen müssen, um Produktüberprüfungen schreiben zu können.
+   Dies ist die Standardeinstellung, die bestimmt, ob Kunden ein Konto bei Ihrem Geschäft eröffnen müssen, um Produktbewertungen schreiben zu können.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-## Benutzerdefinierte Bewertungen erstellen
+## Erstellen benutzerdefinierter Bewertungen
 
-Mit den Commerce-Produktüberprüfungen können Kunden Bewertungen zuweisen, wenn sie eine Produktüberprüfung einreichen. Die Standardbewertungen sind Qualität, Preis und Wert. Zusätzlich können Sie Ihre eigenen benutzerdefinierten Bewertungen hinzufügen. Die auf den Katalogseiten angezeigten Fünf-Sterne-Bewertungen werden für jedes Produkt im Durchschnitt ermittelt.
+Mit den Commerce-Produktbewertungen können Kunden Bewertungen zuweisen, wenn sie eine Produktbewertung senden. Die Standardbewertungen sind Qualität, Preis und Wert. Darüber hinaus können Sie Ihre eigenen benutzerdefinierten Bewertungen hinzufügen. Die fünf Sterne, die auf Katalogseiten angezeigt werden, werden für jedes Produkt gemittelt.
 
-![Beispiel-Storefront - benutzerdefinierte Bewertungen](./assets/attribute-custom-ratings-review.png){width="700" zoomable="yes"}
+![Beispiel-Storefront - Benutzerdefinierte Bewertungen](./assets/attribute-custom-ratings-review.png){width="700" zoomable="yes"}
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Rating]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Rating]**.
 
-1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Add New Rating]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Add New Rating]**.
 
-   ![Admin - Bewertungen](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
+   ![Admin - Ratings](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Geben Sie im Abschnitt _[!UICONTROL Rating Title]_den Wert **[!UICONTROL Default Value]**für die neue Bewertung ein.
+1. Geben Sie im Abschnitt _[!UICONTROL Rating Title]_die **[!UICONTROL Default Value]**für die neue Bewertung ein.
 
-   Geben Sie ggf. auch die Übersetzung für jede Store-Ansicht ein.
+   Geben Sie gegebenenfalls auch die Übersetzung für jede Shop-Ansicht ein.
 
    ![Einstellungen für Bewertungstitel](./assets/product-rating-title.png){width="600" zoomable="yes"}
 
-1. Legen Sie im Abschnitt _Rating Visibility_ **[!UICONTROL Visibility In]** auf die Store-Ansicht fest, in der die Bewertung verwendet werden soll.
+1. Legen _im Abschnitt „Rating_ Sichtbarkeit“ **[!UICONTROL Visibility In]** auf die Store-Ansicht fest, in der die Bewertung verwendet werden soll.
 
-   Um mehrere Store-Ansichten auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jedes Element.
+   Um mehrere Store-Ansichten auszuwählen, halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken Sie auf die einzelnen Elemente.
 
    >[!NOTE]
    >
    >Bewertungen sind nur sichtbar, wenn sie einer Store-Ansicht zugewiesen sind.
 
-1. Geben Sie für **[!UICONTROL Sort Order]** eine Zahl ein, um die Reihenfolge dieser Bewertung bei der Auflistung mit anderen zu bestimmen.
+1. Geben Sie **[!UICONTROL Sort Order]** eine Zahl ein, um die Reihenfolge dieser Bewertung zu bestimmen, wenn sie mit anderen aufgelistet wird.
 
 1. Wenn Sie Ihre Bewertung auf der Storefront anzeigen möchten, aktivieren Sie das Kontrollkästchen **[!UICONTROL Is Active]** .
 
-   ![Sichtbarkeitseinstellungen für Bewertungen](./assets/product-rating-visibility.png){width="600" zoomable="yes"}
+   ![Einstellungen für die Bewertungssichtbarkeit](./assets/product-rating-visibility.png){width="600" zoomable="yes"}
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Rating]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Rating]**.
 
-   Die durchschnittliche Bewertung aller Bewertungen wird für jedes Produkt auf der Raster-Seite des Katalogprodukts angezeigt.
+   Die durchschnittliche Bewertung für alle Bewertungen wird für jedes Produkt auf der Seite Katalogproduktraster angezeigt.
 
    ![Katalogseite](./assets/catalog-rating-page.png){width="700" zoomable="yes"}

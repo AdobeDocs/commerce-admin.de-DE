@@ -1,6 +1,6 @@
 ---
-title: Mehrwertsteuer (MwSt)
-description: hier hinzufügen&gt;
+title: Mehrwertsteuer (MwSt.)
+description: Beschreibung hinzufügen&gt;
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
@@ -10,322 +10,322 @@ ht-degree: 0%
 
 ---
 
-# Mehrwertsteuer (MwSt)
+# Mehrwertsteuer (MwSt.)
 
-Einige Länder erheben eine Mehrwertsteuer auf Waren und Dienstleistungen. Je nach der Stufe des Herstellungs- oder Vertriebsprozesses, der Materialien oder der Dienstleistungen, die Sie an Ihre Kunden verkaufen, kann es unterschiedliche Mehrwertsteuersätze geben. Sie können mehrere MwSt.-Sätze anwenden, um die fällige Steuer korrekt zu berechnen.
+Einige Länder erheben auf Waren und Dienstleistungen eine Mehrwertsteuer (MwSt.). Je nach Phase des Herstellungs- oder Vertriebsprozesses, der Materialien oder Dienstleistungen, die Sie an Ihre Kunden verkaufen, kann es unterschiedliche Mehrwertsteuersätze geben. Sie können mehr als einen Mehrwertsteuersatz anwenden, um die fällige Steuer korrekt zu berechnen.
 
-Commerce kann so konfiguriert werden, dass eine Mehrwertsteuer auf der Grundlage der Händler- oder Kundenadresse berechnet wird, wenn beide im selben Land liegen. Die MwSt-Berechnungen basieren in der Regel auf dem Bestimmungsort der Lieferung und nicht auf dem Ursprungsort. In den meisten Szenarien ist eine Konfigurationseinstellung ausreichend, die die Mehrwertsteuer auf der Grundlage der Lieferadresse des Kunden berechnet.
+Commerce kann so konfiguriert werden, dass eine Mehrwertsteuer auf der Grundlage der Händleradresse oder Kundenadresse erhoben wird, wenn sich beide im selben Land befinden. Die MwSt.-Berechnungen basieren in der Regel auf dem Bestimmungsort der Sendung und nicht auf dem Ursprungsort. In den meisten Szenarien reicht eine Konfigurationseinstellung aus, bei der die MwSt. anhand der Lieferadresse des Kunden berechnet wird.
 
 ## Beispielszenarien
 
-- Für ein mehrwertsteuerpflichtiges Unternehmen in einem EU-Land, das Waren an eine Privatperson in einem anderen EU-Land liefert, wird die Mehrwertsteuer als &quot;Fernverkauf&quot;berechnet, der auf dem Standort des Händlers basiert.
+- Für ein in einem EU-Land registriertes Unternehmen, das Gegenstände an eine Privatperson in einem anderen EU-Land liefert, wird die MwSt anhand des Standorts eines Händlers als „Fernverkauf“ berechnet.
 
-- Ein Unternehmen in den Niederlanden, das einen Kauf bei einem Geschäft im Vereinigten Königreich tätigt, das an eine Adresse im Vereinigten Königreich verschickt wird, muss die britischen Mehrwertsteuersätze entrichten.
+- Ein Unternehmen in den Niederlanden, das einen Kauf in einem Geschäft in Großbritannien tätigt, das an eine Adresse in Großbritannien versendet, muss die Mehrwertsteuersätze in Großbritannien zahlen.
 
-- Für den Verkauf von [herunterladbaren Produkten](../catalog/product-create-downloadable.md) oder _digitalen Gütern_ basiert der Mehrwertsteuersatz auf dem Versandziel und nicht auf dem Händlerstandort. Siehe [Lieferort für digitale Waren](taxes.md#place-of-supply-for-digital-goods-eu).
+- Beim Verkauf von [herunterladbaren Produkten](../catalog/product-create-downloadable.md) oder _digitalen Waren_ basiert der Mehrwertsteuersatz auf dem Versandziel und nicht auf dem Standort des Händlers. Siehe [Ort der Lieferung digitaler Güter](taxes.md#place-of-supply-for-digital-goods-eu).
 
 >[!TIP]
 >
->Einige grenzüberschreitende Sendungen und B2B-Sendungen haben komplexere steuerliche Anforderungen. Um die nativen Funktionen Ihrer Commerce-Installation zu erweitern, sollten Sie eine Steuerverwaltungslösung vom [Marketplace](https://marketplace.magento.com/extensions/accounting-finance/taxes.html) hinzufügen.
+>Einige grenzüberschreitende und B2B-Sendungen unterliegen komplexeren Steuervorschriften. Um die nativen Funktionen Ihrer Commerce-Installation zu erweitern, sollten Sie eine Steuerverwaltungslösung vom [Marketplace](https://marketplace.magento.com/extensions/accounting-finance/taxes.html) hinzufügen.
 
-## Mehrwertsteuer konfigurieren
+## Konfigurieren von MwSt.
 
-Die folgenden Anweisungen enthalten ein Stichprobenverfahren zur Einrichtung einer Mehrwertsteuer von 20 % im Vereinigten Königreich für den Verkauf an Einzelhändler. Für andere Steuersätze und Länder folgen Sie dem allgemeinen Verfahren, geben jedoch spezifische Informationen ein, die Ihrem Land, Ihrem Mehrwertsteuersatz, Ihren Kundentypen usw. entsprechen.
+Die folgenden Anweisungen enthalten ein Beispielverfahren für die Einrichtung einer 20%igen Mehrwertsteuer im Vereinigten Königreich für Verkäufe an Einzelhandelskunden. Für andere Steuersätze und Länder folgen Sie dem allgemeinen Verfahren, geben Sie jedoch spezifische Informationen ein, die Ihrem Land, Mehrwertsteuersatz, Kundentypen usw. entsprechen.
 
 >[!NOTE]
 >
->Stellen Sie vor dem Fortfahren sicher, dass Sie herausfinden, welche Vorschriften und Vorschriften in Ihrem Bereich für die Mehrwertsteuer gelten.
+>Bevor Sie fortfahren, informieren Sie sich darüber, welche Regeln und Vorschriften in Ihrem Bereich für die Mehrwertsteuer gelten.
 
-Bei bestimmten unternehmensübergreifenden Umsätzen wird die Mehrwertsteuer nicht bewertet. Commerce kann die MwSt-ID eines Kunden validieren, um sicherzustellen, dass die MwSt richtig bewertet (oder nicht bewertet) wird. Siehe [Validierung der MwSt-ID](#vat-id-validation).
+Bei bestimmten Umsätzen zwischen Unternehmen wird die MwSt nicht erhoben. Commerce kann die MwSt.-ID eines Kunden validieren, um sicherzustellen, dass die MwSt. ordnungsgemäß berechnet (oder nicht berechnet) wird. Siehe [Validierung der MwSt.-ID](#vat-id-validation).
 
-### Schritt 1: Einrichten von Kundensteuerklassen
+### Schritt 1: Einrichten von Steuerklassen für Debitoren
 
-Der Prozess der Erstellung einer Steuerregel beginnt mit der Hinzufügung eines Steuersatzes.
+Der Prozess der Erstellung einer Steuerregel beginnt mit dem Hinzufügen eines Steuersatzes.
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
-   ![Einrichten von Kundensteuerklassen](./assets/vat-zones.png){width="600" zoomable="yes"}
+   ![Einrichten von Debitorensteuerklassen](./assets/vat-zones.png){width="600" zoomable="yes"}
 
-1. Stellen Sie sicher, dass eine für die Verwendung mit der Mehrwertsteuer geeignete Kundensteuerklasse vorhanden ist.
+1. Stellen Sie sicher, dass es eine Steuerklasse für den Kunden gibt, die mit der MwSt. verwendet werden kann.
 
-   Stellen Sie für dieses Beispiel sicher, dass es eine Kundensteuerklasse mit dem Namen _Einzelhandelskunden_ gibt. Wenn diese Steuerklasse nicht vorhanden ist, klicken Sie auf **[!UICONTROL Add New Tax Rate]**.
+   Stellen Sie für dieses Beispiel sicher, dass es eine Steuerklasse für Kunden namens &quot;_&quot;_. Wenn diese Steuerklasse nicht vorhanden ist, klicken Sie auf **[!UICONTROL Add New Tax Rate]**.
 
 1. Geben Sie die **[!UICONTROL Tax Identifier]** für die neue Steuerklasse ein.
 
-   Alle Steuersätze werden beim Erstellen von Steuerregeln im Feld _Steuersatz_ in den _Informationen zu Steuerregeln_ angezeigt.
+   Alle Steuersätze werden im Feld _Steuersatz_ unter „Informationen _Steuerregeln_ angezeigt, wenn Sie Steuerregeln erstellen.
 
-1. Um den Postleitzahlbereich (von / bis) festzulegen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Zip/Post is Range]** .
+1. Um den Bereich der Postleitzahl (von / bis) festzulegen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Zip/Post is Range]** .
 
 1. Wählen Sie die **[!UICONTROL Country]** aus, für die der Steuersatz gilt.
 
-1. Geben Sie die **[!UICONTROL Rate Percent]** ein, die bei Kauf für die Berechnung des Steuersatzes verwendet werden soll.
+1. Geben Sie die **[!UICONTROL Rate Percent]** ein, die für die Berechnung des Steuersatzes beim Kauf verwendet werden soll.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Rate]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Rate]**.
 
-Basierend auf dem übermittelten Steuersatz können Sie nachfolgende Steuerregeln erstellen. Ohne Steuersätze wird die Schaffung von Steuervorschriften unmöglich.
+Basierend auf dem übermittelten Steuersatz können Sie nachfolgende Steuerregeln erstellen. Wenn es keine Steuersätze gibt, wird die Schaffung von Steuervorschriften unmöglich.
 
 ### Schritt 2: Einrichten von Produktsteuerklassen
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
 
 1. Klicken Sie auf **[!UICONTROL Add New Tax Rule]**.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Additional Settings]** .
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Additional Settings]** .
 
-   ![Einrichten von Produktsteuerklassen](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
+   ![Produktsteuerklassen einrichten](./assets/tax-class-additional-settings.png){width="600" zoomable="yes"}
 
-1. Klicken Sie unter _Produktsteuerklasse_ auf **[!UICONTROL Add New Tax Class]**.
+1. Klicken _unter „Produktsteuerklasse_ auf **[!UICONTROL Add New Tax Class]**.
 
-1. Um die neue Klasse zur Liste der verfügbaren Produktsteuerklassen hinzuzufügen und drei neue Klassen zu erstellen, geben Sie den Wert **[!UICONTROL Name]** der neuen Steuerklasse ein und klicken Sie auf das Häkchen:
+1. Um die neue Klasse zur Liste der verfügbaren Produktsteuerklassen hinzuzufügen und drei neue Klassen zu erstellen, geben Sie den **[!UICONTROL Name]** der neuen Steuerklasse ein und klicken Sie auf das Häkchen:
 
    - `VAT Standard`
    - `VAT Reduced`
    - `VAT Zero`
 
-1. Klicken Sie für jede neue Klasse, die Sie hinzufügen, auf &quot;**[!UICONTROL Save Class]**&quot;.
+1. Klicken Sie für jede neue Klasse, die Sie hinzufügen, auf **[!UICONTROL Save Class]** .
 
 1. Klicken Sie auf **[!UICONTROL Save Rule]**.
 
 ### Schritt 3: Einrichten von Steuerzonen und Steuersätzen
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
-   In diesem Beispiel können Sie die US-Steuersätze entfernen oder so lassen, wie sie sind.
+   In diesem Beispiel können Sie die US-Steuersätze entfernen oder sie unverändert lassen.
 
 1. Klicken Sie auf **[!UICONTROL Add New Tax Rate]**.
 
    ![Einrichten von Steuerzonen und Steuersätzen](./assets/tax-rate-create-new.png){width="600" zoomable="yes"}
 
-1. Definieren Sie neue Tarife wie folgt:
+1. Definieren Sie die neuen Sätze wie folgt:
 
-   **MwSt-Standard**
+   **MwSt.-**
 
-   - Steuerkennung: `VAT Standard`
-   - Land und Bundesland: `United Kingdom`
-   - Rate Percent: `20.00`
+   - Steuernummer: `VAT Standard`
+   - Land und Staat: `United Kingdom`
+   - Rate Prozent: `20.00`
 
    **Ermäßigte Mehrwertsteuer**
 
-   - Steuerkennung: `VAT Reduced`
-   - Land und Bundesland: `United Kingdom`
-   - Rate Percent: `5.00`
+   - Steuernummer: `VAT Reduced`
+   - Land und Staat: `United Kingdom`
+   - Rate Prozent: `5.00`
 
-1. Klicken Sie für jede Rate auf **[!UICONTROL Save Rate]** .
+1. Für jeden Tarif auf **[!UICONTROL Save Rate]** klicken.
 
 ### Schritt 4: Einrichten von Steuerregeln
 
-Eine Steuerregel ist eine Kombination aus einer Kundensteuerklasse, einer Produktsteuerklasse und einem Steuersatz.
+Eine Steuerregel ist eine Kombination aus einer Debitorensteuerklasse, einer Produktsteuerklasse und einem Steuersatz.
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
 
-1. Fügen Sie neue Steuervorschriften wie folgt hinzu:
+1. Fügen Sie neue Steuerregeln wie folgt hinzu:
 
-   **MwSt-Standard**
+   **MwSt.-**
 
    - Name: `VAT Standard`
-   - Kundensteuerklasse: `Retail Customer`
-   - Produktsteuerklasse: `VAT Standard`
+   - Debitorensteuerklasse: `Retail Customer`
+   - Produkt-Steuerklasse: `VAT Standard`
    - Steuersatz: `VAT Standard Rate`
 
-   **reduzierte Mehrwertsteuer**
+   **Ermäßigte MwSt**
 
    - Name: `VAT Reduced`
-   - Kundensteuerklasse: `Retail Customer`
-   - Produktsteuerklasse: `VAT Reduced`
+   - Debitorensteuerklasse: `Retail Customer`
+   - Produkt-Steuerklasse: `VAT Reduced`
    - Steuersatz: `VAT Reduced Rate`
 
-1. Klicken Sie für jede Rate auf **[!UICONTROL Save Rule]** .
+1. Für jeden Tarif auf **[!UICONTROL Save Rule]** klicken.
 
 ### Schritt 5: Anwenden von Steuerklassen auf Produkte
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
 
 1. Öffnen Sie ein Produkt aus Ihrem Katalog im Bearbeitungsmodus.
 
-1. Suchen Sie auf der Seite _Allgemein_ die Option **[!UICONTROL Tax Class]** und wählen Sie die Option **[!UICONTROL VAT Class]** aus, die für das Produkt gilt.
+1. Suchen Sie auf der _Allgemein_ die Option **[!UICONTROL Tax Class]** und wählen Sie die **[!UICONTROL VAT Class]** aus, die für das Produkt gilt.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
    ![Anwenden von Steuerklassen auf Produkte](./assets/vat-apply-classes.png){width="600" zoomable="yes"}
 
 ## Feldbeschreibungen
 
-### Store-Informationen
+### Informationen speichern
 
-Commerce verwendet die folgenden [Konfigurationseinstellungen für Speicherinformationen](../configuration-reference/general/general.md#store-information), um die Mehrwertsteuer auf der Grundlage von Händlerinformationen zu berechnen.
+Commerce verwendet die folgenden [Konfigurationseinstellungen für Store-Informationen](../configuration-reference/general/general.md#store-information), um die MwSt. auf der Grundlage von Händlerinformationen zu berechnen.
 
-**[!UICONTROL VAT Number]** - Die dem Händler zugewiesene Mehrwertsteuernummer.
+**[!UICONTROL VAT Number]** - Die Mehrwertsteuernummer, die dem Händler zugewiesen wird.
 
-**[!UICONTROL Validate VAT Number]** - [MwSt-Validierung](#vat-id-validation) bestätigt, dass die MwSt-Nummer mit dem entsprechenden Datensatz in der Datenbank [Europäische Kommission](https://ec.europa.eu/taxation_customs/vies/) übereinstimmt.
+**[!UICONTROL Validate VAT Number]** - [MwSt-Validierung](#vat-id-validation) bestätigt, dass die MwSt-Nummer mit dem entsprechenden Datensatz in der Datenbank der [Europäischen Kommission](https://ec.europa.eu/taxation_customs/vies/) übereinstimmt.
 
 ### Kundeninformationen
 
-Commerce verwendet die folgenden Felder, um die Mehrwertsteuer auf der Grundlage von [Kundeninformationen](../customers/account-dashboard-account-information.md) zu berechnen.
+Commerce verwendet die folgenden Felder, um die MwSt. anhand von [Kundeninformationen](../customers/account-dashboard-account-information.md) zu berechnen.
 
 #### Kontoinformationen
 
-**[!UICONTROL Tax/VAT Number]** - Falls zutreffend, die dem Kunden zugewiesene Steuernummer oder Mehrwertsteuernummer.
+**[!UICONTROL Tax/VAT Number]** - Falls zutreffend, die Steuernummer oder Umsatzsteuernummer, die dem Kunden zugeordnet ist.
 
 #### Adressen
 
-**[!UICONTROL VAT Number]** - Falls zutreffend, die Mehrwertsteuer-Nummer, die mit einer bestimmten Abrechnungs- oder Lieferadresse des Kunden verknüpft ist. Für den Verkauf von [digitalen Gütern](taxes.md#place-of-supply-for-digital-goods-eu)) innerhalb der EU richtet sich der Mehrwertsteuerbetrag nach dem Versandziel.
+**[!UICONTROL VAT Number]** - Falls zutreffend, die Umsatzsteuernummer, die mit einer bestimmten Rechnungs- oder Lieferadresse des Kunden verknüpft ist. Für den Verkauf von [digitalen Waren](taxes.md#place-of-supply-for-digital-goods-eu) innerhalb der EU basiert der Mehrwertsteuerbetrag auf dem Bestimmungsort des Versands.
 
 ### Kundenkonto
 
-Commerce verwendet die folgenden [Kundenkonfigurationseinstellungen](../customers/account-options-new.md) zur Berechnung der Mehrwertsteuer.
+Commerce verwendet die folgenden [Kundenkonfigurationseinstellungen](../customers/account-options-new.md) zur Berechnung der MwSt.
 
-**[!UICONTROL Show VAT Number on Storefront]** - Stellt fest, ob das Feld &quot;MwSt.-Nummer des Kunden&quot;im Adressbuch enthalten ist, das im Kundenkonto verfügbar ist.
+**[!UICONTROL Show VAT Number on Storefront]** - Bestimmt, ob das Feld „MwSt.-Nummer des Kunden“ im Adressbuch enthalten ist, das im Kundenkonto verfügbar ist.
 
-**[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]** - Die MwSt-ID ist eine interne Kennung für die MwSt-Nummer des Kunden bei der Verwendung in der MwSt-Validierung. Während der MwSt-Validierung bestätigt Commerce, dass die Zahl mit der Datenbank [Europäische Kommission](https://ec.europa.eu/taxation_customs/vies/) übereinstimmt. Kunden können basierend auf den Validierungsergebnissen automatisch einer der vier standardmäßigen Kundengruppen zugewiesen werden.
+**[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]** - MwSt.-ID ist eine interne Kennung für die MwSt.-Nummer des Kunden bei Verwendung in der MwSt.-Validierung. Bei der Mehrwertsteuervalidierung bestätigt Commerce, dass die Nummer mit der Datenbank [Europäische Kommission](https://ec.europa.eu/taxation_customs/vies/) übereinstimmt. Kunden können basierend auf den Validierungsergebnissen automatisch einer der vier Standardkundengruppen zugewiesen werden.
 
-## MwSt-ID-Validierung
+## Validierung der MwSt.-Kennung
 
-_MwSt.-ID-Validierung_ berechnet anhand des Gebietsschemas für Händler und Kunden automatisch die erforderliche Steuer für B2B-Transaktionen, die innerhalb der Europäischen Union (EU) stattfinden. Commerce führt die MwSt-ID-Validierung mithilfe der Webdienste des Servers [Europäische Kommission][1] durch.
+_VAT ID Validation_ berechnet automatisch die erforderliche Steuer für B2B-Transaktionen, die innerhalb der Europäischen Union (EU) stattfinden, basierend auf dem Gebietsschema des Händlers und Kunden. Commerce führt die Validierung der MwSt.-Nummer mithilfe der Webservices des Servers [Europäische Kommission][1] durch.
 
 >[!NOTE]
 >
->MwSt-bezogene Steuervorschriften beeinflussen andere Steuervorschriften nicht und verhindern nicht die Anwendung anderer Steuervorschriften. Es kann jeweils nur eine Steuerregel angewendet werden.
+>MwSt-bezogene Steuervorschriften beeinflussen andere Steuervorschriften nicht und stehen der Anwendung anderer Steuervorschriften nicht entgegen. Es kann jeweils nur eine Steuerregel angewendet werden.
 
-- Die Mehrwertsteuer wird erhoben, wenn sich der Händler und der Kunde in demselben EU-Land befinden.
-- Die Mehrwertsteuer wird nicht erhoben, wenn sich der Händler und der Kunde in verschiedenen EU-Ländern befinden und beide Parteien in der EU registrierte Unternehmen sind.
+- Die MwSt wird erhoben, wenn sich der Händler und der Kunde im selben EU-Land befinden.
+- Die MwSt wird nicht erhoben, wenn sich der Händler und der Kunde in verschiedenen EU-Ländern befinden und beide Parteien in der EU eingetragene Unternehmen sind.
 
-Der Store-Administrator erstellt mehr als eine Standard-Kundengruppe, die dem Kunden bei der Kontoerstellung, der Adresserstellung oder -aktualisierung und beim Checkout automatisch zugewiesen werden kann. Infolgedessen werden für innerstaatliche (inländische) und innergemeinschaftliche Verkäufe unterschiedliche Steuervorschriften angewandt.
+Der Store-Administrator erstellt mehr als eine standardmäßige Kundengruppe, die dem Kunden während der Kontoerstellung, der Adresserstellung oder -aktualisierung und des Checkouts automatisch zugewiesen werden kann. Dies hat zur Folge, dass für innerstaatliche (Inlands-) und innergemeinschaftliche Verkäufe unterschiedliche Steuervorschriften gelten.
 
 >[!IMPORTANT]
 >
->Wenn Sie virtuelle oder herunterladbare Produkte verkaufen, für die kein Versand erforderlich ist, sollte der MwSt.-Satz des Landes des Kunden sowohl für den innergemeinschaftlichen als auch für den inländischen Verkauf verwendet werden. Erstellen Sie zusätzliche individuelle Steuerregeln für Produktsteuerklassen, die den virtuellen Produkten entsprechen.
+>Wenn Sie virtuelle oder herunterladbare Produkte verkaufen, für die kein Versand erforderlich ist, sollte der MwSt.-Satz des Landes, in dem sich der Kunde befindet, sowohl für innergemeinschaftliche als auch für inländische Verkäufe verwendet werden. Erstellen Sie zusätzliche individuelle Steuerregeln für Produktsteuerklassen, die den virtuellen Produkten entsprechen.
 
-### Workflow zur Kundenregistrierung
+### Registrierungs-Workflow für Kunden
 
-Wenn die Validierung der MwSt-ID aktiviert ist, wird jedem Kunden nach seiner Registrierung die Angabe der MwSt-ID-Nummer vorgeschlagen. Es wird jedoch erwartet, dass nur Kunden, die MwSt-Kunden sind, dieses Feld ausfüllen.
+Wenn die Validierung der MwSt.-ID aktiviert ist, wird jedem Kunden nach der Registrierung vorgeschlagen, die MwSt.-ID-Nummer einzugeben. Dieses Feld wird jedoch nur von Käufern ausgefüllt, die registrierte MwSt-Kunden sind.
 
-Nachdem ein Kunde die MwSt.-Nummer und andere Adressfelder angegeben und sich für die Speicherung entschieden hat, speichert das System die Adresse und sendet den MwSt.-ID-Validierungsantrag an den Server der Europäischen Kommission. Gemäß den Ergebnissen der Validierung wird eine der Standardgruppen einem Kunden zugewiesen. Diese Gruppe kann geändert werden, wenn ein Kunde oder Administrator die Mehrwertsteuer-ID der Standardadresse ändert oder die gesamte Standardadresse ändert. Manchmal kann die Gruppe während des einmaligen Auscheckens vorübergehend geändert werden (Gruppenänderung wird emuliert).
+Nachdem ein Kunde die MwSt.-Nummer und andere Adressfelder angegeben und die Speicherung ausgewählt hat, speichert das System die Adresse und sendet die MwSt.-ID-Validierungsanfrage an den Server der Europäischen Kommission. Gemäß den Ergebnissen der Validierung wird einem Kunden eine der Standardgruppen zugewiesen. Diese Gruppe kann geändert werden, wenn ein Kunde oder Administrator die MwSt.-Kennung der Standardadresse ändert oder die gesamte Standardadresse ändert. Manchmal kann die Gruppe beim einseitigen Auschecken vorübergehend geändert (Gruppenänderung wird emuliert) werden.
 
-Wenn diese Option aktiviert ist, können Sie die Überprüfung der MwSt-ID für einzelne Kunden außer Kraft setzen, indem Sie das Kontrollkästchen auf der Seite _[!UICONTROL Customer Information]_aktivieren.
+Wenn diese Option aktiviert ist, können Sie die Validierung der MwSt.-ID für einzelne Kunden überschreiben, indem Sie das Kontrollkästchen auf der Seite _[!UICONTROL Customer Information]_aktivieren.
 
 ### Checkout-Workflow
 
-Wenn die MwSt-Validierung eines Kunden während des Auscheckens durchgeführt wird, werden die MwSt-Anforderungskennung und das MwSt-Anfragedatum im Abschnitt Kommentar-Verlauf der Bestellung gespeichert.
+Wenn die MwSt.-Validierung eines Kunden während des Checkouts durchgeführt wird, werden die MwSt.-Anforderungskennung und das MwSt.-Anforderungsdatum im Abschnitt Kommentarverlauf der Bestellung gespeichert.
 
-Das Systemverhalten bezüglich der MwSt-ID-Validierung und der Änderung der Kundengruppe während des Checkouts hängt davon ab, wie die Einstellungen für &quot;Auf jeder Transaktion validieren&quot;und &quot;Automatische Gruppenänderung deaktivieren&quot;konfiguriert sind. In diesem Abschnitt wird die Implementierung der Funktion zur Überprüfung der MwSt-ID für den Kassengang an der Vorderseite beschrieben.
+Das Systemverhalten, das sich aus der Validierung der MwSt.-ID und der Änderung der Kundengruppe während des Checkouts ergibt, hängt davon ab, wie die Einstellungen Bei jeder Transaktion validieren und Automatische Gruppenänderung deaktivieren konfiguriert sind. In diesem Abschnitt wird die Implementierung der Validierungsfunktion der MwSt.-ID für den Checkout im Frontend beschrieben.
 
-Wenn der Kunde Google Express Checkout, PayPal Express Checkout oder eine andere externe Checkout-Methode verwendet, wird der Checkout vollständig auf der Seite des externen Payment Gateways durchgeführt. Für dieses Szenario kann die Einstellung _Für jede Transaktion validieren_ nicht angewendet werden und die Kundengruppe kann sich beim Checkout nicht ändern.
+Wenn der Kunde Google Express Checkout, PayPal Express Checkout oder eine andere externe Checkout-Methode verwendet, wird der Checkout vollständig auf der Seite des externen Zahlungs-Gateways durchgeführt. In diesem Szenario kann die Einstellung _Bei jeder Transaktion validieren_ nicht angewendet werden und die Kundengruppe kann sich während des Checkouts nicht ändern.
 
-![MwSt-Validierung Checkout-Workflow](./assets/vat-id-validation2.png){width="550" zoomable="yes"}
+![Checkout-Workflow für die MwSt.-Validierung](./assets/vat-id-validation2.png){width="550" zoomable="yes"}
 
-### MwSt-ID-Validierung konfigurieren
+### Konfigurieren der Validierung der MwSt.-ID
 
-Um die Validierung der MwSt-ID zu konfigurieren, müssen Sie zunächst die erforderlichen Kundengruppen einrichten und die entsprechenden Steuerklassen, Steuersätze und Regeln erstellen. Aktivieren Sie dann die MwSt-ID-Validierung für den Store und schließen Sie die Konfiguration ab.
+Um die Validierung der MwSt.-ID zu konfigurieren, müssen Sie zunächst die erforderlichen Kundengruppen einrichten und die entsprechenden Steuerklassen, -sätze und -regeln erstellen. Aktivieren Sie dann die Validierung der MwSt.-ID für den Store und schließen Sie die Konfiguration ab.
 
-Die folgenden Beispiele zeigen, wie Steuerklassen und Steuersätze für die Überprüfung der MwSt-ID verwendet werden. Überprüfen Sie die Beispiele und befolgen Sie dann die Anweisungen zum Einrichten der für Ihren Store benötigten Steuerklassen und Regeln.
+Die folgenden Beispiele zeigen, wie Steuerklassen und -sätze für die MwSt.-ID-Validierung verwendet werden. Sehen Sie sich die Beispiele an und befolgen Sie dann die Anweisungen zum Einrichten der Steuerklassen und -regeln, die für Ihren Store erforderlich sind.
 
-#### Beispiel: Mindeststeuervorschriften für die MwSt-ID-Validierung
+#### Beispiel: Minimale Steuerregeln für die Validierung der MwSt.-ID erforderlich
 
-| Steuerregel Nr. 1 |  |
+| #1 der Steuerregel |  |
 |--- |--- |
-| Kundensteuerklasse | Kundensteuerklassen müssen Folgendes enthalten: <br />Eine Klasse für inländische Kunden. <br />Eine Klasse für Kunden mit falsch formatierten Mehrwertsteuer-IDs.<br />Eine Klasse für Kunden, deren MwSt-ID-Validierung fehlgeschlagen ist. |
-| Produktsteuerklasse | Produktsteuerklassen müssen eine Klasse für Produkte aller Typen enthalten, mit Ausnahme von Bundle und Virtual. |
-| Steuersatz | Der Steuersatz muss den Mehrwertsteuersatz des Landes des Händlers enthalten. |
+| Debitorensteuerklasse | Kundensteuerklassen müssen Folgendes umfassen: <br />A-Klasse für inländische Kunden. <br />Eine Klasse für Kunden mit falsch formatierten MwSt.-IDs.<br />Eine Klasse für Kunden, bei denen die Validierung der MwSt.-ID fehlgeschlagen ist. |
+| Produkt-Steuerklasse | Produktsteuerklassen müssen eine Klasse für Produkte aller Typen, mit Ausnahme von Paketen und virtuellen Produkten, enthalten. |
+| Steuersatz | Der Steuersatz muss den Mehrwertsteuersatz des Landes enthalten, in dem der Händler ansässig ist. |
 
 {style="table-layout:auto"}
 
-| Steuerregel Nr. 2 |   |
+| #2 der Steuerregel |   |
 |--- |--- |
-| Kundensteuerklasse | Eine Klasse für Universally-Kunden. |
-| Produktsteuerklasse | Eine Klasse für Produkte aller Art, außer Virtual. |
-| Steuersatz | MwSt-Sätze für alle EU-Länder außer dem Land der Händler. Derzeit beträgt dieser Satz 0 %. |
+| Debitorensteuerklasse | Eine Klasse für Kunden innerhalb der Union. |
+| Produkt-Steuerklasse | Eine Klasse für Produkte aller Typen, außer virtueller. |
+| Steuersatz | MwSt-Sätze für alle EU-Länder außer dem Land des Händlers. Derzeit beträgt dieser Prozentsatz 0 %. |
 
 {style="table-layout:auto"}
 
-| Steuerregel Nr. 3 | (Erforderlich für virtuelle und herunterladbare Produkte) |
+| #3 der Steuerregel | (Erforderlich für virtuelle und herunterladbare Produkte) |
 |--- |--- |
-| Kundensteuerklasse | Kundensteuerklassen müssen Folgendes umfassen: <br/>Eine Klasse für inländische Kunden <br/>A Klasse für Kunden mit ungültiger Mehrwertsteuer-ID A Klasse für Kunden, bei denen die MwSt-ID-Validierung fehlgeschlagen ist |
-| Produktsteuerklasse | Eine Klasse für virtuelle Produkte. |
+| Debitorensteuerklasse | Steuerklassen für Kunden müssen Folgendes enthalten: <br/>A-Klasse für inländische Kunden <br/>A-Klasse für Kunden mit ungültiger MwSt.-ID A-Klasse für Kunden, für die die MwSt.-ID-Validierung fehlgeschlagen ist |
+| Produkt-Steuerklasse | Eine Klasse für virtuelle Produkte. |
 | Steuersatz | Mehrwertsteuersatz des Landes des Händlers. |
 
 {style="table-layout:auto"}
 
-| Steuerregel Nr. 4 | (Erforderlich für virtuelle und herunterladbare Produkte) |
+| #4 der Steuerregel | (Erforderlich für virtuelle und herunterladbare Produkte) |
 |--- |--- |
-| Kundensteuerklasse | Eine Klasse für Universally-Kunden. |
-| Produktsteuerklasse | Eine Klasse für virtuelle Produkte. |
-| Steuersatz | MwSt-Sätze für alle EU-Länder außer dem Land der Händler. Derzeit beträgt dieser Satz 0 %. |
+| Debitorensteuerklasse | Eine Klasse für Kunden innerhalb der Union. |
+| Produkt-Steuerklasse | Eine Klasse für virtuelle Produkte. |
+| Steuersatz | MwSt-Sätze für alle EU-Länder außer dem Land des Händlers. Derzeit beträgt dieser Prozentsatz 0 %. |
 
 {style="table-layout:auto"}
 
 #### Schritt 1: Erstellen von mehrwertsteuerbezogenen Kundengruppen
 
-Die Überprüfung der MwSt-ID weist Kunden gemäß den Ergebnissen der MwSt-ID-Überprüfung automatisch eine der vier standardmäßigen Kundengruppen zu:
+Bei der Validierung der MwSt.-ID wird den Kunden automatisch eine der vier Standardkundengruppen gemäß den Ergebnissen der MwSt.-ID-Validierung zugewiesen:
 
-- Häuslich
-- Intra-EU
-- Ungültige MwSt-ID
+- häuslich
+- EU-intern
+- Ungültige MwSt.-ID
 - Validierungsfehler
 
-Sie können Kundengruppen für die Überprüfung der MwSt-ID erstellen oder bestehende Gruppen verwenden, wenn diese Ihrer Geschäftslogik entsprechen. Bei der Konfiguration der Validierung der MwSt-ID müssen Sie jede der erstellten Kundengruppen als Standard für Kunden mit entsprechenden Ergebnissen zur MwSt-ID-Validierung zuweisen.
+Sie können Kundengruppen für die Validierung der MwSt.-ID erstellen oder vorhandene Gruppen verwenden, wenn diese Ihrer Geschäftslogik entsprechen. Beim Konfigurieren der MwSt.-ID-Validierung müssen Sie jede der erstellten Kundengruppen als Standard für Kunden mit entsprechenden Ergebnissen der MwSt.-ID-Validierung zuweisen.
 
-#### Schritt 2: Erstellen von mehrwertsteuerbezogenen Klassen, Sätzen und Regeln
+#### Schritt 2: Erstellen Sie mehrwertsteuerbezogene Klassen, Sätze und Regeln
 
 Jede Steuerregel wird von drei Entitäten definiert:
 
-- Kundensteuerklassen
+- Debitorensteuerklassen
 - Produktsteuerklassen
 - Steuersätze
 
-Erstellen Sie die [Steuerregeln](tax-rules.md) für die effektive Verwendung der MwSt-ID-Überprüfung.
+Erstellen Sie die [Steuerregeln](tax-rules.md), um die MwSt.-ID-Validierung effektiv zu verwenden.
 
 - Zu den Steuervorschriften gehören Steuersätze und [Steuerklassen](tax-class.md).
-- Steuerklassen werden [Kundengruppen](../customers/customer-groups.md) zugewiesen.
+- Steuerklassen werden „Kundengruppen[ zugeordnet](../customers/customer-groups.md).
 
-#### Schritt 3: MwSt-ID-Validierung aktivieren und konfigurieren
+#### Schritt 3: Validierung der MwSt.-ID aktivieren und konfigurieren
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Legen Sie bei Bedarf den **[!UICONTROL Store View]** für die Konfiguration fest.
+1. Legen Sie bei Bedarf die **[!UICONTROL Store View]** für die Konfiguration fest.
 
-1. Erweitern Sie im linken Bereich den Wert **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Customer Configuration]** aus.
+1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Customer Configuration]**.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Create New Account Options]** .
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Create New Account Options]** .
 
-   Im folgenden Beispiel sind die allgemeinen Kundeneinstellungen, die nicht mit der Mehrwertsteuervalidierung in Verbindung stehen, dunkel.
+   Im folgenden Beispiel sind die allgemeinen Kundeneinstellungen, die sich nicht auf die MwSt.-Validierung beziehen, abgeblendet.
 
    ![Neue Kontooptionen erstellen](../configuration-reference/customers/assets/customer-configuration-create-new-account-options-vat.png){width="600" zoomable="yes"}
 
-1. Setzen Sie **[!UICONTROL Enable Automatic Assignment to Customer Group]** auf `Yes` und füllen Sie die folgenden Felder nach Bedarf aus.
+1. Legen Sie **[!UICONTROL Enable Automatic Assignment to Customer Group]** auf `Yes` fest und füllen Sie die folgenden Felder nach Bedarf aus.
 
    - **[!UICONTROL Default Group]**
    - **[!UICONTROL Default Value for Disable Automatic Group Changes Based on VAT ID]**
    - **[!UICONTROL Show VAT Number on Storefront]**
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-#### Schritt 4: Festlegen der MwSt-ID und des Ortungslandes
+#### Schritt 4: Legen Sie Ihre MwSt.-Kennung und Ihr Land fest
 
-1. Erweitern Sie im linken Bedienfeld den Wert **[!UICONTROL General]** und wählen Sie unter &quot;**[!UICONTROL General]**&quot;.
+1. Erweitern Sie im linken Bereich **[!UICONTROL General]** und wählen Sie darunter **[!UICONTROL General]**.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Store Information]** .
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Store Information]** .
 
-   ![Store-Informationen](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
+   ![Informationen speichern](../configuration-reference/general/assets/general-store-information.png){width="600" zoomable="yes"}
 
-1. Wählen Sie Ihren **[!UICONTROL Country]** aus.
+1. Wählen Sie Ihre **[!UICONTROL Country]** aus.
 
-1. Geben Sie Ihren **[!UICONTROL VAT Number]** ein und klicken Sie auf **[!UICONTROL Validate VAT Number]**.
+1. Geben Sie Ihre **[!UICONTROL VAT Number]** ein und klicken Sie auf **[!UICONTROL Validate VAT Number]**.
 
    Das Ergebnis wird sofort angezeigt.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-#### Schritt 5: Überprüfung der Liste der EU-Mitgliedstaaten
+#### Schritt 5: Überprüfen der Liste der EU-Mitgliedstaaten
 
-1. Erweitern Sie auf der Konfigurationsseite _Allgemein_ den Abschnitt ![Erweiterungsauswahl](../assets/icon-display-expand.png) und dann den Abschnitt **[!UICONTROL Countries Options]** .
+1. Erweitern Sie auf der _Allgemein_ Konfigurationsseite den ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Countries Options]** .
 
    ![Länderoptionen](../configuration-reference/general/assets/general-country-options.png){width="600" zoomable="yes"}
 
-1. Überprüfen Sie in der Liste &quot;**[!UICONTROL European Union Countries]**&quot;, ob jedes Mitgliedsland der EU ausgewählt ist.
+1. Überprüfen Sie in der **[!UICONTROL European Union Countries]**, ob jedes Mitgliedsland der EU ausgewählt ist.
 
-   Um die Standardeinstellung zu ändern, deaktivieren Sie das Kontrollkästchen **Systemwerte verwenden** . Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jedes Land, das Sie hinzufügen oder entfernen möchten.
+   Um die Standardeinstellung zu ändern, deaktivieren **das Kontrollkästchen „Systemwerte**. Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jedes Land, das Sie hinzufügen oder entfernen möchten.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
 
 [1]: https://ec.europa.eu/taxation_customs/vies/

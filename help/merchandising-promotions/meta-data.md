@@ -1,6 +1,6 @@
 ---
 title: Metadaten
-description: Erfahren Sie, wie Sie schlüsselwortreiche Metadaten eingeben können, um die Indexierung Ihrer Commerce-Site durch Suchmaschinen zu verbessern.
+description: Erfahren Sie, wie Sie schlüsselwortreiche Metadaten eingeben können, um die Art und Weise zu verbessern, wie Suchmaschinen Ihre Commerce-Site indizieren.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
 source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
@@ -12,33 +12,33 @@ ht-degree: 0%
 
 # Metadaten
 
-Ihr Store ist mit Orten gefüllt, an denen Sie schlüsselwortreiche Metadaten eingeben können, um die Indexierung Ihrer Site durch Suchmaschinen zu verbessern. Beim Einrichten Ihres Stores können Sie vorläufige Metadaten eingeben, um sie später abzuschließen. Im Laufe der Zeit können Sie die Metadaten so anpassen, dass sie auf die Kaufmuster und Präferenzen Ihrer Kunden ausgerichtet sind.
+Ihr Store enthält Orte, an denen Sie schlüsselwortreiche Metadaten eingeben können, um die Art und Weise zu verbessern, wie Suchmaschinen Ihre Site indizieren. Beim Einrichten Ihres Stores geben Sie möglicherweise vorläufige Metadaten ein, die Sie später abschließen möchten. Im Laufe der Zeit können Sie die Metadaten entsprechend den Kaufmustern und -präferenzen Ihrer Kunden anpassen.
 
 ![Produkteinstellungen - Suchmaschinenoptimierung](./assets/product-basic-settings-search-engine-optimization-yoga-strap.png){width="700" zoomable="yes"}
 
-## Metadatentitel
+## Meta-Titel
 
-Der Metadatentitel wird in der Titelleiste und auf der Registerkarte Ihres Browsers und in den Suchergebnislisten angezeigt. Der Metadatentitel sollte für die Seite eindeutig sein und weniger als 70 Zeichen lang sein.
+Der Meta-Titel wird in der Titelleiste und auf der Registerkarte der Browser- und Suchergebnislisten angezeigt. Der Meta-Titel sollte für die Seite eindeutig sein und weniger als 70 Zeichen lang sein.
 
-![Beispiel-Storefront - Metadatentitel](./assets/storefront-home-page-meta-title.png){width="600"}
+![Beispiel-Storefront - Meta-Titel](./assets/storefront-home-page-meta-title.png){width="600"}
 
 ## Meta-Schlüsselwörter
 
-Obwohl einige Suchmaschinen Meta-Suchbegriffe ignorieren, werden sie von anderen weiterhin verwendet. Die aktuelle Best Practice besteht darin, hochwertige Suchbegriffe in den Metadatentitel und die Meta-Beschreibung einzubinden.
+Obwohl einige Suchmaschinen Meta-Keywords ignorieren, verwenden andere diese weiterhin. Derzeit empfiehlt es sich, hochwertige Keywords in den Metatitel und die Metabeschreibung einzubinden.
 
-![Webbrowser-Suche - Meta-Schlüsselwörter](./assets/storefront-meta-description.png){width="500"}
+![Webbrowser-Suche - Meta-Keywords](./assets/storefront-meta-description.png){width="500"}
 
 ## Meta-Beschreibung
 
-Meta-Beschreibungen bieten einen kurzen Überblick über die Seite für die Liste der Suchergebnisse. Idealerweise sollte eine Meta-Beschreibung zwischen 150 und 160 Zeichen lang sein, obwohl das Feld bis zu 255 Zeichen akzeptiert.
+Meta-Beschreibungen bieten einen kurzen Überblick über die Seite für Suchergebnislisten. Eine Meta-Beschreibung sollte idealerweise zwischen 150 und 160 Zeichen lang sein, obwohl das Feld bis zu 255 Zeichen lang sein kann.
 
-## Rich-Snippets
+## Rich Snippets
 
-Rich-Snippets bieten detaillierte Informationen für Suchergebnislisten und andere Anwendungen. Standardmäßig wird ein strukturiertes Daten-Markup, das auf dem [schema.org][1] -Standard basiert, zur Produktvorlage Ihres Stores hinzugefügt. Daher stehen Suchmaschinen weitere Informationen zur Verfügung, die als _Rich-Snippets_ in Produktlisten aufgenommen werden können.
+Rich-Snippets bieten detaillierte Informationen für Suchergebnislisten und andere Anwendungen. Standardmäßig wird das strukturierte Daten-Markup, das auf dem Standard [schema.org][1] basiert, zur Produktvorlage Ihres Stores hinzugefügt. Infolgedessen stehen für Suchmaschinen weitere Informationen zur Verfügung, die als _Snippets in_ Produktlisten aufgenommen werden können.
 
 ## Kanonisches Meta-Tag
 
-Einige Suchmaschinen bestrafen Websites mit mehreren URLs, die auf denselben Inhalt verweisen. Das kanonische Meta-Tag teilt Suchmaschinen mit, welche Seite indiziert werden soll, wenn mehrere URLs identische oder ähnliche Inhalte haben. Die Verwendung des kanonischen Meta-Tags kann das Ranking Ihrer Site verbessern und die Seitenansichten aggregieren. Das kanonische Meta-Tag wird im Block `<head>` einer Produkt- oder Kategorieseite platziert. Sie enthält einen Link zu Ihrer bevorzugten URL, sodass Suchmaschinen ihr Gewicht erhöhen.
+Einige Suchmaschinen bestrafen Websites, die mehrere URLs haben, die auf denselben Inhalt verweisen. Das kanonische Meta-Tag teilt Suchmaschinen mit, welche Seite indiziert werden soll, wenn mehrere URLs identische oder ähnliche Inhalte haben. Die Verwendung des kanonischen Meta-Tags kann das Ranking Ihrer Site verbessern und Seitenansichten aggregieren. Das kanonische Meta-Tag wird im `<head>` Block einer Produkt- oder Kategorieseite platziert. Sie enthält einen Link zu Ihrer bevorzugten URL, sodass Suchmaschinen ihr mehr Gewicht verleihen.
 
 ### Beispiel 1: Kategoriepfad erstellt doppelte URLs
 
@@ -47,51 +47,51 @@ Wenn Ihr Katalog beispielsweise so konfiguriert ist, dass er den Kategoriepfad i
     http://mystore.com/gear/bags/driven-backpack.html
     http://mystore.com/driven-backpack.html
 
-### Beispiel 2: vollständige URL der Kategorieseite
+### Beispiel 2: Vollständige URL der Kategorieseite
 
 Wenn kanonische Meta-Tags für Kategorien aktiviert sind, enthält die Kategorieseite Ihres Stores eine kanonische URL zur vollständigen Kategorie-URL:
 
     http://mystore.com/gear/bags/
 
-### Beispiel 3: Vollständige Produktseite URL
+### Beispiel 3: Vollständige URL der Produktseite
 
-Wenn kanonische Meta-Tags für Produkte aktiviert sind, enthält die Produktseite eine kanonische URL zum Domänennamen/Produkt-URL-Schlüssel, da Produkt-URL-Schlüssel global eindeutig sind.
+Wenn kanonische Meta-Tags für Produkte aktiviert sind, enthält die Produktseite eine kanonische URL zum Domain-Namen/Produkt-URL-Schlüssel, da Produkt-URL-Schlüssel global eindeutig sind.
 
     http://mystore.com/driven-backpack.html
 
-Wenn Sie auch den Kategoriepfad in Produkt-URLs einbeziehen, bleibt die kanonische URL der Domänenname/Produkt-URL-Schlüssel. Der Zugriff auf das Produkt ist jedoch auch über seine vollständige URL möglich, die auch die Kategorie enthält. Wenn der Produkt-URL-Schlüssel beispielsweise &quot;`driven-backpack`&quot;lautet und der Kategorie &quot;Gear&quot;> &quot;Bags&quot;zugewiesen ist, kann über eine der beiden URL auf das Produkt zugegriffen werden.
+Wenn Sie den Kategoriepfad auch in Produkt-URLs einbeziehen, bleibt die kanonische URL Domain-Name/Produkt-URL-Schlüssel. Der Zugriff auf das Produkt ist jedoch auch über die vollständige URL möglich, zu der die Kategorie gehört. Wenn der Produkt-URL-Schlüssel beispielsweise `driven-backpack` ist und der Kategorie Zahnrad > Beutel zugewiesen ist, kann das Produkt über eine der beiden URLs aufgerufen werden.
 
-Sie können vermeiden, von Suchmaschinen benachteiligt zu werden, indem Sie die Kategorie aus der URL weglassen oder indem Sie das kanonische Meta-Tag verwenden, um Suchmaschinen anzuweisen, entweder nach Produkt oder Kategorie zu indizieren. Als Best Practice wird empfohlen, kanonische Meta-Tags sowohl für Kategorien als auch für Produkte zu aktivieren.
+Sie können vermeiden, von Suchmaschinen bestraft zu werden, indem Sie die Kategorie in der URL weglassen oder das kanonische Meta-Tag verwenden, um Suchmaschinen anzuweisen, entweder nach Produkt oder Kategorie zu indizieren. Als Best Practice wird empfohlen, kanonische Meta-Tags für sowohl Kategorien als auch Produkte zu aktivieren.
 
-### Canonical-Meta-Tag aktivieren
+### Kanonisches Meta-Tag aktivieren
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bedienfeld den Wert **[!UICONTROL Catalog]** und wählen Sie unter &quot;**[!UICONTROL Catalog]**&quot;.
+1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen Sie darunter **[!UICONTROL Catalog]**.
 
-1. Erweitern Sie den Abschnitt **Suchmaschinenoptimierung** um ![Erweiterungsauswahl](../assets/icon-display-expand.png).
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **Suchmaschinenoptimierung** .
 
-   Um Feldwerte zu ändern, müssen Sie zunächst das Kontrollkästchen **Systemwert verwenden** hinter jedem Feld deaktivieren.
+   Um Feldwerte zu ändern, müssen Sie zunächst das Kontrollkästchen **Systemwert verwenden** nach jedem Feld deaktivieren.
 
    ![Katalogkonfiguration - Suchmaschinenoptimierung](../configuration-reference/catalog/assets/catalog-search-engine-optimization.png){width="600" zoomable="yes"}
 
-1. Wenn Suchmaschinen nur Kategorieseiten mit dem vollständigen Kategoriepfad indizieren sollen, gehen Sie wie folgt vor:
+1. Wenn Sie möchten, dass Suchmaschinen nur Kategorieseiten mit dem vollständigen Kategoriepfad indizieren, gehen Sie wie folgt vor:
 
-   - Setzen Sie **Kanonisches Link-Meta-Tag für Kategorien** auf `Yes`.
+   - Legen Sie **Verwenden eines kanonischen Link-Meta-Tags für Kategorien** auf `Yes` fest.
 
-   - Setzen Sie **Kanonisches Link-Meta-Tag für Produkte verwenden** auf `No`.
+   - Legen **Verwenden eines kanonischen Link-Meta-Tags für Produkte** auf `No` fest.
 
-1. Wenn Sie möchten, dass Suchmaschinen Produktseiten nur im Format &quot;domain-name/product-url-key&quot;indizieren, gehen Sie wie folgt vor:
+1. Wenn Sie möchten, dass Suchmaschinen Produktseiten nur mit dem Domain-Namen-/Produkt-URL-Schlüsselformat indizieren, gehen Sie wie folgt vor:
 
-   - Setzen Sie **Kanonisches Link-Meta-Tag für Produkte verwenden** auf `Yes`.
+   - Legen **Verwenden eines kanonischen Link-Meta-Tags für Produkte** auf `Yes` fest.
 
-   - Setzen Sie **Kanonisches Link-Meta-Tag für Kategorien** auf `No`.
+   - Legen Sie **Verwenden eines kanonischen Link-Meta-Tags für Kategorien** auf `No` fest.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-## Demo zu Metadaten
+## Metadaten-Demo
 
-Sehen Sie sich dieses Video an, um mehr über die Verwaltung von SEO-Metadaten zu erfahren:
+In diesem Video erfahren Sie mehr über die Verwaltung von SEO-Metadaten:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
 

@@ -14,37 +14,37 @@ ht-degree: 2%
 
 + [Handbuch zur Kundenverwaltung](guide-overview.md)
 + [Einführung in das Kundenmanagement](customers-introduction.md)
-+ Tools für die Kundenverwaltung {#customers-menu}
++ Customer Management-Tools {#customers-menu}
    + [Kundenliste](customers-all.md)
    + [Jetzt online](now-online.md)
-   + [Personalization im Maßstab](personalize-scale.md)
-+ Kundenkonten {#customer-accounts}
-   + [Kontoumfang](customer-account-scope.md)
+   + [Personalization im großen Maßstab](personalize-scale.md)
++ {#customer-accounts} Kundenkonten
+   + [Kontobereich](customer-account-scope.md)
    + Kontooptionen {#configure}
-      + [Landingpage anmelden](login-landing-page.md)
+      + [Landingpage zur Anmeldung](login-landing-page.md)
       + [Neue Kontooptionen](account-options-new.md)
-      + [Name und Adressenoptionen](name-address-options.md)
+      + [Optionen für Name und Adresse](name-address-options.md)
       + [Kennwortoptionen](password-options.md)
       + [Lebensdauer der Kundensitzung](customer-online-options.md)
-      + [Kundenanmeldung](customer-sign-in.md)
-      + [Kennwortrückstellungen](password-reset.md)
-   + [Erstellen eines einzelnen Kontos](account-create.md)
-   + Konten verwalten {#manage}
+      + [Kunden-Anmeldung](customer-sign-in.md)
+      + [Zurücksetzen des Kennworts](password-reset.md)
+   + [Individuelles Konto erstellen](account-create.md)
+   + Verwalten von {#manage}
       + [Kundenkonten](manage-account.md)
       + [Kundenprofil aktualisieren](update-account.md)
-      + [Unterstützung von Käufern](login-as-customer.md)
+      + [Kundenunterstützung bereitstellen](login-as-customer.md)
    + Kundenattribute {#attributes}
       + [Attributeigenschaften](attribute-properties.md)
       + [Adressattribute](address-attributes.md)
       + [Adressenvorlagen](address-templates.md)
-   + Store Credit {#store-credit}
-      + [Workflow &quot;Gutschriften speichern&quot;](store-credit.md)
-      + [Konfigurieren von Store-Gutschriften](credit-configure.md)
-      + [Anwenden von Store-Gutschriften](store-credit-using.md)
-      + [Gutschriften im Konto-Dashboard speichern](account-dashboard-store-credit.md)
-      + [Erstattungen im Konto-Dashboard](refunds-customer-account.md)
-   + Dashboard des Kundenkontos {#storefront}
-      + [Dashboard des Kontos verwalten](account-dashboard.md)
+   + {#store-credit} speichern
+      + [Kredit-Workflow speichern](store-credit.md)
+      + [Store-Guthaben konfigurieren](credit-configure.md)
+      + [Store-Guthaben anwenden](store-credit-using.md)
+      + [Guthaben im Konto-Dashboard speichern](account-dashboard-store-credit.md)
+      + [Rückerstattungen im Konto-Dashboard](refunds-customer-account.md)
+   + {#storefront} des Kundenkonto-Dashboards
+      + [Konto-Dashboard verwalten](account-dashboard.md)
       + [[!UICONTROL My Account]](account-dashboard-my-account.md)
       + [[!UICONTROL Address Book]](account-dashboard-address-book.md)
       + [[!UICONTROL Account Information]](account-dashboard-account-information.md)
@@ -52,8 +52,8 @@ ht-degree: 2%
 + [Kundengruppen](customer-groups.md)
 + Kundensegmente {#segments}
    + [Übersicht](customer-segments.md)
-   + [Kundensegmente erstellen und löschen](customer-segment-create.md)
+   + [Erstellen und Löschen von Kundensegmenten](customer-segment-create.md)
    + [Kundensegmente in Preisregeln](customer-segment-price-rule.md)
-   + [Kundensegmentbericht](customer-segment-reports.md)
-+ [Kehren Sie zu den Handels-Guides zurück](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+   + [Bericht zu Kundensegmenten](customer-segment-reports.md)
++ [Zurück zu Händlerleitfäden](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

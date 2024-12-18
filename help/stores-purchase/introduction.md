@@ -1,6 +1,6 @@
 ---
-title: Einführung in Stores und Kauferlebnisse
-description: Erfahren Sie mehr über die Funktionen, mit denen Sie Ihre Online-Stores erstellen und verwalten können, sowie über die Einkaufserfahrung für Ihre Kunden.
+title: Einführung in Geschäfte und Kauferlebnis
+description: Erfahren Sie mehr über die Funktionen, die zum Erstellen und Verwalten Ihrer Online-Stores verwendet werden, und das Kauferlebnis für Ihre Kunden.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
 source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
@@ -9,54 +9,54 @@ ht-degree: 0%
 
 ---
 
-# Einführung in Stores und Kauferlebnisse
+# Einführung in Geschäfte und Kauferlebnis
 
-Adobe Commerce und Magento Open Source bieten eine umfangreiche Reihe von Funktionen, mit denen Sie Ihre Online-Stores und die Einkaufserfahrung für Ihre Kunden erstellen und verwalten können. Innerhalb Ihrer Commerce-Instanz können Sie die Store-Hierarchie von Websites, Stores und Ansichten verwalten. Sie können auch die Steuern und Währungssätze konfigurieren, die zum Ausführen von Geschäften für mehrere Gebietsschemas erforderlich sind, einschließlich der Steuerklassen für Produkte und Kundengruppen.
+Adobe Commerce und Magento Open Source bieten umfassende Funktionen zum Aufbau und zur Verwaltung Ihrer Online-Shops und des Kauferlebnisses für Ihre Kunden. Innerhalb Ihrer Commerce-Instanz können Sie die Store-Hierarchie von Websites, Stores und Ansichten verwalten. Sie können auch die Steuern und Währungskurse konfigurieren, die zum Ausführen von Geschäften für mehrere Gebietsschemata erforderlich sind, einschließlich Steuerklassen für Produkte und Kundengruppen.
 
-## Speicherstruktur
+## Store-Struktur
 
-Eine einzelne Instanz von Adobe Commerce oder Magento Open Source kann mehrere Sites, Stores oder Store-Ansichten unterstützen, die unterschiedliche Attribute und Inhalte verwenden. Ein typisches Szenario besteht darin, Geschäfte mit verschiedenen Optionen in verschiedenen Domänen einzurichten. Sie möchten beispielsweise vielleicht eine Gruppe von Kategorien und Produkten auf einer Domäne und eine andere Gruppe von Kategorien und Produkten auf einer anderen Domäne in einer anderen Sprache haben. Händler können die Websites, Stores und Ansichten in der Admin-Konsole konfigurieren.
+Eine einzelne Instanz von Adobe Commerce oder Magento Open Source kann mehrere Sites, Stores oder Store-Ansichten unterstützen, die unterschiedliche Attribute und Inhalte verwenden. Ein typisches Szenario besteht darin, Stores mit unterschiedlichen Optionen in verschiedenen Domains einzurichten. Beispielsweise können Sie einen Satz von Kategorien und Produkten in einer Domain und einen anderen Satz von Kategorien und Produkten in einer anderen Domain in einer anderen Sprache verwenden. Händler können die Websites, Stores und Store-Ansichten im Admin-Bereich konfigurieren.
 
-Wenn die [Hierarchie](stores.md) definiert ist, können Sie Konfigurationseinstellungen gemäß [Umfang](../getting-started/websites-stores-views.md#scope-settings) anwenden, sodass jede Site-, Store- und Store-Ansicht den gewünschten Produktkatalog und das Storefront-Erlebnis bereitstellt.
+Wenn die [Hierarchie](stores.md) definiert ist, können Sie Konfigurationseinstellungen gemäß dem [Umfang](../getting-started/websites-stores-views.md#scope-settings) anwenden, sodass jede Site-, Store- und Store-Ansicht das gewünschte Produktkatalog- und Storefront-Erlebnis bietet.
 
-## Kaufpunkt
+## Point of Purchase
 
-Adobe Commerce und Magento Open Source reduzieren Bestellfehler, indem sie die SKU und Verfügbarkeit aller Artikel vor der Absendung einer Bestellung automatisch überprüfen. Sie können die Optionen [Warenkorb](cart.md) und [Checkout](checkout-process.md) konfigurieren, um ein optimales Kauferlebnis von der Transaktion bis zum Versand zu bieten. Kunden, die bei ihren Konten angemeldet sind, können den Kassengang schnell abschließen, da ein Großteil der Informationen bereits in ihren Konten enthalten ist. Die Seite _Checkout_ führt den Kunden durch jeden Schritt des Prozesses zum Abschluss der Bestelltransaktion. Wenn Sie [Sofortiger Kauf](checkout-instant-purchase.md) aktivieren, können Kunden den Checkout-Prozess mit in ihrem Konto gespeicherten Informationen beschleunigen.
+Adobe Commerce und Magento Open Source reduzieren Bestellfehler, indem sie die SKU und die Verfügbarkeit aller Artikel automatisch überprüfen, bevor eine Bestellung gesendet wird. Sie können die Optionen [Warenkorb](cart.md) und [Checkout](checkout-process.md) konfigurieren, um ein optimales Kauferlebnis zu bieten, von der Transaktion bis zum Versand. Kunden, die bei ihren Konten angemeldet sind, können den Checkout schnell abschließen, da ein Großteil der Informationen bereits in ihren Konten vorhanden ist. Die _Checkout_-Seite führt den Kunden durch jeden Schritt des Prozesses zum Abschließen der Bestelltransaktion. Wenn Sie [Sofortkauf](checkout-instant-purchase.md) aktivieren, können Kunden den Checkout-Prozess mithilfe der in ihrem Konto gespeicherten Informationen beschleunigen.
 
 >[!TIP]
 >
->![Adobe Commerce B2B](../assets/b2b.svg) Mit der Installation und Aktivierung von Adobe Commerce B2B können Sie _Quick Order_ für Kunden konfigurieren, die mit einem Unternehmenskonto verknüpft sind. Diese Funktion reduziert den Bestellvorgang auf mehrere Klicks, wenn sie den Namen oder die SKU der Produkte kennen, die sie bestellen möchten. Sie können auch die Unterstützung für verhandelbare Anführungszeichen für Ihre Unternehmenskonten konfigurieren. Weitere Informationen zu den B2B-Funktionen finden Sie im [Adobe Commerce B2B-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+>![Adobe Commerce B2B](../assets/b2b.svg) Mit der Installation und Aktivierung von Adobe Commerce B2B können Sie _Schnellbestellung_ für Kunden konfigurieren, die mit einem Unternehmenskonto verknüpft sind. Diese Funktion reduziert den Bestellvorgang auf mehrere Klicks, wenn sie den Namen oder die SKU der Produkte kennen, die sie bestellen möchten. Sie können auch die Unterstützung für verhandelbare Angebote für Ihre Unternehmenskonten konfigurieren. Weitere Informationen zu den B2B-Funktionen finden Sie im [Adobe Commerce B2B-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
-## Shopping-Hilfe
+## Einkaufshilfe
 
-Kunden benötigen manchmal Hilfe, um einen Kauf abzuschließen. Einige Kunden kaufen gerne online ein, bestellen aber lieber telefonisch. Sie können sowohl den Gästen als auch den Kunden, die sich für ein Konto bei Ihrem Geschäft angemeldet haben, sofortige Hilfe anbieten.
+Kunden benötigen manchmal Hilfe, um einen Kauf abzuschließen. Einige Kunden kaufen gerne online ein, bestellen aber lieber telefonisch. Sie können sowohl Gästen als auch Kunden, die sich für ein Konto bei Ihrem Geschäft registriert haben, sofortige Hilfe anbieten.
 
-- [Warenkorb verwalten](shopping-assisted-cart-manage.md)
-- [Erstellen von Bestellungen](customer-account-create-order.md) für registrierte Kunden
-- [Auftrag aktualisieren](order-update.md)
+- [Verwalten des Warenkorbs](shopping-assisted-cart-manage.md)
+- [Bestellungen erstellen](customer-account-create-order.md) für registrierte Kunden
+- [Bestellungen aktualisieren](order-update.md)
 
 ![Warenkorb](./assets/storefront-cart-price-group-discount.png){width="700" zoomable="yes"}
 
-In diesem Video erfahren Sie mehr über den von Verkäufern unterstützten Einkauf:
+Sehen Sie sich dieses Video an, um mehr über verkäuferunterstütztes Einkaufen zu erfahren:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343662/?quality=12&learn=on)
 
-## Auftragsverwaltung und -vorgänge
+## Auftragsverwaltung und -operationen
 
-Im Admin können Händler auf Informationen in jeder Phase des Auftrags-Workflows zugreifen und Bestellungen verarbeiten:
+In der Admin können Händler in jeder Phase des Auftrags-Workflows auf Informationen zugreifen und Bestellungen verarbeiten:
 
-- Die Seite [Bestellungen](orders.md) bietet Händlern eine leicht zugängliche Liste aller aktuellen Bestellungen sowie Tools zum Bearbeiten und Verarbeiten bestehender Bestellungen und zum Erstellen von Bestellungen im Auftrag von Kunden.
+- Die [Bestellungen](orders.md) Seite bietet Händlern eine leicht zugängliche Liste aller aktuellen Bestellungen und enthält Tools zum Bearbeiten und Verarbeiten vorhandener Bestellungen sowie zum Erstellen von Bestellungen im Namen von Kunden.
 
-- Auf der Seite [Rechnungen](invoices.md) wird eine Rechnung aufgelistet, die auf einem temporären Verkaufsauftrag basiert und einen permanenten Datensatz der Bestellung liefert.
+- Auf [ Seite „Rechnungen](invoices.md) wird eine Rechnung aufgelistet, die auf einem temporären Kundenauftrag basiert und einen permanenten Datensatz des Auftrags liefert.
 
-- Auf der Seite [Sendungen](shipments.md) wird der Versanddatensatz jeder Rechnung aufgelistet, die versandbereit ist.
+- Auf [ Seite ](shipments.md)Lieferungen“ wird der Lieferdatensatz jeder Rechnung aufgelistet, die versandbereit ist.
 
-- Auf der Seite &quot;[Credit Memos](credit-memos.md)&quot;können Händler ein Kreditmemo verarbeiten und verwalten, bei dem es sich um ein Dokument handelt, das den dem Kunden geschuldeten Betrag anzeigt. Der Betrag kann auf einen Kauf angewendet oder dem Kunden zurückerstattet werden.
+- Auf [ Seite ](credit-memos.md)Gutschriften“ können Händler eine Gutschrift verarbeiten und verwalten, bei der es sich um ein Dokument handelt, das den dem Kunden geschuldeten Betrag anzeigt. Der Betrag kann auf einen Kauf angerechnet oder dem Kunden zurückerstattet werden.
 
-- ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Die Seite &quot;[Gibt ](returns.md)&quot;listet die aktuellen zurückgegebenen Merchandise-Anfragen (RMAs) auf und wird verwendet, um neue Rückgabeanforderungen einzugeben.
+- ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Auf der Seite [Rückgaben](returns.md) werden die aktuell zurückgegebenen Merchandising Requests (RMAs) aufgelistet und zur Eingabe neuer Return Requests verwendet.
 
-- Auf der Seite [Transaktionen](transactions.md) werden alle Zahlungsaktivitäten aufgelistet, die zwischen Ihrem Store und einem Zahlungssystem stattgefunden haben, und Sie erhalten Zugriff auf detailliertere Informationen.
+- Die [Transaktionen](transactions.md) Seite listet alle Zahlungsaktivitäten auf, die zwischen Ihrem Geschäft und einem Zahlungssystem stattgefunden haben, und bietet Zugriff auf detailliertere Informationen.
 
 ## Versand und Lieferung
 
-Studien zeigen, dass Geschäfte, die Kunden eine Auswahl an verschiedenen [Versandmethoden](delivery.md) anbieten, höhere Konversionsraten aufweisen als Geschäfte, die eine einzige Methode verwenden. Der Administrator bietet verschiedene Tools, mit denen Händler mehrere Versandmethoden und [Versandunternehmen](carriers.md) einrichten und [Versandtitel](shipping-labels.md) drucken können.
+Studien zeigen, dass Läden, die Kunden die Wahl zwischen mehreren [Liefermethoden](delivery.md) bieten, höhere Konversionsraten haben als Läden, die eine einzige Methode verwenden. Der Administrator bietet verschiedene Tools, die Händler verwenden können, um mehrere Versandmethoden und [Spediteure](carriers.md) einzurichten und [Versandetiketten](shipping-labels.md) zu drucken.

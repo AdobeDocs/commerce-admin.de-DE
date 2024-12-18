@@ -12,63 +12,63 @@ ht-degree: 0%
 
 # PayPal-Abrechnungsvereinbarungen
 
-Um den Checkout-Prozess zu vereinfachen, können Kunden mit PayPal als Zahlungsdienstleister einen Abrechnungsvertrag schließen. Beim Checkout wählt der Kunde den Abrechnungsvertrag als Zahlungsmethode aus. Das Zahlungssystem überprüft den Abrechnungsvertrag anhand seiner eindeutigen Nummer und berechnet dem Kundenkonto eine Gebühr. Mit einem bestehenden Abrechnungsvertrag ist es nicht mehr erforderlich, Zahlungsinformationen für jeden Kauf einzugeben. Kunden können ihre Abrechnungsvereinbarungen über das Dashboard ihres Kundenkontos verwalten, wobei der Status jedes Kunden als _Aktiv_ oder _Abgebrochen_ angezeigt wird. Wenn eine Abrechnungsvereinbarung storniert wird, kann sie nicht reaktiviert werden.
+Um den Checkout-Prozess zu vereinfachen, können Kunden einen Abrechnungsvertrag mit PayPal als Zahlungsdienstleister abschließen. Beim Checkout wählt der Kunde als Zahlungsmethode die Abrechnungsvereinbarung aus. Das Zahlungssystem überprüft die Abrechnungsvereinbarung anhand ihrer eindeutigen Nummer und belastet das Kundenkonto. Mit einer bestehenden Abrechnungsvereinbarung ist es nicht mehr erforderlich, dass der Kunde Zahlungsinformationen für jeden Kauf eingibt. Kunden können ihre Abrechnungsvereinbarungen über das Dashboard ihres Kundenkontos verwalten, wobei der Status jeder als _Aktiv_ oder _Abgebrochen_ angezeigt wird. Wenn ein Abrechnungsvertrag gekündigt wird, kann er nicht erneut aktiviert werden.
 
-## Workflow für Abrechnungsvereinbarungen
+## Workflow für Abrechnungsvereinbarung
 
-1. **Der Kunde meldet sich für eine Abrechnungsvereinbarung an**. Nach Abschluss eines Abrechnungsvertrags können zusätzliche Abrechnungsverträge nur vom Kundenkonto hinzugefügt werden. Die Anzahl der Abrechnungsvereinbarungen, die ein Kunde erstellen kann, ist unbegrenzt. Kunden können eine der folgenden Methoden verwenden, um sich für Abrechnungsvereinbarungen zu registrieren:
+1. **Der Kunde meldet sich für eine Abrechnungsvereinbarung**. Nach Abschluss eines Abrechnungsvertrags können zusätzliche Abrechnungsvereinbarungen nur über das Kundenkonto hinzugefügt werden. Die Anzahl der Abrechnungsvereinbarungen, die ein Kunde erstellen kann, ist unbegrenzt. Kunden können eine der folgenden Methoden verwenden, um sich für Abrechnungsvereinbarungen zu registrieren:
 
-   - **Registrieren Sie sich im Kundenkonto** - Kunden können sich über ihre Kundenkonten für einen Abrechnungsvertrag anmelden.
-   - **Registrieren Sie sich beim Checkout** - Kunden, die für einen Kauf mit PayPal Express Checkout bezahlen, können ein Kontrollkästchen aktivieren, um einen Abrechnungsvertrag zu erstellen. Obwohl der Abrechnungsvertrag nicht für die aktuelle Bestellung verwendet wird, wird er als Zahlungsmethode verfügbar, wenn der Kunde das nächste Mal eine Bestellung aufgibt.
-   - **Registrieren Sie sich beim Store-Administrator** - Auf Kundenanfrage kann der Store-Administrator mithilfe des Kunden-Abrechnungsvertrags einen Verkaufsauftrag erstellen.
+   - **Im Kundenkonto anmelden** - Kunden können sich über ihre Kundenkonten für eine Abrechnungsvereinbarung anmelden.
+   - **An der Kasse anmelden** - Kunden, die für einen Kauf mit PayPal Express Checkout bezahlen, können ein Kontrollkästchen markieren, um einen Abrechnungsvertrag zu erstellen. Obwohl die Abrechnungsvereinbarung für die aktuelle Bestellung nicht verwendet wird, wird sie bei der nächsten Bestellung durch den Kunden als Zahlungsmethode verfügbar.
+   - **Vom Store-Administrator registrieren** - Auf Kundenwunsch kann der Store-Administrator einen Kundenauftrag mithilfe der Kunden-Abrechnungsvereinbarung erstellen.
 
-1. **PayPal überprüft und zeichnet die Vereinbarung** auf. Wenn der Kunde die Bestellung mit Zahlung durch Abrechnungsvertrag aufgibt, werden die Referenz-ID des Abrechnungsvertrags und die Zahlungsdetails des Verkaufsauftrags an PayPal übertragen und im Kundenkonto erfasst, zusammen mit Referenzinformationen. Wenn die Zahlung genehmigt wurde, wird in Commerce eine Bestellung erstellt. Die Referenz-ID der Abrechnungsvereinbarung wird an den Kunden und an den Store gesendet.
+1. **PayPal überprüft und zeichnet Vereinbarung auf**. Wenn der Kunde die Bestellung mit Zahlung per Abrechnungsvertrag aufgibt, werden die Abrechnungsvertrags-Referenz-ID und die Zahlungsdetails des Kundenauftrags an PayPal übertragen und zusammen mit Referenzinformationen auf dem Kundenkonto erfasst. Wenn die Zahlung autorisiert ist, wird eine Bestellung in Commerce erstellt. Die Referenzkennung des Abrechnungsvertrags wird an den Kunden und das Geschäft gesendet.
 
-## Rechnungsvereinbarungen verwalten
+## Abrechnungsvereinbarungen verwalten
 
-Auf der Seite _[!UICONTROL Billing Agreements]_werden alle Abrechnungsvereinbarungen zwischen Ihrem Store und seinen Kunden aufgelistet. Händler können die Datensätze nach Kunden- oder Abrechnungsvertragsinformationen filtern, einschließlich Referenz-ID der Abrechnungsvereinbarung, Status und Erstellungsdatum. Jeder Datensatz enthält allgemeine Informationen über den Abrechnungsvertrag und alle Verkaufsaufträge, die ihn als Zahlungsmethode verwendet haben. Sie können Abrechnungsvereinbarungen von Kunden anzeigen, widerrufen oder löschen. Eine stornierte Abrechnungsvereinbarung kann nur vom Store-Administrator gelöscht werden.
+Auf der Seite _[!UICONTROL Billing Agreements]_werden alle Abrechnungsvereinbarungen zwischen Ihrem Geschäft und seinen Kunden aufgelistet. Händler können die Datensätze nach dem Kunden oder den Rechnungsvereinbarungsinformationen filtern, einschließlich Rechnungsvereinbarungs-Referenz-ID, Status und Erstellungsdatum. Jeder Datensatz enthält allgemeine Informationen zum Abrechnungsvertrag und zu allen Aufträgen, die ihn als Zahlungsmethode verwendet haben. Sie können Kunden-Abrechnungsvereinbarungen anzeigen, stornieren oder löschen. Eine stornierte Abrechnungsvereinbarung kann nur vom Store-Administrator gelöscht werden.
 
 ### Rechnungsvereinbarung anzeigen
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
 
-1. Suchen Sie die Abrechnungsvereinbarung in der Liste und klicken Sie auf , um sie zu öffnen.
+1. Suchen Sie die Abrechnungsvereinbarung in der Liste und klicken Sie darauf, um sie zu öffnen.
 
-Jede Seite der Abrechnungsvereinbarung besteht aus zwei Registerkarten: _[!UICONTROL General Information]_und_[!UICONTROL Related Orders]_.
+Jede Seite eines Abrechnungsvertrags besteht aus zwei Registerkarten: _[!UICONTROL General Information]_und_[!UICONTROL Related Orders]_.
 
 #### Allgemeine Informationen
 
-Dieser Tab enthält allgemeine Informationen zur Abrechnungsvereinbarung:
+Diese Registerkarte enthält allgemeine Informationen zum Abrechnungsvertrag:
 
 - [!UICONTROL Reference ID]: Eine eindeutige numerische Kennung, die der aktuellen Abrechnungsvereinbarung zugewiesen ist.
-- [!UICONTROL Customer]: Dem aktuellen Abrechnungsvertrag zugewiesenes Konto des Kunden.
+- [!UICONTROL Customer]: Konto des Kunden, das dem aktuellen Abrechnungsvertrag zugewiesen ist.
 - [!UICONTROL Status]: Status der Zahlungsvereinbarung.
-- 0: Erstellungsdatum.[!UICONTROL Created At]
-- [!UICONTROL Updated At]: Datum aktualisieren.
+- [!UICONTROL Created At]: Erstellungsdatum.
+- [!UICONTROL Updated At]: Aktualisierungsdatum.
 
-![Ansicht der Abrechnungsvereinbarung](./assets/billing-agreement-view.png){width="600" zoomable="yes"}
+![Rechnungsvereinbarungsansicht](./assets/billing-agreement-view.png){width="600" zoomable="yes"}
 
 #### Verwandte Bestellungen
 
-Auf diesem Tab wird die Liste der Bestellungen angezeigt, die mit der aktuellen Abrechnungsvereinbarung aufgegeben wurden.
+Auf dieser Registerkarte wird die Liste der Bestellungen angezeigt, die unter Verwendung der aktuellen Abrechnungsvereinbarung aufgegeben wurden.
 
-![Ansicht der Abrechnungsvereinbarung](./assets/billing-agreement-related-orders.png){width="600" zoomable="yes"}
+![Rechnungsvereinbarungsansicht](./assets/billing-agreement-related-orders.png){width="600" zoomable="yes"}
 
-### Abbrechen einer Abrechnungsvereinbarung
+### Abrechnungsvereinbarung stornieren
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
 
-1. Suchen Sie die Abrechnungsvereinbarung in der Liste und klicken Sie auf , um sie zu öffnen.
+1. Suchen Sie die Abrechnungsvereinbarung in der Liste und klicken Sie darauf, um sie zu öffnen.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Cancel]**.
 
 1. Um die Aktion zu bestätigen, klicken Sie auf **[!UICONTROL OK]**.
 
-### Rechnungsvereinbarung löschen
+### Löschen einer Abrechnungsvereinbarung
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
 
-1. Suchen Sie die Abrechnungsvereinbarung in der Liste und klicken Sie auf , um sie zu öffnen.
+1. Suchen Sie die Abrechnungsvereinbarung in der Liste und klicken Sie darauf, um sie zu öffnen.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Delete]**.
 
@@ -78,30 +78,30 @@ Auf diesem Tab wird die Liste der Bestellungen angezeigt, die mit der aktuellen 
 
 | Spalte | Beschreibung |
 |--- |--- |
-| [!UICONTROL ID] | Eine eindeutige numerische Kennung, die jeder Abrechnungsvereinbarung zugewiesen wird |
+| [!UICONTROL ID] | Eine eindeutige numerische Kennung, die jeder Abrechnungsvereinbarung zugewiesen ist |
 | [!UICONTROL Email] | Kontakt-E-Mail eines Kunden |
 | [!UICONTROL First Name] | Vorname eines Kunden |
 | [!UICONTROL Last Name] | Nachname eines Kunden |
-| [!UICONTROL Reference ID] | Eine eindeutige, numerische Referenz-ID, die jeder Abrechnungsvereinbarung zugewiesen wird |
+| [!UICONTROL Reference ID] | Eine eindeutige numerische Referenzkennung, die jedem Abrechnungsvertrag zugewiesen wird |
 | [!UICONTROL Status] | Status der Zahlungsvereinbarung. Optionen: `Active` oder `Canceled` |
 | [!UICONTROL Created] | Erstellungsdatum |
-| [!UICONTROL Updated] | Datum aktualisieren |
+| [!UICONTROL Updated] | Aktualisierungsdatum |
 
 {style="table-layout:auto"}
 
 ## Storefront-Erlebnis
 
-Kunden, die mit einem Zahlungsdienstleister einen Abrechnungsvertrag schließen, können jetzt Einkäufe tätigen und später entsprechend der Vereinbarung für sie bezahlen. Die
+Kunden, die mit einem Zahlungsdienstleister einen Abrechnungsvertrag abschließen, können jetzt Einkäufe tätigen und später entsprechend dem Vertrag bezahlen. Die
 
 ![Liste der Abrechnungsvereinbarungen im Dashboard des Kunden](./assets/billing-agreements-dashboard.png){width="700" zoomable="yes"}
 
 | Spalte | Beschreibung |
 |--- |--- |
-| [!UICONTROL Reference ID] | Eine eindeutige, numerische Referenz-ID, die jeder Abrechnungsvereinbarung zugewiesen wird |
+| [!UICONTROL Reference ID] | Eine eindeutige numerische Referenzkennung, die jedem Abrechnungsvertrag zugewiesen wird |
 | [!UICONTROL Status] | Status der Zahlungsvereinbarung. Optionen: `Active` oder `Canceled` |
 | [!UICONTROL Created At] | Erstellungsdatum |
-| [!UICONTROL Updated At] | Datum aktualisieren |
-| [!UICONTROL Payment Method] | Zahlungsdienstleister einer Abrechnungsvereinbarung |
+| [!UICONTROL Updated At] | Aktualisierungsdatum |
+| [!UICONTROL Payment Method] | Ein Zahlungsdienstleister einer Abrechnungsvereinbarung |
 | [!UICONTROL View] | Schaltfläche zum Anzeigen von Abrechnungsvereinbarungen |
 
 {style="table-layout:auto"}
@@ -110,13 +110,13 @@ Kunden, die mit einem Zahlungsdienstleister einen Abrechnungsvertrag schließen,
 
 1. Der Kunde wählt im Konto-Dashboard **[!UICONTROL Billing Agreements]** aus.
 
-1. Wählen Sie unter &quot;**[!UICONTROL New Billing Agreement]**&quot;einen Zahlungsdienstleister aus.
+1. Wählen Sie unter **[!UICONTROL New Billing Agreement]** einen Zahlungsanbieter aus.
 
 1. Klicken Sie auf **[!UICONTROL Create]**.
 
 Diese Aktion leitet den Kunden zur Zahlungssystem-Website weiter.
 
-![Neuer Abrechnungsvertrag im Dashboard des Kundenkontos](./assets/create-billing-agreement-dashboard.png){width="700" zoomable="yes"}
+![Neue Abrechnungsvereinbarung im Dashboard des Kundenkontos](./assets/create-billing-agreement-dashboard.png){width="700" zoomable="yes"}
 
 ### Rechnungsvereinbarung anzeigen
 
@@ -124,16 +124,16 @@ Diese Aktion leitet den Kunden zur Zahlungssystem-Website weiter.
 
 1. Wählt die Abrechnungsvereinbarung aus und klickt auf **[!UICONTROL View]**.
 
-![Rechnungsvereinbarung im Dashboard des Kunden anzeigen](./assets/view-billing-agreement.png){width="700" zoomable="yes"}
+![Abrechnungsvertrag im Dashboard des Kunden anzeigen](./assets/view-billing-agreement.png){width="700" zoomable="yes"}
 
-### Abbrechen einer Abrechnungsvereinbarung
+### Abrechnungsvereinbarung stornieren
 
 1. Der Kunde wählt im Konto-Dashboard **[!UICONTROL Billing Agreements]** aus.
 
 1. Wählt die Abrechnungsvereinbarung aus und klickt auf **[!UICONTROL View]**.
 
-1. Klicken Sie oben rechts zur Bestätigung auf **[!UICONTROL Cancel]** und dann auf **[!UICONTROL OK]** .
+1. Klicken Sie oben rechts auf **[!UICONTROL Cancel]** und dann auf **[!UICONTROL OK]** zur Bestätigung.
 
 >[!NOTE]
 >
->Wenn ein Admin-Benutzer (Händler) die Abrechnungsvereinbarung storniert, kann sie auf der Storefront nicht storniert werden. Der Status _Abgebrochen_ wird für diese Vereinbarung angezeigt.
+>Wenn ein Administrator (Händler) die Abrechnungsvereinbarung kündigt, kann diese nicht in der Storefront gekündigt werden. Der _Abgebrochen_ wird für diese Vereinbarung angezeigt.

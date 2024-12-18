@@ -12,72 +12,72 @@ ht-degree: 2%
 
 # Einführung in [!DNL Adobe Commerce B2B]
 
-Im Gegensatz zum Standardmodell von Business zu Consumer sind integrierte B2B-Funktionen (Business to Business) so konzipiert, dass sie den Anforderungen von Verkäufern (Adobe Commerce-Händlern) gerecht werden, deren Kunden Unternehmen sind. Es unterstützt Unternehmen mit komplexen Organisationsstrukturen und mehreren Benutzern mit verschiedenen Rollen und unterschiedlichen Einkaufsberechtigungen. Ein typischer B2B-Kunde könnte der Geschäftsführer eines Einzelhandelsgeschäfts oder ein Käufer sein, der im Namen eines Unternehmens Einkäufe tätigt. In beiden Fällen erfolgt die Transaktion zwischen Ihrem Unternehmen und dem Unternehmen. Sie können Produkte auch direkt an den Verbraucher verkaufen. [!DNL Adobe Commerce B2B] ist eine integrierte Lösung, die sowohl B2B- als auch B2C-Modelle unterstützt.
+Im Gegensatz zum Standard-Business-to-Consumer-Modell sind integrierte B2B-Funktionen (Business-to-Business) so konzipiert, dass sie den Anforderungen von Verkäufern (Adobe Commerce-Händler) entsprechen, die Kunden haben, die Unternehmen sind. Es unterstützt Unternehmen mit komplexen Organisationsstrukturen und mehreren Benutzern mit verschiedenen Rollen und Kaufberechtigungsebenen. Ein typischer B2B-Kunde kann der Manager eines Einzelhandelsgeschäfts oder ein Käufer sein, der im Namen eines Unternehmens Einkäufe tätigt. In beiden Fällen findet die Transaktion zwischen Ihrem Unternehmen und deren Kunden statt. Sie können auch Produkte direkt an den Verbraucher verkaufen. [!DNL Adobe Commerce B2B] ist eine integrierte Lösung, die sowohl B2B- als auch B2C-Modelle unterstützt.
 
-Mit der [Installation](install.md) und der [Aktivierung](enable-basic-features.md) der B2B-Erweiterung in Ihrem Adobe Commerce-Store kann das Kauferlebnis mit kundenspezifischen Katalogen und Preisen sowie zielgerichteten Inhalten und Promotions personalisiert werden.
+Mit der [Installation](install.md) und [Aktivierung](enable-basic-features.md) der B2B-Erweiterung in Ihrem Adobe Commerce-Store kann das Kauferlebnis mit kundenspezifischen Katalogen und Preisen sowie zielgerichteten Inhalten und Werbeaktionen personalisiert werden.
 
 ## Unternehmenskonten
 
-Die Unternehmenskomponente ist eine Schlüsselentität innerhalb von B2B, von der alle anderen Funktionen in irgendeiner Weise abhängig sind. Sie ermöglicht die Verbindung mehrerer Käufer, die innerhalb eines Unternehmens ansässig sind, zu einem einzigen Unternehmenskonto (oder Unternehmenskonto). Der Unternehmensadministrator kann eine Unternehmensstruktur (Abteilungen, Unterteilungen und Benutzer) erstellen, die das Betriebsmodell für das Unternehmen widerspiegelt und verschiedene Benutzerrollen und Berechtigungen für Unternehmensmitglieder bereitstellt. Diese Struktur ermöglicht es dem Unternehmensadministrator, die Benutzeraktivität für das Unternehmenskonto zu steuern: Bestellung, Angebote, Einkauf, Zugriff auf Unternehmenskreditinformationen oder -profile usw.
+Die Komponente Firmenkonto ist eine wichtige Entität innerhalb von B2B, von der alle anderen Funktionen in gewisser Weise abhängig sind. Dadurch können mehrere Käufer, die zu einem einzigen Unternehmen gehören, zu einem einzigen Unternehmenskonto (oder Unternehmenskonto) zusammengefasst werden. Der Unternehmensadministrator kann eine Unternehmensstruktur (Abteilungen, Unterteilungen und Benutzer) erstellen, die dem Betriebsmodell für das Unternehmen entspricht und unterschiedliche Benutzerrollen und Berechtigungen für Unternehmensmitglieder bereitstellt. Diese Struktur ermöglicht es dem Unternehmensadministrator, die Benutzeraktivität für das Unternehmenskonto zu steuern: Bestellung, Angebote, Einkauf, Zugriff auf Firmenkreditinformationen oder -profile usw.
 
-Der Site-Administrator von Commerce kann vom Administrator konfigurieren, wie das Unternehmen auf der Website funktioniert. Die Konfiguration bestimmt die B2B-Funktionen, die für Benutzer von Unternehmen verfügbar sind, einschließlich Zahlungsmethoden, Preisniveaus, Möglichkeit, Preise mithilfe von Anführungszeichen zu verhandeln, Möglichkeit, Anforderungslisten zu erstellen, und mehr.
+Der Commerce-Site-Administrator kann vom Administrator aus konfigurieren, wie das Unternehmen auf der Website arbeitet. Die Konfiguration bestimmt die B2B-Funktionen, die für Unternehmensbenutzer verfügbar sind, einschließlich Zahlungsmethoden, Preisniveaus, der Möglichkeit, Preise mithilfe von Angeboten auszuhandeln, der Möglichkeit, Anforderungslisten zu erstellen, und mehr.
 
 Weitere Informationen finden Sie unter [Unternehmenskonten](account-companies.md).
 
 >[!NOTE]
 >
->Wenn diese Option aktiviert ist, kann Ihr Store Unternehmen die Option &quot;_Auf Konto bezahlen_&quot;geben, was bedeutet, dass sie Käufe über eine Firmenkreditlinie tätigen. Als Händler können Sie einem Unternehmenskonto Guthaben zuweisen und die Krediteinstellungen für ein Unternehmen verwalten sowie die Kreditrückerstattung vornehmen.
+>Wenn diese Option aktiviert ist, kann Ihr Store Unternehmen die Option _Auf Konto bezahlen_ geben, was bedeutet, dass Käufe in einer Firmenkreditlinie getätigt werden. Als Händler können Sie Gutschriften für ein Firmenkonto zuordnen und Krediteinstellungen für ein Unternehmen sowie die Kreditrückerstattung verwalten.
 
-## Unternehmensverwaltung
+## Unternehmensleitung
 
-Die Unternehmensverwaltung hilft Händlern, die Verwaltung und Verwaltung von B2B-Organisationen mit komplexen Betriebsmodellen zu optimieren.
+Das Unternehmensmanagement unterstützt Händleradministratoren dabei, die Verwaltung und das Management von B2B-Organisationen mit komplexen Betriebsmodellen zu optimieren.
 
-Vom Administrator können Benutzer mit entsprechenden Berechtigungen einen **[!UICONTROL Company Hierarchy]** erstellen, der die Organisationsstruktur eines aus mehreren Unternehmen bestehenden Unternehmens widerspiegelt. Diese Hierarchie ermöglicht es ihnen, Unternehmen als Gruppe anzuzeigen und zu verwalten. Beispielsweise kann der Administrator eine Muttergesellschaft bestimmen und alle Unternehmen zuweisen, die als Tochterunternehmen der Muttergesellschaft tätig sind. Anschließend kann der Administrator der Muttergesellschaft Unternehmenskonten für alle zugewiesenen Unternehmen anzeigen und verwalten.
+Vom Administrator aus können Benutzende mit entsprechenden Berechtigungen eine **[!UICONTROL Company Hierarchy]** erstellen, die die Organisationsstruktur eines aus mehreren Unternehmen bestehenden Unternehmens widerspiegelt. Diese Hierarchie ermöglicht es ihnen, Unternehmen als Gruppe anzuzeigen und zu verwalten. Beispielsweise kann der Administrator eine Muttergesellschaft bestimmen und alle Unternehmen zuweisen, die als Tochtergesellschaften der Muttergesellschaft tätig sind. Der Administrator der übergeordneten Firma kann dann Unternehmenskonten für alle zugewiesenen Firmen anzeigen und verwalten.
 
 Weitere Informationen finden Sie unter [Unternehmensverwaltung](manage-companies.md).
 
 ## Dienste für Adobe Commerce
 
-Dienste für Adobe Commerce sind gehostete Dienste, die erweiterte Funktionen für Adobe Commerce und Magento Open Source bieten. Dienste, die B2B-Workflows unterstützen:
+Services für Adobe Commerce sind gehostete Services, die erweiterte Funktionen für Adobe Commerce und Magento Open Source bereitstellen. Folgende Services unterstützen B2B-Workflows:
 
-* [Catalog Service](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)
-* [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
+* [Katalog-Service](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)
+* [Live-Suche](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
 * [Produkt-Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)
 
 ## Freigegebene Kataloge
 
-Gemeinsame Kataloge sind die Preisniveaus, die es ermöglichen, für verschiedene Unternehmen auf einer oder mehreren Websites benutzerdefinierte Preise pro Produkt festzulegen. Mithilfe freigegebener Kataloge können Sie Produkte verkaufen, indem Sie unterschiedliche Preisniveaus für verschiedene Kundengruppen anwenden. Unterstützung für freigegebene Kataloge ist nur für Commerce Stores verfügbar, die zur Unterstützung von Unternehmenskonten konfiguriert sind.
+Gemeinsam genutzte Kataloge sind die Preisniveaus, mit denen benutzerdefinierte Preise pro Produkt für verschiedene Unternehmen auf einer oder mehreren Websites festgelegt werden können. Mithilfe freigegebener Kataloge können Sie Produkte verkaufen, indem Sie unterschiedliche Preisstufen für verschiedene Kundengruppen anwenden. Die Unterstützung für freigegebene Kataloge ist nur für Commerce-Stores verfügbar, die für die Unterstützung von Unternehmenskonten konfiguriert sind.
 
 Weitere Informationen finden Sie unter [Arbeiten mit freigegebenen Katalogen](catalog-shared.md).
 
-## Schnellbestellung
+## Schnellauftrag
 
-Konfigurieren Sie die Schnellbestellung, um den Bestellprozess auf mehrere Klicks für angemeldete Kunden zu reduzieren, wenn sie den Produktnamen oder die SKU der Produkte kennen, die bestellt werden sollen.
+Konfigurieren Sie die Schnellbestellung, um den Bestellvorgang auf mehrere Klicks für angemeldete Kunden zu reduzieren, wenn diese den Produktnamen oder die SKU der Produkte kennen, die sie bestellen möchten.
 
 Weitere Informationen finden Sie unter [Schnellbestellungen](quick-order.md).
 
-## Negotiable Anführungszeichen
+## Verhandelbare Kursofferten
 
-Verwenden Sie die Funktion Angebote , um Preisverhandlungen zwischen einem Firmenkäufer und -verkäufer einzuleiten.
+Verwenden Sie die Funktion „Angebote“, um Preisverhandlungen zwischen einem Unternehmenskäufer und einem Käufer zu initiieren.
 
-* Ein autorisierter Käufer kann ein Angebot aus dem Warenkorb einreichen.
+* Ein autorisierter Käufer kann ein Angebot aus dem Warenkorb initiieren.
 
-* Ein Verkäufer kann ein Angebot für einen Käufer von Admin einreichen.
+* Ein Verkäufer kann ein Angebot für einen Käufer vom Administrator initiieren.
 
-Käufer und Verkäufer verwenden das Angebot, um den Verhandlungsprozess zu verwalten, z. B. das Hinzufügen von Artikeln, die Aktualisierung von Mengen, die Anforderung und die Anwendung von Rabatten, bis sie eine Einigung erzielen. Das Raster _Anführungszeichen_ im Admin listet jedes erhaltene Angebot auf und verwaltet einen Verlauf der Kommunikation zwischen Käufer und Verkäufer.
+Käufer und Verkäufer verwalten den Verhandlungsprozess mit dem Angebot, z. B. das Hinzufügen von Artikeln, das Aktualisieren von Mengen, das Anfordern und Anwenden von Rabatten, bis sie eine Vereinbarung treffen. Das _Quotes_ im Admin listet jedes erhaltene Angebot auf und bewahrt einen Verlauf der Kommunikation zwischen Käufer und Verkäufer auf.
 
-Die Unterstützung für verhandelbare Anführungszeichen ist nur für Commerce-Stores verfügbar, die zur Unterstützung von Unternehmenskonten konfiguriert sind.
+Der Support für verhandelbare Angebote ist nur für Commerce-Stores verfügbar, die für die Unterstützung von Unternehmenskonten konfiguriert sind.
 
-Weitere Informationen finden Sie unter [Negotiable Anführungszeichen](quotes.md).
+Weitere Informationen finden Sie unter [Verhandlungsfähige Anführungszeichen](quotes.md).
 
 ## Bestellgenehmigungen
 
-Wenn die Bestellung für ein Unternehmenskonto aktiviert wird, werden alle Bestellungen automatisch als Bestellungen (Bestellformular) erstellt. Unternehmensbenutzer mit den erforderlichen Berechtigungen können von ihnen erstellte und von untergeordneten Benutzern erstellte POs und POs erstellen, bearbeiten und löschen. Je nach Rolle und Bestellung können Benutzer des Unternehmens mehreren Validierungsregeln unterliegen.
+Wenn Bestellungen für ein Firmenkonto aktiviert werden, werden alle Bestellungen automatisch als Bestellungen erstellt. Firmenbenutzer mit den erforderlichen Berechtigungen können von ihnen erstellte Bestellungen und von untergeordneten Benutzern erstellte Bestellungen erstellen, bearbeiten und löschen. Je nach Rolle und Reihenfolge können für Firmenbenutzer mehrere Genehmigungsregeln gelten.
 
-Weitere Informationen finden Sie unter [Bestellungen für Unternehmen kaufen](purchase-order-flow.md).
+Weitere Informationen finden Sie unter [Bestellungen für Unternehmen](purchase-order-flow.md).
 
 ## Anforderungslisten
 
-Kunden können die Anforderungsliste verwenden, um beim Kauf häufig bestellter Produkte Zeit zu sparen, da sie Artikel direkt aus der Liste zum Warenkorb hinzufügen können. Sie können mehrere Listen verwalten, die sich auf Produkte verschiedener Anbieter, Käufer, Teams, Kampagnen oder alles andere konzentrieren, das ihren Workflow optimiert.
+Kunden können beim Kauf häufig bestellter Produkte mithilfe der Anforderungsliste Zeit sparen, da sie Artikel direkt aus der Liste in den Warenkorb legen können. Sie können mehrere Listen verwalten, die sich auf Produkte von verschiedenen Anbietern, Käufern, Teams, Kampagnen oder auf alles andere konzentrieren, was ihren Workflow optimiert.
 
 Weitere Informationen finden Sie unter [Anforderungslisten](requisition-lists.md).

@@ -1,6 +1,6 @@
 ---
 title: Produkte vergleichen
-description: Erfahren Sie, wie die Storefront Kunden Werkzeuge zum Vergleich von Produkten für fundiertere Kaufentscheidungen bieten kann.
+description: Erfahren Sie, wie die Storefront Tools für Kunden bereitstellen kann, um Produkte zu vergleichen und so fundiertere Kaufentscheidungen zu treffen.
 exl-id: 7c4de9d3-394a-48e1-ba01-7964b40b95ae
 feature: Products, Storefront
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 # Produkte vergleichen
 
-Produkte vergleichen generiert einen detaillierten, parallelen Vergleich von zwei oder mehr Produkten. Je nach Design kann der Link Zu Vergleichen hinzufügen durch ein Symbol oder einen Text dargestellt werden. Der Block _Produkte vergleichen_ wird normalerweise in der linken oder rechten Seitenleiste einer Katalogseite angezeigt.
+„Produkte vergleichen“ generiert einen detaillierten, nebeneinander angezeigten Vergleich von zwei oder mehr Produkten. Je nach Design kann der Link Zu Vergleich hinzufügen durch ein Symbol oder einen Text dargestellt werden. Der _Produkte vergleichen_ wird normalerweise in der linken oder rechten Seitenleiste einer Katalogseite angezeigt.
 
-![Beispiel-Storefront - Vergleichsliste](./assets/storefront-comparison-list.png){width="700" zoomable="yes"}
+![Beispiel einer Storefront - Vergleichsliste](./assets/storefront-comparison-list.png){width="700" zoomable="yes"}
 
-Im Gegensatz zum Block [Zuletzt angezeigte/verglichene Produkte](products-viewed-compared.md) enthält der Administrator keine zusätzlichen Konfigurationseinstellungen für &quot;Produkte vergleichen&quot;.
+Im Gegensatz zum Block [Kürzlich angezeigte/](products-viewed-compared.md) Produkte“ enthält der Administrator keine zusätzlichen Konfigurationseinstellungen für „Produkte vergleichen“.
 
-## Produkte im Schaufenster vergleichen
+## Produkte in der Storefront vergleichen
 
-Es gibt einige Möglichkeiten, die Vergleichsliste auf der Storefront zu verwenden.
+Es gibt einige Möglichkeiten, die Vergleichsliste in der Storefront zu verwenden.
 
-### Aus Katalogseiten
+### Von Katalogseiten
 
-1. Der Kunde findet die Produkte, die er vergleichen möchte, und klickt für jeden auf den Link **[!UICONTROL Add to Compare]** .
+1. Der Kunde findet die Produkte, die er vergleichen möchte, und klickt jeweils auf den **[!UICONTROL Add to Compare]** Link.
 
-1. Navigiert zu einer verknüpften Kategorieseite.
+1. Navigiert zu einer zugehörigen Kategorieseite.
 
-   Je nach Design und Seitenlayout kann es in der Seitenleiste einen Block vom Typ _Produkte vergleichen_ geben. Wenn ja, werden die zum Vergleich markierten Elemente in der Kategorie aufgelistet.
+   Je nach Design und Seiten-Layout kann es einen Block _Produkte vergleichen_ in der Seitenleiste geben. Wenn ja, werden die Elemente in der Kategorie aufgelistet, die für einen Vergleich markiert sind.
 
-   Der Kunde kann für jedes Produkt auf _Löschen_ ( ![Löschsymbol](../assets/icon-delete-x.png) ) klicken, um es aus dem Vergleichsbericht zu entfernen, oder auf **[!UICONTROL Clear All]** klicken, um alle Elemente zu entfernen und mit Ihrer Vergleichsauswahl zu beginnen.
+   Der Kunde kann auf _Löschen_ (![Löschsymbol](../assets/icon-delete-x.png) ) klicken, um es aus dem Vergleichsbericht zu entfernen, oder auf **[!UICONTROL Clear All]** klicken, um alle Elemente zu entfernen und mit der Vergleichsauswahl von vorne zu beginnen.
 
 1. Klicks **[!UICONTROL Compare]**.
 
@@ -38,41 +38,41 @@ Es gibt einige Möglichkeiten, die Vergleichsliste auf der Storefront zu verwend
 
 1. Um ein einzelnes Produkt aus der Vergleichsseite zu entfernen, klicken Sie auf _Löschen_ ( ![Löschsymbol](../assets/icon-delete-x.png) ).
 
-### Über eine Benachrichtigungsnachricht
+### Von einer Benachrichtigung
 
-1. Nachdem ein Kunde ein Produkt zu einer Vergleichsliste hinzugefügt hat, zeigt die Seite eine Benachrichtigungsmeldung an.
+1. Nachdem ein Kunde ein Produkt zu einer Vergleichsliste hinzugefügt hat, wird auf der Seite eine Benachrichtigung angezeigt.
 
-1. Klicken Sie in der oben angezeigten Benachrichtigung auf den Link _Vergleichsliste_ .
+1. Klicken Sie in der angezeigten Benachrichtigung oben auf den Link _Vergleichsliste_.
 
    ![Produktbenachrichtigung vergleichen](./assets/notification-comparison-list.png){width="700" zoomable="yes"}
 
-Durch diese Aktion wird der Kunde zur Vergleichsliste weitergeleitet, wo er auf zusätzliche Aktionen zugreifen kann.
+Diese Aktion leitet den Kunden zur Vergleichsliste weiter, wo er auf zusätzliche Aktionen zugreifen kann.
 
-### Aus dem Block _Produkte vergleichen_
+### Im Block _Produkte vergleichen_
 
-1. Der Kunde findet die Produkte, die er vergleichen möchte, und klickt für jeden auf den Link **[!UICONTROL Add to Compare]** .
+1. Der Kunde findet die Produkte, die er vergleichen möchte, und klickt jeweils auf den **[!UICONTROL Add to Compare]** Link.
 
-1. Klicken Sie in der Kopfzeile neben dem Suchfeld auf den Link _Produkte vergleichen_ .
+1. Klicken Sie in der Kopfzeile neben dem Suchfeld auf den Link _Produkte vergleichen_.
 
    ![Produkt-Header vergleichen](./assets/compare-products-header.png){width="700" zoomable="yes"}
 
-### Über das Dashboard Mein Konto
+### Vom Dashboard Mein Konto aus
 
-1. Der Kunde fügt die erforderlichen Produkte zur Vergleichsliste hinzu.
+1. Der Kunde fügt benötigte Produkte zur Vergleichsliste hinzu.
 
 1. Navigiert zu **[!UICONTROL My Account]**.
 
-1. Klicken Sie im Block _Produkte vergleichen_ auf **[!UICONTROL Compare]**.
+1. Klicken Sie im _Produkte vergleichen_ auf **[!UICONTROL Compare]**.
 
    ![Produktblock im Dashboard des Kundenkontos vergleichen](./assets/my-account-compare-block.png){width="700" zoomable="yes"}
 
-## Zusätzliche Aktionen bei Vergleichslisten
+## Zusätzliche Aktionen der Vergleichsliste
 
 | [!UICONTROL Action] | Beschreibung |
 |------|-----------|
-| ![Symbol &quot;Löschen&quot;](../assets/icon-delete-x.png) | Löscht ein einzelnes Element aus der Vergleichsliste. |
-| **[!UICONTROL Add to Cart]** | Fügt ein Produkt zum Warenkorb hinzu. Wenn das Produkt über Konfigurationen verfügt, leitet die Seite den Kunden zur Produktseite weiter, auf der er die konfigurierbaren Optionen auswählt, und klickt dann auf **[!UICONTROL Add to Cart]**. |
-| _Wunschlisten-Symbol_ | Fügt ein Produkt zur Wunschliste hinzu (erfordert die Aktivierung der Wunschlisten-Funktion in der Store-Konfiguration). |
-| _Diese Seite drucken_ | Druckt die Seite mit der Vergleichsliste. |
+| ![Löschsymbol](../assets/icon-delete-x.png) | Löscht ein einzelnes Element aus der Vergleichsliste. |
+| **[!UICONTROL Add to Cart]** | Fügt Produkt in den Warenkorb. Wenn das Produkt über Konfigurationen verfügt, leitet die Seite den Kunden zur Produktseite um, wo er die konfigurierbaren Optionen auswählt, und klickt dann auf **[!UICONTROL Add to Cart]**. |
+| _Wunschzettel-Symbol_ | Fügt Produkt in die Wunschliste ein (erfordert, dass die Wunschlistenfunktion in der Store-Konfiguration aktiviert ist). |
+| _Diese Seite drucken_ | Druckt die Vergleichslistenseite. |
 
 {style="table-layout:auto"}

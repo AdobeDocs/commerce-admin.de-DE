@@ -1,6 +1,6 @@
 ---
 title: Unternehmenskonten
-description: Erfahren Sie, wie Unternehmenskonten, die in Ihrem Adobe Commerce-Store verwaltet werden, es ermöglichen, mehrere Käufer, die demselben Unternehmen angehören, zu einem Unternehmenskonto zusammenzuführen.
+description: Erfahren Sie, wie in Ihrem Adobe Commerce Store verwaltete Unternehmenskonten es ermöglichen, mehrere Käufer, die zum selben Unternehmen gehören, in einem einzigen Unternehmenskonto zu vereinen.
 exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
 source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
@@ -12,87 +12,87 @@ ht-degree: 0%
 
 # Unternehmenskonten
 
-Wenn Sie B2B-Unternehmenskonten in Ihren Store integrieren, können Sie das Einkaufserlebnis für Unternehmen vereinfachen, indem Sie Unternehmen die Möglichkeit geben, mehrere Unterkonten mit flexiblen Berechtigungen zu erstellen, die auf den Benutzerrollen in ihrer Organisation basieren.
+Wenn Sie B2B-Unternehmenskonten in Ihren Store integrieren, können Sie das Einkaufserlebnis des Unternehmens vereinfachen, indem Sie es Unternehmen ermöglichen, mehrere Unterkonten mit flexiblen Berechtigungen basierend auf Benutzerrollen in ihrer Organisation zu erstellen.
 
-Je nach Unternehmen kann ein Store-Administrator Promotions und Preise an ihre Bedürfnisse anpassen und hochgradig angepasste Angebote erstellen, die den Anforderungen der Kunden gerecht werden und die Bestellungen erhöhen.
+Je nach Unternehmen kann ein Store-Administrator Promotions und Preise an ihre Bedürfnisse anpassen und hochgradig angepasste Angebote erstellen, die den Anforderungen der Käufer entsprechen und die Bestellungen erhöhen.
 
-Durch Hinzufügen einer Unternehmenskontozuordnung zu einer standardmäßigen [Person](../customers/account-create.md) kann der Kunde die spezifischen Einkaufs-Workflows verwenden, die für das Unternehmen definiert sind.
+Durch das Hinzufügen einer Unternehmenskontenzuordnung zu einer standardmäßigen [Person](../customers/account-create.md) kann der Kunde die für das Unternehmen definierten spezifischen Einkaufs-Workflows verwenden.
 
-Vorteile eines Unternehmenskontos:
+Vorteile eines Firmenkontos:
 
-- Bietet unbegrenzte [Unternehmensbenutzer](account-company-users.md) und die Erstellung zusätzlicher Konten, was die Käufe von Unternehmen vereinfacht.
+- Bietet unbegrenzte [Firmenbenutzer](account-company-users.md) und die Erstellung zusätzlicher Konten, was den Unternehmenskauf vereinfacht.
 
-- Enthält Unterstützung für eine Unternehmenshierarchie mit _intelligenten_ Unternehmenskonten mit unterschiedlichen [Rollen und Berechtigungen](account-company-roles-permissions.md) für die Auftragserteilung.
+- Umfasst Unterstützung für eine _Smart_-Unternehmenskontenhierarchie mit verschiedenen [ (Rollen und Berechtigungen](account-company-roles-permissions.md) für die Auftragserteilung.
 
-- Bietet Händlern einen Mechanismus, um ihr Einkommen zu steigern, indem sie [Unternehmensspeicherkredite](credit-company.md) als Zahlungsmethode anbieten.
+- Bietet einen Mechanismus für Händler zur Einkommenssteigerung, indem sie [Firmenkundenkredit](credit-company.md) als Zahlungsmethode anbieten.
 
-- Unterstützt die [Verwaltung](account-company-manage.md) aller Unternehmenskonten vom Administrator.
+- Unterstützt [Verwaltung](account-company-manage.md) aller Unternehmenskonten vom Administrator.
 
-## Unternehmenskonten anzeigen
+## Anzeigen von Unternehmenskonten
 
-Das Raster _Unternehmen_ listet alle aktiven Unternehmenskonten und ausstehenden Anforderungen auf, unabhängig von der Statuseinstellung. Es bietet außerdem die Tools für die [Erstellung von](account-company-create.md) und die [Verwaltung von](account-company-manage.md) Unternehmenskonten. Verwenden Sie die standardmäßigen Rastersteuerelemente, um die Liste zu filtern und das Spaltenlayout anzupassen. Eine Liste der Spaltenbeschreibungen finden Sie im Abschnitt _Spaltenbeschreibungen_ in [Verwalten von Unternehmenskonten](account-company-manage.md).
+Das _Firmen_-Raster listet alle aktiven Unternehmenskonten und ausstehenden Anfragen auf, unabhängig von der Statuseinstellung. Darüber hinaus stehen die Tools zum [ (Erstellen](account-company-create.md) und [) ](account-company-manage.md) Unternehmenskonten zur Verfügung. Verwenden Sie die standardmäßigen Rastersteuerelemente, um die Liste zu filtern und das Spaltenlayout anzupassen. Eine Liste der Spaltenbeschreibungen finden Sie im Abschnitt _Spaltenbeschreibungen_ in [Verwalten von Unternehmenskonten](account-company-manage.md).
 
-Kunden können ein Unternehmenskonto über die Storefront erstellen oder ein Händler kann über den Administrator ein Unternehmenskonto erstellen. Standardmäßig ist die Möglichkeit aktiviert, Unternehmenskonten aus der Storefront zu erstellen. Wenn die Konfiguration dies zulässt, kann ein Besucher des Stores das Öffnen eines Unternehmenskontos anfordern. Nachdem das Unternehmenskonto genehmigt wurde, kann der Unternehmensadministrator die Unternehmensstruktur und Benutzer mit verschiedenen Berechtigungsstufen einrichten.
+Kunden können ein Unternehmenskonto in der Storefront erstellen oder ein Händler kann eines in der Admin erstellen. Standardmäßig ist die Möglichkeit zum Erstellen von Unternehmenskonten in der Storefront aktiviert. Wenn die Konfiguration dies zulässt, kann ein Besucher des Stores die Eröffnung eines Unternehmenskontos anfordern. Nachdem das Unternehmenskonto genehmigt wurde, kann der Unternehmensadministrator die Unternehmensstruktur und Benutzer mit verschiedenen Berechtigungsebenen einrichten.
 
-Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-![Unternehmensraster](./assets/companies-grid.png){width="700" zoomable="yes"}
+![Firmen-Raster](./assets/companies-grid.png){width="700" zoomable="yes"}
 
-Das Raster [!UICONTROL Companies] listet alle Unternehmen unabhängig vom Status auf. Die Unternehmensauflistung gibt an, ob ein Unternehmen mit einer [Unternehmenshierarchie](manage-company-hierarchy.md) verknüpft ist, und liefert [detaillierte Informationen](/help/b2b/account-company-manage.md#company-options-and-columns) über das Unternehmen, den Unternehmensadministrator und andere Informationen. Passen Sie die Ansicht mithilfe der [Admin-Rastersteuerelemente](../getting-started/admin-grid-controls.md) an, um Filter, Spaltenansichtsoptionen und mehr festzulegen.
+Das [!UICONTROL Companies]-Raster listet alle Unternehmen unabhängig vom Status auf. Die Auflistung des Unternehmens gibt an, ob ein Unternehmen einer [Unternehmenshierarchie](manage-company-hierarchy.md) zugeordnet ist, und enthält [detaillierte Informationen](/help/b2b/account-company-manage.md#company-options-and-columns) über das Unternehmen, den Unternehmensadministrator und andere Informationen. Passen Sie die Ansicht mithilfe der [Admin-Rastersteuerelemente](../getting-started/admin-grid-controls.md) an, um Filter, Spaltenansichtsoptionen und mehr festzulegen.
 
-## Firmenadministrator
+## Unternehmensadministrator
 
-Das folgende Beispiel zeigt das Raster _Kunden_ mit den anfänglichen Unternehmensadministratorkonten.
+Das folgende Beispiel zeigt das Raster _Kunden_ mit anfänglichen Unternehmensadministratorkonten.
 
-![Kundenraster mit dem Unternehmensadministratorkonto](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
+![Kundenraster mit Firmenadministratorkonto](./assets/company-admin-user-account.png){width="700" zoomable="yes"}
 
-Jedes Unternehmen verfügt über einen einzigen Unternehmensadministrator, der anhand der E-Mail-Adresse des Kontos und des Vor- und Nachnamens des Administrators identifiziert wird. Der Administrator kann anderen Unternehmen als Benutzer zugewiesen werden, kann aber nur Administrator für ein Unternehmen sein.
+Jedes Unternehmen verfügt über einen einzelnen Unternehmensadministrator, der durch die E-Mail-Adresse des Kontos sowie den Vor- und Nachnamen des Administrators identifiziert wird. Der Administrator kann anderen Unternehmen als Benutzer zugewiesen werden, er kann jedoch Administrator nur für ein Unternehmen sein.
 
-Nach Erstellung des Kontos definiert der Unternehmensadministrator die Unternehmensstruktur von [Teams](account-company-structure.md), richtet die [Unternehmensbenutzer](account-company-users.md) ein und richtet für jede Gruppe [Rollen und Berechtigungen](account-company-roles-permissions.md) ein.
+Nach der Erstellung des Kontos definiert der Unternehmensadministrator die Unternehmensstruktur von [Teams](account-company-structure.md), richtet die [Unternehmensbenutzer](account-company-users.md) ein und richtet [Rollen und Berechtigungen](account-company-roles-permissions.md) für jeden ein.
 
-### Legen Sie das Kennwort des Unternehmensadministrators vor der ersten Anmeldung fest.
+### Festlegen des Kennworts für den Unternehmensadministrator vor der ersten Anmeldung
 
-1. Der Unternehmensadministrator findet eine Begrüßungs-E-Mail aus dem Store.
+1. Der Unternehmensadministrator findet eine Begrüßungs-E-Mail im Store.
 
-   ![Beispiel einer Begrüßungs-E-Mail](./assets/company-admin-welcome-email.png){width="500"}
+   ![Beispiel-Begrüßungs-E-Mail](./assets/company-admin-welcome-email.png){width="500"}
 
    >[!NOTE]
    >
-   >Die E-Mail-Adressenziele und der Inhalt der E-Mail werden durch die Optionen bestimmt, die in der Konfiguration der [E-Mail-Optionen des Unternehmens](email-company-configuration.md) angegeben sind.
+   >Die E-Mail-Adressziele und der Inhalt der E-Mail werden durch die Optionen bestimmt, die in der Konfiguration [E-Mail-Optionen für Unternehmen](email-company-configuration.md) angegeben sind.
 
-1. Befolgt die Anweisungen und klickt auf [!UICONTROL **link**] , um das Kennwort festzulegen.
+1. Folgt den Anweisungen und klickt auf [!UICONTROL **link**], um sein Kennwort festzulegen.
 
-1. Fügt ein [!UICONTROL **neues Kennwort**] und eine Kennwortbestätigung für ihr Konto ein.
+1. Geben Sie ein [!UICONTROL **Neues Kennwort**] und eine Kennwortbestätigung für das Konto ein.
 
    Das Kennwort muss mindestens drei der folgenden Zeichentypen enthalten:
 
-   - Kleinbuchstaben (ca.
-   - Großbuchstaben (ABC...)
+   - Kleinbuchstaben (abc…)
+   - Großbuchstaben (ABC…)
    - Zahlen (1234567890)
-   - Sonderzeichen (!@#$...)
+   - Sonderzeichen (!@#$…)
 
-1. Klicks auf [!UICONTROL **Neues Kennwort festlegen**].
+1. Klicken Sie [!UICONTROL **Neues Kennwort festlegen**].
 
-   ![Kundenanmeldung - Unternehmensadministrator](./assets/company-admin-account-login.png){width="700" zoomable="yes"}
+   ![Kundenanmeldung - Unternehmensadmin](./assets/company-admin-account-login.png){width="700" zoomable="yes"}
 
-1. Wenn die Seite [!UICONTROL Customer Login] angezeigt wird, gibt der Kunde seine [!UICONTROL **E-Mail**] und sein [!UICONTROL **Passwort**] ein.
+1. Wenn die Seite [!UICONTROL Customer Login] angezeigt wird, gibt der Kunde seine [!UICONTROL **E-Mail**] und [!UICONTROL **Passwort**] ein.
 
-1. Klicken Sie auf [!UICONTROL **Anmelden**] , um auf das Konto-Dashboard zuzugreifen.
+1. Klickt auf [!UICONTROL **Anmelden**], um auf sein Konto-Dashboard zuzugreifen.
 
    ![Konto-Dashboard - Firma](./assets/account-dashboard-company.png){width="700" zoomable="yes"}
 
 ## Unternehmensstruktur
 
-Es kann ein Unternehmenskonto eingerichtet werden, das die Struktur des Unternehmens widerspiegelt. Zunächst umfasst die Unternehmensstruktur nur den Unternehmensadministrator, kann jedoch erweitert werden, um Teams von Benutzern aufzunehmen. Die Benutzer können Teams zugeordnet oder innerhalb einer Hierarchie von Abteilungen und Unterteilungen innerhalb des Unternehmens organisiert werden. Die Struktur unterstützt die Verwendung von [Genehmigungsregeln](account-dashboard-approval-rules.md) für [Bestellungen](purchase-order-flow.md) (Bestellaufträge), die mit dem Unternehmenskonto verknüpft sind.
+Ein Unternehmenskonto kann entsprechend der Struktur des Unternehmens eingerichtet werden. Zunächst umfasst die Unternehmensstruktur nur den Unternehmensadministrator, kann jedoch um Teams von Benutzern erweitert werden. Die Benutzer können mit Teams verknüpft oder innerhalb einer Hierarchie von Abteilungen und Unterabteilungen innerhalb des Unternehmens organisiert sein. Die Struktur unterstützt die Verwendung von [Genehmigungsregeln](account-dashboard-approval-rules.md) für [Bestellungen](purchase-order-flow.md), die mit dem Unternehmenskonto verknüpft sind.
 
-![Unternehmensstruktur mit Divisionen](./assets/company-structure-diagram.svg){width="450"}
+![Unternehmensstruktur mit Geschäftsbereichen](./assets/company-structure-diagram.svg){width="450"}
 
-Im Konto-Dashboard des Unternehmensadministrators wird die Unternehmensstruktur als Struktur dargestellt und besteht zunächst nur aus dem Unternehmensadministrator.
+Im Dashboard des Unternehmensadministrators wird die Unternehmensstruktur als Baumstruktur dargestellt und besteht zunächst nur aus dem Unternehmensadministrator.
 
 ![Unternehmensstruktur mit Unternehmensadministrator](./assets/company-structure-tree-admin.png){width="600"}
 
-Bei der Erstellung des Kontos kann der Unternehmensadministrator die E-Mail-Adresse des Unternehmens verwenden oder eine andere E-Mail-Adresse erhalten.
+Wenn das Konto erstellt wird, kann der Unternehmensadministrator die E-Mail-Adresse des Unternehmens verwenden oder ihm eine andere E-Mail-Adresse zugewiesen werden.
 
-Im folgenden Beispiel umfasst die ursprüngliche Unternehmensstruktur den Unternehmensadministrator sowie ein einzelnes Benutzerkonto im Namen des Unternehmensadministrators. Die Administratorfunktionen des Unternehmens (z. B. die Unternehmensstruktur und Validierungsregeln) sind jedoch nur verfügbar, wenn sie bei dem Benutzerkonto angemeldet sind, das als Unternehmensadministrator benannt wurde.
+Im folgenden Beispiel umfasst die anfängliche Unternehmensstruktur den Unternehmensadministrator plus ein individuelles Benutzerkonto im Namen des Unternehmensadministrators. Funktionen des Unternehmensadministrators (z. B. Unternehmensstruktur und Genehmigungsregeln) sind jedoch nur verfügbar, wenn sie bei dem Benutzerkonto angemeldet sind, das als Unternehmensadministrator festgelegt ist.
 
 ![Unternehmensstruktur mit Administrator- und Benutzerkonto](./assets/company-structure-tree-admin-user.png){width="600"}

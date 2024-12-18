@@ -1,6 +1,6 @@
 ---
 title: Variablenreferenz
-description: Sehen Sie sich Beispiele für häufig verwendete E-Mail-Vorlagen und die zugehörigen Variablen an.
+description: Beispiele für häufig verwendete E-Mail-Vorlagen und die zugehörigen Variablen.
 exl-id: b5e49a56-4b7c-431d-bd44-e8591106fa4e
 role: Admin, User
 feature: System, Variables, Communications
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Variablenreferenz
 
-Die meisten [E-Mail-Vorlagen](email-template-custom.md) verfügen über einen Abschnitt mit [vordefinierten Variablen](variables-predefined.md), die für die Vorlage spezifisch sind. Die folgende Liste enthält Beispiele für häufig verwendete E-Mail-Vorlagen und die zugehörigen Variablen.
+Die [E-Mail](email-template-custom.md)Vorlagen“ enthalten einen Abschnitt mit [vordefinierten Variablen](variables-predefined.md) die für die Vorlage spezifisch sind. Die folgende Liste enthält Beispiele für häufig verwendete E-Mail-Vorlagen und die zugehörigen Variablen.
 
 ## E-Mail-Vorlagenvariablen
 
@@ -29,7 +29,7 @@ Die meisten [E-Mail-Vorlagen](email-template-custom.md) verfügen über einen Ab
 
 {style="table-layout:auto"}
 
-## Kontaktdatenvariablen speichern
+## Speichern von Kontaktinformationsvariablen
 
 | Variable | Markup-Tag |
 |--- |--- |
@@ -69,7 +69,7 @@ Die meisten [E-Mail-Vorlagen](email-template-custom.md) verfügen über einen Ab
 
 {style="table-layout:auto"}
 
-## Neue Vorlagenvariablen für Bestellungen
+## Neue Variablen der Bestellvorlage
 
 | Variable | Markup-Tag |
 |--- |--- |

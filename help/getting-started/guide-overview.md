@@ -14,21 +14,21 @@ ht-degree: 4%
 
 # Erste Schritte mit Adobe Commerce
 
-Dieses Handbuch richtet sich an Händler und Systemadministratoren, die neu bei Adobe Commerce sind. Es bietet einen Überblick über die Plattform aus ihrer Perspektive und detaillierte Informationen über grundlegende Funktionen, die einen funktionalen Speicher ermöglichen.
+Dieses Handbuch richtet sich an Händler und Systemadministratoren, die noch nicht mit Adobe Commerce vertraut sind. Es bietet einen Überblick über die Plattform aus ihrer Perspektive und einige detaillierte Informationen über die grundlegenden Funktionen, die einen funktionalen Store ermöglichen.
 
-Dieses Handbuch behandelt:
+Dieses Handbuch behandelt Folgendes:
 
-| Betreff | Beschreibung |
+| Subjekt | Beschreibung |
 | ------- | ----------- |
-| [Info zu Commerce](about.md) | Erfahren Sie mehr über die aktuelle Adobe Commerce-Version. |
-| [Anmeldeberechtigungen und URLs](login-urls.md) | Erfahren Sie mehr über die [!DNL Commerce]-URLs und Kontoanmeldeinformationen, mit denen Sie Zugriff auf Ihren Administrator und Ihre Storefront erhalten. |
-| [[!DNL Commerce] accounts](commerce-account-create.md) | Erfahren Sie mehr über [!DNL Commerce]-Konten, die die von Ihnen erworbenen Produkte und Dienste verwalten. |
-| [Der Administrator](admin.md) | Erfahren Sie mehr über den [!DNL Commerce] -Admin, den Ort, an dem Händler Produkte und Promotions einrichten, Bestellungen verwalten und andere Verwaltungsaufgaben ausführen. |
-| [Die Storefront](storefront.md) | Erfahren Sie mehr über die Seiten und funktionalen Elemente, die Ihr Store bereitstellen kann, um das Einkaufserlebnis für Ihre Kunden zu unterstützen. |
-| [Grundlegendes Setup und Konfiguration](websites-stores-views.md) | Erfahren Sie mehr über die Konzepte der Store-Hierarchie und des Konfigurationsumfangs und gehen Sie durch die grundlegenden Konfigurationseinstellungen. |
-| [Site-Compliance](privacy-policy.md) | Erfahren Sie, wie Händler dafür verantwortlich sind, die Branchenrichtlinien für eine sichere Umgebung zu erfüllen und die gesetzlichen Anforderungen und Best Practices für Online-Händler in ihrem jeweiligen Land zu erfüllen. |
-| [Standardberichterstellung](reports-menu.md) | Erfahren Sie, wie Sie Daten filtern und Online-Berichte erstellen. Die Berichtsdaten können in einer Tabelle geöffnet oder in andere Anwendungen importiert werden. |
-| [Ressourcen](resources.md) | Erfahren Sie mehr über den Reichtum an geschäftlichen und technischen Ressourcen, Selbsthilfe-Tools und Dienstleistungen, die Ihnen beim Erfolg helfen. |
+| [Über Commerce](about.md) | Erfahren Sie mehr über die aktuelle Adobe Commerce-Version. |
+| [Anmeldedaten und URLs](login-urls.md) | Erfahren Sie mehr über die [!DNL Commerce]-URLs und Kontoanmeldeinformationen, mit denen Sie Zugriff auf Ihren Admin und Ihre Storefront erhalten. |
+| [[!DNL Commerce] Konten](commerce-account-create.md) | Erfahren Sie mehr über [!DNL Commerce]-Konten, die die von Ihnen erworbenen Produkte und Services verwalten. |
+| [Der Administrator](admin.md) | Erfahren Sie mehr über den [!DNL Commerce] Admin, den Ort, an dem Händler Produkte und Promotions einrichten, Bestellungen verwalten und andere administrative Aufgaben ausführen. |
+| [Die Storefront](storefront.md) | Erfahren Sie mehr über die Seiten und funktionalen Elemente, die Ihr Geschäft bereitstellen kann, um das Einkaufserlebnis für Ihre Kunden zu unterstützen. |
+| [Grundlegende Einrichtung und Konfiguration](websites-stores-views.md) | Lernen Sie die Konzepte der Store-Hierarchie und des Konfigurationsbereichs kennen und erfahren Sie mehr über die grundlegenden Konfigurationseinstellungen. |
+| [Site-Compliance](privacy-policy.md) | Erfahren Sie, wie Händler dafür verantwortlich sind, die Branchenrichtlinien für die Aufrechterhaltung einer sicheren Umgebung zu erfüllen und die rechtlichen Anforderungen und Best Practices für Online-Händler in ihrem Zuständigkeitsbereich zu erfüllen. |
+| [Standardberichte](reports-menu.md) | Erfahren Sie, wie Sie Daten filtern und Online-Berichte erstellen können. Die Berichtsdaten können in einer Tabelle geöffnet oder in andere Programme importiert werden. |
+| [Ressourcen](resources.md) | Erfahren Sie mehr über die Fülle an geschäftlichen und technischen Ressourcen, Selbsthilfe-Tools und Services, die Ihnen zum Erfolg verhelfen. |
 
 {style="table-layout:auto"}
 

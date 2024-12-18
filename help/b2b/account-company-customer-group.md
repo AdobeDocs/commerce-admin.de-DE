@@ -1,6 +1,6 @@
 ---
-title: Zuweisen einer Kundengruppe zu einem Unternehmen
-description: Erfahren Sie, wie Sie in Ihrem Adobe Commerce-Store einem Unternehmenskonto eine Kundengruppe zuweisen.
+title: Zuweisen einer Kundengruppe zu einer Firma
+description: Erfahren Sie, wie Sie einem Unternehmenskonto in Ihrem Adobe Commerce-Store eine Kundengruppe zuweisen.
 exl-id: fba3c17e-95df-4e9e-84b8-67409c6da72d
 feature: B2B, Companies, Configuration, Customers
 role: Admin, User
@@ -11,31 +11,31 @@ ht-degree: 0%
 
 ---
 
-# Zuweisen einer Kundengruppe zu einem Unternehmen
+# Zuweisen einer Kundengruppe zu einer Firma
 
-Die Zuweisung einer Kundengruppe zu einem Unternehmen entspricht im Wesentlichen der Zuweisung eines freigegebenen Katalogs. Wenn &quot;Freigegebener Katalog&quot;in der Konfiguration nicht ](enable-basic-features.md) aktiviert ist, wird einer Firma eine Kundengruppe (und nicht ein freigegebener Katalog) zugewiesen.[
+Das Zuweisen einer Kundengruppe zu einem Unternehmen entspricht im Wesentlichen dem Zuweisen eines freigegebenen Katalogs. Wenn der freigegebene Katalog nicht [in der Konfiguration aktiviert](enable-basic-features.md) wird einem Unternehmen eine Kundengruppe - und kein freigegebener Katalog - zugewiesen.
 
-- Einem Unternehmen kann jeweils nur eine Kundengruppe oder ein freigegebener Katalog zugewiesen werden. Eine Kundengruppe, die mit einem freigegebenen Katalog verknüpft ist, kann nicht gelöscht werden.
-- Wenn Sie die dem Unternehmen zugewiesene Kundengruppe ändern, werden die Profile aller Unternehmensmitglieder aktualisiert.
-- Wenn die Kundengruppenzuweisung von einem freigegebenen Katalog in eine reguläre Kundengruppe geändert wird, verlieren Unternehmensmitglieder den Zugriff auf den freigegebenen Katalog und der Hauptkatalog steht ihnen über das Storefront zur Verfügung.
-- Nachdem ein Benutzer die Unternehmensgruppe geändert hat, muss er sich bei der Storefront abmelden und sich dort anmelden, um neue Preise im Katalog zu sehen.
+- Einem Unternehmen kann jeweils nur eine Kundengruppe oder ein freigegebener Katalog zugewiesen werden. Eine Kundengruppe, die einem freigegebenen Katalog zugeordnet ist, kann nicht gelöscht werden.
+- Wenn Sie die der Firma zugewiesene Kundengruppe ändern, werden die Profile aller Firmenmitglieder aktualisiert.
+- Wenn die Kundengruppenzuweisung von einem freigegebenen Katalog in eine reguläre Kundengruppe geändert wird, verlieren die Firmenmitglieder den Zugriff auf den freigegebenen Katalog, und der primäre Katalog wird für sie in der Storefront verfügbar.
+- Nach dem Ändern der Unternehmensgruppe muss sich ein Firmenbenutzer abmelden und in der Storefront anmelden, um neue Preise im Katalog zu sehen.
 
 ## Ändern der Kundengruppe
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
 1. Suchen Sie das Unternehmen im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
-   ![Unternehmen bearbeiten](./assets/companies-grid-edit.png){width="700" zoomable="yes"}
+   ![Firma bearbeiten](./assets/companies-grid-edit.png){width="700" zoomable="yes"}
 
-1. Scrollen Sie auf der Unternehmensseite nach unten und erweitern Sie den Abschnitt ![Erweiterungsauswahl](../assets/icon-display-expand.png) im Abschnitt **[!UICONTROL Advanced Settings]** .
+1. Scrollen Sie auf der Unternehmensseite nach unten und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Advanced Settings]** .
 
 1. Legen Sie die entsprechende **[!UICONTROL Customer Group]** fest.
 
-   Die Liste &quot;[!UICONTROL Customer Group]&quot;enthält alle vorhandenen freigegebenen Kataloge, auch wenn die Option &quot;Freigegebene Kataloge&quot;in der Konfiguration deaktiviert ist.
+   Die [!UICONTROL Customer Group] enthält alle vorhandenen freigegebenen Kataloge, auch wenn diese in der Konfiguration deaktiviert sind.
 
-   ![Ändern der Kundengruppe oder des freigegebenen Katalogs](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
+   ![Kundengruppe oder freigegebenen Katalog ändern](./assets/company-advanced-settings-customer-group-admin.png){width="600"}
 
-1. Klicken Sie bei Aufforderung zur Bestätigung auf **[!UICONTROL Proceed]**.
+1. Wenn Sie zum Bestätigen aufgefordert werden, klicken Sie auf **[!UICONTROL Proceed]**.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.

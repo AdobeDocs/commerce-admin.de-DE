@@ -1,6 +1,6 @@
 ---
 title: Übersicht über Visual Merchandiser
-description: Erfahren Sie mehr über die Visual Merchandiser-Tools, mit denen Sie Produkte positionieren und bestimmen können, welche Produkte in der Kategorienliste angezeigt werden.
+description: Erfahren Sie mehr über die Visual Merchandiser-Tools, mit denen Sie Produkte positionieren und bestimmen können, welche Produkte in der Kategorieliste angezeigt werden.
 exl-id: 00fe8b7f-0c33-4f06-a3cd-1f0bd18079f1
 feature: Categories, Merchandising, Products
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
@@ -14,52 +14,52 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Der _Visual Merchandiser_ ist ein Satz erweiterter Tools, mit denen Sie Produkte positionieren und Bedingungen anwenden können, die bestimmen, welche Produkte in der Kategorienliste angezeigt werden. Das Ergebnis kann eine dynamische Auswahl von Produkten sein, die sich an Änderungen im Katalog anpasst. Sie können im _visuellen Modus_ arbeiten, in dem jedes Produkt als Kachel auf einem Raster angezeigt wird, oder aus einer Liste von Produkten in der Kategorie arbeiten. In jedem Modus sind dieselben Tools verfügbar. Sie können die Schaltflächen in der oberen rechten Ecke verwenden, um zwischen den einzelnen Anzeigetypen umzuschalten.
+Der _Visual Merchandiser_ ist ein Satz erweiterter Tools, mit denen Sie Produkte positionieren und Bedingungen anwenden können, die bestimmen, welche Produkte in der Kategorieliste angezeigt werden. Das Ergebnis kann eine dynamische Auswahl von Produkten sein, die sich an Änderungen im Katalog anpasst. Sie können im _visuellen Modus_ arbeiten, der jedes Produkt als Kachel auf einem Raster anzeigt, oder aus einer Liste von Produkten in der Kategorie arbeiten. In jedem Modus stehen die gleichen Tools zur Verfügung, und Sie können mit den Schaltflächen in der oberen rechten Ecke zwischen den verschiedenen Anzeigetypen wechseln.
 
 ![Kategorieprodukte in der Kachelansicht](./assets/category-products-visual-with-stock.png){width="600" zoomable="yes"}
 
 ## Zugriff auf Visual Merchandiser
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
-1. Führen Sie einen Drilldown in der Kategoriestruktur durch und klicken Sie auf die Kategorie, die Sie bearbeiten möchten.
+1. Drilldown in der Kategoriestruktur durchführen und auf die Kategorie klicken, die Sie bearbeiten möchten.
 
-1. Scrollen Sie nach unten und erweitern Sie den Abschnitt **[!UICONTROL Products in Category]** um den ![Erweiterungsselektor](../assets/icon-display-expand.png).
+1. Scrollen Sie nach unten und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Products in Category]** .
 
-1. Klicken Sie auf die Schaltfläche _Als Kacheln anzeigen_ ( ![Als Kacheln anzeigen](../assets/icon-view-tiles.png) ), um die Produkte als Raster anzuzeigen.
+1. Klicken Sie auf _Als Kacheln anzeigen_ ( ![Als Kacheln anzeigen](../assets/icon-view-tiles.png) ), um die Produkte als Raster anzuzeigen.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Category]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Category]**.
 
 ## Position eines Produkts ändern
 
-1. Verwenden Sie die [Sortierreihenfolge](../catalog/navigation-product-listings.md) , um das Produkt anzuzeigen, das Sie verschieben möchten.
+1. Verwenden Sie die [Sortierreihenfolge](../catalog/navigation-product-listings.md), um das Produkt anzuzeigen, das Sie verschieben möchten.
 
-   - **Methode 1: Ziehen und Ablegen**
+   - **Methode 1: Drag-and-Drop**
 
-     Ziehen Sie das Steuerelement _Ziehen_ (![Ziehen-Symbol](../assets/icon-move.png)) in der oberen rechten Ecke der Produktkachel und legen Sie das Produkt an einer Position ab. Die Anzahl der einzelnen Produkte passt sich der neuen Position an.
+     Greifen Sie das Steuerelement _Ziehen_ (![Symbol ziehen](../assets/icon-move.png)) in der oberen rechten Ecke der Produktkachel und legen Sie das Produkt in der Position ab. Die Anzahl der einzelnen Produkte wird entsprechend der neuen Position angepasst.
 
    - **Methode 2: Positionswert festlegen**
 
-     Geben Sie im Controller _Position_ (![Positionsfeld](../assets/control-position.png)) auf der Produktkachel die Nummer ein, unter der das Produkt angezeigt werden soll. Geben Sie `0` ein, um das Produkt oben in der Liste zu platzieren.
+     Geben _im_-Controller (![Feld Position](../assets/control-position.png)) auf der Produktkachel die Nummer ein, unter der das Produkt angezeigt werden soll. Geben Sie `0` ein, um das Produkt an den Anfang der Liste zu setzen.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Category]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Category]**.
 
 >[!NOTE]
 >
->Bei einer ordnungsgemäßen Installation reserviert Adobe Commerce die Kategorie-ID `2` für den Stammkatalog des Standardspeichers. Visual Merchandiser kann nur Kategorien mit der ID-Nummer `3` oder höher verwenden.
+>Bei einer Neuinstallation reserviert Adobe Commerce die Kategorie-ID `2` für den Stammkatalog des Standardspeichers. Visual Merchandiser kann nur Kategorien mit einer ID-Nummer von `3` oder höher verwenden.
 
 ## Workspace-Steuerelemente
 
 | Kontrolle | Beschreibung |
 |--- |--- |
-| ![Symbol &quot;Liste anzeigen&quot;](../assets/icon-view-list.png) | Als Liste anzeigen |
-| ![Als Kachelsymbol anzeigen](../assets/icon-view-tiles.png) | Als Kacheln anzeigen |
-| ![Übereinstimmung mit Regelumschalter - nein](../assets/toggle-no.png) | Übereinstimmung mit Regel - nein |
-| ![Übereinstimmung mit Regelumschalter - ja](../assets/toggle-yes.png) | Übereinstimmung mit Regel - ja |
-| ![Symbol &quot;Verschieben&quot;](../assets/icon-move.png) | Ziehen |
-| ![Positionscontroller](../assets/control-position.png) | Position |
-| ![Symbol &quot;Aus Kategorie entfernen&quot;](../assets/icon-delete-x.png) | Aus Kategorie entfernen |
-| ![Elemente pro Seitensteuerelement](../assets/control-items-per-page.png) | Anzeigen pro Seite |
-| ![Ändern der Seitenanzeige](../assets/control-page-display.png) | Weiter zum nächsten/vorherigen |
+| ![Symbol „Liste anzeigen“](../assets/icon-view-list.png) | Als Liste anzeigen |
+| ![Als Kacheln anzeigen](../assets/icon-view-tiles.png) | Als Kacheln anzeigen |
+| ![Umschalter für Übereinstimmung nach Regel - Nein](../assets/toggle-no.png) | Übereinstimmung nach Regel - Nein |
+| ![Umschalter für Übereinstimmung nach Regel - Ja](../assets/toggle-yes.png) | Übereinstimmung nach Regel - ja |
+| ![move icon](../assets/icon-move.png) | Schleppen |
+| ![Positionsregler](../assets/control-position.png) | Position |
+| ![Aus Kategoriesymbol entfernen](../assets/icon-delete-x.png) | Aus Kategorie entfernen |
+| ![Elemente pro Seitensteuerelement](../assets/control-items-per-page.png) | Pro Seite anzeigen |
+| ![Ändern der Seitenanzeige](../assets/control-page-display.png) | Weiter/Zurück |
 
 {style="table-layout:auto"}

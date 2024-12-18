@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Security] &gt; [!UICONTROL Security.txt]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Security] &gt; [!UICONTROL Security.txt] des Commerce-Administrators.
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Security] &gt; [!UICONTROL Security.txt] des Commerce Admin-Bereichs.
 exl-id: 26385864-cfd8-456b-91b2-bf5d019c09e1
 feature: Configuration, Security, Site Management
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Security] > [!UICONTROL Security.txt]
 
-Weitere Informationen zum Ändern dieser Konfigurationseinstellungen finden Sie unter [Berichterstellung zu Sicherheitsproblemen](../../systems/security-issue-reporting.md).
+Weitere Informationen zum Ändern dieser Konfigurationseinstellungen finden Sie unter [Sicherheitsproblemberichte](../../systems/security-issue-reporting.md).
 
 {{config}}
 
@@ -22,7 +22,7 @@ Weitere Informationen zum Ändern dieser Konfigurationseinstellungen finden Sie 
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Enable] | Webseite | Wenn diese Option aktiviert ist, wird eine `security.txt` -Datei gespeichert, die Informationen enthält, die von Sicherheitsexperten benötigt werden, um potenzielle Sicherheitslücken zu melden. Optionen:<br />**`Yes`**- Erstellt die Datei `security.txt` anhand der Informationen, die in den Abschnitten _Kontaktdaten_ und _Weitere Informationen_ eingegeben wurden.<br />**`No`** - (Standard) Erstellt die Datei `security.txt` nicht. |
+| [!UICONTROL Enable] | Website | Wenn diese Option aktiviert ist, wird eine `security.txt`-Datei gespeichert, die Informationen enthält, die von Sicherheitsforschern benötigt werden, um potenzielle Sicherheitslücken an Sie zu melden. Optionen: <br />**`Yes`**- Erstellt die `security.txt` basierend auf den Informationen, die in den Abschnitten _Kontaktinformationen_ und _Sonstige Informationen_ eingegeben wurden.<br />**`No`** - (Standard) Erstellt nicht die `security.txt`. |
 
 {style="table-layout:auto"}
 
@@ -32,9 +32,9 @@ Weitere Informationen zum Ändern dieser Konfigurationseinstellungen finden Sie 
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Email] | Webseite | Die E-Mail-Adresse, an die Sicherheitsberichte gesendet werden können. |
-| [!UICONTROL Phone] | Webseite | Eine Telefonnummer, mit der Sicherheitsbedenken gemeldet werden können. |
-| [!UICONTROL Contact Page] | Webseite | Die URL einer Seite auf Ihrer Site, auf der Sicherheitskontakte aufgelistet werden, oder Ihre Seite _Kontakt zu uns aufnehmen_ . Beispiele: <br/>`https://mystore.com/security-contact.html`<br/>`https://mystore.com/contact/` |
+| [!UICONTROL Email] | Website | Die E-Mail-Adresse, an die Sicherheitsberichte gesendet werden können. |
+| [!UICONTROL Phone] | Website | Eine Telefonnummer, unter der Sicherheitsbedenken gemeldet werden können. |
+| [!UICONTROL Contact Page] | Website | Die URL einer Seite auf Ihrer Site, auf der Sicherheitskontakte aufgelistet sind, oder Ihre Seite _Kontakt_. Beispiele: <br/>`https://mystore.com/security-contact.html`<br/>`https://mystore.com/contact/` |
 
 {style="table-layout:auto"}
 
@@ -44,11 +44,11 @@ Weitere Informationen zum Ändern dieser Konfigurationseinstellungen finden Sie 
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Encryption] | Webseite | Eine URL, die auf den Speicherort eines Verschlüsselungsschlüssels verweist, mit dem Sicherheitsforscher verschlüsselte Nachrichten senden können. _**Geben Sie den Verschlüsselungsschlüssel nicht in dieses Feld ein.**_ <br/><br/>Der Forscher muss sicherstellen, dass der Schlüssel aus einer vertrauenswürdigen Quelle stammt. Forscher dürfen nicht davon ausgehen, dass der Schlüssel mit dem Schlüssel übereinstimmt, der zum Generieren der digitalen Signatur verwendet wurde. Beispiel:<br />OpenPGP-Schlüssel vom Webserver - `https://mystore.com/pgp-key.txt` |
-| [!UICONTROL Acknowledgments] | Webseite | Eine URL, die auf eine Seite in Ihrem Store verweist, auf der Sicherheitsforscher quittiert werden, z. B.`https://mystore.com/hall-of-fame.html`. Um künftige Angriffe zu verhindern, fügen Sie nur eine allgemeine Beschreibung hinzu, ohne spezifische Informationen zu Schwachstellenproblemen anzuzeigen. Beispiel:<br />Wir möchten den folgenden Forschern danken:<br />(jjjj/mm/tt) Justin Thyme - SQL-Injektion |
-| [!UICONTROL Preferred Languages] | Webseite | Gibt mindestens eine bevorzugte Sicherheitsberichtssprache an. Trennen Sie mehrere zweistellige [Sprachcodes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) durch ein Komma. Alle angegebenen Sprachen haben dieselbe Priorität. Geben Sie beispielsweise `en, es, fr` ein, um Englisch, Spanisch und Französisch anzugeben. |
-| [!UICONTROL Hiring] | Webseite | Die URL einer Seite auf der Site, die sicherheitsrelevante Auftragspositionen auflistet. Beispiel: `https://mystore.com/jobs.html` |
-| [!UICONTROL Policy] | Webseite | Die URL der Seite, die Ihre Sicherheitsrichtlinien und die Best Practices für die Meldung von Sicherheitslücken beschreibt. Beispiel: `https://mystore.com/security-reporting.html` Standard: `https://mystore.com/security` |
-| [!UICONTROL Signature] | Webseite | Ein Link zu Ihrer digitalen Signaturdatei. Die digitale Signatur muss über die Befehlszeile generiert und im Ordner &quot;`.well-known`&quot;auf dem Server gespeichert werden. Weitere Informationen finden Sie unter [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) auf GitHub. Beispiel: `https://mystore.com/.well-known/security.txt.sig` |
+| [!UICONTROL Encryption] | Website | Eine URL, die auf den Speicherort eines Verschlüsselungsschlüssels verweist, den Sicherheitsforscher zum Senden verschlüsselter Nachrichten verwenden können. _**Geben Sie den Verschlüsselungsschlüssel nicht in dieses Feld ein.**_ <br/><br/>Es liegt in der Verantwortung des Forschers zu überprüfen, ob der Schlüssel aus einer vertrauenswürdigen Quelle stammt. Forscher dürfen nicht davon ausgehen, dass der Schlüssel mit dem zur Erzeugung der digitalen Signatur verwendeten Schlüssel identisch ist. Beispiel: <br />OpenPGP-Schlüssel vom Webserver - `https://mystore.com/pgp-key.txt` |
+| [!UICONTROL Acknowledgments] | Website | Eine URL, die auf eine Seite in Ihrem Geschäft verweist, auf der Sicherheitsforscher anerkannt werden, z. B`https://mystore.com/hall-of-fame.html`. Um zukünftige Angriffe zu verhindern, fügen Sie nur eine allgemeine Beschreibung hinzu, ohne spezifische Informationen zu Schwachstellenproblemen preiszugeben. Beispiel:<br />Wir möchten den folgenden Forschern danken:<br />(jjjj/mm/tt) Justin Thyme - SQL Injection |
+| [!UICONTROL Preferred Languages] | Website | Gibt mindestens eine bevorzugte Sprache für Sicherheitsberichte an. Trennen Sie mehrere zweistellige [Sprach-Codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) durch ein Komma. Alle angegebenen Sprachen haben dieselbe Priorität. Um beispielsweise Englisch, Spanisch und Französisch anzugeben, geben Sie `en, es, fr` ein. |
+| [!UICONTROL Hiring] | Website | Die URL einer Seite auf der Website, die sicherheitsbezogene Auftragspositionen auflistet. Beispiel: `https://mystore.com/jobs.html` |
+| [!UICONTROL Policy] | Website | Die URL der Seite, die Ihre Sicherheitsrichtlinien und die Verfahren zur Meldung von Sicherheitslücken beschreibt. Beispiel: `https://mystore.com/security-reporting.html` Standard: `https://mystore.com/security` |
+| [!UICONTROL Signature] | Website | Ein Link zu Ihrer digitalen Signaturdatei. Die digitale Signatur muss über die Befehlszeile generiert und im `.well-known` auf dem Server gespeichert werden. Weitere Informationen finden Sie unter [Security.txt](https://github.com/magento/security-package/blob/1.0-develop/Securitytxt/README.md) auf GitHub. Beispiel: `https://mystore.com/.well-known/security.txt.sig` |
 
 {style="table-layout:auto"}

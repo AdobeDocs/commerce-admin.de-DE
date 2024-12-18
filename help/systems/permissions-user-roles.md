@@ -1,6 +1,6 @@
 ---
 title: Benutzerrollen
-description: Erfahren Sie, wie Sie Benutzerrollen und die zugehörigen Berechtigungen erstellen, um den Zugriff auf Admin-Funktionen zu verwalten.
+description: Erfahren Sie, wie Sie Benutzerrollen und die zugehörigen Berechtigungen erstellen, um den Zugriff auf Administratorfunktionen zu verwalten.
 exl-id: a70f74d4-72b4-4639-a67d-9fc13df65924
 feature: Admin Workspace, Roles/Permissions, Security
 source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # Benutzerrollen
 
-Um jemandem eingeschränkten Zugriff auf den Admin zu gewähren, besteht der erste Schritt darin, eine Rolle zu erstellen, die über die entsprechenden Berechtigungen verfügt. Nachdem die Rolle gespeichert wurde, können Sie neue Benutzer hinzufügen und ihnen die eingeschränkte Rolle zuweisen, um ihnen eingeschränkten Zugriff auf den Administrator zu gewähren.
+Um jemandem eingeschränkten Zugriff auf den Administrator zu gewähren, muss zunächst eine Rolle mit den entsprechenden Berechtigungen erstellt werden. Nachdem die Rolle gespeichert wurde, können Sie neue Benutzer hinzufügen und ihnen die eingeschränkte Rolle zuweisen, um ihnen eingeschränkten Zugriff auf den Admin zu gewähren.
 
-![Admin - Benutzerrollen](./assets/permissions-role-grid.png){width="600" zoomable="yes"}
+![Admin - User Roles](./assets/permissions-role-grid.png){width="600" zoomable="yes"}
 
-## Rollen definieren
+## Definieren einer Rolle
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
-1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Add New Role]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Add New Role]**.
 
 1. Führen Sie die Schritte aus, um die Rolle zu definieren:
 
-### Schritt 1: Hinzufügen des Rollennamens
+### Schritt 1: Rollennamen hinzufügen
 
 1. Geben Sie unter _[!UICONTROL Role Information]_einen beschreibenden **[!UICONTROL Role Name]**ein.
 
@@ -36,82 +36,82 @@ Um jemandem eingeschränkten Zugriff auf den Admin zu gewähren, besteht der ers
 
 >[!IMPORTANT]
 >
->Stellen Sie beim Zuweisen von Ressourcen sicher, dass Sie den Zugriff auf das Berechtigungs-Tool deaktivieren, wenn Sie den Zugriff auf eine bestimmte Rolle beschränken. Andernfalls können Benutzer ihre eigenen Berechtigungen ändern.
+>Stellen Sie bei der Zuweisung von Ressourcen sicher, dass Sie den Zugriff auf das Berechtigungs-Tool deaktivieren, wenn Sie den Zugriff für eine bestimmte Rolle einschränken. Andernfalls können Benutzende ihre eigenen Berechtigungen ändern.
 
-1. Setzen Sie **[!UICONTROL Role Scopes]** auf einen der folgenden Werte:
+1. Legen Sie **[!UICONTROL Role Scopes]** auf eine der folgenden Einstellungen fest:
 
    - `All`
    - `Custom`
 
-   Wenn für eine Multisite-Installation auf &quot;`Custom`&quot;gesetzt, aktivieren Sie das Kontrollkästchen der Website und speichern Sie, wo die Rolle verwendet werden soll.
+   Wenn für eine Multisite-Installation `Custom` festgelegt ist, aktivieren Sie das Kontrollkästchen der Website und speichern Sie, wo die Rolle verwendet werden soll.
 
-   ![Benutzerrollenressourcen - benutzerdefinierter Umfang](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
+   ![Benutzerrollenressourcen - Benutzerdefinierter Umfang](./assets/permissions-role-scope-custom.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Benutzer mit dem Rollenbereich `Custom` können keine Websites und Kategorien erstellen, Produkte Kategorien zuweisen oder Produkte im Bereich _[!UICONTROL All Store Views]_bearbeiten, wenn sie eingeschränkten Stores zugewiesen sind. Diese Benutzer können auch keine anderen_ globalen _Aktionen ausführen, die sich auf Bereiche auswirken, auf die sie keinen Zugriff haben.
+   >Benutzer mit einem `Custom` Rollenbereich können keine Websites und Kategorien erstellen, Produkte Kategorien zuweisen oder Produkte _[!UICONTROL All Store Views]_Bereich bearbeiten, wenn sie eingeschränkten Stores zugewiesen sind. Diese Benutzenden können auch keine anderen_ globalen _Aktionen ausführen, die Bereiche betreffen, auf die sie keinen Zugriff haben.
 
-1. Setzen Sie unter _[!UICONTROL Roles Resources]_**[!UICONTROL Resource Access]**auf `Custom`.
+1. Legen Sie unter _[!UICONTROL Roles Resources]_**[!UICONTROL Resource Access]**auf `Custom` fest.
 
-1. Aktivieren Sie in der Baumstruktur von **[!UICONTROL Resource]** das Kontrollkästchen der einzelnen Admin-Funktionen, auf die die Rolle zugreifen kann.
+1. Aktivieren Sie in der **[!UICONTROL Resource]** das Kontrollkästchen jeder Admin-Funktion, auf die die Rolle zugreifen kann.
 
-   Um eine Administratorrolle mit Zugriff auf Steuereinstellungen zu erstellen, wählen Sie die Ressourcen Verkauf/Steuern und System/Steuern aus. Wenn Sie eine Website für eine Region einrichten, die sich von Ihrem standardmäßigen [Versandpunkt des Ursprungs](../stores-purchase/shipping-settings.md#point-of-origin) unterscheidet, müssen Sie den Zugriff auf die System-/Versandressourcen für die Rolle zulassen. Die Versandeinstellungen bestimmen den für Katalogpreise verwendeten Steuersatz.
+   Um eine Administratorrolle mit Zugriff auf Steuereinstellungen zu erstellen, wählen Sie sowohl die Ressourcen „Umsatz/Steuer“ als auch „System/Steuer“ aus. Wenn Sie eine Website für eine Region einrichten, die sich von Ihrem standardmäßigen [Versand-Ausgangspunkt](../stores-purchase/shipping-settings.md#point-of-origin) unterscheidet, müssen Sie den Zugriff auf das System/die Versandressourcen für die Rolle zulassen. Die Versandeinstellungen bestimmen den Store-Steuersatz, der für Katalogpreise verwendet wird.
 
    ![Ressourcen für zugewiesene Benutzerrollen](./assets/permissions-role-resources-product.png){width="600" zoomable="yes"}
 
-   Die Liste der verfügbaren Berechtigungen kann zusätzliche Optionen für gebündelte und installierte Erweiterungen enthalten. Durch Auswahl der höchsten Berechtigung für jede Funktion weisen Sie alle für den Benutzer verfügbaren Berechtigungen zu.
+   Die Liste der verfügbaren Berechtigungen kann zusätzliche Optionen für gebündelte und installierte Erweiterungen enthalten. Durch Auswahl der Berechtigung, die für jede Funktion am höchsten ist, weisen Sie alle für den Benutzer verfügbaren Berechtigungen zu.
 
    >[!NOTE]
    >
-   >Ein Admin-Benutzer muss über **[!UICONTROL Sales / Archive]** -Berechtigungen für seinen Rollenbereich verfügen, damit die Registerkarten _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ und _[!UICONTROL Shipments]_order [tabs](../stores-purchase/order-processing.md) angezeigt werden.
+   >Ein Administrator bzw. eine Administratorin muss über **[!UICONTROL Sales / Archive]** Berechtigungen für den Rollenbereich verfügen, um die _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ und _[!UICONTROL Shipments]_Reihenfolge ([) ](../stores-purchase/order-processing.md).
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Role]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Role]**.
 
-   Die Rolle wird nun im Raster angezeigt und kann Benutzerkonten zugewiesen werden.
+   Die Rolle wird jetzt im Raster angezeigt und kann Benutzerkonten zugewiesen werden.
 
-## Benutzern eine Rolle zuweisen
+## Zuweisen einer Rolle zu Benutzern
 
-1. Öffnen Sie im Raster _[!UICONTROL Roles]_den Datensatz im Bearbeitungsmodus.
+1. Öffnen Sie den Datensatz im _[!UICONTROL Roles]_im Bearbeitungsmodus.
 
-1. Geben Sie unter _[!UICONTROL Current User Identity Verification]_Ihr Passwort für Ihr Benutzerkonto ein.
+1. Geben Sie unter _[!UICONTROL Current User Identity Verification]_Ihr Benutzerkonto-Kennwort ein.
 
-1. Wählen Sie im linken Bereich **[!UICONTROL Role Users]** aus.
+1. Wählen Sie im linken Bedienfeld **[!UICONTROL Role Users]** aus.
 
-   Die Option _[!UICONTROL Role Users]_wird erst angezeigt, nachdem eine neue Rolle gespeichert wurde.
+   Die Option _[!UICONTROL Role Users]_wird erst nach dem Speichern einer neuen Rolle angezeigt.
 
    ![Benutzerkonten, die der Rolle zugewiesen sind](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 
 1. Gehen Sie wie folgt vor, um nach einem bestimmten Benutzerdatensatz zu suchen:
 
-   - Geben Sie den Wert im Suchfilter oben in einer Spalte ein und drücken Sie die Taste **Enter**.
+   - Geben Sie den Wert im Suchfilter oben in einer Spalte ein und drücken Sie die **Eingabetaste**.
 
-   - Wenn Sie bereit sind, zur vollständigen Liste zurückzukehren, klicken Sie auf **[!UICONTROL Reset Filter]**.
+   - Wenn Sie bereit sind, zur vollständigen Liste zurückzukehren, klicken Sie **[!UICONTROL Reset Filter]**.
 
-1. Aktivieren Sie das Kontrollkästchen der Benutzer, die der Rolle zugewiesen werden sollen.
+1. Aktivieren Sie das Kontrollkästchen aller Benutzer, die der Rolle zugewiesen werden sollen.
 
 1. Klicken Sie auf **[!UICONTROL Save Role]**.
 
-## Rollen bearbeiten
+## Bearbeiten einer Rolle
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
-1. Suchen Sie die Rolle mithilfe von Filtern über dem Raster und klicken Sie auf den Namen der Rolle.
+1. Suchen Sie die Rolle mithilfe von Filtern über dem Raster und klicken Sie auf den Rollennamen.
 
 1. Nehmen Sie die erforderlichen Änderungen vor.
 
    Informationen zu den Rolleneinstellungen finden Sie in den Schritten zum Erstellen einer Benutzerrolle .
 
-1. Geben Sie bei Aufforderung Ihr Kennwort zur Bestätigung Ihrer Identität ein.
+1. Geben Sie bei Aufforderung Ihr Kennwort ein, um Ihre Identität zu bestätigen.
 
-1. Klicken Sie auf &quot;**[!UICONTROL Save Role]**&quot;.
+1. Klicken Sie auf die **[!UICONTROL Save Role]**.
 
-## Rollen löschen
+## Löschen einer Rolle
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Permissions]_>**[!UICONTROL User Roles]**.
 
 1. Suchen Sie die Rolle mithilfe von Filtern über dem Raster und öffnen Sie sie im Bearbeitungsmodus.
 
-1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Delete Role]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Delete Role]**.
 
 1. Um die Aktion zu bestätigen, klicken Sie auf **[!UICONTROL OK]**.
 
@@ -123,11 +123,11 @@ In diesem Video erfahren Sie mehr über die Verwaltung von Benutzerrollen:
 
 ## Rollenressourcen
 
-Der Zugriff auf die folgenden Ressourcen kann einer benutzerdefinierten Rolle zugewiesen werden. Auf der verknüpften Seite erfahren Sie mehr über die Funktionen, die mit den einzelnen Ressourcen verknüpft sind.
+Der Zugriff auf die folgenden Ressourcen kann einer benutzerdefinierten Rolle zugewiesen werden. Weitere Informationen zu den Funktionen, die mit den einzelnen Ressourcen verknüpft sind, finden Sie auf der verknüpften Seite .
 
 ![Adobe Commerce](../assets/adobe-logo.svg) - nur Adobe Commerce
 
-![Adobe Commerce B2B](../assets/b2b.svg) - Nur für Adobe Commerce B2B verfügbar
+![Adobe Commerce B2B](../assets/b2b.svg) - Nur in Adobe Commerce B2B verfügbar
 
 | Ressource |   |   |
 | --- | --- | --- |
@@ -152,7 +152,7 @@ Der Zugriff auf die folgenden Ressourcen kann einer benutzerdefinierten Rolle zu
 |  | [`User Content`](../merchandising-promotions/product-reviews-moderate.md) | [`All Reviews`](../merchandising-promotions/product-reviews.md) <br/>[`Pending Reviews`](../merchandising-promotions/product-reviews-moderate.md) <br/> |  |
 | [`Content`](../content-design/content-menu.md) | [`Elements`](../content-design/content-menu.md#uicontrol-elements)) | [`Pages`](../content-design/pages.md)<br/>[`Hierarchy`](../content-design/page-hierarchy.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Blocks`](../content-design/blocks.md)<br/>[`Dynamic Blocks`](../content-design/dynamic-blocks.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br/>[`Widgets`](../content-design/widgets.md)<br/>[`Media Gallery`](../content-design/media-gallery.md) |  |
 |  | [`Design`](../content-design/introduction.md#design) | [`Themes`](../content-design/themes.md)<br/>[`Schedule`](../content-design/schedule.md) |  |
-|  | [Content Staging](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
+|  | [Inhalts-Staging](../content-design/content-staging.md) ![Adobe Commerce](../assets/adobe-logo.svg)<br /> |  |
 | [`Reports`](../getting-started/reports-menu.md) | [`Marketing`](../getting-started/marketing-reports.md) | `Shopping Cart`<br />[`Search Terms`](../catalog/search-terms.md#search-terms-report)<br />`Newsletter Problem Reports` |  |
 |  | [`Reviews`](../getting-started/review-reports.md)<br /> |  |
 |  | [`Sales`](../getting-started/sales-reports.md) |  |

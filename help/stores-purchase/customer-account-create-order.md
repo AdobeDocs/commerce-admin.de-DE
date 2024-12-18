@@ -1,6 +1,6 @@
 ---
 title: Bestellung erstellen
-description: Erfahren Sie, wie Sie in Commerce Admin eine Bestellung für einen Kunden erstellen.
+description: Erfahren Sie, wie Sie im Commerce Admin eine Bestellung für einen Kunden erstellen.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
 source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
@@ -12,33 +12,33 @@ ht-degree: 0%
 
 # Bestellung erstellen
 
-Für registrierte Kunden, die Hilfe benötigen, können Sie direkt vom Administrator eine gesamte Bestellung erstellen. Das Formular _[!UICONTROL Create New Order]_enthält alle Informationen, die für den normalen Checkout-Prozess erforderlich sind, mit Aktivitätszusammenfassungen aus dem Konto-Dashboard des Kunden.
+Für registrierte Kunden, die Hilfe benötigen, können Sie direkt vom Administrator aus eine ganze Bestellung erstellen. Das _[!UICONTROL Create New Order]_Formular enthält alle Informationen, die für den normalen Checkout-Prozess erforderlich sind, einschließlich Aktivitätszusammenfassungen aus dem Konto-Dashboard des Kunden.
 
-![Erstellen einer Bestellung für einen Kunden](./assets/create-new-order.png){width="700" zoomable="yes"}
+![Bestellung für einen Kunden erstellen](./assets/create-new-order.png){width="700" zoomable="yes"}
 
 ## Schritt 1: Bestellung erstellen
 
-1. Klicken Sie in der Seitenleiste _Admin_ auf **[!UICONTROL Customers]**.
+1. Klicken Sie in der _Admin_-Seitenleiste auf **[!UICONTROL Customers]**.
 
 1. Suchen Sie den Kunden im Raster.
 
-1. Klicken Sie in der Spalte _Aktion_ auf **[!UICONTROL Edit]**.
+1. Klicken Sie in _Spalte_ Aktion **[!UICONTROL Edit]** auf.
 
-1. Klicken Sie in der Workspace-Kopfzeile auf **[!UICONTROL Create Order]**.
+1. Klicken Sie in der Kopfzeile des Arbeitsbereichs auf **[!UICONTROL Create Order]**.
 
    ![Workspace-Kopfzeile](./assets/order-create-buttons.png){width="700" zoomable="yes"}
 
-   Sie können eine Bestellung auch im Arbeitsbereich [Bestellung](orders.md#orders-workspace) erstellen, indem Sie auf **[!UICONTROL Create New Order]** klicken.
+   Sie können auch eine Bestellung im Arbeitsbereich &quot;[&quot; erstellen](orders.md#orders-workspace) indem Sie auf **[!UICONTROL Create New Order]** klicken.
 
 ## Schritt 2: Produkte hinzufügen
 
 Wenn Ihr Store mehrere Ansichten hat, wählen Sie die Store-Ansicht, in der die Bestellung platziert werden soll.
 
-### Produkte aus der [!UICONTROL Customer's Activities] -Seitenleiste hinzufügen
+### Hinzufügen von Produkten über die [!UICONTROL Customer's Activities] Seitenleiste
 
-Sie können Artikel aus der Wunschliste eines Kunden oder aus kürzlich angezeigten, verglichenen oder bestellten Artikeln in den Warenkorb übertragen.
+Sie können Artikel aus der Wunschliste eines Kunden oder aus kürzlich angesehenen, verglichenen oder bestellten Artikeln in den Warenkorb legen.
 
-1. Erweitern Sie den Erweiterungs-Selektor ](../assets/icon-display-expand.png) um einen der folgenden Abschnitte:![
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) einen der folgenden Abschnitte:
 
    - **[!UICONTROL Wish List]**
    - **[!UICONTROL Last Ordered Items]**
@@ -46,11 +46,11 @@ Sie können Artikel aus der Wunschliste eines Kunden oder aus kürzlich angezeig
    - **[!UICONTROL Recently Compared Products]**
    - **[!UICONTROL Recently Viewed Products]**
 
-1. Aktivieren Sie im linken Bereich das Kontrollkästchen jedes Produkts.
+1. Aktivieren Sie die Kontrollkästchen der einzelnen Produkte im linken Bereich.
 
 1. Scrollen Sie nach unten und klicken Sie auf **[!UICONTROL Update Changes]**.
 
-   Das Element wird im Bestellformular angezeigt.
+   Der Artikel erscheint im Bestellformular.
 
    ![Zum Warenkorb hinzufügen](./assets/create-order-add-wishlist.png){width="600" zoomable="yes"}
 
@@ -60,13 +60,13 @@ Sie können Artikel aus der Wunschliste eines Kunden oder aus kürzlich angezeig
 
    ![Produkte hinzufügen](./assets/account-add-wishlist-product.png){width="600" zoomable="yes"}
 
-1. Aktivieren Sie im Raster das Kontrollkästchen der einzelnen Produkte, die zum Warenkorb hinzugefügt werden sollen, und geben Sie den zu kaufenden Wert **[!UICONTROL Qty]** ein.
+1. Aktivieren Sie im Raster das Kontrollkästchen jedes Produkts, das zum Warenkorb hinzugefügt werden soll, und geben Sie die zu kaufenden **[!UICONTROL Qty]** ein.
 
    ![Produkte auswählen](./assets/create-order-from-catalog.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >Das Produktauswahlraster zeigt stets die regulären Basispreise für Produkte ohne Rabatte und ohne angewendete Warenkorb- oder Gruppenpreisregeln an. Der Endproduktpreis wird nur berechnet, wenn das Produkt einer Bestellung/einem Warenkorb hinzugefügt wird.
+   >Das Produktauswahlraster zeigt immer die regulären Basispreise für Produkte, ohne Rabatte und ohne angewendete Warenkorb- oder Gruppenpreisregeln. Der Endproduktpreis wird nur berechnet, wenn das Produkt zu einer Bestellung/einem Warenkorb hinzugefügt wird.
 
 1. Konfigurieren der verfügbaren Produktoptionen:
 
@@ -78,17 +78,17 @@ Sie können Artikel aus der Wunschliste eines Kunden oder aus kürzlich angezeig
 
    - Klicken Sie auf **[!UICONTROL Add Selected Product(s) to Order]** , um den Warenkorb zu aktualisieren.
 
-1. Wenn ein Produkt für [Geschenkoptionen](../catalog/product-gift-options.md) konfiguriert ist, legen Sie die Optionen nach Bedarf fest.
+1. Wenn ein Produkt für „Geschenkoptionen[ konfiguriert ist](../catalog/product-gift-options.md) legen Sie die Optionen nach Bedarf fest.
 
-1. Den Preis eines Artikels bei Bedarf überschreiben:
+1. Den Preis eines Artikels überschreiben, falls erforderlich:
 
-   - Aktivieren Sie das Kontrollkästchen **[!UICONTROL Custom Price]** und geben Sie im unten stehenden Feld den neuen Preis ein.
+   - Aktivieren Sie das Kontrollkästchen **[!UICONTROL Custom Price]** und geben Sie den neuen Preis in das Feld unten ein.
 
-   - Um die Warenkorbsummen zu aktualisieren, klicken Sie auf **[!UICONTROL Update Items and Quantities]**.
+   - Um die Gesamtwerte für den Warenkorb zu aktualisieren, klicken Sie auf **[!UICONTROL Update Items and Quantities]**.
 
    ![Benutzerdefinierter Preis](./assets/create-order-custom-price.png){width="600" zoomable="yes"}
 
-1. Füllen Sie nach Bedarf die folgenden Abschnitte für die Bestellung aus:
+1. Füllen Sie die folgenden Abschnitte wie für die Bestellung erforderlich aus:
 
    - [!UICONTROL Order Currency]
    - [!UICONTROL Apply Coupon Codes / Gift Card Code]
@@ -98,10 +98,10 @@ Sie können Artikel aus der Wunschliste eines Kunden oder aus kürzlich angezeig
 
 >[!NOTE]
 >
->Weitere Informationen zu den Zahlungsmethoden, die diese Funktion unterstützen, wenn die Zahlungsdiensterweiterung installiert und konfiguriert ist, finden Sie im [Leitfaden für Zahlungsdienste](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) .
+>Weitere Informationen zu Zahlungsmethoden[ die diese Funktion unterstützen, wenn die ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) installiert und konfiguriert ist, finden Sie im „Payment Services Guide“.
 
-## Schritt 3: Bestellung absenden
+## Schritt 3: Bestellung übermitteln
 
 Klicken Sie auf **[!UICONTROL Submit Order]**.
 
-Eine Bestätigung wird an den Kunden gesendet und der Kunde kann die Bestelldetails über sein Konto anzeigen.
+Eine Bestätigung wird an den Kunden gesendet und der Kunde kann die Bestelldetails von seinem Konto aus einsehen.

@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Commerce] upgrades'
-description: Erfahren Sie, wie sich Aktualisierungen von Adobe Commerce und Magento Open Source auf Katalog- und [!DNL Inventory Management] Konfigurationen auswirken.
+title: '[!DNL Commerce] Upgrades'
+description: Erfahren Sie, wie sich Adobe Commerce- und Magento Open Source-Upgrades auf Kataloge und  [!DNL Inventory Management]  auswirken.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
 source-git-commit: 392d8550741fe6fca3ea1301575c9ebb5e2483bd
@@ -12,65 +12,65 @@ ht-degree: 0%
 
 # [!DNL Commerce] Upgrades
 
-Wenn Sie in einer früheren Version das Inventar aus einer Hand verwendet haben, enthält diese Information Details zu neuen Funktionen und Änderungen an Ihren vorhandenen Katalog- und Lagerkonfigurationen.
+Wenn Sie in einer früheren Version Single-Source-Inventar verwendet haben, finden Sie in diesen Informationen Details zu neuen Funktionen und Änderungen an Ihren vorhandenen Katalog- und Inventarkonfigurationen.
 
-[!DNL Inventory Management] für Adobe Commerce und Magento Open Source umfasst Funktionen, Verbesserungen und Entwicklerunterstützung, die die Produktverwaltung verbessern und aktualisieren und neue Funktionen hinzufügen. Alle Funktionen sind standardmäßig verfügbar, einschließlich Source Selection Algorithm und Concurrent Checkout, um die Bestellmengen an die Quellen abzugleichen und die Bestellerfüllung zu gewährleisten. Abhängig von Ihren Websites, Geschäften und Händlentypen können Sie zusätzliche Lager und Quellen erstellen, Lagerbestände zuweisen und vieles mehr. Vollständige Informationen finden Sie unter [Inventory management](introduction.md).
+[!DNL Inventory Management] für Adobe Commerce und Magento Open Source umfasst Funktionen, Verbesserungen und Entwicklersupport, der die gesamte Produktbestandsverwaltung verbessert und aktualisiert und neue Funktionen hinzufügt. Alle Funktionen sind vorkonfiguriert verfügbar, einschließlich des Source-Auswahlalgorithmus und des gleichzeitigen Checkouts, um die Bestellmengen an die Bezugsquellen anzupassen und die Bestellabwicklung zu optimieren. Abhängig von Ihren Websites, Geschäften und dem Händlertyp können Sie zusätzliche Lager und Quellen erstellen, Lagerbestände zuweisen und vieles mehr. Vollständige Informationen finden Sie unter [Inventory management](introduction.md).
 
-Wenn Sie Magento Open Source 2.4.x oder Adobe Commerce 2.4.x installieren, treten die folgenden ersten Änderungen auf:
+Bei der Installation von Magento Open Source 2.4.x oder Adobe Commerce 2.4.x treten folgende Änderungen auf:
 
-- [Inventory management](enable.md) aktiviert auf globaler Store- oder Produktebene. Die Option Lager verwalten ermöglicht bzw. deaktiviert die Verfolgung von Lagerbestandsmengen, Berechnungen aggregierter Verkaufsmengen und die Reservierungsverwaltung für die Verfolgung von Käufen bis hin zu Rechnungen und Sendungen. Sie können diese Option deaktivieren, um eine ERP und andere Dienste von Drittanbietern für die Verwaltung von Lagern, Bestellungen und Sendungen zu verwenden. Weitere Informationen finden Sie unten unter [!DNL Inventory Management] Module.
+- [Inventory management](enable.md) Aktiviert auf globaler Store- oder Produktebene. Die Option Lager verwalten ermöglicht oder deaktiviert die Verfolgung von Lagermengen, die Berechnung aggregierter Verkaufsmengen und die Reservierungsverwaltung für die Verfolgung von Käufen bis hin zur Rechnung und Lieferung. Sie können diese Option deaktivieren, um ein ERP und andere Drittanbieterdienste für die Verwaltung von Lagern, Bestellungen und Lieferungen zu verwenden. Weitere Informationen finden Sie unten unter [!DNL Inventory Management] Module .
 
-- Ein [standardmäßiger Source](sources-manage.md) und ein [Standardbestand](stocks-manage.md) werden dem System hinzugefügt. Deaktivieren oder entfernen Sie diese Standardwerte nicht. [!DNL Commerce] weist vorhandenen und neu importierten Produkten diese Standardwerte zu.
+- Ein [Standard-Source](sources-manage.md) und [Standard-Stock](stocks-manage.md) werden zum System hinzugefügt. Deaktivieren oder entfernen Sie diese Standardwerte nicht. [!DNL Commerce] weist diesen Standardwerten vorhandene und neu importierte Produkte zu.
 
   >[!IMPORTANT]
   >
-  >Von der Verwendung des Standardspeichers und des Standard-Source wird dringend abgeraten, da sie Teil des `CatalogInventory`-Moduls sind, das jetzt nicht mehr unterstützt wird. Es wird empfohlen, stattdessen benutzerdefinierte Lager und Quellen zu erstellen und zu verwenden.
+  >Von der Verwendung des Standard-Stock und der Standard-Source wird dringend abgeraten, da sie Teil des `CatalogInventory` sind, das jetzt nicht mehr unterstützt wird. Es wird empfohlen, stattdessen benutzerdefinierte Stocks und Quellen zu erstellen und zu verwenden.
 
-   - Die Lagerbestände bieten eine aggregierte, virtuelle Verkaufsmenge mit Reservierungen, um Warenkörbe und Bestellungen zu verfolgen und so einen gleichzeitigen Checkout zu gewährleisten.
+   - Stocks bietet eine aggregierte, virtuelle Verkaufsmenge mit Reservierungen, um Warenkörbe und Bestellungen zu verfolgen und so einen gleichzeitigen Checkout zu gewährleisten.
 
-   - Alle in Ihrem Katalog vorhandenen Produkte werden der standardmäßigen Source zugewiesen. Bis Sie neue Quellen hinzufügen, ändert sich die Produktoberfläche nicht. Wenn Sie nur Produkte von einem Ort aus versenden, gibt es keine anderen Unterschiede für Quellen. Sie können benutzerdefinierte [Quellen](sources-add.md) und [Mengen](quantities-manage.md) pro Versandort zuweisen.
+   - Alle vorhandenen Produkte in Ihrem Katalog werden der standardmäßigen Source zugewiesen. Bis zum Hinzufügen neuer Quellen ändert sich die Produktoberfläche nicht. Wenn Sie nur Produkte von einem Ort aus versenden, gibt es keine anderen Unterschiede für Quellen. Sie können benutzerdefinierte [Quellen](sources-add.md) erstellen und [Mengen zuweisen](quantities-manage.md) pro Lieferort.
 
-   - Sie können eine Quelle als Abholort konfigurieren und [Mengen zuweisen](quantities-manage.md) für diese Quelle zuweisen.
+   - Sie können eine Quelle als Abholort konfigurieren und [ dieser Quelle ](quantities-manage.md)Mengen zuweisen“.
 
-   - Ihre Website wird dem Standardbestand zugewiesen. Sie können benutzerspezifische [Lager](stocks-add.md) erstellen, um Verkaufskanäle (Websites) und Quellen (Standorte) miteinander zu verbinden.
+   - Ihre Website weist dem Standardlager zu. Sie können benutzerdefinierte [Stocks“ erstellen](stocks-add.md) um Verkaufskanäle (Websites) und Quellen (Standorte) zu verbinden.
 
-- Zusätzliche [Konfigurationsoptionen](configuration.md) fügen Sie Ihren Produkten und dem globalen Store hinzu. Einige vorhandene Konfigurationsoptionen erhalten aktualisierte Optionen und Verhaltensweisen:
+- Zusätzliche [Konfigurationsoptionen](configuration.md) zu Ihren Produkten und Ihrem globalen Store hinzufügen. Einige vorhandene Konfigurationsoptionen erhalten aktualisierte Optionen und Verhaltensweisen:
 
-   - Benachrichtigungs-E-Mail für die Menge Unten sendet Benachrichtigungen und Abzüge von der Verkaufsmenge.
+   - Für Menge unten benachrichtigen sendet Benachrichtigungen und zieht von der verkaufsfähigen Menge ab.
 
-   - Der Schwellenwert für nicht vorrätige Bestände unterstützt positive, Null und negative Beträge. Bei aktivierten Rückstellungen werden positive Beträge ignoriert, als null (oder unbegrenzt) betrachtet.
+   - Der Schwellenwert für nicht vorrätige Artikel unterstützt positive Beträge, null und negative Beträge. Bei aktivierten Auftragsrückständen werden positive Beträge ignoriert und als Null (oder unendlich) betrachtet.
 
-   - Rückorder unterstützen Null (unendlich) und negative Beträge. Wenn diese Option aktiviert ist, wird die &quot;Für Menge benachrichtigen&quot;nicht von der &quot;Verkaufte Menge&quot;abgezogen.
+   - Nachbestellungen unterstützen Null (unendliche) und negative Beträge. Wenn diese Option aktiviert ist, wird die unten stehende Menge nicht von der verkaufsfähigen Menge abgezogen.
 
-- Neue Reservierungen verfolgen potenzielle Umsätze und setzen auf Mengenabzüge, wenn die Bestellung ausläuft. Sie können nie direkt auf Buchungen zugreifen oder diese erstellen. [!DNL Commerce] erstellt und verwaltet Buchungen hinter den Kulissen durch Bestellungen, Sendungen und Kreditkarten.
+- Neue Reservierungen verfolgen potenzielle Verkäufe und konvertieren sie in Mengenabzüge, wenn der Auftrag ausgeliefert wird. Sie können nie direkt auf Reservierungen zugreifen oder diese erstellen. [!DNL Commerce] erstellt und verwaltet Reservierungen hinter den Kulissen durch Bestellungen, Lieferungen und Gutschriften.
 
-- [Bestellungen und Sendungen](shipments.md) enthalten neue Funktionen, mit denen Sendungen mit dem Source Selection Algorithm empfohlen werden und Teillieferungen aus verschiedenen Quellen unterstützt werden, um eine Bestellung zu erfüllen.
+- [Bestellungen und Sendungen](shipments.md) enthalten neue Funktionen, um Sendungen mithilfe des Source-Auswahlalgorithmus zu empfehlen und Teilsendungen aus verschiedenen Quellen zu unterstützen, um eine Bestellung zu erfüllen.
 
-- Neue [Import-/Exportfunktionen](inventory-import-export.md) ermöglichen es Ihnen, für alle SKUs in Ihrem Katalog massenhafte Quellen hinzuzufügen, Lagerbestandsmengen zu aktualisieren und den Lagerstatus (in/aus Lager) festzulegen. Mit diesen Funktionen können Sie für eine, ausgewählte oder alle Quellen ändern.
+- Neue [Import-/Exportfunktionen](inventory-import-export.md) ermöglichen das Hinzufügen von Massenquellen, das Aktualisieren von Lagermengen und das Festlegen des Lagerstatus (auf/nicht vorrätig) für alle SKUs in Ihrem Katalog. Mit diesen Funktionen können Sie für eine, ausgewählte oder alle Quellen ändern.
 
-- Neue Massenoptionen über die Produktraster-Seite unterstützen Batches zum Zuweisen und Aufheben der Zuweisung von Quellen](bulk-assignment.md) und zum Übertragen von Beständen an die Quelle ](inventory-transfer.md).[[
+- Neue Massenoptionen über die Produktraster-Seite unterstützen die Massenzuweisung [ Quellen und das Aufheben der Zuweisung ](bulk-assignment.md) und [Übertragen von Inventar zur Quelle](inventory-transfer.md).
 
-- [!DNL Inventory Management] unterstützt B2B-Katalog. Derzeit müssen alle B2B-Produkte dem Standard-Source und dem Standardbestand zugewiesen werden.
+- [!DNL Inventory Management] unterstützt B2B-Katalog. Derzeit müssen alle B2B-Produkte den standardmäßigen Source- und Standardaktien zugewiesen werden.
 
 ## [!DNL Commerce Order Management] und [!DNL Inventory Management]
 
-[Commerce Order Management (MCOM)][1] ist nicht mit dem [!DNL Inventory Management] kompatibel. Wenn MCOM-Module installiert sind, bieten sie alle Lagerbestandsverwaltungsfunktionen für [!DNL Commerce], einschließlich der Verwaltung von Einzel- und Mehrfachquellen, Lagern, Reservierungen und mehr. Die [!DNL Inventory Management] -Module sind standardmäßig deaktiviert.
+[Commerce Order Management (MCOM)][1] ist nicht mit dem [!DNL Inventory Management] kompatibel. Nach der Installation bieten MCOM-Module alle Funktionen zur Bestandsverwaltung für [!DNL Commerce], einschließlich Single- und Multi-Source-Verwaltung, Lager, Reservierungen und mehr. Die [!DNL Inventory Management] sind standardmäßig deaktiviert.
 
-MCOM bietet umfangreiche Funktionen und Dienstleistungen für ein fortschrittliches Omnichannel-Auftragsmanagement, globale Inventarisierung und Multi-Sourcing, die Erfüllung von Lagern und zentralisierten Kundenservice. Eine vollständige Liste der Funktionen finden Sie in der [Liste der MCOM-Funktionen][2].
+MCOM bietet umfangreiche Funktionen und Services für erweiterte Omni-Channel-Auftragsverwaltung, globale Inventarisierung und Multi-Sourcing, Store-to-Warehouse-Erfüllung und zentralisierten Kundenservice. Eine vollständige Liste der Funktionen finden Sie in der [MCOM-Funktionsliste][2].
 
-[!DNL Inventory Management] erweitert vorhandene [!DNL Commerce] -Funktionen um zusätzliche Optionen zur Verfolgung von laufenden Bestellungen, manuellem Inventar, verfügbarem Inventar für einen Bestand und APIs zur Erweiterungsentwicklung.
+[!DNL Inventory Management] erweitert bestehende [!DNL Commerce] um zusätzliche Optionen zur Verfolgung von laufenden Aufträgen, verfügbarem Bestand, verfügbarem Bestand für ein Lager und APIs für die Erweiterungsentwicklung.
 
-## [!DNL Inventory Management] Module
+## [!DNL Inventory Management]
 
-Sie können [!DNL Inventory Management] -Module deaktivieren, um:
+Sie können [!DNL Inventory Management] Module deaktivieren, um:
 
-- Beschleunigen Sie die Aktualisierung von Händlern, die derzeit auf Adobe Commerce oder Magento Open Source 2.0/2.1/2.2/2.3 ausgeführt werden, und die Migration auf 2.4.x.
+- Beschleunigen Sie die Aktualisierung von Händlern, die derzeit Adobe Commerce oder Magento Open Source 2.0/2.1/2.2/2.3 verwenden und zu 2.4.x migrieren.
 
-- Verwenden Sie benutzerdefinierte oder Drittanbieter-Inventar- und -Bestellverwaltungsmodule.
+- Verwenden Sie benutzerdefinierte oder Drittanbieter-Inventar- und Bestellverwaltungsmodule.
 
-- Verwenden Sie [!DNL Order Management System] für die Lagerbestandsverwaltung. Der aktuelle Connector unterstützt keine [!DNL Inventory Management] -Schnittstellen. Für OMS-Händler, die auf Adobe Commerce 2.4.0 aktualisieren, müssen sie diese Module deaktivieren.
+- Verwenden Sie [!DNL Order Management System] für die Bestandsverwaltung. Der aktuelle Connector unterstützt keine [!DNL Inventory Management]. OMS-Händler, die ein Upgrade auf Adobe Commerce 2.4.0 durchführen, müssen diese Module deaktivieren.
 
-Vollständige Informationen finden Sie unter [Installieren und Aktualisieren](install-update.md).
+Ausführliche Informationen finden Sie unter [ und Update](install-update.md).
 
 [1]: https://commerce-docs.github.io/oms-documentation-archive/
 [2]: https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/

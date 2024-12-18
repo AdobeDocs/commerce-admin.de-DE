@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Adobe Commerce B2B] Guide'
-description: Umfassende Informationen für [!DNL Adobe Commerce B2B] Administratoren, einschließlich Installation und Konfiguration.
+title: Handbuch zu [!DNL Adobe Commerce B2B]
+description: Umfassende Informationen für  [!DNL Adobe Commerce B2B] , einschließlich Installation und Konfiguration.
 breadcrumb-title: Handbuch-Übersicht
 seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
@@ -9,33 +9,33 @@ feature: B2B
 source-git-commit: b30790b252bcab38c4d0372d5d5bd0d5b6f41a07
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Adobe Commerce B2B-Anleitung
+# Adobe Commerce B2B-Handbuch
 
-Dieses Handbuch richtet sich an Administratoren von Adobe Commerce. Es enthält detaillierte Informationen zur Installation und Aktivierung dieses Moduls, einschließlich Konfiguration und Verwaltung seiner Funktionen. Es wird von einem grundlegenden Verständnis der Core-Konfiguration und -Funktionalität von [!DNL Commerce] ausgegangen.
+Dieses Handbuch richtet sich an Administratoren von Adobe Commerce. Es enthält detaillierte Informationen zur Installation und Aktivierung dieses Moduls, einschließlich Konfiguration und Verwaltung seiner Funktionen. Es setzt ein grundlegendes Verständnis der [!DNL Commerce] Konfiguration und Funktionalität voraus.
 
 Für Store-Administratoren gibt es zwei Bereiche:
 
-- Admin: Verwenden Sie diesen Bereich, um auf die Konfigurationsoberfläche und die Berichterstellung zuzugreifen.
-- Befehlszeilenschnittstelle: Verwenden Sie dieses Tool, um Installations- und Backend-Konfigurationsaufgaben auszuführen.
+- Der Administrator: Verwenden Sie diesen Bereich, um auf die Konfigurations-Benutzeroberfläche und Berichte zuzugreifen.
+- Die Befehlszeilenschnittstelle: Verwenden Sie dieses Tool, um Installations- und Backend-Konfigurationsaufgaben auszuführen.
 
-Dieses Handbuch behandelt:
+Dieses Handbuch behandelt Folgendes:
 
-| Betreff | Beschreibung |
+| Subjekt | Beschreibung |
 | ------- | ----------- |
-| [Einführung](introduction.md) | Welche Funktionen sind mit [!DNL Adobe Commerce B2B] verfügbar? |
-| [Versionshinweise](release-notes.md) | Überprüfen Sie die in jeder Version von [!DNL Adobe Commerce B2B] bereitgestellten Aktualisierungen. |
-| [Installieren](install.md) | Installieren Sie die Erweiterung [!DNL Adobe Commerce B2B] . |
-| [ Grundlegende B2B-Funktionen aktivieren](enable-basic-features.md) | Nach der Installation von [!DNL Adobe Commerce B2B] müssen Sie die Funktionen aktivieren, die Sie für Ihren Store aktivieren möchten. |
-| [Unternehmenskonten](account-companies.md) | Erfahren Sie mehr über Unternehmenskonten und wie sie den Hauptbaustein für die Unterstützung von B2B-Käufern in Ihrem Geschäft bilden. |
-| [Unternehmensverwaltung](manage-companies.md) | Erfahren Sie, wie Site-Administratoren von B2B Commerce Unternehmenshierarchien erstellen können, um die Verwaltung mehrerer Unternehmen zu optimieren, die zum selben Unternehmen gehören. |
-| [Freigegebene Kataloge](catalog-shared.md) | Erfahren Sie mehr über die Verwendung freigegebener Kataloge zur Pflege von strukturierten Katalogen mit benutzerdefinierten Preisen für verschiedene Unternehmen. |
-| [Schnellbestellungen](quick-order.md) | Erfahren Sie mehr über die schnelle Bestellfunktion und deren Aktivierung für Ihre Kunden. |
-| [Bestellungen ](purchase-order-flow.md) | Erfahren Sie mehr über Workflows für Bestellungen, mit denen Unternehmen ihre Ausgaben verfolgen und kontrollieren können. |
-| [Anführungszeichen](quotes.md) | Erfahren Sie mehr über Zitat-Workflows und wie Sie diesen Dienst für Ihre Unternehmenskonten bereitstellen können. |
+| [Einführung](introduction.md) | Welche Funktionen sind bei [!DNL Adobe Commerce B2B] verfügbar? |
+| [Versionshinweise](release-notes.md) | Überprüfen Sie die in den einzelnen [!DNL Adobe Commerce B2B] Versionen bereitgestellten Aktualisierungen. |
+| [Installieren](install.md) | Installieren Sie die [!DNL Adobe Commerce B2B]. |
+| [Aktivieren der grundlegenden B2B-Funktionen](enable-basic-features.md) | Nach der Installation von [!DNL Adobe Commerce B2B] müssen Sie die Funktionen aktivieren, die Sie für Ihren Store aktivieren möchten. |
+| [Unternehmenskonten](account-companies.md) | Erfahren Sie mehr über Unternehmenskonten und darüber, wie sie den Hauptbaustein für die Unterstützung von B2B-Käufern in Ihrem Geschäft darstellen. |
+| [Unternehmensführung](manage-companies.md) | Erfahren Sie, wie Administratoren von B2B-Commerce-Websites Unternehmenshierarchien erstellen können, um die Verwaltung mehrerer Unternehmen zu optimieren, die zum selben Unternehmen gehören. |
+| [freigegebene Kataloge](catalog-shared.md) | Erfahren Sie mehr über die Verwendung freigegebener Kataloge zur Verwaltung von Gated-Katalogen mit benutzerdefinierten Preisen für verschiedene Unternehmen. |
+| [Schnellbestellungen](quick-order.md) | Erfahren Sie mehr über die Schnellbestellungsfunktion und deren Aktivierung für Ihre Kunden. |
+| [Bestellungen](purchase-order-flow.md) | Erfahren Sie mehr über Auftrags-Workflows, mit denen Unternehmen ihre Ausgaben verfolgen und kontrollieren können. |
+| [Anführungszeichen](quotes.md) | Erfahren Sie mehr über Angebots-Workflows und wie Sie diesen Service für Ihre Unternehmenskonten bereitstellen können. |
 | [Anforderungslisten](requisition-lists.md) | Erfahren Sie mehr über Anforderungslisten und wie sie verwendet werden, um häufig bestellte Produkte einfach zum Warenkorb hinzuzufügen. |
 
 {style="table-layout:auto"}
@@ -46,11 +46,11 @@ Dieses Handbuch behandelt:
 
 ## Entwicklerinformationen
 
-Informationen zu den in Modulversionen enthaltenen Änderungen finden Sie in den [Versionshinweisen](release-notes.md). Die Dokumentation zu [B2B-Integrationen](https://developer.adobe.com/commerce/webapi/rest/b2b/) im _Adobe Commerce REST API Reference Guide_ enthält Details zur Modularchitektur, zu APIs und zur Algorithmusanpassung.
+Informationen zu den in den Modulversionen enthaltenen Änderungen finden Sie in den [Versionshinweisen](release-notes.md). Die [B2B-Integrationen](https://developer.adobe.com/commerce/webapi/rest/b2b/) Dokumentation im _Adobe Commerce REST-API-Referenzhandbuch_ enthält Details zur Modularchitektur, zu APIs und zur Algorithmusanpassung.
 
 ## Fehlerbehebung und Support
 
-Verwenden Sie die folgenden Ressourcen, wenn Sie Informationen benötigen oder Fragen haben, die nicht in diesem Handbuch behandelt werden:
+Wenn Sie Informationen benötigen oder Fragen haben, die in diesem Handbuch nicht behandelt werden, verwenden Sie die folgenden Ressourcen:
 
-- [Wissensdatenbank zur Adobe Commerce-Unterstützung](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)
-- [Support-Tickets](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket): Senden Sie ein Ticket, um zusätzliche Hilfe zu erhalten.
+- [Wissensdatenbank für den Adobe Commerce-Support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/overview.html)
+- [Support-](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket): Senden Sie ein Ticket, um zusätzliche Hilfe zu erhalten.

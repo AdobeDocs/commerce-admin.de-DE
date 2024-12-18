@@ -1,6 +1,6 @@
 ---
 title: Produkteinstellungen - [!UICONTROL Autosettings]
-description: Für ein Produkt definiert der [!UICONTROL Autosettings] die Attribute, die Abhängigkeiten für andere Vorgänge sind.
+description: Für ein Produkt definieren die [!UICONTROL Autosettings] die Attribute, die Abhängigkeiten für andere Vorgänge sind.
 exl-id: e35bbf6a-d547-40f7-b8cb-2f6c8fdddc70
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Der Abschnitt _[!UICONTROL Autosettings]_enthält alle Attribute, die Abhängigkeiten für andere Vorgänge sind. Sie können die standardmäßige Einstellung [RMA configuration](../stores-purchase/rma-configure.md) nach Bedarf auf das Produkt anwenden oder es überschreiben.
+Der Abschnitt _[!UICONTROL Autosettings]_enthält alle Attribute, die Abhängigkeiten für andere Vorgänge sind. Sie können die Standardeinstellung [RMA-Konfiguration](../stores-purchase/rma-configure.md) auf das Produkt anwenden oder es nach Bedarf überschreiben.
 
-![Autosettings](./assets/product-autosettings.png){width="600" zoomable="yes"}
+![AutoSettings](./assets/product-autosettings.png){width="600" zoomable="yes"}

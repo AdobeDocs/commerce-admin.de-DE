@@ -1,6 +1,6 @@
 ---
-title: Admin-Nachrichten-Posteingang
-description: Erfahren Sie mehr über den Posteingang der Admin-Nachricht, der wichtige und nützliche Nachrichten von Adobe und vom [!DNL Commerce] System bereitstellt.
+title: Posteingang für Admin-Nachrichten
+description: Erfahren Sie mehr über den Posteingang für Admin-Nachrichten, der wichtige und nützliche Nachrichten vom Adobe und vom  [!DNL Commerce]  bereitstellt.
 exl-id: c53bb0e4-9f18-4d40-8cc4-8c3b485f8d68
 source-git-commit: 7b6d70e2f3052af69075790cec1f396e2505bf8b
 workflow-type: tm+mt
@@ -9,79 +9,79 @@ ht-degree: 0%
 
 ---
 
-# Admin-Nachrichten-Posteingang
+# Posteingang für Admin-Nachrichten
 
-Ihr Geschäft erhält regelmäßig Nachrichten von Adobe. Die Nachrichten werden nach Wichtigkeit bewertet und können sich auf Systemaktualisierungen, Patches, neue Versionen, geplante Wartung oder bevorstehende Ereignisse beziehen. Das Glockensymbol in der Kopfzeile gibt die Anzahl der ungelesenen Nachrichten in Ihrem Posteingang an.
+Ihr Shop erhält regelmäßig Nachrichten von Adobe. Die Meldungen werden nach Wichtigkeit bewertet und können sich auf Systemaktualisierungen, Patches, neue Versionen, geplante Wartungsarbeiten oder bevorstehende Ereignisse beziehen. Das Glockensymbol in der Kopfzeile gibt die Anzahl der ungelesenen Nachrichten in Ihrem Posteingang an.
 
 ![Admin - eingehende Nachrichten](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-Auf der Seite _[!UICONTROL Notifications]_werden alle Nachrichten nach Datum sortiert. Mit den Befehlen_[!UICONTROL Action]_ können einzelne Nachrichten als gelesen markiert, detailliertere Informationen angezeigt oder die Nachricht aus dem Posteingang entfernt werden.
+Auf der Seite _[!UICONTROL Notifications]_werden alle Nachrichten nach Datum geordnet aufgelistet. Die_[!UICONTROL Action]_ können verwendet werden, um einzelne Nachrichten als gelesen zu markieren, detailliertere Informationen anzuzeigen oder die Nachricht aus dem Posteingang zu entfernen.
 
-Die Konfiguration bestimmt, wie oft der Posteingang aktualisiert wird und wie die Nachrichten zugestellt werden. Wenn Ihr Store-Administrator über eine sichere URL verfügt, müssen Benachrichtigungen über HTTPS bereitgestellt werden.
+Die Konfiguration bestimmt, wie oft der Posteingang aktualisiert wird und wie die Nachrichten zugestellt werden. Wenn der Administrator Ihres Stores über eine sichere URL verfügt, müssen Benachrichtigungen über HTTPS gesendet werden.
 
 ## Neue eingehende Nachrichten anzeigen
 
-1. Klicken Sie auf das Symbol &quot;**[!UICONTROL Notification]**&quot; in der Kopfzeile und lesen Sie die Zusammenfassung.
+1. Klicken Sie auf das Symbol **[!UICONTROL Notification]** in der Kopfzeile und lesen Sie die Zusammenfassung.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   - Klicken Sie bei Bedarf auf die Nachricht, um den Volltext anzuzeigen.
+   - Klicken Sie ggf. auf die Meldung, um den vollständigen Text anzuzeigen.
    - Um die Nachricht zu löschen, klicken Sie auf das Löschsymbol rechts neben der Nachricht.
-   - Um die vollständige Liste der Benachrichtigungen anzuzeigen, klicken Sie auf **[!UICONTROL See All]**.
+   - Um die vollständige Benachrichtigungsliste anzuzeigen, klicken Sie auf **[!UICONTROL See All]**.
 
-## Kritische Nachricht beheben
+## Beheben einer kritischen Nachricht
 
-Führen Sie für eine wichtige Nachricht einen der folgenden Schritte aus:
+Führen Sie für eine Nachricht von kritischer Bedeutung einen der folgenden Schritte aus:
 
 - Klicken Sie auf **[!UICONTROL Read Details]**.
-- Um das Warnhinweisfeld zu schließen, die Nachricht jedoch aktiv zu halten, klicken Sie auf **[!UICONTROL Close]**.
+- Klicken Sie auf **[!UICONTROL Close]**, um den Warnhinweis zu schließen, aber die Nachricht aktiv zu lassen.
 
-## Benachrichtigungen verwalten
+## Verwalten von Benachrichtigungen
 
 1. Führen Sie einen der folgenden Schritte aus, um die Seite Benachrichtigungen zu öffnen:
 
-   - Klicken Sie in der Kopfzeile auf das Symbol &quot;**[!UICONTROL Notification]**&quot;. Wenn eine oder mehrere neue Nachrichten angezeigt werden, klicken Sie auf **[!UICONTROL See All]**.
+   - Klicken Sie auf das Symbol **[!UICONTROL Notification]** in der Kopfzeile. Wenn eine oder mehrere neue Nachrichten angezeigt werden, klicken Sie auf **[!UICONTROL See All]**.
 
-   - Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
+   - Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Notifications]**.
 
 1. Führen Sie in der Spalte **[!UICONTROL Action]** einen der folgenden Schritte aus:
 
-   - Klicken Sie für weitere Informationen auf **[!UICONTROL Read Details]** , um die verknüpfte Seite in einem neuen Fenster zu öffnen.
+   - Weitere Informationen erhalten Sie, wenn Sie auf **[!UICONTROL Read Details]** klicken, um die verknüpfte Seite in einem neuen Fenster zu öffnen.
 
-   - Um die Nachricht in Ihrem Posteingang zu behalten, klicken Sie auf **[!UICONTROL Mark As Read]**.
+   - Um die Nachricht in Ihrem Posteingang zu belassen, klicken Sie auf **[!UICONTROL Mark As Read]**.
 
-     ![Admin - Markieren Sie ausgewählte Benachrichtigungen als gelesen](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
+     ![Admin - Markiert ausgewählte Benachrichtigungen als gelesen](./assets/admin-notifications-mark-as-read.png){width="700" zoomable="yes"}
 
    - Um die Nachricht zu löschen, klicken Sie auf **[!UICONTROL Remove]**.
 
 1. Um eine Aktion auf mehrere Nachrichten anzuwenden, führen Sie einen der folgenden Schritte aus:
 
-   - Aktivieren Sie das Kontrollkästchen in der ersten Spalte für jede Nachricht, die verwaltet werden soll.
-   - Um mehrere Nachrichten auszuwählen, legen Sie das Steuerelement **[!UICONTROL Mass Actions]** nach Bedarf fest.
+   - Aktivieren Sie das Kontrollkästchen in der ersten Spalte für jede zu verwaltende Nachricht.
+   - Um mehrere Nachrichten auszuwählen, legen Sie das **[!UICONTROL Mass Actions]** nach Bedarf fest.
 
-1. Setzen Sie das Steuerelement **[!UICONTROL Actions]** auf einen der folgenden Werte:
+1. Legen Sie das **[!UICONTROL Actions]**-Steuerelement auf eine der folgenden Einstellungen fest:
 
    - `Mark as Read`
    - `Remove`
 
 1. Klicken Sie auf **[!UICONTROL Submit]** , um den Vorgang abzuschließen.
 
-## Benachrichtigungen konfigurieren
+## Konfigurieren von Benachrichtigungen
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Navigationsbereich den Eintrag **[!UICONTROL Advanced]** und wählen Sie **[!UICONTROL System]**.
+1. Erweitern Sie im linken Navigationsbereich **[!UICONTROL Advanced]** und wählen Sie **[!UICONTROL System]**.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png)den Abschnitt **[!UICONTROL Notifications]** .
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Notifications]** .
 
    ![Benachrichtigungskonfiguration](./assets/system-notifications.png){width="600"}
 
-1. Wenn Ihr Store-Administrator über eine [sichere URL](../stores-purchase/store-urls.md) ausgeführt wird, setzen Sie **[!UICONTROL Use HTTPS to Get Feed]** auf `Yes`.
+1. Wenn der Admin Ihres Stores über eine [sichere URL](../stores-purchase/store-urls.md) läuft, setzen Sie **[!UICONTROL Use HTTPS to Get Feed]** auf `Yes`.
 
 1. Legen Sie **[!UICONTROL Update Frequency]** fest, um festzulegen, wie oft Ihr Posteingang aktualisiert wird.
 
-   Das Intervall kann zwischen 1 und 24 Stunden betragen.
+   Das Intervall kann zwischen 1 und 24 Stunden liegen.
 
-1. Klicken Sie nach Abschluss des Vorgangs auf **[!UICONTROL Save Config]**.
+1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-Weitere Informationen zu den [!UICONTROL System] -Konfigurationsoptionen finden Sie im [_Konfigurationshandbuch_](../configuration-reference/advanced/system.md).
+Weitere Informationen zu den [!UICONTROL System] Konfigurationsoptionen finden Sie im [_Konfigurationshandbuch_](../configuration-reference/advanced/system.md).

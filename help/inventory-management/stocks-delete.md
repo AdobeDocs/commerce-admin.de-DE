@@ -9,26 +9,26 @@ ht-degree: 0%
 
 ---
 
-# Lagerbestände löschen
+# Löschen von Lagern
 
-Wenn Sie den Bestand löschen, werden alle zugewiesenen Websites dem Standardbestand zugewiesen. Es wird empfohlen, Websites vor der Löschung anderen Lagern zuzuweisen.
+Wenn Sie das Lager löschen, werden alle zugewiesenen Websites dem Standardlager zugewiesen. Es wird empfohlen, Websites vor dem Löschen anderen Stocks zuzuweisen.
 
 >[!IMPORTANT]
 >
->Das Löschen eines [Lagers](stocks-manage.md) kann sich auf die Verkaufsmengen und nicht verarbeiteten Bestellungen eines Verkaufskanals auswirken. Wenn Sie weiterhin einen Vertriebskanal verwenden, fügen Sie den Vertriebskanal einem anderen vorhandenen oder neuen Lager hinzu.
+>Das Löschen [Lagers](stocks-manage.md) kann sich auf Verkaufsmengen und nicht verarbeitete Bestellungen für einen Vertriebskanal auswirken. Wenn Sie weiterhin einen Verkaufskanal verwenden, fügen Sie den Verkaufskanal einem anderen vorhandenen oder neuen Lager hinzu.
 
-1. Wechseln Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Stocks]**.
 
-1. Wählen Sie einen oder mehrere zu löschende Lager aus.
+1. Einen oder mehrere zu löschende Lager auswählen.
 
-   Markieren oder suchen Sie die Kontrollkästchen der zu löschenden Bestände und aktivieren Sie sie.
+   Suchen Sie nach und aktivieren Sie die Kontrollkästchen für die Stocks, die Sie löschen möchten.
 
-1. Wählen Sie im Menü **[!UICONTROL Actions]** die Option **[!UICONTROL Delete]** aus.
+1. Wählen Sie im **[!UICONTROL Actions]** Menü **[!UICONTROL Delete]** aus.
 
-   ![Wählen Sie Löschen aus dem Menü Aktionen](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
+   ![Wählen Sie im Menü Aktionen die Option Löschen aus](assets/inventory-stock-delete.png){width="350" zoomable="yes"}
 
 1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL OK]**.
 
-   Das Lager wird gelöscht und alle zugewiesenen Absatzkanäle werden nicht zugeordnet.
+   Der Bestand wird gelöscht und alle zugewiesenen Vertriebskanäle werden nicht zugeordnet.
 
-   ![Überprüfungsmeldung zur Löschung auf Lager ](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}
+   ![Stock-Löschbestätigungsnachricht](assets/inventory-stock-delete-confirm.png){width="350" zoomable="yes"}
