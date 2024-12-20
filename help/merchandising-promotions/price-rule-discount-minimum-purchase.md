@@ -3,7 +3,7 @@ title: Beispiel für Warenkorbpreisregel - Rabatt mit Mindestproduktpreis
 description: Sehen Sie sich ein Beispiel für die Verwendung einer Warenkorb-Preisregel an, um einen Rabatt mit einem Mindestproduktpreis anzubieten.
 exl-id: dc06cd12-d23b-4836-9ad2-93ca60dac927
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 2a370dc38b54ee668513bc738b7e8c99f660deae
+source-git-commit: 1a784e894e02090cfa3bc9edc47149b35d935e8e
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -75,5 +75,4 @@ Führen Sie [Schritt 4](price-rules-cart.md) der Anleitung zur Warenkorbpreisreg
 {{new-price-rule}}
 
 1. Wenn Ihre Regel abgeschlossen ist, klicken Sie auf **[!UICONTROL Save Rule]**.
-
 1. Testen Sie die Regel, um sicherzustellen, dass sie korrekt funktioniert.
