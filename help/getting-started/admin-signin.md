@@ -3,9 +3,9 @@ title: Ihr Admin-Benutzerkonto
 description: Erfahren Sie mehr über Ihr Admin-Konto und wie Sie mit der Zwei-Faktor-Authentifizierung sich beim Admin anmelden können.
 exl-id: ad576533-5914-49d1-8e73-3f59c55543a5
 feature: Admin Workspace, User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: 54fdc97156c602337c983de5fddfafd7c50a67e1
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -157,3 +157,21 @@ Der Administrator bietet Zugriff zur Verwaltung der Funktionen für Bestellungen
 1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
 [1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+
+## Gewährleistung eines sicheren Zugriffs auf den Administrator
+
+Um die Sicherheit Ihres Administrators zu gewährleisten, führen Sie regelmäßige Audits von Benutzern und Rollen mit Administratorzugriff durch.
+
+Darüber hinaus sollten Sie [die Konfiguration der Admin-Basis](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url)URL aktualisieren, um den standardmäßigen `/admin`-Endpunkt in einen benutzerdefinierten Pfad zu ändern. Die Konfiguration eines benutzerdefinierten Pfads bietet die folgenden Sicherheitsvorteile:
+
+**Erweiterte Sicherheit**: Der standardmäßige „Admin“-Pfad ist weithin bekannt und wird oft von böswilligen Akteuren verwendet, die Brute-Force-Angriffe durchführen. Durch die Änderung in einen eindeutigen, benutzerdefinierten Wert verringern Sie das Risiko nicht autorisierter Zugriffsversuche erheblich.
+
+**Geringere Sicherheitslücken**: Automatisierte Bots suchen häufig nach allgemeinen Pfaden wie „admin“, um Sicherheitslücken auszunutzen. Ein benutzerdefinierter Pfad erschwert es diesen Bots, Ihre Admin-Anmeldeseite zu finden, wodurch die Wahrscheinlichkeit von Angriffen reduziert wird.
+
+**Verbesserter Datenschutz**: Ein benutzerdefinierter Admin-Pfad fügt eine zusätzliche Ebene der Unklarheit hinzu, wodurch es potenziellen Angreifern erschwert wird, Ihre Admin-Anmeldeseite zu identifizieren und anzusprechen.
+
+**Einhaltung von Best Practices**: Die Befolgung von Best Practices für die Sicherheit, wie z. B. die Anpassung des Administratorpfads, zeigt einen proaktiven Ansatz zum Schutz Ihrer E-Commerce-Site und Kundendaten.
+
+>[!NOTE]
+>
+>Wenn ein Verstoß vermutet wird, entfernen Sie alle unbekannten Admin-Benutzer und setzen Sie alle Admin-Kennwörter zurück. Überprüfen Sie [Sicherheits-Aktionsplan](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) auf weitere Schritte.
