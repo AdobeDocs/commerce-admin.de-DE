@@ -3,9 +3,9 @@ title: Übertragen eines Commerce-Kontos
 description: Erfahren Sie, wie Sie Ihr Commerce-Konto an einen anderen Eigentümer oder eine andere E-Mail-Adresse übertragen.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: 89637c8f2c4ff725499c27ebe0feb91bf3f9a0ef
+source-git-commit: e436bbe8f4c2ed913489df22fdc3915d37d9185a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ Wie Sie diese Übertragung abschließen, hängt davon ab, welches der folgenden 
 | Übertragungstyp | Derzeitiger Besitzer | Neuer Besitzer |
 | ------------- | ------------- | --------- |
 | [Neue Adobe ID- und E-Mail-Änderung](#new-adobe-id-and-email-change) | Hat eine MAGEID, die **_nicht verbunden_** mit einem Adobe-Anmeldekonto ist. | Hat keine MAGEID und ist nicht mit einem Adobe-Anmeldekonto verbunden. |
-| [E-Mail-](#email-change) | Hat eine MAGEID, die **_verbunden_** mit einem Adobe-Anmeldekonto ohne andere Adobe-Produkte/-Services verbunden ist. | Hat keine MAGEID und ist nicht mit einem Adobe-Anmeldekonto verbunden. |
-| [Adobe ID-Switch](#adobe-id-account-switch) | Hat eine MAGEID, die **_verbunden_** mit einem Adobe-Anmeldekonto ohne andere Adobe-Produkte/-Services verbunden ist. | Hat eine MAGEID und ist mit einem Adobe-Anmeldekonto verbunden, ohne dass andere Adobe-Produkte/-Services damit verbunden sind. |
+| [E-Mail-](#email-change) | Hat eine MAGEID, die **_verbunden_** mit einem Adobe-Anmeldekonto ist. | Hat keine MAGEID und ist nicht mit einem Adobe-Anmeldekonto verbunden. |
+| [Adobe ID-Switch](#adobe-id-account-switch) | Hat eine MAGEID, die **_verbunden_** mit einem Adobe-Anmeldekonto ist. | Hat eine MAGEID und ist mit einem Adobe-Anmeldekonto verbunden, ohne dass andere Adobe-Produkte/-Services damit verbunden sind. |
 
 {style="table-layout:auto"}
 
