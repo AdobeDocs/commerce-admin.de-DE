@@ -5,9 +5,9 @@ breadcrumb-title: Erste Schritte
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 0c634e3c87dc2dca76cc915bc56356f0d825cfa8
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 1%
    + [Konto freigeben](commerce-account-share.md)
    + [Konto übertragen](commerce-account-transfer.md)
 + Site-Compliance-{#compliance}
-   + [HIPAA-Bereitschaft auf Adobe Commerce](hipaa-ready-service.md)
+   + HIPAA-Bereitschaft auf Adobe Commerce{#hipaa-ready-service}
+      + [Übersicht](hipaa/overview.md)
+      + [Operative Leitlinien](hipaa/operations.md)
    + {#privacy}
       + [Datenschutzrichtlinie speichern](privacy-policy.md)
       + [CCPA-Konformität](compliance-ccpa.md)

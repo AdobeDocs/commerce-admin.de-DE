@@ -3,9 +3,9 @@ title: '[!UICONTROL General] &gt; [!UICONTROL General]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL General] &gt; [!UICONTROL General] des Commerce Admin-Bereichs.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-source-git-commit: 17006d71d73329abcf7c7d34a0b699172d645fa1
+source-git-commit: 54f6c7abf38e4368a843b7cf042ccd9af19239b2
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -108,5 +108,15 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Einzels
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enable Single-Store Mode] | Global | Blendet bei Aktivierung für Einzelspeicherinstallationen das Feld „Konfigurationsbereich“ und die zugehörigen Feldbezeichnungen aus Optionen: `Yes` / `No` <br/>**_Hinweis:_**Der Einzelspeichermodus wird für Stores mit mehr als einer Ansicht ignoriert.<br/> Aktivieren des Einzelspeichermodus kopiert alle katalog- und produktspeicherspezifischen Daten aus der standardmäßigen Store-Ansicht in den Bereich für alle Store-Ansichten. Es werden nur dann Katalog- und Produktdaten kopiert, wenn der Store nur über eine Storevorschau verfügt. Wenn ein Store eine deaktivierte und eine aktivierte Storeview hat, werden keine Katalog- und Produktdaten kopiert.<br/> Aktivieren des Einzelspeichermodus ignoriert storeview-spezifische Konfigurationseinstellungen für inhaltsspezifische Daten. Stattdessen werden Konfigurationseinstellungen verwendet, die auf globaler Ebene definiert sind, um Konsistenz zwischen der Admin-Benutzeroberfläche und der Storefront sicherzustellen. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Data Services]
+
+![Allgemein > Daten-Services](./assets/general-data-services.png)<!-- zoom -->
+
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+|--- |--- |--- |
+| [!UICONTROL Commerce Events Enabled] | Global | Diese Konfiguration ist standardmäßig deaktiviert, wenn Sie im Gesundheitswesen tätig sind und die [Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/hipaa-readiness.html#installation)-Erweiterung installiert haben. Daher werden Storefront-Ereignisdaten, die von der Live Search und der Produkt-Recommendations verwendet werden, nicht mehr erfasst. Dies liegt daran, dass Storefront-Ereignisdaten Client-seitig generiert werden. Um weiterhin Ereignisdaten für die Storefront zu erfassen und zu senden, die von den Services [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) und [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview) verwendet werden können, setzen Sie **Commerce Events Enabled** auf `Yes`. |
 
 {style="table-layout:auto"}
