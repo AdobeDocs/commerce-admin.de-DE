@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] Versionshinweise'
 description: Informationen zu Änderungen in Versionen finden Sie in  [!DNL Adobe Commerce B2B]  Versionshinweisen .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 0b7200331b9b7aa59636a0ff6fd6b98194054a32
+source-git-commit: e872a121b624d718dd60c128177abb6640f85b58
 workflow-type: tm+mt
-source-wordcount: '7820'
+source-wordcount: '7879'
 ht-degree: 0%
 
 ---
@@ -61,8 +61,7 @@ Die B2B-Version 1.5.0 enthält neue Funktionen, Qualitätsverbesserungen und Feh
 ![Neu](../assets/new.svg) <!--B2B-2747--> **Bereichsauswahl für Unternehmen** - Bietet die Möglichkeit für Unternehmensbenutzer, die mehreren Unternehmen zugewiesen sind, Unternehmen in der Storefront zu ändern. Wenn der Umfang gewechselt wird, werden die Daten aktualisiert, um die Informationen basierend auf dem neuen Unternehmenskontext anzuzeigen. Wenn die neue Firma beispielsweise einen anderen freigegebenen Katalog verwendet, sieht der Firmenbenutzer Produkte, Preise und andere Informationen, die auf dem neuen freigegebenen Katalog basieren. Inhalte in Bezug auf Bestellungen, Angebote und Angebotsvorlagen werden ebenfalls auf der Grundlage des Kontexts des ausgewählten Unternehmens aktualisiert.
 
 >[!NOTE]
->
->Wenn der Firmenbenutzer Firmen mit Artikeln im Warenkorb wechselt, aktualisieren Sie den Warenkorb entsprechend dem neuen Firmenkontext, um das Produktsortiment, die Preise und Rabatte für Werbeaktionen anzugeben.
+>Der Warenkorbinhalt spiegelt die vom aktuellen Kunden ausgewählten Artikel wider. Wenn der Kunde über einen aktiven Warenkorb verfügt und ein anderes Unternehmen auswählt, wird er aufgefordert, den Warenkorb zu aktualisieren, um das Produktsortiment, die Preise und Rabatte für Werbeaktionen auf der Grundlage des neuen Firmenkontexts widerzuspiegeln. Produkte, die im mit der neuen Firma verknüpften Katalog nicht verfügbar sind, werden aus dem Warenkorb entfernt. Wenn das Produkt einen anderen Preis oder eine andere Verfügbarkeit hat, wird der Warenkorb aktualisiert, um die im Kontext des ausgewählten Unternehmens verfügbaren Daten widerzuspiegeln.<!--B2B-4222-->
 
 ![Problem behoben](../assets/fix.svg)<!--ACP2E-1933--> Unternehmensadministratoren können jetzt Unternehmensbenutzer aus der Storefront hinzufügen. Zuvor hat Commerce einen Fehler protokolliert, wenn ein Administrator bzw. eine Administratorin versucht hat, einen neuen Benutzer hinzuzufügen: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
 
