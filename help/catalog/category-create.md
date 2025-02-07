@@ -3,9 +3,9 @@ title: Kategorien erstellen
 description: Je nach der in der Konfiguration festgelegten maximalen Menütiefe können Sie beliebig viele zusätzliche Unterkategorien erstellen.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -86,9 +86,11 @@ Definieren Sie auch alle zugehörigen Keywords und Attribute, z. B.:
 
    - Um Bilder aus dem Medienspeicher zu verwenden, klicken Sie auf **[!UICONTROL Select from Gallery]** und wählen Sie das Bild aus, das die Kategorie darstellen soll.
 
+   Innerhalb der Mediensammlung können Sie auch die [Adobe Stock-Integration](../content-design/adobe-stock.md) verwenden, um durch Klicken auf **[!UICONTROL Search Adobe Stock]** ein passendes Bild zu finden.
+
    >[!NOTE]
    >
-   >Innerhalb der Mediensammlung können Sie auch die [Adobe Stock-Integration](../content-design/adobe-stock.md) verwenden, um durch Klicken auf **[!UICONTROL Search Adobe Stock]** ein passendes Bild zu finden.
+   > Wenn Sie AEM Assets aktiviert haben, finden Sie [Kategorien verwalten](../content-design/aem-assets-manage.md) weitere Informationen.
 
 1. Geben Sie **[!UICONTROL Description]** den Text oder andere Inhalte ein, die auf der Kategorieeinstiegsseite angezeigt werden sollen.
 
