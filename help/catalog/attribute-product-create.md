@@ -3,9 +3,9 @@ title: Produktattribute erstellen und löschen
 description: Erfahren Sie mehr über das Erstellen und Entfernen von Produktattributen, mit denen bestimmte Merkmale der Produkte in Ihrem Katalog beschrieben werden.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 3768fc8896dd353e5cc29b4fe82862d6653d6348
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,10 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 ## Schritt 2: Erweiterte Eigenschaften beschreiben (falls erforderlich)
 
 1. Geben Sie einen eindeutigen **[!UICONTROL Attribute Code]** in Kleinbuchstaben und ohne Leerzeichen ein.
+
+   >[!NOTE]
+   >
+   >Es wird nicht empfohlen, den `type` im Feld [!UICONTROL Attribute Code] zu verwenden. Dies kann zu Fehlern führen, da der `type` Wert für die Systemverwendung reserviert ist.
 
    ![Produktattribut - Erweiterte Eigenschaften](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
