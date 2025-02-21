@@ -3,7 +3,7 @@ title: Referenz zu Produktdatenattributen
 description: Verwenden Sie diese Referenz von Produktdatenattributen, wenn Sie mit Produktdatenimporten und -exporten arbeiten.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: c1f797da417bfdf24b537f8c59f954df58dac11a
 workflow-type: tm+mt
 source-wordcount: '2473'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Auf der zum Exportieren dieser Daten verwendeten Installation sind die Beispield
 | `store_view_code` | Gibt die spezifischen Store-Ansichten an, in denen das Produkt verfügbar ist. Wenn dies leer ist, ist das Produkt in der standardmäßigen Store-Ansicht verfügbar. Beispiel: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Weist das Produkt je nach Produkttyp einem bestimmten Attributsatz oder einer bestimmten Produktvorlage zu. Nachdem das Produkt erstellt wurde, kann der Attributsatz nicht mehr geändert werden. Beispiel: `default` |
 | `product_type` | Gibt den Produkttyp an. Werte:<br/>`simple` — Sachgüter, die in der Regel als einzelne Einheiten oder in festen Mengen verkauft werden.<br/>`grouped` - Eine Gruppe separater Produkte, die als Set verkauft werden.<br/>`configurable` - Ein Produkt mit mehreren Optionen, die der Kunde vor dem Kauf auswählen muss. Der Bestand kann für jeden Variantensatz verwaltet werden, da er ein separates Produkt mit einer unterschiedlichen SKU darstellt. Beispielsweise ist eine Kombination aus Farbe und Größe für ein konfigurierbares Produkt mit einer bestimmten SKU im Katalog verknüpft.<br/>`virtual` — Ein nicht materielles Produkt, das nicht versendet werden muss und nicht im Inventar aufbewahrt wird. Beispiele sind Services, Mitgliedschaften und Abonnements.<br/>`bundle` - Ein anpassbarer Produktsatz einfacher Produkte, die zusammen verkauft werden. |
-| `categories` | Gibt jede Kategorie an, die dem Produkt zugewiesen ist. Trennen Sie Kategorien und Unterkategorien mit einem Schrägstrich. Wenn Sie mehrere Kategoriepfade angeben möchten, trennen Sie jeden Pfad durch einen senkrechten Strich. | Symbol. Beispiel: `Default Category/Gear&#124;Default Category/Gear/Bags` |
+| `categories` | Gibt jede Kategorie an, die dem Produkt zugewiesen ist. Trennen Sie Kategorien und Unterkategorien mit einem Schrägstrich. Um mehrere Kategoriepfade anzugeben, trennen Sie jeden Pfad mit einem senkrechten Strich \| Symbol. Beispiel: `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | Der Website-Code jeder Website, auf der das Produkt verfügbar ist. Ein einzelnes Produkt kann mehreren Websites zugewiesen oder auf eine Website beschränkt werden. Wenn Sie mehrere Websites angeben, trennen Sie sie jeweils durch ein Komma und ohne Leerzeichen. Beispiel: `base` oder `base,website2` |
 | `name` | Der Produktname wird in allen Produktlisten angezeigt und ist der Name, mit dem Kunden das Produkt identifizieren. |
 | `description` | Die Produktbeschreibung enthält detaillierte Informationen zum Produkt und kann einfache HTML-Tags enthalten. |
