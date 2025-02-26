@@ -3,9 +3,9 @@ title: A [!DNL Commerce] Konto freigeben
 description: Erfahren Sie, wie Sie anderen Kontoinhabern  [!DNL Commerce]  eingeschränkten Zugriff auf Ihr  [!DNL Commerce]  gewähren.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: e7d76a7fa9ba8d8b8ee1ce122f7ca61e2aa317c6
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Das [!DNL Commerce] Support-Team hat keinen Zugriff auf das Konto und kann keine
 
 >[!NOTE]
 >
->Alle Aktionen, die von Benutzern mit gemeinsamem Zugriff durchgeführt werden, liegen in der alleinigen Verantwortung des Inhabers des primären Kontos. Adobe übernimmt keine Verantwortung für Aktionen von Benutzern, die gemeinsamen Zugriff auf Ihr Konto haben.
+>Alle Aktionen, die von Benutzern mit gemeinsamem Zugriff durchgeführt werden, liegen in der alleinigen Verantwortung des Inhabers des primären Kontos. Adobe übernimmt keine Verantwortung für Aktionen von Benutzenden, die gemeinsamen Zugriff auf Ihr Konto haben.
 
 ![Freigegebene Zugriffseinstellungen](./assets/shared-access.png){width="600" zoomable="yes"}
 
@@ -26,7 +26,7 @@ Das [!DNL Commerce] Support-Team hat keinen Zugriff auf das Konto und kann keine
 
 1. Bevor Sie beginnen, rufen Sie die folgenden Informationen vom [!DNL Commerce] Konto des **neuen Empfängers mit gemeinsamem Zugriff** ab:
 
-   - Der Benutzer muss sich bereits unter account.adobe.com für ein Konto registriert haben und über account.magento.com angemeldet sein.
+   - Der Benutzer muss sich bereits unter account.adobe.com für ein Konto registriert haben und über account.magento.com angemeldet sein. Weitere [ finden Sie unter „Erstellen ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) Commerce-Kontos“.
    - Der `MAGE ID/Account ID (MAG00XXXXXXX)` wird in der linken oberen Ecke der Registerkarte _[!UICONTROL Magento]_direkt über dem Link **Abmelden**angezeigt.
    - Die `Email`, die mit dem Konto verknüpft ist.
 

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Admin-Benutzerkonten erstellen und Rollen zuw
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: ad75c77ada34c4d66b1a58a666edadd44d054e17
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Bei der Erstinstallation Ihres Stores wird ein standardmäßiges Admin-Konto mit Anmeldedaten erstellt, über das Sie vollständigen Administratorzugriff erhalten. Als Best Practice sollten Sie ein weiteres Benutzerkonto mit vollem Administratorzugriff erstellen. Auf diese Weise können Sie ein Konto für Ihre alltäglichen administrativen Aktivitäten verwenden und das andere als „Superadmin“-Konto reservieren. Dies kann hilfreich sein, wenn Sie Ihre regulären Anmeldedaten vergessen haben oder diese irgendwie unbrauchbar werden.
 
-Wenn andere Personen in Ihrem Team oder Dienstleister Zugriff benötigen, können Sie für jeden Benutzer ein eigenes Benutzerkonto erstellen und diesem eingeschränkten Zugriff entsprechend den geschäftlichen Anforderungen zuweisen. Um die Websites oder Geschäfte einzuschränken, auf die Benutzer im Admin zugreifen können, müssen Sie zunächst [eine Rolle erstellen](permissions-user-roles.md) mit begrenztem Umfang und nur den ausgewählten erforderlichen Ressourcen. Anschließend können Sie die Rolle einem bestimmten Benutzerkonto zuweisen. Admin-Benutzende, denen eine eingeschränkte Rolle zugewiesen ist, können Daten nur für Websites oder Stores sehen und ändern, die mit der Rolle verknüpft sind. Sie können jedoch keine globalen Einstellungen oder Daten ändern.
+Wenn andere Team-Mitglieder oder Dienstleister Zugriff benötigen, können Sie für sie individuelle Benutzerkonten erstellen und entsprechend ihren spezifischen Geschäftsanforderungen eingeschränkten Zugriff zuweisen. Um die Websites oder Geschäfte einzuschränken, auf die Benutzer im Admin zugreifen können, müssen Sie zunächst [eine Rolle erstellen](permissions-user-roles.md) mit begrenztem Umfang und nur den ausgewählten erforderlichen Ressourcen. Anschließend können Sie die Rolle einem bestimmten Benutzerkonto zuweisen. Admin-Benutzende, denen eine eingeschränkte Rolle zugewiesen ist, können Daten nur für Websites oder Stores sehen und ändern, die mit der Rolle verknüpft sind. Sie können jedoch keine globalen Einstellungen oder Daten ändern.
 
 >[!NOTE]
 >
->Adobe Commerce-Händler, die über eine Adobe ID verfügen und eine optimierte Anmeldung bei Adobe Commerce- und Adobe Business-Produkten wünschen, können die Commerce-Authentifizierung mit dem Adobe IMS-Authentifizierungs-Workflow integrieren. Nachdem diese Integration für Ihren Commerce Store aktiviert wurde, muss sich jeder Admin-Benutzer mit seinen Adobe-Anmeldeinformationen, nicht mit seinen Commerce-Anmeldeinformationen, anmelden. Siehe Übersicht über die Integration von [Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Adobe Commerce-Händler, die über eine Adobe ID verfügen und eine optimierte Anmeldung bei Adobe Commerce- und Adobe Business-Produkten wünschen, können die Commerce-Authentifizierung mit dem Adobe IMS-Authentifizierungs-Workflow integrieren. Nachdem diese Integration für Ihren Commerce Store aktiviert wurde, muss sich jeder Admin-Benutzer mit seinen Adobe-Anmeldeinformationen, nicht mit seinen Commerce-Anmeldeinformationen anmelden. Siehe Übersicht über die Integration von [Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Für temporäre Benutzer oder Rollen können Sie auch ein Ablaufdatum für das Benutzerkonto festlegen.
 
