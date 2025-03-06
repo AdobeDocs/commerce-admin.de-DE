@@ -3,7 +3,7 @@ title: HIPAA-Bereitschaft auf Adobe Commerce
 description: Erfahren Sie, wie Sie in Adobe Commerce die Erweiterung für HIPAA-Konformität hinzufügen und zusätzliche Funktionen für die Einhaltung der HIPAA-Vorschriften nutzen können.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-source-git-commit: b380977e74c7f49c4d179e633242e3d7e6b1e1e7
+source-git-commit: 7e18b0b0ea308a6126b6cd35f943b133c75adff3
 workflow-type: tm+mt
 source-wordcount: '2300'
 ht-degree: 1%
@@ -15,13 +15,13 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >**Haftungsausschluss**<br/>
->Diese Informationen sollen Adobe-Kunden dabei helfen, ihre Fragen zu Adobe HIPAA-fähigen Services zu beantworten. Sie stellt keine Rechtsberatung dar. Händler sollten sich mit ihrem eigenen Rechtsbeistand beraten, um ihre Verpflichtungen gemäß HIPAA und die angemessene Verwendung und Konfiguration von Adobe-Produkten zu verstehen.
+>Diese Informationen sollen Adobe-Kunden bei der Beantwortung ihrer Fragen zu Adobe HIPAA-fähigen Services helfen. Sie stellt keine Rechtsberatung dar. Händler sollten sich mit ihrem eigenen Rechtsbeistand beraten, um sich über ihre Verpflichtungen aus dem HIPAA und die angemessene Verwendung und Konfiguration der Produkte von Adobe zu informieren.
 
 >[!BEGINSHADEBOX]
 
 **Health Insurance Portability and Accountability Act (HIPAA)**
 
-Der Health Insurance Portability and Accountability Act (HIPAA) ist das wichtigste US-amerikanische Gesetz zum Schutz der Privatsphäre im Gesundheitswesen und wird vom US-amerikanischen Gesundheitsministerium (US Department of Health and Human Services, HHS) durchgesetzt. HIPAA gilt für _abgedeckte Rechtssubjekte_ (wie Gesundheitsdienstleister, Versicherer und Clearinghäuser) und _Geschäftspartner_ (wie solche Rechtssubjekte, die Dienstleistungen für abgedeckte Rechtssubjekte erbringen). HIPAA-Anforderungen sind in drei separaten Regeln festgelegt: Datenschutzregel, Sicherheitsregel und Regel für Verletzungsbenachrichtigungen. Adobe fungiert als Business Associate für bestimmte Produkte, die Adobe als „HIPAA-fähige Services“ einstuft. Daten, die unter HIPAA geregelt sind, werden als _Protected Health Information_ oder PHI bezeichnet. PHI ist eine Untergruppe von Gesundheitsinformationen, die (1) von einem Gesundheitsdienstleister, einem Gesundheitsplan oder einer Clearingstelle für Gesundheitsdienstleistungen erstellt oder empfangen werden, (2) sich auf die vergangene, gegenwärtige oder zukünftige physische oder psychische Gesundheit oder den Zustand einer Person, die Gesundheitsversorgung einer Person oder die vergangene, gegenwärtige oder zukünftige Zahlung für die Gesundheitsversorgung einer Person beziehen und (3) die Person oder in Bezug auf die eine vernünftige Grundlage für die Annahme besteht, dass die Informationen zur Identifizierung der Person verwendet werden können. Die HIPAA-Datenschutz- und Sicherheitsregeln verlangen, dass eine abgedeckte Organisation schriftliche Zusicherungen von einem Geschäftspartner in Form einer Business Associate Agreement (BAA) erhält, die den Geschäftspartner verpflichten, die Privatsphäre und Sicherheit der PHI der abgedeckten Organisation zu schützen. Weitere Informationen finden Sie unter [HIPAA- und Adobe-Produkte und -Services](https://www.adobe.com/trust/compliance/hipaa-ready.html) im Adobe Trust Center.
+Der Health Insurance Portability and Accountability Act (HIPAA) ist das wichtigste US-amerikanische Gesetz zum Schutz der Privatsphäre im Gesundheitswesen und wird vom US-amerikanischen Gesundheitsministerium (US Department of Health and Human Services, HHS) durchgesetzt. HIPAA gilt für _abgedeckte Rechtssubjekte_ (wie Gesundheitsdienstleister, Versicherer und Clearinghäuser) und _Geschäftspartner_ (wie solche Rechtssubjekte, die Dienstleistungen für abgedeckte Rechtssubjekte erbringen). HIPAA-Anforderungen sind in drei separaten Regeln festgelegt: Datenschutzregel, Sicherheitsregel und Regel für Verletzungsbenachrichtigungen. Adobe fungiert als Business Associate für bestimmte Produkte, die Adobe als „HIPAA-fähige Services“ einstuft. Daten, die unter HIPAA geregelt sind, werden als _Protected Health Information_ oder PHI bezeichnet. PHI ist eine Untergruppe von Gesundheitsinformationen, die (1) von einem Gesundheitsdienstleister, einem Gesundheitsplan oder einer Clearingstelle für Gesundheitsdienstleistungen erstellt oder empfangen werden, (2) sich auf die vergangene, gegenwärtige oder zukünftige physische oder psychische Gesundheit oder den Zustand einer Person, die Gesundheitsversorgung einer Person oder die vergangene, gegenwärtige oder zukünftige Zahlung für die Gesundheitsversorgung einer Person beziehen und (3) die Person oder in Bezug auf die eine vernünftige Grundlage für die Annahme besteht, dass die Informationen zur Identifizierung der Person verwendet werden können. Die HIPAA-Datenschutz- und Sicherheitsregeln verlangen, dass eine abgedeckte Organisation schriftliche Zusicherungen von einem Geschäftspartner in Form einer Business Associate Agreement (BAA) erhält, die den Geschäftspartner verpflichten, die Privatsphäre und Sicherheit der PHI der abgedeckten Organisation zu schützen. Weitere Informationen finden Sie unter [HIPAA und Adobe-Produkte und -Services](https://www.adobe.com/trust/compliance/hipaa-ready.html) im Adobe Trust Center.
 
 >[!ENDSHADEBOX]
 
@@ -29,13 +29,13 @@ Der Health Insurance Portability and Accountability Act (HIPAA) ist das wichtigs
 
 Die Adobe Commerce HIPAA-fähige Erweiterung fügt Adobe Commerce-Installationen zusätzliche Funktionen und Merkmale hinzu, die es Händlern ermöglichen, ihre jeweiligen HIPAA-Verpflichtungen zu erfüllen.
 
-Die Adobe Commerce HIPAA-Ready-Erweiterung `magento/hipaa-ee` für Adobe Commerce in Cloud-Infrastrukturen oder Adobe Managed Services-Projekten verfügbar. Der HIPAA-fähige Installationsprozess von Adobe Commerce deaktiviert einige native Services und Funktionen, um HIPAA-Anforderungen zu erfüllen. Siehe [Deaktivierte Services und Funktionen](#disabled-services-and-features).
+Die Erweiterung &quot;Adobe Commerce HIPAA-Ready“, `magento/hipaa-ee` für Adobe Commerce in Cloud-Infrastrukturen oder Adobe Managed Services-Projekten verfügbar ist. Der HIPAA-fähige Installationsprozess von Adobe Commerce deaktiviert einige native Services und Funktionen, um HIPAA-Anforderungen zu erfüllen. Siehe [Deaktivierte Services und Funktionen](#disabled-services-and-features).
 
 >[!NOTE]
 >
 >Der Zugriff auf HIPAA-fähige Funktionen ist nur für Händler verfügbar, die das Add-on für das Gesundheitswesen für Adobe Commerce erworben haben.
 
-*Diese Materialien dienen nur zu Informationszwecken. Die Bereitstellung dieser Informationen berechtigt den Empfänger nicht zu vertraglichen oder sonstigen Rechten. Es wurden zwar Anstrengungen unternommen, um die Richtigkeit der Informationen zum Zeitpunkt ihrer Bereitstellung sicherzustellen, es wird jedoch keine Gewähr für die Richtigkeit und Vollständigkeit dieser Informationen gegeben. Adobe übernimmt keine Verpflichtung, diese Informationen zu aktualisieren, wenn sich die Gesetze oder Adobe-Produkte ändern. Außerdem darf dieses Dokument ohne schriftliche Zustimmung von Adobe nicht an eine andere Partei als den vorgesehenen Empfänger verteilt werden.*
+*Diese Materialien dienen nur zu Informationszwecken. Die Bereitstellung dieser Informationen berechtigt den Empfänger nicht zu vertraglichen oder sonstigen Rechten. Es wurden zwar Anstrengungen unternommen, um die Richtigkeit der Informationen zum Zeitpunkt ihrer Bereitstellung sicherzustellen, es wird jedoch keine Gewähr für die Richtigkeit und Vollständigkeit dieser Informationen gegeben. Adobe ist nicht verpflichtet, diese Informationen zu aktualisieren, wenn sich die Gesetze oder die Produkte von Adobe ändern. Außerdem darf dieses Dokument ohne schriftliche Zustimmung von Adobe nicht an andere Personen als die vorgesehene Empfängerin oder den Empfänger verteilt werden.*
 
 ## Systemanforderungen
 
@@ -52,7 +52,7 @@ Adobe Commerce muss entweder auf Adobe Commerce in der Cloud-Infrastruktur oder 
 
 >[!ENDSHADEBOX]
 
-Installieren Sie die neueste Version der Adobe-Erweiterung (`magento/hipaa-ee`) für IPAA-fähige Services auf einer Instanz, auf der Adobe Commerce Version 2.4.6-p3 - 2.4.6-p8 ausgeführt wird. Die Erweiterung wird als Composer-Metapaket aus dem Repository [repo.magento.com](https://repo.magento.com) bereitgestellt. Das Metapaket enthält die Sammlung von Modulen, die die HIPAA-Funktionen für eine Adobe Commerce-Instanz aktivieren.
+Installieren Sie die neueste Version der HIPAA-fähigen Services-Erweiterung (`magento/hipaa-ee`) von Adobe auf einer Instanz, auf der Adobe Commerce Version 2.4.6-p3 - 2.4.6-p8 ausgeführt wird. Die Erweiterung wird als Composer-Metapaket aus dem Repository [repo.magento.com](https://repo.magento.com) bereitgestellt. Das Metapaket enthält die Sammlung von Modulen, die die HIPAA-Funktionen für eine Adobe Commerce-Instanz aktivieren.
 
 >[!NOTE]
 >
@@ -265,8 +265,8 @@ In der folgenden Tabelle sind die Adobe Commerce-Services aufgeführt, die für 
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | Ja | Ja |
 | [API Mesh für Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/) | Ja | Ja |
 | [SaaS-Datenexport](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview) | Ja | Ja |
-| [Live-Suche](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overviewhttps://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | Nein | Nein |
-| [Produkt-Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | Nein | Nein |
+| [Live-Suche](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) | Nein | Nein |
+| [Produktempfehlungen](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview) | Nein | Nein |
 | [Zahlungsdienste](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/payment-services/guide-overview) | Nein | Nein |
 | [Back-Office-Ereignisse der Datenverbindung](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
 | [Datenverbindungs-Storefront-Ereignisse](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/event-forwarding/events#storefront-events) | Nein | Nein |
