@@ -1,20 +1,20 @@
 ---
-title: Konfigurieren von Experience Manager Assets
+title: Installieren des AEM Assets-Pakets für Commerce
 description: Fügen Sie die Asset-Metadaten hinzu, die erforderlich sind, um die AEM Assets-Integration für Commerce zum Synchronisieren von Assets zwischen Adobe Commerce- und Experience Manager Assets-Projekten zu aktivieren.
 feature: CMS, Media, Integration
 exl-id: deb7c12c-5951-4491-a2bc-542e993f1f84
-source-git-commit: d8e255259e4a8b87c63a4d1c013b4c1feb2b29cb
+source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
 
-# Konfigurieren von Experience Manager Assets
+# Installieren des AEM Assets-Pakets
 
-Richten Sie AEM as a Cloud Service für die Verwaltung von Commerce-Assets ein, indem Sie die AEM Assets-Umgebungskonfiguration aktualisieren und Metadaten in der AEM Assets-Autorenumgebung konfigurieren.
+Adobe stellt `commerce-assets` eine Projektvorlage zum Hinzufügen von Commerce-Namespace- und Metadatenschema-Ressourcen zur Experience Manager Assets as a Cloud Service-Umgebungskonfiguration bereit. Stellen Sie diese Vorlage als Maven-Paket in Ihrer Umgebung bereit. Konfigurieren Sie dann die Commerce-Metadaten in der AEM Assets-Authoring-Umgebung, um die Einrichtung abzuschließen.
 
-Adobe bietet eine AEM-Projektvorlage zum Hinzufügen des Namespace und der Metadatenschema-Ressourcen zur AEM Assets as a Cloud Service-Umgebungskonfiguration. Die Vorlage fügt hinzu:
+Die Vorlage fügt die folgenden Ressourcen zur Authoring-Umgebung von AEM Assets hinzu.
 
 - Ein [benutzerdefinierter Namespace](https://github.com/ankumalh/assets-commerce/blob/main/ui.config/jcr_root/apps/commerce/config/org.apache.sling.jcr.repoinit.RepositoryInitializer~commerce-namespaces.cfg.json), der zur Identifizierung von Commerce-bezogenen Eigenschaften `Commerce`.
 
@@ -31,7 +31,7 @@ Adobe bietet eine AEM-Projektvorlage zum Hinzufügen des Namespace und der Metad
 - Ein [Beispiel für getaggte und genehmigte Commerce](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml)Assets`equipment_6.jpg` zur Unterstützung der anfänglichen Asset-Synchronisierung. Nur genehmigte Commerce-Assets können von AEM Assets mit Adobe Commerce synchronisiert werden.
 
 >[!NOTE]
->Weitere Informationen zur Commerce-Assets AEM-Projektvorlage finden Sie in der [Readme](https://github.com/ankumalh/assets-commerce).
+>Weitere Informationen zur `commerce-assets` AEM-Projektvorlage finden Sie in der [Readme](https://github.com/ankumalh/assets-commerce).
 
 Sie benötigen die folgenden Ressourcen und Berechtigungen, um dieses AEM-Projekt zum Aktualisieren der Umgebungskonfiguration verwenden zu können:
 
@@ -41,7 +41,7 @@ Sie benötigen die folgenden Ressourcen und Berechtigungen, um dieses AEM-Projek
 
 - Machen Sie sich mit der [AEM](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure)Projektstruktur und der Bereitstellung benutzerdefinierter Inhaltspakete mit Cloud Manager vertraut.
 
-## Aktualisieren und Bereitstellen der AEM Assets-Umgebungskonfiguration
+## Installieren des `commerce-assets`
 
 1. Erstellen Sie aus der Cloud Manager bei Bedarf Produktions- und Staging-Umgebungen für Ihr AEM Assets-Projekt.
 
@@ -57,8 +57,7 @@ Sie benötigen die folgenden Ressourcen und Berechtigungen, um dieses AEM-Projek
 
 ## Konfigurieren eines Metadatenprofils
 
-Legen Sie in der Authoring-Umgebung von AEM Assets Standardwerte für Commerce-Asset-Metadaten fest, indem Sie ein Metadatenprofil erstellen. Wenden Sie dann das neue Profil auf an.
-AEM Asset-Ordner zur automatischen Verwendung dieser Standardwerte. Diese Konfiguration optimiert die Asset-Verarbeitung durch Reduzierung manueller Schritte.
+Legen Sie in der Authoring-Umgebung von AEM Assets Standardwerte für Commerce-Asset-Metadaten fest, indem Sie ein Metadatenprofil erstellen. Wenden Sie dann das neue Profil auf AEM Asset-Ordner an, um diese Standardwerte automatisch zu verwenden. Diese Konfiguration optimiert die Asset-Verarbeitung durch Reduzierung manueller Schritte.
 
 1. Navigieren Sie im Adobe Experience Manager-Arbeitsbereich zum Arbeitsbereich für die Inhaltsverwaltung in AEM Assets durch Klicken auf das Adobe Experience Manager-Symbol.
 
@@ -90,7 +89,7 @@ AEM Asset-Ordner zur automatischen Verwendung dieser Standardwerte. Diese Konfig
 
    1. Wählen Sie auf [!UICONTROL  Metadata Profiles] Seite das Integrationsprofil Commerce aus.
 
-   1. Wählen Sie im Menü Aktion die Option **[!UICONTROL Apply Metadata Profiles to Folder(s)]** aus.
+   1. Wählen Sie im Menü Aktion die Option **[!UICONTROL Apply Metadata Profiles to Folders]** aus.
 
    1. Wählen Sie den Ordner aus, der Commerce-Assets enthält.
 
@@ -104,4 +103,4 @@ AEM Asset-Ordner zur automatischen Verwendung dieser Standardwerte. Diese Konfig
 
 ## Nächster Schritt
 
-[Installieren und Konfigurieren der AEM Assets-Integration für Adobe Commerce](aem-assets-configure-commerce.md)
+[Installieren von Adobe Commerce-Paketen](aem-assets-configure-commerce.md)
