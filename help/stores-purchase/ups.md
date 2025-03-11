@@ -3,9 +3,9 @@ title: United Parcel Service (UPS)
 description: Erfahren Sie, wie Sie UPS als Versandunternehmen für Ihren Shop einrichten.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 59daaca469ca1bf21c420ce8520efea6c54166fa
+source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,15 @@ United Parcel Service (UPS) bietet inländische und internationale Verschiffen a
 
 ## Schritt 1: Öffnen Sie ein UPS Versandkonto
 
-Um diese Versandmethode Ihren Kunden anzubieten, müssen Sie zunächst ein Konto bei UPS eröffnen.
+Um diese Versandart Ihren Kunden anzubieten, müssen Sie zunächst ein UPS-Konto eröffnen und den Antrag ausfüllen, um eine Versender-Kontonummer zu erhalten. Siehe [Kostenloses UPS-Konto ](https://www.ups.com/us/en/business-solutions/open-an-account).
 
-## Schritt 2: UPS für Ihren Shop aktivieren
+## Schritt 2: Abrufen von UPS OAUTH-Anmeldeinformationen
+
+Führen Sie die Schritte im Handbuch [Erste Schritte mit UPS-APIs](https://developer.ups.com/get-started) aus, um die API-Anmeldeinformationen (Client-ID und Client-Geheimnis) zur Aktivierung der UPS-Integration abzurufen. Sie müssen eine UPS-Anwendung erstellen, um die Anmeldeinformationen zu erhalten.
+
+Wenn Sie die USV-Einstellungen in Admin konfigurieren, verwenden Sie die Werte der Anmeldeinformationen für die `username` und `password`.
+
+## Schritt 3: UPS für Ihren Shop aktivieren
 
 1. Navigieren Sie in _Admin_ Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -36,7 +42,7 @@ Um diese Versandmethode Ihren Kunden anzubieten, müssen Sie zunächst ein Konto
 
 1. Gehen Sie für ein UPS REST-Konto (Standard) wie folgt vor:
 
-   - Geben Sie Ihre UPS-Anmeldedaten ein: UPS ClientID als **[!UICONTROL User ID]**, UPS Client Secret als **[!UICONTROL Password]**
+   - Geben Sie Ihre UPS-Anmeldedaten ein: UPS ClientID als **[!UICONTROL User ID]**, UPS Client Secret als **[!UICONTROL Password]**.
 
    - Stellen Sie **[!UICONTROL Mode]** auf `Live` ein, um Daten über eine sichere Verbindung an das UPS Versandsystem zu senden. (Der Entwicklungsmodus sendet keine Daten über eine sichere Verbindung.)
 
@@ -116,7 +122,7 @@ Um diese Versandmethode Ihren Kunden anzubieten, müssen Sie zunächst ein Konto
 
    ![Container-Beschreibung](./assets/ups2.png){width="600" zoomable="yes"}
 
-## Schritt 4: Einrichten von Bearbeitungsgebühren
+## Schritt 5: Einrichten von Bearbeitungsgebühren
 
 Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die zu den UPS Versandkosten hinzugerechnet wird. Wenn Sie eine Bearbeitungsgebühr einbeziehen möchten, gehen Sie wie folgt vor:
 
@@ -136,7 +142,7 @@ Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die
 
    ![Bearbeitungsgebühr](./assets/ups3.png){width="600" zoomable="yes"}
 
-## Schritt 5: Zugelassene Methoden und anwendbare Länder angeben
+## Schritt 6: Zugelassene Methoden und anwendbare Länder angeben
 
 1. Wählen Sie **[!UICONTROL Allowed Methods]** jede UPS Versandart, die Ihren Kunden zur Verfügung steht.
 
@@ -174,7 +180,7 @@ Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die
 
 1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
-## Schritt 6: Versandursprungsadresse einrichten
+## Schritt 7: Versandursprungsadresse einrichten
 
 1. Vergewissern Sie sich, dass Ihre [Store-Informationen](../getting-started/store-details.md#store-information) vollständig sind.
 
