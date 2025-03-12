@@ -2,16 +2,16 @@
 title: Handbuch für Admin-Systeme
 description: Erfahren Sie mehr über die Best Practices für die Sicherheit zum Schutz Ihres Commerce-Speichers und zur Verwaltung von Berechtigungen sowie zum Importieren und Exportieren von Daten, zum Verwalten von Integrationen und Erweiterungen und zur Routinewartung.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
-source-git-commit: 13f8858768b412d1ca2eb92e628331d9a45a347d
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # Handbuch für Adobe Commerce Admin-Systeme
 
-Dieses Handbuch richtet sich an Systemadministratoren und Integratoren, die in Adobe Commerce und Magento Open Source arbeiten. Es enthält detaillierte Informationen über die Admin-Sicherheit, Wartungsvorgänge und systemweite Ressourcen, die Aktivitäten über mehrere Organisationsfunktionen für Ihr E-Commerce-Geschäft hinweg unterstützen. Es setzt ein grundlegendes Verständnis der Commerce-Konfiguration und -Funktionalität voraus.
+Dieses Handbuch richtet sich an Systemadministratoren und Integratoren, die in Adobe Commerce und Magento Open Source Admin arbeiten. Es enthält detaillierte Informationen über die Admin-Sicherheit, Wartungsvorgänge und systemweite Ressourcen, die Aktivitäten über mehrere Organisationsfunktionen für Ihr E-Commerce-Geschäft hinweg unterstützen. Es setzt ein grundlegendes Verständnis der Commerce-Konfiguration und -Funktionalität voraus.
 
 Dieses Handbuch behandelt Folgendes:
 

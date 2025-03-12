@@ -3,7 +3,7 @@ title: Sofortkauf
 description: Erfahren Sie mehr über Instant Purchase und wie damit ein schneller Checkout für registrierte Kundenkonten ermöglicht werden kann.
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
 feature: Checkout
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
@@ -54,10 +54,10 @@ _Sofortiger Kauf_ ermöglicht es Kunden, den Checkout-Prozess mithilfe von Infor
 
 Sie können Instant Purchase mit Braintree oder Payment Services für Adobe Commerce und Magento Open Source verwenden. Das Vaulting muss aktiviert sein, damit ein Käufer die Funktion Sofortkauf verwenden kann.
 
-Erfahren Sie, wie Sie die Zahlungsmethode konfigurieren und Vaulting für Braintree- oder Zahlungsdienste aktivieren:
+Erfahren Sie, wie Sie die Zahlungsmethode konfigurieren und Vaulting für Braintree oder Payment Services aktivieren:
 
 - [Braintree](braintree.md)
-- [Dokumentation zu Zahlungsdiensten](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html)
+- [Dokumentation zu Zahlungsdiensten](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
 
 ### Schritt 3: Sofortigen Kauf aktivieren
 

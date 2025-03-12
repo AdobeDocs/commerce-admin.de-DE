@@ -1,12 +1,12 @@
 ---
 user-guide-title: Handbuch für Adobe Commerce-Merchandising und -Promotions
-user-guide-description: Adobe Commerce und Magento Open Source umfassen viele Tools, mit denen Sie den Umsatz steigern, Möglichkeiten für die Kundeninteraktion schaffen und zielgerichtete Promotions einrichten können.
+user-guide-description: Adobe Commerce und Magento Open Source umfassen viele Tools, mit denen Sie den Umsatz steigern, Möglichkeiten für die Kundeninteraktion schaffen und zielgerichtete Werbeaktionen einrichten können.
 breadcrumb-title: Merchandising und Promotions
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
@@ -87,5 +87,5 @@ ht-degree: 1%
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
    - [Google-Inhaltsexperimente](google-content-experiments.md)
-- [Zurück zu Händlerleitfäden](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

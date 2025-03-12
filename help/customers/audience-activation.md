@@ -5,7 +5,7 @@ exl-id: b53908f2-c0c1-42ad-bb9e-c762804a744b
 feature: Customers, Configuration, Personalization
 topic: Commerce, Personalization
 level: Experienced
-source-git-commit: 39d49ac4efd4d00f0f8d22bf469126b748c08173
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Weitere Informationen zur Produktkompatibilität finden [ in der Entwicklerdokum
 
 ## Unterstützte Service-Updates
 
-In diesen Versionshinweisen werden Funktionsänderungen und -korrekturen im Zusammenhang mit den von Audience Activation verwendeten Erweiterungen beschrieben.
+In diesen Versionshinweisen werden Funktionsänderungen und Fehlerbehebungen im Zusammenhang mit den von Audience Activation verwendeten Erweiterungen beschrieben.
 
 +++Unterstützte Service-Updates
 
@@ -139,7 +139,7 @@ _11. Mai 2023_
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
 
 ![Beheben](../assets/fix.svg) - Es wurde ein Problem behoben, bei dem eine dynamische Block- oder Warenkorb-Preisregel nicht auf die Storefront angewendet wurde.
-![Behebung](../assets/fix.svg) - Es wurde ein Problem behoben, bei dem eine nicht konfigurierte Installation der Audience Activation-Erweiterung einen Fehler verursachte, wenn ein Händler versuchte, einen dynamischen Block zu erstellen oder zu aktualisieren.
+![Beheben](../assets/fix.svg) - Es wurde ein Problem behoben, bei dem eine nicht konfigurierte Installation der Audience Activation-Erweiterung einen Fehler verursachte, wenn ein Händler versuchte, einen dynamischen Block zu erstellen oder zu aktualisieren.
 
 ### 1,0,0
 
@@ -172,23 +172,23 @@ Nachdem Sie die [!DNL Audience Activation]-Erweiterung installiert haben, müsse
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL Commerce Services Connector]**.
 
-1. [Melden Sie sich ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#organizationid) Ihrem Adobe-Konto an und wählen Sie Ihre Organisations-ID aus.
+1. [Melden Sie sich bei ](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html#organizationid) Adobe-Konto an und wählen Sie Ihre Organisations-ID aus.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Services]_>**[!UICONTROL [!DNL Data Connection]]**.
 
 1. Fügen Sie im Feld **[!UICONTROL Datastream ID]** die ID des Datenstroms ein, den Sie beim Aktivieren [ Adobe Commerce ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html#parameters) Ziel in Real-Time CDP erstellt haben.
 
-   Dieser Datenstrom sendet Daten von Ihrer Commerce-Website an Real-Time CDP, um festzustellen, ob ein Erstkäufer zu einer Zielgruppe gehört. Wenn Sie noch keinen Datenstrom erstellt haben, [ Sie ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) in Experience Platform, [fügen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) ihn zum Commerce-Ziel in Real-Time CDP und zur [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection)-Erweiterung in Admin hinzu.
+   Dieser Datenstrom sendet Daten von Ihrer Commerce-Website an Real-Time CDP, um festzustellen, ob ein Erstkäufer zu einer Zielgruppe gehört. Wenn Sie noch keinen Datenstrom erstellt haben, [ Sie ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#create) Datenstrom in Experience Platform [hinzufügen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-commerce.html) zum Commerce-Ziel in Real-Time CDP und zur [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection)-Erweiterung in der Admin.
 
    >[!NOTE]
    >
-   >Wenn Sie eine Datenstrom-ID angeben[ verknüpfen Sie sie mit einer bestimmten Website ](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#data-collection) der [!DNL Data Connection]. Wenn Ihr Commerce-Store über mehrere Websites verfügt[ erstellen Sie ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) für jede Website in Real-Time CDP ein Ziel und verwenden Sie für jede eine andere Datenstrom-ID.
+   >Wenn Sie eine Datenstrom-ID angeben[ verknüpfen Sie sie mit einer bestimmten Website ](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#data-collection) der [!DNL Data Connection]. Wenn Ihr Commerce-Store über mehrere Websites verfügt[ erstellen Sie ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) für jede Website in Real-Time CDP ein Ziel und verwenden Sie für jede eine andere Datenstrom-ID.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Erweitern Sie **[!UICONTROL Services]** und wählen Sie **[!UICONTROL [!DNL Data Connection]]**.
 
-1. [Hinzufügen](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) Details zum Service-Konto und den Anmeldedaten.
+1. [Hinzufügen](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html#add-service-account-and-credential-details) Details zum Service-Konto und den Anmeldedaten.
 
 ## Verwendung von Real-Time CDP-Zielgruppen in Commerce
 
@@ -200,7 +200,7 @@ Wenn die [!DNL Audience Activation] aktiviert ist, können Sie:
 
 >[!TIP]
 >
->Einen vollständigen Anwendungsfall zum Exportieren von [!DNL Commerce] nach Real-Time CDP, Erstellen einer Zielgruppe und anschließendem Aktivieren dieser Zielgruppe für die [!DNL Commerce] finden Sie unter &quot;[ einer Zielgruppe in Real-Time CDP mithilfe von  [!DNL Commerce] -Ereignisdaten](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/use-cases/create-audience).
+>Einen vollständigen Anwendungsfall zum Exportieren von [!DNL Commerce] nach Real-Time CDP, Erstellen einer Zielgruppe und anschließendem Aktivieren dieser Zielgruppe für die [!DNL Commerce] finden Sie unter &quot;[ einer Zielgruppe in Real-Time CDP mithilfe von  [!DNL Commerce] -Ereignisdaten](https://experienceleague.adobe.com/en/docs/commerce/data-connection/use-cases/create-audience).
 
 ## Real-Time CDP-Zielgruppen-Dashboard
 
@@ -230,7 +230,7 @@ Das Dashboard enthält die folgenden Felder:
 
 ## Headless-Unterstützung
 
-Sie können Zielgruppen in einer Headless-Adobe Commerce-Instanz wie AEM und PWA aktivieren, um Warenkorbpreisregeln, zugehörige Produktregeln oder dynamische Bausteine basierend auf den Zielgruppen anzuzeigen.
+Sie können Zielgruppen in einer Headless-Adobe Commerce-Instanz wie AEM und PWA aktivieren, um Warenkorbpreisregeln, zugehörige Produktregeln oder dynamische Blöcke basierend auf den Zielgruppen anzuzeigen.
 
 ### Regeln für Warenkorbpreise und zugehörige Produkte
 
@@ -334,8 +334,8 @@ Weitere Informationen zur `dynamicBlocks` GraphQL-Abfrage finden Sie in der [Ent
 
 Sie können Real-Time CDP-Zielgruppen mit der Mobile SDK von Adobe Experience Platform abrufen.
 
-1. [Installieren](#install-the-extension) Sie die Audience Activation-Erweiterung.
-1. [Installieren und konfigurieren Sie die SDK für Ihre mobile Commerce-Site](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/mobile-sdk-epc.html).
+1. [Installieren](#install-the-extension) der Audience Activation-Erweiterung.
+1. [Installieren und konfigurieren Sie die SDK für Ihre mobile Commerce-Site](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/mobile-sdk-epc.html).
 
 >[!IMPORTANT]
 >

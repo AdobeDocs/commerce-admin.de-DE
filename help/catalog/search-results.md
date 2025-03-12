@@ -3,7 +3,7 @@ title: Suchergebnisse
 description: Erfahren Sie, wie Sie konfigurieren können, wie Ihre Produkte den im Feld „Schnellsuche“ oder im Formular „Erweiterte Suche“ eingegebenen Suchkriterien entsprechen.
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
-source-git-commit: 4b2e1dd87a39c9be1adc49d867e44d306a969854
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Auf dieser Seite werden Standardsuchfunktionen beschrieben, die sich von der [Live Search“ ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>Auf dieser Seite werden Standardsuchfunktionen beschrieben, die sich von der [Live Search“ ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 Die _Suchergebnisse_ enthält alle Produkte, die den im Feld „Schnellsuche“ oder im Formular „Erweiterte Suche“ angegebenen Suchkriterien entsprechen. Jede Produktliste im Katalog verfügt im Wesentlichen über dieselben Steuerelemente. Der einzige Unterschied besteht darin, dass einer das Ergebnis einer Suchanfrage ist und der andere das Ergebnis von [Navigation](navigation.md).
 

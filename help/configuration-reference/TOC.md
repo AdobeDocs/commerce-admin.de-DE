@@ -5,9 +5,9 @@ breadcrumb-title: Konfigurationsreferenz
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 1%
       - [PayPal-Zahlungsstandard](./sales/paypal-payments-standard.md)
       - [PayPal Payflow Pro](./sales/paypal-payflow-pro.md)
       - [PayPal-Payflow-Link](./sales/paypal-payflow-link.md)
-- [Sales Channel](./sales-channels.md)
+- [Vertriebskanäle](./sales-channels.md)
 - {#services}
    - [Web-API](./services/magento-web-api.md)
    - [Commerce Services](./services/saas.md)
@@ -84,5 +84,5 @@ ht-degree: 1%
    - [Administrator](./advanced/admin.md)
    - [System](./advanced/system.md)
    - [Entwickler](./advanced/developer.md)
-- [Zurück zu Händlerleitfäden](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

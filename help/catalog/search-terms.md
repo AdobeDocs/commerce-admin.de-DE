@@ -3,7 +3,7 @@ title: Verwalten von Suchbegriffen
 description: Erfahren Sie, wie Sie die Suchbegriffe für Ihren Store verwalten, um Kunden mit falsch geschriebenen oder alternativen Begriffen umzuleiten.
 exl-id: e21ece58-2bc2-49ef-96d3-3be930e09f94
 feature: Catalog Management, Search
-source-git-commit: 3851258543ba829a4bdbfdb5d3d053ec4627184a
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -124,7 +124,7 @@ Eine Möglichkeit, die Effektivität der [Katalogsuche](search-configuration.md)
 
 Adobe Commerce unterstützt zwei verschiedene Synonym-Management-Lösungen:
 
-- Die Live Search [Synonyme](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-admin/synonyms/synonyms.html)-Funktion ist für Adobe Commerce-Installationen mit installierter Live Search verfügbar.
+- Die Live Search [Synonyme](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/synonyms/synonyms.html)-Funktion ist für Adobe Commerce-Installationen mit installierter Live Search verfügbar.
 - Die Standardfunktion für Suchsynonyme (auf dieser Seite beschrieben) ist für alle Adobe Commerce-Installationen standardmäßig verfügbar.
 
 >[!NOTE]

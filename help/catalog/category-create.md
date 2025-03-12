@@ -3,7 +3,7 @@ title: Kategorien erstellen
 description: Je nach der in der Konfiguration festgelegten maximalen Menütiefe können Sie beliebig viele zusätzliche Unterkategorien erstellen.
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
-source-git-commit: 6f83e90ed6bacd9e132d5caa01942f0ea90eb4b0
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 0%
@@ -116,7 +116,7 @@ Definieren Sie auch alle zugehörigen Keywords und Attribute, z. B.:
 
 1. Wenn die Kategorieseite den _`Filter by Attribute`_Abschnitt der mehrschichtigen Navigation enthalten soll, setzen Sie **[!UICONTROL Anchor]**auf `Yes`.
 
-1. Wählen Sie für die **[!UICONTROL Available Product Listing Sort By]** Optionen einen oder mehrere der verfügbaren Werte aus, damit Kunden die Liste sortieren können. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. Wählen Sie für die **[!UICONTROL Available Product Listing Sort By]** Optionen einen oder mehrere der verfügbaren Werte aus, damit Kunden die Liste sortieren können. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
    Standardmäßig sind alle verfügbaren Werte enthalten. Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use All]** , um die Auswahl zu ändern. Die Werte können beispielsweise Folgendes umfassen:
 
@@ -124,7 +124,7 @@ Definieren Sie auch alle zugehörigen Keywords und Attribute, z. B.:
    - `Product Name`
    - `Price`
 
-1. Um die standardmäßige Sortierreihenfolge für die Kategorie festzulegen, wählen Sie den **[!UICONTROL Default Product Listing Sort By]** aus. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling).
+1. Um die standardmäßige Sortierreihenfolge für die Kategorie festzulegen, wählen Sie den **[!UICONTROL Default Product Listing Sort By]** aus. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
 1. Gehen Sie wie folgt vor, um die Standardeinstellung für [ Navigation (](navigation-layered.md#configure-price-navigation)) zu ändern:
 
@@ -206,7 +206,7 @@ Definieren Sie auch alle zugehörigen Keywords und Attribute, z. B.:
 
    ![Designeinstellungen](./assets/category-design.png){width="600" zoomable="yes"}
 
-1. ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Gehen Sie wie folgt vor, um die Aktualisierung des Designs für einen bestimmten Zeitraum zu planen:
+1. ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Gehen Sie wie folgt vor, um die Aktualisierung des Designs für einen bestimmten Zeitraum zu planen:
 
    - Erweitern Sie den Abschnitt _[!UICONTROL Schedule Design Update]_.
 

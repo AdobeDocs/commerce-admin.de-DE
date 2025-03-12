@@ -3,7 +3,7 @@ title: Dashboard für das Daten-Management
 description: Erfahren Sie, wie Sie auf Einblicke zu Datenströmen für [!DNL Catalog Service],  [!DNL Live Search] und  [!DNL Product Recommendation] zugreifen können.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 4495a27b57c04c6f9c37b2c5237b5f2233cc8532
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Das Daten-Management-Dashboard bietet einen Überblick über den Synchronisierun
 
 ## Zielgruppe
 
-Das Daten-Management-Dashboard steht allen Commerce-Händlern, die [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/guide-overview) oder [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/catalog-service/guide-overview) mit einer aktiven Lizenz verwenden, ohne zusätzliche Kosten zur Verfügung.
+Das Daten-Management-Dashboard steht allen Commerce-Händlern, die [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview) oder [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) mit einer aktiven Lizenz verwenden, ohne zusätzliche Kosten zur Verfügung.
 
 Das Daten-Management-Dashboard befindet sich unter *System* > Datenübertragung > *Daten-Management-Dashboard*.
 
@@ -47,7 +47,7 @@ Wenn die Anzahl der verarbeiteten Produkte mit der Anzahl der aktualisierten Pro
 
 >[!NOTE]
 >
->Adobe bietet außerdem eine Befehlszeilenschnittstelle und Systemprotokolle, die Entwickler und Systemintegratoren verwenden können, um Synchronisierungsvorgänge zu verwalten und zu verfolgen und Fehler für Commerce SaaS-Services zu beheben. Weitere Informationen finden Sie im [SaaS-Datenexporthandbuch](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/overview).
+>Adobe bietet außerdem eine Befehlszeilenschnittstelle und Systemprotokolle, die Entwickler und Systemintegratoren verwenden können, um Synchronisierungsvorgänge zu verwalten und zu verfolgen und Fehler für Commerce SaaS-Services zu beheben. Weitere Informationen finden Sie im [SaaS-Datenexporthandbuch](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
 
 ### Liste der synchronisierten Produkte
 

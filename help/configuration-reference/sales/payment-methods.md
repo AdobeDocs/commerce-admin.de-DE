@@ -3,7 +3,7 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] des Commerce Admin-Bereichs.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Payment Services für Adobe Commerce und Magento Open Source bietet eine schlüsselfertige Self-Service-Lösung, einschließlich Sandbox-Tests und einer einfachen Einrichtung, um eine robuste und sichere Zahlungsabwicklung zu ermöglichen. Weitere Informationen zu diesem leistungsstarken Tool-Set und dazu, wie es Ihnen die nötigen Einblicke und die Kontrolle gibt, um das beste Erlebnis für Ihre Käufer zu schaffen, finden Sie im [_Benutzerhandbuch für Zahlungsdienste_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+>Payment Services für Adobe Commerce und Magento Open Source bietet eine schlüsselfertige Self-Service-Lösung, einschließlich Sandbox-Tests und einer einfachen Einrichtung, für eine robuste und sichere Zahlungsabwicklung. Weitere Informationen zu diesem leistungsstarken Tool-Set und dazu, wie es Ihnen die nötigen Einblicke und die Kontrolle gibt, um das beste Erlebnis für Ihre Käufer zu schaffen, finden Sie im [_Benutzerhandbuch für Zahlungsdienste_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
 
 {{config}}
 
@@ -40,9 +40,9 @@ Die folgenden Zahlungslösungen werden als einfache Möglichkeit für Händler e
 
 >[!NOTE]
 >
->Einige Zahlungsintegrationen und gebündelte Erweiterungen wurden in den Versionen 2.4.x entfernt und auf Commerce Marketplace verschoben. Die neuesten offiziellen Zahlungsintegrationserweiterungen finden Sie auf [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}.
+>Einige Zahlungsintegrationen und gebündelte Erweiterungen wurden in den Versionen 2.4.x entfernt und nach Commerce Marketplace verschoben. Die neuesten offiziellen Zahlungsintegrationserweiterungen finden Sie in [Commerce Marketplace](https://marketplace.magento.com/extensions/payments-security.html){:target="_blank"}.
 ><br/>
->**Amazon Pay** und **Klarna**: Die Adobe Commerce- und Magento Open Source-Versionen 2.4.0 bis 2.4.3 enthielten diese vom Anbieter entwickelten Erweiterungen. Ab Version 2.4.4 sind diese Erweiterungen nicht mehr mit der Hauptversion gebündelt und müssen von der Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
+>**Amazon Pay** und **Klarna**: Adobe Commerce und Magento Open Source veröffentlichen die Versionen 2.4.0 bis 2.4.3 und beinhalten diese vom Anbieter entwickelten Erweiterungen. Ab Version 2.4.4 sind diese Erweiterungen nicht mehr mit der Hauptversion gebündelt und müssen von der Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
 ><br/>
 >Wenn Sie eine dieser gebündelten Erweiterungen aktiviert und konfiguriert haben, müssen Sie Ihre `composer.json` im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Upgrade-Handbuch_ für weitere Informationen.<br/>
 ><br/>

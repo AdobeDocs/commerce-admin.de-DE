@@ -1,19 +1,19 @@
 ---
 title: Handbuch zur Katalogverwaltung
-description: Umfassende Informationen zu Produktkatalogfunktionen für Adobe Commerce- und Magento Open Source-Administratoren und E-Commerce-Merchandiser.
+description: Umfassende Informationen zu den Produktkatalogfunktionen für Adobe Commerce- und Magento Open Source-Administratoren und E-Commerce-Merchandiser.
 seo-title: Adobe Commerce Catalog Management Guide
 seo-description: Describes how to use the product catalog features for Adobe Commerce and Magento Open Source.
 exl-id: 894b7cc3-8dc5-43aa-ab9c-ebc6480c7b2f
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
 # Handbuch zur Katalogverwaltung in Adobe Commerce
 
-Dieses Handbuch richtet sich an Produkt-Merchandiser und Inventar-Manager, die in Adobe Commerce und Magento Open Source arbeiten. Es enthält detaillierte Informationen zu den Funktionen des Produktkatalogs, einschließlich der Erstellung der Navigationsstrukturen für einen Katalog. Es setzt ein grundlegendes Verständnis der [!DNL Commerce] Konfiguration und Funktionalität voraus.
+Dieses Handbuch richtet sich an Produkt-Merchandiser und Inventar-Manager, die in der Adobe Commerce und Magento Open Source Admin arbeiten. Es enthält detaillierte Informationen zu den Funktionen des Produktkatalogs, einschließlich der Erstellung der Navigationsstrukturen für einen Katalog. Es setzt ein grundlegendes Verständnis der [!DNL Commerce] Konfiguration und Funktionalität voraus.
 
 Dieses Handbuch behandelt Folgendes:
 

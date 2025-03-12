@@ -2,7 +2,7 @@
 title: Einführung in Commerce Merchandising und Promotions
 description: Informieren Sie sich über Commerce-Tools zur Erstellung zielgerichteter Werbeaktionen und Angebote für Kundinnen und Kunden.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 1%
@@ -27,7 +27,7 @@ _Merchandising_ ist ein Begriff, der im Einzelhandel verwendet wird, um die Kuns
 
 >[!TIP]
 >
->Weitere Informationen zu Product Recommendations und dazu, wie Sie damit das beste Erlebnis für Ihre Kunden schaffen können, finden Sie im [Benutzerhandbuch zu Product Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html).
+>Informationen zu Produktempfehlungen und dazu, wie sie Ihnen die erforderlichen Einblicke und die Kontrolle geben können, um das beste Erlebnis für Ihre Käufer zu schaffen, finden Sie im [Benutzerhandbuch zu Produktempfehlungen](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promotions
 
@@ -66,7 +66,7 @@ Eine der Aufgaben, die Sie vor dem Start Ihres Stores ausführen müssen, besteh
 
 >[!NOTE]
 >
->Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source enthielten die vom Anbieter entwickelte Erweiterung dotdigital, die zur Integration mit der dotdigital Engagement Cloud verwendet wurde. Ab Version 2.4.4 ist diese Erweiterung nicht mehr mit der Hauptversion gebündelt und muss von der Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
+>Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source enthielten die vom dotdigital-Anbieter entwickelte Erweiterung, die zur Integration mit der dotdigital Engagement Cloud verwendet wurde. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Bundle der Hauptversion enthalten und muss von der Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
 ><br><br>
 >Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Upgrade-Handbuch_ für weitere Informationen.
 
@@ -84,9 +84,9 @@ Ihre Store-Konfiguration ist mit den folgenden Google-Tools integriert, um Ihre 
 >
 >Ab Version 2.4.5 wird die Google Services-Integration aktualisiert, um die Verwendung der GTag-APIs zu unterstützen. GTag ist ein einheitlicher Integrationsmechanismus mit Google-Funktionen für Web-Seiten und unterstützt die neuesten Funktionen und Möglichkeiten für das Tracking und die Verwaltung von Inhalten mit Google Services. Weitere Informationen finden Sie in der Entwicklerdokumentation zu [Google Analytics](https://developers.google.com/analytics/devguides/collection/gtagjs).
 
-- [Google Analytics](google-analytics.md) - Verwenden Sie Google Universal Analytics, um zusätzliche benutzerdefinierte Dimensionen und Metriken für das Tracking zu definieren, mit Unterstützung für Offline- und Mobile-App-Interaktionen und Zugriff auf laufende Updates.
+- [Google Analytics](google-analytics.md) - Verwenden Sie Google Universal Analytics, um zusätzliche benutzerdefinierte Dimensionen und Metriken für das Tracking zu definieren, mit Unterstützung für Offline- und Mobile-App-Interaktionen und Zugriff auf laufende Aktualisierungen.
 
-- [Google-Inhaltsexperimente](google-content-experiments.md) - Richten Sie einen A/B-Test für Produkte, Kategorien oder Inhaltsseiten mit Google Analytics-Inhalten ein.
+- [Google-Inhaltsexperimente](google-content-experiments.md) - Richten Sie einen A/B-Test für Produkte, Kategorien oder Inhaltsseiten mit Google Analytics-Inhalten ein
 
 - [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Verwenden Sie den Google Tag Manager, um die vielen Tags zu verwalten, die sich auf Marketing-Kampagnenereignisse beziehen.
 

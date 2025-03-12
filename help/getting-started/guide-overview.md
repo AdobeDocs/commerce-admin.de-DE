@@ -1,26 +1,25 @@
 ---
-title: Erste Schritte mit Adobe Commerce
-description: Umfassende Informationen für Händlerinnen und Händler, die neu in Adobe Commerce sind.
-seo-title: Adobe Commerce Getting Started Guide
-seo-description: Describes basic tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
+title: Erste Schritte für Adobe Commerce-Admins
+description: Umfassende Informationen für Händler, die neu bei Adobe Commerce Admin sind.
+seo-title: Adobe Commerce Admin Getting Started Guide
+seo-description: Describes basic Admin tools and initial tasks for launching an Adobe Commerce or Magento Open Source store.
 exl-id: 1397872f-d5d0-46e4-9bb6-ab6b0c07255d
 recommendations: noCatalog
-source-git-commit: 911ae6ec19d7497bf5246b0aaa384471749c5d64
+source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 4%
+source-wordcount: '254'
+ht-degree: 0%
 
 ---
 
 # Erste Schritte mit Adobe Commerce
 
-Dieses Handbuch richtet sich an Händler und Systemadministratoren, die noch nicht mit Adobe Commerce vertraut sind. Es bietet einen Überblick über die Plattform aus ihrer Perspektive und einige detaillierte Informationen über die grundlegenden Funktionen, die einen funktionalen Store ermöglichen.
+Dieses Handbuch richtet sich an Händler und Systemadministratoren, die noch nicht mit Adobe Commerce Admin vertraut sind. Es bietet einen Überblick über die Plattform aus ihrer Perspektive und einige detaillierte Informationen über die grundlegenden Funktionen, die einen funktionalen Store ermöglichen.
 
 Dieses Handbuch behandelt Folgendes:
 
 | Subjekt | Beschreibung |
 | ------- | ----------- |
-| [Über Commerce](about.md) | Erfahren Sie mehr über die aktuelle Adobe Commerce-Version. |
 | [Anmeldedaten und URLs](login-urls.md) | Erfahren Sie mehr über die [!DNL Commerce]-URLs und Kontoanmeldeinformationen, mit denen Sie Zugriff auf Ihren Admin und Ihre Storefront erhalten. |
 | [[!DNL Commerce] Konten](commerce-account-create.md) | Erfahren Sie mehr über [!DNL Commerce]-Konten, die die von Ihnen erworbenen Produkte und Services verwalten. |
 | [Der Administrator](admin.md) | Erfahren Sie mehr über den [!DNL Commerce] Admin, den Ort, an dem Händler Produkte und Promotions einrichten, Bestellungen verwalten und andere administrative Aufgaben ausführen. |

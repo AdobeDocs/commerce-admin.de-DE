@@ -3,7 +3,7 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Pa
 description: Überprüfen Sie die Konfigurationseinstellungen im Abschnitt [!UICONTROL Payment Services] auf der Seite [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] der Commerce Admin Console.
 exl-id: 255b7bd8-1d32-4393-9eba-43dc7754c752
 feature: Configuration, Payments
-source-git-commit: bf166c1debd7f10a4d988d231a1a47f32c4cea9e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 
 
-Payment Services bietet eine schlüsselfertige Self-Service-Lösung, einschließlich Sandbox-Tests und einer einfachen Einrichtung, für eine robuste und sichere Zahlungsabwicklung. Weitere Informationen finden Sie im [_Benutzerhandbuch für Zahlungs-Services_](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html).
+Payment Services bietet eine schlüsselfertige Self-Service-Lösung, einschließlich Sandbox-Tests und einer einfachen Einrichtung, für eine robuste und sichere Zahlungsabwicklung. Weitere Informationen finden Sie im [_Benutzerhandbuch für Zahlungs-Services_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
 
 Um auf die Konfigurationseinstellungen für Payment Services zuzugreifen, gehen Sie in der Seitenleiste _Admin_ zu **[!UICONTROL Sales]** > **[!UICONTROL Payment Services]** und klicken Sie auf **[!UICONTROL Settings]**.
 
@@ -22,7 +22,7 @@ Um auf die Konfigurationseinstellungen für Payment Services zuzugreifen, gehen 
 
 >[!NOTE]
 >
->Informationen zur Verwendung der Legacy-Konfiguration anstelle von [Einstellungen](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/settings.html) finden Sie unter [Legacy-Konfiguration](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html).
+>Informationen zur Verwendung der Legacy-Konfiguration anstelle von [Einstellungen](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/settings.html) finden Sie unter [Legacy-Konfiguration](https://experienceleague.adobe.com/docs/commerce/payment-services/configure/configure-admin.html).
 
 ## [!UICONTROL General]
 
@@ -46,10 +46,10 @@ Um auf die Konfigurationseinstellungen für Payment Services zuzugreifen, gehen 
 |---|---|---|
 | [!UICONTROL Title] | Shop-Ansicht | Fügen Sie den Text hinzu, der während des Checkouts als Titel für diese Zahlungsoption in der Ansicht Zahlungsmethode angezeigt werden soll. |
 | [!UICONTROL Payment Action] | Website | Die [Zahlungsaktion](payment-methods.md#payment-actions) für die angegebene Zahlungsmethode. Optionen: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL 3DS Secure authentication] | Website | Aktivieren oder deaktivieren Sie [3DS Secure Authentication](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/security-compliance/security.html#3ds). Optionen: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
+| [!UICONTROL 3DS Secure authentication] | Website | Aktivieren oder deaktivieren Sie [3DS Secure Authentication](https://experienceleague.adobe.com/docs/commerce/payment-services/security-compliance/security.html#3ds). Optionen: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | Website | Aktivieren oder deaktivieren Sie Kreditkartenfelder, die auf der Kasse angezeigt werden sollen. Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Vault enabled] | Shop-Ansicht | Aktivieren oder Deaktivieren [Kreditkarten-Vaulting](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | Shop-Ansicht | Aktivieren oder deaktivieren Sie die Möglichkeit, Bestellungen für Kunden in der Admin [mit einer Tresorzahlmethode) ](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/payments-checkout/vaulting.html). Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Vault enabled] | Shop-Ansicht | Aktivieren oder Deaktivieren [Kreditkarten-Vaulting](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html). Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | Shop-Ansicht | Aktivieren oder deaktivieren Sie die Möglichkeit, Bestellungen für Kunden in der Admin [mit einer Tresorzahlmethode) ](https://experienceleague.adobe.com/docs/commerce/payment-services/payments-checkout/vaulting.html). Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | Website | Aktivieren oder Deaktivieren des Debugging-Modus. Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}

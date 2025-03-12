@@ -3,9 +3,9 @@ title: Was ist die Storefront?
 description: Erfahren Sie mehr über die Seiten und funktionalen Elemente, die Ihr Geschäft bereitstellen kann, um das Einkaufserlebnis für Ihre Kunden zu unterstützen.
 exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
-source-git-commit: 3b359ed43e81a2771a372c8e3c7557853b3eecad
+source-git-commit: 8145531bf9aa2764bd52a6e121112beca2e25158
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,51 @@ ht-degree: 0%
 Innerhalb Ihrer Adobe Commerce- oder Magento Open Source-Implementierung ist die Storefront der externe, öffentlich zugängliche Teil Ihres Stores. Es stellt die Inhalte und funktionalen Komponenten bereit, die Ihre Kunden zum Einkaufen und Kaufen verwenden.
 
 Der Weg, den Kundinnen und Kunden zu einem Verkauf gehen, wird manchmal als _Weg zum Kauf_ bezeichnet, und Ihre Storefront enthält die Komponenten, mit denen Kundinnen und Kunden diesen Weg abschließen können. Die folgenden Abschnitte bieten einen Überblick über die grundlegenden Seitentypen, die einen strategischen Wert bieten - die Orte, die Kundinnen und Kunden normalerweise beim Einkaufen in Ihrem Geschäft besuchen. Berücksichtigen Sie bei der Überprüfung verschiedene Store-Funktionen, die in jedem Schritt der Kunden-Journey verwendet werden können.
+
+## Commerce-Storefront
+
+Mit der Einführung der [!DNL **Commerce-Storefront mit Edge Delivery Services**] bietet Adobe eine leistungsstarke, skalierbare und zuverlässige Storefront, die modernste Technologie nutzt, um eine überlegene Geschwindigkeit und ein besseres Benutzererlebnis zu bieten.
+
+- **Verbesserte Leistung**: Das Hosten von Storefronts auf Edge Delivery Services sorgt für schnellere Ladezeiten und eine verbesserte Site-Leistung, was zu höheren Konversionsraten und besseren SEO-Rankings führen kann.
+
+- **Skalierbarkeit**: Die Architektur unterstützt eine nahtlose Skalierung, um erhöhten Traffic und größere Produktkataloge zu bewältigen, ohne die Leistung zu beeinträchtigen.
+
+- **Flexibilität**: Die Storefront ist in hohem Maße anpassbar, sodass Unternehmen das Einkaufserlebnis an ihre individuellen Bedürfnisse anpassen können.
+
+- **Verbessertes Benutzererlebnis**: Funktionen wie erweitertes Caching, Echtzeit-Updates und die Bereitstellung personalisierter Inhalte tragen zu einem reibungsloseren und ansprechenderen Einkaufserlebnis bei.
+
+### Wichtigste Funktionen
+
+Die Commerce Storefront powered by Edge Delivery Services bietet mehrere wichtige Funktionen, die sowohl für Händler als auch für Entwickler von Vorteil sind. Diese Funktionen ermöglichen es Unternehmen, ansprechende Einkaufserlebnisse zu schaffen und gleichzeitig die Flexibilität zu behalten, ihre Storefronts entsprechend ihren Anforderungen anzupassen und zu skalieren.
+
+Weitere Informationen und Anleitungen zum Einrichten und Optimieren Ihrer Commerce-Storefront finden Sie in der [Dokumentation zur Adobe Commerce-Storefront](https://experienceleague.adobe.com/en/docs/commerce).
+
+>[!BEGINTABS]
+
+>[!TAB Händler]
+
+Die Commerce Storefront powered by Edge Delivery Services bietet ein intuitives, dokumentbasiertes Authoring-Erlebnis, das es Händlern erleichtert, Inhalte zu erstellen und zu verwalten. Mithilfe bekannter Tools wie Microsoft Word oder Google Docs können Händler umfangreiche Inhalte erstellen, während sie die Versionskontrolle behalten und mit Team-Mitgliedern zusammenarbeiten.
+
+- **Vereinfachte Inhaltserstellung**: Erstellen und bearbeiten Sie Inhalte mit gängigen dokumentbasierten Authoring-Tools wie Microsoft Word oder Google Docs.
+- **Echtzeitvorschau**: Änderungen mit Live-Vorschaufunktionen werden vor der Veröffentlichung sofort angezeigt.
+- **Versionskontrolle**: Inhaltsänderungen verfolgen und einfach zu vorherigen Versionen zurückkehren.
+- **Kollaborativer Workflow**: Mehrere Team-Mitglieder können gleichzeitig mit integrierten Prüfungsprozessen an Inhalten arbeiten.
+- **Wiederverwendung von Inhalten**: Erstellen Sie Inhaltsblöcke, die auf mehreren Seiten wiederverwendet werden können, um die Konsistenz zu gewährleisten.
+
+>[!TAB Entwickler]
+
+Die Headless-Implementierung ermöglicht es Entwickelnden, die Frontend-Präsentationsebene von der Backend-Commerce-Funktionalität zu entkoppeln, was flexible, benutzerdefinierte Storefronts ermöglicht, die mit modernen Technologien erstellt wurden, während die robusten Backend-Services von Commerce genutzt werden.
+
+- **API-First-Architektur**: Erstellen Sie benutzerdefinierte Frontend-Erlebnisse mit modernen Frameworks und nutzen Sie dabei Commerce-Backend-Services.
+- **Zusammensetzbare Komponenten**: Erstellen und stellen Sie modulare, wiederverwendbare Komponenten bereit, die in verschiedene Seiten-Layouts assembliert werden können.
+- **Erweiterbare Plattform**: Benutzerdefinierte Funktionalität über APIs und Webhooks hinzufügen, ohne den Kern-Code zu ändern.
+- **Moderne Entwicklungstools**: Verwenden Sie standardmäßige Entwicklungstools und -Workflows für eine schnellere Implementierung und Bereitstellung.
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>Während die Commerce-Storefront zahlreiche Vorteile bietet, unterstützt Adobe weiterhin die ursprüngliche Luma-basierte Storefront. Unternehmen, die derzeit Luma verwenden, können den Betrieb ohne Unterbrechung fortsetzen und haben die Möglichkeit, in ihrem eigenen Tempo zur neuen Storefront zu wechseln. Die restlichen Abschnitte auf dieser Seite basieren auf Luma-Beispielen.
 
 ## Startseite
 
@@ -36,7 +81,7 @@ Wussten Sie, dass Personen, die die -Suche verwenden, mit fast doppelt so hoher 
 
 ### [!DNL Live Search]
 
-Mit [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) für Adobe Commerce bietet Ihr Store ein schnelles, extrem relevantes und intuitives Sucherlebnis und ist ohne zusätzliche Kosten für Adobe Commerce verfügbar.
+Mit [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) für Adobe Commerce bietet Ihr Store ein schnelles, extrem relevantes und intuitives Sucherlebnis und ist ohne zusätzliche Kosten für Adobe Commerce verfügbar.
 
 ![Beispiel für die Live-Suche - Suche während der Eingabe](./assets/storefront-search-as-you-type.png){width="700"}
 
@@ -54,7 +99,7 @@ Auf der Produktseite ist viel los! Das erste, was Sie auf der Produktseite bemer
 
 ## Warenkorb
 
-In dem Warenkorb können Sie die Bestellsumme, Rabattgutscheine und geschätzte Versand- und Steuerkosten sowie einen großartigen Ort zur Anzeige Ihrer Vertrauensabzeichen und Siegel bestimmen. Es ist auch eine ideale Gelegenheit, ein letztes Element anzubieten. Als Crosssell können Sie bestimmte Artikel auswählen, die als Impulskauf angeboten werden sollen, sobald ein bestimmter Artikel im Warenkorb erscheint.
+Der Warenkorb zeigt die Bestellsumme an, einschließlich Rabattgutscheine, geschätzter Versandkosten und Steuern. Diese Funktionen machen es zu einem großartigen Ort, um Vertrauensabzeichen und Siegel anzuzeigen. Sie können die Warenkorbseite auch als Gelegenheit für ein endgültiges Angebot verwenden. Sie können beispielsweise Crosssell-Artikel einrichten, die als Impulskaufoptionen erscheinen, wenn bestimmte Produkte im Warenkorb sind.
 
 ![Beispiel für eine Warenkorbseite für eine Storefront](./assets/storefront-cart-full.png){width="700"}
 

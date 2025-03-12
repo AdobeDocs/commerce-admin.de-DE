@@ -3,16 +3,16 @@ title: Handbuch zu Stores und Kauferlebnissen
 description: Umfassende Informationen zu den Funktionen für die Store-Definition und die Verkaufsverarbeitung für Kundendienstmitarbeiter und Vertriebsleiter, die in der Adobe Commerce und Magento Open Source Admin arbeiten.
 exl-id: 01c075a5-d9ac-4edb-82de-35a52748b800
 recommendations: noCatalog
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Handbuch zu Adobe Commerce Stores und Kauferlebnissen
 
-Dieses Handbuch richtet sich an Kundendienstmitarbeiter und Vertriebsleiter, die in Adobe Commerce und Magento Open Source arbeiten. Es enthält detaillierte Informationen über die Bestellverwaltung und Einkaufsfunktionen, einschließlich der Konfiguration des Warenkorbs, um Kunden zu unterstützen und den Verkauf zu fördern. Es setzt ein grundlegendes Verständnis der [!DNL Commerce] Konfiguration und Funktionalität voraus.
+Dieses Handbuch richtet sich an Kundendienstmitarbeiter und Vertriebsleiter, die in der Adobe Commerce und Magento Open Source Admin arbeiten. Es enthält detaillierte Informationen über die Bestellverwaltung und Einkaufsfunktionen, einschließlich der Konfiguration des Warenkorbs, um Kunden zu unterstützen und den Verkauf zu fördern. Es setzt ein grundlegendes Verständnis der [!DNL Commerce] Konfiguration und Funktionalität voraus.
 
 Dieses Handbuch behandelt Folgendes:
 

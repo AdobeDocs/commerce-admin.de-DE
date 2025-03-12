@@ -1,18 +1,18 @@
 ---
-title: Erweiterungen von Adobe
-description: Lesen Sie Informationen zu Erweiterungen für Adobe Commerce und Magento Open Source, die von Adobe veröffentlicht wurden.
+title: Erweiterungen aus Adobe
+description: Informationen zu Erweiterungen für Adobe Commerce und Magento Open Source, die von Adobe veröffentlicht wurden, finden Sie.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-source-git-commit: 6414a7aea7dcbe0f2379ed74455518220a1fbd64
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 0%
 
 ---
 
-# Erweiterungen von Adobe
+# Erweiterungen aus Adobe
 
-In diesem Abschnitt finden Sie Informationen zu Erweiterungen für Adobe Commerce und Magento Open Source, die auf Adobe veröffentlicht werden. Erweiterungen fügen Funktionen, Dienste und Integrationen zur Admin- und Storefront hinzu. Einige dieser Erweiterungen werden durch Beiträge der Magento Open Source Community entwickelt. Einige Erweiterungen müssen separat installiert werden, andere sind standardmäßig installiert.
+Dieses Thema enthält Informationen zu Erweiterungen für Adobe Commerce und Magento Open Source, die von Adobe veröffentlicht werden. Erweiterungen fügen Funktionen, Dienste und Integrationen zur Admin- und Storefront hinzu. Einige dieser Erweiterungen werden durch Beiträge der Magento Open Source-Community entwickelt. Einige Erweiterungen müssen separat installiert werden, andere sind standardmäßig installiert.
 
 ## Installierte Erweiterungen
 
@@ -30,11 +30,11 @@ Es gibt einige Erweiterungen, die automatisch mit Adobe Commerce oder Magento Op
 
 ### Braintree
 
-PayPal und Gene Commerce entwickelten gemeinsam die offizielle Braintree-Erweiterung für Commerce 2.4.x Stores. Die Updates bieten ein verbessertes Checkout-Erlebnis zur Steigerung der Konversionsrate und beinhalten PayLater-Optionen, mit denen beim Einkaufen und beim Checkout automatisch relevante PayLater-Nachrichten und -Schaltflächen angezeigt werden.
+PayPal und Gene Commerce entwickelten gemeinsam die offizielle Braintree-Erweiterung für Commerce 2.4.x-Stores. Die Updates bieten ein verbessertes Checkout-Erlebnis zur Steigerung der Konversionsrate und beinhalten PayLater-Optionen, mit denen beim Einkaufen und beim Checkout automatisch relevante PayLater-Nachrichten und -Schaltflächen angezeigt werden.
 
-Diese Erweiterung wird standardmäßig installiert, erfordert jedoch ein [Braintree-Konto](https://www.braintreepayments.com/) und die Konfiguration im Admin-Bereich, um für Ihren Store aktiviert zu werden. Um die Gebühren zu ermitteln, die bei der Verwendung von Braintree zur Verarbeitung Ihrer Transaktionen anfallen, überprüfen Sie die [Braintree-Preise](https://www.braintreepayments.com/braintree-pricing).
+Diese Erweiterung wird standardmäßig installiert, erfordert jedoch ein [Braintree-Konto](https://www.braintreepayments.com/) und die Konfiguration im Admin-Bereich, um für Ihren Store aktiviert zu werden. Um die Gebühren zu ermitteln, die bei der Verarbeitung Ihrer Transaktionen mit Braintree anfallen, überprüfen Sie die [Braintree-Preise](https://www.braintreepayments.com/braintree-pricing).
 
-Informationen zur Braintree-Konfiguration in Admin finden Sie im [Braintree](../stores-purchase/braintree.md)-Thema im _Handbuch zu Vertrieb und Kauf_.
+Informationen zur Braintree-Konfiguration in der Admin-Instanz finden Sie im [Braintree](../stores-purchase/braintree.md)-Thema im _Handbuch zu Vertriebs- und Kauferlebnissen_.
 
 ### Google reCAPTCHA
 
@@ -57,35 +57,35 @@ Diese Funktionen sind standardmäßig aktiviert. Jeder Admin-Benutzer muss einen
 
 ## Hinzuzufügende Erweiterungen
 
-Die [[!DNL Commerce Marketplace]](https://marketplace.magento.com/) ist die globale eCommerce-Ressource für Programme und Services, die [!DNL Commerce] Lösungen um leistungsstarke neue Funktionen erweitert. Adobe veröffentlicht mehrere Erweiterungen über die [!DNL Marketplace], die in Ihrem Adobe Commerce- oder Magento Open Source-Store installiert und konfiguriert werden können, um erweiterte Integrationen und Funktionen bereitzustellen.
+Die [[!DNL Commerce Marketplace]](https://marketplace.magento.com/) ist die globale eCommerce-Ressource für Programme und Services, die [!DNL Commerce] Lösungen um leistungsstarke neue Funktionen erweitert. Adobe veröffentlicht über die [!DNL Marketplace] mehrere Erweiterungen, die in Ihrem Adobe Commerce- oder Magento Open Source-Store installiert und konfiguriert werden können, um erweiterte Integrationen und Funktionen zu bieten.
 
 ### [!DNL Live Search]
 
 ![Nur Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce
 
-Die [!DNL Live Search]-Erweiterung verbindet Ihren Store mit dem Live Search-Service - einer kostenlosen Suchplattform von Adobe Commerce, mit der Verkäufer nahtlos Kunden ein KI-optimiertes Sucherlebnis bieten können. Adobe Sensei, das auf der Adobe-Ebene mit künstlicher Intelligenz basiert, hilft Händlern, mit weniger Aufwand mehr zu erreichen, indem sie die manuelle Arbeit um das Facettieren/Filtern entfernen.
+Die [!DNL Live Search]-Erweiterung verbindet Ihren Store mit dem Live Search-Service - einer kostenlosen Suchplattform von Adobe Commerce, mit der Verkäufer nahtlos Kunden ein KI-optimiertes Sucherlebnis bieten können. Adobe Sensei wurde mit der künstlichen Intelligenz von Adobe entwickelt und bietet Händlern die Möglichkeit, mit weniger Aufwand mehr zu erreichen, indem sie die manuelle Bearbeitung der Facettierung/Filterung umgehen.
 
-Weitere Informationen finden Sie [Live Search-](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)).
+Weitere Informationen finden Sie [Live Search-](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)).
 
 ### [!DNL Product Recommendations]
 
 ![Nur Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce
 
-Die [!DNL Product Recommendations]-Erweiterung verbindet Ihren Shop mit dem Produkt-Recommendations-Service - einem leistungsstarken Marketing-Tool, mit dem Sie Konversionen, Umsätze und Interaktionen steigern können. [!DNL Product Recommendations] wurde von Adobe Commerce entwickelt und wird von seiner kampferprobten künstlichen Intelligenz, Adobe Sensei, angetrieben, sodass Sie mit Zuversicht Interaktion und Konversion fördern können. Mit dieser Funktion entfällt die manuelle Arbeit, die erforderlich ist, um relevante Produktempfehlungen an jeden Käufer zu senden.
+Die [!DNL Product Recommendations]-Erweiterung verbindet Ihren Store mit dem Product Recommendations-Service - einem leistungsstarken Marketing-Tool, mit dem Sie Konversionen, Umsatz und Interaktion steigern können. [!DNL Product Recommendations] wurde von Adobe Commerce entwickelt und wird von seiner kampferprobten künstlichen Intelligenz, Adobe Sensei, angetrieben, sodass Sie mit Zuversicht Interaktion und Konversion fördern können. Mit dieser Funktion entfällt die manuelle Arbeit, die erforderlich ist, um relevante Produktempfehlungen an jeden Käufer zu senden.
 
-Weitere Informationen finden Sie [[!DNL Product Recommendations] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html?lang=en) .
+Weitere Informationen finden Sie [[!DNL Product Recommendations] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=en) .
 
 ### [!DNL Catalog Service]
 
-Die [!DNL Catalog Service] ermöglicht es Ihnen, Kunden ein optimiertes Produkterlebnis zu bieten und gleichzeitig die Leistung zu steigern, die Skalierbarkeit zu verbessern und die Konversionen zu erhöhen. Weitere Informationen finden Sie [[!DNL Catalog Service] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html) .
+Die [!DNL Catalog Service] ermöglicht es Ihnen, Kunden ein optimiertes Produkterlebnis zu bieten und gleichzeitig die Leistung zu steigern, die Skalierbarkeit zu verbessern und die Konversionen zu erhöhen. Weitere Informationen finden Sie [[!DNL Catalog Service] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html) .
 
 ### [!DNL Payment Services]
 
-[!DNL Payment services] für Adobe Commerce und Magento Open Source ist eine vollständig integrierte Zahlungslösung, die die Zahlungsverwaltung vereinfacht und Ihren Kunden die Möglichkeit gibt, ihren Zahlungsprozess mitzugestalten. So können Sie alle Zahlungs- und Transaktionsdaten innerhalb von Adobe Commerce Admin sicher abstimmen, sodass Sie Bestellungen und Zahlungen an einem Ort verwalten und gleichzeitig einen nahtlosen Checkout bieten können. Weitere Informationen finden Sie [[!DNL Payment Services] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/guide-overview.html) .
+[!DNL Payment services] für Adobe Commerce und Magento Open Source ist eine vollständig integrierte Zahlungslösung, die die Verwaltung von Zahlungen vereinfacht und Ihren Kunden die Möglichkeit gibt, ihren Teil der Zahlung zu leisten. So können Sie alle Zahlungs- und Transaktionsdaten innerhalb von Adobe Commerce Admin sicher abstimmen, sodass Sie Bestellungen und Zahlungen an einem Ort verwalten und gleichzeitig einen nahtlosen Checkout bieten können. Weitere Informationen finden Sie [[!DNL Payment Services] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html) .
 
 ### [!DNL Store Fulfillment]
 
-Store Fulfillment für Adobe Commerce und Magento Open Source ermöglicht einen hervorragenden Online-Einkauf, die Aufnahme im Geschäft (BOPIS)-Kundenerlebnis und maximiert die Mitarbeiterproduktivität durch Bereitstellung eines umfassenden Fulfillment-Workflows, der über ein Mobilgerät ermöglicht wird. Weitere Informationen finden Sie [[!DNL Store Fulfillment] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-merchant-services/store-fulfillment/guide-overview.html) .
+Store Fulfillment für Adobe Commerce und Magento Open Source ermöglicht einen erstklassigen Online-Einkauf, die Aufnahme im Geschäft (BOPIS) und die Maximierung der Mitarbeiterproduktivität durch Bereitstellung eines umfassenden Fulfillment-Workflows, der über ein Mobilgerät ermöglicht wird. Weitere Informationen finden Sie [[!DNL Store Fulfillment] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce/store-fulfillment/guide-overview.html) .
 
 ### [!DNL Amazon Sales Channel]
 

@@ -3,7 +3,7 @@ title: '[!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Services] &gt; [!UICONTROL Commerce Services Connector] des Commerce Admin-Bereichs.
 exl-id: 3570e846-c8ab-4a36-b020-1b536bbd377d
 feature: Configuration, Saas
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Informationen zum Verbinden Ihres Stores mit Adobe Commerce-Services finden Sie unter [Commerce-Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+Informationen zum Verbinden Ihres Stores mit Adobe Commerce-Services finden Sie unter [Commerce-Services](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html).
 
 {{config}}
 
@@ -45,7 +45,7 @@ Informationen zum Verbinden Ihres Stores mit Adobe Commerce-Services finden Sie 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Project] | Global | Name des SaaS-Projekts, das alle Ihre SaaS-Datenräume gruppiert. Wenn _SaaS-Projekte nicht vorhanden sind, wird die Schaltfläche_ Projekt erstellen“ angezeigt. |
-| [!UICONTROL Data Space] | Global | Listet die SaaS-Datenräume im angegebenen SaaS-Projekt auf. Die Anzahl der SaaS-Datenräume hängt von Ihrer [Commerce-Lizenz ab](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html):<br />Adobe Commerce: ein Produktionsdatenraum; zwei Testdatenräume;<br />Magento Open Source: ein Produktionsdatenraum; keine Testdatenräume |
+| [!UICONTROL Data Space] | Global | Listet die SaaS-Datenräume im angegebenen SaaS-Projekt auf. Die Anzahl der SaaS-Datenräume hängt von Ihrer [Commerce-Lizenz ab](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html)<br />Adobe Commerce: ein Produktionsdatenraum; zwei Testdatenräume;<br />Magento Open Source: ein Produktionsdatenraum; keine Testdatenräume |
 
 {style="table-layout:auto"}
 
@@ -55,6 +55,6 @@ Informationen zum Verbinden Ihres Stores mit Adobe Commerce-Services finden Sie 
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Sign in using Adobe ID] | Ihre Adobe ID ist in der Regel die E-Mail-Adresse, die Sie zum ersten Mal verwendet haben, als Sie Ihre Mitgliedschaft begonnen oder eine Adobe-Anwendung oder einen Service erworben haben. Ihr Adobe ID ist der Schlüssel, den Sie für den Zugriff auf Ihr Adobe-Konto benötigen. |
+| [!UICONTROL Sign in using Adobe ID] | Ihre Adobe ID ist in der Regel die E-Mail-Adresse, die Sie zum ersten Mal verwendet haben, als Sie Ihre Mitgliedschaft begonnen oder eine Anwendung oder einen Service für Adobe erworben haben. Ihre Adobe ID ist der Schlüssel, den Sie für den Zugriff auf Ihr Adobe-Konto benötigen. |
 
 {style="table-layout:auto"}

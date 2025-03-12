@@ -2,9 +2,9 @@
 user-guide-title: Handbuch zur Kundenverwaltung
 breadcrumb-title: Kundenverwaltung
 feature: Customers
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 2%
 
 ---
@@ -55,5 +55,5 @@ ht-degree: 2%
    + [Erstellen und Löschen von Kundensegmenten](customer-segment-create.md)
    + [Kundensegmente in Preisregeln](customer-segment-price-rule.md)
    + [Bericht zu Kundensegmenten](customer-segment-reports.md)
-+ [Zurück zu Händlerleitfäden](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
++ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

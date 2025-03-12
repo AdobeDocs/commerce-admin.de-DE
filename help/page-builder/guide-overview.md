@@ -4,16 +4,16 @@ description: Umfassende Informationen zu  [!DNL Page Builder]  für Adobe Commer
 seo-title: Adobe Commerce [!DNL Page Builder] User Guide
 seo-description: Describes how to use the [!DNL Page Builder] module in Adobe Commerce or Magento Open Source.
 exl-id: 983ef3a8-b803-40ff-a9f5-07eb895df31c
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
 
 # [!DNL Page Builder] Benutzerhandbuch
 
-Dieses Handbuch richtet sich an Administratoren von Adobe Commerce und Magento Open Source. Es enthält detaillierte Informationen zu [!DNL Page Builder] Funktionen, einschließlich einer dreiteiligen exemplarischen Vorgehensweise zum Erstellen grundlegender Inhaltskomponenten. Es setzt ein grundlegendes Verständnis der [!DNL Commerce] Konfiguration und Funktionalität voraus.
+Dieses Handbuch richtet sich an Administratoren, die in Adobe Commerce und Magento Open Source Admin arbeiten. Es enthält detaillierte Informationen zu [!DNL Page Builder] Funktionen, einschließlich einer dreiteiligen exemplarischen Vorgehensweise zum Erstellen grundlegender Inhaltskomponenten. Es setzt ein grundlegendes Verständnis der [!DNL Commerce] Konfiguration und Funktionalität voraus.
 
 [!DNL Page Builder] gibt es zwei Bereiche für Store-Administratoren:
 

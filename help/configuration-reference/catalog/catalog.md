@@ -3,7 +3,7 @@ title: '[!UICONTROL Catalog] &gt; [!UICONTROL Catalog]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Catalog] &gt; [!UICONTROL Catalog] des Commerce Admin-Bereichs.
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '3233'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | Shop-Ansicht | Bestimmt die Anzahl der Produkte, die standardmäßig in der Rasteransicht pro Seite angezeigt werden. |
 | [!UICONTROL Products per Page on List Allowed Values] | Shop-Ansicht | Bestimmt die Anzahl der in der Listenansicht angezeigten Produkte. Um eine Auswahl von Optionen bereitzustellen, geben Sie mehrere Werte ein, die durch Kommas getrennt sind. |
 | [!UICONTROL Products per Page on List Default Value] | Shop-Ansicht | Bestimmt die Anzahl der standardmäßig pro Seite angezeigten Produkte in der Listenansicht. |
-| Produktliste sortieren nach | Shop-Ansicht | Bestimmt die Sortierreihenfolge der Suchergebnisliste. Die Auswahl der Optionen wird durch die Anzeigeeinstellungen der Kategorie und die verfügbaren Attribute bestimmt, die als `Used for Sorting in Product Listing` festgelegt sind. Der Standardwert ist auf `Use All Available Attributes` festgelegt und umfasst normalerweise den besten Wert, den Namen und den Preis. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-storefront/plp-styling). |
+| Produktliste sortieren nach | Shop-Ansicht | Bestimmt die Sortierreihenfolge der Suchergebnisliste. Die Auswahl der Optionen wird durch die Anzeigeeinstellungen der Kategorie und die verfügbaren Attribute bestimmt, die als `Used for Sorting in Product Listing` festgelegt sind. Der Standardwert ist auf `Use All Available Attributes` festgelegt und umfasst normalerweise den besten Wert, den Namen und den Preis. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | Shop-Ansicht | Ist hierfür `Yes` festgelegt, wird die Option `ALL` in das Steuerelement „Pro Seite anzeigen“ einbezogen. |
 | [!UICONTROL Remember Category Pagination] | Global | Wenn auf `Yes` festgelegt, werden die aktuellen Paginierungswerte der Kategorie gespeichert, wenn Kundinnen und Kunden in (Produktlisten[ von einer Kategorie zur anderen ](../../catalog/navigation-product-listings.md). Wenn Sie den Wert speichern, wird mehr Cache-Speicher belegt. Dies kann sich auf die Art und Weise auswirken, wie Seiten von Suchmaschinen indiziert werden. Optionen: `Yes` / `No` (Standard) |
 | [!UICONTROL Use Flat Catalog Category] | Global | Aktiviert die [flache Kategoriestruktur](../../catalog/catalog-flat.md) (nicht empfohlen). Optionen: `Yes` / `No` |
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Die in diesem Abschnitt beschriebene Standardsuchkonfiguration unterscheidet sich für die [Live-Suche](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html).
+>Die in diesem Abschnitt beschriebene Standardsuchkonfiguration unterscheidet sich für die [Live-Suche](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 <!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | Shop-Ansicht | Bestimmt, ob _Beliebte Suchbegriffe_ im Store implementiert sind. Diese Einstellung gilt nicht für Stores, die die [Live Search“ ](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html). Optionen: `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | Shop-Ansicht | Bestimmt, ob _Beliebte Suchbegriffe_ im Store implementiert sind. Diese Einstellung gilt nicht für Stores, die die [Live Search“ ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). Optionen: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Shop-Ansicht | Bestimmt, ob ein Suffix, wie HTML oder HTML, auf Produkt-URLs angewendet wird. Wenn verwendet, wird ein Punkt vor dem Suffix nicht eingefügt, da er automatisch angewendet wird. |
 | [!UICONTROL Category URL Suffix] | Shop-Ansicht | Bestimmt, ob ein Suffix wie HTML oder HTML auf Kategorie-URLs angewendet wird. Wenn verwendet, wird ein Punkt vor dem Suffix nicht eingefügt, da er automatisch angewendet wird. |
 | [!UICONTROL Use Categories Path for Product URLs] | Shop-Ansicht | Legt fest, ob Kategoriepfade in Produkt-URLs enthalten sind. Dies kann dazu führen, dass mehrere URLs auf dieselbe Seite verweisen, was sich auf den Suchrang auswirken kann. Weitere Informationen finden Sie unter [Kanonisches Meta-Tag](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
@@ -235,7 +235,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-Sie können die Katalogsuche mithilfe von [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) oder Suchmaschinendiensten von Drittanbietern konfigurieren, die von Adobe Commerce unterstützt werden. Folgen Sie den Installationsanweisungen.
+Sie können die Katalogsuche mithilfe von [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) oder Suchmaschinendiensten von Drittanbietern konfigurieren, die von Adobe Commerce unterstützt werden. Folgen Sie den Installationsanweisungen.
 
 ### Adobe Commerce mit [!DNL Live Search]
 
@@ -268,7 +268,7 @@ Adobe Commerce unterstützt OpenSearch und Elasticsearch. Die Adobe Commerce-Ver
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Minimal Query Length] | Shop-Ansicht | Die bei einer Katalogsuche zulässige Mindestanzahl von Zeichen. Der für diese Option festgelegte Wert muss mit dem entsprechenden Bereich kompatibel sein, der in Ihrer OpenSearch- oder Elasticsearch-Konfiguration festgelegt ist. Wenn Sie diesen Wert beispielsweise in Adobe Commerce auf `2` setzen, müssen Sie auch den Wert in Ihrer Suchmaschinenkonfiguration aktualisieren. Standardwert: `3` |
-| [!UICONTROL Maximum Query Length] | Shop-Ansicht | Die maximale Anzahl von Zeichen, die bei einer Katalogsuche zulässig ist. Elasticsearch Der für diese Option festgelegte Wert muss mit dem entsprechenden Bereich kompatibel sein, der in Ihrer OpenSearch-Sortierungskonfiguration festgelegt ist. Wenn Sie diesen Wert beispielsweise in Adobe Commerce auf `300` setzen, müssen Sie den Wert in Ihrer Suchmaschinenkonfiguration aktualisieren. Standardwert: `128` |
+| [!UICONTROL Maximum Query Length] | Shop-Ansicht | Die maximale Anzahl von Zeichen, die bei einer Katalogsuche zulässig ist. Der für diese Option festgelegte Wert muss mit dem entsprechenden Bereich kompatibel sein, der in Ihrer OpenSearch- oder Elasticsearch-Konfiguration festgelegt ist. Wenn Sie diesen Wert beispielsweise in Adobe Commerce auf `300` setzen, müssen Sie den Wert in Ihrer Suchmaschinenkonfiguration aktualisieren. Standardwert: `128` |
 | [!UICONTROL Number of top search results to cache] | Shop-Ansicht | Die Anzahl der beliebten Suchbegriffe und Ergebnisse, die zwecks schnellerer Antworten zwischengespeichert werden sollen. Bei Eingabe des Werts `0` werden alle Suchbegriffe und Ergebnisse bei einer zweiten Eingabe zwischengespeichert. Standardwert: `100` |
 | [!UICONTROL Enable EAV Indexer] | Global | Legt fest, ob der Produkt-EAV-Indexer aktiviert oder deaktiviert werden soll. Diese Funktion verbessert die Indexierungsgeschwindigkeit und verhindert, dass der Indexer von Erweiterungen von Drittanbietern verwendet werden kann. Standardoption: `Yes` für aktiviert |
 | [!UICONTROL Autocomplete Limit] | Shop-Ansicht | Die maximale Anzahl von Suchabfragen, die unter dem Suchfeld für die automatische Vervollständigung der Suche angezeigt werden sollen. Wenn Sie diesen Wert einschränken, wird die Leistung der Suche gesteigert und die angezeigte Listengröße verringert. Standardwert: `8` |
@@ -277,14 +277,14 @@ Adobe Commerce unterstützt OpenSearch und Elasticsearch. Die Adobe Commerce-Ver
 | [!UICONTROL OpenSearch Server Port] | Global | Gibt die Nummer des von OpenSearch oder Elasticsearch verwendeten Server-Ports an. Standardwert: `9200` |
 | [!UICONTROL OpenSearch Index Prefix] | Global | Weist ein Präfix zu, um den OpenSearch- oder Elasticsearch-Index zu identifizieren. Standardwert: `magento2` |
 | [!UICONTROL Enable OpenSearch HTTP Auth] | Global | Wenn diese Option aktiviert ist, verwendet die HTTP-Authentifizierung, um einen Benutzernamen und ein Kennwort einzugeben, bevor auf den OpenSearch- oder Elasticsearch-Server zugegriffen wird. Optionen: `Yes` / `No` |
-| [!UICONTROL OpenSearch HTTP Username] | Global | Wenn _Enable Elasticsearch HTTP Auth_ auf `Yes` gesetzt ist, gibt den Benutzernamen für die OpenSearch- oder Elasticsearch-HTTP-Authentifizierung an. |
-| [!UICONTROL OpenSearch HTTP Password] | Global | Wenn _Enable Elasticsearch HTTP Auth_ auf `Yes` gesetzt ist, gibt das Kennwort für die OpenSearch- oder Elasticsearch-HTTP-Authentifizierung an. |
+| [!UICONTROL OpenSearch HTTP Username] | Global | Wenn _Elasticsearch HTTP-Authentifizierung aktivieren_ auf `Yes` gesetzt ist, gibt den Benutzernamen für die OpenSearch- oder Elasticsearch HTTP-Authentifizierung an. |
+| [!UICONTROL OpenSearch HTTP Password] | Global | Wenn _Elasticsearch HTTP-Authentifizierung aktivieren_ auf `Yes` gesetzt ist, gibt das Kennwort für die OpenSearch- oder Elasticsearch HTTP-Authentifizierung an. |
 | [!UICONTROL OpenSearch Server Timeout] | Global | Bestimmt die Anzahl der Sekunden, nach denen eine Anfrage an den OpenSearch- oder Elasticsearch-Server das Zeitlimit überschreitet. Standardwert: `15` |
 | [!UICONTROL Test Connection] |  | Validiert die OpenSearch- oder Elasticsearch-Verbindung. |
 | [!UICONTROL Enable Search Recommendations] | Shop-Ansicht | Bestimmt, ob Suchempfehlungen angeboten werden, wenn eine Suche keine Ergebnisse zurückgibt und auf der Suchergebnisseite unter dem Abschnitt `Related search terms` angezeigt wird. Optionen: `Yes` / `No` <br/>Wenn auf „Ja“ gesetzt, werden zusätzliche Optionen für _[!UICONTROL Search Recommendations Count]_und_[!UICONTROL Shows Results Count for Each Recommendation]_ angezeigt. |
 | [!UICONTROL Search Recommendations Count] | Shop-Ansicht | Gibt die Anzahl der Suchbegriffe an, die als Empfehlungen angeboten werden. Standardmäßig werden nicht mehr als fünf angezeigt. |
 | [!UICONTROL Show Results Count for Each Recommendation] | Shop-Ansicht | Bei Festlegung auf `Yes` wird die Anzahl der für die vorgeschlagene Suchempfehlung gefundenen Produkte in Klammern angezeigt. Optionen: `Yes` / `No` |
-| [!UICONTROL Enable Search Suggestions] | Shop-Ansicht | Legt fest, ob Suchvorschläge für häufige Rechtschreibfehler angezeigt werden. Wenn diese Option aktiviert ist, werden Suchvorschläge für alle Anfragen angeboten, die keine Ergebnisse zurückgeben und unter dem Abschnitt `Did you mean` auf der Seite **Suchergebnisse** angezeigt werden. Suchvorschläge können die Leistung der Suche beeinträchtigen. Wenn auf `Yes` gesetzt, werden zusätzliche Optionen für Recommendations aktivieren und zugehörige Felder angezeigt. Optionen: `Yes` / `No` |
+| [!UICONTROL Enable Search Suggestions] | Shop-Ansicht | Legt fest, ob Suchvorschläge für häufige Rechtschreibfehler angezeigt werden. Wenn diese Option aktiviert ist, werden Suchvorschläge für alle Anfragen angeboten, die keine Ergebnisse zurückgeben und unter dem Abschnitt `Did you mean` auf der Seite **Suchergebnisse** angezeigt werden. Suchvorschläge können die Leistung der Suche beeinträchtigen. Bei `Yes` werden zusätzliche Optionen für Suchempfehlungen aktivieren und zugehörige Felder angezeigt. Optionen: `Yes` / `No` |
 | [!UICONTROL Search Suggestions Count] | Shop-Ansicht | Bestimmt die Anzahl der angebotenen Suchvorschläge. Beispiel: `2` |
 | [!UICONTROL Show Results Count for Each Suggestion] | Shop-Ansicht | Bestimmt, ob die Anzahl der Suchergebnisse für jeden Vorschlag angezeigt wird. Je nach Thema wird die Zahl normalerweise nach dem Vorschlag in Klammern angezeigt. Optionen: `Yes` / `No` |
 | [!UICONTROL Minimum Terms to Match] | Shop-Ansicht | Gibt einen Wert an, der der Anzahl der Begriffe aus Ihrer Abfrage entspricht, mit denen die Suchergebnisse übereinstimmen müssen, damit sie zurückgegeben werden. Dadurch wird eine optimale Ergebnisrelevanz für Kunden gewährleistet. Prozentwerte entsprechen einer Zahl. Bei Bedarf werden sie abgerundet und als Mindestanzahl von Begriffen verwendet, die in Ihrer Abfrage übereinstimmen müssen. Der Wert kann eine negative oder positive Ganzzahl, ein negativer oder positiver Prozentsatz, eine Kombination aus beiden oder mehrere Kombinationen sein. Weitere Informationen finden Sie unter [minimum_should_match](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) in der OpenSearch-Dokumentation. |

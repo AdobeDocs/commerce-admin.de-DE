@@ -3,7 +3,7 @@ title: Konfigurieren der Katalogsuche
 description: Erfahren Sie, wie Sie die Katalogsuche für Ihren Store konfigurieren.
 exl-id: b4f22bce-39e2-4269-99a4-eb2d647df939
 feature: Catalog Management, Search
-source-git-commit: 279f54d41264a081166cfda7d2216172ac22cd26
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Konfigurieren der Katalogsuche
 
-Es gibt zwei Varianten der Konfiguration für die Katalogsuche. Die erste Methode beschreibt die verfügbaren Einstellungen, wenn [Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/overview.html) installiert ist. Die zweite Methode beschreibt die Konfigurationseinstellungen für native Adobe Commerce mit [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}.
+Es gibt zwei Varianten der Konfiguration für die Katalogsuche. Die erste Methode beschreibt die verfügbaren Einstellungen, wenn [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) installiert ist. Die zweite Methode beschreibt die Konfigurationseinstellungen für native Adobe Commerce mit [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Es gibt zwei Varianten der Konfiguration für die Katalogsuche. Die erste Method
 
    Der Standardwert ist `100`. Bei Eingabe des Werts `0` werden alle Suchbegriffe und Ergebnisse bei einer zweiten Eingabe zwischengespeichert.
 
-1. Um die maximale Anzahl von Zeilen zu ändern, die für zurückgegebene Ergebnisse im „Storefront[Pop-Over“ verfügbar sind](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/live-search-storefront/quick-tour.html) geben Sie einen anderen **[!UICONTROL Autocomplete Limit]** ein.
+1. Um die maximale Anzahl von Zeilen zu ändern, die für zurückgegebene Ergebnisse im „Storefront[Pop-Over“ verfügbar sind](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html) geben Sie einen anderen **[!UICONTROL Autocomplete Limit]** ein.
 
    Durch die Begrenzung der Zeilenanzahl wird die Leistung der Suchvorgänge verbessert und die Größe der zurückgegebenen Liste verringert. Der Standardwert ist `8` Zeilen.
 
@@ -51,7 +51,7 @@ Es gibt zwei Varianten der Konfiguration für die Katalogsuche. Die erste Method
 
 >[!NOTE]
 >
->Mit OpenSearch und Elasticsearch gibt es keine vordefinierte Unterstützung für die Suche nach dem Suffix. Beispielsweise liefert die Suche nach SKU möglicherweise nicht das erwartete Ergebnis, wenn das Keyword nur den Endteil der SKU enthält.
+>Bei OpenSearch und Elasticsearch gibt es keine vordefinierte Unterstützung für die Suche nach dem Suffix. Beispielsweise liefert die Suche nach SKU möglicherweise nicht das erwartete Ergebnis, wenn das Keyword nur den Endteil der SKU enthält.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

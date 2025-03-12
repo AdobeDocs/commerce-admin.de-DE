@@ -1,16 +1,16 @@
 ---
-user-guide-title: Adobe Commerce-Händlerdokumentation
+user-guide-title: Adobe Commerce Admin-Benutzerhandbücher
 user-guide-description: Dokumentation und Ressourcen für Adobe Commerce- und Magento Open Source-Händler, die in der Verwaltung arbeiten.
-title: Adobe Commerce-Händlerdokumentation
+title: Adobe Commerce Admin-Benutzerhandbücher
 feature: Admin Workspace
-source-git-commit: b014b624cc02b35f3d2273cb9acf602a1b74eaa5
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 39%
+ht-degree: 27%
 
 ---
 
-# Adobe Commerce-Händlerdokumentation {#user-guides}
+# Adobe Commerce Admin-Benutzerhandbücher {#user-guides}
 
 - [Adobe Commerce-Händlerdokumentation](home.md)
 - [Erste Schritte](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)
@@ -24,4 +24,3 @@ ht-degree: 39%
 - [Stores und Kauferlebnis](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html)
 - [Adminsysteme](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html)
 - [Konfigurationsreferenzhandbuch](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html)
-- [Services für Commerce](services.md)

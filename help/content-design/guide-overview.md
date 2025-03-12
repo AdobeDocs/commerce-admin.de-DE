@@ -1,19 +1,19 @@
 ---
 title: Inhalts- und Design-Handbuch
-description: Umfassende Informationen zu Inhalts- und Design-Funktionen für Adobe Commerce- und Magento Open Source-Administratoren und E-Commerce-Marketing-Experten.
+description: Umfassende Informationen zu den Inhalts- und Design-Funktionen für Adobe Commerce- und Magento Open Source-Administratoren und E-Commerce-Marketing-Experten.
 seo-title: Adobe Commerce Content and Design Guide
 seo-description: Describes how to use the Content and Design features for Adobe Commerce and Magento Open Source.
 exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
-source-git-commit: 10281a3a36917eb46d7726c54daa507c9d7c21fe
+source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce-Inhalts- und Design-Handbuch
 
-Dieses Handbuch richtet sich an Content-Designer und Merchandiser, die in Adobe Commerce und Magento Open Source arbeiten. Es enthält detaillierte Informationen zu Inhalten und Design-Funktionen, einschließlich der Erstellung grundlegender Inhaltskomponenten. Es setzt ein grundlegendes Verständnis der [!DNL Commerce] Konfiguration und Funktionalität voraus.
+Dieses Handbuch richtet sich an Inhalts-Designer und Merchandiser, die in Adobe Commerce und Magento Open Source Admin arbeiten. Es enthält detaillierte Informationen zu Inhalten und Design-Funktionen, einschließlich der Erstellung grundlegender Inhaltskomponenten. Es setzt ein grundlegendes Verständnis der [!DNL Commerce] Konfiguration und Funktionalität voraus.
 
 Dieses Handbuch behandelt Folgendes:
 

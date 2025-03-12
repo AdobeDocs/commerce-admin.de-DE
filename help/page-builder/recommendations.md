@@ -1,26 +1,26 @@
 ---
-title: Inhalt hinzufügen - Recommendations
-description: Erfahren Sie mehr über den Recommendations-Inhaltstyp des Produkts, mit dem eine Liste von Empfehlungen zur  [!DNL Page Builder]  hinzugefügt wird.
+title: Inhalt hinzufügen - Produktempfehlungen
+description: Erfahren Sie mehr über den Content-Typ „Produktempfehlungen“, mit dem eine Liste von Empfehlungen zur  [!DNL Page Builder]  hinzugefügt wird.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 2f86421311b218d39c1abebaf117b8af0be5ea5d
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
-# Inhalt hinzufügen - Recommendations
+# Inhalt hinzufügen - Produktempfehlungen
 
-Verwenden Sie den _Produkt-Recommendations_-Inhaltstyp, um eine vorhandene, aktive [Empfehlungseinheit](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) zum [[!DNL Page Builder] Schritt](workspace.md#stage) für eine CMS-Seite, einen -Block oder einen dynamischen Block hinzuzufügen.
+Verwenden Sie den _Produktempfehlungen_ Content-Typ, um eine vorhandene, aktive [Empfehlungseinheit](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) zum [[!DNL Page Builder] Schritt](workspace.md#stage) für eine CMS-Seite, einen -Block oder einen dynamischen Block hinzuzufügen.
 
 >[!NOTE]
 >
->Der [!DNL Page Builder] Content _Typ „Produkt-Recommendations_ wird in Adobe Commerce 2.4.4 und höher unterstützt und ist im [Produkt-Recommendations-Metapaket Version 3.0.x oder höher verfügbar](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Informationen zum Hinzufügen [!DNL Page Builder] Unterstützung für Product Recommendations [finden Sie in den ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure). **Dieser Inhaltstyp steht nicht zur Magento Open Source zur Verfügung.**
+>Der Content-Typ [!DNL Page Builder] _Produktempfehlungen_ wird in Adobe Commerce 2.4.4 und höher unterstützt und ist im [Product Recommendations-Metapaket Version 3.0.x oder höher) ](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Informationen zum Hinzufügen [!DNL Page Builder] Unterstützung für Produktempfehlungen [finden Sie in den Installationsinformationen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure). **Dieser Inhaltstyp ist für Magento Open Source nicht verfügbar.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
-## Produkt-Recommendations-Toolbox
+## Toolbox für Produktempfehlungen
 
 | Tool | Symbol | Beschreibung |
 | --- | --| --- |
@@ -37,7 +37,7 @@ Verwenden Sie den _Produkt-Recommendations_-Inhaltstyp, um eine vorhandene, akti
 
 ## Hinzufügen einer vorhandenen Empfehlungseinheit
 
-1. Stellen Sie sicher, [ Sie bereits eine Empfehlungseinheit ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) den [!DNL Page Builder] Seitentyp erstellt haben.
+1. Stellen Sie sicher, [ Sie bereits eine Empfehlungseinheit ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) den [!DNL Page Builder] Seitentyp erstellt haben.
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ Verwenden Sie den _Produkt-Recommendations_-Inhaltstyp, um eine vorhandene, akti
 
 ## Erweiterte Einstellungen
 
-1. Wählen Sie die **[!UICONTROL Alignment]** aus, um die Positionierung der Recommendations-Produkteinheit im übergeordneten Container zu steuern:
+1. Wählen Sie die **[!UICONTROL Alignment]** aus, um die Positionierung der Einheit „Produktempfehlungen“ im übergeordneten Container zu steuern:
 
    | Option | Beschreibung |
    | ------ | ----------- |
@@ -123,7 +123,7 @@ Verwenden Sie den _Produkt-Recommendations_-Inhaltstyp, um eine vorhandene, akti
 
    {style="table-layout:auto"}
 
-1. Legen Sie den **[!UICONTROL Border]** fest, der auf alle vier Seiten der Recommendations-Produkteinheit angewendet wird:
+1. Legen Sie den **[!UICONTROL Border]** fest, der auf alle vier Seiten der Produktempfehlungseinheit angewendet wird:
 
    | Option | Beschreibung |
    | ------ | ----------- |

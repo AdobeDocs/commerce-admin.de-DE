@@ -5,9 +5,9 @@ breadcrumb-title: Handbuch für Admin-Systeme
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 2bf5b95b89439196f9db4af0908ff27434472df8
+source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '179'
 ht-degree: 3%
 
 ---
@@ -77,6 +77,6 @@ ht-degree: 3%
    - [Sitzungsverwaltung](security-session-management.md)
    - [Erkennung von Browser-Funktionen](security-browser-capabilities-detection.md)
    - [Meldung von Sicherheitsproblemen](security-issue-reporting.md)
-- [Zurück zu Händlerleitfäden](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 

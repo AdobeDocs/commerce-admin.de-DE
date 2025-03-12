@@ -3,7 +3,7 @@ title: Erstellen einer Warenkorb-Preisregel
 description: Erfahren Sie, wie Sie eine Warenkorb-Preisregel basierend auf Warenkorb- oder Produktattributen erstellen.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '3386'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
 
      ![Warenkorb-Preisregel - Couponeinstellungen](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
-   - ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Verwenden Sie _Kalender_ (![Kalendersymbol](../assets/icon-calendar.png)), um den **[!UICONTROL From]** und **[!UICONTROL To]** Datumsbereich für die Promotion auszuwählen.
+   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Verwenden Sie _Kalender_ (![Kalendersymbol](../assets/icon-calendar.png)), um den **[!UICONTROL From]** und **[!UICONTROL To]** Datumsbereich für die Promotion auszuwählen.
 
 1. Geben Sie eine Zahl ein, um die **[!UICONTROL Priority]** dieser Preisregel in Bezug auf die Aktionseinstellungen anderer Preisregeln zu definieren, die gleichzeitig aktiv sind.
 
@@ -65,13 +65,13 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
 
    >[!NOTE]
    >
-   >Regeln für den Warenkorbpreis, die dieselbe Priorität haben, führen nicht zu einem kombinierten Rabatt. Jede Regel (Coupon) wird separat auf übereinstimmende Produkte angewendet, und zwar einzeln entsprechend der Warenkorb-Preisregel-ID in der Datenbank. Um die Reihenfolge zu steuern, in der Rabatte angewendet werden, empfiehlt Adobe, für jede hinzugefügte Warenkorbpreisregel eine andere Priorität festzulegen.
+   >Regeln für den Warenkorbpreis, die dieselbe Priorität haben, führen nicht zu einem kombinierten Rabatt. Jede Regel (Coupon) wird separat auf übereinstimmende Produkte angewendet, und zwar einzeln entsprechend der Warenkorb-Preisregel-ID in der Datenbank. Um die Reihenfolge zu steuern, in der Rabatte angewendet werden, empfiehlt Adobe, für jede zusätzliche Warenkorb-Preisregel eine andere Priorität festzulegen.
 
 1. Um die Regel auf veröffentlichte (RSS[Feeds) anzuwenden](social-rss.md#rss-feeds) setzen Sie **Öffentlich im RSS-Feed** auf `Yes`.
 
 1. Klicken Sie auf **[!UICONTROL Save and Continue Edit]**.
 
-   - ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Nach dem Speichern der Regel wird der Name der Warenkorbpreisregel oben auf der Seite angezeigt.
+   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Nach dem Speichern der Regel wird der Name der Warenkorbpreisregel oben auf der Seite angezeigt.
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Nach dem Speichern der Regel werden der Name der Warenkorbpreisregel und das Feld [Geplante ](price-rule-cart-scheduled-changes.md)&quot; oben auf der Seite angezeigt.
 
@@ -215,11 +215,11 @@ Sie können eine Bedingung für eine Warenkorb-Preisregel basierend auf einer Re
    | Option | Beschreibung |
    |------|-----------|
    | `ID` | Eine interne Kennung der im Admin verwendeten Zielgruppe |
-   | `Real-Time CDP Audience ID` | Eindeutige Kennung der Zielgruppe, als sie im Experience Platform erstellt wurde |
+   | `Real-Time CDP Audience ID` | Eindeutige Kennung der Zielgruppe, als sie in Experience Platform erstellt wurde |
    | `Name` | Name der Zielgruppe, z. B. `Orders over $50` |
    | `Description` | Beschreibung der Zielgruppe, z. B. `People who placed an order over $50 in the last month.`. |
    | `Source` | Gibt an, woher die Zielgruppe stammt, z. B. `Experience Platform`. |
-   | `Website` | Gibt an, welche Website Sie mit dem Datenstrom verknüpft haben, der die Zielgruppen enthält. Sie erstellen diesen Link, wenn Sie Ihre Commerce-Instanz über die [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html) mit der Experience Platform verbinden. |
+   | `Website` | Gibt an, welche Website Sie mit dem Datenstrom verknüpft haben, der die Zielgruppen enthält. Sie erstellen diesen Link, wenn Sie Ihre Commerce-Instanz über die [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html) mit der Experience Platform verbinden. |
 
    {style="table-layout:auto"}
 
@@ -352,8 +352,8 @@ In diesem Video erfahren Sie mehr über das Erstellen von Regeln für den Warenk
 | [!UICONTROL Uses per Customer] | Bestimmt, wie oft die Warenkorb-Preisregel von demselben registrierten Kunden verwendet werden kann, der zu einer ausgewählten Kundengruppe gehört. Gilt nicht für Gasteinkäufer, die Mitglieder der Kundengruppe NOT LOGGED IN sind, oder für Kunden, die einkaufen, ohne sich bei ihren Konten anzumelden. Für keine Beschränkung lassen Sie das Feld leer. |
 | [!UICONTROL Priority] | Eine Zahl, die die Priorität dieser Regel im Verhältnis zu anderen angibt. Die Prioritäten von der höchsten zur niedrigsten sind `0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | Legt fest, ob die Promotion im öffentlichen RSS-Feed Ihres Stores enthalten ist. Optionen:  `Yes`/`No` |
-| [!UICONTROL From] | ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Das erste Datum, an dem der Coupon verwendet werden kann. |
-| [!UICONTROL To] | ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Das letzte Datum, an dem der Coupon verwendet werden kann. |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Das erste Datum, an dem der Coupon verwendet werden kann. |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Das letzte Datum, an dem der Coupon verwendet werden kann. |
 
 {style="table-layout:auto"}
 

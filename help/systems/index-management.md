@@ -3,7 +3,7 @@ title: Indexverwaltung
 description: Erfahren Sie mehr über die Indexverwaltung, einschließlich der Aktionen zur Neuindizierung von Triggern und der Best Practices.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Die Neuindizierung von Daten beschleunigt die Verarbeitung und verkürzt die War
 Die Indexer können so eingestellt werden, dass sie entweder beim Speichern oder planmäßig aktualisiert werden. Alle Indizes können eine der beiden Optionen verwenden, mit Ausnahme des Kundenrasters, das nur beim Speichern unterstützt. Beim Indizieren von Speicheraktionen startet Commerce eine Neuindizierung von Speicheraktionen. Die Seite „Indexverwaltung“ schließt die Aktualisierung ab und leert den Cache, wobei die Neuindizierungsmeldung innerhalb von ein bis zwei Minuten angezeigt wird. Bei der Neuindizierung nach einem Zeitplan wird eine Neuindizierung nach einem Zeitplan als Cron-Auftrag ausgeführt. Eine Systemmeldung wird angezeigt, wenn kein [Cron-Auftrag](cron.md) verfügbar ist, um ungültig werdende Indexer zu aktualisieren. Ihr Store bleibt während der Neuindizierungsprozesse verfügbar.
 
 >[!NOTE]
-> Adobe Commerce-Händler, die die Live-Suche, den Katalog-Service oder das Produkt-Recommendations verwenden, haben die Möglichkeit, einen [SaaS-basierten Preisindizer“ ](https://experienceleague.adobe.com/docs/commerce-merchant-services/price-indexer/index.html) verwenden.
+> Adobe Commerce-Händler, die die Live-Suche, den Katalog-Service oder Produktempfehlungen verwenden, haben die Möglichkeit, einen [SaaS-basierten Preisindizer“ ](https://experienceleague.adobe.com/docs/commerce/price-indexer/index.html) verwenden.
 
 Wenn eine Neuindizierung erforderlich ist, wird oben auf der Seite eine Benachrichtigung angezeigt. Der Index und die Nachricht werden je nach Neuindizierungsmodus und den von Ihnen durchgeführten potenziellen Aktionen gelöscht. Weitere Informationen zur Indizierung finden Sie unter [Wie die Anwendung die Indizierung implementiert](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) im _PHP-Entwicklerhandbuch_.
 
@@ -43,7 +43,7 @@ Neuindizierung und Caching haben in Commerce unterschiedliche Zwecke. Indizes ve
 
 >[!IMPORTANT]
 >
->Für Stores, die [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) verwenden und Elasticsearch als Volltext(`catalogsearch_fulltext`)-Indexer festgelegt haben: Der Volltextindex muss nach jeder Massenberechtigungsänderung erneut ausgeführt werden oder wenn sich der Indexer „Berechtigungen“ im Modus „Geplant“ befindet.
+>Für Stores, die [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) verwenden und Elasticsearch als Volltext(`catalogsearch_fulltext`)-Indexer festgelegt haben: Der Volltext-Index muss nach jeder Massenberechtigungsänderung erneut ausgeführt werden oder wenn sich der Indexer „Berechtigungen“ im Modus „Geplant“ befindet.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 

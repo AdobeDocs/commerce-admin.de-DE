@@ -3,7 +3,7 @@ title: Einführung in [!DNL Adobe Commerce B2B]
 description: Erfahren Sie, wie Sie integrierte B2B-Funktionen nutzen können, um Ihre Anforderungen an Unternehmenskunden zu erfüllen.
 exl-id: fc7e8147-5fd5-4e4b-b16e-0b0d54c415da
 feature: B2B
-source-git-commit: c3a54d4574ec6aaf580d97563165c63c55711f15
+source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -40,9 +40,9 @@ Weitere Informationen finden Sie unter [Unternehmensverwaltung](manage-companies
 
 Services für Adobe Commerce sind gehostete Services, die erweiterte Funktionen für Adobe Commerce und Magento Open Source bereitstellen. Folgende Services unterstützen B2B-Workflows:
 
-* [Katalog-Service](https://experienceleague.adobe.com/docs/commerce-merchant-services/catalog-service/guide-overview.html)
-* [Live-Suche](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
-* [Produkt-Recommendations](https://experienceleague.adobe.com/docs/commerce-merchant-services/product-recommendations/guide-overview.html)
+* [Katalog-Service](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html)
+* [Live-Suche](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html)
+* [Produktempfehlungen](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)
 
 ## Freigegebene Kataloge
 
