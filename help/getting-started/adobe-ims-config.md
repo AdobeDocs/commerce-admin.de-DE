@@ -3,7 +3,7 @@ title: Konfigurieren der Commerce Admin-Integration mit der ID
 description: Folgen Sie dieser optionalen Anleitung zur Integration von Adobe Commerce Admin-Benutzerkonto-Anmeldungen in Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-source-git-commit: 446fe9a5c7cc7178f5bbac0045bdea7e93a73699
+source-git-commit: 8589444a126c82f033c5b852b20493d1cf83c338
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Commerce-Admin-Benutzende müssen ein Konto mit einer Adobe ID erstellen, um sic
 
 ## Allgemeine Schritte
 
-* Abrufen der Adobe-Organisations-ID aus der [Adobe Admin Console](https://adminconsole.adobe.com/)
+* Adobe-Organisations-ID aus dem [Adobe Admin Console abrufen](https://adminconsole.adobe.com/)
 * Generieren eines neuen Projekts, von IMS-API-Schlüsseln und Geheimnissen aus der [Adobe Developer Console](https://developer.adobe.com/)
 * Konfigurieren von Adobe Commerce-Benutzern in der Adobe Admin Console
 * Aktivieren Sie das `AdminAdobeIms`.
@@ -54,15 +54,15 @@ Die Mitgliedschaft in mindestens einer IMS-Organisation ist erforderlich, um die
 
 ### Schritt 2: Neues Projekt, IMS-API-Schlüssel und Geheimnis generieren
 
-Um Projekte für eine Organisation zu erstellen, muss das Adobe-Administratorkonto für die Organisation über die Rolle „Systemadministrator“ oder „Entwickler“ verfügen. Siehe das Handbuch zu [Developer Console](https://developer.adobe.com/developer-console/docs/guides/projects/).
+Um Projekte für eine Organisation zu erstellen, muss das Adobe-Administratorkonto für die Organisation über die Rolle Systemadministrator oder Entwickler verfügen. Siehe das Handbuch zu [Developer Console](https://developer.adobe.com/developer-console/docs/guides/projects/).
 
 1. Anmelden bei [Adobe Developer Console](https://developer.adobe.com/).
 1. Wechseln Sie zur Registerkarte **[!UICONTROL Projects]** (adobe.io/projects) und klicken Sie auf **[!UICONTROL Create a new project]**.
 1. Klicken Sie auf der neu erstellten Projektseite auf **[!UICONTROL Add API]** .
 1. Wählen Sie **[!UICONTROL Adobe Services]** > **[!UICONTROL Adobe Commerce with Adobe ID]** aus.
 1. Wählen Sie **[!UICONTROL Oauth 2.0 Web]** aus.
-1. Geben Sie die **[!UICONTROL Redirect URI]** an: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
-1. Geben Sie die **[!UICONTROL Redirect URI pattern]** an: `https://<hostname>/admin/adobe_ims_auth/oauth/imscallback/`
+1. Geben Sie die **[!UICONTROL Redirect URI]** an: `https://<commerce_base_url>/`
+1. Geben Sie die **[!UICONTROL Redirect URI pattern]** an: `https://<commerce_base_url>/.*`
 
    Lassen Sie alle Punkte im Host-Namen unangetastet, indem Sie den Punkten `\\` voranstellen. Das Hinzufügen eines Platzhalters am Ende der URL unterstützt den Adobe Commerce Admin-Geheimschlüssel.
 
