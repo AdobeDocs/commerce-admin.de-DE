@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce Marketplace]'
 description: Erfahren Sie mehr über das  [!DNL Commerce Marketplace], das Händlern eine kuratierte Auswahl an Lösungen bietet und qualifizierten Entwicklern die Tools, die Plattform und den optimalen Standort bietet, um ein florierendes Unternehmen aufzubauen.
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
-source-git-commit: 20e1439810891b0d19cda62cc2646701ec5a778c
+source-git-commit: 7b5c331625e4c4dab0e41156722c4a8deb4aa4c0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Der [Adobe Commerce Marketplace][1] ist der Anwendungsspeicher, der Händlern eine kuratierte Auswahl an Lösungen bietet und qualifizierten Entwicklern die Tools, die Plattform und den optimalen Standort bietet, um ein florierendes Unternehmen aufzubauen. [!DNL Commerce Marketplace] bietet eine Auswahl an Erweiterungen, die kostenlos verfügbar sind, und andere, die zum Verkauf stehen. Einkäufe können per Kreditkarte oder [PayPal][2] bezahlt werden.
 
-Alle Erweiterungen, die auf [!DNL Commerce Marketplace] verfügbar sind, wurden einer umfassenden Überprüfung unterzogen. Das [Extension Quality Program][3] (EQP) kombiniert [!DNL Commerce] Fachwissen, Entwicklungsrichtlinien und Verifizierungs-Tools, um sicherzustellen, dass alle Erweiterungen auf Commerce Marketplace den Programmierstandards und Best Practices entsprechen. Der Überprüfungsprozess umfasst sowohl eine automatisierte Überprüfung als auch eine manuelle Überprüfung der Qualitätssicherung. Während des Vorgangs werden Struktur und Code jeder Erweiterung auf Anzeichen einer Virus-/Malware-Infektion sowie auf Plagiate untersucht. Die Überprüfung umfasst eine umfassende technische Untersuchung und eine Integritätsprüfung, die von einem [!DNL Commerce] durchgeführt wurde und sich auf Dokumentation, Codierungsstruktur, Leistung, Skalierbarkeit, Sicherheit und Kompatibilität mit dem [!DNL Commerce]-Kern konzentriert.
+Alle Erweiterungen, die auf [!DNL Commerce Marketplace] verfügbar sind, wurden einer umfassenden Überprüfung unterzogen. Das [Extension Quality Program][3] (EQP) kombiniert [!DNL Commerce] Fachwissen, Entwicklungsrichtlinien und Verifizierungs-Tools, um sicherzustellen, dass alle Erweiterungen auf Commerce Marketplace Codierungsstandards und Best Practices erfüllen. Der Überprüfungsprozess umfasst sowohl eine automatisierte Überprüfung als auch eine manuelle Überprüfung der Qualitätssicherung. Während des Vorgangs werden Struktur und Code jeder Erweiterung auf Anzeichen einer Virus-/Malware-Infektion sowie auf Plagiate untersucht. Die Überprüfung umfasst eine umfassende technische Untersuchung und eine Integritätsprüfung, die von einem [!DNL Commerce] durchgeführt wurde und sich auf Dokumentation, Codierungsstruktur, Leistung, Skalierbarkeit, Sicherheit und Kompatibilität mit dem [!DNL Commerce]-Kern konzentriert.
 
 Sie können zwar Erweiterungen aus anderen Quellen erwerben, aber nur die auf [!DNL Commerce Marketplace] verfügbaren Erweiterungen werden im Rahmen des Qualitätsprogramms für Erweiterungen durch eine umfassende technische und Marketing-Prüfung überprüft.
 
@@ -45,7 +45,7 @@ Die folgenden Ressourcen bieten einen Ausgangspunkt für neue Benutzende, um sic
 
 Bevor Sie eine von [!DNL Commerce Marketplace] erworbene Erweiterung installieren können, melden Sie sich bei Ihrem [!DNL Commerce] Konto an und stellen Sie sicher, dass Sie über einen aktiven Zugriffsschlüssel verfügen. Sie können sich über die Kopfzeile von [[!DNL Marketplace]][1] oder [Magento.com} bei Ihrem [!DNL Commerce]-Konto ][6].
 
-Ihr Zugriffsschlüssel ist ein Satz öffentlicher und privater Schlüssel, mit denen Sie Ihre [!DNL Commerce] mit Ihrem [!DNL Commerce] synchronisieren und Ihre Anmeldeinformationen überprüfen können. Nachdem Ihr Konto synchronisiert wurde, müssen Sie Ihren privaten Schlüssel jedes Mal eingeben, wenn Sie eine Erweiterung oder ein Modul von Commerce Marketplace installieren oder Ihre [!DNL Commerce] aktualisieren.
+Ihr Zugriffsschlüssel ist ein Satz öffentlicher und privater Schlüssel, mit denen Sie Ihre [!DNL Commerce] mit Ihrem [!DNL Commerce] synchronisieren und Ihre Anmeldeinformationen überprüfen können. Nachdem Ihr Konto synchronisiert wurde, müssen Sie bei jeder Installation einer Erweiterung oder eines Moduls aus Commerce Marketplace bzw. bei jedem Upgrade Ihrer [!DNL Commerce] Ihren privaten Schlüssel eingeben.
 
 Sie können mehrere Zugriffsschlüssel für verschiedene Zwecke erstellen und sie nach Bedarf aktivieren oder deaktivieren. Sie müssen jedoch denselben Zugriffsschlüssel verwenden, der für die Installation der [!DNL Commerce]-Software verwendet wurde. Sie können beispielsweise keinen Magento Open Source-Zugriffsschlüssel verwenden, um Adobe Commerce zu aktualisieren oder zu aktualisieren, oder umgekehrt. Sie können auch keinen Zugriffsschlüssel verwenden, der zu einem anderen Benutzer gehört oder aus einem [freigegebenen Konto](commerce-account-share.md).
 
@@ -79,13 +79,17 @@ Sie können mehrere Zugriffsschlüssel für verschiedene Zwecke erstellen und si
 >
 >Ab Adobe Commerce und Magento Open Source 2.4.0 wird der Websetup-Assistent entfernt, und Sie müssen die Befehlszeile verwenden, um Ihre Instanz [installieren](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) oder [aktualisieren](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html). Diese Anforderung umfasst auch [Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) und [Erweiterungen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
-Der Installationsprozess für [!DNL Marketplace] Käufe unterscheidet sich bei On _Premise-Installationen_ Commerce von dem für Installationen, die auf [der Adobe-Cloud-Architektur][4].
+Der Installationsprozess für [!DNL Marketplace] Käufe unterscheidet sich bei On _Premise-Installationen_ Commerce von den auf [Adobe Cloud Architecture][4] gehosteten Installationen.
 
 ![Commerce Marketplace](./assets/marketplace.png){width="600"}
 
 ## Support
 
-Wenn Sie Hilfe bei der Installation oder bei der Verwendung einer Erweiterung benötigen, lesen Sie zunächst die Dokumentation, die der Erweiterung beiliegt. Wenn Sie keine Antwort auf Ihre Frage finden können, verwenden Sie die Kontaktinformationen in der Erweiterungsliste, um den Entwickler direkt zu kontaktieren. Wenn das, was Sie auf Marketplace kaufen, nicht Ihren Bedürfnissen entspricht, können [eine Rückerstattung anfordern](#refund-requests) innerhalb von 25 Tagen ab Kaufdatum. Adobe prüft alle Erstattungsanträge und stellt (falls genehmigt) die entsprechende Rückerstattung aus. Bei Problemen mit Commerce Marketplace wenden Sie sich an den [Support](mailto:commercemarketplacesupport@adobe.com).
+Wenn Sie Hilfe bei der Installation oder bei der Verwendung einer Erweiterung benötigen, lesen Sie zunächst die Dokumentation, die der Erweiterung beiliegt. Wenn Sie keine Antwort auf Ihre Frage finden können, verwenden Sie die Kontaktinformationen in der Erweiterungsliste, um den Entwickler direkt zu kontaktieren. Wenn das, was Sie auf Marketplace kaufen, nicht Ihren Bedürfnissen entspricht, können [eine Rückerstattung anfordern](#refund-requests) innerhalb von 25 Tagen ab Kaufdatum. Adobe prüft alle Erstattungsanträge und stellt (falls genehmigt) die entsprechende Rückerstattung aus. Für Probleme im Zusammenhang mit Commerce Marketplace:
+
+Methode 1: Wechseln Sie zum [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/), navigieren Sie zum Seitenende und klicken Sie auf [!UICONTROL Contact Us]. Dadurch wird ein Formular geöffnet, um ein Ticket zu senden.
+
+Methode 2: [E-Mail-](mailto:commercemarketplacesupport@adobe.com).
 
 ### Checkout-Probleme
 
@@ -105,7 +109,7 @@ Anmeldeprobleme hängen normalerweise mit einer Diskrepanz zwischen Ihrer MAGEID
 
 ### Open Source-Fragen
 
-Das Marketplace-Supportteam löst Probleme, die mit den Sites [commerceMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) und [commerceDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) zusammenhängen. Fragen zur Magento Open Source richten Sie bitte an das [Community-Forum](https://community.magento.com/) oder [kontaktieren Sie einen Partner](https://business.adobe.com/products/magento/partners.html) der bei der Magento Open Source helfen kann.
+Das Marketplace-Supportteam löst Probleme, die mit den Sites [commerceMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) und [commerceDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) zusammenhängen. Bitte richten Sie Fragen zu Magento Open Source an das [Community-Forum](https://community.magento.com/) oder [kontaktieren Sie einen Partner](https://business.adobe.com/products/magento/partners.html) der Magento Open Source unterstützen kann.
 
 ### Erstattungsanträge
 
