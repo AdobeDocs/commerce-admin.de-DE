@@ -3,9 +3,9 @@ title: Integration konfigurieren
 description: Erfahren Sie, wie Sie Ihre Adobe Commerce- und Experience Manager Assets-Projekte verbinden, um die Synchronisierung von Assets zwischen diesen beiden Systemen zu aktivieren.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-source-git-commit: 3522c3d3d772be5278206c10d8e699c2c4cc31af
+source-git-commit: 8db3e4b039ed8e020a1a2400e400df01c34f1943
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,18 @@ Verwenden Sie für die Ersteinrichtung die Standardregel *Übereinstimmung nach 
 1. Wählen Sie **[!UICONTROL Save Config]** aus, um Aktualisierungen anzuwenden und die Synchronisierung von Assets zu starten.
 
    Durch die Konfigurationsaktualisierung wird der anfängliche Synchronisierungsprozess Trigger, sodass Commerce eingehende Aktualisierungen von AEM Assets annehmen kann. Die für die Synchronisierung erforderliche Zeit hängt vom Volumen der Assets und von bestimmten Konfigurationen ab. Die Integration nutzt automatisierte Prozesse, um die für die Synchronisierung erforderliche Zeit zu minimieren.
+
+### Konfigurieren der benutzerdefinierten Domain-URL
+
+Wenn ein Händler in seinem AEM[Dashboard einen ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank}benutzerdefinierten Domain-Namen“ festlegt, muss diese **benutzerdefinierte Domain-URL** in Commerce hinzugefügt werden, damit die AEM Assets-Integration sie verwenden kann.
+
+1. Navigieren Sie zu **[!UICONTROL Store]** > Konfiguration > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**.
+
+   ![AEM Assets-Integration aktivieren](assets/aem-assets-view.png){width="600" zoomable="yes"}
+
+1. Fügen Sie die **benutzerdefinierte Domain-URL** zum Feld **[!UICONTROL Asset Custom Domain]** hinzu.
+
+1. Klicken Sie auf **[!UICONTROL Save Config]** , um Aktualisierungen anzuwenden und die Synchronisierung von Assets zu starten.
 
 ## Nächster Schritt
 
