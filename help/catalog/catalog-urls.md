@@ -3,9 +3,9 @@ title: Katalog- und Produkt-URLs
 description: Erfahren Sie mehr über die URL-Formattypen für Ihre Katalogprodukte und deren Konfiguration.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-source-git-commit: 11d78b7d7b548c373cfe0ec398814994c3e99e7a
+source-git-commit: 1edab49fd8d52a1b7414eb207a21c5c03200e75e
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Der URL-Schlüssel sollte aus Kleinbuchstaben mit nicht nachfolgenden Bindestric
 >
 >Informationen zum Erweitern von URL-Anpassungen, wie z. B. lokalisierte URLs, finden Sie unter [URL](../merchandising-promotions/url-rewrite.md)Neuschreibungen).
 
-### HTML Suffix
+### HTML-Suffix
 
 Ihr Katalog kann so konfiguriert werden, dass das -Suffix als Teil der Kategorie- und Produkt-URLs entweder ein- oder ausgeschlossen wird. Es gibt verschiedene Gründe, warum Benutzer das Suffix verwenden oder weglassen. Einige glauben, dass das Suffix keinen nützlichen Zweck mehr erfüllt und dass Seiten ohne Suffix von Suchmaschinen effektiver indiziert werden. Ihr Unternehmen könnte jedoch über ein standardisiertes Format für URLs verfügen, für das ein Suffix erforderlich ist.
 
@@ -62,13 +62,13 @@ Da das Suffix von der Systemkonfiguration gesteuert wird, sollten Sie es niemals
 
 ### Kategoriepfad
 
-Sie können die URL so konfigurieren, dass der Kategoriepfad entweder ein- oder ausgeschlossen wird. Standardmäßig ist der Kategoriepfad in allen Kategorie- und Produktseiten enthalten. Die folgenden Beispiele zeigen dieselbe Produkt-URL mit und ohne Kategoriepfad.
+Sie können die Produkt-URLs so konfigurieren, dass der Kategoriepfad je nach Ihren Voreinstellungen ein- oder ausgeschlossen wird. Standardmäßig ist der Kategoriepfad nicht in Produkt-URLs enthalten. Verschachtelte Kategorien zeigen jedoch immer den vollständigen Kategoriepfad in ihren URLs auf der Storefront an, um Klarheit und Konsistenz in der Kategoriennavigation zu gewährleisten. Die folgenden Beispiele zeigen dieselbe Produkt-URL mit und ohne Kategoriepfad.
 
-#### URL mit Kategoriepfad
+#### Produkt-URL mit Kategoriepfad
 
 - `http://mystore.com/women/tops-women/hoodies-and-sweatshirts-women/helena-hooded-fleece.html`
 
-#### URL ohne Kategoriepfad
+#### Produkt-URL ohne Kategoriepfad
 
 - `http://mystore.com/helena-hooded-fleece.html`
 
