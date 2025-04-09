@@ -3,7 +3,7 @@ title: Bestellung versenden
 description: Erfahren Sie, wie Sie die Versandinformationen für einen Verarbeitungsauftrag ausfüllen und Versand- und Tracking-Informationen anzeigen.
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: abd125cc6e61850db55fb31dbcbd9dc38ac0fca5
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Eine Bestellung, die bezahlt wurde, aber auf den Versand wartet, hat den Status 
 
    - Um den Kommentar im Konto des Kunden zu posten, aktivieren Sie das Kontrollkästchen **[!UICONTROL Visible on Frontend]** .
 
-1. Klicken Sie auf **[!UICONTROL Submit Comment]**.
+1. Klicken Sie auf **[!UICONTROL Update]**.
 
 ## Verfolgen der Sendung
 

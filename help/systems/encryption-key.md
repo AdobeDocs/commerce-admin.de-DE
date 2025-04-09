@@ -1,12 +1,12 @@
 ---
 title: Verschlüsselungsschlüssel
-description: Erfahren Sie, wie Sie automatisch einen eigenen Verschlüsselungsschlüssel generieren oder hinzufügen. Dieser sollte regelmäßig geändert werden, um die Sicherheit zu verbessern.
+description: Erfahren Sie, wie Sie Ihren eigenen Verschlüsselungsschlüssel ändern. Dies sollte regelmäßig erfolgen, um die Sicherheit zu verbessern.
 exl-id: 78190afb-3ca6-4bed-9efb-8caba0d62078
 role: Admin
 feature: System, Security
-source-git-commit: 65c15bb84b28088a6e8f06f3592600779ba033f5
+source-git-commit: 48f3431faa5db50f896b7a8e3db59421c639185b
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,12 @@ Adobe Commerce und Magento Open Source verwenden zum Schutz von Passwörtern und
 
 Während der Erstinstallation werden Sie aufgefordert, Commerce entweder einen eigenen Verschlüsselungsschlüssel generieren zu lassen oder einen eigenen einzugeben. Mit dem Verschlüsselungsschlüssel-Tool können Sie den Schlüssel nach Bedarf ändern. Der Verschlüsselungsschlüssel sollte regelmäßig geändert werden, um die Sicherheit zu verbessern, und der ursprüngliche Schlüssel kann jederzeit gefährdet sein.
 
-Technische Informationen finden Sie unter [Erweiterte lokale Installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) im _Installationshandbuch_.
+Technische Informationen finden Sie unter [Erweiterte lokale Installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) im _Installationshandbuch_ und [Datenwiederverschlüsselung](https://developer.adobe.com/commerce/php/development/security/data-encryption/) im _PHP-Entwicklerhandbuch_.
 
 >[!IMPORTANT]
 >
->Bevor Sie diese Anweisungen zum Ändern des Verschlüsselungsschlüssels befolgen, stellen Sie sicher, dass auf die folgende Datei geschrieben werden kann: `[your store]/app/etc/env.php`
+>- Bevor Sie diese Anweisungen zum Ändern des Verschlüsselungsschlüssels befolgen, stellen Sie sicher, dass auf die folgende Datei geschrieben werden kann: `[your store]/app/etc/env.php`
+>- Die Funktion zum Ändern des Verschlüsselungsschlüssels in den Admin-Einstellungen ist veraltet und wurde in 2.4.8 entfernt. Sie müssen den auf dieser Seite beschriebenen CLI-Befehl verwenden, um den Verschlüsselungsschlüssel nach der Aktualisierung auf 2.4.8 zu ändern.
 
 **So ändern Sie einen Verschlüsselungsschlüssel:**
 
@@ -51,20 +52,40 @@ Für die folgenden Anweisungen ist der Zugriff auf ein Terminal erforderlich.
    crontab -e
    ```
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**.
+1. Ändern Sie den Verschlüsselungsschlüssel mit einer der folgenden Methoden.
 
-   ![Systemverschlüsselungsschlüssel](./assets/encryption-key.png){width="700" zoomable="yes"}
+   +++CLI-Befehl
 
-1. Führen Sie einen der folgenden Schritte aus:
+   Führen Sie den folgenden CLI-Befehl aus und stellen Sie sicher, dass er fehlerfrei abgeschlossen wird. Wenn Sie bestimmte Systemkonfigurationswerte oder Zahlungsfelder erneut verschlüsseln müssen, lesen Sie das detaillierte [Handbuch zur erneuten Verschlüsselung](https://developer.adobe.com/commerce/php/development/security/data-encryption/) im _PHP-Entwicklerhandbuch_.
 
-   - Um einen neuen Schlüssel zu generieren, setzen Sie **[!UICONTROL Auto-generate Key]** auf `Yes`.
-   - Um einen anderen Schlüssel zu verwenden, setzen Sie **[!UICONTROL Auto-generate Key]** auf `No`. Geben Sie dann im Feld **[!UICONTROL New Key]** den zu verwendenden Schlüssel ein.
+   ```bash
+   bin/magento encryption:key:change
+   ```
 
-1. Klicken Sie auf **[!UICONTROL Change Encryption Key]**.
++++
 
-   >[!NOTE]
+   +++Admin-Einstellungen
+
+   >[!IMPORTANT]
    >
-   >Verwahren Sie den neuen Schlüssel an einem sicheren Ort auf. Es ist erforderlich, die Daten zu entschlüsseln, wenn Probleme mit Ihren Dateien auftreten.
+   >Diese Funktion ist veraltet und wurde in 2.4.8 entfernt. Adobe empfiehlt, die Verschlüsselungsschlüssel über die CLI zu ändern.
+
+   1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Manage Encryption Key]**.
+
+      ![Systemverschlüsselungsschlüssel](./assets/encryption-key.png){width="700" zoomable="yes"}
+
+   1. Führen Sie einen der folgenden Schritte aus:
+
+      - Um einen neuen Schlüssel zu generieren, setzen Sie **[!UICONTROL Auto-generate Key]** auf `Yes`.
+      - Um einen anderen Schlüssel zu verwenden, setzen Sie **[!UICONTROL Auto-generate Key]** auf `No`. Geben Sie dann im Feld **[!UICONTROL New Key]** den zu verwendenden Schlüssel ein.
+
+   1. Klicken Sie auf **[!UICONTROL Change Encryption Key]**.
+
+      >[!NOTE]
+      >
+      >Verwahren Sie den neuen Schlüssel an einem sicheren Ort auf. Es ist erforderlich, die Daten zu entschlüsseln, wenn Probleme mit Ihren Dateien auftreten.
+
++++
 
 1. Leeren Sie den Cache.
 

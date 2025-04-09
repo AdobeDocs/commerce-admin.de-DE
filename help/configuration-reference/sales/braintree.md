@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] &gt; [!UICONTROL Br
 description: Überprüfen Sie die Konfigurationseinstellungen für den Abschnitt [!UICONTROL Braintree] auf der Seite [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] der Commerce Admin-Instanz.
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
-source-git-commit: d22d44b8c93649a60b16569cc502d2e291ce6b22
+source-git-commit: bb083698aff1da145bbb661307148c9223d5b545
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2822'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 | [!UICONTROL Private Key] | Shop-Ansicht | Dies ist Ihre benutzerspezifische, private Kennung, die den Zugriff auf verschlüsselte Daten einschränkt. Jeder mit Ihrem Braintree-Gateway verknüpfte Benutzer verfügt über einen eigenen privaten Schlüssel. Dieses Feld wird angezeigt, wenn das _[!UICONTROL Environment]_Feld auf `Production` gesetzt ist. |
 | [!UICONTROL Enable Card Payments] | Website | Legt fest, ob die Kreditkartenzahlungsmethode von Braintree Ihren Kunden als Zahlungsmethode zur Verfügung steht. Optionen: `Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | Website | Wenn diese Option aktiviert ist, bietet einen sicheren Speicher für Kundenzahlungsinformationen, sodass Kunden ihre Kreditkarteninformationen nicht bei jedem Kauf erneut eingeben müssen. Optionen: `Yes` / `No` |
-| [!UICONTROL Enable Vault CVV Reverification] | Website | Wenn diese Option aktiviert ist, erfolgt die Validierung für die Einrichtung der CVV-Regeln in Ihrem Braintree-Konto. Optionen: `Yes` / `No` |
+| [!UICONTROL Enable Vault CVV Re-verification] | Website | Wenn diese Option aktiviert ist, erfolgt die Validierung für die Einrichtung der CVV-Regeln in Ihrem Braintree-Konto. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 | [!UICONTROL Vault Title] | Website | Ein beschreibender Titel für Ihre Referenz, der den Tresor angibt, in dem Ihre Kundenkarteninformationen gespeichert sind. |
 | [!UICONTROL Merchant Account ID] | Website | Die ID des Händlerkontos, das mit Braintree-Transaktionen von dieser Website verknüpft werden soll. Wenn dies leer gelassen wird, wird das standardmäßige Händlerkonto aus Ihrem Braintree-Konto verwendet. |
 | [!UICONTROL Enable Checkout Express Payments] | Website | Bietet ein schnelleres Checkout-Erlebnis mit Express-Zahlungsoptionen zu Beginn des Checkout-Prozesses, einschließlich PayPal, PayLater, Apple Pay und Google Pay. Optionen: `Yes` / `No` |
-| [!UICONTROL Skip Fraud Checks on Admin Orders] | Website | Verhindert, dass die Transaktion bei Bestellungen, die nur über den Administrator getätigt werden, wenn sie auf `Yes` gesetzt ist, zur Auswertung im Rahmen [!DNL Advanced Fraud Tools] Prüfungen gesendet wird.<br/>Optionen: `Yes` / `No` |
+| [!UICONTROL Skip Fraud Checks on Admin Orders] | Website | Prevents the transaction from being sent for evaluation as part of [!DNL Advanced Fraud Tools] checks, on orders placed through the admin only when it set to `Yes`.<br/>Optionen: `Yes` / `No` |
 | [!UICONTROL Bypass Fraud Protection Threshold] | Website | `Advanced Fraud Protection` Prüfungen werden umgangen, wenn der Schwellenwert erreicht oder überschritten wird. Wenn Sie dieses Feld leer lassen, wird diese Option deaktiviert. |
 | [!UICONTROL Debug] | Website | Bestimmt, ob die Kommunikation zwischen dem Braintree-System und Ihrem Store in einer Protokolldatei aufgezeichnet wird. Optionen: `Yes` / `No` |
 | [!UICONTROL CVV Verification] | Website | Legt fest, ob Kunden den dreistelligen Sicherheitscode auf der Rückseite einer Kreditkarte bereitstellen müssen. Optionen: `Yes` / `No` |
@@ -108,8 +108,8 @@ ht-degree: 0%
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Enable ApplePay through Braintree] | Website | Bestimmt, ob Apple Pay über Braintree als Zahlungsmethode einbezogen wird. Optionen: `Yes` / `No` <br/><br/> Die Domain muss [zunächst im Braintree-Konto verifiziert werden](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3). |
-| [!UICONTROL Enable Vault for ApplePay] | Website | Kunden können ihre Apple-Zahlungsmethode für die zukünftige Verwendung tresoren/speichern. Sobald die Zahlungsdetails ausgewertet sind, kann der Kunde Apple Pay verwenden, ohne seine Zahlungsinformationen erneut einzugeben oder zu authentifizieren. Optionen: `Yes` / `No` |
+| [!UICONTROL Enable ApplePay through Braintree] | Website | Bestimmt, ob Apple Pay über Braintree als Zahlungsmethode einbezogen wird. Options: `Yes` / `No` <br/><br/> The domain must be [verified in Braintree Account first](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3). |
+| [!UICONTROL Enable Vault for ApplePay] | Website | Customers can vault/store their Apple Pay payment method for future use. Sobald die Zahlungsdetails ausgewertet sind, kann der Kunde Apple Pay verwenden, ohne seine Zahlungsinformationen erneut einzugeben oder zu authentifizieren. Optionen: `Yes` / `No` |
 | [!UICONTROL Payment Action] | Website | Bestimmt, welche Aktion Braintree bei der Zahlungsabwicklung durchführt. Optionen: <br/>**`Authorize`**- Das Geld auf der Karte des Kunden wird autorisiert, aber nicht vom Konto des Kunden übertragen. Eine Bestellung wird in Ihrem Store-Admin erstellt. Sie können den Verkauf später erfassen und eine Rechnung erstellen.<br/>**`Intent Sale`** - Das Geld auf der Kundenkarte wird von Braintree autorisiert und erfasst, und eine Bestellung und eine Rechnung werden in Ihrem Shop-Administrator erstellt. **_Hinweis:_** Dies wurde in 2.3.x und früheren Versionen `Authorize and Capture`. |
 | [!UICONTROL Merchant Name] | Shop-Ansicht | Den Kunden im ApplePay-Popup angezeigter Titel. |
 | [!UICONTROL Sort Order] | Website | Bestimmt die Reihenfolge, in der Apple Pay beim Checkout mit anderen Zahlungsmethoden aufgelistet wird. |
@@ -126,7 +126,7 @@ ht-degree: 0%
 | [!UICONTROL Title] | Website | Titel, der im Abschnitt „Checkout-Zahlungsmethode“ angezeigt wird. Standardwert: `Local Payments` |
 | [!UICONTROL Fallback Button Text] | Website | Geben Sie den Text ein, der für die Schaltfläche verwendet werden soll, die auf der Fallback-Braintree-Seite angezeigt wird und Kunden zurück zur Website bringt. Standardwert: `Complete Checkout` |
 | [!UICONTROL Redirect on Fail] | Website | Gibt die URL an, zu der Kunden umgeleitet werden sollen, wenn Transaktionen der lokalen Zahlungsmethode storniert werden, fehlschlagen oder auf Fehler stoßen. Es sollte die Checkout-Zahlungsseite sein (z. B. `https://www.domain.com/checkout#payment`). |
-| [!UICONTROL Allowed Payment Method] | Website | Wählen Sie die zu aktivierende lokale Zahlungsmethode aus. Optionen: `Bancontact` / `EPS` / `giropay` / `iDeal` / `Klarna Pay Now` / `SOFORT` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` (noch nicht unterstützt) |
+| [!UICONTROL Allowed Payment Method] | Website | Wählen Sie die zu aktivierende lokale Zahlungsmethode aus. Optionen: `Bancontact` / `EPS` / `iDeal` / `MyBank` / `P24` / `SEPA/ELV Direct Debit` |
 | [!UICONTROL Sort Order] | Website | Bestimmt die Reihenfolge, in der die lokale Zahlungsmethode beim Checkout mit anderen Zahlungsmethoden aufgelistet wird. |
 
 {style="table-layout:auto"}
@@ -158,7 +158,7 @@ ht-degree: 0%
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enable Venmo through Braintree] | Website | Bestimmt, ob [!DNL Venmo] als Zahlungsmethode über Braintree enthalten ist. Optionen: `Yes` / `No` |
-| [!UICONTROL Enable Vault for Venmo] | Website | Kunden können ihre Venmo-Zahlungsmethode für die zukünftige Verwendung absichern. Sobald die Zahlungsdetails geVault sind, kann der Kunde die Venmo-Zahlungsmethode verwenden, ohne die Daten erneut einzugeben oder seine Zahlungsinformationen erneut zu authentifizieren. Optionen: `Yes` / `No` |
+| [!UICONTROL Enable Vault for Venmo] | Website | Customers can vault/store their Venmo payment method for future use. Sobald die Zahlungsdetails geVault sind, kann der Kunde die Venmo-Zahlungsmethode verwenden, ohne die Daten erneut einzugeben oder seine Zahlungsinformationen erneut zu authentifizieren. Optionen: `Yes` / `No` |
 | [!UICONTROL Payment Action] | Website | Bestimmt, welche Aktion Braintree bei der Zahlungsabwicklung durchführt. Optionen: <br/>**`Authorize`**- Das Geld auf der Karte des Kunden wird autorisiert, aber nicht vom Konto des Kunden übertragen. Eine Bestellung wird in Ihrem Store-Admin erstellt. Sie können den Verkauf später erfassen und eine Rechnung erstellen.<br/>**`Intent Sale`** - Das Geld auf der Kundenkarte wird von Braintree autorisiert und erfasst, und eine Bestellung und eine Rechnung werden in Ihrem Shop-Administrator erstellt. **_Hinweis:_** Dies war _Authorize and Capture_ in 2.3.x und früheren Versionen. |
 | [!UICONTROL Sort Order] | Website | Bestimmt die Bestellung, dass Venmo während des Checkouts mit anderen Zahlungsmethoden aufgelistet wird. |
 
@@ -166,7 +166,8 @@ ht-degree: 0%
 
 ## [!UICONTROL PayPal through Braintree]
 
-![PayPal über Braintree](./assets/payment-methods-braintree-paypal-config.png){width="550" zoomable="yes"}
+![PayPal über Braintree Config 1](./assets/payment-methods-braintree-paypal-config-1.png){width="550" zoomable="yes"}
+![PayPal über Braintree Config 2](./assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -182,8 +183,11 @@ ht-degree: 0%
 | [!UICONTROL Payment from Applicable Countries] | Website | Bestimmt, ob Sie Zahlungen akzeptieren, die von PayPal über Braintree aus allen Ländern oder nur bestimmten Ländern verarbeitet werden. Optionen: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Gibt ggf. die Länder an, aus denen Sie von Braintree verarbeitete Zahlungen akzeptieren. |
 | [!UICONTROL Require Customer's Billing Address] | Website | Legt fest, ob die Rechnungsadresse des Kunden für die Bestellung erforderlich ist. Optionen: `Yes` / `No` |
+| [!UICONTROL Skip Order Review Step] | Website | Legt fest, ob Kunden vor Abschluss der Zahlung zur Überprüfungsseite weitergeleitet werden. Optionen: `Yes` / `No` |
 | [!UICONTROL Debug] | Website | Bestimmt, ob die Kommunikation zwischen dem PayPal über das Braintree-System und Ihrem Geschäft in einer Protokolldatei aufgezeichnet wird. Optionen: `Yes` / `No` |
 | [!UICONTROL Display on Shopping Cart] | Website | Bestimmt, ob die PayPal-Schaltfläche im [Mini-Warenkorb](../../stores-purchase/cart-configuration.md#mini-cart) und auf der Seite [Warenkorb](../../stores-purchase/cart.md) angezeigt wird. Optionen: `Yes` / `No` |
+| [!UICONTROL Send Package Tracking] | Website | Paketverfolgungsinformationen werden nur für PayPal-Transaktionen/Bestellungen an PayPal gesendet. Sie müssen das Feld [!UICONTROL Send Cart Line Items for PayPal] aktivieren, damit die [!UICONTROL Package Tracking] Funktion ordnungsgemäß funktioniert. Optionen: `Yes` / `No` |
+| [!UICONTROL Use PayPal's "Notify Payer" functionality] | Website | Sobald dies auf „Ja“ gesetzt ist, wird der Käufer oder Zahler von PayPal über Aktualisierungen der Paketverfolgung benachrichtigt. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -227,18 +231,6 @@ Die Optionen und Einstellungen in diesem Abschnitt variieren je nach dem im Feld
 >
 >Das **[!DNL Size(Deprecated)]** Konfigurationsfeld ist veraltet und wird nicht zur Gestaltung der PayPal-Schaltflächen verwendet.
 
-**[!UICONTROL PayLater Messaging]**
-
-| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
-|--- |--- |--- |
-| [!UICONTROL Show PayLater Messaging] | Website | Aktiviert das PayLater-Messaging am ausgewählten Speicherort. Optionen: `Yes` / `No`. Wenn diese Option aktiviert ist, werden PayLater-Nachrichten für verfügbare Angebote angezeigt ([Einschränkungen gelten](https://developer.paypal.com/docs/checkout/pay-later/us/)). |
-| [!UICONTROL Message Layout] | Website | Bestimmt das Layout der PayLater-Nachricht. Optionen: `Text` / `Flex` |
-| [!UICONTROL Logo] | Website | Bestimmt den Logotyp, der für die PayPal-Schaltfläche verwendet wird. Optionen: `Inline` / `Primary` / `Alternative` / `None` |
-| [!UICONTROL Logo Position] | Website | Bestimmt die Position des Logos für die PayPal-Schaltfläche. Optionen: `Left` / `Right` / `Top` |
-| [!UICONTROL Text Color] | Website | Bestimmt die Textfarbe der PayPal-Schaltfläche. Optionen: `Black` / `White` / `Monochrome` / `Grayscale` |
-
-{style="table-layout:auto"}
-
 Wenn diese Optionen festgelegt sind, können Sie die Vorschau der PayPal-Schaltflächen und PayLater-Nachrichten sehen. Es gibt Steuerelemente, mit denen Sie die Einstellungen anwenden oder die Werte zurücksetzen können:
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
@@ -246,6 +238,48 @@ Wenn diese Optionen festgelegt sind, können Sie die Vorschau der PayPal-Schaltf
 | [!UICONTROL Apply] | Website | Speichert die ausgewählten Stileinstellungen für Schaltflächen und PayLater-Messaging und wendet sie auf die aktuelle Position und den aktuellen Schaltflächentyp an. |
 | [!UICONTROL Apply to All Buttons] | Website | Speichert die ausgewählten Stileinstellungen für Schaltflächen und PayLater-Messaging-Werte und wendet sie auf alle Schaltflächentypen und Positionen an. |
 | [!UICONTROL Reset to Recommended Defaults] | Website | Gibt die Stileinstellungen auf die empfohlenen Standardwerte für Schaltflächen und PayLater-Messaging zurück und wendet sie auf alle Schaltflächentypen und -speicherorte an. |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Pay Later Messaging]
+
+**[!UICONTROL Product Page]**
+
+![Später bezahlen - Produktseite](./assets/payment-methods-braintree-paylater-messaging-product.png)<!-- zoom -->
+
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+|--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | Website | Aktiviert das PayLater-Messaging am ausgewählten Speicherort. Optionen: `Yes` / `No`. Zeigt Nachrichten zu „Später bezahlen“ für verfügbare Angebote an. Es gelten Einschränkungen. [Hier erfahren Sie mehr darüber.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Message Layout] | Website | Bestimmt das Layout der PayLater-Nachricht. Optionen: `Text` / `Flex` |
+| [!UICONTROL Logo] | Website | Bestimmt den Logotyp, der für die Nachricht „Später bezahlen“ verwendet wird. Optionen: `Inline` / `Primary` / `Alternative` / `None` |
+| [!UICONTROL Logo Position] | Website | Bestimmt die Logo-Position für die Pay Later-Nachricht. Optionen: `Left` / `Right` / `Top` |
+| [!UICONTROL Text Color] | Website | Bestimmt die Textfarbe der Pay Later-Nachricht. Optionen: `Black` / `White` / `Monochrome` / `Grayscale` |
+
+{style="table-layout:auto"}
+
+**[!UICONTROL Cart]**
+
+![Später bezahlen - Warenkorb](./assets/payment-methods-braintree-paylater-messaging-cart.png)<!-- zoom -->
+
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+|--- |--- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | Website | Aktiviert das PayLater-Messaging am ausgewählten Speicherort. Optionen: `Yes` / `No`. Zeigt Nachrichten zu „Später bezahlen“ für verfügbare Angebote an. Es gelten Einschränkungen. [Hier erfahren Sie mehr darüber.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Message Layout] | Website | Bestimmt das Layout der PayLater-Nachricht. Optionen: `Text` / `Flex` |
+| [!UICONTROL Logo] | Website | Bestimmt den Logotyp, der für die Nachricht „Später bezahlen“ verwendet wird. Optionen: `Inline` / `Primary` / `Alternative` / `None` |
+| [!UICONTROL Logo Position] | Website | Bestimmt die Logo-Position für die Pay Later-Nachricht. Optionen: `Left` / `Right` / `Top` |
+| [!UICONTROL Text Color] | Website | Bestimmt die Textfarbe der Pay Later-Nachricht. Optionen: `Black` / `White` / `Monochrome` / `Grayscale` |
+
+{style="table-layout:auto"}
+
+**[!UICONTROL Checkout]**
+
+![Später bezahlen - Checkout](./assets/payment-methods-braintree-paylater-messaging-checkout.png)<!-- zoom -->
+
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+|--------------------------------------|--- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [!UICONTROL Show PayLater Messaging] | Website | Aktiviert das PayLater-Messaging am ausgewählten Speicherort. Optionen: `Yes` / `No`. Zeigt Nachrichten zu „Später bezahlen“ für verfügbare Angebote an. Es gelten Einschränkungen. [Hier erfahren Sie mehr darüber.](https://developer.paypal.com/studio/checkout/pay-later/us) |
+| [!UICONTROL Text Align] | Website | Bestimmt das Layout der PayLater-Nachricht. Optionen: `Left` / `Center` / `Right` |
+| [!UICONTROL Text Color] | Website | Bestimmt die Textfarbe der Pay Later-Nachricht. Optionen: `Black` / `White` |
 
 {style="table-layout:auto"}
 

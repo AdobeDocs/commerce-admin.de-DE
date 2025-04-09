@@ -3,9 +3,9 @@ title: Anwendungsfälle und Workflows für Angebotsvorlagen
 description: Erstellen Sie eine Angebotsvorlage aus einem vorhandenen Angebot, um die Angebotsaushandlung für wiederkehrende Bestellungen zu optimieren.
 feature: B2B, Quotes
 exl-id: 7d1e7a3d-6c50-416a-b490-0a083e1c06b4
-source-git-commit: 71b9326aa5a8c3d7656b3c0f166cf25291b2abba
+source-git-commit: 6fe8a356ab517fc5dd169c4a6f7ef52937f705c4
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Mit der Funktion „Angebotsvorlage“ können Käufer und Verkäufer den Angebo
 - **Ablaufdaten** - Vorlagen können Gültigkeitszeiträume (*[!UICONTROL Valid Until]*) haben, sodass die Bedingungen nur innerhalb eines bestimmten Zeitraums angewendet werden können. Bei Ablauf wird die Vorlage geschlossen und alle zugehörigen verknüpften Anführungszeichen werden geschlossen.
 - **Rabatte und Preise** - Verkäufer können dieselben Rabattfunktionen für Positionen, Angebotsebenen und Versandkosten verwenden, die auch für Angebote verfügbar sind, um Rabatte für wiederkehrende Bestellungen festzulegen und so den Verhandlungsprozess zu vereinfachen.
 - **Tracking und Reporting** - Das System verfolgt die Anzahl der verknüpften Angebote, die aus der Vorlage generiert wurden, und erfolgreich abgeschlossene Bestellungen, um Einblicke in die Erfüllung der vereinbarten Bestellquoten zu erhalten.
+- **Referenzdokument-Links** - Sowohl Käufer als auch Verkäufer können externe Dokument-Links (wie DocuSign, Adobe Sign oder andere Online-Services) zur Angebotsvorlage hinzufügen, bearbeiten und verwalten. Dies ermöglicht einen einfachen Zugriff auf zugehörige Verträge und Vereinbarungen während des Angebotsvorlagenprozesses.
 
 ## Anwendungsfall
 
@@ -28,6 +29,8 @@ Ein Unternehmenskäufer kann mithilfe einer Angebotsvorlage einen bestimmten Sat
 
 - Mengenschwellen (Mindest-/Höchstmengen) Die Vorlage legt eine Mengenschwelle fest, um die Mindest- und Höchstmenge festzulegen, die für jede Bestellung gekauft werden kann, um sicherzustellen, dass der Verkäufer die Lagerbestände effektiv verwalten kann, während der Käufer die Flexibilität hat, die Mengen nach Bedarf anzupassen.
 
+- Referenzdokument-Links zur Pflege von Verbindungen zu externen Verträgen und Vereinbarungen, die den Zugriff auf zugehörige Dokumentationen während des Angebotsprozesses erleichtern.
+
 ## Angebotsvorlagen-Workflow
 
 Angebotsvorlagen können vom Käufer oder Verkäufer initiiert werden.
@@ -36,7 +39,7 @@ Angebotsvorlagen können vom Käufer oder Verkäufer initiiert werden.
 
 - **Käufer erstellt die Angebotsvorlage**
 
-  Bei der Überprüfung eines bestehenden Angebots entscheidet der Käufer, dass das Unternehmen im Laufe des nächsten Jahres mehrere Bestellungen einreichen muss und zusätzliche Rabatte auf der Grundlage des Wiederholungsgeschäfts anfordern möchte. Sie erstellen eine Angebotsvorlage mithilfe der *[!UICONTROL Create quote template]* für das Angebot. Anschließend leiten sie die Verhandlung ein, indem sie die Angebotsvorlage zur Überprüfung an den Verkäufer senden.
+  Bei der Überprüfung eines bestehenden Angebots entscheidet der Käufer, dass das Unternehmen im Laufe des nächsten Jahres mehrere Bestellungen einreichen muss und zusätzliche Rabatte auf der Grundlage des Wiederholungsgeschäfts anfordern möchte. Sie erstellen eine Angebotsvorlage mithilfe der *[!UICONTROL Create quote template]* für das Angebot. Der Käufer kann mithilfe der *[!UICONTROL Add]* im Abschnitt Referenzdokumente Links zu Referenzdokumenten zu externen Verträgen oder Vereinbarungen hinzufügen. Anschließend leiten sie die Verhandlung ein, indem sie die Angebotsvorlage zur Überprüfung an den Verkäufer senden.
 
   Käufer können auch eine Angebotsvorlage anfordern, indem sie Produkte, die sie regelmäßig kaufen möchten, zum Warenkorb hinzufügen. Fordern Sie dann ein Angebot an und geben Sie in den Kommentaren an, wie oft sie den Kauf wiederholen möchten.
 
@@ -50,13 +53,13 @@ Angebotsvorlagen können vom Käufer oder Verkäufer initiiert werden.
 
 **Schritt 2: Angebotsüberprüfung und -verhandlung (Überprüfung)**
 
-Das Überprüfen oder Verhandeln einer Angebotsvorlage kann das Ändern von Mengen, das Entfernen von Artikeln, das Hinzufügen von Positionskommentaren, das Anwenden von Positionsrabatten oder Angebotsrabatten (Verkäufer) und das Hinzufügen einer Lieferadresse (Käufer) umfassen.
+Das Überprüfen oder Verhandeln einer Angebotsvorlage kann das Ändern von Mengen, das Entfernen von Artikeln, das Hinzufügen von Positionskommentaren, das Anwenden von Positionsrabatten oder Angebotsrabatten (Verkäufer), das Hinzufügen einer Lieferadresse (Käufer) und das Verwalten von Referenzdokumentverknüpfungen umfassen.
 
-- **Verkäufer zeigt Anfrage an und sendet Antwort** - Im Administrator zeigt der Verkäufer die Angebotsvorlage aus dem *[!UICONTROL Quote Templates]** Raster an oder öffnet sie über den Link in der E-Mail-Benachrichtigung. In der Storefront ändert sich der Status des Angebots in `Pending`, und der Käufer kann keine Änderungen vornehmen. Nach demselben Prozess für [Angebotsaushandlung](quote-price-negotiation.md) antwortet der Verkäufer, indem er Preisnachlässe anbietet und Mengen und Artikel nach Bedarf anpasst, gibt einen Kommentar ein und sendet die Angebotsvorlage an den Käufer zurück. Der Käufer und der Vertriebsmitarbeiter werden per E-Mail benachrichtigt, dass der Verkäufer geantwortet hat.
+- **Verkäufer zeigt Anfrage an und sendet Antwort** - Im Administrator zeigt der Verkäufer die Angebotsvorlage aus dem *[!UICONTROL Quote Templates]** Raster an oder öffnet sie über den Link in der E-Mail-Benachrichtigung. In der Storefront ändert sich der Status des Angebots in `Pending`, und der Käufer kann keine Änderungen vornehmen. Nach demselben Prozess für [Angebotsaushandlung](quote-price-negotiation.md) antwortet der Verkäufer, indem er Preisnachlässe anbietet und Mengen und Artikel nach Bedarf anpasst, gibt einen Kommentar ein und sendet die Angebotsvorlage an den Käufer zurück. Der Verkäufer kann während dieses Vorgangs auch Links zu Referenzdokumenten hinzufügen, bearbeiten oder entfernen. Der Käufer und der Vertriebsmitarbeiter werden per E-Mail benachrichtigt, dass der Verkäufer geantwortet hat.
 
-- **Der Käufer zeigt die Angebotsvorlage vom Verkäufer an und sendet eine Antwort** - Er klickt auf den Link in der E-Mail-Benachrichtigung, um die Angebotsvorlage zu öffnen, oder öffnet sie auf der Seite _Meine Angebotsvorlagen_ des Konto-Dashboards. Der Einkäufer kann dem Verkäufer Notizen auf der Positionsartikel- oder Angebotsebene hinterlassen, Mengen ändern und Artikel entfernen.
+- **Der Käufer zeigt die Angebotsvorlage vom Verkäufer an und sendet eine Antwort** - Er klickt auf den Link in der E-Mail-Benachrichtigung, um die Angebotsvorlage zu öffnen, oder öffnet sie auf der Seite _Meine Angebotsvorlagen_ des Konto-Dashboards. Der Einkäufer kann dem Verkäufer Notizen auf der Positionsartikel- oder Angebotsebene hinterlassen, Mengen ändern, Artikel entfernen und Referenzdokumentverknüpfungen verwalten.
 
-Der Käufer und der Verkäufer setzen den Verhandlungsprozess fort, bis eine Vereinbarung getroffen wird, oder der Verkäufer lehnt die Angebotsvorlage ab. Wenn der Käufer Änderungen an der Angebotsvorlage vornimmt - durch Hinzufügen oder Entfernen von Produkten oder Ändern von Produktmengen -, muss er zur Überprüfung an den Verkäufer zurückgeschickt werden.
+Der Käufer und der Verkäufer setzen den Verhandlungsprozess fort, bis eine Vereinbarung getroffen wird, oder der Verkäufer lehnt die Angebotsvorlage ab. Wenn der Käufer Änderungen an der Angebotsvorlage vornimmt - Hinzufügen oder Entfernen von Produkten, Ändern der Produktmengen oder Ändern der Links zu Referenzdokumenten -, muss er diese zur Überprüfung an den Verkäufer zurücksenden.
 
 - **Käufer fügt eine Lieferadresse hinzu** - Der Käufer muss der Angebotsvorlage eine Lieferadresse hinzufügen, wenn sie keine hat. Nachdem der Käufer die Adresse hinzugefügt hat, kann der Verkäufer Versand- und Lieferoptionen bereitstellen. Die angezeigten Versandmethoden hängen von der Storefront-Konfiguration ab.
 

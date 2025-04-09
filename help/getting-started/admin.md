@@ -2,12 +2,13 @@
 title: Was ist der Administrator?
 description: Erfahren Sie mehr über  [!DNL Commerce] /Admin, den Ort, an dem Händler Produkte und Promotions einrichten, Bestellungen verwalten und andere administrative Aufgaben ausführen.
 exl-id: 065cf14f-80e7-4695-8922-c761a2191d72
-source-git-commit: b657db7e486fec591d5a6239d554376f00707e8c
+source-git-commit: a6b293dca673808bbc7f37cb468c6e316fddb735
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
 
 ---
+
 
 # Was ist der Administrator?
 
@@ -25,7 +26,7 @@ Zusätzlich zum standardmäßigen Admin-Benutzerkonto kann Ihr Unternehmen so vi
 
 ## Nutzungsdatenerfassung
 
-Wenn Sie sich zum ersten Mal bei _Admin_ anmelden, werden Sie aufgefordert, Adobe die Berechtigung zum Erfassen von Nutzungsdaten für alle Admin-Benutzer zu erteilen. Durch die Ermöglichung der Datenerfassung durch Administratoren können Sie Adobe dabei helfen, die Nutzung von Adobe Commerce Admin und damit zusammenhängenden Produkten und Services zu verbessern.
+Wenn Sie sich zum ersten Mal bei _Admin_ anmelden, werden Sie aufgefordert, Adobe die Berechtigung zum Erfassen von Nutzungsdaten für alle Admin-Benutzer zu erteilen. Durch die Ermöglichung der Datenerfassung durch Administratoren können Sie Adobe bei der Verbesserung der Nutzung von Adobe Commerce Admin und zugehörigen Produkten und Services unterstützen.
 
 ![Datenerfassung der Admin-Nutzung zulassen](./assets/admin-usage-data.png){width="600"}
 

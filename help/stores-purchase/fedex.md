@@ -3,9 +3,9 @@ title: FedEx
 description: Erfahren Sie, wie Sie FedEx als Versandunternehmen für Ihren Shop einrichten.
 exl-id: 75bb3ed1-3ae9-418a-be90-888046b28a7b
 feature: Shipping/Delivery
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: ad5da1d77b63bf6bcc0227a5c467e369b7bb8d89
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ FedEx ist eines der größten Schifffahrtsunternehmen der Welt und bietet Luft-,
 
 >[!NOTE]
 >
->FedEx kann [dimensionales Gewicht](carriers.md#dimensional-weight) verwenden, um einige Versandraten zu bestimmen. Adobe Commerce und Magento Open Source unterstützen jedoch nur die gewichtsbasierte Versandkostenberechnung.
+>FedEx kann [dimensionales Gewicht](carriers.md#dimensional-weight) verwenden, um einige Versandraten zu bestimmen. Adobe Commerce und Magento Open Source unterstützen jedoch nur die gewichtsbasierte Berechnung der Versandkosten.
 
 ## Schritt 1: Registrieren Sie sich für FedEx Web Services Production
 
@@ -45,6 +45,15 @@ Ein FedEx-Händlerkonto und eine Registrierung für den Zugriff auf FedEx Web Se
    - **[!UICONTROL Account ID]**
    - **[!UICONTROL Api Key]**
    - **[!UICONTROL Secret Key]**
+
+1. Wenn Sie über separate API-Anmeldeinformationen für das Tracking verfügen, aktivieren Sie die folgende Konfiguration:
+
+   - **[!UICONTROL Enable Tracking API credentials]**
+
+1. Geben Sie folgende Informationen aus Ihrem FedEx-Konto ein:
+
+   - **[!UICONTROL Tracking API Key]**
+   - **[!UICONTROL Tracking API Secret Key]**
 
 1. Wenn Sie eine FedEx-Sandbox eingerichtet haben und in der Testumgebung arbeiten möchten, setzen Sie **[!UICONTROL Sandbox Mode]** auf `Yes`.
 

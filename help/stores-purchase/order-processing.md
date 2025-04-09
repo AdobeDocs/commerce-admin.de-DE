@@ -3,7 +3,7 @@ title: Workflow und Verarbeitung von Bestellungen
 description: Erfahren Sie mehr über den Workflow für Bestellungen, den Status, der bei jedem Schritt gilt, und wie Sie Bestellungen durch diesen Prozess verschieben können.
 exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 2c12405bbe965883179bb103bc9d746ad02cc615
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 0%
@@ -16,17 +16,17 @@ Wenn ein Kunde eine Bestellung aufgibt, wird ein Kundenauftrag als temporärer D
 
 **Schritt 1: Bestellung aufgeben** - Der Checkout-Prozess beginnt, wenn der Käufer **[!UICONTROL Go to Checkout]** auf die Warenkorbseite klickt oder [Neubestellungen](reorders-allow.md) direkt von seinem Kundenkonto aus aufgibt.
 
-**Schritt 2: Auftrag ausstehend** - Der ursprüngliche Auftragsstatus ist `Pending`. In diesem Zustand wurde die Zahlung nicht bearbeitet und die Bestellung kann noch bearbeitet oder storniert werden. Dieser Status tritt auf, wenn die Zahlungsmethode für den Autorisierungsmodus konfiguriert ist.
+**Step 2: Order Pending** - The initial sales order status is `Pending`. In this state, the payment has not been processed and the order can still be edited or canceled. This state occurs when the payment method is configured for authorization mode.
 
-**Schritt 3: Zahlung empfangen** - Der Bestellstatus ändert sich in `Processing`, wenn die Zahlung empfangen oder autorisiert wird. Je nach Zahlungsmethode erhalten Sie möglicherweise eine Benachrichtigung, wenn die Transaktion autorisiert oder verarbeitet wird. Dieser Status tritt automatisch auf, wenn die Zahlungsmethode für den Erfassungsmodus oder den beabsichtigten Verkaufsmodus konfiguriert ist.
+**Step 3: Receive Payment** - The order status changes to `Processing` when payment is received or authorized. Depending on the payment method, you might receive notification when the transaction is authorized or processed. This state occurs automatically when the payment method is configured for capture or intent sale mode.
 
-**Schritt 4: Rechnungsbestellung** - Eine Bestellung wird normalerweise nach Zahlungseingang fakturiert. Die Zahlungsmethode bestimmt, welche Rechnungsoptionen für die Bestellung benötigt werden. Nachdem die Rechnung erstellt und übermittelt wurde, wird eine Kopie an den Kunden gesendet. Wenn die Zahlungsmethode mit der `capture` oder `intent sale` Zahlungsaktion konfiguriert ist, wird automatisch eine Rechnung generiert, wenn die Zahlung autorisiert und erfasst wird.
+**Schritt 4: Rechnungsauftrag** - Eine bestellen wird in der Regel nach Zahlungseingang in Rechnung gestellt. Die Zahlungsmethode bestimmt, welche Rechnungsoptionen für die bestellen benötigt werden. Nachdem die Rechnung generiert und übermittelt wurde, wird eine Kopie an den Kunden gesendet. Wenn die Zahlungsmethode mit der `capture` Zahlungsaktion oder `intent sale` konfiguriert ist, wird automatisch eine Rechnung generiert, wenn die Zahlung autorisiert und erfasst wird.
 
 >[!NOTE]
 >
->Rechnungen werden für Bestellungen, die über `Gift Card`, `Store Credit`, `Reward Points` oder andere Offline-Zahlungsmethoden aufgegeben werden, nicht automatisch erstellt.
+>Rechnungen werden nicht automatisch für Bestellungen erstellt, die mit `Gift Card`, `Store Credit`, `Reward Points`oder anderen offline Zahlungsmethoden aufgegeben werden.
 
-**Schritt 5: Einzelne Lieferung buchen** - Der Bestellstatus ändert sich in &quot;`Complete`&quot;, wenn die Lieferdetails abgeschlossen, die Lieferung gebucht und der Versand festgelegt ist. Die Versandanforderung wird mit einem gedruckten Packzettel erfüllt und das Versandetikett oder _Notify Ready for Pickup_ ausgewählt (In-Store-Liefermethode). Der Kunde erhält eine Benachrichtigung, und das Paket wird versendet. Wenn Tracking-Nummern verwendet werden, kann die Sendung über das Konto des Kunden verfolgt werden.
+**Schritt 5: Buch einer einzelnen Sendung** - Der bestellen Status ändert sich in `Complete` den Zeitpunkt, an dem die Sendungsdetails abgeschlossen sind, die Sendung gebucht und der Versand festgelegt ist. Die Versandanforderung wird mit einem ausgedruckten Lieferschein und Versandetikett erfüllt oder die _Benachrichtigung bereit zur Abholung_ wird ausgewählt (Geschäft Sendungen Methode). Der Kunde erhält Benachrichtigung und das Paket wird versendet. Wenn Tracking Nummern verwendet werden, kann die Sendung vom Konto des Kunden aus verfolgt werden.
 
 >[!NOTE]
 >
@@ -36,9 +36,9 @@ Wenn ein Kunde eine Bestellung aufgibt, wird ein Kundenauftrag als temporärer D
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
-1. Suchen Sie die Reihenfolge im Raster.
+1. Suchen Sie die bestellen im Raster.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View]**.
+1. Klicken Sie in der _[!UICONTROL Action]_Spalte auf .**[!UICONTROL View]**
 
 1. Bestellstatus überprüfen:
 
@@ -76,7 +76,7 @@ Um eine `Pending` Reihenfolge zu öffnen, klicken Sie oben rechts auf **[!UICONT
 |--- |--- |
 | [!UICONTROL Information] | Zeigen Sie detaillierte Informationen über die Bestellung und das Konto an, einschließlich der Rechnungs- und Versandadressen, Zahlungs- und Liefermethoden, Bestellartikel, Gesamtsummen und Notizen. |
 | [!UICONTROL Invoices] | Listet alle Rechnungen auf, die mit der Bestellung verknüpft sind. |
-| [!UICONTROL Credit Memos] | Listet alle Gutschriften auf, die mit der Bestellung verknüpft sind. |
+| [!UICONTROL Credit Memos] | Lists each credit memo that is associated with the order. |
 | [!UICONTROL Shipments] | Listet alle Sendungsaufzeichnungen auf, die mit der Bestellung verknüpft sind. |
 | [!UICONTROL Comments History] | Listet alle Notizen auf, die mit der Bestellung verbunden sind. |
 
@@ -88,7 +88,7 @@ Um eine `Pending` Reihenfolge zu öffnen, klicken Sie oben rechts auf **[!UICONT
 
 ### Schaltflächenleiste
 
-| Schaltfläche | Beschreibung |
+| Button | Beschreibung |
 |--- |--- |
 | **[!UICONTROL Back]** | Kehrt zur Seite Bestellungen zurück, ohne die Änderungen zu speichern. |
 | **[!UICONTROL Cancel]** | Storniert den Kundenauftrag. |
@@ -97,8 +97,8 @@ Um eine `Pending` Reihenfolge zu öffnen, klicken Sie oben rechts auf **[!UICONT
 | **[!UICONTROL Invoice]** | Erstellt eine Rechnung aus dem Kundenauftrag, indem der Auftrag in eine Rechnung umgewandelt wird. |
 | **[!UICONTROL Ship]** | Erstellt einen Lieferdatensatz für die Bestellung. |
 | **[!UICONTROL Notify Order is Ready for Pickup]** | Erscheint nur, wenn eine Bestellung als Versand im Geschäft aufgegeben wird. Benachrichtigt den Kunden, dass die Bestellung zur Abholung bereit ist. |
-| **[!UICONTROL Reorder]** | Erstellt einen Kundenauftrag basierend auf dem aktuellen Auftrag. |
-| **[!UICONTROL Edit]** | Öffnet eine ausstehende Bestellung im Bearbeitungsmodus. Die Schaltfläche „Bearbeiten“ ist für Bestellungen mit dem Status &quot;`Processing`&quot; oder Bestellungen, die auf ausgehandelten Angeboten basieren, nicht sichtbar. |
+| **[!UICONTROL Reorder]** | Creates a sales order based on the current order. |
+| **[!UICONTROL Edit]** | Opens a pending order in edit mode. The Edit button isn&#39;t visible for orders with a status of `Processing`, or orders that are based on negotiated quotes. |
 
 {style="table-layout:auto"}
 
@@ -108,29 +108,29 @@ Sie können [stornieren](order-update.md) Bestellungen, die noch nicht fakturier
 
 Wenn eine Bestellung `Pending` oder `Processing` wird und die Zahlung nicht oder nicht vollständig erfasst wird, können Sie [ Bestellung stornieren](#void-an-order) anstatt sie zu stornieren.
 
-Um eine stornierte Bestellung wiederherzustellen, klicken Sie auf die Schaltfläche **[!UICONTROL Reorder]** und eine neue Bestellung wird mit dem Status `Pending` erstellt.
+To restore a canceled order, click the **[!UICONTROL Reorder]** button and a new order is created with the status `Pending`.
 
 >[!NOTE]
 >
->Die Stornierung einer Bestellung führt auch zur Stornierung, aber die Stornierung einer Bestellung führt nicht zu einem Trigger der Stornierung.
+>Canceling an order also produces a void, but voiding an order does not trigger a cancellation.
 
-### Stornierung einer Bestellung
+### Void an order
 
-Nur Kundenaufträge, die nicht fakturiert wurden, den Status `Processing` und die [Zahlungsintegrationseinstellung `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions) haben, können [storniert](order-update.md#void-a-processing-order). Nachdem Sie eine Bestellung storniert haben, können Sie sie stornieren.
+Only sales orders that are not invoiced, have a status of `Processing`, and a [payment integration setting of `Authorize`](../configuration-reference/sales/payment-methods.md#payment-actions), can be [voided](order-update.md#void-a-processing-order). After you void an order, you can cancel it.
 
 ### [!UICONTROL Order and Account Information]
 
-![Bestell- und Kontoinformationen](./assets/order-account-information.png){width="600" zoomable="yes"}
+![Order and Account Information](./assets/order-account-information.png){width="600" zoomable="yes"}
 
 #### Bestellinformationen
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Order Number] | Die Bestellnummer wird oben im Auftrag angezeigt, gefolgt von einem Hinweis, der angibt, ob die Bestätigungs-E-Mail gesendet wurde. |
+| [!UICONTROL Order Number] | Die bestellen Nummer wird oben auf der Verkaufs bestellen angezeigt, gefolgt von einem Hinweis, der angibt, ob die Bestätigungs-E-Mail gesendet wurde. |
 | [!UICONTROL Order Date] | Datum und Uhrzeit der Auftragserteilung. |
 | [!UICONTROL Purchased From] | Gibt die Website-, Store- und Store-Ansicht an, in der die Bestellung aufgegeben wurde. |
 | [!UICONTROL Placed from IP] | Zeigt die IP-Adresse des Computers an, von dem aus die Bestellung aufgegeben wurde. |
-| [!UICONTROL Order Placed from Quote] | ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B) Gibt das [Angebot](../b2b/quotes.md) an, aus dem die Bestellung generiert wurde, falls zutreffend. Der Angebotsname ist mit dem Angebot verknüpft. |
+| [!UICONTROL Order Placed from Quote] | ![Adobe Systems Commerce-B2B](../assets/b2b.svg) (Verfügbar in Adobe Systems Commerce B2B) Gibt ggf. das [Angebot](../b2b/quotes.md) an, aus dem die bestellen generiert wurde. Der Angebotsname ist mit dem Angebot verknüpft. |
 
 {style="table-layout:auto"}
 
@@ -196,7 +196,7 @@ Gehen Sie im Abschnitt **[!UICONTROL Order Total]** wie folgt vor:
 | [!UICONTROL Tax Amount] | Der Steuerbetrag, der auf den Artikel als Dezimalwert angewendet wird. |
 | [!UICONTROL Tax Percent] | Der Prozentsatz der auf diesen Artikel angewendeten Steuer als Prozentsatz. |
 | [!UICONTROL Discount Amount] | Der für diesen Artikel geltende Rabatt. Der Rabattwert ist null, wenn der Auftrag auf einem Angebot basiert. |
-| [!UICONTROL Row Total] | Der Zeilenposten insgesamt, einschließlich der auf Produktebene fälligen Steuern, abzüglich Rabatte. |
+| [!UICONTROL Row Total] | The line item total, including applicable taxes that are due at the product level, less discounts. |
 
 {style="table-layout:auto"}
 
@@ -205,7 +205,7 @@ Gehen Sie im Abschnitt **[!UICONTROL Order Total]** wie folgt vor:
 | Feld | Beschreibung |
 |--- |--- |
 | [!UICONTROL Status] | Zeigt den Status des Kundenauftrags an. |
-| [!UICONTROL Comment] | Ein Textfeld, in das Sie einen Kommentar für den Kunden eingeben können, der der Bestellung beiliegt. <br/>**[!UICONTROL Notify Customer by Email]**- Aktivieren Sie das Kontrollkästchen, wenn Sie den Kommentar als separate E-Mail an den Kunden senden möchten.<br/>**[!UICONTROL Visible on Storefront]** - Aktivieren Sie das Kontrollkästchen, wenn der Kommentar im Konto des Kunden sichtbar sein soll. <br/>**[!UICONTROL Submit Comment]**- Sendet den Kommentar und sendet ihn gegebenenfalls per E-Mail. |
+| [!UICONTROL Comment] | Ein Textfeld, in das Sie einen Kommentar für den Kunden eingeben können, der der Bestellung beiliegt. <br/>**[!UICONTROL Notify Customer by Email]**- Aktivieren Sie das Kontrollkästchen, wenn Sie den Kommentar als separate E-Mail an den Kunden senden möchten.<br/>**[!UICONTROL Visible on Storefront]** - Aktivieren Sie das Kontrollkästchen, wenn der Kommentar im Konto des Kunden sichtbar sein soll. <br/>**[!UICONTROL Update]**- Adds the comment and sends an email, if applicable. |
 
 {style="table-layout:auto"}
 
@@ -213,21 +213,21 @@ Gehen Sie im Abschnitt **[!UICONTROL Order Total]** wie folgt vor:
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Shipping & Handling] | Der Betrag, der für Versand- und Bearbeitungsgebühren berechnet wird. |
-| [!UICONTROL Tax] | Der auf den Auftrag angewendete Steuerbetrag, falls zutreffend. |
-| [!UICONTROL Grand Total] | Die Bestellsumme. |
-| [!UICONTROL Total Paid] | Der für die Bestellung gezahlte Gesamtbetrag, falls zutreffend. |
-| [!UICONTROL Total Refunded] | Der Gesamtbetrag, der aus der Bestellung zurückerstattet wurde, falls zutreffend. |
-| [!UICONTROL Total Due] | Der insgesamt fällige Betrag. |
-| [!UICONTROL Store Credit] | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Der Betrag der verfügbaren Speichergutschrift, die auf die Bestellung angewendet wird, falls zutreffend. |
-| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B) Der Gesamtpreis der Artikel im Angebot ohne Steuer, entsprechend den Preisen im freigegebenen Katalog oder Standardkatalog, der als Grundlage des Angebots verwendet wird. Wenn die Währung der Storefront von der Basiswährung abweicht, wird der Wert in beiden Währungen angezeigt, wobei die Storefront in eckigen Klammern angezeigt wird. |
+| [!UICONTROL Shipping & Handling] | The amount charged for shipping and handling fees. |
+| [!UICONTROL Tax] | The amount of tax applied to the order, if applicable. |
+| [!UICONTROL Grand Total] | The order total. |
+| [!UICONTROL Total Paid] | Der Gesamtbetrag, der ggf. für die bestellen gezahlt wurde. |
+| [!UICONTROL Total Refunded] | Der Gesamtbetrag, der gegebenenfalls von der bestellen erstattet wird. |
+| [!UICONTROL Total Due] | Der fällige Gesamtbetrag. |
+| [!UICONTROL Store Credit] | ![Adobe Systems Commerce](../assets/adobe-logo.svg) (nur Adobe Systems Commerce) Der Betrag des verfügbaren Geschäft Guthabens, das ggf. auf die bestellen angewendet wird. |
+| [!UICONTROL Catalog Total Price] | ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B) Der Gesamtpreis der Artikel im Angebot ohne Steuer, entsprechend den Preisen im freigegebenen Katalog oder Standardkatalog, der als Grundlage des Angebots verwendet wird. Wenn sich die Storefront-Anzeigewährung von der Basiswährung unterscheidet, wird der Wert in beiden Währungen angezeigt, wobei die Storefront-Anzeige in eckigen Klammern steht. |
 | [!UICONTROL Negotiated Discount] | ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B) Der Rabatt, der aus einem zwischen Käufer und Verkäufer ausgehandelten Angebot resultiert. Wenn die Währung der Storefront von der Basiswährung abweicht, wird der Wert in beiden Währungen angezeigt, wobei die Storefront in eckigen Klammern angezeigt wird. |
-| [!UICONTROL Subtotal] | ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B) Der Kataloggesamtpreis abzüglich des ausgehandelten Rabatts. |
+| [!UICONTROL Subtotal] | ![Adobe Systems Commerce B2B](../assets/b2b.svg) (Verfügbar mit Adobe Systems Commerce B2B) Der Katalog Gesamt Preis abzüglich des ausgehandelten Rabatts. |
 
 {style="table-layout:auto"}
 
-## Demo zur Bestellabwicklung
+## Demo zur Auftragsabwicklung
 
-Sehen Sie sich dieses Video an, um mehr über die Auftragsverarbeitung und den Status zu erfahren:
+Ansehen dieses Video und erfahren Sie mehr über bestellen Verarbeitung und Status:
 
 >[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)
