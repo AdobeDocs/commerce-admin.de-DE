@@ -3,9 +3,9 @@ user-guide-title: Inhalts- und Design-Handbuch
 user-guide-description: Umfassende Informationen zu Inhalts- und Design-Funktionen für Adobe Commerce- und Magento Open Source-Administratoren und E-Commerce-Marketing-Experten.
 breadcrumb-title: Inhalt und Design
 feature: CMS, Page Content
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 4%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 4%
 - [Inhalts- und Design-Handbuch](guide-overview.md)
 - [Einführung in Inhalt und Design](introduction.md)
 - [Menü „Inhalt“](content-menu.md)
-- Design-{#design}
+- Design {#design}
    - [Design-Konfiguration](configuration.md)
-   - Themen-{#themes}
+   - Designs {#themes}
       - [Übersicht](themes.md)
       - [Ein neues Design installieren](theme-install.md)
       - [Verwalten von Design-Assets](theme-assets.md)
       - [Planen von Design-Aktualisierungen](schedule.md)
    - [Einrichtung des Seitenbereichs](page-setup.md)
-   - Seiten-Layout-{#layout}
+   - Seiten-Layout {#layout}
       - [Übersicht](page-layout.md)
       - [Layoutbeispiele für Storefronts](page-layout-examples.md)
       - [Layout-Aktualisierungen](layout-updates.md)
@@ -36,7 +36,7 @@ ht-degree: 4%
       - [Festlegen der Startseite](page-home-new.md)
       - [Seitenhierarchie](page-hierarchy.md)
       - [Übersetzen von Inhaltsseiten](page-translate.md)
-   - {#blocks}
+   - Bausteine {#blocks}
       - [Übersicht](blocks.md)
       - [Block hinzufügen](block-add.md)
       - [Bausteine positionieren](block-position.md)
@@ -51,13 +51,13 @@ ht-degree: 4%
       - [Widget „Liste neuer Produkte“](widget-new-products-list.md)
       - [Widget „Bestellungen und Rückgaben“](widget-orders-returns.md)
       - [Widget „Katalogereignisse - Karussell“](widget-event-carousel.md)
-- WYSIWYG Editor-{#wysiwyg}
+- WYSIWYG-Editor {#wysiwyg}
    - [Übersicht](editor.md)
    - [Link einfügen](editor-insert-link.md)
    - [Einfügen eines Bildes](editor-insert-image.md)
    - [Einfügen eines Widgets](editor-widget.md)
    - [Einfügen einer Variablen](editor-insert-variable.md)
-   - {#storage}
+   - Medienspeicher {#storage}
       - [Übersicht](media-storage.md)
       - [Verwenden einer Mediendatenbank](media-storage-database.md)
       - [Verwenden eines Netzwerks zur Inhaltsbereitstellung](media-storage-content-delivery-network.md)
@@ -67,7 +67,7 @@ ht-degree: 4%
       - [Verwenden von Adobe Stock-Bildern](adobe-stock-manage.md)
       - [Speichern einer Stock-Bildvorschau](adobe-stock-save-preview.md)
       - [Lizenzieren eines Stock-Bildes](adobe-stock-license-image.md)
-   - Mediensammlungs-{#gallery}
+   - Mediensammlung {#gallery}
       - [Übersicht](media-gallery.md)
       - [Asset-Management](media-gallery-asset-management.md)
       - [Ordnerverwaltung](media-gallery-folder-management.md)
@@ -81,10 +81,11 @@ ht-degree: 4%
       - [Installieren von Adobe Commerce-Paketen](aem-assets-configure-commerce.md)
       - [Integration konfigurieren](aem-assets-setup-synchronization.md)
       - [Anzeigen und Verwalten von Protokollen](aem-assets-log-files.md)
+   - [Migrieren von Mediendateien zu AEM Assets](aem-assets-migrate-data.md)
    - Verwalten von Assets {#manage}
       - [Verwenden von AEM Assets mit Commerce](aem-assets-manage.md)
-- {#media}
-- Staging-{#staging} für Inhalte
+- Medien {#media}
+- Inhalts-Staging {#staging}
    - [Übersicht](content-staging.md)
    - [Planen einer Aktualisierung](content-staging-scheduled-update.md)
    - [Staging-Dashboard](content-staging-dashboard.md)
