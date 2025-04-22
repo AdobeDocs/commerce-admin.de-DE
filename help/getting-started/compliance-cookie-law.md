@@ -3,7 +3,7 @@ title: Cookie-Gesetzestreue
 description: Um mit der Gesetzgebung in vielen Ländern bezüglich der Verwendung von Cookies Schritt zu halten, bieten Adobe Commerce und Magento Open Source Händlern eine Auswahl an Methoden, um das Einverständnis des Kunden einzuholen.
 exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: abdd70f63ce9ce49ea7e6552951c644480f6024f
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Wird als Teil der Implementierung der Registerkarten-Funktionen nur in einem adm
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Die folgenden Cookies werden für Adobe Commerce-Kunden festgelegt. Diese Cookies werden mit dem Modul [DataServices“ ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg`: Set von Snowplow JavaScript Tracker. Weitere Informationen finden Sie in der [Schneepflug-Dokumentation](https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/web-tracker/tracker-setup/initialization-options).
+- `mg`: Set von Snowplow JavaScript Tracker. Weitere Informationen finden Sie in der [Schneepflug-Dokumentation](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: Angesichts des Hostnamens der aktuellen Web-Seite ist dies die oberste Domain, die kein „öffentliches Suffix“ ist, wie in https://publicsuffix.org beschrieben. Im Wesentlichen ist dies die Domain, die Cookies akzeptieren kann. Dieses Cookie ist Teil von [Alloy Web SDK](https://github.com/adobe/alloy).
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
