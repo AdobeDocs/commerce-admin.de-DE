@@ -3,9 +3,10 @@ title: Inhalts-Staging
 description: Mit der Inhalts-Staging-Funktion kann Ihr Business-Team eine breite Palette von Inhaltsaktualisierungen für Ihren Store einfach erstellen, in der Vorschau anzeigen und direkt vom Administrator planen.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 07d7ca7e7f6af42fe8e06dc3c49c2df5f50d1425
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
