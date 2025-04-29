@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie das  [!DNL Adobe Commerce B2B] -Paket install
 feature: B2B, Install
 role: Admin, Developer
 exl-id: a6947212-1708-40ae-9e81-874467eba5e1
-source-git-commit: df3f01bb8e6dab61523d5cb7e0e430b61f87145b
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 25964363ca5c4ec849e231d4eccb5f60b682a499
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -185,7 +186,7 @@ Die Adobe Commerce B2B-Erweiterung verwendet MySQL für die Verwaltung von Nachr
 
 Vermeiden Sie mögliche Verarbeitungsprobleme oder -verzögerungen, indem Sie die folgenden Parameter hinzufügen, wenn Sie [die Nachrichten-Consumer starten](#start-message-consumers) für B2B-Funktionen.
 
-- `--max-messages <value>`- Gibt die maximale Anzahl an Nachrichten an, die jeder Consumer vor dem Beenden verarbeiten muss (Standard = 10000). Obwohl das Adobe nicht empfohlen wird, können Sie 0 verwenden, um zu verhindern, dass der Verbraucher beendet. Die Best Practice für eine PHP-Anwendung besteht darin, langwierige Prozesse neu zu starten, um mögliche Speicherlecks zu vermeiden.
+- `--max-messages <value>`- Gibt die maximale Anzahl an Nachrichten an, die jeder Consumer vor dem Beenden verarbeiten muss (Standard = 10000). Obwohl Adobe dies nicht empfiehlt, können Sie 0 verwenden, um zu verhindern, dass der Verbraucher beendet. Die Best Practice für eine PHP-Anwendung besteht darin, langwierige Prozesse neu zu starten, um mögliche Speicherlecks zu vermeiden.
 
 - `--batch-size <value>` - Ermöglicht es Ihnen, die von den Verbrauchern verbrauchten Systemressourcen (CPU, Speicher) zu begrenzen. Die Verwendung kleinerer Batches reduziert die Ressourcennutzung und führt daher zu einer langsameren Verarbeitung.  Wenn angegeben, werden Nachrichten in einer Warteschlange in Batches von jeweils `<value>`. Diese Option gilt nur für den Batch-Verbraucher. Wenn `--batch-size` nicht definiert ist, erhält der Batch-Benutzer alle verfügbaren Nachrichten in einer Warteschlange.
 

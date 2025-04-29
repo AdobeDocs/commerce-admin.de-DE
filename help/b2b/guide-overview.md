@@ -6,9 +6,9 @@ seo-title: '[!DNL Adobe Commerce B2B] Guide'
 seo-description: Describes how to use the B2B features module in Adobe Commerce.
 exl-id: 8a7fda1d-0040-48fe-b393-9244adca6fde
 feature: B2B
-source-git-commit: 19594a9dd1a8eb0b18bb372d049428e68c1328a6
+source-git-commit: a893a33a14d33106bb9291ceeff96dc155bb017a
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Dieses Handbuch richtet sich an Administratoren, die in Adobe Commerce Admin arb
 Für Store-Administratoren gibt es zwei Bereiche:
 
 - Der Administrator: Verwenden Sie diesen Bereich, um auf die Konfigurations-Benutzeroberfläche und Berichte zuzugreifen.
-- Die Befehlszeilenschnittstelle: Verwenden Sie dieses Tool, um Installations- und Backend-Konfigurationsaufgaben auszuführen.
+- Die Befehlszeilenschnittstelle: Verwenden Sie dieses Tool, um Installations- und Backend-Konfigurationsaufgaben auszuführen. [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Dieses Handbuch behandelt Folgendes:
 
@@ -28,11 +28,11 @@ Dieses Handbuch behandelt Folgendes:
 | ------- | ----------- |
 | [Einführung](introduction.md) | Welche Funktionen sind bei [!DNL Adobe Commerce B2B] verfügbar? |
 | [Versionshinweise](release-notes.md) | Überprüfen Sie die in den einzelnen [!DNL Adobe Commerce B2B] Versionen bereitgestellten Aktualisierungen. |
-| [Installieren](install.md) | Installieren Sie die [!DNL Adobe Commerce B2B]. |
+| [Installieren](install.md) | Installieren Sie die [!DNL Adobe Commerce B2B]. [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} |
 | [Aktivieren der grundlegenden B2B-Funktionen](enable-basic-features.md) | Nach der Installation von [!DNL Adobe Commerce B2B] müssen Sie die Funktionen aktivieren, die Sie für Ihren Store aktivieren möchten. |
 | [Unternehmenskonten](account-companies.md) | Erfahren Sie mehr über Unternehmenskonten und darüber, wie sie den Hauptbaustein für die Unterstützung von B2B-Käufern in Ihrem Geschäft darstellen. |
 | [Unternehmensführung](manage-companies.md) | Erfahren Sie, wie Administratoren von B2B-Commerce-Websites Unternehmenshierarchien erstellen können, um die Verwaltung mehrerer Unternehmen zu optimieren, die zum selben Unternehmen gehören. |
-| [freigegebene Kataloge](catalog-shared.md) | Erfahren Sie mehr über die Verwendung freigegebener Kataloge zur Verwaltung von Gated-Katalogen mit benutzerdefinierten Preisen für verschiedene Unternehmen. |
+| [freigegebene Kataloge](catalog-shared.md) | Erfahren Sie mehr über die Verwendung freigegebener Kataloge zur Verwaltung von Gated-Katalogen mit benutzerdefinierten Preisen für verschiedene Unternehmen. [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} |
 | [Schnellbestellungen](quick-order.md) | Erfahren Sie mehr über die Schnellbestellungsfunktion und deren Aktivierung für Ihre Kunden. |
 | [Bestellungen](purchase-order-flow.md) | Erfahren Sie mehr über Auftrags-Workflows, mit denen Unternehmen ihre Ausgaben verfolgen und kontrollieren können. |
 | [Anführungszeichen](quotes.md) | Erfahren Sie mehr über Angebots-Workflows und wie Sie diesen Service für Ihre Unternehmenskonten bereitstellen können. |
