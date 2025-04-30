@@ -2,13 +2,13 @@
 title: Versionshinweise zur Integration von AEM Assets für Commerce
 description: Informationen zu allen AEM Assets-Integrationsversionen finden Sie in den Versionshinweisen .
 feature: CMS, Media, Release Notes
-source-git-commit: bdfff57ed5bbf2ae460c382d9cfbaef0ebcaa2e8
+exl-id: 0d639565-812f-481a-afd6-6e6fa54ed70e
+source-git-commit: b104e504eea70d931233a880c2d52043d48346c5
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
-
 
 # Versionshinweise zur Integration von AEM Assets für Commerce
 
@@ -34,10 +34,28 @@ _11. Februar 2025_
 
 +++
 
+## v1.1.0
+
+_23. April 2025_
+
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce Version 2.4.5 und höher.
+
+![Neues Problem](../assets/new.svg)<!-- Issue ACAP-955 --> Anstelle der AEM[Bereitstellungs-URL ](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization#configure-the-custom-domain-url) jetzt eine benutzerdefinierte Domain-URL verwendet werden. Wenn ein Händler in seinem AEM **Dashboard einen** benutzerdefinierten Domain-Namen) festlegt, muss diese **benutzerdefinierte Domain-URL** in Commerce hinzugefügt werden.
+
+![Problem behoben](../assets/fix.svg)<!-- Issue ACAP-987 --> Verbesserte Gesamtprotokolle für AEM Assets-Synchronisierungsprozesse.
+
+## v1.0.22
+
+_12. März 2025_
+
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce Version 2.4.5 und höher.
+
+![Neues Problem](../assets/new.svg)<!-- Issue ACAP-xx --> Der Assets-Selektor benötigt jetzt die [Assets-Selektor-IMS](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/aem-asset-management/getting-started/aem-assets-setup-synchronization)Client-ID, um die Zuordnung von AEM Assets-Bildern mit Produktkategorien und von Page Builder generierten Inhalten zu aktivieren.
+
 ## v1.0.20
 
 _11. Februar 2025_
 
-[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"}
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce Version 2.4.5 und höher.
 
-![Neu](../assets/new.svg) Allgemeine Verfügbarkeitsversion.
+![Neu](../assets/new.svg)<!-- Issue ACAP-xx --> Allgemeine Verfügbarkeitsversion.
