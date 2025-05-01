@@ -3,9 +3,10 @@ title: Konfigurieren von Smart-Attributen für Visual Merchandiser
 description: Erfahren Sie, wie Sie die vom Visual Merchandiser verwendeten Smart-Attribute konfigurieren.
 exl-id: 7bbbca40-d991-4393-b99c-5bef2e711071
 feature: Merchandising, Products, Configuration, Attributes
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---

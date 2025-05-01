@@ -2,9 +2,9 @@
 title: Einführung in Commerce Merchandising und Promotions
 description: Informieren Sie sich über Commerce-Tools zur Erstellung zielgerichteter Werbeaktionen und Angebote für Kundinnen und Kunden.
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 7774aa82149faff55591303c7ff2fe2c84797a4a
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1111'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Targeting von Werbeaktionen und Schaffung von Möglichkeiten für Kundeninterakt
 
 _Merchandising_ ist ein Begriff, der im Einzelhandel verwendet wird, um die Kunst und Wissenschaft der Grundrissentwicklung und der Präsentation von Produkten zu beschreiben. Sie können sich die [kategoriebasierte Navigation](../catalog/navigation-top.md) als Grundriss des Stores vorstellen und die dynamische Präsentation von Produkten als die Bedingungen, die Sie auf die Auflistung von Produkten im Store anwenden können. Außerdem können Sie Programme implementieren, die den Absatz von Produkten steigern:
 
-- [Visual Merchandiser](visual-merchandiser.md) - Eine Reihe erweiterter Tools, mit denen Sie Produkte positionieren und Bedingungen anwenden können, die bestimmen, welche Produkte in der Kategorieliste angezeigt werden.
+- [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} [Visual Merchandiser](visual-merchandiser.md) - Eine Reihe erweiterter Tools, mit denen Sie Produkte positionieren und Bedingungen anwenden können, die bestimmen, welche Produkte in der Kategorieliste angezeigt werden.
 
 - [Geschenkregistrierungen](gift-registries.md) - Geben Sie Ihren Kunden die Möglichkeit, Geschenkregistrierungen für besondere Anlässe zu erstellen und ihre Freunde und Familie einzuladen, ihre Geschenke aus der Geschenkregistrierung zu kaufen.
 
@@ -27,7 +27,7 @@ _Merchandising_ ist ein Begriff, der im Einzelhandel verwendet wird, um die Kuns
 
 >[!TIP]
 >
->Informationen zu Produktempfehlungen und dazu, wie sie Ihnen die erforderlichen Einblicke und die Kontrolle geben können, um das beste Erlebnis für Ihre Käufer zu schaffen, finden Sie im [Benutzerhandbuch zu Produktempfehlungen](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
+>Informationen zu Produktempfehlungen und dazu, wie sie Ihnen die insight und die Kontrolle geben können, die Sie benötigen, um das beste Erlebnis für Ihre Käufer zu schaffen, finden Sie im [Benutzerhandbuch zu Produktempfehlungen](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
 
 ## Promotions
 
