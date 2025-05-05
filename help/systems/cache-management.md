@@ -102,7 +102,7 @@ Informationen zum Zuweisen von Ressourcen zur Gewährung des Zugriffs für Admin
 
 ## Leeren mithilfe der Befehlszeile
 
-Systemadministratoren und Entwickler mit Zugriff auf den Commerce-Anwendungsserver können die Cache- und Cache-Konfiguration auch über die Befehlszeile mithilfe der Commerce-CLI verwalten. Siehe [Verwalten des Cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} im _Konfigurationshandbuch_.
+Systemadministratoren und Entwickler mit Zugriff auf den Commerce-Anwendungsserver können die Cache- und Cache-Konfiguration auch über die Befehlszeile mithilfe der Commerce-CLI verwalten. Siehe [Verwalten des Cache](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} im _Konfigurationshandbuch_.
 
 ## Kontrollen
 
@@ -136,11 +136,11 @@ Auf der Seite [!UICONTROL Cache Management] werden die Cache-Typen mit ihrem akt
 
 Entwickelnde und Systemintegratoren verwenden diese Werte, um die Zwischenspeicherung zu konfigurieren und zu verwalten, wenn sie Adobe Commerce anpassen oder mit ihm integrieren, z. B. um Integrationen mit GraphQL-APIs zu entwickeln.
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Der `cache_type_id` wird auch für die Cache-Verwaltung über die Befehlszeile des Anwendungsservers unter Verwendung der Commerce-CLI verwendet. Beispielsweise zeigt ` bin/magento cache:status config` den aktuellen Status des Konfigurations-Caches an.
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Der `cache_type_id` wird auch für die Cache-Verwaltung über die Befehlszeile des Anwendungsservers unter Verwendung der Commerce-CLI verwendet. Beispielsweise zeigt ` bin/magento cache:status config` den aktuellen Status des Konfigurations-Caches an.
 
 >[!NOTE]
 >
->Entwickelnde und Systemintegratoren können das Cache-Management-System von Commerce anpassen und erweitern, um benutzerdefinierte Module und Integrationen zu unterstützen. Weitere Informationen finden Sie unter [Konfigurieren des ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview)&quot; im _Adobe Commerce-Konfigurationshandbuch_.
+>Entwickelnde und Systemintegratoren können das Cache-Management-System von Commerce anpassen und erweitern, um benutzerdefinierte Module und Integrationen zu unterstützen. Weitere Informationen finden Sie unter [Konfigurieren des ](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cache/caching-overview)&quot; im _Adobe Commerce-Konfigurationshandbuch_.
 
 <!-- prettier-ignore -->
 
@@ -183,7 +183,7 @@ Zwischengespeicherte Inhalte können zur Verarbeitung von Anfragen ähnlicher Be
 - `Sessioned` - Während eines Sitzungsbesuchs wird Käufern, die mit dem Store interagieren, eine Sitzungs-ID zugewiesen. Interaktionen umfassen Aktivitäten wie den Vergleich von Produkten oder das Hinzufügen von Produkten zum Warenkorb. Zwischengespeicherte Seiten, die während der Sitzung generiert werden, werden nur von diesem Kunden während der Sitzung verwendet.
 - `Customer` - Kundensitzungen werden für Kunden erstellt, die sich mit ihrem registrierten Konto anmelden und einkaufen. Während der Sitzung können Kunden Sonderangebote, Aktionen und Preise basierend auf ihrer zugewiesenen Kundengruppe präsentiert werden.
 
-Technische Informationen finden Sie unter [Konfigurieren und Verwenden von ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target="_blank"} und [Verwenden von Redis für die Commerce-Seite und ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target="_blank"}-Cache im _Konfigurationshandbuch_.
+Technische Informationen finden Sie unter [Konfigurieren und Verwenden von ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=de){:target="_blank"} und [Verwenden von Redis für die Commerce-Seite und ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=de){:target="_blank"}-Cache im _Konfigurationshandbuch_.
 
 **_So konfigurieren Sie den Vollseiten-Cache:_**
 
@@ -202,7 +202,7 @@ Technische Informationen finden Sie unter [Konfigurieren und Verwenden von ](htt
 
 1. Um den Timeout für den Seiten-Cache festzulegen, geben Sie den **[!UICONTROL TTL for public content]** ein. (Der Standardwert lautet `86400`)
 
-1. Geben Sie die **[!UICONTROL Handles param size]** ein, um die maximale Anzahl von [Layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)Handles) anzugeben, die am [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP-Endpunkt verarbeitet werden sollen. Durch Größenbeschränkungen können die Sicherheit und Leistung verbessert werden. (Der Standardwert lautet `100`)
+1. Geben Sie die **[!UICONTROL Handles param size]** ein, um die maximale Anzahl von [Layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)Handles) anzugeben, die am [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=de) HTTP-Endpunkt verarbeitet werden sollen. Durch Größenbeschränkungen können die Sicherheit und Leistung verbessert werden. (Der Standardwert lautet `100`)
 
 1. Wenn Sie Lack verwenden, füllen Sie den Abschnitt **[!UICONTROL Varnish Configuration]** wie folgt aus:
 
@@ -212,7 +212,7 @@ Technische Informationen finden Sie unter [Konfigurieren und Verwenden von ](htt
 
    - **[!UICONTROL Backend port]** - Identifizieren Sie den Backend-Port, der zum Generieren von Konfigurationsdateien verwendet wird. Der Standardwert lautet: `8080`.
 
-   - **[!UICONTROL Grace period]** - Geben Sie die Anzahl der Sekunden an, die als Übergangsphase zum Generieren von Konfigurationsdateien verwendet werden sollen. Siehe [Erweiterte Lackkonfiguration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) im _Konfigurationshandbuch_.
+   - **[!UICONTROL Grace period]** - Geben Sie die Anzahl der Sekunden an, die als Übergangsphase zum Generieren von Konfigurationsdateien verwendet werden sollen. Siehe [Erweiterte Lackkonfiguration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=de) im _Konfigurationshandbuch_.
 
    - Um die Konfiguration als `varnish.vcl`-Datei zu exportieren, klicken Sie auf die Schaltfläche für die verwendete Varnish-Version.
 

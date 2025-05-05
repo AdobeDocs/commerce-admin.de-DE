@@ -3,7 +3,7 @@ title: HIPAA-Bereitschaft auf Adobe Commerce
 description: Erfahren Sie, wie Sie in Adobe Commerce die Erweiterung für HIPAA-Konformität hinzufügen und zusätzliche Funktionen für die Einhaltung der HIPAA-Vorschriften nutzen können.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
 source-wordcount: '2392'
@@ -44,7 +44,7 @@ Die folgende Tabelle zeigt die Kompatibilität zwischen Adobe Commerce-Versionen
 
 | Adobe Commerce | Unterstützt | Notizen |
 |----------------|-----------|-------|
-| 2.4.7-p4 - 2.4.7-p5 | 1,2,0 | Unterstützung für 2.4.7-P4 erfordert einen [Hotfix](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
+| 2.4.7-p4 - 2.4.7-p5 | 1,2,0 | Unterstützung für 2.4.7-P4 erfordert einen [Hotfix](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
 | 2.4.6-p9 - 2.4.6-p10 | 1,2,0 | |
 | 2.4.6-p8 | 1,1,0 | Die Unterstützung für [Datendienste](#adobe-commerce-services) wurde mit Version 1.1.0 eingeführt |
 | 2.4.6-p3 - 2.4.6-p7 | 1,0,0 | |
@@ -63,7 +63,7 @@ Die folgende Tabelle zeigt die Kompatibilität zwischen Adobe Commerce-Versionen
 >[!BEGINSHADEBOX]
 
 - Adobe hat Ihr Adobe Commerce-Konto für den Zugriff auf die HIPAA-fähige Erweiterung bereitgestellt.
-- Zugriff auf [repo.magento.com](https://repo.magento.com) zur Installation der Erweiterung. Informationen zum Generieren von Schlüsseln und zum Abrufen der erforderlichen Berechtigungen finden Sie unter [Abrufen Ihrer Authentifizierungsschlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- Zugriff auf [repo.magento.com](https://repo.magento.com) zur Installation der Erweiterung. Informationen zum Generieren von Schlüsseln und zum Abrufen der erforderlichen Berechtigungen finden Sie unter [Abrufen Ihrer Authentifizierungsschlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=de).
 
 >[!ENDSHADEBOX]
 
@@ -71,13 +71,13 @@ Installieren Sie die neueste Version der HIPAA-fähigen Services-Erweiterung (`m
 
 >[!NOTE]
 >
->Um sicherzustellen, dass Backoffice-Ereignisdaten, die an Experience Platform gesendet werden, HIPAA-fähig sind, lesen Sie das [Handbuch zur Datenverbindungserweiterung](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Um sicherzustellen, dass Backoffice-Ereignisdaten, die an Experience Platform gesendet werden, HIPAA-fähig sind, lesen Sie das [Handbuch zur Datenverbindungserweiterung](https://experienceleague.adobe.com/de/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. Wechseln Sie auf Ihrer lokalen Workstation in das Projektverzeichnis für Ihr Adobe Commerce on Cloud-Infrastrukturprojekt.
 
    >[!NOTE]
    >
-   >Informationen zur lokalen Verwaltung von Commerce-Projektumgebungen finden Sie unter [Verwalten von Verzweigungen mit der CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) im _Benutzerhandbuch für Adobe Commerce auf Cloud-Infrastruktur_.
+   >Informationen zur lokalen Verwaltung von Commerce-Projektumgebungen finden Sie unter [Verwalten von Verzweigungen mit der CLI](https://experienceleague.adobe.com/de/docs/commerce-cloud-service/user-guide/develop/cli-branches) im _Benutzerhandbuch für Adobe Commerce auf Cloud-Infrastruktur_.
 
 1. Checken Sie die Umgebungsverzweigung aus, um sie mithilfe der Adobe Commerce Cloud-CLI zu aktualisieren.
 
@@ -105,7 +105,7 @@ Installieren Sie die neueste Version der HIPAA-fähigen Services-Erweiterung (`m
    git push origin <branch-name>
    ```
 
-   Durch das Pushen der Aktualisierungen wird der [Commerce-Cloud-Bereitstellungsprozess](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) zum Anwenden der Änderungen initiiert. Überprüfen Sie den Bereitstellungsstatus im [Bereitstellungsprotokoll](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Durch das Pushen der Aktualisierungen wird der [Commerce-Cloud-Bereitstellungsprozess](https://experienceleague.adobe.com/de/docs/commerce-cloud-service/user-guide/develop/deploy/process) zum Anwenden der Änderungen initiiert. Überprüfen Sie den Bereitstellungsstatus im [Bereitstellungsprotokoll](https://experienceleague.adobe.com/de/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Installation überprüfen
 
@@ -279,13 +279,13 @@ In der folgenden Tabelle sind die Adobe Commerce-Services aufgeführt, die für 
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | Ja | Ja |
 | [API Mesh für Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/) | Ja | Ja |
-| [SaaS-Datenexport](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Ja | Ja |
-| [Live-Suche](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Nein | Nein |
-| [Produktempfehlungen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Nein | Nein |
-| [Zahlungsdienste](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Nein | Nein |
-| [Back-Office-Ereignisse der Datenverbindung](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
-| [Datenverbindungs-Storefront-Ereignisse](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nein | Nein |
-| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Nein | Nein |
+| [SaaS-Datenexport](https://experienceleague.adobe.com/de/docs/commerce/saas-data-export/overview) | Ja | Ja |
+| [Live-Suche](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview) | Nein | Nein |
+| [Produktempfehlungen](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/overview) | Nein | Nein |
+| [Zahlungsdienste](https://experienceleague.adobe.com/de/docs/commerce/payment-services/guide-overview) | Nein | Nein |
+| [Back-Office-Ereignisse der Datenverbindung](https://experienceleague.adobe.com/de/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
+| [Datenverbindungs-Storefront-Ereignisse](https://experienceleague.adobe.com/de/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nein | Nein |
+| [Audience Activation](https://experienceleague.adobe.com/de/docs/commerce-admin/customers/audience-activation) | Nein | Nein |
 
 ### Tools
 
@@ -297,7 +297,7 @@ Mit dem [Security Scan Tool](../../systems/security-scan.md) für Adobe Commerce
 - Alle installierten Erweiterungen entsprechen einer vordefinierten Zulassungsliste
 - Es sind keine nicht unterstützten Adobe-Services installiert
 
-Sie können [das Tool konfigurieren](../../systems/security-scan.md#run-a-security-scan) um Ihnen E-Mail-Benachrichtigungen mit Details aus geplanten Scans zu senden oder [Berichte manuell anzuzeigen](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report).
+Sie können [das Tool konfigurieren](../../systems/security-scan.md#run-a-security-scan) um Ihnen E-Mail-Benachrichtigungen mit Details aus geplanten Scans zu senden oder [Berichte manuell anzuzeigen](https://experienceleague.adobe.com/de/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report).
 
 ## Deaktivierte Funktionen
 
@@ -305,7 +305,7 @@ Um HIPAA-Anforderungen zu erfüllen, sind einige von Adobe Commerce unterstützt
 
 Die folgenden Funktionen sind im Modul HIPAA-Bereitschaft standardmäßig deaktiviert. Händler können diese Funktionen auf eigenes Risiko aktivieren.
 
-- **[Transaktions-E-](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)**: SendGrid ist standardmäßig deaktiviert, da der Service nicht HIPAA-fähig ist. Adobe Commerce bietet eine Integrationsoption, die Sie mit Ihrem eigenen [AWS Simple Email Service](https://docs.aws.amazon.com/ses/)-Konto verwenden können. Weitere Konfigurationsdetails erhalten Sie von Ihrem Customer Technical Account Manager oder dem Adobe Commerce Support.
+- **[Transaktions-E-](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=de)**: SendGrid ist standardmäßig deaktiviert, da der Service nicht HIPAA-fähig ist. Adobe Commerce bietet eine Integrationsoption, die Sie mit Ihrem eigenen [AWS Simple Email Service](https://docs.aws.amazon.com/ses/)-Konto verwenden können. Weitere Konfigurationsdetails erhalten Sie von Ihrem Customer Technical Account Manager oder dem Adobe Commerce Support.
 
 - **[Gast-Checkout](../../stores-purchase/checkout-guest.md)** - Diese Funktion stellt ein potenzielles Risiko für verschiedene Aspekte von HIPAA dar, einschließlich Protokollierung, Zugriffskontrolle, PHI-Hygiene und Herkunft und möglicherweise mehr.
 

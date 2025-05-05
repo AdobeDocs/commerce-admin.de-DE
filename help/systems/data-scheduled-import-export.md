@@ -33,7 +33,7 @@ Geplante Importe und Exporte können täglich, wöchentlich oder monatlich ausge
    >
    >Wenn Sie einen geplanten Import/Export erstellen oder aktualisieren, führt dies zu einer Änderung der Systemkonfiguration. Achten Sie nach dem Speichern darauf, den Hinweis zur Cache-Invalidierung zu adressieren, der oben auf der Admin-Seite angezeigt wird, und den Cache zu leeren, um den neuen oder aktualisierten Zeitplan anzuwenden.
 
-1. [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Nach jedem geplanten Auftrag wird eine Kopie der Datei im `var/log/import_export` auf dem lokalen Adobe Commerce-Server abgelegt.
+1. [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Nach jedem geplanten Auftrag wird eine Kopie der Datei im `var/log/import_export` auf dem lokalen Adobe Commerce-Server abgelegt.
 
    Die Details der einzelnen Vorgänge werden nicht in das Protokoll geschrieben. Wenn ein Fehler auftritt, wird eine Benachrichtigung über den fehlgeschlagenen Import-/Exportvorgang mit einer Beschreibung des Fehlers gesendet.
 
@@ -48,7 +48,7 @@ Der Vorteil der Verwendung des geplanten Imports besteht darin, dass eine Datend
 
 Die Details der einzelnen Importvorgänge werden nicht in ein Protokoll geschrieben. Wenn jedoch ein Fehler auftritt, erhalten _eine E-_ mit einer Beschreibung des Fehlers. Das Ergebnis des letzten geplanten Importvorgangs wird in der Spalte Letztes Ergebnis auf der Seite Geplanter Import/Export angezeigt.
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Nach jedem Importvorgang wird eine Kopie der Importdatei im `var/log/import_export` auf dem Server abgelegt, auf dem Adobe Commerce oder Magento Open Source bereitgestellt werden. Der Zeitstempel, die Markierung der importierten Entität (Produkte oder Kunden) und der Typ des Vorgangs (in diesem Fall Import) werden zum Importdateinamen hinzugefügt.
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Nach jedem Importvorgang wird eine Kopie der Importdatei im `var/log/import_export` auf dem Server abgelegt, auf dem Adobe Commerce oder Magento Open Source bereitgestellt werden. Der Zeitstempel, die Markierung der importierten Entität (Produkte oder Kunden) und der Typ des Vorgangs (in diesem Fall Import) werden zum Importdateinamen hinzugefügt.
 
 Nach jedem geplanten Importvorgang wird automatisch ein Neuindizierungsvorgang ausgeführt. Im Frontend werden Änderungen an den Beschreibungen und anderen Textinformationen angezeigt, nachdem die aktualisierten Daten in die Datenbank übertragen wurden, und die Preisänderungen werden erst nach dem Neuindizierungsvorgang angezeigt.
 
@@ -203,7 +203,7 @@ Der Vorteil der Verwendung des geplanten Exports besteht darin, dass die Daten n
 
 Die Details der einzelnen Exporte werden nicht in ein Protokoll geschrieben. Wenn jedoch ein Fehler auftritt, erhalten Sie eine E-Mail zu Fehlern beim Export, die die Fehlerbeschreibung enthält. Das Ergebnis des letzten Exportvorgangs wird auf der Seite Geplanter Import/Export in der Spalte Letztes Ergebnis angezeigt.
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Nach jedem Export wird die Exportdatei an dem benutzerdefinierten Speicherort abgelegt und eine Kopie in das `var/log/import_export` auf dem Server, auf dem Adobe Commerce oder Magento Open Source bereitgestellt wird. Der Zeitstempel und die Markierung der exportierten Entität (Produkte oder Kunden) sowie der Typ des Vorgangs (in diesem Fall „Export„) werden dem Namen der Exportdatei hinzugefügt.
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Nach jedem Export wird die Exportdatei an dem benutzerdefinierten Speicherort abgelegt und eine Kopie in das `var/log/import_export` auf dem Server, auf dem Adobe Commerce oder Magento Open Source bereitgestellt wird. Der Zeitstempel und die Markierung der exportierten Entität (Produkte oder Kunden) sowie der Typ des Vorgangs (in diesem Fall „Export„) werden dem Namen der Exportdatei hinzugefügt.
 
 ### Schritt 1: Abschließen der Exporteinstellungen
 

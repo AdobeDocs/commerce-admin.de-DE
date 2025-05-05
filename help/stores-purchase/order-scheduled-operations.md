@@ -45,11 +45,11 @@ Durch die Planung dieser Aufgaben können Sie die Sperren vermeiden, die beim Sp
 
 **_So aktivieren Sie die Aktualisierungen und Neuindizierungen:_**
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Wenn [Produktionsmodus](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (der in Adobe Commerce in der Cloud-Infrastruktur verwendete Standardmodus) aktiviert ist, führen Sie den folgenden Befehl aus:
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Wenn [Produktionsmodus](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=de#production-mode) (der in Adobe Commerce in der Cloud-Infrastruktur verwendete Standardmodus) aktiviert ist, führen Sie den folgenden Befehl aus:
 
 `bin/magento config:set dev/grid/async_indexing 1`
 
-Wenn [Standardmodus](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) aktiviert ist, führen Sie die folgenden Schritte aus:
+Wenn [Standardmodus](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=de#default-mode) aktiviert ist, führen Sie die folgenden Schritte aus:
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{config}}
 
-Diese Einstellungen sind verfügbar, wenn [[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/install.html) installiert ist.
+Diese Einstellungen sind verfügbar, wenn [[!DNL Amazon Sales Channel]](https://experienceleague.adobe.com/docs/commerce-channels/amazon/getting-started/install.html?lang=de) installiert ist.
 
 ![Sales Channel-Einstellungen](./assets/config-sales-channel-global-settings.png)<!-- zoom -->
 

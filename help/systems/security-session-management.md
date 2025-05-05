@@ -48,7 +48,7 @@ Verwenden Sie die folgenden Konfigurationseinstellungen, um die maximale Sitzung
 
 ### Admin-Sitzungen
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Wenn Sie die maximale Sitzungsgröße überschreiten, wird eine Fehlermeldung angezeigt und das System protokolliert die Sitzungsgrößenbeschränkung im `var/log`.
 
@@ -60,7 +60,7 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### Storefront-Sitzungen
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Wenn Sie die maximale Sitzungsgröße überschreiten, wird kein Fehler angezeigt, aber das System protokolliert die Sitzungsgrößenbeschränkung im `var/log`.
 
@@ -68,7 +68,7 @@ Wenn Sie die maximale Sitzungsgröße überschreiten, wird kein Fehler angezeigt
 
 Adobe Commerce und Magento Open Source ermöglichen es Ihnen, Sitzungsvariablen zu validieren, um vor möglichen Sitzungsfixierungsangriffen oder Versuchen zu schützen, Benutzersitzungen zu vergiften oder zu entführen. Die Sitzungsvalidierungseinstellungen bestimmen, wie Sitzungsvariablen bei jedem Store-Besuch validiert werden und ob die Sitzungs-ID in der URL des Stores enthalten ist.
 
-Technische Informationen finden Sie unter [Verwenden von Redis für ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) Sitzungsspeicherung) im _Konfigurationshandbuch_.
+Technische Informationen finden Sie unter [Verwenden von Redis für ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=de) Sitzungsspeicherung) im _Konfigurationshandbuch_.
 
 ![Allgemeine Konfiguration - Validierung von Web-Sitzungen](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
