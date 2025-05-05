@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Kundenprofil aktualisieren
 
-Das linke Bedienfeld der _[!UICONTROL Customer Information]_enthält Informationen über Kundenaktivität, Adressen, Bestellstatistiken, aktuelle Bestellungen, den Inhalt des Warenkorbs, Produktbewertungen und Newsletter-Abonnements.
+Das linke Bedienfeld der _[!UICONTROL Customer Information]_&#x200B;enthält Informationen über Kundenaktivität, Adressen, Bestellstatistiken, aktuelle Bestellungen, den Inhalt des Warenkorbs, Produktbewertungen und Newsletter-Abonnements.
 
 ![Kundenprofil](assets/cust-profile.png){width="700" zoomable="yes"}
 

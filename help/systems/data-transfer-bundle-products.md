@@ -55,7 +55,7 @@ In diesem Schritt wird das Sprite Yoga Companion Kit als (CSV[-Datei ](data-csv.
 
 1. Scrollen Sie nach unten zum unteren Rand des Abschnitts und klicken Sie auf **[!UICONTROL Continue]**.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_des_[!UICONTROL File name]_ Rasters auf **[!UICONTROL Select]** und wählen Sie `Download` aus.
+1. Klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;des&#x200B;_[!UICONTROL File name]_ Rasters auf **[!UICONTROL Select]** und wählen Sie `Download` aus.
 
    Die Datei wird im von Ihrem Browser verwendeten Download-Speicherort angezeigt.
 
@@ -83,7 +83,7 @@ In diesem Schritt wird das Sprite Yoga Companion Kit als (CSV[-Datei ](data-csv.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. Legen Sie unter _[!UICONTROL Import Settings]_**[!UICONTROL Entity Type]**auf `Products` fest.
+1. Legen Sie unter _[!UICONTROL Import Settings]_&#x200B;**[!UICONTROL Entity Type]**&#x200B;auf `Products` fest.
 
 1. Legen Sie **[!UICONTROL Import Behavior]** auf `Replace` fest.
 
@@ -97,6 +97,6 @@ In diesem Schritt wird das Sprite Yoga Companion Kit als (CSV[-Datei ](data-csv.
 
 1. Wenn die Datei gültig ist, klicken Sie auf **[!UICONTROL Import]**.
 
-1. Wenn der Vorgang abgeschlossen ist, navigieren Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**und klicken Sie auf **[!UICONTROL Flush Cache Storage]**.
+1. Wenn der Vorgang abgeschlossen ist, navigieren Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;und klicken Sie auf **[!UICONTROL Flush Cache Storage]**.
 
    Dadurch wird sichergestellt, dass das aktualisierte Produkt sofort in der Storefront verfügbar ist.

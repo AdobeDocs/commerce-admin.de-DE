@@ -16,7 +16,7 @@ Eine Bestellung, die bezahlt wurde, aber auf den Versand wartet, hat den Status 
 
 1. Wählen Sie in der _Admin_-Seitenleiste **[!UICONTROL Sales]** > **[!UICONTROL Orders]** aus.
 
-1. Suchen Sie in der _[!UICONTROL Orders]_die zu versendende Bestellung und klicken Sie darauf, um sie zu öffnen.
+1. Suchen Sie in der _[!UICONTROL Orders]_&#x200B;die zu versendende Bestellung und klicken Sie darauf, um sie zu öffnen.
 
 1. Klicken Sie oben rechts auf die Schaltfläche **[!UICONTROL Ship]** .
 
@@ -26,7 +26,7 @@ Eine Bestellung, die bezahlt wurde, aber auf den Versand wartet, hat den Status 
 
 1. Um vom Spediteur einen Versandtitel erstellen zu lassen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Create Shipping Label]** und legen Sie die Optionen fest:
 
-   - Um eine Tracking-Nummer hinzuzufügen, scrollen Sie nach unten zum Abschnitt _[!UICONTROL Shipping Information]_und klicken Sie auf **[!UICONTROL Add Tracking Number]**.
+   - Um eine Tracking-Nummer hinzuzufügen, scrollen Sie nach unten zum Abschnitt _[!UICONTROL Shipping Information]_&#x200B;und klicken Sie auf **[!UICONTROL Add Tracking Number]**.
 
    - Führen Sie einen der folgenden Schritte aus:
 
@@ -62,7 +62,7 @@ Eine Bestellung, die bezahlt wurde, aber auf den Versand wartet, hat den Status 
 
 1. Suchen Sie die Sendung in der Liste und klicken Sie, um den Datensatz zu öffnen.
 
-1. Wenn Sie der Bestellung einen Kommentar hinzufügen möchten, scrollen Sie zum Abschnitt _[!UICONTROL Comments History]_und geben Sie den Kommentar in das Feld ein.
+1. Wenn Sie der Bestellung einen Kommentar hinzufügen möchten, scrollen Sie zum Abschnitt _[!UICONTROL Comments History]_&#x200B;und geben Sie den Kommentar in das Feld ein.
 
    - Um den Kommentar per E-Mail an den Kunden zu senden, aktivieren Sie das Kontrollkästchen **[!UICONTROL Notify Customer by Email]** .
 
@@ -78,7 +78,7 @@ Eine Bestellung, die bezahlt wurde, aber auf den Versand wartet, hat den Status 
 
 1. Suchen Sie den Versandauftrag im Raster und klicken Sie auf **[!UICONTROL View]**.
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Shipping & Handling Information]_und klicken Sie auf **[!UICONTROL Track Order]**.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Shipping & Handling Information]_&#x200B;und klicken Sie auf **[!UICONTROL Track Order]**.
 
    Alle verfügbaren Tracking-Informationen werden in einem Popup-Fenster angezeigt.
 

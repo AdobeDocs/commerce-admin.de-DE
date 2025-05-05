@@ -45,7 +45,7 @@ Im folgenden Beispiel wird der Kategorieseite während der Kampagne ein Werbebil
 
 1. Suchen Sie die Kampagne in der angezeigten Liste oder Zeitleiste und öffnen Sie sie, um auf die Details zuzugreifen:
 
-   - Klicken Sie zur Anzeige einer Liste auf **[!UICONTROL Select]** und dann in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View/Edit]**.
+   - Klicken Sie zur Anzeige einer Liste auf **[!UICONTROL Select]** und dann in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL View/Edit]**.
    - Klicken Sie für eine Zeitleisten-Anzeige einmal, um die Zusammenfassung anzuzeigen, und klicken Sie dann auf **[!UICONTROL View/Edit]**.
 
    ![Kampagnendetails](./assets/content-staging-dashboard-summary.png){width="600" zoomable="yes"}

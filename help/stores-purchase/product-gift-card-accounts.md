@@ -26,7 +26,7 @@ Die Geschenkgutscheinkonfiguration legt die Standardeinstellungen für alle Gesc
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Gift Cards]**.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Gift Card Email Settings]_und führen Sie folgende Schritte aus:
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Gift Card Email Settings]_&#x200B;und führen Sie folgende Schritte aus:
 
    - Legen Sie **[!UICONTROL Gift Card Notification Email Sender]** auf die Store-Identität fest, die als Absender von Geschenkgutschein-Benachrichtigungen angezeigt wird.
 
@@ -34,7 +34,7 @@ Die Geschenkgutscheinkonfiguration legt die Standardeinstellungen für alle Gesc
 
    ![E-Mail-Einstellungen für Geschenkkarte](../configuration-reference/sales/assets/gift-cards-gift-card-email-settings.png){width="600" zoomable="yes"}
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Email Sent from Gift Card Account Management]_und führen Sie folgende Schritte aus:
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Email Sent from Gift Card Account Management]_&#x200B;und führen Sie folgende Schritte aus:
 
    - Legen Sie **[!UICONTROL Gift Card Email Sender]** auf die Store-Identität fest, damit sie als Absender der Geschenkkarten angezeigt wird.
 
@@ -67,7 +67,7 @@ Siehe [Speichern von E-Mail](../configuration-reference/general/store-email-addr
 
 ### Schritt 3: Erstellen des Geschenkkarten-Code-Pools
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Gift Card Account General Settings]_und führen Sie folgende Schritte aus:
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Gift Card Account General Settings]_&#x200B;und führen Sie folgende Schritte aus:
 
    ![Allgemeine Einstellungen für Geschenkkartenkonten](../configuration-reference/sales/assets/gift-cards-gift-card-account-general-settings.png){width="600" zoomable="yes"}
 
@@ -95,11 +95,11 @@ Siehe [Speichern von E-Mail](../configuration-reference/general/store-email-addr
 
    - Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 
-   - Suchen Sie die Reihenfolge in der Liste und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View]**.
+   - Suchen Sie die Reihenfolge in der Liste und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL View]**.
 
    - Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Items Ordered]_.
 
-   Die Zahl befindet sich in der Spalte _[!UICONTROL Product]_unter **[!UICONTROL Gift Card Accounts]**.
+   Die Zahl befindet sich in der Spalte _[!UICONTROL Product]_&#x200B;unter **[!UICONTROL Gift Card Accounts]**.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Gift Card Accounts]**.
 
@@ -115,7 +115,7 @@ Siehe [Speichern von E-Mail](../configuration-reference/general/store-email-addr
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add Gift Card Account]**.
 
-1. Legen Sie im Abschnitt _[!UICONTROL Information]_den Wert **[!UICONTROL Active]**auf `Yes` fest und führen Sie folgende Schritte aus:
+1. Legen Sie im Abschnitt _[!UICONTROL Information]_&#x200B;den Wert **[!UICONTROL Active]**&#x200B;auf `Yes` fest und führen Sie folgende Schritte aus:
 
    - Damit der Kartensaldo an der Kasse eingelöst oder auf das Guthaben des Kunden übertragen werden kann, setzen Sie **[!UICONTROL Redeemable]** auf `Yes`.
 

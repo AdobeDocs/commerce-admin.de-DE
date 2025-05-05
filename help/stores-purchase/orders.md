@@ -111,7 +111,7 @@ Um eine Aktion auf bestimmte Bestellungen anzuwenden, aktivieren Sie das Kontrol
 | [!UICONTROL Grand Total (Base)] | Die Gesamtsumme der Bestellung. |
 | [!UICONTROL Grand Total (Purchased)] | Die Gesamtsumme der in der Bestellung gekauften Produkte. |
 | [!UICONTROL Status] | Der aktuelle Bestellstatus. |
-| [!UICONTROL Action] | _[!UICONTROL View]_öffnet die Bestellung im Bearbeitungsmodus. |
+| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;öffnet die Bestellung im Bearbeitungsmodus. |
 | [!UICONTROL Allocated sources] | Die Quellen, die dieser bestimmten Bestellung zugeordnet sind. |
 
 {style="table-layout:auto"}

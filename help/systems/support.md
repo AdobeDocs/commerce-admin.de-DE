@@ -27,11 +27,11 @@ Die Datenerfassung erfasst die Informationen über Ihr System, die unser Support
 
 1. Klicken Sie oben rechts auf **[!UICONTROL New Backup]**.
 
-   Die Erstellung des Backups dauert einige Minuten. Sie können die Ergebnisse der Verarbeitung überwachen, indem Sie auf **[!UICONTROL Refresh Status]** klicken. Nach Abschluss des Vorgangs wird die Sicherung im _[!UICONTROL Data Collector]_angezeigt.
+   Die Erstellung des Backups dauert einige Minuten. Sie können die Ergebnisse der Verarbeitung überwachen, indem Sie auf **[!UICONTROL Refresh Status]** klicken. Nach Abschluss des Vorgangs wird die Sicherung im _[!UICONTROL Data Collector]_&#x200B;angezeigt.
 
 1. Gehen Sie wie folgt vor, um ein Protokoll mit den Backup-Details anzuzeigen:
 
-   - Wählen Sie in der _[!UICONTROL Action]_Spalte **[!UICONTROL Show Log]**aus.
+   - Wählen Sie in der _[!UICONTROL Action]_&#x200B;Spalte **[!UICONTROL Show Log]**&#x200B;aus.
 
    - Klicken Sie auf **[!UICONTROL Back]** , um zum Raster zurückzukehren.
 
@@ -55,7 +55,7 @@ Nachdem das Backup generiert wurde, können Sie die Kopie von Code- und DB-Daten
 
 1. Stellen Sie sicher, dass sie einen `Complete` Status hat.
 
-1. Klicken Sie auf den Entitätsnamen in _[!UICONTROL Code Dump]_oder_[!UICONTROL DB Dump]_ Spalten.
+1. Klicken Sie auf den Entitätsnamen in _[!UICONTROL Code Dump]_&#x200B;oder&#x200B;_[!UICONTROL DB Dump]_ Spalten.
 
 Der Download-Prozess sollte automatisch gestartet werden.
 
@@ -65,7 +65,7 @@ Der Download-Prozess sollte automatisch gestartet werden.
 
 1. Suchen Sie die zu löschenden Sicherungsdaten und wählen Sie sie aus.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Delete]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Delete]**.
 
 1. Um die Aktion zu bestätigen, klicken Sie auf **[!UICONTROL OK]**.
 
@@ -116,7 +116,7 @@ Wählen Sie in der Spalte **[!UICONTROL Action]** des Rasters eine der folgenden
 
 ### Anzeigen von Systemberichtsdetails
 
-1. Wählen Sie für den benötigten Bericht **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_aus.
+1. Wählen Sie für den benötigten Bericht **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_&#x200B;aus.
 
 1. Erweitern Sie im linken Bereich ![Erweiterungsauswahl](../assets/icon-display-expand.png) jeden Abschnitt des Berichts, um die Details anzuzeigen.
 

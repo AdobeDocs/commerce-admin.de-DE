@@ -41,7 +41,7 @@ Kategorienproduktregeln können den Prozess der Zuweisung spezifischer Produkte 
 
    >[!NOTE]
    >
-   >Stellen Sie sicher, dass das ausgewählte Attribut KEINE Mehrfachauswahl-_[!UICONTROL Input Type]_ist.
+   >Stellen Sie sicher, dass das ausgewählte Attribut KEINE Mehrfachauswahl-_[!UICONTROL Input Type]_&#x200B;ist.
 
 1. Schließen Sie die [Konfiguration](smart-attributes-configure.md) ab, um jedes _Smart_-Attribut zu identifizieren, das mit Visual Merchandiser verwendet werden soll.
 

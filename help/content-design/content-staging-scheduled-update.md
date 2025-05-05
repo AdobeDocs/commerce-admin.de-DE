@@ -24,9 +24,9 @@ Das folgende Beispiel zeigt, wie Sie eine temporäre Preisänderung für ein Pro
 
 ## Planen einer Produktaktualisierung
 
-1. Öffnen Sie im _[!UICONTROL Products]_ein Produkt im Bearbeitungsmodus.
+1. Öffnen Sie im _[!UICONTROL Products]_&#x200B;ein Produkt im Bearbeitungsmodus.
 
-1. Klicken Sie im _[!UICONTROL Scheduled Changes]_oben auf der Seite auf **[!UICONTROL Schedule New Update]**.
+1. Klicken Sie im _[!UICONTROL Scheduled Changes]_&#x200B;oben auf der Seite auf **[!UICONTROL Schedule New Update]**.
 
    ![Neues Update planen](./assets/content-staging-product-schedule-new-update.png){width="600" zoomable="yes"}
 
@@ -49,7 +49,7 @@ Das folgende Beispiel zeigt, wie Sie eine temporäre Preisänderung für ein Pro
      >
      >Start- und Enddatum der Kampagne müssen mithilfe der Admin-Zeitzone **_Standard_** definiert werden, die aus der lokalen Zeitzone jeder Website konvertiert wird. Wenn Sie beispielsweise mehrere Websites in verschiedenen Zeitzonen haben, aber eine Kampagne auf der Grundlage einer US-amerikanischen (Standard) Zeitzone starten möchten, müssen Sie für jede lokale Zeitzone ein separates Update planen. Legen Sie in diesem Fall **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** als von jeder lokalen Website-Zeitzone in die standardmäßige Admin-Zeitzone konvertiert fest.
 
-1. Scrollen Sie nach unten zu _[!UICONTROL Price]_und klicken Sie auf **[!UICONTROL Advanced Pricing]**.
+1. Scrollen Sie nach unten zu _[!UICONTROL Price]_&#x200B;und klicken Sie auf **[!UICONTROL Advanced Pricing]**.
 
 1. Geben Sie während der geplanten Kampagne einen **[!UICONTROL Special Price]** für das Produkt ein und klicken Sie auf **[!UICONTROL Done]**.
 

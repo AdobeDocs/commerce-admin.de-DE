@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Kategorien - Inhaltseinstellungen
 
-Die _[!UICONTROL Content]_Einstellungen bestimmen, ob zusätzliche Inhalte auf der Kategorieseite angezeigt werden. Zusätzlich zur Liste der Kategorieprodukte kann die Seite ein Bild, eine Beschreibung und einen CMS-Block enthalten. Sie können die [[!DNL Page Builder]](../page-builder/introduction.md) Inhaltswerkzeuge verwenden, um die Kategoriebeschreibung zu definieren.
+Die _[!UICONTROL Content]_&#x200B;Einstellungen bestimmen, ob zusätzliche Inhalte auf der Kategorieseite angezeigt werden. Zusätzlich zur Liste der Kategorieprodukte kann die Seite ein Bild, eine Beschreibung und einen CMS-Block enthalten. Sie können die [[!DNL Page Builder]](../page-builder/introduction.md) Inhaltswerkzeuge verwenden, um die Kategoriebeschreibung zu definieren.
 
 ## Hinzufügen der Kategoriebeschreibung in [!DNL Page Builder]
 

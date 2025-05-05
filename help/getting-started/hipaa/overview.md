@@ -62,7 +62,7 @@ Die folgende Tabelle zeigt die Kompatibilität zwischen Adobe Commerce-Versionen
 >[!BEGINSHADEBOX]
 
 - Adobe Systems hat Ihre Adobe Systems Commerce-Konto für den Zugriff auf die HIPAA Ready-Erweiterung bereitgestellt.
-- Zugriff auf repo.magento.com [](https://repo.magento.com) zum Installieren der Erweiterung. Informationen zum Generieren von Schlüsseln und zum Abrufen der erforderlichen Rechte finden Sie unter [Abrufen von Authentifizierungsschlüsseln](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+- Zugriff auf repo.magento.com [&#128279;](https://repo.magento.com) zum Installieren der Erweiterung. Informationen zum Generieren von Schlüsseln und zum Abrufen der erforderlichen Rechte finden Sie unter [Abrufen von Authentifizierungsschlüsseln](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 >[!ENDSHADEBOX]
 
@@ -227,7 +227,7 @@ Die Verbesserungen der Import- und Exportfunktionen konzentrieren sich auf die V
 
 #### Protokollierung administrativer Aktionen
 
-Eine der wichtigsten Verbesserungen bei den Import- und Exportfunktionen ist die verbesserte Protokollierung von Verwaltungsaktionen. Mit dieser Erweiterung wird die Möglichkeit eingeführt, sich eingehender mit Aktivitäten im Zusammenhang mit dem Datenimport und -export zu befassen, was zu einer verbesserten Tracking und Überprüfbarkeit beiträgt. Die folgenden Aktionen werden jetzt protokolliert und im **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**Raster angezeigt:
+Eine der wichtigsten Verbesserungen bei den Import- und Exportfunktionen ist die verbesserte Protokollierung von Verwaltungsaktionen. Mit dieser Erweiterung wird die Möglichkeit eingeführt, sich eingehender mit Aktivitäten im Zusammenhang mit dem Datenimport und -export zu befassen, was zu einer verbesserten Tracking und Überprüfbarkeit beiträgt. Die folgenden Aktionen werden jetzt protokolliert und im **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**&#x200B;Raster angezeigt:
 
 | Art | Aktionen |
 | ---- | ------- |
@@ -308,6 +308,6 @@ Die folgenden Funktionen sind im HIPAA-Readiness Modul standardmäßig deaktivie
 
 - **[Gast Checkout](../../stores-purchase/checkout-guest.md)** – Diese Funktion stellt ein potenzielles Risiko für verschiedene Aspekte des HIPAA dar, einschließlich Protokollierung, Zugriffskontrolle, PHI-Hygiene und -Herkunft und möglicherweise mehr.
 
-- **[](../../merchandising-promotions/newsletters.md)** Funktion Newsletter – Diese Funktion ist deaktiviert, um zu verhindern, dass PHI in einem Marketing Kontext verwendet wird.
+- **[&#128279;](../../merchandising-promotions/newsletters.md)** Funktion Newsletter – Diese Funktion ist deaktiviert, um zu verhindern, dass PHI in einem Marketing Kontext verwendet wird.
 
 - **[Erweitert Reporting-Service-Einstellung](../../getting-started/business-intelligence.md)**: Diese Konfigurationseinstellung ist deaktiviert, um zu verhindern, dass PHI für Analyse und Berichte verwendet wird.

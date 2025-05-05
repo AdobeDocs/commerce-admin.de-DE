@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Auf _Seite „Benachrichtigungen_ werden alle Nachrichten nach Schweregrad sortiert aufgelistet, wobei die neueste Nachricht ganz oben steht. Die Aktionsbefehle können verwendet werden, um einzelne Nachrichten als gelesen zu markieren, detailliertere Informationen anzuzeigen oder die Nachricht aus dem Posteingang zu entfernen.
 
-1. Führen Sie einen der folgenden Schritte aus, um die _[!UICONTROL Notifications]_zu öffnen:
+1. Führen Sie einen der folgenden Schritte aus, um die _[!UICONTROL Notifications]_&#x200B;zu öffnen:
 
    - Klicken Sie auf _Benachrichtigung_ in der Kopfzeile. Wenn eine oder mehrere neue Nachrichten angezeigt werden, klicken Sie auf **[!UICONTROL See All]**.
 

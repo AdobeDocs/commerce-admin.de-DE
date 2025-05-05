@@ -73,7 +73,7 @@ Gehen Sie wie folgt vor, um eines der Objekte in dieser Kampagne zu bearbeiten.
 
 1. Suchen Sie die Kampagne in der angezeigten Liste oder Zeitleiste und öffnen Sie sie, um auf die Details zuzugreifen:
 
-   - Klicken Sie zur Anzeige einer Liste auf **[!UICONTROL Select]** und dann in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View/Edit]**.
+   - Klicken Sie zur Anzeige einer Liste auf **[!UICONTROL Select]** und dann in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL View/Edit]**.
    - Klicken Sie für eine Zeitleisten-Anzeige einmal, um die Zusammenfassung anzuzeigen, und klicken Sie dann auf **[!UICONTROL View/Edit]**.
 
 1. Aktualisieren Sie nach Bedarf alle Einstellungen im Abschnitt _[!UICONTROL General]_.

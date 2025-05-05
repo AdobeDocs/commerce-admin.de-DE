@@ -121,7 +121,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Optimie
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | Global | Gibt den Adapter zum Rendern von Bildern an. Leeren Sie nach dem Ändern der Adaptereinstellung den Cache für Katalogbilder. Optionen: `PHP GD2` / `ImageMagick` <br/><br/>**_Hinweis:_**Der ICO-Dateityp wird nur vom ImageMagik-Adapter unterstützt. |
+| [!UICONTROL Image Adapter] | Global | Gibt den Adapter zum Rendern von Bildern an. Leeren Sie nach dem Ändern der Adaptereinstellung den Cache für Katalogbilder. Optionen: `PHP GD2` / `ImageMagick` <br/><br/>**_Hinweis:_**&#x200B;Der ICO-Dateityp wird nur vom ImageMagik-Adapter unterstützt. |
 
 {style="table-layout:auto"}
 

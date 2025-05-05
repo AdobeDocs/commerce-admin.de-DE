@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produktattribute erstellen und löschen
 
-Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!UICONTROL Product Attributes]_arbeiten. Die folgenden Schritte zeigen, wie Sie Attribute über das Menü_[!UICONTROL Stores]_ erstellen.
+Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!UICONTROL Product Attributes]_&#x200B;arbeiten. Die folgenden Schritte zeigen, wie Sie Attribute über das Menü&#x200B;_[!UICONTROL Stores]_ erstellen.
 
 ## Schritt 1: Grundlegende Attributeigenschaften beschreiben
 
@@ -31,7 +31,7 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
    | `Text Field` | Ein einzeiliges Eingabefeld für Text. |
    | `Text Area` | Ein mehrzeiliges Eingabefeld zum Eingeben von Textabsätzen, z. B. eine Produktbeschreibung. Sie können den WYSIWYG-Editor verwenden, um den Text mit HTML-Tags zu formatieren, oder die Tags direkt in den Text eingeben. |
    | `Text Editor` | Ein voll funktionsfähiger Texteditor am Attributspeicherort. |
-   | Datum | Zeigt einen Datumswert im [bevorzugten Format](attributes-input-types.md#date-and-time-options) und [Zeitzone](../getting-started/store-details.md#locale-options) an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis _**Je nach Systemkonfiguration können_Admin _-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](attributes-input-types.md#date-and-time-options). |
+   | Datum | Zeigt einen Datumswert im [bevorzugten Format](attributes-input-types.md#date-and-time-options) und [Zeitzone](../getting-started/store-details.md#locale-options) an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis _**&#x200B;Je nach Systemkonfiguration können_Admin _-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Zeigt eine Dropdown-Liste mit vordefinierten Optionen `Yes` und `No` an. |
    | `Dropdown` | Zeigt eine Dropdown-Liste mit Werten an, die nur eine einzige Auswahl akzeptieren. Der Dropdown-Eingabetyp ist eine Schlüsselkomponente von [konfigurierbaren Produkten](product-create-configurable.md). |
    | `Multiple Select` | Zeigt eine Dropdown-Liste mit Werten an, die mehrere Auswahlmöglichkeiten akzeptieren. |
@@ -48,7 +48,7 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
 1. Gehen Sie für die Eingabetypen [!UICONTROL Dropdown] und [!UICONTROL Multiple Select] wie folgt vor:
 
-   - Klicken Sie unter _[!UICONTROL Manage Options]_auf **[!UICONTROL Add Option]**.
+   - Klicken Sie unter _[!UICONTROL Manage Options]_&#x200B;auf **[!UICONTROL Add Option]**.
 
    - Geben Sie den ersten Wert ein, der in der Liste angezeigt werden soll.
 
@@ -70,7 +70,7 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
    ![Produktattribut - Erweiterte Eigenschaften](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-   Die verfügbaren Optionen hängen von der _[!UICONTROL Catalog Input Type for Store Owner]_ab.
+   Die verfügbaren Optionen hängen von der _[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;ab.
 
 1. Legen Sie **[!UICONTROL Scope]** fest, um anzugeben, wo in [Store-](../getting-started/websites-stores-views.md)&quot; das Attribut verwendet werden kann.
 
@@ -91,8 +91,8 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
 1. Um dieses Attribut zur &quot;[&quot; hinzuzufügen](products-list.md) legen Sie die folgenden Optionen auf `Yes` fest.
 
-   - **Zu Spaltenoptionen hinzufügen** - Schließt das Attribut als Spalte in die _[!UICONTROL Products]_ein.
-   - **In Filteroptionen verwenden** - Fügt der Spaltenüberschrift in der _[!UICONTROL Products]_ein Filtersteuerelement hinzu.
+   - **Zu Spaltenoptionen hinzufügen** - Schließt das Attribut als Spalte in die _[!UICONTROL Products]_&#x200B;ein.
+   - **In Filteroptionen verwenden** - Fügt der Spaltenüberschrift in der _[!UICONTROL Products]_&#x200B;ein Filtersteuerelement hinzu.
 
 ## Schritt 3: Feldbezeichnung eingeben
 
@@ -110,7 +110,7 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
    ![Produktattribute - Storefront-Eigenschaften](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-   Die verfügbaren Optionen hängen von der _[!UICONTROL Catalog Input Type for Store Owner]_ab.
+   Die verfügbaren Optionen hängen von der _[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;ab.
 
 1. Wenn das Attribut für die Suche verfügbar sein soll, setzen Sie **[!UICONTROL Use in Search]** auf `Yes`.
 

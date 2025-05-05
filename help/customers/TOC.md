@@ -18,7 +18,7 @@ ht-degree: 2%
    + [Kundenliste](customers-all.md)
    + [Jetzt online](now-online.md)
    + [Personalization im großen Maßstab](personalize-scale.md)
-+ {#customer-accounts} Kundenkonten
++ Kundenkonten{#customer-accounts}
    + [Kontobereich](customer-account-scope.md)
    + Kontooptionen {#configure}
       + [Landingpage zur Anmeldung](login-landing-page.md)
@@ -37,13 +37,13 @@ ht-degree: 2%
       + [Attributeigenschaften](attribute-properties.md)
       + [Adressattribute](address-attributes.md)
       + [Adressenvorlagen](address-templates.md)
-   + {#store-credit} speichern
+   + speichern{#store-credit}
       + [Kredit-Workflow speichern](store-credit.md)
       + [Store-Guthaben konfigurieren](credit-configure.md)
       + [Store-Guthaben anwenden](store-credit-using.md)
       + [Guthaben im Konto-Dashboard speichern](account-dashboard-store-credit.md)
       + [Rückerstattungen im Konto-Dashboard](refunds-customer-account.md)
-   + {#storefront} des Kundenkonto-Dashboards
+   + des Kundenkonto-Dashboards{#storefront}
       + [Konto-Dashboard verwalten](account-dashboard.md)
       + [[!UICONTROL My Account]](account-dashboard-my-account.md)
       + [[!UICONTROL Address Book]](account-dashboard-address-book.md)

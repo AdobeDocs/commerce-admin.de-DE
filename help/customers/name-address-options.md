@@ -41,7 +41,7 @@ Sie können die Namen- und Adressoptionen konfigurieren, die Kunden in der Store
 
    >[!INFO]
    >
-   >Der Abschnitt _[!UICONTROL Name and Address Options]_wird nicht angezeigt, wenn der Bereich auf `Default Store View` festgelegt ist.
+   >Der Abschnitt _[!UICONTROL Name and Address Options]_&#x200B;wird nicht angezeigt, wenn der Bereich auf `Default Store View` festgelegt ist.
 
    ![Konfigurationsbereich](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 

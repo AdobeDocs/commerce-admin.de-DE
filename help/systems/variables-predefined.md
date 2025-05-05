@@ -27,11 +27,11 @@ ht-degree: 0%
 
    - Um die Variable in einer neuen Vorlage zu verwenden, klicken Sie auf **[!UICONTROL Add New Template]** und passen Sie den Code der Standardvorlage an. Siehe [Nachrichtenvorlagen](email-template-custom.md#message-templates).
 
-1. Wählen Sie unter _[!UICONTROL Load default template]_die **[!UICONTROL Template]**aus, die Sie anpassen möchten.
+1. Wählen Sie unter _[!UICONTROL Load default template]_&#x200B;die **[!UICONTROL Template]**&#x200B;aus, die Sie anpassen möchten.
 
 1. Um eine Vorlage anzuwenden, klicken Sie auf **[!UICONTROL Load Template]**.
 
-   Das Feld _[!UICONTROL Currently used for]_zeigt den Konfigurationspfad für die Vorlage an. Die_[!UICONTROL Template Subject]_ und _[!UICONTROL Template Content]_werden automatisch relativ zur ausgewählten Vorlage generiert.
+   Das Feld _[!UICONTROL Currently used for]_&#x200B;zeigt den Konfigurationspfad für die Vorlage an. Die&#x200B;_[!UICONTROL Template Subject]_ und _[!UICONTROL Template Content]_&#x200B;werden automatisch relativ zur ausgewählten Vorlage generiert.
 
    - **[!UICONTROL Template Subject]** - Dieser Text wird in der Betreffzeile einer E-Mail angezeigt.
 

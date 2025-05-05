@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Kategorien - Designeinstellungen
 
-Im _[!UICONTROL Design]_Abschnitt erhalten Sie Kontrolle über das Erscheinungsbild einer Kategorie, alle zugehörigen Produktseiten und das Seitenlayout. Sie können eine Kategorieseite und die zugehörigen Produkte für eine Promotion anpassen oder die Kategorie unterscheiden. Sie können beispielsweise ein unverwechselbares Design für eine Marke oder eine spezielle Produktlinie entwickeln oder ein Update für einen bestimmten Zeitraum anwenden.
+Im _[!UICONTROL Design]_&#x200B;Abschnitt erhalten Sie Kontrolle über das Erscheinungsbild einer Kategorie, alle zugehörigen Produktseiten und das Seitenlayout. Sie können eine Kategorieseite und die zugehörigen Produkte für eine Promotion anpassen oder die Kategorie unterscheiden. Sie können beispielsweise ein unverwechselbares Design für eine Marke oder eine spezielle Produktlinie entwickeln oder ein Update für einen bestimmten Zeitraum anwenden.
 
 ![Design-Einstellungen für eine Kategorie](./assets/category-design.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Wenn dasselbe Produkt mehreren Kategorien mit unterschiedlichen Designeinstellungen für jede Kategorie zugewiesen wird, wird empfohlen, in den Konfigurationsoptionen für die Suchmaschinenoptimierung **Kategoriepfad für Produkt** = `Yes` [ ](../configuration-reference/catalog/catalog.md#search-engine-optimization). Um auf diese Einstellung zuzugreifen, gehen Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, erweitern Sie **[!UICONTROL Catalog]**und wählen Sie **Katalog**unten im linken Bereich aus und erweitern Sie dann den Abschnitt **Suchmaschinenoptimierung**auf der Seite.
+>Wenn dasselbe Produkt mehreren Kategorien mit unterschiedlichen Designeinstellungen für jede Kategorie zugewiesen wird, wird empfohlen, in den Konfigurationsoptionen für die Suchmaschinenoptimierung **Kategoriepfad für Produkt** = `Yes` [&#128279;](../configuration-reference/catalog/catalog.md#search-engine-optimization). Um auf diese Einstellung zuzugreifen, gehen Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, erweitern Sie **[!UICONTROL Catalog]**&#x200B;und wählen Sie **Katalog**&#x200B;unten im linken Bereich aus und erweitern Sie dann den Abschnitt **Suchmaschinenoptimierung**&#x200B;auf der Seite.
 
 | Feld | Beschreibung |
 |--- |--- |
@@ -34,7 +34,7 @@ Im _[!UICONTROL Design]_Abschnitt erhalten Sie Kontrolle über das Erscheinungsb
 
 {{ce-feature}}
 
-Im Abschnitt _[!UICONTROL Scheduled Design Update]_wird der Datumsbereich festgelegt, in dem ein benutzerdefinierter Entwurf auf Kategorieseiten angewendet wird.
+Im Abschnitt _[!UICONTROL Scheduled Design Update]_&#x200B;wird der Datumsbereich festgelegt, in dem ein benutzerdefinierter Entwurf auf Kategorieseiten angewendet wird.
 
 | Feld | Beschreibung |
 |--- |--- |

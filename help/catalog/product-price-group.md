@@ -34,9 +34,9 @@ Die Preisgestaltung für Kundengruppen ist eine Komponente der [Preisstaffelung]
 
 1. Öffnen Sie das Produkt im Bearbeitungsmodus.
 
-1. Klicken Sie unter dem Feld _[!UICONTROL Price]_auf **[!UICONTROL Advanced Pricing]**.
+1. Klicken Sie unter dem Feld _[!UICONTROL Price]_&#x200B;auf **[!UICONTROL Advanced Pricing]**.
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Customer Group Price]_auf **[!UICONTROL Add]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Customer Group Price]_&#x200B;auf **[!UICONTROL Add]**.
 
    Wenn Ihr Store [Adobe Commerce B2B](../b2b/introduction.md) enthält und [freigegebene Kataloge](../b2b/catalog-shared.md) aktiviert hat, ist dieser Abschnitt _[!UICONTROL Catalog and Tier Price]_.
 

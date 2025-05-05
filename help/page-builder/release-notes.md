@@ -94,7 +94,7 @@ Informationen [ Verwendung der neuen [!DNL Columns]-Gruppe finden ](./column.md)
 
 ![Neu](../assets/new.svg) <!-- Issue 510, 511, 512, 513 -->**Immersive Bearbeitung im Vollbildmodus** - Die Bearbeitung [!DNL Page Builder] Inhalte ist jetzt nur noch für alle von [!DNL Page Builder] kontrollierten Bereiche im Vollbildmodus möglich. Diese Änderung betrifft CMS-Seiten, Produkt- und Kategorieseiten, Bausteine und dynamische Bausteine. Die Bearbeitung im Vollbildmodus legt den Fokus auf Ihren Inhalt und bietet eine Ansicht, die dem Benutzererlebnis auf der Storefront besser entspricht.
 
-![Neu](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] Inhaltsvorschauen **- [!DNL Page Builder] bietet jetzt standardmäßig Inhaltsvorschauen nicht nur für CMS-Seiten, -Blöcke und -dynamischen Blöcke, sondern auch für Produkt- und Kategorieseiten. Sie können diese Funktion für Produkt- und Kategorieseiten mit der neuen Einstellung Inhaltsvorschau [!DNL Page Builder] aktivieren oder deaktivieren, die in der Store-Konfiguration unter Content-Management > Erweiterte Content-Tools aufgerufen wird.
+![Neu](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] Inhaltsvorschauen &#x200B;**- [!DNL Page Builder] bietet jetzt standardmäßig Inhaltsvorschauen nicht nur für CMS-Seiten, -Blöcke und -dynamischen Blöcke, sondern auch für Produkt- und Kategorieseiten. Sie können diese Funktion für Produkt- und Kategorieseiten mit der neuen Einstellung Inhaltsvorschau [!DNL Page Builder] aktivieren oder deaktivieren, die in der Store-Konfiguration unter Content-Management > Erweiterte Content-Tools aufgerufen wird.
 
 ![Neu](../assets/new.svg) <!-- Issue 543 -->**Verbesserter Zugriff auf Produktkurzbeschreibungen** - Standardmäßig wird eine Produktkurzbeschreibung jetzt vor der längeren Beschreibung angezeigt. Diese Änderung führt zu einer Übereinstimmung mit der Reihenfolge, in der sie in der Storefront angezeigt werden, und verhindert, dass durch den längeren Beschreibungsinhalt gescrollt werden muss, um Zugriff auf die Kurzbeschreibung zu erhalten.
 
@@ -186,16 +186,16 @@ Diese Version von [!DNL Page Builder] ist nur ein Versionsnummernupdate für Ado
 
 ![Problem behoben](../assets/fix.svg) **Verschiedene Fehlerbehebungen**
 
-- <!-- PB-50 -->Es wurde ein Problem behoben, bei dem das TinyMCE-Menü für Folieninhalte unter anderen Inhaltstypen angezeigt wurde, wenn der übergeordnete Container der Folie dupliziert wurde.
-- <!-- PB-166 -->[!DNL Page Builder] wurde aktualisiert, um eine Methode zum Zerstören zu implementieren, um Speicherlecks in einigen Szenarien zu verhindern.
-- <!-- PB-170 -->Die TinyMCE-Leistung wurde verbessert, wenn mehrere Instanzen in der Admin-Phase verwendet werden.
-- <!-- PB-252 -->Es wurde ein Problem behoben, bei dem der Inhaltstyp Dynamischer Block in der Admin-Phase nicht gerendert wird, wenn die oberste Zeile als ausgeblendet markiert ist.
-- <!-- PB-273 -->Verfeinerte Mauszeigerereignisse in der Admin-Phase durch Entfernen einer Verzögerung von 200 ms aus verschiedenen Benutzeroberflächen-Steuerelementen. Diese Änderung erleichtert die Arbeit mit verschachtelten Inhaltselementen auf der Bühne.
-- <!-- PB-294 -->Es wurde ein Problem behoben, bei dem das Währungssymbol im Produktlisten-Widget innerhalb des Blocks/dynamischen Blocks auf der Admin-Phase falsch maskiert wurde.
-- <!-- PB-296 -->Es wurde ein Problem behoben, bei dem die Produktsumme im [!DNL Page Builder] Bearbeitungsbereich für benutzerdefinierte MSI-Stock-Produkte nicht funktionierte.
-- <!-- PB-317 -->Es wurde ein Problem behoben, bei dem beim Speichern [!DNL Page Builder] Inhalte mit Hintergrundbildern auf Microsoft Edge diese Bilder in der Storefront nicht gerendert werden.
-- <!-- PB-390 -->Es wurde ein Problem behoben, bei dem verschachtelter [!DNL Page Builder]-Inhalt nicht gespeichert werden kann, wenn Benutzer auf die Schaltfläche Speichern klicken, bevor die Seite vollständig gerendert wird.
-- <!-- PB-418 -->Es wurde ein Ausnahmefehler behoben, der aufgrund von [!DNL Page Builder] Analytics in Cron-Aufträgen ausgelöst wurde.
+- &#x200B;<!-- PB-50 -->Es wurde ein Problem behoben, bei dem das TinyMCE-Menü für Folieninhalte unter anderen Inhaltstypen angezeigt wurde, wenn der übergeordnete Container der Folie dupliziert wurde.
+- &#x200B;<!-- PB-166 -->[!DNL Page Builder] wurde aktualisiert, um eine Methode zum Zerstören zu implementieren, um Speicherlecks in einigen Szenarien zu verhindern.
+- &#x200B;<!-- PB-170 -->Die TinyMCE-Leistung wurde verbessert, wenn mehrere Instanzen in der Admin-Phase verwendet werden.
+- &#x200B;<!-- PB-252 -->Es wurde ein Problem behoben, bei dem der Inhaltstyp Dynamischer Block in der Admin-Phase nicht gerendert wird, wenn die oberste Zeile als ausgeblendet markiert ist.
+- &#x200B;<!-- PB-273 -->Verfeinerte Mauszeigerereignisse in der Admin-Phase durch Entfernen einer Verzögerung von 200 ms aus verschiedenen Benutzeroberflächen-Steuerelementen. Diese Änderung erleichtert die Arbeit mit verschachtelten Inhaltselementen auf der Bühne.
+- &#x200B;<!-- PB-294 -->Es wurde ein Problem behoben, bei dem das Währungssymbol im Produktlisten-Widget innerhalb des Blocks/dynamischen Blocks auf der Admin-Phase falsch maskiert wurde.
+- &#x200B;<!-- PB-296 -->Es wurde ein Problem behoben, bei dem die Produktsumme im [!DNL Page Builder] Bearbeitungsbereich für benutzerdefinierte MSI-Stock-Produkte nicht funktionierte.
+- &#x200B;<!-- PB-317 -->Es wurde ein Problem behoben, bei dem beim Speichern [!DNL Page Builder] Inhalte mit Hintergrundbildern auf Microsoft Edge diese Bilder in der Storefront nicht gerendert werden.
+- &#x200B;<!-- PB-390 -->Es wurde ein Problem behoben, bei dem verschachtelter [!DNL Page Builder]-Inhalt nicht gespeichert werden kann, wenn Benutzer auf die Schaltfläche Speichern klicken, bevor die Seite vollständig gerendert wird.
+- &#x200B;<!-- PB-418 -->Es wurde ein Ausnahmefehler behoben, der aufgrund von [!DNL Page Builder] Analytics in Cron-Aufträgen ausgelöst wurde.
 
 ## 1.2.2 für Adobe Commerce 2.3.4-p2
 
@@ -219,14 +219,14 @@ Diese Version von [!DNL Page Builder] ist nur ein Versionsnummernupdate für Ado
 
 ![Problem behoben](../assets/fix.svg) **Verschiedene Fehlerbehebungen**
 
-- <!-- PB-237 -->Sicherheitsverbesserungen.
-- <!-- PB-41 -->Es wurden Suchvorgänge in UI-Auswahlkomponenten korrigiert, damit pro Suchbegriff nur eine AJAX-Anfrage ausgeführt wird.
-- <!-- PB-76, PB-84-->Die Produktvorschauen wurden im Admin-Bereich aktualisiert, damit sie mit der Storefront übereinstimmen, einschließlich der Optionen für Sternebewertung, Farbe und Größe des Produkts, falls relevant.
-- <!-- PB-169 -->Es wurde ein Problem behoben, bei dem [!DNL Page Builder] nicht gespeichert werden konnten, wenn die JavaScript-Minimierung und -Bündelung in Commerce aktiviert waren.
-- <!-- PB-241 -->Es wurde ein Problem mit der Admin-Vorschau von Produkten, Blöcken und dynamischen Blöcken behoben, die auf Commerce-Installationen korrekt gerendert werden sollen, welche unterschiedliche URLs für den Admin und das Frontend definieren.
-- <!-- PB-238 -->Es wurde ein Problem mit der Admin-Vorschau von Produkten, Blöcken und dynamischen Blöcken behoben, die bei Commerce-Installationen mit B2B-Installation und aktivierter Option _Nur Anmeldung_ korrekt gerendert werden sollen. Vor dieser Fehlerbehebung führte die [!DNL Page Builder] Vorschau dazu, dass die Seite zur Anmeldung beim Kundenkonto umgeleitet wurde.
-- <!-- PB-239 -->Es wurde ein Sitzungsfehler behoben, der bei der Vorschau einer großen Seite in [!DNL Page Builder] Admin auftreten konnte.
-- <!-- PB-248 -->[!DNL Page Builder] LESS-Stile wurden aktualisiert, um eine Duplizierung des Storefront-Stils zu verhindern.
+- &#x200B;<!-- PB-237 -->Sicherheitsverbesserungen.
+- &#x200B;<!-- PB-41 -->Es wurden Suchvorgänge in UI-Auswahlkomponenten korrigiert, damit pro Suchbegriff nur eine AJAX-Anfrage ausgeführt wird.
+- &#x200B;<!-- PB-76, PB-84-->Die Produktvorschauen wurden im Admin-Bereich aktualisiert, damit sie mit der Storefront übereinstimmen, einschließlich der Optionen für Sternebewertung, Farbe und Größe des Produkts, falls relevant.
+- &#x200B;<!-- PB-169 -->Es wurde ein Problem behoben, bei dem [!DNL Page Builder] nicht gespeichert werden konnten, wenn die JavaScript-Minimierung und -Bündelung in Commerce aktiviert waren.
+- &#x200B;<!-- PB-241 -->Es wurde ein Problem mit der Admin-Vorschau von Produkten, Blöcken und dynamischen Blöcken behoben, die auf Commerce-Installationen korrekt gerendert werden sollen, welche unterschiedliche URLs für den Admin und das Frontend definieren.
+- &#x200B;<!-- PB-238 -->Es wurde ein Problem mit der Admin-Vorschau von Produkten, Blöcken und dynamischen Blöcken behoben, die bei Commerce-Installationen mit B2B-Installation und aktivierter Option _Nur Anmeldung_ korrekt gerendert werden sollen. Vor dieser Fehlerbehebung führte die [!DNL Page Builder] Vorschau dazu, dass die Seite zur Anmeldung beim Kundenkonto umgeleitet wurde.
+- &#x200B;<!-- PB-239 -->Es wurde ein Sitzungsfehler behoben, der bei der Vorschau einer großen Seite in [!DNL Page Builder] Admin auftreten konnte.
+- &#x200B;<!-- PB-248 -->[!DNL Page Builder] LESS-Stile wurden aktualisiert, um eine Duplizierung des Storefront-Stils zu verhindern.
 
 ## 1.1.1 für Adobe Commerce 2.3.3-P1
 

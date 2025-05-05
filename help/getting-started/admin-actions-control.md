@@ -15,7 +15,7 @@ Beim Arbeiten mit einer Auflistung von Datensätzen im Raster können Sie das Ak
 
 Sie können so viele Änderungen wie nötig vornehmen und dann die Datensätze in einem einzigen Schritt aktualisieren. Es ist viel effizienter, als die Einstellungen für jedes Produkt einzeln zu ändern. Das Anwenden von Änderungen auf einen Datensatz-Batch ist ein asynchroner Vorgang, der im Hintergrund ausgeführt wird, damit Sie in der Admin weiterarbeiten können, ohne auf den Abschluss des Vorgangs zu warten. Wenn die Aufgabe abgeschlossen ist, wird eine Meldung angezeigt.
 
-Die Auswahl der verfügbaren Aktionen variiert je nach Liste. Je nach ausgewählter Aktion werden möglicherweise zusätzliche Optionen angezeigt. Wenn Sie beispielsweise den Status einer Gruppe von Datensätzen ändern, wird neben dem Aktionssteuerelement ein _[!UICONTROL Status]_mit zusätzlichen Optionen angezeigt.
+Die Auswahl der verfügbaren Aktionen variiert je nach Liste. Je nach ausgewählter Aktion werden möglicherweise zusätzliche Optionen angezeigt. Wenn Sie beispielsweise den Status einer Gruppe von Datensätzen ändern, wird neben dem Aktionssteuerelement ein _[!UICONTROL Status]_&#x200B;mit zusätzlichen Optionen angezeigt.
 
 ## Schritt 1: Datensätze auswählen
 

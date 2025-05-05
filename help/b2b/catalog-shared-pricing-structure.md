@@ -23,7 +23,7 @@ In der Standardkategoriestruktur ist die Stammkategorie der oberste Container un
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**
 
-1. Wechseln Sie für den freigegebenen Katalog im Raster zur Spalte _[!UICONTROL Action]_und klicken Sie auf **[!UICONTROL Set Pricing and Structure]**.
+1. Wechseln Sie für den freigegebenen Katalog im Raster zur Spalte _[!UICONTROL Action]_&#x200B;und klicken Sie auf **[!UICONTROL Set Pricing and Structure]**.
 
    ![Festlegen von Preisen und Strukturen für freigegebene Kataloge](./assets/shared-catalog-set-pricing-structure.png){width="700" zoomable="yes"}
 
@@ -69,7 +69,7 @@ Nur Kategorien mit ausgewählten Produkten werden in der [oberen Navigation](../
 
 ## Schritt 3: Benutzerdefinierte Preise festlegen
 
-Sie können benutzerdefinierte Preise für jedes Produkt einzeln festlegen oder das _[!UICONTROL Action]_verwenden, um benutzerdefinierte Preise als festen Betrag oder Prozentsatz für mehrere Produktdatensätze festzulegen.
+Sie können benutzerdefinierte Preise für jedes Produkt einzeln festlegen oder das _[!UICONTROL Action]_&#x200B;verwenden, um benutzerdefinierte Preise als festen Betrag oder Prozentsatz für mehrere Produktdatensätze festzulegen.
 
 - **[!UICONTROL Fixed]**: Gibt den Endproduktpreis an. Wenn Sie beispielsweise einen Festpreis von 10,00 $ eingeben, lautet der Preis in der Storefront für das entsprechende Unternehmen 10,00 $.
 
@@ -83,7 +83,7 @@ Sie können benutzerdefinierte Preise für jedes Produkt einzeln festlegen oder 
 
 - **[!UICONTROL Percentage]**: Bestimmt den benutzerdefinierten Preis anhand des Rabattprozentsatzes. Um beispielsweise einen Rabatt von 10 % anzubieten, setzen Sie den benutzerdefinierten Preistyp auf `Percentage` und geben Sie `10` ein. Der ermäßigte Zollpreis beträgt 90 Prozent des ursprünglichen Produktpreises.
 
-Um den Rabatt für die folgenden Produktarten auf einen festen Betrag oder einen Prozentsatz festzulegen, verwenden Sie die Spalte _[!UICONTROL Custom Price]_im Raster:
+Um den Rabatt für die folgenden Produktarten auf einen festen Betrag oder einen Prozentsatz festzulegen, verwenden Sie die Spalte _[!UICONTROL Custom Price]_&#x200B;im Raster:
 
 - [Einfach](../catalog/product-create-simple.md) (einschließlich konfigurierbarer Produktvarianten)
 - [Bündel](../catalog/product-create-bundle.md)
@@ -105,7 +105,7 @@ Die Auswahl der Produkte im Raster kann auf der Seite &quot;_&quot; nicht geänd
 1. Verwenden Sie eine der folgenden Methoden, um die Produkte auszuwählen, für die die benutzerdefinierte Preisgestaltung gelten soll.
 
    - Verwenden Sie die Kategoriestruktur, um alle Produkte in einer bestimmten Kategorie auszuwählen.
-   - Legen Sie das _[!UICONTROL Mass Actions]_in der Kopfzeile auf `Select All` fest.
+   - Legen Sie das _[!UICONTROL Mass Actions]_&#x200B;in der Kopfzeile auf `Select All` fest.
    - Aktivieren Sie das Kontrollkästchen einzelner Produkte.
 
    Das Raster zeigt die Produkte in den aktuell ausgewählten Kategorien an, und Sie können die Standardsteuerelemente verwenden, um Produkte zu finden und die Liste zu filtern.
@@ -155,7 +155,7 @@ Die folgenden Anweisungen zeigen, wie Sie Preisstufen auf ein einzelnes Produkt 
 
 1. Klicken Sie abschließend auf **[!UICONTROL Done]**.
 
-   Im Raster wird die Anzahl der Ebenen in Klammern in der Spalte _[!UICONTROL Tier Price]_angezeigt.
+   Im Raster wird die Anzahl der Ebenen in Klammern in der Spalte _[!UICONTROL Tier Price]_&#x200B;angezeigt.
 
    ![Mehrere Ebenen](./assets/shared-catalog-tier-price-configure-parentheses.png){width="600" zoomable="yes"}
 
@@ -163,4 +163,4 @@ Die folgenden Anweisungen zeigen, wie Sie Preisstufen auf ein einzelnes Produkt 
 
 Wenn die benutzerdefinierte Preisgestaltung abgeschlossen ist, klicken Sie auf **[!UICONTROL Generate Catalog]** und dann auf **[!UICONTROL Save]**.
 
-Der freigegebene Katalog wird jetzt in der Datenbank gespeichert. Der Name wird in der Spalte _[!UICONTROL Shared Catalog]_des_[!UICONTROL Products]_ Rasters angezeigt. Der nächste Schritt besteht darin[ den freigegebenen Katalog einem Unternehmen zuzuweisen](./catalog-shared-assign-companies.md).
+Der freigegebene Katalog wird jetzt in der Datenbank gespeichert. Der Name wird in der Spalte _[!UICONTROL Shared Catalog]_&#x200B;des&#x200B;_[!UICONTROL Products]_ Rasters angezeigt. Der nächste Schritt besteht darin[ den freigegebenen Katalog einem Unternehmen zuzuweisen](./catalog-shared-assign-companies.md).

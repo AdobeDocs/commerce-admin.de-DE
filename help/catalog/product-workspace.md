@@ -39,7 +39,7 @@ Um einen Abschnitt zu erweitern oder zu reduzieren, klicken Sie entweder auf das
 
 ## Menü [!UICONTROL Save]
 
-Das Menü _[!UICONTROL Save]_enthält mehrere Optionen, mit denen Sie speichern und fortfahren, ein Produkt speichern und erstellen, das Produkt speichern und duplizieren oder speichern und schließen können.
+Das Menü _[!UICONTROL Save]_&#x200B;enthält mehrere Optionen, mit denen Sie speichern und fortfahren, ein Produkt speichern und erstellen, das Produkt speichern und duplizieren oder speichern und schließen können.
 
 ![Menü „Speichern](./assets/product-save-menu.png){width="600" zoomable="yes"}
 
@@ -48,7 +48,7 @@ Das Menü _[!UICONTROL Save]_enthält mehrere Optionen, mit denen Sie speichern 
 | [!UICONTROL Save] | Speichern Sie das aktuelle Produkt und arbeiten Sie weiter. |
 | [!UICONTROL Save & New] | Speichern und schließen Sie das aktuelle Produkt, und beginnen Sie ein neues Produkt basierend auf demselben Produkttyp und derselben Vorlage. |
 | [!UICONTROL Save & Duplicate] | Speichern und schließen Sie das aktuelle Produkt, und öffnen Sie eine neue Duplikatkopie. |
-| [!UICONTROL Save & Close] | Speichern Sie das aktuelle Produkt und kehren Sie zum Arbeitsbereich _[!UICONTROL Products]_zurück. |
+| [!UICONTROL Save & Close] | Speichern Sie das aktuelle Produkt und kehren Sie zum Arbeitsbereich _[!UICONTROL Products]_&#x200B;zurück. |
 
 {style="table-layout:auto"}
 

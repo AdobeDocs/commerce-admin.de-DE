@@ -38,7 +38,7 @@ ht-degree: 1%
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Redeemable] | Global | Legt fest, ob der Besitzer der Geschenkkarte seinen Wert in bar einlösen kann. Optionen: `Yes` / `No`. |
-| [!UICONTROL Lifetime (days)] | Global | Bestimmt die Anzahl der Tage, die die Karte gültig ist. Wenn Sie das Feld leer lassen, läuft die Karte nicht ab. <br/><br/>**_Wichtig:_**An einigen Stellen ist es illegal, auf Geschenkgutscheinen Ablaufdaten festzulegen. Überprüfen Sie Ihre lokalen Gesetze, bevor Sie eine Lebensdauer für Ihre Geschenkgutscheine festlegen. |
+| [!UICONTROL Lifetime (days)] | Global | Bestimmt die Anzahl der Tage, die die Karte gültig ist. Wenn Sie das Feld leer lassen, läuft die Karte nicht ab. <br/><br/>**_Wichtig:_**&#x200B;An einigen Stellen ist es illegal, auf Geschenkgutscheinen Ablaufdaten festzulegen. Überprüfen Sie Ihre lokalen Gesetze, bevor Sie eine Lebensdauer für Ihre Geschenkgutscheine festlegen. |
 | [!UICONTROL Allow Gift Message] | Shop-Ansicht | Legt fest, ob Kunden, die eine Geschenkkarte erwerben, die Option zum Einschließen einer Geschenknachricht zur Verfügung steht. Optionen: `Yes` / `No`. |
 | [!UICONTROL Gift Message Maximum Length] | Shop-Ansicht | Bestimmt die maximale Anzahl von Zeichen, die in einer Geschenkkartennachricht zulässig ist. Standardwert: 255 |
 | [!UICONTROL Generate Gift Card Account when Order Item is] | Global | Bestimmt, ob ein Geschenkkartenkonto generiert wird, wenn ein Kunde eine Bestellung aufgibt oder wenn die Bestellung fakturiert wird. Optionen: `Ordered` / `Invoiced` |

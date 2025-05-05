@@ -18,20 +18,20 @@ Mit der Versandmethode im Geschäft kann der Kunde eine Quelle auswählen, die w
 
 Beim Checkout in der Storefront:
 
-1. Der Kunde klickt auf **[!UICONTROL Pick In Store]** oder wählt die _[!UICONTROL In-Store Pickup Delivery]_Versandart aus.
+1. Der Kunde klickt auf **[!UICONTROL Pick In Store]** oder wählt die _[!UICONTROL In-Store Pickup Delivery]_&#x200B;Versandart aus.
 1. Die Registerkarte _[!UICONTROL Pick In Store]_-Checkout wird geöffnet.
 
-Wenn der Kunde eine Adresse hat oder zuvor das Formular für die Versandadresse ausgefüllt hat, bevor er zur Registerkarte _[!UICONTROL Pick In Store]_wechselt:
+Wenn der Kunde eine Adresse hat oder zuvor das Formular für die Versandadresse ausgefüllt hat, bevor er zur Registerkarte _[!UICONTROL Pick In Store]_&#x200B;wechselt:
 
 - Die Quelle, die der Kundenadresse innerhalb des konfigurierten Radius am nächsten ist, wird automatisch als Pick-up-Store vorausgewählt.
-- Wenn der Kunde auf **[!UICONTROL Select Other]** klickt, wird das _[!UICONTROL Select Store]_Suchformular geöffnet. Nur Stores innerhalb des konfigurierten Abstands (Radius) zum vorausgewählten Store werden in der Liste angezeigt. Alle Stores in der Liste werden nach der Entfernung zum vorausgewählten Store sortiert.
+- Wenn der Kunde auf **[!UICONTROL Select Other]** klickt, wird das _[!UICONTROL Select Store]_&#x200B;Suchformular geöffnet. Nur Stores innerhalb des konfigurierten Abstands (Radius) zum vorausgewählten Store werden in der Liste angezeigt. Alle Stores in der Liste werden nach der Entfernung zum vorausgewählten Store sortiert.
 - Wenn der Kunde eine Postleitzahl oder einen Stadtnamen in das Suchfeld eingibt, werden in der Liste nur Speicher angezeigt, die sich innerhalb der konfigurierten Entfernung (Radius) zum gesuchten Ort befinden. Alle Filialen in der Liste werden nach der Entfernung zum gesuchten Ort sortiert.
 - Wenn der Kunde die Postleitzahl oder den Ortsnamen aus dem Suchfeld löscht, werden dem Kunden alle Abholgeschäfte angezeigt, die den Produkten im Warenkorb zugeordnet sind. Alle Filialen in der Liste werden in aufsteigender Reihenfolge der Quellcodes sortiert, ohne dass der Abstand (Radius) beschränkt wird.
 
-Wenn der Kunde keine Adresse hat oder vorher das Formular für die Versandadresse nicht ausgefüllt hat, bevor er zur Registerkarte _[!UICONTROL Pick In Store]_wechselt:
+Wenn der Kunde keine Adresse hat oder vorher das Formular für die Versandadresse nicht ausgefüllt hat, bevor er zur Registerkarte _[!UICONTROL Pick In Store]_&#x200B;wechselt:
 
 - Auf der Seite wird die Meldung _Wir konnten den Abholort basierend auf den verfügbaren Informationen nicht vorab_.
-- Wenn der Kunde auf **[!UICONTROL Select Store]** klickt, wird das _[!UICONTROL Select Store]_Suchformular geöffnet.
+- Wenn der Kunde auf **[!UICONTROL Select Store]** klickt, wird das _[!UICONTROL Select Store]_&#x200B;Suchformular geöffnet.
 - Alle Abholgeschäfte, die den Produkten im Warenkorb zugeordnet sind, werden in aufsteigender Reihenfolge der Quellcodes ohne Distanzbegrenzung (Radius) angezeigt.
 - Wenn der Kunde eine Postleitzahl oder einen Stadtnamen in das Suchfeld eingibt, werden in der Liste nur Speicher angezeigt, die sich innerhalb der konfigurierten Entfernung (Radius) zum gesuchten Ort befinden. Alle Filialen in der Liste werden nach der Entfernung zum gesuchten Ort sortiert.
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Kategorien - Einstellungen für die Suchmaschinenoptimierung
 
-Im Abschnitt _[!UICONTROL Search Engine Optimization]_sind die Felder [URL-Schlüssel](catalog-urls.md) und [Metadaten](../merchandising-promotions/meta-data.md) angegeben, die von Suchmaschinen zum Indizieren der Kategorie verwendet werden. Obwohl einige Suchmaschinen Meta-Keywords ignorieren, verwenden andere diese weiterhin. Die aktuelle Best Practice für SEO besteht darin, hochwertige Keywords sowohl in den Meta-Titel als auch in die Meta-Beschreibung einzubinden.
+Im Abschnitt _[!UICONTROL Search Engine Optimization]_&#x200B;sind die Felder [URL-Schlüssel](catalog-urls.md) und [Metadaten](../merchandising-promotions/meta-data.md) angegeben, die von Suchmaschinen zum Indizieren der Kategorie verwendet werden. Obwohl einige Suchmaschinen Meta-Keywords ignorieren, verwenden andere diese weiterhin. Die aktuelle Best Practice für SEO besteht darin, hochwertige Keywords sowohl in den Meta-Titel als auch in die Meta-Beschreibung einzubinden.
 
 ![Suchmaschinenoptimierung](./assets/categories-search-engine-optimization.png){width="600" zoomable="yes"}
 

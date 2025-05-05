@@ -70,7 +70,7 @@ In diesem Teil der einfachen Seitenübung erstellen Sie eine Seite mit einer vol
 
 1. Wenn die Beispieldaten verfügbar sind, setzen Sie **[!UICONTROL New Theme]** auf `Magento Luma`. Andernfalls können Sie ein anderes verfügbares Design auswählen oder es leer lassen, um das Standard-Design zu verwenden.
 
-   Die _[!UICONTROL New Theme]_kann verwendet werden, um das Standarddesign zu überschreiben und ein anderes Design auf die Seite anzuwenden.
+   Die _[!UICONTROL New Theme]_&#x200B;kann verwendet werden, um das Standarddesign zu überschreiben und ein anderes Design auf die Seite anzuwenden.
 
    >[!NOTE]
    >
@@ -106,13 +106,13 @@ In diesem Teil der einfachen Seitenübung erstellen Sie eine Seite mit einer vol
 
 1. Wählen Sie in der Toolbox „Zeile _das Symbol_ Einstellungen![ (](./assets/pb-icon-settings.png){width="20"}).
 
-1. Wählen Sie unter _[!UICONTROL Appearance]_die Option **Vollständiger Anschnitt**.
+1. Wählen Sie unter _[!UICONTROL Appearance]_&#x200B;die Option **Vollständiger Anschnitt**.
 
    Mit der Einstellung Vollständiger Anschnitt werden der linke und rechte Rand des Inhaltsbereichs der Zeile und des Hintergrunds auf die gesamte Seitenbreite erweitert.
 
    ![Zeileneinstellungen - Vollständiger Anschnitt](./assets/pb-tutorial1-row-settings-appearance-full-bleed.png){width="600" zoomable="yes"}
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Advanced]_und setzen Sie alle **[!UICONTROL Margins and Padding]**auf `0`.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Advanced]_&#x200B;und setzen Sie alle **[!UICONTROL Margins and Padding]**&#x200B;auf `0`.
 
    Durch diese Einstellung wird sichergestellt, dass das Banner die gesamte Breite der Zeile erweitert.
 
@@ -141,13 +141,13 @@ In diesem Teil der einfachen Seitenübung erstellen Sie eine Seite mit einer vol
 
 1. Wählen Sie in der Banner-Toolbox das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
-1. Wählen Sie unter _[!UICONTROL Appearance]_die Option **[!UICONTROL Collage Right]**aus.
+1. Wählen Sie unter _[!UICONTROL Appearance]_&#x200B;die Option **[!UICONTROL Collage Right]**&#x200B;aus.
 
    Mit der Einstellung „Collage Right“ werden Inhalte auf der rechten Seite des Banners positioniert.
 
    ![Banner Erscheinungsbild - Collage rechts](./assets/pb-tutorial1-row-banner-settings-appearance-collage-right.png){width="600" zoomable="yes"}
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Background]_und legen Sie das Hintergrundbild für das Banner fest:
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Background]_&#x200B;und legen Sie das Hintergrundbild für das Banner fest:
 
    - Klicken Sie **[!UICONTROL Background Image]** auf **Hochladen**.
 
@@ -200,11 +200,11 @@ __
 
 1. Um die Banner-Toolbox anzuzeigen, wählen Sie erneut das Symbol _Einstellungen_ ( ![Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus und scrollen Sie dann zum Abschnitt _[!UICONTROL Content]_.
 
-   Beachten Sie, dass Ihr Text im Feld _Text_ angezeigt wird. Text kann entweder über die Bühne oder den _[!UICONTROL Content]_Abschnitt der Bannereinstellungen eingegeben und bearbeitet werden.
+   Beachten Sie, dass Ihr Text im Feld _Text_ angezeigt wird. Text kann entweder über die Bühne oder den _[!UICONTROL Content]_&#x200B;Abschnitt der Bannereinstellungen eingegeben und bearbeitet werden.
 
    ![Bannereinstellungen - Nachrichtentext](./assets/pb-tutorial1-banner-settings-content-message-text.png){width="600" zoomable="yes"}
 
-1. Legen Sie anschließend im Abschnitt _[!UICONTROL Content]_den Bannerlink und die Schaltfläche fest:
+1. Legen Sie anschließend im Abschnitt _[!UICONTROL Content]_&#x200B;den Bannerlink und die Schaltfläche fest:
 
    - Legen Sie **Link** auf `Category` fest und klicken Sie dann auf **[!UICONTROL Select]**, um die Kategoriestruktur anzuzeigen.
 
@@ -243,7 +243,7 @@ __
 
 1. Klicken Sie oben rechts im Stadium auf das Symbol _Vollbild schließen_ (![Vollbildsymbol schließen](./assets/pb-icon-reduce.png)).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_Abschnitt für die Seite mit der angezeigten Vorschau zurück.
+   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_&#x200B;Abschnitt für die Seite mit der angezeigten Vorschau zurück.
 
    Sie können jederzeit zwischen den beiden Arbeitsbereichsmodi wechseln.
 
@@ -259,13 +259,13 @@ In diesem Teil der Übung fügen Sie der Seite eine Zeile hinzu und teilen die Z
 
 ### Schritt 1: Zeile hinzufügen
 
-1. Suchen Sie im Seitenraster nach der _einfachen Seite_ die Sie im ersten Teil dieser Übung erstellt haben, und wählen Sie **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_aus.
+1. Suchen Sie im Seitenraster nach der _einfachen Seite_ die Sie im ersten Teil dieser Übung erstellt haben, und wählen Sie **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_&#x200B;aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Content]** .
 
 1. Klicken Sie **[!UICONTROL Edit with Page Builder]** oder in den Inhaltsvorschaubereich.
 
-1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_einen **[!UICONTROL Row]**Platzhalter auf die Bühne und platzieren Sie ihn über dem Banner.
+1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_&#x200B;einen **[!UICONTROL Row]**&#x200B;Platzhalter auf die Bühne und platzieren Sie ihn über dem Banner.
 
    Die rote Richtlinie markiert die Grenze zwischen den beiden Zeilen.
 
@@ -275,7 +275,7 @@ In diesem Teil der Übung fügen Sie der Seite eine Zeile hinzu und teilen die Z
 
    ![Zeilen-Toolbox](./assets/pb-tutorial1-row-settings.png){width="600" zoomable="yes"}
 
-1. Akzeptieren Sie unter _[!UICONTROL Appearance]_die Standardeinstellung **Enthalten**.
+1. Akzeptieren Sie unter _[!UICONTROL Appearance]_&#x200B;die Standardeinstellung **Enthalten**.
 
    Diese Einstellung beschränkt den Inhaltsbereich der Zeile auf die Breite der Seite, wie vom Design definiert.
 
@@ -285,7 +285,7 @@ In diesem Teil der Übung fügen Sie der Seite eine Zeile hinzu und teilen die Z
 
 ### Schritt 2: Spalte hinzufügen
 
-1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_einen **[!UICONTROL Column]**Platzhalter in die neue Zeile.
+1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_&#x200B;einen **[!UICONTROL Column]**&#x200B;Platzhalter in die neue Zeile.
 
    ![Ziehen eines Spalten-Inhaltstyps auf den Schritt](./assets/pb-tutorial1-column-drag-to-stage.png){width="600" zoomable="yes"}
 
@@ -345,7 +345,7 @@ In diesem Schritt erfahren Sie, wie Sie ein Bild in das Banner hochladen.
 
 1. Klicken Sie oben rechts im Stadium auf das Symbol _Vollbild schließen_ (![Vollbildsymbol schließen](./assets/pb-icon-reduce.png)).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_Abschnitt für die Seite mit der angezeigten Vorschau zurück.
+   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_&#x200B;Abschnitt für die Seite mit der angezeigten Vorschau zurück.
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
@@ -359,13 +359,13 @@ Die letzte Zeile auf dieser Seite enthält Inhalte aus einer Produktbewertung. S
 
 ### Schritt 1: Zeile hinzufügen
 
-1. Suchen Sie im Seitenraster nach der _einfachen Seite_ die Sie im ersten Teil dieser Übung erstellt haben, und wählen Sie **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_aus.
+1. Suchen Sie im Seitenraster nach der _einfachen Seite_ die Sie im ersten Teil dieser Übung erstellt haben, und wählen Sie **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_&#x200B;aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Content]** .
 
 1. Klicken Sie **[!UICONTROL Edit with Page Builder]** oder in den Inhaltsvorschaubereich.
 
-1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_einen **[!UICONTROL Row]**Platzhalter auf die Bühne und platzieren Sie ihn über der Zeile, die im zweiten Teil dieser Übung erstellt wurde.
+1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_&#x200B;einen **[!UICONTROL Row]**&#x200B;Platzhalter auf die Bühne und platzieren Sie ihn über der Zeile, die im zweiten Teil dieser Übung erstellt wurde.
 
    Eine rote Richtlinie markiert die Grenze zwischen den beiden Zeilen.
 
@@ -375,17 +375,17 @@ Die letzte Zeile auf dieser Seite enthält Inhalte aus einer Produktbewertung. S
 
    ![Zeilen-Toolbox](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
-1. Wählen Sie auf der Seite Zeile bearbeiten unter _[!UICONTROL Appearance]_die Option **[!UICONTROL Full Width]**aus.
+1. Wählen Sie auf der Seite Zeile bearbeiten unter _[!UICONTROL Appearance]_&#x200B;die Option **[!UICONTROL Full Width]**&#x200B;aus.
 
    Diese Einstellung beschränkt den Inhaltsbereich auf die maximale Seitenbreite, die vom Design definiert wird. Die Hintergrundfarbe und/oder das Bild sind nicht beschränkt und erweitern die gesamte Breite der Zeile.
 
    ![Auswählen des Erscheinungsbildes Vollbreite](./assets/pb-tutorial1-row-settings-appearance-full-width.png){width="600" zoomable="yes"}
 
-1. Geben Sie im Abschnitt _[!UICONTROL Background]_`#f1f1f1` als **[!UICONTROL Background Color]**ein.
+1. Geben Sie im Abschnitt _[!UICONTROL Background]_`#f1f1f1` als **[!UICONTROL Background Color]**&#x200B;ein.
 
    ![Festlegen der Hintergrundfarbe](./assets/pb-tutorial1-row-settings-background-color.png){width="600" zoomable="yes"}
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Advanced]_und legen Sie alle Werte **Ränder und Abstand**auf `0` fest.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Advanced]_&#x200B;und legen Sie alle Werte **Ränder und Abstand**&#x200B;auf `0` fest.
 
    ![Festlegen der Ränder und des Abstands](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -397,7 +397,7 @@ Die letzte Zeile auf dieser Seite enthält Inhalte aus einer Produktbewertung. S
 
 ### Schritt 2: Spalten mit unterschiedlichen Breiten hinzufügen
 
-1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_einen **[!UICONTROL Column]**Platzhalter in die oberste Zeile auf der Bühne.
+1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_&#x200B;einen **[!UICONTROL Column]**&#x200B;Platzhalter in die oberste Zeile auf der Bühne.
 
    ![Eine Spalte auf die Bühne ziehen](./assets/pb-tutorial1-column-drag.png){width="600" zoomable="yes"}
 
@@ -409,7 +409,7 @@ Die letzte Zeile auf dieser Seite enthält Inhalte aus einer Produktbewertung. S
 
 1. Bewegen Sie den Mauszeiger über den ersten Spalten-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="20"}) aus.
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Advanced]_und legen Sie alle Werte **Ränder und Abstand**auf `0` fest.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Advanced]_&#x200B;und legen Sie alle Werte **Ränder und Abstand**&#x200B;auf `0` fest.
 
    ![Festlegen der Ränder und des Abstands](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -445,11 +445,11 @@ Die zweite Spalte der Zeile sollte Inhalte aus einer Kundenbewertung enthalten, 
 
    ![Einfügen eines Bildes in den Text](./assets/pb-tutorial1-column2-editor-toolbar-insert-image.png){width="600" zoomable="yes"}
 
-   - Klicken Sie im _[!UICONTROL Insert/edit image]_auf das Symbol_ Suchen _( ![Suchen](./assets/editor-btn-find-source.png) ) neben dem Feld_[!UICONTROL Source]_.
+   - Klicken Sie im _[!UICONTROL Insert/edit image]_&#x200B;auf das Symbol_ Suchen _( ![Suchen](./assets/editor-btn-find-source.png) ) neben dem Feld&#x200B;_[!UICONTROL Source]_.
 
      ![Dialogfeld „Bild einfügen/bearbeiten“](./assets/pb-tutorial1-column2-text-insert-edit-image.png){width="600" zoomable="yes"}
 
-   - Klicken Sie auf der _[!UICONTROL Select Images]_Seite auf **[!UICONTROL Choose Files]**.
+   - Klicken Sie auf der _[!UICONTROL Select Images]_&#x200B;Seite auf **[!UICONTROL Choose Files]**.
 
    - Wählen Sie im Ordner, in dem Sie die einfachen Seiten-Assets gespeichert haben, `rating.png` aus.
 
@@ -507,7 +507,7 @@ Die zweite Spalte der Zeile sollte Inhalte aus einer Kundenbewertung enthalten, 
 
    ![Festlegen der Mindesthöhe und vertikalen Ausrichtung](./assets/pb-tutorial1-column2-layout-vertical-alignment.png){width="600" zoomable="yes"}
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Advanced]_und legen Sie alle **[!UICONTROL Margins and Padding]**auf null fest ( `0` ).
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Advanced]_&#x200B;und legen Sie alle **[!UICONTROL Margins and Padding]**&#x200B;auf null fest ( `0` ).
 
    ![Festlegen der Ränder und des Abstands](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
@@ -541,7 +541,7 @@ Die zweite Spalte der Zeile sollte Inhalte aus einer Kundenbewertung enthalten, 
 
 1. Klicken Sie oben rechts im Stadium auf das Symbol _Vollbild schließen_ (![Vollbildsymbol schließen](./assets/pb-icon-reduce.png)).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_Abschnitt für die Seite mit der angezeigten Vorschau zurück.
+   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_&#x200B;Abschnitt für die Seite mit der angezeigten Vorschau zurück.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Save]**.
 
@@ -571,7 +571,7 @@ Nachdem alle drei Zeilen abgeschlossen sind, besteht der letzte Schritt darin, d
 
 1. Klicken Sie oben rechts im Stadium auf das Symbol _Vollbild schließen_ (![Vollbildsymbol schließen](./assets/pb-icon-reduce.png)).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_Abschnitt für die Seite mit der angezeigten Vorschau zurück.
+   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_&#x200B;Abschnitt für die Seite mit der angezeigten Vorschau zurück.
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 

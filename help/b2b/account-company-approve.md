@@ -28,9 +28,9 @@ Sie können auch die [Aktionssteuerung“ verwenden](account-company-manage.md) 
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-   Sie können den _[!UICONTROL Columns]_-Selektor über dem Raster verwenden, um die Spalte **[!UICONTROL Status]**anzuzeigen.
+   Sie können den _[!UICONTROL Columns]_-Selektor über dem Raster verwenden, um die Spalte **[!UICONTROL Status]**&#x200B;anzuzeigen.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Legen Sie **[!UICONTROL Company Status]** auf `Active` fest.
 

@@ -55,6 +55,6 @@ In der folgenden Liste werden die Speicherorte nach Seitentyp beschrieben, an de
 | [!UICONTROL Product View Extra Hint] | Der Inhalt wird unter dem höchsten Hauptpreis des Produkts angezeigt. |
 | [!UICONTROL Right Column] | Inhalte werden unterhalb der rechten Spaltenblöcke angezeigt. |
 | [!UICONTROL Store Language] | Inhalte werden rechts neben der Sprachauswahl angezeigt. |
-| [!UICONTROL Tags List Before] | Der Inhalt wird über dem Feld _[!UICONTROL Add Your Tags]_angezeigt. |
+| [!UICONTROL Tags List Before] | Der Inhalt wird über dem Feld _[!UICONTROL Add Your Tags]_&#x200B;angezeigt. |
 
 {style="table-layout:auto"}

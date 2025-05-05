@@ -22,7 +22,7 @@ Informationen zum Implementieren dieser Integration finden Sie unter [Konfigurie
 
 ## Änderungen an Admin-Workflows und der Benutzeroberfläche nach der Integration mit IMS
 
-Wenn diese Integration aktiviert ist, erleben Commerce-Admin-Benutzerinnen und -Benutzer Änderungen am standardmäßigen Commerce-Admin-Anmelde- und Authentifizierungs-Workflow, während sie im Admin-Bereich Routineaufgaben ausführen, für die eine erneute Authentifizierung erforderlich ist, z. B. das Erstellen eines Admin-Benutzers. Für die Modulaktivierung ist eine Zwei-Faktor-Authentifizierung (2FA) auf der Adobe-Organisationsebene erforderlich. Die standardmäßige Admin-Anmeldung und 2FA sind deaktiviert und die Schaltfläche _[!UICONTROL Sign In with Adobe ID]_ersetzt das standardmäßige Admin-Anmeldeformular. Berechtigungen werden weiterhin vom Administrator verwaltet.
+Wenn diese Integration aktiviert ist, erleben Commerce-Admin-Benutzerinnen und -Benutzer Änderungen am standardmäßigen Commerce-Admin-Anmelde- und Authentifizierungs-Workflow, während sie im Admin-Bereich Routineaufgaben ausführen, für die eine erneute Authentifizierung erforderlich ist, z. B. das Erstellen eines Admin-Benutzers. Für die Modulaktivierung ist eine Zwei-Faktor-Authentifizierung (2FA) auf der Adobe-Organisationsebene erforderlich. Die standardmäßige Admin-Anmeldung und 2FA sind deaktiviert und die Schaltfläche _[!UICONTROL Sign In with Adobe ID]_&#x200B;ersetzt das standardmäßige Admin-Anmeldeformular. Berechtigungen werden weiterhin vom Administrator verwaltet.
 
 ## Auswirkungen der Admin-Integration mit IMS auf Commerce-Kennwörter
 

@@ -126,7 +126,7 @@ Sie können Zeit sparen, indem Sie eine Folie duplizieren, die bereits mit den e
    - [[!UICONTROL Content]](#content)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Wenn Sie fertig sind, klicken Sie oben rechts auf **[!UICONTROL Save]** , um die _[!UICONTROL Edit Slide]_zu schließen.
+1. Wenn Sie fertig sind, klicken Sie oben rechts auf **[!UICONTROL Save]** , um die _[!UICONTROL Edit Slide]_&#x200B;zu schließen.
 
 ### Widget auf einer Folie hinzufügen
 
@@ -256,7 +256,7 @@ Ein Hintergrundtyp kann ein Bild oder ein Video sein. [!DNL Page Builder] ist st
 
 ### Einstellungen für Bildtyp
 
-Wenn Sie die _[!UICONTROL Background Type]_auf `Image` setzen, verwenden Sie die folgenden Einstellungen, um die Hintergrundbildanzeige zu definieren.
+Wenn Sie die _[!UICONTROL Background Type]_&#x200B;auf `Image` setzen, verwenden Sie die folgenden Einstellungen, um die Hintergrundbildanzeige zu definieren.
 
 ![Banner mit Hintergrundbild](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -338,9 +338,9 @@ Sie können den Folieninhalt direkt auf der Bühne oder beim Ändern der Einstel
 
 1. Klicken Sie auf den Navigationspunkt am unteren Rand des Schiebereglers, um die Toolbox für die einzelne Folie anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungen](./assets/pb-icon-settings.png){width="20"} ) aus.
 
-1. Geben Sie im Abschnitt _[!UICONTROL Content]_die **[!UICONTROL Message Text]**ein, die mit der Folie angezeigt werden soll.
+1. Geben Sie im Abschnitt _[!UICONTROL Content]_&#x200B;die **[!UICONTROL Message Text]**&#x200B;ein, die mit der Folie angezeigt werden soll.
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_und verwenden Sie den **[!UICONTROL Message Text]**-Editor, um Bannertext einzugeben und zu formatieren.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_&#x200B;und verwenden Sie den **[!UICONTROL Message Text]**-Editor, um Bannertext einzugeben und zu formatieren.
 
    Sie können auch Elemente wie Text-Links, Bilder und Widgets einfügen.
 
@@ -614,7 +614,7 @@ Wenn Sie einen Titel über dem Schieberegler möchten, fügen Sie einfach einen 
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
-1. Suchen Sie die Seite im Raster _Seiten_ und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Action]_aus.
+1. Suchen Sie die Seite im Raster _Seiten_ und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Action]_&#x200B;aus.
 
    ![Reglervorschau - Standardansicht](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
 

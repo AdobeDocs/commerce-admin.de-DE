@@ -24,7 +24,7 @@ Das Zuweisen einer Kundengruppe zu einem Unternehmen entspricht im Wesentlichen 
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Suchen Sie das Unternehmen im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie das Unternehmen im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
    ![Firma bearbeiten](./assets/companies-grid-edit.png){width="700" zoomable="yes"}
 

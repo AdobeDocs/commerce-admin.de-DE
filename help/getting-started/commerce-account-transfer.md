@@ -54,7 +54,7 @@ Dieser Übertragungstyp erfordert, dass Sie zunächst eine zugehörige Adobe ID 
 
 1. Klicken Sie auf **[!UICONTROL Continue]**.
 
-   Dadurch wird ein Adobe ID erstellt und mit dem aktuellen Commerce-Konto (MAGEID) verknüpft. Mit diesem Konto-Link wird das Feld _[!UICONTROL Email]_für alle Änderungen gesperrt. Die zugehörige E-Mail-Adresse wird vom Adobe ID-Konto verwaltet.
+   Dadurch wird ein Adobe ID erstellt und mit dem aktuellen Commerce-Konto (MAGEID) verknüpft. Mit diesem Konto-Link wird das Feld _[!UICONTROL Email]_&#x200B;für alle Änderungen gesperrt. Die zugehörige E-Mail-Adresse wird vom Adobe ID-Konto verwaltet.
 
 1. Navigieren Sie zu [account.adobe.com](https://account.adobe.com/).
 

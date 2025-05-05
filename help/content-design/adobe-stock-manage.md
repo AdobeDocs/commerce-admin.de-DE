@@ -26,7 +26,7 @@ Der Adobe Stock-Suchbereich ist verfügbar, wenn Sie [eine Seite hinzufügen ode
 
 1. Klicken Sie auf **[!UICONTROL Add a New Page]**.
 
-   Wenn Sie eine vorhandene Seite bearbeiten möchten, können Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**klicken und **[!UICONTROL Edit]**auswählen.
+   Wenn Sie eine vorhandene Seite bearbeiten möchten, können Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Select]**&#x200B;klicken und **[!UICONTROL Edit]**&#x200B;auswählen.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Content]** und führen Sie folgende Schritte aus:
 
@@ -46,7 +46,7 @@ Der Adobe Stock-Suchbereich ist verfügbar, wenn Sie [eine Seite hinzufügen ode
 
    Wenn Sie das Bild zu einer vorhandenen Kategorie hinzufügen möchten, klicken Sie auf den Kategorienamen in der Liste auf der linken Seite.
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Content]** und klicken Sie unter _[!UICONTROL Category Image]_auf **[!UICONTROL Select from Gallery]**.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Content]** und klicken Sie unter _[!UICONTROL Category Image]_&#x200B;auf **[!UICONTROL Select from Gallery]**.
 
 1. Klicken Sie auf **[!UICONTROL Search Adobe Stock]**.
 

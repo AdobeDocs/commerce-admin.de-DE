@@ -14,6 +14,6 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Der Abschnitt _[!UICONTROL Autosettings]_enthält alle Attribute, die Abhängigkeiten für andere Vorgänge sind. Sie können die Standardeinstellung [RMA-Konfiguration](../stores-purchase/rma-configure.md) auf das Produkt anwenden oder es nach Bedarf überschreiben.
+Der Abschnitt _[!UICONTROL Autosettings]_&#x200B;enthält alle Attribute, die Abhängigkeiten für andere Vorgänge sind. Sie können die Standardeinstellung [RMA-Konfiguration](../stores-purchase/rma-configure.md) auf das Produkt anwenden oder es nach Bedarf überschreiben.
 
 ![AutoSettings](./assets/product-autosettings.png){width="600" zoomable="yes"}

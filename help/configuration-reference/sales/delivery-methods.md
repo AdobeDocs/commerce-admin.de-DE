@@ -147,7 +147,7 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | Website | Legt die Mindestgewichtung eines Pakets fest, die von UPS angegeben werden kann. Wenn die bestellten Produkte weniger wiegen als das minimale Paketgewicht, ist diese Versandoption nicht verfügbar. Um das Mindestgewicht zu überprüfen, fragen Sie Ihren Spediteur. |
 | [!UICONTROL Calculate Handling Fee] | Website | Legt die Methode zur Berechnung der Bearbeitungsgebühr für den Versand mit Tabellensätzen fest. Optionen: <br>**`Fixed`**- Bearbeitungsgebühr ist ein fester Satz.<br>**`Percent`** - Bearbeitungsgebühr wird als Prozentsatz des Bestellbetrags angewendet. |
 | [!UICONTROL Handling Applied] | Website | Gibt an, ob die Bearbeitungsgebühr auf jede Bestellung oder auf jedes Paket innerhalb einer Bestellung angewendet wird. |
-| [!UICONTROL Handling Fee] | Website | Legt die Handhabung fest, die im Versandratenpreis enthalten ist. Die Bearbeitungsgebühr kann als fester Betrag oder als Prozentsatz festgelegt werden. <br/><br/>**_Hinweis:_**Wenn Sie einen Prozentwert eingeben, verwenden Sie das Dezimalformat `0.25` für 25 %. |
+| [!UICONTROL Handling Fee] | Website | Legt die Handhabung fest, die im Versandratenpreis enthalten ist. Die Bearbeitungsgebühr kann als fester Betrag oder als Prozentsatz festgelegt werden. <br/><br/>**_Hinweis:_**&#x200B;Wenn Sie einen Prozentwert eingeben, verwenden Sie das Dezimalformat `0.25` für 25 %. |
 
 {style="table-layout:auto"}
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Website | Gibt die zulässigen UPS-Versandmethoden an, die Kunden angeboten werden. Die Versandkosten werden auf Basis der gewählten Versandart berechnet. |
-| [!UICONTROL Free Method] | Website | Identifiziert die Methode, die für den kostenlosen Versand über UPS verwendet wird. Um den kostenlosen Versand zu deaktivieren, wählen Sie „Keine“. <br/><br/>**_Hinweis:_**Diese Methode ähnelt der grundlegenden [kostenloser Versand](../../stores-purchase/shipping-free.md), erscheint jedoch während des Checkouts als UPS Versandoption. |
+| [!UICONTROL Free Method] | Website | Identifiziert die Methode, die für den kostenlosen Versand über UPS verwendet wird. Um den kostenlosen Versand zu deaktivieren, wählen Sie „Keine“. <br/><br/>**_Hinweis:_**&#x200B;Diese Methode ähnelt der grundlegenden [kostenloser Versand](../../stores-purchase/shipping-free.md), erscheint jedoch während des Checkouts als UPS Versandoption. |
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Bestimmt, ob ein kostenloser Versand angewendet wird, wenn der Bestellbetrag den Schwellenwert für den kostenlosen Versand erreicht. Optionen: `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Legt den minimalen Gesamtbetrag fest, den eine Bestellung erreichen muss, um für einen kostenlosen Versand zu qualifizieren. |
 | [!UICONTROL Displayed Error Message] | Shop-Ansicht | Die Fehlermeldung, die angezeigt wird, wenn diese Versandmethode aus irgendeinem Grund nicht verfügbar ist. |
@@ -219,7 +219,7 @@ ht-degree: 0%
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Website | Legt die Methode zur Berechnung der Bearbeitungsgebühr für den Versand mit Tabellensätzen fest. Optionen: <br/>**`Fixed`**- Bearbeitungsgebühr ist ein fester Satz.<br/>**`Percent`** - Bearbeitungsgebühr wird als Prozentsatz des Bestellbetrags angewendet. |
 | [!UICONTROL Handling Applied] | Website | Gibt an, ob die Bearbeitungsgebühr auf jede Bestellung oder auf jedes Paket innerhalb einer Bestellung angewendet wird. |
-| [!UICONTROL Handling Fee] | Website | Legt die Handhabung fest, die im Versandratenpreis enthalten ist. Die Bearbeitungsgebühr kann als fester Betrag oder als Prozentsatz festgelegt werden. <br/><br/>**_Hinweis:_**Verwenden Sie beim Eingeben eines Prozentsatzes das Dezimalformat `0.25` für 25 %. |
+| [!UICONTROL Handling Fee] | Website | Legt die Handhabung fest, die im Versandratenpreis enthalten ist. Die Bearbeitungsgebühr kann als fester Betrag oder als Prozentsatz festgelegt werden. <br/><br/>**_Hinweis:_**&#x200B;Verwenden Sie beim Eingeben eines Prozentsatzes das Dezimalformat `0.25` für 25 %. |
 
 {style="table-layout:auto"}
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Website | Gibt die zulässigen Methoden für den Versand von USPS an, die Kunden angeboten werden. Die Versandkosten werden auf Basis der gewählten Versandart berechnet. |
-| [!UICONTROL Free Method] | Website | Legt die kostenlose Versandmethode über USPS fest oder kann durch Auswahl von `None` deaktiviert werden. <br/><br/>**_Hinweis:_**Diese Versandmethode ähnelt der kostenlosen Versandmethode Ihres Geschäfts, wird jedoch als USPS Versandoption aufgeführt und als USPS Versand identifiziert. |
+| [!UICONTROL Free Method] | Website | Legt die kostenlose Versandmethode über USPS fest oder kann durch Auswahl von `None` deaktiviert werden. <br/><br/>**_Hinweis:_**&#x200B;Diese Versandmethode ähnelt der kostenlosen Versandmethode Ihres Geschäfts, wird jedoch als USPS Versandoption aufgeführt und als USPS Versand identifiziert. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Website | Legt den Mindestbestellbetrag fest, der erfüllt sein muss, um für den kostenlosen Versand zu qualifizieren. |
 | [!UICONTROL Displayed Error Message] | Shop-Ansicht | Die Fehlermeldung, die angezeigt wird, wenn USPS aus irgendeinem Grund nicht verfügbar ist. |
 
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | Website | Bestimmt die Methode zur Berechnung der Bearbeitungsgebühren. Optionen: `Fixed Fee` / `Percentage` <br/><br/>**_Hinweis:_**Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die zu den FedEx Versandkosten addiert wird. |
+| [!UICONTROL Calculate Handling Fee] | Website | Bestimmt die Methode zur Berechnung der Bearbeitungsgebühren. Optionen: `Fixed Fee` / `Percentage` <br/><br/>**_Hinweis:_**&#x200B;Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die zu den FedEx Versandkosten addiert wird. |
 | [!UICONTROL Handling Applied] | Website | Legt fest, wie Bearbeitungsgebühren angewendet werden. Optionen: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Website | Gibt den als Bearbeitungsgebühr berechneten Betrag an, basierend auf der Methode zur Berechnung des Betrags. Wenn die Gebühr auf einer festen Gebühr basiert, geben Sie den Betrag als Dezimalzahl ein, z. B. `4.90`. Wenn die Bearbeitungsgebühr auf einem Prozentsatz der Bestellung basiert, geben Sie den Betrag als Prozentsatz ein. Um beispielsweise sechs Prozent der Bestellung zu berechnen, geben Sie den Wert als `.06` ein. |
 
@@ -306,7 +306,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | Website | Je nachdem, ob Sie Business-to-Consumer (B2C) oder Business-to-Business (B2B) verkaufen, auf eine der folgenden Einstellungen festlegen: <br/>**`Yes`**- Für B2C-Sendungen<br/>**`No`** - Für B2B-Sendungen |
 | [!UICONTROL Allowed Methods] | Website | Wählen Sie aus der Liste die von Ihnen unterstützten Versandmethoden aus. Die Methoden hängen von Ihrem FedEx-Konto, der Häufigkeit und Größe Ihrer Sendungen und davon ab, ob Sie internationale Sendungen zulassen. Als Händler könnten Sie sich dafür entscheiden, nur Bodentransport anzubieten. |
 | [!UICONTROL Hub ID] | Website | Eine von FedEx bereitgestellte ID, die mit der [!DNL Smart Post]-Methode verwendet wird. |
-| [!UICONTROL Free Method] | Website | Wählen Sie aus der Liste die Versandart aus, die Sie für Angebote des kostenlosen Versands bevorzugen. <br/><br/>**_Hinweis:_**Diese Versandmethode ähnelt der regulären kostenlosen Versandmethode, wird jedoch in den FedEx Versandoptionen aufgeführt und wird als FedEx Versand identifiziert. |
+| [!UICONTROL Free Method] | Website | Wählen Sie aus der Liste die Versandart aus, die Sie für Angebote des kostenlosen Versands bevorzugen. <br/><br/>**_Hinweis:_**&#x200B;Diese Versandmethode ähnelt der regulären kostenlosen Versandmethode, wird jedoch in den FedEx Versandoptionen aufgeführt und wird als FedEx Versand identifiziert. |
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Legt fest, ob ein Mindestbestellbetrag für den kostenlosen Versand erforderlich ist. Optionen: <br/>**`Enable`**- Ermöglicht den kostenlosen Versand von FedEx für Bestellungen, die den Mindestbetrag erfüllen.<br/>**`Disable`** - Deaktiviert kostenlosen FedEx-Versand mit Mindestbestellmenge. |
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Gibt den Mindestbestellbetrag an, der für den kostenlosen Versand erforderlich ist. |
 | [!UICONTROL Displayed Error Message] | Shop-Ansicht | Die Meldung, die angezeigt wird, wenn FedEx aus irgendeinem Grund nicht verfügbar ist. Sie können die Standardmeldung verwenden oder eine andere eingeben. |

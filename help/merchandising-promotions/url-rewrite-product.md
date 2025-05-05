@@ -124,11 +124,11 @@ Mit den folgenden Schritten können Sie URL-Neuschreibungen für mehrere oder al
 
 1. Wählen Sie alle Produkte aus, für die Sie URL-Neuschreibungen aktualisieren möchten.
 
-1. Wählen Sie unter _[!UICONTROL Actions]_die Option **[!UICONTROL Update attributes]**aus, um mehrere oder alle Neuschreibungen zu aktualisieren.
+1. Wählen Sie unter _[!UICONTROL Actions]_&#x200B;die Option **[!UICONTROL Update attributes]**&#x200B;aus, um mehrere oder alle Neuschreibungen zu aktualisieren.
 
-1. Klicken Sie unter _[!UICONTROL PRODUCTS INFORMATION]_auf die Registerkarte **[!UICONTROL Websites]**.
+1. Klicken Sie unter _[!UICONTROL PRODUCTS INFORMATION]_&#x200B;auf die Registerkarte **[!UICONTROL Websites]**.
 
-1. Wählen Sie im Abschnitt _[!UICONTROL Add Product To Websites]_alle Websites aus, für die Sie URL-Neuschreibungen wiederherstellen möchten.
+1. Wählen Sie im Abschnitt _[!UICONTROL Add Product To Websites]_&#x200B;alle Websites aus, für die Sie URL-Neuschreibungen wiederherstellen möchten.
 
 1. Wenn Sie bereit zum Aktualisieren sind, klicken Sie auf **[!UICONTROL Save]**.
 

@@ -56,7 +56,7 @@ Damit eine Kategorie in der oberen Navigation eines Stores angezeigt wird, führ
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-Bei einer Multi-Store-Installation kann jedem (Store) ein anderes Hauptmenü als [Stammkategorie](category-root.md) zugewiesen [](../stores-purchase/stores.md#add-stores).
+Bei einer Multi-Store-Installation kann jedem (Store) ein anderes Hauptmenü als [Stammkategorie](category-root.md) zugewiesen [&#128279;](../stores-purchase/stores.md#add-stores).
 
 ### Schritt 2: Legen Sie die Tiefe der oberen Navigation fest
 
@@ -68,7 +68,7 @@ Bei einer Multi-Store-Installation kann jedem (Store) ein anderes Hauptmenü als
 
    ![Oberste Navigation der Kategorie](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"}
 
-   Da die Tiefe der oberen Navigation einen globalen [Konfigurationsbereich) hat](../getting-started/websites-stores-views.md#scope-settings) gilt die Einstellung für alle Websites, Stores und Store-Ansichten in der Commerce-Installation. Der Abschnitt _[!UICONTROL Category Top Navigation]_-Konfiguration ist nur verfügbar, wenn_[!UICONTROL Store View]_ in der oberen linken Ecke auf `Default Config` eingestellt ist.
+   Da die Tiefe der oberen Navigation einen globalen [Konfigurationsbereich) hat](../getting-started/websites-stores-views.md#scope-settings) gilt die Einstellung für alle Websites, Stores und Store-Ansichten in der Commerce-Installation. Der Abschnitt _[!UICONTROL Category Top Navigation]_-Konfiguration ist nur verfügbar, wenn&#x200B;_[!UICONTROL Store View]_ in der oberen linken Ecke auf `Default Config` eingestellt ist.
 
    Eine detaillierte Liste dieser Optionen finden Sie unter [Oberste Navigation ](../configuration-reference/catalog/catalog.md#layered-navigation) Kategorie“ _Konfigurationsreferenz_.
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produkteinstellungen - [!UICONTROL Images and Videos]
 
-Im Abschnitt _[!UICONTROL Images and Videos]_können Sie grundlegende Aufgaben zur Bildverwaltung ausführen, z. B. mehrere Bilder hochladen, Bilder neu anordnen und steuern, wie die einzelnen Bilder verwendet werden. Um eine zusätzliche Kontrolle über einzelne Bilder zu erhalten, können Sie jedes Bild in der_ Detailansicht _öffnen. Weitere Informationen finden Sie unter [Katalogbilder und Videos](catalog-images-video.md).
+Im Abschnitt _[!UICONTROL Images and Videos]_&#x200B;können Sie grundlegende Aufgaben zur Bildverwaltung ausführen, z. B. mehrere Bilder hochladen, Bilder neu anordnen und steuern, wie die einzelnen Bilder verwendet werden. Um eine zusätzliche Kontrolle über einzelne Bilder zu erhalten, können Sie jedes Bild in der_ Detailansicht _öffnen. Weitere Informationen finden Sie unter [Katalogbilder und Videos](catalog-images-video.md).
 
 ## Ein neues Bild hochladen
 
@@ -32,7 +32,7 @@ Ein [Platzhalter](product-image-config.md#image-placeholders)-Bild wird im Katal
 
 ## Bilddetail
 
-Beim Hinzufügen von Produktbildern können Sie die Bildanzeige im _[!UICONTROL Image Detail]_anpassen.
+Beim Hinzufügen von Produktbildern können Sie die Bildanzeige im _[!UICONTROL Image Detail]_&#x200B;anpassen.
 
 ![Produktbilder](./assets/image-video.png){width="600" zoomable="yes"}
 

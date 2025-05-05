@@ -155,6 +155,7 @@ Gibt die durchschnittliche Anzahl der Anwendungsereignisse im Katalog nach Kateg
     AND CatalogCategoryCount > 0
     AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutes ago LIMIT 1
 &lt;/your_app_name>
+
 #### Aktiv Produkte
 
 Gibt die Anzahl der Anwendungsereignisse pro Produkt während des angegebenen Zeitraums zurück.
@@ -256,7 +257,7 @@ Gibt die durchschnittliche Anzahl von Anwendungsereignissen pro Website und Stor
 
     SELECT average(StoreViewCount), average(WebsiteCount)
     FROM Cron
-    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 Minuten
+    WHERE appName = &#39;&lt;your_app_name&gt;&#39; TIMESERIES 2 Minuten
 
 #### Aktuelle Website- und Store-Anzahl
 

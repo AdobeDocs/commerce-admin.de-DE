@@ -25,7 +25,7 @@ Der Prozess zum Erstellen eines Widgets ist für jeden [Widget-Typ“ nahezu ](w
 
 1. Klicken Sie auf **[!UICONTROL Add Widget]**.
 
-1. Im _[!UICONTROL Settings]_Abschnitt:
+1. Im _[!UICONTROL Settings]_&#x200B;Abschnitt:
 
    - Legen Sie **[!UICONTROL Type]** auf den Widget-Typ fest, den Sie erstellen möchten.
 
@@ -37,7 +37,7 @@ Der Prozess zum Erstellen eines Widgets ist für jeden [Widget-Typ“ nahezu ](w
 
 ### Schritt 2: Eigenschaften und Layout der Storefront angeben
 
-1. Im _[!UICONTROL Storefront Properties]_Abschnitt:
+1. Im _[!UICONTROL Storefront Properties]_&#x200B;Abschnitt:
 
    - Geben Sie **[!UICONTROL Widget Title]** einen beschreibenden Titel für das Widget ein.
 
@@ -51,7 +51,7 @@ Der Prozess zum Erstellen eines Widgets ist für jeden [Widget-Typ“ nahezu ](w
 
      ![Storefront-Eigenschaften](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_auf **[!UICONTROL Add Layout Update]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_&#x200B;auf **[!UICONTROL Add Layout Update]**.
 
 1. Legen Sie **[!UICONTROL Display On]** auf den Seitentyp fest, auf dem es angezeigt werden soll.
 

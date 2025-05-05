@@ -56,7 +56,7 @@ Die Gewerbesteuer wird anhand der Adresse des Geschäfts berechnet. Die tatsäch
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
-1. Suchen Sie den Steuersatz im _[!UICONTROL Tax Zones and Rates]_und öffnen Sie den Datensatz im Bearbeitungsmodus.
+1. Suchen Sie den Steuersatz im _[!UICONTROL Tax Zones and Rates]_&#x200B;und öffnen Sie den Datensatz im Bearbeitungsmodus.
 
    Wenn die Liste viele Tarife enthält, können Sie über die [Filterfeldern](../getting-started/admin-grid-controls.md) nach der benötigten Tarifierung suchen.
 

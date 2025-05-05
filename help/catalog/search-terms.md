@@ -48,7 +48,7 @@ Wenn Sie neue Wörter lernen, mit denen Personen in Ihrem Geschäft suchen, kön
 
    ![Allgemeine Informationen zu Suchbegriffen](./assets/search-terms-information.png){width="600" zoomable="yes"}
 
-1. Geben Sie unter _[!UICONTROL General Information]_im Feld **[!UICONTROL Search Query]**das Wort oder die Phrase ein, das bzw. die Sie als neuen Suchbegriff hinzufügen möchten.
+1. Geben Sie unter _[!UICONTROL General Information]_&#x200B;im Feld **[!UICONTROL Search Query]**&#x200B;das Wort oder die Phrase ein, das bzw. die Sie als neuen Suchbegriff hinzufügen möchten.
 
 1. Wenn Ihr Store in mehreren Sprachen verfügbar ist, wählen Sie die entsprechende **[!UICONTROL Store]** aus.
 
@@ -60,7 +60,7 @@ Wenn Sie neue Wörter lernen, mit denen Personen in Ihrem Geschäft suchen, kön
 
 ## Bearbeiten eines Suchbegriffs
 
-1. Klicken Sie im _[!UICONTROL Search Terms]_auf die Zeile eines Datensatzes, um den Suchbegriff im Bearbeitungsmodus zu öffnen.
+1. Klicken Sie im _[!UICONTROL Search Terms]_&#x200B;auf die Zeile eines Datensatzes, um den Suchbegriff im Bearbeitungsmodus zu öffnen.
 
 1. Nehmen Sie die erforderlichen Änderungen vor.
 
@@ -70,7 +70,7 @@ Wenn Sie neue Wörter lernen, mit denen Personen in Ihrem Geschäft suchen, kön
 
 Es gibt zwei Methoden zum Löschen eines Suchbegriffs - im Raster und auf der Bearbeitungsseite.
 
-**Methode 1:** Im _[!UICONTROL Search Terms]_Raster
+**Methode 1:** Im _[!UICONTROL Search Terms]_&#x200B;Raster
 
 1. Aktivieren Sie in der Liste das Kontrollkästchen des zu löschenden Begriffs.
 
@@ -78,7 +78,7 @@ Es gibt zwei Methoden zum Löschen eines Suchbegriffs - im Raster und auf der Be
 
 1. Klicken Sie abschließend auf **[!UICONTROL Submit]**.
 
-**Methode 2:** Auf der _[!UICONTROL Edit a Search Term]_Seite
+**Methode 2:** Auf der _[!UICONTROL Edit a Search Term]_&#x200B;Seite
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Terms]**.
 
@@ -141,7 +141,7 @@ Adobe Commerce unterstützt zwei verschiedene Synonym-Management-Lösungen:
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Search Synonyms]**.
 
-   Das _[!UICONTROL Search Synonyms]_wird angezeigt. Wenn Sie zum ersten Mal Suchsynonyme verwenden, ist das Raster leer.
+   Das _[!UICONTROL Search Synonyms]_&#x200B;wird angezeigt. Wenn Sie zum ersten Mal Suchsynonyme verwenden, ist das Raster leer.
 
    ![Raster für Suchsynonyme](./assets/search-synonyms-grid-empty.png){width="700" zoomable="yes"}
 
@@ -164,7 +164,7 @@ Adobe Commerce unterstützt zwei verschiedene Synonym-Management-Lösungen:
 
 ### Bearbeiten einer Synonymgruppe
 
-1. Klicken Sie im _[!UICONTROL Search Synonyms]_auf die Zeile eines Datensatzes, um die Gruppe der Synonyme im Bearbeitungsmodus zu öffnen.
+1. Klicken Sie im _[!UICONTROL Search Synonyms]_&#x200B;auf die Zeile eines Datensatzes, um die Gruppe der Synonyme im Bearbeitungsmodus zu öffnen.
 
 1. Nehmen Sie die erforderlichen Änderungen vor.
 
@@ -176,7 +176,7 @@ Es gibt zwei Methoden zum Löschen einer Gruppe von Synonymen: aus dem Raster un
 
 **Methode 1:** Im Raster „Synonyme suchen“
 
-1. Aktivieren Sie im _[!UICONTROL Search Synonyms]_das Kontrollkästchen der zu löschenden Gruppe.
+1. Aktivieren Sie im _[!UICONTROL Search Synonyms]_&#x200B;das Kontrollkästchen der zu löschenden Gruppe.
 
 1. Setzen Sie oben links in der Liste **[!UICONTROL Actions]** auf `Delete`.
 

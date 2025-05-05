@@ -27,7 +27,7 @@ Die Einstellungen im Abschnitt &quot;HTML-Head“ entsprechen dem `<head>`-Tag e
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Erweitern _unter_ Weitere Einstellungen![ den Abschnitt **[!UICONTROL HTML Head]** Erweiterungsauswahl](../assets/icon-display-expand.png).
 
@@ -84,7 +84,7 @@ Die Header-Konfiguration identifiziert den Pfad zu Ihrem Store-Logo und gibt den
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Erweitern _unter_ Weitere Einstellungen![ den Abschnitt **[!UICONTROL Header]** Erweiterungsauswahl](../assets/icon-display-expand.png).
 
@@ -118,7 +118,7 @@ Im Abschnitt „Konfiguration der Fußzeile“ können Sie den [Copyright-Hinwei
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Erweitern _unter_ Weitere Einstellungen![ den Abschnitt **[!UICONTROL Footer]** Erweiterungsauswahl](../assets/icon-display-expand.png).
 

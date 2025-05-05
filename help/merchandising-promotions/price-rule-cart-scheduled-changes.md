@@ -26,7 +26,7 @@ Die Regeln für den Warenkorbpreis können im Rahmen einer Kampagne planmäßig 
 >
 >Alle geplanten Aktualisierungen werden nacheinander angewendet. Das bedeutet, dass jede Entität zu einem bestimmten Zeitpunkt nur eine geplante Aktualisierung haben kann. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb ihres Zeitrahmens angewendet. Daher kann eine Entität nicht gleichzeitig verschiedene geplante Aktualisierungen für verschiedene Store-Ansichten haben. Alle Entitätsattributwerte in allen Store-Ansichten, die nicht von der aktuellen geplanten Aktualisierung betroffen sind, werden aus den Standardwerten übernommen, nicht aus der vorherigen geplanten Aktualisierung.
 
-Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die _[!UICONTROL Priority]_der Preisregel, welche Regel Vorrang hat. Weitere Informationen finden Sie unter [Inhaltsbereitstellung](../content-design/content-staging.md).
+Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die _[!UICONTROL Priority]_&#x200B;der Preisregel, welche Regel Vorrang hat. Weitere Informationen finden Sie unter [Inhaltsbereitstellung](../content-design/content-staging.md).
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Beachten Sie die folgenden Einschränkungen:
 
 - Wenn eine Kampagne mit einer Preisregel anfänglich ohne Enddatum erstellt wird, kann die Kampagne später nicht mehr so bearbeitet werden, dass sie ein Enddatum enthält. Es wird empfohlen, entweder beim Erstellen der Kampagne ein Enddatum hinzuzufügen oder eine doppelte Version der vorhandenen Kampagne zu erstellen und das Enddatum dem Duplikat nach Bedarf hinzuzufügen.
 - Wenn Sie eine geplante Aktualisierung verwenden, um eine Warenkorb-Preisregel mit einem Enddatum zu aktivieren, stellen Sie sicher, dass Sie die Regel zunächst als deaktiviert festlegen. Bereits aktive Regeln berücksichtigen nicht das Enddatum.
-- Coupons sind nicht mit Warenkorb-Preisregeln verbunden. Eine geplante Aktualisierung bietet keinen Zugriff auf die Felder _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_und_[!UICONTROL Uses per Customer]_ auf der Registerkarte _[!UICONTROL Rule Information]_. Außerdem sind nicht alle Einstellungen auf der Registerkarte_[!UICONTROL Manage Coupon Codes]_ verfügbar.
+- Coupons sind nicht mit Warenkorb-Preisregeln verbunden. Eine geplante Aktualisierung bietet keinen Zugriff auf die Felder _[!UICONTROL Coupon]_,_[!UICONTROL Coupon Code]_, _[!UICONTROL Uses per Coupon]_&#x200B;und&#x200B;_[!UICONTROL Uses per Customer]_ auf der Registerkarte _[!UICONTROL Rule Information]_. Außerdem sind nicht alle Einstellungen auf der Registerkarte&#x200B;_[!UICONTROL Manage Coupon Codes]_ verfügbar.
 
 >[!IMPORTANT]
 >

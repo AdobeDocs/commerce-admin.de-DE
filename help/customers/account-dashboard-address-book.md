@@ -20,7 +20,7 @@ Kunden, die ihre Adressbücher aktuell halten, können den Checkout-Prozess besc
 
 1. Im linken Navigationsbereich seines Kundenkontos wählt der Kunde **[!UICONTROL Address Book]** aus.
 
-1. Klicken Sie auf der Seite _[!UICONTROL Address Book]_unter_ Zusätzliche Adresseinträge _auf **[!UICONTROL Add New Address]**.
+1. Klicken Sie auf der Seite _[!UICONTROL Address Book]_&#x200B;unter_ Zusätzliche Adresseinträge _auf **[!UICONTROL Add New Address]**.
 
    ![Neue Adresse hinzufügen](assets/add-new-address.png){width="600" zoomable="yes"}
 

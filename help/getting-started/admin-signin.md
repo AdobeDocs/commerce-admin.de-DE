@@ -110,7 +110,7 @@ Die Wiederverwendung der letzten vier Kennwörter, die dem Konto zugewiesen wurd
 
    ![Abmelden](./assets/admin-sign-out.png){width="700" zoomable="yes"}
 
-Auf der Seite _[!UICONTROL Sign In]_wird eine Meldung angezeigt, dass Sie abgemeldet sind. Melden Sie sich von der_ Admin _ab, wenn Sie Ihren Computer unbeaufsichtigt lassen.
+Auf der Seite _[!UICONTROL Sign In]_&#x200B;wird eine Meldung angezeigt, dass Sie abgemeldet sind. Melden Sie sich von der_ Admin _ab, wenn Sie Ihren Computer unbeaufsichtigt lassen.
 
 ## Kontoinformationen bearbeiten
 

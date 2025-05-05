@@ -36,9 +36,9 @@ Die Fortschrittsleiste oben auf der Seite folgt jedem Schritt des Checkout-Proze
 
 #### Adresse hinzufügen
 
-1. Am Ende des _[!UICONTROL Shipping Address]_Abschnitts klickt der Kunde auf **[!UICONTROL + New Address]**.
+1. Am Ende des _[!UICONTROL Shipping Address]_&#x200B;Abschnitts klickt der Kunde auf **[!UICONTROL + New Address]**.
 
-1. Füllen Sie das _[!UICONTROL Shipping Address]_Formular aus.
+1. Füllen Sie das _[!UICONTROL Shipping Address]_&#x200B;Formular aus.
 
    Standardmäßig werden der Vor- und Nachname des Kunden zunächst im Formular angezeigt.
 
@@ -148,7 +148,7 @@ Eine ausführliche Beschreibung jeder dieser Konfigurationseinstellungen finden 
 | [!UICONTROL Enable Terms and Conditions] | Shop-Ansicht | Legt fest, ob Kunden vor dem Kauf den [Geschäftsbedingungen](terms-and-conditions.md) des Verkaufs zustimmen müssen. Optionen: `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | Shop-Ansicht | Bestimmt den Speicherort der Rechnungsadresse während des Checkouts. Optionen: `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | Shop-Ansicht | Legt die maximale Anzahl von Artikeln fest, die während des Checkouts in der Bestellübersicht angezeigt werden können. Der Standardwert lautet `10`. |
-| [!UICONTROL Enable Address Search] | Website | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Legt fest, ob Kunden die [Adresssuche](checkout-address-search.md) für _Versand_ und die _Überprüfen und Zahlungen_ verwenden können. Wenn diese Funktion aktiviert ist, können Sie über die _[!UICONTROL Number of Customer Addresses Limit]_die Anzahl der gespeicherten Adressen festlegen, die erforderlich sind, um diese Funktion während des Checkouts zu aktivieren. Optionen: `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | Website | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Legt fest, ob Kunden die [Adresssuche](checkout-address-search.md) für _Versand_ und die _Überprüfen und Zahlungen_ verwenden können. Wenn diese Funktion aktiviert ist, können Sie über die _[!UICONTROL Number of Customer Addresses Limit]_&#x200B;die Anzahl der gespeicherten Adressen festlegen, die erforderlich sind, um diese Funktion während des Checkouts zu aktivieren. Optionen: `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | Website | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Wenn die Adresssuche **[!UICONTROL Enabled]** ist, bestimmt die Anzahl der gespeicherten Adressen, die erforderlich sind, um diese Funktion während des Checkouts zu aktivieren. Wenn die Anzahl der gespeicherten Adressen des Kunden diese Zahl erreicht oder überschreitet, wird nur die Standardadresse in den Schritten _Versand_ und _Überprüfen und_) gerendert. Der Kunde kann eine Suchfunktion nutzen, um die ausgewählte Adresse zu ändern. Der Standardwert lautet 10. |
 
 {style="table-layout:auto"}

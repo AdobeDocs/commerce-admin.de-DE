@@ -74,7 +74,7 @@ Gehen **_wie folgt vor, um den Zugriff auf eine_** einzuschränken und zu ihr um
 
    >[!NOTE]
    >
-   >Obwohl die _[!UICONTROL Allow Browsing Category]_Einstellung für alle Kategorien auf der Website gilt, können Sie für jede Shop-Ansicht eine andere Landingpage konfigurieren.
+   >Obwohl die _[!UICONTROL Allow Browsing Category]_&#x200B;Einstellung für alle Kategorien auf der Website gilt, können Sie für jede Shop-Ansicht eine andere Landingpage konfigurieren.
 
 ### [!UICONTROL Display Product Prices]
 

@@ -15,7 +15,7 @@ Ihr Shop erhält regelmäßig Nachrichten von Adobe. Die Meldungen werden nach W
 
 ![Admin - eingehende Nachrichten](./assets/admin-inbox-summary.png){width="700" zoomable="yes"}
 
-Auf der Seite _[!UICONTROL Notifications]_werden alle Nachrichten nach Datum geordnet aufgelistet. Die_[!UICONTROL Action]_ können verwendet werden, um einzelne Nachrichten als gelesen zu markieren, detailliertere Informationen anzuzeigen oder die Nachricht aus dem Posteingang zu entfernen.
+Auf der Seite _[!UICONTROL Notifications]_&#x200B;werden alle Nachrichten nach Datum geordnet aufgelistet. Die&#x200B;_[!UICONTROL Action]_ können verwendet werden, um einzelne Nachrichten als gelesen zu markieren, detailliertere Informationen anzuzeigen oder die Nachricht aus dem Posteingang zu entfernen.
 
 Die Konfiguration bestimmt, wie oft der Posteingang aktualisiert wird und wie die Nachrichten zugestellt werden. Wenn der Administrator Ihres Stores über eine sichere URL verfügt, müssen Benachrichtigungen über HTTPS gesendet werden.
 

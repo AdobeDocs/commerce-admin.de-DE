@@ -18,7 +18,7 @@ Zu den grundlegenden Informationen für Ihren Store gehören der Name und die Ad
 
 ## [!UICONTROL Store Information]
 
-Der Abschnitt _[!UICONTROL Store Information]_enthält die grundlegenden Informationen, die auf den Verkaufsbelegen und in anderen Mitteilungen angezeigt werden.
+Der Abschnitt _[!UICONTROL Store Information]_&#x200B;enthält die grundlegenden Informationen, die auf den Verkaufsbelegen und in anderen Mitteilungen angezeigt werden.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

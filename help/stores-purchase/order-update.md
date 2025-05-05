@@ -28,7 +28,7 @@ Wenn Sie wesentliche Teile einer Bestellung ändern, wird die ursprüngliche Bes
 | **[!UICONTROL Login as Customer]** | Ermöglicht es einem Admin-Benutzer, Kunden bei ihren Bestellungen zu unterstützen. |
 | **[!UICONTROL Cancel]** | Storniert die ausstehende Bestellung. |
 | **[!UICONTROL Send Email]** | Sendet eine E-Mail über die ausstehende Bestellung an den Kunden. |
-| **[!UICONTROL Hold]**/**[!UICONTROL Unhold]** | Ändert den Status der ausstehenden Bestellung in `On Hold`. Um den Haltebereich zu lösen, wählen Sie _[!UICONTROL Unhold]_aus. |
+| **[!UICONTROL Hold]**/**[!UICONTROL Unhold]** | Ändert den Status der ausstehenden Bestellung in `On Hold`. Um den Haltebereich zu lösen, wählen Sie _[!UICONTROL Unhold]_&#x200B;aus. |
 | **[!UICONTROL Invoice]** | Erstellt eine [Rechnung](invoices.md#create-an-invoice) aus der ausstehenden Bestellung, indem die Bestellung in eine Rechnung umgewandelt wird, und ändert den Bestellstatus in `processing`. |
 | **[!UICONTROL Ship]** | Erstellt einen [Sendung](shipments.md#create-a-shipment)-Datensatz für die Bestellung. |
 | **[!UICONTROL Reorder]** | Erstellt einen neuen ausstehenden Auftrag, der ein Duplikat des aktuellen ausstehenden Auftrags ist. |
@@ -59,7 +59,7 @@ Sie können eine `Processing` Bestellung nicht wesentlich ändern, aber Sie kön
 | **[!UICONTROL Send Email]** | Sendet eine E-Mail über die Bestellung an den Kunden. |
 | **[!UICONTROL Void]** | [Voids](#void-a-processing-order) eine Auftragstransaktion oder eine Teilauftragstransaktion. |
 | **[!UICONTROL Credit Memo]** | Startet den Prozess zum Erstellen einer [Gutschrift](credit-memo-create.md). |
-| **[!UICONTROL Hold]**/**[!UICONTROL Unhold]** | Ändert den Status des Kundenauftrags in `On Hold`. Um die Sperre des Kundenauftrags aufzuheben, wählen Sie _[!UICONTROL Unhold]_aus. |
+| **[!UICONTROL Hold]**/**[!UICONTROL Unhold]** | Ändert den Status des Kundenauftrags in `On Hold`. Um die Sperre des Kundenauftrags aufzuheben, wählen Sie _[!UICONTROL Unhold]_&#x200B;aus. |
 | **[!UICONTROL Reorder]** | Erstellt einen neuen ausstehenden Auftrag basierend auf dem aktuellen Auftrag. |
 | **[!UICONTROL Create Returns]** | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Initiiert den Prozess zum [ (](returns.md)) eines oder mehrerer Elemente aus der Bestellung. |
 
@@ -119,9 +119,9 @@ Um die Sperre einer Bestellung aufzuheben, bearbeiten Sie die Bestellung erneut 
 
 Beim Abbrechen einer Bestellung ändert sich ihr Status von `Pending` in `Canceled`.
 
-1. Suchen Sie im _[!UICONTROL Orders]_Raster nach der ausstehenden Bestellung, die storniert werden soll.
+1. Suchen Sie im _[!UICONTROL Orders]_&#x200B;Raster nach der ausstehenden Bestellung, die storniert werden soll.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL View]**.
 
 1. Klicken Sie auf **[!UICONTROL Cancel]** , um die Bestellung abzubrechen.
 

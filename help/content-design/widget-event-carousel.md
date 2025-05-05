@@ -30,7 +30,7 @@ Bevor Sie beginnen, befolgen Sie die [Anweisungen](../merchandising-promotions/e
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add Widget]**.
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Settings]_wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Settings]_&#x200B;wie folgt vor:
 
    - Legen Sie **[!UICONTROL Type]** auf `Catalog Events Carousel` fest.
 
@@ -40,7 +40,7 @@ Bevor Sie beginnen, befolgen Sie die [Anweisungen](../merchandising-promotions/e
 
    ![Widget-Einstellungen für ein Ereigniskarussell](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_&#x200B;wie folgt vor:
 
    - Geben Sie **[!UICONTROL Widget Title]** einen beschreibenden Titel für das Widget ein.
 
@@ -70,7 +70,7 @@ Bevor Sie beginnen, befolgen Sie die [Anweisungen](../merchandising-promotions/e
 
    >[!NOTE]
    >
-   >Die Ergebnisse variieren je nach Design und Seiten-Layout. Sie müssen den _[!UICONTROL Catalog Events Carousel Default Template]_auch in der Kategoriekonfiguration angeben.
+   >Die Ergebnisse variieren je nach Design und Seiten-Layout. Sie müssen den _[!UICONTROL Catalog Events Carousel Default Template]_&#x200B;auch in der Kategoriekonfiguration angeben.
 
 1. Wenn das Ereignis-Karussell an einem anderen Ort in der Storefront angezeigt werden soll, klicken Sie auf **[!UICONTROL Add Layout Update]** und wiederholen Sie diese Schritte für diesen Ort.
 

@@ -56,7 +56,7 @@ Wenn Sie mit dem Inhaltstyp _Registerkarten_ arbeiten, fügen Sie einzelne Regis
 
 ## Einzelne Registerkarte hinzufügen
 
-1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_den **[!UICONTROL Tabs]**Platzhalter direkt auf die Bühne oder in eine Zeile oder Spalte auf der Bühne.
+1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_&#x200B;den **[!UICONTROL Tabs]**&#x200B;Platzhalter direkt auf die Bühne oder in eine Zeile oder Spalte auf der Bühne.
 
    ![Ziehen von Registerkarten in eine Zeile](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 

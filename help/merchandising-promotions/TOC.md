@@ -56,7 +56,7 @@ ht-degree: 1%
       - [Beispiel: Kaufen Sie dies und erhalten Sie es kostenlos](price-rules-cart-buy-this-get-that.md)
       - [Beispiel: Rabatt mit Mindestkauf](price-rule-discount-minimum-purchase.md)
       - [Beispiel: Rabatt beim Erstkauf](price-rule-discount-first-purchase.md)
-   - {#product-relationships} der Produktbeziehungen
+   - der Produktbeziehungen{#product-relationships}
       - [Übersicht](product-relationships.md)
       - [Regeln und Konfiguration für verwandte Produkte](product-related-rules.md)
       - [Erstellen einer zugehörigen Produktregel](product-related-rule-create.md)
@@ -70,7 +70,7 @@ ht-degree: 1%
    - E-Mail-Erinnerungen {#email-reminders}
       - [E-Mail-Erinnerungen aktivieren](email-reminder-rules.md)
       - [E-Mail-Erinnerungen erstellen](email-reminder-rules-create.md)
-- {#seo} zur Suchmaschinenoptimierung
+- zur Suchmaschinenoptimierung{#seo}
    - [SEO - Überblick und Best Practices](seo-overview.md)
    - [Metadaten](meta-data.md)
    - [Sitemaps](sitemap-xml.md)

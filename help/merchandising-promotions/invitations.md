@@ -18,7 +18,7 @@ Wenn Einladungen aktiviert sind, können Kundinnen und Kunden Einladungen über 
 
 ## Meine Einladungen
 
-Im Abschnitt _[!UICONTROL My Invitations]_des Kundenkontos sind alle vom Kunden gesendeten Einladungen aufgeführt. Kunden können Einladungen an Freunde und Familie für Store-Events, Geschenkregistrierungen, Wunschlisten usw. senden.
+Im Abschnitt _[!UICONTROL My Invitations]_&#x200B;des Kundenkontos sind alle vom Kunden gesendeten Einladungen aufgeführt. Kunden können Einladungen an Freunde und Familie für Store-Events, Geschenkregistrierungen, Wunschlisten usw. senden.
 
 ![Meine Einladungen](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 

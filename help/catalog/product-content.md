@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produkteinstellungen - [!UICONTROL Content]
 
-Der Abschnitt _[!UICONTROL Content]_wird verwendet, um die Hauptproduktbeschreibung, die auf der Produktseite angezeigt wird, einzugeben und zu bearbeiten. Die Kurzbeschreibung kann in den meisten RSS-Feeds verwendet werden und kann je nach [ auch in Kataloglisten ](../content-design/themes.md).
+Der Abschnitt _[!UICONTROL Content]_&#x200B;wird verwendet, um die Hauptproduktbeschreibung, die auf der Produktseite angezeigt wird, einzugeben und zu bearbeiten. Die Kurzbeschreibung kann in den meisten RSS-Feeds verwendet werden und kann je nach [ auch in Kataloglisten ](../content-design/themes.md).
 
 ## Hinzufügen der Produktbeschreibung in [!DNL Page Builder]
 
@@ -30,7 +30,7 @@ Der Abschnitt _[!UICONTROL Content]_wird verwendet, um die Hauptproduktbeschreib
 
 ## Vorschau [!DNL Page Builder]
 
-Wenn Sie den Abschnitt _[!UICONTROL Content]_für ein vorhandenes Produkt erweitern, bei dem Inhalt mit [!DNL Page Builder] erstellt wurde, wird eine Vorschau des **[!UICONTROL Description]**Inhalts so angezeigt, wie er auf der Produktseite angezeigt würde. Öffnen Sie den [!DNL Page Builder] Workspace, in dem Sie alle erforderlichen Aktualisierungen vornehmen können, indem Sie auf **[!UICONTROL Edit with Page Builder]**klicken.
+Wenn Sie den Abschnitt _[!UICONTROL Content]_&#x200B;für ein vorhandenes Produkt erweitern, bei dem Inhalt mit [!DNL Page Builder] erstellt wurde, wird eine Vorschau des **[!UICONTROL Description]**&#x200B;Inhalts so angezeigt, wie er auf der Produktseite angezeigt würde. Öffnen Sie den [!DNL Page Builder] Workspace, in dem Sie alle erforderlichen Aktualisierungen vornehmen können, indem Sie auf **[!UICONTROL Edit with Page Builder]**&#x200B;klicken.
 
 ![Beschreibungsvorschau](../page-builder/assets/pb-product-category-content-preview.png){width="600" zoomable="yes"}
 

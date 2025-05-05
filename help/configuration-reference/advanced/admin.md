@@ -162,7 +162,7 @@ Weitere Informationen zum Festlegen dieser Optionen finden Sie unter [Begrenzen 
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |-----------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Limit Number of Products in Grid] | Global | Bestimmt, ob die Anzahl der im Raster angezeigten Produkte auf den _[!UICONTROL Records Limit]_Wert beschränkt ist. Optionen: `Yes` / `No` |
+| [!UICONTROL Limit Number of Products in Grid] | Global | Bestimmt, ob die Anzahl der im Raster angezeigten Produkte auf den _[!UICONTROL Records Limit]_&#x200B;Wert beschränkt ist. Optionen: `Yes` / `No` |
 | [!UICONTROL Records Limit] | Global | Legt die maximale Anzahl von Produkten im Produktraster fest. Der standardmäßige Mindestwert ist `20000`. |
 
 ## [!UICONTROL CAPTCHA]

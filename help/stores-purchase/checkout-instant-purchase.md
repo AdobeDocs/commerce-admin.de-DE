@@ -61,7 +61,7 @@ Erfahren Sie, wie Sie die Zahlungsmethode konfigurieren und Vaulting für Braint
 
 ### Schritt 3: Sofortigen Kauf aktivieren
 
-1. Wählen Sie im linken Bedienfeld unter dem Abschnitt _[!UICONTROL Sales]_die Option **[!UICONTROL Sales]**aus.
+1. Wählen Sie im linken Bedienfeld unter dem Abschnitt _[!UICONTROL Sales]_&#x200B;die Option **[!UICONTROL Sales]**&#x200B;aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Instant Purchase]** .
 

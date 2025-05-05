@@ -40,4 +40,4 @@ Das Massenaktionsprotokoll zeichnet die Details von asynchronen Massenvorgängen
 
 1. Suchen Sie die gewünschte Aktion im Protokoll.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Details]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Details]**.

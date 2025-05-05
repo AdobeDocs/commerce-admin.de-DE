@@ -48,13 +48,13 @@ Wenn der Kunde über eine bestehende Bestellung verfügt und neue Artikel hinzuf
 
 1. Folgt dem normalen Checkout-Workflow und klickt **[!UICONTROL Place Purchase Order]**.
 
-Wenn sich Artikel im Warenkorb befinden, wenn auf _[!UICONTROL Add Items to Shopping Cart]_geklickt wird, zeigt das System ein Dialogfeld an. In diesem Dialogfeld können sie zwischen dem Zusammenführen der Artikel im Warenkorb und den neuen Artikeln oder dem Ersetzen der Artikel im Warenkorb durch die Artikel in der Bestellung wählen.
+Wenn sich Artikel im Warenkorb befinden, wenn auf _[!UICONTROL Add Items to Shopping Cart]_&#x200B;geklickt wird, zeigt das System ein Dialogfeld an. In diesem Dialogfeld können sie zwischen dem Zusammenführen der Artikel im Warenkorb und den neuen Artikeln oder dem Ersetzen der Artikel im Warenkorb durch die Artikel in der Bestellung wählen.
 
 Die ursprüngliche Bestellung kann geschlossen werden, wenn sie nicht mehr benötigt wird.
 
 ## Bestellgenehmigungen
 
-Für einen Kunden, der basierend auf der Unternehmensstruktur oder der zugewiesenen Unternehmensrolle als genehmigende Person bestimmt ist, wird auf der _[!UICONTROL My Purchase Orders]_-Dashboard-Seite die Registerkarte **[!UICONTROL Requires My Approval]**angezeigt. Der Kunde klickt auf diese Registerkarte, um die Bestellungen zu überprüfen, die auf ihre Genehmigung warten. Der Zähler zeigt an, wie viele Aufträge auf Genehmigung warten.
+Für einen Kunden, der basierend auf der Unternehmensstruktur oder der zugewiesenen Unternehmensrolle als genehmigende Person bestimmt ist, wird auf der _[!UICONTROL My Purchase Orders]_-Dashboard-Seite die Registerkarte **[!UICONTROL Requires My Approval]**&#x200B;angezeigt. Der Kunde klickt auf diese Registerkarte, um die Bestellungen zu überprüfen, die auf ihre Genehmigung warten. Der Zähler zeigt an, wie viele Aufträge auf Genehmigung warten.
 
 Nachdem der Genehmiger auf **[!UICONTROL View]** für eine Bestellung geklickt und die Details geprüft hat, kann er auf **[!UICONTROL Approve]** oder **[!UICONTROL Reject]** klicken.
 
@@ -62,7 +62,7 @@ Nachdem der Genehmiger auf **[!UICONTROL View]** für eine Bestellung geklickt u
 
 Ab Adobe Commerce 2.4.1 können genehmigende Personen mehrere Bestellungen gleichzeitig genehmigen oder ablehnen.
 
-1. Klicken Sie auf der Seite _[!UICONTROL My Purchase Order]_auf die Registerkarte **[!UICONTROL Requires My Approval]**.
+1. Klicken Sie auf der Seite _[!UICONTROL My Purchase Order]_&#x200B;auf die Registerkarte **[!UICONTROL Requires My Approval]**.
 
 1. Aktivieren Sie das Kontrollkästchen für jede Bestellung, die genehmigt oder abgelehnt werden soll.
 

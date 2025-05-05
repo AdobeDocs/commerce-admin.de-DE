@@ -23,7 +23,7 @@ Standardmäßig übernehmen Links ihren Stil vom Stylesheet des Designs.
 
 1. Öffnen Sie eine Seite, einen Block oder einen dynamischen Block im Bearbeitungsmodus.
 
-1. Gehen Sie zum Abschnitt _[!UICONTROL Content]_und klicken Sie auf ein beliebiges Element, das den Editor unterstützt.
+1. Gehen Sie zum Abschnitt _[!UICONTROL Content]_&#x200B;und klicken Sie auf ein beliebiges Element, das den Editor unterstützt.
 
 1. Positionieren Sie den Cursor an der Stelle, an der das Widget angezeigt werden soll, und klicken Sie auf das Symbol _Widget einfügen_.
 

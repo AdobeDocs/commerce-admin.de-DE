@@ -28,8 +28,8 @@ Um auf die zugehörigen Produktregeln zuzugreifen, gehen Sie zu **[!UICONTROL Ma
 |--- |--- |
 | [!UICONTROL ID] | Eine eindeutige numerische Kennung, die jeder zugehörigen Produktregel zugewiesen ist |
 | [!UICONTROL Rule] | Der Name der zugehörigen Produktregel |
-| [!UICONTROL Start] | Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_und_[!UICONTROL From:]_), um die Liste nach dem Startdatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
-| [!UICONTROL End] | Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_und_[!UICONTROL From:]_), um die Liste nach dem Enddatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
+| [!UICONTROL Start] | Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_&#x200B;und&#x200B;_[!UICONTROL From:]_), um die Liste nach dem Startdatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
+| [!UICONTROL End] | Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_&#x200B;und&#x200B;_[!UICONTROL From:]_), um die Liste nach dem Enddatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
 | [!UICONTROL Priority] | Geben Sie Text in dieses Feld ein, um die Liste nach der für eine Regel definierten Priorität zu filtern. |
 | [!UICONTROL Applies To] | Diese Option filtert die Liste der Regeln, die für `Related Products`, `Up-sells` und `Cross-sells` gelten. |
 | [!UICONTROL Status] | Verwenden Sie diese Option, um die Liste nach Regelstatus (`Active` oder `Inactive`) zu filtern. |
@@ -47,7 +47,7 @@ Die Anzahl der Produkt-IDs, die in eine Produktbeziehungsregel aufgenommen werde
 Angenommen, Sie haben drei Regeln mit der Priorität `1`, `2` und `3`.
 
 - Es werden zwei übereinstimmende Produkte für _Regel 1_ zurückgegeben, sechs übereinstimmende Produkte für _Regel 2_ und 20 übereinstimmende Produkte für _Regel 3_.
-- In der -Konfiguration ist der _[!UICONTROL Maximum Number of Products for Related Products List]_auf `6` festgelegt.
+- In der -Konfiguration ist der _[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;auf `6` festgelegt.
 
   | Regeln | Priorität | Übereinstimmende Produkte |
   |---|---|-----|

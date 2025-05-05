@@ -77,11 +77,11 @@ Der -Schlüssel stammt aus der [Google Maps-][1] und sollte [Geocoding-][2] und 
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen Sie **[!UICONTROL Inventory]**.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Distance Provider for Distance Based SSA]_und legen Sie **[!UICONTROL Provider]**auf `Google MAP` fest.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;und legen Sie **[!UICONTROL Provider]**&#x200B;auf `Google MAP` fest.
 
    ![Provider für entfernungsbasierte SSA](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Google Distance Provider]_und konfigurieren Sie die Einstellungen:
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Google Distance Provider]_&#x200B;und konfigurieren Sie die Einstellungen:
 
    - Geben Sie **[!UICONTROL Google API Key]** den aus Ihrem Google-Konto kopierten Schlüssel ein.
 

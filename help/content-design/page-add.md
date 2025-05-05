@@ -145,13 +145,13 @@ Fügen Sie je nach [ Konfiguration der erweiterten ](../configuration-reference/
 
 1. Klicken Sie auf den **[!UICONTROL Save]** Pfeil und wählen Sie **[!UICONTROL Save & Close]** aus, um zum Seitenraster zurückzukehren.
 
-1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Action]_aus.
+1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Action]_&#x200B;aus.
 
 1. Um zum Raster zurückzukehren, klicken Sie in der oberen linken Ecke des Browser-Fensters auf **[!UICONTROL Back]** .
 
 ### Schritt 8: Publish der Seite
 
-1. Wählen Sie **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_des Rasters aus.
+1. Wählen Sie **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_&#x200B;des Rasters aus.
 
 1. Legen Sie **[!UICONTROL Enable Page]** auf `Yes` fest.
 
@@ -165,7 +165,7 @@ Jede Inhaltsseite kann als Vorlage verwendet und als Duplikat gespeichert werden
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Suchen Sie im Raster die Seite, die Sie duplizieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie im Raster die Seite, die Sie duplizieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Klicken Sie auf den **[!UICONTROL Save]** Pfeil und wählen Sie **[!UICONTROL Save & Duplicate]** aus.
 
@@ -206,7 +206,7 @@ Jede Inhaltsseite kann als Vorlage verwendet und als Duplikat gespeichert werden
 
 ## Löschen einer Seite
 
-Es gibt zwei Möglichkeiten, eine erstellte Seite zu entfernen. Sie können sie aus dem _[!UICONTROL Pages]_oder von der_[!UICONTROL Edit]_ entfernen.
+Es gibt zwei Möglichkeiten, eine erstellte Seite zu entfernen. Sie können sie aus dem _[!UICONTROL Pages]_&#x200B;oder von der&#x200B;_[!UICONTROL Edit]_ entfernen.
 
 ### Methode 1: Entfernen einer Seite aus dem Seitenraster
 
@@ -224,7 +224,7 @@ Es gibt zwei Möglichkeiten, eine erstellte Seite zu entfernen. Sie können sie 
 
 1. Suchen Sie die zu löschende Seite.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Actions]_für die Seitenentität auf **[!UICONTROL Select]**und wählen Sie **[!UICONTROL Edit]**aus.
+1. Klicken Sie in der Spalte _[!UICONTROL Actions]_&#x200B;für die Seitenentität auf **[!UICONTROL Select]**&#x200B;und wählen Sie **[!UICONTROL Edit]**&#x200B;aus.
 
 1. Klicken Sie in der Schaltflächenleiste auf **[!UICONTROL Delete Page]**.
 

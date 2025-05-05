@@ -40,7 +40,7 @@ ht-degree: 4%
    - [Banner](banner.md)
    - [Schieberegler](slider.md)
    - [Zuordnen](map.md)
-- {#add-content} hinzufügen
+- hinzufügen{#add-content}
    - [Blockieren](block.md)
    - [Dynamischer Block](dynamic-block.md)
    - [PRODUCT](products.md)

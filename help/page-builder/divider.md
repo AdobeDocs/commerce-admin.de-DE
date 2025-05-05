@@ -73,7 +73,7 @@ Obwohl die meisten Container mit Trennlinien unsichtbar sind, wird im folgenden 
 
    ![Festlegen der Linienfarbe, -dicke und -breite](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
 
    - Um die Positionierung der Trennlinie innerhalb des übergeordneten Containers zu steuern, wählen Sie die **[!UICONTROL Alignment]**:
 

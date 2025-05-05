@@ -113,7 +113,7 @@ Um zu verhindern, dass Suchmaschinen mehrere URLs indizieren, die zum selben Inh
 | Feld | [Umfang](../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | Global | Wenn Webserver-Neuschreibungen aktiviert sind, wird durch Aktivieren dieser Einstellung der Store-Code der aktuellen Ansicht in die URL eingefügt. Optionen: `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | Global | (Bei Einzelspeicher-Setups) Wenn auf Ihrer Site ein fehlerhafter Link vorhanden ist, wird der Traffic an die Basis-URL und nicht an eine Seite mit der Meldung „404 Seite nicht gefunden“ umgeleitet. Optionen: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_wichtig!_**Verwenden Sie keine automatische Umleitung zur Basis-URL für Multi-Store-Setups. |
+| [!UICONTROL Auto-redirect to Base URL] | Global | (Bei Einzelspeicher-Setups) Wenn auf Ihrer Site ein fehlerhafter Link vorhanden ist, wird der Traffic an die Basis-URL und nicht an eine Seite mit der Meldung „404 Seite nicht gefunden“ umgeleitet. Optionen: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_wichtig!_**&#x200B;Verwenden Sie keine automatische Umleitung zur Basis-URL für Multi-Store-Setups. |
 | [!UICONTROL Catalog media URL format] | Global | Definiert das URL-Format, das Produkten und Kategorien zugewiesen ist. Optionen: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Definiert den konvertierten Dateinamen als eindeutigen Hash-Wert.<br />**[!UICONTROL Image optimization based on query parameters]** - Definiert [Bildoptimierungsprozess](../content-design/media-gallery-image-optimization.md) abhängig von Abfrageparametern. |
 
 {style="table-layout:auto"}

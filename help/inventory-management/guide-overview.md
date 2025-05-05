@@ -26,7 +26,7 @@ Dieses Handbuch behandelt Folgendes:
 | ------- | ----------- |
 | [Einführung](introduction.md) | Überblick über die [!DNL Inventory Management] Funktionen, mit denen Sie Lagerbestände an mehreren Orten verwalten können, sodass Ihr Commerce-Store den physischen Bestand genau widerspiegelt. |
 | [Versionshinweise](release-notes.md) | Informationen zu allen Versionen finden Sie in [!DNL Inventory Management] Versionshinweisen . |
-| Grundlagen zum Inventar | Lernen Sie die Grundlagen zur Verwaltung des Inventars kennen: [Lager und Quellen](sources-stocks.md), [Quellenauswahl und ](selection-reservations.md)[, Bestell- und Reservierungsstatus](order-status.md) und [Produkttypen](product-types.md) |
+| Grundlagen zum Inventar | Lernen Sie die Grundlagen zur Verwaltung des Inventars kennen: [Lager und Quellen](sources-stocks.md), [Quellenauswahl und ](selection-reservations.md) [, Bestell- und Reservierungsstatus](order-status.md) und [Produkttypen](product-types.md) |
 | Erste Schritte | Erfahren Sie mehr über das [!DNL Inventory Management] und wie es in Ihre Commerce-Instanz und Ihre Speichervorgänge passt: [Commerce-Upgrades](migrate.md), [Modulinstallation und -aktualisierung](install-update.md), [Merchant-Sourcing-Typen](merchant-sourcing.md) und [Sourcing-Strukturänderungen](expand-restructure.md) |
 | [Konfiguration](configuration.md) | Erfahren Sie mehr über die Konfiguration [!DNL Inventory Management] Optionen, die die Quellverfügbarkeit, Storefront-Produkte und den Bestellversand bestimmen. |
 | [Quellen verwalten](sources-manage.md) | Erfahren Sie mehr über Quellen und darüber, wie sie die physischen Orte definieren, an denen der Produktbestand zur Auftragserfüllung verwaltet und versandt wird oder wo Services verfügbar sind. |

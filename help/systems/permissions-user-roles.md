@@ -26,9 +26,9 @@ Um jemandem eingeschränkten Zugriff auf den Administrator zu gewähren, muss zu
 
 ### Schritt 1: Rollennamen hinzufügen
 
-1. Geben Sie unter _[!UICONTROL Role Information]_einen beschreibenden **[!UICONTROL Role Name]**ein.
+1. Geben Sie unter _[!UICONTROL Role Information]_&#x200B;einen beschreibenden **[!UICONTROL Role Name]**&#x200B;ein.
 
-1. Geben Sie unter _[!UICONTROL Current User Identity Verification]_Ihr Kennwort ein.
+1. Geben Sie unter _[!UICONTROL Current User Identity Verification]_&#x200B;Ihr Kennwort ein.
 
    ![Systemberechtigungen - Rolleninformationen](./assets/permissions-role-info.png){width="600" zoomable="yes"}
 
@@ -49,9 +49,9 @@ Um jemandem eingeschränkten Zugriff auf den Administrator zu gewähren, muss zu
 
    >[!NOTE]
    >
-   >Benutzer mit einem `Custom` Rollenbereich können keine Websites und Kategorien erstellen, Produkte Kategorien zuweisen oder Produkte _[!UICONTROL All Store Views]_Bereich bearbeiten, wenn sie eingeschränkten Stores zugewiesen sind. Diese Benutzenden können auch keine anderen_ globalen _Aktionen ausführen, die Bereiche betreffen, auf die sie keinen Zugriff haben.
+   >Benutzer mit einem `Custom` Rollenbereich können keine Websites und Kategorien erstellen, Produkte Kategorien zuweisen oder Produkte _[!UICONTROL All Store Views]_&#x200B;Bereich bearbeiten, wenn sie eingeschränkten Stores zugewiesen sind. Diese Benutzenden können auch keine anderen_ globalen _Aktionen ausführen, die Bereiche betreffen, auf die sie keinen Zugriff haben.
 
-1. Legen Sie unter _[!UICONTROL Roles Resources]_**[!UICONTROL Resource Access]**auf `Custom` fest.
+1. Legen Sie unter _[!UICONTROL Roles Resources]_&#x200B;**[!UICONTROL Resource Access]**&#x200B;auf `Custom` fest.
 
 1. Aktivieren Sie in der **[!UICONTROL Resource]** das Kontrollkästchen jeder Admin-Funktion, auf die die Rolle zugreifen kann.
 
@@ -63,7 +63,7 @@ Um jemandem eingeschränkten Zugriff auf den Administrator zu gewähren, muss zu
 
    >[!NOTE]
    >
-   >Ein Administrator bzw. eine Administratorin muss über **[!UICONTROL Sales / Archive]** Berechtigungen für den Rollenbereich verfügen, um die _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ und _[!UICONTROL Shipments]_Reihenfolge ([) ](../stores-purchase/order-processing.md).
+   >Ein Administrator bzw. eine Administratorin muss über **[!UICONTROL Sales / Archive]** Berechtigungen für den Rollenbereich verfügen, um die _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ und _[!UICONTROL Shipments]_&#x200B;Reihenfolge ([) ](../stores-purchase/order-processing.md).
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Role]**.
 
@@ -71,13 +71,13 @@ Um jemandem eingeschränkten Zugriff auf den Administrator zu gewähren, muss zu
 
 ## Zuweisen einer Rolle zu Benutzern
 
-1. Öffnen Sie den Datensatz im _[!UICONTROL Roles]_im Bearbeitungsmodus.
+1. Öffnen Sie den Datensatz im _[!UICONTROL Roles]_&#x200B;im Bearbeitungsmodus.
 
-1. Geben Sie unter _[!UICONTROL Current User Identity Verification]_Ihr Benutzerkonto-Kennwort ein.
+1. Geben Sie unter _[!UICONTROL Current User Identity Verification]_&#x200B;Ihr Benutzerkonto-Kennwort ein.
 
 1. Wählen Sie im linken Bedienfeld **[!UICONTROL Role Users]** aus.
 
-   Die Option _[!UICONTROL Role Users]_wird erst nach dem Speichern einer neuen Rolle angezeigt.
+   Die Option _[!UICONTROL Role Users]_&#x200B;wird erst nach dem Speichern einer neuen Rolle angezeigt.
 
    ![Benutzerkonten, die der Rolle zugewiesen sind](./assets/permissions-role-users.png){width="600" zoomable="yes"}
 

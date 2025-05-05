@@ -39,12 +39,12 @@ Sie beginnen mit einem Standardlager, das mit der standardmäßigen Source und I
 
 Die Menge ist die Anzahl der Produkte im aktiven Bestand, die zum Kauf verfügbar sind. Die Produktmenge erhöht sich und verringert sich, wenn Sie Lieferungen abschließen oder den Bestand anpassen. Das Hinzufügen von Produkten zu einem Warenkorb wirkt sich nicht auf diesen Betrag aus. Die Verkaufsmenge verfolgt die Verfügbarkeit des Produkts für einen Verkaufskanal und verwendet diesen Wert auch für die Ermittlung des verfügbaren Lagerbestands für den Kauf. Je nach Anzahl Ihrer Quellen können Sie die Produktmenge für eine der folgenden Aktionen anzeigen und verwalten:
 
-- **Menge** - Bei Händlern mit einer einzigen Quelle verfolgen die _[!UICONTROL Quantity]_Spalte und der Wert die Menge des verfügbaren Lagerbestands.
-- **Menge pro Source** - Bei Händlern mit mehreren Bezugsquellen verfolgen die _[!UICONTROL Quantity per Source]_und -werte den verfügbaren Lagerbestand nach Standort. Wenn Sie mehrere Quellen hinzufügen, ersetzt dieser Wert die Menge und listet alle Quellen und zugewiesenen Mengen auf.
+- **Menge** - Bei Händlern mit einer einzigen Quelle verfolgen die _[!UICONTROL Quantity]_&#x200B;Spalte und der Wert die Menge des verfügbaren Lagerbestands.
+- **Menge pro Source** - Bei Händlern mit mehreren Bezugsquellen verfolgen die _[!UICONTROL Quantity per Source]_&#x200B;und -werte den verfügbaren Lagerbestand nach Standort. Wenn Sie mehrere Quellen hinzufügen, ersetzt dieser Wert die Menge und listet alle Quellen und zugewiesenen Mengen auf.
 
 Reservierungen verfolgen Lageranfragen für den gesamten Einkaufsprozess - Hinzufügen von Produkten zum Warenkorb, Abschließen des Checkouts und Verwalten von Rückerstattungen. Für verfügbare Lagerbestände und Lagerreservierungen reservieren Sie Lagerbestände pro Bestellung durch den Checkout-Prozess, abgezogen von der Verkaufsmenge. Reservierungen wandeln bei der Fakturierung und dem Versand von Produkten Mengenabzüge um.
 
-Verkaufsmenge : Berechnet den virtuellen Bestand an Produkten (oder deren Verfügbarkeit) unter Verwendung konfigurierter Schwellenwerte, reservierter oder verkaufter Mengen und Mengen pro Quelle. Für jeden Bestand greift [!DNL Commerce] auf alle zugeordneten Quellen und Aggregate der zugehörigen Produktmengen zu. Mit diesem Basiswert werden dann alle Reservierungsbeträge und der _[!UICONTROL Notify for Quantity Below]_abgezogen.
+Verkaufsmenge : Berechnet den virtuellen Bestand an Produkten (oder deren Verfügbarkeit) unter Verwendung konfigurierter Schwellenwerte, reservierter oder verkaufter Mengen und Mengen pro Quelle. Für jeden Bestand greift [!DNL Commerce] auf alle zugeordneten Quellen und Aggregate der zugehörigen Produktmengen zu. Mit diesem Basiswert werden dann alle Reservierungsbeträge und der _[!UICONTROL Notify for Quantity Below]_&#x200B;abgezogen.
 
 ![Verkaufsmenge für einen Bestand berechnen](assets/diagram-salable-quantity.png){width="600" zoomable="yes"}
 

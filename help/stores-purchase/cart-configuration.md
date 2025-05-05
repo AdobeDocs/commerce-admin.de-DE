@@ -321,7 +321,7 @@ Das Geschenkverpackungsbild sollte ein Muster sein, das das sich wiederholende M
 
 1. Um eine Miniaturansicht **[!UICONTROL Image]** Geschenkverpackung hochzuladen, klicken Sie auf **[!UICONTROL Choose File]** und wählen Sie die hochzuladende Datei aus Ihrem Verzeichnis aus.
 
-   Nach dem Speichern des Datensatzes wird in der _[!UICONTROL Gift Wrapping Information]_eine Miniaturansicht des Bildes angezeigt.
+   Nach dem Speichern des Datensatzes wird in der _[!UICONTROL Gift Wrapping Information]_&#x200B;eine Miniaturansicht des Bildes angezeigt.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 

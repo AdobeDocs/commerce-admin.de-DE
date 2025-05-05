@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Auf der Seite _[!UICONTROL Store Credit]_des Dashboards für Kundenkonten werden Beträge aus Rücksendungen und Rückerstattungen aufgelistet, die auf zukünftige Käufe angewendet werden können. Kunden können den Wert auch von einer Geschenkkarte einlösen.
+Auf der Seite _[!UICONTROL Store Credit]_&#x200B;des Dashboards für Kundenkonten werden Beträge aus Rücksendungen und Rückerstattungen aufgelistet, die auf zukünftige Käufe angewendet werden können. Kunden können den Wert auch von einer Geschenkkarte einlösen.
 
 ![Kundenkreditgeschäft](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
 
@@ -54,4 +54,4 @@ Methode 2: **Von der Seite _Überprüfung und Zahlungen_**
 
 1. Wenn ein Warenkorb verfügbar ist, klickt der Kunde auf **Warenkorb verwenden**.
 
-1. Wenn der Kunde sich von der Verwendung des Gutscheins für den Store ändert, klickt auf **[!UICONTROL Remove]** im _[!UICONTROL Order Summary]_Abschnitt.
+1. Wenn der Kunde sich von der Verwendung des Gutscheins für den Store ändert, klickt auf **[!UICONTROL Remove]** im _[!UICONTROL Order Summary]_&#x200B;Abschnitt.

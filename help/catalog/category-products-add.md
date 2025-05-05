@@ -30,7 +30,7 @@ Im Abschnitt [Produkte in Kategorie](categories-product-assignments.md) kann ein
 
    ![Registerkarte „Alle Produkte durchsuchen“](./assets/search-all-product.png){width="700" zoomable="yes"}
 
-1. Aktivieren Sie in der Spalte _[!UICONTROL Assign]_für jedes Produkt, das Sie hinzufügen möchten, die Option `Yes` .
+1. Aktivieren Sie in der Spalte _[!UICONTROL Assign]_&#x200B;für jedes Produkt, das Sie hinzufügen möchten, die Option `Yes` .
 
    Wenn Sie alle angezeigten Produkte einbeziehen möchten, können Sie auf den Menüpfeil in der Spaltenüberschrift klicken und **[!UICONTROL Select All]** auswählen.
 
@@ -71,6 +71,6 @@ Im Abschnitt [Produkte in Kategorie](categories-product-assignments.md) kann ein
 
 1. Suchen Sie die Produkte, die entfernt werden sollen.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Actions]_auf **[!UICONTROL Unassign]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Actions]_&#x200B;auf **[!UICONTROL Unassign]**.
 
 1. Um Ihre Änderungen anzuwenden, klicken Sie auf **[!UICONTROL Save]**.

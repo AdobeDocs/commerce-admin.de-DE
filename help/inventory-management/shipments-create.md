@@ -54,9 +54,9 @@ Wenn Sie Lieferungen eingeben, werden die eingegebenen Beträge von den Lagerbes
 
      ![Wählen Sie eine Source aus und geben Sie eine Menge ein](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. Überprüfen Sie die _[!UICONTROL New Shipment]_Seite und geben Sie bei Bedarf zusätzliche Änderungen ein.
+1. Überprüfen Sie die _[!UICONTROL New Shipment]_&#x200B;Seite und geben Sie bei Bedarf zusätzliche Änderungen ein.
 
-   Im Abschnitt _[!UICONTROL Inventory]_werden die Herkunft, die Lieferprodukte, die bestellte Gesamtmenge und die zu versendende Menge angezeigt.
+   Im Abschnitt _[!UICONTROL Inventory]_&#x200B;werden die Herkunft, die Lieferprodukte, die bestellte Gesamtmenge und die zu versendende Menge angezeigt.
 
    ![Lagerdetails für die Lieferung, z. B. Teillieferung](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

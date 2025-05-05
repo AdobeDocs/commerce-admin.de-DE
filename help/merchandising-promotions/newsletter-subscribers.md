@@ -26,7 +26,7 @@ Wenn Sie Newsletter über einen Drittanbieterdienst versenden möchten, können 
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Newsletter]** .
 
@@ -58,7 +58,7 @@ Wenn Sie Newsletter über einen Drittanbieterdienst versenden möchten, können 
    >
    >Für eine Massenabmeldung aktivieren Sie das Kontrollkästchen jedes Abonnenten, den Sie abbrechen möchten.
 
-1. Legen Sie das _[!UICONTROL Action]_auf **[!UICONTROL Unsubscribe]**fest und klicken Sie auf **[!UICONTROL Submit]**.
+1. Legen Sie das _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Unsubscribe]**&#x200B;fest und klicken Sie auf **[!UICONTROL Submit]**.
 
    ![Newsletter abbestellen](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -83,6 +83,6 @@ Wenn Sie Newsletter über einen Drittanbieterdienst versenden möchten, können 
 
 1. Suchen Sie den Abonnenten im Raster und aktivieren Sie das Kontrollkästchen in der ersten Spalte.
 
-1. Legen Sie das _[!UICONTROL Action]_auf **[!UICONTROL Delete]**fest und klicken Sie auf **[!UICONTROL Submit]**.
+1. Legen Sie das _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Delete]**&#x200B;fest und klicken Sie auf **[!UICONTROL Submit]**.
 
 1. Wenn Sie zum Bestätigen aufgefordert werden, klicken Sie auf **[!UICONTROL OK]**.

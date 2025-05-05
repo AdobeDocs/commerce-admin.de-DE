@@ -114,7 +114,7 @@ Definieren Sie auch alle zugehörigen Keywords und Attribute, z. B.:
    - `Static Block Only`
    - `Static Block and Products`
 
-1. Wenn die Kategorieseite den _`Filter by Attribute`_Abschnitt der mehrschichtigen Navigation enthalten soll, setzen Sie **[!UICONTROL Anchor]**auf `Yes`.
+1. Wenn die Kategorieseite den _`Filter by Attribute`_Abschnitt der mehrschichtigen Navigation enthalten soll, setzen Sie **[!UICONTROL Anchor]**&#x200B;auf `Yes`.
 
 1. Wählen Sie für die **[!UICONTROL Available Product Listing Sort By]** Optionen einen oder mehrere der verfügbaren Werte aus, damit Kunden die Liste sortieren können. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 

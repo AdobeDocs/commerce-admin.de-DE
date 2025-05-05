@@ -51,12 +51,12 @@ Beim Konvertieren der Währung in Punkte kann die Anzahl der Punkte nicht geteil
 
    Für jede Richtungseinstellung wird der Betrag in der Basiswährung der Website dargestellt.
 
-1. Geben Sie die **[!UICONTROL Rate]** Werte entsprechend der _[!UICONTROL Direction]_ein.
+1. Geben Sie die **[!UICONTROL Rate]** Werte entsprechend der _[!UICONTROL Direction]_&#x200B;ein.
 
    | Richtung | Tarifeinstellungen |
    |---------|-------------|
-   | [!UICONTROL Points to Currency] | Geben Sie im Feld Erster _[!UICONTROL Rate]_die Anzahl der Punkte ein. Geben Sie im zweiten_[!UICONTROL Rate]_ den Geldwert der Punkte ein. |
-   | [!UICONTROL Currency to Points] | Geben Sie im Feld Erste _[!UICONTROL Rate]_den Geldwert ein. Geben Sie im zweiten_[!UICONTROL Rate]_ die Anzahl der Punkte ein, die durch den Geldwert dargestellt wird. |
+   | [!UICONTROL Points to Currency] | Geben Sie im Feld Erster _[!UICONTROL Rate]_&#x200B;die Anzahl der Punkte ein. Geben Sie im zweiten&#x200B;_[!UICONTROL Rate]_ den Geldwert der Punkte ein. |
+   | [!UICONTROL Currency to Points] | Geben Sie im Feld Erste _[!UICONTROL Rate]_&#x200B;den Geldwert ein. Geben Sie im zweiten&#x200B;_[!UICONTROL Rate]_ die Anzahl der Punkte ein, die durch den Geldwert dargestellt wird. |
 
    Beim Konvertieren von Punkten in eine Währung kann die Anzahl der Punkte nicht geteilt werden. Wenn beispielsweise zehn Punkte in $2.00 konvertiert werden, müssen die Punkte in Gruppen von zehn Punkten eingelöst werden. Daher würden 25 Punkte für 4,00 $ eingelöst, wobei 5 Punkte auf dem Kundensaldo verbleiben.
 
@@ -80,4 +80,4 @@ Beim Konvertieren der Währung in Punkte kann die Anzahl der Punkte nicht geteil
 |--- |--- |
 | [!UICONTROL Website] | Die Websites, für die die Belohnungstarife gelten. |
 | [!UICONTROL Customer Group] | Die Kundengruppen, für die die Belohnungstarife gelten. |
-| [!UICONTROL Direction] | Bestimmt, welche Art von Transaktion der Wechselkurs definiert. Optionen: <br/>**[!UICONTROL Points to Currency]**- Definiert die Anzahl der Punkte, die als Gutschrift auf den Betrag einer Bestellung angewendet werden können. Geben Sie im Feld Erster _[!UICONTROL Rate]_die Anzahl der Punkte ein. Geben Sie im zweiten_[!UICONTROL Rate]_ den Geldwert der Punkte ein.<br/>**[!UICONTROL Currency to Points]** - Definiert den Betrag einer Bestellung, der dem Kunden Punkte einbringen kann. Geben Sie im Feld Erste _[!UICONTROL Rate]_den Geldwert ein. Geben Sie im zweiten_[!UICONTROL Rate]_ die Anzahl der Punkte ein, die durch den Geldwert dargestellt wird. |
+| [!UICONTROL Direction] | Bestimmt, welche Art von Transaktion der Wechselkurs definiert. Optionen: <br/>**[!UICONTROL Points to Currency]**- Definiert die Anzahl der Punkte, die als Gutschrift auf den Betrag einer Bestellung angewendet werden können. Geben Sie im Feld Erster _[!UICONTROL Rate]_&#x200B;die Anzahl der Punkte ein. Geben Sie im zweiten&#x200B;_[!UICONTROL Rate]_ den Geldwert der Punkte ein.<br/>**[!UICONTROL Currency to Points]** - Definiert den Betrag einer Bestellung, der dem Kunden Punkte einbringen kann. Geben Sie im Feld Erste _[!UICONTROL Rate]_&#x200B;den Geldwert ein. Geben Sie im zweiten&#x200B;_[!UICONTROL Rate]_ die Anzahl der Punkte ein, die durch den Geldwert dargestellt wird. |

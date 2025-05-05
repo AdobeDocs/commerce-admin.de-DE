@@ -57,7 +57,7 @@ Wenn eine Warenkorb-Preisregel durch den Kauf ausgelöst wird, gilt die ursprün
 
    - (Optional) Geben Sie einen **[!UICONTROL SKU]** für die Option ein. Die Option-SKU ist ein Suffix, das zur Produkt-SKU hinzugefügt wird.
 
-   - Wenn die _[!UICONTROL Option Type]_`File` ist, legen Sie die Parameter für die Datei fest. Geben Sie **[!UICONTROL Compatible File Extensions]**die gültigen Erweiterungen als kommagetrennte Werte ein (z. B. `png, jpg, gif`). Geben Sie **[!UICONTROL Maximum Image Size]**die maximale Bildgröße in Pixel ein. Wenn es sich um einen Texteintrag handelt, geben Sie den Höchstwert für **[!UICONTROL Maximum Characters]**ein.
+   - Wenn die _[!UICONTROL Option Type]_`File` ist, legen Sie die Parameter für die Datei fest. Geben Sie **[!UICONTROL Compatible File Extensions]**&#x200B;die gültigen Erweiterungen als kommagetrennte Werte ein (z. B. `png, jpg, gif`). Geben Sie **[!UICONTROL Maximum Image Size]**&#x200B;die maximale Bildgröße in Pixel ein. Wenn es sich um einen Texteintrag handelt, geben Sie den Höchstwert für **[!UICONTROL Maximum Characters]**&#x200B;ein.
 
    ![Option „Werte für Anpassung hinzufügen“](./assets/product-customizable-options-add-values.png){width="600" zoomable="yes"}
 

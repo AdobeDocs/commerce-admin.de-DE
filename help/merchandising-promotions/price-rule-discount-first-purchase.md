@@ -67,7 +67,7 @@ Um einen Rabatt für Erstkunden anzubieten, haben Sie folgende Möglichkeiten:
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
-Das Kundensegment wird erstellt und im _[!UICONTROL Customer Segments]_Raster angezeigt.
+Das Kundensegment wird erstellt und im _[!UICONTROL Customer Segments]_&#x200B;Raster angezeigt.
 
 >[!TIP]
 >

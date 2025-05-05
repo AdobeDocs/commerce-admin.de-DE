@@ -26,7 +26,7 @@ Die folgenden Anweisungen zeigen den Prozess der Erstellung eines gruppierten Pr
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Grouped Product]**aus.
+1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Grouped Product]**&#x200B;aus.
 
    ![Gruppiertes Produkt hinzufügen](./assets/product-add-grouped.png){width="700" zoomable="yes"}
 
@@ -119,7 +119,7 @@ Um dem Produkt ein vorhandenes Attribut hinzuzufügen, verwenden Sie die [Filter
 
 1. Um sie der Produktgruppe hinzuzufügen, klicken Sie auf **[!UICONTROL Add Selected Products]**.
 
-   Die ausgewählten Produkte werden im Abschnitt _[!UICONTROL Grouped Products]_angezeigt.
+   Die ausgewählten Produkte werden im Abschnitt _[!UICONTROL Grouped Products]_&#x200B;angezeigt.
 
    Bei Multi-Source-Händlern mit [Inventory management](../inventory-management/sources-stocks.md) enthält das Raster eine **[!UICONTROL Quantity per Source]** mit jeder zugewiesenen Quell- und Lagerbestandsmenge.
 
@@ -162,7 +162,7 @@ Füllen Sie die Informationen in den folgenden Abschnitten nach Bedarf aus:
 
    **Methode 2: Speichern und schließen**
 
-   - Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
+   - Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
 
 ## Schritt 7: Konfigurieren der Miniaturen für den Warenkorb (optional)
 

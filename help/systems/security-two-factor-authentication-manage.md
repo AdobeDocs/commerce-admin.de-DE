@@ -34,11 +34,11 @@ Informationen zum Zurücksetzen von Authentifizierern über die Befehlszeile und
 
 1. Wählen Sie den Benutzer aus und öffnen Sie das Konto im Bearbeitungsmodus.
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Current User Identity Verification]_und geben Sie Ihr Kennwort ein.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Current User Identity Verification]_&#x200B;und geben Sie Ihr Kennwort ein.
 
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL 2FA]**.
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Configuration reset]_zur Bestätigung auf **[!UICONTROL Reset]**und **[!UICONTROL OK]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Configuration reset]_&#x200B;zur Bestätigung auf **[!UICONTROL Reset]**&#x200B;und **[!UICONTROL OK]**.
 
    ![Benutzerkonto - 2FA aktivieren](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 

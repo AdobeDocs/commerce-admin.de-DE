@@ -36,7 +36,7 @@ Jede Darstellung von Informationen, die es ermöglicht, die Identität einer Per
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Suchen Sie im Raster nach **[!UICONTROL Privacy Policy]**. Klicken Sie dann in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**und wählen Sie **[!UICONTROL Edit]**aus.
+1. Suchen Sie im Raster nach **[!UICONTROL Privacy Policy]**. Klicken Sie dann in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Select]**&#x200B;und wählen Sie **[!UICONTROL Edit]**&#x200B;aus.
 
    >[!NOTE]
    >

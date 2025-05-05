@@ -36,7 +36,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
 
    >[!TIP]
    >
-   >**Tastaturbefehl** Um nur die erforderlichen Felder auszufüllen, scrollen Sie nach unten zu _[!UICONTROL Storefront Properties]_, geben Sie den_[!UICONTROL Sort Order]_ ein und speichern Sie.
+   >**Tastaturbefehl** Um nur die erforderlichen Felder auszufüllen, scrollen Sie nach unten zu _[!UICONTROL Storefront Properties]_, geben Sie den&#x200B;_[!UICONTROL Sort Order]_ ein und speichern Sie.
 
 1. Vervollständigen Sie die Dateneingabeeigenschaften:
 
@@ -47,7 +47,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
      | `Text Field` | Ein einzeiliges Textfeld. |
      | `Text Area` | Ein mehrzeiliges Eingabefeld zum Eingeben von Textabsätzen, z. B. eine Produktbeschreibung. Sie können den WYSIWYG-Editor verwenden, um den Text mit HTML-Tags zu formatieren, oder die Tags direkt in den Text eingeben. |
      | `Multiple Line` | Erstellt mehrere Textzeilen für das Attribut, ähnlich einer mehrzeiligen Straßenadresse. Die Anzahl der separaten Dateneintragszeilen kann von zwei bis 20 betragen. Verwenden Sie die `Default Value` , um den Anfangswert des Felds anzugeben. |
-     | `Date` | Zeigt einen Datumswert im bevorzugten Datumsformat und in der bevorzugten Zeitzone an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis _**Je nach Systemkonfiguration können_Admin _-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Zeigt einen Datumswert im bevorzugten Datumsformat und in der bevorzugten Zeitzone an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis _**&#x200B;Je nach Systemkonfiguration können_Admin _-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Zeigt eine Dropdown-Liste mit vordefinierten Optionen `Yes` und `No` an. |
      | `Dropdown` | Zeigt eine Dropdown-Liste mit Werten an, die nur eine einzige Auswahl akzeptieren. Der Dropdown-Eingabetyp ist eine Schlüsselkomponente von [konfigurierbaren Produkten](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Eine Dropdown-Liste, die die Auswahl mehrerer Werte akzeptiert. |
@@ -163,7 +163,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
 | `lastname` | Der Nachname des Kunden. |
 | `suffix` | Jedes Suffix, das mit dem Kundennamen verwendet wird. (wie Jr., Sr. oder Esquire) |
 | `email` | Die E-Mail-Adresse des Kunden. |
-| `dob` | Das Geburtsdatum des Kunden.  <br><br>**_Wichtig:_**Halten Sie sich im Einklang mit den aktuellen Best Practices für Sicherheit und Datenschutz vor potenziellen Rechts- und Sicherheitsrisiken, die mit der Speicherung des vollständigen Geburtsdatums der Kundinnen und Kunden (Monat, Tag, Jahr) mit anderen persönlichen Kennungen verbunden sind. Es wird empfohlen, die Speicherung der vollständigen Geburtsdaten von Kundinnen und Kunden zu begrenzen und alternativ ein Kundenjahr zu verwenden. |
+| `dob` | Das Geburtsdatum des Kunden.  <br><br>**_Wichtig:_**&#x200B;Halten Sie sich im Einklang mit den aktuellen Best Practices für Sicherheit und Datenschutz vor potenziellen Rechts- und Sicherheitsrisiken, die mit der Speicherung des vollständigen Geburtsdatums der Kundinnen und Kunden (Monat, Tag, Jahr) mit anderen persönlichen Kennungen verbunden sind. Es wird empfohlen, die Speicherung der vollständigen Geburtsdaten von Kundinnen und Kunden zu begrenzen und alternativ ein Kundenjahr zu verwenden. |
 | `taxvat` | Die Umsatzsteuer-ID (MwSt.), die dem Kunden zugewiesen wird. Die Standardbeschriftung dieses Attributs ist `VAT Number`. Das Feld MwSt.-Nummer ist immer in allen Versand- und Rechnungskundenadressen vorhanden, wenn es von der Administratorseite aus angezeigt wird, es ist jedoch kein Pflichtfeld. |
 | `gender` | Das Geschlecht des Kunden. |
 

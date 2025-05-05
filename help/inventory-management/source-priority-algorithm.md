@@ -30,11 +30,11 @@ Zur Konfiguration ordnen Sie diese Quellen für die Auftragserfüllung von oben 
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**.
 
-1. Öffnen Sie ein Lager im Bearbeitungsmodus und navigieren Sie zum _[!UICONTROL Sources]_Bereich.
+1. Öffnen Sie ein Lager im Bearbeitungsmodus und navigieren Sie zum _[!UICONTROL Sources]_&#x200B;Bereich.
 
 1. Klicken Sie auf **[!UICONTROL Assign Sources]**.
 
-1. Aktivieren Sie in der _[!UICONTROL Assign Sources]_das Kontrollkästchen für die gewünschte Quelle und klicken Sie dann auf **[!UICONTROL Done]**, um dem Lager eine Quelle zuzuweisen.
+1. Aktivieren Sie in der _[!UICONTROL Assign Sources]_&#x200B;das Kontrollkästchen für die gewünschte Quelle und klicken Sie dann auf **[!UICONTROL Done]**, um dem Lager eine Quelle zuzuweisen.
 
 >[!NOTE]
 >

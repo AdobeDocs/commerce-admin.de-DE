@@ -143,7 +143,7 @@ Füllen Sie die Informationen in den folgenden Abschnitten nach Bedarf aus:
 
    **Methode 2: Speichern und schließen**
 
-   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
+   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
 
 ## Zu beachtende Dinge
 

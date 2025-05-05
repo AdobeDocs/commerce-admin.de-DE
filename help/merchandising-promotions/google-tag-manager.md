@@ -44,7 +44,7 @@ Siehe [Einrichten der Site-Suche](https://support.google.com/analytics/answer/10
 
    - Wählen Sie **[!UICONTROL Property Settings]**.
 
-   - Legen Sie unter _[!UICONTROL Advertising Features]_**[!UICONTROL Enable Demographics and Interest Reports]**auf `On` fest.
+   - Legen Sie unter _[!UICONTROL Advertising Features]_&#x200B;**[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;auf `On` fest.
 
    - **[!UICONTROL Save]** der Einstellungen.
 
@@ -66,11 +66,11 @@ Siehe [Einrichten der Site-Suche](https://support.google.com/analytics/answer/10
 
 ## Schritt 2. Konfigurieren der [!DNL Google Tag Manager] Konto
 
-Die folgende Anleitung zeigt, wie Sie eine neue Container mit den Grundeinstellungen konfigurieren. Zur Vereinfachung des Vorgangs wird eine Composer-Konfigurationsdatei [](https://developer.adobe.com/commerce/php/development/composer/) (.json) verwendet, die importiert wird, um eine Tag in einer neuen Container zu generieren. Für dieses Beispiel empfiehlt es sich, eine Container zu erstellen, anstatt eine vorhandene Container zu ändern.
+Die folgende Anleitung zeigt, wie Sie eine neue Container mit den Grundeinstellungen konfigurieren. Zur Vereinfachung des Vorgangs wird eine Composer-Konfigurationsdatei [&#128279;](https://developer.adobe.com/commerce/php/development/composer/) (.json) verwendet, die importiert wird, um eine Tag in einer neuen Container zu generieren. Für dieses Beispiel empfiehlt es sich, eine Container zu erstellen, anstatt eine vorhandene Container zu ändern.
 
 >[!NOTE]
 >
->Weitere Informationen finden Sie unter Container-Export und -Import](https://support.google.com/tagmanager/answer/6106997) von Google[. Diese Anweisungen enthalten eine schrittweise Anleitung zum Importieren eines JSON-Beispiels in eine neue Container.
+>Weitere Informationen finden Sie unter Container-Export und -Import[&#128279;](https://support.google.com/tagmanager/answer/6106997) von Google. Diese Anweisungen enthalten eine schrittweise Anleitung zum Importieren eines JSON-Beispiels in eine neue Container.
 
 1. Laden Sie die verknüpfte Datei [GTM_M2_Config_json.txt](./assets/GTM_M2_Config_json.txt) herunter, öffnen Sie die Datei in einem Bearbeiter und speichern Sie sie als `GTM_M2_Config.json`.
 
@@ -171,7 +171,7 @@ Wenn Sie über ein Google AdWords-Konto verfügen, können Sie ein Tag erstellen
    - Konversions-ID
    - Umrechnungs-Kennzeichnen
 
-   Wenn Sie Hilfe benötigen, Visit Sie die Support-Website](https://support.google.com/tagmanager/answer/6105160) von [Google.
+   Wenn Sie Hilfe benötigen, Visit Sie die Support-Website[&#128279;](https://support.google.com/tagmanager/answer/6105160) von Google.
 
 1. Klicken Sie im [!DNL Google Tag Manager] Dashboard und führen Sie **[!UICONTROL Google AdWords]** folgende Schritte aus:
 
@@ -179,7 +179,7 @@ Wenn Sie über ein Google AdWords-Konto verfügen, können Sie ein Tag erstellen
 
    - Wählen Sie unter **[!UICONTROL Choose Product]** die Option **[!UICONTROL Google AdWords]** aus.
 
-   - Wählen Sie unter _[!UICONTROL Choose a Tag Type]_aus, und **[!UICONTROL AdWords Conversion Tracking]**klicken Sie auf **[!UICONTROL Continue]**.
+   - Wählen Sie unter _[!UICONTROL Choose a Tag Type]_&#x200B;aus, und **[!UICONTROL AdWords Conversion Tracking]**&#x200B;klicken Sie auf **[!UICONTROL Continue]**.
 
 1. Geben Sie in Ihrer AdWords-Konto und **[!UICONTROL Conversion ID]** **[!UICONTROL Conversion Label]** klicken Sie auf **[!UICONTROL Continue]**.
 
@@ -189,7 +189,7 @@ Vom Dashboard ausgehend [!DNL Google Tag Manager] besteht der nächste Schritt d
 
 1. Klicken Sie unter **[!UICONTROL Fire On]** auf **[!UICONTROL Some Pages]**.
 
-1. Nehmen Sie in diesem _[!UICONTROL Choose Pages]_Abschnitt die folgenden Einstellungen vor:
+1. Nehmen Sie in diesem _[!UICONTROL Choose Pages]_&#x200B;Abschnitt die folgenden Einstellungen vor:
 
    - **[!UICONTROL Name]** - Geben Sie einen Namen für die Seite Beschreibung ein.
 

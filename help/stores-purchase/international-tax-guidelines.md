@@ -132,7 +132,7 @@ Diese empfohlenen Einstellungen können für die meisten Steuerkonfigurationen f
 | Steuerberechnung | Bei Element |
 | Versand besteuern? | Ja |
 | Rabatt anwenden | Vor Steuern, Rabatt auf Preise, einschließlich Steuern. |
-| Kommentar | B2B-Händler sollten einfachere Überlegungen zur MwSt.-Lieferkette anstellen. Die Steuerberechnung in Zeile ist ebenfalls gültig. Wenden Sie sich jedoch an Ihre Steuerzuständigkeit. Setup geht davon aus, dass sich ein Händler in der Lieferkette befindet und die verkauften Waren von anderen Anbietern für Mehrwertsteuerrabatte usw. verwendet werden. Diese Definition erleichtert die Unterscheidung der Steuern nach Posten, was eine schnellere Rabatterstellung ermöglicht. <br/><br/>**_Hinweis _**Einige Länder und Gebiete erfordern unterschiedliche Rundungsstrategien, die derzeit nicht von Commerce unterstützt werden, und nicht alle Länder und Gebiete erlauben eine Steuer auf Element- oder Zeilenebene. |
+| Kommentar | B2B-Händler sollten einfachere Überlegungen zur MwSt.-Lieferkette anstellen. Die Steuerberechnung in Zeile ist ebenfalls gültig. Wenden Sie sich jedoch an Ihre Steuerzuständigkeit. Setup geht davon aus, dass sich ein Händler in der Lieferkette befindet und die verkauften Waren von anderen Anbietern für Mehrwertsteuerrabatte usw. verwendet werden. Diese Definition erleichtert die Unterscheidung der Steuern nach Posten, was eine schnellere Rabatterstellung ermöglicht. <br/><br/>**_Hinweis _**&#x200B;Einige Länder und Gebiete erfordern unterschiedliche Rundungsstrategien, die derzeit nicht von Commerce unterstützt werden, und nicht alle Länder und Gebiete erlauben eine Steuer auf Element- oder Zeilenebene. |
 
 {style="table-layout:auto"}
 

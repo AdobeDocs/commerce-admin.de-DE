@@ -43,11 +43,11 @@ _Order by SKU_ ist ein [Widget](../content-design/widgets.md) das im Store als K
 
 1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (nur Adobe Commerce B2B) _**Um die Funktion „Bestellung nach SKU“ zu aktivieren, deaktivieren Sie die Funktion „Schnellbestellung“:**_
+![Adobe Commerce B2B](../assets/b2b.svg) (nur Adobe Commerce B2B) _&#x200B;**Um die Funktion „Bestellung nach SKU“ zu aktivieren, deaktivieren Sie die Funktion „Schnellbestellung“:**&#x200B;_
 
 1. Navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL B2B Features]**
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL B2B Features]**
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL B2B Features]** .
 
@@ -75,7 +75,7 @@ Wenn die Funktion für den Store konfiguriert ist, können Kunden von jeder Seit
 
 1. Fügt einzelne Elemente entsprechend den Voreinstellungen hinzu:
 
-   _**Fügt jedes Element nach SKU hinzu:**_
+   _&#x200B;**Fügt jedes Element nach SKU hinzu:**&#x200B;_
 
    - Gibt den **[!UICONTROL SKU]** und die **[!UICONTROL Qty]** des zu bestellenden Artikels ein.
 
@@ -83,7 +83,7 @@ Wenn die Funktion für den Store konfiguriert ist, können Kunden von jeder Seit
 
    - Klicks **[!UICONTROL Add to Cart]**.
 
-   _**Lädt eine CSV-Datei mit mehreren Elementen hoch:**_
+   _&#x200B;**Lädt eine CSV-Datei mit mehreren Elementen hoch:**&#x200B;_
 
    - Bereitet eine [CSV-Datei (](../systems/data-csv.md)) mit Spalten für `SKU` und `Qty` vor.
 

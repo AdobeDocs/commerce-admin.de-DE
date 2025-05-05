@@ -83,7 +83,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Make Check Payable to] | Shop-Ansicht | Name der Stelle, an die Schecks und Zahlungsanweisungen zu zahlen sind. |
 | [!UICONTROL Send Check to] | Shop-Ansicht | Die Straße oder das Postfach, an die Schecks und Zahlungsanweisungen gesendet werden sollen. |
 | [!UICONTROL Minimum Order Total] | Website | Der kleinste Bestellbetrag, der per Scheck oder Zahlungsanweisung bezahlt werden kann. |
-| [!UICONTROL Maximum Order Total] | Website | Der größte Bestellbetrag, der per Scheck oder Zahlungsanweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
+| [!UICONTROL Maximum Order Total] | Website | Der größte Bestellbetrag, der per Scheck oder Zahlungsanweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**&#x200B;Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
 | [!UICONTROL Sort Order] | Website | Eine Nummer, die die Bestellung bestimmt, dass die Zahlung per Scheck oder Zahlungsanweisung angezeigt wird, wenn sie mit anderen Zahlungsmethoden beim Checkout aufgelistet wird. Geben Sie `0` ein, um sie an den Anfang der Liste zu setzen. |
 
 {style="table-layout:auto"}
@@ -102,7 +102,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Payment from Applicable Countries] | Website | Bestimmt die Länder, von denen Sie die Zahlung per Banküberweisung akzeptieren. Optionen: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Gibt die Länder an, aus denen Sie die Zahlung per Banküberweisung akzeptieren. |
 | [!UICONTROL Minimum Order Total] | Website | Der kleinste Bestellbetrag, der per Banküberweisung bezahlt werden kann. |
-| [!UICONTROL Maximum Order Total] | Website | Der größte Bestellbetrag, der per Banküberweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
+| [!UICONTROL Maximum Order Total] | Website | Der größte Bestellbetrag, der per Banküberweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**&#x200B;Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
 | [!UICONTROL Sort Order] | Website | Eine Zahl, die die Reihenfolge bestimmt, in der die Zahlung per Banküberweisung angezeigt wird, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgelistet wird. Geben Sie `0` ein, um sie an den Anfang der Liste zu setzen. |
 
 {style="table-layout:auto"}
@@ -123,7 +123,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Payment from Applicable Countries] | Website | Legt die Länder fest, in denen Unternehmen Einkäufe mit ihren Konten verrechnen dürfen. Optionen: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Gibt die spezifischen Länder an, in denen Unternehmen Käufe mit ihren Konten verbuchen können. |
 | [!UICONTROL Minimum Order Total] | Website | Gibt den kleinsten Bestellbetrag an, der einem Firmenkonto belastet werden kann. |
-| [!UICONTROL Maximum Order Total] | Website | Der größte Auftragsbetrag, der einem Firmenkonto belastet werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
+| [!UICONTROL Maximum Order Total] | Website | Der größte Auftragsbetrag, der einem Firmenkonto belastet werden kann. <br/><br/>**_Hinweis:_**&#x200B;Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
 | [!UICONTROL Sort Order] | Website | Eine Zahl, die die Reihenfolge bestimmt, in der die Zahlung auf Konto angezeigt wird, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgelistet wird. Geben Sie `0` ein, um sie an den Anfang der Liste zu setzen. |
 
 {style="table-layout:auto"}
@@ -146,7 +146,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Payment from Applicable Countries] | Website | Bestimmt die Länder, von denen Sie die Zahlung per Banküberweisung akzeptieren. Optionen: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Gibt die Länder an, aus denen Sie die Zahlung per Banküberweisung akzeptieren. |
 | [!UICONTROL Minimum Order Total] | Website | Gibt den kleinsten Bestellbetrag an, der per Banküberweisung bezahlt werden kann. |
-| [!UICONTROL Maximum Order Total] | Website | Der größte Bestellbetrag, der per Banküberweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
+| [!UICONTROL Maximum Order Total] | Website | Der größte Bestellbetrag, der per Banküberweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**&#x200B;Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
 | [!UICONTROL Sort Order] | Website | Eine Zahl, die die Reihenfolge bestimmt, in der die Zahlung per Banküberweisung angezeigt wird, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgelistet wird. Geben Sie `0` ein, um sie an den Anfang der Liste zu setzen. |
 
 {style="table-layout:auto"}
@@ -189,7 +189,7 @@ Eine umfassende Liste der individuellen Konfigurationsoptionen finden Sie im Abs
 
 >[!NOTE]
 >
->Wählen Sie die Option _[!UICONTROL Not Capture]_nur aus, wenn Sie sicher sind, dass Sie die Zahlung später über Commerce erfassen werden. Sie können erst dann eine Gutschrift erstellen, wenn die Zahlung mit der Schaltfläche „Erfassen“ erfasst wurde.
+>Wählen Sie die Option _[!UICONTROL Not Capture]_&#x200B;nur aus, wenn Sie sicher sind, dass Sie die Zahlung später über Commerce erfassen werden. Sie können erst dann eine Gutschrift erstellen, wenn die Zahlung mit der Schaltfläche „Erfassen“ erfasst wurde.
 
 ## [!UICONTROL Purchase Order]
 
@@ -205,7 +205,7 @@ Eine umfassende Liste der individuellen Konfigurationsoptionen finden Sie im Abs
 | [!UICONTROL Payment from Applicable Countries] | Website | Bestimmt die Länder, aus denen Sie die Zahlung per Bestellung akzeptieren. Optionen: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Gibt die Länder an, aus denen Sie die Zahlung per Bestellung akzeptieren. |
 | [!UICONTROL Minimum Order Total] | Website | Der kleinste Bestellbetrag, der von der Bestellung bezahlt werden kann. |
-| [!UICONTROL Maximum Order Total] | Website | Der größte Auftragsbetrag, der von der Bestellung bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
+| [!UICONTROL Maximum Order Total] | Website | Der größte Auftragsbetrag, der von der Bestellung bezahlt werden kann. <br/><br/>**_Hinweis:_**&#x200B;Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
 | [!UICONTROL Sort Order] | Website | Eine Zahl, die die Reihenfolge bestimmt, in der die Zahlung per Bestellung angezeigt wird, wenn sie mit anderen Zahlungsmethoden beim Checkout aufgelistet wird. Geben Sie `0` ein, um sie an den Anfang der Liste zu setzen. |
 
 {style="table-layout:auto"}

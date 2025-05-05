@@ -24,7 +24,7 @@ Im folgenden Beispiel werden Preisdaten der Stufe für ein einzelnes Produkt exp
 
 1. Navigieren _in_ Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 
-1. Legen Sie unter _[!UICONTROL Export Settings]_**[!UICONTROL Entity Type]**auf `Advanced Pricing` fest.
+1. Legen Sie unter _[!UICONTROL Export Settings]_&#x200B;**[!UICONTROL Entity Type]**&#x200B;auf `Advanced Pricing` fest.
 
 1. Scrollen Sie im **[!UICONTROL Entity Attributes]** Raster nach unten zu den SKU-Attributen und führen Sie die folgenden Schritte aus:
 

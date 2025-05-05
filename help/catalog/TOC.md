@@ -17,7 +17,7 @@ ht-degree: 0%
 + [Handbuch zur Katalogverwaltung](guide-overview.md)
 + [Einführung in die Katalogverwaltung](introduction.md)
 + [Menü „Katalog“](catalog-menu.md)
-+ {#catalog} zu Kataloggrundlagen
++ zu Kataloggrundlagen{#catalog}
    + [Katalog- und Produkt-URLs](catalog-urls.md)
    + [Flache Kataloge](catalog-flat.md)
    + Katalognavigation {#navigation}
@@ -26,7 +26,7 @@ ht-degree: 0%
       + [Breadcrumb-Trails](navigation-breadcrumb-trail.md)
       + [Produktlisten](navigation-product-listings.md)
       + [Mehrschichtige Navigation](navigation-layered.md)
-   + {#search} zur Katalogsuche
+   + zur Katalogsuche{#search}
       + [Übersicht über die Suche](search.md)
       + [Konfigurieren der Katalogsuche](search-configuration.md)
       + [Suchergebnisse](search-results.md)
@@ -60,7 +60,7 @@ ht-degree: 0%
       + [Produkt im Paket](product-create-bundle.md)
       + [Herunterladbares Produkt](product-create-downloadable.md)
       + [Geschenkkarte](product-gift-card-create.md)
-   + {#digital-assets} für digitale Produktelemente
+   + für digitale Produktelemente{#digital-assets}
       + [Katalogbilder und -videos](catalog-images-video.md)
       + [Konfiguration von Bild-Assets](product-image-config.md)
       + [Verwalten von Produktbildern](product-image.md)
@@ -68,7 +68,7 @@ ht-degree: 0%
       + Verwalten von Produkt-3D-Modellen {#product-3d-model}
          + [AR Viewer - Übersicht](ar-viewer-overview.md)
          + [AR-Viewer-Setup](ar-viewer-setup.md)
-   + {#pricing} verwalten
+   + verwalten{#pricing}
       + [Preisspanne](catalog-price-scope.md)
       + [Erweiterte Preisgestaltung](pricing-advanced.md)
       + [Preisgestaltung einer Gruppe](product-price-group.md)
@@ -76,7 +76,7 @@ ht-degree: 0%
       + [Preisstufe](product-price-tier.md)
       + [Angebotshöchstpreis](product-price-minimum-advertised.md)
    + [Planen von Produkt-Updates](product-scheduled-changes.md)
-   + {#settings} zu Produkteinstellungen
+   + zu Produkteinstellungen{#settings}
       + [Quellen](sources.md)
       + [Inhalt](product-content.md)
       + [Konfigurationen](product-configurations.md)
@@ -90,7 +90,7 @@ ht-degree: 0%
       + [Design](settings-advanced-design.md)
       + [AutoSettings](product-autosettings.md)
       + [Geschenkoptionen](product-gift-options.md)
-+ {#product-attributes} der Produktattribute
++ der Produktattribute{#product-attributes}
    + [Attributübersicht](product-attributes.md)
    + [Attributeingabetyp](attributes-input-types.md)
    + [Hinzufügen von Attributen zu einem Produkt](product-attributes-add.md)

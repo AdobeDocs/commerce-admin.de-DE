@@ -27,7 +27,7 @@ Die Konfigurationseinstellungen aktivieren das Seitenhierarchiesystem und die Me
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Content Management]**&#x200B;aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]** und nehmen Sie die erforderlichen Änderungen vor.
 
@@ -59,7 +59,7 @@ Verwenden Sie zum Verknüpfen mit einem Knoten das [Widget](widgets.md)-Tool, um
 
 1. Klicken Sie über dem Raster auf **[!UICONTROL Add Node...]**.
 
-1. Geben Sie unter _[!UICONTROL Page Properties]_einen **[!UICONTROL Title]**für den Knoten und einen geeigneten **[!UICONTROL URL Key]**ein.
+1. Geben Sie unter _[!UICONTROL Page Properties]_&#x200B;einen **[!UICONTROL Title]**&#x200B;für den Knoten und einen geeigneten **[!UICONTROL URL Key]**&#x200B;ein.
 
    Der URL-Schlüssel stellt eine eindeutige Web-Adresse für den Knoten bereit. Es müssen nur Kleinbuchstaben verwendet werden, wobei Bindestriche anstelle von Leerzeichen verwendet werden müssen, um Wörter zu trennen.
 
@@ -85,7 +85,7 @@ Verwenden Sie zum Verknüpfen mit einem Knoten das [Widget](widgets.md)-Tool, um
 
 1. Klicken Sie auf den Knoten oben in der Hierarchie.
 
-   Im Abschnitt _[!UICONTROL Page Properties]_werden jetzt Informationen zum Knoten angezeigt.
+   Im Abschnitt _[!UICONTROL Page Properties]_&#x200B;werden jetzt Informationen zum Knoten angezeigt.
 
 1. Gehen Sie unter **[!UICONTROL Render Metadata in HTML Head]** wie folgt vor:
 

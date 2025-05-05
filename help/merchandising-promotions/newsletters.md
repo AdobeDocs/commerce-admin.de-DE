@@ -30,7 +30,7 @@ Der erste Schritt beim Erstellen von Newslettern besteht darin, die Newsletter-E
 
 1. Um Newsletter für den Bereich der Store-Ansicht zu aktivieren, setzen Sie **[!UICONTROL Enabled]** auf `Yes`.
 
-Nach der Aktivierung der Newsletter-Funktion wird der Abschnitt _[!UICONTROL Subscription Options]_angezeigt.
+Nach der Aktivierung der Newsletter-Funktion wird der Abschnitt _[!UICONTROL Subscription Options]_&#x200B;angezeigt.
 
 ## Konfigurieren der Abonnementoptionen
 

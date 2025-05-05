@@ -28,9 +28,9 @@ Die ersten beiden Schritte sind die gleichen wie beim Einfügen eines Bildes.
 
    ![Symbol „Bild einfügen“](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   Diese Aktion öffnet das _[!UICONTROL Insert/edit image]_Dialogfeld.
+   Diese Aktion öffnet das _[!UICONTROL Insert/edit image]_&#x200B;Dialogfeld.
 
-1. Klicken Sie _[!UICONTROL Source]_auf das Symbol_ Suchen _(![Suchsymbol](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
+1. Klicken Sie _[!UICONTROL Source]_&#x200B;auf das Symbol_ Suchen _(![Suchsymbol](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
 
 1. Führen Sie in der Verzeichnisstruktur auf der linken Seite einen der folgenden Schritte aus:
 
@@ -68,7 +68,7 @@ Die Bilder werden in den aktuellen Medienspeicherordner auf dem Server hochgelad
 
 1. Klicken Sie in [Editor](editor.md)-Symbolleiste auf das Symbol _Bild einfügen_.
 
-1. Klicken Sie _[!UICONTROL Source]_auf das Symbol_ Suchen _(![Suchsymbol](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
+1. Klicken Sie _[!UICONTROL Source]_&#x200B;auf das Symbol_ Suchen _(![Suchsymbol](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
 
    ![Auswählen des Suchsymbols](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 

@@ -26,11 +26,11 @@ Bei dieser Übung wird davon ausgegangen, dass Sie [Teil 1: Einfache Seite](1-si
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Suchen Sie die _Einfache Seite_ die Sie in der ersten Übung erstellt und in der zweiten geändert haben, und wählen Sie **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_aus.
+1. Suchen Sie die _Einfache Seite_ die Sie in der ersten Übung erstellt und in der zweiten geändert haben, und wählen Sie **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_&#x200B;aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Content]** und klicken Sie auf **[!UICONTROL Edit with Page Builder]** oder in den Bereich für die Inhaltsvorschau.
 
-1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_eine **[!UICONTROL Row]**an den Anfang der Bühne.
+1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_&#x200B;eine **[!UICONTROL Row]**&#x200B;an den Anfang der Bühne.
 
 1. Erweitern Sie im [!DNL Page Builder] Bedienfeld **[!UICONTROL Add Content]** und ziehen Sie einen **[!UICONTROL Products]** Platzhalter in die neue Zeile.
 
@@ -48,7 +48,7 @@ Bei dieser Übung wird davon ausgegangen, dass Sie [Teil 1: Einfache Seite](1-si
 
    - Klicken Sie auf _Symbol_ Hinzufügen![ (Symbol ](../assets/icon-add-green-circle.png)).
 
-   - Wählen Sie unter _[!UICONTROL Product Attribute]_die Option **[!UICONTROL Category]**aus.
+   - Wählen Sie unter _[!UICONTROL Product Attribute]_&#x200B;die Option **[!UICONTROL Category]**&#x200B;aus.
 
      ![Auswählen des Kategorieattributs für die Bedingung](./assets/pb-add-content-products-settings-condition.png){width="600" zoomable="yes"}
 
@@ -80,7 +80,7 @@ Bei dieser Übung wird davon ausgegangen, dass Sie [Teil 1: Einfache Seite](1-si
 
 1. Klicken Sie oben rechts im Stadium auf das Symbol _Vollbild schließen_ ( ![Vollbildsymbol schließen](./assets/pb-icon-reduce.png){width="20"} ).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_Abschnitt für die Seite mit der angezeigten Vorschau zurück.
+   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_&#x200B;Abschnitt für die Seite mit der angezeigten Vorschau zurück.
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
@@ -98,13 +98,13 @@ In diesem Teil der Übung erfahren Sie, wie einfach es ist, eine Produktseite an
 
 1. Scrollen Sie nach unten und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Content]** .
 
-1. Klicken Sie neben _[!UICONTROL Description]_auf **[!UICONTROL Edit with Page Builder]**.
+1. Klicken Sie neben _[!UICONTROL Description]_&#x200B;auf **[!UICONTROL Edit with Page Builder]**.
 
    ![Inhalt der Produktbeschreibung](./assets/pb-catalog-product-content.png){width="600" zoomable="yes"}
 
    Wenn die Produktbeschreibung zuvor ohne [!DNL Page Builder] eingegeben wurde, wird die aktuelle Beschreibung als HTML in einem [HTML-Code](html-code.md)-Container angezeigt. Beim Luma-Design wird die Produktbeschreibung auf der Registerkarte Detail angezeigt.
 
-1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_einen **[!UICONTROL Row]**auf den Schritt und legen Sie ihn unter dem HTML-Code-Container ab.
+1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_&#x200B;einen **[!UICONTROL Row]**&#x200B;auf den Schritt und legen Sie ihn unter dem HTML-Code-Container ab.
 
    Suchen Sie nach der roten Richtlinie, die angezeigt wird, wenn sich die Zeile an der richtigen Position befindet.
 
@@ -136,7 +136,7 @@ In diesem Teil der Übung erfahren Sie, wie einfach es ist, eine Produktseite an
 
 1. Klicken Sie oben rechts im Stadium auf das Symbol _Vollbild schließen_ ( ![Vollbildsymbol schließen](./assets/pb-icon-reduce.png){width="20"} ).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_Abschnitt für die Seite mit der angezeigten Vorschau zurück.
+   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_&#x200B;Abschnitt für die Seite mit der angezeigten Vorschau zurück.
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
@@ -160,17 +160,22 @@ Um Änderungen an Ihrem Live Store zu vermeiden, erstellen Sie ein Produkt mit d
 
 1. Erstellen Sie das Produkt mit den folgenden Eigenschaften:
 
-   - 
+   - &#x200B;
+
      [!UICONTROL Attributsatz]: Default
    - [!UICONTROL Product Name]: Mein Produkt
-   - 
+   - &#x200B;
+
      [!UICONTROL SKU]: Tutorial
-   - 
+   - &#x200B;
+
      [!UICONTROL Price]: 75.00
-   - 
+   - &#x200B;
+
      [!UICONTROL Quantity]: 100
    - [!UICONTROL Stock Status]: Auf Lager
-   - 
+   - &#x200B;
+
      [!UICONTROL Weight]: 1
    - [!UICONTROL Categories]: Damen > Tops > T-Shirts
 
@@ -199,20 +204,26 @@ In diesem Schritt erstellen Sie zwei neue benutzerdefinierte Attribute, um zu ze
    - [!UICONTROL Attribute Code]: Geben Sie einen Attributcode in Kleinbuchstaben ein, indem Sie Bindestriche anstelle von Leerzeichen verwenden. Verwenden Sie für dieses Beispiel `my_page_builder_attribute`.
    - [!UICONTROL Scope]: Akzeptieren Sie den Standardwert `Store View`.
    - [!UICONTROL Default Value]: Geben Sie einen Standardwert für das Attribut ein.
-   - 
+   - &#x200B;
+
      [!UICONTROL Unique Value]: `No`
-   - 
+   - &#x200B;
+
      [!UICONTROL Add to Column Options]: `No`
-   - 
+   - &#x200B;
+
      [!UICONTROL Use in Filter Options]: `Yes`
 
-1. Wählen Sie im Bedienfeld _[!UICONTROL Attribute Information]_auf der linken Seite **[!UICONTROL Storefront Properties]**und nehmen Sie die folgenden Einstellungen vor:
+1. Wählen Sie im Bedienfeld _[!UICONTROL Attribute Information]_&#x200B;auf der linken Seite **[!UICONTROL Storefront Properties]**&#x200B;und nehmen Sie die folgenden Einstellungen vor:
 
-   - 
+   - &#x200B;
+
      [!UICONTROL Use for Promo Rule Conditions]: `Yes`
-   - 
+   - &#x200B;
+
      [!UICONTROL Visible on Catalog Pages on Storefront]: `Yes`
-   - 
+   - &#x200B;
+
      [!UICONTROL Used in Product Listing]: `Yes`
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Attribute]**.
@@ -221,7 +232,8 @@ In diesem Schritt erstellen Sie zwei neue benutzerdefinierte Attribute, um zu ze
 
    - [!UICONTROL Default Label]: Mein Texteditor-Attribut
    - [!UICONTROL Catalog Input Type for Store Owner]: Texteditor
-   - 
+   - &#x200B;
+
      [!UICONTROL Attributcode]: `my_text_editor_attribute`
 
 ### Schritt 3: Aktualisieren des Produktattributsatzes
@@ -234,9 +246,9 @@ In diesem Schritt erstellen Sie zwei neue benutzerdefinierte Attribute, um zu ze
    >
    >Wenn Sie Ihren Live Store nicht ändern möchten, können Sie dem folgen, ohne das eingestellte Attribut zu aktualisieren.
 
-1. Suchen Sie das in der Liste festgelegte _[!UICONTROL Default]_Attribut und doppelklicken Sie darauf, um es im Bearbeitungsmodus zu öffnen.
+1. Suchen Sie das in der Liste festgelegte _[!UICONTROL Default]_&#x200B;Attribut und doppelklicken Sie darauf, um es im Bearbeitungsmodus zu öffnen.
 
-1. Suchen Sie in _Liste „Nicht_ Attribute“ die neu erstellten Attribute und ziehen Sie die einzelnen Attribute in die Spalte _[!UICONTROL Groups]_unter **[!UICONTROL Content]**.
+1. Suchen Sie in _Liste „Nicht_ Attribute“ die neu erstellten Attribute und ziehen Sie die einzelnen Attribute in die Spalte _[!UICONTROL Groups]_&#x200B;unter **[!UICONTROL Content]**.
 
    Die Position des Attributs in der Spalte [!UICONTROL Groups] bestimmt, wo es auf der Seite angezeigt wird.
 

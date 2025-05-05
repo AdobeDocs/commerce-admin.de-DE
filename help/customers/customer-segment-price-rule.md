@@ -18,7 +18,7 @@ Ein Kundensegment kann für zielgerichtete Promotions verwendet werden, indem es
 
 ![Warenkorb-Preisregel - Zielkundensegment](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_**So verknüpfen Sie ein Segment mit einer Warenkorb-Preisregel:**_
+_&#x200B;**So verknüpfen Sie ein Segment mit einer Warenkorb-Preisregel:**&#x200B;_
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
 

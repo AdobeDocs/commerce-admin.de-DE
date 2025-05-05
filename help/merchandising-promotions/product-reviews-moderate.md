@@ -20,15 +20,15 @@ Gehen Sie wie folgt vor, um alle Bewertungen für ein bestimmtes Produkt in Admi
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Suchen Sie das Produkt, das Sie anzeigen möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie das Produkt, das Sie anzeigen möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Scrollen Sie auf der Produktseite nach unten und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Product Reviews]** .
 
-   In diesem Raster können Sie die spezifische Überprüfung auch ändern, indem Sie auf den Link **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_klicken.
+   In diesem Raster können Sie die spezifische Überprüfung auch ändern, indem Sie auf den Link **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_&#x200B;klicken.
 
 ## Aktualisierungsstatus für Überprüfungen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**oder **[!UICONTROL All Reviews]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;oder **[!UICONTROL All Reviews]**.
 
 1. Klicken Sie in der Liste auf eine ausstehende Überprüfung, um die Details anzuzeigen und bei Bedarf zu bearbeiten.
 
@@ -36,7 +36,7 @@ Gehen Sie wie folgt vor, um alle Bewertungen für ein bestimmtes Produkt in Admi
 
    - Um eine ausstehende Überprüfung zu genehmigen, wählen Sie `Approved` aus.
 
-   - Um eine Überprüfung abzulehnen, wählen Sie `Not Approved` aus. Nicht genehmigte Reviews verschwinden aus der Liste _[!UICONTROL Pending Reviews]_Seite.
+   - Um eine Überprüfung abzulehnen, wählen Sie `Not Approved` aus. Nicht genehmigte Reviews verschwinden aus der Liste _[!UICONTROL Pending Reviews]_&#x200B;Seite.
 
    >[!NOTE]
    >
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um alle Bewertungen für ein bestimmtes Produkt in Admi
 
 1. Ändern Sie bei Bedarf die Werte für **[!UICONTROL Detailed Rating]**, **[!UICONTROL Nickname]** und **[!UICONTROL Summary of Review]**.
 
-   Um die Store-Ansicht zu ändern, in der eine Überprüfung verfügbar ist, wählen Sie die gewünschte Store-Ansicht in der Spalte _[!UICONTROL Visibility]_aus.
+   Um die Store-Ansicht zu ändern, in der eine Überprüfung verfügbar ist, wählen Sie die gewünschte Store-Ansicht in der Spalte _[!UICONTROL Visibility]_&#x200B;aus.
 
    ![Prüfungsseite bearbeiten](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
@@ -60,7 +60,7 @@ Sie können mehrere Reviews gleichzeitig aktualisieren oder löschen:
 
 1. Wählen Sie die Bewertungen aus, die Sie aktualisieren möchten.
 
-1. Verwenden Sie die _[!UICONTROL Action]_oben links, um eine Aktion anzuwenden.
+1. Verwenden Sie die _[!UICONTROL Action]_&#x200B;oben links, um eine Aktion anzuwenden.
 
 1. **[!UICONTROL Submit]** klicken
 

@@ -36,7 +36,7 @@ Eine Zahlungsmethode, die einen sicheren Tresor unterstützt, z. B. [Braintree](
 
 1. Klicks **[!UICONTROL Place Order]**.
 
-Die gespeicherte Zahlungsmethode wird dann auf der Registerkarte _[!UICONTROL Stored Payment Methods]_des Kunden-Dashboards angezeigt.
+Die gespeicherte Zahlungsmethode wird dann auf der Registerkarte _[!UICONTROL Stored Payment Methods]_&#x200B;des Kunden-Dashboards angezeigt.
 
 ## Löschen einer gespeicherten Zahlungsmethode
 

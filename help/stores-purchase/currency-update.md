@@ -40,7 +40,7 @@ Bevor Sie Währungskurse importieren, schließen Sie die [Währungskurseinrichtu
 
 1. Klicken Sie auf **[!UICONTROL Import]**.
 
-   Die aktualisierten Tarife werden in der Liste _[!UICONTROL Currency Rates]_angezeigt. Wenn sich die Kurse seit der letzten Aktualisierung geändert haben, wird der alte Kurs unten als Referenz angezeigt.
+   Die aktualisierten Tarife werden in der Liste _[!UICONTROL Currency Rates]_&#x200B;angezeigt. Wenn sich die Kurse seit der letzten Aktualisierung geändert haben, wird der alte Kurs unten als Referenz angezeigt.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Currency Rates]**.
 

@@ -20,7 +20,7 @@ Bevor Sie beginnen, stellen Sie sicher, [ die „Storefront](../catalog/attribut
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 
-1. Geben Sie im Suchfilter oben in der Spalte _[!UICONTROL Attribute Code]_den Wert `sku` ein und klicken Sie auf **[!UICONTROL Search]**.
+1. Geben Sie im Suchfilter oben in der Spalte _[!UICONTROL Attribute Code]_&#x200B;den Wert `sku` ein und klicken Sie auf **[!UICONTROL Search]**.
 
 1. Klicken Sie, um das Attribut `sku` im Bearbeitungsmodus zu öffnen.
 

@@ -22,7 +22,7 @@ Steuerklassen können Kunden, Produkten und Versand zugeordnet werden. Commerce 
 
 ## Steuerklassen konfigurieren
 
-Die Steuerklasse, die für den Versand verwendet wird, und die standardmäßigen Steuerklassen für [Produkte und Kunden](#add-a-product-tax-class) werden in der _[!UICONTROL Sales]_Konfiguration festgelegt.
+Die Steuerklasse, die für den Versand verwendet wird, und die standardmäßigen Steuerklassen für [Produkte und Kunden](#add-a-product-tax-class) werden in der _[!UICONTROL Sales]_&#x200B;Konfiguration festgelegt.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

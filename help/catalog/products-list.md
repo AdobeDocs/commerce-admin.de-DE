@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Auf alle Produkte im Katalog kann über die Seite &quot;_[!UICONTROL Products]_&quot; in der Admin Console zugegriffen werden. Dort können Sie Produkte erstellen und vorhandene bearbeiten. Bei einer Multi-Site-Installation kann jede Website eine andere Auswahl von Produkten zum Verkauf aus demselben Katalog anbieten.
 
-Die _[!UICONTROL Products]_Liste enthält alle Produkte im Katalog, gibt die Websites an, auf denen sie verfügbar sind, und ob sie derzeit für den Verkauf aktiviert sind. In Adobe Commerce B2B-Installationen mit [freigegebenen Katalogen](../b2b/catalog-shared.md) enthält das Raster eine Spalte, die angibt, für welche Produkte in einem freigegebenen Katalog alternative Rabattpreise gelten.
+Die _[!UICONTROL Products]_&#x200B;Liste enthält alle Produkte im Katalog, gibt die Websites an, auf denen sie verfügbar sind, und ob sie derzeit für den Verkauf aktiviert sind. In Adobe Commerce B2B-Installationen mit [freigegebenen Katalogen](../b2b/catalog-shared.md) enthält das Raster eine Spalte, die angibt, für welche Produkte in einem freigegebenen Katalog alternative Rabattpreise gelten.
 
 Sie können die Liste Seite für Seite durchsuchen oder nach bestimmten Produkten suchen. Verwenden Sie die standardmäßigen [Steuerelemente](../getting-started/admin-grid-controls.md), um die Liste zu sortieren und zu filtern und [Aktionen](../getting-started/admin-actions-control.md) auf ausgewählte Produkte anzuwenden.
 
@@ -34,7 +34,7 @@ Diese Konfigurationseinstellung für die Begrenzung der Produktanzeige ist stand
 
 >[!NOTE]
 >
->Wenn Ihr Produktraster nicht beschränkt werden soll, verwenden Sie Filter präziser, um eine Sammlung zu erstellen, die weniger Elemente als die im Feld _[!UICONTROL Records Limit]_angegebene Anzahl enthält.
+>Wenn Ihr Produktraster nicht beschränkt werden soll, verwenden Sie Filter präziser, um eine Sammlung zu erstellen, die weniger Elemente als die im Feld _[!UICONTROL Records Limit]_&#x200B;angegebene Anzahl enthält.
 
 **_So konfigurieren Sie die Begrenzung der Produktanzeige:_**
 

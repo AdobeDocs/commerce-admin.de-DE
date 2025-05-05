@@ -88,6 +88,6 @@ Der Zugriff auf einen privaten Verkauf, eine Veranstaltung oder eine Website kan
 
 ### Verkäufe einschränken
 
-Standardmäßig sind Produkte, die bei anstehenden oder geschlossenen Ereignissen angezeigt werden, nicht für den allgemeinen Verkauf verfügbar und die Schaltfläche _[!UICONTROL Add to Cart]_wird nicht auf der Produktliste oder Produktseite angezeigt.
+Standardmäßig sind Produkte, die bei anstehenden oder geschlossenen Ereignissen angezeigt werden, nicht für den allgemeinen Verkauf verfügbar und die Schaltfläche _[!UICONTROL Add to Cart]_&#x200B;wird nicht auf der Produktliste oder Produktseite angezeigt.
 
-Um die Schaltfläche _[!UICONTROL Add to Cart]_für ein geschlossenes Ereignis wiederherzustellen, muss das Ereignis gelöscht werden (siehe [Ereignisse aktualisieren](event-create.md#update-events)). Wenn ein Produkt jedoch mit einer anderen Kategorie verknüpft ist, die keine Verkaufsbeschränkungen aufweist, ist die Schaltfläche auf der Produktseite verfügbar. Ebenso wird der Tickerblock nicht auf der Produktseite angezeigt, wenn das Produkt einer anderen Kategorie zugeordnet ist, für die keine Verkaufsbeschränkungen gelten.
+Um die Schaltfläche _[!UICONTROL Add to Cart]_&#x200B;für ein geschlossenes Ereignis wiederherzustellen, muss das Ereignis gelöscht werden (siehe [Ereignisse aktualisieren](event-create.md#update-events)). Wenn ein Produkt jedoch mit einer anderen Kategorie verknüpft ist, die keine Verkaufsbeschränkungen aufweist, ist die Schaltfläche auf der Produktseite verfügbar. Ebenso wird der Tickerblock nicht auf der Produktseite angezeigt, wenn das Produkt einer anderen Kategorie zugeordnet ist, für die keine Verkaufsbeschränkungen gelten.

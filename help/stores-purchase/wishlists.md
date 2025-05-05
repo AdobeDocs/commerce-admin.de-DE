@@ -34,7 +34,7 @@ Kunden können [Wunschlisten verwalten](wishlist-storefront.md) indem sie sich b
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Suchen Sie den Kunden in der Liste und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie den Kunden in der Liste und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Wählen Sie im linken Bereich die Option **[!UICONTROL Wish List]** und suchen Sie das Element, das in der Liste bearbeitet werden soll.
 

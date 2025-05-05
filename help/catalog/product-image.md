@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Für jedes Produkt können Sie mehrere Bilder und Videos hochladen, ihre Reihenfolge neu anordnen und steuern, wie sie verwendet werden. Wenn Sie eine große Anzahl von Bildern verwalten müssen, empfiehlt es sich möglicherweise, die Bilder als Batch zu importieren, anstatt sie einzeln hochzuladen. Weitere Informationen finden Sie unter [Produktbilder importieren](../systems/data-import-product-images.md).
 
-Wenn Sie große Bilder für die Anzeige auf der _[!UICONTROL Product Details]_hochladen möchten, sollten Sie eine maximale Pixelgröße (Breite und Höhe) festlegen und die Größe der Dateien beim Hochladen automatisch ändern. Es gibt eine Option, um die automatische Größenanpassung größerer Bilddateien beim Hochladen zu aktivieren. Weitere Informationen finden Sie unter [Größenänderung von Produktbildern](product-image-config.md#product-image-resizing).
+Wenn Sie große Bilder für die Anzeige auf der _[!UICONTROL Product Details]_&#x200B;hochladen möchten, sollten Sie eine maximale Pixelgröße (Breite und Höhe) festlegen und die Größe der Dateien beim Hochladen automatisch ändern. Es gibt eine Option, um die automatische Größenanpassung größerer Bilddateien beim Hochladen zu aktivieren. Weitere Informationen finden Sie unter [Größenänderung von Produktbildern](product-image-config.md#product-image-resizing).
 
 ## Aktualisieren der Produktbilder
 
@@ -36,15 +36,15 @@ Die Länge des Bilddateinamens, einschließlich Erweiterung, darf 90 Zeichen nic
 
 Führen Sie einen der folgenden Schritte aus, um ein Bild hochzuladen:
 
-- Ziehen Sie ein Bild von Ihrem Desktop und legen Sie es auf der Kachel _Kamera_ ( ![Kamerasymbol](../assets/icon-camera.png) ) im _[!UICONTROL Images And Videos]_ab.
+- Ziehen Sie ein Bild von Ihrem Desktop und legen Sie es auf der Kachel _Kamera_ ( ![Kamerasymbol](../assets/icon-camera.png) ) im _[!UICONTROL Images And Videos]_&#x200B;ab.
 
-- Klicken Sie im _[!UICONTROL Images And Videos]_auf die Kachel_ Kamera _( ![Kamerasymbol](../assets/icon-camera.png) ), wählen Sie die Bilddatei auf Ihrem Computer aus und klicken Sie auf **[!UICONTROL Open]**.
+- Klicken Sie im _[!UICONTROL Images And Videos]_&#x200B;auf die Kachel_ Kamera _( ![Kamerasymbol](../assets/icon-camera.png) ), wählen Sie die Bilddatei auf Ihrem Computer aus und klicken Sie auf **[!UICONTROL Open]**.
 
   ![Hochladen oder Drag-and-Drop](./assets/product-images-and-video-jewel-tee.png){width="600" zoomable="yes"}
 
 ### Bilder neu anordnen
 
-Um die Reihenfolge der Bilder in der Galerie zu ändern, klicken Sie auf das _[!UICONTROL Sort]_( ![Sortiersymbol](./assets/inventory-icon-sort.png) ) unten auf der Bildkachel und ziehen Sie das Bild an eine andere Position im_[!UICONTROL Images And Videos]_.
+Um die Reihenfolge der Bilder in der Galerie zu ändern, klicken Sie auf das _[!UICONTROL Sort]_( ![Sortiersymbol](./assets/inventory-icon-sort.png) ) unten auf der Bildkachel und ziehen Sie das Bild an eine andere Position im&#x200B;_[!UICONTROL Images And Videos]_.
 
 ![Änderungsanforderung](./assets/product-images-and-videos-drag.png){width="600" zoomable="yes"}
 
@@ -66,13 +66,13 @@ Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
 Bild-Alternativtext wird von Sprachausgaben referenziert, um die Barrierefreiheit im Web zu verbessern, und von Suchmaschinen beim Indizieren der Site. In einigen Browsern wird beim Bewegen des Mauszeigers der ALT-Text angezeigt. Alternativtext kann mehrere Wörter lang sein und sorgfältig ausgewählte Schlüsselwörter enthalten.
 
-Geben Sie im _[!UICONTROL Alt Text]_eine kurze Beschreibung des Bildes ein.
+Geben Sie im _[!UICONTROL Alt Text]_&#x200B;eine kurze Beschreibung des Bildes ein.
 
 #### Rollen zuweisen
 
 Standardmäßig sind alle Rollen dem ersten Bild zugewiesen, das in das Produkt hochgeladen wird. Gehen Sie wie folgt vor, um einem anderen Bild eine Rolle zuzuweisen:
 
-Wählen Sie im _[!UICONTROL Role]_die Rolle aus, die Sie dem Bild zuweisen möchten.
+Wählen Sie im _[!UICONTROL Role]_&#x200B;die Rolle aus, die Sie dem Bild zuweisen möchten.
 
 Wenn Sie zum Abschnitt _Bilder und Videos_ zurückkehren, werden die aktuell zugewiesenen Rollen unter den einzelnen Bildern angezeigt.
 
@@ -113,7 +113,7 @@ Das im folgenden Beispiel für das _kleine_ Bild verwendete Wasserzeichen ist ei
 
    Weitere Informationen zu Design-Konfigurationen finden Sie unter [Design-Konfiguration](../content-design/configuration.md).
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Erweitern Sie unter _[!UICONTROL Other Settings]_![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Product Image Watermarks]**.
 

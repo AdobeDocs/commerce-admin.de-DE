@@ -60,7 +60,7 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
    >[!NOTE]
    >
-   >Wenn Sie zu einem der Regelinformationsparameter wechseln, stellen Sie sicher, dass der _[!UICONTROL Status]_richtig eingestellt ist. Wenn die Änderung zu einer aktiv angewendeten Regel führen soll, sollte der Status lauten`Active`.
+   >Wenn Sie zu einem der Regelinformationsparameter wechseln, stellen Sie sicher, dass der _[!UICONTROL Status]_&#x200B;richtig eingestellt ist. Wenn die Änderung zu einer aktiv angewendeten Regel führen soll, sollte der Status lauten`Active`.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
@@ -114,4 +114,4 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
    Um geplante Änderungen für verschiedene Store-Ansichten anzuzeigen, klicken Sie in der Kopfzeile der Seite „Vorschau“ auf **[!UICONTROL Scope]**. Wählen Sie die Website-, Store- oder Store-Ansicht aus, die Sie in der Vorschau anzeigen möchten.
 
-1. Kehren Sie bei Bedarf zum Kalender zurück und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View/Edit]**, um eine weitere geplante Aktualisierung zu öffnen.
+1. Kehren Sie bei Bedarf zum Kalender zurück und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL View/Edit]**, um eine weitere geplante Aktualisierung zu öffnen.

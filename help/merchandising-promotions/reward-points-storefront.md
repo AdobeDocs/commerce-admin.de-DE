@@ -26,7 +26,7 @@ Wenn [Reward Exchange Rate](reward-exchange-rates.md) mit `Points to Currency` R
 
 1. Gibt alle erforderlichen Versandinformationen ein und navigiert zum Schritt _Überprüfen und Zahlungen_ .
 
-1. Im _[!UICONTROL Reward points]_Abschnitt prüft die Anzahl der verfügbaren Punkte und deren Währungswert.
+1. Im _[!UICONTROL Reward points]_&#x200B;Abschnitt prüft die Anzahl der verfügbaren Punkte und deren Währungswert.
 
 1. Klicks **[!UICONTROL Use reward points]**.
 

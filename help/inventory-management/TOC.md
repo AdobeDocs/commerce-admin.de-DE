@@ -17,7 +17,7 @@ ht-degree: 5%
 - [Handbuch zu Inventory management](guide-overview.md)
 - [Einführung in [!DNL Inventory Management]](introduction.md)
 - [Versionshinweise](release-notes.md)
-- {#basics} zu Inventarbasis
+- zu Inventarbasis{#basics}
    - [Quellen und Lagerbestände](sources-stocks.md)
    - [Source-Auswahl und -Reservierungen](selection-reservations.md)
    - [Bestell- und Reservierungsstatus](order-status.md)
@@ -35,7 +35,7 @@ ht-degree: 5%
    - [Konfigurieren von Nachbestellungen](backorders.md)
    - [Konfigurieren der Quellpriorität](source-priority-algorithm.md)
    - [Konfigurieren der Entfernungspriorität](distance-priority-algorithm.md)
-   - {#product-alerts} zu Produktwarnhinweisen
+   - zu Produktwarnhinweisen{#product-alerts}
       - [Einrichten von Warnhinweisen für Produkte](alert-setup.md)
       - [Szenarien für Stock-Nachrichten](stock-messages.md)
 - Verwalten von {#sources}
@@ -54,7 +54,7 @@ ht-degree: 5%
    - [Massenzuweisung und -aufhebung](bulk-assignment.md)
    - [Inventar an Quelle übertragen](inventory-transfer.md)
    - [Inventar importieren und exportieren](inventory-import-export.md)
-- {#orders} für Bestellungen und Sendungen verwalten
+- für Bestellungen und Sendungen verwalten{#orders}
    - [Übersicht](shipments.md)
    - [Sendungen erstellen](shipments-create.md)
 - [CLI-Referenz](cli.md)

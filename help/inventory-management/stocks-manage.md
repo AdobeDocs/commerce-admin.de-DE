@@ -43,7 +43,7 @@ Bei einer Multi-Store-Installation wird der Standardbestand zunächst der [Haupt
 
 | Schaltfläche | Beschreibung |
 |--|--|
-| [!UICONTROL Add New Stock] | Öffnet das _[!UICONTROL New Stock]_Formular, mit dem ein neuer Lagerbestand für die Zuordnung von Lagerbestand und Vertriebskanal eingegeben wird. |
+| [!UICONTROL Add New Stock] | Öffnet das _[!UICONTROL New Stock]_&#x200B;Formular, mit dem ein neuer Lagerbestand für die Zuordnung von Lagerbestand und Vertriebskanal eingegeben wird. |
 
 ## Verwalten von Stock-Spaltenbeschreibungen
 

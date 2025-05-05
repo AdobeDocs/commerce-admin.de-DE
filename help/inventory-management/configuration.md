@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Das [!DNL Inventory Management]-Modul unterstützt Lagerkonfigurationseinstellungen auf Produkt- und globaler Ebene und bietet zusätzliche Einstellungen, die sich auf die Quellverfügbarkeit, Storefront-Produkte und den Bestellversand auswirken. Die Konfigurationseinstellungen gelten für:
 
-- Den gesamten Katalog finden Sie unter **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Erweitern Sie dann **[!UICONTROL Catalog]**im linken Bereich und wählen Sie **[!UICONTROL Inventory]**aus.
+- Den gesamten Katalog finden Sie unter **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Erweitern Sie dann **[!UICONTROL Catalog]**&#x200B;im linken Bereich und wählen Sie **[!UICONTROL Inventory]**&#x200B;aus.
 
-- Spezifische Produkte: Gehen Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**. Öffnen Sie das Produkt dann im Bearbeitungsmodus und klicken Sie im Abschnitt _[!UICONTROL Sources]_auf **[!UICONTROL Advanced Inventory]**.
+- Spezifische Produkte: Gehen Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**. Öffnen Sie das Produkt dann im Bearbeitungsmodus und klicken Sie im Abschnitt _[!UICONTROL Sources]_&#x200B;auf **[!UICONTROL Advanced Inventory]**.
 
 Ihr Katalog kann so konfiguriert werden, dass Inventardaten in Ihrer Storefront angezeigt werden, aktive Warenkörbe verwaltet werden und vieles mehr. Zeigt die Verfügbarkeit jedes Artikels als _Auf Lager_ oder _Nicht vorrätig_ und den verfügbaren Lagerbestand an, wenn der Lagerbestand niedrig ist.
 
@@ -46,11 +46,11 @@ Eine weitere Möglichkeit, den Schwellenwert für die Lagerverfügbarkeit zu ver
 
 ## Konfigurationsfallback und Vererbung
 
-Konfigurationen überschreiben oder wenden im folgenden Pfad der Vererbung an: Der Abschnitt &quot;_[!UICONTROL Sources]_&quot; überschreibt den_[!UICONTROL Advanced Options]_ „Globaler _[!UICONTROL Inventory]_&quot;.
+Konfigurationen überschreiben oder wenden im folgenden Pfad der Vererbung an: Der Abschnitt &quot;_[!UICONTROL Sources]_&quot; überschreibt den&#x200B;_[!UICONTROL Advanced Options]_ „Globaler _[!UICONTROL Inventory]_&quot;.
 
 Wenn [!DNL Commerce] prüft, ob benutzerdefinierte Einstellungen angewendet werden können, folgt sie dieser Reihenfolge:
 
-1. Sucht im Abschnitt _[!UICONTROL Sources]_nach benutzerdefinierten Einstellungen auf Produktebene. Einige Einstellungen sind verfügbar.
+1. Sucht im Abschnitt _[!UICONTROL Sources]_&#x200B;nach benutzerdefinierten Einstellungen auf Produktebene. Einige Einstellungen sind verfügbar.
 
 1. Überprüft die _[!UICONTROL Advanced Inventory]_.
 

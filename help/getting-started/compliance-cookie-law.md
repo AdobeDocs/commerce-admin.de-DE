@@ -206,7 +206,7 @@ Wird durch das Page Builder-Modul festgelegt. Enthält ein Flag, das verhindert,
 
 Wird durch das Page Builder-Modul festgelegt. Enthält ein Flag, das verhindert, dass nachfolgende Aufforderungen an einen Administrator, eine bestimmte Aktion zu bestätigen, geöffnet werden, wenn der Administrator sie zuvor ausdrücklich abgelehnt hat. Wird nur in einem administrativen Bereich eines Geschäfts verwendet. Gilt nicht für Käufer.
 
-#### `accordion-{VARIABLE}-{VARIABLE}`
+#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
 
 Wird als Teil der Implementierung der Registerkarten-Funktionen nur in einem administrativen Bereich eines Stores verwendet. Gilt nicht für Käufer.
 

@@ -64,7 +64,7 @@ In dieser exemplarischen Übung erstellen Sie einen einfachen Block mit Inhalten
 
 1. Klicken Sie oben rechts im Stadium auf das Symbol _Vollbild schließen_ (![Vollbildsymbol schließen](./assets/pb-icon-reduce.png)).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_für den Block mit der angezeigten Vorschau zurück.
+   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_&#x200B;für den Block mit der angezeigten Vorschau zurück.
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
@@ -82,7 +82,7 @@ Wenn [!DNL Google Maps] bereits für Ihren Store konfiguriert ist, können Sie d
 
 1. Kehren Sie zum [!DNL Commerce] Admin zurück und gehen Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Content Management]**&#x200B;aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
@@ -102,11 +102,11 @@ Wenn [!DNL Google Maps] bereits für Ihren Store konfiguriert ist, können Sie d
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Suchen Sie im Raster die _[!UICONTROL Simple Page]_, die Sie im ersten Tutorial erstellt haben, und wählen Sie **[!UICONTROL Edit]**in der Spalte_[!UICONTROL Action]_ aus.
+1. Suchen Sie im Raster die _[!UICONTROL Simple Page]_, die Sie im ersten Tutorial erstellt haben, und wählen Sie **[!UICONTROL Edit]**&#x200B;in der Spalte&#x200B;_[!UICONTROL Action]_ aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Content]** und klicken Sie auf **[!UICONTROL Edit with Page Builder]** oder in den Bereich für die Inhaltsvorschau.
 
-1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_einen **[!UICONTROL Row]**Platzhalter an den Anfang des Stadiums.
+1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_&#x200B;einen **[!UICONTROL Row]**&#x200B;Platzhalter an den Anfang des Stadiums.
 
    ![Hinzufügen der Zeile am Anfang des Schritts](./assets/pb-tutorial2-elements-row-drag-top.png){width="600" zoomable="yes"}
 
@@ -130,7 +130,7 @@ Wenn [!DNL Google Maps] bereits für Ihren Store konfiguriert ist, können Sie d
 
 1. Klicken Sie oben rechts im Stadium auf das Symbol _Vollbild schließen_ (![Vollbildsymbol schließen](./assets/pb-icon-reduce.png)).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_Abschnitt für die Seite mit der angezeigten Vorschau zurück.
+   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_&#x200B;Abschnitt für die Seite mit der angezeigten Vorschau zurück.
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
@@ -178,11 +178,11 @@ Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_, der eine leere Inh
 
 1. Bewegen Sie den Mauszeiger über den Zeilen-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ (](./assets/pb-icon-settings.png){width="20"}) aus.
 
-1. Wählen Sie unter _[!UICONTROL Appearance]_die Option **[!UICONTROL Full Bleed]**aus.
+1. Wählen Sie unter _[!UICONTROL Appearance]_&#x200B;die Option **[!UICONTROL Full Bleed]**&#x200B;aus.
 
 1. Geben Sie **[!UICONTROL Minimum Height]** `400px` ein.
 
-1. Scrollen Sie zum Abschnitt _[!UICONTROL Background]_und legen Sie die **[!UICONTROL Background Image]**fest, indem Sie auf **[!UICONTROL Select from Gallery]**klicken und das im ersten Tutorial hochgeladene `wide-banner-background.png` auswählen.
+1. Scrollen Sie zum Abschnitt _[!UICONTROL Background]_&#x200B;und legen Sie die **[!UICONTROL Background Image]**&#x200B;fest, indem Sie auf **[!UICONTROL Select from Gallery]**&#x200B;klicken und das im ersten Tutorial hochgeladene `wide-banner-background.png` auswählen.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
@@ -190,7 +190,7 @@ Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_, der eine leere Inh
 
 **Aufgabe 2:** Spalten hinzufügen
 
-Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_einen **[!UICONTROL Column]**Platzhalter auf die Zeile.
+Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_&#x200B;einen **[!UICONTROL Column]**&#x200B;Platzhalter auf die Zeile.
 
 ![Ziehen des Spaltentyps in die Zeile](./assets/pb-tutorial2-column-drag.png){width="600" zoomable="yes"}
 
@@ -264,7 +264,7 @@ In der ersten Übung haben Sie gelernt, wie Sie mit dem Inhaltstyp [Schaltfläch
 
 1. Klicken Sie oben rechts im Stadium auf das Symbol _Vollbild schließen_ (![Vollbildsymbol schließen](./assets/pb-icon-reduce.png)).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum Abschnitt _[!UICONTROL Content]_für den dynamischen Block mit der angezeigten Vorschau zurück.
+   Wenn Sie auf dieses Symbol klicken, kehren Sie zum Abschnitt _[!UICONTROL Content]_&#x200B;für den dynamischen Block mit der angezeigten Vorschau zurück.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Save]**.
 
@@ -298,7 +298,7 @@ In der ersten Übung haben Sie gelernt, wie Sie mit dem Inhaltstyp [Schaltfläch
 
    Um das Entfernen der Zeile auf der Seite zu bestätigen, klicken Sie auf **[!UICONTROL OK]** .
 
-1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_einen neuen **[!UICONTROL Row]**Platzhalter an den Anfang des Stadiums.
+1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_&#x200B;einen neuen **[!UICONTROL Row]**&#x200B;Platzhalter an den Anfang des Stadiums.
 
 1. Erweitern Sie im [!DNL Page Builder] Bedienfeld **[!UICONTROL Add Content]** und ziehen Sie einen **[!UICONTROL Dynamic Block]** Platzhalter in die neue Zeile.
 
@@ -308,11 +308,11 @@ In der ersten Übung haben Sie gelernt, wie Sie mit dem Inhaltstyp [Schaltfläch
 
    ![Toolbox für dynamische Blöcke](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
-1. Klicken Sie auf der _[!UICONTROL Edit Dynamic Block]_Seite auf **[!UICONTROL Select Dynamic Block]**.
+1. Klicken Sie auf der _[!UICONTROL Edit Dynamic Block]_&#x200B;Seite auf **[!UICONTROL Select Dynamic Block]**.
 
    ![Dynamischen Block auswählen](./assets/pb-dynamic-block-select.png){width="600" zoomable="yes"}
 
-1. Suchen Sie den erstellten dynamischen _[!DNL Tee Shirt Promo]_und klicken Sie auf **[!UICONTROL Select]**.
+1. Suchen Sie den erstellten dynamischen _[!DNL Tee Shirt Promo]_&#x200B;und klicken Sie auf **[!UICONTROL Select]**.
 
    Eine Zusammenfassung der Informationen zu dynamischen Blöcken wird unten angezeigt.
 
@@ -326,7 +326,7 @@ In der ersten Übung haben Sie gelernt, wie Sie mit dem Inhaltstyp [Schaltfläch
 
 1. Klicken Sie oben rechts im Stadium auf das Symbol _Vollbild schließen_ (![Vollbildsymbol schließen](./assets/pb-icon-reduce.png)).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_Abschnitt für die Seite mit der angezeigten Vorschau zurück.
+   Wenn Sie auf dieses Symbol klicken, kehren Sie zum _[!UICONTROL Content]_&#x200B;Abschnitt für die Seite mit der angezeigten Vorschau zurück.
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
@@ -342,7 +342,7 @@ In diesem letzten Teil der Übung bearbeiten Sie einen dynamischen Block, währe
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Dynamic Blocks]**.
 
-1. Suchen Sie den _[!DNL Tee Shirt Promo]_dynamischen Block im Raster und öffnen Sie ihn im Bearbeitungsmodus.
+1. Suchen Sie den _[!DNL Tee Shirt Promo]_&#x200B;dynamischen Block im Raster und öffnen Sie ihn im Bearbeitungsmodus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Content]** und klicken Sie auf **[!UICONTROL Edit with Page Builder]**.
 
@@ -368,7 +368,7 @@ In diesem letzten Teil der Übung bearbeiten Sie einen dynamischen Block, währe
 
 1. Klicken Sie oben rechts im Stadium auf das Symbol _Vollbild schließen_ (![Vollbildsymbol schließen](./assets/pb-icon-reduce.png)).
 
-   Wenn Sie auf dieses Symbol klicken, kehren Sie zum Abschnitt _[!UICONTROL Content]_für den dynamischen Block mit der angezeigten Vorschau zurück.
+   Wenn Sie auf dieses Symbol klicken, kehren Sie zum Abschnitt _[!UICONTROL Content]_&#x200B;für den dynamischen Block mit der angezeigten Vorschau zurück.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Save]**.
 

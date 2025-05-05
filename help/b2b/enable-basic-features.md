@@ -45,7 +45,7 @@ Die Optionen zum Konfigurieren von Adobe Commerce B2B-Funktionen sind nur für C
 
    Wenn Sie eine Multi-Site-Installation haben, legen Sie das **[!UICONTROL Store View]**-Steuerelement in der oberen linken Ecke auf die Website fest, für die die Konfiguration gilt.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL B2B Features]**:
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL B2B Features]**:
 
    ![B2B-Konfiguration - allgemein](./assets/b2b-features.png){width="600"}
 
@@ -255,7 +255,7 @@ So aktivieren Sie die Zahlung auf Konto für Ihren Store:
 1. Legen Sie **[!UICONTROL Payment from Applicable Countries]** auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` - Nachdem Sie diese Option ausgewählt haben, wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Optionen.
+   - `Specific Countries` - Nachdem Sie diese Option ausgewählt haben, wird die _[!UICONTROL Payment from Specific Countries]_&#x200B;angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Optionen.
 
 1. Legen Sie **[!UICONTROL Minimum Order Total]** und **[!UICONTROL Maximum Order Total]** auf die Bestellbeträge fest, die für diese Zahlungsmethode erforderlich sind.
 

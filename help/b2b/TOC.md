@@ -20,7 +20,7 @@ ht-degree: 6%
 + [Versionshinweise](release-notes.md)
 + [Installation](install.md)
 + [B2B-Funktionen aktivieren](enable-basic-features.md)
-+ {#companies} der Unternehmenskonten
++ der Unternehmenskonten{#companies}
    + [Übersicht](account-companies.md)
    + [Konfigurieren von E-Mail-Optionen für Unternehmen](email-company-configuration.md)
    + [Erstellen eines Unternehmenskontos](account-company-create.md)
@@ -46,7 +46,7 @@ ht-degree: 6%
       + [Zuweisen von Firmen zu einem Katalog](catalog-shared-assign-companies.md)
    + [Verwalten freigegebener Kataloge](catalog-shared-manage.md)
 + [Schnellbestellungen](quick-order.md)
-+ {#purchase-orders} Bestellungen
++ Bestellungen{#purchase-orders}
    + [Bestellungen für Unternehmen](purchase-order-flow.md)
    + [Validierungsregeln](account-dashboard-approval-rules.md)
    + [[!UICONTROL My Purchase Orders]](account-dashboard-my-purchase-orders.md)

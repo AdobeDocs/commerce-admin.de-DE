@@ -116,7 +116,7 @@ Als Händler können Sie über den Administrator ein Kundenkonto erstellen.
 
    >[!INFO]
    >
-   >Nachdem das Kundenkonto gespeichert wurde, wird der vollständige Satz von Optionen im linken Bereich und im Menü oben auf der Seite angezeigt. Auf der Registerkarte _[!UICONTROL Customer View]_wird eine Zusammenfassung des Kontos angezeigt.
+   >Nachdem das Kundenkonto gespeichert wurde, wird der vollständige Satz von Optionen im linken Bereich und im Menü oben auf der Seite angezeigt. Auf der Registerkarte _[!UICONTROL Customer View]_&#x200B;wird eine Zusammenfassung des Kontos angezeigt.
 
    ![Kundenansicht](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -147,7 +147,7 @@ Als Händler können Sie über den Administrator ein Kundenkonto erstellen.
 
    Klicken Sie andernfalls auf **[!UICONTROL Save and Continue Edit]** und wiederholen Sie die vorherigen Schritte, um weitere Adressen hinzuzufügen.
 
-   Die neue Adresse wird auf der Seite [!UICONTROL Addresses] mit den ausgewählten _[!UICONTROL Default Billing]_und_[!UICONTROL Default Shipping]_ Adressen über der vollständigen Liste angezeigt.
+   Die neue Adresse wird auf der Seite [!UICONTROL Addresses] mit den ausgewählten _[!UICONTROL Default Billing]_&#x200B;und&#x200B;_[!UICONTROL Default Shipping]_ Adressen über der vollständigen Liste angezeigt.
 
    ![Adressansicht](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -157,7 +157,7 @@ Kundenkonten, die über den Administrator erstellt wurden, wurden zunächst kein
 
 1. Suchen Sie das neue Kundenkonto im Raster.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Klicken Sie oben auf der Seite in der Menüleiste auf **[!UICONTROL Reset Password]**.
 
@@ -169,7 +169,7 @@ Zusätzliche Schaltflächen werden verfügbar, wenn das Profil zum ersten Mal ge
 
 | Schaltfläche | Beschreibung |
 |--- |--- |
-| **[!UICONTROL Back]** | Kehrt zur _[!UICONTROL Customers]_zurück, ohne die Änderungen zu speichern. |
+| **[!UICONTROL Back]** | Kehrt zur _[!UICONTROL Customers]_&#x200B;zurück, ohne die Änderungen zu speichern. |
 | **[!UICONTROL Delete Customer]** | Löscht den aktuellen Kunden. Abgeschlossene Bestellungen, die mit dem Kunden verknüpft sind, werden nicht entfernt. |
 | **[!UICONTROL Reset]** | Setzt alle nicht gespeicherten Änderungen im Kundenformular auf ihre vorherigen Werte zurück. |
 | **[!UICONTROL Create Order]** | Erstellt eine Bestellung für den Kunden. |

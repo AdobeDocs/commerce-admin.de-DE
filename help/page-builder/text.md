@@ -114,7 +114,7 @@ Informationen zum Erstellen eines Links für eine Telefonnummer oder E-Mail find
 
 1. Aktualisieren Sie den Inhalt nach Bedarf.
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
 
    - Um die Positionierung des Textes innerhalb des übergeordneten Containers zu steuern, wählen Sie ein **[!UICONTROL Alignment]** aus:
 

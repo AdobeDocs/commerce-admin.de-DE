@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Nachdem Sie [Quellen](sources-assign-per-product.md) hinzugefügt haben, aktualisieren Sie die Lagermengen für Ihr Produkt. Diese Werte verfolgen die verfügbaren Lagerbestände im Bestand.
 
-Um das Inventar einer Bezugsquelle für Lieferungen auszublenden, ohne die Bezugsquelle zu entfernen, setzen Sie _[!UICONTROL Source Item Status]_auf `Out of Stock`. Die SSA- und Lieferoptionen greifen nur auf Quellen zu, die als `In Stock` mit verfügbarer Lagermenge aufgeführt sind.
+Um das Inventar einer Bezugsquelle für Lieferungen auszublenden, ohne die Bezugsquelle zu entfernen, setzen Sie _[!UICONTROL Source Item Status]_&#x200B;auf `Out of Stock`. Die SSA- und Lieferoptionen greifen nur auf Quellen zu, die als `In Stock` mit verfügbarer Lagermenge aufgeführt sind.
 
 Alle aktualisierten Mengen und Quellen werden im Produktraster angezeigt.
 
@@ -33,7 +33,7 @@ Alle aktualisierten Mengen und Quellen werden im Produktraster angezeigt.
 1. Führen Sie einen der folgenden Schritte aus, um eine Benachrichtigung für Lagermengen einzurichten:
 
    - Benutzerdefinierte Menge benachrichtigen - Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use Default]** und geben Sie einen Betrag in **[!UICONTROL Notify Qty]** ein.
-   - Standardmenge benachrichtigen - Aktivieren Sie das Kontrollkästchen &quot;**[!UICONTROL Use Default]**&quot;. [!DNL Commerce] prüft und verwendet die -Einstellung in _[!UICONTROL Advanced Inventory]_oder der Konfiguration des globalen Speichers.
+   - Standardmenge benachrichtigen - Aktivieren Sie das Kontrollkästchen &quot;**[!UICONTROL Use Default]**&quot;. [!DNL Commerce] prüft und verwendet die -Einstellung in _[!UICONTROL Advanced Inventory]_&#x200B;oder der Konfiguration des globalen Speichers.
 
    ![Aktualisieren der Produktmengen pro Source](assets/inventory-product-quantity-edit.png){width="350" zoomable="yes"}
 

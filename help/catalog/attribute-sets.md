@@ -42,7 +42,7 @@ Die Attribute sind in Gruppen unterteilt, die bestimmen, wo sie im Produktdatens
 
    >[!NOTE]
    >
-   >Systemattribute sind mit einem Punkt gekennzeichnet und können nicht aus der _[!UICONTROL Groups]_entfernt werden. Sie können jedoch in eine andere Gruppe im Attributsatz gezogen werden.
+   >Systemattribute sind mit einem Punkt gekennzeichnet und können nicht aus der _[!UICONTROL Groups]_&#x200B;entfernt werden. Sie können jedoch in eine andere Gruppe im Attributsatz gezogen werden.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
@@ -50,7 +50,7 @@ Die Attribute sind in Gruppen unterteilt, die bestimmen, wo sie im Produktdatens
 
 ## Erstellen einer Attributgruppe
 
-1. Klicken Sie in der Spalte _[!UICONTROL Groups]_des Attributsatzes auf **[!UICONTROL Add New]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Groups]_&#x200B;des Attributsatzes auf **[!UICONTROL Add New]**.
 
 1. Geben Sie einen **[!UICONTROL Name]** für die neue Gruppe ein und klicken Sie auf **[!UICONTROL OK]**.
 

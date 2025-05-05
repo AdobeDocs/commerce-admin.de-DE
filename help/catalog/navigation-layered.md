@@ -62,7 +62,7 @@ Die folgenden Anweisungen zeigen, wie Sie eine einfache mehrschichtige Navigatio
 
 >[!NOTE]
 >
->Wenn die _[!UICONTROL Use in Search]_auf `No` festgelegt ist, wird die_[!UICONTROL Use in Search Results Layered Navigation]_ nicht angezeigt und das Produktattribut wird bei der Suche mit keinem [!UICONTROL Use in Layered Navigation] Einstellwert verwendet.
+>Wenn die _[!UICONTROL Use in Search]_&#x200B;auf `No` festgelegt ist, wird die&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ nicht angezeigt und das Produktattribut wird bei der Suche mit keinem [!UICONTROL Use in Layered Navigation] Einstellwert verwendet.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Sie können die folgenden Schritte verwenden, um filterbare Attributwerte mit 0 
 
 1. Durchsuchen Sie die Liste oder verwenden Sie die gefilterte Suche, um ein Attribut in ihr zu finden und im Bearbeitungsmodus zu öffnen.
 
-1. Klicken Sie unter _[!UICONTROL Attribute Information]_auf **[!UICONTROL Storefront Properties]**.
+1. Klicken Sie unter _[!UICONTROL Attribute Information]_&#x200B;auf **[!UICONTROL Storefront Properties]**.
 
 1. Wählen Sie **[!UICONTROL Layered Navigation]** &quot;`Filterable (with results)`&quot;.
 
@@ -145,7 +145,7 @@ Die iterative Aufteilung bietet die beste Verteilung der Produkte auf die Preisk
 
 >[!IMPORTANT]
 >
->Um die Produkte und ihre Preise in Übereinstimmung mit _Preisfiltern_ in der mehrschichtigen Navigation korrekt anzuzeigen, stellen Sie sicher, dass die Einstellungen für die Preisanzeige in der [Mehrwertsteuerkonfiguration](../configuration-reference/sales/tax.md) den gleichen Wert aufweisen (`Excluding Tax`**oder** `Including Tax`). Überprüfen Sie für die _[!UICONTROL Calculation Settings]_den **[!UICONTROL Catalog Prices]**. Überprüfen Sie_[!UICONTROL Price Display Settings]_ den **[!UICONTROL Display Product Prices in Catalog]**. Wenn diese unterschiedliche Werte haben, können Preisfilter in der mehrschichtigen Navigation Produkte möglicherweise nicht ordnungsgemäß nach Preis filtern und sortieren.
+>Um die Produkte und ihre Preise in Übereinstimmung mit _Preisfiltern_ in der mehrschichtigen Navigation korrekt anzuzeigen, stellen Sie sicher, dass die Einstellungen für die Preisanzeige in der [Mehrwertsteuerkonfiguration](../configuration-reference/sales/tax.md) den gleichen Wert aufweisen (`Excluding Tax`**oder** `Including Tax`). Überprüfen Sie für die _[!UICONTROL Calculation Settings]_&#x200B;den **[!UICONTROL Catalog Prices]**. Überprüfen Sie&#x200B;_[!UICONTROL Price Display Settings]_ den **[!UICONTROL Display Product Prices in Catalog]**. Wenn diese unterschiedliche Werte haben, können Preisfilter in der mehrschichtigen Navigation Produkte möglicherweise nicht ordnungsgemäß nach Preis filtern und sortieren.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -207,7 +207,7 @@ Die Konfiguration der mehrschichtigen Navigation bestimmt, ob eine Produktanzahl
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich den Abschnitt _[!UICONTROL Catalog]_und wählen Sie darunter **[!UICONTROL Catalog]**.
+1. Erweitern Sie im linken Bereich den Abschnitt _[!UICONTROL Catalog]_&#x200B;und wählen Sie darunter **[!UICONTROL Catalog]**.
 
 1. Erweitern Sie den Abschnitt _[!UICONTROL Layered Navigation]_.
 

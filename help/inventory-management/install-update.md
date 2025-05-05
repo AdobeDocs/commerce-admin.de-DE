@@ -83,7 +83,7 @@ Der [!DNL Inventory Management]-Installationsprozess fügt alle Module zur `<Mag
 
 ## [!DNL Inventory Management] aktivieren
 
-Nach der Installation, dem Upgrade oder der Aktualisierung ist die Option _[!UICONTROL Manage Stock]_in Admin standardmäßig aktiviert. Diese Option ermöglicht die Inventarverfolgung und -verwaltung, hat jedoch keine Auswirkungen auf den Modulstatus. Informationen zum Deaktivieren von Modulen finden Sie im nächsten Abschnitt.
+Nach der Installation, dem Upgrade oder der Aktualisierung ist die Option _[!UICONTROL Manage Stock]_&#x200B;in Admin standardmäßig aktiviert. Diese Option ermöglicht die Inventarverfolgung und -verwaltung, hat jedoch keine Auswirkungen auf den Modulstatus. Informationen zum Deaktivieren von Modulen finden Sie im nächsten Abschnitt.
 
 Weitere Informationen zu Konfigurationen finden Sie unter [Konfigurieren von Inventory management](configuration.md).
 

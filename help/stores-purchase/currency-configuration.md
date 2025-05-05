@@ -144,13 +144,13 @@ Die Verwaltung von Währungssymbolen bietet Ihnen die Möglichkeit, das Symbol a
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**.
 
-   Jede Währung, die für Ihren Store aktiviert ist, wird in der _[!UICONTROL Currency]_angezeigt.
+   Jede Währung, die für Ihren Store aktiviert ist, wird in der _[!UICONTROL Currency]_&#x200B;angezeigt.
 
 1. Ändern Sie die Einstellungen in der Liste nach Bedarf:
 
    - Geben Sie für jede Währung, die Sie verwenden möchten, ein benutzerdefiniertes Symbol ein, oder aktivieren Sie das Kontrollkästchen &quot;**[!UICONTROL Use Standard]**&quot; für jede Währung.
 
-   - Um das Standardsymbol zu überschreiben, deaktivieren Sie das Kontrollkästchen _[!UICONTROL Use Standard]_und geben Sie das gewünschte Symbol ein.
+   - Um das Standardsymbol zu überschreiben, deaktivieren Sie das Kontrollkästchen _[!UICONTROL Use Standard]_&#x200B;und geben Sie das gewünschte Symbol ein.
 
    >[!NOTE]
    >

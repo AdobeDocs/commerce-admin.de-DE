@@ -64,7 +64,7 @@ Die Konfiguration _Standardseiten_ bestimmt die Landingpage, die mit der [Basis-
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Web]**aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Web]**&#x200B;aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Default Pages]** .
 
@@ -87,7 +87,7 @@ Die Konfiguration _Standardseiten_ bestimmt die Landingpage, die mit der [Basis-
 
    >[!NOTE]
    >
-   >Deaktivieren Sie für eine bestimmte Store-Ansicht das Kontrollkästchen **[!UICONTROL Use Default]** neben _[!UICONTROL Default Web URL]_und ändern Sie alle anderen Standardeinstellungen.
+   >Deaktivieren Sie für eine bestimmte Store-Ansicht das Kontrollkästchen **[!UICONTROL Use Default]** neben _[!UICONTROL Default Web URL]_&#x200B;und ändern Sie alle anderen Standardeinstellungen.
 
 1. Legen Sie **[!UICONTROL CMS Home Page]** auf die CMS-Seite fest, die als Startseite verwendet werden soll. Andere erstellte Seiten können als Homepage verwendet werden, z. B.:
 

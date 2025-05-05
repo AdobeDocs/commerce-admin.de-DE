@@ -41,7 +41,7 @@ Das System verfügt über eine vordefinierte Standardbenutzerrolle, die Sie unve
 
 1. Gibt einen beschreibenden **[!UICONTROL Role Name]** ein.
 
-1. Führen Sie unter _[!UICONTROL Role Permissions]_einen der folgenden Schritte aus:
+1. Führen Sie unter _[!UICONTROL Role Permissions]_&#x200B;einen der folgenden Schritte aus:
 
    - Aktiviert das Kontrollkästchen jeder Ressource oder Aktivität, der Benutzer bzw. Benutzerinnen, denen die Rolle zugewiesen wurde, Zugriffsberechtigungen zuweisen.
 
@@ -73,7 +73,7 @@ Das System verfügt über eine vordefinierte Standardbenutzerrolle, die Sie unve
 
    Nur Rollen ohne zugewiesene Benutzer können gelöscht werden.
 
-1. Klicks **[!UICONTROL Delete]** in die _[!UICONTROL Actions]_Spalte.
+1. Klicks **[!UICONTROL Delete]** in die _[!UICONTROL Actions]_&#x200B;Spalte.
 
 1. Wenn Sie zur Bestätigung aufgefordert werden, klicken Sie auf **[!UICONTROL OK]**.
 

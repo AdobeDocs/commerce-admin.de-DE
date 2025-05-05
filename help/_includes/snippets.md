@@ -60,13 +60,13 @@ ht-degree: 0%
 
 ## Configuration settings {#config}
 
-To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**from the_ Admin _sidebar.
+To access the store configuration settings, choose **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;from the_ Admin _sidebar.
 
 ## UPS API deprecation {#ups-api}
 
 >[!IMPORTANT]
 >
->Ab Juni 2024 können Adobe Systems Commerce-Händler keine Transaktionen mehr mit der aktuellen UPS-Integration durchführen. Dies liegt daran, dass die United Parcel Dienst (UPS)-APIs, die von der nativ Adobe Systems Commerce-Integration verwendet werden, das erforderliche OAuth 2.0-Sicherheitsmodell derzeit nicht unterstützen. Um die Integration zu aktivieren, erstellen Sie eine Applikation auf der UPS Entwicklerplattform](https://developer.ups.com/get-started), [um die für OAuth 2.0 erforderlichen Anmeldeinformationen abzurufen. Verwenden Sie die neuen Anmeldeinformationen als `username` und `password` in der Commerce UPS Versandkonfiguration. Weitere Informationen zur Änderung des Sicherheitsmodells finden Sie unter [Guide_](https://developer.ups.com/oauth-developer-guide) zur Migration von Zugriffsschlüsseln im Entwicklerportal. <br/>
+>Ab Juni 2024 können Adobe Systems Commerce-Händler keine Transaktionen mehr mit der aktuellen UPS-Integration durchführen. Dies liegt daran, dass die United Parcel Dienst (UPS)-APIs, die von der nativ Adobe Systems Commerce-Integration verwendet werden, das erforderliche OAuth 2.0-Sicherheitsmodell derzeit nicht unterstützen. Um die Integration zu aktivieren, erstellen Sie eine Applikation auf der UPS Entwicklerplattform[&#128279;](https://developer.ups.com/get-started), um die für OAuth 2.0 erforderlichen Anmeldeinformationen abzurufen. Verwenden Sie die neuen Anmeldeinformationen als `username` und `password` in der Commerce UPS Versandkonfiguration. Weitere Informationen zur Änderung des Sicherheitsmodells finden Sie unter [Guide_](https://developer.ups.com/oauth-developer-guide) zur Migration von Zugriffsschlüsseln im Entwicklerportal. <br/>
 >
 >Händler sollten [ein Qualitäts-Patch-Update](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html) auf ihre Geschäft anwenden, um von der SOAP-API zur RESTful-API zu migrieren, die OAuth 2.0-Authentifizierungsprotokolle unterstützt.
 

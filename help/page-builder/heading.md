@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Überschriftenebenen legen eine Hierarchie fest, die Inhalte organisiert und Suchmaschinen dabei hilft, jede Seite zu indizieren. Verwenden Sie den _Überschrift_-Inhaltstyp in [[!DNL Page Builder] Phase](workspace.md#stage), um der Phase einen Text-Container mit einer Überschriftenebene von H1 bis H6 hinzuzufügen. Überschriften werden entsprechend dem Stylesheet formatiert, das mit dem aktuellen Design verknüpft ist.
 
-Das [Inhaltsüberschrift](workspace.md) im _[!UICONTROL Content]_Abschnitt kann verwendet werden, um eine H1-Überschrift oben auf der Seite hinzuzufügen. Das Feld ist jedoch ein älteres Feld aus früheren [!DNL Commerce] Versionen und wird zur Unterstützung älterer Inhalte bereitgestellt. In diesem Feld werden die erweiterten Funktionen von [!DNL Page Builder] nicht genutzt. Es wird empfohlen, das Feld Inhaltsüberschrift leer zu lassen und den Inhaltstyp [!DNL Page Builder] Überschrift zu verwenden, um der Seite Überschriften einer beliebigen Ebene hinzuzufügen.
+Das [Inhaltsüberschrift](workspace.md) im _[!UICONTROL Content]_&#x200B;Abschnitt kann verwendet werden, um eine H1-Überschrift oben auf der Seite hinzuzufügen. Das Feld ist jedoch ein älteres Feld aus früheren [!DNL Commerce] Versionen und wird zur Unterstützung älterer Inhalte bereitgestellt. In diesem Feld werden die erweiterten Funktionen von [!DNL Page Builder] nicht genutzt. Es wird empfohlen, das Feld Inhaltsüberschrift leer zu lassen und den Inhaltstyp [!DNL Page Builder] Überschrift zu verwenden, um der Seite Überschriften einer beliebigen Ebene hinzuzufügen.
 
 Das folgende Beispiel zeigt, wie die Inhaltsüberschrift und der Inhaltstyp der Überschrift angezeigt werden, wenn sie durch das Luma-Design formatiert sind.
 
@@ -74,7 +74,7 @@ Wie bei allen Inhalts-Containern wird die Toolbox angezeigt, wenn Sie den Mausze
 
    Sie können diesen Inhalt auch im Überschrifteneditor aktualisieren.
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
 
    - Um die Positionierung der Überschrift innerhalb des übergeordneten Containers zu steuern, wählen Sie ein **[!UICONTROL Alignment]** aus:
 

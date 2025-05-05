@@ -37,7 +37,7 @@ Das Widget _Bestellungen und Rücksendungen_ bietet Gästen die Möglichkeit, de
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add Widget]**.
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Settings]_wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Settings]_&#x200B;wie folgt vor:
 
    - Legen Sie **[!UICONTROL Type]** auf `Orders and Returns` fest.
 
@@ -45,7 +45,7 @@ Das Widget _Bestellungen und Rücksendungen_ bietet Gästen die Möglichkeit, de
 
 1. Klicken Sie auf **[!UICONTROL Continue]**.
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_&#x200B;wie folgt vor:
 
    - Geben Sie **[!UICONTROL Widget Title]** einen beschreibenden Titel für das Widget ein.
 
@@ -57,7 +57,7 @@ Das Widget _Bestellungen und Rücksendungen_ bietet Gästen die Möglichkeit, de
 
    - (Optional) Geben Sie **[!UICONTROL Sort Order]** eine Zahl ein, um die Reihenfolge zu bestimmen, in der dieses Element zusammen mit anderen im selben Teil der Seite angezeigt wird. (`0` = First, `1` = Second, `3` = Third usw.)
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_auf **[!UICONTROL Add Layout Update]**und führen Sie folgende Schritte aus:
+1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_&#x200B;auf **[!UICONTROL Add Layout Update]**&#x200B;und führen Sie folgende Schritte aus:
 
    - Legen Sie **[!UICONTROL Display On]** auf den Seitentyp fest, auf dem das Widget angezeigt werden soll.
 

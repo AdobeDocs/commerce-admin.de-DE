@@ -126,7 +126,7 @@ Inventory management 1.2.4 (Modulversion: `magento/inventory-metapackage = 1.2.4
 
 ![Problem behoben](../assets/fix.svg) Die Verwaltung des Lagerbestands, der 10.000 Artikel überschreitet, wurde verbessert. Zuvor hinderten Leistungsprobleme Händler manchmal daran, den Bestand im Admin zu bearbeiten, bevor sie ihre Website aufriefen. <!--- MC-42643-->
 
-![Problem behoben](../assets/fix.svg) Die Seite **[!UICONTROL User Roles]** in der Admin wird aktualisiert und bietet Admins eingeschränkte Berechtigungen für den Zugriff auf die Konfiguration der Versandmethoden. Der Abschnitt _Versandmethoden_ wurde in _[!UICONTROL Delivery methods]_umbenannt und_[!UICONTROL In-Store Pickup]_ wird unter den Abschnitt _[!UICONTROL Delivery methods]_verschoben. [GitHub-30053](https://github.com/magento/magento2/issues/30053)-<!--- MC-41545-->
+![Problem behoben](../assets/fix.svg) Die Seite **[!UICONTROL User Roles]** in der Admin wird aktualisiert und bietet Admins eingeschränkte Berechtigungen für den Zugriff auf die Konfiguration der Versandmethoden. Der Abschnitt _Versandmethoden_ wurde in _[!UICONTROL Delivery methods]_&#x200B;umbenannt und&#x200B;_[!UICONTROL In-Store Pickup]_ wird unter den Abschnitt _[!UICONTROL Delivery methods]_&#x200B;verschoben. [GitHub-30053](https://github.com/magento/magento2/issues/30053)-<!--- MC-41545-->
 
 ![Problem behoben](../assets/fix.svg) Adobe Commerce erstellt keine doppelte Produktreservierung mehr, nachdem eine Gutschrift von der API aktualisiert wurde. <!--- MC-41757-->
 

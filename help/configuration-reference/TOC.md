@@ -65,7 +65,7 @@ ht-degree: 1%
    - [Google-API](./sales/google-api.md)
    - [3D gesichert](./sales/3d-secure.md)
    - [Geschenkkarten](./sales/gift-cards.md)
-   - {#payment-methods} Zahlungsmethoden
+   - Zahlungsmethoden{#payment-methods}
       - [Konfiguration der Zahlungsmethoden](./sales/payment-methods.md)
       - [Zahlungsdienste](./sales/payment-services.md)
       - [Braintree](./sales/braintree.md)

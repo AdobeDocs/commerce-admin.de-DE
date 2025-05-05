@@ -62,7 +62,7 @@ Für die folgenden Anweisungen ist der Zugriff auf ein Terminal erforderlich.
    bin/magento encryption:key:change
    ```
 
-+++
+   +++
 
    +++Admin-Einstellungen
 
@@ -85,7 +85,7 @@ Für die folgenden Anweisungen ist der Zugriff auf ein Terminal erforderlich.
       >
       >Verwahren Sie den neuen Schlüssel an einem sicheren Ort auf. Es ist erforderlich, die Daten zu entschlüsseln, wenn Probleme mit Ihren Dateien auftreten.
 
-+++
+   +++
 
 1. Leeren Sie den Cache.
 

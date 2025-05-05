@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produkteinstellungen - [!UICONTROL Gift Options]
 
-Im Abschnitt _[!UICONTROL Gift Options]_können Sie Optionen für Geschenknachrichten und Geschenkverpackungen beim Checkout auf Produktebene festlegen. Um die Standardkonfigurationseinstellung zu überschreiben, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use Config Settings]**.
+Im Abschnitt _[!UICONTROL Gift Options]_&#x200B;können Sie Optionen für Geschenknachrichten und Geschenkverpackungen beim Checkout auf Produktebene festlegen. Um die Standardkonfigurationseinstellung zu überschreiben, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use Config Settings]**.
 
 ![Geschenkoptionen](./assets/product-gift-options-ee.png){width="600" zoomable="yes"}
 
@@ -20,7 +20,7 @@ Im Abschnitt _[!UICONTROL Gift Options]_können Sie Optionen für Geschenknachri
 
 1. Öffnen Sie das Produkt im Bearbeitungsmodus.
 
-1. Scrollen Sie nach unten und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Gift Options]_und führen Sie die folgenden Schritte aus:
+1. Scrollen Sie nach unten und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Gift Options]_&#x200B;und führen Sie die folgenden Schritte aus:
 
    - Um die Standardeinstellung zu überschreiben, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use Config Settings]** .
 

@@ -43,7 +43,7 @@ Die folgenden Ressourcen bieten einen Ausgangspunkt für neue Benutzende, um sic
 
 ## [!DNL Marketplace]
 
-Bevor Sie eine von [!DNL Commerce Marketplace] erworbene Erweiterung installieren können, melden Sie sich bei Ihrem [!DNL Commerce] Konto an und stellen Sie sicher, dass Sie über einen aktiven Zugriffsschlüssel verfügen. Sie können sich über die Kopfzeile von [[!DNL Marketplace]][1] oder [Magento.com} bei Ihrem [!DNL Commerce]-Konto ][6].
+Bevor Sie eine von [!DNL Commerce Marketplace] erworbene Erweiterung installieren können, melden Sie sich bei Ihrem [!DNL Commerce] Konto an und stellen Sie sicher, dass Sie über einen aktiven Zugriffsschlüssel verfügen. Sie können sich über die Kopfzeile von [[!DNL Marketplace]][1] oder [Magento.com&rbrace; bei Ihrem [!DNL Commerce]-Konto ][6].
 
 Ihr Zugriffsschlüssel ist ein Satz öffentlicher und privater Schlüssel, mit denen Sie Ihre [!DNL Commerce] mit Ihrem [!DNL Commerce] synchronisieren und Ihre Anmeldeinformationen überprüfen können. Nachdem Ihr Konto synchronisiert wurde, müssen Sie bei jeder Installation einer Erweiterung oder eines Moduls aus Commerce Marketplace bzw. bei jedem Upgrade Ihrer [!DNL Commerce] Ihren privaten Schlüssel eingeben.
 
@@ -53,13 +53,13 @@ Sie können mehrere Zugriffsschlüssel für verschiedene Zwecke erstellen und si
 
 1. Melden Sie sich bei Ihrem [!DNL Commerce] Konto an.
 
-1. Wählen Sie auf der Seite _[!UICONTROL My Account]_die Registerkarte **[!UICONTROL Marketplace]**aus.
+1. Wählen Sie auf der Seite _[!UICONTROL My Account]_&#x200B;die Registerkarte **[!UICONTROL Marketplace]**&#x200B;aus.
 
 1. Klicken Sie oben rechts neben Ihrem Namen auf den Abwärtspfeil und wählen Sie **[!UICONTROL My Profile]** aus.
 
    ![Ihr [!DNL Marketplace] Profil](./assets/marketplace-profile.png){width="600"}
 
-1. Klicken Sie auf der Registerkarte _[!UICONTROL Marketplace]_unter_[!UICONTROL My Products]_ auf **[!UICONTROL Access Keys]**, und führen Sie dann einen der folgenden Schritte aus:
+1. Klicken Sie auf der Registerkarte _[!UICONTROL Marketplace]_&#x200B;unter&#x200B;_[!UICONTROL My Products]_ auf **[!UICONTROL Access Keys]**, und führen Sie dann einen der folgenden Schritte aus:
 
    - Überprüfen Sie, ob Sie bereits über einen Satz von Zugriffsschlüsseln für Ihre Marketplace-Käufe verfügen. Sie können mehrere Sets von Zugriffsschlüsseln für verschiedene Zwecke erstellen.
 

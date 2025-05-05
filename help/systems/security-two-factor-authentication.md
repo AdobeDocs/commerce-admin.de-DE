@@ -39,7 +39,7 @@ In dieser [Videodemo](https://video.tv.adobe.com/v/339104?quality=12&learn=on) e
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Security]** und wählen Sie **[!UICONTROL 2FA]**.
 
-1. Wählen Sie im Abschnitt _[!UICONTROL General]_die zu verwendenden Provider aus.
+1. Wählen Sie im Abschnitt _[!UICONTROL General]_&#x200B;die zu verwendenden Provider aus.
 
    | Lieferant | Funktion |
    |--- |--- |

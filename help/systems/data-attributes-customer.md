@@ -27,7 +27,7 @@ Jedes Attribut oder Feld wird in der CSV-Datei als Spalte dargestellt, und Kunde
 | `created_at` | Das Datum der Erstellung des Kundenkontos. |
 | `created_in` | Die Store-Ansicht, in der das Konto erstellt wurde. |
 | `disable_auto_group_change` | Legt fest, ob Kundengruppen bei der Validierung der MwSt.-ID dynamisch zugewiesen werden können. |
-| `dob` | Das Geburtsdatum des Kunden. <br><br>**_Wichtig:_**Überprüfen Sie entsprechend den aktuellen Best Practices für Sicherheit und Datenschutz die Speicherung und Verarbeitung des vollständigen Geburtsdatums der Kundinnen und Kunden (Monat, Tag, Jahr). Wenn er mit anderen persönlichen Kennungen (wie_vollständiger Name _) erfasst wird, stellt er ein potenzielles Rechts- und Sicherheitsrisiko dar. Wir empfehlen, die Speicherung der vollständigen Geburtsdaten von Kunden zu begrenzen und stattdessen vorzuschlagen, als Alternative das Kundenjahr zu verwenden. |
+| `dob` | Das Geburtsdatum des Kunden. <br><br>**_Wichtig:_**&#x200B;Überprüfen Sie entsprechend den aktuellen Best Practices für Sicherheit und Datenschutz die Speicherung und Verarbeitung des vollständigen Geburtsdatums der Kundinnen und Kunden (Monat, Tag, Jahr). Wenn er mit anderen persönlichen Kennungen (wie_vollständiger Name _) erfasst wird, stellt er ein potenzielles Rechts- und Sicherheitsrisiko dar. Wir empfehlen, die Speicherung der vollständigen Geburtsdaten von Kunden zu begrenzen und stattdessen vorzuschlagen, als Alternative das Kundenjahr zu verwenden. |
 | `firstname` | Der Vorname des Kunden. |
 | `gender` | Das Geschlecht des Kunden. |
 | `group_id` | Die ID der Kundengruppe, der der Kunde zugewiesen ist. |

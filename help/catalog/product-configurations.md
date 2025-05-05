@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produkteinstellungen - [!UICONTROL Configurations]
 
-Im Abschnitt _[!UICONTROL Configurations]_werden alle vorhandenen Varianten des Produkts aufgelistet und sie können verwendet werden, um Varianten für die Verwendung mit dem konfigurierbaren Produkttyp zu generieren. Weitere Informationen finden Sie unter [Konfigurierbares Produkt](product-create-configurable.md).
+Im Abschnitt _[!UICONTROL Configurations]_&#x200B;werden alle vorhandenen Varianten des Produkts aufgelistet und sie können verwendet werden, um Varianten für die Verwendung mit dem konfigurierbaren Produkttyp zu generieren. Weitere Informationen finden Sie unter [Konfigurierbares Produkt](product-create-configurable.md).
 
 ![Abschnitt „Konfigurationen](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 

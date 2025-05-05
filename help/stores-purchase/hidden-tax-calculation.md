@@ -69,7 +69,7 @@ Wenn es einen Rabatt gibt, in den eine Steuer eingebettet ist, berechnet Commerc
 
 1. So versteht der Kunde in der Regel den Rabattpreis (Bestellsumme):
 
-   _Gesamtpreis des Artikels einschließlich Steuern **abzüglich**Rabattbetrag: $100 - $8.33 = $91.67_
+   _Gesamtpreis des Artikels einschließlich Steuern **abzüglich**&#x200B;Rabattbetrag: $100 - $8.33 = $91.67_
 
 1. **Wie Commerce den ermäßigten Preis berechnet** (Formel siehe oben):
 

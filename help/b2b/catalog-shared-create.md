@@ -72,7 +72,7 @@ Es gibt zwei Möglichkeiten, einen freigegebenen Katalog zu erstellen. Sie könn
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-   Der neue Katalog wird im _[!UICONTROL Shared Catalogs]_angezeigt.
+   Der neue Katalog wird im _[!UICONTROL Shared Catalogs]_&#x200B;angezeigt.
 
 ### Methode 2: Duplizieren eines vorhandenen freigegebenen Katalogs
 
@@ -97,7 +97,7 @@ Wenn ein öffentlicher freigegebener Katalog dupliziert wird, ändert sich der T
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-   Das Duplikat wird im _[!UICONTROL Shared Catalogs]_mit einer eindeutigen ID angezeigt.
+   Das Duplikat wird im _[!UICONTROL Shared Catalogs]_&#x200B;mit einer eindeutigen ID angezeigt.
 
 ## Schritt 2: Abschließen der Einrichtung
 
@@ -105,7 +105,7 @@ Nachdem Sie einen neuen freigegebenen Katalog erstellt haben, müssen Sie ihn mi
 
 >[!NOTE]
 >
->**[B2B-Version 1.3.](release-notes.md#b2b-v130) und höher** - Wenn Sie einen freigegebenen Katalog erstellen, wird jede [Kategorieberechtigung](../catalog/category-permissions.md) für den Katalog auf _[!UICONTROL Allow for the Display Product Prices]_und_[!UICONTROL Add to Cart]_ für Kundengruppen festgelegt, denen dieser Zugriff in den Katalogberechtigungseinstellungen zugewiesen ist. Zuvor wurden diese Einstellungen automatisch auf `Deny` gesetzt, auch wenn die Katalogberechtigungen auf `Allow` gesetzt waren.
+>**[B2B-Version 1.3.](release-notes.md#b2b-v130) und höher** - Wenn Sie einen freigegebenen Katalog erstellen, wird jede [Kategorieberechtigung](../catalog/category-permissions.md) für den Katalog auf _[!UICONTROL Allow for the Display Product Prices]_&#x200B;und&#x200B;_[!UICONTROL Add to Cart]_ für Kundengruppen festgelegt, denen dieser Zugriff in den Katalogberechtigungseinstellungen zugewiesen ist. Zuvor wurden diese Einstellungen automatisch auf `Deny` gesetzt, auch wenn die Katalogberechtigungen auf `Allow` gesetzt waren.
 
 ## Demo zum freigegebenen Katalog
 

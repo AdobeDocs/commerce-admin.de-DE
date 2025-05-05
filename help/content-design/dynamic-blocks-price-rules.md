@@ -22,7 +22,7 @@ Jeder [dynamische Block](dynamic-blocks.md) den Sie erstellen, kann mit einer Pr
 
 ## Dynamischen Block mit einer Preisregel verknüpfen
 
-1. Wechseln Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_und wählen Sie eine der folgenden Optionen:
+1. Wechseln Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_&#x200B;und wählen Sie eine der folgenden Optionen:
 
    - **[!UICONTROL Catalog Price Rules]**
    - **[!UICONTROL Cart Price Rules]**

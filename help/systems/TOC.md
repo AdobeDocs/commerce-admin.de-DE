@@ -35,7 +35,7 @@ ht-degree: 3%
 - {#data-transfer}
    - [Übersicht](data-transfer.md)
    - [CSV-Dateien](data-csv.md)
-   - {#import} importieren
+   - importieren{#import}
       - [Importvorgang](data-import.md)
       - [Produktbilder](data-import-product-images.md)
    - [Export](data-export.md)

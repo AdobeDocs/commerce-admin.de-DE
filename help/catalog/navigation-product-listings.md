@@ -16,7 +16,7 @@ Produktlisten können so eingestellt werden, dass sie standardmäßig entweder a
 
 >[!NOTE]
 >
->Beim Sortieren einer Kategorie nach einem Produktattribut werden Produkte mit denselben Attributwerten auch nach ihrem _[!UICONTROL Product ID]_in aufsteigender Reihenfolge sortiert.
+>Beim Sortieren einer Kategorie nach einem Produktattribut werden Produkte mit denselben Attributwerten auch nach ihrem _[!UICONTROL Product ID]_&#x200B;in aufsteigender Reihenfolge sortiert.
 
 ![Produkte werden als Raster angezeigt](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
@@ -34,7 +34,7 @@ Produktlisten können so eingestellt werden, dass sie standardmäßig entweder a
 
    >[!NOTE]
    >
-   >Um Produkte und ihre Preise korrekt nach _Produktsortierung nach Preis_ anzuzeigen, stellen Sie sicher, dass die Einstellungen für die Preisanzeige in der [Mehrwertsteuerkonfiguration](../configuration-reference/sales/tax.md) denselben Wert aufweisen (`Excluding Tax` **oder**`Including Tax`). Überprüfen Sie für die _[!UICONTROL Calculation Settings]_den **[!UICONTROL Catalog Prices]**. Überprüfen Sie_[!UICONTROL Price Display Settings]_ den **[!UICONTROL Display Product Prices in Catalog]**. Wenn diese unterschiedliche Werte haben, können Preisfilter in der mehrschichtigen Navigation Produkte möglicherweise nicht ordnungsgemäß nach Preis filtern und sortieren.
+   >Um Produkte und ihre Preise korrekt nach _Produktsortierung nach Preis_ anzuzeigen, stellen Sie sicher, dass die Einstellungen für die Preisanzeige in der [Mehrwertsteuerkonfiguration](../configuration-reference/sales/tax.md) denselben Wert aufweisen (`Excluding Tax` **oder**`Including Tax`). Überprüfen Sie für die _[!UICONTROL Calculation Settings]_&#x200B;den **[!UICONTROL Catalog Prices]**. Überprüfen Sie&#x200B;_[!UICONTROL Price Display Settings]_ den **[!UICONTROL Display Product Prices in Catalog]**. Wenn diese unterschiedliche Werte haben, können Preisfilter in der mehrschichtigen Navigation Produkte möglicherweise nicht ordnungsgemäß nach Preis filtern und sortieren.
 
 1. Legen Sie die **[!UICONTROL List Mode]** auf einen der folgenden Werte fest:
 
@@ -95,7 +95,7 @@ Die Paginierungseinstellungen werden oben und unten in der Liste angezeigt und s
 | Kontrolle | Beschreibung |
 |--- |--- |
 | ![Raster anzeigen](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Zeigt die Liste entweder im Raster- oder im Listenformat an. |
-| ![Sortieren nach](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Ändert die Sortierreihenfolge der Liste. Die Eigenschaft &quot;_[!UICONTROL Used for Sorting in Product Listing]_Storefront“ bestimmt, welche [Produktattribute](../catalog/product-attributes.md) zum Sortieren der Liste verwendet werden können. |
+| ![Sortieren nach](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Ändert die Sortierreihenfolge der Liste. Die Eigenschaft &quot;_[!UICONTROL Used for Sorting in Product Listing]_&#x200B;Storefront“ bestimmt, welche [Produktattribute](../catalog/product-attributes.md) zum Sortieren der Liste verwendet werden können. |
 | ![Pro Seite anzeigen](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Legt fest, wie viele Produkte pro Seite angezeigt werden. |
 | ![Paginierungs-Links](./assets/control-pagination.png) | Seitenumbruch-Links : Navigations-Links zu anderen Seiten. |
 

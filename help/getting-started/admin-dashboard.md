@@ -23,7 +23,7 @@ Wenn Sie eine erhebliche Datenmenge verarbeiten müssen, kann das Diagramm deakt
 
 ## Dashboard konfigurieren
 
-1. Wechseln Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**und nehmen Sie eine der folgenden Einstellungen vor.
+1. Wechseln Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;und nehmen Sie eine der folgenden Einstellungen vor.
 
 1. Wenn die Konfiguration abgeschlossen ist, klicken Sie auf **[!UICONTROL Save Config]**.
 
@@ -49,7 +49,7 @@ Weitere Informationen zu den Admin-Konfigurationsoptionen finden Sie im [Konfigu
 
 Das Dashboard ist die standardmäßige [Startseite](../configuration-reference/advanced/admin.md) für Admins. Sie können jedoch auch eine andere Startseite konfigurieren.
 
-1. Wenn Sie die Admin-Konfigurationsoptionen noch nicht geöffnet haben, wählen Sie **[!UICONTROL Admin]** unter _[!UICONTROL Advanced]_im linken Navigationsbereich aus.
+1. Wenn Sie die Admin-Konfigurationsoptionen noch nicht geöffnet haben, wählen Sie **[!UICONTROL Admin]** unter _[!UICONTROL Advanced]_&#x200B;im linken Navigationsbereich aus.
 
 1. Klicken Sie, um den Abschnitt **Startseite** zu erweitern.
 

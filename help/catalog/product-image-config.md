@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Konfiguration des Produktbilds
 
-Wenn Sie große Bilder für die Anzeige auf der _[!UICONTROL Product Details]_hochladen möchten, sollten Sie eine maximale Pixelgröße (Breite und Höhe) festlegen und die Größe der Dateien beim Hochladen automatisch ändern. Um diesen Typ des Produktbild-Uploads zu unterstützen, gibt es eine Option, um beim Hochladen die automatische Größenanpassung größerer Bilddateien zu aktivieren. Für Produkte, die Sie Ihrem Katalog hinzufügen möchten, für die Sie aber noch kein Bild-Asset zur Anzeige haben, können Sie ein Platzhalterbild konfigurieren.
+Wenn Sie große Bilder für die Anzeige auf der _[!UICONTROL Product Details]_&#x200B;hochladen möchten, sollten Sie eine maximale Pixelgröße (Breite und Höhe) festlegen und die Größe der Dateien beim Hochladen automatisch ändern. Um diesen Typ des Produktbild-Uploads zu unterstützen, gibt es eine Option, um beim Hochladen die automatische Größenanpassung größerer Bilddateien zu aktivieren. Für Produkte, die Sie Ihrem Katalog hinzufügen möchten, für die Sie aber noch kein Bild-Asset zur Anzeige haben, können Sie ein Platzhalterbild konfigurieren.
 
 ## Ändern der Größe von Produktbildern
 
@@ -61,7 +61,7 @@ Bei einer 3000 x 2100 Pixel großen JPG mit 100 % kann es sich beispielsweise um
 | Feld | [Umfang](../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Quality] | Global | Bestimmt die JPG-Qualität für das skalierte Bild. Geringere Qualität reduziert die Dateigröße. 80-90% wird empfohlen, um die Dateigröße mit hoher Qualität zu reduzieren. Standard: 80 |
-| [!UICONTROL Enable Frontend Resize] | Global | Ermöglicht es Commerce, die Größe großer, übergroßer Bilder zu ändern, die für die _[!UICONTROL Product Details]_hochgeladen werden können. Commerce ändert die Größe der Bilddateien mithilfe von JavaScript beim Hochladen der Datei. Wenn die Größe des Bildes geändert wird, werden die exakten Proportionen beibehalten, um die größte Größe für „Maximale Breite“ oder „Maximale Höhe“ zu erfüllen und nicht zu überschreiten. Standard: `Yes` |
+| [!UICONTROL Enable Frontend Resize] | Global | Ermöglicht es Commerce, die Größe großer, übergroßer Bilder zu ändern, die für die _[!UICONTROL Product Details]_&#x200B;hochgeladen werden können. Commerce ändert die Größe der Bilddateien mithilfe von JavaScript beim Hochladen der Datei. Wenn die Größe des Bildes geändert wird, werden die exakten Proportionen beibehalten, um die größte Größe für „Maximale Breite“ oder „Maximale Höhe“ zu erfüllen und nicht zu überschreiten. Standard: `Yes` |
 | [!UICONTROL Maximum Width] | Global | Bestimmt die maximale Pixelbreite für das Bild. Wenn die Größe des Bildes geändert wird, wird diese Breite nicht überschritten. Standard: `1920` |
 | [!UICONTROL Maximum Height] | Global | Bestimmt die maximale Pixelhöhe für das Bild. Wenn die Größe des Bildes geändert wird, wird diese Höhe nicht überschritten. Standard: `1200` |
 

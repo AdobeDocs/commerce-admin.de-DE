@@ -52,12 +52,12 @@ Um Zeit zu sparen, können Null Zwischensummen für Bestellungen auf die automat
 
    >[!NOTE]
    >
-   >Wenn _[!UICONTROL New Order Status]_auf `Processing` und_[!UICONTROL Automatically Invoice All Items]_ auf `No` gesetzt ist, müssen Sie auch **[!UICONTROL Order Status]** = `Processing` für die **[!UICONTROL Order State]** = `Pending` und **[!UICONTROL Default Status]** = `No` Zuordnung auf der Seite [Bestellstatus](order-status.md#custom-order-status) zuweisen.
+   >Wenn _[!UICONTROL New Order Status]_&#x200B;auf `Processing` und&#x200B;_[!UICONTROL Automatically Invoice All Items]_ auf `No` gesetzt ist, müssen Sie auch **[!UICONTROL Order Status]** = `Processing` für die **[!UICONTROL Order State]** = `Pending` und **[!UICONTROL Default Status]** = `No` Zuordnung auf der Seite [Bestellstatus](order-status.md#custom-order-status) zuweisen.
 
 1. Legen Sie **[!UICONTROL Payment from Applicable Countries]** auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` - Nachdem Sie diese Option ausgewählt haben, wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Optionen.
+   - `Specific Countries` - Nachdem Sie diese Option ausgewählt haben, wird die _[!UICONTROL Payment from Specific Countries]_&#x200B;angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Optionen.
 
 1. Geben Sie **[!UICONTROL Sort Order]** eine Zahl ein, die die Position dieses Artikels in der Liste der Zahlungsmethoden bestimmt, die beim Checkout angezeigt wird.
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Zuweisen von Unternehmen zu einem freigegebenen Katalog
 
-Es gibt zwei Möglichkeiten, eine Firma einem freigegebenen Katalog zuzuweisen. Sie können die Zuweisung über das _[!UICONTROL Shared Catalogs]_Raster vornehmen oder die Firma bearbeiten und den freigegebenen Katalog wie eine Kundengruppe zuweisen.
+Es gibt zwei Möglichkeiten, eine Firma einem freigegebenen Katalog zuzuweisen. Sie können die Zuweisung über das _[!UICONTROL Shared Catalogs]_&#x200B;Raster vornehmen oder die Firma bearbeiten und den freigegebenen Katalog wie eine Kundengruppe zuweisen.
 
 ![Firmen zuweisen](./assets/shared-catalog-assign-companies.png){width="700" zoomable="yes"}
 

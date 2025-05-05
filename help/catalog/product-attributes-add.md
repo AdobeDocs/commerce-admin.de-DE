@@ -36,7 +36,7 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
 
 ![Attributeigenschaften](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. Geben Sie unter _[!UICONTROL Attribute Properties]_ein **[!UICONTROL Attribute Label]**ein, um das Attribut zu identifizieren.
+1. Geben Sie unter _[!UICONTROL Attribute Properties]_&#x200B;ein **[!UICONTROL Attribute Label]**&#x200B;ein, um das Attribut zu identifizieren.
 
 1. Legen Sie **[!UICONTROL Catalog Input Type for Store Owner]** auf den Typ des [Eingabedialogs](attributes-input-types.md) fest, der für die Dateneingabe verwendet werden soll.
 
@@ -85,7 +85,7 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
 
 1. Wenn Sie das Attribut als Spalte in das Produktraster einbeziehen möchten, setzen Sie **[!UICONTROL Add to Column Options]** auf `Yes`.
 
-1. Wenn Sie das _[!UICONTROL Products]_nach dieser Spalte filtern können möchten, setzen Sie **[!UICONTROL Use in Filter Options]**auf `Yes`.
+1. Wenn Sie das _[!UICONTROL Products]_&#x200B;nach dieser Spalte filtern können möchten, setzen Sie **[!UICONTROL Use in Filter Options]**&#x200B;auf `Yes`.
 
 ## Schritt 4: Feldbezeichnung eingeben
 
@@ -115,7 +115,7 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
 
    >[!NOTE]
    >
-   >Wenn die _[!UICONTROL Use in Search]_auf `No` festgelegt ist, wird die_[!UICONTROL Use in Search Results Layered Navigation]_ nicht angezeigt und das Produktattribut wird bei der Suche mit keinem [!UICONTROL Use in Layered Navigation] Einstellwert verwendet.
+   >Wenn die _[!UICONTROL Use in Search]_&#x200B;auf `No` festgelegt ist, wird die&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ nicht angezeigt und das Produktattribut wird bei der Suche mit keinem [!UICONTROL Use in Layered Navigation] Einstellwert verwendet.
 
 1. Um das -Attribut in der mehrschichtigen Navigation auf Suchergebnisseiten zu verwenden, setzen Sie **[!UICONTROL Use in Search Results Layered Navigation]** auf `Yes` und geben Sie eine Zahl in das Feld **[!UICONTROL Position]** ein.
 
@@ -123,7 +123,7 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
 
    >[!NOTE]
    >
-   >Das Feld _[!UICONTROL Position]_ist standardmäßig abgeblendet und Sie müssen das Attribut speichern, bevor Sie diese Einstellung ändern können.
+   >Das Feld _[!UICONTROL Position]_&#x200B;ist standardmäßig abgeblendet und Sie müssen das Attribut speichern, bevor Sie diese Einstellung ändern können.
 
 1. Um das Attribut in Preisregeln zu verwenden, setzen Sie **[!UICONTROL Use for Promo Rule Conditions]** auf `Yes`.
 

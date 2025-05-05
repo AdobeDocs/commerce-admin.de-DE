@@ -18,7 +18,7 @@ Wenn Sie bereit sind, ein Bild zu lizenzieren, bietet die neue [[!DNL Media Gall
 
 ## Voraussetzungen
 
-Für diese Funktion sind das Modul und die Konfiguration für die {0](./adobe-stock.md)Adobe Stock-Integration} erforderlich.[
+Für diese Funktion sind das Modul und die Konfiguration für die {0[&#128279;](./adobe-stock.md)Adobe Stock-Integration} erforderlich.
 
 ## Speichern eines Vorschaubilds
 

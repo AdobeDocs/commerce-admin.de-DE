@@ -53,7 +53,7 @@ Bestimmen Sie die Art der Rückerstattung, die Sie ausstellen möchten - für ei
 
 1. Suchen Sie die Reihenfolge im Raster und klicken Sie auf **[!UICONTROL View]**.
 
-1. Wenn die Schaltfläche _[!UICONTROL Credit Memo]_in der Schaltflächenleiste sichtbar ist, führen Sie einen der folgenden Schritte aus:
+1. Wenn die Schaltfläche _[!UICONTROL Credit Memo]_&#x200B;in der Schaltflächenleiste sichtbar ist, führen Sie einen der folgenden Schritte aus:
 
    - Um eine `offline` Rückerstattung zu erhalten, gehen Sie zu Schritt #6.
    - Um eine `online` Rückerstattung zu erhalten, fahren Sie mit Schritt #4 fort.

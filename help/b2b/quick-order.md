@@ -20,7 +20,7 @@ Die _Schnellbestellung_-Funktion reduziert den Bestellvorgang auf mehrere Klicks
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im Abschnitt _[!UICONTROL General]_im linken Bereich **[!UICONTROL B2B Features]**aus.
+1. Wählen Sie im Abschnitt _[!UICONTROL General]_&#x200B;im linken Bereich **[!UICONTROL B2B Features]**&#x200B;aus.
 
 1. Legen Sie **[!UICONTROL Enable Quick Order]** auf `Yes` fest.
 
@@ -92,7 +92,7 @@ Kunden können Produkte für Schnellbestellungen mit einer der folgenden Methode
 
 ### Methode 3: Hochladen einer Liste von Produkten
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Add from File]_auf **[!UICONTROL Download Sample]**, um eine Bestellvorlage herunterzuladen.
+1. Klicken Sie im Abschnitt _[!UICONTROL Add from File]_&#x200B;auf **[!UICONTROL Download Sample]**, um eine Bestellvorlage herunterzuladen.
 
    ![Aus Datei hinzufügen](./assets/quick-order-skus-add-from-file.png){width="600" zoomable="yes"}
 

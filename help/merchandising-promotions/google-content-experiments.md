@@ -16,7 +16,7 @@ Das folgende Beispiel zeigt, wie Sie mithilfe von Google Analytics-Inhaltsexperi
 
 >[!NOTE]
 >
->[!DNL Google Content Experiments] ist veraltet und soll durch [Google Optimize} ersetzt ](https://support.google.com/optimize/answer/7084762?hl=en).
+>[!DNL Google Content Experiments] ist veraltet und soll durch [Google Optimize&rbrace; ersetzt ](https://support.google.com/optimize/answer/7084762?hl=en).
 
 ## Schritt 1. Aktivieren von Inhaltsexperimenten (Commerce)
 
@@ -49,7 +49,7 @@ Sie können bis zu zehn Varianten jeder Entität erstellen, die Sie testen möch
 
    **Methode 1:** Vorhandene Ansicht auswählen
 
-   Klicken Sie in der Kopfzeile der Spalte _[!UICONTROL View]_auf den Abwärtspfeil und wählen Sie die Ansicht aus, die die Daten für das Experiment liefern soll.
+   Klicken Sie in der Kopfzeile der Spalte _[!UICONTROL View]_&#x200B;auf den Abwärtspfeil und wählen Sie die Ansicht aus, die die Daten für das Experiment liefern soll.
 
    **Methode 2:** Erstellen einer neuen Berichtsansicht
 
@@ -63,7 +63,7 @@ Sie können bis zu zehn Varianten jeder Entität erstellen, die Sie testen möch
 
    - Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Create View]** und dann auf den Rückwärtspfeil, um zur vorherigen Seite zurückzukehren.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Reports]_die Option **[!UICONTROL Behavior]**>**[!UICONTROL Experiments]**aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Reports]_&#x200B;die Option **[!UICONTROL Behavior]**>**[!UICONTROL Experiments]**&#x200B;aus.
 
 1. Klicken Sie auf **[!UICONTROL Create experiment]** und führen Sie folgende Schritte aus:
 

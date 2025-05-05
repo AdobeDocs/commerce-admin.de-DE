@@ -27,7 +27,7 @@ Die Store-Ansichtsauswahl in der linken oberen Ecke vieler Konfigurationsseiten 
 
 ## [!UICONTROL Use system value]
 
-Das Kontrollkästchen _[!UICONTROL Use System Value]_rechts neben vielen Konfigurationseinstellungen wird verwendet, um den Standardwert im aktuellen Konfigurationsbereich entweder anzuwenden oder zu überschreiben. Der Wert des Standardfelds kann nicht geändert werden, wenn das Kontrollkästchen aktiviert wird. Um den Wert zu ändern, deaktivieren Sie das Kontrollkästchen und geben Sie den neuen Wert ein. Sobald Sie den Systemwert ändern, werden Sie zur Bestätigung aufgefordert.
+Das Kontrollkästchen _[!UICONTROL Use System Value]_&#x200B;rechts neben vielen Konfigurationseinstellungen wird verwendet, um den Standardwert im aktuellen Konfigurationsbereich entweder anzuwenden oder zu überschreiben. Der Wert des Standardfelds kann nicht geändert werden, wenn das Kontrollkästchen aktiviert wird. Um den Wert zu ändern, deaktivieren Sie das Kontrollkästchen und geben Sie den neuen Wert ein. Sobald Sie den Systemwert ändern, werden Sie zur Bestätigung aufgefordert.
 
 Die Beschriftung des Kontrollkästchens ändert sich entsprechend dem aktuellen Umfang und bezieht sich immer auf die übergeordnete Ebene, die in der Bereichshierarchie eine Stufe höher liegt. Da die übergeordnete Ebene ein Container für alle Elemente unterhalb dieser Ebene ist, wird die Bereichseinstellung von der übergeordneten Ebene übernommen, es sei denn, sie wird überschrieben.
 

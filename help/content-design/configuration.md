@@ -20,7 +20,7 @@ Die Design-Konfiguration erleichtert die Bearbeitung von Design-bezogenen Regeln
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
    Auf der Seite werden die aktuellen Design-Einstellungen für die Store-Ansicht angezeigt.
 
@@ -48,7 +48,7 @@ Die Design-Konfiguration erleichtert die Bearbeitung von Design-bezogenen Regeln
    >
    >Sie können beliebig viele Regeln für die Geräte hinzufügen, die Sie festlegen möchten. Die Suchzeichenfolgen werden in der Reihenfolge abgeglichen, in der sie eingegeben werden.
 
-1. Erweitern Sie unter _[!UICONTROL Other Settings]_jeden Abschnitt und befolgen Sie die Anweisungen in den verknüpften Themen, um die Einstellungen nach Bedarf zu bearbeiten.
+1. Erweitern Sie unter _[!UICONTROL Other Settings]_&#x200B;jeden Abschnitt und befolgen Sie die Anweisungen in den verknüpften Themen, um die Einstellungen nach Bedarf zu bearbeiten.
 
    - [[!UICONTROL Pagination]](../catalog/navigation-product-listings.md#pagination-controls)
    - [[!UICONTROL HTML Head]](page-setup.md#html-head)

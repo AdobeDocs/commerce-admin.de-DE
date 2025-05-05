@@ -79,7 +79,7 @@ Der Seitenarbeitsbereich enthält Tools, mit denen Sie die benötigten Seiten sc
 
 ## Seitensuche
 
-Das Suchfeld oben links im _[!UICONTROL Pages]_Raster kann verwendet werden, um bestimmte Seiten nach Keyword zu finden. Für eine erweiterte Suche können Sie [ Suche ](../getting-started/admin-grid-controls.md) mehreren Parametern filtern.
+Das Suchfeld oben links im _[!UICONTROL Pages]_&#x200B;Raster kann verwendet werden, um bestimmte Seiten nach Keyword zu finden. Für eine erweiterte Suche können Sie [ Suche ](../getting-started/admin-grid-controls.md) mehreren Parametern filtern.
 
 ### Nach Keyword suchen
 
@@ -139,7 +139,7 @@ Seiten können bearbeitet, deaktiviert, aktiviert und gelöscht werden. Um eine 
 
 ### Einzelklage
 
-Verwenden Sie die Spalte _[!UICONTROL Action]_ganz rechts, um eine der folgenden Aktionen auf die einzelne Seite anzuwenden:
+Verwenden Sie die Spalte _[!UICONTROL Action]_&#x200B;ganz rechts, um eine der folgenden Aktionen auf die einzelne Seite anzuwenden:
 
 - [!UICONTROL Edit] - öffnet die Seite im Bearbeitungsmodus
 - [!UICONTROL Delete] - löscht die Seite (Bestätigung erforderlich)
@@ -149,7 +149,7 @@ Verwenden Sie die Spalte _[!UICONTROL Action]_ganz rechts, um eine der folgenden
 
 ### Massenaktionen
 
-Wenden Sie mithilfe der _[!UICONTROL Action]_oben links eine der folgenden Aktionen auf mehrere ausgewählte Seiten gleichzeitig an:
+Wenden Sie mithilfe der _[!UICONTROL Action]_&#x200B;oben links eine der folgenden Aktionen auf mehrere ausgewählte Seiten gleichzeitig an:
 
 - [!UICONTROL Delete] - löscht die Seiten (Bestätigung erforderlich)
 - [!UICONTROL Disable] - Deaktiviert die Seiten in der Storefront

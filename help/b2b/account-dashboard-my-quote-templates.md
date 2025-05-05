@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Quote Templates]
 
-Wenn Angebote aktiviert sind, werden im _[!UICONTROL My Quotes Template]_Abschnitt der Kunden Konto Dashboard alle Angebotsvorlagen aufgelistet, die mit der Kunden Konto verknüpft sind. Abhängig von ihren Berechtigungen können nur Käufer, die im Namen eines Firma einkaufen, ein Angebot Vorlage Anfrage und Angebotspreise und -bedingungen für wiederkehrende Bestellungen aushandeln.
+Wenn Angebote aktiviert sind, werden im _[!UICONTROL My Quotes Template]_&#x200B;Abschnitt der Kunden Konto Dashboard alle Angebotsvorlagen aufgelistet, die mit der Kunden Konto verknüpft sind. Abhängig von ihren Berechtigungen können nur Käufer, die im Namen eines Firma einkaufen, ein Angebot Vorlage Anfrage und Angebotspreise und -bedingungen für wiederkehrende Bestellungen aushandeln.
 
 ![Mein Zitat Vorlagen](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
@@ -115,7 +115,7 @@ Käufer können die folgenden Aktionen über ein verknüpftes Angebot abschließ
 
 Klicken Sie im Zitat Vorlage Seite auf **[!UICONTROL Cancel Quote Template]**.
 
-Das Angebot Vorlage wird storniert und der Angebotsstatus ändert sich in `Closed`. Das geschlossene Zitat verbleibt in Ihrer Liste der *[!UICONTROL Inactive]* Anführungszeichen und bleibt im _[!UICONTROL Quote Templates]_Raster im Admin aufgeführt.
+Das Angebot Vorlage wird storniert und der Angebotsstatus ändert sich in `Closed`. Das geschlossene Zitat verbleibt in Ihrer Liste der *[!UICONTROL Inactive]* Anführungszeichen und bleibt im _[!UICONTROL Quote Templates]_&#x200B;Raster im Admin aufgeführt.
 
 ## Verweis-Dokument Links verwalten
 

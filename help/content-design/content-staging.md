@@ -27,7 +27,7 @@ Felder, die sich auf das Start- und Enddatum beziehen, wurden aus Adobe Commerce
 
 Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h., jede Entität kann nur jeweils eine geplante Aktualisierung haben. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb ihres Zeitrahmens angewendet. Daher kann eine Entität nicht gleichzeitig verschiedene geplante Aktualisierungen für verschiedene Store-Ansichten haben. Alle Entitätsattributwerte in allen Store-Ansichten, die nicht von der aktuellen geplanten Aktualisierung betroffen sind, werden aus den Standardwerten übernommen, nicht aus der vorherigen geplanten Aktualisierung.
 
-Wenn ein neues geplantes Update für eines der folgenden Objekte erstellt wird, wird eine entsprechende Kampagne als Platzhalter erstellt, und das _[!UICONTROL Scheduled Changes]_wird am oberen Rand der Seite angezeigt. Die Platzhalterkampagne hat ein Startdatum, aber kein Enddatum. Sie können Aktualisierungen des Inhalts als Teil einer Kampagne planen und dann eine Vorschau anzeigen und die Änderungen nach Datum, Uhrzeit oder Store-Ansicht freigeben. Nachdem Sie eine neue Kampagne für ein Objekt erstellt haben, können Sie sie anderen Objekten als geplante Aktualisierung zuweisen.
+Wenn ein neues geplantes Update für eines der folgenden Objekte erstellt wird, wird eine entsprechende Kampagne als Platzhalter erstellt, und das _[!UICONTROL Scheduled Changes]_&#x200B;wird am oberen Rand der Seite angezeigt. Die Platzhalterkampagne hat ein Startdatum, aber kein Enddatum. Sie können Aktualisierungen des Inhalts als Teil einer Kampagne planen und dann eine Vorschau anzeigen und die Änderungen nach Datum, Uhrzeit oder Store-Ansicht freigeben. Nachdem Sie eine neue Kampagne für ein Objekt erstellt haben, können Sie sie anderen Objekten als geplante Aktualisierung zuweisen.
 
 - [PRODUCT](../catalog/product-scheduled-changes.md)
 - [Kategorien](../catalog/category-scheduled-changes.md)
@@ -40,7 +40,7 @@ Wenn ein neues geplantes Update für eines der folgenden Objekte erstellt wird, 
 
 1. **Erstellen des Grundlinieninhalts**
 
-   Die Grundlinie ist der Inhalt eines Assets ohne Kampagne und umfasst alles, was sich unter dem Abschnitt _[!UICONTROL Scheduled Changes]_oben auf der Seite befindet. Der Baseline-Inhalt wird immer verwendet, es sei denn, es gibt eine aktive Kampagne mit Änderungen, die für diesen Ort in der Timeline geplant sind.
+   Die Grundlinie ist der Inhalt eines Assets ohne Kampagne und umfasst alles, was sich unter dem Abschnitt _[!UICONTROL Scheduled Changes]_&#x200B;oben auf der Seite befindet. Der Baseline-Inhalt wird immer verwendet, es sei denn, es gibt eine aktive Kampagne mit Änderungen, die für diesen Ort in der Timeline geplant sind.
 
 1. **Erstellen der ersten Kampagne**
 

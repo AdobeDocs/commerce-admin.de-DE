@@ -14,7 +14,7 @@ ht-degree: 0%
 
 _Suchmaschinenoptimierung_ (SEO) ist die Praxis der Feinabstimmung des Inhalts und der Präsentation einer Site, um die Art und Weise zu verbessern, wie die Seiten von Suchmaschinen indiziert werden.
 
-Die _[!UICONTROL Search Engine Optimization]_für ein Produkt geben die Felder [URL-Schlüssel](catalog-urls.md) und [Meta-Daten](../merchandising-promotions/meta-data.md) an, die von Suchmaschinen zur Indizierung des Produkts verwendet werden. Obwohl einige Suchmaschinen Meta-Keywords ignorieren, werden diese von anderen Suchmaschinen weiterhin verwendet. Die aktuelle [SEO Best Practice](../merchandising-promotions/seo-overview.md) besteht darin, hochwertige Keywords sowohl in den Meta-Titel als auch in die Meta-Beschreibung einzubinden.
+Die _[!UICONTROL Search Engine Optimization]_&#x200B;für ein Produkt geben die Felder [URL-Schlüssel](catalog-urls.md) und [Meta-Daten](../merchandising-promotions/meta-data.md) an, die von Suchmaschinen zur Indizierung des Produkts verwendet werden. Obwohl einige Suchmaschinen Meta-Keywords ignorieren, werden diese von anderen Suchmaschinen weiterhin verwendet. Die aktuelle [SEO Best Practice](../merchandising-promotions/seo-overview.md) besteht darin, hochwertige Keywords sowohl in den Meta-Titel als auch in die Meta-Beschreibung einzubinden.
 
 Der Standardwert für jedes Metadatenfeld kann automatisch basierend auf den in der Konfiguration angegebenen Werten generiert werden. Jedes Feld enthält einen Platzhalter, der durch einen tatsächlichen Wert ersetzt wird. Weitere Informationen finden Sie unter [Produktfelder automatisch generieren](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).
 

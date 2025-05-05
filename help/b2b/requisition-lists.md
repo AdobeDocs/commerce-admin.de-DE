@@ -31,7 +31,7 @@ Ein angemeldeter Käufer, der einem Firmenkonto zugeordnet ist, kann über sein 
 
 1. Wählen Sie in der Seitenleiste ihres Kontos **[!UICONTROL My Requisition Lists]** aus.
 
-1. Klicken Sie auf der _[!UICONTROL Requisition Lists]_Seite auf **[!UICONTROL Create New Requisition List]**.
+1. Klicken Sie auf der _[!UICONTROL Requisition Lists]_&#x200B;Seite auf **[!UICONTROL Create New Requisition List]**.
 
 1. Gibt den **[!UICONTROL Requisition List Name]** und die **[!UICONTROL Description]** ein.
 

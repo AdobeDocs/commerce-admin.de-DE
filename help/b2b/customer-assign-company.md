@@ -59,13 +59,13 @@ Wenn Sie einen Firmenbenutzer hinzufügen, ist das erste Unternehmen, das Sie mi
 
 Das [!UICONTROL Customers grid] zeigt für jedes Unternehmen, dem der Benutzer zugewiesen ist, eine separate Zeile an. Die folgenden Spalten werden aktualisiert.
 
-- Die Spalte _[!UICONTROL Customer Type]_wird aktualisiert und zeigt die dem Benutzer zugewiesene Rolle an.
+- Die Spalte _[!UICONTROL Customer Type]_&#x200B;wird aktualisiert und zeigt die dem Benutzer zugewiesene Rolle an.
 
-  Wenn der Kunde zum ersten Mal einem Unternehmen zugewiesen wurde, wird die Spalte _[!UICONTROL Customer Type]_von_[!UICONTROL Individual user]_ auf _[!UICONTROL Company User]_aktualisiert.
+  Wenn der Kunde zum ersten Mal einem Unternehmen zugewiesen wurde, wird die Spalte _[!UICONTROL Customer Type]_&#x200B;von&#x200B;_[!UICONTROL Individual user]_ auf _[!UICONTROL Company User]_&#x200B;aktualisiert.
 
-- Die Spalte _[!UICONTROL Group]_ändert sich in den Namen der Kundengruppe (oder des freigegebenen Katalogs), die bzw. der dem Unternehmen zugewiesen ist.
+- Die Spalte _[!UICONTROL Group]_&#x200B;ändert sich in den Namen der Kundengruppe (oder des freigegebenen Katalogs), die bzw. der dem Unternehmen zugewiesen ist.
 
-- In der Spalte _[!UICONTROL Company]_wird der Name des Unternehmens angezeigt, mit dem das Kundenprofil jetzt verknüpft ist.
+- In der Spalte _[!UICONTROL Company]_&#x200B;wird der Name des Unternehmens angezeigt, mit dem das Kundenprofil jetzt verknüpft ist.
 
 ## Zuweisen eines Benutzers zu einem oder mehreren Unternehmenskonten
 
@@ -73,7 +73,7 @@ Wenn Sie einen neuen Benutzer zuweisen, ist das erste Unternehmen, das Sie mit d
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Wählen Sie im linken Bedienfeld **[!UICONTROL Account Information]** aus.
 
@@ -83,7 +83,7 @@ Wenn Sie einen neuen Benutzer zuweisen, ist das erste Unternehmen, das Sie mit d
 
 ## Unternehmenszuweisung aus einem Benutzerkonto entfernen
 
-Wenn Sie eine Firma aus einem Benutzerprofil entfernen, wird der Benutzerzugriff auf diese Firma aufgehoben. Benutzerdaten bleiben in Admin verfügbar. Wenn Sie alle Unternehmenszuweisungen entfernen, ändert sich die _[!UICONTROL Customer Type]_in *[!UICONTROL Individual user]*Deaktivieren der B2B-Funktionen für das Konto.
+Wenn Sie eine Firma aus einem Benutzerprofil entfernen, wird der Benutzerzugriff auf diese Firma aufgehoben. Benutzerdaten bleiben in Admin verfügbar. Wenn Sie alle Unternehmenszuweisungen entfernen, ändert sich die _[!UICONTROL Customer Type]_&#x200B;in *[!UICONTROL Individual user]*&#x200B;Deaktivieren der B2B-Funktionen für das Konto.
 
 1. Bearbeiten Sie im Kundenraster in der Admin das zu aktualisierende Kundenprofil.
 

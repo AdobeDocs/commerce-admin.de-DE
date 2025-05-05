@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Optionen für neues Kundenkonto
 
-Im Abschnitt _[!UICONTROL Create New Account Options]_der Konfiguration werden die grundlegenden Kontooptionen mit erweiterten Optionen kombiniert, die sich auf die Validierung der MwSt.-ID und benutzerdefinierte Integrationen beziehen. Die folgenden Anweisungen decken nur die am häufigsten verwendeten Optionen ab. Informationen zu automatischen Kundengruppenzuweisungen finden Sie unter [MwSt.-Validierung](../stores-purchase/vat.md).
+Im Abschnitt _[!UICONTROL Create New Account Options]_&#x200B;der Konfiguration werden die grundlegenden Kontooptionen mit erweiterten Optionen kombiniert, die sich auf die Validierung der MwSt.-ID und benutzerdefinierte Integrationen beziehen. Die folgenden Anweisungen decken nur die am häufigsten verwendeten Optionen ab. Informationen zu automatischen Kundengruppenzuweisungen finden Sie unter [MwSt.-Validierung](../stores-purchase/vat.md).
 
 ![Neue Kontooptionen erstellen](assets/customer-configuration-create-new-account-options.png){width="600" zoomable="yes"}
 

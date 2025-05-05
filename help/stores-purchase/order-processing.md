@@ -38,7 +38,7 @@ Wenn ein Kunde eine Bestellung aufgibt, wird ein Kundenauftrag als temporärer D
 
 1. Suchen Sie die bestellen im Raster.
 
-1. Klicken Sie in der _[!UICONTROL Action]_Spalte auf .**[!UICONTROL View]**
+1. Klicken Sie in der _[!UICONTROL Action]_&#x200B;Spalte auf .**[!UICONTROL View]**
 
 1. Bestellstatus überprüfen:
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Kundenkennwörter zurücksetzen
 
-Kunden setzen ihre Kennwörter in der Regel aus der Storefront zurück, indem sie auf _[!UICONTROL Forgot Your Password?]_klicken. Der Store-Administrator kann jedoch entweder das Zurücksetzen des Kennworts oder eine erzwungene Anmeldung vom Administrator initiieren.
+Kunden setzen ihre Kennwörter in der Regel aus der Storefront zurück, indem sie auf _[!UICONTROL Forgot Your Password?]_&#x200B;klicken. Der Store-Administrator kann jedoch entweder das Zurücksetzen des Kennworts oder eine erzwungene Anmeldung vom Administrator initiieren.
 
 | Funktion | Beschreibung |
 | --- | --- |

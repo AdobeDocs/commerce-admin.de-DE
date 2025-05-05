@@ -49,9 +49,9 @@ Diese Verbesserung baut auf der Multi-Company-Membership-Funktion von B2B 1.5.0 
 
 ![Problem behoben](../assets/fix.svg) Die B2B-Version 1.5.2 enthält die folgenden Fehlerbehebungen für verhandelbare Angebote:
 
-- <!-- B2B-3252 -->Das Feld [!UICONTROL Line Item Discount Amount] validiert jetzt die Eingabe, um die Eingabe negativer Rabattwerte zu verhindern.
-- <!-- B2B-3224 -->Es wurde ein Problem mit dem Benutzererlebnis behoben, bei dem lange Zeileneintragsnotizen abgeschnitten und für B2B-Kunden schwer lesbar waren.
-- <!-- B2B-2865 -->B2B-Kunden können jetzt Produktmengen mithilfe von Dezimalwerten (z. B. 1.5 oder 2.75) angeben, wenn sie Angebote erstellen.
+- &#x200B;<!-- B2B-3252 -->Das Feld [!UICONTROL Line Item Discount Amount] validiert jetzt die Eingabe, um die Eingabe negativer Rabattwerte zu verhindern.
+- &#x200B;<!-- B2B-3224 -->Es wurde ein Problem mit dem Benutzererlebnis behoben, bei dem lange Zeileneintragsnotizen abgeschnitten und für B2B-Kunden schwer lesbar waren.
+- &#x200B;<!-- B2B-2865 -->B2B-Kunden können jetzt Produktmengen mithilfe von Dezimalwerten (z. B. 1.5 oder 2.75) angeben, wenn sie Angebote erstellen.
 
 ### Angebotsvorlage
 
@@ -566,7 +566,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Problem behoben](../assets/fix.svg) <!--- MC-40426--> Händler können jetzt den Endpunkt POST-`rest/all/V1/requisition_lists` verwenden, um eine Anforderungsliste für einen Kunden zu erstellen. Zuvor gab Adobe Commerce diesen 400-Fehler, als Sie versuchten, eine Anforderungsliste zu erstellen: `Could not save Requisition List`.
 
-![Problem behoben](../assets/fix.svg) <!--- MC-41123--> Die Schaltfläche **[!UICONTROL Add to Requisition List]** wird jetzt für die vorrätigen Produkte eines Warenkorbs angezeigt, wenn der Warenkorb auch nicht vorrätige Produkte enthält. Wenn ein Warenkorb zuvor zwei Produkte enthielt, von denen eines nicht vorrätig war, wurde bei keinem der Produkte die Schaltfläche _[!UICONTROL Add to Requisition List]_angezeigt.
+![Problem behoben](../assets/fix.svg) <!--- MC-41123--> Die Schaltfläche **[!UICONTROL Add to Requisition List]** wird jetzt für die vorrätigen Produkte eines Warenkorbs angezeigt, wenn der Warenkorb auch nicht vorrätige Produkte enthält. Wenn ein Warenkorb zuvor zwei Produkte enthielt, von denen eines nicht vorrätig war, wurde bei keinem der Produkte die Schaltfläche _[!UICONTROL Add to Requisition List]_&#x200B;angezeigt.
 
 ![Problem behoben](../assets/fix.svg) <!--- MC-40877--> Sie können jetzt die REST-API verwenden, um ein Produkt zu einer Anforderungsliste hinzuzufügen.
 
@@ -630,7 +630,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Fest Problem](../assets/fix.svg) Die Bestellung von Produkten per Produktnummer per Schnellbestellung führt nicht mehr dazu, dass die Produktmengen in der CSV Datei Duplikat werden. <!--- MC-37427-->
 
-![Fest Problem](../assets/fix.svg) Der **[!UICONTROL Add to Cart]** Button wird nicht mehr blockiert, wenn der _[!UICONTROL Enter Multiple SKUs]_Abschnitt der Schnellbestellung Seite einen leeren Wert enthält. Stattdessen zeigt Adobe Systems Commerce jetzt eine Meldung an, in der Sie zur Eingabe gültiger SKUs aufgefordert werden. <!--- MC-37387-->
+![Fest Problem](../assets/fix.svg) Der **[!UICONTROL Add to Cart]** Button wird nicht mehr blockiert, wenn der _[!UICONTROL Enter Multiple SKUs]_&#x200B;Abschnitt der Schnellbestellung Seite einen leeren Wert enthält. Stattdessen zeigt Adobe Systems Commerce jetzt eine Meldung an, in der Sie zur Eingabe gültiger SKUs aufgefordert werden. <!--- MC-37387-->
 
 ![Fest Problem](../assets/fix.svg) Adobe Systems Commerce zeigt jetzt diese Meldung auf der Produktseite an, wenn Sie eine Produktbewertung über eine Anforderung abgeben Liste: `You submitted your review for moderation`. Die Bewertung wird auch auf der Ausstehend Bewertungen Seite (Admin **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**) angezeigt. Obwohl Adobe Systems Commerce die Überprüfung zu den Liste der ausstehenden Überprüfungen hinzugefügt hatte, wurde zuvor ein 404-Fehler auf der Produktseite angezeigt. <!--- MC-37119-->
 
@@ -724,7 +724,7 @@ Diese Version enthält Verbesserungen in Bezug auf bestellen Genehmigungen, Vers
 
 ![Fest Problem](../assets/fix.svg) Sie können jetzt erfolgreich Multishipping für Bestellungen implementieren, die sowohl physische als auch virtuelle Produkte enthalten. <!--- MC-33818-->
 
-![Fest Problem](../assets/fix.svg) : Händler können jetzt Firma Benutzer aus dem Bereich auf den _[!UICONTROL Company Users]_Seiten &quot;Mein Konto&quot; und &quot;Unternehmensstruktur&quot; erstellen, wenn **[!UICONTROL Access Restriction]**diese Option aktiviert ist und **[!UICONTROL Restriction Mode]**auf `Sales: Login Only`eingestellt ist. Bisher gab Adobe Systems Commerce diesen Fehler aus, wenn ein Händler versuchte, eine User zu erstellen: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
+![Fest Problem](../assets/fix.svg) : Händler können jetzt Firma Benutzer aus dem Bereich auf den _[!UICONTROL Company Users]_&#x200B;Seiten &quot;Mein Konto&quot; und &quot;Unternehmensstruktur&quot; erstellen, wenn **[!UICONTROL Access Restriction]**&#x200B;diese Option aktiviert ist und **[!UICONTROL Restriction Mode]**&#x200B;auf `Sales: Login Only`eingestellt ist. Bisher gab Adobe Systems Commerce diesen Fehler aus, wenn ein Händler versuchte, eine User zu erstellen: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
 
 ![Fest Problem](../assets/fix.svg) Adobe Systems Commerce setzt die Kunden Gruppe eines Kunden nicht mehr auf die Standardeinstellungen zurück, wenn ein Kunde seine Konto Informationen speichert. <!--- MC-33554-->
 

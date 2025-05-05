@@ -20,7 +20,7 @@ Bei [konfigurierbaren Produkten](product-create-configurable.md) kann die Farbe 
 
 >[!NOTE]
 >
->Musterattribute können so konfiguriert werden, dass entsprechende einfache Produktbilder nicht angezeigt werden, wenn das Muster ausgewählt ist. Legen Sie dazu den Wert der Option _[!UICONTROL Update Product Preview Image]_auf der Seite [!UICONTROL Attribute Edit] in der Admin Console auf `No` fest.
+>Musterattribute können so konfiguriert werden, dass entsprechende einfache Produktbilder nicht angezeigt werden, wenn das Muster ausgewählt ist. Legen Sie dazu den Wert der Option _[!UICONTROL Update Product Preview Image]_&#x200B;auf der Seite [!UICONTROL Attribute Edit] in der Admin Console auf `No` fest.
 
 ## Textbasierte Farbfelder
 
@@ -58,7 +58,7 @@ Verwenden Sie eine der folgenden Methoden, um Farbfelder für Ihre Produkte zu e
 
 1. Wenn Sie es vorziehen, entsprechende einfache Produktbilder nicht anzuzeigen, wenn der Musterabschnitt „Farbfeld“ auf der Seite „Produktanzeige“ ausgewählt ist, legen Sie **[!UICONTROL Update Product Preview Image]** auf `No` fest.
 
-1. Klicken Sie unter _[!UICONTROL Manage Swatch (Values of Your Attribute)]_auf **[!UICONTROL Add Swatch]**und führen Sie folgende Schritte aus:
+1. Klicken Sie unter _[!UICONTROL Manage Swatch (Values of Your Attribute)]_&#x200B;auf **[!UICONTROL Add Swatch]**&#x200B;und führen Sie folgende Schritte aus:
 
    ![Verwalten von Farbfeldwerten](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -106,9 +106,9 @@ Verwenden Sie eine der folgenden Methoden, um Farbfelder für Ihre Produkte zu e
 
 1. Wenn Sie es vorziehen, entsprechende einfache Produktbilder nicht anzuzeigen, wenn der Musterabschnitt „Farbfeld“ auf der Seite „Produktanzeige“ ausgewählt ist, legen Sie **[!UICONTROL Update Product Preview Image]** auf `No` fest.
 
-1. Klicken Sie unter _[!UICONTROL Manage Swatch]_(Werte Ihres Attributs) auf **[!UICONTROL Add Swatch]**und führen Sie folgende Schritte aus:
+1. Klicken Sie unter _[!UICONTROL Manage Swatch]_(Werte Ihres Attributs) auf **[!UICONTROL Add Swatch]**&#x200B;und führen Sie folgende Schritte aus:
 
-   - Klicken Sie in der Spalte _[!UICONTROL Swatch]_auf das neue Farbfeld, um das Menü anzuzeigen, und wählen Sie **[!UICONTROL Upload a file]**aus.
+   - Klicken Sie in der Spalte _[!UICONTROL Swatch]_&#x200B;auf das neue Farbfeld, um das Menü anzuzeigen, und wählen Sie **[!UICONTROL Upload a file]**&#x200B;aus.
 
    - Navigieren Sie zur von Ihnen vorbereiteten Musterdatei und wählen Sie die hochzuladende Datei aus.
 
