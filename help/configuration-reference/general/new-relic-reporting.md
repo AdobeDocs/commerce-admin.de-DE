@@ -17,13 +17,13 @@ ht-degree: 0%
 >[!NOTE]
 >Diese Konfigurationsoptionen gelten nicht für Adobe Commerce in der Cloud-Infrastruktur.
 >
->Wenn Sie den Pro-Plan verwenden, ist New Relic bereits [vorkonfiguriert und standardmäßig aktiviert](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Wenn Sie den Starter-Plan verwenden, müssen Sie die [New Relic-Konfigurationsschritte](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) ausführen, die Teil des Einrichtungsprozesses sind.
+>Wenn Sie den Pro-Plan verwenden, ist New Relic bereits [vorkonfiguriert und standardmäßig aktiviert](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=de). Wenn Sie den Starter-Plan verwenden, müssen Sie die [New Relic-Konfigurationsschritte](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=de#configure-new-relic-for-starter-environment) ausführen, die Teil des Einrichtungsprozesses sind.
 
 ## [!UICONTROL General]
 
 ![Allgemein](./assets/new-relic-reporting-general.png)<!-- zoom -->
 
-<!-- [General](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting) -->
+<!-- [General](https://experienceleague.adobe.com/de/docs/commerce-admin/start/reporting/new-relic-reporting) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![Cron](./assets/new-relic-reporting-cron.png)<!-- zoom -->
 
-<!-- Cron](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cron) -->
+<!-- Cron](https://experienceleague.adobe.com/de/docs/commerce-admin/systems/tools/cron) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

@@ -40,7 +40,7 @@ Mit Adobe Commerce oder Magento Open Source 2.4 können Händler den neuen _erwe
 
 >[!NOTE]
 >
->Für die volle Funktionalität neuer [!DNL Media Gallery] müssen `media.gallery.synchronization`- und `media.content.synchronization`-Warteschlangenverbraucher für die Erstsynchronisierung gestartet werden. Weitere [ finden Sie unter „Verwalten ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) Nachrichtenwarteschlangen _im_ Konfigurationshandbuch“.
+>Für die volle Funktionalität neuer [!DNL Media Gallery] müssen `media.gallery.synchronization`- und `media.content.synchronization`-Warteschlangenverbraucher für die Erstsynchronisierung gestartet werden. Weitere [ finden Sie unter „Verwalten ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=de) Nachrichtenwarteschlangen _im_ Konfigurationshandbuch“.
 
 ## Zugriff auf die neue [!DNL Media Gallery]
 

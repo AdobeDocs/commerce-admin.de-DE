@@ -58,5 +58,5 @@ ht-degree: 5%
    - [Übersicht](shipments.md)
    - [Sendungen erstellen](shipments-create.md)
 - [CLI-Referenz](cli.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
 

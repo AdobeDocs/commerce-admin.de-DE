@@ -35,7 +35,7 @@ Stellen Sie sicher, dass Sie die Vorlage [E-Mail](../systems/email-template-cust
    - `Disable` - Sendet eine Verkaufs-E-Mail, wenn sie durch ein Ereignis ausgelöst wird.
    - `Enable` - Sendet Verkaufs-E-Mails in vorab festgelegten, regelmäßigen Abständen.
 
-   Der Adobe Commerce-Support empfiehlt die Aktivierung des asynchronen Versands, um die Leistung bei der Bestellplatzierung zu verbessern. Siehe [Best Practices für die Konfiguration der Auftragsverarbeitung](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html) in der Wissensdatenbank zum Adobe Commerce-Support.
+   Der Adobe Commerce-Support empfiehlt die Aktivierung des asynchronen Versands, um die Leistung bei der Bestellplatzierung zu verbessern. Siehe [Best Practices für die Konfiguration der Auftragsverarbeitung](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=de) in der Wissensdatenbank zum Adobe Commerce-Support.
 
 ## Schritt 3. Füllen Sie die Details für jede Verkaufs-E-Mail-Nachricht aus
 

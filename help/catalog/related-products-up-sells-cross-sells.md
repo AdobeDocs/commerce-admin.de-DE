@@ -35,7 +35,7 @@ Jeder Baustein besteht aus einer Liste von Produkten, die zu einer bestimmten Op
 >
 >![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) **Product Recommendations powered by Adobe Sensei** vereinfacht die Definition von Produktbeziehungen durch die Verwendung von Algorithmen für künstliche Intelligenz und maschinelles Lernen, um eine gründliche Analyse aggregierter Besucherdaten durchzuführen. Wenn diese Daten mit Ihrem Adobe Commerce-Katalog kombiniert werden, ergeben sich für den Erstkäufer sehr ansprechende, relevante und personalisierte Erlebnisse.
 ><br/>
->Weitere Informationen zur Verwendung dieser von Adobe entwickelten Erweiterung als Alternative zu manuell konfigurierten Produktempfehlungen und Upsells finden Sie im _[Product Recommendations Guide](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
+>Weitere Informationen zur Verwendung dieser von Adobe entwickelten Erweiterung als Alternative zu manuell konfigurierten Produktempfehlungen und Upsells finden Sie im _[Product Recommendations Guide](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=de)_.
 
 ## Verwandte Produkte
 

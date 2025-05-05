@@ -43,7 +43,7 @@ Neuindizierung und Caching haben in Commerce unterschiedliche Zwecke. Indizes ve
 
 >[!IMPORTANT]
 >
->Für Stores, die [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) verwenden und Elasticsearch als Volltext(`catalogsearch_fulltext`)-Indexer festgelegt haben: Der Volltext-Index muss nach jeder Massenberechtigungsänderung erneut ausgeführt werden oder wenn sich der Indexer „Berechtigungen“ im Modus „Geplant“ befindet.
+>Für Stores, die [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=de) verwenden und Elasticsearch als Volltext(`catalogsearch_fulltext`)-Indexer festgelegt haben: Der Volltext-Index muss nach jeder Massenberechtigungsänderung erneut ausgeführt werden oder wenn sich der Indexer „Berechtigungen“ im Modus „Geplant“ befindet.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -76,7 +76,7 @@ Neuindizierung und Caching haben in Commerce unterschiedliche Zwecke. Indizes ve
 
 ## Neuindizieren über die Befehlszeile
 
-Commerce bietet zusätzliche Neuindizierungsoptionen über die Befehlszeile. Umfassende Details und Befehlsoptionen finden Sie unter [Neuindizieren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} im _Konfigurationshandbuch_.
+Commerce bietet zusätzliche Neuindizierungsoptionen über die Befehlszeile. Umfassende Details und Befehlsoptionen finden Sie unter [Neuindizieren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=de#reindex){:target="blank"} im _Konfigurationshandbuch_.
 
 ## Trigger-Ereignisse indizieren
 

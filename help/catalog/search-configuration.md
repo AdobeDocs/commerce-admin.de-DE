@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Konfigurieren der Katalogsuche
 
-Es gibt zwei Varianten der Konfiguration für die Katalogsuche. Die erste Methode beschreibt die verfügbaren Einstellungen, wenn [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) installiert ist. Die zweite Methode beschreibt die Konfigurationseinstellungen für native Adobe Commerce mit [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html){:target="_blank"}.
+Es gibt zwei Varianten der Konfiguration für die Katalogsuche. Die erste Methode beschreibt die verfügbaren Einstellungen, wenn [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=de) installiert ist. Die zweite Methode beschreibt die Konfigurationseinstellungen für native Adobe Commerce mit [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html?lang=de){:target="_blank"}.
 
 >[!NOTE]
 >
->Informationen zu Cloud-Infrastrukturprojekten finden Sie in den zusätzlichen Anweisungen im [_Handbuch zu Commerce on Cloud Infrastructure_](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch).
+>Informationen zu Cloud-Infrastrukturprojekten finden Sie in den zusätzlichen Anweisungen im [_Handbuch zu Commerce on Cloud Infrastructure_](https://experienceleague.adobe.com/de/docs/commerce-cloud-service/user-guide/configure/service/opensearch).
 
 ## Methode 1: Adobe Commerce mit [!DNL Live Search]
 
@@ -36,7 +36,7 @@ Es gibt zwei Varianten der Konfiguration für die Katalogsuche. Die erste Method
 
    Der Standardwert ist `100`. Bei Eingabe des Werts `0` werden alle Suchbegriffe und Ergebnisse bei einer zweiten Eingabe zwischengespeichert.
 
-1. Um die maximale Anzahl von Zeilen zu ändern, die für zurückgegebene Ergebnisse im „Storefront[Pop-Over“ verfügbar sind](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html) geben Sie einen anderen **[!UICONTROL Autocomplete Limit]** ein.
+1. Um die maximale Anzahl von Zeilen zu ändern, die für zurückgegebene Ergebnisse im „Storefront[Pop-Over“ verfügbar sind](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-storefront/quick-tour.html?lang=de) geben Sie einen anderen **[!UICONTROL Autocomplete Limit]** ein.
 
    Durch die Begrenzung der Zeilenanzahl wird die Leistung der Suchvorgänge verbessert und die Größe der zurückgegebenen Liste verringert. Der Standardwert ist `8` Zeilen.
 
@@ -44,7 +44,7 @@ Es gibt zwei Varianten der Konfiguration für die Katalogsuche. Die erste Method
 
 >[!IMPORTANT]
 >
->- Aufgrund der Ankündigung zum [!DNL Elasticsearch 7] Ende der Unterstützung für August 2023 wird empfohlen, dass alle Adobe Commerce-Kunden zur OpenSearch 2.x -Suchmaschine migrieren. Informationen zur Migration Ihrer Suchmaschine während des Produkt-Upgrades finden Sie unter [Migration zu OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) im _Upgrade-Handbuch_.
+>- Aufgrund der Ankündigung zum [!DNL Elasticsearch 7] Ende der Unterstützung für August 2023 wird empfohlen, dass alle Adobe Commerce-Kunden zur OpenSearch 2.x -Suchmaschine migrieren. Informationen zur Migration Ihrer Suchmaschine während des Produkt-Upgrades finden Sie unter [Migration zu OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=de) im _Upgrade-Handbuch_.
 >- In den Versionen 2.4.4 und 2.4.3-p2 gelten alle Felder mit der Bezeichnung Elasticsearch auch für OpenSearch. Mit der Einführung der Unterstützung für Elasticsearch 8.x in Version 2.4.6 wurden neue Bezeichnungen erstellt, um zwischen Elasticsearch- und OpenSearch-Konfigurationen zu unterscheiden. Die Konfigurationsoptionen für beide sind jedoch identisch.
 
 ### Schritt 1: Konfigurieren der allgemeinen Suchoptionen

@@ -86,7 +86,7 @@ Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und
 
      >[!NOTE]
      >
-     >Zum Konfigurieren und Unterstützen _asynchroner Warteschlangenmanager_ müssen Sie einen Befehl über die Befehlszeile eingeben. Für diesen Schritt ist möglicherweise die Unterstützung eines Entwicklers erforderlich. Siehe [Starten von Nachrichtenwarteschlangen-](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) im _Konfigurationshandbuch_.
+     >Zum Konfigurieren und Unterstützen _asynchroner Warteschlangenmanager_ müssen Sie einen Befehl über die Befehlszeile eingeben. Für diesen Schritt ist möglicherweise die Unterstützung eines Entwicklers erforderlich. Siehe [Starten von Nachrichtenwarteschlangen-](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=de) im _Konfigurationshandbuch_.
 
    - Wenn aktiviert, legen Sie die **[!UICONTROL Asynchronous batch size]** fest. Die standardmäßige Batch-Größe ist 100. Wenn Massenprozesse diesen Wert erreichen, wird er vom System Trigger.
 

@@ -22,7 +22,7 @@ Die erweiterte Sicherheitsüberprüfung ermöglicht es Ihnen, jede Ihrer Adobe C
 - Zugriff auf historische Sicherheitsberichte, die den Fortschritt Ihrer Sites verfolgen und überwachen.
 - Greifen Sie mit allen empfohlenen Aktionen auf den Scanbericht zu, der erfolgreiche und fehlgeschlagene Prüfungen anzeigt.
 
-Das Tool zur Sicherheitsüberprüfung steht kostenlos im Dashboard Ihres [Commerce/Magento-Kontos zur ](../getting-started/commerce-account-create.md). Technische Informationen finden Sie unter [Einrichten des Sicherheits-Scan-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html#set-up-the-security-scan-tool) im Handbuch zu _Commerce in Cloud-Infrastrukturen_.
+Das Tool zur Sicherheitsüberprüfung steht kostenlos im Dashboard Ihres [Commerce/Magento-Kontos zur ](../getting-started/commerce-account-create.md). Technische Informationen finden Sie unter [Einrichten des Sicherheits-Scan-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/overview.html?lang=de#set-up-the-security-scan-tool) im Handbuch zu _Commerce in Cloud-Infrastrukturen_.
 
 ![Sicherheits-Scan-Tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 

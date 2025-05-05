@@ -38,6 +38,6 @@ Es gibt viele Lichtboxen und Schieberegler von Drittanbietern, die Sie verwenden
 
 Hilfe bei der Fehlerbehebung bei Bild- und Videoproblemen finden Sie in den folgenden Artikeln in der Commerce-Support-Wissensdatenbank:
 
-- [Nach der Installation werden Bilder und Stylesheets nicht geladen. Es wird nur Text angezeigt, keine Grafiken](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html)
-- [Produktbilder werden trotz der Rollen „Produktbild bearbeiten“ nicht angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
-- [Speichern von Bildern, die nach der Bereitstellung nicht angezeigt werden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
+- [Nach der Installation werden Bilder und Stylesheets nicht geladen. Es wird nur Text angezeigt, keine Grafiken](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html?lang=de)
+- [Produktbilder werden trotz der Rollen „Produktbild bearbeiten“ nicht angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=de)
+- [Speichern von Bildern, die nach der Bereitstellung nicht angezeigt werden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=de)

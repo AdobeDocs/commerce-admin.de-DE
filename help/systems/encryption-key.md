@@ -15,13 +15,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Wenn Sie versucht haben, diese Schritte auszuführen und Probleme haben, lesen Sie den Artikel [Fehlerbehebung bei der Rotation von Verschlüsselungsschlüsseln: CVE-2024-34102](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) Knowledge Base“.
+>Wenn Sie versucht haben, diese Schritte auszuführen und Probleme haben, lesen Sie den Artikel [Fehlerbehebung bei der Rotation von Verschlüsselungsschlüsseln: CVE-2024-34102](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) Knowledge Base“.
 
 Adobe Commerce und Magento Open Source verwenden zum Schutz von Passwörtern und anderen sensiblen Daten einen Verschlüsselungsschlüssel. Ein [!DNL ChaCha20-Poly1305]-Algorithmus nach Industriestandard wird mit einem 256-Bit-Schlüssel verwendet, um alle Daten zu verschlüsseln, die verschlüsselt werden müssen. Dazu gehören Kreditkartendaten und Passwörter für die Integration (Zahlungs- und Versandmodul). Darüber hinaus wird ein starker sicherer Hash-Algorithmus (SHA-256) verwendet, um alle Daten zu hashen, für die keine Entschlüsselung erforderlich ist.
 
 Während der Erstinstallation werden Sie aufgefordert, Commerce entweder einen eigenen Verschlüsselungsschlüssel generieren zu lassen oder einen eigenen einzugeben. Mit dem Verschlüsselungsschlüssel-Tool können Sie den Schlüssel nach Bedarf ändern. Der Verschlüsselungsschlüssel sollte regelmäßig geändert werden, um die Sicherheit zu verbessern, und der ursprüngliche Schlüssel kann jederzeit gefährdet sein.
 
-Technische Informationen finden Sie unter [Erweiterte lokale Installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) im _Installationshandbuch_ und [Datenwiederverschlüsselung](https://developer.adobe.com/commerce/php/development/security/data-encryption/) im _PHP-Entwicklerhandbuch_.
+Technische Informationen finden Sie unter [Erweiterte lokale Installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=de) im _Installationshandbuch_ und [Datenwiederverschlüsselung](https://developer.adobe.com/commerce/php/development/security/data-encryption/) im _PHP-Entwicklerhandbuch_.
 
 >[!IMPORTANT]
 >
@@ -32,7 +32,7 @@ Technische Informationen finden Sie unter [Erweiterte lokale Installation](https
 
 Für die folgenden Anweisungen ist der Zugriff auf ein Terminal erforderlich.
 
-1. Aktivieren [Wartungsmodus](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
+1. Aktivieren [Wartungsmodus](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/setup/application-modes#maintenance-mode).
 
    ```bash
    bin/magento maintenance:enable

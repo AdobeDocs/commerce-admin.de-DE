@@ -52,5 +52,5 @@ Unternehmen, die die DSGVO einhalten, können zusätzliche Verpflichtungen im Ra
 - Datenflussdiagramme und die Datenbankentitätszuordnung finden Sie unter [Referenz zu personenbezogenen Informationen][2]{: target="_blank"}.
 
 [1]: https://business.adobe.com/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html
+[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=de
 [3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf

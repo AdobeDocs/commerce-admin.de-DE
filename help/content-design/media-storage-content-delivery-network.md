@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Verwenden eines Netzwerks zur Inhaltsbereitstellung
 
-Ein Content Delivery Network (CDN) kann zum Speichern von Mediendateien verwendet werden. Adobe Commerce in Cloud-Infrastruktur umfasst das Fastly CDN (siehe [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) im _Handbuch zu Commerce in Cloud-Infrastruktur_). Bei einer (On _Premise) installierten Commerce_ Instanz ist keine Integration mit einem bestimmten CDN vorhanden. Sie können das CDN Ihrer Wahl verwenden.
+Ein Content Delivery Network (CDN) kann zum Speichern von Mediendateien verwendet werden. Adobe Commerce in Cloud-Infrastruktur umfasst das Fastly CDN (siehe [Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=de) im _Handbuch zu Commerce in Cloud-Infrastruktur_). Bei einer (On _Premise) installierten Commerce_ Instanz ist keine Integration mit einem bestimmten CDN vorhanden. Sie können das CDN Ihrer Wahl verwenden.
 
 Nach der Konfiguration des CDN müssen Sie die Konfiguration über den Administrator abschließen. Die Änderungen können entweder auf globaler oder auf Website-Ebene vorgenommen werden. Wenn ein CDN für die Medienspeicherung verwendet wird, werden alle Pfade zu Medien auf Commerce-Speicherseiten in die in der Konfiguration angegebenen CDN-Pfade geändert.
 

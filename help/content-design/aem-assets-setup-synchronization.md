@@ -16,7 +16,7 @@ Konfigurieren Sie die Integration, indem Sie Commerce mit der AEM Assets-Instanz
 
 Nachdem Sie das AEM Assets-Projekt identifiziert haben, wählen Sie die Zuordnungsregel für die Synchronisierung von Assets zwischen Adobe Commerce und AEM Assets aus.
 
-- **[!UICONTROL Match by product SKU]** - Standardregel, die die SKU in den Asset-Metadaten mit der [Commerce-Produkt-SKU](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku) abgleicht, um sicherzustellen, dass Assets mit den richtigen Produkten verknüpft sind.
+- **[!UICONTROL Match by product SKU]** - Standardregel, die die SKU in den Asset-Metadaten mit der [Commerce-Produkt-SKU](https://experienceleague.adobe.com/de/docs/commerce-operations/implementation-playbook/glossary#sku) abgleicht, um sicherzustellen, dass Assets mit den richtigen Produkten verknüpft sind.
 
 - **[!UICONTROL Custom match]** - Matching-Regel für komplexere Szenarien oder spezifische Geschäftsanforderungen, die eine benutzerdefinierte Matching-Logik erfordern. Für die Implementierung des benutzerdefinierten Abgleichs ist die Entwicklung von benutzerdefiniertem Code in Adobe Developer App Builder erforderlich, um zu definieren, wie Assets mit Produkten abgeglichen werden. Weitere Details folgen in Kürze…
 
@@ -30,11 +30,11 @@ Verwenden Sie für die Ersteinrichtung die Standardregel *Übereinstimmung nach 
 
 - Erstellen Sie ein Support-Ticket, um die Aktivierung für die Integration von AEM Assets für Commerce anzufordern. Fügen Sie im Ticket die **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** und **[!UICONTROL IMS Org ID]** für die AEM Assets-Authoring-Umgebung ein, mit der Sie eine Verbindung zu Commerce herstellen möchten.
 
-- Geben Sie die **[!UICONTROL Asset Selector IMS Client ID]** an. Siehe [ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) in der *AEM Assets-Selektor*-Dokumentation.
+- Geben Sie die **[!UICONTROL Asset Selector IMS Client ID]** an. Siehe [ImsAuthProps](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app) in der *AEM Assets-Selektor*-Dokumentation.
 
 ## Konfigurieren der Verbindung
 
-1. Rufen Sie die Projekt- und Umgebungs-ID der [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start)0&rbrace;AEM Assets-Autorenumgebung ab.
+1. Rufen Sie die Projekt- und Umgebungs-ID der [&#128279;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/authoring/quick-start)0&rbrace;AEM Assets-Autorenumgebung ab.
 
    1. Öffnen Sie die AEM Sites-Konsole und wählen Sie **[!UICONTROL Assets]** aus.
 
@@ -51,7 +51,7 @@ Verwenden Sie für die Ersteinrichtung die Standardregel *Übereinstimmung nach 
 
 1. Geben Sie die **[!UICONTROL Asset Selector IMS Client ID]** ein.
 
-   Die [Asset-Selektor-IMS](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props)Client-ID) wird vom [!UICONTROL Assets Selector] benötigt, einer AEM Assets-Funktion, mit der Benutzende visuelle Assets direkt in Commerce-Produktseiten einbetten können.
+   Die [Asset-Selektor-IMS](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props)Client-ID) wird vom [!UICONTROL Assets Selector] benötigt, einer AEM Assets-Funktion, mit der Benutzende visuelle Assets direkt in Commerce-Produktseiten einbetten können.
 
 1. Wählen Sie die [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) für die Authentifizierung von Anfragen zwischen Commerce und dem Asset Matching-Service aus.
 

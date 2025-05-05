@@ -34,5 +34,5 @@ Bevor Sie Produkte zu Ihrem Katalog hinzufügen, sollten Sie die grundlegende Ka
 
 Hilfe bei der Fehlerbehebung bei Kategorieproblemen finden Sie in den folgenden Knowledge Base-Artikeln zum Commerce-Support:
 
-- [Änderungen an Kategorien werden nicht gespeichert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
-- [Hauptmenü (Kategorien) wird nicht auf Unterseiten angezeigt, wenn Fastly aktiviert ist](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html)
+- [Änderungen an Kategorien werden nicht gespeichert](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html?lang=de)
+- [Hauptmenü (Kategorien) wird nicht auf Unterseiten angezeigt, wenn Fastly aktiviert ist](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.html?lang=de)

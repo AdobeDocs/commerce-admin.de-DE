@@ -80,7 +80,7 @@ Das Kontrollkästchen in der ersten Spalte wird verwendet, um Attribute aus der 
 
 1. Scrollen Sie nach unten und klicken Sie in der rechten unteren Ecke der Seite auf **[!UICONTROL Continue]** .
 
-   Nach Abschluss der Aufgabe wird die Datei über eine Nachrichtenwarteschlange verarbeitet (stellen Sie sicher, dass Ihr Cron-Auftrag ausgeführt wird). Die exportierte Datei wird im `var/export/ folder` gespeichert. Weitere Informationen zur Nachrichtenwarteschlange finden Sie unter [Verwalten von Nachrichtenwarteschlangen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) im _Konfigurationshandbuch_.
+   Nach Abschluss der Aufgabe wird die Datei über eine Nachrichtenwarteschlange verarbeitet (stellen Sie sicher, dass Ihr Cron-Auftrag ausgeführt wird). Die exportierte Datei wird im `var/export/ folder` gespeichert. Weitere Informationen zur Nachrichtenwarteschlange finden Sie unter [Verwalten von Nachrichtenwarteschlangen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=de) im _Konfigurationshandbuch_.
 
    Sie können die exportierte CSV-Datei als Tabelle speichern oder öffnen, dann die Daten bearbeiten und sie wieder in Ihren Store importieren.
 
@@ -92,4 +92,4 @@ Das Kontrollkästchen in der ersten Spalte wird verwendet, um Attribute aus der 
 
 Hilfe bei der Fehlerbehebung bei Problemen mit dem Datenexport finden Sie in den folgenden Artikeln der Commerce-Support-Wissensdatenbank:
 
-- [Exportierte Produkte.csv-Datei wird nicht angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
+- [Exportierte Produkte.csv-Datei wird nicht angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=de)

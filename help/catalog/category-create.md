@@ -116,7 +116,7 @@ Definieren Sie auch alle zugehörigen Keywords und Attribute, z. B.:
 
 1. Wenn die Kategorieseite den _`Filter by Attribute`_Abschnitt der mehrschichtigen Navigation enthalten soll, setzen Sie **[!UICONTROL Anchor]**&#x200B;auf `Yes`.
 
-1. Wählen Sie für die **[!UICONTROL Available Product Listing Sort By]** Optionen einen oder mehrere der verfügbaren Werte aus, damit Kunden die Liste sortieren können. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Wählen Sie für die **[!UICONTROL Available Product Listing Sort By]** Optionen einen oder mehrere der verfügbaren Werte aus, damit Kunden die Liste sortieren können. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-storefront/plp-styling).
 
    Standardmäßig sind alle verfügbaren Werte enthalten. Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use All]** , um die Auswahl zu ändern. Die Werte können beispielsweise Folgendes umfassen:
 
@@ -124,7 +124,7 @@ Definieren Sie auch alle zugehörigen Keywords und Attribute, z. B.:
    - `Product Name`
    - `Price`
 
-1. Um die standardmäßige Sortierreihenfolge für die Kategorie festzulegen, wählen Sie den **[!UICONTROL Default Product Listing Sort By]** aus. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
+1. Um die standardmäßige Sortierreihenfolge für die Kategorie festzulegen, wählen Sie den **[!UICONTROL Default Product Listing Sort By]** aus. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-storefront/plp-styling).
 
 1. Gehen Sie wie folgt vor, um die Standardeinstellung für [ Navigation (](navigation-layered.md#configure-price-navigation)) zu ändern:
 

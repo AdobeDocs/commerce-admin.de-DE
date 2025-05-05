@@ -187,4 +187,4 @@ Alle Aktionen im Zusammenhang mit Belohnungspunkten werden im _[!UICONTROL Rewar
 
 Hilfe bei der Fehlerbehebung bei Problemen mit Belohnungspunkten finden Sie in den folgenden Artikeln der Commerce Support Knowledge Base:
 
-- [404-Fehler - Entfernen von Belohnungspunkten beim Multi-Shipping-Checkout](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html)
+- [404-Fehler - Entfernen von Belohnungspunkten beim Multi-Shipping-Checkout](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=de)

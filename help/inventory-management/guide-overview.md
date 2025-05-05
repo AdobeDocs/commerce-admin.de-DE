@@ -49,5 +49,5 @@ Siehe [[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/
 
 Wenn Sie Informationen benötigen oder Fragen haben, die in diesem Handbuch nicht behandelt werden, verwenden Sie die folgenden Ressourcen:
 
-- [Lagerstatus nach der Bestandsinstallation falsch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html)
-- [Support-](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket): Senden Sie ein Ticket, um zusätzliche Hilfe zu erhalten.
+- [Lagerstatus nach der Bestandsinstallation falsch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.html?lang=de)
+- [Support-](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=de#submit-ticket): Senden Sie ein Ticket, um zusätzliche Hilfe zu erhalten.

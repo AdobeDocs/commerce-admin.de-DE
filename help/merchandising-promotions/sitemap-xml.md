@@ -97,7 +97,7 @@ Gehen Sie wie folgt vor, um Sitemaps für eine Multi-Store-Instanz zu erstellen:
    
 >[!NOTE]
 >
->Wenn Ihre Site die [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html)-Webserver-Engine verwendet, sollten Sie die [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)-Datei im Stammverzeichnis Ihrer Website aktualisieren, um alle anderen Sitemap-Anfragen an den richtigen Ort zu leiten.
+>Wenn Ihre Site die [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=de)-Webserver-Engine verwendet, sollten Sie die [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)-Datei im Stammverzeichnis Ihrer Website aktualisieren, um alle anderen Sitemap-Anfragen an den richtigen Ort zu leiten.
 
 ## Spaltenbeschreibungen
 
@@ -223,6 +223,6 @@ Ihre Sitemap sollte so oft aktualisiert werden, wie sich der Inhalt auf Ihrer Si
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=de
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

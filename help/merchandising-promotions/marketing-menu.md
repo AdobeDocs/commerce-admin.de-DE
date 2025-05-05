@@ -35,11 +35,11 @@ Private Verkäufe und andere Katalogveranstaltungen sind eine hervorragende Mög
 
 ### [!UICONTROL Channels]
 
-Umsatzsteigerung durch die Erweiterung des Umsatzes auf weitere Webstores mit [Amazon Marketplace-Integration](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html). Das Untermenü Kanäle wird nur angezeigt, wenn Amazon Sales Channel konfiguriert ist.
+Umsatzsteigerung durch die Erweiterung des Umsatzes auf weitere Webstores mit [Amazon Marketplace-Integration](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=de). Das Untermenü Kanäle wird nur angezeigt, wenn Amazon Sales Channel konfiguriert ist.
 
 >[!TIP]
 >
->Channel Manager hilft Händlern, den Umsatz zu steigern, neue Kunden zu erreichen, den Vertriebsbetrieb zu optimieren und Zeit zu sparen, indem ein Adobe Commerce- oder Magento Open Source-Produktkatalog mit dem Walmart Marketplace integriert wird. Weitere Informationen [_Installation, Onboarding, Konfiguration und Management von Channel Manager finden Sie im_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html)Channel Manager-Handbuch).
+>Channel Manager hilft Händlern, den Umsatz zu steigern, neue Kunden zu erreichen, den Vertriebsbetrieb zu optimieren und Zeit zu sparen, indem ein Adobe Commerce- oder Magento Open Source-Produktkatalog mit dem Walmart Marketplace integriert wird. Weitere Informationen [_Installation, Onboarding, Konfiguration und Management von Channel Manager finden Sie im_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html?lang=de)Channel Manager-Handbuch).
 
 ### [!UICONTROL Communications]
 

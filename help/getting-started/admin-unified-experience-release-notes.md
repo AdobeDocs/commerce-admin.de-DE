@@ -19,7 +19,7 @@ In diesen Versionshinweisen für die Commerce Admin Unified Experience Extension
 
 >[!NOTE]
 >
->Unter [Produktverfügbarkeit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) finden Sie detaillierte Informationen zum Versionsstatus der einheitlichen Admin-Erlebniserweiterung in Bezug auf Adobe Commerce.
+>Unter [Produktverfügbarkeit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=de) finden Sie detaillierte Informationen zum Versionsstatus der einheitlichen Admin-Erlebniserweiterung in Bezug auf Adobe Commerce.
 
 ## Version 1.0
 

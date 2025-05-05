@@ -110,7 +110,7 @@ Bevor Sie versuchen, viele Bilder zu importieren, überprüfen Sie die Schritte 
 
    Wenn Sie mehrere Bilder für ein einzelnes `sku` importieren, fügen Sie die Bilder in eine Spalte mit dem Namen `additional_images` ein (fügen Sie die Spalte hinzu, falls noch nicht hinzugefügt), getrennt durch Kommas: `image02.jpg,image03.jpg`
 
-Weitere Informationen zur Aktivierung und Verwaltung des Remote-Speichermoduls finden Sie unter [Konfigurieren von Remote](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html) im _Konfigurationshandbuch_.
+Weitere Informationen zur Aktivierung und Verwaltung des Remote-Speichermoduls finden Sie unter [Konfigurieren von Remote](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage.html?lang=de) im _Konfigurationshandbuch_.
 
 >[!NOTE]
 >

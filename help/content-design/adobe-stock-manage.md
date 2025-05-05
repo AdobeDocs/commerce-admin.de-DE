@@ -118,13 +118,13 @@ Jedes Bild verfügt über Details, die angezeigt werden können. Über diese Det
 
 ## Beim Adobe-Konto anmelden
 
-Um vollständigen Zugriff auf ein Bild zu erhalten und das Adobe Stock-Wasserzeichen zu entfernen, müssen Sie [mit einem Adobe-Konto anmelden](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) und Credits für die Lizenzrechte zur Verwendung eines Bildes erwerben.
+Um vollständigen Zugriff auf ein Bild zu erhalten und das Adobe Stock-Wasserzeichen zu entfernen, müssen Sie [mit einem Adobe-Konto anmelden](https://helpx.adobe.com/de/manage-account/using/access-adobe-id-account.html) und Credits für die Lizenzrechte zur Verwendung eines Bildes erwerben.
 
 1. [Zugriff auf das Adobe Stock-](#access-the-adobe-stock-search-grid).
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Sign In]** .
 
-   Ein neues Browser-Fenster führt Sie durch den [Adobe-Anmeldeprozess](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+   Ein neues Browser-Fenster führt Sie durch den [Adobe-Anmeldeprozess](https://helpx.adobe.com/de/manage-account/using/access-adobe-id-account.html).
 
    Nach Abschluss des Anmeldevorgangs wird der lizenzierte Status von Bildern in den Suchergebnissen als Kennzeichnung angezeigt.
 
@@ -178,7 +178,7 @@ Adobe Stock-Assets, die Sie für Ihre Produktions-[!DNL Commerce] verwenden möc
 
      >[!NOTE]
      >
-     >Sie müssen über [Adobe Stock-Guthaben](https://helpx.adobe.com/stock/help/credit-packs.html) in Ihrem Konto verfügen, um das Bild zu lizenzieren.
+     >Sie müssen über [Adobe Stock-Guthaben](https://helpx.adobe.com/de/stock/help/credit-packs.html) in Ihrem Konto verfügen, um das Bild zu lizenzieren.
 
    In dieser Aktion werden Sie aufgefordert, einen Dateinamen anzugeben, mit dem das Bild im [Medienspeicher“ gespeichert ](media-storage.md). Es wird ein standardmäßiger Dateiname bereitgestellt, Sie können den Namen jedoch an Ihre Anforderungen anpassen.
 

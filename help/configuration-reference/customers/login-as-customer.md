@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ![Als Kunde anmelden - Allgemeine Optionen](./assets/login-as-customer.png)<!-- zoom -->
 
-<!-- [Login As Customer - General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
+<!-- [Login As Customer - General Options](https://experienceleague.adobe.com/de/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer) -->
 
 | Option | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |-- | -- | -- |

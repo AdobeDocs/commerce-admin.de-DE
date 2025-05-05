@@ -187,5 +187,5 @@ Das Suchfeld oben links im Raster Bestellungen kann verwendet werden, um bestimm
 
 Hilfe bei der Fehlerbehebung bei Bestellproblemen finden Sie in den folgenden Artikeln der Commerce Support Knowledge Base:
 
-- [Fehler bei der Anzeige von Bestellungen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html)
+- [Fehler bei der Anzeige von Bestellungen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=de)
 - [Bestellungen werden nicht im Raster Bestellungen im Admin-Bereich angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Wenn Sie Hilfe bei unerwarteten Gebühren auf Ihrer Karte benötigen, besuchen Sie die Seite [Abonnement kündigen](https://helpx.adobe.com/manage-account/using/cancel-subscription.html), um Hilfe zu erhalten.
+>Wenn Sie Hilfe bei unerwarteten Gebühren auf Ihrer Karte benötigen, besuchen Sie die Seite [Abonnement kündigen](https://helpx.adobe.com/de/manage-account/using/cancel-subscription.html), um Hilfe zu erhalten.
 
 ## [!UICONTROL Basic Braintree Settings]
 

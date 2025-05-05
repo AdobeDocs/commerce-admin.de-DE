@@ -16,7 +16,7 @@ Bei der ersten Installation [!DNL Commerce] basieren die Designelemente des Stor
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-Bevor Sie beginnen, stellen Sie sicher, dass Sie über einen gültigen Satz [[!DNL Commerce] Zugriffsschlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) verfügen.
+Bevor Sie beginnen, stellen Sie sicher, dass Sie über einen gültigen Satz [[!DNL Commerce] Zugriffsschlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=de) verfügen.
 
 Um ein Design zu Ihrem [!DNL Commerce] Store hinzuzufügen, folgen Sie den Anweisungen auf der [!DNL Commerce Marketplace]:
 

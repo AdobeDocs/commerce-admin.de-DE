@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Deaktivierte Funktion:** Sicherung ist standardmäßig deaktiviert. Die Aktivierung dieser Funktion erfordert möglicherweise die Unterstützung durch einen Entwickler. Informationen zum Aktivieren _Backups finden Sie_ folgenden Thema im Installationshandbuch: [Sichern und Zurücksetzen von Dateisystem, Medien und Datenbank](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html).
+>**Deaktivierte Funktion:** Sicherung ist standardmäßig deaktiviert. Die Aktivierung dieser Funktion erfordert möglicherweise die Unterstützung durch einen Entwickler. Informationen zum Aktivieren _Backups finden Sie_ folgenden Thema im Installationshandbuch: [Sichern und Zurücksetzen von Dateisystem, Medien und Datenbank](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=de).
 
 >[!NOTE]
 >

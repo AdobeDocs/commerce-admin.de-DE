@@ -62,7 +62,7 @@ Die Länge und das Format der automatisch generierten Couponcodes werden von der
 
 >[!NOTE]
 >
->Bevor Sie Gutscheine erstellen, verwenden Sie den `bin/magento cron:run`-Befehl, um zu überprüfen, ob cron ausgeführt wird. Weitere Informationen finden [ unter „Ausführen von ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) über die Befehlszeile _im Konfigurationshandbuch_.
+>Bevor Sie Gutscheine erstellen, verwenden Sie den `bin/magento cron:run`-Befehl, um zu überprüfen, ob cron ausgeführt wird. Weitere Informationen finden [ unter „Ausführen von ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=de#run-cron-from-the-command-line) über die Befehlszeile _im Konfigurationshandbuch_.
 
 ### Methode 1: Erstellen eines bestimmten Coupons
 

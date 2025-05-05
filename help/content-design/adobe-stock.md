@@ -96,6 +96,6 @@ Verwenden Sie zum Festlegen der Systemkonfiguration in Ihrem [!DNL Commerce]-Adm
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/de/manage-account/using/access-adobe-id-account.html
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

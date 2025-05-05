@@ -20,9 +20,9 @@ Nachdem Sie ein Asset in AEM Assets bearbeitet haben, senden Sie die Aktualisier
 
 Weitere Informationen finden Sie in der folgenden Dokumentation zu AEM Assets.
 
-- [Erneute Verarbeitung digitaler Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
+- [Erneute Verarbeitung digitaler Assets](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/reprocessing)
 
-- [Genehmigen eines Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
+- [Genehmigen eines Assets](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/approve-assets)
 
 ## Hinzufügen von Assets zu Inhaltskategorien
 

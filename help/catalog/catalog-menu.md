@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Menü [!UICONTROL Catalog]
 
-Das Menü [!UICONTROL Catalog] bietet einfachen Zugriff auf Tools zur Produkterstellung, Kategorie- und Bestandsverwaltung sowie freigegebene Kataloge für benutzerdefinierte Preise in [B2B-Stores](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+Das Menü [!UICONTROL Catalog] bietet einfachen Zugriff auf Tools zur Produkterstellung, Kategorie- und Bestandsverwaltung sowie freigegebene Kataloge für benutzerdefinierte Preise in [B2B-Stores](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=de).
 
 ![Menü Katalog](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
@@ -31,6 +31,6 @@ Erstellen Sie die [Kategorie](categories.md)-Struktur, die die Grundlage für di
 
 ## [!UICONTROL Shared Catalogs]
 
-Bei Shops mit installiertem und aktiviertem Adobe Commerce B2B [ Sie mit ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html)freigegebenen Katalogen“ benutzerdefinierte Preise für verschiedene Unternehmen festlegen können.
+Bei Shops mit installiertem und aktiviertem Adobe Commerce B2B [ Sie mit ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=de)freigegebenen Katalogen“ benutzerdefinierte Preise für verschiedene Unternehmen festlegen können.
 
 ![Freigegebene Katalogprodukte](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

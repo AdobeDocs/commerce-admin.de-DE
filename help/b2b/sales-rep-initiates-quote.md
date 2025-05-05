@@ -27,7 +27,7 @@ Ein Vertriebsmitarbeiter kann ein Angebot aus dem Angebots- oder Kundenraster er
 
 >[!NOTE]
 >
->Eine Videodemo eines Verkäufers, der ein Angebot für einen Käufer erstellt, finden Sie unter [Vertriebsmitarbeiter initiiert das Angebot](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) in _Commerce-Videos und -Tutorials_.
+>Eine Videodemo eines Verkäufers, der ein Angebot für einen Käufer erstellt, finden Sie unter [Vertriebsmitarbeiter initiiert das Angebot](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=de) in _Commerce-Videos und -Tutorials_.
 
 ### Erstellen eines Angebots aus dem Anführungsraster
 
@@ -79,7 +79,7 @@ Fügen Sie nach der Erstellung des Angebotsentwurfs Produktelemente hinzu, wende
 
    >[!NOTE]
    >
-   >Eine Videodemo zur Funktionsweise von Rabatten bei dem Zeileneintrag finden Sie unter [Der Vertriebsmitarbeiter wendet Rabatt auf einen Angebotspositionselement an](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html) in _Commerce-Videos und -Tutorials_.
+   >Eine Videodemo zur Funktionsweise von Rabatten bei dem Zeileneintrag finden Sie unter [Der Vertriebsmitarbeiter wendet Rabatt auf einen Angebotspositionselement an](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount.html?lang=de) in _Commerce-Videos und -Tutorials_.
 
 1. Wenden Sie bei Bedarf einen Rabatt auf Angebotsebene an:
 

@@ -47,4 +47,4 @@ Entfernen Sie nicht verwendete Produkteigenschaften, um eine bessere Strukturier
 
 >[HINWEIS!]
 >
->Informationen zur Leistungsoptimierung der Produktattributkonfiguration finden Sie unter [Best Practices für die Katalogverwaltung](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) im _Implementierungs-Playbook_.
+>Informationen zur Leistungsoptimierung der Produktattributkonfiguration finden Sie unter [Best Practices für die Katalogverwaltung](https://experienceleague.adobe.com/de/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) im _Implementierungs-Playbook_.
