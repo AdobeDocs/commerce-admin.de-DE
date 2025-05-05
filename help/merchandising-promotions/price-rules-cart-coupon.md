@@ -3,9 +3,9 @@ title: Couponcodes
 description: Erfahren Sie, wie Sie Gutscheincodes mit Warenkorbpreisregeln verwenden können, um einen Rabatt anzuwenden, wenn eine Reihe von Bedingungen erfüllt ist.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: f6f3dba7a43cbadd5ca8bdac15af8141cbf2d260
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Ab Commerce 2.4.7 können Käufer mehrere Coupons auf einen Warenkorb anwenden. 
 
 >[!NOTE]
 >
->Regeln für den Warenkorbpreis, die dieselbe Priorität haben, führen nicht zu einem kombinierten Rabatt. Jede Regel (Coupon) wird separat auf übereinstimmende Produkte angewendet, und zwar einzeln entsprechend der Warenkorb-Preisregel-ID in der Datenbank. Um die Reihenfolge zu steuern, in der Rabatte angewendet werden, empfiehlt Adobe, für jede hinzugefügte Warenkorbpreisregel eine andere Priorität festzulegen.
+>Regeln für den Warenkorbpreis, die dieselbe Priorität haben, führen nicht zu einem kombinierten Rabatt. Jede Regel (Coupon) wird separat auf übereinstimmende Produkte angewendet, und zwar einzeln entsprechend der Warenkorb-Preisregel-ID in der Datenbank. Um die Reihenfolge zu steuern, in der Rabatte angewendet werden, empfiehlt Adobe, für jede zusätzliche Warenkorb-Preisregel eine andere Priorität festzulegen.
 
 ## Gutscheincodes konfigurieren
 
@@ -62,7 +62,7 @@ Die Länge und das Format der automatisch generierten Couponcodes werden von der
 
 >[!NOTE]
 >
->Bevor Sie Gutscheine erstellen, verwenden Sie den `bin/magento cron:run`-Befehl, um zu überprüfen, ob cron ausgeführt wird. Weitere Informationen finden [ unter „Ausführen von ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=de#run-cron-from-the-command-line) über die Befehlszeile _im Konfigurationshandbuch_.
+>[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Bevor Sie Coupons erstellen, überprüfen Sie mit dem `bin/magento cron:run`-Befehl, ob cron ausgeführt wird. Weitere Informationen finden [ unter „Ausführen von ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) über die Befehlszeile _im Konfigurationshandbuch_.
 
 ### Methode 1: Erstellen eines bestimmten Coupons
 
@@ -89,7 +89,7 @@ Die Länge und das Format der automatisch generierten Couponcodes werden von der
 
 1. Gehen Sie wie folgt vor, um den Gutschein für einen bestimmten Zeitraum gültig zu machen:
 
-   - ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Vervollständigen Sie die **Von** und **Bis**. Um das Datum auszuwählen, klicken Sie auf das Symbol **Kalender** (![Kalendersymbol](../assets/icon-calendar.png)) neben jedem Feld. Wenn Sie den Datumsbereich leer lassen, läuft die Regel nicht ab.
+   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Füllen Sie die **Von** und **Bis** aus. Um das Datum auszuwählen, klicken Sie auf das Symbol **Kalender** (![Kalendersymbol](../assets/icon-calendar.png)) neben jedem Feld. Wenn Sie den Datumsbereich leer lassen, läuft die Regel nicht ab.
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Führen Sie einen der folgenden Schritte aus:
 

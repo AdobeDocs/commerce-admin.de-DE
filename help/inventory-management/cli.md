@@ -4,9 +4,10 @@ description: Erfahren Sie mehr über die Befehle, die das  [!DNL Inventory Manag
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
-source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---

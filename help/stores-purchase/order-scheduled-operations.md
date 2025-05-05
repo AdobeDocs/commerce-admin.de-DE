@@ -3,9 +3,9 @@ title: Geplante Bestellvorgänge
 description: Erfahren Sie mehr über die geplanten Bestellvorgänge und Cron-Einstellungen für Bestellungen, die diese Funktion unterstützen.
 exl-id: 330fe75a-d901-4696-946e-fa7af9ea3d40
 feature: Orders, Configuration
-source-git-commit: db859c40cd6f052a8f1153e245c23d9f1ea97d33
+source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -45,11 +45,11 @@ Durch die Planung dieser Aufgaben können Sie die Sperren vermeiden, die beim Sp
 
 **_So aktivieren Sie die Aktualisierungen und Neuindizierungen:_**
 
-Wenn [Produktionsmodus](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=de#production-mode) (der in Adobe Commerce in der Cloud-Infrastruktur verwendete Standardmodus) aktiviert ist, führen Sie den folgenden Befehl aus:
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Wenn [Produktionsmodus](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#production-mode) (der in Adobe Commerce in der Cloud-Infrastruktur verwendete Standardmodus) aktiviert ist, führen Sie den folgenden Befehl aus:
 
-``bin/magento config:set dev/grid/async_indexing 1``
+`bin/magento config:set dev/grid/async_indexing 1`
 
-Wenn [Standardmodus](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=de#default-mode) aktiviert ist, führen Sie die folgenden Schritte aus:
+Wenn [Standardmodus](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#default-mode) aktiviert ist, führen Sie die folgenden Schritte aus:
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
