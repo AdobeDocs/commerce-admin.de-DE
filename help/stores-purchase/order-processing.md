@@ -230,4 +230,4 @@ Gehen Sie im Abschnitt **[!UICONTROL Order Total]** wie folgt vor:
 
 Ansehen dieses Video und erfahren Sie mehr über bestellen Verarbeitung und Status:
 
->[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411358/?quality=12&learn=on&captions=ger)

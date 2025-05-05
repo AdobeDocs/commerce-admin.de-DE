@@ -208,7 +208,7 @@ Das Unternehmensprofil kann vom Unternehmensadministrator in der Storefront und 
 
 In diesem Video erfahren Sie mehr über die Verwaltung von Unternehmenskonten:
 
->[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411354?quality=12&learn=on&captions=ger)
 
 ## Unternehmensleitung
 

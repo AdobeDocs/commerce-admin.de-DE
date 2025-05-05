@@ -91,4 +91,4 @@ Das _Vorlage anwenden_ und das Seitenraster _Vorlagen_ bieten zwei Möglichkeite
 
 In diesem Video erfahren Sie mehr über Page Builder-Inhaltsvorlagen:
 
->[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411360?quality=12&learn=on&captions=ger)

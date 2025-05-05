@@ -21,6 +21,6 @@ Sie können benutzerdefinierte Inhaltsblöcke erstellen, ohne Code zu schreiben,
 
 In diesem Video erfahren Sie mehr über [ und ](dynamic-blocks.md)dynamische Blöcke“:
 
->[!VIDEO](https://video.tv.adobe.com/v/343783?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3417566?quality=12&learn=on&captions=ger)
 
 [1]: https://developer.adobe.com/commerce/frontend-core/guide/layouts/

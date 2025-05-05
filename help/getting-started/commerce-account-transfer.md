@@ -70,7 +70,7 @@ Dieser Übertragungstyp erfordert, dass Sie zunächst eine zugehörige Adobe ID 
 
 1. Klicken Sie auf **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447668/?learn=on&captions=ger)
 
 ## E-Mail-Änderung
 

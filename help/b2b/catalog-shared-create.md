@@ -111,7 +111,7 @@ Nachdem Sie einen neuen freigegebenen Katalog erstellt haben, müssen Sie ihn mi
 
 Sehen Sie sich dieses Video an, um eine Demonstration der freigegebenen Katalogverwaltung anzuzeigen:
 
->[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411351?quality=12&learn=on&captions=ger)
 
 ## Seitenverweis für freigegebenen Katalog
 

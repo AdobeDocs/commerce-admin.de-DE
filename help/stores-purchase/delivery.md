@@ -40,4 +40,4 @@ Wenn Sie über ein kommerzielles Konto bei einem oder mehreren [unterstützten ]
 
 In diesem Video erfahren Sie mehr über Versand- und Versandmethoden:
 
->[!VIDEO](https://video.tv.adobe.com/v/343658/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411980/?quality=12&learn=on&captions=ger)

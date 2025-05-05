@@ -96,4 +96,4 @@ Steuerregeln enthalten eine Kombination aus Produktklasse, Kundenklasse und Steu
 
 In diesem Video erfahren Sie mehr über die Verwaltung von Währungs- und Steuerregeln:
 
->[!VIDEO](https://video.tv.adobe.com/v/343657/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411982/?quality=12&learn=on&captions=ger)

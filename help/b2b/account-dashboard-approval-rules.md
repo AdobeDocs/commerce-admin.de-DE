@@ -150,4 +150,4 @@ Um eine vorhandene Genehmigungsregel zu entfernen, kann ein Kunde die folgenden 
 
 In diesem Video erfahren Sie mehr über Bestellgenehmigungen:
 
->[!VIDEO](https://video.tv.adobe.com/v/344450?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411353?quality=12&learn=on&captions=ger)

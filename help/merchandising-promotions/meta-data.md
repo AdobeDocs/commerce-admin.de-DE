@@ -93,6 +93,6 @@ Sie können vermeiden, von Suchmaschinen bestraft zu werden, indem Sie die Kateg
 
 In diesem Video erfahren Sie mehr über die Verwaltung von SEO-Metadaten:
 
->[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411965?quality=12&learn=on&captions=ger)
 
 [1]: https://schema.org/

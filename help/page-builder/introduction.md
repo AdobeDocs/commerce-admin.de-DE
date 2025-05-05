@@ -38,4 +38,4 @@ Unabhängig davon, ob Sie neu bei [!DNL Commerce] oder ein erfahrener Benutzer s
 
 In diesem Video erfahren Sie mehr über die Funktionen von Page Builder:
 
->[!VIDEO](https://video.tv.adobe.com/v/343781?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447903?quality=12&learn=on&captions=ger)
