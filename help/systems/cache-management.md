@@ -16,17 +16,17 @@ Das Cache-Management-System von Adobe Commerce und Magento Open Source bietet ei
 
 ![Produktattribut speichern - Cache-Nachricht aktualisieren](./assets/product-attribute-save-msg-update-cache.png){width="500"}
 
-Auf der Seite _[!UICONTROL Cache Management]_wird der Status jedes primären Caches und des zugehörigen Tags angezeigt. Die großen Schaltflächen in der oberen rechten Ecke können verwendet werden, um den Cache oder den All-Inclusive-Cache-Speicher zu leeren. Unten auf der Seite können Sie mit zusätzlichen Schaltflächen den Cache für Katalogproduktbilder und den JavaScript-/CSS-Cache leeren.
+Auf der Seite _[!UICONTROL Cache Management]_&#x200B;wird der Status jedes primären Caches und des zugehörigen Tags angezeigt. Die großen Schaltflächen in der oberen rechten Ecke können verwendet werden, um den Cache oder den All-Inclusive-Cache-Speicher zu leeren. Unten auf der Seite können Sie mit zusätzlichen Schaltflächen den Cache für Katalogproduktbilder und den JavaScript-/CSS-Cache leeren.
 
 >[!IMPORTANT]
 >
->Wenn Katalogentitäten geändert werden, kann dies Auswirkungen auf andere Seiten haben und mehrere Caches gleichzeitig ungültig machen. Wenn Sie die Seite zur Cache-Verwaltung durchgehen, werden ungültige Elemente angezeigt, die aktualisiert werden müssen, wenn sie _**nicht direkt bearbeitet)**_. Diese Invalidierung tritt beispielsweise auf, wenn Sie ein Produkt im Katalog bearbeiten, das einer beliebigen Kategorie zugewiesen ist, oder wenn Sie eine zugehörige Produktregel ändern.
+>Wenn Katalogentitäten geändert werden, kann dies Auswirkungen auf andere Seiten haben und mehrere Caches gleichzeitig ungültig machen. Wenn Sie die Seite zur Cache-Verwaltung durchgehen, werden ungültige Elemente angezeigt, die aktualisiert werden müssen, wenn sie _&#x200B;**nicht direkt bearbeitet)**&#x200B;_. Diese Invalidierung tritt beispielsweise auf, wenn Sie ein Produkt im Katalog bearbeiten, das einer beliebigen Kategorie zugewiesen ist, oder wenn Sie eine zugehörige Produktregel ändern.
 
 Aktualisieren Sie nach dem Löschen eines Cache immer Ihren Browser, um sicherzustellen, dass Sie die neuesten Dateien sehen können. Durch Löschen des Commerce-Cache wird der Webbrowser-Cache nicht gelöscht. Möglicherweise müssen Sie den Browser-Cache löschen, um aktualisierte Inhalte anzuzeigen.
 
 Weitere technische Informationen zum Caching in Adobe Commerce finden Sie unter [Übersicht über den Cache](https://developer.adobe.com/commerce/frontend-core/guide/caching/){:target="_blank"} im _Commerce Frontend-Entwicklerhandbuch_.
 
-Greifen Sie auf die _[!UICONTROL Cache Management]_zu, indem Sie eine der folgenden Aktionen ausführen:
+Greifen Sie auf die _[!UICONTROL Cache Management]_&#x200B;zu, indem Sie eine der folgenden Aktionen ausführen:
 
 - Klicken Sie auf den Link **[!UICONTROL Cache Management]** in der Nachricht über dem Arbeitsbereich.
 - Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**.
@@ -86,7 +86,7 @@ Informationen zum Zuweisen von Ressourcen zur Gewährung des Zugriffs für Admin
 
 ## Leeren des Cache für Produktbilder
 
-1. Klicken Sie unter _[!UICONTROL Additional Cache Management]_auf **[!UICONTROL Flush Catalog Images Cache]**, um die vorgenerierten Produktbilddateien zu löschen.
+1. Klicken Sie unter _[!UICONTROL Additional Cache Management]_&#x200B;auf **[!UICONTROL Flush Catalog Images Cache]**, um die vorgenerierten Produktbilddateien zu löschen.
 
    Die `Image cache was cleaned` wird oben im Arbeitsbereich angezeigt.
 
@@ -94,7 +94,7 @@ Informationen zum Zuweisen von Ressourcen zur Gewährung des Zugriffs für Admin
 
 ## Leeren des JavaScript/CSS-Cache
 
-1. Löschen Sie unter _[!UICONTROL Additional Cache Management]_die Dateien JavaScript und CSS, die durch Klicken auf &quot;**[!UICONTROL Flush JavaScript/CSS Cache]**&quot; in einer Datei zusammengeführt wurden.
+1. Löschen Sie unter _[!UICONTROL Additional Cache Management]_&#x200B;die Dateien JavaScript und CSS, die durch Klicken auf &quot;**[!UICONTROL Flush JavaScript/CSS Cache]**&quot; in einer Datei zusammengeführt wurden.
 
    Die `The JavaScript/CSS cache has been cleaned` wird oben im Arbeitsbereich angezeigt.
 
@@ -108,7 +108,7 @@ Systemadministratoren und Entwickler mit Zugriff auf den Commerce-Anwendungsserv
 
 | Kontrolle | Beschreibung |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Mass Actions] | Aktiviert das Kontrollkästchen für mehrere Caches. Optionen: <br/>**[!UICONTROL Select All]**— Aktiviert das Kontrollkästchen aller Caches.<br/>** Auswahl aufheben **- Löscht das Kontrollkästchen aller Caches.<br/>**[!UICONTROL Select Visible]** - Aktiviert das Kontrollkästchen aller sichtbaren Caches. <br/>**[!UICONTROL Unselect Visible]**— Löscht das Kontrollkästchen für alle sichtbaren Caches. |
+| [!UICONTROL Mass Actions] | Aktiviert das Kontrollkästchen für mehrere Caches. Optionen: <br/>**[!UICONTROL Select All]**— Aktiviert das Kontrollkästchen aller Caches.<br/>**&#x200B; Auswahl aufheben &#x200B;**- Löscht das Kontrollkästchen aller Caches.<br/>**[!UICONTROL Select Visible]** - Aktiviert das Kontrollkästchen aller sichtbaren Caches. <br/>**[!UICONTROL Unselect Visible]**— Löscht das Kontrollkästchen für alle sichtbaren Caches. |
 | [!UICONTROL Actions] | Bestimmt die Aktion, die auf alle ausgewählten Caches angewendet werden soll. Optionen: <br/>**[!UICONTROL Enable]**— Aktiviert alle ausgewählten Caches.<br/>**[!UICONTROL Disable]** — Deaktiviert alle ausgewählten Caches. <br/>**[!UICONTROL Refresh]**— Aktualisiert alle ausgewählten Caches. |
 | [!UICONTROL Submit] | Wendet die Aktion auf alle ausgewählten Caches an. |
 

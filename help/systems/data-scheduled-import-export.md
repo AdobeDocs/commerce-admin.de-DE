@@ -27,7 +27,7 @@ Geplante Importe und Exporte können täglich, wöchentlich oder monatlich ausge
    - [Geplanten Export hinzufügen](#schedule-an-export)
    - [Geplanten Import hinzufügen](#schedule-an-import)
 
-1. Wenn der Datensatz gespeichert wird, wird der Auftrag im _[!UICONTROL Scheduled Import/Export]_angezeigt.
+1. Wenn der Datensatz gespeichert wird, wird der Auftrag im _[!UICONTROL Scheduled Import/Export]_&#x200B;angezeigt.
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ Nach jedem geplanten Importvorgang wird automatisch ein Neuindizierungsvorgang a
 
      >[!NOTE]
      >
-     >Für die Entitätstypen _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_und_[!UICONTROL Stock Sources]_ werden diese Importverhalten angezeigt: `Add/Update`, `Replace` und `Delete`. Für die Entitätstypen _Kundenfinanzen_, _Kundenhauptdatei_ und _Kunden und Adressen_ werden diese Importverhaltensweisen angezeigt: `Add/Update Complex Data`, `Delete Entities` und `Custom Action`.
+     >Für die Entitätstypen _[!UICONTROL Advanced Pricing]_,_[!UICONTROL Products]_, _[!UICONTROL Customers and Addresses (single file)]_&#x200B;und&#x200B;_[!UICONTROL Stock Sources]_ werden diese Importverhalten angezeigt: `Add/Update`, `Replace` und `Delete`. Für die Entitätstypen _Kundenfinanzen_, _Kundenhauptdatei_ und _Kunden und Adressen_ werden diese Importverhaltensweisen angezeigt: `Add/Update Complex Data`, `Delete Entities` und `Custom Action`.
 
    - **[!UICONTROL Start Time]** - Legen Sie die Stunde, Minute und Sekunde fest, zu der der Import beginnen soll.
 
@@ -144,7 +144,7 @@ Nach jedem geplanten Importvorgang wird automatisch ein Neuindizierungsvorgang a
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-   Der neue geplante Importvorgang wird der Liste auf der Seite _[!UICONTROL Scheduled Import/Export]_hinzugefügt. Von dieser Seite aus kann sie sofort zum Testen ausgeführt und bearbeitet werden. Die Importdatei wird vor der Ausführung jedes Importvorgangs validiert.
+   Der neue geplante Importvorgang wird der Liste auf der Seite _[!UICONTROL Scheduled Import/Export]_&#x200B;hinzugefügt. Von dieser Seite aus kann sie sofort zum Testen ausgeführt und bearbeitet werden. Die Importdatei wird vor der Ausführung jedes Importvorgangs validiert.
 
 >[!NOTE]
 >
@@ -173,8 +173,8 @@ Nach jedem geplanten Importvorgang wird automatisch ein Neuindizierungsvorgang a
 
 | Feld | Beschreibung |
 | ----- | ----------- | 
-| [!UICONTROL Server Type] | Sie können Daten aus einer Datei importieren, die sich auf demselben Server befindet, auf dem Commerce bereitgestellt wird (`Local Server` auswählen), oder aus dem FTP-Remote-Server importieren (`Remote FTP` auswählen). Wenn Sie _[!UICONTROL Remote FTP]_auswählen, werden zusätzliche Optionen für Anmeldedaten und Dateiübertragungs-Einstellungen angezeigt. Wenn das Remote-Speichermodul aktiviert ist, wird `Local Server` Typ automatisch auf `Remote Storage` umgeschaltet. |
-| [!UICONTROL File Directory] | Geben Sie das Verzeichnis an, in dem sich die Importdatei befindet. Wenn Server Type auf _[!UICONTROL Local Server]_gesetzt ist, geben Sie den Pfad relativ zum Commerce-Installationsverzeichnis an. Beispiel: `var/import` oder `import_export/import` für Remote-Speicher. |
+| [!UICONTROL Server Type] | Sie können Daten aus einer Datei importieren, die sich auf demselben Server befindet, auf dem Commerce bereitgestellt wird (`Local Server` auswählen), oder aus dem FTP-Remote-Server importieren (`Remote FTP` auswählen). Wenn Sie _[!UICONTROL Remote FTP]_&#x200B;auswählen, werden zusätzliche Optionen für Anmeldedaten und Dateiübertragungs-Einstellungen angezeigt. Wenn das Remote-Speichermodul aktiviert ist, wird `Local Server` Typ automatisch auf `Remote Storage` umgeschaltet. |
+| [!UICONTROL File Directory] | Geben Sie das Verzeichnis an, in dem sich die Importdatei befindet. Wenn Server Type auf _[!UICONTROL Local Server]_&#x200B;gesetzt ist, geben Sie den Pfad relativ zum Commerce-Installationsverzeichnis an. Beispiel: `var/import` oder `import_export/import` für Remote-Speicher. |
 | [!UICONTROL File Name] | Geben Sie den Namen der Importdatei an. |
 | [!UICONTROL Images File Directory] | Geben Sie den Pfad zum Verzeichnis ein, in dem Produktbilder gespeichert werden. Geben Sie für einen lokalen Server einen relativen Pfad ein. Beispiel: `var/import` oder `import_export/import` für Remote-Speicher. |
 
@@ -224,7 +224,7 @@ Die Details der einzelnen Exporte werden nicht in ein Protokoll geschrieben. Wen
       - `Customer Addresses`
       - `Stock Sources`
 
-     Der Abschnitt _[!UICONTROL Entity Attributes]_unten auf der Seite wird aktualisiert und zeigt den ausgewählten Entitätstyp an.
+     Der Abschnitt _[!UICONTROL Entity Attributes]_&#x200B;unten auf der Seite wird aktualisiert und zeigt den ausgewählten Entitätstyp an.
 
    - Legen Sie **[!UICONTROL Start Time]** auf die Stunde, Minute und Sekunde fest, in der der Export beginnen soll.
 
@@ -258,7 +258,7 @@ Die Details der einzelnen Exporte werden nicht in ein Protokoll geschrieben. Wen
    - Geben Sie **[!UICONTROL Local Server]** einen relativen Pfad innerhalb der Commerce-Installation ein, z. B. `var/export`. Wenn das Remote-Speichermodul konfiguriert ist, verwenden Sie `import_export/export`.
    - Geben Sie **[!UICONTROL Remote FTP server]** die vollständige URL und den Pfad zum Zielordner auf dem Zielserver ein.
 
-1. Wenn der _[!UICONTROL Remote FTP]_Server ausgewählt ist, geben Sie die Anmeldeinformationen für die Verbindung zum Server ein und wählen Sie zusätzliche Einstellungen aus:
+1. Wenn der _[!UICONTROL Remote FTP]_&#x200B;Server ausgewählt ist, geben Sie die Anmeldeinformationen für die Verbindung zum Server ein und wählen Sie zusätzliche Einstellungen aus:
 
    - Geben Sie **[!UICONTROL FTP Host[:Port]]** die Remote-FTP-Host-Adresse ein.
    - Geben Sie **[!UICONTROL User Name]** den Benutzernamen ein, mit dem auf den Remote-Server zugegriffen wird.
@@ -285,14 +285,14 @@ Die Details der einzelnen Exporte werden nicht in ein Protokoll geschrieben. Wen
 
 ### Schritt 4: Entitätsattribute auswählen
 
-1. Wählen Sie im Abschnitt _[!UICONTROL Entity Attributes]_die Attribute aus, die Sie in die Exportdaten aufnehmen möchten.
+1. Wählen Sie im Abschnitt _[!UICONTROL Entity Attributes]_&#x200B;die Attribute aus, die Sie in die Exportdaten aufnehmen möchten.
 
-   - Um Daten nach Attributwert zu filtern, geben Sie den Attributwert in die Spalte _[!UICONTROL Filter]_ein.
+   - Um Daten nach Attributwert zu filtern, geben Sie den Attributwert in die Spalte _[!UICONTROL Filter]_&#x200B;ein.
    - Um Produkte oder Kunden mit bestimmten Attributwerten auszuschließen, geben Sie die Werte der Attribute ein, die Sie ausschließen möchten, und aktivieren Sie das Kontrollkästchen in der Spalte Überspringen .
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-   Der neue geplante Exportvorgang wird der Liste auf der Seite _[!UICONTROL Scheduled Import/Export]_hinzugefügt. Von dieser Seite aus kann sie sofort zum Testen ausgeführt und bearbeitet werden.
+   Der neue geplante Exportvorgang wird der Liste auf der Seite _[!UICONTROL Scheduled Import/Export]_&#x200B;hinzugefügt. Von dieser Seite aus kann sie sofort zum Testen ausgeführt und bearbeitet werden.
 
 >[!NOTE]
 >
@@ -319,7 +319,7 @@ Die Details der einzelnen Exporte werden nicht in ein Protokoll geschrieben. Wen
 | Feld | Beschreibung |
 | ----- | ----------- | 
 | [!UICONTROL Server Type] | Bestimmt den Speicherort der Exportdatei. options:<br>**Lokaler Server** - Platziert die Exportdatei auf demselben Server, auf dem Commerce bereitgestellt wird. Wenn das Remote-Speichermodul aktiviert ist, wird `Local Server` auf `Remote Storage` umgeschaltet.<br>**Remote FTP** - Platziert die Exportdatei auf einem Remote-Server. Es werden zusätzliche Optionen für Anmeldedaten und Dateiübertragungs-Einstellungen angezeigt. |
-| [!UICONTROL File Directory] | Geben Sie das Verzeichnis an, in dem die Exportdatei gespeichert werden soll. Wenn _[!UICONTROL Server Type]_auf `Local Server` gesetzt ist, geben Sie den Pfad relativ zum Commerce-Installationspfad an. Beispiel: `var/export` oder `import_export/export` für Remote-Speicher. |
+| [!UICONTROL File Directory] | Geben Sie das Verzeichnis an, in dem die Exportdatei gespeichert werden soll. Wenn _[!UICONTROL Server Type]_&#x200B;auf `Local Server` gesetzt ist, geben Sie den Pfad relativ zum Commerce-Installationspfad an. Beispiel: `var/export` oder `import_export/export` für Remote-Speicher. |
 
 {style="table-layout:auto"}
 

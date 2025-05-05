@@ -47,7 +47,7 @@ Für eine erfolgreiche Integration müssen alle Adobe Commerce-Benutzer über Ad
 
 ## Integration konfigurieren
 
-Nachdem die folgenden Schritte von einem Administrator oder Entwickler mit Systemzugriff ausgeführt wurden, wird die Schaltfläche _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_auf der Commerce Admin-Anmeldeseite für alle Admin-Benutzenden angezeigt.
+Nachdem die folgenden Schritte von einem Administrator oder Entwickler mit Systemzugriff ausgeführt wurden, wird die Schaltfläche _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;auf der Commerce Admin-Anmeldeseite für alle Admin-Benutzenden angezeigt.
 
 ### Schritt 1: Adobe-Organisations-ID abrufen
 
@@ -78,7 +78,7 @@ Stellen Sie vor der Aktivierung der Integration sicher, dass jedes Adobe Commerc
 >
 >Sie können mehrere Benutzerkonten erstellen, indem Sie die Benutzerinformationen aus einer CSV-Datei hochladen. Siehe [Verwalten mehrerer Benutzer](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
-1. Navigieren Sie in der [](https://helpx.adobe.com/de/enterprise/using/admin-console.html)Adobe Admin Console **[!UICONTROL Users]** zu > **[!UICONTROL Users]**.
+1. Navigieren Sie in der [&#128279;](https://helpx.adobe.com/de/enterprise/using/admin-console.html)Adobe Admin Console **[!UICONTROL Users]** zu > **[!UICONTROL Users]**.
 
 1. Klicken Sie auf **[!UICONTROL Add User]**.
 
