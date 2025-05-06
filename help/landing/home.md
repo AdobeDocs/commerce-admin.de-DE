@@ -44,7 +44,7 @@ Magento Open Source ist die Code-Basis, zu der Adobe offiziell beiträgt, und ge
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=de"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip=„Gilt für Adobe Commerce nur für Cloud-Projekte (Adobe-verwaltete PaaS-Infrastruktur) und lokale Projekte.“}
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=de"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt für Adobe Commerce nur für Cloud-Projekte (Adobe-verwaltete PaaS-Infrastruktur) und lokale Projekte."}
     <div><em>Dieser Funktionssatz wurde entwickelt, um die Anforderungen von Verkäufern (Händlern) zu erfüllen, deren Kunden hauptsächlich Unternehmen sind - möglicherweise mit komplexen Organisationsstrukturen und mehreren Mitarbeitern mit verschiedenen Rollen und Ebenen der Kaufberechtigung.</em>
     <br></div>
   </td>
@@ -81,7 +81,7 @@ Magento Open Source ist die Code-Basis, zu der Adobe offiziell beiträgt, und ge
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html?lang=de"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip=„Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und in lokalen Projekten.“}
+   <td valign="top"><a href="https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html?lang=de"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und in lokalen Projekten."}
     <div><em>[!DNL Page Builder] erleichtert die Erstellung von inhaltsreichen Seiten mit benutzerdefinierten Layouts. Diese Funktionen verbessern die Qualität und reduzieren den Zeit- und Kostenaufwand für die Erstellung benutzerdefinierter Seiten.</em></div>
   </td>
 </tr>
