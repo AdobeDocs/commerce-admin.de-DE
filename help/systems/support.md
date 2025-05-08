@@ -62,7 +62,7 @@ Wählen Sie in der Spalte **[!UICONTROL Action]** des Rasters eine der folgenden
 
 ### Anzeigen von Systemberichtsdetails
 
-1. Wählen Sie für den benötigten Bericht **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_aus.
+1. Wählen Sie für den benötigten Bericht **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_&#x200B;aus.
 
 1. Erweitern Sie im linken Bereich ![Erweiterungsauswahl](../assets/icon-display-expand.png) jeden Abschnitt des Berichts, um die Details anzuzeigen.
 
