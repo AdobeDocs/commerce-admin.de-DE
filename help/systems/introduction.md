@@ -2,9 +2,9 @@
 title: Einführung in Admin-Systeme
 description: Erfahren Sie mehr über die System-Tools und Funktionen, die der Administrator des Stores verwenden kann, um Sites, Daten, Integrationen und Admin-Benutzer effektiv zu verwalten.
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 46564240e7f76cf2a691c209b36d530763ba4f01
+source-git-commit: 51c8b526e1f03e65ad71eb00ec3cdf82365bd33c
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Variablen sind Informationen, die einmal erstellt und an mehreren Stellen verwen
 - [Vordefinierte Variablen](variables-predefined.md)
 - [Benutzerdefinierte Variablen](variables-custom.md)
 
-Eine der Aufgaben, die Sie vor dem Start Ihres Stores ausführen müssen, besteht darin, die E-Mail-Vorlagen zu überprüfen, die für alle von Ihrem Store gesendeten Nachrichten verwendet werden, um sicherzustellen, dass sie Ihre Marke widerspiegeln. Dazu gehört das Anpassen von E[Mail- und Newsletter-Vorlagen ](../merchandising-promotions/newsletter-template.md) das PDF von Rechnungen und Lieferscheinen. Dazu gehört auch die Personalisierung des Inhalts mit Variablen und [Markup-](markup-tags.md)).
+Eine der Aufgaben, die Sie vor dem Start Ihres Stores ausführen müssen, besteht darin, die E-Mail-Vorlagen zu überprüfen, die für alle von Ihrem Store gesendeten Nachrichten verwendet werden, um sicherzustellen, dass sie Ihre Marke widerspiegeln. Dazu gehören das Anpassen von E[Mail- und Newsletter-Vorlagen ](../merchandising-promotions/newsletter-template.md) PDF-Rechnungen und Lieferscheinen. Dazu gehört auch die Personalisierung des Inhalts mit Variablen und [Markup-](markup-tags.md)).
 
 ## Betriebsführung
 
@@ -32,4 +32,4 @@ Der Administrator unterstützt auch verschiedene Aufgaben für Systemadministrat
 - **Datenübertragung** - Verwenden Sie die [Datenübertragung](data-transfer.md)-Tools zum Importieren und Exportieren von Daten sowie zum Verwalten von Produkt-, Preis-, Kunden- und Steuersatzdaten.
 - **Integrationen** - Ermitteln Sie den Speicherort der OAuth-Anmeldeinformationen und der Umleitungs-URL für [Drittanbieterintegrationen](integrations.md) und identifizieren Sie verfügbare API-Ressourcen.
 - **Aktionsprotokolle** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Greifen Sie auf die Datensätze ([Aktionsprotokolle](action-log.md)) für Änderungen zu, die von Admin-Benutzern vorgenommen wurden, die in Ihrem Store arbeiten.
-- **Support-Tools** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Die Support-Tools ([Datenerfassung](support.md#data-collector) und [Systemberichte](support.md#access-system-reports)) dienen zur Identifizierung bekannter Probleme in Ihrem System. Sie können während der Entwicklungs- und Optimierungsprozesse als Ressource und als Diagnosewerkzeug verwendet werden, um unser Supportteam bei der Identifizierung und Lösung von Problemen zu unterstützen.
+- **Support-Tools** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) [Systemberichte](support.md#access-system-reports) dienen zur Identifizierung bekannter Probleme in Ihrem System. Sie können während der Entwicklungs- und Optimierungsprozesse als Ressource und als Diagnosewerkzeug verwendet werden, um unser Supportteam bei der Identifizierung und Lösung von Problemen zu unterstützen.

@@ -2,9 +2,9 @@
 title: Support-Tools
 description: Erfahren Sie mehr über die bereitgestellten Support-Tools, mit denen Sie Probleme in Ihrem System identifizieren können.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-source-git-commit: 97eeb733836f0336401664c5cfb3df2b9f2f2ccf
+source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -14,60 +14,6 @@ ht-degree: 0%
 {{ee-feature}}
 
 Die Support-Tools dienen zur Identifizierung bekannter Probleme in Ihrem System. Sie können während der Entwicklungs- und Optimierungsprozesse als Ressource und als Diagnosewerkzeug verwendet werden, um unser Supportteam bei der Identifizierung und Lösung von Problemen zu unterstützen.
-
-## Datensammler
-
-Die Datenerfassung erfasst die Informationen über Ihr System, die unser Support-Team benötigt, um Probleme mit Ihrer Adobe Commerce-Installation zu beheben. Das erstellte Backup dauert mehrere Minuten und umfasst sowohl einen Code- als auch einen Datenbank-Dump. Die Daten können in eine CSV- oder Excel-XML-Datei exportiert werden.
-
-![System - Datenerfassung](./assets/data-collector.png){width="600" zoomable="yes"}
-
-### Ausführen des Datenerfassers
-
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**.
-
-1. Klicken Sie oben rechts auf **[!UICONTROL New Backup]**.
-
-   Die Erstellung des Backups dauert einige Minuten. Sie können die Ergebnisse der Verarbeitung überwachen, indem Sie auf **[!UICONTROL Refresh Status]** klicken. Nach Abschluss des Vorgangs wird die Sicherung im _[!UICONTROL Data Collector]_&#x200B;angezeigt.
-
-1. Gehen Sie wie folgt vor, um ein Protokoll mit den Backup-Details anzuzeigen:
-
-   - Wählen Sie in der _[!UICONTROL Action]_&#x200B;Spalte **[!UICONTROL Show Log]**&#x200B;aus.
-
-   - Klicken Sie auf **[!UICONTROL Back]** , um zum Raster zurückzukehren.
-
-   ![Datenerfassungsprotokoll](./assets/data-collector-log.png){width="600" zoomable="yes"}
-
-### Exportieren von Sicherungsdaten
-
-1. Aktivieren Sie in der ersten Spalte das Kontrollkästchen des zu exportierenden Backups.
-
-1. Wählen Sie im Menü **[!UICONTROL Export]** das Format der Exportdaten aus.
-
-   ![Exportformat](./assets/data-collector-export.png){width="600" zoomable="yes"}
-
-1. Greifen Sie über den Webbrowser-Download-Speicherort auf die Datei zu und **[!UICONTROL Save]** Sie sie.
-
-### Sicherungsdaten herunterladen
-
-Nachdem das Backup generiert wurde, können Sie die Kopie von Code- und DB-Daten herunterladen.
-
-1. Suchen Sie die erforderliche Backup-Entität im Raster.
-
-1. Stellen Sie sicher, dass sie einen `Complete` Status hat.
-
-1. Klicken Sie auf den Entitätsnamen in _[!UICONTROL Code Dump]_&#x200B;oder&#x200B;_[!UICONTROL DB Dump]_ Spalten.
-
-Der Download-Prozess sollte automatisch gestartet werden.
-
-## Sicherungsdaten löschen
-
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Support]_>**[!UICONTROL Data Collector]**.
-
-1. Suchen Sie die zu löschenden Sicherungsdaten und wählen Sie sie aus.
-
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Delete]**.
-
-1. Um die Aktion zu bestätigen, klicken Sie auf **[!UICONTROL OK]**.
 
 ## Systemberichte
 
@@ -112,11 +58,11 @@ Wählen Sie in der Spalte **[!UICONTROL Action]** des Rasters eine der folgenden
 
 - `View` - Verwenden Sie diese Funktion, um die Details des Berichts anzuzeigen.
 - `Delete` - Mit dieser Funktion können Sie den generierten Bericht aus der Liste löschen.
-- `Download` - Mit dieser Funktion kann der Bericht als HTML-Datei gespeichert werden.
+- `Download` : Verwenden Sie diese Funktion, um den Bericht als HTML-Datei zu speichern.
 
 ### Anzeigen von Systemberichtsdetails
 
-1. Wählen Sie für den benötigten Bericht **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_&#x200B;aus.
+1. Wählen Sie für den benötigten Bericht **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_aus.
 
 1. Erweitern Sie im linken Bereich ![Erweiterungsauswahl](../assets/icon-display-expand.png) jeden Abschnitt des Berichts, um die Details anzuzeigen.
 
@@ -133,7 +79,7 @@ Wählen Sie in der Spalte **[!UICONTROL Action]** des Rasters eine der folgenden
 | [!UICONTROL Configuration] | Konfiguration<br>Daten aus der Funktionsmatrix `app/etc/env.php`<br>Versandmethoden<br>Zahlungsmethoden<br>Zahlungen |
 | [!UICONTROL Logs] | Protokolldateien<br>Top-Systemmeldungen<br>Aktuelle Top-Systemmeldungen<br>Top-Debugmeldungen<br>Aktuelle Top-Debugmeldungen<br>Top-Ausnahmemeldungen<br>Aktuelle Top-Ausnahmemeldungen |
 | [!UICONTROL Attributes] | Benutzerdefinierte EAV-Attribute<br>neue EAV-Attribute<br>Entitätstypen<br>Alle EAV-Attribute<br>Kategorie-EAV-Attribute<br>Produkt-EAV-Attribute<br>Kunden-EAV-Attribute<br>Kundenadresse EAV-Attribut<br>RMA-Element EAV-Attribute |
-| [!UICONTROL Events] | Benutzerdefinierte globale Ereignisse<br>benutzerdefinierte Admin-Ereignisse<br>benutzerdefinierte Frontend-Ereignisse<br>benutzerdefinierte Dokumentereignisse<br>benutzerdefinierte Crontab-Ereignisse<br>benutzerdefinierte REST-Ereignisse<br>benutzerdefinierte SOAP-Ereignisse<br>Core-globale Ereignisse<br>Core-Admin-Ereignisse<br>Core-Frontend-Ereignisse<br>Core-Doc-Ereignisse<br><br> Core-Crontab-Ereignisse<br>Core-SOAP-Ereignisse<br>Alle globalen Ereignisse<br>Alle Admin-Ereignisse<br><br> Alle Doc-Ereignisse<br>Alle REST-Ereignisse<br>Alle SOAP-Ereignisse<br> alle Crontab-Ereignisse |
+| [!UICONTROL Events] | Benutzerdefinierte globale Ereignisse<br>Benutzerdefinierte Admin-Ereignisse<br>Benutzerdefinierte Frontend-Ereignisse<br>Benutzerdefinierte Dokumentereignisse<br>Benutzerdefinierte Crontab-Ereignisse<br>benutzerdefinierte REST-Ereignisse<br>Benutzerdefinierte SOAP SOAP-Ereignisse<br>Core-globale Ereignisse<br>Core-Admin-Ereignisse<br><br> Core-Frontend-Ereignisse<br>Core-Crontab-Ereignisse<br><br> Core-REST-Ereignisse<br>Alle globalen Ereignisse<br>Alle Admin-Ereignisse<br><br> Alle Doc-Ereignisse<br>Alle REST-Ereignisse<br>Alle SOAP-Ereignisse<br>Alle Crontab-Ereignisse |
 | [!UICONTROL Cron] | Cron-Zeitpläne nach Status-Code<br>Cron-Zeitpläne nach Auftrags-Code<br>Fehler in Cron-Zeitplänen Warteschlange<br>Cron-Zeitplanliste<br>Benutzerdefinierte globale Cron-Aufträge<br>Benutzerdefinierte konfigurierbare Cron-Aufträge<br>Core-globale Cron-Aufträge<br>Core konfigurierbare Cron-Aufträge<br>Alle globalen Cron-Aufträge<br>Alle konfigurierbaren Cron-Aufträge |
 | [!UICONTROL Design] | AdminHTML-Designliste<br>Frontend-Designliste |
 | [!UICONTROL Stores] | Website-Baumstruktur<br>Websites-Liste<br>Stores-Liste<br>Store-Ansichten-Liste |
