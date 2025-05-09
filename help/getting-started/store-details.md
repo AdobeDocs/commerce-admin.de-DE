@@ -169,11 +169,11 @@ Sie können auch den Versand in bestimmte Länder für jede verfügbare [Versand
 
 Hilfe bei der Fehlerbehebung bei Konfigurationsproblemen in Ländern finden Sie in den folgenden Artikeln der [!DNL Commerce]-Support-Wissensdatenbank:
 
-- [Hinzufügen eines Landes](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [Hinzufügen eines Landes](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=de)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Die Einstellung „Händlerstandort“ wird zum Konfigurieren von [Zahlungsmethoden](../stores-purchase/payments.md) verwendet. Wenn für diese Einstellung kein Wert vorhanden ist, wird die Einstellung [Standardland](#uicontrol-country-options) verwendet.
 
