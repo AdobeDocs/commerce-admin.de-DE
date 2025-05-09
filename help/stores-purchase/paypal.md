@@ -3,9 +3,10 @@ title: PayPal-Zahlungslösungen
 description: Erfahren Sie mehr über die Integrationen der PayPal-Zahlungslösung, die für Ihren Shop verfügbar sind.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ PayPal ist ein weltweit führender Anbieter von Online-Zahlungen und bietet Ihre
 >[!IMPORTANT]
 >
 >**PSD2-Anforderungen:** <br/>
->Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2&rbrace;-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Bei den meisten PayPal-Lösungen ist keine Handlung erforderlich, um PSD2 einzuhalten, da diese Anforderungen von PayPal gehandhabt werden.
+>Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2}-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Bei den meisten PayPal-Lösungen ist keine Maßnahme erforderlich, um PSD2 einzuhalten, da diese Anforderungen von PayPal erfüllt werden.
 
 ## PayPal-Geschäftskonto
 
@@ -102,7 +103,7 @@ PayPal-Filter zur Betrugsverwaltung erleichtern die Erkennung und Reaktion auf b
 | Aktion | Ergebnis |
 | --- | --- |
 | [!UICONTROL Review] | Die verdächtige Bestellung erhält den Status _Zahlungsüberprüfung_ wenn die Bestellung aufgegeben wird. Sie können die Bestellung überprüfen und die Zahlung im Admin oder auf der PayPal-Seite genehmigen oder stornieren. Wenn Sie auf **[!UICONTROL Accept Payment]** oder **[!UICONTROL Deny Payment]** klicken, werden keine neuen Transaktionen für die Bestellung erstellt. <br/><br/>Wenn Sie den Status der Transaktion auf der PayPal-Website ändern, müssen Sie auf der Seite Bestellung des Administrators auf **[!UICONTROL Get Payment Update]** klicken, um die Änderungen anzuwenden. Wenn Sie auf **[!UICONTROL Accept Payment]** oder **[!UICONTROL Deny Payment]** klicken, werden die auf der PayPal-Website vorgenommenen Änderungen übernommen. |
-| [!UICONTROL Deny] | Der Verdachtsauftrag kann vom Kunden nicht erteilt werden, da die entsprechende Transaktion von PayPal abgelehnt wird. <br/><br/>Um die Zahlung vom Administrator abzulehnen, klicken Sie oben rechts auf der Seite auf **[!UICONTROL Deny Payment]** . Der Bestellstatus ändert sich in `Canceled`, die Transaktion wird rückgängig gemacht und das Guthaben wird auf dem Kundenkonto freigegeben. Die entsprechenden Informationen werden im _[!UICONTROL Comments History]_&#x200B;Abschnitt der Bestellansicht hinzugefügt. |
+| [!UICONTROL Deny] | Der Verdachtsauftrag kann vom Kunden nicht erteilt werden, da die entsprechende Transaktion von PayPal abgelehnt wird. <br/><br/>Um die Zahlung vom Administrator abzulehnen, klicken Sie oben rechts auf der Seite auf **[!UICONTROL Deny Payment]** . Der Bestellstatus ändert sich in `Canceled`, die Transaktion wird rückgängig gemacht und das Guthaben wird auf dem Kundenkonto freigegeben. Die entsprechenden Informationen werden im _[!UICONTROL Comments History]_Abschnitt der Bestellansicht hinzugefügt. |
 | [!UICONTROL Flag] | Der Status der verdächtigen Bestellung wird bei ihrer Platzierung `Processing`. Die entsprechende Transaktion ist in der Liste der Händlerkontobuchungen mit einer Markierung gekennzeichnet. |
 
 {style="table-layout:auto"}

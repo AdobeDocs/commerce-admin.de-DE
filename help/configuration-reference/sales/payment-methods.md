@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Payment Methods]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Sales] &gt; [!UICONTROL Payment Methods] des Commerce Admin-Bereichs.
 exl-id: 6545b980-c8ef-460a-a884-d5315f5ad513
 feature: Configuration, Payments
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 489c72652693a15ffe1c745277bbaa9da084dcba
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,17 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Payment Services für Adobe Commerce und Magento Open Source bietet eine schlüsselfertige Self-Service-Lösung, einschließlich Sandbox-Tests und einer einfachen Einrichtung, für eine robuste und sichere Zahlungsabwicklung. Weitere Informationen zu diesem leistungsstarken Tool-Set und dazu, wie es Ihnen die nötigen Einblicke und die Kontrolle gibt, um das beste Erlebnis für Ihre Käufer zu schaffen, finden Sie im [_Benutzerhandbuch für Zahlungsdienste_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=de).
+>Payment Services für Adobe Commerce und Magento Open Source bietet eine schlüsselfertige Self-Service-Lösung, einschließlich Sandbox-Tests und einer einfachen Einrichtung, für eine robuste und sichere Zahlungsabwicklung. Weitere Informationen zu diesem leistungsstarken Tool-Set und dazu, wie es Ihnen die insight und die Kontrolle gibt, die Sie benötigen, um das beste Erlebnis für Ihre Käufer zu schaffen, finden Sie im [_Benutzerhandbuch für Zahlungsdienste_](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html).
 
 {{config}}
 
 ## [!UICONTROL Merchant Location]
 
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
 ![Standort des Händlers](./assets/payment-methods-merchant-location.png)<!-- zoom -->
 
-<!-- [Merchant Location](https://experienceleague.adobe.com/de/docs/commerce-admin/start/setup/store-details#merchant-location) -->
+<!-- [Merchant Location](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#merchant-location) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -34,9 +36,9 @@ ht-degree: 0%
 
 Die folgenden Zahlungslösungen werden als einfache Möglichkeit für Händler empfohlen, die gerade erst anfangen, Online-Zahlungen per PayPal-Konto oder Kreditkarte zu akzeptieren. Wenn Ihr Unternehmen wächst, können Sie diese mit zusätzlichen PayPal-Zahlungslösungen kombinieren.
 
-- [PayPal Express-Checkout](paypal-express-checkout.md)
-- [Braintree](braintree.md)
 - [Zahlungsdienste](payment-services.md)
+- [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} [PayPal Express-Checkout](paypal-express-checkout.md)
+- [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} [Braintree](braintree.md)
 
 >[!NOTE]
 >
@@ -44,21 +46,27 @@ Die folgenden Zahlungslösungen werden als einfache Möglichkeit für Händler e
 ><br/>
 >**Amazon Pay** und **Klarna**: Adobe Commerce und Magento Open Source veröffentlichen die Versionen 2.4.0 bis 2.4.3 und beinhalten diese vom Anbieter entwickelten Erweiterungen. Ab Version 2.4.4 sind diese Erweiterungen nicht mehr mit der Hauptversion gebündelt und müssen von der Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
 ><br/>
->Wenn Sie eine dieser gebündelten Erweiterungen aktiviert und konfiguriert haben, müssen Sie Ihre `composer.json` im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=de) im _Upgrade-Handbuch_ für weitere Informationen.<br/>
+>Wenn Sie eine dieser gebündelten Erweiterungen aktiviert und konfiguriert haben, müssen Sie Ihre `composer.json` im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Upgrade-Handbuch_ für weitere Informationen.<br/>
 ><br/>
 >**Worldpay**, **Eway**, **CyberSource** und **Authorize.Net**: Einzelheiten zum sicheren Übergang von diesen Zahlungsintegrationen finden Sie im [DevBlog](https://community.magento.com/t5/Magento-DevBlog/Deprecation-of-Magento-core-payment-integrations/ba-p/426445){:target="_blank"}.
 
 ## Andere PayPal-Methoden
 
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
 PayPal bietet verschiedene Zahlungslösungen an, die den Bedürfnissen von Unternehmen jeder Größe entsprechen und die auf der ganzen Welt tätig sind. PayPal bietet Ihnen die Möglichkeit, Zahlungen von allen gängigen Debit- und Kreditkarten zu akzeptieren. PayPal bietet zusätzlichen Komfort ohne zusätzlichen Aufwand, da auch Kunden, die kein PayPal-Konto haben, mit PayPal für ihre Einkäufe bezahlen können.
 
 ### PayPal-All-in-One-Methoden
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 - [PayPal-Zahlung - Erweitert](paypal-payments-advanced.md)
 - [PayPal Payments Pro](paypal-payments-pro.md)
 - [PayPal-Zahlungsstandard](paypal-payments-standard.md)
 
 ### PayPal-Zahlungs-Gateways
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 - [PayPal Payflow Pro](paypal-payflow-pro.md) (einschließlich Express-Checkout)
 - [PayPal-Payflow-Link](paypal-payflow-link.md) (einschließlich Express-Checkout)
@@ -71,7 +79,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 
 ![Scheck/Zahlungsanweisung](./assets/payment-methods-check-money-order.png)<!-- zoom -->
 
-<!-- [Check / Money Order](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
+<!-- [Check / Money Order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/check-money-order) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -83,7 +91,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Make Check Payable to] | Shop-Ansicht | Name der Stelle, an die Schecks und Zahlungsanweisungen zu zahlen sind. |
 | [!UICONTROL Send Check to] | Shop-Ansicht | Die Straße oder das Postfach, an die Schecks und Zahlungsanweisungen gesendet werden sollen. |
 | [!UICONTROL Minimum Order Total] | Website | Der kleinste Bestellbetrag, der per Scheck oder Zahlungsanweisung bezahlt werden kann. |
-| [!UICONTROL Maximum Order Total] | Website | Der größte Bestellbetrag, der per Scheck oder Zahlungsanweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**&#x200B;Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
+| [!UICONTROL Maximum Order Total] | Website | Der größte Bestellbetrag, der per Scheck oder Zahlungsanweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
 | [!UICONTROL Sort Order] | Website | Eine Nummer, die die Bestellung bestimmt, dass die Zahlung per Scheck oder Zahlungsanweisung angezeigt wird, wenn sie mit anderen Zahlungsmethoden beim Checkout aufgelistet wird. Geben Sie `0` ein, um sie an den Anfang der Liste zu setzen. |
 
 {style="table-layout:auto"}
@@ -92,7 +100,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 
 ![Banküberweisung](./assets/payment-methods-bank-transfer-payment.png)<!-- zoom -->
 
-<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
+<!-- [Bank Transfer Payment](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/offline/bank-transfer) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -102,7 +110,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Payment from Applicable Countries] | Website | Bestimmt die Länder, von denen Sie die Zahlung per Banküberweisung akzeptieren. Optionen: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Gibt die Länder an, aus denen Sie die Zahlung per Banküberweisung akzeptieren. |
 | [!UICONTROL Minimum Order Total] | Website | Der kleinste Bestellbetrag, der per Banküberweisung bezahlt werden kann. |
-| [!UICONTROL Maximum Order Total] | Website | Der größte Bestellbetrag, der per Banküberweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**&#x200B;Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
+| [!UICONTROL Maximum Order Total] | Website | Der größte Bestellbetrag, der per Banküberweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
 | [!UICONTROL Sort Order] | Website | Eine Zahl, die die Reihenfolge bestimmt, in der die Zahlung per Banküberweisung angezeigt wird, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgelistet wird. Geben Sie `0` ein, um sie an den Anfang der Liste zu setzen. |
 
 {style="table-layout:auto"}
@@ -113,7 +121,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 
 ![Zahlung auf Rechnung](./assets/payment-methods-payment-on-account.png)<!-- zoom -->
 
-<!-- [Payment on Account](https://experienceleague.adobe.com/de/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
+<!-- [Payment on Account](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/enable-basic-features#configure-payment-on-account) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -123,7 +131,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Payment from Applicable Countries] | Website | Legt die Länder fest, in denen Unternehmen Einkäufe mit ihren Konten verrechnen dürfen. Optionen: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Gibt die spezifischen Länder an, in denen Unternehmen Käufe mit ihren Konten verbuchen können. |
 | [!UICONTROL Minimum Order Total] | Website | Gibt den kleinsten Bestellbetrag an, der einem Firmenkonto belastet werden kann. |
-| [!UICONTROL Maximum Order Total] | Website | Der größte Auftragsbetrag, der einem Firmenkonto belastet werden kann. <br/><br/>**_Hinweis:_**&#x200B;Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
+| [!UICONTROL Maximum Order Total] | Website | Der größte Auftragsbetrag, der einem Firmenkonto belastet werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
 | [!UICONTROL Sort Order] | Website | Eine Zahl, die die Reihenfolge bestimmt, in der die Zahlung auf Konto angezeigt wird, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgelistet wird. Geben Sie `0` ein, um sie an den Anfang der Liste zu setzen. |
 
 {style="table-layout:auto"}
@@ -146,7 +154,7 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 | [!UICONTROL Payment from Applicable Countries] | Website | Bestimmt die Länder, von denen Sie die Zahlung per Banküberweisung akzeptieren. Optionen: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Gibt die Länder an, aus denen Sie die Zahlung per Banküberweisung akzeptieren. |
 | [!UICONTROL Minimum Order Total] | Website | Gibt den kleinsten Bestellbetrag an, der per Banküberweisung bezahlt werden kann. |
-| [!UICONTROL Maximum Order Total] | Website | Der größte Bestellbetrag, der per Banküberweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**&#x200B;Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
+| [!UICONTROL Maximum Order Total] | Website | Der größte Bestellbetrag, der per Banküberweisung bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
 | [!UICONTROL Sort Order] | Website | Eine Zahl, die die Reihenfolge bestimmt, in der die Zahlung per Banküberweisung angezeigt wird, wenn sie beim Checkout mit anderen Zahlungsmethoden aufgelistet wird. Geben Sie `0` ein, um sie an den Anfang der Liste zu setzen. |
 
 {style="table-layout:auto"}
@@ -170,6 +178,8 @@ Die folgenden Zahlungsmethoden sind in Commerce integriert und verwenden keinen 
 
 ## [!UICONTROL Payment actions]
 
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
 Zahlungsaktionen werden (_Zahlungsmethode)_. Die Zahlungsaktion bestimmt, wann die Mittel erfasst werden und wann Rechnungen für Ihre Aufträge erstellt werden.
 
 Eine umfassende Liste der individuellen Konfigurationsoptionen finden Sie im Abschnitt Grundeinstellungen jedes einzelnen Artikels zur Zahlungsmethode .
@@ -189,7 +199,7 @@ Eine umfassende Liste der individuellen Konfigurationsoptionen finden Sie im Abs
 
 >[!NOTE]
 >
->Wählen Sie die Option _[!UICONTROL Not Capture]_&#x200B;nur aus, wenn Sie sicher sind, dass Sie die Zahlung später über Commerce erfassen werden. Sie können erst dann eine Gutschrift erstellen, wenn die Zahlung mit der Schaltfläche „Erfassen“ erfasst wurde.
+>Wählen Sie die Option _[!UICONTROL Not Capture]_nur aus, wenn Sie sicher sind, dass Sie die Zahlung später über Commerce erfassen werden. Sie können erst dann eine Gutschrift erstellen, wenn die Zahlung mit der Schaltfläche „Erfassen“ erfasst wurde.
 
 ## [!UICONTROL Purchase Order]
 
@@ -205,7 +215,7 @@ Eine umfassende Liste der individuellen Konfigurationsoptionen finden Sie im Abs
 | [!UICONTROL Payment from Applicable Countries] | Website | Bestimmt die Länder, aus denen Sie die Zahlung per Bestellung akzeptieren. Optionen: `All Allowed Countries` / `Specific Countries` |
 | [!UICONTROL Payment from Specific Countries] | Website | Gibt die Länder an, aus denen Sie die Zahlung per Bestellung akzeptieren. |
 | [!UICONTROL Minimum Order Total] | Website | Der kleinste Bestellbetrag, der von der Bestellung bezahlt werden kann. |
-| [!UICONTROL Maximum Order Total] | Website | Der größte Auftragsbetrag, der von der Bestellung bezahlt werden kann. <br/><br/>**_Hinweis:_**&#x200B;Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
+| [!UICONTROL Maximum Order Total] | Website | Der größte Auftragsbetrag, der von der Bestellung bezahlt werden kann. <br/><br/>**_Hinweis:_**Eine Bestellung ist qualifiziert, wenn die Gesamtsumme zwischen der Mindest- oder Höchstauftragssumme liegt oder mit dieser übereinstimmt. |
 | [!UICONTROL Sort Order] | Website | Eine Zahl, die die Reihenfolge bestimmt, in der die Zahlung per Bestellung angezeigt wird, wenn sie mit anderen Zahlungsmethoden beim Checkout aufgelistet wird. Geben Sie `0` ein, um sie an den Anfang der Liste zu setzen. |
 
 {style="table-layout:auto"}

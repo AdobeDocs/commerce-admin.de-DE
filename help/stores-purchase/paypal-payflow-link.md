@@ -3,23 +3,24 @@ title: PayPal-Payflow-Link
 description: Erfahren Sie, wie Sie PayPal Payflow Link als Online-Zahlungslösung in Ihrem Geschäft einrichten.
 exl-id: dba4057e-1fea-4a23-8594-cc85f619d664
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
 
 # PayPal-Payflow-Link
 
-PayPal Payflow Link ist nur für Händler in den USA und Kanada verfügbar. Kunden müssen kein persönliches PayPal-Konto haben und ihre Kreditkarteninformationen in einem Formular eingeben, das von PayPal gehostet wird. Die Informationen werden niemals auf Ihrem Adobe Commerce oder Magento Open Source-Server gespeichert. Der Payflow-Link kann nicht für Bestellungen verwendet werden, die vom Administrator erstellt wurden.
+PayPal Payflow Link ist nur für Händler in den USA und Kanada verfügbar. Kunden müssen kein persönliches PayPal-Konto haben und ihre Kreditkarteninformationen in einem Formular eingeben, das von PayPal gehostet wird. Die Informationen werden niemals auf Ihrem Adobe Commerce- oder Magento Open Source-Server gespeichert. Der Payflow-Link kann nicht für Bestellungen verwendet werden, die vom Administrator erstellt wurden.
 
 Gutschriften werden sowohl für Online- als auch für Offline-Rückerstattungen unterstützt. Mehrere Online-Erstattungen werden jedoch nicht unterstützt.
 
 >[!IMPORTANT]
 >
 >**PSD2-Anforderungen:** <br/>
->Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2&rbrace;-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Um PSD2 zu erfüllen, muss PayPal Payflow Link mit Cardinal Commerce integriert sein. Weitere Informationen finden Sie unter [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
+>Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2}-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Um PSD2 zu erfüllen, muss PayPal Payflow Link mit Cardinal Commerce integriert sein. Weitere Informationen finden Sie unter [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
 
 ## Anforderungen
 
@@ -98,7 +99,7 @@ Bei dieser Einrichtungsmethode wird davon ausgegangen, dass Sie über ein vorhan
 
 1. Wenn Ihre Commerce-Installation über mehrere Websites, Stores oder Ansichten verfügt, legen Sie **[!UICONTROL Store View]** auf die Store-Ansicht fest, in der Sie diese Konfiguration anwenden möchten.
 
-1. Wählen Sie im Abschnitt _[!UICONTROL Merchant Location]_&#x200B;die **[!UICONTROL Merchant Country]**&#x200B;aus, in der sich Ihr Unternehmen befindet.
+1. Wählen Sie im Abschnitt _[!UICONTROL Merchant Location]_die **[!UICONTROL Merchant Country]**aus, in der sich Ihr Unternehmen befindet.
 
    Diese Einstellung bestimmt die Auswahl der PayPal-Lösungen, die in der Konfiguration angezeigt werden.
 
@@ -293,7 +294,7 @@ Legen Sie **[!UICONTROL Enable PayPal PayLater Experience]** auf eine der folgen
 1. Legen Sie **[!UICONTROL Payment Applicable From]** auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_&#x200B;angezeigt. Halten Sie die Strg-Taste gedrückt und wählen Sie jedes Land in der Liste aus, in dem Kunden in Ihrem Geschäft Einkäufe tätigen können.
+   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Halten Sie die Strg-Taste gedrückt und wählen Sie jedes Land in der Liste aus, in dem Kunden in Ihrem Geschäft Einkäufe tätigen können.
 
 1. Um die Kommunikation mit dem Zahlungssystem in die Protokolldatei zu schreiben, setzen Sie **[!UICONTROL Debug Mode]** auf `Yes`.
 
@@ -419,7 +420,7 @@ Verwenden Sie die _[!UICONTROL Frontend Experience Settings]_, um festzulegen, w
    - `Authorization` - Genehmigt den Kauf und legt die Mittel fest. Der Betrag wird erst abgehoben, wenn er _Händler_ wird.
    - `Sale` - Der Betrag des Kaufs wird autorisiert und sofort vom Konto des Kunden zurückgezogen.
 
-1. Um die Schaltfläche _[!UICONTROL Check out with PayPal]_&#x200B;auf der Produktseite anzuzeigen, setzen Sie **[!UICONTROL Display on Product Details Page]**&#x200B;auf `Yes`.
+1. Um die Schaltfläche _[!UICONTROL Check out with PayPal]_auf der Produktseite anzuzeigen, setzen Sie **[!UICONTROL Display on Product Details Page]**auf `Yes`.
 
 ### Schritt 7: Vervollständigen Sie die erweiterten Einstellungen für PayPal Express Checkout
 
@@ -432,7 +433,7 @@ Verwenden Sie die _[!UICONTROL Frontend Experience Settings]_, um festzulegen, w
 1. Legen Sie **[!UICONTROL Payment Applicable From]** auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen Ländern, die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_&#x200B;angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Elemente.
+   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Elemente.
 
 1. Um die Kommunikation mit dem Zahlungssystem in die Protokolldatei zu schreiben, setzen Sie **[!UICONTROL Debug Mode]** auf `Yes`.
 

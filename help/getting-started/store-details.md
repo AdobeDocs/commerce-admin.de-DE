@@ -3,9 +3,9 @@ title: Store-Details
 description: Erfahren Sie, wie Sie die grundlegenden Informationen für Ihren Store aktualisieren.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 81b55a634d33b79d3164a4d438ae0f23198bc364
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Zu den grundlegenden Informationen für Ihren Store gehören der Name und die Ad
 
 ## [!UICONTROL Store Information]
 
-Der Abschnitt _[!UICONTROL Store Information]_&#x200B;enthält die grundlegenden Informationen, die auf den Verkaufsbelegen und in anderen Mitteilungen angezeigt werden.
+Der Abschnitt _[!UICONTROL Store Information]_enthält die grundlegenden Informationen, die auf den Verkaufsbelegen und in anderen Mitteilungen angezeigt werden.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -169,9 +169,11 @@ Sie können auch den Versand in bestimmte Länder für jede verfügbare [Versand
 
 Hilfe bei der Fehlerbehebung bei Konfigurationsproblemen in Ländern finden Sie in den folgenden Artikeln der [!DNL Commerce]-Support-Wissensdatenbank:
 
-- [Hinzufügen eines Landes](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=de)
+- [Hinzufügen eines Landes](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Die Einstellung „Händlerstandort“ wird zum Konfigurieren von [Zahlungsmethoden](../stores-purchase/payments.md) verwendet. Wenn für diese Einstellung kein Wert vorhanden ist, wird die Einstellung [Standardland](#uicontrol-country-options) verwendet.
 
@@ -311,9 +313,9 @@ Die Luma-Beispieldaten enthalten einen _Kontaktieren Sie uns Info_-Block, der f�
    >
    >Wenn Sie [[!DNL Page Builder] deaktiviert](../page-builder/setup.md#disable-dnl-page-builder) haben, können Sie den Text mit dem Editor [Symbolleiste](../content-design/editor.md) formatieren und [Bilder](../content-design/editor-insert-image.md) und [Links](../content-design/editor-insert-link.md).
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Settings![ ((Settings icon](../page-builder/assets/pb-icon-settings.png) ).
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( ](../page-builder/assets/pb-icon-settings.png) ) aus.
 
-1. Bearbeiten Sie den HTML-Code entsprechend den Kontaktinformationen für Ihren Shop und klicken Sie auf **[!UICONTROL Save]**.
+1. Bearbeiten Sie den HTML-Code entsprechend den Kontaktinformationen für Ihren Store und klicken Sie auf **[!UICONTROL Save]**.
 
    ![Inhaltsbaustein - HTML-Code bearbeiten](./assets/content-block-contact-us-html.png){width="700"}
 

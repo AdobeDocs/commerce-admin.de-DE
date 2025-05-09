@@ -3,9 +3,10 @@ title: PayPal-Abrechnungsbericht
 description: Erfahren Sie mehr über den PayPal-Abrechnungsbericht als Tool zur Verwaltung von PayPal-Transaktionen.
 exl-id: cd087e15-e6ad-4472-9038-8c64fde316f9
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---

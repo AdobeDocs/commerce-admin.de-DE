@@ -3,9 +3,10 @@ title: PayPal-Abrechnungsvereinbarungen
 description: Erfahren Sie, wie Sie PayPal-Abrechnungsvereinbarungen und eine Zahlungsmethode in Ihrem Geschäft unterstützen können.
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Um den Checkout-Prozess zu vereinfachen, können Kunden einen Abrechnungsvertrag
 
 ## Abrechnungsvereinbarungen verwalten
 
-Auf der Seite _[!UICONTROL Billing Agreements]_&#x200B;werden alle Abrechnungsvereinbarungen zwischen Ihrem Geschäft und seinen Kunden aufgelistet. Händler können die Datensätze nach dem Kunden oder den Rechnungsvereinbarungsinformationen filtern, einschließlich Rechnungsvereinbarungs-Referenz-ID, Status und Erstellungsdatum. Jeder Datensatz enthält allgemeine Informationen zum Abrechnungsvertrag und zu allen Aufträgen, die ihn als Zahlungsmethode verwendet haben. Sie können Kunden-Abrechnungsvereinbarungen anzeigen, stornieren oder löschen. Eine stornierte Abrechnungsvereinbarung kann nur vom Store-Administrator gelöscht werden.
+Auf der Seite _[!UICONTROL Billing Agreements]_werden alle Abrechnungsvereinbarungen zwischen Ihrem Geschäft und seinen Kunden aufgelistet. Händler können die Datensätze nach dem Kunden oder den Rechnungsvereinbarungsinformationen filtern, einschließlich Rechnungsvereinbarungs-Referenz-ID, Status und Erstellungsdatum. Jeder Datensatz enthält allgemeine Informationen zum Abrechnungsvertrag und zu allen Aufträgen, die ihn als Zahlungsmethode verwendet haben. Sie können Kunden-Abrechnungsvereinbarungen anzeigen, stornieren oder löschen. Eine stornierte Abrechnungsvereinbarung kann nur vom Store-Administrator gelöscht werden.
 
 ### Rechnungsvereinbarung anzeigen
 
@@ -34,7 +35,7 @@ Auf der Seite _[!UICONTROL Billing Agreements]_&#x200B;werden alle Abrechnungsve
 
 1. Suchen Sie die Abrechnungsvereinbarung in der Liste und klicken Sie darauf, um sie zu öffnen.
 
-Jede Seite eines Abrechnungsvertrags besteht aus zwei Registerkarten: _[!UICONTROL General Information]_&#x200B;und&#x200B;_[!UICONTROL Related Orders]_.
+Jede Seite eines Abrechnungsvertrags besteht aus zwei Registerkarten: _[!UICONTROL General Information]_und_[!UICONTROL Related Orders]_.
 
 #### Allgemeine Informationen
 
