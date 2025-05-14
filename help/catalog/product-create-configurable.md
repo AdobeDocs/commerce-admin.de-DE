@@ -41,7 +41,7 @@ Die Eigenschaften der einzelnen Attribute, die für eine konfigurierbare Produkt
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Configurable Product]**aus.
+1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Configurable Product]**&#x200B;aus.
 
    ![Konfigurierbares Produkt hinzufügen](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -139,7 +139,7 @@ Die Fortschrittsleiste oben auf der Seite zeigt an, wo Sie sich im Prozess befin
 
 ### Schritt 1: Attribute auswählen
 
-1. Scrollen Sie dann von oben nach unten zum Abschnitt _[!UICONTROL Configurations]_und klicken Sie auf **[!UICONTROL Create Configurations]**.
+1. Scrollen Sie dann von oben nach unten zum Abschnitt _[!UICONTROL Configurations]_&#x200B;und klicken Sie auf **[!UICONTROL Create Configurations]**.
 
    ![Konfigurationen](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -319,7 +319,7 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
    - **Methode 2:** Speichern und schließen
 
-     Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
+     Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
 
 ### Schritt 8: Konfigurieren der Miniaturansichten des Warenkorbs
 
