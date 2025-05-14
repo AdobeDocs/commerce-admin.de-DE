@@ -3,7 +3,7 @@ title: Konfigurierbares Produkt
 description: Erfahren Sie, wie Sie ein konfigurierbares Produkt erstellen, das Käufern Varianten zur Auswahl bietet.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
+source-git-commit: 0cb594144a03eda985be3a86e45c93452281e9d5
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 0%
@@ -33,6 +33,7 @@ Die Eigenschaften der einzelnen Attribute, die für eine konfigurierbare Produkt
 | [!UICONTROL Scope] | `Global` |
 | [!UICONTROL Catalog Input Type for Store Owner] | Der Eingabetyp eines Attributs, das für eine Produktvariante verwendet wird, muss einer der folgenden sein: `Dropdown`, `Visual Swatch` oder `Text Swatch`. |
 | [!UICONTROL Values Required] | `Yes` |
+| [!UICONTROL Use for Promo Rule Conditions] | `Yes` |
 
 {style="table-layout:auto"}
 
@@ -40,7 +41,7 @@ Die Eigenschaften der einzelnen Attribute, die für eine konfigurierbare Produkt
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Configurable Product]**&#x200B;aus.
+1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Configurable Product]**aus.
 
    ![Konfigurierbares Produkt hinzufügen](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -138,7 +139,7 @@ Die Fortschrittsleiste oben auf der Seite zeigt an, wo Sie sich im Prozess befin
 
 ### Schritt 1: Attribute auswählen
 
-1. Scrollen Sie dann von oben nach unten zum Abschnitt _[!UICONTROL Configurations]_&#x200B;und klicken Sie auf **[!UICONTROL Create Configurations]**.
+1. Scrollen Sie dann von oben nach unten zum Abschnitt _[!UICONTROL Configurations]_und klicken Sie auf **[!UICONTROL Create Configurations]**.
 
    ![Konfigurationen](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -302,7 +303,7 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
 - [Geschenkoptionen](product-gift-options.md)
 
-### Schritt 7: Publish das Produkt
+### Schritt 7: Produkt veröffentlichen
 
 1. Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, legen Sie **[!UICONTROL Enable Product]** auf `Yes` fest und führen Sie einen der folgenden Schritte aus:
 
@@ -318,7 +319,7 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
    - **Methode 2:** Speichern und schließen
 
-     Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
+     Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
 
 ### Schritt 8: Konfigurieren der Miniaturansichten des Warenkorbs
 
