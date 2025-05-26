@@ -1,11 +1,11 @@
 ---
 title: Handbuch für Admin-Systeme
-description: Erfahren Sie mehr über die Best Practices für die Sicherheit zum Schutz Ihres Commerce-Speichers und zur Verwaltung von Berechtigungen sowie zum Importieren und Exportieren von Daten, zum Verwalten von Integrationen und Erweiterungen und zur Routinewartung.
+description: Lernen Sie Best Practices für Sicherheit kennen, um Ihren Commerce-Store zu schützen und Berechtigungen zu verwalten. Außerdem erfahren Sie, wie Sie Daten importieren und exportieren, Integrationen und Erweiterungen verwalten und sich um die routinemäßige Wartung kümmern.
 exl-id: 9d22571e-9e09-4d1a-ba55-a889f094158d
 source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 

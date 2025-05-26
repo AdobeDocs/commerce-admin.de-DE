@@ -52,4 +52,4 @@ Die Kernfunktionen von Adobe Commerce und Magento Open Source werden nicht abged
 
 Hilfe bei der Fehlerbehebung bei [!DNL Page Builder] finden Sie in den folgenden Artikeln der [!DNL Commerce]-Support-Wissensdatenbank:
 
-- [Leere Seite beim Speichern  [!DNL Page Builder]  DotDigitalForm](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html?lang=de)
+- [Leere Seite beim Speichern  [!DNL Page Builder]  DotDigitalForm](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/magento-2.4.1-empty-page-when-dotdigital-page-builder-form-saved.html)
