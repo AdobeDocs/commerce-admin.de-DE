@@ -20,8 +20,8 @@ Commerce enthält eine native Funktion zur Produktüberprüfung, die Sie über d
 >[!NOTE]
 >
 >Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source enthielten die vom Yotpo-Anbieter entwickelte Erweiterung. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Bundle der Hauptversion enthalten und muss von der Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
->><br><br>
->>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Upgrade-Handbuch_ für weitere Informationen.
+>&#x200B;><br><br>
+>&#x200B;>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Upgrade-Handbuch_ für weitere Informationen.
 
 ## Produktbewertungen in der Storefront
 
@@ -43,7 +43,7 @@ Die Anzahl der Sterne gibt die Zufriedenheitsbewertung des Produkts an. Besucher
 
 ### [!UICONTROL My Product Reviews]
 
-Im Abschnitt _[!UICONTROL My Product Reviews]_des Kundenkonto-Dashboards werden alle vom Kunden eingereichten und zur Veröffentlichung genehmigten Bewertungen aufgelistet. Jede Überprüfungszusammenfassung enthält das Datum, an dem die Überprüfung eingereicht wurde, Links zur Produktseite und Details zur Überprüfung.
+Im Abschnitt _[!UICONTROL My Product Reviews]_&#x200B;des Kundenkonto-Dashboards werden alle vom Kunden eingereichten und zur Veröffentlichung genehmigten Bewertungen aufgelistet. Jede Überprüfungszusammenfassung enthält das Datum, an dem die Überprüfung eingereicht wurde, Links zur Produktseite und Details zur Überprüfung.
 
 ![Meine Produktbewertungen](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -91,7 +91,7 @@ Mit den Commerce-Produktbewertungen können Kunden Bewertungen zuweisen, wenn si
 
    ![Admin - Ratings](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Geben Sie im Abschnitt _[!UICONTROL Rating Title]_die **[!UICONTROL Default Value]**für die neue Bewertung ein.
+1. Geben Sie im Abschnitt _[!UICONTROL Rating Title]_&#x200B;die **[!UICONTROL Default Value]**&#x200B;für die neue Bewertung ein.
 
    Geben Sie gegebenenfalls auch die Übersetzung für jede Shop-Ansicht ein.
 

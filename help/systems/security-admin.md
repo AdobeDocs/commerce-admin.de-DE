@@ -40,7 +40,7 @@ Technische Informationen finden Sie unter [Sicherheitsübersicht](https://develo
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Advanced]_die Option **[!UICONTROL Admin]**aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Advanced]_&#x200B;die Option **[!UICONTROL Admin]**&#x200B;aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Security]** .
 

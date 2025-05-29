@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Menü [!UICONTROL Stores]
 
-Das Menü _[!UICONTROL Stores]_bietet Zugriff auf Einstellungen, die weniger häufig verwendet werden, aber auf die während der gesamten Installation von Adobe Commerce oder Magento Open Source verwiesen wird. Zu diesen Funktionen gehören die Einrichtung der Store-Hierarchie, Konfiguration, Verkaufs- und Auftragseinstellungen, Steuer und Währung, Produktattribute, Produktbewertungsbewertungen und Kundengruppen.
+Das Menü _[!UICONTROL Stores]_&#x200B;bietet Zugriff auf Einstellungen, die weniger häufig verwendet werden, aber auf die während der gesamten Installation von Adobe Commerce oder Magento Open Source verwiesen wird. Zu diesen Funktionen gehören die Einrichtung der Store-Hierarchie, Konfiguration, Verkaufs- und Auftragseinstellungen, Steuer und Währung, Produktattribute, Produktbewertungsbewertungen und Kundengruppen.
 
 >[!BEGINTABS]
 

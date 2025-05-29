@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Einführung in das Kundenmanagement
 
-Das Menü _[!UICONTROL Customers]_bietet Zugriff auf Tools zur Kundenkontenverwaltung und ermöglicht Ihnen zu sehen, wer in Ihrem Geschäft online ist.
+Das Menü _[!UICONTROL Customers]_&#x200B;bietet Zugriff auf Tools zur Kundenkontenverwaltung und ermöglicht Ihnen zu sehen, wer in Ihrem Geschäft online ist.
 
 >[!BEGINTABS]
 

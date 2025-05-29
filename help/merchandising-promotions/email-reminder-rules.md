@@ -21,7 +21,7 @@ E-Mail-Erinnerungen können ausgelöst werden, nachdem eine bestimmte Anzahl von
 
 >[!NOTE]
 >
->Wenn ein Kunde über mehr als einen übereinstimmenden, nicht mehr in den Warenkorb gelegten Warenkorb, eine Wunschliste oder eine Kombination aus beidem verfügt, wird die E-Mail-Erinnerung nur einmal für diesen Kunden ausgelöst. Um dieselbe E-Mail-Erinnerung erneut Trigger, legen Sie im Feld _[!UICONTROL Repeat Schedule]_die Anzahl der Tage zwischen den E-Mails fest.
+>Wenn ein Kunde über mehr als einen übereinstimmenden, nicht mehr in den Warenkorb gelegten Warenkorb, eine Wunschliste oder eine Kombination aus beidem verfügt, wird die E-Mail-Erinnerung nur einmal für diesen Kunden ausgelöst. Um dieselbe E-Mail-Erinnerung erneut Trigger, legen Sie im Feld _[!UICONTROL Repeat Schedule]_&#x200B;die Anzahl der Tage zwischen den E-Mails fest.
 
 ![E-Mail-Erinnerungen](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -45,7 +45,7 @@ E-Mail-Erinnerungsregeln können in regelmäßigen Abständen nach Minute, Stund
       - `Hourly`
       - `Daily`
 
-   - Legen Sie die entsprechende **[!UICONTROL Interval]** basierend auf der _[!UICONTROL Frequency]_fest.
+   - Legen Sie die entsprechende **[!UICONTROL Interval]** basierend auf der _[!UICONTROL Frequency]_&#x200B;fest.
 
    - Legen Sie **[!UICONTROL Start Time]** auf die Stunde, Minute und Sekunde fest, zu der die E-Mail gesendet wird, basierend auf einer 24-Stunden-Zeit.
 

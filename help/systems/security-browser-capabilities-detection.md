@@ -25,7 +25,7 @@ Technische Informationen finden Sie unter [Unterstützte Browser](https://experi
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im Bedienfeld links unter _[!UICONTROL General]_**[!UICONTROL Web]**aus.
+1. Wählen Sie im Bedienfeld links unter _[!UICONTROL General]_&#x200B;**[!UICONTROL Web]**&#x200B;aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Browser Capabilities Detection]** und führen Sie folgende Schritte aus:
 

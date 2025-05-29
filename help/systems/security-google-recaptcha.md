@@ -84,7 +84,7 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
    >
    >Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use system value]** für jedes Feld, das Sie konfigurieren möchten.
 
-1. Um _[!DNL reCAPTCHA v2 ("I am not a robot")]_zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**und gehen Sie folgendermaßen vor:
+1. Um _[!DNL reCAPTCHA v2 ("I am not a robot")]_&#x200B;zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;und gehen Sie folgendermaßen vor:
 
    - Geben Sie **[!UICONTROL Google API Website Key]** den Website-Schlüssel ein, der für diesen reCAPTCHA-Typ erstellt wurde, als Sie Ihr Google reCAPTCHA-Konto registriert haben.
 
@@ -98,7 +98,7 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
 
    ![reCAPTCHA v2 - „Ich bin kein Roboter“](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. Um _[!DNL reCAPTCHA v2 Invisible]_zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v2 Invisible]**und gehen Sie folgendermaßen vor:
+1. Um _[!DNL reCAPTCHA v2 Invisible]_&#x200B;zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;und gehen Sie folgendermaßen vor:
 
    - Geben Sie **[!UICONTROL Google API Website Key]** den Website-Schlüssel ein, der für diesen reCAPTCHA-Typ erstellt wurde, als Sie Ihr Google reCAPTCHA-Konto registriert haben.
 
@@ -112,7 +112,7 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
 
    ![reCAPTCHA v2 Invisible](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. Um _[!DNL reCAPTCHA v3 Invisible]_zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v3 Invisible]**und gehen Sie folgendermaßen vor:
+1. Um _[!DNL reCAPTCHA v3 Invisible]_&#x200B;zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;und gehen Sie folgendermaßen vor:
 
    - Geben Sie **[!UICONTROL Google API Website Key]** den Website-Schlüssel ein, der für diesen reCAPTCHA-Typ erstellt wurde, als Sie Ihr Google reCAPTCHA-Konto registriert haben.
 
@@ -142,7 +142,7 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
 
 ## Schritt 3: Konfigurieren von Google reCAPTCHA für die Storefront
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Security]_die Option **[!UICONTROL Google reCAPTCHA Storefront]**aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Security]_&#x200B;die Option **[!UICONTROL Google reCAPTCHA Storefront]**&#x200B;aus.
 
 1. Füllen Sie den Abschnitt für jeden reCAPTCHA-Typ aus, den Sie in der Storefront verwenden möchten.
 
