@@ -2,10 +2,11 @@
 title: '[!DNL Admin Unified Experience for Adobe Commerce] Versionshinweise'
 description: In den Versionshinweisen finden Sie Informationen zur neuesten Version der  [!DNL Admin Unified Experience] -Erweiterung für Commerce.
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
-source-git-commit: b198c4864e6ad6c20633a3f5483067c55c4e997b
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 1%
+source-wordcount: '210'
+ht-degree: 0%
 
 ---
 
@@ -19,13 +20,13 @@ In diesen Versionshinweisen für die Commerce Admin Unified Experience Extension
 
 >[!NOTE]
 >
->Unter [Produktverfügbarkeit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=de) finden Sie detaillierte Informationen zum Versionsstatus der einheitlichen Admin-Erlebniserweiterung in Bezug auf Adobe Commerce.
+>Unter [Produktverfügbarkeit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) finden Sie detaillierte Informationen zum Versionsstatus der einheitlichen Admin-Erlebniserweiterung in Bezug auf Adobe Commerce.
 
 ## Version 1.0
 
 *13. Februar 2023*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"} Adobe Commerce 2.4.5 und neuere Versionen
 
 ![Neu](../assets/new.svg) Allgemeine Verfügbarkeit der Admin Unified Experience-Erweiterung, um die Integration mit Adobe Experience Cloud zu ermöglichen.
 
@@ -36,7 +37,7 @@ In diesen Versionshinweisen für die Commerce Admin Unified Experience Extension
 
 *8. August 2023*
 
-[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"}
+[!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"} Adobe Commerce 2.4.5 und neuere Versionen
 
 ![Neu](../assets/new.svg) Erste Beta-Version der Admin Unified Experience-Erweiterung, um die Integration mit Adobe Experience Cloud zu ermöglichen.
 

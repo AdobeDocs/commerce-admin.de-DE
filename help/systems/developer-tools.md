@@ -3,9 +3,10 @@ title: Entwickler-Tools
 description: Erfahren Sie mehr über die erweiterten Entwickler-Tools, die Entwicklern zur Verfügung stehen, die an Anpassungsprojekten arbeiten.
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -24,9 +25,9 @@ Verwenden Sie die erweiterten Entwickler-Tools, um den Kompilierungsmodus währe
 
 ## Betriebsmodi
 
-Ihre Adobe Commerce- oder Magento Open Source-Instanz kann bereitgestellt werden, um entweder im _-_ im _-Modus_. Auf die speziell für Entwickler entwickelten Tools und Konfigurationseinstellungen kann nur zugegriffen werden, während der Store im _Entwicklermodus_ ausgeführt wird.
+Ihre Adobe Commerce- oder Magento Open Source-Instanz kann bereitgestellt werden, um entweder im _- oder_-_ausgeführt_. Auf die speziell für Entwickler entwickelten Tools und Konfigurationseinstellungen kann nur zugegriffen werden, während der Store im _Entwicklermodus_ ausgeführt wird.
 
-Der Betriebsmodus kann nur über die Befehlszeile des Servers von einem Benutzer mit entsprechenden Berechtigungen geändert werden. Weitere [ finden Sie unter „Festlegen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=de) Betriebsmodus“ _&quot;_&quot;.
+Der Betriebsmodus kann nur über die Befehlszeile des Servers von einem Benutzer mit entsprechenden Berechtigungen geändert werden. Weitere [ finden Sie unter „Festlegen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) Betriebsmodus“ _&quot;_&quot;.
 
 Die meisten Themen in der Händlerdokumentation gelten für eine Commerce-Instanz, die im Produktionsmodus ausgeführt wird. Die folgenden Konfigurationseinstellungen und -tools können jedoch nur verwendet werden, wenn die Installation im Entwicklermodus ausgeführt wird.
 
@@ -58,7 +59,7 @@ Siehe [Client-seitige LESS-Kompilierung vs. Server-seitig](https://developer.ado
 
 Das Hinzufügen einer digitalen Signatur zur URL statischer Dateien ermöglicht es Browsern zu erkennen, wann eine neuere Version der Datei verfügbar ist. Zu den statischen Dateien, die mit digitalen Signaturen verfolgt werden können, gehören JavaScript, CSS, Bilder und Schriftarten. Die Signatur wird direkt nach der Basis-URL an den Pfad angehängt. Wenn sich die Signatur einer Datei von der unterscheidet, die im Cache des Browsers gespeichert ist, wird die neuere Version der Datei verwendet.
 
-Siehe [Statisches Inhaltssignieren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=de){:target="_blank"} in der Entwicklerdokumentation zu Commerce.
+Siehe [Statisches Inhaltssignieren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target="_blank"} in der Entwicklerdokumentation zu Commerce.
 
 >[!NOTE]
 >
@@ -90,7 +91,7 @@ Der Zeitaufwand für das Laden von Ressourcendateien kann durch das Zusammenfüh
 
 Standardmäßig führen Adobe Commerce und Magento Open Source keine Dateien zusammen, bündeln oder minimieren sie nicht. Der Projektentwickler sollte festlegen, welche Dateioptimierungsmethoden verwendet werden sollen.
 
-Weitere Informationen finden [ unter ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=de) Practices für die Leistung .
+Weitere Informationen finden [ unter ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html) Practices für die Leistung .
 
 >[!NOTE]
 >
@@ -140,7 +141,7 @@ Auf die Zulassungsliste setzen Bevor Sie ein Tool wie [Vorlagenpfadhinweise](#te
 >
 >Client-Einschränkungen für Entwickler können nur im [Entwicklermodus](../systems/developer-tools.md#operation-modes) festgelegt werden.
 
-Technische Informationen finden Sie unter [Benutzerdefinierte VCL zum Zulassen von Anfragen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=de) im _Handbuch zu Commerce in Cloud-Infrastrukturen_.
+Technische Informationen finden Sie unter [Benutzerdefinierte VCL zum Zulassen von Anfragen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) im _Handbuch zu Commerce in Cloud-Infrastrukturen_.
 
 **_So fügen Sie Ihre IP-Adresse zur Zulassungsliste hinzu:_**
 

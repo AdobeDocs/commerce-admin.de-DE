@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie die Browser-Erkennung konfigurieren und einen
 exl-id: 16caab8b-3ba5-43a1-a6f0-7c1e921be132
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -18,13 +19,13 @@ Wie die meisten Websites und Anwendungen im Internet erfordern Adobe Commerce un
 - Wenn Cookies in den Datenschutzeinstellungen des Browsers nicht zulässig sind, können Sie das System so konfigurieren, dass sie automatisch zur Seite &quot;[ aktivieren](../content-design/pages.md#enable-cookies) umgeleitet werden, auf der erläutert wird, wie Sie die empfohlenen Einstellungen mit den meisten Browsern vornehmen können.
 - Wenn JavaScript in den Datenschutzeinstellungen des Browsers nicht zulässig ist, können Sie das System so konfigurieren, dass die folgende Meldung über der Kopfzeile jeder Seite angezeigt wird.
 
-Technische Informationen finden Sie unter [Unterstützte Browser](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=de#supported-browsers) im _Installationshandbuch_.
+Technische Informationen finden Sie unter [Unterstützte Browser](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html#supported-browsers) im _Installationshandbuch_.
 
 ## Konfigurieren der Browser-Erkennung
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im Bedienfeld links unter _[!UICONTROL General]_&#x200B;**[!UICONTROL Web]**&#x200B;aus.
+1. Wählen Sie im Bedienfeld links unter _[!UICONTROL General]_**[!UICONTROL Web]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Browser Capabilities Detection]** und führen Sie folgende Schritte aus:
 

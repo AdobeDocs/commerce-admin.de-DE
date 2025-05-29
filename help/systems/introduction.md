@@ -2,9 +2,9 @@
 title: Einführung in Admin-Systeme
 description: Erfahren Sie mehr über die System-Tools und Funktionen, die der Administrator des Stores verwenden kann, um Sites, Daten, Integrationen und Admin-Benutzer effektiv zu verwalten.
 exl-id: 52792a89-8f6f-4230-9a04-e193b3943410
-source-git-commit: 51c8b526e1f03e65ad71eb00ec3cdf82365bd33c
+source-git-commit: 5517bb16a8f7c8aa2f9f057df773f142302a69c7
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ Der Administrator unterstützt auch verschiedene Aufgaben für Systemadministrat
 
 - **Admin-Benutzerkonten und -Berechtigungen** - Verwalten Sie [Benutzerkonten](permissions-users-all.md) sowie die zugehörigen [Rollen und Berechtigungen](permissions-user-roles.md), die deren Zugriff auf Sites und Funktionsbereiche in Admin steuern.
 - **Admin-Sitzungen und Website-Einschränkungen** - Überprüfen Sie [Sicherheit](security.md) Best Practices und erfahren Sie, wie Sie Admin-Sitzungen und Anmeldeinformationen verwalten, CAPTCHA implementieren und Website-Einschränkungen verwalten.
-- **Systemtools** - Führen Sie Routinevorgänge [Index](index-management.md) und [Cache](cache-management.md)-Verwaltungsvorgänge durch, [Sichern](backups.md) das System, verwalten Sie [geplante Vorgänge](data-scheduled-import-export.md) und verwenden Sie eine Auswahl [Entwickler-Tools](developer-tools.md).
+- [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} **Systemtools** - Führen Sie [](index-management.md) Index- und [Cache](cache-management.md)-Verwaltungsvorgänge durch, [sichern Sie ](backups.md) System, verwalten Sie [geplante Vorgänge](data-scheduled-import-export.md) und verwenden Sie eine Reihe von [Entwickler-Tools](developer-tools.md).
 - **Datenübertragung** - Verwenden Sie die [Datenübertragung](data-transfer.md)-Tools zum Importieren und Exportieren von Daten sowie zum Verwalten von Produkt-, Preis-, Kunden- und Steuersatzdaten.
 - **Integrationen** - Ermitteln Sie den Speicherort der OAuth-Anmeldeinformationen und der Umleitungs-URL für [Drittanbieterintegrationen](integrations.md) und identifizieren Sie verfügbare API-Ressourcen.
 - **Aktionsprotokolle** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Greifen Sie auf die Datensätze ([Aktionsprotokolle](action-log.md)) für Änderungen zu, die von Admin-Benutzern vorgenommen wurden, die in Ihrem Store arbeiten.
-- **Support-Tools** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) [Systemberichte](support.md#access-system-reports) dienen zur Identifizierung bekannter Probleme in Ihrem System. Sie können während der Entwicklungs- und Optimierungsprozesse als Ressource und als Diagnosewerkzeug verwendet werden, um unser Supportteam bei der Identifizierung und Lösung von Problemen zu unterstützen.
+- [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} **Support-Tools** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) [Systemberichte](support.md#access-system-reports)) dienen zur Identifizierung bekannter Probleme in Ihrem System. Sie können während der Entwicklungs- und Optimierungsprozesse als Ressource und als Diagnosewerkzeug verwendet werden, um unser Supportteam bei der Identifizierung und Lösung von Problemen zu unterstützen.

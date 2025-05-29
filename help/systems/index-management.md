@@ -3,9 +3,10 @@ title: Indexverwaltung
 description: Erfahren Sie mehr über die Indexverwaltung, einschließlich der Aktionen zur Neuindizierung von Triggern und der Best Practices.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1296'
 ht-degree: 0%
 
 ---
@@ -43,7 +44,7 @@ Neuindizierung und Caching haben in Commerce unterschiedliche Zwecke. Indizes ve
 
 >[!IMPORTANT]
 >
->Für Stores, die [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=de) verwenden und Elasticsearch als Volltext(`catalogsearch_fulltext`)-Indexer festgelegt haben: Der Volltext-Index muss nach jeder Massenberechtigungsänderung erneut ausgeführt werden oder wenn sich der Indexer „Berechtigungen“ im Modus „Geplant“ befindet.
+>Für Stores, die [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) verwenden und Elasticsearch als Volltext(`catalogsearch_fulltext`)-Indexer festgelegt haben: Der Volltext-Index muss nach jeder Massenberechtigungsänderung erneut ausgeführt werden oder wenn sich der Indexer „Berechtigungen“ im Modus „Geplant“ befindet.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -76,7 +77,7 @@ Neuindizierung und Caching haben in Commerce unterschiedliche Zwecke. Indizes ve
 
 ## Neuindizieren über die Befehlszeile
 
-Commerce bietet zusätzliche Neuindizierungsoptionen über die Befehlszeile. Umfassende Details und Befehlsoptionen finden Sie unter [Neuindizieren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=de#reindex){:target="blank"} im _Konfigurationshandbuch_.
+Commerce bietet zusätzliche Neuindizierungsoptionen über die Befehlszeile. Umfassende Details und Befehlsoptionen finden Sie unter [Neuindizieren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} im _Konfigurationshandbuch_.
 
 ## Trigger-Ereignisse indizieren
 

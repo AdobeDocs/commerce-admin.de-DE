@@ -3,9 +3,10 @@ title: Systemsicherungen
 description: Erfahren Sie, wie Sie Systemsicherungen erstellen und planen, einschließlich Dateisystem-, Datenbank- und Mediendateien.
 exl-id: 3a9655c1-c124-42be-a487-b31404dada90
 feature: System, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---

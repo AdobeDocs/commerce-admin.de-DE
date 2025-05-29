@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie OAuth-Anmeldeinformationen konfigurieren und 
 exl-id: b7632994-b07b-4cdb-b62c-79bc7a3a01c8
 role: Admin, Developer
 feature: System, Integration, Configuration
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -80,7 +81,7 @@ Um ein neues Integrations-Zugriffstoken und ein neues Zugriffstoken-Geheimnis zu
 
 1. Suchen Sie die Integration mit dem **[!UICONTROL Active]**.
 
-1. Klicken Sie in _[!UICONTROL Activate]_&#x200B;Spalte auf die **[!UICONTROL Reauthorize]**.
+1. Klicken Sie in _[!UICONTROL Activate]_Spalte auf die **[!UICONTROL Reauthorize]**.
 
 1. Klicken Sie auf **[!UICONTROL Reauthorize]** , um den Zugriff auf die API-Ressourcen zu genehmigen.
 

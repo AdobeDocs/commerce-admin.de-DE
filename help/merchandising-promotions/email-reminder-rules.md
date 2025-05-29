@@ -3,9 +3,10 @@ title: E-Mail-Erinnerungen
 description: Erfahren Sie mehr über E-Mail-Erinnerungen, die automatisch an Kunden gesendet werden können, wenn ein bestimmter Satz von Bedingungen erfüllt ist.
 exl-id: 3293caca-9dd3-4d64-a80c-58c92a9208e5
 feature: Merchandising, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ E-Mail-Erinnerungen können ausgelöst werden, nachdem eine bestimmte Anzahl von
 
 >[!NOTE]
 >
->Wenn ein Kunde über mehr als einen übereinstimmenden, nicht mehr in den Warenkorb gelegten Warenkorb, eine Wunschliste oder eine Kombination aus beidem verfügt, wird die E-Mail-Erinnerung nur einmal für diesen Kunden ausgelöst. Um dieselbe E-Mail-Erinnerung erneut Trigger, legen Sie im Feld _[!UICONTROL Repeat Schedule]_&#x200B;die Anzahl der Tage zwischen den E-Mails fest.
+>Wenn ein Kunde über mehr als einen übereinstimmenden, nicht mehr in den Warenkorb gelegten Warenkorb, eine Wunschliste oder eine Kombination aus beidem verfügt, wird die E-Mail-Erinnerung nur einmal für diesen Kunden ausgelöst. Um dieselbe E-Mail-Erinnerung erneut Trigger, legen Sie im Feld _[!UICONTROL Repeat Schedule]_die Anzahl der Tage zwischen den E-Mails fest.
 
 ![E-Mail-Erinnerungen](./assets/email-reminders.png){width="700" zoomable="yes"}
 
@@ -44,7 +45,7 @@ E-Mail-Erinnerungsregeln können in regelmäßigen Abständen nach Minute, Stund
       - `Hourly`
       - `Daily`
 
-   - Legen Sie die entsprechende **[!UICONTROL Interval]** basierend auf der _[!UICONTROL Frequency]_&#x200B;fest.
+   - Legen Sie die entsprechende **[!UICONTROL Interval]** basierend auf der _[!UICONTROL Frequency]_fest.
 
    - Legen Sie **[!UICONTROL Start Time]** auf die Stunde, Minute und Sekunde fest, zu der die E-Mail gesendet wird, basierend auf einer 24-Stunden-Zeit.
 

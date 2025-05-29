@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie das Sitzungsmanagement konfigurieren, um die 
 exl-id: ad954218-aa3e-44e6-b23f-008de7fc7543
 role: Admin
 feature: Configuration, Security
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -48,8 +49,6 @@ Verwenden Sie die folgenden Konfigurationseinstellungen, um die maximale Sitzung
 
 ### Admin-Sitzungen
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
-
 Wenn Sie die maximale Sitzungsgröße überschreiten, wird eine Fehlermeldung angezeigt und das System protokolliert die Sitzungsgrößenbeschränkung im `var/log`.
 
 Wenn Sie den Zugriff auf den Administrator verlieren, nachdem Sie die Sitzungsgröße auf einen zu niedrigen Wert festgelegt haben, verwenden Sie die CLI, um die Konfiguration zurückzusetzen:
@@ -60,15 +59,13 @@ bin/magento config:set system/security/max_session_size_admin 256000
 
 ### Storefront-Sitzungen
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
-
 Wenn Sie die maximale Sitzungsgröße überschreiten, wird kein Fehler angezeigt, aber das System protokolliert die Sitzungsgrößenbeschränkung im `var/log`.
 
 ## Sitzungsvalidierung
 
 Adobe Commerce und Magento Open Source ermöglichen es Ihnen, Sitzungsvariablen zu validieren, um vor möglichen Sitzungsfixierungsangriffen oder Versuchen zu schützen, Benutzersitzungen zu vergiften oder zu entführen. Die Sitzungsvalidierungseinstellungen bestimmen, wie Sitzungsvariablen bei jedem Store-Besuch validiert werden und ob die Sitzungs-ID in der URL des Stores enthalten ist.
 
-Technische Informationen finden Sie unter [Verwenden von Redis für ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=de) Sitzungsspeicherung) im _Konfigurationshandbuch_.
+Technische Informationen finden Sie unter [Verwenden von Redis für ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html) Sitzungsspeicherung) im _Konfigurationshandbuch_.
 
 ![Allgemeine Konfiguration - Validierung von Web-Sitzungen](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 
@@ -80,7 +77,7 @@ Die Aktivierung aller Validierungsvariablen kann Angriffe verhindern, aber auch 
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich _[!UICONTROL General]_&#x200B;und wählen Sie **[!UICONTROL Web]**.
+1. Erweitern Sie im linken Bereich _[!UICONTROL General]_und wählen Sie **[!UICONTROL Web]**.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Session Validation Settings]** .
 

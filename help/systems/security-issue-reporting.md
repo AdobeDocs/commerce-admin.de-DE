@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie die Kontaktinformationen und sicherheitsbezog
 exl-id: 47b95505-51a3-4b7a-a4e3-dbc4b0045797
 role: Admin
 feature: Configuration, Security
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -19,13 +20,13 @@ Die `security.txt`-Datei enthält Kontaktinformationen und sicherheitsbezogene L
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Klicken Sie im linken Bedienfeld unter _[!UICONTROL Security]_&#x200B;auf **[!UICONTROL Security.txt]**.
+1. Klicken Sie im linken Bedienfeld unter _[!UICONTROL Security]_auf **[!UICONTROL Security.txt]**.
 
-1. Legen Sie im _[!UICONTROL General]_&#x200B;Abschnitt **[!UICONTROL Enable]**&#x200B;auf `Yes` fest.
+1. Legen Sie im _[!UICONTROL General]_Abschnitt **[!UICONTROL Enable]**auf `Yes` fest.
 
    ![Allgemeine Sicherheitskonfiguration](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
-1. Geben Sie unter _[!UICONTROL Contact Information]_&#x200B;Folgendes ein:
+1. Geben Sie unter _[!UICONTROL Contact Information]_Folgendes ein:
 
    - Die E-Mail-Adresse und Telefonnummer der Person, die Sicherheitsprobleme für Ihren Store verwaltet.
 
@@ -33,7 +34,7 @@ Die `security.txt`-Datei enthält Kontaktinformationen und sicherheitsbezogene L
 
    ![Konfiguration der Kontaktinformationen](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
-1. Geben Sie unter _[!UICONTROL Other Information]_&#x200B;Folgendes ein:
+1. Geben Sie unter _[!UICONTROL Other Information]_Folgendes ein:
 
    - Die URL Ihres öffentlichen **[!UICONTROL Encryption]**. Beispiel: `https://example.com/pgp-key.txt`
 

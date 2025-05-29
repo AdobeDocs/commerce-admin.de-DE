@@ -3,9 +3,10 @@ title: Moderate Produktbewertungen
 description: Erfahren Sie, wie Sie Produktbewertungen moderieren können, um sicherzustellen, dass die gesendeten Bewertungen für die öffentliche Präsentation Ihres Stores geeignet sind.
 exl-id: 90c3e918-f435-4468-b41b-e8044ad14fb0
 feature: Merchandising, Products
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -20,15 +21,15 @@ Gehen Sie wie folgt vor, um alle Bewertungen für ein bestimmtes Produkt in Admi
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Suchen Sie das Produkt, das Sie anzeigen möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
+1. Suchen Sie das Produkt, das Sie anzeigen möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
 1. Scrollen Sie auf der Produktseite nach unten und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Product Reviews]** .
 
-   In diesem Raster können Sie die spezifische Überprüfung auch ändern, indem Sie auf den Link **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_&#x200B;klicken.
+   In diesem Raster können Sie die spezifische Überprüfung auch ändern, indem Sie auf den Link **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_klicken.
 
 ## Aktualisierungsstatus für Überprüfungen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**&#x200B;oder **[!UICONTROL All Reviews]**.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL User Content]_>**[!UICONTROL Pending Reviews]**oder **[!UICONTROL All Reviews]**.
 
 1. Klicken Sie in der Liste auf eine ausstehende Überprüfung, um die Details anzuzeigen und bei Bedarf zu bearbeiten.
 
@@ -36,7 +37,7 @@ Gehen Sie wie folgt vor, um alle Bewertungen für ein bestimmtes Produkt in Admi
 
    - Um eine ausstehende Überprüfung zu genehmigen, wählen Sie `Approved` aus.
 
-   - Um eine Überprüfung abzulehnen, wählen Sie `Not Approved` aus. Nicht genehmigte Reviews verschwinden aus der Liste _[!UICONTROL Pending Reviews]_&#x200B;Seite.
+   - Um eine Überprüfung abzulehnen, wählen Sie `Not Approved` aus. Nicht genehmigte Reviews verschwinden aus der Liste _[!UICONTROL Pending Reviews]_Seite.
 
    >[!NOTE]
    >
@@ -46,7 +47,7 @@ Gehen Sie wie folgt vor, um alle Bewertungen für ein bestimmtes Produkt in Admi
 
 1. Ändern Sie bei Bedarf die Werte für **[!UICONTROL Detailed Rating]**, **[!UICONTROL Nickname]** und **[!UICONTROL Summary of Review]**.
 
-   Um die Store-Ansicht zu ändern, in der eine Überprüfung verfügbar ist, wählen Sie die gewünschte Store-Ansicht in der Spalte _[!UICONTROL Visibility]_&#x200B;aus.
+   Um die Store-Ansicht zu ändern, in der eine Überprüfung verfügbar ist, wählen Sie die gewünschte Store-Ansicht in der Spalte _[!UICONTROL Visibility]_aus.
 
    ![Prüfungsseite bearbeiten](./assets/edit-review-page.png){width="600" zoomable="yes"}
 
@@ -60,7 +61,7 @@ Sie können mehrere Reviews gleichzeitig aktualisieren oder löschen:
 
 1. Wählen Sie die Bewertungen aus, die Sie aktualisieren möchten.
 
-1. Verwenden Sie die _[!UICONTROL Action]_&#x200B;oben links, um eine Aktion anzuwenden.
+1. Verwenden Sie die _[!UICONTROL Action]_oben links, um eine Aktion anzuwenden.
 
 1. **[!UICONTROL Submit]** klicken
 

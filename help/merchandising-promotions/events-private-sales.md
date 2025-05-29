@@ -3,9 +3,10 @@ title: Private Verkäufe und Veranstaltungen
 description: Erfahren Sie, wie Sie mit privaten Verkäufen und anderen Katalogereignissen den Umsatz für Ihren bestehenden Kundenstamm steigern und neue Leads generieren können.
 exl-id: 0b890463-b1e5-4327-8d8a-372afd53312a
 feature: Reporting, Promotions/Events
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Private Verkäufe und andere Katalogereignisse sind eine hervorragende Möglichkeit, Ihren bestehenden Kundenstamm zu nutzen, um Buzz und neue Leads zu generieren oder überschüssige Lagerbestände abzuladen. Sie können einen zeitlich begrenzten Verkauf erstellen, den Verkauf auf bestimmte Mitglieder beschränken oder eine eigenständige private Verkaufsseite erstellen. Sie können auch Einladungen und Ereignisdetails definieren. Steigern Sie die Markentreue und erzeugen Sie ein Gespräch, indem Sie Ihren besten Kunden die VIP-Behandlung bieten. Bieten Sie exklusiven Zugriff nur auf den Verkauf durch Mitglieder oder auf den privaten Verkauf, um die Markentreue zu steigern. Sie können diese Verkäufe auch verwenden, um überschüssige Waren zu liquidieren. Kundengruppen sind nur bei der Einrichtung dieser Mitgliedertypen und bei VIP-Verkäufen hilfreich.
+Private Verkäufe und andere Katalogereignisse sind eine hervorragende Möglichkeit, Ihren bestehenden Kundenstamm zu nutzen, um Buzz und neue Leads zu generieren oder überschüssige Lagerbestände abzuladen. Sie können einen zeitlich begrenzten Verkauf erstellen, den Verkauf auf bestimmte Mitglieder beschränken oder eine eigenständige private Verkaufsseite erstellen. Sie können auch Einladungen und Ereignisdetails definieren. Steigern Sie die Markentreue und erzeugen Sie ein Gespräch, indem Sie Ihren besten Kunden die Behandlung mit VIP bieten. Bieten Sie exklusiven Zugriff nur auf den Verkauf durch Mitglieder oder auf den privaten Verkauf, um die Markentreue zu steigern. Sie können diese Verkäufe auch verwenden, um überschüssige Waren zu liquidieren. Kundengruppen sind nur bei der Einrichtung dieser Mitgliedertypen und bei VIP Sales hilfreich.
 
 ![Beispiel einer Storefront - Ereignis auf der Startseite](./assets/storefront-event-home-page.png){width="700" zoomable="yes"}
 

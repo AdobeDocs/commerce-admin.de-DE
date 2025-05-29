@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie während der ersten Admin-Anmeldung eine Zwei
 exl-id: 1ea7f09e-4753-40fa-b9d4-376ba5d8f58f
 role: Admin, User
 feature: Configuration, Security, User Account
-source-git-commit: dc6e5fc7c0996af30bae6374cd7c9879902b9235
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -29,13 +30,13 @@ Vollständige Anweisungen finden Sie unter [Admin-Anmeldung](../getting-started/
 
 1. Öffnen Sie die **[!UICONTROL Google Authenticator]** App auf Ihrem Mobilgerät.
 
-1. Click the plus sign ( **+** ) to add an entry and line up the red box with the QR code to scan with the camera on your smart phone.
+1. Klicken Sie auf das Pluszeichen ( **+** ), um einen Eintrag hinzuzufügen und das rote Feld mit dem QR-Code auszurichten, um mit der Kamera auf Ihrem Smartphone zu scannen.
 
 1. Wenn Ihr Telefon den QR-Code erkennt und einen Eintrag hinzufügt, geben Sie diesen 6-stelligen Code in das **[!UICONTROL Authenticator code]** _Admin_ ein.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Confirm]**.
 
-   ![Google Authenticator QR code](./assets/storefront-2fa-google-qrcode.png){width="300"}
+   ![QR-Code des Google-Authentifizierers](./assets/storefront-2fa-google-qrcode.png){width="300"}
 
 ### Schritt 2: Mit [!DNL Google Authenticator] anmelden
 
@@ -45,15 +46,15 @@ Vollständige Anweisungen finden Sie unter [Admin-Anmeldung](../getting-started/
 
 1. Öffnen Sie [!DNL Google Authenticator] auf Ihrem Mobilgerät.
 
-1. When prompted, enter the six-digit authentication code.
+1. Wenn Sie dazu aufgefordert werden, geben Sie den sechsstelligen Authentifizierungscode ein.
 
-1. To save the authentication for future logins, select the **[!UICONTROL Trust this device, do not ask again]** checkbox.
+1. Um die Authentifizierung für zukünftige Anmeldungen zu speichern, aktivieren Sie das Kontrollkästchen **[!UICONTROL Trust this device, do not ask again]** .
 
 1. Klicken Sie abschließend auf **[!UICONTROL Confirm]**.
 
 ## [!DNL Duo Security]
 
-[!DNL Duo] offers a free trial, and charges according to the number of users that are associated with the account. Folgen Sie den [Anweisungen, um Ihr Konto einzurichten und die App herunterzuladen](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app).
+[!DNL Duo] bietet eine kostenlose Testversion an und berechnet die Kosten entsprechend der Anzahl der Benutzenden, die mit dem Konto verbunden sind. Folgen Sie den [Anweisungen, um Ihr Konto einzurichten und die App herunterzuladen](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app).
 
 ### Schritt 1: Einrichten von [!DNL Duo Security]
 
@@ -69,13 +70,13 @@ Vollständige Anweisungen finden Sie unter [Admin-Anmeldung](../getting-started/
 
    Bestätigen Sie den Besitz, indem Sie den Kenncode an die Telefonnummer senden und überprüfen.
 
-1. When prompted to install [!DNL Duo Mobile] for your phone type, click **[!UICONTROL I have Duo Mobile]**.
+1. Wenn Sie nach der Installation von [!DNL Duo Mobile] für Ihren Telefontyp gefragt werden, klicken Sie auf **[!UICONTROL I have Duo Mobile]**.
 
-1. Open [!DNL Duo Mobile] and scan the QR code to sync the authenticator with Adobe Commerce. A checkmark appears when the activation is complete.
+1. Öffnen Sie [!DNL Duo Mobile] und scannen Sie den QR-Code, um den Authenticator mit Adobe Commerce zu synchronisieren. Nach Abschluss der Aktivierung wird ein Häkchen angezeigt.
 
-1. Sie können weitere Geräte hinzufügen (falls erforderlich) oder überspringen. Your setup is now complete and you can log in with Duo.
+1. Sie können weitere Geräte hinzufügen (falls erforderlich) oder überspringen. Das Setup ist nun abgeschlossen und Sie können sich mit Duo anmelden.
 
-   ![Duo verification actions](./assets/storefront-2fa-duo-setup-complete.png){width="300"}
+   ![Duo-Verifizierungsaktionen](./assets/storefront-2fa-duo-setup-complete.png){width="300"}
 
 ### Schritt 2: Mit [!DNL Duo Security] anmelden
 
@@ -87,13 +88,13 @@ Das folgende Beispiel zeigt die Optionen für `Ask me to choose an authenticator
 
 1. Wählen Sie Mit Duo anmelden , um eine Push-Benachrichtigung über die Duo Mobile App zu erhalten, melden Sie sich mit der Touch-ID an oder fahren Sie mit einer anderen Option fort, die Sie während des Setups konfiguriert haben.
 
-1. Approve the request from Duo app/ Touch ID/ Text message and you will be successfully logged in.
+1. Genehmigen Sie die Anfrage über die Duo App/Touch ID/Textnachricht, und Sie werden erfolgreich angemeldet.
 
    ![Duo - Anmeldung](./assets/storefront-2fa-duo-success.png){width="300"}
 
 ## [!DNL Authy]
 
-[!DNL Authy] bietet seinen Nutzern ihre App und ihren Service kostenlos an. Follow their instructions to download and set up the app for your device or browser. Weitere Informationen finden Sie in der [[!DNL Authy] Dokumentation](https://authy.com/features/setup/).
+[!DNL Authy] bietet seinen Nutzern ihre App und ihren Service kostenlos an. Folgen Sie den Anweisungen, um die App für Ihr Gerät oder Ihren Browser herunterzuladen und einzurichten. Weitere Informationen finden Sie in der [[!DNL Authy] Dokumentation](https://authy.com/features/setup/).
 
 ### Schritt 1: Einrichten der Autorität
 
@@ -105,9 +106,9 @@ Das folgende Beispiel zeigt die Optionen für `Ask me to choose an authenticator
 
    - Land auswählen.
 
-   - Enter your phone number.
+   - Geben Sie Ihre Telefonnummer ein.
 
-   - Select the **[!UICONTROL Verification method]**: `SMS` or `Call Me`
+   - Wählen Sie die **[!UICONTROL Verification method]** aus: `SMS` oder `Call Me`
 
    Klicken Sie auf **[!UICONTROL Continue]**. Eine Nachricht wird über SMS-Text oder einen Anruf an Ihr Telefon gesendet.
 
@@ -121,9 +122,9 @@ Das folgende Beispiel zeigt die Optionen für `Ask me to choose an authenticator
 
 1. Geben Sie Ihre Kontoanmeldeinformationen ein und melden Sie sich bei &quot;_&quot;_.
 
-   ![[!DNL Authy] - signin](./assets/storefront-2fa-authy-access.png){width="300"}
+   ![[!DNL Authy] - Anmelden](./assets/storefront-2fa-authy-access.png){width="300"}
 
-1. Choose one of the following methods to authenticate:
+1. Wählen Sie eine der folgenden Authentifizierungsmethoden:
 
    - `Use one touch` - Sendet einen Warnhinweis an Ihre [!DNL Authy] App. Akzeptieren Sie in der App den Zugriff.
    - `Use authy token` - Fordert zur Eingabe eines Codes aus Ihrer [!DNL Authy] App auf.
@@ -145,8 +146,8 @@ Befolgen Sie die Anweisungen des Lösungsanbieters, um Ihr U2F-Gerät zu konfigu
 
    ![U2F-Schlüsselzugriff](./assets/storefront-2fa-u2f.png){width="300"}
 
-1. Press the button on the key.
+1. Drücken Sie die Taste auf der Taste.
 
-   Authentication immediately triggers and opens the _Admin_.
+   Trigger Bei der Authentifizierung wird sofort die _Admin_ geöffnet.
 
 1. Stecken Sie den **[!UICONTROL U2F key]** in einen USB-Anschluss Ihres Computers.

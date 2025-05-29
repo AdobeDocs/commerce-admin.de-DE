@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie Google reCAPTCHA für Administratorzugriff un
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
 
 # Google reCAPTCHA
 
-[Google reCAPTCHA](https://developers.google.com/recaptcha) stellt sicher, dass ein Mensch und nicht ein Computer (oder „Bot„) mit Ihrer Website interagiert. Im Gegensatz zum standardmäßigen Adobe Commerce und der Magento Open Source [CAPTCHA](security-captcha.md) bietet Google reCAPTCHA erhöhte Sicherheit durch eine Auswahl verschiedener Anzeigeoptionen und -methoden. Weitere Informationen zum Website-Traffic finden Sie im Dashboard Ihres Google reCAPTCHA-Kontos.
+[Google reCAPTCHA](https://developers.google.com/recaptcha) stellt sicher, dass ein Mensch und nicht ein Computer (oder „Bot„) mit Ihrer Website interagiert. Im Gegensatz zum standardmäßigen Adobe Commerce und Magento Open Source [CAPTCHA](security-captcha.md) bietet Google reCAPTCHA erhöhte Sicherheit durch eine Auswahl verschiedener Anzeigeoptionen und -methoden. Weitere Informationen zum Website-Traffic finden Sie im Dashboard Ihres Google reCAPTCHA-Kontos.
 
 Google reCAPTCHA wird für die Admin- und Storefront separat konfiguriert.
 
@@ -33,7 +33,7 @@ Google reCAPTCHA kann auf verschiedene Weise implementiert werden:
 
 >[!IMPORTANT]
 >
->Bevor Google reCAPTCHA konfiguriert werden kann, stellen Sie sicher, dass Ihre `PHP.ini` die folgende Einstellung enthält: `allow_url_fopen = 1`. Dies erfordert möglicherweise die Unterstützung eines Entwicklers. Siehe [Erforderliche PHP](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=de){:target="_blank"}Einstellungen im Installationshandbuch.
+>Bevor Google reCAPTCHA konfiguriert werden kann, stellen Sie sicher, dass Ihre `PHP.ini` die folgende Einstellung enthält: `allow_url_fopen = 1`. Dies erfordert möglicherweise die Unterstützung eines Entwicklers. Siehe [Erforderliche PHP](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){:target="_blank"}Einstellungen im Installationshandbuch.
 
 ## Schritt 1: Generieren von Google reCAPTCHA-Schlüsseln
 
@@ -70,6 +70,8 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
 
 ## Schritt 2: Konfigurieren von Google reCAPTCHA für Admins
 
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
 1. Melden Sie sich bei Ihrem Administratorkonto an.
 
 1. Navigieren Sie in der Seitenleiste Admin zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
@@ -82,7 +84,7 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
    >
    >Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use system value]** für jedes Feld, das Sie konfigurieren möchten.
 
-1. Um _[!DNL reCAPTCHA v2 ("I am not a robot")]_&#x200B;zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;und gehen Sie folgendermaßen vor:
+1. Um _[!DNL reCAPTCHA v2 ("I am not a robot")]_zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**und gehen Sie folgendermaßen vor:
 
    - Geben Sie **[!UICONTROL Google API Website Key]** den Website-Schlüssel ein, der für diesen reCAPTCHA-Typ erstellt wurde, als Sie Ihr Google reCAPTCHA-Konto registriert haben.
 
@@ -96,7 +98,7 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
 
    ![reCAPTCHA v2 - „Ich bin kein Roboter“](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. Um _[!DNL reCAPTCHA v2 Invisible]_&#x200B;zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;und gehen Sie folgendermaßen vor:
+1. Um _[!DNL reCAPTCHA v2 Invisible]_zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v2 Invisible]**und gehen Sie folgendermaßen vor:
 
    - Geben Sie **[!UICONTROL Google API Website Key]** den Website-Schlüssel ein, der für diesen reCAPTCHA-Typ erstellt wurde, als Sie Ihr Google reCAPTCHA-Konto registriert haben.
 
@@ -110,7 +112,7 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
 
    ![reCAPTCHA v2 Invisible](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. Um _[!DNL reCAPTCHA v3 Invisible]_&#x200B;zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;und gehen Sie folgendermaßen vor:
+1. Um _[!DNL reCAPTCHA v3 Invisible]_zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v3 Invisible]**und gehen Sie folgendermaßen vor:
 
    - Geben Sie **[!UICONTROL Google API Website Key]** den Website-Schlüssel ein, der für diesen reCAPTCHA-Typ erstellt wurde, als Sie Ihr Google reCAPTCHA-Konto registriert haben.
 
@@ -140,7 +142,7 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
 
 ## Schritt 3: Konfigurieren von Google reCAPTCHA für die Storefront
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Security]_&#x200B;die Option **[!UICONTROL Google reCAPTCHA Storefront]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Security]_die Option **[!UICONTROL Google reCAPTCHA Storefront]**aus.
 
 1. Füllen Sie den Abschnitt für jeden reCAPTCHA-Typ aus, den Sie in der Storefront verwenden möchten.
 

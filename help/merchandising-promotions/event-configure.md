@@ -3,9 +3,10 @@ title: Konfigurieren von Ereignissen
 description: Erfahren Sie, wie Sie die Basiskonfiguration abschließen, um Ereignisse zu aktivieren und den Ereignisblock in der Seitenleiste der Storefront einzurichten.
 exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 feature: Marketing Tools, Promotions/Events
-source-git-commit: 084d2c3381f57a8a4c7e8ffde9da1abd4d8af670
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -80,7 +81,7 @@ Der Zugriff auf einen privaten Verkauf, eine Veranstaltung oder eine Website kan
 
    >[!NOTE]
    >
-   >Trifft nur zu, wenn der Einschränkungsmodus auf „Website geschlossen _gesetzt_. Die Landingpage wird als Roh-HTML gerendert.
+   >Trifft nur zu, wenn der Einschränkungsmodus auf „Website geschlossen _gesetzt_. Die Landingpage wird als unformatierter HTML gerendert.
 
 1. Wenn Sie möchten, dass die Felder in den Kundenanmelde- und Kennwortformularen automatisch aus vorherigen Einträgen ausgefüllt werden, setzen Sie **[!UICONTROL Enable Autocomplete on login/forgot password forms]** auf `Yes`.
 
@@ -88,6 +89,6 @@ Der Zugriff auf einen privaten Verkauf, eine Veranstaltung oder eine Website kan
 
 ### Verkäufe einschränken
 
-Standardmäßig sind Produkte, die bei anstehenden oder geschlossenen Ereignissen angezeigt werden, nicht für den allgemeinen Verkauf verfügbar und die Schaltfläche _[!UICONTROL Add to Cart]_&#x200B;wird nicht auf der Produktliste oder Produktseite angezeigt.
+Standardmäßig sind Produkte, die bei anstehenden oder geschlossenen Ereignissen angezeigt werden, nicht für den allgemeinen Verkauf verfügbar und die Schaltfläche _[!UICONTROL Add to Cart]_wird nicht auf der Produktliste oder Produktseite angezeigt.
 
-Um die Schaltfläche _[!UICONTROL Add to Cart]_&#x200B;für ein geschlossenes Ereignis wiederherzustellen, muss das Ereignis gelöscht werden (siehe [Ereignisse aktualisieren](event-create.md#update-events)). Wenn ein Produkt jedoch mit einer anderen Kategorie verknüpft ist, die keine Verkaufsbeschränkungen aufweist, ist die Schaltfläche auf der Produktseite verfügbar. Ebenso wird der Tickerblock nicht auf der Produktseite angezeigt, wenn das Produkt einer anderen Kategorie zugeordnet ist, für die keine Verkaufsbeschränkungen gelten.
+Um die Schaltfläche _[!UICONTROL Add to Cart]_für ein geschlossenes Ereignis wiederherzustellen, muss das Ereignis gelöscht werden (siehe [Ereignisse aktualisieren](event-create.md#update-events)). Wenn ein Produkt jedoch mit einer anderen Kategorie verknüpft ist, die keine Verkaufsbeschränkungen aufweist, ist die Schaltfläche auf der Produktseite verfügbar. Ebenso wird der Tickerblock nicht auf der Produktseite angezeigt, wenn das Produkt einer anderen Kategorie zugeordnet ist, für die keine Verkaufsbeschränkungen gelten.

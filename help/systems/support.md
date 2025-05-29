@@ -2,9 +2,10 @@
 title: Support-Tools
 description: Erfahren Sie mehr über die bereitgestellten Support-Tools, mit denen Sie Probleme in Ihrem System identifizieren können.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-source-git-commit: e05d13f79ceb2fe24c1931fefb48317ebd36d1fc
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -62,7 +63,7 @@ Wählen Sie in der Spalte **[!UICONTROL Action]** des Rasters eine der folgenden
 
 ### Anzeigen von Systemberichtsdetails
 
-1. Wählen Sie für den benötigten Bericht **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_&#x200B;aus.
+1. Wählen Sie für den benötigten Bericht **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_aus.
 
 1. Erweitern Sie im linken Bereich ![Erweiterungsauswahl](../assets/icon-display-expand.png) jeden Abschnitt des Berichts, um die Details anzuzeigen.
 

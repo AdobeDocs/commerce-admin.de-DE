@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie CAPTCHA für den Admin-Zugriff und verschiede
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -51,7 +52,7 @@ Als zusätzliche Sicherheitsstufe können Sie der Seite „Admin-Anmeldung“ un
    - Legen Sie **[!UICONTROL Displaying Modes]** auf eine der folgenden Einstellungen fest:
 
       - `Always` - CAPTCHA ist immer erforderlich, um sich beim Administrator anzumelden.
-      - `After number of attempts to login` - Diese Option gilt nur für das Admin-Anmeldeformular. Wenn diese Option ausgewählt ist, wird das Feld _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;angezeigt. Geben Sie die Anzahl der Anmeldeversuche ein, die Sie zulassen möchten. Der Wert 0 (Null) entspricht der Einstellung des Anzeigemodus `Always`.
+      - `After number of attempts to login` - Diese Option gilt nur für das Admin-Anmeldeformular. Wenn diese Option ausgewählt ist, wird das Feld _[!UICONTROL Number of Unsuccessful Attempts to Login]_angezeigt. Geben Sie die Anzahl der Anmeldeversuche ein, die Sie zulassen möchten. Der Wert 0 (Null) entspricht der Einstellung des Anzeigemodus `Always`.
 
      Um die Anzahl erfolgloser Anmeldeversuche zu verfolgen, wird jeder Anmeldeversuch unter einer E-Mail-Adresse und von einer IP-Adresse gezählt. Die maximale Anzahl von Anmeldeversuchen, die von derselben IP-Adresse aus zulässig sind, beträgt 1.000. Diese Einschränkung gilt nur, wenn CAPTCHA aktiviert ist.
 
@@ -97,8 +98,8 @@ Von Kunden kann verlangt werden, ein CAPTCHA jedes Mal einzugeben, wenn sie sich
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` (siehe [Sicherheits-](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=de)_Wissensdatenbank_ Artikel)
-      - `Send to Friend Form` ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source)
+      - `Payflow Pro` (siehe [Sicherheits-](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)_Wissensdatenbank_ Artikel)
+      - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
       - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) (nur bei Adobe Commerce B2B verfügbar)
 

@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Commerce-URLs und Kontoanmeldeinformati
 exl-id: fa16b7e9-e05f-4eb8-bc32-596946c57e1c
 feature: System
 role: Admin, Leader
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,6 @@ Richten Sie während Ihrer Lernphase im Laden unbedingt einen Test ([-Konto) ein
 
 ## Beispieldaten
 
-Adobe bietet einen Beispieldatensatz mit einem Beispielspeicher mit mehr als 250 Produkten (etwa 200 davon sind konfigurierbare Produkte), Kategorien, Preisregeln für Werbeaktionen, CMS-Seiten, Bannern usw. Beispieldaten verwenden das _Luma_-Design in der Storefront. [Die Installation dieser Beispieldaten](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=de) ist optional, kann aber beim Testen und Entwickeln von Anpassungen für Ihr E-Commerce-Unternehmen hilfreich sein.
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
+Adobe bietet einen Beispieldatensatz mit einem Beispielspeicher mit mehr als 250 Produkten (etwa 200 davon sind konfigurierbare Produkte), Kategorien, Preisregeln für Werbeaktionen, CMS-Seiten, Bannern usw. Beispieldaten verwenden das _Luma_-Design in der Storefront. [Die Installation dieser Beispieldaten](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html) ist optional, kann aber beim Testen und Entwickeln von Anpassungen für Ihr E-Commerce-Unternehmen hilfreich sein.

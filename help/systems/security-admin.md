@@ -4,16 +4,17 @@ description: Erfahren Sie, wie Sie die Sicherheit für Ihren Store-Administrator
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-source-git-commit: e301cfaeec3a8427fff6138ba041bdbd7433c137
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren der Admin-Sicherheit
 
-Wir empfehlen Ihnen, einen vielseitigen Ansatz zu wählen, um die Sicherheit Ihres Geschäfts zu schützen. Sie können mit einer [benutzerdefinierten Admin-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) beginnen, die nicht einfach zu erraten ist, anstatt mit dem offensichtlichen „Admin“ oder „Backend“. Standardmäßig müssen Kennwörter, die für die [ beim ](../getting-started/admin-signin.md) verwendet werden, mindestens sieben Zeichen lang sein und sowohl Buchstaben als auch Zahlen enthalten. Verwenden [ als Best ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=de) nur sichere Administratorkennwörter, die aus einer Kombination aus Buchstaben, Zahlen und Symbolen bestehen. Adobe Commerce und Magento Open Source erlauben nicht die Wiederverwendung der letzten vier Kennwörter, die dem Konto zugewiesen wurden.
+Wir empfehlen Ihnen, einen vielseitigen Ansatz zu wählen, um die Sicherheit Ihres Geschäfts zu schützen. Sie können mit einer [benutzerdefinierten Admin-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) beginnen, die nicht einfach zu erraten ist, anstatt mit dem offensichtlichen „Admin“ oder „Backend“. Standardmäßig müssen Kennwörter, die für die [ beim ](../getting-started/admin-signin.md) verwendet werden, mindestens sieben Zeichen lang sein und sowohl Buchstaben als auch Zahlen enthalten. Verwenden [ als Best ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) nur sichere Administratorkennwörter, die aus einer Kombination aus Buchstaben, Zahlen und Symbolen bestehen. Adobe Commerce und Magento Open Source erlauben nicht die Wiederverwendung der letzten vier dem Konto zugewiesenen Kennwörter.
 
 Die Admin-Sicherheitskonfiguration bietet folgende Möglichkeiten:
 
@@ -39,7 +40,7 @@ Technische Informationen finden Sie unter [Sicherheitsübersicht](https://develo
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Advanced]_&#x200B;die Option **[!UICONTROL Admin]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Advanced]_die Option **[!UICONTROL Admin]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Security]** .
 

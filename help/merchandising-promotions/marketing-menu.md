@@ -2,9 +2,9 @@
 title: Menü [!UICONTROL Marketing]
 description: Commerce Admin enthält das Menü [!UICONTROL Marketing] , das Tools zum Verwalten von Promotions, Kommunikation, SEO und benutzergenerierten Inhalten bereitstellt.
 exl-id: fc0e554b-1bff-45da-bd6f-73e9b1a4fdef
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 Das [!UICONTROL Marketing] bietet Zugriffstools zum Verwalten von Promotions, Kommunikation, SEO und benutzergenerierten Inhalten.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
 ![Commerce Admin - Marketing-Menü](./assets/admin-menu-marketing-ee.png){width="600" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+
+![Commerce Admin - Marketing-Menü](./assets/admin-menu-marketing-ee-accs.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Anzeigen des [!UICONTROL Marketing]
 
@@ -29,17 +43,11 @@ Erstellen Sie [Katalog](price-rules-catalog.md) und [Warenkorb](price-rules-cart
 
 ### [!UICONTROL Private Sales]
 
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
 {{ee-feature}}
 
 Private Verkäufe und andere Katalogveranstaltungen sind eine hervorragende Möglichkeit, Ihren bestehenden Kundenstamm zu nutzen, um Buzz und neue Leads mit exklusivem Zugriff nur für Mitglieder oder auf Einladung zu generieren.
-
-### [!UICONTROL Channels]
-
-Umsatzsteigerung durch die Erweiterung des Umsatzes auf weitere Webstores mit [Amazon Marketplace-Integration](https://experienceleague.adobe.com/docs/commerce-channels/amazon/overview.html?lang=de). Das Untermenü Kanäle wird nur angezeigt, wenn Amazon Sales Channel konfiguriert ist.
-
->[!TIP]
->
->Channel Manager hilft Händlern, den Umsatz zu steigern, neue Kunden zu erreichen, den Vertriebsbetrieb zu optimieren und Zeit zu sparen, indem ein Adobe Commerce- oder Magento Open Source-Produktkatalog mit dem Walmart Marketplace integriert wird. Weitere Informationen [_Installation, Onboarding, Konfiguration und Management von Channel Manager finden Sie im_](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/intro-to-channel-manager/overview.html?lang=de)Channel Manager-Handbuch).
 
 ### [!UICONTROL Communications]
 
@@ -52,5 +60,7 @@ Passen Sie alle Benachrichtigungen an, die von Ihrem Geschäft gesendet werden. 
 Analysieren Sie [Suchbegriffe](../catalog/search-terms.md) und [Synonyme](../catalog/search-terms.md#search-synonyms), um Kunden dabei zu helfen, Produkte im Store zu finden, [Meta-Daten](meta-data.md) zu verwalten und eine [-Sitemap zu erstellen](sitemap-xml.md). Verwenden Sie [Umleitungen](url-rewrite.md) um URL-Änderungen zu verwalten und fehlerhafte Links zu vermeiden.
 
 ### [!UICONTROL User Content]
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Integrieren Sie benutzergenerierte [Produktbewertungen](product-reviews.md), um ein Gemeinschaftsgefühl zu schaffen und den Umsatz zu steigern.

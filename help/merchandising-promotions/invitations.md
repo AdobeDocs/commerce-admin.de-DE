@@ -3,9 +3,10 @@ title: Ereigniseinladungen
 description: Erfahren Sie, wie Kunden über das Dashboard ihrer Kundenkonten Einladungen zu Veranstaltungen und privaten Verkäufen senden und anzeigen können.
 exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Wenn Einladungen aktiviert sind, können Kundinnen und Kunden Einladungen über 
 
 ## Meine Einladungen
 
-Im Abschnitt _[!UICONTROL My Invitations]_&#x200B;des Kundenkontos sind alle vom Kunden gesendeten Einladungen aufgeführt. Kunden können Einladungen an Freunde und Familie für Store-Events, Geschenkregistrierungen, Wunschlisten usw. senden.
+Im Abschnitt _[!UICONTROL My Invitations]_des Kundenkontos sind alle vom Kunden gesendeten Einladungen aufgeführt. Kunden können Einladungen an Freunde und Familie für Store-Events, Geschenkregistrierungen, Wunschlisten usw. senden.
 
 ![Meine Einladungen](./assets/account-dashboard-my-invitations.png){width="700" zoomable="yes"}
 

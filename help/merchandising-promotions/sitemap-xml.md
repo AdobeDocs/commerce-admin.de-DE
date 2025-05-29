@@ -3,14 +3,19 @@ title: Sitemaps
 description: Erfahren Sie, wie Sie eine Sitemap konfigurieren, um alle Seiten und Bilder Ihrer Commerce-Sites zu indizieren.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
 
 # Sitemaps
+
+>[!TIP]
+>
+>Informationen zu Adobe Commerce as a Cloud Service finden Sie in den [SEO-Richtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in der Dokumentation zu Commerce Storefront
 
 Eine Sitemap verbessert die Art und Weise, wie Ihr Store von Suchmaschinen indiziert wird, und ist so konzipiert, dass Seiten gefunden werden, die von Webcrawlern übersehen werden könnten. Eine Sitemap kann so konfiguriert werden, dass alle Seiten und Bilder indiziert werden.
 
@@ -97,7 +102,7 @@ Gehen Sie wie folgt vor, um Sitemaps für eine Multi-Store-Instanz zu erstellen:
    
 >[!NOTE]
 >
->Wenn Ihre Site die [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=de)-Webserver-Engine verwendet, sollten Sie die [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)-Datei im Stammverzeichnis Ihrer Website aktualisieren, um alle anderen Sitemap-Anfragen an den richtigen Ort zu leiten.
+>Wenn Ihre Site die [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html)-Webserver-Engine verwendet, sollten Sie die [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)-Datei im Stammverzeichnis Ihrer Website aktualisieren, um alle anderen Sitemap-Anfragen an den richtigen Ort zu leiten.
 
 ## Spaltenbeschreibungen
 
@@ -223,6 +228,6 @@ Ihre Sitemap sollte so oft aktualisiert werden, wie sich der Inhalt auf Ihrer Si
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=de
+[1]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html
 [2]: https://support.google.com/webmasters/answer/183669?hl=en
 [3]: https://www.bing.com/webmasters/help/Sitemaps-3b5cf6ed

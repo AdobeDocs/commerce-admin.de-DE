@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie die Zwei-Faktor-Authentifizierung verwalten u
 exl-id: 68256214-2d50-4c42-846f-306ffc305f25
 role: Admin
 feature: Configuration, Security, User Account
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -34,11 +35,11 @@ Informationen zum Zurücksetzen von Authentifizierern über die Befehlszeile und
 
 1. Wählen Sie den Benutzer aus und öffnen Sie das Konto im Bearbeitungsmodus.
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Current User Identity Verification]_&#x200B;und geben Sie Ihr Kennwort ein.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Current User Identity Verification]_und geben Sie Ihr Kennwort ein.
 
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL 2FA]**.
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Configuration reset]_&#x200B;zur Bestätigung auf **[!UICONTROL Reset]**&#x200B;und **[!UICONTROL OK]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Configuration reset]_zur Bestätigung auf **[!UICONTROL Reset]**und **[!UICONTROL OK]**.
 
    ![Benutzerkonto - 2FA aktivieren](./assets/admin-2fa-config-reset-providers.png){width="600" zoomable="yes"}
 

@@ -2,9 +2,9 @@
 title: Menü [!UICONTROL System]
 description: Commerce Admin umfasst das Menü [!UICONTROL System] , das Zugriff auf Tools für den Datenimport und -export, die Systemcache- und Indexverwaltung, die Verwaltung von Administratorzugriffen und -berechtigungen, Sicherungen, Systembenachrichtigungen und benutzerdefinierte Variablen bietet.
 exl-id: 3f3bfc07-0ac8-4a50-9442-4b2e1e5fba04
-source-git-commit: 97eeb733836f0336401664c5cfb3df2b9f2f2ccf
+source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,21 @@ ht-degree: 0%
 
 Das [!UICONTROL System] Menü enthält Tools zum Importieren und Exportieren von Daten, zum Verwalten von System-Caches und -Indizes, zum Verwalten von Berechtigungen, Backups, Systembenachrichtigungen und benutzerdefinierten Variablen.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
 ![Systemmenü](./assets/system-menu.png){width="600" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+
+![Systemmenü](./assets/system-menu-accs.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
 
 **_Aufrufen des [!UICONTROL System]-Menüs:_**
 
@@ -25,13 +39,19 @@ Diese [Tools](data-transfer.md) bieten Ihnen die Möglichkeit, mehrere Datensät
 
 ## [!UICONTROL Extensions]
 
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
 Verwalten [ (Drittanbieterintegrationen](integrations.md) und Erweiterungen für Ihren Store.
 
 ## [!UICONTROL Tools]
 
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
 Verwenden Sie diese Sammlung von Tools zur Verwaltung Ihrer Systemressourcen, einschließlich [Cache](cache-management.md)- und [Index](index-management.md)-Verwaltung, [Backups](backups.md) und Installationseinstellungen.
 
 ## [!UICONTROL Support]
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
