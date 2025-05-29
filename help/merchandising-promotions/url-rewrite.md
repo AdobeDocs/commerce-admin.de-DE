@@ -111,4 +111,4 @@ Commerce bietet die folgenden URL-Neuschreibungstypen:
 
 In diesem Video erfahren Sie mehr über die Verwaltung von URL-Neuschreibungen:
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411957?quality=12&learn=on&captions=ger)
