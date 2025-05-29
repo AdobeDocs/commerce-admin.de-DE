@@ -11,19 +11,19 @@ ht-degree: 0%
 
 # Menü [!UICONTROL Catalog]
 
-Das Menü [!UICONTROL Catalog] bietet einfachen Zugriff auf Tools zur Produkterstellung, Kategorie- und Bestandsverwaltung sowie freigegebene Kataloge für benutzerdefinierte Preise in [B2B-Stores](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+Das Menü [!UICONTROL Catalog] bietet einfachen Zugriff auf Tools zur Produkterstellung, Kategorie- und Bestandsverwaltung sowie freigegebene Kataloge für benutzerdefinierte Preise in [B2B-Stores](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=de).
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 ![Menü Katalog](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 ![Menü Katalog](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
@@ -45,6 +45,6 @@ Erstellen Sie die [Kategorie](categories.md)-Struktur, die die Grundlage für di
 
 ## [!UICONTROL Shared Catalogs]
 
-Bei Shops mit installiertem und aktiviertem Adobe Commerce B2B [ Sie mit ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html)freigegebenen Katalogen“ benutzerdefinierte Preise für verschiedene Unternehmen festlegen können.
+Bei Shops mit installiertem und aktiviertem Adobe Commerce B2B [ Sie mit ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=de)freigegebenen Katalogen“ benutzerdefinierte Preise für verschiedene Unternehmen festlegen können.
 
 ![Freigegebene Katalogprodukte](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

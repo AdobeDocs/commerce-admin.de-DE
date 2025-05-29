@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über die Unterstützung der Zwei-Faktor-Authenti
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '810'
@@ -30,7 +30,7 @@ Wenn sich ein Benutzer zum ersten Mal bei _Admin_ anmeldet, muss er jede gewüns
 
 >[!NOTE]
 >
->Bei Stores, für die die Adobe Identity Management Services (IMS)-Authentifizierung aktiviert ist, sind native Adobe Commerce- und Magento Open Source 2FA-Dienste deaktiviert. Admin-Benutzende, die mit ihren Adobe-Anmeldeinformationen bei ihrer Commerce-Instanz angemeldet sind, müssen sich für viele Admin-Aufgaben nicht erneut authentifizieren. Die Authentifizierung wird von Adobe IMS durchgeführt, wenn sich der Administrator bei seiner aktuellen Sitzung anmeldet. Siehe Übersicht über die Integration von [Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
+>Bei Stores, für die die Adobe Identity Management Services (IMS)-Authentifizierung aktiviert ist, sind native Adobe Commerce- und Magento Open Source 2FA-Dienste deaktiviert. Admin-Benutzende, die mit ihren Adobe-Anmeldeinformationen bei ihrer Commerce-Instanz angemeldet sind, müssen sich für viele Admin-Aufgaben nicht erneut authentifizieren. Die Authentifizierung wird von Adobe IMS durchgeführt, wenn sich der Administrator bei seiner aktuellen Sitzung anmeldet. Siehe Übersicht über die Integration von [Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=de).
 
 In dieser [Videodemo](https://video.tv.adobe.com/v/339104?quality=12&learn=on) erhalten Sie einen Überblick über die Zwei-Faktor-Authentifizierung in der Admin-Verwaltung.
 

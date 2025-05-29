@@ -2,7 +2,7 @@
 title: '[!DNL Admin Unified Experience for Adobe Commerce] Versionshinweise'
 description: In den Versionshinweisen finden Sie Informationen zur neuesten Version der  [!DNL Admin Unified Experience] -Erweiterung für Commerce.
 exl-id: f8a16c63-13f9-4429-a1cd-2293bc465f9f
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
 workflow-type: tm+mt
 source-wordcount: '210'
@@ -20,7 +20,7 @@ In diesen Versionshinweisen für die Commerce Admin Unified Experience Extension
 
 >[!NOTE]
 >
->Unter [Produktverfügbarkeit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) finden Sie detaillierte Informationen zum Versionsstatus der einheitlichen Admin-Erlebniserweiterung in Bezug auf Adobe Commerce.
+>Unter [Produktverfügbarkeit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=de) finden Sie detaillierte Informationen zum Versionsstatus der einheitlichen Admin-Erlebniserweiterung in Bezug auf Adobe Commerce.
 
 ## Version 1.0
 
