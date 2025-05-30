@@ -37,7 +37,7 @@ Das Security Scan Tool ist kostenlos im Dashboard Ihres [Commerce/Magento-Kontos
    1. Lies die **[!UICONTROL Terms and Conditions]**.
    1. Zum Fortfahren auf **[!UICONTROL Agree]** klicken.
 
-1. Klicken Sie auf der _[!UICONTROL Monitored Websites]_Seite auf **[!UICONTROL +Add Site]**.
+1. Klicken Sie auf der _[!UICONTROL Monitored Websites]_&#x200B;Seite auf **[!UICONTROL +Add Site]**.
 
    Wenn Sie mehrere Websites mit unterschiedlichen Domains haben, konfigurieren Sie für jede Domain einen separaten Scan.
 
@@ -104,7 +104,7 @@ Das Security Scan Tool ist kostenlos im Dashboard Ihres [Commerce/Magento-Kontos
 
          Nach Abschluss des Build-Prozesses werden die Änderungen an Ihrer PWA-Storefront bereitgestellt.
 
-1. Kehren Sie zur Seite _[!UICONTROL Security Scan]_in Ihrem Commerce-Konto zurück und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**, um die Eigentümerschaft an der Domain herzustellen.
+1. Kehren Sie zur Seite _[!UICONTROL Security Scan]_&#x200B;in Ihrem Commerce-Konto zurück und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**, um die Eigentümerschaft an der Domain herzustellen.
 
 1. Konfigurieren Sie nach erfolgreicher Bestätigung die **[!UICONTROL Set Automatic Security Scan]** für einen der folgenden Typen:
 
@@ -159,7 +159,7 @@ Häufige Szenarien, in denen Sie einen Scan-Fehler als falsch positiv markieren 
 
 Gehen Sie wie folgt vor, um Scanfehler zu verwalten, die als falsch positiv identifiziert wurden:
 
-1. Klicken Sie auf der Seite _[!UICONTROL Monitored Websites]_auf **[!UICONTROL View Report]**für die Site, die Sie verwalten möchten.
+1. Klicken Sie auf der Seite _[!UICONTROL Monitored Websites]_&#x200B;auf **[!UICONTROL View Report]**&#x200B;für die Site, die Sie verwalten möchten.
 
 1. Suchen Sie in der Berichtsansicht den fehlgeschlagenen Scan, den Sie als falsch positiv markieren möchten.
 
@@ -183,7 +183,7 @@ Führen Sie die folgenden Schritte aus, um einen zuvor ignorierten Überprüfung
 
 1. Klicken Sie auf **[!UICONTROL Apply Changes]** , um Ihre Auswahl zu speichern.
 
-Der Scan-Fehler wird wieder in den Abschnitt _[!UICONTROL Failed Scans]_verschoben und ist in Ihrer Risikobewertung enthalten.
+Der Scan-Fehler wird wieder in den Abschnitt _[!UICONTROL Failed Scans]_&#x200B;verschoben und ist in Ihrer Risikobewertung enthalten.
 
 ### Ignorierte Scanfehler anzeigen
 
