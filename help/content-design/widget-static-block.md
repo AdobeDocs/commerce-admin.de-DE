@@ -2,9 +2,10 @@
 title: Verwenden eines Widgets zum Positionieren eines Blocks
 description: Erfahren Sie, wie Sie mit einem statischen Block-Widget einen vorhandenen Inhalt nahezu überall in Ihrem Store platzieren können.
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ Mit dem _statischen CMS_ Block[Widget](widgets.md) können Sie einen vorhandenen
 
    ![Widget-Einstellungen](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_&#x200B;wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_wie folgt vor:
 
    - Geben Sie **[!UICONTROL Widget Title]** einen beschreibenden Titel für das Widget ein.
 
@@ -43,7 +44,7 @@ Mit dem _statischen CMS_ Block[Widget](widgets.md) können Sie einen vorhandenen
 
 ## Schritt 2: Abschließen der Widget-Layout-Aktualisierungen
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_&#x200B;auf **[!UICONTROL Add Layout Update]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_auf **[!UICONTROL Add Layout Update]**.
 
 1. Legen Sie **[!UICONTROL Display On]** auf die Kategorie, das Produkt oder die Seite fest, auf der der Block angezeigt werden soll.
 

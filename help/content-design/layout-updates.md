@@ -2,9 +2,10 @@
 title: Layout-Aktualisierungen
 description: Erfahren Sie, wie Sie mit Layout-Aktualisierungen das Layout einer Seite anpassen können.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Im folgenden Diagramm sind die Namen, die auf Container verweisen, schwarz und d
 | `page/html_wrapper` | Obwohl dieser Block im Standard-Layout enthalten ist, wird er nicht mehr unterstützt und nur aus Gründen der Abwärtskompatibilität einbezogen. Verwenden Sie keine Blöcke dieses Typs. |
 | `page/html_breadcrumbs` | Der Name dieses Blocks lautet `breadcrumbs` und ist ein untergeordnetes Element des -Header-Blocks. Dieser Block zeigt Breadcrumbs für die aktuelle Seite an. Pro Seite kann es nur einen Block dieses Typs geben. |
 | `page/html_footer` | Der Blockname ist `footer` und ein untergeordnetes Element des Stammblocks. Der Fußzeilenblock entspricht dem visuellen Fußzeilenblock unten auf der Seite und enthält mehrere Standardblöcke. Von diesem Typ kann pro Seite nur ein Block vorhanden sein, der nicht entfernt werden darf. |
-| `page/template_links` | Im Standardlayout gibt es zwei Blöcke dieses Typs. Der `top.links` Block ist ein untergeordnetes Element des Kopfzeilenblocks und entspricht dem Navigationsmenü oben. Der `footer_links` Block ist ein untergeordnetes Element des Fußzeilenblocks und entspricht dem Navigationsmenü unten. <br/><br/>**_Hinweis _**&#x200B;Es ist möglich, die Vorlagenverknüpfungen zu bearbeiten, wie in den Beispielen gezeigt. |
+| `page/template_links` | Im Standardlayout gibt es zwei Blöcke dieses Typs. Der `top.links` Block ist ein untergeordnetes Element des Kopfzeilenblocks und entspricht dem Navigationsmenü oben. Der `footer_links` Block ist ein untergeordnetes Element des Fußzeilenblocks und entspricht dem Navigationsmenü unten. <br/><br/>**_Hinweis _**Es ist möglich, die Vorlagenverknüpfungen zu bearbeiten, wie in den Beispielen gezeigt. |
 | `page/switch` | In einem Standardlayout gibt es zwei Blöcke dieses Typs. Der `store_language` Block ist ein untergeordnetes Element des Kopfzeilenblocks und entspricht dem oberen Sprachumschalter. Der `store_switcher` Block ist ein untergeordnetes Element des Fußzeilenblocks und entspricht dem Shopumschalter unten. |
 | Core/Messages | In einem Standardlayout gibt es zwei Blöcke dieses Typs. Der `global_messages` zeigt globale Nachrichten an. Der `messages` wird verwendet, um alle anderen Nachrichten anzuzeigen. Wenn Sie diese Blöcke entfernen, werden dem Kunden keine Nachrichten angezeigt. |
 | `core/text_list` | Dieser Blocktyp wird in [!DNL Commerce] häufig als Platzhalter für das Rendern von untergeordneten Blöcken verwendet. |

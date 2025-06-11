@@ -2,9 +2,10 @@
 title: Positionieren von Inhaltsblöcken
 description: Positionieren Sie einen Block an einer bestimmten Position auf der Seite und sogar für ein bestimmtes Produkt oder eine bestimmte Kategorie, ohne Code zu schreiben
 exl-id: cfc9eb2c-19c8-43f1-937d-4162b5011b8a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -55,6 +56,6 @@ In der folgenden Liste werden die Speicherorte nach Seitentyp beschrieben, an de
 | [!UICONTROL Product View Extra Hint] | Der Inhalt wird unter dem höchsten Hauptpreis des Produkts angezeigt. |
 | [!UICONTROL Right Column] | Inhalte werden unterhalb der rechten Spaltenblöcke angezeigt. |
 | [!UICONTROL Store Language] | Inhalte werden rechts neben der Sprachauswahl angezeigt. |
-| [!UICONTROL Tags List Before] | Der Inhalt wird über dem Feld _[!UICONTROL Add Your Tags]_&#x200B;angezeigt. |
+| [!UICONTROL Tags List Before] | Der Inhalt wird über dem Feld _[!UICONTROL Add Your Tags]_angezeigt. |
 
 {style="table-layout:auto"}

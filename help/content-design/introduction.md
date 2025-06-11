@@ -2,9 +2,9 @@
 title: Einführung in  [!DNL Commerce]  und Design
 description: Erfahren Sie, wie Sie die Funktionen für Inhalt und Website-Design verwenden, um Ihr Branding und Ihren Stil in Ihrem Store widerzuspiegeln.
 exl-id: e13782e3-b53c-4f25-b2cc-8dacec57e451
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Ihre Inhalte sollten das Branding Ihres Stores widerspiegeln und mit Ihrer unver
 
 Adobe Commerce und Magento Open Source bieten viele benutzerfreundliche Design-Optionen, mit denen Sie einfache Änderungen an Ihrem Store vornehmen können. Es gibt auch viele professionell gestaltete Designs in der [Commerce Marketplace](../getting-started/commerce-marketplace.md). Wie bei der Schaufensterdekoration Ihres Geschäfts können Sie das Thema für die Saison oder für eine Promotion ändern.
 
-Fortgeschrittenere Store-Designer schätzen die Flexibilität, mit einer objektorientierten Umgebung zu arbeiten, die Seiten aus separaten Komponenten zusammenstellt. Nachdem Sie die Grundlagen verstanden haben, werden Sie es schätzen, in einer so flexiblen und fließenden Umgebung zu arbeiten. Weitere Informationen finden Sie im [Frontend-Entwicklerhandbuch][1].
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Fortgeschrittene Store-Designer schätzen die Flexibilität, mit einer objektorientierten Umgebung zu arbeiten, die Seiten aus separaten Komponenten zusammenstellt. Nachdem Sie die Grundlagen verstanden haben, werden Sie es schätzen, in einer so flexiblen und fließenden Umgebung zu arbeiten. Weitere Informationen finden Sie im [Frontend-Entwicklerhandbuch][1].
 
 ### Konfiguration
 
@@ -30,6 +30,8 @@ Mit [Design-Konfiguration](configuration.md) können Sie mühelos verschiedene E
 Das [Design](themes.md) bestimmt die visuelle Präsentation Ihres Stores und besteht aus einer Sammlung von Layout-Dateien, Vorlagendateien, Übersetzungsdateien und Designs.
 
 ### Zeitplan
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Designs können über einen bestimmten Zeitraum nach einem [ aktiviert ](schedule.md). Verwenden Sie den Zeitplan, um Design-Änderungen für eine Saison oder Promotion im Voraus zu planen.
 

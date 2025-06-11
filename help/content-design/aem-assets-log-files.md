@@ -3,9 +3,10 @@ title: Konfigurieren der Protokollrotation
 description: Konfigurieren der Protokollrotation für die AEM Assets-Integration für Commerce.
 feature: CMS, Media, Integration
 exl-id: f735d086-048c-4555-bc58-ac6736c281b0
-source-git-commit: c71fd243d809e2b86c5c8e781d527892965838ae
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -19,5 +20,5 @@ Die AEM Assets-Integration für Commerce stellt die folgenden Protokolldateien i
 
 Bitten Sie Ihren Systemadministrator, den Drehplan für die Protokolldateien auf diese Protokolle zu überprüfen, um zu verhindern, dass sie zu groß werden. In einigen Umgebungen werden die Protokolldateien automatisch rotiert, in anderen müssen Sie die Protokollrotation jedoch manuell einrichten. Weitere Informationen finden Sie in den folgenden Themen:
 
-- Bitten Sie bei lokalen Installationen von Adobe Commerce Ihren Systemadministrator, eine [ einzurichten](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=de#server-settings).
-- Informationen zu Adobe Commerce in Cloud-Infrastrukturprojekten finden Sie unter [Protokolle anzeigen und verwalten](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=de).
+- Bitten Sie bei lokalen Installationen von Adobe Commerce Ihren Systemadministrator, eine [ einzurichten](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html#server-settings).
+- Informationen zu Adobe Commerce in Cloud-Infrastrukturprojekten finden Sie unter [Protokolle anzeigen und verwalten](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html).

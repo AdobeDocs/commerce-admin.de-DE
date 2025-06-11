@@ -2,16 +2,17 @@
 title: Seiten-Setup
 description: Erfahren Sie, wie Sie die Standardeinstellungen für die Hauptbestandteile einer Shop-Seite konfigurieren.
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
-source-git-commit: 6958da6a87f9088bb292d58f23fa1d0c34beb70b
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
 
 # Seiten-Setup
 
-Die Hauptbereiche der Seite werden teilweise durch eine Reihe von standardmäßigen HTML-Tags gesteuert. Einige dieser Tags können verwendet werden, um die Auswahl von Schriftarten, Farbe, Größe, Hintergrundfarben und Bildern zu bestimmen, die in jedem Abschnitt der Seite verwendet werden. Andere Einstellungen steuern Seitenelemente wie das Logo in der Kopfzeile und den Copyright-Hinweis in der Fußzeile. Diese Abschnitte entsprechen der zugrunde liegenden Struktur der HTML-Seite, und viele der grundlegenden Eigenschaften können von Admin festgelegt werden.
+Die Hauptabschnitte der Seite werden teilweise durch eine Reihe von standardmäßigen HTML-Tags gesteuert. Einige dieser Tags können verwendet werden, um die Auswahl von Schriftarten, Farbe, Größe, Hintergrundfarben und Bildern zu bestimmen, die in jedem Abschnitt der Seite verwendet werden. Andere Einstellungen steuern Seitenelemente wie das Logo in der Kopfzeile und den Copyright-Hinweis in der Fußzeile. Diese Abschnitte entsprechen der zugrunde liegenden Struktur der HTML-Seite, und viele der grundlegenden Eigenschaften können von der Admin festgelegt werden.
 
 - [HTML Head](#html-head)
 - [Kopfzeile](#header)
@@ -21,17 +22,17 @@ Die Hauptbereiche der Seite werden teilweise durch eine Reihe von standardmäßi
 
 ## HTML Head
 
-Die Einstellungen im Abschnitt &quot;HTML-Head“ entsprechen dem `<head>`-Tag einer HTML-Seite und können für jede Shop-Ansicht konfiguriert werden. Zusätzlich zu Metadaten für Seitentitel, Beschreibung und Schlüsselwörter enthält der Abschnitt einen Link zum Favicon und verschiedene Skripte. Anleitungen für Suchmaschinenroboter und die Anzeige des Demohinweises zum Store werden ebenfalls in diesem Abschnitt konfiguriert.
+Die Einstellungen im Abschnitt HTML-Kopfzeile entsprechen dem `<head>`-Tag einer HTML-Seite und können für jede Shop-Ansicht konfiguriert werden. Zusätzlich zu Metadaten für Seitentitel, Beschreibung und Schlüsselwörter enthält der Abschnitt einen Link zum Favicon und verschiedene Skripte. Anleitungen für Suchmaschinenroboter und die Anzeige des Demohinweises zum Store werden ebenfalls in diesem Abschnitt konfiguriert.
 
 ### Konfigurieren des HTML-Headers
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
 1. Erweitern _unter_ Weitere Einstellungen![ den Abschnitt **[!UICONTROL HTML Head]** Erweiterungsauswahl](../assets/icon-display-expand.png).
 
-   ![HTML-Kopfkonfigurationseinstellungen](./assets/configuration-html-head.png){width="500" zoomable="yes"}
+   ![Einstellungen für HTML Head](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
 1. Aktualisieren Sie [favicon](../getting-started/storefront-branding.md#add-a-favicon) falls erforderlich.
 
@@ -69,7 +70,7 @@ Die Einstellungen im Abschnitt &quot;HTML-Head“ entsprechen dem `<head>`-Tag e
 | [!UICONTROL Page Title Suffix] | Shop-Ansicht | Ein Suffix kann nach dem Titel hinzugefügt werden, um einen zwei- oder dreiteiligen Titel zu erstellen. Ein vertikaler Balken oder Doppelpunkt kann als Trennzeichen am Ende des Präfixes verwendet werden, um ihn vom Text des Haupttitels zu unterscheiden. |
 | [!UICONTROL Default Meta Description] | Shop-Ansicht | Die Beschreibung bietet eine Zusammenfassung Ihrer Site für Suchmaschinenauflistungen und sollte nicht mehr als 160 Zeichen lang sein. |
 | [!UICONTROL Default Meta Keywords] | Shop-Ansicht | Eine Reihe von Schlüsselwörtern, die Ihren Store beschreiben, wobei jedes durch ein Komma getrennt ist. |
-| [!UICONTROL Scripts and Style Sheets] | Shop-Ansicht | Enthält Skripte, die vor dem schließenden `<head>`-Tag auf der HTML enthalten sein müssen. Hier können Sie beispielsweise alle JavaScript von Drittanbietern eingeben, die vor dem `<body>`-Tag platziert werden müssen. |
+| [!UICONTROL Scripts and Style Sheets] | Shop-Ansicht | Enthält Skripte, die vor dem schließenden `<head>`-Tag in HTML enthalten sein müssen. Hier können Sie beispielsweise alle JavaScript von Drittanbietern eingeben, die vor dem `<body>`-Tag platziert werden müssen. |
 | [!UICONTROL Display Demo Store Notice] | Shop-Ansicht | Steuert die Anzeige der Demo-Store-Benachrichtigung oben auf der Seite. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -84,7 +85,7 @@ Die Header-Konfiguration identifiziert den Pfad zu Ihrem Store-Logo und gibt den
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
 1. Erweitern _unter_ Weitere Einstellungen![ den Abschnitt **[!UICONTROL Header]** Erweiterungsauswahl](../assets/icon-display-expand.png).
 
@@ -118,7 +119,7 @@ Im Abschnitt „Konfiguration der Fußzeile“ können Sie den [Copyright-Hinwei
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
 1. Erweitern _unter_ Weitere Einstellungen![ den Abschnitt **[!UICONTROL Footer]** Erweiterungsauswahl](../assets/icon-display-expand.png).
 
@@ -135,7 +136,7 @@ Im Abschnitt „Konfiguration der Fußzeile“ können Sie den [Copyright-Hinwei
 | Feld | Umfang | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Miscellaneous HTML] | Shop-Ansicht | Ein Eingabefeld, in das Sie verschiedene Skripte auf den Server hochladen können, die unmittelbar vor dem schließenden `<body>`-Tag platziert werden müssen. |
-| [!UICONTROL Copyright] | Shop-Ansicht | Die Copyright-Erklärung, die unten auf jeder Seite angezeigt wird. Um das Copyright-Symbol einzubinden, verwenden Sie das HTML-Zeichen-`\&copy;` wie im Folgenden dargestellt: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Achten Sie darauf, den Beispiel-Copyright-Hinweis durch Ihren eigenen zu ersetzen. |
+| [!UICONTROL Copyright] | Shop-Ansicht | Die Copyright-Erklärung, die unten auf jeder Seite angezeigt wird. Um das Copyright-Symbol einzuschließen, verwenden Sie den HTML-Zeichenentitäts-`\&copy;` wie folgt: `\&copy; 2021 Commerce Demo Store. All Rights Reserved.` Achten Sie darauf, den Beispiel-Copyright-Hinweis durch Ihren eigenen zu ersetzen. |
 | [!UICONTROL Display Report Bugs Link] | Shop-Ansicht | Bestimmt, ob der Link zum Fehlerbericht (unterstützt für einige Designs) aktiviert oder deaktiviert ist. |
 
 {style="table-layout:auto"}

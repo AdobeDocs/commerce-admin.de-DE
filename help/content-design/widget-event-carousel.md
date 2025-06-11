@@ -3,9 +3,10 @@ title: Widget „Katalogereignisse - Karussell“
 description: Erfahren Sie, wie Sie mit einem Karussell-Widget für Katalogereignisse einen Schieberegler für anstehende Ereignisse auf einer Seite anzeigen können.
 exl-id: 4e88b253-f320-4c94-9996-94d7005effc6
 feature: Page Content, Promotions/Events
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Bevor Sie beginnen, befolgen Sie die [Anweisungen](../merchandising-promotions/e
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add Widget]**.
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Settings]_&#x200B;wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Settings]_wie folgt vor:
 
    - Legen Sie **[!UICONTROL Type]** auf `Catalog Events Carousel` fest.
 
@@ -40,7 +41,7 @@ Bevor Sie beginnen, befolgen Sie die [Anweisungen](../merchandising-promotions/e
 
    ![Widget-Einstellungen für ein Ereigniskarussell](./assets/widget-event-carousel-settings.png){width="500" zoomable="yes"}
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_&#x200B;wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_wie folgt vor:
 
    - Geben Sie **[!UICONTROL Widget Title]** einen beschreibenden Titel für das Widget ein.
 
@@ -70,7 +71,7 @@ Bevor Sie beginnen, befolgen Sie die [Anweisungen](../merchandising-promotions/e
 
    >[!NOTE]
    >
-   >Die Ergebnisse variieren je nach Design und Seiten-Layout. Sie müssen den _[!UICONTROL Catalog Events Carousel Default Template]_&#x200B;auch in der Kategoriekonfiguration angeben.
+   >Die Ergebnisse variieren je nach Design und Seiten-Layout. Sie müssen den _[!UICONTROL Catalog Events Carousel Default Template]_auch in der Kategoriekonfiguration angeben.
 
 1. Wenn das Ereignis-Karussell an einem anderen Ort in der Storefront angezeigt werden soll, klicken Sie auf **[!UICONTROL Add Layout Update]** und wiederholen Sie diese Schritte für diesen Ort.
 

@@ -1,11 +1,12 @@
 ---
 title: Ein neues Design installieren
-description: Erfahren Sie, wie Sie ein neues Design für Ihren Adobe Commerce oder Magento Open Source Store installieren.
+description: Erfahren Sie, wie Sie ein neues Design für Ihren Adobe Commerce- oder Magento Open Source-Store installieren.
 exl-id: 28728064-cf3e-44ef-a251-61a23499d096
 feature: Page Content, Themes
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ Bei der ersten Installation [!DNL Commerce] basieren die Designelemente des Stor
 
 ![[!DNL Commerce Marketplace]](./assets/marketplace-themes.png){width="700" zoomable="yes"}
 
-Bevor Sie beginnen, stellen Sie sicher, dass Sie über einen gültigen Satz [[!DNL Commerce] Zugriffsschlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=de) verfügen.
+Bevor Sie beginnen, stellen Sie sicher, dass Sie über einen gültigen Satz [[!DNL Commerce] Zugriffsschlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html) verfügen.
 
 Um ein Design zu Ihrem [!DNL Commerce] Store hinzuzufügen, folgen Sie den Anweisungen auf der [!DNL Commerce Marketplace]:
 

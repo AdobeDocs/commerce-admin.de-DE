@@ -2,9 +2,10 @@
 title: Erstellen und Verwalten von Widgets
 description: Erfahren Sie, wie Sie Widgets erstellen und verwalten, die automatisch Inhalte in Ihrem Store aktualisieren.
 exl-id: 680f2f41-ec51-4ac6-9e92-2817591af3e6
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Der Prozess zum Erstellen eines Widgets ist für jeden [Widget-Typ“ nahezu ](w
 
 1. Klicken Sie auf **[!UICONTROL Add Widget]**.
 
-1. Im _[!UICONTROL Settings]_&#x200B;Abschnitt:
+1. Im _[!UICONTROL Settings]_Abschnitt:
 
    - Legen Sie **[!UICONTROL Type]** auf den Widget-Typ fest, den Sie erstellen möchten.
 
@@ -37,7 +38,7 @@ Der Prozess zum Erstellen eines Widgets ist für jeden [Widget-Typ“ nahezu ](w
 
 ### Schritt 2: Eigenschaften und Layout der Storefront angeben
 
-1. Im _[!UICONTROL Storefront Properties]_&#x200B;Abschnitt:
+1. Im _[!UICONTROL Storefront Properties]_Abschnitt:
 
    - Geben Sie **[!UICONTROL Widget Title]** einen beschreibenden Titel für das Widget ein.
 
@@ -51,7 +52,7 @@ Der Prozess zum Erstellen eines Widgets ist für jeden [Widget-Typ“ nahezu ](w
 
      ![Storefront-Eigenschaften](./assets/widget-storefront-properties.png){width="600" zoomable="yes"}
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_&#x200B;auf **[!UICONTROL Add Layout Update]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_auf **[!UICONTROL Add Layout Update]**.
 
 1. Legen Sie **[!UICONTROL Display On]** auf den Seitentyp fest, auf dem es angezeigt werden soll.
 
@@ -98,7 +99,7 @@ Die Optionen für jeden Widget-Typ variieren geringfügig, der Prozess ist jedoc
 
 In diesem Video erfahren Sie mehr über das Erstellen von Widgets:
 
->[!VIDEO](https://video.tv.adobe.com/v/3417564?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
 
 ## Bearbeiten eines Widgets
 

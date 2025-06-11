@@ -4,10 +4,11 @@ description: Umfassende Informationen zu den Inhalts- und Design-Funktionen für
 seo-title: Adobe Commerce Content and Design Guide
 seo-description: Describes how to use the Content and Design features for Adobe Commerce and Magento Open Source.
 exl-id: ad3cd024-1703-409f-9820-a0b90e7d460f
-source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 7%
+source-wordcount: '292'
+ht-degree: 6%
 
 ---
 

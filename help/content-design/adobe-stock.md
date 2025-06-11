@@ -3,9 +3,10 @@ title: Adobe Stock-Integration
 description: Integrieren Sie Adobe Stock in Ihre  [!DNL Commerce] , um auf unzählige Medien-Assets zur Verwendung in Ihrem Store zuzugreifen.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -41,9 +42,9 @@ Die Konfiguration der Adobe Stock-Integration für Adobe Commerce erfolgt in zwe
 
 1. Navigieren Sie zur [Adobe Developer Console][dev-console].
 
-1. Klicken Sie unter _[!UICONTROL Quick Start]_&#x200B;auf **[!UICONTROL Create new project]**.
+1. Klicken Sie unter _[!UICONTROL Quick Start]_auf **[!UICONTROL Create new project]**.
 
-1. Klicken Sie im _[!UICONTROL Project overview]_&#x200B;auf **[!UICONTROL Add API]**.
+1. Klicken Sie im _[!UICONTROL Project overview]_auf **[!UICONTROL Add API]**.
 
 1. Wählen Sie **[!UICONTROL Adobe Stock]** aus der Liste Integrationen aus und klicken Sie auf **[!UICONTROL Next]**.
 
@@ -96,6 +97,6 @@ Verwenden Sie zum Festlegen der Systemkonfiguration in Ihrem [!DNL Commerce]-Adm
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/de/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
 [dev-console]: https://developer.adobe.com/console/home
 [create-integration]: #create-an-adobeio-integration

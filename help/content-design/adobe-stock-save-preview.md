@@ -3,9 +3,10 @@ title: Speichern einer Adobe Stock-Bildvorschau
 description: Bildvorschauen sind kostenlos und eine gute Möglichkeit, mit verschiedenen Adobe Stock-Bildern zu experimentieren, bevor Sie sich für den Kauf einer Lizenz entscheiden.
 exl-id: 148d8445-fbbb-4f27-8de8-d8c1943d2afe
 feature: CMS, Media
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Wenn Sie bereit sind, ein Bild zu lizenzieren, bietet die neue [[!DNL Media Gall
 
 ## Voraussetzungen
 
-Für diese Funktion sind das Modul und die Konfiguration für die {0[&#128279;](./adobe-stock.md)Adobe Stock-Integration} erforderlich.
+Für diese Funktion sind das Modul und die Konfiguration für die {0](./adobe-stock.md)Adobe Stock-Integration} erforderlich.[
 
 ## Speichern eines Vorschaubilds
 

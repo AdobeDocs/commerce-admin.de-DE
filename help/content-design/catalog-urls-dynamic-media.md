@@ -3,9 +3,10 @@ title: Dynamic Media-URLs
 description: Erfahren Sie mehr über die Verwendung einer Dynamic Media-URL als relativer Verweis auf ein Bild oder ein anderes Medien-Asset.
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
-source-git-commit: d3b9b4cd0d12f8d5feb2bad0bf601970f9ee1a36
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Standardmäßig verfügen die aus dem WYSIWYG-Editor in den Katalog eingefügten
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Content Management]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL WYSIWYG Options]** .
 

@@ -2,9 +2,10 @@
 title: Seiten-Layouts
 description: Erfahren Sie mehr über die Abschnitte zum Seiten-Layout und zum Konfigurieren von Standard-Layouts.
 exl-id: 397a92cf-6f20-4729-8d7c-c5f672fc1c9a
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Auf der Seite werden Inhaltsblöcke je nach Abschnitt des Seitenlayouts, in dem 
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Web]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Web]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Default Layouts]** .
 
@@ -98,13 +99,13 @@ Das _[!UICONTROL 2 Columns with Left Bar]_-Layout wird häufig für Seiten mit N
 
 ![Diagramm - Zwei-Spalten-Layout mit rechter Leiste](./assets/layout-2-col-rt-bar-th.png){zoomable="yes"}
 
-Mit einem _[!UICONTROL 2 Columns with Right Bar]_&#x200B;Layout ist der Hauptinhaltsbereich groß genug für ein ansprechendes Bild oder Banner. Dieses Layout wird auch häufig für Produktseiten mit Blöcken unterstützender Inhalte auf der rechten Seite verwendet.
+Mit einem _[!UICONTROL 2 Columns with Right Bar]_Layout ist der Hauptinhaltsbereich groß genug für ein ansprechendes Bild oder Banner. Dieses Layout wird auch häufig für Produktseiten mit Blöcken unterstützender Inhalte auf der rechten Seite verwendet.
 
 ### Drei Spalten
 
 ![Diagramm - Drei-Spalten-Layout](./assets/layout-3-col-th.png){zoomable="yes"}
 
-Das _[!UICONTROL 3 Column]_&#x200B;Layout verfügt über eine mittlere Spalte, die breit genug für den Haupttext der Seite ist, mit Platz auf jeder Seite für zusätzliche Navigation und Blöcke mit unterstützenden Inhalten.
+Das _[!UICONTROL 3 Column]_Layout verfügt über eine mittlere Spalte, die breit genug für den Haupttext der Seite ist, mit Platz auf jeder Seite für zusätzliche Navigation und Blöcke mit unterstützenden Inhalten.
 
 ### leer
 

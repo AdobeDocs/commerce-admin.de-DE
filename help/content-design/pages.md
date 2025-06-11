@@ -3,9 +3,10 @@ title: Seiten
 description: Erfahren Sie mehr über die wichtigsten Inhaltsseiten, die im Demo [!DNL Commerce] Store enthalten sind, und über das Ändern der Konfiguration der Standardseiten.
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-source-git-commit: b659c7e1e8f2ae9883f1e24d8045d6dd1e90cfc0
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -64,7 +65,7 @@ Die Konfiguration _Standardseiten_ bestimmt die Landingpage, die mit der [Basis-
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Web]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Web]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Default Pages]** .
 
@@ -87,7 +88,7 @@ Die Konfiguration _Standardseiten_ bestimmt die Landingpage, die mit der [Basis-
 
    >[!NOTE]
    >
-   >Deaktivieren Sie für eine bestimmte Store-Ansicht das Kontrollkästchen **[!UICONTROL Use Default]** neben _[!UICONTROL Default Web URL]_&#x200B;und ändern Sie alle anderen Standardeinstellungen.
+   >Deaktivieren Sie für eine bestimmte Store-Ansicht das Kontrollkästchen **[!UICONTROL Use Default]** neben _[!UICONTROL Default Web URL]_und ändern Sie alle anderen Standardeinstellungen.
 
 1. Legen Sie **[!UICONTROL CMS Home Page]** auf die CMS-Seite fest, die als Startseite verwendet werden soll. Andere erstellte Seiten können als Homepage verwendet werden, z. B.:
 

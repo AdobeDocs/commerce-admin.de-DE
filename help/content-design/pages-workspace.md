@@ -3,9 +3,10 @@ title: Steuerelemente für den Seitenarbeitsbereich
 description: Erfahren Sie mehr über die Arbeitsbereich-Tools, die zum Suchen und Aktualisieren von Inhaltsseiten verwendet werden.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-source-git-commit: fc8ebeeae56378967e95bda9bbf898c469b3a4c0
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -68,7 +69,7 @@ Der Seitenarbeitsbereich enthält Tools, mit denen Sie die benötigten Seiten sc
 
 | Spalte | Beschreibung |
 |--- |--- |
-| [!UICONTROL Custom design from/to] | Gibt das Start- und Enddatum an, an dem das ausgewählte Design auf die Seite angewendet wird. ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source). |
+| [!UICONTROL Custom design from/to] | Gibt das Start- und Enddatum an, an dem das ausgewählte Design auf die Seite angewendet wird. ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source). |
 | [!UICONTROL Custom Theme] | Wendet ein benutzerdefiniertes Design auf die Seite an |
 | [!UICONTROL Custom Layout] | Bestimmt das benutzerdefinierte Layout der Seite |
 | [!UICONTROL Meta Title] | Meta-Titel für die Seite |
@@ -79,7 +80,7 @@ Der Seitenarbeitsbereich enthält Tools, mit denen Sie die benötigten Seiten sc
 
 ## Seitensuche
 
-Das Suchfeld oben links im _[!UICONTROL Pages]_&#x200B;Raster kann verwendet werden, um bestimmte Seiten nach Keyword zu finden. Für eine erweiterte Suche können Sie [ Suche ](../getting-started/admin-grid-controls.md) mehreren Parametern filtern.
+Das Suchfeld oben links im _[!UICONTROL Pages]_Raster kann verwendet werden, um bestimmte Seiten nach Keyword zu finden. Für eine erweiterte Suche können Sie [ Suche ](../getting-started/admin-grid-controls.md) mehreren Parametern filtern.
 
 ### Nach Keyword suchen
 
@@ -111,7 +112,7 @@ Das Suchfeld oben links im _[!UICONTROL Pages]_&#x200B;Raster kann verwendet wer
 | [!UICONTROL Store View] | Filtern Sie die Suche nach der Store-Ansicht. Optionen: `All available` / `Store Views` |
 | [!UICONTROL Layout] | Filtern Sie die Suche nach dem Seiten-Layout. Optionen: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` |
 | [!UICONTROL Status] | Filtern Sie die Suche nach dem Seitenstatus. Optionen: `Disabled` / `Published` |
-| [!UICONTROL Custom design from / to] | Filtern Sie die Suche nach dem Start- und Enddatum, wenn das ausgewählte Design auf die Seite angewendet wird. ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source). |
+| [!UICONTROL Custom design from / to] | Filtern Sie die Suche nach dem Start- und Enddatum, wenn das ausgewählte Design auf die Seite angewendet wird. ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source). |
 | [!UICONTROL Asset] | Filtern der Suche nach Seitentitel-Assets |
 | [!UICONTROL Custom Layout] | Filtern Sie die Suche nach einem benutzerdefinierten Layout. Optionen: `1 column` / `2 columns with left bar` / `2 columns with right bar` / `3 columns` / `Empty` / `Page -- Full Width` / `Category -- Full Width` / `Product -- Full Width` |
 | [!UICONTROL Custom Theme] | Filtern Sie die Suche nach einem benutzerdefinierten Design. Standardoptionen: `Magento Blank` / `Magento Luma` |
@@ -139,7 +140,7 @@ Seiten können bearbeitet, deaktiviert, aktiviert und gelöscht werden. Um eine 
 
 ### Einzelklage
 
-Verwenden Sie die Spalte _[!UICONTROL Action]_&#x200B;ganz rechts, um eine der folgenden Aktionen auf die einzelne Seite anzuwenden:
+Verwenden Sie die Spalte _[!UICONTROL Action]_ganz rechts, um eine der folgenden Aktionen auf die einzelne Seite anzuwenden:
 
 - [!UICONTROL Edit] - öffnet die Seite im Bearbeitungsmodus
 - [!UICONTROL Delete] - löscht die Seite (Bestätigung erforderlich)
@@ -149,7 +150,7 @@ Verwenden Sie die Spalte _[!UICONTROL Action]_&#x200B;ganz rechts, um eine der f
 
 ### Massenaktionen
 
-Wenden Sie mithilfe der _[!UICONTROL Action]_&#x200B;oben links eine der folgenden Aktionen auf mehrere ausgewählte Seiten gleichzeitig an:
+Wenden Sie mithilfe der _[!UICONTROL Action]_oben links eine der folgenden Aktionen auf mehrere ausgewählte Seiten gleichzeitig an:
 
 - [!UICONTROL Delete] - löscht die Seiten (Bestätigung erforderlich)
 - [!UICONTROL Disable] - Deaktiviert die Seiten in der Storefront

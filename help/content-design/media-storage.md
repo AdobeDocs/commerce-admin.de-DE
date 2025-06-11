@@ -3,9 +3,10 @@ title: Medienspeicher
 description: Erfahren Sie, wie Sie mit der Medienspeicherung Commerce-Mediendateien organisieren und auf diese zugreifen können, die auf dem Server gespeichert sind.
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
-source-git-commit: 7dae6b6d387c796c5ff472293c6590fabaa83e85
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -28,9 +29,9 @@ Die ersten beiden Schritte sind die gleichen wie beim Einfügen eines Bildes.
 
    ![Symbol „Bild einfügen“](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   Diese Aktion öffnet das _[!UICONTROL Insert/edit image]_&#x200B;Dialogfeld.
+   Diese Aktion öffnet das _[!UICONTROL Insert/edit image]_Dialogfeld.
 
-1. Klicken Sie _[!UICONTROL Source]_&#x200B;auf das Symbol_ Suchen _(![Suchsymbol](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
+1. Klicken Sie _[!UICONTROL Source]_auf das Symbol_ Suchen _(![Suchsymbol](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
 
 1. Führen Sie in der Verzeichnisstruktur auf der linken Seite einen der folgenden Schritte aus:
 
@@ -68,7 +69,7 @@ Die Bilder werden in den aktuellen Medienspeicherordner auf dem Server hochgelad
 
 1. Klicken Sie in [Editor](editor.md)-Symbolleiste auf das Symbol _Bild einfügen_.
 
-1. Klicken Sie _[!UICONTROL Source]_&#x200B;auf das Symbol_ Suchen _(![Suchsymbol](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
+1. Klicken Sie _[!UICONTROL Source]_auf das Symbol_ Suchen _(![Suchsymbol](./assets/media-gallery-icon-browse.png){width="10" zoomable="no"}).
 
    ![Auswählen des Suchsymbols](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
