@@ -23,7 +23,7 @@ Die Liste der neuen Produkte ist ein Beispiel für dynamische Inhalte und besteh
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Informationen zu Adobe Commerce-Stores finden Sie unter [Planen einer Aktualisierung](content-staging-scheduled-update.md) und fahren Sie dann mit Schritt 2 auf dieser Seite fort.
 
-_[!UICONTROL Set Product as New]_Einstellung für den Datumsbereich kann nur in geplanten Aktualisierungen konfiguriert werden.
+_[!UICONTROL Set Product as New]_&#x200B;Einstellung für den Datumsbereich kann nur in geplanten Aktualisierungen konfiguriert werden.
 
 Wenn Sie ein Produkt als neu festlegen, wird das Produkt zur Liste _Neue Produkte_ hinzugefügt. Sie können die Einstellung jederzeit wieder zurücksetzen, wenn Sie sie nicht mehr in die Liste aufnehmen möchten.
 
@@ -47,7 +47,7 @@ Der Code, der den Inhalt der Liste Neue Produkte und deren Platzierung in Ihrem 
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add Widget]**.
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Settings]_wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Settings]_&#x200B;wie folgt vor:
 
    - Legen Sie **[!UICONTROL Type]** auf `Catalog New Products List` fest.
 
@@ -57,7 +57,7 @@ Der Code, der den Inhalt der Liste Neue Produkte und deren Platzierung in Ihrem 
 
    ![Einstellungen für neue Produktlisten-Widgets](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_&#x200B;wie folgt vor:
 
    - Geben Sie **[!UICONTROL Widget Title]** einen beschreibenden Titel für das Widget ein. (Dieser Titel ist nur in der Datei _Admin_ sichtbar.)
 
@@ -71,7 +71,7 @@ Der Code, der den Inhalt der Liste Neue Produkte und deren Platzierung in Ihrem 
 
 ## Schritt 3: Speicherort auswählen
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_auf **[!UICONTROL Add Layout Update]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_&#x200B;auf **[!UICONTROL Add Layout Update]**.
 
 1. **[!UICONTROL Display On]** auf `Specified Page.` festlegen
 
@@ -97,7 +97,7 @@ Der Code, der den Inhalt der Liste Neue Produkte und deren Platzierung in Ihrem 
 1. Legen Sie **[!UICONTROL Display Products]** auf eine der folgenden Einstellungen fest:
 
    - `All Products` - Listet Produkte der Reihe nach auf, beginnend mit dem zuletzt hinzugefügten.
-   - `New Products` - Listet nur die Produkte auf, die als „neu _gekennzeichnet_. Ein Produkt gilt während des in _[!UICONTROL Set Product As New From/To]_angegebenen Datumsbereichs als neu. Die Liste ist leer, wenn der Datumsbereich abläuft, ohne dass neue Produkte definiert wurden.
+   - `New Products` - Listet nur die Produkte auf, die als „neu _gekennzeichnet_. Ein Produkt gilt während des in _[!UICONTROL Set Product As New From/To]_&#x200B;angegebenen Datumsbereichs als neu. Die Liste ist leer, wenn der Datumsbereich abläuft, ohne dass neue Produkte definiert wurden.
 
 1. Um Navigationssteuerelemente für Listen mit mehreren Seiten bereitzustellen, legen Sie **[!UICONTROL Display Page Control]** auf `Yes` fest.
 

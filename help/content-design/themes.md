@@ -51,9 +51,9 @@ Das `Magento Blank` responsive Design rendert die Anzeige Ihrer Storefront für 
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
-1. Legen Sie unter _[!UICONTROL Default Theme]_**[!UICONTROL Applied Theme]**auf den Wert fest, den Sie für die aktuelle Ansicht verwenden möchten.
+1. Legen Sie unter _[!UICONTROL Default Theme]_&#x200B;**[!UICONTROL Applied Theme]**&#x200B;auf den Wert fest, den Sie für die aktuelle Ansicht verwenden möchten.
 
    ![Angewendetes Design](./assets/theme-default-apply.png){width="600" zoomable="yes"}
 
@@ -63,7 +63,7 @@ Das `Magento Blank` responsive Design rendert die Anzeige Ihrer Storefront für 
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Klicken Sie unter _[!UICONTROL Design Rule]_auf **[!UICONTROL Add New User Agent Rule]**.
+1. Klicken Sie unter _[!UICONTROL Design Rule]_&#x200B;auf **[!UICONTROL Add New User Agent Rule]**.
 
    ![Regel entwerfen](./assets/theme-design-rule.png){width="600" zoomable="yes"}
 

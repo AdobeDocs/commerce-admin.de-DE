@@ -22,7 +22,7 @@ Im Editor können Sie ein Bild mithilfe von drei Quelltypen einfügen:
 
 1. Öffnen Sie eine Seite, einen Block oder einen dynamischen Block im Bearbeitungsmodus.
 
-1. Gehen Sie zum Abschnitt _[!UICONTROL Content]_und klicken Sie auf ein beliebiges Element, das den Editor unterstützt.
+1. Gehen Sie zum Abschnitt _[!UICONTROL Content]_&#x200B;und klicken Sie auf ein beliebiges Element, das den Editor unterstützt.
 
 1. Platzieren Sie den Cursor an die Stelle, an der das Bild angezeigt werden soll.
 
@@ -30,9 +30,9 @@ Im Editor können Sie ein Bild mithilfe von drei Quelltypen einfügen:
 
    ![Symbol „Bild einfügen“](./assets/editor-toolbar-image-button.png){width="700" zoomable="yes"}
 
-   Diese Aktion öffnet das _[!UICONTROL Insert/edit image]_Dialogfeld.
+   Diese Aktion öffnet das _[!UICONTROL Insert/edit image]_&#x200B;Dialogfeld.
 
-1. Source Klicken Sie für **** auf das Symbol _Suchen_ und verwenden Sie die Methode, die dem Speicherort des Bild-Assets entspricht, das Sie verwenden möchten:
+1. Source Klicken Sie für **&#x200B;**&#x200B;auf das Symbol _Suchen_ und verwenden Sie die Methode, die dem Speicherort des Bild-Assets entspricht, das Sie verwenden möchten:
 
    ![Auswählen des Suchsymbols](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
@@ -62,7 +62,7 @@ Im Editor können Sie ein Bild mithilfe von drei Quelltypen einfügen:
 
       - Speichern Sie die Vorschau oder das lizenzierte Bild in der Galerie.
 
-        Weitere Informationen [ Arbeiten mit [Adobe Stock](adobe-stock-manage.md)-Assets finden Sie unter ](https://stock.adobe.com)Verwenden von Adobe Stock-Bildern .
+        Weitere Informationen [&#128279;](https://stock.adobe.com) Arbeiten mit [Adobe Stock](adobe-stock-manage.md)-Assets finden Sie unter Verwenden von Adobe Stock-Bildern .
 
       - Wählen Sie die Asset-Miniaturansicht in der Galerie aus und klicken Sie auf **[!UICONTROL Add Selected]**.
 

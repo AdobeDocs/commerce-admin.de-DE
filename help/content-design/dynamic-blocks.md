@@ -18,7 +18,7 @@ Erstellen Sie ansprechende, interaktive Inhalte, die von Logiken aus [Preisregel
 
 >[!NOTE]
 >
->Die Option _[!UICONTROL Banner]_im Menü [[!UICONTROL Content] wurde ](content-menu.md) 2.3.1 veraltet und in 2.4.0 entfernt. Seine Funktionalität wird durch dynamische Blöcke ersetzt.
+>Die Option _[!UICONTROL Banner]_&#x200B;im Menü [[!UICONTROL Content] wurde ](content-menu.md) 2.3.1 veraltet und in 2.4.0 entfernt. Seine Funktionalität wird durch dynamische Blöcke ersetzt.
 
 ![[!DNL Page Builder] - Dynamischer Block mit Preisregel und Kundensegment](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 

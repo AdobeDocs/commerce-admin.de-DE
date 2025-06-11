@@ -22,7 +22,7 @@ Auf der Seite werden Inhaltsblöcke je nach Abschnitt des Seitenlayouts, in dem 
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Web]**aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Web]**&#x200B;aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Default Layouts]** .
 
@@ -99,13 +99,13 @@ Das _[!UICONTROL 2 Columns with Left Bar]_-Layout wird häufig für Seiten mit N
 
 ![Diagramm - Zwei-Spalten-Layout mit rechter Leiste](./assets/layout-2-col-rt-bar-th.png){zoomable="yes"}
 
-Mit einem _[!UICONTROL 2 Columns with Right Bar]_Layout ist der Hauptinhaltsbereich groß genug für ein ansprechendes Bild oder Banner. Dieses Layout wird auch häufig für Produktseiten mit Blöcken unterstützender Inhalte auf der rechten Seite verwendet.
+Mit einem _[!UICONTROL 2 Columns with Right Bar]_&#x200B;Layout ist der Hauptinhaltsbereich groß genug für ein ansprechendes Bild oder Banner. Dieses Layout wird auch häufig für Produktseiten mit Blöcken unterstützender Inhalte auf der rechten Seite verwendet.
 
 ### Drei Spalten
 
 ![Diagramm - Drei-Spalten-Layout](./assets/layout-3-col-th.png){zoomable="yes"}
 
-Das _[!UICONTROL 3 Column]_Layout verfügt über eine mittlere Spalte, die breit genug für den Haupttext der Seite ist, mit Platz auf jeder Seite für zusätzliche Navigation und Blöcke mit unterstützenden Inhalten.
+Das _[!UICONTROL 3 Column]_&#x200B;Layout verfügt über eine mittlere Spalte, die breit genug für den Haupttext der Seite ist, mit Platz auf jeder Seite für zusätzliche Navigation und Blöcke mit unterstützenden Inhalten.
 
 ### leer
 

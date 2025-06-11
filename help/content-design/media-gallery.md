@@ -19,7 +19,7 @@ Mit Adobe Commerce oder Magento Open Source 2.4 können Händler den neuen _erwe
 
 >[!NOTE]
 >
->Produktbilder, die zum Abschnitt [_[!UICONTROL Images and Videos]_hinzugefügt ](../catalog/product-image.md#upload-an-image), werden vom [!DNL Media Gallery] nicht verwaltet. In der neuen [!DNL Media Gallery] werden nur Bilder angezeigt und gefiltert, die im Abschnitt_[!UICONTROL Content]_ verwendet werden.
+>Produktbilder, die zum Abschnitt [_[!UICONTROL Images and Videos]_&#x200B;hinzugefügt ](../catalog/product-image.md#upload-an-image), werden vom [!DNL Media Gallery] nicht verwaltet. In der neuen [!DNL Media Gallery] werden nur Bilder angezeigt und gefiltert, die im Abschnitt&#x200B;_[!UICONTROL Content]_ verwendet werden.
 
 ## Aktivieren des neuen [!DNL Media Gallery]
 
@@ -37,7 +37,7 @@ Mit Adobe Commerce oder Magento Open Source 2.4 können Händler den neuen _erwe
 
 1. Wenn Sie dazu aufgefordert werden, klicken Sie auf den Link **[!UICONTROL Cache Management]** in der Systemmeldung und aktualisieren Sie den ungültigen Cache.
 
-   Das [[!UICONTROL Content] zeigt ](/help/content-design/content-menu.md) die neue _[!UICONTROL Media Gallery]_an.
+   Das [[!UICONTROL Content] zeigt ](/help/content-design/content-menu.md) die neue _[!UICONTROL Media Gallery]_&#x200B;an.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ So greifen Sie beim Hinzufügen oder Bearbeiten einer Seite auf die neue Mediens
 
 1. Klicken Sie auf **[!UICONTROL Add a New Page]**.
 
-   Wenn Sie eine vorhandene Seite bearbeiten möchten, können Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**klicken und **[!UICONTROL Edit]**auswählen.
+   Wenn Sie eine vorhandene Seite bearbeiten möchten, können Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Select]**&#x200B;klicken und **[!UICONTROL Edit]**&#x200B;auswählen.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Content]** und führen Sie folgende Schritte aus:
 

@@ -28,7 +28,7 @@ Mit dem _statischen CMS_ Block[Widget](widgets.md) können Sie einen vorhandenen
 
    ![Widget-Einstellungen](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_&#x200B;wie folgt vor:
 
    - Geben Sie **[!UICONTROL Widget Title]** einen beschreibenden Titel für das Widget ein.
 
@@ -44,7 +44,7 @@ Mit dem _statischen CMS_ Block[Widget](widgets.md) können Sie einen vorhandenen
 
 ## Schritt 2: Abschließen der Widget-Layout-Aktualisierungen
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_auf **[!UICONTROL Add Layout Update]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_&#x200B;auf **[!UICONTROL Add Layout Update]**.
 
 1. Legen Sie **[!UICONTROL Display On]** auf die Kategorie, das Produkt oder die Seite fest, auf der der Block angezeigt werden soll.
 

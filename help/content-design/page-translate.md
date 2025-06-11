@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Übersetzen von Inhaltsseiten
 
-Wenn Ihr Store mehrere Ansichten in verschiedenen [Sprachen](../stores-purchase/store-localize.md) hat und Sie das Gebietsschema für jede Ansicht auf eine andere Sprache festgelegt haben, ist das Ergebnis eine teilweise übersetzte Site. Der nächste Schritt besteht darin, eine übersetzte Version jeder Seite zu erstellen, die in der jeweiligen Store-Ansicht verfügbar ist. Die Spalte [!UICONTROL Store View] der _[!UICONTROL Manage Pages]_zeigt jede Ansicht an, die über eine übersetzte Version der Seite verfügt.
+Wenn Ihr Store mehrere Ansichten in verschiedenen [Sprachen](../stores-purchase/store-localize.md) hat und Sie das Gebietsschema für jede Ansicht auf eine andere Sprache festgelegt haben, ist das Ergebnis eine teilweise übersetzte Site. Der nächste Schritt besteht darin, eine übersetzte Version jeder Seite zu erstellen, die in der jeweiligen Store-Ansicht verfügbar ist. Die Spalte [!UICONTROL Store View] der _[!UICONTROL Manage Pages]_&#x200B;zeigt jede Ansicht an, die über eine übersetzte Version der Seite verfügt.
 
 Um eine Inhaltsseite zu übersetzen, müssen Sie eine weitere Seite erstellen, die denselben URL-Schlüssel wie das Original hat, aber der bestimmten Store-Ansicht zugewiesen ist. Aktualisieren Sie dann die Seite für die spezifische Ansicht mit dem übersetzten Text. Das folgende Beispiel zeigt, wie Sie eine übersetzte Version der Seite _Über uns_ für die spanische Store-Ansicht erstellen.
 
@@ -26,7 +26,7 @@ Um eine Inhaltsseite zu übersetzen, müssen Sie eine weitere Seite erstellen, d
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Search Engine Optimization]** und kopieren Sie die **[!UICONTROL URL Key]** in die Zwischenablage.
 
-1. Um zum _[!UICONTROL Pages]_Raster zurückzukehren, klicken Sie in der oberen Schaltflächenleiste auf **[!UICONTROL Back]**.
+1. Um zum _[!UICONTROL Pages]_&#x200B;Raster zurückzukehren, klicken Sie in der oberen Schaltflächenleiste auf **[!UICONTROL Back]**.
 
 ## Schritt 2: Hinzufügen einer Seite für die übersetzten Inhalte
 
