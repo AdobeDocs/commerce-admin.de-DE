@@ -99,7 +99,7 @@ Die Optionen für jeden Widget-Typ variieren geringfügig, der Prozess ist jedoc
 
 In diesem Video erfahren Sie mehr über das Erstellen von Widgets:
 
->[!VIDEO](https://video.tv.adobe.com/v/343786?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3417564?quality=12&learn=on&captions=ger)
 
 ## Bearbeiten eines Widgets
 
