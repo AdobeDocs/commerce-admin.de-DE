@@ -3,7 +3,7 @@ title: Media Gallery-Bildoptimierung
 description: Erfahren Sie, wie Sie die Bildoptimierung für Ihre Medien [!DNL Commerce] Assets verwenden.
 exl-id: ba75e90a-406b-4b14-b049-0b78c4a27188
 feature: Page Content, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '191'
@@ -32,6 +32,6 @@ Wenn die Bildoptimierungsfunktion der Mediensammlung aktiviert ist, wird automat
 
 Wenn die Werte _Maximale Breite_ und _Maximale Höhe_ in der Konfiguration geändert werden, werden alle vorhandenen optimierten Bilder aktualisiert, die zuvor eingefügt wurden.
 
-Für die Bildoptimierung der Mediensammlung ist es erforderlich, dass die Verbraucher der `media.gallery.renditions.update`-Warteschlange ausgeführt werden, um optimierte Bilder neu zu generieren, wenn die Konfiguration geändert wird. Weitere [ finden Sie unter „Verwalten ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) Nachrichtenwarteschlangen _im_ Konfigurationshandbuch“.
+Für die Bildoptimierung der Mediensammlung ist es erforderlich, dass die Verbraucher der `media.gallery.renditions.update`-Warteschlange ausgeführt werden, um optimierte Bilder neu zu generieren, wenn die Konfiguration geändert wird. Weitere [ finden Sie unter „Verwalten ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=de) Nachrichtenwarteschlangen _im_ Konfigurationshandbuch“.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}

@@ -2,7 +2,7 @@
 title: Seitenhierarchie
 description: Erfahren Sie, wie Sie mit dem Seitenhierarchiesystem Ihre Inhaltsseiten organisieren und Seitenumbrüche, Navigation und Menüs hinzufügen können.
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '953'

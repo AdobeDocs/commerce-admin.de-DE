@@ -3,7 +3,7 @@ title: Verwenden von Adobe Stock-Bildern
 description: Verbessern Sie Ihre Shopseiten mit Bildern aus Adobe Stock.
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
 workflow-type: tm+mt
 source-wordcount: '1013'
@@ -119,13 +119,13 @@ Jedes Bild verfügt über Details, die angezeigt werden können. Über diese Det
 
 ## Beim Adobe-Konto anmelden
 
-Um vollständigen Zugriff auf ein Bild zu erhalten und das Adobe Stock-Wasserzeichen zu entfernen, müssen Sie [mit einem Adobe-Konto anmelden](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) und Credits erwerben, um Lizenzrechte für die Verwendung eines Bildes zu erhalten.
+Um vollständigen Zugriff auf ein Bild zu erhalten und das Adobe Stock-Wasserzeichen zu entfernen, müssen Sie [mit einem Adobe-Konto anmelden](https://helpx.adobe.com/de/manage-account/using/access-adobe-id-account.html) und Credits erwerben, um Lizenzrechte für die Verwendung eines Bildes zu erhalten.
 
 1. [Zugriff auf das Adobe Stock-](#access-the-adobe-stock-search-grid).
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Sign In]** .
 
-   Ein neues Browser-Fenster führt Sie durch den [Adobe-Anmeldeprozess](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+   Ein neues Browser-Fenster führt Sie durch den [Adobe-Anmeldeprozess](https://helpx.adobe.com/de/manage-account/using/access-adobe-id-account.html).
 
    Nach Abschluss des Anmeldevorgangs wird der lizenzierte Status von Bildern in den Suchergebnissen als Kennzeichnung angezeigt.
 
@@ -179,7 +179,7 @@ Adobe Stock-Assets, die Sie für Ihre Produktions-[!DNL Commerce] verwenden möc
 
      >[!NOTE]
      >
-     >Sie müssen über [Adobe Stock-Guthaben](https://helpx.adobe.com/stock/help/credit-packs.html) in Ihrem Konto verfügen, um das Bild zu lizenzieren.
+     >Sie müssen über [Adobe Stock-Guthaben](https://helpx.adobe.com/de/stock/help/credit-packs.html) in Ihrem Konto verfügen, um das Bild zu lizenzieren.
 
    In dieser Aktion werden Sie aufgefordert, einen Dateinamen anzugeben, mit dem das Bild im [Medienspeicher“ gespeichert ](media-storage.md). Es wird ein standardmäßiger Dateiname bereitgestellt, Sie können den Namen jedoch an Ihre Anforderungen anpassen.
 
