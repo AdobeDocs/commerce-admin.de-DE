@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## Konfigurationseinstellungen {#config}
 
-Um auf die Store-Konfigurationseinstellungen zuzugreifen, wählen Sie **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**in der Seitenleiste_ Admin _aus.
+Um auf die Store-Konfigurationseinstellungen zuzugreifen, wählen Sie **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;in der Seitenleiste_ Admin _aus.
 
 ## Einstellung der UPS-API {#ups-api}
 
