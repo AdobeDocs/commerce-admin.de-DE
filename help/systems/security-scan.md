@@ -67,7 +67,7 @@ Der Scan-Prozess überprüft Ihre Site auf bekannte Sicherheitsprobleme und iden
 
 >[!TIP]
 >
->Informationen zu Commerce in Cloud-Infrastrukturprojekten finden Sie unter [Einrichten des Sicherheits-Scan-Tools](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Informationen zu Commerce in Cloud-Infrastrukturprojekten finden Sie unter [Einrichten des Sicherheits-Scan-Tools](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 So führen Sie eine Suche durch:
 
