@@ -52,7 +52,7 @@ Das Tool konzentriert sich speziell auf Adobe Commerce-Domains und deren Sicherh
 
 ## Zugriff auf Scan-Ergebnisse
 
-Die Suchergebnisse sind nur für den Benutzer zugänglich, der die Suche ursprünglich eingerichtet hat. Um Ergebnisse für andere freizugeben, muss der Originalbenutzer den PDF-Bericht manuell verteilen. Alternativ kann ein Store-Inhaber mithilfe der [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)-Funktion Einreichungen mit einer anderen MAGEID teilen. Andere Personen können Scans auch über ihre eigenen Konten starten. Während der Sucheinrichtung kann eine kommagetrennte Liste von E-Mail-Adressen angegeben werden, um Benachrichtigungen über abgeschlossene Suchvorgänge und die Ebene des bewerteten Risikos zu erhalten.
+Die Suchergebnisse sind nur für den Benutzer zugänglich, der die Suche ursprünglich eingerichtet hat. Um Ergebnisse für andere freizugeben, muss der Originalbenutzer den PDF-Bericht manuell verteilen. Alternativ kann ein Store-Inhaber mithilfe der [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/de/docs/commerce-admin/start/commerce-account/commerce-account-share)-Funktion Einreichungen mit einer anderen MAGEID teilen. Andere Personen können Scans auch über ihre eigenen Konten starten. Während der Sucheinrichtung kann eine kommagetrennte Liste von E-Mail-Adressen angegeben werden, um Benachrichtigungen über abgeschlossene Suchvorgänge und die Ebene des bewerteten Risikos zu erhalten.
 
 
 >[!NOTE]
@@ -74,7 +74,7 @@ Der Scan-Prozess überprüft Ihre Site auf bekannte Sicherheitsprobleme und iden
 
 >[!TIP]
 >
->Informationen zu Commerce in Cloud-Infrastrukturprojekten finden Sie unter [Einrichten des Sicherheits-Scan-Tools](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Informationen zu Commerce in Cloud-Infrastrukturprojekten finden Sie unter [Einrichten des Sicherheits-Scan-Tools](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 So führen Sie eine Suche durch:
 
