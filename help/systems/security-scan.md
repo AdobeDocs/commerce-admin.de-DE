@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine erweiterte Sicherheitsüberprüfung durc
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 183b8c52c6d8e2ea1afcc74fe4e2ed8e42efb216
+source-git-commit: bea6570d8d40ec7be8802ae6a793d88b72943e6f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,19 @@ Das Security Scan Tool bietet umfassende Sicherheitsüberwachungsfunktionen, mit
 
 >[!NOTE]
 >
->Bestimmte Sicherheitstests können bei der Suche des Security Scan Tools nach Adobe Commerce nicht ausgeschlossen werden. Sie können sich jedoch ggf. selbst [, indem Sie ](#manage-scan-failures) als falsch positiv kennzeichnen.
+>Sie können bestimmte Sicherheitstests nicht von der Ausführung ausschließen, aber Sie können die fehlgeschlagenen Prüfungen in die Kategorie **[!UICONTROL Ignored Results]** verschieben. Weitere Informationen [ Sie unter ](#manage-scan-failures) verwalten .
 
 ## Zugriff
 
 Das Security Scan Tool schützt Ihre Website-Daten mit strengen Zugriffskontrollen. Nur Sie können Ihre Site scannen, da das Tool die Domain-Eigentümerschaft über Ihr Adobe Commerce-Konto verifizieren muss. Jede Site stellt über ein eindeutiges Token eine Verbindung zu Ihrem Konto her und verhindert so das unbefugte Scannen durch Dritte.
 
 Das Tool konzentriert sich speziell auf Adobe Commerce-Domains und deren Sicherheitslücken. Ihr Webstore kann zwar Seiten von anderen Plattformen enthalten, das Security Scan Tool sollte jedoch nur Adobe Commerce-generierte Inhalte scannen, um zuverlässige Ergebnisse zu erzielen. Das Scannen von Nicht-Adobe Commerce-Seiten kann zu unzuverlässigen Schwachstellenbewertungen führen.
+
+
+## Zugriff auf Scan-Ergebnisse
+
+Die Suchergebnisse sind nur für den Benutzer zugänglich, der die Suche ursprünglich eingerichtet hat. Um Ergebnisse für andere freizugeben, muss der Originalbenutzer den PDF-Bericht manuell verteilen. Alternativ kann ein Store-Inhaber mithilfe der [**[!UICONTROL Shared Access]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)-Funktion Einreichungen mit einer anderen MAGEID teilen. Andere Personen können Scans auch über ihre eigenen Konten starten. Während der Sucheinrichtung kann eine kommagetrennte Liste von E-Mail-Adressen angegeben werden, um Benachrichtigungen über abgeschlossene Suchvorgänge und die Ebene des bewerteten Risikos zu erhalten.
+
 
 >[!NOTE]
 >
@@ -61,13 +67,14 @@ Das Tool konzentriert sich speziell auf Adobe Commerce-Domains und deren Sicherh
 >
 >Fügen Sie diese IP-Adressen zu einer Zulassungsliste in Ihren Netzwerk-Firewall-Regeln hinzu, damit das Tool Ihre Site überprüfen kann. Das Tool sendet Anfragen nur an die Ports `80` und `443`.
 
+
 ## Ausführen eines Scans
 
 Der Scan-Prozess überprüft Ihre Site auf bekannte Sicherheitsprobleme und identifiziert fehlende Adobe Commerce-Patches und -Updates, die Ihren Store für Angriffe anfällig machen könnten.
 
 >[!TIP]
 >
->Informationen zu Commerce in Cloud-Infrastrukturprojekten finden Sie unter [Einrichten des Sicherheits-Scan-Tools](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
+>Informationen zu Commerce in Cloud-Infrastrukturprojekten finden Sie unter [Einrichten des Sicherheits-Scan-Tools](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool).
 
 So führen Sie eine Suche durch:
 
@@ -80,7 +87,7 @@ So führen Sie eine Suche durch:
    1. Lies die **[!UICONTROL Terms and Conditions]**.
    1. Zum Fortfahren auf **[!UICONTROL Agree]** klicken.
 
-1. Klicken Sie auf der _[!UICONTROL Monitored Websites]_&#x200B;Seite auf **[!UICONTROL +Add Site]**.
+1. Klicken Sie auf der _[!UICONTROL Monitored Websites]_Seite auf **[!UICONTROL +Add Site]**.
 
    Wenn Sie mehrere Websites mit unterschiedlichen Domains haben, konfigurieren Sie für jede Domain einen separaten Scan.
 
@@ -147,7 +154,7 @@ So führen Sie eine Suche durch:
 
          Nach Abschluss des Build-Prozesses werden die Änderungen an Ihrer PWA-Storefront bereitgestellt.
 
-1. Kehren Sie zur Seite _[!UICONTROL Security Scan]_&#x200B;in Ihrem Commerce-Konto zurück und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**, um die Eigentümerschaft an der Domain herzustellen.
+1. Kehren Sie zur Seite _[!UICONTROL Security Scan]_in Ihrem Commerce-Konto zurück und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**, um die Eigentümerschaft an der Domain herzustellen.
 
 1. Konfigurieren Sie nach erfolgreicher Bestätigung die **[!UICONTROL Set Automatic Security Scan]** für einen der folgenden Typen:
 
@@ -191,18 +198,20 @@ Die Verwaltung von Suchfehlern hilft Ihnen, eine genauere Sicherheitsübersicht 
 - Die Notwendigkeit, den Support bei bekannten falsch positiven Ergebnissen zu kontaktieren, entfällt.
 - Zeitersparnis durch die Selbstverwaltung von bereits untersuchten Scan-Fehlern.
 
-Häufige Szenarien, in denen Sie einen Scan-Fehler als falsch positiv markieren können, sind:
+### Beispiele für gültige Szenarien zum Ignorieren von Suchfehlern
 
 - Wenn Sie bereits einen Sicherheits-Patch angewendet haben, den das Scan-Tool nicht erkannt hat.
-- Wenn ein erkanntes Problem nicht auf Ihre spezifische Store-Konfiguration zutrifft.
-- Wenn Sie eine alternative Sicherheitsmaßnahme implementiert haben, mit der das Problem behoben wird.
+- Wenn ein erkanntes Problem nicht auf Ihre spezifische Store-Konfiguration zutrifft (z. B. benutzerdefinierte Benutzeranmelde- und Registrierungsseiten).
+- Wenn Sie eine alternative Sicherheitsmaßnahme implementiert haben, die das Problem löst (z. B. Web Application Firewall).
 - Wenn der Überprüfungsfehler auf einer Konfiguration basiert, die Sie absichtlich für Ihre Geschäftsanforderungen festgelegt haben.
+- Wenn Sie absichtlich JavaScript-Code von Drittanbietern verwenden, der die Prüfung aufgrund von Code-Verschleierung und/oder -Kodierung fehlschlägt.
+
 
 ### Scan-Fehler ignorieren
 
 Gehen Sie wie folgt vor, um Scanfehler zu verwalten, die als falsch positiv identifiziert wurden:
 
-1. Klicken Sie auf der Seite _[!UICONTROL Monitored Websites]_&#x200B;auf **[!UICONTROL View Report]**&#x200B;für die Site, die Sie verwalten möchten.
+1. Klicken Sie auf der Seite _[!UICONTROL Monitored Websites]_auf **[!UICONTROL View Report]**für die Site, die Sie verwalten möchten.
 
 1. Suchen Sie in der Berichtsansicht den fehlgeschlagenen Scan, den Sie als falsch positiv markieren möchten.
 
@@ -226,7 +235,7 @@ Führen Sie die folgenden Schritte aus, um einen zuvor ignorierten Überprüfung
 
 1. Klicken Sie auf **[!UICONTROL Apply Changes]** , um Ihre Auswahl zu speichern.
 
-Der Scan-Fehler wird wieder in den Abschnitt _[!UICONTROL Failed Scans]_&#x200B;verschoben und ist in Ihrer Risikobewertung enthalten.
+Der Scan-Fehler wird wieder in den Abschnitt _[!UICONTROL Failed Scans]_verschoben und ist in Ihrer Risikobewertung enthalten.
 
 ### Ignorierte Scanfehler anzeigen
 
