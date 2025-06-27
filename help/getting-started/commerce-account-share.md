@@ -3,9 +3,9 @@ title: A [!DNL Commerce] Konto freigeben
 description: Erfahren Sie, wie Sie anderen Kontoinhabern  [!DNL Commerce]  eingeschränkten Zugriff auf Ihr  [!DNL Commerce]  gewähren.
 exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
-source-git-commit: 6aa0ed78e668aa09170cbd47284dd2d559f1319b
+source-git-commit: 0ed338044734ac95bd3421c162b01043de49bf77
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Das [!DNL Commerce] Support-Team hat keinen Zugriff auf das Konto und kann keine
 
 1. Bevor Sie beginnen, rufen Sie die folgenden Informationen vom [!DNL Commerce] Konto des **neuen Empfängers mit gemeinsamem Zugriff** ab:
 
-   - Der Benutzer muss sich bereits unter account.adobe.com für ein Konto registriert haben und über account.magento.com angemeldet sein. Weitere [ finden Sie unter „Erstellen ](https://experienceleague.adobe.com/de/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) Commerce-Kontos“.
-   - Der `MAGE ID/Account ID (MAG00XXXXXXX)` wird in der linken oberen Ecke der Registerkarte _[!UICONTROL Magento]_&#x200B;direkt über dem Link **Abmelden**&#x200B;angezeigt.
+   - Der Benutzer muss sich bereits unter account.adobe.com für ein Konto registriert haben und über account.magento.com angemeldet sein. Weitere [ finden Sie unter „Erstellen ](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) Commerce-Kontos“.
+   - Der `MAGE ID/Account ID (MAG00XXXXXXX)` wird in der linken oberen Ecke der Registerkarte _[!UICONTROL Magento]_direkt über dem Link **Abmelden**angezeigt.
    - Die `Email`, die mit dem Konto verknüpft ist.
 
 1. Melden Sie sich bei Ihrem [[!DNL Commerce] Konto](commerce-account-create.md) an.
@@ -45,26 +45,26 @@ Das [!DNL Commerce] Support-Team hat keinen Zugriff auf das Konto und kann keine
 
    ![Neue Benutzerinformationen](./assets/shared-new-user.png){width="600"}
 
-1. Gehen Sie unter _[!UICONTROL Shared Information]_&#x200B;wie folgt vor:
+1. Gehen Sie unter _[!UICONTROL Shared Information]_wie folgt vor:
 
    - Um das freigegebene Konto zu identifizieren, geben Sie einen **[!UICONTROL Share Name]** ein. Dieser Name dient als interne Referenz und ist nur für Sie und die Person sichtbar, für die Sie Ihr Konto freigeben.
 
      Es empfiehlt sich, den Namen Ihres Unternehmens als [!UICONTROL Share Name] zu verwenden. Verwenden Sie keinen Namen, der mit `CLOUD SHARED ACCESS FROM MAG XYX` beginnt.
    - Wenn Sie Ihre persönlichen Kontaktinformationen für den neuen Benutzer freigeben möchten, geben Sie **[!UICONTROL Your Email]** und **[!UICONTROL Your Phone]** ein.
 
-1. Aktivieren Sie unter _[!UICONTROL Grant Account Permissions]_&#x200B;das Kontrollkästchen jedes [!DNL Commerce] Produkts und Services, das Sie freigeben möchten.
+1. Aktivieren Sie unter _[!UICONTROL Grant Account Permissions]_das Kontrollkästchen jedes [!DNL Commerce] Produkts und Services, das Sie freigeben möchten.
 
    ![Erteilen Sie die Kontoberechtigungen](./assets/shared-permissions.png){width="600"}
 
 1. Klicken Sie auf **[!UICONTROL Create Shared Access]**.
 
-   Die Informationen zum neuen Benutzer werden im Abschnitt _[!UICONTROL Manage Permissions]_&#x200B;der Seite Freigegebener Zugriff angezeigt, und dem neuen Benutzer wird eine E-Mail-Einladung mit Anweisungen für den Zugriff auf das freigegebene Konto gesendet.
+   Die Informationen zum neuen Benutzer werden im Abschnitt _[!UICONTROL Manage Permissions]_der Seite Freigegebener Zugriff angezeigt, und dem neuen Benutzer wird eine E-Mail-Einladung mit Anweisungen für den Zugriff auf das freigegebene Konto gesendet.
 
    ![Berechtigungen für freigegebenen Zugriff verwalten](./assets/shared-manage-permissions.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
->Es ist nicht erforderlich, den Zugriff auf die _[!UICONTROL Security Tool]_&#x200B;freizugeben. Jeder Benutzer mit einer MAGE-ID kann das Sicherheits-Scan-Tool mit seinem eigenen Konto einrichten. Sie benötigen lediglich die erforderlichen Berechtigungen, um Änderungen an der Site vorzunehmen und die Eigentümerschaft der Domain mit einer der [erforderlichen Methoden](https://experienceleague.adobe.com/de/docs/commerce-admin/systems/security/security-scan) zu überprüfen.
+>Es ist nicht erforderlich, den Zugriff auf die _[!UICONTROL Security Tool]_freizugeben. Jeder Benutzer mit einer MAGE-ID kann das Sicherheits-Scan-Tool mit seinem eigenen Konto einrichten. Sie benötigen lediglich die erforderlichen Berechtigungen, um Änderungen an der Site vorzunehmen und die Eigentümerschaft der Domain mit einer der [erforderlichen Methoden](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) zu überprüfen.
 
 ## Zugreifen auf ein freigegebenes Konto
 
@@ -72,13 +72,13 @@ Die folgenden Anweisungen sind aus der Sicht eines freigegebenen Benutzers gesch
 
 1. Wenn Sie eine Einladung zu einem freigegebenen Konto erhalten, befolgen Sie die Anweisungen in der E-Mail, um sich bei Ihrem eigenen [!DNL Commerce]-Konto anzumelden.
 
-   Das linke Navigationsfenster Ihres Kontos weist eine neue Registerkarte _[!UICONTROL Shared with me]_&#x200B;auf. Das&#x200B;_[!UICONTROL Switch Accounts]_-Steuerelement in der oberen rechten Ecke verfügt über Optionen zum `My Account` und den Namen des freigegebenen Kontos.
+   Das linke Navigationsfenster Ihres Kontos weist eine neue Registerkarte _[!UICONTROL Shared with me]_auf. Das_[!UICONTROL Switch Accounts]_-Steuerelement in der oberen rechten Ecke verfügt über Optionen zum `My Account` und den Namen des freigegebenen Kontos.
 
    ![Für mich freigegeben](./assets/shared-with-me.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
-   >   Wenn das _[!UICONTROL Switch Accounts]_&#x200B;nicht angezeigt wird, wenden Sie sich an den primären Kontoinhaber und bestätigen Sie, dass er Ihre richtigen [Kontoinformationen](#set-up-a-shared-account) eingegeben hat.
+   >   Wenn das _[!UICONTROL Switch Accounts]_nicht angezeigt wird, wenden Sie sich an den primären Kontoinhaber und bestätigen Sie, dass er Ihre richtigen [Kontoinformationen](#set-up-a-shared-account) eingegeben hat.
 
 
 1. Um Zugriff auf das freigegebene Konto zu erhalten, legen Sie **[!UICONTROL Switch Accounts]** auf den Namen des freigegebenen Kontos fest.
@@ -91,11 +91,11 @@ Die folgenden Anweisungen sind aus der Sicht eines freigegebenen Benutzers gesch
 
    ![Support](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   Sie können das [Adobe Commerce Help Center](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/overview) über das freigegebene Konto nach Artikeln und Informationen zur Fehlerbehebung suchen, Patches für bekannte Probleme suchen und Support-Tickets erstellen.
+   Sie können das [Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) über das freigegebene Konto nach Artikeln und Informationen zur Fehlerbehebung suchen, Patches für bekannte Probleme suchen und Support-Tickets erstellen.
 
    >[!NOTE]
    >
-   >Nach Erhalt des freigegebenen Zugriffs muss sich der Benutzer bei seinem [[!DNL Commerce] Konto](https://account.magento.com/customer/account/login) anmelden, zu _Freigegebener Zugriff_ navigieren und auf die Registerkarte **[!UICONTROL Support]** klicken. Diese Aktion ist nur erforderlich, um sicherzustellen, dass die [Adobe Commerce Support Knowledge Base](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/overview) über den `SSO`-Aufruf ordnungsgemäß konfiguriert ist.
+   >Um nach Erhalt des gemeinsamen Zugriffs [einen Support-Fall senden](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) auf Experience League zu aktivieren, müssen Sie zunächst den Organisationsnamen, der auf „([!DNL Commerce])“ endet, in der linken Spalte auswählen.
 
 1. Um zu Ihrem eigenen Konto zurückzukehren, klicken Sie auf **Zurück** in Ihren Browser-Steuerelementen und legen Sie **[!UICONTROL Switch Accounts]** auf `My Account` fest.
 
@@ -105,23 +105,25 @@ Die folgenden Anweisungen sind aus der Sicht eines freigegebenen Benutzers gesch
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Shared Access]**.
 
-1. Suchen Sie unter _[!UICONTROL Managing Users & Permissions]_&#x200B;das zu widerrufende Konto und klicken Sie auf **[!UICONTROL Delete]**.
+1. Suchen Sie unter _[!UICONTROL Managing Users & Permissions]_das zu widerrufende Konto und klicken Sie auf **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >
-   > Wenn **[!UICONTROL Delete]** nicht angezeigt wird, überprüfen Sie, ob die **[!UICONTROL Share Name]** mit `Cloud Shared Access from MAG XYZ` beginnt. Konten mit diesem [ können nicht gelöscht ](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
+   > Wenn **[!UICONTROL Delete]** nicht angezeigt wird, überprüfen Sie, ob die **[!UICONTROL Share Name]** das Namensmuster `Cloud Shared Access from MAG0XYZ` enthält. Wenn das Konto dieses [Namensmuster aufweist und nicht gelöscht werden kann](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users) liegt dies daran, dass der freigegebene Zugriff von einer API und nicht direkt aus dem [Commerce-Konto erstellt ](https://account.magento.com/).
    > 
-   > Wenn ja, bitten Sie den Kontoinhaber, das Konto mit gemeinsamem Zugriff zu ändern, um die Kontoberechtigungen zu löschen. Nach dieser Aktualisierung kann der Benutzer nicht mehr auf Kontoressourcen zugreifen.
+   > Wenn sie nicht gelöscht werden kann, lassen Sie einfach den Kontoinhaber das Konto mit gemeinsamem Zugriff ändern und unter Kontoberechtigungen erteilen jedes Element deaktivieren. Nach diesem Update kann der Benutzer nicht mehr auf Kontoressourcen zugreifen.
+   > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
-   > Stellen Sie außerdem sicher, dass Benutzer aus dem Projekt entfernt werden, sodass sie keine E-Mail-Benachrichtigungen mehr erhalten: [Ehemalige Team-Mitglieder erhalten E-Mails zu Adobe Commerce Cloud-Benachrichtigungen](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > Stellen Sie außerdem sicher, dass Benutzer aus dem Projekt entfernt werden, sodass sie keine E-Mail-Benachrichtigungen mehr erhalten: [Ehemalige Team-Mitglieder erhalten E-Mails zur Cloud-Benachrichtigung von Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. Wenn Sie zum Bestätigen aufgefordert werden, klicken Sie auf **[!UICONTROL Delete User]**.
 
 >[!NOTE]
 >
->Sie können keine Benutzer mit dem Freigabenamen _Cloud Shared Access von MAG[XYZ)]_ dieser Benutzeroberfläche löschen. Siehe [Löschen von Benutzern, denen über ein Cloud-Projekt gemeinsamer Zugriff gewährt wurde?](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting).
+>Sie können keine Benutzer mit dem Freigabenamen _Cloud Shared Access von MAG[XYZ)]_ dieser Benutzeroberfläche löschen. Siehe [Löschen von Benutzern, denen über ein Cloud-Projekt gemeinsamer Zugriff gewährt wurde?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users).
 
 ## Verwandtes Lesen
 
-[Fehlerbehebung beim freigegebenen Zugriff](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[Fehlerbehebung beim freigegebenen Zugriff](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+
