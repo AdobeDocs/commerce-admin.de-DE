@@ -3,9 +3,9 @@ title: Erstellen einer Warenkorb-Preisregel
 description: Erfahren Sie, wie Sie eine Warenkorb-Preisregel basierend auf Warenkorb- oder Produktattributen erstellen.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: d981a0365cc7768394ca03f4352be45caef87a73
 workflow-type: tm+mt
-source-wordcount: '3386'
+source-wordcount: '3382'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
 
 1. Klicken Sie auf **[!UICONTROL Add New Rule]** und führen Sie folgende Schritte aus:
 
-   - Füllen Sie unter _[!UICONTROL Rule Information]_&#x200B;die **[!UICONTROL Rule Name]**&#x200B;und die **[!UICONTROL Description]**&#x200B;aus.
+   - Füllen Sie unter _[!UICONTROL Rule Information]_die **[!UICONTROL Rule Name]**und die **[!UICONTROL Description]**aus.
 
    - Wenn die Regel nicht sofort in Kraft treten soll, setzen Sie **[!UICONTROL Active]** auf `No`.
 
@@ -59,13 +59,7 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
 
 1. Geben Sie eine Zahl ein, um die **[!UICONTROL Priority]** dieser Preisregel in Bezug auf die Aktionseinstellungen anderer Preisregeln zu definieren, die gleichzeitig aktiv sind.
 
-   >[!NOTE]
-   >
-   >Die _[!UICONTROL Priority]_&#x200B;ist wichtig, wenn zwei Warenkorb-Regeln oder Coupon-Codes gleichzeitig für dasselbe Produkt gültig sind. Die Regel mit der höchsten [!UICONTROL Priority] zur Steuerung der Warenkorbaktion.  Die Prioritäten von der höchsten zur niedrigsten sind `0,1,2,3...`. Siehe_ Nachfolgende Preisregeln verwerfen _im Schritt_[ Definieren der Aktionen ](#step-3-define-the-actions)_.
-
-   >[!NOTE]
-   >
-   >Regeln für den Warenkorbpreis, die dieselbe Priorität haben, führen nicht zu einem kombinierten Rabatt. Jede Regel (Coupon) wird separat auf übereinstimmende Produkte angewendet, und zwar einzeln entsprechend der Warenkorb-Preisregel-ID in der Datenbank. Um die Reihenfolge zu steuern, in der Rabatte angewendet werden, empfiehlt Adobe, für jede zusätzliche Warenkorb-Preisregel eine andere Priorität festzulegen.
+   Wenn mehrere Regeln oder Coupons für den Warenkorb auf dasselbe Produkt angewendet werden, wird zuerst die Regel mit der höchsten Priorität (niedrigste Zahl) angewendet. Regeln mit derselben Priorität werden nicht kombiniert. Sie werden basierend auf der Regel-ID separat angewendet. Um die Reihenfolge zu steuern, in der Rabatte angewendet werden, weisen Sie eindeutige Prioritäten zu und erwägen Sie die Verwendung [Nachfolgende Preisregeln verwerfen](#step-3-define-the-actions) im Schritt Aktionen , um das Stapeln von Rabatten zu verhindern.
 
 1. Um die Regel auf veröffentlichte (RSS[Feeds) anzuwenden](social-rss.md#rss-feeds) setzen Sie **Öffentlich im RSS-Feed** auf `Yes`.
 
@@ -79,17 +73,15 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
 
 ## Schritt 2: Bedingungen beschreiben
 
-In diesem Schritt werden die Bedingungen beschrieben, die für eine Bestellung erfüllt sein müssen, um sich für die Promotion zu qualifizieren. Die Regel wird aktiv, wenn der Satz von Bedingungen erfüllt ist.
-
-Wenn Sie Zielgruppen aus Real-Time CDP verwenden, fahren Sie mit [diesem Abschnitt](#use-real-time-cdp-audiences-to-set-a-condition) fort.
-
 >[!NOTE]
 >
->Die Preisregel für den Warenkorb wird auf **_jedes_** Produkt im Warenkorb angewendet, wenn die auf der Registerkarte _[!UICONTROL Conditions]_&#x200B;festgelegten Bedingungen erfüllt sind. Fügen Sie Bedingungen auf der Registerkarte&#x200B;_[!UICONTROL Actions]_ hinzu, um die Anzahl der Produkte zu begrenzen, die von der Warenkorbpreisregel betroffen sind.
+>Wenn Sie Zielgruppen aus Real-Time CDP verwenden, fahren Sie mit [diesem Abschnitt](#use-real-time-cdp-audiences-to-set-a-condition) fort.
 
->[!NOTE]
->
->Wenn mindestens ein bedingtes Produktattribut einen leeren Wert aufweist, wird die Warenkorbpreisregel nicht auf das Produkt angewendet.
+In diesem Schritt werden die Bedingungen beschrieben, die für eine Bestellung erfüllt sein müssen, um sich für die Promotion zu qualifizieren. Bedingungen wirken sich auf folgende Weise auf die Regeln für den Warenkorbpreis aus:
+
+- Die Preisregel für den Warenkorb wird auf **_jedes_** Produkt im Warenkorb angewendet, wenn die auf der Registerkarte _[!UICONTROL Conditions]_festgelegten Bedingungen erfüllt sind. Um die Anzahl der Produkte zu begrenzen, die von der Warenkorbpreisregel betroffen sind, fügen Sie Bedingungen auf der Registerkarte_[!UICONTROL Actions]_ hinzu, um die Anzahl der Produkte zu begrenzen, die von der Warenkorbpreisregel betroffen sind.
+
+- Wenn mindestens ein bedingtes Produktattribut einen leeren Wert aufweist, wird die Warenkorbpreisregel nicht auf das Produkt angewendet.
 
 1. Wählen Sie im linken Bedienfeld **[!UICONTROL Conditions]** aus.
 
@@ -172,7 +164,7 @@ Wenn Sie Zielgruppen aus Real-Time CDP verwenden, fahren Sie mit [diesem Abschni
 
 ### Hinzufügen eines Produktattributs zu Warenkorb-Preisregeln
 
-1. Wechseln Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;und öffnen Sie das Produktattribut.
+1. Wechseln Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**und öffnen Sie das Produktattribut.
 
 1. Wählen Sie im linken Bedienfeld **[!UICONTROL Storefront Properties]** aus.
 
@@ -219,7 +211,7 @@ Sie können eine Bedingung für eine Warenkorb-Preisregel basierend auf einer Re
    | `Name` | Name der Zielgruppe, z. B. `Orders over $50` |
    | `Description` | Beschreibung der Zielgruppe, z. B. `People who placed an order over $50 in the last month.`. |
    | `Source` | Gibt an, woher die Zielgruppe stammt, z. B. `Experience Platform`. |
-   | `Website` | Gibt an, welche Website Sie mit dem Datenstrom verknüpft haben, der die Zielgruppen enthält. Sie erstellen diesen Link, wenn Sie Ihre Commerce-Instanz über die [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=de) mit der Experience Platform verbinden. |
+   | `Website` | Gibt an, welche Website Sie mit dem Datenstrom verknüpft haben, der die Zielgruppen enthält. Sie erstellen diesen Link, wenn Sie Ihre Commerce-Instanz über die [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html) mit der Experience Platform verbinden. |
 
    {style="table-layout:auto"}
 
@@ -243,6 +235,8 @@ Die Preisregelaktionen für den Warenkorb beschreiben, wie Preise aktualisiert w
    | `Buy X get Y free` | Definiert eine Menge X, die der Kunde erwerben muss, um eine Menge Y **desselben Produkts/derselben Variante)** erhalten. (Der [!UICONTROL Discount Amount] ist Y.) Eine Gesamtmenge von X+Y desselben Artikels muss im Warenkorb vorhanden/hinzugefügt werden, damit der Rabatt angewendet werden kann. |
 
    {style="table-layout:auto"}
+
+   - Um Festbetragsrabatte einheitlich auf Websites mit unterschiedlichen Währungen anzuwenden (ohne von der globalen Basiswährung zu konvertieren), setzen Sie die Option **[!UICONTROL Catalog Price Scope]** auf `Website` und definieren Sie eine Basiswährung für jede Website.
 
    - Geben Sie die **[!UICONTROL Discount Amount]** als eine Zahl ohne Symbole ein. Je nach ausgewählter Rabattoption kann die Zahl 10 beispielsweise einen Prozentsatz, einen festen Betrag oder eine Menge von Artikeln angeben.
 
@@ -334,7 +328,7 @@ Die Bezeichnung wird im Abschnitt „Gesamtsummen“ der Bestellung angezeigt, u
 
 In diesem Video erfahren Sie mehr über das Erstellen von Regeln für den Warenkorbpreis:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411359?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
 
 ## Feldbeschreibungen
 
@@ -347,7 +341,7 @@ In diesem Video erfahren Sie mehr über das Erstellen von Regeln für den Warenk
 | [!UICONTROL Active] | (Erforderlich) Bestimmt, ob die Regel im Store aktiv ist. Optionen: `Yes` / `No` |
 | [!UICONTROL Websites] | (Erforderlich) Gibt die Websites an, auf denen die Regel verwendet werden kann. |
 | [!UICONTROL Customer Groups] | (Erforderlich) Identifiziert die Kundengruppen, für die die Regel gilt. |
-| [!UICONTROL Coupon] | (Erforderlich) Zeigt an, ob der Regel ein Coupon zugeordnet ist. Optionen: <br/>**[!UICONTROL No Coupon]**- Der Regel ist kein Coupon zugeordnet.<br/>**[!UICONTROL Specific Coupon]** - Der Regel ist ein bestimmter Coupon zugeordnet. <br/>**[!UICONTROL Coupon Code]**: Geben Sie bei Aufforderung den Gutscheincode ein, den der Kunde eingeben muss, um die Promotion nutzen zu können.<br/>**[!UICONTROL Use Auto Generation]** - Aktivieren Sie das Kontrollkästchen, um automatisch mehrere Gutscheincodes zu generieren, die mit der Promotion verwendet werden können. <br/>**[!UICONTROL Auto]**- Zeigt den _[!UICONTROL Manage Coupon Codes]_&#x200B;an, um das Format der zu generierenden Couponcodes zu definieren. |
+| [!UICONTROL Coupon] | (Erforderlich) Zeigt an, ob der Regel ein Coupon zugeordnet ist. Optionen: <br/>**[!UICONTROL No Coupon]**- Der Regel ist kein Coupon zugeordnet.<br/>**[!UICONTROL Specific Coupon]** - Der Regel ist ein bestimmter Coupon zugeordnet. <br/>**[!UICONTROL Coupon Code]**: Geben Sie bei Aufforderung den Gutscheincode ein, den der Kunde eingeben muss, um die Promotion nutzen zu können.<br/>**[!UICONTROL Use Auto Generation]** - Aktivieren Sie das Kontrollkästchen, um automatisch mehrere Gutscheincodes zu generieren, die mit der Promotion verwendet werden können. <br/>**[!UICONTROL Auto]**- Zeigt den _[!UICONTROL Manage Coupon Codes]_an, um das Format der zu generierenden Couponcodes zu definieren. |
 | [!UICONTROL Uses per Coupon] | Bestimmt, wie oft der Gutscheincode verwendet werden kann. Wenn es keine Beschränkung gibt, lassen Sie das Feld leer. |
 | [!UICONTROL Uses per Customer] | Bestimmt, wie oft die Warenkorb-Preisregel von demselben registrierten Kunden verwendet werden kann, der zu einer ausgewählten Kundengruppe gehört. Gilt nicht für Gasteinkäufer, die Mitglieder der Kundengruppe NOT LOGGED IN sind, oder für Kunden, die einkaufen, ohne sich bei ihren Konten anzumelden. Für keine Beschränkung lassen Sie das Feld leer. |
 | [!UICONTROL Priority] | Eine Zahl, die die Priorität dieser Regel im Verhältnis zu anderen angibt. Die Prioritäten von der höchsten zur niedrigsten sind `0,1,2,3...` |
@@ -390,7 +384,7 @@ Gibt die Bedingungen an, die erfüllt sein müssen, bevor die Warenkorbpreisrege
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Apply] | Bestimmt die Art der Berechnung, die auf den Kauf angewendet wird. Optionen: <br/>**[!UICONTROL Percent of product price discount]**- Rabattartikel, indem ein Prozentsatz vom ursprünglichen Preis abgezogen wird. Beispiel: Geben Sie `10` in _[!UICONTROL Discount Amount]_&#x200B;für einen aktualisierten Preis ein, der 10 % unter dem ursprünglichen Preis liegt.<br/>**[!UICONTROL Fixed amount discount]**- Rabattartikel, indem ein fester Betrag vom ursprünglichen Preis jedes qualifizierten Artikels im Warenkorb abgezogen wird. Beispiel: Geben Sie `10` in&#x200B;_[!UICONTROL Discount Amount]_ für einen aktualisierten Preis ein, der 10 $ unter dem ursprünglichen Preis liegt. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Rabatte für den gesamten Warenkorb, indem ein fester Betrag von der Zwischensumme des Warenkorbs subtrahiert wird. Beispiel: Geben Sie `10` in _[!UICONTROL Discount Amount]_&#x200B;ein, um $10 von der Zwischensumme des Warenkorbs abzuziehen. Standardmäßig gilt der Rabatt nur für die Zwischensumme des Warenkorbs. Um den Rabatt auf die Zwischensumme und den Versand separat anzuwenden, siehe_Auf Versandbetrag anwenden _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definiert eine Menge, die der Kunde erwerben muss, um eine Menge kostenlos zu erhalten. (Der&#x200B;_[!UICONTROL Discount Amount]_ ist Y.) |
+| [!UICONTROL Apply] | Bestimmt die Art der Berechnung, die auf den Kauf angewendet wird. Optionen: <br/>**[!UICONTROL Percent of product price discount]**- Rabattartikel, indem ein Prozentsatz vom ursprünglichen Preis abgezogen wird. Beispiel: Geben Sie `10` in _[!UICONTROL Discount Amount]_für einen aktualisierten Preis ein, der 10 % unter dem ursprünglichen Preis liegt.<br/>**[!UICONTROL Fixed amount discount]**- Rabattartikel, indem ein fester Betrag vom ursprünglichen Preis jedes qualifizierten Artikels im Warenkorb abgezogen wird. Beispiel: Geben Sie `10` in_[!UICONTROL Discount Amount]_ für einen aktualisierten Preis ein, der 10 $ unter dem ursprünglichen Preis liegt. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Rabatte für den gesamten Warenkorb, indem ein fester Betrag von der Zwischensumme des Warenkorbs subtrahiert wird. Beispiel: Geben Sie `10` in _[!UICONTROL Discount Amount]_ein, um $10 von der Zwischensumme des Warenkorbs abzuziehen. Standardmäßig gilt der Rabatt nur für die Zwischensumme des Warenkorbs. Um den Rabatt auf die Zwischensumme und den Versand separat anzuwenden, siehe_Auf Versandbetrag anwenden _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definiert eine Menge, die der Kunde erwerben muss, um eine Menge kostenlos zu erhalten. (Der_[!UICONTROL Discount Amount]_ ist Y.) |
 | [!UICONTROL Discount Amount] | (Erforderlich) Der Rabattbetrag, der angeboten wird. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Legt die maximale Anzahl von Produkten fest, auf die der Rabatt im selben Kauf angewendet werden kann. |
 | [!UICONTROL Discount Qty Step (Buy X)] | Legt die Anzahl der Produkte fest, die von `X` in einer `Buy X Get Y Free`-Promotion repräsentiert werden. Außerdem definiert, wie viele Produkte in Stapeln zum Warenkorb hinzugefügt werden müssen, um `Fixed amount discount`- und `Percent of product price discount`-Aktionen anzuwenden. |

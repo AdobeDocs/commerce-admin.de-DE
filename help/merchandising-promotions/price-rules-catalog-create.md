@@ -3,9 +3,9 @@ title: Erstellen einer Katalogpreisregel
 description: Erfahren Sie, wie Sie eine Katalogpreisregel erstellen, die einen Rabatt auf bestimmte Produkte anwendet, wenn eine Reihe von Bedingungen erfüllt ist.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 3011d0287c74fd39b44e180733343c39d1cadea7
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New Rule]**.
 
-   Der Abschnitt _[!UICONTROL Rule Information]_&#x200B;enthält erweiterbare Abschnitte für **[!UICONTROL Conditions]**&#x200B;und **[!UICONTROL Actions]**.
+   Der Abschnitt _[!UICONTROL Rule Information]_enthält erweiterbare Abschnitte für **[!UICONTROL Conditions]**und **[!UICONTROL Actions]**.
 
    ![Katalogpreisregel - Informationen](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -32,41 +32,30 @@ Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden
 
    Standardmäßig ist der Status `Inactive`.
 
-   >[!NOTE]
-   >
-   >Nachdem die Regel erstellt wurde, kann ihr Status aktualisiert werden, indem der Status nach Bedarf in `Active` oder `Inactive` geändert wird.
+   Nachdem die Regel erstellt wurde, kann ihr Status aktualisiert werden, indem der Status nach Bedarf in `Active` oder `Inactive` geändert wird.
 
 1. Wählen Sie die **[!UICONTROL Websites]** aus, in der die Regel verfügbar sein soll.
 
 1. Wählen Sie die **[!UICONTROL Customer Groups]** aus, für die diese Regel gilt.
 
-   Zur Auswahl mehrerer Gruppen halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Optionen.
+   - Die zur Auswahl verfügbaren Optionen hängen von den Kundengruppen ab, die in _Kunden_ > _Kundengruppen_ erstellt und verwaltet werden.
+   - Zur Auswahl mehrerer Gruppen halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Optionen.
 
-   >[!NOTE]
-   >
-   >Die Optionen in dieser Liste hängen von den Kundengruppen ab, die unter _Kunden_ > _Kundengruppen_ erstellt und verwaltet werden.
-
-1. ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Geben Sie **[!UICONTROL From]** und **[!UICONTROL To]** ein, um zu bestimmen, wann die Preisregel in Kraft ist.
+1. ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Geben Sie **[!UICONTROL From]** und **[!UICONTROL To]** ein, um zu bestimmen, wann die Preisregel in Kraft ist.
 
    Sie können die Daten eingeben oder die **[!UICONTROL Calendar]** (![Kalendersymbol) ](../assets/icon-calendar.png), um die Daten auszuwählen. Wenn Sie die Datumsangaben leer lassen, wird die Regel beim Speichern der Preisregel aktiviert.
 
 1. Geben Sie eine Zahl ein, um die **[!UICONTROL Priority]** dieser Regel im Verhältnis zu anderen Regeln festzulegen.
 
-   >[!NOTE]
-   >
-   >Die _[!UICONTROL Priority]_&#x200B;ist wichtig, wenn dasselbe Katalogprodukt die Bedingungen für mehr als eine Preisregel erfüllt. Die Regel mit der höchsten Prioritätseinstellung (Prioritäten von der höchsten zur niedrigsten sind 0,1,2,3 …) wird für das Produkt aktiv.
+   Die **[!UICONTROL Priority]** bestimmt, welche Regel gilt, wenn ein Produkt Bedingungen für mehrere Preisregeln erfüllt. Die Regel mit der höchsten Priorität (niedrigste Zahl, z. B. 0, 1, 2, 3 usw.) wird wirksam.
 
 ## Schritt 2: Bedingungen definieren
 
 Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um die Regel auf alle Produkte anzuwenden, lassen Sie die Bedingungen leer.
 
->[!NOTE]
->
->Wenn mindestens ein bedingtes Produktattribut einen leeren Wert aufweist, wird die Katalogpreisregel nicht auf das Produkt angewendet.
+- Wenn mindestens ein bedingtes Produktattribut einen leeren Wert aufweist, wird die Katalogpreisregel nicht auf das Produkt angewendet.
 
->[!NOTE]
->
->Um eine `Category` Produktattributbedingung auf ein (Bundle[ oder ](../catalog/product-create-bundle.md) [ Gruppiert](../catalog/product-create-grouped.md) Produkt anzuwenden, müssen alle untergeordneten Produkte derselben Kategorie zugewiesen werden, damit die Regel korrekt angewendet wird. Ist dies nicht der Fall, können Sie stattdessen eine [Warenkorb-Preisregel](price-rules-cart-create.md)-Promotion verwenden.
+- Wenn Sie `[!UICONTROL Category]` Produktattributbedingung zu Paketen oder gruppierten Produkten hinzufügen, wird die Preisregel nur dann korrekt angewendet, wenn alle untergeordneten Elemente dieselbe Kategorie teilen. Wenn die untergeordneten Artikel nicht in derselben Kategorie sind, verwenden Sie stattdessen eine [Warenkorb-Preisregel](price-rules-cart-create.md)-Promotion.“
 
 1. Scrollen Sie nach unten und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Conditions]** .
 
@@ -144,6 +133,10 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
    >[!NOTE]
    >
+   >Um Festbetragsrabatte einheitlich auf Websites mit unterschiedlichen Währungen anzuwenden (ohne von der globalen Basiswährung zu konvertieren), setzen Sie die Option **[!UICONTROL Catalog Price Scope]** auf `Website` und definieren Sie eine Basiswährung für jede Website.
+
+   >[!NOTE]
+   >
    >_Regulärer Preis_ bezieht sich auf den Basispreis des Produkts ohne Vorzugspreise (Sonder-/Stufen-/Gruppenrabatte) oder Werberabatte. _Endpreis_ bezieht sich auf den ermäßigten Preis, der im Warenkorb angezeigt wird. <br/>Der **_Endprodukt_** Preis wird als **_Mindestpreis)_** folgender Formel berechnet: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)`
 
    >[!NOTE]
@@ -154,9 +147,7 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
 1. Um die Verarbeitung anderer Regeln nach der Anwendung dieser Regel zu stoppen, setzen Sie **[!UICONTROL Discard Subsequent Rules]** auf `Yes`.
 
-   >[!NOTE]
-   >
-   >Wenn Sie dies auf `Yes` setzen, wird verhindert, dass das System mehrere Rabatte (Regeln) auf dasselbe Produkt anwendet.
+   Wenn Sie diesen Wert auf `Yes` setzen, verhindern Sie, dass das System mehrere Rabatte (Regeln) auf dasselbe Produkt anwendet.
 
 ## Schritt 4: Zugehörige dynamische Blöcke hinzufügen
 
@@ -202,7 +193,7 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
 1. Wenn Sie fertig sind, speichern Sie die Regel.
 
-   - ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf **[!UICONTROL Save and Apply]**.
+   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf **[!UICONTROL Save and Apply]**.
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -212,9 +203,9 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
 1. Aktualisieren von Eigenschaften für eine Regel:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die _[!UICONTROL Rule Information]_&#x200B;anzuzeigen.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die _[!UICONTROL Rule Information]_anzuzeigen.
 
-   - ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die _[!UICONTROL Rule Information]_&#x200B;anzuzeigen.
+   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die _[!UICONTROL Rule Information]_anzuzeigen.
 
 1. Testen Sie die Regel, um sicherzustellen, dass sie korrekt funktioniert.
 
@@ -224,7 +215,7 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
 In diesem Video erfahren Sie mehr über das Erstellen von Katalogpreisregeln:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411361?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Feldbeschreibungen
 
@@ -237,9 +228,9 @@ In diesem Video erfahren Sie mehr über das Erstellen von Katalogpreisregeln:
 | [!UICONTROL Websites] | (Erforderlich) Gibt die Websites an, auf denen die Regel verwendet werden kann. |
 | [!UICONTROL Customer Groups] | (Erforderlich) Identifiziert die Kundengruppen, für die die Regel gilt. |
 | [!UICONTROL Priority] | Eine Zahl, die die Priorität dieser Regel im Verhältnis zu anderen angibt. Die Prioritäten von der höchsten zur niedrigsten sind `0,1,2,3...` |
-| [!UICONTROL Status] | ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Bestimmt, ob die Regel im Store aktiv ist. Optionen: `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Gibt den ersten Tag an, an dem die Preisregel in Kraft ist. Wenn Sie das Feld leer lassen, wird die Preisregel beim Speichern wirksam. |
-| [!UICONTROL To] | ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Gibt den letzten Tag an, an dem die Preisregel in Kraft ist. Wenn dies leer gelassen wird, wird die Preisregel auf unbestimmte Zeit fortgesetzt. |
+| [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Bestimmt, ob die Regel im Store aktiv ist. Optionen: `Yes` / `No` |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Gibt den ersten Tag an, an dem die Preisregel in Kraft ist. Wenn Sie das Feld leer lassen, wird die Preisregel beim Speichern wirksam. |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Gibt den letzten Tag an, an dem die Preisregel in Kraft ist. Wenn dies leer gelassen wird, wird die Preisregel auf unbestimmte Zeit fortgesetzt. |
 
 {style="table-layout:auto"}
 
@@ -251,7 +242,7 @@ Gibt die Bedingungen an, die erfüllt sein müssen, bevor die Katalogpreisregel 
 
 | Feld | Beschreibung |
 |-----|-----------|
-| [!UICONTROL Apply] | Bestimmt die Art der Berechnung, die auf den Kauf angewendet wird. Optionen: <br/>**[!UICONTROL Apply as percentage of original]**- Rabattartikel durch Subtraktion eines Prozentsatzes vom regulären Preis.<br/>**[!UICONTROL Apply as fixed amount]** - Rabattposten durch Abzug eines festen Betrags vom regulären Preis. <br/>**[!UICONTROL Adjust final price to this percentage]**- Passt den Endpreis um einen Prozentsatz des regulären Preises an.<br/>**[!UICONTROL Adjust final price to discount value]** - Setzt den Endpreis auf einen festen, diskontierten Betrag. <br/><br/>**_Hinweis _**&#x200B;Der reguläre Preis bezieht sich auf den Basispreis des Produkts ohne Vorzugspreise (Sonderpreis/Stufe/Gruppe) oder Rabatte auf Werbeaktionen. Der Endpreis bezieht sich auf den ermäßigten Preis, der im Warenkorb angezeigt wird. <br/>Der&#x200B;**_Endprodukt _**&#x200B;Preis wird als&#x200B;**_Mindestpreis)_**&#x200B;folgender Formel berechnet: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | Bestimmt die Art der Berechnung, die auf den Kauf angewendet wird. Optionen: <br/>**[!UICONTROL Apply as percentage of original]**- Rabattartikel durch Subtraktion eines Prozentsatzes vom regulären Preis.<br/>**[!UICONTROL Apply as fixed amount]** - Rabattposten durch Abzug eines festen Betrags vom regulären Preis. <br/>**[!UICONTROL Adjust final price to this percentage]**- Passt den Endpreis um einen Prozentsatz des regulären Preises an.<br/>**[!UICONTROL Adjust final price to discount value]** - Setzt den Endpreis auf einen festen, diskontierten Betrag. <br/><br/>**_Hinweis _**Der reguläre Preis bezieht sich auf den Basispreis des Produkts ohne Vorzugspreise (Sonderpreis/Stufe/Gruppe) oder Rabatte auf Werbeaktionen. Der Endpreis bezieht sich auf den ermäßigten Preis, der im Warenkorb angezeigt wird. <br/>Der**_Endprodukt _**Preis wird als**_Mindestpreis)_**folgender Formel berechnet: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | (Erforderlich) Der Rabattbetrag, der angeboten wird. |
 | [!UICONTROL Discard Subsequent Rules] | Legt fest, ob zusätzliche Regeln auf diesen Kauf angewendet werden können. Um zu verhindern, dass mehrere Rabatte auf denselben Kauf angewendet werden, wählen Sie `Yes` aus. Optionen: `Yes` / `No` |
 
