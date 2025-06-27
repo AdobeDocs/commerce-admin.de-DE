@@ -21,7 +21,7 @@ Sie können über die [!DNL Commerce]-Website auf Ihr Konto zugreifen. Das Konto
 
 Die Anmeldung mit Ihrem [!DNL Commerce] Konto ist nicht mit der Anmeldung bei Ihrem Store-Administrator identisch. Normalerweise verwenden Sie für jedes System unterschiedliche Anmeldeinformationen, und der Zugriff auf jedes System wird unabhängig verwaltet.
 
-Benutzende, die ihre Anmeldung bei Adobe Commerce- und Adobe Business-Produkten optimieren möchten, können jedoch ihre Adobe ID so konfigurieren, dass sie sich beim Store-Admin anmelden: [Konfigurieren der Commerce Admin-Integration mit Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)
+Benutzende, die ihre Anmeldung bei Adobe Commerce- und Adobe Business-Produkten optimieren möchten, können jedoch ihre Adobe ID so konfigurieren, dass sie sich beim Store-Admin anmelden: [Konfigurieren der Commerce Admin-Integration mit Adobe ID](https://experienceleague.adobe.com/de/docs/commerce-admin/start/admin/ims/adobe-ims-config)
 
 Ihre Commerce- und Store-Admin-Anmeldedaten sind getrennt und verfügen über unterschiedliche Anmeldedaten und einen unabhängig verwalteten Zugriff. Sie können den Zugriff jedoch optimieren, indem Sie Ihre Adobe ID so konfigurieren, dass sie sich beim Store-Administrator anmeldet. Siehe [Konfigurieren der Commerce Adobe ID Admin-Integration mit ] im *IMS-Integrationshandbuch für Commerce*.
 
