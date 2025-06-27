@@ -3,9 +3,9 @@ title: 'Konto erstellen und  [!DNL Commerce] '
 description: Erfahren Sie mehr über  [!DNL Commerce] -Konten, die die von Ihnen erworbenen Produkte und Services verwalten.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: fff3464c9da50927bbe9773a17b0f6858360d788
+source-git-commit: d5f5405c9470e77327f2978f503cec800a440b5d
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,17 @@ ht-degree: 0%
 
 # Zugriff auf Ihr [!DNL Commerce]
 
-Ihr [!DNL Commerce] Konto verfügt über eine separate Anmeldung als der Admin Ihres Stores. Sie können auf dieses Konto entweder über die [!DNL Commerce]-Website oder über Ihren Store-Administrator zugreifen. Im Dashboard Ihres [!DNL Commerce]-Kontos finden Sie Informationen zu den von Ihnen erworbenen Produkten und Services sowie Ihre Kontakt- und Rechnungsinformationen. Einige Informationen sind nur für Lizenzinhaber sichtbar.
+Sie können über die [!DNL Commerce]-Website auf Ihr Konto zugreifen. Im Dashboard Ihres [!DNL Commerce]-Kontos finden Sie Informationen zu den von Ihnen erworbenen Produkten und Services sowie Ihre Kontakt- und Rechnungsinformationen. Einige Informationen sind nur für Lizenzinhaber sichtbar.
+
+Sie können über die [!DNL Commerce]-Website auf Ihr Konto zugreifen. Das Konto-Dashboard zeigt Ihre gekauften Produkte, Services und Kontakt- oder Rechnungsdetails an. Einige Informationen sind nur für Lizenzinhaber sichtbar.
 
 ![Ihr [!DNL Commerce]-Konto](./assets/home-acct.png){width="700"}
+
+Die Anmeldung mit Ihrem [!DNL Commerce] Konto ist nicht mit der Anmeldung bei Ihrem Store-Administrator identisch. Normalerweise verwenden Sie für jedes System unterschiedliche Anmeldeinformationen, und der Zugriff auf jedes System wird unabhängig verwaltet.
+
+Benutzende, die ihre Anmeldung bei Adobe Commerce- und Adobe Business-Produkten optimieren möchten, können jedoch ihre Adobe ID so konfigurieren, dass sie sich beim Store-Admin anmelden: [Konfigurieren der Commerce Admin-Integration mit Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config)
+
+Ihre Commerce- und Store-Admin-Anmeldedaten sind getrennt und verfügen über unterschiedliche Anmeldedaten und einen unabhängig verwalteten Zugriff. Sie können den Zugriff jedoch optimieren, indem Sie Ihre Adobe ID so konfigurieren, dass sie sich beim Store-Administrator anmeldet. Siehe [Konfigurieren der Commerce Adobe ID Admin-Integration mit ] im *IMS-Integrationshandbuch für Commerce*.
 
 >[!NOTE]
 >
@@ -27,13 +35,13 @@ Für den Zugriff auf ein Commerce-Konto ist eine Adobe ID erforderlich. Wenn Sie
 
 >[!WARNING]
 >
->Verwenden Sie die E-Mail-Adresse, die Ihrem bestehenden Commerce-Konto MAGEID zugeordnet ist. Durch die Verwendung einer anderen E-Mail-Adresse wird eine MAGEID erstellt.
+>Verwenden Sie die E-Mail-Adresse, die Ihrem bestehenden Commerce-Konto MAGEID zugeordnet ist, um die Adobe ID zu erstellen. Durch die Verwendung einer anderen, brandneuen E-Mail-Adresse wird eine neue MAGEID erstellt.
 
 1. Navigieren Sie zur [[!DNL Commerce] Site](https://account.magento.com/customer/account/login/).
 
 1. Klicken Sie auf **[!UICONTROL Sign in with Adobe ID]**.
 
-   ![Melden Sie sich mit dem Adobe-Anmeldebildschirm an](./assets/sign-in-with-adobe.png){width="700"}
+   ![Mit Adobe-Anmeldebildschirm anmelden](./assets/sign-in-with-adobe.png){width="700"}
 
 1. Geben Sie Ihre E-Mail-Adresse ein und klicken Sie auf **[!UICONTROL Continue]**.
 
@@ -43,17 +51,19 @@ Für den Zugriff auf ein Commerce-Konto ist eine Adobe ID erforderlich. Wenn Sie
 
 ## Erstellen eines [!DNL Commerce] Kontos
 
-Jeder kann ein kostenloses [!DNL Commerce] Konto erstellen. Die E-Mail-Adresse, mit der Sie ein Commerce-Konto erstellen, kann nur einem Konto zugeordnet werden.
+Jeder kann ein kostenloses [!DNL Commerce] Konto erstellen. Die von Ihnen verwendete E-Mail-Adresse kann nur mit einem Commerce-Konto verknüpft werden.
 
 >[!NOTE]
 >
->Verwenden Sie eine Adobe ID, um ein Commerce-Konto zu erstellen und darauf zuzugreifen. Wenn Sie keine Adobe ID haben, können Sie bei der Kontoerstellung eine erstellen. Wenn Sie bereits über ein Commerce-Konto verfügen, aber keine Adobe ID haben, finden Sie weitere Informationen unter [Bei Commerce-Konto anmelden](#log-in-to-your-dnl-commerce-account).
+>Verwenden Sie eine Adobe ID, um ein Commerce-Konto zu erstellen und darauf zuzugreifen.
+>- Wenn Sie kein Commerce-Konto haben, können Sie während des Anmeldevorgangs eines erstellen.
+>- Wenn Sie bereits über ein Commerce-Konto verfügen, aber keine Adobe ID haben, finden Sie weitere Informationen unter [Bei Commerce-Konto anmelden](#log-in-to-your-dnl-commerce-account).
 
 1. Navigieren Sie zur [[!DNL Commerce] Site](https://account.magento.com/customer/account/login/).
 
 1. Klicken Sie auf **[!UICONTROL Sign in with Adobe ID]**.
 
-1. Klicken Sie auf **[!UICONTROL Create an account]**.
+1. Wenn Sie über keine Adobe ID verfügen, klicken Sie auf **[!UICONTROL Create an account]**. Fahren Sie andernfalls mit Schritt 7 fort.
 
    ![Konto-Link erstellen](./assets/account-create-link.png){width="700"}
 
@@ -66,6 +76,8 @@ Jeder kann ein kostenloses [!DNL Commerce] Konto erstellen. Die E-Mail-Adresse, 
 1. Geben Sie den Verifizierungs-Code ein, der an Ihre E-Mail-Adresse gesendet wurde.
 
    ![Verifizierungs-Code eingeben](./assets/verification-code.png){width="700"}
+
+1. Nachdem Ihr Adobe ID erstellt und überprüft wurde, kehren Sie zu https://account.magento.com/ zurück. Eine BILD-ID wird generiert und automatisch mit Ihrer Adobe ID verknüpft.
 
 ## Passwort zurücksetzen
 
