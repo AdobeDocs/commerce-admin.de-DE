@@ -20,7 +20,7 @@ Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New Rule]**.
 
-   Der Abschnitt _[!UICONTROL Rule Information]_enthält erweiterbare Abschnitte für **[!UICONTROL Conditions]**und **[!UICONTROL Actions]**.
+   Der Abschnitt _[!UICONTROL Rule Information]_&#x200B;enthält erweiterbare Abschnitte für **[!UICONTROL Conditions]**&#x200B;und **[!UICONTROL Actions]**.
 
    ![Katalogpreisregel - Informationen](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -203,9 +203,9 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
 1. Aktualisieren von Eigenschaften für eine Regel:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die _[!UICONTROL Rule Information]_anzuzeigen.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die _[!UICONTROL Rule Information]_&#x200B;anzuzeigen.
 
-   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die _[!UICONTROL Rule Information]_anzuzeigen.
+   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die _[!UICONTROL Rule Information]_&#x200B;anzuzeigen.
 
 1. Testen Sie die Regel, um sicherzustellen, dass sie korrekt funktioniert.
 
@@ -242,7 +242,7 @@ Gibt die Bedingungen an, die erfüllt sein müssen, bevor die Katalogpreisregel 
 
 | Feld | Beschreibung |
 |-----|-----------|
-| [!UICONTROL Apply] | Bestimmt die Art der Berechnung, die auf den Kauf angewendet wird. Optionen: <br/>**[!UICONTROL Apply as percentage of original]**- Rabattartikel durch Subtraktion eines Prozentsatzes vom regulären Preis.<br/>**[!UICONTROL Apply as fixed amount]** - Rabattposten durch Abzug eines festen Betrags vom regulären Preis. <br/>**[!UICONTROL Adjust final price to this percentage]**- Passt den Endpreis um einen Prozentsatz des regulären Preises an.<br/>**[!UICONTROL Adjust final price to discount value]** - Setzt den Endpreis auf einen festen, diskontierten Betrag. <br/><br/>**_Hinweis _**Der reguläre Preis bezieht sich auf den Basispreis des Produkts ohne Vorzugspreise (Sonderpreis/Stufe/Gruppe) oder Rabatte auf Werbeaktionen. Der Endpreis bezieht sich auf den ermäßigten Preis, der im Warenkorb angezeigt wird. <br/>Der**_Endprodukt _**Preis wird als**_Mindestpreis)_**folgender Formel berechnet: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | Bestimmt die Art der Berechnung, die auf den Kauf angewendet wird. Optionen: <br/>**[!UICONTROL Apply as percentage of original]**- Rabattartikel durch Subtraktion eines Prozentsatzes vom regulären Preis.<br/>**[!UICONTROL Apply as fixed amount]** - Rabattposten durch Abzug eines festen Betrags vom regulären Preis. <br/>**[!UICONTROL Adjust final price to this percentage]**- Passt den Endpreis um einen Prozentsatz des regulären Preises an.<br/>**[!UICONTROL Adjust final price to discount value]** - Setzt den Endpreis auf einen festen, diskontierten Betrag. <br/><br/>**_Hinweis _**&#x200B;Der reguläre Preis bezieht sich auf den Basispreis des Produkts ohne Vorzugspreise (Sonderpreis/Stufe/Gruppe) oder Rabatte auf Werbeaktionen. Der Endpreis bezieht sich auf den ermäßigten Preis, der im Warenkorb angezeigt wird. <br/>Der&#x200B;**_Endprodukt _**&#x200B;Preis wird als&#x200B;**_Mindestpreis)_**&#x200B;folgender Formel berechnet: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | (Erforderlich) Der Rabattbetrag, der angeboten wird. |
 | [!UICONTROL Discard Subsequent Rules] | Legt fest, ob zusätzliche Regeln auf diesen Kauf angewendet werden können. Um zu verhindern, dass mehrere Rabatte auf denselben Kauf angewendet werden, wählen Sie `Yes` aus. Optionen: `Yes` / `No` |
 
