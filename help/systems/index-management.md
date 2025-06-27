@@ -3,8 +3,8 @@ title: Indexverwaltung
 description: Erfahren Sie mehr über die Indexverwaltung, einschließlich der Aktionen zur Neuindizierung von Triggern und der Best Practices.
 exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 422fce6c2676f7c760c1a97b67fbd0f45d65e19c
 workflow-type: tm+mt
 source-wordcount: '1296'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Die Neuindizierung von Daten beschleunigt die Verarbeitung und verkürzt die War
 Die Indexer können so eingestellt werden, dass sie entweder beim Speichern oder planmäßig aktualisiert werden. Alle Indizes können eine der beiden Optionen verwenden, mit Ausnahme des Kundenrasters, das nur beim Speichern unterstützt. Beim Indizieren von Speicheraktionen startet Commerce eine Neuindizierung von Speicheraktionen. Die Seite „Indexverwaltung“ schließt die Aktualisierung ab und leert den Cache, wobei die Neuindizierungsmeldung innerhalb von ein bis zwei Minuten angezeigt wird. Bei der Neuindizierung nach einem Zeitplan wird eine Neuindizierung nach einem Zeitplan als Cron-Auftrag ausgeführt. Eine Systemmeldung wird angezeigt, wenn kein [Cron-Auftrag](cron.md) verfügbar ist, um ungültig werdende Indexer zu aktualisieren. Ihr Store bleibt während der Neuindizierungsprozesse verfügbar.
 
 >[!NOTE]
-> Adobe Commerce-Händler, die die Live-Suche, den Katalog-Service oder Produktempfehlungen verwenden, haben die Möglichkeit, einen [SaaS-basierten Preisindizer“ ](https://experienceleague.adobe.com/docs/commerce/price-indexer/index.html?lang=de) verwenden.
+> Adobe Commerce-Händler, die die Live-Suche, den Katalog-Service oder Produktempfehlungen verwenden, haben die Möglichkeit, einen [SaaS-basierten Preisindizer“ ](https://experienceleague.adobe.com//en/docs/commerce/price-indexer/price-indexing) verwenden.
 
 Wenn eine Neuindizierung erforderlich ist, wird oben auf der Seite eine Benachrichtigung angezeigt. Der Index und die Nachricht werden je nach Neuindizierungsmodus und den von Ihnen durchgeführten potenziellen Aktionen gelöscht. Weitere Informationen zur Indizierung finden Sie unter [Wie die Anwendung die Indizierung implementiert](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) im _PHP-Entwicklerhandbuch_.
 
@@ -44,7 +44,7 @@ Neuindizierung und Caching haben in Commerce unterschiedliche Zwecke. Indizes ve
 
 >[!IMPORTANT]
 >
->Für Stores, die [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=de) verwenden und Elasticsearch als Volltext(`catalogsearch_fulltext`)-Indexer festgelegt haben: Der Volltext-Index muss nach jeder Massenberechtigungsänderung erneut ausgeführt werden oder wenn sich der Indexer „Berechtigungen“ im Modus „Geplant“ befindet.
+>Für Stores, die [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html) verwenden und Elasticsearch als Volltext(`catalogsearch_fulltext`)-Indexer festgelegt haben: Der Volltext-Index muss nach jeder Massenberechtigungsänderung erneut ausgeführt werden oder wenn sich der Indexer „Berechtigungen“ im Modus „Geplant“ befindet.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Index Management]**.
 
@@ -77,7 +77,7 @@ Neuindizierung und Caching haben in Commerce unterschiedliche Zwecke. Indizes ve
 
 ## Neuindizieren über die Befehlszeile
 
-Commerce bietet zusätzliche Neuindizierungsoptionen über die Befehlszeile. Umfassende Details und Befehlsoptionen finden Sie unter [Neuindizieren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html?lang=de#reindex){:target="blank"} im _Konfigurationshandbuch_.
+Commerce bietet zusätzliche Neuindizierungsoptionen über die Befehlszeile. Umfassende Details und Befehlsoptionen finden Sie unter [Neuindizieren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/manage-indexers.html#reindex){:target="blank"} im _Konfigurationshandbuch_.
 
 ## Trigger-Ereignisse indizieren
 
