@@ -169,11 +169,11 @@ Sie können auch den Versand in bestimmte Länder für jede verfügbare [Versand
 
 Hilfe bei der Fehlerbehebung bei Konfigurationsproblemen in Ländern finden Sie in den folgenden Artikeln der [!DNL Commerce]-Support-Wissensdatenbank:
 
-- [Hinzufügen eines Landes](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
+- [Hinzufügen eines Landes](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=de)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Die Einstellung „Händlerstandort“ wird zum Konfigurieren von [Zahlungsmethoden](../stores-purchase/payments.md) verwendet. Wenn für diese Einstellung kein Wert vorhanden ist, wird die Einstellung [Standardland](#uicontrol-country-options) verwendet.
 
@@ -215,7 +215,7 @@ Bevor Sie E-Mail-Adressen für den Store konfigurieren können, müssen sie jewe
 
 ### Schritt 2: Festlegen der Basis-URL für generierte Links
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 Einige kundenorientierte E-Mails enthalten Links zum Store, z. B. solche, die Kunden beim Zurücksetzen ihrer Kennwörter helfen. Um sicherzustellen, dass die Links zur Storefront funktionieren, müssen Sie die Basis-URL zu Ihrer Storefront definieren.
 
@@ -229,7 +229,7 @@ Einige kundenorientierte E-Mails enthalten Links zum Store, z. B. solche, die Ku
 
 ### Schritt 3: Konfigurieren der E-Mail-Adressen für Ihren Store
 
-[!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Absender-E-Mail-Adressen werden konfiguriert, wenn Ihre Instanz bereitgestellt wird. Wenn Sie diese Adressen ändern müssen, erstellen Sie ein Support-Ticket.
+[!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Absender-E-Mail-Adressen werden konfiguriert, wenn Ihre Instanz bereitgestellt wird. Wenn Sie diese Adressen ändern müssen, erstellen Sie ein Support-Ticket.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
