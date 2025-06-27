@@ -37,7 +37,7 @@ Das Tool zur Sicherheitsüberprüfung steht kostenlos im Dashboard Ihres [Commer
    - Lies die **[!UICONTROL Terms and Conditions]**.
    - Zum Fortfahren auf **[!UICONTROL Agree]** klicken.
 
-1. Klicken Sie auf der _[!UICONTROL Monitored Websites]_Seite auf **[!UICONTROL +Add Site]**.
+1. Klicken Sie auf der _[!UICONTROL Monitored Websites]_&#x200B;Seite auf **[!UICONTROL +Add Site]**.
 
    Wenn Sie mehrere Websites mit unterschiedlichen Domains haben, konfigurieren Sie für jede Domain einen separaten Scan.
 
@@ -104,7 +104,7 @@ Das Tool zur Sicherheitsüberprüfung steht kostenlos im Dashboard Ihres [Commer
 
         Nach Abschluss des Build-Prozesses werden die Änderungen an Ihrer PWA-Storefront bereitgestellt.
 
-1. Kehren Sie zur Seite _[!UICONTROL Security Scan]_in Ihrem Commerce-Konto zurück und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**, um die Eigentümerschaft an der Domain herzustellen.
+1. Kehren Sie zur Seite _[!UICONTROL Security Scan]_&#x200B;in Ihrem Commerce-Konto zurück und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**, um die Eigentümerschaft an der Domain herzustellen.
 
 1. Konfigurieren Sie nach erfolgreicher Bestätigung die **[!UICONTROL Set Automatic Security Scan]** für einen der folgenden Typen:
 
@@ -148,4 +148,4 @@ Das Tool zur Sicherheitsüberprüfung steht kostenlos im Dashboard Ihres [Commer
    - Lies die **[!UICONTROL Terms and Conditions]**.
    - Zum Fortfahren auf **[!UICONTROL Agree]** klicken.
 
-1. Suchen Sie auf der Seite _[!UICONTROL Monitored Websites]_das Dropdown-Menü unter der Spalte [!UICONTROL Actions] und wählen Sie dann **[!UICONTROL Delete]**für die entsprechenden Websites aus.
+1. Suchen Sie auf der Seite _[!UICONTROL Monitored Websites]_&#x200B;das Dropdown-Menü unter der Spalte [!UICONTROL Actions] und wählen Sie dann **[!UICONTROL Delete]**&#x200B;für die entsprechenden Websites aus.
