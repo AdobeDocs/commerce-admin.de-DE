@@ -3,26 +3,28 @@ title: HIPAA-Bereitschaft auf Adobe Commerce
 description: Erfahren Sie, wie Sie in Adobe Commerce die Erweiterung für HIPAA-Konformität hinzufügen und zusätzliche Funktionen für die Einhaltung der HIPAA-Vorschriften nutzen können.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: ee2635e45c56be82b0abb7369fd6d74a3b00ce93
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2390'
 ht-degree: 1%
 
 ---
 
 # HIPAA-Bereitschaft auf Adobe Commerce
 
+{{ee-feature}}
+
 >[!IMPORTANT]
 >
 >**Haftungsausschluss**<br/>
->Diese Informationen sollen Adobe-Kunden bei der Beantwortung ihrer Fragen zu Adobe HIPAA-fähigen Services helfen. Sie stellt keine Rechtsberatung dar. Händler sollten sich mit ihrem eigenen Rechtsbeistand beraten, um sich über ihre Verpflichtungen aus dem HIPAA und die angemessene Verwendung und Konfiguration der Produkte von Adobe zu informieren.
+>>Diese Informationen sollen Adobe-Kunden bei der Beantwortung ihrer Fragen zu Adobe HIPAA-fähigen Services helfen. Sie stellt keine Rechtsberatung dar. Händler sollten sich mit ihrem eigenen Rechtsbeistand beraten, um sich über ihre Verpflichtungen aus dem HIPAA und die angemessene Verwendung und Konfiguration der Produkte von Adobe zu informieren.
 
 >[!BEGINSHADEBOX]
 
 **Health Insurance Portability and Accountability Act (HIPAA)**
 
-Der Health Insurance Portability and Accountability Act (HIPAA) ist das wichtigste US-amerikanische Gesetz zum Schutz der Privatsphäre im Gesundheitswesen und wird vom US-amerikanischen Gesundheitsministerium (US Department of Health and Human Services, HHS) durchgesetzt. HIPAA gilt für _abgedeckte Rechtssubjekte_ (wie Gesundheitsdienstleister, Versicherer und Clearinghäuser) und _Geschäftspartner_ (wie solche Rechtssubjekte, die Dienstleistungen für abgedeckte Rechtssubjekte erbringen). HIPAA-Anforderungen sind in drei separaten Regeln festgelegt: Datenschutzregel, Sicherheitsregel und Regel für Verletzungsbenachrichtigungen. Adobe fungiert als Business Associate für bestimmte Produkte, die Adobe als „HIPAA-fähige Services“ einstuft. Daten, die unter HIPAA geregelt sind, werden als _Protected Health Information_ oder PHI bezeichnet. PHI ist eine Untergruppe von Gesundheitsinformationen, die (1) von einem Gesundheitsdienstleister, einem Gesundheitsplan oder einer Clearingstelle für Gesundheitsdienstleistungen erstellt oder empfangen werden, (2) sich auf die vergangene, gegenwärtige oder zukünftige physische oder psychische Gesundheit oder den Zustand einer Person, die Gesundheitsversorgung einer Person oder die vergangene, gegenwärtige oder zukünftige Zahlung für die Gesundheitsversorgung einer Person beziehen und (3) die Person oder in Bezug auf die eine vernünftige Grundlage für die Annahme besteht, dass die Informationen zur Identifizierung der Person verwendet werden können. Die HIPAA-Datenschutz- und Sicherheitsregeln verlangen, dass eine abgedeckte Organisation schriftliche Zusicherungen von einem Geschäftspartner in Form einer Business Associate Agreement (BAA) erhält, die den Geschäftspartner verpflichten, die Privatsphäre und Sicherheit der PHI der abgedeckten Organisation zu schützen. Weitere Informationen finden Sie unter [HIPAA und Adobe-Produkte und -Services](https://www.adobe.com/trust/compliance/hipaa-ready.html) im Adobe Trust Center.
+Der Health Insurance Portability and Accountability Act (HIPAA) ist das wichtigste US-amerikanische Gesetz zum Schutz der Privatsphäre im Gesundheitswesen und wird vom US-amerikanischen Gesundheitsministerium (US Department of Health and Human Services, HHS) durchgesetzt. HIPAA gilt für _abgedeckte Rechtssubjekte_ (wie Gesundheitsdienstleister, Versicherer und Clearinghäuser) und _Geschäftspartner_ (wie solche Rechtssubjekte, die Dienstleistungen für abgedeckte Rechtssubjekte erbringen). HIPAA-Anforderungen sind in drei separaten Regeln festgelegt: Datenschutzregel, Sicherheitsregel und Regel für Verletzungsbenachrichtigungen. Adobe fungiert als Business Associate für bestimmte Produkte, die Adobe als „HIPAA-fähige Services“ einstuft. Daten, die unter HIPAA geregelt sind, werden als _Protected Health Information_ oder PHI bezeichnet. PHI ist eine Untergruppe von Gesundheitsinformationen, die (1) von einem Gesundheitsdienstleister, einem Gesundheitsplan oder einer Clearingstelle für Gesundheitsdienstleistungen erstellt oder empfangen werden, (2) sich auf die vergangene, gegenwärtige oder zukünftige physische oder psychische Gesundheit oder den Zustand einer Person, die Gesundheitsversorgung einer Person oder die vergangene, gegenwärtige oder zukünftige Zahlung für die Gesundheitsversorgung einer Person beziehen und (3) die Person oder in Bezug auf die eine vernünftige Grundlage für die Annahme besteht, dass die Informationen zur Identifizierung der Person verwendet werden können. Die HIPAA-Datenschutz- und Sicherheitsregeln verlangen, dass eine abgedeckte Organisation schriftliche Zusicherungen von einem Geschäftspartner in Form einer Business Associate Agreement (BAA) erhält, die den Geschäftspartner verpflichten, die Privatsphäre und Sicherheit der PHI der abgedeckten Organisation zu schützen. Weitere Informationen finden Sie unter [HIPAA und Adobe-Produkte und -Services](https://www.adobe.com/trust/compliance/hipaa-hds/hipaa-ready.html) im Adobe Trust Center.
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +46,7 @@ Die folgende Tabelle zeigt die Kompatibilität zwischen Adobe Commerce-Versionen
 
 | Adobe Commerce | Unterstützt | Notizen |
 |----------------|-----------|-------|
-| 2.4.7-p4 - 2.4.7-p5 | 1,2,0 | Unterstützung für 2.4.7-P4 erfordert einen [Hotfix](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4) |
+| 2.4.7-p4 - 2.4.7-p5 | 1,2,0 | Unterstützung für 2.4.7-P4 erfordert einen [Hotfix](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147) |
 | 2.4.6-p9 - 2.4.6-p10 | 1,2,0 | |
 | 2.4.6-p8 | 1,1,0 | Die Unterstützung für [Datendienste](#adobe-commerce-services) wurde mit Version 1.1.0 eingeführt |
 | 2.4.6-p3 - 2.4.6-p7 | 1,0,0 | |
@@ -63,7 +65,7 @@ Die folgende Tabelle zeigt die Kompatibilität zwischen Adobe Commerce-Versionen
 >[!BEGINSHADEBOX]
 
 - Adobe hat Ihr Adobe Commerce-Konto für den Zugriff auf die HIPAA-fähige Erweiterung bereitgestellt.
-- Zugriff auf [repo.magento.com](https://repo.magento.com) zur Installation der Erweiterung. Informationen zum Generieren von Schlüsseln und zum Abrufen der erforderlichen Berechtigungen finden Sie unter [Abrufen Ihrer Authentifizierungsschlüssel](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=de).
+- Zugriff auf [repo.magento.com](https://repo.magento.com) zur Installation der Erweiterung. Informationen zum Generieren von Schlüsseln und zum Abrufen der erforderlichen Berechtigungen finden Sie unter [Abrufen Ihrer Authentifizierungsschlüssel](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
 >[!ENDSHADEBOX]
 
@@ -71,13 +73,13 @@ Installieren Sie die neueste Version der HIPAA-fähigen Services-Erweiterung (`m
 
 >[!NOTE]
 >
->Um sicherzustellen, dass Backoffice-Ereignisdaten, die an Experience Platform gesendet werden, HIPAA-fähig sind, lesen Sie das [Handbuch zur Datenverbindungserweiterung](https://experienceleague.adobe.com/de/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Um sicherzustellen, dass Backoffice-Ereignisdaten, die an Experience Platform gesendet werden, HIPAA-fähig sind, lesen Sie das [Handbuch zur Datenverbindungserweiterung](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. Wechseln Sie auf Ihrer lokalen Workstation in das Projektverzeichnis für Ihr Adobe Commerce on Cloud-Infrastrukturprojekt.
 
    >[!NOTE]
    >
-   >Informationen zur lokalen Verwaltung von Commerce-Projektumgebungen finden Sie unter [Verwalten von Verzweigungen mit der CLI](https://experienceleague.adobe.com/de/docs/commerce-cloud-service/user-guide/develop/cli-branches) im _Benutzerhandbuch für Adobe Commerce auf Cloud-Infrastruktur_.
+   >Informationen zur lokalen Verwaltung von Commerce-Projektumgebungen finden Sie unter [Verwalten von Verzweigungen mit der CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches) im _Benutzerhandbuch für Adobe Commerce auf Cloud-Infrastruktur_.
 
 1. Checken Sie die Umgebungsverzweigung aus, um sie mithilfe der Adobe Commerce Cloud-CLI zu aktualisieren.
 
@@ -105,11 +107,11 @@ Installieren Sie die neueste Version der HIPAA-fähigen Services-Erweiterung (`m
    git push origin <branch-name>
    ```
 
-   Durch das Pushen der Aktualisierungen wird der [Commerce-Cloud-Bereitstellungsprozess](https://experienceleague.adobe.com/de/docs/commerce-cloud-service/user-guide/develop/deploy/process) zum Anwenden der Änderungen initiiert. Überprüfen Sie den Bereitstellungsstatus im [Bereitstellungsprotokoll](https://experienceleague.adobe.com/de/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Durch das Pushen der Aktualisierungen wird der [Commerce-Cloud-Bereitstellungsprozess](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process) zum Anwenden der Änderungen initiiert. Überprüfen Sie den Bereitstellungsstatus im [Bereitstellungsprotokoll](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
 
 ### Installation überprüfen
 
-Nachdem die Aktualisierungen bereitgestellt wurden, überprüfen Sie, ob die `Hipaa*`-Erweiterung installiert ist
+Nachdem die Aktualisierungen bereitgestellt wurden, stellen Sie sicher, dass die `Hipaa*`-Erweiterung installiert ist
 
 1. Verwenden Sie SSH, um sich bei der Remote-Cloud-Umgebung anzumelden.
 
@@ -160,7 +162,7 @@ Das _Aktionslogs_ Berichtsraster (**[!UICONTROL System]** > Aktionsprotokolle > 
 
 1. Es wurden zwei Spalten hinzugefügt:
    - ***Source***: Zeigt an, wo die Aktion ausgeführt wurde.
-Werte: `Admin UI` / `Customer UI` / `REST API` / `SOAP API` / `GraphQL API`
+Werte: `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***Client-***: Zeigt den Client-Typ an.
 Werte: customer | Administrator | Integration
 
@@ -203,19 +205,19 @@ Die Konfiguration zur Begrenzung der Anzahl der Kunden in den Suchergebnissen be
 
 #### Betroffene Funktionsbereiche
 
-Kunden-Raster auf der Seite „Admin-Auftrag erstellen“ (**[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]**) und auf der Seite „Kunden“ (**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**) sind von der Suchergebniseinschränkungsfunktion betroffen.
+Die Suchergebniseinschränkungsfunktion gilt für Kundenraster auf der Seite Admin-Bestellung erstellen (**[!UICONTROL Sales]** > **[!UICONTROL Orders]** > **[!UICONTROL Create New Order]**) und der Seite Kunden (**[!UICONTROL Customers]** > **[!UICONTROL All Customers]**).
 
 - Filter werden standardmäßig geöffnet.
 - Benutzer müssen mindestens drei Filter anwenden, um eine Suche durchzuführen.
 - Suchergebnisse sind standardmäßig auf 10 Datensätze beschränkt.
-- Wenn mehr Datensätze den Suchkriterien entsprechen, werden die Benutzer über die Ergebnisbegrenzung und die Notwendigkeit informiert, ihre Suche zu verfeinern.
+- Wenn mehr Datensätze den Suchkriterien entsprechen, informieren Benachrichtigungen die Benutzer über die Ergebnisbegrenzung und die Notwendigkeit, ihre Suche zu verfeinern.
 - Raster-Paginierung ist nicht verfügbar.
 - Frühere Suchergebnisse und angewendete Filter werden beim Verlassen der Seite nicht gespeichert.
 
 Die Suchergebniseinschränkungsfunktion gilt auch für die REST-API für die Kundensuche (`/V1/customers/search`).
 
 - Ohne angewendete Filter oder mit unzureichenden Filtern gibt die API eine Fehlermeldung zurück, die angibt, dass die erforderliche Anzahl von Filtern zum Ausführen einer Suche erforderlich ist.
-- Wenn von autorisierten Benutzern ausreichende Filter angewendet werden, gibt die API Ergebnisse innerhalb des angegebenen Limits zurück.
+- Autorisierte Benutzer, die ausreichende Filter anwenden, erhalten API-Ergebnisse innerhalb des angegebenen Limits.
 - Wenn die Ergebnisse begrenzt sind, wird der Antwort eine Meldung hinzugefügt, die die Gesamtzahl der gefundenen Datensätze und das aktuell angewendete Limit angibt.
 
 ### Funktionen importieren und exportieren
@@ -228,7 +230,7 @@ Die Verbesserungen der Import- und Exportfunktionen konzentrieren sich auf die V
 
 #### Protokollierung administrativer Aktionen
 
-Eine der wichtigsten Verbesserungen bei den Import- und Exportfunktionen ist die verbesserte Protokollierung von Verwaltungsaktionen. Diese Verbesserung bietet die Möglichkeit, tiefere Einblicke in Aktivitäten im Zusammenhang mit dem Datenimport und -export zu erhalten, was zu einer verbesserten Nachverfolgung und Auditierbarkeit beiträgt. Die folgenden Aktionen werden jetzt protokolliert und im Raster **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**&#x200B;angezeigt:
+Eine der wichtigsten Verbesserungen bei den Import- und Exportfunktionen ist die verbesserte Protokollierung von Verwaltungsaktionen. Diese Verbesserung bietet die Möglichkeit, tiefere Einblicke in Aktivitäten im Zusammenhang mit dem Datenimport und -export zu erhalten, was zu einer verbesserten Nachverfolgung und Auditierbarkeit beiträgt. Die folgenden Aktionen werden jetzt protokolliert und im Raster **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**angezeigt:
 
 | Typ | Aktionen |
 | ---- | ------- |
@@ -277,15 +279,15 @@ In der folgenden Tabelle sind die Adobe Commerce-Services aufgeführt, die für 
 
 | Service | produktionsfremd | Produktion |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
-| [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/overview/) | Ja | Ja |
+| [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Ja | Ja |
 | [API Mesh für Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/) | Ja | Ja |
-| [SaaS-Datenexport](https://experienceleague.adobe.com/de/docs/commerce/saas-data-export/overview) | Ja | Ja |
-| [Live-Suche](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview) | Nein | Nein |
-| [Produktempfehlungen](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/overview) | Nein | Nein |
-| [Zahlungsdienste](https://experienceleague.adobe.com/de/docs/commerce/payment-services/guide-overview) | Nein | Nein |
-| [Back-Office-Ereignisse der Datenverbindung](https://experienceleague.adobe.com/de/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
-| [Datenverbindungs-Storefront-Ereignisse](https://experienceleague.adobe.com/de/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nein | Nein |
-| [Audience Activation](https://experienceleague.adobe.com/de/docs/commerce-admin/customers/audience-activation) | Nein | Nein |
+| [SaaS-Datenexport](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Ja | Ja |
+| [Live-Suche](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Nein | Nein |
+| [Produktempfehlungen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Nein | Nein |
+| [Zahlungsdienste](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Nein | Nein |
+| [Back-Office-Ereignisse der Datenverbindung](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
+| [Datenverbindungs-Storefront-Ereignisse](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nein | Nein |
+| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Nein | Nein |
 
 ### Tools
 
@@ -297,7 +299,7 @@ Mit dem [Security Scan Tool](../../systems/security-scan.md) für Adobe Commerce
 - Alle installierten Erweiterungen entsprechen einer vordefinierten Zulassungsliste
 - Es sind keine nicht unterstützten Adobe-Services installiert
 
-Sie können [das Tool konfigurieren](../../systems/security-scan.md#run-a-security-scan) um Ihnen E-Mail-Benachrichtigungen mit Details aus geplanten Scans zu senden oder [Berichte manuell anzuzeigen](https://experienceleague.adobe.com/de/docs/commerce-cloud-service/user-guide/launch/overview#to-review-the-report).
+Sie können [das Tool konfigurieren](../../systems/security-scan.md#run-a-security-scan) um Ihnen E-Mail-Benachrichtigungen mit Details aus geplanten Scans zu senden oder [Berichte manuell anzuzeigen](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview).
 
 ## Deaktivierte Funktionen
 
@@ -305,7 +307,7 @@ Um HIPAA-Anforderungen zu erfüllen, sind einige von Adobe Commerce unterstützt
 
 Die folgenden Funktionen sind im Modul HIPAA-Bereitschaft standardmäßig deaktiviert. Händler können diese Funktionen auf eigenes Risiko aktivieren.
 
-- **[Transaktions-E-](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=de)**: SendGrid ist standardmäßig deaktiviert, da der Service nicht HIPAA-fähig ist. Adobe Commerce bietet eine Integrationsoption, die Sie mit Ihrem eigenen [AWS Simple Email Service](https://docs.aws.amazon.com/ses/)-Konto verwenden können. Weitere Konfigurationsdetails erhalten Sie von Ihrem Customer Technical Account Manager oder dem Adobe Commerce Support.
+- **[Transaktions-E-](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/sendgrid)**: SendGrid ist standardmäßig deaktiviert, da der Service nicht HIPAA-fähig ist. Adobe Commerce bietet eine Integrationsoption, die Sie mit Ihrem eigenen [AWS Simple Email Service](https://docs.aws.amazon.com/ses/)-Konto verwenden können. Weitere Konfigurationsdetails erhalten Sie von Ihrem Customer Technical Account Manager oder dem Adobe Commerce Support.
 
 - **[Gast-Checkout](../../stores-purchase/checkout-guest.md)** - Diese Funktion stellt ein potenzielles Risiko für verschiedene Aspekte von HIPAA dar, einschließlich Protokollierung, Zugriffskontrolle, PHI-Hygiene und Herkunft und möglicherweise mehr.
 
