@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >**Haftungsausschluss**<br/>
->>Diese Informationen sollen Adobe-Kunden bei der Beantwortung ihrer Fragen zu Adobe HIPAA-fähigen Services helfen. Sie stellt keine Rechtsberatung dar. Händler sollten sich mit ihrem eigenen Rechtsbeistand beraten, um sich über ihre Verpflichtungen aus dem HIPAA und die angemessene Verwendung und Konfiguration der Produkte von Adobe zu informieren.
+>&#x200B;>Diese Informationen sollen Adobe-Kunden bei der Beantwortung ihrer Fragen zu Adobe HIPAA-fähigen Services helfen. Sie stellt keine Rechtsberatung dar. Händler sollten sich mit ihrem eigenen Rechtsbeistand beraten, um sich über ihre Verpflichtungen aus dem HIPAA und die angemessene Verwendung und Konfiguration der Produkte von Adobe zu informieren.
 
 >[!BEGINSHADEBOX]
 
@@ -230,7 +230,7 @@ Die Verbesserungen der Import- und Exportfunktionen konzentrieren sich auf die V
 
 #### Protokollierung administrativer Aktionen
 
-Eine der wichtigsten Verbesserungen bei den Import- und Exportfunktionen ist die verbesserte Protokollierung von Verwaltungsaktionen. Diese Verbesserung bietet die Möglichkeit, tiefere Einblicke in Aktivitäten im Zusammenhang mit dem Datenimport und -export zu erhalten, was zu einer verbesserten Nachverfolgung und Auditierbarkeit beiträgt. Die folgenden Aktionen werden jetzt protokolliert und im Raster **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**angezeigt:
+Eine der wichtigsten Verbesserungen bei den Import- und Exportfunktionen ist die verbesserte Protokollierung von Verwaltungsaktionen. Diese Verbesserung bietet die Möglichkeit, tiefere Einblicke in Aktivitäten im Zusammenhang mit dem Datenimport und -export zu erhalten, was zu einer verbesserten Nachverfolgung und Auditierbarkeit beiträgt. Die folgenden Aktionen werden jetzt protokolliert und im Raster **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**&#x200B;angezeigt:
 
 | Typ | Aktionen |
 | ---- | ------- |
