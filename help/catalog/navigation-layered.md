@@ -3,9 +3,9 @@ title: Mehrschichtige Navigation
 description: Erfahren Sie, wie die mehrschichtige Navigation es Käufern erleichtert, Produkte anhand der Kategorie, der Preisspanne oder eines anderen verfügbaren Attributs zu finden.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1355'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Die in diesem Abschnitt beschriebene standardmäßige mehrschichtige Navigation unterscheidet sich von der mit Live Search gefilterten Navigation mit [Facetten](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html?lang=de).
+>Die in diesem Abschnitt beschriebene standardmäßige mehrschichtige Navigation unterscheidet sich von der mit Live Search gefilterten Navigation mit [Facetten](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
 Die mehrschichtige Navigation erleichtert die Suche nach Produkten basierend auf der Kategorie, der Preisspanne oder einem anderen verfügbaren Attribut. Die mehrschichtige Navigation wird normalerweise in der linken Spalte der Suchergebnisse und Kategorieseiten und manchmal auf der Startseite angezeigt. Die Standardnavigation enthält eine Liste _Shop By_ mit Kategorien und Preiskategorien. Sie können die Anzeige der mehrschichtigen Navigation konfigurieren, einschließlich Produktanzahl und Preisbereich.
 
@@ -24,9 +24,9 @@ Die mehrschichtige Navigation erleichtert die Suche nach Produkten basierend auf
 
 >[!NOTE]
 >
->Die in diesem Thema beschriebenen Anforderungen an filterbare Attribute unterscheiden sich für [Live-Suche](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=de). Weitere Informationen finden Sie unter [Facetten](https://experienceleague.adobe.com/docs/commerce/live-search/live-search-admin/facets/facets.html?lang=de).
+>Die in diesem Thema beschriebenen Anforderungen an filterbare Attribute unterscheiden sich für [Live-Suche](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview). Weitere Informationen finden Sie unter [Facetten](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
-Die mehrschichtige Navigation kann verwendet werden, um nach Produkten nach Kategorie oder Attribut zu suchen. Wenn ein Käufer beispielsweise die Kategorie Herren/Shorts in der oberen Navigation auswählt, umfassen die ersten Ergebnisse alle Produkte in der Kategorie. Die Liste kann weiter gefiltert werden, indem ein bestimmter Stil, ein bestimmtes Klima, eine bestimmte Farbe, ein bestimmtes Material, ein bestimmtes Muster oder ein bestimmter Preis - oder eine Kombination von Werten - ausgewählt wird. Filterbare Attribute werden in einem sich erweiternden Abschnitt angezeigt, in dem jeder Attributwert aufgelistet wird. Optional kann die Liste der Produkte mit übereinstimmenden Ergebnissen so konfiguriert werden, dass Produkte mit oder ohne Übereinstimmung einbezogen werden.
+Die mehrschichtige Navigation kann verwendet werden, um nach Produkten nach Kategorie oder Attribut zu suchen. Wenn ein Käufer beispielsweise die Kategorie Herren/Shorts in der oberen Navigation auswählt, umfassen die ersten Ergebnisse alle Produkte in der Kategorie. Die Liste kann weiter gefiltert werden, indem ein bestimmter Stil, ein bestimmtes Klima, eine bestimmte Farbe, ein bestimmtes Material, ein bestimmtes Muster oder ein bestimmter Preis (oder eine Kombination von Werten) ausgewählt wird. Filterbare Attribute werden in einem erweiterten Abschnitt angezeigt, in dem jeder Attributwert aufgelistet wird. Optional kann die Liste der Produkte mit übereinstimmenden Ergebnissen so konfiguriert werden, dass Produkte mit oder ohne Übereinstimmung einbezogen werden.
 
 Die Attributeigenschaften bestimmen in Kombination mit dem Produkteingabetyp, welche Attribute für die mehrschichtige Navigation verwendet werden können. Die mehrschichtige Navigation ist nur für [_Anker_](categories-display-settings.md)-Kategorien verfügbar, kann aber auch zu Suchergebnisseiten hinzugefügt werden. Die **Catalog Input Type for Store Owner**-Eigenschaft jedes Attributs muss auf `Yes/No`, `Dropdown`, `Multiple Select` oder `Price` festgelegt werden. Damit die Attribute gefiltert werden können **muss die Eigenschaft &quot;** in der mehrschichtigen Navigation“ von jedem auf `Filterable (with results)` oder `Filterable (no results)` gesetzt werden.
 
@@ -52,7 +52,7 @@ Die folgenden Anweisungen zeigen, wie Sie eine einfache mehrschichtige Navigatio
 
    - `Filterable (with results)` - Die mehrschichtige Navigation umfasst nur die Filter, für die passende Produkte gefunden werden können. Jeder Attributwert, der bereits für alle in der Liste aufgeführten Produkte gilt, sollte weiterhin als verfügbarer Filter angezeigt werden. Attributwerte mit einer Anzahl von null (0) Produktübereinstimmungen werden aus der Liste der verfügbaren Filter weggelassen. Die gefilterte Liste enthält nur die Produkte, die dem Filter entsprechen. Die Produktliste wird nur aktualisiert, wenn die ausgewählten Filter das Gezeigte ändern.
 
-   - `Filterable (no results)` - Die mehrschichtige Navigation umfasst Filter für alle verfügbaren Attributwerte und ihre Produktanzahl, einschließlich Produkten mit null (0) Produktübereinstimmungen. Wenn der Attributwert ein Farbfeld ist, wird der Wert als Filter angezeigt, aber durchgestrichen. Die Filterung auf Preisebene wird von dieser Option nicht unterstützt und hat keine Auswirkungen auf Preisfilter.
+   - `Filterable (no results)` - Bei der mehrschichtigen Navigation werden Filter für alle verfügbaren Attributwerte und ihre Produktanzahl angezeigt, auch wenn Produkte mit null (0) übereinstimmen. Wenn der Attributwert ein Muster ist, wird der Filter angezeigt, aber durchgestrichen. Diese Option unterstützt keine Preisschichtfilterung und hat keinen Einfluss auf Preisfilter.
 
 1. Legen Sie **[!UICONTROL Use In Search Results Layered Navigation]** auf `Yes` fest.
 
@@ -62,11 +62,9 @@ Die folgenden Anweisungen zeigen, wie Sie eine einfache mehrschichtige Navigatio
 
 >[!NOTE]
 >
->Wenn die _[!UICONTROL Use in Search]_&#x200B;auf `No` festgelegt ist, wird die&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ nicht angezeigt und das Produktattribut wird bei der Suche mit keinem [!UICONTROL Use in Layered Navigation] Einstellwert verwendet.
-
->[!NOTE]
+>- Wenn die _[!UICONTROL Use in Search]_auf `No` festgelegt ist, wird die_[!UICONTROL Use in Search Results Layered Navigation]_ nicht angezeigt. In diesem Fall wird das Produktattribut unabhängig von der [!UICONTROL Use in Layered Navigation] nicht für die Suche verwendet.
 >
->Das [!UICONTROL Position] ist standardmäßig abgeblendet, sodass Sie das Attribut speichern müssen, bevor Sie diese Einstellung ändern können.
+>- Das [!UICONTROL Position] ist standardmäßig abgeblendet. Sie müssen das Attribut speichern, bevor Sie diese Einstellung ändern können.
 
 ## Schritt 2: Kategorie als Anker festlegen
 
@@ -100,7 +98,7 @@ Sie können die folgenden Schritte verwenden, um filterbare Attributwerte mit 0 
 
 1. Durchsuchen Sie die Liste oder verwenden Sie die gefilterte Suche, um ein Attribut in ihr zu finden und im Bearbeitungsmodus zu öffnen.
 
-1. Klicken Sie unter _[!UICONTROL Attribute Information]_&#x200B;auf **[!UICONTROL Storefront Properties]**.
+1. Klicken Sie unter _[!UICONTROL Attribute Information]_auf **[!UICONTROL Storefront Properties]**.
 
 1. Wählen Sie **[!UICONTROL Layered Navigation]** &quot;`Filterable (with results)`&quot;.
 
@@ -112,13 +110,19 @@ Sie können die folgenden Schritte verwenden, um filterbare Attributwerte mit 0 
 
 >[!NOTE]
 >
->Die in diesem Thema beschriebene Preisnavigationskonfiguration unterscheidet sich für [Live-Suche](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=de).
+>Die in diesem Abschnitt beschriebene Preisnavigationskonfiguration unterscheidet sich von der über die Live Search gefilterten Navigation mit [Facetten](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
 Die Preisnavigation kann verwendet werden, um Produkte in einer mehrschichtigen Navigation nach Preisbereich zu verteilen. Sie können jeden Bereich auch in Intervallen teilen. Es gibt einige Möglichkeiten, die Preisnavigation zu berechnen:
 
 - Automatisch (Preisbereiche ausgleichen)
 - Automatisch (Produktzahlen ausgleichen)
 - Manuell
+
+>[!BEGINSHADEBOX]
+
+Beim Filtern nach Preis in der mehrschichtigen Navigation verwendet Adobe Commerce den niedrigsten Preis der untergeordneten Elemente eines konfigurierbaren Produkts. Infolgedessen wird ein konfigurierbares Produkt nur in der niedrigsten Preisklasse seiner untergeordneten Produkte angezeigt, auch wenn einige untergeordnete Produkte höhere Preise haben.
+
+>[!ENDSHADEBOX]
 
 Bei den ersten beiden Methoden werden die Navigationsschritte automatisch berechnet. Mit der manuellen Methode können Sie eine Unterteilungsgrenze für Preisintervalle festlegen. Das folgende Beispiel zeigt den Unterschied zwischen den Preisnavigationsschritten 10 und 100.
 
@@ -145,7 +149,7 @@ Die iterative Aufteilung bietet die beste Verteilung der Produkte auf die Preisk
 
 >[!IMPORTANT]
 >
->Um die Produkte und ihre Preise in Übereinstimmung mit _Preisfiltern_ in der mehrschichtigen Navigation korrekt anzuzeigen, stellen Sie sicher, dass die Einstellungen für die Preisanzeige in der [Mehrwertsteuerkonfiguration](../configuration-reference/sales/tax.md) den gleichen Wert aufweisen (`Excluding Tax`**oder** `Including Tax`). Überprüfen Sie für die _[!UICONTROL Calculation Settings]_&#x200B;den **[!UICONTROL Catalog Prices]**. Überprüfen Sie&#x200B;_[!UICONTROL Price Display Settings]_ den **[!UICONTROL Display Product Prices in Catalog]**. Wenn diese unterschiedliche Werte haben, können Preisfilter in der mehrschichtigen Navigation Produkte möglicherweise nicht ordnungsgemäß nach Preis filtern und sortieren.
+>Um die Produkte und ihre Preise in Übereinstimmung mit _Preisfiltern_ in der mehrschichtigen Navigation korrekt anzuzeigen, stellen Sie sicher, dass die Einstellungen für die Preisanzeige in der [Mehrwertsteuerkonfiguration](../configuration-reference/sales/tax.md) den gleichen Wert aufweisen (`Excluding Tax`**oder** `Including Tax`). Überprüfen Sie für die _[!UICONTROL Calculation Settings]_den **[!UICONTROL Catalog Prices]**. Überprüfen Sie_[!UICONTROL Price Display Settings]_ den **[!UICONTROL Display Product Prices in Catalog]**. Wenn diese unterschiedliche Werte haben, können Preisfilter in der mehrschichtigen Navigation Produkte möglicherweise nicht ordnungsgemäß nach Preis filtern und sortieren.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -201,13 +205,13 @@ Belassen Sie **[!UICONTROL Price Navigation Steps Calculation]** auf `Automatic 
 
 >[!NOTE]
 >
->Die auf dieser Seite beschriebene Standardkonfiguration unterscheidet sich für [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=de).
+>Die in diesem Abschnitt beschriebene standardmäßige mehrschichtige Navigation unterscheidet sich von der mit Live Search gefilterten Navigation mit [Facetten](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
 
-Die Konfiguration der mehrschichtigen Navigation bestimmt, ob eine Produktanzahl nach jedem Attribut in Klammern angezeigt wird, und bestimmt die Größe des Berechnungsschritts, der in der Preisnavigation verwendet wird.
+Die Konfiguration der mehrschichtigen Navigation bestimmt, ob eine Produktanzahl nach jedem Attribut in Klammern angezeigt wird, und die Größe der Schrittberechnung, die in der Preisnavigation verwendet wird.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie im linken Bereich den Abschnitt _[!UICONTROL Catalog]_&#x200B;und wählen Sie darunter **[!UICONTROL Catalog]**.
+1. Erweitern Sie im linken Bereich den Abschnitt _[!UICONTROL Catalog]_und wählen Sie darunter **[!UICONTROL Catalog]**.
 
 1. Erweitern Sie den Abschnitt _[!UICONTROL Layered Navigation]_.
 
