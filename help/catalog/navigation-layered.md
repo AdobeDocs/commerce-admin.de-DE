@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Die in diesem Abschnitt beschriebene standardmäßige mehrschichtige Navigation unterscheidet sich von der mit Live Search gefilterten Navigation mit [Facetten](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
+>Die in diesem Abschnitt beschriebene standardmäßige mehrschichtige Navigation unterscheidet sich von der mit Live Search gefilterten Navigation mit [Facetten](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-admin/facets/facets).
 
 Die mehrschichtige Navigation erleichtert die Suche nach Produkten basierend auf der Kategorie, der Preisspanne oder einem anderen verfügbaren Attribut. Die mehrschichtige Navigation wird normalerweise in der linken Spalte der Suchergebnisse und Kategorieseiten und manchmal auf der Startseite angezeigt. Die Standardnavigation enthält eine Liste _Shop By_ mit Kategorien und Preiskategorien. Sie können die Anzeige der mehrschichtigen Navigation konfigurieren, einschließlich Produktanzahl und Preisbereich.
 
@@ -24,7 +24,7 @@ Die mehrschichtige Navigation erleichtert die Suche nach Produkten basierend auf
 
 >[!NOTE]
 >
->Die in diesem Thema beschriebenen Anforderungen an filterbare Attribute unterscheiden sich für [Live-Suche](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview). Weitere Informationen finden Sie unter [Facetten](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
+>Die in diesem Thema beschriebenen Anforderungen an filterbare Attribute unterscheiden sich für [Live-Suche](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview). Weitere Informationen finden Sie unter [Facetten](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-admin/facets/facets).
 
 Die mehrschichtige Navigation kann verwendet werden, um nach Produkten nach Kategorie oder Attribut zu suchen. Wenn ein Käufer beispielsweise die Kategorie Herren/Shorts in der oberen Navigation auswählt, umfassen die ersten Ergebnisse alle Produkte in der Kategorie. Die Liste kann weiter gefiltert werden, indem ein bestimmter Stil, ein bestimmtes Klima, eine bestimmte Farbe, ein bestimmtes Material, ein bestimmtes Muster oder ein bestimmter Preis (oder eine Kombination von Werten) ausgewählt wird. Filterbare Attribute werden in einem erweiterten Abschnitt angezeigt, in dem jeder Attributwert aufgelistet wird. Optional kann die Liste der Produkte mit übereinstimmenden Ergebnissen so konfiguriert werden, dass Produkte mit oder ohne Übereinstimmung einbezogen werden.
 
@@ -110,7 +110,7 @@ Sie können die folgenden Schritte verwenden, um filterbare Attributwerte mit 0 
 
 >[!NOTE]
 >
->Die in diesem Abschnitt beschriebene Preisnavigationskonfiguration unterscheidet sich von der über die Live Search gefilterten Navigation mit [Facetten](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
+>Die in diesem Abschnitt beschriebene Preisnavigationskonfiguration unterscheidet sich von der über die Live Search gefilterten Navigation mit [Facetten](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-admin/facets/facets).
 
 Die Preisnavigation kann verwendet werden, um Produkte in einer mehrschichtigen Navigation nach Preisbereich zu verteilen. Sie können jeden Bereich auch in Intervallen teilen. Es gibt einige Möglichkeiten, die Preisnavigation zu berechnen:
 
@@ -205,7 +205,7 @@ Belassen Sie **[!UICONTROL Price Navigation Steps Calculation]** auf `Automatic 
 
 >[!NOTE]
 >
->Die in diesem Abschnitt beschriebene standardmäßige mehrschichtige Navigation unterscheidet sich von der mit Live Search gefilterten Navigation mit [Facetten](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets).
+>Die in diesem Abschnitt beschriebene standardmäßige mehrschichtige Navigation unterscheidet sich von der mit Live Search gefilterten Navigation mit [Facetten](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-admin/facets/facets).
 
 Die Konfiguration der mehrschichtigen Navigation bestimmt, ob eine Produktanzahl nach jedem Attribut in Klammern angezeigt wird, und die Größe der Schrittberechnung, die in der Preisnavigation verwendet wird.
 
