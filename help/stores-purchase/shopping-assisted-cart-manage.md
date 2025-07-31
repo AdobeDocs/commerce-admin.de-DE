@@ -3,9 +3,9 @@ title: Verwalten eines Warenkorbs
 description: Erfahren Sie, wie Sie einem Kunden direkt vom Administrator bei seinem Warenkorb helfen können.
 exl-id: beb41dfa-ef87-4065-96fd-0649a5c4c21c
 feature: Customer Service, Shopping Cart
-source-git-commit: dc19eeea03dc46b14fcbe339a8e426b249346673
+source-git-commit: 69cd571b66a81159c2c99e6652907f22142568cb
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Um eine unterstützte Einkaufssession zu starten, muss der Kunde in seinem Konto
 
 | Schaltfläche | Beschreibung |
 |--- |--- |
-| [!UICONTROL Clear my shopping cart] | Löscht den aktuellen Warenkorb von allen Produkten. |
+| [!UICONTROL Clear my shopping cart] | Entfernt alle Artikel aus dem Warenkorb. |
 | [!UICONTROL Update Items and Quantities|]Geben Sie die erforderliche Menge in das Feld **[!UICONTROL Qty]** ein und aktualisieren Sie die Anzahl der Artikel im Warenkorb. |
 | [!UICONTROL Add selections to my cart] | Fügt Produkte aus allen Bereichen zum Warenkorb hinzu. |
 
@@ -55,7 +55,7 @@ Um eine unterstützte Einkaufssession zu starten, muss der Kunde in seinem Konto
    >
    >Um den Kundendatensatz schnell zu finden, verwenden Sie das Steuerelement [Filter](../getting-started/admin-grid-controls.md).
 
-   Im Kundenprofil unter _[!UICONTROL Personal Information]_&#x200B;zeigt das&#x200B;_[!UICONTROL Last Logged In]_ Datum und die Uhrzeit an, dass der Kunde online ist.
+   Im Kundenprofil unter _[!UICONTROL Personal Information]_zeigt das_[!UICONTROL Last Logged In]_ Datum und die Uhrzeit an, dass der Kunde online ist.
 
    ![Kundenprofil eines Online-Kunden](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -175,10 +175,26 @@ Sie können Artikel aus der Wunschliste eines Kunden in den Warenkorb legen und 
 
 1. Klicken Sie auf **[!UICONTROL Create Order]**.
 
-   Auf der Seite _[!UICONTROL Create New Order]_&#x200B;werden die Artikel im Warenkorb angezeigt, gefolgt von den Versand- und Zahlungsinformationen.
+   Auf der Seite _[!UICONTROL Create New Order]_werden die Artikel im Warenkorb angezeigt, gefolgt von den Versand- und Zahlungsinformationen.
 
 1. Füllen Sie die Versand- und Zahlungsinformationen aus.
 
 1. Klicken Sie auf **[!UICONTROL Submit Order]**.
 
 Weitere Informationen finden Sie unter [Bestellung erstellen](customer-account-create-order.md).
+
+## Alle Artikel aus einem Warenkorb entfernen
+
+Das Entfernen aller Artikel aus dem Warenkorb eines Kunden im unterstützten Einkaufsmodus ist nützlich, wenn der Kunde von vorn beginnen möchte, falsche Artikel hinzugefügt hat oder seinen Warenkorb löschen muss, bevor er eine neue Bestellung aufgeben kann. Dadurch wird sichergestellt, dass der Warenkorb nur die Produkte enthält, die der Kunde tatsächlich kaufen möchte.
+
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
+
+1. Öffnen Sie in der Liste den Kundendatensatz im Bearbeitungsmodus.
+
+1. Klicken Sie in der oberen Schaltflächenleiste auf **[!UICONTROL Manage Shopping Cart]** .
+
+1. Klicken Sie auf **[!UICONTROL Clear my shopping cart]**.
+
+   ![Leeren Sie meinen Warenkorb](./assets/customer-manage-shopping-cart-clear.png){width="600" zoomable="yes"}
+
+1. Klicken Sie auf **[!UICONTROL OK]**, wenn Sie zum Bestätigen der Aktion aufgefordert werden.
