@@ -3,9 +3,9 @@ title: Preisspanne
 description: Erfahren Sie mehr über den Umfang der Produktpreise, die entweder global oder auf Website angewendet werden können.
 exl-id: 3726b16b-4ed5-4286-a7fd-69ed6677f87a
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: bc3977f29c8048a1b8578aa21fa55fa1a4d903f2
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ In Commerce ist es nicht zulässig, für jeden Shop einen Produktpreis festzuleg
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen Sie darunter **[!UICONTROL Catalog]**.
 
-1. Legen Sie auf der Registerkarte **[!UICONTROL Price]** den Preisbereich auf `Website` statt auf global fest.
+1. Legen Sie auf der Registerkarte **[!UICONTROL Price]** den Preisbereich auf `Website` statt auf `Global` fest.
 
 1. Legen Sie den Preis fest, indem Sie die Seite zur Produktbearbeitung öffnen, den Umfang oben links auswählen und dann einen neuen Preis pro Website eingeben.
+
+In den seltenen Fällen, in denen der Preisbereich auf `Global` festgelegt ist, kann die Commerce-Datenbank auf der Website weiterhin unterschiedliche Preise aufweisen. Dies kann infolge von Synchronisationsproblemen außerhalb von Commerce auftreten. In diesen Fällen muss der Händler eine Preisbereinigung auf Store-Ebene durchführen und eine Katalogsynchronisierung mit Commerce Services durchführen.
