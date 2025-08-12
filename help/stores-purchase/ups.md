@@ -3,7 +3,7 @@ title: United Parcel Service (UPS)
 description: Erfahren Sie, wie Sie UPS als Versandunternehmen für Ihren Shop einrichten.
 exl-id: a7965b2f-2473-4b63-a247-3b2230cde5d8
 feature: Shipping/Delivery
-source-git-commit: 614a94856c114244c8fdb281c73650878849a2fb
+source-git-commit: a925827f2d939eeb9e6b3e57c023792ae358cbfc
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -46,9 +46,9 @@ Wenn Sie die USV-Einstellungen in Admin konfigurieren, verwenden Sie die Werte d
 
    - Stellen Sie **[!UICONTROL Mode]** auf `Live` ein, um Daten über eine sichere Verbindung an das UPS Versandsystem zu senden. (Der Entwicklungsmodus sendet keine Daten über eine sichere Verbindung.)
 
-   - Überprüfen Sie die **[!UICONTROL Gateway URL]**, die zum Senden von Anfragen erforderlich ist. Verwenden Sie eine Sandbox-URL (`https://wwwcie.ups.com/`) für den Testmodus und eine Produktions-URL für Live-Anfragen (`https://onlinetools.ups.com`). Stellen Sie sicher, dass Sie für jede Anfrage mit dem angegebenen Host die entsprechenden Endpunkte verwenden.
+   - Überprüfen Sie die **[!UICONTROL Gateway URL]**, die zum Senden von Anfragen erforderlich ist. Verwenden Sie eine Sandbox-URL (`https://wwwcie.ups.com/api/rating/`) für den Testmodus und eine Produktions-URL für Live-Anfragen (`https://onlinetools.ups.com/api/rating/`). Stellen Sie sicher, dass Sie für jede Anfrage mit dem angegebenen Host die entsprechenden Endpunkte verwenden.
 
-   - Überprüfen Sie die **[!UICONTROL Tracking URL]**, die zum Abrufen von Tracking-Informationen erforderlich ist. Verwenden Sie eine Sandbox-URL (`https://wwwcie.ups.com/`) für den Testmodus und eine Produktions-URL für Live-Anfragen (`https://onlinetools.ups.com`). Stellen Sie sicher, dass Sie für jede Anfrage mit dem angegebenen Host die entsprechenden Endpunkte verwenden.
+   - Überprüfen Sie die **[!UICONTROL Tracking URL]**, die zum Abrufen von Tracking-Informationen erforderlich ist. Verwenden Sie eine Sandbox-URL (`https://wwwcie.ups.com/api/track/`) für den Testmodus und eine Produktions-URL für Live-Anfragen (`https://onlinetools.ups.com/api/track/`). Stellen Sie sicher, dass Sie für jede Anfrage mit dem angegebenen Host die entsprechenden Endpunkte verwenden.
 
    - Legen Sie **[!UICONTROL Origin of the Shipment]** auf die Region fest, aus der die Sendung stammt.
 
