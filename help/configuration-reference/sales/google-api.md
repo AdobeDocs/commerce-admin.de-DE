@@ -64,7 +64,7 @@ Wenn **[!UICONTROL Account Type]** auf `Google Tag Manager` gesetzt ist, werden 
 | [!UICONTROL Conversion Color] | Shop-Ansicht | Bestimmt die Farbe der Konvertierungsbeschriftung. Verwenden Sie einen [Farbwähler](https://www.w3schools.com/colors/colors_picker.asp), um den Hexadezimalwert auszuwählen. Dieser Hexadezimalwert wird der Variablen `google_conversion_color` in Ihrem AdWords-Skript zugewiesen. Beispiel: ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | Shop-Ansicht | Eine Textbeschriftung, die mit der [!DNL Google Site Stats] Benachrichtigung angezeigt wird. Diese Textzeichenfolge wird der Variablen `~` in Ihrem AdWords-Skript zugewiesen. Beispiel: „Vielen Dank für Ihren Einkauf!“ |
 | [!UICONTROL Conversion Value Type] | Shop-Ansicht | Gibt den Typ des Werts an, mit dem bestimmt wird, wann eine Konvertierung stattfindet. Optionen: <br/>**`Dynamic`**- Bestimmt anhand des dynamischen Bestellbetrags, ob eine Konversion stattgefunden hat.<br/>**`Constant`** - Bestimmt anhand des eingegebenen Werts, dass eine Konvertierung stattgefunden hat. |
-| [!UICONTROL Conversion Value] | Shop-Ansicht | Gibt den Wert an, der für einen _[!UICONTROL Constant]_Konversionswerttyp verwendet wird. |
+| [!UICONTROL Conversion Value] | Shop-Ansicht | Gibt den Wert an, der für einen _[!UICONTROL Constant]_&#x200B;Konversionswerttyp verwendet wird. |
 | [!UICONTROL Send Order Currency] | Shop-Ansicht | Ermöglicht transaktionsspezifische Währungsumrechnungswerte in AdWords (für Websites mit unterschiedlichen Basiswährungen). |
 
 {style="table-layout:auto"}
@@ -123,7 +123,7 @@ Wenn **[!UICONTROL Account Type]** auf `Google Tag Manager` gesetzt ist, werden 
 | [!UICONTROL Conversion Color] | Shop-Ansicht | Bestimmt die Farbe der Konvertierungsbeschriftung. Verwenden Sie einen [Farbwähler](https://www.w3schools.com/colors/colors_picker.asp), um den Hexadezimalwert auszuwählen. Dieser Hexadezimalwert wird der Variablen `google_conversion_color` in Ihrem AdWords-Skript zugewiesen. Beispiel: ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | Shop-Ansicht | Eine Textbeschriftung, die mit der Google-Site-Statusbenachrichtigung angezeigt wird. Diese Textzeichenfolge wird der Variablen `~` in Ihrem AdWords-Skript zugewiesen. Beispiel: „Vielen Dank für Ihren Einkauf!“ |
 | [!UICONTROL Conversion Value Type] | Shop-Ansicht | Gibt den Typ des Werts an, mit dem bestimmt wird, wann eine Konvertierung stattfindet. Optionen: <br/>**`Dynamic`**- Bestimmt anhand des dynamischen Bestellbetrags, ob eine Konversion stattgefunden hat.<br/>**`Constant`** - Bestimmt anhand des eingegebenen Werts, dass eine Konvertierung stattgefunden hat. |
-| [!UICONTROL Conversion Value] | Shop-Ansicht | Gibt den Wert an, der für einen _[!UICONTROL Constant]_Konversionswerttyp verwendet wird. |
+| [!UICONTROL Conversion Value] | Shop-Ansicht | Gibt den Wert an, der für einen _[!UICONTROL Constant]_&#x200B;Konversionswerttyp verwendet wird. |
 | [!UICONTROL Send Order Currency] | Shop-Ansicht | Ermöglicht transaktionsspezifische Währungsumrechnungswerte in AdWords (für Websites mit unterschiedlichen Basiswährungen). |
 
 {style="table-layout:auto"}

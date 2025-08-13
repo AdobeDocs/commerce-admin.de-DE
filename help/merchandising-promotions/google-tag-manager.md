@@ -44,7 +44,7 @@ Siehe [Einrichten der Site-Suche](https://support.google.com/analytics/answer/10
 
    - Wählen Sie **[!UICONTROL Property Settings]**.
 
-   - Legen Sie unter _[!UICONTROL Advertising Features]_**[!UICONTROL Enable Demographics and Interest Reports]**auf `On` fest.
+   - Legen Sie unter _[!UICONTROL Advertising Features]_&#x200B;**[!UICONTROL Enable Demographics and Interest Reports]**&#x200B;auf `On` fest.
 
    - **[!UICONTROL Save]** der Einstellungen.
 
@@ -178,7 +178,7 @@ Wenn Sie über ein Google AdWords-Konto verfügen, können Sie ein Tag erstellen
 
    - Wählen Sie unter **[!UICONTROL Choose Product]** die Option **[!UICONTROL Google AdWords]**.
 
-   - Wählen Sie unter _[!UICONTROL Choose a Tag Type]_die Option **[!UICONTROL AdWords Conversion Tracking]**aus und klicken Sie auf **[!UICONTROL Continue]**.
+   - Wählen Sie unter _[!UICONTROL Choose a Tag Type]_&#x200B;die Option **[!UICONTROL AdWords Conversion Tracking]**&#x200B;aus und klicken Sie auf **[!UICONTROL Continue]**.
 
 1. Geben Sie die **[!UICONTROL Conversion ID]** und **[!UICONTROL Conversion Label]** aus Ihrem AdWords-Konto ein und klicken Sie auf **[!UICONTROL Continue]**.
 
@@ -188,7 +188,7 @@ Im nächsten Schritt erstellen Sie über das [!DNL Google Tag Manager]-Dashboard
 
 1. Klicken Sie unter **[!UICONTROL Fire On]** auf **[!UICONTROL Some Pages]**.
 
-1. Füllen Sie im Abschnitt _[!UICONTROL Choose Pages]_die folgenden Einstellungen aus:
+1. Füllen Sie im Abschnitt _[!UICONTROL Choose Pages]_&#x200B;die folgenden Einstellungen aus:
 
    - **[!UICONTROL Name]** - Geben Sie einen Namen für die Seitenbeschreibung ein.
 
