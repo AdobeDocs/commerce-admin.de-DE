@@ -17,7 +17,7 @@ Targeting von Werbeaktionen und Schaffung von Möglichkeiten für Kundeninterakt
 
 _Merchandising_ ist ein Begriff, der im Einzelhandel verwendet wird, um die Kunst und Wissenschaft der Grundrissentwicklung und der Präsentation von Produkten zu beschreiben. Sie können sich die [kategoriebasierte Navigation](../catalog/navigation-top.md) als Grundriss des Stores vorstellen und die dynamische Präsentation von Produkten als die Bedingungen, die Sie auf die Auflistung von Produkten im Store anwenden können. Außerdem können Sie Programme implementieren, die den Absatz von Produkten steigern:
 
-- [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} [Visual Merchandiser](visual-merchandiser.md) - Eine Reihe erweiterter Tools, mit denen Sie Produkte positionieren und Bedingungen anwenden können, die bestimmen, welche Produkte in der Kategorieliste angezeigt werden.
+- [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} [Visual Merchandiser](visual-merchandiser.md) - Eine Reihe erweiterter Tools, mit denen Sie Produkte positionieren und Bedingungen anwenden können, die bestimmen, welche Produkte in der Kategorieliste angezeigt werden.
 
 - [Geschenkregistrierungen](gift-registries.md) - Geben Sie Ihren Kunden die Möglichkeit, Geschenkregistrierungen für besondere Anlässe zu erstellen und ihre Freunde und Familie einzuladen, ihre Geschenke aus der Geschenkregistrierung zu kaufen.
 
@@ -27,7 +27,7 @@ _Merchandising_ ist ein Begriff, der im Einzelhandel verwendet wird, um die Kuns
 
 >[!TIP]
 >
->Informationen zu Produktempfehlungen und dazu, wie sie Ihnen die insight und die Kontrolle geben können, die Sie benötigen, um das beste Erlebnis für Ihre Käufer zu schaffen, finden Sie im [Benutzerhandbuch zu Produktempfehlungen](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html).
+>Informationen zu Produktempfehlungen und dazu, wie sie Ihnen die insight und die Kontrolle geben können, die Sie benötigen, um das beste Erlebnis für Ihre Käufer zu schaffen, finden Sie im [Benutzerhandbuch zu Produktempfehlungen](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=de).
 
 ## Promotions
 
@@ -68,7 +68,7 @@ Eine der Aufgaben, die Sie vor dem Start Ihres Stores ausführen müssen, besteh
 >
 >Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source enthielten die vom dotdigital-Anbieter entwickelte Erweiterung, die zur Integration mit der dotdigital Engagement Cloud verwendet wurde. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Bundle der Hauptversion enthalten und muss von der Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
 >&#x200B;><br><br>
->&#x200B;>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Upgrade-Handbuch_ für weitere Informationen.
+>&#x200B;>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=de) im _Upgrade-Handbuch_ für weitere Informationen.
 
 - [Newsletter](newsletters.md) - Erstellen Sie Newsletter, verwalten Sie Ihre Abonnentenliste, entwickeln Sie Inhalte und leiten Sie den Traffic zu Ihrem Store weiter.
 
