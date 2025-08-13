@@ -3,9 +3,9 @@ title: Google Site-Tools
 description: Erfahren Sie mehr über die Google-Tools-Integrationen, mit denen Sie Ihre Inhalte optimieren, Ihren Traffic analysieren und Ihren Katalog mit Shopping-Aggregatoren und Marktplätzen verbinden können.
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 Ihre Store-Konfiguration ist mit den folgenden Google-Tools integriert, um Ihre Inhalte zu optimieren, Ihren Traffic zu analysieren und Ihren Katalog mit Shopping-Aggregatoren und Marktplätzen zu verbinden.
 
-- [Google Analytics](google-analytics.md) - Verwenden Sie _Google Universal Analytics_, um zusätzliche benutzerdefinierte Dimensionen und Metriken für das Tracking zu definieren, mit Unterstützung für Offline- und Mobile-App-Interaktionen und Zugriff auf laufende Updates.
-
-- [Google-Inhaltsexperimente](google-content-experiments.md) - Richten Sie mithilfe von Google Analytics-Inhaltsexperimenten einen A/B-Test für Produkte, Kategorien oder Inhaltsseiten ein.
+- [Google Analytics](google-analytics.md) - Verwenden Sie _Google Universal Analytics_, um zusätzliche benutzerdefinierte Dimensionen und Metriken für das Tracking zu definieren, mit Unterstützung für Offline- und Mobile-App-Interaktionen und Zugriff auf laufende Aktualisierungen.
 
 - [Google Tag Manager](google-tag-manager.md) - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Verwenden Sie den Google Tag Manager, um die vielen Tags zu verwalten, die sich auf Marketing-Kampagnenereignisse beziehen.
 
@@ -38,7 +36,7 @@ Wenn Ihr Unternehmen Datenschutzbestimmungen wie die [DSGVO](../getting-started/
 
 1. Deaktivieren Sie die Datenfreigabe, um die Datenschutzanforderungen zu erfüllen.
 
-   Die Standardeinstellungen für Google Analytics geben Ihre Unternehmensdaten für Google und andere Parteien frei. Deaktivieren Sie zum Deaktivieren der Datenfreigabe das Kontrollkästchen für die folgenden Einstellungen:
+   Die standardmäßigen Google Analytics-Einstellungen geben Ihre Unternehmensdaten für Google und andere Parteien frei. Deaktivieren Sie zum Deaktivieren der Datenfreigabe das Kontrollkästchen für die folgenden Einstellungen:
 
    - Google-Produkte und -Services
    - Benchmarking
@@ -92,7 +90,7 @@ ga.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-Um die von **_Google Tag Manager_** verwendeten IP-Adressen zu anonymisieren, legen Sie den `anonymize_ip` Parameter in der `gtag.js` auf Ihrem Webserver auf `true` fest.
+Um die von **_Google Tag Manager_** verwendeten IP-Adressen zu anonymisieren, legen Sie den `anonymize_ip` Parameter in der `true` auf Ihrem Webserver auf `gtag.js` fest.
 
 gtag.js
 

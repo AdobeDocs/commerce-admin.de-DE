@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce und Magento Open Source umfassen viele To
 breadcrumb-title: Merchandising und Promotions
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 1%
 - [Handbuch-Übersicht](guide-overview.md)
 - [Einführung in Merchandising und Promotions](introduction.md)
 - [Menü „Marketing“](marketing-menu.md)
-- {#merchandising}
-   - Visual Merchandiser-{#visual-merch}
+- Verkauf von Waren {#merchandising}
+   - Visual Merchandiser {#visual-merch}
       - [Übersicht über Visual Merchandiser](visual-merchandiser.md)
       - [Kategorieregeln für Merchandising](category-product-rules.md)
       - [Smart-Attribute konfigurieren](smart-attributes-configure.md)
@@ -28,7 +28,7 @@ ht-degree: 1%
       - [Einrichtung der Geschenkregistrierung](gift-registry-create.md)
       - [Geschenkregistrierungssuche hinzufügen](gift-registry-search.md)
       - [Erlebnis mit Geschenkregistrierung-Storefront](gift-registry-storefront.md)
-   - Prämienpunkte {#reward-points}
+   - Belohnungspunkte {#reward-points}
       - [Übersicht und Konfiguration von Belohnungen](rewards-loyalty.md)
       - [Belohnungswechselkurse](reward-exchange-rates.md)
       - [Prämienpunkte in Preisregeln](reward-points-price-rules.md)
@@ -56,11 +56,11 @@ ht-degree: 1%
       - [Beispiel: Kaufen Sie dies und erhalten Sie es kostenlos](price-rules-cart-buy-this-get-that.md)
       - [Beispiel: Rabatt mit Mindestkauf](price-rule-discount-minimum-purchase.md)
       - [Beispiel: Rabatt beim Erstkauf](price-rule-discount-first-purchase.md)
-   - der Produktbeziehungen{#product-relationships}
-      - [Übersicht](product-relationships.md)
+   - Produktbeziehungen {#product-relationships}
+      - [Überblick](product-relationships.md)
       - [Regeln und Konfiguration für verwandte Produkte](product-related-rules.md)
       - [Erstellen einer zugehörigen Produktregel](product-related-rule-create.md)
-- Marketing-{#communications}
+- Marketing-Nachrichten {#communications}
    - Newsletter {#newsletters}
       - [Newsletter aktivieren](newsletters.md)
       - [Newsletter-Vorlagen](newsletter-template.md)
@@ -70,7 +70,7 @@ ht-degree: 1%
    - E-Mail-Erinnerungen {#email-reminders}
       - [E-Mail-Erinnerungen aktivieren](email-reminder-rules.md)
       - [E-Mail-Erinnerungen erstellen](email-reminder-rules-create.md)
-- zur Suchmaschinenoptimierung{#seo}
+- Suchmaschinenoptimierung {#seo}
    - [SEO - Überblick und Best Practices](seo-overview.md)
    - [Metadaten](meta-data.md)
    - [Sitemaps](sitemap-xml.md)
@@ -81,11 +81,10 @@ ht-degree: 1%
       - [CMS-Seitenumschreibungen](url-rewrite-cms-page.md)
       - [Benutzerdefinierte Neuschreibungen](url-rewrite-custom.md)
       - [Automatische Weiterleitungen](url-redirect-product-automatic.md)
-- Google Site Tools-{#google-tools}
-   - [Übersicht](google-tools.md)
+- Google Site-Tools {#google-tools}
+   - [Überblick](google-tools.md)
    - [Google Analytics](google-analytics.md)
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-   - [Google-Inhaltsexperimente](google-content-experiments.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

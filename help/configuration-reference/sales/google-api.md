@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Sales] &gt; [!UICONTROL Google API] des Commerce Admin-Bereichs.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: 5ee52e8d4f2ebb8fc28f13cca53e87c3529f76d3
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Google Analytics](./assets/google-api-analytics-ee.png)<!-- zoom -->
 
-<!-- [Google Analytics](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 | ----- | ------------------------------------------ | ----------- |
@@ -26,7 +26,6 @@ ht-degree: 0%
 | [!UICONTROL Account Type] | Shop-Ansicht | ![Adobe Commerce](../../assets/adobe-logo.svg) (nur Adobe Commerce) Legt die Konfigurationsoptionen entsprechend Ihrem Google Analytics-Kontotyp fest. Optionen: Universal Analytics (Standard) / Google Tag Manager |
 | [!UICONTROL Account Number] | Shop-Ansicht | Die Kontonummer oder der Trackingcode, die bzw. der beim Erstellen Ihres [!DNL Google Analytics] Kontos zugewiesen wurde. |
 | [!UICONTROL Anonymize IP] | Shop-Ansicht | Bestimmt, ob identifizierende Informationen aus IP-Adressen entfernt werden, die in [!DNL Google Analytics] Ergebnissen angezeigt werden. |
-| [!UICONTROL Enable Content Experiments] | Shop-Ansicht | Aktiviert [Google-Inhaltsexperimente](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207) die zum Testen von bis zu zehn verschiedenen Versionen derselben Seite verwendet werden können. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -54,7 +53,7 @@ Wenn **[!UICONTROL Account Type]** auf `Google Tag Manager` gesetzt ist, werden 
 
 ![Google AdWords](./assets/google-api-google-adwords.png)<!-- zoom -->
 
-<!-- [Google AdWords](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- [Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 | ----- | ------------------------------------------ | ----------- |
@@ -65,7 +64,7 @@ Wenn **[!UICONTROL Account Type]** auf `Google Tag Manager` gesetzt ist, werden 
 | [!UICONTROL Conversion Color] | Shop-Ansicht | Bestimmt die Farbe der Konvertierungsbeschriftung. Verwenden Sie einen [Farbwähler](https://www.w3schools.com/colors/colors_picker.asp), um den Hexadezimalwert auszuwählen. Dieser Hexadezimalwert wird der Variablen `google_conversion_color` in Ihrem AdWords-Skript zugewiesen. Beispiel: ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | Shop-Ansicht | Eine Textbeschriftung, die mit der [!DNL Google Site Stats] Benachrichtigung angezeigt wird. Diese Textzeichenfolge wird der Variablen `~` in Ihrem AdWords-Skript zugewiesen. Beispiel: „Vielen Dank für Ihren Einkauf!“ |
 | [!UICONTROL Conversion Value Type] | Shop-Ansicht | Gibt den Typ des Werts an, mit dem bestimmt wird, wann eine Konvertierung stattfindet. Optionen: <br/>**`Dynamic`**- Bestimmt anhand des dynamischen Bestellbetrags, ob eine Konversion stattgefunden hat.<br/>**`Constant`** - Bestimmt anhand des eingegebenen Werts, dass eine Konvertierung stattgefunden hat. |
-| [!UICONTROL Conversion Value] | Shop-Ansicht | Gibt den Wert an, der für einen _[!UICONTROL Constant]_&#x200B;Konversionswerttyp verwendet wird. |
+| [!UICONTROL Conversion Value] | Shop-Ansicht | Gibt den Wert an, der für einen _[!UICONTROL Constant]_Konversionswerttyp verwendet wird. |
 | [!UICONTROL Send Order Currency] | Shop-Ansicht | Ermöglicht transaktionsspezifische Währungsumrechnungswerte in AdWords (für Websites mit unterschiedlichen Basiswährungen). |
 
 {style="table-layout:auto"}
@@ -78,15 +77,14 @@ Wenn **[!UICONTROL Account Type]** auf `Google Tag Manager` gesetzt ist, werden 
 
 ![Google Analytics4](./assets/google-api-gtag-google-analytics4.png)<!-- zoom -->
 
-<!-- [Google Analytics4](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/google-tools/google-analytics) -->
+<!-- [Google Analytics4](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-analytics) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 | ----- | ------------------------------------------ | ----------- |
 | [!UICONTROL Enable] | Shop-Ansicht | Aktiviert Google Analytics 4 für Ihren Store. Optionen: `Yes` / `No` |
 | [!UICONTROL Account Type] | Shop-Ansicht | ![Adobe Commerce](../../assets/adobe-logo.svg) (nur Adobe Commerce) Legt die Konfigurationsoptionen entsprechend Ihrem Google Analytics-Kontotyp fest. Optionen: `Google Analytics4` (Standard) / `Google Tag Manager` |
-| [!UICONTROL Measurement ID] | Shop-Ansicht | Die Kontonummer bzw. der Trackingcode, der beim Erstellen Ihres Google Analytics-Kontos zugewiesen wurde. |
+| [!UICONTROL Measurement ID] | Shop-Ansicht | Die Kontonummer oder der Trackingcode, die bzw. der beim Erstellen Ihres Google Analytics-Kontos zugewiesen wurde. |
 | [!UICONTROL Anonymize IP] | Shop-Ansicht | Bestimmt, ob identifizierende Informationen aus IP-Adressen entfernt werden, die in den Google Analytics-Ergebnissen angezeigt werden. |
-| [!UICONTROL Enable Content Experiments] | Shop-Ansicht | Aktiviert [Google-Inhaltsexperimente](https://support.google.com/analytics/answer/9366791?hl=en&amp;ref_topic=1745207) die zum Testen von bis zu zehn verschiedenen Versionen derselben Seite verwendet werden können. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -114,7 +112,7 @@ Wenn **[!UICONTROL Account Type]** auf `Google Tag Manager` gesetzt ist, werden 
 
 ![Google AdWords](./assets/google-api-gtag-google-adwords.png)<!-- zoom -->
 
-<!-- -- Google AdWords](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/google-tools/google-adwords) -->
+<!-- -- Google AdWords](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/google-tools/google-adwords) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 | ----- | ------------------------------------------ | ----------- |
@@ -125,7 +123,7 @@ Wenn **[!UICONTROL Account Type]** auf `Google Tag Manager` gesetzt ist, werden 
 | [!UICONTROL Conversion Color] | Shop-Ansicht | Bestimmt die Farbe der Konvertierungsbeschriftung. Verwenden Sie einen [Farbwähler](https://www.w3schools.com/colors/colors_picker.asp), um den Hexadezimalwert auszuwählen. Dieser Hexadezimalwert wird der Variablen `google_conversion_color` in Ihrem AdWords-Skript zugewiesen. Beispiel: ffffff `var google_conversion_color = "ffffff";` |
 | [!UICONTROL Conversion Label] | Shop-Ansicht | Eine Textbeschriftung, die mit der Google-Site-Statusbenachrichtigung angezeigt wird. Diese Textzeichenfolge wird der Variablen `~` in Ihrem AdWords-Skript zugewiesen. Beispiel: „Vielen Dank für Ihren Einkauf!“ |
 | [!UICONTROL Conversion Value Type] | Shop-Ansicht | Gibt den Typ des Werts an, mit dem bestimmt wird, wann eine Konvertierung stattfindet. Optionen: <br/>**`Dynamic`**- Bestimmt anhand des dynamischen Bestellbetrags, ob eine Konversion stattgefunden hat.<br/>**`Constant`** - Bestimmt anhand des eingegebenen Werts, dass eine Konvertierung stattgefunden hat. |
-| [!UICONTROL Conversion Value] | Shop-Ansicht | Gibt den Wert an, der für einen _[!UICONTROL Constant]_&#x200B;Konversionswerttyp verwendet wird. |
+| [!UICONTROL Conversion Value] | Shop-Ansicht | Gibt den Wert an, der für einen _[!UICONTROL Constant]_Konversionswerttyp verwendet wird. |
 | [!UICONTROL Send Order Currency] | Shop-Ansicht | Ermöglicht transaktionsspezifische Währungsumrechnungswerte in AdWords (für Websites mit unterschiedlichen Basiswährungen). |
 
 {style="table-layout:auto"}

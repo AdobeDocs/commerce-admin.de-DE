@@ -4,9 +4,9 @@ user-guide-description: Umfassende Informationen zu Katalogverwaltungsfunktionen
 breadcrumb-title: Katalogverwaltung
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 5703ca88d085d39c36ab1edca70e4e802b625e7a
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 + [Handbuch zur Katalogverwaltung](guide-overview.md)
 + [Einführung in die Katalogverwaltung](introduction.md)
 + [Menü „Katalog“](catalog-menu.md)
-+ zu Kataloggrundlagen{#catalog}
++ Kataloggrundlagen {#catalog}
    + [Katalog- und Produkt-URLs](catalog-urls.md)
    + [Flache Kataloge](catalog-flat.md)
    + Katalognavigation {#navigation}
@@ -26,7 +26,7 @@ ht-degree: 0%
       + [Breadcrumb-Trails](navigation-breadcrumb-trail.md)
       + [Produktlisten](navigation-product-listings.md)
       + [Mehrschichtige Navigation](navigation-layered.md)
-   + zur Katalogsuche{#search}
+   + Katalogsuche {#search}
       + [Übersicht über die Suche](search.md)
       + [Konfigurieren der Katalogsuche](search-configuration.md)
       + [Suchergebnisse](search-results.md)
@@ -42,13 +42,13 @@ ht-degree: 0%
       + [Einstellungen für die Suchmaschinenoptimierung](categories-search-engine-optimization.md)
       + [Designeinstellungen](categories-custom-design.md)
       + [Kategorie ändern](category-modify.md)
-   + Produkte in Kategorie {#products-in-category}
+   + Produkte in der Kategorie {#products-in-category}
       + [Produktzuweisungen](categories-product-assignments.md)
       + [Sortieren von Kategorieprodukten](category-products-sort.md)
       + [Kategorieprodukte hinzufügen und entfernen](category-products-add.md)
    + [Geplante Änderungen](category-scheduled-changes.md)
    + [Kategorieberechtigungen](category-permissions.md)
-+ {#products}
++ PRODUCT {#products}
    + [Produktliste](products-list.md)
    + [Produktarbeitsbereich](product-workspace.md)
    + [Produkt erstellen](product-create.md)
@@ -60,7 +60,7 @@ ht-degree: 0%
       + [Produkt im Paket](product-create-bundle.md)
       + [Herunterladbares Produkt](product-create-downloadable.md)
       + [Geschenkkarte](product-gift-card-create.md)
-   + für digitale Produktelemente{#digital-assets}
+   + Digitale Produkt-Assets {#digital-assets}
       + [Katalogbilder und -videos](catalog-images-video.md)
       + [Konfiguration von Bild-Assets](product-image-config.md)
       + [Verwalten von Produktbildern](product-image.md)
@@ -68,7 +68,7 @@ ht-degree: 0%
       + Verwalten von Produkt-3D-Modellen {#product-3d-model}
          + [AR Viewer - Übersicht](ar-viewer-overview.md)
          + [AR-Viewer-Setup](ar-viewer-setup.md)
-   + verwalten{#pricing}
+   + Preise verwalten {#pricing}
       + [Preisspanne](catalog-price-scope.md)
       + [Erweiterte Preisgestaltung](pricing-advanced.md)
       + [Preisgestaltung einer Gruppe](product-price-group.md)
@@ -76,7 +76,7 @@ ht-degree: 0%
       + [Preisstufe](product-price-tier.md)
       + [Angebotshöchstpreis](product-price-minimum-advertised.md)
    + [Planen von Produkt-Updates](product-scheduled-changes.md)
-   + zu Produkteinstellungen{#settings}
+   + Referenz zu Produkteinstellungen {#settings}
       + [Quellen](sources.md)
       + [Inhalt](product-content.md)
       + [Konfigurationen](product-configurations.md)
@@ -84,20 +84,19 @@ ht-degree: 0%
       + [Bilder und Videos](product-images-and-video.md)
       + [Suchmaschinenoptimierung](product-search-engine-optimization.md)
       + [Ähnliche Produkte, Upsell und Crosssell](related-products-up-sells-cross-sells.md)
-      + [Optimierung der Produktansicht](product-view-optimization.md)
       + [Anpassbare Optionen](settings-advanced-custom-options.md)
       + [Produkt in Websites](settings-basic-websites.md)
       + [Design](settings-advanced-design.md)
       + [AutoSettings](product-autosettings.md)
       + [Geschenkoptionen](product-gift-options.md)
-+ der Produktattribute{#product-attributes}
++ Produktattribute {#product-attributes}
    + [Attributübersicht](product-attributes.md)
    + [Attributeingabetyp](attributes-input-types.md)
    + [Hinzufügen von Attributen zu einem Produkt](product-attributes-add.md)
    + [Produktmuster](swatches.md)
-   + Erstellen und Aktualisieren von Attributen {#create}
+   + Attribute erstellen und aktualisieren {#create}
       + [Attribute erstellen und löschen](attribute-product-create.md)
       + [Massenaktualisierungen](bulk-product-attribute-update.md)
       + [Attributsätze](attribute-sets.md)
-+ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
++ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
