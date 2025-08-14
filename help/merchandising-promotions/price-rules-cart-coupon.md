@@ -73,7 +73,7 @@ Die Länge und das Format der automatisch generierten Couponcodes werden von der
 
 >[!NOTE]
 >
->[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Bevor Sie Coupons erstellen, überprüfen Sie mit dem `bin/magento cron:run`-Befehl, ob cron ausgeführt wird. Weitere Informationen finden [ unter „Ausführen von ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) über die Befehlszeile _im Konfigurationshandbuch_.
+>[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Bevor Sie Coupons erstellen, überprüfen Sie mit dem `bin/magento cron:run`-Befehl, ob cron ausgeführt wird. Weitere Informationen finden [ unter „Ausführen von ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=de#run-cron-from-the-command-line) über die Befehlszeile _im Konfigurationshandbuch_.
 
 ### Methode 1: Erstellen eines bestimmten Coupons
 
