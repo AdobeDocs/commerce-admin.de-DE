@@ -3,9 +3,9 @@ title: Couponcodes
 description: Erfahren Sie, wie Sie Gutscheincodes mit Warenkorbpreisregeln verwenden können, um einen Rabatt anzuwenden, wenn eine Reihe von Bedingungen erfüllt ist.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: fdc14758788fa5cd0391371ebfafb478dadec8a4
+source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,17 @@ Ab Commerce 2.4.7 können Käufer mehrere Coupons auf einen Warenkorb anwenden. 
 >Regeln für den Warenkorbpreis, die dieselbe Priorität haben, führen nicht zu einem kombinierten Rabatt. Jede Regel (Coupon) wird separat auf übereinstimmende Produkte angewendet, und zwar einzeln entsprechend der Warenkorb-Preisregel-ID in der Datenbank. Um die Reihenfolge zu steuern, in der Rabatte angewendet werden, empfiehlt Adobe, für jede zusätzliche Warenkorb-Preisregel eine andere Priorität festzulegen.
 
 ## Gutscheincodes konfigurieren
+
+>[!BEGINSHADEBOX]
+
+Standardmäßig unterstützt Commerce zwei Methoden zum Erstellen von Gutscheincodes:
+
+1. Erstellen eines einzelnen spezifischen Gutscheincodes
+1. Erstellen mehrerer _zufälliger_ Couponcodes
+
+Wenn Sie bereits über eine Liste von Gutscheincodes verfügen, die Sie importieren und mit einer Warenkorb-Preisregel verknüpfen möchten, sollten Sie eine Erweiterung aus der [Commerce Marketplace](https://marketplace.magento.com/) verwenden.
+
+>[!ENDSHADEBOX]
 
 Die Länge und das Format der automatisch generierten Couponcodes werden von der Konfiguration gesteuert. Die Zeichen können auf alle Zahlen, alle Buchstaben oder eine Kombination festgelegt werden. Sie können in festgelegten Abständen einen Bindestrich einfügen, um die Lektüre zu vereinfachen, und ein Präfix und ein Suffix hinzufügen, um den Code mit einer bestimmten Kampagne oder Initiative zu verknüpfen.
 
@@ -62,7 +73,7 @@ Die Länge und das Format der automatisch generierten Couponcodes werden von der
 
 >[!NOTE]
 >
->[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Bevor Sie Coupons erstellen, überprüfen Sie mit dem `bin/magento cron:run`-Befehl, ob cron ausgeführt wird. Weitere Informationen finden [ unter „Ausführen von ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=de#run-cron-from-the-command-line) über die Befehlszeile _im Konfigurationshandbuch_.
+>[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Bevor Sie Coupons erstellen, überprüfen Sie mit dem `bin/magento cron:run`-Befehl, ob cron ausgeführt wird. Weitere Informationen finden [ unter „Ausführen von ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) über die Befehlszeile _im Konfigurationshandbuch_.
 
 ### Methode 1: Erstellen eines bestimmten Coupons
 
@@ -168,11 +179,7 @@ Die Erstellung von Rabattgutscheinen ist ein asynchroner Vorgang, der im Hinterg
 
 Sie können Gutscheincodes in eine CSV- oder Excel-XML-Datei exportieren, indem Sie das Dateiformat auswählen und auf **[!UICONTROL Export]** klicken.
 
-Um Gutscheincodes zu löschen, wählen Sie einen oder mehrere Codes aus der Liste aus. Wählen Sie in der **[!UICONTROL Actions]**-Auswahl die Option `Delete` aus, und klicken Sie dann auf **[!UICONTROL Submit]**.
-
->[!NOTE]
->
->Obwohl Commerce die Konfiguration mehrerer Gutscheincodes ermöglicht, kann eine Kundin oder ein Kunde nur einen Gutscheincode im Warenkorb verwenden. Um die gleichzeitige Verwendung von mehr als einem Couponcode im Warenkorb zu ermöglichen, können Sie eine entsprechende Erweiterung von [Commerce Marketplace](https://marketplace.magento.com/) verwenden.
+Um Gutscheincodes zu löschen, wählen Sie einen oder mehrere Codes aus der Liste aus. Wählen Sie in der `Delete`-Auswahl die Option **[!UICONTROL Actions]** aus, und klicken Sie dann auf **[!UICONTROL Submit]**.
 
 ## Bericht zu Coupons
 
