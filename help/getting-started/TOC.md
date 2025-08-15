@@ -5,10 +5,10 @@ breadcrumb-title: Erste Schritte
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: 536301eca1ded28a32686f0a893e7bb31e64bb30
+source-git-commit: b45824312b02204f1031b04c215ca42c5298d824
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -17,37 +17,32 @@ ht-degree: 1%
 
 + [Erste Schritte für Adobe Commerce-Admins](guide-overview.md)
 + [Anmeldedaten und URLs](login-urls.md)
-+ Commerce-{#commerce-account}
++ Commerce-Konten {#commerce-account}
    + [Konto erstellen und aufrufen](commerce-account-create.md)
    + [Konto sichern](commerce-account-secure.md)
    + [Konto freigeben](commerce-account-share.md)
    + [Konto übertragen](commerce-account-transfer.md)
-+ Site-Compliance-{#compliance}
++ Site-Compliance {#compliance}
    + HIPAA-Bereitschaft auf Adobe Commerce{#hipaa-ready-service}
-      + [Übersicht](hipaa/overview.md)
+      + [Überblick](hipaa/overview.md)
       + [Operative Leitlinien](hipaa/operations.md)
-   + {#privacy}
+   + DATENSCHUTZ {#privacy}
       + [Datenschutzrichtlinie speichern](privacy-policy.md)
       + [CCPA-Konformität](compliance-ccpa.md)
       + [DSGVO-Compliance](compliance-gdpr.md)
       + [Cookie-Gesetzestreue](compliance-cookie-law.md)
-   + {#payments}
+   + Zahlungen {#payments}
       + [PCI-Compliance](compliance-pci.md)
       + [Zahlungsdiensterichtlinie](compliance-payment-services-directive.md)
    + [Barrierefreiheit](navigation-accessibility.md)
-+ Die Admin-{#admin}
++ Der Administrator {#admin}
    + [Was ist der Administrator?](admin.md)
    + [Ihr Admin-Benutzerkonto](admin-signin.md)
-   + Adobe Identity Management Service (IMS)-{#ims}
+   + Integration von Adobe Identity Management Service (IMS) {#ims}
       + [Übersicht über die IMS-Integration](adobe-ims-integration-overview.md)
       + [Konfigurieren der Admin-Integration mit IMS](adobe-ims-config.md)
       + [Deaktivieren der Admin-Integration mit IMS](adobe-ims-disable.md)
-   + Adobe Experience Cloud-{#unifiedexperience}
-      + [Übersicht](admin-unified-experience-integration-overview.md)
-      + [Integration konfigurieren](admin-unified-experience-integration-configure.md)
-      + [Verwalten der Experience Cloud-Integration](admin-unified-experience-integration-manage.md)
-      + [Versionshinweise](admin-unified-experience-release-notes.md)
-   + Admin-Tools und Arbeitsbereich-{#tools}
+   + Admin-Tools und -Arbeitsbereich {#tools}
       + [Workspace](admin-workspace.md)
       + [Die Admin-Seitenleiste](admin-menu.md)
       + [Dashboard](admin-dashboard.md)
@@ -57,12 +52,12 @@ ht-degree: 1%
 + Die Storefront {#storefront}
    + [Was ist die Storefront?](storefront.md)
    + [Verbesserte Store-Erlebnisse](enhanced-experiences.md)
-+ Grundlegende Einrichtung und {#setup}
++ Grundlegende Einrichtung und Konfiguration {#setup}
    + [Site-, Speicher- und Anzeigebereich](websites-stores-views.md)
    + [Store-Details](store-details.md)
    + [Storefront-Branding](storefront-branding.md)
    + [Checkliste für den Vorabstart](prelaunch-checklist.md)
-+ Standard-{#reporting}
++ Standardberichterstellung  {#reporting}
    + [Menü Berichte](reports-menu.md)
    + [Marketing-Berichte](marketing-reports.md)
    + [Berichte überprüfen](review-reports.md)
@@ -72,9 +67,9 @@ ht-degree: 1%
    + [Berichte zum Privatverkauf](private-sales-reports.md)
    + [Commerce Intelligence-Tools](business-intelligence.md)
    + [New Relic-Berichte](new-relic-reporting.md)
-+ Ressourcen-{#resources}
++ Ressourcen {#resources}
    + [Ökosystem](resources.md)
    + [Erweiterungen](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
++ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
