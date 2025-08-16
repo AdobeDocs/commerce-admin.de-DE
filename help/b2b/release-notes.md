@@ -28,7 +28,7 @@ In diesen Versionshinweisen für die B2B-Erweiterung werden Ergänzungen und Feh
 
 Kompatibel mit Adobe Commerce Version 2.4.9-alpha2
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
 
 ## B2B v1.5.2-p2
 
@@ -37,7 +37,7 @@ Kompatibel mit Adobe Commerce Version 2.4.9-alpha2
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitspatches der Adobe Commerce-Versionen 2.4.8-p2, 2.4.7-p7 und 2.4.6-p12.
 Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p6, 2.4.6 bis 2.4.6-p11.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
 
 ## B2B v1.5.2-p1
 
@@ -46,7 +46,7 @@ Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p6, 2.4.6 bis 2.4.6-p11.
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitspatches der Adobe Commerce-Versionen 2.4.8-p1, 2.4.7-p6 und 2.4.6-p11.
 Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p5, 2.4.6 bis 2.4.6-p10
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/de/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B 1.5.2
 
@@ -206,7 +206,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitsaktualisierungen für Adobe Commerce 2.4.7-p7+ und 2.4.6-p12+.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
 
 {{b2b-compatibility}}
 
@@ -216,7 +216,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce-Sicherheits-Patch-Versionen 2.4.7-p6+ und 2.4.6-p11+.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/de/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
 
 {{b2b-compatibility}}
 
@@ -358,7 +358,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce-Sicherheits-Patch-Versionen 2.4.6-p12+.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.5-p10
 
@@ -440,7 +440,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.0 und neuere Versionen
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.4-p13
 
@@ -450,7 +450,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Neu](../assets/new.svg) Unterstützung für Adobe Commerce 2.4.5-p12 wurde hinzugefügt.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/de/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.4-p12
 
@@ -522,7 +522,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.0 und neuere Versionen
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.3-p14
 
@@ -532,7 +532,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Neu](../assets/new.svg) Unterstützung für Adobe Commerce 2.4.5-p12 wurde hinzugefügt.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/de/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.3
 
