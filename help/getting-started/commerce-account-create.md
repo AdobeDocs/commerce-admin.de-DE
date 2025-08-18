@@ -3,9 +3,9 @@ title: 'Konto erstellen und  [!DNL Commerce] '
 description: Erfahren Sie mehr über  [!DNL Commerce] -Konten, die die von Ihnen erworbenen Produkte und Services verwalten.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d5f5405c9470e77327f2978f503cec800a440b5d
+source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -13,17 +13,13 @@ ht-degree: 0%
 
 # Zugriff auf Ihr [!DNL Commerce]
 
-Sie können über die [!DNL Commerce]-Website auf Ihr Konto zugreifen. Im Dashboard Ihres [!DNL Commerce]-Kontos finden Sie Informationen zu den von Ihnen erworbenen Produkten und Services sowie Ihre Kontakt- und Rechnungsinformationen. Einige Informationen sind nur für Lizenzinhaber sichtbar.
-
-Sie können über die [!DNL Commerce]-Website auf Ihr Konto zugreifen. Das Konto-Dashboard zeigt Ihre gekauften Produkte, Services und Kontakt- oder Rechnungsdetails an. Einige Informationen sind nur für Lizenzinhaber sichtbar.
+Sie können über die [!DNL Commerce]-Website auf Ihr [!DNL Commerce]-Konto zugreifen. Im Dashboard Ihres [!DNL Commerce]-Kontos finden Sie Informationen zu den von Ihnen erworbenen Produkten und Services sowie Ihre Kontakt- und Rechnungsinformationen. Einige Informationen sind nur für Lizenzinhaber sichtbar.
 
 ![Ihr [!DNL Commerce]-Konto](./assets/home-acct.png){width="700"}
 
 Die Anmeldung mit Ihrem [!DNL Commerce] Konto ist nicht mit der Anmeldung bei Ihrem Store-Administrator identisch. Normalerweise verwenden Sie für jedes System unterschiedliche Anmeldeinformationen, und der Zugriff auf jedes System wird unabhängig verwaltet.
 
-Benutzende, die ihre Anmeldung bei Adobe Commerce- und Adobe Business-Produkten optimieren möchten, können jedoch ihre Adobe ID so konfigurieren, dass sie sich beim Store-Admin anmelden: [Konfigurieren der Commerce Admin-Integration mit Adobe ID](https://experienceleague.adobe.com/de/docs/commerce-admin/start/admin/ims/adobe-ims-config)
-
-Ihre Commerce- und Store-Admin-Anmeldedaten sind getrennt und verfügen über unterschiedliche Anmeldedaten und einen unabhängig verwalteten Zugriff. Sie können den Zugriff jedoch optimieren, indem Sie Ihre Adobe ID so konfigurieren, dass sie sich beim Store-Administrator anmeldet. Siehe [Konfigurieren der Commerce Adobe ID Admin-Integration mit ] im *IMS-Integrationshandbuch für Commerce*.
+Benutzende, die ihre Anmeldung bei Adobe Commerce- und Adobe Business-Produkten optimieren möchten, können ihre Adobe ID jedoch so konfigurieren, dass sie sich beim Store-Admin anmelden: [Konfigurieren der Commerce-Admin-Integration mit Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) im *IMS-Integrationshandbuch für Commerce*.
 
 >[!NOTE]
 >
@@ -31,7 +27,7 @@ Ihre Commerce- und Store-Admin-Anmeldedaten sind getrennt und verfügen über un
 
 ## Beim [!DNL Commerce]-Konto anmelden
 
-Für den Zugriff auf ein Commerce-Konto ist eine Adobe ID erforderlich. Wenn Sie bereits über ein Commerce-Konto verfügen, aber keine Adobe ID haben, können Sie während des Anmeldevorgangs eines erstellen.
+Für den Zugriff auf ein Commerce-Konto ist eine Adobe ID erforderlich. Wenn Sie bereits über ein [!DNL Commerce] verfügen, sich aber seit August 2022 nicht mehr bei diesem Konto angemeldet haben, müssen Sie während des Anmeldevorgangs eine Adobe ID erstellen.
 
 >[!WARNING]
 >
