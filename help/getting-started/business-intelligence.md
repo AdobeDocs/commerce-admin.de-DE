@@ -1,18 +1,19 @@
 ---
 title: '[!DNL Commerce Intelligence]'
-description: Erfahren Sie, wie Adobe Commerce- und Magento Open Source-Händler Commerce Intelligence-Tools verwenden können, um Einblicke zu erhalten, die für fundierte Geschäftsentscheidungen verwendet werden.
+description: Erfahren Sie, wie Adobe Commerce- und Magento Open Source-Händler Commerce Intelligence-Tools verwenden können, um die insight zu erhalten, mit der fundierte Geschäftsentscheidungen getroffen werden.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-source-git-commit: 78bcac16713f9ec87faf7029732972db73216e79
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
 
 # [!DNL Commerce Intelligence]
 
-Verwenden Sie Commerce Intelligence-Tools, um Erkenntnisse zu gewinnen, die für fundierte Geschäftsentscheidungen verwendet werden.
+Verwenden Sie Commerce Intelligence-Tools, um die insight zu erhalten, die für fundierte Geschäftsentscheidungen verwendet wird.
 
 ## [!DNL Commerce Intelligence]
 
@@ -59,7 +60,7 @@ In der [!DNL Commerce]-Konfiguration ist [[!DNL Advanced Reporting]](../configur
 
    * Stellen Sie sicher, dass **[!UICONTROL Advanced Reporting Service]** auf `Enable` (Standardeinstellung) gesetzt ist.
 
-   * Legen Sie für die **[!UICONTROL Time of day to send data]** die Stunde, Minute und Sekunde fest (entsprechend einer 24-Stunden-Uhrzeit), bis zu der der Service aktualisierte Daten aus Ihrem Store erhalten soll. Standardmäßig werden die Daten um 2:00 Uhr gesendet.
+   * Legen Sie für die **[!UICONTROL Time of day to send data]** die Stunde, Minute und Sekunde fest (entsprechend einer 24-Stunden-Uhrzeit), bis zu der der Service aktualisierte Daten aus Ihrem Store erhalten soll. Standardmäßig werden die Daten um 2:00 :00 gesendet.
 
    * Wählen Sie unter **[!UICONTROL Industry Data]** die **[!UICONTROL Industry]** aus, die Ihr Unternehmen am besten beschreibt.
 
@@ -177,6 +178,6 @@ Wenn Sie bemerken, dass die `Data last updated...` Beschriftung das Datum vom Vo
 {style="table-layout:auto"}
 
 
-[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=de
+[1]: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html
 [2]: https://developer.adobe.com/commerce/php/development/advanced-reporting/
-[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=de
+[3]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html

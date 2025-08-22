@@ -1,18 +1,19 @@
 ---
 title: Kundenberichte
-description: In Adobe Commerce und Magento Open Source verfügbare Kundenberichte bieten Einblicke in die Kundenaktivität während eines bestimmten Zeitraums oder Datumsbereichs.
+description: In Adobe Commerce und Magento Open Source verfügbare Kundenberichte bieten insight für Kundenaktivitäten während eines bestimmten Zeitraums oder Datumsbereichs.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-source-git-commit: a530d74f8d073f834f310826562407b8f949f17b
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
 
 # Kundenberichte
 
-Kundenberichte bieten Einblicke in die Kundenaktivität während eines bestimmten Zeitraums oder Datumsbereichs.
+Kundenberichte liefern insight in eine Kundenaktivität während eines bestimmten Zeitraums oder Datumsbereichs.
 
 ## [!UICONTROL Order Total Report]
 

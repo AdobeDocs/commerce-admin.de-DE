@@ -4,9 +4,10 @@ description: Erfahren Sie mehr über die  [!DNL New Relic] -Berichte, die für K
 exl-id: 65d08bda-da01-4dcf-9d92-189d4d303c76
 role: Admin, Leader
 feature: System
-source-git-commit: 0651a2489a396ab142b60a8678d6c7590fd5f9ee
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -21,15 +22,15 @@ ht-degree: 0%
 
    Sie können sich auch für ein kostenloses Testkonto anmelden.
 
-1. Folgen Sie den Anweisungen auf der Website. Wenn Sie dazu aufgefordert werden, wählen Sie das Produkt aus, das Sie zuerst installieren möchten.
+1. Befolgen Sie die Anweisungen auf der Website. Wählen Sie bei Aufforderung das Produkt aus, das Sie zuerst installieren möchten.
 
-1. Suchen Sie in Ihrem Konto die folgenden Anmeldeinformationen, die zum Abschließen der Commerce-Konfiguration erforderlich sind:
+1. Suchen Sie in Ihrem -Konto die folgenden Anmeldedaten, die zum Abschließen der Commerce-Konfiguration erforderlich sind:
 
    | Option | Beschreibung |
    | ------ | ----------- |
    | Konto-ID | Im Dashboard Ihres [!DNL New Relic]-Kontos ist die Konto-ID die Zahl in der URL nach: `/accounts` |
-   | Anwendungs-ID | Klicken Sie im Dashboard Ihres [!DNL New Relic]-Kontos auf **[!UICONTROL New Relic APM]**. Wählen Sie im Menü **[!UICONTROL Applications]** aus. Wählen Sie dann Ihr Programm aus. Die Anwendungs-ID ist die Nummer im URL nach: `/applications/` |
-   | Neu Relic-API-Schlüssel | Klicken Sie im Dashboard Ihres [!DNL New Relic]-Kontos auf **[!UICONTROL Account Settings]**. Wählen Sie im Menü links unter Integrationen **[!UICONTROL Data Sharing]** aus. Sie können Ihren API-Schlüssel auf dieser Seite erstellen, neu generieren oder löschen. |
+   | Anwendungs-ID | Klicken Sie im Dashboard Ihres [!DNL New Relic]-Kontos auf **[!UICONTROL New Relic APM]**. Wählen Sie im Menü **[!UICONTROL Applications]** aus. Wählen Sie dann Ihr Programm aus. Die Anwendungs-ID ist die Zahl in der URL nach: `/applications/` |
+   | New Relic-API-Schlüssel | Klicken Sie im Dashboard Ihres [!DNL New Relic]-Kontos auf **[!UICONTROL Account Settings]**. Wählen Sie im Menü links unter Integrationen **[!UICONTROL Data Sharing]** aus. Sie können Ihren API-Schlüssel auf dieser Seite erstellen, neu generieren oder löschen. |
    | Insights-API-Schlüssel | Klicken Sie im Dashboard Ihres [!DNL New Relic]-Kontos auf **[!UICONTROL Insights]**. Wählen Sie im Menü links unter Administration die Option **[!UICONTROL API Keys]** aus. Ihre Insights-API-Schlüssel werden auf dieser Seite angezeigt. Klicken Sie ggf. auf das Pluszeichen (**+**) neben Schlüssel einfügen , um einen Schlüssel zu generieren. |
 
    {style="table-layout:auto"}
@@ -53,7 +54,7 @@ Um [!DNL New Relic APM Pro] zum Erfassen und Übertragen von Daten zu verwenden
 >[!NOTE]
 >Diese Konfigurationsoptionen gelten nicht für Adobe Commerce in der Cloud-Infrastruktur.
 >
->Wenn Sie den Pro-Plan verwenden, ist New Relic bereits [vorkonfiguriert und standardmäßig aktiviert](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=de). Wenn Sie den Starter-Plan verwenden, müssen Sie die [New Relic-Konfigurationsschritte](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html?lang=de#configure-new-relic-for-starter-environment) ausführen, die Teil des Einrichtungsprozesses sind.
+>Wenn Sie den Pro-Plan verwenden, ist New Relic bereits [vorkonfiguriert und standardmäßig aktiviert](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html). Wenn Sie den Starter-Plan verwenden, müssen Sie die [New Relic-Konfigurationsschritte](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/account-management.html#configure-new-relic-for-starter-environment) ausführen, die Teil des Einrichtungsprozesses sind.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -127,18 +128,18 @@ Gibt die Anzahl der letzten Admin-Aktionen zurück.
 
 #### Neueste Admin-Aktivität
 
-Gibt detaillierte Informationen zu den letzten Administratoraktionen zurück, einschließlich Benutzername, Dauer und Applikation Name des Administrators.
+Gibt detaillierte Informationen zu aktuellen Admin-Aktionen zurück, einschließlich Admin-Benutzername, Dauer und Anwendungsname.
 
     SELECT AdminName, duration, name
     FROM Transaction
     WHERE appName=&#39;&lt;your_app_name>&#39; AND AdminName IS NOT NULL
-    AND AdminName !&lt;/your_app_name>= &#39;N/A&#39; LIMIT 50
+    AND AdminName != &#39;NICHT ZUTREFFEND&#39; GRENZE 50
 
 ### Cron-Ereignisse
 
-#### Kategorie Anzahl
+#### Anzahl der Kategorien
 
-Gibt die Anzahl der Applikation Ereignisse in Kategorie während der angegebenen Zeitraum zurück.
+Gibt die Anzahl der Anwendungsereignisse nach Kategorie während des angegebenen Zeitraums zurück.
 
     SELECT average(CatalogCategoryCount)
     FROM Cron
@@ -154,9 +155,8 @@ Gibt die durchschnittliche Anzahl der Anwendungsereignisse im Katalog nach Kateg
     WHERE CatalogCategoryCount IS NOT NULL
     AND CatalogCategoryCount > 0
     AND appName = &#39;&lt;your_app_name>&#39; SINCE 2 minutes ago LIMIT 1
-&lt;/your_app_name>
 
-#### Aktiv Produkte
+#### Aktive Produkte
 
 Gibt die Anzahl der Anwendungsereignisse pro Produkt während des angegebenen Zeitraums zurück.
 
@@ -257,7 +257,7 @@ Gibt die durchschnittliche Anzahl von Anwendungsereignissen pro Website und Stor
 
     SELECT average(StoreViewCount), average(WebsiteCount)
     FROM Cron
-    WHERE appName = &#39;&lt;your_app_name&gt;&#39; TIMESERIES 2 Minuten
+    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 Minuten
 
 #### Aktuelle Website- und Store-Anzahl
 
@@ -309,15 +309,15 @@ Gibt eine definierte Anzahl von Datensätzen der letzten Aktivität zurück, die
     FROM Transaction
     WHERE appName=&#39;&lt;your_app_name>&#39;
     AND CustomerName IS NOT NULL
-    AND CustomerName !&lt;/your_app_name>= &#39;N/A&#39; LIMIT 50
+    AND CustomerName != &#39;NICHT ZUTREFFEND&#39; GRENZE 50
 
-### Aufträge
+### Bestellungen
 
-#### Zahl der aufgegebenen Bestellungen
+#### Anzahl aufgegebener Bestellungen
 
-Gibt die Anzahl der Bestellungen zurück, die während der angegebenen Zeitraum erteilt wurden.
+Gibt die Anzahl der im angegebenen Zeitraum aufgegebenen Bestellungen zurück.
 
-    SELECT count(Order)
+    SELECT count(order)
     FROM Transaktion SINCE 1 day ago
 
 #### Gesamtauftragswert
@@ -327,9 +327,9 @@ Gibt die Gesamtzahl der im angegebenen Zeitraum bestellten Zeileneinträge zurü
     SELECT sum(orderValue)
     FROM Transaktion SINCE 1 day ago
 
-#### Gesamt bestellten Zeileneinträge
+#### Bestellte Zeileneinträge gesamt
 
-Gibt die Gesamtzahl der während der angegebenen Zeitraum bestellten Zeileneinträge zurück.
+Gibt die Gesamtzahl der im angegebenen Zeitraum bestellten Zeileneinträge zurück.
 
     SELECT sum(lineItemCount)
     FROM Transaktion SINCE 1 day ago
@@ -337,6 +337,6 @@ Gibt die Gesamtzahl der während der angegebenen Zeitraum bestellten Zeileneintr
 
 [1]: https://newrelic.com/
 [3]: https://docs.newrelic.com/docs/agents/php-agent/getting-started/new-relic-php
-[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html?lang=de
-[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=de
+[4]: https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service.html
+[5]: https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html
 [6]: https://docs.newrelic.com/docs/insights/new-relic-insights/using-new-relic-query-language/nrql-reference

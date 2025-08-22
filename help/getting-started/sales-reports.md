@@ -3,9 +3,10 @@ title: Verkaufsberichte
 description: Die  [!DNL Commerce] -Berichte helfen Ihnen, Bestellungen, Steuern, Rechnungen, Versand, Rückerstattungen, Gutscheine und PayPal-Abrechnungen zu verfolgen.
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -117,7 +118,7 @@ Weitere Informationen zur Verwendung der [!UICONTROL PayPal Settlement Reports] 
 
 ## [!UICONTROL Braintree Settlement Report]
 
-Die [Braintree](../stores-purchase/braintree.md) Abrechnungsauswertung kann nach Erstellungsdatum, Betrag, Status, Transaktionsart, Zahlungsart, Transaktions-ID, Auftrags-ID, PayPal-Zahlungs-ID, Typ, Händlerkonto-ID oder Abrechnungsstapel-ID gefiltert werden. Die Auswertung enthält die Transaktions-ID, Auftrags-ID, PayPal-Zahlungs-ID, Art, Erstellungsdatum, Betrag, Abrechnungscode, Status, Abrechnungsantwort, Kostenerstattungs-IDs, Händlerkonto-ID, Abrechnungsstapel-ID und Währung.
+Die Abrechnungsauswertung für [Braintree](../stores-purchase/braintree.md) kann nach Erstellungsdatum, Betrag, Status, Transaktionsart, Zahlungsart, Transaktions-ID, Auftrags-ID, PayPal-Zahlungs-ID, Typ, Händlerkonto-ID oder Abrechnungsstapel-ID gefiltert werden. Die Auswertung enthält die Transaktions-ID, Auftrags-ID, PayPal-Zahlungs-ID, Art, Erstellungsdatum, Betrag, Abrechnungscode, Status, Abrechnungsantwort, Kostenerstattungs-IDs, Händlerkonto-ID, Abrechnungsstapel-ID und Währung.
 
 Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Reports]** > _[!UICONTROL Sales]_>**[!UICONTROL Braintree Settlement]**.
 

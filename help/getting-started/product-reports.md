@@ -1,18 +1,19 @@
 ---
 title: Produktberichte
-description: Die in Adobe Commerce und Magento Open Source verfügbaren Produktberichte geben Ihnen Einblicke in angezeigte und bestellte Produkte, Bestseller, Lagerbestände und Downloads.
+description: Die in Adobe Commerce und Magento Open Source verfügbaren Produktberichte geben Ihnen insight zu angezeigten und bestellten Produkten, Bestsellern, Lagerbeständen und Downloads.
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Produktberichte
 
-Die Produktberichte geben Ihnen Einblicke in angezeigte und bestellte Produkte, Bestseller, Lagerbestände und Downloads.
+Die Produktberichte enthalten insight zu angezeigten und bestellten Produkten, Bestsellern, Lagerbeständen und Downloads.
 
 ## [!UICONTROL Product Views Report]
 

@@ -3,9 +3,10 @@ title: Berichte überprüfen
 description: Wenn Ihre Site die integrierte Überprüfungsfunktion verwendet, enthalten Überprüfungsberichte Informationen zu Produktüberprüfungen nach Kunde und Produkt.
 exl-id: f337c0fc-a8fd-43ef-82db-f11741e6dc76
 feature: Reporting, Customers, Products
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---

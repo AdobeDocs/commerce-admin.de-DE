@@ -3,9 +3,10 @@ title: Menü [!UICONTROL Reports]
 description: Adobe Commerce und Magento Open Source bieten eine große Auswahl an Berichten, mit denen Sie über Ihre Marketing-Maßnahmen, Verkaufsprodukte und Kundenaktivitäten auf dem Laufenden gehalten werden.
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
-source-git-commit: 35025c69bf9ba3902693cb9694bcf2b4e7882c7f
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: c406add80981387305755221f21624dad475e63f
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -32,11 +33,11 @@ Die Auswahl von [Prüfungsberichten](review-reports.md) umfasst Nach Kunde und N
 
 ### [!UICONTROL Sales]
 
-Die Auswahl von [Verkaufsberichten](sales-reports.md) umfasst Bestellungen, Steuer, Fakturiert, Versand, Rückerstattungen, Gutscheine und Abrechnungsberichte für PayPal und Braintree.
+Die Auswahl von [Verkaufsberichten](sales-reports.md) umfasst Bestellungen, Steuern, Fakturiert, Versand, Rückerstattungen, Gutscheine und Abrechnungsberichte für PayPal und Braintree.
 
 ### [!UICONTROL System Insights]
 
-(Nur Adobe Commerce) Die [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=de) bietet Systemeinblicke für Installationen von Adobe Commerce auf Cloud-Infrastrukturen mit 24/7-Echtzeit-Leistungsüberwachung, Berichten und Empfehlungen.
+(Nur Adobe Commerce) Die [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) bietet Systemeinblicke für Installationen von Adobe Commerce auf Cloud-Infrastrukturen mit 24/7-Echtzeit-Leistungsüberwachung, Berichten und Empfehlungen.
 
 ### [!UICONTROL Customers]
 
@@ -56,4 +57,4 @@ Die Auswahl an [Produktberichten](product-reports.md) umfasst Ansichten, Bestsel
 
 ### [!DNL Commerce Intelligence]
 
-Integrierte [[!DNL Commerce Intelligence]](business-intelligence.md)-Tools bieten die Einblicke, die Sie für strategische Geschäftsentscheidungen benötigen.
+Integrierte [[!DNL Commerce Intelligence]](business-intelligence.md)-Tools bieten die insight, die Sie für strategische Geschäftsentscheidungen benötigen.
