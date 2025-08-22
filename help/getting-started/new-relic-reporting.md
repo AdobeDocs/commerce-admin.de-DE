@@ -257,7 +257,7 @@ Gibt die durchschnittliche Anzahl von Anwendungsereignissen pro Website und Stor
 
     SELECT average(StoreViewCount), average(WebsiteCount)
     FROM Cron
-    WHERE appName = &#39;&amp;lt;your_app_name&amp;gt;&#39; TIMESERIES 2 Minuten
+    WHERE appName = &#39;&lt;your_app_name&gt;&#39; TIMESERIES 2 Minuten
 
 #### Aktuelle Website- und Store-Anzahl
 
