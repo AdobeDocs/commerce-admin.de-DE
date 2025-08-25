@@ -4,33 +4,69 @@ description: Erfahren Sie mehr über Firmenkreditlinien, das Festlegen von Param
 exl-id: 62ff2a36-053d-4ba0-9969-0f05701afbff
 feature: B2B, Companies, Payments
 role: Admin
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+source-git-commit: 1fc1e07f20e2c22ac430f384e9e2b278edae405c
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # Firmenkredite verwalten
 
-Wenn [Zahlung auf Konto](../getting-started/../b2b/enable-basic-features.md#configure-payment-on-account) in der Konfiguration aktiviert ist, können Unternehmen bis zu dem Kreditlimit, das dem Unternehmen gewährt wird, auf ihrem Konto Käufe tätigen. Wenn diese Option aktiviert ist, können Kundinnen und Kunden den Status ihres Firmenguthabens über ihr Konto-Dashboard überprüfen.
+Firmenkredite ermöglichen B2B-Unternehmen, Käufe gegen eine vorab genehmigte Kreditlinie zu tätigen, anstatt eine sofortige Zahlung zu verlangen. Wenn [Zahlung auf Konto](../b2b/enable-basic-features.md#configure-payment-on-account) aktiviert ist, können Unternehmen bis zu ihrem Kreditlimit kaufen und ihren Kreditstatus über das Konto-Dashboard einsehen.
 
 ![Firmenkredit](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-Für jedes Unternehmensprofil können die folgenden kreditbezogenen Parameter festgelegt werden:
+Firmenkredite bieten Ihnen folgende Möglichkeiten:
 
-- Kreditwährung
-- Kreditlimit
-- Überschreiten des Kreditlimits zulassen
-- Änderungsgrund
+* **Kreditbedingungen verlängern** - Vertrauenswürdigen Geschäftskunden den Kauf auf Rechnung mit Zahlungsaufschub ermöglichen
+* **Kreditlimits festlegen** - Kontrollieren Sie finanzielle Risiken, indem Sie Kreditlimits für jedes Unternehmen festlegen
+* **Kreditaktivität verfolgen** - Überwachen Sie alle Kredittransaktionen, Zahlungen und ausstehenden Salden in Echtzeit
+* **B2B-Transaktionen optimieren** - Vereinfachen Sie den Einkaufsprozess für Unternehmen mit etablierten Kreditbeziehungen
+* **Unterstützung komplexer Workflows** - Integration in Bestellungen, Angebote und Genehmigungsprozesse
 
-Wenn das Unternehmen über einen ausstehenden Saldo verfügt, wird bei der Anzeige im Admin-Bereich oben im Kundenauftrag ein Hinweis an den Filialadministrator angezeigt. Weitere Informationen finden Sie unter [Erstellen eines Unternehmenskontos](account-company-create.md).
+## Voraussetzungen
+
+Stellen Sie vor der Einrichtung des Firmenkredits Folgendes sicher:
+
+* B2B-Funktionen sind in Ihrer Adobe Commerce-Installation aktiviert
+* [Zahlung auf Konto](../b2b/enable-basic-features.md#configure-payment-on-account) ist konfiguriert und aktiviert
+* Die Unternehmenskonten sind ordnungsgemäß mit den erforderlichen Geschäftsinformationen eingerichtet.
+* Sie verfügen über Administratorrechte zur Verwaltung der Einstellungen für Firmenkredite.
+* Währungseinstellungen werden konfiguriert, wenn in mehreren Währungen gearbeitet wird
+
+## Anwendungsszenarien
+
+Firmenkredite sind ideal für:
+
+* **Etablierte B2B-** - Langfristige Geschäftskunden mit bewährter Zahlungsgeschichte
+* **Großkunden** - Unternehmen, die regelmäßig umfangreiche Einkäufe tätigen, die längere Zahlungsfristen erfordern
+* **Saisonale Geschäfte** - Unternehmen mit zyklischem Cashflow, die flexible Zahlungsfristen benötigen
+* **Unternehmensbeschaffung** - Organisationen mit zentralisiertem Einkauf, aber verteilter Zahlungsverarbeitung
+* **Lieferkettenpartner** - Distributoren, Händler und Channel-Partner, die Kreditfazilitäten benötigen
+
+## Grundlegendes zu Einstellungen für Firmenkredite
+
+Für jedes Unternehmensprofil können die folgenden kreditbezogenen Parameter konfiguriert werden:
+
+* **Kreditwährung** - Währung für alle Kredittransaktionen und -salden
+* **Kreditlimit** - Höchstbetrag, den das Unternehmen jederzeit schulden kann
+* **Überschreiten des Kreditlimits zulassen**— Gibt an, ob Unternehmen Aufträge aufgeben können, die das verfügbare Guthaben überschreiten
+* **Änderungsgrund** - Dokumentationsfeld zur Aufzeichnung von Änderungen der Krediteinstellungen
+
+Weitere Informationen zu diesen Einstellungen und zum Konfigurieren des Firmenprofils finden Sie unter [Erstellen eines Firmenkontos](account-company-create.md).
+
+>[!NOTE]
+>
+>Wenn ein Unternehmen einen offenen Saldo hat, wird dem Filialadministrator bei der Anzeige im Admin oben in den Kundenaufträgen ein Hinweis angezeigt. Dadurch wird sichergestellt, dass der Status der Gutschrift bei der Auftragsverarbeitung bekannt ist.
 
 ## Firmenkreditaktivität
 
-Im Abschnitt [!UICONTROL Company Credit] des Firmenprofils wird eine Zusammenfassung der Aktivität „Kundenkredit“ mit einem Raster der Historie der Firmenkredite angezeigt.
+Im Abschnitt [!UICONTROL Company Credit] des Firmenprofils wird eine vollständige Historie aller Kredittransaktionen, Saldenänderungen und Zahlungsaktivitäten in einem Rasterformat angezeigt.
 
 ![Firmenkreditaktivität](./assets/company-credit-reimbursements-grid.png){width="700" zoomable="yes"}
+
+Das Raster zeigt die folgenden Informationen für jede Transaktion an:
 
 | Spalte | Beschreibung |
 |--- |--- |
@@ -38,7 +74,7 @@ Im Abschnitt [!UICONTROL Company Credit] des Firmenprofils wird eine Zusammenfas
 | [!UICONTROL Operation] | Der Aktivitätstyp, der mit der Transaktion verbunden ist. Werte: <br/>**[!UICONTROL Allocated]**- Dem Unternehmen zugewiesene Gutschrift.<br/>**[!UICONTROL Updated]** - Änderung wurde auf eines der folgenden Felder angewendet: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- Bestellung wurde aufgegeben.<br/>**[!UICONTROL Reimbursed]** - Der ausstehende Restbetrag wurde zurückgezahlt. <br/>**[!UICONTROL Refunded]**- Ein Gutschriftsbetrag wurde zurückerstattet.<br/>**[!UICONTROL Reverted]** - Der Auftrag wurde storniert und der Betrag auf das Guthaben zurückgeführt. |
 | [!UICONTROL Amount] | Der Transaktionsbetrag, der den folgenden Transaktionsarten zugeordnet ist: `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>Bei Kaufbeträgen wird der Betrag in der Anzeigewährung des Geschäfts und im Format der Einstellung der Kreditwährung angezeigt, gefolgt vom aktuellen Umrechnungskurs (falls zutreffend). Beispiel: <br/>EUR 20.000,00 ($22.400,00) <br/>USD/EUR 0,8928 |
 | [!UICONTROL Outstanding Balance] | Der erstattete Betrag abzüglich des fälligen Gesamtbetrags aller Bestellungen, die mit der Zahlungsmethode „Auf Konto“ aufgegeben wurden. Der Betrag kann als positiver oder negativer Wert erscheinen. <br/>**[!UICONTROL Positive value]**- Eine Vorauszahlung wird als positiver Wert dargestellt.<br/>**[!UICONTROL Negative value]** - Ein fälliger Betrag wird als negativer Wert dargestellt. |
-| [!UICONTROL Available Credit] | Die Summe aus _[!UICONTROL Credit Limit]_&#x200B;und&#x200B;_[!UICONTROL Outstanding Balance]_. Wenn das Unternehmen das Kreditlimit überschritten hat, erscheint der Betrag als negativer Wert. |
+| [!UICONTROL Available Credit] | Die Summe aus _[!UICONTROL Credit Limit]_und_[!UICONTROL Outstanding Balance]_. Wenn das Unternehmen das Kreditlimit überschritten hat, erscheint der Betrag als negativer Wert. |
 | [!UICONTROL Credit Limit] | Der dem Unternehmen gewährte Kreditbetrag. |
 | [!UICONTROL Updated By] | Der Name der Person, die den Vorgang initiiert hat. |
 | [!UICONTROL Custom Reference Number] | Die benutzerdefinierte Referenznummer, die mit der Transaktion verknüpft ist. |
@@ -49,7 +85,7 @@ Im Abschnitt [!UICONTROL Company Credit] des Firmenprofils wird eine Zusammenfas
 
 ## Aktualisieren der Kreditdaten
 
-Wenn der Kunde die Zahlung für seinen ausstehenden Kredit an den Händler leistet, muss ein Store-Administrator die Kundenkreditinformationen in der Admin aktualisieren.
+Wenn Kunden Zahlungen vornehmen, aktualisieren Administratoren die Kreditdaten im Administrator.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **Kunden > Firmen**.
 
@@ -79,19 +115,19 @@ Ein erstatteter Saldo ist eine Offline-Zahlung, die von einem Unternehmen auf de
 
    ![Rückerstattungsbetrag](./assets/company-reimburse-balance.png){width="500"}
 
-   - Geben Sie den **Betrag** der Zahlung ein.
+   * Geben Sie den **Betrag** der Zahlung ein.
 
      Der Betrag kann als positiver oder negativer Wert eingegeben werden.
 
-   - Geben Sie gegebenenfalls als Referenz **Benutzerdefinierte Referenznummer** ein.
+   * Geben Sie gegebenenfalls als Referenz **Benutzerdefinierte Referenznummer** ein.
 
      Pro Kostenerstattung kann nur eine individuelle Referenznummer eingegeben werden. Um die Zahlung auf mehrere Bestellungen anzuwenden, erstellen Sie für jede Bestellung eine separate Kostenerstattung.
 
-   - Geben Sie bei Bedarf einen **Kommentar** ein, um die Erstattung zu beschreiben.
+   * Geben Sie bei Bedarf einen **Kommentar** ein, um die Erstattung zu beschreiben.
 
 1. Klicken Sie **Rückerstattung**.
 
-   Der ausstehende Saldo des Unternehmens und das verfügbare Guthaben des Unternehmens werden neu berechnet, und die Kredithistorie des Unternehmens wird aktualisiert, um die Rückzahlung widerzuspiegeln.
+   Das System aktualisiert die Salden und den Kreditverlauf automatisch, um die Rückzahlung widerzuspiegeln.
 
 ### Bearbeiten einer Kostenerstattung
 
@@ -109,9 +145,7 @@ Ein erstatteter Saldo ist eine Offline-Zahlung, die von einem Unternehmen auf de
 
 ## Storefront-Kreditinformationen
 
-Für den Unternehmensadministrator zeigt das Konto-Dashboard den Abschnitt _Firmenguthaben_ an. Sie enthält den aktuellen ausstehenden Saldo, das verfügbare Guthaben und das Kreditlimit, das ihrem Unternehmenskonto zugeordnet ist, gefolgt von einer Liste ausstehender Rechnungen.
-
-Wenn der Händler eine Bestellung storniert, die mit dem Firmenkredit belastet wurde, wird der Auftragsbetrag an den Firmensaldo zurückgegeben und in der _Kreditzuordnungshistorie_ wird die Aktion aufgezeichnet.
+Firmenadministratoren können ihre Kreditdaten im Konto-Dashboard anzeigen, einschließlich ausstehender Salden, verfügbarer Gutschriften, Kreditlimits und ausstehender Rechnungen. Wenn Aufträge storniert werden, werden die Beträge an den Firmensaldo zurückgegeben und im Feld „Kreditzuordnungshistorie“ angezeigt.
 
 ![Firmenkredit](./assets/company-credit.png){width="700" zoomable="yes"}
 
@@ -119,4 +153,32 @@ Wenn der Händler eine Bestellung storniert, die mit dem Firmenkredit belastet w
 
 In diesem Demovideo erfahren Sie mehr über die Verwaltung von Firmenkrediten:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411352?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+
+## Sicherheitsüberlegungen
+
+Implementieren Sie bei der Verwaltung von Unternehmenskrediten robuste Sicherheitsmaßnahmen, um sensible Finanzdaten zu schützen:
+
+* **Zugriffskontrolle** - Kreditverwaltungsberechtigungen nur autorisierten Personen zugänglich machen
+* **Audit-Trails**: Führen Sie umfassende Protokolle über alle Kredittransaktionen und -änderungen
+* **Datenschutz** - Verschlüsseln sensibler Finanzinformationen sowohl während der Übertragung als auch im Ruhezustand
+* **Genehmigungs-Workflows** - Implementieren mehrstufiger Genehmigungsprozesse für umfangreiche Kreditanpassungen
+* **Regelmäßige Überprüfungen** - Führen Sie regelmäßige Prüfungen des Benutzerzugriffs und der Kreditbeziehungen durch
+
+## Best Practices
+
+* 
+   * **Kreditrichtlinien-Management**: Legen Sie bei der Verwaltung von Firmenkrediten klare Richtlinien für die Festlegung von Kreditlimits auf der Grundlage der Zahlungsgeschichte und der Geschäftsbeziehungen des Kunden fest. Überprüfen Sie die ausstehenden Salden und Zahlungsmuster regelmäßig, um das Risiko einzuschätzen, und dokumentieren Sie Änderungen der Krediteinstellungen immer mit detaillierten Gründen für Prüfungszwecke.
+
+Verarbeiten Sie Zahlungen umgehend, um genaue Salden zu halten, und stellen Sie sicher, dass die Einstellungen für die Kreditwährung mit den primären Geschäftsvorgängen jedes Unternehmens übereinstimmen.
+
+* **Compliance und Sicherheit** - Beschränken Sie die Berechtigungen für das Kreditmanagement auf autorisiertes Personal, implementieren Sie Genehmigungs-Workflows für umfangreiche Kreditanpassungen und schützen Sie sensible Finanzinformationen gemäß den Sicherheitsrichtlinien Ihres Unternehmens. Regelmäßige Überprüfungen des Benutzerzugriffs und der Kreditbeziehungen tragen dazu bei, eine angemessene Aufsicht und Compliance aufrechtzuerhalten.
+
+>[!MORELIKETHIS]
+>
+>* [B2B-Funktionen aktivieren](enable-basic-features.md) * Konfigurieren von Zahlungen auf Konto und anderen B2B-Funktionen
+>* [Unternehmenskonto erstellen](account-company-create.md) * Einrichten von Unternehmenskonten mit Kreditfunktionen
+>* [Unternehmen verwalten](manage-companies.md) * Übersicht über die Funktionen zur Unternehmensverwaltung
+>* [Unternehmensrollen und -berechtigungen](account-company-roles-permissions.md) * Konfigurieren des Benutzerzugriffs für die Kreditverwaltung
+>* [Workflow für Bestellungen](purchase-order-flow.md) * Erfahren Sie, wie sich Gutschriften in Bestellungen integrieren lassen
+>* [B2B-Konfigurationsreferenz](../configuration-reference/general/b2b-features.md) - Detaillierte Konfigurationseinstellungen für B2B-Funktionen

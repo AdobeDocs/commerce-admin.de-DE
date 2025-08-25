@@ -1,26 +1,45 @@
 ---
-title: Verwalten der Unternehmenshierarchie
+title: Verwalten von Unternehmenshierarchien
 description: Erstellen und verwalten Sie Unternehmenshierarchien, um B2B-Organisationen mit komplexen Betriebsmodellen zu unterstützen.
 feature: B2B, Companies
 role: Admin
 hide: false
 hidefromtoc: false
 exl-id: a277ed95-7935-4d27-adb2-35116972732b
-source-git-commit: 6b06f52eb4ee8ca136a1c60fd6dc04a9ac96bbfa
+source-git-commit: 1fc1e07f20e2c22ac430f384e9e2b278edae405c
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Company Hierarchy] verwalten
+# Verwalten von Unternehmenshierarchien
 
-Administratoren können eine [!UICONTROL Company Hierarchy] erstellen, indem sie verknüpfte Unternehmen einer bestimmten übergeordneten Firma zuweisen, welche die Firma an der Spitze der Organisationshierarchie ist.
+Mit der [!UICONTROL Company Hierarchy] können Sie mehrere verbundene Unternehmen unter einer einzigen übergeordneten Unternehmensstruktur organisieren. Dies eignet sich ideal für Unternehmen mit Tochtergesellschaften, Franchises, mehreren Standorten oder komplexen Organisationsstrukturen, die eine zentralisierte Verwaltung unter Beibehaltung individueller Unternehmensidentitäten benötigen.
+
+## Anwendungsszenarien
+
+* **Zentrale Verwaltung** - Wenden Sie Einstellungen und Konfigurationen über mehrere Unternehmen hinweg von einer einzigen übergeordneten Firma an
+* **Struktur beibehalten** - Organisieren Sie Unternehmen in einer logischen Hierarchie, die Ihrer Geschäftsorganisation entspricht
+* **Vorgänge optimieren** - Angebote, Bestellungen, Zahlungsmethoden und Versandeinstellungen für die gesamte Organisation verwalten
+* **Autonomie bewahren** - Einzelne Unternehmen behalten ihre Identität bei und profitieren gleichzeitig von gemeinsamen Konfigurationen
+
+## Voraussetzungen
+
+Bevor Sie eine Unternehmenshierarchie erstellen, stellen Sie Folgendes sicher:
+
+* B2B-Funktionen sind in Ihrer Commerce-Installation aktiviert
+* Sie verfügen über Administratorzugriff, um Unternehmen zu verwalten
+* Übergeordnete und untergeordnete Unternehmen werden bereits als einzelne Unternehmen erstellt
+* Sie wissen, dass durch Anwenden übergeordneter Einstellungen bestehende untergeordnete Unternehmenskonfigurationen überschrieben werden
+
+## Funktionsweise
+
+Administratoren können eine Unternehmenshierarchie erstellen, indem sie verknüpfte Unternehmen einer bestimmten übergeordneten Firma zuweisen, welche die Firma an der Spitze der Organisationshierarchie ist.
 
 Erstellen Sie vom Administrator aus eine übergeordnete Firma, indem Sie eine einzelne Firma (`[!UICONTROL Company Type] = Company`) bearbeiten und in der [!UICONTROL Company Hierarchy]-Konfiguration verwandte Firmen zuweisen.
 
 ![Unternehmenshierarchierarchieraster](./assets/company-hierarchy-grid.png){width="700"}
-
 
 >[!NOTE]
 >
@@ -36,8 +55,8 @@ Verwalten Sie Unternehmenszuweisungen, indem Sie eine übergeordnete Firma bearb
 
 1. Öffnen Sie im [!UICONTROL Companies] die Seite „Firmendetails“, um die Zuweisungen zu erstellen.
 
-   - Um einer bestehenden übergeordneten Firma zusätzliche Firmen zuzuweisen, wählen Sie die **[!UICONTROL Edit]** für die übergeordnete Firma aus.
-   - Um eine übergeordnete Firma zu erstellen, wählen Sie die **[!UICONTROL Edit]** Aktion für die als übergeordnete Firma angegebene Firma aus.
+   * Um einer bestehenden übergeordneten Firma zusätzliche Firmen zuzuweisen, wählen Sie die **[!UICONTROL Edit]** für die übergeordnete Firma aus.
+   * Um eine übergeordnete Firma zu erstellen, wählen Sie die **[!UICONTROL Edit]** Aktion für die als übergeordnete Firma angegebene Firma aus.
 
      Sie können keine neue übergeordnete Firma aus einer vorhandenen übergeordneten oder untergeordneten Firma erstellen.
 
@@ -61,19 +80,43 @@ Verwalten Sie Unternehmenszuweisungen, indem Sie eine übergeordnete Firma bearb
 
 1. Entfernen Sie die Firma aus der Organisation.
 
-   - Wählen Sie in der Spalte [!UICONTROL Action] für das zu entfernende Unternehmen **[!UICONTROL Select]** > **[!UICONTROL Unassign from parent]** aus.
+   * Wählen Sie in der Spalte [!UICONTROL Action] für das zu entfernende Unternehmen **[!UICONTROL Select]** > **[!UICONTROL Unassign from parent]** aus.
 
      ![Entfernen einer Firma aus einer Organisation](./assets/company-hierarchy-grid-unassign.png){width="640" zoomable="yes"}
 
-   - Wenn Sie dazu aufgefordert werden, entfernen Sie die zugewiesene Firma aus der Hierarchie, indem Sie **[!UICONTROL Unassign]** auswählen.
+   * Wenn Sie dazu aufgefordert werden, entfernen Sie die zugewiesene Firma aus der Hierarchie, indem Sie **[!UICONTROL Unassign]** auswählen.
 
 ## Verwalten von Unternehmenseinstellungen für eine Organisation
 
-Aktualisieren Sie die [Erweiterte Einstellungen](account-company-create.md#advanced-settings) für eine Organisation, um die übergeordnete Konfiguration auf alle untergeordneten Unternehmen anzuwenden oder dieselben Einstellungen auf ausgewählte Unternehmen in der Organisation anzuwenden.
+Aktualisieren Sie [ Konfiguration ](account-company-create.md#advanced-settings)Erweiterte Einstellungen) für eine Organisation. Sie können:
 
-Während des Aktualisierungsprozesses entsprechen die anfänglichen Konfigurationswerte standardmäßig den aktuellen Werten, die für die übergeordnete Firma konfiguriert wurden. Sie müssen mindestens eine Einstellung ändern, um die Konfiguration für ausgewählte Unternehmen zu aktualisieren.
+* Übergeordnete Konfigurationseinstellungen auf alle untergeordneten Unternehmen anwenden
+* Anwenden derselben Einstellungen auf ausgewählte Unternehmen in der Organisation
 
-**Ändern Sie die Konfiguration der erweiterten Einstellungen für mehrere Unternehmen**
+Sie können eine der folgenden Einstellungen anwenden:
+
+* **Angebotsverwaltung** - Aktivieren oder Deaktivieren der Möglichkeit für Unternehmen, Angebote anzufordern und zu verwalten
+* **Bestellungen** - Steuern, ob Unternehmen Bestellungen erstellen und verwalten können
+* **Konfiguration der Zahlungsmethode** - Definieren, welche Zahlungsmethoden Unternehmen zur Verfügung stehen
+* **Einstellungen für Zahlungsmethoden** - Konfigurieren Sie bestimmte Parameter und Limits für Zahlungsmethoden
+* **Verfügbarkeit der Versandmethode** - Festlegen, welche Versandmethoden Unternehmen verwenden können
+* **Konfiguration der Versandmethode** - Definieren der Einstellungen und Einschränkungen für die Versandmethode
+
+Während des Aktualisierungsprozesses werden die anfänglichen Konfigurationswerte standardmäßig auf die aktuellen Werte gesetzt, die für die übergeordnete Firma konfiguriert wurden. Sie müssen das Kontrollkästchen Ändern für mindestens eine Einstellung aktivieren, um Einstellungen auf die ausgewählten Unternehmen anzuwenden. Sie können den Standardwert für jede Einstellung auch aktualisieren, bevor Sie die Änderungen anwenden.
+
+>[!WARNING]
+>
+>Das Anwenden von Einstellungen der übergeordneten Firma ersetzt vorhandene Konfigurationen der untergeordneten Firma, einschließlich Kreditlimits, Zahlungsmethoden, Versandeinstellungen und benutzerdefinierter Einschränkungen. Nachdem Sie die Einstellungen angewendet haben, können Sie die erweiterten Einstellungen für einzelne übergeordnete und untergeordnete Unternehmen weiterhin verwalten und anpassen, indem Sie den Zeileneintrag Firma bearbeiten.
+
+### Best Practices
+
+Beachten Sie beim Anwenden der Einstellungen der übergeordneten Firma auf untergeordnete Firmen die folgenden Best Practices:
+
+* Überprüfen vorhandener untergeordneter Unternehmenseinstellungen, bevor übergeordnete Konfigurationen angewendet werden
+* Änderungen der Testeinstellungen werden zuerst für eine untergeordnete Firma durchgeführt.
+* Kommunikation von Änderungen an möglicherweise betroffene Unternehmensadministratoren
+
+### Übergeordnete Konfigurationseinstellungen auf untergeordnete Unternehmen anwenden
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
@@ -91,11 +134,11 @@ Während des Aktualisierungsprozesses entsprechen die anfänglichen Konfiguratio
 
 1. Ändern Sie die Konfigurationseinstellungen.
 
-   - Suchen Sie auf der Seite [!UICONTROL Change company settings] nach der zu ändernden Konfigurationseinstellung.
+   * Suchen Sie auf der Seite [!UICONTROL Change company settings] nach der zu ändernden Konfigurationseinstellung.
 
-   - Aktivieren Sie das Kontrollkästchen **[!UICONTROL Change]** , um die Einstellung zu aktivieren.
+   * Aktivieren Sie das Kontrollkästchen **[!UICONTROL Change]** , um die Einstellung zu aktivieren.
 
-   - Aktualisieren Sie den Wert nach Bedarf.
+   * Aktualisieren Sie den Wert bei Bedarf.
 
      ![Ändern der Unternehmenseinstellungen für mehrere Unternehmen](assets/company-hierarchy-change-settings-config.png){width="575" zoomable="yes"}
 
@@ -103,6 +146,10 @@ Während des Aktualisierungsprozesses entsprechen die anfänglichen Konfiguratio
 
 1. Wenn Sie dazu aufgefordert werden, wählen Sie **[!UICONTROL Change settings]** aus, um die Konfiguration für die ausgewählten Unternehmen zu aktualisieren.
 
->[!TIP]
+>[!MORELIKETHIS]
 >
->Verwalten Sie die erweiterten Konfigurationseinstellungen für eine einzelne Firma, indem Sie den Zeileneintrag der Firma bearbeiten.
+>* [Erstellen eines Unternehmenskontos](account-company-create.md) - Erfahren Sie, wie Sie einzelne Unternehmen erstellen, bevor Sie Hierarchien erstellen.
+>* [Unternehmensrollen und -berechtigungen](account-company-roles-permissions.md) - Grundlegendes zum Benutzerzugriff in Unternehmensstrukturen
+>* [Firmenkreditmanagement](credit-company.md) - Konfigurieren von Kreditlimits und Zahlungsbedingungen für Unternehmen
+>* [Unternehmen verwalten](manage-companies.md) - Überblick über die Funktionen zur Unternehmensverwaltung
+>* [B2B-Funktionen aktivieren](enable-basic-features.md) - Aktivieren und Konfigurieren der B2B-Funktionen
