@@ -153,7 +153,7 @@ Firmenadministratoren können ihre Kreditdaten im Konto-Dashboard anzeigen, eins
 
 In diesem Demovideo erfahren Sie mehr über die Verwaltung von Firmenkrediten:
 
->[!VIDEO](https://video.tv.adobe.com/v/344445?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411352?quality=12&learn=on&captions=ger)
 
 ## Sicherheitsüberlegungen
 
