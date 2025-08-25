@@ -74,7 +74,7 @@ Das Raster zeigt die folgenden Informationen für jede Transaktion an:
 | [!UICONTROL Operation] | Der Aktivitätstyp, der mit der Transaktion verbunden ist. Werte: <br/>**[!UICONTROL Allocated]**- Dem Unternehmen zugewiesene Gutschrift.<br/>**[!UICONTROL Updated]** - Änderung wurde auf eines der folgenden Felder angewendet: [!UICONTROL Credit limit] / [!UICONTROL Credit currency] / [!UICONTROL Allow to exceed credit limit] <br/>**[!UICONTROL Purchased]**- Bestellung wurde aufgegeben.<br/>**[!UICONTROL Reimbursed]** - Der ausstehende Restbetrag wurde zurückgezahlt. <br/>**[!UICONTROL Refunded]**- Ein Gutschriftsbetrag wurde zurückerstattet.<br/>**[!UICONTROL Reverted]** - Der Auftrag wurde storniert und der Betrag auf das Guthaben zurückgeführt. |
 | [!UICONTROL Amount] | Der Transaktionsbetrag, der den folgenden Transaktionsarten zugeordnet ist: `Purchased` / `Reimbursed` / `Refunded` / `Reverted` <br/>Bei Kaufbeträgen wird der Betrag in der Anzeigewährung des Geschäfts und im Format der Einstellung der Kreditwährung angezeigt, gefolgt vom aktuellen Umrechnungskurs (falls zutreffend). Beispiel: <br/>EUR 20.000,00 ($22.400,00) <br/>USD/EUR 0,8928 |
 | [!UICONTROL Outstanding Balance] | Der erstattete Betrag abzüglich des fälligen Gesamtbetrags aller Bestellungen, die mit der Zahlungsmethode „Auf Konto“ aufgegeben wurden. Der Betrag kann als positiver oder negativer Wert erscheinen. <br/>**[!UICONTROL Positive value]**- Eine Vorauszahlung wird als positiver Wert dargestellt.<br/>**[!UICONTROL Negative value]** - Ein fälliger Betrag wird als negativer Wert dargestellt. |
-| [!UICONTROL Available Credit] | Die Summe aus _[!UICONTROL Credit Limit]_und_[!UICONTROL Outstanding Balance]_. Wenn das Unternehmen das Kreditlimit überschritten hat, erscheint der Betrag als negativer Wert. |
+| [!UICONTROL Available Credit] | Die Summe aus _[!UICONTROL Credit Limit]_&#x200B;und&#x200B;_[!UICONTROL Outstanding Balance]_. Wenn das Unternehmen das Kreditlimit überschritten hat, erscheint der Betrag als negativer Wert. |
 | [!UICONTROL Credit Limit] | Der dem Unternehmen gewährte Kreditbetrag. |
 | [!UICONTROL Updated By] | Der Name der Person, die den Vorgang initiiert hat. |
 | [!UICONTROL Custom Reference Number] | Die benutzerdefinierte Referenznummer, die mit der Transaktion verknüpft ist. |
@@ -167,7 +167,7 @@ Implementieren Sie bei der Verwaltung von Unternehmenskrediten robuste Sicherhei
 
 ## Best Practices
 
-* 
+* &#x200B;
    * **Kreditrichtlinien-Management**: Legen Sie bei der Verwaltung von Firmenkrediten klare Richtlinien für die Festlegung von Kreditlimits auf der Grundlage der Zahlungsgeschichte und der Geschäftsbeziehungen des Kunden fest. Überprüfen Sie die ausstehenden Salden und Zahlungsmuster regelmäßig, um das Risiko einzuschätzen, und dokumentieren Sie Änderungen der Krediteinstellungen immer mit detaillierten Gründen für Prüfungszwecke.
 
 Verarbeiten Sie Zahlungen umgehend, um genaue Salden zu halten, und stellen Sie sicher, dass die Einstellungen für die Kreditwährung mit den primären Geschäftsvorgängen jedes Unternehmens übereinstimmen.

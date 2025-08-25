@@ -64,9 +64,9 @@ Das System weist die Rolle [Unternehmensadministrator](account-company-admin.md)
 
    >[!NOTE]
    >
-   >Wenn ein Besucher bei einem registrierten Benutzerkonto angemeldet ist, kann er ein Unternehmenskonto erstellen, indem er zu _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**navigiert.
+   >Wenn ein Besucher bei einem registrierten Benutzerkonto angemeldet ist, kann er ein Unternehmenskonto erstellen, indem er zu _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**&#x200B;navigiert.
 
-1. Im Abschnitt _[!UICONTROL Company Information]_führt der Kunde Folgendes aus:
+1. Im Abschnitt _[!UICONTROL Company Information]_&#x200B;führt der Kunde Folgendes aus:
 
    * Füllen Sie die erforderlichen Felder aus:
 
@@ -81,7 +81,7 @@ Das System weist die Rolle [Unternehmensadministrator](account-company-admin.md)
 
    ![Unternehmensinformationen](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
-1. Füllen Sie die erforderlichen Felder im Abschnitt _[!UICONTROL Legal Address]_aus.
+1. Füllen Sie die erforderlichen Felder im Abschnitt _[!UICONTROL Legal Address]_&#x200B;aus.
 
    * **[!UICONTROL Street Address]**
    * **[!UICONTROL City]**
@@ -92,7 +92,7 @@ Das System weist die Rolle [Unternehmensadministrator](account-company-admin.md)
 
    ![Anschrift](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
-1. Führt im Abschnitt _[!UICONTROL Company Administrator]_folgende Schritte aus:
+1. Führt im Abschnitt _[!UICONTROL Company Administrator]_&#x200B;folgende Schritte aus:
 
    * Gibt die **[!UICONTROL Email address]** für den Unternehmensadministrator ein.
 
@@ -144,7 +144,7 @@ Der Prozess der Erstellung einer Firma aus der Admin ist im Wesentlichen der gle
 
    * Wählen Sie ggf. das Administratorkonto des **[!UICONTROL Sales Representative]** aus, der das Konto verwalten soll.
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Account Information]_wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Account Information]_&#x200B;wie folgt vor:
 
    * Füllen Sie je nach Bedarf die folgenden Felder aus:
 
@@ -158,9 +158,9 @@ Der Prozess der Erstellung einer Firma aus der Admin ist im Wesentlichen der gle
 
    ![Kontoinformationen](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. Beim erstmaligen Erstellen einer Firma erscheint das _[!UICONTROL Company Hierarchy]_beim Erweitern leer. Nachdem Sie das Unternehmen gespeichert haben, können Sie es in eine Unternehmenshierarchie einbeziehen. Siehe [Unternehmensverwaltung](manage-companies.md).
+1. Beim erstmaligen Erstellen einer Firma erscheint das _[!UICONTROL Company Hierarchy]_&#x200B;beim Erweitern leer. Nachdem Sie das Unternehmen gespeichert haben, können Sie es in eine Unternehmenshierarchie einbeziehen. Siehe [Unternehmensverwaltung](manage-companies.md).
 
-1. Füllen Sie im Abschnitt _[!UICONTROL Legal Address]_die folgenden erforderlichen Felder aus:
+1. Füllen Sie im Abschnitt _[!UICONTROL Legal Address]_&#x200B;die folgenden erforderlichen Felder aus:
 
    * **[!UICONTROL Street Address]**
    * **[!UICONTROL City]**
@@ -168,7 +168,7 @@ Der Prozess der Erstellung einer Firma aus der Admin ist im Wesentlichen der gle
    * **[!UICONTROL ZIP/Postal Code]**
    * **[!UICONTROL Phone Number]**
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Company Admin]_wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Company Admin]_&#x200B;wie folgt vor:
 
    * Füllen Sie die folgenden erforderlichen Felder aus:
 
@@ -201,7 +201,7 @@ Der Prozess der Erstellung einer Firma aus der Admin ist im Wesentlichen der gle
 
    ![Firmenkredit](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Advanced Settings]_wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Advanced Settings]_&#x200B;wie folgt vor:
 
    >[!NOTE]
    >
@@ -338,7 +338,7 @@ Beim Erstellen und Verwalten von Unternehmenskonten:
 | Feld | Beschreibung |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | Der Firmenname wird bei der ersten Erstellung des Firmenkontos eingegeben und kann eine gekürzte Version des vollständigen rechtlichen Namens sein. |
-| [!UICONTROL Status] | (Nur Admin) Gibt den aktuellen Status des Unternehmenskontos an. Optionen: <br/>**[!UICONTROL Active]**- Das Unternehmenskonto wird vom Store-Administrator genehmigt. Der Unternehmensadministrator und die zugehörigen Mitglieder können sich beim Konto in der Storefront anmelden und Käufe tätigen.<br/>**[!UICONTROL Pending Approval]** - Es wurde eine Anfrage zum Öffnen eines Unternehmenskontos eingereicht, die jedoch noch nicht vom Store-Administrator genehmigt wurde. <br/>**[!UICONTROL Rejected]**- Eine Anfrage zum Öffnen eines Unternehmenskontos wurde eingereicht, aber vom Store-Administrator nicht genehmigt. Die ursprünglichen Anmeldedaten, die zum Senden der Anfrage verwendet wurden, sind blockiert.<br/>** Blockiert **- Mitglieder des Unternehmens können sich anmelden und auf den Katalog zugreifen, jedoch keine Käufe tätigen. Der Store-Administrator kann ein Firmenkonto sperren, das keinen guten Ruf hat. Die Sperre des Kontos kann vom Store-Administrator jederzeit entfernt werden. |
+| [!UICONTROL Status] | (Nur Admin) Gibt den aktuellen Status des Unternehmenskontos an. Optionen: <br/>**[!UICONTROL Active]**- Das Unternehmenskonto wird vom Store-Administrator genehmigt. Der Unternehmensadministrator und die zugehörigen Mitglieder können sich beim Konto in der Storefront anmelden und Käufe tätigen.<br/>**[!UICONTROL Pending Approval]** - Es wurde eine Anfrage zum Öffnen eines Unternehmenskontos eingereicht, die jedoch noch nicht vom Store-Administrator genehmigt wurde. <br/>**[!UICONTROL Rejected]**- Eine Anfrage zum Öffnen eines Unternehmenskontos wurde eingereicht, aber vom Store-Administrator nicht genehmigt. Die ursprünglichen Anmeldedaten, die zum Senden der Anfrage verwendet wurden, sind blockiert.<br/>**&#x200B; Blockiert &#x200B;**- Mitglieder des Unternehmens können sich anmelden und auf den Katalog zugreifen, jedoch keine Käufe tätigen. Der Store-Administrator kann ein Firmenkonto sperren, das keinen guten Ruf hat. Die Sperre des Kontos kann vom Store-Administrator jederzeit entfernt werden. |
 | [!UICONTROL Company Email] | Die mit dem Unternehmenskonto verknüpfte E-Mail-Adresse. |
 | [!UICONTROL Sales Representative] | (Nur Admin) Der Admin-Benutzer, der der primäre Kontakt für das Unternehmenskonto ist. |
 
