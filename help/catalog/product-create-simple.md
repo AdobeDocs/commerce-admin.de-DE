@@ -3,7 +3,7 @@ title: Einfaches Produkt
 description: Erfahren Sie, wie Sie ein einfaches Produkt erstellen, das einzeln oder als Teil eines gruppierten, konfigurierbaren oder gebündelten Produkts verkauft werden kann.
 exl-id: 3ac9b28d-3929-4fd6-97ca-145ea6d6897c
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Das Formular wird mit der Änderung aktualisiert.
 
 1. Akzeptieren Sie die **[!UICONTROL Visibility]** Standardeinstellung von `Catalog, Search`.
 
-1. Um dem Produkt _[!UICONTROL Categories]_&#x200B;zuzuweisen, klicken Sie auf das **[!UICONTROL Select…]**&#x200B;und führen Sie einen der folgenden Schritte aus:
+1. Um dem Produkt _[!UICONTROL Categories]_zuzuweisen, klicken Sie auf das **[!UICONTROL Select…]**und führen Sie einen der folgenden Schritte aus:
 
    **Vorhandene Kategorie auswählen**:
 
@@ -122,7 +122,7 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 - [Design](settings-advanced-design.md)
 - [Geschenkoptionen](product-gift-options.md)
 
-## Schritt 6: Publish das Produkt
+## Schritt 6: Produkt veröffentlichen
 
 1. Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, legen Sie den **[!UICONTROL Enable Product]** auf `Yes` fest.
 
@@ -140,7 +140,7 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
    - **Methode 2: Speichern und schließen**
 
-     Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
+     Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
 
 ## Zu beachtende Dinge
 
@@ -149,3 +149,5 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 - Eine einfache Produktkonfiguration überschreibt konfigurierbare Produktkonfigurationen für ein bestimmtes Produkt.
 
 - Ein einfaches Produkt kann über benutzerdefinierte Optionen mit verschiedenen Arten von Eingaben verfügen, was es ermöglicht, viele Produktvarianten aus einer einzigen SKU zu verkaufen.
+
+<!-- Last updated from includes: 2023-05-19 17:14:58 -->

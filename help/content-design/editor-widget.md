@@ -2,8 +2,8 @@
 title: Einfügen eines Widgets in den Editor
 description: Fügen Sie einer Seite mithilfe des Widget-Tools im WYSIWYG-Editor verschiedene Inhaltselemente hinzu.
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Standardmäßig übernehmen Links ihren Stil vom Stylesheet des Designs.
 
 1. Öffnen Sie eine Seite, einen Block oder einen dynamischen Block im Bearbeitungsmodus.
 
-1. Gehen Sie zum Abschnitt _[!UICONTROL Content]_&#x200B;und klicken Sie auf ein beliebiges Element, das den Editor unterstützt.
+1. Gehen Sie zum Abschnitt _[!UICONTROL Content]_und klicken Sie auf ein beliebiges Element, das den Editor unterstützt.
 
 1. Positionieren Sie den Cursor an der Stelle, an der das Widget angezeigt werden soll, und klicken Sie auf das Symbol _Widget einfügen_.
 
@@ -59,3 +59,5 @@ Standardmäßig übernehmen Links ihren Stil vom Stylesheet des Designs.
    Wenn Sie mit HTML-Code arbeiten[ wird ein (](../systems/markup-tags.md)) für den Link oben auf der Seite angezeigt, eingeschlossen in geschweifte Klammern. Verwenden Sie bei Bedarf _Ausschneiden und Einfügen_, um das Markup-Tag in dem Code zu positionieren, in dem der Link angezeigt werden soll.
 
 1. Wenn Ihre Inhaltsbearbeitungen abgeschlossen sind, klicken Sie auf **[!UICONTROL Save]**.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

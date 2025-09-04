@@ -1,22 +1,22 @@
 ---
-title: Elements - HTML-Code
-description: Erfahren Sie mehr über den Inhaltstyp "HTML-Code“, der zum Hinzufügen von HTML-, CSS- und JavaScript-Code im  [!DNL Page Builder]  verwendet wird.
+title: Elemente - HTML-Code
+description: Erfahren Sie mehr über den HTML-Code-Inhaltstyp, der zum Hinzufügen von Ausschnitten aus HTML-, CSS- und JavaScript-Code in der  [!DNL Page Builder]  verwendet wird.
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 556394327a6eff9282acb09bdd16777dd3fee360
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 0%
 
 ---
 
-# Elements - HTML-Code
+# Elemente - HTML-Code
 
-Verwenden Sie den Inhaltstyp _HTML-Code_, um HTML-, CSS- und JavaScript-Code-Ausschnitte in der [[!DNL Page Builder] stage“ ](workspace.md#stage). Wenn Sie beispielsweise benutzerdefinierte HTML hinzufügen möchten, deklarieren Sie eine CSS-Klasse, die auf ein Seitenelement angewendet werden kann. Sie können auch ein Code-Fragment für ein Logo, eine Schaltfläche oder ein Banner hinzufügen, das bzw. das Sie von einem Drittanbieter erhalten haben.
+Verwenden Sie den Inhaltstyp _HTML_, um Ausschnitte aus HTML-, CSS- und JavaScript-Code in der [[!DNL Page Builder] Phase](workspace.md#stage) hinzuzufügen. Wenn Sie beispielsweise benutzerdefinierte HTML hinzufügen möchten, deklarieren Sie eine CSS-Klasse, die auf ein Seitenelement angewendet werden kann. Sie können auch ein Code-Fragment für ein Logo, eine Schaltfläche oder ein Banner hinzufügen, das bzw. das Sie von einem Drittanbieter erhalten haben.
 
-## HTML-Code-Toolbox
+## HTML Code-Toolbox
 
-![HTML-Code-Toolbox](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
+![HTML Code-Toolbox](./assets/pb-elements-html-code-toolbox.png){width="500" zoomable="yes"}
 
 | Tool | Symbol | Beschreibung |
 | --------- | ---------- | ----------------- |
@@ -25,7 +25,7 @@ Verwenden Sie den Inhaltstyp _HTML-Code_, um HTML-, CSS- und JavaScript-Code-Aus
 | Ausblenden | ![Symbol ausblenden](./assets/pb-icon-hide.png){width="25"} | Blendet den HTML-Code-Container aus. |
 | Anzeigen | ![Symbol anzeigen](./assets/pb-icon-show.png){width="25"} | Zeigt den ausgeblendeten HTML-Code-Container an. |
 | Duplikat | ![Symbol „Duplizieren“](./assets/pb-icon-duplicate.png){width="25"} | Erstellt eine Kopie des HTML-Code-Containers. |
-| entfernen | ![Symbol entfernen](./assets/pb-icon-remove.png){width="25"} | Löscht den HTML-Code-Container und seinen Inhalt aus dem Schritt. |
+| entfernen | ![Symbol entfernen](./assets/pb-icon-remove.png){width="25"} | Löscht den HTML-Code-Container und seinen Inhalt aus der Phase . |
 
 {{$include /help/_includes/page-builder-hidden-element-note.md}}
 
@@ -66,9 +66,9 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
 
    Verwenden Sie die rote Richtlinie, um die Trennlinie entweder vor oder nach einem anderen Inhalts-Container in der Zeile, Spalte oder im Registerkartensatz zu positionieren.
 
-   ![Ziehen eines HTML-Code-Platzhalters auf den Schritt](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
+   ![Ziehen eines HTML-Code-Platzhalters auf das Stadium](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Settings ( ![Settings icon](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Fügen Sie den von Ihnen vorbereiteten Einbettungs-Google-Schriftarten-Code und die Stildeklarationen in das Textfeld ein.
 
@@ -76,7 +76,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
 
    ![HTML-Code und -Stile](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. Aktualisieren Sie die verbleibenden Einstellungen nach Bedarf (siehe [Ändern von HTML-Code-Einstellungen](#html-settings)).
+1. Aktualisieren Sie die verbleibenden Einstellungen nach Bedarf (weitere Informationen finden [ unter „Ändern ](#html-settings) HTML-Codeeinstellungen„).
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
@@ -84,19 +84,19 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
 
 ### Schritt 3: Vorschau der Seite
 
-1. Legen Sie im _[!UICONTROL Currently Active]_&#x200B;Abschnitt **[!UICONTROL Enable Page]**&#x200B;auf `Yes` fest.
+1. Legen Sie im _[!UICONTROL Currently Active]_Abschnitt **[!UICONTROL Enable Page]**auf `Yes` fest.
 
    ![Aktivieren der Seite](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
-1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_&#x200B;aus.
+1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_aus.
 
    ![Vorschau der Seitenüberschriften mit der neuen Schriftfamilie anzeigen](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
-## HTML-Code-Einstellungen ändern {#html-settings}
+## Ändern der HTML-Code-Einstellungen {#html-settings}
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Settings![ ((Settings icon](./assets/pb-icon-settings.png){width="20"} ).
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( ](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Bearbeiten Sie den Code im Textfeld nach Bedarf.
 
@@ -106,11 +106,11 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
 
    | Schaltfläche | Beschreibung |
    | ------ | ----------- |
-   | Widget einfügen… | Klicken Sie, um ein Widget an der Cursorposition in das Textfeld &quot;HTML&quot; einzufügen. |
-   | Bild einfügen… | Klicken Sie hier, um ein hochgeladenes Bild oder ein Bild aus der Galerie an der Cursorposition im HTML-Textfeld einzufügen. |
-   | Variable einfügen… | Klicken Sie, um eine Variable an der Cursorposition im Textfeld &quot;HTML&quot; einzufügen. |
+   | Widget einfügen… | Klicken Sie, um ein Widget an der Cursorposition in das HTML-Textfeld einzufügen. |
+   | Bild einfügen… | Klicken Sie, um ein hochgeladenes Bild oder ein Bild aus der Galerie an der Cursorposition in das HTML-Textfeld einzufügen. |
+   | Variable einfügen… | Klicken Sie, um eine Variable an der Cursorposition in das HTML-Textfeld einzufügen. |
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
 
    - Um die Positionierung des Codes innerhalb des übergeordneten Containers zu steuern, wählen Sie ein **[!UICONTROL Alignment]** aus:
 
@@ -164,3 +164,5 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
      | [!UICONTROL Padding] | Die Menge des Leerraums, der auf die Innenkante aller Seiten des Containers angewendet wird. Optionen: `Top` / `Right` / `Bottom` / `Left` |
 
 [1]: https://fonts.google.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

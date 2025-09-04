@@ -3,7 +3,7 @@ title: Elemente - Schaltflächen
 description: Erfahren Sie mehr über den Inhaltstyp „Schaltflächen“, der zum Hinzufügen einer einzelnen Schaltfläche oder einer Reihe von Schaltflächen in der  [!DNL Page Builder]  verwendet wird.
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -161,7 +161,7 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
    ![Schaltflächen-Container-Toolbox](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Wählen Sie unter _[!UICONTROL Appearance]_&#x200B;die Option **[!UICONTROL Stacked]**&#x200B;aus.
+1. Wählen Sie unter _[!UICONTROL Appearance]_die Option **[!UICONTROL Stacked]**aus.
 
 1. Legen Sie **[!UICONTROL All Buttons are same size]** auf `Yes` fest.
 
@@ -243,7 +243,7 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
 ## Erweiterte Einstellungen ändern
 
-Sie können die _[!UICONTROL Advanced]_&#x200B;für einzelne Schaltflächen und für den Schaltflächen-Container ändern.
+Sie können die _[!UICONTROL Advanced]_für einzelne Schaltflächen und für den Schaltflächen-Container ändern.
 
 1. Um die Positionierung innerhalb des übergeordneten Containers zu steuern, wählen Sie die **[!UICONTROL Alignment]**:
 
@@ -300,3 +300,5 @@ Sie können die _[!UICONTROL Advanced]_&#x200B;für einzelne Schaltflächen und 
 
 [advanced-settings]: #change-advanced-settings
 [button-container]: #change-settings-for-a-button-container
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

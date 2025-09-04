@@ -3,7 +3,7 @@ title: Elemente - Trennlinie
 description: Erfahren Sie mehr über den Inhaltstyp „Unterteilung“, der zum Hinzufügen einer Regel als visueller Umbruch zwischen Inhaltsabschnitten in der  [!DNL Page Builder]  verwendet wird.
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Obwohl die meisten Container mit Trennlinien unsichtbar sind, wird im folgenden 
 
    ![Festlegen der Linienfarbe, -dicke und -breite](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
 
    - Um die Positionierung der Trennlinie innerhalb des übergeordneten Containers zu steuern, wählen Sie die **[!UICONTROL Alignment]**:
 
@@ -157,3 +157,5 @@ Bei einer formatierten Trennlinie mit bestimmten Einstellungen ist es effiziente
    ![Verschieben der duplizierten Trennlinie in die Position](./assets/pb-elements-divider-move-guideline.png){width="500" zoomable="yes"}
 
 [1]: https://en.wikipedia.org/wiki/Web_colors
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,7 +3,7 @@ title: Inhalt hinzufügen - Produkte
 description: Erfahren Sie mehr über den Inhaltstyp „Produkte“, der zum Hinzufügen einer Liste von Produkten zur  [!DNL Page Builder]  verwendet wird.
 exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1913'
 ht-degree: 0%
@@ -252,3 +252,5 @@ Wenn Sie ein Produktkarussell konfiguriert haben, sollte es dem folgenden Beispi
 ![Produktkarussell auf der Bühne](./assets/pb-products-admin-carousel.png){width="600"}
 
 Sie können jetzt ein [Widget](../content-design/widgets.md) verwenden, um diesen Block an der gewünschten Stelle im Store zu platzieren. Sie können auch [Inhalt hinzufügen - Block](block.md) verwenden, um den Block zu einer vorhandenen Seite, Registerkarte oder einem Block hinzuzufügen.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

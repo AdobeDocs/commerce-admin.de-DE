@@ -3,7 +3,7 @@ title: Inhalt hinzufügen - Dynamischer Block
 description: Erfahren Sie mehr über den Inhaltstyp „Dynamischer Block“, der zum Hinzufügen eines wiederverwendbaren dynamischen Blocks zum  [!DNL Page Builder]  verwendet wird.
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 0%
@@ -164,3 +164,5 @@ Verwenden Sie den Inhaltstyp Dynamischer Block , um einen vorhandenen [dynamisch
 1. Bewegen Sie den Mauszeiger über den Container mit den dynamischen Blöcken, um die Toolbox anzuzeigen, und wählen _das Symbol_ Entfernen![ aus (Symbol ](./assets/pb-icon-remove.png){width="20"} entfernen).
 
 1. Wenn Sie zum Bestätigen aufgefordert werden, klicken Sie auf **[!UICONTROL OK]**.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

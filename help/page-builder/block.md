@@ -3,7 +3,7 @@ title: Inhalt hinzufügen - Block
 description: Erfahren Sie mehr über den Inhaltsbaustein, der zum Hinzufügen eines wiederverwendbaren Blocks zum  [!DNL Page Builder]  verwendet wird.
 exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -146,3 +146,5 @@ Verwenden Sie den _Block_-Inhaltstyp, um einen vorhandenen, aktiven [Block](../c
 1. Bewegen Sie den Mauszeiger über den Block-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Entfernen![ (Symbol ](./assets/pb-icon-remove.png)) aus.
 
 1. Wenn Sie zum Bestätigen aufgefordert werden, klicken Sie auf **[!UICONTROL OK]**.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

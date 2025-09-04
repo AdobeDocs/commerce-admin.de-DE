@@ -3,7 +3,7 @@ title: Inventar an Quelle übertragen
 description: Erfahren Sie, wie Händler, die mehrere Quellen nutzen, Produktbestände von einem Quellspeicherort an einen anderen übertragen können.
 exl-id: 30438412-bc93-4e65-8b6a-5ddb50afa7ff
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -53,3 +53,5 @@ Sie können die Zuordnung der Quelle auch bei der Übertragung von Lagermengen a
 1. Klicken Sie auf **[!UICONTROL Transfer Inventory]**.
 
    Alle Produktmengen werden von der Ursprungsquelle abgezogen und der Zielquelle hinzugefügt. Die Menge und die verkaufbare Menge werden automatisch aktualisiert.
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

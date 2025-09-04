@@ -3,7 +3,7 @@ title: Medien - Schieberegler
 description: Erfahren Sie mehr über den Content-Typ „Regler“, mit dem Sie eine Diashow mit Bildern zur  [!DNL Page Builder]  hinzufügen.
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '3810'
 ht-degree: 0%
@@ -126,11 +126,11 @@ Sie können Zeit sparen, indem Sie eine Folie duplizieren, die bereits mit den e
    - [[!UICONTROL Content]](#content)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Wenn Sie fertig sind, klicken Sie oben rechts auf **[!UICONTROL Save]** , um die _[!UICONTROL Edit Slide]_&#x200B;zu schließen.
+1. Wenn Sie fertig sind, klicken Sie oben rechts auf **[!UICONTROL Save]** , um die _[!UICONTROL Edit Slide]_zu schließen.
 
 ### Widget auf einer Folie hinzufügen
 
-Sie können Ihrer Folie in einem [!DNL Page Builder] Schritt einen beliebigen [Widget](../content-design/widgets.md#widget-types)Typ) hinzufügen, indem Sie die folgenden Schritte ausführen:
+Sie können Ihrer Folie in einem [ Schritt einen beliebigen ](../content-design/widgets.md#widget-types)Widget[!DNL Page Builder]Typ) hinzufügen, indem Sie die folgenden Schritte ausführen:
 
 1. [Erstellen Sie das Widget](../content-design/widget-create.md) das Sie auf einer Folie sehen möchten.
 
@@ -256,7 +256,7 @@ Ein Hintergrundtyp kann ein Bild oder ein Video sein. [!DNL Page Builder] ist st
 
 ### Einstellungen für Bildtyp
 
-Wenn Sie die _[!UICONTROL Background Type]_&#x200B;auf `Image` setzen, verwenden Sie die folgenden Einstellungen, um die Hintergrundbildanzeige zu definieren.
+Wenn Sie die _[!UICONTROL Background Type]_auf `Image` setzen, verwenden Sie die folgenden Einstellungen, um die Hintergrundbildanzeige zu definieren.
 
 ![Banner mit Hintergrundbild](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -338,9 +338,9 @@ Sie können den Folieninhalt direkt auf der Bühne oder beim Ändern der Einstel
 
 1. Klicken Sie auf den Navigationspunkt am unteren Rand des Schiebereglers, um die Toolbox für die einzelne Folie anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungen](./assets/pb-icon-settings.png){width="20"} ) aus.
 
-1. Geben Sie im Abschnitt _[!UICONTROL Content]_&#x200B;die **[!UICONTROL Message Text]**&#x200B;ein, die mit der Folie angezeigt werden soll.
+1. Geben Sie im Abschnitt _[!UICONTROL Content]_die **[!UICONTROL Message Text]**ein, die mit der Folie angezeigt werden soll.
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_&#x200B;und verwenden Sie den **[!UICONTROL Message Text]**-Editor, um Bannertext einzugeben und zu formatieren.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_und verwenden Sie den **[!UICONTROL Message Text]**-Editor, um Bannertext einzugeben und zu formatieren.
 
    Sie können auch Elemente wie Text-Links, Bilder und Widgets einfügen.
 
@@ -436,11 +436,11 @@ Der Text für diese Einstellungen ist für Suchmaschinen sichtbar und verbessert
 
 - Geben Sie **[!UICONTROL Alternative Text]** eine _Alt_-Textbeschreibung für die anzuzeigenden digitalen Barrierefreiheits-Tools ein.
 
-  Die Verwendung von Alternativtext ist eine Best Practice für die Barrierefreiheit und wird in einigen Gebietsschemata gesetzlich vorgeschrieben. Beim HTML ist das `alt`-Attribut eine Teilmenge des `image`-Tags: `<image title="tooltip" alt="description" src="image.jpg">`.
+  Die Verwendung von Alternativtext ist eine Best Practice für die Barrierefreiheit und wird in einigen Gebietsschemata gesetzlich vorgeschrieben. In HTML ist das `alt`-Attribut eine Teilmenge des `image`-Tags: `<image title="tooltip" alt="description" src="image.jpg">`.
 
 - Geben Sie **[!UICONTROL Title Attribute]** den Text ein, der beim Bewegen des Mauszeigers als QuickInfo angezeigt werden soll.
 
-  Wählen Sie als Best Practice einen beschreibenden, schlüsselwortreichen Titel aus, um die Art und Weise zu verbessern, wie das Bild von Suchmaschinen indiziert wird. Beim HTML ist das `title`-Attribut eine Teilmenge des `image`-Tags: `<image title="tooltip" alt="description" src="image.jpg">`.
+  Wählen Sie als Best Practice einen beschreibenden, schlüsselwortreichen Titel aus, um die Art und Weise zu verbessern, wie das Bild von Suchmaschinen indiziert wird. In HTML ist das `title`-Attribut eine Teilmenge des `image`-Tags: `<image title="tooltip" alt="description" src="image.jpg">`.
 
 ## [!UICONTROL Advanced]
 
@@ -614,10 +614,12 @@ Wenn Sie einen Titel über dem Schieberegler möchten, fügen Sie einfach einen 
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
-1. Suchen Sie die Seite im Raster _Seiten_ und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Action]_&#x200B;aus.
+1. Suchen Sie die Seite im Raster _Seiten_ und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Action]_aus.
 
    ![Reglervorschau - Standardansicht](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
 
    Ändern Sie bei der Vorschau des Schiebereglers die Größe des Fensters, damit Sie sehen können, wie es auf einem Mobilgerät angezeigt wird.
 
    ![Schiebereglervorschau - Mobilansicht](./assets/pb-media-slider-mobile-view.png){width="400" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

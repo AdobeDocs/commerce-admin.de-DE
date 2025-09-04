@@ -3,7 +3,7 @@ title: Layout - Zeile
 description: Erfahren Sie mehr über den Inhaltstyp der Zeile, der zum Hinzufügen einer Zeile in der  [!DNL Page Builder]  verwendet wird.
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Die Zeilen-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Zeilen-Cont
 
 ## Zeile hinzufügen
 
-1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_&#x200B;einen neuen **[!UICONTROL Row]**&#x200B;auf das Stadium, direkt unter der ersten Zeile.
+1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_einen neuen **[!UICONTROL Row]**auf das Stadium, direkt unter der ersten Zeile.
 
 1. Um die Zeile zu formatieren, bewegen Sie den Mauszeiger über den Zeilen-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ aus (Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
 
@@ -114,7 +114,7 @@ Ein Hintergrundtyp kann ein Bild oder ein Video sein. [!DNL Page Builder] ist st
 
 ### Einstellungen für Bildtyp
 
-Wenn Sie die _[!UICONTROL Background Type]_&#x200B;auf `Image` setzen, verwenden Sie die folgenden Einstellungen, um die Hintergrundbildanzeige zu definieren.
+Wenn Sie die _[!UICONTROL Background Type]_auf `Image` setzen, verwenden Sie die folgenden Einstellungen, um die Hintergrundbildanzeige zu definieren.
 
 ![Hintergrundbild](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 
@@ -258,3 +258,5 @@ Verwenden Sie diese Optionen, um die Geschwindigkeit des Bildlaufs eines Hinterg
   {style="table-layout:auto"}
 
   ![Ränder und Abstand](./assets/pb-layout-row-settings-margin-padding-default.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

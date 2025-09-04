@@ -3,7 +3,7 @@ title: Massenzuweisung und Aufhebung von Lagerzuweisungen
 description: Erfahren Sie, wie Sie mit dem Tool „Quellen zuweisen“ Quellzuweisungen für Produkte verwalten können.
 exl-id: 1f1e81a5-fb06-46b7-84ca-7feea4942093
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
@@ -65,3 +65,5 @@ Es wird dringend empfohlen, alle Bestellungen und Sendungen für diese Produkte 
 1. Klicken Sie auf **[!UICONTROL Unassign Sources]**.
 
    ![Entfernen von Quellen aus ausgewählten Produkten](assets/inventory-bulk-unassign-sources-summary.png){width="600" zoomable="yes"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

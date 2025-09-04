@@ -3,7 +3,7 @@ title: Elemente - Überschrift
 description: Erfahren Sie mehr über den Inhaltstyp der Überschrift, der zum Hinzufügen eines Text-Containers mit einer Überschriftenebene von H1 bis H6 zur  [!DNL Page Builder]  verwendet wird.
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Überschriftenebenen legen eine Hierarchie fest, die Inhalte organisiert und Suchmaschinen dabei hilft, jede Seite zu indizieren. Verwenden Sie den _Überschrift_-Inhaltstyp in [[!DNL Page Builder] Phase](workspace.md#stage), um der Phase einen Text-Container mit einer Überschriftenebene von H1 bis H6 hinzuzufügen. Überschriften werden entsprechend dem Stylesheet formatiert, das mit dem aktuellen Design verknüpft ist.
 
-Das [Inhaltsüberschrift](workspace.md) im _[!UICONTROL Content]_&#x200B;Abschnitt kann verwendet werden, um eine H1-Überschrift oben auf der Seite hinzuzufügen. Das Feld ist jedoch ein älteres Feld aus früheren [!DNL Commerce] Versionen und wird zur Unterstützung älterer Inhalte bereitgestellt. In diesem Feld werden die erweiterten Funktionen von [!DNL Page Builder] nicht genutzt. Es wird empfohlen, das Feld Inhaltsüberschrift leer zu lassen und den Inhaltstyp [!DNL Page Builder] Überschrift zu verwenden, um der Seite Überschriften einer beliebigen Ebene hinzuzufügen.
+Das [Inhaltsüberschrift](workspace.md) im _[!UICONTROL Content]_Abschnitt kann verwendet werden, um eine H1-Überschrift oben auf der Seite hinzuzufügen. Das Feld ist jedoch ein älteres Feld aus früheren [!DNL Commerce] Versionen und wird zur Unterstützung älterer Inhalte bereitgestellt. In diesem Feld werden die erweiterten Funktionen von [!DNL Page Builder] nicht genutzt. Es wird empfohlen, das Feld Inhaltsüberschrift leer zu lassen und den Inhaltstyp [!DNL Page Builder] Überschrift zu verwenden, um der Seite Überschriften einer beliebigen Ebene hinzuzufügen.
 
 Das folgende Beispiel zeigt, wie die Inhaltsüberschrift und der Inhaltstyp der Überschrift angezeigt werden, wenn sie durch das Luma-Design formatiert sind.
 
@@ -74,7 +74,7 @@ Wie bei allen Inhalts-Containern wird die Toolbox angezeigt, wenn Sie den Mausze
 
    Sie können diesen Inhalt auch im Überschrifteneditor aktualisieren.
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
 
    - Um die Positionierung der Überschrift innerhalb des übergeordneten Containers zu steuern, wählen Sie ein **[!UICONTROL Alignment]** aus:
 
@@ -154,3 +154,5 @@ Bei einer formatierten Überschrift mit bestimmten Einstellungen ist es effizien
 1. Wenn Sie die Überschriftenebene ändern möchten, klicken Sie auf den Überschrifttext und wählen Sie die neue Ebene in der Editor-Symbolleiste aus.
 
    ![Auswählen einer neuen Überschriftenebene](./assets/pb-elements-heading-change-heading-level.png){width="500" zoomable="yes"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

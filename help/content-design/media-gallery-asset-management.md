@@ -3,8 +3,8 @@ title: Asset-Management f체r Mediensammlung
 description: Erfahren Sie, wie Sie hochgeladene Mediendateien und Assets verwalten, die Sie 체ber eine Adobe Stock-Integration erhalten.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur f체r Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur f체r Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -134,3 +134,5 @@ Assets kann im gesamten Admin-Bereich umfassend verwendet werden, z. B[ (Hinzuf�
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Filters]** und aktivieren Sie das Kontrollk채stchen **[!UICONTROL Show duplicates]** .
 
 1. Um die Ergebnisse anzuzeigen, klicken Sie auf **[!UICONTROL Apply Filters]**.
+
+<!-- Last updated from includes: 2024-01-30 15:43:39 -->

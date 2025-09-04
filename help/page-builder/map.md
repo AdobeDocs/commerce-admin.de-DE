@@ -3,7 +3,7 @@ title: Medien - Zuordnung
 description: Erfahren Sie mehr über den Inhaltstyp „Zuordnen“, der zum Hinzufügen einer Zuordnung von  [!DNL Google Maps]  zu der  [!DNL Page Builder]  verwendet wird.
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Je nachdem, ob Sie bereits über einen [!DNL Google Maps] verfügen, können Sie
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Content Management]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
@@ -104,7 +104,7 @@ Je nachdem, ob Sie bereits über einen [!DNL Google Maps] verfügen, können Sie
 
 1. Bewegen Sie den Mauszeiger über den Zuordnungs-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="20"}) aus.
 
-1. Klicken Sie oben rechts auf der _[!UICONTROL Edit Map]_&#x200B;auf **[!UICONTROL Add Location]**.
+1. Klicken Sie oben rechts auf der _[!UICONTROL Edit Map]_auf **[!UICONTROL Add Location]**.
 
 1. Geben Sie die **[!UICONTROL Location Name]** ein, die mit der Nadel auf der Karte verknüpft werden soll.
 
@@ -148,7 +148,7 @@ Je nachdem, ob Sie bereits über einen [!DNL Google Maps] verfügen, können Sie
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-   Der neue Ort wird auf der Karte und im Map-Standortraster auf der _[!UICONTROL Edit Map]_&#x200B;angezeigt.
+   Der neue Ort wird auf der Karte und im Map-Standortraster auf der _[!UICONTROL Edit Map]_angezeigt.
 
    ![[!DNL Page Builder] - Karten Standortraster](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
@@ -160,7 +160,7 @@ Verwenden Sie den [!DNL Google Maps] Platform-Stilassistenten, um eines von sech
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Content Management]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
@@ -197,7 +197,7 @@ Verwenden Sie den [!DNL Google Maps] Platform-Stilassistenten, um eines von sech
 
    {style="table-layout:auto"}
 
-1. Ändern Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf:
+1. Ändern Sie die _[!UICONTROL Advanced]_nach Bedarf:
 
    - Um die horizontale Positionierung des Zuordnungsinhalts zu steuern, der zum Container hinzugefügt wurde, wählen Sie eine **[!UICONTROL Alignment]** aus:
 
@@ -266,7 +266,7 @@ Die Rastergröße bestimmt die Größe der Zuordnung in Bezug auf eine [Spalte](
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Content Management]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
@@ -290,3 +290,5 @@ Die Rastergröße bestimmt die Größe der Zuordnung in Bezug auf eine [Spalte](
 [4]: https://developers.google.com/maps/documentation/javascript/get-api-key
 [5]: https://www.google.com/maps
 [6]: https://mapstyle.withgoogle.com/
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -1,9 +1,9 @@
 ---
 title: Medien - Bild
-description: Erfahren Sie mehr über den Bildinhaltstyp, mit dem ein JPG-, GIF- oder PNG-Bild zum  [!DNL Page Builder]  hinzugefügt wird.
+description: Erfahren Sie mehr über den Bildinhaltstyp, mit dem ein JPG-, GIF- oder PNG-Bild zur  [!DNL Page Builder]  hinzugefügt wird.
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Medien - Bild
 
-Verwenden Sie den _Image_-Inhaltstyp, um ein JPG-, GIF- oder PNG-Bild zum [[!DNL Page Builder] Staging“ ](workspace.md#stage). Zusätzlich zum Standard-Desktop-Image können Sie ein sekundäres Image für Mobilgeräte angeben. Sie können auch eine Beschriftung hinzufügen, die unter dem Bild angezeigt wird, und das Bild mit einer beliebigen URL, einem Produkt, einer Kategorie oder Seite verknüpfen.
+Verwenden Sie den _image_-Inhaltstyp, um ein JPG-, GIF- oder PNG-Bild zur [[!DNL Page Builder] Phase](workspace.md#stage) hinzuzufügen. Zusätzlich zum Standard-Desktop-Image können Sie ein sekundäres Image für Mobilgeräte angeben. Sie können auch eine Beschriftung hinzufügen, die unter dem Bild angezeigt wird, und das Bild mit einer beliebigen URL, einem Produkt, einer Kategorie oder Seite verknüpfen.
 
 >[!TIP]
 >
@@ -58,7 +58,7 @@ Die Bild-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Bild-Containe
    >
    >Die maximale Dateigröße beträgt 4 MB. Unterstützte Dateitypen sind JPG, GIF und PNG.
 
-   - _&#x200B;**Neues Bild hochladen**&#x200B;_: Verwenden Sie diese Methode, um eine neue Bilddatei von Ihrem System hochzuladen.
+   - _**Neues Bild hochladen**_: Verwenden Sie diese Methode, um eine neue Bilddatei von Ihrem System hochzuladen.
 
       - Klicken Sie auf **[!UICONTROL Upload Image]**.
 
@@ -66,7 +66,7 @@ Die Bild-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Bild-Containe
 
      Alternativ können Sie auch eine Bilddatei aus Ihrem System ziehen und auf dem Symbol _Kamera_ ( ![Kamerasymbol](./assets/pb-icon-camera.png){width="20"} ) ablegen.
 
-   - _&#x200B;**Vorhandenes Asset auswählen**&#x200B;_: Verwenden Sie diese Methode, um ein vorhandenes Bild-Asset aus dem Medienspeicher/der Mediensammlung auszuwählen.
+   - _**Vorhandenes Asset auswählen**_: Verwenden Sie diese Methode, um ein vorhandenes Bild-Asset aus dem Medienspeicher/der Mediensammlung auszuwählen.
 
       - Klicken Sie auf **[!UICONTROL Select from Gallery]**.
 
@@ -76,7 +76,7 @@ Die Bild-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Bild-Containe
 
         ![Ausgewähltes Bild hinzufügen](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _&#x200B;**Adobe Stock-Bild suchen und auswählen**&#x200B;_: Verwenden Sie diese Methode, um ein Bild aus Adobe Stock zu suchen.
+   - _**Adobe Stock-Bild suchen und auswählen**_: Verwenden Sie diese Methode, um ein Bild aus Adobe Stock zu suchen.
 
      >[!NOTE]
      >
@@ -107,13 +107,13 @@ Der Dateiname, die Abmessungen und die Dateigröße werden unter dem aktuellen B
 
 1. Führen Sie einen der folgenden Schritte aus, um die aktuelle **[!UICONTROL Image]** zu ändern:
 
-   - _&#x200B;**Neues Bild hochladen**&#x200B;_: Verwenden Sie diese Methode, um eine neue Bilddatei von Ihrem System hochzuladen.
+   - _**Neues Bild hochladen**_: Verwenden Sie diese Methode, um eine neue Bilddatei von Ihrem System hochzuladen.
 
       - Klicken Sie auf **[!UICONTROL Upload Image]**.
 
       - Suchen Sie das Bild und wählen Sie es aus, um es der Galerie und dem Ziel-Container hinzuzufügen.
 
-   - _&#x200B;**Vorhandenes Asset auswählen**&#x200B;_: Verwenden Sie diese Methode, um ein vorhandenes Bild-Asset aus dem Medienspeicher/der Mediensammlung auszuwählen.
+   - _**Vorhandenes Asset auswählen**_: Verwenden Sie diese Methode, um ein vorhandenes Bild-Asset aus dem Medienspeicher/der Mediensammlung auszuwählen.
 
       - Klicken Sie auf **[!UICONTROL Select from Gallery]**.
 
@@ -165,7 +165,7 @@ Der Dateiname, die Abmessungen und die Dateigröße werden unter dem aktuellen B
 
    Das Format der Beschriftung wird durch das Stylesheet bestimmt, das mit dem aktuellen Design verknüpft ist.
 
-   Die Beschriftung wird normalerweise unter dem Bild angezeigt und stellt für Besucher und Suchmaschinen Informationen zum Bild bereit. Wenn Ihre Site in mehreren Sprachen verfügbar ist, können Sie dasselbe Bild verwenden, aber die Beschriftung übersetzen. Beim HTML ist das `<figcaption>`-Tag eine Teilmenge des `<figure>`-Tags. `<figcaption>This is the image caption</figcaption>`
+   Die Beschriftung wird normalerweise unter dem Bild angezeigt und stellt für Besucher und Suchmaschinen Informationen zum Bild bereit. Wenn Ihre Site in mehreren Sprachen verfügbar ist, können Sie dasselbe Bild verwenden, aber die Beschriftung übersetzen. In HTML ist das `<figcaption>`-Tag eine Teilmenge des `<figure>`-Tags. `<figcaption>This is the image caption</figcaption>`
 
 1. Aktualisieren Sie alle anderen Einstellungen nach Bedarf:
 
@@ -196,11 +196,11 @@ Der Text für diese Einstellungen ist für Suchmaschinen sichtbar und verbessert
 
 - Geben Sie **[!UICONTROL Alternative Text]** eine _Alt_-Textbeschreibung für die anzuzeigenden digitalen Barrierefreiheits-Tools ein.
 
-  Die Verwendung von Alternativtext ist eine Best Practice für die Barrierefreiheit und wird in einigen Gebietsschemata gesetzlich vorgeschrieben. Beim HTML ist das `alt`-Attribut eine Teilmenge des `image`-Tags: `<image title="tooltip" alt="description" src="image.jpg">`.
+  Die Verwendung von Alternativtext ist eine Best Practice für die Barrierefreiheit und wird in einigen Gebietsschemata gesetzlich vorgeschrieben. In HTML ist das `alt`-Attribut eine Teilmenge des `image`-Tags: `<image title="tooltip" alt="description" src="image.jpg">`.
 
 - Geben Sie **[!UICONTROL Title Attribute]** den Text ein, der beim Bewegen des Mauszeigers als QuickInfo angezeigt werden soll.
 
-  Wählen Sie als Best Practice einen beschreibenden, schlüsselwortreichen Titel aus, um die Art und Weise zu verbessern, wie das Bild von Suchmaschinen indiziert wird. Beim HTML ist das `title`-Attribut eine Teilmenge des `image`-Tags: `<image title="tooltip" alt="description" src="image.jpg">`.
+  Wählen Sie als Best Practice einen beschreibenden, schlüsselwortreichen Titel aus, um die Art und Weise zu verbessern, wie das Bild von Suchmaschinen indiziert wird. In HTML ist das `title`-Attribut eine Teilmenge des `image`-Tags: `<image title="tooltip" alt="description" src="image.jpg">`.
 
 ## [!UICONTROL Advanced]
 
@@ -258,3 +258,5 @@ Der Text für diese Einstellungen ist für Suchmaschinen sichtbar und verbessert
   | [!UICONTROL Padding] | Die Menge des Leerraums, der auf die Innenkante aller Seiten des Containers angewendet wird. |
 
   {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

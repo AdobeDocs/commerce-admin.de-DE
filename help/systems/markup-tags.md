@@ -3,7 +3,7 @@ title: Markup-Tags
 description: Erfahren Sie mehr über Markup-Tags, die Code-Ausschnitte enthalten, um auf ein Objekt in Ihrem Store zu verweisen.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Markup-Tags
 
-Ein Markup-Tag ist eine Direktive, die einen Code-Ausschnitt mit einem relativen Verweis auf ein Objekt in Ihrem Store enthält, z. B. eine Variable, URL, ein Bild oder einen Block. Markup-Tags können überall dort verwendet werden, wo der Editor verfügbar ist, und in die HTML von [E](email-templates.md)- und [Newsletter](../merchandising-promotions/newsletter-template.md)-Vorlagen sowie anderen Arten von [Inhalt](../content-design/introduction.md#content) integriert werden.
+Ein Markup-Tag ist eine Direktive, die einen Code-Ausschnitt mit einem relativen Verweis auf ein Objekt in Ihrem Store enthält, z. B. eine Variable, URL, ein Bild oder einen Block. Markup-Tags können überall dort verwendet werden, wo der Editor verfügbar ist, und in die HTML der [E](email-templates.md)- und [Newsletter](../merchandising-promotions/newsletter-template.md)-Vorlagen sowie anderer Arten von [Inhalten](../content-design/introduction.md#content) integriert werden.
 
-Markup-Tags sind in doppelte, geschweifte Klammern eingeschlossen und können entweder vom Widget-Tool generiert oder direkt in den HTML-Inhalt eingegeben werden. Anstatt beispielsweise den vollständigen Pfad zu einer Seite hartcodiert zu haben, können Sie ein Markup-Tag verwenden, um die Store-URL darzustellen. Die in den folgenden Beispielen aufgeführten Markup-Tags umfassen:
+Markup-Tags sind in doppelte, geschweifte Klammern eingeschlossen und können entweder vom Widget-Tool generiert oder direkt in HTML-Inhalte eingegeben werden. Anstatt beispielsweise den vollständigen Pfad zu einer Seite hartcodiert zu haben, können Sie ein Markup-Tag verwenden, um die Store-URL darzustellen. Die in den folgenden Beispielen aufgeführten Markup-Tags umfassen:
 
 {{$include /help/_includes/directives-caution.md}}
 
@@ -127,3 +127,5 @@ Fügen Sie das fertige Anker-Tag in den Code einer CMS-Seite, eines -Blocks, ein
 ### Vollständiger Link mit Markup
 
 \&lt;a href=&quot;\{\{store url=&#39;bekleidung/Schuhe&#39;}}&quot;>Schuhverkauf\&lt;/a>
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->

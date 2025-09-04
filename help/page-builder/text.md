@@ -3,7 +3,7 @@ title: Elemente - Text
 description: Erfahren Sie mehr über den Textinhaltstyp, der zum Hinzufügen eines Text-Containers in der  [!DNL Page Builder]  verwendet wird.
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 feature: Page Builder, Page Content
-source-git-commit: 79dc16dcba239af12793813ae19636bbd7ec49c5
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Sie können auf den Texteditor direkt über die Bühne oder über eine Einstellu
 
    ![Texteditor mit Inhalt](./assets/pb-elements-text-editor.png){width="600"}
 
-## Erstellen eines Links
+## Link erstellen
 
 Die Schaltfläche Link einfügen im Editor erleichtert das Hinzufügen eines Hyperlinks zu einem Bild in der Galerie. Sie kann jedoch auch verwendet werden, um einen Inline-Link im Text zu erstellen, wenn Sie die URL im Voraus haben. Im Gegensatz zur Schaltfläche Widget ist die Schaltfläche Link einfügen/bearbeiten nicht mit Seiten, Produkten oder Kategorien im Store integriert.
 
@@ -114,7 +114,7 @@ Informationen zum Erstellen eines Links für eine Telefonnummer oder E-Mail find
 
 1. Aktualisieren Sie den Inhalt nach Bedarf.
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
 
    - Um die Positionierung des Textes innerhalb des übergeordneten Containers zu steuern, wählen Sie ein **[!UICONTROL Alignment]** aus:
 
@@ -170,3 +170,5 @@ Informationen zum Erstellen eines Links für eine Telefonnummer oder E-Mail find
      {style="table-layout:auto"}
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

@@ -3,7 +3,7 @@ title: Medien - Banner
 description: Erfahren Sie mehr über den Banner-Inhaltstyp zum Hinzufügen einer illustrierten, interaktiven Komponente in der  [!DNL Page Builder] .
 exl-id: 287d866c-8a63-4531-8c1b-40d560a07947
 feature: Page Builder, Page Content
-source-git-commit: 167e9d906cebb645f76a5112fa629a73ba823ebc
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2302'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Medien - Banner
 
-Verwenden Sie den _Banner_-Inhaltstyp, um eine illustrierte, interaktive Komponente hinzuzufügen, die Benutzende mit einem Aktionsaufruf und einer Schaltfläche in der [[!DNL Page Builder] Phase](workspace.md#stage) interagiert.
+Verwenden Sie den _Banner_-Inhaltstyp, um eine illustrierte, interaktive Komponente hinzuzufügen, die Benutzende mit einer call to action und einer Schaltfläche in der [[!DNL Page Builder] Phase](workspace.md#stage) interagiert.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Die Banner-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Banner-Cont
 
    ![Ziehen eines Banner-Inhaltstyps auf den Schritt](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   Die Schaltflächen _[!UICONTROL Upload Image]_&#x200B;und&#x200B;_[!UICONTROL Select from Gallery]_ sind enthalten, sodass Sie direkt auf der Bühne schnelle Änderungen am Bannerinhalt vornehmen können. Sie können auch den Inhalt der _[!UICONTROL Edit Banner]_&#x200B;ändern.
+   Die Schaltflächen _[!UICONTROL Upload Image]_und_[!UICONTROL Select from Gallery]_ sind enthalten, sodass Sie direkt auf der Bühne schnelle Änderungen am Bannerinhalt vornehmen können. Sie können auch den Inhalt der _[!UICONTROL Edit Banner]_ändern.
 
 1. Klicken Sie auf den Platzhalter für das Banner, um den [Texteditor](../content-design/editor.md) anzuzeigen, und geben Sie den Inhalt für das Banner ein.
 
@@ -67,7 +67,7 @@ Die Banner-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Banner-Cont
    - [[!UICONTROL Background]](#background)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Wenn Sie fertig sind, klicken Sie oben rechts auf **[!UICONTROL Save]** , um die _[!UICONTROL Edit Banner]_&#x200B;zu schließen.
+1. Wenn Sie fertig sind, klicken Sie oben rechts auf **[!UICONTROL Save]** , um die _[!UICONTROL Edit Banner]_zu schließen.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
@@ -183,7 +183,7 @@ Wenn Sie den _Hintergrundtyp_ auf `Image` setzen, verwenden Sie die folgenden Ei
 
 ### Einstellungen für Videotyp
 
-Wenn Sie die _[!UICONTROL Background Type]_&#x200B;auf `Video` setzen, verwenden Sie die folgenden Einstellungen, um die Hintergrundbildanzeige zu definieren.
+Wenn Sie die _[!UICONTROL Background Type]_auf `Video` setzen, verwenden Sie die folgenden Einstellungen, um die Hintergrundbildanzeige zu definieren.
 
 - **[!UICONTROL Video URL]** : Geben Sie eine gültige Video-URL ein. Gültige Video-URLs können Links sein zu:
 
@@ -223,7 +223,7 @@ Sie können den Bannerinhalt direkt auf der Bühne oder beim Ändern der Einstel
 
 1. Bewegen Sie den Mauszeiger über den Banner-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="25"}) aus.
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_&#x200B;und verwenden Sie den **[!UICONTROL Message Text]**-Editor, um Bannertext einzugeben und zu formatieren.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_und verwenden Sie den **[!UICONTROL Message Text]**-Editor, um Bannertext einzugeben und zu formatieren.
 
    Sie können auch Elemente wie Text-Links, Bilder und Widgets einfügen.
 
@@ -240,7 +240,7 @@ Sie können den Bannerinhalt direkt auf der Bühne oder beim Ändern der Einstel
 
    >[!NOTE]
    >
-   >Ab Version 2.4.1 unterstützt [!DNL Page Builder] aufgrund von Problemen mit der Anzeige in der Storefront nicht mehr die Verknüpfung von Banner und Links innerhalb des verschachtelten Texts. Wenn Sie einen Link im _[!UICONTROL Message Text]_&#x200B;verwenden, können Sie die Option&#x200B;_[!UICONTROL Link]_ nicht konfigurieren. Wenn Sie es vorziehen, einen einzelnen Link für das gesamte Banner zu verwenden, können Sie alle Links aus dem Text entfernen.<br/>
+   >Ab Version 2.4.1 unterstützt [!DNL Page Builder] aufgrund von Problemen mit der Anzeige in der Storefront nicht mehr die Verknüpfung von Banner und Links innerhalb des verschachtelten Texts. Wenn Sie einen Link im _[!UICONTROL Message Text]_verwenden, können Sie die Option_[!UICONTROL Link]_ nicht konfigurieren. Wenn Sie es vorziehen, einen einzelnen Link für das gesamte Banner zu verwenden, können Sie alle Links aus dem Text entfernen.<br/>
    >
    >![Link-Konfiguration ist blockiert](./assets/pb-nested-link-blocked.png){width="200"}
 
@@ -309,11 +309,11 @@ Der Text für diese Einstellungen ist für Suchmaschinen sichtbar und verbessert
 
 - Geben Sie **[!UICONTROL Alternative Text]** eine _Alt_-Textbeschreibung für die anzuzeigenden digitalen Barrierefreiheits-Tools ein.
 
-  Die Verwendung von Alternativtext ist eine Best Practice für die Barrierefreiheit und wird in einigen Gebietsschemata gesetzlich vorgeschrieben. Beim HTML ist das `alt`-Attribut eine Teilmenge des `image`-Tags: `<image title="tooltip" alt="description" src="image.jpg">`.
+  Die Verwendung von Alternativtext ist eine Best Practice für die Barrierefreiheit und wird in einigen Gebietsschemata gesetzlich vorgeschrieben. In HTML ist das `alt`-Attribut eine Teilmenge des `image`-Tags: `<image title="tooltip" alt="description" src="image.jpg">`.
 
 - Geben Sie **[!UICONTROL Title Attribute]** den Text ein, der beim Bewegen des Mauszeigers als QuickInfo angezeigt werden soll.
 
-  Wählen Sie als Best Practice einen beschreibenden, schlüsselwortreichen Titel aus, um die Art und Weise zu verbessern, wie das Bild von Suchmaschinen indiziert wird. Beim HTML ist das `title`-Attribut eine Teilmenge des `image`-Tags: `<image title="tooltip" alt="description" src="image.jpg">`.
+  Wählen Sie als Best Practice einen beschreibenden, schlüsselwortreichen Titel aus, um die Art und Weise zu verbessern, wie das Bild von Suchmaschinen indiziert wird. In HTML ist das `title`-Attribut eine Teilmenge des `image`-Tags: `<image title="tooltip" alt="description" src="image.jpg">`.
 
 ## [!UICONTROL Advanced]
 
@@ -369,3 +369,5 @@ Der Text für diese Einstellungen ist für Suchmaschinen sichtbar und verbessert
    | [!UICONTROL Padding] | Die Menge des Leerraums, der auf die Innenkante aller Seiten des Containers angewendet wird. |
 
    {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

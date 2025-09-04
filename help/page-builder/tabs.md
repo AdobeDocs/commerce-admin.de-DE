@@ -3,7 +3,7 @@ title: Layout - Registerkarten
 description: Erfahren Sie mehr über den Inhaltstyp „Registerkarten“, der zum Hinzufügen einer Reihe von Registerkarten im  [!DNL Page Builder]  verwendet wird.
 exl-id: e83d248d-7cf3-4ccc-a03d-ede32c7e71ae
 feature: Page Builder, Page Content
-source-git-commit: 67bf39e8c09d6169ec5ec5e2f396e973476af56a
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Wenn Sie mit dem Inhaltstyp _Registerkarten_ arbeiten, fügen Sie einzelne Regis
 
 ## Einzelne Registerkarte hinzufügen
 
-1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_&#x200B;den **[!UICONTROL Tabs]**&#x200B;Platzhalter direkt auf die Bühne oder in eine Zeile oder Spalte auf der Bühne.
+1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_den **[!UICONTROL Tabs]**Platzhalter direkt auf die Bühne oder in eine Zeile oder Spalte auf der Bühne.
 
    ![Ziehen von Registerkarten in eine Zeile](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -326,3 +326,5 @@ Sie können einen beliebigen Inhaltstyp auf eine Registerkarte genau wie auf ein
 
 [background]: #background
 [advanced]: #advanced
+
+<!-- Last updated from includes: 2023-09-11 14:30:19 -->

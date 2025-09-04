@@ -2,8 +2,8 @@
 title: Widgets
 description: Erfahren Sie mehr über Widgets, die ein Code-Fragment bereitstellen, mit dem Sie eine breite Palette von Inhalten anzeigen und bei bestimmten Blockreferenzen in Ihrem Store platzieren können.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -43,3 +43,5 @@ Beim [Erstellen eines Widgets](widget-create.md) müssen Sie den Typ festlegen. 
 | [!UICONTROL Wish List Search] | Verwenden Sie diese Option, um einem Kunden die Möglichkeit zu geben, anhand des Namens oder der E-Mail-Adresse des Besitzers der Wunschliste nach öffentlich verfügbaren Wunschlisten zu suchen. Store-Kunden können Wunschlisten finden, die zu anderen Kunden gehören, sie anzeigen und Produkte von ihnen bestellen oder die Produkte zu ihren eigenen Wunschlisten hinzufügen. |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2022-08-30 15:36:09 -->
