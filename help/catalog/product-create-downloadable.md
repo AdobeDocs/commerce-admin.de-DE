@@ -201,7 +201,7 @@ Nach der Aktivierung besteht der _[!UICONTROL Downloadable Information]_&#x200B;
 
    >[!NOTE]
    >
-   >Sie können keine Links zu externen Ressourcen als herunterladbare Produkte verwenden. Gültige Link-Domains sind programmgesteuert in der `env.php`-Datei vordefiniert (siehe [env.php](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html) im _Configuration Guide_).
+   >Sie können keine Links zu externen Ressourcen als herunterladbare Produkte verwenden. Gültige Link-Domains sind programmgesteuert in der `env.php`-Datei vordefiniert (siehe [env.php](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=de) im _Configuration Guide_).
 
    - Legen Sie **[!UICONTROL Shareable]** auf eine der folgenden Einstellungen fest:
 
