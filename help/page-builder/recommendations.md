@@ -45,11 +45,11 @@ Verwenden Sie den _Produktempfehlungen_ Content-Typ, um eine vorhandene, aktive 
 
 1. Öffnen Sie die Seite, den Block oder den dynamischen Block im Bearbeitungsmodus.
 
-1. Erweitern Sie den Abschnitt _[!UICONTROL Content]_und klicken Sie im Bereich Inhaltsvorschau auf **[!UICONTROL Edit with Page Builder]**oder , um den [!DNL Page Builder] Workspace zu öffnen.
+1. Erweitern Sie den Abschnitt _[!UICONTROL Content]_&#x200B;und klicken Sie im Bereich Inhaltsvorschau auf **[!UICONTROL Edit with Page Builder]**&#x200B;oder , um den [!DNL Page Builder] Workspace zu öffnen.
 
-1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_einen **[!UICONTROL Row]**Platzhalter auf die Bühne.
+1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_&#x200B;einen **[!UICONTROL Row]**&#x200B;Platzhalter auf die Bühne.
 
-1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Add Content]_einen **[!UICONTROL Product Recommendation]**Platzhalter in die Zeile.
+1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Add Content]_&#x200B;einen **[!UICONTROL Product Recommendation]**&#x200B;Platzhalter in die Zeile.
 
    ![Hinzufügen des Inhaltstyps für Produktempfehlungen](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -60,7 +60,7 @@ Verwenden Sie den _Produktempfehlungen_ Content-Typ, um eine vorhandene, aktive 
 
    ![Produktempfehlung bearbeiten](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Selection]_auf **[!UICONTROL Select]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Selection]_&#x200B;auf **[!UICONTROL Select]**.
 
 1. Suchen Sie in der Liste der aktiven Produktempfehlungen die Zeile mit der Empfehlungseinheit, die Sie hinzufügen möchten, und klicken Sie auf **[!UICONTROL Select]** in der letzten Spalte.
 
@@ -68,7 +68,7 @@ Verwenden Sie den _Produktempfehlungen_ Content-Typ, um eine vorhandene, aktive 
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add Selected]**.
 
-   Der Name der ausgewählten Produktempfehlung wird im Abschnitt _[!UICONTROL Selection]_der Seite_[!UICONTROL Edit Product Recommendation]_ angezeigt.
+   Der Name der ausgewählten Produktempfehlung wird im Abschnitt _[!UICONTROL Selection]_&#x200B;der Seite&#x200B;_[!UICONTROL Edit Product Recommendation]_ angezeigt.
 
 1. Nehmen Sie die erforderlichen Änderungen an den [Erweiterten Einstellungen](#advanced-settings) vor.
 

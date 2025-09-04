@@ -34,7 +34,7 @@ Bevor Sie Mengen und Einstellungen ändern, müssen Sie [Quellen](sources-manage
 
 1. Um eine Quelle hinzuzufügen, klicken Sie auf **[!UICONTROL Assign Sources]**.
 
-1. Aktivieren Sie auf der Seite _[!UICONTROL Assign Sources]_das Kontrollkästchen neben jeder Quelle, die Sie für das Produkt zuweisen möchten.
+1. Aktivieren Sie auf der Seite _[!UICONTROL Assign Sources]_&#x200B;das Kontrollkästchen neben jeder Quelle, die Sie für das Produkt zuweisen möchten.
 
    ![Produkt - Quellen zuweisen](assets/inventory-product-assign-sources.png){width="600" zoomable="yes"}
 

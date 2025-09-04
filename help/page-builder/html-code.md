@@ -84,13 +84,13 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
 
 ### Schritt 3: Vorschau der Seite
 
-1. Legen Sie im _[!UICONTROL Currently Active]_Abschnitt **[!UICONTROL Enable Page]**auf `Yes` fest.
+1. Legen Sie im _[!UICONTROL Currently Active]_&#x200B;Abschnitt **[!UICONTROL Enable Page]**&#x200B;auf `Yes` fest.
 
    ![Aktivieren der Seite](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
-1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_aus.
+1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_&#x200B;aus.
 
    ![Vorschau der Seitenüberschriften mit der neuen Schriftfamilie anzeigen](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
@@ -110,7 +110,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
    | Bild einfügen… | Klicken Sie, um ein hochgeladenes Bild oder ein Bild aus der Galerie an der Cursorposition in das HTML-Textfeld einzufügen. |
    | Variable einfügen… | Klicken Sie, um eine Variable an der Cursorposition in das HTML-Textfeld einzufügen. |
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
 
    - Um die Positionierung des Codes innerhalb des übergeordneten Containers zu steuern, wählen Sie ein **[!UICONTROL Alignment]** aus:
 

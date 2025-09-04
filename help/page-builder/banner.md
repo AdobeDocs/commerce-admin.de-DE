@@ -50,7 +50,7 @@ Die Banner-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Banner-Cont
 
    ![Ziehen eines Banner-Inhaltstyps auf den Schritt](./assets/pb-tutorial1-banner-drag-to-stage.png){width="600" zoomable="yes"}
 
-   Die Schaltflächen _[!UICONTROL Upload Image]_und_[!UICONTROL Select from Gallery]_ sind enthalten, sodass Sie direkt auf der Bühne schnelle Änderungen am Bannerinhalt vornehmen können. Sie können auch den Inhalt der _[!UICONTROL Edit Banner]_ändern.
+   Die Schaltflächen _[!UICONTROL Upload Image]_&#x200B;und&#x200B;_[!UICONTROL Select from Gallery]_ sind enthalten, sodass Sie direkt auf der Bühne schnelle Änderungen am Bannerinhalt vornehmen können. Sie können auch den Inhalt der _[!UICONTROL Edit Banner]_&#x200B;ändern.
 
 1. Klicken Sie auf den Platzhalter für das Banner, um den [Texteditor](../content-design/editor.md) anzuzeigen, und geben Sie den Inhalt für das Banner ein.
 
@@ -67,7 +67,7 @@ Die Banner-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Banner-Cont
    - [[!UICONTROL Background]](#background)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Wenn Sie fertig sind, klicken Sie oben rechts auf **[!UICONTROL Save]** , um die _[!UICONTROL Edit Banner]_zu schließen.
+1. Wenn Sie fertig sind, klicken Sie oben rechts auf **[!UICONTROL Save]** , um die _[!UICONTROL Edit Banner]_&#x200B;zu schließen.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
@@ -183,7 +183,7 @@ Wenn Sie den _Hintergrundtyp_ auf `Image` setzen, verwenden Sie die folgenden Ei
 
 ### Einstellungen für Videotyp
 
-Wenn Sie die _[!UICONTROL Background Type]_auf `Video` setzen, verwenden Sie die folgenden Einstellungen, um die Hintergrundbildanzeige zu definieren.
+Wenn Sie die _[!UICONTROL Background Type]_&#x200B;auf `Video` setzen, verwenden Sie die folgenden Einstellungen, um die Hintergrundbildanzeige zu definieren.
 
 - **[!UICONTROL Video URL]** : Geben Sie eine gültige Video-URL ein. Gültige Video-URLs können Links sein zu:
 
@@ -223,7 +223,7 @@ Sie können den Bannerinhalt direkt auf der Bühne oder beim Ändern der Einstel
 
 1. Bewegen Sie den Mauszeiger über den Banner-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="25"}) aus.
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_und verwenden Sie den **[!UICONTROL Message Text]**-Editor, um Bannertext einzugeben und zu formatieren.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_&#x200B;und verwenden Sie den **[!UICONTROL Message Text]**-Editor, um Bannertext einzugeben und zu formatieren.
 
    Sie können auch Elemente wie Text-Links, Bilder und Widgets einfügen.
 
@@ -240,7 +240,7 @@ Sie können den Bannerinhalt direkt auf der Bühne oder beim Ändern der Einstel
 
    >[!NOTE]
    >
-   >Ab Version 2.4.1 unterstützt [!DNL Page Builder] aufgrund von Problemen mit der Anzeige in der Storefront nicht mehr die Verknüpfung von Banner und Links innerhalb des verschachtelten Texts. Wenn Sie einen Link im _[!UICONTROL Message Text]_verwenden, können Sie die Option_[!UICONTROL Link]_ nicht konfigurieren. Wenn Sie es vorziehen, einen einzelnen Link für das gesamte Banner zu verwenden, können Sie alle Links aus dem Text entfernen.<br/>
+   >Ab Version 2.4.1 unterstützt [!DNL Page Builder] aufgrund von Problemen mit der Anzeige in der Storefront nicht mehr die Verknüpfung von Banner und Links innerhalb des verschachtelten Texts. Wenn Sie einen Link im _[!UICONTROL Message Text]_&#x200B;verwenden, können Sie die Option&#x200B;_[!UICONTROL Link]_ nicht konfigurieren. Wenn Sie es vorziehen, einen einzelnen Link für das gesamte Banner zu verwenden, können Sie alle Links aus dem Text entfernen.<br/>
    >
    >![Link-Konfiguration ist blockiert](./assets/pb-nested-link-blocked.png){width="200"}
 

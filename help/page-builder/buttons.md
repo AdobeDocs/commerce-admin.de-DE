@@ -161,7 +161,7 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
    ![Schaltflächen-Container-Toolbox](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Wählen Sie unter _[!UICONTROL Appearance]_die Option **[!UICONTROL Stacked]**aus.
+1. Wählen Sie unter _[!UICONTROL Appearance]_&#x200B;die Option **[!UICONTROL Stacked]**&#x200B;aus.
 
 1. Legen Sie **[!UICONTROL All Buttons are same size]** auf `Yes` fest.
 
@@ -243,7 +243,7 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
 ## Erweiterte Einstellungen ändern
 
-Sie können die _[!UICONTROL Advanced]_für einzelne Schaltflächen und für den Schaltflächen-Container ändern.
+Sie können die _[!UICONTROL Advanced]_&#x200B;für einzelne Schaltflächen und für den Schaltflächen-Container ändern.
 
 1. Um die Positionierung innerhalb des übergeordneten Containers zu steuern, wählen Sie die **[!UICONTROL Alignment]**:
 

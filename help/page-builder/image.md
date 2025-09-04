@@ -58,7 +58,7 @@ Die Bild-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Bild-Containe
    >
    >Die maximale Dateigröße beträgt 4 MB. Unterstützte Dateitypen sind JPG, GIF und PNG.
 
-   - _**Neues Bild hochladen**_: Verwenden Sie diese Methode, um eine neue Bilddatei von Ihrem System hochzuladen.
+   - _&#x200B;**Neues Bild hochladen**&#x200B;_: Verwenden Sie diese Methode, um eine neue Bilddatei von Ihrem System hochzuladen.
 
       - Klicken Sie auf **[!UICONTROL Upload Image]**.
 
@@ -66,7 +66,7 @@ Die Bild-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Bild-Containe
 
      Alternativ können Sie auch eine Bilddatei aus Ihrem System ziehen und auf dem Symbol _Kamera_ ( ![Kamerasymbol](./assets/pb-icon-camera.png){width="20"} ) ablegen.
 
-   - _**Vorhandenes Asset auswählen**_: Verwenden Sie diese Methode, um ein vorhandenes Bild-Asset aus dem Medienspeicher/der Mediensammlung auszuwählen.
+   - _&#x200B;**Vorhandenes Asset auswählen**&#x200B;_: Verwenden Sie diese Methode, um ein vorhandenes Bild-Asset aus dem Medienspeicher/der Mediensammlung auszuwählen.
 
       - Klicken Sie auf **[!UICONTROL Select from Gallery]**.
 
@@ -76,7 +76,7 @@ Die Bild-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Bild-Containe
 
         ![Ausgewähltes Bild hinzufügen](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _**Adobe Stock-Bild suchen und auswählen**_: Verwenden Sie diese Methode, um ein Bild aus Adobe Stock zu suchen.
+   - _&#x200B;**Adobe Stock-Bild suchen und auswählen**&#x200B;_: Verwenden Sie diese Methode, um ein Bild aus Adobe Stock zu suchen.
 
      >[!NOTE]
      >
@@ -107,13 +107,13 @@ Der Dateiname, die Abmessungen und die Dateigröße werden unter dem aktuellen B
 
 1. Führen Sie einen der folgenden Schritte aus, um die aktuelle **[!UICONTROL Image]** zu ändern:
 
-   - _**Neues Bild hochladen**_: Verwenden Sie diese Methode, um eine neue Bilddatei von Ihrem System hochzuladen.
+   - _&#x200B;**Neues Bild hochladen**&#x200B;_: Verwenden Sie diese Methode, um eine neue Bilddatei von Ihrem System hochzuladen.
 
       - Klicken Sie auf **[!UICONTROL Upload Image]**.
 
       - Suchen Sie das Bild und wählen Sie es aus, um es der Galerie und dem Ziel-Container hinzuzufügen.
 
-   - _**Vorhandenes Asset auswählen**_: Verwenden Sie diese Methode, um ein vorhandenes Bild-Asset aus dem Medienspeicher/der Mediensammlung auszuwählen.
+   - _&#x200B;**Vorhandenes Asset auswählen**&#x200B;_: Verwenden Sie diese Methode, um ein vorhandenes Bild-Asset aus dem Medienspeicher/der Mediensammlung auszuwählen.
 
       - Klicken Sie auf **[!UICONTROL Select from Gallery]**.
 

@@ -20,7 +20,7 @@ Verwenden Sie den Content _Typ_ Spalte“, um eine Seite im [[!DNL Page Builder]
 
 ## Aktualisierungen in der Version 2.4.5
 
-Die Page Builder-Funktionen wurden mit Version 2.4.5 aktualisiert, sodass Benutzende jetzt _[!DNL Columns]_als übergeordneten Container für einzelne Spalten verwenden. Dieser neue Container unterstützt auch Eigenschaften für den Hintergrund und macht das Einschließen von Spalten in einer Zeile überflüssig. Es reduziert unnötiges Markup und bietet eine feinere Kontrolle über die Anzeige und das Erlebnis in der Storefront.
+Die Page Builder-Funktionen wurden mit Version 2.4.5 aktualisiert, sodass Benutzende jetzt _[!DNL Columns]_&#x200B;als übergeordneten Container für einzelne Spalten verwenden. Dieser neue Container unterstützt auch Eigenschaften für den Hintergrund und macht das Einschließen von Spalten in einer Zeile überflüssig. Es reduziert unnötiges Markup und bietet eine feinere Kontrolle über die Anzeige und das Erlebnis in der Storefront.
 
 Sie können das Layout des [!DNL Columns]-Containers ändern, indem Sie eine Spalte über oder unter andere Spalten in der Gruppe ziehen und stapeln. Dies eröffnet eine neue Vielzahl möglicher Layout-Kombinationen, die ohne Anpassung durch Entwickler erreicht werden können.
 
@@ -54,7 +54,7 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
 ## Spalte hinzufügen
 
-1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_einen **[!UICONTROL Column]**auf die Bühne.
+1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_&#x200B;einen **[!UICONTROL Column]**&#x200B;auf die Bühne.
 
    ![Eine Spalte auf die Bühne ziehen](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -100,11 +100,11 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
    - Bewegen Sie den Mauszeiger über die Spalte, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ aus (](./assets/pb-icon-settings.png){width="20"}Einstellungssymbol).
 
-   - Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Advanced]_und legen Sie alle vier **[!UICONTROL Padding]**auf `0` fest.
+   - Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Advanced]_&#x200B;und legen Sie alle vier **[!UICONTROL Padding]**&#x200B;auf `0` fest.
 
      ![Auffüllung null verwenden](./assets/pb-tutorial1-row-settings-advanced-margins-padding-zero.png){width="600" zoomable="yes"}
 
-   - Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die _[!UICONTROL Edit Column]_zu schließen.
+   - Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die _[!UICONTROL Edit Column]_&#x200B;zu schließen.
 
 1. Klicken Sie auf _Vollbildmodus schließen_ ( ![Vollbildsymbol schließen](./assets/pb-icon-reduce.png){width="20"} ) in der oberen rechten Ecke des Arbeitsbereichs und klicken Sie dann auf **[!UICONTROL Save]** in der oberen rechten Ecke.
 
@@ -170,7 +170,7 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
    - **[!UICONTROL Background Repeat]** : Wenn Sie das Hintergrundbild wiederholen möchten, um den Bereich zu füllen, ändern Sie diese Einstellung `Yes`.
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
 
    - Um die horizontale Positionierung von Inhalts-Containern zu steuern, die der Spalte hinzugefügt werden, wählen Sie ein **[!UICONTROL Alignment]** aus:
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Virtuelle Produkte oder digitale Güter stellen immaterielle Gegenstände dar, wie Mitgliedschaften, Dienstleistungen, Gewährleistungen oder Abonnements und digitale Downloads von Büchern, Musik, Videos oder anderen Produkten. Virtuelle Produkte können einzeln verkauft oder als Teil der Produkttypen [Gruppiertes Produkt](product-create-grouped.md), [Konfigurierbares Produkt](product-create-configurable.md) oder [Bundle-](product-create-bundle.md) enthalten werden.
 
-Abgesehen davon, dass das Feld _[!UICONTROL Weight]_nicht vorhanden ist, ist der Prozess der Erstellung eines virtuellen Produkts und eines einfachen Produkts identisch. Die folgenden Anweisungen zeigen den Prozess der Erstellung eines virtuellen Produkts mithilfe einer [Produktvorlage](attribute-sets.md), erforderlichen Feldern und grundlegenden Einstellungen. Wenn Sie die Grundlagen fertig gestellt haben, können Sie die anderen Produkteinstellungen nach Bedarf abschließen.
+Abgesehen davon, dass das Feld _[!UICONTROL Weight]_&#x200B;nicht vorhanden ist, ist der Prozess der Erstellung eines virtuellen Produkts und eines einfachen Produkts identisch. Die folgenden Anweisungen zeigen den Prozess der Erstellung eines virtuellen Produkts mithilfe einer [Produktvorlage](attribute-sets.md), erforderlichen Feldern und grundlegenden Einstellungen. Wenn Sie die Grundlagen fertig gestellt haben, können Sie die anderen Produkteinstellungen nach Bedarf abschließen.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Abgesehen davon, dass das Feld _[!UICONTROL Weight]_nicht vorhanden ist, ist der
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Virtual Product]**aus.
+1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Virtual Product]**&#x200B;aus.
 
    ![Virtuelles Produkt hinzufügen](./assets/product-add-virtual.png){width="700" zoomable="yes"}
 
@@ -116,7 +116,7 @@ Füllen Sie die Informationen in den folgenden Abschnitten nach Bedarf aus:
 
 >[!NOTE]
 >
->Die Option _[!UICONTROL Is this downloadable product?]_ist standardmäßig deaktiviert. Durch Aktivierung dieser Funktion für ein virtuelles Produkt wird das Produkt [herunterladbar](product-create-downloadable.md#downloadable-product).
+>Die Option _[!UICONTROL Is this downloadable product?]_&#x200B;ist standardmäßig deaktiviert. Durch Aktivierung dieser Funktion für ein virtuelles Produkt wird das Produkt [herunterladbar](product-create-downloadable.md#downloadable-product).
 
 ## Schritt 6: Produkt veröffentlichen
 

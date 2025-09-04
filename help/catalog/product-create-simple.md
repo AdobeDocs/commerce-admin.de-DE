@@ -83,7 +83,7 @@ Das Formular wird mit der Änderung aktualisiert.
 
 1. Akzeptieren Sie die **[!UICONTROL Visibility]** Standardeinstellung von `Catalog, Search`.
 
-1. Um dem Produkt _[!UICONTROL Categories]_zuzuweisen, klicken Sie auf das **[!UICONTROL Select…]**und führen Sie einen der folgenden Schritte aus:
+1. Um dem Produkt _[!UICONTROL Categories]_&#x200B;zuzuweisen, klicken Sie auf das **[!UICONTROL Select…]**&#x200B;und führen Sie einen der folgenden Schritte aus:
 
    **Vorhandene Kategorie auswählen**:
 
@@ -140,7 +140,7 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
    - **Methode 2: Speichern und schließen**
 
-     Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
+     Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
 
 ## Zu beachtende Dinge
 

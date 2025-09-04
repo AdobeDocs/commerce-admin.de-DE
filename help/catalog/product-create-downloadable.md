@@ -147,7 +147,7 @@ Das Formular wird mit der Änderung aktualisiert.
 
 1. Um das Produkt in der [Liste neuer Produkte](../content-design/widget-new-products-list.md) zu verwenden, aktivieren Sie das Kontrollkästchen **[!UICONTROL Set Product as New]** .
 
-1. Um dem Produkt _[!UICONTROL Categories]_zuzuweisen, klicken Sie auf das **[!UICONTROL Select…]**und führen Sie einen der folgenden Schritte aus:
+1. Um dem Produkt _[!UICONTROL Categories]_&#x200B;zuzuweisen, klicken Sie auf das **[!UICONTROL Select…]**&#x200B;und führen Sie einen der folgenden Schritte aus:
 
    **Vorhandene Kategorie auswählen**:
 
@@ -178,15 +178,15 @@ Das Formular wird mit der Änderung aktualisiert.
 
 ### Schritt 5: Vervollständigen Sie die herunterladbaren Informationen
 
-Scrollen Sie nach unten, erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Downloadable Information]_und aktivieren Sie das Kontrollkästchen **[!UICONTROL Is this downloadable product?]**.
+Scrollen Sie nach unten, erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Downloadable Information]_&#x200B;und aktivieren Sie das Kontrollkästchen **[!UICONTROL Is this downloadable product?]**.
 
-Nach der Aktivierung besteht der _[!UICONTROL Downloadable Information]_aus zwei Teilen. Der erste Teil beschreibt jeden Download-Link, und der zweite Teil beschreibt jede Beispieldatei. Der Standardwert für viele dieser Optionen kann in der [Konfiguration“ festgelegt ](#configure-the-download-options).
+Nach der Aktivierung besteht der _[!UICONTROL Downloadable Information]_&#x200B;aus zwei Teilen. Der erste Teil beschreibt jeden Download-Link, und der zweite Teil beschreibt jede Beispieldatei. Der Standardwert für viele dieser Optionen kann in der [Konfiguration“ festgelegt ](#configure-the-download-options).
 
 ![Informationen zum Herunterladen](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 
 #### Vervollständigen Sie die Links
 
-1. Geben Sie im Abschnitt _[!UICONTROL Links]_die **[!UICONTROL Title]**ein, die Sie als Überschrift für die Download-Links verwenden möchten.
+1. Geben Sie im Abschnitt _[!UICONTROL Links]_&#x200B;die **[!UICONTROL Title]**&#x200B;ein, die Sie als Überschrift für die Download-Links verwenden möchten.
 
 1. Aktivieren Sie bei Bedarf das Kontrollkästchen **[!UICONTROL Links can be purchased separately]** .
 
@@ -222,7 +222,7 @@ Nach der Aktivierung besteht der _[!UICONTROL Downloadable Information]_aus zwei
 
 #### Füllen Sie die Beispiele aus
 
-1. Geben Sie im Abschnitt _[!UICONTROL Samples]_die **[!UICONTROL Title]**ein, die Sie als Überschrift für die Beispiele verwenden möchten.
+1. Geben Sie im Abschnitt _[!UICONTROL Samples]_&#x200B;die **[!UICONTROL Title]**&#x200B;ein, die Sie als Überschrift für die Beispiele verwenden möchten.
 
 1. Um die Informationen für jedes Beispiel auszufüllen, klicken Sie auf **[!UICONTROL Add Link]**.
 
@@ -270,11 +270,11 @@ Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, legen Sie **[!
 
 **Methode 2: Speichern und schließen**
 
-Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
+Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
 
 ## Storefront-Erlebnis
 
-Im Dashboard des Kundenkontos ist die _[!UICONTROL My Downloadable Products]_mit jeder Bestellung herunterladbarer Produkte verknüpft. Die Downloads werden nach Abschluss der Bestellung über das Konto des Kunden verfügbar.
+Im Dashboard des Kundenkontos ist die _[!UICONTROL My Downloadable Products]_&#x200B;mit jeder Bestellung herunterladbarer Produkte verknüpft. Die Downloads werden nach Abschluss der Bestellung über das Konto des Kunden verfügbar.
 
 ![Meine herunterladbaren Produkte](./assets/customer-account-my-downloadable-products.png){width="700" zoomable="yes"}
 
@@ -288,7 +288,7 @@ In der folgenden Tabelle werden die Werte _Meine herunterladbaren Produkte_ besc
 | [!UICONTROL Status] | Status der Bestellabwicklung. |
 | [!UICONTROL Remaining Downloads] | Anzahl der verfügbaren Downloads des heruntergeladenen Produkts. |
 
-_**So laden Sie eine Produktdatei vom Konto-Dashboard herunter**_
+_&#x200B;**So laden Sie eine Produktdatei vom Konto-Dashboard herunter**&#x200B;_
 
 1. In ihrem Konto-Dashboard wählt der Kunde **[!UICONTROL My Downloadable Products]** aus.
 
