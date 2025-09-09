@@ -5,10 +5,10 @@ breadcrumb-title: Konfigurationsreferenz
 hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '159'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 - [Konfigurationsreferenz](guide-overview.md)
 - [Konfigurationsumfang](scope-change.md)
-- Allgemeine {#general}
+- Allgemein {#general}
    - [Allgemein](./general/general.md)
    - [B2B-Funktionen](./general/b2b-features.md)
    - [Web](./general/web.md)
@@ -26,21 +26,20 @@ ht-degree: 1%
    - [Kontakte](./general/contacts.md)
    - [Berichte](./general/reports.md)
    - [Content-Management](./general/content-management.md)
-   - [New Relic-Berichte](./general/new-relic-reporting.md)
    - [Erweiterte Berichterstellung](./general/advanced-reporting.md)
-- {#catalog}
+- Katalog {#catalog}
    - [Katalog](./catalog/catalog.md)
    - [Visual Merchandiser](./catalog/visual-merchandiser.md)
    - [Inventar](./catalog/inventory.md)
    - [XML-Sitemap](./catalog/xml-sitemap.md)
    - [RSS-Dienste](./catalog/rss-feeds.md)
    - [E-Mail an einen Freund](./catalog/email-to-a-friend.md)
-- {#security}
+- Sicherheit {#security}
    - [2FA](./security/2fa.md)
    - [Google reCAPTCHA-Administratorbereich](./security/google-recaptcha-admin.md)
    - [Google reCAPTCHA-Storefront](./security/google-recaptcha-storefront.md)
    - [Security.txt](./security/security-txt.md)
-- {#customers}
+- Kunden {#customers}
    - [Als Kunde anmelden](./customers/login-as-customer.md)
    - [Newsletter](./customers/newsletter.md)
    - [Unternehmenskonfiguration](./customers/company-configuration.md)
@@ -52,7 +51,7 @@ ht-degree: 1%
    - [Promotions](./customers/promotions.md)
    - [Geschenkgutschein](./customers/gift-registry.md)
    - [Beständiger Warenkorb](./customers/persistent-shopping-cart.md)
-- {#sales}
+- Verkauf {#sales}
    - [Verkauf](./sales/sales.md)
    - [Verkaufs-E-Mails](./sales/sales-emails.md)
    - [Anführungszeichen](./sales/quotes.md)
@@ -65,7 +64,7 @@ ht-degree: 1%
    - [Google-API](./sales/google-api.md)
    - [3D gesichert](./sales/3d-secure.md)
    - [Geschenkkarten](./sales/gift-cards.md)
-   - Zahlungsmethoden{#payment-methods}
+   - Zahlungsmethoden {#payment-methods}
       - [Konfiguration der Zahlungsmethoden](./sales/payment-methods.md)
       - [Zahlungsdienste](./sales/payment-services.md)
       - [Braintree](./sales/braintree.md)
@@ -76,13 +75,13 @@ ht-degree: 1%
       - [PayPal Payflow Pro](./sales/paypal-payflow-pro.md)
       - [PayPal-Payflow-Link](./sales/paypal-payflow-link.md)
 - [Vertriebskanäle](./sales-channels.md)
-- {#services}
+- Dienste {#services}
    - [Web-API](./services/magento-web-api.md)
    - [Commerce Services](./services/saas.md)
    - [OAuth](./services/oauth.md)
-- Erweiterte {#advanced}
+- Erweitert {#advanced}
    - [Administrator](./advanced/admin.md)
    - [System](./advanced/system.md)
    - [Entwickler](./advanced/developer.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 

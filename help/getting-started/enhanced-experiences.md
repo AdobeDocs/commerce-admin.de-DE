@@ -3,9 +3,9 @@ title: Verbesserte Storefront-Erlebnisse
 description: Erfahren Sie mehr über die vielen Tools, mit denen Sie Kundeninteraktion, Kundenbindung und Loyalität maximieren können.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 7ba95d2fdfbde83e57bc0918a3f0138d6f1155c6
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Zusätzlich zu den Standardelementen, mit denen Kundinnen und Kunden in Ihrem Ge
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=de)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -32,11 +32,11 @@ Adobe Commerce und Magento Open Source sind voll gepackt mit Funktionen, die die
 
 - **Sitemap** - Link zu einer [Sitemap](../merchandising-promotions/sitemap-xml.md) in der Fußzeile Ihres Stores, um Kunden einen Überblick über die Katalogstruktur mit Links zu allen Kategorien und Produkten im Store zu geben. Einfache Integration mit Google Sitemap.
 
-- **Analytics** - Zusätzlich zur Überwachung Ihrer Site über das Admin-Dashboard können Sie Analyse-Tools von Drittanbietern wie [Google Analytics](../merchandising-promotions/google-analytics.md) und [New Relic-Reporting](new-relic-reporting.md) integrieren, um detaillierte Traffic- und Verkaufsstatistiken zu erhalten.
+- **Analytics**: Sie können nicht nur Ihre Site über das Admin-Dashboard überwachen, sondern auch Analyse-Tools von Drittanbietern wie [Google Analytics](../merchandising-promotions/google-analytics.md) integrieren, um detaillierte Traffic- und Verkaufsstatistiken zu erhalten.
 
 ## Kundeninteraktion
 
-Adobe Commerce und Magento Open Source erleichtern die Erstellung eines benutzerspezifischen, ansprechenden Site-Erlebnisses. Motivieren Sie Ihre Kunden, mehr Zeit mit der Erkundung Ihrer Site zu verbringen, und geben Sie ihnen die Tools, die es ihnen erleichtern, schneller das zu finden, was sie möchten.
+Mit Adobe Commerce und Magento Open Source können Sie ganz einfach ein benutzerdefiniertes, ansprechendes Site-Erlebnis erstellen. Motivieren Sie Ihre Kunden, mehr Zeit mit der Erkundung Ihrer Site zu verbringen, und geben Sie ihnen die Tools, die es ihnen erleichtern, schneller das zu finden, was sie möchten.
 
 - **Content-Management** - [Page Builder](../page-builder/introduction.md) vereinfacht die Erstellung zielgerichteter Seiten mit interaktiven Elementen, die Ihre Kunden ansprechen. Selbst Benutzer ohne Technologiehintergrund können Site-Inhalte erstellen und verwalten.
 
@@ -84,7 +84,7 @@ Adobe Commerce und Magento Open Source bieten eine Reihe von Tools, mit denen Si
 
 ## Geschäftsprozesse und Rentabilität optimieren
 
-- **[!DNL Advanced Reporting]** - Erhalten Sie mit dynamischen Produkt-, Auftrags- und Kundenberichten auf der Basis von [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=de) wertvolle Einblicke auf einen Blick.
+- **[!DNL Advanced Reporting]** - Erhalten Sie mit dynamischen Produkt-, Auftrags- und Kundenberichten auf der Basis von [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en) wertvolle Erkenntnisse auf einen Blick.
 
 - **Dashboard-Momentaufnahmen** - Um Ihr Marketing-Budget zu maximieren, ist es von entscheidender Bedeutung zu wissen, was auf Ihrer Site von Interesse ist. Verwenden Sie diese [Informationen auf Ihrem Dashboard](admin-dashboard.md), um zu bestimmen, was Sie an treue Kunden weiterverkaufen und aufstocken sollen oder welche Produkte zum Verkauf angeboten werden sollen.
 

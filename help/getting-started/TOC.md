@@ -5,9 +5,9 @@ breadcrumb-title: Erste Schritte
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
-source-git-commit: b45824312b02204f1031b04c215ca42c5298d824
+source-git-commit: 0ea13aa32745f6ba5045c2aeec54926857525836
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -66,10 +66,9 @@ ht-degree: 0%
    + [Produktberichte](product-reports.md)
    + [Berichte zum Privatverkauf](private-sales-reports.md)
    + [Commerce Intelligence-Tools](business-intelligence.md)
-   + [New Relic-Berichte](new-relic-reporting.md)
 + Ressourcen {#resources}
    + [Ökosystem](resources.md)
    + [Erweiterungen](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
++ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
