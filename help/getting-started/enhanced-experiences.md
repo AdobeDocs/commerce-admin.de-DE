@@ -16,7 +16,7 @@ Zusätzlich zu den Standardelementen, mit denen Kundinnen und Kunden in Ihrem Ge
 
 <!-- This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=de)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. -->
 
@@ -84,7 +84,7 @@ Adobe Commerce und Magento Open Source bieten eine Reihe von Tools, mit denen Si
 
 ## Geschäftsprozesse und Rentabilität optimieren
 
-- **[!DNL Advanced Reporting]** - Erhalten Sie mit dynamischen Produkt-, Auftrags- und Kundenberichten auf der Basis von [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=en) wertvolle Erkenntnisse auf einen Blick.
+- **[!DNL Advanced Reporting]** - Erhalten Sie mit dynamischen Produkt-, Auftrags- und Kundenberichten auf der Basis von [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=de) wertvolle Erkenntnisse auf einen Blick.
 
 - **Dashboard-Momentaufnahmen** - Um Ihr Marketing-Budget zu maximieren, ist es von entscheidender Bedeutung zu wissen, was auf Ihrer Site von Interesse ist. Verwenden Sie diese [Informationen auf Ihrem Dashboard](admin-dashboard.md), um zu bestimmen, was Sie an treue Kunden weiterverkaufen und aufstocken sollen oder welche Produkte zum Verkauf angeboten werden sollen.
 
