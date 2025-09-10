@@ -3,7 +3,7 @@ title: Konfigurierbares Produkt
 description: Erfahren Sie, wie Sie ein konfigurierbares Produkt erstellen, das Käufern Varianten zur Auswahl bietet.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 0cb594144a03eda985be3a86e45c93452281e9d5
+source-git-commit: ee7928b50ddd07e757c71ce5bed84619f1437410
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 0%
@@ -33,7 +33,6 @@ Die Eigenschaften der einzelnen Attribute, die für eine konfigurierbare Produkt
 | [!UICONTROL Scope] | `Global` |
 | [!UICONTROL Catalog Input Type for Store Owner] | Der Eingabetyp eines Attributs, das für eine Produktvariante verwendet wird, muss einer der folgenden sein: `Dropdown`, `Visual Swatch` oder `Text Swatch`. |
 | [!UICONTROL Values Required] | `Yes` |
-| [!UICONTROL Use for Promo Rule Conditions] | `Yes` |
 
 {style="table-layout:auto"}
 
@@ -41,7 +40,7 @@ Die Eigenschaften der einzelnen Attribute, die für eine konfigurierbare Produkt
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Configurable Product]**&#x200B;aus.
+1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Configurable Product]**aus.
 
    ![Konfigurierbares Produkt hinzufügen](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -139,7 +138,7 @@ Die Fortschrittsleiste oben auf der Seite zeigt an, wo Sie sich im Prozess befin
 
 ### Schritt 1: Attribute auswählen
 
-1. Scrollen Sie dann von oben nach unten zum Abschnitt _[!UICONTROL Configurations]_&#x200B;und klicken Sie auf **[!UICONTROL Create Configurations]**.
+1. Scrollen Sie dann von oben nach unten zum Abschnitt _[!UICONTROL Configurations]_und klicken Sie auf **[!UICONTROL Create Configurations]**.
 
    ![Konfigurationen](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -319,7 +318,7 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
    - **Methode 2:** Speichern und schließen
 
-     Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
+     Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
 
 ### Schritt 8: Konfigurieren der Miniaturansichten des Warenkorbs
 
@@ -341,7 +340,7 @@ Wenn Sie für jede Variante ein anderes Bild haben, können Sie die Konfiguratio
 
 Der konfigurierbare Produktbestandsstatus unterscheidet sich vom Lagerstatus des einfachen Produkts, wobei er eine direkte Darstellung der Produktverfügbarkeit ist. Für ein konfigurierbares Produkt ist der Lagerstatus Teil einer **_Mehrkriterien_** Bestandsstatusberechnung.
 
-### Übersicht
+### Überblick
 
 Die wichtigsten Grundsätze der Bestandsstatusbeziehungen sind:
 
@@ -369,7 +368,7 @@ Der _Lagerstatus_ des konfigurierbaren Produkts wird teilweise durch den Lagerst
 
 - Wenn der konfigurierbare Wert für den Produktbestandsstatus **_manuell_** von einem Admin-Benutzer, Dateiimport oder API-Aufruf auf `In Stock` festgelegt ist, wird sein Lagerstatus nur **_automatisch_** durch den Lagerstatus seiner untergeordneten Produkte in der **_Storefront_**.
 
-- Wenn der konfigurierbare Produktbestandsstatus-Wert **_manuell_** von einem Admin-Benutzer, Dateiimport oder API-Aufruf auf `In Stock` festgelegt ist, bleibt er im **_Admin_** so lange `In Stock`, bis er **_manuell_** von einem Admin-Benutzer, Dateiimport oder API-Aufruf `Out of Stock` wird. Sie **_nicht_** durch den Lagerstatus ihrer untergeordneten Produkte gesteuert werden.
+- Wenn der konfigurierbare Produktbestandsstatus-Wert **_manuell_** von einem Admin-Benutzer, Dateiimport oder API-Aufruf auf `In Stock` festgelegt ist, bleibt er im `In Stock`Admin **_so lange_**, bis er **_manuell_** von einem Admin-Benutzer, Dateiimport oder API-Aufruf `Out of Stock` wird. Sie **_nicht_** durch den Lagerstatus ihrer untergeordneten Produkte gesteuert werden.
 
 ## Zu beachtende Dinge
 
