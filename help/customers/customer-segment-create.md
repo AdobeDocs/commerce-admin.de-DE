@@ -204,4 +204,4 @@ _&#x200B;**[!UICONTROL Matched Customers]Raster &#x200B;** _
 
 Sehen Sie sich dieses Video an, um zu demonstrieren, wie Sie Kundensegmente erstellen:
 
->[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411974/?quality=12&learn=on&captions=ger)
