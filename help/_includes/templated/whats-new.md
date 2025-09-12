@@ -23,7 +23,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde eine Beschreibung für jeden Typ der Bedingung <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/segments/customer-segment-create">Kundensegment</a> hinzugefügt.</p>
+      <td><p>Es wurde eine Beschreibung für jeden Typ der Bedingung <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/customers/segments/customer-segment-create">Kundensegment</a> hinzugefügt.</p>
 </td>
       <td>
         Technisch
@@ -45,7 +45,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Veraltete Funktionsdokumente für New Relic <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/new-relic-reporting">Reporting</a> wurden entfernt.</p>
+      <td><p>Veraltete Funktionsdokumente für New Relic <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/start/reporting/new-relic-reporting">Reporting</a> wurden entfernt.</p>
 </td>
       <td>
         Größere Aktualisierung
@@ -67,7 +67,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Die Standardmethoden für die <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">Erstellung von Couponcodes</a> wurden präzisiert und Anleitungen für die Verwendung einer Erweiterung zum Importieren einer Liste benutzerdefinierter Couponcodes bereitgestellt.</p>
+      <td><p>Die Standardmethoden für die <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon">Erstellung von Couponcodes</a> wurden präzisiert und Anleitungen für die Verwendung einer Erweiterung zum Importieren einer Liste benutzerdefinierter Couponcodes bereitgestellt.</p>
 </td>
       <td>
         Technisch
@@ -89,7 +89,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Im August 2025 hinzugefügter B2B-Sicherheits<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">Patch (Versionshinweise</a>.</p>
+      <td><p>Im August 2025 hinzugefügter B2B-Sicherheits<a href="https://experienceleague.adobe.com/de/docs/commerce-admin/b2b/release-notes">Patch (Versionshinweise</a>.</p>
 </td>
       <td>
         Größere Aktualisierung
@@ -111,7 +111,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Klarstellung des erwarteten Verhaltens der <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">Preisfilterung</a> für konfigurierbare Produkte in mehrschichtiger Navigation.</p>
+      <td><p>Klarstellung des erwarteten Verhaltens der <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#price-navigation">Preisfilterung</a> für konfigurierbare Produkte in mehrschichtiger Navigation.</p>
 </td>
       <td>
         Technisch
@@ -119,7 +119,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3227227b6cf4f159b40fda8a5a165a7097f8a0bd">verpflichten</a></td>
     </tr>
     <tr>
-      <td><p>Es wurde klargestellt<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage"> wie im unterstützten </a> alle Artikel aus dem Warenkorb eines Kunden entfernt werden können.</p>
+      <td><p>Es wurde klargestellt<a href="https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage"> wie im unterstützten </a> alle Artikel aus dem Warenkorb eines Kunden entfernt werden können.</p>
 </td>
       <td>
         Größere Aktualisierung
@@ -141,7 +141,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Die Systemanforderungen für die (HIPAA<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">Erweiterung) wurden </a>.</p>
+      <td><p>Die Systemanforderungen für die (HIPAA<a href="https://experienceleague.adobe.com/de/docs/commerce-admin/start/compliance/hipaa-ready-service/overview#system-requirements">Erweiterung) wurden </a>.</p>
 </td>
       <td>
         Technisch
