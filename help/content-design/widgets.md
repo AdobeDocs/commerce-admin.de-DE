@@ -2,10 +2,10 @@
 title: Widgets
 description: Erfahren Sie mehr über Widgets, die ein Code-Fragment bereitstellen, mit dem Sie eine breite Palette von Inhalten anzeigen und bei bestimmten Blockreferenzen in Ihrem Store platzieren können.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: a5e42a412d09a8e6306ef6eb72e65675fc244091
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Beim [Erstellen eines Widgets](widget-create.md) müssen Sie den Typ festlegen. 
 | [!UICONTROL Order by SKU] | Bestellung nach SKU kann im Shop angezeigt werden, um es allen Käufern zu erleichtern, oder nur bestimmten Kundengruppen zur Verfügung gestellt werden. Käufer können entweder die SKU- und Mengeninformationen direkt in den Block „Bestellung nach SKU“ eingeben oder eine CSV-Datei von ihrem Kundenkonto hochladen. |
 | [!UICONTROL Orders and Returns] | Verwenden Sie diese Option, um Gästen die Möglichkeit zu geben, den Status ihrer Bestellungen zu überprüfen und Anfragen zur Rücksendung von Waren einzureichen. Das Widget wird nur für Gäste und Kunden angezeigt, die nicht bei ihren Konten angemeldet sind. |
 | [!UICONTROL Recently Compared Products] | Zeigt den Block der kürzlich verglichenen Produkte an. Sie können die Anzahl der eingeschlossenen Produkte angeben und sie als Liste oder Produktraster formatieren. |
-| [!UICONTROL Recently Viewed Products] | Verwenden Sie diese Option, um den Block der zuletzt angezeigten Produkte anzuzeigen. Sie können die Anzahl der eingeschlossenen Produkte angeben und sie als Liste oder Produktraster formatieren. |
+| [!UICONTROL Recently Viewed Products] | Verwenden Sie diese Option, um den Block der zuletzt angezeigten Produkte anzuzeigen. Sie können die Anzahl der eingeschlossenen Produkte angeben und sie als Liste oder Produktraster formatieren. Das Widget zeigt möglicherweise keine Preisaktualisierungen in Echtzeit an. Der Käufer muss auf ein Produkt klicken, um die aktuellen Preise auf seiner Produktseite anzuzeigen. |
 | [!UICONTROL Wish List Search] | Verwenden Sie diese Option, um einem Kunden die Möglichkeit zu geben, anhand des Namens oder der E-Mail-Adresse des Besitzers der Wunschliste nach öffentlich verfügbaren Wunschlisten zu suchen. Store-Kunden können Wunschlisten finden, die zu anderen Kunden gehören, sie anzeigen und Produkte von ihnen bestellen oder die Produkte zu ihren eigenen Wunschlisten hinzufügen. |
 
 {style="table-layout:auto"}
