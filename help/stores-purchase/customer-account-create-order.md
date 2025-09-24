@@ -99,7 +99,7 @@ Sie können Artikel aus der Wunschliste eines Kunden oder aus kürzlich angesehe
 
 >[!NOTE]
 >
->Weitere Informationen zu Zahlungsmethoden[ die diese Funktion unterstützen, wenn die ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) installiert und konfiguriert ist, finden Sie im „Payment Services Guide“.
+>Weitere Informationen zu Zahlungsmethoden[ die diese Funktion unterstützen, wenn die ](https://experienceleague.adobe.com/de/docs/commerce/payment-services/guide-overview) installiert und konfiguriert ist, finden Sie im „Payment Services Guide“.
 
 ## Schritt 3: Bestellung übermitteln
 
