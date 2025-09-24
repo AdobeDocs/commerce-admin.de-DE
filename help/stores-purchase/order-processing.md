@@ -250,4 +250,4 @@ Gehen Sie im Abschnitt **[!UICONTROL Order Total]** wie folgt vor:
 
 Sehen Sie sich dieses Video an, um mehr über die Auftragsverarbeitung und den Status zu erfahren:
 
->[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411358/?quality=12&learn=on&captions=ger)
