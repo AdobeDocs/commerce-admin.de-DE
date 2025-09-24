@@ -3,16 +3,16 @@ title: Bestellung erstellen
 description: Erfahren Sie, wie Sie im Commerce Admin eine Bestellung für einen Kunden erstellen.
 exl-id: 8a766a5b-55d6-4d78-859e-38937e0183d3
 feature: Orders, Customer Service
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 0e2d79f6b716f5d59aa9cd60b096608a6b2dbb98
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # Bestellung erstellen
 
-Für registrierte Kunden, die Hilfe benötigen, können Sie direkt vom Administrator aus eine ganze Bestellung erstellen. Das _[!UICONTROL Create New Order]_&#x200B;Formular enthält alle Informationen, die für den normalen Checkout-Prozess erforderlich sind, einschließlich Aktivitätszusammenfassungen aus dem Konto-Dashboard des Kunden.
+Für registrierte Kunden, die Hilfe benötigen, können Sie direkt vom Administrator aus eine ganze Bestellung erstellen. Das _[!UICONTROL Create New Order]_Formular enthält alle Informationen, die für den normalen Checkout-Prozess erforderlich sind, einschließlich Aktivitätszusammenfassungen aus dem Konto-Dashboard des Kunden.
 
 ![Bestellung für einen Kunden erstellen](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -95,10 +95,11 @@ Sie können Artikel aus der Wunschliste eines Kunden oder aus kürzlich angesehe
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
+   - [!UICONTROL [Benutzerdefinierte Sortierattribute]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->Weitere Informationen zu Zahlungsmethoden[ die diese Funktion unterstützen, wenn die ](https://experienceleague.adobe.com/de/docs/commerce/payment-services/guide-overview) installiert und konfiguriert ist, finden Sie im „Payment Services Guide“.
+>Weitere Informationen zu Zahlungsmethoden[ die diese Funktion unterstützen, wenn die ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) installiert und konfiguriert ist, finden Sie im „Payment Services Guide“.
 
 ## Schritt 3: Bestellung übermitteln
 
