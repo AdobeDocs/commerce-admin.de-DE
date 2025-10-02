@@ -206,15 +206,15 @@ Wird durch das Page Builder-Modul festgelegt. Enthält ein Flag, das verhindert,
 
 Wird durch das Page Builder-Modul festgelegt. Enthält ein Flag, das verhindert, dass nachfolgende Aufforderungen an einen Administrator, eine bestimmte Aktion zu bestätigen, geöffnet werden, wenn der Administrator sie zuvor ausdrücklich abgelehnt hat. Wird nur in einem administrativen Bereich eines Geschäfts verwendet. Gilt nicht für Käufer.
 
-#### `accordion-{VARIABLE}-{VARIABLE}`
+#### `accordion-&lbrace;VARIABLE&rbrace;-&lbrace;VARIABLE&rbrace;`
 
 Wird als Teil der Implementierung der Registerkarten-Funktionen nur in einem administrativen Bereich eines Stores verwendet. Gilt nicht für Käufer.
 
 ## Cookies für Produktempfehlungen
 
-![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Die folgenden Cookies werden von Produktempfehlungen für Adobe Commerce-Kunden verwendet. Diese Cookies werden mit dem Modul [DataServices“ ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Die folgenden Cookies werden von Produktempfehlungen für Adobe Commerce-Kunden verwendet. Diese Cookies werden mit dem Modul [DataServices“ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: Ermöglicht es Ihnen[ die Datenerfassung in Adobe Commerce einzuschränken, ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) Sie benutzerdefinierten Code zur Verwaltung des Cookie-Einverständnisses auf Ihrer Site haben.
+- `mg_dnt`: Ermöglicht es Ihnen[&#x200B; die Datenerfassung in Adobe Commerce einzuschränken, &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) Sie benutzerdefinierten Code zur Verwaltung des Cookie-Einverständnisses auf Ihrer Site haben.
 - `user_allowed_save_cookie`: Wird für den [Cookie-Einschränkungsmodus](#cookie-restriction-mode) verwendet.
 - `authentication_flag`: Zeigt an, ob sich ein Käufer angemeldet oder abgemeldet hat. Dieses Cookie wird gleichzeitig mit dem `dataservices_customer_id`-Cookie aktualisiert.
 - `dataservices_customer_id`: Zeigt an, ob sich ein Käufer angemeldet oder abgemeldet hat. Dieses Cookie enthält die eindeutige ID des Kunden im System.
@@ -234,7 +234,7 @@ Die folgenden Daten werden für Stores unter Verwendung des Luma-Designs im loka
 
 ## Zusätzliche Cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Die folgenden Cookies werden für Adobe Commerce-Kunden festgelegt. Diese Cookies werden mit dem Modul [DataServices“ ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Die folgenden Cookies werden für Adobe Commerce-Kunden festgelegt. Diese Cookies werden mit dem Modul [DataServices“ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: Set von Snowplow JavaScript Tracker. Weitere Informationen finden Sie in der [Schneepflug-Dokumentation](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: Angesichts des Hostnamens der aktuellen Web-Seite ist dies die oberste Domain, die kein „öffentliches Suffix“ ist, wie in https://publicsuffix.org beschrieben. Im Wesentlichen ist dies die Domain, die Cookies akzeptieren kann. Dieses Cookie ist Teil von [Alloy Web SDK](https://github.com/adobe/alloy).
