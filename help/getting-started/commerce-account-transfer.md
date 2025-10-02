@@ -3,9 +3,9 @@ title: Übertragen eines Commerce-Kontos
 description: Erfahren Sie, wie Sie Ihr Commerce-Konto an einen anderen Eigentümer oder eine andere E-Mail-Adresse übertragen.
 exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
-source-git-commit: b66fd3fad065f78726eb368b5ba06f0f61174356
+source-git-commit: 7d1a086b4c5443e88029fb6f151f41f9926d41ae
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Wenn sich die geschäftlichen Zuständigkeiten ändern, müssen Sie möglicherweise Ihr Commerce-Konto an einen neuen Eigentümer oder an eine andere E-Mail-Adresse übertragen. Diese Übertragung erfordert eine Änderung der mit dem Konto verknüpften E-Mail-Adresse des primären Benutzers.
 
-Die folgenden Informationen beschreiben den Prozess zur Übertragung eines Commerce-Kontos (MAGEID). Sie enthält keine Änderungen für die Eigentümerschaft des Cloud-Kontos (Cloud-Projekt oder New Relic). Weitere Informationen zum Zugriff auf Cloud-Projekte finden Sie unter [Verwalten des Benutzerzugriffs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=de) im Handbuch _Commerce in Cloud-Infrastruktur_.
+Die folgenden Informationen beschreiben den Prozess zur Übertragung eines Commerce-Kontos (MAGEID). Sie enthält keine Änderungen für die Eigentümerschaft des Cloud-Kontos (Cloud-Projekt oder New Relic). Weitere Informationen zum Zugriff auf Cloud-Projekte finden Sie unter [Verwalten des Benutzerzugriffs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) im Handbuch _Commerce in Cloud-Infrastruktur_.
 
 >[!IMPORTANT]
 >
->Wenn der neue Kontoinhaber Erweiterungen mithilfe von Shared Access erworben hat, geht der Zugriff auf diese Erweiterungen verloren, sobald der Prozess zur Kontoübertragung gestartet wurde. Bevor Sie die Kontoübertragung anfordern, stellen Sie sicher, dass der neue Eigentümer die Bestell-IDs für die Käufe von [seinem Marketplace-Konto](https://commercemarketplace.adobe.com/sales/order/history/) abruft und eine Erstattung für diese Erweiterungen vom [Marketplace-Team](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) anfordert. Es ist nicht möglich, Erweiterungskäufe auf ein anderes Konto zu übertragen.
+>Wenn der neue Kontoinhaber Erweiterungen mithilfe von Shared Access erworben hat, geht der Zugriff auf diese Erweiterungen verloren, sobald der Prozess zur Kontoübertragung gestartet wurde. Bevor Sie die Kontoübertragung anfordern, stellen Sie sicher, dass der neue Eigentümer die Bestell-IDs für die Käufe von [seinem Marketplace-Konto](https://commercemarketplace.adobe.com/sales/order/history/) abruft und eine Erstattung für diese Erweiterungen vom [Marketplace-Team](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) anfordert. Es ist nicht möglich, Erweiterungskäufe auf ein anderes Konto zu übertragen.
 
 ## Art der Übertragung angeben
 
@@ -26,9 +26,9 @@ Die Art der Commerce-Kontoübertragung hängt von den Anmeldedaten für das Comm
 
 | Übertragungstyp | Derzeitiger Besitzer | Neuer Besitzer |
 | ------------- | ------------- | --------- |
-| [Neue Adobe ID- und E-Mail-Änderung](#new-adobe-id-and-email-change) | Hat eine MAGEID, die **_nicht verbunden_** mit einem Adobe-Anmeldekonto ist. | Hat keine MAGEID und ist nicht mit einem Adobe-Anmeldekonto verbunden. |
-| [E-Mail-](#email-change) | Hat eine MAGEID, **_mit_** Adobe-Anmeldekonto verbunden ist. | Hat keine MAGEID und ist nicht mit einem Adobe-Anmeldekonto verbunden. |
-| [Adobe ID-Switch](#adobe-id-account-switch) | Hat eine MAGEID, **_mit_** Adobe-Anmeldekonto verbunden ist. | Hat eine MAGEID und ist mit einem Adobe-Anmeldekonto verbunden. |
+| [Neue Adobe ID- und E-Mail-Änderung](#new-adobe-id-and-email-change) | Hat eine MAGEID, die **_noch nicht verbunden_** mit einem Adobe-Anmeldekonto verbunden ist | Hat keine MAGEID und ist nicht mit einem Adobe-Anmeldekonto verbunden. |
+| [E-Mail-](#email-change) | Hat eine MAGEID, **_mit_** Adobe-Anmeldekonto verbunden ist. | Hat ein Adobe-Anmeldekonto, **_hat jedoch keine MAGEID_** mit einem Adobe-Anmeldekonto verbunden. |
+| [Adobe ID-Kontowechsel](#adobe-id-account-switch) | Hat eine MAGEID, **_mit_** Adobe-Anmeldekonto verbunden ist. | Hat eine MAGEID und ist mit einem Adobe-Anmeldekonto verbunden. |
 
 {style="table-layout:auto"}
 
@@ -42,9 +42,9 @@ Die Art der Commerce-Kontoübertragung hängt von den Anmeldedaten für das Comm
 >
 >Überprüfen Sie die [Übertragungstypen](#identify-your-transfer-type) und stellen Sie sicher, dass Sie die Voraussetzungen für diese Sequenz von Schritten erfüllen.
 
-Dieser Übertragungstyp erfordert, dass Sie zunächst eine zugehörige Adobe ID erstellen und dieses Konto dann in die E-Mail-Adresse des neuen Eigentümers ändern.
+Dieser Übertragungstyp erfordert, dass eine Adobe ID vorhanden ist, die mit dem bestehenden Commerce-Konto verknüpft ist, und dass dieses Konto dann in die E-Mail-Adresse des neuen Eigentümers geändert wird.
 
-1. Zu Ihrem [Commerce-Konto](https://account.magento.com/customer/account/login/).
+1. Navigieren Sie zur Anmeldeseite des Commerce-Kontos {0[.](https://account.magento.com/customer/account/login/)
 
 1. Klicken Sie auf **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -54,7 +54,7 @@ Dieser Übertragungstyp erfordert, dass Sie zunächst eine zugehörige Adobe ID 
 
 1. Klicken Sie auf **[!UICONTROL Continue]**.
 
-   In diesem Schritt wird eine Adobe ID erstellt und mit dem aktuellen Commerce-Konto (MAGEID) verknüpft. Mit diesem Konto-Link wird das Feld _[!UICONTROL Email]_&#x200B;für alle Änderungen gesperrt. Die Konfiguration der zugehörigen E-Mail-Adresse wird über das Adobe ID-Konto verwaltet.
+   In diesem Schritt wird eine Adobe ID erstellt und mit dem aktuellen Commerce-Konto (MAGEID) verknüpft. Mit diesem Konto-Link wird das Feld _[!UICONTROL Email]_für alle Änderungen gesperrt. Die Konfiguration der zugehörigen E-Mail-Adresse wird über das Adobe ID-Konto verwaltet.
 
 1. Navigieren Sie zu [account.adobe.com](https://account.adobe.com/).
 
@@ -72,13 +72,15 @@ Dieser Übertragungstyp erfordert, dass Sie zunächst eine zugehörige Adobe ID 
 
 1. Klicken Sie auf **[!UICONTROL Verify]**.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447668/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on)
 
 ## E-Mail-Änderung
 
 >[!IMPORTANT]
 >
 >Überprüfen Sie die [Übertragungstypen](#identify-your-transfer-type) und stellen Sie sicher, dass Sie die Voraussetzungen für diese Sequenz von Schritten erfüllen.
+
+Dieser Übertragungstyp führt dazu, dass der aktuelle Kontoinhaber den Zugriff auf andere Adobe-Produkte verliert.
 
 1. Navigieren Sie zu [account.adobe.com](https://account.adobe.com/) und melden Sie sich bei Adobe an.
 
@@ -102,7 +104,7 @@ Dieser Übertragungstyp erfordert, dass Sie zunächst eine zugehörige Adobe ID 
 >
 >Überprüfen Sie die [Übertragungstypen](#identify-your-transfer-type) und stellen Sie sicher, dass Sie die Voraussetzungen für diese Sequenz von Schritten erfüllen.
 
-Wenn sowohl der aktuelle als auch der neue Eigentümer bereits über Adobe-IDs verfügen, sollten beide Konten bestehen bleiben, aber die E-Mail-Adressen müssen zwischen ihnen gewechselt werden. Dies erfordert die Verwendung einer _temporären_ E-Mail-Adresse, die gültig ist, aber nicht mit einer Adobe ID verknüpft ist.
+Dieser Übertragungstyp verwendet eine temporäre E-Mail-Adresse, um den Kontoeigentümer zu wechseln, wenn sowohl der aktuelle als auch der neue Eigentümer über vorhandene Adobe-IDs verfügen und Sie beide Konten beibehalten möchten. Um die Übertragung der Verantwortung abzuschließen, müssen Sie eine temporäre E-Mail-Adresse verwenden, die nicht mit einer Adobe ID verknüpft ist.
 
 ### Wechsel zu einem temporären Konto
 
@@ -148,7 +150,7 @@ Nachdem der aktuelle Inhaber die Übertragung an eine temporäre E-Mail-Adresse 
 
 ### Folgeschritte
 
-Nachdem der neue Besitzer sein Adobe-Konto erfolgreich mit der ursprünglichen E-Mail-Adresse des aktuellen (jetzt vorherigen) Besitzers konfiguriert hat, führen Sie diese Schritte aus, um den Besitz zu übertragen.
+Nachdem der neue Besitzer sein Adobe-Konto erfolgreich mit der ursprünglichen E-Mail-Adresse des aktuellen Besitzers konfiguriert hat, führen Sie diese Schritte aus, um den Besitz zu übertragen.
 
 1. Navigieren Sie zu [account.adobe.com](https://account.adobe.com/) und füllen Sie die Adobe-Anmeldung mit der E-Mail-Adresse für das [temporäre Konto](#change-to-a-temporary-account) aus.
 
