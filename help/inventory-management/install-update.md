@@ -99,7 +99,7 @@ Sie können [!DNL Inventory Management] Module deaktivieren, um:
 * Beschleunigen Sie den Upgrade-Prozess für Händler, die von 2.0.x, 2.1.x, 2.2.x oder 2.3.x auf 2.4.x migrieren.
 * Verwenden Sie benutzerdefinierte oder Systemmodule für Inventar- und Bestellverwaltung von Drittanbietern.
 
-Informationen zum Deaktivieren der [ Module finden ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=de) auf der Seite _Module aktivieren oder deaktivieren_ im Installationshandbuch.
+Informationen zum Deaktivieren der [&#x200B; Module finden &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/manage-modules.html?lang=de) auf der Seite _Module aktivieren oder deaktivieren_ im Installationshandbuch.
 
 Nach Abschluss des Vorgangs stellt das System eine Liste der Module und Werte in `<Magento_installation_directory>/app/etc/config.php` bereit, beginnend mit:
 

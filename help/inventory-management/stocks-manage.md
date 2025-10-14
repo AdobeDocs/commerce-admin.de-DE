@@ -35,7 +35,7 @@ Alle Stores beginnen mit einem Standardlager. Sie muss aus den folgenden Gründe
 
 Erstellen und konfigurieren Sie für Händler, die mehrere Bezugsquellen haben, Lager so, dass sie optimal zu Ihren Geschäften passen und Ihre Bestellungen erfüllen. Wenn Sie einem Vertriebskanal neue Lager zuweisen, wird die Zuweisung aller bereits vorhandenen Lager in diesem Vertriebskanal aufgehoben.
 
-Bei einer Multi-Store-Installation wird der Standardbestand zunächst der [Haupt-Website“ ](../stores-purchase/stores.md#add-websites){target="_blank"} dem Standardspeicher zugewiesen. Der richtige Bestand und die richtigen Mengen werden für aktivierte und deaktivierte Produkte in der **[!UICONTROL Products]** Rasteransicht angezeigt.
+Bei einer Multi-Store-Installation wird der Standardbestand zunächst der [Haupt-Website“ &#x200B;](../stores-purchase/stores.md#add-websites){target="_blank"} dem Standardspeicher zugewiesen. Der richtige Bestand und die richtigen Mengen werden für aktivierte und deaktivierte Produkte in der **[!UICONTROL Products]** Rasteransicht angezeigt.
 
 ![Stock verwalten](assets/inventory-stock.png){width="600" zoomable="yes"}
 

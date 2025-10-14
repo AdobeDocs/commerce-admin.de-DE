@@ -19,7 +19,7 @@ Mit Adobe Commerce oder Magento Open Source 2.4 können Händler den neuen _erwe
 
 >[!NOTE]
 >
->Produktbilder, die zum Abschnitt [_[!UICONTROL Images and Videos]_&#x200B;hinzugefügt ](../catalog/product-image.md#upload-an-image), werden vom [!DNL Media Gallery] nicht verwaltet. In der neuen [!DNL Media Gallery] werden nur Bilder angezeigt und gefiltert, die im Abschnitt&#x200B;_[!UICONTROL Content]_ verwendet werden.
+>Produktbilder, die zum Abschnitt [_[!UICONTROL Images and Videos]_&#x200B;hinzugefügt &#x200B;](../catalog/product-image.md#upload-an-image), werden vom [!DNL Media Gallery] nicht verwaltet. In der neuen [!DNL Media Gallery] werden nur Bilder angezeigt und gefiltert, die im Abschnitt&#x200B;_[!UICONTROL Content]_ verwendet werden.
 
 ## Aktivieren des neuen [!DNL Media Gallery]
 
@@ -37,15 +37,15 @@ Mit Adobe Commerce oder Magento Open Source 2.4 können Händler den neuen _erwe
 
 1. Wenn Sie dazu aufgefordert werden, klicken Sie auf den Link **[!UICONTROL Cache Management]** in der Systemmeldung und aktualisieren Sie den ungültigen Cache.
 
-   Das [[!UICONTROL Content] zeigt ](/help/content-design/content-menu.md) die neue _[!UICONTROL Media Gallery]_&#x200B;an.
+   Das [[!UICONTROL Content] zeigt &#x200B;](/help/content-design/content-menu.md) die neue _[!UICONTROL Media Gallery]_&#x200B;an.
 
 >[!NOTE]
 >
->Für die volle Funktionalität neuer [!DNL Media Gallery] müssen `media.gallery.synchronization`- und `media.content.synchronization`-Warteschlangenverbraucher für die Erstsynchronisierung gestartet werden. Weitere [ finden Sie unter „Verwalten ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=de) Nachrichtenwarteschlangen _im_ Konfigurationshandbuch“.
+>Für die volle Funktionalität neuer [!DNL Media Gallery] müssen `media.gallery.synchronization`- und `media.content.synchronization`-Warteschlangenverbraucher für die Erstsynchronisierung gestartet werden. Weitere [&#x200B; finden Sie unter „Verwalten &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=de) Nachrichtenwarteschlangen _im_ Konfigurationshandbuch“.
 
 ## Zugriff auf die neue [!DNL Media Gallery]
 
-Auf die neue [!DNL Media Gallery] kann über das Menü Inhalt oder beim [Hinzufügen oder Bearbeiten einer Seite“ zugegriffen ](/help/content-design/page-add.md). Sie können darauf auch zugreifen, wenn Sie [eine Kategorie erstellen oder bearbeiten](/help/catalog/category-create.md) oder wenn Sie [Bilder mit dem Inhaltseditor einfügen](/help/content-design/editor-insert-image.md).
+Auf die neue [!DNL Media Gallery] kann über das Menü Inhalt oder beim [Hinzufügen oder Bearbeiten einer Seite“ zugegriffen &#x200B;](/help/content-design/page-add.md). Sie können darauf auch zugreifen, wenn Sie [eine Kategorie erstellen oder bearbeiten](/help/catalog/category-create.md) oder wenn Sie [Bilder mit dem Inhaltseditor einfügen](/help/content-design/editor-insert-image.md).
 
 So greifen Sie über das Menü [!UICONTROL Content] auf die neue [!UICONTROL Media Gallery] zu:
 

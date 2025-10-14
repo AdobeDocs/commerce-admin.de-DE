@@ -26,7 +26,7 @@ Im Abschnitt _[!UICONTROL Images and Videos]_&#x200B;können Sie grundlegende Au
 
    - Ziehen Sie ein Bild von Ihrem Desktop auf die Kachel _Kamera_ (![Kamerasymbol](../assets/icon-camera.png)).
 
-   - Klicken Sie auf _Kachel_ Kamera![ (Kamerasymbol](../assets/icon-camera.png)), wählen Sie die Bilddatei aus und klicken Sie auf **[!UICONTROL Open]**.
+   - Klicken Sie auf _Kachel_ Kamera![&#x200B; (Kamerasymbol](../assets/icon-camera.png)), wählen Sie die Bilddatei aus und klicken Sie auf **[!UICONTROL Open]**.
 
 Ein [Platzhalter](product-image-config.md#image-placeholders)-Bild wird im Katalog angezeigt, bis ein Produktbild verfügbar ist.
 

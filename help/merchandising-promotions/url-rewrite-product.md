@@ -23,7 +23,7 @@ Wenn [automatische Weiterleitungen](url-redirect-product-automatic.md) für Ihre
 
 Um Fehler zu vermeiden, schreiben Sie den Pfad _umleiten zu_ und _umleiten von_ auf und fügen Sie den URL-Schlüssel und das Suffix (falls zutreffend) hinzu.
 
-Wenn Sie sich nicht sicher sind, öffnen Sie jede Produktseite in Ihrem Store und kopieren Sie den Pfad aus der Adressleiste Ihres Browsers. Beim Erstellen einer Produktumleitung können Sie den [Kategoriepfad“ entweder ein- oder ](../catalog/catalog-urls.md). Für dieses Beispiel erstellen wir eine Produktumleitung ohne Kategoriepfad.
+Wenn Sie sich nicht sicher sind, öffnen Sie jede Produktseite in Ihrem Store und kopieren Sie den Pfad aus der Adressleiste Ihres Browsers. Beim Erstellen einer Produktumleitung können Sie den [Kategoriepfad“ entweder ein- oder &#x200B;](../catalog/catalog-urls.md). Für dieses Beispiel erstellen wir eine Produktumleitung ohne Kategoriepfad.
 
 ### Produkt mit Kategoriepfad
 

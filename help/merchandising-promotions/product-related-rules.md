@@ -140,4 +140,4 @@ Das Verhalten von Produktbeziehungsregeln und die Anzeige übereinstimmender Pro
 >Diese Funktion befindet sich in der Betaphase. Wenn Sie am Beta-Programm teilnehmen möchten, senden Sie eine Anfrage an [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
 
 
-Erfahren Sie, wie [ Real-Time CDP](../customers/audience-activation.md)Zielgruppen in Ihrer Adobe Commerce-Instanz aktivieren, um Informationen zu verwandten Produktregeln zu erhalten.
+Erfahren Sie, wie [&#x200B; Real-Time CDP](../customers/audience-activation.md)Zielgruppen in Ihrer Adobe Commerce-Instanz aktivieren, um Informationen zu verwandten Produktregeln zu erhalten.

@@ -220,7 +220,7 @@ Nach der Aktivierung wird der Abschnitt &quot;**[!UICONTROL Approval Rules]**&qu
 
 >[!NOTE]
 >
->Der Zugriff auf Bestellungen für die Storefront muss vom Unternehmensadministrator auf der Grundlage von [Berechtigungen der Unternehmensbenutzerrolle) gewährt ](account-company-roles-permissions.md).
+>Der Zugriff auf Bestellungen für die Storefront muss vom Unternehmensadministrator auf der Grundlage von [Berechtigungen der Unternehmensbenutzerrolle) gewährt &#x200B;](account-company-roles-permissions.md).
 
 ## Konfigurieren der Zahlung auf Konto
 

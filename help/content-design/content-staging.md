@@ -56,7 +56,7 @@ Wenn ein neues geplantes Update für eines der folgenden Objekte erstellt wird, 
 
    >[!NOTE]
    >
-   >Wenn eine Kampagne mit mehr als einer Entität verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard“ bearbeitet ](content-staging-dashboard.md).
+   >Wenn eine Kampagne mit mehr als einer Entität verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard“ bearbeitet &#x200B;](content-staging-dashboard.md).
 
 1. **Baseline-Inhalt wiederherstellen**
 

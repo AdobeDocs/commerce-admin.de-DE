@@ -49,7 +49,7 @@ Erstellen Sie eine Metadatenzuordnungsdatei im CSV-Format und laden Sie sie in d
 - Richtige Synchronisierung zwischen Adobe Commerce und AEM Assets aktivieren
 - Pflegen von Beziehungen zwischen Assets und Produkten nach der Migration
 
-Geben Sie für jede Mediendatei, die Sie migrieren möchten, Werte für die Metadatenfelder im [AEM Assets-Metadatenprofil für Commerce-Assets ](aem-assets-configure-aem.md), wie in der folgenden Tabelle beschrieben.
+Geben Sie für jede Mediendatei, die Sie migrieren möchten, Werte für die Metadatenfelder im [AEM Assets-Metadatenprofil für Commerce-Assets &#x200B;](aem-assets-configure-aem.md), wie in der folgenden Tabelle beschrieben.
 
 | Metadaten | Beschreibung | Wert |
 |-------|-------------|--------|

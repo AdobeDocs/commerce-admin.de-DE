@@ -61,17 +61,17 @@ Sie können eine `Processing` Bestellung nicht wesentlich ändern, aber Sie kön
 | **[!UICONTROL Credit Memo]** | Startet den Prozess zum Erstellen einer [Gutschrift](credit-memo-create.md). |
 | **[!UICONTROL Hold]**/**[!UICONTROL Unhold]** | Ändert den Status des Kundenauftrags in `On Hold`. Um die Sperre des Kundenauftrags aufzuheben, wählen Sie _[!UICONTROL Unhold]_&#x200B;aus. |
 | **[!UICONTROL Reorder]** | Erstellt einen neuen ausstehenden Auftrag basierend auf dem aktuellen Auftrag. |
-| **[!UICONTROL Create Returns]** | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Initiiert den Prozess zum [ (](returns.md)) eines oder mehrerer Elemente aus der Bestellung. |
+| **[!UICONTROL Create Returns]** | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Initiiert den Prozess zum [&#x200B; (](returns.md)) eines oder mehrerer Elemente aus der Bestellung. |
 
 {style="table-layout:auto"}
 
 ## Aufheben einer Verarbeitungsreihenfolge
 
-Wenn sich eine Bestellung noch im Status `Processing` befindet und die Zahlungsintegration auf `Authorize` (nicht `Authorize and Capture`) gesetzt ist, können Sie nur eine Transaktion stornieren oder eine Bestellung stornieren. [Durch das Stornieren einer Bestellung ](#cancel-a-pending-order) auch die Autorisierung aufgehoben.
+Wenn sich eine Bestellung noch im Status `Processing` befindet und die Zahlungsintegration auf `Authorize` (nicht `Authorize and Capture`) gesetzt ist, können Sie nur eine Transaktion stornieren oder eine Bestellung stornieren. [Durch das Stornieren einer Bestellung &#x200B;](#cancel-a-pending-order) auch die Autorisierung aufgehoben.
 
 Wenn eine Bestellung mit einer Zahlungsmethode aufgegeben wird, bei der der Zahlungsvorgang auf `Authorize and Capture` gesetzt ist, können Sie das Guthaben per Gutschrift zurückerstatten, es jedoch nicht stornieren, da es in Rechnung gestellt und die Zahlung erfasst wird.
 
-Ihre Zahlungsmethode bestimmt Ihre verfügbaren Zahlungsaktionen. Weitere Informationen [ Sie unter ](../configuration-reference/sales/payment-methods.md#payment-actions)Zahlungsaktionen“.
+Ihre Zahlungsmethode bestimmt Ihre verfügbaren Zahlungsaktionen. Weitere Informationen [&#x200B; Sie unter &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions)Zahlungsaktionen“.
 
 **_So heben Sie eine Bestellung auf:_**
 

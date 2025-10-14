@@ -16,7 +16,7 @@ Adobe Commerce und Magento Open Source unterstützen verschiedene Preisoptionen,
 
 Verwalten Sie die Preise für Ihre Produkte mit erweiterten Preisen, um Kunden bessere Preise anzubieten, die die Verbraucher dazu ermutigen, mehr auszugeben, den Traffic auf Ihre Website zu lenken und alte Bestände zu löschen.
 
-Die _[!UICONTROL Advanced Pricing]_&#x200B;definieren die erforderlichen Bedingungen für Sonderpreise, die für eine bestimmte Kundengruppe oder einen freigegebenen Katalog verfügbar sind. Erweiterte Preise können auf einfache, virtuelle, herunterladbare und gebündelte Produkte angewendet werden. Verwenden Sie eine Katalogpreisregel, um [ anderen Produkttypen reduzierte Preise ](../merchandising-promotions/price-rules-catalog.md). Weitere Informationen finden Sie unter [Preisbereich](catalog-price-scope.md).
+Die _[!UICONTROL Advanced Pricing]_&#x200B;definieren die erforderlichen Bedingungen für Sonderpreise, die für eine bestimmte Kundengruppe oder einen freigegebenen Katalog verfügbar sind. Erweiterte Preise können auf einfache, virtuelle, herunterladbare und gebündelte Produkte angewendet werden. Verwenden Sie eine Katalogpreisregel, um [&#x200B; anderen Produkttypen reduzierte Preise &#x200B;](../merchandising-promotions/price-rules-catalog.md). Weitere Informationen finden Sie unter [Preisbereich](catalog-price-scope.md).
 
 Erweiterte Preisdaten werden mit Produktseiten synchronisiert. Wenn Sie beispielsweise eine Preismenge aktualisieren, aktualisiert das System den Wert auf der Produktseite.
 

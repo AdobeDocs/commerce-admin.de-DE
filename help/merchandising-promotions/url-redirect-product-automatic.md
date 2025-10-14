@@ -44,7 +44,7 @@ Ihr Store kann so konfiguriert werden, dass er automatisch eine permanente Weite
 
 1. Suchen Sie das Produkt in der Liste und klicken Sie darauf, um den Datensatz zu öffnen.
 
-1. Erweitern Sie ![Erweiterungsauswahl ](../assets/icon-display-expand.png) Abschnitt **[!UICONTROL Search Engine Optimization]** .
+1. Erweitern Sie ![Erweiterungsauswahl &#x200B;](../assets/icon-display-expand.png) Abschnitt **[!UICONTROL Search Engine Optimization]** .
 
    ![Optimierung der Produktsuchmaschine - permanente Weiterleitung](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 

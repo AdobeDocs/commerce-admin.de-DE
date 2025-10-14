@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Im Editor können Sie ein Bild mithilfe von drei Quelltypen einfügen:
 
-- Fügen Sie ein Bild hinzu, das in den [Medienspeicher“ hochgeladen ](media-storage.md)
+- Fügen Sie ein Bild hinzu, das in den [Medienspeicher“ hochgeladen &#x200B;](media-storage.md)
 - Link zu einem Bild, das sich auf einem anderen Server befindet
 - Verwenden der Adobe Stock-Integration zum Suchen und Verwenden von Adobe Stock-Assets
 

@@ -77,7 +77,7 @@ Standardmäßig werden die Suchergebnisse aus einer von Adobe Stock kuratierten 
 
 ### Filtern von Adobe Stock-Assets
 
-1. [Führen Sie eine Keyword-Suche nach Adobe Stock-Assets ](#search-for-adobe-stock-assets-by-keywords).
+1. [Führen Sie eine Keyword-Suche nach Adobe Stock-Assets &#x200B;](#search-for-adobe-stock-assets-by-keywords).
 
 1. Klicken Sie auf **[!UICONTROL Filters]**.
 
@@ -102,7 +102,7 @@ Standardmäßig werden die Suchergebnisse aus einer von Adobe Stock kuratierten 
 
 ## Anzeigen von Bilddetails
 
-Jedes Bild verfügt über Details, die angezeigt werden können. Über diese Detailansicht sind zusätzliche bildspezifische Aktionen verfügbar[ z. B](adobe-stock-save-preview.md) Speichern von Bildvorschauen oder [Speichern (und optional Lizenzieren](adobe-stock-license-image.md) von Bildern).
+Jedes Bild verfügt über Details, die angezeigt werden können. Über diese Detailansicht sind zusätzliche bildspezifische Aktionen verfügbar[&#x200B; z. B](adobe-stock-save-preview.md) Speichern von Bildvorschauen oder [Speichern (und optional Lizenzieren](adobe-stock-license-image.md) von Bildern).
 
 1. [Zugriff auf das Adobe Stock-Suchraster](#access-the-adobe-stock-search-grid).
 
@@ -165,7 +165,7 @@ Eine Bildvorschau ist eine Version eines Adobe Stock-Assets mit Wasserzeichen. B
 
 #### Speichern eines lizenzierten Bildes
 
-Adobe Stock-Assets, die Sie für Ihre Produktions-[!DNL Commerce] verwenden möchten, sollten lizenziert werden. Durch die Lizenzierung wird sichergestellt, dass Sie rechtlichen Zugriff auf das Bild haben und das Adobe Stock-Wasserzeichen, das in allen [Bildvorschauen“ vorhanden ist, entfernt ](adobe-stock-save-preview.md). Um Bilder zu lizenzieren oder bereits lizenzierte Bilder zu speichern, müssen Sie bei Ihrem Adobe-Konto angemeldet sein.
+Adobe Stock-Assets, die Sie für Ihre Produktions-[!DNL Commerce] verwenden möchten, sollten lizenziert werden. Durch die Lizenzierung wird sichergestellt, dass Sie rechtlichen Zugriff auf das Bild haben und das Adobe Stock-Wasserzeichen, das in allen [Bildvorschauen“ vorhanden ist, entfernt &#x200B;](adobe-stock-save-preview.md). Um Bilder zu lizenzieren oder bereits lizenzierte Bilder zu speichern, müssen Sie bei Ihrem Adobe-Konto angemeldet sein.
 
 1. [Beim Adobe-Konto anmelden](#log-in-to-your-adobe-account).
 
@@ -181,7 +181,7 @@ Adobe Stock-Assets, die Sie für Ihre Produktions-[!DNL Commerce] verwenden möc
      >
      >Sie müssen über [Adobe Stock-Guthaben](https://helpx.adobe.com/de/stock/help/credit-packs.html) in Ihrem Konto verfügen, um das Bild zu lizenzieren.
 
-   In dieser Aktion werden Sie aufgefordert, einen Dateinamen anzugeben, mit dem das Bild im [Medienspeicher“ gespeichert ](media-storage.md). Es wird ein standardmäßiger Dateiname bereitgestellt, Sie können den Namen jedoch an Ihre Anforderungen anpassen.
+   In dieser Aktion werden Sie aufgefordert, einen Dateinamen anzugeben, mit dem das Bild im [Medienspeicher“ gespeichert &#x200B;](media-storage.md). Es wird ein standardmäßiger Dateiname bereitgestellt, Sie können den Namen jedoch an Ihre Anforderungen anpassen.
 
 1. Klicken Sie auf **[!UICONTROL Confirm]**.
 

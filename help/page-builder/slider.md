@@ -130,7 +130,7 @@ Sie können Zeit sparen, indem Sie eine Folie duplizieren, die bereits mit den e
 
 ### Widget auf einer Folie hinzufügen
 
-Sie können Ihrer Folie in einem [ Schritt einen beliebigen ](../content-design/widgets.md#widget-types)Widget[!DNL Page Builder]Typ) hinzufügen, indem Sie die folgenden Schritte ausführen:
+Sie können Ihrer Folie in einem [&#x200B; Schritt einen beliebigen &#x200B;](../content-design/widgets.md#widget-types)Widget[!DNL Page Builder]Typ) hinzufügen, indem Sie die folgenden Schritte ausführen:
 
 1. [Erstellen Sie das Widget](../content-design/widget-create.md) das Sie auf einer Folie sehen möchten.
 
@@ -515,7 +515,7 @@ Wenn Sie einen Titel über dem Schieberegler möchten, fügen Sie einfach einen 
 
 ## Schiebereglereinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über den Schieberegler-Container, um die Haupt-Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Schieberegler-Container, um die Haupt-Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
    ![Regler-Toolbox](./assets/pb-media-slider-tee-shirts-main-toolbox.png){width="500" zoomable="yes"}
 
@@ -549,7 +549,7 @@ Wenn Sie einen Titel über dem Schieberegler möchten, fügen Sie einfach einen 
 
    ![Schieberegler zeigt Pfeile und Punkte an](./assets/pb-media-slider-settings-show-arrows-dots.png){width="600" zoomable="yes"}
 
-1. Füllen Sie [ Schiebereglereinstellungen ](#slider-advanced)Erweitert) nach Bedarf aus.
+1. Füllen Sie [&#x200B; Schiebereglereinstellungen &#x200B;](#slider-advanced)Erweitert) nach Bedarf aus.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 

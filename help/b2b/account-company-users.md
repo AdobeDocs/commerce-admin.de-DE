@@ -56,7 +56,7 @@ Firmenbenutzer können nur vom Unternehmensadministrator hinzugefügt, bearbeite
 
    Die neuen Benutzer werden zusammen mit dem Unternehmensadministrator in der Liste der Firmenbenutzer angezeigt.
 
-Um Zeit bei der ersten Bestellung zu sparen, kann der Firmenadministrator jeden Firmenbenutzer daran erinnern, die standardmäßige Rechnungs- und Lieferadresse des Unternehmens zu seinem [Adressbuch“ ](../customers/account-dashboard-address-book.md).
+Um Zeit bei der ersten Bestellung zu sparen, kann der Firmenadministrator jeden Firmenbenutzer daran erinnern, die standardmäßige Rechnungs- und Lieferadresse des Unternehmens zu seinem [Adressbuch“ &#x200B;](../customers/account-dashboard-address-book.md).
 
 ## Entfernen eines Benutzers aus der [!UICONTROL Company structure]
 

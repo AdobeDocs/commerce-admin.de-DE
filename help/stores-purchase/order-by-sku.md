@@ -53,7 +53,7 @@ _Order by SKU_ ist ein [Widget](../content-design/widgets.md) das im Store als K
 
 1. Legen Sie **[!UICONTROL Enable Quick Order]** auf `No` fest.
 
-   Mit [ Funktion „Schnellbestellung](../b2b/quick-order.md) können Kunden und Gäste schnell Bestellungen basierend auf der SKU oder dem Produktnamen aufgeben.
+   Mit [&#x200B; Funktion „Schnellbestellung](../b2b/quick-order.md) können Kunden und Gäste schnell Bestellungen basierend auf der SKU oder dem Produktnamen aufgeben.
 
 ## Storefront-Erlebnis
 

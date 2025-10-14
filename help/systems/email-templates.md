@@ -14,7 +14,7 @@ ht-degree: 0%
 
 E-Mail-Vorlagen definieren das Layout, den Inhalt und die Formatierung automatisierter Nachrichten, die von Ihrem Store gesendet werden. Sie werden als Transaktions-E-Mails bezeichnet, da jede mit einem bestimmten Transaktions- oder Ereignistyp verknüpft ist.
 
-Commerce enthält eine Reihe responsiver E-Mail-Vorlagen, die von verschiedenen Ereignissen ausgelöst werden, die während des Betriebs Ihres Stores stattfinden. Jede Vorlage ist für jede Bildschirmgröße optimiert und kann vom Desktop sowie auf Tablets und Mobilgeräten angezeigt werden. Es gibt verschiedene vorbereitete E-Mail-Vorlagen für Kundenaktivitäten, Verkäufe, Produktwarnungen, Admin-Aktionen und Systemnachrichten, die Sie anpassen [, ](email-template-custom.md) Ihre Marke widerzuspiegeln.
+Commerce enthält eine Reihe responsiver E-Mail-Vorlagen, die von verschiedenen Ereignissen ausgelöst werden, die während des Betriebs Ihres Stores stattfinden. Jede Vorlage ist für jede Bildschirmgröße optimiert und kann vom Desktop sowie auf Tablets und Mobilgeräten angezeigt werden. Es gibt verschiedene vorbereitete E-Mail-Vorlagen für Kundenaktivitäten, Verkäufe, Produktwarnungen, Admin-Aktionen und Systemnachrichten, die Sie anpassen [, &#x200B;](email-template-custom.md) Ihre Marke widerzuspiegeln.
 
 Commerce-E-Mails können von HTML- und Text-E-Mail-Clients gerendert werden. Bei der Darstellung von E-Mails kann es zwischen Clients Unterschiede geben.
 
@@ -67,7 +67,7 @@ Eine detaillierte Liste der Konfigurationseinstellungen finden Sie unter [_Trans
 
 ## Schritt 2. Kopf- und Fußzeilenvorlagen auswählen
 
-Wenn Sie benutzerdefinierte Kopf- und Fußzeilen-Vorlagen für Ihren Store oder für verschiedene Stores haben, können Sie je nach [ der Konfiguration angeben, welche Vorlagen für ](../getting-started/websites-stores-views.md#scope-settings) verwendet werden. Andernfalls werden die Standardvorlagen verwendet. Weitere Informationen finden Sie unter [E-Mail-Vorlagen anpassen](email-template-custom.md).
+Wenn Sie benutzerdefinierte Kopf- und Fußzeilen-Vorlagen für Ihren Store oder für verschiedene Stores haben, können Sie je nach [&#x200B; der Konfiguration angeben, welche Vorlagen für &#x200B;](../getting-started/websites-stores-views.md#scope-settings) verwendet werden. Andernfalls werden die Standardvorlagen verwendet. Weitere Informationen finden Sie unter [E-Mail-Vorlagen anpassen](email-template-custom.md).
 
 1. Wählen Sie die **[!UICONTROL Header Template]** aus, die für alle Transaktions-E-Mail-Nachrichten verwendet werden soll.
 
@@ -103,7 +103,7 @@ Die Liste der E-Mail-Vorlagen ist alphabetisch nach Modul geordnet.
 | Vorlage | Konfigurationspfad |
 |--- |--- |
 | `Assign Company Admin` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Abschnitt:** [!UICONTROL Customer-Related Emails]<br/>**&#x200B;** Feld:[!UICONTROL Default 'Assign Company Admin' Email] |
-| `Assign Company to Customer` | **Seite:** [!UICONTROL Customers] > [Unternehmenskonfiguration ](../configuration-reference/customers/company-configuration.md)<br/>**Abschnitt:** [!UICONTROL Customer-Related Emails] <br/>**&#x200B;** Feld:[!UICONTROL Default 'Assign Company to Customer' Email] |
+| `Assign Company to Customer` | **Seite:** [!UICONTROL Customers] > [Unternehmenskonfiguration &#x200B;](../configuration-reference/customers/company-configuration.md)<br/>**Abschnitt:** [!UICONTROL Customer-Related Emails] <br/>**&#x200B;** Feld:[!UICONTROL Default 'Assign Company to Customer' Email] |
 | `Company Admin Changed to Member` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Abschnitt:** [!UICONTROL Customer-Related Emails]<br/>**&#x200B;** Feld:[!UICONTROL Default 'Company Admin Changed To Member' Email] |
 | `Company Admin Set Inactive` | **Seite:** [!UICONTROL Customers] > [[!UICONTROL Company Configuration]](../configuration-reference/customers/company-configuration.md)<br/>**Abschnitt:** [!UICONTROL Customer-Related Emails]<br/>**&#x200B;** Feld:[!UICONTROL Default 'Customer Status Inactive' Email] |
 | `Company Invite` | Nicht zutreffend |

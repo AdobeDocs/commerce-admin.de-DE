@@ -32,7 +32,7 @@ Diese Versionshinweise beschreiben Versionen von [!DNL Page Builder] und umfasse
 
 ![Neu](../assets/new.svg) <!-- Issue 594 -->**Neue Unterstützung für mehrzeilige Spalten zur Spaltengruppe hinzugefügt** - Durch diese Hinzufügung können Benutzende mehrere Zeilen von Spalten innerhalb einer [!DNL Columns] bearbeiten, um Spaltenlayouts viel flexibler zu gestalten.<!--- PB-108-->
 
-Informationen [ Verwendung der neuen [!DNL Columns]-Gruppe finden ](./column.md) unter „Layout - Spalte“.
+Informationen [&#x200B; Verwendung der neuen [!DNL Columns]-Gruppe finden &#x200B;](./column.md) unter „Layout - Spalte“.
 
 ## 1.7.1 für Commerce 2.4.4
 
@@ -40,11 +40,11 @@ Informationen [ Verwendung der neuen [!DNL Columns]-Gruppe finden ](./column.md)
 
 ![Problem behoben](../assets/fix.svg) Händler können jetzt Alternativtext (`alt_text`) zu Bildern (Bild, Banner, Folie) hinzufügen, um die Barrierefreiheit der Inhalte zu verbessern.<!--- PB-1193-->
 
-![Es wurde ein Problem ](../assets/fix.svg): Admin-Benutzende mit Berechtigungen, die auf die Inhaltsbearbeitung beschränkt sind, sehen bei Verwendung von Page Builder zum Hinzufügen eines Produkt-Widgets zu einer CMS-Seite keinen Fehler mehr. Page Builder zeigt auch eine genaue Produktanzahl auf der Seite mit den Widget-Einstellungen an. Zuvor benötigte Page Builder beim Abrufen der Produktzahl Berechtigungen für das Katalogmodul. Daraufhin wurde folgender Fehler angezeigt: `A technical problem with the server created an error. Try again to continue what you were doing. If the problem persists, try again later`. <!--- MC-42779-->
+![Es wurde ein Problem &#x200B;](../assets/fix.svg): Admin-Benutzende mit Berechtigungen, die auf die Inhaltsbearbeitung beschränkt sind, sehen bei Verwendung von Page Builder zum Hinzufügen eines Produkt-Widgets zu einer CMS-Seite keinen Fehler mehr. Page Builder zeigt auch eine genaue Produktanzahl auf der Seite mit den Widget-Einstellungen an. Zuvor benötigte Page Builder beim Abrufen der Produktzahl Berechtigungen für das Katalogmodul. Daraufhin wurde folgender Fehler angezeigt: `A technical problem with the server created an error. Try again to continue what you were doing. If the problem persists, try again later`. <!--- MC-42779-->
 
 ![Problem behoben](../assets/fix.svg) Anzeigeprobleme mit dem Menü Page Builder-Format werden jetzt mit dem TinyMCE 5-Bibliotheks-Upgrade behoben. <!--- AC-446-->
 
-![Es wurde ein Problem ](../assets/fix.svg). Sie können jetzt die Maus verwenden, um einen Wert **Anzuzeigender Text** im Popup Link einfügen zu bearbeiten. <!--- AC-982-->
+![Es wurde ein Problem &#x200B;](../assets/fix.svg). Sie können jetzt die Maus verwenden, um einen Wert **Anzuzeigender Text** im Popup Link einfügen zu bearbeiten. <!--- AC-982-->
 
 ![Problem behoben](../assets/fix.svg) Page Builder zeigt jetzt im Optionsmenü Schriftgröße alle Optionen wie erwartet an. Zuvor wurden nicht alle Optionen angezeigt. <!--- AC-1056-->
 
@@ -52,13 +52,13 @@ Informationen [ Verwendung der neuen [!DNL Columns]-Gruppe finden ](./column.md)
 
 ![Problem behoben](../assets/fix.svg) Page Builder ändert die Größe der Dialogfelder „Link einfügen“ und „Bild einfügen“ nicht mehr, wenn der Schieberegler in einer kleinen Spalte angezeigt wird. <!--- AC-973-->
 
-![Es wurde ](../assets/fix.svg) Problem behoben: Das Menü Seitenbuilder-Tabelleneigenschaften wird jetzt erwartungsgemäß angezeigt. <!--- AC-407-->
+![Es wurde &#x200B;](../assets/fix.svg) Problem behoben: Das Menü Seitenbuilder-Tabelleneigenschaften wird jetzt erwartungsgemäß angezeigt. <!--- AC-407-->
 
 ![Problem behoben](../assets/fix.svg) Schieberpunkte werden nicht mehr im Modal Link einfügen oder Bild angezeigt, wenn die Maus nicht über den Schieberegler bewegt wird. <!--- AC-406-->
 
 ![Problem behoben](../assets/fix.svg) Die Schriftgröße, die zum Anzeigen der Menüoptionen „Tabelle“ verwendet wird, wurde optimiert. <!--- AC-396-->
 
-![Es wurde ](../assets/fix.svg) Problem behoben, dass Anomalien bei der Positionierung der Dialogfelder „Bild einfügen/bearbeiten“ und „Link einfügen/bearbeiten“ korrigiert wurden. <!--- AC-397-->
+![Es wurde &#x200B;](../assets/fix.svg) Problem behoben, dass Anomalien bei der Positionierung der Dialogfelder „Bild einfügen/bearbeiten“ und „Link einfügen/bearbeiten“ korrigiert wurden. <!--- AC-397-->
 
 ![Problem behoben](../assets/fix.svg) Page Builder gibt keinen Fehler mehr aus, wenn Sie für ein Banner auf **Text-**&quot; klicken. <!--- AC-398-->
 

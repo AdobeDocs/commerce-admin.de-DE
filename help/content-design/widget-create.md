@@ -18,7 +18,7 @@ Widgets sind wiederverwendbare Komponenten. Sie können auf einfache Weise Widge
 
 ## Erstellen eines Widgets
 
-Der Prozess zum Erstellen eines Widgets ist für jeden [Widget-Typ“ nahezu ](widgets.md#widget-types). Sie können dem ersten Teil der Anweisungen folgen und dann den letzten Teil für den gewünschten Widget-Typ ausfüllen.
+Der Prozess zum Erstellen eines Widgets ist für jeden [Widget-Typ“ nahezu &#x200B;](widgets.md#widget-types). Sie können dem ersten Teil der Anweisungen folgen und dann den letzten Teil für den gewünschten Widget-Typ ausfüllen.
 
 ### Schritt 1: Typ auswählen
 

@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Das primäre Admin-Konto wurde ursprünglich während der Installation eingerichtet und kann anfängliche Platzhalterinformationen oder Beispieldateninformationen enthalten. Der festgelegte Besitzer dieses Kontos kann den Benutzernamen und das Kennwort personalisieren und den Vornamen, Nachnamen und die E-Mail-Adresse jederzeit aktualisieren. Dieses Konto, _Superuser_ mit standardmäßig allen Berechtigungen, erstellt in der Regel die für das Unternehmen erforderlichen Admin-Benutzerkonten.
 
-- Informationen [ Hinzufügen oder Bearbeiten von Benutzern finden ](../systems/permissions-users-all.md#create-a-user) unter „Benutzer erstellen“.
+- Informationen [&#x200B; Hinzufügen oder Bearbeiten von Benutzern finden &#x200B;](../systems/permissions-users-all.md#create-a-user) unter „Benutzer erstellen“.
 
-- Informationen [ Admin](../systems/permissions.md) und Benutzerrollen finden [ unter ](../systems/permissions-user-roles.md)Berechtigungen“.
+- Informationen [&#x200B; Admin](../systems/permissions.md) und Benutzerrollen finden [&#x200B; unter &#x200B;](../systems/permissions-user-roles.md)Berechtigungen“.
 
 {{ims-admin-note}}
 
@@ -30,7 +30,7 @@ Aus Sicherheitsgründen können Sie festlegen, auf welche Teile des _Admin_ jede
 
 >[!NOTE]
 >
->Wenn Sie sich zum ersten Mal bei _Admin_ anmelden, werden Sie aufgefordert, die Datenerfassung _Admin-Nutzung zulassen_. Weitere Informationen [ Sie unter ](admin.md#usage-data-collection)Nutzungsdatenerfassung“.
+>Wenn Sie sich zum ersten Mal bei _Admin_ anmelden, werden Sie aufgefordert, die Datenerfassung _Admin-Nutzung zulassen_. Weitere Informationen [&#x200B; Sie unter &#x200B;](admin.md#usage-data-collection)Nutzungsdatenerfassung“.
 
 ![Admin-Anmeldung](./assets/admin-login.png){width="400"}
 
@@ -100,7 +100,7 @@ Die Wiederverwendung der letzten vier Kennwörter, die dem Konto zugewiesen wurd
 
    >[!NOTE]
    >
-   >Ein _Admin_-Kennwort muss mindestens sieben Zeichen lang sein und sowohl Buchstaben als auch Zahlen enthalten. Informationen [ Kennwortoptionen finden Sie unter _Admin_-](../systems/security-admin.md) konfigurieren.
+   >Ein _Admin_-Kennwort muss mindestens sieben Zeichen lang sein und sowohl Buchstaben als auch Zahlen enthalten. Informationen [&#x200B; Kennwortoptionen finden Sie unter _Admin_-](../systems/security-admin.md) konfigurieren.
 
 ## Melden Sie sich bei Admin ab
 
@@ -114,7 +114,7 @@ Auf der Seite _[!UICONTROL Sign In]_&#x200B;wird eine Meldung angezeigt, dass Si
 
 ## Kontoinformationen bearbeiten
 
-1. Klicken Sie auf _Symbol_ Konto![ (](../assets/icon-admin-user.png)).
+1. Klicken Sie auf _Symbol_ Konto![&#x200B; (](../assets/icon-admin-user.png)).
 
 1. Klicken Sie auf **[!UICONTROL Account Setting]**.
 
@@ -156,7 +156,7 @@ Der Administrator bietet Zugriff zur Verwaltung der Funktionen für Bestellungen
 
 1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
-[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en_US
+[1]: https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US
 
 ## Gewährleistung eines sicheren Zugriffs auf den Administrator
 

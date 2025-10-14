@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Jede Geschenkkarte hat einen einzigartigen Code, der von nur einem Kunden während des Checkouts eingelöst werden kann. Ein [Code-Pool](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) muss eingerichtet werden, bevor Geschenkgutscheine verkauft werden können. Informationen [, wie Geschenkgutscheine im Warenkorb eingelöst ](../stores-purchase/product-gift-card-workflow.md), finden Sie unter „Arbeitsablauf für Geschenkgutscheine“.
+Jede Geschenkkarte hat einen einzigartigen Code, der von nur einem Kunden während des Checkouts eingelöst werden kann. Ein [Code-Pool](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) muss eingerichtet werden, bevor Geschenkgutscheine verkauft werden können. Informationen [, wie Geschenkgutscheine im Warenkorb eingelöst &#x200B;](../stores-purchase/product-gift-card-workflow.md), finden Sie unter „Arbeitsablauf für Geschenkgutscheine“.
 
 ![Geschenkkarte Produktseite](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
 

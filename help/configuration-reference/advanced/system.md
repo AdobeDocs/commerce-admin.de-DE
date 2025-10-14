@@ -205,7 +205,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Vollsei
 
 ![Erweiterte Konfiguration - Speicherkonfiguration für Medien - Dateisystem](./assets/system-storage-config-media.png)<!-- zoom -->
 
-Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Verwenden einer ](../../content-design/media-storage-database.md)) im _Content and Design Guide_.
+Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Verwenden einer &#x200B;](../../content-design/media-storage-database.md)) im _Content and Design Guide_.
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

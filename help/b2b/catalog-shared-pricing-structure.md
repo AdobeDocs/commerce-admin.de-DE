@@ -133,7 +133,7 @@ Die Auswahl der Produkte im Raster kann auf der Seite &quot;_&quot; nicht geänd
 
 [Preisstufe](../catalog/product-price-tier.md) ermöglicht es Ihnen, einen Mengenrabatt für Produkte im freigegebenen Katalog anzubieten. Die Spalte _Stufenpreis_ des Rasters enthält einen Link zu den Optionen _Erweiterte Preise_ die speziell für den freigegebenen Katalog gelten. Wenn das Produkt bereits Preisstufen enthält, wird die Anzahl der vorhandenen Preisstufen in Klammern hinter der Relation angezeigt.
 
-Die folgenden Anweisungen zeigen, wie Sie Preisstufen auf ein einzelnes Produkt anwenden. Informationen zur Anwendung der Preisstufe auf mehrere Produkte finden Sie unter [Preise der ](../systems/data-import-price-tier.md)).
+Die folgenden Anweisungen zeigen, wie Sie Preisstufen auf ein einzelnes Produkt anwenden. Informationen zur Anwendung der Preisstufe auf mehrere Produkte finden Sie unter [Preise der &#x200B;](../systems/data-import-price-tier.md)).
 
 1. Rufen Sie für das Produkt im Raster die Spalte _Stufenpreis_ auf und klicken Sie auf **[!UICONTROL Configure]**.
 
@@ -163,4 +163,4 @@ Die folgenden Anweisungen zeigen, wie Sie Preisstufen auf ein einzelnes Produkt 
 
 Wenn die benutzerdefinierte Preisgestaltung abgeschlossen ist, klicken Sie auf **[!UICONTROL Generate Catalog]** und dann auf **[!UICONTROL Save]**.
 
-Der freigegebene Katalog wird jetzt in der Datenbank gespeichert. Der Name wird in der Spalte _[!UICONTROL Shared Catalog]_&#x200B;des&#x200B;_[!UICONTROL Products]_ Rasters angezeigt. Der nächste Schritt besteht darin[ den freigegebenen Katalog einem Unternehmen zuzuweisen](./catalog-shared-assign-companies.md).
+Der freigegebene Katalog wird jetzt in der Datenbank gespeichert. Der Name wird in der Spalte _[!UICONTROL Shared Catalog]_&#x200B;des&#x200B;_[!UICONTROL Products]_ Rasters angezeigt. Der nächste Schritt besteht darin[&#x200B; den freigegebenen Katalog einem Unternehmen zuzuweisen](./catalog-shared-assign-companies.md).

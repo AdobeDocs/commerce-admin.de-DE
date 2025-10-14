@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Ein Kundensegment kann für zielgerichtete Promotions verwendet werden, indem es mit einer [Warenkorb-Preisregel) verknüpft ](../merchandising-promotions/price-rules-cart.md).
+Ein Kundensegment kann für zielgerichtete Promotions verwendet werden, indem es mit einer [Warenkorb-Preisregel) verknüpft &#x200B;](../merchandising-promotions/price-rules-cart.md).
 
 ![Warenkorb-Preisregel - Zielkundensegment](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
@@ -31,7 +31,7 @@ _&#x200B;**So verknüpfen Sie ein Segment mit einer Warenkorb-Preisregel:**&#x20
 
 1. Fügen Sie die Bedingung hinzu.
 
-   * Klicken Sie auf _Symbol_ Hinzufügen![ (](../assets/icon-add-green-circle.png)), um die Liste der Bedingungen anzuzeigen. Wählen Sie dann **[!UICONTROL Customer Segment]**.
+   * Klicken Sie auf _Symbol_ Hinzufügen![&#x200B; (](../assets/icon-add-green-circle.png)), um die Liste der Bedingungen anzuzeigen. Wählen Sie dann **[!UICONTROL Customer Segment]**.
 
    ![Warenkorb-Preisregel - Kundensegmentbedingung hinzufügen](assets/condition-customer-segment.png){width="600" zoomable="yes"}
 

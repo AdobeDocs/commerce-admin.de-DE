@@ -98,7 +98,7 @@ PayPal bietet zwei Payment Gateway-Lösungen für Ihr Unternehmen. Sie können P
 
 ## PayPal-Betrugsmanagementfilter
 
-PayPal-Filter zur Betrugsverwaltung erleichtern die Erkennung und Reaktion auf betrügerische Transaktionen und können so konfiguriert werden, dass riskantere Zahlungen markiert, zur Überprüfung gespeichert oder verweigert werden. Die mit Commerce [Bestellstatus) ](order-status.md) Werte wurden entsprechend den Einstellungen für den Betrugsfilter geändert:
+PayPal-Filter zur Betrugsverwaltung erleichtern die Erkennung und Reaktion auf betrügerische Transaktionen und können so konfiguriert werden, dass riskantere Zahlungen markiert, zur Überprüfung gespeichert oder verweigert werden. Die mit Commerce [Bestellstatus) &#x200B;](order-status.md) Werte wurden entsprechend den Einstellungen für den Betrugsfilter geändert:
 
 | Aktion | Ergebnis |
 | --- | --- |

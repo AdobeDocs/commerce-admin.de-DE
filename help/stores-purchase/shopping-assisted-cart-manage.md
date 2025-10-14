@@ -163,7 +163,7 @@ Sie können Artikel aus der Wunschliste eines Kunden in den Warenkorb legen und 
 
    - Geben Sie **[!UICONTROL Apply Coupon Code]** einen gültigen Gutscheincode ein.
 
-   - Klicken Sie auf _Pfeil_&#x200B;Übernehmen![ ( Pfeilsymbol](../assets/icon-apply-arrow.png) ).
+   - Klicken Sie auf _Pfeil_&#x200B;Übernehmen![&#x200B; ( Pfeilsymbol](../assets/icon-apply-arrow.png) ).
 
 1. Passen Sie die bestellte Menge nach Bedarf an:
 

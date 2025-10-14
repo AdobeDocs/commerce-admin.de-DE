@@ -89,7 +89,7 @@ Um Produktoptionen in der Liste zu bearbeiten, führt der Kunde Folgendes aus:
 
 Ein Produkt in der Anforderungsliste kann bearbeitet werden, wenn:
 
-- Das Produkt hat **[!UICONTROL all options set]** (wenn es sich um ein &quot;[ Produkt“ ](../catalog/product-create-configurable.md) der Anforderungsliste handelt).
+- Das Produkt hat **[!UICONTROL all options set]** (wenn es sich um ein &quot;[&#x200B; Produkt“ &#x200B;](../catalog/product-create-configurable.md) der Anforderungsliste handelt).
 
   Das Produkt ist **[!UICONTROL added to this Requisition List]**.
 

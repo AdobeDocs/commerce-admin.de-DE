@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Layout - Spalte
 
-Verwenden Sie den Content _Typ_ Spalte“, um eine Seite im [[!DNL Page Builder] Schritt“ in mehrere Spalten ](workspace.md#stage). Wenn Sie eine Spalte zu einer Zeile oder Registerkarte oder direkt zum Schritt hinzufügen, wird die Spaltengruppe zunächst in zwei Spalten mit gleicher Breite unterteilt. Sie können Spalten nach Bedarf hinzufügen oder entfernen. Die Größe einer Spalte kann geändert werden, indem der Rahmen zwischen zwei Spalten gezogen wird. Die Breite der nächsten Spalte wird angepasst, um den verfügbaren Platz in der Zeile, Registerkarte oder Phase zu füllen. Eine einzelne Spalte erweitert die gesamte Breite der Bühne oder ihres Containers.
+Verwenden Sie den Content _Typ_ Spalte“, um eine Seite im [[!DNL Page Builder] Schritt“ in mehrere Spalten &#x200B;](workspace.md#stage). Wenn Sie eine Spalte zu einer Zeile oder Registerkarte oder direkt zum Schritt hinzufügen, wird die Spaltengruppe zunächst in zwei Spalten mit gleicher Breite unterteilt. Sie können Spalten nach Bedarf hinzufügen oder entfernen. Die Größe einer Spalte kann geändert werden, indem der Rahmen zwischen zwei Spalten gezogen wird. Die Breite der nächsten Spalte wird angepasst, um den verfügbaren Platz in der Zeile, Registerkarte oder Phase zu füllen. Eine einzelne Spalte erweitert die gesamte Breite der Bühne oder ihres Containers.
 
 ![Spalte hinzufügen](./assets/pb-layout-column-add-drag-placeholder.png){width="600" zoomable="yes"}
 
@@ -44,7 +44,7 @@ Jede Spalte verfügt über eine Toolbox mit Optionen, die angezeigt wird, wenn S
 
 ## Spaltenraster
 
-Das [Raster](workspace.md) stellt sicher, dass Inhalte konsistent in einer Spalte ausgerichtet werden, und hilft bei der korrekten Darstellung der Seite auf Desktop- und Mobilgeräten. Weitere Informationen finden Sie [ Abschnitt „Erweiterte ](setup.md)&quot; der [!DNL Page Builder].
+Das [Raster](workspace.md) stellt sicher, dass Inhalte konsistent in einer Spalte ausgerichtet werden, und hilft bei der korrekten Darstellung der Seite auf Desktop- und Mobilgeräten. Weitere Informationen finden Sie [&#x200B; Abschnitt „Erweiterte &#x200B;](setup.md)&quot; der [!DNL Page Builder].
 
 ![Rasterunterteilungen in einer Zeile mit einer Spalte](./assets/pb-layout-column-one-grid.png){width="500" zoomable="yes"}
 
@@ -64,7 +64,7 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
 1. Klicken Sie in der linken oberen Ecke der Spaltengruppe auf das Tool _Raster_ (![Grid-Steuerelement](./assets/pb-icon-grid-control.png)) und passen Sie die Rastergröße nach Bedarf an.
 
-   Durch die Positionierung von Inhalten im Raster wird der Inhalt konsistent ausgerichtet und die Seite auf Desktop- und Mobilgeräten korrekt gerendert. Weitere Informationen finden Sie [ Abschnitt „Erweiterte ](../configuration-reference/general/content-management.md)&quot; der [!DNL Page Builder].
+   Durch die Positionierung von Inhalten im Raster wird der Inhalt konsistent ausgerichtet und die Seite auf Desktop- und Mobilgeräten korrekt gerendert. Weitere Informationen finden Sie [&#x200B; Abschnitt „Erweiterte &#x200B;](../configuration-reference/general/content-management.md)&quot; der [!DNL Page Builder].
 
    ![Rasterunterteilungen in zwei Spalten](./assets/pb-layout-column-two-grid.png){width="600" zoomable="yes"}
 
@@ -98,7 +98,7 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
 1. Wenn die Spaltengruppe die verbleibende Spalte auf die gesamte Breite der Zeile oder des Stadiums erweitern soll:
 
-   - Bewegen Sie den Mauszeiger über die Spalte, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ aus (](./assets/pb-icon-settings.png){width="20"}Einstellungssymbol).
+   - Bewegen Sie den Mauszeiger über die Spalte, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; aus (](./assets/pb-icon-settings.png){width="20"}Einstellungssymbol).
 
    - Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Advanced]_&#x200B;und legen Sie alle vier **[!UICONTROL Padding]**&#x200B;auf `0` fest.
 
@@ -110,7 +110,7 @@ Im folgenden zweispaltigen Beispiel geben die Zahlen in Klammern (6/12) am obere
 
 ## Spalteneinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über die Spalte, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ aus (](./assets/pb-icon-settings.png){width="20"}Einstellungssymbol).
+1. Bewegen Sie den Mauszeiger über die Spalte, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; aus (](./assets/pb-icon-settings.png){width="20"}Einstellungssymbol).
 
    ![Spalten-Toolbox](./assets/pb-column-toolbox-settings.png){width="600" zoomable="yes"}
 

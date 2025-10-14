@@ -118,7 +118,7 @@ Das Formular wird mit der Änderung aktualisiert.
 
 1. Klicken Sie auf **[!UICONTROL Save]** und fahren Sie fort.
 
-   Wenn das Produkt gespeichert wird, wird [ Auswahl „Store](introduction.md#product-scope)Ansicht“ in der oberen linken Ecke angezeigt.
+   Wenn das Produkt gespeichert wird, wird [&#x200B; Auswahl „Store](introduction.md#product-scope)Ansicht“ in der oberen linken Ecke angezeigt.
 
 1. Wählen Sie die **[!UICONTROL Store View]** aus, in der das Produkt verfügbar sein soll.
 
@@ -168,7 +168,7 @@ Das Formular wird mit der Änderung aktualisiert.
    - `Download`
    - `DVD`
 
-   Bei Bedarf können Sie das Attribut [ bearbeiten](attribute-product-create.md) um weitere Werte hinzuzufügen.
+   Bei Bedarf können Sie das Attribut [&#x200B; bearbeiten](attribute-product-create.md) um weitere Werte hinzuzufügen.
 
    Möglicherweise gibt es zusätzliche Attribute, die das Produkt beschreiben. Die Auswahl variiert je nach Attributsatz, und Sie können sie später abschließen.
 
@@ -180,7 +180,7 @@ Das Formular wird mit der Änderung aktualisiert.
 
 Scrollen Sie nach unten, erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Downloadable Information]_&#x200B;und aktivieren Sie das Kontrollkästchen **[!UICONTROL Is this downloadable product?]**.
 
-Nach der Aktivierung besteht der _[!UICONTROL Downloadable Information]_&#x200B;aus zwei Teilen. Der erste Teil beschreibt jeden Download-Link, und der zweite Teil beschreibt jede Beispieldatei. Der Standardwert für viele dieser Optionen kann in der [Konfiguration“ festgelegt ](#configure-the-download-options).
+Nach der Aktivierung besteht der _[!UICONTROL Downloadable Information]_&#x200B;aus zwei Teilen. Der erste Teil beschreibt jeden Download-Link, und der zweite Teil beschreibt jede Beispieldatei. Der Standardwert für viele dieser Optionen kann in der [Konfiguration“ festgelegt &#x200B;](#configure-the-download-options).
 
 ![Informationen zum Herunterladen](./assets/product-downloadable-information.png){width="600" zoomable="yes"}
 

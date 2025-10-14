@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Währungskonfiguration
 
-Bevor Sie individuelle Währungskurse einrichten, müssen Sie zunächst den Umfang der [Basiswährung“ ](../configuration-reference/general/currency-setup.md). Sie ist standardmäßig als global festgelegt, wodurch die Einstellung der Basiswährung auf die gesamte [Store-Hierarchie“ angewendet ](../getting-started/websites-stores-views.md). Wenn Sie eine Adobe Commerce- oder Magento Open Source-Installation für mehrere Sites haben, können Sie mehrere Basiswährungen verwalten, indem Sie den Umfang auf die Website-Ebene festlegen.
+Bevor Sie individuelle Währungskurse einrichten, müssen Sie zunächst den Umfang der [Basiswährung“ &#x200B;](../configuration-reference/general/currency-setup.md). Sie ist standardmäßig als global festgelegt, wodurch die Einstellung der Basiswährung auf die gesamte [Store-Hierarchie“ angewendet &#x200B;](../getting-started/websites-stores-views.md). Wenn Sie eine Adobe Commerce- oder Magento Open Source-Installation für mehrere Sites haben, können Sie mehrere Basiswährungen verwalten, indem Sie den Umfang auf die Website-Ebene festlegen.
 
 Außerdem geben Sie die Währungen an, die Sie akzeptieren, und welche Währung Sie für die Anzeige von [Preisen](../catalog/catalog-price-scope.md) in Ihrem Geschäft verwenden möchten. Im folgenden Diagramm wird der Umfang der Basiswährung auf Website-Ebene festgelegt, sodass jede Website eine andere Basiswährung haben kann.
 
@@ -40,7 +40,7 @@ Außerdem geben Sie die Währungen an, die Sie akzeptieren, und welche Währung 
 
    Eine ausführliche Beschreibung jeder dieser Konfigurationseinstellungen finden Sie unter [Währungsoptionen](../configuration-reference/general/currency-setup.md) im _Konfigurationsreferenzhandbuch_.
 
-1. Wenn Sie aufgefordert werden, den Cache zu aktualisieren _klicken Sie auf_ Schließen![ ( Feld schließen](../assets/icon-close-x.png) ) in der rechten oberen Ecke der Systemmeldung.
+1. Wenn Sie aufgefordert werden, den Cache zu aktualisieren _klicken Sie auf_ Schließen![&#x200B; ( Feld schließen](../assets/icon-close-x.png) ) in der rechten oberen Ecke der Systemmeldung.
 
    Sie können [den Cache aktualisieren](../systems/cache-management.md) später.
 
@@ -100,7 +100,7 @@ Außerdem geben Sie die Währungen an, die Sie akzeptieren, und welche Währung 
 
 ## Schritt 3: Konfigurieren der Einstellungen für den geplanten Import
 
-1. Erweitern Sie unter „Währungseinstellungen“ den ![ „Erweiterungsauswahl](../assets/icon-display-expand.png) auf den Abschnitt **[!UICONTROL Scheduled Import Settings]**.
+1. Erweitern Sie unter „Währungseinstellungen“ den ![&#x200B; „Erweiterungsauswahl](../assets/icon-display-expand.png) auf den Abschnitt **[!UICONTROL Scheduled Import Settings]**.
 
    ![Allgemeine Konfiguration - Einstellungen für den geplanten Import der Währung](../configuration-reference/general/assets/currency-setup-scheduled-import-settings.png){width="600" zoomable="yes"}
 

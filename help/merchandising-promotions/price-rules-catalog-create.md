@@ -43,7 +43,7 @@ Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden
 
 1. ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Geben Sie **[!UICONTROL From]** und **[!UICONTROL To]** ein, um zu bestimmen, wann die Preisregel in Kraft ist.
 
-   Sie können die Daten eingeben oder die **[!UICONTROL Calendar]** (![Kalendersymbol) ](../assets/icon-calendar.png), um die Daten auszuwählen. Wenn Sie die Datumsangaben leer lassen, wird die Regel beim Speichern der Preisregel aktiviert.
+   Sie können die Daten eingeben oder die **[!UICONTROL Calendar]** (![Kalendersymbol) &#x200B;](../assets/icon-calendar.png), um die Daten auszuwählen. Wenn Sie die Datumsangaben leer lassen, wird die Regel beim Speichern der Preisregel aktiviert.
 
 1. Geben Sie eine Zahl ein, um die **[!UICONTROL Priority]** dieser Regel im Verhältnis zu anderen Regeln festzulegen.
 

@@ -104,7 +104,7 @@ Gelöschte Unternehmenskonten können nicht wiederhergestellt werden. Der Status
 
 ### Unternehmenseinstellungen ändern
 
-Aktualisieren Sie die Konfiguration [Erweiterte ](account-company-create.md#advanced-settings)), um dieselben Einstellungen auf mehrere im Raster *Unternehmen“ ausgewählte Unternehmen*.
+Aktualisieren Sie die Konfiguration [Erweiterte &#x200B;](account-company-create.md#advanced-settings)), um dieselben Einstellungen auf mehrere im Raster *Unternehmen“ ausgewählte Unternehmen*.
 
 >[!NOTE]
 >
@@ -176,7 +176,7 @@ Methode 2: **Vollständige Bearbeitung**
 
 ## Zuweisen eines Vertriebsmitarbeiters
 
-Der Vertriebsmitarbeiter ist ein [Admin-Benutzer](../systems/permissions.md) der als Ansprechpartner für ein Firmenkonto zugewiesen ist und alle automatisierten E-[-Nachrichten ](../b2b/enable-basic-features.md#configure-company-email-options) Unternehmen erhält. Pro Unternehmenskonto kann nur ein Vertriebsmitarbeiter zugewiesen werden, aber ein einziger Vertriebsmitarbeiter kann mehrere Unternehmenskonten verwalten. Das standardmäßige Admin-Benutzerkonto wird als Vertriebsmitarbeiter zugewiesen, es sei denn, es wurde ein anderer Admin-Benutzer zugewiesen.
+Der Vertriebsmitarbeiter ist ein [Admin-Benutzer](../systems/permissions.md) der als Ansprechpartner für ein Firmenkonto zugewiesen ist und alle automatisierten E-[-Nachrichten &#x200B;](../b2b/enable-basic-features.md#configure-company-email-options) Unternehmen erhält. Pro Unternehmenskonto kann nur ein Vertriebsmitarbeiter zugewiesen werden, aber ein einziger Vertriebsmitarbeiter kann mehrere Unternehmenskonten verwalten. Das standardmäßige Admin-Benutzerkonto wird als Vertriebsmitarbeiter zugewiesen, es sei denn, es wurde ein anderer Admin-Benutzer zugewiesen.
 
 Der Name und die E-Mail-Adresse des zugeordneten Vertriebsmitarbeiters sind für die Mitglieder des Unternehmens auf der Seite mit dem Unternehmenskonto und den Angeboten sichtbar.
 
@@ -216,7 +216,7 @@ Nachdem eine Firma erstellt wurde, können Admin-Benutzer mit entsprechenden Ber
 
 Wenn eine Firma zu einer Hierarchie hinzugefügt wurde, zeigt das [!UICONTROL Company Hierarchy] die übergeordnete Firma und alle zugewiesenen Firmen im Raster an.
 
-Weitere Informationen finden [ unter ](manage-company-hierarchy.md) von Unternehmenshierarchien .
+Weitere Informationen finden [&#x200B; unter &#x200B;](manage-company-hierarchy.md) von Unternehmenshierarchien .
 
 ## Unternehmensoptionen und -spalten
 

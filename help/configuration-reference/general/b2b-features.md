@@ -62,7 +62,7 @@ Wenn die Funktion „Unternehmen“ aktiviert ist, stehen zusätzliche Felder f�
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |------- |----------------------------------------------------------------------- |------------ |
 | [!UICONTROL Applicable Shipping Methods] | Global | Bestimmt die Auswahl der Versandmethoden, die B2B-Käufern standardmäßig zur Verfügung stehen. Optionen: `All Shipping Methods` / `Specific Shipping Methods` |
-| [!UICONTROL Shipping Methods] | Global | Gibt jede Versandmethode an, die B2B-Käufern standardmäßig zur Verfügung steht. <br/>**_Hinweis:_**&#x200B;Sie können auch die Versandmethoden für ein bestimmtes [Firmenkonto“ ](../../b2b/account-companies.md). |
+| [!UICONTROL Shipping Methods] | Global | Gibt jede Versandmethode an, die B2B-Käufern standardmäßig zur Verfügung steht. <br/>**_Hinweis:_**&#x200B;Sie können auch die Versandmethoden für ein bestimmtes [Firmenkonto“ &#x200B;](../../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 

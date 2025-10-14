@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Stammkategorie und -hierarchie
 
-Die Produkte im Hauptmenü werden durch die Stammkategorie bestimmt, die dem &quot;[&quot; zugewiesen ](../stores-purchase/stores.md#add-stores). Die Stammkategorie ist im Grunde ein Container für das Hauptmenü in der Kategoriestruktur. Sie können eine Stammkategorie mit einem völlig neuen Satz von Produkten erstellen oder Produkte aus einer vorhandenen Stammkategorie kopieren. Die Stammkategorie kann dem aktuellen Store oder einem anderen Store auf derselben Website zugewiesen werden.
+Die Produkte im Hauptmenü werden durch die Stammkategorie bestimmt, die dem &quot;[&quot; zugewiesen &#x200B;](../stores-purchase/stores.md#add-stores). Die Stammkategorie ist im Grunde ein Container für das Hauptmenü in der Kategoriestruktur. Sie können eine Stammkategorie mit einem völlig neuen Satz von Produkten erstellen oder Produkte aus einer vorhandenen Stammkategorie kopieren. Die Stammkategorie kann dem aktuellen Store oder einem anderen Store auf derselben Website zugewiesen werden.
 
 ![Katalog-Hierarchie-Diagramm](./assets/catalog-hierarchy-scope.svg){width="550"}
 

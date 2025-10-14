@@ -23,7 +23,7 @@ Geben Sie als Best Practice eine Beschreibung Ihrer RMA-Anforderungen und -Proze
 
 >[!NOTE]
 >
->Wenn Sie zusätzliche Informationen zu Rückgaben erfassen möchten, können Sie Ihre eigenen benutzerdefinierten &quot;[&quot; ](attributes-returns.md).
+>Wenn Sie zusätzliche Informationen zu Rückgaben erfassen möchten, können Sie Ihre eigenen benutzerdefinierten &quot;[&quot; &#x200B;](attributes-returns.md).
 
 Alle RMA-Informationen des Kunden werden auf der Seite **[!UICONTROL My Returns]** im Dashboard des Kundenkontos angezeigt.
 

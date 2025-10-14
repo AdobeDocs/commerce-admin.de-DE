@@ -29,7 +29,7 @@ Alle Unternehmenskonten müssen vor ihrer Aktivierung vom Administrator genehmig
 Stellen Sie vor dem Erstellen von Unternehmenskonten sicher, dass die folgenden Anforderungen erfüllt sind:
 
 * **Systemanforderungen:**
-   * [B2B-Funktionen sind ](enable-basic-features.md) Ihrer Adobe Commerce-Installation aktiviert
+   * [B2B-Funktionen sind &#x200B;](enable-basic-features.md) Ihrer Adobe Commerce-Installation aktiviert
    * Die Unternehmensregistrierung ist für die Erstellung von Storefronts aktiviert
    * E-Mail-Benachrichtigungen sind für Validierungs-Workflows konfiguriert
 
@@ -116,7 +116,7 @@ Das System weist die Rolle [Unternehmensadministrator](account-company-admin.md)
 
    ![Beispiel-Begrüßungs-E-Mail](./assets/company-admin-welcome-email.png){width="500"}
 
-   Wenn das Kennwort festgelegt ist, kann sich der Unternehmensadministrator [ dem Konto ](../customers/customer-sign-in.md).
+   Wenn das Kennwort festgelegt ist, kann sich der Unternehmensadministrator [&#x200B; dem Konto &#x200B;](../customers/customer-sign-in.md).
 
 ## Methode 2: Händler erstellt das Konto vom Administrator
 
@@ -229,7 +229,7 @@ Der Prozess der Erstellung einer Firma aus der Admin ist im Wesentlichen der gle
 
      | Option | Beschreibung |
      |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Shipping Methods` | (Standard) Aktiviert alle ([ festgelegten Versandmethoden) ](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) B2B-Bestellungen. |
+     | `B2B Shipping Methods` | (Standard) Aktiviert alle ([&#x200B; festgelegten Versandmethoden) &#x200B;](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) B2B-Bestellungen. |
      | `All Enabled Shipping Methods` | Stellt alle [aktivierten Versandmethoden](../configuration-reference/sales/delivery-methods.md) für Kundenkonten zur Verfügung, die mit dem Firmenkonto verknüpft sind. |
      | `Selected Shipping Methods` | Ermöglicht die Auswahl der Versandmethoden, die für mit dem Firmenkonto verknüpfte Kundenkonten verfügbar sind. Um mehrere Versandmethoden auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jede Option aus. |
 
@@ -239,7 +239,7 @@ Der Prozess der Erstellung einer Firma aus der Admin ist im Wesentlichen der gle
 
    Wenn die Anforderung zum Erstellen eines Firmenkontos vom Händler genehmigt wird, wird eine E-Mail-Benachrichtigung an die E-Mail-Adresse des Unternehmensadministrators gesendet.
 
-   Wenn das Kennwort festgelegt ist, kann sich der Unternehmensadministrator [ dem Konto ](../customers/customer-sign-in.md).
+   Wenn das Kennwort festgelegt ist, kann sich der Unternehmensadministrator [&#x200B; dem Konto &#x200B;](../customers/customer-sign-in.md).
 
 ## Nach der Kontoerstellung
 

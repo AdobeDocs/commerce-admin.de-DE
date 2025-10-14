@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Storefront-Branding
 
-Eines der ersten Dinge, die Sie tun möchten, ist [Logo ändern](#upload-your-logo) in der Kopfzeile und [ein Favicon hochladen](#add-a-favicon) für den Browser. Als Nächstes sollten Sie [Ihre Begrüßungsnachricht hinzufügen](#change-the-welcome-message) und [den Copyright-Hinweis aktualisieren](#change-the-copyright-notice) in der Fußzeile einfügen. Diese Aufgaben sind einige einfache Design-Elemente, die Sie sofort übernehmen können. Während sich Ihr Store in der Entwicklung befindet, können [ den Hinweis zur Store-Demo ](#set-the-store-demo-notice) und ihn dann entfernen, wenn Sie für den Start bereit sind.
+Eines der ersten Dinge, die Sie tun möchten, ist [Logo ändern](#upload-your-logo) in der Kopfzeile und [ein Favicon hochladen](#add-a-favicon) für den Browser. Als Nächstes sollten Sie [Ihre Begrüßungsnachricht hinzufügen](#change-the-welcome-message) und [den Copyright-Hinweis aktualisieren](#change-the-copyright-notice) in der Fußzeile einfügen. Diese Aufgaben sind einige einfache Design-Elemente, die Sie sofort übernehmen können. Während sich Ihr Store in der Entwicklung befindet, können [&#x200B; den Hinweis zur Store-Demo &#x200B;](#set-the-store-demo-notice) und ihn dann entfernen, wenn Sie für den Start bereit sind.
 
 ![Storefront-Branding-Elemente](./assets/storefront-home-page-branding.png){width="600" zoomable="yes"}
 
@@ -158,7 +158,7 @@ Der `&copy;`-Code wird verwendet, um das Copyright-Symbol einzufügen, wie in de
 
 1. Suchen Sie im Raster die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
-1. Erweitern _unter_ Weitere Einstellungen![ den Abschnitt ](../assets/icon-display-expand.png)Erweiterungsauswahl **[!UICONTROL Footer]**.
+1. Erweitern _unter_ Weitere Einstellungen![&#x200B; den Abschnitt &#x200B;](../assets/icon-display-expand.png)Erweiterungsauswahl **[!UICONTROL Footer]**.
 
    ![Fußzeilen-Design-Einstellungen](./assets/configuration-footer.png){width="600"}
 

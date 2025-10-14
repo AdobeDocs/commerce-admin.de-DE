@@ -121,7 +121,7 @@ Ihr Store kann so konfiguriert werden, dass Bestellungen, Rechnungen, Sendungen 
 
 1. Legen Sie das **[!UICONTROL Actions]** auf `Move to Archive` fest und suchen Sie nach der Meldung, dass die Bestellung archiviert wurde.
 
-   ![Verschieben ausgewählter Bestellungen in das ](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
+   ![Verschieben ausgewählter Bestellungen in das &#x200B;](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >

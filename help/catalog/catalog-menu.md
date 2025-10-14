@@ -45,6 +45,6 @@ Erstellen Sie die [Kategorie](categories.md)-Struktur, die die Grundlage für di
 
 ## [!UICONTROL Shared Catalogs]
 
-Bei Shops mit installiertem und aktiviertem Adobe Commerce B2B [ Sie mit ](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=de)freigegebenen Katalogen“ benutzerdefinierte Preise für verschiedene Unternehmen festlegen können.
+Bei Shops mit installiertem und aktiviertem Adobe Commerce B2B [&#x200B; Sie mit &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=de)freigegebenen Katalogen“ benutzerdefinierte Preise für verschiedene Unternehmen festlegen können.
 
 ![Freigegebene Katalogprodukte](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}

@@ -74,7 +74,7 @@ Je nachdem, ob Sie bereits über einen [!DNL Google Maps] verfügen, können Sie
 
    ![Erweiterte Inhalts-Tools](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
-   Weitere Informationen zu den Konfigurationsoptionen für die erweiterten Content-Management-Tools finden Sie [ „Konfigurationshandbuch](../configuration-reference/general/content-management.md).
+   Weitere Informationen zu den Konfigurationsoptionen für die erweiterten Content-Management-Tools finden Sie [&#x200B; „Konfigurationshandbuch](../configuration-reference/general/content-management.md).
 
 1. Fügen Sie **[!UICONTROL Google Maps API Key]** den in Schritt 1 kopierten Schlüssel ein.
 
@@ -102,7 +102,7 @@ Je nachdem, ob Sie bereits über einen [!DNL Google Maps] verfügen, können Sie
 
 ## Benutzerdefinierte Map-Position hinzufügen
 
-1. Bewegen Sie den Mauszeiger über den Zuordnungs-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den Zuordnungs-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( (](./assets/pb-icon-settings.png){width="20"}) aus.
 
 1. Klicken Sie oben rechts auf der _[!UICONTROL Edit Map]_&#x200B;auf **[!UICONTROL Add Location]**.
 

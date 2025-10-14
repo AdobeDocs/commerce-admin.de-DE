@@ -407,7 +407,7 @@ Füllen Sie die folgenden allgemeinen Steuereinstellungen aus:
 
    - Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use Website]** nach jedem Feld.
 
-   - Aktualisieren Sie die folgenden Werte, um den Versandeinstellungen [ Website (](shipping-settings.md#point-of-origin)) zu entsprechen:
+   - Aktualisieren Sie die folgenden Werte, um den Versandeinstellungen [&#x200B; Website (](shipping-settings.md#point-of-origin)) zu entsprechen:
 
       - Standardland
       - Standardzustand

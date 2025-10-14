@@ -34,7 +34,7 @@ Adobe Commerce und Magento Open Source unterstützen eine Vielzahl von Versandme
 
 ## Spediteure
 
-Wenn Sie über ein kommerzielles Konto bei einem oder mehreren [unterstützten ](carriers.md)&quot; verfügen, können Sie Ihren Kunden bequeme Versandraten in Echtzeit, Paketverfolgung und Beschriftungen anbieten. Zu den integrierten Carrier-Integrationen gehören UPS, USPS, DHL und FedEx.
+Wenn Sie über ein kommerzielles Konto bei einem oder mehreren [unterstützten &#x200B;](carriers.md)&quot; verfügen, können Sie Ihren Kunden bequeme Versandraten in Echtzeit, Paketverfolgung und Beschriftungen anbieten. Zu den integrierten Carrier-Integrationen gehören UPS, USPS, DHL und FedEx.
 
 ## Demo zu Versand- und Liefermethoden
 

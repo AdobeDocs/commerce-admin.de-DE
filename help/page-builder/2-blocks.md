@@ -20,7 +20,7 @@ Die folgende Übung veranschaulicht den Unterschied zwischen [einfachen Blöcken
 
 ![Dynamischer Block in der Storefront](./assets/pb-tutorial2-dynamic-block-storefront.png){width="700" zoomable="yes"}
 
-Bei dieser Übung wird davon ausgegangen, dass Sie [Teil 1: Einfache Seite](1-simple-page.md) einschließlich der Voraussetzungen und [heruntergeladenen Beispieldateien) ](./assets/simple-page-assets.zip) haben. Befolgen Sie die Teile dieser exemplarischen Übung in der richtigen Reihenfolge.
+Bei dieser Übung wird davon ausgegangen, dass Sie [Teil 1: Einfache Seite](1-simple-page.md) einschließlich der Voraussetzungen und [heruntergeladenen Beispieldateien) &#x200B;](./assets/simple-page-assets.zip) haben. Befolgen Sie die Teile dieser exemplarischen Übung in der richtigen Reihenfolge.
 
 >[!NOTE]
 >
@@ -166,7 +166,7 @@ Ein dynamischer Block umfasst eine Logik, die bestimmt, wo, wann und für wen er
 
    - Aktivieren Sie **[!UICONTROL Customer Segment]** das Kontrollkästchen jedes Segments, das Sie auf den dynamischen Block anwenden möchten, und klicken Sie auf **Fertig**, um die Liste der Segmente zu speichern.
 
-     Im folgenden Beispiel gibt es zwei „Kundensegmente[ die registrierte ](../customers/customer-segments.md) nach Geschlecht identifizieren. Dieser dynamische Block wird nur für registrierte weibliche Kunden angezeigt, die bei ihren Konten angemeldet sind, während sie in Ihrem Geschäft einkaufen.
+     Im folgenden Beispiel gibt es zwei „Kundensegmente[&#x200B; die registrierte &#x200B;](../customers/customer-segments.md) nach Geschlecht identifizieren. Dieser dynamische Block wird nur für registrierte weibliche Kunden angezeigt, die bei ihren Konten angemeldet sind, während sie in Ihrem Geschäft einkaufen.
 
      ![Auswählen der Kundensegmente](./assets/pb-dynamic-block-customer-segment.png){width="600" zoomable="yes"}
 
@@ -176,7 +176,7 @@ Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_, der eine leere Inh
 
 **Aufgabe 1:** Ein Hintergrundbild hinzufügen
 
-1. Bewegen Sie den Mauszeiger über den Zeilen-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ (](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den Zeilen-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; (](./assets/pb-icon-settings.png){width="20"}) aus.
 
 1. Wählen Sie unter _[!UICONTROL Appearance]_&#x200B;die Option **[!UICONTROL Full Bleed]**&#x200B;aus.
 
@@ -304,7 +304,7 @@ In der ersten Übung haben Sie gelernt, wie Sie mit dem Inhaltstyp [Schaltfläch
 
    ![Ziehen eines dynamischen Blocks auf die Zeile](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den Container mit den dynamischen Blöcken, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ (Symbol ](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den Container mit den dynamischen Blöcken, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; (Symbol &#x200B;](./assets/pb-icon-settings.png){width="20"}) aus.
 
    ![Toolbox für dynamische Blöcke](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 

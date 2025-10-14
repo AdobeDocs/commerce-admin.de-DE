@@ -26,7 +26,7 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
 
    ![Warenkorb-Preisregel - Regelinformationen](./assets/price-rule-cart-new.png){width="600" zoomable="yes"}
 
-1. Gehen Sie wie folgt vor[ um den ](../getting-started/websites-stores-views.md#scope-settings)Umfang“ der Regel festzulegen:
+1. Gehen Sie wie folgt vor[&#x200B; um den &#x200B;](../getting-started/websites-stores-views.md#scope-settings)Umfang“ der Regel festzulegen:
 
    - Die **[!UICONTROL Websites]** auswählen, in der die Promotion verfügbar sein soll.
 
@@ -67,7 +67,7 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
 
    - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Nach dem Speichern der Regel wird der Name der Warenkorbpreisregel oben auf der Seite angezeigt.
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Nach dem Speichern der Regel werden der Name der Warenkorbpreisregel und das Feld [Geplante ](price-rule-cart-scheduled-changes.md)&quot; oben auf der Seite angezeigt.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Nach dem Speichern der Regel werden der Name der Warenkorbpreisregel und das Feld [Geplante &#x200B;](price-rule-cart-scheduled-changes.md)&quot; oben auf der Seite angezeigt.
 
      ![Warenkorb-Preisregel - Geplante Änderungen](./assets/price-rule-cart-scheduled-changes.png){width="600" zoomable="yes"}
 
@@ -129,7 +129,7 @@ In diesem Schritt werden die Bedingungen beschrieben, die für eine Bestellung e
 
 1. Aktivieren Sie das Kontrollkästchen der Kategorie, die Sie als Bedingung für die Preisregel verwenden möchten, und klicken Sie auf das Symbol ![Hinzufügen](../assets/icon-checkmark-green-circle.png), um die Kategorieauswahl zu akzeptieren.
 
-   Die Bedingung kann auf einer beliebigen Kategorie basieren, die ein untergeordnetes Element der [Stammkategorie“ des Stores ](../catalog/category-root.md).
+   Die Bedingung kann auf einer beliebigen Kategorie basieren, die ein untergeordnetes Element der [Stammkategorie“ des Stores &#x200B;](../catalog/category-root.md).
 
    ![Preisregelbedingung für den Warenkorb - Produktkategorie](./assets/subselection-category.png){width="600" zoomable="yes"}
 
@@ -192,7 +192,7 @@ In diesem Schritt werden die Bedingungen beschrieben, die für eine Bestellung e
 
 ### Verwenden von Real-Time CDP-Zielgruppen zum Festlegen einer Bedingung
 
-Sie können eine Bedingung für eine Warenkorb-Preisregel basierend auf einer Real-Time CDP (Zielgruppe[ festlegen](../customers/audience-activation.md).
+Sie können eine Bedingung für eine Warenkorb-Preisregel basierend auf einer Real-Time CDP (Zielgruppe[&#x200B; festlegen](../customers/audience-activation.md).
 
 1. Erweitern Sie **[!UICONTROL Conditions]**, klicken Sie auf das Symbol &quot;+&quot; und wählen Sie **[!UICONTROL Real-Time CDP Audience]** aus der Liste aus.
 
@@ -223,7 +223,7 @@ Die Preisregelaktionen für den Warenkorb beschreiben, wie Preise aktualisiert w
 
 1. Scrollen Sie nach unten zu **[!UICONTROL Actions]** und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt.
 
-   ![Warenkorb-Preisregel - Aktionen ](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
+   ![Warenkorb-Preisregel - Aktionen &#x200B;](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
 
 1. Legen Sie **[!UICONTROL Apply]** auf eine der folgenden Rabattoptionen fest:
 

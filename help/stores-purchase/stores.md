@@ -105,7 +105,7 @@ Der erste Schritt besteht darin, zu wählen, wie Sie den Store positionieren mö
 
 ### Schritt 5: Server konfigurieren
 
-Informationen zum Konfigurieren Ihres Servers für die Unterstützung mehrerer Websites finden Sie unter [Mehrere Websites oder ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=de)) im _Konfigurationshandbuch_.
+Informationen zum Konfigurieren Ihres Servers für die Unterstützung mehrerer Websites finden Sie unter [Mehrere Websites oder &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=de)) im _Konfigurationshandbuch_.
 
 Hilfe bei der Konfiguration Ihres Webservers finden Sie in den folgenden Ressourcen:
 
@@ -152,7 +152,7 @@ Befolgen Sie die Anweisungen, um [Store](store-urls.md)URLs zu konfigurieren.
 
 ### Schritt 3: Server konfigurieren
 
-Informationen zum Konfigurieren Ihres Servers für die Unterstützung mehrerer Websites finden Sie unter [Mehrere Websites oder ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=de)) im _Konfigurationshandbuch_.
+Informationen zum Konfigurieren Ihres Servers für die Unterstützung mehrerer Websites finden Sie unter [Mehrere Websites oder &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=de)) im _Konfigurationshandbuch_.
 
 Hilfe bei der Konfiguration des Webservers finden Sie in den folgenden Tutorials:
 

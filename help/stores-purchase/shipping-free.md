@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Kostenloser Versand
 
-_Kostenloser Versand_ ist eine der effektivsten Aktionen, die Sie anbieten können. Sie kann auf einem Mindestkauf basieren oder als [Warenkorbpreisregel“ eingerichtet ](../merchandising-promotions/price-rules-cart.md), die angewendet wird, wenn eine Reihe von Bedingungen erfüllt ist. Wenn beide für dieselbe Reihenfolge gelten, hat die Konfigurationseinstellung Vorrang vor der Warenkorbregel.
+_Kostenloser Versand_ ist eine der effektivsten Aktionen, die Sie anbieten können. Sie kann auf einem Mindestkauf basieren oder als [Warenkorbpreisregel“ eingerichtet &#x200B;](../merchandising-promotions/price-rules-cart.md), die angewendet wird, wenn eine Reihe von Bedingungen erfüllt ist. Wenn beide für dieselbe Reihenfolge gelten, hat die Konfigurationseinstellung Vorrang vor der Warenkorbregel.
 
 >[!NOTE]
 >

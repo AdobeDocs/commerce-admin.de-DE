@@ -22,7 +22,7 @@ _Suchmaschinenoptimierung_ (SEO) ist die Praxis der Feinabstimmung des Inhalts u
 
 [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
-Erfahren Sie mehr über das Hinzufügen und Verbessern von [ (Metadaten](meta-data.md) für Ihre Site und Ihren Store.
+Erfahren Sie mehr über das Hinzufügen und Verbessern von [&#x200B; (Metadaten](meta-data.md) für Ihre Site und Ihren Store.
 
 ## Verwenden einer Sitemap
 

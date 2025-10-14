@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Das [ „Aktionen](action-log.md)-Archiv listet die CSV-Protokolldateien auf, die auf dem Server gespeichert sind. In der Konfiguration können Sie angeben, wie lange die Protokolleinträge gespeichert werden und wie oft sie archiviert werden. Standardmäßig enthält der Dateiname das aktuelle Datum im ISO-Format:  `yyyyMMddHH`
+Das [&#x200B; „Aktionen](action-log.md)-Archiv listet die CSV-Protokolldateien auf, die auf dem Server gespeichert sind. In der Konfiguration können Sie angeben, wie lange die Protokolleinträge gespeichert werden und wie oft sie archiviert werden. Standardmäßig enthält der Dateiname das aktuelle Datum im ISO-Format:  `yyyyMMddHH`
 
 >[!NOTE]
 >

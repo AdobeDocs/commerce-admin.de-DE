@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Sendungen
 
-Das _[!UICONTROL Shipments]_-Raster listet den Versanddatensatz aller Rechnungen auf, die für den Versand vorbereitet wurden. Ein Sendungsnachweis kann erzeugt werden, wenn eine Bestellung ([) ](invoices.md) später erstellt wird.
+Das _[!UICONTROL Shipments]_-Raster listet den Versanddatensatz aller Rechnungen auf, die für den Versand vorbereitet wurden. Ein Sendungsnachweis kann erzeugt werden, wenn eine Bestellung ([) &#x200B;](invoices.md) später erstellt wird.
 
 Adobe Commerce und Magento Open Source unterstützen den Versand partieller und vollständiger Bestellungen. Zusätzliche Optionen sind bei [Inventory management](../inventory-management/introduction.md) und Erweiterungen von Drittanbietern verfügbar.
 
@@ -51,7 +51,7 @@ Zusätzliche Spalten:
 
 ## Erstellen einer Sendung
 
-Die folgenden Anweisungen führen Sie durch den Prozess zum Erstellen einer Sendung in Adobe Commerce oder Magento Open Source. Wenn Sie Inventory management aktiviert haben, können Sie &quot;[ Sendungen mit mehreren Source erstellen](../inventory-management/shipments-create.md) prüfen und eine Herkunft (oder einen Lagerort) sowie eine zu versendende Menge pro Zeileneintrag auswählen.
+Die folgenden Anweisungen führen Sie durch den Prozess zum Erstellen einer Sendung in Adobe Commerce oder Magento Open Source. Wenn Sie Inventory management aktiviert haben, können Sie &quot;[&#x200B; Sendungen mit mehreren Source erstellen](../inventory-management/shipments-create.md) prüfen und eine Herkunft (oder einen Lagerort) sowie eine zu versendende Menge pro Zeileneintrag auswählen.
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 

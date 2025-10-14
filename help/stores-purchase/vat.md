@@ -275,7 +275,7 @@ Jede Steuerregel wird von drei Entitäten definiert:
 Erstellen Sie die [Steuerregeln](tax-rules.md), um die MwSt.-ID-Validierung effektiv zu verwenden.
 
 - Zu den Steuervorschriften gehören Steuersätze und [Steuerklassen](tax-class.md).
-- Steuerklassen werden „Kundengruppen[ zugeordnet](../customers/customer-groups.md).
+- Steuerklassen werden „Kundengruppen[&#x200B; zugeordnet](../customers/customer-groups.md).
 
 #### Schritt 3: Validierung der MwSt.-ID aktivieren und konfigurieren
 

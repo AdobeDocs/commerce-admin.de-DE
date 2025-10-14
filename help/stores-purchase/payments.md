@@ -59,7 +59,7 @@ Adobe Commerce und Magento Open Source unterstützen zahlreiche Zahlungslösunge
 
 [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
-Weitere Informationen [ Zahlungsmethoden bei PayPal finden ](paypal.md) unter „PayPal-&quot;.
+Weitere Informationen [&#x200B; Zahlungsmethoden bei PayPal finden &#x200B;](paypal.md) unter „PayPal-&quot;.
 
 #### All-in-One-PayPal-Lösungen
 

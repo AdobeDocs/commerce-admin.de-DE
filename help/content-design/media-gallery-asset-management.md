@@ -68,7 +68,7 @@ Die neue [Mediensammlung](media-gallery.md) bietet Tools zum Verwalten hochgelad
 
 ## Verwenden von Assets
 
-Assets kann im gesamten Admin-Bereich umfassend verwendet werden, z. B[ (Hinzufügen oder Bearbeiten einer Seite](page-add.md), [Erstellen oder Bearbeiten einer Kategorie](../catalog/category-create.md) oder [Einfügen von Bildern aus dem Inhaltseditor](editor-insert-image.md).
+Assets kann im gesamten Admin-Bereich umfassend verwendet werden, z. B[&#x200B; (Hinzufügen oder Bearbeiten einer Seite](page-add.md), [Erstellen oder Bearbeiten einer Kategorie](../catalog/category-create.md) oder [Einfügen von Bildern aus dem Inhaltseditor](editor-insert-image.md).
 
 1. Greifen Sie in einem Bereich auf die neue Mediensammlung zu, in dem Sie Medien-Assets verwenden können.
 
@@ -104,7 +104,7 @@ Assets kann im gesamten Admin-Bereich umfassend verwendet werden, z. B[ (Hinzuf�
 
 >[!NOTE]
 >
->Die Funktion _Verwendet in_ erfordert, dass [!UICONTROL Media Gallery Image Optimization] in den [Konfigurationseinstellungen“ aktiviert ](media-gallery-image-optimization.md).
+>Die Funktion _Verwendet in_ erfordert, dass [!UICONTROL Media Gallery Image Optimization] in den [Konfigurationseinstellungen“ aktiviert &#x200B;](media-gallery-image-optimization.md).
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 

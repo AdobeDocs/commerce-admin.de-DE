@@ -38,4 +38,4 @@ Sie können Assets zu Ihren Inhaltskategorien hinzufügen, sobald Sie die AEM As
 
 1. Klicken Sie auf **[!UICONTROL Save]** und fahren Sie fort.
 
-   Weitere Informationen zum Erstellen einer Kategorie finden Sie unter [Kategorieinhalt ](../catalog/category-create.md#step-3-complete-the-category-content).
+   Weitere Informationen zum Erstellen einer Kategorie finden Sie unter [Kategorieinhalt &#x200B;](../catalog/category-create.md#step-3-complete-the-category-content).

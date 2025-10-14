@@ -25,7 +25,7 @@ Eine dynamische URL wird _laufender Zeit erstellt_ kann eine Abfragezeichenfolge
 
 ### Statische URL
 
-Eine statische URL ist eine feste Adresse für eine bestimmte Seite. Eine statische URL kann in einem suchmaschinenfreundlichen Format angezeigt werden oder in einem Format, das Produkte und Kategorien nach ID referenziert. Diese URLs enthalten Wörter, mit denen Benutzer nach einem Produkt suchen können, und für die Webserver-Neuschreibungen aktiviert sein müssen. Dateien mit statischen URLs werden häufig für Produkt- und Kategorieseiten, Inhaltsseiten und (Design[Assets) ](../content-design/theme-assets.md).
+Eine statische URL ist eine feste Adresse für eine bestimmte Seite. Eine statische URL kann in einem suchmaschinenfreundlichen Format angezeigt werden oder in einem Format, das Produkte und Kategorien nach ID referenziert. Diese URLs enthalten Wörter, mit denen Benutzer nach einem Produkt suchen können, und für die Webserver-Neuschreibungen aktiviert sein müssen. Dateien mit statischen URLs werden häufig für Produkt- und Kategorieseiten, Inhaltsseiten und (Design[Assets) &#x200B;](../content-design/theme-assets.md).
 
 - `http://mystore.com/antonia-racer-tank.html`
 
@@ -33,7 +33,7 @@ Eine statische URL ist eine feste Adresse für eine bestimmte Seite. Eine statis
 
 ### URL-Schlüssel
 
-Der URL-Schlüssel ist der Teil einer statischen URL, die das Produkt oder die Kategorie beschreibt. Wenn Sie ein Produkt oder eine Kategorie erstellen, wird automatisch ein erster URL-Schlüssel basierend auf dem Namen generiert. Informationen zum Ändern des URL-Schlüssels finden [ im Abschnitt ](product-search-engine-optimization.md)Suchmaschinenoptimierung“ der Produktinformationen.
+Der URL-Schlüssel ist der Teil einer statischen URL, die das Produkt oder die Kategorie beschreibt. Wenn Sie ein Produkt oder eine Kategorie erstellen, wird automatisch ein erster URL-Schlüssel basierend auf dem Namen generiert. Informationen zum Ändern des URL-Schlüssels finden [&#x200B; im Abschnitt &#x200B;](product-search-engine-optimization.md)Suchmaschinenoptimierung“ der Produktinformationen.
 
 >[!NOTE]
 >

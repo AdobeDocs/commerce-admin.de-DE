@@ -18,7 +18,7 @@ Mit den _[!UICONTROL Design]_&#x200B;können Sie ein anderes Design auf die Prod
 
 >[!NOTE]
 >
->Wenn dasselbe Produkt mehreren Kategorien mit unterschiedlichen Designeinstellungen für jede Kategorie zugewiesen wird, wird empfohlen, in den Konfigurationsoptionen für die Suchmaschinenoptimierung **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` [ festlegen](../configuration-reference/catalog/catalog.md#search-engine-optimization). Um auf diese Einstellung zuzugreifen, gehen Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, erweitern Sie **[!UICONTROL Catalog]**&#x200B;und wählen Sie im linken Bereich unten **[!UICONTROL Catalog]**&#x200B;aus und erweitern Sie dann den **[!UICONTROL Search Engine Optimization]**&#x200B;auf der Seite.
+>Wenn dasselbe Produkt mehreren Kategorien mit unterschiedlichen Designeinstellungen für jede Kategorie zugewiesen wird, wird empfohlen, in den Konfigurationsoptionen für die Suchmaschinenoptimierung **[!UICONTROL Use Categories Path for Product URLs]** = `Yes` [&#x200B; festlegen](../configuration-reference/catalog/catalog.md#search-engine-optimization). Um auf diese Einstellung zuzugreifen, gehen Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**, erweitern Sie **[!UICONTROL Catalog]**&#x200B;und wählen Sie im linken Bereich unten **[!UICONTROL Catalog]**&#x200B;aus und erweitern Sie dann den **[!UICONTROL Search Engine Optimization]**&#x200B;auf der Seite.
 
 | Feld | [Umfang](../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |---|---|----|

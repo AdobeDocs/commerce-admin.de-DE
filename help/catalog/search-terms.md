@@ -116,7 +116,7 @@ Standardmäßig sind „Beliebte Suchbegriffe“ als Suchmaschinenoptimierungs-T
 
 >[!NOTE]
 >
->Sie können außerdem das Caching beliebter [ (Katalogsuchen) ](search-configuration.md).
+>Sie können außerdem das Caching beliebter [&#x200B; (Katalogsuchen) &#x200B;](search-configuration.md).
 
 ## Synonyme suchen
 

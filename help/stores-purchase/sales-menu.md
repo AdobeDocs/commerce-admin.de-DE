@@ -67,7 +67,7 @@ Eine [Gutschrift](credit-memos.md) ist ein Dokument, das den Betrag anzeigt, der
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
-Kunden[ die einen Artikel zum Austausch oder zur Rückerstattung ](returns.md) möchten, kann eine „Rücksendung von Waren“ (RMA) erteilt werden. RMAs können für die Produktarten „Einfach“, „Gruppiert“, „Konfigurierbar“ und „Bundle“ ausgestellt werden. RMAs sind jedoch nicht für virtuelle und herunterladbare Produkte oder Geschenkgutscheine verfügbar.
+Kunden[&#x200B; die einen Artikel zum Austausch oder zur Rückerstattung &#x200B;](returns.md) möchten, kann eine „Rücksendung von Waren“ (RMA) erteilt werden. RMAs können für die Produktarten „Einfach“, „Gruppiert“, „Konfigurierbar“ und „Bundle“ ausgestellt werden. RMAs sind jedoch nicht für virtuelle und herunterladbare Produkte oder Geschenkgutscheine verfügbar.
 
 ### [!UICONTROL Billing Agreements]
 

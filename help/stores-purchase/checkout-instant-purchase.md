@@ -18,13 +18,13 @@ _Sofortiger Kauf_ ermöglicht es Kunden, den Checkout-Prozess mithilfe von Infor
 
 ## Kundenanforderungen
 
-- Der Kunde [ bei ](../customers/customer-sign-in.md) Konto angemeldet.
+- Der Kunde [&#x200B; bei &#x200B;](../customers/customer-sign-in.md) Konto angemeldet.
 
 - Das Kundenkonto hat eine [Standard-Rechnungs- und Lieferadresse](../customers/account-dashboard-address-book.md).
 
 - Mindestens eine [Versandmethode](delivery.md) ist für das Land verfügbar, das in der Standard-Versandadresse angegeben ist.
 
-- Für das Kundenkonto ist eine [gespeicherte ](../stores-purchase/stored-payment-methods.md)&quot; mit aktiviertem Tresor verfügbar.
+- Für das Kundenkonto ist eine [gespeicherte &#x200B;](../stores-purchase/stored-payment-methods.md)&quot; mit aktiviertem Tresor verfügbar.
 
   Die folgenden Zahlungsmethoden können verwendet werden, um einen sicheren Zugriff auf gespeicherte Kreditkarteninformationen zu ermöglichen:
 

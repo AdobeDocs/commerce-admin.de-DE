@@ -40,7 +40,7 @@ Die Zeilen-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Zeilen-Cont
 
 1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_&#x200B;einen neuen **[!UICONTROL Row]**&#x200B;auf das Stadium, direkt unter der ersten Zeile.
 
-1. Um die Zeile zu formatieren, bewegen Sie den Mauszeiger über den Zeilen-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ aus (Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Um die Zeile zu formatieren, bewegen Sie den Mauszeiger über den Zeilen-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; aus (Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
 
    In den folgenden Abschnitten finden Sie detaillierte Informationen zum Abschließen der verfügbaren Einstellungen.
 
@@ -48,7 +48,7 @@ Die Zeilen-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Zeilen-Cont
 
 ## Zeileneinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über den Zeilen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Zeilen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
    ![Zeilen-Toolbox](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 

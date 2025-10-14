@@ -83,7 +83,7 @@ Die Komponente Produktdaten-Benutzeroberfläche wird automatisch auf Grundlage d
 
 1. **[!UICONTROL Create]** eines Metadatenprofils für die Commerce-Integration.
 
-   ![AEM-Autoren-Admin fügt Metadatenprofile hinzu ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
+   ![AEM-Autoren-Admin fügt Metadatenprofile hinzu &#x200B;](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
 
 1. Fügen Sie eine Registerkarte für Commerce-Metadaten hinzu.
 

@@ -15,7 +15,7 @@ Verwenden Sie das _[!UICONTROL Customers]_&#x200B;Raster, um ein beliebiges Kund
 
 ![Alle Kunden](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
-Informationen [ manuellen Aktualisierungen eines Kundenkontos finden Sie ](update-account.md) „Kundenprofil aktualisieren“.
+Informationen [&#x200B; manuellen Aktualisierungen eines Kundenkontos finden Sie &#x200B;](update-account.md) „Kundenprofil aktualisieren“.
 
 ## Kundenkonto-Aktionen
 
@@ -37,7 +37,7 @@ Bei Multi-Store- und Multi-Site-Setups mit einem globalen [Kundenkontobereich](.
 
 * Setzen Sie das **[!UICONTROL Actions]** auf `Subscribe to newsletter`.
 
-Weitere Informationen [ Verwalten von Newsletter](../merchandising-promotions/newsletter-subscribers.md)Abonnements für eine Kundin oder einen Kunden finden Sie unter „Verwalten von Abonnentinnen und Abonnenten“.
+Weitere Informationen [&#x200B; Verwalten von Newsletter](../merchandising-promotions/newsletter-subscribers.md)Abonnements für eine Kundin oder einen Kunden finden Sie unter „Verwalten von Abonnentinnen und Abonnenten“.
 
 ### Newsletter abbestellen
 

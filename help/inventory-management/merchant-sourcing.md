@@ -26,7 +26,7 @@ Sie haben beispielsweise eine Website oder eine Implementierung mit mehreren Web
 
 Erste Schritte:
 
-- Konfigurieren Sie [globale Einstellungen und ](configuration.md)) nach Bedarf für das Inventar Ihres Stores.
+- Konfigurieren Sie [globale Einstellungen und &#x200B;](configuration.md)) nach Bedarf für das Inventar Ihres Stores.
 
 - Aktualisieren Sie [Standard-Source](sources-manage.md) mit Informationen zu Ihrem einzelnen Inventarspeicherort. Das Erstellen zusätzlicher Quellen ist nicht erforderlich.
 
@@ -34,7 +34,7 @@ Erste Schritte:
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen expandiert, fügen Sie zusätzliche Quellen und Lager hinzu und aktualisieren Sie Ihre [!DNL Inventory Management]-Konfiguration, um ein Händler mit mehreren Quellen zu werden. Siehe [Erweitern und Restrukturieren ](expand-restructure.md) Inventars) für alle Details.
+>Wenn Ihr Unternehmen expandiert, fügen Sie zusätzliche Quellen und Lager hinzu und aktualisieren Sie Ihre [!DNL Inventory Management]-Konfiguration, um ein Händler mit mehreren Quellen zu werden. Siehe [Erweitern und Restrukturieren &#x200B;](expand-restructure.md) Inventars) für alle Details.
 
 ## Händler mit mehreren Quellen
 

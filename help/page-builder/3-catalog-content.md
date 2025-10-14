@@ -16,7 +16,7 @@ In dieser Übung wird gezeigt, wie einfach es ist, einer Seite eine Produktliste
 
 ![Produktliste](./assets/pb-add-content-products-list.png){width="600" zoomable="yes"}
 
-Bei dieser Übung wird davon ausgegangen, dass Sie [Teil 1: Einfache Seite](1-simple-page.md) und [Teil 2: ](2-blocks.md)), einschließlich der Voraussetzungen und heruntergeladener Beispieldateien, abgeschlossen haben. Folgen Sie den drei Teilen dieser Übung in der richtigen Reihenfolge.
+Bei dieser Übung wird davon ausgegangen, dass Sie [Teil 1: Einfache Seite](1-simple-page.md) und [Teil 2: &#x200B;](2-blocks.md)), einschließlich der Voraussetzungen und heruntergeladener Beispieldateien, abgeschlossen haben. Folgen Sie den drei Teilen dieser Übung in der richtigen Reihenfolge.
 
 ## Teil 1: Hinzufügen einer Produktliste
 
@@ -38,7 +38,7 @@ Bei dieser Übung wird davon ausgegangen, dass Sie [Teil 1: Einfache Seite](1-si
 
 ### Schritt 2: Bedingung erstellen
 
-1. Bewegen Sie den Mauszeiger über den leeren Produkt-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den leeren Produkt-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( (](./assets/pb-icon-settings.png){width="20"}) aus.
 
    ![Produkt-Toolbox](./assets/pb-add-content-products-toolbox.png){width="600" zoomable="yes"}
 
@@ -46,7 +46,7 @@ Bei dieser Übung wird davon ausgegangen, dass Sie [Teil 1: Einfache Seite](1-si
 
 1. Bedingung hinzufügen:
 
-   - Klicken Sie auf _Symbol_ Hinzufügen![ (Symbol ](../assets/icon-add-green-circle.png)).
+   - Klicken Sie auf _Symbol_ Hinzufügen![&#x200B; (Symbol &#x200B;](../assets/icon-add-green-circle.png)).
 
    - Wählen Sie unter _[!UICONTROL Product Attribute]_&#x200B;die Option **[!UICONTROL Category]**&#x200B;aus.
 
@@ -90,7 +90,7 @@ Bei dieser Übung wird davon ausgegangen, dass Sie [Teil 1: Einfache Seite](1-si
 >
 >Ein Administrator bzw. eine Administratorin muss über [!UICONTROL Content] Berechtigungen für den [Rollenbereich](../systems/permissions-user-roles.md) verfügen, um [!UICONTROL Edit with Page Builder] Schaltflächen sehen und Page Builder verwenden zu können.
 
-In diesem Teil der Übung erfahren Sie, wie einfach es ist, eine Produktseite anzupassen, indem Sie ein Video unter den Registerkarten auf der Produktseite platzieren. Der Prozess zum Aktualisieren [ Inhalts ](../catalog/categories-content-settings.md) Kategorieseite ist im Wesentlichen identisch.
+In diesem Teil der Übung erfahren Sie, wie einfach es ist, eine Produktseite anzupassen, indem Sie ein Video unter den Registerkarten auf der Produktseite platzieren. Der Prozess zum Aktualisieren [&#x200B; Inhalts &#x200B;](../catalog/categories-content-settings.md) Kategorieseite ist im Wesentlichen identisch.
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
@@ -114,7 +114,7 @@ In diesem Teil der Übung erfahren Sie, wie einfach es ist, eine Produktseite an
 
    ![Video-Platzhalter in der Zeile](./assets/tutorial3-product-drag-video.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den leeren Video-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ((](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den leeren Video-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ((](./assets/pb-icon-settings.png){width="20"}) aus.
 
    ![Video-Toolbox](./assets/pb-tutorial3-product-video-toolbox.png){width="500" zoomable="yes"}
 

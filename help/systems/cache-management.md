@@ -141,7 +141,7 @@ Entwickelnde und Systemintegratoren verwenden diese Werte, um die Zwischenspeich
 
 >[!NOTE]
 >
->Entwickelnde und Systemintegratoren können das Cache-Management-System von Commerce anpassen und erweitern, um benutzerdefinierte Module und Integrationen zu unterstützen. Weitere Informationen finden Sie unter [Konfigurieren des ](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cache/caching-overview)&quot; im _Adobe Commerce-Konfigurationshandbuch_.
+>Entwickelnde und Systemintegratoren können das Cache-Management-System von Commerce anpassen und erweitern, um benutzerdefinierte Module und Integrationen zu unterstützen. Weitere Informationen finden Sie unter [Konfigurieren des &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cache/caching-overview)&quot; im _Adobe Commerce-Konfigurationshandbuch_.
 
 <!-- prettier-ignore -->
 
@@ -176,7 +176,7 @@ Adobe Commerce und Magento Open Source verwenden das Caching ganzer Seiten auf d
 
 >[!NOTE]
 >
->Es wird empfohlen[ „Varnish Cache](https://varnish-cache.org/){:target="_blank"} nur in einer Produktionsumgebung zu verwenden.
+>Es wird empfohlen[&#x200B; „Varnish Cache](https://varnish-cache.org/){:target="_blank"} nur in einer Produktionsumgebung zu verwenden.
 
 Zwischengespeicherte Inhalte können zur Verarbeitung von Anfragen ähnlicher Besuchstypen verwendet werden. Infolgedessen können Seiten, die einem gelegentlichen Besucher angezeigt werden, von Seiten abweichen, die einem Kunden angezeigt werden. Zum Zwischenspeichern ist jeder Besuch einer von drei Typen:
 
@@ -184,7 +184,7 @@ Zwischengespeicherte Inhalte können zur Verarbeitung von Anfragen ähnlicher Be
 - `Sessioned` - Während eines Sitzungsbesuchs wird Käufern, die mit dem Store interagieren, eine Sitzungs-ID zugewiesen. Interaktionen umfassen Aktivitäten wie den Vergleich von Produkten oder das Hinzufügen von Produkten zum Warenkorb. Zwischengespeicherte Seiten, die während der Sitzung generiert werden, werden nur von diesem Kunden während der Sitzung verwendet.
 - `Customer` - Kundensitzungen werden für Kunden erstellt, die sich mit ihrem registrierten Konto anmelden und einkaufen. Während der Sitzung können Kunden Sonderangebote, Aktionen und Preise basierend auf ihrer zugewiesenen Kundengruppe präsentiert werden.
 
-Technische Informationen finden Sie unter [Konfigurieren und Verwenden von ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=de){:target="_blank"} und [Verwenden von Redis für die Commerce-Seite und ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=de){:target="_blank"}-Cache im _Konfigurationshandbuch_.
+Technische Informationen finden Sie unter [Konfigurieren und Verwenden von &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=de){:target="_blank"} und [Verwenden von Redis für die Commerce-Seite und &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=de){:target="_blank"}-Cache im _Konfigurationshandbuch_.
 
 **_So konfigurieren Sie den Vollseiten-Cache:_**
 

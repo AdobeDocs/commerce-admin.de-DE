@@ -134,7 +134,7 @@ Legen Sie diese Option fest, um zu verhindern, dass Mitglieder einer bestimmten 
 
    >[!NOTE]
    >
-   >Wenn für eine übergeordnete Kategorie die Berechtigung `Browsing Category` = `Deny` festgelegt ist, wird sie nicht im Breadcrumb[Protokoll ](navigation-breadcrumb-trail.md) untergeordneten Kategorieseite angezeigt.
+   >Wenn für eine übergeordnete Kategorie die Berechtigung `Browsing Category` = `Deny` festgelegt ist, wird sie nicht im Breadcrumb[Protokoll &#x200B;](navigation-breadcrumb-trail.md) untergeordneten Kategorieseite angezeigt.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 

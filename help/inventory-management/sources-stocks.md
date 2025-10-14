@@ -50,7 +50,7 @@ Verkaufsmenge : Berechnet den virtuellen Bestand an Produkten (oder deren Verfü
 
 ## Bestandskonfigurationen
 
-Jedes Produkt, jede Quelle und jedes Lager umfasst mehrere Optionen zum Konfigurieren für Ihren Store auf globaler, Quell-, Lager- und Produktebene. Eine vollständige Liste dieser Optionen finden Sie unter [ von Inventory management](configuration.md).
+Jedes Produkt, jede Quelle und jedes Lager umfasst mehrere Optionen zum Konfigurieren für Ihren Store auf globaler, Quell-, Lager- und Produktebene. Eine vollständige Liste dieser Optionen finden Sie unter [&#x200B; von Inventory management](configuration.md).
 
 Die folgenden Optionen sind für [!DNL Inventory Management] wichtig:
 

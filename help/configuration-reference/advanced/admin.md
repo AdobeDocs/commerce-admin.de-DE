@@ -154,7 +154,7 @@ Weitere Informationen zum Festlegen dieser Optionen finden Sie unter [Admin-](..
 
 ![Admin-Raster](./assets/admin-admin-grids.png)<!-- zoom -->
 
-Weitere Informationen zum Festlegen dieser Optionen finden Sie unter [Begrenzen der ](../../catalog/products-list.md#limit-product-display)) im _Handbuch zur Katalogverwaltung_.
+Weitere Informationen zum Festlegen dieser Optionen finden Sie unter [Begrenzen der &#x200B;](../../catalog/products-list.md#limit-product-display)) im _Handbuch zur Katalogverwaltung_.
 
 >[!NOTE]
 >

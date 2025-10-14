@@ -18,7 +18,7 @@ Eine Wunschliste ist eine praktische Möglichkeit für Kunden, Produkte zurückz
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce unterstützt die Verwendung mehrerer Wunschlisten pro Kundenkonto.
 
-![Magento Open Source ](../assets/open-source.svg) Die Magento Open Source-Code-Basis unterstützt die Verwendung einer einzigen Wunschliste pro Kundenkonto.
+![Magento Open Source &#x200B;](../assets/open-source.svg) Die Magento Open Source-Code-Basis unterstützt die Verwendung einer einzigen Wunschliste pro Kundenkonto.
 
 ## Erstellen einer Wunschliste
 
@@ -38,7 +38,7 @@ In der Storefront kann eine Kundin oder ein Kunde eine Wunschliste aus seinem bz
 
    >[!NOTE]
    >
-   >Der Hauptunterschied zwischen `Public` und `Private` Wunschlisten besteht darin, dass private Wunschlisten nicht [ durchsuchbar ](wishlist-configuration.md#add-wish-list-search).
+   >Der Hauptunterschied zwischen `Public` und `Private` Wunschlisten besteht darin, dass private Wunschlisten nicht [&#x200B; durchsuchbar &#x200B;](wishlist-configuration.md#add-wish-list-search).
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 

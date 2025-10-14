@@ -74,7 +74,7 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
    >[!NOTE]
    >
-   >Wenn eine Kampagne mit mehr als einer Katalogpreisregel verknüpft ist, kann die Kampagne nur über das [Inhalts-Staging-Dashboard“ bearbeitet ](../content-design/content-staging-dashboard.md).
+   >Wenn eine Kampagne mit mehr als einer Katalogpreisregel verknüpft ist, kann die Kampagne nur über das [Inhalts-Staging-Dashboard“ bearbeitet &#x200B;](../content-design/content-staging-dashboard.md).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -92,7 +92,7 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
    ![Liste geplanter Aktualisierungen für ein bestimmtes Datum](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Date & Time]** Um eine Vorschau eines anderen Tages oder einer anderen Uhrzeit anzuzeigen, klicken Sie auf das ![ „Kalender](../assets/icon-calendar.png) und führen Sie folgende Schritte aus:
+1. **[!UICONTROL Date & Time]** Um eine Vorschau eines anderen Tages oder einer anderen Uhrzeit anzuzeigen, klicken Sie auf das ![&#x200B; „Kalender](../assets/icon-calendar.png) und führen Sie folgende Schritte aus:
 
    - Wählen Sie ein anderes Datum und/oder eine andere Uhrzeit.
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Das Erstellen eines Kundensegments ähnelt dem Erstellen [Warenkorb-Preisregel](../merchandising-promotions/price-rules-cart.md) mit dem Unterschied, dass die Optionen [Kundensegmentspezifische Attribute) ](../customers/customer-segments.md).
+Das Erstellen eines Kundensegments ähnelt dem Erstellen [Warenkorb-Preisregel](../merchandising-promotions/price-rules-cart.md) mit dem Unterschied, dass die Optionen [Kundensegmentspezifische Attribute) &#x200B;](../customers/customer-segments.md).
 
 ![Kundensegmentliste](assets/customer-segments.png){width="700" zoomable="yes"}
 

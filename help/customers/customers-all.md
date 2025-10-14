@@ -25,7 +25,7 @@ In Admin listet das [!UICONTROL Customers] alle Kunden auf, die sich für ein Ko
 
    >[!NOTE]
    >
-   >Weitere Informationen finden Sie unter [Aktualisieren von ](../customers/update-account.md).
+   >Weitere Informationen finden Sie unter [Aktualisieren von &#x200B;](../customers/update-account.md).
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Customer]**.
 
@@ -35,7 +35,7 @@ In Admin listet das [!UICONTROL Customers] alle Kunden auf, die sich für ein Ko
 | --- | --- |
 | **[!UICONTROL Add New Customer]** | Erstellt ein Kundenkonto. |
 | **[!UICONTROL Search]** | Startet eine Kundensuche basierend auf den aktuellen Filtern. |
-| **[!UICONTROL Filters]** | Definiert einen Satz von Suchparametern, die zum Filtern der Datensätze verwendet werden, die im [Raster“ ](../getting-started/admin-grid-controls.md). |
+| **[!UICONTROL Filters]** | Definiert einen Satz von Suchparametern, die zum Filtern der Datensätze verwendet werden, die im [Raster“ &#x200B;](../getting-started/admin-grid-controls.md). |
 | **[!UICONTROL Default View]** | Bestimmt die Standardspalte [Layout](../getting-started/admin-grid-controls.md) des Rasters. |
 | **[!UICONTROL Columns]** | Bestimmt die Auswahl von [Spalten](../getting-started/admin-grid-controls.md) und deren Konten im Raster. Das Spalten-Layout kann geändert und als (_) gespeichert_. Standardmäßig sind nur einige der Spalten im Raster enthalten. |
 | **[!UICONTROL Export]** | Exportiert die ausgewählten Datensätze als CSV- oder Excel-XML-Datei. |

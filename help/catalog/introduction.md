@@ -39,7 +39,7 @@ Wenn Sie nur über einen einzigen Store mit der Standardansicht verfügen, könn
 
 - Um die Produktinformationen für eine bestimmte Ansicht zu bearbeiten, wählen Sie mit dem Steuerelement _Store-_&quot; in der linken oberen Ecke die Ansicht aus. Zusätzliche Steuerelemente werden für alle Felder verfügbar, die auf Store-Ansichtsebene bearbeitet werden können.
 
-- Informationen zum Definieren des Umfangs eines Produkts in einer Multi-Site-Installation finden Sie [ Abschnitt „Produkt in ](settings-basic-websites.md)&quot;.
+- Informationen zum Definieren des Umfangs eines Produkts in einer Multi-Site-Installation finden Sie [&#x200B; Abschnitt „Produkt in &#x200B;](settings-basic-websites.md)&quot;.
 
 Der Prozess der Bearbeitung eines Produkts für eine Store-Ansicht entspricht dem Hinzufügen einer Ebene mit Produktinformationen, die für die Ansicht spezifisch sind.
 

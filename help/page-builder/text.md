@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Elemente - Text
 
-Verwenden Sie den _Text_-Inhaltstyp, um einen Text-Container mit einem WYSIWYG-Editor (“What You See Is What You Get„) in der &quot;[[!DNL Page Builder] &quot; ](workspace.md#stage). Darüber hinaus können Sie Links, Bilder, [Variablen](../systems/variables-predefined.md) und Widgets zum Text über die Editor-Symbolleiste hinzufügen.
+Verwenden Sie den _Text_-Inhaltstyp, um einen Text-Container mit einem WYSIWYG-Editor (“What You See Is What You Get„) in der &quot;[[!DNL Page Builder] &quot; &#x200B;](workspace.md#stage). Darüber hinaus können Sie Links, Bilder, [Variablen](../systems/variables-predefined.md) und Widgets zum Text über die Editor-Symbolleiste hinzufügen.
 
 ![Formatierter Text auf einem Banner](./assets/pb-storefont-banner-with-button.png){width="700"}
 
@@ -90,7 +90,7 @@ Informationen zum Erstellen eines Links für eine Telefonnummer oder E-Mail find
 
 1. Platzieren Sie den Cursor an der Stelle, an der das Bild eingefügt werden soll.
 
-1. Klicken Sie _der Editor-Symbolleiste auf_ Bild einfügen/bearbeiten![ ( Schaltfläche ](./assets/icon-pb-add-image.png){width="20"}Bild einfügen/bearbeiten).
+1. Klicken Sie _der Editor-Symbolleiste auf_ Bild einfügen/bearbeiten![&#x200B; ( Schaltfläche &#x200B;](./assets/icon-pb-add-image.png){width="20"}Bild einfügen/bearbeiten).
 
 1. Klicken Sie **[!UICONTROL Source]** auf das Suchsymbol, um den Medienspeicher zum Suchen und Auswählen eines Bildes zu verwenden.
 
@@ -106,7 +106,7 @@ Informationen zum Erstellen eines Links für eine Telefonnummer oder E-Mail find
 
 ## Texteinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über den Text-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( ](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Text-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( &#x200B;](./assets/pb-icon-settings.png){width="20"} ) aus.
 
    >[!NOTE]
    >

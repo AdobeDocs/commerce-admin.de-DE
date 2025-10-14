@@ -161,7 +161,7 @@ Die iterative Aufteilung bietet die beste Verteilung der Produkte auf die Preisk
 
    ![Mehrschichtige Navigation](../configuration-reference/catalog/assets/layered-navigation.png){width="600" zoomable="yes"}
 
-   Eine detaillierte Liste dieser Konfigurationsoptionen finden Sie unter &quot;[ Navigation](../configuration-reference/catalog/catalog.md#layered-navigation) in der _Konfigurationsreferenz_.
+   Eine detaillierte Liste dieser Konfigurationsoptionen finden Sie unter &quot;[&#x200B; Navigation](../configuration-reference/catalog/catalog.md#layered-navigation) in der _Konfigurationsreferenz_.
 
 1. Legen Sie **[!UICONTROL Price Navigation Steps Calculation]** für eine der Methoden in den folgenden Abschnitten fest.
 

@@ -130,7 +130,7 @@ Wenn der Knoten im Menü angezeigt werden soll, gehen Sie wie folgt vor:
 1. Um die Position des Menüs in Bezug auf den Inhalt anzugeben, legen Sie die **[!UICONTROL Menu Layout]** fest:
 
    - `Content` - Das Menü-Layout befindet sich im Inhalt.
-   - `Use Default` - Verwendet den in der [ angegebenen Menüstil](../configuration-reference/general/content-management.md).
+   - `Use Default` - Verwendet den in der [&#x200B; angegebenen Menüstil](../configuration-reference/general/content-management.md).
    - `Left Column` - Das Menü wird links neben dem Inhalt angezeigt.
    - `Right Column` - Das Menü wird rechts neben dem Inhalt angezeigt.
 

@@ -16,11 +16,11 @@ Eine Wunschliste ist eine Liste von Produkten, die ein registrierter Kunde mit F
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce unterstützt die Verwendung mehrerer Wunschlisten pro Kundenkonto.
 
-![Magento Open Source ](../assets/open-source.svg) Magento Open Source unterstützt die Verwendung einer einzigen Wunschliste pro Kundenkonto.
+![Magento Open Source &#x200B;](../assets/open-source.svg) Magento Open Source unterstützt die Verwendung einer einzigen Wunschliste pro Kundenkonto.
 
 Freigegebene Wunschlisten werden von einer Store-E-Mail-Adresse gesendet, aber der Textkörper der Nachricht enthält eine personalisierte Anmerkung des Kunden. Sie können die E-Mail-Vorlage anpassen, die bei der Freigabe von Wunschlisten verwendet wird, und den Store-Kontakt auswählen, der als Absender angezeigt wird.
 
-Wunschlisten können über das Dashboard des [Kundenkontos“ aktualisiert ](../customers/account-dashboard.md). Artikel können vom Kunden oder vom Store-Administrator zwischen der Wunschliste und dem Warenkorb hinzugefügt oder übertragen werden.
+Wunschlisten können über das Dashboard des [Kundenkontos“ aktualisiert &#x200B;](../customers/account-dashboard.md). Artikel können vom Kunden oder vom Store-Administrator zwischen der Wunschliste und dem Warenkorb hinzugefügt oder übertragen werden.
 
 ![Beispiel-Storefront - Meine Wunschliste](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 

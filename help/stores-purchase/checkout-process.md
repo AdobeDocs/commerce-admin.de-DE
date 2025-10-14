@@ -22,7 +22,7 @@ Das Ziel des Checkout-Prozesses besteht darin, die Informationen zu sammeln, die
 
 Der erste Schritt des Checkout-Prozesses besteht darin, dass der Kunde die Informationen zur Versandadresse ausfüllt und die Versandmethode wählt. Wenn der Kunde über ein Konto verfügt, wird die Lieferadresse automatisch eingegeben, kann aber bei Bedarf geändert werden.
 
-![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Das Format der Straßenadresse für den Empfänger und den Absender wird durch die Eigenschaften des [Kundenadressattributs) ](../customers/address-attributes.md). Die Eingabevalidierungseinstellung bestimmt die gültigen Zeichen, die in einer Versandadresse verwendet werden können.
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Das Format der Straßenadresse für den Empfänger und den Absender wird durch die Eigenschaften des [Kundenadressattributs) &#x200B;](../customers/address-attributes.md). Die Eingabevalidierungseinstellung bestimmt die gültigen Zeichen, die in einer Versandadresse verwendet werden können.
 
 Die Fortschrittsleiste oben auf der Seite folgt jedem Schritt des Checkout-Prozesses und die Bestellzusammenfassung zeigt die bisher eingegebenen Informationen an.
 
@@ -144,7 +144,7 @@ Eine ausführliche Beschreibung jeder dieser Konfigurationseinstellungen finden 
 | Feld | [Umfang](../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enable Onepage Checkout] | Shop-Ansicht | Bestimmt, ob [einseitiger Checkout](checkout-one-page.md) das standardmäßige Checkout-Format ist. Optionen: Ja / Nein |
-| [!UICONTROL Allow Guest Checkout] | Shop-Ansicht | Legt fest, ob Gäste für ein Konto [ Ihrem Geschäft ](checkout-guest.md) (Checkout ohne Registrierung) durchlaufen können. Optionen: `Yes` / `No` |
+| [!UICONTROL Allow Guest Checkout] | Shop-Ansicht | Legt fest, ob Gäste für ein Konto [&#x200B; Ihrem Geschäft &#x200B;](checkout-guest.md) (Checkout ohne Registrierung) durchlaufen können. Optionen: `Yes` / `No` |
 | [!UICONTROL Enable Terms and Conditions] | Shop-Ansicht | Legt fest, ob Kunden vor dem Kauf den [Geschäftsbedingungen](terms-and-conditions.md) des Verkaufs zustimmen müssen. Optionen: `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | Shop-Ansicht | Bestimmt den Speicherort der Rechnungsadresse während des Checkouts. Optionen: `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | Shop-Ansicht | Legt die maximale Anzahl von Artikeln fest, die während des Checkouts in der Bestellübersicht angezeigt werden können. Der Standardwert lautet `10`. |

@@ -32,7 +32,7 @@ Der Administrator, der diese Integration konfiguriert, benötigt während der Ak
 * 2FA sollte auf Organisationsebene in Adobe Admin Console erzwungen werden, um das Modul zu aktivieren. Überprüfen Sie [Authentifizierungseinstellungen](https://helpx.adobe.com/de/enterprise/using/authentication-settings.html#two-step-verification).
 * Client-ID
 * Client-Geheimnis
-* Client-ID und Client-Geheimnis sind verfügbar, nachdem die API-Schlüssel von der [Adobe Developer Console abgerufen ](https://developer.adobe.com/developer-console/docs/guides/credentials/).
+* Client-ID und Client-Geheimnis sind verfügbar, nachdem die API-Schlüssel von der [Adobe Developer Console abgerufen &#x200B;](https://developer.adobe.com/developer-console/docs/guides/credentials/).
 
 Commerce-Admin-Benutzende müssen ein Konto mit einer Adobe ID erstellen, um sich anzumelden.
 

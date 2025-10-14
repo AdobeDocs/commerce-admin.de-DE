@@ -28,7 +28,7 @@ Die folgenden Aspekte eines freigegebenen Katalogs müssen eingerichtet werden, 
 
 ## Preisspanne
 
-Wenn Sie eine Multisite-Installation haben, stellen Sie sicher, dass Sie den Preisbereich konfigurieren, bevor Sie Ihre freigegebenen Kataloge erstellen. Der [Preisbereich](../catalog/catalog-price-scope.md) kann auf `Global` oder `Website` festgelegt werden. Sie kann jedoch erst zu Beginn des Einrichtungsprozesses festgelegt werden. Die Website-Auswahl wird in Schritt 2 der [freigegebenen Katalogeinrichtung“ ](catalog-shared-pricing-structure.md).
+Wenn Sie eine Multisite-Installation haben, stellen Sie sicher, dass Sie den Preisbereich konfigurieren, bevor Sie Ihre freigegebenen Kataloge erstellen. Der [Preisbereich](../catalog/catalog-price-scope.md) kann auf `Global` oder `Website` festgelegt werden. Sie kann jedoch erst zu Beginn des Einrichtungsprozesses festgelegt werden. Die Website-Auswahl wird in Schritt 2 der [freigegebenen Katalogeinrichtung“ &#x200B;](catalog-shared-pricing-structure.md).
 
 ![Website-Auswahl](./assets/shared-catalog-scope-pricing.png){width="600" zoomable="yes"}
 
@@ -101,7 +101,7 @@ Wenn ein öffentlicher freigegebener Katalog dupliziert wird, ändert sich der T
 
 ## Schritt 2: Abschließen der Einrichtung
 
-Nachdem Sie einen neuen freigegebenen Katalog erstellt haben, müssen Sie ihn mit der entsprechenden Produktauswahl, [Unternehmenszuweisungen](catalog-shared-assign-companies.md) und [Kategorieberechtigungen“ ](../catalog/category-permissions.md). Weitere Informationen finden Sie unter [Festlegen von Preisen und Strukturen](catalog-shared-pricing-structure.md).
+Nachdem Sie einen neuen freigegebenen Katalog erstellt haben, müssen Sie ihn mit der entsprechenden Produktauswahl, [Unternehmenszuweisungen](catalog-shared-assign-companies.md) und [Kategorieberechtigungen“ &#x200B;](../catalog/category-permissions.md). Weitere Informationen finden Sie unter [Festlegen von Preisen und Strukturen](catalog-shared-pricing-structure.md).
 
 >[!NOTE]
 >

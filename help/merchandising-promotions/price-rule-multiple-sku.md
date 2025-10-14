@@ -16,7 +16,7 @@ Eine einzige Katalogpreisregel kann auf mehrere SKUs angewendet werden, wodurch 
 
 ## Schritt 1. Überprüfen der Storefront-Eigenschaften des Produktattributs
 
-Bevor Sie beginnen, stellen Sie sicher, [ die „Storefront](../catalog/attribute-product-create.md#step-4-describe-the-storefront-properties)-Eigenschaften des `sku`-Attributs auf `Use in Promo Rules` festgelegt sind.
+Bevor Sie beginnen, stellen Sie sicher, [&#x200B; die „Storefront](../catalog/attribute-product-create.md#step-4-describe-the-storefront-properties)-Eigenschaften des `sku`-Attributs auf `Use in Promo Rules` festgelegt sind.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
 

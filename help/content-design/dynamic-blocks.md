@@ -14,11 +14,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Erstellen Sie ansprechende, interaktive Inhalte, die von Logiken aus [Preisregeln](../merchandising-promotions/introduction.md#price-rules) und [Kundensegmenten](../customers/customer-segments.md) gesteuert werden. Vorhandene [dynamische Blöcke](../page-builder/dynamic-block.md) können direkt zur [!DNL Page Builder] ([) ](../page-builder/workspace.md) werden. Ein detailliertes Beispiel der Verwendung dynamischer Blöcke finden Sie unter [Tutorial 2: Blöcke](../page-builder/2-blocks.md).
+Erstellen Sie ansprechende, interaktive Inhalte, die von Logiken aus [Preisregeln](../merchandising-promotions/introduction.md#price-rules) und [Kundensegmenten](../customers/customer-segments.md) gesteuert werden. Vorhandene [dynamische Blöcke](../page-builder/dynamic-block.md) können direkt zur [!DNL Page Builder] ([) &#x200B;](../page-builder/workspace.md) werden. Ein detailliertes Beispiel der Verwendung dynamischer Blöcke finden Sie unter [Tutorial 2: Blöcke](../page-builder/2-blocks.md).
 
 >[!NOTE]
 >
->Die Option _[!UICONTROL Banner]_&#x200B;im Menü [[!UICONTROL Content] wurde ](content-menu.md) 2.3.1 veraltet und in 2.4.0 entfernt. Seine Funktionalität wird durch dynamische Blöcke ersetzt.
+>Die Option _[!UICONTROL Banner]_&#x200B;im Menü [[!UICONTROL Content] wurde &#x200B;](content-menu.md) 2.3.1 veraltet und in 2.4.0 entfernt. Seine Funktionalität wird durch dynamische Blöcke ersetzt.
 
 ![[!DNL Page Builder] - Dynamischer Block mit Preisregel und Kundensegment](../page-builder/assets/pb-tutorial2-dynamic-block-storefront.png){width="600" zoomable="yes"}
 
@@ -54,7 +54,7 @@ Erstellen Sie ansprechende, interaktive Inhalte, die von Logiken aus [Preisregel
 
 ### Verwenden von Real-Time CDP-Zielgruppen in dynamischen Blöcken
 
-Wenn Sie [ [!DNL Audience Activation] Erweiterung installiert](../customers/audience-activation.md#install-the-extension) und [konfiguriert](../customers/audience-activation.md#configure-the-extension) wird ein Abschnitt namens **[!UICONTROL Audiences]** angezeigt.
+Wenn Sie [&#x200B; [!DNL Audience Activation] Erweiterung installiert](../customers/audience-activation.md#install-the-extension) und [konfiguriert](../customers/audience-activation.md#configure-the-extension) wird ein Abschnitt namens **[!UICONTROL Audiences]** angezeigt.
 
 ![Real-Time CDP-Zielgruppe auswählen](./assets/dynamic-block-rtcdp.png){width="600" zoomable="yes"}
 
@@ -97,7 +97,7 @@ Verwenden Sie den [!DNL Page Builder] [Arbeitsbereich](../page-builder/workspace
 | [!UICONTROL Store View] | Gibt die Store-Ansichten an, in denen der dynamische Block verfügbar sein soll. |
 | [!UICONTROL Enable Dynamic Block] | Aktiviert oder deaktiviert den dynamischen Block. Optionen: Ja / Nein |
 | [!UICONTROL Dynamic Block Name] | Ein beschreibender Name, der den dynamischen Block in der Admin-Liste identifiziert. |
-| [!UICONTROL Dynamic Block Type] | Gibt die Position im [Standardseitenlayout](layout-updates.md) an, an der der dynamische Block platziert ist. Optionen: <br/>**[!UICONTROL Content Area]**- Platziert den dynamischen Block im [ (](layout-updates.md)) der Seite.<br/>**[!UICONTROL Footer]** - Platziert den dynamischen Block in der Seite [Fußzeile](page-setup.md#footer). <br/>**[!UICONTROL Header]**- Platziert den dynamischen Block in der [ (](page-setup.md#header)).<br/>**[!UICONTROL Left Column]** - Platziert den dynamischen Block in der [linken ](page-layout.md#standard-page-layouts) eines zwei- oder dreispaltigen Layouts. <br/>**[!UICONTROL Right Column]**- Platziert den dynamischen Block in der [rechten Seitenleiste](page-layout.md#standard-page-layouts) eines zweispaltigen oder dreispaltigen Layouts. |
+| [!UICONTROL Dynamic Block Type] | Gibt die Position im [Standardseitenlayout](layout-updates.md) an, an der der dynamische Block platziert ist. Optionen: <br/>**[!UICONTROL Content Area]**- Platziert den dynamischen Block im [&#x200B; (](layout-updates.md)) der Seite.<br/>**[!UICONTROL Footer]** - Platziert den dynamischen Block in der Seite [Fußzeile](page-setup.md#footer). <br/>**[!UICONTROL Header]**- Platziert den dynamischen Block in der [&#x200B; (](page-setup.md#header)).<br/>**[!UICONTROL Left Column]** - Platziert den dynamischen Block in der [linken &#x200B;](page-layout.md#standard-page-layouts) eines zwei- oder dreispaltigen Layouts. <br/>**[!UICONTROL Right Column]**- Platziert den dynamischen Block in der [rechten Seitenleiste](page-layout.md#standard-page-layouts) eines zweispaltigen oder dreispaltigen Layouts. |
 | Kundensegment | Ordnet dem dynamischen Block ein Kundensegment zu, um zu bestimmen, welche Kunden es sehen können. |
 | Real-Time CDP-Zielgruppe | Verknüpft eine [Real-Time CDP-Zielgruppe](../customers/audience-activation.md) mit dem dynamischen Block, um zu bestimmen, welche Kunden ihn sehen können. |
 
@@ -119,6 +119,6 @@ Verwenden Sie den [!DNL Page Builder] [Arbeitsbereich](../page-builder/workspace
 | Feld | Beschreibung |
 |--- |--- |
 | [!UICONTROL Related Cart Price Rule] | **[!UICONTROL Add Cart Price Rules]** - Verknüpfen Sie eine vorhandene [Warenkorb-Preisregel](../merchandising-promotions/price-rules-cart.md) mit dem dynamischen Block als Promotion. |
-| [!UICONTROL Related Catalog Price Rule] | **[!UICONTROL Add Catalog Price Rules]** - Verknüpfen Sie eine vorhandene [Katalogpreisregel) ](../merchandising-promotions/price-rules-catalog.md) dynamischen Block als Promotion. |
+| [!UICONTROL Related Catalog Price Rule] | **[!UICONTROL Add Catalog Price Rules]** - Verknüpfen Sie eine vorhandene [Katalogpreisregel) &#x200B;](../merchandising-promotions/price-rules-catalog.md) dynamischen Block als Promotion. |
 
 {style="table-layout:auto"}

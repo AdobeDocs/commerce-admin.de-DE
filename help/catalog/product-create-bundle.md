@@ -82,7 +82,7 @@ Das Formular wird mit der Änderung aktualisiert.
 
 1. Klicken Sie auf **[!UICONTROL Save]** und fahren Sie fort.
 
-   Wenn das Produkt gespeichert wird, wird [ Auswahl „Store](introduction.md#product-scope)Ansicht“ in der oberen linken Ecke angezeigt.
+   Wenn das Produkt gespeichert wird, wird [&#x200B; Auswahl „Store](introduction.md#product-scope)Ansicht“ in der oberen linken Ecke angezeigt.
 
 1. Wählen Sie die **[!UICONTROL Store View]** aus, in der das Produkt verfügbar sein soll.
 
@@ -148,7 +148,7 @@ Der Abschnitt _[!UICONTROL Bundle Items]_&#x200B;wird verwendet, um Elemente zu 
    - `Separately`
    - `Together`
 
-   Wenn Sie `Together` auswählen, müssen allen Bundle-Elementen dieselbe [Quelle“ zugewiesen ](../inventory-management/sources-manage.md).
+   Wenn Sie `Together` auswählen, müssen allen Bundle-Elementen dieselbe [Quelle“ zugewiesen &#x200B;](../inventory-management/sources-manage.md).
 
 1. Klicken Sie auf **[!UICONTROL Add Option]** und führen Sie folgende Schritte aus:
 

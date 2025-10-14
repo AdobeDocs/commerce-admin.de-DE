@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Warenkorb-Guthaben ist ein Betrag, der auf einem Kundenkonto wiederhergestellt wird. Kunden können ihre Ladenkredite verwenden, um für Käufe zu bezahlen, und Administratoren können die Ladenkredite für Barerstattungen verwenden. Die Guthaben auf der Geschenkkarte können dem Konto des Kunden gutgeschrieben werden, anstatt den Geschenkkartencode für zukünftige Käufe zu verwenden.
 
-Nachdem eine Bestellung bezahlt und fakturiert wurde, kann die Bestellung oder ein Teil davon zurückerstattet werden ([ Gutschrift](../stores-purchase/credit-memo-create.md). Eine Gutschrift unterscheidet sich von einer Rückerstattung, da der Betrag der Gutschrift auf dem Konto des Kunden wiederhergestellt wird, wo er für zukünftige Käufe verwendet werden kann. Manchmal kann eine Rückerstattung gleichzeitig mit der Ausstellung einer Gutschrift gewährt und auf das Guthaben des Kunden im Geschäft angewendet werden. Der Betrag des Speicherguthabens, der auf dem Konto des Kunden verfügbar ist, wird in der Konfiguration angegeben.
+Nachdem eine Bestellung bezahlt und fakturiert wurde, kann die Bestellung oder ein Teil davon zurückerstattet werden ([&#x200B; Gutschrift](../stores-purchase/credit-memo-create.md). Eine Gutschrift unterscheidet sich von einer Rückerstattung, da der Betrag der Gutschrift auf dem Konto des Kunden wiederhergestellt wird, wo er für zukünftige Käufe verwendet werden kann. Manchmal kann eine Rückerstattung gleichzeitig mit der Ausstellung einer Gutschrift gewährt und auf das Guthaben des Kunden im Geschäft angewendet werden. Der Betrag des Speicherguthabens, der auf dem Konto des Kunden verfügbar ist, wird in der Konfiguration angegeben.
 
 >[!NOTE]
 >

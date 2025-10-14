@@ -57,7 +57,7 @@ Um die Details eines synchronisierten Produkts anzuzeigen, klicken Sie in der Ta
 
 ### Katalogdaten neu synchronisieren
 
-Um sicherzustellen, dass Ihre Commerce SaaS-Services immer mit den neuesten Produktinformationen aktualisiert werden, sollten Sie [einen Zeitplan) ](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) Synchronisieren von Katalogdaten implementieren.
+Um sicherzustellen, dass Ihre Commerce SaaS-Services immer mit den neuesten Produktinformationen aktualisiert werden, sollten Sie [einen Zeitplan) &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) Synchronisieren von Katalogdaten implementieren.
 
 Sie können zwar [manuell initiieren](#manually-resync-catalog) eine Neusynchronisierung von Katalogdaten aus der Commerce-Datenbank mit SaaS-Services durchführen, dies wird jedoch nicht empfohlen, da dies die Belastung der Hardwareressourcen erhöhen kann. In den folgenden Szenarien kann es jedoch erforderlich sein, den Katalog manuell neu zu synchronisieren:
 

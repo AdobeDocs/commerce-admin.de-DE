@@ -21,13 +21,13 @@ Wenn Angebote in der Konfiguration [Verkaufsfunktionen](configure-quotes.md) akt
 
 ## Kundenerlebnis bei Angebotsanfrage
 
-1. Der Kunde meldet sich bei seinem Benutzerkonto als Käufer mit ([) ](account-company-roles-permissions.md), um ein Angebot anzufordern.
+1. Der Kunde meldet sich bei seinem Benutzerkonto als Käufer mit ([) &#x200B;](account-company-roles-permissions.md), um ein Angebot anzufordern.
 
 1. Fügt die Produkte, die im Angebot enthalten sein sollen, zum Warenkorb hinzu.
 
    >[!TIP]
    > 
-   >Kunden können eine Liste von Produkt-SKUs mithilfe von &quot;[&quot; schneller in den Warenkorb ](quick-order.md).
+   >Kunden können eine Liste von Produkt-SKUs mithilfe von &quot;[&quot; schneller in den Warenkorb &#x200B;](quick-order.md).
 
 1. Wählt **[!UICONTROL Request a Quote]** aus.
 

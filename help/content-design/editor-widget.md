@@ -56,7 +56,7 @@ Standardmäßig übernehmen Links ihren Stil vom Stylesheet des Designs.
 
 1. Klicken Sie auf **[!UICONTROL Insert Widget]** , um den Link auf der Seite zu platzieren.
 
-   Wenn Sie mit HTML-Code arbeiten[ wird ein (](../systems/markup-tags.md)) für den Link oben auf der Seite angezeigt, eingeschlossen in geschweifte Klammern. Verwenden Sie bei Bedarf _Ausschneiden und Einfügen_, um das Markup-Tag in dem Code zu positionieren, in dem der Link angezeigt werden soll.
+   Wenn Sie mit HTML-Code arbeiten[&#x200B; wird ein (](../systems/markup-tags.md)) für den Link oben auf der Seite angezeigt, eingeschlossen in geschweifte Klammern. Verwenden Sie bei Bedarf _Ausschneiden und Einfügen_, um das Markup-Tag in dem Code zu positionieren, in dem der Link angezeigt werden soll.
 
 1. Wenn Ihre Inhaltsbearbeitungen abgeschlossen sind, klicken Sie auf **[!UICONTROL Save]**.
 

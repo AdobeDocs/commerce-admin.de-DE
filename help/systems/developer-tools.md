@@ -27,7 +27,7 @@ Verwenden Sie die erweiterten Entwickler-Tools, um den Kompilierungsmodus währe
 
 Ihre Adobe Commerce- oder Magento Open Source-Instanz kann bereitgestellt werden, um entweder im _- oder_-_ausgeführt_. Auf die speziell für Entwickler entwickelten Tools und Konfigurationseinstellungen kann nur zugegriffen werden, während der Store im _Entwicklermodus_ ausgeführt wird.
 
-Der Betriebsmodus kann nur über die Befehlszeile des Servers von einem Benutzer mit entsprechenden Berechtigungen geändert werden. Weitere [ finden Sie unter „Festlegen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=de) Betriebsmodus“ _&quot;_&quot;.
+Der Betriebsmodus kann nur über die Befehlszeile des Servers von einem Benutzer mit entsprechenden Berechtigungen geändert werden. Weitere [&#x200B; finden Sie unter „Festlegen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=de) Betriebsmodus“ _&quot;_&quot;.
 
 Die meisten Themen in der Händlerdokumentation gelten für eine Commerce-Instanz, die im Produktionsmodus ausgeführt wird. Die folgenden Konfigurationseinstellungen und -tools können jedoch nur verwendet werden, wenn die Installation im Entwicklermodus ausgeführt wird.
 
@@ -38,7 +38,7 @@ Siehe [Client-seitige LESS-Kompilierung vs. Server-seitig](https://developer.ado
 
 >[!NOTE]
 >
->Die Konfiguration des Frontend-Entwicklungs-Workflows ist nur im [-Modus ](../systems/developer-tools.md#operation-modes).
+>Die Konfiguration des Frontend-Entwicklungs-Workflows ist nur im [-Modus &#x200B;](../systems/developer-tools.md#operation-modes).
 
 ![Erweiterte Konfiguration - Frontend-Entwicklungs-Workflow](../configuration-reference/advanced/assets/developer-frontend-development-workflow.png){width="600" zoomable="yes"}
 
@@ -63,7 +63,7 @@ Siehe [Statisches Inhaltssignieren](https://experienceleague.adobe.com/docs/comm
 
 >[!NOTE]
 >
->Die Konfiguration Statischer Dateieinstellungen ist nur im [Entwicklermodus“ ](../systems/developer-tools.md#operation-modes).
+>Die Konfiguration Statischer Dateieinstellungen ist nur im [Entwicklermodus“ &#x200B;](../systems/developer-tools.md#operation-modes).
 
 ![Erweiterte Konfiguration - Einstellungen für statische Dateien](../configuration-reference/advanced/assets/developer-static-files-settings.png){width="600" zoomable="yes"}
 
@@ -91,7 +91,7 @@ Der Zeitaufwand für das Laden von Ressourcendateien kann durch das Zusammenfüh
 
 Standardmäßig führen Adobe Commerce und Magento Open Source keine Dateien zusammen, bündeln oder minimieren sie nicht. Der Projektentwickler sollte festlegen, welche Dateioptimierungsmethoden verwendet werden sollen.
 
-Weitere Informationen finden [ unter ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=de) Practices für die Leistung .
+Weitere Informationen finden [&#x200B; unter &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=de) Practices für die Leistung .
 
 >[!NOTE]
 >

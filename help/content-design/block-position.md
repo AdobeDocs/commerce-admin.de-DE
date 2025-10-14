@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Positionieren von Inhaltsblöcken
 
-Der Code, der das Seitenlayout und die Platzierung von Blöcken steuert, wird in XML ([) ](widgets.md). Diese Widgets erleichtern die Positionierung eines Blocks an einer bestimmten Stelle auf der Seite und sogar für ein bestimmtes Produkt oder eine bestimmte Kategorie, ohne Code zu schreiben. Sie können jede Option aus einer Liste auswählen, anstatt sich alle möglichen Kombinationen zu merken.
+Der Code, der das Seitenlayout und die Platzierung von Blöcken steuert, wird in XML ([) &#x200B;](widgets.md). Diese Widgets erleichtern die Positionierung eines Blocks an einer bestimmten Stelle auf der Seite und sogar für ein bestimmtes Produkt oder eine bestimmte Kategorie, ohne Code zu schreiben. Sie können jede Option aus einer Liste auswählen, anstatt sich alle möglichen Kombinationen zu merken.
 
 In der folgenden Liste werden die Speicherorte nach Seitentyp beschrieben, an denen Blöcke normalerweise platziert werden. Weitere Informationen zur Definition von Bereichen auf der Seite finden Sie unter [Standard-Seiten-Layouts](page-layout.md#standard-page-layouts).
 

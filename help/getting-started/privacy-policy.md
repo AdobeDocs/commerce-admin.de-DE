@@ -44,7 +44,7 @@ Jede Darstellung von Informationen, die es ermöglicht, die Identität einer Per
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Content]** und nehmen Sie die erforderlichen Änderungen am Inhalt vor.
 
-   Weitere Informationen zur Verwendung der Tools für Seiteninhalte finden Sie unter [Vervollständigen des ](../content-design/page-add.md#step-2-complete-the-content) im _Content and Design Guide_.
+   Weitere Informationen zur Verwendung der Tools für Seiteninhalte finden Sie unter [Vervollständigen des &#x200B;](../content-design/page-add.md#step-2-complete-the-content) im _Content and Design Guide_.
 
    ![Datenschutzseite - Inhalt bearbeiten](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 

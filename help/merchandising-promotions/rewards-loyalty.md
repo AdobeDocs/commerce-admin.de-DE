@@ -18,7 +18,7 @@ Das _Belohnungspunktesystem_ in Adobe Commerce bietet Ihnen die Möglichkeit, ei
 
 ## Preisregeln für Warenkorb
 
-Punkte können Kunden auf der Grundlage einer [Warenkorbregel“ belohnt ](price-rules-cart.md). Sie können als einzige Aktion der Preisregel oder zusammen mit einem Rabatt belohnt werden.
+Punkte können Kunden auf der Grundlage einer [Warenkorbregel“ belohnt &#x200B;](price-rules-cart.md). Sie können als einzige Aktion der Preisregel oder zusammen mit einem Rabatt belohnt werden.
 
 ## Kundensaldo
 
@@ -38,7 +38,7 @@ Punkte können von Admin-Benutzern und -Kunden (falls aktiviert) während des Ch
 
 ## Rückerstattung an Prämienpunkte
 
-Bestellungen, die mit Prämienpunkten getätigt werden, können bis zu dem Betrag, der in der Bestellung eingelöst wurde, an die Prämienpunkte zurückerstattet werden. Auf der [_Neue Gutschrift_ ](../stores-purchase/credit-memo-create.md) kann die Anzahl der Punkte eingegeben werden, die auf den Saldo des Kunden angewendet werden sollen. Standardmäßig enthält das Feld die vollständige Anzahl der Punkte, die in der Reihenfolge verwendet wurden.
+Bestellungen, die mit Prämienpunkten getätigt werden, können bis zu dem Betrag, der in der Bestellung eingelöst wurde, an die Prämienpunkte zurückerstattet werden. Auf der [_Neue Gutschrift_ &#x200B;](../stores-purchase/credit-memo-create.md) kann die Anzahl der Punkte eingegeben werden, die auf den Saldo des Kunden angewendet werden sollen. Standardmäßig enthält das Feld die vollständige Anzahl der Punkte, die in der Reihenfolge verwendet wurden.
 
 ## Belohnungspunkte-Vorgänge für Ihren Store aktivieren
 

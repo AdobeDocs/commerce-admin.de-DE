@@ -87,7 +87,7 @@ DHL bietet integrierte internationale Dienstleistungen und maßgeschneiderte, ku
 
    Zur Auswahl mehrerer Methoden halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Optionen.
 
-   Um die richtige Liste der Versandmethoden anzuzeigen, müssen Sie zunächst das [Ursprungsland“ ](../configuration-reference/sales/shipping-settings.md).
+   Um die richtige Liste der Versandmethoden anzuzeigen, müssen Sie zunächst das [Ursprungsland“ &#x200B;](../configuration-reference/sales/shipping-settings.md).
 
 1. Geben Sie **[!UICONTROL Ready Time]** die Anzahl der Stunden nach dem Einreichen einer Bestellung ein, zu der ein Paket versandbereit ist.
 

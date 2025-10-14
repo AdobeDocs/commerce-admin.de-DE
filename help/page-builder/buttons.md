@@ -59,7 +59,7 @@ Wenn Sie mit dem Inhaltstyp Schaltflächen arbeiten, fügen Sie einzelne Schaltf
 
    ![Eine Schaltfläche auf die Bühne ziehen](./assets/pb-elements-button-drag.png){width="500" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über die Schaltfläche, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ (](./assets/pb-icon-settings.png)) aus.
+1. Bewegen Sie den Mauszeiger über die Schaltfläche, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; (](./assets/pb-icon-settings.png)) aus.
 
 1. Geben Sie die **[!UICONTROL Button Text]** ein, die auf der Schaltfläche angezeigt werden soll.
 
@@ -117,13 +117,13 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
 ### Schritt 1: Zweite Schaltfläche erstellen
 
-1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Hinzufügen![ ((Symbol hinzufügen](./assets/pb-icon-add-button.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Hinzufügen![&#x200B; ((Symbol hinzufügen](./assets/pb-icon-add-button.png){width="20"} ) aus.
 
    ![Eine weitere Schaltfläche hinzufügen](./assets/pb-elements-buttons-toolbox-add.png){width="500" zoomable="yes"}
 
 1. Geben Sie den Text ein, der auf der zweiten Schaltfläche angezeigt werden soll.
 
-1. Klicken Sie auf die Schaltfläche „Neu“, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ((](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Klicken Sie auf die Schaltfläche „Neu“, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ((](./assets/pb-icon-settings.png){width="20"}) aus.
 
    ![Bearbeiten der Schaltfläche](./assets/pb-elements-button-set-edit-button2-toolbox.png){width="500" zoomable="yes"}
 
@@ -157,7 +157,7 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
 ### Schritt 3: Button-Container aktualisieren
 
-1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
    ![Schaltflächen-Container-Toolbox](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
@@ -185,7 +185,7 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
 ## Ändern der Einstellungen für eine Schaltfläche
 
-1. Klicken Sie auf die Schaltfläche auf der Bühne, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( ](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Klicken Sie auf die Schaltfläche auf der Bühne, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( &#x200B;](./assets/pb-icon-settings.png){width="20"} ) aus.
 
    ![Schaltflächen-Toolboxes](./assets/pb-elements-button-toolboxes.png){width="500" zoomable="yes"}
 
@@ -220,7 +220,7 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
 ## Ändern der Einstellungen für einen Schaltflächen-Container
 
-1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Aktualisieren Sie die **[!UICONTROL Appearance]** nach Bedarf.
 

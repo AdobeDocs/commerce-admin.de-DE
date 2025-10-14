@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Konfigurieren [!DNL Inventory Management] globalen Optionen
 
-Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und Lager für Ihre Websites. Einige dieser Einstellungen können pro Produkt über „Konfigurieren von [&quot; überschrieben ](product-options.md). Informationen zum Konfigurieren der Distanzprioritätseinstellungen finden Sie [Konfigurieren des Distanzprioritätsalgorithmus](distance-priority-algorithm.md).
+Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und Lager für Ihre Websites. Einige dieser Einstellungen können pro Produkt über „Konfigurieren von [&quot; überschrieben &#x200B;](product-options.md). Informationen zum Konfigurieren der Distanzprioritätseinstellungen finden Sie [Konfigurieren des Distanzprioritätsalgorithmus](distance-priority-algorithm.md).
 
 ## Globale Konfiguration von Produkt- und Lageroptionen
 
@@ -82,7 +82,7 @@ Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und
 
    - **[!UICONTROL Run asynchronously]** für die asynchrone Ausführung von Massenvorgängen für Massenproduktaktionen
 
-     Zu diesen Vorgängen gehören [ „Zuordnung und Aufhebung der Zuweisung von ](bulk-assignment.md)&quot; und [Übertragung von Inventar zur Quelle](inventory-transfer.md). Sie erfasst Massenaktionen bis zur asynchronen Batch-Größe und führt diese Aktionen aus. Diese Option ist standardmäßig deaktiviert. Es wird empfohlen, vor der Aktivierung Ihre Leistung mit Massenaktionen zu überprüfen.
+     Zu diesen Vorgängen gehören [&#x200B; „Zuordnung und Aufhebung der Zuweisung von &#x200B;](bulk-assignment.md)&quot; und [Übertragung von Inventar zur Quelle](inventory-transfer.md). Sie erfasst Massenaktionen bis zur asynchronen Batch-Größe und führt diese Aktionen aus. Diese Option ist standardmäßig deaktiviert. Es wird empfohlen, vor der Aktivierung Ihre Leistung mit Massenaktionen zu überprüfen.
 
      >[!NOTE]
      >

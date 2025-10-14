@@ -68,7 +68,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
 
    ![Ziehen eines HTML-Code-Platzhalters auf das Stadium](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Fügen Sie den von Ihnen vorbereiteten Einbettungs-Google-Schriftarten-Code und die Stildeklarationen in das Textfeld ein.
 
@@ -76,7 +76,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
 
    ![HTML-Code und -Stile](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. Aktualisieren Sie die verbleibenden Einstellungen nach Bedarf (weitere Informationen finden [ unter „Ändern ](#html-settings) HTML-Codeeinstellungen„).
+1. Aktualisieren Sie die verbleibenden Einstellungen nach Bedarf (weitere Informationen finden [&#x200B; unter „Ändern &#x200B;](#html-settings) HTML-Codeeinstellungen„).
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
@@ -96,7 +96,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
 
 ## Ändern der HTML-Code-Einstellungen {#html-settings}
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( ](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( &#x200B;](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Bearbeiten Sie den Code im Textfeld nach Bedarf.
 

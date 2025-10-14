@@ -43,7 +43,7 @@ Gutschriften werden sowohl für Online- als auch für Offline-Rückerstattungen 
    - **Verarbeitung** - Die Transaktion war erfolgreich.
    - **Zahlung ausstehend** - Das System hat keine Antwort von PayPal erhalten.
    - **Abgebrochen** - Die Transaktion war aus irgendeinem Grund nicht erfolgreich.
-   - **Betrugsverdacht** - Bei der Transaktion wurden einige der „PayPal[Betrugsfilter“ ](paypal.md#paypal-fraud-management-filters). Das System erhält die Antwort von PayPal, dass die Transaktion von Fraud Service überprüft wird.
+   - **Betrugsverdacht** - Bei der Transaktion wurden einige der „PayPal[Betrugsfilter“ &#x200B;](paypal.md#paypal-fraud-management-filters). Das System erhält die Antwort von PayPal, dass die Transaktion von Fraud Service überprüft wird.
    - **Zahlung abbrechen:** Wenn der Kunde auf den Link _Zahlung abbrechen_ klickt, kehrt der Kunde zum Schritt „Zahlungsinformationen“ des Checkouts zurück und der Bestellstatus ändert sich in _Abgebrochen_.
 1. **Kunde wird zur Bestätigungsseite weitergeleitet** - Wenn die Transaktion erfolgreich abgeschlossen wurde, wird der Kunde zur Bestellbestätigungsseite in Ihrem Geschäft weitergeleitet. Wenn die Transaktion aus irgendeinem Grund fehlschlägt, wird auf der Kaufbestätigungsseite eine Fehlermeldung angezeigt und der Kunde wird aufgefordert, den Kaufvorgang zu wiederholen. Diese Situationen werden von PayPal verwaltet.
 1. **Händler erfüllt Bestellung** - Der Händler stellt Rechnungen aus und versendet die Bestellung wie gewohnt.

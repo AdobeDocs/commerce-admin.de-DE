@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Besucher Ihres Geschäfts können ein Konto eröffnen, um ihre Käufe und Aktivitäten zu verwalten. Kunden erstellen in der Regel ihre eigenen Konten in Ihrem Geschäft. Sie können jedoch auch Kundenkonten direkt von der Administratorin bzw. dem Administrator erstellen. Dies ist nützlich, um Kunden telefonisch zu helfen.
 
-Die folgenden Anweisungen stellen die standardmäßige Kundenkontenkonfiguration dar. Informationen zum Ändern der Auswahl und des Verhaltens einiger Felder im Formular finden Sie unter [ von Kundenkonten](../customers/customer-account-scope.md).
+Die folgenden Anweisungen stellen die standardmäßige Kundenkontenkonfiguration dar. Informationen zum Ändern der Auswahl und des Verhaltens einiger Felder im Formular finden Sie unter [&#x200B; von Kundenkonten](../customers/customer-account-scope.md).
 
 Als Store-Administrator können Sie auch die [Optionen für neue Konten](../customers/account-options-new.md) festlegen, um eine Bestätigungs-E-Mail an neue registrierte Kunden zu senden, wodurch sichergestellt wird, dass registrierte Konten gültig sind.
 
@@ -67,7 +67,7 @@ Ein Store-Kunde erstellt ein Konto in der Storefront.
 
 1. Klicken Sie abschließend auf **Konto erstellen**.
 
-Der Kunde kann dann seine E-Mail-Adresse und sein Passwort verwenden[ um sich bei ](../customers/customer-sign-in.md) Konto anzumelden und die Adressinformationen auszufüllen.
+Der Kunde kann dann seine E-Mail-Adresse und sein Passwort verwenden[&#x200B; um sich bei &#x200B;](../customers/customer-sign-in.md) Konto anzumelden und die Adressinformationen auszufüllen.
 
 ## Erstellen eines Kontos über den Administrator
 
@@ -189,11 +189,11 @@ Zusätzliche Schaltflächen werden verfügbar, wenn das Profil zum ersten Mal ge
 |--- |--- |
 | **[!UICONTROL Associate to Website]** | Identifiziert die mit dem Kundenkonto verknüpfte Website. |
 | **[!UICONTROL Group]** | Gibt die [Kundengruppe“ an](../customers/customer-groups.md) bei der der Kunde Mitglied ist. Aktivieren Sie bei Bedarf das Kontrollkästchen, um die automatische Gruppenänderung auf Grundlage der MwSt. zu deaktivieren. |
-| **[!UICONTROL Name Prefix]** | Falls verwendet, das Präfix, das dem Namen des Kunden zugeordnet ist (z. B. Herr, Frau oder Dr.). Die Präfixwerte werden durch die [Konfiguration“ ](../configuration-reference/customers/customer-configuration.md). Je nach Konfiguration kann das Eingabesteuerelement ein Textfeld oder eine Liste von Optionen sein. |
+| **[!UICONTROL Name Prefix]** | Falls verwendet, das Präfix, das dem Namen des Kunden zugeordnet ist (z. B. Herr, Frau oder Dr.). Die Präfixwerte werden durch die [Konfiguration“ &#x200B;](../configuration-reference/customers/customer-configuration.md). Je nach Konfiguration kann das Eingabesteuerelement ein Textfeld oder eine Liste von Optionen sein. |
 | **[!UICONTROL First Name]** | Der Vorname des Kunden. |
 | **[!UICONTROL Middle Name / Initial]** | Der zweite Vorname oder Initial des Kunden. Dieses Feld ist nur enthalten, wenn es im Thema [Konfiguration](../configuration-reference/customers/customer-configuration.md) angegeben ist. |
 | **[!UICONTROL Last Name]** | Der Nachname des Kunden. |
-| **[!UICONTROL Name Suffix]** | Falls verwendet, das Suffix, das dem Namen des Kunden zugeordnet ist (z. B. Jr., Sr. oder III). Die Suffix-Werte werden durch die [Konfiguration“ ](../configuration-reference/customers/customer-configuration.md). Je nach Konfiguration kann das Eingabesteuerelement ein Textfeld oder eine Dropdown-Liste von Optionen sein. |
+| **[!UICONTROL Name Suffix]** | Falls verwendet, das Suffix, das dem Namen des Kunden zugeordnet ist (z. B. Jr., Sr. oder III). Die Suffix-Werte werden durch die [Konfiguration“ &#x200B;](../configuration-reference/customers/customer-configuration.md). Je nach Konfiguration kann das Eingabesteuerelement ein Textfeld oder eine Dropdown-Liste von Optionen sein. |
 | **[!UICONTROL Email]** | Die E-Mail-Adresse des Kunden. |
 | **[!UICONTROL Date of Birth]** | Das Geburtsdatum des Kunden. Das Geburtsdatum ist enthalten, wenn es im Thema [Konfiguration](../configuration-reference/customers/customer-configuration.md) angegeben ist. <br><br>Halten Sie sich im Einklang mit den aktuellen Best Practices für Sicherheit und Datenschutz über mögliche rechtliche und Sicherheitsrisiken im Zusammenhang mit der Speicherung des vollständigen Geburtsdatums der Kundinnen und Kunden (Monat, Tag, Jahr) mit anderen persönlichen Kennungen im Klaren. Es wird empfohlen, die Speicherung der vollständigen Geburtsdaten von Kundinnen und Kunden zu begrenzen und alternativ ein Kundenjahr zu verwenden. |
 | **[!UICONTROL Tax / VAT Number]** | Die Steuer- oder Umsatzsteuer-Nummer des Kunden, falls zutreffend. |

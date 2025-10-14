@@ -34,7 +34,7 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
 >[!NOTE]
 >
->Wenn eine Kampagne mit mehr als einer Warenkorb-Preisregel verknüpft ist, kann die Kampagne nur über das [Inhalts-Staging-Dashboard“ bearbeitet ](../content-design/content-staging-dashboard.md).
+>Wenn eine Kampagne mit mehr als einer Warenkorb-Preisregel verknüpft ist, kann die Kampagne nur über das [Inhalts-Staging-Dashboard“ bearbeitet &#x200B;](../content-design/content-staging-dashboard.md).
 
 Beachten Sie die folgenden Einschränkungen:
 

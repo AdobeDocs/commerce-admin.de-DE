@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Konfigurieren der Admin-Sicherheit
 
-Wir empfehlen Ihnen, einen vielseitigen Ansatz zu wählen, um die Sicherheit Ihres Geschäfts zu schützen. Sie können mit einer [benutzerdefinierten Admin-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) beginnen, die nicht einfach zu erraten ist, anstatt mit dem offensichtlichen „Admin“ oder „Backend“. Standardmäßig müssen Kennwörter, die für die [ beim ](../getting-started/admin-signin.md) verwendet werden, mindestens sieben Zeichen lang sein und sowohl Buchstaben als auch Zahlen enthalten. Verwenden [ als Best ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=de) nur sichere Administratorkennwörter, die aus einer Kombination aus Buchstaben, Zahlen und Symbolen bestehen. Adobe Commerce und Magento Open Source erlauben nicht die Wiederverwendung der letzten vier dem Konto zugewiesenen Kennwörter.
+Wir empfehlen Ihnen, einen vielseitigen Ansatz zu wählen, um die Sicherheit Ihres Geschäfts zu schützen. Sie können mit einer [benutzerdefinierten Admin-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) beginnen, die nicht einfach zu erraten ist, anstatt mit dem offensichtlichen „Admin“ oder „Backend“. Standardmäßig müssen Kennwörter, die für die [&#x200B; beim &#x200B;](../getting-started/admin-signin.md) verwendet werden, mindestens sieben Zeichen lang sein und sowohl Buchstaben als auch Zahlen enthalten. Verwenden [&#x200B; als Best &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=de) nur sichere Administratorkennwörter, die aus einer Kombination aus Buchstaben, Zahlen und Symbolen bestehen. Adobe Commerce und Magento Open Source erlauben nicht die Wiederverwendung der letzten vier dem Konto zugewiesenen Kennwörter.
 
 Die Admin-Sicherheitskonfiguration bietet folgende Möglichkeiten:
 
@@ -26,7 +26,7 @@ Die Admin-Sicherheitskonfiguration bietet folgende Möglichkeiten:
 
 Um die Sicherheit zu erhöhen, können Sie die Dauer der Tastaturinaktivität konfigurieren, bevor die aktuelle Sitzung abläuft, und dabei die Groß-/Kleinschreibung bei Benutzernamen und Kennwort berücksichtigen.
 
-Zusätzlich zu den Sicherheitseinstellungen in diesem Abschnitt ist eine [Zwei-Faktor-Authentifizierung](security-two-factor-authentication.md) (2FA) erforderlich, um die Identität von Benutzern mit einem einmaligen Kennwort zu überprüfen, das von einer App oder einem Gerät generiert wird. Beim ersten Anmelden beim Administrator werden Sie aufgefordert, 2FA einzurichten. Zur zusätzlichen Sicherheit kann die Admin-Anmeldung auch so konfiguriert werden, dass ein [CAPTCHA“ erforderlich ](security-captcha.md).
+Zusätzlich zu den Sicherheitseinstellungen in diesem Abschnitt ist eine [Zwei-Faktor-Authentifizierung](security-two-factor-authentication.md) (2FA) erforderlich, um die Identität von Benutzern mit einem einmaligen Kennwort zu überprüfen, das von einer App oder einem Gerät generiert wird. Beim ersten Anmelden beim Administrator werden Sie aufgefordert, 2FA einzurichten. Zur zusätzlichen Sicherheit kann die Admin-Anmeldung auch so konfiguriert werden, dass ein [CAPTCHA“ erforderlich &#x200B;](security-captcha.md).
 
 >[!NOTE]
 >

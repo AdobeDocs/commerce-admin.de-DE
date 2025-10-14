@@ -66,7 +66,7 @@ Wie bei allen Inhalts-Containern wird die Toolbox angezeigt, wenn Sie den Mausze
 
 ## Header-Einstellungen bearbeiten
 
-1. Bewegen Sie den Mauszeiger über den Überschriften-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den Überschriften-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( (](./assets/pb-icon-settings.png){width="20"}) aus.
 
    ![Überschriften-Toolbox](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
 
@@ -141,7 +141,7 @@ Bei einer formatierten Überschrift mit bestimmten Einstellungen ist es effizien
 
    ![Duplizieren eines Überschriften-Containers](./assets/pb-elements-heading-duplicate.png){width="500" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den neuen Überschriften-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Verschieben![ ((Symbol ](./assets/pb-icon-move.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den neuen Überschriften-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Verschieben![&#x200B; ((Symbol &#x200B;](./assets/pb-icon-move.png){width="20"} ) aus.
 
    ![Verschieben einer Überschrift](./assets/pb-elements-heading-move.png){width="500" zoomable="yes"}
 

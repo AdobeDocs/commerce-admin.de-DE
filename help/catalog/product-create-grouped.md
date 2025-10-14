@@ -95,7 +95,7 @@ Um dem Produkt ein vorhandenes Attribut hinzuzufügen, verwenden Sie die [Filter
 
 1. Akzeptieren Sie die **[!UICONTROL Visibility]** von `Catalog, Search`.
 
-1. Um das Produkt in der [Liste neuer Produkte“ ](../content-design/widget-new-products-list.md), wählen Sie die **[!UICONTROL Set Product as New]** **[!UICONTROL from]** und **[!UICONTROL to]** im Kalender aus.
+1. Um das Produkt in der [Liste neuer Produkte“ &#x200B;](../content-design/widget-new-products-list.md), wählen Sie die **[!UICONTROL Set Product as New]** **[!UICONTROL from]** und **[!UICONTROL to]** im Kalender aus.
 
 1. Wählen Sie die **[!UICONTROL Country of Manufacture]** aus.
 

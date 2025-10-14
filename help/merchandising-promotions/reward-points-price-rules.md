@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Prämienpunkte können Kunden gemäß einer [Warenkorbpreisregel) ](price-rules-cart.md). Die Vergabe von Punkten kann die einzige Aktion der Preisregel sein oder mit einem Rabatt verwendet werden.
+Prämienpunkte können Kunden gemäß einer [Warenkorbpreisregel) &#x200B;](price-rules-cart.md). Die Vergabe von Punkten kann die einzige Aktion der Preisregel sein oder mit einem Rabatt verwendet werden.
 
 >[!NOTE]
 >
@@ -30,6 +30,6 @@ Prämienpunkte können Kunden gemäß einer [Warenkorbpreisregel) ](price-rules-
 
    ![Warenkorb-Preisregel - Prämienpunkte](./assets/reward-points-price-rule-actions.png){width="600" zoomable="yes"}
 
-1. Befolgen Sie die Standardanweisungen, um die [Warenkorbpreisregel“ ](price-rules-cart-create.md).
+1. Befolgen Sie die Standardanweisungen, um die [Warenkorbpreisregel“ &#x200B;](price-rules-cart-create.md).
 
    Wenn die Preisregel aktiviert ist, wird im Warenkorb eine Meldung angezeigt, die den Kunden mitteilt, wie viele Punkte sie durch die Bestellung verdienen können. Dies gilt nur für registrierte Benutzer und kann sich ändern, wenn ein Benutzer angemeldet ist.

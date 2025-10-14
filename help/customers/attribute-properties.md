@@ -91,7 +91,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
 
    - Um das Raster Kunden nach diesem Attribut zu durchsuchen, setzen Sie **[!UICONTROL Use in Search Options]** auf `Yes`.
 
-   - Um dieses Attribut für „Kundensegmente[ verfügbar zu machen, ](customer-segments.md) Sie **[!UICONTROL Use in Customer Segment]** auf `Yes`.
+   - Um dieses Attribut für „Kundensegmente[&#x200B; verfügbar zu machen, &#x200B;](customer-segments.md) Sie **[!UICONTROL Use in Customer Segment]** auf `Yes`.
 
 ## Schritt 2: Vervollständigen Sie die Eigenschaften der Storefront
 
@@ -113,7 +113,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
 
 1. Wählen Sie im linken Bedienfeld **[!UICONTROL Manage Labels/Options]** aus.
 
-1. Geben Sie unter **[!UICONTROL Manage Titles]** einen Titel ein, um das Attribut für jede [Store-Ansicht“ ](../getting-started/websites-stores-views.md).
+1. Geben Sie unter **[!UICONTROL Manage Titles]** einen Titel ein, um das Attribut für jede [Store-Ansicht“ &#x200B;](../getting-started/websites-stores-views.md).
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Attribute]**.
 
@@ -156,7 +156,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
 | `store_id` | Die Store-ID der Site, auf der das Kundenkonto erstellt wurde. |
 | `created_in` | Die Store-Ansicht, in der das Konto erstellt wurde. |
 | `group_id` | Die ID der Kundengruppe, der der Kunde zugewiesen ist. |
-| `disable_auto_group_change` | Legt fest, ob Kundengruppen bei der Validierung der [-ID dynamisch zugewiesen ](../stores-purchase/vat.md#configure-vat-id-validation) können. |
+| `disable_auto_group_change` | Legt fest, ob Kundengruppen bei der Validierung der [-ID dynamisch zugewiesen &#x200B;](../stores-purchase/vat.md#configure-vat-id-validation) können. |
 | `prefix` | Jedes Präfix, das mit dem Kundennamen verwendet wird (z. B. Herr, Frau oder Dr.). |
 | `firstname` | Der Vorname des Kunden. |
 | `middlename` | Der zweite Vorname oder zweite Vorname des Kunden. |

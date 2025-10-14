@@ -18,7 +18,7 @@ Wenn Ihr Unternehmen wächst und sich ändert, unterstützt [!DNL Inventory Mana
 
 Händler aus einer Hand können neue Stores, Warehouses, Drop-Shipper und mehr hinzufügen. Für die Erweiterung auf Multi-Sourcing sind nur wenige Ergänzungen und Stock-Updates erforderlich:
 
-1. Fügen Sie [ neuen Speicherort ](sources-add.md)benutzerdefinierte Quellen“ hinzu.
+1. Fügen Sie [&#x200B; neuen Speicherort &#x200B;](sources-add.md)benutzerdefinierte Quellen“ hinzu.
 
    Sie verwenden nur die standardmäßige Source für Bundle-Produkte.
 
@@ -40,4 +40,4 @@ Händler, die aus mehreren Quellen stammen und ihre Online-Verkäufe für den Ve
 
    Es wird empfohlen, Massenaktionen zu verwenden. Siehe [Lagertransfer zu Source](inventory-transfer.md).
 
-1. Weisen Sie alle Websites dem [Standardlager“ ](stocks-manage.md).
+1. Weisen Sie alle Websites dem [Standardlager“ &#x200B;](stocks-manage.md).

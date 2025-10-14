@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Angebot aushandeln
 
-Wenn [B2B-Angebote aktiviert ](configure-quotes.md), kann die Preisaushandlung in der Konfiguration von einem autorisierten Käufer von einem Unternehmen oder einem Vertriebsmitarbeiter initiiert werden.
+Wenn [B2B-Angebote aktiviert &#x200B;](configure-quotes.md), kann die Preisaushandlung in der Konfiguration von einem autorisierten Käufer von einem Unternehmen oder einem Vertriebsmitarbeiter initiiert werden.
 
-Käufer starten den Preisaushandlungsprozess, indem sie [ein Angebot anfordern](quote-request.md) aus dem Warenkorb starten. Vertriebsmitarbeiter können die Verhandlung starten[ indem sie einen Angebotsentwurf für einen Einkäufer erstellen](sales-rep-initiates-quote.md) das Angebot mit den ursprünglichen Bestellartikeln und Preisen aktualisieren und es an den Einkäufer senden.
+Käufer starten den Preisaushandlungsprozess, indem sie [ein Angebot anfordern](quote-request.md) aus dem Warenkorb starten. Vertriebsmitarbeiter können die Verhandlung starten[&#x200B; indem sie einen Angebotsentwurf für einen Einkäufer erstellen](sales-rep-initiates-quote.md) das Angebot mit den ursprünglichen Bestellartikeln und Preisen aktualisieren und es an den Einkäufer senden.
 
 Wenn die Preisaushandlung beginnt, werden die Kursofferten im Raster [Kursofferten](quotes.md) aufgeführt. Alle Verhandlungen zwischen dem Käufer und Verkäufer finden per E-Mail statt und werden von der Detailansicht des Angebots initiiert und verfolgt.
 
@@ -178,7 +178,7 @@ Zitatinformationen und Funktionen im Admin-Bereich sind in die folgenden Abschni
 
 | Feld | Beschreibung |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Name] | Der Name, der einer Angebotsanfrage vom [ zugewiesen ](account-company-roles-permissions.md). |
+| [!UICONTROL Name] | Der Name, der einer Angebotsanfrage vom [&#x200B; zugewiesen &#x200B;](account-company-roles-permissions.md). |
 | [!UICONTROL Status] | Gibt den aktuellen Status des Angebots an. Der Status eines Angebots kann nur durch eine Handlung des Käufers oder Verkäufers geändert werden. Siehe auch [Statuseinstellungen](quotes.md) im Admin- und [Käuferkonto](account-dashboard-my-quotes.md). |
 | [!UICONTROL Created] | Das Datum und die Uhrzeit, zu der der Käufer die Angebotsanforderung zum ersten Mal gesendet hat. |
 | [!UICONTROL Created By] | Der Vor- und Nachname des Firmenkäufers, der die Angebotsanfrage gestellt hat. |
@@ -248,7 +248,7 @@ Zitatinformationen und Funktionen im Admin-Bereich sind in die folgenden Abschni
 | ausgehandelter Preis | Der Rabatt, der dem Käufer angeboten wird, kann auf einem der folgenden Kriterien basieren: <br/>**[!UICONTROL Percentage Discount]**- Der Rabatt als Prozentsatz.<br/>**[!UICONTROL Amount Discount]** - Der Rabatt als fester Betrag. <br/>**[!UICONTROL Proposed Price]**- Der vom Verkäufer vorgeschlagene Preis.<p>Wenn alle Artikel im Angebot einen gesperrten Artikelrabatt haben, wird der [!UICONTROL Negotiated Price] Abschnitt deaktiviert, da kein weiterer Rabatt angewendet werden kann.</p><p>Wenn ein Produkt einen nicht gesperrten Positionsrabatt hat, werden sowohl der Positionsrabatt als auch der Rabatt auf Angebotsebene auf den Produktpreis angewendet.</p> |
 | [!UICONTROL Quote Subtotal (Incl./Excl. Tax)] | Der vorgeschlagene Gesamtpreis für jeden Einzelposten im Angebot, entweder mit oder ohne Steuer, je nach den Einstellungen [Steuerberechnung](../configuration-reference/sales/tax.md) in der Konfiguration. |
 | [!UICONTROL Shipping & Handling] | Der vom Verkäufer im Feld Vorgeschlagener Versandpreis im Abschnitt Lieferinformationen des Angebots eingegebene Betrag. Wenn dieses Feld leer ist, basiert der Betrag auf der ausgewählten Versandmethode. |
-| [!UICONTROL Estimated Tax] | Der geschätzte fällige Steuerbetrag, wie in der Konfiguration (Anzeigeeinstellungen[ angegeben](../configuration-reference/sales/tax.md). |
+| [!UICONTROL Estimated Tax] | Der geschätzte fällige Steuerbetrag, wie in der Konfiguration (Anzeigeeinstellungen[&#x200B; angegeben](../configuration-reference/sales/tax.md). |
 | [!UICONTROL Quote Grand Total (Incl. Tax)] | Die endgültige Summe am Ende des Angebots, die den ausgehandelten Preis, die geschätzte Steuer und den vorgeschlagenen Versand und die Handhabung enthält. |
 
 {style="table-layout:auto"}

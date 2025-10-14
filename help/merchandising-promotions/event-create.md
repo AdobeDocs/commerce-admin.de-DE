@@ -90,7 +90,7 @@ Ereignisse können entweder über die Seite Ereignisse oder über die Kategorie 
 | [!UICONTROL Category] | Global | Beim Erstellen eines Ereignisses wird dieses Feld mit der Kategoriestruktur verknüpft. Beim Bearbeiten eines Ereignisses wird eine Verknüpfung mit der Kategorieseite erstellt, die sich auf das Ereignis bezieht. |
 | [!UICONTROL Start Date] | Global | Das Startdatum und die Startzeit des Ereignisses im `MMDDYYYY HH;MM`. Klicken Sie auf das Kalendersymbol, um das Datum auszuwählen. |
 | [!DNL End Date] | Global | Das Enddatum und die Endzeit des Ereignisses `MMDDYYYY HH;MM` Format. Klicken Sie auf das Kalendersymbol, um das Datum auszuwählen. |
-| [!UICONTROL Image] | Shop-Ansicht | Lädt ein Bild hoch, das im [Widget Katalogereignisse - Karussell“ angezeigt ](../content-design/widget-event-carousel.md). |
+| [!UICONTROL Image] | Shop-Ansicht | Lädt ein Bild hoch, das im [Widget Katalogereignisse - Karussell“ angezeigt &#x200B;](../content-design/widget-event-carousel.md). |
 | [!UICONTROL Sort Order] | Global | Bestimmt die Reihenfolge, in der dieses Ereignis angezeigt wird, wenn es mit anderen Ereignissen aufgelistet wird. |
 | [!UICONTROL Display Countdown Ticker On] | Global | Zeigt den Countdown-Ticker in der Kopfzeile jeder angegebenen Seite an. Optionen: `Category Page` / `Product Page` |
 | [!UICONTROL Status] | Global | Gibt den Status des Ereignisses basierend auf dem Start- und Enddatumsbereich an. Status ist ein schreibgeschützter Wert. Werte: `Open` / `Closed` / `Upcoming` |

@@ -32,7 +32,7 @@ Wenn die Bildoptimierungsfunktion der Mediensammlung aktiviert ist, wird automat
 
 Wenn die Werte _Maximale Breite_ und _Maximale Höhe_ in der Konfiguration geändert werden, werden alle vorhandenen optimierten Bilder aktualisiert, die zuvor eingefügt wurden.
 
-Für die Bildoptimierung der Mediensammlung ist es erforderlich, dass die Verbraucher der `media.gallery.renditions.update`-Warteschlange ausgeführt werden, um optimierte Bilder neu zu generieren, wenn die Konfiguration geändert wird. Weitere [ finden Sie unter „Verwalten ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=de) Nachrichtenwarteschlangen _im_ Konfigurationshandbuch“.
+Für die Bildoptimierung der Mediensammlung ist es erforderlich, dass die Verbraucher der `media.gallery.renditions.update`-Warteschlange ausgeführt werden, um optimierte Bilder neu zu generieren, wenn die Konfiguration geändert wird. Weitere [&#x200B; finden Sie unter „Verwalten &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=de) Nachrichtenwarteschlangen _im_ Konfigurationshandbuch“.
 
 {{$include /help/_includes/image-optimization-animated-gif-note.md}}
 

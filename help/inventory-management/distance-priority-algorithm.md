@@ -89,7 +89,7 @@ Der -Schlüssel stammt aus der [Google Maps-][1] und sollte [Geocoding-][2] und 
 
      >[!NOTE]
      >
-     >Wenn bei Verwendung dieses Versandalgorithmus Routen und Daten für eine Sendung nicht in den ausgewählten Berechnungsmodus (Fahren, Radfahren oder Gehen) zurückkehren, verwendet die SSA standardmäßig die Source-Priorität. Es wird empfohlen[ die Priorität für Quellen pro ](stocks-prioritize-sources.md) festzulegen.
+     >Wenn bei Verwendung dieses Versandalgorithmus Routen und Daten für eine Sendung nicht in den ausgewählten Berechnungsmodus (Fahren, Radfahren oder Gehen) zurückkehren, verwendet die SSA standardmäßig die Source-Priorität. Es wird empfohlen[&#x200B; die Priorität für Quellen pro &#x200B;](stocks-prioritize-sources.md) festzulegen.
 
      | Option | Beschreibung |
      | ----- | ----- |

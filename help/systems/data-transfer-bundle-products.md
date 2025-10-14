@@ -43,7 +43,7 @@ Die beste Möglichkeit, die Struktur eines Produktpakets zu verstehen, besteht d
 
 #### Schritt 1: Bundle-Produkt exportieren
 
-In diesem Schritt wird das Sprite Yoga Companion Kit als (CSV[-Datei ](data-csv.md). Sie können jedes andere Bundle-Produkt verwenden, das Sie in Ihrem Katalog haben.
+In diesem Schritt wird das Sprite Yoga Companion Kit als (CSV[-Datei &#x200B;](data-csv.md). Sie können jedes andere Bundle-Produkt verwenden, das Sie in Ihrem Katalog haben.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Export]**.
 

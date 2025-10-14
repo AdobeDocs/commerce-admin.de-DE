@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Dynamic Media-URLs
 
-Eine Dynamic Media-URL ist ein relativer Verweis auf ein Bild oder ein anderes Medien-Asset. Wenn diese Option aktiviert ist, können Dynamic Media-URLs verwendet werden, um eine direkte Verbindung zu Assets auf Ihrem Server oder zu Dateien herzustellen, die in einem [Content Delivery Network“ gespeichert ](media-storage-content-delivery-network.md). Die Verwendung von Dynamic Media-URLs kann sich auf die Katalogleistung auswirken, und der [Editor](editor.md#configure-the-editor) kann so konfiguriert werden, dass entweder statische oder Dynamic Media-URLs verwendet werden.
+Eine Dynamic Media-URL ist ein relativer Verweis auf ein Bild oder ein anderes Medien-Asset. Wenn diese Option aktiviert ist, können Dynamic Media-URLs verwendet werden, um eine direkte Verbindung zu Assets auf Ihrem Server oder zu Dateien herzustellen, die in einem [Content Delivery Network“ gespeichert &#x200B;](media-storage-content-delivery-network.md). Die Verwendung von Dynamic Media-URLs kann sich auf die Katalogleistung auswirken, und der [Editor](editor.md#configure-the-editor) kann so konfiguriert werden, dass entweder statische oder Dynamic Media-URLs verwendet werden.
 
 Wie bei allen [Markup-Tags](../systems/markup-tags.md) ist die Direktive in doppelte geschweifte Klammern eingeschlossen. Das Format einer Dynamic Media-URL sieht wie folgt aus:
 

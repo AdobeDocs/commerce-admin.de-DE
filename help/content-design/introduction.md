@@ -33,7 +33,7 @@ Das [Design](themes.md) bestimmt die visuelle Präsentation Ihres Stores und bes
 
 [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
-Designs können über einen bestimmten Zeitraum nach einem [ aktiviert ](schedule.md). Verwenden Sie den Zeitplan, um Design-Änderungen für eine Saison oder Promotion im Voraus zu planen.
+Designs können über einen bestimmten Zeitraum nach einem [&#x200B; aktiviert &#x200B;](schedule.md). Verwenden Sie den Zeitplan, um Design-Änderungen für eine Saison oder Promotion im Voraus zu planen.
 
 ## Inhalt
 

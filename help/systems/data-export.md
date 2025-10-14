@@ -28,9 +28,9 @@ Exportfilter werden verwendet, um die Daten, die Sie in die Exportdatei aufnehme
 
 Sie können Filter verwenden, um zu bestimmen, welche SKUs in der Exportdatei enthalten sind. Wenn Sie beispielsweise einen Wert im Filter Herstellungsland eingeben, enthält die exportierte CSV-Datei nur die in diesem Land hergestellten Produkte.
 
-Der Filtertyp entspricht dem Datentyp. Bei Datumsfeldern können Sie das Datum im Kalender (![) ](../assets/icon-calendar.png). Weitere Informationen finden [ unter &quot;](../catalog/attributes-input-types.md)-Eingabetypen“.
+Der Filtertyp entspricht dem Datentyp. Bei Datumsfeldern können Sie das Datum im Kalender (![) &#x200B;](../assets/icon-calendar.png). Weitere Informationen finden [&#x200B; unter &quot;](../catalog/attributes-input-types.md)-Eingabetypen“.
 
-Das Format des Datums wird durch das [Gebietsschema“ ](../getting-started/store-details.md#locale-options).
+Das Format des Datums wird durch das [Gebietsschema“ &#x200B;](../getting-started/store-details.md#locale-options).
 
 Um nur Datensätze mit einem bestimmten Wert einzubeziehen, z. B. eine SKU, geben Sie den Wert in das Feld Filter ein. Einige Felder wie „Preis“, „Gewicht“ und „Produkt als neu festlegen“ haben einen Wertebereich von/bis .
 

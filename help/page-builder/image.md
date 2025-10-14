@@ -16,7 +16,7 @@ Verwenden Sie den _image_-Inhaltstyp, um ein JPG-, GIF- oder PNG-Bild zur [[!DNL
 
 >[!TIP]
 >
->Sie können die [Adobe Stock-Integration](../content-design/adobe-stock.md) verwenden, um ein geeignetes Asset aus den Millionen zu finden und zu speichern, die von [Adobe Stock bereitgestellt ](https://stock.adobe.com). Siehe [Verwenden von Adobe Stock](../content-design/adobe-stock-manage.md) für Details zum Suchen, Verfeinern und Speichern von Adobe Stock-Assets in Ihrer Galerie.
+>Sie können die [Adobe Stock-Integration](../content-design/adobe-stock.md) verwenden, um ein geeignetes Asset aus den Millionen zu finden und zu speichern, die von [Adobe Stock bereitgestellt &#x200B;](https://stock.adobe.com). Siehe [Verwenden von Adobe Stock](../content-design/adobe-stock-manage.md) für Details zum Suchen, Verfeinern und Speichern von Adobe Stock-Assets in Ihrer Galerie.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -86,7 +86,7 @@ Die Bild-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Bild-Containe
 
       - Speichern Sie die Vorschau oder das lizenzierte Bild in der Galerie.
 
-        Weitere [ zum Arbeiten mit Adobe Stock-Assets finden ](../content-design/adobe-stock-manage.md) unter „Verwenden von Adobe StockBildern“.
+        Weitere [&#x200B; zum Arbeiten mit Adobe Stock-Assets finden &#x200B;](../content-design/adobe-stock-manage.md) unter „Verwenden von Adobe StockBildern“.
 
       - Wählen Sie die Asset-Miniaturansicht in der Galerie aus und klicken Sie auf **[!UICONTROL Add Selected]**.
 
@@ -133,7 +133,7 @@ Der Dateiname, die Abmessungen und die Dateigröße werden unter dem aktuellen B
 
       - Speichern Sie die Vorschau oder das lizenzierte Bild in der Galerie.
 
-        Weitere [ zum Arbeiten mit Adobe Stock-Assets finden ](../content-design/adobe-stock-manage.md) unter „Verwenden von Adobe StockBildern“.
+        Weitere [&#x200B; zum Arbeiten mit Adobe Stock-Assets finden &#x200B;](../content-design/adobe-stock-manage.md) unter „Verwenden von Adobe StockBildern“.
 
       - Wählen Sie die Asset-Miniaturansicht in der Galerie aus und klicken Sie auf **[!UICONTROL Add Selected]**.
 

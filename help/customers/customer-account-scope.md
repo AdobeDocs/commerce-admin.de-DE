@@ -29,7 +29,7 @@ Der Umfang von Kundenkonten kann auf die Website beschränkt sein, auf der das K
 
 >[!NOTE]
 >
->Wenn die Website aus der Kundengruppe ausgeschlossen ist, darf sich der Kunde nicht bei der Website anmelden, wenn der Umfang der Kundenkonten auf die Website beschränkt oder für alle Websites freigegeben ist. Weitere Informationen [ Ausschließen von Websites aus Gruppen finden ](customer-groups.md#create-a-customer-group) unter „Erstellen einer Kundengruppe“.
+>Wenn die Website aus der Kundengruppe ausgeschlossen ist, darf sich der Kunde nicht bei der Website anmelden, wenn der Umfang der Kundenkonten auf die Website beschränkt oder für alle Websites freigegeben ist. Weitere Informationen [&#x200B; Ausschließen von Websites aus Gruppen finden &#x200B;](customer-groups.md#create-a-customer-group) unter „Erstellen einer Kundengruppe“.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > [!UICONTROL _[!UICONTROL Settings]_] > **[!UICONTROL Configuration]**.
 

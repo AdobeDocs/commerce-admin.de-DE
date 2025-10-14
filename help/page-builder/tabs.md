@@ -109,7 +109,7 @@ Sie können einen beliebigen Inhaltstyp auf eine Registerkarte genau wie auf ein
 
 1. Geben Sie Text im Editor ein oder fügen Sie ihn ein und formatieren Sie ihn mithilfe der Editor-Symbolleiste nach Bedarf.
 
-   Weitere Informationen [ Arbeiten mit dem Inhaltstyp „Text](text.md) finden Sie unter „Elemente - Text“.
+   Weitere Informationen [&#x200B; Arbeiten mit dem Inhaltstyp „Text](text.md) finden Sie unter „Elemente - Text“.
 
    ![Bearbeiten von Textinhalten auf der Registerkarte](./assets/pb-layout-tab-text.png){width="500" zoomable="yes"}
 

@@ -39,14 +39,14 @@ Wenn der Kunde keine Adresse hat oder vorher das Formular für die Versandadress
 
 - Stellen Sie sicher, dass Sie über eine nicht standardmäßige Lager- und Quelle verfügen. Weitere Informationen zum Konfigurieren einer Quelle als Abholspeicherort finden Sie unter [Quelle hinzufügen](../inventory-management/sources-add.md).
 - Stellen Sie sicher, dass Sie einen Distance Priority Algorithm konfiguriert haben. Weitere Informationen finden Sie unter [Konfigurieren des Distance Priority Algorithm](../inventory-management/distance-priority-algorithm.md).
-- Stellen Sie sicher, [ Sie alle erforderlichen Geocodes für die Offline-Berechnung ](../inventory-management/cli.md#import-geocodes) (heruntergeladen und importiert) haben.
+- Stellen Sie sicher, [&#x200B; Sie alle erforderlichen Geocodes für die Offline-Berechnung &#x200B;](../inventory-management/cli.md#import-geocodes) (heruntergeladen und importiert) haben.
 - Stellen Sie sicher, dass Sie die Einstellungen [Standardmäßige Steuerzielberechnung](../configuration-reference/sales/tax.md#default-tax-destination-calculation) konfiguriert haben.
 
 >[!IMPORTANT]
 >
 >**In der Storefront werden Suchergebnisse nach Entfernung (Radius) gefiltert, um relevante Ergebnisse anzuzeigen:**<br><br>
 >Wenn der Kunde über eine Lieferadresse verfügt, wird der Basisort zur Berechnung der Entfernung (Radius) aus der Lieferadresse übernommen.<br><br>
->Wenn der Kunde keine Lieferadresse hat, wird der Basisort zur Berechnung der Entfernung aus den Einstellungen [Standardmäßige Berechnung des ](../configuration-reference/sales/tax.md#default-tax-destination-calculation)) übernommen. Diese Einstellungen werden pro Shop-Ansicht festgelegt und Sie müssen die Standardeinstellungen für die Berechnung des Steuerziels konfigurieren, um sicherzustellen, dass die Suchfunktion des Pick-up-Shops ordnungsgemäß funktioniert.
+>Wenn der Kunde keine Lieferadresse hat, wird der Basisort zur Berechnung der Entfernung aus den Einstellungen [Standardmäßige Berechnung des &#x200B;](../configuration-reference/sales/tax.md#default-tax-destination-calculation)) übernommen. Diese Einstellungen werden pro Shop-Ansicht festgelegt und Sie müssen die Standardeinstellungen für die Berechnung des Steuerziels konfigurieren, um sicherzustellen, dass die Suchfunktion des Pick-up-Shops ordnungsgemäß funktioniert.
 
 ## Einrichten des In-Store-Versands
 

@@ -63,7 +63,7 @@ Um jemandem eingeschränkten Zugriff auf den Administrator zu gewähren, muss zu
 
    >[!NOTE]
    >
-   >Ein Administrator bzw. eine Administratorin muss über **[!UICONTROL Sales / Archive]** Berechtigungen für den Rollenbereich verfügen, um die _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ und _[!UICONTROL Shipments]_&#x200B;Reihenfolge ([) ](../stores-purchase/order-processing.md).
+   >Ein Administrator bzw. eine Administratorin muss über **[!UICONTROL Sales / Archive]** Berechtigungen für den Rollenbereich verfügen, um die _[!UICONTROL Invoices]_,_[!UICONTROL Credit Memos]_ und _[!UICONTROL Shipments]_&#x200B;Reihenfolge ([) &#x200B;](../stores-purchase/order-processing.md).
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Role]**.
 

@@ -49,7 +49,7 @@ Admin-Seiten, die Daten verwalten, zeigen eine Sammlung von Datensätzen in eine
    >
    >Produktdaten können nicht aus dem Raster exportiert werden. Weitere Informationen finden Sie unter [Exportieren](../systems/data-export.md).
 
-1. Wählen Sie _Menü_ Export![ (](../assets/icon-export.png)) oben rechts eines der folgenden Dateiformate aus:
+1. Wählen Sie _Menü_ Export![&#x200B; (](../assets/icon-export.png)) oben rechts eines der folgenden Dateiformate aus:
 
    - `CSV`
    - `Excel XML`
@@ -98,7 +98,7 @@ Scrollen Sie nach unten, um alle verfügbaren Spalten anzuzeigen.
 
 ### Ändern der Rasteransicht
 
-1. Klicken Sie auf _Steuerelement_ Ansicht![ (](../assets/icon-view-eye.png)).
+1. Klicken Sie auf _Steuerelement_ Ansicht![&#x200B; (](../assets/icon-view-eye.png)).
 
 1. Führen Sie einen der folgenden Schritte aus:
 

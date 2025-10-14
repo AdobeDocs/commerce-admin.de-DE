@@ -74,7 +74,7 @@ In diesem Teil der einfachen Seitenübung erstellen Sie eine Seite mit einer vol
 
    >[!NOTE]
    >
-   >Das Layout „Volle Breite“ kann nur mit einem kompatiblen (Design[ verwendet ](../content-design/themes.md).
+   >Das Layout „Volle Breite“ kann nur mit einem kompatiblen (Design[&#x200B; verwendet &#x200B;](../content-design/themes.md).
 
    ![Seitendesign-Einstellungen](./assets/pb-tutorial1-design-section.png){width="600" zoomable="yes"}
 
@@ -104,7 +104,7 @@ In diesem Teil der einfachen Seitenübung erstellen Sie eine Seite mit einer vol
 
    ![[!DNL Page Builder]-Toolbox](./assets/pb-layout-page-add-content-row-tools.png){width="600" zoomable="yes"}
 
-1. Wählen Sie in der Toolbox „Zeile _das Symbol_ Einstellungen![ (](./assets/pb-icon-settings.png){width="20"}).
+1. Wählen Sie in der Toolbox „Zeile _das Symbol_ Einstellungen![&#x200B; (](./assets/pb-icon-settings.png){width="20"}).
 
 1. Wählen Sie unter _[!UICONTROL Appearance]_&#x200B;die Option **Vollständiger Anschnitt**.
 
@@ -249,7 +249,7 @@ __
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
-1. Wenn Sie dazu aufgefordert werden[ klicken Sie auf den Link ](../systems/cache-management.md)Cache-Verwaltung“ in der Meldung oben auf der Seite und aktualisieren Sie alle ungültigen Cache-Einträge.
+1. Wenn Sie dazu aufgefordert werden[&#x200B; klicken Sie auf den Link &#x200B;](../systems/cache-management.md)Cache-Verwaltung“ in der Meldung oben auf der Seite und aktualisieren Sie alle ungültigen Cache-Einträge.
 
 ## Teil 2: Enthaltene Zeile mit zwei gleichen Spalten
 
@@ -271,7 +271,7 @@ In diesem Teil der Übung fügen Sie der Seite eine Zeile hinzu und teilen die Z
 
    ![Hinzufügen einer neuen Zeile über dem Banner](./assets/pb-tutorial1-row-drag-to-stage.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über die neue Zeile, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( ](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über die neue Zeile, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( &#x200B;](./assets/pb-icon-settings.png){width="20"} ) aus.
 
    ![Zeilen-Toolbox](./assets/pb-tutorial1-row-settings.png){width="600" zoomable="yes"}
 
@@ -295,7 +295,7 @@ In diesem Teil der Übung fügen Sie der Seite eine Zeile hinzu und teilen die Z
 
 1. Klicken Sie oben links in der ersten Spalte auf das runde _Grid_-Steuerelement (![Grid-Steuerelement](./assets/pb-icon-grid-control.png)), um die Rasterrichtlinien anzuzeigen.
 
-   Das Raster stellt sicher, dass Inhalte konsistent ausgerichtet sind und auf Desktop- und Mobilgeräten korrekt gerendert werden. Informationen zum Konfigurieren der Rastergröße finden Sie [ Abschnitt „Konfigurieren [!DNL Page Builder]](setup.md#configure-page-builder) im Thema [!DNL Page Builder].
+   Das Raster stellt sicher, dass Inhalte konsistent ausgerichtet sind und auf Desktop- und Mobilgeräten korrekt gerendert werden. Informationen zum Konfigurieren der Rastergröße finden Sie [&#x200B; Abschnitt „Konfigurieren [!DNL Page Builder]](setup.md#configure-page-builder) im Thema [!DNL Page Builder].
 
    Die Zahlen in Klammern (6/12) am oberen Rand jedes Spaltencontainers geben die Anzahl der Rasteraufteilungen in jeder Spalte und die Gesamtzahl der Aufteilungen in der Zeile an.
 
@@ -349,7 +349,7 @@ In diesem Schritt erfahren Sie, wie Sie ein Bild in das Banner hochladen.
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
-1. Wenn Sie dazu aufgefordert werden[ klicken Sie auf den Link ](../systems/cache-management.md)Cache-Verwaltung“ in der Nachricht oben auf der Seite und aktualisieren Sie alle ungültigen Cache-Einträge.
+1. Wenn Sie dazu aufgefordert werden[&#x200B; klicken Sie auf den Link &#x200B;](../systems/cache-management.md)Cache-Verwaltung“ in der Nachricht oben auf der Seite und aktualisieren Sie alle ungültigen Cache-Einträge.
 
 ## Teil 3: Zeile mit voller Breite und ungleichen Spalten
 
@@ -407,7 +407,7 @@ Die letzte Zeile auf dieser Seite enthält Inhalte aus einer Produktbewertung. S
 
    ![Ändern der Größe der ersten Spalte](./assets/pb-tutorial1-column-first-4.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den ersten Spalten-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den ersten Spalten-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( (](./assets/pb-icon-settings.png){width="20"}) aus.
 
 1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Advanced]_&#x200B;und legen Sie alle Werte **Ränder und Abstand**&#x200B;auf `0` fest.
 
@@ -485,7 +485,7 @@ Die zweite Spalte der Zeile sollte Inhalte aus einer Kundenbewertung enthalten, 
 
 1. Rufen Sie die Abmessungen des Bildes ab, damit Sie den Inhalt vertikal in der Spalte zentrieren können:
 
-   - Bewegen Sie den Mauszeiger über das Bild in der ersten Spalte, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ (](./assets/pb-icon-settings.png){width="20"}) aus.
+   - Bewegen Sie den Mauszeiger über das Bild in der ersten Spalte, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; (](./assets/pb-icon-settings.png){width="20"}) aus.
 
    - Notieren Sie sich die Abmessungen des Bildes unter der Miniaturansicht des Bildes.
 
@@ -553,7 +553,7 @@ Nachdem alle drei Zeilen abgeschlossen sind, besteht der letzte Schritt darin, d
 
 1. Klicken Sie **[!UICONTROL Edit with Page Builder]** oder in den Inhaltsvorschaubereich.
 
-1. Bewegen Sie den Mauszeiger über die erste Zeile auf der Bühne, um die Toolbox anzuzeigen, und wählen _das Symbol_ Verschieben![ (Symbol ](./assets/pb-icon-move.png)) aus.
+1. Bewegen Sie den Mauszeiger über die erste Zeile auf der Bühne, um die Toolbox anzuzeigen, und wählen _das Symbol_ Verschieben![&#x200B; (Symbol &#x200B;](./assets/pb-icon-move.png)) aus.
 
    ![Verschieben](./assets/pb-tutorial1-row-toolbox-move.png){width="600" zoomable="yes"}
 
@@ -575,7 +575,7 @@ Nachdem alle drei Zeilen abgeschlossen sind, besteht der letzte Schritt darin, d
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
-1. Wenn Sie dazu aufgefordert werden[ klicken Sie auf den Link ](../systems/cache-management.md)Cache-Verwaltung“ in der Meldung oben auf der Seite und aktualisieren Sie alle ungültigen Cache-Einträge.
+1. Wenn Sie dazu aufgefordert werden[&#x200B; klicken Sie auf den Link &#x200B;](../systems/cache-management.md)Cache-Verwaltung“ in der Meldung oben auf der Seite und aktualisieren Sie alle ungültigen Cache-Einträge.
 
 Sie haben die Übung „Einfache Seite“ abgeschlossen. Behalten Sie das von Ihnen erstellte Werk bei, damit Sie später darauf verweisen können.
 

@@ -105,7 +105,7 @@ Anmeldeprobleme hängen normalerweise mit einer Diskrepanz zwischen Ihrer MAGEID
 
 >[!INFO]
 >
->Käufe von Mobile Apps und Erweiterungen können nicht [ ein neues ](#purchase-transfers) übertragen werden.
+>Käufe von Mobile Apps und Erweiterungen können nicht [&#x200B; ein neues &#x200B;](#purchase-transfers) übertragen werden.
 
 ### Open Source-Fragen
 
@@ -133,9 +133,9 @@ Um eine Auftragsrechnung für einen Marketplace-Kauf herunterzuladen, melden Sie
 
 ### Kaufübertragungen
 
-Das Marketplace-Supportteam hat keine Möglichkeit, Käufe auf ein anderes Konto zu übertragen. Sie müssen alle Apps und Erweiterungen unter dem primären Commerce-Konto erwerben, um Installations- und Bereitstellungsprobleme zu vermeiden. Adobe Commerce ist zu einer eindeutigen Kennung berechtigt. Da Composer für die Installation verwendet wird, kann nur ein Satz von [Zugriffsschlüsseln](#create-an-access-key) verwendet werden, die mit dem primären Konto verknüpft sind. Die einzige verfügbare Lösung besteht darin[ eine Rückerstattung ](#refund-requests) dem Marketplace-Kaufkonto anzufordern (sofern gemäß der Rückerstattungsrichtlinie von Adobe Commerce zulässig).
+Das Marketplace-Supportteam hat keine Möglichkeit, Käufe auf ein anderes Konto zu übertragen. Sie müssen alle Apps und Erweiterungen unter dem primären Commerce-Konto erwerben, um Installations- und Bereitstellungsprobleme zu vermeiden. Adobe Commerce ist zu einer eindeutigen Kennung berechtigt. Da Composer für die Installation verwendet wird, kann nur ein Satz von [Zugriffsschlüsseln](#create-an-access-key) verwendet werden, die mit dem primären Konto verknüpft sind. Die einzige verfügbare Lösung besteht darin[&#x200B; eine Rückerstattung &#x200B;](#refund-requests) dem Marketplace-Kaufkonto anzufordern (sofern gemäß der Rückerstattungsrichtlinie von Adobe Commerce zulässig).
 
-Sie können [ Commerce](commerce-account-share.md)Instanz über das Primärkonto freigeben. Der freigegebene Zugriff gewährt einem untergeordneten Konto von einem primären Konto aus spezielle Berechtigungen. Der freigegebene Zugriffspunkt wird vom primären Konto generiert. Das primäre Konto kann das berechtigte Commerce-Konto, das Haupt-Händlerkonto oder ein innerhalb eines Unternehmens freigegebenes Konto sein.
+Sie können [&#x200B; Commerce](commerce-account-share.md)Instanz über das Primärkonto freigeben. Der freigegebene Zugriff gewährt einem untergeordneten Konto von einem primären Konto aus spezielle Berechtigungen. Der freigegebene Zugriffspunkt wird vom primären Konto generiert. Das primäre Konto kann das berechtigte Commerce-Konto, das Haupt-Händlerkonto oder ein innerhalb eines Unternehmens freigegebenes Konto sein.
 
 Diese Sonderberechtigungen gewähren dieselbe Zugriffsebene auf Adobe Commerce wie die primäre Instanz, sie werden jedoch nicht in den Adobe Commerce Marketplace oder das Entwicklerportal übertragen. Das bedeutet, dass der Kauf einer Erweiterung von einem untergeordneten Konto auf dem Marketplace nicht mit dem primären Konto geteilt werden kann. Shared Access ist eine Einbahnstraße (primäres Konto untergeordnet). Dies funktioniert nicht, wenn ein untergeordnetes Konto versucht, eine Freigabe für die primäre Instanz durchzuführen.
 

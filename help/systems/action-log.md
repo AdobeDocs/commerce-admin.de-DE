@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Die Funktion „Aktionsprotokolle“ zeichnet jede Änderung auf, die von einem Administrator bzw. einer Administratorin, der bzw. die in Ihrem Geschäft arbeitet, vorgenommen wird. Auf diese Weise können Sie alle Änderungen verfolgen, die an Ihrem Store vorgenommen wurden. Das Tracking dieser Änderungen kann zusammen mit dem [ von ](permissions.md) für einen Benutzer dazu beitragen, Ihren Store vor unerwünschten Änderungen zu schützen.
+Die Funktion „Aktionsprotokolle“ zeichnet jede Änderung auf, die von einem Administrator bzw. einer Administratorin, der bzw. die in Ihrem Geschäft arbeitet, vorgenommen wird. Auf diese Weise können Sie alle Änderungen verfolgen, die an Ihrem Store vorgenommen wurden. Das Tracking dieser Änderungen kann zusammen mit dem [&#x200B; von &#x200B;](permissions.md) für einen Benutzer dazu beitragen, Ihren Store vor unerwünschten Änderungen zu schützen.
 
 Bei den meisten Admin-Aktionen umfassen die protokollierten Informationen die Aktion, den Namen des Benutzers, den Erfolg oder Misserfolg der Aktion und die ID des von der Aktion betroffenen Objekts. IP-Adresse und Datum werden ebenfalls protokolliert.
 

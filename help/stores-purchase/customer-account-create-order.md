@@ -78,7 +78,7 @@ Sie können Artikel aus der Wunschliste eines Kunden oder aus kürzlich angesehe
 
    - Klicken Sie auf **[!UICONTROL Add Selected Product(s) to Order]** , um den Warenkorb zu aktualisieren.
 
-1. Wenn ein Produkt für „Geschenkoptionen[ konfiguriert ist](../catalog/product-gift-options.md) legen Sie die Optionen nach Bedarf fest.
+1. Wenn ein Produkt für „Geschenkoptionen[&#x200B; konfiguriert ist](../catalog/product-gift-options.md) legen Sie die Optionen nach Bedarf fest.
 
 1. Den Preis eines Artikels überschreiben, falls erforderlich:
 
@@ -99,7 +99,7 @@ Sie können Artikel aus der Wunschliste eines Kunden oder aus kürzlich angesehe
 
 >[!NOTE]
 >
->Weitere Informationen zu Zahlungsmethoden[ die diese Funktion unterstützen, wenn die ](https://experienceleague.adobe.com/de/docs/commerce/payment-services/guide-overview) installiert und konfiguriert ist, finden Sie im „Payment Services Guide“.
+>Weitere Informationen zu Zahlungsmethoden[&#x200B; die diese Funktion unterstützen, wenn die &#x200B;](https://experienceleague.adobe.com/de/docs/commerce/payment-services/guide-overview) installiert und konfiguriert ist, finden Sie im „Payment Services Guide“.
 
 ## Schritt 3: Bestellung übermitteln
 

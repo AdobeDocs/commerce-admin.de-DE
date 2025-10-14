@@ -16,7 +16,7 @@ Die Auswahl eines Produkttyps ist eines der ersten Dinge, die Sie tun müssen, u
 
 >[!NOTE]
 >
->Weitere Informationen finden Sie unter Katalog [Navigation](navigation.md), Einrichten [Kategorien](categories.md) und [Attribute](product-attributes.md) und die verfügbaren [ (URL](catalog-urls.md). Nachdem Sie diese Konzepte verstanden haben, ist die effizienteste Möglichkeit, viele Produkte zum Katalog hinzuzufügen, [, sie ](../systems/data-import.md) einer CSV-Datei zu importieren.
+>Weitere Informationen finden Sie unter Katalog [Navigation](navigation.md), Einrichten [Kategorien](categories.md) und [Attribute](product-attributes.md) und die verfügbaren [&#x200B; (URL](catalog-urls.md). Nachdem Sie diese Konzepte verstanden haben, ist die effizienteste Möglichkeit, viele Produkte zum Katalog hinzuzufügen, [, sie &#x200B;](../systems/data-import.md) einer CSV-Datei zu importieren.
 
 ![Produktseite in der Storefront](./assets/storefront-product-page.png){width="700" zoomable="yes"}
 

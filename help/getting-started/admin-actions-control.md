@@ -37,7 +37,7 @@ Das Kontrollkästchen in der ersten Spalte der Liste identifiziert jeden Datensa
 
    - Setzen Sie das **[!UICONTROL Actions]** auf `Update Attributes`.
 
-     ![Wählen Sie die Aktion Attribute aktualisieren ](./assets/action-select.png){width="450"}
+     ![Wählen Sie die Aktion Attribute aktualisieren &#x200B;](./assets/action-select.png){width="450"}
 
    - Klicken Sie auf **[!UICONTROL Submit]**.
 

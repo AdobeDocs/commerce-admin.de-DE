@@ -48,7 +48,7 @@ Um Ihre Site zu optimieren und die Seitenladezeit zu reduzieren, können Sie die
 
 >[!NOTE]
 >
->CSS-Dateien können aus dem Bedienfeld _Admin_ nur zusammengeführt werden, wenn [Entwicklermodus) ](../systems/developer-tools.md#operation-modes).
+>CSS-Dateien können aus dem Bedienfeld _Admin_ nur zusammengeführt werden, wenn [Entwicklermodus) &#x200B;](../systems/developer-tools.md#operation-modes).
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

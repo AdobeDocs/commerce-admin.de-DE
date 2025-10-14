@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produkteinstellungen - [!UICONTROL Content]
 
-Der Abschnitt _[!UICONTROL Content]_&#x200B;wird verwendet, um die Hauptproduktbeschreibung, die auf der Produktseite angezeigt wird, einzugeben und zu bearbeiten. Die Kurzbeschreibung kann in den meisten RSS-Feeds verwendet werden und kann je nach [ auch in Kataloglisten ](../content-design/themes.md).
+Der Abschnitt _[!UICONTROL Content]_&#x200B;wird verwendet, um die Hauptproduktbeschreibung, die auf der Produktseite angezeigt wird, einzugeben und zu bearbeiten. Die Kurzbeschreibung kann in den meisten RSS-Feeds verwendet werden und kann je nach [&#x200B; auch in Kataloglisten &#x200B;](../content-design/themes.md).
 
 ## Hinzufügen der Produktbeschreibung in [!DNL Page Builder]
 

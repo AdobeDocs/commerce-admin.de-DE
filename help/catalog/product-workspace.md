@@ -65,7 +65,7 @@ Um beim Erstellen von Produkten Zeit zu sparen, verweist der Standardwert mehrer
 
 {style="table-layout:auto"}
 
-Die Platzhalter, die den Wert eines anderen Felds darstellen, werden in geschweifte Klammern eingeschlossen. Jeder Attributcode, der im Produkt ([) enthalten ](attribute-sets.md), kann als Platzhalter verwendet werden.
+Die Platzhalter, die den Wert eines anderen Felds darstellen, werden in geschweifte Klammern eingeschlossen. Jeder Attributcode, der im Produkt ([) enthalten &#x200B;](attribute-sets.md), kann als Platzhalter verwendet werden.
 
 ![Automatische Generierung von Produktfeldern](../configuration-reference/catalog/assets/catalog-product-fields-auto-generation.png){width="600" zoomable="yes"}
 

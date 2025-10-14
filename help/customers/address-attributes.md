@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Das Kundenadressenattribut bestimmt die Eigenschaften von Straßenadressen, die vom Konto des Kunden oder [Checkout](account-dashboard-address-book.md) in das [Adressbuch](../stores-purchase/checkout-process.md) eingegeben werden.
 
-Benutzerdefinierte Adressattribute können eingerichtet werden, um zusätzliche Informationen bereitzustellen, z. B. eine optionale E-Mail-Adresse, ein Skype-Konto, eine alternative Telefonnummer, ein Gebäude oder ein Land. Das benutzerdefinierte Attribut kann dann in die [Adressvorlage“ integriert ](address-templates.md), die zur Erstellung von Verkaufsdokumenten verwendet wird. Der Prozess zum Erstellen eines benutzerdefinierten Adressenattributs ist fast identisch mit dem Erstellen eines [Kundenattributs](attribute-properties.md).
+Benutzerdefinierte Adressattribute können eingerichtet werden, um zusätzliche Informationen bereitzustellen, z. B. eine optionale E-Mail-Adresse, ein Skype-Konto, eine alternative Telefonnummer, ein Gebäude oder ein Land. Das benutzerdefinierte Attribut kann dann in die [Adressvorlage“ integriert &#x200B;](address-templates.md), die zur Erstellung von Verkaufsdokumenten verwendet wird. Der Prozess zum Erstellen eines benutzerdefinierten Adressenattributs ist fast identisch mit dem Erstellen eines [Kundenattributs](attribute-properties.md).
 
 Kundenadressattribute werden in den folgenden Formen verwendet:
 
@@ -88,7 +88,7 @@ Kundenadressattribute werden in den folgenden Formen verwendet:
 
    - Um das Raster Kunden nach diesem Attribut zu durchsuchen, setzen Sie **[!UICONTROL Use in Search Options]** auf `Yes`.
 
-   - Um dieses Attribut für „Kundensegmente[ verfügbar zu machen, ](customer-segments.md) Sie **[!UICONTROL Use in Customer Segment]** auf `Yes`.
+   - Um dieses Attribut für „Kundensegmente[&#x200B; verfügbar zu machen, &#x200B;](customer-segments.md) Sie **[!UICONTROL Use in Customer Segment]** auf `Yes`.
 
 ## Schritt 2: Vervollständigen Sie die Eigenschaften der Storefront
 
@@ -111,7 +111,7 @@ Kundenadressattribute werden in den folgenden Formen verwendet:
 
 1. Wählen Sie im Bedienfeld auf der linken Seite **[!UICONTROL Manage Labels/Options]**.
 
-1. Geben Sie unter **[!UICONTROL Manage Titles]** einen Titel ein, um das Attribut für jede [Store-Ansicht“ ](../getting-started/websites-stores-views.md).
+1. Geben Sie unter **[!UICONTROL Manage Titles]** einen Titel ein, um das Attribut für jede [Store-Ansicht“ &#x200B;](../getting-started/websites-stores-views.md).
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Attribute]**.
 

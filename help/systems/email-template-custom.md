@@ -76,7 +76,7 @@ Nach Abschluss der [Konfiguration](email-templates.md#configure-email-templates)
 
    ![Kopfzeilenvorlage - Variable einfügen](./assets/email-template-insert-variable.png){width="600" zoomable="yes"}
 
-   Wenn eine Variable ausgewählt wird[ wird ein „Markup](markup-tags.md)Tag“ für die Variable in den Code eingefügt.
+   Wenn eine Variable ausgewählt wird[&#x200B; wird ein „Markup](markup-tags.md)Tag“ für die Variable in den Code eingefügt.
 
    Obwohl die Store-E-Mail-Adressvariablen die am häufigsten in der Kopfzeile enthaltenen Variablen sind, können Sie den Code für jedes System oder [benutzerdefinierte Variable](variables-custom.md) direkt in die Vorlage eingeben.
 
@@ -140,7 +140,7 @@ Die Fußzeile der E-Mail-Vorlage enthält die schließende und die Signaturzeile
 
 1. Wählen Sie die Variable aus, die Sie einfügen möchten.
 
-   Wenn eine Variable ausgewählt wird[ wird ein „Markup](markup-tags.md)Tag“ für die Variable in den Code eingefügt.
+   Wenn eine Variable ausgewählt wird[&#x200B; wird ein „Markup](markup-tags.md)Tag“ für die Variable in den Code eingefügt.
 
    Obwohl die Store-Kontaktvariablen die am häufigsten in der Fußzeile enthaltenen sind, können Sie den Code für jedes System oder [benutzerdefinierte Variable](variables-custom.md) direkt in die Vorlage eingeben.
 

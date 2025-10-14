@@ -29,7 +29,7 @@ Die Demo[Startseite](../getting-started/storefront.md#home-page) enthält ein Ba
 
 ### Datenschutzrichtlinie
 
-Die Seite [ Store-](../getting-started/privacy-policy.md) sollte mit Ihren eigenen Informationen aktualisiert werden. Als Best Practice sollte Ihre Datenschutzrichtlinie Ihren Kunden erklären, welche Art von Informationen Ihr Unternehmen erfasst und wie sie verwendet werden.
+Die Seite [&#x200B; Store-](../getting-started/privacy-policy.md) sollte mit Ihren eigenen Informationen aktualisiert werden. Als Best Practice sollte Ihre Datenschutzrichtlinie Ihren Kunden erklären, welche Art von Informationen Ihr Unternehmen erfasst und wie sie verwendet werden.
 
 ### 404 nicht gefunden
 

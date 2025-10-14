@@ -18,7 +18,7 @@ Sie können beispielsweise die Bedingungen für eine Preisregel definieren und f
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Sie können eine definierte Regel auch mit einem [dynamischen Block) verknüpfen](../content-design/dynamic-blocks.md) um das Ereignis oder Produkt in Ihrem Store zu bewerben.
 
-- ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Für wiederkehrende Promotions können Sie eine gespeicherte Regel jedes Mal manuell auf den Status _Aktiv_ oder _Inaktiv_ setzen, wenn Sie die Promotion ausführen möchten.
+- ![Magento Open Source &#x200B;](../assets/open-source.svg) (nur Magento Open Source) Für wiederkehrende Promotions können Sie eine gespeicherte Regel jedes Mal manuell auf den Status _Aktiv_ oder _Inaktiv_ setzen, wenn Sie die Promotion ausführen möchten.
 
 ## Zugriff auf Katalogpreisregeln
 
@@ -30,7 +30,7 @@ Sie können beispielsweise die Bedingungen für eine Preisregel definieren und f
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die Seite _Regelinformationen_ anzuzeigen.
 
-   - ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die Seite mit den Regelinformationen anzuzeigen.
+   - ![Magento Open Source &#x200B;](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die Seite mit den Regelinformationen anzuzeigen.
 
    Dort können Sie die Einstellungen für die Regel ändern (ähnlich wie [Erstellen einer Regel](price-rules-catalog-create.md)).
 
@@ -43,8 +43,8 @@ Sie können beispielsweise die Bedingungen für eine Preisregel definieren und f
 | [!UICONTROL Priority] | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Geben Sie Text in dieses Feld ein, um die Liste nach der für eine Regel definierten Priorität zu filtern. |
 | [!UICONTROL Web Site] | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Verwenden Sie diese Option, um die Liste nach für eine Regel definierten Websites zu filtern. |
 | [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]**, um die Regelinformationen anzuzeigen und die Regeleinstellungen zu aktualisieren (ähnlich wie beim Erstellen einer Regel). |
-| [!UICONTROL Start] | ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Verwenden Sie die dynamischen Kalenderfelder (An: und Von:), um die Liste nach dem Startdatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
-| [!UICONTROL End] | ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Verwenden Sie die dynamischen Kalenderfelder (An: und Von:), um die Liste nach dem Enddatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
-| [!UICONTROL Status] | ![Magento Open Source ](../assets/open-source.svg) (nur Magento Open Source) Verwenden Sie diese Option, um die Liste nach Regelstatus (`Active` oder `Inactive`) zu filtern. |
+| [!UICONTROL Start] | ![Magento Open Source &#x200B;](../assets/open-source.svg) (nur Magento Open Source) Verwenden Sie die dynamischen Kalenderfelder (An: und Von:), um die Liste nach dem Startdatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
+| [!UICONTROL End] | ![Magento Open Source &#x200B;](../assets/open-source.svg) (nur Magento Open Source) Verwenden Sie die dynamischen Kalenderfelder (An: und Von:), um die Liste nach dem Enddatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
+| [!UICONTROL Status] | ![Magento Open Source &#x200B;](../assets/open-source.svg) (nur Magento Open Source) Verwenden Sie diese Option, um die Liste nach Regelstatus (`Active` oder `Inactive`) zu filtern. |
 
 {style="table-layout:auto"}

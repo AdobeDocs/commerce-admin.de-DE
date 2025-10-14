@@ -30,7 +30,7 @@ Bei der Installation von Magento Open Source 2.4.x oder Adobe Commerce 2.4.x tre
 
    - Alle vorhandenen Produkte in Ihrem Katalog werden der standardmäßigen Source zugewiesen. Bis zum Hinzufügen neuer Quellen ändert sich die Produktoberfläche nicht. Wenn Sie nur Produkte von einem Ort aus versenden, gibt es keine anderen Unterschiede für Quellen. Sie können benutzerdefinierte [Quellen](sources-add.md) erstellen und [Mengen zuweisen](quantities-manage.md) pro Lieferort.
 
-   - Sie können eine Quelle als Abholort konfigurieren und [ dieser Quelle ](quantities-manage.md)Mengen zuweisen“.
+   - Sie können eine Quelle als Abholort konfigurieren und [&#x200B; dieser Quelle &#x200B;](quantities-manage.md)Mengen zuweisen“.
 
    - Ihre Website weist dem Standardlager zu. Sie können benutzerdefinierte [Stocks“ erstellen](stocks-add.md) um Verkaufskanäle (Websites) und Quellen (Standorte) zu verbinden.
 
@@ -48,7 +48,7 @@ Bei der Installation von Magento Open Source 2.4.x oder Adobe Commerce 2.4.x tre
 
 - Neue [Import-/Exportfunktionen](inventory-import-export.md) ermöglichen das Hinzufügen von Massenquellen, das Aktualisieren von Lagermengen und das Festlegen des Lagerstatus (auf/nicht vorrätig) für alle SKUs in Ihrem Katalog. Mit diesen Funktionen können Sie für eine, ausgewählte oder alle Quellen ändern.
 
-- Neue Massenoptionen über die Produktraster-Seite unterstützen die Massenzuweisung [ Quellen und das Aufheben der Zuweisung ](bulk-assignment.md) und [Übertragen von Inventar zur Quelle](inventory-transfer.md).
+- Neue Massenoptionen über die Produktraster-Seite unterstützen die Massenzuweisung [&#x200B; Quellen und das Aufheben der Zuweisung &#x200B;](bulk-assignment.md) und [Übertragen von Inventar zur Quelle](inventory-transfer.md).
 
 - [!DNL Inventory Management] unterstützt B2B-Katalog. Derzeit müssen alle B2B-Produkte den standardmäßigen Source- und Standardaktien zugewiesen werden.
 
@@ -70,7 +70,7 @@ Sie können [!DNL Inventory Management] Module deaktivieren, um:
 
 - Verwenden Sie [!DNL Order Management System] für die Bestandsverwaltung. Der aktuelle Connector unterstützt keine [!DNL Inventory Management]. OMS-Händler, die ein Upgrade auf Adobe Commerce 2.4.0 durchführen, müssen diese Module deaktivieren.
 
-Ausführliche Informationen finden Sie unter [ und Update](install-update.md).
+Ausführliche Informationen finden Sie unter [&#x200B; und Update](install-update.md).
 
 [1]: https://commerce-docs.github.io/oms-documentation-archive/
 [2]: https://commerce-docs.github.io/oms-documentation-archive/getting-started/feature-list/

@@ -54,7 +54,7 @@ Angebote mit dem Status `Updated` werden gesperrt, bis der Verkäufer das Angebo
 
 ## Anführungszeichen anzeigen
 
-Mit den erforderlichen [Berechtigungen für ihre Rolle](account-company-roles-permissions.md) können Käufer, die mit einem Unternehmenskonto verknüpft sind, Angebote sehen, die von &quot;[ Benutzern“ angefordert ](account-company-structure.md). Firmenadministratoren können alle Angebote für das Firmenkonto anzeigen.
+Mit den erforderlichen [Berechtigungen für ihre Rolle](account-company-roles-permissions.md) können Käufer, die mit einem Unternehmenskonto verknüpft sind, Angebote sehen, die von &quot;[&#x200B; Benutzern“ angefordert &#x200B;](account-company-structure.md). Firmenadministratoren können alle Angebote für das Firmenkonto anzeigen.
 
 1. Der Käufer meldet sich bei seinem Konto in der Storefront an.
 
@@ -104,7 +104,7 @@ Mit den erforderlichen [Berechtigungen für ihre Rolle](account-company-roles-pe
 
 1. Klicken Sie auf **[!UICONTROL Move item]**.
 
-Weitere [ zu diesem Prozess finden Sie ](requisition-lists.md) „Produkte zu einer Anforderungsliste hinzufügen“.
+Weitere [&#x200B; zu diesem Prozess finden Sie &#x200B;](requisition-lists.md) „Produkte zu einer Anforderungsliste hinzufügen“.
 
 >[!NOTE]
 >

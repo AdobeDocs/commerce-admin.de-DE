@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL My Purchase Orders]
 
-Wenn Bestellungen [für ein Unternehmen aktiviert) ](purchase-order-flow.md), wird jede Bestellung für einen Kunden, der bei einem Firmenbenutzerkonto angemeldet ist, automatisch als Bestellung (Bestellung) erstellt. Firmenbenutzer mit den erforderlichen Berechtigungen können von ihnen erstellte Bestellungen zusammen mit den von untergeordneten Benutzern erstellten Bestellungen erstellen, bearbeiten und löschen.
+Wenn Bestellungen [für ein Unternehmen aktiviert) &#x200B;](purchase-order-flow.md), wird jede Bestellung für einen Kunden, der bei einem Firmenbenutzerkonto angemeldet ist, automatisch als Bestellung (Bestellung) erstellt. Firmenbenutzer mit den erforderlichen Berechtigungen können von ihnen erstellte Bestellungen zusammen mit den von untergeordneten Benutzern erstellten Bestellungen erstellen, bearbeiten und löschen.
 
 ![Meine Bestellungen](./assets/account-dashboard-my-purchase-orders.png){width="700" zoomable="yes"}
 

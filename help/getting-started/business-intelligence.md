@@ -47,7 +47,7 @@ Technische Informationen finden Sie im [[!DNL Advanced Reporting]][2]{:target="_
 
 >[!NOTE]
 >
->[!DNL Advanced Reporting] können nur mit [!DNL Commerce] Anlagen verwendet werden, die ständig eine einzige [Basiswährung“ ](../stores-purchase/currency-configuration.md).
+>[!DNL Advanced Reporting] können nur mit [!DNL Commerce] Anlagen verwendet werden, die ständig eine einzige [Basiswährung“ &#x200B;](../stores-purchase/currency-configuration.md).
 
 
 ### Schritt 1: [!DNL Advanced Reporting] aktivieren
@@ -122,7 +122,7 @@ Wenn Sie die 404-Meldung „Seite nicht gefunden“ erhalten, überprüfen Sie, 
 
 ### Einzel-Basiswährung überprüfen
 
-[!DNL Advanced Reporting] können nur mit [!DNL Commerce] Anlagen verwendet werden, die seit der Installation nur [ (](../stores-purchase/currency-configuration.md)) verwendet haben. Das Ergebnis ist, dass in der Historie alle Bestellungen dieselbe Basiswährung verwenden. [!DNL Advanced Reporting] funktioniert nicht, wenn Sie zu irgendeinem Zeitpunkt Ihre Basiswährung geändert haben und Bestellungen in Ihrem Verlauf mit unterschiedlichen Basiswährungen verarbeitet wurden.
+[!DNL Advanced Reporting] können nur mit [!DNL Commerce] Anlagen verwendet werden, die seit der Installation nur [&#x200B; (](../stores-purchase/currency-configuration.md)) verwendet haben. Das Ergebnis ist, dass in der Historie alle Bestellungen dieselbe Basiswährung verwenden. [!DNL Advanced Reporting] funktioniert nicht, wenn Sie zu irgendeinem Zeitpunkt Ihre Basiswährung geändert haben und Bestellungen in Ihrem Verlauf mit unterschiedlichen Basiswährungen verarbeitet wurden.
 
 Um festzustellen, ob Ihr Store mehrere Basiswährungen hat, können Sie Ihre [!DNL Commerce]-Datenbank über die Befehlszeile mit dem folgenden MySQL-Beispiel abfragen. Möglicherweise müssen Sie die Tabellennamen ändern, damit sie Ihrer Datenstruktur entsprechen:
 

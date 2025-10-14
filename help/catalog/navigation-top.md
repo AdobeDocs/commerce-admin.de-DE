@@ -70,7 +70,7 @@ Bei einer Multi-Store-Installation kann jedem (Store) ein anderes Hauptmenü als
 
    Da die Tiefe der oberen Navigation einen globalen [Konfigurationsbereich) hat](../getting-started/websites-stores-views.md#scope-settings) gilt die Einstellung für alle Websites, Stores und Store-Ansichten in der Commerce-Installation. Der Abschnitt _[!UICONTROL Category Top Navigation]_-Konfiguration ist nur verfügbar, wenn&#x200B;_[!UICONTROL Store View]_ in der oberen linken Ecke auf `Default Config` eingestellt ist.
 
-   Eine detaillierte Liste dieser Optionen finden Sie unter [Oberste Navigation ](../configuration-reference/catalog/catalog.md#layered-navigation) Kategorie“ _Konfigurationsreferenz_.
+   Eine detaillierte Liste dieser Optionen finden Sie unter [Oberste Navigation &#x200B;](../configuration-reference/catalog/catalog.md#layered-navigation) Kategorie“ _Konfigurationsreferenz_.
 
 1. Um die Anzahl der Unterkategorien zu begrenzen, die in der oberen Navigation angezeigt werden, geben Sie die Zahl für **[!UICONTROL Maximal Depth]** ein.
 

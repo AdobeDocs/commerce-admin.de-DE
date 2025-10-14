@@ -22,7 +22,7 @@ Beachten Sie beim Konfigurieren von Zeitplänen für Produktaktualisierungen und
 
 - Eine Staging-Vorschau für ein geplantes Update beginnt immer in der **Standard** Store-Ansicht, die das Kundenerlebnis beim Navigieren durch die Staging-Update-Kampagne emuliert.
 
-- Wenn eine Kampagne mit mehr als einem Produkt verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard für Inhalte“ bearbeitet ](../content-design/content-staging-dashboard.md).
+- Wenn eine Kampagne mit mehr als einem Produkt verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard für Inhalte“ bearbeitet &#x200B;](../content-design/content-staging-dashboard.md).
 
 - Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne nicht später bearbeitet werden, um ein Enddatum einzuschließen. In diesem Fall müssen Sie eine doppelte Kampagne erstellen und das erforderliche Enddatum eingeben.
 

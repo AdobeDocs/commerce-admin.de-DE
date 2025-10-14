@@ -58,7 +58,7 @@ Die Banner-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Banner-Cont
 
 ## Ändern von Bannereinstellungen
 
-1. Bewegen Sie den Mauszeiger über den Banner-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ (](./assets/pb-icon-settings.png)) aus.
+1. Bewegen Sie den Mauszeiger über den Banner-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; (](./assets/pb-icon-settings.png)) aus.
 
 1. In den folgenden Abschnitten finden Sie detaillierte Informationen zum Aktualisieren der verfügbaren Einstellungen:
 
@@ -221,7 +221,7 @@ Sie können den Bannerinhalt direkt auf der Bühne oder beim Ändern der Einstel
 
 ### Komplexe Inhalte in den Einstellungen
 
-1. Bewegen Sie den Mauszeiger über den Banner-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="25"}) aus.
+1. Bewegen Sie den Mauszeiger über den Banner-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( (](./assets/pb-icon-settings.png){width="25"}) aus.
 
 1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_&#x200B;und verwenden Sie den **[!UICONTROL Message Text]**-Editor, um Bannertext einzugeben und zu formatieren.
 

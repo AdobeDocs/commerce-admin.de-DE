@@ -16,7 +16,7 @@ Kunden haben hohe Erwartungen an die Auswahl einer Farbe, und es ist wichtig, da
 
 ![Farbfelder auf einer Produktseite](./assets/storefront-color-swatches.png){width="700" zoomable="yes"}
 
-Bei [konfigurierbaren Produkten](product-create-configurable.md) kann die Farbe durch ein visuelles Farb- oder Textmuster oder ein Eingabesteuerelement angezeigt werden. Farbfelder können auf der Produktseite, in Produktlisten und in der [ Navigation verwendet ](navigation-layered.md). Auf der Produktseite werden Farbfelder synchronisiert, um das entsprechende Produktbild anzuzeigen, wenn das Farbfeld ausgewählt ist. Wenn der Kunde das Farb-/Bildmuster auswählt, wird der entsprechende Wert im Eingabefeld angezeigt und das Farb-/Bildmuster wird als aktuelle Auswahl dargestellt.
+Bei [konfigurierbaren Produkten](product-create-configurable.md) kann die Farbe durch ein visuelles Farb- oder Textmuster oder ein Eingabesteuerelement angezeigt werden. Farbfelder können auf der Produktseite, in Produktlisten und in der [&#x200B; Navigation verwendet &#x200B;](navigation-layered.md). Auf der Produktseite werden Farbfelder synchronisiert, um das entsprechende Produktbild anzuzeigen, wenn das Farbfeld ausgewählt ist. Wenn der Kunde das Farb-/Bildmuster auswählt, wird der entsprechende Wert im Eingabefeld angezeigt und das Farb-/Bildmuster wird als aktuelle Auswahl dargestellt.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Farbfelder können auch in der mehrschichtigen Navigation verwendet werden, wenn
 
 ## Erstellen von Farbfeldern für Produkte
 
-Farbfelder können als Komponente des `color`-Attributs definiert oder lokal für ein bestimmtes Produkt eingerichtet und als „Produktbilder[ hochgeladen ](product-image.md#upload-an-image).
+Farbfelder können als Komponente des `color`-Attributs definiert oder lokal für ein bestimmtes Produkt eingerichtet und als „Produktbilder[&#x200B; hochgeladen &#x200B;](product-image.md#upload-an-image).
 
 In den früheren Beispielen ist die Hose „Sylvia Capri“ in bestimmten Werten von `red`, `green` und `blue` erhältlich. Da die Farbfelder aus dem Produktbild entnommen wurden, sind sie jeweils eine wahre Darstellung der Farbe. Das Attribut `color` wird verwendet, um die Informationen für alle Produktfarben und Farbfelder zu verwalten.
 
@@ -164,7 +164,7 @@ Verwenden Sie eine der folgenden Methoden, um Farbfelder für Ihre Produkte zu e
 
 1. Klicken Sie in der Fortschrittsleiste auf **[!UICONTROL Next]**.
 
-1. [Konfigurieren Sie die Bilder, den Preis und die ](product-create-configurable.md#step-3-configure-the-images-price-and-quantity).
+1. [Konfigurieren Sie die Bilder, den Preis und die &#x200B;](product-create-configurable.md#step-3-configure-the-images-price-and-quantity).
 
    Legen Sie in diesem Schritt die Bilder, die Preise und die Menge jeder Konfiguration fest. Die verfügbaren Optionen sind für alle identisch, und Sie können nur eine auswählen. Sie können dieselbe Einstellung auf alle SKUs anwenden, eine eindeutige Einstellung auf jede SKU anwenden oder die Einstellungen für vorerst überspringen.
 

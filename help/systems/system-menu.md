@@ -41,7 +41,7 @@ Diese [Tools](data-transfer.md) bieten Ihnen die Möglichkeit, mehrere Datensät
 
 [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
-Verwalten [ (Drittanbieterintegrationen](integrations.md) und Erweiterungen für Ihren Store.
+Verwalten [&#x200B; (Drittanbieterintegrationen](integrations.md) und Erweiterungen für Ihren Store.
 
 ## [!UICONTROL Tools]
 

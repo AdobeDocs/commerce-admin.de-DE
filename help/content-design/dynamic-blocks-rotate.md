@@ -20,7 +20,7 @@ Um eine Bildschirmpräsentation mit interaktiven Inhalten zu präsentieren, kön
 
 ## Schritt 1: Erstellen Sie einzelne dynamische Blöcke
 
-Um [ dynamischen Blöcke zu erstellen](dynamic-blocks.md) die Sie in den Rotator einfügen möchten, befolgen Sie die folgenden Anweisungen:
+Um [&#x200B; dynamischen Blöcke zu erstellen](dynamic-blocks.md) die Sie in den Rotator einfügen möchten, befolgen Sie die folgenden Anweisungen:
 
 ## Schritt 2: Dynamisches Block-Rotator-Widget hinzufügen
 

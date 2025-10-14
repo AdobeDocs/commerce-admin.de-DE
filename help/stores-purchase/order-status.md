@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Bestellstatus
 
-Alle Bestellungen haben einen Bestellstatus, der mit einem Schritt in der Auftragsverarbeitung (Workflow[ verknüpft ](order-processing.md).\
+Alle Bestellungen haben einen Bestellstatus, der mit einem Schritt in der Auftragsverarbeitung (Workflow[&#x200B; verknüpft &#x200B;](order-processing.md).\
 Der Unterschied zwischen Bestellstatus und Bestellstatus besteht darin, dass **[!UICONTROL order states]** programmgesteuert verwendet werden. Sie sind es nicht
 Sichtbar für Kunden oder Admin-Benutzer. Sie bestimmen den Ablauf eines Auftrags und welche Vorgänge für einen Auftrag möglich sind
 Bestellung in einem bestimmten Zustand.\

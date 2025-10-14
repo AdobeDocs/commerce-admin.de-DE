@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Page Builder]
 
-Wenn es in der -Konfiguration aktiviert ist, ist [!DNL Page Builder] das standardmäßige Tool zur Inhaltserstellung für CMS-Seiten, -Blöcke und -dynamische Blöcke. Darüber hinaus bietet die _[!UICONTROL Enable Advanced CMS]_-Schaltfläche [!DNL Page Builder] als Option für Kategorien und Produkte. Sie können auch das standardmäßige [Seiten-Layout](../content-design/page-layout.md) auswählen, das Sie für Produkte, Kategorien und CMS-Seiten verwenden möchten. [!DNL Page Builder] ist nicht für Newsletter-Inhalte verfügbar, die den WYSIWYG-[Editor) ](../content-design/editor.md).
+Wenn es in der -Konfiguration aktiviert ist, ist [!DNL Page Builder] das standardmäßige Tool zur Inhaltserstellung für CMS-Seiten, -Blöcke und -dynamische Blöcke. Darüber hinaus bietet die _[!UICONTROL Enable Advanced CMS]_-Schaltfläche [!DNL Page Builder] als Option für Kategorien und Produkte. Sie können auch das standardmäßige [Seiten-Layout](../content-design/page-layout.md) auswählen, das Sie für Produkte, Kategorien und CMS-Seiten verwenden möchten. [!DNL Page Builder] ist nicht für Newsletter-Inhalte verfügbar, die den WYSIWYG-[Editor) &#x200B;](../content-design/editor.md).
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Weitere Informationen zu den Konfigurationsoptionen für die erweiterten Content
 
    >[!NOTE]
    >
-   >Weitere Informationen [ Verwendung von [!DNL Google Maps] in [!DNL Page Builder] Inhalten finden Sie unter ](map.md)Medien - Karte .
+   >Weitere Informationen [&#x200B; Verwendung von [!DNL Google Maps] in [!DNL Page Builder] Inhalten finden Sie unter &#x200B;](map.md)Medien - Karte .
 
 1. Gehen Sie wie folgt vor, um die Anzahl der Richtlinien im [!DNL Page Builder] Spaltenraster zu konfigurieren:
 
@@ -54,7 +54,7 @@ Weitere Informationen zu den Konfigurationsoptionen für die erweiterten Content
 
    >[!NOTE]
    >
-   >Weitere Informationen [ Verwendung des Spaltenrasters beim Arbeiten mit [!DNL Page Builder] Inhalten finden Sie unter ](column.md)Layout - Spalte .
+   >Weitere Informationen [&#x200B; Verwendung des Spaltenrasters beim Arbeiten mit [!DNL Page Builder] Inhalten finden Sie unter &#x200B;](column.md)Layout - Spalte .
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
@@ -94,7 +94,7 @@ Weitere Informationen zu den Konfigurationsoptionen für die erweiterten Content
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-1. Wenn Sie dazu aufgefordert werden[ aktualisieren Sie ](../systems/cache-management.md) ungültigen Cache.
+1. Wenn Sie dazu aufgefordert werden[&#x200B; aktualisieren Sie &#x200B;](../systems/cache-management.md) ungültigen Cache.
 
 [1]: https://developers.google.com/maps/documentation/javascript/get-api-key
 [2]: https://mapstyle.withgoogle.com/

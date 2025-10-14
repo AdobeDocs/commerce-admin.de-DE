@@ -71,7 +71,7 @@ Verwenden Sie für die Ersteinrichtung die Standardregel *Übereinstimmung nach 
 
 ### Konfigurieren der benutzerdefinierten Domain-URL
 
-Wenn ein Händler in seinem AEM[Dashboard einen ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank}benutzerdefinierten Domain-Namen“ festlegt, muss diese **benutzerdefinierte Domain-URL** in Commerce hinzugefügt werden, damit die AEM Assets-Integration sie verwenden kann.
+Wenn ein Händler in seinem AEM[Dashboard einen &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank}benutzerdefinierten Domain-Namen“ festlegt, muss diese **benutzerdefinierte Domain-URL** in Commerce hinzugefügt werden, damit die AEM Assets-Integration sie verwenden kann.
 
 1. Navigieren Sie zu **[!UICONTROL Store]** > Konfiguration > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**.
 

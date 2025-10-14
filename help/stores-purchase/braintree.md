@@ -161,7 +161,7 @@ Wechseln Sie zu [Braintree Payments][1] und melden Sie sich für ein Konto an.
 
 1. Um [!DNL Apple Pay] als Zahlungsoption mit Braintree einzubeziehen, setzen Sie **[!UICONTROL Enable ApplePay through Braintree]** auf `Yes`.
 
-   Stellen Sie sicher[ dass Sie zuerst Ihren Domain](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3)Namen in Ihrem Braintree-Konto überprüfen.
+   Stellen Sie sicher[&#x200B; dass Sie zuerst Ihren Domain](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3)Namen in Ihrem Braintree-Konto überprüfen.
 
 1. Wenn Sie Kundeninformationen sicher speichern möchten, sodass Kunden sie nicht bei jedem Kauf mit Apple Pay erneut eingeben müssen, setzen Sie **[!UICONTROL Enable Vault for ApplePay]** auf `Yes`.
 
@@ -192,7 +192,7 @@ Wechseln Sie zu [Braintree Payments][1] und melden Sie sich für ein Konto an.
 
    >[!NOTE]
    >
-   >Die gebündelte Braintree-Erweiterung unterstützt nicht alle in der Entwicklerdokumentation zu [Braintree aufgeführten lokalen ](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Weitere lokale Zahlungsmethoden werden derzeit entwickelt, um in zukünftigen Versionen unterstützt zu werden.
+   >Die gebündelte Braintree-Erweiterung unterstützt nicht alle in der Entwicklerdokumentation zu [Braintree aufgeführten lokalen &#x200B;](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Weitere lokale Zahlungsmethoden werden derzeit entwickelt, um in zukünftigen Versionen unterstützt zu werden.
 
 1. Geben Sie **[!UICONTROL Sort Order]** eine Zahl ein, um die Reihenfolge zu bestimmen, in der die lokale Zahlungsmethode angezeigt wird, wenn sie während des Checkouts mit anderen Zahlungsoptionen aufgelistet wird.
 

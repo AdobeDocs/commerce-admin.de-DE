@@ -54,7 +54,7 @@ Die Verarbeitung von Bestellungen mit PayPal Payments Advanced ist die gleiche w
    - **Verarbeitung** - Die Transaktion war erfolgreich.
    - **Zahlung ausstehend** - Das System hat keine Antwort von PayPal erhalten.
    - **Abgebrochen** - Die Transaktion war aus irgendeinem Grund nicht erfolgreich
-   - **Betrugsverdacht** - Bei der Transaktion wurden einige der „PayPal[Betrugsfilter“ ](paypal.md#paypal-fraud-management-filters). Das System erhält die Antwort von PayPal, dass die Transaktion von Fraud Service überprüft wird.
+   - **Betrugsverdacht** - Bei der Transaktion wurden einige der „PayPal[Betrugsfilter“ &#x200B;](paypal.md#paypal-fraud-management-filters). Das System erhält die Antwort von PayPal, dass die Transaktion von Fraud Service überprüft wird.
 
 1. **Händler erfüllt Bestellung** - Der Händler stellt Rechnungen aus und versendet die Bestellung.
 
@@ -118,7 +118,7 @@ Bevor Sie PayPal Payments Advanced in Commerce einrichten, müssen Sie Ihr Konto
 
 1. Erweitern Sie **[!UICONTROL PayPal All-in-One Payment Solution]** und klicken Sie auf **[!UICONTROL Configure]** für **[!UICONTROL Payments Advanced]**.
 
-   ![PayPal-Zahlungen - ](./assets/paypal-payments-advanced.png){width="600" zoomable="yes"}
+   ![PayPal-Zahlungen - &#x200B;](./assets/paypal-payments-advanced.png){width="600" zoomable="yes"}
 
 ### Schritt 2: Erforderliche Einstellungen vornehmen
 

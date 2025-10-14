@@ -47,11 +47,11 @@ In der Admin können Händler in jeder Phase des Auftrags-Workflows auf Informat
 
 - Die [Bestellungen](orders.md) Seite bietet Händlern eine leicht zugängliche Liste aller aktuellen Bestellungen und enthält Tools zum Bearbeiten und Verarbeiten vorhandener Bestellungen sowie zum Erstellen von Bestellungen im Namen von Kunden.
 
-- Auf [ Seite „Rechnungen](invoices.md) wird eine Rechnung aufgelistet, die auf einem temporären Kundenauftrag basiert und einen permanenten Datensatz des Auftrags liefert.
+- Auf [&#x200B; Seite „Rechnungen](invoices.md) wird eine Rechnung aufgelistet, die auf einem temporären Kundenauftrag basiert und einen permanenten Datensatz des Auftrags liefert.
 
-- Auf [ Seite ](shipments.md)Lieferungen“ wird der Lieferdatensatz jeder Rechnung aufgelistet, die versandbereit ist.
+- Auf [&#x200B; Seite &#x200B;](shipments.md)Lieferungen“ wird der Lieferdatensatz jeder Rechnung aufgelistet, die versandbereit ist.
 
-- Auf [ Seite ](credit-memos.md)Gutschriften“ können Händler eine Gutschrift verarbeiten und verwalten, bei der es sich um ein Dokument handelt, das den dem Kunden geschuldeten Betrag anzeigt. Der Betrag kann auf einen Kauf angerechnet oder dem Kunden zurückerstattet werden.
+- Auf [&#x200B; Seite &#x200B;](credit-memos.md)Gutschriften“ können Händler eine Gutschrift verarbeiten und verwalten, bei der es sich um ein Dokument handelt, das den dem Kunden geschuldeten Betrag anzeigt. Der Betrag kann auf einen Kauf angerechnet oder dem Kunden zurückerstattet werden.
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Auf der Seite [Rückgaben](returns.md) werden die aktuell zurückgegebenen Merchandising Requests (RMAs) aufgelistet und zur Eingabe neuer Return Requests verwendet.
 

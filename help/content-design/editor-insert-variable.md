@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Einfügen einer Variablen in den Editor
 
-Ihr Store enthält viele vordefinierte [Variablen](../systems/variables-predefined.md) die in Seiteninhalte und andere Kommunikationen integriert werden können. Darüber hinaus können Sie eigene ([) Variablen ](../systems/variables-custom.md) Ihre Anforderungen einbeziehen.
+Ihr Store enthält viele vordefinierte [Variablen](../systems/variables-predefined.md) die in Seiteninhalte und andere Kommunikationen integriert werden können. Darüber hinaus können Sie eigene ([) Variablen &#x200B;](../systems/variables-custom.md) Ihre Anforderungen einbeziehen.
 
 1. Öffnen Sie eine Seite, einen Block oder einen dynamischen Block im Bearbeitungsmodus.
 

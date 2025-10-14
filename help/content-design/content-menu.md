@@ -40,7 +40,7 @@ Wählen Sie in der _Admin_-Seitenleiste **[!UICONTROL Content]** aus.
 
 - Erstellen [Seiten](pages.md) mit Text, Bildern, Blöcken, Variablen und Widgets. Ihre Seiten können in die Navigation Ihres Stores integriert und mit anderen Seiten verknüpft werden.
 - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Organisieren Sie Ihre Seiten in einer [Hierarchie](page-hierarchy.md) mit Navigation.
-- Erstellen [ Inhaltsblöcke ](blocks.md) Schreiben von Code. Blöcke können Text, Bilder und sogar Videos enthalten und jedem Teil des Seiten-Layouts zugewiesen werden.
+- Erstellen [&#x200B; Inhaltsblöcke &#x200B;](blocks.md) Schreiben von Code. Blöcke können Text, Bilder und sogar Videos enthalten und jedem Teil des Seiten-Layouts zugewiesen werden.
 - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Erstellen Sie [dynamische Blöcke](dynamic-blocks.md) um umfangreiche, interaktive Inhalte zu integrieren, die von Logiken aus [Preisregeln](../merchandising-promotions/introduction.md#promotions) und [Kundensegmenten](../customers/customer-segments.md) werden.
 - Erstellen Sie [Widgets](widgets.md) die dynamische Daten anzeigen und Blöcke, Links und interaktive Elemente an den meisten Stellen im Store hinzufügen.
 - Erstellen Sie [Vorlagen](../page-builder/templates.md) aus Ihren Page Builder-Inhalten und sparen Sie Zeit und Mühe beim Hinzufügen neuer Inhalte (oder beim Ersetzen älterer Inhalte).

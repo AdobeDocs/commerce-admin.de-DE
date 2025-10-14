@@ -23,7 +23,7 @@ Benutzende, die ihre Anmeldung bei Adobe Commerce- und Adobe Business-Produkten 
 
 >[!NOTE]
 >
->Nachdem Sie Ihr -Konto erstellt haben, wird empfohlen, die Zwei-Faktor-Authentifizierung (TFA) zu verwenden, um [Ihr -Konto zu ](commerce-account-secure.md).
+>Nachdem Sie Ihr -Konto erstellt haben, wird empfohlen, die Zwei-Faktor-Authentifizierung (TFA) zu verwenden, um [Ihr -Konto zu &#x200B;](commerce-account-secure.md).
 
 ## Beim [!DNL Commerce]-Konto anmelden
 

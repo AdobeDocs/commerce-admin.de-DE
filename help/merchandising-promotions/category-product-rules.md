@@ -25,11 +25,11 @@ Jede Bedingung besteht aus einem Attribut, einem Wert und einem logischen Operat
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass Sie jedes Attribut, das in der Regel verwendet wird, als [_smart_-Attribut ](smart-attributes-configure.md).
+>Stellen Sie sicher, dass Sie jedes Attribut, das in der Regel verwendet wird, als [_smart_-Attribut &#x200B;](smart-attributes-configure.md).
 
 ![Kategorienproduktregel](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
 
-Kategorienproduktregeln können den Prozess der Zuweisung spezifischer Produkte zu Kategorien beschleunigen, basierend auf Bedingungen, die bestimmen, welche Produkte in der Kategorie angezeigt werden. Die „intelligenten“ Attribute, die mit Kategorieproduktregeln verwendet werden können, sind in der Konfiguration &quot;[ Merchandiser“ ](visual-merchandiser.md).
+Kategorienproduktregeln können den Prozess der Zuweisung spezifischer Produkte zu Kategorien beschleunigen, basierend auf Bedingungen, die bestimmen, welche Produkte in der Kategorie angezeigt werden. Die „intelligenten“ Attribute, die mit Kategorieproduktregeln verwendet werden können, sind in der Konfiguration &quot;[&#x200B; Merchandiser“ &#x200B;](visual-merchandiser.md).
 
 >[!NOTE]
 >

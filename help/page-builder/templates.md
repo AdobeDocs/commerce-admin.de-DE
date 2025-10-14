@@ -28,7 +28,7 @@ Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTRO
 
 1. Klicken Sie oben rechts über der Bühne auf **[!UICONTROL Save as Template]** .
 
-   ![[!DNL Page Builder] mit der Schaltfläche Als Vorlage speichern ](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] mit der Schaltfläche Als Vorlage speichern &#x200B;](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
    Diese Aktion zeigt das _[!UICONTROL Save Content as Template]_&#x200B;Dialogfeld an.
 

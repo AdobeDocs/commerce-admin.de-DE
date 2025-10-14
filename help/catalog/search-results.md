@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Auf dieser Seite werden Standardsuchfunktionen beschrieben, die sich von der [Live Search“ ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=de).
+>Auf dieser Seite werden Standardsuchfunktionen beschrieben, die sich von der [Live Search“ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=de).
 
 Die _Suchergebnisse_ enthält alle Produkte, die den im Feld „Schnellsuche“ oder im Formular „Erweiterte Suche“ angegebenen Suchkriterien entsprechen. Jede Produktliste im Katalog verfügt im Wesentlichen über dieselben Steuerelemente. Der einzige Unterschied besteht darin, dass einer das Ergebnis einer Suchanfrage ist und der andere das Ergebnis von [Navigation](navigation.md).
 

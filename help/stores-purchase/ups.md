@@ -22,7 +22,7 @@ United Parcel Service (UPS) bietet inländische und internationale Verschiffen a
 
 ## Schritt 1: Öffnen Sie ein UPS Versandkonto
 
-Um diese Versandart Ihren Kunden anzubieten, müssen Sie zunächst ein UPS-Konto eröffnen und den Antrag ausfüllen, um eine Versender-Kontonummer zu erhalten. Siehe [Kostenloses UPS-Konto ](https://www.ups.com/us/en/business-solutions/open-an-account).
+Um diese Versandart Ihren Kunden anzubieten, müssen Sie zunächst ein UPS-Konto eröffnen und den Antrag ausfüllen, um eine Versender-Kontonummer zu erhalten. Siehe [Kostenloses UPS-Konto &#x200B;](https://www.ups.com/us/en/business-solutions/open-an-account).
 
 ## Schritt 2: Abrufen von UPS OAUTH-Anmeldeinformationen
 

@@ -16,7 +16,7 @@ Es gibt mehrere Möglichkeiten, Ihren Speicher zu schützen und Ihre Datensicher
 
 - Einrichten [Zwei-Faktor-Authentifizierung](security-two-factor-authentication.md)
 - Implementieren von [CAPTCHA](security-captcha.md) oder [reCAPTCHA](security-google-recaptcha.md)
-- Richten Sie für jede Domain [ Ihrer Adobe Commerce- oder Magento Open Source](security-scan.md)Installation eine Sicherheitsüberprüfung ein.
+- Richten Sie für jede Domain [&#x200B; Ihrer Adobe Commerce- oder Magento Open Source](security-scan.md)Installation eine Sicherheitsüberprüfung ein.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Besuchen Sie das [Sicherheitscenter](https://helpx.adobe.com/de/security.html){:
 
 ![Sicherheitszentrum](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-Informationen zu Best Practices für die Sicherheit finden Sie unter [Sichern der Commerce-Site und ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=de)) im _Implementierungs-Playbook_.
+Informationen zu Best Practices für die Sicherheit finden Sie unter [Sichern der Commerce-Site und &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=de)) im _Implementierungs-Playbook_.
 
 ## Sicherheits-Aktionsplan
 
@@ -40,4 +40,4 @@ Wenn Sie vermuten, dass Ihre Adobe Commerce- oder Magento Open Source-Site gefä
 
 1. **Bericht**: Wenn Sie glauben, dass Sie eine bestimmte Sicherheitslücke in Commerce gefunden haben, [öffnen Sie ein Problem mit Adobe](https://hackerone.com/adobe?type=team) und geben Sie technische Details an.
 
-1. **Upgrade**: Planen Sie jetzt Ihr Upgrade auf [Adobe Commerce in unserer Cloud-Architektur, um die zusätzliche Sicherheit zu ](https://business.adobe.com/products/magento/cloud-delivery.html), die durch den 24/7-Support entsteht.
+1. **Upgrade**: Planen Sie jetzt Ihr Upgrade auf [Adobe Commerce in unserer Cloud-Architektur, um die zusätzliche Sicherheit zu &#x200B;](https://business.adobe.com/products/magento/cloud-delivery.html), die durch den 24/7-Support entsteht.

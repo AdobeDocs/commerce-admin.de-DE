@@ -29,7 +29,7 @@ Für diese Funktion sind das Modul und die Konfiguration für die {0[&#128279;](
 
 1. Klicken Sie auf **[!UICONTROL Save Preview]**.
 
-   In dieser Aktion werden Sie aufgefordert, einen Dateinamen anzugeben, mit dem das Bild im [Medienspeicher“ gespeichert ](./media-storage.md). Es wird ein standardmäßiger Dateiname bereitgestellt, Sie können den Namen jedoch an Ihre Anforderungen anpassen.
+   In dieser Aktion werden Sie aufgefordert, einen Dateinamen anzugeben, mit dem das Bild im [Medienspeicher“ gespeichert &#x200B;](./media-storage.md). Es wird ein standardmäßiger Dateiname bereitgestellt, Sie können den Namen jedoch an Ihre Anforderungen anpassen.
 
    ![Adobe Stock-Vorschaubild speichern](./assets/adobe-stock-save-preview.png){width="500" zoomable="yes"}
 

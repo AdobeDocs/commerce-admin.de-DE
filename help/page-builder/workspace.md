@@ -96,14 +96,14 @@ Standardmäßig ist die [!DNL Page Builder] leer. Beim Ziehen von Layout-Inhalts
 | Inhaltstyp des Layouts | Beschreibung |
 | ------------------- |------------ |
 | [Reihe](row.md) | Eine neue Zeile kann nur aus dem Bedienfeld in den Schritt gezogen und entweder über oder unter einer anderen Zeile, Registerkarte oder Spaltengruppe positioniert werden. Sie können auch die Option Duplizieren verwenden, um eine Kopie einer vorhandenen Zeile zu erstellen. |
-| [Spalte](column.md) | Eine Spalte kann aus dem Bedienfeld auf die Bühne oder in Zeilen und Registerkarten gezogen werden. Die maximale Anzahl von Spalten, die hinzugefügt werden können, wird durch die Anzahl der Rasterunterteilungen bestimmt, die in der [Konfiguration“ angegeben ](setup.md). |
+| [Spalte](column.md) | Eine Spalte kann aus dem Bedienfeld auf die Bühne oder in Zeilen und Registerkarten gezogen werden. Die maximale Anzahl von Spalten, die hinzugefügt werden können, wird durch die Anzahl der Rasterunterteilungen bestimmt, die in der [Konfiguration“ angegeben &#x200B;](setup.md). |
 | [Registerkarten](tabs.md) | Eine einzelne Registerkarte kann aus dem Bedienfeld in das Stadium oder in Zeilen und Spalten gezogen werden. Zusätzliche Registerkarten können aus der Toolbox hinzugefügt werden. |
 
 {style="table-layout:auto"}
 
 ### Elemente
 
-Verwenden Sie den _[!UICONTROL Elements]_&#x200B;Abschnitt des [!DNL Page Builder] Bedienfelds, um Text, Überschriften, Schaltflächen, Trennzeichen und HTML-Code zu jedem Layout-Container auf der [[!DNL Page Builder] Bühne“ ](workspace.md#stage). Wenn Sie einen Inhaltstyp aus dem Bedienfeld in eine Zeile oder Spalte oder in einen Registerkartensatz auf der Bühne ziehen, wird ein Container angezeigt. Verwenden Sie die Toolbox Inhaltstyp , um auf die für den Typ spezifischen Einstellungen zuzugreifen.
+Verwenden Sie den _[!UICONTROL Elements]_&#x200B;Abschnitt des [!DNL Page Builder] Bedienfelds, um Text, Überschriften, Schaltflächen, Trennzeichen und HTML-Code zu jedem Layout-Container auf der [[!DNL Page Builder] Bühne“ &#x200B;](workspace.md#stage). Wenn Sie einen Inhaltstyp aus dem Bedienfeld in eine Zeile oder Spalte oder in einen Registerkartensatz auf der Bühne ziehen, wird ein Container angezeigt. Verwenden Sie die Toolbox Inhaltstyp , um auf die für den Typ spezifischen Einstellungen zuzugreifen.
 
 Bedienfeld mit Inhaltstypen für Elemente ![[!DNL Page Builder]](./assets/pb-elements.png){width="600" zoomable="yes"}
 
@@ -135,7 +135,7 @@ Verwenden Sie den Abschnitt _[!UICONTROL Media]_&#x200B;des [!DNL Page Builder] 
 
 ### Inhalt hinzufügen
 
-Verwenden Sie den Abschnitt _[!UICONTROL Add Content]_&#x200B;des Bedienfelds [!DNL Page Builder] , um vorhandene Inhalte zur [[!DNL Page Builder] Phase“ ](workspace.md#stage). Wenn Sie einen Medien-Content-Typ aus dem Bedienfeld in das Stadium ziehen, wird ein Container angezeigt. Verwenden Sie die Toolbox Inhaltstyp , um auf die_ Einstellungen _zuzugreifen, die für den Typ spezifisch sind.
+Verwenden Sie den Abschnitt _[!UICONTROL Add Content]_&#x200B;des Bedienfelds [!DNL Page Builder] , um vorhandene Inhalte zur [[!DNL Page Builder] Phase“ &#x200B;](workspace.md#stage). Wenn Sie einen Medien-Content-Typ aus dem Bedienfeld in das Stadium ziehen, wird ein Container angezeigt. Verwenden Sie die Toolbox Inhaltstyp , um auf die_ Einstellungen _zuzugreifen, die für den Typ spezifisch sind.
 
 ![[!DNL Page Builder] Bedienfeld mit „Inhaltstypen hinzufügen“](./assets/pb-add-content.png){width="600" zoomable="yes"}
 

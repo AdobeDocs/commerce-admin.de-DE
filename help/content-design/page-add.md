@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Hinzufügen und Entfernen von Seiten
 
-Der Prozess des Hinzufügens einer Inhaltsseite zu Ihrem Store ist für jeden Seitentyp, den Sie erstellen möchten, im Wesentlichen identisch. Sie können Text, Bilder, Inhaltsblöcke, Variablen und Widgets einschließen. Die meisten Inhaltsseiten sind so konzipiert, dass sie zuerst von Suchmaschinen und dann von Personen gelesen werden. Berücksichtigen Sie bei der Auswahl des Seitentitels und der URL sowie bei der Erstellung der Metadaten und Inhalte die Bedürfnisse jeder dieser beiden Zielgruppen. Wenn Ihre Seite vollständig ist, kann sie zur Navigation Ihres Stores hinzugefügt, mit anderen Seiten verknüpft, über die Fußzeile Ihres Stores verknüpft oder als neue ([) ](page-home-new.md) verwendet werden.
+Der Prozess des Hinzufügens einer Inhaltsseite zu Ihrem Store ist für jeden Seitentyp, den Sie erstellen möchten, im Wesentlichen identisch. Sie können Text, Bilder, Inhaltsblöcke, Variablen und Widgets einschließen. Die meisten Inhaltsseiten sind so konzipiert, dass sie zuerst von Suchmaschinen und dann von Personen gelesen werden. Berücksichtigen Sie bei der Auswahl des Seitentitels und der URL sowie bei der Erstellung der Metadaten und Inhalte die Bedürfnisse jeder dieser beiden Zielgruppen. Wenn Ihre Seite vollständig ist, kann sie zur Navigation Ihres Stores hinzugefügt, mit anderen Seiten verknüpft, über die Fußzeile Ihres Stores verknüpft oder als neue ([) &#x200B;](page-home-new.md) verwendet werden.
 
 ![Seitenraster](./assets/pages-grid.png){width="700" zoomable="yes"}
 
@@ -32,11 +32,11 @@ Die folgenden Anweisungen führen Sie durch die einzelnen Schritte zum Erstellen
 
 1. Geben Sie die **[!UICONTROL Page Title]** ein.
 
-   Der Seitentitel wird in der [Breadcrumb“ ](../catalog/navigation-breadcrumb-trail.md).
+   Der Seitentitel wird in der [Breadcrumb“ &#x200B;](../catalog/navigation-breadcrumb-trail.md).
 
 ### Schritt 2: Inhalt abschließen
 
-Fügen Sie je nach [ Konfiguration der erweiterten ](../configuration-reference/general/content-management.md) den Seiteninhalt hinzu.
+Fügen Sie je nach [&#x200B; Konfiguration der erweiterten &#x200B;](../configuration-reference/general/content-management.md) den Seiteninhalt hinzu.
 
 #### Verwenden der Inhaltstools von Page Builder
 
@@ -46,7 +46,7 @@ Fügen Sie je nach [ Konfiguration der erweiterten ](../configuration-reference/
 
 1. Geben Sie in das **[!UICONTROL Content Heading]** die Überschrift ein, die oben auf der Seite angezeigt werden soll.
 
-   Wenn diese Option aktiviert ist[ werden das ](../page-builder/introduction.md) und Bedienfeld „Page Builder“ unter der Überschrift „Inhalt“ angezeigt. Weitere Informationen finden Sie unter [Workspace](../page-builder/workspace.md). Wenn _Page Builder_ nicht aktiviert ist, wird der Editor im WYSIWYG-Modus geöffnet, wobei die Symbolleiste oben angezeigt wird.
+   Wenn diese Option aktiviert ist[&#x200B; werden das &#x200B;](../page-builder/introduction.md) und Bedienfeld „Page Builder“ unter der Überschrift „Inhalt“ angezeigt. Weitere Informationen finden Sie unter [Workspace](../page-builder/workspace.md). Wenn _Page Builder_ nicht aktiviert ist, wird der Editor im WYSIWYG-Modus geöffnet, wobei die Symbolleiste oben angezeigt wird.
 
 1. Vervollständigen Sie den Inhalt und formatieren Sie den Text nach Bedarf.
 
@@ -60,7 +60,7 @@ Fügen Sie je nach [ Konfiguration der erweiterten ](../configuration-reference/
 
 1. Vervollständigen Sie den Inhalt und formatieren Sie den Text nach Bedarf.
 
-   Sie können nach [ (](media-storage.md)), [Variablen](../systems/variables-predefined.md) und [Widgets](widgets.md) hinzufügen. Weitere Informationen finden Sie unter [Verwenden des Editors](editor.md).
+   Sie können nach [&#x200B; (](media-storage.md)), [Variablen](../systems/variables-predefined.md) und [Widgets](widgets.md) hinzufügen. Weitere Informationen finden Sie unter [Verwenden des Editors](editor.md).
 
 ### Schritt 3: Vervollständigen Sie die SEO-Informationen
 

@@ -16,7 +16,7 @@ Verwenden Sie den _Produktempfehlungen_ Content-Typ, um eine vorhandene, aktive 
 
 >[!NOTE]
 >
->Der Content-Typ [!DNL Page Builder] _Produktempfehlungen_ wird in Adobe Commerce 2.4.4 und höher unterstützt und ist im [Product Recommendations-Metapaket Version 3.0.x oder höher) ](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Informationen zum Hinzufügen [!DNL Page Builder] Unterstützung für Produktempfehlungen [finden Sie in den Installationsinformationen](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/getting-started/install-configure). **Dieser Inhaltstyp ist für Magento Open Source nicht verfügbar.**
+>Der Content-Typ [!DNL Page Builder] _Produktempfehlungen_ wird in Adobe Commerce 2.4.4 und höher unterstützt und ist im [Product Recommendations-Metapaket Version 3.0.x oder höher) &#x200B;](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Informationen zum Hinzufügen [!DNL Page Builder] Unterstützung für Produktempfehlungen [finden Sie in den Installationsinformationen](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/getting-started/install-configure). **Dieser Inhaltstyp ist für Magento Open Source nicht verfügbar.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +37,7 @@ Verwenden Sie den _Produktempfehlungen_ Content-Typ, um eine vorhandene, aktive 
 
 ## Hinzufügen einer vorhandenen Empfehlungseinheit
 
-1. Stellen Sie sicher, [ Sie bereits eine Empfehlungseinheit ](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/admin/create) den [!DNL Page Builder] Seitentyp erstellt haben.
+1. Stellen Sie sicher, [&#x200B; Sie bereits eine Empfehlungseinheit &#x200B;](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/admin/create) den [!DNL Page Builder] Seitentyp erstellt haben.
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ Verwenden Sie den _Produktempfehlungen_ Content-Typ, um eine vorhandene, aktive 
 
 ## Einstellungen der Empfehlungseinheit bearbeiten
 
-1. Bewegen Sie den Mauszeiger über den Container mit den Empfehlungseinheiten, um die Toolbox anzuzeigen, und klicken Sie _das Symbol_ Einstellungen![ (](./assets/pb-icon-settings.png)).
+1. Bewegen Sie den Mauszeiger über den Container mit den Empfehlungseinheiten, um die Toolbox anzuzeigen, und klicken Sie _das Symbol_ Einstellungen![&#x200B; (](./assets/pb-icon-settings.png)).
 
    ![Recommendations-Toolbox](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 

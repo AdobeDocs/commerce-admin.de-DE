@@ -41,7 +41,7 @@ Verwalten Sie die Hierarchie [Websites, Stores und Store-](stores.md#store-and-s
 
 ### [!UICONTROL Inventory]
 
-[Verwalten und Erstellen von ](../inventory-management/introduction.md), um Ihre Vertriebskanäle oder Websites mit [Quellen](../inventory-management/sources-manage.md) zu verknüpfen. Die Lagerbestände liefern eine aggregierte verkaufsfähige Menge an Erzeugnissen. Einzelne Source-Händler verwenden den Standardbestand, während Händler mit mehreren Source zusätzliche benutzerdefinierte Lager verwenden.
+[Verwalten und Erstellen von &#x200B;](../inventory-management/introduction.md), um Ihre Vertriebskanäle oder Websites mit [Quellen](../inventory-management/sources-manage.md) zu verknüpfen. Die Lagerbestände liefern eine aggregierte verkaufsfähige Menge an Erzeugnissen. Einzelne Source-Händler verwenden den Standardbestand, während Händler mit mehreren Source zusätzliche benutzerdefinierte Lager verwenden.
 
 ### [!UICONTROL Taxes]
 
@@ -53,7 +53,7 @@ Verwalten Sie die Kurse für die [Währungen](currency.md) die als Zahlung in Ih
 
 ### [!UICONTROL Attributes]
 
-Verwalten Sie Attribute, die für [Kunden](../customers/attribute-properties.md) oder [Produktinformationen](../catalog/attribute-product-create.md), Rückgaben und Produktbewertungen verwendet werden. Sie können Attribute erstellen, vorhandene Attribute bearbeiten und ([) ](../catalog/attribute-sets.md).
+Verwalten Sie Attribute, die für [Kunden](../customers/attribute-properties.md) oder [Produktinformationen](../catalog/attribute-product-create.md), Rückgaben und Produktbewertungen verwendet werden. Sie können Attribute erstellen, vorhandene Attribute bearbeiten und ([) &#x200B;](../catalog/attribute-sets.md).
 
 ### [!UICONTROL Other Settings]
 

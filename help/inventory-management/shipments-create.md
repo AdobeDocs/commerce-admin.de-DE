@@ -43,7 +43,7 @@ Wenn Sie Lieferungen eingeben, werden die eingegebenen Beträge von den Lagerbes
 
      >[!IMPORTANT]
      >
-     >Wenn Sie den Distance Priority-Algorithmus für Versand und Routen verwenden und die Daten für den ausgewählten [Berechnungsmodus) (](distance-priority-algorithm.md), Fahrradfahren oder Gehen) für eine Sendung nicht zurückgegeben werden, verwendet die SSA standardmäßig die Source-Priorität. Es wird empfohlen, auch die [Priorität für Quellen pro Lager) ](stocks-prioritize-sources.md).
+     >Wenn Sie den Distance Priority-Algorithmus für Versand und Routen verwenden und die Daten für den ausgewählten [Berechnungsmodus) (](distance-priority-algorithm.md), Fahrradfahren oder Gehen) für eine Sendung nicht zurückgegeben werden, verwendet die SSA standardmäßig die Source-Priorität. Es wird empfohlen, auch die [Priorität für Quellen pro Lager) &#x200B;](stocks-prioritize-sources.md).
 
 
    - Wählen Sie **[!UICONTROL Select a Source to Ship from]** eine Quelle aus, um eine Sendung zu versenden.

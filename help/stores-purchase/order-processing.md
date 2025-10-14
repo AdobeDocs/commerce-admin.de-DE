@@ -64,7 +64,7 @@ Um eine `Pending` Reihenfolge zu öffnen, klicken Sie oben rechts auf **[!UICONT
 
 >[!NOTE]
 >
->Bestellungen können nur bearbeitet werden, wenn sie sich im Status `Pending` befinden. Die Schaltfläche „Bearbeiten“ ist nicht für Bestellungen mit einem anderen Status oder für Bestellungen sichtbar, die auf einem &quot;[ Angebot“ ](../b2b/quotes.md).
+>Bestellungen können nur bearbeitet werden, wenn sie sich im Status `Pending` befinden. Die Schaltfläche „Bearbeiten“ ist nicht für Bestellungen mit einem anderen Status oder für Bestellungen sichtbar, die auf einem &quot;[&#x200B; Angebot“ &#x200B;](../b2b/quotes.md).
 
 ![Kundenauftrag bearbeiten](./assets/order-pending.png){width="600" zoomable="yes"}
 
@@ -106,7 +106,7 @@ Um eine `Pending` Reihenfolge zu öffnen, klicken Sie oben rechts auf **[!UICONT
 
 Sie können [stornieren](order-update.md) Bestellungen, die noch nicht fakturiert wurden. Eine [Gutschrift](credit-memos.md) muss ausgestellt werden, wenn ein Kunde eine Bestellung stornieren möchte, nachdem sie in Rechnung gestellt wurde (Zahlung wird erfasst).
 
-Wenn eine Bestellung `Pending` oder `Processing` wird und die Zahlung nicht oder nicht vollständig erfasst wird, können Sie [ Bestellung stornieren](#void-an-order) anstatt sie zu stornieren.
+Wenn eine Bestellung `Pending` oder `Processing` wird und die Zahlung nicht oder nicht vollständig erfasst wird, können Sie [&#x200B; Bestellung stornieren](#void-an-order) anstatt sie zu stornieren.
 
 Um eine stornierte Bestellung wiederherzustellen, klicken Sie auf die Schaltfläche **[!UICONTROL Reorder]** und eine neue Bestellung wird mit dem Status `Pending` erstellt.
 
@@ -141,7 +141,7 @@ Nur Kundenaufträge, die nicht fakturiert wurden, den Status `Processing` und di
 | [!UICONTROL Customer Name] | Der Name des Kunden oder Käufers, der die Bestellung aufgegeben hat. Der Kundenname ist mit dem Kundenprofil verknüpft. |
 | [!UICONTROL Email] | Die E-Mail-Adresse des Kunden oder Käufers. Die E-Mail-Adresse ist mit dem Öffnen einer neuen E-Mail-Nachricht verknüpft. |
 | [!UICONTROL Customer Group] | Der Name der Kundengruppe oder des freigegebenen Katalogs, dem der Kunde zugewiesen ist. |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B) Der Name des Unternehmens, mit dem der Käufer verknüpft ist und für das die Bestellung aufgegeben wird. Der Firmenname ist mit dem [Firmenprofil“ ](../b2b/account-companies.md). |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B) Der Name des Unternehmens, mit dem der Käufer verknüpft ist und für das die Bestellung aufgegeben wird. Der Firmenname ist mit dem [Firmenprofil“ &#x200B;](../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 
