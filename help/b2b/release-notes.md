@@ -36,7 +36,7 @@ Kompatibel mit Adobe Commerce Version 2.4.9-alpha3
 
 Kompatibel mit Adobe Commerce Version 2.4.9-alpha2
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.5.2-p3
 
@@ -54,7 +54,7 @@ Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p7, 2.4.6 bis 2.4.6-p12.
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitspatches der Adobe Commerce-Versionen 2.4.8-p2, 2.4.7-p7 und 2.4.6-p12.
 Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p6, 2.4.6 bis 2.4.6-p11.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.5.2-p1
 
@@ -92,9 +92,9 @@ Diese Verbesserung baut auf der Multi-Company-Membership-Funktion von B2B 1.5.0 
 
 ![Problem behoben](../assets/fix.svg) Die B2B-Version 1.5.2 enthält die folgenden Fehlerbehebungen für verhandelbare Angebote:
 
-- <!-- B2B-3252 -->Das Feld [!UICONTROL Line Item Discount Amount] validiert jetzt die Eingabe, um die Eingabe negativer Rabattwerte zu verhindern.
-- <!-- B2B-3224 -->Es wurde ein Problem mit dem Benutzererlebnis behoben, bei dem lange Zeileneintragsnotizen abgeschnitten und für B2B-Kunden schwer lesbar waren.
-- <!-- B2B-2865 -->B2B-Kunden können jetzt Produktmengen mithilfe von Dezimalwerten (z. B. 1.5 oder 2.75) angeben, wenn sie Angebote erstellen.
+- &#x200B;<!-- B2B-3252 -->Das Feld [!UICONTROL Line Item Discount Amount] validiert jetzt die Eingabe, um die Eingabe negativer Rabattwerte zu verhindern.
+- &#x200B;<!-- B2B-3224 -->Es wurde ein Problem mit dem Benutzererlebnis behoben, bei dem lange Zeileneintragsnotizen abgeschnitten und für B2B-Kunden schwer lesbar waren.
+- &#x200B;<!-- B2B-2865 -->B2B-Kunden können jetzt Produktmengen mithilfe von Dezimalwerten (z. B. 1.5 oder 2.75) angeben, wenn sie Angebote erstellen.
 
 ### Angebotsvorlage
 
@@ -124,7 +124,7 @@ Die B2B-Version 1.5.1 enthält Qualitätsverbesserungen und Fehlerbehebungen.
 
 ### Verhandelbares Angebot
 
-![Es wurde ](../assets/fix.svg)<!-- B2B-3820 --> Problem behoben: Das System behält jetzt die Position von Benutzeroberflächenelementen bei, wenn die JavaScript-Validierung auf die *[!UICONTROL min/max qty]* Felder auf der Seite „Zitatvorlage“ der Luma-Storefront angewendet wird. Zuvor hat das Anwenden der JavaScript-Validierung auf diese Felder dazu geführt, dass sich andere Benutzeroberflächenelemente auf der Seite verschoben haben.
+![Es wurde &#x200B;](../assets/fix.svg)<!-- B2B-3820 --> Problem behoben: Das System behält jetzt die Position von Benutzeroberflächenelementen bei, wenn die JavaScript-Validierung auf die *[!UICONTROL min/max qty]* Felder auf der Seite „Zitatvorlage“ der Luma-Storefront angewendet wird. Zuvor hat das Anwenden der JavaScript-Validierung auf diese Felder dazu geführt, dass sich andere Benutzeroberflächenelemente auf der Seite verschoben haben.
 
 ### Warenkorb
 
@@ -193,9 +193,9 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 - **Angebot als Entwurf speichern**<!--B2B-2566--> - Beim Erstellen einer [Angebotsanfrage](quote-request.md) aus dem Warenkorb können Käufer das Angebot jetzt als Entwurf speichern, damit sie es überprüfen und aktualisieren können, bevor sie den Angebotsverhandlungsprozess mit dem Verkäufer starten. Der Angebotsentwurf hat kein Ablaufdatum. Einkäufer können Angebotsentwürfe im Abschnitt [!UICONTROL My Quotes] ihres Konto-Dashboards einsehen und aktualisieren.
 
-- **Angebot umbenennen**<!--B2B-2596--> - Käufer können jetzt einen Angebotsnamen auf der Seite [Angebotsdetails“ ](account-dashboard-my-quotes.md#quote-actions), indem sie die Option **[!UICONTROL Rename]** auswählen. Diese Option steht autorisierten Käufern beim Bearbeiten des Angebots zur Verfügung. Namensänderungsereignisse werden im Angebotsprotokoll aufgezeichnet.
+- **Angebot umbenennen**<!--B2B-2596--> - Käufer können jetzt einen Angebotsnamen auf der Seite [Angebotsdetails“ &#x200B;](account-dashboard-my-quotes.md#quote-actions), indem sie die Option **[!UICONTROL Rename]** auswählen. Diese Option steht autorisierten Käufern beim Bearbeiten des Angebots zur Verfügung. Namensänderungsereignisse werden im Angebotsprotokoll aufgezeichnet.
 
-- **Doppeltes Angebot**<!--B2B-2701--> - Käufer und Verkäufer können jetzt ein neues Angebot durch Kopieren eines vorhandenen Angebots erstellen. Eine Kopie wird aus der Angebotsdetailansicht erstellt, indem **[!UICONTROL Create Copy]** in der [Angebotsdetailansicht) ](quote-price-negotiation.md#button-bar) Admin oder der [Storefront“ ](account-dashboard-my-quotes.md#quote-actions).
+- **Doppeltes Angebot**<!--B2B-2701--> - Käufer und Verkäufer können jetzt ein neues Angebot durch Kopieren eines vorhandenen Angebots erstellen. Eine Kopie wird aus der Angebotsdetailansicht erstellt, indem **[!UICONTROL Create Copy]** in der [Angebotsdetailansicht) &#x200B;](quote-price-negotiation.md#button-bar) Admin oder der [Storefront“ &#x200B;](account-dashboard-my-quotes.md#quote-actions).
 
 - **Angebotsartikel in Anforderungsliste verschieben**<!--B2B-2755--> - Einkäufer haben jetzt die Möglichkeit, Produkte aus einem Angebot zu entfernen und in einer Anforderungsliste zu speichern, wenn sie sie nicht in den Angebotsaushandlungsprozess einbeziehen möchten.
 
@@ -233,7 +233,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitsaktualisierungen für Adobe Commerce 2.4.7-p7+ und 2.4.6-p12+.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 {{b2b-compatibility}}
 
@@ -377,7 +377,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das B2B-Sicherheitspaket hinzufügen, indem Sie manuelle Abhängigkeiten für das B2B-Sicherheitspaket mit einem &quot;[&quot; ](https://getcomposer.org/doc/04-schema.md#package-links). Anweisungen finden Sie in der [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
+Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das B2B-Sicherheitspaket hinzufügen, indem Sie manuelle Abhängigkeiten für das B2B-Sicherheitspaket mit einem &quot;[&quot; &#x200B;](https://getcomposer.org/doc/04-schema.md#package-links). Anweisungen finden Sie in der [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
 ## B2B v1.3.5-p13
 
@@ -393,7 +393,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce-Sicherheits-Patch-Versionen 2.4.6-p12+.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.5-p10
 
@@ -459,7 +459,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Problem behoben](../assets/fix.svg) <!--- ACP2E-1203--> Admin-Benutzer können jetzt benutzerdefinierte Attributwerte von Kunden für Firmenbenutzer speichern. Zuvor konnten benutzerdefinierte Kundenattribute für Unternehmensbenutzer nicht gespeichert werden.
 
-![Es wurde ](../assets/fix.svg), <!--- ACP2E-1221--> Leistungsprobleme durch die Validierung von Unternehmensberechtigungen behoben werden, die über GraphQL bereitgestellt werden, wenn bereits viele Unternehmensberechtigungen zugewiesen sind.
+![Es wurde &#x200B;](../assets/fix.svg), <!--- ACP2E-1221--> Leistungsprobleme durch die Validierung von Unternehmensberechtigungen behoben werden, die über GraphQL bereitgestellt werden, wenn bereits viele Unternehmensberechtigungen zugewiesen sind.
 
 ![Problem behoben](../assets/fix.svg) <!--- ACP2E-1242--> Adobe Commerce gibt keinen Fehler mehr auf der Warenkorbseite aus, wenn die Schnellbestellung zum Hinzufügen eines Produkts in einer Menge verwendet wird, die den verfügbaren Lagerbestand übersteigt.
 
@@ -483,7 +483,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.0 und neuere Versionen
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.4-p13
 
@@ -573,7 +573,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.0 und neuere Versionen
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.3-p14
 
@@ -699,7 +699,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ### Bestellungen
 
-![Es wurde ](../assets/fix.svg), <!--- MC-39983--> Adobe Commerce jetzt eine informative Fehlermeldung wie erwartet anzeigt, wenn Sie eine Bestellung mit PayPal Express Checkout aufgeben, wenn das **[!UICONTROL Name Prefix]** auf `required` gesetzt ist. Zuvor hat Adobe Commerce keine Bestellung aufgegeben oder keine Fehlermeldung angezeigt.
+![Es wurde &#x200B;](../assets/fix.svg), <!--- MC-39983--> Adobe Commerce jetzt eine informative Fehlermeldung wie erwartet anzeigt, wenn Sie eine Bestellung mit PayPal Express Checkout aufgeben, wenn das **[!UICONTROL Name Prefix]** auf `required` gesetzt ist. Zuvor hat Adobe Commerce keine Bestellung aufgegeben oder keine Fehlermeldung angezeigt.
 
 ![Problem behoben](../assets/fix.svg) <!--- MC-39620--> Die Benutzeroberflächenkomponente für die Rechnungsadresse im Bestellmodul verwendet jetzt die Angebotsadresse korrekt, wenn der Google Tag Manager aktiviert ist. Zuvor ist auf der Zahlungsseite ein JavaScript-Fehler aufgetreten.
 
@@ -707,7 +707,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Problem behoben](../assets/fix.svg) <!--- MC-40426--> Händler können jetzt den Endpunkt POST-`rest/all/V1/requisition_lists` verwenden, um eine Anforderungsliste für einen Kunden zu erstellen. Zuvor gab Adobe Commerce diesen 400-Fehler, als Sie versuchten, eine Anforderungsliste zu erstellen: `Could not save Requisition List`.
 
-![Problem behoben](../assets/fix.svg) <!--- MC-41123--> Die Schaltfläche **[!UICONTROL Add to Requisition List]** wird jetzt für die vorrätigen Produkte eines Warenkorbs angezeigt, wenn der Warenkorb auch nicht vorrätige Produkte enthält. Wenn ein Warenkorb zuvor zwei Produkte enthielt, von denen eines nicht vorrätig war, wurde bei keinem der Produkte die Schaltfläche _[!UICONTROL Add to Requisition List]_angezeigt.
+![Problem behoben](../assets/fix.svg) <!--- MC-41123--> Die Schaltfläche **[!UICONTROL Add to Requisition List]** wird jetzt für die vorrätigen Produkte eines Warenkorbs angezeigt, wenn der Warenkorb auch nicht vorrätige Produkte enthält. Wenn ein Warenkorb zuvor zwei Produkte enthielt, von denen eines nicht vorrätig war, wurde bei keinem der Produkte die Schaltfläche _[!UICONTROL Add to Requisition List]_&#x200B;angezeigt.
 
 ![Problem behoben](../assets/fix.svg) <!--- MC-40877--> Sie können jetzt die REST-API verwenden, um ein Produkt zu einer Anforderungsliste hinzuzufügen.
 
@@ -743,7 +743,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Neu](../assets/new.svg) Für Bestellungen werden jetzt Online-Zahlungsmethoden unterstützt.
 
-![Es wurde ](../assets/fix.svg), dass beim Hinzufügen eines konfigurierbaren Produkts zum Warenkorb direkt über eine Anforderungsliste, wenn dieses Produkt in einer früheren Bestellung verwendet wurde, kein Systemfehler mehr zurückgegeben wird.
+![Es wurde &#x200B;](../assets/fix.svg), dass beim Hinzufügen eines konfigurierbaren Produkts zum Warenkorb direkt über eine Anforderungsliste, wenn dieses Produkt in einer früheren Bestellung verwendet wurde, kein Systemfehler mehr zurückgegeben wird.
 
 ![Problem behoben](../assets/fix.svg) Adobe Commerce zeigt jetzt bei Bestellungen, wenn eine Aufspaltungs-Datenbankkonfiguration bereitgestellt wird, die Registerkarte Meine Genehmigung erforderlich korrekt an.
 
@@ -761,7 +761,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Problem behoben](../assets/fix.svg) Adobe Commerce speichert jetzt ein gruppiertes Produkt in einer Anforderungsliste als Liste einfacher Produkte auf die gleiche Weise, wie es ein gruppiertes Produkt zum Warenkorb hinzufügt. Aufgrund der Art und Weise, wie Adobe Commerce gruppierte Produkte gespeichert hat, wurde der Link für ein gruppiertes Produkt aus der Anforderungsliste bisher immer zu einfachen Produkten und nicht zu dem gruppierten Produkt umgeleitet. <!--- MC-38049-->
 
-![Es wurde ein Problem ](../assets/fix.svg). Beim Exportieren von Bestellinformationen im CSV-Format können Bestellungen jetzt nach dem Feld &quot;**[!UICONTROL Company Name]**&quot; gefiltert werden. Zuvor hat Adobe Commerce einen Fehler in `var/export/{file-id}` protokolliert. <!--- MC-37785-->
+![Es wurde ein Problem &#x200B;](../assets/fix.svg). Beim Exportieren von Bestellinformationen im CSV-Format können Bestellungen jetzt nach dem Feld &quot;**[!UICONTROL Company Name]**&quot; gefiltert werden. Zuvor hat Adobe Commerce einen Fehler in `var/export/{file-id}` protokolliert. <!--- MC-37785-->
 
 ![Problem behoben](../assets/fix.svg) Adobe Commerce zeigt jetzt das Popup Anforderungsliste erstellen wie erwartet an, wenn Sie in der Storefront die Registerkarte Neue Anforderungsliste erstellen auswählen. <!--- MC-37915-->
 
@@ -773,7 +773,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Problem behoben](../assets/fix.svg) Die Schaltfläche &quot;**[!UICONTROL Add to Cart]**&quot; ist nicht mehr blockiert, wenn der Abschnitt &quot;_[!UICONTROL Enter Multiple SKUs]_&quot; auf der Seite „Schnellbestellung“ einen leeren Wert enthält. Stattdessen zeigt Adobe Commerce jetzt eine Meldung an, in der Sie aufgefordert werden, gültige SKUs einzugeben. <!--- MC-37387-->
 
-![Es wurde ein Problem ](../assets/fix.svg): Adobe Commerce zeigt diese Meldung jetzt auf der Produktseite an, wenn Sie eine Produktüberprüfung über eine Anforderungsliste senden: `You submitted your review for moderation`. Die Überprüfung wird auch auf der Seite Ausstehende Überprüfungen angezeigt (Admin **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**). Obwohl Adobe Commerce die Überprüfung zur Liste der ausstehenden Überprüfungen hinzugefügt hat, wurde zuvor ein 404-Fehler auf der Produktseite angezeigt. <!--- MC-37119-->
+![Es wurde ein Problem &#x200B;](../assets/fix.svg): Adobe Commerce zeigt diese Meldung jetzt auf der Produktseite an, wenn Sie eine Produktüberprüfung über eine Anforderungsliste senden: `You submitted your review for moderation`. Die Überprüfung wird auch auf der Seite Ausstehende Überprüfungen angezeigt (Admin **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**). Obwohl Adobe Commerce die Überprüfung zur Liste der ausstehenden Überprüfungen hinzugefügt hat, wurde zuvor ein 404-Fehler auf der Produktseite angezeigt. <!--- MC-37119-->
 
 ![Problem behoben](../assets/fix.svg) Die Leistung des `sharedCatalogUpdateCategoryPermissions` Verbrauchers wurde verbessert. Nach dem Erstellen eines freigegebenen Katalogs verwendet der Indexer für Katalogberechtigungen jetzt nur noch die Kundengruppen-ID aus dem freigegebenen Katalog, nicht aber alle Kundengruppen. <!--- MC-36770-->
 
@@ -831,7 +831,7 @@ Diese Version umfasst Verbesserungen bei Auftragsgenehmigungen, Versandmethoden,
 
 ![Neu](../assets/new.svg) In den Unternehmensmodulen durchgeführte Admin-Aktionen werden jetzt im Admin-Aktionsprotokoll protokolliert. Aktionen werden aus allen relevanten Unternehmensmodulen protokolliert: `Company`, `NegotiableQuote`, `CompanyCredit`, `SharedCatalog`. <!--- BUNDLE-180 181 182 183 -->
 
-![Es wurde ein Problem ](../assets/fix.svg): Adobe Commerce zeigt die Schaltfläche **[!UICONTROL Delete customer]** auf der Seite **Kunden** nicht mehr an, wenn der angemeldete Administrator nicht über die Berechtigungen zum Löschen von Kunden in Bereitstellungen verfügt, in denen B2B installiert ist. <!--- MC-35655-->
+![Es wurde ein Problem &#x200B;](../assets/fix.svg): Adobe Commerce zeigt die Schaltfläche **[!UICONTROL Delete customer]** auf der Seite **Kunden** nicht mehr an, wenn der angemeldete Administrator nicht über die Berechtigungen zum Löschen von Kunden in Bereitstellungen verfügt, in denen B2B installiert ist. <!--- MC-35655-->
 
 ![Problem behoben](../assets/fix.svg) Die Kundengruppe wird für einen Kunden, der einer Firma zugewiesen ist, nicht mehr automatisch geändert, wenn Sie den Kunden im Kundenraster bearbeiten. <!--- MC-35254-->
 
@@ -861,11 +861,11 @@ Diese Version umfasst Verbesserungen bei Auftragsgenehmigungen, Versandmethoden,
 
 ![Problem behoben](../assets/fix.svg) Die Deaktivierung von Belohnungsmodulen wirkt sich nicht mehr auf B2B-Funktionen in Kundenkonten aus. Wenn die Belohnungsmodule zuvor deaktiviert waren, wurden die folgenden B2B-bezogenen Registerkarten nicht angezeigt: Firmenprofil, Firmenbenutzer sowie Rollen und Berechtigungen.<!--- MC-34191-->
 
-![Es wurde ein Problem ](../assets/fix.svg): Adobe Commerce verwendet jetzt den richtigen Absendernamen in E-Mail-Benachrichtigungen, wenn Änderungen an Unternehmenskonten vorgenommen werden. Zuvor verwendete Adobe Commerce für alle E-Mails den allgemeinen Absendernamen des Kontakts, der im Standardbereich definiert ist. <!--- MC-33917-->
+![Es wurde ein Problem &#x200B;](../assets/fix.svg): Adobe Commerce verwendet jetzt den richtigen Absendernamen in E-Mail-Benachrichtigungen, wenn Änderungen an Unternehmenskonten vorgenommen werden. Zuvor verwendete Adobe Commerce für alle E-Mails den allgemeinen Absendernamen des Kontakts, der im Standardbereich definiert ist. <!--- MC-33917-->
 
 ![Problem behoben](../assets/fix.svg) Sie können jetzt erfolgreich Multishipping für Bestellungen implementieren, die sowohl physische als auch virtuelle Produkte enthalten. <!--- MC-33818-->
 
-![Problem behoben](../assets/fix.svg) Händler können jetzt Firmenbenutzer aus dem Abschnitt _[!UICONTROL Company Users]_auf den Seiten Mein Konto und Unternehmensstruktur erstellen, wenn **[!UICONTROL Access Restriction]**aktiviert und **[!UICONTROL Restriction Mode]**auf `Sales: Login Only` gesetzt ist. Zuvor gab Adobe Commerce diesen Fehler aus, als ein Händler versuchte, einen Benutzer zu erstellen: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
+![Problem behoben](../assets/fix.svg) Händler können jetzt Firmenbenutzer aus dem Abschnitt _[!UICONTROL Company Users]_&#x200B;auf den Seiten Mein Konto und Unternehmensstruktur erstellen, wenn **[!UICONTROL Access Restriction]**&#x200B;aktiviert und **[!UICONTROL Restriction Mode]**&#x200B;auf `Sales: Login Only` gesetzt ist. Zuvor gab Adobe Commerce diesen Fehler aus, als ein Händler versuchte, einen Benutzer zu erstellen: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
 
 ![Problem behoben](../assets/fix.svg) Adobe Commerce setzt die Kundengruppe eines Kunden nicht mehr auf den Standardwert zurück, wenn ein Kunde seine Kontoinformationen speichert. <!--- MC-33554-->
 
@@ -921,31 +921,31 @@ Diese Version umfasst Verbesserungen bei Auftragsgenehmigungen, Versandmethoden,
 
 ![Problem behoben](../assets/fix.svg) Aufgrund eines falschen Variablentypwerts konnten Admins keine konfigurierbaren Produkte zu einer Bestellung hinzufügen. Die Dropdown-Listen für Optionen werden nicht befüllt. Diese Funktion funktioniert jetzt ordnungsgemäß.
 
-![Es wurde ](../assets/fix.svg) Problem behoben: Beim Bearbeiten von Kategorieberechtigungen für die Gruppe Nicht angemeldet trat beim Speichern der Änderungen zuvor ein Fehler auf. Dieses Problem wurde behoben.
+![Es wurde &#x200B;](../assets/fix.svg) Problem behoben: Beim Bearbeiten von Kategorieberechtigungen für die Gruppe Nicht angemeldet trat beim Speichern der Änderungen zuvor ein Fehler auf. Dieses Problem wurde behoben.
 
 ![Problem behoben](../assets/fix.svg) Es wurde eine Korrektur hinzugefügt, mit der Store-Administratoren Produkte zu einer Bestellung hinzufügen können, die nicht im freigegebenen Katalog enthalten sind. Zuvor wurde eine Fehlermeldung angezeigt, wenn ein Element hinzugefügt wurde, das sich nicht im Katalog befindet.
 
 ![Problem behoben](../assets/fix.svg) [!BADGE nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Zuvor trat nach dem Ausführen des `php bin/magento indexer:set-dimensions-mode catalog_product_price website` und dem anschließenden Versuch, einen freigegebenen Katalog zu erstellen, ein Fehler auf. Dieses Problem wurde behoben.
 
-![Es wurde ](../assets/fix.svg) Problem behoben, dass beim Hinzufügen eines Unternehmens und Zuweisen des Unternehmensadministrators zu einer nicht standardmäßigen Website die falsche Site-ID gesendet wurde, was einen Fehler verursachte. Dieses Problem wurde behoben.
+![Es wurde &#x200B;](../assets/fix.svg) Problem behoben, dass beim Hinzufügen eines Unternehmens und Zuweisen des Unternehmensadministrators zu einer nicht standardmäßigen Website die falsche Site-ID gesendet wurde, was einen Fehler verursachte. Dieses Problem wurde behoben.
 
 ![Problem behoben](../assets/fix.svg) Nachdem ein Kunde in eine andere Kundengruppe verschoben wurde, schlug das Hinzufügen eines Produkts zu einer Bestellung mit _Schnellbestellung_ mit einem Fehler fehl. Dieses Problem wurde behoben.
 
-![Es wurde ](../assets/fix.svg) Problem behoben, dass beim Versuch, die Web-API mit einem B2B-Zitat zu verwenden, zuvor ein falscher Wert an die API gesendet wurde, was zu einem Fehler führte. Dieses Problem wurde behoben.
+![Es wurde &#x200B;](../assets/fix.svg) Problem behoben, dass beim Versuch, die Web-API mit einem B2B-Zitat zu verwenden, zuvor ein falscher Wert an die API gesendet wurde, was zu einem Fehler führte. Dieses Problem wurde behoben.
 
 ![Problem behoben](../assets/fix.svg) Zuvor trat ein Fehler auf, wenn ein Unternehmen über die API auf „Aktiv“ gesetzt wurde. Dieses Problem wurde jetzt behoben.
 
 ![Fehlerkorrektur](../assets/fix.svg) Aufgrund eines nicht benötigten `form`-Tags wird die Bestellseite automatisch aktualisiert, wenn Sie die Eingabetaste drücken, nachdem Sie eine vorgeschlagene Versandgebühr geändert haben. Dieses Problem wurde behoben.
 
-![Es wurde ](../assets/fix.svg) Problem behoben: Beim Festlegen eines Produktanzeigebeschränkens auf einer Katalogseite, wobei dieser Grenzwert kleiner als die Anzahl der Gesamtprodukte war, ist zuvor ein Fehler aufgetreten. Diese Funktion funktioniert jetzt erwartungsgemäß.
+![Es wurde &#x200B;](../assets/fix.svg) Problem behoben: Beim Festlegen eines Produktanzeigebeschränkens auf einer Katalogseite, wobei dieser Grenzwert kleiner als die Anzahl der Gesamtprodukte war, ist zuvor ein Fehler aufgetreten. Diese Funktion funktioniert jetzt erwartungsgemäß.
 
 ![Problem behoben](../assets/fix.svg) Zuvor wurde beim Ändern des Administrators eines Unternehmens die ursprüngliche Admin-Adresse zum neuen Administrator kopiert, sodass er zwei Adressen erhielt. Jetzt wird nur noch die richtige Adresse hinzugefügt.
 
-![Es wurde ein Problem ](../assets/fix.svg). Zuvor schlug die Verwendung der -API zum Speichern eines Angebotselements, wenn Git auf „Zulässig“ eingestellt war, und „Kunde benachrichtigen“ fehl. Dieser API-Aufruf funktioniert jetzt erwartungsgemäß.
+![Es wurde ein Problem &#x200B;](../assets/fix.svg). Zuvor schlug die Verwendung der -API zum Speichern eines Angebotselements, wenn Git auf „Zulässig“ eingestellt war, und „Kunde benachrichtigen“ fehl. Dieser API-Aufruf funktioniert jetzt erwartungsgemäß.
 
 ![Problem behoben](../assets/fix.svg) Die feste Produktsteuer wird jetzt auf der Seite mit den Angebotsdetails angezeigt.
 
-![Es wurde ](../assets/fix.svg) Problem behoben: Zuvor konnte die Datei nicht heruntergeladen werden, wenn auf der Seite Meine Anführungszeichen auf der Registerkarte Kommentare auf eine Anlage geklickt wurde. Dieses Verhalten funktioniert jetzt erwartungsgemäß.
+![Es wurde &#x200B;](../assets/fix.svg) Problem behoben: Zuvor konnte die Datei nicht heruntergeladen werden, wenn auf der Seite Meine Anführungszeichen auf der Registerkarte Kommentare auf eine Anlage geklickt wurde. Dieses Verhalten funktioniert jetzt erwartungsgemäß.
 
 ### Bekannte Probleme
 
