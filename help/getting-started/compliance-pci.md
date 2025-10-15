@@ -48,5 +48,5 @@ Weitere Informationen finden Sie unter [Adobe-Ansatz für PCI-Compliance][1]{:ta
 
 Wenn Ihr Unternehmen wächst, müssen Sie möglicherweise jährlich einen Compliance-Bericht einreichen. Die Anforderungen an die PCI-Berichterstattung steigen im Verhältnis zur Händlerebene, gelten aber nicht für Unternehmen, die weniger als 20.000 Kreditkartentransaktionen pro Jahr verarbeiten. Weitere Informationen finden Sie auf der Website [PCI Security Standards Council][2].
 
-[1]: https://business.adobe.com/products/magento/pci-compliance.html
+[1]: https://business.adobe.com/de/products/magento/pci-compliance.html
 [2]: https://www.pcisecuritystandards.org/index.php

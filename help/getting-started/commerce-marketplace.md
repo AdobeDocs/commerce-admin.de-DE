@@ -109,7 +109,7 @@ Anmeldeprobleme hängen normalerweise mit einer Diskrepanz zwischen Ihrer MAGEID
 
 ### Open Source-Fragen
 
-Das Marketplace-Supportteam löst Probleme, die mit den Sites [commerceMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) und [commerceDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) zusammenhängen. Bitte richten Sie Fragen zu Magento Open Source an das [Community-Forum](https://community.magento.com/) oder [kontaktieren Sie einen Partner](https://business.adobe.com/products/magento/partners.html) der Magento Open Source unterstützen kann.
+Das Marketplace-Supportteam löst Probleme, die mit den Sites [commerceMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) und [commerceDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) zusammenhängen. Bitte richten Sie Fragen zu Magento Open Source an das [Community-Forum](https://community.magento.com/) oder [kontaktieren Sie einen Partner](https://business.adobe.com/de/products/magento/partners.html) der Magento Open Source unterstützen kann.
 
 ### Erstattungsanträge
 
@@ -143,4 +143,4 @@ Diese Sonderberechtigungen gewähren dieselbe Zugriffsebene auf Adobe Commerce w
 [2]: https://www.paypal.com/us/home
 [3]: https://developer.adobe.com/commerce/marketplace/guides/sellers/extension-quality-program/
 [4]: https://www.adobe.com/commerce/magento/enterprise.html
-[6]: https://business.adobe.com/products/magento/magento-commerce.html
+[6]: https://business.adobe.com/de/products/magento/magento-commerce.html

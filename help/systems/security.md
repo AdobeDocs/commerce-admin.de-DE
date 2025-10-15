@@ -40,4 +40,4 @@ Wenn Sie vermuten, dass Ihre Adobe Commerce- oder Magento Open Source-Site gefä
 
 1. **Bericht**: Wenn Sie glauben, dass Sie eine bestimmte Sicherheitslücke in Commerce gefunden haben, [öffnen Sie ein Problem mit Adobe](https://hackerone.com/adobe?type=team) und geben Sie technische Details an.
 
-1. **Upgrade**: Planen Sie jetzt Ihr Upgrade auf [Adobe Commerce in unserer Cloud-Architektur, um die zusätzliche Sicherheit zu &#x200B;](https://business.adobe.com/products/magento/cloud-delivery.html), die durch den 24/7-Support entsteht.
+1. **Upgrade**: Planen Sie jetzt Ihr Upgrade auf [Adobe Commerce in unserer Cloud-Architektur, um die zusätzliche Sicherheit zu &#x200B;](https://business.adobe.com/de/products/magento/cloud-delivery.html), die durch den 24/7-Support entsteht.

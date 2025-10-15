@@ -16,7 +16,7 @@ Studien zeigen, dass Läden, die ihren Kunden die Wahl zwischen verschiedenen Ve
 
 >[!NOTE]
 >
->Aufgrund des Herunterfahrens von Temando wird die Unterstützung für [!DNL Magento Shipping] in 2.4.0 entfernt. Detaillierte Statusinformationen und Empfehlungen für neue Versandimplementierungen in Commerce finden Sie auf der Seite [Produktinformationen](https://business.adobe.com/products/magento/shipping.html){:target="_blank"} .
+>Aufgrund des Herunterfahrens von Temando wird die Unterstützung für [!DNL Magento Shipping] in 2.4.0 entfernt. Detaillierte Statusinformationen und Empfehlungen für neue Versandimplementierungen in Commerce finden Sie auf der Seite [Produktinformationen](https://business.adobe.com/de/products/magento/shipping.html){:target="_blank"} .
 
 ## Grundlegende Versandmethoden
 
