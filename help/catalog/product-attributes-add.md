@@ -3,9 +3,9 @@ title: Hinzufügen von Attributen zu einem Produkt
 description: Erfahren Sie, wie Sie Attribute zu Produkten in Ihrem Katalog hinzufügen.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-source-git-commit: 99049260b4ff490845affd1c98fa4d2536edebd7
+source-git-commit: 45d69ccc1a5a6a7b8d072465c19829a76dde826d
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
 
 ![Attributeigenschaften](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. Geben Sie unter _[!UICONTROL Attribute Properties]_&#x200B;ein **[!UICONTROL Attribute Label]**&#x200B;ein, um das Attribut zu identifizieren.
+1. Geben Sie unter _[!UICONTROL Attribute Properties]_ein **[!UICONTROL Attribute Label]**ein, um das Attribut zu identifizieren.
 
 1. Legen Sie **[!UICONTROL Catalog Input Type for Store Owner]** auf den Typ des [Eingabedialogs](attributes-input-types.md) fest, der für die Dateneingabe verwendet werden soll.
 
@@ -85,7 +85,7 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
 
 1. Wenn Sie das Attribut als Spalte in das Produktraster einbeziehen möchten, setzen Sie **[!UICONTROL Add to Column Options]** auf `Yes`.
 
-1. Wenn Sie das _[!UICONTROL Products]_&#x200B;nach dieser Spalte filtern können möchten, setzen Sie **[!UICONTROL Use in Filter Options]**&#x200B;auf `Yes`.
+1. Wenn Sie das _[!UICONTROL Products]_nach dieser Spalte filtern können möchten, setzen Sie **[!UICONTROL Use in Filter Options]**auf `Yes`.
 
 ## Schritt 4: Feldbezeichnung eingeben
 
@@ -96,6 +96,10 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
    Wenn Ihr Store in verschiedenen Sprachen verfügbar ist, können Sie für jede Ansicht einen übersetzten Titel eingeben.
 
    ![Titel verwalten](./assets/product-attribute-add-manage-titles.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   > Wenn Sie beabsichtigen, dieses Attribut als Facette in der Live-Suche zu verwenden, müssen Sie eine Store-spezifische Beschriftung angeben. Andernfalls wird der Attributname möglicherweise nicht korrekt auf der Seite zur Facettenkonfiguration angezeigt. Um die Konfiguration zu aktualisieren, bearbeiten Sie den Titel manuell mit der Option [Bearbeiten“ in der Facette Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) im _Live Search-Handbuch_.
 
 ## Schritt 5: Eigenschaften der Storefront beschreiben
 
@@ -115,7 +119,7 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
 
    >[!NOTE]
    >
-   >Wenn die _[!UICONTROL Use in Search]_&#x200B;auf `No` festgelegt ist, wird die&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ nicht angezeigt und das Produktattribut wird bei der Suche mit keinem [!UICONTROL Use in Layered Navigation] Einstellwert verwendet.
+   >Wenn die _[!UICONTROL Use in Search]_auf `No` festgelegt ist, wird die_[!UICONTROL Use in Search Results Layered Navigation]_ nicht angezeigt und das Produktattribut wird bei der Suche mit keinem [!UICONTROL Use in Layered Navigation] Einstellwert verwendet.
 
 1. Um das -Attribut in der mehrschichtigen Navigation auf Suchergebnisseiten zu verwenden, setzen Sie **[!UICONTROL Use in Search Results Layered Navigation]** auf `Yes` und geben Sie eine Zahl in das Feld **[!UICONTROL Position]** ein.
 
@@ -123,7 +127,7 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
 
    >[!NOTE]
    >
-   >Das Feld _[!UICONTROL Position]_&#x200B;ist standardmäßig abgeblendet und Sie müssen das Attribut speichern, bevor Sie diese Einstellung ändern können.
+   >Das Feld _[!UICONTROL Position]_ist standardmäßig abgeblendet und Sie müssen das Attribut speichern, bevor Sie diese Einstellung ändern können.
 
 1. Um das Attribut in Preisregeln zu verwenden, setzen Sie **[!UICONTROL Use for Promo Rule Conditions]** auf `Yes`.
 
