@@ -5,10 +5,10 @@ breadcrumb-title: Handbuch für Admin-Systeme
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 9c200a46a30d51b4844fff24d864b629b8400f33
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 3%
+source-wordcount: '188'
+ht-degree: 4%
 
 ---
 
@@ -28,14 +28,14 @@ ht-degree: 3%
    - [Benutzerdefinierte Variablen](variables-custom.md)
    - [Variablenreferenz](variables-reference.md)
    - [Markup-Tags](markup-tags.md)
-- {#communications}
+- Kommunikation {#communications}
    - [E-Mail-Vorlagen](email-templates.md)
    - [E-Mail-Vorlagen anpassen](email-template-custom.md)
    - [E-Mail konfigurieren](email-communications.md)
-- {#data-transfer}
-   - [Übersicht](data-transfer.md)
+- Datenübertragung {#data-transfer}
+   - [Überblick](data-transfer.md)
    - [CSV-Dateien](data-csv.md)
-   - importieren{#import}
+   - importieren {#import}
       - [Importvorgang](data-import.md)
       - [Produktbilder](data-import-product-images.md)
    - [Export](data-export.md)
@@ -48,9 +48,11 @@ ht-degree: 3%
       - [Herunterladbare Produkte importieren](data-transfer-downloadable-products.md)
       - [Preisdaten der Importstufe](data-import-price-tier.md)
    - [Geplanter Import und Export](data-scheduled-import-export.md)
-   - [Dashboard für das Daten-Management](data-dashboard.md)
+   - Datensynchronisation für Commerce-Services {#data-sync}
+      - [Dashboard für das Daten-Management](data-dashboard.md)
+      - [Synchronisierungsstatus von Daten-Feeds](data-feed-sync-status.md)
 - Aktionsprotokolle {#action-logs}
-   - [Übersicht](action-log.md)
+   - [Überblick](action-log.md)
    - [Bericht zu Aktionslogs](action-log-report.md)
    - [Protokollarchiv](action-log-archive.md)
    - [Massenaktionen](action-log-bulk-actions.md)
@@ -62,8 +64,8 @@ ht-degree: 3%
    - [Entwickler-Tools](developer-tools.md)
    - [Support-Tools](support.md)
 - [Integrationen](integrations.md)
-- {#security}
-   - [Übersicht](security.md)
+- Sicherheit {#security}
+   - [Überblick](security.md)
    - [Verschlüsselungsschlüssel](encryption-key.md)
    - [Sicherheitsüberprüfung](security-scan.md)
    - [Konfigurieren der Admin-Sicherheit](security-admin.md)
@@ -71,12 +73,12 @@ ht-degree: 3%
       - [Standard-CAPTCHA](security-captcha.md)
       - [Google reCAPTCHA](security-google-recaptcha.md)
    - Zwei-Faktor-Authentifizierung (2FA) {#2fa}
-      - [Übersicht](security-two-factor-authentication.md)
+      - [Überblick](security-two-factor-authentication.md)
       - [Benutzerkonto-Setup für 2FA](security-two-factor-authentication-use.md)
       - [2FA verwalten](security-two-factor-authentication-manage.md)
    - [Sitzungsverwaltung](security-session-management.md)
    - [Erkennung von Browser-Funktionen](security-browser-capabilities-detection.md)
    - [Meldung von Sicherheitsproblemen](security-issue-reporting.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
 
 
