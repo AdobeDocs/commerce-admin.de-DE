@@ -79,6 +79,6 @@ ht-degree: 4%
    - [Sitzungsverwaltung](security-session-management.md)
    - [Erkennung von Browser-Funktionen](security-browser-capabilities-detection.md)
    - [Meldung von Sicherheitsproblemen](security-issue-reporting.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
 
 
