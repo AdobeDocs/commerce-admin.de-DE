@@ -3,9 +3,9 @@ title: Einrichtung des Spediteurs
 description: Erfahren Sie mehr über den Support für kommerzielle Versandkonten, der für Ihren Shop verfügbar ist.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -42,3 +42,20 @@ Die Konfigurationsoptionen variieren für jeden Provider. Alle erfordern jedoch 
 1. Öffnen Sie ein Versandkonto beim Spediteur.
 
 1. Geben Sie Ihre Kontonummer oder Benutzer-ID und die Gateway-URL zu ihrem System in die Konfiguration Ihres Stores ein.
+
+### Einstellung der USPS Web Tools-API
+
+Die Adobe Commerce-Versionen 2.4.6, 2.4.7 und 2.4.8 verwenden die Legacy-Web-Tools-APIs für die vordefinierte Versandintegration mit USPS. USPS hat USPS APIs eingeführt, eine REST-basierte Plattform, die die veralteten Web-Tools-APIs ersetzt.
+
+Am 25. Januar 2026 stellt USPS die veralteten Web Tools-APIs ein. Nach diesem Datum schlagen alle Anfragen an die Web-Tools-APIs fehl.
+
+Um eine Unterbrechung der USPS-Versandservices zu vermeiden, führen Sie die folgenden Maßnahmen vor dem 25. Januar 2026 durch:
+
+- Wenden Sie den [USPS REST API Migration Quality Patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html)&#x200B;(AC-1520) an, um Unterstützung für die Integration mit den USPS REST-APIs hinzuzufügen.
+
+- Aktualisieren Sie die Commerce USPS-Konfiguration zur Verwendung der REST-APIs:
+
+   - [USPS Spediteurkonfiguration](usps.md)
+
+   - [Konfiguration der Versandkennzeichnung](shipping-label-create.md)
+

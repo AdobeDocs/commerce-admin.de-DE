@@ -3,9 +3,9 @@ title: '[!UICONTROL Sales] &gt; [!UICONTROL Delivery Methods]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Sales] &gt; -[!UICONTROL Delivery Methods] der Commerce Admin Console.
 exl-id: 159b76a8-3676-4692-9cd6-18947bda4666
 feature: Configuration, Shipping/Delivery
-source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '3792'
+source-wordcount: '4148'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![Pauschale](./assets/delivery-methods-flat-rate.png)<!-- zoom -->
 
-<!-- [Flat Rate](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
+<!-- [Flat Rate](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-flat-rate) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ![Kostenloser Versand](./assets/delivery-methods-free-shipping.png)<!-- zoom -->
 
-<!-- [Free Shipping](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
+<!-- [Free Shipping](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-free) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![Tabellenraten](./assets/delivery-methods-table-rates.png)<!-- zoom -->
 
-<!-- [Table Rates](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
+<!-- [Table Rates](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-table-rate) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ![Versand im Geschäft](./assets/delivery-methods-in-store-delivery.png)<!-- zoom -->
 
-<!-- [In-Store Delivery](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
+<!-- [In-Store Delivery](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/basic-methods/shipping-in-store-delivery) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![UPS XML-Kontoeinstellungen](./assets/delivery-methods-ups1.png)<!-- zoom -->
 
-<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS REST Account Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ![UPS Paketinformationen](./assets/delivery-methods-ups-packaging-settings.png)<!-- zoom -->
 
-<!-- [UPS Package Information]https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Package Information]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -147,19 +147,19 @@ ht-degree: 0%
 | [!UICONTROL Minimum Package Weight] | Website | Legt die Mindestgewichtung eines Pakets fest, die von UPS angegeben werden kann. Wenn die bestellten Produkte weniger wiegen als das minimale Paketgewicht, ist diese Versandoption nicht verfügbar. Um das Mindestgewicht zu überprüfen, fragen Sie Ihren Spediteur. |
 | [!UICONTROL Calculate Handling Fee] | Website | Legt die Methode zur Berechnung der Bearbeitungsgebühr für den Versand mit Tabellensätzen fest. Optionen: <br>**`Fixed`**- Bearbeitungsgebühr ist ein fester Satz.<br>**`Percent`** - Bearbeitungsgebühr wird als Prozentsatz des Bestellbetrags angewendet. |
 | [!UICONTROL Handling Applied] | Website | Gibt an, ob die Bearbeitungsgebühr auf jede Bestellung oder auf jedes Paket innerhalb einer Bestellung angewendet wird. |
-| [!UICONTROL Handling Fee] | Website | Legt die Handhabung fest, die im Versandratenpreis enthalten ist. Die Bearbeitungsgebühr kann als fester Betrag oder als Prozentsatz festgelegt werden. <br/><br/>**_Hinweis:_**&#x200B;Wenn Sie einen Prozentwert eingeben, verwenden Sie das Dezimalformat `0.25` für 25 %. |
+| [!UICONTROL Handling Fee] | Website | Legt die Handhabung fest, die im Versandratenpreis enthalten ist. Die Bearbeitungsgebühr kann als fester Betrag oder als Prozentsatz festgelegt werden. <br/><br/>**_Hinweis:_** Wenn Sie einen Prozentwert eingeben, verwenden Sie das Dezimalformat `0.25` für 25 %. |
 
 {style="table-layout:auto"}
 
 ![UPS zulässige Methoden](./assets/delivery-methods-ups-allowed-methods.png)<!-- zoom -->
 
-<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Allowed Methods]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | _[!UICONTROL UPS allowed methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Website | Gibt die zulässigen UPS-Versandmethoden an, die Kunden angeboten werden. Die Versandkosten werden auf Basis der gewählten Versandart berechnet. |
-| [!UICONTROL Free Method] | Website | Identifiziert die Methode, die für den kostenlosen Versand über UPS verwendet wird. Um den kostenlosen Versand zu deaktivieren, wählen Sie „Keine“. <br/><br/>**_Hinweis:_**&#x200B;Diese Methode ähnelt der grundlegenden [kostenloser Versand](../../stores-purchase/shipping-free.md), erscheint jedoch während des Checkouts als UPS Versandoption. |
+| [!UICONTROL Free Method] | Website | Identifiziert die Methode, die für den kostenlosen Versand über UPS verwendet wird. Um den kostenlosen Versand zu deaktivieren, wählen Sie „Keine“. <br/><br/>**_Hinweis:_** Diese Methode ähnelt der grundlegenden [kostenloser Versand](../../stores-purchase/shipping-free.md), erscheint jedoch während des Checkouts als UPS Versandoption. |
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Bestimmt, ob ein kostenloser Versand angewendet wird, wenn der Bestellbetrag den Schwellenwert für den kostenlosen Versand erreicht. Optionen: `Enable` / `Disable` |
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Legt den minimalen Gesamtbetrag fest, den eine Bestellung erreichen muss, um für einen kostenlosen Versand zu qualifizieren. |
 | [!UICONTROL Displayed Error Message] | Shop-Ansicht | Die Fehlermeldung, die angezeigt wird, wenn diese Versandmethode aus irgendeinem Grund nicht verfügbar ist. |
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ![UPS-Länder und andere Einstellungen](./assets/delivery-methods-ups-ship-to.png)<!-- zoom -->
 
-<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
+<!-- [UPS Applicable Countries and Other Settings]https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/ups) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -195,9 +195,26 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
+Die folgenden Felder sind nur verfügbar, wenn Sie den [USPS REST API Migration Quality Patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html)&#x200B;(AC-1520) angewendet haben. Dieser Patch ermöglicht die Unterstützung für die USPS-APIs, eine REST-basierte Plattform, die die Web-Tools-APIs ersetzt. Weitere Informationen finden Sie unter [USPS Web Tools API - Einstellung](../../stores-purchase/carriers.md).
+
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+|--- |--- |--- |
+| [!UICONTROL USPS Type] | Website | Wählen Sie **USPS REST APIs** oder **USPS Web Tools API**, je nachdem, welche Sie verwenden werden. |
+| [!UICONTROL Consumer Key] | Website | Ihre USPS-Versenderkonto-Client-ID für die REST-API. |
+| [!UICONTROL Consumer Secret] | Website | Ihr USPS-Versandkonto Client-Geheimschlüssel für die REST-API. |
+| [!UICONTROL Account Type] | Website | Art des USPS-Zahlungskontos. Optionen: `"EPS"` (Enterprise Payment System) oder `"PERMIT"` (Permit Impressum) für die REST-API. <br/><br/>**_Hinweis:_** Dieses Feld ist optional. Es ist jedoch erforderlich, um die Erstellung von Versandaufklebern zu aktivieren. |
+| [!UICONTROL Pricing Options] | Website | USPS-Preisoptionen: **Einzelhandel** oder **kommerziell**. Wirkt sich auf die angewendete Versandrate aus. Die Standardeinstellung ist **Commerce** für die REST-API. |
+| [!UICONTROL Account Number] | Website | Ihre USPS **Kontonummer**, die für die Zahlung für die REST-API verwendet wird.  <br/><br/>**_Hinweis:_** Dieses Feld ist optional. Es ist jedoch erforderlich, um die Erstellung von Versandaufklebern zu aktivieren. |
+| [!UICONTROL Customer Registration Identifier(CRID)] | Website | Eine Customer Registration Identification Number (CRID) ist ein vom USPS generierter numerischer Code, der ein Unternehmen an einem Standort für die REST-API eindeutig identifiziert.  <br/><br/>**_Hinweis:_** Dieses Feld ist optional. Es ist jedoch erforderlich, um die Erstellung von Versandaufklebern zu aktivieren. |
+| [!UICONTROL Mailer Identifier(MID)] | Website | Die Mailer-Kennung (MID) ist ein Feld innerhalb des intelligenten Mail-Barcodes, das zur Identifizierung von Mailern verwendet wird. MIDs werden vom USPS einem Mail Owner, Mailing Agent oder einem anderen Dienstleister zugewiesen, der sie für die REST-API anfordert.  <br/><br/>**_Hinweis:_** Dieses Feld ist optional. Es ist jedoch erforderlich, um die Erstellung von Versandaufklebern zu aktivieren. |
+| [!UICONTROL Manifest MID] | Website | Die eindeutige Mailer-Kennung, die für das Manifest für die REST-API bestimmt ist.  <br/><br/>**_Hinweis:_** Dieses Feld ist optional. Es ist jedoch erforderlich, um die Erstellung von Versandaufklebern zu aktivieren. |
+| [!UICONTROL AES/ITN] | Website | USPS AES - Automated Export System / ITN - Interne Transaktionsnummer für REST API. <br/><br/>**_Hinweis:_** Dieses Feld ist im Allgemeinen optional, ist jedoch erforderlich, um die Erstellung von Versandkennzeichnungen zu aktivieren, wenn: <ul><li>jede Art von Waren in der Sendung (gemäß der Definition unter den Export-Codes von Schema B unter <a href="https://www.census.gov/foreign-trade/schedules/b" target="_blank">www.census.gov/foreign-trade/schedules/b</a>) einen Wert von 2.500 USD oder weniger aufweist und keine Ausfuhrlizenz benötigt oder</li><li>Die Sendung wird, unabhängig vom Wert, nach Kanada versandt und erfordert keine Ausfuhrlizenz.</li></ul> |
+
+{style="table-layout:auto"}
+
 ![USPS-Verpackungseinstellungen](./assets/delivery-methods-usps-packaging.png)<!-- zoom -->
 
-<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Packaging Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -212,26 +229,26 @@ ht-degree: 0%
 
 ![USPS Handling-Gebühreneinstellungen](./assets/delivery-methods-usps-handling-fee.png)<!-- zoom -->
 
-<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Handling Fee Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | _[!UICONTROL USPS Handling Fee settings]_ |  |  |
 | [!UICONTROL Calculate Handling Fee] | Website | Legt die Methode zur Berechnung der Bearbeitungsgebühr für den Versand mit Tabellensätzen fest. Optionen: <br/>**`Fixed`**- Bearbeitungsgebühr ist ein fester Satz.<br/>**`Percent`** - Bearbeitungsgebühr wird als Prozentsatz des Bestellbetrags angewendet. |
 | [!UICONTROL Handling Applied] | Website | Gibt an, ob die Bearbeitungsgebühr auf jede Bestellung oder auf jedes Paket innerhalb einer Bestellung angewendet wird. |
-| [!UICONTROL Handling Fee] | Website | Legt die Handhabung fest, die im Versandratenpreis enthalten ist. Die Bearbeitungsgebühr kann als fester Betrag oder als Prozentsatz festgelegt werden. <br/><br/>**_Hinweis:_**&#x200B;Verwenden Sie beim Eingeben eines Prozentsatzes das Dezimalformat `0.25` für 25 %. |
+| [!UICONTROL Handling Fee] | Website | Legt die Handhabung fest, die im Versandratenpreis enthalten ist. Die Bearbeitungsgebühr kann als fester Betrag oder als Prozentsatz festgelegt werden. <br/><br/>**_Hinweis:_** Verwenden Sie beim Eingeben eines Prozentsatzes das Dezimalformat `0.25` für 25 %. |
 
 {style="table-layout:auto"}
 
 ![USPS - Zulässige Methoden](./assets/delivery-methods-usps-allowed-methods.png)<!-- zoom -->
 
-<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | _[!UICONTROL USPS Allowed Methods]_ |  |  |
 | [!UICONTROL Allowed Methods] | Website | Gibt die zulässigen Methoden für den Versand von USPS an, die Kunden angeboten werden. Die Versandkosten werden auf Basis der gewählten Versandart berechnet. |
-| [!UICONTROL Free Method] | Website | Legt die kostenlose Versandmethode über USPS fest oder kann durch Auswahl von `None` deaktiviert werden. <br/><br/>**_Hinweis:_**&#x200B;Diese Versandmethode ähnelt der kostenlosen Versandmethode Ihres Geschäfts, wird jedoch als USPS Versandoption aufgeführt und als USPS Versand identifiziert. |
+| [!UICONTROL Free Method] | Website | Legt die kostenlose Versandmethode über USPS fest oder kann durch Auswahl von `None` deaktiviert werden. <br/><br/>**_Hinweis:_** Diese Versandmethode ähnelt der kostenlosen Versandmethode Ihres Geschäfts, wird jedoch als USPS Versandoption aufgeführt und als USPS Versand identifiziert. |
 | [!UICONTROL Minimum Order Amount for Free Shipping] | Website | Legt den Mindestbestellbetrag fest, der erfüllt sein muss, um für den kostenlosen Versand zu qualifizieren. |
 | [!UICONTROL Displayed Error Message] | Shop-Ansicht | Die Fehlermeldung, die angezeigt wird, wenn USPS aus irgendeinem Grund nicht verfügbar ist. |
 
@@ -239,7 +256,7 @@ ht-degree: 0%
 
 ![USPS-Länder](./assets/delivery-methods-usps-countries.png)<!-- zoom -->
 
-<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
+<!-- [USPS Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -253,7 +270,7 @@ ht-degree: 0%
 
 ### [!UICONTROL FedEx]
 
-<!-- [FedEx Account Settings](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
+<!-- [FedEx Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/fedex) -->
 
 #### FedEx-Kontoeinstellungen
 
@@ -291,7 +308,7 @@ ht-degree: 0%
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Calculate Handling Fee] | Website | Bestimmt die Methode zur Berechnung der Bearbeitungsgebühren. Optionen: `Fixed Fee` / `Percentage` <br/><br/>**_Hinweis:_**&#x200B;Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die zu den FedEx Versandkosten addiert wird. |
+| [!UICONTROL Calculate Handling Fee] | Website | Bestimmt die Methode zur Berechnung der Bearbeitungsgebühren. Optionen: `Fixed Fee` / `Percentage` <br/><br/>**_Hinweis:_** Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die zu den FedEx Versandkosten hinzugerechnet wird. |
 | [!UICONTROL Handling Applied] | Website | Legt fest, wie Bearbeitungsgebühren angewendet werden. Optionen: `Per Order` / `Per Package` |
 | [!UICONTROL Handling Fee] | Website | Gibt den als Bearbeitungsgebühr berechneten Betrag an, basierend auf der Methode zur Berechnung des Betrags. Wenn die Gebühr auf einer festen Gebühr basiert, geben Sie den Betrag als Dezimalzahl ein, z. B. `4.90`. Wenn die Bearbeitungsgebühr auf einem Prozentsatz der Bestellung basiert, geben Sie den Betrag als Prozentsatz ein. Um beispielsweise sechs Prozent der Bestellung zu berechnen, geben Sie den Wert als `.06` ein. |
 
@@ -306,7 +323,7 @@ ht-degree: 0%
 | [!UICONTROL Residential Delivery] | Website | Je nachdem, ob Sie Business-to-Consumer (B2C) oder Business-to-Business (B2B) verkaufen, auf eine der folgenden Einstellungen festlegen: <br/>**`Yes`**- Für B2C-Sendungen<br/>**`No`** - Für B2B-Sendungen |
 | [!UICONTROL Allowed Methods] | Website | Wählen Sie aus der Liste die von Ihnen unterstützten Versandmethoden aus. Die Methoden hängen von Ihrem FedEx-Konto, der Häufigkeit und Größe Ihrer Sendungen und davon ab, ob Sie internationale Sendungen zulassen. Als Händler könnten Sie sich dafür entscheiden, nur Bodentransport anzubieten. |
 | [!UICONTROL Hub ID] | Website | Eine von FedEx bereitgestellte ID, die mit der [!DNL Smart Post]-Methode verwendet wird. |
-| [!UICONTROL Free Method] | Website | Wählen Sie aus der Liste die Versandart aus, die Sie für Angebote des kostenlosen Versands bevorzugen. <br/><br/>**_Hinweis:_**&#x200B;Diese Versandmethode ähnelt der regulären kostenlosen Versandmethode, wird jedoch in den FedEx Versandoptionen aufgeführt und wird als FedEx Versand identifiziert. |
+| [!UICONTROL Free Method] | Website | Wählen Sie aus der Liste die Versandart aus, die Sie für Angebote des kostenlosen Versands bevorzugen. <br/><br/>**_Hinweis:_** Diese Versandmethode ähnelt der regulären kostenlosen Versandmethode, wird jedoch in den FedEx Versandoptionen aufgeführt und wird als FedEx Versand bezeichnet. |
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Legt fest, ob ein Mindestbestellbetrag für den kostenlosen Versand erforderlich ist. Optionen: <br/>**`Enable`**- Ermöglicht den kostenlosen Versand von FedEx für Bestellungen, die den Mindestbetrag erfüllen.<br/>**`Disable`** - Deaktiviert kostenlosen FedEx-Versand mit Mindestbestellmenge. |
 | [!UICONTROL Free Shipping Amount Threshold] | Website | Gibt den Mindestbestellbetrag an, der für den kostenlosen Versand erforderlich ist. |
 | [!UICONTROL Displayed Error Message] | Shop-Ansicht | Die Meldung, die angezeigt wird, wenn FedEx aus irgendeinem Grund nicht verfügbar ist. Sie können die Standardmeldung verwenden oder eine andere eingeben. |
@@ -331,7 +348,7 @@ ht-degree: 0%
 
 ![DHL-Kontoeinstellungen](./assets/delivery-methods-dhl-account-settings.png)<!-- zoom -->
 
-<!-- [DHL Account Settings](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Account Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -347,7 +364,7 @@ ht-degree: 0%
 
 ![DHL-Paketeinstellungen](./assets/delivery-methods-dhl-package-settings.png)<!-- zoom -->
 
-<!-- [DHL Package Settings](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Package Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -363,7 +380,7 @@ ht-degree: 0%
 
 ![DHL-zulässige Methoden](./assets/delivery-methods-dhl-allowed-methods.png)<!-- zoom -->
 
-<!-- DHL Allowed Methods](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- DHL Allowed Methods](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -379,7 +396,7 @@ ht-degree: 0%
 
 ![DHL-Länder](./assets/delivery-methods-dhl-applicable-countries.png)<!-- zoom -->
 
-<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
+<!-- [DHL Applicable Countries](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

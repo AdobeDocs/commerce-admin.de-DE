@@ -3,9 +3,9 @@ title: Konfigurieren von Versandkennzeichnungen
 description: Erfahren Sie, wie Sie den Store zum Generieren von Versandkennzeichnungen konfigurieren.
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Die folgenden Einstellungen müssen auf Produktebene und in der Konfiguration je
 
 | [!UICONTROL Carrier] | Anforderungen |
 |-------|--------|
-| [USPS](usps.md) | Erfordert ein USPS-Konto. Seit dem 23. Februar 2018 verlangt USPS, dass alle Versandaufkleber das Porto enthalten müssen. |
+| [USPS](usps.md) | Erfordert ein USPS-Konto für das Versandetikett. |
 | [UPS](ups.md) | Erfordert ein UPS-Konto. Versandetiketten sind nur für Sendungen verfügbar, die aus den US-spezifischen Anmeldedaten stammen, die für Geschäfte außerhalb der USA erforderlich sind. |
 | [FedEx](fedex.md) | Erfordert ein FedEx-Konto. Bei Geschäften außerhalb der USA werden Versandaufkleber nur für internationale Sendungen unterstützt. FedEx erlaubt keine Inlandslieferungen, die aus Ländern außerhalb der USA stammen |
 | [DHL](dhl.md) | Erfordert ein DHL-Konto. Versandkennzeichnungen werden nur für Sendungen unterstützt, die aus den USA stammen. |
@@ -27,7 +27,7 @@ Die folgenden Einstellungen müssen auf Produktebene und in der Konfiguration je
 
 ## Schritt 1: Überprüfen Sie das Herstellungsland
 
-Das Herstellungsland ist für alle Produkte, die von USPS und FedEx international versendet werden, erforderlich. Wenn Sie über viele Produkte verfügen, die aktualisiert werden sollten, können [&#x200B; die Aktualisierungen entweder &#x200B;](../systems/data-import.md) (importieren) oder das Inventarraster verwenden, um mehrere Datensätze zu aktualisieren.
+Das Herstellungsland ist für alle Produkte, die von USPS und FedEx international versendet werden, erforderlich. Wenn Sie über viele Produkte verfügen, die aktualisiert werden sollten, können [ die Aktualisierungen entweder ](../systems/data-import.md) (importieren) oder das Inventarraster verwenden, um mehrere Datensätze zu aktualisieren.
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 

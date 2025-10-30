@@ -3,9 +3,9 @@ title: United States Postal Service (USPS)
 description: Erfahren Sie, wie Sie USPS als Versanddienstleister für Ihr Geschäft einrichten.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Sie können auch ein Konto [USPS Web Tools][1] eröffnen. Nach Abschluss des Reg
 
 ## Schritt 2: USPS für Ihren Shop aktivieren
 
+{{$include /help/_includes/usps-api-type-configuration-note.md}}
+
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Delivery Methods]**.
@@ -34,17 +36,28 @@ Sie können auch ein Konto [USPS Web Tools][1] eröffnen. Nach Abschluss des Reg
 
 1. Legen Sie **[!UICONTROL Enabled for Checkout]** auf `Yes` fest.
 
-1. Geben Sie bei Bedarf die **[!UICONTROL Gateway URL]** ein, um auf USPS Versandtarife zuzugreifen.
+1. Setzen Sie **[!UICONTROL USPS Type]** auf `USPS Rest APIs`, wenn Sie die USPS-REST-API verwenden.
 
-   >[!IMPORTANT]
-   >
-   >Ab 24. Juni 2021 entfernen die USPS Web Tools die Unterstützung für alle unsicheren HTTP-Endpunkte. Nach dieser Änderung schlagen alle Web-Tools-API-Anfragen, die an einen unsicheren HTTP-Endpunkt gesendet werden, fehl. Stellen Sie sicher, dass Ihr **[!UICONTROL Gateway URL]** den sicheren HTTPS-Endpunkt verwendet.
+   Wenn Sie die USPS Web Tools-API verwenden, setzen Sie **[!UICONTROL USPS Type]** auf `USPS Web Tools API`.
+
+1. Geben Sie bei Bedarf die **[!UICONTROL Gateway URL]** ein, um auf USPS Versandtarife zuzugreifen.
 
    Das Feld ist standardmäßig voreingestellt und muss normalerweise nicht geändert werden.
 
 1. Geben Sie eine **[!UICONTROL Title]** für diese Versandart ein, die während des Checkouts angezeigt wird.
 
-1. Geben Sie die **[!UICONTROL User ID]** und **[!UICONTROL Password]** für Ihr USPS-Konto ein.
+1. Verwenden Sie die von USPS bereitgestellten Anmeldeinformationen, um die folgenden Felder auszufüllen:
+
+   Wenn Sie die USPS-REST-APIs verwenden, müssen Sie die folgenden Anmeldeinformationen angeben:
+
+   - **[!UICONTROL Consumer Key]**
+   - **[!UICONTROL Consumer Secret]**
+   - **[!UICONTROL Pricing Options]**
+
+   Wenn Sie die USPS Web Tools API verwenden, müssen Sie die folgenden Anmeldeinformationen angeben:
+
+   - **[!UICONTROL User ID]**
+   - **[!UICONTROL Password]**
 
 1. Legen Sie **[!UICONTROL Mode]** auf eine der folgenden Einstellungen fest:
 
@@ -128,7 +141,6 @@ Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die
    `0` = First, `1` = Second, `2` = Third usw.
 
 1. Klicken Sie auf **[!UICONTROL Save Config]**.
-
 
 [1]: https://secure.shippingapis.com/registration/
 [2]: https://www.usps.com/business/web-tools-apis/welcome.htm
