@@ -3,9 +3,9 @@ title: 'Konto erstellen und  [!DNL Commerce] '
 description: Erfahren Sie mehr über  [!DNL Commerce] -Konten, die die von Ihnen erworbenen Produkte und Services verwalten.
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: d036962b767be0817dbd14d679e89ab4d4f03455
+source-git-commit: 2b0959de64e139d3f652e1cd5edb744c0a8489a3
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ Sie können über die [!DNL Commerce]-Website auf Ihr [!DNL Commerce]-Konto zugr
 
 Die Anmeldung mit Ihrem [!DNL Commerce] Konto ist nicht mit der Anmeldung bei Ihrem Store-Administrator identisch. Normalerweise verwenden Sie für jedes System unterschiedliche Anmeldeinformationen, und der Zugriff auf jedes System wird unabhängig verwaltet.
 
-Benutzende, die ihre Anmeldung bei Adobe Commerce- und Adobe Business-Produkten optimieren möchten, können ihre Adobe ID jedoch so konfigurieren, dass sie sich beim Store-Admin anmelden: [Konfigurieren der Commerce-Admin-Integration mit Adobe ID](https://experienceleague.adobe.com/de/docs/commerce-admin/start/admin/ims/adobe-ims-config) im *IMS-Integrationshandbuch für Commerce*.
+Benutzende, die ihre Anmeldung bei Adobe Commerce- und Adobe Business-Produkten optimieren möchten, können ihre Adobe ID jedoch so konfigurieren, dass sie sich beim Store-Admin anmelden: [Konfigurieren der Commerce-Admin-Integration mit Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) im *IMS-Integrationshandbuch für Commerce*.
 
 >[!NOTE]
 >
->Nachdem Sie Ihr -Konto erstellt haben, wird empfohlen, die Zwei-Faktor-Authentifizierung (TFA) zu verwenden, um [Ihr -Konto zu &#x200B;](commerce-account-secure.md).
+>Nachdem Sie Ihr -Konto erstellt haben, wird empfohlen, die Zwei-Faktor-Authentifizierung (TFA) zu verwenden, um [Ihr -Konto zu ](commerce-account-secure.md).
 
 ## Beim [!DNL Commerce]-Konto anmelden
 
-Für den Zugriff auf ein Commerce-Konto ist eine Adobe ID erforderlich. Wenn Sie bereits über ein [!DNL Commerce] verfügen, sich aber seit August 2022 nicht mehr bei diesem Konto angemeldet haben, müssen Sie während des Anmeldevorgangs eine Adobe ID erstellen.
+Für den Zugriff auf Ihr Commerce-Konto ist eine Adobe ID erforderlich. Wenn Sie über ein vorhandenes [!DNL Commerce] verfügen, sich aber seit August 2022 nicht angemeldet haben, müssen Sie während des Anmeldevorgangs eine Adobe ID erstellen. Dieser Schritt ist erforderlich, bevor Sie sich bei Ihrem Konto anmelden können.
 
 >[!WARNING]
 >
