@@ -3,7 +3,7 @@ title: Lizenzieren eines Adobe Stock-Images
 description: Um sicherzustellen, dass Sie rechtlichen Zugriff haben, und um das Adobe Stock-Wasserzeichen zu entfernen, lizenzieren Sie Ihre Adobe Stock-Bilder.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 9d6dade372d4b931bec9aec9b9bfeedc3107ad1e
 workflow-type: tm+mt
 source-wordcount: '388'
@@ -75,6 +75,6 @@ Die Adobe Stock-Lizenzierungsfunktion ist nur verfügbar, wenn die [Adobe Stock-
 
 [access-search]: adobe-stock-manage.md#access-the-adobe-stock-search-grid
 [view-details]: adobe-stock-manage.md#view-image-details
-[stock-credits]: https://helpx.adobe.com/stock/help/credit-packs.html
+[stock-credits]: https://helpx.adobe.com/de/stock/help/credit-packs.html
 [adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html
+[adobe-signin]: https://helpx.adobe.com/de/manage-account/using/access-adobe-id-account.html
