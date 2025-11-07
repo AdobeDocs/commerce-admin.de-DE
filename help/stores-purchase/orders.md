@@ -3,9 +3,9 @@ title: Bestellungen
 description: Erfahren Sie mehr über den Arbeitsbereich „Bestellungen“ und die Suchfunktionen, mit denen Sie in Admin Bestellungen finden.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: c60f0af09fb1af08deea49216aff340eea59f1b4
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ In der Regel werden Bestellungen erstellt, wenn Kunden den Checkout-Prozess in d
 
 ## Arbeitsbereich Bestellungen
 
-Im Arbeitsbereich Bestellungen werden alle aktuellen Bestellungen aufgelistet. Sie haben die Möglichkeit, vorhandene Bestellungen zu bearbeiten und [Bestellungen zu &#x200B;](customer-account-create-order.md). Jede Zeile im Raster steht für eine Kundenreihenfolge, und jede Spalte steht für ein Attribut oder ein Datenfeld. Verwenden Sie die standardmäßigen [Steuerelemente](../getting-started/admin-grid-controls.md), um die Liste zu sortieren und zu filtern, Bestellungen zu finden und [Aktionen](../getting-started/admin-actions-control.md) auf ausgewählte Bestellungen anzuwenden. Verwenden Sie die Registerkarten oberhalb der Steuerelemente für die Paginierung, um die Liste zu filtern, die Standardansicht zu ändern, Spalten zu ändern und neu anzuordnen und Daten zu exportieren.
+Im Arbeitsbereich Bestellungen werden alle aktuellen Bestellungen aufgelistet. Sie haben die Möglichkeit, vorhandene Bestellungen zu bearbeiten und [Bestellungen zu ](customer-account-create-order.md). Jede Zeile im Raster steht für eine Kundenreihenfolge, und jede Spalte steht für ein Attribut oder ein Datenfeld. Verwenden Sie die standardmäßigen [Steuerelemente](../getting-started/admin-grid-controls.md), um die Liste zu sortieren und zu filtern, Bestellungen zu finden und [Aktionen](../getting-started/admin-actions-control.md) auf ausgewählte Bestellungen anzuwenden. Verwenden Sie die Registerkarten oberhalb der Steuerelemente für die Paginierung, um die Liste zu filtern, die Standardansicht zu ändern, Spalten zu ändern und neu anzuordnen und Daten zu exportieren.
 
 ![Auftragsraster](./assets/orders-grid.png){width="700" zoomable="yes"}
 
@@ -41,7 +41,7 @@ Klicken Sie oben rechts auf das Steuerelement _Spalten_ ( ![Spalteneinstellungen
 
 1. Um die Rasterspalten zurückzusetzen, klicken Sie auf **[!UICONTROL Reset]**.
 
-   Das Rasterlayout ändert sich, sodass nur [&#x200B; (Standardspalten) &#x200B;](#column-descriptions).
+   Das Rasterlayout ändert sich, sodass nur [ (Standardspalten) ](#column-descriptions).
 
 #### Spalte verschieben
 
@@ -73,7 +73,7 @@ Klicken Sie auf das Steuerelement **[!UICONTROL View]** ( ![Augensymbol](../asse
 
 | Kontrolle | Beschreibung |
 |--- |--- |
-| [!UICONTROL Create New Order] | Erstellt einen Auftrag. Weitere Informationen [&#x200B; Sie unter &#x200B;](customer-account-create-order.md) erstellen. |
+| [!UICONTROL Create New Order] | Erstellt einen Auftrag. Weitere Informationen [ Sie unter ](customer-account-create-order.md) erstellen. |
 | [!UICONTROL Go to Archive] | Zeigt die Liste der archivierten Bestellungen an. |
 | [!UICONTROL Search] | Startet eine Suche nach Bestellungen anhand der aktuellen Filter. |
 | [!UICONTROL Filters] | Definiert einen Satz von Suchparametern, mit denen die im Raster angezeigten Datensätze gefiltert werden. |
@@ -111,7 +111,7 @@ Um eine Aktion auf bestimmte Bestellungen anzuwenden, aktivieren Sie das Kontrol
 | [!UICONTROL Grand Total (Base)] | Die Gesamtsumme der Bestellung. |
 | [!UICONTROL Grand Total (Purchased)] | Die Gesamtsumme der in der Bestellung gekauften Produkte. |
 | [!UICONTROL Status] | Der aktuelle Bestellstatus. |
-| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;öffnet die Bestellung im Bearbeitungsmodus. |
+| [!UICONTROL Action] | _[!UICONTROL View]_öffnet die Bestellung im Bearbeitungsmodus. |
 | [!UICONTROL Allocated sources] | Die Quellen, die dieser bestimmten Bestellung zugeordnet sind. |
 
 {style="table-layout:auto"}
@@ -149,7 +149,7 @@ Das Suchfeld oben links im Raster Bestellungen kann verwendet werden, um bestimm
 
 ### Filtern der Suche
 
-1. Um die Auswahl der Suchfilter anzuzeigen, klicken Sie auf die Registerkarte _Filter_ ( ![Trichtersymbol](../assets/icon-filter-search.png) ).
+1. Um die Suchfilterauswahl anzuzeigen, klicken Sie auf die Registerkarte _Filter_ ( ![Funnel-Symbol](../assets/icon-filter-search.png) ).
 
    ![Filter sortieren](./assets/order-search-filter.png){width="600" zoomable="yes"}
 
@@ -183,9 +183,3 @@ Das Suchfeld oben links im Raster Bestellungen kann verwendet werden, um bestimm
 
 {style="table-layout:auto"}
 
-## Fehlerbehebung bei Ressourcen
-
-Hilfe bei der Fehlerbehebung bei Bestellproblemen finden Sie in den folgenden Artikeln der Commerce Support Knowledge Base:
-
-- [Fehler bei der Anzeige von Bestellungen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-known-issue-orders-display-error.html?lang=de)
-- [Bestellungen werden nicht im Raster Bestellungen im Admin-Bereich angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.html)

@@ -3,9 +3,9 @@ user-guide-title: Inhalts- und Design-Handbuch
 user-guide-description: Umfassende Informationen zu Inhalts- und Design-Funktionen für Adobe Commerce- und Magento Open Source-Administratoren und E-Commerce-Marketing-Experten.
 breadcrumb-title: Inhalt und Design
 feature: CMS, Page Content
-source-git-commit: d0599505bf99954c425ad3f2c7107744491f3446
+source-git-commit: 198ceac9ae9bf47211295567231b1a43beff3927
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '250'
 ht-degree: 4%
 
 ---
@@ -19,25 +19,25 @@ ht-degree: 4%
 - Design {#design}
    - [Design-Konfiguration](configuration.md)
    - Designs {#themes}
-      - [Übersicht](themes.md)
+      - [Überblick](themes.md)
       - [Ein neues Design installieren](theme-install.md)
       - [Verwalten von Design-Assets](theme-assets.md)
       - [Planen von Design-Aktualisierungen](schedule.md)
    - [Einrichtung des Seitenbereichs](page-setup.md)
    - Seiten-Layout {#layout}
-      - [Übersicht](page-layout.md)
+      - [Überblick](page-layout.md)
       - [Layoutbeispiele für Storefronts](page-layout-examples.md)
       - [Layout-Aktualisierungen](layout-updates.md)
 - Inhaltselemente {#elements}
    - Seiten {#pages}
-      - [Übersicht](pages.md)
+      - [Überblick](pages.md)
       - [Steuerelemente für den Seitenarbeitsbereich](pages-workspace.md)
       - [Hinzufügen und Entfernen von Seiten](page-add.md)
       - [Festlegen der Startseite](page-home-new.md)
       - [Seitenhierarchie](page-hierarchy.md)
       - [Übersetzen von Inhaltsseiten](page-translate.md)
    - Bausteine {#blocks}
-      - [Übersicht](blocks.md)
+      - [Überblick](blocks.md)
       - [Block hinzufügen](block-add.md)
       - [Bausteine positionieren](block-position.md)
    - Dynamische Blöcke {#dynamic-blocks}
@@ -45,20 +45,20 @@ ht-degree: 4%
       - [Dynamischen Block hinzufügen](dynamic-blocks-rotate.md)
       - [Dynamische Blöcke in Preisregeln](dynamic-blocks-price-rules.md)
    - Widgets {#widgets}
-      - [Übersicht](widgets.md)
+      - [Überblick](widgets.md)
       - [Erstellen und Verwalten von Widgets](widget-create.md)
       - [Verwenden eines Widgets zum Positionieren eines Blocks](widget-static-block.md)
       - [Widget „Liste neuer Produkte“](widget-new-products-list.md)
       - [Widget „Bestellungen und Rückgaben“](widget-orders-returns.md)
       - [Widget „Katalogereignisse - Karussell“](widget-event-carousel.md)
 - WYSIWYG-Editor {#wysiwyg}
-   - [Übersicht](editor.md)
+   - [Überblick](editor.md)
    - [Link einfügen](editor-insert-link.md)
    - [Einfügen eines Bildes](editor-insert-image.md)
    - [Einfügen eines Widgets](editor-widget.md)
    - [Einfügen einer Variablen](editor-insert-variable.md)
    - Medienspeicher {#storage}
-      - [Übersicht](media-storage.md)
+      - [Überblick](media-storage.md)
       - [Verwenden einer Mediendatenbank](media-storage-database.md)
       - [Verwenden eines Netzwerks zur Inhaltsbereitstellung](media-storage-content-delivery-network.md)
       - [Dynamic Media-URLs](catalog-urls-dynamic-media.md)
@@ -68,7 +68,7 @@ ht-degree: 4%
       - [Speichern einer Stock-Bildvorschau](adobe-stock-save-preview.md)
       - [Lizenzieren eines Stock-Bildes](adobe-stock-license-image.md)
    - Mediensammlung {#gallery}
-      - [Übersicht](media-gallery.md)
+      - [Überblick](media-gallery.md)
       - [Asset-Management](media-gallery-asset-management.md)
       - [Ordnerverwaltung](media-gallery-folder-management.md)
       - [Bildoptimierung](media-gallery-image-optimization.md)
@@ -86,9 +86,9 @@ ht-degree: 4%
       - [Verwenden von AEM Assets mit Commerce](aem-assets-manage.md)
 - Medien {#media}
 - Inhalts-Staging {#staging}
-   - [Übersicht](content-staging.md)
+   - [Überblick](content-staging.md)
    - [Planen einer Aktualisierung](content-staging-scheduled-update.md)
    - [Staging-Dashboard](content-staging-dashboard.md)
    - [Kampagnenelement hinzufügen](content-staging-add-item.md)
    - [Vorschau einer Kampagne](content-staging-preview.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
+

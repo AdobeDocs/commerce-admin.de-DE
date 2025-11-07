@@ -3,9 +3,9 @@ title: Katalogbilder und Videos
 description: Erfahren Sie mehr über die Verwendung digitaler Medien zur Erweiterung Ihrer Katalogproduktseiten und zur Bereitstellung von Visualisierungen für Ihre Kunden.
 exl-id: 963693d3-669b-42b3-9ac7-cdaed8bb614f
 feature: Catalog Management, Media
-source-git-commit: 0d072ecdba696383bd33b88b64d751736429f2f6
+source-git-commit: 1056037029d729deda788be348d4f4ecf9f8268c
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,5 @@ Es gibt viele Lichtboxen und Schieberegler von Drittanbietern, die Sie verwenden
 
 Hilfe bei der Fehlerbehebung bei Bild- und Videoproblemen finden Sie in den folgenden Artikeln in der Commerce-Support-Wissensdatenbank:
 
-- [Nach der Installation werden Bilder und Stylesheets nicht geladen. Es wird nur Text angezeigt, keine Grafiken](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.html?lang=de)
-- [Produktbilder werden trotz der Rollen „Produktbild bearbeiten“ nicht angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html?lang=de)
-- [Speichern von Bildern, die nach der Bereitstellung nicht angezeigt werden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=de)
+- [Produktbilder werden trotz der Rollen „Produktbild bearbeiten“ nicht angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
+- [Speichern von Bildern, die nach der Bereitstellung nicht angezeigt werden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)

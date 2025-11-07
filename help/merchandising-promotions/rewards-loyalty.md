@@ -3,9 +3,9 @@ title: Prämien- und Treueprogramme
 description: Erfahren Sie mehr über das Prämienpunktsystem, mit dem Sie die Kundeninteraktion fördern und die Kundenloyalität steigern können.
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: 7a505b1dc953286aa9879e77bd322d9681513096
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1363'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Das _Belohnungspunktesystem_ in Adobe Commerce bietet Ihnen die Möglichkeit, ei
 
 ## Preisregeln für Warenkorb
 
-Punkte können Kunden auf der Grundlage einer [Warenkorbregel“ belohnt &#x200B;](price-rules-cart.md). Sie können als einzige Aktion der Preisregel oder zusammen mit einem Rabatt belohnt werden.
+Punkte können Kunden auf der Grundlage einer [Warenkorbregel“ belohnt ](price-rules-cart.md). Sie können als einzige Aktion der Preisregel oder zusammen mit einem Rabatt belohnt werden.
 
 ## Kundensaldo
 
@@ -38,7 +38,7 @@ Punkte können von Admin-Benutzern und -Kunden (falls aktiviert) während des Ch
 
 ## Rückerstattung an Prämienpunkte
 
-Bestellungen, die mit Prämienpunkten getätigt werden, können bis zu dem Betrag, der in der Bestellung eingelöst wurde, an die Prämienpunkte zurückerstattet werden. Auf der [_Neue Gutschrift_ &#x200B;](../stores-purchase/credit-memo-create.md) kann die Anzahl der Punkte eingegeben werden, die auf den Saldo des Kunden angewendet werden sollen. Standardmäßig enthält das Feld die vollständige Anzahl der Punkte, die in der Reihenfolge verwendet wurden.
+Bestellungen, die mit Prämienpunkten getätigt werden, können bis zu dem Betrag, der in der Bestellung eingelöst wurde, an die Prämienpunkte zurückerstattet werden. Auf der [_Neue Gutschrift_ ](../stores-purchase/credit-memo-create.md) kann die Anzahl der Punkte eingegeben werden, die auf den Saldo des Kunden angewendet werden sollen. Standardmäßig enthält das Feld die vollständige Anzahl der Punkte, die in der Reihenfolge verwendet wurden.
 
 ## Belohnungspunkte-Vorgänge für Ihren Store aktivieren
 
@@ -144,7 +144,7 @@ Die Prämienpunktebilanz kann von der Administratorin bzw. dem Administrator akt
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
+1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte **[!UICONTROL Edit]** auf _[!UICONTROL Action]_.
 
 1. Wählen _unter „Kundeninformationen_ den Abschnitt **[!UICONTROL Reward Points]** aus.
 
@@ -164,7 +164,7 @@ Die Prämienpunktebilanz kann von der Administratorin bzw. dem Administrator akt
 
 1. Klicken Sie auf **[!UICONTROL Save Customer]**.
 
-Alle Aktionen im Zusammenhang mit Belohnungspunkten werden im _[!UICONTROL Reward Points History]_&#x200B;des Kunden in seinem Konto auf der Storefront angezeigt.
+Alle Aktionen im Zusammenhang mit Belohnungspunkten werden im _[!UICONTROL Reward Points History]_des Kunden in seinem Konto auf der Storefront angezeigt.
 
 ## Feldbeschreibungen
 
@@ -176,15 +176,10 @@ Alle Aktionen im Zusammenhang mit Belohnungspunkten werden im _[!UICONTROL Rewar
 | [!UICONTROL Amount] | Zu- oder Abzuziehender Betrag |
 | [!UICONTROL Rate] | Der [Belohnungs-Wechselkurs](reward-exchange-rates.md) |
 | [!UICONTROL Website] | Website, der der Verlauf der Belohnungspunkte zugewiesen wird |
-| [!UICONTROL Reason] | Gründe für die Vergabe von Punkten:<br>**[!UICONTROL Making purchases]**&#x200B;Jedes Mal, wenn ein Kunde einen Kauf tätigt, kann er Punkte sammeln.<br>**[!UICONTROL Registering on the site]** - Abgegrenzt bei der Registrierung (einmal).<br>**[!UICONTROL Subscribing to a newsletter]**: Für das Erstabonnement (einmal) anfallen.<br>**[!UICONTROL Sending Invitations]** — Sammeln Sie Punkte, indem Sie Ihre Freunde zur Teilnahme an der Website einladen.<br>**[!UICONTROL Converting Invitations to Customer]**- Sammeln Sie Punkte für jede Einladung, die sie an führende Freunde senden, die sich auf der Website registrieren.<br>**[!UICONTROL Converting Invitations to Order]** - Sammeln Sie Punkte für jeden Verkauf, der aus einer gesendeten Einladung resultiert.<br>**[!UICONTROL Review Submission]**- Sammeln Sie Punkte für die Einreichung von Produktbewertungen. |
+| [!UICONTROL Reason] | Gründe für die Vergabe von Punkten:<br>**[!UICONTROL Making purchases]**Jedes Mal, wenn ein Kunde einen Kauf tätigt, kann er Punkte sammeln.<br>**[!UICONTROL Registering on the site]** - Abgegrenzt bei der Registrierung (einmal).<br>**[!UICONTROL Subscribing to a newsletter]**: Für das Erstabonnement (einmal) anfallen.<br>**[!UICONTROL Sending Invitations]** — Sammeln Sie Punkte, indem Sie Ihre Freunde zur Teilnahme an der Website einladen.<br>**[!UICONTROL Converting Invitations to Customer]**- Sammeln Sie Punkte für jede Einladung, die sie an führende Freunde senden, die sich auf der Website registrieren.<br>**[!UICONTROL Converting Invitations to Order]** - Sammeln Sie Punkte für jeden Verkauf, der aus einer gesendeten Einladung resultiert.<br>**[!UICONTROL Review Submission]**- Sammeln Sie Punkte für die Einreichung von Produktbewertungen. |
 | [!UICONTROL Created] | Datum und Uhrzeit der Aktualisierung der Prämienpunkte |
 | [!UICONTROL Expired] | Anzahl abgelaufener Belohnungspunkte |
 | [!UICONTROL Comment] | Kommentare beim Hinzufügen oder Subtrahieren von Punkten |
 
 {style="table-layout:auto"}
 
-## Fehlerbehebung bei Ressourcen
-
-Hilfe bei der Fehlerbehebung bei Problemen mit Belohnungspunkten finden Sie in den folgenden Artikeln der Commerce Support Knowledge Base:
-
-- [404-Fehler - Entfernen von Belohnungspunkten beim Multi-Shipping-Checkout](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/magento-2.4.0-404-error-removing-rewards-points-on-multi-shipping-checkout.html?lang=de)

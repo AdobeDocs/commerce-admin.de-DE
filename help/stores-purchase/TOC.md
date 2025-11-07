@@ -5,9 +5,9 @@ breadcrumb-title: Stores und Kauferlebnis
 role: Admin, User
 feature: Storefront
 recommendations: noDisplay
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: 2e5d8c81cbf20612d1351da2f5474f13f353c34c
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '314'
 ht-degree: 3%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 3%
 
 + [Handbuch zu Stores und Kauferlebnissen](guide-overview.md)
 + [Einführung in Geschäfte und Kauferlebnis](introduction.md)
-+ Site- und Store-{#site-store}
++ Site- und Store-Verwaltung {#site-store}
    + [Speichermenü](stores-menu.md)
    + [Store- und Site-Struktur](stores.md)
    + [Ansichten speichern](store-views.md)
    + [Store-Lokalisierung](store-localize.md)
    + [URLs speichern](store-urls.md)
-   + {#taxes}
-      + [Übersicht](taxes.md)
+   + Steuern {#taxes}
+      + [Überblick](taxes.md)
       + [Einstellungen für die Steuerkonfiguration](tax-settings-general.md)
       + [Einstellungen zur Preisanzeige](display-settings.md)
       + [Steuervorschriften](tax-rules.md)
@@ -34,8 +34,8 @@ ht-degree: 3%
       + [Steuergebiete und Steuersätze](tax-zones-rates.md)
       + [Mehrwertsteuer (MwSt.)](vat.md)
       + [Steuerrichtlinien nach Land](international-tax-guidelines.md)
-   + {#currency}
-      + [Übersicht](currency.md)
+   + Währung {#currency}
+      + [Überblick](currency.md)
       + [Währungskonfiguration](currency-configuration.md)
       + [Währungskurse aktualisieren](currency-update.md)
    + [Verkaufs-E-Mails](sales-email.md)
@@ -43,16 +43,16 @@ ht-degree: 3%
 + Point of Purchase {#point-of-purchase}
    + [Sofortkauf](checkout-instant-purchase.md)
    + Warenkorb {#cart}
-      + [Übersicht](cart.md)
+      + [Überblick](cart.md)
       + [Warenkorbkonfiguration](cart-configuration.md)
       + [Warenkorb-Persistenz](cart-persistent.md)
       + [Bestellung nach SKU](order-by-sku.md)
-   + Shopping-{#assist}
+   + Einkaufshilfe {#assist}
       + [Verwalten eines Warenkorbs](shopping-assisted-cart-manage.md)
       + [Bestellung erstellen](customer-account-create-order.md)
       + [Aktualisieren einer Kundenbestellung](order-update.md)
-   + {#checkout}
-      + [Übersicht](checkout-process.md)
+   + Checkout {#checkout}
+      + [Überblick](checkout-process.md)
       + [Einseitiger Checkout](checkout-one-page.md)
       + [Gast-Checkout](checkout-guest.md)
       + [Allgemeine Geschäftsbedingungen](terms-and-conditions.md)
@@ -62,18 +62,18 @@ ht-degree: 3%
    + Geschenkkarten {#gift-cards}
       + [Kauf und Einlösung von Geschenkkarten](product-gift-card-workflow.md)
       + [Geschenkkartenkonten](product-gift-card-accounts.md)
-+ Shopper Tools-{#shopper-tools}
++ Tools für Erstkäufer {#shopper-tools}
    + [Freund per E-Mail benachrichtigen](email-a-friend.md)
    + Wunschlisten {#wish-lists}
-      + [Übersicht](wishlists.md)
+      + [Überblick](wishlists.md)
       + [Konfigurieren von Wunschlisten](wishlist-configuration.md)
       + [Wunschliste Storefront-Erlebnis](wishlist-storefront.md)
    + [Produkte vergleichen](product-compare.md)
    + [Kürzlich angesehen oder verglichen](products-viewed-compared.md)
    + [Neuanordnung von Datensätzen zulassen](reorders-allow.md)
    + [Auftrag stornieren zulassen](cancel-allow.md)
-+ {#payments}
-   + [Übersicht](payments.md)
++ Zahlungen {#payments}
+   + [Überblick](payments.md)
    + PayPal-Zahlungslösungen {#paypal}
       + [Übersicht über PayPal-Lösungen](paypal.md)
       + [PayPal Express-Checkout](paypal-express-checkout.md)
@@ -92,10 +92,10 @@ ht-degree: 3%
       + [Banküberweisungen](bank-transfer.md)
       + [Bestellungen](purchase-order.md)
       + [Kein Zwischensummen-Checkout](zero-subtotal-checkout.md)
-+ Verwalten des Auftragsflusses {#order-management}
++ Verwalten des Bestellflusses {#order-management}
    + [Menü „Verkauf“](sales-menu.md)
    + Bestellungen {#orders}
-      + [Übersicht](orders.md)
+      + [Überblick](orders.md)
       + [Workflow und Verarbeitung](order-processing.md)
       + [Bestellung versenden](order-ship.md)
       + [Bestellstatus](order-status.md)
@@ -105,16 +105,16 @@ ht-degree: 3%
    + [Rechnungen](invoices.md)
    + [Sendungen](shipments.md)
    + Gutschriften {#credit-memos}
-      + [Übersicht](credit-memos.md)
+      + [Überblick](credit-memos.md)
       + [Gutschrift ausstellen](credit-memo-create.md)
-   + Gibt {#returns}
-      + [Übersicht](returns.md)
+   + Rückgabe {#returns}
+      + [Überblick](returns.md)
       + [Konfigurieren von Rücksendungen](rma-configure.md)
       + [Attribute zurückgeben](attributes-returns.md)
       + [Gibt das Storefront-Erlebnis zurück](rma-customer-experience.md)
    + [Transaktionen](transactions.md)
-+ {#delivery}
-   + [Übersicht](delivery.md)
++ Versand {#delivery}
+   + [Überblick](delivery.md)
    + [Versandeinstellungen](shipping-settings.md)
    + Grundlegende Versandmethoden {#basic-methods}
       + [Kostenloser Versand](shipping-free.md)
@@ -131,5 +131,3 @@ ht-degree: 3%
       + [Versandtitel - Übersicht](shipping-labels.md)
       + [Konfigurieren von Versandkennzeichnungen](shipping-label-configure.md)
       + [Erstellen von Versandkennzeichnungen](shipping-label-create.md)
-+ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
-

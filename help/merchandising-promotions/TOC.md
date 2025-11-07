@@ -4,9 +4,9 @@ user-guide-description: Adobe Commerce und Magento Open Source umfassen viele To
 breadcrumb-title: Merchandising und Promotions
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+source-git-commit: 93a564fd06089fbc6ca8b42a06718fed05655ef4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 1%
       - [E-Mail-Erinnerungen erstellen](email-reminder-rules-create.md)
 - Suchmaschinenoptimierung {#seo}
    - [SEO - Überblick und Best Practices](seo-overview.md)
-   - [Metadaten](meta-data.md)
+   - [Meta-Daten](meta-data.md)
    - [Sitemaps](sitemap-xml.md)
    - URL-Neuschreibungen {#url-rewrites}
       - [Übersicht und Konfiguration](url-rewrite.md)
@@ -86,5 +86,3 @@ ht-degree: 1%
    - [Google Analytics](google-analytics.md)
    - [Google Tag Manager](google-tag-manager.md)
    - [Google Adwords](google-adwords.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
-

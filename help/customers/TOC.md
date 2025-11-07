@@ -2,10 +2,10 @@
 user-guide-title: Handbuch zur Kundenverwaltung
 breadcrumb-title: Kundenverwaltung
 feature: Customers
-source-git-commit: 9ff5a82a4d3bd2b979e5475351ae6c3babf26ca4
+source-git-commit: b58e5e2dc660b58be694bd7896d8596e9ef48c04
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 2%
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 + [Handbuch zur Kundenverwaltung](guide-overview.md)
 + [Einführung in das Kundenmanagement](customers-introduction.md)
-+ Customer Management-Tools {#customers-menu}
++ Tools für das Kundenmanagement {#customers-menu}
    + [Kundenliste](customers-all.md)
    + [Jetzt online](now-online.md)
    + [Personalization im großen Maßstab](personalize-scale.md)
-+ Kundenkonten{#customer-accounts}
++ Kundenkonten {#customer-accounts}
    + [Kontobereich](customer-account-scope.md)
    + Kontooptionen {#configure}
       + [Landingpage zur Anmeldung](login-landing-page.md)
@@ -29,7 +29,7 @@ ht-degree: 2%
       + [Kunden-Anmeldung](customer-sign-in.md)
       + [Zurücksetzen des Kennworts](password-reset.md)
    + [Individuelles Konto erstellen](account-create.md)
-   + Verwalten von {#manage}
+   + Konten verwalten {#manage}
       + [Kundenkonten](manage-account.md)
       + [Kundenprofil aktualisieren](update-account.md)
       + [Kundenunterstützung bereitstellen](login-as-customer.md)
@@ -37,13 +37,13 @@ ht-degree: 2%
       + [Attributeigenschaften](attribute-properties.md)
       + [Adressattribute](address-attributes.md)
       + [Adressenvorlagen](address-templates.md)
-   + speichern{#store-credit}
+   + Warenkredit {#store-credit}
       + [Kredit-Workflow speichern](store-credit.md)
       + [Store-Guthaben konfigurieren](credit-configure.md)
       + [Store-Guthaben anwenden](store-credit-using.md)
       + [Guthaben im Konto-Dashboard speichern](account-dashboard-store-credit.md)
       + [Rückerstattungen im Konto-Dashboard](refunds-customer-account.md)
-   + des Kundenkonto-Dashboards{#storefront}
+   + Kundenkonto-Dashboard {#storefront}
       + [Konto-Dashboard verwalten](account-dashboard.md)
       + [[!UICONTROL My Account]](account-dashboard-my-account.md)
       + [[!UICONTROL Address Book]](account-dashboard-address-book.md)
@@ -51,9 +51,8 @@ ht-degree: 2%
 + [Audience Activation](audience-activation.md)
 + [Kundengruppen](customer-groups.md)
 + Kundensegmente {#segments}
-   + [Übersicht](customer-segments.md)
+   + [Überblick](customer-segments.md)
    + [Erstellen und Löschen von Kundensegmenten](customer-segment-create.md)
    + [Kundensegmente in Preisregeln](customer-segment-price-rule.md)
    + [Bericht zu Kundensegmenten](customer-segment-reports.md)
-+ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
 
