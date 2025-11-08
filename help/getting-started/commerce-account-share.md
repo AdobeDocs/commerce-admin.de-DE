@@ -112,7 +112,7 @@ Die folgenden Anweisungen sind aus der Sicht eines freigegebenen Benutzers gesch
    > Wenn **[!UICONTROL Delete]** nicht angezeigt wird, überprüfen Sie, ob die **[!UICONTROL Share Name]** das Namensmuster `Cloud Shared Access from MAG0XYZ` enthält. Wenn das Konto dieses [Namensmuster aufweist und nicht gelöscht werden kann](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#remove-cloud-shared-access-users) liegt dies daran, dass der freigegebene Zugriff von einer API und nicht direkt aus dem [Commerce-Konto erstellt &#x200B;](https://account.magento.com/).
    > 
    > Wenn sie nicht gelöscht werden kann, lassen Sie einfach den Kontoinhaber das Konto mit gemeinsamem Zugriff ändern und unter Kontoberechtigungen erteilen jedes Element deaktivieren. Nach diesem Update kann der Benutzer nicht mehr auf Kontoressourcen zugreifen.
-   > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
+   > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.de-DE/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
    > Stellen Sie außerdem sicher, dass Benutzer aus dem Projekt entfernt werden, sodass sie keine E-Mail-Benachrichtigungen mehr erhalten: [Ehemalige Team-Mitglieder erhalten E-Mails zur Cloud-Benachrichtigung von Adobe Commerce](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
