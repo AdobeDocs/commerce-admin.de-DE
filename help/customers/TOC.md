@@ -55,4 +55,4 @@ ht-degree: 0%
    + [Erstellen und Löschen von Kundensegmenten](customer-segment-create.md)
    + [Kundensegmente in Preisregeln](customer-segment-price-rule.md)
    + [Bericht zu Kundensegmenten](customer-segment-reports.md)
-+ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de)

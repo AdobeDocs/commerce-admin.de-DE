@@ -98,4 +98,4 @@ ht-degree: 0%
       + [Attribute erstellen und löschen](attribute-product-create.md)
       + [Massenaktualisierungen](bulk-product-attribute-update.md)
       + [Attributsätze](attribute-sets.md)
-+ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de)
