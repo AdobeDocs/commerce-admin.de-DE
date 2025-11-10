@@ -3,9 +3,9 @@ user-guide-title: Inhalts- und Design-Handbuch
 user-guide-description: Umfassende Informationen zu Inhalts- und Design-Funktionen für Adobe Commerce- und Magento Open Source-Administratoren und E-Commerce-Marketing-Experten.
 breadcrumb-title: Inhalt und Design
 feature: CMS, Page Content
-source-git-commit: 198ceac9ae9bf47211295567231b1a43beff3927
+source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 4%
 
 ---
@@ -91,4 +91,4 @@ ht-degree: 4%
    - [Staging-Dashboard](content-staging-dashboard.md)
    - [Kampagnenelement hinzufügen](content-staging-add-item.md)
    - [Vorschau einer Kampagne](content-staging-preview.md)
-
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
