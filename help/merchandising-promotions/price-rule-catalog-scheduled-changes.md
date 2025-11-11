@@ -3,9 +3,9 @@ title: Geplante Änderungen für Katalogpreisregeln
 description: Erfahren Sie, wie Sie Katalogpreisregeln im Rahmen einer Kampagne planmäßig anwenden und mit anderen Inhaltsänderungen gruppieren.
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 11f8fcba70491f9dcb6c20d14b406fba4b14cab4
+source-git-commit: e4c18621d0607446b48bf2447ac1a978d33ac24a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -16,21 +16,19 @@ ht-degree: 0%
 
 Das Feld Geplante Änderungen wird oben auf der Seite angezeigt, wenn eine neue Preisregel gespeichert oder aktualisiert wird. Katalogpreisregeln können planmäßig im Rahmen einer Kampagne angewendet und mit anderen Inhaltsänderungen gruppiert werden. Sie können eine Kampagne auf der Grundlage geplanter Änderungen an einer Preisregel erstellen oder die Änderungen auf eine vorhandene Kampagne anwenden.
 
->[!NOTE]
->
->Die Felder [!UICONTROL From] und [!UICONTROL To] wurden in ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce entfernt und können nicht direkt über die Katalogpreisregel geändert werden. Für diese Aktivierungen muss ein geplantes Update erstellt werden.
-
->[!NOTE]
->
->Alle geplanten Aktualisierungen werden nacheinander angewendet. Das bedeutet, dass jede Entität zu einem bestimmten Zeitpunkt nur eine geplante Aktualisierung haben kann. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb ihres Zeitrahmens angewendet. Daher kann eine Entität nicht gleichzeitig verschiedene geplante Aktualisierungen für verschiedene Store-Ansichten haben. Alle Entitätsattributwerte in allen Store-Ansichten, die nicht von der aktuellen geplanten Aktualisierung betroffen sind, werden aus den Standardwerten übernommen, nicht aus der vorherigen geplanten Aktualisierung.
-
-Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die Einstellung „Priorität“ der Preisregel, welche Regel Vorrang hat. Weitere Informationen finden Sie unter [Inhaltsbereitstellung](../content-design/content-staging.md).
-
->[!IMPORTANT]
->
->Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne nicht später bearbeitet werden, um ein Enddatum einzuschließen. In diesem Fall müssen Sie eine doppelte Kampagne erstellen und das erforderliche Enddatum eingeben.
-
 ![Katalogpreisregel - Geplante Änderungen](./assets/price-rule-catalog-scheduled.png){width="600" zoomable="yes"}
+
+## Funktionsweise geplanter Preisregelaktualisierungen
+
+- Alle geplanten Aktualisierungen werden nacheinander angewendet. Das bedeutet, dass jede Entität jeweils nur eine geplante Aktualisierung haben kann.
+
+- Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb ihres Zeitrahmens angewendet. Daher kann eine Entität nicht gleichzeitig verschiedene geplante Aktualisierungen für verschiedene Store-Ansichten haben. Alle Entitätsattributwerte in allen Store-Ansichten, die nicht von der aktuellen geplanten Aktualisierung betroffen sind, werden aus den Standardwerten übernommen, nicht aus der vorherigen geplanten Aktualisierung.
+
+- Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die Einstellung „Priorität“ der Preisregel, welche Regel Vorrang hat. Weitere Informationen finden Sie unter [Inhaltsbereitstellung](../content-design/content-staging.md).
+
+## Beenden eines Preisregelverkaufs zu einem bestimmten Zeitpunkt
+
+Wenn eine aktive Preisregel ohne Enddatum erstellt wurde und Sie sie zu einem bestimmten Zeitpunkt beenden müssen, können Sie die vorhandene geplante Aktualisierung nicht bearbeiten, um ein Enddatum hinzuzufügen. Stattdessen müssen Sie eine neue geplante Aktualisierung erstellen, die den Status der Regel in `Inactive` ändert. Legen Sie für das Startdatum dieser neuen Aktualisierung das Datum und die Uhrzeit fest, zu der der Verkauf enden soll.
 
 ## Planen einer Aktualisierung für eine Katalogpreisregel
 
@@ -60,7 +58,7 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
    >[!NOTE]
    >
-   >Wenn Sie zu einem der Regelinformationsparameter wechseln, stellen Sie sicher, dass der _[!UICONTROL Status]_&#x200B;richtig eingestellt ist. Wenn die Änderung zu einer aktiv angewendeten Regel führen soll, sollte der Status lauten`Active`.
+   >Stellen Sie bei jeder Aktualisierung von Regelinformationsparametern sicher, dass die _[!UICONTROL Status]_korrekt eingestellt ist. Wenn die Änderung zu einer aktiv angewendeten Regel führen soll, setzen Sie den Status auf `Active`.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
@@ -68,13 +66,13 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
 ## Geplante Regeländerung bearbeiten
 
+>[!NOTE]
+>
+>Wenn eine Kampagne mit mehr als einer Katalogpreisregel verknüpft ist, können Sie die Kampagne nur über das [Inhalts-Staging-Dashboard“ ](../content-design/content-staging-dashboard.md).
+
 1. Klicken Sie im **[!UICONTROL Scheduled Changes]** oben auf der Seite auf **[!UICONTROL View/Edit]**.
 
 1. Nehmen Sie die erforderlichen Änderungen an der geplanten Aktualisierung vor.
-
-   >[!NOTE]
-   >
-   >Wenn eine Kampagne mit mehr als einer Katalogpreisregel verknüpft ist, kann die Kampagne nur über das [Inhalts-Staging-Dashboard“ bearbeitet &#x200B;](../content-design/content-staging-dashboard.md).
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -92,7 +90,7 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
    ![Liste geplanter Aktualisierungen für ein bestimmtes Datum](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Date & Time]** Um eine Vorschau eines anderen Tages oder einer anderen Uhrzeit anzuzeigen, klicken Sie auf das ![&#x200B; „Kalender](../assets/icon-calendar.png) und führen Sie folgende Schritte aus:
+1. **[!UICONTROL Date & Time]** Um eine Vorschau eines anderen Tages oder einer anderen Uhrzeit anzuzeigen, klicken Sie auf das ![ „Kalender](../assets/icon-calendar.png) und führen Sie folgende Schritte aus:
 
    - Wählen Sie ein anderes Datum und/oder eine andere Uhrzeit.
 
@@ -104,14 +102,14 @@ Wenn in derselben Kampagne mehrere Preisregeln ausgeführt werden, bestimmt die 
 
    **Freigeben eines Links zur Vorschau**
 
-   Um einen Link zur Store-Vorschau für Ihre Kollegen freizugeben, klicken Sie auf **[!UICONTROL Share]**. Kopieren Sie den Link in die Zwischenablage und fügen Sie ihn in den Textkörper einer E-Mail-Nachricht ein.
+   Um einen Link zur Store-Vorschau für andere Admin-Benutzer freizugeben, klicken Sie auf **[!UICONTROL Share]**. Kopieren Sie den Link in die Zwischenablage und fügen Sie ihn in den Textkörper einer E-Mail-Nachricht ein.
 
    >[!NOTE]
    >
-   >Um eine freigegebene Vorschau anzuzeigen, ist ein Administratorkonto erforderlich. Wenn Ihre [Rolle Zugriff hat](../systems/permissions-user-roles.md) müssen Sie vor der Freigabe das Konto für einen neuen Benutzer erstellen, um ein Administratorbenutzerkonto zu erstellen.
+   >Wenn Ihre [Rolle über Zugriff](../systems/permissions-user-roles.md) zum Verwalten von Admin-Benutzerkonten verfügt, können Sie ein vorhandenes Benutzerkonto mit Administratorberechtigungen erstellen oder aktualisieren, damit Sie den Vorschau-Link freigeben können.
 
    **Ändern des Umfangs der Vorschau**
 
    Um geplante Änderungen für verschiedene Store-Ansichten anzuzeigen, klicken Sie in der Kopfzeile der Seite „Vorschau“ auf **[!UICONTROL Scope]**. Wählen Sie die Website-, Store- oder Store-Ansicht aus, die Sie in der Vorschau anzeigen möchten.
 
-1. Kehren Sie bei Bedarf zum Kalender zurück und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL View/Edit]**, um eine weitere geplante Aktualisierung zu öffnen.
+1. Kehren Sie bei Bedarf zum Kalender zurück und klicken Sie in der Spalte **[!UICONTROL View/Edit]** auf _[!UICONTROL Action]_, um eine weitere geplante Aktualisierung zu öffnen.

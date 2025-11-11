@@ -3,9 +3,9 @@ title: Erstellen einer Katalogpreisregel
 description: Erfahren Sie, wie Sie eine Katalogpreisregel erstellen, die einen Rabatt auf bestimmte Produkte anwendet, wenn eine Reihe von Bedingungen erfüllt ist.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-source-git-commit: 3011d0287c74fd39b44e180733343c39d1cadea7
+source-git-commit: 5e21259c196419f9a337795f9bec29f0737e84ca
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1727'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New Rule]**.
 
-   Der Abschnitt _[!UICONTROL Rule Information]_&#x200B;enthält erweiterbare Abschnitte für **[!UICONTROL Conditions]**&#x200B;und **[!UICONTROL Actions]**.
+   Der Abschnitt _[!UICONTROL Rule Information]_enthält erweiterbare Abschnitte für **[!UICONTROL Conditions]**und **[!UICONTROL Actions]**.
 
    ![Katalogpreisregel - Informationen](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -43,7 +43,11 @@ Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden
 
 1. ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Geben Sie **[!UICONTROL From]** und **[!UICONTROL To]** ein, um zu bestimmen, wann die Preisregel in Kraft ist.
 
-   Sie können die Daten eingeben oder die **[!UICONTROL Calendar]** (![Kalendersymbol) &#x200B;](../assets/icon-calendar.png), um die Daten auszuwählen. Wenn Sie die Datumsangaben leer lassen, wird die Regel beim Speichern der Preisregel aktiviert.
+   Sie können die Daten eingeben oder die **[!UICONTROL Calendar]** (![Kalendersymbol) ](../assets/icon-calendar.png), um die Daten auszuwählen. Wenn Sie die Datumsangaben leer lassen, wird die Regel beim Speichern der Preisregel aktiviert.
+
+   >[!NOTE]
+   >
+   >Die Felder `From` und `To` wurden aus der Seite Konfiguration der Katalogpreisregel in Adobe Commerce entfernt und können nicht direkt in der Katalogpreisregel geändert werden. Sie müssen ein geplantes Update erstellen, um den Zeitplan für die Aktivierung der Preisregel festzulegen.
 
 1. Geben Sie eine Zahl ein, um die **[!UICONTROL Priority]** dieser Regel im Verhältnis zu anderen Regeln festzulegen.
 
@@ -124,7 +128,7 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
    ![Katalogpreisregel - Aktionen](./assets/price-rule-catalog-actions.png){width="600" zoomable="yes"}
 
-1. Legen Sie **[!UICONTROL Apply]** unter **[!UICONTROL Pricing Structure Rules]** auf eine der folgenden Einstellungen fest:
+1. Legen Sie **[!UICONTROL Pricing Structure Rules]** unter **[!UICONTROL Apply]** auf eine der folgenden Einstellungen fest:
 
    - `Apply as percentage of original` - Rabattposition durch Abzug eines Prozentsatzes vom regulären Preis. Beispiel: Geben Sie 10 als Rabattbetrag für einen Endpreis ein, der um 10 % unter dem regulären Preis liegt.
    - `Apply as fixed amount` - Rabattposten durch Abzug eines festen Betrags vom regulären Preis. Beispiel: Geben Sie 10 als Rabattbetrag für einen Endpreis ein, der 10 $ unter dem regulären Preis liegt.
@@ -203,9 +207,9 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
 1. Aktualisieren von Eigenschaften für eine Regel:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die _[!UICONTROL Rule Information]_&#x200B;anzuzeigen.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die _[!UICONTROL Rule Information]_anzuzeigen.
 
-   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die _[!UICONTROL Rule Information]_&#x200B;anzuzeigen.
+   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die _[!UICONTROL Rule Information]_anzuzeigen.
 
 1. Testen Sie die Regel, um sicherzustellen, dass sie korrekt funktioniert.
 
@@ -215,7 +219,7 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
 In diesem Video erfahren Sie mehr über das Erstellen von Katalogpreisregeln:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411361?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Feldbeschreibungen
 
@@ -242,7 +246,7 @@ Gibt die Bedingungen an, die erfüllt sein müssen, bevor die Katalogpreisregel 
 
 | Feld | Beschreibung |
 |-----|-----------|
-| [!UICONTROL Apply] | Bestimmt die Art der Berechnung, die auf den Kauf angewendet wird. Optionen: <br/>**[!UICONTROL Apply as percentage of original]**- Rabattartikel durch Subtraktion eines Prozentsatzes vom regulären Preis.<br/>**[!UICONTROL Apply as fixed amount]** - Rabattposten durch Abzug eines festen Betrags vom regulären Preis. <br/>**[!UICONTROL Adjust final price to this percentage]**- Passt den Endpreis um einen Prozentsatz des regulären Preises an.<br/>**[!UICONTROL Adjust final price to discount value]** - Setzt den Endpreis auf einen festen, diskontierten Betrag. <br/><br/>**_Hinweis _**&#x200B;Der reguläre Preis bezieht sich auf den Basispreis des Produkts ohne Vorzugspreise (Sonderpreis/Stufe/Gruppe) oder Rabatte auf Werbeaktionen. Der Endpreis bezieht sich auf den ermäßigten Preis, der im Warenkorb angezeigt wird. <br/>Der&#x200B;**_Endprodukt _**&#x200B;Preis wird als&#x200B;**_Mindestpreis)_**&#x200B;folgender Formel berechnet: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
+| [!UICONTROL Apply] | Bestimmt die Art der Berechnung, die auf den Kauf angewendet wird. Optionen: <br/>**[!UICONTROL Apply as percentage of original]**- Rabattartikel durch Subtraktion eines Prozentsatzes vom regulären Preis.<br/>**[!UICONTROL Apply as fixed amount]** - Rabattposten durch Abzug eines festen Betrags vom regulären Preis. <br/>**[!UICONTROL Adjust final price to this percentage]**- Passt den Endpreis um einen Prozentsatz des regulären Preises an.<br/>**[!UICONTROL Adjust final price to discount value]** - Setzt den Endpreis auf einen festen, diskontierten Betrag. <br/><br/>**_Hinweis:_** Der reguläre Preis bezieht sich auf den Basispreis des Produkts ohne erweiterte Preise (Sonderpreis/Stufe/Gruppe) oder Rabatte auf Werbeaktionen. Der Endpreis bezieht sich auf den ermäßigten Preis, der im Warenkorb angezeigt wird. <br/>Der **_Endprodukt_** Preis wird als **_Mindestpreis)_** folgender Formel berechnet: <br/>`Final Price=Min(Regular(Base) Price, Group(Tier) Price, Special Price, Catalog Price Rule) + Sum(Min Price per each required custom option)` |
 | [!UICONTROL Discount Amount] | (Erforderlich) Der Rabattbetrag, der angeboten wird. |
 | [!UICONTROL Discard Subsequent Rules] | Legt fest, ob zusätzliche Regeln auf diesen Kauf angewendet werden können. Um zu verhindern, dass mehrere Rabatte auf denselben Kauf angewendet werden, wählen Sie `Yes` aus. Optionen: `Yes` / `No` |
 
