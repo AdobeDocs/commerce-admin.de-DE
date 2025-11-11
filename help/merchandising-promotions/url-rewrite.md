@@ -49,7 +49,7 @@ Standardmäßig sind [automatische URL-Umleitungen](url-redirect-product-automat
 
 Sehen Sie sich das folgende Video an, um mehr über die Verwaltung von URL-Neuschreibungen zu erfahren:
 
->[!VIDEO](https://video.tv.adobe.com/v/343751?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411957?captions=ger&quality=12&learn=on)
 
 ## URL-Neuschreibungen erstellen
 
