@@ -20,7 +20,7 @@ Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New Rule]**.
 
-   Der Abschnitt _[!UICONTROL Rule Information]_enthält erweiterbare Abschnitte für **[!UICONTROL Conditions]**und **[!UICONTROL Actions]**.
+   Der Abschnitt _[!UICONTROL Rule Information]_&#x200B;enthält erweiterbare Abschnitte für **[!UICONTROL Conditions]**&#x200B;und **[!UICONTROL Actions]**.
 
    ![Katalogpreisregel - Informationen](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -43,7 +43,7 @@ Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden
 
 1. ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Geben Sie **[!UICONTROL From]** und **[!UICONTROL To]** ein, um zu bestimmen, wann die Preisregel in Kraft ist.
 
-   Sie können die Daten eingeben oder die **[!UICONTROL Calendar]** (![Kalendersymbol) ](../assets/icon-calendar.png), um die Daten auszuwählen. Wenn Sie die Datumsangaben leer lassen, wird die Regel beim Speichern der Preisregel aktiviert.
+   Sie können die Daten eingeben oder die **[!UICONTROL Calendar]** (![Kalendersymbol) &#x200B;](../assets/icon-calendar.png), um die Daten auszuwählen. Wenn Sie die Datumsangaben leer lassen, wird die Regel beim Speichern der Preisregel aktiviert.
 
    >[!NOTE]
    >
@@ -207,9 +207,9 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
 1. Aktualisieren von Eigenschaften für eine Regel:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die _[!UICONTROL Rule Information]_anzuzeigen.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die _[!UICONTROL Rule Information]_&#x200B;anzuzeigen.
 
-   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die _[!UICONTROL Rule Information]_anzuzeigen.
+   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die _[!UICONTROL Rule Information]_&#x200B;anzuzeigen.
 
 1. Testen Sie die Regel, um sicherzustellen, dass sie korrekt funktioniert.
 
