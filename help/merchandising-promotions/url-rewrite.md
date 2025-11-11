@@ -3,7 +3,7 @@ title: URL-Neuschreibungen
 description: Erfahren Sie mehr über URL-Neuschreibungen und die Verwendung des Commerce URL Rewrite Tools zum Ändern von URLs, die mit einem Produkt, einer Kategorie oder einer CMS-Seite verknüpft sind.
 exl-id: 91e65f7f-7e33-4da5-b0a1-538ace56328a
 feature: Categories, Products, Configuration
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 2f2db4926ff92adfa27692eeca872c1765fd31d6
 workflow-type: tm+mt
 source-wordcount: '905'
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Informationen zu Adobe Commerce as a Cloud Service finden Sie in den [SEO-Richtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in der Dokumentation zu Commerce Storefront
+>Informationen zu Adobe Commerce as a Cloud Service finden Sie in den [SEO-Richtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=de) in der Dokumentation zu Commerce Storefront
 
 Mit dem Tool zum Neuschreiben von URLs können Sie jede URL ändern, die mit einem Produkt, einer Kategorie oder einer CMS-Seite verknüpft ist. Beim Erstellen einer URL-Umschreibung erstellt Commerce automatisch eine permanente Umleitung (301), sodass alle Links, die auf die alte URL verweisen, an die neue Adresse umgeleitet werden.
 
