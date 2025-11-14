@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine erweiterte Sicherheitsüberprüfung durc
 exl-id: 87d4739f-496c-4e47-89a3-70d3969c0fdb
 role: Admin
 feature: Security, Site Management, Reporting
-source-git-commit: 5dd564185975216361918bda4954ed4a6fc8fee4
+source-git-commit: 425004ece49f96fa102e9f46b9c5d15c89233334
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 - Zugriff auf historische Sicherheitsberichte, die den Fortschritt Ihrer Sites verfolgen und überwachen.
 - Greifen Sie mit allen empfohlenen Aktionen auf den Scanbericht zu, der erfolgreiche und fehlgeschlagene Prüfungen anzeigt.
 
-Das Security Scan Tool ist kostenlos im Dashboard Ihres [Commerce/Magento-Kontos](../getting-started/commerce-account-create.md) verfügbar. Technische Informationen finden Sie unter [Einrichten des Sicherheits-Scan-Tools](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) im _Handbuch zu Commerce in Cloud-Infrastrukturen_.
+Das Security Scan Tool ist kostenlos im Dashboard Ihres [Commerce/Magento-Kontos](../getting-started/commerce-account-create.md) verfügbar. Technische Informationen finden Sie unter [Einrichten des Sicherheits-Scan-Tools](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) im _Handbuch zu Commerce in Cloud-Infrastrukturen_.
 
 ![Sicherheits-Scan-Tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
@@ -44,7 +44,7 @@ Führen Sie zwei Schritte aus, um das Security Scan Tool für Ihre Adobe Commerc
    1. Lies die **[!UICONTROL Terms and Conditions]**.
    1. Zum Fortfahren auf **[!UICONTROL Agree]** klicken.
 
-3. Klicken Sie auf der _[!UICONTROL Monitored Websites]_&#x200B;Seite auf **[!UICONTROL +Add Site]**.
+3. Klicken Sie auf der _[!UICONTROL Monitored Websites]_Seite auf **[!UICONTROL +Add Site]**.
 
    Wenn Sie mehrere Websites mit unterschiedlichen Domains haben, konfigurieren Sie für jede Domain einen separaten Scan.
 
@@ -75,7 +75,7 @@ Führen Sie zwei Schritte aus, um das Security Scan Tool für Ihre Adobe Commerc
 
    1. Klicken Sie abschließend auf **[!UICONTROL Save Configuration]**.
 
-1. Kehren Sie zur Seite _[!UICONTROL Security Scan]_&#x200B;in Ihrem Commerce-Konto zurück und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**, um die Eigentümerschaft an der Domain herzustellen.
+1. Kehren Sie zur Seite _[!UICONTROL Security Scan]_in Ihrem Commerce-Konto zurück und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**, um die Eigentümerschaft an der Domain herzustellen.
 
 >[!TAB PWA-Storefront]
 
@@ -117,7 +117,7 @@ Führen Sie zwei Schritte aus, um das Security Scan Tool für Ihre Adobe Commerc
 
       Nach Abschluss des Build-Prozesses werden die Änderungen in Ihrer PWA-Storefront bereitgestellt.
 
-1. Kehren Sie zur Seite _[!UICONTROL Security Scan]_&#x200B;in Ihrem Commerce-Konto zurück und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**, um die Eigentümerschaft an der Domain herzustellen.
+1. Kehren Sie zur Seite _[!UICONTROL Security Scan]_in Ihrem Commerce-Konto zurück und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**, um die Eigentümerschaft an der Domain herzustellen.
 
 >[!TAB AEM-Storefront]
 
@@ -134,6 +134,10 @@ Führen Sie zwei Schritte aus, um das Security Scan Tool für Ihre Adobe Commerc
    1. Wechseln Sie im Projektverzeichnis der AEM-Storefront zu `head.html`.
    1. Fügen Sie den kopierten Bestätigungs-Code (den generierten HTML-Inhalt oder das META-Tag) zu `head.html` Datei hinzu und speichern Sie die Änderungen.
 
+   >[!NOTE]
+   >
+   >Die Überprüfung des Site-Eigentümers funktioniert nur, wenn die Bestätigung direkt zur `head.html` im AEM-Storefront-Projektverzeichnis hinzugefügt wird. Sie kann nicht über Tools zur Bearbeitung von Web-Seiten wie die Dokumentbearbeitung oder den universellen Editor hinzugefügt werden.
+
    ![Bestätigungs-Code kopieren](./assets/code-aem.png){width="600" zoomable="yes"}
 
 1. Verwenden Sie das Git-CLI-Tool, um diese Änderungen zu testen, zu übertragen und in Ihr Projekt-Repository zu übertragen.
@@ -146,7 +150,7 @@ Führen Sie zwei Schritte aus, um das Security Scan Tool für Ihre Adobe Commerc
 
    Nach Abschluss des Build-Prozesses werden die Änderungen an Ihrer AEM-Storefront bereitgestellt.
 
-1. Kehren Sie zur Seite _[!UICONTROL Security Scan]_&#x200B;in Ihrem Commerce-Konto zurück und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**, um die Eigentümerschaft an der Domain herzustellen.
+1. Kehren Sie zur Seite _[!UICONTROL Security Scan]_in Ihrem Commerce-Konto zurück und klicken Sie auf **[!UICONTROL Verify Confirmation Code]**, um die Eigentümerschaft an der Domain herzustellen.
 
 >[!ENDTABS]
 
@@ -205,7 +209,7 @@ Häufige Szenarien, in denen Sie einen Scan-Fehler als falsch positiv markieren 
 
 Gehen Sie wie folgt vor, um Scanfehler zu verwalten, die als falsch positiv identifiziert wurden:
 
-1. Klicken Sie auf der Seite _[!UICONTROL Monitored Websites]_&#x200B;auf **[!UICONTROL View Report]**&#x200B;für die Site, die Sie verwalten möchten.
+1. Klicken Sie auf der Seite _[!UICONTROL Monitored Websites]_auf **[!UICONTROL View Report]**für die Site, die Sie verwalten möchten.
 
 1. Suchen Sie in der Berichtsansicht den fehlgeschlagenen Scan, den Sie als falsch positiv markieren möchten.
 
@@ -229,7 +233,7 @@ Führen Sie die folgenden Schritte aus, um einen zuvor ignorierten Überprüfung
 
 1. Klicken Sie auf **[!UICONTROL Apply Changes]** , um Ihre Auswahl zu speichern.
 
-Der Scan-Fehler wird wieder in den Abschnitt _[!UICONTROL Failed Scans]_&#x200B;verschoben und ist in Ihrer Risikobewertung enthalten.
+Der Scan-Fehler wird wieder in den Abschnitt _[!UICONTROL Failed Scans]_verschoben und ist in Ihrer Risikobewertung enthalten.
 
 ### Ignorierte Scanfehler anzeigen
 
