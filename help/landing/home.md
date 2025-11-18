@@ -22,7 +22,7 @@ Die Informationen in den Administratorhandbüchern richten sich an Business-Anwe
 
 Adobe Systems Commerce ist eine agil B2B und B2C Commerce-Plattform, die es Händlern und Marken ermöglicht, Umsatz durch kundenorientierte digitale Handelserlebnisse in online und physischen Räumen zu beschleunigen. Es ist die führende Wahl für mittelständische und große Unternehmen, da es die flexibelsten Bereitstellungsmodelle mit garantierten SLAs von On-Premise bis Managed Cloud bietet. Adobe Commerce ermöglicht API-First-Integrationen und vollständig anpassbare Erweiterungen sowie die umfangreichsten Commerce-Erlebnisfunktionen auf Unternehmensniveau, von Marketing über Merchandising bis hin zur Fulfillment-Analyse. Adobe Commerce basiert auf einer Open-Source-Code-Basis und bietet so Flexibilität und Erweiterbarkeit wie keine andere Commerce-Plattform.
 
-Eine Liste der in Adobe Commerce enthaltenen erweiterten Funktionen finden Sie unter [Commerce-Funktionen](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=en) in den _Versionsinformationen_.
+Eine Liste der in Adobe Commerce enthaltenen erweiterten Funktionen finden Sie unter [Commerce-Funktionen](https://experienceleague.adobe.com/docs/commerce-operations/release/features.html?lang=de) in den _Versionsinformationen_.
 
 ## Magento Open Source-Code-Basis
 
@@ -44,7 +44,7 @@ Magento Open Source ist die Code-Basis, zu der Adobe offiziell beiträgt, und ge
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Systems Commerce B2B</strong></a> [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Systems Commerce in Cloud-Projekten (Adobe Systems-verwaltete PaaS-Infrastruktur) und On-Premises-Projekte."}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Systems Commerce B2B</strong></a> [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Systems Commerce in Cloud-Projekten (Adobe Systems-verwaltete PaaS-Infrastruktur) und On-Premises-Projekte."}
     <div><em>Dieser Funktionsumfang wurde entwickelt, um die Anforderungen von Verkäufern (Händlern) zu erfüllen, deren Kunden in erster Linie Unternehmen sind – möglicherweise mit komplexen Organisationsstrukturen und mehreren Mitarbeitern mit unterschiedlichen Rollen und Ebenen des Einkaufs Berechtigung.</em>
     <br></div>
   </td>
@@ -81,7 +81,7 @@ Magento Open Source ist die Code-Basis, zu der Adobe offiziell beiträgt, und ge
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und in lokalen Projekten."}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und in lokalen Projekten."}
     <div><em>[!DNL Page Builder] erleichtert die Erstellung von inhaltsreichen Seiten mit benutzerdefinierten Layouts. Diese Funktionen verbessern die Qualität und reduzieren den Zeit- und Kostenaufwand für die Erstellung benutzerdefinierter Seiten.</em></div>
   </td>
 </tr>

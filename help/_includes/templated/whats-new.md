@@ -23,7 +23,7 @@ Dieser Abschnitt enthält die in den letzten 60 Tagen vorgenommenen Änderungen.
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurden Hinweise zur Verfügbarkeit von Page Builder Vorschau auf der CMS-Seite zu den <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add">Seiten</a> "hinzufügen" und "Entfernen" sowie zu den Themen Page Builder <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace">Arbeitsbereich</a> hinzugefügt. Die Vorschau zeigt keine Inhalte an, es sei denn, sie ist in der standardmäßigen Store-Ansicht verfügbar.</p>
+      <td><p>Es wurden Hinweise zur Verfügbarkeit von Page Builder Vorschau auf der CMS-Seite zu den <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/content-design/elements/pages/page-add">Seiten</a> "hinzufügen" und "Entfernen" sowie zu den Themen Page Builder <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/page-builder/workspace">Arbeitsbereich</a> hinzugefügt. Die Vorschau zeigt keine Inhalte an, es sei denn, sie ist in der standardmäßigen Store-Ansicht verfügbar.</p>
 </td>
       <td>
         Technisches Feedback
@@ -45,7 +45,7 @@ Dieser Abschnitt enthält die in den letzten 60 Tagen vorgenommenen Änderungen.
   </thead>
   <tbody>
     <tr>
-      <td><p>Das <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan">Sicherheits-Scan-Tool</a> wurde aktualisiert, um Händler mit Commerce-Storefronts zu unterstützen, die als Adobe Experience Manager-Sites bereitgestellt werden.</p>
+      <td><p>Das <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/systems/security/security-scan">Sicherheits-Scan-Tool</a> wurde aktualisiert, um Händler mit Commerce-Storefronts zu unterstützen, die als Adobe Experience Manager-Sites bereitgestellt werden.</p>
 </td>
       <td>
         Technisch
@@ -67,7 +67,7 @@ Dieser Abschnitt enthält die in den letzten 60 Tagen vorgenommenen Änderungen.
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde geklärt, wie ein aktiver Preis Regel Verkauf zu einem bestimmten Zeitpunkt beendet wird, wenn im <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Thema Geplante Änderungen für Katalogpreisregeln</a> kein Enddatum angegeben wurde.<br />Das Thema URL Umschreibungen wurde neu organisiert <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">, um Beispiele, konzeptionelle Definitionen und Gruppe zusätzliche Konfigurationsanweisungen für die URL-Verwaltung für Web-Server-Umschreibungen</a> und kanonische URLs zu verbessern.</p>
+      <td><p>Es wurde geklärt, wie ein aktiver Preis Regel Verkauf zu einem bestimmten Zeitpunkt beendet wird, wenn im <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Thema Geplante Änderungen für Katalogpreisregeln</a> kein Enddatum angegeben wurde.<br />Das Thema URL Umschreibungen wurde neu organisiert <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">, um Beispiele, konzeptionelle Definitionen und Gruppe zusätzliche Konfigurationsanweisungen für die URL-Verwaltung für Web-Server-Umschreibungen</a> und kanonische URLs zu verbessern.</p>
 </td>
       <td>
         Technik, Feedback
@@ -89,7 +89,7 @@ Dieser Abschnitt enthält die in den letzten 60 Tagen vorgenommenen Änderungen.
   </thead>
   <tbody>
     <tr>
-      <td><p>Die Anweisungen <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">Setup für Versanddienstleister</a> mit Anweisungen für die Migration von der USPS Web Tools API zu den USPS REST APIs wurden aktualisiert.</p>
+      <td><p>Die Anweisungen <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">Setup für Versanddienstleister</a> mit Anweisungen für die Migration von der USPS Web Tools API zu den USPS REST APIs wurden aktualisiert.</p>
 </td>
       <td>
         Technisches Feedback
@@ -111,7 +111,7 @@ Dieser Abschnitt enthält die in den letzten 60 Tagen vorgenommenen Änderungen.
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde Dokumentation für die <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Erweiterung Datenfeed-Synchronisierungsstatus</a> hinzugefügt, um die Synchronisierung von Datenexport-Feeds von Adobe Commerce mit der Commerce SaaS-Datenbank zur Veröffentlichung in verbundenen Commerce-Services (Live-Suche, Produktempfehlungen, Katalog-Service) zu überwachen. Die Seite Daten Sync Status ist im Menü "Systeme" in Commerce Admin verfügbar.</p>
+      <td><p>Es wurde Dokumentation für die <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Erweiterung Datenfeed-Synchronisierungsstatus</a> hinzugefügt, um die Synchronisierung von Datenexport-Feeds von Adobe Commerce mit der Commerce SaaS-Datenbank zur Veröffentlichung in verbundenen Commerce-Services (Live-Suche, Produktempfehlungen, Katalog-Service) zu überwachen. Die Seite Daten Sync Status ist im Menü "Systeme" in Commerce Admin verfügbar.</p>
 </td>
       <td>
         Neues Thema
@@ -133,7 +133,7 @@ Dieser Abschnitt enthält die in den letzten 60 Tagen vorgenommenen Änderungen.
   </thead>
   <tbody>
     <tr>
-      <td><p>Informationen zum Konfigurieren von Single Sign-On (SSO) für sicheren Zugriff auf Adobe-Apps wurden zum Thema <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on">Konfigurieren der Commerce Admin-Integration mit Adobe ID</a> in der Dokumentation zu Commerce Merchant hinzugefügt.</p>
+      <td><p>Informationen zum Konfigurieren von Single Sign-On (SSO) für sicheren Zugriff auf Adobe-Apps wurden zum Thema <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/start/admin/ims/adobe-ims-config#identity-and-single-sign-on">Konfigurieren der Commerce Admin-Integration mit Adobe ID</a> in der Dokumentation zu Commerce Merchant hinzugefügt.</p>
 </td>
       <td>
         Technisches Feedback
@@ -155,7 +155,7 @@ Dieser Abschnitt enthält die in den letzten 60 Tagen vorgenommenen Änderungen.
   </thead>
   <tbody>
     <tr>
-      <td><p>Die B2B Sicherheits Patch <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">Versionshinweise</a> vom Oktober 2025 hinzugefügt.</p>
+      <td><p>Die B2B Sicherheits Patch <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/b2b/release-notes">Versionshinweise</a> vom Oktober 2025 hinzugefügt.</p>
 </td>
       <td>
         Umfassende Aktualisierung
@@ -177,7 +177,7 @@ Dieser Abschnitt enthält die in den letzten 60 Tagen vorgenommenen Änderungen.
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurden Informationen zum Anzeigen und Bearbeiten von <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">benutzerdefinierten Bestellattributen</a> in Admin für Adobe Commerce as a Cloud Service hinzugefügt.</p>
+      <td><p>Es wurden Informationen zum Anzeigen und Bearbeiten von <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/order-management/orders/order-processing#custom-order-attributes">benutzerdefinierten Bestellattributen</a> in Admin für Adobe Commerce as a Cloud Service hinzugefügt.</p>
 </td>
       <td>
         Größere Aktualisierung
