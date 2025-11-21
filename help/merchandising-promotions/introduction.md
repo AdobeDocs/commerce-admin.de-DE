@@ -45,7 +45,7 @@ Bedingungen sind Anweisungen, die die Liste der Produkte und die Situationen fü
 
 >[!NOTE]
 >
->Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, muss **[!UICONTROL Use for Promo Rule Conditions]** für das Attribut in Ihren „Storefront`Yes`Eigenschaften“ auf [ festgelegt ](../catalog/attribute-product-create.md).
+>Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, muss **[!UICONTROL Use for Promo Rule Conditions]** für das Attribut in Ihren „Storefront`Yes`Eigenschaften“ auf [&#x200B; festgelegt &#x200B;](../catalog/attribute-product-create.md).
 
 
 ### Preisregeln
@@ -54,13 +54,13 @@ Für [Katalogpreisregeln](price-rules-catalog.md) erstellen Sie Bedingungen basi
 
 ![Diagramm - Beispiel für Katalogpreisregeln](./assets/diagram-catalog-price-rules.png){width="500"}
 
-[Warenkorbpreisregel](price-rules-cart.md) Bedingungen können auf jeder Kategorie basieren, die ein untergeordnetes Element des Stores ([) ](../catalog/category-root.md). Preisregeln werden im Voraus festgelegt und treten in Kraft, wenn die erforderlichen Bedingungen erfüllt sind. Diese Regeln verwenden Attribute, einschließlich Produktattributkombinationen wie den Abgleich einer SKU im Warenkorb mithilfe von Produktattributen. Diese Regeln können auch Produktauswahl-Mengenbedingungen, Bedingungskombinationen für komplizierte Regeln und Warenkorbattribute wie Zwischensumme verwenden.
+[Warenkorbpreisregel](price-rules-cart.md) Bedingungen können auf jeder Kategorie basieren, die ein untergeordnetes Element des Stores ([) &#x200B;](../catalog/category-root.md). Preisregeln werden im Voraus festgelegt und treten in Kraft, wenn die erforderlichen Bedingungen erfüllt sind. Diese Regeln verwenden Attribute, einschließlich Produktattributkombinationen wie den Abgleich einer SKU im Warenkorb mithilfe von Produktattributen. Diese Regeln können auch Produktauswahl-Mengenbedingungen, Bedingungskombinationen für komplizierte Regeln und Warenkorbattribute wie Zwischensumme verwenden.
 
 ![Diagramm - Beispiel für Warenkorb-Preisregeln](./assets/diagram-cart-price-rules.png){width="500"}
 
 ## Kommunikation und SEO
 
-Das [ von Suchmaschinenoptimierung (SEO)](seo-overview.md) ist entscheidend, um potenzielle Käufer einzubinden. Erfahren Sie mehr über die Suchmaschinenoptimierung und die Feinabstimmung des Inhalts und der Präsentation Ihrer Site, um die Art und Weise zu verbessern, wie die Seiten von Suchmaschinen indiziert werden.
+Das [&#x200B; von Suchmaschinenoptimierung (SEO)](seo-overview.md) ist entscheidend, um potenzielle Käufer einzubinden. Erfahren Sie mehr über die Suchmaschinenoptimierung und die Feinabstimmung des Inhalts und der Präsentation Ihrer Site, um die Art und Weise zu verbessern, wie die Seiten von Suchmaschinen indiziert werden.
 
 Eine der Aufgaben, die Sie vor dem Start Ihres Stores ausführen müssen, besteht darin, die E-Mail-Vorlagen zu überprüfen, die für alle von Ihrem Store gesendeten Nachrichten verwendet werden, um sicherzustellen, dass sie Ihre Marke widerspiegeln. Aber Sie sollten diesen Schritt weiter gehen, indem Sie andere Kommunikationen entwickeln, die Ihre Marke und Ihre Produkte bei bestehenden Kunden bewerben. Sie können den Inhalt mit Variablen und Markup-Tags personalisieren.
 
