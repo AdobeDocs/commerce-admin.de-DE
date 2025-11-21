@@ -4,7 +4,7 @@ description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UI
 exl-id: 2ef4ba6a-b5a5-419d-8d61-e535e3366370
 role: Admin, Developer
 feature: Site Management, Configuration, System
-source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
+source-git-commit: ac364c1b3cab3988c135ade2c6de799c915cee8c
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Optimie
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Allow Symlinks] | Shop-Ansicht | Durch die Aktivierung [symbolischer Links](https://en.wikipedia.org/wiki/Symbolic_link) kann Ihre Site Sicherheitsrisiken ausgesetzt sein. Dies wird für einen Produktionsspeicher nicht empfohlen. |
-| [!UICONTROL Minify Html] | Shop-Ansicht | Legt fest, ob die HTML für Speichervorlagen minimiert ist. Optionen: `Yes` / `No` |
+| [!UICONTROL Minify Html] | Shop-Ansicht | Legt fest, ob die HTML für Store-Vorlagen minimiert ist. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -121,7 +121,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Optimie
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Image Adapter] | Global | Gibt den Adapter zum Rendern von Bildern an. Leeren Sie nach dem Ändern der Adaptereinstellung den Cache für Katalogbilder. Optionen: `PHP GD2` / `ImageMagick` <br/><br/>**_Hinweis:_**&#x200B;Der ICO-Dateityp wird nur vom ImageMagik-Adapter unterstützt. |
+| [!UICONTROL Image Adapter] | Global | Gibt den Adapter zum Rendern von Bildern an. Leeren Sie nach dem Ändern der Adaptereinstellung den Cache für Katalogbilder. Optionen: `PHP GD2` / `ImageMagick` <br/><br/>**_Hinweis:_** Der ICO-Dateityp wird nur vom ImageMagik-Adapter unterstützt. |
 
 {style="table-layout:auto"}
 
