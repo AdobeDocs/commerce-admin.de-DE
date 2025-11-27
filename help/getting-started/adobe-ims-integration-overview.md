@@ -3,8 +3,8 @@ title: Übersicht über die Integration von Adobe Identity Management Service (I
 description: Einführung in die optionale Integration der Adobe Commerce Admin-Anmeldung mit Adobe IMS
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 77e7eb00e9f8d5af6361059c287707993180c4c4
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Informationen zum Implementieren dieser Integration finden Sie unter [Konfigurie
 
 ## Änderungen an Admin-Workflows und der Benutzeroberfläche nach der Integration mit IMS
 
-Wenn diese Integration aktiviert ist, erleben Commerce-Admin-Benutzerinnen und -Benutzer Änderungen am standardmäßigen Commerce-Admin-Anmelde- und Authentifizierungs-Workflow, während sie im Admin-Bereich Routineaufgaben ausführen, für die eine erneute Authentifizierung erforderlich ist, z. B. das Erstellen eines Admin-Benutzers. Für die Modulaktivierung ist eine Durchsetzung der Zwei-Faktor-Authentifizierung (2FA) auf Adobe-Organisationsebene erforderlich. Die standardmäßige Admin-Anmeldung und 2FA sind deaktiviert und die Schaltfläche _[!UICONTROL Sign In with Adobe ID]_&#x200B;ersetzt das standardmäßige Admin-Anmeldeformular. Berechtigungen werden weiterhin vom Administrator verwaltet.
+Wenn diese Integration aktiviert ist, erleben Commerce-Admin-Benutzerinnen und -Benutzer Änderungen am standardmäßigen Commerce-Admin-Anmelde- und Authentifizierungs-Workflow, während sie im Admin-Bereich Routineaufgaben ausführen, für die eine erneute Authentifizierung erforderlich ist, z. B. das Erstellen eines Admin-Benutzers. Für die Modulaktivierung ist eine Durchsetzung der Zwei-Faktor-Authentifizierung (2FA) auf Adobe-Organisationsebene erforderlich. Die standardmäßige Admin-Anmeldung und 2FA sind deaktiviert und die Schaltfläche _[!UICONTROL Sign In with Adobe ID]_ersetzt das standardmäßige Admin-Anmeldeformular. Berechtigungen werden weiterhin vom Administrator verwaltet.
 
 ## Auswirkungen der Admin-Integration mit IMS auf Commerce-Kennwörter
 
@@ -40,7 +40,7 @@ Benutzerkonten und Rollenberechtigungen für das Commerce-Programm werden weiter
 
 Commerce Admin-APIs sind betroffen, wenn die Admin-Authentifizierung mit Adobe IMS in einer Commerce-Instanz aktiviert ist. Admin-Benutzer können die von der Commerce-Instanz ausgestellten Anmeldeinformationen nicht mehr verwenden. Dies sind die Anmeldeinformationen, die erforderlich sind, um sich beim Admin anzumelden und Zugriffstoken abzurufen, die Services für Anfragen an die Admin-REST- und SOAP-APIs verwenden können.
 
-Nachdem die Adobe IMS-Integration aktiviert wurde, müssen Admin-Benutzer [Adobe IMS OAuth-Token](https://developer.adobe.com/developer-console/docs/guides/authentication/OAuthIntegration/) für Adobe Commerce-API-Endpunkte verwenden, für die eine Authentifizierung erforderlich ist. Client-Lösungen erhalten die Token dynamisch für die Web-API-Verwendung. Dieser Authentifizierungsmechanismus ist für REST- und SOAP-Web-API-Bereiche im Rahmen der Konfiguration dieser Integration aktiviert.
+Nachdem die Adobe IMS-Integration aktiviert wurde, müssen Admin-Benutzer [Adobe IMS OAuth-Token](https://developer.adobe.com/developer-console/docs/guides/authentication/) für Adobe Commerce-API-Endpunkte verwenden, für die eine Authentifizierung erforderlich ist. Client-Lösungen erhalten die Token dynamisch für die Web-API-Verwendung. Dieser Authentifizierungsmechanismus ist für REST- und SOAP-Web-API-Bereiche im Rahmen der Konfiguration dieser Integration aktiviert.
 
 Unter [Token-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/) finden Sie einen Überblick darüber, wie Web-APIs Commerce-Zugriffstoken, einschließlich IMS-Zugriffstoken, verwenden.
 

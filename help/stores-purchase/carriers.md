@@ -3,9 +3,9 @@ title: Einrichtung des Spediteurs
 description: Erfahren Sie mehr über den Support für kommerzielle Versandkonten, der für Ihren Shop verfügbar ist.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: d5beff4d450dab21f74e5baec6b718b844963858
+source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Am 25. Januar 2026 stellt USPS die veralteten Web Tools-APIs ein. Nach diesem Da
 
 Um eine Unterbrechung der USPS-Versandservices zu vermeiden, führen Sie die folgenden Maßnahmen vor dem 25. Januar 2026 durch:
 
-- Wenden Sie den [USPS REST API Migration Quality Patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/usps-rest-api-migration-patch.html)&#x200B;(AC-1520) an, um Unterstützung für die Integration mit den USPS REST-APIs hinzuzufügen.
+- Wenden Sie den [USPS REST API Migration Quality Patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) an, um Unterstützung für die Integration mit den USPS REST-APIs hinzuzufügen.
 
 - Aktualisieren Sie die Commerce USPS-Konfiguration zur Verwendung der REST-APIs:
 
