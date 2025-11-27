@@ -51,7 +51,7 @@ Am 25. Januar 2026 stellt USPS die veralteten Web Tools-APIs ein. Nach diesem Da
 
 Um eine Unterbrechung der USPS-Versandservices zu vermeiden, führen Sie die folgenden Maßnahmen vor dem 25. Januar 2026 durch:
 
-- Wenden Sie den [USPS REST API Migration Quality Patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) an, um Unterstützung für die Integration mit den USPS REST-APIs hinzuzufügen.
+- Wenden Sie den [USPS REST API Migration Quality Patch](https://experienceleague.adobe.com/de/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) an, um Unterstützung für die Integration mit den USPS REST-APIs hinzuzufügen.
 
 - Aktualisieren Sie die Commerce USPS-Konfiguration zur Verwendung der REST-APIs:
 
