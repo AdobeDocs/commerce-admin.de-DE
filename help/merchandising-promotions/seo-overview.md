@@ -3,9 +3,9 @@ title: Suchmaschinenoptimierung
 description: Erfahren Sie mehr über Tools zur Suchmaschinenoptimierung (SEO) für Commerce-Sites und Best Practices für eine optimale SEO.
 exl-id: ba09159a-1b40-4592-8758-f7072dab4589
 feature: Merchandising, Products, Search
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: c8649d9107a92b15a1c9af8ae5d2ad0e8e34e64e
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -16,23 +16,23 @@ _Suchmaschinenoptimierung_ (SEO) ist die Praxis der Feinabstimmung des Inhalts u
 
 >[!TIP]
 >
->Informationen zu Adobe Commerce as a Cloud Service finden Sie in den [SEO-Richtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=de) in der Dokumentation zu Commerce Storefront
+>Informationen zu Adobe Commerce as a Cloud Service finden Sie in den [SEO-Richtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in der Dokumentation zu Commerce Storefront
 
 ## Metadaten
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
-Erfahren Sie mehr über das Hinzufügen und Verbessern von [&#x200B; (Metadaten](meta-data.md) für Ihre Site und Ihren Store.
+Erfahren Sie mehr über das Hinzufügen und Verbessern von [ (Metadaten](meta-data.md) für Ihre Site und Ihren Store.
 
 ## Verwenden einer Sitemap
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Eine [Sitemap](sitemap-xml.md) verbessert die Art und Weise, wie Ihr Store von Suchmaschinen indiziert wird, und wurde entwickelt, um Seiten zu finden, die von Webcrawlern übersehen werden könnten. Eine Sitemap kann so konfiguriert werden, dass alle Seiten und Bilder indiziert werden.
 
 ## URL-Neuschreibungen
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Mit dem [URL Rewrite](url-rewrite.md)-Tool können Sie jede URL ändern, die mit einem Produkt, einer Kategorie oder einer CMS-Seite verknüpft ist.
 
@@ -90,8 +90,8 @@ Standardmäßig enthält die von Commerce generierte Datei robots.txt Anweisunge
      |------|------------|
      | `INDEX, FOLLOW` | Weist Web-Crawler an, die Site zu indizieren und später erneut auf Änderungen zu prüfen. |
      | `NOINDEX, FOLLOW` | Weist Web-Crawler an, die Indizierung der Site zu vermeiden, aber später erneut nach Änderungen zu suchen. |
-     | `INDEX, NOFOLLOW` | Weist Web-Crawler an, die Site einmal zu indizieren, aber später nicht mehr auf Änderungen zu überprüfen. |
-     | `NOINDEX, NOFOLLOW` | Weist Web-Crawler an, die Indizierung der Site zu vermeiden und später nicht mehr auf Änderungen zu überprüfen. |
+     | `INDEX, NOFOLLOW` | Weist Web-Crawler an, die Website nur einmal zu indizieren, aber keinem Link auf der Seite zu folgen. |
+     | `NOINDEX, NOFOLLOW` | Weist Web-Crawler an, die Indizierung der Site zu vermeiden und keinen Links auf der Seite zu folgen. |
 
      {style="table-layout:auto"}
 
