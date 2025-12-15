@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produktzuweisungen für Kategorien
 
-Für eine Kategorie können Sie im Abschnitt _[!UICONTROL Products in Category]_die Produkte überprüfen, die derzeit der Kategorie zugewiesen sind. Die Suchfilter oben in jeder Spalte werden verwendet, um Produkte zur Kategorie hinzuzufügen und daraus zu entfernen. Sie können auch [Kategorieregeln](../merchandising-promotions/category-product-rules.md) verwenden (nur ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce), um die Produktauswahl dynamisch zu ändern, wenn eine Reihe von Bedingungen erfüllt ist. Weitere Informationen finden Sie unter [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
+Für eine Kategorie können Sie im Abschnitt _[!UICONTROL Products in Category]_&#x200B;die Produkte überprüfen, die derzeit der Kategorie zugewiesen sind. Die Suchfilter oben in jeder Spalte werden verwendet, um Produkte zur Kategorie hinzuzufügen und daraus zu entfernen. Sie können auch [Kategorieregeln](../merchandising-promotions/category-product-rules.md) verwenden (nur ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce), um die Produktauswahl dynamisch zu ändern, wenn eine Reihe von Bedingungen erfüllt ist. Weitere Informationen finden Sie unter [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
 
 >[!TIP]
 >
@@ -26,7 +26,7 @@ Für eine Kategorie können Sie im Abschnitt _[!UICONTROL Products in Category]_
 
 >[!NOTE]
 >
->In _Spalte „Lager_ wird nur die verfügbare Produktmenge für _**ausgewählten**_) angezeigt. Wenn mehrere Lager für Produkte verwaltet werden, sollten Sie zwischen den entsprechenden Umfängen wechseln, um andere _Lager_ Spaltenwerte im Raster _Kategorie Produkte_ anzuzeigen.
+>In _Spalte „Lager_ wird nur die verfügbare Produktmenge für _&#x200B;**ausgewählten**&#x200B;_) angezeigt. Wenn mehrere Lager für Produkte verwaltet werden, sollten Sie zwischen den entsprechenden Umfängen wechseln, um andere _Lager_ Spaltenwerte im Raster _Kategorie Produkte_ anzuzeigen.
 
 ## Kategorieregel anwenden
 
@@ -80,7 +80,7 @@ Für eine Kategorie können Sie im Abschnitt _[!UICONTROL Products in Category]_
 
 | Option | Beschreibung |
 |--- |--- |
-| [!UICONTROL Attribute] | Bestimmt das Attribut, das als Grundlage für die Bedingung verwendet wird. Optionen: <br/>**[!UICONTROL Clone Category ID(s)]**: Klont Produkte dynamisch ohne Sortierung und Reihenfolge aus mehreren Kategorien basierend auf der Kategorie-ID.<br/>**[!UICONTROL Color]** - Enthält Produkte basierend auf Farbe. <br/>**[!UICONTROL Date Created (days ago)]**- Enthält Produkte basierend auf der Anzahl der Tage seit dem Hinzufügen der Produkte zum Katalog.<br/>**[!UICONTROL Date Modified (days ago)]** - Enthält Produkte basierend auf der Anzahl der Tage seit der letzten Änderung der Produkte. <br/>**[!UICONTROL Name]**- Enthält Produkte basierend auf dem Produktnamen.<br/>**[!UICONTROL Price]** - Enthält Produkte basierend auf dem Preis. <br/>**[!UICONTROL Quantity]**- Enthält Produkte basierend auf der Lagermenge.<br/>** SKU **- Enthält Produkte basierend auf SKU. |
+| [!UICONTROL Attribute] | Bestimmt das Attribut, das als Grundlage für die Bedingung verwendet wird. Optionen: <br/>**[!UICONTROL Clone Category ID(s)]**: Klont Produkte dynamisch ohne Sortierung und Reihenfolge aus mehreren Kategorien basierend auf der Kategorie-ID.<br/>**[!UICONTROL Color]** - Enthält Produkte basierend auf Farbe. <br/>**[!UICONTROL Date Created (days ago)]**- Enthält Produkte basierend auf der Anzahl der Tage seit dem Hinzufügen der Produkte zum Katalog.<br/>**[!UICONTROL Date Modified (days ago)]** - Enthält Produkte basierend auf der Anzahl der Tage seit der letzten Änderung der Produkte. <br/>**[!UICONTROL Name]**- Enthält Produkte basierend auf dem Produktnamen.<br/>**[!UICONTROL Price]** - Enthält Produkte basierend auf dem Preis. <br/>**[!UICONTROL Quantity]**- Enthält Produkte basierend auf der Lagermenge.<br/>**&#x200B; SKU &#x200B;**- Enthält Produkte basierend auf SKU. |
 | [!UICONTROL Operator] | Gibt den Operator an, der auf den Attributwert angewendet wird, um die Bedingung zu erfüllen. Sofern kein Operator angegeben ist, wird `Equal` als Standard verwendet. Optionen: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | Gibt den Wert an, den das Attribut aufweisen muss, um die Bedingung zu erfüllen. |
 | [!UICONTROL Logic] | Wird zum Definieren mehrerer Bedingungen verwendet und wird nur angezeigt, wenn eine andere Bedingung hinzugefügt wird. Optionen: `OR` / `AND` |
