@@ -3,16 +3,16 @@ title: Produktzuweisungen für Kategorien
 description: Erfahren Sie, wie Sie mit den [!UICONTROL Products in Category] Einstellungen steuern können, welche Produkte derzeit der Kategorie zugewiesen sind.
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 feature: Catalog Management, Categories, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+source-git-commit: eb78c90debf31c8e28b3710584e6865dae1cb6a4
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
 
 # Produktzuweisungen für Kategorien
 
-Für eine Kategorie können Sie im Abschnitt _[!UICONTROL Products in Category]_&#x200B;die Produkte überprüfen, die derzeit der Kategorie zugewiesen sind. Die Suchfilter oben in jeder Spalte werden verwendet, um Produkte zur Kategorie hinzuzufügen und daraus zu entfernen. Sie können auch [Kategorieregeln](../merchandising-promotions/category-product-rules.md) verwenden (nur ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce), um die Produktauswahl dynamisch zu ändern, wenn eine Reihe von Bedingungen erfüllt ist. Weitere Informationen finden Sie unter [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
+Für eine Kategorie können Sie im Abschnitt _[!UICONTROL Products in Category]_die Produkte überprüfen, die derzeit der Kategorie zugewiesen sind. Die Suchfilter oben in jeder Spalte werden verwendet, um Produkte zur Kategorie hinzuzufügen und daraus zu entfernen. Sie können auch [Kategorieregeln](../merchandising-promotions/category-product-rules.md) verwenden (nur ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce), um die Produktauswahl dynamisch zu ändern, wenn eine Reihe von Bedingungen erfüllt ist. Weitere Informationen finden Sie unter [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
 
 >[!TIP]
 >
@@ -26,7 +26,7 @@ Für eine Kategorie können Sie im Abschnitt _[!UICONTROL Products in Category]_
 
 >[!NOTE]
 >
->Die Spalte _Lager_ zeigt nur die verkaufbare Produktmenge für _&#x200B;**ausgewählten**&#x200B;_) an. Wenn mehrere Lager für Produkte verwaltet werden, sollten Sie zwischen den entsprechenden Umfängen wechseln, um andere _Lager_ Spaltenwerte im Raster _Kategorie Produkte_ anzuzeigen.
+>In _Spalte „Lager_ wird nur die verfügbare Produktmenge für _**ausgewählten**_) angezeigt. Wenn mehrere Lager für Produkte verwaltet werden, sollten Sie zwischen den entsprechenden Umfängen wechseln, um andere _Lager_ Spaltenwerte im Raster _Kategorie Produkte_ anzuzeigen.
 
 ## Kategorieregel anwenden
 
@@ -80,7 +80,7 @@ Für eine Kategorie können Sie im Abschnitt _[!UICONTROL Products in Category]_
 
 | Option | Beschreibung |
 |--- |--- |
-| [!UICONTROL Attribute] | Bestimmt das Attribut, das als Grundlage für die Bedingung verwendet wird. Optionen: <br/>**[!UICONTROL Clone Category ID(s)]**: Klont Produkte dynamisch ohne Sortierung und Reihenfolge aus mehreren Kategorien basierend auf der Kategorie-ID.<br/>**[!UICONTROL Color]** - Enthält Produkte basierend auf Farbe. <br/>**[!UICONTROL Date Created (days ago)]**- Enthält Produkte basierend auf der Anzahl der Tage seit dem Hinzufügen der Produkte zum Katalog.<br/>**[!UICONTROL Date Modified (days ago)]** - Enthält Produkte basierend auf der Anzahl der Tage seit der letzten Änderung der Produkte. <br/>**[!UICONTROL Name]**- Enthält Produkte basierend auf dem Produktnamen.<br/>**[!UICONTROL Price]** - Enthält Produkte basierend auf dem Preis. <br/>**[!UICONTROL Quantity]**- Enthält Produkte basierend auf der Lagermenge.<br/>**&#x200B; SKU &#x200B;**- Enthält Produkte basierend auf SKU. |
+| [!UICONTROL Attribute] | Bestimmt das Attribut, das als Grundlage für die Bedingung verwendet wird. Optionen: <br/>**[!UICONTROL Clone Category ID(s)]**: Klont Produkte dynamisch ohne Sortierung und Reihenfolge aus mehreren Kategorien basierend auf der Kategorie-ID.<br/>**[!UICONTROL Color]** - Enthält Produkte basierend auf Farbe. <br/>**[!UICONTROL Date Created (days ago)]**- Enthält Produkte basierend auf der Anzahl der Tage seit dem Hinzufügen der Produkte zum Katalog.<br/>**[!UICONTROL Date Modified (days ago)]** - Enthält Produkte basierend auf der Anzahl der Tage seit der letzten Änderung der Produkte. <br/>**[!UICONTROL Name]**- Enthält Produkte basierend auf dem Produktnamen.<br/>**[!UICONTROL Price]** - Enthält Produkte basierend auf dem Preis. <br/>**[!UICONTROL Quantity]**- Enthält Produkte basierend auf der Lagermenge.<br/>** SKU **- Enthält Produkte basierend auf SKU. |
 | [!UICONTROL Operator] | Gibt den Operator an, der auf den Attributwert angewendet wird, um die Bedingung zu erfüllen. Sofern kein Operator angegeben ist, wird `Equal` als Standard verwendet. Optionen: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | Gibt den Wert an, den das Attribut aufweisen muss, um die Bedingung zu erfüllen. |
 | [!UICONTROL Logic] | Wird zum Definieren mehrerer Bedingungen verwendet und wird nur angezeigt, wenn eine andere Bedingung hinzugefügt wird. Optionen: `OR` / `AND` |
@@ -89,7 +89,7 @@ Für eine Kategorie können Sie im Abschnitt _[!UICONTROL Products in Category]_
 
 >[!NOTE]
 >
->Die Menge eines konfigurierbaren Produkts mit untergeordneten Optionen wird berechnet, indem alle verkäuflichen untergeordneten Produktmengen kombiniert werden. Betrachten wir ein Beispiel für ein konfigurierbares Produkt _Endurance Fitness-_) mit violetten, roten und gelben Farboptionen und unterschiedlichen Mengen von jedem. In diesem Szenario entspricht die Menge des übergeordneten Produkts der kombinierten verkäuflichen Menge der violetten, roten und gelben untergeordneten Produkte.
+>Die Menge eines konfigurierbaren Produkts mit untergeordneten Optionen wird berechnet, indem alle untergeordneten Produktmengen kombiniert werden. Betrachten wir ein Beispiel für ein konfigurierbares Produkt _Endurance Fitness-_) mit violetten, roten und gelben Farboptionen und unterschiedlichen Mengen von jedem. In diesem Szenario entspricht die Menge des übergeordneten Produkts der kombinierten Menge der violetten, roten und gelben untergeordneten Produkte.
 
 ## Kontrollen
 
