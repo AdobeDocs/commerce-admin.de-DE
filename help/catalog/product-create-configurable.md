@@ -48,7 +48,7 @@ Anweisungen zum Erstellen von Attributen finden Sie unter [Produktattribute](pro
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Configurable Product]**aus.
+1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Configurable Product]**&#x200B;aus.
 
    ![Konfigurierbares Produkt hinzufügen](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -83,7 +83,7 @@ Der [Attributsatz](attribute-sets.md) bestimmt, welche Felder im Produktformular
 
 1. Klicken Sie auf **[!UICONTROL Save]** und fahren Sie fort.
 
-   Wenn das Produkt gespeichert wird, wird [ Auswahl „Store](introduction.md#product-scope)Ansicht“ in der oberen linken Ecke angezeigt.
+   Wenn das Produkt gespeichert wird, wird [&#x200B; Auswahl „Store](introduction.md#product-scope)Ansicht“ in der oberen linken Ecke angezeigt.
 
 1. Wählen Sie die **[!UICONTROL Store View]** aus, in der das Produkt verfügbar sein soll.
 
@@ -150,7 +150,7 @@ Die folgenden Schritte zeigen, wie Sie Konfigurationen für mehrere Varianten hi
 
 ### Schritt 6: Variantenattribute auswählen
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Configurations]_und klicken Sie auf **[!UICONTROL Create Configurations]**.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Configurations]_&#x200B;und klicken Sie auf **[!UICONTROL Create Configurations]**.
 
    ![Konfigurationen](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -254,7 +254,7 @@ _Einzelne Source-Händler :_
 
 Geben Sie die **[!UICONTROL Quantity]** ein.
 
-_Händler mit mehreren Sources, die [Inventory management verwenden ](../inventory-management/introduction.md):_
+_Händler mit mehreren Sources, die [Inventory management verwenden &#x200B;](../inventory-management/introduction.md):_
 
 Quellen zuweisen und Mengen für alle generierten Produktvarianten hinzufügen:
 
@@ -274,7 +274,7 @@ _Einzelne Source-Händler :_
 
 Geben Sie die **[!UICONTROL Quantity]** für jeden Attributwert ein.
 
-_Händler mit mehreren Sources, die [Inventory management verwenden ](../inventory-management/introduction.md):_
+_Händler mit mehreren Sources, die [Inventory management verwenden &#x200B;](../inventory-management/introduction.md):_
 
 Quellen zuweisen und Mengen für alle generierten Produktvarianten hinzufügen:
 
@@ -346,7 +346,7 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
    **Methode 2: Speichern und schließen**
 
-   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
+   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
 
 ## Lagerstatus konfigurieren
 
