@@ -1,7 +1,7 @@
 ---
-source-git-commit: c0e04ffd76d69be3a7d508dd72930f54d97ea382
+source-git-commit: c2139d5d02342b8b166e4bce1dccdfec76cf780d
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Das Thema <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Prämien und Treueprogramm“ wurde aktualisiert</a> um klarzustellen, wie die Steuer berechnet wird, wenn Kunden beim Checkout Prämienpunkte verwenden oder Guthaben speichern.</p>
+      <td><p>Das Thema <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Prämien und Treueprogramm“ wurde aktualisiert</a> um klarzustellen, wie die Steuer berechnet wird, wenn Kunden beim Checkout Prämienpunkte verwenden oder Guthaben speichern.</p>
 </td>
       <td>
         Feedback
@@ -45,7 +45,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Die Beschreibungen für die Meta-Anweisungen für <code class="language-plaintext highlighter-rouge">NOFOLLOW</code>-Roboter in der <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/seo/seo-overview">SEO-Dokumentation</a> wurden aktualisiert.<br /><em>Behebt Problem <a href="https://github.com/AdobeDocs/commerce-admin.de-DE/issues/82">#82</a>.</em></p>
+      <td><p>Die Beschreibungen für die Meta-Anweisungen für <code class="language-plaintext highlighter-rouge">NOFOLLOW</code>-Roboter in der <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">SEO-Dokumentation</a> wurden aktualisiert.<br /><em>Behebt Problem <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em></p>
 </td>
       <td>
         Technisches Feedback
@@ -67,7 +67,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurden Informationen darüber hinzugefügt, welche Standard-Cookies für die <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie-Richtlinie“ nicht deaktiviert </a> sollten.</p>
+      <td><p>Es wurden Informationen darüber hinzugefügt, welche Standard-Cookies für die <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie-Richtlinie“ nicht deaktiviert </a> sollten.</p>
 </td>
       <td>
         Technisch
@@ -89,7 +89,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurden Anleitungen zur Verfügbarkeit der Page Builder-Vorschau auf der CMS-Seite zu den Themen <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/content-design/elements/pages/page-add">Hinzufügen und Entfernen von Seiten</a> und <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/page-builder/workspace">Page Builder-Workspace</a> hinzugefügt. Die Vorschau zeigt keine Inhalte an, es sei denn, sie ist in der standardmäßigen Store-Ansicht verfügbar.</p>
+      <td><p>Es wurden Anleitungen zur Verfügbarkeit der Page Builder-Vorschau auf der CMS-Seite zu den Themen <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/page-add">Hinzufügen und Entfernen von Seiten</a> und <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace">Page Builder-Workspace</a> hinzugefügt. Die Vorschau zeigt keine Inhalte an, es sei denn, sie ist in der standardmäßigen Store-Ansicht verfügbar.</p>
 </td>
       <td>
         Technisches Feedback
@@ -111,7 +111,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Das <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/systems/security/security-scan">Sicherheits-Scan-Tool</a> wurde aktualisiert, um Händler mit Commerce-Storefronts zu unterstützen, die als Adobe Experience Manager-Sites bereitgestellt werden.</p>
+      <td><p>Das <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan">Sicherheits-Scan-Tool</a> wurde aktualisiert, um Händler mit Commerce-Storefronts zu unterstützen, die als Adobe Experience Manager-Sites bereitgestellt werden.</p>
 </td>
       <td>
         Technisch
@@ -133,56 +133,12 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde klargestellt, wie ein aktiver Preisregelverkauf zu einem bestimmten Zeitpunkt beendet werden kann, wenn im Thema <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Geplante Änderungen für Katalogpreisregeln</a> kein Enddatum angegeben wurde.<br />Das Thema <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL-Neuschreibungen</a> wurde neu strukturiert, um Beispiele und konzeptionelle Definitionen zu verbessern und zusätzliche Konfigurationsanweisungen für die URL-Verwaltung für Webserver-Neuschreibungen und kanonische URLs zu gruppieren.</p>
+      <td><p>Es wurde klargestellt, wie ein aktiver Preisregelverkauf zu einem bestimmten Zeitpunkt beendet werden kann, wenn im Thema <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/catalog-rules/price-rule-catalog-scheduled-changes">Geplante Änderungen für Katalogpreisregeln</a> kein Enddatum angegeben wurde.<br />Das Thema <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite">URL-Neuschreibungen</a> wurde neu strukturiert, um Beispiele und konzeptionelle Definitionen zu verbessern und zusätzliche Konfigurationsanweisungen für die URL-Verwaltung für Webserver-Neuschreibungen und kanonische URLs zu gruppieren.</p>
 </td>
       <td>
         Technisches Feedback
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/29acc84df8c5b2f6ea4d894f5ae022b62ad2cad2">verpflichten</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### &#x200B;30. Oktober 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beschreibung</th>
-      <th>Typ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Die Anweisungen <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers">Setup für Versanddienstleister</a> mit Anweisungen für die Migration von der USPS Web Tools API zu den USPS REST APIs wurden aktualisiert.</p>
-</td>
-      <td>
-        Technisches Feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/5304a26081e0f4639c962d77b1932d300e5a4a6e">verpflichten</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### &#x200B;23. Oktober 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beschreibung</th>
-      <th>Typ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Es wurde Dokumentation für die <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Erweiterung Datenfeed-Synchronisierungsstatus</a> hinzugefügt, um die Synchronisierung von Datenexport-Feeds von Adobe Commerce mit der Commerce SaaS-Datenbank zur Veröffentlichung in verbundenen Commerce-Services (Live-Suche, Produktempfehlungen, Katalog-Service) zu überwachen. Die Seite Datensynchronisierungsstatus ist über das Menü Systeme in Commerce Admin verfügbar.</p>
-</td>
-      <td>
-        Neues Thema
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/3a91e33221d7bcd6a42ae9c5da18a70e5d697d15">verpflichten</a></td>
     </tr>
   </tbody>
 </table>
