@@ -3,9 +3,9 @@ title: Sortieren von Kategorieprodukten
 description: Erfahren Sie, wie Sie die Positionierung von Produkten in einer Kategorie manuell oder durch Anwenden einer vordefinierten Sortierreihenfolge definieren.
 exl-id: 09c66a5d-57d4-4e78-a8d8-e3047c1bd35a
 feature: Catalog Management, Categories, Products
-source-git-commit: 14c3eb7d54776382bfa196efdac446d42c8dc940
+source-git-commit: 5aea3aa13ab0eb74866fc0cbcbfe08b5099abe95
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 0%
 {{ee-feature}}
 
 Die Position von Produkten in einer Kategorie kann manuell festgelegt werden, indem Produkte per Drag-and-Drop an die gewünschte Position gezogen oder eine vordefinierte Sortierreihenfolge angewendet wird. Standardmäßig können Produkte nach Lagerbestand, Alter, Farbe, Name, SKU und Preis sortiert werden. Die automatische Sortierung überschreibt die aktuelle Sortierreihenfolge und setzt alle manuell eingestellten Drag-and-Drop-Positionen zurück. Die Sortierreihenfolge der Farben und der Mindestbestand, der für Produkte, die in die Liste aufgenommen werden sollen, erforderlich sein kann, werden in der Konfiguration [Visual Merchandiser](../configuration-reference/catalog/visual-merchandiser.md) festgelegt.
-
->[!NOTE]
->
->Auf den Kategorieseiten werden `Out of stock` Produkte immer **_nachher_** `In Stock` in der Produktliste mit allen Sortiertypen angezeigt.
 
 Sie können die Kategorieoptionen für jede [Store-Ansicht](../stores-purchase/stores.md#add-stores) separat einrichten, um die Auswahl von Produkten, ihre relative Position in der Liste und die Attribute zu bestimmen, die für Kategorieregeln verfügbar sind. Es gibt jedoch eine einzige, **_globale_** Sortierreihenfolge und Produktposition im Katalog und sie werden für alle [Store-Ansichten](../stores-purchase/store-views.md) Stores und Websites freigegeben.
 
@@ -38,9 +34,9 @@ Sie können die Kategorieoptionen für jede [Store-Ansicht](../stores-purchase/s
 
 >[!NOTE]
 >
->Beim Sortieren einer Kategorie nach einem Produktattribut werden Produkte mit denselben Attributwerten auch nach ihrem _[!UICONTROL Product ID]_&#x200B;in aufsteigender Reihenfolge sortiert.
+>Beim Sortieren einer Kategorie nach einem Produktattribut werden Produkte mit denselben Attributwerten auch nach ihrem _[!UICONTROL Product ID]_in aufsteigender Reihenfolge sortiert.
 
-Klicken Sie im Abschnitt _[!UICONTROL Products in Category]_&#x200B;auf das Symbol Kacheln ![Anzeigen von Kacheln](../assets/icon-view-tiles.png) , um die Produktkacheln in einem Raster anzuzeigen. Sortieren Sie die Produkte entweder manuell oder automatisch.
+Klicken Sie im Abschnitt _[!UICONTROL Products in Category]_auf das Symbol Kacheln ![Anzeigen von Kacheln](../assets/icon-view-tiles.png) , um die Produktkacheln in einem Raster anzuzeigen. Sortieren Sie die Produkte entweder manuell oder automatisch.
 
 ![Produktkacheln](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 
