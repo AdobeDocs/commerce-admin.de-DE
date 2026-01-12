@@ -34,9 +34,9 @@ Sie können die Kategorieoptionen für jede [Store-Ansicht](../stores-purchase/s
 
 >[!NOTE]
 >
->Beim Sortieren einer Kategorie nach einem Produktattribut werden Produkte mit denselben Attributwerten auch nach ihrem _[!UICONTROL Product ID]_in aufsteigender Reihenfolge sortiert.
+>Beim Sortieren einer Kategorie nach einem Produktattribut werden Produkte mit denselben Attributwerten auch nach ihrem _[!UICONTROL Product ID]_&#x200B;in aufsteigender Reihenfolge sortiert.
 
-Klicken Sie im Abschnitt _[!UICONTROL Products in Category]_auf das Symbol Kacheln ![Anzeigen von Kacheln](../assets/icon-view-tiles.png) , um die Produktkacheln in einem Raster anzuzeigen. Sortieren Sie die Produkte entweder manuell oder automatisch.
+Klicken Sie im Abschnitt _[!UICONTROL Products in Category]_&#x200B;auf das Symbol Kacheln ![Anzeigen von Kacheln](../assets/icon-view-tiles.png) , um die Produktkacheln in einem Raster anzuzeigen. Sortieren Sie die Produkte entweder manuell oder automatisch.
 
 ![Produktkacheln](./assets/category-products-tiles.png){width="600" zoomable="yes"}
 
