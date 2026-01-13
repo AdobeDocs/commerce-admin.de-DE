@@ -208,9 +208,9 @@ Wird als Teil der Implementierung der Registerkarten-Funktionen nur in einem adm
 
 ## Cookies für Produktempfehlungen
 
-![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Die folgenden Cookies werden von Produktempfehlungen für Adobe Commerce-Kunden verwendet. Diese Cookies werden mit dem Modul [DataServices“ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Die folgenden Cookies werden von Produktempfehlungen für Adobe Commerce-Kunden verwendet. Diese Cookies werden mit dem Modul [DataServices“ &#x200B;](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/getting-started/install-configure).
 
-- `mg_dnt`: Ermöglicht es Ihnen[&#x200B; die Datenerfassung in Adobe Commerce einzuschränken, &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/developer/setting-cookie) Sie benutzerdefinierten Code zur Verwaltung des Cookie-Einverständnisses auf Ihrer Site haben.
+- `mg_dnt`: Ermöglicht es Ihnen[&#x200B; die Datenerfassung in Adobe Commerce einzuschränken, &#x200B;](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/developer/setting-cookie) Sie benutzerdefinierten Code zur Verwaltung des Cookie-Einverständnisses auf Ihrer Site haben.
 - `user_allowed_save_cookie`: Wird für den [Cookie-Einschränkungsmodus](#cookie-restriction-mode) verwendet.
 - `authentication_flag`: Zeigt an, ob sich ein Käufer angemeldet oder abgemeldet hat. Dieses Cookie wird gleichzeitig mit dem `dataservices_customer_id`-Cookie aktualisiert.
 - `dataservices_customer_id`: Zeigt an, ob sich ein Käufer angemeldet oder abgemeldet hat. Dieses Cookie enthält die eindeutige ID des Kunden im System.
@@ -230,11 +230,11 @@ Die folgenden Daten werden für Stores unter Verwendung des Luma-Designs im loka
 
 ## Zusätzliche Cookies
 
-![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Die folgenden Cookies werden für Adobe Commerce-Kunden festgelegt. Diese Cookies werden mit dem Modul [DataServices“ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure).
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Die folgenden Cookies werden für Adobe Commerce-Kunden festgelegt. Diese Cookies werden mit dem Modul [DataServices“ &#x200B;](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/getting-started/install-configure).
 
 - `mg`: Set von Snowplow JavaScript Tracker. Weitere Informationen finden Sie in der [Schneepflug-Dokumentation](https://docs.snowplow.io/docs/sources/trackers/javascript-trackers/web-tracker/tracker-setup/initialization-options/).
 - `com.adobe.alloy.getTld`: Angesichts des Hostnamens der aktuellen Web-Seite ist dies die oberste Domain, die kein „öffentliches Suffix“ ist, wie in https://publicsuffix.org beschrieben. Im Wesentlichen ist dies die Domain, die Cookies akzeptieren kann. Dieses Cookie ist Teil von [Alloy Web SDK](https://github.com/adobe/alloy).
-- `aep-segments-membership`: Enthält [Zielgruppeninformationen](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) z. B. zu welchem Segment ein Einkäufer gehört.
+- `aep-segments-membership`: Enthält [Zielgruppeninformationen](https://experienceleague.adobe.com/de/docs/commerce-admin/customers/audience-activation) z. B. zu welchem Segment ein Einkäufer gehört.
 
 [1]: https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage
 [2]: https://support.google.com/adwords/answer/7521212
