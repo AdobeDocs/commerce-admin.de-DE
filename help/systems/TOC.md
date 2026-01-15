@@ -5,9 +5,9 @@ breadcrumb-title: Handbuch für Admin-Systeme
 hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '194'
 ht-degree: 4%
 
 ---
@@ -71,12 +71,13 @@ ht-degree: 4%
    - [Konfigurieren der Admin-Sicherheit](security-admin.md)
    - CAPTCHA {#captcha}
       - [Standard-CAPTCHA](security-captcha.md)
-      - [Google reCAPTCHA](security-google-recaptcha.md)
-   - Zwei-Faktor-Authentifizierung (2FA) {#2fa}
+      - [Google reCAPTCHA V3 und V2](security-google-recaptcha.md)
+      - [Google reCAPTCHA Enterprise](security-google-recaptcha-enterprise.md)
+   - Zwei-Faktor-Authentifizierung (2FA) {#tfa}
       - [Überblick](security-two-factor-authentication.md)
       - [Benutzerkonto-Setup für 2FA](security-two-factor-authentication-use.md)
       - [2FA verwalten](security-two-factor-authentication-manage.md)
    - [Sitzungsverwaltung](security-session-management.md)
    - [Erkennung von Browser-Funktionen](security-browser-capabilities-detection.md)
    - [Meldung von Sicherheitsproblemen](security-issue-reporting.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

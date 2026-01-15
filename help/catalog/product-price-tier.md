@@ -3,9 +3,9 @@ title: Preisstufe
 description: Erfahren Sie, wie Sie mit der Preisstufe einen Mengenrabatt von einer Produktliste oder Produktseite aus anbieten können.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ Die Preise in der Storefront haben Vorrang von der höchsten zur niedrigsten Men
 
 1. Öffnen Sie das Produkt im Bearbeitungsmodus.
 
-1. Klicken Sie unter dem Feld _[!UICONTROL Price]_&#x200B;auf **[!UICONTROL Advanced Pricing]**.
+1. Klicken Sie unter dem Feld _[!UICONTROL Price]_auf **[!UICONTROL Advanced Pricing]**.
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Tier Price]_&#x200B;auf **[!UICONTROL Add]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Tier Price]_auf **[!UICONTROL Add]**.
 
    Wenn Sie eine Preisstufe mit mehreren Preisen erstellen, klicken Sie auf **[!UICONTROL Add]** für jede zusätzliche Ebene, damit Sie alle Ebenen gleichzeitig bearbeiten können. Jede Ebene in der Gruppe verfügt über dieselbe Website und Kundengruppe oder gemeinsame Katalogzuweisung, aber eine andere Menge und einen anderen Preis.
 
@@ -56,7 +56,7 @@ Die Preise in der Storefront haben Vorrang von der höchsten zur niedrigsten Men
 
      >[!NOTE]
      >
-     >Um den reduzierten Preis abzurufen, wird der definierte Prozentsatz anhand des im Feld _[!UICONTROL Price]_&#x200B;definierten Werts berechnet und nicht anhand des Felds&#x200B;_[!UICONTROL Special Price]_.
+     >Um den reduzierten Preis abzurufen, wird der definierte Prozentsatz anhand des im Feld _[!UICONTROL Price]_definierten Werts berechnet und nicht anhand des Felds_[!UICONTROL Special Price]_.
 
      ![Stufenpreis in Prozent](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -73,3 +73,46 @@ Die Preise in der Storefront haben Vorrang von der höchsten zur niedrigsten Men
 >[!NOTE]
 >
 >**_Festpreis_** Anpassbare Produktoptionen werden _nicht_ durch Gruppenpreis-, Stufenpreis-, Sonderpreis- oder Katalogpreisregeln beeinflusst.
+
+## Festlegen der Preisstufe für Katalogpreisregeln
+
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+
+[!BADGE Sandbox]{type=Caution tooltip="Die aufgelisteten Elemente sind derzeit nur in Sandbox-Umgebungen verfügbar. Adobe stellt neue Versionen zunächst in Sandbox-Umgebungen bereit, um Zeit zum Testen bevorstehender Änderungen zu haben, bevor die Version in Produktionsumgebungen verfügbar ist."}
+
+In früheren Versionen von Commerce konnte die Preisstufe nicht in Verbindung mit Katalogpreisregeln verwendet werden. Die Katalogregeln ignorierten die Stufenpreiskonfiguration und berechneten Rabatte nur vom ursprünglichen Grundpreis. Mit Adobe Commerce as a Cloud Service können Sie jetzt Preisstufen in die Berechnung von Katalogpreisregeln einbeziehen.
+
+So aktivieren Sie diese Funktion:
+
+1. Navigieren Sie zu **[!UICONTROL Stores]** > *[!UICONTROL Settings]* > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Sales]** > **[!UICONTROL Promotions]** und legen Sie das Feld **[!UICONTROL Apply Catalog Price Rule on Grouped Price]** auf **[!UICONTROL Yes]** fest.
+
+   ![Aktivieren der Preisstufe für Katalogpreisregeln](../configuration-reference/sales/assets/sales-promotions-settings.png){width="700" zoomable="yes"}
+
+1. Definieren Sie einen Stufenkurs mit einer `1` für jede spezifische Kundengruppe oder jeden freigegebenen Katalog (z. B. `Wholesale`, `Retail` oder eine von Händlern definierte Gruppe), den Sie mit Katalogpreisregeln ansprechen möchten. Die `ALL GROUPS` Kundengruppe und `Default` freigegebene Katalog können zu diesem Zweck nicht verwendet werden. Die Preisstufe ist für keine Gruppe aktiviert, für die kein Preisstufe mit einer Menge von `1` definiert ist.
+
+1. Definieren Sie bei Bedarf zusätzliche Stufenpreise mit Mengen über `1`. Diese zusätzlichen Preisstufen werden wie gewohnt angewendet, wenn der Kunde zusätzliche Mengen des Produkts in den Warenkorb legt. Die Katalogpreisregeln gelten nicht für diese zusätzlichen Preisstufen.
+
+Betrachten Sie das folgende Beispiel, um zu veranschaulichen, wie die Preisstaffelung beim Kauf eines einzelnen Produkts mit den Katalogpreisregeln funktioniert:
+
+- Der Standardgrundpreis eines Produkts beträgt 100 USD.
+- Für die `Wholesale` Kundengruppe wird ein Stufenpreis mit einer Menge von `1` und einem Festpreis von 90 USD definiert.
+- Eine Katalogpreisregel bietet einen Rabatt von 10 % für die `Wholesale` Kundengruppe.
+
+Wenn die Preisstufe für Katalogpreisregeln aktiviert ist, verwendet das System den folgenden Fluss, um den endgültigen Preis zu berechnen:
+
+1. Bevor sich der Kunde anmeldet, wird der Produktpreis als 100 USD angezeigt (der Standard-Basispreis).
+
+1. Nachdem sich der Kunde als Mitglied der `Wholesale` angemeldet hat, wird der Produktpreis auf 90 USD (der Stufenpreis für die `Wholesale`) angepasst.
+
+1. Es wird die Katalogpreisregel angewendet, die einen Rabatt von 10 % auf den Stufenpreis von 90 USD bietet, was zu einem Endpreis von 81 USD führt.
+
+In der folgenden Tabelle sind Preisberechnungen zusammengefasst, wenn die Preisstufe für Katalogpreisregeln aktiviert ist und eine Katalogpreisregel einen Rabatt von 10 % für alle Kundengruppen bietet:
+
+Produkt: Standardpreis $100 (Einzelkauf)
+
+| Kundengruppe | Stufenpreis (Menge = 1) | Neuer Basispreis | Endgültiger Preis |
+|---|---|---|---|
+| ALL GROUPS | Nicht konfiguriert | 100 $ | $100 - 10% = $90 |
+| Großhandel | Behoben: $85 | 85 $ | $ 85 - 10 % = $ 76,50 |
+| Retailer | 20 % Rabatt | 80 $ | $ 80 - 10 % = $ 72,00 |
+| VIP | 15 % Rabatt | 85 $ | $ 85 - 10 % = $ 76,50 |

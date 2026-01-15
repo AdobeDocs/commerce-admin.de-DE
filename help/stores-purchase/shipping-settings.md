@@ -3,9 +3,9 @@ title: Versandeinstellungen
 description: Erfahren Sie, wie Sie die Versandeinstellungen konfigurieren, die den Ursprungsort und die Versandrichtlinie für Ihren Store definieren.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -81,3 +81,36 @@ Die Versandoptionen für mehrere Adressen ermöglichen es Kunden, eine Bestellun
 >[!NOTE]
 >
 >![Adobe Commerce B2B](../assets/b2b.svg) (Adobe Commerce B2B) Bei Bestellungen mit mehreren Versandadressen ist die Zahlungsmethode [Zahlung auf Rechnung](../b2b/enable-basic-features.md#configure-payment-on-account) auch wenn sie aktiviert ist, während des Checkouts nicht verfügbar.
+
+## Tracking-URLs von E-Mails zu Sendungen
+
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+
+[!BADGE Sandbox]{type=Caution tooltip="Die aufgelisteten Elemente sind derzeit nur in Sandbox-Umgebungen verfügbar. Adobe stellt neue Versionen zunächst in Sandbox-Umgebungen bereit, um Zeit zum Testen bevorstehender Änderungen zu haben, bevor die Version in Produktionsumgebungen verfügbar ist."}
+
+Standardmäßig sind Sendungsverfolgungsnummern, die in Kunden-E-Mails gesendet werden, Klartext. Sie können diese Tracking-Nummern in anklickbare Links umwandeln, indem Sie die URL-Funktion für benutzerdefiniertes Tracking aktivieren. Mit dieser Funktion können Sie eine Vorlage für Tracking-URLs für verschiedene Versanddienstleister definieren. Jede Vorlage enthält die vollständige URL zur Tracking-Website und einen Platzhalter für die Tracking-Nummer. Commerce ersetzt den Platzhalter durch die tatsächliche Tracking-Nummer in der E-Mail.
+
+Die folgenden Spediteure werden unterstützt:
+
+- United States Postal Service (USPS)
+- United Parcel Service (UPS)
+- Federal Express (FedEx)
+- DHL Express (DHL)
+
+So aktivieren oder bearbeiten Sie benutzerdefinierte Tracking-URLs:
+
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+
+1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Shipping Settings]**.
+
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Shipment Tracking URLs]** .
+
+1. Legen Sie **[!UICONTROL Enable Custom Tracking URLs]** auf `Yes` fest.
+
+1. Für jeden unterstützten Provider werden Standard-URL-Vorlagen bereitgestellt. Wenn Sie einen dieser Werte ändern müssen, geben Sie eine neue URL-Vorlage in das entsprechende Feld ein. Verwenden Sie `{{tracking_number}}` als Platzhalter für die tatsächliche Tracking-Nummer. Wenn beispielsweise UPS seine URL in `https://www.ups.com/newtracker?tracknumber` ändert, könnte die neue Tracking-URL-Vorlage wie folgt aussehen:
+
+   ```text
+   https://www.ups.com/newtracker?tracknumber={{tracking_number}}
+   ```
+
+1. Klicken Sie auf **[!UICONTROL Save Config]**.
