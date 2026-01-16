@@ -3,14 +3,17 @@ title: Google reCAPTCHA Enterprise
 description: Erfahren Sie, wie Sie Google reCAPTCHA Enterprise konfigurieren, um Ihre Adobe Commerce as a Cloud Service-Storefront vor Bots und betrügerischen Aktivitäten zu schützen.
 role: Admin
 feature: Configuration, Security
-source-git-commit: 5181e6dcbffdca87dd6c376c36f7c9d0a3fbc015
+badgeSaas: label="Nur SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."
+source-git-commit: dde1d634a1c6c7435668a8ad6084b926cc0d6193
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
 
 # Google reCAPTCHA Enterprise
+
+[!BADGE Sandbox]{type=Caution tooltip="Die aufgelisteten Elemente sind derzeit nur in Sandbox-Umgebungen verfügbar. Adobe veröffentlicht zuerst Aktualisierungen für Sandbox, damit Sie bevorstehende Änderungen testen können, bevor sie in die Produktion übergehen."}
 
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform) bietet einen erweiterten Bot-Schutz für Ihre Adobe Commerce as a Cloud Service-Storefront, indem mithilfe von adaptiver Risikoanalyse und maschinellem Lernen zwischen menschlichen Benutzern und Bots unterschieden wird. Dadurch können betrügerische Aktivitäten, Spam und Missbrauch auf Ihrer Site verhindert werden.
 
@@ -18,7 +21,7 @@ ht-degree: 0%
 >
 >Diese Funktion bietet KEINE reCAPTCHA-Unterstützung für Admins.
 
-Informationen zum Konfigurieren anderer Versionen von Google reCAPTCHA finden Sie unter [Google reCAPTCHA &#x200B;](security-google-recaptcha.md)3 und v2&rbrace;.
+Informationen zum Konfigurieren anderer Versionen von Google reCAPTCHA finden Sie unter [Google reCAPTCHA ](security-google-recaptcha.md)3 und v2}.
 
 ## Funktionen
 
@@ -28,7 +31,7 @@ Google reCAPTCHA Enterprise umfasst die folgenden Funktionen:
 - **Risikobewertungsanalyse**: Bietet detaillierte Risikobewertungen (0,0-1,0) für jede Interaktion
 - **Konfigurierbare Schwellenwerte**: Festlegen der akzeptablen Mindestrisikowerte pro Mandant
 - **Unterstützung für mehrere Mandanten**: Mandantenspezifische Konfiguration mit isolierten Google Cloud-Projekten
-- **Verschlüsselte Anmeldeinformationen**: In der Datenbank gespeicherte Anmeldeinformationen für Service-Konten
+- **Verschlüsselte Anmeldeinformationen**: In einer Datenbank verschlüsselte Anmeldeinformationen für Service-Konten
 - **Formularschutz**: Schützt alle standardmäßigen Commerce-Formulare, einschließlich Anmeldung, Checkout, Produktbewertungen und mehr.
 
 ## Voraussetzungen
@@ -56,7 +59,7 @@ Führen Sie diese allgemeinen Schritte aus, um Google reCAPTCHA Enterprise für 
 
 ## Schritt 2: Konfigurieren von Google reCAPTCHA für die Storefront
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Security]_&#x200B;die Option **[!UICONTROL Google reCAPTCHA Storefront]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Security]_die Option **[!UICONTROL Google reCAPTCHA Storefront]**aus.
 
 1. Füllen Sie den **[!UICONTROL reCAPTCHA Enterprise]** Abschnitt wie folgt aus.
 
@@ -66,7 +69,7 @@ Führen Sie diese allgemeinen Schritte aus, um Google reCAPTCHA Enterprise für 
 
    - Kopieren Sie **[!UICONTROL Service Account JSON]** den Inhalt der JSON-Schlüsseldatei für das Service-Konto, die Sie in [Schritt 1: Einrichten von Google reCAPTCHA Enterprise](#step-1-set-up-google-recaptcha-enterprise) heruntergeladen haben.
 
-   - Geben Sie **[!UICONTROL Minimum Score Threshold]** den Mindestwert (0,0-1,0) ein, um zu ermitteln, wann eine Benutzerinteraktion als potenzielles Risiko gekennzeichnet wird. Dabei ist 1,0 eine typische Benutzerinteraktion und 0,0 wahrscheinlich ein Bot.
+   - Geben Sie **[!UICONTROL Minimum Score Threshold]** den Mindestwert (0,0-1,0) ein, um zu ermitteln, wann eine Benutzerinteraktion als potenzielles Risiko gekennzeichnet wird. Ein Score von 1,0 ist eine typische Benutzerinteraktion, und 0,0 ist wahrscheinlich ein Bot.
 
    - Wählen Sie **[!UICONTROL Badge Position]** auf jeder Seite die Position des unsichtbaren reCAPTCHA-Badges aus. Optionen: `Inline` / `Bottom Right` / `Bottom Left`.
 
@@ -77,7 +80,7 @@ Führen Sie diese allgemeinen Schritte aus, um Google reCAPTCHA Enterprise für 
    - Ändern Sie **[!UICONTROL Validation Failure Message]** optional die Meldung, die auf der Storefront angezeigt wird, wenn die Validierung nicht erfolgreich war.
 
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Storefront]** und legen Sie für jedes Storefront-Formular, das Sie schützen möchten, **[!UICONTROL reCAPTCHA Enterprise]** fest.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Storefront]** und legen Sie jedes Storefront-Formular, das Sie schützen möchten, auf **[!UICONTROL reCAPTCHA Enterprise]** fest.
 
    {{recaptcha-forms-list}}
 
