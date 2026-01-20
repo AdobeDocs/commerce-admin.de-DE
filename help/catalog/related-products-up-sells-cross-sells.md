@@ -91,7 +91,7 @@ Crosssell-Artikel ähneln Impulskäufen, die neben der Kasse in der Kasse platzi
 
 >[!NOTE]
 >
->Um Crosssell-Artikel pro Shop-Ansicht ein- oder auszublenden, sehen Sie sich die Option [Checkout > Warenkorb](../configuration-reference/sales/checkout.md) im Warenkorb _[!UICONTROL Show Cross-sell Items]_an. Sie können Crosssell-Angebote während bestimmter Verkäufe oder für A/B-Tests in einer Store-Ansicht ausblenden.
+>Um Crosssell-Artikel pro Shop-Ansicht ein- oder auszublenden, sehen Sie sich die Option [Checkout > Warenkorb](../configuration-reference/sales/checkout.md) im Warenkorb _[!UICONTROL Show Cross-sell Items]_&#x200B;an. Sie können Crosssell-Angebote während bestimmter Verkäufe oder für A/B-Tests in einer Store-Ansicht ausblenden.
 
 ![Crosssell im Warenkorb](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 
