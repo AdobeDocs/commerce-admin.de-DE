@@ -76,7 +76,7 @@ Die Preise in der Storefront haben Vorrang von der höchsten zur niedrigsten Men
 
 ## Festlegen der Preisstufe für Katalogpreisregeln
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 In früheren Versionen von Commerce konnte die Preisstufe nicht in Verbindung mit Katalogpreisregeln verwendet werden. Die Katalogregeln ignorierten die Stufenpreiskonfiguration und berechneten Rabatte nur vom ursprünglichen Grundpreis. Mit Adobe Commerce as a Cloud Service können Sie jetzt Preisstufen in die Berechnung von Katalogpreisregeln einbeziehen.
 
