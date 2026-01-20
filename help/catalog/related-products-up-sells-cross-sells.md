@@ -3,7 +3,7 @@ title: Produkteinstellungen - [!UICONTROL Related Products, Up-Sells, and Cross-
 description: Für ein Produkt definieren die [!UICONTROL Related Products, Up-Sells, and Cross-Sells]-Einstellungen einfache Werbeblöcke auf der Produktseite, die eine Auswahl zusätzlicher Produkte hervorheben.
 exl-id: 5bd65fad-4e55-40db-8702-10c366261565
 feature: Catalog Management, Products, Page Content
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+source-git-commit: 36c91007d21834b49351c8b53c617e442deebaa0
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -33,9 +33,9 @@ Jeder Baustein besteht aus einer Liste von Produkten, die zu einer bestimmten Op
 
 >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) **Product Recommendations powered by Adobe Sensei** vereinfacht die Definition von Produktbeziehungen durch die Verwendung von Algorithmen für künstliche Intelligenz und maschinelles Lernen, um eine gründliche Analyse aggregierter Besucherdaten durchzuführen. Wenn diese Daten mit Ihrem Adobe Commerce-Katalog kombiniert werden, ergeben sich für den Erstkäufer sehr ansprechende, relevante und personalisierte Erlebnisse.
+>![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) **Product Recommendations powered by Adobe AI** vereinfacht die Definition von Produktbeziehungen durch die Verwendung von Algorithmen für künstliche Intelligenz und maschinelles Lernen, um eine gründliche Analyse aggregierter Besucherdaten durchzuführen. Wenn diese Daten mit Ihrem Adobe Commerce-Katalog kombiniert werden, ergeben sich für den Erstkäufer sehr ansprechende, relevante und personalisierte Erlebnisse.
 ><br/>
->Weitere Informationen zur Verwendung dieser von Adobe entwickelten Erweiterung als Alternative zu manuell konfigurierten Produktempfehlungen und Upsells finden Sie im _[Product Recommendations Guide](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=de)_.
+>Weitere Informationen zur Verwendung dieser von Adobe entwickelten Erweiterung als Alternative zu manuell konfigurierten Produktempfehlungen und Upsells finden Sie im _[Product Recommendations Guide](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html)_.
 
 ## Verwandte Produkte
 
@@ -91,11 +91,11 @@ Crosssell-Artikel ähneln Impulskäufen, die neben der Kasse in der Kasse platzi
 
 >[!NOTE]
 >
->Um Crosssell-Artikel pro Shop-Ansicht ein- oder auszublenden, sehen Sie sich die Option [Checkout > Warenkorb](../configuration-reference/sales/checkout.md) im Warenkorb _[!UICONTROL Show Cross-sell Items]_&#x200B;an. Sie können Crosssell-Angebote während bestimmter Verkäufe oder für A/B-Tests in einer Store-Ansicht ausblenden.
+>Um Crosssell-Artikel pro Shop-Ansicht ein- oder auszublenden, sehen Sie sich die Option [Checkout > Warenkorb](../configuration-reference/sales/checkout.md) im Warenkorb _[!UICONTROL Show Cross-sell Items]_an. Sie können Crosssell-Angebote während bestimmter Verkäufe oder für A/B-Tests in einer Store-Ansicht ausblenden.
 
 ![Crosssell im Warenkorb](./assets/storefront-cart-cross-sells.png){width="600" zoomable="yes"}
 
-**_So wählen Sie Crosssell-Produkte aus:_**
+**_Crosssell-Produkte auswählen:_**
 
 1. Öffnen Sie das Produkt im Bearbeitungsmodus.
 
