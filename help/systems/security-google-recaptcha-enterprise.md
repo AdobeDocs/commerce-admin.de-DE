@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Diese Funktion bietet KEINE reCAPTCHA-Unterstützung für Admins.
 
-Informationen zum Konfigurieren anderer Versionen von Google reCAPTCHA finden Sie unter [Google reCAPTCHA ](security-google-recaptcha.md)3 und v2}.
+Informationen zum Konfigurieren anderer Versionen von Google reCAPTCHA finden Sie unter [Google reCAPTCHA &#x200B;](security-google-recaptcha.md)3 und v2&rbrace;.
 
 ## Funktionen
 
@@ -57,7 +57,7 @@ Führen Sie diese allgemeinen Schritte aus, um Google reCAPTCHA Enterprise für 
 
 ## Schritt 2: Konfigurieren von Google reCAPTCHA für die Storefront
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Security]_die Option **[!UICONTROL Google reCAPTCHA Storefront]**aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Security]_&#x200B;die Option **[!UICONTROL Google reCAPTCHA Storefront]**&#x200B;aus.
 
 1. Füllen Sie den **[!UICONTROL reCAPTCHA Enterprise]** Abschnitt wie folgt aus.
 

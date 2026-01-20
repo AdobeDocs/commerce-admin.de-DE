@@ -28,9 +28,9 @@ Die Preise in der Storefront haben Vorrang von der höchsten zur niedrigsten Men
 
 1. Öffnen Sie das Produkt im Bearbeitungsmodus.
 
-1. Klicken Sie unter dem Feld _[!UICONTROL Price]_auf **[!UICONTROL Advanced Pricing]**.
+1. Klicken Sie unter dem Feld _[!UICONTROL Price]_&#x200B;auf **[!UICONTROL Advanced Pricing]**.
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Tier Price]_auf **[!UICONTROL Add]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Tier Price]_&#x200B;auf **[!UICONTROL Add]**.
 
    Wenn Sie eine Preisstufe mit mehreren Preisen erstellen, klicken Sie auf **[!UICONTROL Add]** für jede zusätzliche Ebene, damit Sie alle Ebenen gleichzeitig bearbeiten können. Jede Ebene in der Gruppe verfügt über dieselbe Website und Kundengruppe oder gemeinsame Katalogzuweisung, aber eine andere Menge und einen anderen Preis.
 
@@ -56,7 +56,7 @@ Die Preise in der Storefront haben Vorrang von der höchsten zur niedrigsten Men
 
      >[!NOTE]
      >
-     >Um den reduzierten Preis abzurufen, wird der definierte Prozentsatz anhand des im Feld _[!UICONTROL Price]_definierten Werts berechnet und nicht anhand des Felds_[!UICONTROL Special Price]_.
+     >Um den reduzierten Preis abzurufen, wird der definierte Prozentsatz anhand des im Feld _[!UICONTROL Price]_&#x200B;definierten Werts berechnet und nicht anhand des Felds&#x200B;_[!UICONTROL Special Price]_.
 
      ![Stufenpreis in Prozent](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
