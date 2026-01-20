@@ -3,17 +3,15 @@ title: Google reCAPTCHA Enterprise
 description: Erfahren Sie, wie Sie Google reCAPTCHA Enterprise konfigurieren, um Ihre Adobe Commerce as a Cloud Service-Storefront vor Bots und betrügerischen Aktivitäten zu schützen.
 role: Admin
 feature: Configuration, Security
-badgeSaas: label="Nur SaaS" type="Positive" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."
-source-git-commit: dde1d634a1c6c7435668a8ad6084b926cc0d6193
+badgeSaas: label="Nur SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
 
 # Google reCAPTCHA Enterprise
-
-[!BADGE Sandbox]{type=Caution tooltip="Die aufgelisteten Elemente sind derzeit nur in Sandbox-Umgebungen verfügbar. Adobe veröffentlicht zuerst Aktualisierungen für Sandbox, damit Sie bevorstehende Änderungen testen können, bevor sie in die Produktion übergehen."}
 
 [Google reCAPTCHA Enterprise](https://cloud.google.com/security/products/recaptcha#protect-against-fraud-and-abuse-with-modern-bot-protection-and-fraud-prevention-platform) bietet einen erweiterten Bot-Schutz für Ihre Adobe Commerce as a Cloud Service-Storefront, indem mithilfe von adaptiver Risikoanalyse und maschinellem Lernen zwischen menschlichen Benutzern und Bots unterschieden wird. Dadurch können betrügerische Aktivitäten, Spam und Missbrauch auf Ihrer Site verhindert werden.
 
@@ -21,7 +19,7 @@ ht-degree: 0%
 >
 >Diese Funktion bietet KEINE reCAPTCHA-Unterstützung für Admins.
 
-Informationen zum Konfigurieren anderer Versionen von Google reCAPTCHA finden Sie unter [Google reCAPTCHA &#x200B;](security-google-recaptcha.md)3 und v2&rbrace;.
+Informationen zum Konfigurieren anderer Versionen von Google reCAPTCHA finden Sie unter [Google reCAPTCHA ](security-google-recaptcha.md)3 und v2}.
 
 ## Funktionen
 
@@ -59,7 +57,7 @@ Führen Sie diese allgemeinen Schritte aus, um Google reCAPTCHA Enterprise für 
 
 ## Schritt 2: Konfigurieren von Google reCAPTCHA für die Storefront
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Security]_&#x200B;die Option **[!UICONTROL Google reCAPTCHA Storefront]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Security]_die Option **[!UICONTROL Google reCAPTCHA Storefront]**aus.
 
 1. Füllen Sie den **[!UICONTROL reCAPTCHA Enterprise]** Abschnitt wie folgt aus.
 

@@ -3,9 +3,9 @@ title: Preisstufe
 description: Erfahren Sie, wie Sie mit der Preisstufe einen Mengenrabatt von einer Produktliste oder Produktseite aus anbieten können.
 exl-id: b5810899-31a6-4288-9acc-09f7f4dfbd43
 feature: Catalog Management, Products
-source-git-commit: 528e57df775b53b6137e1542ad0583c60d2f47ff
+source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ Die Preise in der Storefront haben Vorrang von der höchsten zur niedrigsten Men
 
 1. Öffnen Sie das Produkt im Bearbeitungsmodus.
 
-1. Klicken Sie unter dem Feld _[!UICONTROL Price]_&#x200B;auf **[!UICONTROL Advanced Pricing]**.
+1. Klicken Sie unter dem Feld _[!UICONTROL Price]_auf **[!UICONTROL Advanced Pricing]**.
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Tier Price]_&#x200B;auf **[!UICONTROL Add]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Tier Price]_auf **[!UICONTROL Add]**.
 
    Wenn Sie eine Preisstufe mit mehreren Preisen erstellen, klicken Sie auf **[!UICONTROL Add]** für jede zusätzliche Ebene, damit Sie alle Ebenen gleichzeitig bearbeiten können. Jede Ebene in der Gruppe verfügt über dieselbe Website und Kundengruppe oder gemeinsame Katalogzuweisung, aber eine andere Menge und einen anderen Preis.
 
@@ -56,7 +56,7 @@ Die Preise in der Storefront haben Vorrang von der höchsten zur niedrigsten Men
 
      >[!NOTE]
      >
-     >Um den reduzierten Preis abzurufen, wird der definierte Prozentsatz anhand des im Feld _[!UICONTROL Price]_&#x200B;definierten Werts berechnet und nicht anhand des Felds&#x200B;_[!UICONTROL Special Price]_.
+     >Um den reduzierten Preis abzurufen, wird der definierte Prozentsatz anhand des im Feld _[!UICONTROL Price]_definierten Werts berechnet und nicht anhand des Felds_[!UICONTROL Special Price]_.
 
      ![Stufenpreis in Prozent](./assets/product-price-tier-discount.png){width="600" zoomable="yes"}
 
@@ -76,9 +76,7 @@ Die Preise in der Storefront haben Vorrang von der höchsten zur niedrigsten Men
 
 ## Festlegen der Preisstufe für Katalogpreisregeln
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
-
-[!BADGE Sandbox]{type=Caution tooltip="Die aufgelisteten Elemente sind derzeit nur in Sandbox-Umgebungen verfügbar. Adobe stellt neue Versionen zunächst in Sandbox-Umgebungen bereit, um Zeit zum Testen bevorstehender Änderungen zu haben, bevor die Version in Produktionsumgebungen verfügbar ist."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 In früheren Versionen von Commerce konnte die Preisstufe nicht in Verbindung mit Katalogpreisregeln verwendet werden. Die Katalogregeln ignorierten die Stufenpreiskonfiguration und berechneten Rabatte nur vom ursprünglichen Grundpreis. Mit Adobe Commerce as a Cloud Service können Sie jetzt Preisstufen in die Berechnung von Katalogpreisregeln einbeziehen.
 
