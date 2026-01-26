@@ -3,10 +3,10 @@ title: Adobe Stock-Integration
 description: Integrieren Sie Adobe Stock in Ihre  [!DNL Commerce] , um auf unzählige Medien-Assets zur Verwendung in Ihrem Store zuzugreifen.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 9aec049cfaa12f342d66f45a75af0ce50a23c2c8
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Diese Integration erfordert:
 
 Die Lizenzierung von Adobe Stock-Bildern erfordert Folgendes:
 
-- Ein [Adobe-Konto](https://helpx.adobe.com/de/manage-account/using/access-adobe-id-account.html)
+- Ein [Adobe-Konto](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
 - Ein gebührenpflichtiger [Adobe Stock](https://stock.adobe.com)-Plan, der mit dem Konto verknüpft ist
 
 ## Integrieren von [!DNL Commerce] und Adobe Stock
@@ -42,9 +42,9 @@ Die Konfiguration der Adobe Stock-Integration für Adobe Commerce erfolgt in zwe
 
 1. Navigieren Sie zur [Adobe Developer Console](https://developer.adobe.com/console/home).
 
-1. Klicken Sie unter _[!UICONTROL Quick Start]_&#x200B;auf **[!UICONTROL Create new project]**.
+1. Klicken Sie unter _[!UICONTROL Quick Start]_auf **[!UICONTROL Create new project]**.
 
-1. Klicken Sie im _[!UICONTROL Project overview]_&#x200B;auf **[!UICONTROL Add API]**.
+1. Klicken Sie im _[!UICONTROL Project overview]_auf **[!UICONTROL Add API]**.
 
 1. Wählen Sie **[!UICONTROL Adobe Stock]** aus der Liste Integrationen aus und klicken Sie auf **[!UICONTROL Next]**.
 
@@ -62,7 +62,7 @@ Die Konfiguration der Adobe Stock-Integration für Adobe Commerce erfolgt in zwe
    - Alle Punkte (`.`) müssen mit zwei umgekehrten Schrägstrichen (`\\`) escaped werden.
    - Fügen Sie `.*` am Ende des Musters hinzu.
 
-   Unter Verwendung des Beispiels aus dem vorherigen standardmäßigen Weiterleitungs-URI würde er `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`.
+   Unter Verwendung des Beispiels aus dem vorherigen standardmäßigen Weiterleitungs-URI würde das Muster `https://store\\.myshop\\.com/admin_hgkq1l/adobe_ims/oauth/callback/.*`
 
 1. Klicken Sie auf **[!UICONTROL Next]**.
 
