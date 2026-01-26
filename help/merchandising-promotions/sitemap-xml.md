@@ -76,7 +76,7 @@ Sie können jetzt entweder die ursprünglichen (Standard-) Einschränkungen wied
 
 ## Sitemaps und robots.txt für mehrere Websites verwalten
 
-Wenn Sie über mehrere Websites verfügen, können Sie das Erstellen und Senden von Sitemaps vereinfachen. Erstellen [ einfach ](#site-map-configuration) oder mehrere Sitemaps, die URLs für alle verifizierten Stores enthalten, und speichern Sie die Sitemaps an einem einzigen Ort. Alle Websites müssen in der [Google Search Console](https://support.google.com/webmasters/answer/7451001) verifiziert werden.
+Wenn Sie über mehrere Websites verfügen, können Sie das Erstellen und Senden von Sitemaps vereinfachen. Erstellen [&#x200B; einfach &#x200B;](#site-map-configuration) oder mehrere Sitemaps, die URLs für alle verifizierten Stores enthalten, und speichern Sie die Sitemaps an einem einzigen Ort. Alle Websites müssen in der [Google Search Console](https://support.google.com/webmasters/answer/7451001) verifiziert werden.
 
 Gehen Sie wie folgt vor, um Sitemaps für eine Multi-Store-Instanz zu erstellen:
 
