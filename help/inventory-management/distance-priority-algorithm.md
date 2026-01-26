@@ -77,11 +77,11 @@ Der -Schlüssel stammt aus der [Google Maps-](https://cloud.google.com/maps-plat
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen Sie **[!UICONTROL Inventory]**.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Distance Provider for Distance Based SSA]_und legen Sie **[!UICONTROL Provider]**auf `Google MAP` fest.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Distance Provider for Distance Based SSA]_&#x200B;und legen Sie **[!UICONTROL Provider]**&#x200B;auf `Google MAP` fest.
 
    ![Provider für entfernungsbasierte SSA](assets/config-catalog-inventory-distance-provider.png){width="350" zoomable="yes"}
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Google Distance Provider]_und konfigurieren Sie die Einstellungen:
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Google Distance Provider]_&#x200B;und konfigurieren Sie die Einstellungen:
 
    - Geben Sie **[!UICONTROL Google API Key]** den aus Ihrem Google-Konto kopierten Schlüssel ein.
 
@@ -89,7 +89,7 @@ Der -Schlüssel stammt aus der [Google Maps-](https://cloud.google.com/maps-plat
 
      >[!NOTE]
      >
-     >Wenn bei Verwendung dieses Versandalgorithmus Routen und Daten für eine Sendung nicht in den ausgewählten Berechnungsmodus (Fahren, Radfahren oder Gehen) zurückkehren, verwendet die SSA standardmäßig die Source-Priorität. Es wird empfohlen[ die Priorität für Quellen pro ](stocks-prioritize-sources.md) festzulegen.
+     >Wenn bei Verwendung dieses Versandalgorithmus Routen und Daten für eine Sendung nicht in den ausgewählten Berechnungsmodus (Fahren, Radfahren oder Gehen) zurückkehren, verwendet die SSA standardmäßig die Source-Priorität. Es wird empfohlen[&#x200B; die Priorität für Quellen pro &#x200B;](stocks-prioritize-sources.md) festzulegen.
 
      | Option | Beschreibung |
      | ----- | ----- |
@@ -114,7 +114,7 @@ Offline-Berechnungen verwenden Länder-Codes, um die Entfernung zwischen dem Ver
 
 >[!NOTE]
 >
->Importierte Geocodes von [geonames.org](https://www.geonames.org/) haben für einige Länder, wie Kanada und Irland, Einschränkungen. Weitere Informationen finden [ unter „GeoNames-](https://download.geonames.org/export/zip/readme.txt)&quot;.
+>Importierte Geocodes von [geonames.org](https://www.geonames.org/) haben für einige Länder, wie Kanada und Irland, Einschränkungen. Weitere Informationen finden [&#x200B; unter „GeoNames-](https://download.geonames.org/export/zip/readme.txt)&quot;.
 
 ### Schritt 1: Geocodes herunterladen und importieren
 

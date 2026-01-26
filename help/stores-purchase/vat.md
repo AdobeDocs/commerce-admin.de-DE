@@ -201,7 +201,7 @@ Wenn die Validierung der MwSt.-ID aktiviert ist, wird jedem Kunden nach der Regi
 
 Nachdem ein Kunde die MwSt.-Nummer und andere Adressfelder angegeben und die Speicherung ausgewählt hat, speichert das System die Adresse und sendet die MwSt.-ID-Validierungsanfrage an den Server der Europäischen Kommission. Gemäß den Ergebnissen der Validierung wird einem Kunden eine der Standardgruppen zugewiesen. Diese Gruppe kann geändert werden, wenn ein Kunde oder Administrator die MwSt.-Kennung der Standardadresse ändert oder die gesamte Standardadresse ändert. Manchmal kann die Gruppe beim einseitigen Auschecken vorübergehend geändert (Gruppenänderung wird emuliert) werden.
 
-Wenn diese Option aktiviert ist, können Sie die Validierung der MwSt.-ID für einzelne Kunden überschreiben, indem Sie das Kontrollkästchen auf der Seite _[!UICONTROL Customer Information]_aktivieren.
+Wenn diese Option aktiviert ist, können Sie die Validierung der MwSt.-ID für einzelne Kunden überschreiben, indem Sie das Kontrollkästchen auf der Seite _[!UICONTROL Customer Information]_&#x200B;aktivieren.
 
 ### Checkout-Workflow
 
@@ -275,7 +275,7 @@ Jede Steuerregel wird von drei Entitäten definiert:
 Erstellen Sie die [Steuerregeln](tax-rules.md), um die MwSt.-ID-Validierung effektiv zu verwenden.
 
 - Zu den Steuervorschriften gehören Steuersätze und [Steuerklassen](tax-class.md).
-- Steuerklassen werden „Kundengruppen[ zugeordnet](../customers/customer-groups.md).
+- Steuerklassen werden „Kundengruppen[&#x200B; zugeordnet](../customers/customer-groups.md).
 
 #### Schritt 3: Validierung der MwSt.-ID aktivieren und konfigurieren
 

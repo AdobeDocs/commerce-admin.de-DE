@@ -40,7 +40,7 @@ Verwenden Sie den _Video_-Inhaltstyp, um ein Video, das auf [YouTube](https://ww
 
 1. Bevor Sie beginnen, navigieren Sie zum [YouTube](https://www.youtube.com/)- oder [Vimeo](https://vimeo.com/)-Video, das Sie einbetten möchten, und kopieren Sie den Link.
 
-   Alternativ können Sie auch einen direkten Link in eine gültige Videodatei kopieren. Gültige [ finden Sie unter &quot;](#basic-video-settings) Videoeinstellungen“.
+   Alternativ können Sie auch einen direkten Link in eine gültige Videodatei kopieren. Gültige [&#x200B; finden Sie unter &quot;](#basic-video-settings) Videoeinstellungen“.
 
 1. Kehren Sie in der [!DNL Commerce] Admin zu dem Arbeitsbereich [!DNL Page Builder] zurück, in dem Sie das Video hinzufügen möchten.
 
@@ -48,7 +48,7 @@ Verwenden Sie den _Video_-Inhaltstyp, um ein Video, das auf [YouTube](https://ww
 
    ![Ziehen eines Video-Platzhalters auf die Bühne](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den Video-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Video-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Fügen Sie **[!UICONTROL Video URL]** die URL des kopierten Videos ein.
 
@@ -62,7 +62,7 @@ Verwenden Sie den _Video_-Inhaltstyp, um ein Video, das auf [YouTube](https://ww
 
 ## Videoeinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über den Video-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Video-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Ändern Sie die Einstellungen gemäß den folgenden Abschnitten:
 

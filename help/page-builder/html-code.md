@@ -68,7 +68,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font](https://fonts.google.com/)-Co
 
    ![Ziehen eines HTML-Code-Platzhalters auf das Stadium](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Fügen Sie den von Ihnen vorbereiteten Einbettungs-Google-Schriftarten-Code und die Stildeklarationen in das Textfeld ein.
 
@@ -76,7 +76,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font](https://fonts.google.com/)-Co
 
    ![HTML-Code und -Stile](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. Aktualisieren Sie die verbleibenden Einstellungen nach Bedarf (weitere Informationen finden [ unter „Ändern ](#html-settings) HTML-Codeeinstellungen„).
+1. Aktualisieren Sie die verbleibenden Einstellungen nach Bedarf (weitere Informationen finden [&#x200B; unter „Ändern &#x200B;](#html-settings) HTML-Codeeinstellungen„).
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
@@ -84,19 +84,19 @@ Das folgende Beispiel zeigt, wie Sie [Google Font](https://fonts.google.com/)-Co
 
 ### Schritt 3: Vorschau der Seite
 
-1. Legen Sie im _[!UICONTROL Currently Active]_Abschnitt **[!UICONTROL Enable Page]**auf `Yes` fest.
+1. Legen Sie im _[!UICONTROL Currently Active]_&#x200B;Abschnitt **[!UICONTROL Enable Page]**&#x200B;auf `Yes` fest.
 
    ![Aktivieren der Seite](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
-1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_aus.
+1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_&#x200B;aus.
 
    ![Vorschau der Seitenüberschriften mit der neuen Schriftfamilie anzeigen](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
 ## Ändern der HTML-Code-Einstellungen {#html-settings}
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( ](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( &#x200B;](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Bearbeiten Sie den Code im Textfeld nach Bedarf.
 
@@ -110,7 +110,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font](https://fonts.google.com/)-Co
    | Bild einfügen… | Klicken Sie, um ein hochgeladenes Bild oder ein Bild aus der Galerie an der Cursorposition in das HTML-Textfeld einzufügen. |
    | Variable einfügen… | Klicken Sie, um eine Variable an der Cursorposition in das HTML-Textfeld einzufügen. |
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
 
    - Um die Positionierung des Codes innerhalb des übergeordneten Containers zu steuern, wählen Sie ein **[!UICONTROL Alignment]** aus:
 

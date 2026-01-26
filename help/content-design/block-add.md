@@ -36,7 +36,7 @@ Benutzerdefinierte Inhaltsblöcke können erstellt und dann zu jeder Seite, Grup
 
 1. Fügen Sie den Inhalt für den Block mit dem angezeigten Content-Tool-Set hinzu:
 
-   - Wenn [Page Builder](../page-builder/introduction.md) aktiviert ist, wählen Sie **[!UICONTROL Edit with Page Builder]** aus, um die Page Builder-Tools im Inhalt ([) ](../page-builder/workspace.md).
+   - Wenn [Page Builder](../page-builder/introduction.md) aktiviert ist, wählen Sie **[!UICONTROL Edit with Page Builder]** aus, um die Page Builder-Tools im Inhalt ([) &#x200B;](../page-builder/workspace.md).
 
      ![Page Builder-Arbeitsbereich](./assets/pb-workspace-block.png){width="500" zoomable="yes"}
 
@@ -87,7 +87,7 @@ Es gibt zwei Möglichkeiten, einen benutzerdefinierten Block zu entfernen. Sie k
 
 ## Hinzufügen einer Lightbox oder eines Schiebereglers
 
-- Es ist einfach, mit [ einen ](../page-builder/slider.md)Schieberegler[[!DNL Page Builder]](../page-builder/introduction.md) zu Ihrem Geschäft hinzuzufügen. Der Schieberegler kann auf automatische Wiedergabe eingestellt oder manuell mit Navigationstasten gesteuert werden.
+- Es ist einfach, mit [&#x200B; einen &#x200B;](../page-builder/slider.md)Schieberegler[[!DNL Page Builder]](../page-builder/introduction.md) zu Ihrem Geschäft hinzuzufügen. Der Schieberegler kann auf automatische Wiedergabe eingestellt oder manuell mit Navigationstasten gesteuert werden.
 
   ![Page Builder-Regler](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Elemente - Trennlinie
 
-Verwenden Sie _Inhaltstyp_ Trennzeichen“, um eine Regel als visuellen Trennzeichen zwischen Inhaltsabschnitten in der [[!DNL Page Builder] Phase) ](workspace.md#stage). Sie können die Linienfarbe, Stärke und Breite der Trennlinie angeben. Sie können auch die Ausrichtung steuern und die Ränder, den Abstand und das Format des Containerrahmens festlegen. Standardmäßig ist die Trennlinie eine Haarlinie, die die gesamte Breite des Containers ausdehnt, wobei Abstände berücksichtigt werden.
+Verwenden Sie _Inhaltstyp_ Trennzeichen“, um eine Regel als visuellen Trennzeichen zwischen Inhaltsabschnitten in der [[!DNL Page Builder] Phase) &#x200B;](workspace.md#stage). Sie können die Linienfarbe, Stärke und Breite der Trennlinie angeben. Sie können auch die Ausrichtung steuern und die Ränder, den Abstand und das Format des Containerrahmens festlegen. Standardmäßig ist die Trennlinie eine Haarlinie, die die gesamte Breite des Containers ausdehnt, wobei Abstände berücksichtigt werden.
 
 ![Standardunterteilung in einem Container ohne Rahmen](./assets/pb-elements-divider-default.png){width="500" zoomable="yes"}
 
@@ -54,7 +54,7 @@ Obwohl die meisten Container mit Trennlinien unsichtbar sind, wird im folgenden 
 
 ## Ändern der Teilereinstellungen
 
-1. Bewegen Sie den Mauszeiger über den Trennungs-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den Trennungs-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( (](./assets/pb-icon-settings.png){width="20"}) aus.
 
    ![Teiler-Toolbox](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
 
@@ -73,7 +73,7 @@ Obwohl die meisten Container mit Trennlinien unsichtbar sind, wird im folgenden 
 
    ![Festlegen der Linienfarbe, -dicke und -breite](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
 
    - Um die Positionierung der Trennlinie innerhalb des übergeordneten Containers zu steuern, wählen Sie die **[!UICONTROL Alignment]**:
 
@@ -146,7 +146,7 @@ Bei einer formatierten Trennlinie mit bestimmten Einstellungen ist es effiziente
 
    ![Duplizierter Trenner](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den neuen Trennungs-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Verschieben![ ((Symbol ](./assets/pb-icon-move.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den neuen Trennungs-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Verschieben![&#x200B; ((Symbol &#x200B;](./assets/pb-icon-move.png){width="20"} ) aus.
 
    ![Verschieben einer Trennlinie](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
 

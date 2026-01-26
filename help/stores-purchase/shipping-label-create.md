@@ -45,7 +45,7 @@ Befolgen Sie die Anweisungen der einzelnen Spediteure, um Ihrem Konto Support f�
 
 United Parcel Service versendet sowohl im In- als auch im Ausland. Versandaufkleber können jedoch nur für Sendungen generiert werden, die ihren Ursprung in den USA haben.
 
-1. Wählen Sie im Abschnitt _[!UICONTROL Sales]_im linken Bereich **[!UICONTROL Delivery Methods]**aus.
+1. Wählen Sie im Abschnitt _[!UICONTROL Sales]_&#x200B;im linken Bereich **[!UICONTROL Delivery Methods]**&#x200B;aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL UPS]** .
 
@@ -145,7 +145,7 @@ DHL erbringt internationale Versanddienstleistungen.
 
 1. Hinzufügen oder Aktualisieren von Produkten im Paket:
 
-   - Um Produkte aus der Bestellung zum Paket hinzuzufügen, klicken Sie auf **[!UICONTROL Add Products]**. Die Spalte _[!UICONTROL Quantity]_zeigt die maximale Anzahl von Produkten an, die für das Paket verfügbar sind.
+   - Um Produkte aus der Bestellung zum Paket hinzuzufügen, klicken Sie auf **[!UICONTROL Add Products]**. Die Spalte _[!UICONTROL Quantity]_&#x200B;zeigt die maximale Anzahl von Produkten an, die für das Paket verfügbar sind.
 
    - Aktivieren Sie das Kontrollkästchen jedes Produkts, das dem Paket hinzugefügt werden soll, und geben Sie die **[!UICONTROL Quantity]** jedes Produkts ein. Klicken Sie dann auf **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -169,7 +169,7 @@ DHL erbringt internationale Versanddienstleistungen.
 
 1. Suchen Sie die Bestellung im Raster und öffnen Sie das Versandformular.
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Shipping and Tracking Information]_auf **[!UICONTROL Create Shipping Label]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Shipping and Tracking Information]_&#x200B;auf **[!UICONTROL Create Shipping Label]**.
 
 1. Verteilen Sie die bestellten Produkte an die entsprechenden Pakete und klicken Sie auf **[!UICONTROL OK]**.
 
@@ -191,11 +191,11 @@ Versandaufkleber werden im PDF-Format generiert und können vom Administrator au
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** - Sendung im Raster suchen und Datensatz öffnen.
 
-1. Um die PDF-Datei herunterzuladen, gehen Sie zum Abschnitt _[!UICONTROL Shipping and Tracking]_des Formulars und klicken Sie auf **[!UICONTROL Print Shipping Label]**.
+1. Um die PDF-Datei herunterzuladen, gehen Sie zum Abschnitt _[!UICONTROL Shipping and Tracking]_&#x200B;des Formulars und klicken Sie auf **[!UICONTROL Print Shipping Label]**.
 
    Je nach Browsereinstellungen können die Versandkennzeichnungen direkt aus der PDF-Datei angezeigt und ausgedruckt werden.
 
-   Die Schaltfläche _[!UICONTROL Print Shipping Label]_wird erst angezeigt, nachdem der Spediteur Beschriftungen für die Sendung generiert hat. Wenn die Schaltfläche fehlt, klicken Sie auf **[!UICONTROL Create Shipping Label]**. Die Schaltfläche wird angezeigt, nachdem Commerce die Kennzeichnung vom Provider erhalten hat.
+   Die Schaltfläche _[!UICONTROL Print Shipping Label]_&#x200B;wird erst angezeigt, nachdem der Spediteur Beschriftungen für die Sendung generiert hat. Wenn die Schaltfläche fehlt, klicken Sie auf **[!UICONTROL Create Shipping Label]**. Die Schaltfläche wird angezeigt, nachdem Commerce die Kennzeichnung vom Provider erhalten hat.
 
 ### Methode 2: Etiketten für mehrere Bestellungen drucken
 
@@ -224,7 +224,7 @@ Für jede Sendung, die mit den ausgewählten Bestellungen verbunden ist, wird ei
 
 ## Erstellen von Paketen
 
-Das Fenster _[!UICONTROL Create Packages]_wird angezeigt, wenn Sie einen Versandtitel erstellen. Sie können sofort mit der Konfiguration des ersten Pakets beginnen.
+Das Fenster _[!UICONTROL Create Packages]_&#x200B;wird angezeigt, wenn Sie einen Versandtitel erstellen. Sie können sofort mit der Konfiguration des ersten Pakets beginnen.
 
 ### Konfigurieren eines Pakets
 
@@ -236,7 +236,7 @@ Das Fenster _[!UICONTROL Create Packages]_wird angezeigt, wenn Sie einen Versand
 
    - Geben Sie die Produkte und Mengen an.
 
-     In der Spalte _[!UICONTROL Qty]_wird die maximale Menge angezeigt, die hinzugefügt werden kann. Bei der ersten Verpackung entspricht die Zahl der Gesamtmenge des zu versendenden Produkts.
+     In der Spalte _[!UICONTROL Qty]_&#x200B;wird die maximale Menge angezeigt, die hinzugefügt werden kann. Bei der ersten Verpackung entspricht die Zahl der Gesamtmenge des zu versendenden Produkts.
 
    - Um die Produkte zum Paket hinzuzufügen, klicken Sie auf **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -276,7 +276,7 @@ Sie können bei Bedarf auf **[!UICONTROL Cancel]** klicken, um den Prozess anzuh
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Type] | Gibt den Typ eines Pakets an. Wählen Sie einen der vordefinierten Werte aus. Die verfügbaren Pakettypen sind für jeden Versanddienstleister unterschiedlich. Wenn das Popup-Fenster Pakete erstellen geöffnet wird, wird das Standardpaket für den Spediteur im Feld Typ angezeigt. Wenn Sie ein Paket auswählen, das nicht von einem Spediteur entworfen wurde, müssen Sie die Abmessungen des Pakets eingeben. Für Versandbeschriftungen, die für DHL-, FedEx- und UPS-Lieferungen erstellt wurden, ist das Feld Warentyp auf `Merchandise` gesetzt. Bei USPS spiegelt das Feld den Wert aus dem Feld _Inhalt_ im _[!UICONTROL Create Packages]_wider. |
+| [!UICONTROL Type] | Gibt den Typ eines Pakets an. Wählen Sie einen der vordefinierten Werte aus. Die verfügbaren Pakettypen sind für jeden Versanddienstleister unterschiedlich. Wenn das Popup-Fenster Pakete erstellen geöffnet wird, wird das Standardpaket für den Spediteur im Feld Typ angezeigt. Wenn Sie ein Paket auswählen, das nicht von einem Spediteur entworfen wurde, müssen Sie die Abmessungen des Pakets eingeben. Für Versandbeschriftungen, die für DHL-, FedEx- und UPS-Lieferungen erstellt wurden, ist das Feld Warentyp auf `Merchandise` gesetzt. Bei USPS spiegelt das Feld den Wert aus dem Feld _Inhalt_ im _[!UICONTROL Create Packages]_&#x200B;wider. |
 | [!UICONTROL Total Weight] | Das Gesamtgewicht eines Pakets. Das Feld wird vorab mit dem Gesamtgewicht der Produkte in einer Verpackung ausgefüllt. Die Maßeinheit kann entweder auf Pfund oder Kilogramm eingestellt werden. |
 | [!UICONTROL Length] | Die Länge eines Packages, Ganzzahlen und Gleitkommazahlen. Das Feld ist aktiviert, wenn der benutzerdefinierte Pakettyp verwendet wird. Die Maßeinheit kann auf Zoll oder Zentimeter festgelegt werden. |
 | [!UICONTROL Width] | Die Breite eines Packages, Ganzzahlen und Gleitkommazahlen. Das Feld ist aktiviert, wenn der benutzerdefinierte Pakettyp verwendet wird. Die Maßeinheiten können über das Dropdown-Menü neben dem Feld Höhe angegeben werden. Wählen Sie zwischen Zoll und Zentimeter. |

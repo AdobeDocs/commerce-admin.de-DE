@@ -89,7 +89,7 @@ Händler, die auf Steuern geprüft werden, die für digitale Waren gezahlt werde
 - Die Lieferadresse des Kunden und ein Nachweis über einen erfolgreichen Zahlungsvorgang können zur Ermittlung des Wohnorts des Kunden verwendet werden. (Die Zahlung wird nur akzeptiert, wenn die Lieferadresse mit den Angaben des Zahlungsanbieters übereinstimmt.)
 - Die Informationen können auch direkt aus dem Datenspeicher in den Commerce-Datenbanktabellen erfasst werden.
 
-_**So erfassen Sie Steuerinformationen für digitale Waren:**_
+_&#x200B;**So erfassen Sie Steuerinformationen für digitale Waren:**&#x200B;_
 
 1. Laden Sie die Steuersätze für alle EU-Mitgliedsländer.
 

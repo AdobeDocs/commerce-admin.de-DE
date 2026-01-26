@@ -42,9 +42,9 @@ Die Konfiguration der Adobe Stock-Integration für Adobe Commerce erfolgt in zwe
 
 1. Navigieren Sie zur [Adobe Developer Console](https://developer.adobe.com/console/home).
 
-1. Klicken Sie unter _[!UICONTROL Quick Start]_auf **[!UICONTROL Create new project]**.
+1. Klicken Sie unter _[!UICONTROL Quick Start]_&#x200B;auf **[!UICONTROL Create new project]**.
 
-1. Klicken Sie im _[!UICONTROL Project overview]_auf **[!UICONTROL Add API]**.
+1. Klicken Sie im _[!UICONTROL Project overview]_&#x200B;auf **[!UICONTROL Add API]**.
 
 1. Wählen Sie **[!UICONTROL Adobe Stock]** aus der Liste Integrationen aus und klicken Sie auf **[!UICONTROL Next]**.
 
