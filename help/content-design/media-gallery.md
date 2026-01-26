@@ -71,4 +71,4 @@ So greifen Sie beim Hinzufügen oder Bearbeiten einer Seite auf die neue Mediens
 
 Weitere Informationen zum [!DNL Media Gallery] finden Sie in diesem Video:
 
->[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3417562?captions=ger&quality=12&learn=on)
