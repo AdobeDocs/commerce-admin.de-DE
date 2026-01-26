@@ -3,7 +3,7 @@ title: Store-Lokalisierung
 description: Erfahren Sie, wie Sie einen Store oder eine Store-Ansicht lokalisieren.
 exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
-source-git-commit: 248c60b20d8554fc73f94cfd249ac3fd7b677f62
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Der Großteil des Textes, der auf Seiten in Ihrem Store hartcodiert zu sein scheint, kann sofort in eine andere Sprache geändert werden, indem das Gebietsschema der Ansicht geändert wird. Wenn Sie das Gebietsschema ändern, wird der Text nicht Wort für Wort übersetzt, sondern es wird einfach auf eine andere Übersetzungstabelle verwiesen, die den Schnittstellentext bereitstellt, der im gesamten Store verwendet wird. Der Text, der geändert werden kann, umfasst Navigationstitel, Beschriftungen, Schaltflächen und Links wie _Mein Warenkorb_ und _Mein Konto_. Sie können auch das Tool [Inline-Übersetzung](../configuration-reference/advanced/developer.md) verwenden, um Text in der Benutzeroberfläche zu bereinigen.
 
-Sprachpakete finden Sie unter [Übersetzungen und Lokalisierung][1]{:target="_blank"} auf Commerce Marketplace. Es werden kontinuierlich neue Erweiterungen zu Marketplace hinzugefügt. Schauen Sie daher öfter mal vorbei.
+Sprachpakete finden Sie unter [Übersetzungen und Lokalisierung](https://marketplace.magento.com/extensions/content-customizations/translations-localization.html){:target="_blank"} auf Commerce Marketplace. Es werden kontinuierlich neue Erweiterungen zu Marketplace hinzugefügt. Schauen Sie daher öfter mal vorbei.
 
 ## Schritt 1: Installieren eines Sprachpakets
 
-Befolgen Sie die Standardanweisungen für die Installation der Language Pack-Erweiterung. Detaillierte Informationen zum Installieren einer Erweiterung finden Sie unter [Allgemeine CLI][2]Installation im _Erweiterungshandbuch_.
+Befolgen Sie die Standardanweisungen für die Installation der Language Pack-Erweiterung. Detaillierte Informationen zum Installieren einer Erweiterung finden Sie unter [Allgemeine CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)Installation im _Erweiterungshandbuch_.
 
 ## Schritt 2: Erstellen Sie eine Store-Ansicht für die Sprache
 
@@ -88,7 +88,7 @@ Wenn Ihr Store mehrere Ansichten in verschiedenen Sprachen hat, sind in jeder St
 
 1. Wählen Sie im linken Bedienfeld **[!UICONTROL Manage Labels]** aus.
 
-1. Geben Sie im Abschnitt _[!UICONTROL Manage Titles]_&#x200B;für jede Shop-Ansicht einen übersetzten Titel ein.
+1. Geben Sie im Abschnitt _[!UICONTROL Manage Titles]_für jede Shop-Ansicht einen übersetzten Titel ein.
 
    ![Geben Sie übersetzte Beschriftungen ein](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -104,7 +104,7 @@ Wenn Ihr Store mehrere Ansichten in verschiedenen Sprachen hat, sind in jeder St
 
 1. Für _grundlegende Informationen_ übersetzen Sie **[!UICONTROL Category Name]**.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Content]_&#x200B;und übersetzen Sie **[!UICONTROL Description]**.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Content]_und übersetzen Sie **[!UICONTROL Description]**.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Search Engine Optimization Settings]** und übersetzen Sie die folgenden Felder:
 
@@ -112,7 +112,7 @@ Wenn Ihr Store mehrere Ansichten in verschiedenen Sprachen hat, sind in jeder St
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Search Engine Optimization Settings]_&#x200B;wie folgt vor, um die **[!UICONTROL URL Key]**&#x200B;zu übersetzen:
+1. Gehen Sie im Abschnitt _[!UICONTROL Search Engine Optimization Settings]_wie folgt vor, um die **[!UICONTROL URL Key]**zu übersetzen:
 
    - Deaktivieren Sie das **[!UICONTROL Use Default Value]** Kontrollkästchen rechts neben dem Feld.
 
@@ -139,7 +139,3 @@ Wenn Ihr Store mehrere Ansichten in verschiedenen Sprachen hat, sind in jeder St
    ![Optionen verwalten](./assets/manage-option-tab.png){width="600" zoomable="yes"}
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Attribute]**.
-
-
-[1]: https://marketplace.magento.com/extensions/content-customizations/translations-localization.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=de

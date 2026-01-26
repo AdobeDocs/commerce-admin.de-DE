@@ -3,7 +3,7 @@ title: CCPA-Konformität
 description: Erfahren Sie mehr über den California Consumer Privacy Act (CCPA), mit dem die Rechte von Verbrauchern in Kalifornien erweitert werden, um zu bestimmen, wie ihre personenbezogenen Daten erfasst, gespeichert und verwendet werden.
 exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '2252'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Diese Informationen sind nur ein Teil der Beiträge, die Adobe Commerce-Händlern und -Entwicklern helfen sollen, die Auswirkungen des California Consumer Privacy Act zu verstehen. Die Informationen basieren auf dem Text des Statuts. Um zu bestätigen, ob CCPA für Ihr Unternehmen gilt, wenden Sie sich an Ihren Anwalt.
 
-Der [California Consumer Privacy Act][5] (CCPA) erweitert die Rechte von Verbrauchern in Kalifornien, um zu bestimmen, wie ihre personenbezogenen Daten erfasst, gespeichert und verwendet werden. Der Schwerpunkt liegt auf dem Schutz der Verbraucher vor dem unbefugten Verkauf oder Austausch ihrer personenbezogenen Daten. Der CCPA wurde 2018 erlassen und trat am 1. Januar 2020 in Kraft.
+Der [California Consumer Privacy Act](https://oag.ca.gov/privacy/ccpa) (CCPA) erweitert die Rechte von Verbrauchern in Kalifornien, um zu bestimmen, wie ihre personenbezogenen Daten erfasst, gespeichert und verwendet werden. Der Schwerpunkt liegt auf dem Schutz der Verbraucher vor dem unbefugten Verkauf oder Austausch ihrer personenbezogenen Daten. Der CCPA wurde 2018 erlassen und trat am 1. Januar 2020 in Kraft.
 
 Der CCPA räumt den Verbrauchern die folgenden neuen Rechte ein:
 
@@ -56,13 +56,13 @@ Wenn Ihr Unternehmen sowohl die [Datenschutz-Grundverordnung (DSGVO](compliance-
 - Der CCPA hat zusätzliche Anforderungen für die Dateninventarisierung und -zuordnung.
 - Die Verordnungen haben unterschiedliche Datenschutzrichtlinien.
 
-Unternehmen, die die DSGVO einhalten, können zusätzliche Verpflichtungen im Rahmen des CCPA haben. Weitere Informationen finden Sie im [CCPA Fact Sheet][3]{:target="_blank"}.
+Unternehmen, die die DSGVO einhalten, können zusätzliche Verpflichtungen im Rahmen des CCPA haben. Weitere Informationen finden Sie im [CCPA Fact Sheet](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}.
 
 ### Compliance-Roadmap
 
 Für die Entwicklung und Umsetzung eines Plans zur Einhaltung der Vorschriften sind koordinierte Anstrengungen erforderlich. Verwenden Sie diese Roadmap als Leitfaden, um Ressourcen zu mobilisieren und Aufgaben zu priorisieren, damit Sie an mehreren Fronten vorankommen können. Der Vorgang ist für alle [!DNL Commerce] Anlagen im Wesentlichen gleich, mit folgender Ausnahme:
 
-- **Adobe Commerce auf Cloud-Infrastruktur**: Händler mit auf Adobe gehosteten Stores [Cloud-Infrastruktur][4]{:target="_blank"} können bei der Beantwortung von Verbraucheranfragen den technischen Adobe Commerce-Kundenbetreuer oder den Support um Hilfe bitten.
+- **Adobe Commerce auf Cloud-**: Händler mit Geschäften, die auf Adobe (Cloud[Infrastruktur) gehostet werden](https://www.adobe.com/commerce/magento.html){:target="_blank"} können bei der Beantwortung von Verbraucheranfragen ihren Adobe Commerce Technical Account Manager oder den Support um Hilfe bitten.
 
 - **On-Premise**: Händler mit On-Premise-Installationen von Adobe Commerce oder Magento Open Source müssen ihre eigenen Prozesse und Tools entwickeln, um auf Verbraucheranfragen im Zusammenhang mit Datenschutzbestimmungen zu reagieren und diese zu verwalten.
 
@@ -95,7 +95,7 @@ Erfassen Sie eine Bestandsaufnahme Ihrer digitalen Objekte, einschließlich alle
 
 1. Identifizieren Sie die Parteien, mit denen Sie Daten teilen. Die Liste sollte Dienstleister und Dritte umfassen. Zu den Dritten gehören Werbenetzwerke, Internetdienstanbieter, Datenanalyseanbieter, Regierungsstellen, Betriebssysteme und Plattformen, soziale Netzwerke und Wiederverkäufer von Verbraucherdaten, die nicht direkt personenbezogene Daten von Ihren Verbrauchern erfassen.
 
-   - **Dienstleister**: Entitäten, die für Geschäftszwecke Zugriff auf Ihre Verbraucherdaten haben und Services in Ihrem Namen bereitstellen. Beispielsweise ist Adobe ein Dienstleister, ebenso wie einige Entwickler von Anpassungen, Erweiterungen und Services.
+   - **Dienstleister**: Entitäten, die für Geschäftszwecke Zugriff auf Ihre Verbraucherdaten haben und Services in Ihrem Namen bereitstellen. Beispielsweise ist Adobe ein Dienstleister, und dasselbe gilt für Entwickler von Anpassungen, Erweiterungen und Services.
 
      Überprüfen Sie die Standardeinstellungen von Google Universal Analytics, Google Tag Manager - und alle anderen von Ihnen verwendeten Datendienste - und nehmen Sie die erforderlichen Änderungen vor, um die Verordnung einzuhalten. Weitere Informationen finden Sie unter [Datenschutzeinstellungen für Google](../merchandising-promotions/google-tools.md#google-privacy-settings).
 
@@ -111,8 +111,8 @@ Erfassen Sie eine Bestandsaufnahme Ihrer digitalen Objekte, einschließlich alle
 
 1. In den folgenden Themen finden Sie die entsprechenden Datenflussdiagramme und Datenbankentitätszuordnungen für jede Version:
 
-   - [Referenz zu personenbezogenen Daten (2.x)][1]
-   - [Referenz zu personenbezogenen Daten (1.x)][2]
+   - [Referenz zu personenbezogenen Daten (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
+   - [Referenz zu personenbezogenen Daten (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
 
    ![Diagramm](./assets/privacy-frontend-diagram.svg)
 
@@ -146,8 +146,8 @@ Händler sind für Folgendes verantwortlich:
 
    - **Löschanfragen**
 
-      - Händler, deren Stores auf Adobe Commerce Cloud gehostet werden, sollten sich an den Adobe-Support wenden, um Unterstützung beim Löschen personenbezogener Daten zu erhalten. Wenden Sie sich an Ihren technischen Kundenbetreuer für Adobe oder an den Support, um weitere Informationen zu erhalten.
-      - Händler, die Installationen von Adobe Commerce oder Magento Open Source On-Premise ausführen, müssen ihren eigenen Prozess und ihr eigenes Skript implementieren, um personenbezogene Daten auf Anfrage zu löschen.
+      - Händler, deren Stores auf Adobe Commerce Cloud gehostet werden, sollten sich an den Adobe-Support wenden, um Unterstützung beim Löschen personenbezogener Daten zu erhalten. Wenden Sie sich an Ihren Adobe Technical Account Manager oder den Support, um weitere Informationen zu erhalten.
+      - Händler, die On-Premise-Installationen von Adobe Commerce oder Magento Open Source ausführen, müssen ihren eigenen Prozess und ihr eigenes Skript implementieren, um personenbezogene Daten auf Anfrage zu löschen.
 
 #### Schritt 5: Inhalt für die erforderlichen Kundenbenachrichtigungen schreiben
 
@@ -194,7 +194,7 @@ Händler sind für Folgendes verantwortlich:
 
    - **Minderjährige &lt; 13**: Minderjährige unter 13 Jahren benötigen eine elterliche Genehmigung, um sich für den Verkauf ihrer personenbezogenen Daten zu entscheiden.
 
-   - **Minderjährige 13 bis &lt; 16**: Minderjährige im Alter von mindestens 13 Jahren und unter 16 Jahren können sich für den Verkauf ihrer personenbezogenen Daten entscheiden, sofern das Unternehmen ein angemessenes Verfahren zur Dokumentation der Aktion einführt. Der Prozess muss in der „Datenschutzrichtlinie“ des [&#x200B; beschrieben &#x200B;](privacy-policy.md). Wenn ein Unternehmen Anfragen von Minderjährigen in dieser Altersgruppe erhält, muss es sie über ihr Recht informieren, diese später auszuschließen, und erklären, wie dies zu tun ist.
+   - **Minderjährige 13 bis &lt; 16**: Minderjährige im Alter von mindestens 13 Jahren und unter 16 Jahren können sich für den Verkauf ihrer personenbezogenen Daten entscheiden, sofern das Unternehmen ein angemessenes Verfahren zur Dokumentation der Aktion einführt. Der Prozess muss in der „Datenschutzrichtlinie“ des [ beschrieben ](privacy-policy.md). Wenn ein Unternehmen Anfragen von Minderjährigen in dieser Altersgruppe erhält, muss es sie über ihr Recht informieren, diese später auszuschließen, und erklären, wie dies zu tun ist.
 
   >[!IMPORTANT]
   >
@@ -205,9 +205,3 @@ Händler sind für Folgendes verantwortlich:
 **Stakeholder:** Kundendienst, administrative Unterstützung
 
 Führen Sie über einen Zeitraum von 24 Monaten nach Erhalt jeder einzelnen Rechteanforderung ein Protokoll über die Anforderung und die Antwort Ihres Unternehmens.
-
-[1]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=de
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=de
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
-[4]: https://www.adobe.com/commerce/magento.html
-[5]: https://oag.ca.gov/privacy/ccpa

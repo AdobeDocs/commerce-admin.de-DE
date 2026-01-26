@@ -3,8 +3,8 @@ title: Die  [!DNL Media Gallery]
 description: Verwenden Sie die Mediensammlung, um Ihre Mediendateien auf dem Server zu organisieren und zu verwalten.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Die [!DNL Media Gallery]
 
-Mit Adobe Commerce oder Magento Open Source 2.4 können Händler den neuen _erweiterten_-[!DNL Media Gallery] verwenden, um ihre Mediendateien auf dem Server zu organisieren und zu verwalten. Dieser neue [!DNL Media Gallery] enthält dieselben Funktionen wie der vorhandene Medienspeicher, bietet jedoch eine verbesserte Benutzeroberfläche und eine engere Integration mit [Adobe Stock][adobe-stock].
+Mit Adobe Commerce oder Magento Open Source 2.4 können Händler den neuen _erweiterten_-[!DNL Media Gallery] verwenden, um ihre Mediendateien auf dem Server zu organisieren und zu verwalten. Dieser neue [!DNL Media Gallery] enthält dieselben Funktionen wie der vorhandene Medienspeicher, bietet jedoch eine verbesserte Benutzeroberfläche und eine engere Integration mit [Adobe Stock](https://stock.adobe.com).
 
 ![Bilder, die im Mediensammlungs-Raster angezeigt werden](./assets/media-gallery-grid.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->Produktbilder, die zum Abschnitt [_[!UICONTROL Images and Videos]_&#x200B;hinzugefügt &#x200B;](../catalog/product-image.md#upload-an-image), werden vom [!DNL Media Gallery] nicht verwaltet. In der neuen [!DNL Media Gallery] werden nur Bilder angezeigt und gefiltert, die im Abschnitt&#x200B;_[!UICONTROL Content]_ verwendet werden.
+>Produktbilder, die zum Abschnitt [_[!UICONTROL Images and Videos]_hinzugefügt ](../catalog/product-image.md#upload-an-image), werden vom [!DNL Media Gallery] nicht verwaltet. In der neuen_[!UICONTROL Content]_ werden nur Bilder angezeigt und gefiltert, die im Abschnitt [!DNL Media Gallery] verwendet werden.
 
 ## Aktivieren des neuen [!DNL Media Gallery]
 
@@ -37,17 +37,17 @@ Mit Adobe Commerce oder Magento Open Source 2.4 können Händler den neuen _erwe
 
 1. Wenn Sie dazu aufgefordert werden, klicken Sie auf den Link **[!UICONTROL Cache Management]** in der Systemmeldung und aktualisieren Sie den ungültigen Cache.
 
-   Das [[!UICONTROL Content] zeigt &#x200B;](/help/content-design/content-menu.md) die neue _[!UICONTROL Media Gallery]_&#x200B;an.
+   Das [[!UICONTROL Content] zeigt ](/help/content-design/content-menu.md) die neue _[!UICONTROL Media Gallery]_an.
 
 >[!NOTE]
 >
->Für die volle Funktionalität neuer [!DNL Media Gallery] müssen `media.gallery.synchronization`- und `media.content.synchronization`-Warteschlangenverbraucher für die Erstsynchronisierung gestartet werden. Weitere [&#x200B; finden Sie unter „Verwalten &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=de) Nachrichtenwarteschlangen _im_ Konfigurationshandbuch“.
+>Für die volle Funktionalität neuer [!DNL Media Gallery] müssen `media.gallery.synchronization`- und `media.content.synchronization`-Warteschlangenverbraucher für die Erstsynchronisierung gestartet werden. Weitere [ finden Sie unter „Verwalten ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) Nachrichtenwarteschlangen _im_ Konfigurationshandbuch“.
 
 ## Zugriff auf die neue [!DNL Media Gallery]
 
-Auf die neue [!DNL Media Gallery] kann über das Menü Inhalt oder beim [Hinzufügen oder Bearbeiten einer Seite“ zugegriffen &#x200B;](/help/content-design/page-add.md). Sie können darauf auch zugreifen, wenn Sie [eine Kategorie erstellen oder bearbeiten](/help/catalog/category-create.md) oder wenn Sie [Bilder mit dem Inhaltseditor einfügen](/help/content-design/editor-insert-image.md).
+Auf die neue [!DNL Media Gallery] kann über das Menü Inhalt oder beim [Hinzufügen oder Bearbeiten einer Seite“ zugegriffen ](/help/content-design/page-add.md). Sie können darauf auch zugreifen, wenn Sie [eine Kategorie erstellen oder bearbeiten](/help/catalog/category-create.md) oder wenn Sie [Bilder mit dem Inhaltseditor einfügen](/help/content-design/editor-insert-image.md).
 
-So greifen Sie über das Menü [!UICONTROL Content] auf die neue [!UICONTROL Media Gallery] zu:
+So greifen Sie über das Menü [!UICONTROL Media Gallery] auf die neue [!UICONTROL Content] zu:
 
 - Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
@@ -57,7 +57,7 @@ So greifen Sie beim Hinzufügen oder Bearbeiten einer Seite auf die neue Mediens
 
 1. Klicken Sie auf **[!UICONTROL Add a New Page]**.
 
-   Wenn Sie eine vorhandene Seite bearbeiten möchten, können Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Select]**&#x200B;klicken und **[!UICONTROL Edit]**&#x200B;auswählen.
+   Wenn Sie eine vorhandene Seite bearbeiten möchten, können Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**klicken und **[!UICONTROL Edit]**auswählen.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Content]** und führen Sie folgende Schritte aus:
 
@@ -71,7 +71,4 @@ So greifen Sie beim Hinzufügen oder Bearbeiten einer Seite auf die neue Mediens
 
 Weitere Informationen zum [!DNL Media Gallery] finden Sie in diesem Video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3417562?quality=12&learn=on&captions=ger)
-
-[adobe-stock]: https://stock.adobe.com
-
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)

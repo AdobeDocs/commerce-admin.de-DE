@@ -3,7 +3,7 @@ title: Google Site-Tools
 description: Erfahren Sie mehr über die Google-Tools-Integrationen, mit denen Sie Ihre Inhalte optimieren, Ihren Traffic analysieren und Ihren Katalog mit Shopping-Aggregatoren und Marktplätzen verbinden können.
 exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
-source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Wenn Ihr Unternehmen Datenschutzbestimmungen wie die [DSGVO](../getting-started/
 
 ### Schritt 1: Google-Einstellungen aktualisieren
 
-1. [Anmelden][1]{: target="_blank"} beim Google Analytics-Konto Ihres Unternehmens.
+1. [Anmelden](https://www.google.com/analytics/){: target="_blank"} beim Google Analytics-Konto Ihres Unternehmens.
 
 1. Wählen Sie am unteren Rand der linken Seitenleiste **[!UICONTROL Admin]** aus und navigieren Sie dann zu dem Konto, das Sie bearbeiten möchten (falls zutreffend).
 
@@ -45,7 +45,7 @@ Wenn Ihr Unternehmen Datenschutzbestimmungen wie die [DSGVO](../getting-started/
 
 1. Akzeptieren Sie die _Änderung der Datenverarbeitung_.
 
-   Die Google Ads-Datenverarbeitungsbedingungen beschreiben, wie Google Daten verarbeitet und welche Maßnahmen es ergreift, um die Datensicherheit für Unternehmen zu gewährleisten, die der DSGVO unterliegen. Mit der Änderung werden auch Ihre juristischen Personen und Kontaktinformationen aufgezeichnet. Um [weitere Informationen][2]{: target="_blank"} zu erhalten, klicken Sie auf den Link in der Nachricht oben auf der Seite.
+   Die Google Ads-Datenverarbeitungsbedingungen beschreiben, wie Google Daten verarbeitet und welche Maßnahmen es ergreift, um die Datensicherheit für Unternehmen zu gewährleisten, die der DSGVO unterliegen. Mit der Änderung werden auch Ihre juristischen Personen und Kontaktinformationen aufgezeichnet. Um [weitere Informationen](https://support.google.com/analytics/answer/3379636){: target="_blank"} zu erhalten, klicken Sie auf den Link in der Nachricht oben auf der Seite.
 
    - Scrollen Sie auf der Seite nach unten zum **[!UICONTROL Data Processing Amendment]**.
    - Klicken Sie auf **[!UICONTROL Review Amendment]**, um die _Datenverarbeitungsbedingungen für Google Ads zu_.
@@ -80,7 +80,7 @@ analytics.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-Weitere Informationen finden Sie in der [Analytics.js-Feldreferenz][3]{: target="_blank"} in der Google-Hilfe.
+Weitere Informationen finden Sie in der [Analytics.js-Feldreferenz](https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference){: target="_blank"} in der Google-Hilfe.
 
 Wenn Sie die veraltete `ga.js`-Bibliothek verwenden, fügen Sie das folgende Snippet hinzu:
 
@@ -98,7 +98,7 @@ gtag.js
 : `gtag('event', 'your_event', { 'anonymize_ip': true })`
 ```
 
-Weitere Informationen finden Sie unter [IP-Anonymisierung in Analytics][4] in der Hilfe zu Google.
+Weitere Informationen finden Sie unter [IP-Anonymisierung in Analytics](https://support.google.com/analytics/answer/2763052) in der Hilfe zu Google.
 
 #### SSL erzwingen
 
@@ -118,8 +118,3 @@ Aktualisieren Sie Ihre [Datenschutzrichtlinie](../getting-started/privacy-policy
 - Maskiert IP-Adressen zum Ausblenden personenbezogener Daten
 - Google-Datenfreigabe deaktiviert
 - Verwendet keine anderen Google-Services mit Google Analytics-Cookies
-
-[1]: https://www.google.com/analytics/
-[2]: https://support.google.com/analytics/answer/3379636
-[3]: https://developers.google.com/analytics/devguides/collection/analyticsjs/field-reference
-[4]: https://support.google.com/analytics/answer/2763052

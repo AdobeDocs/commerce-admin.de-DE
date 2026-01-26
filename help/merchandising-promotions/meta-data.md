@@ -1,21 +1,21 @@
 ---
-title: Metadaten
+title: Meta-Daten
 description: Erfahren Sie, wie Sie schlüsselwortreiche Metadaten eingeben können, um die Art und Weise zu verbessern, wie Suchmaschinen Ihre Commerce-Site indizieren.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# Metadaten
+# Meta-Daten
 
 >[!TIP]
 >
->Informationen zu Adobe Commerce as a Cloud Service finden Sie unter [Metadatenrichtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=de) in der Dokumentation zu Commerce Storefront
+>Informationen zu Adobe Commerce as a Cloud Service finden Sie unter [Metadatenrichtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) in der Dokumentation zu Commerce Storefront
 
 Ihr Store enthält Orte, an denen Sie schlüsselwortreiche Metadaten eingeben können, um die Art und Weise zu verbessern, wie Suchmaschinen Ihre Site indizieren. Beim Einrichten Ihres Stores geben Sie möglicherweise vorläufige Metadaten ein, die Sie später abschließen möchten. Im Laufe der Zeit können Sie die Metadaten entsprechend den Kaufmustern und -präferenzen Ihrer Kunden anpassen.
 
@@ -39,7 +39,7 @@ Meta-Beschreibungen bieten einen kurzen Überblick über die Seite für Sucherge
 
 ## Rich Snippets
 
-Rich-Snippets bieten detaillierte Informationen für Suchergebnislisten und andere Anwendungen. Standardmäßig wird das strukturierte Daten-Markup, das auf dem Standard [schema.org][1] basiert, zur Produktvorlage Ihres Stores hinzugefügt. Infolgedessen stehen für Suchmaschinen weitere Informationen zur Verfügung, die als _Snippets in_ Produktlisten aufgenommen werden können.
+Rich-Snippets bieten detaillierte Informationen für Suchergebnislisten und andere Anwendungen. Standardmäßig wird das strukturierte Daten-Markup, das auf dem Standard [schema.org](https://schema.org/) basiert, zur Produktvorlage Ihres Stores hinzugefügt. Infolgedessen stehen für Suchmaschinen weitere Informationen zur Verfügung, die als _Snippets in_ Produktlisten aufgenommen werden können.
 
 ## Kanonisches Meta-Tag
 
@@ -84,20 +84,18 @@ Sie können vermeiden, von Suchmaschinen bestraft zu werden, indem Sie die Kateg
 
    - Legen Sie **Verwenden eines kanonischen Link-Meta-Tags für Kategorien** auf `Yes` fest.
 
-   - Legen **Verwenden eines kanonischen Link-Meta-Tags für Produkte** auf `No` fest.
+   - Legen **Verwenden des kanonischen Link-Meta-Tags für Produkte** auf `No` fest.
 
 1. Wenn Sie möchten, dass Suchmaschinen Produktseiten nur mit dem Domain-Namen-/Produkt-URL-Schlüsselformat indizieren, gehen Sie wie folgt vor:
 
-   - Legen **Verwenden eines kanonischen Link-Meta-Tags für Produkte** auf `Yes` fest.
+   - Legen **Verwenden des kanonischen Link-Meta-Tags für Produkte** auf `Yes` fest.
 
    - Legen Sie **Verwenden eines kanonischen Link-Meta-Tags für Kategorien** auf `No` fest.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-## Metadaten-Demo
+## Meta-Datendemo
 
 In diesem Video erfahren Sie mehr über die Verwaltung von SEO-Metadaten:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411965?quality=12&learn=on&captions=ger)
-
-[1]: https://schema.org/
+>[!VIDEO](https://video.tv.adobe.com/v/343750?quality=12&learn=on)

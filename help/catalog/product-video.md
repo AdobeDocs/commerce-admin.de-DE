@@ -3,9 +3,9 @@ title: Hinzufügen von Produktvideos
 description: Erfahren Sie, wie Sie Produktvideos für Ihren Store konfigurieren. Dafür wird ein YouTube-Daten-API-Schlüssel von einem Google-Konto benötigt, und fügen Sie einen Video-Link für ein Produkt hinzu.
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 feature: Catalog Management, Products, Media
-source-git-commit: e439c1082834cbc81f6ccc7ca99e240d649c8b81
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Um ein Produktvideo hinzuzufügen, müssen Sie zunächst einen API-Schlüssel vo
 
 ## Schritt 1: YouTube-API-Schlüssel abrufen
 
-1. Melden Sie sich bei Ihrem Google-Konto an und besuchen Sie die [Google Developers Console][1].
+1. Melden Sie sich bei Ihrem Google-Konto an und besuchen Sie die [Google Developers Console](https://console.developers.google.com/).
 
 1. Geben Sie oben im Suchfeld `YouTube Data API v3` ein und klicken Sie auf das Suchsymbol.
 
@@ -44,7 +44,7 @@ Um ein Produktvideo hinzuzufügen, müssen Sie zunächst einen API-Schlüssel vo
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen Sie darunter **[!UICONTROL Catalog]**.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Product Video]_&#x200B;und fügen Sie Ihre **[!UICONTROL YouTube API key]**&#x200B;ein.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Product Video]_und fügen Sie Ihre **[!UICONTROL YouTube API key]**ein.
 
    ![Konfiguration des Produktvideos](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -56,7 +56,7 @@ Um ein Produktvideo hinzuzufügen, müssen Sie zunächst einen API-Schlüssel vo
 
 1. Öffnen Sie ein Produkt im Bearbeitungsmodus.
 
-1. Scrollen Sie zum Abschnitt _[!UICONTROL Images and Videos]_&#x200B;und erweitern Sie ihn.
+1. Scrollen Sie zum Abschnitt _[!UICONTROL Images and Videos]_und erweitern Sie ihn.
 
    ![Bilder und Videos](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
@@ -94,11 +94,11 @@ Um ein Produktvideo hinzuzufügen, müssen Sie zunächst einen API-Schlüssel vo
 
    >[!NOTE]
    >
-   >Wenn die _[!UICONTROL Autostart base video]_&#x200B;Konfigurationsoption auf `Yes` festgelegt ist, das Video jedoch nicht automatisch wiedergegeben wird, kann dies an den automatischen Wiedergaberichtlinien liegen, die vom Browser erzwungen werden und nicht von Adobe Commerce gesteuert werden können. Jeder unterstützte Browser verfügt über seine eigenen Richtlinien zur automatischen Wiedergabe, die sich im Laufe der Zeit ändern können, und Ihr Video wird in Zukunft möglicherweise nicht automatisch wiedergegeben. Als Best Practice wird empfohlen, sich nicht auf die automatische Wiedergabe für geschäftskritische Funktionen zu verlassen und das Verhalten der automatischen Videowiedergabe in Ihrem Store mit jedem unterstützten Browser zu testen.
+   >Wenn die _[!UICONTROL Autostart base video]_Konfigurationsoption auf `Yes` festgelegt ist, das Video jedoch nicht automatisch wiedergegeben wird, kann dies an den automatischen Wiedergaberichtlinien liegen, die vom Browser erzwungen werden und nicht von Adobe Commerce gesteuert werden können. Jeder unterstützte Browser verfügt über seine eigenen Richtlinien zur automatischen Wiedergabe, die sich im Laufe der Zeit ändern können, und Ihr Video wird in Zukunft möglicherweise nicht automatisch wiedergegeben. Als Best Practice wird empfohlen, sich nicht auf die automatische Wiedergabe für geschäftskritische Funktionen zu verlassen und das Verhalten der automatischen Videowiedergabe in Ihrem Store mit jedem unterstützten Browser zu testen.
 
 ## API-Zugriff verwalten
 
-Gemäß den Google-[ (Nutzungsbedingungen] kann YouTube den API-Zugriff für Konten deaktivieren, die seit mehr als 90 Tagen inaktiv sind. Dieses Ereignis kann dazu führen, dass Ihre Videos nicht angezeigt werden. Um den API-Zugriff auf dem neuesten Stand zu halten, verwenden Sie einen Cron-Auftrag, um die API in regelmäßigen Abständen anzupingen:
+Gemäß den Google-[ (Nutzungsbedingungen](https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services) kann YouTube den API-Zugriff für Konten deaktivieren, die seit mehr als 90 Tagen inaktiv sind. Dieses Ereignis kann dazu führen, dass Ihre Videos nicht angezeigt werden. Um den API-Zugriff auf dem neuesten Stand zu halten, verwenden Sie einen Cron-Auftrag, um die API in regelmäßigen Abständen anzupingen:
 
 ```code
 30 10 1 * * curl -i -G -e https://yourdomain.com/ -d "part=snippet&maxResults=1&q=test&key=YOUTUBEAPIKEY" https://www.googleapis.com/youtube/v3/search >/dev/null 2>&1
@@ -116,6 +116,3 @@ Gemäß den Google-[ (Nutzungsbedingungen] kann YouTube den API-Zugriff für Kon
 | [!UICONTROL Role] | Legt fest, wie das Vorschaubild in Ihrem Store verwendet wird. Sie können eine beliebige Kombination von Optionen auswählen: `Base Image`, `Small Image`, `Thumbnail`, `Swatch Image`, `Hide from Product Page` |
 
 {style="table-layout:auto"}
-
-[1]: https://console.developers.google.com/
-[Allgemeine Geschäftsbedingungen]: https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services

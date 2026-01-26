@@ -3,9 +3,9 @@ title: United States Postal Service (USPS)
 description: Erfahren Sie, wie Sie USPS als Versanddienstleister für Ihr Geschäft einrichten.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: c9acf475eeadcd249467e4cc89fe61d37230bd7d
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Der United States Postal Service ist ein unabhängiger Postdienst der Regierung 
 
 ## Schritt 1: USPS Versandkonto eröffnen
 
-Öffnen Sie ein [USPS Web Tools][1]-Konto. Nach Abschluss des Registrierungsprozesses erhalten Sie Ihre Benutzer-ID und eine URL zum USPS-Testserver.
+Öffnen Sie ein [USPS Web Tools](https://secure.shippingapis.com/registration/)-Konto. Nach Abschluss des Registrierungsprozesses erhalten Sie Ihre Benutzer-ID und eine URL zum USPS-Testserver.
 
-Sie können auch ein Konto [USPS Web Tools][1] eröffnen. Nach Abschluss des Registrierungsprozesses erhalten Sie Ihre Benutzer-ID und eine URL zum USPS-Testserver. Weitere Informationen zu USPS Web Tools finden Sie in der [technischen Dokumentation][2].
+Sie können auch ein Konto [USPS Web Tools](https://secure.shippingapis.com/registration/) eröffnen. Nach Abschluss des Registrierungsprozesses erhalten Sie Ihre Benutzer-ID und eine URL zum USPS-Testserver. Weitere Informationen zu USPS Web Tools finden Sie in der [technischen Dokumentation](https://www.usps.com/business/web-tools-apis/welcome.htm).
 
 ## Schritt 2: USPS für Ihren Shop aktivieren
 
@@ -142,7 +142,5 @@ Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die
 
 1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
-[1]: https://secure.shippingapis.com/registration/
-[2]: https://www.usps.com/business/web-tools-apis/welcome.htm
 
 <!-- Last updated from includes: 2025-11-26 10:55:00 -->

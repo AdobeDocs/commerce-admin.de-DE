@@ -3,7 +3,7 @@ title: Google AdWords
 description: Erfahren Sie, wie Sie Ihren Commerce Store für das Google AdWords-Konversionstracking konfigurieren, um die Anzeigenklicks zu messen, die zu einem Verkauf oder einer anderen nützlichen Aktion führen.
 exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Google AdWords
 
-[Google AdWords][1] ist ein Service, mit dem Sie Anzeigen in Google-Suchergebnissen und auf den Seiten von Unternehmen im Google Display Network platzieren können. Das AdWords-Dashboard enthält Tools zur Verwaltung Ihrer Kampagnen, zur Nachverfolgung von Antworten und zur Messung von Ergebnissen.
+[Google AdWords](https://www.google.com/adwords/) ist ein Service, mit dem Sie Anzeigen in Google-Suchergebnissen und auf den Seiten von Unternehmen im Google Display Network platzieren können. Das AdWords-Dashboard enthält Tools zur Verwaltung Ihrer Kampagnen, zur Nachverfolgung von Antworten und zur Messung von Ergebnissen.
 
-Das Konversions-Tracking zeigt die Anzahl der Anzeigenklicks an, die zu einem Verkauf oder einer anderen wertvollen Aktion führen. Die _Erfolg_-Seite, die Ihrem Kunden nach der Übermittlung einer Bestellung angezeigt wird, wird verwendet, um Konversionen zu verfolgen, da sie nur nach einem Verkauf angezeigt wird. Nach Abschluss der Google AdWords-Konfiguration für Ihren Store müssen Sie das Konversionsverfolgungs-Skript nicht auf die Erfolgsseite kopieren, da Commerce bereits über die erforderlichen Informationen verfügt. Weitere Informationen finden Sie in der [Google AdWords-Hilfe][2].
+Das Konversions-Tracking zeigt die Anzahl der Anzeigenklicks an, die zu einem Verkauf oder einer anderen wertvollen Aktion führen. Die _Erfolg_-Seite, die Ihrem Kunden nach der Übermittlung einer Bestellung angezeigt wird, wird verwendet, um Konversionen zu verfolgen, da sie nur nach einem Verkauf angezeigt wird. Nach Abschluss der Google AdWords-Konfiguration für Ihren Store müssen Sie das Konversionsverfolgungs-Skript nicht auf die Erfolgsseite kopieren, da Commerce bereits über die erforderlichen Informationen verfügt. Weitere Informationen finden Sie in der [Google AdWords-Hilfe](https://support.google.com/adwords/answer/6095821).
 
 ![Adobe-Anzeige in Google-Suchergebnissen](./assets/google-adwords-adobe-ad.png){width="500"}
 
 ## Schritt 1. Erstellen einer Google AdWords-Kampagne
 
-1. Besuchen Sie [Google AdWords][3] und melden Sie sich für ein Konto an.
+1. Besuchen Sie [Google AdWords](https://ads.google.com/) und melden Sie sich für ein Konto an.
 
 1. Befolgen Sie die Anweisungen zum Erstellen einer Kampagne.
 
@@ -90,7 +90,7 @@ Das Konversions-Tracking zeigt die Anzahl der Anzeigenklicks an, die zu einem Ve
       - `2` - Zeigt eine zweizeilige Benachrichtigung mit einem Link zu weiteren Informationen zum Google-Tracking an.
       - `3` - Zeigt keine Kundenbenachrichtigung an.
 
-   - Geben Sie den [Hexadezimalcode][4]{:target="_blank"} für die **[!UICONTROL Conversion Color]** ein, die Sie für die Google Site Stats Notification Label verwenden möchten.
+   - Geben Sie den [Hexadezimalcode](https://www.w3schools.com/colors/colors_picker.asp){:target="_blank"} für die **[!UICONTROL Conversion Color]** ein, die Sie für die Google Site Stats Notification Label verwenden möchten.
 
    - Geben Sie den verschlüsselten Text für die **[!UICONTROL Conversion Label]** ein, die in der Google Sites-Statusbenachrichtigung angezeigt wird.
 
@@ -125,15 +125,10 @@ Das Konversions-Tracking zeigt die Anzahl der Anzeigenklicks an, die zu einem Ve
    - `Dynamic` - Bestimmt anhand des dynamischen Bestellbetragswerts, ob eine Konversion stattgefunden hat.
    - `Constant` - Bestimmt anhand eines bestimmten eingegebenen Werts, dass eine Konversion stattgefunden hat.
 
-   Geben _für den_ „Konstante“ einen bestimmten **[!UICONTROL Value]** ein, damit die _[!UICONTROL Order Amount]_&#x200B;als Konversion gilt.
+   Geben _für den_ „Konstante“ einen bestimmten **[!UICONTROL Value]** ein, damit die _[!UICONTROL Order Amount]_als Konversion gilt.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
 ## Schritt 4. Konfiguration überprüfen
 
 Innerhalb weniger Stunden ändert sich der Tracking-Status in Ihrem Google AdWords-Dashboard von `Unverified` zu `No recent conversions` oder `Recording conversions`. Wenn jemand auf Ihre Anzeige klickt und einen Kauf tätigt, wird die Konversion auf der Seite „Konversionsaktionen“ im Dashboard und Kampagnenbericht angezeigt.
-
-[1]: https://www.google.com/adwords/
-[2]: https://support.google.com/adwords/answer/6095821
-[3]: https://ads.google.com/
-[4]: https://www.w3schools.com/colors/colors_picker.asp

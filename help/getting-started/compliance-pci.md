@@ -3,7 +3,7 @@ title: Richtlinien zur PCI-Konformität
 description: Lesen Sie diese Informationen über die Anforderungen der Payment Card Industry (PCI) für Unternehmen, die Zahlungen per Kreditkarte über das Internet akzeptieren.
 exl-id: b9fff131-bea3-4d7a-bbf7-e98b284387d3
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Die Zahlungskartenbranche (Payment Card Industry, PCI) hat eine Reihe von Anford
 
 ![checkbox](../assets/checkbox.png) - Verwenden Sie keine vom Hersteller bereitgestellten Standardwerte für Systemkennwörter und andere Sicherheitsparameter.
 
-![Kontrollkästchen](../assets/checkbox.png) - In Protect gespeicherte Karteninhaberdaten.
+![checkbox](../assets/checkbox.png) - Schützt die gespeicherten Daten des Karteninhabers.
 
 ![checkbox](../assets/checkbox.png) - Verschlüsselt die Übertragung von Karteninhaberdaten über offene, öffentliche Netzwerke.
 
@@ -40,13 +40,10 @@ Die Zahlungskartenbranche (Payment Card Industry, PCI) hat eine Reihe von Anford
 
 ![Kontrollkästchen](../assets/checkbox.png) - Beibehalten einer Richtlinie zur Informationssicherheit.
 
-Weitere Informationen finden Sie unter [Adobe-Ansatz für PCI-Compliance][1]{:target="_blank"}.
+Weitere Informationen finden Sie unter [Adobe-Ansatz für PCI-Compliance](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >
 >Diese Inhalte dienen nur zu Informationszwecken und sind nicht als Rechtsberatung zu verstehen. Um festzustellen, ob und wie Ihr Unternehmen rechtliche Verpflichtungen einhalten sollte, wenden Sie sich an Ihren Rechtsbeistand.
 
-Wenn Ihr Unternehmen wächst, müssen Sie möglicherweise jährlich einen Compliance-Bericht einreichen. Die Anforderungen an die PCI-Berichterstattung steigen im Verhältnis zur Händlerebene, gelten aber nicht für Unternehmen, die weniger als 20.000 Kreditkartentransaktionen pro Jahr verarbeiten. Weitere Informationen finden Sie auf der Website [PCI Security Standards Council][2].
-
-[1]: https://business.adobe.com/de/products/magento/pci-compliance.html
-[2]: https://www.pcisecuritystandards.org/index.php
+Wenn Ihr Unternehmen wächst, müssen Sie möglicherweise jährlich einen Compliance-Bericht einreichen. Die Anforderungen an die PCI-Berichterstattung steigen im Verhältnis zur Händlerebene, gelten aber nicht für Unternehmen, die weniger als 20.000 Kreditkartentransaktionen pro Jahr verarbeiten. Weitere Informationen finden Sie auf der Website [PCI Security Standards Council](https://www.pcisecuritystandards.org/index.php).

@@ -3,7 +3,7 @@ title: Steuern
 description: Erfahren Sie, wie Sie Ihren Store so konfigurieren, dass die Steuern entsprechend den Anforderungen Ihres Gebietsschemas berechnet werden.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 0%
@@ -16,9 +16,9 @@ Konfigurieren Sie Ihren Store, um die Steuern entsprechend den Anforderungen Ihr
 
 >[!NOTE]
 >
->Die Adobe Commerce- und Magento Open Source-Versionen 2.4.0 bis 2.4.3 enthielten die vom Vertex-Anbieter entwickelte Erweiterung, die für die Integration mit Vertex Cloud verwendet wurde, um Steuerverwaltung und Adressbereinigung bereitzustellen. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Paket mit der Hauptversion enthalten und muss von der Commerce Marketplace oder direkt vom Anbieter installiert und aktualisiert werden. [Kontaktieren Sie Vertex](https://marketplace.magento.com/partner/vertex_inc), um Informationen zur Erweiterung und Dokumentation zu erhalten.<br><br>
+>Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source enthielten die vom Vertex-Anbieter entwickelte Erweiterung , die für die Integration mit Vertex Cloud verwendet wird, um Steuerverwaltung und Adressbereinigung bereitzustellen. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Bundle der Hauptversion enthalten und muss von Commerce Marketplace oder direkt vom Anbieter installiert und aktualisiert werden. [Kontaktieren Sie Vertex](https://marketplace.magento.com/partner/vertex_inc), um Informationen zur Erweiterung und Dokumentation zu erhalten.<br><br>
 >
->Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=de) im _Upgrade-Handbuch_.
+>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Upgrade-Handbuch_.
 
 ## Kurzübersicht
 
@@ -89,7 +89,7 @@ Händler, die auf Steuern geprüft werden, die für digitale Waren gezahlt werde
 - Die Lieferadresse des Kunden und ein Nachweis über einen erfolgreichen Zahlungsvorgang können zur Ermittlung des Wohnorts des Kunden verwendet werden. (Die Zahlung wird nur akzeptiert, wenn die Lieferadresse mit den Angaben des Zahlungsanbieters übereinstimmt.)
 - Die Informationen können auch direkt aus dem Datenspeicher in den Commerce-Datenbanktabellen erfasst werden.
 
-_&#x200B;**So erfassen Sie Steuerinformationen für digitale Waren:**&#x200B;_
+_**So erfassen Sie Steuerinformationen für digitale Waren:**_
 
 1. Laden Sie die Steuersätze für alle EU-Mitgliedsländer.
 
@@ -107,8 +107,5 @@ _&#x200B;**So erfassen Sie Steuerinformationen für digitale Waren:**&#x200B;_
 
 Zusätzliche Ressourcen:
 
-- [Europäische Kommission - Steuern und Zollunion][1]
-- [EU 1015 Lieferortänderungen][2]
-
-[1]: https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm
-[2]: https://www2.deloitte.com/global/en/services/tax.html
+- [Europäische Kommission - Steuern und Zollunion](https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)
+- [EU 1015 Lieferortänderungen](https://www2.deloitte.com/global/en/services/tax.html)

@@ -3,8 +3,8 @@ title: PayPal-Zahlungslösungen
 description: Erfahren Sie mehr über die Integrationen der PayPal-Zahlungslösung, die für Ihren Shop verfügbar sind.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: cd5b5ebec6e72ab4ba9de775bcfe8f8a89fbbb93
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -18,11 +18,11 @@ PayPal ist ein weltweit führender Anbieter von Online-Zahlungen und bietet Ihre
 >[!IMPORTANT]
 >
 >**PSD2-Anforderungen:** <br/>
->Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2&rbrace;-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Bei den meisten PayPal-Lösungen ist keine Maßnahme erforderlich, um PSD2 einzuhalten, da diese Anforderungen von PayPal erfüllt werden.
+>Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2}-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Bei den meisten PayPal-Lösungen ist keine Maßnahme erforderlich, um PSD2 einzuhalten, da diese Anforderungen von PayPal erfüllt werden.
 
 ## PayPal-Geschäftskonto
 
-Um PayPal als Zahlungsmethode in Ihrem Geschäft anzubieten, müssen Sie über ein PayPal [Geschäftskonto][1] und/oder ein [PayPal Payflow-Konto][2] verfügen. Die Kontoanforderungen sind in der Beschreibung jeder PayPal-Lösung angegeben. Ihr PayPal-Händlerkonto wird auch zur Verwaltung von [Betrugsfiltern](#paypal-fraud-management-filters) verwendet, die auf Käufe aus Ihrem Geschäft angewendet werden.
+Um PayPal als Zahlungsmethode in Ihrem Geschäft anzubieten, müssen Sie über ein PayPal [Geschäftskonto](https://manager.paypal.com/) und/oder ein [PayPal Payflow-Konto](https://developer.paypal.com/docs/payflow/payflow-gateway/) verfügen. Die Kontoanforderungen sind in der Beschreibung jeder PayPal-Lösung angegeben. Ihr PayPal-Händlerkonto wird auch zur Verwaltung von [Betrugsfiltern](#paypal-fraud-management-filters) verwendet, die auf Käufe aus Ihrem Geschäft angewendet werden.
 
 Kunden, die PayPal Express Checkout oder Express Checkout für Payflow Pro verwenden, müssen über ein PayPal-Kaufkonto verfügen. PayPal Payments Standard (Website Payments Standard in einigen Ländern) kann direkt oder über ein Käuferkonto verwendet werden, wenn der Händler _PayPal-Konto optional_ aktiviert. Standardmäßig ist dieser Parameter aktiviert, sodass Kunden ihre Kreditkarteninformationen eingeben oder ein Kundenkonto bei PayPal erstellen können. Wenn diese Option deaktiviert ist, müssen Kunden vor einem Kauf zunächst ein PayPal-Kaufkonto erstellen.
 
@@ -30,7 +30,7 @@ Website Payments Pro, Website Payments Pro Payflow Edition, Payflow Pro Gateway 
 
 ## PayPal-Guthaben und PayLater
 
-PayPal PayLater bietet Ihren Kunden schnellen Zugang zu Finanzierungen, sodass sie jetzt kaufen und im Laufe der Zeit bezahlen können, ohne zusätzliche Kosten für Sie. Sie werden nicht belastet, wenn Kunden PayPal-Kreditoptionen wählen, und Sie zahlen nur Ihre normale PayPal-Transaktionsgebühr. Weitere Informationen finden Sie auf der [PayPal-Website][3].
+PayPal PayLater bietet Ihren Kunden schnellen Zugang zu Finanzierungen, sodass sie jetzt kaufen und im Laufe der Zeit bezahlen können, ohne zusätzliche Kosten für Sie. Sie werden nicht belastet, wenn Kunden PayPal-Kreditoptionen wählen, und Sie zahlen nur Ihre normale PayPal-Transaktionsgebühr. Weitere Informationen finden Sie auf der [PayPal-Website](https://www.paypal.com/us/business/buy-now-pay-later).
 
 Schaffen Sie Ihren Verkäufen einen Schub, wenn Sie mit Finanzierungen werben. Mit PayPal können Browser durch die Finanzierung mit PayPal Later zu Käufern werden. Ihre Kunden können im Laufe der Zeit bezahlen, während Sie im Voraus bezahlt werden - ohne zusätzliche Kosten für Sie. Verwenden Sie kostenlose PayPal-Bannerwerbung, um die PayPal-Finanzierung als Zahlungsoption anzuzeigen, wenn Ihre Kunden mit PayPal auschecken. Es hat sich gezeigt, dass das PayPal Advertising-Programm zusätzliche Käufe generiert und die durchschnittliche Kaufgröße um 15 % oder mehr erhöht.
 
@@ -98,12 +98,12 @@ PayPal bietet zwei Payment Gateway-Lösungen für Ihr Unternehmen. Sie können P
 
 ## PayPal-Betrugsmanagementfilter
 
-PayPal-Filter zur Betrugsverwaltung erleichtern die Erkennung und Reaktion auf betrügerische Transaktionen und können so konfiguriert werden, dass riskantere Zahlungen markiert, zur Überprüfung gespeichert oder verweigert werden. Die mit Commerce [Bestellstatus) &#x200B;](order-status.md) Werte wurden entsprechend den Einstellungen für den Betrugsfilter geändert:
+PayPal-Filter zur Betrugsverwaltung erleichtern die Erkennung und Reaktion auf betrügerische Transaktionen und können so konfiguriert werden, dass riskantere Zahlungen markiert, zur Überprüfung gespeichert oder verweigert werden. Die mit Commerce [Bestellstatus) ](order-status.md) Werte wurden entsprechend den Einstellungen für den Betrugsfilter geändert:
 
 | Aktion | Ergebnis |
 | --- | --- |
 | [!UICONTROL Review] | Die verdächtige Bestellung erhält den Status _Zahlungsüberprüfung_ wenn die Bestellung aufgegeben wird. Sie können die Bestellung überprüfen und die Zahlung im Admin oder auf der PayPal-Seite genehmigen oder stornieren. Wenn Sie auf **[!UICONTROL Accept Payment]** oder **[!UICONTROL Deny Payment]** klicken, werden keine neuen Transaktionen für die Bestellung erstellt. <br/><br/>Wenn Sie den Status der Transaktion auf der PayPal-Website ändern, müssen Sie auf der Seite Bestellung des Administrators auf **[!UICONTROL Get Payment Update]** klicken, um die Änderungen anzuwenden. Wenn Sie auf **[!UICONTROL Accept Payment]** oder **[!UICONTROL Deny Payment]** klicken, werden die auf der PayPal-Website vorgenommenen Änderungen übernommen. |
-| [!UICONTROL Deny] | Der Verdachtsauftrag kann vom Kunden nicht erteilt werden, da die entsprechende Transaktion von PayPal abgelehnt wird. <br/><br/>Um die Zahlung vom Administrator abzulehnen, klicken Sie oben rechts auf der Seite auf **[!UICONTROL Deny Payment]** . Der Bestellstatus ändert sich in `Canceled`, die Transaktion wird rückgängig gemacht und das Guthaben wird auf dem Kundenkonto freigegeben. Die entsprechenden Informationen werden im _[!UICONTROL Comments History]_&#x200B;Abschnitt der Bestellansicht hinzugefügt. |
+| [!UICONTROL Deny] | Der Verdachtsauftrag kann vom Kunden nicht erteilt werden, da die entsprechende Transaktion von PayPal abgelehnt wird. <br/><br/>Um die Zahlung vom Administrator abzulehnen, klicken Sie oben rechts auf der Seite auf **[!UICONTROL Deny Payment]** . Der Bestellstatus ändert sich in `Canceled`, die Transaktion wird rückgängig gemacht und das Guthaben wird auf dem Kundenkonto freigegeben. Die entsprechenden Informationen werden im _[!UICONTROL Comments History]_Abschnitt der Bestellansicht hinzugefügt. |
 | [!UICONTROL Flag] | Der Status der verdächtigen Bestellung wird bei ihrer Platzierung `Processing`. Die entsprechende Transaktion ist in der Liste der Händlerkontobuchungen mit einer Markierung gekennzeichnet. |
 
 {style="table-layout:auto"}
@@ -185,8 +185,3 @@ PayPal Express Checkout und PayPal Website Payments Standard sind in den folgend
 - Uruguay
 - Venezuela
 - Vietnam
-
-
-[1]: https://manager.paypal.com/
-[2]: https://developer.paypal.com/docs/payflow/payflow-gateway/
-[3]: https://www.paypal.com/us/business/buy-now-pay-later

@@ -3,7 +3,7 @@ title: Mehrwertsteuer (MwSt.)
 description: Beschreibung hinzufügen&gt;
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1990'
 ht-degree: 0%
@@ -180,7 +180,7 @@ Commerce verwendet die folgenden [Kundenkonfigurationseinstellungen](../customer
 
 ## Validierung der MwSt.-Kennung
 
-_VAT ID Validation_ berechnet automatisch die erforderliche Steuer für B2B-Transaktionen, die innerhalb der Europäischen Union (EU) stattfinden, basierend auf dem Gebietsschema des Händlers und Kunden. Commerce führt die Validierung der MwSt.-Nummer mithilfe der Webservices des Servers [Europäische Kommission][1] durch.
+_VAT ID Validation_ berechnet automatisch die erforderliche Steuer für B2B-Transaktionen, die innerhalb der Europäischen Union (EU) stattfinden, basierend auf dem Gebietsschema des Händlers und Kunden. Commerce führt die Validierung der MwSt.-Nummer mithilfe der Webservices des Servers [Europäische Kommission](https://ec.europa.eu/taxation_customs/vies/) durch.
 
 >[!NOTE]
 >
@@ -201,7 +201,7 @@ Wenn die Validierung der MwSt.-ID aktiviert ist, wird jedem Kunden nach der Regi
 
 Nachdem ein Kunde die MwSt.-Nummer und andere Adressfelder angegeben und die Speicherung ausgewählt hat, speichert das System die Adresse und sendet die MwSt.-ID-Validierungsanfrage an den Server der Europäischen Kommission. Gemäß den Ergebnissen der Validierung wird einem Kunden eine der Standardgruppen zugewiesen. Diese Gruppe kann geändert werden, wenn ein Kunde oder Administrator die MwSt.-Kennung der Standardadresse ändert oder die gesamte Standardadresse ändert. Manchmal kann die Gruppe beim einseitigen Auschecken vorübergehend geändert (Gruppenänderung wird emuliert) werden.
 
-Wenn diese Option aktiviert ist, können Sie die Validierung der MwSt.-ID für einzelne Kunden überschreiben, indem Sie das Kontrollkästchen auf der Seite _[!UICONTROL Customer Information]_&#x200B;aktivieren.
+Wenn diese Option aktiviert ist, können Sie die Validierung der MwSt.-ID für einzelne Kunden überschreiben, indem Sie das Kontrollkästchen auf der Seite _[!UICONTROL Customer Information]_aktivieren.
 
 ### Checkout-Workflow
 
@@ -275,7 +275,7 @@ Jede Steuerregel wird von drei Entitäten definiert:
 Erstellen Sie die [Steuerregeln](tax-rules.md), um die MwSt.-ID-Validierung effektiv zu verwenden.
 
 - Zu den Steuervorschriften gehören Steuersätze und [Steuerklassen](tax-class.md).
-- Steuerklassen werden „Kundengruppen[&#x200B; zugeordnet](../customers/customer-groups.md).
+- Steuerklassen werden „Kundengruppen[ zugeordnet](../customers/customer-groups.md).
 
 #### Schritt 3: Validierung der MwSt.-ID aktivieren und konfigurieren
 
@@ -326,6 +326,3 @@ Erstellen Sie die [Steuerregeln](tax-rules.md), um die MwSt.-ID-Validierung effe
    Um die Standardeinstellung zu ändern, deaktivieren **das Kontrollkästchen „Systemwerte**. Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jedes Land, das Sie hinzufügen oder entfernen möchten.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
-
-
-[1]: https://ec.europa.eu/taxation_customs/vies/

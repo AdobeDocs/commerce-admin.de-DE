@@ -2,8 +2,8 @@
 title: Inhaltsbausteine hinzufügen
 description: Erstellen Sie benutzerdefinierte Inhaltsblöcke, die Sie auf einer beliebigen Seite oder in einem anderen Block wiederverwenden können.
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Benutzerdefinierte Inhaltsblöcke können erstellt und dann zu jeder Seite, Grup
 
 1. Fügen Sie den Inhalt für den Block mit dem angezeigten Content-Tool-Set hinzu:
 
-   - Wenn [Page Builder](../page-builder/introduction.md) aktiviert ist, wählen Sie **[!UICONTROL Edit with Page Builder]** aus, um die Page Builder-Tools im Inhalt ([) &#x200B;](../page-builder/workspace.md).
+   - Wenn [Page Builder](../page-builder/introduction.md) aktiviert ist, wählen Sie **[!UICONTROL Edit with Page Builder]** aus, um die Page Builder-Tools im Inhalt ([) ](../page-builder/workspace.md).
 
      ![Page Builder-Arbeitsbereich](./assets/pb-workspace-block.png){width="500" zoomable="yes"}
 
@@ -87,12 +87,10 @@ Es gibt zwei Möglichkeiten, einen benutzerdefinierten Block zu entfernen. Sie k
 
 ## Hinzufügen einer Lightbox oder eines Schiebereglers
 
-- Es ist einfach, mit [[!DNL Page Builder]](../page-builder/introduction.md) einen [Schieberegler](../page-builder/slider.md) zu Ihrem Geschäft hinzuzufügen. Der Schieberegler kann auf automatische Wiedergabe eingestellt oder manuell mit Navigationstasten gesteuert werden.
+- Es ist einfach, mit [ einen ](../page-builder/slider.md)Schieberegler[[!DNL Page Builder]](../page-builder/introduction.md) zu Ihrem Geschäft hinzuzufügen. Der Schieberegler kann auf automatische Wiedergabe eingestellt oder manuell mit Navigationstasten gesteuert werden.
 
   ![Page Builder-Regler](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
 
-  Es gibt auch eine große Auswahl an jQuery-basierten Bild-Lightboxes auf [[!DNL Commerce Marketplace]][1], und einige sind kostenlos.
+  Es gibt auch eine große Auswahl an jQuery-basierten Bild-Lightboxes auf [[!DNL Commerce Marketplace]](https://marketplace.magento.com/extensions.html?q=lightbox), und einige sind kostenlos.
 
 - Sie können auch eine Erweiterung von [!DNL Commerce Marketplace] herunterladen. Weitere Hilfe finden Sie in der vom Entwickler der Erweiterung bereitgestellten Dokumentation.
-
-[1]: https://marketplace.magento.com/extensions.html?q=lightbox

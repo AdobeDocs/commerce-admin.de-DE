@@ -3,16 +3,16 @@ title: Rechnungen
 description: Erfahren Sie, wie Sie Rechnungen erstellen und drucken, um die Auftragsverarbeitung und den Kundendienst zu unterstützen.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
 
 # Rechnungen
 
-Eine Rechnung ist ein Datensatz über die Zahlung für eine Bestellung. Für [&#x200B; Bestellung können mehrere Rechnungen erstellt &#x200B;](#create-an-invoice). Jede Rechnung kann so viele oder so wenige der von Ihnen angegebenen gekauften Produkte enthalten. Sie können auch [druckfertige PDF-Rechnungen](#print-invoices) als Verkaufsdokumente für Ihre Kunden erstellen.
+Eine Rechnung ist ein Datensatz über die Zahlung für eine Bestellung. Für [ Bestellung können mehrere Rechnungen erstellt ](#create-an-invoice). Jede Rechnung kann so viele oder so wenige der von Ihnen angegebenen gekauften Produkte enthalten. Sie können auch [druckfertige PDF-Rechnungen](#print-invoices) als Verkaufsdokumente für Ihre Kunden erstellen.
 
 Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _Vorgänge_ > **Rechnungen**, um das Raster _Rechnungen_ zu öffnen und auf Ihre erstellten Rechnungen zuzugreifen.
 
@@ -57,7 +57,7 @@ Wenn der Status neuer Bestellungen auf `Processing` gesetzt ist, wird die Option
 >
 >Rechnungen werden für Bestellungen, die über `Gift Card`, `Store Credit`, `Reward Points` oder andere Offline-Zahlungsmethoden aufgegeben werden, nicht automatisch erstellt.
 
-Bevor die Bestellung gedruckt werden kann, muss eine Rechnung für die Bestellung generiert werden. Um die PDF anzuzeigen oder zu drucken, laden Sie zunächst ein PDF-Lesegerät wie [Adobe Acrobat Reader herunter und installieren Sie ][1].
+Bevor die Bestellung gedruckt werden kann, muss eine Rechnung für die Bestellung generiert werden. Um die PDF anzuzeigen oder zu drucken, laden Sie zunächst einen PDF-Reader wie [Adobe Acrobat Reader herunter und installieren Sie ihn](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader abrufen").
 
 **_So fakturieren Sie eine Bestellung:_**
 
@@ -71,7 +71,7 @@ Bevor die Bestellung gedruckt werden kann, muss eine Rechnung für die Bestellun
 
    >[!NOTE]
    >
-   >Die Option _[!UICONTROL Invoice]_&#x200B;wird nicht angezeigt, wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) für Ihre bestimmte [Zahlungsmethode](../configuration-reference/sales/payment-methods.md) auf `Authorize and Capture` festgelegt ist, wodurch automatisch eine Rechnung generiert wird. Dies ist auch der Fall, wenn die Bestellung aufgegeben und die Zahlungsaktion für Ihre Zahlungsmethode auf `Authorize` gesetzt und die Bestellung fakturiert wird.
+   >Die Option _[!UICONTROL Invoice]_wird nicht angezeigt, wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) für Ihre bestimmte [Zahlungsmethode](../configuration-reference/sales/payment-methods.md) auf `Authorize and Capture` festgelegt ist, wodurch automatisch eine Rechnung generiert wird. Dies ist auch der Fall, wenn die Bestellung aufgegeben und die Zahlungsaktion für Ihre Zahlungsmethode auf `Authorize` gesetzt und die Bestellung fakturiert wird.
 
    ![Rechnung - Kundenauftrag](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -121,32 +121,30 @@ Bevor die Bestellung gedruckt werden kann, muss eine Rechnung für die Bestellun
 
 ## Rechnungen drucken
 
-Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor jedoch eine Rechnung gedruckt werden kann, muss sie zunächst für die Bestellung generiert werden. Sie können ein Logo in hoher Auflösung für eine druckfertige PDF-Rechnung hochladen und die [Auftrags-ID](../stores-purchase/sales-documents.md#add-reference-ids) in die Kopfzeile einfügen. Informationen zum Anpassen der Rechnungsvorlage mit Ihrem Logo und Ihrer Adresse finden Sie unter [Anforderungen an das PDF-Logo](../stores-purchase/sales-documents.md#image-formats).
+Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor jedoch eine Rechnung gedruckt werden kann, muss sie zunächst für die Bestellung generiert werden. Sie können ein Logo mit hoher Auflösung für eine druckfertige PDF-Rechnung hochladen und die [Auftrags-ID](../stores-purchase/sales-documents.md#add-reference-ids) in die Kopfzeile einfügen. Informationen zum Anpassen der Rechnungsvorlage mit Ihrem Logo und Ihrer Adresse finden Sie unter [PDF-Logo-Anforderungen](../stores-purchase/sales-documents.md#image-formats).
 
 >[!NOTE]
 >
->Zum Anzeigen oder Drucken der PDF benötigen Sie ein PDF-Lesegerät. Sie können [Adobe Reader][1] kostenlos herunterladen.
+>Zum Anzeigen oder Drucken der PDF benötigen Sie ein PDF-Lesegerät. Sie können [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader abrufen") kostenlos herunterladen.
 
 ### Eine einzelne Rechnung drucken
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Suchen Sie im _[!UICONTROL Invoices]_&#x200B;die Rechnung und klicken Sie in der Spalte_ Aktion _auf **[!UICONTROL View]**.
+1. Suchen Sie im _[!UICONTROL Invoices]_die Rechnung und klicken Sie in der Spalte **[!UICONTROL View]**Aktion_ auf _.
 
-1. Klicken Sie oben auf der Rechnung auf **[!UICONTROL Print]** , um eine PDF der Rechnung zu erstellen.
+1. Klicken Sie oben auf der Rechnung auf **[!UICONTROL Print]** , um eine PDF der Rechnung zu generieren.
 
-1. Speichern Sie die generierte PDF in einer Datei oder drucken Sie sie.
+1. Speichern oder drucken Sie die generierte PDF in einer Datei.
 
 ### Mehrere Rechnungen drucken
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Aktivieren Sie im _[!UICONTROL Invoices]_&#x200B;das Kontrollkästchen für jede zu druckende Rechnung.
+1. Aktivieren Sie im _[!UICONTROL Invoices]_das Kontrollkästchen für jede zu druckende Rechnung.
 
 1. Setzen Sie das **[!UICONTROL Actions]** auf `PDF Invoices`.
 
    ![Mehrere Rechnungen drucken](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 Die Rechnungen werden in einer einzigen PDF-Datei gespeichert, die an einen Drucker gesendet oder gespeichert werden kann.
-
-[1]: https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader abrufen"

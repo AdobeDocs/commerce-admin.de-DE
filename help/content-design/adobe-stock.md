@@ -3,17 +3,17 @@ title: Adobe Stock-Integration
 description: Integrieren Sie Adobe Stock in Ihre  [!DNL Commerce] , um auf unzählige Medien-Assets zur Verwendung in Ihrem Store zuzugreifen.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
 # Adobe Stock-Integration
 
-Um Zugriff auf unzählige Medien-Assets für die Verwendung in Ihrem Store zu erhalten, integrieren Sie [Adobe Stock][adobe-stock] mit [!UICONTROL Commerce].
+Um Zugriff auf unzählige Medien-Assets für die Verwendung in Ihrem Store zu erhalten, integrieren Sie [Adobe Stock](https://stock.adobe.com) mit [!UICONTROL Commerce].
 
 ![Adobe Stock-Suchergebnisse](./assets/adobe-stock-search-grid.png){width="700" zoomable="yes"}
 
@@ -23,13 +23,13 @@ Der Adobe Stock-Service bietet Unternehmen Zugriff auf Millionen von hochwertige
 
 Diese Integration erfordert:
 
-- Ein [Adobe Developer][dev-console]-Konto
+- Ein [Adobe Developer](https://developer.adobe.com/console/home)-Konto
 - Adobe Commerce oder Magento Open Source, 2.3.4 oder höher
 
 Die Lizenzierung von Adobe Stock-Bildern erfordert Folgendes:
 
-- Ein [Adobe-Konto][adobe-signin]
-- Ein gebührenpflichtiger [Adobe Stock][adobe-stock]-Plan, der mit dem Konto verknüpft ist
+- Ein [Adobe-Konto](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- Ein gebührenpflichtiger [Adobe Stock](https://stock.adobe.com)-Plan, der mit dem Konto verknüpft ist
 
 ## Integrieren von [!DNL Commerce] und Adobe Stock
 
@@ -40,11 +40,11 @@ Die Konfiguration der Adobe Stock-Integration für Adobe Commerce erfolgt in zwe
 
 ### Erstellen einer Adobe Developer-Integration
 
-1. Navigieren Sie zur [Adobe Developer Console][dev-console].
+1. Navigieren Sie zur [Adobe Developer Console](https://developer.adobe.com/console/home).
 
-1. Klicken Sie unter _[!UICONTROL Quick Start]_&#x200B;auf **[!UICONTROL Create new project]**.
+1. Klicken Sie unter _[!UICONTROL Quick Start]_auf **[!UICONTROL Create new project]**.
 
-1. Klicken Sie im _[!UICONTROL Project overview]_&#x200B;auf **[!UICONTROL Add API]**.
+1. Klicken Sie im _[!UICONTROL Project overview]_auf **[!UICONTROL Add API]**.
 
 1. Wählen Sie **[!UICONTROL Adobe Stock]** aus der Liste Integrationen aus und klicken Sie auf **[!UICONTROL Next]**.
 
@@ -74,7 +74,7 @@ Die Konfiguration der Adobe Stock-Integration für Adobe Commerce erfolgt in zwe
 
 ### Konfigurieren der Adobe Stock-Integration
 
-Verwenden Sie zum Festlegen der Systemkonfiguration in Ihrem [!DNL Commerce]-Admin den _API-Schlüssel_ und _Client-_), die im [vorherigen Abschnitt][create-integration].
+Verwenden Sie zum Festlegen der Systemkonfiguration in Ihrem [!DNL Commerce]-Admin den _API-Schlüssel_ und _Client-_), die im [vorherigen Abschnitt](#create-an-adobeio-integration).
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -95,8 +95,3 @@ Verwenden Sie zum Festlegen der Systemkonfiguration in Ihrem [!DNL Commerce]-Adm
    Geben Sie der Validierung einige Sekunden Zeit. Wenn Ihre Anmeldeinformationen gültig sind, sollte eine grüne angezeigt werden _Verbindung erfolgreich!Nachricht_.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
-
-[adobe-stock]: https://stock.adobe.com
-[adobe-signin]: https://helpx.adobe.com/de/manage-account/using/access-adobe-id-account.html
-[dev-console]: https://developer.adobe.com/console/home
-[create-integration]: #create-an-adobeio-integration

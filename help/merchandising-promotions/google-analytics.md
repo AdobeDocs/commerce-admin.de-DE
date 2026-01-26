@@ -3,9 +3,9 @@ title: '[!DNL Google Analytics]'
 description: Erfahren Sie, wie Sie  [!DNL Google Analytics]  verwenden können, um nützliche Metriken für Ihre Commerce-Sites zu sammeln.
 exl-id: d4df2ef2-d67f-46bf-8569-cbee9dde77e4
 feature: Marketing Tools, Integration
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 Wenn Sie noch kein [!DNL Google Analytics] 4-Setup für Ihre Site haben, führen Sie eine der folgenden Methoden aus:
 
 - [Einrichten der Analytics-Datenerfassung zum ersten Mal](https://support.google.com/analytics/answer/9304153)
-- [Fügen Sie Google Analytics 4 zu einer Site hinzu mit [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
+- [Hinzufügen von Google Analytics 4 zu einer Site mit [!DNL Universal Analytics]](https://support.google.com/analytics/answer/9744165)
 
 ### Schritt 2: Commerce-Konfiguration abschließen
 
@@ -49,7 +49,7 @@ Wenn Sie noch kein [!DNL Google Analytics] 4-Setup für Ihre Site haben, führen
 
    - Belassen Sie die **[!UICONTROL Account type]** als `Google Analytics4`.
 
-   - Geben Sie Ihre **[!UICONTROL Measurement ID]** ein. Weitere Informationen finden Sie in der Hilfe zu [Google Analytics](https://support.google.com/analytics/answer/9539598).
+   - Geben Sie Ihre **[!UICONTROL Measurement ID]** ein. Weitere Informationen finden Sie in der [Google Analytics-Hilfe](https://support.google.com/analytics/answer/9539598).
 
    - Wenn Sie A/B-Tests und andere Leistungstests für Ihre Inhalte durchführen möchten, setzen Sie **Inhaltsexperimente** auf `Yes`.
 
@@ -61,11 +61,11 @@ Wenn Sie noch kein [!DNL Google Analytics] 4-Setup für Ihre Site haben, führen
 
 >[!IMPORTANT]
 >
->Am 1. Juli 2023 werden die Daten in den standardmäßigen Universal Analytics-Eigenschaften nicht mehr verarbeitet. Wenn Sie sich immer noch auf [!DNL Universal Analytics] verlassen, wird empfohlen, dass Sie [sich auf die Verwendung von Google Analytics 4 vorbereiten](https://support.google.com/analytics/answer/10759417) in Zukunft.
+>Am 1. Juli 2023 werden die Daten in den standardmäßigen Universal Analytics-Eigenschaften nicht mehr verarbeitet. Wenn Sie sich weiterhin auf [!DNL Universal Analytics] verlassen, wird empfohlen, dass Sie [Google Analytics 4 verwenden](https://support.google.com/analytics/answer/10759417) in Zukunft.
 
 ### Schritt 1: Einrichten von Google Universal Analytics
 
-Besuchen Sie die Google-Website und melden Sie sich für ein [Google Universal Analytics][1]-Konto an.
+Besuchen Sie die Google-Website und melden Sie sich für ein [Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en)-Konto an.
 
 ### Schritt 2: Commerce-Konfiguration abschließen
 
@@ -83,13 +83,13 @@ Besuchen Sie die Google-Website und melden Sie sich für ein [Google Universal A
 
    - Wenn Sie A/B-Tests und andere Leistungstests für Ihre Inhalte durchführen möchten, setzen Sie **[!UICONTROL Content Experiments]** auf `Yes`.
 
-   ![Verkaufskonfiguration - Google-API - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-ee.png){width="600" zoomable="yes"}
+   ![Verkaufskonfiguration - Google API - Google Analytics](../configuration-reference/sales/assets/google-api-analytics-ee.png){width="600" zoomable="yes"}
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
 ## Verbesserter E-Commerce
 
-Enhanced E-Commerce ist ein Plug-in für [!DNL Google Universal Analytics], das Ihnen Einblicke in das Einkaufs- und Kaufverhalten Ihrer Kunden gibt. Sie können Enhanced E-Commerce verwenden, um Berichte über wichtige Kundenaktivitäten zu erstellen, z. B. wenn Kundinnen und Kunden Artikel zum Warenkorb hinzufügen, den Checkout-Prozess starten oder einen Kauf abschließen. Sie können auch Muster von Käufern identifizieren und analysieren, die ihren Warenkorb verlassen, ohne einen Kauf zu tätigen.
+Enhanced E-Commerce ist ein Plug-in für [!DNL Google Universal Analytics], mit dem Sie insight zum Einkaufs- und Kaufverhalten Ihrer Kunden hinzufügen können. Sie können Enhanced E-Commerce verwenden, um Berichte über wichtige Kundenaktivitäten zu erstellen, z. B. wenn Kundinnen und Kunden Artikel zum Warenkorb hinzufügen, den Checkout-Prozess starten oder einen Kauf abschließen. Sie können auch Muster von Käufern identifizieren und analysieren, die ihren Warenkorb verlassen, ohne einen Kauf zu tätigen.
 
 Die folgenden Anweisungen zeigen, wie Sie [!DNL Google Tag Manager] mit [!DNL Universal Analytics] konfigurieren, um erweiterte E-Commerce-Daten und -Berichte zu erstellen.
 
@@ -97,7 +97,7 @@ Die folgenden Anweisungen zeigen, wie Sie [!DNL Google Tag Manager] mit [!DNL Un
 
 1. Melden Sie sich für ein [Google Tag Manager](google-tag-manager.md)-Konto an und schließen Sie die Commerce-Konfiguration ab.
 
-1. Registrieren Sie sich für ein neues [Google Universal Analytics][1]-Konto.
+1. Registrieren Sie sich für ein neues [Google Universal Analytics](https://support.google.com/analytics/answer/2817075?hl=en)-Konto.
 
 ### Schritt 2. Konfigurieren von Enhanced E-Commerce
 
@@ -213,6 +213,3 @@ Die folgenden Anweisungen zeigen, wie Sie [!DNL Google Tag Manager] mit [!DNL Un
 1. Wenn Sie fertig sind, klicken Sie auf **[!UICONTROL Preview]** und überprüfen Sie, ob die Tags ordnungsgemäß funktionieren.
 
 1. Klicken Sie nach Überprüfung der Einstellungen auf **[!UICONTROL Publish]**.
-
-
-[1]: https://support.google.com/analytics/answer/2817075?hl=en

@@ -3,7 +3,7 @@ title: Hinzufügen einer Inventarquelle
 description: Erfahren Sie, wie Sie eine Quelle für einen Standort erstellen, z. B. ein Lager, ein stationäres Geschäft, ein Verteilungszentrum oder einen Absender.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Wenn Sie die standardmäßige Source bearbeiten, können Sie alle Konfiguratione
 
    - Für **[!UICONTROL Latitude]** und **[!UICONTROL Longitude]** geben Sie die GPS-Koordinaten (Global Positioning System) des Standorts der Einrichtung ein.
 
-     Um die GPS-Koordinaten mit [Google Maps][1] zu finden, geben Sie die Adresse in das Suchfeld ein. Klicken Sie mit der rechten Maustaste auf die Markierung auf der Karte und wählen Sie **[!UICONTROL What's here?]**. Die GPS-Koordinaten werden im Detailfeld unter der Straßenadresse angezeigt.
+     Um die GPS-Koordinaten mit [Google Maps](https://www.google.com/maps) zu finden, geben Sie die Adresse in das Suchfeld ein. Klicken Sie mit der rechten Maustaste auf die Markierung auf der Karte und wählen Sie **[!UICONTROL What's here?]**. Die GPS-Koordinaten werden im Detailfeld unter der Straßenadresse angezeigt.
 
      ![Allgemeine Quelloptionen](assets/inventory-source-general.png)
 
@@ -123,5 +123,3 @@ Wenn Sie die standardmäßige Source bearbeiten, können Sie alle Konfiguratione
 | **[!UICONTROL Pickup Location]** | |
 | [!UICONTROL Frontend Name] | Der Name des Abholorts für die Quelle, der auf der Storefront angezeigt wird. |
 | [!UICONTROL Frontend Description] | Die Beschreibung des Abholspeicherorts für die Quelle, die auf der Storefront angezeigt wird. Es kann angehängte Bilder enthalten. |
-
-[1]: https://www.google.com/maps

@@ -3,7 +3,7 @@ title: Versandtabelle
 description: Erfahren Sie, wie Sie eine Versandoption mit tabellarischer Rate für Ihren Store einrichten.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: 0f368e87275a85e3801e6770b8985184e2071384
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Der erste Schritt besteht darin, die Standardeinstellungen für die Tarife abzus
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im _[!UICONTROL Sales]_&#x200B;Bereich des linken Bedienfelds **[!UICONTROL Delivery Methods]**&#x200B;aus.
+1. Wählen Sie im _[!UICONTROL Sales]_Bereich des linken Bedienfelds **[!UICONTROL Delivery Methods]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Table Rates]** .
 
@@ -84,7 +84,7 @@ Der erste Schritt besteht darin, die Standardeinstellungen für die Tarife abzus
 1. **[!UICONTROL Ship to Applicable Countries]** festlegen:
 
    - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können diese Versandmethode verwenden.
-   - `Specific Countries` - Wenn Sie diese Option wählen, wird die _[!UICONTROL Ship to Specific Countries]_&#x200B;angezeigt. Wählen Sie jedes Land in der Liste aus, in dem diese Versandmethode verwendet werden kann.
+   - `Specific Countries` - Wenn Sie diese Option wählen, wird die _[!UICONTROL Ship to Specific Countries]_angezeigt. Wählen Sie jedes Land in der Liste aus, in dem diese Versandmethode verwendet werden kann.
 
 1. Legen Sie **[!UICONTROL Show Method if Not Applicable]** auf `Yes` fest, wenn Sie die Tabellensätze immer anzeigen möchten
 
@@ -115,10 +115,10 @@ Der erste Schritt besteht darin, die Standardeinstellungen für die Tarife abzus
 1. Füllen Sie die Tabelle mit den entsprechenden Werten für die Versandberechnungsbedingung aus.
 
    - Verwenden Sie ein Sternchen (*) als Platzhalter für alle möglichen Werte in einer beliebigen Kategorie.
-   - Die Spalte _[!UICONTROL Country]_&#x200B;muss für jede Zeile [gültigen ][1]-Code) enthalten.
+   - Die Spalte _[!UICONTROL Country]_muss für jede Zeile [gültigen ](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)-Code) enthalten.
    - Sortieren Sie die Daten nach _[!UICONTROL Region/State]_, sodass die spezifischen Speicherorte oben in der Liste und die Platzhalterspeicherorte unten angezeigt werden. Mit dieser Methode werden die Regeln zuerst mit den absoluten Werten und später mit den Platzhalterwerten verarbeitet.
    - Postleitzahlbereiche werden nicht unterstützt. Verwenden Sie ein Sternchen (*), um alle Codes innerhalb der Region/des Bundeslandes zuzulassen, oder geben Sie einen einzelnen Code für eine bestimmte Position in der Spalte &quot;_[!UICONTROL Zip/Postal Code]_&quot; an.
-   - Werte in der Spalte _[!UICONTROL Weight (and above)]_&#x200B;können maximal vier Dezimalstellen aufweisen (z. B. `2.5075`). Die Verwendung von mehr Dezimalstellen in den Daten führt dazu, dass der Import fehlschlägt.
+   - Werte in der Spalte _[!UICONTROL Weight (and above)]_können maximal vier Dezimalstellen aufweisen (z. B. `2.5075`). Die Verwendung von mehr Dezimalstellen in den Daten führt dazu, dass der Import fehlschlägt.
 
    ![Gewicht vs. Ziel (Australien)](./assets/table-rates-weight-destination-csv.png){width="500"}
 
@@ -194,6 +194,3 @@ In diesem Beispiel wird die Bedingung „Gewichtung vs. Ziel“ verwendet, um ve
 1. Setzen Sie **[!UICONTROL Store View]** in der oberen linken Ecke auf `Main Website` oder auf eine andere Website, für die die Konfiguration gilt.
 
 1. Klicken Sie **[!UICONTROL Import]** auf **[!UICONTROL Choose File]** und wählen Sie die fertig gestellte `tablerates.csv` aus, um die Tarife zu importieren.
-
-
-[1]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3

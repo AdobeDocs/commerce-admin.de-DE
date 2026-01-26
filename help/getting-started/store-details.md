@@ -3,7 +3,7 @@ title: Store-Details
 description: Erfahren Sie, wie Sie die grundlegenden Informationen für Ihren Store aktualisieren.
 exl-id: f4910ff7-4fcc-482f-be1d-cad8564cdd86
 feature: Configuration
-source-git-commit: dc07b53c27fd99c2c0dc7ee4602640d551e509cf
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Zu den grundlegenden Informationen für Ihren Store gehören der Name und die Ad
 
 ## [!UICONTROL Store Information]
 
-Der Abschnitt _[!UICONTROL Store Information]_&#x200B;enthält die grundlegenden Informationen, die auf den Verkaufsbelegen und in anderen Mitteilungen angezeigt werden.
+Der Abschnitt _[!UICONTROL Store Information]_enthält die grundlegenden Informationen, die auf den Verkaufsbelegen und in anderen Mitteilungen angezeigt werden.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -169,11 +169,11 @@ Sie können auch den Versand in bestimmte Länder für jede verfügbare [Versand
 
 Hilfe bei der Fehlerbehebung bei Konfigurationsproblemen in Ländern finden Sie in den folgenden Artikeln der [!DNL Commerce]-Support-Wissensdatenbank:
 
-- [Hinzufügen eines Landes](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html?lang=de)
+- [Hinzufügen eines Landes](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-add-a-new-country-to-magento-2.html)
 
 ## [!UICONTROL Merchant Location]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Die Einstellung „Händlerstandort“ wird zum Konfigurieren von [Zahlungsmethoden](../stores-purchase/payments.md) verwendet. Wenn für diese Einstellung kein Wert vorhanden ist, wird die Einstellung [Standardland](#uicontrol-country-options) verwendet.
 
@@ -191,7 +191,7 @@ Weitere Informationen zu den Konfigurationsoptionen für Zahlungsmethoden finden
 
 ## Währung
 
-Währung einrichten - Definiert die [&#x200B; (Währung](../stores-purchase/currency-configuration.md) und alle zusätzlichen Währungen, die als Zahlung akzeptiert werden. Richtet außerdem die Importverbindung und den Zeitplan ein, mit denen die Wechselkurse automatisch aktualisiert werden.
+Währung einrichten - Definiert die [ (Währung](../stores-purchase/currency-configuration.md) und alle zusätzlichen Währungen, die als Zahlung akzeptiert werden. Richtet außerdem die Importverbindung und den Zeitplan ein, mit denen die Wechselkurse automatisch aktualisiert werden.
 
 Währungssymbole - Definiert die [Währungssymbole](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) die in Produktpreisen und Verkaufsdokumenten wie Bestellungen und Rechnungen angezeigt werden. [!DNL Commerce] unterstützt Währungen aus über 200 Ländern weltweit.
 
@@ -215,7 +215,7 @@ Bevor Sie E-Mail-Adressen für den Store konfigurieren können, müssen sie jewe
 
 ### Schritt 2: Festlegen der Basis-URL für generierte Links
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 Einige kundenorientierte E-Mails enthalten Links zum Store, z. B. solche, die Kunden beim Zurücksetzen ihrer Kennwörter helfen. Um sicherzustellen, dass die Links zur Storefront funktionieren, müssen Sie die Basis-URL zu Ihrer Storefront definieren.
 
@@ -229,7 +229,7 @@ Einige kundenorientierte E-Mails enthalten Links zum Store, z. B. solche, die Ku
 
 ### Schritt 3: Konfigurieren der E-Mail-Adressen für Ihren Store
 
-[!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Absender-E-Mail-Adressen werden konfiguriert, wenn Ihre Instanz bereitgestellt wird. Wenn Sie diese Adressen ändern müssen, erstellen Sie ein Support-Ticket.
+[!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Absender-E-Mail-Adressen werden konfiguriert, wenn Ihre Instanz bereitgestellt wird. Wenn Sie diese Adressen ändern müssen, erstellen Sie ein Support-Ticket.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -329,7 +329,7 @@ Die Luma-Beispieldaten enthalten einen _Kontaktieren Sie uns Info_-Block, der f�
    >
    >Wenn Sie [[!DNL Page Builder] deaktiviert](../page-builder/setup.md#disable-dnl-page-builder) haben, können Sie den Text mit dem Editor [Symbolleiste](../content-design/editor.md) formatieren und [Bilder](../content-design/editor-insert-image.md) und [Links](../content-design/editor-insert-link.md).
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( &#x200B;](../page-builder/assets/pb-icon-settings.png) ) aus.
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( ](../page-builder/assets/pb-icon-settings.png) ) aus.
 
 1. Bearbeiten Sie den HTML-Code entsprechend den Kontaktinformationen für Ihren Store und klicken Sie auf **[!UICONTROL Save]**.
 
@@ -343,6 +343,4 @@ Die Luma-Beispieldaten enthalten einen _Kontaktieren Sie uns Info_-Block, der f�
 >
 >Ab Version 2.4.0 kann das Kontaktformular nicht mehr innerhalb eines CMS-Blocks oder einer CMS-Seite aufrufen. Die gesamte Anpassung des Kontaktformulars sollte mit Layout-XML oder benutzerdefinierten Design-Vorlagen erfolgen.
 
-Standardmäßig greifen Käufer über den _Kontakt-Link_ in der Fußzeile der Storefront-Seiten auf das Kontaktformular zu. Weitere Informationen zum Anpassen der Kontaktseite finden Sie im [Frontend-Entwicklerhandbuch][theme-guide].
-
-[theme-guide]: https://developer.adobe.com/commerce/frontend-core/guide/themes/
+Standardmäßig greifen Käufer über den _Kontakt-Link_ in der Fußzeile der Storefront-Seiten auf das Kontaktformular zu. Weitere Informationen zum Anpassen der Kontaktseite finden Sie im [Frontend-Entwicklerhandbuch](https://developer.adobe.com/commerce/frontend-core/guide/themes/).

@@ -3,7 +3,7 @@ title: DSGVO-Compliance
 description: Erfahren Sie mehr über die Datenschutz-Grundverordnung (DSGVO), die den Datenschutz und die Privatsphäre aller Personen in der Europäischen Union und im Europäischen Wirtschaftsraum regelt.
 exl-id: 88a732f3-f376-4ff5-890c-0535de8eae51
 feature: Compliance
-source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Diese Informationen sind Teil einer Themenreihe, die Adobe Commerce sowie Händlern und Entwicklern von Magento Open Sourcen dabei helfen soll, die Auswirkungen der Datenschutz-Grundverordnung (DSGVO) zu verstehen. Die Informationen dienen nur zu Informationszwecken und sind nicht als Rechtsberatung zu verstehen. Um festzustellen, ob und wie Ihr Unternehmen rechtliche Verpflichtungen einhalten sollte, wenden Sie sich an Ihren Rechtsbeistand.
+>Diese Informationen sind Teil einer Reihe von Themen, die Händlern und Entwicklern von Adobe Commerce und Magento Open Source dabei helfen sollen, die Auswirkungen der Datenschutz-Grundverordnung (DSGVO) zu verstehen. Die Informationen dienen nur zu Informationszwecken und sind nicht als Rechtsberatung zu verstehen. Um festzustellen, ob und wie Ihr Unternehmen rechtliche Verpflichtungen einhalten sollte, wenden Sie sich an Ihren Rechtsbeistand.
 
 Die Datenschutz-Grundverordnung (DSGVO) regelt den Datenschutz und die Privatsphäre aller Personen in der Europäischen Union und im Europäischen Wirtschaftsraum. Die Rechtsvorschriften gelten auch für die Ausfuhr personenbezogener Daten in Länder außerhalb der EU. Die DSGVO wurde im April 2016 angenommen und ist seit dem 25. Mai 2018 vollstreckbar. Unternehmen, die nicht in der EU ansässig sind, aber im Welthandel tätig sind, müssen die Verordnung einhalten. Die DSGVO definiert **personenbezogene Daten** wie folgt:
 
@@ -37,7 +37,7 @@ Wenn Ihr Unternehmen sowohl die DSGVO als auch den [California Consumer Privacy 
 - Der CCPA hat zusätzliche Anforderungen für die Dateninventarisierung und -zuordnung.
 - Die Verordnungen haben unterschiedliche Datenschutzrichtlinien.
 
-Unternehmen, die die DSGVO einhalten, können zusätzliche Verpflichtungen im Rahmen des CCPA haben. Weitere Informationen finden Sie im [CCPA Fact Sheet][3]{:target="_blank"}.
+Unternehmen, die die DSGVO einhalten, können zusätzliche Verpflichtungen im Rahmen des CCPA haben. Weitere Informationen finden Sie im [CCPA Fact Sheet](https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf){:target="_blank"}.
 
 ## Best Practices
 
@@ -47,10 +47,6 @@ Unternehmen, die die DSGVO einhalten, können zusätzliche Verpflichtungen im Ra
 
 - Aufrechterhaltung der Transparenz und ausführliche Dokumentation.
 
-- Um zu erfahren, wie Adobe Händler bei der Einhaltung der geltenden rechtlichen Verpflichtungen unterstützt, besuchen Sie die [Website][1]{:target="_blank"}.
+- Um zu erfahren, wie Adobe Händler bei der Einhaltung der geltenden rechtlichen Verpflichtungen unterstützt, besuchen Sie die [Website](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}.
 
-- Datenflussdiagramme und die Datenbankentitätszuordnung finden Sie unter [Referenz zu personenbezogenen Informationen][2]{: target="_blank"}.
-
-[1]: https://business.adobe.com/de/privacy/general-data-protection-regulation.html
-[2]: https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=de
-[3]: https://oag.ca.gov/system/files/attachments/press_releases/CCPA%20Fact%20Sheet%20%2800000002%29.pdf
+- Datenflussdiagramme und die Datenbankentitätszuordnung finden Sie unter [Referenz zu personenbezogenen Informationen](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}.

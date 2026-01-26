@@ -3,16 +3,16 @@ title: Medien - Video
 description: Erfahren Sie mehr über den Videoinhaltstyp, mit dem ein auf YouTube oder Vimeo gehostetes Video zur  [!DNL Page Builder]  hinzugefügt wird.
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
 
 # Medien - Video
 
-Verwenden Sie den _Video_-Inhaltstyp, um ein Video, das auf [YouTube][1] oder [Vimeo][2] gehostet wird, zur [[!DNL Page Builder]  hinzuzufügen](workspace.md#stage). Es ist einfach, Videos in eine Seite oder einen Block oder in Produkt- und Kategoriebeschreibungen einzubetten.
+Verwenden Sie den _Video_-Inhaltstyp, um ein Video, das auf [YouTube](https://www.youtube.com/) oder [Vimeo](https://vimeo.com/) gehostet wird, zur [[!DNL Page Builder]  hinzuzufügen](workspace.md#stage). Es ist einfach, Videos in eine Seite oder einen Block oder in Produkt- und Kategoriebeschreibungen einzubetten.
 
 ![Video auf der Startseite der Storefront](./assets/pb-storefront-video.png){width="700" zoomable="yes"}
 
@@ -38,9 +38,9 @@ Verwenden Sie den _Video_-Inhaltstyp, um ein Video, das auf [YouTube][1] oder [V
 
 ## Video hinzufügen
 
-1. Bevor Sie beginnen, navigieren Sie zum [YouTube][1]- oder [Vimeo][2]-Video, das Sie einbetten möchten, und kopieren Sie den Link.
+1. Bevor Sie beginnen, navigieren Sie zum [YouTube](https://www.youtube.com/)- oder [Vimeo](https://vimeo.com/)-Video, das Sie einbetten möchten, und kopieren Sie den Link.
 
-   Alternativ können Sie auch einen direkten Link in eine gültige Videodatei kopieren. Gültige [&#x200B; finden Sie unter &quot;](#basic-video-settings) Videoeinstellungen“.
+   Alternativ können Sie auch einen direkten Link in eine gültige Videodatei kopieren. Gültige [ finden Sie unter &quot;](#basic-video-settings) Videoeinstellungen“.
 
 1. Kehren Sie in der [!DNL Commerce] Admin zu dem Arbeitsbereich [!DNL Page Builder] zurück, in dem Sie das Video hinzufügen möchten.
 
@@ -48,7 +48,7 @@ Verwenden Sie den _Video_-Inhaltstyp, um ein Video, das auf [YouTube][1] oder [V
 
    ![Ziehen eines Video-Platzhalters auf die Bühne](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den Video-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Video-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Fügen Sie **[!UICONTROL Video URL]** die URL des kopierten Videos ein.
 
@@ -62,7 +62,7 @@ Verwenden Sie den _Video_-Inhaltstyp, um ein Video, das auf [YouTube][1] oder [V
 
 ## Videoeinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über den Video-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Video-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Ändern Sie die Einstellungen gemäß den folgenden Abschnitten:
 
@@ -168,7 +168,5 @@ Verwenden Sie den _Video_-Inhaltstyp, um ein Video, das auf [YouTube][1] oder [V
 
 1. Wenn Sie zum Bestätigen aufgefordert werden, klicken Sie auf **[!UICONTROL OK]**.
 
-[1]: https://www.youtube.com/
-[2]: https://vimeo.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

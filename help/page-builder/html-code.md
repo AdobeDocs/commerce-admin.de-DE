@@ -3,9 +3,9 @@ title: Elemente - HTML-Code
 description: Erfahren Sie mehr über den HTML-Code-Inhaltstyp, der zum Hinzufügen von Ausschnitten aus HTML-, CSS- und JavaScript-Code in der  [!DNL Page Builder]  verwendet wird.
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Verwenden Sie den Inhaltstyp _HTML_, um Ausschnitte aus HTML-, CSS- und JavaScri
 
 ## HTML-Code hinzufügen
 
-Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutzerdefinierte Überschriftenklassen deklarieren, die das aktuelle Stylesheet überschreiben.
+Das folgende Beispiel zeigt, wie Sie [Google Font](https://fonts.google.com/)-Code einbetten und benutzerdefinierte Überschriftenklassen deklarieren, die das aktuelle Stylesheet überschreiben.
 
 ### Schritt 1: Google-Schriftart auswählen
 
-1. Besuchen Sie die [Google Fonts][1]-Site und wählen Sie die Schriftfamilie aus, die Sie verwenden möchten.
+1. Besuchen Sie die [Google Fonts](https://fonts.google.com/)-Site und wählen Sie die Schriftfamilie aus, die Sie verwenden möchten.
 
 1. Kopieren Sie den generierten Code, der in den `<head>` Abschnitt der Seite eingebettet werden soll, und fügen Sie ihn vorübergehend in einen Texteditor ein.
 
@@ -68,7 +68,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
 
    ![Ziehen eines HTML-Code-Platzhalters auf das Stadium](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Fügen Sie den von Ihnen vorbereiteten Einbettungs-Google-Schriftarten-Code und die Stildeklarationen in das Textfeld ein.
 
@@ -76,7 +76,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
 
    ![HTML-Code und -Stile](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. Aktualisieren Sie die verbleibenden Einstellungen nach Bedarf (weitere Informationen finden [&#x200B; unter „Ändern &#x200B;](#html-settings) HTML-Codeeinstellungen„).
+1. Aktualisieren Sie die verbleibenden Einstellungen nach Bedarf (weitere Informationen finden [ unter „Ändern ](#html-settings) HTML-Codeeinstellungen„).
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
@@ -84,19 +84,19 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
 
 ### Schritt 3: Vorschau der Seite
 
-1. Legen Sie im _[!UICONTROL Currently Active]_&#x200B;Abschnitt **[!UICONTROL Enable Page]**&#x200B;auf `Yes` fest.
+1. Legen Sie im _[!UICONTROL Currently Active]_Abschnitt **[!UICONTROL Enable Page]**auf `Yes` fest.
 
    ![Aktivieren der Seite](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
-1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_&#x200B;aus.
+1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_aus.
 
    ![Vorschau der Seitenüberschriften mit der neuen Schriftfamilie anzeigen](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
 ## Ändern der HTML-Code-Einstellungen {#html-settings}
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( &#x200B;](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( ](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Bearbeiten Sie den Code im Textfeld nach Bedarf.
 
@@ -110,7 +110,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
    | Bild einfügen… | Klicken Sie, um ein hochgeladenes Bild oder ein Bild aus der Galerie an der Cursorposition in das HTML-Textfeld einzufügen. |
    | Variable einfügen… | Klicken Sie, um eine Variable an der Cursorposition in das HTML-Textfeld einzufügen. |
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
 
    - Um die Positionierung des Codes innerhalb des übergeordneten Containers zu steuern, wählen Sie ein **[!UICONTROL Alignment]** aus:
 
@@ -163,6 +163,5 @@ Das folgende Beispiel zeigt, wie Sie [Google Font][1]-Code einbetten und benutze
      | [!UICONTROL Margins] | Die Menge des Leerraums, der auf die Außenkante aller Seiten des Containers angewendet wird. Optionen: `Top` / `Right` / `Bottom` / `Left` |
      | [!UICONTROL Padding] | Die Menge des Leerraums, der auf die Innenkante aller Seiten des Containers angewendet wird. Optionen: `Top` / `Right` / `Bottom` / `Left` |
 
-[1]: https://fonts.google.com/
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->

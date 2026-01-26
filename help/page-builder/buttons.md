@@ -3,7 +3,7 @@ title: Elemente - Schaltflächen
 description: Erfahren Sie mehr über den Inhaltstyp „Schaltflächen“, der zum Hinzufügen einer einzelnen Schaltfläche oder einer Reihe von Schaltflächen in der  [!DNL Page Builder]  verwendet wird.
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Wenn Sie mit dem Inhaltstyp Schaltflächen arbeiten, fügen Sie einzelne Schaltf
 
    ![Eine Schaltfläche auf die Bühne ziehen](./assets/pb-elements-button-drag.png){width="500" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über die Schaltfläche, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; (](./assets/pb-icon-settings.png)) aus.
+1. Bewegen Sie den Mauszeiger über die Schaltfläche, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ (](./assets/pb-icon-settings.png)) aus.
 
 1. Geben Sie die **[!UICONTROL Button Text]** ein, die auf der Schaltfläche angezeigt werden soll.
 
@@ -107,7 +107,7 @@ Wenn Sie mit dem Inhaltstyp Schaltflächen arbeiten, fügen Sie einzelne Schaltf
 
      ![CMS-Seite für Button-Link auswählen](./assets/pb-elements-button-settings-button-link-page-search.png){width="600" zoomable="yes"}
 
-1. Füllen Sie [Erweiterte Einstellungen][advanced-settings] nach Bedarf aus.
+1. Füllen Sie [Erweiterte Einstellungen](#change-advanced-settings) nach Bedarf aus.
 
 1. Wenn Sie fertig sind, klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
@@ -117,13 +117,13 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
 ### Schritt 1: Zweite Schaltfläche erstellen
 
-1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Hinzufügen![&#x200B; ((Symbol hinzufügen](./assets/pb-icon-add-button.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Hinzufügen![ ((Symbol hinzufügen](./assets/pb-icon-add-button.png){width="20"} ) aus.
 
    ![Eine weitere Schaltfläche hinzufügen](./assets/pb-elements-buttons-toolbox-add.png){width="500" zoomable="yes"}
 
 1. Geben Sie den Text ein, der auf der zweiten Schaltfläche angezeigt werden soll.
 
-1. Klicken Sie auf die Schaltfläche „Neu“, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ((](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Klicken Sie auf die Schaltfläche „Neu“, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ((](./assets/pb-icon-settings.png){width="20"}) aus.
 
    ![Bearbeiten der Schaltfläche](./assets/pb-elements-button-set-edit-button2-toolbox.png){width="500" zoomable="yes"}
 
@@ -135,7 +135,7 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
    ![Schaltflächeneinstellungen für Kontakt](./assets/pb-elements-button-set-edit-button2-toolbox-settings.png){width="600" zoomable="yes"}
 
-1. Füllen Sie [Erweiterte Einstellungen][advanced-settings] nach Bedarf aus.
+1. Füllen Sie [Erweiterte Einstellungen](#change-advanced-settings) nach Bedarf aus.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
@@ -157,17 +157,17 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
 ### Schritt 3: Button-Container aktualisieren
 
-1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
    ![Schaltflächen-Container-Toolbox](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Wählen Sie unter _[!UICONTROL Appearance]_&#x200B;die Option **[!UICONTROL Stacked]**&#x200B;aus.
+1. Wählen Sie unter _[!UICONTROL Appearance]_die Option **[!UICONTROL Stacked]**aus.
 
 1. Legen Sie **[!UICONTROL All Buttons are same size]** auf `Yes` fest.
 
    ![Gestapelte Schaltflächen gleicher Größe](./assets/pb-elements-buttons-settings-appearance-stacked.png){width="300"}
 
-1. Aktualisieren Sie die verbleibenden Einstellungen nach Bedarf mithilfe der Beschreibungen unter [Einstellungen für einen Schaltflächen-Container ändern][button-container].
+1. Aktualisieren Sie die verbleibenden Einstellungen nach Bedarf mithilfe der Beschreibungen unter [Einstellungen für einen Schaltflächen-Container ändern](#change-settings-for-a-button-container).
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
@@ -185,7 +185,7 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
 ## Ändern der Einstellungen für eine Schaltfläche
 
-1. Klicken Sie auf die Schaltfläche auf der Bühne, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( &#x200B;](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Klicken Sie auf die Schaltfläche auf der Bühne, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( ](./assets/pb-icon-settings.png){width="20"} ) aus.
 
    ![Schaltflächen-Toolboxes](./assets/pb-elements-button-toolboxes.png){width="500" zoomable="yes"}
 
@@ -214,13 +214,13 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
      {style="table-layout:auto"}
 
-1. Füllen Sie [Erweiterte Einstellungen][advanced-settings] nach Bedarf aus.
+1. Füllen Sie [Erweiterte Einstellungen](#change-advanced-settings) nach Bedarf aus.
 
 1. Um die Einstellungen zu speichern und zum Arbeitsbereich &quot;[!DNL Page Builder]&quot; zurückzukehren, klicken Sie oben rechts auf **[!UICONTROL Save]** .
 
 ## Ändern der Einstellungen für einen Schaltflächen-Container
 
-1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Aktualisieren Sie die **[!UICONTROL Appearance]** nach Bedarf.
 
@@ -237,13 +237,13 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
      Bei Festlegung auf `Yes` haben alle Schaltflächen im Container eine konsistente Größe, die auf der Länge des längsten Schaltflächentextes basiert.
 
-1. Füllen Sie [Erweiterte Einstellungen][advanced-settings] nach Bedarf aus.
+1. Füllen Sie [Erweiterte Einstellungen](#change-advanced-settings) nach Bedarf aus.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
 ## Erweiterte Einstellungen ändern
 
-Sie können die _[!UICONTROL Advanced]_&#x200B;für einzelne Schaltflächen und für den Schaltflächen-Container ändern.
+Sie können die _[!UICONTROL Advanced]_für einzelne Schaltflächen und für den Schaltflächen-Container ändern.
 
 1. Um die Positionierung innerhalb des übergeordneten Containers zu steuern, wählen Sie die **[!UICONTROL Alignment]**:
 
@@ -298,7 +298,5 @@ Sie können die _[!UICONTROL Advanced]_&#x200B;für einzelne Schaltflächen und 
 
    {style="table-layout:auto"}
 
-[advanced-settings]: #change-advanced-settings
-[button-container]: #change-settings-for-a-button-container
 
 <!-- Last updated from includes: 2023-09-11 14:30:19 -->
