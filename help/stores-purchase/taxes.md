@@ -18,7 +18,7 @@ Konfigurieren Sie Ihren Store, um die Steuern entsprechend den Anforderungen Ihr
 >
 >Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source enthielten die vom Vertex-Anbieter entwickelte Erweiterung , die für die Integration mit Vertex Cloud verwendet wird, um Steuerverwaltung und Adressbereinigung bereitzustellen. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Bundle der Hauptversion enthalten und muss von Commerce Marketplace oder direkt vom Anbieter installiert und aktualisiert werden. [Kontaktieren Sie Vertex](https://marketplace.magento.com/partner/vertex_inc), um Informationen zur Erweiterung und Dokumentation zu erhalten.<br><br>
 >
->Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Upgrade-Handbuch_.
+>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=de) im _Upgrade-Handbuch_.
 
 ## Kurzübersicht
 

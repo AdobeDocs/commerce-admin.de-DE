@@ -3,7 +3,7 @@ title: Lizenzieren eines Adobe Stock-Images
 description: Um sicherzustellen, dass Sie rechtlichen Zugriff haben, und um das Adobe Stock-Wasserzeichen zu entfernen, lizenzieren Sie Ihre Adobe Stock-Bilder.
 exl-id: a2d6b7b8-e9ac-4f3e-bcd1-05e2bb74b6c2
 feature: CMS, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '389'
@@ -21,7 +21,7 @@ Das neue [[!DNL Media Gallery]](media-gallery.md) bietet eine direkte Integratio
 
 **Voraussetzungen**
 
-Die Adobe Stock-Lizenzierungsfunktion ist nur verfügbar, wenn die [Adobe Stock-Integration](./adobe-stock.md) installiert und konfiguriert ist. Die Lizenzierung von [Adobe Stock](https://stock.adobe.com)-Bildern erfordert einen gebührenpflichtigen Adobe Stock-Plan und ein [Adobe-Konto](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
+Die Adobe Stock-Lizenzierungsfunktion ist nur verfügbar, wenn die [Adobe Stock-Integration](./adobe-stock.md) installiert und konfiguriert ist. Die Lizenzierung von [Adobe Stock](https://stock.adobe.com)-Bildern erfordert einen gebührenpflichtigen Adobe Stock-Plan und ein [Adobe-Konto](https://helpx.adobe.com/de/manage-account/using/access-adobe-id-account.html).
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ Die Adobe Stock-Lizenzierungsfunktion ist nur verfügbar, wenn die [Adobe Stock-
 
    >[!NOTE]
    >
-   >Sie müssen über [Adobe Stock-Guthaben](https://helpx.adobe.com/stock/help/credit-packs.html) in Ihrem Konto verfügen, um das Bild zu lizenzieren.
+   >Sie müssen über [Adobe Stock-Guthaben](https://helpx.adobe.com/de/stock/help/credit-packs.html) in Ihrem Konto verfügen, um das Bild zu lizenzieren.
 
 ## Lizenzieren eines Bildes aus dem Standard-Medienspeicher
 
@@ -63,7 +63,7 @@ Die Adobe Stock-Lizenzierungsfunktion ist nur verfügbar, wenn die [Adobe Stock-
 
      >[!NOTE]
      >
-     >Sie müssen über [Adobe Stock-Guthaben](https://helpx.adobe.com/stock/help/credit-packs.html) in Ihrem Konto verfügen, um das Bild zu lizenzieren.
+     >Sie müssen über [Adobe Stock-Guthaben](https://helpx.adobe.com/de/stock/help/credit-packs.html) in Ihrem Konto verfügen, um das Bild zu lizenzieren.
 
    In dieser Aktion werden Sie aufgefordert, einen Dateinamen anzugeben, mit dem das Bild im [Medienspeicher“ gespeichert &#x200B;](./media-storage.md). Es wird ein standardmäßiger Dateiname bereitgestellt, Sie können den Namen jedoch an Ihre Anforderungen anpassen.
 

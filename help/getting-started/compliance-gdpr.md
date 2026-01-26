@@ -47,6 +47,6 @@ Unternehmen, die die DSGVO einhalten, können zusätzliche Verpflichtungen im Ra
 
 - Aufrechterhaltung der Transparenz und ausführliche Dokumentation.
 
-- Um zu erfahren, wie Adobe Händler bei der Einhaltung der geltenden rechtlichen Verpflichtungen unterstützt, besuchen Sie die [Website](https://business.adobe.com/privacy/general-data-protection-regulation.html){:target="_blank"}.
+- Um zu erfahren, wie Adobe Händler bei der Einhaltung der geltenden rechtlichen Verpflichtungen unterstützt, besuchen Sie die [Website](https://business.adobe.com/de/privacy/general-data-protection-regulation.html){:target="_blank"}.
 
-- Datenflussdiagramme und die Datenbankentitätszuordnung finden Sie unter [Referenz zu personenbezogenen Informationen](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html){: target="_blank"}.
+- Datenflussdiagramme und die Datenbankentitätszuordnung finden Sie unter [Referenz zu personenbezogenen Informationen](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=de){: target="_blank"}.

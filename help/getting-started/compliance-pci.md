@@ -40,7 +40,7 @@ Die Zahlungskartenbranche (Payment Card Industry, PCI) hat eine Reihe von Anford
 
 ![Kontrollkästchen](../assets/checkbox.png) - Beibehalten einer Richtlinie zur Informationssicherheit.
 
-Weitere Informationen finden Sie unter [Adobe-Ansatz für PCI-Compliance](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
+Weitere Informationen finden Sie unter [Adobe-Ansatz für PCI-Compliance](https://business.adobe.com/de/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >

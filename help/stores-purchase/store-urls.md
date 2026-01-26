@@ -3,7 +3,7 @@ title: URLs speichern
 description: Erfahren Sie mehr über Store-URLs und das Konfigurieren der Basis-URL und Store-Codes.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
 source-wordcount: '1529'
@@ -138,7 +138,7 @@ Wenn nach den Konfigurationsanweisungen einige Seiten weiterhin mit der unsicher
 
 ## Benutzerdefinierte Admin-URL verwenden
 
-Als [Best Practice für die Sicherheit](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) empfiehlt Adobe die Verwendung einer eindeutigen Admin-URL anstelle des Standardbegriffs _admin_ oder eines allgemeinen Begriffs wie _Backend_. Obwohl Ihre Site dadurch nicht direkt vor einem bestimmten schlechten Akteur geschützt wird, kann dies die Offenlegung gegenüber Skripten reduzieren, die versuchen, nicht autorisierten Zugriff zu erhalten.
+Als [Best Practice für die Sicherheit](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=de) empfiehlt Adobe die Verwendung einer eindeutigen Admin-URL anstelle des Standardbegriffs _admin_ oder eines allgemeinen Begriffs wie _Backend_. Obwohl Ihre Site dadurch nicht direkt vor einem bestimmten schlechten Akteur geschützt wird, kann dies die Offenlegung gegenüber Skripten reduzieren, die versuchen, nicht autorisierten Zugriff zu erhalten.
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ Obwohl es möglich ist, die Admin-URL und den Pfad zu einem anderen Speicherort 
 
 >[!NOTE]
 >
->Versuchen Sie vorsichtshalber nicht, die Admin-URL selbst zu ändern, es sei denn, Sie wissen, wie Sie Konfigurationsdateien auf dem Server bearbeiten. Ändern Sie für Adobe Commerce-Projekte, die in der Cloud-Infrastruktur bereitgestellt werden, die Admin-URL, indem Sie die [Anweisungen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url) im Handbuch *Adobe Commerce on Cloud Infrastructure* befolgen.
+>Versuchen Sie vorsichtshalber nicht, die Admin-URL selbst zu ändern, es sei denn, Sie wissen, wie Sie Konfigurationsdateien auf dem Server bearbeiten. Ändern Sie für Adobe Commerce-Projekte, die in der Cloud-Infrastruktur bereitgestellt werden, die Admin-URL, indem Sie die [Anweisungen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=de#admin-url) im Handbuch *Adobe Commerce on Cloud Infrastructure* befolgen.
 
 ### Methode 1: Wechsel vom Administrator
 
@@ -200,7 +200,7 @@ Obwohl es möglich ist, die Admin-URL und den Pfad zu einem anderen Speicherort 
 
    >[!TIP]
    >
-   >Für Adobe Commerce in der Cloud-Infrastruktur können Sie einen benutzerdefinierten Administratorpfad mithilfe der Variablen `ADMIN_URL` in der Cloud-Benutzeroberfläche einrichten. Siehe [Thema Admin-Variablen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) im Handbuch zu _Commerce in Cloud-Infrastrukturen_.
+   >Für Adobe Commerce in der Cloud-Infrastruktur können Sie einen benutzerdefinierten Administratorpfad mithilfe der Variablen `ADMIN_URL` in der Cloud-Benutzeroberfläche einrichten. Siehe [Thema Admin-Variablen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=de) im Handbuch zu _Commerce in Cloud-Infrastrukturen_.
 
    - **Standard-Administratorpfad**
 
