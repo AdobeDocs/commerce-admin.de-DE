@@ -85,7 +85,7 @@ Kundengruppen bestimmen, welche Rabatte verfügbar sind und welche Steuerklasse 
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
 
-1. Wählen Sie die Preisregel für den Warenkorb aus, mit der Sie eine Gruppe für den angewendeten Rabatt verknüpfen möchten, oder [ Sie eine Preisregel ](../merchandising-promotions/price-rules-catalog.md).
+1. Wählen Sie die Preisregel für den Warenkorb aus, mit der Sie eine Gruppe für den angewendeten Rabatt verknüpfen möchten, oder [&#x200B; Sie eine Preisregel &#x200B;](../merchandising-promotions/price-rules-catalog.md).
 
 1. Wählen Sie die Kundengruppen aus, für die die Regel gilt.
 
