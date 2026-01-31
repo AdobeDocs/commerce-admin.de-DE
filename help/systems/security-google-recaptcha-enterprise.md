@@ -21,7 +21,7 @@ ht-degree: 0%
 
 [reCAPTCHA-Integration](https://experienceleague.adobe.com/developer/commerce/storefront/dropins/user-auth/recaptcha/) beschreibt, wie Sie Unterstützung für reCAPTCHA Enterprise in Ihre Storefront hinzufügen.
 
-Informationen zum Konfigurieren anderer Versionen von Google reCAPTCHA finden Sie unter [Google reCAPTCHA ](security-google-recaptcha.md)3 und v2}.
+Informationen zum Konfigurieren anderer Versionen von Google reCAPTCHA finden Sie unter [Google reCAPTCHA &#x200B;](security-google-recaptcha.md)3 und v2&rbrace;.
 
 ## Funktionen
 
@@ -61,7 +61,7 @@ Führen Sie diese allgemeinen Schritte aus, um Google reCAPTCHA Enterprise für 
 
 1. Navigieren Sie in der _Admin_-Seitenleiste von Adobe Commerce zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Erweitern Sie _[!UICONTROL Security]_und wählen Sie **[!UICONTROL Google reCAPTCHA Storefront]**.
+1. Erweitern Sie _[!UICONTROL Security]_&#x200B;und wählen Sie **[!UICONTROL Google reCAPTCHA Storefront]**.
 
 1. Scrollen Sie nach unten zum Abschnitt **[!UICONTROL reCAPTCHA Enterprise]** und schließen Sie die Konfiguration wie folgt ab.
 
