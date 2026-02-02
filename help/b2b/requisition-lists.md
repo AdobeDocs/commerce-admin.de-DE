@@ -3,7 +3,7 @@ title: Anforderungslisten
 description: Erfahren Sie mehr über Anforderungslisten und wie sie verwendet werden, um häufig bestellte Produkte einfach zum Warenkorb hinzuzufügen.
 exl-id: a21909de-18e7-4aa6-b30d-5d4fb02060ec
 feature: B2B
-source-git-commit: 7e4eef8a6862667b9ab11cd07f85eb4b5ac9a6e4
+source-git-commit: 5f46c4b29c7ee08faf3785c767d3130a277767df
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Anforderungslisten
 
-Die Verwendung einer Anforderungsliste spart Zeit beim Kauf häufig bestellter Produkte, da Artikel direkt aus der Liste in den Warenkorb gelegt werden. Käufer können mehrere Listen verwalten, die sich auf Produkte von verschiedenen Anbietern, Käufern, Teams, Kampagnen oder auf alles andere konzentrieren, was ihren Workflow optimiert. Es ist sowohl für angemeldete Benutzer als auch für Gäste verfügbar.
+Die Verwendung einer Anforderungsliste spart Zeit beim Kauf häufig bestellter Produkte, da Artikel direkt aus der Liste in den Warenkorb gelegt werden. Käufer können mehrere Listen verwalten, die sich auf Produkte von verschiedenen Anbietern, Käufern, Teams, Kampagnen oder auf alles andere konzentrieren, was ihren Workflow optimiert. Die Anforderungslistenfunktion steht angemeldeten Benutzern zur Verfügung.
 
 >[!NOTE]
 >
->Informationen zum Aktivieren von Anforderungslisten für Ihren Store finden Sie unter [Aktivieren von B2B-Funktionen](enable-basic-features.md). Für jedes Einkäuferkonto können je nach Konfiguration bis zu 999 Anforderungslisten [&#x200B; werden](configure-requisition-lists.md).
+>Informationen zum Aktivieren von Anforderungslisten für Ihren Store finden Sie unter [Aktivieren von B2B-Funktionen](enable-basic-features.md). Für jedes Einkäuferkonto können je nach Konfiguration bis zu 999 Anforderungslisten [ werden](configure-requisition-lists.md).
 
 Die Funktionalität der Anforderungsliste ähnelt der von Wunschlisten, mit den folgenden Unterschieden:
 
@@ -31,7 +31,7 @@ Ein angemeldeter Käufer, der einem Firmenkonto zugeordnet ist, kann über sein 
 
 1. Wählen Sie in der Seitenleiste ihres Kontos **[!UICONTROL My Requisition Lists]** aus.
 
-1. Klicken Sie auf der _[!UICONTROL Requisition Lists]_&#x200B;Seite auf **[!UICONTROL Create New Requisition List]**.
+1. Klicken Sie auf der _[!UICONTROL Requisition Lists]_Seite auf **[!UICONTROL Create New Requisition List]**.
 
 1. Gibt den **[!UICONTROL Requisition List Name]** und die **[!UICONTROL Description]** ein.
 
@@ -112,7 +112,7 @@ Einkäufer können Produkte aus folgenden Gründen zu einer Anforderungsliste hi
 
 1. Klicken Sie auf **[!UICONTROL Move item to Requisition List]**.
 
-Weitere Informationen zu B2B-Angeboten finden [&#x200B; unter „Meine &#x200B;](account-dashboard-my-quotes.md)&quot;.
+Weitere Informationen zu B2B-Angeboten finden [ unter „Meine ](account-dashboard-my-quotes.md)&quot;.
 
 ### Aus dem Warenkorb
 
