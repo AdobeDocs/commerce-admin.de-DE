@@ -3,10 +3,10 @@ title: Sitemaps
 description: Erfahren Sie, wie Sie eine Sitemap konfigurieren, um alle Seiten und Bilder Ihrer Commerce-Sites zu indizieren.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: c9af0854f60da74959b5d1d822b342def417b0f9
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 321a9fb0f3c6d86aad520b76ff717c0b07ac37f0
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Informationen zu Adobe Commerce as a Cloud Service finden Sie in den [SEO-Richtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=de) in der Dokumentation zu Commerce Storefront
+>Informationen zu Adobe Commerce as a Cloud Service finden Sie in den [SEO-Richtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in der Dokumentation zu Commerce Storefront
 
-Eine Sitemap verbessert die Art und Weise, wie Ihr Store von Suchmaschinen indiziert wird, und ist so konzipiert, dass Seiten gefunden werden, die von Webcrawlern übersehen werden könnten. Eine Sitemap kann so konfiguriert werden, dass alle Seiten und Bilder indiziert werden.
+Eine Sitemap verbessert die Art und Weise, wie Ihr Store von Suchmaschinen indiziert wird, und ist so konzipiert, dass Seiten gefunden werden, die von Web-Crawler übersehen werden könnten. Eine Sitemap kann so konfiguriert werden, dass alle Seiten und Bilder indiziert werden.
 
 Wenn diese Option aktiviert ist, erstellt Commerce eine Datei mit dem Namen `sitemap.xml`, die in Ihrer Installation an dem von Ihnen angegebenen Speicherort gespeichert wird. Die Konfiguration bietet Ihnen die Möglichkeit, die Häufigkeit der Aktualisierungen und die Priorität für jeden Inhaltstyp festzulegen. Ihre Sitemap sollte so oft aktualisiert werden, wie sich der Inhalt auf Ihrer Site ändert, was täglich, wöchentlich oder monatlich sein kann.
 
-Während sich Ihre Site in Entwicklung befindet, können Sie in die `robots.txt`-Datei für Webcrawler Anweisungen einfügen, um die Indizierung der Site zu vermeiden. Vor dem Launch können Sie dann die Anweisungen ändern, damit die Site indiziert werden kann.
+Während sich Ihre Site in Entwicklung befindet, können Sie in die `robots.txt` für Web-Crawler Anweisungen aufnehmen, um die Indizierung der Site zu vermeiden. Vor dem Launch können Sie dann die Anweisungen ändern, damit die Site indiziert werden kann.
 
-Technische Informationen finden Sie unter [Sitemap und robots.txt hinzufügen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=de) im Handbuch zu _Commerce in Cloud-Infrastrukturen_.
+Technische Informationen finden Sie unter [Sitemap und robots.txt hinzufügen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) im Handbuch zu _Commerce in Cloud-Infrastrukturen_.
 
 ![Sitemap-Raster](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -55,7 +55,7 @@ Schließen Sie die [XML-Sitemap-Konfiguration](#site-map-configuration) ab, um z
 
 ## Schritt 3. Konfigurieren und Aktivieren von robots.txt (optional)
 
-Schließen Sie die Konfiguration [Suchmaschinenroboter](seo-overview.md#search-engine-robots) mit Anweisungen ab, die Suchmaschinen anweisen, die Teile Ihrer Site zu durchsuchen, die indiziert werden sollen.
+Schließen Sie die [Suchmaschinenroboter](seo-overview.md#search-engine-robots)-Konfiguration mit Anweisungen ab, die Suchmaschinen anweisen, die Teile Ihrer Site crawlen, die indiziert werden sollen.
 
 ## Schritt 4. Übermitteln der Sitemap an Suchmaschinen
 
@@ -76,7 +76,7 @@ Sie können jetzt entweder die ursprünglichen (Standard-) Einschränkungen wied
 
 ## Sitemaps und robots.txt für mehrere Websites verwalten
 
-Wenn Sie über mehrere Websites verfügen, können Sie das Erstellen und Senden von Sitemaps vereinfachen. Erstellen [&#x200B; einfach &#x200B;](#site-map-configuration) oder mehrere Sitemaps, die URLs für alle verifizierten Stores enthalten, und speichern Sie die Sitemaps an einem einzigen Ort. Alle Websites müssen in der [Google Search Console](https://support.google.com/webmasters/answer/7451001) verifiziert werden.
+Wenn Sie über mehrere Websites verfügen, können Sie das Erstellen und Senden von Sitemaps vereinfachen. Erstellen [ einfach ](#site-map-configuration) oder mehrere Sitemaps, die URLs für alle verifizierten Stores enthalten, und speichern Sie die Sitemaps an einem einzigen Ort. Alle Websites müssen in der [Google Search Console](https://support.google.com/webmasters/answer/7451001) verifiziert werden.
 
 Gehen Sie wie folgt vor, um Sitemaps für eine Multi-Store-Instanz zu erstellen:
 
@@ -102,7 +102,7 @@ Gehen Sie wie folgt vor, um Sitemaps für eine Multi-Store-Instanz zu erstellen:
    
 >[!NOTE]
 >
->Wenn Ihre Site die [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=de)-Webserver-Engine verwendet, sollten Sie die [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)-Datei im Stammverzeichnis Ihrer Website aktualisieren, um alle anderen Sitemap-Anfragen an den richtigen Ort zu leiten.
+>Wenn Ihre Site die [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html)-Webserver-Engine verwendet, sollten Sie die [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)-Datei im Stammverzeichnis Ihrer Website aktualisieren, um alle anderen Sitemap-Anfragen an den richtigen Ort zu leiten.
 
 ## Spaltenbeschreibungen
 
@@ -224,33 +224,6 @@ Ihre Sitemap sollte so oft aktualisiert werden, wie sich der Inhalt auf Ihrer Si
 
    ![Katalogkonfiguration - Einstellungen für die Übermittlung von XML-Sitemaps in Suchmaschinen](../configuration-reference/catalog/assets/xml-sitemap-search-engine-submission-settings.png){width="600" zoomable="yes"}
 
-1. Wenn Sie eine `robots.txt`-Datei verwenden, um Suchmaschinen, die Ihre Site durchsuchen, Anweisungen zu geben, setzen Sie **[!UICONTROL Enable Submission to Robots.txt]** auf `Yes`.
+1. Wenn Sie eine `robots.txt`-Datei verwenden, um Suchmaschinen, die Ihre Site crawlen haben, Anweisungen zu geben, setzen Sie **[!UICONTROL Enable Submission to Robots.txt]** auf `Yes`.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
-
-## Batch-Sitemap-Generierung für große Kataloge aktivieren
-
-Verwenden Sie für Stores mit großen Katalogen den folgenden alternativen Cron-Auftrag, um die Batch-Sitemap-Generierung zu aktivieren. Dieser Ansatz verarbeitet Daten in kleineren Schritten, reduziert das Risiko der PHP-Speichererschöpfung und stellt sicher, dass die Sitemap-Generierung erfolgreich abgeschlossen wird, auch für Sites mit umfangreichen Produktdaten.
-
-Ersetzen Sie in `app/code/Magento/Sitemap/etc/config.xml`:
-
-```xml
-<jobs>
-  <sitemap_generate>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate>
-</jobs>
-```
-
-durch:
-
-```xml
-<jobs>
-  <sitemap_generate_batch>
-    <schedule>
-      <cron_expr>0 0 * * *</cron_expr>
-    </schedule>
-  </sitemap_generate_batch>></jobs>
-```
