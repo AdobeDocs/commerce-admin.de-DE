@@ -3,10 +3,10 @@ title: Konfigurieren der Commerce Admin-Integration mit der ID
 description: Folgen Sie dieser optionalen Anleitung zur Integration von Adobe Commerce Admin-Benutzerkonto-Anmeldungen in Adobe ID.
 exl-id: 518b7c21-e6b3-47d7-81a5-c34fbe0f197c
 feature: Identity Management
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: c909d68cb2d99e9eb3d1e3adb8fc9b7c245812d2
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,17 @@ Diese Integration unterstützt Commerce-Händler mit Admin-Benutzern, die über 
 * Adobe Commerce 2.4.5 oder höher
 * Ein Adobe.com -Konto mit Zugriff auf die [Adobe Admin Console](https://adminconsole.adobe.com/).
 
+  >[!NOTE]
+  >
+  >Wenn Sie keinen Zugriff auf die Adobe Commerce Admin Console haben, senden Sie eine Anfrage an Ihr Konto-Team, um Zugriff zu gewähren.
+
 Der Administrator, der diese Integration konfiguriert, benötigt während der Aktivierung des Moduls die folgenden Anmeldeinformationen:
 
-* Organisations-ID (bezogen von [Adobe Admin Console](https://adminconsole.adobe.com/)), die mindestens 24 Zeichen lang sein muss. Der authentifizierte Benutzer muss zu dieser IMS-Organisation gehören. Informationen zum Ermitteln Ihrer Organisations-ID finden Sie unter [Organisationen in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de).
-* 2FA sollte auf Organisationsebene in Adobe Admin Console erzwungen werden, um das Modul zu aktivieren. Überprüfen Sie [Authentifizierungseinstellungen](https://helpx.adobe.com/de/enterprise/using/authentication-settings.html#two-step-verification).
+* Organisations-ID (bezogen von [Adobe Admin Console](https://adminconsole.adobe.com/)), die mindestens 24 Zeichen lang sein muss. Der authentifizierte Benutzer muss zu dieser IMS-Organisation gehören. Informationen zum Ermitteln Ihrer Organisations-ID finden Sie unter [Organisationen in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+* 2FA sollte auf Organisationsebene in Adobe Admin Console erzwungen werden, um das Modul zu aktivieren. Überprüfen Sie [Authentifizierungseinstellungen](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * Client-ID
 * Client-Geheimnis
-* Client-ID und Client-Geheimnis sind verfügbar, nachdem die API-Schlüssel von der [Adobe Developer Console abgerufen &#x200B;](https://developer.adobe.com/developer-console/docs/guides/credentials).
+* Client-ID und Client-Geheimnis sind verfügbar, nachdem die API-Schlüssel von der [Adobe Developer Console abgerufen ](https://developer.adobe.com/developer-console/docs/guides/credentials).
 
 Commerce-Admin-Benutzende müssen ein Konto mit einer Adobe ID erstellen, um sich anzumelden.
 
@@ -47,7 +51,7 @@ Für eine erfolgreiche Integration müssen alle Adobe Commerce-Benutzer über Ad
 
 ## Integration konfigurieren
 
-Nachdem die folgenden Schritte von einem Administrator oder Entwickler mit Systemzugriff ausgeführt wurden, wird die Schaltfläche _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_&#x200B;auf der Commerce Admin-Anmeldeseite für alle Admin-Benutzenden angezeigt.
+Nachdem die folgenden Schritte von einem Administrator oder Entwickler mit Systemzugriff ausgeführt wurden, wird die Schaltfläche _[!UICONTROL Sign into Adobe Commerce with Adobe IMS]_auf der Commerce Admin-Anmeldeseite für alle Admin-Benutzenden angezeigt.
 
 ### Schritt 1: Adobe-Organisations-ID abrufen
 
@@ -76,9 +80,9 @@ Stellen Sie vor der Aktivierung der Integration sicher, dass jedes Adobe Commerc
 
 >[!TIP]
 >
->Sie können mehrere Benutzerkonten erstellen, indem Sie die Benutzerinformationen aus einer CSV-Datei hochladen. Siehe [Verwalten mehrerer Benutzer](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html).
+>Sie können mehrere Benutzerkonten erstellen, indem Sie die Benutzerinformationen aus einer CSV-Datei hochladen. Siehe [Verwalten mehrerer Benutzer](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
-1. Navigieren Sie in der [&#128279;](https://helpx.adobe.com/de/enterprise/using/admin-console.html)Adobe Admin Console **[!UICONTROL Users]** zu > **[!UICONTROL Users]**.
+1. Navigieren Sie in der [](https://helpx.adobe.com/de/enterprise/using/admin-console.html)Adobe Admin Console **[!UICONTROL Users]** zu > **[!UICONTROL Users]**.
 
 1. Klicken Sie auf **[!UICONTROL Add User]**.
 
@@ -109,4 +113,4 @@ Nach erfolgreicher Aktivierung dieser Funktion können Sie andere Adobe Commerce
 
 ## Identität und Single Sign-on
 
-Informationen zu den Konfigurationsoptionen für Identitäten, einschließlich Adobe ID, Enterprise ID und Federated ID, und Anweisungen zum Konfigurieren von Single Sign-On (SSO) für einen sicheren Zugriff auf Adobe-Apps finden Sie unter [Einrichten von Identitäten und Single Sign-On](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html) in der Dokumentation *Enterprise Admin Console*.
+Informationen zu den Konfigurationsoptionen für Identitäten, einschließlich Adobe ID, Enterprise ID und Federated ID, und Anweisungen zum Konfigurieren von Single Sign-On (SSO) für einen sicheren Zugriff auf Adobe-Apps finden Sie unter [Einrichten von Identitäten und Single Sign-On](https://helpx.adobe.com/enterprise/using/set-up-identity.html) in der Dokumentation *Enterprise Admin Console*.
