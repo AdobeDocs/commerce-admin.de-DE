@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2129ac8cbafaf4e7a91bc86244eebce9f65fa9b7
+source-git-commit: cd490086a1a3bd46b4f19334fc5b28a2a0c23641
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '261'
+ht-degree: 3%
 
 ---
 # Neue Vorlage
@@ -10,6 +10,28 @@ ht-degree: 0%
 ## Neue Funktionen
 
 Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenommen wurden. Wir schließen alle kleineren Aktualisierungen, wie z. B. die Bearbeitung von Kopien, von dieser Liste aus.
+
+### &#x200B;31. Januar 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beschreibung</th>
+      <th>Typ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Der Abschnitt <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups">Kundengruppen</a> im Handbuch zur Kundenverwaltung wurde aktualisiert, um klarzustellen, dass Benutzende mit Administratorrechten die Kundengruppe eines Kunden nicht bearbeiten können, nachdem der Kunde einem Unternehmen zugewiesen wurde.</p>
+</td>
+      <td>
+        Technisch
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/pull/81">Pull-Anforderung</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### &#x200B;20. Januar 2026
 
@@ -45,7 +67,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde eine Klarstellung hinzugefügt<a href="https://experienceleague.adobe.com/de/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store"> wenn E-Mails </a>Bestellbereit für Abholung im Store“ verfügbar sind.</p>
+      <td><p>Es wurde eine Klarstellung hinzugefügt<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store"> wenn E-Mails </a>Bestellbereit für Abholung im Store“ verfügbar sind.</p>
 </td>
       <td>
         Feedback
@@ -67,7 +89,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Folgende Funktionen wurden zu Adobe Commerce as a Cloud Service hinzugefügt:<br />- Unterstützung für <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a>, das erweiterten Bot-Schutz mit Funktionen zur adaptiven Risikoanalyse und zum maschinellen Lernen bietet.<br />- Wandeln Sie die in den E-Mails der Erstkäufer enthaltenen Sendungsverfolgungsnummern aus reinem Text in anklickbare Links um, indem Sie <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls">benutzerdefinierte Tracking-URLs aktivieren</a>. Diese Funktion wird für USPS, UPS, FedEx und DHL unterstützt.<br />- Sie können jetzt Preisnachlässe auf Stufenebene mit Rabatten auf Katalogregeln kombinieren, indem Sie <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules">Katalogpreisregeln</a> verwenden. Diese Verbesserung ermöglicht es Ihnen, dynamischere und wettbewerbsfähigere Preisstrategien zu erstellen.</p>
+      <td><p>Folgende Funktionen wurden zu Adobe Commerce as a Cloud Service hinzugefügt:<br />- Unterstützung für <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a>, das erweiterten Bot-Schutz mit Funktionen zur adaptiven Risikoanalyse und zum maschinellen Lernen bietet.<br />- Wandeln Sie die in den E-Mails der Erstkäufer enthaltenen Sendungsverfolgungsnummern aus reinem Text in anklickbare Links um, indem Sie <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls">benutzerdefinierte Tracking-URLs aktivieren</a>. Diese Funktion wird für USPS, UPS, FedEx und DHL unterstützt.<br />- Sie können jetzt Preisnachlässe auf Stufenebene mit Rabatten auf Katalogregeln kombinieren, indem Sie <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules">Katalogpreisregeln</a> verwenden. Diese Verbesserung ermöglicht es Ihnen, dynamischere und wettbewerbsfähigere Preisstrategien zu erstellen.</p>
 </td>
       <td>
         Größere Aktualisierung, neues Thema
@@ -89,7 +111,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Das Thema <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Prämien und Treueprogramm“ wurde aktualisiert</a> um klarzustellen, wie die Steuer berechnet wird, wenn Kunden beim Checkout Prämienpunkte verwenden oder Guthaben speichern.</p>
+      <td><p>Das Thema <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Prämien und Treueprogramm“ wurde aktualisiert</a> um klarzustellen, wie die Steuer berechnet wird, wenn Kunden beim Checkout Prämienpunkte verwenden oder Guthaben speichern.</p>
 </td>
       <td>
         Feedback
@@ -111,7 +133,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Die Beschreibungen für die Meta-Anweisungen für <code class="language-plaintext highlighter-rouge">NOFOLLOW</code>-Roboter in der <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/seo/seo-overview">SEO-Dokumentation</a> wurden aktualisiert.<br /><em>Behebt Problem <a href="https://github.com/AdobeDocs/commerce-admin.de-DE/issues/82">#82</a>.</em></p>
+      <td><p>Die Beschreibungen für die Meta-Anweisungen für <code class="language-plaintext highlighter-rouge">NOFOLLOW</code>-Roboter in der <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview">SEO-Dokumentation</a> wurden aktualisiert.<br /><em>Behebt Problem <a href="https://github.com/AdobeDocs/commerce-admin.en/issues/82">#82</a>.</em></p>
 </td>
       <td>
         Technisches Feedback
