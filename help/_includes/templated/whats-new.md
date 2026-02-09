@@ -31,7 +31,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/ebb6348c6b5a30f5de4025f39bae0061b397a4b9">verpflichten</a></td>
     </tr>
     <tr>
-      <td><p>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip=„Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte.“} Die Voraussetzungen für die Konfiguration der IMS-Integration für Adobe Commerce wurden aktualisiert, um Informationen zur Anforderung des Zugriffs auf Adobe Admin Console bereitzustellen.</p>
+      <td><p>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Die Voraussetzungen für die Konfiguration der IMS-Integration für Adobe Commerce wurden aktualisiert, um Informationen zur Anforderung des Zugriffs auf Adobe Admin Console bereitzustellen.</p>
 </td>
       <td>
         Technisches Feedback
