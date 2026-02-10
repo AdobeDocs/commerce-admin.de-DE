@@ -3,8 +3,7 @@ title: Kundenberichte
 description: In Adobe Commerce und Magento Open Source verfügbare Kundenberichte bieten insight für Kundenaktivitäten während eines bestimmten Zeitraums oder Datumsbereichs.
 exl-id: 7bee414b-b605-4aed-9749-78bb8056a6a4
 feature: Customers, Reporting
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 1%
@@ -109,6 +108,8 @@ Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Reports]** > _[!UICONTRO
 {style="table-layout:auto"}
 
 ## [!UICONTROL Customer Wish List Report]
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 

@@ -3,8 +3,7 @@ title: Verkaufsberichte
 description: Die  [!DNL Commerce] -Berichte helfen Ihnen, Bestellungen, Steuern, Rechnungen, Versand, Rückerstattungen, Gutscheine und PayPal-Abrechnungen zu verfolgen.
 exl-id: 928a407f-cbed-4114-ad0b-ee227383bf36
 feature: Reporting, Orders
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -131,6 +130,8 @@ Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Reports]** > _[!UICONTRO
 1. Klicken Sie auf **[!UICONTROL Export]**.
 
 ## Statistiken aktualisieren
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Um die Leistungsauswirkungen der Erstellung von Verkaufsberichten zu reduzieren, berechnet und speichert [!DNL Commerce] die erforderlichen Statistiken für jeden Bericht. Anstatt die Statistiken jedes Mal neu zu berechnen, wenn ein Bericht generiert wird, werden die gespeicherten Statistiken verwendet, es sei denn, Sie aktualisieren die Statistiken. Um die neuesten Daten einzubeziehen, müssen die Berichtsstatistiken aktualisiert werden, bevor ein Verkaufsbericht generiert wird.
 

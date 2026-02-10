@@ -3,16 +3,16 @@ title: Rechnungen
 description: Erfahren Sie, wie Sie Rechnungen erstellen und drucken, um die Auftragsverarbeitung und den Kundendienst zu unterstützen.
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: 80cc27c4247230eb5e43bca46a34d358f9f0bcea
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
 
 # Rechnungen
 
-Eine Rechnung ist ein Datensatz über die Zahlung für eine Bestellung. Für [&#x200B; Bestellung können mehrere Rechnungen erstellt &#x200B;](#create-an-invoice). Jede Rechnung kann so viele oder so wenige der von Ihnen angegebenen gekauften Produkte enthalten. Sie können auch [druckfertige PDF-Rechnungen](#print-invoices) als Verkaufsdokumente für Ihre Kunden erstellen.
+Eine Rechnung ist ein Datensatz über die Zahlung für eine Bestellung. Für [ Bestellung können mehrere Rechnungen erstellt ](#create-an-invoice). Jede Rechnung kann so viele oder so wenige der von Ihnen angegebenen gekauften Produkte enthalten. Sie können auch [druckfertige PDF-Rechnungen](#print-invoices) als Verkaufsdokumente für Ihre Kunden erstellen.
 
 Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _Vorgänge_ > **Rechnungen**, um das Raster _Rechnungen_ zu öffnen und auf Ihre erstellten Rechnungen zuzugreifen.
 
@@ -71,7 +71,7 @@ Bevor die Bestellung gedruckt werden kann, muss eine Rechnung für die Bestellun
 
    >[!NOTE]
    >
-   >Die Option _[!UICONTROL Invoice]_&#x200B;wird nicht angezeigt, wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) für Ihre bestimmte [Zahlungsmethode](../configuration-reference/sales/payment-methods.md) auf `Authorize and Capture` festgelegt ist, wodurch automatisch eine Rechnung generiert wird. Dies ist auch der Fall, wenn die Bestellung aufgegeben und die Zahlungsaktion für Ihre Zahlungsmethode auf `Authorize` gesetzt und die Bestellung fakturiert wird.
+   >Die Option _[!UICONTROL Invoice]_wird nicht angezeigt, wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) für Ihre bestimmte [Zahlungsmethode](../configuration-reference/sales/payment-methods.md) auf `Authorize and Capture` festgelegt ist, wodurch automatisch eine Rechnung generiert wird. Dies ist auch der Fall, wenn die Bestellung aufgegeben und die Zahlungsaktion für Ihre Zahlungsmethode auf `Authorize` gesetzt und die Bestellung fakturiert wird.
 
    ![Rechnung - Kundenauftrag](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -131,7 +131,7 @@ Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor jedoch eine Re
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Suchen Sie im _[!UICONTROL Invoices]_&#x200B;die Rechnung und klicken Sie in der Spalte **[!UICONTROL View]**&#x200B;Aktion_ auf _.
+1. Suchen Sie im _[!UICONTROL Invoices]_die Rechnung und klicken Sie in der Spalte **[!UICONTROL View]**Aktion_ auf _.
 
 1. Klicken Sie oben auf der Rechnung auf **[!UICONTROL Print]** , um eine PDF der Rechnung zu generieren.
 
@@ -141,10 +141,24 @@ Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor jedoch eine Re
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Aktivieren Sie im _[!UICONTROL Invoices]_&#x200B;das Kontrollkästchen für jede zu druckende Rechnung.
+1. Aktivieren Sie im _[!UICONTROL Invoices]_das Kontrollkästchen für jede zu druckende Rechnung.
 
 1. Setzen Sie das **[!UICONTROL Actions]** auf `PDF Invoices`.
 
    ![Mehrere Rechnungen drucken](./assets/invoices-print-batch.png){width="600" zoomable="yes"}
 
 Die Rechnungen werden in einer einzigen PDF-Datei gespeichert, die an einen Drucker gesendet oder gespeichert werden kann.
+
+## Benutzerdefinierte Erfassungsbeträge
+
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+
+Um Händlern größere Flexibilität bei Teilerfassungen und speziellen Zahlungsszenarien zu bieten, unterstützt die Rechnung-API benutzerdefinierte Erfassungsbeträge mithilfe von Erweiterungsattributen.
+
+Sie können REST-Aufrufe ausführen, um beim Erstellen einer Rechnung einen benutzerdefinierten Betrag zu erfassen.  Verwenden Sie den [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) REST-Endpunkt und geben Sie den benutzerdefinierten Betrag im Feld `extension_attributes.custom_capture_amount` der Payload an.
+
+>[!NOTE]
+>
+>Wenden Sie sich an Ihren Support-Mitarbeiter, um diese Funktion zu aktivieren.
+>
+>Aufgrund rechtlicher Einschränkungen ist der benutzerdefinierte Erfassungsbetrag nur in der Region Nordamerika (NA) und anderen Regionen verfügbar, in denen eine Übererfassung von Zahlungen zulässig ist.

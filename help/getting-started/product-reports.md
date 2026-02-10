@@ -3,10 +3,9 @@ title: Produktberichte
 description: Die in Adobe Commerce und Magento Open Source verfügbaren Produktberichte geben Ihnen insight zu angezeigten und bestellten Produkten, Bestsellern, Lagerbeständen und Downloads.
 exl-id: 7b2430dd-050a-407d-b922-39df5b3c52d1
 feature: Products, Reporting
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -16,6 +15,8 @@ ht-degree: 0%
 Die Produktberichte enthalten insight zu angezeigten und bestellten Produkten, Bestsellern, Lagerbeständen und Downloads.
 
 ## [!UICONTROL Product Views Report]
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Die [!UICONTROL Product Views Report] zeigt die Produkte an, die während eines Zeitintervalls oder Datumsbereichs angezeigt wurden. Der Bericht enthält den Produktnamen, den Preis und die Anzahl der Ansichten.
 
@@ -48,6 +49,8 @@ Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Reports]** > _[!UICONTRO
 ![Bericht zu bestellten Produkten](./assets/products-ordered.png){width="600"}
 
 ## [!UICONTROL Downloads Report]
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Die [!UICONTROL Downloads Report] listet alle Downloads während des angegebenen Zeitintervalls oder Datumsbereichs auf. Der Bericht enthält den Produktnamen, den Download-Link und die SKU mit der Anzahl der Käufe und Downloads.
 
