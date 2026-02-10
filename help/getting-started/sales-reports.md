@@ -131,7 +131,7 @@ Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Reports]** > _[!UICONTRO
 
 ## Statistiken aktualisieren
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Um die Leistungsauswirkungen der Erstellung von Verkaufsberichten zu reduzieren, berechnet und speichert [!DNL Commerce] die erforderlichen Statistiken für jeden Bericht. Anstatt die Statistiken jedes Mal neu zu berechnen, wenn ein Bericht generiert wird, werden die gespeicherten Statistiken verwendet, es sei denn, Sie aktualisieren die Statistiken. Um die neuesten Daten einzubeziehen, müssen die Berichtsstatistiken aktualisiert werden, bevor ein Verkaufsbericht generiert wird.
 

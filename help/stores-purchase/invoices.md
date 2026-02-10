@@ -151,7 +151,7 @@ Die Rechnungen werden in einer einzigen PDF-Datei gespeichert, die an einen Druc
 
 ## Benutzerdefinierte Erfassungsbeträge
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 Um Händlern größere Flexibilität bei Teilerfassungen und speziellen Zahlungsszenarien zu bieten, unterstützt die Rechnung-API benutzerdefinierte Erfassungsbeträge mithilfe von Erweiterungsattributen.
 
