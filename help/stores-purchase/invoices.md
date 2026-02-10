@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Rechnungen
 
-Eine Rechnung ist ein Datensatz über die Zahlung für eine Bestellung. Für [ Bestellung können mehrere Rechnungen erstellt ](#create-an-invoice). Jede Rechnung kann so viele oder so wenige der von Ihnen angegebenen gekauften Produkte enthalten. Sie können auch [druckfertige PDF-Rechnungen](#print-invoices) als Verkaufsdokumente für Ihre Kunden erstellen.
+Eine Rechnung ist ein Datensatz über die Zahlung für eine Bestellung. Für [&#x200B; Bestellung können mehrere Rechnungen erstellt &#x200B;](#create-an-invoice). Jede Rechnung kann so viele oder so wenige der von Ihnen angegebenen gekauften Produkte enthalten. Sie können auch [druckfertige PDF-Rechnungen](#print-invoices) als Verkaufsdokumente für Ihre Kunden erstellen.
 
 Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _Vorgänge_ > **Rechnungen**, um das Raster _Rechnungen_ zu öffnen und auf Ihre erstellten Rechnungen zuzugreifen.
 
@@ -71,7 +71,7 @@ Bevor die Bestellung gedruckt werden kann, muss eine Rechnung für die Bestellun
 
    >[!NOTE]
    >
-   >Die Option _[!UICONTROL Invoice]_wird nicht angezeigt, wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) für Ihre bestimmte [Zahlungsmethode](../configuration-reference/sales/payment-methods.md) auf `Authorize and Capture` festgelegt ist, wodurch automatisch eine Rechnung generiert wird. Dies ist auch der Fall, wenn die Bestellung aufgegeben und die Zahlungsaktion für Ihre Zahlungsmethode auf `Authorize` gesetzt und die Bestellung fakturiert wird.
+   >Die Option _[!UICONTROL Invoice]_&#x200B;wird nicht angezeigt, wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) für Ihre bestimmte [Zahlungsmethode](../configuration-reference/sales/payment-methods.md) auf `Authorize and Capture` festgelegt ist, wodurch automatisch eine Rechnung generiert wird. Dies ist auch der Fall, wenn die Bestellung aufgegeben und die Zahlungsaktion für Ihre Zahlungsmethode auf `Authorize` gesetzt und die Bestellung fakturiert wird.
 
    ![Rechnung - Kundenauftrag](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -131,7 +131,7 @@ Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor jedoch eine Re
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Suchen Sie im _[!UICONTROL Invoices]_die Rechnung und klicken Sie in der Spalte **[!UICONTROL View]**Aktion_ auf _.
+1. Suchen Sie im _[!UICONTROL Invoices]_&#x200B;die Rechnung und klicken Sie in der Spalte **[!UICONTROL View]**&#x200B;Aktion_ auf _.
 
 1. Klicken Sie oben auf der Rechnung auf **[!UICONTROL Print]** , um eine PDF der Rechnung zu generieren.
 
@@ -141,7 +141,7 @@ Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor jedoch eine Re
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Aktivieren Sie im _[!UICONTROL Invoices]_das Kontrollkästchen für jede zu druckende Rechnung.
+1. Aktivieren Sie im _[!UICONTROL Invoices]_&#x200B;das Kontrollkästchen für jede zu druckende Rechnung.
 
 1. Setzen Sie das **[!UICONTROL Actions]** auf `PDF Invoices`.
 
