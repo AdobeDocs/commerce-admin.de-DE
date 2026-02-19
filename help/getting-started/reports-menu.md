@@ -3,10 +3,9 @@ title: Menü [!UICONTROL Reports]
 description: Adobe Commerce und Magento Open Source bieten eine große Auswahl an Berichten, mit denen Sie über Ihre Marketing-Maßnahmen, Verkaufsprodukte und Kundenaktivitäten auf dem Laufenden gehalten werden.
 feature: Admin Workspace, Reporting
 exl-id: f6356590-ba89-4c97-a9fc-efbd0dacf31a
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: c406add80981387305755221f21624dad475e63f
+source-git-commit: 4f31a18aab4c47cbe5b0f514e7cf9fea2eadca7f
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -29,6 +28,8 @@ Eine Auswahl an [Marketing-Berichten](marketing-reports.md) einschließlich Prod
 
 ### [!UICONTROL Reviews]
 
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
 Die Auswahl von [Prüfungsberichten](review-reports.md) umfasst Nach Kunde und Nach Produkt.
 
 ### [!UICONTROL Sales]
@@ -37,7 +38,9 @@ Die Auswahl von [Verkaufsberichten](sales-reports.md) umfasst Bestellungen, Steu
 
 ### [!UICONTROL System Insights]
 
-(Nur Adobe Commerce) Die [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=de) bietet Systemeinblicke für Installationen von Adobe Commerce auf Cloud-Infrastrukturen mit 24/7-Echtzeit-Leistungsüberwachung, Berichten und Empfehlungen.
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
+(Nur Adobe Commerce) Die [[!DNL Site-Wide Analysis Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html) bietet Systemeinblicke für Installationen von Adobe Commerce auf Cloud-Infrastrukturen mit 24/7-Echtzeit-Leistungsüberwachung, Berichten und Empfehlungen.
 
 ### [!UICONTROL Customers]
 
@@ -49,12 +52,18 @@ Die Auswahl an [Produktberichten](product-reports.md) umfasst Ansichten, Bestsel
 
 ### [!UICONTROL Private Sales]
 
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
 (Nur Adobe Commerce) Die Auswahl von Berichten für [Privatverkäufe und -veranstaltungen](private-sales-reports.md) umfasst Einladungen, eingeladene Kunden und Konversionen.
 
 ### [!UICONTROL Statistics]
 
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
 [Statistik](sales-reports.md#refresh-statistics) ist ein Tool, das die Leistungsauswirkungen der Berichterstellung durch die Berechnung und Speicherung statistischer Daten reduziert. Anstatt die Statistiken jedes Mal neu zu berechnen, wenn ein Bericht generiert wird, werden die gespeicherten Statistiken verwendet, bis Sie die Statistiken aktualisieren.
 
 ### [!DNL Commerce Intelligence]
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Integrierte [[!DNL Commerce Intelligence]](business-intelligence.md)-Tools bieten die insight, die Sie für strategische Geschäftsentscheidungen benötigen.
