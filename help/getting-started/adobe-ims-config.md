@@ -82,7 +82,7 @@ Stellen Sie vor der Aktivierung der Integration sicher, dass jedes Adobe Commerc
 
 >[!TIP]
 >
->Sie können mehrere Benutzerkonten erstellen, indem Sie die Benutzerinformationen aus einer CSV-Datei hochladen. Siehe [Verwalten mehrerer Benutzer](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
+>Sie können mehrere Benutzerkonten erstellen, indem Sie die Benutzerinformationen aus einer CSV-Datei hochladen. Siehe [Verwalten mehrerer Benutzer](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html).
 
 1. Navigieren Sie in der [&#128279;](https://helpx.adobe.com/de/enterprise/using/admin-console.html)Adobe Admin Console **[!UICONTROL Users]** zu > **[!UICONTROL Users]**.
 
