@@ -1,7 +1,7 @@
 ---
-source-git-commit: 78d6e7fa263246e8fa52aa0386b35e4bb39553ad
+source-git-commit: 23356def6221bb531b29d95ec00bcf4468f69ac9
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '366'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## Neue Funktionen
 
 Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenommen wurden. Wir schließen alle kleineren Aktualisierungen, wie z. B. die Bearbeitung von Kopien, von dieser Liste aus.
+
+### &#x200B;19. Februar 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beschreibung</th>
+      <th>Typ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Das PaaS-Badging auf der Seite <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu">Menü Berichte</a> wurde aktualisiert.</p>
+</td>
+      <td>
+        Feedback
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/e2a73e2a47d1e8befa43a6b0f942c4b440d296b7">verpflichten</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### &#x200B;10. Februar 2026
 
@@ -23,7 +45,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Aktualisierungen der Admin-Dokumentation für die Adobe Commerce as a Cloud Service-Februarversion:<br />- Hinzugefügte Dokumentation für <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts">benutzerdefinierte Erfassungsbeträge</a> beim Erstellen von Rechnungen in der REST-API, mit der Händler benutzerdefinierte Beträge erfassen können, wenn sie Rechnungen für Teilerfassungen und spezielle Zahlungsszenarien erstellen.<br />- Gibt an, welche Berichte im Menü <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/start/reporting/reports-menu">Berichte</a> jetzt nur noch PaaS-Berichte sind.</p>
+      <td><p>Aktualisierungen der Admin-Dokumentation für die Adobe Commerce as a Cloud Service-Februarversion:<br />- Hinzugefügte Dokumentation für <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts">benutzerdefinierte Erfassungsbeträge</a> beim Erstellen von Rechnungen in der REST-API, mit der Händler benutzerdefinierte Beträge erfassen können, wenn sie Rechnungen für Teilerfassungen und spezielle Zahlungsszenarien erstellen.<br />- Gibt an, welche Berichte im Menü <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu">Berichte</a> jetzt nur noch PaaS-Berichte sind.</p>
 </td>
       <td>
         Größere Aktualisierung
@@ -45,7 +67,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Aktualisierung <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie Law Compliance</a>, um den fehlenden Schlüssel <code class="language-plaintext highlighter-rouge">mage-cache-timeout</code> localStorage hinzuzufügen und die Liste der ausgenommenen Cookies in ein Tabellenformat zu konvertieren.</p>
+      <td><p>Aktualisierung <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law">Cookie Law Compliance</a>, um den fehlenden Schlüssel <code class="language-plaintext highlighter-rouge">mage-cache-timeout</code> localStorage hinzuzufügen und die Liste der ausgenommenen Cookies in ein Tabellenformat zu konvertieren.</p>
 </td>
       <td>
         Technisches Feedback
@@ -53,7 +75,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/ebb6348c6b5a30f5de4025f39bae0061b397a4b9">verpflichten</a></td>
     </tr>
     <tr>
-      <td><p>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Die Voraussetzungen für die Konfiguration der IMS-Integration für Adobe Commerce wurden aktualisiert, um Informationen zur Anforderung des Zugriffs auf Adobe Admin Console bereitzustellen.</p>
+      <td><p>[!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip=„Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte.“} Die Voraussetzungen für die Konfiguration der IMS-Integration für Adobe Commerce wurden aktualisiert, um Informationen zur Anforderung des Zugriffs auf Adobe Admin Console bereitzustellen.</p>
 </td>
       <td>
         Technisches Feedback
@@ -75,12 +97,12 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Der Abschnitt <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/customers/customer-groups">Kundengruppen</a> im Handbuch zur Kundenverwaltung wurde aktualisiert, um klarzustellen, dass Benutzende mit Administratorrechten die Kundengruppe eines Kunden nicht bearbeiten können, nachdem der Kunde einem Unternehmen zugewiesen wurde.</p>
+      <td><p>Der Abschnitt <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-groups">Kundengruppen</a> im Handbuch zur Kundenverwaltung wurde aktualisiert, um klarzustellen, dass Benutzende mit Administratorrechten die Kundengruppe eines Kunden nicht bearbeiten können, nachdem der Kunde einem Unternehmen zugewiesen wurde.</p>
 </td>
       <td>
         Technisch
       </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.de-DE/pull/81">Pull-Anforderung</a></td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/pull/81">Pull-Anforderung</a></td>
     </tr>
   </tbody>
 </table>
@@ -119,7 +141,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde eine Klarstellung hinzugefügt<a href="https://experienceleague.adobe.com/de/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store"> wenn E-Mails </a>Bestellbereit für Abholung im Store“ verfügbar sind.</p>
+      <td><p>Es wurde eine Klarstellung hinzugefügt<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales-emails#order-ready-for-pickup-in-store"> wenn E-Mails </a>Bestellbereit für Abholung im Store“ verfügbar sind.</p>
 </td>
       <td>
         Feedback
@@ -141,34 +163,12 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Folgende Funktionen wurden zu Adobe Commerce as a Cloud Service hinzugefügt:<br />- Unterstützung für <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a>, das erweiterten Bot-Schutz mit Funktionen zur adaptiven Risikoanalyse und zum maschinellen Lernen bietet.<br />- Wandeln Sie die in den E-Mails der Erstkäufer enthaltenen Sendungsverfolgungsnummern aus reinem Text in anklickbare Links um, indem Sie <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls">benutzerdefinierte Tracking-URLs aktivieren</a>. Diese Funktion wird für USPS, UPS, FedEx und DHL unterstützt.<br />- Sie können jetzt Preisnachlässe auf Stufenebene mit Rabatten auf Katalogregeln kombinieren, indem Sie <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules">Katalogpreisregeln</a> verwenden. Diese Verbesserung ermöglicht es Ihnen, dynamischere und wettbewerbsfähigere Preisstrategien zu erstellen.</p>
+      <td><p>Folgende Funktionen wurden zu Adobe Commerce as a Cloud Service hinzugefügt:<br />- Unterstützung für <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha-enterprise">Google reCAPTCHA Enterprise</a>, das erweiterten Bot-Schutz mit Funktionen zur adaptiven Risikoanalyse und zum maschinellen Lernen bietet.<br />- Wandeln Sie die in den E-Mails der Erstkäufer enthaltenen Sendungsverfolgungsnummern aus reinem Text in anklickbare Links um, indem Sie <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-settings#shipment-tracking-urls">benutzerdefinierte Tracking-URLs aktivieren</a>. Diese Funktion wird für USPS, UPS, FedEx und DHL unterstützt.<br />- Sie können jetzt Preisnachlässe auf Stufenebene mit Rabatten auf Katalogregeln kombinieren, indem Sie <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/product-price-tier#enable-tier-pricing-for-catalog-price-rules">Katalogpreisregeln</a> verwenden. Diese Verbesserung ermöglicht es Ihnen, dynamischere und wettbewerbsfähigere Preisstrategien zu erstellen.</p>
 </td>
       <td>
         Größere Aktualisierung, neues Thema
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/70e73b47c4b0342ade3deab64dbe39f29b82191f">verpflichten</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### &#x200B;17. Dezember 2025
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beschreibung</th>
-      <th>Typ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Das Thema <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/merchandising/reward-points/rewards-loyalty">Prämien und Treueprogramm“ wurde aktualisiert</a> um klarzustellen, wie die Steuer berechnet wird, wenn Kunden beim Checkout Prämienpunkte verwenden oder Guthaben speichern.</p>
-</td>
-      <td>
-        Feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/1154cd5ced746ac6dfd609946528f281774bbaaa">verpflichten</a></td>
     </tr>
   </tbody>
 </table>
