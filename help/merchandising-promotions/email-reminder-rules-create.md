@@ -3,10 +3,9 @@ title: E-Mail-Erinnerungen erstellen
 description: Erfahren Sie, wie Sie eine E-Mail-Erinnerungsregel einrichten, die eine vorhandene Warenkorb-Preisregel verwendet.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+source-git-commit: 43654def3e227127dcf0732962b4f1142a6a3856
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '702'
 ht-degree: 0%
 
 ---
@@ -23,7 +22,7 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenk
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New Rule]**.
 
-1. Vervollständigen Sie die _[!UICONTROL Rule Information]_&#x200B;wie folgt:
+1. Vervollständigen Sie die _[!UICONTROL Rule Information]_wie folgt:
 
    ![E-Mail-Erinnerungsregel](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -45,7 +44,7 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenk
 
 1. Wählen Sie im Bedienfeld auf der linken Seite **[!UICONTROL Conditions]**.
 
-   Für die Regel muss mindestens eine Bedingung definiert sein. Der Prozess ähnelt dem Erstellen [&#x200B; Katalogpreisregel](price-rules-catalog.md)
+   Für die Regel muss mindestens eine Bedingung definiert sein. Der Prozess ähnelt dem Erstellen [ Katalogpreisregel](price-rules-catalog.md)
 
    ![E-Mail-Erinnerungsbedingungen](./assets/email-reminder-conditions.png){width="600" zoomable="yes"}
 
@@ -56,9 +55,9 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenk
 
    >[!NOTE]
    >
-   >Wenn ein Kunde über mehr als einen übereinstimmenden, nicht mehr in den Warenkorb gelegten Warenkorb, eine Wunschliste oder eine Kombination aus beidem verfügt, wird die E-Mail-Erinnerung nur einmal für diesen Kunden ausgelöst. Um dieselbe E-Mail-Erinnerung erneut Trigger, legen Sie im Feld _[!UICONTROL Repeat Schedule]_&#x200B;die Anzahl der Tage zwischen den E-Mails fest. <br/>
+   >Wenn ein Kunde über mehr als einen übereinstimmenden, nicht mehr in den Warenkorb gelegten Warenkorb, eine Wunschliste oder eine Kombination aus beidem verfügt, wird die E-Mail-Erinnerung nur einmal für diesen Kunden ausgelöst. Um dieselbe E-Mail-Erinnerung erneut Trigger, legen Sie im Feld _[!UICONTROL Repeat Schedule]_die Anzahl der Tage zwischen den E-Mails fest. <br/>
    >
-   >Dieselbe E-Mail-Erinnerung **_nicht erneut ausgelöst_** für denselben Kunden für **_neue_** abgebrochene Warenkörbe und Wunschlisten **_nach_** der _[!UICONTROL Repeat Schedule]_&#x200B;ist vorbei.
+   >Dieselbe E-Mail-Erinnerung **_nicht erneut ausgelöst_** für denselben Kunden für **_neue_** abgebrochene Warenkörbe und Wunschlisten **_nach_** der _[!UICONTROL Repeat Schedule]_ist vorbei.
 
    Füllen Sie die Bedingung aus, um das Szenario zu beschreiben, in dem die E-Mail-Erinnerung Trigger wird.
 
@@ -66,9 +65,9 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenk
 
 1. Wählen Sie im Bedienfeld auf der linken Seite **[!UICONTROL Emails and Labels]**.
 
-   ![E-Mail-Erinnerungsregel - E-Mails und Beschriftungsvorlagen &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![E-Mail-Erinnerungsregel - E-Mails und Beschriftungsvorlagen ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Email Templates]** die E-Mail-Vorlage aus, die für jede Website und Store-Ansicht in Ihrer [Store-Hierarchie“ verwendet &#x200B;](../getting-started/websites-stores-views.md) soll.
+1. Wählen Sie im Abschnitt **[!UICONTROL Email Templates]** die E-Mail-Vorlage aus, die für jede Website und Store-Ansicht in Ihrer [Store-Hierarchie“ verwendet ](../getting-started/websites-stores-views.md) soll.
 
    Wenn Sie die Erinnerungs-E-Mail nicht an Kunden einer Store-Ansicht senden möchten, lassen Sie den Wert `Not Selected`.
 
@@ -84,7 +83,7 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenk
 
      ![E-Mail-Erinnerungen - Titel und Beschreibungen](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - Geben Sie im Abschnitt _[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;den **[!UICONTROL Rule Title]**&#x200B;und die **[!UICONTROL Description]**&#x200B;für die_ Store-Standardansicht“ _. Geben Sie für mehrere Store-Ansichten den entsprechenden Titel und die entsprechende Beschreibung für jede Ansicht ein.
+   - Geben Sie im Abschnitt _[!UICONTROL Titles and Descriptions Per Store View]_den **[!UICONTROL Rule Title]**und die **[!UICONTROL Description]**für die_ Store-Standardansicht“ _. Geben Sie für mehrere Store-Ansichten den entsprechenden Titel und die entsprechende Beschreibung für jede Ansicht ein.
 
      >[!NOTE]
      >
