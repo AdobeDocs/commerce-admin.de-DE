@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Ein [!DNL Commerce]-Konto ist Ihr zentraler Zugriffspunkt für die Verwaltung von Adobe Commerce-Services für Adobe Commerce-Projekte, die in der Cloud-Infrastruktur oder lokal bereitgestellt werden. Über das Konto-Dashboard können Sie Abonnements anzeigen, Commerce Services-API-Schlüssel verwalten, historische Rechnungsinformationen überprüfen und mit anderen Benutzenden in Ihrem Unternehmen zusammenarbeiten.
 
-Wenn Sie Ihr erstes [ einreichen oder ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) Adobe Commerce-Beziehung verwalten müssen, anstatt in einer bestimmten Storefront zu arbeiten, erstellen oder greifen Sie zunächst auf Ihr [!DNL Commerce]-Konto zu.
+Wenn Sie Ihr erstes [&#x200B; einreichen oder &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) Adobe Commerce-Beziehung verwalten müssen, anstatt in einer bestimmten Storefront zu arbeiten, erstellen oder greifen Sie zunächst auf Ihr [!DNL Commerce]-Konto zu.
 
-Wenn Sie [ erstes Support-Ticket ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) oder Ihre Adobe Commerce-Beziehung außerhalb einer bestimmten Storefront abwickeln müssen, erstellen Sie zunächst Ihr [!DNL Commerce]-Konto oder greifen Sie darauf zu.
+Wenn Sie [&#x200B; erstes Support-Ticket &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) oder Ihre Adobe Commerce-Beziehung außerhalb einer bestimmten Storefront abwickeln müssen, erstellen Sie zunächst Ihr [!DNL Commerce]-Konto oder greifen Sie darauf zu.
 
 Sie können über die [!DNL Commerce]-Website auf Ihr [!DNL Commerce]-Konto zugreifen. Im Konto-Dashboard können Sie Informationen zu den von Ihnen erworbenen Produkten und Services anzeigen und anderen Benutzern [freigegebenen Zugriff](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) gewähren. Einige Informationen, z. B. Commerce Services-API-Schlüssel, sind nur für Lizenzinhaber sichtbar.
 
@@ -36,7 +36,7 @@ Benutzende, die ihre Anmeldung bei Adobe Commerce- und Adobe Business-Produkten 
 
 >[!NOTE]
 >
->Nachdem Sie Ihr -Konto erstellt haben, wird empfohlen, die Zwei-Faktor-Authentifizierung (TFA) zu verwenden, um [Ihr -Konto zu ](commerce-account-secure.md).
+>Nachdem Sie Ihr -Konto erstellt haben, wird empfohlen, die Zwei-Faktor-Authentifizierung (TFA) zu verwenden, um [Ihr -Konto zu &#x200B;](commerce-account-secure.md).
 
 ## Beim [!DNL Commerce]-Konto anmelden
 
