@@ -2,7 +2,7 @@
 title: Adobe Commerce B2B-abwärtsinkompatible Änderungen
 description: Erfahren Sie mehr über Änderungen in Adobe Commerce B2B-Versionen, die möglicherweise eine Aktualisierung Ihres benutzerdefinierten Codes erfordern.
 exl-id: 79b66843-3f34-4fe9-9670-53d19b749eb4
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+source-git-commit: 89fd73a6cba31e0a4e5793522bf4745b87e5654d
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 # Adobe Commerce B2B-abwärtsinkompatible Änderungen
 
 Überprüfen Sie die allgemeinen Referenzinformationen für alle abwärtsinkompatiblen Änderungen in B2B für Adobe Commerce-Versionen. Im Abschnitt mit den Highlights finden Sie inkompatible Änderungen, die erhebliche Auswirkungen haben und detaillierte Erläuterungen und spezielle Anweisungen erfordern.
+
+{{$include /help/_includes/backward-incompatible-changes/1.5.2-1.5.3-beta1.md}}
 
 {{$include /help/_includes/backward-incompatible-changes/1.5.1-1.5.2.md}}
 
