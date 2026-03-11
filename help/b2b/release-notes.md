@@ -3,9 +3,9 @@ title: '[!DNL Adobe Commerce B2B] Versionshinweise'
 description: Informationen zu Änderungen in Versionen finden Sie in  [!DNL Adobe Commerce B2B]  Versionshinweisen .
 exl-id: 77d8c20d-6667-41e3-8889-252f36e56fd8
 feature: B2B, Release Notes
-source-git-commit: 7850768a5533c4baa9e7ca3d09860a7f27072563
+source-git-commit: b815977ab2284b31febe75d8affa532318bca367
 workflow-type: tm+mt
-source-wordcount: '10026'
+source-wordcount: '9937'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ In diesen Versionshinweisen für die B2B-Erweiterung werden Ergänzungen und Feh
 
 >[!NOTE]
 >
->Unter [Produktverfügbarkeit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=de) finden Sie Informationen zu Versionen der B2B-Commerce-Erweiterung, die für verfügbare Adobe Commerce-Versionen unterstützt werden.
+>Unter [Produktverfügbarkeit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) finden Sie Informationen zu Versionen der B2B-Commerce-Erweiterung, die für verfügbare Adobe Commerce-Versionen unterstützt werden.
 
 ## B2B v1.5.3-beta1
 
@@ -28,134 +28,62 @@ In diesen Versionshinweisen für die B2B-Erweiterung werden Ergänzungen und Feh
 
 Kompatibel mit Adobe Commerce Version 2.4.9-beta1.
 
-- ![Problem behoben](../assets/fix.svg) Enthält die in [Security Bulletin APSB26-05 dokumentierten Sicherheitskorrekturen](https://helpx.adobe.com/de/security/products/magento/apsb26-05.html)
+Die B2B-Version v1.5.3-beta1 enthält Qualitätsverbesserungen und Fehlerbehebungen. Die Version enthält auch die Sicherheitskorrekturen, die im [Security Bulletin APSB26-05“ dokumentiert ](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
 
-### B2B
+### Verhandelbares Angebot
 
-#### Bestellung aufgeben funktioniert nicht mit der Zahlungsmethode Zur Kasse mit Kreditkarte per verhandelbarem Angebot mit PayFlow Pro wechseln
+![Problem behoben](../assets/fix.svg)<!-- AC-11973 --> **Verhandelbares Angebot mit Payflow Pro** - Adobe Commerce platziert jetzt erfolgreich Bestellungen, wenn es mit der Kreditkartenzahlungsmethode Payflow Pro ein verhandelbares Angebot auscheckt. Zuvor, als B2B-Funktionen aktiviert waren und ein Käufer aus einem verhandelbaren Angebot zur Kasse ging, führten die Auswahl von Payflow Pro und das Klicken auf Bestellung aufgeben dazu, dass die Seite ohne Fehlermeldung unbegrenzt weiter geladen wurde und die Bestellung nie erstellt wurde.
 
-Adobe Commerce platziert jetzt erfolgreich Bestellungen beim Auschecken aus einem verhandelbaren Angebot mit der Kreditkartenzahlungsmethode Payflow Pro. Zuvor, als B2B-Funktionen aktiviert waren und ein Käufer aus einem verhandelbaren Angebot zur Kasse ging, führten die Auswahl von Payflow Pro und das Klicken auf Bestellung aufgeben dazu, dass die Seite ohne Fehlermeldung unbegrenzt weiter geladen wurde und die Bestellung nie erstellt wurde. 11973
+![Problem behoben](../assets/fix.svg)<!-- AC-13447 --> **Erfolgsmeldung nach Umbenennung eines verhandelbaren Angebots** - Adobe Commerce zeigt jetzt durchgängig eine Erfolgsmeldung an, nachdem ein verhandelbares Angebot oder eine Angebotsvorlage in der Storefront umbenannt wurde. Wenn ein Käufer ein verhandelbares Angebot umbenannte, wurde die Erfolgsmeldung bisher gelegentlich nicht angezeigt (oft wird sie fast sofort gelöscht), was auch dazu führte, dass automatisierte Tests fehlschlugen, während diese Meldung trotz des erfolgreichen Umbenennungsvorgangs selbst fehlschlug.
 
-_AC-11973_
+![Problem behoben](../assets/fix.svg)<!-- AC-15280 --> **Versandkosten in der Kasse für verhandelbare PayPal Express-Angebote** - Adobe Commerce wendet jetzt beim Abschluss eines PayPal Express-Checkouts für ein genehmigtes verhandelbares Angebot die richtigen Versandkosten an. Zuvor wurden die Versandkosten fälschlicherweise verdoppelt, was zu überhöhten Gesamtkosten führte.
 
-#### Erfolgsmeldung nach Umbenennen des Angebots verschwindet gelegentlich
+### Bestellungen
 
-Adobe Commerce zeigt jetzt durchgängig eine Erfolgsmeldung an, nachdem ein verhandelbares Angebot oder eine Angebotsvorlage in der Storefront umbenannt wurde. Wenn ein Käufer ein verhandelbares Angebot umbenannte, wurde die Erfolgsmeldung bisher gelegentlich nicht angezeigt (oft wird sie fast sofort gelöscht), was auch dazu führte, dass automatisierte Tests fehlschlugen, während diese Meldung trotz des erfolgreichen Umbenennungsvorgangs selbst fehlschlug.
+![Problem behoben](../assets/fix.svg)<!-- ACP2E-3727 --> **Bestellsummen bei grenzüberschreitendem Handel** - Eine Bestellung enthält jetzt die korrekten Summen, wenn sie aus einer bestehenden Bestellung aufgegeben wird, bei der der grenzüberschreitende Handel aktiviert ist.
 
-_AC-13447_
+### Anforderungsliste
 
-#### Ein eingeschränkter Administrator kann eine Firma nicht dem freigegebenen Katalog zuweisen
+![Problem behoben](../assets/fix.svg)<!-- AC-15862 --> **Gruppierte Produkte in Anforderungslisten mit Kategorieberechtigungen** - Es wurde ein TypeError behoben, der beim Hinzufügen von gruppierten Produkten zu einer Anforderungsliste mit aktivierten Kategorieberechtigungen auftrat. Nach der Fehlerbehebung werden Produktoptionen sicher als Arrays verarbeitet, sodass alle Produkttypen fehlerfrei hinzugefügt werden können.
 
-Es wurde ein Problem behoben, bei dem Administratoren mit eingeschränkter Administratorberechtigung beim Zuweisen einer Firma zu einem freigegebenen Katalog auf eine Ausnahme stießen. Durch die Aktualisierung wird sichergestellt, dass die Zuweisung fehlerfrei funktioniert.
+![Problem behoben](../assets/fix.svg)<!-- AC-8575 --> **Schaltfläche „Zur Anforderungsliste hinzufügen“ auf der Kategorieseite** - Die Schaltfläche &quot;[!UICONTROL Add to Requisition List]&quot; ist jetzt auf der Kategorieseite sichtbar. Zuvor war die Schaltfläche ausgeblendet, wenn Benutzende versuchten, ein Produkt von der Kategorieseite hinzuzufügen.
 
-_AC-15662_
+![Problem behoben](../assets/fix.svg)<!-- AC-14711 --> **Druckoption „Anforderungslistenseite** - Die Druckoption auf der Seite „Anforderungsliste“ funktioniert jetzt ordnungsgemäß. Zuvor führte das Klicken auf [!UICONTROL Print] zu dem Fehler: `An error has happened during application run. See exception log for details.`
 
-#### Ausnahme beim Hinzufügen eines gruppierten Produkts zu einer Anforderungsliste, wenn Kategorieberechtigungen aktiviert sind
+![Problem behoben](../assets/fix.svg)<!-- AC-16226 --> **Anforderungslisten-Erstellung mit Store-Code zu URLs hinzufügen** - Fehlerkorrektur: Anforderungslisten können jetzt für Produkte erstellt werden, die einer neuen Website und Quelle zugewiesen sind, wenn [!UICONTROL Add Store Code to URLs] aktiviert ist. Das Problem trat auf, weil der Speicher-Code aus der API-Anfrage entfernt wurde, was einen nicht autorisierten Fehler verursachte. Nach der Fehlerbehebung wird der richtige Speicherkontext beibehalten und die Anforderungslisten erfolgreich erstellt.
 
-Fehlerkorrektur - Beim Hinzufügen von gruppierten Produkten zu einer Anforderungsliste mit aktivierten Kategorieberechtigungen tritt jetzt kein TypeError mehr auf, indem sichergestellt wird, dass Produktoptionen sicher als Arrays verarbeitet werden. Mit dieser Fehlerbehebung können alle Produkttypen ohne Ausnahmen hinzugefügt werden.
+### Freigegebener Katalog
 
-_AC-15862_
+![Problem behoben](../assets/fix.svg)<!-- ACP2E-3796 --> **Leistung bei der Aufhebung der Zuweisung freigegebener Katalogkategorien** - Die Leistung wurde beim Aufheben der Zuweisung von Kategorien in einem freigegebenen B2B-Katalog erheblich verbessert. Zuvor dauerte es sehr lange, die Zuweisung von Kategorien über die REST-API aufzuheben.
 
-#### Die Schaltfläche „Zur Anforderungsliste hinzufügen“ wird ausgeblendet, wenn versucht wird, sie von der Kategorieseite aus hinzuzufügen
+![Problem behoben](../assets/fix.svg)<!-- ACP2E-4097 --> **Produktzuweisung für freigegebenen Katalog aufheben** - Ein Administrator kann jetzt die Zuweisung von Produkten zum freigegebenen Katalog erfolgreich aufheben. Zuvor führte das Aufheben der Zuweisung von Produkten mit einer großen Anzahl langer Produkt-SKUs aus dem freigegebenen Katalog zu einem Fehler.
 
-Zuvor verschwand die Schaltfläche &quot;[!UICONTROL Add to Requisition List]&quot;, als sie von der Kategorieseite hinzugefügt wurde. Dies ist jetzt behoben, und die Schaltfläche „Anforderungsliste“ ist auf der Kategorieseite sichtbar.
-
-_AC-8575_
-
-#### Die Gesamtberechnung beinhaltet nicht den Steuerbetrag
-
-Eine Bestellung enthält jetzt die korrekten Summen, wenn sie aus einer bestehenden Bestellung aufgegeben wird, bei der der grenzüberschreitende Handel aktiviert ist.
-
-_ACP2E-3727_
-
-#### Die Zuweisung von Kategorien in einem freigegebenen B2B-Katalog über die REST-API wird langsam aufgehoben
-
-Jetzt wurde die Leistung beim Aufheben der Zuweisung von Kategorien in B2B erheblich verbessert. Zuvor dauerte es sehr lange, die Zuweisung von Kategorien im freigegebenen B2B-Katalog aufzuheben.
-
-_ACP2E-3796_
+![Problem behoben](../assets/fix.svg)<!-- AC-15662 --> **Zuweisung eines freigegebenen Katalogunternehmens für Administratoren mit** - Es wurde ein Problem behoben, bei dem Benutzer mit eingeschränktem Administratorzugriff eine Ausnahme bei der Zuweisung eines Unternehmens zu einem freigegebenen Katalog feststellten.
 
 ### Warenkorb und Checkout
 
-#### Weiter zur Checkout-Umleitungsseite meines Kontos nach der Anmeldung
+![Problem behoben](../assets/fix.svg)<!-- AC-15962 --> **Checkout-Umleitung nach Ablauf der Sitzung** - Es wurde ein Problem behoben, bei dem Benutzer nach Ablauf der Sitzung zur Anmeldeseite Mein Konto anstelle der Checkout-Anmeldung umgeleitet wurden, um sicherzustellen, dass sie korrekt zum Checkout mit dem Anmeldeformular weitergeleitet werden.
 
-Es wurde ein Problem behoben, bei dem Benutzer nach Ablauf der Sitzung zur Anmeldeseite Mein Konto anstelle der Checkout-Anmeldung umgeleitet wurden, um sicherzustellen, dass sie mit dem Anmeldeformular korrekt zur Kasse gebeten werden.
-
-_AC-15962_
-
-#### Für Rechnungsinformationen funktioniert die Server-seitige Validierung nicht mit der Versandinformationen-REST-API
-
-Die Validierung von Kundenadressdaten wurde verbessert, um zwischen REST und GraphQL für den Checkout konsistenter zu sein.
-
-_ACP2E-4223_
-
-### Katalog
-
-#### 500-Fehler treten im Frontend auf, da im Layout eine falsche Layout-Struktur zwischengespeichert wird
-
-Es wurde ein Problem behoben, bei dem eine Seite einen 500-Fehler zurückgab, da im Layout eine falsche Layout-Struktur zwischengespeichert wurde.
-
-_ACP2E-4040_
+![Problem behoben](../assets/fix.svg)<!-- ACP2E-4223 --> **Checkout-Adressvalidierung für REST und GraphQL** - Die Validierung von Kundenadressdaten wurde verbessert, um zwischen REST und GraphQL für den Checkout konsistenter zu sein.
 
 ### Framework
 
-#### Community-Designs enthalten Ressourcen für Commerce Edition-Module
+![Problem behoben](../assets/fix.svg)<!-- ACP2E-4040 --> **Frontend 500-Fehler aus zwischengespeicherter Layout-Struktur** - Es wurde ein Problem behoben, bei dem eine Seite einen 500-Fehler zurückgab, da eine falsche Layout-Struktur im Layout zwischengespeichert wurde.
 
-Formatierungsressourcen, die nur für Commerce vorgesehen sind, wurden aus den Community-Designs entfernt, indem sie in die entsprechenden Modulverzeichnisse verschoben wurden. Dadurch wird verhindert, dass nicht verwendetes CSS in der Community Edition gebündelt wird, was unnötige Payloads reduziert und tote Stilregeln eliminiert, während gleichzeitig eine ordnungsgemäße Formatierung sichergestellt wird, wenn Commerce-Module aktiviert sind.
-
-_AC-15347_
+![Problem behoben](../assets/fix.svg)<!-- AC-15347 --> **Commerce-Formatierungsressourcen in Community-Designs** - Formatierungsressourcen, die nur für Commerce vorgesehen sind, wurden aus Community-Designs entfernt, indem sie in die entsprechenden Modulverzeichnisse verschoben wurden. Dadurch wird verhindert, dass nicht verwendetes CSS in der Community Edition gebündelt wird, wodurch unnötige Payloads reduziert und tote Stilregeln eliminiert werden, während gleichzeitig eine ordnungsgemäße Formatierung sichergestellt wird, wenn Commerce-Module aktiviert sind.
 
 ### GraphQL
 
-#### Die GraphQL-Antwort für die Bestellplatzierung enthält nicht die Ausnahmemeldung
-
-Die vorherige Änderung, die Fehler in einem anderen Format zurückgab, wurde rückgängig gemacht. Jetzt werden potenzielle Fehler konsistent zurückgegeben, sodass das GraphQL-Schema nicht beschädigt wird.
-
-_ACP2E-3399_
-
-### Reihenfolge
-
-#### Anforderungsliste für ein Produkt, das einer neuen Website und Quelle zugewiesen wurde, kann nicht erstellt werden
-
-Fehlerkorrektur - Anforderungslisten können jetzt für Produkte erstellt werden, die einer neuen Website und Quelle zugewiesen sind, wenn [!UICONTROL Add Store Code to URLs] aktiviert ist. Das Problem trat auf, weil der Speicher-Code aus der API-Anfrage entfernt wurde, was einen nicht autorisierten Fehler verursachte. Nach der Fehlerbehebung wird der richtige Speicherkontext beibehalten und die Anforderungslisten erfolgreich erstellt.
-
-_AC-16226_
-
-### Preisgestaltung
-
-#### Versanddetails stimmen nach Abschluss des PayPal Express-Checkout für ein verhandelbares Angebot nicht überein
-
-Diese Version behebt eine Diskrepanz bei den Versandkosten beim Abschluss eines PayPal Express-Checkouts für ein genehmigtes verhandelbares Angebot.
-Vor der Fehlerbehebung wurde der Versand fälschlicherweise verdoppelt (10 US-Dollar statt 5 US-Dollar), was zu überhöhten Gesamtwerten führte.
-Die Fehlerbehebung stellt sicher, dass die korrekten Versandkosten angewendet werden.
-
-_AC-15280_
-
-### Produkt
-
-#### Druckoption „Anforderungsliste Seite drucken“ funktioniert nicht
-
-Die Option „Drucken“ auf der Seite „Anforderungsliste“ funktioniert jetzt ordnungsgemäß.
-Zuvor führte das Klicken auf [!UICONTROL Print] zu dem Fehler: `An error has happened during application run. See exception log for details.`
-
-_AC-14711_
-
-#### Beim Speichern des freigegebenen Katalogs wird ein veralteter Funktionsfehler zurückgegeben
-
-Eine Administratorin bzw. ein Administrator kann jetzt erfolgreich die Zuweisung von Produkten zum freigegebenen Katalog aufheben.
-Zuvor führte das Aufheben der Zuweisung von Produkten mit einer großen Anzahl langer Produkt-SKUs aus dem freigegebenen Katalog zu einem Fehler.
-
-_ACP2E-4097_
-
+![Problem behoben](../assets/fix.svg)<!-- ACP2E-3399 --> **GraphQL-Fehlerantwortformat** - Stellt eine vorherige Änderung wieder her, die Fehler in einem anderen Format zurückgab. Jetzt werden potenzielle Fehler konsistent zurückgegeben, sodass das GraphQL-Schema nicht beschädigt wird.
 
 ## B2B v1.5.2-p4
 
-@@ -55,7 +163,7 @@ Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p9, 2.4.6 bis 2.4.6-p14.
 *10. März 2026*
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitspatches der Adobe Commerce-Versionen 2.4.8-p4, 2.4.7-p9 und 2.4.6-p14.
-Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p9, 2.4.6 bis 2.4.6-p14
+Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p9, 2.4.6 bis 2.4.6-p14.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB26-05](https://helpx.adobe.com/de/security/products/magento/apsb26-05.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.5.2-p3
 
@@ -164,7 +92,7 @@ Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p9, 2.4.6 bis 2.4.6-p14
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitspatches der Adobe Commerce-Versionen 2.4.8-p3, 2.4.7-p8 und 2.4.6-p13.
 Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p7, 2.4.6 bis 2.4.6-p12.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-94](https://helpx.adobe.com/de/security/products/magento/apsb25-94.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.5.2-p2
 
@@ -173,7 +101,7 @@ Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p7, 2.4.6 bis 2.4.6-p12.
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitspatches der Adobe Commerce-Versionen 2.4.8-p2, 2.4.7-p7 und 2.4.6-p12.
 Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p6, 2.4.6 bis 2.4.6-p11.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.5.2-p1
 
@@ -182,7 +110,7 @@ Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p6, 2.4.6 bis 2.4.6-p11.
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitspatches der Adobe Commerce-Versionen 2.4.8-p1, 2.4.7-p6 und 2.4.6-p11.
 Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p5, 2.4.6 bis 2.4.6-p10.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/de/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B 1.5.2
 
@@ -211,9 +139,9 @@ Diese Verbesserung baut auf der Multi-Company-Membership-Funktion von B2B 1.5.0 
 
 ![Problem behoben](../assets/fix.svg) Die B2B-Version 1.5.2 enthält die folgenden Fehlerbehebungen für verhandelbare Angebote:
 
-- &#x200B;<!-- B2B-3252 -->Das Feld [!UICONTROL Line Item Discount Amount] validiert jetzt die Eingabe, um die Eingabe negativer Rabattwerte zu verhindern.
-- &#x200B;<!-- B2B-3224 -->Es wurde ein Problem mit dem Benutzererlebnis behoben, bei dem lange Zeileneintragsnotizen abgeschnitten und für B2B-Kunden schwer lesbar waren.
-- &#x200B;<!-- B2B-2865 -->B2B-Kunden können jetzt Produktmengen mithilfe von Dezimalwerten (z. B. 1.5 oder 2.75) angeben, wenn sie Angebote erstellen.
+- <!-- B2B-3252 -->Das Feld [!UICONTROL Line Item Discount Amount] validiert jetzt die Eingabe, um die Eingabe negativer Rabattwerte zu verhindern.
+- <!-- B2B-3224 -->Es wurde ein Problem mit dem Benutzererlebnis behoben, bei dem lange Zeileneintragsnotizen abgeschnitten und für B2B-Kunden schwer lesbar waren.
+- <!-- B2B-2865 -->B2B-Kunden können jetzt Produktmengen mithilfe von Dezimalwerten (z. B. 1.5 oder 2.75) angeben, wenn sie Angebote erstellen.
 
 ### Angebotsvorlage
 
@@ -243,7 +171,7 @@ Die B2B-Version 1.5.1 enthält Qualitätsverbesserungen und Fehlerbehebungen.
 
 ### Verhandelbares Angebot
 
-![Es wurde &#x200B;](../assets/fix.svg)<!-- B2B-3820 --> Problem behoben: Das System behält jetzt die Position von Benutzeroberflächenelementen bei, wenn die JavaScript-Validierung auf die *[!UICONTROL min/max qty]* Felder auf der Seite „Zitatvorlage“ der Luma-Storefront angewendet wird. Zuvor hat das Anwenden der JavaScript-Validierung auf diese Felder dazu geführt, dass sich andere Benutzeroberflächenelemente auf der Seite verschoben haben.
+![Es wurde ](../assets/fix.svg)<!-- B2B-3820 --> Problem behoben: Das System behält jetzt die Position von Benutzeroberflächenelementen bei, wenn die JavaScript-Validierung auf die *[!UICONTROL min/max qty]* Felder auf der Seite „Zitatvorlage“ der Luma-Storefront angewendet wird. Zuvor hat das Anwenden der JavaScript-Validierung auf diese Felder dazu geführt, dass sich andere Benutzeroberflächenelemente auf der Seite verschoben haben.
 
 ### Warenkorb
 
@@ -260,7 +188,7 @@ Die B2B-Version 1.5.1 enthält Qualitätsverbesserungen und Fehlerbehebungen.
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Patch-Versionen für Adobe Commerce 2.4.7-p3+ und 2.4.6-p8+.
 Kompatibel mit Adobe Commerce 2.4.8-beta1, 2.4.7 bis 2.4.7-p2, 2.4.6 bis 2.4.6-p7.
 
-Adobe Commerce B2B Version 1.5.0 ist auch mit PHP 8.3 kompatibel und unterstützt den [GraphQL Application Server](https://experienceleague.adobe.com/de/docs/commerce-operations/performance-best-practices/concepts/application-server).
+Adobe Commerce B2B Version 1.5.0 ist auch mit PHP 8.3 kompatibel und unterstützt den [GraphQL Application Server](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 Die B2B-Version 1.5.0 enthält neue Funktionen, Qualitätsverbesserungen und Fehlerbehebungen.
 
@@ -282,15 +210,16 @@ Die B2B-Version 1.5.0 enthält neue Funktionen, Qualitätsverbesserungen und Feh
 
 ### Unternehmenskonten
 
-![Neu](../assets/new.svg)<!--B2B-2828--> **Zuweisung mehrerer Unternehmen** - Vereinfachen Sie den Zugriff auf Firmenkonten für Firmenbenutzer, indem Sie einen Benutzer mehreren Unternehmen zuweisen. Wenn Sie beispielsweise einen Käufer haben, der Bestellungen von mehreren Firmen-Sites aufgibt, erstellen Sie ein einziges Konto und weisen Sie diesem Konto alle Firmen zu, mit denen der Käufer arbeitet. Dann kann sich der Käufer einmal anmelden und zwischen Unternehmenskonten wechseln, indem er das Unternehmen in der Storefront auswählt.
+![Neu](../assets/new.svg)<!--B2B-2828--> **Zuweisung mehrerer Unternehmen** - Vereinfachen Sie den Zugriff auf Firmenkonten für Firmenbenutzer, indem Sie einen Benutzer mehreren Unternehmen zuweisen. Wenn Sie beispielsweise einen Käufer haben, der Bestellungen von mehreren Firmen-Sites aufgibt, erstellen Sie ein einziges Konto und weisen Sie diesem Konto alle Firmen zu, mit denen der Käufer zusammenarbeitet. Dann kann sich der Käufer einmal anmelden und zwischen Unternehmenskonten wechseln, indem er das Unternehmen in der Storefront auswählt.
 
 >[!NOTE]
 >
 >Ein Unternehmensbenutzer kann mehreren Unternehmen zugewiesen werden, er kann jedoch der Unternehmensadministrator für nur ein Unternehmen sein.
 
-![Neu](../assets/new.svg) <!--B2B-2747--> **Bereichsauswahl für Unternehmen** - Bietet die Möglichkeit für Unternehmensbenutzer, die mehreren Unternehmen zugewiesen sind, Unternehmen in der Storefront zu ändern. Wenn der Umfang gewechselt wird, werden die Daten aktualisiert, um die Informationen basierend auf dem neuen Unternehmenskontext anzuzeigen. Wenn die neue Firma beispielsweise einen anderen freigegebenen Katalog verwendet, sieht der Firmenbenutzer Produkte, Preise und andere Informationen, die auf dem neuen freigegebenen Katalog basieren. Inhalte in Bezug auf Bestellungen, Angebote und Angebotsvorlagen werden ebenfalls auf der Grundlage des Kontexts des ausgewählten Unternehmens aktualisiert.
+![Neu](../assets/new.svg) <!--B2B-2747--> **Auswahl des Unternehmensbereichs** - Bietet die Möglichkeit für Unternehmensbenutzer, die mehreren Unternehmen zugewiesen sind, Unternehmen in der Storefront zu ändern. Wenn der Umfang gewechselt wird, werden die Daten aktualisiert, um die Informationen basierend auf dem neuen Unternehmenskontext anzuzeigen. Wenn die neue Firma beispielsweise einen anderen freigegebenen Katalog verwendet, sieht der Firmenbenutzer Produkte, Preise und andere Informationen, die auf dem neuen freigegebenen Katalog basieren. Inhalte in Bezug auf Bestellungen, Angebote und Angebotsvorlagen werden ebenfalls auf der Grundlage des Kontexts des ausgewählten Unternehmens aktualisiert.
 
 >[!NOTE]
+>
 >Der Warenkorbinhalt spiegelt die vom aktuellen Kunden ausgewählten Artikel wider. Wenn der Kunde über einen aktiven Warenkorb verfügt und ein anderes Unternehmen auswählt, wird er aufgefordert, den Warenkorb zu aktualisieren, um das Produktsortiment, die Preise und Rabatte für Werbeaktionen auf der Grundlage des neuen Firmenkontexts widerzuspiegeln. Produkte, die im mit der neuen Firma verknüpften Katalog nicht verfügbar sind, werden aus dem Warenkorb entfernt. Wenn das Produkt einen anderen Preis oder eine andere Verfügbarkeit hat, wird der Warenkorb aktualisiert, um die im Kontext des ausgewählten Unternehmens verfügbaren Daten widerzuspiegeln.<!--B2B-4222-->
 
 ![Problem behoben](../assets/fix.svg)<!--ACP2E-1933--> Unternehmensadministratoren können jetzt Unternehmensbenutzer aus der Storefront hinzufügen. Zuvor hat Commerce einen Fehler protokolliert, wenn ein Administrator bzw. eine Administratorin versucht hat, einen neuen Benutzer hinzuzufügen: `CRITICAL: Error: Call to a member function __toArray() on null in app/code/Magento/LoginAsCustomerLogging/Observer/LogSaveCustomerObserver.php:123`.
@@ -312,13 +241,13 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 - **Angebot als Entwurf speichern**<!--B2B-2566--> - Beim Erstellen einer [Angebotsanfrage](quote-request.md) aus dem Warenkorb können Käufer das Angebot jetzt als Entwurf speichern, damit sie es überprüfen und aktualisieren können, bevor sie den Angebotsverhandlungsprozess mit dem Verkäufer starten. Der Angebotsentwurf hat kein Ablaufdatum. Einkäufer können Angebotsentwürfe im Abschnitt [!UICONTROL My Quotes] ihres Konto-Dashboards einsehen und aktualisieren.
 
-- **Angebot umbenennen**<!--B2B-2596--> - Käufer können jetzt einen Angebotsnamen auf der Seite [Angebotsdetails“ &#x200B;](account-dashboard-my-quotes.md#quote-actions), indem sie die Option **[!UICONTROL Rename]** auswählen. Diese Option steht autorisierten Käufern beim Bearbeiten des Angebots zur Verfügung. Namensänderungsereignisse werden im Angebotsprotokoll aufgezeichnet.
+- **Angebot umbenennen**<!--B2B-2596--> - Käufer können jetzt einen Angebotsnamen auf der Seite [Angebotsdetails“ ](account-dashboard-my-quotes.md#quote-actions), indem sie die Option **[!UICONTROL Rename]** auswählen. Diese Option steht autorisierten Käufern beim Bearbeiten des Angebots zur Verfügung. Namensänderungsereignisse werden im Angebotsprotokoll aufgezeichnet.
 
-- **Doppeltes Angebot**<!--B2B-2701--> - Käufer und Verkäufer können jetzt ein neues Angebot durch Kopieren eines vorhandenen Angebots erstellen. Eine Kopie wird aus der Angebotsdetailansicht erstellt, indem **[!UICONTROL Create Copy]** in der [Angebotsdetailansicht) &#x200B;](quote-price-negotiation.md#button-bar) Admin oder der [Storefront“ &#x200B;](account-dashboard-my-quotes.md#quote-actions).
+- **Doppeltes Angebot**<!--B2B-2701--> - Käufer und Verkäufer können jetzt ein neues Angebot durch Kopieren eines vorhandenen Angebots erstellen. Eine Kopie wird aus der Angebotsdetailansicht erstellt, indem **[!UICONTROL Create Copy]** in der [Angebotsdetailansicht) ](quote-price-negotiation.md#button-bar) Admin oder der [Storefront“ ](account-dashboard-my-quotes.md#quote-actions).
 
 - **Angebotsartikel in Anforderungsliste verschieben**<!--B2B-2755--> - Einkäufer haben jetzt die Möglichkeit, Produkte aus einem Angebot zu entfernen und in einer Anforderungsliste zu speichern, wenn sie sie nicht in den Angebotsaushandlungsprozess einbeziehen möchten.
 
-- **Mehrere Produkte aus einem Angebot entfernen**<!--B2B-2881--> - Bei Angeboten mit einer großen Anzahl von Produkten können Käufer jetzt mehrere Produkte aus dem Angebot entfernen, indem sie sie auswählen und die Option *[!UICONTROL Remove]* aus dem *[!UICONTROL Actions]* auf der Seite „Angebotsdetails“ verwenden. In früheren Versionen musste ein Käufer Produkte einzeln löschen.
+- **Mehrere Produkte aus einem Angebot entfernen**<!--B2B-2881--> - Bei Angeboten mit einer großen Anzahl von Produkten können Käuferinnen und Käufer jetzt mehrere Produkte aus dem Angebot entfernen, indem sie sie einzeln auswählen und die Option *[!UICONTROL Remove]* aus dem *[!UICONTROL Actions]* auf der Seite „Angebotsdetails“ verwenden. In früheren Versionen musste ein Käufer Produkte einzeln löschen.
 
 - **Rabattsperre für Einzelposten**<!--B2B-2597--> - Bei der Angebotsaushandlung können Verkäufer die Rabattsperre für Einzelposten verwenden, um mehr Flexibilität bei der Anwendung von Rabatten während der Angebotsaushandlung zu erhalten. Beispielsweise kann ein Verkäufer einen speziellen Positionsrabatt auf einen Artikel anwenden und den Artikel sperren, um weitere Rabatte zu verhindern. Wenn ein Artikel gesperrt ist, kann der Artikelpreis nicht aktualisiert werden, wenn ein Rabatt auf Angebotsebene angewendet wird. Siehe [Angebot für einen Einkäufer starten](sales-rep-initiates-quote.md).
 
@@ -342,7 +271,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce-Sicherheits-Patch-Versionen 2.4.7-p8+ und 2.4.6-p13+.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-94](https://helpx.adobe.com/de/security/products/magento/apsb25-94.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) dokumentierten Sicherheitskorrekturen.
 
 {{b2b-compatibility}}
 
@@ -352,7 +281,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitsaktualisierungen für Adobe Commerce 2.4.7-p7+ und 2.4.6-p12+.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 {{b2b-compatibility}}
 
@@ -362,7 +291,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce-Sicherheits-Patch-Versionen 2.4.7-p6+ und 2.4.6-p11+.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/de/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
 
 {{b2b-compatibility}}
 
@@ -374,7 +303,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 ![Neu](../assets/new.svg) Hinzugefügte Kompatibilität mit Adobe Commerce 2.4.7-p5+ und 2.4.6-p10+ Sicherheits-Patch-Versionen.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-26](https://helpx.adobe.com/de/security/products/magento/apsb25-26.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html) dokumentierten Sicherheitskorrekturen.
 
 {{b2b-compatibility}}
 
@@ -386,7 +315,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 ![Neu](../assets/new.svg) Hinzugefügte Kompatibilität mit Adobe Commerce 2.4.7-p4+ und 2.4.6-p9+ Sicherheits-Patch-Versionen.
 
-![Problem behoben](../assets/fix.svg) Enthält die in [Security Bulletin APSB25-08](https://helpx.adobe.com/de/security/products/magento/apsb25-08.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Enthält die in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) dokumentierten Sicherheitskorrekturen.
 
 {{b2b-compatibility}}
 
@@ -398,17 +327,19 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 ![Neu](../assets/new.svg) Hinzugefügte Kompatibilität mit Adobe Commerce 2.4.7-p3+ und 2.4.6-p8+ Sicherheits-Patch-Versionen.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB24-73](https://helpx.adobe.com/de/security/products/magento/apsb24-73.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html) dokumentierten Sicherheitskorrekturen.
 
 {{b2b-compatibility}}
 
 ## B2B v1.4.2-p2
 
+*6. August 2024*
+
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce-Sicherheits-Patch-Versionen 2.4.7-p2+ und 2.4.6-p7+.
 
 ![Neu](../assets/new.svg) Hinzugefügte Kompatibilität mit Adobe Commerce 2.4.7-p2+ und 2.4.6-p7+ Sicherheits-Patch-Versionen.
 
-![Problem behoben](../assets/fix.svg) Umfasst die im Sicherheitsbulletin xxxx dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die im Security Bulletin (APSB24[73) ](https://helpx.adobe.com/security/products/magento/apsb24-73.html) Sicherheitskorrekturen.
 
 {{b2b-compatibility}}
 
@@ -434,13 +365,13 @@ Die B2B-Version 1.4.2 enthält Qualitätsverbesserungen und Fehlerbehebungen.
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B ab Version 1.4.2 ist mit PHP 8.2 kompatibel. Wenn Sie die Commerce-Instanz auf Version 2.4.7 oder höher aktualisieren, stellen Sie sicher, dass die Instanz PHP Version 8.2 verwendet, um die Kompatibilität mit Adobe Commerce B2B-Version zu gewährleisten. Darüber hinaus unterstützt B2B 1.4.2+ derzeit nicht den [GraphQL-Anwendungsserver](https://experienceleague.adobe.com/de/docs/commerce-operations/performance-best-practices/concepts/application-server).
+>Adobe Commerce B2B ab Version 1.4.2 ist mit PHP 8.2 kompatibel. Wenn Sie die Commerce-Instanz auf Version 2.4.7 oder höher aktualisieren, stellen Sie sicher, dass die Instanz PHP Version 8.2 verwendet, um die Kompatibilität mit Adobe Commerce B2B-Version zu gewährleisten. Darüber hinaus unterstützt B2B 1.4.2+ derzeit nicht den [GraphQL-Anwendungsserver](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## B2B v1.4.1
 
 *7. August 2023*
 
-[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=de). Kompatibel mit Adobe Commerce 2.4.7-beta1.
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Kompatibel mit Adobe Commerce 2.4.7-beta1.
 
 Die B2B-Version 1.4.1 enthält Qualitätsverbesserungen und Fehlerbehebungen.
 
@@ -458,7 +389,7 @@ Die B2B-Version 1.4.1 enthält Qualitätsverbesserungen und Fehlerbehebungen.
 
 *13. Juni 2023*
 
-[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=de). Kompatibel mit Adobe Commerce 2.4.7-beta1.
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html). Kompatibel mit Adobe Commerce 2.4.7-beta1.
 
 Diese Version enthält neue Funktionen und Verbesserungen für B2B-verhandelbare Angebote und mehrere Fehlerbehebungen.
 
@@ -484,7 +415,7 @@ Diese Version enthält neue Funktionen und Verbesserungen für B2B-verhandelbare
 
 ### Bekanntes Problem
 
-Beim Installieren oder Aktualisieren von B2B 1.4.0 auf [Adobe Commerce Version 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=de) tritt der folgende Fehler auf:
+Beim Installieren oder Aktualisieren von B2B 1.4.0 auf [Adobe Commerce Version 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html) tritt der folgende Fehler auf:
 
 ```
 Your requirements could not be resolved to an installable set of packages.
@@ -496,7 +427,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das B2B-Sicherheitspaket mit einem &quot;[-Tag“ &#x200B;](https://getcomposer.org/doc/04-schema.md#package-links). Anweisungen finden Sie in der [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html?lang=de).
+Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das B2B-Sicherheitspaket mit einem &quot;[-Tag“ ](https://getcomposer.org/doc/04-schema.md#package-links). Anweisungen finden Sie in der [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html).
 
 ## B2B v1.3.5-p13
 
@@ -504,7 +435,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce-Sicherheits-Patch-Versionen 2.4.6-p13+.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-94](https://helpx.adobe.com/de/security/products/magento/apsb25-94.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.5-p12
 
@@ -512,7 +443,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce-Sicherheits-Patch-Versionen 2.4.6-p12+.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.5-p10
 
@@ -522,7 +453,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Neu](../assets/new.svg) Hinzugefügte Kompatibilität mit den Adobe Commerce 2.4.6-p10 Sicherheits-Patch-Versionen.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-26](https://helpx.adobe.com/de/security/products/magento/apsb25-26.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.5-p9
 
@@ -532,7 +463,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Neu](../assets/new.svg) Hinzugefügte Kompatibilität mit den Adobe Commerce 2.4.6-p9 Sicherheits-Patch-Versionen.
 
-![Problem behoben](../assets/fix.svg) Enthält die in [Security Bulletin APSB25-08](https://helpx.adobe.com/de/security/products/magento/apsb25-08.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Enthält die in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.5-p8
 
@@ -542,7 +473,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Neu](../assets/new.svg) Hinzugefügte Kompatibilität mit den Adobe Commerce 2.4.6-p8 Sicherheits-Patch-Versionen.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB24-73](https://helpx.adobe.com/de/security/products/magento/apsb24-73.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.5-p7
 
@@ -564,7 +495,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 >[!NOTE]
 >
->Stellen Sie nach dem Upgrade von Commerce von 2.4.6 auf [neueste Version](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=de#2.4.6) sicher, dass Sie auf die unterstützte Patch-Version B2B 1.3.5 aktualisieren. Oder aktualisieren Sie die B2B-Erweiterung von Version 1.3.5 auf Version 1.4.0 oder höher, um die neuesten Funktionen zu erhalten.
+>Stellen Sie nach dem Upgrade von Commerce von 2.4.6 auf [neueste Version](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html#2.4.6) sicher, dass Sie auf die unterstützte Patch-Version B2B 1.3.5 aktualisieren. Oder aktualisieren Sie die B2B-Erweiterung von Version 1.3.5 auf Version 1.4.0 oder höher, um die neuesten Funktionen zu erhalten.
 
 ![Neu](../assets/new.svg) Unterstützung für Adobe Commerce 2.4.6 wurde hinzugefügt.
 
@@ -578,7 +509,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Problem behoben](../assets/fix.svg) <!--- ACP2E-1203--> Admin-Benutzer können jetzt benutzerdefinierte Attributwerte von Kunden für Firmenbenutzer speichern. Zuvor konnten benutzerdefinierte Kundenattribute für Unternehmensbenutzer nicht gespeichert werden.
 
-![Es wurde &#x200B;](../assets/fix.svg), <!--- ACP2E-1221--> Leistungsprobleme durch die Validierung von Unternehmensberechtigungen behoben werden, die über GraphQL bereitgestellt werden, wenn bereits viele Unternehmensberechtigungen zugewiesen sind.
+![Es wurde ](../assets/fix.svg), <!--- ACP2E-1221--> Leistungsprobleme durch die Validierung von Unternehmensberechtigungen behoben werden, die über GraphQL bereitgestellt werden, wenn bereits viele Unternehmensberechtigungen zugewiesen sind.
 
 ![Problem behoben](../assets/fix.svg) <!--- ACP2E-1242--> Adobe Commerce gibt keinen Fehler mehr auf der Warenkorbseite aus, wenn die Schnellbestellung zum Hinzufügen eines Produkts in einer Menge verwendet wird, die den verfügbaren Lagerbestand übersteigt.
 
@@ -594,7 +525,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.5-p16 (erweiterte Unterstützung)
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB26-05](https://helpx.adobe.com/de/security/products/magento/apsb26-05.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.4-p15
 
@@ -602,7 +533,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.0 und neuere Versionen
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-94](https://helpx.adobe.com/de/security/products/magento/apsb25-94.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.4-p14
 
@@ -610,7 +541,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.0 und neuere Versionen
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.4-p13
 
@@ -620,7 +551,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Neu](../assets/new.svg) Unterstützung für Adobe Commerce 2.4.5-p12 wurde hinzugefügt.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/de/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.4-p12
 
@@ -630,7 +561,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Neu](../assets/new.svg) Unterstützung für Adobe Commerce 2.4.5-p12 wurde hinzugefügt.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-26](https://helpx.adobe.com/de/security/products/magento/apsb25-26.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-26](https://helpx.adobe.com/security/products/magento/apsb25-26.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.4-p11
 
@@ -640,7 +571,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Neu](../assets/new.svg) Unterstützung für Adobe Commerce 2.4.5-p11 wurde hinzugefügt.
 
-![Problem behoben](../assets/fix.svg) Enthält die in [Security Bulletin APSB25-08](https://helpx.adobe.com/de/security/products/magento/apsb25-08.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Enthält die in [Security Bulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.4-p10
 
@@ -650,7 +581,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Neu](../assets/new.svg) Unterstützung für Adobe Commerce 2.4.5-p10 wurde hinzugefügt.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB24-73](https://helpx.adobe.com/de/security/products/magento/apsb24-73.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB24-73](https://helpx.adobe.com/security/products/magento/apsb24-73.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.4
 
@@ -692,8 +623,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.4-p17 (erweiterte Unterstützung)
 
-![Problem behoben](../assets/fix.svg) Enthält die in [Security Bulletin APSB26-05 dokumentierten Sicherheitskorrekturen](https://helpx.adobe.com/de/security/products/magento/apsb26-05.html)
-
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.3-p16
 
@@ -701,7 +631,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.0 und neuere Versionen
 
-![Problem behoben](../assets/fix.svg) Enthält die in [Security Bulletin APSB25-94 dokumentierten Sicherheitskorrekturen](https://helpx.adobe.com/de/security/products/magento/apsb25-94.html)
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.3-p15
 
@@ -709,7 +639,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.0 und neuere Versionen
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten ](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.3.3-p14
 
@@ -719,7 +649,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Neu](../assets/new.svg) Unterstützung für Adobe Commerce 2.4.5-p12 wurde hinzugefügt.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/de/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.3.3
 
@@ -791,7 +721,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Problem behoben](../assets/fix.svg) <!--- MC-41260--> Wenn Sie auf die Schaltfläche **[!UICONTROL Return]** für eine Bestellung klicken, die von einem Unternehmensbenutzer erstellt wurde, wird ein Benutzer mit Administratorrechten wie erwartet zur Seite „Rücksendung erstellen“ weitergeleitet. Zuvor wurde der Administrator zur Seite Auftragsverlauf weitergeleitet.
 
-![Problem behoben](../assets/fix.svg) Nur [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} schlägt <!--- MC-40798--> Adobe Commerce beim Ausführen der `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` während des `bin/magento setup:upgrade` nicht mehr mit einem Fehler wegen unzureichendem Arbeitsspeicher fehl. Zuvor hat Adobe Commerce bei der Initialisierung von Berechtigungen nicht die Batch-Größe für die Sammlung verwendet, sondern stattdessen eine Sammlung aller Unternehmensrollen geladen.
+![Problem behoben](../assets/fix.svg) Nur [!BADGE PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} schlägt <!--- MC-40798--> Adobe Commerce beim Ausführen der `app/code/Magento/PurchaseOrder/Setup/Patch/Data/InitPermissions.php::apply` während des `bin/magento setup:upgrade` nicht mehr mit einem Fehler wegen unzureichendem Arbeitsspeicher fehl. Zuvor hat Adobe Commerce bei der Initialisierung von Berechtigungen nicht die Batch-Größe für die Sammlung verwendet, sondern stattdessen eine Sammlung aller Unternehmensrollen geladen.
 
 ![Problem behoben](../assets/fix.svg) Benutzende von <!--- MC-40551--> können jetzt benutzerdefinierte Attributwerte von Kunden bearbeiten und aktualisieren. Zuvor waren diese Attribute nicht ordnungsgemäß an das Benutzerformular zum Erstellen und Bearbeiten gebunden. Ein Unternehmensbenutzer konnte verschiedene Attributwerte eingeben, aber Adobe Commerce hat diese Werte nicht korrekt gespeichert.
 
@@ -807,7 +737,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Problem behoben](../assets/fix.svg) <!--- MC-41523--> Adobe Commerce sendet jetzt Unternehmens-E-Mails von der richtigen `from`-E-Mail-Adresse und dem richtigen Umfang. Zuvor berücksichtigte Adobe Commerce beim Senden der Kreditzuweisung eines Unternehmens oder bei der E-Mail-Aktualisierung den Umfang der Website nicht.
 
-### Schnellauftrag
+### Schnellbestellung
 
 ![Problem behoben](../assets/fix.svg) <!--- MC-42104--> Das Erstellen einer Bestellung mithilfe einer Schnellbestellung aus einer CSV-Datei funktioniert jetzt mit nicht vorhandenen SKUs wie erwartet.
 
@@ -835,7 +765,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ### Bestellungen
 
-![Es wurde &#x200B;](../assets/fix.svg), <!--- MC-39983--> Adobe Commerce jetzt eine informative Fehlermeldung wie erwartet anzeigt, wenn Sie eine Bestellung mit PayPal Express Checkout aufgeben, wenn das **[!UICONTROL Name Prefix]** auf `required` gesetzt ist. Zuvor hat Adobe Commerce keine Bestellung aufgegeben oder keine Fehlermeldung angezeigt.
+![Es wurde ](../assets/fix.svg), <!--- MC-39983--> Adobe Commerce jetzt eine informative Fehlermeldung wie erwartet anzeigt, wenn Sie eine Bestellung mit PayPal Express Checkout aufgeben, wenn das **[!UICONTROL Name Prefix]** auf `required` gesetzt ist. Zuvor hat Adobe Commerce keine Bestellung aufgegeben oder keine Fehlermeldung angezeigt.
 
 ![Problem behoben](../assets/fix.svg) <!--- MC-39620--> Die Benutzeroberflächenkomponente für die Rechnungsadresse im Bestellmodul verwendet jetzt die Angebotsadresse korrekt, wenn der Google Tag Manager aktiviert ist. Zuvor ist auf der Zahlungsseite ein JavaScript-Fehler aufgetreten.
 
@@ -843,7 +773,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Problem behoben](../assets/fix.svg) <!--- MC-40426--> Händler können jetzt den Endpunkt POST-`rest/all/V1/requisition_lists` verwenden, um eine Anforderungsliste für einen Kunden zu erstellen. Zuvor gab Adobe Commerce diesen 400-Fehler, als Sie versuchten, eine Anforderungsliste zu erstellen: `Could not save Requisition List`.
 
-![Problem behoben](../assets/fix.svg) <!--- MC-41123--> Die Schaltfläche **[!UICONTROL Add to Requisition List]** wird jetzt für die vorrätigen Produkte eines Warenkorbs angezeigt, wenn der Warenkorb auch nicht vorrätige Produkte enthält. Wenn ein Warenkorb zuvor zwei Produkte enthielt, von denen eines nicht vorrätig war, wurde bei keinem der Produkte die Schaltfläche _[!UICONTROL Add to Requisition List]_&#x200B;angezeigt.
+![Problem behoben](../assets/fix.svg) <!--- MC-41123--> Die Schaltfläche **[!UICONTROL Add to Requisition List]** wird jetzt für die vorrätigen Produkte eines Warenkorbs angezeigt, wenn der Warenkorb auch nicht vorrätige Produkte enthält. Wenn ein Warenkorb zuvor zwei Produkte enthielt, von denen eines nicht vorrätig war, wurde bei keinem der Produkte die Schaltfläche _[!UICONTROL Add to Requisition List]_angezeigt.
 
 ![Problem behoben](../assets/fix.svg) <!--- MC-40877--> Sie können jetzt die REST-API verwenden, um ein Produkt zu einer Anforderungsliste hinzuzufügen.
 
@@ -879,7 +809,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Neu](../assets/new.svg) Für Bestellungen werden jetzt Online-Zahlungsmethoden unterstützt.
 
-![Es wurde &#x200B;](../assets/fix.svg), dass beim Hinzufügen eines konfigurierbaren Produkts zum Warenkorb direkt über eine Anforderungsliste, wenn dieses Produkt in einer früheren Bestellung verwendet wurde, kein Systemfehler mehr zurückgegeben wird.
+![Es wurde ](../assets/fix.svg), dass beim Hinzufügen eines konfigurierbaren Produkts zum Warenkorb direkt über eine Anforderungsliste, wenn dieses Produkt in einer früheren Bestellung verwendet wurde, kein Systemfehler mehr zurückgegeben wird.
 
 ![Problem behoben](../assets/fix.svg) Adobe Commerce zeigt jetzt bei Bestellungen, wenn eine Aufspaltungs-Datenbankkonfiguration bereitgestellt wird, die Registerkarte Meine Genehmigung erforderlich korrekt an.
 
@@ -897,7 +827,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Problem behoben](../assets/fix.svg) Adobe Commerce speichert jetzt ein gruppiertes Produkt in einer Anforderungsliste als Liste einfacher Produkte auf die gleiche Weise, wie es ein gruppiertes Produkt zum Warenkorb hinzufügt. Aufgrund der Art und Weise, wie Adobe Commerce gruppierte Produkte gespeichert hat, wurde der Link für ein gruppiertes Produkt aus der Anforderungsliste bisher immer zu einfachen Produkten und nicht zu dem gruppierten Produkt umgeleitet. <!--- MC-38049-->
 
-![Es wurde ein Problem &#x200B;](../assets/fix.svg). Beim Exportieren von Bestellinformationen im CSV-Format können Bestellungen jetzt nach dem Feld &quot;**[!UICONTROL Company Name]**&quot; gefiltert werden. Zuvor hat Adobe Commerce einen Fehler in `var/export/{file-id}` protokolliert. <!--- MC-37785-->
+![Es wurde ein Problem ](../assets/fix.svg). Beim Exportieren von Bestellinformationen im CSV-Format können Bestellungen jetzt nach dem Feld &quot;**[!UICONTROL Company Name]**&quot; gefiltert werden. Zuvor hat Adobe Commerce einen Fehler in `var/export/{file-id}` protokolliert. <!--- MC-37785-->
 
 ![Problem behoben](../assets/fix.svg) Adobe Commerce zeigt jetzt das Popup Anforderungsliste erstellen wie erwartet an, wenn Sie in der Storefront die Registerkarte Neue Anforderungsliste erstellen auswählen. <!--- MC-37915-->
 
@@ -909,7 +839,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 ![Problem behoben](../assets/fix.svg) Die Schaltfläche &quot;**[!UICONTROL Add to Cart]**&quot; ist nicht mehr blockiert, wenn der Abschnitt &quot;_[!UICONTROL Enter Multiple SKUs]_&quot; auf der Seite „Schnellbestellung“ einen leeren Wert enthält. Stattdessen zeigt Adobe Commerce jetzt eine Meldung an, in der Sie aufgefordert werden, gültige SKUs einzugeben. <!--- MC-37387-->
 
-![Es wurde ein Problem &#x200B;](../assets/fix.svg): Adobe Commerce zeigt diese Meldung jetzt auf der Produktseite an, wenn Sie eine Produktüberprüfung über eine Anforderungsliste senden: `You submitted your review for moderation`. Die Überprüfung wird auch auf der Seite Ausstehende Überprüfungen angezeigt (Admin **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**). Obwohl Adobe Commerce die Überprüfung zur Liste der ausstehenden Überprüfungen hinzugefügt hat, wurde zuvor ein 404-Fehler auf der Produktseite angezeigt. <!--- MC-37119-->
+![Es wurde ein Problem ](../assets/fix.svg): Adobe Commerce zeigt diese Meldung jetzt auf der Produktseite an, wenn Sie eine Produktüberprüfung über eine Anforderungsliste senden: `You submitted your review for moderation`. Die Überprüfung wird auch auf der Seite Ausstehende Überprüfungen angezeigt (Admin **[!UICONTROL Marketing]** > **[!UICONTROL Pending Reviews]**). Obwohl Adobe Commerce die Überprüfung zur Liste der ausstehenden Überprüfungen hinzugefügt hat, wurde zuvor ein 404-Fehler auf der Produktseite angezeigt. <!--- MC-37119-->
 
 ![Problem behoben](../assets/fix.svg) Die Leistung des `sharedCatalogUpdateCategoryPermissions` Verbrauchers wurde verbessert. Nach dem Erstellen eines freigegebenen Katalogs verwendet der Indexer für Katalogberechtigungen jetzt nur noch die Kundengruppen-ID aus dem freigegebenen Katalog, nicht aber alle Kundengruppen. <!--- MC-36770-->
 
@@ -933,7 +863,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 - Adobe Commerce zeigt manchmal einen 404-Fehler an, wenn ein Käufer eine Bestellung erstellt und dann zur Kasse navigiert. Dieser Fehler tritt auf, wenn ein Käufer zuvor eine andere Bestellung mit einer Online-Zahlungsmethode erstellt hat, bevor er zur Kasse navigiert, ohne den vorherigen Kauf abzuschließen. Der Käufer kann die Bestellung dennoch aufgeben. **_Problemumgehung_**: Keine. <!--- B2B-1605-->
 
-- Rabatte für eine bestimmte Zahlungsmethode bleiben während des Checkouts für eine Bestellung bestehen, auch wenn der Käufer seine Zahlungsmethode während des endgültigen Checkouts ändert. Kunden können somit einen Rabatt erhalten, zu dem sie keinen Anspruch haben. Dieses Problem tritt auf, weil für die ursprüngliche Zahlungsmethode trotz der Änderung der Zahlungsmethode weiterhin eine Warenkorbregel angewendet wird. **_Problemumgehung_**: Keine. Siehe den bekannten Artikel [Adobe Commerce 2.4.2 B2B: Rabatt bleibt für Online-Bestellungen bestehen, nachdem die Zahlungsmethode geändert wurde](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html?lang=de) _Wissensdatenbank_. <!-- B2B-1012 -->
+- Rabatte für eine bestimmte Zahlungsmethode bleiben während des Checkouts für eine Bestellung bestehen, auch wenn der Käufer seine Zahlungsmethode während des endgültigen Checkouts ändert. Kunden können somit einen Rabatt erhalten, zu dem sie keinen Anspruch haben. Dieses Problem tritt auf, weil für die ursprüngliche Zahlungsmethode trotz der Änderung der Zahlungsmethode weiterhin eine Warenkorbregel angewendet wird. **_Problemumgehung_**: Keine. Siehe den bekannten Artikel [Adobe Commerce 2.4.2 B2B: Rabatt bleibt für Online-Bestellungen bestehen, nachdem die Zahlungsmethode geändert wurde](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html) _Wissensdatenbank_. <!-- B2B-1012 -->
 
 - Die `deleteRequisitionListOutput` Abfrage gibt Details zur gelöschten Anforderungsliste anstelle der übrigen Anforderungslisten zurück. <!--- MC-39894-->
 
@@ -951,7 +881,7 @@ Diese Version umfasst Verbesserungen bei Auftragsgenehmigungen, Versandmethoden,
 
 ![Neu](../assets/new.svg) B2B-Händler können jetzt Versandmethoden steuern, die jeder Firma angeboten werden.<!--- BUNDLE-160 161 162 -->
 
-![Neu](../assets/new.svg) Händler können es Benutzern jetzt ermöglichen, den Inhalt ihres Warenkorbs in einer einzigen Aktion zu löschen und diese Funktion unabhängig auf jeder Website zu konfigurieren <!--- BUNDLE-108 -->
+![Neu](../assets/new.svg) Händler können es Benutzenden jetzt ermöglichen, den Inhalt ihres Warenkorbs in einer einzigen Aktion zu löschen und diese Funktion unabhängig auf jeder Website zu konfigurieren. <!--- BUNDLE-108 -->
 
 ![Neu](../assets/new.svg) B2B-Käufer können jetzt einzelne Artikel oder den gesamten Inhalt ihres Warenkorbs direkt einer Anforderungsliste hinzufügen. <!--- BUNDLE-145 144-->
 
@@ -967,7 +897,7 @@ Diese Version umfasst Verbesserungen bei Auftragsgenehmigungen, Versandmethoden,
 
 ![Neu](../assets/new.svg) In den Unternehmensmodulen durchgeführte Admin-Aktionen werden jetzt im Admin-Aktionsprotokoll protokolliert. Aktionen werden aus allen relevanten Unternehmensmodulen protokolliert: `Company`, `NegotiableQuote`, `CompanyCredit`, `SharedCatalog`. <!--- BUNDLE-180 181 182 183 -->
 
-![Es wurde ein Problem &#x200B;](../assets/fix.svg): Adobe Commerce zeigt die Schaltfläche **[!UICONTROL Delete customer]** auf der Seite **Kunden** nicht mehr an, wenn der angemeldete Administrator nicht über die Berechtigungen zum Löschen von Kunden in Bereitstellungen verfügt, in denen B2B installiert ist. <!--- MC-35655-->
+![Es wurde ein Problem ](../assets/fix.svg): Adobe Commerce zeigt die Schaltfläche **[!UICONTROL Delete customer]** auf der Seite **Kunden** nicht mehr an, wenn der angemeldete Administrator nicht über die Berechtigungen zum Löschen von Kunden in Bereitstellungen verfügt, in denen B2B installiert ist. <!--- MC-35655-->
 
 ![Problem behoben](../assets/fix.svg) Die Kundengruppe wird für einen Kunden, der einer Firma zugewiesen ist, nicht mehr automatisch geändert, wenn Sie den Kunden im Kundenraster bearbeiten. <!--- MC-35254-->
 
@@ -983,7 +913,9 @@ Diese Version umfasst Verbesserungen bei Auftragsgenehmigungen, Versandmethoden,
 
 ![Problem behoben](../assets/fix.svg) Benutzerdefinierte Kundenadressenattribut-Felder werden jetzt wie erwartet im Checkout-Workflow der Storefront angezeigt. <!--- MC-35607-->
 
-![Problem behoben](../assets/fix.svg) Die Registerkarte Konfiguration von B2B-Funktionen wird jetzt korrekt geöffnet. <!--- MC-35458--> Gäste können jetzt QuickOrder verwenden, um Produkte zu ihrem Warenkorb hinzuzufügen und dann erfolgreich Artikel zu entfernen. Wenn ein Käufer QuickOrder verwendet hat, um mehrere Produkte zum Warenkorb hinzuzufügen, und dann ein Produkt entfernt hat, wurde das Produkt nicht entfernt. <!--- MC-35327-->
+![Problem behoben](../assets/fix.svg) Die Registerkarte Konfiguration von B2B-Funktionen wird jetzt korrekt geöffnet. <!--- MC-35458-->
+
+![Problem behoben](../assets/fix.svg) Gäste können jetzt QuickOrder verwenden, um Produkte zu ihrem Warenkorb hinzuzufügen und dann erfolgreich Artikel zu entfernen. Wenn ein Käufer QuickOrder verwendet hat, um mehrere Produkte zum Warenkorb hinzuzufügen, und dann ein Produkt entfernt hat, wurde das Produkt nicht entfernt. <!--- MC-35327-->
 
 ![Problem behoben](../assets/fix.svg) Ein Unternehmen kann jetzt mit der REST-API PUT `/V1/company/:companyId`-Anfrage aktualisiert werden, ohne die `region_id` anzugeben, wenn der Status als &quot;**erforderlich“ konfiguriert**. Zuvor gab Adobe Commerce einen Fehler aus, wenn er nicht angegeben wurde, obwohl `region_id` nicht erforderlich war. <!--- MC-35304-->
 
@@ -997,11 +929,11 @@ Diese Version umfasst Verbesserungen bei Auftragsgenehmigungen, Versandmethoden,
 
 ![Problem behoben](../assets/fix.svg) Die Deaktivierung von Belohnungsmodulen wirkt sich nicht mehr auf B2B-Funktionen in Kundenkonten aus. Wenn die Belohnungsmodule zuvor deaktiviert waren, wurden die folgenden B2B-bezogenen Registerkarten nicht angezeigt: Firmenprofil, Firmenbenutzer sowie Rollen und Berechtigungen.<!--- MC-34191-->
 
-![Es wurde ein Problem &#x200B;](../assets/fix.svg): Adobe Commerce verwendet jetzt den richtigen Absendernamen in E-Mail-Benachrichtigungen, wenn Änderungen an Unternehmenskonten vorgenommen werden. Zuvor verwendete Adobe Commerce für alle E-Mails den allgemeinen Absendernamen des Kontakts, der im Standardbereich definiert ist. <!--- MC-33917-->
+![Es wurde ein Problem ](../assets/fix.svg): Adobe Commerce verwendet jetzt den richtigen Absendernamen in E-Mail-Benachrichtigungen, wenn Änderungen an Unternehmenskonten vorgenommen werden. Zuvor verwendete Adobe Commerce für alle E-Mails den allgemeinen Absendernamen des Kontakts, der im Standardbereich definiert ist. <!--- MC-33917-->
 
 ![Problem behoben](../assets/fix.svg) Sie können jetzt erfolgreich Multishipping für Bestellungen implementieren, die sowohl physische als auch virtuelle Produkte enthalten. <!--- MC-33818-->
 
-![Problem behoben](../assets/fix.svg) Händler können jetzt Firmenbenutzer aus dem Abschnitt _[!UICONTROL Company Users]_&#x200B;auf den Seiten Mein Konto und Unternehmensstruktur erstellen, wenn **[!UICONTROL Access Restriction]**&#x200B;aktiviert und **[!UICONTROL Restriction Mode]**&#x200B;auf `Sales: Login Only` gesetzt ist. Zuvor gab Adobe Commerce diesen Fehler aus, als ein Händler versuchte, einen Benutzer zu erstellen: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
+![Problem behoben](../assets/fix.svg) Händler können jetzt Firmenbenutzer aus dem Abschnitt _[!UICONTROL Company Users]_auf den Seiten Mein Konto und Unternehmensstruktur erstellen, wenn **[!UICONTROL Access Restriction]**aktiviert und **[!UICONTROL Restriction Mode]**auf `Sales: Login Only` gesetzt ist. Zuvor gab Adobe Commerce diesen Fehler aus, als ein Händler versuchte, einen Benutzer zu erstellen: `Can not register new customer due to restrictions are enabled`. <!--- MC-33608-->
 
 ![Problem behoben](../assets/fix.svg) Adobe Commerce setzt die Kundengruppe eines Kunden nicht mehr auf den Standardwert zurück, wenn ein Kunde seine Kontoinformationen speichert. <!--- MC-33554-->
 
@@ -1027,7 +959,7 @@ Diese Version umfasst Verbesserungen bei Auftragsgenehmigungen, Versandmethoden,
 
 ![Neu](../assets/new.svg) Unterstützung für Adobe Commerce 2.4.0 wurde hinzugefügt.
 
-![Neu](../assets/new.svg) Storefront Order Search, mit einem zusätzlichen Dank für den Beitrag von Marek Mularczyk von [Divante](https://www.divante.com/) und Community-Mitgliedern.
+![Neu](../assets/new.svg) Storefront Order Search, mit Dank für den Beitrag von Marek Mularczyk von [Divante](https://www.divante.com/) und Community-Mitgliedern.
 
 ![Neu](../assets/new.svg) Bestellungen werden verbessert und neu geschrieben. Sie sind jetzt standardmäßig in Adobe Commerce enthalten.
 
@@ -1057,31 +989,31 @@ Diese Version umfasst Verbesserungen bei Auftragsgenehmigungen, Versandmethoden,
 
 ![Problem behoben](../assets/fix.svg) Aufgrund eines falschen Variablentypwerts konnten Admins keine konfigurierbaren Produkte zu einer Bestellung hinzufügen. Die Dropdown-Listen für Optionen werden nicht befüllt. Diese Funktion funktioniert jetzt ordnungsgemäß.
 
-![Es wurde &#x200B;](../assets/fix.svg) Problem behoben: Beim Bearbeiten von Kategorieberechtigungen für die Gruppe Nicht angemeldet trat beim Speichern der Änderungen zuvor ein Fehler auf. Dieses Problem wurde behoben.
+![Es wurde ](../assets/fix.svg) Problem behoben: Beim Bearbeiten von Kategorieberechtigungen für die Gruppe Nicht angemeldet trat beim Speichern der Änderungen zuvor ein Fehler auf. Dieses Problem wurde behoben.
 
 ![Problem behoben](../assets/fix.svg) Es wurde eine Korrektur hinzugefügt, mit der Store-Administratoren Produkte zu einer Bestellung hinzufügen können, die nicht im freigegebenen Katalog enthalten sind. Zuvor wurde eine Fehlermeldung angezeigt, wenn ein Element hinzugefügt wurde, das sich nicht im Katalog befindet.
 
-![Problem behoben](../assets/fix.svg) [!BADGE nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Zuvor trat nach dem Ausführen des `php bin/magento indexer:set-dimensions-mode catalog_product_price website` und dem anschließenden Versuch, einen freigegebenen Katalog zu erstellen, ein Fehler auf. Dieses Problem wurde behoben.
+![Problem behoben](../assets/fix.svg) [!BADGE nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Zuvor trat nach dem Ausführen des `php bin/magento indexer:set-dimensions-mode catalog_product_price website` und dem anschließenden Versuch, einen freigegebenen Katalog zu erstellen, ein Fehler auf. Dieses Problem wurde behoben.
 
-![Es wurde &#x200B;](../assets/fix.svg) Problem behoben, dass beim Hinzufügen eines Unternehmens und Zuweisen des Unternehmensadministrators zu einer nicht standardmäßigen Website die falsche Site-ID gesendet wurde, was einen Fehler verursachte. Dieses Problem wurde behoben.
+![Es wurde ](../assets/fix.svg) Problem behoben, dass beim Hinzufügen eines Unternehmens und Zuweisen des Unternehmensadministrators zu einer nicht standardmäßigen Website die falsche Site-ID gesendet wurde, was einen Fehler verursachte. Dieses Problem wurde behoben.
 
 ![Problem behoben](../assets/fix.svg) Nachdem ein Kunde in eine andere Kundengruppe verschoben wurde, schlug das Hinzufügen eines Produkts zu einer Bestellung mit _Schnellbestellung_ mit einem Fehler fehl. Dieses Problem wurde behoben.
 
-![Es wurde &#x200B;](../assets/fix.svg) Problem behoben, dass beim Versuch, die Web-API mit einem B2B-Zitat zu verwenden, zuvor ein falscher Wert an die API gesendet wurde, was zu einem Fehler führte. Dieses Problem wurde behoben.
+![Es wurde ](../assets/fix.svg) Problem behoben, dass beim Versuch, die Web-API mit einem B2B-Zitat zu verwenden, zuvor ein falscher Wert an die API gesendet wurde, was zu einem Fehler führte. Dieses Problem wurde behoben.
 
 ![Problem behoben](../assets/fix.svg) Zuvor trat ein Fehler auf, wenn ein Unternehmen über die API auf „Aktiv“ gesetzt wurde. Dieses Problem wurde jetzt behoben.
 
 ![Fehlerkorrektur](../assets/fix.svg) Aufgrund eines nicht benötigten `form`-Tags wird die Bestellseite automatisch aktualisiert, wenn Sie die Eingabetaste drücken, nachdem Sie eine vorgeschlagene Versandgebühr geändert haben. Dieses Problem wurde behoben.
 
-![Es wurde &#x200B;](../assets/fix.svg) Problem behoben: Beim Festlegen eines Produktanzeigebeschränkens auf einer Katalogseite, wobei dieser Grenzwert kleiner als die Anzahl der Gesamtprodukte war, ist zuvor ein Fehler aufgetreten. Diese Funktion funktioniert jetzt erwartungsgemäß.
+![Es wurde ](../assets/fix.svg) Problem behoben: Beim Festlegen eines Produktanzeigebeschränkens auf einer Katalogseite, wobei dieser Grenzwert kleiner als die Anzahl der Gesamtprodukte war, ist zuvor ein Fehler aufgetreten. Diese Funktion funktioniert jetzt erwartungsgemäß.
 
 ![Problem behoben](../assets/fix.svg) Zuvor wurde beim Ändern des Administrators eines Unternehmens die ursprüngliche Admin-Adresse zum neuen Administrator kopiert, sodass er zwei Adressen erhielt. Jetzt wird nur noch die richtige Adresse hinzugefügt.
 
-![Es wurde ein Problem &#x200B;](../assets/fix.svg). Zuvor schlug die Verwendung der -API zum Speichern eines Angebotselements, wenn Git auf „Zulässig“ eingestellt war, und „Kunde benachrichtigen“ fehl. Dieser API-Aufruf funktioniert jetzt erwartungsgemäß.
+![Es wurde ein Problem ](../assets/fix.svg). Zuvor schlug die Verwendung der -API zum Speichern eines Angebotselements, wenn der Auftragsrückstand auf „Zulässig und Kunde benachrichtigen“ eingestellt war, fehl.  „Zulässig und Kunde benachrichtigen“ schlägt fehl. Dieser API-Aufruf funktioniert jetzt erwartungsgemäß.
 
 ![Problem behoben](../assets/fix.svg) Die feste Produktsteuer wird jetzt auf der Seite mit den Angebotsdetails angezeigt.
 
-![Es wurde &#x200B;](../assets/fix.svg) Problem behoben: Zuvor konnte die Datei nicht heruntergeladen werden, wenn auf der Seite Meine Anführungszeichen auf der Registerkarte Kommentare auf eine Anlage geklickt wurde. Dieses Verhalten funktioniert jetzt erwartungsgemäß.
+![Es wurde ](../assets/fix.svg) Problem behoben: Zuvor konnte die Datei nicht heruntergeladen werden, wenn auf der Seite Meine Anführungszeichen auf der Registerkarte Kommentare auf eine Anlage geklickt wurde. Dieses Verhalten funktioniert jetzt erwartungsgemäß.
 
 ### Bekannte Probleme
 
