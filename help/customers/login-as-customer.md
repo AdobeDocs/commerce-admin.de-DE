@@ -123,7 +123,7 @@ Für den Kunden muss das `login_as_customer_assistance_allowed`-Erweiterungsattr
 
 ![Konfiguration des Kundeneinverständniserweiterungs-Attributs auf der Seite „Kunde bearbeiten“](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
-Um diese Berechtigung für ein bestehendes Kundenkonto mit GraphQL festzulegen, legen Sie die `allow_remote_shopping_assistance`-Eingabe mithilfe der `true`[`updateCustomerV2` oder ](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/)[`createCustomerV2` Mutationen auf ](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/) fest.
+Um diese Berechtigung für ein bestehendes Kundenkonto mit GraphQL festzulegen, legen Sie die `allow_remote_shopping_assistance`-Eingabe mithilfe der `true`[`updateCustomerV2` oder &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/) [`createCustomerV2` Mutationen auf &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/) fest.
 
 >[!ENDTABS]
 
@@ -177,7 +177,7 @@ Um diese Berechtigung für ein bestehendes Kundenkonto mit GraphQL festzulegen, 
 
 >[!IMPORTANT]
 >
->Der generierte OTC-Einmalcode ist standardmäßig 30 Sekunden lang gültig und wird nach einer einzigen Verwendung ungültig. Die TTL kann durch Senden eines -Support[Tickets konfiguriert ](https://experienceleague.adobe.com/home?support-tab=home#support).
+>Der generierte OTC-Einmalcode ist standardmäßig 30 Sekunden lang gültig und wird nach einer einzigen Verwendung ungültig. Die TTL kann durch Senden eines -Support[Tickets konfiguriert &#x200B;](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 Nachdem der Einmalcode generiert wurde, können Sie ihn verwenden, indem Sie zu Ihrer Storefront navigieren und sich mit den folgenden Anmeldeinformationen anmelden:
 
