@@ -3,9 +3,9 @@ title: Kundenunterstützung bereitstellen
 description: Wenn Sie die Funktion „Anmeldung als Kunde“ verwenden, können Sie sehen, was die Kunden sehen, und in ihrem Namen Aktualisierungen vornehmen.
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+source-git-commit: 29f3a8bb019d464e6d7646e0ebc7a4fa2ed0dd74
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ Manchmal benötigen Kunden Hilfe bei ihrer Bestellung. Store-Administratoren kö
 
 Alle Aktionen, die während der Anmeldung als Kunde durchgeführt werden, werden auf das Konto des tatsächlichen Kunden angewendet.
 
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
 Wenn sie für einen _Admin_-Benutzer aktiviert ist, wird die _[!UICONTROL Login as Customer]_-Schaltfläche auf mehreren Seiten angezeigt:
 
 * [Seite „Kunden bearbeiten“](../customers/update-account.md)
@@ -25,6 +31,20 @@ Wenn sie für einen _Admin_-Benutzer aktiviert ist, wird die _[!UICONTROL Login 
 * [Seite „Gutschriftsansicht“](../stores-purchase/credit-memo-create.md)
 
 ![Als Kunde anmelden](assets/login-as-customer.png){width="600" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+
+In Adobe Commerce as a Cloud Service verwendet die Funktion „Als Kunde anmelden“ einen **Einmalcode (OTC)-** anstelle einer direkten Anmeldung. Admins generieren einen kurzlebigen Einmalcode für einen Kunden. Dieser Code kann dann über GraphQL in ein Kunden-Zugriffstoken umgetauscht werden, sodass eine passwortlose Anmeldung als Kunden-Workflows für verkäuferunterstützte Einkaufsszenarien möglich ist.
+
+Die Funktion umfasst die folgenden Komponenten:
+
+* **Admin-**: Auf der Seite „Kundenbearbeitung“ können Administratoren einen einmaligen Code (OTC) anfordern, anstatt sich direkt als Kunde anzumelden.
+* **[REST API](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/)** - Ein programmatischer Endpunkt für die OTC-Generierung, der für Admin-Skripte und Drittanbieter-Integrationen nützlich ist.
+* **GraphQL-API** - Mutationen, die ein OTC-Token gegen ein Kunden-Zugriffstoken für Storefront- oder Headless-Commerce-Flüsse eintauschen.
+
+>[!ENDTABS]
 
 ## Anmeldung als Kunde aktivieren
 
@@ -73,7 +93,47 @@ Für die Aktivierung _Als Kunde anmelden_ müssen Sie die Funktion in Ihrer Comm
 
 1. Klicken Sie auf **[!UICONTROL Save Role]**.
 
+## Kundenkonto-Berechtigung für Unterstützung beim Remote-Shopping
+
+Um den Kontozugriff für Mitarbeiter des Store-Supports über die Admin zu aktivieren, muss eine Kundin oder ein Kunde die Funktion für ihr Konto aktivieren:
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
+1. Der Kunde navigiert zur Seite **[!UICONTROL Account Information]** .
+
+1. Aktiviert das Kontrollkästchen **[!UICONTROL Allow remote shopping assistance]** .
+
+1. Der Kunde klickt auf **[!UICONTROL Save]**.
+
+![Kontoinformationsseite](assets/permission.png){width="700" zoomable="yes"}
+
+>[!TAB Adobe Commerce as a Cloud Service]
+
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+
+Für den Kunden muss das `login_as_customer_assistance_allowed`-Erweiterungsattribut auf &quot;**&quot;**. Dies kann auf der Seite **Kunde bearbeiten** in der Admin Console oder über GraphQL beim Erstellen oder Bearbeiten eines Kunden konfiguriert werden.
+
+>[!WARNING]
+>
+>Ohne diese Berechtigung kann sich ein Admin-Benutzer nicht als dieser Kunde anmelden.
+
+![Konfiguration des Kundeneinverständniserweiterungs-Attributs auf der Seite „Kunde bearbeiten“](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
+
+Um diese Berechtigung für ein bestehendes Kundenkonto mit GraphQL festzulegen, legen Sie die `allow_remote_shopping_assistance`-Eingabe mithilfe der `true`[`updateCustomerV2` oder ](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/)[`createCustomerV2` Mutationen auf ](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/) fest.
+
+>[!ENDTABS]
+
 ## Melden Sie sich als Kunde über den Administrator an
+
+>[!BEGINTABS]
+
+>[!TAB Adobe Commerce]
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > [!UICONTROL _Alle Kunden_].
 
@@ -87,21 +147,44 @@ Für die Aktivierung _Als Kunde anmelden_ müssen Sie die Funktion in Ihrer Comm
    >
    >Der Administrator kann sich jetzt ohne seine Berechtigung von der Storefront aus als Benutzer anmelden.
 
-## Kundenkonto-Berechtigung für Unterstützung beim Remote-Shopping
+>[!TAB Adobe Commerce as a Cloud Service]
 
-Um den Kontozugriff für Mitarbeiter des Store-Supports über die Admin zu aktivieren, muss eine Kundin oder ein Kunde die Funktion für ihr Konto aktivieren:
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
-1. Der Kunde navigiert zur Seite **[!UICONTROL Account Information]** .
-
-1. Aktiviert das Kontrollkästchen **[!UICONTROL Allow remote shopping assistance]** .
-
-1. Der Kunde klickt auf **[!UICONTROL Save]**.
-
-![Kontoinformationsseite](assets/permission.png){width="700" zoomable="yes"}
-
->[!WARNING]
+>[!NOTE]
 >
->Ohne diese Berechtigung kann sich ein Admin-Benutzer nicht als dieser Kunde anmelden.
+>Anleitungen für die Implementierung dieser Funktion mithilfe von REST finden Sie in der Dokumentation [Anmeldung als Kunde](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/login-as-customer/) REST-API .
+
+### Fordern Sie einen einmaligen Code (OTC) vom Administrator an
+
+1. Navigieren Sie zu **[!UICONTROL Customers]** und wählen Sie einen Kunden aus, um die Bearbeitungsseite zu öffnen.
+
+1. Klicken Sie auf der Seite „Kunden bearbeiten“ auf **[!UICONTROL Get Customer Login OTC]**.
+
+   ![Schaltfläche „OTC für Kundenanmeldung abrufen“ auf der Seite „Kunde bearbeiten“](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+
+1. Geben Sie einen **[!UICONTROL Reason]** ein (erforderlich) und klicken Sie auf **[!UICONTROL Request]**.
+
+   ![OTC-Anfrage-Modal mit Feld „Grund“](assets/otc-reason-modal.png){width="600" zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >Das **Grund**-Feld ist erforderlich. Sie wird an den OTP-Generierungsfluss übergeben und ist für die Verwendung in kommenden Audit- und Ereignisprotokollierungsfunktionen reserviert.
+
+1. Das generierte OTC wird im Modal angezeigt. Verwenden Sie diesen Code mit der `generateCustomerToken`- oder `exchangeOtpForCustomerToken` GraphQL-Mutation zur Kundenautorisierung.
+
+   ![Generated OTC wird im Modal angezeigt](assets/otc-generated-code.png){width="300" zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>Der generierte OTC-Einmalcode ist standardmäßig 30 Sekunden lang gültig und wird nach einer einzigen Verwendung ungültig. Die TTL kann durch Senden eines -Support[Tickets konfiguriert ](https://experienceleague.adobe.com/home?support-tab=home#support).
+
+Nachdem der Einmalcode generiert wurde, können Sie ihn verwenden, indem Sie zu Ihrer Storefront navigieren und sich mit den folgenden Anmeldeinformationen anmelden:
+
+* **Email**: Die E-Mail-Adresse des Kunden
+* **Kennwort**: Der generierte einmalige Code (OTC)
+
+>[!ENDTABS]
 
 ## Anmeldung als Kunde verwenden
 
