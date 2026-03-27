@@ -1,12 +1,12 @@
 ---
 title: 'Konto erstellen und  [!DNL Commerce] '
 description: Erfahren Sie mehr über  [!DNL Commerce] -Konten, die die von Ihnen erworbenen Produkte und Services verwalten.
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-source-git-commit: 518333eb4a5bcd2c4276ade008bb38552c7fd066
+source-git-commit: 96acaff3e614a5758fdc51bc5de70ce0507a970a
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Ein [!DNL Commerce]-Konto ist Ihr zentraler Zugriffspunkt für die Verwaltung von Adobe Commerce-Services für Adobe Commerce-Projekte, die in der Cloud-Infrastruktur oder lokal bereitgestellt werden. Über das Konto-Dashboard können Sie Abonnements anzeigen, Commerce Services-API-Schlüssel verwalten, historische Rechnungsinformationen überprüfen und mit anderen Benutzenden in Ihrem Unternehmen zusammenarbeiten.
 
-Wenn Sie Ihr erstes [&#x200B; einreichen oder &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) Adobe Commerce-Beziehung verwalten müssen, anstatt in einer bestimmten Storefront zu arbeiten, erstellen oder greifen Sie zunächst auf Ihr [!DNL Commerce]-Konto zu.
+Wenn Sie Ihr erstes [ einreichen oder ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) Adobe Commerce-Beziehung verwalten müssen, anstatt in einer bestimmten Storefront zu arbeiten, erstellen oder greifen Sie zunächst auf Ihr [!DNL Commerce]-Konto zu.
 
-Sie können über die [!DNL Commerce]-Website auf Ihr [!DNL Commerce]-Konto zugreifen. Im Konto-Dashboard können Sie Informationen zu den von Ihnen erworbenen Produkten und Services anzeigen und anderen Benutzern [freigegebenen Zugriff](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) gewähren. Einige Informationen, z. B. Commerce Services-API-Schlüssel, sind nur für Lizenzinhaber sichtbar.
+Sie können über die [!DNL Commerce]-Website auf Ihr [!DNL Commerce]-Konto zugreifen. Im Konto-Dashboard können Sie Informationen zu den von Ihnen erworbenen Produkten und Services anzeigen und anderen Benutzern [freigegebenen Zugriff](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) gewähren. Einige Informationen, z. B. Commerce Services-API-Schlüssel, sind nur für Lizenzinhaber sichtbar.
 
 >[!NOTE]
 >
@@ -30,11 +30,11 @@ Sie können über die [!DNL Commerce]-Website auf Ihr [!DNL Commerce]-Konto zugr
 
 Die Anmeldung mit Ihrem [!DNL Commerce] Konto ist nicht mit der Anmeldung bei Ihrem Store-Administrator identisch. Normalerweise verwenden Sie für jedes System unterschiedliche Anmeldeinformationen, und der Zugriff auf jedes System wird unabhängig verwaltet.
 
-Benutzende, die ihre Anmeldung bei Adobe Commerce- und Adobe Business-Produkten optimieren möchten, können ihre Adobe ID jedoch so konfigurieren, dass sie sich beim Store-Admin anmelden: [Konfigurieren der Commerce-Admin-Integration mit Adobe ID](https://experienceleague.adobe.com/de/docs/commerce-admin/start/admin/ims/adobe-ims-config) im *IMS-Integrationshandbuch für Commerce*.
+Benutzende, die ihre Anmeldung bei Adobe Commerce- und Adobe Business-Produkten optimieren möchten, können ihre Adobe ID jedoch so konfigurieren, dass sie sich beim Store-Admin anmelden: [Konfigurieren der Commerce-Admin-Integration mit Adobe ID](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-config) im *IMS-Integrationshandbuch für Commerce*.
 
 >[!NOTE]
 >
->Nachdem Sie Ihr -Konto erstellt haben, wird empfohlen, die Zwei-Faktor-Authentifizierung (TFA) zu verwenden, um [Ihr -Konto zu &#x200B;](commerce-account-secure.md).
+>Nachdem Sie Ihr -Konto erstellt haben, wird empfohlen, die Zwei-Faktor-Authentifizierung (TFA) zu verwenden, um [Ihr -Konto zu ](commerce-account-secure.md).
 
 ## Beim [!DNL Commerce]-Konto anmelden
 
@@ -42,7 +42,7 @@ Für den Zugriff auf Ihr [!DNL Commerce] ist eine Adobe ID erforderlich. Wenn Si
 
 >[!WARNING]
 >
->Wenn Sie beim Senden eines Adobe Commerce-[Support-Falls](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) die Commerce-Organisation nicht finden können, bedeutet dies normalerweise Folgendes: Der Kontoinhaber hat keine Adobe ID erstellt, oder es gibt eine Adobe ID, die jedoch nicht mit dem Commerce-Konto verknüpft ist.
+>Wenn Sie beim Senden eines Adobe Commerce-[Support-Falls](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) die Commerce-Organisation nicht finden können, bedeutet dies normalerweise Folgendes: Der Kontoinhaber hat keine Adobe ID erstellt, oder es gibt eine Adobe ID, die jedoch nicht mit dem Commerce-Konto verknüpft ist.
 
 1. Navigieren Sie zur [[!DNL Commerce]](https://account.magento.com/customer/account/login/).
 
@@ -108,6 +108,19 @@ Jeder kann ein kostenloses [!DNL Commerce] Konto erstellen. Die von Ihnen verwen
 
 Mit Shared Access können Sie vertrauenswürdigen Benutzenden (z. B. Kollegen, Partnern oder Administratoren) die Berechtigung erteilen, Ihre Adobe Commerce-Beziehung in Ihrem Namen zu verwalten, ohne Ihre persönliche Anmeldung zu verwenden. Dazu gehört auch, anderen das Öffnen und Verfolgen von Support-Fällen zu ermöglichen.
 
-Im Abschnitt [Freigeben eines Commerce-](https://experienceleague.adobe.com/de/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en)&quot; in den ersten Schritten mit Adobe Commerce finden Sie ausführliche Schritte zum Einrichten eines freigegebenen Kontos.
+Im Abschnitt [Freigeben eines Commerce-](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en)&quot; in den ersten Schritten mit Adobe Commerce finden Sie ausführliche Schritte zum Einrichten eines freigegebenen Kontos.
 
-Detaillierte Anweisungen zum Senden eines Commerce-Support-Falls finden Sie im [Benutzerhandbuch für das Adobe Commerce Help Center](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
+Detaillierte Anweisungen zum Senden eines Commerce-Support-Falls finden Sie im [Benutzerhandbuch für das Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
+
+## Zusammenfassung
+
+| Szenario | Was ist los? | Vorgehensweise bei Adobe ID | Vorgehensweise für das MAGE ID-/Commerce-Konto | Ergebnis |
+| --- | --- | --- | --- | --- |
+| Neu bei Adobe und Commerce | Keine Adobe ID, keine MAGE-ID | Erstellen Sie eine Adobe ID, wenn Sie während der Anmeldung bei https://account.magento.com dazu aufgefordert werden. | Nachdem Adobe ID erstellt wurde, melden Sie sich erneut bei https://account.magento.com an | Es wird ein Commerce-Konto erstellt und eine MAGE-ID generiert und mit der Adobe ID verknüpft |
+| Hat Adobe ID, aber noch keine MAGE-ID | Verwendet nur andere Adobe-Produkte | Mit Adobe ID unter https://account.magento.com anmelden | Bei der ersten erfolgreichen Anmeldung werden das Commerce-Konto und die MAGE-ID erstellt | Die Bild-ID wird automatisch erstellt und verknüpft |
+| Alter Commerce-Kunde mit alter MAGE-ID | Hat eine historische MAGE-ID, aber keine Adobe ID | Erstellen Sie unter https://account.adobe.com eine Adobe ID mit derselben E-Mail wie mit der vorhandenen MAGE-ID | Melden Sie sich mit „Mit Adobe ID anmelden“ bei https://account.magento.com an. | Die bestehende MAGE ID ist mit der neuen Adobe ID verknüpft. |
+| Adobe ID und MAGE-ID vorhanden, aber nicht verknüpft | E-Mails für Adobe ID und Commerce unterscheiden sich | Adobe ID-E-Mail an die E-Mail-Adresse des Commerce-Kontos anpassen (oder umgekehrt, je nach Eigentümer) | Melden Sie sich nach dem Abgleich der E-Mails über „Mit Adobe ID anmelden“ unter https://account.magento.com an. | Adobe ID wird zur Anmeldung. Die MAGE-ID bleibt die Berechtigungskennung |
+| Hat Adobe ID, aber keine MAGE-ID | Nie bei https://account.magento.com angemeldet | Vorhandene Adobe ID verwenden | Melden Sie sich zum ersten Mal bei https://account.magento.com an | Dieses erste Anmelden generiert und verknüpft eine BILD-ID |
+| Verwendet nur die Anmeldung bei Cloud-Projekten (accounts.magento.cloud) | Kann auf das Cloud-Projekt zugreifen, jedoch nicht auf das klassische Commerce-Konto | Adobe ID für Cloud-Projekt weiter verwenden | Wenn Marketplace/Lizenzen benötigt werden, melden Sie sich auch unter https://account.magento.com mit derselben Adobe ID an | Ein klassisches Commerce-Konto (mit BILD-ID) wird erstellt und verknüpft |
+
+Wenn ein(e) Benutzende(r) der Meinung ist, dass er/sie über Commerce-Berechtigungen verfügen sollte, aber keine MAGE-ID sieht, besteht der nächste Standardschritt darin, sich unter https://account.magento.com mit seiner/ihrer Adobe ID anzumelden, damit ein Commerce-Konto und eine MAGE-ID erstellt oder korrekt verknüpft werden können.
