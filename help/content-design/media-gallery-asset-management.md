@@ -3,7 +3,7 @@ title: Asset-Management für Mediensammlung
 description: Erfahren Sie, wie Sie hochgeladene Mediendateien und Assets verwalten, die Sie über eine Adobe Stock-Integration erhalten.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
 workflow-type: tm+mt
 source-wordcount: '494'
