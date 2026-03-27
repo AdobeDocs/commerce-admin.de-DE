@@ -3,10 +3,10 @@ title: Mediensammlungs-Ordnerverwaltung
 description: Erfahren Sie, wie Sie Ihre Medien-Assets mit Ordnern organisieren können.
 exl-id: 23cfbdac-08dd-454c-8212-8739c540ba16
 feature: Page Content, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: c542ab1bf941c8bebcb665b7c29b6a2a80c15790
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,7 @@ Verwenden von Ordnern zum Organisieren von Bildern in der neuen [Mediensammlung]
 
 ## Erstellen eines Ordners
 
->[!NOTE]
->
->Sie können nur einen Ordner in den Ordnern `pub/media/wysywig` und `pub/media/catalog/category` erstellen.
+Sie können nur Ordner in den `pub/media/wysywig`, `pub/media/catalog/category` oder anderen Ordnern erstellen, die von -Modulen hinzugefügt wurden.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
