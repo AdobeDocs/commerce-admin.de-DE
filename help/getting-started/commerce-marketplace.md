@@ -43,7 +43,7 @@ Die folgenden Ressourcen bieten einen Ausgangspunkt für neue Benutzende, um sic
 
 ## [!DNL Marketplace]
 
-Bevor Sie eine von [!DNL Commerce Marketplace] erworbene Erweiterung installieren können, melden Sie sich bei Ihrem [!DNL Commerce] Konto an und stellen Sie sicher, dass Sie über einen aktiven Zugriffsschlüssel verfügen. Sie können sich über die Kopfzeile von [!DNL Commerce][[!DNL Marketplace] oder ](https://marketplace.magento.com/)Magento.com bei Ihrem [-Konto ](https://business.adobe.com/products/magento/magento-commerce.html).
+Bevor Sie eine von [!DNL Commerce Marketplace] erworbene Erweiterung installieren können, melden Sie sich bei Ihrem [!DNL Commerce] Konto an und stellen Sie sicher, dass Sie über einen aktiven Zugriffsschlüssel verfügen. Sie können sich über die Kopfzeile von [!DNL Commerce][[!DNL Marketplace] oder &#x200B;](https://marketplace.magento.com/)Magento.com bei Ihrem [-Konto &#x200B;](https://business.adobe.com/products/magento/magento-commerce.html).
 
 Ihr Zugriffsschlüssel ist ein Satz öffentlicher und privater Schlüssel, mit denen Sie Ihre [!DNL Commerce] mit Ihrem [!DNL Commerce] synchronisieren und Ihre Anmeldeinformationen überprüfen können. Nachdem Ihr Konto synchronisiert wurde, müssen Sie bei jeder Installation einer Erweiterung oder eines Moduls aus Commerce Marketplace bzw. bei jedem Upgrade Ihrer [!DNL Commerce] Ihren privaten Schlüssel eingeben.
 
@@ -53,13 +53,13 @@ Sie können mehrere Zugriffsschlüssel für verschiedene Zwecke erstellen und si
 
 1. Melden Sie sich bei Ihrem [!DNL Commerce] Konto an.
 
-1. Wählen Sie auf der Seite _[!UICONTROL My Account]_die Registerkarte **[!UICONTROL Marketplace]**aus.
+1. Wählen Sie auf der Seite _[!UICONTROL My Account]_&#x200B;die Registerkarte **[!UICONTROL Marketplace]**&#x200B;aus.
 
 1. Klicken Sie oben rechts neben Ihrem Namen auf den Abwärtspfeil und wählen Sie **[!UICONTROL My Profile]** aus.
 
    ![Ihr [!DNL Marketplace] Profil](./assets/marketplace-profile.png){width="600"}
 
-1. Klicken Sie auf der Registerkarte _[!UICONTROL Marketplace]_unter_[!UICONTROL My Products]_ auf **[!UICONTROL Access Keys]**, und führen Sie dann einen der folgenden Schritte aus:
+1. Klicken Sie auf der Registerkarte _[!UICONTROL Marketplace]_&#x200B;unter&#x200B;_[!UICONTROL My Products]_ auf **[!UICONTROL Access Keys]**, und führen Sie dann einen der folgenden Schritte aus:
 
    - Überprüfen Sie, ob Sie bereits über einen Satz von Zugriffsschlüsseln für Ihre Marketplace-Käufe verfügen. Sie können mehrere Sets von Zugriffsschlüsseln für verschiedene Zwecke erstellen.
 
@@ -105,7 +105,7 @@ Anmeldeprobleme hängen normalerweise mit einer Diskrepanz zwischen Ihrer MAGEID
 
 >[!INFO]
 >
->Käufe von Mobile Apps und Erweiterungen können nicht [ ein neues ](#purchase-transfers) übertragen werden.
+>Käufe von Mobile Apps und Erweiterungen können nicht [&#x200B; ein neues &#x200B;](#purchase-transfers) übertragen werden.
 
 ### Open Source-Fragen
 
@@ -133,8 +133,8 @@ Um eine Auftragsrechnung für einen Marketplace-Kauf herunterzuladen, melden Sie
 
 ### Kaufübertragungen
 
-Das Marketplace-Supportteam hat keine Möglichkeit, Käufe auf ein anderes Konto zu übertragen. Sie müssen alle Apps und Erweiterungen unter dem primären Commerce-Konto erwerben, um Installations- und Bereitstellungsprobleme zu vermeiden. Adobe Commerce ist zu einer eindeutigen Kennung berechtigt. Da Composer für die Installation verwendet wird, kann nur ein Satz von [Zugriffsschlüsseln](#create-an-access-key) verwendet werden, die mit dem primären Konto verknüpft sind. Die einzige verfügbare Lösung besteht darin[ eine Rückerstattung ](#refund-requests) dem Marketplace-Kaufkonto anzufordern (sofern gemäß der Rückerstattungsrichtlinie von Adobe Commerce zulässig).
+Das Marketplace-Supportteam hat keine Möglichkeit, Käufe auf ein anderes Konto zu übertragen. Sie müssen alle Apps und Erweiterungen unter dem primären Commerce-Konto erwerben, um Installations- und Bereitstellungsprobleme zu vermeiden. Adobe Commerce ist zu einer eindeutigen Kennung berechtigt. Da Composer für die Installation verwendet wird, kann nur ein Satz von [Zugriffsschlüsseln](#create-an-access-key) verwendet werden, die mit dem primären Konto verknüpft sind. Die einzige verfügbare Lösung besteht darin[&#x200B; eine Rückerstattung &#x200B;](#refund-requests) dem Marketplace-Kaufkonto anzufordern (sofern gemäß der Rückerstattungsrichtlinie von Adobe Commerce zulässig).
 
-Sie können [ Commerce](commerce-account-share.md)Instanz über das Primärkonto freigeben. Der freigegebene Zugriff gewährt einem untergeordneten Konto von einem primären Konto aus spezielle Berechtigungen. Der freigegebene Zugriffspunkt wird vom primären Konto generiert. Das primäre Konto kann das berechtigte Commerce-Konto, das Haupt-Händlerkonto oder ein innerhalb eines Unternehmens freigegebenes Konto sein.
+Sie können [&#x200B; Commerce](commerce-account-share.md)Instanz über das Primärkonto freigeben. Der freigegebene Zugriff gewährt einem untergeordneten Konto von einem primären Konto aus spezielle Berechtigungen. Der freigegebene Zugriffspunkt wird vom primären Konto generiert. Das primäre Konto kann das berechtigte Commerce-Konto, das Haupt-Händlerkonto oder ein innerhalb eines Unternehmens freigegebenes Konto sein.
 
 Diese Sonderberechtigungen gewähren dieselbe Zugriffsebene auf Adobe Commerce wie die primäre Instanz, sie werden jedoch nicht in den Adobe Commerce Marketplace oder das Entwicklerportal übertragen. Das bedeutet, dass der Kauf einer Erweiterung von einem untergeordneten Konto auf dem Marketplace nicht mit dem primären Konto geteilt werden kann. Shared Access ist eine Einbahnstraße (primäres Konto untergeordnet). Dies funktioniert nicht, wenn ein untergeordnetes Konto versucht, eine Freigabe für die primäre Instanz durchzuführen.
