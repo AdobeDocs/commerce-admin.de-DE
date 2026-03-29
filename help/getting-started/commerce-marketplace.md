@@ -43,7 +43,7 @@ Die folgenden Ressourcen bieten einen Ausgangspunkt für neue Benutzende, um sic
 
 ## [!DNL Marketplace]
 
-Bevor Sie eine von [!DNL Commerce Marketplace] erworbene Erweiterung installieren können, melden Sie sich bei Ihrem [!DNL Commerce] Konto an und stellen Sie sicher, dass Sie über einen aktiven Zugriffsschlüssel verfügen. Sie können sich über die Kopfzeile von [!DNL Commerce][[!DNL Marketplace] oder &#x200B;](https://marketplace.magento.com/)Magento.com bei Ihrem [-Konto &#x200B;](https://business.adobe.com/products/magento/magento-commerce.html).
+Bevor Sie eine von [!DNL Commerce Marketplace] erworbene Erweiterung installieren können, melden Sie sich bei Ihrem [!DNL Commerce] Konto an und stellen Sie sicher, dass Sie über einen aktiven Zugriffsschlüssel verfügen. Sie können sich über die Kopfzeile von [!DNL Commerce][[!DNL Marketplace] oder &#x200B;](https://marketplace.magento.com/)Magento.com bei Ihrem [-Konto &#x200B;](https://business.adobe.com/de/products/magento/magento-commerce.html).
 
 Ihr Zugriffsschlüssel ist ein Satz öffentlicher und privater Schlüssel, mit denen Sie Ihre [!DNL Commerce] mit Ihrem [!DNL Commerce] synchronisieren und Ihre Anmeldeinformationen überprüfen können. Nachdem Ihr Konto synchronisiert wurde, müssen Sie bei jeder Installation einer Erweiterung oder eines Moduls aus Commerce Marketplace bzw. bei jedem Upgrade Ihrer [!DNL Commerce] Ihren privaten Schlüssel eingeben.
 
@@ -77,7 +77,7 @@ Sie können mehrere Zugriffsschlüssel für verschiedene Zwecke erstellen und si
 
 >[!IMPORTANT]
 >
->Ab Adobe Commerce und Magento Open Source 2.4.0 wird der Websetup-Assistent entfernt, und Sie müssen die Befehlszeile verwenden, um Ihre Instanz [installieren](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) oder [aktualisieren](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html). Diese Anforderung umfasst auch [Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) und [Erweiterungen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
+>Ab Adobe Commerce und Magento Open Source 2.4.0 wird der Websetup-Assistent entfernt, und Sie müssen die Befehlszeile verwenden, um Ihre Instanz [installieren](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=de) oder [aktualisieren](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=de). Diese Anforderung umfasst auch [Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=de) und [Erweiterungen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=de).
 
 Der Installationsprozess für [!DNL Marketplace] Käufe unterscheidet sich bei On _Premise-Installationen_ Commerce von den auf [Adobe Cloud Architecture](https://www.adobe.com/commerce/magento/enterprise.html) gehosteten Installationen.
 
@@ -109,7 +109,7 @@ Anmeldeprobleme hängen normalerweise mit einer Diskrepanz zwischen Ihrer MAGEID
 
 ### Open Source-Fragen
 
-Das Marketplace-Supportteam löst Probleme, die mit den Sites [commerceMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) und [commerceDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) zusammenhängen. Bitte richten Sie Fragen zu Magento Open Source an das [Community-Forum](https://community.magento.com/) oder [kontaktieren Sie einen Partner](https://business.adobe.com/products/magento/partners.html) der Magento Open Source unterstützen kann.
+Das Marketplace-Supportteam löst Probleme, die mit den Sites [commerceMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) und [commerceDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) zusammenhängen. Bitte richten Sie Fragen zu Magento Open Source an das [Community-Forum](https://community.magento.com/) oder [kontaktieren Sie einen Partner](https://business.adobe.com/de/products/magento/partners.html) der Magento Open Source unterstützen kann.
 
 ### Erstattungsanträge
 
