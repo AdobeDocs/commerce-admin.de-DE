@@ -3,9 +3,9 @@ title: Erstellen einer zugehörigen Produktregel
 description: Erfahren Sie, wie Sie eine Regel für verwandte Produkte erstellen, die ausgelöst werden kann, um verwandte Produkte, Upsell und Crosssell anzuzeigen.
 exl-id: fbc059ec-d3e6-46ca-810a-a979a0631dd8
 feature: Merchandising, Products, Storefront
-source-git-commit: cea943cd7f4d148c885fbd113c3bc08bfdf63ea0
+source-git-commit: 68178cb3ed493c35e92549e1ee084b1c0402264c
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Der Prozess der Erstellung einer Regel für verwandte Produkte ähnelt dem Einri
 
    - Wenn die Regel für ein bestimmtes [Kundensegment](../customers/customer-segments.md) gilt, setzen Sie **[!UICONTROL Customer Segments]** auf `Specified` und wählen Sie das Kundensegment aus der Liste aus.
 
-   - Wenn die Regel für eine bestimmte [Real-Time CDP-Zielgruppe](../customers/audience-activation.md) gilt, setzen Sie **[!UICONTROL Real-Time CDP Audience]** auf `Specified` und wählen Sie die Real-Time CDP-Zielgruppe aus der Liste aus. Diese Funktion befindet sich in der Betaphase. Wenn Sie am Beta-Programm teilnehmen möchten, senden Sie eine Anfrage an [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
+   - Wenn die Regel für eine bestimmte [Real-Time CDP-Zielgruppe](../customers/audience-activation.md) gilt, setzen Sie **[!UICONTROL Real-Time CDP Audience]** auf `Specified` und wählen Sie die Real-Time CDP-Zielgruppe aus der Liste aus.
 
      ![Regel für verwandte Produkte - Real-Time CDP-Zielgruppe](./assets/rtcdp-related-products.png){width="500"}
 
@@ -60,7 +60,7 @@ Der Prozess der Erstellung einer Regel für verwandte Produkte ähnelt dem Einri
 
    ![Regel für verwandte Produkte - Abzugleichende Produkte](./assets/catalog-related-products-match.png){width="500"}
 
-1. Wählen Sie im linken Bedienfeld **[!UICONTROL Products to Display]** und erstellen Sie die Ergebnisbedingungen so, wie Sie es für eine [Katalogpreisregel) &#x200B;](price-rules-catalog.md).
+1. Wählen Sie im linken Bedienfeld **[!UICONTROL Products to Display]** und erstellen Sie die Ergebnisbedingungen so, wie Sie es für eine [Katalogpreisregel) ](price-rules-catalog.md).
 
    ![Regel für verwandte Produkte - anzuzeigende Produkte](./assets/catalog-related-products-to-display.png){width="500"}
 
@@ -84,7 +84,7 @@ Der Prozess der Erstellung einer Regel für verwandte Produkte ähnelt dem Einri
 
 In diesem Video erfahren Sie mehr über das Erstellen von Regeln für verwandte Produkte:
 
->[!VIDEO](https://video.tv.adobe.com/v/3417565?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/343837?quality=12&learn=on)
 
 ## Feldbeschreibungen
 

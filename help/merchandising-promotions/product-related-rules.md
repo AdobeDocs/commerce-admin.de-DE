@@ -3,9 +3,9 @@ title: Verwandte Produktregeln
 description: Erfahren Sie mehr über verwandte Produktregeln und wie sie verwendet werden, um verwandte Produkte, Upsell-Angebote und Crosssell-Angebote dynamisch Ihren Kunden zu präsentieren.
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-source-git-commit: 4971fe457b7fd58d8b71951981bc889386610a99
+source-git-commit: 68178cb3ed493c35e92549e1ee084b1c0402264c
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ Um auf die zugehörigen Produktregeln zuzugreifen, gehen Sie zu **[!UICONTROL Ma
 |--- |--- |
 | [!UICONTROL ID] | Eine eindeutige numerische Kennung, die jeder zugehörigen Produktregel zugewiesen ist |
 | [!UICONTROL Rule] | Der Name der zugehörigen Produktregel |
-| [!UICONTROL Start] | Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_&#x200B;und&#x200B;_[!UICONTROL From:]_), um die Liste nach dem Startdatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
-| [!UICONTROL End] | Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_&#x200B;und&#x200B;_[!UICONTROL From:]_), um die Liste nach dem Enddatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
+| [!UICONTROL Start] | Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_und_[!UICONTROL From:]_), um die Liste nach dem Startdatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
+| [!UICONTROL End] | Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_und_[!UICONTROL From:]_), um die Liste nach dem Enddatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
 | [!UICONTROL Priority] | Geben Sie Text in dieses Feld ein, um die Liste nach der für eine Regel definierten Priorität zu filtern. |
 | [!UICONTROL Applies To] | Diese Option filtert die Liste der Regeln, die für `Related Products`, `Up-sells` und `Cross-sells` gelten. |
 | [!UICONTROL Status] | Verwenden Sie diese Option, um die Liste nach Regelstatus (`Active` oder `Inactive`) zu filtern. |
@@ -47,7 +47,7 @@ Die Anzahl der Produkt-IDs, die in eine Produktbeziehungsregel aufgenommen werde
 Angenommen, Sie haben drei Regeln mit der Priorität `1`, `2` und `3`.
 
 - Es werden zwei übereinstimmende Produkte für _Regel 1_ zurückgegeben, sechs übereinstimmende Produkte für _Regel 2_ und 20 übereinstimmende Produkte für _Regel 3_.
-- In der -Konfiguration ist der _[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;auf `6` festgelegt.
+- In der -Konfiguration ist der _[!UICONTROL Maximum Number of Products for Related Products List]_auf `6` festgelegt.
 
   | Regeln | Priorität | Übereinstimmende Produkte |
   |---|---|-----|
@@ -135,9 +135,4 @@ Das Verhalten von Produktbeziehungsregeln und die Anzeige übereinstimmender Pro
 
 ## Real-Time CDP-Zielgruppen verwenden, um über zugehörige Produktregeln zu informieren
 
->[!NOTE]
->
->Diese Funktion befindet sich in der Betaphase. Wenn Sie am Beta-Programm teilnehmen möchten, senden Sie eine Anfrage an [dataconnection@adobe.com](mailto:dataconnection@adobe.com).
-
-
-Erfahren Sie, wie [&#x200B; Real-Time CDP](../customers/audience-activation.md)Zielgruppen in Ihrer Adobe Commerce-Instanz aktivieren, um Informationen zu verwandten Produktregeln zu erhalten.
+Erfahren Sie, wie [ Real-Time CDP](../customers/audience-activation.md)Zielgruppen in Ihrer Adobe Commerce-Instanz aktivieren, um Informationen zu verwandten Produktregeln zu erhalten.
