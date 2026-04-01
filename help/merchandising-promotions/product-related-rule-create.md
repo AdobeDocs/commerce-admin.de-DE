@@ -84,7 +84,7 @@ Der Prozess der Erstellung einer Regel für verwandte Produkte ähnelt dem Einri
 
 In diesem Video erfahren Sie mehr über das Erstellen von Regeln für verwandte Produkte:
 
->[!VIDEO](https://video.tv.adobe.com/v/343837?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3417565?captions=ger&quality=12&learn=on)
 
 ## Feldbeschreibungen
 
