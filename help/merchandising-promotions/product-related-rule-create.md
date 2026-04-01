@@ -60,7 +60,7 @@ Der Prozess der Erstellung einer Regel für verwandte Produkte ähnelt dem Einri
 
    ![Regel für verwandte Produkte - Abzugleichende Produkte](./assets/catalog-related-products-match.png){width="500"}
 
-1. Wählen Sie im linken Bedienfeld **[!UICONTROL Products to Display]** und erstellen Sie die Ergebnisbedingungen so, wie Sie es für eine [Katalogpreisregel) ](price-rules-catalog.md).
+1. Wählen Sie im linken Bedienfeld **[!UICONTROL Products to Display]** und erstellen Sie die Ergebnisbedingungen so, wie Sie es für eine [Katalogpreisregel) &#x200B;](price-rules-catalog.md).
 
    ![Regel für verwandte Produkte - anzuzeigende Produkte](./assets/catalog-related-products-to-display.png){width="500"}
 
