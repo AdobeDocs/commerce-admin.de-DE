@@ -23,7 +23,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p><code class="language-plaintext highlighter-rouge">numeric</code> und <code class="language-plaintext highlighter-rouge">file</code><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types"> Attributeingabetypen</a> wurden hinzugefügt und eine Seite <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/product-file-attributes">Produktdateiattribute</a> in der Konfigurationsreferenz hinzugefügt.</p>
+      <td><p><code class="language-plaintext highlighter-rouge">numeric</code> und <code class="language-plaintext highlighter-rouge">file</code><a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/product-attributes/attributes-input-types"> Attributeingabetypen</a> wurden hinzugefügt und eine Seite <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/config/catalog/product-file-attributes">Produktdateiattribute</a> in der Konfigurationsreferenz hinzugefügt.</p>
 </td>
       <td>
         Größere Aktualisierung
@@ -45,7 +45,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce as a Cloud Service-Anweisungen zu <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">Unterstützung für Kunden bereitstellen</a> hinzugefügt.</p>
+      <td><p>Adobe Commerce as a Cloud Service-Anweisungen zu <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/customers/customer-accounts/manage/login-as-customer">Unterstützung für Kunden bereitstellen</a> hinzugefügt.</p>
 </td>
       <td>
         Größere Aktualisierung
@@ -67,7 +67,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules">E-Mail</a>Erinnerungen sind jetzt in Adobe Commerce as a Cloud Service verfügbar.</p>
+      <td><p><a href="https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules">E-Mail</a>Erinnerungen sind jetzt in Adobe Commerce as a Cloud Service verfügbar.</p>
 </td>
       <td>
         Größere Aktualisierung
@@ -83,7 +83,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/891fd0f08a952cd38bc92b41a4d54197f58f8a4d">verpflichten</a></td>
     </tr>
     <tr>
-      <td><p>Aktualisierte <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes">Versionshinweise</a> mit B2B v1.5.3-beta1 (März 2026): Qualitätsverbesserungen und Fehlerbehebungen bei Angeboten, Anforderungslisten, freigegebenen Katalogen, Checkout, GraphQL und verwandten Bereichen sowie kleinere Kopier- und Konsistenzkorrekturen.</p>
+      <td><p>Aktualisierte <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/b2b/release-notes">Versionshinweise</a> mit B2B v1.5.3-beta1 (März 2026): Qualitätsverbesserungen und Fehlerbehebungen bei Angeboten, Anforderungslisten, freigegebenen Katalogen, Checkout, GraphQL und verwandten Bereichen sowie kleinere Kopier- und Konsistenzkorrekturen.</p>
 </td>
       <td>
         Größere Aktualisierung
@@ -105,7 +105,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Das PaaS-Badging auf der Seite <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu">Menü Berichte</a> wurde aktualisiert.</p>
+      <td><p>Das PaaS-Badging auf der Seite <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/start/reporting/reports-menu">Menü Berichte</a> wurde aktualisiert.</p>
 </td>
       <td>
         Feedback
@@ -127,7 +127,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Aktualisierungen der Admin-Dokumentation für die Adobe Commerce as a Cloud Service-Februarversion:<br />- Hinzugefügte Dokumentation für <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts">benutzerdefinierte Erfassungsbeträge</a> beim Erstellen von Rechnungen in der REST-API, mit der Händler benutzerdefinierte Beträge erfassen können, wenn sie Rechnungen für Teilerfassungen und spezielle Zahlungsszenarien erstellen.<br />- Gibt an, welche Berichte im Menü <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/reports-menu">Berichte</a> jetzt nur noch PaaS-Berichte sind.</p>
+      <td><p>Aktualisierungen der Admin-Dokumentation für die Adobe Commerce as a Cloud Service-Februarversion:<br />- Hinzugefügte Dokumentation für <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/order-management/invoices#custom-capture-amounts">benutzerdefinierte Erfassungsbeträge</a> beim Erstellen von Rechnungen in der REST-API, mit der Händler benutzerdefinierte Beträge erfassen können, wenn sie Rechnungen für Teilerfassungen und spezielle Zahlungsszenarien erstellen.<br />- Gibt an, welche Berichte im Menü <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/start/reporting/reports-menu">Berichte</a> jetzt nur noch PaaS-Berichte sind.</p>
 </td>
       <td>
         Größere Aktualisierung
