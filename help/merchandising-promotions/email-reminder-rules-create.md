@@ -93,7 +93,7 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenk
 
      ![Titel und Beschreibungen - Store-Ansicht](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Wenn Sie [!DNL Adobe Commerce as a Cloud Service] verwenden, können Sie [Regelwiederholbarkeit](#rule-repeatability) aktivieren, indem Sie das Kontrollkästchen [!UICONTROL Rule Repeatability] aktivieren.
+1. [!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Wenn Sie [!DNL Adobe Commerce as a Cloud Service] verwenden, können Sie [Regelwiederholbarkeit](#rule-repeatability) aktivieren, indem Sie das Kontrollkästchen [!UICONTROL Rule Repeatability] aktivieren.
 
    >[!IMPORTANT]
    >
@@ -103,7 +103,7 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenk
 
 ## Regelwiederholbarkeit
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 >[!IMPORTANT]
 >
