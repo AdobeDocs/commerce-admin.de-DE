@@ -3,9 +3,9 @@ user-guide-title: Inhalts- und Design-Handbuch
 user-guide-description: Umfassende Informationen zu Inhalts- und Design-Funktionen für Adobe Commerce- und Magento Open Source-Administratoren und E-Commerce-Marketing-Experten.
 breadcrumb-title: Inhalt und Design
 feature: CMS, Page Content
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '255'
 ht-degree: 4%
 
 ---
@@ -84,11 +84,15 @@ ht-degree: 4%
    - [Migrieren von Mediendateien zu AEM Assets](aem-assets-migrate-data.md)
    - Verwalten von Assets {#manage}
       - [Verwenden von AEM Assets mit Commerce](aem-assets-manage.md)
-- Medien {#media}
 - Inhalts-Staging {#staging}
    - [Überblick](content-staging.md)
    - [Planen einer Aktualisierung](content-staging-scheduled-update.md)
    - [Staging-Dashboard](content-staging-dashboard.md)
    - [Kampagnenelement hinzufügen](content-staging-add-item.md)
    - [Vorschau einer Kampagne](content-staging-preview.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
+
+<!--
+Add above "Content staging" when articles are available?
+- Media {#media}
+-->

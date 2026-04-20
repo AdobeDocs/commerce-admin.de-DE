@@ -3,8 +3,8 @@ title: Übersicht über die Integration von Adobe Identity Management Service (I
 description: Einführung in die optionale Integration der Adobe Commerce Admin-Anmeldung mit Adobe IMS
 exl-id: 106d731c-a541-4a19-a38c-221e80740508
 feature: Identity Management
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 484351d7db33139e3339ccea82e7a96f5ea7966e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -23,9 +23,9 @@ Informationen zum Implementieren dieser Integration finden Sie unter [Konfigurie
 
 ## Änderungen an Admin-Workflows und der Benutzeroberfläche nach der Integration mit IMS
 
-Wenn diese Integration aktiviert ist, erleben Commerce-Admin-Benutzerinnen und -Benutzer Änderungen am standardmäßigen Commerce-Admin-Anmelde- und Authentifizierungs-Workflow, während sie im Admin-Bereich Routineaufgaben ausführen, für die eine erneute Authentifizierung erforderlich ist, z. B. das Erstellen eines Admin-Benutzers. Für die Modulaktivierung ist eine Durchsetzung der Zwei-Faktor-Authentifizierung (2FA) auf Adobe-Organisationsebene erforderlich. Die standardmäßige Admin-Anmeldung und 2FA sind deaktiviert und die Schaltfläche _[!UICONTROL Sign In with Adobe ID]_&#x200B;ersetzt das standardmäßige Admin-Anmeldeformular. Berechtigungen werden weiterhin vom Administrator verwaltet.
+Wenn diese Integration aktiviert ist, erleben Commerce-Admin-Benutzerinnen und -Benutzer Änderungen am standardmäßigen Commerce-Admin-Anmelde- und Authentifizierungs-Workflow, während sie im Admin-Bereich Routineaufgaben ausführen, für die eine erneute Authentifizierung erforderlich ist, z. B. das Erstellen eines Admin-Benutzers. Für die Modulaktivierung ist eine Durchsetzung der Zwei-Faktor-Authentifizierung (2FA) auf Adobe-Organisationsebene erforderlich. Die standardmäßige Admin-Anmeldung und 2FA sind deaktiviert und die Schaltfläche _[!UICONTROL Sign In with Adobe ID]_ersetzt das standardmäßige Admin-Anmeldeformular. Berechtigungen werden weiterhin vom Administrator verwaltet.
 
->
+>[!IMPORTANT]
 >
 >Die AdobeIMS-Integration wird global angewendet. Nach der Aktivierung müssen sich alle Benutzer über AdobeIMS authentifizieren. Einzelne Benutzer können nicht von dieser Konfiguration ausgeschlossen werden.
 >

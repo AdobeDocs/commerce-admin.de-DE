@@ -3,7 +3,7 @@ title: configure [!DNL Inventory Management] backorders
 description: Erfahren Sie, wie Sie Nachbestellungen konfigurieren, um den Verkauf von nicht vorrätigen Produkten zu unterstützen.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 0%
@@ -47,11 +47,13 @@ Wenn Kunden die verfügbaren 25 Produkte kaufen, gehen neue Bestellungen als Nac
 
 >[!NOTE]
 >
->Wenn ein Kunde einen Auftrag mit _[!UICONTROL backorder qty]_&#x200B;aufgibt, zieht [!DNL Inventory Management] die Menge automatisch von der verkaufsfähigen Menge ab. Wenn ein Auftrag nicht versendet und storniert wird, wird die Menge auf die aggregierte virtuelle Verkaufsmenge zurückgesetzt. Die **_stornierte Bestellmenge wird keiner der Quellen zugeordnet_**&#x200B;sondern an die Gesamtzahl der zum Verkauf verfügbaren Produkte zurückgegeben (_[!UICONTROL Salable Quantity]_ Spalte im Produktraster).
+>Wenn ein Kunde einen Auftrag mit _[!UICONTROL backorder qty]_aufgibt, zieht [!DNL Inventory Management] die Menge automatisch von der verkaufsfähigen Menge ab. Wenn ein Auftrag nicht versendet und storniert wird, wird die Menge auf die aggregierte virtuelle Verkaufsmenge zurückgesetzt. Die **_stornierte Bestellmenge wird keiner der Quellen zugeordnet_**sondern an die Gesamtzahl der zum Verkauf verfügbaren Produkte zurückgegeben (_[!UICONTROL Salable Quantity]_ Spalte im Produktraster).
 
-<!--### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
+<!--
+### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
 
-The _Notify for Quantity Below_ configuration option is configurable at the global, source, and product levels. When it is enabled, the system sends an email notification when the product quantity reaches a level at or below the configured value. For this example, a notification is triggered when the product has a quantity of 10 or less. When backorders are enabled, _Notify for Quantity Below_ is determined by the Salable Quantity (`Salable Quantity = Quantity - (Out-of-Stock Threshold)`). -->
+The _Notify for Quantity Below_ configuration option is configurable at the global, source, and product levels. When it is enabled, the system sends an email notification when the product quantity reaches a level at or below the configured value. For this example, a notification is triggered when the product has a quantity of 10 or less. When backorders are enabled, _Notify for Quantity Below_ is determined by the Salable Quantity (`Salable Quantity = Quantity - (Out-of-Stock Threshold)`). 
+-->
 
 ### Bestandsstatus
 
@@ -95,7 +97,7 @@ Konfigurationen auf Produktebene überschreiben globale Konfigurationen. Möglic
 
 1. Öffnen Sie ein Produkt im **[!UICONTROL Edit]**-Modus und blättern Sie auf der Seite nach unten zum Bereich _[!UICONTROL Sources]_.
 
-   Bei Produkten, die ohne [!DNL Inventory Management] konfiguriert wurden, wird die Registerkarte nicht angezeigt. Die Schaltfläche `Advanced Inventory` wird unter dem Feld _[!UICONTROL Quantity]_&#x200B;angezeigt.
+   Bei Produkten, die ohne [!DNL Inventory Management] konfiguriert wurden, wird die Registerkarte nicht angezeigt. Die Schaltfläche `Advanced Inventory` wird unter dem Feld _[!UICONTROL Quantity]_angezeigt.
 
 1. Klicken Sie auf **[!UICONTROL Advanced Inventory]**.
 

@@ -12,7 +12,7 @@ role: Admin, User
 level: Beginner, Intermediate
 topic: Commerce, Administration
 index: true
-source-git-commit: 50e5e33f3f5b88726ee4b468d5d9533c297721cd
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%

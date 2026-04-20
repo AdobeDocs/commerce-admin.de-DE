@@ -3,16 +3,16 @@ title: Übersicht über Produktattribute
 description: Erfahren Sie mehr über Produktattribute und wie sie zur Beschreibung bestimmter Merkmale eines Produkts verwendet werden.
 exl-id: e15770ee-fb71-43f0-8c26-e8029935799a
 feature: Catalog Management, Products
-source-git-commit: e0468763b2314e69e8ee4922da9bb9cf65578904
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
 
 # Übersicht über Produktattribute
 
-Attribute sind die Bausteine Ihres Produktkatalogs und beschreiben spezifische Merkmale eines Produkts. Produktattribute können in &quot;[&quot; unterteilt &#x200B;](attribute-sets.md), die dann als Vorlagen zum Erstellen von Produkten verwendet werden.
+Attribute sind die Bausteine Ihres Produktkatalogs und beschreiben spezifische Merkmale eines Produkts. Produktattribute können in &quot;[&quot; unterteilt ](attribute-sets.md), die dann als Vorlagen zum Erstellen von Produkten verwendet werden.
 
 Attribute bestimmen den Typ des Eingabedialogs, der für Produktoptionen verwendet wird, und geben zusätzliche Informationen für Produktseiten an. Sie werden auch als Suchparameter und Kriterien für mehrschichtige Navigation, Produktvergleichsberichte und Werbeaktionen verwendet. Sie können so viele Attribute und Attributsätze erstellen, wie erforderlich sind, um die Produkte in Ihrem Katalog zu beschreiben. Zusätzlich zu den Attributen, die Sie erstellen können, sind Systemattribute, wie z. B. Preis, in die Commerce-Kernplattform integriert und können nicht geändert werden.
 
@@ -30,7 +30,7 @@ Konsistente Konventionen für die Attributbenennung, einschließlich Groß- und 
 
 ## Farbe
 
-Ad-hoc-Farbbeschreibungen können aus Sicht von Datenbankvorgängen eine Herausforderung darstellen. Farbnamen wie „Azure Skies“ oder „Robin Egg Blue“ sind sehr ansprechend, liefern jedoch möglicherweise nicht die besten Ergebnisse, wenn sie als Suchkriterien verwendet werden oder wenn Sie für das Merchandising `Color_Family:Blue` angeben müssen. Berücksichtigen Sie, wie Farben in Suchergebnissen und in der mehrschichtigen Navigation dargestellt werden, und legen Sie einige Richtlinien für Ihre Geschäftsanforderungen fest. Weisen Sie dann Farbattributwerte im gesamten Katalog konsistent zu.
+Ad-hoc-Farbbeschreibungen können aus Sicht von Datenbankvorgängen eine Herausforderung darstellen. Farbnamen wie &quot;Azure Skies“ oder „Robin Egg Blue“ sind sehr ansprechend, liefern jedoch möglicherweise nicht die besten Ergebnisse, wenn sie als Suchkriterien verwendet werden oder wenn Sie für das Merchandising `Color_Family:Blue` angeben müssen. Berücksichtigen Sie, wie Farben in Suchergebnissen und in der mehrschichtigen Navigation dargestellt werden, und legen Sie einige Richtlinien für Ihre Geschäftsanforderungen fest. Weisen Sie dann Farbattributwerte im gesamten Katalog konsistent zu.
 
 ## Variantenverwaltung
 
@@ -45,6 +45,6 @@ Produktattributen, die für die [Katalogsuche](search.md) aktiviert sind, kann e
 Entfernen Sie nicht verwendete Produkteigenschaften, um eine bessere Strukturierung und schnellere Indizierung zu ermöglichen.
 
 
->[HINWEIS!]
+>[!NOTE]
 >
->Informationen zur Leistungsoptimierung der Produktattributkonfiguration finden Sie unter [Best Practices für die Katalogverwaltung](https://experienceleague.adobe.com/de/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) im _Implementierungs-Playbook_.
+>Informationen zur Leistungsoptimierung der Produktattributkonfiguration finden Sie unter [Best Practices für die Katalogverwaltung](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/planning/catalog-management#product-attributes) im _Implementierungs-Playbook_.

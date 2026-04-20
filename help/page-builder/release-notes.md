@@ -3,7 +3,7 @@ title: Versionshinweise für [!DNL Page Builder]
 description: Informationen zu allen Versionen finden  [!DNL Page Builder]  in den Versionshinweisen .
 exl-id: 81abe2f9-ed48-49fe-bbf0-70699d7106b2
 feature: Page Builder, Release Notes
-source-git-commit: addc34aeb4418aa3a1a9c2fc3adca738352ef94f
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '2813'
 ht-degree: 0%
@@ -30,9 +30,10 @@ Diese Versionshinweise beschreiben Versionen von [!DNL Page Builder] und umfasse
 
 ![Neu](../assets/new.svg) **Neue Menüoptionen zum Duplizieren, Ausblenden und Löschen von Spaltengruppen** - Mit diesen neuen Optionen können Benutzende [!DNL Columns] Gruppen duplizieren, ausblenden und löschen - genau wie dies mit Inhaltstypen möglich ist.<!--- PB-507-->
 
-![Neu](../assets/new.svg) <!-- Issue 594 -->**Neue Unterstützung für mehrzeilige Spalten zur Spaltengruppe hinzugefügt** - Durch diese Hinzufügung können Benutzende mehrere Zeilen von Spalten innerhalb einer [!DNL Columns] bearbeiten, um Spaltenlayouts viel flexibler zu gestalten.<!--- PB-108-->
+![Neu](../assets/new.svg) <!-- Issue 594 -->**Neue Unterstützung für mehrzeilige Spalten zur Spaltengruppe hinzugefügt** - Durch diese Hinzufügung können Benutzende mehrere Zeilen von Spalten innerhalb einer [!DNL Columns] bearbeiten, um Spaltenlayouts viel flexibler zu gestalten.
+<!--- PB-108-->
 
-Informationen [&#x200B; Verwendung der neuen [!DNL Columns]-Gruppe finden &#x200B;](./column.md) unter „Layout - Spalte“.
+Informationen [ Verwendung der neuen ](./column.md)-Gruppe finden [!DNL Columns] unter „Layout - Spalte“.
 
 ## 1.7.1 für Commerce 2.4.4
 
@@ -40,11 +41,11 @@ Informationen [&#x200B; Verwendung der neuen [!DNL Columns]-Gruppe finden &#x200
 
 ![Problem behoben](../assets/fix.svg) Händler können jetzt Alternativtext (`alt_text`) zu Bildern (Bild, Banner, Folie) hinzufügen, um die Barrierefreiheit der Inhalte zu verbessern.<!--- PB-1193-->
 
-![Es wurde ein Problem &#x200B;](../assets/fix.svg): Admin-Benutzende mit Berechtigungen, die auf die Inhaltsbearbeitung beschränkt sind, sehen bei Verwendung von Page Builder zum Hinzufügen eines Produkt-Widgets zu einer CMS-Seite keinen Fehler mehr. Page Builder zeigt auch eine genaue Produktanzahl auf der Seite mit den Widget-Einstellungen an. Zuvor benötigte Page Builder beim Abrufen der Produktzahl Berechtigungen für das Katalogmodul. Daraufhin wurde folgender Fehler angezeigt: `A technical problem with the server created an error. Try again to continue what you were doing. If the problem persists, try again later`. <!--- MC-42779-->
+![Es wurde ein Problem ](../assets/fix.svg): Admin-Benutzende mit Berechtigungen, die auf die Inhaltsbearbeitung beschränkt sind, sehen bei Verwendung von Page Builder zum Hinzufügen eines Produkt-Widgets zu einer CMS-Seite keinen Fehler mehr. Page Builder zeigt auch eine genaue Produktanzahl auf der Seite mit den Widget-Einstellungen an. Zuvor benötigte Page Builder beim Abrufen der Produktzahl Berechtigungen für das Katalogmodul. Daraufhin wurde folgender Fehler angezeigt: `A technical problem with the server created an error. Try again to continue what you were doing. If the problem persists, try again later`. <!--- MC-42779-->
 
 ![Problem behoben](../assets/fix.svg) Anzeigeprobleme mit dem Menü Page Builder-Format werden jetzt mit dem TinyMCE 5-Bibliotheks-Upgrade behoben. <!--- AC-446-->
 
-![Es wurde ein Problem &#x200B;](../assets/fix.svg). Sie können jetzt die Maus verwenden, um einen Wert **Anzuzeigender Text** im Popup Link einfügen zu bearbeiten. <!--- AC-982-->
+![Es wurde ein Problem ](../assets/fix.svg). Sie können jetzt die Maus verwenden, um einen Wert **Anzuzeigender Text** im Popup Link einfügen zu bearbeiten. <!--- AC-982-->
 
 ![Problem behoben](../assets/fix.svg) Page Builder zeigt jetzt im Optionsmenü Schriftgröße alle Optionen wie erwartet an. Zuvor wurden nicht alle Optionen angezeigt. <!--- AC-1056-->
 
@@ -52,13 +53,13 @@ Informationen [&#x200B; Verwendung der neuen [!DNL Columns]-Gruppe finden &#x200
 
 ![Problem behoben](../assets/fix.svg) Page Builder ändert die Größe der Dialogfelder „Link einfügen“ und „Bild einfügen“ nicht mehr, wenn der Schieberegler in einer kleinen Spalte angezeigt wird. <!--- AC-973-->
 
-![Es wurde &#x200B;](../assets/fix.svg) Problem behoben: Das Menü Seitenbuilder-Tabelleneigenschaften wird jetzt erwartungsgemäß angezeigt. <!--- AC-407-->
+![Es wurde ](../assets/fix.svg) Problem behoben: Das Menü Seitenbuilder-Tabelleneigenschaften wird jetzt erwartungsgemäß angezeigt. <!--- AC-407-->
 
 ![Problem behoben](../assets/fix.svg) Schieberpunkte werden nicht mehr im Modal Link einfügen oder Bild angezeigt, wenn die Maus nicht über den Schieberegler bewegt wird. <!--- AC-406-->
 
 ![Problem behoben](../assets/fix.svg) Die Schriftgröße, die zum Anzeigen der Menüoptionen „Tabelle“ verwendet wird, wurde optimiert. <!--- AC-396-->
 
-![Es wurde &#x200B;](../assets/fix.svg) Problem behoben, dass Anomalien bei der Positionierung der Dialogfelder „Bild einfügen/bearbeiten“ und „Link einfügen/bearbeiten“ korrigiert wurden. <!--- AC-397-->
+![Es wurde ](../assets/fix.svg) Problem behoben, dass Anomalien bei der Positionierung der Dialogfelder „Bild einfügen/bearbeiten“ und „Link einfügen/bearbeiten“ korrigiert wurden. <!--- AC-397-->
 
 ![Problem behoben](../assets/fix.svg) Page Builder gibt keinen Fehler mehr aus, wenn Sie für ein Banner auf **Text-**&quot; klicken. <!--- AC-398-->
 
@@ -68,7 +69,7 @@ Informationen [&#x200B; Verwendung der neuen [!DNL Columns]-Gruppe finden &#x200
 
 ![Neu](../assets/new.svg) <!-- Issue 558 -->**Neues [!DNL Page Builder]-** - [!DNL Page Builder] hat die Formatierung von Inhalten massiv verbessert. Die Änderungen erleichtern jetzt die Erstellung einfacher CSS-Selektoren, um die vorhandenen Inhaltstypstile zu überschreiben. Diese Änderungen ermöglichen es, [!DNL Page Builder] Designs mit hoher Reaktionsgeschwindigkeit für alle Inhaltstypen zu erstellen.
 
-![Neu](../assets/new.svg) <!-- Issue 429 -->**Zeilen-Container jetzt optional** - Sie können jetzt Inhalte in [!DNL Page Builder] erstellen, ohne dass ein Zeilen-Container erforderlich ist. Zusätzlich zur Zeile können die folgenden Inhaltstypen jetzt per Drag-and-Drop direkt auf die Bühne gezogen werden: HTML, Block, Dynamischer Block, Spalten und Registerkarten.
+![Neu](../assets/new.svg) <!-- Issue 429 -->**Zeilen-Container jetzt optional** - Sie können jetzt Inhalte in [!DNL Page Builder] erstellen, ohne dass ein Zeilen-Container erforderlich ist. Zusätzlich zur Zeile können die folgenden Inhaltstypen jetzt direkt auf die Bühne gezogen und dort abgelegt werden: HTML, Block, Dynamischer Block, Spalten und Registerkarten.
 
 ![Neu](../assets/new.svg) <!-- Issue 636 -->**Neuer responsiver Viewport-Umschalter** - Sie können jetzt eine Vorschau Ihres [!DNL Page Builder]-Inhalts in verschiedenen Gerätebreiten (Breakpoints) anzeigen, indem Sie die neuen Viewport-Umschalter-Schaltflächen für Admins über dem Staging verwenden. Der Viewport-Umschalter simuliert, wie Ihre Inhalte formatiert werden, wenn sie auf der Storefront mit verschiedenen Geräten angezeigt werden.
 
@@ -94,7 +95,7 @@ Informationen [&#x200B; Verwendung der neuen [!DNL Columns]-Gruppe finden &#x200
 
 ![Neu](../assets/new.svg) <!-- Issue 510, 511, 512, 513 -->**Immersive Bearbeitung im Vollbildmodus** - Die Bearbeitung [!DNL Page Builder] Inhalte ist jetzt nur noch für alle von [!DNL Page Builder] kontrollierten Bereiche im Vollbildmodus möglich. Diese Änderung betrifft CMS-Seiten, Produkt- und Kategorieseiten, Bausteine und dynamische Bausteine. Die Bearbeitung im Vollbildmodus legt den Fokus auf Ihren Inhalt und bietet eine Ansicht, die dem Benutzererlebnis auf der Storefront besser entspricht.
 
-![Neu](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] Inhaltsvorschauen &#x200B;**- [!DNL Page Builder] bietet jetzt standardmäßig Inhaltsvorschauen nicht nur für CMS-Seiten, -Blöcke und -dynamischen Blöcke, sondern auch für Produkt- und Kategorieseiten. Sie können diese Funktion für Produkt- und Kategorieseiten mit der neuen Einstellung Inhaltsvorschau [!DNL Page Builder] aktivieren oder deaktivieren, die in der Store-Konfiguration unter Content-Management > Erweiterte Content-Tools aufgerufen wird.
+![Neu](../assets/new.svg) <!-- Issue 544 -->**[!DNL Page Builder] Inhaltsvorschauen **- [!DNL Page Builder] bietet jetzt standardmäßig Inhaltsvorschauen nicht nur für CMS-Seiten, -Blöcke und -dynamischen Blöcke, sondern auch für Produkt- und Kategorieseiten. Sie können diese Funktion für Produkt- und Kategorieseiten mit der neuen Einstellung Inhaltsvorschau [!DNL Page Builder] aktivieren oder deaktivieren, die in der Store-Konfiguration unter Content-Management > Erweiterte Content-Tools aufgerufen wird.
 
 ![Neu](../assets/new.svg) <!-- Issue 543 -->**Verbesserter Zugriff auf Produktkurzbeschreibungen** - Standardmäßig wird eine Produktkurzbeschreibung jetzt vor der längeren Beschreibung angezeigt. Diese Änderung führt zu einer Übereinstimmung mit der Reihenfolge, in der sie in der Storefront angezeigt werden, und verhindert, dass durch den längeren Beschreibungsinhalt gescrollt werden muss, um Zugriff auf die Kurzbeschreibung zu erhalten.
 
@@ -124,7 +125,7 @@ Informationen [&#x200B; Verwendung der neuen [!DNL Columns]-Gruppe finden &#x200
 
 ![Problem behoben](../assets/fix.svg) <!-- MC-34679 -->Es wurden [!DNL Page Builder] CSS-Stile behoben, die dazu führten, dass Safari 13.1 das Site-Menü des Luma-Designs für kleine Ansichts-Ports und mobile Bildschirme falsch renderte.
 
-![Problem behoben](../assets/fix.svg) <!-- MC-34848 -->Der HTML-Inhaltstyp wurde behoben, um eingebettete Widgets wie „Nach SKU sortieren“ auf der Storefront korrekt anzuzeigen.
+![Problem behoben](../assets/fix.svg) <!-- MC-34848 --> Der HTML-Inhaltstyp wurde behoben, um eingebettete Widgets wie „Nach SKU sortieren“ in der Storefront korrekt anzuzeigen.
 
 ## 1.4.1 für Adobe Commerce 2.4.0-P1
 
@@ -154,7 +155,7 @@ Informationen [&#x200B; Verwendung der neuen [!DNL Columns]-Gruppe finden &#x200
 
 ![Problem behoben](../assets/fix.svg) <!-- MC-34677 -->Es wurden [!DNL Page Builder] CSS-Stile behoben, die dazu führten, dass Safari 13.1 das Site-Menü des Luma-Designs für kleine Ansichts-Ports und mobile Bildschirme falsch renderte.
 
-![Problem behoben](../assets/fix.svg) <!-- MC-34846 -->Der HTML-Inhaltstyp wurde behoben, um eingebettete Widgets wie &quot;_nach SKU“_ der Storefront korrekt anzuzeigen.
+![Problem behoben](../assets/fix.svg) <!-- MC-34846 --> Der HTML-Inhaltstyp wurde behoben, um eingebettete Widgets wie &quot;_nach SKU“_ der Storefront korrekt anzuzeigen.
 
 ![Problem behoben](../assets/fix.svg) Es wurde ein Fehler behoben, der Benutzer manchmal daran hinderte, Formulare vom Typ Inhalt zu speichern. Der Fehler (“[!DNL Page Builder] wurde 5 Sekunden lang gerendert, ohne Sperren freizugeben„) führte dazu, dass sich das Ladersymbol nach dem Versuch, ein Formular zu speichern, unbegrenzt drehte.
 
@@ -180,22 +181,22 @@ Diese Version von [!DNL Page Builder] ist nur ein Versionsnummernupdate für Ado
 
 >[!IMPORTANT]
 >
->Wenn Sie zusätzliche Datenbankentitäten zum Speichern [!DNL Page Builder] Inhalte erstellt haben, _müssen_ fügen Sie diese Entitäten zu Ihrer `etc/di.xml` hinzu. Andernfalls wird der in Ihrer Entität gespeicherte [!DNL Page Builder]-Inhalt nicht aktualisiert, was zu potenziellen Datenverlust- und Anzeigeproblemen führt. Wenn Sie beispielsweise eine Blog-Entität erstellt haben, die [!DNL Page Builder] speichert, müssen Sie Ihre Blog-Entität als `UpgradableEntitiesPool`-Typ zu Ihrer `etc/di.xml`-Datei hinzufügen, damit die Upgrade-Bibliothek die in Ihrem Blog verwendeten [!DNL Page Builder]-Inhaltstypen aktualisieren kann. Weitere Informationen und Anweisungen zur Verwendung der Upgrade-Bibliothek finden Sie unter [Aktualisieren von Inhaltstypen](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/) im _Page Builder-Entwicklerhandbuch_.
+>Wenn Sie zusätzliche Datenbankentitäten zum Speichern [!DNL Page Builder] Inhalte erstellt haben, _müssen_ fügen Sie diese Entitäten zu Ihrer `etc/di.xml` hinzu. Andernfalls wird der in Ihrer Entität gespeicherte [!DNL Page Builder]-Inhalt nicht aktualisiert, was zu potenziellen Datenverlust- und Anzeigeproblemen führt. Wenn Sie beispielsweise eine Blog-Entität erstellt haben, die [!DNL Page Builder] speichert, müssen Sie Ihre Blog-Entität als `etc/di.xml`-Typ zu Ihrer `UpgradableEntitiesPool`-Datei hinzufügen, damit die Upgrade-Bibliothek die in Ihrem Blog verwendeten [!DNL Page Builder]-Inhaltstypen aktualisieren kann. Weitere Informationen und Anweisungen zur Verwendung der Upgrade-Bibliothek finden Sie unter [Aktualisieren von Inhaltstypen](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/) im _Page Builder-Entwicklerhandbuch_.
 
 ![Neu](../assets/new.svg) **Dokumentation zum Hinzufügen neuer Erscheinungsbilder** - Entwicklerinformationen, die jetzt über [Hinzufügen von Erscheinungsbildern](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/) für vorhandene oder benutzerdefinierte Inhaltstypen veröffentlicht wurden.
 
 ![Problem behoben](../assets/fix.svg) **Verschiedene Fehlerbehebungen**
 
-- &#x200B;<!-- PB-50 -->Es wurde ein Problem behoben, bei dem das TinyMCE-Menü für Folieninhalte unter anderen Inhaltstypen angezeigt wurde, wenn der übergeordnete Container der Folie dupliziert wurde.
-- &#x200B;<!-- PB-166 -->[!DNL Page Builder] wurde aktualisiert, um eine Methode zum Zerstören zu implementieren, um Speicherlecks in einigen Szenarien zu verhindern.
-- &#x200B;<!-- PB-170 -->Die TinyMCE-Leistung wurde verbessert, wenn mehrere Instanzen in der Admin-Phase verwendet werden.
-- &#x200B;<!-- PB-252 -->Es wurde ein Problem behoben, bei dem der Inhaltstyp Dynamischer Block in der Admin-Phase nicht gerendert wird, wenn die oberste Zeile als ausgeblendet markiert ist.
-- &#x200B;<!-- PB-273 -->Verfeinerte Mauszeigerereignisse in der Admin-Phase durch Entfernen einer Verzögerung von 200 ms aus verschiedenen Benutzeroberflächen-Steuerelementen. Diese Änderung erleichtert die Arbeit mit verschachtelten Inhaltselementen auf der Bühne.
-- &#x200B;<!-- PB-294 -->Es wurde ein Problem behoben, bei dem das Währungssymbol im Produktlisten-Widget innerhalb des Blocks/dynamischen Blocks auf der Admin-Phase falsch maskiert wurde.
-- &#x200B;<!-- PB-296 -->Es wurde ein Problem behoben, bei dem die Produktsumme im [!DNL Page Builder] Bearbeitungsbereich für benutzerdefinierte MSI-Stock-Produkte nicht funktionierte.
-- &#x200B;<!-- PB-317 -->Es wurde ein Problem behoben, bei dem beim Speichern [!DNL Page Builder] Inhalte mit Hintergrundbildern auf Microsoft Edge diese Bilder in der Storefront nicht gerendert werden.
-- &#x200B;<!-- PB-390 -->Es wurde ein Problem behoben, bei dem verschachtelter [!DNL Page Builder]-Inhalt nicht gespeichert werden kann, wenn Benutzer auf die Schaltfläche Speichern klicken, bevor die Seite vollständig gerendert wird.
-- &#x200B;<!-- PB-418 -->Es wurde ein Ausnahmefehler behoben, der aufgrund von [!DNL Page Builder] Analytics in Cron-Aufträgen ausgelöst wurde.
+- <!-- PB-50 -->Es wurde ein Problem behoben, bei dem das TinyMCE-Menü für Folieninhalte unter anderen Inhaltstypen angezeigt wurde, wenn der übergeordnete Container der Folie dupliziert wurde.
+- <!-- PB-166 -->[!DNL Page Builder] wurde aktualisiert, um eine Methode zum Zerstören zu implementieren, um Speicherlecks in einigen Szenarien zu verhindern.
+- <!-- PB-170 -->Die TinyMCE-Leistung wurde verbessert, wenn mehrere Instanzen in der Admin-Phase verwendet werden.
+- <!-- PB-252 -->Es wurde ein Problem behoben, bei dem der Inhaltstyp Dynamischer Block in der Admin-Phase nicht gerendert wird, wenn die oberste Zeile als ausgeblendet markiert ist.
+- <!-- PB-273 -->Verfeinerte Mauszeigerereignisse in der Admin-Phase durch Entfernen einer Verzögerung von 200 ms aus verschiedenen Benutzeroberflächen-Steuerelementen. Diese Änderung erleichtert die Arbeit mit verschachtelten Inhaltselementen auf der Bühne.
+- <!-- PB-294 -->Es wurde ein Problem behoben, bei dem das Währungssymbol im Produktlisten-Widget innerhalb des Blocks/dynamischen Blocks auf der Admin-Phase falsch maskiert wurde.
+- <!-- PB-296 -->Es wurde ein Problem behoben, bei dem die Produktsumme im [!DNL Page Builder] Bearbeitungsbereich für benutzerdefinierte MSI-Stock-Produkte nicht funktionierte.
+- <!-- PB-317 -->Es wurde ein Problem behoben, bei dem beim Speichern [!DNL Page Builder] Inhalte mit Hintergrundbildern auf Microsoft Edge diese Bilder in der Storefront nicht gerendert werden.
+- <!-- PB-390 -->Es wurde ein Problem behoben, bei dem verschachtelter [!DNL Page Builder]-Inhalt nicht gespeichert werden kann, wenn Benutzer auf die Schaltfläche Speichern klicken, bevor die Seite vollständig gerendert wird.
+- <!-- PB-418 -->Es wurde ein Ausnahmefehler behoben, der aufgrund von [!DNL Page Builder] Analytics in Cron-Aufträgen ausgelöst wurde.
 
 ## 1.2.2 für Adobe Commerce 2.3.4-p2
 
@@ -207,7 +208,7 @@ Diese Version von [!DNL Page Builder] ist nur ein Versionsnummernupdate für Ado
 
 ## 1.2.0 für Adobe Commerce 2.3.4
 
-![Neu](../assets/new.svg) **[!DNL Page Builder]Integration mit PWA Studio** - [!DNL Page Builder] Content-Rendering zur Venia-App in PWA Studio hinzugefügt. [!DNL Page Builder] Inhalte können jetzt in der PWA Studio Venia-App angezeigt werden. In der [!DNL Page Builder] Dokumentation im [PWA Studio ] finden Sie alle Informationen zu dieser neuen Funktion.
+![Neu](../assets/new.svg) **[!DNL Page Builder]Integration mit PWA Studio** - [!DNL Page Builder] Content-Rendering zur Venia-App in PWA Studio hinzugefügt. [!DNL Page Builder] Inhalte können jetzt in der PWA Studio Venia-App angezeigt werden. In der [!DNL Page Builder] Dokumentation in [PWA Studio] finden Sie alle Informationen zu dieser neuen Funktion.
 
 ![Neu](../assets/new.svg) **Hinzugefügtes Produktkarussell** - <!-- PB-77, PB-173, PB-175 -->Der Inhaltstyp Produkte bietet jetzt eine Option zum Anzeigen Ihrer Produkte in einem Karussell-/Schiebereglerformat, einschließlich mehrerer Optionen zum Anpassen des Karussells an Ihre Anforderungen.
 
@@ -219,14 +220,14 @@ Diese Version von [!DNL Page Builder] ist nur ein Versionsnummernupdate für Ado
 
 ![Problem behoben](../assets/fix.svg) **Verschiedene Fehlerbehebungen**
 
-- &#x200B;<!-- PB-237 -->Sicherheitsverbesserungen.
-- &#x200B;<!-- PB-41 -->Es wurden Suchvorgänge in UI-Auswahlkomponenten korrigiert, damit pro Suchbegriff nur eine AJAX-Anfrage ausgeführt wird.
-- &#x200B;<!-- PB-76, PB-84-->Die Produktvorschauen wurden im Admin-Bereich aktualisiert, damit sie mit der Storefront übereinstimmen, einschließlich der Optionen für Sternebewertung, Farbe und Größe des Produkts, falls relevant.
-- &#x200B;<!-- PB-169 -->Es wurde ein Problem behoben, bei dem [!DNL Page Builder] nicht gespeichert werden konnten, wenn die JavaScript-Minimierung und -Bündelung in Commerce aktiviert waren.
-- &#x200B;<!-- PB-241 -->Es wurde ein Problem mit der Admin-Vorschau von Produkten, Blöcken und dynamischen Blöcken behoben, die auf Commerce-Installationen korrekt gerendert werden sollen, welche unterschiedliche URLs für den Admin und das Frontend definieren.
-- &#x200B;<!-- PB-238 -->Es wurde ein Problem mit der Admin-Vorschau von Produkten, Blöcken und dynamischen Blöcken behoben, die bei Commerce-Installationen mit B2B-Installation und aktivierter Option _Nur Anmeldung_ korrekt gerendert werden sollen. Vor dieser Fehlerbehebung führte die [!DNL Page Builder] Vorschau dazu, dass die Seite zur Anmeldung beim Kundenkonto umgeleitet wurde.
-- &#x200B;<!-- PB-239 -->Es wurde ein Sitzungsfehler behoben, der bei der Vorschau einer großen Seite in [!DNL Page Builder] Admin auftreten konnte.
-- &#x200B;<!-- PB-248 -->[!DNL Page Builder] LESS-Stile wurden aktualisiert, um eine Duplizierung des Storefront-Stils zu verhindern.
+- <!-- PB-237 -->Sicherheitsverbesserungen.
+- <!-- PB-41 -->Es wurden Suchvorgänge in UI-Auswahlkomponenten korrigiert, damit pro Suchbegriff nur eine AJAX-Anfrage ausgeführt wird.
+- <!-- PB-76, PB-84-->Die Produktvorschauen wurden im Admin-Bereich aktualisiert, damit sie mit der Storefront übereinstimmen, einschließlich der Optionen für Sternebewertung, Farbe und Größe des Produkts, falls relevant.
+- <!-- PB-169 -->Es wurde ein Problem behoben, bei dem [!DNL Page Builder] nicht gespeichert werden konnten, wenn die JavaScript-Minimierung und -Bündelung in Commerce aktiviert waren.
+- <!-- PB-241 -->Es wurde ein Problem mit der Admin-Vorschau von Produkten, Blöcken und dynamischen Blöcken behoben, die auf Commerce-Installationen korrekt gerendert werden sollen, welche unterschiedliche URLs für den Admin und das Frontend definieren.
+- <!-- PB-238 -->Es wurde ein Problem mit der Admin-Vorschau von Produkten, Blöcken und dynamischen Blöcken behoben, die bei Commerce-Installationen mit B2B-Installation und aktivierter Option _Nur Anmeldung_ korrekt gerendert werden sollen. Vor dieser Fehlerbehebung führte die [!DNL Page Builder] Vorschau dazu, dass die Seite zur Anmeldung beim Kundenkonto umgeleitet wurde.
+- <!-- PB-239 -->Es wurde ein Sitzungsfehler behoben, der bei der Vorschau einer großen Seite in [!DNL Page Builder] Admin auftreten konnte.
+- <!-- PB-248 -->[!DNL Page Builder] LESS-Stile wurden aktualisiert, um eine Duplizierung des Storefront-Stils zu verhindern.
 
 ## 1.1.1 für Adobe Commerce 2.3.3-P1
 

@@ -2,10 +2,9 @@
 user-guide-title: Konfigurationshandbuch
 user-guide-description: Dieses Handbuch enthält Referenzinformationen für alle Store-Konfigurationseinstellungen, auf die über die _admin_-Seitenleiste unter **[!UICONTROL Stores]** > _[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** zugegriffen wird.
 breadcrumb-title: Konfigurationsreferenz
-hide: false
 role: Admin, Developer, User
 feature: Configuration
-source-git-commit: ae472bb3be3b9095c4c8b5869c4a4d247cb2aef1
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 3%
@@ -84,4 +83,4 @@ ht-degree: 3%
    - [Administrator](./advanced/admin.md)
    - [System](./advanced/system.md)
    - [Entwickler](./advanced/developer.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

@@ -2,10 +2,9 @@
 user-guide-title: Handbuch für Admin-Systeme
 user-guide-description: Dieses Handbuch enthält detaillierte Informationen zur Admin-Sicherheit, zu Wartungsvorgängen und zu systemweiten Ressourcen, die organisatorische Funktionen in Ihrem Adobe Commerce-Store unterstützen.
 breadcrumb-title: Handbuch für Admin-Systeme
-hide: false
 role: Admin, Leader
 feature: System
-source-git-commit: 6fe5ffb6f529f95e32bb12a55ae16100f4d1bbbb
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 4%
@@ -80,4 +79,4 @@ ht-degree: 4%
    - [Sitzungsverwaltung](security-session-management.md)
    - [Erkennung von Browser-Funktionen](security-browser-capabilities-detection.md)
    - [Meldung von Sicherheitsproblemen](security-issue-reporting.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

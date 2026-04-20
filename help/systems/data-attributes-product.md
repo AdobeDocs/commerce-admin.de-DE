@@ -3,7 +3,7 @@ title: Referenz zu Produktdatenattributen
 description: Verwenden Sie diese Referenz von Produktdatenattributen, wenn Sie mit Produktdatenimporten und -exporten arbeiten.
 exl-id: 9ffa4d1f-cbf8-4a08-bb79-33f21e698a74
 feature: Products, Attributes
-source-git-commit: 3d02b1f6b3051aab133a57497bd0c30ac60bffde
+source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Referenz zu Produktdatenattributen
 
-In der folgenden Tabelle sind die Attribute eines typischen Produktexports in der Standardreihenfolge aufgeführt, in der sie angezeigt werden. Jedes Attribut wird in der CSV-Datei als Spalte dargestellt, und Produktdatensätze werden durch Zeilen dargestellt. Spalten, die mit einem Unterstrich beginnen, enthalten Service-Daten wie Eigenschaften oder Optionswerte für komplexe Daten. Sie können [&#x200B; Produkt &#x200B;](data-export.md) Ihrem Katalog exportieren, um zu sehen, wie die einzelnen Attribute in den Daten dargestellt werden.
+In der folgenden Tabelle sind die Attribute eines typischen Produktexports in der Standardreihenfolge aufgeführt, in der sie angezeigt werden. Jedes Attribut wird in der CSV-Datei als Spalte dargestellt, und Produktdatensätze werden durch Zeilen dargestellt. Spalten, die mit einem Unterstrich beginnen, enthalten Service-Daten wie Eigenschaften oder Optionswerte für komplexe Daten. Sie können [ Produkt ](data-export.md) Ihrem Katalog exportieren, um zu sehen, wie die einzelnen Attribute in den Daten dargestellt werden.
 
 Auf der zum Exportieren dieser Daten verwendeten Installation sind die Beispieldaten installiert, außerdem sind dort zwei Websites und mehrere Store-Ansichten vorhanden. Obwohl diese Liste alle Spalten enthält, die normalerweise exportiert werden, ist die `sku` der einzige erforderliche Wert. Um Daten zu importieren, können Sie nur die Spalten mit Änderungen einbeziehen. Die `sku` sollte die erste Spalte sein, aber die Reihenfolge der übrigen Attribute spielt keine Rolle.
 
@@ -24,7 +24,7 @@ Auf der zum Exportieren dieser Daten verwendeten Installation sind die Beispield
 | `store_view_code` | Gibt die spezifischen Store-Ansichten an, in denen das Produkt verfügbar ist. Wenn dies leer ist, ist das Produkt in der standardmäßigen Store-Ansicht verfügbar. Beispiel: `storeview1`, `english`, `spanish` |
 | `attribute_set_code` | Weist das Produkt je nach Produkttyp einem bestimmten Attributsatz oder einer bestimmten Produktvorlage zu. Beispiel: `default`<br><br>Nachdem das Produkt erstellt wurde, kann der Attributsatz nicht mehr mit der Importfunktion geändert werden. Sie können jedoch über die Administratorin bzw. den Administrator das Attribut ändern und das Produkt erneut exportieren, um die CSV-Datei zu aktualisieren. |
 | `product_type` | Gibt den Produkttyp an. Werte:<br/>`simple` — Sachgüter, die in der Regel als einzelne Einheiten oder in festen Mengen verkauft werden.<br/>`grouped` - Eine Gruppe separater Produkte, die als Set verkauft werden.<br/>`configurable` - Ein Produkt mit mehreren Optionen, die der Kunde vor dem Kauf auswählen muss. Der Bestand kann für jeden Variantensatz verwaltet werden, da er ein separates Produkt mit einer unterschiedlichen SKU darstellt. Beispielsweise ist eine Kombination aus Farbe und Größe für ein konfigurierbares Produkt mit einer bestimmten SKU im Katalog verknüpft.<br/>`virtual` — Ein nicht materielles Produkt, das nicht versendet werden muss und nicht im Inventar aufbewahrt wird. Beispiele sind Services, Mitgliedschaften und Abonnements.<br/>`bundle` - Ein anpassbarer Produktsatz einfacher Produkte, die zusammen verkauft werden. |
-| `categories` | Gibt jede Kategorie an, die dem Produkt zugewiesen ist. Trennen Sie Kategorien und Unterkategorien mit einem Schrägstrich. Um mehrere Kategoriepfade anzugeben, trennen Sie jeden Pfad mit einem senkrechten Strich \| Symbol. Beispiel: `Default Category/Gear\|Default Category/Gear/Bags` |
+| `categories` | Gibt jede Kategorie an, die dem Produkt zugewiesen ist. Trennen Sie Kategorien und Unterkategorien mit einem Schrägstrich. Um mehrere Kategoriepfade anzugeben, trennen Sie jeden Pfad mit einem senkrechten Strich \|. Beispiel: `Default Category/Gear\|Default Category/Gear/Bags` |
 | `product_websites` | Der Website-Code jeder Website, auf der das Produkt verfügbar ist. Ein einzelnes Produkt kann mehreren Websites zugewiesen oder auf eine Website beschränkt werden. Wenn Sie mehrere Websites angeben, trennen Sie sie jeweils durch ein Komma und ohne Leerzeichen. Beispiel: `base` oder `base,website2` |
 | `name` | Der Produktname wird in allen Produktlisten angezeigt und ist der Name, mit dem Kunden das Produkt identifizieren. |
 | `description` | Die Produktbeschreibung enthält detaillierte Informationen zum Produkt und kann einfache HTML-Tags enthalten. |
@@ -95,7 +95,7 @@ Auf der zum Exportieren dieser Daten verwendeten Installation sind die Beispield
 | `upsell_position` | Bestimmt die Position (Sortierreihenfolge) der SKUs, die als Upsell-Produkte in der Spalte `upsell_skus` aufgeführt sind. |
 | `additional_images` | Die Dateinamen aller zusätzlichen Bilder, die mit dem Produkt verknüpft werden sollen, mit vorangestelltem Schrägstrich. Beispiel: `/image.jpg` |
 | `additional_image_labels` | Die Beschriftungen, die mit zusätzlichen Bildern verknüpft sind. Beispiel: `Label 1`, `Label 2` |
-| `custom_options` | Gibt die Eigenschaften und Werte an, die jeder benutzerdefinierten Option zugewiesen sind. Beispiel: <br/>`name=Color, type=drop_down, required=1, price= price_type=fixed, sku=, option_title=Black|name=Color, type=drop_down, required=1, price=, price_type=fixed, sku=, option_title=White` |
+| `custom_options` | Gibt die Eigenschaften und Werte an, die jeder benutzerdefinierten Option zugewiesen sind. Beispiel: <br/>`name=Color, type=drop_down, required=1, price= price_type=fixed, sku=, option_title=Black\|name=Color, type=drop_down, required=1, price=, price_type=fixed, sku=, option_title=White` |
 
 {style="table-layout:auto"}
 
@@ -130,7 +130,7 @@ Wenn Sie ein konfigurierbares Produkt exportieren, finden Sie die Standardattrib
 | Attribut | Beschreibung |
 |--- |--- |
 | `configurable_variation_labels` | Beschriftungen, die Produktvarianten identifizieren. Beispiel: `Choose Color:` oder `Choose Size:` |
-| `configurable_variations` | Beschreibt die Werte, die einer Produktvariante zugeordnet sind. Beispiel: `sku=sku-red xs,color=red,size=xs,price=10.99,display=1,image=/pub/media/import/image1.png|sku=sku-red-m,color=red,size=m,price=20.88,display=1,image=/pub/media/import/image2.png` |
+| `configurable_variations` | Beschreibt die Werte, die einer Produktvariante zugeordnet sind. Beispiel: `sku=sku-red xs,color=red,size=xs,price=10.99,display=1,image=/pub/media/import/image1.png\|sku=sku-red-m,color=red,size=m,price=20.88,display=1,image=/pub/media/import/image2.png` |
 
 {style="table-layout:auto"}
 

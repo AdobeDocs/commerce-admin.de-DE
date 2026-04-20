@@ -2,8 +2,8 @@
 title: Support-Tools
 description: Erfahren Sie mehr über die bereitgestellten Support-Tools, mit denen Sie Probleme in Ihrem System identifizieren können.
 exl-id: f67616e6-7879-4fd3-947a-16856f8447ba
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: addde8c3e41b641712f5b08107c1d68b40cd4159
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: ea62a4a901ed3e8e91332f742ebb53fe58be706d
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Wählen Sie in der Spalte **[!UICONTROL Action]** des Rasters eine der folgenden
 
 ### Anzeigen von Systemberichtsdetails
 
-1. Wählen Sie für den benötigten Bericht **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_&#x200B;aus.
+1. Wählen Sie für den benötigten Bericht **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_aus.
 
 1. Erweitern Sie im linken Bereich ![Erweiterungsauswahl](../assets/icon-display-expand.png) jeden Abschnitt des Berichts, um die Details anzuzeigen.
 
@@ -80,7 +80,7 @@ Wählen Sie in der Spalte **[!UICONTROL Action]** des Rasters eine der folgenden
 | [!UICONTROL Configuration] | Konfiguration<br>Daten aus der Funktionsmatrix `app/etc/env.php`<br>Versandmethoden<br>Zahlungsmethoden<br>Zahlungen |
 | [!UICONTROL Logs] | Protokolldateien<br>Top-Systemmeldungen<br>Aktuelle Top-Systemmeldungen<br>Top-Debugmeldungen<br>Aktuelle Top-Debugmeldungen<br>Top-Ausnahmemeldungen<br>Aktuelle Top-Ausnahmemeldungen |
 | [!UICONTROL Attributes] | Benutzerdefinierte EAV-Attribute<br>neue EAV-Attribute<br>Entitätstypen<br>Alle EAV-Attribute<br>Kategorie-EAV-Attribute<br>Produkt-EAV-Attribute<br>Kunden-EAV-Attribute<br>Kundenadresse EAV-Attribut<br>RMA-Element EAV-Attribute |
-| [!UICONTROL Events] | Benutzerdefinierte globale Ereignisse<br>Benutzerdefinierte Admin-Ereignisse<br>Benutzerdefinierte Frontend-Ereignisse<br>Benutzerdefinierte Dokumentereignisse<br>Benutzerdefinierte Crontab-Ereignisse<br>benutzerdefinierte REST-Ereignisse<br>Benutzerdefinierte SOAP SOAP-Ereignisse<br>Core-globale Ereignisse<br>Core-Admin-Ereignisse<br><br> Core-Frontend-Ereignisse<br>Core-Crontab-Ereignisse<br><br> Core-REST-Ereignisse<br>Alle globalen Ereignisse<br>Alle Admin-Ereignisse<br><br> Alle Doc-Ereignisse<br>Alle REST-Ereignisse<br>Alle SOAP-Ereignisse<br>Alle Crontab-Ereignisse |
+| [!UICONTROL Events] | Benutzerdefinierte globale Ereignisse<br>Benutzerdefinierte Admin-Ereignisse<br>Benutzerdefinierte Frontend-Ereignisse<br>Benutzerdefinierte Dokumentereignisse<br>Benutzerdefinierte Crontab-Ereignisse<br>benutzerdefinierte REST-Ereignisse<br>Benutzerdefinierte SOAP-Ereignisse<br>Core-globale Ereignisse<br>Core-Admin-Ereignisse<br><br> Core-Frontend-Ereignisse<br>Core-Crontab-Ereignisse<br><br> Core-REST-Ereignisse<br>Alle globalen Ereignisse<br>Alle Admin-Ereignisse<br><br> Alle Doc-Ereignisse<br>Alle REST-Ereignisse<br>Alle SOAP-Ereignisse<br>Alle Crontab-Ereignisse |
 | [!UICONTROL Cron] | Cron-Zeitpläne nach Status-Code<br>Cron-Zeitpläne nach Auftrags-Code<br>Fehler in Cron-Zeitplänen Warteschlange<br>Cron-Zeitplanliste<br>Benutzerdefinierte globale Cron-Aufträge<br>Benutzerdefinierte konfigurierbare Cron-Aufträge<br>Core-globale Cron-Aufträge<br>Core konfigurierbare Cron-Aufträge<br>Alle globalen Cron-Aufträge<br>Alle konfigurierbaren Cron-Aufträge |
 | [!UICONTROL Design] | AdminHTML-Designliste<br>Frontend-Designliste |
 | [!UICONTROL Stores] | Website-Baumstruktur<br>Websites-Liste<br>Stores-Liste<br>Store-Ansichten-Liste |
