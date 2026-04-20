@@ -44,7 +44,7 @@ Die Art der Commerce-Kontoübertragung hängt von den Anmeldedaten für das Comm
 
 Dieser Übertragungstyp erfordert, dass eine Adobe ID vorhanden ist, die mit dem bestehenden Commerce-Konto verknüpft ist, und dass dieses Konto dann in die E-Mail-Adresse des neuen Eigentümers geändert wird.
 
-1. Navigieren Sie zur Anmeldeseite des Commerce-Kontos {0[.](https://account.magento.com/customer/account/login/)
+1. Navigieren Sie zur Anmeldeseite des Commerce-Kontos &lbrace;0[.](https://account.magento.com/customer/account/login/)
 
 1. Klicken Sie auf **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -54,7 +54,7 @@ Dieser Übertragungstyp erfordert, dass eine Adobe ID vorhanden ist, die mit dem
 
 1. Klicken Sie auf **[!UICONTROL Continue]**.
 
-   In diesem Schritt wird eine Adobe ID erstellt und mit dem aktuellen Commerce-Konto (MAGEID) verknüpft. Mit diesem Konto-Link wird das Feld _[!UICONTROL Email]_für alle Änderungen gesperrt. Die Konfiguration der zugehörigen E-Mail-Adresse wird über das Adobe ID-Konto verwaltet.
+   In diesem Schritt wird eine Adobe ID erstellt und mit dem aktuellen Commerce-Konto (MAGEID) verknüpft. Mit diesem Konto-Link wird das Feld _[!UICONTROL Email]_&#x200B;für alle Änderungen gesperrt. Die Konfiguration der zugehörigen E-Mail-Adresse wird über das Adobe ID-Konto verwaltet.
 
 1. Navigieren Sie zu [account.adobe.com](https://account.adobe.com/).
 

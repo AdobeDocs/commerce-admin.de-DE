@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Referenz zu Produktdatenattributen
 
-In der folgenden Tabelle sind die Attribute eines typischen Produktexports in der Standardreihenfolge aufgeführt, in der sie angezeigt werden. Jedes Attribut wird in der CSV-Datei als Spalte dargestellt, und Produktdatensätze werden durch Zeilen dargestellt. Spalten, die mit einem Unterstrich beginnen, enthalten Service-Daten wie Eigenschaften oder Optionswerte für komplexe Daten. Sie können [ Produkt ](data-export.md) Ihrem Katalog exportieren, um zu sehen, wie die einzelnen Attribute in den Daten dargestellt werden.
+In der folgenden Tabelle sind die Attribute eines typischen Produktexports in der Standardreihenfolge aufgeführt, in der sie angezeigt werden. Jedes Attribut wird in der CSV-Datei als Spalte dargestellt, und Produktdatensätze werden durch Zeilen dargestellt. Spalten, die mit einem Unterstrich beginnen, enthalten Service-Daten wie Eigenschaften oder Optionswerte für komplexe Daten. Sie können [&#x200B; Produkt &#x200B;](data-export.md) Ihrem Katalog exportieren, um zu sehen, wie die einzelnen Attribute in den Daten dargestellt werden.
 
 Auf der zum Exportieren dieser Daten verwendeten Installation sind die Beispieldaten installiert, außerdem sind dort zwei Websites und mehrere Store-Ansichten vorhanden. Obwohl diese Liste alle Spalten enthält, die normalerweise exportiert werden, ist die `sku` der einzige erforderliche Wert. Um Daten zu importieren, können Sie nur die Spalten mit Änderungen einbeziehen. Die `sku` sollte die erste Spalte sein, aber die Reihenfolge der übrigen Attribute spielt keine Rolle.
 

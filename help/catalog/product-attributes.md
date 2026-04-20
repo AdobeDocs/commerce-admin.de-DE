@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Übersicht über Produktattribute
 
-Attribute sind die Bausteine Ihres Produktkatalogs und beschreiben spezifische Merkmale eines Produkts. Produktattribute können in &quot;[&quot; unterteilt ](attribute-sets.md), die dann als Vorlagen zum Erstellen von Produkten verwendet werden.
+Attribute sind die Bausteine Ihres Produktkatalogs und beschreiben spezifische Merkmale eines Produkts. Produktattribute können in &quot;[&quot; unterteilt &#x200B;](attribute-sets.md), die dann als Vorlagen zum Erstellen von Produkten verwendet werden.
 
 Attribute bestimmen den Typ des Eingabedialogs, der für Produktoptionen verwendet wird, und geben zusätzliche Informationen für Produktseiten an. Sie werden auch als Suchparameter und Kriterien für mehrschichtige Navigation, Produktvergleichsberichte und Werbeaktionen verwendet. Sie können so viele Attribute und Attributsätze erstellen, wie erforderlich sind, um die Produkte in Ihrem Katalog zu beschreiben. Zusätzlich zu den Attributen, die Sie erstellen können, sind Systemattribute, wie z. B. Preis, in die Commerce-Kernplattform integriert und können nicht geändert werden.
 

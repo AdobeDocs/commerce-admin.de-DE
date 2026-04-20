@@ -22,7 +22,7 @@ Markup-Tags sind in doppelte, geschweifte Klammern eingeschlossen und können en
 
 Mit dem Variablen-Markup-Tag können Sie eine [benutzerdefinierte Variable](variables-custom.md) in eine E-Mail-Vorlage, Blöcke, Newsletter und Inhaltsseiten einfügen.
 
-\{CustomVar code= „my_custom_variable“\}\}
+\{CustomVar code= „my_custom_variable“\}\&rbrace;
 
 ## URL speichern
 
