@@ -3,9 +3,9 @@ title: Einrichtung des Spediteurs
 description: Erfahren Sie mehr über den Support für kommerzielle Versandkonten, der für Ihren Shop verfügbar ist.
 exl-id: b6098068-12f3-4223-b216-98055a802b19
 feature: Shipping/Delivery
-source-git-commit: 15118877bb8cc533b2323819db34da0513899e25
+source-git-commit: b0f3256e6e41ce3e605a9564ce0e412efcba9c98
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,11 @@ Die Konfigurationsoptionen variieren für jeden Provider. Alle erfordern jedoch 
 
 Die Adobe Commerce-Versionen 2.4.6, 2.4.7 und 2.4.8 verwenden die Legacy-Web-Tools-APIs für die vordefinierte Versandintegration mit USPS. USPS hat USPS APIs eingeführt, eine REST-basierte Plattform, die die veralteten Web-Tools-APIs ersetzt.
 
-Am 25. Januar 2026 stellt USPS die veralteten Web Tools-APIs ein. Nach diesem Datum schlagen alle Anfragen an die Web-Tools-APIs fehl.
+Seit dem 25. Januar 2026 hat USPS die Legacy-Webtools-APIs eingestellt. Nach diesem Datum schlagen alle Anfragen an die Web-Tools-APIs fehl.
 
-Um eine Unterbrechung der USPS-Versandservices zu vermeiden, führen Sie die folgenden Maßnahmen vor dem 25. Januar 2026 durch:
+Um Unterbrechungen des USPS-Versands zu vermeiden, aktualisieren Sie auf die neueste Version von Adobe Commerce oder führen Sie die folgenden Schritte aus:
 
-- Wenden Sie den [USPS REST API Migration Quality Patch](https://experienceleague.adobe.com/de/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) an, um Unterstützung für die Integration mit den USPS REST-APIs hinzuzufügen.
+- Wenden Sie den [USPS REST API Migration Quality Patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-70/ac-15210) an, um Unterstützung für die Integration mit den USPS REST-APIs hinzuzufügen.
 
 - Aktualisieren Sie die Commerce USPS-Konfiguration zur Verwendung der REST-APIs:
 

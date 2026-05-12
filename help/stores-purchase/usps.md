@@ -3,9 +3,9 @@ title: United States Postal Service (USPS)
 description: Erfahren Sie, wie Sie USPS als Versanddienstleister für Ihr Geschäft einrichten.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
+source-git-commit: b0f3256e6e41ce3e605a9564ce0e412efcba9c98
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,7 @@ Der United States Postal Service ist ein unabhängiger Postdienst der Regierung 
 
 ## Schritt 1: USPS Versandkonto eröffnen
 
-Öffnen Sie ein [USPS Web Tools](https://secure.shippingapis.com/registration/)-Konto. Nach Abschluss des Registrierungsprozesses erhalten Sie Ihre Benutzer-ID und eine URL zum USPS-Testserver.
-
-Sie können auch ein Konto [USPS Web Tools](https://secure.shippingapis.com/registration/) eröffnen. Nach Abschluss des Registrierungsprozesses erhalten Sie Ihre Benutzer-ID und eine URL zum USPS-Testserver. Weitere Informationen zu USPS Web Tools finden Sie in der [technischen Dokumentation](https://www.usps.com/business/web-tools-apis/welcome.htm).
+Öffnen Sie ein [USPS Developer Portal](https://developers.usps.com/)-Konto. Nach Abschluss des Registrierungsprozesses erhalten Sie Ihre Benutzer-ID und eine URL zum USPS-Testserver. Weitere Informationen zu USPS-APIs finden Sie in der [technischen Dokumentation](https://developers.usps.com/getting-started).
 
 ## Schritt 2: USPS für Ihren Shop aktivieren
 
@@ -36,15 +34,11 @@ Sie können auch ein Konto [USPS Web Tools](https://secure.shippingapis.com/regi
 
 1. Legen Sie **[!UICONTROL Enabled for Checkout]** auf `Yes` fest.
 
-1. Festlegen des USPS-API-Typs.
-
-   - Wenn Sie die USPS REST-API verwenden, setzen Sie **[!UICONTROL USPS Type]** auf `USPS REST API`.
-
-   - Wenn Sie die USPS Web Tools-API verwenden, setzen Sie **[!UICONTROL USPS Type]** auf `USPS Web Tools API`.
+1. Legen Sie **[!UICONTROL USPS Type]** auf `USPS REST API` fest.
 
    >[!NOTE]
    >
-   >Die USPS-REST-APIs sind die bevorzugte Methode zur Integration mit USPS. Die USPS Web Tools-API ist veraltet und wird in zukünftigen Versionen möglicherweise entfernt.
+   >USPS unterstützt nicht mehr die USPS Web Tools API.
 
 1. Geben Sie bei Bedarf die **[!UICONTROL Gateway URL]** ein, um auf USPS Versandtarife zuzugreifen.
 
@@ -64,7 +58,6 @@ Sie können auch ein Konto [USPS Web Tools](https://secure.shippingapis.com/regi
 
    - **[!UICONTROL User ID]**
    - **[!UICONTROL Password]**
-
 
 1. Legen Sie **[!UICONTROL Mode]** auf eine der folgenden Einstellungen fest:
 
