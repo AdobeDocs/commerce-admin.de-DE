@@ -2,17 +2,17 @@
 title: WYSIWYG-Editor
 description: Erfahren Sie, wie Sie den Editor verwenden und mit Inhalten in einer _What You See Is What You Get_ (WYSIWYG)-Ansicht arbeiten.
 exl-id: 209ca9d6-973c-4ad9-b7cd-4fba58dbfbb8
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: f7d2ab41318119fc0f3eed32b3619f0b9071c15d
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
 # WYSIWYG-Editor
 
-Der Editor bietet die Möglichkeit, Daten einzugeben und zu formatieren, während Sie in einer _What You See Is What You Get_ (WYSIWYG)-Ansicht des Inhalts arbeiten. Wenn Sie lieber direkt mit dem zugrunde liegenden HTML-Code arbeiten, können Sie die Modi einfach ändern. Der Editor kann verwendet werden, um Inhalte für [Seiten](pages.md), [Blöcke](blocks.md) und [Produktbeschreibungen) &#x200B;](../catalog/product-content.md). Greifen Sie bei der Arbeit an Produktdetails auf den Editor zu, indem Sie auf **[!UICONTROL Show / Hide Editor]** klicken.
+Der Editor bietet die Möglichkeit, Daten einzugeben und zu formatieren, während Sie in einer _What You See Is What You Get_ (WYSIWYG)-Ansicht des Inhalts arbeiten. Wenn Sie lieber direkt mit dem zugrunde liegenden HTML-Code arbeiten, können Sie die Modi einfach ändern. Der Editor kann verwendet werden, um Inhalte für [Seiten](pages.md), [Blöcke](blocks.md) und [Produktbeschreibungen) ](../catalog/product-content.md). Greifen Sie bei der Arbeit an Produktdetails auf den Editor zu, indem Sie auf **[!UICONTROL Show / Hide Editor]** klicken.
 
 ![Editor-Symbolleiste](./assets/editor-toolbar.png){width="700" zoomable="yes"}
 
@@ -27,13 +27,17 @@ Die folgenden Themen enthalten detaillierte Informationen zur Verwendung des Edi
 
 Der WYSIWYG-Editor ist standardmäßig aktiviert und kann verwendet werden, um Inhalte auf CMS-Seiten und -Blöcken sowie in Produkten und Kategorien zu bearbeiten. In der -Konfiguration können Sie den Editor aktivieren oder deaktivieren und festlegen, dass für Medieninhalte in Produkt- und Kategoriebeschreibungen statt [dynamisch](../catalog/catalog-urls.md#dynamic-url) statische URLs verwendet werden sollen.
 
-![WYSIWYG-Optionen](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+![WYSIWYG-Optionen](../configuration-reference/general/assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>TinyMCE wurde in Magento 2.4.6 und höheren Versionen durch Hugerte als standardmäßigen WYSIWYG-Editor ersetzt.
 
 Eine ausführliche Beschreibung aller WYSIWYG-Optionen finden Sie unter [Content-Management](../configuration-reference/general/content-management.md) in _Konfigurationsreferenz_.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Content Management]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL WYSIWYG Options]**.
 

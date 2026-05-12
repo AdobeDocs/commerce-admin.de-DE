@@ -3,9 +3,9 @@ title: Erstellen von Versandkennzeichnungen und -paketen
 description: Erfahren Sie, wie Sie Artikel in einer Bestellung verpacken und Versandkennzeichnungen erstellen.
 exl-id: ed9be72a-0dcd-4dbf-82ba-b1d75a1e76fd
 feature: Shipping/Delivery, Orders
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Befolgen Sie die Anweisungen der einzelnen Spediteure, um Ihrem Konto Support f�
 
 United Parcel Service versendet sowohl im In- als auch im Ausland. Versandaufkleber können jedoch nur für Sendungen generiert werden, die ihren Ursprung in den USA haben.
 
-1. Wählen Sie im Abschnitt _[!UICONTROL Sales]_&#x200B;im linken Bereich **[!UICONTROL Delivery Methods]**&#x200B;aus.
+1. Wählen Sie im Abschnitt _[!UICONTROL Sales]_im linken Bereich **[!UICONTROL Delivery Methods]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL UPS]** .
 
@@ -67,7 +67,22 @@ Die [!DNL United States Postal Service] versendet sowohl im In- als auch im Ausl
 
 1. Überprüfen Sie, ob die **[!UICONTROL Secure Gateway URL]** korrekt ist.
 
-1. Geben Sie die **[!UICONTROL Password]** ein, die Sie von USPS erhalten haben.
+1. Stellen Sie sicher, dass die folgende Konfiguration basierend auf der ausgewählten **[!UICONTROL USPS Type]** abgeschlossen ist:
+
+   Wenn Sie die USPS Web Tools-API verwenden:
+   - Benutzer-ID
+   - Kennwort
+
+   Wenn Sie die USPS-REST-APIs verwenden:
+   - Consumer Key
+   - Verbrauchergeheimnis
+   - Preisoptionen
+   - Kontotyp
+   - Kontonummer
+   - Kunden-Registrierungs-ID (CRID)
+   - Mailer-Kennung (MID)
+   - Manifest-MID
+   - AES/ITN
 
 1. Stellen Sie sicher, dass die folgende Konfiguration basierend auf der ausgewählten **[!UICONTROL USPS Type]** abgeschlossen ist:
 
@@ -115,13 +130,15 @@ DHL erbringt internationale Versanddienstleistungen.
 
 1. Erweitern Sie **[!UICONTROL Delivery Methods]** -Konfiguration ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL DHL]** .
 
-1. Überprüfen Sie, ob die **[!UICONTROL Gateway URL]** korrekt ist.
+1. Wählen Sie **[!UICONTROL DHL Type]** als `DHL REST` oder `DHL XML` aus.
 
-1. Vergewissern Sie sich, dass die folgenden Anmeldeinformationen vollständig sind:
+1. Vergewissern Sie sich, dass die folgenden Anmeldeinformationen vollständig sind, basierend auf der **[!UICONTROL DHL Type]** Auswahl:
 
    - Zugriffs-ID
    - Kennwort
    - Kontonummer
+   - API-Schlüssel
+   - API-Geheimnis
 
 1. Klicken Sie auf **[!UICONTROL Save Config]**.
 
@@ -145,7 +162,7 @@ DHL erbringt internationale Versanddienstleistungen.
 
 1. Hinzufügen oder Aktualisieren von Produkten im Paket:
 
-   - Um Produkte aus der Bestellung zum Paket hinzuzufügen, klicken Sie auf **[!UICONTROL Add Products]**. Die Spalte _[!UICONTROL Quantity]_&#x200B;zeigt die maximale Anzahl von Produkten an, die für das Paket verfügbar sind.
+   - Um Produkte aus der Bestellung zum Paket hinzuzufügen, klicken Sie auf **[!UICONTROL Add Products]**. Die Spalte _[!UICONTROL Quantity]_zeigt die maximale Anzahl von Produkten an, die für das Paket verfügbar sind.
 
    - Aktivieren Sie das Kontrollkästchen jedes Produkts, das dem Paket hinzugefügt werden soll, und geben Sie die **[!UICONTROL Quantity]** jedes Produkts ein. Klicken Sie dann auf **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -169,7 +186,7 @@ DHL erbringt internationale Versanddienstleistungen.
 
 1. Suchen Sie die Bestellung im Raster und öffnen Sie das Versandformular.
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Shipping and Tracking Information]_&#x200B;auf **[!UICONTROL Create Shipping Label]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Shipping and Tracking Information]_auf **[!UICONTROL Create Shipping Label]**.
 
 1. Verteilen Sie die bestellten Produkte an die entsprechenden Pakete und klicken Sie auf **[!UICONTROL OK]**.
 
@@ -191,11 +208,11 @@ Versandaufkleber werden im PDF-Format generiert und können vom Administrator au
 
    - **[!UICONTROL Sales]** > **[!UICONTROL Shipments]** - Sendung im Raster suchen und Datensatz öffnen.
 
-1. Um die PDF-Datei herunterzuladen, gehen Sie zum Abschnitt _[!UICONTROL Shipping and Tracking]_&#x200B;des Formulars und klicken Sie auf **[!UICONTROL Print Shipping Label]**.
+1. Um die PDF-Datei herunterzuladen, gehen Sie zum Abschnitt _[!UICONTROL Shipping and Tracking]_des Formulars und klicken Sie auf **[!UICONTROL Print Shipping Label]**.
 
    Je nach Browsereinstellungen können die Versandkennzeichnungen direkt aus der PDF-Datei angezeigt und ausgedruckt werden.
 
-   Die Schaltfläche _[!UICONTROL Print Shipping Label]_&#x200B;wird erst angezeigt, nachdem der Spediteur Beschriftungen für die Sendung generiert hat. Wenn die Schaltfläche fehlt, klicken Sie auf **[!UICONTROL Create Shipping Label]**. Die Schaltfläche wird angezeigt, nachdem Commerce die Kennzeichnung vom Provider erhalten hat.
+   Die Schaltfläche _[!UICONTROL Print Shipping Label]_wird erst angezeigt, nachdem der Spediteur Beschriftungen für die Sendung generiert hat. Wenn die Schaltfläche fehlt, klicken Sie auf **[!UICONTROL Create Shipping Label]**. Die Schaltfläche wird angezeigt, nachdem Commerce die Kennzeichnung vom Provider erhalten hat.
 
 ### Methode 2: Etiketten für mehrere Bestellungen drucken
 
@@ -218,13 +235,13 @@ Für jede Sendung, die mit den ausgewählten Bestellungen verbunden ist, wird ei
 | [!UICONTROL Type] | Die Pakettypen unterscheiden sich je nach Träger und Methode. Zunächst wird der Standardpakettyp für jeden Provider ausgewählt. USPS benötigt den Pakettyp nicht für Inlandslieferungen. |
 | [!UICONTROL Customs Value] | (Nur internationale Sendungen) Der deklarierte Wert oder Verkaufspreis des Inhalts einer internationalen Sendung. |
 | [!UICONTROL Total Weight] | Das Gesamtgewicht aller zum Paket hinzugefügten Produkte wird automatisch berechnet. Der Wert kann auch manuell geändert und als Pfund oder Kilogramm eingegeben werden. |
-| [!UICONTROL Length, Width, Height] | (Optional) Die Paketdimensionen werden nur für benutzerdefinierte Pakete verwendet. Sie können die Maßeinheiten als Zoll oder Zentimeter angeben.<br/><br/>**[!UICONTROL Not Required]**: Vom Spediteur wird keine Lieferbestätigung an das Geschäft gesendet.<br/><br/>**[!UICONTROL No Signature]**: Eine Lieferbestätigung ohne Unterschrift des Empfängers wird vom Spediteur an das Geschäft gesendet.<br/><br/>**[!UICONTROL Signature Required]**: Der Spediteur erhält die Unterschrift des Empfängers und stellt dem Geschäft ein gedrucktes Exemplar zur Verfügung.<br/><br/>**[!UICONTROL Direct]**: (Nur FedEx) FedEx erhält eine Signatur von einer Person an der Lieferadresse. Wenn niemand für die Unterzeichnung des Pakets zur Verfügung steht, versucht der Provider, das Paket zu einem anderen Zeitpunkt zuzustellen.<br/><br/>**[!UICONTROL Indirect]**: (Nur FedEx-Hauslieferungen) FedEx erhält die Unterschrift einer Person (möglicherweise eines Nachbarn oder Gebäudemanagers) an der Lieferadresse. Der Empfänger kann ein signiertes FedEx-Tür-Tag hinterlassen, um zu autorisieren, das Paket zu hinterlassen, ohne dass jemand anwesend ist, um es zu signieren.<br/><br/>**[!UICONTROL Contents]**: (Nur USPS) Wählen Sie eine der folgenden Beschreibungen des Pakets aus:<br/>- Geschenk<br/>- Dokumente<br/>- Handelsmuster<br/>- Zurückgegebene Waren<br/>- Waren<br/>- Andere <br/><br/>**[!UICONTROL Explanation]**: (Nur USPS) Eine detaillierte Beschreibung des Paketinhalts.<br/><br/>**[!UICONTROL Adult Required]**: Der Spediteur erhält die Unterschrift eines erwachsenen Empfängers und stellt dem Geschäft ein gedrucktes Exemplar zur Verfügung. |
+| [!UICONTROL Length, Width, Height] | (Optional) Die Paketdimensionen werden nur für benutzerdefinierte Pakete verwendet. Sie können die Maßeinheiten als Zoll oder Zentimeter angeben.<br/><br/>**[!UICONTROL Not Required]**: Der Spediteur sendet keine Lieferbestätigung an das Geschäft.<br/><br/>**[!UICONTROL No Signature]**: Eine Lieferbestätigung ohne die Unterschrift des Empfängers wird vom Spediteur an das Geschäft gesendet.<br/><br/>**[!UICONTROL Signature Required]**: Der Spediteur erhält die Unterschrift des Empfängers und stellt dem Geschäft ein gedrucktes Exemplar zur Verfügung.<br/><br/>**[!UICONTROL Direct]**: (Nur FedEx) FedEx erhält eine Unterschrift von einer Person an der Lieferadresse. Wenn niemand für die Unterzeichnung des Pakets zur Verfügung steht, versucht der Spediteur, das Paket zu einem anderen Zeitpunkt zu liefern.<br/><br/>**[!UICONTROL Indirect]**: (Nur FedEx-Sendungen für Privatkunden) FedEx erhält die Signatur von jemandem (möglicherweise einem Nachbarn oder Gebäudemanager) an der Lieferadresse. Der Empfänger kann ein signiertes FedEx-Tür-Tag hinterlassen, um zu autorisieren, dass das Paket ohne Anwesenheit von Personen zurückgelassen wird, um es zu unterzeichnen.<br/><br/>**[!UICONTROL Contents]**: (Nur USPS) Wählen Sie eine der folgenden Beschreibungen des Pakets aus:<br/>- Geschenk<br/>- Dokumente<br/>- Handelsmuster<br/>- Zurückgegebene Waren<br/>- Waren<br/>- Andere <br/><br/>**[!UICONTROL Explanation]**: (Nur USPS) Eine detaillierte Beschreibung des Paketinhalts.<br/><br/>**[!UICONTROL Adult Required]**: Der Versanddienstleister erhält die Unterschrift eines erwachsenen Empfängers und stellt dem Geschäft eine gedruckte Kopie zur Verfügung. |
 
 {style="table-layout:auto"}
 
 ## Erstellen von Paketen
 
-Das Fenster _[!UICONTROL Create Packages]_&#x200B;wird angezeigt, wenn Sie einen Versandtitel erstellen. Sie können sofort mit der Konfiguration des ersten Pakets beginnen.
+Das Fenster _[!UICONTROL Create Packages]_wird angezeigt, wenn Sie einen Versandtitel erstellen. Sie können sofort mit der Konfiguration des ersten Pakets beginnen.
 
 ### Konfigurieren eines Pakets
 
@@ -236,7 +253,7 @@ Das Fenster _[!UICONTROL Create Packages]_&#x200B;wird angezeigt, wenn Sie einen
 
    - Geben Sie die Produkte und Mengen an.
 
-     In der Spalte _[!UICONTROL Qty]_&#x200B;wird die maximale Menge angezeigt, die hinzugefügt werden kann. Bei der ersten Verpackung entspricht die Zahl der Gesamtmenge des zu versendenden Produkts.
+     In der Spalte _[!UICONTROL Qty]_wird die maximale Menge angezeigt, die hinzugefügt werden kann. Bei der ersten Verpackung entspricht die Zahl der Gesamtmenge des zu versendenden Produkts.
 
    - Um die Produkte zum Paket hinzuzufügen, klicken Sie auf **[!UICONTROL Add Selected Product(s) to Package]**.
 
@@ -276,12 +293,12 @@ Sie können bei Bedarf auf **[!UICONTROL Cancel]** klicken, um den Prozess anzuh
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Type] | Gibt den Typ eines Pakets an. Wählen Sie einen der vordefinierten Werte aus. Die verfügbaren Pakettypen sind für jeden Versanddienstleister unterschiedlich. Wenn das Popup-Fenster Pakete erstellen geöffnet wird, wird das Standardpaket für den Spediteur im Feld Typ angezeigt. Wenn Sie ein Paket auswählen, das nicht von einem Spediteur entworfen wurde, müssen Sie die Abmessungen des Pakets eingeben. Für Versandbeschriftungen, die für DHL-, FedEx- und UPS-Lieferungen erstellt wurden, ist das Feld Warentyp auf `Merchandise` gesetzt. Bei USPS spiegelt das Feld den Wert aus dem Feld _Inhalt_ im _[!UICONTROL Create Packages]_&#x200B;wider. |
+| [!UICONTROL Type] | Gibt den Typ eines Pakets an. Wählen Sie einen der vordefinierten Werte aus. Die verfügbaren Pakettypen sind für jeden Versanddienstleister unterschiedlich. Wenn das Popup-Fenster Pakete erstellen geöffnet wird, wird das Standardpaket für den Spediteur im Feld Typ angezeigt. Wenn Sie ein Paket auswählen, das nicht von einem Spediteur entworfen wurde, müssen Sie die Abmessungen des Pakets eingeben. Für Versandbeschriftungen, die für DHL-, FedEx- und UPS-Lieferungen erstellt wurden, ist das Feld Warentyp auf `Merchandise` gesetzt. Bei USPS spiegelt das Feld den Wert aus dem Feld _Inhalt_ im _[!UICONTROL Create Packages]_wider. |
 | [!UICONTROL Total Weight] | Das Gesamtgewicht eines Pakets. Das Feld wird vorab mit dem Gesamtgewicht der Produkte in einer Verpackung ausgefüllt. Die Maßeinheit kann entweder auf Pfund oder Kilogramm eingestellt werden. |
 | [!UICONTROL Length] | Die Länge eines Packages, Ganzzahlen und Gleitkommazahlen. Das Feld ist aktiviert, wenn der benutzerdefinierte Pakettyp verwendet wird. Die Maßeinheit kann auf Zoll oder Zentimeter festgelegt werden. |
 | [!UICONTROL Width] | Die Breite eines Packages, Ganzzahlen und Gleitkommazahlen. Das Feld ist aktiviert, wenn der benutzerdefinierte Pakettyp verwendet wird. Die Maßeinheiten können über das Dropdown-Menü neben dem Feld Höhe angegeben werden. Wählen Sie zwischen Zoll und Zentimeter. |
 | [!UICONTROL Height] | Die Höhe eines Packages, Ganzzahlen und Gleitkommazahlen. Das Feld ist aktiviert, wenn der benutzerdefinierte Pakettyp verwendet wird. Die Maßeinheiten können über das Dropdown-Menü neben dem Feld Höhe angegeben werden. Wählen Sie zwischen Zoll und Zentimeter. |
-| [!UICONTROL Signature] | Definiert die Versandbestätigung. Optionen: <br/><br/>**[!UICONTROL Not Required]**: Es wird kein Lieferbestätigungsschreiben an Sie gesendet.<br/><br/>**[!UICONTROL No Signature]**: Sie erhalten ein Versandbestätigungsschreiben ohne Unterschrift eines Empfängers.<br/><br/>**[!UICONTROL Signature Required]**: Der Spediteur erhält die Unterschrift des Empfängers und stellt Ihnen sein gedrucktes Exemplar zur Verfügung.<br/><br/>**[!UICONTROL Adult Required]**: Der Spediteur erhält die Unterschrift des erwachsenen Empfängers und stellt Ihnen sein gedrucktes Exemplar zur Verfügung.<br/><br/>**[!UICONTROL Direct (FedEx only)]**: FedEx erhält eine Signatur von jemandem an der Versandadresse und versucht erneut, den Versand durchzuführen, wenn niemand für die Unterzeichnung des Pakets zur Verfügung steht.<br/><br/>**[!UICONTROL Indirect (FedEx only)]**: FedEx erhält eine Signatur auf eine von drei Arten: <br/>(1) von einer Person an der Lieferadresse; <br/>(2) von einem Nachbarn, einem Gebäudemanager oder einer anderen Person an der Adresse; oder <br/>(3) der Empfänger kann ein signiertes FedEx-Tür-Tag hinterlassen, das die Freigabe des Pakets autorisiert, ohne dass jemand anwesend ist. Nur für Sendungen zu Wohnzwecken verfügbar. Die Optionen können je nach Versandmethode leicht variieren. Die neuesten Informationen finden Sie in den Ressourcen des Spediteurs. |
+| [!UICONTROL Signature] | Definiert die Versandbestätigung. Optionen:<br/><br/>**[!UICONTROL Not Required]**: Es wird kein Lieferbestätigungsbrief an Sie gesendet.<br/><br/>**[!UICONTROL No Signature]**: Ein Lieferbestätigungsbrief ohne Unterschrift eines Empfängers wird an Sie gesendet.<br/><br/>**[!UICONTROL Signature Required]**: Der Versanddienstleister erhält die Unterschrift des Empfängers und stellt Ihnen seine gedruckte Kopie zur Verfügung.<br/><br/>**[!UICONTROL Adult Required]**: Der Versanddienstleister erhält die Unterschrift des erwachsenen Empfängers und stellt Ihnen seine gedruckte Kopie zur Verfügung.<br/><br/>**[!UICONTROL Direct (FedEx only)]**: FedEx erhält eine Unterschrift von jemandem an der Lieferadresse und versucht die Lieferung erneut, wenn niemand für die Unterzeichnung des Pakets zur Verfügung steht.<br/><br/>**[!UICONTROL Indirect (FedEx only)]**: FedEx erhält eine Unterschrift auf eine von drei Arten:<br/>(1) von jemandem an der Lieferadresse; <br/>(2) von einem Nachbarn, Bauleiter oder einer anderen Person an der Adresse; oder <br/>(3) der Empfänger kann ein signiertes FedEx-Tür-Tag hinterlassen, das die Freigabe des Pakets autorisiert, ohne dass jemand anwesend ist. Nur für Sendungen zu Wohnzwecken verfügbar. Die Optionen können je nach Versandmethode leicht variieren. Die neuesten Informationen finden Sie in den Ressourcen des Spediteurs. |
 | [!UICONTROL Contents] | (Nur für USPS-Sendungen verfügbar) Beschreibung des Paketinhalts. Optionen: `Gift` / `Documents` / `Commercial Sample` / `Returned Goods` / `Merchandise` / `Other` |
 | [!UICONTROL Explanation] | (Nur USPS-Sendungen) Detaillierte Beschreibung des Paketinhalts. |
 

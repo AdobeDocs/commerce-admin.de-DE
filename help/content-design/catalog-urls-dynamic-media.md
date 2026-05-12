@@ -3,17 +3,17 @@ title: Dynamic Media-URLs
 description: Erfahren Sie mehr über die Verwendung einer Dynamic Media-URL als relativer Verweis auf ein Bild oder ein anderes Medien-Asset.
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: e2b1250c346f4eea68e08e616bf43671cb62794e
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
 
 # Dynamic Media-URLs
 
-Eine Dynamic Media-URL ist ein relativer Verweis auf ein Bild oder ein anderes Medien-Asset. Wenn diese Option aktiviert ist, können Dynamic Media-URLs verwendet werden, um eine direkte Verbindung zu Assets auf Ihrem Server oder zu Dateien herzustellen, die in einem [Content Delivery Network“ gespeichert &#x200B;](media-storage-content-delivery-network.md). Die Verwendung von Dynamic Media-URLs kann sich auf die Katalogleistung auswirken, und der [Editor](editor.md#configure-the-editor) kann so konfiguriert werden, dass entweder statische oder Dynamic Media-URLs verwendet werden.
+Eine Dynamic Media-URL ist ein relativer Verweis auf ein Bild oder ein anderes Medien-Asset. Wenn diese Option aktiviert ist, können Dynamic Media-URLs verwendet werden, um eine direkte Verbindung zu Assets auf Ihrem Server oder zu Dateien herzustellen, die in einem [Content Delivery Network“ gespeichert ](media-storage-content-delivery-network.md). Die Verwendung von Dynamic Media-URLs kann sich auf die Katalogleistung auswirken, und der [Editor](editor.md#configure-the-editor) kann so konfiguriert werden, dass entweder statische oder Dynamic Media-URLs verwendet werden.
 
 Wie bei allen [Markup-Tags](../systems/markup-tags.md) ist die Direktive in doppelte geschweifte Klammern eingeschlossen. Das Format einer Dynamic Media-URL sieht wie folgt aus:
 
@@ -29,11 +29,15 @@ Standardmäßig verfügen die aus dem WYSIWYG-Editor in den Katalog eingefügten
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Content Management]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL WYSIWYG Options]** .
 
-   ![WYSIWYG-Optionen](./assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+   ![WYSIWYG-Optionen](../configuration-reference/general/assets/content-management-wysiwyg-options.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>TinyMCE wurde in Magento 2.4.6 und höheren Versionen durch Hugerte als standardmäßigen WYSIWYG-Editor ersetzt.
 
 1. Legen Sie **[!UICONTROL Use Static URLs for Media Content in WYSIWYG]** auf eine der folgenden Einstellungen fest:
 

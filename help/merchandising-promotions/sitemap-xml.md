@@ -3,10 +3,10 @@ title: Sitemaps
 description: Erfahren Sie, wie Sie eine Sitemap konfigurieren, um alle Seiten und Bilder Ihrer Commerce-Sites zu indizieren.
 exl-id: 48c975ae-b088-4e52-80cf-cb19c2b9b00f
 feature: Merchandising, Storefront, Search
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 321a9fb0f3c6d86aad520b76ff717c0b07ac37f0
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: 4d5699dc5c4dc4b2bcf208bb0e660ba61e28c507
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Informationen zu Adobe Commerce as a Cloud Service finden Sie in den [SEO-Richtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=de) in der Dokumentation zu Commerce Storefront
+>Informationen zu Adobe Commerce as a Cloud Service finden Sie in den [SEO-Richtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/) in der Dokumentation zu Commerce Storefront
 
 Eine Sitemap verbessert die Art und Weise, wie Ihr Store von Suchmaschinen indiziert wird, und ist so konzipiert, dass Seiten gefunden werden, die von Web-Crawler übersehen werden könnten. Eine Sitemap kann so konfiguriert werden, dass alle Seiten und Bilder indiziert werden.
 
@@ -23,7 +23,7 @@ Wenn diese Option aktiviert ist, erstellt Commerce eine Datei mit dem Namen `sit
 
 Während sich Ihre Site in Entwicklung befindet, können Sie in die `robots.txt` für Web-Crawler Anweisungen aufnehmen, um die Indizierung der Site zu vermeiden. Vor dem Launch können Sie dann die Anweisungen ändern, damit die Site indiziert werden kann.
 
-Technische Informationen finden Sie unter [Sitemap und robots.txt hinzufügen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=de) im Handbuch zu _Commerce in Cloud-Infrastrukturen_.
+Technische Informationen finden Sie unter [Sitemap und robots.txt hinzufügen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html) im Handbuch zu _Commerce in Cloud-Infrastrukturen_.
 
 ![Sitemap-Raster](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -76,14 +76,14 @@ Sie können jetzt entweder die ursprünglichen (Standard-) Einschränkungen wied
 
 ## Sitemaps und robots.txt für mehrere Websites verwalten
 
-Wenn Sie über mehrere Websites verfügen, können Sie das Erstellen und Senden von Sitemaps vereinfachen. Erstellen [&#x200B; einfach &#x200B;](#site-map-configuration) oder mehrere Sitemaps, die URLs für alle verifizierten Stores enthalten, und speichern Sie die Sitemaps an einem einzigen Ort. Alle Websites müssen in der [Google Search Console](https://support.google.com/webmasters/answer/7451001) verifiziert werden.
+Wenn Sie über mehrere Websites verfügen, können Sie das Erstellen und Senden von Sitemaps vereinfachen. Erstellen [ einfach ](#site-map-configuration) oder mehrere Sitemaps, die URLs für alle verifizierten Stores enthalten, und speichern Sie die Sitemaps an einem einzigen Ort. Alle Websites müssen in der [Google Search Console](https://support.google.com/webmasters/answer/7451001) verifiziert werden.
 
 Gehen Sie wie folgt vor, um Sitemaps für eine Multi-Store-Instanz zu erstellen:
 
 1. Erstellen Sie im Stammverzeichnis Ihrer Website einen Ordner mit dem Namen `sitemaps` und erstellen Sie dann für jede Domain Unterordner:
 
        /sitemaps/domain_1/
-       /sitemaps/domain_2/
+     /sitemaps/domain_2/
    
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL SEO & Search]_>**[!UICONTROL Site Map]**.
 
@@ -97,12 +97,12 @@ Gehen Sie wie folgt vor, um Sitemaps für eine Multi-Store-Instanz zu erstellen:
    Um sicherzustellen, dass die Suchmaschinen-Spider ordnungsgemäß zu den neuen Sitemaps weitergeleitet werden, können Sie die Datei robots.txt aktualisieren oder erstellen. Fügen Sie oben die folgenden Zeilen hinzu.
 
        Website-Sitemap
-       Sitemap: https://www.domain_1.com/sitemaps/domain_1/sitemap.xml
-       Sitemap: https://www.domain_2.com/sitemaps/domain_2/sitemap.xml
+     Sitemap: https://www.domain_1.com/sitemaps/domain_1/sitemap.xml
+     Sitemap: https://www.domain_2.com/sitemaps/domain_2/sitemap.xml
    
 >[!NOTE]
 >
->Wenn Ihre Site die [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=de)-Webserver-Engine verwendet, sollten Sie die [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)-Datei im Stammverzeichnis Ihrer Website aktualisieren, um alle anderen Sitemap-Anfragen an den richtigen Ort zu leiten.
+>Wenn Ihre Site die [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html)-Webserver-Engine verwendet, sollten Sie die [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)-Datei im Stammverzeichnis Ihrer Website aktualisieren, um alle anderen Sitemap-Anfragen an den richtigen Ort zu leiten.
 
 ## Spaltenbeschreibungen
 
@@ -188,6 +188,11 @@ Ihre Sitemap sollte so oft aktualisiert werden, wie sich der Inhalt auf Ihrer Si
 
 1. Um eine Sitemap zu generieren, legen Sie **[!UICONTROL Enabled]** auf `Yes` fest und führen Sie folgende Schritte aus:
 
+   - Legen Sie **[!UICONTROL Generation Method]** auf eine der folgenden Einstellungen fest:
+
+      - `Standard` - Verarbeitet alle Daten im Speicher.
+      - `Batch` - Verwendet eine speicheroptimierte Verarbeitung für große Kataloge. Diese Option ist ab Version 2.4.9 verfügbar.
+
    - Legen Sie **[!UICONTROL Start Time]** auf die Stunde, Minute und Sekunde fest, zu der die Sitemap aktualisiert werden soll.
 
    - Legen Sie **[!UICONTROL Frequency]** auf eine der folgenden Einstellungen fest:
@@ -227,3 +232,33 @@ Ihre Sitemap sollte so oft aktualisiert werden, wie sich der Inhalt auf Ihrer Si
 1. Wenn Sie eine `robots.txt`-Datei verwenden, um Suchmaschinen, die Ihre Site crawlen haben, Anweisungen zu geben, setzen Sie **[!UICONTROL Enable Submission to Robots.txt]** auf `Yes`.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
+
+## Alternativer Cronjob für große Kataloge
+
+>[!NOTE]
+>
+>Bei Geschäften mit großen Katalogen können Sie einen alternativen Cronjob verwenden, um sicherzustellen, dass alle Daten generiert werden. Ersetzen Sie in `app/code/Magento/Sitemap/etc/config.xml`:
+>
+>```xml
+><jobs>
+>   <sitemap_generate>
+>       <schedule>
+>           <cron_expr>0 0 * * *</cron_expr>
+>       </schedule>
+>   </sitemap_generate>
+></jobs>
+>```
+>
+>durch:
+>
+>```xml
+><jobs>
+>   <sitemap_generate_batch>
+>       <schedule>
+>           <cron_expr>0 0 * * *</cron_expr>
+>       </schedule>
+>   </sitemap_generate_batch>
+></jobs>
+>```
+>
+>Diese Änderung ermöglicht die Batch-Sitemap-Generierung, die für große Kataloge empfohlen wird.

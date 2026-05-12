@@ -3,9 +3,9 @@ title: DHL
 description: Erfahren Sie, wie Sie DHL als Versandunternehmen für Ihren Shop einrichten.
 exl-id: 765e5f90-3e93-43cf-a5bc-6132e00b506c
 feature: Shipping/Delivery
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+source-git-commit: 616b47e0e760a5f4f8c91b35dd002992a7ae30c0
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,26 @@ DHL bietet integrierte internationale Dienstleistungen und maßgeschneiderte, ku
 
 1. Legen Sie **[!UICONTROL Enabled for Checkout]** auf `Yes` fest.
 
-1. Normalerweise können Sie die **[!UICONTROL Gateway URL]** akzeptieren.
+1. Wenn Sie die DHL-REST-API verwenden, setzen Sie **[!UICONTROL DHL Type]** auf `DHL REST`.
 
-   Wenn Ihnen DHL eine alternative URL gegeben hat, geben Sie diesen Wert in dieses Feld ein.
+   Wenn Sie die DHL-XML-API verwenden, setzen Sie **[!UICONTROL DHL Type]** auf `DHL XML`.
+
+   >[!NOTE]
+   >
+   >Die DHL-REST-API ist die bevorzugte Methode zur Integration mit DHL. Die XML-API ist veraltet und kann in zukünftigen Versionen entfernt werden.
 
 1. Verwenden Sie die von DHL bereitgestellten Anmeldeinformationen, um die folgenden Felder auszufüllen:
 
-   - **[!UICONTROL Access ID]**
-   - **[!UICONTROL Password]**
-   - **[!UICONTROL Account Number]**
+Wenn Sie die DHL-REST-API verwenden, müssen Sie die folgenden Anmeldeinformationen angeben:
+
+    - **[!UICONTROL API KEY]**
+    - **[!UICONTROL API SECRET]**
+
+Wenn Sie die DHL-XML-API verwenden, müssen Sie die folgenden Anmeldeinformationen angeben:
+
+    - **[!UICONTROL Access ID]**
+    - **[!UICONTROL Password]**
+    - **[!UICONTROL Account Number]**
 
 ![DHL-Kontoeinstellungen](../configuration-reference/sales/assets/delivery-methods-dhl-account-settings.png){width="600" zoomable="yes"}
 
@@ -63,7 +74,7 @@ DHL bietet integrierte internationale Dienstleistungen und maßgeschneiderte, ku
 
    - Geben Sie **[!UICONTROL Handling Fee]** den zu belastenden Betrag auf der Grundlage der Methode ein, die Sie für die Berechnung des Betrags gewählt haben.
 
-     Wenn die Gebühr beispielsweise auf einer festen Gebühr basiert, geben Sie den Betrag als Dezimalzahl ein, z. B. `4.90`. Wenn die Bearbeitungsgebühr jedoch auf einem Prozentsatz der Bestellung basiert, geben Sie den Betrag als Prozentsatz ein. Wenn Sie beispielsweise sechs Prozent der Bestellung berechnen, geben Sie den Wert als `.06` ein.
+     Wenn die Gebühr beispielsweise auf einer festen Gebühr basiert, geben Sie den Betrag als Dezimalzahl ein, z. B. `4.90`. Wenn die Bearbeitungsgebühr jedoch auf einem Prozentsatz der Bestellung basiert, geben Sie den Betrag als Prozentsatz ein. Wenn Sie beispielsweise sechs Prozent der Bestellung berechnen, geben Sie den Wert als `6` ein.
 
    - Um die Aufteilung des Gesamtauftragsgewichts zu ermöglichen, um eine genaue Berechnung der Versandkosten zu gewährleisten, setzen Sie **[!UICONTROL Divide Order Weight]** auf `Yes`.
 
@@ -79,6 +90,10 @@ DHL bietet integrierte internationale Dienstleistungen und maßgeschneiderte, ku
 
      Wenn Sie &quot;`Specific`&quot; wählen, geben Sie **[!UICONTROL Height]**, **[!UICONTROL Depth]** und **[!UICONTROL Width]** des Pakets in Zentimetern ein.
 
+   >[!NOTE]
+   >
+   >Wenn keine Dimensionen angegeben werden, wird für jede Dimension der Standardwert 3 verwendet.
+
    ![DHL-Paketeinstellungen](../configuration-reference/sales/assets/delivery-methods-dhl-package-settings.png){width="600" zoomable="yes"}
 
 ## Schritt 3: Zulässige Versandmethoden angeben
@@ -87,7 +102,7 @@ DHL bietet integrierte internationale Dienstleistungen und maßgeschneiderte, ku
 
    Zur Auswahl mehrerer Methoden halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Optionen.
 
-   Um die richtige Liste der Versandmethoden anzuzeigen, müssen Sie zunächst das [Ursprungsland“ &#x200B;](../configuration-reference/sales/shipping-settings.md).
+   Um die richtige Liste der Versandmethoden anzuzeigen, müssen Sie zunächst das [Ursprungsland“ ](../configuration-reference/sales/shipping-settings.md).
 
 1. Geben Sie **[!UICONTROL Ready Time]** die Anzahl der Stunden nach dem Einreichen einer Bestellung ein, zu der ein Paket versandbereit ist.
 
@@ -127,6 +142,13 @@ DHL bietet integrierte internationale Dienstleistungen und maßgeschneiderte, ku
    `No` - Zeigt DHL nur dann als Versandmethode während des Checkouts an, wenn zutreffend.
 
 1. Um eine Protokolldatei mit den Details der DHL-Sendungen aus Ihrem Geschäft zu erstellen, setzen Sie **[!UICONTROL Debug]** auf `Yes`.
+
+1. DHL bietet eine **[!UICONTROL sandbox mode]** Option. Wenn Sie den Sandbox-Modus verwenden, setzen Sie **[!UICONTROL sandbox mode]** auf `Yes`.
+Wenn Sie den Live-Modus verwenden, setzen Sie **[!UICONTROL sandbox mode]** auf `No`.
+
+   >[!NOTE]
+   >
+   >Der Sandbox-Modus wird nur zu Testzwecken verwendet. Damit können Sie Ihre Integration mit DHL testen, ohne Ihren Live-Store zu beeinträchtigen.
 
 1. Geben Sie **[!UICONTROL Sort Order]** eine Zahl ein, um die Reihenfolge zu bestimmen, in der DHL beim Checkout mit anderen Versandmethoden aufgelistet wird.
 

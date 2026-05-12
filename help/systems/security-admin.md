@@ -4,29 +4,30 @@ description: Erfahren Sie, wie Sie die Sicherheit für Ihren Store-Administrator
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+source-git-commit: ad01f8aaa40f6bda0fe329a0e906915f6034972f
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren der Admin-Sicherheit
 
-Wir empfehlen Ihnen, einen vielseitigen Ansatz zu wählen, um die Sicherheit Ihres Geschäfts zu schützen. Sie können mit einer [benutzerdefinierten Admin-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) beginnen, die nicht einfach zu erraten ist, anstatt mit dem offensichtlichen „Admin“ oder „Backend“. Standardmäßig müssen Kennwörter, die für die [&#x200B; beim &#x200B;](../getting-started/admin-signin.md) verwendet werden, mindestens sieben Zeichen lang sein und sowohl Buchstaben als auch Zahlen enthalten. Verwenden [&#x200B; als Best &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=de) nur sichere Administratorkennwörter, die aus einer Kombination aus Buchstaben, Zahlen und Symbolen bestehen. Adobe Commerce und Magento Open Source erlauben nicht die Wiederverwendung der letzten vier dem Konto zugewiesenen Kennwörter.
+Wir empfehlen Ihnen, einen vielseitigen Ansatz zu wählen, um die Sicherheit Ihres Geschäfts zu schützen. Sie können mit einer [benutzerdefinierten Admin-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) beginnen, die nicht einfach zu erraten ist, anstatt mit dem offensichtlichen „Admin“ oder „Backend“. Standardmäßig müssen Kennwörter, die für die [ beim ](../getting-started/admin-signin.md) verwendet werden, mindestens sieben Zeichen lang sein und sowohl Buchstaben als auch Zahlen enthalten. Sie können die erforderliche Mindestkennwortlänge konfigurieren, um die Sicherheit je nach den Anforderungen Ihres Unternehmens zu erhöhen. Verwenden [ als Best ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html) nur sichere Administratorkennwörter, die aus einer Kombination aus Buchstaben, Zahlen und Symbolen bestehen. Adobe Commerce und Magento Open Source erlauben nicht die Wiederverwendung der letzten vier dem Konto zugewiesenen Kennwörter.
 
 Die Admin-Sicherheitskonfiguration bietet folgende Möglichkeiten:
 
 - Hinzufügen eines geheimen Schlüssels zu URLs
 - Kennwörter müssen zwischen Groß- und Kleinschreibung unterscheiden
+- Konfigurieren der erforderlichen Mindestkennwortlänge
 - Länge der Admin-Sitzungen begrenzen
 - Lebensdauer von Kennwörtern begrenzen
 - Anzahl der Anmeldeversuche begrenzen, die unternommen werden können, bevor das Admin-Benutzerkonto [gesperrt](permissions-users-all.md#locked-users) wird
 
 Um die Sicherheit zu erhöhen, können Sie die Dauer der Tastaturinaktivität konfigurieren, bevor die aktuelle Sitzung abläuft, und dabei die Groß-/Kleinschreibung bei Benutzernamen und Kennwort berücksichtigen.
 
-Zusätzlich zu den Sicherheitseinstellungen in diesem Abschnitt ist eine [Zwei-Faktor-Authentifizierung](security-two-factor-authentication.md) (2FA) erforderlich, um die Identität von Benutzern mit einem einmaligen Kennwort zu überprüfen, das von einer App oder einem Gerät generiert wird. Beim ersten Anmelden beim Administrator werden Sie aufgefordert, 2FA einzurichten. Zur zusätzlichen Sicherheit kann die Admin-Anmeldung auch so konfiguriert werden, dass ein [CAPTCHA“ erforderlich &#x200B;](security-captcha.md).
+Zusätzlich zu den Sicherheitseinstellungen in diesem Abschnitt ist eine [Zwei-Faktor-Authentifizierung](security-two-factor-authentication.md) (2FA) erforderlich, um die Identität von Benutzern mit einem einmaligen Kennwort zu überprüfen, das von einer App oder einem Gerät generiert wird. Beim ersten Anmelden beim Administrator werden Sie aufgefordert, 2FA einzurichten. Zur zusätzlichen Sicherheit kann die Admin-Anmeldung auch so konfiguriert werden, dass ein [CAPTCHA“ erforderlich ](security-captcha.md).
 
 >[!NOTE]
 >
@@ -40,7 +41,7 @@ Technische Informationen finden Sie unter [Sicherheitsübersicht](https://develo
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Advanced]_&#x200B;die Option **[!UICONTROL Admin]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Advanced]_die Option **[!UICONTROL Admin]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Security]** .
 
@@ -73,6 +74,12 @@ Technische Informationen finden Sie unter [Sicherheitsübersicht](https://develo
 
 1. Kennwortoptionen festlegen:
 
+   - Geben Sie **[!UICONTROL Minimum Admin Password Length]** die Mindestanzahl von Zeichen ein, die für Admin-Kennwörter erforderlich ist. Der Standardwert ist 7, und der minimal zulässige Wert ist 7.
+
+     >[!WARNING]
+     >
+     >Wenn Sie diesen Wert von der Standardeinstellung ändern, kann es zu Problemen mit der Abwärtskompatibilität mit vorhandenen Services kommen. Diese Einstellung wirkt sich auf Änderungen des Administratorkennworts, die Erstellung neuer Admin-Benutzer über die Admin-Benutzeroberfläche und die CLI sowie auf Vorgänge zum Zurücksetzen des Kennworts über den Administrator aus.
+
    - Um die Lebensdauer von Admin-Kennwörtern zu begrenzen, geben Sie die Anzahl der Tage ein, für die ein Kennwort gültig ist **[!UICONTROL Password Lifetime (days)]**. Lassen Sie das Feld für eine unbegrenzte Lebensdauer leer.
 
    - Legen Sie **[!UICONTROL Password Change]** auf eine der folgenden Einstellungen fest:
@@ -84,4 +91,4 @@ Technische Informationen finden Sie unter [Sicherheitsübersicht](https://develo
 
 ## Administratorkennwort-Anforderungen
 
-Standardmäßig muss ein Administratorkennwort mindestens sieben Zeichen lang sein und sowohl Buchstaben als auch Zahlen enthalten.
+Standardmäßig muss ein Administratorkennwort mindestens sieben Zeichen lang sein und sowohl Buchstaben als auch Zahlen enthalten. Mit der Einstellung **[!UICONTROL Minimum Admin Password Length]** können Sie die erforderliche Mindestkennwortlänge konfigurieren, um die Sicherheitsstandards Ihres Unternehmens zu erfüllen. Eine Erhöhung dieses Werts kann sich jedoch auf die Kompatibilität mit vorhandenen Services und Integrationen auswirken.

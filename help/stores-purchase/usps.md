@@ -3,9 +3,9 @@ title: United States Postal Service (USPS)
 description: Erfahren Sie, wie Sie USPS als Versanddienstleister für Ihr Geschäft einrichten.
 exl-id: c9601fb8-f0f9-484a-a2e1-d50ee0f2dbf0
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+source-git-commit: a9c7a2c35e3b70ecfcf7e8cc9ca93e99a60ad7b3
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,15 @@ Sie können auch ein Konto [USPS Web Tools](https://secure.shippingapis.com/regi
 
 1. Legen Sie **[!UICONTROL Enabled for Checkout]** auf `Yes` fest.
 
-1. Setzen Sie **[!UICONTROL USPS Type]** auf `USPS Rest APIs`, wenn Sie die USPS-REST-API verwenden.
+1. Festlegen des USPS-API-Typs.
 
-   Wenn Sie die USPS Web Tools-API verwenden, setzen Sie **[!UICONTROL USPS Type]** auf `USPS Web Tools API`.
+   - Wenn Sie die USPS REST-API verwenden, setzen Sie **[!UICONTROL USPS Type]** auf `USPS REST API`.
+
+   - Wenn Sie die USPS Web Tools-API verwenden, setzen Sie **[!UICONTROL USPS Type]** auf `USPS Web Tools API`.
+
+   >[!NOTE]
+   >
+   >Die USPS-REST-APIs sind die bevorzugte Methode zur Integration mit USPS. Die USPS Web Tools-API ist veraltet und wird in zukünftigen Versionen möglicherweise entfernt.
 
 1. Geben Sie bei Bedarf die **[!UICONTROL Gateway URL]** ein, um auf USPS Versandtarife zuzugreifen.
 
@@ -48,16 +54,17 @@ Sie können auch ein Konto [USPS Web Tools](https://secure.shippingapis.com/regi
 
 1. Verwenden Sie die von USPS bereitgestellten Anmeldeinformationen, um die folgenden Felder auszufüllen:
 
-   Wenn Sie die USPS-REST-APIs verwenden, müssen Sie die folgenden Anmeldeinformationen angeben:
+   Wenn Sie die USPS-REST-APIs verwenden, geben Sie die folgenden Anmeldeinformationen an:
 
    - **[!UICONTROL Consumer Key]**
    - **[!UICONTROL Consumer Secret]**
    - **[!UICONTROL Pricing Options]**
 
-   Wenn Sie die USPS Web Tools API verwenden, müssen Sie die folgenden Anmeldeinformationen angeben:
+   Wenn Sie die USPS Web Tools-API verwenden, geben Sie die folgenden Anmeldeinformationen an:
 
    - **[!UICONTROL User ID]**
    - **[!UICONTROL Password]**
+
 
 1. Legen Sie **[!UICONTROL Mode]** auf eine der folgenden Einstellungen fest:
 
@@ -100,7 +107,7 @@ Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die
 
 1. Geben Sie den Betrag der zu belastenden **[!UICONTROL Handling Fee]** ein.
 
-   Verwenden Sie das Dezimalformat, um einen Prozentsatz einzugeben. Geben Sie beispielsweise `0.25` für 25 % ein.
+   Verwenden Sie das Dezimalformat, um einen Prozentsatz einzugeben. Geben Sie beispielsweise `25` für 25 % ein.
 
    ![USPS-Bearbeitungsgebühr](../configuration-reference/sales/assets/delivery-methods-usps-handling-fee.png){width="600" zoomable="yes"}
 

@@ -4,12 +4,13 @@ description: Erfahren Sie, wie Sie Google reCAPTCHA für Administratorzugriff un
 exl-id: c3b53702-0882-4ac4-9cf5-39fefc90005e
 role: Admin
 feature: Configuration, Security
-source-git-commit: 80b2ecc9fddd7a20d6824182f41f0d19f6d51003
+source-git-commit: f156e9a8537f2efb994aedf1d839f6b7300cced6
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
+
 
 # Google reCAPTCHA V3 und V2
 
@@ -33,13 +34,13 @@ Google reCAPTCHA kann auf verschiedene Weise implementiert werden:
 
 >[!IMPORTANT]
 >
->Bevor Google reCAPTCHA konfiguriert werden kann, stellen Sie sicher, dass Ihre `PHP.ini` die folgende Einstellung enthält: `allow_url_fopen = 1`. Dies erfordert möglicherweise die Unterstützung eines Entwicklers. Siehe [Erforderliche PHP](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html?lang=de){:target="_blank"}Einstellungen im Installationshandbuch.
+>Bevor Google reCAPTCHA konfiguriert werden kann, stellen Sie sicher, dass Ihre `PHP.ini` die folgende Einstellung enthält: `allow_url_fopen = 1`. Dies erfordert möglicherweise die Unterstützung eines Entwicklers. Siehe [Erforderliche PHP](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/php-settings.html){:target="_blank"}Einstellungen im Installationshandbuch.
 
 ## Schritt 1: Generieren von Google reCAPTCHA-Schlüsseln
 
 Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlüssel erhalten Sie kostenlos über die reCAPTCHA-Website. Bevor Sie die Schlüssel generieren, müssen Sie den Typ von reCAPTCHA kennen, den Sie verwenden möchten.
 
-1. Öffnen Sie die Google reCAPTCHA-Seite und melden Sie sich bei Ihrem Konto an.
+1. Öffnen Sie die Google reCAPTCHA-Admin Console und melden Sie sich bei Ihrem -Konto an.
 
 1. Geben Sie **[!UICONTROL Label]** einen Namen ein, um die Schlüssel für die interne Referenz zu identifizieren.
 
@@ -58,6 +59,8 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
    - Fügen Sie Ihre Store-Domain und alle Subdomains hinzu.
    - Sie können nach Bedarf `localhost`, andere lokale VM-Domains und Staging-Domains zum Testen hinzufügen.
 
+1. Cloud-Projekt auswählen
+
 1. Aktivieren Sie das zu **[!UICONTROL Accept the reCAPTCHA Terms of Service]** Kontrollkästchen.
 
 1. (Optional) Aktivieren Sie das Kontrollkästchen **[!UICONTROL Send alerts to owners]** , um eine Benachrichtigung zu senden, wenn Google Probleme oder verdächtigen Traffic erkennt.
@@ -70,7 +73,7 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
 
 ## Schritt 2: Konfigurieren von Google reCAPTCHA für Admins
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 1. Melden Sie sich bei Ihrem Administratorkonto an.
 
@@ -84,7 +87,7 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
    >
    >Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use system value]** für jedes Feld, das Sie konfigurieren möchten.
 
-1. Um _[!DNL reCAPTCHA v2 ("I am not a robot")]_&#x200B;zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**&#x200B;und gehen Sie folgendermaßen vor:
+1. Um _[!DNL reCAPTCHA v2 ("I am not a robot")]_zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v2 ("I am not a robot")]**und gehen Sie folgendermaßen vor:
 
    - Geben Sie **[!UICONTROL Google API Website Key]** den Website-Schlüssel ein, der für diesen reCAPTCHA-Typ erstellt wurde, als Sie Ihr Google reCAPTCHA-Konto registriert haben.
 
@@ -98,7 +101,7 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
 
    ![reCAPTCHA v2 - „Ich bin kein Roboter“](../configuration-reference/security/assets/recaptcha-admin-v2-not-robot.png){width="600" zoomable="yes"}
 
-1. Um _[!DNL reCAPTCHA v2 Invisible]_&#x200B;zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v2 Invisible]**&#x200B;und gehen Sie folgendermaßen vor:
+1. Um _[!DNL reCAPTCHA v2 Invisible]_zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v2 Invisible]**und gehen Sie folgendermaßen vor:
 
    - Geben Sie **[!UICONTROL Google API Website Key]** den Website-Schlüssel ein, der für diesen reCAPTCHA-Typ erstellt wurde, als Sie Ihr Google reCAPTCHA-Konto registriert haben.
 
@@ -112,7 +115,7 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
 
    ![reCAPTCHA v2 Invisible](../configuration-reference/security/assets/recaptcha-admin-v2-invisible.png){width="600" zoomable="yes"}
 
-1. Um _[!DNL reCAPTCHA v3 Invisible]_&#x200B;zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v3 Invisible]**&#x200B;und gehen Sie folgendermaßen vor:
+1. Um _[!DNL reCAPTCHA v3 Invisible]_zu verwenden, erweitern Sie den Abschnitt **[!UICONTROL reCAPTCHA v3 Invisible]**und gehen Sie folgendermaßen vor:
 
    - Geben Sie **[!UICONTROL Google API Website Key]** den Website-Schlüssel ein, der für diesen reCAPTCHA-Typ erstellt wurde, als Sie Ihr Google reCAPTCHA-Konto registriert haben.
 
@@ -142,11 +145,11 @@ Google reCAPTCHA erfordert zur Aktivierung ein Paar API-Schlüssel. Diese Schlü
 
 ## Schritt 3: Konfigurieren von Google reCAPTCHA für die Storefront
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Security]_&#x200B;die Option **[!UICONTROL Google reCAPTCHA Storefront]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Security]_die Option **[!UICONTROL Google reCAPTCHA Storefront]**aus.
 
 1. Füllen Sie den Abschnitt für jeden reCAPTCHA-Typ aus, den Sie in der Storefront verwenden möchten.
 
-   Google Weitere Informationen zu den Optionen für _einzelnen reCAPTCHA-Typ finden Sie in den Informationen unter Schritt 2: Konfigurieren von reCAPTCHA für_.
+   Weitere Informationen zu den Optionen für _einzelnen reCAPTCHA-Typ finden Sie in den Informationen unter Schritt 2: Konfigurieren von reCAPTCHA für_.
 
 1. Erweitern Sie **[!UICONTROL reCAPTCHA Validation Failure Messages]** und geben Sie die Nachrichten ein, die in der Storefront angezeigt werden, wenn die Validierung fehlschlägt oder nicht abgeschlossen werden kann.
 

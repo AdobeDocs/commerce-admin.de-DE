@@ -3,9 +3,9 @@ title: '[!UICONTROL My Requisition Lists]'
 description: Erfahren Sie mehr über das Kundenerlebnis für Anforderungslisten, die in ihrem Konto-Dashboard verfügbar sind.
 exl-id: ed1b41aa-9c36-49f8-80f2-ad0eb151b7a5
 feature: B2B, Companies
-source-git-commit: c94d4e8d13c32c1c1b1d37440fdb953c8527b76c
+source-git-commit: 537207b0e72127abaca2e39b27c24c5a0aadf801
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Um Produktoptionen in der Liste zu bearbeiten, führt der Kunde Folgendes aus:
 
 Ein Produkt in der Anforderungsliste kann bearbeitet werden, wenn:
 
-- Das Produkt hat **[!UICONTROL all options set]** (wenn es sich um ein &quot;[&#x200B; Produkt“ &#x200B;](../catalog/product-create-configurable.md) der Anforderungsliste handelt).
+- Das Produkt hat **[!UICONTROL all options set]** (wenn es sich um ein &quot;[ Produkt“ ](../catalog/product-create-configurable.md) der Anforderungsliste handelt).
 
   Das Produkt ist **[!UICONTROL added to this Requisition List]**.
 
@@ -141,3 +141,21 @@ Ein Produkt in der Anforderungsliste kann bearbeitet werden, wenn:
 | [!UICONTROL Delete Requisition List] | Löscht die Anforderungsliste aus dem Konto des Firmenbenutzers. |
 
 {style="table-layout:auto"}
+
+## Steuerelemente für die Paginierung
+
+Die Paginierungssteuerelemente werden am unteren Rand der Liste angezeigt, wenn die Gesamtzahl der Anforderungslistenelemente die ausgewählten Elemente pro Seite übersteigt.
+
+![Anforderungsliste mit Paginierung](./assets/requisition-list-bottom-with-pagination.png){width="700" zoomable="yes"}
+
+>[!NOTE]
+>
+> Produkte, die Ihre Aufmerksamkeit erfordern (z. B. nicht vorrätige Produkte), werden oben in der Liste angezeigt, wenn sie in die aktuelle Seite der Paginierung fallen. Die Anzahl der Produkte, die Ihre Aufmerksamkeit erfordern, wird oberhalb der Liste angezeigt.
+> ![Elemente, die bearbeitet werden müssen](./assets/requisition-list-product-requiring-attention.png){width="500"}
+
+### Steuerung der Storefront-Paginierung
+
+| Kontrolle | Beschreibung |
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Pro Seite anzeigen](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Legt fest, wie viele Anforderungslistenelemente pro Seite angezeigt werden. Sie können zwischen 20, 50, 100, 500 oder 1000 Anforderungslistenelementen wählen, die auf der Seite angezeigt werden sollen. |
+| ![Paginierungs-Links](./assets/control-pagination.png) | [!UICONTROL Pagination links] - Stellt Navigations-Links zu anderen Seiten bereit. |
