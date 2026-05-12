@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # WYSIWYG-Editor
 
-Der Editor bietet die Möglichkeit, Daten einzugeben und zu formatieren, während Sie in einer _What You See Is What You Get_ (WYSIWYG)-Ansicht des Inhalts arbeiten. Wenn Sie lieber direkt mit dem zugrunde liegenden HTML-Code arbeiten, können Sie die Modi einfach ändern. Der Editor kann verwendet werden, um Inhalte für [Seiten](pages.md), [Blöcke](blocks.md) und [Produktbeschreibungen) ](../catalog/product-content.md). Greifen Sie bei der Arbeit an Produktdetails auf den Editor zu, indem Sie auf **[!UICONTROL Show / Hide Editor]** klicken.
+Der Editor bietet die Möglichkeit, Daten einzugeben und zu formatieren, während Sie in einer _What You See Is What You Get_ (WYSIWYG)-Ansicht des Inhalts arbeiten. Wenn Sie lieber direkt mit dem zugrunde liegenden HTML-Code arbeiten, können Sie die Modi einfach ändern. Der Editor kann verwendet werden, um Inhalte für [Seiten](pages.md), [Blöcke](blocks.md) und [Produktbeschreibungen) &#x200B;](../catalog/product-content.md). Greifen Sie bei der Arbeit an Produktdetails auf den Editor zu, indem Sie auf **[!UICONTROL Show / Hide Editor]** klicken.
 
 ![Editor-Symbolleiste](./assets/editor-toolbar.png){width="700" zoomable="yes"}
 
@@ -37,7 +37,7 @@ Eine ausführliche Beschreibung aller WYSIWYG-Optionen finden Sie unter [Content
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Content Management]**&#x200B;aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL WYSIWYG Options]**.
 
