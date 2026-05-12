@@ -161,7 +161,7 @@ Der Administrator bietet Zugriff zur Verwaltung der Funktionen für Bestellungen
 
 Um die Sicherheit Ihres Administrators zu gewährleisten, führen Sie regelmäßige Audits von Benutzern und Rollen mit Administratorzugriff durch.
 
-Darüber hinaus sollten Sie [die Konfiguration der Admin-Basis](https://experienceleague.adobe.com/en/docs/commerce-admin/config/advanced/admin#admin-base-url)URL aktualisieren, um den standardmäßigen `/admin`-Endpunkt in einen benutzerdefinierten Pfad zu ändern. Die Konfiguration eines benutzerdefinierten Pfads bietet die folgenden Sicherheitsvorteile:
+Darüber hinaus sollten Sie [die Konfiguration der Admin-Basis](https://experienceleague.adobe.com/de/docs/commerce-admin/config/advanced/admin#admin-base-url)URL aktualisieren, um den standardmäßigen `/admin`-Endpunkt in einen benutzerdefinierten Pfad zu ändern. Die Konfiguration eines benutzerdefinierten Pfads bietet die folgenden Sicherheitsvorteile:
 
 **Erweiterte Sicherheit**: Der standardmäßige „Admin“-Pfad ist weithin bekannt und wird oft von böswilligen Akteuren verwendet, die Brute-Force-Angriffe durchführen. Durch die Änderung in einen eindeutigen, benutzerdefinierten Wert verringern Sie das Risiko nicht autorisierter Zugriffsversuche erheblich.
 
@@ -173,4 +173,4 @@ Darüber hinaus sollten Sie [die Konfiguration der Admin-Basis](https://experien
 
 >[!NOTE]
 >
->Wenn ein Verstoß vermutet wird, entfernen Sie alle unbekannten Admin-Benutzer und setzen Sie alle Admin-Kennwörter zurück. Überprüfen Sie [Sicherheits-Aktionsplan](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) auf weitere Schritte.
+>Wenn ein Verstoß vermutet wird, entfernen Sie alle unbekannten Admin-Benutzer und setzen Sie alle Admin-Kennwörter zurück. Überprüfen Sie [Sicherheits-Aktionsplan](https://experienceleague.adobe.com/de/docs/commerce-admin/systems/security/security) auf weitere Schritte.
