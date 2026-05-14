@@ -3,9 +3,8 @@ title: Verwalten von Unternehmenshierarchien
 description: Erstellen und verwalten Sie Unternehmenshierarchien, um B2B-Organisationen mit komplexen Betriebsmodellen zu unterstützen.
 feature: B2B, Companies
 role: Admin
-hidefromtoc: false
 exl-id: a277ed95-7935-4d27-adb2-35116972732b
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: 970cc079f101011b5fd55b95715516342db4978e
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 0%
@@ -44,7 +43,7 @@ Erstellen Sie vom Administrator aus eine übergeordnete Firma, indem Sie eine ei
 >
 >Weitere Informationen zum [!UICONTROL Company Hierarchy] finden Sie unter [Unternehmenshierarchie](account-company-create.md#company-hierarchy) Feldbeschreibungen.
 
-Verwalten Sie Unternehmenszuweisungen, indem Sie eine übergeordnete Firma bearbeiten und mithilfe des *[!UICONTROL Company Hierarchy]* Firmen hinzufügen oder entfernen. Verwenden Sie das *[!UICONTROL Actions]*, um die [erweiterten Einstellungen“ für &#x200B;](#change-company-settings) in der Organisation zu verwalten.
+Verwalten Sie Unternehmenszuweisungen, indem Sie eine übergeordnete Firma bearbeiten und mithilfe des *[!UICONTROL Company Hierarchy]* Firmen hinzufügen oder entfernen. Verwenden Sie das *[!UICONTROL Actions]*, um die [erweiterten Einstellungen“ für ](#change-company-settings) in der Organisation zu verwalten.
 
 ## Firmen einer übergeordneten Firma zuweisen
 
@@ -87,7 +86,7 @@ Verwalten Sie Unternehmenszuweisungen, indem Sie eine übergeordnete Firma bearb
 
 ## Verwalten von Unternehmenseinstellungen für eine Organisation
 
-Aktualisieren Sie [&#x200B; Konfiguration &#x200B;](account-company-create.md#advanced-settings)Erweiterte Einstellungen) für eine Organisation. Sie können:
+Aktualisieren Sie [ Konfiguration ](account-company-create.md#advanced-settings)Erweiterte Einstellungen) für eine Organisation. Sie können:
 
 * Übergeordnete Konfigurationseinstellungen auf alle untergeordneten Unternehmen anwenden
 * Anwenden derselben Einstellungen auf ausgewählte Unternehmen in der Organisation
