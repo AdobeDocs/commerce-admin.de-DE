@@ -1,10 +1,11 @@
 ---
 user-guide-title: Handbuch zur Kundenverwaltung
+user-guide-description: Umfassende Informationen zu den Funktionen zur Konto-, Gruppen- und Segmentverwaltung für Adobe Commerce- und Magento Open Source-Administratoren.
 breadcrumb-title: Kundenverwaltung
 feature: Customers
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: da825af42f490845527d4298d1ae5191fe3b6a59
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -55,4 +56,4 @@ ht-degree: 0%
    + [Erstellen und Löschen von Kundensegmenten](customer-segment-create.md)
    + [Kundensegmente in Preisregeln](customer-segment-price-rule.md)
    + [Bericht zu Kundensegmenten](customer-segment-reports.md)
-+ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de)
++ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
