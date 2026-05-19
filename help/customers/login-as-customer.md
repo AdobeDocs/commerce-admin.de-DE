@@ -3,9 +3,9 @@ title: Kundenunterstützung bereitstellen
 description: Wenn Sie die Funktion „Anmeldung als Kunde“ verwenden, können Sie sehen, was die Kunden sehen, und in ihrem Namen Aktualisierungen vornehmen.
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
-source-git-commit: 29f3a8bb019d464e6d7646e0ebc7a4fa2ed0dd74
+source-git-commit: 5afc6801ccc55488ce6c209a71ec2ee67958ef5c
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Für den Kunden muss das `login_as_customer_assistance_allowed`-Erweiterungsattr
 
 ![Konfiguration des Kundeneinverständniserweiterungs-Attributs auf der Seite „Kunde bearbeiten“](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
-Um diese Berechtigung für ein bestehendes Kundenkonto mit GraphQL festzulegen, legen Sie die `allow_remote_shopping_assistance`-Eingabe mithilfe der `true`[`updateCustomerV2` oder &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/) [`createCustomerV2` Mutationen auf &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/) fest.
+Um diese Berechtigung für ein bestehendes Kundenkonto mit GraphQL festzulegen, legen Sie die `allow_remote_shopping_assistance`-Eingabe mithilfe der [`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/) oder [`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/) Mutationen auf `true` fest.
 
 >[!ENDTABS]
 
@@ -159,13 +159,13 @@ Um diese Berechtigung für ein bestehendes Kundenkonto mit GraphQL festzulegen, 
 
 1. Navigieren Sie zu **[!UICONTROL Customers]** und wählen Sie einen Kunden aus, um die Bearbeitungsseite zu öffnen.
 
-1. Klicken Sie auf der Seite „Kunden bearbeiten“ auf **[!UICONTROL Get Customer Login OTC]**.
+1. Klicken Sie auf der Seite „Kunden bearbeiten“ auf **[!UICONTROL Generate Login Code]**.
 
-   ![Schaltfläche „OTC für Kundenanmeldung abrufen“ auf der Seite „Kunde bearbeiten“](assets/get-customer-login-otc-button.png){width="600" zoomable="yes"}
+   ![Schaltfläche „OTC für Kundenanmeldung abrufen“ auf der Seite „Kunde bearbeiten“](assets/get-customer-login-otc-button-new.png){width="600" zoomable="yes"}
 
 1. Geben Sie einen **[!UICONTROL Reason]** ein (erforderlich) und klicken Sie auf **[!UICONTROL Request]**.
 
-   ![OTC-Anfrage-Modal mit Feld „Grund“](assets/otc-reason-modal.png){width="600" zoomable="yes"}
+   ![OTC-Anfrage-Modal mit Feld „Grund“](assets/otc-reason-modal-new.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -173,11 +173,11 @@ Um diese Berechtigung für ein bestehendes Kundenkonto mit GraphQL festzulegen, 
 
 1. Das generierte OTC wird im Modal angezeigt. Verwenden Sie diesen Code mit der `generateCustomerToken`- oder `exchangeOtpForCustomerToken` GraphQL-Mutation zur Kundenautorisierung.
 
-   ![Generated OTC wird im Modal angezeigt](assets/otc-generated-code.png){width="300" zoomable="yes"}
+   ![Generated OTC wird im Modal angezeigt](assets/otc-generated-code-new.png){width="300" zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Der generierte OTC-Einmalcode ist standardmäßig 30 Sekunden lang gültig und wird nach einer einzigen Verwendung ungültig. Die TTL kann durch Senden eines -Support[Tickets konfiguriert &#x200B;](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support).
+>Der generierte OTC-Einmalcode ist standardmäßig 60 Sekunden lang gültig und wird nach einer einzigen Verwendung ungültig. Die TTL kann durch Senden eines -Support[Tickets konfiguriert &#x200B;](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support).
 
 Nachdem der Einmalcode generiert wurde, können Sie ihn verwenden, indem Sie zu Ihrer Storefront navigieren und sich mit den folgenden Anmeldeinformationen anmelden:
 
@@ -194,7 +194,7 @@ Nachdem der Einmalcode generiert wurde, können Sie ihn verwenden, indem Sie zu 
 
 _Als Kunde anmelden_ ermöglicht es Ihnen, die Site so anzuzeigen, wie es der Kunde tut, und ermöglicht es Ihnen, eine Fehlerbehebung durchzuführen und andere Aktionen für den Kunden durchzuführen. Wenn Ihnen eine Benutzerrolle mit den erforderlichen Berechtigungen zugewiesen wurde:
 
-1. Sie können auf den im vorherigen Abschnitt aufgelisteten Seiten auf **[!UICONTROL Login as Customer]** klicken.
+1. Sie können auf den im vorherigen Abschnitt aufgelisteten Seiten auf **[!UICONTROL Login as Customer]** oder **[!UICONTROL Generate Login Code]** klicken.
 1. Die Aktionen Anmelden als Kunde sind im Aktionsbericht verfügbar.
 
 >[!WARNING]
