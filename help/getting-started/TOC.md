@@ -7,7 +7,7 @@ feature: Admin Workspace
 recommendations: noDisplay
 source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -70,4 +70,4 @@ ht-degree: 0%
    + [Ökosystem](resources.md)
    + [Erweiterungen](extensions.md)
    + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de)
++ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

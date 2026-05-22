@@ -5,7 +5,7 @@ exl-id: 165c8b78-683e-4015-b3c4-d3211750799e
 feature: Compliance
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -111,8 +111,8 @@ Erfassen Sie eine Bestandsaufnahme Ihrer digitalen Objekte, einschließlich alle
 
 1. In den folgenden Themen finden Sie die entsprechenden Datenflussdiagramme und Datenbankentitätszuordnungen für jede Version:
 
-   - [Referenz zu personenbezogenen Daten (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=de)
-   - [Referenz zu personenbezogenen Daten (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=de)
+   - [Referenz zu personenbezogenen Daten (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
+   - [Referenz zu personenbezogenen Daten (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
 
    ![Diagramm](./assets/privacy-frontend-diagram.svg)
 
@@ -194,7 +194,7 @@ Händler sind für Folgendes verantwortlich:
 
    - **Minderjährige &lt; 13**: Minderjährige unter 13 Jahren benötigen eine elterliche Genehmigung, um sich für den Verkauf ihrer personenbezogenen Daten zu entscheiden.
 
-   - **Minderjährige 13 bis &lt; 16**: Minderjährige im Alter von mindestens 13 Jahren und unter 16 Jahren können sich für den Verkauf ihrer personenbezogenen Daten entscheiden, sofern das Unternehmen ein angemessenes Verfahren zur Dokumentation der Aktion einführt. Der Prozess muss in der „Datenschutzrichtlinie“ des [&#x200B; beschrieben &#x200B;](privacy-policy.md). Wenn ein Unternehmen Anfragen von Minderjährigen in dieser Altersgruppe erhält, muss es sie über ihr Recht informieren, diese später auszuschließen, und erklären, wie dies zu tun ist.
+   - **Minderjährige 13 bis &lt; 16**: Minderjährige im Alter von mindestens 13 Jahren und unter 16 Jahren können sich für den Verkauf ihrer personenbezogenen Daten entscheiden, sofern das Unternehmen ein angemessenes Verfahren zur Dokumentation der Aktion einführt. Der Prozess muss in der „Datenschutzrichtlinie“ des [ beschrieben ](privacy-policy.md). Wenn ein Unternehmen Anfragen von Minderjährigen in dieser Altersgruppe erhält, muss es sie über ihr Recht informieren, diese später auszuschließen, und erklären, wie dies zu tun ist.
 
   >[!IMPORTANT]
   >

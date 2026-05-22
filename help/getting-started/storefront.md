@@ -5,7 +5,7 @@ exl-id: 1c64888f-2bc0-4e2e-b7da-0e7182ea67e0
 feature: Storefront
 source-git-commit: 8145531bf9aa2764bd52a6e121112beca2e25158
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Mit der Einführung der [!DNL **Commerce-Storefront mit Edge Delivery Services**
 
 Die Commerce Storefront powered by Edge Delivery Services bietet mehrere wichtige Funktionen, die sowohl für Händler als auch für Entwickler von Vorteil sind. Diese Funktionen ermöglichen es Unternehmen, ansprechende Einkaufserlebnisse zu schaffen und gleichzeitig die Flexibilität zu behalten, ihre Storefronts entsprechend ihren Anforderungen anzupassen und zu skalieren.
 
-Weitere Informationen und Anleitungen zum Einrichten und Optimieren Ihrer Commerce-Storefront finden Sie in der [Dokumentation zur Adobe Commerce-Storefront](https://experienceleague.adobe.com/de/docs/commerce).
+Weitere Informationen und Anleitungen zum Einrichten und Optimieren Ihrer Commerce-Storefront finden Sie in der [Dokumentation zur Adobe Commerce-Storefront](https://experienceleague.adobe.com/en/docs/commerce).
 
 >[!BEGINTABS]
 
@@ -81,7 +81,7 @@ Wussten Sie, dass Personen, die die -Suche verwenden, mit fast doppelt so hoher 
 
 ### [!DNL Live Search]
 
-Mit [[!DNL Live Search]](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview) für Adobe Commerce bietet Ihr Store ein schnelles, extrem relevantes und intuitives Sucherlebnis und ist ohne zusätzliche Kosten für Adobe Commerce verfügbar.
+Mit [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) für Adobe Commerce bietet Ihr Store ein schnelles, extrem relevantes und intuitives Sucherlebnis und ist ohne zusätzliche Kosten für Adobe Commerce verfügbar.
 
 ![Beispiel für die Live-Suche - Suche während der Eingabe](./assets/storefront-search-as-you-type.png){width="700"}
 

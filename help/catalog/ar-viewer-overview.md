@@ -4,7 +4,7 @@ description: Erfahren Sie, wie  [!DNL AR Viewer]  Ihre Adobe Commerce-Instanz un
 exl-id: 9f9f3ff3-2402-4f70-9fc7-031dd2bb3916
 source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Die von Pixar entwickelte [Universal Scene Description (USD)](https://openusd.or
 
 ## [!DNL AR Viewer]
 
-Die [!DNL AR Viewer] ist sowohl mit [!DNL Magento Open Source] als auch mit Adobe Commerce kompatibel. Weitere [&#x200B; zu unterstützten Versionen finden &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html?lang=de){target=_blank} unter „Lebenszyklusrichtlinie.
+Die [!DNL AR Viewer] ist sowohl mit [!DNL Magento Open Source] als auch mit Adobe Commerce kompatibel. Weitere [ zu unterstützten Versionen finden ](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html){target=_blank} unter „Lebenszyklusrichtlinie.
 
-Weitere Informationen finden [&#x200B; unter  [!DNL AR Viewer] Installieren der &#x200B;](../catalog/ar-viewer-setup.md)-Erweiterung).
+Weitere Informationen finden [ unter  [!DNL AR Viewer] Installieren der ](../catalog/ar-viewer-setup.md)-Erweiterung).
 
 Um [!DNL AR Viewer] verwenden zu können, müssen Sie über Folgendes für Ihre Instanz verfügen:
 
