@@ -194,7 +194,7 @@ Händler sind für Folgendes verantwortlich:
 
    - **Minderjährige &lt; 13**: Minderjährige unter 13 Jahren benötigen eine elterliche Genehmigung, um sich für den Verkauf ihrer personenbezogenen Daten zu entscheiden.
 
-   - **Minderjährige 13 bis &lt; 16**: Minderjährige im Alter von mindestens 13 Jahren und unter 16 Jahren können sich für den Verkauf ihrer personenbezogenen Daten entscheiden, sofern das Unternehmen ein angemessenes Verfahren zur Dokumentation der Aktion einführt. Der Prozess muss in der „Datenschutzrichtlinie“ des [ beschrieben ](privacy-policy.md). Wenn ein Unternehmen Anfragen von Minderjährigen in dieser Altersgruppe erhält, muss es sie über ihr Recht informieren, diese später auszuschließen, und erklären, wie dies zu tun ist.
+   - **Minderjährige 13 bis &lt; 16**: Minderjährige im Alter von mindestens 13 Jahren und unter 16 Jahren können sich für den Verkauf ihrer personenbezogenen Daten entscheiden, sofern das Unternehmen ein angemessenes Verfahren zur Dokumentation der Aktion einführt. Der Prozess muss in der „Datenschutzrichtlinie“ des [&#x200B; beschrieben &#x200B;](privacy-policy.md). Wenn ein Unternehmen Anfragen von Minderjährigen in dieser Altersgruppe erhält, muss es sie über ihr Recht informieren, diese später auszuschließen, und erklären, wie dies zu tun ist.
 
   >[!IMPORTANT]
   >

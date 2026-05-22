@@ -83,7 +83,7 @@ Die Komponente Produktdaten-Benutzeroberfläche wird automatisch auf Grundlage d
 
 1. **[!UICONTROL Create]** eines Metadatenprofils für die Commerce-Integration.
 
-   ![AEM-Autoren-Admin fügt Metadatenprofile hinzu ](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
+   ![AEM-Autoren-Admin fügt Metadatenprofile hinzu &#x200B;](./assets/aem-create-metadata-profile.png){width="600" zoomable="yes"}
 
 1. Fügen Sie eine Registerkarte für Commerce-Metadaten hinzu.
 
@@ -111,13 +111,13 @@ Die Komponente Produktdaten-Benutzeroberfläche wird automatisch auf Grundlage d
      ./jcr:content/metadata/commerce:isCommerce
      ```
 
-1. Optional. Um genehmigte Commerce-Assets beim Hochladen in die AEM Assets-Umgebung automatisch zu synchronisieren, setzen Sie den Standardwert für das _[!UICONTROL Review Status]_auf der Registerkarte `Basic` auf `approved`.
+1. Optional. Um genehmigte Commerce-Assets beim Hochladen in die AEM Assets-Umgebung automatisch zu synchronisieren, setzen Sie den Standardwert für das _[!UICONTROL Review Status]_&#x200B;auf der Registerkarte `Basic` auf `approved`.
 
 1. Speichern Sie die Aktualisierung.
 
 #### Anwenden des Metadatenprofils auf den Commerce Assets-Quellordner
 
-1. Wählen Sie auf [!UICONTROL  Metadata Profiles] Seite das Integrationsprofil Commerce aus.
+1. Wählen Sie auf [!UICONTROL &#x200B; Metadata Profiles] Seite das Integrationsprofil Commerce aus.
 
 1. Wählen Sie im Menü Aktion die Option **[!UICONTROL Apply Metadata Profiles to Folders]** aus.
 

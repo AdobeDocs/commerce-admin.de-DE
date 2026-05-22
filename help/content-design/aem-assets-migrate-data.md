@@ -50,7 +50,7 @@ Erstellen Sie eine Metadatenzuordnungsdatei im CSV-Format und laden Sie sie in d
 - Richtige Synchronisierung zwischen Adobe Commerce und AEM Assets aktivieren
 - Pflegen von Beziehungen zwischen Assets und Produkten nach der Migration
 
-Geben Sie für jede Mediendatei, die Sie migrieren möchten, Werte für die Metadatenfelder im [AEM Assets-Metadatenprofil für Commerce-Assets ](aem-assets-configure-aem.md), wie in der folgenden Tabelle beschrieben.
+Geben Sie für jede Mediendatei, die Sie migrieren möchten, Werte für die Metadatenfelder im [AEM Assets-Metadatenprofil für Commerce-Assets &#x200B;](aem-assets-configure-aem.md), wie in der folgenden Tabelle beschrieben.
 
 | Metadaten | Beschreibung | Wert |
 |-------|-------------|--------|
@@ -81,7 +81,7 @@ Nachdem Sie die Metadatenzuordnungsdatei erstellt haben, verwenden Sie das Tool 
 
 Im Folgenden finden Sie einen allgemeinen Überblick über die Verwendung des Tools.
 
-1. [Melden Sie sich bei Ihrer AEM Assets as a Cloud Service-Autorenumgebung ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/aem-users#login-aem).
+1. [Melden Sie sich bei Ihrer AEM Assets as a Cloud Service-Autorenumgebung &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/journey/aem-users#login-aem).
 
 1. Wählen Sie in der Ansicht Experience Manager-Tools die Option **[!UICONTROL Assets]** > **[!UICONTROL Bulk Import]** aus.
 
