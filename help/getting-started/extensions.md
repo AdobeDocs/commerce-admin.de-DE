@@ -6,7 +6,7 @@ feature: Extensions
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 36c91007d21834b49351c8b53c617e442deebaa0
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Details zur Implementierung und technische Anforderungen finden Sie im [Live Sea
 
 ![Nur Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce
 
-[!DNL Product Recommendations] ist eine exklusive Funktion von Adobe Commerce, die auf der Adobe-KI-Technologie basiert und personalisierte Produktvorschläge auf der gesamten Kunden-Journey liefert. Die Lösung analysiert das Kundenverhalten und die Produktbeziehungen in Echtzeit, um automatisch relevante Empfehlungen zu generieren, ohne dass manuelle Merchandising-Regeln erforderlich sind. Dieser KI-gestützte Ansatz trägt dazu bei, Konversionsraten und Umsatzpotenziale zu steigern und gleichzeitig attraktivere Produkterlebnisse für Kunden zu schaffen.
+[!DNL Product Recommendations] ist eine exklusive Funktion von Adobe Commerce auf Basis der Adobe AI-Technologie, die personalisierte Produktvorschläge auf der gesamten Customer Shopping-Journey liefert. Die Lösung analysiert das Kundenverhalten und die Produktbeziehungen in Echtzeit, um automatisch relevante Empfehlungen zu generieren, ohne dass manuelle Merchandising-Regeln erforderlich sind. Dieser KI-gestützte Ansatz trägt dazu bei, Konversionsraten und Umsatzpotenziale zu steigern und gleichzeitig attraktivere Produkterlebnisse für Kunden zu schaffen.
 
 Informationen zur Implementierung und Best Practices finden Sie im [[!DNL Product Recommendations] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=de).
 
