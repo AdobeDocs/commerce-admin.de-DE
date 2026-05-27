@@ -22,7 +22,7 @@ ht-degree: 0%
 - Zugriff auf historische Sicherheitsberichte, die den Fortschritt Ihrer Sites verfolgen und überwachen.
 - Greifen Sie mit allen empfohlenen Aktionen auf den Scanbericht zu, der erfolgreiche und fehlgeschlagene Prüfungen anzeigt.
 
-Das Security Scan Tool ist kostenlos im Dashboard Ihres [Commerce/Magento-Kontos](../getting-started/commerce-account-create.md) verfügbar. Technische Informationen finden Sie unter [Einrichten des Sicherheits-Scan-Tools](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) im _Handbuch zu Commerce in Cloud-Infrastrukturen_.
+Das Security Scan Tool ist kostenlos im Dashboard Ihres [Commerce/Magento-Kontos](../getting-started/commerce-account-create.md) verfügbar. Technische Informationen finden Sie unter [Einrichten des Sicherheits-Scan-Tools](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/launch/overview#set-up-the-security-scan-tool) im _Handbuch zu Commerce in Cloud-Infrastrukturen_.
 
 ![Sicherheits-Scan-Tool](./assets/magento-security-scan.png){width="600" zoomable="yes"}
 
