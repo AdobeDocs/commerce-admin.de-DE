@@ -81,7 +81,7 @@ Um ein neues Integrations-Zugriffstoken und ein neues Zugriffstoken-Geheimnis zu
 
 1. Suchen Sie die Integration mit dem **[!UICONTROL Active]**.
 
-1. Klicken Sie in _[!UICONTROL Activate]_Spalte auf die **[!UICONTROL Reauthorize]**.
+1. Klicken Sie in _[!UICONTROL Activate]_&#x200B;Spalte auf die **[!UICONTROL Reauthorize]**.
 
 1. Klicken Sie auf **[!UICONTROL Reauthorize]** , um den Zugriff auf die API-Ressourcen zu genehmigen.
 

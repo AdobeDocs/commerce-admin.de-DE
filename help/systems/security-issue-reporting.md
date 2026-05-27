@@ -20,13 +20,13 @@ Die `security.txt`-Datei enthält Kontaktinformationen und sicherheitsbezogene L
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Klicken Sie im linken Bedienfeld unter _[!UICONTROL Security]_auf **[!UICONTROL Security.txt]**.
+1. Klicken Sie im linken Bedienfeld unter _[!UICONTROL Security]_&#x200B;auf **[!UICONTROL Security.txt]**.
 
-1. Legen Sie im _[!UICONTROL General]_Abschnitt **[!UICONTROL Enable]**auf `Yes` fest.
+1. Legen Sie im _[!UICONTROL General]_&#x200B;Abschnitt **[!UICONTROL Enable]**&#x200B;auf `Yes` fest.
 
    ![Allgemeine Sicherheitskonfiguration](../configuration-reference/security/assets/txt-general.png){width="600" zoomable="yes"}
 
-1. Geben Sie unter _[!UICONTROL Contact Information]_Folgendes ein:
+1. Geben Sie unter _[!UICONTROL Contact Information]_&#x200B;Folgendes ein:
 
    - Die E-Mail-Adresse und Telefonnummer der Person, die Sicherheitsprobleme für Ihren Store verwaltet.
 
@@ -34,7 +34,7 @@ Die `security.txt`-Datei enthält Kontaktinformationen und sicherheitsbezogene L
 
    ![Konfiguration der Kontaktinformationen](../configuration-reference/security/assets/txt-contact-info.png){width="600" zoomable="yes"}
 
-1. Geben Sie unter _[!UICONTROL Other Information]_Folgendes ein:
+1. Geben Sie unter _[!UICONTROL Other Information]_&#x200B;Folgendes ein:
 
    - Die URL Ihres öffentlichen **[!UICONTROL Encryption]**. Beispiel: `https://example.com/pgp-key.txt`
 
