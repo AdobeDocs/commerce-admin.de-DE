@@ -18,7 +18,7 @@ Siehe [Speichern von E-Mail](../../getting-started/store-details.md#store-email-
 
 ## [!UICONTROL General]
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 ![E-Mail-Adressen speichern > Allgemeiner Kontakt](./assets/store-email-addresses-general-general.png)<!-- zoom -->
 
