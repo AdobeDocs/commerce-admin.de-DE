@@ -99,7 +99,7 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
 
    >[!NOTE]
    >
-   > Wenn Sie beabsichtigen, dieses Attribut als Facette in der Live-Suche zu verwenden, müssen Sie eine Store-spezifische Beschriftung angeben. Andernfalls wird der Attributname möglicherweise nicht korrekt auf der Seite zur Facettenkonfiguration angezeigt. Um die Konfiguration zu aktualisieren, bearbeiten Sie den Titel manuell mit der Option [Bearbeiten“ in der Facette Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) im _Live Search-Handbuch_.
+   > Wenn Sie beabsichtigen, dieses Attribut als Facette in der Live-Suche zu verwenden, müssen Sie eine Store-spezifische Beschriftung angeben. Andernfalls wird der Attributname möglicherweise nicht korrekt auf der Seite zur Facettenkonfiguration angezeigt. Um die Konfiguration zu aktualisieren, bearbeiten Sie den Titel manuell mit der Option [Bearbeiten“ in der Facette Live Search](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) im _Live Search-Handbuch_.
 
 ## Schritt 5: Eigenschaften der Storefront beschreiben
 
