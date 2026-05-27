@@ -33,7 +33,7 @@ Der Unternehmensadministrator wird beim ersten Erstellen des Unternehmenskontos 
 
 1. Geben Sie die **[!UICONTROL Job Title]** des neuen Unternehmensadministrators ein.
 
-   Durch diese Aktion wird das Formular gelöscht und die erforderlichen _[!UICONTROL First Name]_und_[!UICONTROL Last Name]_ Felder sind hervorgehoben.
+   Durch diese Aktion wird das Formular gelöscht und die erforderlichen _[!UICONTROL First Name]_&#x200B;und&#x200B;_[!UICONTROL Last Name]_ Felder sind hervorgehoben.
 
 1. Geben Sie die **[!UICONTROL Email]** des neuen Unternehmensadministrators ein.
 

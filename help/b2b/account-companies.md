@@ -22,7 +22,7 @@ Vorteile eines Firmenkontos:
 
 - Bietet unbegrenzte [Firmenbenutzer](account-company-users.md) und die Erstellung zusätzlicher Konten, was den Unternehmenskauf vereinfacht.
 
-- Umfasst Unterstützung für eine _Smart_-Unternehmenskontenhierarchie mit verschiedenen [ (Rollen und Berechtigungen](account-company-roles-permissions.md) für die Auftragserteilung.
+- Umfasst Unterstützung für eine _Smart_-Unternehmenskontenhierarchie mit verschiedenen [&#x200B; (Rollen und Berechtigungen](account-company-roles-permissions.md) für die Auftragserteilung.
 
 - Bietet einen Mechanismus für Händler zur Einkommenssteigerung, indem sie [Firmenkundenkredit](credit-company.md) als Zahlungsmethode anbieten.
 
@@ -30,7 +30,7 @@ Vorteile eines Firmenkontos:
 
 ## Anzeigen von Unternehmenskonten
 
-Das _Firmen_-Raster listet alle aktiven Unternehmenskonten und ausstehenden Anfragen auf, unabhängig von der Statuseinstellung. Darüber hinaus stehen die Tools zum [ (Erstellen](account-company-create.md) und [) ](account-company-manage.md) Unternehmenskonten zur Verfügung. Verwenden Sie die standardmäßigen Rastersteuerelemente, um die Liste zu filtern und das Spaltenlayout anzupassen. Eine Liste der Spaltenbeschreibungen finden Sie im Abschnitt _Spaltenbeschreibungen_ in [Verwalten von Unternehmenskonten](account-company-manage.md).
+Das _Firmen_-Raster listet alle aktiven Unternehmenskonten und ausstehenden Anfragen auf, unabhängig von der Statuseinstellung. Darüber hinaus stehen die Tools zum [&#x200B; (Erstellen](account-company-create.md) und [) &#x200B;](account-company-manage.md) Unternehmenskonten zur Verfügung. Verwenden Sie die standardmäßigen Rastersteuerelemente, um die Liste zu filtern und das Spaltenlayout anzupassen. Eine Liste der Spaltenbeschreibungen finden Sie im Abschnitt _Spaltenbeschreibungen_ in [Verwalten von Unternehmenskonten](account-company-manage.md).
 
 Kunden können ein Unternehmenskonto in der Storefront erstellen oder ein Händler kann eines in der Admin erstellen. Standardmäßig ist die Möglichkeit zum Erstellen von Unternehmenskonten in der Storefront aktiviert. Wenn die Konfiguration dies zulässt, kann ein Besucher des Stores die Eröffnung eines Unternehmenskontos anfordern. Nachdem das Unternehmenskonto genehmigt wurde, kann der Unternehmensadministrator die Unternehmensstruktur und Benutzer mit verschiedenen Berechtigungsebenen einrichten.
 

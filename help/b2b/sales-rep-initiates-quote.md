@@ -31,7 +31,7 @@ Ein Vertriebsmitarbeiter kann ein Angebot aus dem Angebots- oder Kundenraster er
 
 ### Erstellen eines Angebots aus dem Anführungsraster
 
-1. Der Vertriebsmitarbeiter meldet sich beim Administrator als Administrator mit „Berechtigungen für [ Vorgänge“ an](../systems/permissions.md) um Angebote zu verwalten.
+1. Der Vertriebsmitarbeiter meldet sich beim Administrator als Administrator mit „Berechtigungen für [&#x200B; Vorgänge“ an](../systems/permissions.md) um Angebote zu verwalten.
 
 1. Wechseln Sie in der Admin-Liste zum [!UICONTROL Quotes] Raster, indem Sie **[!UICONTROL Sales]** auswählen, und wählen Sie dann **[!UICONTROL Quotes]** aus.
 

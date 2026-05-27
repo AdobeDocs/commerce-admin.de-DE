@@ -142,7 +142,7 @@ Nur Angebotsanfragen mit einem `Open` können abgelehnt werden.
 
 1. Wählen Sie jede offene Angebotsanfrage aus, die Sie ablehnen möchten.
 
-1. Setzen Sie das _[!UICONTROL Actions]_auf `Declined`.
+1. Setzen Sie das _[!UICONTROL Actions]_&#x200B;auf `Declined`.
 
 1. Geben Sie bei Aufforderung den Grund für die Ablehnung des Angebots ein und klicken Sie auf **[!UICONTROL Confirm]**.
 

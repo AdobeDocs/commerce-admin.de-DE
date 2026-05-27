@@ -46,6 +46,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | Global | Definiert das Couponcode-Format. Die Optionen umfassen: <br/>**`Alphanumeric`**- Jede Kombination aus Buchstaben und Zahlen.<br/>**`Alphabetical`** - nur Buchstaben. <br/>**`Numeric`**- Nur Zahlen. |
 | [!UICONTROL Code Prefix] | Global | Ein Wert, der an den Anfang aller Couponcodes angehängt wird. Wenn Sie kein Präfix verwenden möchten, lassen Sie das Feld leer. |
 | [!UICONTROL Code Suffix] | Global | Ein Wert, der am Ende aller Codes angehängt wird. Wenn Sie kein Suffix verwenden möchten, lassen Sie das Feld leer. |
-| [!UICONTROL Dash Every X Characters] | Global | Das Intervall für das Einfügen eines Bindestrichs (-) in alle Couponcodes. Wenn Sie keinen Bindestrich verwenden möchten, lassen Sie das Feld leer. <br/>_**Hinweis:**_ Couponcodes, die sich nur um einen Bindestrich unterscheiden, gelten als unterschiedliche Codes. |
+| [!UICONTROL Dash Every X Characters] | Global | Das Intervall für das Einfügen eines Bindestrichs (-) in alle Couponcodes. Wenn Sie keinen Bindestrich verwenden möchten, lassen Sie das Feld leer. <br/>_&#x200B;**Hinweis:**&#x200B;_ Couponcodes, die sich nur um einen Bindestrich unterscheiden, gelten als unterschiedliche Codes. |
 
 {style="table-layout:auto"}
