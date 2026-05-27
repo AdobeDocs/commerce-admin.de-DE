@@ -3,7 +3,7 @@ title: Cache-Verwaltung
 description: Erfahren Sie, wie Sie die Cache-Management-Tools verwenden, die eine einfache Möglichkeit bieten, die Leistung Ihrer Site zu verbessern.
 exl-id: c87f85ca-81b9-4cbf-9817-3d779397eefd
 feature: Cache, System
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
 source-wordcount: '1975'
@@ -103,7 +103,7 @@ Informationen zum Zuweisen von Ressourcen zur Gewährung des Zugriffs für Admin
 
 ## Leeren mithilfe der Befehlszeile
 
-Systemadministratoren und Entwickler mit Zugriff auf den Commerce-Anwendungsserver können die Cache- und Cache-Konfiguration auch über die Befehlszeile mithilfe der Commerce-CLI verwalten. Siehe [Verwalten des Cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} im _Konfigurationshandbuch_.
+Systemadministratoren und Entwickler mit Zugriff auf den Commerce-Anwendungsserver können die Cache- und Cache-Konfiguration auch über die Befehlszeile mithilfe der Commerce-CLI verwalten. Siehe [Verwalten des Cache](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cli/manage-cache#clean-and-flush-cache-types){:target="_blank"} im _Konfigurationshandbuch_.
 
 ## Kontrollen
 
@@ -137,11 +137,11 @@ Auf der Seite [!UICONTROL Cache Management] werden die Cache-Typen mit ihrem akt
 
 Entwickelnde und Systemintegratoren verwenden diese Werte, um die Zwischenspeicherung zu konfigurieren und zu verwalten, wenn sie Adobe Commerce anpassen oder mit ihm integrieren, z. B. um Integrationen mit GraphQL-APIs zu entwickeln.
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Der `cache_type_id` wird auch für die Cache-Verwaltung über die Befehlszeile des Anwendungsservers unter Verwendung der Commerce-CLI verwendet. Beispielsweise zeigt ` bin/magento cache:status config` den aktuellen Status des Konfigurations-Caches an.
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Der `cache_type_id` wird auch für die Cache-Verwaltung über die Befehlszeile des Anwendungsservers unter Verwendung der Commerce-CLI verwendet. Beispielsweise zeigt ` bin/magento cache:status config` den aktuellen Status des Konfigurations-Caches an.
 
 >[!NOTE]
 >
->Entwickelnde und Systemintegratoren können das Cache-Management-System von Commerce anpassen und erweitern, um benutzerdefinierte Module und Integrationen zu unterstützen. Weitere Informationen finden Sie unter [Konfigurieren des &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/caching-overview)&quot; im _Adobe Commerce-Konfigurationshandbuch_.
+>Entwickelnde und Systemintegratoren können das Cache-Management-System von Commerce anpassen und erweitern, um benutzerdefinierte Module und Integrationen zu unterstützen. Weitere Informationen finden Sie unter [Konfigurieren des &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cache/caching-overview)&quot; im _Adobe Commerce-Konfigurationshandbuch_.
 
 <!-- prettier-ignore -->
 
@@ -184,7 +184,7 @@ Zwischengespeicherte Inhalte können zur Verarbeitung von Anfragen ähnlicher Be
 - `Sessioned` - Während eines Sitzungsbesuchs wird Käufern, die mit dem Store interagieren, eine Sitzungs-ID zugewiesen. Interaktionen umfassen Aktivitäten wie den Vergleich von Produkten oder das Hinzufügen von Produkten zum Warenkorb. Zwischengespeicherte Seiten, die während der Sitzung generiert werden, werden nur von diesem Kunden während der Sitzung verwendet.
 - `Customer` - Kundensitzungen werden für Kunden erstellt, die sich mit ihrem registrierten Konto anmelden und einkaufen. Während der Sitzung können Kunden Sonderangebote, Aktionen und Preise basierend auf ihrer zugewiesenen Kundengruppe präsentiert werden.
 
-Technische Informationen finden Sie unter [Konfigurieren und Verwenden von &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html){:target="_blank"} und [Verwenden von Redis für die Commerce-Seite und &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html){:target="_blank"}-Cache im _Konfigurationshandbuch_.
+Technische Informationen finden Sie unter [Konfigurieren und Verwenden von &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/varnish/config-varnish.html?lang=de){:target="_blank"} und [Verwenden von Redis für die Commerce-Seite und &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-pg-cache.html?lang=de){:target="_blank"}-Cache im _Konfigurationshandbuch_.
 
 **_So konfigurieren Sie den Vollseiten-Cache:_**
 
