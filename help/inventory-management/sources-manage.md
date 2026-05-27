@@ -36,7 +36,7 @@ Sie können den Namen, die Adresse, den GPS-Standort und die Kontaktinformatione
 
 Wenn Sie die standardmäßige Source bearbeiten, können Sie alle Konfigurationen mit Ausnahme des Namens und des Codes bearbeiten. Es wird empfohlen, dass Händler aus einer Hand Informationen hinzufügen, die ihrem Standort entsprechen.
 
-Auf der _[!UICONTROL Manage Sources]_Seite werden alle verfügbaren Lagerplätze und Erfüllungseinrichtungen aufgelistet. Sie können neue Inventarquellen hinzufügen und vorhandene Standorte bearbeiten.
+Auf der _[!UICONTROL Manage Sources]_&#x200B;Seite werden alle verfügbaren Lagerplätze und Erfüllungseinrichtungen aufgelistet. Sie können neue Inventarquellen hinzufügen und vorhandene Standorte bearbeiten.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 
@@ -61,7 +61,7 @@ Auf der _[!UICONTROL Manage Sources]_Seite werden alle verfügbaren Lagerplätze
 | [!UICONTROL Code] | Ein eindeutiger alphanumerischer Code, der vom System zur Identifizierung der Inventarquelle verwendet wird. |
 | [!UICONTROL Name] | Ein eindeutiger Name, der die Inventarquelle für Admin-Benutzerinnen und -Benutzer identifiziert. |
 | [!UICONTROL Is Enabled] | Gibt an, ob die Bestandsquelle aktiv und verwendbar ist. |
-| [!UICONTROL Pickup Location] | Gibt an, ob die Quelle als Abholort für den [Versand im Geschäft) aktiv ](../stores-purchase/shipping-in-store-delivery.md). |
+| [!UICONTROL Pickup Location] | Gibt an, ob die Quelle als Abholort für den [Versand im Geschäft) aktiv &#x200B;](../stores-purchase/shipping-in-store-delivery.md). |
 | [!UICONTROL Action] | Durch Klicken auf **[!UICONTROL Edit]** wird der Inventarquellendatensatz im Bearbeitungsmodus geöffnet. |
 
 ## Andere Spalten

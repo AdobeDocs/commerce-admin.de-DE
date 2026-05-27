@@ -39,7 +39,7 @@ Die folgenden Anweisungen führen Sie durch den Prozess der Erstellung eines Pro
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Wählen Sie oben rechts im Menü _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Bundle Product]**aus.
+1. Wählen Sie oben rechts im Menü _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Bundle Product]**&#x200B;aus.
 
    ![Bundle-Produkt hinzufügen](./assets/product-add-bundle.png){width="700" zoomable="yes"}
 
@@ -82,7 +82,7 @@ Das Formular wird mit der Änderung aktualisiert.
 
 1. Klicken Sie auf **[!UICONTROL Save]** und fahren Sie fort.
 
-   Wenn das Produkt gespeichert wird, wird [ Auswahl „Store](introduction.md#product-scope)Ansicht“ in der oberen linken Ecke angezeigt.
+   Wenn das Produkt gespeichert wird, wird [&#x200B; Auswahl „Store](introduction.md#product-scope)Ansicht“ in der oberen linken Ecke angezeigt.
 
 1. Wählen Sie die **[!UICONTROL Store View]** aus, in der das Produkt verfügbar sein soll.
 
@@ -115,7 +115,7 @@ Das Formular wird mit der Änderung aktualisiert.
 
 1. Akzeptieren Sie die **[!UICONTROL Visibility]** Standardeinstellung von `Catalog, Search`.
 
-1. Um dem Produkt _[!UICONTROL Categories]_zuzuweisen, klicken Sie auf das **[!UICONTROL Select…]**und führen Sie einen der folgenden Schritte aus:
+1. Um dem Produkt _[!UICONTROL Categories]_&#x200B;zuzuweisen, klicken Sie auf das **[!UICONTROL Select…]**&#x200B;und führen Sie einen der folgenden Schritte aus:
 
    **Vorhandene Kategorie auswählen:**
 
@@ -139,7 +139,7 @@ Das Formular wird mit der Änderung aktualisiert.
 
 ## Schritt 5: Bundle-Elemente hinzufügen
 
-Der Abschnitt _[!UICONTROL Bundle Items]_wird verwendet, um Elemente zu einem Bundle-Produkttyp hinzuzufügen und die aktuelle Auswahl von Elementen zu bearbeiten.
+Der Abschnitt _[!UICONTROL Bundle Items]_&#x200B;wird verwendet, um Elemente zu einem Bundle-Produkttyp hinzuzufügen und die aktuelle Auswahl von Elementen zu bearbeiten.
 
 ![Für ein Produkt definierte Bundle-Elemente](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -148,7 +148,7 @@ Der Abschnitt _[!UICONTROL Bundle Items]_wird verwendet, um Elemente zu einem Bu
    - `Separately`
    - `Together`
 
-   Wenn Sie `Together` auswählen, müssen allen Bundle-Elementen dieselbe [Quelle“ zugewiesen ](../inventory-management/sources-manage.md).
+   Wenn Sie `Together` auswählen, müssen allen Bundle-Elementen dieselbe [Quelle“ zugewiesen &#x200B;](../inventory-management/sources-manage.md).
 
 1. Klicken Sie auf **[!UICONTROL Add Option]** und führen Sie folgende Schritte aus:
 
@@ -233,7 +233,7 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
    **Methode 2:** Speichern und schließen
 
-   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
+   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
 
 ## Eingabedialoge
 

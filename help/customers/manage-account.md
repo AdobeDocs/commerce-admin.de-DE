@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # Verwalten von Kundenkonten
 
-Verwenden Sie das _[!UICONTROL Customers]_Raster, um ein beliebiges Kundenkonto zu finden. Sie können die standardmäßigen [Arbeitsplatzsteuerelemente“ verwenden](../getting-started/admin-workspace.md) um die Liste zu filtern, das [Spaltenlayout](../getting-started/admin-grid-controls.md) zu ändern, Ansichten zu speichern und Daten zu exportieren. Mit [Aktionssteuerung](../getting-started/admin-actions-control.md) über dem Raster können Sie einen Vorgang auf mehrere Kundendatensätze anwenden.
+Verwenden Sie das _[!UICONTROL Customers]_&#x200B;Raster, um ein beliebiges Kundenkonto zu finden. Sie können die standardmäßigen [Arbeitsplatzsteuerelemente“ verwenden](../getting-started/admin-workspace.md) um die Liste zu filtern, das [Spaltenlayout](../getting-started/admin-grid-controls.md) zu ändern, Ansichten zu speichern und Daten zu exportieren. Mit [Aktionssteuerung](../getting-started/admin-actions-control.md) über dem Raster können Sie einen Vorgang auf mehrere Kundendatensätze anwenden.
 
 ![Alle Kunden](assets/customers-all-customers.png){width="700" zoomable="yes"}
 
-Informationen [ manuellen Aktualisierungen eines Kundenkontos finden Sie ](update-account.md) „Kundenprofil aktualisieren“.
+Informationen [&#x200B; manuellen Aktualisierungen eines Kundenkontos finden Sie &#x200B;](update-account.md) „Kundenprofil aktualisieren“.
 
 ## Kundenkonto-Aktionen
 
@@ -37,7 +37,7 @@ Bei Multi-Store- und Multi-Site-Setups mit einem globalen [Kundenkontobereich](.
 
 * Setzen Sie das **[!UICONTROL Actions]** auf `Subscribe to newsletter`.
 
-Weitere Informationen [ Verwalten von Newsletter](../merchandising-promotions/newsletter-subscribers.md)Abonnements für eine Kundin oder einen Kunden finden Sie unter „Verwalten von Abonnentinnen und Abonnenten“.
+Weitere Informationen [&#x200B; Verwalten von Newsletter](../merchandising-promotions/newsletter-subscribers.md)Abonnements für eine Kundin oder einen Kunden finden Sie unter „Verwalten von Abonnentinnen und Abonnenten“.
 
 ### Newsletter abbestellen
 

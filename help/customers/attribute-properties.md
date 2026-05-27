@@ -36,7 +36,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
 
    >[!TIP]
    >
-   >**Tastaturbefehl** Um nur die erforderlichen Felder auszufüllen, scrollen Sie nach unten zu _[!UICONTROL Storefront Properties]_, geben Sie den_[!UICONTROL Sort Order]_ ein und speichern Sie.
+   >**Tastaturbefehl** Um nur die erforderlichen Felder auszufüllen, scrollen Sie nach unten zu _[!UICONTROL Storefront Properties]_, geben Sie den&#x200B;_[!UICONTROL Sort Order]_ ein und speichern Sie.
 
 1. Vervollständigen Sie die Dateneingabeeigenschaften:
 
@@ -47,7 +47,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
      | `Text Field` | Ein einzeiliges Textfeld. |
      | `Text Area` | Ein mehrzeiliges Eingabefeld zum Eingeben von Textabsätzen, z. B. eine Produktbeschreibung. Sie können den WYSIWYG-Editor verwenden, um den Text mit HTML-Tags zu formatieren, oder die Tags direkt in den Text eingeben. |
      | `Multiple Line` | Erstellt mehrere Textzeilen für das Attribut, ähnlich einer mehrzeiligen Straßenadresse. Die Anzahl der separaten Dateneintragszeilen kann von zwei bis 20 betragen. Verwenden Sie die `Default Value` , um den Anfangswert des Felds anzugeben. |
-     | `Date` | Zeigt einen Datumswert im bevorzugten Datumsformat und in der bevorzugten Zeitzone an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis:_**Je nach Systemkonfiguration können_ Admin_-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Zeigt einen Datumswert im bevorzugten Datumsformat und in der bevorzugten Zeitzone an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis:_**&#x200B;Je nach Systemkonfiguration können_ Admin_-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Zeigt eine Dropdown-Liste mit vordefinierten Optionen `Yes` und `No` an. |
      | `Dropdown` | Zeigt eine Dropdown-Liste mit Werten an, die nur eine einzige Auswahl akzeptieren. Der Dropdown-Eingabetyp ist eine Schlüsselkomponente von [konfigurierbaren Produkten](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Eine Dropdown-Liste, die die Auswahl mehrerer Werte akzeptiert. |
@@ -91,7 +91,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
 
    - Um das Raster Kunden nach diesem Attribut zu durchsuchen, setzen Sie **[!UICONTROL Use in Search Options]** auf `Yes`.
 
-   - Um dieses Attribut für „Kundensegmente[ verfügbar zu machen, ](customer-segments.md) Sie **[!UICONTROL Use in Customer Segment]** auf `Yes`.
+   - Um dieses Attribut für „Kundensegmente[&#x200B; verfügbar zu machen, &#x200B;](customer-segments.md) Sie **[!UICONTROL Use in Customer Segment]** auf `Yes`.
 
 ## Schritt 2: Vervollständigen Sie die Eigenschaften der Storefront
 
@@ -113,7 +113,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
 
 1. Wählen Sie im linken Bedienfeld **[!UICONTROL Manage Labels/Options]** aus.
 
-1. Geben Sie unter **[!UICONTROL Manage Titles]** einen Titel ein, um das Attribut für jede [Store-Ansicht“ ](../getting-started/websites-stores-views.md).
+1. Geben Sie unter **[!UICONTROL Manage Titles]** einen Titel ein, um das Attribut für jede [Store-Ansicht“ &#x200B;](../getting-started/websites-stores-views.md).
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Attribute]**.
 
@@ -156,7 +156,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
 | `store_id` | Die Store-ID der Site, auf der das Kundenkonto erstellt wurde. |
 | `created_in` | Die Store-Ansicht, in der das Konto erstellt wurde. |
 | `group_id` | Die ID der Kundengruppe, der der Kunde zugewiesen ist. |
-| `disable_auto_group_change` | Legt fest, ob Kundengruppen bei der Validierung der [-ID dynamisch zugewiesen ](../stores-purchase/vat.md#configure-vat-id-validation) können. |
+| `disable_auto_group_change` | Legt fest, ob Kundengruppen bei der Validierung der [-ID dynamisch zugewiesen &#x200B;](../stores-purchase/vat.md#configure-vat-id-validation) können. |
 | `prefix` | Jedes Präfix, das mit dem Kundennamen verwendet wird (z. B. Herr, Frau oder Dr.). |
 | `firstname` | Der Vorname des Kunden. |
 | `middlename` | Der zweite Vorname oder zweite Vorname des Kunden. |
