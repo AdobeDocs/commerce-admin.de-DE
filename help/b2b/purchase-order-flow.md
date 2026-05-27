@@ -5,7 +5,7 @@ exl-id: 4f93ab4c-6bdf-495e-9183-3a18898b377f
 feature: B2B, Purchase Orders
 source-git-commit: c1d8bdcd2d09567846ef6819660c57468062ab01
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---

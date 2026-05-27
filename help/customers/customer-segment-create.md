@@ -5,7 +5,7 @@ exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
 source-git-commit: 079aef1f4d90ecba649ac43e7cbab812da79871a
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Das Erstellen eines Kundensegments ähnelt dem Erstellen [Warenkorb-Preisregel](../merchandising-promotions/price-rules-cart.md) mit dem Unterschied, dass die Optionen [Kundensegmentspezifische Attribute) &#x200B;](../customers/customer-segments.md).
+Das Erstellen eines Kundensegments ähnelt dem Erstellen [Warenkorb-Preisregel](../merchandising-promotions/price-rules-cart.md) mit dem Unterschied, dass die Optionen [Kundensegmentspezifische Attribute) ](../customers/customer-segments.md).
 
 ![Kundensegmentliste](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_&#x200B;**[!UICONTROL Customer Segments]Raster &#x200B;** _
+_**[!UICONTROL Customer Segments]Raster **_
 
 | Spalte | Beschreibung |
 |--- |--- |
 | **[!UICONTROL ID]** | Die eindeutige ID des Kundensegments. |
 | **[!UICONTROL Segment]** | Der Name des Kundensegments. |
-| **[!UICONTROL Status]** | Gibt an, ob das Kundensegment _[!UICONTROL Active]_&#x200B;oder&#x200B;_[!UICONTROL Inactive]_ ist. |
+| **[!UICONTROL Status]** | Gibt an, ob das Kundensegment _[!UICONTROL Active]_oder_[!UICONTROL Inactive]_ ist. |
 | **[!UICONTROL Website]** | Gibt die Website an, zu der das Kundensegment gehört. |
 
 {style="table-layout:auto"}
@@ -82,7 +82,7 @@ Die folgenden Schritte verwenden ein Beispiel für die Erstellung eines Kundense
 
 1. Klicken Sie auf **[!UICONTROL Save and Continue Edit]**.
 
-   Nach dem Speichern der _[!UICONTROL General Properties]_&#x200B;werden im linken Bedienfeld zusätzliche Optionen verfügbar.
+   Nach dem Speichern der _[!UICONTROL General Properties]_werden im linken Bedienfeld zusätzliche Optionen verfügbar.
 
    ![Segmenteigenschaften](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
@@ -115,7 +115,7 @@ Die möglichen Bedingungen sind in die folgenden Gruppen unterteilt:
 
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Conditions]**.
 
-   Die Standardbedingung beginnt mit dem _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;auf der Seite.
+   Die Standardbedingung beginnt mit dem _[!UICONTROL If ALL of these conditions are TRUE:]_auf der Seite.
 
    ![Bedingungen](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -161,7 +161,7 @@ Die möglichen Bedingungen sind in die folgenden Gruppen unterteilt:
 
 1. Das Kundensegment kann jetzt für Targeting-Promotions, Inhalte und Mailings verwendet werden.
 
-_&#x200B;**[!UICONTROL Matched Customers]Raster &#x200B;** _
+_**[!UICONTROL Matched Customers]Raster **_
 
 | Spalte | Beschreibung |
 |--- |--- |
@@ -191,7 +191,7 @@ _&#x200B;**[!UICONTROL Matched Customers]Raster &#x200B;** _
 
 | Schaltfläche | Beschreibung |
 |--- |--- |
-| **[!UICONTROL Back]** | Kehrt zur _[!UICONTROL Customer Segments]_&#x200B;zurück, ohne die Änderungen zu speichern. |
+| **[!UICONTROL Back]** | Kehrt zur _[!UICONTROL Customer Segments]_zurück, ohne die Änderungen zu speichern. |
 | **[!UICONTROL Delete]** | Löscht das aktuelle Kundensegment. Kunden oder abgeschlossene Bestellungen, die mit dem Kunden im Segment verknüpft sind, werden nicht entfernt. |
 | **[!UICONTROL Reset]** | Setzt alle nicht gespeicherten Änderungen im Kundensegmentformular auf ihre vorherigen Werte zurück. |
 | **[!UICONTROL Refresh Segment Data]** | Aktualisiert die Segmentdaten auf die zuletzt gespeicherten Werte. Relevant, wenn Segmentdaten nicht verfügbar oder veraltet sind. |
@@ -204,4 +204,4 @@ _&#x200B;**[!UICONTROL Matched Customers]Raster &#x200B;** _
 
 Sehen Sie sich dieses Video an, um zu demonstrieren, wie Sie Kundensegmente erstellen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411974/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

@@ -5,7 +5,7 @@ exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
 source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Jede Geschenkkarte hat einen einzigartigen Code, der von nur einem Kunden während des Checkouts eingelöst werden kann. Ein [Code-Pool](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) muss eingerichtet werden, bevor Geschenkgutscheine verkauft werden können. Informationen [, wie Geschenkgutscheine im Warenkorb eingelöst &#x200B;](../stores-purchase/product-gift-card-workflow.md), finden Sie unter „Arbeitsablauf für Geschenkgutscheine“.
+Jede Geschenkkarte hat einen einzigartigen Code, der von nur einem Kunden während des Checkouts eingelöst werden kann. Ein [Code-Pool](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) muss eingerichtet werden, bevor Geschenkgutscheine verkauft werden können. Informationen [, wie Geschenkgutscheine im Warenkorb eingelöst ](../stores-purchase/product-gift-card-workflow.md), finden Sie unter „Arbeitsablauf für Geschenkgutscheine“.
 
 ![Geschenkkarte Produktseite](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
 
@@ -34,7 +34,7 @@ Die folgenden Anweisungen zeigen den Prozess der Erstellung einer Geschenkkarte 
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. In der oberen rechten Ecke des _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"}  ), wählen Sie **[!UICONTROL Gift Card]**.
+1. Wählen Sie oben rechts im Menü _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Gift Card]**aus.
 
    ![Geschenkkarte hinzufügen](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
 
@@ -127,7 +127,7 @@ Füllen Sie die Informationen in den folgenden Abschnitten nach Bedarf aus:
 - [Design](settings-advanced-design.md)
 - [Geschenkoptionen](product-gift-options.md)
 
-### Schritt 7: Publish das Produkt
+### Schritt 7: Produkt veröffentlichen
 
 1. Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, legen Sie den **Produkt aktivieren** auf `Yes` fest.
 
@@ -143,7 +143,7 @@ Füllen Sie die Informationen in den folgenden Abschnitten nach Bedarf aus:
 
    **Methode 2: Speichern und schließen**
 
-   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
+   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
 
 ## Zu beachtende Dinge
 

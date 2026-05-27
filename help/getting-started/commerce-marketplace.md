@@ -5,7 +5,7 @@ exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
 source-git-commit: 9441c181a4272607d91bbaf5d410d8e433cb144f
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Die folgenden Ressourcen bieten einen Ausgangspunkt für neue Benutzende, um sic
 ### App Builder-Ressourcen
 
 - [Übersicht über Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [Einrichten von API Mesh für Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
+- [Einrichten von API-Mesh für Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 - [Bereitstellen von App Builder-Apps](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [CI/CD für App Builder Apps](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - Erste Schritte mit App Builder/Developer Console
@@ -43,7 +43,7 @@ Die folgenden Ressourcen bieten einen Ausgangspunkt für neue Benutzende, um sic
 
 ## [!DNL Marketplace]
 
-Bevor Sie eine von [!DNL Commerce Marketplace] erworbene Erweiterung installieren können, melden Sie sich bei Ihrem [!DNL Commerce] Konto an und stellen Sie sicher, dass Sie über einen aktiven Zugriffsschlüssel verfügen. Sie können sich über die Kopfzeile von [!DNL Commerce][[!DNL Marketplace] oder &#x200B;](https://marketplace.magento.com/)Magento.com bei Ihrem [-Konto &#x200B;](https://business.adobe.com/de/products/magento/magento-commerce.html).
+Bevor Sie eine von [!DNL Commerce Marketplace] erworbene Erweiterung installieren können, melden Sie sich bei Ihrem [!DNL Commerce] Konto an und stellen Sie sicher, dass Sie über einen aktiven Zugriffsschlüssel verfügen. Sie können sich über die Kopfzeile von [[!DNL Marketplace]](https://marketplace.magento.com/) oder [Magento.com bei Ihrem [!DNL Commerce]-Konto ](https://business.adobe.com/products/magento/magento-commerce.html).
 
 Ihr Zugriffsschlüssel ist ein Satz öffentlicher und privater Schlüssel, mit denen Sie Ihre [!DNL Commerce] mit Ihrem [!DNL Commerce] synchronisieren und Ihre Anmeldeinformationen überprüfen können. Nachdem Ihr Konto synchronisiert wurde, müssen Sie bei jeder Installation einer Erweiterung oder eines Moduls aus Commerce Marketplace bzw. bei jedem Upgrade Ihrer [!DNL Commerce] Ihren privaten Schlüssel eingeben.
 
@@ -53,13 +53,13 @@ Sie können mehrere Zugriffsschlüssel für verschiedene Zwecke erstellen und si
 
 1. Melden Sie sich bei Ihrem [!DNL Commerce] Konto an.
 
-1. Wählen Sie auf der Seite _[!UICONTROL My Account]_&#x200B;die Registerkarte **[!UICONTROL Marketplace]**&#x200B;aus.
+1. Wählen Sie auf der Seite _[!UICONTROL My Account]_die Registerkarte **[!UICONTROL Marketplace]**aus.
 
 1. Klicken Sie oben rechts neben Ihrem Namen auf den Abwärtspfeil und wählen Sie **[!UICONTROL My Profile]** aus.
 
    ![Ihr [!DNL Marketplace] Profil](./assets/marketplace-profile.png){width="600"}
 
-1. Klicken Sie auf der Registerkarte _[!UICONTROL Marketplace]_&#x200B;unter&#x200B;_[!UICONTROL My Products]_ auf **[!UICONTROL Access Keys]**, und führen Sie dann einen der folgenden Schritte aus:
+1. Klicken Sie auf der Registerkarte _[!UICONTROL Marketplace]_unter_[!UICONTROL My Products]_ auf **[!UICONTROL Access Keys]**, und führen Sie dann einen der folgenden Schritte aus:
 
    - Überprüfen Sie, ob Sie bereits über einen Satz von Zugriffsschlüsseln für Ihre Marketplace-Käufe verfügen. Sie können mehrere Sets von Zugriffsschlüsseln für verschiedene Zwecke erstellen.
 
@@ -77,7 +77,7 @@ Sie können mehrere Zugriffsschlüssel für verschiedene Zwecke erstellen und si
 
 >[!IMPORTANT]
 >
->Ab Adobe Commerce und Magento Open Source 2.4.0 wird der Websetup-Assistent entfernt, und Sie müssen die Befehlszeile verwenden, um Ihre Instanz [installieren](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=de) oder [aktualisieren](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=de). Diese Anforderung umfasst auch [Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=de) und [Erweiterungen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=de).
+>Ab Adobe Commerce und Magento Open Source 2.4.0 wird der Websetup-Assistent entfernt, und Sie müssen die Befehlszeile verwenden, um Ihre Instanz [installieren](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html) oder [aktualisieren](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html). Diese Anforderung umfasst auch [Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) und [Erweiterungen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 Der Installationsprozess für [!DNL Marketplace] Käufe unterscheidet sich bei On _Premise-Installationen_ Commerce von den auf [Adobe Cloud Architecture](https://www.adobe.com/commerce/magento/enterprise.html) gehosteten Installationen.
 
@@ -105,11 +105,11 @@ Anmeldeprobleme hängen normalerweise mit einer Diskrepanz zwischen Ihrer MAGEID
 
 >[!INFO]
 >
->Käufe von Mobile Apps und Erweiterungen können nicht [&#x200B; ein neues &#x200B;](#purchase-transfers) übertragen werden.
+>Käufe von Mobile Apps und Erweiterungen können nicht [ ein neues ](#purchase-transfers) übertragen werden.
 
 ### Open Source-Fragen
 
-Das Marketplace-Supportteam löst Probleme, die mit den Sites [commerceMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) und [commerceDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) zusammenhängen. Bitte richten Sie Fragen zu Magento Open Source an das [Community-Forum](https://community.magento.com/) oder [kontaktieren Sie einen Partner](https://business.adobe.com/de/products/magento/partners.html) der Magento Open Source unterstützen kann.
+Das Marketplace-Supportteam löst Probleme, die mit den Sites [commerceMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) und [commerceDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) zusammenhängen. Bitte richten Sie Fragen zu Magento Open Source an das [Community-Forum](https://community.magento.com/) oder [kontaktieren Sie einen Partner](https://business.adobe.com/products/magento/partners.html) der Magento Open Source unterstützen kann.
 
 ### Erstattungsanträge
 
@@ -133,8 +133,8 @@ Um eine Auftragsrechnung für einen Marketplace-Kauf herunterzuladen, melden Sie
 
 ### Kaufübertragungen
 
-Das Marketplace-Supportteam hat keine Möglichkeit, Käufe auf ein anderes Konto zu übertragen. Sie müssen alle Apps und Erweiterungen unter dem primären Commerce-Konto erwerben, um Installations- und Bereitstellungsprobleme zu vermeiden. Adobe Commerce ist zu einer eindeutigen Kennung berechtigt. Da Composer für die Installation verwendet wird, kann nur ein Satz von [Zugriffsschlüsseln](#create-an-access-key) verwendet werden, die mit dem primären Konto verknüpft sind. Die einzige verfügbare Lösung besteht darin[&#x200B; eine Rückerstattung &#x200B;](#refund-requests) dem Marketplace-Kaufkonto anzufordern (sofern gemäß der Rückerstattungsrichtlinie von Adobe Commerce zulässig).
+Das Marketplace-Supportteam hat keine Möglichkeit, Käufe auf ein anderes Konto zu übertragen. Sie müssen alle Apps und Erweiterungen unter dem primären Commerce-Konto erwerben, um Installations- und Bereitstellungsprobleme zu vermeiden. Adobe Commerce ist zu einer eindeutigen Kennung berechtigt. Da Composer für die Installation verwendet wird, kann nur ein Satz von [Zugriffsschlüsseln](#create-an-access-key) verwendet werden, die mit dem primären Konto verknüpft sind. Die einzige verfügbare Lösung besteht darin[ eine Rückerstattung ](#refund-requests) dem Marketplace-Kaufkonto anzufordern (sofern gemäß der Rückerstattungsrichtlinie von Adobe Commerce zulässig).
 
-Sie können [&#x200B; Commerce](commerce-account-share.md)Instanz über das Primärkonto freigeben. Der freigegebene Zugriff gewährt einem untergeordneten Konto von einem primären Konto aus spezielle Berechtigungen. Der freigegebene Zugriffspunkt wird vom primären Konto generiert. Das primäre Konto kann das berechtigte Commerce-Konto, das Haupt-Händlerkonto oder ein innerhalb eines Unternehmens freigegebenes Konto sein.
+Sie können [ Commerce](commerce-account-share.md)Instanz über das Primärkonto freigeben. Der freigegebene Zugriff gewährt einem untergeordneten Konto von einem primären Konto aus spezielle Berechtigungen. Der freigegebene Zugriffspunkt wird vom primären Konto generiert. Das primäre Konto kann das berechtigte Commerce-Konto, das Haupt-Händlerkonto oder ein innerhalb eines Unternehmens freigegebenes Konto sein.
 
 Diese Sonderberechtigungen gewähren dieselbe Zugriffsebene auf Adobe Commerce wie die primäre Instanz, sie werden jedoch nicht in den Adobe Commerce Marketplace oder das Entwicklerportal übertragen. Das bedeutet, dass der Kauf einer Erweiterung von einem untergeordneten Konto auf dem Marketplace nicht mit dem primären Konto geteilt werden kann. Shared Access ist eine Einbahnstraße (primäres Konto untergeordnet). Dies funktioniert nicht, wenn ein untergeordnetes Konto versucht, eine Freigabe für die primäre Instanz durchzuführen.

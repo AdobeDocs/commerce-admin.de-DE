@@ -4,7 +4,7 @@ description: Der Bericht „Kundensegment“ enthält Informationen zur Anzahl d
 exl-id: a767ee80-7b6e-4acd-9772-2f8adcf3233e
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
