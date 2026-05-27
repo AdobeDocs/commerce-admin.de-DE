@@ -5,7 +5,7 @@ exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Der Warnhinweis auf Lager erstellt für jedes Produkt _das nicht vorrätig ist, 
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen Sie darunter **[!UICONTROL Catalog]**.
 
-1. Klicken Sie, um den Abschnitt _[!UICONTROL Product Alerts]_&#x200B;zu erweitern, und gehen Sie folgendermaßen vor:
+1. Klicken Sie, um den Abschnitt _[!UICONTROL Product Alerts]_zu erweitern, und gehen Sie folgendermaßen vor:
 
    ![Produktbenachrichtigungen](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 
@@ -64,7 +64,7 @@ Ausführlichere Informationen zur Verwendung von E-Mail-Nachrichten finden Sie u
 
 1. Wählen _unter „Standardvorlage laden_ die **[!UICONTROL Template]** aus, die Sie anpassen möchten.
 
-   Sie können die in Ihrem Design enthaltene Warnhinweisvorlage auswählen. Sie können auch die `Price Alert` oder `Stock Alert` Vorlagen unter _[!UICONTROL Magento_PriceAlert]_&#x200B;auswählen.
+   Sie können die in Ihrem Design enthaltene Warnhinweisvorlage auswählen. Sie können auch die `Price Alert` oder `Stock Alert` Vorlagen unter _[!UICONTROL Magento_PriceAlert]_auswählen.
 
 1. Klicken Sie auf **[!UICONTROL Load Template]**.
 

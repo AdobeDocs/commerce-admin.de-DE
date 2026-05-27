@@ -5,7 +5,7 @@ exl-id: 3dd3beba-edcf-4f9e-a527-7ed3609ef1ae
 feature: Marketing Tools, Integration
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Das Konversions-Tracking zeigt die Anzahl der Anzeigenklicks an, die zu einem Ve
    - `Dynamic` - Bestimmt anhand des dynamischen Bestellbetragswerts, ob eine Konversion stattgefunden hat.
    - `Constant` - Bestimmt anhand eines bestimmten eingegebenen Werts, dass eine Konversion stattgefunden hat.
 
-   Geben _für den_ „Konstante“ einen bestimmten **[!UICONTROL Value]** ein, damit die _[!UICONTROL Order Amount]_&#x200B;als Konversion gilt.
+   Geben _für den_ „Konstante“ einen bestimmten **[!UICONTROL Value]** ein, damit die _[!UICONTROL Order Amount]_als Konversion gilt.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 

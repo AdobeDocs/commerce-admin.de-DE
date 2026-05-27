@@ -3,10 +3,10 @@ title: Private Verkäufe und Veranstaltungen
 description: Erfahren Sie, wie Sie mit privaten Verkäufen und anderen Katalogereignissen den Umsatz für Ihren bestehenden Kundenstamm steigern und neue Leads generieren können.
 exl-id: 0b890463-b1e5-4327-8d8a-372afd53312a
 feature: Reporting, Promotions/Events
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ Der Ticker-Block zeigt einen Countdown-Ticker für offene Ereignisse mit dem Sta
 
 Wenn die Kategorieseitenauswahl für ein Ereignis aktiviert ist, wird der Tickerblock oben in der Kategorieliste angezeigt. Wenn der Produktseitenticker aktiviert ist, wird der Tickerblock auch oben auf der Produktseite jedes Produkts angezeigt, das mit der Kategorie verknüpft ist.
 
-Der Ereignisticker kann beim Erstellen von [&#x200B; aktiviert &#x200B;](event-create.md).
+Der Ereignisticker kann beim Erstellen von [ aktiviert ](event-create.md).
 
 ![Beispiel einer Storefront - Ereignis-Seitenleiste](./assets/storefront-event-sidebar.png){width="700" zoomable="yes"}

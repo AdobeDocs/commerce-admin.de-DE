@@ -5,7 +5,7 @@ exl-id: 8c5558d6-3641-4769-987e-8b217603d9fc
 feature: Gift, Storefront, Search
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Das [Widget](../content-design/widgets.md)-Tool kann verwendet werden, um ein Ge
 
    ![Geschenkregistrierung - Sucheinstellungen](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_&#x200B;wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_wie folgt vor:
 
    - Geben Sie eine **[!UICONTROL Widget Title]** als interne Referenz ein.
 

@@ -5,7 +5,7 @@ exl-id: 3ff6d4f7-ab8d-4e4e-b9e9-b12e3a08de62
 feature: Marketing Tools, Reporting
 source-git-commit: 8c923c528a6021ee71e5bc67b3fa6b1e9576a809
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Der [!UICONTROL Products in Cart] Bericht enthält eine Liste aller Produkte, di
 
 ## [!UICONTROL Search Terms Report]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Der [Suchbegriffe](../catalog/search-terms.md#search-terms-report)-Bericht zeigt an, wonach Ihre Kunden in jeder Shop-Ansicht suchen. Der Bericht enthält die Anzahl der übereinstimmenden Elemente, die im Katalog gefunden wurden, und die Häufigkeit, mit der der Suchbegriff verwendet wurde.
 
@@ -36,7 +36,7 @@ Der [!UICONTROL Abandoned Carts]-Bericht listet alle registrierten Kunden auf, d
 
 ## [!UICONTROL Newsletter Problems Report]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Die [!UICONTROL Newsletter Problems Report] enthält Informationen zu allen Newsletter-Warteschlangen, die nicht erfolgreich übertragen werden konnten. Der Bericht enthält den Namen jedes Abonnenten, das Datum und den Betreff der Warteschlange sowie Informationen zum Fehler.
 

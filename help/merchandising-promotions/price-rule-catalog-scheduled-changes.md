@@ -5,7 +5,7 @@ exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
 source-git-commit: e4c18621d0607446b48bf2447ac1a978d33ac24a
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Wenn eine aktive Preisregel ohne Enddatum erstellt wurde und Sie sie zu einem be
 
    >[!NOTE]
    >
-   >Stellen Sie bei jeder Aktualisierung von Regelinformationsparametern sicher, dass die _[!UICONTROL Status]_&#x200B;korrekt eingestellt ist. Wenn die Änderung zu einer aktiv angewendeten Regel führen soll, setzen Sie den Status auf `Active`.
+   >Stellen Sie bei jeder Aktualisierung von Regelinformationsparametern sicher, dass die _[!UICONTROL Status]_korrekt eingestellt ist. Wenn die Änderung zu einer aktiv angewendeten Regel führen soll, setzen Sie den Status auf `Active`.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
@@ -68,7 +68,7 @@ Wenn eine aktive Preisregel ohne Enddatum erstellt wurde und Sie sie zu einem be
 
 >[!NOTE]
 >
->Wenn eine Kampagne mit mehr als einer Katalogpreisregel verknüpft ist, können Sie die Kampagne nur über das [Inhalts-Staging-Dashboard“ &#x200B;](../content-design/content-staging-dashboard.md).
+>Wenn eine Kampagne mit mehr als einer Katalogpreisregel verknüpft ist, können Sie die Kampagne nur über das [Inhalts-Staging-Dashboard“ ](../content-design/content-staging-dashboard.md).
 
 1. Klicken Sie im **[!UICONTROL Scheduled Changes]** oben auf der Seite auf **[!UICONTROL View/Edit]**.
 
@@ -90,7 +90,7 @@ Wenn eine aktive Preisregel ohne Enddatum erstellt wurde und Sie sie zu einem be
 
    ![Liste geplanter Aktualisierungen für ein bestimmtes Datum](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Date & Time]** Um eine Vorschau eines anderen Tages oder einer anderen Uhrzeit anzuzeigen, klicken Sie auf das ![&#x200B; „Kalender](../assets/icon-calendar.png) und führen Sie folgende Schritte aus:
+1. **[!UICONTROL Date & Time]** Um eine Vorschau eines anderen Tages oder einer anderen Uhrzeit anzuzeigen, klicken Sie auf das ![ „Kalender](../assets/icon-calendar.png) und führen Sie folgende Schritte aus:
 
    - Wählen Sie ein anderes Datum und/oder eine andere Uhrzeit.
 
@@ -112,4 +112,4 @@ Wenn eine aktive Preisregel ohne Enddatum erstellt wurde und Sie sie zu einem be
 
    Um geplante Änderungen für verschiedene Store-Ansichten anzuzeigen, klicken Sie in der Kopfzeile der Seite „Vorschau“ auf **[!UICONTROL Scope]**. Wählen Sie die Website-, Store- oder Store-Ansicht aus, die Sie in der Vorschau anzeigen möchten.
 
-1. Kehren Sie bei Bedarf zum Kalender zurück und klicken Sie in der Spalte **[!UICONTROL View/Edit]** auf _[!UICONTROL Action]_, um eine weitere geplante Aktualisierung zu öffnen.
+1. Kehren Sie bei Bedarf zum Kalender zurück und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View/Edit]**, um eine weitere geplante Aktualisierung zu öffnen.
