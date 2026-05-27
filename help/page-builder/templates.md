@@ -5,7 +5,7 @@ exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
 source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTRO
 
 1. Klicken Sie oben rechts über der Bühne auf **[!UICONTROL Save as Template]** .
 
-   ![[!DNL Page Builder] mit der Schaltfläche Als Vorlage speichern &#x200B;](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] mit der Schaltfläche Als Vorlage speichern ](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
-   Diese Aktion zeigt das _[!UICONTROL Save Content as Template]_&#x200B;Dialogfeld an.
+   Diese Aktion zeigt das _[!UICONTROL Save Content as Template]_Dialogfeld an.
 
    ![[!DNL Page Builder] Dialogfeld „Als Vorlage speichern“](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
@@ -56,7 +56,7 @@ Sie können eine Vorlage auf einen [!DNL Page Builder] Inhaltsbereich anwenden (
 
    ![[!DNL Page Builder] Schaltfläche „Vorlage anwenden“](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. Wählen Sie eine Vorlage aus dem _[!UICONTROL Apply Template]_&#x200B;Raster aus und klicken Sie am Ende der Zeile auf **[!UICONTROL Apply]**.
+1. Wählen Sie eine Vorlage aus dem _[!UICONTROL Apply Template]_Raster aus und klicken Sie am Ende der Zeile auf **[!UICONTROL Apply]**.
 
    Um die gesamte Vorlage anzuzeigen, können Sie auf die Vorlagenminiatur klicken. Durch diese Aktion wird das Bild erweitert, sodass Sie die gesamte Vorlage nach Bedarf anzeigen können.
 
@@ -91,4 +91,4 @@ Das _Vorlage anwenden_ und das Seitenraster _Vorlagen_ bieten zwei Möglichkeite
 
 In diesem Video erfahren Sie mehr über Page Builder-Inhaltsvorlagen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411360?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/343787?quality=12&learn=on)

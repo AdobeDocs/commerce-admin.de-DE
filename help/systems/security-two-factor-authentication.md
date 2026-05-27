@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über die Unterstützung der Zwei-Faktor-Authenti
 exl-id: d9eb3dd6-4a7b-411a-ac08-0441803cd59a
 role: Admin
 feature: Configuration, Security, User Account
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Die Zwei-Faktor-Authentifizierung wird häufig verwendet, und es ist üblich, Zu
 
 Adobe Commerce unterstützt 2FA-Methoden mehrerer Anbieter. Einige erfordern die Installation einer App, die ein Einmalkennwort (One-Time Password, OTP) generiert, das Benutzer bei der Anmeldung eingeben, um ihre Identität zu überprüfen. Universal Second Factor (U2F)-Geräte ähneln einem Schlüsselfob und generieren einen eindeutigen Schlüssel zur Überprüfung der Identität. Andere Geräte überprüfen die Identität, wenn sie an einen USB-Anschluss angeschlossen werden. Als Store-Administrator können Sie eine oder mehrere der verfügbaren 2FA-Methoden benötigen, um die Benutzeridentität zu überprüfen. Ihre 2FA-Konfiguration gilt für alle Websites und Stores, die mit der Adobe Commerce-Installation verknüpft sind.
 
-Wenn sich ein Benutzer zum ersten Mal bei _Admin_ anmeldet, muss er jede gewünschte [2FA](../configuration-reference/security/2fa.md)-Methode einrichten und seine Identität mithilfe der zugehörigen App oder des zugehörigen Geräts überprüfen. Nach dieser Ersteinrichtung muss sich der Benutzer bei jeder Anmeldung mit einer der konfigurierten Methoden authentifizieren. Die 2FA-Informationen jedes Benutzers werden in seinem _Admin_-Konto aufgezeichnet und können bei [&#x200B; zurückgesetzt &#x200B;](security-two-factor-authentication-manage.md). Weitere Informationen zum Anmeldevorgang finden Sie unter [_Admin_ Sign-In](../getting-started/admin-signin.md).
+Wenn sich ein Benutzer zum ersten Mal bei _Admin_ anmeldet, muss er jede gewünschte [2FA](../configuration-reference/security/2fa.md)-Methode einrichten und seine Identität mithilfe der zugehörigen App oder des zugehörigen Geräts überprüfen. Nach dieser Ersteinrichtung muss sich der Benutzer bei jeder Anmeldung mit einer der konfigurierten Methoden authentifizieren. Die 2FA-Informationen jedes Benutzers werden in seinem _Admin_-Konto aufgezeichnet und können bei [ zurückgesetzt ](security-two-factor-authentication-manage.md). Weitere Informationen zum Anmeldevorgang finden Sie unter [_Admin_ Sign-In](../getting-started/admin-signin.md).
 
 >[!NOTE]
 >
->Bei Stores, für die die Adobe Identity Management Services (IMS)-Authentifizierung aktiviert ist, sind native Adobe Commerce- und Magento Open Source 2FA-Dienste deaktiviert. Admin-Benutzende, die mit ihren Adobe-Anmeldeinformationen bei ihrer Commerce-Instanz angemeldet sind, müssen sich für viele Admin-Aufgaben nicht erneut authentifizieren. Die Authentifizierung wird von Adobe IMS durchgeführt, wenn sich der Administrator bei seiner aktuellen Sitzung anmeldet. Siehe Übersicht über die Integration von [Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=de).
+>Bei Stores, für die die Adobe Identity Management Services (IMS)-Authentifizierung aktiviert ist, sind native Adobe Commerce- und Magento Open Source 2FA-Dienste deaktiviert. Admin-Benutzende, die mit ihren Adobe-Anmeldeinformationen bei ihrer Commerce-Instanz angemeldet sind, müssen sich für viele Admin-Aufgaben nicht erneut authentifizieren. Die Authentifizierung wird von Adobe IMS durchgeführt, wenn sich der Administrator bei seiner aktuellen Sitzung anmeldet. Siehe Übersicht über die Integration von [Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 In dieser [Videodemo](https://video.tv.adobe.com/v/339104?quality=12&learn=on) erhalten Sie einen Überblick über die Zwei-Faktor-Authentifizierung in der Admin-Verwaltung.
 
@@ -40,7 +40,7 @@ In dieser [Videodemo](https://video.tv.adobe.com/v/339104?quality=12&learn=on) e
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Security]** und wählen Sie **[!UICONTROL 2FA]**.
 
-1. Wählen Sie im Abschnitt _[!UICONTROL General]_&#x200B;die zu verwendenden Provider aus.
+1. Wählen Sie im Abschnitt _[!UICONTROL General]_die zu verwendenden Provider aus.
 
    | Lieferant | Funktion |
    |--- |--- |
@@ -51,7 +51,7 @@ In dieser [Videodemo](https://video.tv.adobe.com/v/339104?quality=12&learn=on) e
 
    Zur Auswahl mehrerer Methoden halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Elemente.
 
-1. Füllen Sie [&#x200B; erforderlichen 2FA](../configuration-reference/security/2fa.md)Methode die Einstellungen aus.
+1. Füllen Sie [ erforderlichen 2FA](../configuration-reference/security/2fa.md)Methode die Einstellungen aus.
 
    ![Sicherheitskonfiguration - 2FA](../configuration-reference/security/assets/2fa-general.png){width="600" zoomable="yes"}
 
