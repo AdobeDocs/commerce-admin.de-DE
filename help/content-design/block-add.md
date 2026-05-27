@@ -36,7 +36,7 @@ Benutzerdefinierte Inhaltsblöcke können erstellt und dann zu jeder Seite, Grup
 
 1. Fügen Sie den Inhalt für den Block mit dem angezeigten Content-Tool-Set hinzu:
 
-   - Wenn [Page Builder](../page-builder/introduction.md) aktiviert ist, wählen Sie **[!UICONTROL Edit with Page Builder]** aus, um die Page Builder-Tools im Inhalt ([) ](../page-builder/workspace.md).
+   - Wenn [Page Builder](../page-builder/introduction.md) aktiviert ist, wählen Sie **[!UICONTROL Edit with Page Builder]** aus, um die Page Builder-Tools im Inhalt ([) &#x200B;](../page-builder/workspace.md).
 
      ![Page Builder-Arbeitsbereich](./assets/pb-workspace-block.png){width="500" zoomable="yes"}
 

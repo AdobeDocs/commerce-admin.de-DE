@@ -20,13 +20,13 @@ Für den `Default (General)` freigegebenen Katalog müssen Sie Produkte zuweisen
 
 >[!NOTE]
 >
->**[B2B-Version 1.3.](release-notes.md#b2b-v130) und höher** - Wenn Sie einen freigegebenen Katalog erstellen, wird jede [Kategorieberechtigung](../catalog/category-permissions.md) für den Katalog auf _[!UICONTROL Allow for the Display Product Prices]_und_[!UICONTROL Add to Cart]_ für Kundengruppen festgelegt, denen dieser Zugriff in den Katalogberechtigungseinstellungen zugewiesen ist. Zuvor wurden diese Einstellungen automatisch auf `Deny` gesetzt, auch wenn die Katalogberechtigungen auf `Allow` gesetzt waren.
+>**[B2B-Version 1.3.](release-notes.md#b2b-v130) und höher** - Wenn Sie einen freigegebenen Katalog erstellen, wird jede [Kategorieberechtigung](../catalog/category-permissions.md) für den Katalog auf _[!UICONTROL Allow for the Display Product Prices]_&#x200B;und&#x200B;_[!UICONTROL Add to Cart]_ für Kundengruppen festgelegt, denen dieser Zugriff in den Katalogberechtigungseinstellungen zugewiesen ist. Zuvor wurden diese Einstellungen automatisch auf `Deny` gesetzt, auch wenn die Katalogberechtigungen auf `Allow` gesetzt waren.
 
 >[!IMPORTANT]
 >
 >Alle vorhandenen [Gruppenberechtigungseinstellungen](../configuration-reference/catalog/catalog.md#category-permissions) werden von **_allen_** Kategorien im Katalog ignoriert, wenn die **_[!UICONTROL Shared Catalog]_** aktiviert ist. [!UICONTROL Shared Catalog] steuert alle Kategorieberechtigungen im Katalog vollständig, wenn er aktiviert ist.
 
-Die Seite _[!UICONTROL Shared Catalogs]_bietet Zugriff auf die Tools, die zum Verwalten Ihrer freigegebenen Kataloge verwendet werden. Die Seite ähnelt dem standardmäßigen [Admin Workspace](../getting-started/admin-workspace.md) mit Filtern und Aktionssteuerelementen. Im Raster werden alle freigegebenen Kataloge aufgelistet, einschließlich des standardmäßigen öffentlichen freigegebenen Katalogs und aller benutzerdefinierten Kataloge, die Sie eingerichtet haben.
+Die Seite _[!UICONTROL Shared Catalogs]_&#x200B;bietet Zugriff auf die Tools, die zum Verwalten Ihrer freigegebenen Kataloge verwendet werden. Die Seite ähnelt dem standardmäßigen [Admin Workspace](../getting-started/admin-workspace.md) mit Filtern und Aktionssteuerelementen. Im Raster werden alle freigegebenen Kataloge aufgelistet, einschließlich des standardmäßigen öffentlichen freigegebenen Katalogs und aller benutzerdefinierten Kataloge, die Sie eingerichtet haben.
 
 ![freigegebene Kataloge](./assets/shared-catalogs-grid.png){width="700" zoomable="yes"}
 
@@ -36,7 +36,7 @@ Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UIC
 
 ## Aktionssteuerelemente
 
-Die [Aktionssteuerelemente](../getting-started/admin-actions-control.md) in der oberen linken Ecke können mit dem Massenaktionssteuerelement verwendet werden, um ausgewählte freigegebene Kataloge zu löschen, die nicht mehr benötigt werden. Im Raster enthält die Spalte _[!UICONTROL Actions]_die vollständige Auswahl an Tools zur Verwaltung Ihrer freigegebenen Kataloge.
+Die [Aktionssteuerelemente](../getting-started/admin-actions-control.md) in der oberen linken Ecke können mit dem Massenaktionssteuerelement verwendet werden, um ausgewählte freigegebene Kataloge zu löschen, die nicht mehr benötigt werden. Im Raster enthält die Spalte _[!UICONTROL Actions]_&#x200B;die vollständige Auswahl an Tools zur Verwaltung Ihrer freigegebenen Kataloge.
 
 ![Aktionen für freigegebene Kataloge](./assets/shared-catalog-grid-action-column-controls.png){width="350"}
 

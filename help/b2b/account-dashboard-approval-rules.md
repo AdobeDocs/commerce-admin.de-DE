@@ -24,7 +24,7 @@ Je nach Unternehmensrolle und Berechtigungen können Benutzende Genehmigungsrege
 
 >[!IMPORTANT]
 >
->Für die Einrichtung der Genehmigungsregel ist eine [ (Unternehmensstruktur](account-company-structure.md) erforderlich, um die Genehmigung durch den Manager des Einkäufers anzugeben.
+>Für die Einrichtung der Genehmigungsregel ist eine [&#x200B; (Unternehmensstruktur](account-company-structure.md) erforderlich, um die Genehmigung durch den Manager des Einkäufers anzugeben.
 
 ## Zahlungsmethoden
 

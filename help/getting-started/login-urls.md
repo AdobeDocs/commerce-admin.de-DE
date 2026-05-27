@@ -27,7 +27,7 @@ Wenn Sie noch keine Domain haben, enthält Ihre Store-URL eine Reihe von vier Za
 
 ## Admin-URL
 
-Die Adresse für Ihren [ (](admin.md)) wird während der Installation eingerichtet. Die Standardadresse entspricht der Ihres Geschäfts, am Ende steht jedoch `/admin`. Obwohl in den Beispielen in diesem Handbuch das Standardverzeichnis verwendet wird, empfiehlt es sich, Ihre Admin von einem für Ihren Store eindeutigen Speicherort aus auszuführen.
+Die Adresse für Ihren [&#x200B; (](admin.md)) wird während der Installation eingerichtet. Die Standardadresse entspricht der Ihres Geschäfts, am Ende steht jedoch `/admin`. Obwohl in den Beispielen in diesem Handbuch das Standardverzeichnis verwendet wird, empfiehlt es sich, Ihre Admin von einem für Ihren Store eindeutigen Speicherort aus auszuführen.
 
 - `http://mydomain.com/admin`
 - `http://www.mydomain.com/admin`

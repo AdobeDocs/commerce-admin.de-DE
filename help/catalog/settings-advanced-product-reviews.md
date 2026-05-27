@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produkteinstellungen - [!UICONTROL Product Reviews]
 
-Im Abschnitt _[!UICONTROL Product Reviews]_sind alle Bewertungen aufgelistet, die Kunden zu dem Produkt eingereicht haben. Dieser Abschnitt wird mit den anderen Produktinformationen erst angezeigt, nachdem ein neues Produkt zum ersten Mal gespeichert wurde. Weitere Informationen finden Sie unter [Produktbewertungen](../merchandising-promotions/product-reviews.md).
+Im Abschnitt _[!UICONTROL Product Reviews]_&#x200B;sind alle Bewertungen aufgelistet, die Kunden zu dem Produkt eingereicht haben. Dieser Abschnitt wird mit den anderen Produktinformationen erst angezeigt, nachdem ein neues Produkt zum ersten Mal gespeichert wurde. Weitere Informationen finden Sie unter [Produktbewertungen](../merchandising-promotions/product-reviews.md).
 
 ![Produktbewertungen](./assets/product-review.png){width="600" zoomable="yes"}
 
