@@ -5,7 +5,7 @@ exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Sie können Bestellungen auf drei Arten zurückerstatten:
 
 Sie können für jede Zahlungsmethode eine Offline-Rückerstattung oder Kontogutschrift (falls aktiviert) vornehmen.
 
-Eine Bestellung, die per Nachnahme ([&#128279;](cash-on-delivery.md) COD) oder per [Scheck oder &#x200B;](check-money-order.md) bezahlt wurde, wird offline zurückerstattet.
+Eine Bestellung, die per Nachnahme ([](cash-on-delivery.md) COD) oder per [Scheck oder ](check-money-order.md) bezahlt wurde, wird offline zurückerstattet.
 
 ## Erstattungs-Workflow
 
