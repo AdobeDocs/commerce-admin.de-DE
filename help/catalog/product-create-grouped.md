@@ -5,7 +5,7 @@ exl-id: af42b7fc-27f2-4c5a-b504-a70a324fae76
 feature: Catalog Management, Products
 source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Die folgenden Anweisungen zeigen den Prozess der Erstellung eines gruppierten Pr
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Grouped Product]**&#x200B;aus.
+1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Grouped Product]**aus.
 
    ![Gruppiertes Produkt hinzufügen](./assets/product-add-grouped.png){width="700" zoomable="yes"}
 
@@ -95,7 +95,7 @@ Um dem Produkt ein vorhandenes Attribut hinzuzufügen, verwenden Sie die [Filter
 
 1. Akzeptieren Sie die **[!UICONTROL Visibility]** von `Catalog, Search`.
 
-1. Um das Produkt in der [Liste neuer Produkte“ &#x200B;](../content-design/widget-new-products-list.md), wählen Sie die **[!UICONTROL Set Product as New]** **[!UICONTROL from]** und **[!UICONTROL to]** im Kalender aus.
+1. Um das Produkt in der [Liste neuer Produkte“ ](../content-design/widget-new-products-list.md), wählen Sie die **[!UICONTROL Set Product as New]** **[!UICONTROL from]** und **[!UICONTROL to]** im Kalender aus.
 
 1. Wählen Sie die **[!UICONTROL Country of Manufacture]** aus.
 
@@ -119,7 +119,7 @@ Um dem Produkt ein vorhandenes Attribut hinzuzufügen, verwenden Sie die [Filter
 
 1. Um sie der Produktgruppe hinzuzufügen, klicken Sie auf **[!UICONTROL Add Selected Products]**.
 
-   Die ausgewählten Produkte werden im Abschnitt _[!UICONTROL Grouped Products]_&#x200B;angezeigt.
+   Die ausgewählten Produkte werden im Abschnitt _[!UICONTROL Grouped Products]_angezeigt.
 
    Bei Multi-Source-Händlern mit [Inventory management](../inventory-management/sources-stocks.md) enthält das Raster eine **[!UICONTROL Quantity per Source]** mit jeder zugewiesenen Quell- und Lagerbestandsmenge.
 
@@ -144,7 +144,7 @@ Füllen Sie die Informationen in den folgenden Abschnitten nach Bedarf aus:
 - [Design](settings-advanced-design.md)
 - [Geschenkoptionen](product-gift-options.md)
 
-## Schritt 6: Publish das Produkt
+## Schritt 6: Produkt veröffentlichen
 
 1. Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, legen Sie **[!UICONTROL Enable Product]** auf `Yes` fest.
 
@@ -162,7 +162,7 @@ Füllen Sie die Informationen in den folgenden Abschnitten nach Bedarf aus:
 
    **Methode 2: Speichern und schließen**
 
-   - Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
+   - Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
 
 ## Schritt 7: Konfigurieren der Miniaturen für den Warenkorb (optional)
 

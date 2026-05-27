@@ -5,7 +5,7 @@ exl-id: 2f60d48e-960f-437c-8f8f-a3d06cc0840a
 feature: Catalog Management, Categories, Site Navigation, Page Content
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Beispiel: `Home > Suits > All Suits > Refined by > Slim Fit`
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Web]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Web]**aus.
 
    ![Breadcrumbs für CMS-Seiten anzeigen](../configuration-reference/general/assets/web-default-pages.png){width="600" zoomable="yes"}
 

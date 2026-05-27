@@ -5,7 +5,7 @@ exl-id: d80a0545-918e-4c08-9f37-4aa3cd7771f4
 feature: Catalog Management, Categories, Customers, Configuration
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Gehen **_wie folgt vor, um den Zugriff auf eine_** einzuschränken und zu ihr um
 
    >[!NOTE]
    >
-   >Obwohl die _[!UICONTROL Allow Browsing Category]_&#x200B;Einstellung für alle Kategorien auf der Website gilt, können Sie für jede Shop-Ansicht eine andere Landingpage konfigurieren.
+   >Obwohl die _[!UICONTROL Allow Browsing Category]_Einstellung für alle Kategorien auf der Website gilt, können Sie für jede Shop-Ansicht eine andere Landingpage konfigurieren.
 
 ### [!UICONTROL Display Product Prices]
 
@@ -134,7 +134,7 @@ Legen Sie diese Option fest, um zu verhindern, dass Mitglieder einer bestimmten 
 
    >[!NOTE]
    >
-   >Wenn für eine übergeordnete Kategorie die Berechtigung `Browsing Category` = `Deny` festgelegt ist, wird sie nicht im Breadcrumb[Protokoll &#x200B;](navigation-breadcrumb-trail.md) untergeordneten Kategorieseite angezeigt.
+   >Wenn für eine übergeordnete Kategorie die Berechtigung `Browsing Category` = `Deny` festgelegt ist, wird sie nicht im Breadcrumb[Protokoll ](navigation-breadcrumb-trail.md) untergeordneten Kategorieseite angezeigt.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
