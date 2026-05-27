@@ -34,7 +34,7 @@ Das [Widget](../content-design/widgets.md)-Tool kann verwendet werden, um ein Ge
 
    ![Geschenkregistrierung - Sucheinstellungen](./assets/widget-gift-registry-search-settings.png){width="700" zoomable="yes"}
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_&#x200B;wie folgt vor:
 
    - Geben Sie eine **[!UICONTROL Widget Title]** als interne Referenz ein.
 

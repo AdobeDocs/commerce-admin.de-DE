@@ -68,7 +68,7 @@ Um TFA verwenden zu können, muss auf Ihrem persönlichen Gerät (z. B. Smartpho
 
    Wenn Sie bei Ihrem [!DNL Commerce]-Konto keinen Verifizierungs-Code angeben können, müssen Sie einen Wiederherstellungs-Code verwenden, um den Zugriff auf das Konto wiederzuerlangen.
 
-   Jeder Wiederherstellungs-Code kann nur einmal verwendet werden, aber Sie können [ neue ](#generate-new-recovery-codes) generieren. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden.
+   Jeder Wiederherstellungs-Code kann nur einmal verwendet werden, aber Sie können [&#x200B; neue &#x200B;](#generate-new-recovery-codes) generieren. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden.
 
 1. Aktivieren Sie das Bestätigungs-Kontrollkästchen und klicken Sie auf **[!UICONTROL Submit]** , um fortzufahren.
 
@@ -136,7 +136,7 @@ Um TFA verwenden zu können, muss auf Ihrem persönlichen Gerät (z. B. Smartpho
 
 1. Wählen Sie **[!UICONTROL Submit]** aus, um den Anmeldevorgang abzuschließen.
 
-Nachdem Sie einen temporären Wiederherstellungs-Code für den Zugriff auf Ihr Konto verwendet haben[ generieren Sie neue Wiederherstellungs-Codes ](#generate-new-recovery-codes) speichern Sie sie, um weitere Probleme beim Zugriff auf das Konto zu vermeiden.
+Nachdem Sie einen temporären Wiederherstellungs-Code für den Zugriff auf Ihr Konto verwendet haben[&#x200B; generieren Sie neue Wiederherstellungs-Codes &#x200B;](#generate-new-recovery-codes) speichern Sie sie, um weitere Probleme beim Zugriff auf das Konto zu vermeiden.
 
 ## Wiederherstellungs-Codes anzeigen
 
@@ -160,7 +160,7 @@ Nachdem Sie einen temporären Wiederherstellungs-Code für den Zugriff auf Ihr K
 
    Wenn Sie keinen Verifizierungs-Code für die Anmeldung bei Ihrem [!DNL Commerce]-Konto angeben können, ist die Verwendung eines Wiederherstellungs-Codes die einzige Möglichkeit, den Zugriff auf das Konto wiederzuerlangen.
 
-   Jeder Wiederherstellungs-Code ist nur eine einmalige Verwendung, aber Sie können immer [ neue ](#generate-new-recovery-codes) generieren. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden.
+   Jeder Wiederherstellungs-Code ist nur eine einmalige Verwendung, aber Sie können immer [&#x200B; neue &#x200B;](#generate-new-recovery-codes) generieren. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden.
 
    ![Wiederherstellungs-Codes anzeigen](./assets/2fa-view-recovery.png){width="400"}
 
@@ -246,7 +246,7 @@ Nachdem Sie einen temporären Wiederherstellungs-Code für den Zugriff auf Ihr K
 
    Wenn Sie bei Ihrem [!DNL Commerce]-Konto keinen Verifizierungs-Code angeben können, können Sie den Zugriff auf das Konto nur mit einem Wiederherstellungs-Code zurückgewinnen.
 
-   Jeder Wiederherstellungs-Code ist nur eine einmalige Verwendung, aber Sie können immer [ neue ](#generate-new-recovery-codes) generieren. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden.
+   Jeder Wiederherstellungs-Code ist nur eine einmalige Verwendung, aber Sie können immer [&#x200B; neue &#x200B;](#generate-new-recovery-codes) generieren. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden.
 
 1. Aktivieren Sie das Kontrollkästchen zur Bestätigung und wählen Sie **[!UICONTROL Submit]** aus, um fortzufahren.
 

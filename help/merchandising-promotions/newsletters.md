@@ -30,7 +30,7 @@ Der erste Schritt beim Erstellen von Newslettern besteht darin, die Newsletter-E
 
 1. Um Newsletter für den Bereich der Store-Ansicht zu aktivieren, setzen Sie **[!UICONTROL Enabled]** auf `Yes`.
 
-Nach der Aktivierung der Newsletter-Funktion wird der Abschnitt _[!UICONTROL Subscription Options]_angezeigt.
+Nach der Aktivierung der Newsletter-Funktion wird der Abschnitt _[!UICONTROL Subscription Options]_&#x200B;angezeigt.
 
 ## Konfigurieren der Abonnementoptionen
 
@@ -38,7 +38,7 @@ Nach der Aktivierung der Newsletter-Funktion wird der Abschnitt _[!UICONTROL Sub
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Newsletter]**.
 
-1. Ändern Sie bei [ den Konfigurationsbereich, ](../getting-started/websites-stores-views.md#scope-settings) die Newsletter-Konfigurationsänderungen auf eine bestimmte Site-/Store-Ansicht anzuwenden.
+1. Ändern Sie bei [&#x200B; den Konfigurationsbereich, &#x200B;](../getting-started/websites-stores-views.md#scope-settings) die Newsletter-Konfigurationsänderungen auf eine bestimmte Site-/Store-Ansicht anzuwenden.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Subscription Options]** und führen Sie folgende Schritte aus:
 

@@ -45,6 +45,6 @@ Der Ticker-Block zeigt einen Countdown-Ticker für offene Ereignisse mit dem Sta
 
 Wenn die Kategorieseitenauswahl für ein Ereignis aktiviert ist, wird der Tickerblock oben in der Kategorieliste angezeigt. Wenn der Produktseitenticker aktiviert ist, wird der Tickerblock auch oben auf der Produktseite jedes Produkts angezeigt, das mit der Kategorie verknüpft ist.
 
-Der Ereignisticker kann beim Erstellen von [ aktiviert ](event-create.md).
+Der Ereignisticker kann beim Erstellen von [&#x200B; aktiviert &#x200B;](event-create.md).
 
 ![Beispiel einer Storefront - Ereignis-Seitenleiste](./assets/storefront-event-sidebar.png){width="700" zoomable="yes"}

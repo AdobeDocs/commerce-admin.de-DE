@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Storefront-Branding
 
-Eines der ersten Dinge, die Sie tun möchten, ist [Logo ändern](#upload-your-logo) in der Kopfzeile und [ein Favicon hochladen](#add-a-favicon) für den Browser. Als Nächstes sollten Sie [Ihre Begrüßungsnachricht hinzufügen](#change-the-welcome-message) und [den Copyright-Hinweis aktualisieren](#change-the-copyright-notice) in der Fußzeile einfügen. Diese Aufgaben sind einige einfache Design-Elemente, die Sie sofort übernehmen können. Während sich Ihr Store in der Entwicklung befindet, können [ den Hinweis zur Store-Demo ](#set-the-store-demo-notice) und ihn dann entfernen, wenn Sie für den Start bereit sind.
+Eines der ersten Dinge, die Sie tun möchten, ist [Logo ändern](#upload-your-logo) in der Kopfzeile und [ein Favicon hochladen](#add-a-favicon) für den Browser. Als Nächstes sollten Sie [Ihre Begrüßungsnachricht hinzufügen](#change-the-welcome-message) und [den Copyright-Hinweis aktualisieren](#change-the-copyright-notice) in der Fußzeile einfügen. Diese Aufgaben sind einige einfache Design-Elemente, die Sie sofort übernehmen können. Während sich Ihr Store in der Entwicklung befindet, können [&#x200B; den Hinweis zur Store-Demo &#x200B;](#set-the-store-demo-notice) und ihn dann entfernen, wenn Sie für den Start bereit sind.
 
 ![Storefront-Branding-Elemente](./assets/storefront-home-page-branding.png){width="600" zoomable="yes"}
 
@@ -48,7 +48,7 @@ Unterstützte Logodateiformate:
 
    ![Design-Konfigurationsseite](./assets/design-configuration.png){width="700"}
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Header]** .
 
@@ -92,7 +92,7 @@ Ein Favicon ist im Allgemeinen 16 x 16 Pixel oder 32 x 32 Pixel groß. [!DNL Com
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie im Raster die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie im Raster die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Erweitern Sie unter _[!UICONTROL Other Settings]_![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL HTML Head]**.
 
@@ -124,7 +124,7 @@ Die Begrüßungsnachricht in der Kopfzeile wird erweitert und enthält den Namen
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie im Raster die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie im Raster die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Erweitern Sie unter _[!UICONTROL Other Settings]_![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Header]**.
 
@@ -156,9 +156,9 @@ Der `&copy;`-Code wird verwendet, um das Copyright-Symbol einzufügen, wie in de
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie im Raster die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie im Raster die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
-1. Erweitern _unter_ Weitere Einstellungen![ den Abschnitt ](../assets/icon-display-expand.png)Erweiterungsauswahl **[!UICONTROL Footer]**.
+1. Erweitern _unter_ Weitere Einstellungen![&#x200B; den Abschnitt &#x200B;](../assets/icon-display-expand.png)Erweiterungsauswahl **[!UICONTROL Footer]**.
 
    ![Fußzeilen-Design-Einstellungen](./assets/configuration-footer.png){width="600"}
 
@@ -176,7 +176,7 @@ Wenn Ihr Store online ist, sich aber noch im Aufbau befindet, können Sie oben a
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie im Raster die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie im Raster die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Erweitern Sie unter _[!UICONTROL Other Settings]_![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL HTML Head]**.
 

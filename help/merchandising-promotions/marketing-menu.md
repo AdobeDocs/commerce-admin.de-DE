@@ -39,7 +39,7 @@ Klicken Sie in der _Admin_-Seitenleiste auf **[!UICONTROL Marketing]**.
 
 Erstellen Sie [Katalog](price-rules-catalog.md) und [Warenkorb](price-rules-cart.md) Preisregeln, die Trigger Rabatte basierend auf verschiedenen Bedingungen gewähren. Richten Sie [Promotions](introduction.md#promotions) ein, die aktiv werden, wenn die erforderlichen Bedingungen erfüllt sind.
 
-![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) [Verwandte Produktregeln erstellen](product-related-rules.md) und (Geschenkkartenkonten[ verwalten](../stores-purchase/product-gift-card-accounts.md).
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) [Verwandte Produktregeln erstellen](product-related-rules.md) und (Geschenkkartenkonten[&#x200B; verwalten](../stores-purchase/product-gift-card-accounts.md).
 
 ### [!UICONTROL Private Sales]
 
