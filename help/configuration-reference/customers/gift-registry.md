@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Customers] &gt; [!UICONTROL Gift Registry]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Gift Registry] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Customers] > [!UICONTROL Gift Registry]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] > [!UICONTROL Gift Registry] des Commerce Admin.
 exl-id: c5153c4e-897a-41d2-bde1-8483855d1a37
 feature: Configuration, Gift
 source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '346'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Detaillierte Informationen zur Verwendung dieser Einstellungen zum Aktivieren vo
 
 ![Allgemeine Optionen](./assets/gift-registry-general-options.png)<!-- zoom -->
 
-<!-- [General Options](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -35,7 +35,7 @@ Detaillierte Informationen zur Verwendung dieser Einstellungen zum Aktivieren vo
 
 ![Benachrichtigung des Inhabers](./assets/gift-registry-owner-notification.png)<!-- zoom -->
 
-<!-- [Owner Notification](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [Owner Notification](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -48,7 +48,7 @@ Detaillierte Informationen zur Verwendung dieser Einstellungen zum Aktivieren vo
 
 ![Gift Registry Sharing](./assets/gift-registry-gift-registry-sharing.png)<!-- zoom -->
 
-<!-- Gift Registry Sharing](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- Gift Registry Sharing](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -62,7 +62,7 @@ Detaillierte Informationen zur Verwendung dieser Einstellungen zum Aktivieren vo
 
 ![Geschenkregistrierungs-Aktualisierung](./assets/gift-registry-gift-registry-update.png)<!-- zoom -->
 
-<!-- [Gift Registry Update](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
+<!-- [Gift Registry Update](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/gift-registry/gift-registry-configure) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

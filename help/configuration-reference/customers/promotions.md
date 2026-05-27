@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Customers] &gt; [!UICONTROL Promotions]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Promotions] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Customers] > [!UICONTROL Promotions]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] > [!UICONTROL Promotions] des Commerce Admin.
 exl-id: 93035d46-2e9e-466d-a5e3-d69ce6b662b8
 feature: Configuration, Promotions/Events
 source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![Regeln für automatische E-Mail-Erinnerungen](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
 
-<!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
+<!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ![Automatisch generierte spezifische Gutscheincodes](./assets/promotions-auto-generated-specific-coupon-codes.png)<!-- zoom -->
 
-<!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
+<!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -46,6 +46,6 @@ ht-degree: 0%
 | [!UICONTROL Code Format] | Global | Definiert das Couponcode-Format. Die Optionen umfassen: <br/>**`Alphanumeric`**- Jede Kombination aus Buchstaben und Zahlen.<br/>**`Alphabetical`** - nur Buchstaben. <br/>**`Numeric`**- Nur Zahlen. |
 | [!UICONTROL Code Prefix] | Global | Ein Wert, der an den Anfang aller Couponcodes angehängt wird. Wenn Sie kein Präfix verwenden möchten, lassen Sie das Feld leer. |
 | [!UICONTROL Code Suffix] | Global | Ein Wert, der am Ende aller Codes angehängt wird. Wenn Sie kein Suffix verwenden möchten, lassen Sie das Feld leer. |
-| [!UICONTROL Dash Every X Characters] | Global | Das Intervall für das Einfügen eines Bindestrichs (-) in alle Couponcodes. Wenn Sie keinen Bindestrich verwenden möchten, lassen Sie das Feld leer. <br/>_&#x200B;**Hinweis:**&#x200B;_ Couponcodes, die sich nur um einen Bindestrich unterscheiden, gelten als unterschiedliche Codes. |
+| [!UICONTROL Dash Every X Characters] | Global | Das Intervall für das Einfügen eines Bindestrichs (-) in alle Couponcodes. Wenn Sie keinen Bindestrich verwenden möchten, lassen Sie das Feld leer. <br/>_**Hinweis:**_ Couponcodes, die sich nur um einen Bindestrich unterscheiden, gelten als unterschiedliche Codes. |
 
 {style="table-layout:auto"}

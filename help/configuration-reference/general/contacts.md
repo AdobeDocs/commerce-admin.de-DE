@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL General] &gt; [!UICONTROL Contacts]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL General] &gt; [!UICONTROL Contacts] des Commerce Admin-Bereichs.
+title: '[!UICONTROL General] > [!UICONTROL Contacts]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL General] > [!UICONTROL Contacts] des Commerce Admin.
 exl-id: 1acd6683-772d-431f-8b74-230163ded1be
 feature: Configuration, Communications
 source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ![Kontakt](./assets/contacts-contact-us.png)<!-- zoom -->
 
-<!-- [Contact Us](https://experienceleague.adobe.com/de/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
+<!-- [Contact Us](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 ![E-Mail-Optionen](./assets/contacts-email-options.png)<!-- zoom -->
 
-<!-- [Email Options](https://experienceleague.adobe.com/de/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
+<!-- [Email Options](https://experienceleague.adobe.com/en/docs/commerce-admin/start/setup/store-details#contact-us-form) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

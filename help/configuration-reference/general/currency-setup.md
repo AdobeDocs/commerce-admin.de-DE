@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL General] &gt; [!UICONTROL Currency Setup]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL General] &gt; [!UICONTROL Currency Setup] des Commerce Admin-Bereichs.
+title: '[!UICONTROL General] > [!UICONTROL Currency Setup]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL General] > [!UICONTROL Currency Setup] des Commerce Admin.
 exl-id: a84be30f-f2eb-4c86-942c-2d49e5cf23af
 role: Admin
 feature: Currency, Configuration, Data Import/Export
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Weitere Informationen [&#x200B; diesen Konfigurationen finden &#x200B;](../../stores-purchase/currency-configuration.md) unter „Währungskonfiguration“.
+>Weitere Informationen [ diesen Konfigurationen finden ](../../stores-purchase/currency-configuration.md) unter „Währungskonfiguration“.
 
 ## [!UICONTROL Currency Options]
 

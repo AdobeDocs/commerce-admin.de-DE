@@ -5,7 +5,7 @@ exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
 source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ Nur Angebotsanfragen mit einem `Open` können abgelehnt werden.
 
 1. Wählen Sie jede offene Angebotsanfrage aus, die Sie ablehnen möchten.
 
-1. Setzen Sie das _[!UICONTROL Actions]_&#x200B;auf `Declined`.
+1. Setzen Sie das _[!UICONTROL Actions]_auf `Declined`.
 
 1. Geben Sie bei Aufforderung den Grund für die Ablehnung des Angebots ein und klicken Sie auf **[!UICONTROL Confirm]**.
 

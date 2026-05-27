@@ -5,16 +5,16 @@ exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
 source-git-commit: ec00288f33af2abb785d1b37dd67aaf1ebe35c06
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2282'
 ht-degree: 0%
 
 ---
 
 # Angebot aushandeln
 
-Wenn [B2B-Angebote aktiviert &#x200B;](configure-quotes.md), kann die Preisaushandlung in der Konfiguration von einem autorisierten Käufer von einem Unternehmen oder einem Vertriebsmitarbeiter initiiert werden.
+Wenn [B2B-Angebote aktiviert ](configure-quotes.md), kann die Preisaushandlung in der Konfiguration von einem autorisierten Käufer von einem Unternehmen oder einem Vertriebsmitarbeiter initiiert werden.
 
-Käufer starten den Preisaushandlungsprozess, indem sie [ein Angebot anfordern](quote-request.md) aus dem Warenkorb starten. Vertriebsmitarbeiter können die Verhandlung starten[&#x200B; indem sie einen Angebotsentwurf für einen Einkäufer erstellen](sales-rep-initiates-quote.md) das Angebot mit den ursprünglichen Bestellartikeln und Preisen aktualisieren und es an den Einkäufer senden.
+Käufer starten den Preisaushandlungsprozess, indem sie [ein Angebot anfordern](quote-request.md) aus dem Warenkorb starten. Vertriebsmitarbeiter können die Verhandlung starten[ indem sie einen Angebotsentwurf für einen Einkäufer erstellen](sales-rep-initiates-quote.md) das Angebot mit den ursprünglichen Bestellartikeln und Preisen aktualisieren und es an den Einkäufer senden.
 
 Wenn die Preisaushandlung beginnt, werden die Kursofferten im Raster [Kursofferten](quotes.md) aufgeführt. Alle Verhandlungen zwischen dem Käufer und Verkäufer finden per E-Mail statt und werden von der Detailansicht des Angebots initiiert und verfolgt.
 
@@ -33,7 +33,7 @@ Einkäufer verwalten den Prozess der Angebotsaushandlung von der Storefront aus 
 
 1. Navigieren Sie in der Admin -Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Quotes]**.
 
-   Die neue Anfrage wird im _[!UICONTROL Quotes]_&#x200B;angezeigt.
+   Die neue Anfrage wird im _[!UICONTROL Quotes]_angezeigt.
 
 1. Klicken Sie in _Spalte_ Aktionen“ auf **[!UICONTROL View]**.
 
@@ -41,13 +41,13 @@ Einkäufer verwalten den Prozess der Angebotsaushandlung von der Storefront aus 
 
 ## Schritt 2: Ändern des Angebots
 
-1. Klicken Sie unter _[!UICONTROL Quote & Account Information]_&#x200B;auf_ Kalender _(![Kalendersymbol](../assets/icon-calendar.png)).
+1. Klicken Sie unter _[!UICONTROL Quote & Account Information]_auf_ Kalender _(![Kalendersymbol](../assets/icon-calendar.png)).
 
    ![Angebots- und Kontoinformationen](./assets/quote-details-account-information.png){width="575" zoomable="yes"}
 
 1. Wählen Sie einen **[!UICONTROL Expiration Date]** für das Angebot aus.
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Quote Totals]_&#x200B;und aktualisieren Sie die **[!UICONTROL Negotiated Price]**&#x200B;nach Bedarf.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Quote Totals]_und aktualisieren Sie die **[!UICONTROL Negotiated Price]**nach Bedarf.
 
    ![Ausgehandelter Preis aktualisieren](./assets/quote-change-update-negotiated-price.png){width="600" zoomable="yes"}
 
@@ -65,7 +65,7 @@ Einkäufer verwalten den Prozess der Angebotsaushandlung von der Storefront aus 
 
 ### Anwenden von Zeilenelement-Aktualisierungen
 
-Wenden Sie bei Bedarf Positionsänderungen im _[!UICONTROL Items Quoted]_&#x200B;an.
+Wenden Sie bei Bedarf Positionsänderungen im _[!UICONTROL Items Quoted]_an.
 
 ![Anwenden von Zeileneintragsaktualisierungen](./assets/quote-apply-line-item-operations.png){width="600" zoomable="yes"}
 
@@ -100,7 +100,7 @@ Sowohl der Positionsrabatt als auch jeder Rabatt auf Angebotsebene werden auf de
 
 1. Geben Sie einen **[!UICONTROL Proposed Shipping Price]** ein.
 
-   Die _[!UICONTROL Quote Totals]_&#x200B;werden aktualisiert, um den vorgeschlagenen Versandpreis wiederzugeben.
+   Die _[!UICONTROL Quote Totals]_werden aktualisiert, um den vorgeschlagenen Versandpreis wiederzugeben.
 
 ### Beigefügtes Dokument beifügen
 
@@ -112,7 +112,7 @@ Sowohl der Positionsrabatt als auch jeder Rabatt auf Angebotsebene werden auf de
 
 ## Schritt 3: Aktualisieren Sie die Informationen auf Angebotsebene und senden Sie Ihre Antwort
 
-1. Geben Sie im Abschnitt _[!UICONTROL Negotiation]_&#x200B;auf der Registerkarte&#x200B;_[!UICONTROL Comments]_ im Abschnitt **[!UICONTROL Add your comment]** Ihre Antwort ein.
+1. Geben Sie im Abschnitt _[!UICONTROL Negotiation]_auf der Registerkarte_[!UICONTROL Comments]_ im Abschnitt **[!UICONTROL Add your comment]** Ihre Antwort ein.
 
 1. Um ein unterstützendes Dokument einzuschließen, klicken Sie auf **[!UICONTROL Attach file]** und wählen Sie die Datei aus Ihrem Verzeichnis aus.
 
@@ -120,7 +120,7 @@ Sowohl der Positionsrabatt als auch jeder Rabatt auf Angebotsebene werden auf de
 
 1. So wenden Sie einen Rabatt auf das Angebot an:
 
-   - Wählen Sie unter _[!UICONTROL Quote Totals]_&#x200B;im Abschnitt&#x200B;_[!UICONTROL Negotiated Price]_ einen der folgenden Rabatttypen:
+   - Wählen Sie unter _[!UICONTROL Quote Totals]_im Abschnitt_[!UICONTROL Negotiated Price]_ einen der folgenden Rabatttypen:
 
       - `Percentage Discount`: Ein prozentualer Rabatt reduziert den ursprünglichen Preis um einen bestimmten Prozentsatz.
       - `Amount Discount`: Bei einem Betragsrabatt wird ein fester Preisnachlass angewendet.
@@ -160,8 +160,8 @@ Um seine Position im Workflow zu überwachen, überprüfen Sie Ihre E-Mail und d
 
 | Schaltfläche | Beschreibung |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Back] | Kehrt zur _[!UICONTROL Quotes]_&#x200B;zurück, ohne die Änderungen zu speichern. |
-| [!UICONTROL Print] | Sendet das Angebot an einen Drucker oder speichert es als PDF. |
+| [!UICONTROL Back] | Kehrt zur _[!UICONTROL Quotes]_zurück, ohne die Änderungen zu speichern. |
+| [!UICONTROL Print] | Sendet das Angebot an einen Drucker oder speichert es als PDF-Datei. |
 | [!UICONTROL Create Copy] | Erstellt und öffnet eine Kopie des aktuellen Anführungszeichens, wobei `(copy)` an den ursprünglichen Namen angehängt wird. Benennen Sie das neue Anführungszeichen um, indem Sie das Feld [!UICONTROL Name] bearbeiten. Verarbeiten Sie das neue Angebot, indem Sie es als Entwurf speichern oder an den Kunden senden. |
 | Vorlage erstellen | Erstellen Sie eine Angebotsvorlage basierend auf dem aktuellen Angebot. Angebotsvorlagen optimieren die Verhandlung von Angeboten, indem sie es Käufern und Verkäufern ermöglichen, sich auf Vertrags- und Preisbedingungen zu einigen, die auf mehrere Angebote angewendet werden können. . Nach Vereinbarung kann der Käufer ein vorab genehmigtes verknüpftes Angebot aus der Vorlage für nachfolgende Bestellungen generieren, anstatt den Angebotsanforderungsprozess (RFQ) neu zu starten. |
 | [!UICONTROL Save as Draft] | Speichert alle Änderungen am Angebot, sendet es jedoch nicht an den Käufer zurück. |
@@ -178,11 +178,11 @@ Zitatinformationen und Funktionen im Admin-Bereich sind in die folgenden Abschni
 
 | Feld | Beschreibung |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Name] | Der Name, der einer Angebotsanfrage vom [&#x200B; zugewiesen &#x200B;](account-company-roles-permissions.md). |
+| [!UICONTROL Name] | Der Name, der einer Angebotsanfrage vom [ zugewiesen ](account-company-roles-permissions.md). |
 | [!UICONTROL Status] | Gibt den aktuellen Status des Angebots an. Der Status eines Angebots kann nur durch eine Handlung des Käufers oder Verkäufers geändert werden. Siehe auch [Statuseinstellungen](quotes.md) im Admin- und [Käuferkonto](account-dashboard-my-quotes.md). |
 | [!UICONTROL Created] | Das Datum und die Uhrzeit, zu der der Käufer die Angebotsanforderung zum ersten Mal gesendet hat. |
 | [!UICONTROL Created By] | Der Vor- und Nachname des Firmenkäufers, der die Angebotsanfrage gestellt hat. |
-| [!UICONTROL Expiration Date] | Gibt den letzten Tag an, an dem das aktuelle Angebot gültig ist. Das standardmäßige Ablaufdatum wird in der Konfiguration auf 30 Tage festgelegt, nachdem ein Käufer eine Angebotsanfrage gesendet hat. <br/><br/>Der Verkäufer kann das standardmäßige Ablaufdatum überschreiben, indem er ein anderes Datum (MMM TT JJJJ ) eingibt oder das Datum aus dem Kalender auswählt. Das Angebot läuft nie ab, wenn das Feld leer gelassen wird. <br/><br/>Bei offenen Angeboten erhält der Verkäufer 48 [&#128279;](../systems/email-templates.md) vor Ablauf des Angebots eine E-Mail-Benachrichtigung“. Käufer werden 24 Stunden vor dem Ablaufdatum benachrichtigt. <br/><br/>Der Status des Angebots ändert sich in _Abgelaufen_ und der Käufer kann keine weiteren Änderungen am Angebot vornehmen. Die im Angebot vorgeschlagenen Preise werden auf die ursprünglichen Werte aus dem Katalog zurückgesetzt. <br/><br/>Wenn ein Angebot vom Verkäufer geprüft werden kann, wenn das Angebot abläuft, wird das Ablaufdatum entsprechend dem in der Konfiguration festgelegten Bereich zurückgesetzt. <br/><br/>Das Ablaufdatum ist das einzige Feld im Abschnitt _Angebot und Konto_, das während des Überprüfungsprozesses bearbeitet werden kann. |
+| [!UICONTROL Expiration Date] | Gibt den letzten Tag an, an dem das aktuelle Angebot gültig ist. Das standardmäßige Ablaufdatum wird in der Konfiguration auf 30 Tage festgelegt, nachdem ein Käufer eine Angebotsanfrage gesendet hat. <br/><br/>Der Verkäufer kann das standardmäßige Ablaufdatum überschreiben, indem er ein anderes Datum (MMM TT JJJJ ) eingibt oder das Datum aus dem Kalender auswählt. Das Angebot läuft nie ab, wenn das Feld leer gelassen wird. <br/><br/>Bei offenen Angeboten erhält der Verkäufer 48 ](../systems/email-templates.md) vor Ablauf des Angebots eine [E-Mail-Benachrichtigung“. Käufer werden 24 Stunden vor dem Ablaufdatum benachrichtigt. <br/><br/>Der Status des Angebots ändert sich in _Abgelaufen_ und der Käufer kann keine weiteren Änderungen am Angebot vornehmen. Die im Angebot vorgeschlagenen Preise werden auf die ursprünglichen Werte aus dem Katalog zurückgesetzt. <br/><br/>Wenn ein Angebot vom Verkäufer geprüft werden kann, wenn das Angebot abläuft, wird das Ablaufdatum entsprechend dem in der Konfiguration festgelegten Bereich zurückgesetzt. <br/><br/>Das Ablaufdatum ist das einzige Feld im Abschnitt _Angebot und Konto_, das während des Überprüfungsprozesses bearbeitet werden kann. |
 | [!UICONTROL Company] | Der rechtliche Name des [Unternehmens](account-companies.md) den der Käufer repräsentiert. |
 | [!UICONTROL Company Admin Email] | Die E-Mail-Adresse [Unternehmensadministrators](account-company-admin.md). |
 | [!UICONTROL Sales Rep] | Der [Vertriebsmitarbeiter](account-company-manage.md) der für den Verkäufer arbeitet und der primäre Kontakt ist, der dem Firmenkonto zugewiesen ist. |
@@ -248,7 +248,7 @@ Zitatinformationen und Funktionen im Admin-Bereich sind in die folgenden Abschni
 | ausgehandelter Preis | Der Rabatt, der dem Käufer angeboten wird, kann auf einem der folgenden Kriterien basieren: <br/>**[!UICONTROL Percentage Discount]**- Der Rabatt als Prozentsatz.<br/>**[!UICONTROL Amount Discount]** - Der Rabatt als fester Betrag. <br/>**[!UICONTROL Proposed Price]**- Der vom Verkäufer vorgeschlagene Preis.<p>Wenn alle Artikel im Angebot einen gesperrten Artikelrabatt haben, wird der [!UICONTROL Negotiated Price] Abschnitt deaktiviert, da kein weiterer Rabatt angewendet werden kann.</p><p>Wenn ein Produkt einen nicht gesperrten Positionsrabatt hat, werden sowohl der Positionsrabatt als auch der Rabatt auf Angebotsebene auf den Produktpreis angewendet.</p> |
 | [!UICONTROL Quote Subtotal (Incl./Excl. Tax)] | Der vorgeschlagene Gesamtpreis für jeden Einzelposten im Angebot, entweder mit oder ohne Steuer, je nach den Einstellungen [Steuerberechnung](../configuration-reference/sales/tax.md) in der Konfiguration. |
 | [!UICONTROL Shipping & Handling] | Der vom Verkäufer im Feld Vorgeschlagener Versandpreis im Abschnitt Lieferinformationen des Angebots eingegebene Betrag. Wenn dieses Feld leer ist, basiert der Betrag auf der ausgewählten Versandmethode. |
-| [!UICONTROL Estimated Tax] | Der geschätzte fällige Steuerbetrag, wie in der Konfiguration (Anzeigeeinstellungen[&#x200B; angegeben](../configuration-reference/sales/tax.md). |
+| [!UICONTROL Estimated Tax] | Der geschätzte fällige Steuerbetrag, wie in der Konfiguration (Anzeigeeinstellungen[ angegeben](../configuration-reference/sales/tax.md). |
 | [!UICONTROL Quote Grand Total (Incl. Tax)] | Die endgültige Summe am Ende des Angebots, die den ausgehandelten Preis, die geschätzte Steuer und den vorgeschlagenen Versand und die Handhabung enthält. |
 
 {style="table-layout:auto"}

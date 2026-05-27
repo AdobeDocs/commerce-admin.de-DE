@@ -5,7 +5,7 @@ exl-id: 137f0a99-8f24-4838-b54b-b0ef2c39a32a
 feature: B2B, Companies, Quotes
 source-git-commit: 6cf53c7caf37c24be473afecfba829595c14cb8c
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Angebote mit dem Status `Updated` werden gesperrt, bis der Verkäufer das Angebo
 
 ## Anführungszeichen anzeigen
 
-Mit den erforderlichen [Berechtigungen für ihre Rolle](account-company-roles-permissions.md) können Käufer, die mit einem Unternehmenskonto verknüpft sind, Angebote sehen, die von &quot;[&#x200B; Benutzern“ angefordert &#x200B;](account-company-structure.md). Firmenadministratoren können alle Angebote für das Firmenkonto anzeigen.
+Mit den erforderlichen [Berechtigungen für ihre Rolle](account-company-roles-permissions.md) können Käufer, die mit einem Unternehmenskonto verknüpft sind, Angebote sehen, die von &quot;[ Benutzern“ angefordert ](account-company-structure.md). Firmenadministratoren können alle Angebote für das Firmenkonto anzeigen.
 
 1. Der Käufer meldet sich bei seinem Konto in der Storefront an.
 
@@ -98,13 +98,13 @@ Mit den erforderlichen [Berechtigungen für ihre Rolle](account-company-roles-pe
 
 1. Wählen Sie die Zeileneinträge aus.
 
-1. Klicken Sie in der Dropdown-Liste _[!UICONTROL Actions]_&#x200B;auf **[!UICONTROL Move to Requisition list]**.
+1. Klicken Sie in der Dropdown-Liste _[!UICONTROL Actions]_auf **[!UICONTROL Move to Requisition list]**.
 
 1. Wählen Sie eine bestehende Anforderungsliste aus, um die ausgewählten Artikel zu verschieben.
 
 1. Klicken Sie auf **[!UICONTROL Move item]**.
 
-Weitere [&#x200B; zu diesem Prozess finden Sie &#x200B;](requisition-lists.md) „Produkte zu einer Anforderungsliste hinzufügen“.
+Weitere [ zu diesem Prozess finden Sie ](requisition-lists.md) „Produkte zu einer Anforderungsliste hinzufügen“.
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Weitere [&#x200B; zu diesem Prozess finden Sie &#x200B;](requisition-lists.md) �
 
 1. Wählen Sie die Zeileneinträge aus.
 
-1. Klicken Sie in der Dropdown-Liste _[!UICONTROL Actions]_&#x200B;auf **[!UICONTROL Move item to new quote]**.
+1. Klicken Sie in der Dropdown-Liste _[!UICONTROL Actions]_auf **[!UICONTROL Move item to new quote]**.
 
 1. Benennen Sie das neue Anführungszeichen im Modal.
 
@@ -148,7 +148,7 @@ Wenn der Käufer die Adresse hinzufügt, stellt der Verkäufer die Versand- und 
 
 ## Ein Angebot drucken
 
-1. Im offenen Angebot rechts neben dem Abschnitt _[!UICONTROL Items Quoted]_&#x200B;klickt der Käufer auf **[!UICONTROL Print]**.
+1. Im offenen Angebot rechts neben dem Abschnitt _[!UICONTROL Items Quoted]_klickt der Käufer auf **[!UICONTROL Print]**.
 
 1. Überprüft die **[!UICONTROL Destination]** entweder als Drucker oder als PDF.
 
@@ -158,13 +158,13 @@ Wenn der Käufer die Adresse hinzufügt, stellt der Verkäufer die Versand- und 
 
 1. Klicken Sie im offenen Anführungszeichen direkt über dem Abschnitt Anführungszeichen für Elemente auf **[!UICONTROL Close quote]**.
 
-   Die Anfrage wird abgebrochen und der Angebotsstatus ändert sich in `Closed`. Das geschlossene Anführungszeichen bleibt in Ihrer Anführungsliste und wird vom Administrator im _[!UICONTROL Quotes]_&#x200B;angezeigt.
+   Die Anfrage wird abgebrochen und der Angebotsstatus ändert sich in `Closed`. Das geschlossene Anführungszeichen bleibt in Ihrer Anführungsliste und wird vom Administrator im _[!UICONTROL Quotes]_angezeigt.
 
 1. Um das abgebrochene Angebot aus der Anführungsliste zu entfernen, klicken Sie auf **[!UICONTROL Delete]**.
 
 1. Wenn Sie zur Bestätigung aufgefordert werden, klicken Sie auf **[!UICONTROL OK]**.
 
-   Das geschlossene Anführungszeichen wird aus der Anführungsliste entfernt. Sie bleibt jedoch mit dem Status `Closed` im _[!UICONTROL Quotes]_&#x200B;in der Admin-Liste aufgeführt.
+   Das geschlossene Anführungszeichen wird aus der Anführungsliste entfernt. Sie bleibt jedoch mit dem Status `Closed` im _[!UICONTROL Quotes]_in der Admin-Liste aufgeführt.
 
 ## Angebotsaktionen
 
@@ -184,6 +184,6 @@ Wenn der Käufer die Adresse hinzufügt, stellt der Verkäufer die Versand- und 
 | [!UICONTROL Quote Name] | Der Name, der der Angebotsanfrage vom Käufer zugewiesen wurde. |
 | [!UICONTROL Created] | Das Datum, an dem die Angebotsanfrage erstmals gesendet wurde. |
 | [!UICONTROL Created By] | Der Vor- und Nachname des Käufers, der die Angebotsanfrage gesendet hat. |
-| [!UICONTROL Status] | Gibt den Status des Angebots an. Der Status eines Angebots kann nur durch eine Handlung des Käufers oder Verkäufers geändert werden. <br/>**[!UICONTROL Submitted]**- Die Angebotsanfrage des Käufers wurde noch nicht vom Verkäufer eröffnet. In diesem Zustand kann der Käufer die Angebotsanfrage noch ändern. Verfügbare Aktionen: `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** - Der Verkäufer hat die Anfrage geöffnet und ist dabei, sie zu überprüfen und eine Antwort vorzubereiten. Verfügbare Aktionen: `View` / `Close` <br/>**[!UICONTROL Updated]**- Der Verkäufer hat eine Antwort an den Käufer gesendet, und die Schaltfläche &quot;_[!UICONTROL Proceed to Checkout]_&quot; ist aktiviert. In diesem Zustand kann der Käufer das Angebot weiterhin ändern. Verfügbare Aktionen: `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` `Edit Shipping Address` /<br/>**[!UICONTROL Open]**- Der Käufer aktualisiert noch das Angebot, und die&#x200B;_[!UICONTROL Proceed to Checkout]_ Schaltfläche ist deaktiviert. Verfügbare Aktionen: `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- Der Käufer hat eine Bestellung auf Basis des ausgehandelten Angebots eingereicht. Das Angebot ist gesperrt und kann nicht bearbeitet werden. Verfügbare Aktion:<br/>**[!UICONTROL Closed]** anzeigen - Der Käufer hat die Verhandlung beendet und storniert das Angebot. Das Angebot ist gesperrt und kann weder vom Käufer noch vom Verkäufer bearbeitet werden. Verfügbare Aktionen: `View` / `Delete` <br/>**[!UICONTROL Declined]**- Der Verkäufer hat die Angebotsanfrage abgelehnt oder eine vorgeschlagene Änderung während des Verhandlungsprozesses vorgenommen. Ein Angebot kann in jeder Phase des Workflows abgelehnt werden. Alle benutzerdefinierten Preise werden aus dem Angebot entfernt. Der Käufer kann das Angebot weiter bearbeiten und erneut senden oder den Kauf mit Standardkatalogpreisen tätigen. Verfügbare Aktionen: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - Die Lebensdauer des Angebots ist abgelaufen. Alle vorgeschlagenen Preise werden zurückgesetzt. Der Käufer kann den Kauf entweder zu Standardkatalogpreisen abschließen oder eine weitere Verhandlungsrunde einleiten. Verfügbare Aktionen: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
+| [!UICONTROL Status] | Gibt den Status des Angebots an. Der Status eines Angebots kann nur durch eine Handlung des Käufers oder Verkäufers geändert werden. <br/>**[!UICONTROL Submitted]**- Die Angebotsanfrage des Käufers wurde noch nicht vom Verkäufer eröffnet. In diesem Zustand kann der Käufer die Angebotsanfrage noch ändern. Verfügbare Aktionen: `View` / `Close` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Pending]** - Der Verkäufer hat die Anfrage geöffnet und ist dabei, sie zu überprüfen und eine Antwort vorzubereiten. Verfügbare Aktionen: `View` / `Close` <br/>**[!UICONTROL Updated]**- Der Verkäufer hat eine Antwort an den Käufer gesendet, und die Schaltfläche &quot;_[!UICONTROL Proceed to Checkout]_&quot; ist aktiviert. In diesem Zustand kann der Käufer das Angebot weiterhin ändern. Verfügbare Aktionen: `View` / `Send for Review` / `Proceed to Checkout` / `Delete Quote` / `Close` / `Edit Quantity` / `Delete SKU` / `Add comments` `Edit Shipping Address` /<br/>**[!UICONTROL Open]**- Der Käufer aktualisiert noch das Angebot, und die_[!UICONTROL Proceed to Checkout]_ Schaltfläche ist deaktiviert. Verfügbare Aktionen: `View` / `Send for Review` / `Delete Quote` / `Edit quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` <br/>**[!UICONTROL Ordered]**- Der Käufer hat eine Bestellung auf Basis des ausgehandelten Angebots eingereicht. Das Angebot ist gesperrt und kann nicht bearbeitet werden. Verfügbare Aktion:<br/>**[!UICONTROL Closed]** anzeigen - Der Käufer hat die Verhandlung beendet und storniert das Angebot. Das Angebot ist gesperrt und kann weder vom Käufer noch vom Verkäufer bearbeitet werden. Verfügbare Aktionen: `View` / `Delete` <br/>**[!UICONTROL Declined]**- Der Verkäufer hat die Angebotsanfrage abgelehnt oder eine vorgeschlagene Änderung während des Verhandlungsprozesses vorgenommen. Ein Angebot kann in jeder Phase des Workflows abgelehnt werden. Alle benutzerdefinierten Preise werden aus dem Angebot entfernt. Der Käufer kann das Angebot weiter bearbeiten und erneut senden oder den Kauf mit Standardkatalogpreisen tätigen. Verfügbare Aktionen: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address`<br/>**[!UICONTROL Expired]** - Die Lebensdauer des Angebots ist abgelaufen. Alle vorgeschlagenen Preise werden zurückgesetzt. Der Käufer kann den Kauf entweder zu Standardkatalogpreisen abschließen oder eine weitere Verhandlungsrunde einleiten. Verfügbare Aktionen: `View` / `Send for Review` / `Delete Quote` / `Edit Quantity` / `Delete SKU` / `Add Comments` / `Edit Shipping Address` |
 
 {style="table-layout:auto"}

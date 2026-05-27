@@ -6,8 +6,8 @@ role: Admin, Developer, User
 feature: Configuration
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 3%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 3%
    - [2FA](./security/2fa.md)
    - [Google reCAPTCHA-Administratorbereich](./security/google-recaptcha-admin.md)
    - [Google reCAPTCHA-Storefront](./security/google-recaptcha-storefront.md)
-   - [Security.txt](./security/security-txt.md)
+   - [security.txt](./security/security-txt.md)
 - Kunden {#customers}
    - [Als Kunde anmelden](./customers/login-as-customer.md)
    - [Newsletter](./customers/newsletter.md)
@@ -83,4 +83,4 @@ ht-degree: 3%
    - [Administrator](./advanced/admin.md)
    - [System](./advanced/system.md)
    - [Entwickler](./advanced/developer.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)

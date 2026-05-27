@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Catalog] &gt; [!UICONTROL Email to a Friend] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Catalog] > [!UICONTROL Email to a Friend]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Catalog] > [!UICONTROL Email to a Friend] des Commerce Admin.
 exl-id: cd1e3a8d-14ce-47e9-a3bc-c1b1dcbe0d8c
 feature: Configuration, Communications
 source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![E-Mail-Vorlagen](./assets/email-to-a-friend-email-templates.png)<!-- zoom -->
 
-<!-- [Email Templates](https://experienceleague.adobe.com/de/docs/commerce-admin/systems/communications/email-templates#configure-email-templates) -->
+<!-- [Email Templates](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/communications/email-templates#configure-email-templates) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

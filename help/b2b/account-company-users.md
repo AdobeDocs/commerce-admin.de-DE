@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Verwalten von Firmenbenutzerkonten
 
-In der Storefront werden Unternehmensbenutzer vom Unternehmensadministrator zugewiesen und auf der _[!UICONTROL Company Users]_&#x200B;Seite angezeigt. Diese Personen sind in der Regel Käufer mit unterschiedlichen Berechtigungsebenen für den Zugriff auf Storedienste und -ressourcen.
+In der Storefront werden Unternehmensbenutzer vom Unternehmensadministrator zugewiesen und auf der _[!UICONTROL Company Users]_Seite angezeigt. Diese Personen sind in der Regel Käufer mit unterschiedlichen Berechtigungsebenen für den Zugriff auf Storedienste und -ressourcen.
 
 Der Unternehmensadministrator richtet zunächst die [Unternehmensstruktur](account-company-structure.md) ein und führt dann bei Bedarf die folgenden Aufgaben aus:
 
@@ -56,7 +56,7 @@ Firmenbenutzer können nur vom Unternehmensadministrator hinzugefügt, bearbeite
 
    Die neuen Benutzer werden zusammen mit dem Unternehmensadministrator in der Liste der Firmenbenutzer angezeigt.
 
-Um Zeit bei der ersten Bestellung zu sparen, kann der Firmenadministrator jeden Firmenbenutzer daran erinnern, die standardmäßige Rechnungs- und Lieferadresse des Unternehmens zu seinem [Adressbuch“ &#x200B;](../customers/account-dashboard-address-book.md).
+Um Zeit bei der ersten Bestellung zu sparen, kann der Firmenadministrator jeden Firmenbenutzer daran erinnern, die standardmäßige Rechnungs- und Lieferadresse des Unternehmens zu seinem [Adressbuch“ ](../customers/account-dashboard-address-book.md).
 
 ## Entfernen eines Benutzers aus der [!UICONTROL Company structure]
 

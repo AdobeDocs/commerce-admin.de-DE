@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Customers] &gt; [!UICONTROL Wish List]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Wish List] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Customers] > [!UICONTROL Wish List]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] > [!UICONTROL Wish List] des Commerce Admin.
 exl-id: 33ff428c-03e3-4698-a01e-f007b4e1688e
 feature: Configuration, Customers, Storefront
 source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '244'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![Allgemeine Optionen](./assets/wishlist-general-options.png)<!-- zoom -->
 
-<!--[General Options](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!--[General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ![Freigabeoptionen](./assets/wishlist-share-options.png)<!-- zoom -->
 
-<!-- [Share Options](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!-- [Share Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 ![Mein Wunschzettel-Link](./assets/wishlist-my-wishlist-link.png)<!-- zoom -->
 
-<!--[My Wish List Link](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
+<!--[My Wish List Link](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/wish-lists/wishlist-configuration) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Customers] > [!UICONTROL Company Configuration]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] > [!UICONTROL Company Configuration] des Commerce Admin.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Mit der Installation und Aktivierung von Adobe Commerce B2B kann das Kauferlebnis mit unternehmensspezifischen Funktionen personalisiert werden. Adobe Commerce B2B ist eine integrierte Lösung, die sowohl B2B- als auch B2C-Modelle unterstützt. Weitere Informationen zu den B2B-Funktionen finden Sie im [Adobe Commerce B2B-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=de).
+>Mit der Installation und Aktivierung von Adobe Commerce B2B kann das Kauferlebnis mit unternehmensspezifischen Funktionen personalisiert werden. Adobe Commerce B2B ist eine integrierte Lösung, die sowohl B2B- als auch B2C-Modelle unterstützt. Weitere Informationen zu den B2B-Funktionen finden Sie im [Adobe Commerce B2B-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Allow Company Registration from the Storefront] | Website | Legt fest, ob Besucher in Ihrem Geschäft die Wahl haben[&#x200B; sich für &#x200B;](../../customers/customer-sign-in.md) Unternehmenskonto oder ein einzelnes Konto zu registrieren. Optionen: `Yes` / `No` |
+| [!UICONTROL Allow Company Registration from the Storefront] | Website | Legt fest, ob Besucher in Ihrem Geschäft die Wahl haben[ sich für ](../../customers/customer-sign-in.md) Unternehmenskonto oder ein einzelnes Konto zu registrieren. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -93,7 +93,7 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 | [!UICONTROL Send Email Copy Method] | Shop-Ansicht | Die E-Mail-Methode, die zum Senden der Kopie der Gutschriftsänderungsbenachrichtigung verwendet wird. Optionen: `Bcc` / `Separate Email` |
 | [!UICONTROL Allocated Email Template] | Shop-Ansicht | Die E-Mail-Vorlage, die bei der Zuordnung des Firmenguthabens standardmäßig verwendet wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Credit Limit Allocated` |
 | [!UICONTROL Updated Email Template] | Shop-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn das Kreditlimit eines Unternehmens aktualisiert wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Credit Limit Updated` |
-| [!UICONTROL Reimbursed Email Template] | Shop-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird[&#x200B; wenn eine &#x200B;](../../b2b/credit-company.md#apply-a-payment-to-a-company-account) (Rückerstattung) auf das Guthaben des Unternehmens gutgeschrieben wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Credit Reimbursed` |
+| [!UICONTROL Reimbursed Email Template] | Shop-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird[ wenn eine ](../../b2b/credit-company.md#apply-a-payment-to-a-company-account) (Rückerstattung) auf das Guthaben des Unternehmens gutgeschrieben wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Credit Reimbursed` |
 | [!UICONTROL Refunded Email Template] | Shop-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn ein Betrag aus einer Bestellung auf das Firmenguthaben zurückerstattet wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | Shop-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn eine Bestellung auf einen Firmenkredit zurückgesetzt wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Order Reverted to Company Credit` |
 
