@@ -268,7 +268,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Geplant
 
 ![Erweiterte Konfiguration - Bild-Upload-Konfiguration](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/de/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
