@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Rückgabe
 
-Kunden _die einen Artikel zum Austausch oder zur Rückerstattung_ möchten, kann eine „Rücksendung von Waren“ (RMA) erteilt werden. In der Regel kontaktiert der Kunde den Händler, um eine Rückerstattung zu beantragen. Bei Validierung wird eine eindeutige RMA-Nummer zur Identifizierung des zurückgegebenen Produkts zugewiesen. In der Konfiguration können Sie RMA entweder für alle Produkte aktivieren oder RMA nur für bestimmte Produkte zulassen. Das _[!UICONTROL Returns]_Raster listet die aktuell zurückgegebenen Merchandising Requests (RMAs) auf und wird zur Eingabe neuer Return Requests verwendet.
+Kunden _die einen Artikel zum Austausch oder zur Rückerstattung_ möchten, kann eine „Rücksendung von Waren“ (RMA) erteilt werden. In der Regel kontaktiert der Kunde den Händler, um eine Rückerstattung zu beantragen. Bei Validierung wird eine eindeutige RMA-Nummer zur Identifizierung des zurückgegebenen Produkts zugewiesen. In der Konfiguration können Sie RMA entweder für alle Produkte aktivieren oder RMA nur für bestimmte Produkte zulassen. Das _[!UICONTROL Returns]_&#x200B;Raster listet die aktuell zurückgegebenen Merchandising Requests (RMAs) auf und wird zur Eingabe neuer Return Requests verwendet.
 
 ![Gibt das Raster zurück](./assets/return.png){width="600" zoomable="yes"}
 
@@ -72,7 +72,7 @@ Ein Händler kann vom Administrator eine Rücksendeanfrage im Namen des Kunden e
 
 1. Um eine Rücksendeanfrage zu erstellen, klicken Sie auf eine Bestellung mit einem `Complete`.
 
-1. Wählen Sie im Abschnitt _[!UICONTROL Return Information]_die Registerkarte **[!UICONTROL Return Items]**aus.
+1. Wählen Sie im Abschnitt _[!UICONTROL Return Information]_&#x200B;die Registerkarte **[!UICONTROL Return Items]**&#x200B;aus.
 
 1. Um Elemente hinzuzufügen, die zurückgegeben werden sollen, klicken Sie auf **[!UICONTROL Add Items]**.
 

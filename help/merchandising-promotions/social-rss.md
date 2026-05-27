@@ -95,7 +95,7 @@ Social-Networking-Websites verfügen über eine Vielzahl von Plug-ins, die einfa
 
    - Geben Sie eine Zahl in das **[!UICONTROL Sort Order]** ein, um die Reihenfolge des Blocks zu bestimmen, wenn er so zugewiesen ist, dass er an derselben Stelle auf der Seite wie andere Inhaltselemente angezeigt wird. Die obere Position ist null.
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_auf **[!UICONTROL Add Layout Update]**und legen Sie **[!UICONTROL Display On]**auf die Kategorie, das Produkt oder die Seite fest, in der bzw. der der Block angezeigt werden soll.
+1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_&#x200B;auf **[!UICONTROL Add Layout Update]**&#x200B;und legen Sie **[!UICONTROL Display On]**&#x200B;auf die Kategorie, das Produkt oder die Seite fest, in der bzw. der der Block angezeigt werden soll.
 
    Wenn Sie beispielsweise `All Pages` auswählen und den Block in der Kopf- oder Fußzeile platzieren, wird der Block an derselben Stelle auf jeder Seite des Stores angezeigt.
 
@@ -117,7 +117,7 @@ Social-Networking-Websites verfügen über eine Vielzahl von Plug-ins, die einfa
 
 1. Befolgen Sie bei Aufforderung die Anweisungen oben im Arbeitsbereich, um den Index und den Seiten-Cache zu aktualisieren.
 
-   Das Widget wird jetzt in der _[!UICONTROL Widgets]_angezeigt.
+   Das Widget wird jetzt in der _[!UICONTROL Widgets]_&#x200B;angezeigt.
 
 ### Schritt 4. Überprüfen des Speicherorts im Store
 

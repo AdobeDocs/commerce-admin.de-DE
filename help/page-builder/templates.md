@@ -28,9 +28,9 @@ Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTRO
 
 1. Klicken Sie oben rechts über der Bühne auf **[!UICONTROL Save as Template]** .
 
-   ![[!DNL Page Builder] mit der Schaltfläche Als Vorlage speichern ](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
+   ![[!DNL Page Builder] mit der Schaltfläche Als Vorlage speichern &#x200B;](./assets/pb-templates-saveastemplate-button.png){width="600" zoomable="yes"}
 
-   Diese Aktion zeigt das _[!UICONTROL Save Content as Template]_Dialogfeld an.
+   Diese Aktion zeigt das _[!UICONTROL Save Content as Template]_&#x200B;Dialogfeld an.
 
    ![[!DNL Page Builder] Dialogfeld „Als Vorlage speichern“](./assets/pb-templates-save-dialog.png){width="400" zoomable="yes"}
 
@@ -56,7 +56,7 @@ Sie können eine Vorlage auf einen [!DNL Page Builder] Inhaltsbereich anwenden (
 
    ![[!DNL Page Builder] Schaltfläche „Vorlage anwenden“](./assets/pb-templates-applytemplate-button.png){width="600" zoomable="yes"}
 
-1. Wählen Sie eine Vorlage aus dem _[!UICONTROL Apply Template]_Raster aus und klicken Sie am Ende der Zeile auf **[!UICONTROL Apply]**.
+1. Wählen Sie eine Vorlage aus dem _[!UICONTROL Apply Template]_&#x200B;Raster aus und klicken Sie am Ende der Zeile auf **[!UICONTROL Apply]**.
 
    Um die gesamte Vorlage anzuzeigen, können Sie auf die Vorlagenminiatur klicken. Durch diese Aktion wird das Bild erweitert, sodass Sie die gesamte Vorlage nach Bedarf anzeigen können.
 

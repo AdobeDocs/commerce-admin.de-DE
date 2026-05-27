@@ -23,7 +23,7 @@ Wenn [automatische Weiterleitungen](url-redirect-product-automatic.md) für Ihre
 
 Um Fehler zu vermeiden, schreiben Sie den Pfad _umleiten zu_ und _umleiten von_ auf und fügen Sie den URL-Schlüssel und das Suffix (falls zutreffend) hinzu.
 
-Wenn Sie sich nicht sicher sind, öffnen Sie jede Produktseite in Ihrem Store und kopieren Sie den Pfad aus der Adressleiste Ihres Browsers. Beim Erstellen einer Produktumleitung können Sie den [Kategoriepfad“ entweder ein- oder ](../catalog/catalog-urls.md). Für dieses Beispiel erstellen wir eine Produktumleitung ohne Kategoriepfad.
+Wenn Sie sich nicht sicher sind, öffnen Sie jede Produktseite in Ihrem Store und kopieren Sie den Pfad aus der Adressleiste Ihres Browsers. Beim Erstellen einer Produktumleitung können Sie den [Kategoriepfad“ entweder ein- oder &#x200B;](../catalog/catalog-urls.md). Für dieses Beispiel erstellen wir eine Produktumleitung ohne Kategoriepfad.
 
 ### Produkt mit Kategoriepfad
 
@@ -124,11 +124,11 @@ Mit den folgenden Schritten können Sie URL-Neuschreibungen für mehrere oder al
 
 1. Wählen Sie alle Produkte aus, für die Sie URL-Neuschreibungen aktualisieren möchten.
 
-1. Wählen Sie unter _[!UICONTROL Actions]_die Option **[!UICONTROL Update attributes]**aus, um mehrere oder alle Neuschreibungen zu aktualisieren.
+1. Wählen Sie unter _[!UICONTROL Actions]_&#x200B;die Option **[!UICONTROL Update attributes]**&#x200B;aus, um mehrere oder alle Neuschreibungen zu aktualisieren.
 
-1. Klicken Sie unter _[!UICONTROL PRODUCTS INFORMATION]_auf die Registerkarte **[!UICONTROL Websites]**.
+1. Klicken Sie unter _[!UICONTROL PRODUCTS INFORMATION]_&#x200B;auf die Registerkarte **[!UICONTROL Websites]**.
 
-1. Wählen Sie im Abschnitt _[!UICONTROL Add Product To Websites]_alle Websites aus, für die Sie URL-Neuschreibungen wiederherstellen möchten.
+1. Wählen Sie im Abschnitt _[!UICONTROL Add Product To Websites]_&#x200B;alle Websites aus, für die Sie URL-Neuschreibungen wiederherstellen möchten.
 
 1. Wenn Sie bereit zum Aktualisieren sind, klicken Sie auf **[!UICONTROL Save]**.
 
