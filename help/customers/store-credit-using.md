@@ -26,7 +26,7 @@ Shop-Administratoren können den Guthabensaldo und die Historie aus dem Kundenko
 
 1. Klicken Sie in _Spalte_ Aktion **[!UICONTROL Edit]** auf.
 
-1. Scrollen Sie _[!UICONTROL Customer View]_Seite und zeigen Sie die **[!UICONTROL Store Credit Balance]**unten an.
+1. Scrollen Sie _[!UICONTROL Customer View]_&#x200B;Seite und zeigen Sie die **[!UICONTROL Store Credit Balance]**&#x200B;unten an.
 
 ![Kontostand speichern](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -70,7 +70,7 @@ Wenn ein Guthaben für die Website vorhanden ist, kann der Kunde eine Gutschrift
 
    >[!INFO]
    >
-   >Die Bestellsumme wird neu berechnet, und der Betrag der angewendeten Speichergutschrift wird im _[!UICONTROL Order Summary]_angezeigt.
+   >Die Bestellsumme wird neu berechnet, und der Betrag der angewendeten Speichergutschrift wird im _[!UICONTROL Order Summary]_&#x200B;angezeigt.
 
    ![Auf die Bestellung angewendetes Guthaben speichern](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 

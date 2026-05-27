@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**PSD2-Anforderungen:** <br/>
->Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2}-](../../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Die Einhaltung von PSD2 durch PayPal Express Checkout erfordert keine Maßnahmen, da alle Anforderungen durch PayPal abgewickelt werden.
+>Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2&rbrace;-](../../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Die Einhaltung von PSD2 durch PayPal Express Checkout erfordert keine Maßnahmen, da alle Anforderungen durch PayPal abgewickelt werden.
 
 {{config}}
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Email Associated with PayPal Merchant Account] | Website | Gibt die E-Mail-Adresse an, die Sie bei der Einrichtung Ihres PayPal-Händlerkontos angegeben haben. Bei der E-Mail-Adresse wird zwischen Groß- und Kleinschreibung unterschieden und sie muss genau mit Ihrer E-Mail-Adresse im PayPal-System übereinstimmen. |
-| [!UICONTROL API Authentication Methods] | Website | Bestimmt die für die API-Authentifizierung verwendete Methode. Optionen: <br/>**`API Signature`**- Zeigt das _[!UICONTROL API Signature]_im Formular an.<br/>**`API Certificate`**- Zeigt das Feld_[!UICONTROL API Certificate]_ im Formular an. |
+| [!UICONTROL API Authentication Methods] | Website | Bestimmt die für die API-Authentifizierung verwendete Methode. Optionen: <br/>**`API Signature`**- Zeigt das _[!UICONTROL API Signature]_&#x200B;im Formular an.<br/>**`API Certificate`**- Zeigt das Feld&#x200B;_[!UICONTROL API Certificate]_ im Formular an. |
 | [!UICONTROL API Username] | Website | Der API-Benutzername, der mit Ihrem PayPal-Händlerkonto verknüpft ist. |
 | [!UICONTROL API Password] | Website | Das API-Passwort, das mit Ihrem PayPal-Händlerkonto verknüpft ist. |
 | [!UICONTROL API Signature] | Website | Die API-Signatur, die mit Ihrem PayPal-Händlerkonto verknüpft ist. |
@@ -96,7 +96,7 @@ ht-degree: 0%
 | [!UICONTROL Shortcut Buttons Flavor] | Shop-Ansicht | Bestimmt den Typ des Bildes, das für die PayPal-Akzeptanzschaltfläche verwendet wird. Optionen: <br/>**`Dynamic`**- (Empfohlen) Zeigt ein Bild an, das dynamisch vom PayPal-Server geändert werden kann.<br/>**`Static`** - Zeigt ein statisches Bild an, das nicht dynamisch geändert werden kann. |
 | [!UICONTROL Enable PayPal Guest Checkout] | Website | Ermöglicht Kunden, die keine PayPal-Konten haben, Käufe mit PayPal Express Checkout zu tätigen. Optionen: `Yes` / `No` |
 | [!UICONTROL Require Customer's Billing Address] | Website | Bestimmt, ob die Rechnungsadresse des Kunden erforderlich ist. Optionen: `Yes` / `No` / `For Virtual Quotes Only` |
-| [!UICONTROL Billing Agreement Signup] | Website | Legt fest, ob Kundinnen und Kunden mit Ihrem [ einen ](../../stores-purchase/paypal-billing-agreements.md) abschließen können. Optionen: <br/>**`Auto`**- Der Kunde kann sich während des Express-Checkouts für einen Abrechnungsvertrag anmelden.<br/>**`Ask Customer`** - Kunden werden gefragt, ob sie sich für eine Abrechnungsvereinbarung anmelden möchten. <br/>**`Never`**- Kunden wird nicht angeboten, sich für eine Abrechnungsvereinbarung zu registrieren. |
+| [!UICONTROL Billing Agreement Signup] | Website | Legt fest, ob Kundinnen und Kunden mit Ihrem [&#x200B; einen &#x200B;](../../stores-purchase/paypal-billing-agreements.md) abschließen können. Optionen: <br/>**`Auto`**- Der Kunde kann sich während des Express-Checkouts für einen Abrechnungsvertrag anmelden.<br/>**`Ask Customer`** - Kunden werden gefragt, ob sie sich für eine Abrechnungsvereinbarung anmelden möchten. <br/>**`Never`**- Kunden wird nicht angeboten, sich für eine Abrechnungsvereinbarung zu registrieren. |
 | [!UICONTROL Skip Order Review Step] | Website | Legt fest, ob Kundinnen und Kunden die Transaktion über die PayPal-Website abschließen können oder verpflichtet sind, zu Ihrem Geschäft zurückzukehren und den Schritt zur Bestellüberprüfung auszuführen, bevor sie die Bestellung übermitteln. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -149,7 +149,7 @@ ht-degree: 0%
 | **[!UICONTROL PayPal Merchant Pages Style]** |  |  |
 | [!UICONTROL Page Style] | Shop-Ansicht | Bestimmt das Erscheinungsbild Ihrer PayPal-Händlerseite. Zulässige Werte: **`paypal`** - Verwendet den PayPal-Seitenstil. <br/>**`primary`**- Verwendet den Seitenstil, den Sie in Ihrem Kontoprofil als „primären“ Stil identifiziert haben.<br/>**`your_custom_value`** - Verwendet einen benutzerdefinierten Zahlungsseitenstil, der in Ihrem Kontoprofil angegeben ist. |
 | [!UICONTROL Header Image URL] | Shop-Ansicht | Die URL des Bildes, das oben links auf der Kaufbestätigungsseite angezeigt wird. Die maximale Größe beträgt 750 x 90 Pixel. <br/><br/>**_Hinweis:_** PayPal empfiehlt, das Bild auf einem sicheren (https) Server zu speichern. Andernfalls kann der Browser des Kunden warnen, dass „die Seite sowohl sichere als auch nicht sichere Elemente enthält“. |
-| [!UICONTROL Header Image Background Color] | Shop-Ansicht | Der aus sechs Zeichen [Hexadezimalfarbe) bestehende ](https://en.wikipedia.org/wiki/Web_colors) für die Hintergrundfarbe des Headers auf der Kaufbestätigungsseite. Sie können den Code entweder in Groß- oder Kleinbuchstaben eingeben. |
+| [!UICONTROL Header Image Background Color] | Shop-Ansicht | Der aus sechs Zeichen [Hexadezimalfarbe) bestehende &#x200B;](https://en.wikipedia.org/wiki/Web_colors) für die Hintergrundfarbe des Headers auf der Kaufbestätigungsseite. Sie können den Code entweder in Groß- oder Kleinbuchstaben eingeben. |
 | [!UICONTROL Header Image Border Color] | Shop-Ansicht | Der sechsstellige [hexadezimale Farbe](https://en.wikipedia.org/wiki/Web_colors)-Code für den Zwei-Pixel-Rahmen um die Kopfzeile. |
 | [!UICONTROL Page Background Color] | Shop-Ansicht | Der sechsstellige [hexadezimale Farbe](https://en.wikipedia.org/wiki/Web_colors)-Code für die Hintergrundfarbe der Checkout-Seite, die hinter der Kopfzeile und dem Zahlungsformular angezeigt wird. |
 

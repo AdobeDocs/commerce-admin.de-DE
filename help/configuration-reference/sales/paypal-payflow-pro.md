@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**PSD2-Anforderungen:** <br/>
->Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2}-](../../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Um PSD2 zu erfüllen, müssen [!DNL PayPal Payflow Pro] mit [!DNL Cardinal Commerce] integriert sein. Weitere Informationen finden Sie unter [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
+>Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2&rbrace;-](../../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Um PSD2 zu erfüllen, müssen [!DNL PayPal Payflow Pro] mit [!DNL Cardinal Commerce] integriert sein. Weitere Informationen finden Sie unter [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-overview/).
 
 {{config}}
 

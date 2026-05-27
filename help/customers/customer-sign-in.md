@@ -80,7 +80,7 @@ Bei Stores mit konfigurierter [!DNL Amazon Pay]- und [!DNL Login with Amazon] k√
 
 ## Abmelden von einem Kundenkonto
 
-1. Der Kunde klickt in der oberen rechten Ecke neben _[!UICONTROL Welcome, Customer Name!]_auf die **[!UICONTROL v]**.
+1. Der Kunde klickt in der oberen rechten Ecke neben _[!UICONTROL Welcome, Customer Name!]_&#x200B;auf die **[!UICONTROL v]**.
 
 1. W√§hlen Sie **[!UICONTROL Sign Out]**.
 

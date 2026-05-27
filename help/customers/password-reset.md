@@ -12,12 +12,12 @@ ht-degree: 0%
 
 # Kundenkennwörter zurücksetzen
 
-Kunden setzen ihre Kennwörter in der Regel aus der Storefront zurück, indem sie auf _[!UICONTROL Forgot Your Password?]_klicken. Der Store-Administrator kann jedoch entweder das Zurücksetzen des Kennworts oder eine erzwungene Anmeldung vom Administrator initiieren.
+Kunden setzen ihre Kennwörter in der Regel aus der Storefront zurück, indem sie auf _[!UICONTROL Forgot Your Password?]_&#x200B;klicken. Der Store-Administrator kann jedoch entweder das Zurücksetzen des Kennworts oder eine erzwungene Anmeldung vom Administrator initiieren.
 
 | Funktion | Beschreibung |
 | --- | --- |
 | Passwort zurücksetzen | Eine E-Mail zum Zurücksetzen des Kennworts wird direkt an das E-Mail-Konto des Kunden gesendet. Der Store-Administrator kann keinen Zugriff auf das Kennwort des Kunden erhalten. |
-| Anmeldung erzwingen | Widerruft die OAuth-Zugriffstoken, die mit dem Kundenkonto verknüpft sind. Dies kann nur mit Kundenkonten verwendet werden, denen OAuth-Token als Teil einer Web-API ([) zugewiesen ](../systems/integrations.md). Weitere Informationen finden Sie unter [OAuth-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in der Entwicklerdokumentation. <br/><br/>Standardkundenkonten, die aus der Storefront oder vom Administrator erstellt wurden, haben keine OAuth-Token. |
+| Anmeldung erzwingen | Widerruft die OAuth-Zugriffstoken, die mit dem Kundenkonto verknüpft sind. Dies kann nur mit Kundenkonten verwendet werden, denen OAuth-Token als Teil einer Web-API ([) zugewiesen &#x200B;](../systems/integrations.md). Weitere Informationen finden Sie unter [OAuth-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in der Entwicklerdokumentation. <br/><br/>Standardkundenkonten, die aus der Storefront oder vom Administrator erstellt wurden, haben keine OAuth-Token. |
 
 {style="table-layout:auto"}
 

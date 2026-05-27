@@ -26,7 +26,7 @@ Jeder Tag oder jeder Zeitraum während einer Kampagne kann als Vorschau angezeig
 
    - _Von jeder Seite mit geplanten Änderungen_
 
-      - Öffnen Sie eine beliebige Seite mit einem _[!UICONTROL Scheduled Changes]_am oberen Rand.
+      - Öffnen Sie eine beliebige Seite mit einem _[!UICONTROL Scheduled Changes]_&#x200B;am oberen Rand.
       - Klicken Sie auf **[!UICONTROL Preview]**.
 
    Die Vorschau wird in einer neuen Browser-Registerkarte geöffnet und zeigt, wie das Produkt während der geplanten Kampagne angezeigt wird.

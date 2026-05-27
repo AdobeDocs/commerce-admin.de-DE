@@ -42,7 +42,7 @@ Segmentattribute für Kunden werden auf ähnliche Weise wie Warenkorb- und Katal
 
 {style="table-layout:auto"}
 
-Weitere [ zum Definieren von Kundensegmenten finden Sie ](../customers/customer-segment-create.md) „Kundensegmente erstellen und löschen“.
+Weitere [&#x200B; zum Definieren von Kundensegmenten finden Sie &#x200B;](../customers/customer-segment-create.md) „Kundensegmente erstellen und löschen“.
 
 ## eBooks
 
