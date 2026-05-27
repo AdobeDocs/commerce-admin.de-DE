@@ -42,6 +42,6 @@ Richten Sie während Ihrer Lernphase im Laden unbedingt einen Test ([-Konto) ein
 
 ## Beispieldaten
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
-Adobe bietet einen Beispieldatensatz mit einem Beispielspeicher mit mehr als 250 Produkten (etwa 200 davon sind konfigurierbare Produkte), Kategorien, Preisregeln für Werbeaktionen, CMS-Seiten, Bannern usw. Beispieldaten verwenden das _Luma_-Design in der Storefront. [Die Installation dieser Beispieldaten](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html) ist optional, kann aber beim Testen und Entwickeln von Anpassungen für Ihr E-Commerce-Unternehmen hilfreich sein.
+Adobe bietet einen Beispieldatensatz mit einem Beispielspeicher mit mehr als 250 Produkten (etwa 200 davon sind konfigurierbare Produkte), Kategorien, Preisregeln für Werbeaktionen, CMS-Seiten, Bannern usw. Beispieldaten verwenden das _Luma_-Design in der Storefront. [Die Installation dieser Beispieldaten](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/overview.html?lang=de) ist optional, kann aber beim Testen und Entwickeln von Anpassungen für Ihr E-Commerce-Unternehmen hilfreich sein.
