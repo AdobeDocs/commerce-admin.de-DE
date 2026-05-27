@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Sales] &gt; [!UICONTROL Shipping Settings] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Sales] > [!UICONTROL Shipping Settings]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Sales] > [!UICONTROL Shipping Settings] des Commerce Admin.
 exl-id: d7d46946-f8c9-4714-96c3-2173e28f7bfa
 feature: Configuration, Shipping/Delivery
 source-git-commit: 8d73a3a635c20e636c4b8bde41a4f807d3fd9f2e
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '204'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Versand
 
 ## [!UICONTROL Shipment Tracking URLs]
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 ![Versandrichtlinienparameter](./assets/shipping-settings-shipment-tracking-urls.png)<!-- zoom -->
 

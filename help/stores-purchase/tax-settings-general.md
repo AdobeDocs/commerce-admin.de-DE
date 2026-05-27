@@ -5,16 +5,16 @@ exl-id: e32747f9-20d0-4717-9cee-aa1bcffebb65
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
 
 # Einstellungen für die Steuerkonfiguration
 
-Die folgenden Anweisungen führen Sie durch die allgemeine Steuerkonfiguration für Ihre Commerce-Instanz. Bevor Sie Ihre Steuern einrichten, stellen Sie sicher, dass Sie mit den Steueranforderungen Ihres [Gebietsschemas“ vertraut &#x200B;](store-localize.md#step-3-change-the-locale-of-the-store-view). Führen Sie dann die Steuerkonfiguration entsprechend Ihren Anforderungen aus.
+Die folgenden Anweisungen führen Sie durch die allgemeine Steuerkonfiguration für Ihre Commerce-Instanz. Bevor Sie Ihre Steuern einrichten, stellen Sie sicher, dass Sie mit den Steueranforderungen Ihres [Gebietsschemas“ vertraut ](store-localize.md#step-3-change-the-locale-of-the-store-view). Führen Sie dann die Steuerkonfiguration entsprechend Ihren Anforderungen aus.
 
-Admin [permissions](../systems/permissions.md) kann so eingestellt werden, dass der [&#x200B; (Zugriff](../systems/permissions-user-roles.md) auf Steuerressourcen eingeschränkt wird, je nach dem _des Unternehmens_. Um eine Administratorrolle mit Zugriff auf Steuereinstellungen zu erstellen, wählen Sie sowohl die Ressourcen „Umsatz/Steuer“ als auch „System/Steuer“ aus. Wenn Sie eine Website für eine Region einrichten, die sich von Ihrem standardmäßigen Versandort unterscheidet, müssen Sie auch den Zugriff auf das System/die Versandressourcen für die Rolle zulassen. Die Versandeinstellungen bestimmen den Store-Steuersatz, der für Katalogpreise verwendet wird.
+Admin [permissions](../systems/permissions.md) kann so eingestellt werden, dass der [ (Zugriff](../systems/permissions-user-roles.md) auf Steuerressourcen eingeschränkt wird, je nach dem _des Unternehmens_. Um eine Administratorrolle mit Zugriff auf Steuereinstellungen zu erstellen, wählen Sie sowohl die Ressourcen „Umsatz/Steuer“ als auch „System/Steuer“ aus. Wenn Sie eine Website für eine Region einrichten, die sich von Ihrem standardmäßigen Versandort unterscheidet, müssen Sie auch den Zugriff auf das System/die Versandressourcen für die Rolle zulassen. Die Versandeinstellungen bestimmen den Store-Steuersatz, der für Katalogpreise verwendet wird.
 
 ## Konfigurieren der allgemeinen Steuereinstellungen
 
@@ -200,14 +200,14 @@ Admin [permissions](../systems/permissions.md) kann so eingestellt werden, dass 
 
 Der grenzüberschreitende Handel (auch als Preiskonsistenz bezeichnet) unterstützt die Europäische Union (EU) und andere Händler, die für Kunden, deren Steuersätze sich vom Steuersatz für Geschäfte unterscheiden, einheitliche Preise beibehalten möchten.
 
-Händler, die in verschiedenen Regionen und Regionen tätig sind, können einen einzigen Preis anzeigen, indem sie die Steuer in den Preis des Produkts einbeziehen. Die Preise sind sauber und unklar, ungeachtet der Steuerstrukturen und -sätze, die von Land zu Land variieren. Für diese Einstellungen muss eine Steuerberechnungserweiterung über den [Marketplace“ installiert &#x200B;](../getting-started/commerce-marketplace.md), z. B. _Vertex Cloud_.
+Händler, die in verschiedenen Regionen und Regionen tätig sind, können einen einzigen Preis anzeigen, indem sie die Steuer in den Preis des Produkts einbeziehen. Die Preise sind sauber und unklar, ungeachtet der Steuerstrukturen und -sätze, die von Land zu Land variieren. Für diese Einstellungen muss eine Steuerberechnungserweiterung über den [Marketplace“ installiert ](../getting-started/commerce-marketplace.md), z. B. _Vertex Cloud_.
 
 >[!NOTE]
 >
->Wenn der grenzüberschreitende Handel aktiviert ist, ändert sich Ihre Gewinnspanne nach Steuersatz. Der Gewinn wird nach folgender Formel bestimmt:<br>
+>Wenn der grenzüberschreitende Handel aktiviert ist, ändert sich Ihre Gewinnspanne nach Steuersatz. Der Gewinn wird nach folgender Formel ermittelt:<br>
 >`Revenue - CustomerVAT - CostOfGoodsSold`
 
-**_Für eine grenzübergreifende Preiskonsistenz:_**
+**_So ermöglichen Sie eine grenzübergreifende Preiskonsistenz:_**
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

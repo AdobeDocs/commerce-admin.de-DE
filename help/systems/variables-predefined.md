@@ -6,7 +6,7 @@ role: Admin, User
 feature: System, Variables, Page Content, Communications
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 0%
 
    - Um die Variable in einer neuen Vorlage zu verwenden, klicken Sie auf **[!UICONTROL Add New Template]** und passen Sie den Code der Standardvorlage an. Siehe [Nachrichtenvorlagen](email-template-custom.md#message-templates).
 
-1. Wählen Sie unter _[!UICONTROL Load default template]_&#x200B;die **[!UICONTROL Template]**&#x200B;aus, die Sie anpassen möchten.
+1. Wählen Sie unter _[!UICONTROL Load default template]_die **[!UICONTROL Template]**aus, die Sie anpassen möchten.
 
 1. Um eine Vorlage anzuwenden, klicken Sie auf **[!UICONTROL Load Template]**.
 
-   Das Feld _[!UICONTROL Currently used for]_&#x200B;zeigt den Konfigurationspfad für die Vorlage an. Die&#x200B;_[!UICONTROL Template Subject]_ und _[!UICONTROL Template Content]_&#x200B;werden automatisch relativ zur ausgewählten Vorlage generiert.
+   Das Feld _[!UICONTROL Currently used for]_zeigt den Konfigurationspfad für die Vorlage an. Die_[!UICONTROL Template Subject]_ und _[!UICONTROL Template Content]_werden automatisch relativ zur ausgewählten Vorlage generiert.
 
    - **[!UICONTROL Template Subject]** - Dieser Text wird in der Betreffzeile einer E-Mail angezeigt.
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. Um die Nur-Text-Version zu speichern, klicken Sie auf **[!UICONTROL Save Template]**.
 
-## Wiederherstellen der HTML-Version
+## HTML-Version wiederherstellen
 
 1. Klicken Sie oben auf der Seite auf **[!UICONTROL Return HTML Version]**.
 
