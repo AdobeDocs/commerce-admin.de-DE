@@ -6,7 +6,7 @@ feature: B2B, Companies, Catalog Management
 role: Admin
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Die folgenden Aspekte eines freigegebenen Katalogs müssen eingerichtet werden, 
 
 ## Preisspanne
 
-Wenn Sie eine Multisite-Installation haben, stellen Sie sicher, dass Sie den Preisbereich konfigurieren, bevor Sie Ihre freigegebenen Kataloge erstellen. Der [Preisbereich](../catalog/catalog-price-scope.md) kann auf `Global` oder `Website` festgelegt werden. Sie kann jedoch erst zu Beginn des Einrichtungsprozesses festgelegt werden. Die Website-Auswahl wird in Schritt 2 der [freigegebenen Katalogeinrichtung“ &#x200B;](catalog-shared-pricing-structure.md).
+Wenn Sie eine Multisite-Installation haben, stellen Sie sicher, dass Sie den Preisbereich konfigurieren, bevor Sie Ihre freigegebenen Kataloge erstellen. Der [Preisbereich](../catalog/catalog-price-scope.md) kann auf `Global` oder `Website` festgelegt werden. Sie kann jedoch erst zu Beginn des Einrichtungsprozesses festgelegt werden. Die Website-Auswahl wird in Schritt 2 der [freigegebenen Katalogeinrichtung“ ](catalog-shared-pricing-structure.md).
 
 ![Website-Auswahl](./assets/shared-catalog-scope-pricing.png){width="600" zoomable="yes"}
 
@@ -72,7 +72,7 @@ Es gibt zwei Möglichkeiten, einen freigegebenen Katalog zu erstellen. Sie könn
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-   Der neue Katalog wird im _[!UICONTROL Shared Catalogs]_&#x200B;angezeigt.
+   Der neue Katalog wird im _[!UICONTROL Shared Catalogs]_angezeigt.
 
 ### Methode 2: Duplizieren eines vorhandenen freigegebenen Katalogs
 
@@ -97,21 +97,21 @@ Wenn ein öffentlicher freigegebener Katalog dupliziert wird, ändert sich der T
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-   Das Duplikat wird im _[!UICONTROL Shared Catalogs]_&#x200B;mit einer eindeutigen ID angezeigt.
+   Das Duplikat wird im _[!UICONTROL Shared Catalogs]_mit einer eindeutigen ID angezeigt.
 
 ## Schritt 2: Abschließen der Einrichtung
 
-Nachdem Sie einen neuen freigegebenen Katalog erstellt haben, müssen Sie ihn mit der entsprechenden Produktauswahl, [Unternehmenszuweisungen](catalog-shared-assign-companies.md) und [Kategorieberechtigungen“ &#x200B;](../catalog/category-permissions.md). Weitere Informationen finden Sie unter [Festlegen von Preisen und Strukturen](catalog-shared-pricing-structure.md).
+Nachdem Sie einen neuen freigegebenen Katalog erstellt haben, müssen Sie ihn mit der entsprechenden Produktauswahl, [Unternehmenszuweisungen](catalog-shared-assign-companies.md) und [Kategorieberechtigungen“ ](../catalog/category-permissions.md). Weitere Informationen finden Sie unter [Festlegen von Preisen und Strukturen](catalog-shared-pricing-structure.md).
 
 >[!NOTE]
 >
->**[B2B-Version 1.3.](release-notes.md#b2b-v130) und höher** - Wenn Sie einen freigegebenen Katalog erstellen, wird jede [Kategorieberechtigung](../catalog/category-permissions.md) für den Katalog auf _[!UICONTROL Allow for the Display Product Prices]_&#x200B;und&#x200B;_[!UICONTROL Add to Cart]_ für Kundengruppen festgelegt, denen dieser Zugriff in den Katalogberechtigungseinstellungen zugewiesen ist. Zuvor wurden diese Einstellungen automatisch auf `Deny` gesetzt, auch wenn die Katalogberechtigungen auf `Allow` gesetzt waren.
+>**[B2B-Version 1.3.](release-notes.md#b2b-v130) und höher** - Wenn Sie einen freigegebenen Katalog erstellen, wird jede [Kategorieberechtigung](../catalog/category-permissions.md) für den Katalog auf _[!UICONTROL Allow for the Display Product Prices]_und_[!UICONTROL Add to Cart]_ für Kundengruppen festgelegt, denen dieser Zugriff in den Katalogberechtigungseinstellungen zugewiesen ist. Zuvor wurden diese Einstellungen automatisch auf `Deny` gesetzt, auch wenn die Katalogberechtigungen auf `Allow` gesetzt waren.
 
 ## Demo zum freigegebenen Katalog
 
 Sehen Sie sich dieses Video an, um eine Demonstration der freigegebenen Katalogverwaltung anzuzeigen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411351?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/344446?quality=12&learn=on)
 
 ## Seitenverweis für freigegebenen Katalog
 

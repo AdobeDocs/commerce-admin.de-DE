@@ -5,7 +5,7 @@ exl-id: b9fff131-bea3-4d7a-bbf7-e98b284387d3
 feature: Compliance
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Die Zahlungskartenbranche (Payment Card Industry, PCI) hat eine Reihe von Anford
 
 ![Kontrollkästchen](../assets/checkbox.png) - Beibehalten einer Richtlinie zur Informationssicherheit.
 
-Weitere Informationen finden Sie unter [Adobe-Ansatz für PCI-Compliance](https://business.adobe.com/de/products/magento/pci-compliance.html){:target="_blank"}.
+Weitere Informationen finden Sie unter [Adobe-Ansatz für PCI-Compliance](https://business.adobe.com/products/magento/pci-compliance.html){:target="_blank"}.
 
 >[!NOTE]
 >

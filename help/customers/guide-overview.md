@@ -6,7 +6,7 @@ seo-description: Describes how to use the customer management features in Adobe 
 exl-id: ad10713a-f3ae-47dc-8c48-ab464a52b362
 source-git-commit: dbc0057f02bddf681d769bdaebfaf6b526c8dbd2
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '276'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,7 @@ Dieses Handbuch richtet sich an Kundendienstmitarbeiter, die in Adobe Commerce u
 | Subjekt | Beschreibung |
 | ------- | ----------- |
 | [Einführung](customers-introduction.md) | Überblick über die Verwendung der Kundenverwaltungsfunktionen in Commerce Admin. |
-| Tools für das Kundenmanagement | Erfahren Sie, wie Sie das [[!UICONTROL Customers] Raster](customers-all.md) und die [[!UICONTROL Now Online] Funktion &#x200B;](now-online.md) Commerce Admin verwenden, die Sie zum Verwalten Ihrer Store-Kunden verwenden können. |
+| Tools für das Kundenmanagement | Erfahren Sie, wie Sie das [[!UICONTROL Customers] Raster](customers-all.md) und die [[!UICONTROL Now Online] Funktion ](now-online.md) Commerce Admin verwenden, die Sie zum Verwalten Ihrer Store-Kunden verwenden können. |
 | Kundenkonten | Erfahren Sie, wie Sie registrierten Kundinnen und Kunden in der Storefront ein optimales Erlebnis bieten können, von [Anmeldungen](login-landing-page.md) bis [Kennwortprüfungen](password-reset.md) und [Unterstützung für Kundinnen und Kunden bereitstellen](login-as-customer.md). |
 | [Personalization im großen Maßstab](personalize-scale.md) | Erfahren Sie mehr über die Funktionen, mit denen Sie das Einkaufserlebnis für jeden Kunden-Touchpoint basierend auf dem unmittelbaren Kontext und dem zuvor beobachteten Verhalten personalisieren können. |
 | [[!DNL Audience Activation]](audience-activation.md) | Erfahren Sie mehr über die [!DNL Audience Activation]-Erweiterung, mit der Sie Real-Time CDP-Zielgruppen in Adobe Commerce aktivieren können, um über einzigartige Angebote im Warenkorb, dynamische Blöcke und zugehörige Produkte zu informieren. |

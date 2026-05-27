@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL General] &gt; [!UICONTROL Web]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL General] &gt; [!UICONTROL Web] des Commerce Admin-Bereichs.
+title: '[!UICONTROL General] > [!UICONTROL Web]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL General] > [!UICONTROL Web] des Commerce Admin.
 exl-id: 1809b03a-a55c-41b4-947b-f66f4bd290a1
 feature: Site Management, Configuration
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ![Web > Allgemeine Optionen](./assets/web-url-options.png)<!-- zoom -->
 
-<!-- [URL Options configuration settings](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [URL Options configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Feld | Umfang | Beschreibung |
 |  ---  |  ---  |  ---  |
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ![Web > Suchmaschinenoptimierung](./assets/web-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
+<!-- [Search Engine Optimization configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ![Web > Basis-URLS](./assets/web-base-urls.png)<!-- zoom -->
 
-<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLS configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ![Web > Basis-URLs (sicher)](./assets/web-base-urls-secure.png)<!-- zoom -->
 
-<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/site-store/store-urls) -->
+<!-- [Base URLs (Secure) configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 ![Web > Standardseiten](./assets/web-default-pages.png)<!-- zoom -->
 
-<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/de/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
+<!-- [Default Pages configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/elements/pages/pages#configure-default-pages) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -96,13 +96,13 @@ ht-degree: 0%
 
 ![Standard-Layouts](./assets/web-default-layouts.png)<!-- zoom -->
 
-<!--[Default Layouts](https://experienceleague.adobe.com/de/docs/commerce-admin/content-design/design/layout/page-layout) -->
+<!--[Default Layouts](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/design/layout/page-layout) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Default Product Layout] | Global | Bestimmt das [Layout](../../content-design/page-layout.md), das standardmäßig für Produktseiten verwendet wird. Optionen: <br/>**`No layout updates`**- Standardmäßig sind Layout-Aktualisierungen für Produktseiten nicht verfügbar.<br/>**`Empty`** - verwendet standardmäßig ein leeres Layout für Produktseiten. <br/>**`1 column`**- Verwendet standardmäßig ein einspaltiges Layout für Produktseiten.<br/>**`2 columns with left bar`** - Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der linken Seite für Produktseiten verwendet. <br/>**`2 columns with right bar`**- Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der rechten Seite für Produktseiten verwendet.<br/>**`3 columns`** - Standardmäßig wird ein dreispaltiges Layout mit Seitenleisten links und rechts für Produktseiten verwendet.<br/>**`Page -- Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig verwendet das Layout Seite - Volle Breite für Produktseiten.<br/>**`Category - Full Width`** - (Erfordert [!DNL Page Builder]) Standardmäßig verwendet das Layout Kategorie - Volle Breite für Produktseiten. <br/>**`Product - Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig verwendet das Layout Produkt - Volle Breite für Produktseiten. |
-| [!UICONTROL Default Category Layout] | Global | Bestimmt das [Layout](../../content-design/page-layout.md), das standardmäßig für Kategorieseiten verwendet wird. Optionen: <br/>**`No layout updates`**- Standardmäßig sind Layout-Aktualisierungen für Kategorieseiten nicht verfügbar.<br/>**`Empty`** - verwendet standardmäßig ein leeres Layout für Kategorieseiten. <br/>**`1 column`**- Verwendet standardmäßig ein einspaltiges Layout für Kategorieseiten.<br/>**`2 columns with left bar`** - Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der linken Seite für Kategorieseiten verwendet. <br/>**`2 columns with right bar`**- Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der rechten Seite für Kategorieseiten verwendet.<br/>**`3 columns`** - Standardmäßig wird ein dreispaltiges Layout mit Seitenleisten links und rechts für Kategorieseiten verwendet.<br/>**`Page - Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig verwendet das Layout Seite - Volle Breite für Kategorieseiten.<br/>**`Category - Full Width`** - (Erfordert [!DNL Page Builder]) Standardmäßig verwendet das Layout Kategorie - Volle Breite für Kategorieseiten. <br/>**`Product - Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig verwendet das Layout Produkt - Volle Breite für Kategorieseiten. |
-| Standard-Seitenlayout | Global | Bestimmt das [Layout](../../content-design/page-layout.md), das standardmäßig für CMS-Seiten verwendet wird. Optionen: <br/>**`No layout updates`**- Für CMS-Seiten sind Layout-Aktualisierungen standardmäßig nicht verfügbar.<br/>**`Empty`** - Verwendet standardmäßig ein leeres Layout für CMS-Seiten. <br/>**`1 column`**- Verwendet standardmäßig ein einspaltiges Layout für CMS-Seiten.<br/>**`2 columns with left bar`** - Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der linken Seite für CMS-Seiten verwendet.<br/>**`2 columns with right bar`**- Für CMS-Seiten wird standardmäßig ein zweispaltiges Layout mit der Seitenleiste auf der rechten Seite verwendet.<br/>**`3 columns`** - Für CMS-Seiten wird standardmäßig ein dreispaltiges Layout mit Seitenleisten links und rechts verwendet.<br/>**`Page - Full Width`**- ([!UICONTROL Page Builder] erforderlich) Standardmäßig verwendet das Layout Seite - Volle Breite für CMS-Seiten.<br/>**`Category - Full Width`** - (Erfordert [!UICONTROL Page Builder]) Standardmäßig verwendet das Layout Kategorie - Volle Breite für CMS-Seiten. <br/>**`Product - Full Width`**- ([!DNL Page Builder] erforderlich) Standardmäßig verwendet das Layout Produkt - Volle Breite für CMS-Seiten. |
+| [!UICONTROL Default Product Layout] | Global | Bestimmt das [Layout](../../content-design/page-layout.md), das standardmäßig für Produktseiten verwendet wird. Optionen: <br/>**`No layout updates`**- Standardmäßig sind Layout-Aktualisierungen für Produktseiten nicht verfügbar.<br/>**`Empty`** - verwendet standardmäßig ein leeres Layout für Produktseiten. <br/>**`1 column`**- Verwendet standardmäßig ein einspaltiges Layout für Produktseiten.<br/>**`2 columns with left bar`** - Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der linken Seite für Produktseiten verwendet. <br/>**`2 columns with right bar`**- Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der rechten Seite für Produktseiten verwendet.<br/>**`3 columns`** - Standardmäßig wird ein dreispaltiges Layout mit Seitenleisten links und rechts für Produktseiten verwendet.<br/>**`Page -- Full Width`**- ([!DNL Page Builder] erforderlich) Standardmäßig verwendet das Layout Seite - Vollständige Breite für Produktseiten.<br/>**`Category - Full Width`** - (Erfordert [!DNL Page Builder]) Standardmäßig verwendet das Layout Kategorie - Volle Breite für Produktseiten. <br/>**`Product - Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig verwendet das Layout Produkt - Volle Breite für Produktseiten. |
+| [!UICONTROL Default Category Layout] | Global | Bestimmt das [Layout](../../content-design/page-layout.md), das standardmäßig für Kategorieseiten verwendet wird. Optionen: <br/>**`No layout updates`**- Standardmäßig sind Layout-Aktualisierungen für Kategorieseiten nicht verfügbar.<br/>**`Empty`** - verwendet standardmäßig ein leeres Layout für Kategorieseiten. <br/>**`1 column`**- Verwendet standardmäßig ein einspaltiges Layout für Kategorieseiten.<br/>**`2 columns with left bar`** - Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der linken Seite für Kategorieseiten verwendet. <br/>**`2 columns with right bar`**- Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der rechten Seite für Kategorieseiten verwendet.<br/>**`3 columns`** - Standardmäßig wird ein dreispaltiges Layout mit Seitenleisten links und rechts für Kategorieseiten verwendet.<br/>**`Page - Full Width`**- ([!DNL Page Builder] erforderlich) Standardmäßig verwendet das Layout Seite - Volle Breite für Kategorieseiten.<br/>**`Category - Full Width`** - (Erfordert [!DNL Page Builder]) Standardmäßig verwendet das Layout Kategorie - Volle Breite für Kategorieseiten. <br/>**`Product - Full Width`**- (Erfordert [!DNL Page Builder]) Standardmäßig verwendet das Layout Produkt - Volle Breite für Kategorieseiten. |
+| Standard-Seitenlayout | Global | Bestimmt das [Layout](../../content-design/page-layout.md), das standardmäßig für CMS-Seiten verwendet wird. Optionen: <br/>**`No layout updates`**- Für CMS-Seiten sind Layout-Aktualisierungen standardmäßig nicht verfügbar.<br/>**`Empty`** - Verwendet standardmäßig ein leeres Layout für CMS-Seiten. <br/>**`1 column`**- Verwendet standardmäßig ein einspaltiges Layout für CMS-Seiten.<br/>**`2 columns with left bar`** - Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der linken Seite für CMS-Seiten verwendet.<br/>**`2 columns with right bar`**- Standardmäßig wird ein zweispaltiges Layout mit der Seitenleiste auf der rechten Seite für CMS-Seiten verwendet.<br/>**`3 columns`** - Für CMS-Seiten wird standardmäßig ein dreispaltiges Layout mit Seitenleisten links und rechts verwendet.<br/>**`Page - Full Width`**- ([!UICONTROL Page Builder] erforderlich) Standardmäßig verwendet das Layout Seite - Volle Breite für CMS-Seiten.<br/>**`Category - Full Width`** - (Erfordert [!UICONTROL Page Builder]) Standardmäßig verwendet das Layout Kategorie - Volle Breite für CMS-Seiten. <br/>**`Product - Full Width`**- ([!DNL Page Builder] erforderlich) Standardmäßig verwendet das Layout Produkt - Volle Breite für CMS-Seiten. |
 
 {style="table-layout:auto"}
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ![Web > Standard-Cookie-Einstellungen](./assets/web-default-cookie-settings.png)<!-- zoom -->
 
-<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/de/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
+<!-- [Default Cookie configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ![Web > Sitzungsvalidierung](./assets/web-session-validation-settings.png)<!-- zoom -->
 
-<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/de/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
+<!-- [Session Validation configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#session-validation) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 ![Web > Browser-Erkennung](./assets/web-browser-capabilities-detection.png)<!-- zoom -->
 
-<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/de/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
+<!-- [Browser Capabilities Detection configuration settings](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-browser-capabilities-detection) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

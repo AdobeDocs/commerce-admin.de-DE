@@ -5,7 +5,7 @@ exl-id: 6b785c4a-a5dc-480c-8182-2a940784218d
 feature: Customers, Configuration
 source-git-commit: 17469d27128030b54fad6cf563a4b53f5f119eed
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Kundengruppen bestimmen, welche Rabatte verfügbar sind und welche Steuerklasse 
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
 
-1. Wählen Sie die Preisregel für den Warenkorb aus, mit der Sie eine Gruppe für den angewendeten Rabatt verknüpfen möchten, oder [&#x200B; Sie eine Preisregel &#x200B;](../merchandising-promotions/price-rules-catalog.md).
+1. Wählen Sie die Preisregel für den Warenkorb aus, mit der Sie eine Gruppe für den angewendeten Rabatt verknüpfen möchten, oder [ Sie eine Preisregel ](../merchandising-promotions/price-rules-catalog.md).
 
 1. Wählen Sie die Kundengruppen aus, für die die Regel gilt.
 
@@ -111,4 +111,4 @@ Kundengruppen bestimmen, welche Rabatte verfügbar sind und welche Steuerklasse 
 
 In dieser Demo erfahren Sie mehr über das Erstellen von Kundengruppen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411963/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343660/?quality=12&learn=on)

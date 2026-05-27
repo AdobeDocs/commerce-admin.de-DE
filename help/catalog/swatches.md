@@ -5,7 +5,7 @@ exl-id: 6163cec4-5d84-4e2c-ba5c-3c22ac4e3f28
 feature: Catalog Management, Products
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ Kunden haben hohe Erwartungen an die Auswahl einer Farbe, und es ist wichtig, da
 
 ![Farbfelder auf einer Produktseite](./assets/storefront-color-swatches.png){width="700" zoomable="yes"}
 
-Bei [konfigurierbaren Produkten](product-create-configurable.md) kann die Farbe durch ein visuelles Farb- oder Textmuster oder ein Eingabesteuerelement angezeigt werden. Farbfelder können auf der Produktseite, in Produktlisten und in der [&#x200B; Navigation verwendet &#x200B;](navigation-layered.md). Auf der Produktseite werden Farbfelder synchronisiert, um das entsprechende Produktbild anzuzeigen, wenn das Farbfeld ausgewählt ist. Wenn der Kunde das Farb-/Bildmuster auswählt, wird der entsprechende Wert im Eingabefeld angezeigt und das Farb-/Bildmuster wird als aktuelle Auswahl dargestellt.
+Bei [konfigurierbaren Produkten](product-create-configurable.md) kann die Farbe durch ein visuelles Farb- oder Textmuster oder ein Eingabesteuerelement angezeigt werden. Farbfelder können auf der Produktseite, in Produktlisten und in der [ Navigation verwendet ](navigation-layered.md). Auf der Produktseite werden Farbfelder synchronisiert, um das entsprechende Produktbild anzuzeigen, wenn das Farbfeld ausgewählt ist. Wenn der Kunde das Farb-/Bildmuster auswählt, wird der entsprechende Wert im Eingabefeld angezeigt und das Farb-/Bildmuster wird als aktuelle Auswahl dargestellt.
 
 >[!NOTE]
 >
->Musterattribute können so konfiguriert werden, dass entsprechende einfache Produktbilder nicht angezeigt werden, wenn das Muster ausgewählt ist. Legen Sie dazu den Wert der Option _[!UICONTROL Update Product Preview Image]_&#x200B;auf der Seite [!UICONTROL Attribute Edit] in der Admin Console auf `No` fest.
+>Musterattribute können so konfiguriert werden, dass entsprechende einfache Produktbilder nicht angezeigt werden, wenn das Muster ausgewählt ist. Legen Sie dazu den Wert der Option _[!UICONTROL Update Product Preview Image]_auf der Seite [!UICONTROL Attribute Edit] in der Admin Console auf `No` fest.
 
 ## Textbasierte Farbfelder
 
@@ -36,7 +36,7 @@ Farbfelder können auch in der mehrschichtigen Navigation verwendet werden, wenn
 
 ## Erstellen von Farbfeldern für Produkte
 
-Farbfelder können als Komponente des `color`-Attributs definiert oder lokal für ein bestimmtes Produkt eingerichtet und als „Produktbilder[&#x200B; hochgeladen &#x200B;](product-image.md#upload-an-image).
+Farbfelder können als Komponente des `color`-Attributs definiert oder lokal für ein bestimmtes Produkt eingerichtet und als „Produktbilder[ hochgeladen ](product-image.md#upload-an-image).
 
 In den früheren Beispielen ist die Hose „Sylvia Capri“ in bestimmten Werten von `red`, `green` und `blue` erhältlich. Da die Farbfelder aus dem Produktbild entnommen wurden, sind sie jeweils eine wahre Darstellung der Farbe. Das Attribut `color` wird verwendet, um die Informationen für alle Produktfarben und Farbfelder zu verwalten.
 
@@ -58,7 +58,7 @@ Verwenden Sie eine der folgenden Methoden, um Farbfelder für Ihre Produkte zu e
 
 1. Wenn Sie es vorziehen, entsprechende einfache Produktbilder nicht anzuzeigen, wenn der Musterabschnitt „Farbfeld“ auf der Seite „Produktanzeige“ ausgewählt ist, legen Sie **[!UICONTROL Update Product Preview Image]** auf `No` fest.
 
-1. Klicken Sie unter _[!UICONTROL Manage Swatch (Values of Your Attribute)]_&#x200B;auf **[!UICONTROL Add Swatch]**&#x200B;und führen Sie folgende Schritte aus:
+1. Klicken Sie unter _[!UICONTROL Manage Swatch (Values of Your Attribute)]_auf **[!UICONTROL Add Swatch]**und führen Sie folgende Schritte aus:
 
    ![Verwalten von Farbfeldwerten](./assets/attribute-color-manage-swatch-values.png){width="600" zoomable="yes"}
 
@@ -106,9 +106,9 @@ Verwenden Sie eine der folgenden Methoden, um Farbfelder für Ihre Produkte zu e
 
 1. Wenn Sie es vorziehen, entsprechende einfache Produktbilder nicht anzuzeigen, wenn der Musterabschnitt „Farbfeld“ auf der Seite „Produktanzeige“ ausgewählt ist, legen Sie **[!UICONTROL Update Product Preview Image]** auf `No` fest.
 
-1. Klicken Sie unter _[!UICONTROL Manage Swatch]_(Werte Ihres Attributs) auf **[!UICONTROL Add Swatch]**&#x200B;und führen Sie folgende Schritte aus:
+1. Klicken Sie unter _[!UICONTROL Manage Swatch]_(Werte Ihres Attributs) auf **[!UICONTROL Add Swatch]**und führen Sie folgende Schritte aus:
 
-   - Klicken Sie in der Spalte _[!UICONTROL Swatch]_&#x200B;auf das neue Farbfeld, um das Menü anzuzeigen, und wählen Sie **[!UICONTROL Upload a file]**&#x200B;aus.
+   - Klicken Sie in der Spalte _[!UICONTROL Swatch]_auf das neue Farbfeld, um das Menü anzuzeigen, und wählen Sie **[!UICONTROL Upload a file]**aus.
 
    - Navigieren Sie zur von Ihnen vorbereiteten Musterdatei und wählen Sie die hochzuladende Datei aus.
 
@@ -164,7 +164,7 @@ Verwenden Sie eine der folgenden Methoden, um Farbfelder für Ihre Produkte zu e
 
 1. Klicken Sie in der Fortschrittsleiste auf **[!UICONTROL Next]**.
 
-1. [Konfigurieren Sie die Bilder, den Preis und die &#x200B;](product-create-configurable.md#step-3-configure-the-images-price-and-quantity).
+1. [Konfigurieren Sie die Bilder, den Preis und die ](product-create-configurable.md#step-3-configure-the-images-price-and-quantity).
 
    Legen Sie in diesem Schritt die Bilder, die Preise und die Menge jeder Konfiguration fest. Die verfügbaren Optionen sind für alle identisch, und Sie können nur eine auswählen. Sie können dieselbe Einstellung auf alle SKUs anwenden, eine eindeutige Einstellung auf jede SKU anwenden oder die Einstellungen für vorerst überspringen.
 
