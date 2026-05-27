@@ -45,7 +45,7 @@ Umleiten von: `gear/bags.html`
 
    - Klicken Sie oben rechts auf **[!UICONTROL Delete]**. Wenn Sie dazu aufgefordert werden, klicken Sie zur Bestätigung auf **[!UICONTROL OK]** .
 
-1. Wenn Sie zur Seite _[!UICONTROL URL Rewrites]_zurückkehren, klicken Sie auf **[!UICONTROL Add URL Rewrite]**.
+1. Wenn Sie zur Seite _[!UICONTROL URL Rewrites]_&#x200B;zurückkehren, klicken Sie auf **[!UICONTROL Add URL Rewrite]**.
 
 1. Legen Sie **[!UICONTROL Create URL Rewrite]** auf `For category` fest und wählen Sie die Zielkategorie in der Baumstruktur aus, die das Ziel der Umleitung ist.
 

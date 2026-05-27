@@ -27,7 +27,7 @@ Um den Checkout-Prozess zu vereinfachen, können Kunden einen Abrechnungsvertrag
 
 ## Abrechnungsvereinbarungen verwalten
 
-Auf der Seite _[!UICONTROL Billing Agreements]_werden alle Abrechnungsvereinbarungen zwischen Ihrem Geschäft und seinen Kunden aufgelistet. Händler können die Datensätze nach dem Kunden oder den Rechnungsvereinbarungsinformationen filtern, einschließlich Rechnungsvereinbarungs-Referenz-ID, Status und Erstellungsdatum. Jeder Datensatz enthält allgemeine Informationen zum Abrechnungsvertrag und zu allen Aufträgen, die ihn als Zahlungsmethode verwendet haben. Sie können Kunden-Abrechnungsvereinbarungen anzeigen, stornieren oder löschen. Eine stornierte Abrechnungsvereinbarung kann nur vom Store-Administrator gelöscht werden.
+Auf der Seite _[!UICONTROL Billing Agreements]_&#x200B;werden alle Abrechnungsvereinbarungen zwischen Ihrem Geschäft und seinen Kunden aufgelistet. Händler können die Datensätze nach dem Kunden oder den Rechnungsvereinbarungsinformationen filtern, einschließlich Rechnungsvereinbarungs-Referenz-ID, Status und Erstellungsdatum. Jeder Datensatz enthält allgemeine Informationen zum Abrechnungsvertrag und zu allen Aufträgen, die ihn als Zahlungsmethode verwendet haben. Sie können Kunden-Abrechnungsvereinbarungen anzeigen, stornieren oder löschen. Eine stornierte Abrechnungsvereinbarung kann nur vom Store-Administrator gelöscht werden.
 
 ### Rechnungsvereinbarung anzeigen
 
@@ -35,7 +35,7 @@ Auf der Seite _[!UICONTROL Billing Agreements]_werden alle Abrechnungsvereinbaru
 
 1. Suchen Sie die Abrechnungsvereinbarung in der Liste und klicken Sie darauf, um sie zu öffnen.
 
-Jede Seite eines Abrechnungsvertrags besteht aus zwei Registerkarten: _[!UICONTROL General Information]_und_[!UICONTROL Related Orders]_.
+Jede Seite eines Abrechnungsvertrags besteht aus zwei Registerkarten: _[!UICONTROL General Information]_&#x200B;und&#x200B;_[!UICONTROL Related Orders]_.
 
 #### Allgemeine Informationen
 

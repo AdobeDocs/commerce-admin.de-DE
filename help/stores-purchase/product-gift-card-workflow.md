@@ -66,7 +66,7 @@ So funktionieren Geschenkkarten in der Storefront:
 
 - Konten für Geschenkcodes werden erstellt, um den Saldo eines bestimmten Gutscheins zu verfolgen. Ein Filialadministrator kann den Saldo manuell anpassen.
 
-Der empfangende Kunde kann den _[!UICONTROL Gift Card]_Abschnitt seines Konto-Dashboards verwenden, um den Saldo seines [Geschenkkartenkontos](product-gift-card-accounts.md) zu überprüfen und Geschenkkarten für [Store-Guthaben](../customers/store-credit-using.md) einzulösen.
+Der empfangende Kunde kann den _[!UICONTROL Gift Card]_&#x200B;Abschnitt seines Konto-Dashboards verwenden, um den Saldo seines [Geschenkkartenkontos](product-gift-card-accounts.md) zu überprüfen und Geschenkkarten für [Store-Guthaben](../customers/store-credit-using.md) einzulösen.
 
 ![Geschenkkarte](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 
@@ -84,7 +84,7 @@ Der Saldo der Geschenkkarte wird angezeigt.
 
 ### Aktivierung der Geschenkkarte
 
-1. Auf der Seite _[!UICONTROL Gift Card]_gibt der Kunde den Geschenkkartencode ein.
+1. Auf der Seite _[!UICONTROL Gift Card]_&#x200B;gibt der Kunde den Geschenkkartencode ein.
 
 1. Der Kunde klickt auf **[!UICONTROL Redeem Gift Card]**.
 
@@ -94,7 +94,7 @@ Der Betrag der Geschenkkarte wird aktiviert und zum gesamten Kontostand des Gesc
 
 ![Kontostand speichern](./assets/store-credit.png){width="700" zoomable="yes"}
 
-Alle Vorgänge für den Guthaben der Geschenkkarte sind auf der Seite _[!UICONTROL Store Credit]_verfügbar.
+Alle Vorgänge für den Guthaben der Geschenkkarte sind auf der Seite _[!UICONTROL Store Credit]_&#x200B;verfügbar.
 
 ### Anwenden einer Geschenkkarte während des Checkouts
 
@@ -104,6 +104,6 @@ Wenn die Geschenkkarte nicht einlösbar ist, kann ein Kunde den Geschenkkartenco
 
 1. Gibt den Geschenkkartencode ein und klickt dann auf **[!UICONTROL Apply]**.
 
-   Der Rabatt sollte sich in der _[!UICONTROL Order Summary]_widerspiegeln.
+   Der Rabatt sollte sich in der _[!UICONTROL Order Summary]_&#x200B;widerspiegeln.
 
 1. Klicken Sie auf **[!UICONTROL Place Order]** , um die Bestellung abzuschließen.

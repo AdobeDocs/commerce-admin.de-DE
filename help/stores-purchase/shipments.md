@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Sendungen
 
-Das _[!UICONTROL Shipments]_-Raster listet den Versanddatensatz aller Rechnungen auf, die für den Versand vorbereitet wurden. Ein Sendungsnachweis kann erzeugt werden, wenn eine Bestellung ([) ](invoices.md) später erstellt wird.
+Das _[!UICONTROL Shipments]_-Raster listet den Versanddatensatz aller Rechnungen auf, die für den Versand vorbereitet wurden. Ein Sendungsnachweis kann erzeugt werden, wenn eine Bestellung ([) &#x200B;](invoices.md) später erstellt wird.
 
 Adobe Commerce und Magento Open Source unterstützen den Versand partieller und vollständiger Bestellungen. Zusätzliche Optionen sind bei [Inventory management](../inventory-management/introduction.md) und Erweiterungen von Drittanbietern verfügbar.
 
@@ -51,7 +51,7 @@ Zusätzliche Spalten:
 
 ## Erstellen einer Sendung
 
-Die folgenden Anweisungen führen Sie durch den Prozess zum Erstellen einer Sendung in Adobe Commerce oder Magento Open Source. Wenn Sie Inventory management aktiviert haben, können Sie &quot;[ Sendungen mit mehreren Source erstellen](../inventory-management/shipments-create.md) prüfen und eine Herkunft (oder einen Lagerort) sowie eine zu versendende Menge pro Zeileneintrag auswählen.
+Die folgenden Anweisungen führen Sie durch den Prozess zum Erstellen einer Sendung in Adobe Commerce oder Magento Open Source. Wenn Sie Inventory management aktiviert haben, können Sie &quot;[&#x200B; Sendungen mit mehreren Source erstellen](../inventory-management/shipments-create.md) prüfen und eine Herkunft (oder einen Lagerort) sowie eine zu versendende Menge pro Zeileneintrag auswählen.
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
@@ -77,7 +77,7 @@ Die folgenden Anweisungen führen Sie durch den Prozess zum Erstellen einer Send
 
 1. Klicken Sie auf **[!UICONTROL Ship]**.
 
-1. Scrollen Sie nach unten zum _[!UICONTROL Payment & Shipping Method]_Block und klicken Sie auf **[!UICONTROL Add Tracking Number]**.
+1. Scrollen Sie nach unten zum _[!UICONTROL Payment & Shipping Method]_&#x200B;Block und klicken Sie auf **[!UICONTROL Add Tracking Number]**.
 
 1. **[!UICONTROL Carrier]** festlegen:
 
@@ -134,7 +134,7 @@ Sie können die Versand- und Tracking-Informationen nach Bedarf auf der Seite �
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie unter _[!UICONTROL Sales]_die Option **[!UICONTROL Sales Email]**.
+1. Wählen Sie unter _[!UICONTROL Sales]_&#x200B;die Option **[!UICONTROL Sales Email]**.
 
 1. Erweitern Sie den Abschnitt **Versandkommentare** und ändern Sie die Einstellungen nach Bedarf:
 
@@ -166,7 +166,7 @@ Bevor eine Sendung an einen Spediteur versendet wird, kann sie storniert werden,
 
 1. Wählen Sie im linken Bedienfeld **[!UICONTROL Shipments]** aus.
 
-   Wenn die Sendung storniert werden kann, wird _[!UICONTROL Cancel Shipment]_als Option in der oberen Symbolleiste angezeigt.
+   Wenn die Sendung storniert werden kann, wird _[!UICONTROL Cancel Shipment]_&#x200B;als Option in der oberen Symbolleiste angezeigt.
 
 1. Klicken Sie auf **[!UICONTROL Cancel Shipment]**.
 

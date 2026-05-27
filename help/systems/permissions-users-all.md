@@ -31,9 +31,9 @@ Für temporäre Benutzer oder Rollen können Sie auch ein Ablaufdatum für das B
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New User]**.
 
-   Um einen vorhandenen Benutzer zu bearbeiten, klicken Sie auf einen Benutzernamen im Raster. Sie können die Abschnitte _[!UICONTROL User Info]_und_[!UICONTROL User Role]_ nach Bedarf ändern.
+   Um einen vorhandenen Benutzer zu bearbeiten, klicken Sie auf einen Benutzernamen im Raster. Sie können die Abschnitte _[!UICONTROL User Info]_&#x200B;und&#x200B;_[!UICONTROL User Role]_ nach Bedarf ändern.
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Account Information]_wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Account Information]_&#x200B;wie folgt vor:
 
    ![Informationen zum Benutzerkonto](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
@@ -65,21 +65,21 @@ Für temporäre Benutzer oder Rollen können Sie auch ein Ablaufdatum für das B
 
    Das Definieren eines Ablaufdatums ist hilfreich, wenn ein Benutzer oder eine Rolle temporär ist. Nach dem Ablaufdatum ändert sich der Benutzerkontenstatus in `Inactive` und kann bei Bedarf aktualisiert werden.
 
-1. Geben Sie unter _[!UICONTROL Current User Identity Verification]_Ihr Benutzerkonto-Kennwort ein.
+1. Geben Sie unter _[!UICONTROL Current User Identity Verification]_&#x200B;Ihr Benutzerkonto-Kennwort ein.
 
 >[!IMPORTANT]
 >
->Wenn der Abschnitt _[!UICONTROL Account Information]_abgeschlossen ist, können Sie den Benutzer speichern. Der neue Benutzer wird im_[!UICONTROL Users]_ angezeigt, der Benutzername kann sich jedoch erst anmelden, wenn ihm eine Rolle zugewiesen wurde.
+>Wenn der Abschnitt _[!UICONTROL Account Information]_&#x200B;abgeschlossen ist, können Sie den Benutzer speichern. Der neue Benutzer wird im&#x200B;_[!UICONTROL Users]_ angezeigt, der Benutzername kann sich jedoch erst anmelden, wenn ihm eine Rolle zugewiesen wurde.
 
 ## Benutzerrolle zuweisen
 
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL User Role]**.
 
-   Das Raster listet alle vorhandenen Benutzerrollen auf. Für einen neuen Store ist _[!UICONTROL Administrators]_die einzige verfügbare Rolle.
+   Das Raster listet alle vorhandenen Benutzerrollen auf. Für einen neuen Store ist _[!UICONTROL Administrators]_&#x200B;die einzige verfügbare Rolle.
 
    ![Admin - Add new user role](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
-1. Wählen Sie in der Spalte _[!UICONTROL Assigned]_eine Benutzerrolle aus.
+1. Wählen Sie in der Spalte _[!UICONTROL Assigned]_&#x200B;eine Benutzerrolle aus.
 
    Sie können [vorhandene Benutzerrollen anzeigen oder zusätzliche Benutzerrollen definieren](permissions-user-roles.md). Nachdem eine Rolle definiert wurde, müssen Sie das Benutzerkonto bearbeiten, um die neue Rolle zuzuweisen.
 
@@ -105,7 +105,7 @@ Für temporäre Benutzer oder Rollen können Sie auch ein Ablaufdatum für das B
 
 1. Geben Sie bei Aufforderung Ihr Kennwort ein, um Ihre Identität zu bestätigen, und klicken Sie erneut auf **[!UICONTROL Save User]**.
 
-   Das _[!UICONTROL Users]_Raster öffnet und listet alle Benutzer auf.
+   Das _[!UICONTROL Users]_&#x200B;Raster öffnet und listet alle Benutzer auf.
 
 ## Admin-Benutzer löschen
 
