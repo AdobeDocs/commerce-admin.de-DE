@@ -123,7 +123,7 @@ Um jemandem eingeschränkten Zugriff auf den Administrator zu gewähren, muss zu
 
 In diesem Video erfahren Sie mehr über die Verwaltung von Benutzerrollen:
 
->[!VIDEO](https://video.tv.adobe.com/v/343654?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443516?captions=ger&quality=12&learn=on)
 
 ## Rollenressourcen
 
