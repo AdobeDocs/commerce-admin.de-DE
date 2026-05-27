@@ -43,7 +43,7 @@ Im folgenden Diagramm sind die Namen, die auf Container verweisen, schwarz und d
 
 [Layout-Aktualisierungen](layout-updates.md) ermöglichen es, das Layout einer Seite anzupassen. Layout-Aktualisierungen bieten mehr Flexibilität als [Widget](widgets.md) erfordern jedoch Zugriff auf den Server und grundlegende XML-Kenntnisse.
 
-Die folgenden Schritte zeigen, wie Sie mit einer Layout-Aktualisierung einen Block auf einer Seite platzieren. Spezifische Beispiele und Hilfe zur Syntax finden Sie unter [Allgemeine Aufgaben zur Anpassung ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) Layouts _im Frontend-_.
+Die folgenden Schritte zeigen, wie Sie mit einer Layout-Aktualisierung einen Block auf einer Seite platzieren. Spezifische Beispiele und Hilfe zur Syntax finden Sie unter [Allgemeine Aufgaben zur Anpassung &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) Layouts _im Frontend-_.
 
 ### Schritt 1: Erstellen des Blocks
 
