@@ -18,7 +18,7 @@ Kunden haben von ihrem Konto aus Zugriff auf alle Bestellungen. Bestellungen kö
 
 {{b2b-feature}}
 
-Ihre ersten _[!UICONTROL My Orders]_enthalten auch übereinstimmende Bestellungen von untergeordneten Benutzern aller Websites innerhalb der Commerce-Instanz. Ein Kunde, der einem Unternehmenskonto zugeordnet ist, kann die Auftragsliste filtern, um Datensätze in den Ergebnissen schnell zu finden. Um die Filteroptionen anzuzeigen, klickt der Kunde auf &quot;**[!UICONTROL Filter]**&quot; und auf &quot;**[!UICONTROL Close]**&quot;, um die Filter auszublenden.
+Ihre ersten _[!UICONTROL My Orders]_&#x200B;enthalten auch übereinstimmende Bestellungen von untergeordneten Benutzern aller Websites innerhalb der Commerce-Instanz. Ein Kunde, der einem Unternehmenskonto zugeordnet ist, kann die Auftragsliste filtern, um Datensätze in den Ergebnissen schnell zu finden. Um die Filteroptionen anzuzeigen, klickt der Kunde auf &quot;**[!UICONTROL Filter]**&quot; und auf &quot;**[!UICONTROL Close]**&quot;, um die Filter auszublenden.
 
 ![Meine Bestellungen](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -42,7 +42,7 @@ Ein Kunde findet die Bestellung in der Liste und klickt auf **[!UICONTROL View O
 
 Der **[!UICONTROL Recent Orders]** wird in der Seitenleiste und auf der **[!UICONTROL My Account]** für Kunden angezeigt, die nach einer Bestellung angemeldet sind. Es zeigt fünf Produkte aus dem letzten Kauf an.
 
-Der Kunde kann Produkte aus dem Warenkorb lesen, indem er die Produkte auswählt und auf **[!UICONTROL Add to Cart]** klickt. Sie können die letzte Reihenfolge auch anzeigen, indem sie auf **[!UICONTROL View all]** klicken, das zur _[!UICONTROL My Account]_Seite und zum **[!UICONTROL Recent Orders]**weiterleitet.
+Der Kunde kann Produkte aus dem Warenkorb lesen, indem er die Produkte auswählt und auf **[!UICONTROL Add to Cart]** klickt. Sie können die letzte Reihenfolge auch anzeigen, indem sie auf **[!UICONTROL View all]** klicken, das zur _[!UICONTROL My Account]_&#x200B;Seite und zum **[!UICONTROL Recent Orders]**&#x200B;weiterleitet.
 
 ### Druckreihenfolge
 
@@ -103,7 +103,7 @@ Ein Kunde kann die Funktion zur Neuanordnung für eine bestimmte Bestellung von 
 
 ## Neu anordnen
 
-Der _[!UICONTROL Reorder]_Link wird in der Liste mit Bestellungen nahe dem_[!UICONTROL View]_ Link angezeigt.
+Der _[!UICONTROL Reorder]_&#x200B;Link wird in der Liste mit Bestellungen nahe dem&#x200B;_[!UICONTROL View]_ Link angezeigt.
 
 ![Link auf der Seite „Meine Bestellung“ neu anordnen](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -117,7 +117,7 @@ Der Kunde wird zum Warenkorb weitergeleitet, und alle Produkte werden zum Warenk
 >
 >Es ist möglich, `Not Visible Individually` Produkte neu zu bestellen.
 
-Der _[!UICONTROL Reorder]_Link wird nicht auf den Seiten_[!UICONTROL My Orders]_ und _[!UICONTROL View Order]_angezeigt.
+Der _[!UICONTROL Reorder]_&#x200B;Link wird nicht auf den Seiten&#x200B;_[!UICONTROL My Orders]_ und _[!UICONTROL View Order]_&#x200B;angezeigt.
 
 ![Meine Bestellseite](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -135,7 +135,7 @@ Ein Kunde kann die Abbruchfunktion für eine bestimmte Bestellung von drei Seite
 - Seite „Bestellansicht“
 - Seite Mein Konto
 
-Der _[!UICONTROL Cancel Order]_Link wird neben dem_[!UICONTROL Reorder]_ Link angezeigt. Wenn die Bestellung nicht storniert werden kann, wird der Link nicht angezeigt.
+Der _[!UICONTROL Cancel Order]_&#x200B;Link wird neben dem&#x200B;_[!UICONTROL Reorder]_ Link angezeigt. Wenn die Bestellung nicht storniert werden kann, wird der Link nicht angezeigt.
 
 ![Link „Abbrechen“ auf der Seite „Meine Bestellung“](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -153,7 +153,7 @@ Um den Abbruch durchzuführen, muss der Kunde:
 
    ![Abbrechen auf der Seite Meine Bestellung](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Nach der Stornierung werden die Bestellungen, die sich im Status _[!UICONTROL Pending]_befanden, in den Status_[!UICONTROL Canceled]_ geändert, die Bestellungen, die sich im Status _[!UICONTROL Processing]_befanden, in den Status_[!UICONTROL Closed]_ und eine Rückerstattung verarbeitet.
+   Nach der Stornierung werden die Bestellungen, die sich im Status _[!UICONTROL Pending]_&#x200B;befanden, in den Status&#x200B;_[!UICONTROL Canceled]_ geändert, die Bestellungen, die sich im Status _[!UICONTROL Processing]_&#x200B;befanden, in den Status&#x200B;_[!UICONTROL Closed]_ und eine Rückerstattung verarbeitet.
 
    Nach Abschluss der Stornierung wird eine E-Mail an den Kunden gesendet.
 

@@ -72,4 +72,4 @@ Stellen Sie sicher, dass Sie die Vorlage [E-Mail](../systems/email-template-cust
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-   Wenn Sie dazu aufgefordert werden[ klicken Sie auf den Link ](../systems/cache-management.md)Cache-Verwaltung“ in der Nachricht oben im Arbeitsbereich und löschen Sie alle ungültigen Caches.
+   Wenn Sie dazu aufgefordert werden[&#x200B; klicken Sie auf den Link &#x200B;](../systems/cache-management.md)Cache-Verwaltung“ in der Nachricht oben im Arbeitsbereich und löschen Sie alle ungültigen Caches.

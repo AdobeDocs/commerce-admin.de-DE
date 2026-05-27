@@ -38,7 +38,7 @@ In der Storefront kann eine Kundin oder ein Kunde eine Wunschliste aus seinem bz
 
    >[!NOTE]
    >
-   >Der Hauptunterschied zwischen `Public` und `Private` Wunschlisten besteht darin, dass private Wunschlisten nicht [ durchsuchbar ](wishlist-configuration.md#add-wish-list-search).
+   >Der Hauptunterschied zwischen `Public` und `Private` Wunschlisten besteht darin, dass private Wunschlisten nicht [&#x200B; durchsuchbar &#x200B;](wishlist-configuration.md#add-wish-list-search).
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 

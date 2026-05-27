@@ -20,7 +20,7 @@ Eine Wunschliste ist eine Liste von Produkten, die ein registrierter Kunde mit F
 
 Freigegebene Wunschlisten werden von einer Store-E-Mail-Adresse gesendet, aber der Textkörper der Nachricht enthält eine personalisierte Anmerkung des Kunden. Sie können die E-Mail-Vorlage anpassen, die bei der Freigabe von Wunschlisten verwendet wird, und den Store-Kontakt auswählen, der als Absender angezeigt wird.
 
-Wunschlisten können über das Dashboard des [Kundenkontos“ aktualisiert ](../customers/account-dashboard.md). Artikel können vom Kunden oder vom Store-Administrator zwischen der Wunschliste und dem Warenkorb hinzugefügt oder übertragen werden.
+Wunschlisten können über das Dashboard des [Kundenkontos“ aktualisiert &#x200B;](../customers/account-dashboard.md). Artikel können vom Kunden oder vom Store-Administrator zwischen der Wunschliste und dem Warenkorb hinzugefügt oder übertragen werden.
 
 ![Beispiel-Storefront - Meine Wunschliste](./assets/storefront-my-wishlist.png){width="700" zoomable="yes"}
 
@@ -34,7 +34,7 @@ Kunden können [Wunschlisten verwalten](wishlist-storefront.md) indem sie sich b
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Suchen Sie den Kunden in der Liste und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie den Kunden in der Liste und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Wählen Sie im linken Bereich die Option **[!UICONTROL Wish List]** und suchen Sie das Element, das in der Liste bearbeitet werden soll.
 

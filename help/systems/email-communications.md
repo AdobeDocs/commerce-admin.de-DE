@@ -16,7 +16,7 @@ Mit _E-Mail-_ können Sie zurückgegebene E-Mails oder Antworten auf E-Mails an 
 
 >[!IMPORTANT]
 >
->**Sicherheitshinweis** Alle Händler sollten sofort ihre E-Mail-Versandkonfiguration einstellen, um sich vor einem kürzlich identifizierten potenziellen Remote-Code-Ausführungsangriff zu schützen. Solange dieses Problem nicht behoben ist, wird dringend empfohlen, [!DNL Sendmail] nicht für E-Mail-Nachrichten zu verwenden. Stellen Sie in der _[!UICONTROL Mail Sending Settings]_sicher, dass_[!UICONTROL Set Return Path]_ auf `No` gesetzt ist.
+>**Sicherheitshinweis** Alle Händler sollten sofort ihre E-Mail-Versandkonfiguration einstellen, um sich vor einem kürzlich identifizierten potenziellen Remote-Code-Ausführungsangriff zu schützen. Solange dieses Problem nicht behoben ist, wird dringend empfohlen, [!DNL Sendmail] nicht für E-Mail-Nachrichten zu verwenden. Stellen Sie in der _[!UICONTROL Mail Sending Settings]_&#x200B;sicher, dass&#x200B;_[!UICONTROL Set Return Path]_ auf `No` gesetzt ist.
 
 Eine detaillierte Liste der Konfigurationseinstellungen finden Sie unter [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md) in der _Konfigurationsreferenz_.
 
