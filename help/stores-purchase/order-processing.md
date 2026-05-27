@@ -169,7 +169,7 @@ Nur Kundenaufträge, die nicht fakturiert wurden, den Status `Processing` und di
 
 ### Benutzerdefinierte Bestellattribute
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 Benutzerdefinierte Bestellattribute ermöglichen es Ihnen, zusätzliche Informationen, die auf Ihre Geschäftsanforderungen zugeschnitten sind, mit der Bestellung zu verknüpfen.
 

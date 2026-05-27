@@ -40,7 +40,7 @@ Eine ausführliche Beschreibung jeder dieser Konfigurationseinstellungen finden 
 
 ## Zugriff auf Gastbestellungen für registrierte E-Mails zulassen
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 Eine optionale Konfiguration auf Store-Ebene, die standardmäßig deaktiviert ist, ermöglicht es Kunden, ihre Bestellungen über eine E-Mail-Adresse zu verfolgen, die mit einem registrierten Kundenkonto übereinstimmt.
 

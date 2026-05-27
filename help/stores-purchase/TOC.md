@@ -131,4 +131,4 @@ ht-degree: 3%
       + [Versandtitel - Übersicht](shipping-labels.md)
       + [Konfigurieren von Versandkennzeichnungen](shipping-label-configure.md)
       + [Erstellen von Versandkennzeichnungen](shipping-label-create.md)
-+ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
++ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de)
