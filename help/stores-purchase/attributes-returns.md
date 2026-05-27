@@ -5,7 +5,7 @@ exl-id: 639c1e94-1211-4a4e-8599-e54ed99b2355
 feature: Attributes, Returns
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Die Rückgabeattribute werden verwendet, um Informationen zu speichern, die wäh
    - `Strip HTML Tags`
    - `Escape  HTML Entities`
 
-1. Um das Attribut für Kunden sichtbar zu machen, legen Sie im Abschnitt _[!UICONTROL Storefront Properties]_&#x200B;den Wert **[!UICONTROL Show on Storefront]**&#x200B;auf `Yes` fest.
+1. Um das Attribut für Kunden sichtbar zu machen, legen Sie im Abschnitt _[!UICONTROL Storefront Properties]_den Wert **[!UICONTROL Show on Storefront]**auf `Yes` fest.
 
 1. (Optional) Geben Sie **[!UICONTROL Sort Order]** eine Zahl ein, um zu bestimmen, wo dieses Attribut relativ zu den anderen im selben Teil der Seite angezeigt wird. (`0` = First, `1` = Second, `2` = Third usw.)
 

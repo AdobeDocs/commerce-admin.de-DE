@@ -5,14 +5,14 @@ exl-id: d1153558-a721-4643-a70c-7fc20072983c
 feature: Orders
 source-git-commit: c2d5e9b41a76ba58d1343a8b3ee5122104d5bfe0
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1227'
 ht-degree: 0%
 
 ---
 
 # Bestellstatus
 
-Alle Bestellungen haben einen Bestellstatus, der mit einem Schritt in der Auftragsverarbeitung (Workflow[&#x200B; verknüpft &#x200B;](order-processing.md).\
+Alle Bestellungen haben einen Bestellstatus, der mit einem Schritt in der Auftragsverarbeitung (Workflow[ verknüpft ](order-processing.md).\
 Der Unterschied zwischen Bestellstatus und Bestellstatus besteht darin, dass **[!UICONTROL order states]** programmgesteuert verwendet werden. Sie sind es nicht
 Sichtbar für Kunden oder Admin-Benutzer. Sie bestimmen den Ablauf eines Auftrags und welche Vorgänge für einen Auftrag möglich sind
 Bestellung in einem bestimmten Zustand.\
@@ -82,7 +82,7 @@ Zusätzlich zu den voreingestellten Bestellstatus-Einstellungen können Sie eige
 
    - Geben Sie **[!UICONTROL Status Label]** einen Titel ein, der die Statuseinstellung sowohl in der Admin- als auch in der Storefront identifiziert.
 
-1. Geben Sie im Abschnitt _[!UICONTROL Store View Specific Labels]_&#x200B;alle Beschriftungen ein, die für verschiedene Store-Ansichten erforderlich sind.
+1. Geben Sie im Abschnitt _[!UICONTROL Store View Specific Labels]_alle Beschriftungen ein, die für verschiedene Store-Ansichten erforderlich sind.
 
 1. Klicken Sie auf **[!UICONTROL Save Status]**.
 
@@ -116,7 +116,7 @@ Zusätzlich zu den voreingestellten Bestellstatus-Einstellungen können Sie eige
 
 ### Bearbeiten eines vorhandenen Bestellstatus
 
-1. Öffnen Sie im _[!UICONTROL Order Status]_&#x200B;den Statusdatensatz im Bearbeitungsmodus.
+1. Öffnen Sie im _[!UICONTROL Order Status]_den Statusdatensatz im Bearbeitungsmodus.
 
 1. Statuseinstellungen nach Bedarf aktualisieren.
 
@@ -128,15 +128,15 @@ Zusätzlich zu den voreingestellten Bestellstatus-Einstellungen können Sie eige
 >
 >Die Zuweisung einer Statuseinstellung zu einem Status kann nicht aufgehoben werden, wenn der Status in Verwendung ist.
 
-1. Suchen Sie im _[!UICONTROL Order Status]_&#x200B;Raster nach dem Datensatz mit dem Bestellstatus, dessen Zuweisung aufgehoben werden soll.
+1. Suchen Sie im _[!UICONTROL Order Status]_Raster nach dem Datensatz mit dem Bestellstatus, dessen Zuweisung aufgehoben werden soll.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;ganz rechts in der Zeile auf den Link **[!UICONTROL Unassign]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Action]_ganz rechts in der Zeile auf den Link **[!UICONTROL Unassign]**.
 
    Oben im Arbeitsbereich wird eine Meldung angezeigt, dass die Zuweisung des Bestellstatus aufgehoben wurde. Obwohl die Beschriftung Bestellstatus weiterhin in der Liste angezeigt wird, ist sie keinem Status mehr zugewiesen. Einstellungen zum Bestellstatus können nicht gelöscht werden.
 
 >[!NOTE]
 >
->Wenn die Zuweisung des Standardbestellungsstatus zum Bestellstatus aufgehoben wird, wird _&#x200B;**ein anderer**&#x200B;_ Bestellstatus _&#x200B;**automatisch festgelegt**&#x200B;_ als Standard für diesen Bestellstatus festgelegt.
+>Wenn die Zuweisung des Standardbestellungsstatus zum Bestellstatus aufgehoben wird, wird _**ein anderer**_ Bestellstatus _**automatisch festgelegt**_ als Standard für diesen Bestellstatus festgelegt.
 
 ## Benachrichtigung
 

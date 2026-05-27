@@ -3,10 +3,10 @@ title: PayPal-Zahlungen - Erweitert
 description: Erfahren Sie, wie Sie PayPal Payments Advanced als Online-Zahlungslösung in Ihrem Geschäft einrichten.
 exl-id: 018dd999-2f17-4650-8f61-624809ae76c6
 feature: Payments
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2215'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Auch Kunden ohne PayPal-Konto können über das sichere PayPal-Zahlungs-Gateway 
 >[!IMPORTANT]
 >
 >**PSD2-Anforderungen:** <br/>
->Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2&rbrace;-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Um PSD2 zu erfüllen, muss PayPal Payments Advanced mit einem Plug-in eines Drittanbieters integriert sein. Weitere Informationen finden Sie unter [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-mpi/).
+>Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2}-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Um PSD2 zu erfüllen, muss PayPal Payments Advanced mit einem Plug-in eines Drittanbieters integriert sein. Weitere Informationen finden Sie unter [3-D Secure for Payflow](https://developer.paypal.com/api/nvp-soap/payflow/3d-secure-mpi/).
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Die Verarbeitung von Bestellungen mit PayPal Payments Advanced ist die gleiche w
    - **Verarbeitung** - Die Transaktion war erfolgreich.
    - **Zahlung ausstehend** - Das System hat keine Antwort von PayPal erhalten.
    - **Abgebrochen** - Die Transaktion war aus irgendeinem Grund nicht erfolgreich
-   - **Betrugsverdacht** - Bei der Transaktion wurden einige der „PayPal[Betrugsfilter“ &#x200B;](paypal.md#paypal-fraud-management-filters). Das System erhält die Antwort von PayPal, dass die Transaktion von Fraud Service überprüft wird.
+   - **Betrugsverdacht** - Bei der Transaktion wurden einige der „PayPal[Betrugsfilter“ ](paypal.md#paypal-fraud-management-filters). Das System erhält die Antwort von PayPal, dass die Transaktion von Fraud Service überprüft wird.
 
 1. **Händler erfüllt Bestellung** - Der Händler stellt Rechnungen aus und versendet die Bestellung.
 
@@ -110,7 +110,7 @@ Bevor Sie PayPal Payments Advanced in Commerce einrichten, müssen Sie Ihr Konto
 
 1. Wenn Ihre Commerce-Installation über mehrere Websites, Stores oder Ansichten verfügt, legen Sie **[!UICONTROL Store View]** auf die Store-Ansicht fest, in der Sie diese Konfiguration anwenden möchten.
 
-1. Wählen Sie im Abschnitt _[!UICONTROL Merchant Location]_&#x200B;die **[!UICONTROL Merchant Country]**&#x200B;aus, in der sich Ihr Unternehmen befindet.
+1. Wählen Sie im Abschnitt _[!UICONTROL Merchant Location]_die **[!UICONTROL Merchant Country]**aus, in der sich Ihr Unternehmen befindet.
 
    Diese Einstellung bestimmt die Auswahl der PayPal-Lösungen, die in der Konfiguration angezeigt werden.
 
@@ -118,7 +118,7 @@ Bevor Sie PayPal Payments Advanced in Commerce einrichten, müssen Sie Ihr Konto
 
 1. Erweitern Sie **[!UICONTROL PayPal All-in-One Payment Solution]** und klicken Sie auf **[!UICONTROL Configure]** für **[!UICONTROL Payments Advanced]**.
 
-   ![PayPal-Zahlungen - &#x200B;](./assets/paypal-payments-advanced.png){width="600" zoomable="yes"}
+   ![PayPal-Zahlungen - ](./assets/paypal-payments-advanced.png){width="600" zoomable="yes"}
 
 ### Schritt 2: Erforderliche Einstellungen vornehmen
 
@@ -223,27 +223,27 @@ Legen Sie **[!UICONTROL Enable PayPal PayLater Experience]** auf eine der folgen
    - `Text`
    - `Flex`
 
-1. Legen Sie [!UICONTROL Style Layout] nur für **[!UICONTROL Text]** **[!UICONTROL Logo Type]** auf eine der folgenden Einstellungen fest:
+1. Legen Sie **[!UICONTROL Logo Type]** nur für [!UICONTROL Style Layout] **[!UICONTROL Text]** auf eine der folgenden Einstellungen fest:
 
    - `Primary`
    - `Alternative`
    - `Inline`
    - `None`
 
-1. Legen Sie [!UICONTROL Style Layout] nur für **[!UICONTROL Text]** **[!UICONTROL Logo Position]** auf eine der folgenden Einstellungen fest:
+1. Legen Sie **[!UICONTROL Logo Position]** nur für [!UICONTROL Style Layout] **[!UICONTROL Text]** auf eine der folgenden Einstellungen fest:
 
    - `Left`
    - `Right`
    - `Top`
 
-1. Legen Sie [!UICONTROL Style Layout] nur für **[!UICONTROL Text]** **[!UICONTROL Text Color]** auf eine der folgenden Einstellungen fest:
+1. Legen Sie **[!UICONTROL Text Color]** nur für [!UICONTROL Style Layout] **[!UICONTROL Text]** auf eine der folgenden Einstellungen fest:
 
    - `Black`
    - `White`
    - `Monochrome`
    - `Grayscale`
 
-1. Legen Sie [!UICONTROL Style Layout] nur für **[!UICONTROL Text]** **[!UICONTROL Text Size]** auf eine der folgenden Einstellungen fest:
+1. Legen Sie **[!UICONTROL Text Size]** nur für [!UICONTROL Style Layout] **[!UICONTROL Text]** auf eine der folgenden Einstellungen fest:
 
    - `10px`
    - `11px`
@@ -253,14 +253,14 @@ Legen Sie **[!UICONTROL Enable PayPal PayLater Experience]** auf eine der folgen
    - `15px`
    - `16px`
 
-1. Legen Sie [!UICONTROL Style Layout] nur für **[!UICONTROL Flex]** **[!UICONTROL Ratio]** auf eine der folgenden Einstellungen fest:
+1. Legen Sie **[!UICONTROL Ratio]** nur für [!UICONTROL Style Layout] **[!UICONTROL Flex]** auf eine der folgenden Einstellungen fest:
 
    - `1x1`
    - `1x4`
    - `8x1`
    - `20x1`
 
-1. Legen Sie [!UICONTROL Style Layout] nur für **[!UICONTROL Flex]** **[!UICONTROL Color]** auf eine der folgenden Einstellungen fest:
+1. Legen Sie **[!UICONTROL Color]** nur für [!UICONTROL Style Layout] **[!UICONTROL Flex]** auf eine der folgenden Einstellungen fest:
 
    - `Blue`
    - `Black`
@@ -307,7 +307,7 @@ Legen Sie **[!UICONTROL Enable PayPal PayLater Experience]** auf eine der folgen
 1. Legen Sie **[!UICONTROL Payment Applicable From]** auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_&#x200B;angezeigt. Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jedes Land in der Liste aus, in dem Kunden in Ihrem Geschäft Einkäufe tätigen können.
+   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jedes Land in der Liste aus, in dem Kunden in Ihrem Geschäft Einkäufe tätigen können.
 
 1. Um die Kommunikation mit dem Zahlungssystem in die Protokolldatei zu schreiben, setzen Sie **[!UICONTROL Debug Mode]** auf `Yes`.
 
@@ -435,7 +435,7 @@ Verwenden Sie die _[!UICONTROL Frontend Experience Settings]_, um festzulegen, w
    - `Authorization` - Genehmigt den Kauf und legt die Mittel fest. Der Betrag wird erst abgehoben, wenn er _Händler_ wird.
    - `Sale` - Der Betrag des Kaufs wird autorisiert und sofort vom Konto des Kunden zurückgezogen.
 
-1. Um die Schaltfläche _[!UICONTROL Check out with PayPal]_&#x200B;auf der Produktseite anzuzeigen, setzen Sie **[!UICONTROL Display on Product Details Page]**&#x200B;auf `Yes`.
+1. Um die Schaltfläche _[!UICONTROL Check out with PayPal]_auf der Produktseite anzuzeigen, setzen Sie **[!UICONTROL Display on Product Details Page]**auf `Yes`.
 
 ### Schritt 7: Erweiterte Einstellungen abschließen - PayPal Express-Checkout
 
@@ -448,7 +448,7 @@ Verwenden Sie die _[!UICONTROL Frontend Experience Settings]_, um festzulegen, w
 1. Legen Sie **[!UICONTROL Payment Applicable From]** auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` |Nach Auswahl dieser Option wird die _Zahlung aus der Liste spezifischer_&quot; angezeigt. Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jedes Land in der Liste, in dem Kunden in Ihrem Geschäft Einkäufe tätigen können.
+   - `Specific Countries` |Nachdem Sie diese Option ausgewählt haben _wird die Liste „Zahlung aus bestimmten Ländern_ angezeigt. Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jedes Land in der Liste, in dem Kunden in Ihrem Geschäft Einkäufe tätigen können.
 
 1. Um die Kommunikation mit dem Zahlungssystem in die Protokolldatei zu schreiben, setzen Sie **[!UICONTROL Debug Mode]** auf `Yes`.
 

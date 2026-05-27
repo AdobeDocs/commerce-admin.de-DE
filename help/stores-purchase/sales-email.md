@@ -5,7 +5,7 @@ exl-id: b205dc61-08cc-4783-810c-686ccf2ba300
 feature: Communications, Orders
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Stellen Sie sicher, dass Sie die Vorlage [E-Mail](../systems/email-template-cust
    - `Disable` - Sendet eine Verkaufs-E-Mail, wenn sie durch ein Ereignis ausgelöst wird.
    - `Enable` - Sendet Verkaufs-E-Mails in vorab festgelegten, regelmäßigen Abständen.
 
-   Der Adobe Commerce-Support empfiehlt die Aktivierung des asynchronen Versands, um die Leistung bei der Bestellplatzierung zu verbessern. Siehe [Best Practices für die Konfiguration der Auftragsverarbeitung](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=de) in der Wissensdatenbank zum Adobe Commerce-Support.
+   Der Adobe Commerce-Support empfiehlt die Aktivierung des asynchronen Versands, um die Leistung bei der Bestellplatzierung zu verbessern. Siehe [Best Practices für die Konfiguration der Auftragsverarbeitung](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html) in der Wissensdatenbank zum Adobe Commerce-Support.
 
 ## Schritt 3. Füllen Sie die Details für jede Verkaufs-E-Mail-Nachricht aus
 
@@ -66,10 +66,10 @@ Stellen Sie sicher, dass Sie die Vorlage [E-Mail](../systems/email-template-cust
 
 1. Schließen Sie die Konfiguration für die verbleibenden Verkaufs-E-Mail-Typen ab:
 
-   - **[!UICONTROL Invoice]**/**[!UICONTROL Invoice Comments]**
-   - **[!UICONTROL Shipment]**/**[!UICONTROL Shipment Comments]**
-   - **[!UICONTROL Credit Memo]**/**[!UICONTROL Credit Memo Comments]**
+   - **[!UICONTROL Invoice]** / **[!UICONTROL Invoice Comments]**
+   - **[!UICONTROL Shipment]** / **[!UICONTROL Shipment Comments]**
+   - **[!UICONTROL Credit Memo]** / **[!UICONTROL Credit Memo Comments]**
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-   Wenn Sie dazu aufgefordert werden[&#x200B; klicken Sie auf den Link &#x200B;](../systems/cache-management.md)Cache-Verwaltung“ in der Nachricht oben im Arbeitsbereich und löschen Sie alle ungültigen Caches.
+   Wenn Sie dazu aufgefordert werden[ klicken Sie auf den Link ](../systems/cache-management.md)Cache-Verwaltung“ in der Nachricht oben im Arbeitsbereich und löschen Sie alle ungültigen Caches.

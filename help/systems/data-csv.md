@@ -5,7 +5,7 @@ exl-id: 86e362af-2af7-4557-ac49-1efad2f0e976
 feature: Products, Customers, Data Import/Export
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Ein vollständiger Export der Produktdatenbank enthält Informationen zu jedem P
 
 Die erste Zeile der Tabelle enthält die Namen der einzelnen Attribute, die als Spaltenüberschriften verwendet werden. Die übrigen Zeilen beschreiben die einzelnen Produktdatensätze. Jede Zeile, die mit einem Wert in der SKU-Spalte beginnt, ist der Anfang eines neuen Produktdatensatzes. Ein einzelnes Produkt kann mehrere Zeilen enthalten, die Informationen zu mehreren Bildern oder Produktoptionen enthalten. Die nächste Zeile mit einem Wert in der SKU-Spalte beginnt mit einem neuen Produkt.
 
-Die Spalte Kategorie enthält einen Pfad für jede Kategorie, der das Produkt zugewiesen ist. Der Pfad enthält die Stammkategorie, gefolgt von einem Schrägstrich (`/`) zwischen den einzelnen Ebenen. Standardmäßig wird das `,` verwendet, um verschiedene Kategoriepfade zu trennen. (Sie können mit der Option _[!UICONTROL Multiple value separator]_&#x200B;ein anderes Trennzeichen angeben.) Beispiel:
+Die Spalte Kategorie enthält einen Pfad für jede Kategorie, der das Produkt zugewiesen ist. Der Pfad enthält die Stammkategorie, gefolgt von einem Schrägstrich (`/`) zwischen den einzelnen Ebenen. Standardmäßig wird das `,` verwendet, um verschiedene Kategoriepfade zu trennen. (Sie können mit der Option _[!UICONTROL Multiple value separator]_ein anderes Trennzeichen angeben.) Beispiel:
 
 `Default Category/Gear,Default Category/Gear/Bags`
 

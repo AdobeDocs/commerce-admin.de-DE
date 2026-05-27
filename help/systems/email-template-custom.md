@@ -5,7 +5,7 @@ exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
 source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,14 @@ Die Standardvorlagen enthalten Ihr Logo und Store-Informationen und können ohne
 | [!UICONTROL Template Name] | Der Name Ihrer benutzerdefinierten Vorlage. |
 | [!UICONTROL Insert Variable] | Fügt an der Cursorposition eine Variable in die Vorlage ein. |
 | [!UICONTROL Template Subject] | Der Vorlagenbetreff wird in der Spalte Betreff angezeigt und kann zum Sortieren und Filtern der Vorlagen in der Liste verwendet werden. |
-| [!UICONTROL Template Content] | Der Inhalt der Vorlage auf HTML. |
-| [!UICONTROL Template Styles] | Alle CSS-Stildeklarationen, die zum Formatieren der Vorlage erforderlich sind, können in das _[!UICONTROL Template Styles]_&#x200B;eingegeben werden. |
+| [!UICONTROL Template Content] | Der Inhalt der Vorlage in HTML. |
+| [!UICONTROL Template Styles] | Alle CSS-Stildeklarationen, die zum Formatieren der Vorlage erforderlich sind, können in das _[!UICONTROL Template Styles]_eingegeben werden. |
 
 {style="table-layout:auto"}
 
 ## Kopfzeilenvorlage
 
-Nach Abschluss der [Konfiguration](email-templates.md#configure-email-templates) enthält die E-Mail-Header-Vorlage Ihr Logo, das mit Ihrem Store verknüpft ist. Wenn Sie über Grundkenntnisse im HTML verfügen, können Sie einfach [vordefinierte Variablen](variables-predefined.md) verwenden, um dem Header Kontaktinformationen für den Store hinzuzufügen.
+Nach Abschluss der [Konfiguration](email-templates.md#configure-email-templates) enthält die E-Mail-Header-Vorlage Ihr Logo, das mit Ihrem Store verknüpft ist. Wenn Sie über Grundkenntnisse in HTML verfügen, können Sie einfach [vordefinierte Variablen](variables-predefined.md) verwenden, um dem Header Kontaktinformationen für den Store hinzuzufügen.
 
 ### Schritt 1. Standardvorlage laden
 
@@ -60,7 +60,7 @@ Nach Abschluss der [Konfiguration](email-templates.md#configure-email-templates)
 
 1. Geben Sie eine **[!UICONTROL Template Subject]** ein, um die Vorlagen zu organisieren.
 
-   Im Raster kann die Liste der Vorlagen sortiert und nach der _[!UICONTROL Subject]_&#x200B;Spalte gefiltert werden.
+   Im Raster kann die Liste der Vorlagen sortiert und nach der _[!UICONTROL Subject]_Spalte gefiltert werden.
 
    ![Kopfzeileninformationen der E-Mail-Vorlage](./assets/email-template-information.png){width="600" zoomable="yes"}
 
@@ -76,7 +76,7 @@ Nach Abschluss der [Konfiguration](email-templates.md#configure-email-templates)
 
    ![Kopfzeilenvorlage - Variable einfügen](./assets/email-template-insert-variable.png){width="600" zoomable="yes"}
 
-   Wenn eine Variable ausgewählt wird[&#x200B; wird ein „Markup](markup-tags.md)Tag“ für die Variable in den Code eingefügt.
+   Wenn eine Variable ausgewählt wird[ wird ein „Markup](markup-tags.md)Tag“ für die Variable in den Code eingefügt.
 
    Obwohl die Store-E-Mail-Adressvariablen die am häufigsten in der Kopfzeile enthaltenen Variablen sind, können Sie den Code für jedes System oder [benutzerdefinierte Variable](variables-custom.md) direkt in die Vorlage eingeben.
 
@@ -94,7 +94,7 @@ Nach Abschluss der [Konfiguration](email-templates.md#configure-email-templates)
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie im Raster die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
+1. Suchen Sie im Raster die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
 1. Scrollen Sie nach unten und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Transactional Emails]** .
 
@@ -126,7 +126,7 @@ Die Fußzeile der E-Mail-Vorlage enthält die schließende und die Signaturzeile
 
 1. Geben Sie eine **[!UICONTROL Template Subject]** ein, um die Vorlagen zu organisieren.
 
-   Im Raster können die Vorlagen anhand der Spalte _[!UICONTROL Subject]_&#x200B;sortiert und gefiltert werden.
+   Im Raster können die Vorlagen anhand der Spalte _[!UICONTROL Subject]_sortiert und gefiltert werden.
 
    ![Fußzeile der E-Mail-Vorlage - Informationen](./assets/email-template-footer-information.png){width="600" zoomable="yes"}
 
@@ -140,7 +140,7 @@ Die Fußzeile der E-Mail-Vorlage enthält die schließende und die Signaturzeile
 
 1. Wählen Sie die Variable aus, die Sie einfügen möchten.
 
-   Wenn eine Variable ausgewählt wird[&#x200B; wird ein „Markup](markup-tags.md)Tag“ für die Variable in den Code eingefügt.
+   Wenn eine Variable ausgewählt wird[ wird ein „Markup](markup-tags.md)Tag“ für die Variable in den Code eingefügt.
 
    Obwohl die Store-Kontaktvariablen die am häufigsten in der Fußzeile enthaltenen sind, können Sie den Code für jedes System oder [benutzerdefinierte Variable](variables-custom.md) direkt in die Vorlage eingeben.
 
@@ -150,7 +150,7 @@ Die Fußzeile der E-Mail-Vorlage enthält die schließende und die Signaturzeile
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie im Raster die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
+1. Suchen Sie im Raster die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
 1. Scrollen Sie nach unten und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Transactional Emails]** .
 
@@ -214,11 +214,11 @@ Der Prozess zum Anpassen des Textkörpers jeder Nachricht ist derselbe wie beim 
 
    >[!NOTE]
    >
-   >Benutzerdefinierte Stile werden nur dann auf die E-Mail angewendet, wenn `{{template config_path="design/email/header_template"}}` im _[!UICONTROL Template Styles]_&#x200B;vorhanden ist. Um benutzerdefiniertes CSS ohne Standard-Header-Vorlage zu verwenden, müssen Sie sie hier im `<style>` HTML-Tag angeben.
+   >Benutzerdefinierte Stile werden nur dann auf die E-Mail angewendet, wenn `{{template config_path="design/email/header_template"}}` im _[!UICONTROL Template Styles]_vorhanden ist. Um benutzerdefiniertes CSS ohne standardmäßige Header-Vorlage zu verwenden, müssen Sie sie hier im `<style>` HTML-Tag angeben.
 
 ### Schritt 3. Aktualisieren der Konfiguration
 
-Die _[!UICONTROL Currently Used For]_&#x200B;Breadcrumb-Spur zeigt an, wo die Vorlage verwendet wird. In diesem Beispiel befindet sich die Vorlagenkonfiguration auf der&#x200B;_[!UICONTROL Customer Configuration]_ Seite, im _[!UICONTROL Create New Account Options]_&#x200B;Abschnitt und im Feld&#x200B;_[!UICONTROL Default Welcome Email]_ .
+Die _[!UICONTROL Currently Used For]_Breadcrumb-Spur zeigt an, wo die Vorlage verwendet wird. In diesem Beispiel befindet sich die Vorlagenkonfiguration auf der_[!UICONTROL Customer Configuration]_ Seite, im _[!UICONTROL Create New Account Options]_Abschnitt und im Feld_[!UICONTROL Default Welcome Email]_ .
 
 - Seite - [!UICONTROL Customer Configuration]
 - Abschnitt - [!UICONTROL Create New Account Options]

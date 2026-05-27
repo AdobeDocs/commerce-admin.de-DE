@@ -5,7 +5,7 @@ exl-id: 479455f1-282f-4277-b132-45c5867fb21c
 feature: Customers, Configuration
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Jede öffentliche Wunschliste finden Sie mit dem Wunschlisten-Such-[Widget](../c
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add Widget]**.
 
-1. Gehen Sie auf der Registerkarte _[!UICONTROL Settings]_&#x200B;wie folgt vor:
+1. Gehen Sie auf der Registerkarte _[!UICONTROL Settings]_wie folgt vor:
 
    - Legen Sie **[!UICONTROL Type]** auf `Wish List Search` fest.
 
@@ -83,7 +83,7 @@ Jede öffentliche Wunschliste finden Sie mit dem Wunschlisten-Such-[Widget](../c
 
      `0` = Erster (Standard), `1` = Zweiter, `2` = Dritter usw.
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_&#x200B;auf **[!UICONTROL Add Layout Update]**&#x200B;und legen Sie **[!UICONTROL Display on]**&#x200B;auf eine der folgenden Einstellungen fest:
+1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_auf **[!UICONTROL Add Layout Update]**und legen Sie **[!UICONTROL Display on]**auf eine der folgenden Einstellungen fest:
 
    - _[!UICONTROL Categories]_
 

@@ -5,7 +5,7 @@ exl-id: 46cf9994-6490-4cb4-85b7-9a7cab7783e0
 feature: Storefront, Configuration
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
