@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL Security] &gt; [!UICONTROL Security.txt]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Security] &gt; [!UICONTROL Security.txt] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Security] > [!UICONTROL Security.txt]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Security] > [!UICONTROL Security.txt] des Commerce Admin.
 exl-id: 26385864-cfd8-456b-91b2-bf5d019c09e1
 feature: Configuration, Security, Site Management
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 0%
+source-wordcount: '360'
+ht-degree: 1%
 
 ---
 
@@ -44,7 +44,7 @@ Weitere Informationen zum Ändern dieser Konfigurationseinstellungen finden Sie 
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Encryption] | Website | Eine URL, die auf den Speicherort eines Verschlüsselungsschlüssels verweist, den Sicherheitsforscher zum Senden verschlüsselter Nachrichten verwenden können. _&#x200B;**Geben Sie den Verschlüsselungsschlüssel nicht in dieses Feld ein.**&#x200B;_ <br/><br/>Es liegt in der Verantwortung des Forschers zu überprüfen, ob der Schlüssel aus einer vertrauenswürdigen Quelle stammt. Forscher dürfen nicht davon ausgehen, dass der Schlüssel mit dem zur Erzeugung der digitalen Signatur verwendeten Schlüssel identisch ist. Beispiel: <br />OpenPGP-Schlüssel vom Webserver - `https://mystore.com/pgp-key.txt` |
+| [!UICONTROL Encryption] | Website | Eine URL, die auf den Speicherort eines Verschlüsselungsschlüssels verweist, den Sicherheitsforscher zum Senden verschlüsselter Nachrichten verwenden können. _**Geben Sie den Verschlüsselungsschlüssel nicht in dieses Feld ein.**_ <br/><br/>Es liegt in der Verantwortung des Forschers zu überprüfen, ob der Schlüssel aus einer vertrauenswürdigen Quelle stammt. Forscher dürfen nicht davon ausgehen, dass der Schlüssel mit dem zur Erzeugung der digitalen Signatur verwendeten Schlüssel identisch ist. Beispiel: <br />OpenPGP-Schlüssel vom Webserver - `https://mystore.com/pgp-key.txt` |
 | [!UICONTROL Acknowledgments] | Website | Eine URL, die auf eine Seite in Ihrem Geschäft verweist, auf der Sicherheitsforscher anerkannt werden, z. B`https://mystore.com/hall-of-fame.html`. Um zukünftige Angriffe zu verhindern, fügen Sie nur eine allgemeine Beschreibung hinzu, ohne spezifische Informationen zu Schwachstellenproblemen preiszugeben. Beispiel:<br />Wir möchten den folgenden Forschern danken:<br />(jjjj/mm/tt) Justin Thyme - SQL Injection |
 | [!UICONTROL Preferred Languages] | Website | Gibt mindestens eine bevorzugte Sprache für Sicherheitsberichte an. Trennen Sie mehrere zweistellige [Sprach-Codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) durch ein Komma. Alle angegebenen Sprachen haben dieselbe Priorität. Um beispielsweise Englisch, Spanisch und Französisch anzugeben, geben Sie `en, es, fr` ein. |
 | [!UICONTROL Hiring] | Website | Die URL einer Seite auf der Website, die sicherheitsbezogene Auftragspositionen auflistet. Beispiel: `https://mystore.com/jobs.html` |

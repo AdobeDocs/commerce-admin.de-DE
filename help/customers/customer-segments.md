@@ -4,7 +4,7 @@ description: Mit Kundensegmenten können Sie bestimmten Kunden Inhalte und Promo
 exl-id: b254a6ac-cb0b-46c1-9ef7-ffc97360a98e
 source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Segmentattribute für Kunden werden auf ähnliche Weise wie Warenkorb- und Katal
 
 {style="table-layout:auto"}
 
-Weitere [&#x200B; zum Definieren von Kundensegmenten finden Sie &#x200B;](../customers/customer-segment-create.md) „Kundensegmente erstellen und löschen“.
+Weitere [ zum Definieren von Kundensegmenten finden Sie ](../customers/customer-segment-create.md) „Kundensegmente erstellen und löschen“.
 
 ## eBooks
 

@@ -1,10 +1,10 @@
 ---
 title: Kunden jetzt online
-description: Die Option _Now Online_ im Menü [!UICONTROL Customers &#x200B;]listet alle Kunden und Besucher auf, die derzeit in Ihrem Geschäft online sind.
+description: Die Option _Now Online_ im Menü [!UICONTROL Customers ]listet alle Kunden und Besucher auf, die derzeit in Ihrem Geschäft online sind.
 exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Der Online-Status von Kundinnen und Kunden wird nur bei der Kundenanmeldung, Reg
 
 >[!NOTE]
 >
->Bei Seitenbesuchen allein wird der Online-Status des Kunden nicht aktualisiert. Um solche Informationen zu erfassen, wird empfohlen, [Google Analytics einzurichten](../merchandising-promotions/google-analytics.md) (allein oder mit [Google Tag Manager](../merchandising-promotions/google-tag-manager.md)) oder andere Analytics-Software mit Adobe Commerce zu verwenden.
+>Bei Seitenbesuchen allein wird der Online-Status des Kunden nicht aktualisiert. Um solche Informationen zu erfassen, wird empfohlen, [Google Analytics einzurichten](../merchandising-promotions/google-analytics.md) (allein oder mit [Google Tag Manager](../merchandising-promotions/google-tag-manager.md)) oder andere Analysesoftware mit Adobe Commerce zu verwenden.
 
 ## Alle derzeit online verfügbaren Kunden anzeigen
 

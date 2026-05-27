@@ -5,7 +5,7 @@ exl-id: eadcc15a-a052-4213-a818-d5b248d974d2
 feature: Customers, Storefront
 source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Bei Stores mit konfigurierter [!DNL Amazon Pay]- und [!DNL Login with Amazon] k√
 
 ## Abmelden von einem Kundenkonto
 
-1. Der Kunde klickt in der oberen rechten Ecke neben _[!UICONTROL Welcome, Customer Name!]_&#x200B;auf die **[!UICONTROL v]**.
+1. Der Kunde klickt in der oberen rechten Ecke neben _[!UICONTROL Welcome, Customer Name!]_auf die **[!UICONTROL v]**.
 
 1. W√§hlen Sie **[!UICONTROL Sign Out]**.
 
