@@ -56,7 +56,7 @@ Wenn Sie mit dem Inhaltstyp _Registerkarten_ arbeiten, fügen Sie einzelne Regis
 
 ## Einzelne Registerkarte hinzufügen
 
-1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_den **[!UICONTROL Tabs]**Platzhalter direkt auf die Bühne oder in eine Zeile oder Spalte auf der Bühne.
+1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_&#x200B;den **[!UICONTROL Tabs]**&#x200B;Platzhalter direkt auf die Bühne oder in eine Zeile oder Spalte auf der Bühne.
 
    ![Ziehen von Registerkarten in eine Zeile](./assets/pb-layout-tabs-drag-row.png){width="600" zoomable="yes"}
 
@@ -109,7 +109,7 @@ Sie können einen beliebigen Inhaltstyp auf eine Registerkarte genau wie auf ein
 
 1. Geben Sie Text im Editor ein oder fügen Sie ihn ein und formatieren Sie ihn mithilfe der Editor-Symbolleiste nach Bedarf.
 
-   Weitere Informationen [ Arbeiten mit dem Inhaltstyp „Text](text.md) finden Sie unter „Elemente - Text“.
+   Weitere Informationen [&#x200B; Arbeiten mit dem Inhaltstyp „Text](text.md) finden Sie unter „Elemente - Text“.
 
    ![Bearbeiten von Textinhalten auf der Registerkarte](./assets/pb-layout-tab-text.png){width="500" zoomable="yes"}
 

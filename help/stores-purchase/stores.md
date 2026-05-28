@@ -85,7 +85,7 @@ Der erste Schritt besteht darin, zu wählen, wie Sie den Store positionieren mö
 
 1. Klicken Sie in _Seitenleiste_ Admin“ auf **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie unter _[!UICONTROL General]_im linken Bedienfeld auf der linken Seite **[!UICONTROL Web]**aus.
+1. Wählen Sie unter _[!UICONTROL General]_&#x200B;im linken Bedienfeld auf der linken Seite **[!UICONTROL Web]**&#x200B;aus.
 
 1. Setzen Sie in der oberen linken Ecke **[!UICONTROL Store View]** auf die Ansicht, die Sie für den neuen Store erstellt haben.
 
@@ -105,7 +105,7 @@ Der erste Schritt besteht darin, zu wählen, wie Sie den Store positionieren mö
 
 ### Schritt 5: Server konfigurieren
 
-Informationen zum Konfigurieren Ihres Servers für die Unterstützung mehrerer Websites finden Sie unter [Mehrere Websites oder ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html)) im _Konfigurationshandbuch_.
+Informationen zum Konfigurieren Ihres Servers für die Unterstützung mehrerer Websites finden Sie unter [Mehrere Websites oder &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html)) im _Konfigurationshandbuch_.
 
 Hilfe bei der Konfiguration Ihres Webservers finden Sie in den folgenden Ressourcen:
 
@@ -152,7 +152,7 @@ Befolgen Sie die Anweisungen, um [Store](store-urls.md)URLs zu konfigurieren.
 
 ### Schritt 3: Server konfigurieren
 
-Informationen zum Konfigurieren Ihres Servers für die Unterstützung mehrerer Websites finden Sie unter [Mehrere Websites oder ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html)) im _Konfigurationshandbuch_.
+Informationen zum Konfigurieren Ihres Servers für die Unterstützung mehrerer Websites finden Sie unter [Mehrere Websites oder &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html)) im _Konfigurationshandbuch_.
 
 Hilfe bei der Konfiguration des Webservers finden Sie in den folgenden Tutorials:
 

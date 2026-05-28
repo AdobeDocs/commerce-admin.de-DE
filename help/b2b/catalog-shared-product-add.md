@@ -26,15 +26,15 @@ Die folgenden Anforderungen müssen erfüllt sein, damit ein komplexes Produkt (
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Wechseln Sie für das Produkt im Raster, das Sie hinzufügen möchten, zur Spalte _[!UICONTROL Action]_und klicken Sie auf **[!UICONTROL Edit]**.
+1. Wechseln Sie für das Produkt im Raster, das Sie hinzufügen möchten, zur Spalte _[!UICONTROL Action]_&#x200B;und klicken Sie auf **[!UICONTROL Edit]**.
 
-1. Scrollen Sie nach unten, erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Product in Shared Catalogs]_und führen Sie die folgenden Schritte aus:
+1. Scrollen Sie nach unten, erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Product in Shared Catalogs]_&#x200B;und führen Sie die folgenden Schritte aus:
 
    - Aktivieren Sie das Kontrollkästchen jedes freigegebenen Katalogs, in dem das Produkt angezeigt werden soll. Um alle Kataloge auszuwählen, klicken Sie auf **[!UICONTROL Select all]**.
 
      ![Produkt in freigegebenen Katalogen](./assets/shared-catalog-assign-from-product.png){width="600" zoomable="yes"}
 
-     Der Name jedes ausgewählten Katalogs wird im Feld _[!UICONTROL Shared Catalogs]_angezeigt.
+     Der Name jedes ausgewählten Katalogs wird im Feld _[!UICONTROL Shared Catalogs]_&#x200B;angezeigt.
 
      ![Freigegebene Kataloge zugewiesen](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -46,7 +46,7 @@ Die folgenden Anforderungen müssen erfüllt sein, damit ein komplexes Produkt (
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
-1. Wechseln Sie für den freigegebenen Katalog im Raster zur Spalte _[!UICONTROL Action]_und wählen Sie **[!UICONTROL Set Pricing and Structure]**aus.
+1. Wechseln Sie für den freigegebenen Katalog im Raster zur Spalte _[!UICONTROL Action]_&#x200B;und wählen Sie **[!UICONTROL Set Pricing and Structure]**&#x200B;aus.
 
 1. Führen Sie in der Kategoriestruktur einen der folgenden Schritte aus:
 

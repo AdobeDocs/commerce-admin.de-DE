@@ -88,7 +88,7 @@ Füllen Sie _Einstellungen_ gemäß den folgenden Abschnitten aus:
 
    ![Erscheinungsbild des Produkts](./assets/pb-products-appearances.png){width="300"}
 
-   Wenn Sie das Produktkarussell auswählen, müssen Sie auch die [Karusselleinstellungen“ ](#carousel-settings).
+   Wenn Sie das Produktkarussell auswählen, müssen Sie auch die [Karusselleinstellungen“ &#x200B;](#carousel-settings).
 
 1. Wählen Sie **[!UICONTROL Select Products By]** die Methode für die Produktauswahl:
 

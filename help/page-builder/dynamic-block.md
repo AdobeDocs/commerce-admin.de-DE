@@ -41,7 +41,7 @@ Verwenden Sie den Inhaltstyp Dynamischer Block , um einen vorhandenen [dynamisch
 
    ![Ziehen eines Platzhalters für einen dynamischen Block auf den Schritt](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den leeren dynamischen Block-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den leeren dynamischen Block-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( (](./assets/pb-icon-settings.png){width="20"}) aus.
 
    ![Toolbox für dynamische Blöcke](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
@@ -129,7 +129,7 @@ Verwenden Sie den Inhaltstyp Dynamischer Block , um einen vorhandenen [dynamisch
 
 ## Bearbeiten der Einstellungen des dynamischen Block-Containers
 
-1. Bewegen Sie den Mauszeiger über den Container mit den dynamischen Blöcken, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ (Symbol ](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den Container mit den dynamischen Blöcken, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; (Symbol &#x200B;](./assets/pb-icon-settings.png){width="20"}) aus.
 
    ![Toolbox für dynamische Blöcke](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
 
@@ -161,7 +161,7 @@ Verwenden Sie den Inhaltstyp Dynamischer Block , um einen vorhandenen [dynamisch
 
 ## Entfernen eines dynamischen Blocks aus der Phase
 
-1. Bewegen Sie den Mauszeiger über den Container mit den dynamischen Blöcken, um die Toolbox anzuzeigen, und wählen _das Symbol_ Entfernen![ aus (Symbol ](./assets/pb-icon-remove.png){width="20"} entfernen).
+1. Bewegen Sie den Mauszeiger über den Container mit den dynamischen Blöcken, um die Toolbox anzuzeigen, und wählen _das Symbol_ Entfernen![&#x200B; aus (Symbol &#x200B;](./assets/pb-icon-remove.png){width="20"} entfernen).
 
 1. Wenn Sie zum Bestätigen aufgefordert werden, klicken Sie auf **[!UICONTROL OK]**.
 
