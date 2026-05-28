@@ -5,14 +5,14 @@ exl-id: d745cbd0-151b-4f82-bb6c-fb6b9565a014
 feature: Site Management, System
 source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
 
 # Store- und Site-Struktur
 
-Wenn Adobe Commerce oder Magento Open Source installiert ist, wird eine Hierarchie erstellt, die eine Haupt-Website, einen Store und eine Store-Ansicht enthält. Sie können bei Bedarf zusätzliche Websites, Stores und Store-Ansichten erstellen. Beispielsweise könnten Sie zusätzlich zu Ihrer Haupt-Website weitere Websites mit einer anderen Domain haben. Innerhalb jeder Website können Sie mehrere Stores haben und innerhalb jedes Stores separate Store-Ansichten. Viele Installationen haben eine Website und einen Store, aber mit mehreren Store-Ansichten, um verschiedene Sprachen zu unterstützen.
+Wenn Adobe Commerce oder Magento Open Source installiert ist, wird eine Hierarchie erstellt, die eine Haupt-Website-, Store- und Store-Ansicht enthält. Sie können bei Bedarf zusätzliche Websites, Stores und Store-Ansichten erstellen. Beispielsweise könnten Sie zusätzlich zu Ihrer Haupt-Website weitere Websites mit einer anderen Domain haben. Innerhalb jeder Website können Sie mehrere Stores haben und innerhalb jedes Stores separate Store-Ansichten. Viele Installationen haben eine Website und einen Store, aber mit mehreren Store-Ansichten, um verschiedene Sprachen zu unterstützen.
 
 Bevor Sie beginnen, planen Sie die Hierarchie Ihres Store-Katalogs im Voraus, da sie in der gesamten Konfiguration referenziert wird. Jeder Store kann über eine separate [Stammkategorie](../catalog/category-root.md) verfügen, die es ermöglicht, für jeden Store einen völlig anderen Satz von Hauptmenüoptionen zu verwenden.
 
@@ -20,7 +20,7 @@ Bevor Sie beginnen, planen Sie die Hierarchie Ihres Store-Katalogs im Voraus, da
 
 ## Hinzufügen von Stores
 
-Eine einzige Installation von Adobe Commerce oder Magento Open Source kann mehrere Stores mit einem gemeinsamen Administrator haben. Geschäfte, die sich unter derselben Website befinden, haben dieselbe IP-Adresse und Domain, verwenden dasselbe Sicherheitszertifikat und verwenden einen einzigen Checkout-Prozess.
+Eine einzelne Installation von Adobe Commerce oder Magento Open Source kann mehrere Stores haben, die sich einen Administrator teilen. Geschäfte, die sich unter derselben Website befinden, haben dieselbe IP-Adresse und Domain, verwenden dasselbe Sicherheitszertifikat und verwenden einen einzigen Checkout-Prozess.
 
 Es ist wichtig zu verstehen, dass die Stores denselben Code verwenden und einen Administrator freigeben. Jeder Store kann einen separaten Katalog haben oder die Stores können einen Katalog gemeinsam nutzen. Jeder Store kann über eine separate [Stammkategorie](../catalog/category-root.md) verfügen, die es ermöglicht, für jeden Store ein anderes Hauptmenü zu haben. Stores können auch unterschiedliche Branding-, Präsentations- und Inhalts-IDs haben. Nehmen Sie sich etwas Zeit, um Ihre Store-Hierarchie mit Blick auf das zukünftige Wachstum zu planen, bevor Sie beginnen, da sie während der gesamten Konfiguration verwendet wird.
 
@@ -33,7 +33,7 @@ Im Folgenden finden Sie einige Beispiele dafür, wie URLs für mehrere Stores ko
 | `yourdomain.com/store1`<br>`yourdomain.com/store2` | Jeder Store hat einen anderen Pfad, nutzt jedoch eine gemeinsame Domain. |
 | `store1.yourdomain.com`<br>`store2.yourdomain.com` | Jeder Store hat eine andere Subdomain als die primäre Domain. |
 
-Multi-Store-Installationen von Adobe Commerce müssen vom Administrator und auch über die Befehlszeile des Servers konfiguriert werden. Das Adobe Commerce [Konfigurationshandbuch](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=de) enthält detaillierte Anweisungen zum Konfigurieren der Serverumgebung.
+Multi-Store-Installationen von Adobe Commerce müssen vom Administrator und auch über die Befehlszeile des Servers konfiguriert werden. Das Adobe Commerce [Konfigurationshandbuch](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) enthält detaillierte Anweisungen zum Konfigurieren der Serverumgebung.
 
 ### Schritt 1: Store-Domain auswählen
 
@@ -85,7 +85,7 @@ Der erste Schritt besteht darin, zu wählen, wie Sie den Store positionieren mö
 
 1. Klicken Sie in _Seitenleiste_ Admin“ auf **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie unter _[!UICONTROL General]_&#x200B;im linken Bedienfeld auf der linken Seite **[!UICONTROL Web]**&#x200B;aus.
+1. Wählen Sie unter _[!UICONTROL General]_im linken Bedienfeld auf der linken Seite **[!UICONTROL Web]**aus.
 
 1. Setzen Sie in der oberen linken Ecke **[!UICONTROL Store View]** auf die Ansicht, die Sie für den neuen Store erstellt haben.
 
@@ -105,20 +105,20 @@ Der erste Schritt besteht darin, zu wählen, wie Sie den Store positionieren mö
 
 ### Schritt 5: Server konfigurieren
 
-Informationen zum Konfigurieren Ihres Servers für die Unterstützung mehrerer Websites finden Sie unter [Mehrere Websites oder &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=de)) im _Konfigurationshandbuch_.
+Informationen zum Konfigurieren Ihres Servers für die Unterstützung mehrerer Websites finden Sie unter [Mehrere Websites oder ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html)) im _Konfigurationshandbuch_.
 
 Hilfe bei der Konfiguration Ihres Webservers finden Sie in den folgenden Ressourcen:
 
-- [Einrichten mehrerer Websites mit NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=de)
-- [Einrichten mehrerer Websites mit Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=de)
+- [Einrichten mehrerer Websites mit NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
+- [Einrichten mehrerer Websites mit Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
 
-Informationen zu Adobe Commerce in Cloud-Infrastrukturen finden Sie unter [Einrichten mehrerer Websites oder Stores](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=de).
+Informationen zu Adobe Commerce in Cloud-Infrastrukturen finden Sie unter [Einrichten mehrerer Websites oder Stores](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).
 
 ## Hinzufügen von Websites
 
-Mehrere Websites können über eine einzige Adobe Commerce- oder Magento Open Source-Installation mit derselben Domain oder verschiedenen Domains eingerichtet werden. Standardmäßig haben Stores, die sich unter derselben Website befinden, dieselbe IP-Adresse und Domain, verwenden dasselbe Sicherheitszertifikat und nutzen einen einzigen Checkout-Prozess. Wenn Sie möchten, dass jeder Store einen dedizierten Checkout-Prozess unter seiner eigenen Domain hat, muss jeder Store eine eigene IP-Adresse und ein separates Sicherheitszertifikat haben.
+Mehrere Websites können über eine einzelne Adobe Commerce- oder Magento Open Source-Installation mit derselben Domain oder verschiedenen Domains eingerichtet werden. Standardmäßig haben Stores, die sich unter derselben Website befinden, dieselbe IP-Adresse und Domain, verwenden dasselbe Sicherheitszertifikat und nutzen einen einzigen Checkout-Prozess. Wenn Sie möchten, dass jeder Store einen dedizierten Checkout-Prozess unter seiner eigenen Domain hat, muss jeder Store eine eigene IP-Adresse und ein separates Sicherheitszertifikat haben.
 
-Installationen von Adobe Commerce oder Magento Open Source für mehrere Standorte müssen vom Administrator und auch über die Befehlszeile des Servers konfiguriert werden. Das Commerce [Konfigurationshandbuch](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=de) enthält detaillierte Anweisungen zum Konfigurieren der Serverumgebung.
+Installationen von Adobe Commerce oder Magento Open Source an mehreren Standorten müssen vom Administrator und auch über die Befehlszeile des Servers konfiguriert werden. Das Commerce [Konfigurationshandbuch](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html) enthält detaillierte Anweisungen zum Konfigurieren der Serverumgebung.
 
 ![Umfang - Websites](./assets/scope-multisite.svg){width="550"}
 
@@ -152,11 +152,11 @@ Befolgen Sie die Anweisungen, um [Store](store-urls.md)URLs zu konfigurieren.
 
 ### Schritt 3: Server konfigurieren
 
-Informationen zum Konfigurieren Ihres Servers für die Unterstützung mehrerer Websites finden Sie unter [Mehrere Websites oder &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=de)) im _Konfigurationshandbuch_.
+Informationen zum Konfigurieren Ihres Servers für die Unterstützung mehrerer Websites finden Sie unter [Mehrere Websites oder ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html)) im _Konfigurationshandbuch_.
 
 Hilfe bei der Konfiguration des Webservers finden Sie in den folgenden Tutorials:
 
-- [Einrichten mehrerer Websites mit NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html?lang=de)
-- [Einrichten mehrerer Websites mit Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html?lang=de)
+- [Einrichten mehrerer Websites mit NGNX](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-nginx.html)
+- [Einrichten mehrerer Websites mit Apache](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-apache.html)
 
-Informationen zu Adobe Commerce in Cloud-Infrastrukturen finden Sie unter [Einrichten mehrerer Websites oder Stores](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=de).
+Informationen zu Adobe Commerce in Cloud-Infrastrukturen finden Sie unter [Einrichten mehrerer Websites oder Stores](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html).

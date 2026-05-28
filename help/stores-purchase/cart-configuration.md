@@ -5,7 +5,7 @@ exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Die Warenkorbseite kann so konfiguriert werden, dass sie immer dann angezeigt wi
 
 ## Angebotslebensdauer
 
-Mit der Installation und Aktivierung von Adobe Commerce B2B können Sie Unterstützung für die Funktion _Quotes_ hinzufügen. Mit dieser Funktion können autorisierte Käufer den Prozess der Preisaushandlung starten, indem sie eine Anfrage aus dem Warenkorb senden. Das _Quotes_-Raster listet jedes erhaltene Angebot auf und bewahrt einen Verlauf der Kommunikation zwischen Käufer und Verkäufer auf. Weitere Informationen zu den B2B-Funktionen finden Sie unter [Ausgehandelte &#x200B;](../b2b/quotes.md)) im _Adobe Commerce B2B-Benutzerhandbuch_.
+Mit der Installation und Aktivierung von Adobe Commerce B2B können Sie Unterstützung für die Funktion _Quotes_ hinzufügen. Mit dieser Funktion können autorisierte Käufer den Prozess der Preisaushandlung starten, indem sie eine Anfrage aus dem Warenkorb senden. Das _Quotes_-Raster listet jedes erhaltene Angebot auf und bewahrt einen Verlauf der Kommunikation zwischen Käufer und Verkäufer auf. Weitere Informationen zu den B2B-Funktionen finden Sie unter [Ausgehandelte ](../b2b/quotes.md)) im _Adobe Commerce B2B-Benutzerhandbuch_.
 
 Sie können feststellen, wie lange ein Preis gültig ist, indem Sie die Lebensdauer des Warenkorbangebots in der Konfiguration festlegen. Wenn beispielsweise ein Käufer einen Warenkorb nach mehreren Tagen unbeaufsichtigt lässt, ist der Angebotspreis für einige Artikel möglicherweise nicht mehr identisch. Standardmäßig ist die Lebensdauer des Angebots auf 30 Tage festgelegt.
 
@@ -143,7 +143,7 @@ Mit der Konfiguration können Sie einen Mindestbetrag angeben, den Zwischensumme
 
 ![Der Warenkorb zeigt eine Nachricht zur Mindestbestellung an](./assets/storefront-cart-minimum-order-amount.png){width="700" zoomable="yes"}
 
-**_So konfigurieren Sie eine Mindestbestellmenge:_**
+**_So konfigurieren Sie einen Mindestbestellbetrag:_**
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -235,12 +235,12 @@ Das Miniaturbild für gruppierte und konfigurierbare Produkte kann so eingestell
 
    ![Die Konfigurationseinstellungen für den Warenkorb wurden auf der Seite erweitert](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"}
 
-1. Legen Sie **[!UICONTROL Grouped Product Image]** fest, um die Miniaturansicht zu bestimmen, die im Warenkorb für (gruppierte [) verwendet &#x200B;](../catalog/product-create-grouped.md):
+1. Legen Sie **[!UICONTROL Grouped Product Image]** fest, um die Miniaturansicht zu bestimmen, die im Warenkorb für (gruppierte [) verwendet ](../catalog/product-create-grouped.md):
 
    - `Product Thumbnail Itself` - Verwendet die Miniaturansicht, die der Produktvariante zugewiesen ist, die dem Warenkorb hinzugefügt wird.
    - `Parent Product Thumbnail` - Verwendet die Miniaturansicht, die dem übergeordneten Produkt zugewiesen ist.
 
-1. Legen Sie **[!UICONTROL Configurable Product Image]** fest, um die Miniaturansicht zu bestimmen, die im Warenkorb für ([&#x200B; Produkte) verwendet &#x200B;](../catalog/product-create-configurable.md):
+1. Legen Sie **[!UICONTROL Configurable Product Image]** fest, um die Miniaturansicht zu bestimmen, die im Warenkorb für ([ Produkte) verwendet ](../catalog/product-create-configurable.md):
 
    - `Product Thumbnail Itself` - Verwendet die Miniaturansicht, die der Produktvariante zugewiesen ist, die dem Warenkorb hinzugefügt wird.
    - `Parent Product Thumbnail` - Verwendet die Miniaturansicht, die dem übergeordneten Produkt zugewiesen ist.
@@ -321,7 +321,7 @@ Das Geschenkverpackungsbild sollte ein Muster sein, das das sich wiederholende M
 
 1. Um eine Miniaturansicht **[!UICONTROL Image]** Geschenkverpackung hochzuladen, klicken Sie auf **[!UICONTROL Choose File]** und wählen Sie die hochzuladende Datei aus Ihrem Verzeichnis aus.
 
-   Nach dem Speichern des Datensatzes wird in der _[!UICONTROL Gift Wrapping Information]_&#x200B;eine Miniaturansicht des Bildes angezeigt.
+   Nach dem Speichern des Datensatzes wird in der _[!UICONTROL Gift Wrapping Information]_eine Miniaturansicht des Bildes angezeigt.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 

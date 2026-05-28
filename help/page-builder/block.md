@@ -5,7 +5,7 @@ exl-id: fcedb125-e0c8-4b59-bd26-7f3912e0db2a
 feature: Page Builder, Page Content
 source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Verwenden Sie den _Block_-Inhaltstyp, um einen vorhandenen, aktiven [Block](../c
 
 ## Blockeinstellungen bearbeiten
 
-1. Bewegen Sie den Mauszeiger über den Block-Container und wählen Sie _Symbol_ Einstellungen![&#x200B; ( (](./assets/pb-icon-settings.png){width="25"}) ) in der Toolbox aus.
+1. Bewegen Sie den Mauszeiger über den Block-Container und wählen Sie _Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="25"}) ) in der Toolbox aus.
 
    ![Block-Toolbox](./assets/pb-add-content-block-toolbox.png){width="600" zoomable="yes"}
 
@@ -143,7 +143,7 @@ Verwenden Sie den _Block_-Inhaltstyp, um einen vorhandenen, aktiven [Block](../c
 
 ## Entfernen eines Blocks aus der Phase
 
-1. Bewegen Sie den Mauszeiger über den Block-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Entfernen![&#x200B; (Symbol &#x200B;](./assets/pb-icon-remove.png)) aus.
+1. Bewegen Sie den Mauszeiger über den Block-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Entfernen![ (Symbol ](./assets/pb-icon-remove.png)) aus.
 
 1. Wenn Sie zum Bestätigen aufgefordert werden, klicken Sie auf **[!UICONTROL OK]**.
 

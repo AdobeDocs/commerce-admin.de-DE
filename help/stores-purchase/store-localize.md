@@ -5,7 +5,7 @@ exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Sprachpakete finden Sie unter [Übersetzungen und Lokalisierung](https://marketp
 
 ## Schritt 1: Installieren eines Sprachpakets
 
-Befolgen Sie die Standardanweisungen für die Installation der Language Pack-Erweiterung. Detaillierte Informationen zum Installieren einer Erweiterung finden Sie unter [Allgemeine CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=de)Installation im _Erweiterungshandbuch_.
+Befolgen Sie die Standardanweisungen für die Installation der Language Pack-Erweiterung. Detaillierte Informationen zum Installieren einer Erweiterung finden Sie unter [Allgemeine CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)Installation im _Erweiterungshandbuch_.
 
 ## Schritt 2: Erstellen Sie eine Store-Ansicht für die Sprache
 
@@ -88,7 +88,7 @@ Wenn Ihr Store mehrere Ansichten in verschiedenen Sprachen hat, sind in jeder St
 
 1. Wählen Sie im linken Bedienfeld **[!UICONTROL Manage Labels]** aus.
 
-1. Geben Sie im Abschnitt _[!UICONTROL Manage Titles]_&#x200B;für jede Shop-Ansicht einen übersetzten Titel ein.
+1. Geben Sie im Abschnitt _[!UICONTROL Manage Titles]_für jede Shop-Ansicht einen übersetzten Titel ein.
 
    ![Geben Sie übersetzte Beschriftungen ein](./assets/product-attribute-labels-translate.png){width="600" zoomable="yes"}
 
@@ -104,7 +104,7 @@ Wenn Ihr Store mehrere Ansichten in verschiedenen Sprachen hat, sind in jeder St
 
 1. Für _grundlegende Informationen_ übersetzen Sie **[!UICONTROL Category Name]**.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Content]_&#x200B;und übersetzen Sie **[!UICONTROL Description]**.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Content]_und übersetzen Sie **[!UICONTROL Description]**.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Search Engine Optimization Settings]** und übersetzen Sie die folgenden Felder:
 
@@ -112,7 +112,7 @@ Wenn Ihr Store mehrere Ansichten in verschiedenen Sprachen hat, sind in jeder St
    - **[!UICONTROL Meta Keywords]**
    - **[!UICONTROL Meta Description]**
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Search Engine Optimization Settings]_&#x200B;wie folgt vor, um die **[!UICONTROL URL Key]**&#x200B;zu übersetzen:
+1. Gehen Sie im Abschnitt _[!UICONTROL Search Engine Optimization Settings]_wie folgt vor, um die **[!UICONTROL URL Key]**zu übersetzen:
 
    - Deaktivieren Sie das **[!UICONTROL Use Default Value]** Kontrollkästchen rechts neben dem Feld.
 

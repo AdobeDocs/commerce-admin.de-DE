@@ -5,7 +5,7 @@ exl-id: 8ef38669-a6f6-493b-b963-b0fc4e3bbff4
 feature: Page Builder, Page Content, Products
 source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Füllen Sie _Einstellungen_ gemäß den folgenden Abschnitten aus:
 
    ![Erscheinungsbild des Produkts](./assets/pb-products-appearances.png){width="300"}
 
-   Wenn Sie das Produktkarussell auswählen, müssen Sie auch die [Karusselleinstellungen“ &#x200B;](#carousel-settings).
+   Wenn Sie das Produktkarussell auswählen, müssen Sie auch die [Karusselleinstellungen“ ](#carousel-settings).
 
 1. Wählen Sie **[!UICONTROL Select Products By]** die Methode für die Produktauswahl:
 
