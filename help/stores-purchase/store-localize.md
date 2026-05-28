@@ -18,7 +18,7 @@ Sprachpakete finden Sie unter [Übersetzungen und Lokalisierung](https://marketp
 
 ## Schritt 1: Installieren eines Sprachpakets
 
-Befolgen Sie die Standardanweisungen für die Installation der Language Pack-Erweiterung. Detaillierte Informationen zum Installieren einer Erweiterung finden Sie unter [Allgemeine CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html)Installation im _Erweiterungshandbuch_.
+Befolgen Sie die Standardanweisungen für die Installation der Language Pack-Erweiterung. Detaillierte Informationen zum Installieren einer Erweiterung finden Sie unter [Allgemeine CLI](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=de)Installation im _Erweiterungshandbuch_.
 
 ## Schritt 2: Erstellen Sie eine Store-Ansicht für die Sprache
 
