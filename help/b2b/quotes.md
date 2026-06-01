@@ -3,7 +3,7 @@ title: Verhandelbare Kursofferten
 description: Erfahren Sie mehr über Angebots-Workflows und wie Sie diesen Service für Ihre Unternehmenskonten bereitstellen können.
 exl-id: c278818b-fa5a-4e7a-8ca2-c4b757da4f05
 feature: B2B, Quotes
-source-git-commit: 7f4993ff8b16beda2a371737fb5a8ecb5f9c9396
+source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Angebote können vom Käufer oder vom Verkäufer initiiert werden.
 
 Dieses Diagramm zeigt die Angebotsstatus für einen Käufer und Verkäufer (Administrator) in den verschiedenen Schritten beim Initiieren eines Angebots an.
 
-![Angebotstatus-Workflow](./assets/quote-status-workflow.svg){width="700" zoomable="yes"}
+![Angebotstatus-Workflow](./assets/quote-status-workflow.png){width="700" zoomable="yes"}
 
 **Schritt 1: Angebotserstellung (neu)**
 

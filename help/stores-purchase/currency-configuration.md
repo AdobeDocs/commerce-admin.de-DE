@@ -3,7 +3,7 @@ title: Währungskonfiguration
 description: Erfahren Sie, wie Sie den Umfang der Basiswährung festlegen und die Währungen angeben, die Sie akzeptieren, sowie die Währung, die Sie für die Preisanzeige verwenden möchten.
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
+source-git-commit: 0b93c90af4bface05fe1342ac756854f7f931989
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Bevor Sie individuelle Währungskurse einrichten, müssen Sie zunächst den Umfa
 
 Außerdem geben Sie die Währungen an, die Sie akzeptieren, und welche Währung Sie für die Anzeige von [Preisen](../catalog/catalog-price-scope.md) in Ihrem Geschäft verwenden möchten. Im folgenden Diagramm wird der Umfang der Basiswährung auf Website-Ebene festgelegt, sodass jede Website eine andere Basiswährung haben kann.
 
-![Diagramm zum Währungsumfang](./assets/scope-currency-config.svg){width="600" zoomable="yes"}
+![Diagramm zum Währungsumfang](./assets/scope-currency-config.png){width="600" zoomable="yes"}
 
 ## Schritt 1: Akzeptierte Währungen auswählen
 
