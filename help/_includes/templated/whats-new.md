@@ -1,7 +1,7 @@
 ---
-source-git-commit: 03bb78d1f0c138687e377cc751b4ca62ac87013d
+source-git-commit: 22d954e993e915fc76355ecea03a4382303c8ef5
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '153'
 ht-degree: 1%
 
 ---
@@ -37,28 +37,6 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
         Größere Aktualisierung
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/d87900bf27745154d5a643dc828d5c1abc0130df">verpflichten</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### &#x200B;1. April 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beschreibung</th>
-      <th>Typ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p><code>numeric</code> und <code>file</code><a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/product-attributes/attributes-input-types"> Attributeingabetypen</a> wurden hinzugefügt und eine Seite <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/config/catalog/product-file-attributes">Produktdateiattribute</a> in der Konfigurationsreferenz hinzugefügt.</p>
-</td>
-      <td>
-        Größere Aktualisierung
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/907fc809707f64973e3dffe6f9089ca6bd358989">verpflichten</a></td>
     </tr>
   </tbody>
 </table>
