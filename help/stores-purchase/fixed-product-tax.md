@@ -5,7 +5,7 @@ exl-id: f1b475cb-a6fe-4b51-a0c3-7d0a202bd332
 feature: Checkout, Invoices, Taxes, Products
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---

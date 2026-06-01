@@ -6,7 +6,7 @@ feature: B2B, Companies, Catalog Management
 role: Admin
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---

@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Google API]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Sales] &gt; [!UICONTROL Google API] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Sales] > [!UICONTROL Google API]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Sales] > [!UICONTROL Google API] des Commerce Admin.
 exl-id: 5031ad3d-1c9a-4bc6-9bfa-683414dca979
 feature: Configuration, Marketing Tools
 source-git-commit: 5ee52e8d4f2ebb8fc28f13cca53e87c3529f76d3
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---

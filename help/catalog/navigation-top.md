@@ -5,7 +5,7 @@ exl-id: 8b71fe73-2716-4820-9e57-4cb1e6888132
 feature: Catalog Management, Categories, Site Navigation
 source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---

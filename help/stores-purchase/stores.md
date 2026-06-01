@@ -5,14 +5,14 @@ exl-id: d745cbd0-151b-4f82-bb6c-fb6b9565a014
 feature: Site Management, System
 source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
 
 # Store- und Site-Struktur
 
-Wenn Adobe Commerce oder Magento Open Source installiert ist, wird eine Hierarchie erstellt, die eine Haupt-Website, einen Store und eine Store-Ansicht enthält. Sie können bei Bedarf zusätzliche Websites, Stores und Store-Ansichten erstellen. Beispielsweise könnten Sie zusätzlich zu Ihrer Haupt-Website weitere Websites mit einer anderen Domain haben. Innerhalb jeder Website können Sie mehrere Stores haben und innerhalb jedes Stores separate Store-Ansichten. Viele Installationen haben eine Website und einen Store, aber mit mehreren Store-Ansichten, um verschiedene Sprachen zu unterstützen.
+Wenn Adobe Commerce oder Magento Open Source installiert ist, wird eine Hierarchie erstellt, die eine Haupt-Website-, Store- und Store-Ansicht enthält. Sie können bei Bedarf zusätzliche Websites, Stores und Store-Ansichten erstellen. Beispielsweise könnten Sie zusätzlich zu Ihrer Haupt-Website weitere Websites mit einer anderen Domain haben. Innerhalb jeder Website können Sie mehrere Stores haben und innerhalb jedes Stores separate Store-Ansichten. Viele Installationen haben eine Website und einen Store, aber mit mehreren Store-Ansichten, um verschiedene Sprachen zu unterstützen.
 
 Bevor Sie beginnen, planen Sie die Hierarchie Ihres Store-Katalogs im Voraus, da sie in der gesamten Konfiguration referenziert wird. Jeder Store kann über eine separate [Stammkategorie](../catalog/category-root.md) verfügen, die es ermöglicht, für jeden Store einen völlig anderen Satz von Hauptmenüoptionen zu verwenden.
 
@@ -20,7 +20,7 @@ Bevor Sie beginnen, planen Sie die Hierarchie Ihres Store-Katalogs im Voraus, da
 
 ## Hinzufügen von Stores
 
-Eine einzige Installation von Adobe Commerce oder Magento Open Source kann mehrere Stores mit einem gemeinsamen Administrator haben. Geschäfte, die sich unter derselben Website befinden, haben dieselbe IP-Adresse und Domain, verwenden dasselbe Sicherheitszertifikat und verwenden einen einzigen Checkout-Prozess.
+Eine einzelne Installation von Adobe Commerce oder Magento Open Source kann mehrere Stores haben, die sich einen Administrator teilen. Geschäfte, die sich unter derselben Website befinden, haben dieselbe IP-Adresse und Domain, verwenden dasselbe Sicherheitszertifikat und verwenden einen einzigen Checkout-Prozess.
 
 Es ist wichtig zu verstehen, dass die Stores denselben Code verwenden und einen Administrator freigeben. Jeder Store kann einen separaten Katalog haben oder die Stores können einen Katalog gemeinsam nutzen. Jeder Store kann über eine separate [Stammkategorie](../catalog/category-root.md) verfügen, die es ermöglicht, für jeden Store ein anderes Hauptmenü zu haben. Stores können auch unterschiedliche Branding-, Präsentations- und Inhalts-IDs haben. Nehmen Sie sich etwas Zeit, um Ihre Store-Hierarchie mit Blick auf das zukünftige Wachstum zu planen, bevor Sie beginnen, da sie während der gesamten Konfiguration verwendet wird.
 
@@ -116,9 +116,9 @@ Informationen zu Adobe Commerce in Cloud-Infrastrukturen finden Sie unter [Einri
 
 ## Hinzufügen von Websites
 
-Mehrere Websites können über eine einzige Adobe Commerce- oder Magento Open Source-Installation mit derselben Domain oder verschiedenen Domains eingerichtet werden. Standardmäßig haben Stores, die sich unter derselben Website befinden, dieselbe IP-Adresse und Domain, verwenden dasselbe Sicherheitszertifikat und nutzen einen einzigen Checkout-Prozess. Wenn Sie möchten, dass jeder Store einen dedizierten Checkout-Prozess unter seiner eigenen Domain hat, muss jeder Store eine eigene IP-Adresse und ein separates Sicherheitszertifikat haben.
+Mehrere Websites können über eine einzelne Adobe Commerce- oder Magento Open Source-Installation mit derselben Domain oder verschiedenen Domains eingerichtet werden. Standardmäßig haben Stores, die sich unter derselben Website befinden, dieselbe IP-Adresse und Domain, verwenden dasselbe Sicherheitszertifikat und nutzen einen einzigen Checkout-Prozess. Wenn Sie möchten, dass jeder Store einen dedizierten Checkout-Prozess unter seiner eigenen Domain hat, muss jeder Store eine eigene IP-Adresse und ein separates Sicherheitszertifikat haben.
 
-Installationen von Adobe Commerce oder Magento Open Source für mehrere Standorte müssen vom Administrator und auch über die Befehlszeile des Servers konfiguriert werden. Das Commerce [Konfigurationshandbuch](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=de) enthält detaillierte Anweisungen zum Konfigurieren der Serverumgebung.
+Installationen von Adobe Commerce oder Magento Open Source an mehreren Standorten müssen vom Administrator und auch über die Befehlszeile des Servers konfiguriert werden. Das Commerce [Konfigurationshandbuch](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/multi-sites/ms-overview.html?lang=de) enthält detaillierte Anweisungen zum Konfigurieren der Serverumgebung.
 
 ![Umfang - Websites](./assets/scope-multisite.svg){width="550"}
 

@@ -5,7 +5,7 @@ exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Mit der Konfiguration können Sie einen Mindestbetrag angeben, den Zwischensumme
 
 ![Der Warenkorb zeigt eine Nachricht zur Mindestbestellung an](./assets/storefront-cart-minimum-order-amount.png){width="700" zoomable="yes"}
 
-**_So konfigurieren Sie eine Mindestbestellmenge:_**
+**_So konfigurieren Sie einen Mindestbestellbetrag:_**
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

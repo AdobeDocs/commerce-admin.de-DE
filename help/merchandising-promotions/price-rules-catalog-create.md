@@ -5,7 +5,7 @@ exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
 source-git-commit: 5e21259c196419f9a337795f9bec29f0737e84ca
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
    ![Katalogpreisregel - Aktionen](./assets/price-rule-catalog-actions.png){width="600" zoomable="yes"}
 
-1. Legen Sie **[!UICONTROL Pricing Structure Rules]** unter **[!UICONTROL Apply]** auf eine der folgenden Einstellungen fest:
+1. Legen Sie **[!UICONTROL Apply]** unter **[!UICONTROL Pricing Structure Rules]** auf eine der folgenden Einstellungen fest:
 
    - `Apply as percentage of original` - Rabattposition durch Abzug eines Prozentsatzes vom regulären Preis. Beispiel: Geben Sie 10 als Rabattbetrag für einen Endpreis ein, der um 10 % unter dem regulären Preis liegt.
    - `Apply as fixed amount` - Rabattposten durch Abzug eines festen Betrags vom regulären Preis. Beispiel: Geben Sie 10 als Rabattbetrag für einen Endpreis ein, der 10 $ unter dem regulären Preis liegt.

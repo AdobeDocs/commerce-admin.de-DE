@@ -5,7 +5,7 @@ exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
 source-git-commit: d981a0365cc7768394ca03f4352be45caef87a73
 workflow-type: tm+mt
-source-wordcount: '3382'
+source-wordcount: '3399'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ In diesem Schritt werden die Bedingungen beschrieben, die für eine Bestellung e
 
 1. Wenn der nächste Teil der Bedingung angezeigt wird, klicken Sie auf die Elemente der Anweisung, damit Sie sehen können, wo sich die einzelnen Links mit Variablenwerten befinden.
 
-1. Klicken Sie auf den Link „Mehr“ (…) und geben Sie `100` ein.
+1. Klicken Sie auf „Mehr“ (…) verknüpfen und `100` eingeben.
 
    Diese Bedingung erfordert, dass die Gesamtmenge des Warenkorbs `101` oder größer ist.
 
@@ -125,7 +125,7 @@ In diesem Schritt werden die Bedingungen beschrieben, die für eine Bestellung e
 
    ![Preisregelbedingung für Warenkorb - Produktattributkategorie](./assets/condition-products-subselection4.png){width="600" zoomable="yes"}
 
-1. Klicken Sie im nächsten Teil der Bedingung auf den Link _mehr_ (**…**), um das Eingabefeld anzuzeigen, und öffnen Sie dann die _Auswahl_ (![Listensymbol](../assets/icon-list-chooser.png)), um die Kategoriestruktur anzuzeigen.
+1. Klicken Sie im nächsten Teil der Bedingung auf _mehr_ (**…**) , um das Eingabefeld anzuzeigen, und öffnen Sie dann die _Auswahl_ (![Listensymbol](../assets/icon-list-chooser.png)), um die Kategoriestruktur anzuzeigen.
 
 1. Aktivieren Sie das Kontrollkästchen der Kategorie, die Sie als Bedingung für die Preisregel verwenden möchten, und klicken Sie auf das Symbol ![Hinzufügen](../assets/icon-checkmark-green-circle.png), um die Kategorieauswahl zu akzeptieren.
 
@@ -198,7 +198,7 @@ Sie können eine Bedingung für eine Warenkorb-Preisregel basierend auf einer Re
 
    ![Real-Time CDP-Zielgruppenbedingung auswählen](./assets/rtcdp-conditions.png){width="300"}
 
-1. Wählen Sie das Symbol _Mehr_ (**…**) aus, klicken Sie auf **[!UICONTROL Open Chooser]** und zeigen Sie alle verfügbaren Real-Time CDP-Zielgruppen an.
+1. Wählen Sie die _Mehr_ (**…**) auf **[!UICONTROL Open Chooser]** klicken und alle verfügbaren Real-Time CDP-Zielgruppen anzeigen.
 
    ![Anzeigen von Real-Time CDP-Zielgruppen](./assets/rtcdp-conditions-chooser.png){width="600" zoomable="yes"}
 
@@ -328,7 +328,7 @@ Die Bezeichnung wird im Abschnitt „Gesamtsummen“ der Bestellung angezeigt, u
 
 In diesem Video erfahren Sie mehr über das Erstellen von Regeln für den Warenkorbpreis:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411359?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3411359?captions=ger&quality=12&learn=on)
 
 ## Feldbeschreibungen
 
@@ -345,7 +345,7 @@ In diesem Video erfahren Sie mehr über das Erstellen von Regeln für den Warenk
 | [!UICONTROL Uses per Coupon] | Bestimmt, wie oft der Gutscheincode verwendet werden kann. Wenn es keine Beschränkung gibt, lassen Sie das Feld leer. |
 | [!UICONTROL Uses per Customer] | Bestimmt, wie oft die Warenkorb-Preisregel von demselben registrierten Kunden verwendet werden kann, der zu einer ausgewählten Kundengruppe gehört. Gilt nicht für Gasteinkäufer, die Mitglieder der Kundengruppe NOT LOGGED IN sind, oder für Kunden, die einkaufen, ohne sich bei ihren Konten anzumelden. Für keine Beschränkung lassen Sie das Feld leer. |
 | [!UICONTROL Priority] | Eine Zahl, die die Priorität dieser Regel im Verhältnis zu anderen angibt. Die Prioritäten von der höchsten zur niedrigsten sind `0,1,2,3...` |
-| [!UICONTROL Public in RSS Feed] | Legt fest, ob die Promotion im öffentlichen RSS-Feed Ihres Stores enthalten ist. Optionen:  `Yes`/`No` |
+| [!UICONTROL Public in RSS Feed] | Legt fest, ob die Promotion im öffentlichen RSS-Feed Ihres Stores enthalten ist. Optionen: `Yes` / `No` |
 | [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Das erste Datum, an dem der Coupon verwendet werden kann. |
 | [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Das letzte Datum, an dem der Coupon verwendet werden kann. |
 

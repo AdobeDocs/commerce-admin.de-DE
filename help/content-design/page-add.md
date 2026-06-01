@@ -5,7 +5,7 @@ exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 7ef8b9a1c56e4c8ee5ce8d3be30bf336c35a6241
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -170,7 +170,7 @@ Jede Inhaltsseite kann als Vorlage verwendet und als Duplikat gespeichert werden
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Suchen Sie im Raster die Seite, die Sie duplizieren möchten, und klicken Sie in der Spalte **[!UICONTROL Edit]** auf _[!UICONTROL Action]_.
+1. Suchen Sie im Raster die Seite, die Sie duplizieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Klicken Sie auf den **[!UICONTROL Save]** Pfeil und wählen Sie **[!UICONTROL Save & Duplicate]** aus.
 

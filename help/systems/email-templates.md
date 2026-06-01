@@ -5,7 +5,7 @@ exl-id: dfe28c77-607e-41e4-b872-3a07bcd67962
 feature: Communications, Configuration
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Eine detaillierte Liste der Konfigurationseinstellungen finden Sie unter [_Trans
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte **[!UICONTROL Edit]** auf _[!UICONTROL Action]_.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Erweitern Sie unter _[!UICONTROL Other Settings]_![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Transactional Emails]**.
 

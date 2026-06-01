@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL Advanced] &gt; [!UICONTROL System]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Advanced] &gt; [!UICONTROL System] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Advanced] > [!UICONTROL System]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Advanced] > [!UICONTROL System] des Commerce Admin.
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
 source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1682'
 ht-degree: 1%
 
 ---
@@ -153,11 +153,11 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Systems
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enable Backup] | Global | Legt fest, ob die Commerce-Instanz Backups zulässt. Optionen: `Yes` / `No` |
-| [!UICONTROL Enable Scheduled Backup] | Global | (Wird angezeigt, wenn _[!UICONTROL Enable Backup]_&#x200B;auf `Yes` gesetzt ist.) Legt fest, ob die Commerce-Instanz automatisch nach einem regulären Zeitplan gesichert wird. Optionen: `Yes` / `No` |
+| [!UICONTROL Enable Scheduled Backup] | Global | (Wird angezeigt, wenn _[!UICONTROL Enable Backup]_&#x200B;auf `Yes` gesetzt ist.) Bestimmt, ob die Commerce-Instanz automatisch nach einem regulären Zeitplan gesichert wird. Optionen: `Yes` / `No` |
 | [!UICONTROL Scheduled Backup Type] | Global | (Wird angezeigt, wenn _[!UICONTROL Enable Scheduled Backup]_&#x200B;auf `Yes` gesetzt ist.) Bestimmt die Elemente der Commerce-Instanz, die im Backup enthalten sind. Optionen: `Database` / `Database and Media` / `System` / `System (excluding Media)` |
-| [!UICONTROL Start Time] | Global | (Wird angezeigt, wenn [!UICONTROL Enable Scheduled Backup] auf `Yes` gesetzt ist.) Gibt die Stunde, Minute und Sekunde an, mit der das geplante Backup beginnt. |
-| [!UICONTROL Frequency] | Global | (Wird angezeigt, wenn [!UICONTROL Enable Scheduled Backup] auf `Yes` gesetzt ist.) Legt fest, wie oft das geplante Backup durchgeführt wird. Optionen: `Daily` / `Weekly` / `Monthly` |
-| [!UICONTROL Maintenance Mode] | Global | (Wird angezeigt, wenn [!UICONTROL Enable Scheduled Backup] auf `Yes` gesetzt ist.) Legt fest, ob der Speicher während des geplanten Backups in den Wartungsmodus versetzt wird. Optionen: `Yes` / `No` |
+| [!UICONTROL Start Time] | Global | (Wird angezeigt, wenn [!UICONTROL Enable Scheduled Backup] auf `Yes` gesetzt ist.) Gibt die Stunde, Minute und Sekunde an, zu der das geplante Backup beginnt. |
+| [!UICONTROL Frequency] | Global | (Wird angezeigt, wenn [!UICONTROL Enable Scheduled Backup] auf `Yes` gesetzt ist.) Bestimmt, wie oft das geplante Backup durchgeführt wird. Optionen: `Daily` / `Weekly` / `Monthly` |
+| [!UICONTROL Maintenance Mode] | Global | (Wird angezeigt, wenn [!UICONTROL Enable Scheduled Backup] auf `Yes` gesetzt ist.) Bestimmt, ob der Speicher während des geplanten Backups in den Wartungsmodus versetzt wird. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -188,7 +188,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Vollsei
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Global | Bestimmt die Anwendung, die zum Verwalten des ganzseitigen Caches verwendet wird. Optionen: <br/>**`Built-in Application`**- Wird für die Produktionsumgebung nicht empfohlen.<br/>**`Varnish Caching`** - Wird für die Produktionsumgebung empfohlen. |
 | [!UICONTROL TTL for public content] | Global | Bestimmt die Lebensdauer des öffentlichen Inhalts-Caches in Sekunden. Standardwert: `120` |
-| [!UICONTROL Handles param size] | global | Gibt die maximale Anzahl von [Layout-Handles](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) an, die am [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=de) HTTP-Endpunkt verarbeitet werden sollen. Durch Größenbeschränkungen können die Sicherheit und Leistung verbessert werden. Standardwert: `100` |
+| [!UICONTROL Handles param size] | global | Gibt die maximale Anzahl von [Layout-Handles](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) an, die am [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP-Endpunkt verarbeitet werden sollen. Durch Größenbeschränkungen können die Sicherheit und Leistung verbessert werden. Standardwert: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Gibt die IP-Adressen an, die die Lackkonfiguration bereinigen können, um eine Konfigurationsdatei zu generieren. Trennen Sie mehrere Einträge durch Kommas. Standardwert: `localhost` |
 | [!UICONTROL Backend host] | Global | Gibt den Backend-Host an, der Konfigurationsdateien generiert. Standardwert: `localhost` |

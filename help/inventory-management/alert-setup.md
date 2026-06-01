@@ -5,7 +5,7 @@ exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 feature: Inventory, Configuration
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---

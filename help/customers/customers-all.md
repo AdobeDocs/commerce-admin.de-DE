@@ -4,7 +4,7 @@ description: Das Raster Kunden listet alle Kunden auf, die sich für ein Konto b
 exl-id: a7d9b098-4892-492c-b937-61cc33b836d8
 source-git-commit: c855a691ed33e1e6e74865ebdfb30ddad21ad83e
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ In Admin listet das [!UICONTROL Customers] alle Kunden auf, die sich für ein Ko
 | **[!UICONTROL Web Site]** | Die Website in der Store-Hierarchie, mit der das Kundenkonto verknüpft ist. |
 | **[!UICONTROL Confirmed Email]** | Zeigt an, ob eine Bestätigungs-E-Mail erforderlich ist. |
 | **[!UICONTROL Account Created In]** | Gibt die Store-Ansicht an, aus der das Kundenkonto erstellt wurde. |
-| **[!UICONTROL Date of Birth]** | Das Geburtsdatum des Kunden. <br><br>**_Wichtig:_**&#x200B;Halten Sie sich im Einklang mit den aktuellen Best Practices für Sicherheit und Datenschutz vor potenziellen Rechts- und Sicherheitsrisiken, die mit der Speicherung des vollständigen Geburtsdatums der Kundinnen und Kunden (Monat, Tag, Jahr) mit anderen persönlichen Kennungen verbunden sind. Es wird empfohlen, die Speicherung der vollständigen Geburtsdaten von Kundinnen und Kunden zu begrenzen und vorzuschlagen, alternativ das Kundenjahr zu verwenden. |
+| **[!UICONTROL Date of Birth]** | Das Geburtsdatum des Kunden. <br><br>**_Wichtig:_** Gemäß den aktuellen Best Practices für Sicherheit und Datenschutz sollten Sie sich über potenzielle rechtliche und Sicherheitsrisiken im Zusammenhang mit der Speicherung des vollständigen Geburtsdatums der Kunden (Monat, Tag, Jahr) mit anderen persönlichen Kennungen im Klaren sein. Es wird empfohlen, die Speicherung der vollständigen Geburtsdaten von Kundinnen und Kunden zu begrenzen und vorzuschlagen, alternativ das Kundenjahr zu verwenden. |
 | **[!UICONTROL Tax / VAT Number]** | Gegebenenfalls die Steuernummer oder [Umsatzsteuer-](../stores-purchase/vat.md)), die dem Kunden zugeordnet ist. <br/><br/>Dieses Feld ist nicht dasselbe wie die MwSt.-Nummer. |
 | **[!UICONTROL Gender]** | Das Geschlecht des Kunden. |
 | **[!UICONTROL Action]** | Bearbeiten - Öffnet das Unternehmenskonto im Bearbeitungsmodus. |

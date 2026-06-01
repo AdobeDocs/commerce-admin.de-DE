@@ -5,7 +5,7 @@ exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
 source-git-commit: 6fcbcd3b7cace10f0841a46b3cd27343862b3f3b
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1994'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Ein konfigurierbares Produkt wird als einzelnes Produkt mit Dropdown-Optionen für Varianten (wie Farbe oder Größe) angezeigt. Jede Variante ist ein separates einfaches Produkt mit einer eigenen SKU, das eine individuelle Bestandsverfolgung ermöglicht - im Gegensatz zu einfachen Produkten mit benutzerdefinierten Optionen.
 
-**Am besten geeignet für** Produkte mit mehreren Optionen (Farbe, Größe, Material usw.), bei denen Sie den Bestand für jede Variante verfolgen müssen. Die Ersteinrichtung dauert länger, bietet jedoch eine bessere Skalierbarkeit.
+**Am besten geeignet für:** Produkte mit mehreren Optionen (Farbe, Größe, Material usw.) wo Sie den Bestand für jede Variante verfolgen müssen. Die Ersteinrichtung dauert länger, bietet jedoch eine bessere Skalierbarkeit.
 
 ![Konfigurierbares Produkt](./assets/product-configurable.png){width="700" zoomable="yes"}
 

@@ -5,7 +5,7 @@ exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
 source-git-commit: 9441c181a4272607d91bbaf5d410d8e433cb144f
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Die folgenden Ressourcen bieten einen Ausgangspunkt für neue Benutzende, um sic
 ### App Builder-Ressourcen
 
 - [Übersicht über Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [Einrichten von API Mesh für Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
+- [Einrichten von API-Mesh für Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
 - [Bereitstellen von App Builder-Apps](https://developer.adobe.com/app-builder/docs/guides/deployment/)
 - [CI/CD für App Builder Apps](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
 - Erste Schritte mit App Builder/Developer Console
@@ -43,7 +43,7 @@ Die folgenden Ressourcen bieten einen Ausgangspunkt für neue Benutzende, um sic
 
 ## [!DNL Marketplace]
 
-Bevor Sie eine von [!DNL Commerce Marketplace] erworbene Erweiterung installieren können, melden Sie sich bei Ihrem [!DNL Commerce] Konto an und stellen Sie sicher, dass Sie über einen aktiven Zugriffsschlüssel verfügen. Sie können sich über die Kopfzeile von [!DNL Commerce][[!DNL Marketplace] oder &#x200B;](https://marketplace.magento.com/)Magento.com bei Ihrem [-Konto &#x200B;](https://business.adobe.com/de/products/magento/magento-commerce.html).
+Bevor Sie eine von [!DNL Commerce Marketplace] erworbene Erweiterung installieren können, melden Sie sich bei Ihrem [!DNL Commerce] Konto an und stellen Sie sicher, dass Sie über einen aktiven Zugriffsschlüssel verfügen. Sie können sich über die Kopfzeile von [[!DNL Marketplace]](https://marketplace.magento.com/) oder [Magento.com bei Ihrem [!DNL Commerce]-Konto &#x200B;](https://business.adobe.com/de/products/magento/magento-commerce.html).
 
 Ihr Zugriffsschlüssel ist ein Satz öffentlicher und privater Schlüssel, mit denen Sie Ihre [!DNL Commerce] mit Ihrem [!DNL Commerce] synchronisieren und Ihre Anmeldeinformationen überprüfen können. Nachdem Ihr Konto synchronisiert wurde, müssen Sie bei jeder Installation einer Erweiterung oder eines Moduls aus Commerce Marketplace bzw. bei jedem Upgrade Ihrer [!DNL Commerce] Ihren privaten Schlüssel eingeben.
 

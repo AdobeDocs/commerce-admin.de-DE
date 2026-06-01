@@ -5,7 +5,7 @@ exl-id: 5bc152c8-2adf-4faf-af84-ca65d260c22a
 feature: Orders, Customer Service
 source-git-commit: 82f040fa34cf96af6f1e9752f8d9f1ddeab9f84c
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Um eine `Pending` Reihenfolge zu öffnen, klicken Sie oben rechts auf **[!UICONT
 | **[!UICONTROL Back]** | Kehrt zur Seite Bestellungen zurück, ohne die Änderungen zu speichern. |
 | **[!UICONTROL Cancel]** | Storniert den Kundenauftrag. |
 | **[!UICONTROL Send Email]** | Sendet eine E-Mail über die Bestellung an den Kunden. |
-| **[!UICONTROL Hold]**/**[!UICONTROL Unhold]** | Ändert den Status des Kundenauftrags in `On Hold`. Um die Sperre des Kundenauftrags aufzuheben, wählen Sie **[!UICONTROL Unhold]** aus. |
+| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändert den Status des Kundenauftrags in `On Hold`. Um die Sperre des Kundenauftrags aufzuheben, wählen Sie **[!UICONTROL Unhold]** aus. |
 | **[!UICONTROL Invoice]** | Erstellt eine Rechnung aus dem Kundenauftrag, indem der Auftrag in eine Rechnung umgewandelt wird. |
 | **[!UICONTROL Ship]** | Erstellt einen Lieferdatensatz für die Bestellung. |
 | **[!UICONTROL Notify Order is Ready for Pickup]** | Erscheint nur, wenn eine Bestellung als Versand im Geschäft aufgegeben wird. Benachrichtigt den Kunden, dass die Bestellung zur Abholung bereit ist. |
@@ -250,4 +250,4 @@ Gehen Sie im Abschnitt **[!UICONTROL Order Total]** wie folgt vor:
 
 Sehen Sie sich dieses Video an, um mehr über die Auftragsverarbeitung und den Status zu erfahren:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411358/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3411358/?captions=ger&quality=12&learn=on)

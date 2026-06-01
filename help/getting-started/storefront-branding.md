@@ -5,7 +5,7 @@ exl-id: 91630717-9da7-4d2f-a0d8-adb794a30ee1
 feature: Storefront
 source-git-commit: 3ff5807fd0a3ebf2e9d4f9c085852dd7777a1103
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Eines der ersten Dinge, die Sie tun möchten, ist [Logo ändern](#upload-your-lo
 
 ## Logo hochladen
 
-Die Größe und Position des Logos in der Kopfzeile wird durch das Store-Design bestimmt. Ihr Logo kann entweder als GIF-, PNG- oder JPG-Dateityp (JPEG) gespeichert und vom Administrator Ihres Shops hochgeladen werden.
+Die Größe und Position des Logos in der Kopfzeile wird durch das Store-Design bestimmt. Ihr Logo kann entweder als GIF-, PNG- oder JPG-Dateityp (JPEG) gespeichert und vom Administrator Ihres Stores hochgeladen werden.
 
 ![Logo in der Kopfzeile](./assets/storefront-header-logo.png){width="600"}
 
@@ -32,7 +32,7 @@ Wenn Sie die Größe des Logos oder anderer in Ihrem Design verwendeter Bilder n
 
 >[!NOTE]
 >
->Zusätzlich zum Logo in der Kopfzeile erscheint Ihr Logo auch auf [E-Mail-Vorlagen](../systems/email-templates.md#prepare-your-email-logo) und auf [PDF-Rechnungen](../stores-purchase/sales-documents.md) und anderen Verkaufsdokumenten. Die Logos für E-Mail-Vorlagen und Rechnungen haben unterschiedliche Größenanforderungen und müssen separat hochgeladen werden.
+>Zusätzlich zum Logo in der Kopfzeile wird Ihr Logo auch auf [E-Mail-Vorlagen](../systems/email-templates.md#prepare-your-email-logo) und auf [PDF-Rechnungen](../stores-purchase/sales-documents.md) und anderen Verkaufsdokumenten angezeigt. Die Logos für E-Mail-Vorlagen und Rechnungen haben unterschiedliche Größenanforderungen und müssen separat hochgeladen werden.
 
 Unterstützte Logodateiformate:
 
@@ -66,7 +66,7 @@ Unterstützte Logodateiformate:
 
 _Favicon_ ist die Abkürzung für _Lieblingssymbol_ und bezieht sich auf das kleine Symbol auf der Registerkarte jeder Browser-Seite. Je nach Browser wird das Favicon auch in der Adressleiste, direkt vor der URL, angezeigt.
 
-Ein Favicon ist im Allgemeinen 16 x 16 Pixel oder 32 x 32 Pixel groß. [!DNL Commerce] akzeptiert die Dateitypen ICO, PNG, APNG, GIF und JPG (JPEG), auch wenn diese Formate nicht von allen Browsern unterstützt werden. Das am häufigsten unterstützte Dateiformat für ein Favicon ist ICO. Sie können auch andere Bilddateitypen verwenden, das Format wird jedoch möglicherweise nicht von allen Browsern unterstützt. Es gibt viele kostenlose Tools, die Sie online verwenden können, um ein ICO-Bild zu generieren oder ein Bild in dieses Format zu konvertieren.
+Ein Favicon ist im Allgemeinen 16 x 16 Pixel oder 32 x 32 Pixel groß. [!DNL Commerce] akzeptiert ICO-, PNG-, APNG-, GIF- und JPG (JPEG)-Dateitypen, auch wenn diese Formate nicht von allen Browsern unterstützt werden. Das am häufigsten unterstützte Dateiformat für ein Favicon ist ICO. Sie können auch andere Bilddateitypen verwenden, das Format wird jedoch möglicherweise nicht von allen Browsern unterstützt. Es gibt viele kostenlose Tools, die Sie online verwenden können, um ein ICO-Bild zu generieren oder ein Bild in dieses Format zu konvertieren.
 
 ![Favicon auf der Browser-Registerkarte](./assets/storefront-favicon.png){width="600"}
 
@@ -96,7 +96,7 @@ Ein Favicon ist im Allgemeinen 16 x 16 Pixel oder 32 x 32 Pixel groß. [!DNL Com
 
 1. Erweitern Sie unter _[!UICONTROL Other Settings]_![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL HTML Head]**.
 
-   ![HTML-Kopfeinstellungen](./assets/configuration-html-head.png){width="600"}
+   ![HTML Head-Einstellungen](./assets/configuration-html-head.png){width="600"}
 
 1. Wenn Sie das aktuelle Favicon entfernen möchten, klicken Sie auf das Symbol _Löschen_ (![Papierkorbsymbol](../assets/icon-delete-trashcan.png)) in der linken unteren Ecke des Bildes.
 
@@ -180,7 +180,7 @@ Wenn Ihr Store online ist, sich aber noch im Aufbau befindet, können Sie oben a
 
 1. Erweitern Sie unter _[!UICONTROL Other Settings]_![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL HTML Head]**.
 
-   ![HTML-Kopf](./assets/configuration-html-head.png){width="600"}
+   ![HTML Head](./assets/configuration-html-head.png){width="600"}
 
 1. Scrollen Sie nach unten zum unteren Rand und legen Sie die **[!UICONTROL Display Demo Store Notice]** nach Ihren Wünschen fest.
 

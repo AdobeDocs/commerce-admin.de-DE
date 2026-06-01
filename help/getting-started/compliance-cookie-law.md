@@ -5,7 +5,7 @@ exl-id: 42df20cd-50a7-4618-98fd-9ced936e305b
 feature: Compliance
 source-git-commit: c68b464025c00acd4aea6a23aef97fb440e2ed05
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2322'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Einige dieser Cookies können Konfigurationsoptionen bereitstellen, einschließl
 | **`stf`** | Cookie | Zeichnet auf, wann Nachrichten vom SendFriend-Modul (E[Mail an einen Freund](../stores-purchase/email-a-friend.md) gesendet werden. Wenn ein Käufer einen Link zu einem Produkt sendet, zeichnet dieses Cookie einen Zeitstempel auf und verwaltet eine Zählung. |
 | **`X-Magento-Vary`** | Cookie | Gibt an, wann eine neue Version einer Seite aus dem Cache bereitgestellt werden muss. Unterstützt die Leistung von Websites. Deaktivieren Sie dieses Cookie nicht, um die Systemstabilität zu gewährleisten. |
 | **`form_key`** | Cookie | Ein Sicherheitsmechanismus mit einem zufällig generierten Wert, der CSRF (Cross Site Request Forgery)-Angriffe verhindert, indem ermittelt wird, ob eine Anfrage von einer echten Quelle oder einem fehlerhaften Akteur stammt. Dies ist eine branchenübliche Vorgehensweise, um CSRF-Angriffe zu verhindern. Deaktivieren Sie dieses Cookie nicht, um die Systemstabilität zu gewährleisten. |
-| **`mage-cache-sessid`** | Cookie | Hilfreich bei der Bestimmung, wann der lokale Speicher im Browser nach Ablauf der Sitzung bereinigt werden soll. Auf diese Weise wird bestimmt, ob der lokale Speicher bereinigt werden muss. Trigger Durch das Fehlen dieses Cookies wird der lokale Speicher bereinigt. Deaktivieren Sie dieses Cookie nicht, um die Systemstabilität zu gewährleisten. |
+| **`mage-cache-sessid`** | Cookie | Hilfreich bei der Bestimmung, wann der lokale Speicher im Browser nach Ablauf der Sitzung bereinigt werden soll. Auf diese Weise wird bestimmt, ob der lokale Speicher bereinigt werden muss. Durch das Fehlen dieses Cookies wird der lokale Speicher bereinigt. Deaktivieren Sie dieses Cookie nicht, um die Systemstabilität zu gewährleisten. |
 | **`mage-cache-storage`** | Lokaler Speicher | Lokale Speicherung besucherspezifischer Inhalte, die E-Commerce-Funktionen ermöglichen. Standardmäßig nicht verwendet, aber wenn es verwendet wird, wird es verwendet, um den Checkout zu beschleunigen, sodass grundlegende Benutzerinformationen verfügbar sind, wenn jemand geht und zurückkehrt. Deaktivieren Sie dieses Cookie nicht, um die Systemstabilität zu gewährleisten. |
 | **`mage-cache-storage-section-invalidation`** | Lokaler Speicher | Speichert Informationen darüber, welche Abschnitte der Seite ungültig gemacht und entfernt werden müssen. Deaktivieren Sie dieses Cookie nicht, um die Systemstabilität zu gewährleisten. |
 | **`mage-cache-timeout`** | Lokaler Speicher | Steuert, wie lange kundenbezogene Daten im Browser zwischengespeichert werden. Wenn die maximale Wartezeit abläuft, löscht Magento zwischengespeicherte Kundenabschnitte, wie den Warenkorb, die Wunschliste und Kundendaten, und lädt sie neu. Dieses Verhalten trägt dazu bei, die Datengenauigkeit und den Datenschutz zu wahren und gleichzeitig eine ausgewogene Client-seitige Leistung zu erzielen. Der Wert für die maximale Wartezeit wird der konfigurierten Cookie-Lebensdauer angepasst, um die Konsistenz mit der Server-seitigen Sitzungsverwaltung zu gewährleisten. |

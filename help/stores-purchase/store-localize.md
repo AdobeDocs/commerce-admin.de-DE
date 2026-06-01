@@ -5,7 +5,7 @@ exl-id: 64e1b431-f599-444c-9d39-207bb95f0400
 topic: Commerce, Localization
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---

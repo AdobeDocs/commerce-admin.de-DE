@@ -5,7 +5,7 @@ exl-id: 09c48f1e-792b-4553-82fc-cd1a119b15d0
 feature: Marketing Tools, Integration
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ga.js
 : `ga('set', 'anonymizeIp', true);`
 ```
 
-Um die von **_Google Tag Manager_** verwendeten IP-Adressen zu anonymisieren, legen Sie den `anonymize_ip` Parameter in der `true` auf Ihrem Webserver auf `gtag.js` fest.
+Um die von **_Google Tag Manager_** verwendeten IP-Adressen zu anonymisieren, legen Sie den `anonymize_ip` Parameter in der `gtag.js` auf Ihrem Webserver auf `true` fest.
 
 gtag.js
 

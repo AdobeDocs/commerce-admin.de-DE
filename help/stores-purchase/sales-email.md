@@ -5,7 +5,7 @@ exl-id: b205dc61-08cc-4783-810c-686ccf2ba300
 feature: Communications, Orders
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ Stellen Sie sicher, dass Sie die Vorlage [E-Mail](../systems/email-template-cust
 
 1. Schließen Sie die Konfiguration für die verbleibenden Verkaufs-E-Mail-Typen ab:
 
-   - **[!UICONTROL Invoice]**/**[!UICONTROL Invoice Comments]**
-   - **[!UICONTROL Shipment]**/**[!UICONTROL Shipment Comments]**
-   - **[!UICONTROL Credit Memo]**/**[!UICONTROL Credit Memo Comments]**
+   - **[!UICONTROL Invoice]** / **[!UICONTROL Invoice Comments]**
+   - **[!UICONTROL Shipment]** / **[!UICONTROL Shipment Comments]**
+   - **[!UICONTROL Credit Memo]** / **[!UICONTROL Credit Memo Comments]**
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 

@@ -5,8 +5,8 @@ exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
 source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 0%
+source-wordcount: '1409'
+ht-degree: 2%
 
 ---
 
@@ -132,15 +132,15 @@ Die iterative Aufteilung bietet die beste Verteilung der Produkte auf die Preisk
 
 | Preisschritt um 10 | Preisschritt um 100 |
 |----------|--------|
-| 20,00 - 29,99 $ (1) | 0,00 - 99,99 $ (4) |
-| 30,00 - 39,99 $ (2) | 100 - 199,99 $ (5) |
-| 70,00 - 79,99 $ (1) | 400,00 - 499,99 $ (2) |
-| 100,00 - 109,99 $ (1) | 700,00 $ und mehr (1) |
-| 120,00 - 129,99 $ (2) |   |
-| 150,00 - 159,99 $ (1) |   |
-| 180,00 - 189,99 $ (1) |   |
-| 420,00 - 429,99 $ (1) |   |
-| 440,00 - 449,99 $ (1) |   |
+| $20.00 - $29.99 (1) | $0.00 - $99.99 (4) |
+| $30.00 - $39.99 (2) | $100 - $199.99 (5) |
+| $70.00 - $79.99 (1) | $400.00 - $499.99 (2) |
+| $100.00 - $109.99 (1) | 700,00 $ und mehr (1) |
+| $120.00 - $129.99 (2) |   |
+| $150.00 - $159.99 (1) |   |
+| $180.00 - $189.99 (1) |   |
+| $420.00 - $429.99 (1) |   |
+| $440.00 - $449.99 (1) |   |
 | 710,00 $ und mehr (1) |   |
 
 {style="table-layout:auto"}

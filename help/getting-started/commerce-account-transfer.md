@@ -5,7 +5,7 @@ exl-id: f6528931-dbf1-4702-8989-232c27969c4a
 feature: User Account
 source-git-commit: e33c207c5c9ba9ca6e82688e28c985cb9b3b7c71
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Die Art der Commerce-Kontoübertragung hängt von den Anmeldedaten für das Comm
 
 Dieser Übertragungstyp erfordert, dass eine Adobe ID vorhanden ist, die mit dem bestehenden Commerce-Konto verknüpft ist, und dass dieses Konto dann in die E-Mail-Adresse des neuen Eigentümers geändert wird.
 
-1. Navigieren Sie zur Anmeldeseite des Commerce-Kontos &lbrace;0[.](https://account.magento.com/customer/account/login/)
+1. Navigieren Sie zur Anmeldeseite des Commerce-Kontos &lbrace;0[&#128279;](https://account.magento.com/customer/account/login/).
 
 1. Klicken Sie auf **[!UICONTROL Sign in with Adobe ID]**.
 

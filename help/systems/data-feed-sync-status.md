@@ -3,13 +3,13 @@ title: Überwachung des Synchronisierungsstatus von Daten-Feeds
 description: Überwachen Sie die Synchronisierung von Datenexporten und identifizieren Sie Probleme oder Verzögerungen bei der Feed-Verarbeitung für [!DNL Catalog Service],  [!DNL Live Search] und  [!DNL Product Recommendations].
 feature: Products, Customers, Data Import/Export
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 3079ee3fe394a73d5ab4168e9e40815c340e386c
+exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
+source-git-commit: cd54a8c1b6ccf52497bda61919b5bb69c895d960
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
 
 ---
-
 
 # Überwachung des Synchronisierungsstatus von Daten-Feeds
 

@@ -6,7 +6,7 @@ feature: Promotions/Events, Communications
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Im Abschnitt _[!UICONTROL My Invitations]_&#x200B;des Kundenkontos sind alle vom
 1. **System verwaltet die**: Das System sendet Einladungen stapelweise, entsprechend der in der Konfiguration festgelegten Nummer.
 1. **Antwort der Kundenüberwachung**: Die Kundin oder der Kunde überwacht den Status jeder Einladung über das Konto-Dashboard, `Sent`, `Accepted` oder `Canceled`.
 
-### Einladung senden
+### Senden einer Einladung
 
 1. In der Seitenleiste des Kontos in der Storefront wählt der Kunde **[!UICONTROL My Invitations]** aus.
 

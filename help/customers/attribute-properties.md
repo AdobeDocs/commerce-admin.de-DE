@@ -5,7 +5,7 @@ exl-id: d464f846-6a1f-43bd-876a-6834605ef794
 feature: Customers, Configuration
 source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
      | `Text Field` | Ein einzeiliges Textfeld. |
      | `Text Area` | Ein mehrzeiliges Eingabefeld zum Eingeben von Textabsätzen, z. B. eine Produktbeschreibung. Sie können den WYSIWYG-Editor verwenden, um den Text mit HTML-Tags zu formatieren, oder die Tags direkt in den Text eingeben. |
      | `Multiple Line` | Erstellt mehrere Textzeilen für das Attribut, ähnlich einer mehrzeiligen Straßenadresse. Die Anzahl der separaten Dateneintragszeilen kann von zwei bis 20 betragen. Verwenden Sie die `Default Value` , um den Anfangswert des Felds anzugeben. |
-     | `Date` | Zeigt einen Datumswert im bevorzugten Datumsformat und in der bevorzugten Zeitzone an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis _**&#x200B;Je nach Systemkonfiguration können_Admin _-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](../catalog/attributes-input-types.md#date-and-time-options). |
+     | `Date` | Zeigt einen Datumswert im bevorzugten Datumsformat und in der bevorzugten Zeitzone an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis:_**&#x200B;Je nach Systemkonfiguration können_ Admin_-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](../catalog/attributes-input-types.md#date-and-time-options). |
      | `Yes/No` | Zeigt eine Dropdown-Liste mit vordefinierten Optionen `Yes` und `No` an. |
      | `Dropdown` | Zeigt eine Dropdown-Liste mit Werten an, die nur eine einzige Auswahl akzeptieren. Der Dropdown-Eingabetyp ist eine Schlüsselkomponente von [konfigurierbaren Produkten](../catalog/product-create-configurable.md). |
      | `Multiple Select` | Eine Dropdown-Liste, die die Auswahl mehrerer Werte akzeptiert. |
@@ -63,7 +63,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
      | Wert | Beschreibung |
      |-----|-----------|
      | `None` | Das Feld hat bei der Dateneingabe keine Eingabevalidierung. |
-     | `Alphanumeric` | Akzeptiert bei der Dateneingabe eine beliebige Kombination aus Zahlen (0-9) und alphabetischen Zeichen (a-z, A-Z). Informationen zum Einschließen von Sonderzeichen finden Sie unter _Escape-HTML-Entitäten_. |
+     | `Alphanumeric` | Akzeptiert bei der Dateneingabe eine beliebige Kombination aus Zahlen (0-9) und alphabetischen Zeichen (a-z, A-Z). Informationen zum Einschließen von Sonderzeichen finden Sie unter _HTML-Entitäten maskieren_. |
      | `Alphanumeric with Space` | Akzeptiert eine beliebige Kombination von Zahlen (0-9), alphabetischen Zeichen (a-z, A-Z) und Leerzeichen bei der Dateneingabe. |
      | `Numeric Only` | Akzeptiert bei der Dateneingabe nur Zahlen (0-9). |
      | `Alpha Only` | Akzeptiert bei der Dateneingabe nur alphabetische Zeichen (a-z, A-Z). |
@@ -79,7 +79,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
      |-----|-----------|
      | `None` | Wendet keinen Filter auf Text an, der in das Feld eingegeben wird. |
      | `Strip HTML Tags` | Entfernt HTML-Tags aus dem Text. Dieser Filter kann dabei helfen, Daten zu bereinigen, die in ein Feld aus einer anderen Quelle eingefügt werden, die HTML-Tags enthält. |
-     | `Escape  HTML Entities` | Konvertiert Sonderzeichen aus dem Text in eine gültige HTML-Escapesequenz, z. B. `&;`. Escape-Sequenzen sind zwischen einem kaufmännischen Und-Zeichen und einem Semikolon eingeschlossen und werden häufig für typografische Anführungszeichen, Copyright- und Markensymbole verwendet. Escape-Sequenzen werden auch verwendet, um Zeichen wie die Zeichen kleiner als (`<`) und größer als (`>`) sowie das kaufmännische Und-Zeichen zu identifizieren, die auch im Code verwendet werden. Dieser Filter kann dazu beitragen, Sonderzeichen zu bereinigen, die manchmal von Textverarbeitungsprogrammen in Datenbankfelder eingefügt werden. |
+     | `Escape  HTML Entities` | Konvertiert Sonderzeichen im Text in eine gültige HTML-Escape-Sequenz, z. B. `&;`. Escape-Sequenzen sind zwischen einem kaufmännischen Und-Zeichen und einem Semikolon eingeschlossen und werden häufig für typografische Anführungszeichen, Copyright- und Markensymbole verwendet. Escape-Sequenzen werden auch verwendet, um Zeichen wie die Zeichen kleiner als (`<`) und größer als (`>`) sowie das kaufmännische Und-Zeichen zu identifizieren, die auch im Code verwendet werden. Dieser Filter kann dazu beitragen, Sonderzeichen zu bereinigen, die manchmal von Textverarbeitungsprogrammen in Datenbankfelder eingefügt werden. |
 
 1. Vervollständigen Sie das Kundenraster und die Segmenteigenschaften:
 
@@ -105,8 +105,8 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
 
 1. Legen Sie **[!UICONTROL Forms to Use]** auf jedes Formular fest, das das Attribut enthalten soll. Um mehrere Optionen auszuwählen, halten Sie die Strg -Taste gedrückt und klicken Sie auf die einzelnen Formulare.
 
-   - [`Kundenregistrierung`](customer-sign-in.md)
-   - [`Kundenkonto bearbeiten`](account-create.md)
+   - [`Customer Registration`](customer-sign-in.md)
+   - [`Customer Account Edit`](account-create.md)
    - [`Admin Checkout`](../stores-purchase/checkout-process.md)
 
 ## Schritt 3: Titel ausfüllen und speichern
@@ -127,11 +127,11 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
 |--- |--- |
 | [!UICONTROL Default Label] | Die Standardbeschriftung, die das Attribut in der Admin- und Storefront identifiziert. |
 | [!UICONTROL Attribute Code] | Ein eindeutiger Code, der das Attribut im System identifiziert. Der Code kann bis zu 60 Zeichen lang sein und darf keine Leerzeichen oder Sonderzeichen enthalten. Das Unterstrichsymbol kann anstelle eines Leerzeichens verwendet werden. |
-| [!UICONTROL Input Type] | Bestimmt das Eingabesteuerelement, das für die Dateneingabe verwendet wird. Optionen: <br/>**`Text Field`**: Ein einzeiliges Textfeld.<br/>**`Text Area`** : Ein mehrzeiliger Textbereich. <br/>**`Multiple Line`**- Erstellt mehrere Textzeilen für das Attribut, ähnlich einer mehrzeiligen Straßenadresse. Die Anzahl der separaten Dateneintragszeilen kann von 2 bis 20 betragen.<br/>**`Date`** : Zeigt ein Datumsfeld mit einem Popup-Kalender an.<br/>**`Dropdown`**- Eine Dropdown-Liste, die nur einen auszuwählenden Wert akzeptiert.<br/>**`Multiple Select`** : Eine Dropdown-Liste, in der mehrere Werte ausgewählt werden können. <br/>**`Yes/No`**: Ein Feld, das nur eine Auswahl aus `Yes` oder `No` Werten bietet.<br/>**`File (attachment)`** : Ein Feld, mit dem eine Datei hochgeladen und mit dem Kundenattribut als Anlage verknüpft werden kann. <br/>**`Image File`**: Ein Feld, mit dem ein Bild in die Galerie hochgeladen und mit dem Kundenattribut verknüpft werden kann. |
+| [!UICONTROL Input Type] | Bestimmt das Eingabesteuerelement, das für die Dateneingabe verwendet wird. Optionen: <br/>**`Text Field`**: Ein einzeiliges Textfeld.<br/>**`Text Area`** : Ein mehrzeiliger Textbereich. <br/>**`Multiple Line`**- Erstellt mehrere Textzeilen für das Attribut, ähnlich einer mehrzeiligen Straßenadresse. Die Anzahl der separaten Dateneingabezeilen kann zwischen 2 und 20 liegen.<br/>**`Date`** - Zeigt ein Datumsfeld mit einem Popup-Kalender an.<br/>**`Dropdown`**- Eine Dropdown-Liste, die nur einen auszuwählenden Wert akzeptiert.<br/>**`Multiple Select`** : Eine Dropdown-Liste, in der mehrere Werte ausgewählt werden können. <br/>**`Yes/No`**: Ein Feld, das nur eine Auswahl aus `Yes` oder `No` Werten bietet.<br/>**`File (attachment)`** : Ein Feld, mit dem eine Datei hochgeladen und mit dem Kundenattribut als Anlage verknüpft werden kann. <br/>**`Image File`**: Ein Feld, mit dem ein Bild in die Galerie hochgeladen und mit dem Kundenattribut verknüpft werden kann. |
 | [!UICONTROL Values Required] | Legt fest, ob ein Wert in das Feld eingegeben werden muss. Optionen: `Yes` / `No` |
 | [!UICONTROL Default Value] | Gibt den Anfangswert des Attributs an. |
 | [!UICONTROL Input Validation] | Die Auswahl der Optionen wird durch den Eingabetyp bestimmt. Optionen: <br/>**`None`**: Das Feld verfügt während der Dateneingabe über keine Eingabevalidierung.<br/>**`Alphanumeric`** - Akzeptiert eine beliebige Kombination von Zahlen (0-9) und alphabetischen Zeichen (a-z, A-Z) bei der Dateneingabe. <br/>**`Alphanumeric with Space`**- Ermöglicht Räumen in der Straße Adresse, um die Anforderungen der maximalen Länge des Trägers zu erfüllen. Während des Checkouts kann der Kunde eine beliebige Kombination aus Zahlen (0-9), alphabetischen Zeichen (a-z, A-Z) und Leerzeichen in die Straße des Empfängers und des Absenders eingeben. Zusätzliche Leerzeichen werden beim Speichern der Adresse entfernt.<br/>**`Numeric Only`** - Akzeptiert bei der Dateneingabe nur Zahlen (0-9). <br/>**`Alpha Only`**- Akzeptiert bei der Dateneingabe nur alphabetische Zeichen (a-z, A-Z).<br/>**`URL`** - Akzeptiert bei der Dateneingabe nur eine URL. <br/>**`Email`**- Akzeptiert bei der Dateneingabe nur eine E-Mail-Adresse.<br/>**`Length Only`**: Überprüft die Eingabe anhand der Länge der in das Feld eingegebenen Daten. |
-| [!UICONTROL Input/Output Filter] | Wendet einen Vorverarbeitungsfilter auf Werte an, die in ein Textfeld, einen Textbereich oder einen mehrzeiligen Eingabetyp eingegeben wurden, bevor der Datensatz gespeichert wird. Optionen: <br/>**`None`**- Wendet keinen Filter auf Text an, der in das Feld eingegeben wird.<br/>**`Strip HTML Tags`** - Entfernt HTML-Tags aus dem Text. Dieser Filter kann dabei helfen, Daten zu bereinigen, die in ein Feld aus einer anderen Quelle eingefügt werden, die HTML-Tags enthält. <br/>**`Escape HTML Entities`**- Konvertiert Sonderzeichen aus dem Text in eine gültige HTML-Escapesequenz, z. B. `amp;`. Escape-Sequenzen sind zwischen einem kaufmännischen Und-Zeichen und einem Semikolon eingeschlossen und werden häufig für typografische Anführungszeichen, Urheberrechtssymbole und Markensymbole verwendet. Escape-Sequenzen werden auch verwendet, um Zeichen wie die Zeichen kleiner als (`<`) und größer als (`>`) sowie das kaufmännische Und-Zeichen zu identifizieren, die auch im Code verwendet werden. Dieser Filter kann dazu beitragen, Sonderzeichen zu bereinigen, die manchmal von Textverarbeitungsprogrammen in Datenbankfelder eingefügt werden. |
+| [!UICONTROL Input/Output Filter] | Wendet einen Vorverarbeitungsfilter auf Werte an, die in ein Textfeld, einen Textbereich oder einen mehrzeiligen Eingabetyp eingegeben wurden, bevor der Datensatz gespeichert wird. Optionen: <br/>**`None`**- Wendet keinen Filter auf Text an, der in das Feld eingegeben wird.<br/>**`Strip HTML Tags`** - Entfernt HTML-Tags aus dem Text. Dieser Filter kann dabei helfen, Daten zu bereinigen, die in ein Feld aus einer anderen Quelle eingefügt werden, die HTML-Tags enthält. <br/>**`Escape HTML Entities`**- Konvertiert Sonderzeichen im Text in eine gültige HTML-Escape-Sequenz, z. B. `amp;`. Escape-Sequenzen sind zwischen einem kaufmännischen Und-Zeichen und einem Semikolon eingeschlossen und werden häufig für typografische Anführungszeichen, Urheberrechtssymbole und Markensymbole verwendet. Escape-Sequenzen werden auch verwendet, um Zeichen wie die Zeichen kleiner als (`<`) und größer als (`>`) sowie das kaufmännische Und-Zeichen zu identifizieren, die auch im Code verwendet werden. Dieser Filter kann dazu beitragen, Sonderzeichen zu bereinigen, die manchmal von Textverarbeitungsprogrammen in Datenbankfelder eingefügt werden. |
 | [!UICONTROL Add to Column Options] | Gibt an, ob das Attribut als Spalte im Raster [Kunden](customers-all.md) enthalten ist. Optionen: `Yes` / `No` |
 | [!UICONTROL Use in Filter Options] | Gibt an, ob das Attribut als Filter für Suchvorgänge über das Raster verwendet werden kann. Optionen: `Yes` / `No` |
 | [!UICONTROL Grid Filter Condition Type] | Gibt die Filterzuordnungsbedingungen für Attribute für Suchvorgänge im Raster an. Das Feld _Nach Keyword suchen_ für das Raster ist davon nicht betroffen. Optionen: `Partial Match` / `Prefix Match` / `Full Match` |
@@ -163,7 +163,7 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
 | `lastname` | Der Nachname des Kunden. |
 | `suffix` | Jedes Suffix, das mit dem Kundennamen verwendet wird. (wie Jr., Sr. oder Esquire) |
 | `email` | Die E-Mail-Adresse des Kunden. |
-| `dob` | Das Geburtsdatum des Kunden.  <br><br>**_Wichtig:_**&#x200B;Halten Sie sich im Einklang mit den aktuellen Best Practices für Sicherheit und Datenschutz vor potenziellen Rechts- und Sicherheitsrisiken, die mit der Speicherung des vollständigen Geburtsdatums der Kundinnen und Kunden (Monat, Tag, Jahr) mit anderen persönlichen Kennungen verbunden sind. Es wird empfohlen, die Speicherung der vollständigen Geburtsdaten von Kundinnen und Kunden zu begrenzen und alternativ ein Kundenjahr zu verwenden. |
+| `dob` | Das Geburtsdatum des Kunden.  <br><br>**_Wichtig:_** Gemäß den aktuellen Best Practices für Sicherheit und Datenschutz sollten Sie sich über potenzielle rechtliche und Sicherheitsrisiken im Zusammenhang mit der Speicherung des vollständigen Geburtsdatums der Kunden (Monat, Tag, Jahr) mit anderen persönlichen Kennungen im Klaren sein. Es wird empfohlen, die Speicherung der vollständigen Geburtsdaten von Kundinnen und Kunden zu begrenzen und alternativ ein Kundenjahr zu verwenden. |
 | `taxvat` | Die Umsatzsteuer-ID (MwSt.), die dem Kunden zugewiesen wird. Die Standardbeschriftung dieses Attributs ist `VAT Number`. Das Feld MwSt.-Nummer ist immer in allen Versand- und Rechnungskundenadressen vorhanden, wenn es von der Administratorseite aus angezeigt wird, es ist jedoch kein Pflichtfeld. |
 | `gender` | Das Geschlecht des Kunden. |
 
@@ -171,4 +171,4 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
 
 Sehen Sie sich dieses Video an, um zu demonstrieren, wie Sie Kundenattribute erstellen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411969?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3411969?captions=ger&quality=12&learn=on)

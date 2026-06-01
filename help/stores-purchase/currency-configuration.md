@@ -5,7 +5,7 @@ exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
 source-git-commit: 370131cd73a320b04ee92fa9609cb24ad4c07eca
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---

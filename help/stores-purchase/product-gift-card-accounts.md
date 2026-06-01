@@ -5,7 +5,7 @@ exl-id: f8caff04-38fd-4195-ab11-77dae900976d
 feature: Products, Gift, Configuration
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---

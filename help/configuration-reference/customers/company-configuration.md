@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Customers] &gt; [!UICONTROL Company Configuration]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Company Configuration] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Customers] > [!UICONTROL Company Configuration]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] > [!UICONTROL Company Configuration] des Commerce Admin.
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---

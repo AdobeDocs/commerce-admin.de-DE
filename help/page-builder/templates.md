@@ -5,7 +5,7 @@ exl-id: 02c1a93f-4186-4af9-ad35-bd0f5734f979
 feature: Page Builder, Page Content
 source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -91,4 +91,4 @@ Das _Vorlage anwenden_ und das Seitenraster _Vorlagen_ bieten zwei Möglichkeite
 
 In diesem Video erfahren Sie mehr über Page Builder-Inhaltsvorlagen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411360?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3411360?captions=ger&quality=12&learn=on)

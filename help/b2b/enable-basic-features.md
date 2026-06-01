@@ -6,7 +6,7 @@ feature: B2B, Configuration
 role: Admin
 source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---

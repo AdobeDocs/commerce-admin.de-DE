@@ -1,11 +1,11 @@
 ---
 title: Checkout-Prozess und Optionen
-description: Erfahren Sie, wie der Checkout-Prozess für Adobe Commerce und Magento Open Source die für den Abschluss der Transaktion erforderlichen Informationen erfasst und die Checkout-Seite den Kunden durch jeden Schritt des Prozesses führt.
+description: Erfahren Sie, wie der Checkout-Prozess von Adobe Commerce und Magento Open Source die für den Abschluss der Transaktion erforderlichen Informationen erfasst und die Checkout-Seite den Kunden durch jeden Schritt des Prozesses führt.
 exl-id: f503643b-a0bb-4763-9831-d592afb2c323
 feature: Checkout
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---

@@ -5,7 +5,7 @@ exl-id: 864a3078-8cb3-4add-bdb7-14189aba535e
 feature: Page Builder, Page Content
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2085'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,7 @@ Die Zeile ist jetzt in zwei Spalten gleicher Breite unterteilt.
 
    ![Text für die Spalte eingeben](./assets/pb-tutorial2-column-text-editor.png){width="600" zoomable="yes"}
 
-1. Wählen Sie alle drei Textzeilen aus und legen Sie in der Symbolleiste „Zeilenhöhe **auf** `40px`.
+1. Wählen Sie alle drei Textzeilen aus und legen Sie in der Symbolleiste „Zeilenhöhe **auf `40px`**.
 
    ![Festlegen der Zeilenhöhe](./assets/pb-tutorial2-column-text-editor-line-height.png){width="600" zoomable="yes"}
 
@@ -394,7 +394,7 @@ Da dieser dynamische Block nur für Mitglieder eines bestimmten Kundensegments s
 
      **[!UICONTROL Email]** - `roni_cost@example.com`
 
-     **[!UICONTROL Password]** - `roni_cost3@example.com`
+     **[!UICONTROL Password]** -  `roni_cost3@example.com`
 
    - Klicken Sie auf **[!UICONTROL Sign In]**.
 

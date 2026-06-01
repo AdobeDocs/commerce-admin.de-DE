@@ -34,7 +34,7 @@ Im Abschnitt _[!UICONTROL Sources]_&#x200B;der Produkteinstellungen werden die Q
 |--- |--- |
 | [!UICONTROL Name] | Der eindeutige Name für eine Quelle. |
 | [!UICONTROL Source Status] | Bestimmt, ob das Produkt im Katalog aktiviert oder deaktiviert ist. |
-| [!UICONTROL Source Item Status] | Legt die aktuelle Verfügbarkeit des Produkts fest. Optionen: <br />**[!UICONTROL In Stock]**- Stellt das Produkt zum Kauf bereit.<br />**[!UICONTROL Out of Stock]** - Wenn keine Auftragsrückstände aktiviert sind, verhindert , dass das Produkt zum Kauf verfügbar ist, und entfernt die Auflistung aus dem Katalog. |
+| [!UICONTROL Source Item Status] | Legt die aktuelle Verfügbarkeit des Produkts fest. Optionen: <br />**[!UICONTROL In Stock]**- Macht das Produkt zum Kauf verfügbar.<br />**[!UICONTROL Out of Stock]** - Sofern keine Auftragsrückstände aktiviert sind, verhindert, dass das Produkt zum Kauf zur Verfügung steht, und entfernt die Auflistung aus dem Katalog. |
 | [!UICONTROL Qty] | Verfügbare Lagerbestände für jede Quelle. |
 | [!UICONTROL Notify Qty] | Ein Betrag für die _Mengenbenachrichtigung_ für diese spezifische Quelle, wenn `Notify Quantity Use Default` nicht ausgewählt ist. |
 | [!UICONTROL Notify Qty Use Default] | Gibt an, dass die Standardeinstellung für _Für Menge benachrichtigen_ im erweiterten Warenbestand oder die globale Einstellung in der Store-Konfiguration verwendet werden soll. Weitere Informationen zu erweiterten Inventareinstellungen für Ihr Produkt finden Sie unter [Konfigurieren erweiterter Produktoptionen](../inventory-management/product-options.md). |

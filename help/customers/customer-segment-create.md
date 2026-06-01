@@ -5,7 +5,7 @@ exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
 source-git-commit: 079aef1f4d90ecba649ac43e7cbab812da79871a
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -204,4 +204,4 @@ _&#x200B;**[!UICONTROL Matched Customers]Raster &#x200B;** _
 
 Sehen Sie sich dieses Video an, um zu demonstrieren, wie Sie Kundensegmente erstellen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411974/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3411974/?captions=ger&quality=12&learn=on)

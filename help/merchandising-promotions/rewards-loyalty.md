@@ -5,7 +5,7 @@ exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
 source-git-commit: b0e9087016f7a6ce682e84feb931f7ad870e6420
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ Die Prämienpunktebilanz kann von der Administratorin bzw. dem Administrator akt
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte **[!UICONTROL Edit]** auf _[!UICONTROL Action]_.
+1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Wählen _unter „Kundeninformationen_ den Abschnitt **[!UICONTROL Reward Points]** aus.
 
@@ -180,7 +180,7 @@ Alle Aktionen im Zusammenhang mit Belohnungspunkten werden im _[!UICONTROL Rewar
 | [!UICONTROL Amount] | Zu- oder Abzuziehender Betrag |
 | [!UICONTROL Rate] | Der [Belohnungs-Wechselkurs](reward-exchange-rates.md) |
 | [!UICONTROL Website] | Website, der der Verlauf der Belohnungspunkte zugewiesen wird |
-| [!UICONTROL Reason] | Gründe für die Vergabe von Punkten:<br>**[!UICONTROL Making purchases]**&#x200B;Jedes Mal, wenn ein Kunde einen Kauf tätigt, kann er Punkte sammeln.<br>**[!UICONTROL Registering on the site]** - Abgegrenzt bei der Registrierung (einmal).<br>**[!UICONTROL Subscribing to a newsletter]**: Für das Erstabonnement (einmal) anfallen.<br>**[!UICONTROL Sending Invitations]** — Sammeln Sie Punkte, indem Sie Ihre Freunde zur Teilnahme an der Website einladen.<br>**[!UICONTROL Converting Invitations to Customer]**- Sammeln Sie Punkte für jede Einladung, die sie an führende Freunde senden, die sich auf der Website registrieren.<br>**[!UICONTROL Converting Invitations to Order]** - Sammeln Sie Punkte für jeden Verkauf, der aus einer gesendeten Einladung resultiert.<br>**[!UICONTROL Review Submission]**- Sammeln Sie Punkte für die Einreichung von Produktbewertungen. |
+| [!UICONTROL Reason] | Gründe für die Vergabe von Punkten:<br>**[!UICONTROL Making purchases]**&#x200B;Jedes Mal, wenn ein Kunde einen Kauf tätigt, kann er Punkte sammeln.<br>**[!UICONTROL Registering on the site]** - Abgegrenzt bei der Registrierung (einmal).<br>**[!UICONTROL Subscribing to a newsletter]**- Für das Erstabonnement angesammelt (einmal).<br>**[!UICONTROL Sending Invitations]** — Sammeln Sie Punkte, indem Sie Ihre Freunde einladen, der Website beizutreten.<br>**[!UICONTROL Converting Invitations to Customer]**— Sammeln Sie Punkte für jede Einladung, die sie an führende Freunde senden, die sich auf der Website registrieren.<br>**[!UICONTROL Converting Invitations to Order]** — Sammeln Sie Punkte für jeden Verkauf, der aus einer gesendeten Einladung resultiert.<br>**[!UICONTROL Review Submission]**— Sammeln Sie Punkte für die Einreichung von Produktbewertungen. |
 | [!UICONTROL Created] | Datum und Uhrzeit der Aktualisierung der Prämienpunkte |
 | [!UICONTROL Expired] | Anzahl abgelaufener Belohnungspunkte |
 | [!UICONTROL Comment] | Kommentare beim Hinzufügen oder Subtrahieren von Punkten |

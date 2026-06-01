@@ -5,7 +5,7 @@ exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: a5e42a412d09a8e6306ef6eb72e65675fc244091
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---

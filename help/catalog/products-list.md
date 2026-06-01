@@ -5,7 +5,7 @@ exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
 source-git-commit: 8bb91b80f8ba957676c654e984deb5704b777612
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---

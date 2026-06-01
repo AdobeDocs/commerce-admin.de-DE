@@ -5,7 +5,7 @@ exl-id: 6df83549-ba38-43f7-aab1-dbf3f6b89d74
 feature: Shipping/Delivery, Invoices
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---

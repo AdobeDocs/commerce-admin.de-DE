@@ -4,7 +4,7 @@ description: Erfahren Sie mehr über Quellen und darüber, wie sie die physische
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---

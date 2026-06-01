@@ -5,7 +5,7 @@ exl-id: 74ba40f1-a540-4425-9500-2c730c1145e7
 feature: Products, Customers, Data Import/Export
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2462'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Nach jedem geplanten Importvorgang wird automatisch ein Neuindizierungsvorgang a
 | [!UICONTROL Name] | Der Name des Imports. Hilft bei der Unterscheidung, ob viele verschiedene geplante Importe erstellt werden. |
 | [!UICONTROL Description] | (Optional) Sie können eine Beschreibung eingeben. |
 | [!UICONTROL Entity Type] | Definiert die zu importierenden Daten. |
-| [!UICONTROL Import Behavior] | Definiert, wie komplexe Daten verarbeitet werden, wenn die importierten Entitäten in der Datenbank vorhanden sind. Zu den komplexen Produktdaten gehören Kategorien, Websites, benutzerdefinierte Optionen, Stufenpreise, zugehörige Produkte, Upsell, Crosssell und zugehörige Produktdaten. Zu den komplexen Daten für Kunden gehören Adressen. Optionen: <br>**[!UICONTROL Add/Update Complex Data]**- Die neuen komplexen Daten werden den vorhandenen komplexen Daten für vorhandene Einträge in der Datenbank hinzugefügt oder aktualisiert. Dies ist der Standardwert.<br>**[!UICONTROL Add/Update]** - Zu den vorhandenen Einträgen in der Datenbank werden neue Daten hinzugefügt. Alle Felder außer `sku` können für Produkte aktualisiert werden. Mehrere Feldwerte, die nicht in der CSV-Datei aufgeführt sind, z. B. Kategorien oder Websites, bleiben nach dem Import in der Datenbank.<br>**[!UICONTROL Replace]**- Die vorhandenen komplexen Daten für die vorhandenen Entitäten werden ersetzt.<br>**[!UICONTROL Delete Entities]** - Wenn importierte Entitäten in der Datenbank vorhanden sind, werden sie aus der Datenbank gelöscht.<br>**[!UICONTROL Custom Action]**- Die vorhandenen komplexen Entitäten werden während des Importvorgangs angepasst. |
+| [!UICONTROL Import Behavior] | Definiert, wie komplexe Daten verarbeitet werden, wenn die importierten Entitäten in der Datenbank vorhanden sind. Zu den komplexen Produktdaten gehören Kategorien, Websites, benutzerdefinierte Optionen, Stufenpreise, zugehörige Produkte, Upsell, Crosssell und zugehörige Produktdaten. Zu den komplexen Daten für Kunden gehören Adressen. Optionen: <br>**[!UICONTROL Add/Update Complex Data]**- Die neuen komplexen Daten werden den vorhandenen komplexen Daten für vorhandene Einträge in der Datenbank hinzugefügt oder aktualisiert. Dies ist der Standardwert.<br>**[!UICONTROL Add/Update]** - Neue Daten werden zu den vorhandenen Einträgen in der Datenbank hinzugefügt. Alle Felder außer `sku` können für Produkte aktualisiert werden. Mehrere Feldwerte, die nicht in der CSV-Datei aufgeführt sind, z. B. Kategorien oder Websites, bleiben nach dem Import in der Datenbank.<br>**[!UICONTROL Replace]**- Die vorhandenen komplexen Daten für die bestehenden Entitäten werden ersetzt.<br>**[!UICONTROL Delete Entities]** - Wenn importierte Entitäten in der Datenbank vorhanden sind, werden sie aus der Datenbank gelöscht.<br>**[!UICONTROL Custom Action]**- Die vorhandenen komplexen Entitäten werden während des Importvorgangs angepasst. |
 | [!UICONTROL Start Time] | Legen Sie die Startstunde, Minuten und Sekunden des Imports fest. |
 | [!UICONTROL Frequency] | Legen Sie fest, wie oft der Import ausgeführt wird. Optionen: `Daily` / `Weekly` / `Monthly` |
 | [!UICONTROL On Error] | Definieren Sie das Systemverhalten, falls bei der Dateivalidierung Fehler gefunden werden. options:<br>**Import anhalten** - Die Datei wird nicht importiert, wenn bei der Validierung Fehler gefunden wurden. Dies ist der Standardwert.<br>**Verarbeitung fortsetzen** - Wenn während der Validierung Fehler gefunden werden, der Import jedoch möglich ist, wird die Datei importiert. |
@@ -318,7 +318,7 @@ Die Details der einzelnen Exporte werden nicht in ein Protokoll geschrieben. Wen
 
 | Feld | Beschreibung |
 | ----- | ----------- |
-| [!UICONTROL Server Type] | Bestimmt den Speicherort der Exportdatei. options:<br>**Lokaler Server** - Platziert die Exportdatei auf demselben Server, auf dem Commerce bereitgestellt wird. Wenn das Remote-Speichermodul aktiviert ist, wird `Local Server` auf `Remote Storage` umgeschaltet.<br>**Remote FTP** - Platziert die Exportdatei auf einem Remote-Server. Es werden zusätzliche Optionen für Anmeldedaten und Dateiübertragungs-Einstellungen angezeigt. |
+| [!UICONTROL Server Type] | Bestimmt den Speicherort der Exportdatei. options:<br>**Lokaler Server** - Platziert die Exportdatei auf demselben Server, auf dem Commerce bereitgestellt wird. Wenn das Remote-Speichermodul aktiviert ist, wird `Local Server` auf `Remote Storage`.<br>**Remote FTP** umgeschaltet — Platziert die Exportdatei auf einem Remote-Server. Es werden zusätzliche Optionen für Anmeldedaten und Dateiübertragungs-Einstellungen angezeigt. |
 | [!UICONTROL File Directory] | Geben Sie das Verzeichnis an, in dem die Exportdatei gespeichert werden soll. Wenn _[!UICONTROL Server Type]_&#x200B;auf `Local Server` gesetzt ist, geben Sie den Pfad relativ zum Commerce-Installationspfad an. Beispiel: `var/export` oder `import_export/export` für Remote-Speicher. |
 
 {style="table-layout:auto"}

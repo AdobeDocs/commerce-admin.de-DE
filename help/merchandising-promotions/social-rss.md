@@ -5,7 +5,7 @@ exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ Viele Händler nutzen soziale Medien und andere digitale Tools, um Markenbewusst
 
 Ihr Store kann mit sozialen Netzwerken verbunden werden, indem eine [Marketplace-Erweiterung](../getting-started/commerce-marketplace.md) installiert wird. Darüber hinaus können Sie einfach Social-Plug-ins wie die Schaltfläche _Like_ zu CMS-Blöcken hinzufügen, die in Seiten in Ihrem gesamten Store integriert werden können.
 
-Social-Networking-Websites verfügen über eine Vielzahl von Plug-ins, die einfach zu Ihrem Store hinzugefügt werden können. Darüber hinaus gibt es viele Erweiterungen auf der Commerce Marketplace, die verwendet werden können, um Ihren Store mit Social Media zu integrieren. Das folgende Beispiel zeigt, wie Sie Ihrem Store eine _Like_-Schaltfläche für Facebook hinzufügen.
+Social-Networking-Websites verfügen über eine Vielzahl von Plug-ins, die einfach zu Ihrem Store hinzugefügt werden können. Darüber hinaus gibt es viele Erweiterungen auf der Commerce Marketplace, die zur Integration Ihres Stores in Social Media verwendet werden können. Das folgende Beispiel zeigt, wie Sie Ihrem Store eine Facebook _Like_-Schaltfläche hinzufügen.
 
 >[!NOTE]
 >
->Adobe Commerce hat die native Integration von _Magento Social_ Facebook entfernt und unterstützt die Erweiterung nicht mehr. Wechseln Sie zur [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target="_blank"}, um alternative Erweiterungen für die Facebook-Integration zu finden.
+>Adobe Commerce hat die native _Magento Social/Facebook_ Integration entfernt und unterstützt die Erweiterung nicht mehr. Wechseln Sie zur [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target="_blank"}, um alternative Erweiterungen für die Facebook-Integration zu finden.
 
 ### Schritt 1. Button-Code abrufen
 
-1. Rufen Sie auf der Meta Developers-Website die Seite [Schaltflächen-Setup](https://developers.facebook.com/docs/plugins/like-button) auf.
+1. Rufen Sie auf der Meta Developers-Website die Seite [Schaltflächen-Einrichtung](https://developers.facebook.com/docs/plugins/like-button) auf.
 
 1. Geben Sie **[!UICONTROL URL to Like]** die URL der Seite in Ihrem Store ein, die Personen gefallen soll _Like_.
 

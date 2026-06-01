@@ -5,7 +5,7 @@ exl-id: f2a0dc29-6d8f-4b97-a947-72659c01d0cb
 feature: Page Builder, Page Content
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Bei dieser Übung wird davon ausgegangen, dass Sie [Teil 1: Einfache Seite](1-si
 
      ![Auswählen des Kategorieattributs für die Bedingung](./assets/pb-add-content-products-settings-condition.png){width="600" zoomable="yes"}
 
-   - Schließen Sie den _[!UICONTROL Category is]…_ Teil der Bedingung ab, indem Sie auf das Symbol Mehr (…) und dann auf das Symbol _Auswahl_ (![Auswahlsymbol](../assets/icon-list-chooser.png)) klicken.
+   - Schließen Sie den _[!UICONTROL Category is]…_ Teil der Bedingung ab, indem Sie auf Mehr (…) klicken. und klicken Sie auf das Symbol _Auswahl_ (![Auswahlsymbol](../assets/icon-list-chooser.png)).
 
      ![Bedingung definieren](./assets/pb-add-content-products-settings-condition-category-is.png){width="600" zoomable="yes"}
 

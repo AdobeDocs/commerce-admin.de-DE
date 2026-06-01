@@ -5,7 +5,7 @@ exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
 source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
 workflow-type: tm+mt
-source-wordcount: '3810'
+source-wordcount: '3813'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Sie können Zeit sparen, indem Sie eine Folie duplizieren, die bereits mit den e
 
 ### Widget auf einer Folie hinzufügen
 
-Sie können Ihrer Folie in einem [&#x200B; Schritt einen beliebigen &#x200B;](../content-design/widgets.md#widget-types)Widget[!DNL Page Builder]Typ) hinzufügen, indem Sie die folgenden Schritte ausführen:
+Sie können Ihrer Folie in einem [!DNL Page Builder] Schritt einen beliebigen [Widget](../content-design/widgets.md#widget-types)Typ) hinzufügen, indem Sie die folgenden Schritte ausführen:
 
 1. [Erstellen Sie das Widget](../content-design/widget-create.md) das Sie auf einer Folie sehen möchten.
 

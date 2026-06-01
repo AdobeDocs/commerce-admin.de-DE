@@ -5,7 +5,7 @@ exl-id: 81abe2f9-ed48-49fe-bbf0-70699d7106b2
 feature: Page Builder, Release Notes
 source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
 workflow-type: tm+mt
-source-wordcount: '2813'
+source-wordcount: '2839'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Diese Versionshinweise beschreiben Versionen von [!DNL Page Builder] und umfasse
 ![Neu](../assets/new.svg) <!-- Issue 594 -->**Neue Unterstützung für mehrzeilige Spalten zur Spaltengruppe hinzugefügt** - Durch diese Hinzufügung können Benutzende mehrere Zeilen von Spalten innerhalb einer [!DNL Columns] bearbeiten, um Spaltenlayouts viel flexibler zu gestalten.
 <!--- PB-108-->
 
-Informationen [&#x200B; Verwendung der neuen &#x200B;](./column.md)-Gruppe finden [!DNL Columns] unter „Layout - Spalte“.
+Informationen [&#x200B; Verwendung der neuen [!DNL Columns]-Gruppe finden &#x200B;](./column.md) unter „Layout - Spalte“.
 
 ## 1.7.1 für Commerce 2.4.4
 
@@ -181,7 +181,7 @@ Diese Version von [!DNL Page Builder] ist nur ein Versionsnummernupdate für Ado
 
 >[!IMPORTANT]
 >
->Wenn Sie zusätzliche Datenbankentitäten zum Speichern [!DNL Page Builder] Inhalte erstellt haben, _müssen_ fügen Sie diese Entitäten zu Ihrer `etc/di.xml` hinzu. Andernfalls wird der in Ihrer Entität gespeicherte [!DNL Page Builder]-Inhalt nicht aktualisiert, was zu potenziellen Datenverlust- und Anzeigeproblemen führt. Wenn Sie beispielsweise eine Blog-Entität erstellt haben, die [!DNL Page Builder] speichert, müssen Sie Ihre Blog-Entität als `etc/di.xml`-Typ zu Ihrer `UpgradableEntitiesPool`-Datei hinzufügen, damit die Upgrade-Bibliothek die in Ihrem Blog verwendeten [!DNL Page Builder]-Inhaltstypen aktualisieren kann. Weitere Informationen und Anweisungen zur Verwendung der Upgrade-Bibliothek finden Sie unter [Aktualisieren von Inhaltstypen](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/) im _Page Builder-Entwicklerhandbuch_.
+>Wenn Sie zusätzliche Datenbankentitäten zum Speichern [!DNL Page Builder] Inhalte erstellt haben, _müssen_ fügen Sie diese Entitäten zu Ihrer `etc/di.xml` hinzu. Andernfalls wird der in Ihrer Entität gespeicherte [!DNL Page Builder]-Inhalt nicht aktualisiert, was zu potenziellen Datenverlust- und Anzeigeproblemen führt. Wenn Sie beispielsweise eine Blog-Entität erstellt haben, die [!DNL Page Builder] speichert, müssen Sie Ihre Blog-Entität als `UpgradableEntitiesPool`-Typ zu Ihrer `etc/di.xml`-Datei hinzufügen, damit die Upgrade-Bibliothek die in Ihrem Blog verwendeten [!DNL Page Builder]-Inhaltstypen aktualisieren kann. Weitere Informationen und Anweisungen zur Verwendung der Upgrade-Bibliothek finden Sie unter [Aktualisieren von Inhaltstypen](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/) im _Page Builder-Entwicklerhandbuch_.
 
 ![Neu](../assets/new.svg) **Dokumentation zum Hinzufügen neuer Erscheinungsbilder** - Entwicklerinformationen, die jetzt über [Hinzufügen von Erscheinungsbildern](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/) für vorhandene oder benutzerdefinierte Inhaltstypen veröffentlicht wurden.
 

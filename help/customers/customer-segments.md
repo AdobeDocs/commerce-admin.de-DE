@@ -4,7 +4,7 @@ description: Mit Kundensegmenten können Sie bestimmten Kunden Inhalte und Promo
 exl-id: b254a6ac-cb0b-46c1-9ef7-ffc97360a98e
 source-git-commit: 0b9f394a792171e93ee72f3b4ebb904b96ea1051
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---

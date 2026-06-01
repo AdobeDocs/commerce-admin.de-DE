@@ -6,7 +6,7 @@ role: Admin, User
 feature: System, Variables, Page Content, Communications
 source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 1. Um die Nur-Text-Version zu speichern, klicken Sie auf **[!UICONTROL Save Template]**.
 
-## Wiederherstellen der HTML-Version
+## HTML-Version wiederherstellen
 
 1. Klicken Sie oben auf der Seite auf **[!UICONTROL Return HTML Version]**.
 

@@ -1018,7 +1018,7 @@ Diese Version umfasst Verbesserungen bei Auftragsgenehmigungen, Versandmethoden,
 
 - Gäste können jetzt QuickOrder verwenden, um Produkte zu ihrem Warenkorb hinzuzufügen und dann erfolgreich Artikel zu entfernen. Wenn ein Käufer QuickOrder verwendet hat, um mehrere Produkte zum Warenkorb hinzuzufügen, und dann ein Produkt entfernt hat, wurde das Produkt nicht entfernt. <!--- MC-35327-->
 
-- Ein Unternehmen kann jetzt mit der PUT-`/V1/company/:companyId`-Anfrage der REST-API aktualisiert werden, ohne die `region_id` anzugeben, wenn der Status als &quot;**erforderlich“** ist. Zuvor gab Adobe Commerce einen Fehler aus, wenn er nicht angegeben wurde, obwohl `region_id` nicht erforderlich war. <!--- MC-35304-->
+- Ein Unternehmen kann jetzt mit der REST-API PUT `/V1/company/:companyId` -Anfrage aktualisiert werden, ohne die `region_id` anzugeben, wenn der Status als &quot;**erforderlich“** ist. Zuvor gab Adobe Commerce einen Fehler aus, wenn er nicht angegeben wurde, obwohl `region_id` nicht erforderlich war. <!--- MC-35304-->
 
 - Wenn Sie ein B2B-Unternehmen mithilfe der REST-API erstellen oder aktualisieren (`http://magento.local/rest/V1/company/2`, wobei `2` die Unternehmens-ID darstellt), enthält die Antwort jetzt die erwarteten Einstellungen für `applicable_payment_method` oder `available_payment_methods`. <!--- MC-35248-->
 

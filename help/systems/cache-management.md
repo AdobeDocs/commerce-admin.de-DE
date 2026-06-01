@@ -6,7 +6,7 @@ feature: Cache, System
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
@@ -203,7 +203,7 @@ Technische Informationen finden Sie unter [Konfigurieren und Verwenden von &#x20
 
 1. Um den Timeout für den Seiten-Cache festzulegen, geben Sie den **[!UICONTROL TTL for public content]** ein. (Der Standardwert lautet `86400`)
 
-1. Geben Sie die **[!UICONTROL Handles param size]** ein, um die maximale Anzahl von [Layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)Handles) anzugeben, die am [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html?lang=de) HTTP-Endpunkt verarbeitet werden sollen. Durch Größenbeschränkungen können die Sicherheit und Leistung verbessert werden. (Der Standardwert lautet `100`)
+1. Geben Sie die **[!UICONTROL Handles param size]** ein, um die maximale Anzahl von [Layout](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles)Handles) anzugeben, die am [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/use-varnish-esi.html) HTTP-Endpunkt verarbeitet werden sollen. Durch Größenbeschränkungen können die Sicherheit und Leistung verbessert werden. (Der Standardwert lautet `100`)
 
 1. Wenn Sie Lack verwenden, füllen Sie den Abschnitt **[!UICONTROL Varnish Configuration]** wie folgt aus:
 
@@ -213,7 +213,7 @@ Technische Informationen finden Sie unter [Konfigurieren und Verwenden von &#x20
 
    - **[!UICONTROL Backend port]** - Identifizieren Sie den Backend-Port, der zum Generieren von Konfigurationsdateien verwendet wird. Der Standardwert lautet: `8080`.
 
-   - **[!UICONTROL Grace period]** - Geben Sie die Anzahl der Sekunden an, die als Übergangsphase zum Generieren von Konfigurationsdateien verwendet werden sollen. Siehe [Erweiterte Lackkonfiguration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html?lang=de) im _Konfigurationshandbuch_.
+   - **[!UICONTROL Grace period]** - Geben Sie die Anzahl der Sekunden an, die als Übergangsphase zum Generieren von Konfigurationsdateien verwendet werden sollen. Siehe [Erweiterte Lackkonfiguration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/config-varnish-advanced.html) im _Konfigurationshandbuch_.
 
    - Um die Konfiguration als `varnish.vcl`-Datei zu exportieren, klicken Sie auf die Schaltfläche für die verwendete Varnish-Version.
 

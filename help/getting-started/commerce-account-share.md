@@ -5,7 +5,7 @@ exl-id: adc4fed4-89f4-4b0c-811c-fcf6f94dbc22
 feature: User Account
 source-git-commit: 593bad9ca83e96a145beeceb0265e0080e5f7930
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -130,5 +130,5 @@ Die folgenden Anweisungen sind aus der Sicht eines freigegebenen Benutzers gesch
 
 ## Verwandtes Lesen
 
-[Fehlerbehebung beim freigegebenen Zugriff](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
+[Fehlerbehebung bei freigegebenem Zugriff](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
 

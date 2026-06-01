@@ -5,7 +5,7 @@ exl-id: 93efbc9d-da4d-4ff8-95c1-13848b68bc38
 feature: B2B, Quotes
 source-git-commit: ec00288f33af2abb785d1b37dd67aaf1ebe35c06
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2282'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Um seine Position im Workflow zu überwachen, überprüfen Sie Ihre E-Mail und d
 | Schaltfläche | Beschreibung |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Back] | Kehrt zur _[!UICONTROL Quotes]_&#x200B;zurück, ohne die Änderungen zu speichern. |
-| [!UICONTROL Print] | Sendet das Angebot an einen Drucker oder speichert es als PDF. |
+| [!UICONTROL Print] | Sendet das Angebot an einen Drucker oder speichert es als PDF-Datei. |
 | [!UICONTROL Create Copy] | Erstellt und öffnet eine Kopie des aktuellen Anführungszeichens, wobei `(copy)` an den ursprünglichen Namen angehängt wird. Benennen Sie das neue Anführungszeichen um, indem Sie das Feld [!UICONTROL Name] bearbeiten. Verarbeiten Sie das neue Angebot, indem Sie es als Entwurf speichern oder an den Kunden senden. |
 | Vorlage erstellen | Erstellen Sie eine Angebotsvorlage basierend auf dem aktuellen Angebot. Angebotsvorlagen optimieren die Verhandlung von Angeboten, indem sie es Käufern und Verkäufern ermöglichen, sich auf Vertrags- und Preisbedingungen zu einigen, die auf mehrere Angebote angewendet werden können. . Nach Vereinbarung kann der Käufer ein vorab genehmigtes verknüpftes Angebot aus der Vorlage für nachfolgende Bestellungen generieren, anstatt den Angebotsanforderungsprozess (RFQ) neu zu starten. |
 | [!UICONTROL Save as Draft] | Speichert alle Änderungen am Angebot, sendet es jedoch nicht an den Käufer zurück. |

@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Security] &gt; [!UICONTROL 2FA]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Security] &gt; [!UICONTROL 2FA] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Security] > [!UICONTROL 2FA]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Security] > [!UICONTROL 2FA] des Commerce Admin.
 exl-id: d3f6e16b-6eba-47db-a9dd-cb3268d1a13f
 feature: Configuration, Security
 source-git-commit: 22bfff98a9189f3020de21b31705351510dcf1be
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---

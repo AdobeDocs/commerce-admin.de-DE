@@ -5,7 +5,7 @@ exl-id: d328b84d-fab7-4956-9071-2d8848f7c21e
 feature: Communications, Configuration
 source-git-commit: c0d6523f820558c8cd6cfa6b745568784b9e784c
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1314'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,14 @@ Die Standardvorlagen enthalten Ihr Logo und Store-Informationen und können ohne
 | [!UICONTROL Template Name] | Der Name Ihrer benutzerdefinierten Vorlage. |
 | [!UICONTROL Insert Variable] | Fügt an der Cursorposition eine Variable in die Vorlage ein. |
 | [!UICONTROL Template Subject] | Der Vorlagenbetreff wird in der Spalte Betreff angezeigt und kann zum Sortieren und Filtern der Vorlagen in der Liste verwendet werden. |
-| [!UICONTROL Template Content] | Der Inhalt der Vorlage auf HTML. |
+| [!UICONTROL Template Content] | Der Inhalt der Vorlage in HTML. |
 | [!UICONTROL Template Styles] | Alle CSS-Stildeklarationen, die zum Formatieren der Vorlage erforderlich sind, können in das _[!UICONTROL Template Styles]_&#x200B;eingegeben werden. |
 
 {style="table-layout:auto"}
 
 ## Kopfzeilenvorlage
 
-Nach Abschluss der [Konfiguration](email-templates.md#configure-email-templates) enthält die E-Mail-Header-Vorlage Ihr Logo, das mit Ihrem Store verknüpft ist. Wenn Sie über Grundkenntnisse im HTML verfügen, können Sie einfach [vordefinierte Variablen](variables-predefined.md) verwenden, um dem Header Kontaktinformationen für den Store hinzuzufügen.
+Nach Abschluss der [Konfiguration](email-templates.md#configure-email-templates) enthält die E-Mail-Header-Vorlage Ihr Logo, das mit Ihrem Store verknüpft ist. Wenn Sie über Grundkenntnisse in HTML verfügen, können Sie einfach [vordefinierte Variablen](variables-predefined.md) verwenden, um dem Header Kontaktinformationen für den Store hinzuzufügen.
 
 ### Schritt 1. Standardvorlage laden
 
@@ -214,7 +214,7 @@ Der Prozess zum Anpassen des Textkörpers jeder Nachricht ist derselbe wie beim 
 
    >[!NOTE]
    >
-   >Benutzerdefinierte Stile werden nur dann auf die E-Mail angewendet, wenn `{{template config_path="design/email/header_template"}}` im _[!UICONTROL Template Styles]_&#x200B;vorhanden ist. Um benutzerdefiniertes CSS ohne Standard-Header-Vorlage zu verwenden, müssen Sie sie hier im `<style>` HTML-Tag angeben.
+   >Benutzerdefinierte Stile werden nur dann auf die E-Mail angewendet, wenn `{{template config_path="design/email/header_template"}}` im _[!UICONTROL Template Styles]_&#x200B;vorhanden ist. Um benutzerdefiniertes CSS ohne standardmäßige Header-Vorlage zu verwenden, müssen Sie sie hier im `<style>` HTML-Tag angeben.
 
 ### Schritt 3. Aktualisieren der Konfiguration
 

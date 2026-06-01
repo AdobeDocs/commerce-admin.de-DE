@@ -5,7 +5,7 @@ exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
 source-git-commit: 80cc27c4247230eb5e43bca46a34d358f9f0bcea
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor jedoch eine Re
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Suchen Sie im _[!UICONTROL Invoices]_&#x200B;die Rechnung und klicken Sie in der Spalte **[!UICONTROL View]**&#x200B;Aktion_ auf _.
+1. Suchen Sie im _[!UICONTROL Invoices]_&#x200B;die Rechnung und klicken Sie in der Spalte_ Aktion _auf **[!UICONTROL View]**.
 
 1. Klicken Sie oben auf der Rechnung auf **[!UICONTROL Print]** , um eine PDF der Rechnung zu generieren.
 

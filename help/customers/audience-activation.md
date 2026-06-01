@@ -8,7 +8,7 @@ level: Experienced
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 4654bb24e0982c62d71bbc3f771f8a40ee1e83e3
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1946'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ _30. Mai 2023_
 
 +++
 
-### 2,4,0
+### 2.4.0
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"} Adobe Commerce-Versionen 2.4.4 und höher
 
@@ -59,7 +59,7 @@ _24. März 2025_
 
 ![Neu](../assets/new.svg) - PHP 8.4-Unterstützung hinzugefügt.
 
-### 2,3,1
+### 2.3.1
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"} Adobe Commerce-Versionen 2.4.4 und höher
 
@@ -67,7 +67,7 @@ _12. November 2024_
 
 ![Korrigieren](../assets/fix.svg) - Es wurde ein Problem beim Filtern der verfügbaren Real-Time CDP-Zielgruppen zur Auswahl behoben.
 
-### 2,3,0
+### 2.3.0
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"} Adobe Commerce-Versionen 2.4.4 und höher
 
@@ -75,7 +75,7 @@ _29. Juli 2024_
 
 ![Neu](../assets/new.svg) - Es wurde eine Befehlszeilensyntax hinzugefügt, mit der Sie [Anmeldedaten testen](#validate-the-connection) um festzustellen, ob sie aktualisiert werden müssen, um Zielgruppendaten aus Adobe Experience Platform abzurufen.
 
-### 2,2,0
+### 2.2.0
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"} Adobe Commerce-Versionen 2.4.4 und höher
 
@@ -100,7 +100,7 @@ _16. Februar 2024_
 ![Neu](../assets/new.svg) - Wenn Sie die Betaversion verwenden, stellen Sie sicher, dass Ihre `composer.json`-Datei auf der Stammebene Folgendes enthält: ` "minimum-stability": "beta"`.
 ![Neu](../assets/new.svg) - (**Beta**) Es besteht nun die Möglichkeit, [verwandte Produktregeln“ &#x200B;](../merchandising-promotions/product-related-rule-create.md) Zielgruppen zu erstellen.
 
-### 2,1,0
+### 2.1.0
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"} Adobe Commerce-Versionen 2.4.4 und höher
 
@@ -108,7 +108,7 @@ _24. Januar 2024_
 
 ![Neu](../assets/new.svg) - Das Dashboard [Real-Time CDP-Zielgruppen](#real-time-cdp-audiences-dashboard) wurde aktualisiert, um die Websites einzuschließen, die die Zielgruppen enthalten, und um anzugeben, welche dynamischen Blöcke und Warenkorbpreisregeln für die Verwendung dieser Zielgruppen konfiguriert sind.
 
-### 2,0,1
+### 2.0.1
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"} Adobe Commerce-Versionen 2.4.4 und höher
 
@@ -116,7 +116,7 @@ _16. November 2023_
 
 ![Fix](../assets/fix.svg) - Verbesserte Stabilität.
 
-### 2,0,0
+### 2.0.0
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"} Adobe Commerce-Versionen 2.4.4 und höher
 
@@ -125,7 +125,7 @@ _10. Oktober 2023_
 ![Neu](../assets/new.svg) - Es wurde Unterstützung für OAuth 2.0 beim [&#x200B; (Konfigurieren](#configure-the-extension) der Audience Activation-Erweiterung hinzugefügt.
 ![Fix](../assets/fix.svg) - Verbesserte Stabilität.
 
-### 1,2,0
+### 1.2.0
 
 [!BADGE Kompatibilität]{type=Informative tooltip="Kompatibilität"} Adobe Commerce-Versionen 2.4.4 und höher
 
@@ -133,7 +133,7 @@ _15. August 2023_
 
 ![Beheben](../assets/fix.svg) - Die Version der Benutzeroberflächenkomponenten wurde aktualisiert.
 
-### 1,1,0
+### 1.1.0
 
 _30. Mai 2023_
 
@@ -141,7 +141,7 @@ _30. Mai 2023_
 
 ![Neu](../assets/new.svg) - Unterstützung für [dynamische Blöcke](#headless-support) in einer Headless-Storefront hinzugefügt.
 
-### 1,0,1
+### 1.0.1
 
 _11. Mai 2023_
 
@@ -150,7 +150,7 @@ _11. Mai 2023_
 ![Beheben](../assets/fix.svg) - Es wurde ein Problem behoben, bei dem eine dynamische Block- oder Warenkorb-Preisregel nicht auf die Storefront angewendet wurde.
 ![Beheben](../assets/fix.svg) - Es wurde ein Problem behoben, bei dem eine nicht konfigurierte Installation der Audience Activation-Erweiterung einen Fehler verursachte, wenn ein Händler versuchte, einen dynamischen Block zu erstellen oder zu aktualisieren.
 
-### 1,0,0
+### 1.0.0
 
 _31. März 2023_
 

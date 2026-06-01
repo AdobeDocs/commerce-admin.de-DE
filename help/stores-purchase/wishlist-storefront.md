@@ -5,7 +5,7 @@ exl-id: df8cf89a-c897-4a9a-9e84-3bae946683a4
 feature: Customers, Storefront
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Eine Wunschliste ist eine praktische Möglichkeit für Kunden, Produkte zurückz
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce unterstützt die Verwendung mehrerer Wunschlisten pro Kundenkonto.
 
-![Magento Open Source &#x200B;](../assets/open-source.svg) Die Magento Open Source-Code-Basis unterstützt die Verwendung einer einzigen Wunschliste pro Kundenkonto.
+![Magento Open Source](../assets/open-source.svg) Die Magento Open Source-Code-Basis unterstützt die Verwendung einer einzigen Wunschliste pro Kundenkonto.
 
 ## Erstellen einer Wunschliste
 

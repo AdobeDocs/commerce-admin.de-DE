@@ -5,7 +5,7 @@ exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
 source-git-commit: 9ba2b4f7847559e2c59c7bec3b87781c12270712
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1960'
 ht-degree: 0%
 
 ---
@@ -179,7 +179,7 @@ Die Erstellung von Rabattgutscheinen ist ein asynchroner Vorgang, der im Hinterg
 
 Sie können Gutscheincodes in eine CSV- oder Excel-XML-Datei exportieren, indem Sie das Dateiformat auswählen und auf **[!UICONTROL Export]** klicken.
 
-Um Gutscheincodes zu löschen, wählen Sie einen oder mehrere Codes aus der Liste aus. Wählen Sie in der `Delete`-Auswahl die Option **[!UICONTROL Actions]** aus, und klicken Sie dann auf **[!UICONTROL Submit]**.
+Um Gutscheincodes zu löschen, wählen Sie einen oder mehrere Codes aus der Liste aus. Wählen Sie in der **[!UICONTROL Actions]**-Auswahl die Option `Delete` aus, und klicken Sie dann auf **[!UICONTROL Submit]**.
 
 ## Bericht zu Coupons
 
@@ -243,7 +243,7 @@ Im folgenden Beispiel wurde der Couponcode „H20“ von zwei Kunden verwendet. 
 | [!UICONTROL To] | Gibt das letzte Datum im Bereich der Bestelldaten an, die im Bericht enthalten sind. |
 | [!UICONTROL Order Status] | Filtert den Bericht nach Bestellstatus. Der Bericht kann für alle Bestellungen generiert oder auf einen bestimmten Bestellstatus beschränkt werden. Optionen: <br/>**[!UICONTROL Any]**: Umfasst alle Bestellungen unabhängig vom Status.<br/>**[!UICONTROL Specified]**: Umfasst nur Bestellungen mit dem angegebenen Status. Stornierte Bestellungen sind nicht im Bericht enthalten. |
 | [!UICONTROL Empty Rows] | Bestimmt, ob der Bericht Zeilen mit leeren Daten enthält, die möglicherweise abgerufen werden. Optionen: `Yes` / `No` |
-| [!UICONTROL Cart Price Rules] | Legt fest, welche Gutscheinaktionen in den Bericht aufgenommen werden. Optionen: <br/>**[!UICONTROL Any]**: Enthält Bestellinformationen für jede Gutscheinaktion, die während des angegebenen Datumsbereichs verwendet wurde.<br/>**[!UICONTROL Specified]**: Enthält nur Bestellinformationen für die ausgewählte Gutscheinaktion während des angegebenen Datumsbereichs. |
+| [!UICONTROL Cart Price Rules] | Legt fest, welche Gutscheinaktionen in den Bericht aufgenommen werden. Optionen: <br/>**[!UICONTROL Any]**: Enthält Bestellinformationen für jede Coupon-Promotion, die während des angegebenen Datumsbereichs verwendet wurde.<br/>**[!UICONTROL Specified]**: Enthält nur Bestellinformationen für die ausgewählte Coupon-Promotion während des angegebenen Datumsbereichs. |
 
 {style="table-layout:auto"}
 

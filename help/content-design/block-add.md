@@ -5,7 +5,7 @@ exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Es gibt zwei Möglichkeiten, einen benutzerdefinierten Block zu entfernen. Sie k
 
 ## Hinzufügen einer Lightbox oder eines Schiebereglers
 
-- Es ist einfach, mit [&#x200B; einen &#x200B;](../page-builder/slider.md)Schieberegler[[!DNL Page Builder]](../page-builder/introduction.md) zu Ihrem Geschäft hinzuzufügen. Der Schieberegler kann auf automatische Wiedergabe eingestellt oder manuell mit Navigationstasten gesteuert werden.
+- Es ist einfach, mit [[!DNL Page Builder]](../page-builder/introduction.md) einen [Schieberegler](../page-builder/slider.md) zu Ihrem Geschäft hinzuzufügen. Der Schieberegler kann auf automatische Wiedergabe eingestellt oder manuell mit Navigationstasten gesteuert werden.
 
   ![Page Builder-Regler](./assets/pb-tutorial3-slider-tee-shirt-promo.png){width="600" zoomable="yes"}
 

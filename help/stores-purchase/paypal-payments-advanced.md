@@ -6,7 +6,7 @@ feature: Payments
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: '2215'
 ht-degree: 0%
 
 ---
@@ -223,27 +223,27 @@ Legen Sie **[!UICONTROL Enable PayPal PayLater Experience]** auf eine der folgen
    - `Text`
    - `Flex`
 
-1. Legen Sie [!UICONTROL Style Layout] nur für **[!UICONTROL Text]** **[!UICONTROL Logo Type]** auf eine der folgenden Einstellungen fest:
+1. Legen Sie **[!UICONTROL Logo Type]** nur für [!UICONTROL Style Layout] **[!UICONTROL Text]** auf eine der folgenden Einstellungen fest:
 
    - `Primary`
    - `Alternative`
    - `Inline`
    - `None`
 
-1. Legen Sie [!UICONTROL Style Layout] nur für **[!UICONTROL Text]** **[!UICONTROL Logo Position]** auf eine der folgenden Einstellungen fest:
+1. Legen Sie **[!UICONTROL Logo Position]** nur für [!UICONTROL Style Layout] **[!UICONTROL Text]** auf eine der folgenden Einstellungen fest:
 
    - `Left`
    - `Right`
    - `Top`
 
-1. Legen Sie [!UICONTROL Style Layout] nur für **[!UICONTROL Text]** **[!UICONTROL Text Color]** auf eine der folgenden Einstellungen fest:
+1. Legen Sie **[!UICONTROL Text Color]** nur für [!UICONTROL Style Layout] **[!UICONTROL Text]** auf eine der folgenden Einstellungen fest:
 
    - `Black`
    - `White`
    - `Monochrome`
    - `Grayscale`
 
-1. Legen Sie [!UICONTROL Style Layout] nur für **[!UICONTROL Text]** **[!UICONTROL Text Size]** auf eine der folgenden Einstellungen fest:
+1. Legen Sie **[!UICONTROL Text Size]** nur für [!UICONTROL Style Layout] **[!UICONTROL Text]** auf eine der folgenden Einstellungen fest:
 
    - `10px`
    - `11px`
@@ -253,14 +253,14 @@ Legen Sie **[!UICONTROL Enable PayPal PayLater Experience]** auf eine der folgen
    - `15px`
    - `16px`
 
-1. Legen Sie [!UICONTROL Style Layout] nur für **[!UICONTROL Flex]** **[!UICONTROL Ratio]** auf eine der folgenden Einstellungen fest:
+1. Legen Sie **[!UICONTROL Ratio]** nur für [!UICONTROL Style Layout] **[!UICONTROL Flex]** auf eine der folgenden Einstellungen fest:
 
    - `1x1`
    - `1x4`
    - `8x1`
    - `20x1`
 
-1. Legen Sie [!UICONTROL Style Layout] nur für **[!UICONTROL Flex]** **[!UICONTROL Color]** auf eine der folgenden Einstellungen fest:
+1. Legen Sie **[!UICONTROL Color]** nur für [!UICONTROL Style Layout] **[!UICONTROL Flex]** auf eine der folgenden Einstellungen fest:
 
    - `Blue`
    - `Black`
@@ -448,7 +448,7 @@ Verwenden Sie die _[!UICONTROL Frontend Experience Settings]_, um festzulegen, w
 1. Legen Sie **[!UICONTROL Payment Applicable From]** auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` |Nach Auswahl dieser Option wird die _Zahlung aus der Liste spezifischer_&quot; angezeigt. Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jedes Land in der Liste, in dem Kunden in Ihrem Geschäft Einkäufe tätigen können.
+   - `Specific Countries` |Nachdem Sie diese Option ausgewählt haben _wird die Liste „Zahlung aus bestimmten Ländern_ angezeigt. Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf jedes Land in der Liste, in dem Kunden in Ihrem Geschäft Einkäufe tätigen können.
 
 1. Um die Kommunikation mit dem Zahlungssystem in die Protokolldatei zu schreiben, setzen Sie **[!UICONTROL Debug Mode]** auf `Yes`.
 

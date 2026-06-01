@@ -5,7 +5,7 @@ exl-id: e32747f9-20d0-4717-9cee-aa1bcffebb65
 feature: Taxes
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -204,10 +204,10 @@ Händler, die in verschiedenen Regionen und Regionen tätig sind, können einen 
 
 >[!NOTE]
 >
->Wenn der grenzüberschreitende Handel aktiviert ist, ändert sich Ihre Gewinnspanne nach Steuersatz. Der Gewinn wird nach folgender Formel bestimmt:<br>
+>Wenn der grenzüberschreitende Handel aktiviert ist, ändert sich Ihre Gewinnspanne nach Steuersatz. Der Gewinn wird nach folgender Formel ermittelt:<br>
 >`Revenue - CustomerVAT - CostOfGoodsSold`
 
-**_Für eine grenzübergreifende Preiskonsistenz:_**
+**_So ermöglichen Sie eine grenzübergreifende Preiskonsistenz:_**
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

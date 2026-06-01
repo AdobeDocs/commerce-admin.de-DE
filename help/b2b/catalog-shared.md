@@ -5,7 +5,7 @@ exl-id: cf7c9099-9b7d-407b-adb9-06a4815624ee
 feature: B2B, Companies, Catalog Management
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---

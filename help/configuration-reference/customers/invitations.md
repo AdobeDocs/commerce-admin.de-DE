@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL Customers] &gt; [!UICONTROL Invitations]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Invitations] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Customers] > [!UICONTROL Invitations]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] > [!UICONTROL Invitations] des Commerce Admin.
 exl-id: edafeaed-9c4f-4d9f-b35c-381ae5f43b67
 feature: Configuration, Promotions/Events
 source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
+source-wordcount: '250'
+ht-degree: 1%
 
 ---
 

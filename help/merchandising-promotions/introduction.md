@@ -4,7 +4,7 @@ description: Informieren Sie sich über Commerce-Tools zur Erstellung zielgerich
 exl-id: 8e55ac42-aeef-4f97-b1e8-9b2db354e5e6
 source-git-commit: 9c25196367023a44fa76e441d485693493a4c058
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1126'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Bedingungen sind Anweisungen, die die Liste der Produkte und die Situationen fü
 
 >[!NOTE]
 >
->Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, muss **[!UICONTROL Use for Promo Rule Conditions]** für das Attribut in Ihren „Storefront`Yes`Eigenschaften“ auf [&#x200B; festgelegt &#x200B;](../catalog/attribute-product-create.md).
+>Wenn Sie eine Bedingung basierend auf einem bestimmten Produktattribut definieren möchten, muss **[!UICONTROL Use for Promo Rule Conditions]** für das Attribut in Ihren „Storefront[Eigenschaften“ auf `Yes` festgelegt &#x200B;](../catalog/attribute-product-create.md).
 
 
 ### Preisregeln
@@ -67,8 +67,7 @@ Eine der Aufgaben, die Sie vor dem Start Ihres Stores ausführen müssen, besteh
 >[!NOTE]
 >
 >Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source enthielten die vom dotdigital-Anbieter entwickelte Erweiterung, die zur Integration mit der dotdigital Engagement Cloud verwendet wurde. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Bundle der Hauptversion enthalten und muss von der Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
-><br><br>
->Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=de) im _Upgrade-Handbuch_ für weitere Informationen.
+><br><br>>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=de) im _Upgrade-Handbuch_ für weitere Informationen.
 
 - [Newsletter](newsletters.md) - Erstellen Sie Newsletter, verwalten Sie Ihre Abonnentenliste, entwickeln Sie Inhalte und leiten Sie den Traffic zu Ihrem Store weiter.
 

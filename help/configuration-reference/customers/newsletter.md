@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL Customers] &gt; [!UICONTROL Newsletter]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] &gt; [!UICONTROL Newsletter] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Customers] > [!UICONTROL Newsletter]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Customers] > [!UICONTROL Newsletter] des Commerce Admin.
 exl-id: a97003ca-985e-47fa-9ff3-677e05ef3729
 feature: Configuration, Customers, Communications
 source-git-commit: 5a4417373f6dc720e8e14f883c27348a475ec255
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

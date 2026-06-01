@@ -6,7 +6,7 @@ feature: B2B, Companies, Catalog Management
 role: Admin
 source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Nachdem Sie einen neuen freigegebenen Katalog erstellt haben, müssen Sie ihn mi
 
 Sehen Sie sich dieses Video an, um eine Demonstration der freigegebenen Katalogverwaltung anzuzeigen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411351?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3411351?captions=ger&quality=12&learn=on)
 
 ## Seitenverweis für freigegebenen Katalog
 

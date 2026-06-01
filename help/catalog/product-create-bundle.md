@@ -5,7 +5,7 @@ exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
 source-git-commit: ce36104913434bb71115e1a5b497f38f75fbd3c5
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -215,7 +215,7 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 - [Design](settings-advanced-design.md)
 - [Geschenkoptionen](product-gift-options.md)
 
-## Schritt 7: Publish das Produkt
+## Schritt 7: Produkt veröffentlichen
 
 1. Wenn Sie bereit sind, das Produkt im Katalog zu veröffentlichen, legen Sie **[!UICONTROL Enable Product]** auf `Yes` fest ( ![Ja ein/aus](../assets/toggle-yes.png) ).
 

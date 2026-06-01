@@ -5,7 +5,7 @@ exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
 source-git-commit: ab91c19cda6a89219fc8946dad4a0a70d0991b38
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
    | `Text Field` | Ein einzeiliges Eingabefeld für Text. |
    | `Text Area` | Ein mehrzeiliges Eingabefeld zum Eingeben von Textabsätzen, z. B. eine Produktbeschreibung. Sie können den WYSIWYG-Editor verwenden, um den Text mit HTML-Tags zu formatieren, oder die Tags direkt in den Text eingeben. |
    | `Text Editor` | Ein voll funktionsfähiger Texteditor am Attributspeicherort. |
-   | Datum | Zeigt einen Datumswert im [bevorzugten Format](attributes-input-types.md#date-and-time-options) und [Zeitzone](../getting-started/store-details.md#locale-options) an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis:_** Je nach Systemkonfiguration können _Admin_-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](attributes-input-types.md#date-and-time-options). |
+   | Datum | Zeigt einen Datumswert im [bevorzugten Format](attributes-input-types.md#date-and-time-options) und [Zeitzone](../getting-started/store-details.md#locale-options) an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis:_**&#x200B;Je nach Systemkonfiguration können_ Admin_-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](attributes-input-types.md#date-and-time-options). |
    | `Yes/No` | Zeigt eine Dropdown-Liste mit vordefinierten Optionen `Yes` und `No` an. |
    | `Dropdown` | Zeigt eine Dropdown-Liste mit Werten an, die nur eine einzige Auswahl akzeptieren. Der Dropdown-Eingabetyp ist eine Schlüsselkomponente von [konfigurierbaren Produkten](product-create-configurable.md). |
    | `Multiple Select` | Zeigt eine Dropdown-Liste mit Werten an, die mehrere Auswahlmöglichkeiten akzeptieren. |

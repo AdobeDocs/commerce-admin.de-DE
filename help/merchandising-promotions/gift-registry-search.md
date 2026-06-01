@@ -5,7 +5,7 @@ exl-id: 8c5558d6-3641-4769-987e-8b217603d9fc
 feature: Gift, Storefront, Search
 source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---

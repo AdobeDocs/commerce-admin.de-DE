@@ -4,7 +4,7 @@ description: Commerce Admin enthält das Menü [!UICONTROL Marketing] , das Tool
 exl-id: fc0e554b-1bff-45da-bd6f-73e9b1a4fdef
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---

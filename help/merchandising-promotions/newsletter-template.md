@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Newsletter-Vorlagen
 
-Sie können so viele Newsletter-Vorlagen erstellen, wie Sie für verschiedene Zwecke benötigen. Sie können wöchentliche Produktaktualisierungen, monatliche Newsletter oder jährliche Feiertage-Newsletter versenden. Newsletter-Vorlagen können mit HTML-Markup oder als reiner Text vorbereitet werden. Im Gegensatz zum HTML enthalten Nur-Text-Newsletter keine Bilder, Rich-Text oder formatierten Links. Im Raster gibt die Spalte Vorlagentyp an, ob es sich bei einer Vorlage um HTML oder Text handelt.
+Sie können so viele Newsletter-Vorlagen erstellen, wie Sie für verschiedene Zwecke benötigen. Sie können wöchentliche Produktaktualisierungen, monatliche Newsletter oder jährliche Feiertage-Newsletter versenden. Newsletter-Vorlagen können mit HTML-Markup oder als reiner Text vorbereitet werden. Im Gegensatz zu HTML enthalten Nur-Text-Newsletter keine Bilder, Rich-Text oder formatierten Links. Im Raster gibt die Spalte Vorlagentyp an, ob es sich bei einer Vorlage um HTML oder Text handelt.
 
 ![Newsletter-Vorlagen - zur Newsletter-Warteschlange hinzufügen](./assets/newsletter-templates-grid.png){width="700" zoomable="yes"}
 
@@ -68,7 +68,7 @@ Sie können so viele Newsletter-Vorlagen erstellen, wie Sie für verschiedene Zw
 
    Die Vorschau wird in einer neuen Browser-Registerkarte geöffnet.
 
-1. Klicken Sie auf **[!UICONTROL Save Template]**, um die HTML-Version zu speichern.
+1. Um die HTML-Version zu speichern, klicken Sie auf **[!UICONTROL Save Template]**.
 
 ## Löschen einer Newsletter-Vorlage
 

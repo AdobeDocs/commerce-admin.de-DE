@@ -5,7 +5,7 @@ exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
 source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '2726'
+source-wordcount: '2728'
 ht-degree: 0%
 
 ---
@@ -208,7 +208,7 @@ Das Unternehmensprofil kann vom Unternehmensadministrator in der Storefront und 
 
 In diesem Video erfahren Sie mehr über die Verwaltung von Unternehmenskonten:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411354?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3411354?captions=ger&quality=12&learn=on)
 
 ## Unternehmensleitung
 

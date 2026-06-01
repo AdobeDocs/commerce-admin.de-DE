@@ -1,11 +1,11 @@
 ---
-title: '[!UICONTROL Sales] &gt; [!UICONTROL Sales Emails]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Sales] &gt; [!UICONTROL Sales Emails] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Sales] > [!UICONTROL Sales Emails]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Sales] > [!UICONTROL Sales Emails] des Commerce Admin.
 exl-id: f770e202-6f7e-4f84-9251-7d8a760260b4
 feature: Configuration, Communications
 source-git-commit: 1e19aaab43f389469d6bc44810c1819678ae3e4a
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2340'
 ht-degree: 0%
 
 ---

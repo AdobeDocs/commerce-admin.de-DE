@@ -1,12 +1,12 @@
 ---
-title: '[!UICONTROL Security] &gt; [!UICONTROL Security.txt]'
-description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Security] &gt; [!UICONTROL Security.txt] des Commerce Admin-Bereichs.
+title: '[!UICONTROL Security] > [!UICONTROL Security.txt]'
+description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Security] > [!UICONTROL Security.txt] des Commerce Admin.
 exl-id: 26385864-cfd8-456b-91b2-bf5d019c09e1
 feature: Configuration, Security, Site Management
 source-git-commit: b710c0368dc765e3bf25e82324bffe7fb8192dbf
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 0%
+source-wordcount: '360'
+ht-degree: 1%
 
 ---
 

@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: 9fe20d6a-2c9c-4618-a395-805d64dcf0de
 source-git-commit: d3c5f0da47bfd951431213050546e865c6ab35ec
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Verwalten Sie Unternehmensrollen über das Storefront-Konto des Unternehmensadmi
 
 ### Rolle ändern
 
-1. Suchen Sie die zu ändernde Rolle und klicken Sie in der Spalte **[!UICONTROL Edit]** auf **[!UICONTROL Actions]** .
+1. Suchen Sie die zu ändernde Rolle und klicken Sie in der Spalte **[!UICONTROL Actions]** auf **[!UICONTROL Edit]** .
 
 1. Nehmen Sie die erforderlichen Änderungen an den Einstellungen für Namen und Berechtigungen vor.
 
@@ -68,7 +68,7 @@ Verwalten Sie Unternehmensrollen über das Storefront-Konto des Unternehmensadmi
 
 ### Duplizieren einer Rolle
 
-1. Suchen Sie die Rolle, die Sie duplizieren möchten, und klicken Sie in der Spalte **[!UICONTROL Duplicate]** auf **[!UICONTROL Actions]** .
+1. Suchen Sie die Rolle, die Sie duplizieren möchten, und klicken Sie in der Spalte **[!UICONTROL Actions]** auf **[!UICONTROL Duplicate]** .
 
 1. Nehmen Sie die erforderlichen Änderungen an den Einstellungen für Namen und Berechtigungen vor.
 
@@ -80,7 +80,7 @@ Verwalten Sie Unternehmensrollen über das Storefront-Konto des Unternehmensadmi
 
    Nur Rollen ohne zugewiesene Benutzer können gelöscht werden.
 
-1. Klicken Sie in der Spalte **[!UICONTROL Delete]** auf **[!UICONTROL Actions]** .
+1. Klicken Sie in der Spalte **[!UICONTROL Actions]** auf **[!UICONTROL Delete]** .
 
 1. Wenn Sie zum Bestätigen aufgefordert werden, klicken Sie auf **[!UICONTROL OK]**.
 

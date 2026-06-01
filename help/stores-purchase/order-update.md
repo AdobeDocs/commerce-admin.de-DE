@@ -5,7 +5,7 @@ exl-id: 15c73d27-f4bd-47d6-8d36-902074f9c3e6
 feature: Orders, Customer Service
 source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Wenn Sie wesentliche Teile einer Bestellung ändern, wird die ursprüngliche Bes
 | **[!UICONTROL Login as Customer]** | Ermöglicht es einem Admin-Benutzer, Kunden bei ihren Bestellungen zu unterstützen. |
 | **[!UICONTROL Cancel]** | Storniert die ausstehende Bestellung. |
 | **[!UICONTROL Send Email]** | Sendet eine E-Mail über die ausstehende Bestellung an den Kunden. |
-| **[!UICONTROL Hold]**/**[!UICONTROL Unhold]** | Ändert den Status der ausstehenden Bestellung in `On Hold`. Um den Haltebereich zu lösen, wählen Sie _[!UICONTROL Unhold]_&#x200B;aus. |
+| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändert den Status der ausstehenden Bestellung in `On Hold`. Um den Haltebereich zu lösen, wählen Sie _[!UICONTROL Unhold]_&#x200B;aus. |
 | **[!UICONTROL Invoice]** | Erstellt eine [Rechnung](invoices.md#create-an-invoice) aus der ausstehenden Bestellung, indem die Bestellung in eine Rechnung umgewandelt wird, und ändert den Bestellstatus in `processing`. |
 | **[!UICONTROL Ship]** | Erstellt einen [Sendung](shipments.md#create-a-shipment)-Datensatz für die Bestellung. |
 | **[!UICONTROL Reorder]** | Erstellt einen neuen ausstehenden Auftrag, der ein Duplikat des aktuellen ausstehenden Auftrags ist. |
@@ -59,7 +59,7 @@ Sie können eine `Processing` Bestellung nicht wesentlich ändern, aber Sie kön
 | **[!UICONTROL Send Email]** | Sendet eine E-Mail über die Bestellung an den Kunden. |
 | **[!UICONTROL Void]** | [Voids](#void-a-processing-order) eine Auftragstransaktion oder eine Teilauftragstransaktion. |
 | **[!UICONTROL Credit Memo]** | Startet den Prozess zum Erstellen einer [Gutschrift](credit-memo-create.md). |
-| **[!UICONTROL Hold]**/**[!UICONTROL Unhold]** | Ändert den Status des Kundenauftrags in `On Hold`. Um die Sperre des Kundenauftrags aufzuheben, wählen Sie _[!UICONTROL Unhold]_&#x200B;aus. |
+| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändert den Status des Kundenauftrags in `On Hold`. Um die Sperre des Kundenauftrags aufzuheben, wählen Sie _[!UICONTROL Unhold]_&#x200B;aus. |
 | **[!UICONTROL Reorder]** | Erstellt einen neuen ausstehenden Auftrag basierend auf dem aktuellen Auftrag. |
 | **[!UICONTROL Create Returns]** | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Initiiert den Prozess zum [&#x200B; (](returns.md)) eines oder mehrerer Elemente aus der Bestellung. |
 
@@ -73,7 +73,7 @@ Wenn eine Bestellung mit einer Zahlungsmethode aufgegeben wird, bei der der Zahl
 
 Ihre Zahlungsmethode bestimmt Ihre verfügbaren Zahlungsaktionen. Weitere Informationen [&#x200B; Sie unter &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions)Zahlungsaktionen“.
 
-**_So heben Sie eine Bestellung auf:_**
+**_So stornieren Sie eine Bestellung:_**
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
 

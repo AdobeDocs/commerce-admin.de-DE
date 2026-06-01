@@ -4,7 +4,7 @@ description: Informieren Sie sich ausführlich über Merchandising- und Werbefun
 exl-id: 76ba1e08-3afd-409c-8376-d07e98095d26
 source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---

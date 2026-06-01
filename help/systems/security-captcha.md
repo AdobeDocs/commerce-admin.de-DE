@@ -7,7 +7,7 @@ feature: Configuration, Security
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Von Kunden kann verlangt werden, ein CAPTCHA jedes Mal einzugeben, wenn sie sich
       - `Contact Us`
       - `Change password`
       - `Share Wishlist Form`
-      - `Payflow Pro` (siehe [Sicherheits-](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html?lang=de)_Wissensdatenbank_ Artikel)
+      - `Payflow Pro` (siehe [Sicherheits-](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)_Wissensdatenbank_ Artikel)
       - `Send to Friend Form` ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source)
       - `Add Gift Card Code` ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
       - `Create company` ![Adobe Commerce B2B](../assets/b2b.svg) (nur bei Adobe Commerce B2B verfügbar)

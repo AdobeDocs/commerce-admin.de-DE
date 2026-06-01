@@ -6,7 +6,7 @@ feature: B2B, Companies, Configuration
 role: Admin
 source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Die meisten Unternehmen benötigen eine Bestellgenehmigung für Bestellungen. Du
 * Alle Bestellungen mit einem Wert unter X werden automatisch genehmigt.
 * Bestellungen über dem Wert X, aber unter Q müssen von Y genehmigt werden.
 * Alle POS über X-Werte müssen von Y und Z genehmigt werden.
-* Eine Bestellung, die von einer Person auf Director-Ebene oder höher erstellt wurde, wird automatisch genehmigt.
+* Eine Bestellung, die von einer Person auf der Ebene des Direktors oder höher erstellt wurde, wird automatisch genehmigt.
 
 Je nach Unternehmensrolle und Berechtigungen können Benutzende Genehmigungsregeln erstellen, bearbeiten, löschen oder anzeigen.
 
@@ -150,4 +150,4 @@ Um eine vorhandene Genehmigungsregel zu entfernen, kann ein Kunde die folgenden 
 
 In diesem Video erfahren Sie mehr über Bestellgenehmigungen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411353?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3411353?captions=ger&quality=12&learn=on)

@@ -6,7 +6,7 @@ feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
 source-git-commit: 2e119bcb8278432bde1c12f3f44a112cde59fb18
 workflow-type: tm+mt
-source-wordcount: '2444'
+source-wordcount: '2455'
 ht-degree: 0%
 
 ---
@@ -245,7 +245,7 @@ Der Prozess der Erstellung einer Firma aus der Admin ist im Wesentlichen der gle
 
 Nachdem ein Unternehmenskonto erstellt wurde, geschieht der folgende Prozess:
 
-### &#x200B;1. Genehmigungs-Workflow
+### &#x200B;1. Validierungs-Workflow
 
 * **Ausstehender Status** - Neue Konten warten auf Administratorprüfung
 * **Überprüfungsprozess** - Store-Administratoren überprüfen Geschäftsinformationen und genehmigen/ablehnen Anfragen
