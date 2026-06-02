@@ -3,9 +3,9 @@ title: Daten importieren
 description: Erfahren Sie mehr über Datenimportrichtlinien und die Verwendung von Datenimportvorgängen.
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
-source-git-commit: 1c1327dbda76283ae28f761d1e523e049e0e492f
+source-git-commit: cb68f54b0dc5843151c2677a65e67af5e1844a9a
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ Daten für alle Produkttypen können in den Store importiert werden. Darüber hi
 - Wenn für ein erforderliches Attribut kein Wert oder ein ungültiger Wert vorhanden ist, wird der vorhandene Wert nicht ersetzt.
 - Wenn die komplexen Daten für die Entität ungültig sind, kann die Entität (die entsprechende Zeile bzw. die entsprechenden Zeilen) nicht importiert werden. Eine Ausnahme stellt der Fall dar, wenn im Dropdown-Menü Importverhalten die Option Entitäten löschen ausgewählt wurde.
 
+>[!NOTE]
+>
+>Lassen Sie bei großen Katalogen die Spalten `categories` und `url_key` aus der Importdatei weg, wenn Sie die Kategoriezuweisungen oder URL-Schlüssel nicht ändern. Wenn eine der Spalten vorhanden ist, generiert Adobe Commerce URL-Neuschreibungen für jedes Produkt in der Datei neu. Diese zusätzliche Arbeit verlängert den Import und kann zu Zeitüberschreitungsfehlern in Adobe Commerce on Cloud führen.
+
 ### Komplexe Daten
 
 Wenn ein in der Importdatei angegebenes Attribut vorhanden ist und sein Wert aus einem definierten Satz von Werten abgeleitet wird, gilt Folgendes:
@@ -52,8 +56,8 @@ Im Importvorgang von Adobe Commerce werden in UTF-8 kodierte Dateien, die eine B
 
 | Bedienung | Beschreibung |
 | --------- | ----------- |
-| Hinzufügen/Aktualisieren | Zu den vorhandenen Produktdaten für die vorhandenen Einträge in der Datenbank werden neue Produktdaten hinzugefügt. Alle Felder außer `sku` können aktualisiert werden.<br><br>Neue Steuerklassen, die in den Importdaten angegeben sind, werden automatisch erstellt.<br><br>Neue Produktkategorien, die in der Importdatei angegeben sind, werden automatisch erstellt.<br><br>Neue SKUs, die in der Importdatei angegeben sind, werden automatisch erstellt <br><br>**_Hinweis:_**&#x200B;Bei Produkten können Sie alle Felder außer SKU durch Import aktualisieren.<br><br>**_Wichtig:_** Mehrere Feldwerte, wie Websites oder Kategorien, können nicht mit dem Importverhalten _Hinzufügen/Aktualisieren_ entfernt werden. Diese Felder bleiben nach dem Import in der Datenbank, wenn sie nicht in der CSV-Datei aufgeführt sind. |
-| Ersetzen | Die vorhandenen Produktdaten werden durch neue Daten ersetzt.<br><br>**_Wichtig:_**&#x200B;Gehen Sie beim Ersetzen von Daten vorsichtig vor, da die vorhandenen Produktdaten gelöscht werden und alle Verweise im System verloren gehen.<br><br>Wenn eine SKU in den Importdaten mit der SKU einer vorhandenen Entität übereinstimmt, werden alle Felder, einschließlich der SKU, gelöscht und mithilfe der CSV-Daten wird ein neuer Datensatz erstellt. Ein Fehler tritt auf, wenn die CSV-Datei auf eine SKU verweist, die nicht in der Datenbank vorhanden ist. Sie können Daten überprüfen, um den Fehler anzuzeigen. |
+| Hinzufügen/Aktualisieren | Zu den vorhandenen Produktdaten für die vorhandenen Einträge in der Datenbank werden neue Produktdaten hinzugefügt. Alle Felder außer `sku` können aktualisiert werden.<br><br>Neue Steuerklassen, die in den Importdaten angegeben sind, werden automatisch erstellt.<br><br>Neue Produktkategorien, die in der Importdatei angegeben sind, werden automatisch erstellt.<br><br>Neue SKUs, die in der Importdatei angegeben sind, werden automatisch erstellt <br><br>**_Hinweis:_**&#x200B;Bei Produkten können Sie alle Felder außer SKU durch Import aktualisieren.<br><br>**_Wichtig:_** Mehrere Feldwerte wie Websites oder Kategorien können nicht mit dem Importverhalten _Hinzufügen/Aktualisieren_ entfernt werden. Diese Felder bleiben nach dem Import in der Datenbank, wenn sie nicht in der CSV-Datei aufgeführt sind. |
+| Ersetzen | Die vorhandenen Produktdaten werden durch neue Daten ersetzt.<br><br>**_Wichtig:_** Seien Sie beim Ersetzen von Daten vorsichtig, da die vorhandenen Produktdaten gelöscht werden und alle Verweise im System verloren gehen.<br><br>Wenn eine SKU in den Importdaten mit der SKU einer vorhandenen Entität übereinstimmt, werden alle Felder, einschließlich der SKU, gelöscht und mithilfe der CSV-Daten wird ein neuer Datensatz erstellt. Ein Fehler tritt auf, wenn die CSV-Datei auf eine SKU verweist, die nicht in der Datenbank vorhanden ist. Sie können Daten überprüfen, um den Fehler anzuzeigen. |
 | Löschen | Alle Entitäten in den Importdaten, die in der Datenbank vorhanden sind, werden aus der Datenbank gelöscht.<br><br>Löschen ignoriert alle Spalten in den Importdaten, mit Ausnahme der SKU. Sie können alle anderen Attribute in den Daten ignorieren.<br><br>Ein Fehler tritt auf, wenn die CSV-Datei auf eine SKU verweist, die nicht in der Datenbank vorhanden ist. Sie können Daten überprüfen, um den Fehler anzuzeigen. |
 
 {style="table-layout:auto"}
