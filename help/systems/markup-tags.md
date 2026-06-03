@@ -3,7 +3,7 @@ title: Markup-Tags
 description: Erfahren Sie mehr über Markup-Tags, die Code-Ausschnitte enthalten, um auf ein Objekt in Ihrem Store zu verweisen.
 exl-id: 0d6f5a9b-983d-473e-b641-0dceba40974f
 feature: Page Content, Communications, Variables
-source-git-commit: 29e8d3eddc335f6d0027d0b2a146430fbfc03fde
+source-git-commit: 4a4333fcc8425123fd6a4d17bbccf54534017a7d
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -120,12 +120,12 @@ Betten Sie das fertige Markup-Tag in ein Anker-Tag ein, indem Sie das Markup-Tag
 
 #### Markup im Anker-Tag
 
-`<a href="{{markup tag goes here}}">Link Text\</a>`
+`<a href="{{markup tag goes here}}">Link Text</a>`
 
 Fügen Sie das fertige Anker-Tag in den Code einer CMS-Seite, eines -Blocks, eines -Banners oder einer E-Mail-Vorlage ein, in der bzw. dem der Link angezeigt werden soll.
 
 ### Vollständiger Link mit Markup
 
-`<a href="{{store url='apparel/shoes'}}">Shoe Sale\</a>`
+`<a href="{{store url='apparel/shoes'}}">Shoe Sale</a>`
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->
