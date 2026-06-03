@@ -16,7 +16,7 @@ Das Herzstück von [!DNL Inventory Management] verfolgt jedes verfügbare Produk
 
 >[!NOTE]
 >
->Informationen [ programmgesteuerten Arbeiten mit dem [!DNL Inventory Management] finden ](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) in der Entwicklerdokumentation .
+>Informationen [&#x200B; programmgesteuerten Arbeiten mit dem [!DNL Inventory Management] finden &#x200B;](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) in der Entwicklerdokumentation .
 
 ## Source-Auswahlalgorithmus
 
