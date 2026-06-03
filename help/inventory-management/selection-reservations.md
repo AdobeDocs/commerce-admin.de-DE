@@ -3,9 +3,9 @@ title: Source-Algorithmen und -Reservierungen
 description: Erfahren Sie mehr über den Source-Auswahlalgorithmus und Reservierungssysteme, die im Hintergrund ausgeführt werden, um Ihre Verkaufsmengen auf dem neuesten Stand zu halten.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+source-git-commit: a8e9389ee2b94f816915de3e61516004d2b32e9d
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Das Herzstück von [!DNL Inventory Management] verfolgt jedes verfügbare Produk
 
 >[!NOTE]
 >
->Informationen zur programmgesteuerten Arbeit mit dem [&#x200B; finden &#x200B;](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) in [!DNL Inventory Management] Entwicklerdokumentation.
+>Informationen [ programmgesteuerten Arbeiten mit dem [!DNL Inventory Management] finden ](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) in der Entwicklerdokumentation .
 
 ## Source-Auswahlalgorithmus
 
@@ -24,14 +24,18 @@ Der Source-Auswahlalgorithmus (SSA) analysiert und bestimmt die beste Übereinst
 
 Mit mehreren Bezugsstandorten, globalen Kunden und Spediteuren mit verschiedenen Versandoptionen und -gebühren kann es schwierig sein, Ihr tatsächliches verfügbares Inventar zu kennen und die beste Versandoption zu finden. SSA erledigt die Arbeit für Sie, von der Verfolgung der verkäuflichen Lagermengen über alle Quellen hinweg bis hin zur Berechnung und Abgabe von Empfehlungen für Sendungen.
 
-**Inventar nachverfolgen** - Mithilfe von Lagern und Quellen prüft die SSA den Vertriebskanal eingehender Produktanfragen und ermittelt den verfügbaren Bestand:
+### Inventar nachverfolgen
+
+Anhand von Lagern und Quellen prüft die SSA den Vertriebskanal eingehender Produktanfragen und ermittelt verfügbare Lagerbestände:
 
 - Berechnet die aggregierte virtuelle Verkaufsmenge aller zugewiesenen Quellen pro Lager: aggregates Menge - Nicht vorrätiger Schwellenwert pro Quelle
 - Subtrahiert den nicht vorrätigen Schwellenbetrag von der verkaufsfähigen Menge, um einen Überverkauf zu verhindern
 - Reserviert Lagermengen bei der Bestellübermittlung, abzüglich Lagerbestand bei Auftragsverarbeitung und Versand
 - Unterstützt Nachbestellungen mit erweiterten Optionen für negative Schwellenwerte
 
-**Sendungen verwalten** - Der Algorithmus hilft bei der Verarbeitung und Lieferung von Bestellungen. Sie können den Algorithmus ausführen, um Empfehlungen zu den besten Quellen für den Versand des Produkts zu erhalten, oder die Auswahl überschreiben, um:
+### Sendungen verwalten
+
+Der Algorithmus hilft bei der Verarbeitung und Lieferung von Bestellungen. Sie können den Algorithmus ausführen, um Empfehlungen zu den besten Quellen für den Versand des Produkts zu erhalten, oder die Auswahl überschreiben, um:
 
 - Versand von Teilsendungen, wobei nur wenige Produkte von bestimmten Standorten gesendet werden und die gesamte Bestellung später abgeschlossen wird
 - Versand der gesamten Bestellung aus einer Quelle
@@ -54,7 +58,7 @@ Beim Ausführen des Algorithmus:
 - Fahren Sie in der Liste nach unten, bis die Bestellanlieferung ausgefüllt ist
 - Deaktivierte Quellen werden übersprungen, wenn sie in der Liste gefunden wurden
 
-Zum Konfigurieren, Zuweisen und Sortieren von Quellen zu einem benutzerdefinierten Lager. Siehe [Priorisieren von Quellen für einen Bestand](stocks-prioritize-sources.md).
+Informationen zum Konfigurieren, Zuweisen und Sortieren von Quellen für ein benutzerdefiniertes Lager finden Sie unter [Priorisieren von Quellen für ein Lager](stocks-prioritize-sources.md).
 
 Im folgenden Beispiel werden die zugeordneten Quellen in der Reihenfolge, die verfügbare Menge und die empfohlene Quelle und der empfohlene Betrag beschrieben, die abgezogen und versendet werden sollen. Die Top-Quelle ist ein Drop-Shipper in Großbritannien mit einer verfügbaren Menge von 240.
 
@@ -62,13 +66,13 @@ Im folgenden Beispiel werden die zugeordneten Quellen in der Reihenfolge, die ve
 
 ### Algorithmus für Abstandspriorität
 
-Der Distance Priority Algorithm vergleicht den Standort der Versandzieladresse mit den Quellorten, um die nächstgelegene Quelle für die Erfüllung von Sendungen zu ermitteln. Die Entfernung kann durch die physische Entfernung oder die Zeit bestimmt werden, die auf Reisen von einem Ort zum anderen verbracht wurde, indem importierte Datenbankstandorte oder Google-Richtungen (Fahren, Gehen oder Fahrradfahren) verwendet werden.
+Der Distance Priority Algorithmus vergleicht den Ort der Versandzieladresse mit den Quellorten, um die nächstgelegene Quelle für die Erfüllung von Sendungen zu ermitteln. Die Entfernung kann durch die physische Entfernung oder die Zeit bestimmt werden, die auf Reisen von einem Ort zum anderen verbracht wurde, indem importierte Datenbankstandorte oder Google-Richtungen (Fahren, Gehen oder Fahrradfahren) verwendet werden.
 
 Sie haben zwei Möglichkeiten, die Entfernung und die Zeit zu berechnen, um die nächstgelegene Quelle für die Sendungserfüllung zu finden:
 
-- **Google MAP** - Verwendet [Google Maps Platform](https://cloud.google.com/maps-platform/)-Services zur Berechnung der Entfernung und Zeit zwischen der Versandzieladresse und den Quellorten (Adresse und GPS-Koordinaten). Diese Option verwendet den Breiten- und Längengrad der Quelle. Ein Google-API-Schlüssel ist erforderlich, wenn [Geocoding-](https://developers.google.com/maps/documentation/geocoding/start)) und [Distanzmatrix-](https://developers.google.com/maps/documentation/distance-matrix/start) aktiviert sind. Diese Option erfordert einen Google-Abrechnungsplan und kann über Google Gebühren verursachen.
+- [!UICONTROL Google MAP] - Verwendet [Google Maps Platform](https://cloud.google.com/maps-platform/)-Services zur Berechnung der Entfernung und Zeit zwischen der Versandzieladresse und den Quellorten (Adresse und GPS-Koordinaten). Diese Option verwendet den Breiten- und Längengrad der Quelle. Ein Google-API-Schlüssel ist erforderlich, wenn [Geocoding-](https://developers.google.com/maps/documentation/geocoding/start)) und [Distanzmatrix-](https://developers.google.com/maps/documentation/distance-matrix/start) aktiviert sind. Diese Option erfordert einen Google-Abrechnungsplan und kann über Google Gebühren verursachen.
 
-- **Offline-Berechnung** - Berechnet die Entfernung anhand heruntergeladener und importierter Geocode-Daten, um die Quelle zu ermitteln, die der Versandzieladresse am nächsten liegt. Diese Option verwendet die Länder-Codes der Lieferadresse und der Quelle. Um diese Option zu konfigurieren, benötigen Sie möglicherweise die Unterstützung eines Entwicklers, um Geocodes zunächst über eine Befehlszeile herunterzuladen und zu importieren.
+- [!UICONTROL Offline Calculation] — Berechnet die Entfernung anhand heruntergeladener und importierter Geocode-Daten, um die Quelle zu ermitteln, die der Versandzieladresse am nächsten liegt. Diese Option verwendet die Länder-Codes der Lieferadresse und der Quelle. Um diese Option zu konfigurieren, benötigen Sie möglicherweise die Unterstützung eines Entwicklers, um Geocodes zunächst über eine Befehlszeile herunterzuladen und zu importieren.
 
 Wählen Sie zur Konfiguration Konfigurationen aus und führen Sie zusätzliche Schritte durch, z. B. den Google-API-Schlüssel oder das Herunterladen von Versanddaten. Siehe [Konfigurieren des Distance Priority Algorithm](distance-priority-algorithm.md).
 
@@ -82,7 +86,7 @@ Anstatt sofort Produktinventarmengen abzuziehen oder hinzuzufügen, behalten Res
 
 >[!NOTE]
 >
->[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Für die Reservierungsfunktion muss die `inventory.reservations.updateSalabilityStatus` Nachrichtenwarteschlange kontinuierlich ausgeführt werden. Um zu überprüfen, ob es ausgeführt wird, verwenden Sie den `bin/magento queue:consumers:list`. Wenn der Nachrichtenwarteschlangenbenutzer nicht aufgeführt ist, starten Sie ihn: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Für die Reservierungsfunktion muss die `inventory.reservations.updateSalabilityStatus` Nachrichtenwarteschlange kontinuierlich ausgeführt werden. Um zu überprüfen, ob es ausgeführt wird, verwenden Sie den `bin/magento queue:consumers:list`. Wenn der Nachrichtenwarteschlangenbenutzer nicht aufgeführt ist, starten Sie ihn: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Reservierungen bestellen
 
@@ -112,7 +116,7 @@ Bevor das System eine Reservierung als Antwort auf eine neue Bestellung ausstell
 
 - **LagerArtikel Menge**. Die Lagerartikelmenge ist die aggregierte Lagermenge aus allen physischen Quellen für den aktuellen Verkaufskanal. Betrachten wir ein Beispiel, bei dem die Quelle von Baltimore 20 Einheiten eines Produkts enthält, die Quelle von Austin 25 Einheiten desselben Produkts enthält und die Quelle von Reno 10. Wenn alle diese Quellen mit Lager A verknüpft sind, beträgt die StockItem-Anzahl für dieses Produkt 55 (20 + 25 + 10). (Wenn Artikel versendet werden, aktualisiert der Inventar-Indexer die verfügbaren Mengen an jeder Quelle.)
 
-- **Ausstehende Reservierungen**. Das System summiert alle anfänglichen Reservierungen, die nicht kompensiert wurden. Diese Zahl ist immer negativ. Wenn Kunde A eine Reservierung für zehn Artikel hat und Kunde B eine Reservierung für Artikel 5, dann ausstehende Reservierungen für die Produktsumme -15.
+- **Ausstehende Reservierungen**. Das System summiert alle anfänglichen Reservierungen, die nicht kompensiert wurden. Diese Zahl ist immer negativ. Wenn Kunde A eine Reservierung für zehn Artikel hat und Kunde B eine Reservierung für fünf Artikel, dann ausstehende Reservierungen für die Produktsumme -15.
 
 Daher kann der Händler eine eingehende Bestellung erfüllen, solange der Kunde weniger als 40 (55 + -15) Einheiten bestellt.
 
@@ -140,13 +144,12 @@ Die `event_type` kann die folgenden Werte aufweisen:
 
 - `order_placed`
 - `order_canceled`
+- `order_place_failed`
 - `shipment_created`
 - `creditmemo_created`
 - `invoice_created`
 
-Derzeit muss der Metadaten-Objekttyp `order` sein, und die Objekt-ID ist die Bestell-ID.
-
-In zukünftigen Versionen ist es möglicherweise möglich, eine Reservierung zu erstellen, wenn ein Kunde einen Artikel zu einem Warenkorb hinzufügt. Jeder Artikel kann für einen bestimmten Zeitraum, z. B. 15 Minuten, reserviert werden, sodass der Kunde Artikel reservieren kann, während er weiter einkauft. Wenn dieser Reservierungstyp aktiviert ist, können die Metadaten zusätzliche Informationstypen enthalten.
+Die `object_type` muss `order` sein, und die `object_id` ist die Auftrags-ID.
 
 ## Reservierungslebenszyklus
 
@@ -162,7 +165,7 @@ Das folgende Beispiel zeigt die Reihenfolge der Reservierungen, die für eine ei
    event_type = order_placed
    ```
 
-1. Der Kunde sendet eine Rechnung für 20 Artikel, im Wesentlichen Stornierung von 5 der bestellten Einheiten.
+1. Der Kunde schickt eine Rechnung für 20 Artikel und storniert damit im Wesentlichen fünf der bestellten Einheiten.
 
    ```text
    reservation_id = 2
@@ -188,7 +191,7 @@ Die drei `quantity` summieren sich bis zu 0 (-25 + 5 + 20). Das System ändert k
 
 Der `inventory_cleanup_reservations` Cron-Auftrag führt SQL-Abfragen aus, um die Reservierungsdatenbanktabelle zu löschen. Standardmäßig wird sie täglich um Mitternacht ausgeführt, aber Sie können die Zeiten und die Häufigkeit konfigurieren. Der Cron-Auftrag führt ein Skript aus, das die Datenbank abfragt, um vollständige Reservierungssequenzen zu finden, in denen die Summe der Mengenwerte 0 ist. Wenn alle Reservierungen für ein bestimmtes Produkt, die am selben Tag (oder einer anderen konfigurierten Zeit) entstanden sind, kompensiert wurden, löscht der Cron-Auftrag die Reservierungen alle auf einmal.
 
-Der `inventory_reservations_cleanup` Cron-Auftrag ist nicht identisch mit dem `inventory.reservations.cleanup` Nachrichtenwarteschlange-Verbraucher. Der -Verbraucher löscht Reservierungen asynchron nach Produkt-SKU, nachdem ein Produkt entfernt wurde, während der Cron-Auftrag die gesamte Reservierungstabelle löscht. Der -Verbraucher wird benötigt, wenn Sie die Stock [**Option „Mit Katalog synchronisieren**](../configuration-reference/catalog/inventory.md) in der Store-Konfiguration aktivieren. Siehe [Verwalten von Nachrichtenwarteschlangen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=de) im _Konfigurationshandbuch_.
+Der `inventory_reservations_cleanup` Cron-Auftrag ist nicht identisch mit dem `inventory.reservations.cleanup` Nachrichtenwarteschlange-Verbraucher. Der -Verbraucher löscht Reservierungen asynchron nach Produkt-SKU, nachdem ein Produkt entfernt wurde, während der Cron-Auftrag die gesamte Reservierungstabelle löscht. Der -Verbraucher wird benötigt, wenn Sie die Stock [**Option „Mit Katalog synchronisieren**](../configuration-reference/catalog/inventory.md) in der Store-Konfiguration aktivieren. Siehe [Verwalten von Nachrichtenwarteschlangen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html){target="_blank"} im _Konfigurationshandbuch_.
 
 Häufig können alle anfänglichen Reservierungen, die an einem einzigen Tag erstellt wurden, nicht am selben Tag kompensiert werden. Diese Situation kann auftreten, wenn ein Kunde eine Bestellung aufgibt, kurz bevor der Cron-Auftrag beginnt, oder den Kauf mit einer Offline-Zahlungsmethode tätigt, wie z. B. einer Banküberweisung. Die kompensierten Reservierungssequenzen verbleiben in der Datenbank, bis sie alle kompensiert werden. Diese Vorgehensweise beeinträchtigt die Reservierungsberechnungen nicht, da die Summe für jede Reservierung 0 beträgt.
 
@@ -202,11 +205,11 @@ Wenn Änderungen an Bestellungen und Produktbeträgen abgeschlossen sind, gibt [
 
 So funktionieren sie:
 
-- **Bestellung gesendet** - Wenn eine Bestellung für mehrere Produkte gesendet wird, wird eine Reservierung für diesen Betrag eingegeben. Wenn Sie z. B. fünf Rucksäcke von einer US-Website bestellen, wird eine Reservierung von `-5` für diese SKU und diesen Lagerbestand vorgenommen. Die verkaufsfähige Menge wird um 5 verringert.
+- *Bestellung gesendet* — Wenn eine Bestellung für mehrere Produkte eingereicht wird, wird eine Reservierung für diesen Betrag eingegeben. Wenn Sie z. B. fünf Rucksäcke von einer US-Website bestellen, wird eine Reservierung von `-5` für diese SKU und diesen Lagerbestand vorgenommen. Die verkaufsfähige Menge wird um 5 verringert.
 
-- **Stornierte Bestellung** - Wenn eine Bestellung storniert wird (ganz oder teilweise), gibt eine Ausgleichsreservierung ein, um diesen Betrag zu löschen. Wenn Sie beispielsweise drei Rucksäcke stornieren, wird eine +3-Reservierung für diese SKU und diesen Lagerplatz eingegeben, wodurch der Laderaum aufgehoben wird. Die verkaufsfähige Menge wird um 3 erhöht.
+- *Stornierte Bestellung* - Wenn eine Bestellung storniert wird (ganz oder teilweise), wird eine Ausgleichsreservierung eingegeben, um diesen Betrag zu löschen. Wenn Sie beispielsweise drei Rucksäcke stornieren, wird eine +3-Reservierung für diese SKU und diesen Lagerplatz eingegeben, wodurch der Laderaum aufgehoben wird. Die verkaufsfähige Menge wird um 3 erhöht.
 
-- **Lieferauftrag** - Wenn eine Bestellung (ganz oder teilweise) versendet wird, wird eine Ausgleichsreservierung eingegeben, um diesen Betrag zu verrechnen. Beispielsweise gibt der Versand von zwei Rucksäcken eine +2-Reservierung für diese SKU und dieses Lager ein und löscht den Laderaum. Die Produktmenge wird für die Sendung direkt um 2 reduziert. Die berechnete verkaufbare Menge wird auch für den reduzierten Lagerbetrag aktualisiert, ist aber von der Reservierung nicht mehr betroffen.
+- *Lieferauftrag* - Wenn eine Bestellung (ganz oder teilweise) versendet wird, wird eine Ausgleichsreservierung eingegeben, um diesen Betrag zu verrechnen. Beispielsweise gibt der Versand von zwei Rucksäcken eine +2-Reservierung für diese SKU und dieses Lager ein und löscht den Laderaum. Die Produktmenge wird für die Sendung direkt um 2 reduziert. Die berechnete verkaufbare Menge wird auch für den reduzierten Lagerbetrag aktualisiert, ist aber von der Reservierung nicht mehr betroffen.
 
 ![Reservierungs-Updates](assets/diagram-reservation.png){width="600" zoomable="yes"}
 
@@ -219,6 +222,5 @@ Alle Reservierungen müssen durch Kompensationen verrechnet werden, wenn die Bes
 Wenn Sie alle Quellen aus einem Produkt für ein Lager mit ausstehenden Bestellungen entfernen, haben Sie möglicherweise Reservierungen blockiert.
 
 {{$include /help/_includes/unassign-source.md}}
-
 
 <!-- Last updated from includes: 2022-08-30 15:36:09 -->
