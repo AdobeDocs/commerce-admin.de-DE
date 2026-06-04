@@ -3,7 +3,7 @@ title: Couponcodes
 description: Erfahren Sie, wie Sie Gutscheincodes mit Warenkorbpreisregeln verwenden können, um einen Rabatt anzuwenden, wenn eine Reihe von Bedingungen erfüllt ist.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-source-git-commit: 5aad8247242294c42c36378a743f747dcd73647c
+source-git-commit: d3f6c3468fa63068018e854820e932b897f925bd
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Die Länge und das Format der automatisch generierten Couponcodes werden von der
 
 >[!NOTE]
 >
->[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Bevor Sie Coupons erstellen, überprüfen Sie mit dem `bin/magento cron:run`-Befehl, ob cron ausgeführt wird. Weitere Informationen finden [&#x200B; unter „Ausführen von &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=de#run-cron-from-the-command-line) über die Befehlszeile _im Konfigurationshandbuch_.
+>[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Bevor Sie Coupons erstellen, überprüfen Sie mit dem `bin/magento cron:run`-Befehl, ob cron ausgeführt wird. Weitere Informationen finden [ unter „Ausführen von ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html#run-cron-from-the-command-line) über die Befehlszeile _im Konfigurationshandbuch_.
 
 ### Methode 1: Erstellen eines bestimmten Coupons
 
@@ -83,7 +83,7 @@ Die Länge und das Format der automatisch generierten Couponcodes werden von der
 
 1. Geben Sie einen **[!UICONTROL Coupon Code]** ein, der für die Promotion verwendet werden soll.
 
-   Das Format des Codes (numerisch, alphanumerisch oder alphabetisch) wird durch die [Konfiguration“ &#x200B;](#configure-coupon-codes).
+   Das Format des Codes (numerisch, alphanumerisch oder alphabetisch) wird durch die [Konfiguration“ ](#configure-coupon-codes).
 
 1. Gehen Sie wie folgt vor, um zu begrenzen, wie oft der Coupon verwendet werden kann:
 
@@ -183,11 +183,11 @@ Um Gutscheincodes zu löschen, wählen Sie einen oder mehrere Codes aus der List
 
 ### Methode 3: Benutzerdefinierte Gutscheincodes
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 Nachdem Sie eine [Warenkorb-Preisregel](price-rules-cart.md) erstellt haben, können Sie der Regel manuell benutzerdefinierte Couponcodes hinzufügen.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;und wählen Sie die Regel aus, der Sie benutzerdefinierte Couponcodes hinzufügen möchten.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**und wählen Sie die Regel aus, der Sie benutzerdefinierte Couponcodes hinzufügen möchten.
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Manage Coupon Codes]** und klicken Sie auf **[!UICONTROL Add Coupon Code]**.
 
@@ -203,7 +203,7 @@ Um benutzerdefinierte Gutscheincodes zu löschen, wählen Sie die zu löschenden
 
 Um benutzerdefinierte Gutscheincodes zu bearbeiten oder Nutzungsdetails anzuzeigen, klicken Sie in der Spalte **[!UICONTROL Actions]** auf **[!UICONTROL Edit]** .
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 Der Haupt-Couponcode, der zur Warenkorbpreisregel gehört, kann nicht bearbeitet oder gelöscht werden.
 
@@ -213,7 +213,7 @@ Der Haupt-Couponcode, der zur Warenkorbpreisregel gehört, kann nicht bearbeitet
 
 Wenn Sie über eine Liste vordefinierter Gutscheincodes verfügen, können Sie diese aus einer CSV-Datei an die Warenkorbpreisregel anhängen, anstatt jeden Code einzeln hinzuzufügen. Die CSV-Datei sollte aus einer einzigen Spalte mit den Couponcodes bestehen.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;und wählen Sie die Regel aus, in die Sie benutzerdefinierte Couponcodes importieren möchten.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**und wählen Sie die Regel aus, in die Sie benutzerdefinierte Couponcodes importieren möchten.
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Manage Coupon Codes]** und klicken Sie auf **[!UICONTROL Import]**.
 
@@ -226,7 +226,7 @@ Wenn Sie über eine Liste vordefinierter Gutscheincodes verfügen, können Sie d
    Die CSV-Datei muss die folgenden Anforderungen erfüllen:
 
    | Anforderung | Wert |
-   | ------------- | ------- |
+   |-------------|-------|
    | Maximale Anzahl von Codes pro Datei | 1,000 |
    | Maximale Dateigröße | 512 KB |
    | Maximale Code-Länge | 255 Zeichen pro Code |
@@ -242,11 +242,11 @@ Wenn Sie über eine Liste vordefinierter Gutscheincodes verfügen, können Sie d
 
    ![Gutscheinergebnis importieren](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-Um den Fortschritt und die detaillierten Ergebnisse des Imports zu überwachen, klicken Sie auf **[!UICONTROL View progress in Bulk Actions Log]** oder gehen Sie zu **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Jeder Import wird als einzelner Eintrag im **[!UICONTROL Bulk Actions]**&#x200B;angezeigt und Sie können einen Eintrag auswählen.
+Um den Fortschritt und die detaillierten Ergebnisse des Imports zu überwachen, klicken Sie auf **[!UICONTROL View progress in Bulk Actions Log]** oder gehen Sie zu **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Jeder Import wird als einzelner Eintrag im **[!UICONTROL Bulk Actions]**angezeigt und Sie können einen Eintrag auswählen.
 
 ## Bericht zu Coupons
 
-Der _Coupons_-Bericht aggregiert Daten aus jedem Coupon, der während eines bestimmten Datumsbereichs verwendet wird. Da Gutscheine aus dem Warenkorb angewendet werden, enthält der Bericht Daten aus allen eingelösten Gutscheinen, unabhängig vom [&#x200B; (Bestellstatus](../stores-purchase/order-status.md). Daher kann der Bericht sowohl die projizierten als auch die tatsächlichen Gesamtwerte enthalten. Der Bericht kann nach einer bestimmten Store-Ansicht, einem bestimmten Zeitraum, einem Bestellstatus und einer Warenkorb-Preisregel gefiltert werden.
+Der _Coupons_-Bericht aggregiert Daten aus jedem Coupon, der während eines bestimmten Datumsbereichs verwendet wird. Da Gutscheine aus dem Warenkorb angewendet werden, enthält der Bericht Daten aus allen eingelösten Gutscheinen, unabhängig vom [ (Bestellstatus](../stores-purchase/order-status.md). Daher kann der Bericht sowohl die projizierten als auch die tatsächlichen Gesamtwerte enthalten. Der Bericht kann nach einer bestimmten Store-Ansicht, einem bestimmten Zeitraum, einem Bestellstatus und einer Warenkorb-Preisregel gefiltert werden.
 
 Im folgenden Beispiel wurde der Couponcode „H20“ von zwei Kunden verwendet. Eine der Bestellungen wird fakturiert, die andere ist jedoch noch _ausstehend_. Die Spalten Projizierte Umsatzzwischensumme, Verkaufsrabatt und Verkaufssumme zeigen die aggregierten Beträge aus beiden Aufträgen an, aber nur der tatsächlich fakturierte Auftrag wird in den Spalten Zwischensumme, Rabatt und Gesamtsumme angezeigt. Jede Zeile im Bericht stellt eine einzelne Gutscheinaktion dar.
 
