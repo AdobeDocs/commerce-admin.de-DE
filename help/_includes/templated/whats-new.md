@@ -23,7 +23,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde die Möglichkeit hinzugefügt<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes"> in Adobe Commerce as a Cloud Service benutzerdefinierte Gutscheincodes </a> erstellen.</p>
+      <td><p>Es wurde die Möglichkeit hinzugefügt<a href="https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes"> in Adobe Commerce as a Cloud Service benutzerdefinierte Gutscheincodes </a> erstellen.</p>
 </td>
       <td>
         Größere Aktualisierung
@@ -45,7 +45,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Die Commerce-Dokumentation <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import">Datenimport</a> wurde mit Anleitungen aktualisiert, wie eine unnötige URL-Neuschreibungsgenerierung während Importvorgängen vermieden werden kann.</p>
+      <td><p>Die Commerce-Dokumentation <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/systems/data-transfer/import/data-import">Datenimport</a> wurde mit Anleitungen aktualisiert, wie eine unnötige URL-Neuschreibungsgenerierung während Importvorgängen vermieden werden kann.</p>
 </td>
       <td>
         Feedback, technisch
@@ -67,7 +67,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Die Seiten <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a> und verwandter Versanddienstleister wurden aktualisiert, um darauf hinzuweisen, dass die USPS Web Tools-API am 25. Januar 2026 eingestellt wurde und dass die USPS REST-APIs jetzt die einzige unterstützte Integrationsmethode sind.</p>
+      <td><p>Die Seiten <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/delivery/shipping-carriers/usps">USPS</a> und verwandter Versanddienstleister wurden aktualisiert, um darauf hinzuweisen, dass die USPS Web Tools-API am 25. Januar 2026 eingestellt wurde und dass die USPS REST-APIs jetzt die einzige unterstützte Integrationsmethode sind.</p>
 </td>
       <td>
         Größere Aktualisierung, Feedback
@@ -75,7 +75,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/13155decdb96b62757e1044bb99dcddb1e1f8036">verpflichten</a></td>
     </tr>
     <tr>
-      <td><p>Die <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v153">Adobe Commerce B2B v1.5.3-Versionshinweise</a> wurden veröffentlicht. Sie umfassen den Import und Export von neuen B2B-Unternehmenskunden, Fehlerbehebungen bei verhandelbaren Angeboten, Bestellungen, Anforderungslisten, freigegebenen Katalogen, Unternehmensverwaltung, Warenkorb und Checkout, Framework und GraphQL sowie die Änderung des Exportpfads der Anforderungsliste in <code>var/export/requisition_lists/</code>.</p>
+      <td><p>Die <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/b2b/release-notes#b2b-v153">Adobe Commerce B2B v1.5.3-Versionshinweise</a> wurden veröffentlicht. Sie umfassen den Import und Export von neuen B2B-Unternehmenskunden, Fehlerbehebungen bei verhandelbaren Angeboten, Bestellungen, Anforderungslisten, freigegebenen Katalogen, Unternehmensverwaltung, Warenkorb und Checkout, Framework und GraphQL sowie die Änderung des Exportpfads der Anforderungsliste in <code>var/export/requisition_lists/</code>.</p>
 </td>
       <td>
         Größere Aktualisierung
