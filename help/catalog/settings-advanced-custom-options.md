@@ -3,9 +3,24 @@ title: Produkteinstellungen - [!UICONTROL Customizable Options]
 description: Für ein Produkt können Sie mit den [!UICONTROL Customizable Options] eine Auswahl von Optionen mit Text-, Auswahl- und Datumseingabetypen anbieten.
 exl-id: 7d23c5c5-2b2a-4f2a-b843-9c27b851be5f
 feature: Catalog Management, Products
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/O5ny4IROYKpKBckgsh7jcjO2qp45Ey9l0t4Fmq1IFBI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -88,9 +103,9 @@ Wenn eine Warenkorb-Preisregel durch den Kauf ausgelöst wird, gilt die ursprün
 
 | Typ | Beschreibung |
 |---------------------|---------------|
-| [!UICONTROL Text] | Eine Eingabezeile oder ein Textfeld, in die bzw. das der Kunde die erforderlichen Informationen eingeben kann. Optionen: <br />**[!UICONTROL Field]**- Ein einzeiliges Eingabefeld für Text.<br />**[!UICONTROL Area]**: Ein mehrzeiliges Eingabefeld. Dieser Typ unterstützt keine erweiterte Formatierung wie HTML. Verwenden Sie die maximale Zeichenzahl, um die Länge des Textes zu begrenzen, der eingegeben werden kann, und stellen Sie sicher, dass der eingegebene Text in der Admin-Liste korrekt dargestellt wird. |
+| [!UICONTROL Text] | Eine Eingabezeile oder ein Textfeld, in die bzw. das der Kunde die erforderlichen Informationen eingeben kann. Optionen: <br />**[!UICONTROL Field]**- Ein einzeiliges Eingabefeld für Text.<br />**[!UICONTROL Area]** - Ein mehrzeiliges Eingabefeld. Dieser Typ unterstützt keine erweiterten Formatierungen wie HTML. Verwenden Sie die maximale Zeichenzahl, um die Länge des Textes zu begrenzen, der eingegeben werden kann, und stellen Sie sicher, dass der eingegebene Text in der Admin-Liste korrekt dargestellt wird. |
 | [!UICONTROL File] | Ermöglicht dem Kunden das Hochladen einer Datei. |
-| [!UICONTROL Select] | Ermöglicht dem Kunden die Auswahl einer einzelnen Option oder mehrerer Optionen, je nach verwendetem Eingabetyp. Optionen: <br />**[!UICONTROL Drop-down]**- Eine Dropdown-Liste von Optionen, die nur eine Auswahl zulässt.<br />**[!UICONTROL Radio Buttons]** : Ein Satz von Optionen, die nur eine Auswahl zulassen.<br />**[!UICONTROL Checkbox]**- Ein Kontrollkästchen ist eine Variante einer Ja/Nein-Option. Wenn das Produkt mehrere Kontrollkästchen hat, können mehrere Auswahlen vorgenommen werden.<br />**[!UICONTROL Multiple Select]** : Ein Dropdown-Listenfeld mit Optionen, für die mehrere Auswahlmöglichkeiten zulässig sind. Um mehrere Optionen auszuwählen, halten Sie die Strg- (PC) oder Befehlstaste (Mac) gedrückt und klicken Sie auf die einzelnen Optionen. |
-| [!UICONTROL Date] | Ermöglicht dem Kunden die Eingabe eines Datums oder einer Uhrzeit oder die Auswahl des Werts aus einem Kalender. Optionen: <br />**[!UICONTROL Date]**: Ein Eingabefeld für einen Datumswert. Das Datum kann direkt in das Feld eingegeben oder aus einer Liste oder einem Kalender ausgewählt werden. Die Eingabemethode und das Format werden durch die Konfiguration [Datums- und Uhrzeitoptionen](attributes-input-types.md#date-and-time-options) bestimmt.<br />**[!UICONTROL Date & Time]** : Ein Eingabefeld für einen Datums- und Uhrzeitwert.<br />**[!UICONTROL Time]**: Ein Eingabefeld für einen Zeitwert. |
+| [!UICONTROL Select] | Ermöglicht dem Kunden die Auswahl einer einzelnen Option oder mehrerer Optionen, je nach verwendetem Eingabetyp. Optionen:<br />**[!UICONTROL Drop-down]**- Eine Dropdown-Liste von Optionen, die nur eine Auswahl zulässt.<br />**[!UICONTROL Radio Buttons]** - Ein Satz von Optionen, der nur eine Auswahl zulässt.<br />**[!UICONTROL Checkbox]**- Ein Kontrollkästchen ist eine Variante einer Ja/Nein-Option. Wenn das Produkt mehr als ein Kontrollkästchen hat, können mehrere Auswahlen vorgenommen werden.<br />**[!UICONTROL Multiple Select]** - Ein Dropdown-Listenfeld mit Optionen, für die mehrere Auswahlmöglichkeiten zulässig sind. Um mehrere Optionen auszuwählen, halten Sie die Strg- (PC) oder Befehlstaste (Mac) gedrückt und klicken Sie auf die einzelnen Optionen. |
+| [!UICONTROL Date] | Ermöglicht dem Kunden die Eingabe eines Datums oder einer Uhrzeit oder die Auswahl des Werts aus einem Kalender. Optionen: <br />**[!UICONTROL Date]**: Ein Eingabefeld für einen Datumswert. Das Datum kann direkt in das Feld eingegeben oder aus einer Liste oder einem Kalender ausgewählt werden. Die Eingabemethode und das Format werden durch die Konfiguration [Datums- und Uhrzeitoptionen](attributes-input-types.md#date-and-time-options) bestimmt<br />**[!UICONTROL Date & Time]** - Ein Eingabefeld für einen Datums- und Uhrzeitwert.<br />**[!UICONTROL Time]**: Ein Eingabefeld für einen Zeitwert. |
 
 {style="table-layout:auto"}

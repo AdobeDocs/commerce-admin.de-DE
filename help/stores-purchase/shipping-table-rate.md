@@ -3,9 +3,23 @@ title: Versandtabelle
 description: Erfahren Sie, wie Sie eine Versandoption mit tabellarischer Rate für Ihren Store einrichten.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/14LYGw55vIlhbg71AApSGuuUKzaFEmStaUcw-Uig87E
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: 1044
 ht-degree: 3%
 
 ---
@@ -15,8 +29,8 @@ ht-degree: 3%
 Die Versandmethode _Tabellensatz_ verweist auf eine Datentabelle, um Versandraten basierend auf einer Kombination von Bedingungen zu berechnen, einschließlich:
 
 - Gewichtung vs. Ziel
-- Preis v. Bestimmungsort
-- Anzahl der Elemente vs. Ziel
+- Preis im Vergleich Ziel
+- Anzahl der Elemente v. Ziel
 
 Wenn Ihr Lager zum Beispiel in Los Angeles ist, kostet es weniger, nach San Diego zu versenden als nach Vermont. Sie können den Versand mit Tabellensätzen verwenden, um die Einsparungen an Ihre Kunden weiterzugeben.
 
@@ -62,7 +76,7 @@ Der erste Schritt besteht darin, die Standardeinstellungen für die Tarife abzus
 
    >[!NOTE]
    >
-   >Da virtuelle Produkte - z. B. Services - keine Gewichtung haben, können sie das Ergebnis einer Berechnung, die auf der Gewichtung vs. Zielbedingung basiert, nicht ändern. Virtuelle Produkte können jedoch das Ergebnis einer Berechnung ändern, die entweder auf der Bedingung „Preis vs. Ziel“ oder „Anzahl der Artikel vs. Ziel“ basiert.
+   >Da virtuelle Produkte, z. B. Services, keine Gewichtung haben, können sie das Ergebnis einer Berechnung, die auf der Gewichtung v basiert, nicht ändern. Zielbedingung. Virtuelle Produkte können jedoch das Ergebnis einer Berechnung ändern, die entweder auf dem Preis v. Ziel oder Anzahl der Elemente vs. Zielbedingung.
 
 1. Konfigurieren Sie die Bearbeitungsgebührenoptionen entsprechend Ihren Anforderungen.
 
@@ -142,7 +156,7 @@ Um sicherzustellen, dass die Tabellensatzdaten korrekt sind, durchlaufen Sie den
 
 ### Beispiel 1: Preis und Zielort
 
-In diesem Beispiel wird die Bedingung Preis vs. Ziel verwendet, um einen Satz von drei verschiedenen Versandraten basierend auf dem Betrag der Zwischensumme der Bestellung für den kontinentalen US-amerikanischen Kontinent, Alaska und Hawaii zu erstellen. Das Sternchen (*) ist ein Platzhalter für alle Werte.
+In diesem Beispiel wird der Preis v. Zielbedingung zur Erstellung einer Gruppe von drei verschiedenen Versandraten basierend auf dem Betrag der Zwischensumme der Bestellung für den kontinentalen US-amerikanischen Kontinent, Alaska und Hawaii. Das Sternchen (*) ist ein Platzhalter für alle Werte.
 
 | LAND | REGION/BUNDESLAND | POSTLEITZAHL | ZWISCHENSUMME BESTELLUNG (und höher) | VERSANDPREIS |
 |--- |--- |--- |--- |--- |
@@ -160,7 +174,7 @@ In diesem Beispiel wird die Bedingung Preis vs. Ziel verwendet, um einen Satz vo
 
 ### Beispiel 2: Gewicht und Ziel
 
-In diesem Beispiel wird die Bedingung „Gewichtung vs. Ziel“ verwendet, um verschiedene Versandraten basierend auf der Gewichtung der Bestellung zu erstellen.
+In diesem Beispiel wird Weight v verwendet. Zielbedingung zum Erstellen unterschiedlicher Versandraten basierend auf der Gewichtung der Bestellung.
 
 | LAND | REGION/BUNDESLAND | POSTLEITZAHL | GEWICHT (und darüber) | VERSANDPREIS |
 |--- |--- |--- |--- |--- |

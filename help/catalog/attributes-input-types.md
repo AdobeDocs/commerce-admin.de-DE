@@ -3,9 +3,25 @@ title: Attributeingabetypen
 description: Erfahren Sie mehr über die für Produktattribute verfügbaren Eingabetypen, die den Typ der einzugebenden Daten und das Format des Felds oder Eingabesteuerelements bestimmen.
 exl-id: c35b3b9d-57b0-4c33-abdb-662ac6d0260e
 feature: Catalog Management, Products
-source-git-commit: 5398555aa025db6ff0eafd758d8e930b81c5e771
+TQID: https://experienceleague.adobe.com/8WwqU3ZSqmORqSD2061Pa5MTRqYbH71dOxouz-nLwbo
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -21,7 +37,7 @@ In der Administratoransicht sind Attribute die Felder, die Sie ausfüllen, wenn 
 | [!UICONTROL Text Field] | Ein einzeiliges Eingabefeld für Text. |
 | [!UICONTROL Text Area] | Ein mehrzeiliges Eingabefeld zum Eingeben von Textabsätzen, z. B. eine Produktbeschreibung. Sie können den WYSIWYG-Editor verwenden, um den Text mit HTML-Tags zu formatieren, oder die Tags direkt in den Text eingeben. |
 | [!UICONTROL Text Editor] | Ein voll funktionsfähiger Texteditor am Attributspeicherort. |
-| [!UICONTROL Date] | Zeigt einen Datumswert im [bevorzugten Format](#date-and-time-options) und [Zeitzone](../getting-started/store-details.md#locale-options) an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis:_** Je nach Systemkonfiguration können _Admin_-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](#date-and-time-options). |
+| [!UICONTROL Date] | Zeigt einen Datumswert im [bevorzugten Format](#date-and-time-options) und [Zeitzone](../getting-started/store-details.md#locale-options) an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis:_**&#x200B;Je nach Systemkonfiguration können_ Admin_-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](#date-and-time-options). |
 | [!UICONTROL Date and Time] | Zeigt einen Datums- und Uhrzeitwert im [bevorzugten Format](#date-and-time-options) und [Zeitzone](../getting-started/store-details.md#locale-options) an. Datum und Uhrzeit können manuell eingegeben oder aus einem Kalender ausgewählt werden. Beispielformat: MM/TT/JJJJ hh:MM |
 | [!UICONTROL Yes/No] | Zeigt eine Dropdown-Liste mit vordefinierten Optionen `Yes` und `No` an. |
 | Dropdown | Zeigt eine Dropdown-Liste mit Werten an, die nur eine einzige Auswahl akzeptieren. Der Dropdown-Eingabetyp ist eine Schlüsselkomponente von [konfigurierbaren Produkten](../catalog/product-create-configurable.md). |

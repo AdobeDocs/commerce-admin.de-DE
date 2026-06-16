@@ -2,9 +2,24 @@
 title: Lager und Quellen
 description: Erfahren Sie mehr über die Beziehungen zwischen Produkten, Quellen und Lagern.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: 809
 ht-degree: 0%
 
 ---
@@ -29,7 +44,7 @@ In diesem Beispiel verfügt der Händler über ein Mountainbike, das in Geschäf
 
 [Stocks](stocks-manage.md) stellt ein virtuelles, aggregiertes Inventar von Produkten dar, die für Ihre Vertriebskanäle (Websites) zum Verkauf angeboten werden. Jedes Lager ordnet Ihre Vertriebskanäle den Quellen für verfügbare Lagerbestände und Verkaufsmengen zu. Abhängig von Ihrer Site-Konfiguration kann das Lager einem oder mehreren Vertriebskanälen und Quellen zugewiesen werden.
 
-Sales Channel stellen Entitäten dar, die Ihren Bestand verkaufen, einschließlich Websites, Shop-Ansichten, B2B-Kundengruppen usw. Vertriebskanäle können nur einem Lager zugeordnet werden. Jedem Verkaufskanal kann nur ein Lager zugewiesen werden, und ein einzelnes Lager kann mehreren Websites zugewiesen werden. Über den Bestand können Sie die Priorisierung der beim Versand von Bestellungen verwendeten Quellen und den [Source-Auswahlalgorithmus](selection-reservations.md) ändern.
+Vertriebskanäle stellen Entitäten dar, die Ihren Bestand verkaufen, einschließlich Websites, Storeansichten, B2B-Kundengruppen usw. Vertriebskanäle können nur einem Lager zugeordnet werden. Jedem Verkaufskanal kann nur ein Lager zugewiesen werden, und ein einzelnes Lager kann mehreren Websites zugewiesen werden. Über den Bestand können Sie die Priorisierung der beim Versand von Bestellungen verwendeten Quellen und den [Source-Auswahlalgorithmus](selection-reservations.md) ändern.
 
 Sie beginnen mit einem Standardlager, das mit der standardmäßigen Source und Ihrer Website zugewiesen wird und am besten von Einzelhändler verwendet wird. Diesem Lager kann nur die Standard-Source zugewiesen werden. Händler, die mehrere Quellen nutzen, erstellen nach Bedarf benutzerdefinierte Lager für benutzerdefinierte Quellen und Websites.
 
@@ -65,4 +80,4 @@ Die folgenden Optionen sind für [!DNL Inventory Management] wichtig:
 
 In diesem Video erfahren Sie mehr über Inventory management-Quellen und -Stocks:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411976?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3411976?captions=ger&quality=12&learn=on)

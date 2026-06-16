@@ -3,9 +3,22 @@ title: Versand-Kennzeichnungen
 description: Erfahren Sie mehr über den Workflow für den Versand von Etiketten für reguläre Sendungen und Produkte mit Warenrücksendegenehmigung.
 exl-id: 5da03cf9-5e92-4bb8-ba53-67c6469665ed
 feature: Shipping/Delivery, Orders
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/Cjf9-372TRGIfWXpWR20OUII5XorPdfO1qgG-b2yPYI
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: 314
 ht-degree: 0%
 
 ---
@@ -21,7 +34,7 @@ Commerce bietet einen hohen Integrationsgrad mit wichtigen Spediteuren, der Ihne
 
 ## Workflow für Versandtitel
 
-Versandaufkleber können zum Zeitpunkt der Sendungserstellung oder zu einem späteren Zeitpunkt erstellt werden. Versandetiketten werden im PDF-Format gespeichert und auf Ihren Rechner heruntergeladen.
+Versandaufkleber können zum Zeitpunkt der Sendungserstellung oder zu einem späteren Zeitpunkt erstellt werden. Versandetiketten werden im PDF-Format gespeichert und auf Ihren Computer heruntergeladen.
 
 ### Schritt 1: Händler reicht Anfrage für Versandtitel ein
 
@@ -43,4 +56,4 @@ Der Spediteur sendet das Versandetikett und die Sendungsnummer für die Sendung.
 
 ### Schritt 4: Händler lädt das Label herunter und druckt es aus
 
-Nachdem das Versandlabel generiert wurde, wird die neue Sendung gespeichert und das Label kann gedruckt werden. Wenn die Versandkennzeichnung aufgrund von Verbindungsproblemen oder anderen Gründen nicht erstellt werden kann, wird die Sendung nicht erstellt. Je nach Browsereinstellungen kann die PDF-Datei geöffnet und gedruckt werden. Jedes Etikett erscheint auf einer separaten Seite auf der PDF.
+Nachdem das Versandlabel generiert wurde, wird die neue Sendung gespeichert und das Label kann gedruckt werden. Wenn die Versandkennzeichnung aufgrund von Verbindungsproblemen oder anderen Gründen nicht erstellt werden kann, wird die Sendung nicht erstellt. Abhängig von Ihren Browsereinstellungen kann die PDF-Datei geöffnet und gedruckt werden. Jede Beschriftung wird in der PDF auf einer separaten Seite angezeigt.

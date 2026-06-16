@@ -3,9 +3,24 @@ title: Import von Produktbildern
 description: Erfahren Sie, wie Sie Produktbilder unter Verwendung des Pfads und Dateinamens der einzelnen Bilder importieren.
 exl-id: 991550e6-9ce2-4472-becb-3492bd4c9582
 feature: Products, Data Import/Export, Media
-source-git-commit: 53c3b6c9fa9c152e6619528a43580b0acc71a2a5
+TQID: https://experienceleague.adobe.com/xqaM2qAUDV1yKXS5-90b7aQJUgEW-ZHg03UFo-dfKME
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: 845
 ht-degree: 0%
 
 ---
@@ -34,7 +49,7 @@ Bevor Sie versuchen, viele Bilder zu importieren, überprüfen Sie die Schritte 
 
    >[!NOTE]
    >
-   >Ab der Adobe Commerce- und Magento Open Source `2.3.2`-Version wird der im **[!UICONTROL Images File Directory]** angegebene Pfad für den Import in das Bildbasisverzeichnis &quot;`<Magento-root-folder>/var/import/images`&quot; verkettet. Bei früheren Versionen von Adobe Commerce und Magento Open Source können Sie einen anderen Ordner auf dem Commerce-Server verwenden, sofern der Ordnerpfad während des Importvorgangs angegeben wird.
+   >Ab der Adobe Commerce- und Magento Open Source `2.3.2`-Version wird der im **[!UICONTROL Images File Directory]** angegebene Pfad für den Import in das Bildbasisverzeichnis &quot;`<Magento-root-folder>/var/import/images`&quot; verkettet. Bei früheren Versionen von Adobe Commerce und Magento Open Source können Sie einen anderen Ordner auf dem Commerce-Server verwenden, sofern der Pfad zum Ordner während des Importvorgangs angegeben wird.
 
 1. Geben Sie in den CSV-Daten den Namen jeder Bilddatei ein, die je nach Bildtyp (`base_image`, `small_image`, `thumbnail_image` oder `additional_images`) in die richtige Zeile, nach `sku` und in die richtige Spalte importiert werden soll.
 
@@ -58,7 +73,7 @@ Bevor Sie versuchen, viele Bilder zu importieren, überprüfen Sie die Schritte 
 
    >[!TIP]
    >
-   >Lassen Sie _[!UICONTROL Images File Directory]_&#x200B;leer, um das `<Magento-root-folder>/var/import/images` zu verwenden. Ab Adobe Commerce und Magento Open Source 2.3.2 ist dies der standardmäßige Basisordner für den Import von Bildern.
+   >Lassen Sie _[!UICONTROL Images File Directory]_&#x200B;leer, um das `<Magento-root-folder>/var/import/images` zu verwenden. Ab Adobe Commerce und Magento Open Source Version 2.3.2 ist dies der standardmäßige Basisordner für den Import von Bildern.
 
    Wenn Sie mehrere Bilder für ein einzelnes `sku` importieren, fügen Sie die Bilder in eine Spalte mit dem Namen `additional_images` ein (fügen Sie die Spalte hinzu, falls noch nicht hinzugefügt), getrennt durch Kommas. Beispiel: `image02.jpg,image03.jpg`
 
@@ -106,7 +121,7 @@ Bevor Sie versuchen, viele Bilder zu importieren, überprüfen Sie die Schritte 
 
    >[!TIP]
    >
-   >Lassen Sie das _[!UICONTROL Images File Directory]_&#x200B;leer, um das `<Magento-root-folder>/var/import/images` zu verwenden. Ab Adobe Commerce und Magento Open Source 2.3.2 ist dies der standardmäßige Basisordner für den Import von Bildern.
+   >Lassen Sie das _[!UICONTROL Images File Directory]_&#x200B;leer, um das `<Magento-root-folder>/var/import/images` zu verwenden. Ab Adobe Commerce und Magento Open Source Version 2.3.2 ist dies der standardmäßige Basisordner für den Import von Bildern.
 
    Wenn Sie mehrere Bilder für ein einzelnes `sku` importieren, fügen Sie die Bilder in eine Spalte mit dem Namen `additional_images` ein (fügen Sie die Spalte hinzu, falls noch nicht hinzugefügt), getrennt durch Kommas: `image02.jpg,image03.jpg`
 

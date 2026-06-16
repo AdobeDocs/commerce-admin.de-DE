@@ -4,9 +4,24 @@ description: Erfahren Sie, wie Sie die  [!DNL AEM Assets Integration for Adobe C
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+TQID: https://experienceleague.adobe.com/pV03hqwc27n12BZzTVw-TvidSSXIKC95CNfy-PAXTE4
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: 1703
 ht-degree: 0%
 
 ---
@@ -31,11 +46,11 @@ Für die Erweiterung AEM Assets Integration for Commerce gelten die folgenden Sy
 
 Sie benötigen die folgenden Rollen und Berechtigungen, um die Integration einzurichten.
 
-- [Commerce Cloud Project-Administrator](https://experienceleague.adobe.com/de/docs/commerce-cloud-service/user-guide/project/user-access) - Installieren Sie die erforderlichen Erweiterungen und konfigurieren Sie den Commerce-Anwendungsserver über den Administrator oder die Befehlszeile.
+- [Commerce Cloud Project-Administrator](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access) - Installieren Sie die erforderlichen Erweiterungen und konfigurieren Sie den Commerce-Anwendungsserver über den Administrator oder die Befehlszeile.
 
    - Greifen Sie auf [repo.magento.com](https://repo.magento.com/admin/dashboard) zu, um die Erweiterung zu installieren.
 
-     Informationen zum Generieren von Schlüsseln und zum Abrufen der erforderlichen Berechtigungen finden Sie unter [Abrufen Ihrer Authentifizierungsschlüssel](https://experienceleague.adobe.com/de/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Informationen zu Cloud-Installationen finden Sie im Handbuch [Commerce on Cloud Infrastructure](https://experienceleague.adobe.com/de/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
+     Informationen zum Generieren von Schlüsseln und zum Abrufen der erforderlichen Berechtigungen finden Sie unter [Abrufen Ihrer Authentifizierungsschlüssel](https://experienceleague.adobe.com/de/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Informationen zu Cloud-Installationen finden Sie im Handbuch [Commerce on Cloud Infrastructure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/authentication-keys)
 
 - [Commerce Admin](https://experienceleague.adobe.com/de/docs/commerce-admin/start/guide-overview): Aktualisieren der Store-Konfiguration und Verwalten von Commerce-Benutzerkonten.
 
@@ -96,7 +111,7 @@ Verwenden Sie diese Methode, um die [!DNL AEM Assets Integration]-Erweiterung f�
    git push origin <branch-name>
    ```
 
-   Durch das Pushen der Aktualisierungen wird der [Commerce-Cloud-Bereitstellungsprozess](https://experienceleague.adobe.com/de/docs/commerce-cloud-service/user-guide/develop/deploy/process) zum Anwenden der Änderungen initiiert. Überprüfen Sie den Bereitstellungsstatus im [Bereitstellungsprotokoll](https://experienceleague.adobe.com/de/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+   Durch das Pushen der Aktualisierungen wird der [Commerce-Cloud-Bereitstellungsprozess](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process) zum Anwenden der Änderungen initiiert. Überprüfen Sie den Bereitstellungsstatus im [Bereitstellungsprotokoll](https://experienceleague.adobe.com/de/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 >[!TAB On-Premises]
 
@@ -136,7 +151,7 @@ Verwenden Sie diese Methode, um die [!DNL AEM Assets Integration]-Erweiterung f�
 
 >[!NOTE]
 >
->Die Einrichtung des Commerce Services-Connectors ist ein einmaliger Prozess, der für die Verwendung von [Adobe Commerce SaaS-Services erforderlich &#x200B;](https://experienceleague.adobe.com/de/docs/commerce/user-guides/integration-services/saas#availableservices). Wenn Sie den Connector bereits für einen anderen Service konfiguriert haben, können Sie die vorhandene Konfiguration über den Commerce-Admin anzeigen, indem Sie **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]** auswählen.
+>Die Einrichtung des Commerce Services-Connectors ist ein einmaliger Prozess, der für die Verwendung von [Adobe Commerce SaaS-Services erforderlich &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas#availableservices). Wenn Sie den Connector bereits für einen anderen Service konfiguriert haben, können Sie die vorhandene Konfiguration über den Commerce-Admin anzeigen, indem Sie **[!UICONTROL Systems]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]** auswählen.
 
 Um Daten zwischen Ihrer Adobe Commerce-Instanz und den Services zu übertragen, die die AEM Assets-Integration aktivieren, konfigurieren Sie den Commerce Services Connector über die Admin Console (**[!UICONTROL System]** > [!UICONTROL Services] > **[!UICONTROL Commerce Services Connector]**).
 
@@ -148,7 +163,7 @@ Geben Sie in der Konfiguration die folgenden Werte an
 - Name des Datenspeichers (SaaS-Kennung) für sicheren Cloud-Speicher
 - IMS-Organisations-ID, unter der Ihre Commerce- und AEM Assets-Umgebungen bereitgestellt werden
 
-Detaillierte Anweisungen finden Sie im [Video zur Konfiguration von Commerce Services Connector](https://experienceleague.adobe.com/de/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) in der Dokumentation zu [Commerce Services Connector](https://experienceleague.adobe.com/de/docs/commerce/user-guides/integration-services/saas#organizationid).
+Detaillierte Anweisungen finden Sie im [Video zur Konfiguration von Commerce Services Connector](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/admin/adobe-commerce-services/configure-adobe-commerce-services-connector#configuration-faqs) in der Dokumentation zu [Commerce Services Connector](https://experienceleague.adobe.com/de/docs/commerce/user-guides/integration-services/saas#organizationid).
 
 Wenn Sie die Konfiguration speichern, generiert das System die SaaS-Projekt- und Datenbank-IDs für Ihre Umgebung. Diese Werte sind erforderlich, um die Synchronisierung von Assets zwischen Adobe Commerce und AEM Assets zu aktivieren.
 
@@ -242,7 +257,7 @@ Sie generieren die Anmeldeinformationen, indem Sie die Integration zur Commerce-
 
 1. Überprüfen Sie Ihre Identität, indem Sie auf **Identität bestätigen** klicken.
 
-   Das System überprüft Ihre Identität, indem es sich mit Ihrer Adobe-ID bei Experience Cloud authentifiziert.
+   Das System überprüft Ihre Identität, indem es sich mit Ihrer Adobe ID bei Experience Cloud authentifiziert.
 
 1. Konfigurieren von API-Ressourcen.
 

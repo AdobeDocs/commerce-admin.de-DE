@@ -3,9 +3,22 @@ title: '[!DNL Page Builder]'
 description: Erfahren Sie mehr über  [!DNL Page Builder]  Konfiguration von Funktionen in Admin für Adobe Commerce und Magento Open Source.
 exl-id: 48396045-0fef-4f4f-8138-e6d969560e42
 feature: Page Builder, Configuration
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/qXSCIQN-Tpo-n2CTrXy2xzDssA6xQfuWGAVxuRgI-5o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: 403
 ht-degree: 0%
 
 ---
@@ -17,8 +30,7 @@ Wenn es in der -Konfiguration aktiviert ist, ist [!DNL Page Builder] das standar
 >[!NOTE]
 >
 >Wenn installiert, überschreibt [!DNL Page Builder] die Standardeinstellung für das Feld [!UICONTROL Mask for Meta Description]. Der Wert wird von `{{name}} {{description}}` in `{{name}}` geändert.
-><br>
->Sie können auf diese Einstellung zugreifen, wenn Sie zu [!UICONTROL Stores] > _[!UICONTROL Settings]_> [!UICONTROL Configuration] gehen, [!UICONTROL Catalog] erweitern und darunter [!UICONTROL Catalog] auswählen. Das Feld [!UICONTROL Mask for Meta Description] befindet sich im Abschnitt [!UICONTROL Product Fields Auto-generation] .
+><br>>Sie können auf diese Einstellung zugreifen, wenn Sie zu [!UICONTROL Stores] > _[!UICONTROL Settings]_> [!UICONTROL Configuration] gehen, [!UICONTROL Catalog] erweitern und darunter [!UICONTROL Catalog] auswählen. Das Feld [!UICONTROL Mask for Meta Description] befindet sich im Abschnitt [!UICONTROL Product Fields Auto-generation] .
 
 >[!NOTE]
 >
@@ -44,7 +56,7 @@ Weitere Informationen zu den Konfigurationsoptionen für die erweiterten Content
 
    >[!NOTE]
    >
-   >Weitere Informationen [&#x200B; Verwendung von &#x200B;](map.md) in [!DNL Google Maps] Inhalten finden Sie unter [!DNL Page Builder]Medien - Karte .
+   >Weitere Informationen [&#x200B; Verwendung von [!DNL Google Maps] in [!DNL Page Builder] Inhalten finden Sie unter &#x200B;](map.md)Medien - Karte .
 
 1. Gehen Sie wie folgt vor, um die Anzahl der Richtlinien im [!DNL Page Builder] Spaltenraster zu konfigurieren:
 
@@ -54,7 +66,7 @@ Weitere Informationen zu den Konfigurationsoptionen für die erweiterten Content
 
    >[!NOTE]
    >
-   >Weitere Informationen [&#x200B; Verwendung des Spaltenrasters beim Arbeiten mit &#x200B;](column.md) Inhalten finden Sie unter [!DNL Page Builder]Layout - Spalte .
+   >Weitere Informationen [&#x200B; Verwendung des Spaltenrasters beim Arbeiten mit [!DNL Page Builder] Inhalten finden Sie unter &#x200B;](column.md)Layout - Spalte .
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 

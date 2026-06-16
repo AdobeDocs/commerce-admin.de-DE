@@ -3,9 +3,27 @@ title: Mehrschichtige Navigation
 description: Erfahren Sie, wie die mehrschichtige Navigation es Käufern erleichtert, Produkte anhand der Kategorie, der Preisspanne oder eines anderen verfügbaren Attributs zu finden.
 exl-id: 5f17528a-3593-449c-a044-98736a4ae913
 feature: Catalog Management, Categories, Site Navigation
-source-git-commit: 687169e4333d60eb1b876e24e6855fbb59fb598f
+TQID: https://experienceleague.adobe.com/6mwLiMtF8wB65C5ORHGLw4sZOuinIr91ChBul0Gfc-o
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: 1409
 ht-degree: 2%
 
 ---
@@ -26,7 +44,7 @@ Die mehrschichtige Navigation erleichtert die Suche nach Produkten basierend auf
 >
 >Die in diesem Thema beschriebenen Anforderungen an filterbare Attribute unterscheiden sich für [Live-Suche](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview). Weitere Informationen finden Sie unter [Facetten](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-admin/facets/facets).
 
-Die mehrschichtige Navigation kann verwendet werden, um nach Produkten nach Kategorie oder Attribut zu suchen. Wenn ein Käufer beispielsweise die Kategorie Herren/Shorts in der oberen Navigation auswählt, umfassen die ersten Ergebnisse alle Produkte in der Kategorie. Die Liste kann weiter gefiltert werden, indem ein bestimmter Stil, ein bestimmtes Klima, eine bestimmte Farbe, ein bestimmtes Material, ein bestimmtes Muster oder ein bestimmter Preis (oder eine Kombination von Werten) ausgewählt wird. Filterbare Attribute werden in einem erweiterten Abschnitt angezeigt, in dem jeder Attributwert aufgelistet wird. Optional kann die Liste der Produkte mit übereinstimmenden Ergebnissen so konfiguriert werden, dass Produkte mit oder ohne Übereinstimmung einbezogen werden.
+Die mehrschichtige Navigation kann verwendet werden, um nach Produkten nach Kategorie oder Attribut zu suchen. Wenn ein Käufer beispielsweise die Herren-/Shorts-Kategorie in der oberen Navigationsleiste auswählt, umfassen die ersten Ergebnisse alle Produkte in dieser Kategorie. Die Liste kann weiter gefiltert werden, indem ein bestimmter Stil, ein bestimmtes Klima, eine bestimmte Farbe, ein bestimmtes Material, ein bestimmtes Muster oder ein bestimmter Preis (oder eine Kombination von Werten) ausgewählt wird. Filterbare Attribute werden in einem erweiterten Abschnitt angezeigt, in dem jeder Attributwert aufgelistet wird. Optional kann die Liste der Produkte mit übereinstimmenden Ergebnissen so konfiguriert werden, dass Produkte mit oder ohne Übereinstimmung einbezogen werden.
 
 Die Attributeigenschaften bestimmen in Kombination mit dem Produkteingabetyp, welche Attribute für die mehrschichtige Navigation verwendet werden können. Die mehrschichtige Navigation ist nur für [_Anker_](categories-display-settings.md)-Kategorien verfügbar, kann aber auch zu Suchergebnisseiten hinzugefügt werden. Die **Catalog Input Type for Store Owner**-Eigenschaft jedes Attributs muss auf `Yes/No`, `Dropdown`, `Multiple Select` oder `Price` festgelegt werden. Damit die Attribute gefiltert werden können **muss die Eigenschaft &quot;** in der mehrschichtigen Navigation“ von jedem auf `Filterable (with results)` oder `Filterable (no results)` gesetzt werden.
 

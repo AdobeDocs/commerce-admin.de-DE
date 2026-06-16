@@ -3,9 +3,24 @@ title: Migrieren von Mediendateien zu AEM
 description: Migrieren Sie die Mediendateien aus Adobe Commerce oder einer externen Quelle in das AEM Assets-DAM.
 feature: CMS, Media, Integration
 exl-id: fead5732-b014-4cd3-a776-98a055a696ab
-source-git-commit: be5a34d9467ccec60983058bf907509fb2d41a61
+TQID: https://experienceleague.adobe.com/2eqYvVrxPO-yFYKtRPUExzxPPxXUy1v9KhR4LYjIBZY
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: 892
 ht-degree: 0%
 
 ---
@@ -38,9 +53,9 @@ Befolgen Sie den Migrations-Workflow, um Mediendateien aus Adobe Commerce oder e
 
 ### Schritt 1: Exportieren von Inhalten aus der vorhandenen Datenquelle
 
-Für Adobe Commerce-Händler bietet das Remote-Speichermodul eine optimierte Möglichkeit, Mediendateien aus Commerce zu exportieren und in AEM Assets zu importieren. Dieses Modul ermöglicht die Speicherung und Verwaltung von Mediendateien auf Remote-Speicher-Services wie AWS S3, wodurch der Migrationsprozess effizienter wird. Informationen zum Einrichten des Remote-Speichers für Ihre Commerce-Instanz finden Sie unter [Konfigurieren des Remote](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3) im *Commerce-Konfigurationshandbuch*.
+Für Adobe Commerce-Händler bietet das Remote-Speichermodul eine optimierte Möglichkeit, Mediendateien aus Commerce zu exportieren und in AEM Assets zu importieren. Dieses Modul ermöglicht die Speicherung und Verwaltung von Mediendateien auf Remote-Speicher-Services wie AWS S3, wodurch der Migrationsprozess effizienter wird. Informationen zum Einrichten des Remote-Speichers für Ihre Commerce-Instanz finden Sie unter [Konfigurieren des Remote](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/remote-storage/remote-storage-aws-s3) im *Commerce-Konfigurationshandbuch*.
 
-Wenn Sie Mediendateien haben, die außerhalb von Adobe Commerce gespeichert sind, laden Sie sie direkt in eine der [Datenquellen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites) hoch, die von AEM as a Cloud Service unterstützt werden.
+Wenn Sie Mediendateien haben, die außerhalb von Adobe Commerce gespeichert sind, laden Sie sie direkt in eine der [Datenquellen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-view/bulk-import-assets-view#prerequisites) hoch, die von AEM as a Cloud Service unterstützt werden.
 
 ### Schritt 2: Erstellen einer CSV-Datei für die Metadatenzuordnung
 
@@ -106,6 +121,6 @@ Im Folgenden finden Sie einen allgemeinen Überblick über die Verwendung des To
 
 >[!MORELIKETHIS]
 >
->[Videodemo zum Tool für den Massenimport](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
+>[Video-Demo zum Tool für den Massenimport](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/add-assets#asset-bulk-ingestor)
 >[Tipps, Best Practices und Einschränkungen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/add-assets#tips-limitations)
->[Hochladen oder Aufnehmen von Assets mithilfe von APIs](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)
+>[Hochladen oder Aufnehmen von Assets mithilfe von APIs](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/admin/developer-reference-material-apis#asset-upload)

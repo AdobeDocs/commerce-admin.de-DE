@@ -2,10 +2,21 @@
 title: Einfügen eines Bildes in den Editor
 description: Der WYSIWYG-Editor bietet eine einfache Möglichkeit, ein Bild aus dem Medienspeicher einzufügen, mit einem Bild zu verknüpfen, das sich auf einem anderen Server befindet, oder Adobe Stock-Assets zu verwenden.
 exl-id: 591830c9-6dba-4738-a6e7-cf5f93b3c319
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/0SlAN-Ija-mUYhkTfmC4QEfuGPw73szU5-7dqwcFKtc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: 374
 ht-degree: 0%
 
 ---
@@ -32,7 +43,7 @@ Im Editor können Sie ein Bild mithilfe von drei Quelltypen einfügen:
 
    Diese Aktion öffnet das _[!UICONTROL Insert/edit image]_&#x200B;Dialogfeld.
 
-1. Source Klicken Sie für **&#x200B;**&#x200B;auf das Symbol _Suchen_ und verwenden Sie die Methode, die dem Speicherort des Bild-Assets entspricht, das Sie verwenden möchten:
+1. Klicken Sie für **&#x200B;**&#x200B;auf das Symbol _Suchen_ und verwenden Sie die Methode, die dem Speicherort des Bild-Assets entspricht, das Sie verwenden möchten:
 
    ![Auswählen des Suchsymbols](./assets/editor-dialog-insert-image.png){width="250" zoomable="yes"}
 
@@ -62,7 +73,7 @@ Im Editor können Sie ein Bild mithilfe von drei Quelltypen einfügen:
 
       - Speichern Sie die Vorschau oder das lizenzierte Bild in der Galerie.
 
-        Weitere Informationen [&#128279;](https://stock.adobe.com) Arbeiten mit [Adobe Stock](adobe-stock-manage.md)-Assets finden Sie unter Verwenden von Adobe Stock-Bildern .
+        Weitere Informationen [&#128279;](https://stock.adobe.com)&#x200B; Arbeiten mit [Adobe Stock](adobe-stock-manage.md)-Assets finden Sie unter &#x200B;Verwenden von Adobe Stock-Bildern .
 
       - Wählen Sie die Asset-Miniaturansicht in der Galerie aus und klicken Sie auf **[!UICONTROL Add Selected]**.
 

@@ -3,9 +3,27 @@ title: Erweiterte Preisgestaltung
 description: Erfahren Sie mehr über die erweiterten Preiskontrollen in Adobe Commerce.
 exl-id: 0f353341-1b6b-4093-bba9-4a1b88323f8a
 feature: Catalog Management, Products
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/HyKkLwxHzBuyvh-YhjsMec9cMua9owWF--r-DShKnj8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: 886
 ht-degree: 0%
 
 ---
@@ -88,7 +106,7 @@ Richtet Werbe- und Stufenpreise für bestimmte freigegebene Kataloge und Kundeng
 
 | Element | Beschreibung |
 |----|-----------|
-| [!UICONTROL Website] | Gibt die Website an, auf die die Gruppenpreisregel angewendet wird. Diese Option wird nur angezeigt, wenn die Installation über mehrere Websites verfügt. <br>**_Wichtig:_**&#x200B;Wählen Sie_Website _in der Konfiguration [Katalogpreisbereich](catalog-price-scope.md), andernfalls werden die festgelegten erweiterten Preise für&#x200B;**alle &#x200B;** Websites angezeigt. |
+| [!UICONTROL Website] | Gibt die Website an, auf die die Gruppenpreisregel angewendet wird. Diese Option wird nur angezeigt, wenn die Installation über mehrere Websites verfügt. <br>**_Important:_**&#x200B;Wählen Sie_ Website_ in der Konfiguration [Katalogpreisbereich](catalog-price-scope.md), andernfalls werden die festgelegten erweiterten Preise für **alle**-Websites angezeigt. |
 | [!UICONTROL Group or Catalog] | (Erforderlich) Gibt die Kundengruppe oder den freigegebenen Katalog an, die bzw. der für den Erhalt des Rabattpreises qualifiziert ist. Wenn ein Wert in einem Gruppen- oder Katalogfeld geändert wird, wird die entsprechende benutzerdefinierte Preiszeile, die mit der vorherigen Einstellung übereinstimmt, aus dem freigegebenen Katalog gelöscht. <br/>**[!UICONTROL ALL GROUPS]**- Wendet die Regel auf alle Kundengruppen an. Der Wert wird nicht auf den freigegebenen Katalog angewendet, und Änderungen an den erweiterten Preisdaten werden nicht mit dem freigegebenen Katalog synchronisiert.<br/>**[!UICONTROL NOT LOGGED IN]** - Wendet die Regel „Gäste und Kunden“ an, die nicht bei ihren Konten angemeldet sind.<br/>**[!UICONTROL Shared Catalogs]**- Wendet die Regel auf einen bestimmten freigegebenen Katalog an. |
 | Menge | Gibt die Menge an, die erforderlich ist, um einen Stufenpreis zu erhalten. |
 | [!UICONTROL Price] | (Erforderlich) Gibt einen festen oder ermäßigten Produktpreis für Mitglieder der Kundengruppe innerhalb der spezifischen Website an. Optionen: <br/>**[!UICONTROL Fixed]**- (Standard) Der Rabattpreis wird als fester Dezimalwert eingegeben. Geben Sie beispielsweise `9.99` als Rabattpreis ein.<br/>**[!UICONTROL Discount]** - Der Rabattpreis wird als Prozentsatz (%) des Basisproduktpreises eingegeben. Geben Sie beispielsweise `10` für einen Rabatt von 10 % ein. |
@@ -108,7 +126,7 @@ Bestimmt, wo der tatsächliche Preis des Produkts für den Kunden sichtbar ist.
 | Element | Beschreibung |
 |----|-----------|
 | [!UICONTROL Use Config] | Verwendet die aktuelle Konfigurationseinstellung für die Preisanzeige. |
-| [!UICONTROL On Gesture] | Zeigt den tatsächlichen Produktpreis in einem Popup als Antwort auf die _Klick für Preis_ oder _Was ist das?Link_. |
+| [!UICONTROL On Gesture] | Zeigt den tatsächlichen Produktpreis in einem Popup als Antwort auf die _Klick für Preis_ oder _Was ist das?_ Link. |
 | [!UICONTROL In Cart] | Zeigt den tatsächlichen Produktpreis im Warenkorb an. |
 | [!UICONTROL Before Order Confirmation] | Zeigt den tatsächlichen Produktpreis am Ende des Checkout-Prozesses an, unmittelbar vor der Absendung der Bestellung. |
 

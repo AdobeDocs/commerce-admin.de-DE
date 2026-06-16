@@ -2,16 +2,34 @@
 title: Einführung in Geschäfte und Kauferlebnis
 description: Erfahren Sie mehr über die Funktionen, die zum Erstellen und Verwalten Ihrer Online-Stores verwendet werden, und das Kauferlebnis für Ihre Kunden.
 exl-id: 7ced9cbc-49b4-48f7-aae2-fcb48fdb888f
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/wP31dNMG9kiajirB5WTj-lEhTtHqKnl4FfqPsa3tFxs
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: 680
 ht-degree: 0%
 
 ---
 
 # Einführung in Geschäfte und Kauferlebnis
 
-Adobe Commerce und Magento Open Source bieten umfassende Funktionen zum Aufbau und zur Verwaltung Ihrer Online-Shops und des Kauferlebnisses für Ihre Kunden. Innerhalb Ihrer Commerce-Instanz können Sie die Store-Hierarchie von Websites, Stores und Ansichten verwalten. Sie können auch die Steuern und Währungskurse konfigurieren, die zum Ausführen von Geschäften für mehrere Gebietsschemata erforderlich sind, einschließlich Steuerklassen für Produkte und Kundengruppen.
+Adobe Commerce und Magento Open Source bieten eine umfassende Reihe von Funktionen zum Aufbau und Verwalten Ihrer Online-Stores und des Kauferlebnisses für Ihre Kunden. Innerhalb Ihrer Commerce-Instanz können Sie die Store-Hierarchie von Websites, Stores und Ansichten verwalten. Sie können auch die Steuern und Währungskurse konfigurieren, die zum Ausführen von Geschäften für mehrere Gebietsschemata erforderlich sind, einschließlich Steuerklassen für Produkte und Kundengruppen.
 
 ## Store-Struktur
 
@@ -21,7 +39,7 @@ Wenn die [Hierarchie](stores.md) definiert ist, können Sie Konfigurationseinste
 
 ## Point of Purchase
 
-Adobe Commerce und Magento Open Source reduzieren Bestellfehler, indem sie die SKU und die Verfügbarkeit aller Artikel automatisch überprüfen, bevor eine Bestellung gesendet wird. Sie können die Optionen [Warenkorb](cart.md) und [Checkout](checkout-process.md) konfigurieren, um ein optimales Kauferlebnis zu bieten, von der Transaktion bis zum Versand. Kunden, die bei ihren Konten angemeldet sind, können den Checkout schnell abschließen, da ein Großteil der Informationen bereits in ihren Konten vorhanden ist. Die _Checkout_-Seite führt den Kunden durch jeden Schritt des Prozesses zum Abschließen der Bestelltransaktion. Wenn Sie [Sofortkauf](checkout-instant-purchase.md) aktivieren, können Kunden den Checkout-Prozess mithilfe der in ihrem Konto gespeicherten Informationen beschleunigen.
+Adobe Commerce und Magento Open Source reduzieren Bestellfehler, indem sie die SKU und Verfügbarkeit aller Artikel automatisch überprüfen, bevor eine Bestellung gesendet wird. Sie können die Optionen [Warenkorb](cart.md) und [Checkout](checkout-process.md) konfigurieren, um ein optimales Kauferlebnis zu bieten, von der Transaktion bis zum Versand. Kunden, die bei ihren Konten angemeldet sind, können den Checkout schnell abschließen, da ein Großteil der Informationen bereits in ihren Konten vorhanden ist. Die _Checkout_-Seite führt den Kunden durch jeden Schritt des Prozesses zum Abschließen der Bestelltransaktion. Wenn Sie [Sofortkauf](checkout-instant-purchase.md) aktivieren, können Kunden den Checkout-Prozess mithilfe der in ihrem Konto gespeicherten Informationen beschleunigen.
 
 >[!TIP]
 >
@@ -39,7 +57,7 @@ Kunden benötigen manchmal Hilfe, um einen Kauf abzuschließen. Einige Kunden ka
 
 Sehen Sie sich dieses Video an, um mehr über verkäuferunterstütztes Einkaufen zu erfahren:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411978/?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3411978/?captions=ger&quality=12&learn=on)
 
 ## Auftragsverwaltung und -operationen
 
