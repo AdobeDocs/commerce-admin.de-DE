@@ -5,11 +5,22 @@ exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 3148
@@ -24,9 +35,9 @@ Der PayPal Express Checkout hilft, den Umsatz zu steigern, indem er Ihren Kunden
 >[!IMPORTANT]
 >
 >**PSD2-Anforderungen:** <br/>
->Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die die [PSD2}-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Die Einhaltung von PSD2 durch PayPal Express Checkout erfordert keine Maßnahmen, da alle Anforderungen durch PayPal abgewickelt werden.
+>Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die die [PSD2&rbrace;-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Die Einhaltung von PSD2 durch PayPal Express Checkout erfordert keine Maßnahmen, da alle Anforderungen durch PayPal abgewickelt werden.
 
-Kunden mit aktuellen PayPal-Konten können einen Kauf in einem einzigen Schritt tätigen, indem sie auf die Schaltfläche _[!UICONTROL Check out with PayPal]_klicken. Express Checkout kann als eigenständige oder mit einer der PayPal-All-in-One-Lösungen verwendet werden. Wenn Sie bereits Kreditkarten online akzeptieren, können Sie Express Checkout als zusätzliche Option anbieten, um neue Kunden zu gewinnen, die lieber mit PayPal bezahlen möchten.
+Kunden mit aktuellen PayPal-Konten können einen Kauf in einem einzigen Schritt tätigen, indem sie auf die Schaltfläche _[!UICONTROL Check out with PayPal]_&#x200B;klicken. Express Checkout kann als eigenständige oder mit einer der PayPal-All-in-One-Lösungen verwendet werden. Wenn Sie bereits Kreditkarten online akzeptieren, können Sie Express Checkout als zusätzliche Option anbieten, um neue Kunden zu gewinnen, die lieber mit PayPal bezahlen möchten.
 
 >[!NOTE]
 >
@@ -100,13 +111,13 @@ Sie können zwei PayPal-Lösungen gleichzeitig aktivieren: PayPal Express Checko
 
 1. Wenn Ihre Installation über mehrere Websites, Stores oder Ansichten verfügt, legen Sie **[!UICONTROL Store View]** auf die Store-Ansicht fest, in der Sie diese Konfiguration anwenden möchten.
 
-1. Wählen Sie im Abschnitt _[!UICONTROL Merchant Location]_die **[!UICONTROL Merchant Country]**aus, in der sich Ihr Unternehmen befindet.
+1. Wählen Sie im Abschnitt _[!UICONTROL Merchant Location]_&#x200B;die **[!UICONTROL Merchant Country]**&#x200B;aus, in der sich Ihr Unternehmen befindet.
 
    Diese Einstellung bestimmt die Auswahl der PayPal-Lösungen, die in der Konfiguration angezeigt werden.
 
    ![Handelsland](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. Klicken Sie unter _[!UICONTROL Recommended Solutions]_auf **[!UICONTROL Configure]**für **[!UICONTROL PayPal Express Checkout]**.
+1. Klicken Sie unter _[!UICONTROL Recommended Solutions]_&#x200B;auf **[!UICONTROL Configure]**&#x200B;für **[!UICONTROL PayPal Express Checkout]**.
 
    ![Konfigurieren von PayPal Express Checkout](./assets/paypal-express-checkout.png){width="600"}
 
@@ -318,7 +329,7 @@ Legen Sie **[!UICONTROL Enable PayPal PayLater Experience]** auf eine der folgen
    - `Sale` - Der Betrag des Kaufs wird autorisiert und sofort vom Konto des Kunden zurückgezogen.
    - `Order` - Der Betrag der Bestellung wird nicht erfasst oder autorisiert im Kundensaldo, Bankkonto oder Kreditkarte bei PayPal. Die Aktion „Bestellen“ stellt eine Vereinbarung zwischen dem PayPal-Zahlungssystem und dem Händler dar. Sie ermöglicht es dem Händler, einen oder mehrere Beträge bis zur bestellten Gesamtsumme über einen Zeitraum von bis zu 29 Tagen vom Kundenkäuferkonto zu erfassen. Nachdem die Gelder bestellt wurden, kann der Händler sie jederzeit während des folgenden 29-tägigen Zeitraums erfassen. Die Erfassung des Bestellbetrags kann nur vom Commerce-Administrator durchgeführt werden, indem eine oder mehrere Rechnungen erstellt werden.
 
-1. Um die Schaltfläche _[!UICONTROL Check out with PayPal]_auf der Produktseite anzuzeigen, setzen Sie **[!UICONTROL Display on Product Details Page]**auf `Yes`.
+1. Um die Schaltfläche _[!UICONTROL Check out with PayPal]_&#x200B;auf der Produktseite anzuzeigen, setzen Sie **[!UICONTROL Display on Product Details Page]**&#x200B;auf `Yes`.
 
 1. Wenn die Zahlungsaktion auf `Order` gesetzt ist, führen Sie Folgendes aus
 
@@ -339,7 +350,7 @@ Legen Sie **[!UICONTROL Enable PayPal PayLater Experience]** auf eine der folgen
 1. Legen Sie **[!UICONTROL Payment Applicable From]** auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen Ländern, die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Elemente.
+   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_&#x200B;angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Elemente.
 
 1. Um die Kommunikation mit dem Zahlungssystem in die Protokolldatei zu schreiben, setzen Sie **[!UICONTROL Debug Mode]** auf `Yes`.
 
@@ -416,7 +427,7 @@ Ein [Abrechnungsvertrag](paypal-billing-agreements.md) ist ein Kaufvertrag zwisc
 1. Legen Sie **[!UICONTROL Payment Applicable From]** auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen Ländern, die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Länder.
+   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_&#x200B;angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Länder.
 
 1. Um die Kommunikation mit dem Zahlungssystem in der Protokolldatei aufzuzeichnen, setzen Sie **[!UICONTROL Debug Mode]** auf `Yes`.
 

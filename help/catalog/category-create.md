@@ -4,12 +4,24 @@ description: Je nach der in der Konfiguration festgelegten maximalen Menütiefe 
 exl-id: 8ba5fc1a-3bf2-4a29-bbc3-709fc0ad7497
 feature: Catalog Management, Categories
 TQID: https://experienceleague.adobe.com/BZwvDT-VCy2JS9RpQT-IdG9s22genACydrfHcyWmCls
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1165
@@ -21,7 +33,7 @@ ht-degree: 0%
 
 Die Kategoriestruktur Ihres Katalogs ist wie ein umgekehrter Baum, wobei das Stammverzeichnis an der Spitze steht. Jeder Abschnitt der Baumstruktur kann erweitert und reduziert werden. Alle deaktivierten oder ausgeblendeten Kategorien werden ausgegraut. Die Kategorien auf der ersten Ebene (unter dem [Stamm](category-root.md)) werden normalerweise als Optionen im [Hauptmenü](navigation-top.md) angezeigt. Je nach der in der Konfiguration festgelegten maximalen Menütiefe können Sie beliebig viele zusätzliche Unterkategorien erstellen. Kategorien können per Drag-and-Drop an andere Stellen in der Baumstruktur verschoben werden. Die Kategorie-ID-Nummer wird oben auf der Seite in Klammern hinter dem Kategorienamen angezeigt.
 
-Bei einer Website mit mehreren [Stores](../stores-purchase/stores.md#add-stores) können Sie für jeden Store eine andere Stammkategorie erstellen, die den Kategoriesatz definiert, der für die &quot;[ Navigation“ verwendet ](navigation-top.md).
+Bei einer Website mit mehreren [Stores](../stores-purchase/stores.md#add-stores) können Sie für jeden Store eine andere Stammkategorie erstellen, die den Kategoriesatz definiert, der für die &quot;[&#x200B; Navigation“ verwendet &#x200B;](navigation-top.md).
 
 ![Kategoriestruktur](./assets/category-selected.png){width="700" zoomable="yes"}
 
@@ -73,7 +85,7 @@ Definieren Sie auch alle zugehörigen Keywords und Attribute, z. B.:
 
 1. Wenn die Kategorie sofort im Store verfügbar sein soll, setzen Sie **[!UICONTROL Enable Category]** auf `Yes`.
 
-1. Um die Kategorie in die &quot;[ Navigation“ einzuschließen](navigation-top.md) legen Sie **[!UICONTROL Include in Menu]** auf `Yes` fest.
+1. Um die Kategorie in die &quot;[&#x200B; Navigation“ einzuschließen](navigation-top.md) legen Sie **[!UICONTROL Include in Menu]** auf `Yes` fest.
 
 1. Geben Sie die **[!UICONTROL Category Name]** ein.
 
@@ -87,7 +99,7 @@ Definieren Sie auch alle zugehörigen Keywords und Attribute, z. B.:
 
    ![Kategorieinhalt](./assets/category-content.png){width="600" zoomable="yes"}
 
-1. Um eine **[!UICONTROL Category Image]** oben auf der Seite anzuzeigen, können Sie entweder Ihr eigenes Bild hochladen oder ein Bild verwenden, das im [Medienspeicher“ ](../content-design/media-storage.md).
+1. Um eine **[!UICONTROL Category Image]** oben auf der Seite anzuzeigen, können Sie entweder Ihr eigenes Bild hochladen oder ein Bild verwenden, das im [Medienspeicher“ &#x200B;](../content-design/media-storage.md).
 
    - Um ein eigenes Bild hochzuladen, klicken Sie auf **[!UICONTROL Upload]** und wählen Sie das Bild aus, das Sie der Kategorie zuordnen möchten.
 
@@ -121,7 +133,7 @@ Definieren Sie auch alle zugehörigen Keywords und Attribute, z. B.:
    - `Static Block Only`
    - `Static Block and Products`
 
-1. Wenn die Kategorieseite den _`Filter by Attribute`_Abschnitt der mehrschichtigen Navigation enthalten soll, setzen Sie **[!UICONTROL Anchor]**auf `Yes`.
+1. Wenn die Kategorieseite den _`Filter by Attribute`_Abschnitt der mehrschichtigen Navigation enthalten soll, setzen Sie **[!UICONTROL Anchor]**&#x200B;auf `Yes`.
 
 1. Wählen Sie für die **[!UICONTROL Available Product Listing Sort By]** Optionen einen oder mehrere der verfügbaren Werte aus, damit Kunden die Liste sortieren können. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
@@ -133,7 +145,7 @@ Definieren Sie auch alle zugehörigen Keywords und Attribute, z. B.:
 
 1. Um die standardmäßige Sortierreihenfolge für die Kategorie festzulegen, wählen Sie den **[!UICONTROL Default Product Listing Sort By]** aus. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling).
 
-1. Gehen Sie wie folgt vor, um die Standardeinstellung für [ Navigation (](navigation-layered.md#configure-price-navigation)) zu ändern:
+1. Gehen Sie wie folgt vor, um die Standardeinstellung für [&#x200B; Navigation (](navigation-layered.md#configure-price-navigation)) zu ändern:
 
    - Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use Config Settings]** .
 

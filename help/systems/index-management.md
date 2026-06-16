@@ -5,11 +5,22 @@ exl-id: cbb249a2-b957-44fe-bf81-df795a8fd5d1
 feature: System, Configuration
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/0SKv03rtjLWNP0xXDqRh202Pvtw9XPkfkDiPCsGKgeE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1350
@@ -26,7 +37,7 @@ Die Neuindizierung von Daten beschleunigt die Verarbeitung und verkürzt die War
 Die Indexer können so eingestellt werden, dass sie entweder beim Speichern oder planmäßig aktualisiert werden. Alle Indizes können eine der beiden Optionen verwenden, mit Ausnahme des Kundenrasters, das nur beim Speichern unterstützt. Beim Indizieren von Speicheraktionen startet Commerce eine Neuindizierung von Speicheraktionen. Die Seite „Indexverwaltung“ schließt die Aktualisierung ab und leert den Cache, wobei die Neuindizierungsmeldung innerhalb von ein bis zwei Minuten angezeigt wird. Bei der Neuindizierung nach einem Zeitplan wird eine Neuindizierung nach einem Zeitplan als Cron-Auftrag ausgeführt. Eine Systemmeldung wird angezeigt, wenn kein [Cron-Auftrag](cron.md) verfügbar ist, um ungültig werdende Indexer zu aktualisieren. Ihr Store bleibt während der Neuindizierungsprozesse verfügbar.
 
 >[!NOTE]
-> Adobe Commerce-Händler, die die Live-Suche, den Katalog-Service oder Produktempfehlungen verwenden, haben die Möglichkeit, einen [SaaS-basierten Preisindizer“ ](https://experienceleague.adobe.com/en/docs/commerce/price-indexer/price-indexing) verwenden.
+> Adobe Commerce-Händler, die die Live-Suche, den Katalog-Service oder Produktempfehlungen verwenden, haben die Möglichkeit, einen [SaaS-basierten Preisindizer“ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/price-indexer/price-indexing) verwenden.
 
 Wenn eine Neuindizierung erforderlich ist, wird oben auf der Seite eine Benachrichtigung angezeigt. Der Index und die Nachricht werden je nach Neuindizierungsmodus und den von Ihnen durchgeführten potenziellen Aktionen gelöscht. Weitere Informationen zur Indizierung finden Sie unter [Wie die Anwendung die Indizierung implementiert](https://developer.adobe.com/commerce/php/development/components/indexing/#how-the-application-implements-indexing) im _PHP-Entwicklerhandbuch_.
 
@@ -34,7 +45,7 @@ Wenn eine Neuindizierung erforderlich ist, wird oben auf der Seite eine Benachri
 
 - Die Indexverwaltung bietet eine etwas andere Darstellung für flache Produktkataloge.
 - Um Probleme zu vermeiden, wenn mehrere Admin-Benutzerinnen oder -Benutzer Objekte aktualisieren, die Trigger für die automatische Neuindizierung sind, wird empfohlen, für alle Indexer die Ausführung planmäßig als [Cron-Aufträge](cron.md) festzulegen. Andernfalls kann jedes Mal, wenn ein Objekt gespeichert wird, jedes Objekt mit Interdependenzen zu einem Deadlock führen. Zu den Symptomen eines Deadlocks gehören eine hohe CPU-Nutzung und MySQL-Fehler. Als Best Practice wird empfohlen, die geplante Indizierung zu verwenden.
-- ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Standardmäßig werden Admin-Aktionen, wie z. B. eine Neuindizierung, vom System protokolliert und können im Bericht [Aktionsprotokolle“ angezeigt ](action-log-report.md). Die Aktionsprotokollierung kann in den erweiterten Admin[Einstellungen Ihres Stores unter ](action-log.md)Admin-Aktionsprotokollierung“ konfiguriert werden.
+- ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Standardmäßig werden Admin-Aktionen, wie z. B. eine Neuindizierung, vom System protokolliert und können im Bericht [Aktionsprotokolle“ angezeigt &#x200B;](action-log-report.md). Die Aktionsprotokollierung kann in den erweiterten Admin[Einstellungen Ihres Stores unter &#x200B;](action-log.md)Admin-Aktionsprotokollierung“ konfiguriert werden.
 
 ## Best Practices für die Neuindizierung
 
@@ -77,7 +88,7 @@ Neuindizierung und Caching haben in Commerce unterschiedliche Zwecke. Indizes ve
    | ------ |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    | [!UICONTROL Indexer] | Der Name des Indexers. |
    | [!UICONTROL Description] | Eine Beschreibung des Indexers. |
-   | [!UICONTROL Mode] | Gibt den aktuellen Aktualisierungsmodus für jeden Indexer an. Optionen: <br/>**[!UICONTROL Update on Save]**- Der Index wird so eingestellt, dass er bei jeder Entitätsänderung aktualisiert wird. Zu diesen Entitäten gehören Produkte, Kategorien und Kunden. Wenn die Speicheraktion abgeschlossen ist, beginnt eine Reihe von Schritten, die Änderungen abzufangen und den Index zu aktualisieren. Die Seite „Indexverwaltung“ wird aktualisiert und die Neuindizierungsmeldung wird innerhalb von ein bis zwei Minuten geleert.<br/>**[!UICONTROL Update on Schedule]** - Der Index ist so eingestellt, dass er planmäßig gemäß einem [Cron-Auftrag“ aktualisiert ](cron.md). Der Cron-Auftrag umfasst das Zeitplanintervall für die Neuindizierung, wobei bei der Ausführung Aktualisierungen in den Index geschrieben werden. |
+   | [!UICONTROL Mode] | Gibt den aktuellen Aktualisierungsmodus für jeden Indexer an. Optionen: <br/>**[!UICONTROL Update on Save]**- Der Index wird so eingestellt, dass er bei jeder Entitätsänderung aktualisiert wird. Zu diesen Entitäten gehören Produkte, Kategorien und Kunden. Wenn die Speicheraktion abgeschlossen ist, beginnt eine Reihe von Schritten, die Änderungen abzufangen und den Index zu aktualisieren. Die Seite „Indexverwaltung“ wird aktualisiert und die Neuindizierungsmeldung wird innerhalb von ein bis zwei Minuten geleert.<br/>**[!UICONTROL Update on Schedule]** - Der Index ist so eingestellt, dass er planmäßig gemäß einem [Cron-Auftrag“ aktualisiert &#x200B;](cron.md). Der Cron-Auftrag umfasst das Zeitplanintervall für die Neuindizierung, wobei bei der Ausführung Aktualisierungen in den Index geschrieben werden. |
    | [!UICONTROL Schedule Status] | Zeigt die Aktualisierungen des Zeitplanstatus an. |
    | [!UICONTROL Status] | Zeigt eine der folgenden Optionen an: <br/>**[!UICONTROL Ready]**- Der Index ist auf dem neuesten Stand.<br/>**[!UICONTROL Suspended]** - Die Neuindizierung wurde angehalten. <br/>**[!UICONTROL Processing]**- Die Neuindizierung wird derzeit ausgeführt.<br/>**[!UICONTROL Reindex Required]** - Es wurde eine Änderung vorgenommen, die neu indiziert werden muss, aber die Indexer können nicht automatisch aktualisiert werden. Überprüfen Sie, ob [cron](cron.md) verfügbar und korrekt konfiguriert ist. |
    | [!UICONTROL Updated] | Gibt das Datum und die Uhrzeit der letzten Aktualisierung eines Index an. |
@@ -106,7 +117,7 @@ Commerce bietet zusätzliche Neuindizierungsoptionen über die Befehlszeile. Umf
 
 >[!IMPORTANT]
 >
->Die Verwendung eines flachen Katalogs wird nicht mehr als Best Practice empfohlen. Es ist bekannt, dass die kontinuierliche Verwendung dieser Funktion zu Leistungseinbußen und anderen Indizierungsproblemen führt. Weitere Informationen finden [ unter „Verwenden ](../catalog/catalog-flat.md) flachen Katalogprodukts“.
+>Die Verwendung eines flachen Katalogs wird nicht mehr als Best Practice empfohlen. Es ist bekannt, dass die kontinuierliche Verwendung dieser Funktion zu Leistungseinbußen und anderen Indizierungsproblemen führt. Weitere Informationen finden [&#x200B; unter „Verwenden &#x200B;](../catalog/catalog-flat.md) flachen Katalogprodukts“.
 
 ## Indexaktionen und -kontrollen
 

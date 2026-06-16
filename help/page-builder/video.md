@@ -4,11 +4,20 @@ description: Erfahren Sie mehr über den Videoinhaltstyp, mit dem ein auf YouTub
 exl-id: 9cd075e7-c10d-4c34-8932-c1ccb32bf198
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/rgFMtNXv6jerPV7rthqTFteR8XlJ1bVc7ziBjwAlAMk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 947
@@ -46,7 +55,7 @@ Verwenden Sie den _Video_-Inhaltstyp, um ein Video, das auf [YouTube](https://ww
 
 1. Bevor Sie beginnen, navigieren Sie zum [YouTube](https://www.youtube.com/)- oder [Vimeo](https://vimeo.com/)-Video, das Sie einbetten möchten, und kopieren Sie den Link.
 
-   Alternativ können Sie auch einen direkten Link in eine gültige Videodatei kopieren. Gültige [ finden Sie unter &quot;](#basic-video-settings) Videoeinstellungen“.
+   Alternativ können Sie auch einen direkten Link in eine gültige Videodatei kopieren. Gültige [&#x200B; finden Sie unter &quot;](#basic-video-settings) Videoeinstellungen“.
 
 1. Kehren Sie in der [!DNL Commerce] Admin zu dem Arbeitsbereich [!DNL Page Builder] zurück, in dem Sie das Video hinzufügen möchten.
 
@@ -54,7 +63,7 @@ Verwenden Sie den _Video_-Inhaltstyp, um ein Video, das auf [YouTube](https://ww
 
    ![Ziehen eines Video-Platzhalters auf die Bühne](./assets/pb-media-video-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den Video-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Video-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Fügen Sie **[!UICONTROL Video URL]** die URL des kopierten Videos ein.
 
@@ -68,7 +77,7 @@ Verwenden Sie den _Video_-Inhaltstyp, um ein Video, das auf [YouTube](https://ww
 
 ## Videoeinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über den Video-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Video-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Ändern Sie die Einstellungen gemäß den folgenden Abschnitten:
 

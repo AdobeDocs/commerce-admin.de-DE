@@ -4,11 +4,20 @@ description: Erfahren Sie mehr über den Lebenszyklus des Erwerbs und der Einlö
 exl-id: ecaa39aa-f504-4bfd-874b-12b44093c2a9
 feature: Products, Gift
 TQID: https://experienceleague.adobe.com/-GZIzNSrAxpHKeS269m0q4FS-BUXRpNnE7JxK09Ea0I
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1016
@@ -72,7 +81,7 @@ So funktionieren Geschenkkarten in der Storefront:
 
 - Konten für Geschenkcodes werden erstellt, um den Saldo eines bestimmten Gutscheins zu verfolgen. Ein Filialadministrator kann den Saldo manuell anpassen.
 
-Der empfangende Kunde kann den _[!UICONTROL Gift Card]_Abschnitt seines Konto-Dashboards verwenden, um den Saldo seines [Geschenkkartenkontos](product-gift-card-accounts.md) zu überprüfen und Geschenkkarten für [Store-Guthaben](../customers/store-credit-using.md) einzulösen.
+Der empfangende Kunde kann den _[!UICONTROL Gift Card]_&#x200B;Abschnitt seines Konto-Dashboards verwenden, um den Saldo seines [Geschenkkartenkontos](product-gift-card-accounts.md) zu überprüfen und Geschenkkarten für [Store-Guthaben](../customers/store-credit-using.md) einzulösen.
 
 ![Geschenkkarte](./assets/account-dashboard-gift-card.png){width="700" zoomable="yes"}
 
@@ -90,7 +99,7 @@ Der Saldo der Geschenkkarte wird angezeigt.
 
 ### Aktivierung der Geschenkkarte
 
-1. Auf der Seite _[!UICONTROL Gift Card]_gibt der Kunde den Geschenkkartencode ein.
+1. Auf der Seite _[!UICONTROL Gift Card]_&#x200B;gibt der Kunde den Geschenkkartencode ein.
 
 1. Der Kunde klickt auf **[!UICONTROL Redeem Gift Card]**.
 
@@ -100,7 +109,7 @@ Der Betrag der Geschenkkarte wird aktiviert und zum gesamten Kontostand des Gesc
 
 ![Kontostand speichern](./assets/store-credit.png){width="700" zoomable="yes"}
 
-Alle Vorgänge für den Guthaben der Geschenkkarte sind auf der Seite _[!UICONTROL Store Credit]_verfügbar.
+Alle Vorgänge für den Guthaben der Geschenkkarte sind auf der Seite _[!UICONTROL Store Credit]_&#x200B;verfügbar.
 
 ### Anwenden einer Geschenkkarte während des Checkouts
 
@@ -110,6 +119,6 @@ Wenn die Geschenkkarte nicht einlösbar ist, kann ein Kunde den Geschenkkartenco
 
 1. Gibt den Geschenkkartencode ein und klickt dann auf **[!UICONTROL Apply]**.
 
-   Der Rabatt sollte sich in der _[!UICONTROL Order Summary]_widerspiegeln.
+   Der Rabatt sollte sich in der _[!UICONTROL Order Summary]_&#x200B;widerspiegeln.
 
 1. Klicken Sie auf **[!UICONTROL Place Order]** , um die Bestellung abzuschließen.

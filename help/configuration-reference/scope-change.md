@@ -3,11 +3,21 @@ title: Konfigurationsumfang
 description: Erfahren Sie mehr über das Festlegen des Bereichs für Konfigurationseinstellungen in Commerce Admin.
 exl-id: b7b87ac5-dc7d-472f-af24-52b4d12e46c5
 TQID: https://experienceleague.adobe.com/dOH8zNrJuH26wVQDh3aQP6P8xJ5qM7lEcLphkoxLnn4
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1033
@@ -33,7 +43,7 @@ Die Store-Ansichtsauswahl in der linken oberen Ecke vieler Konfigurationsseiten 
 
 ## [!UICONTROL Use system value]
 
-Das Kontrollkästchen _[!UICONTROL Use System Value]_rechts neben vielen Konfigurationseinstellungen wird verwendet, um den Standardwert im aktuellen Konfigurationsbereich entweder anzuwenden oder zu überschreiben. Der Wert des Standardfelds kann nicht geändert werden, wenn das Kontrollkästchen aktiviert wird. Um den Wert zu ändern, deaktivieren Sie das Kontrollkästchen und geben Sie den neuen Wert ein. Sobald Sie den Systemwert ändern, werden Sie zur Bestätigung aufgefordert.
+Das Kontrollkästchen _[!UICONTROL Use System Value]_&#x200B;rechts neben vielen Konfigurationseinstellungen wird verwendet, um den Standardwert im aktuellen Konfigurationsbereich entweder anzuwenden oder zu überschreiben. Der Wert des Standardfelds kann nicht geändert werden, wenn das Kontrollkästchen aktiviert wird. Um den Wert zu ändern, deaktivieren Sie das Kontrollkästchen und geben Sie den neuen Wert ein. Sobald Sie den Systemwert ändern, werden Sie zur Bestätigung aufgefordert.
 
 Die Beschriftung des Kontrollkästchens ändert sich entsprechend dem aktuellen Umfang und bezieht sich immer auf die übergeordnete Ebene, die in der Bereichshierarchie eine Stufe höher liegt. Da die übergeordnete Ebene ein Container für alle Elemente unterhalb dieser Ebene ist, wird die Bereichseinstellung von der übergeordneten Ebene übernommen, es sei denn, sie wird überschrieben.
 
@@ -85,19 +95,19 @@ Bevor Sie eine Konfigurationseinstellung vornehmen, die nur für eine bestimmte 
 | **[!UICONTROL Website]** |  |
 | Domain | Zusätzliche [Websites](../stores-purchase/introduction.md#store-structure) können als Subdomains der primären Domain eingerichtet werden oder separate IP-Adressen und dedizierte Domains haben. |
 | Kunden | Kundenkonten können für die Anwendung auf globaler oder Website-Ebene konfiguriert werden. Jede Website kann über einen separaten Satz von [Kundenkonten](../customers/customer-account-scope.md) verfügen oder Kundenkonten für andere Websites in der Installation freigeben. |
-| Währung | Jeder Website kann eine andere [Basiswährung“ zugewiesen ](../stores-purchase/currency-configuration.md). Die Basiswährung wird für die Verarbeitung aller Transaktionen verwendet, obwohl dem Kunden je nach Gebietsschema der Store-Ansicht eine andere Anzeigewährung angezeigt werden kann. |
+| Währung | Jeder Website kann eine andere [Basiswährung“ zugewiesen &#x200B;](../stores-purchase/currency-configuration.md). Die Basiswährung wird für die Verarbeitung aller Transaktionen verwendet, obwohl dem Kunden je nach Gebietsschema der Store-Ansicht eine andere Anzeigewährung angezeigt werden kann. |
 | PRODUCT | Einzelne Produkte werden der Hierarchie auf Website-Ebene zugewiesen. Das Produktraster listet alle Produkte im Katalog sowie die Websites auf, auf denen sie verfügbar sind. Die Einstellung [Produkt auf Websites](../catalog/settings-basic-websites.md) gibt jede Website an, auf der das Produkt verfügbar ist. |
 | Produktpreise | [Produktpreise](../catalog/catalog-price-scope.md) können für die Anwendung entweder auf globaler oder auf Website-Ebene konfiguriert werden. |
 | Zahlungsmethoden | [Zahlungsmethoden](../stores-purchase/payments.md) werden auf Website-Ebene konfiguriert, obwohl der Titel und die Anweisungen für jede Shop-Ansicht konfiguriert werden können. |
 | Checkout | Der [Checkout](../stores-purchase/checkout-process.md)Prozess findet auf Website-Ebene statt, obwohl einige Anzeigeoptionen für jede Shop-Ansicht konfiguriert werden können. Alle mit einer Website verknüpften Stores haben dieselbe [Checkout-Konfiguration](../stores-purchase/checkout-process.md#checkout-options). |
 | Zugelassene Länder | Zugelassene Länder können auf Website-Ebene konfiguriert werden. Die Einstellungen [Zugelassene Länder](../getting-started/store-details.md#country-options) werden beim Checkout verwendet, um zu begrenzen, woher ein Kunde kommen kann. |
 | **[!UICONTROL Store]** |  |
-| Domain | Bei mehreren Stores kann jeder Store dieselbe Domain, eine Subdomain oder deutlich unterschiedliche Domains haben. Weitere Informationen finden Sie unter [ von Stores](../stores-purchase/stores.md#add-stores). |
+| Domain | Bei mehreren Stores kann jeder Store dieselbe Domain, eine Subdomain oder deutlich unterschiedliche Domains haben. Weitere Informationen finden Sie unter [&#x200B; von Stores](../stores-purchase/stores.md#add-stores). |
 | Root Category | Jeder Store kann über einen separaten Satz von Produkten und ein Hauptmenü verfügen, das auf einer „Stamm“-Kategorie und Unterkategorien basiert. Jeder Katalog verfügt über eine [Stammkategorie](../catalog/category-root.md) die auf Store-Ebene zugewiesen wird. |
 | **[!UICONTROL Store View]** |  |
 | Unterkategorien | Die [Unterkategorien](../catalog/category-create.md#category-structure) aus denen das Hauptmenü (unter dem Stamm) besteht, werden auf Store-Ansichtsebene zugewiesen. |
-| Gebietsschema | Jeder Shop-Ansicht kann ein anderes [Gebietsschema“ ](../getting-started/store-details.md#locale-options) werden. Die Anzeigewährung, die Maßeinheiten und die Admin-Benutzeroberfläche sind spezifisch für das Gebietsschema. |
-| Languages | Um mehrere Sprachen zu unterstützen, müssen alle Inhalte, einschließlich Produktbeschreibungen[ für ](../stores-purchase/store-localize.md#localize-products) Store-Ansicht übersetzt werden. |
-| Währung anzeigen | Für jede Store[Ansicht kann eine andere ](../stores-purchase/currency-configuration.md)Anzeigewährung“ verwendet werden, obwohl die Transaktionen auf Website-Ebene unter Verwendung der Basiswährung verarbeitet werden. |
+| Gebietsschema | Jeder Shop-Ansicht kann ein anderes [Gebietsschema“ &#x200B;](../getting-started/store-details.md#locale-options) werden. Die Anzeigewährung, die Maßeinheiten und die Admin-Benutzeroberfläche sind spezifisch für das Gebietsschema. |
+| Languages | Um mehrere Sprachen zu unterstützen, müssen alle Inhalte, einschließlich Produktbeschreibungen[&#x200B; für &#x200B;](../stores-purchase/store-localize.md#localize-products) Store-Ansicht übersetzt werden. |
+| Währung anzeigen | Für jede Store[Ansicht kann eine andere &#x200B;](../stores-purchase/currency-configuration.md)Anzeigewährung“ verwendet werden, obwohl die Transaktionen auf Website-Ebene unter Verwendung der Basiswährung verarbeitet werden. |
 
 {style="table-layout:auto"}

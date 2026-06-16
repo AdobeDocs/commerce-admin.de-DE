@@ -4,11 +4,19 @@ description: Erfahren Sie mehr über Datenimportrichtlinien und die Verwendung v
 exl-id: caae8811-445e-49d4-aa90-226a355732bc
 feature: Products, Customers, Data Import/Export
 TQID: https://experienceleague.adobe.com/LZ44VOhB95b8bwSgBoDOYYt4DBF5tA7Uz5aTR7QfnUk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
 source-wordcount: 1564
@@ -62,7 +70,7 @@ Im Importvorgang von Adobe Commerce werden in UTF-8 kodierte Dateien, die eine B
 
 | Bedienung | Beschreibung |
 | --------- | ----------- |
-| Hinzufügen/Aktualisieren | Zu den vorhandenen Produktdaten für die vorhandenen Einträge in der Datenbank werden neue Produktdaten hinzugefügt. Alle Felder außer `sku` können aktualisiert werden.<br><br>Neue Steuerklassen, die in den Importdaten angegeben sind, werden automatisch erstellt.<br><br>Neue Produktkategorien, die in der Importdatei angegeben sind, werden automatisch erstellt.<br><br>Neue SKUs, die in der Importdatei angegeben sind, werden automatisch erstellt <br><br>**_Hinweis:_**Bei Produkten können Sie alle Felder außer SKU durch Import aktualisieren.<br><br>**_Wichtig:_** Mehrere Feldwerte wie Websites oder Kategorien können nicht mit dem Importverhalten _Hinzufügen/Aktualisieren_ entfernt werden. Diese Felder bleiben nach dem Import in der Datenbank, wenn sie nicht in der CSV-Datei aufgeführt sind. |
+| Hinzufügen/Aktualisieren | Zu den vorhandenen Produktdaten für die vorhandenen Einträge in der Datenbank werden neue Produktdaten hinzugefügt. Alle Felder außer `sku` können aktualisiert werden.<br><br>Neue Steuerklassen, die in den Importdaten angegeben sind, werden automatisch erstellt.<br><br>Neue Produktkategorien, die in der Importdatei angegeben sind, werden automatisch erstellt.<br><br>Neue SKUs, die in der Importdatei angegeben sind, werden automatisch erstellt <br><br>**_Hinweis:_**&#x200B;Bei Produkten können Sie alle Felder außer SKU durch Import aktualisieren.<br><br>**_Wichtig:_** Mehrere Feldwerte wie Websites oder Kategorien können nicht mit dem Importverhalten _Hinzufügen/Aktualisieren_ entfernt werden. Diese Felder bleiben nach dem Import in der Datenbank, wenn sie nicht in der CSV-Datei aufgeführt sind. |
 | Ersetzen | Die vorhandenen Produktdaten werden durch neue Daten ersetzt.<br><br>**_Wichtig:_** Seien Sie beim Ersetzen von Daten vorsichtig, da die vorhandenen Produktdaten gelöscht werden und alle Verweise im System verloren gehen.<br><br>Wenn eine SKU in den Importdaten mit der SKU einer vorhandenen Entität übereinstimmt, werden alle Felder, einschließlich der SKU, gelöscht und mithilfe der CSV-Daten wird ein neuer Datensatz erstellt. Ein Fehler tritt auf, wenn die CSV-Datei auf eine SKU verweist, die nicht in der Datenbank vorhanden ist. Sie können Daten überprüfen, um den Fehler anzuzeigen. |
 | Löschen | Alle Entitäten in den Importdaten, die in der Datenbank vorhanden sind, werden aus der Datenbank gelöscht.<br><br>Löschen ignoriert alle Spalten in den Importdaten, mit Ausnahme der SKU. Sie können alle anderen Attribute in den Daten ignorieren.<br><br>Ein Fehler tritt auf, wenn die CSV-Datei auf eine SKU verweist, die nicht in der Datenbank vorhanden ist. Sie können Daten überprüfen, um den Fehler anzuzeigen. |
 
@@ -155,7 +163,7 @@ Beim Importieren von Produktdaten werden neue Produktdaten zu vorhandenen Produk
 
    >[!NOTE]
    >
-   >Ab der Adobe Commerce- und Magento Open Source `2.3.2`-Version wird der in _[!UICONTROL Images File Directory]_angegebene Pfad zum Import in das Bildbasisverzeichnis verkettet: `<Magento-root-folder>/var/import/images`. Platzieren Sie beispielsweise die `product_images` Dateien im Ordner `<Magento-root-directory>/var/import/images/product_images` . Der Basisordner für den Import von Bildern kann in der `\Magento\ImportExport\etc\config.xml` konfiguriert werden. Wenn das Remote-Speichermodul aktiviert ist, importieren Sie Dateien in den `<remote-storage-root-directory>/var/import/images/product_images`.
+   >Ab der Adobe Commerce- und Magento Open Source `2.3.2`-Version wird der in _[!UICONTROL Images File Directory]_&#x200B;angegebene Pfad zum Import in das Bildbasisverzeichnis verkettet: `<Magento-root-folder>/var/import/images`. Platzieren Sie beispielsweise die `product_images` Dateien im Ordner `<Magento-root-directory>/var/import/images/product_images` . Der Basisordner für den Import von Bildern kann in der `\Magento\ImportExport\etc\config.xml` konfiguriert werden. Wenn das Remote-Speichermodul aktiviert ist, importieren Sie Dateien in den `<remote-storage-root-directory>/var/import/images/product_images`.
 
    Weitere Informationen zum Importieren von Produktbildern finden Sie unter [Importieren von Produktbildern](data-import-product-images.md).
 

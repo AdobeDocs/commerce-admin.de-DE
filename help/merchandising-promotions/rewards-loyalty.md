@@ -4,11 +4,22 @@ description: Erfahren Sie mehr über das Prämienpunktsystem, mit dem Sie die Ku
 exl-id: 2bccdcce-7936-4449-9634-d463ad29e5cc
 feature: Rewards, Promotions/Events, Customers, Configuration
 TQID: https://experienceleague.adobe.com/JESAxbyi9FqEIfr053Mz9Z7PcHt7tmdSwdDlxmhiVQQ
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1402
@@ -24,7 +35,7 @@ Das _Belohnungspunktesystem_ in Adobe Commerce bietet Ihnen die Möglichkeit, ei
 
 ## Preisregeln für Warenkorb
 
-Punkte können Kunden auf der Grundlage einer [Warenkorbregel“ belohnt ](price-rules-cart.md). Sie können als einzige Aktion der Preisregel oder zusammen mit einem Rabatt belohnt werden.
+Punkte können Kunden auf der Grundlage einer [Warenkorbregel“ belohnt &#x200B;](price-rules-cart.md). Sie können als einzige Aktion der Preisregel oder zusammen mit einem Rabatt belohnt werden.
 
 ## Kundensaldo
 
@@ -48,7 +59,7 @@ Punkte können von Admin-Benutzern und -Kunden (falls aktiviert) während des Ch
 
 ## Rückerstattung an Prämienpunkte
 
-Bestellungen, die mit Prämienpunkten getätigt werden, können bis zu dem Betrag, der in der Bestellung eingelöst wurde, an die Prämienpunkte zurückerstattet werden. Auf der [_Neue Gutschrift_ ](../stores-purchase/credit-memo-create.md) kann die Anzahl der Punkte eingegeben werden, die auf den Saldo des Kunden angewendet werden sollen. Standardmäßig enthält das Feld die vollständige Anzahl der Punkte, die in der Reihenfolge verwendet wurden.
+Bestellungen, die mit Prämienpunkten getätigt werden, können bis zu dem Betrag, der in der Bestellung eingelöst wurde, an die Prämienpunkte zurückerstattet werden. Auf der [_Neue Gutschrift_ &#x200B;](../stores-purchase/credit-memo-create.md) kann die Anzahl der Punkte eingegeben werden, die auf den Saldo des Kunden angewendet werden sollen. Standardmäßig enthält das Feld die vollständige Anzahl der Punkte, die in der Reihenfolge verwendet wurden.
 
 ## Belohnungspunkte-Vorgänge für Ihren Store aktivieren
 
@@ -154,7 +165,7 @@ Die Prämienpunktebilanz kann von der Administratorin bzw. dem Administrator akt
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Wählen _unter „Kundeninformationen_ den Abschnitt **[!UICONTROL Reward Points]** aus.
 
@@ -174,7 +185,7 @@ Die Prämienpunktebilanz kann von der Administratorin bzw. dem Administrator akt
 
 1. Klicken Sie auf **[!UICONTROL Save Customer]**.
 
-Alle Aktionen im Zusammenhang mit Belohnungspunkten werden im _[!UICONTROL Reward Points History]_des Kunden in seinem Konto auf der Storefront angezeigt.
+Alle Aktionen im Zusammenhang mit Belohnungspunkten werden im _[!UICONTROL Reward Points History]_&#x200B;des Kunden in seinem Konto auf der Storefront angezeigt.
 
 ## Feldbeschreibungen
 
@@ -186,7 +197,7 @@ Alle Aktionen im Zusammenhang mit Belohnungspunkten werden im _[!UICONTROL Rewar
 | [!UICONTROL Amount] | Zu- oder Abzuziehender Betrag |
 | [!UICONTROL Rate] | Der [Belohnungs-Wechselkurs](reward-exchange-rates.md) |
 | [!UICONTROL Website] | Website, der der Verlauf der Belohnungspunkte zugewiesen wird |
-| [!UICONTROL Reason] | Gründe für die Vergabe von Punkten:<br>**[!UICONTROL Making purchases]**Jedes Mal, wenn ein Kunde einen Kauf tätigt, kann er Punkte sammeln.<br>**[!UICONTROL Registering on the site]** - Abgegrenzt bei der Registrierung (einmal).<br>**[!UICONTROL Subscribing to a newsletter]**- Für das Erstabonnement angesammelt (einmal).<br>**[!UICONTROL Sending Invitations]** — Sammeln Sie Punkte, indem Sie Ihre Freunde einladen, der Website beizutreten.<br>**[!UICONTROL Converting Invitations to Customer]**— Sammeln Sie Punkte für jede Einladung, die sie an führende Freunde senden, die sich auf der Website registrieren.<br>**[!UICONTROL Converting Invitations to Order]** — Sammeln Sie Punkte für jeden Verkauf, der aus einer gesendeten Einladung resultiert.<br>**[!UICONTROL Review Submission]**— Sammeln Sie Punkte für die Einreichung von Produktbewertungen. |
+| [!UICONTROL Reason] | Gründe für die Vergabe von Punkten:<br>**[!UICONTROL Making purchases]**&#x200B;Jedes Mal, wenn ein Kunde einen Kauf tätigt, kann er Punkte sammeln.<br>**[!UICONTROL Registering on the site]** - Abgegrenzt bei der Registrierung (einmal).<br>**[!UICONTROL Subscribing to a newsletter]**- Für das Erstabonnement angesammelt (einmal).<br>**[!UICONTROL Sending Invitations]** — Sammeln Sie Punkte, indem Sie Ihre Freunde einladen, der Website beizutreten.<br>**[!UICONTROL Converting Invitations to Customer]**— Sammeln Sie Punkte für jede Einladung, die sie an führende Freunde senden, die sich auf der Website registrieren.<br>**[!UICONTROL Converting Invitations to Order]** — Sammeln Sie Punkte für jeden Verkauf, der aus einer gesendeten Einladung resultiert.<br>**[!UICONTROL Review Submission]**— Sammeln Sie Punkte für die Einreichung von Produktbewertungen. |
 | [!UICONTROL Created] | Datum und Uhrzeit der Aktualisierung der Prämienpunkte |
 | [!UICONTROL Expired] | Anzahl abgelaufener Belohnungspunkte |
 | [!UICONTROL Comment] | Kommentare beim Hinzufügen oder Subtrahieren von Punkten |

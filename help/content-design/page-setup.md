@@ -4,11 +4,21 @@ description: Erfahren Sie, wie Sie die Standardeinstellungen für die Hauptbesta
 exl-id: a4310940-0d4f-4948-a271-382f03905bfd
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/EmzCKKd7dZaBu0LECyK-BcnpaS7lu-8YvAJWSfviFXM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 991
@@ -34,9 +44,9 @@ Die Einstellungen im Abschnitt HTML-Kopfzeile entsprechen dem `<head>`-Tag einer
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
-1. Erweitern _unter_ Weitere Einstellungen![ den Abschnitt **[!UICONTROL HTML Head]** Erweiterungsauswahl](../assets/icon-display-expand.png).
+1. Erweitern _unter_ Weitere Einstellungen![&#x200B; den Abschnitt **[!UICONTROL HTML Head]** Erweiterungsauswahl](../assets/icon-display-expand.png).
 
    ![Einstellungen für HTML Head](./assets/configuration-html-head.png){width="500" zoomable="yes"}
 
@@ -91,9 +101,9 @@ Die Header-Konfiguration identifiziert den Pfad zu Ihrem Store-Logo und gibt den
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
-1. Erweitern _unter_ Weitere Einstellungen![ den Abschnitt **[!UICONTROL Header]** Erweiterungsauswahl](../assets/icon-display-expand.png).
+1. Erweitern _unter_ Weitere Einstellungen![&#x200B; den Abschnitt **[!UICONTROL Header]** Erweiterungsauswahl](../assets/icon-display-expand.png).
 
 1. Nehmen Sie die für die Store-Ansicht erforderlichen Änderungen vor:
 
@@ -125,9 +135,9 @@ Im Abschnitt „Konfiguration der Fußzeile“ können Sie den [Copyright-Hinwei
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Design]_>**[!UICONTROL Configuration]**.
 
-1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie die Store-Ansicht, die Sie konfigurieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
-1. Erweitern _unter_ Weitere Einstellungen![ den Abschnitt **[!UICONTROL Footer]** Erweiterungsauswahl](../assets/icon-display-expand.png).
+1. Erweitern _unter_ Weitere Einstellungen![&#x200B; den Abschnitt **[!UICONTROL Footer]** Erweiterungsauswahl](../assets/icon-display-expand.png).
 
 1. Nehmen Sie die erforderlichen Änderungen an den Einstellungen **[!UICONTROL Copyright]** und **[!UICONTROL Miscellaneous HTML]** vor.
 

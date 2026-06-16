@@ -4,11 +4,21 @@ description: Erfahren Sie mehr über den Bildinhaltstyp, mit dem ein JPG-, GIF- 
 exl-id: 1b8d906e-7570-4c1f-87a0-992400faf55c
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/qU9r1m9lM6jjA7VGreeThc9NilLdfWjWdqNfu7mShBc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1540
@@ -22,7 +32,7 @@ Verwenden Sie den _image_-Inhaltstyp, um ein JPG-, GIF- oder PNG-Bild zur [[!DNL
 
 >[!TIP]
 >
->Sie können die [Adobe Stock-Integration](../content-design/adobe-stock.md) verwenden, um ein geeignetes Asset aus den Millionen zu finden und zu speichern, die von [Adobe Stock bereitgestellt ](https://stock.adobe.com). Siehe [Verwenden von Adobe Stock](../content-design/adobe-stock-manage.md) für Details zum Suchen, Verfeinern und Speichern von Adobe Stock-Assets in Ihrer Galerie.
+>Sie können die [Adobe Stock-Integration](../content-design/adobe-stock.md) verwenden, um ein geeignetes Asset aus den Millionen zu finden und zu speichern, die von [Adobe Stock bereitgestellt &#x200B;](https://stock.adobe.com). Siehe [Verwenden von Adobe Stock](../content-design/adobe-stock-manage.md) für Details zum Suchen, Verfeinern und Speichern von Adobe Stock-Assets in Ihrer Galerie.
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -64,7 +74,7 @@ Die Bild-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Bild-Containe
    >
    >Die maximale Dateigröße beträgt 4 MB. Unterstützte Dateitypen sind JPG, GIF und PNG.
 
-   - _**Neues Bild hochladen**_: Verwenden Sie diese Methode, um eine neue Bilddatei von Ihrem System hochzuladen.
+   - _&#x200B;**Neues Bild hochladen**&#x200B;_: Verwenden Sie diese Methode, um eine neue Bilddatei von Ihrem System hochzuladen.
 
       - Klicken Sie auf **[!UICONTROL Upload Image]**.
 
@@ -72,7 +82,7 @@ Die Bild-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Bild-Containe
 
      Alternativ können Sie auch eine Bilddatei aus Ihrem System ziehen und auf dem Symbol _Kamera_ ( ![Kamerasymbol](./assets/pb-icon-camera.png){width="20"} ) ablegen.
 
-   - _**Vorhandenes Asset auswählen**_: Verwenden Sie diese Methode, um ein vorhandenes Bild-Asset aus dem Medienspeicher/der Mediensammlung auszuwählen.
+   - _&#x200B;**Vorhandenes Asset auswählen**&#x200B;_: Verwenden Sie diese Methode, um ein vorhandenes Bild-Asset aus dem Medienspeicher/der Mediensammlung auszuwählen.
 
       - Klicken Sie auf **[!UICONTROL Select from Gallery]**.
 
@@ -82,7 +92,7 @@ Die Bild-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Bild-Containe
 
         ![Ausgewähltes Bild hinzufügen](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
-   - _**Adobe Stock-Bild suchen und auswählen**_: Verwenden Sie diese Methode, um ein Bild aus Adobe Stock zu suchen.
+   - _&#x200B;**Adobe Stock-Bild suchen und auswählen**&#x200B;_: Verwenden Sie diese Methode, um ein Bild aus Adobe Stock zu suchen.
 
      >[!NOTE]
      >
@@ -92,7 +102,7 @@ Die Bild-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Bild-Containe
 
       - Speichern Sie die Vorschau oder das lizenzierte Bild in der Galerie.
 
-        Weitere [ zum Arbeiten mit Adobe Stock-Assets finden ](../content-design/adobe-stock-manage.md) unter „Verwenden von Adobe StockBildern“.
+        Weitere [&#x200B; zum Arbeiten mit Adobe Stock-Assets finden &#x200B;](../content-design/adobe-stock-manage.md) unter „Verwenden von Adobe StockBildern“.
 
       - Wählen Sie die Asset-Miniaturansicht in der Galerie aus und klicken Sie auf **[!UICONTROL Add Selected]**.
 
@@ -113,13 +123,13 @@ Der Dateiname, die Abmessungen und die Dateigröße werden unter dem aktuellen B
 
 1. Führen Sie einen der folgenden Schritte aus, um die aktuelle **[!UICONTROL Image]** zu ändern:
 
-   - _**Neues Bild hochladen**_: Verwenden Sie diese Methode, um eine neue Bilddatei von Ihrem System hochzuladen.
+   - _&#x200B;**Neues Bild hochladen**&#x200B;_: Verwenden Sie diese Methode, um eine neue Bilddatei von Ihrem System hochzuladen.
 
       - Klicken Sie auf **[!UICONTROL Upload Image]**.
 
       - Suchen Sie das Bild und wählen Sie es aus, um es der Galerie und dem Ziel-Container hinzuzufügen.
 
-   - _**Vorhandenes Asset auswählen**_: Verwenden Sie diese Methode, um ein vorhandenes Bild-Asset aus dem Medienspeicher/der Mediensammlung auszuwählen.
+   - _&#x200B;**Vorhandenes Asset auswählen**&#x200B;_: Verwenden Sie diese Methode, um ein vorhandenes Bild-Asset aus dem Medienspeicher/der Mediensammlung auszuwählen.
 
       - Klicken Sie auf **[!UICONTROL Select from Gallery]**.
 
@@ -139,7 +149,7 @@ Der Dateiname, die Abmessungen und die Dateigröße werden unter dem aktuellen B
 
       - Speichern Sie die Vorschau oder das lizenzierte Bild in der Galerie.
 
-        Weitere [ zum Arbeiten mit Adobe Stock-Assets finden ](../content-design/adobe-stock-manage.md) unter „Verwenden von Adobe StockBildern“.
+        Weitere [&#x200B; zum Arbeiten mit Adobe Stock-Assets finden &#x200B;](../content-design/adobe-stock-manage.md) unter „Verwenden von Adobe StockBildern“.
 
       - Wählen Sie die Asset-Miniaturansicht in der Galerie aus und klicken Sie auf **[!UICONTROL Add Selected]**.
 

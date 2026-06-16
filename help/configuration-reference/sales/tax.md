@@ -4,11 +4,20 @@ description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UI
 exl-id: eb929a6c-adb2-45ac-b6ec-6239938355bf
 feature: Configuration, Taxes
 TQID: https://experienceleague.adobe.com/HbW4SJ4D2ktIp2wPFx5Bd1flvKdU6fqayMqjwzWorXE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1231
@@ -21,7 +30,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source enthielten die vom Vertex-Anbieter entwickelte Erweiterung, die zur Integration mit dem [!UICONTROL Vertex Cloud] verwendet wurde. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Bundle der Hauptversion enthalten und muss von der Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
-><br><br>>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrades auf 2.4.4 aktualisieren und zukünftige Erweiterungsaktualisierungen verwalten. Weitere Informationen [ Sie unter „Upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)Module und -Erweiterungen“ _„Upgrade-Handbuch_.
+><br><br>>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrades auf 2.4.4 aktualisieren und zukünftige Erweiterungsaktualisierungen verwalten. Weitere Informationen [&#x200B; Sie unter „Upgrade](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)Module und -Erweiterungen“ _„Upgrade-Handbuch_.
 
 {{config}}
 
@@ -46,7 +55,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Steuerk
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Tax Calculation Method Based On] | Website | Bestimmt die Methode, die zur Berechnung der Steuer für einen Auftrag verwendet wird. Optionen: <br/>**`Unit Price`**- Steuerberechnungen basieren auf dem Einheitspreis jedes Produkts.<br/>**`Row Total`** - Steuerberechnungen basieren auf der Zeileneintragssumme. <br/>**`Total`**- Steuerberechnungen basieren auf der Bestellsumme.<br/><br/>_** Hinweis:**_Wenn eine Steuerberechnungserweiterung vom Marketplace installiert wird, z. B. _Vertex Cloud_, wird der Erweiterungsdienst als Option aufgeführt. |
+| [!UICONTROL Tax Calculation Method Based On] | Website | Bestimmt die Methode, die zur Berechnung der Steuer für einen Auftrag verwendet wird. Optionen: <br/>**`Unit Price`**- Steuerberechnungen basieren auf dem Einheitspreis jedes Produkts.<br/>**`Row Total`** - Steuerberechnungen basieren auf der Zeileneintragssumme. <br/>**`Total`**- Steuerberechnungen basieren auf der Bestellsumme.<br/><br/>_ **&#x200B; Hinweis:**&#x200B;_Wenn eine Steuerberechnungserweiterung vom Marketplace installiert wird, z. B. _Vertex Cloud_, wird der Erweiterungsdienst als Option aufgeführt. |
 | [!UICONTROL Tax Calculation Based On] | Website | Bestimmt, ob die Steuerberechnung auf der Lieferadresse, der Rechnungsadresse oder der Versandherkunft basiert. Optionen: `Shipping Address` / `Billing Address` / `Shipping Origin` |
 | [!UICONTROL Catalog Prices] | Website | Legt fest, ob Katalogpreise Steuern enthalten oder nicht. Optionen: `Excluding Tax` / `Including Tax` |
 | [!UICONTROL Shipping Prices] | Website | Bestimmt in den Versandpreisen inklusive oder exklusive Steuer. Optionen: `Excluding Tax` / `Including Tax` |
@@ -130,7 +139,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Feste P
 | [!UICONTROL Display Prices in Product Lists] | Website | Steuert die Anzeige von Schriftarten in Produktlisten. Optionen:<br/> **`Including FPT Only`** - Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt.<br/>**`Including FPT and FPT description`**- Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT. Including FPT description and final price`** - Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT`**- Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt. |
 | [!UICONTROL Display Prices On Product View Page] | Website | Steuert die Anzeige von FTP auf der Produktseite. Optionen:<br/> **`Including FPT Only`** - Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt.<br/>**`Including FPT and FPT description`**- Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT. Including FPT description and final price`** - Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT`**- Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt. |
 | [!UICONTROL Display Prices in Sales Modules] | Website | Steuert die Anzeige von FTP im Warenkorb und beim Checkout. Optionen:<br/> **`Including FPT Only`** - Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt.<br/>**`Including FPT and FPT description`**- Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT. Including FPT description and final price`** - Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT`**- Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt. |
-| [!UICONTROL Display Prices in Emails] | Website | Steuert die Anzeige von FTP in E-Mails. Optionen:<br/> **`Including FPT Only`** - Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt.<br/>**`Including FPT and FPT description`**- Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>** Ohne FTP. Einschließlich FTP-Beschreibung und Endpreis **- Die angezeigten Preise beinhalten keine festen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT`** - Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt. |
+| [!UICONTROL Display Prices in Emails] | Website | Steuert die Anzeige von FTP in E-Mails. Optionen:<br/> **`Including FPT Only`** - Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt.<br/>**`Including FPT and FPT description`**- Die angezeigten Preise beinhalten die fixen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**&#x200B; Ohne FTP. Einschließlich FTP-Beschreibung und Endpreis &#x200B;**- Die angezeigten Preise beinhalten keine festen Produktsteuern. Der fpt-Betrag wird separat angezeigt.<br/>**`Excluding FPT`** - Die angezeigten Preise beinhalten keine fixen Produktsteuern. Der fpt-Betrag wird nicht separat angezeigt. |
 | [!UICONTROL Apply Tax to FPT] | Website | Legt fest, ob der FTP-Betrag mit Steuern belegt wird. Optionen: `Yes` / `No` |
 | [!UICONTROL Include FPT in Subtotal] | Website | Bestimmt, ob die FTP in der Zwischensumme des Warenkorbs enthalten ist. Optionen: <br/>**`Yes`**- Enthält FPT in der Zwischensumme des Warenkorbs.<br/>**`No`** - FPT ist nicht in der Zwischensumme enthalten und wird nach der Zwischensumme im Warenkorb platziert. |
 

@@ -4,11 +4,22 @@ description: Erfahren Sie mehr über den Content-Typ „Regler“, mit dem Sie e
 exl-id: 757dbdc3-b146-4ef8-a17d-59f8da62626f
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/P-1NgnGbb02-KXlx2hK0utD569y4Zdk6c1azxTJGzZ0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 3813
@@ -132,7 +143,7 @@ Sie können Zeit sparen, indem Sie eine Folie duplizieren, die bereits mit den e
    - [[!UICONTROL Content]](#content)
    - [[!UICONTROL Advanced]](#advanced)
 
-1. Wenn Sie fertig sind, klicken Sie oben rechts auf **[!UICONTROL Save]** , um die _[!UICONTROL Edit Slide]_zu schließen.
+1. Wenn Sie fertig sind, klicken Sie oben rechts auf **[!UICONTROL Save]** , um die _[!UICONTROL Edit Slide]_&#x200B;zu schließen.
 
 ### Widget auf einer Folie hinzufügen
 
@@ -262,7 +273,7 @@ Ein Hintergrundtyp kann ein Bild oder ein Video sein. [!DNL Page Builder] ist st
 
 ### Einstellungen für Bildtyp
 
-Wenn Sie die _[!UICONTROL Background Type]_auf `Image` setzen, verwenden Sie die folgenden Einstellungen, um die Hintergrundbildanzeige zu definieren.
+Wenn Sie die _[!UICONTROL Background Type]_&#x200B;auf `Image` setzen, verwenden Sie die folgenden Einstellungen, um die Hintergrundbildanzeige zu definieren.
 
 ![Banner mit Hintergrundbild](./assets/pb-tutorial1-banner-background.png){width="600" zoomable="yes"}
 
@@ -344,9 +355,9 @@ Sie können den Folieninhalt direkt auf der Bühne oder beim Ändern der Einstel
 
 1. Klicken Sie auf den Navigationspunkt am unteren Rand des Schiebereglers, um die Toolbox für die einzelne Folie anzuzeigen, und wählen Sie das Symbol _Einstellungen_ ( ![Einstellungen](./assets/pb-icon-settings.png){width="20"} ) aus.
 
-1. Geben Sie im Abschnitt _[!UICONTROL Content]_die **[!UICONTROL Message Text]**ein, die mit der Folie angezeigt werden soll.
+1. Geben Sie im Abschnitt _[!UICONTROL Content]_&#x200B;die **[!UICONTROL Message Text]**&#x200B;ein, die mit der Folie angezeigt werden soll.
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_und verwenden Sie den **[!UICONTROL Message Text]**-Editor, um Bannertext einzugeben und zu formatieren.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Content]_&#x200B;und verwenden Sie den **[!UICONTROL Message Text]**-Editor, um Bannertext einzugeben und zu formatieren.
 
    Sie können auch Elemente wie Text-Links, Bilder und Widgets einfügen.
 
@@ -521,7 +532,7 @@ Wenn Sie einen Titel über dem Schieberegler möchten, fügen Sie einfach einen 
 
 ## Schiebereglereinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über den Schieberegler-Container, um die Haupt-Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Schieberegler-Container, um die Haupt-Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
    ![Regler-Toolbox](./assets/pb-media-slider-tee-shirts-main-toolbox.png){width="500" zoomable="yes"}
 
@@ -555,7 +566,7 @@ Wenn Sie einen Titel über dem Schieberegler möchten, fügen Sie einfach einen 
 
    ![Schieberegler zeigt Pfeile und Punkte an](./assets/pb-media-slider-settings-show-arrows-dots.png){width="600" zoomable="yes"}
 
-1. Füllen Sie [ Schiebereglereinstellungen ](#slider-advanced)Erweitert) nach Bedarf aus.
+1. Füllen Sie [&#x200B; Schiebereglereinstellungen &#x200B;](#slider-advanced)Erweitert) nach Bedarf aus.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
@@ -620,7 +631,7 @@ Wenn Sie einen Titel über dem Schieberegler möchten, fügen Sie einfach einen 
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
-1. Suchen Sie die Seite im Raster _Seiten_ und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Action]_aus.
+1. Suchen Sie die Seite im Raster _Seiten_ und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Action]_&#x200B;aus.
 
    ![Reglervorschau - Standardansicht](./assets/pb-media-slider-desktop-view.png){width="600" zoomable="yes"}
 

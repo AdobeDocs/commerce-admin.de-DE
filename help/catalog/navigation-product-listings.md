@@ -4,12 +4,23 @@ description: Erfahren Sie, wie Sie die Konfiguration der Produktliste ändern, d
 exl-id: 3779d9db-4adb-473b-b9c9-ad066f50b549
 feature: Catalog Management, Products, Page Content
 TQID: https://experienceleague.adobe.com/XC4xwHkJyLCiHNNCAz6huVbN3j-WwCvKumJtjf0uj-I
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: ae62cf09-5996-4921-bda8-fbe67b62e470
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: ae62cf09-5996-4921-bda8-fbe67b62e470
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 792
@@ -23,7 +34,7 @@ Produktlisten können so eingestellt werden, dass sie standardmäßig entweder a
 
 >[!NOTE]
 >
->Beim Sortieren einer Kategorie nach einem Produktattribut werden Produkte mit denselben Attributwerten auch nach ihrem _[!UICONTROL Product ID]_in aufsteigender Reihenfolge sortiert.
+>Beim Sortieren einer Kategorie nach einem Produktattribut werden Produkte mit denselben Attributwerten auch nach ihrem _[!UICONTROL Product ID]_&#x200B;in aufsteigender Reihenfolge sortiert.
 
 ![Produkte werden als Raster angezeigt](./assets/storefront-catalog-page.png){width="700" zoomable="yes"}
 
@@ -41,7 +52,7 @@ Produktlisten können so eingestellt werden, dass sie standardmäßig entweder a
 
    >[!NOTE]
    >
-   >Um Produkte und ihre Preise korrekt nach _Produktsortierung nach Preis_ anzuzeigen, stellen Sie sicher, dass die Einstellungen für die Preisanzeige in der [Mehrwertsteuerkonfiguration](../configuration-reference/sales/tax.md) denselben Wert aufweisen (`Excluding Tax` **oder**`Including Tax`). Überprüfen Sie für die _[!UICONTROL Calculation Settings]_den **[!UICONTROL Catalog Prices]**. Überprüfen Sie_[!UICONTROL Price Display Settings]_ den **[!UICONTROL Display Product Prices in Catalog]**. Wenn diese unterschiedliche Werte haben, können Preisfilter in der mehrschichtigen Navigation Produkte möglicherweise nicht ordnungsgemäß nach Preis filtern und sortieren.
+   >Um Produkte und ihre Preise korrekt nach _Produktsortierung nach Preis_ anzuzeigen, stellen Sie sicher, dass die Einstellungen für die Preisanzeige in der [Mehrwertsteuerkonfiguration](../configuration-reference/sales/tax.md) denselben Wert aufweisen (`Excluding Tax` **oder**`Including Tax`). Überprüfen Sie für die _[!UICONTROL Calculation Settings]_&#x200B;den **[!UICONTROL Catalog Prices]**. Überprüfen Sie&#x200B;_[!UICONTROL Price Display Settings]_ den **[!UICONTROL Display Product Prices in Catalog]**. Wenn diese unterschiedliche Werte haben, können Preisfilter in der mehrschichtigen Navigation Produkte möglicherweise nicht ordnungsgemäß nach Preis filtern und sortieren.
 
 1. Legen Sie die **[!UICONTROL List Mode]** auf einen der folgenden Werte fest:
 
@@ -102,7 +113,7 @@ Die Paginierungseinstellungen werden oben und unten in der Liste angezeigt und s
 | Kontrolle | Beschreibung |
 |--- |--- |
 | ![Raster anzeigen](./assets/controls-pagination-list-grid.png) | [!UICONTROL View As] - Zeigt die Liste entweder im Raster- oder im Listenformat an. |
-| ![Sortieren nach](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Ändert die Sortierreihenfolge der Liste. Die Eigenschaft &quot;_[!UICONTROL Used for Sorting in Product Listing]_Storefront“ bestimmt, welche [Produktattribute](../catalog/product-attributes.md) zum Sortieren der Liste verwendet werden können. |
+| ![Sortieren nach](./assets/control-pagination-sort-by.png) | [!UICONTROL Sort By] - Ändert die Sortierreihenfolge der Liste. Die Eigenschaft &quot;_[!UICONTROL Used for Sorting in Product Listing]_&#x200B;Storefront“ bestimmt, welche [Produktattribute](../catalog/product-attributes.md) zum Sortieren der Liste verwendet werden können. |
 | ![Pro Seite anzeigen](./assets/control-pagination-show-per-page.png) | [!UICONTROL Show Per Page] - Legt fest, wie viele Produkte pro Seite angezeigt werden. |
 | ![Paginierungs-Links](./assets/control-pagination.png) | Seitenumbruch-Links : Navigations-Links zu anderen Seiten. |
 

@@ -5,12 +5,22 @@ exl-id: ee2f9c27-37d6-4997-8285-1c4c84f8d04c
 feature: B2B, Companies, Customers
 role: Admin, User
 TQID: https://experienceleague.adobe.com/vJaqCSxWxU67fRTwBDDHPGkzpwVma0mhpohWiCLonhM
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 577
@@ -66,13 +76,13 @@ Wenn Sie einen Firmenbenutzer hinzufügen, ist das erste Unternehmen, das Sie mi
 
 Das [!UICONTROL Customers grid] zeigt für jedes Unternehmen, dem der Benutzer zugewiesen ist, eine separate Zeile an. Die folgenden Spalten werden aktualisiert.
 
-- Die Spalte _[!UICONTROL Customer Type]_wird aktualisiert und zeigt die dem Benutzer zugewiesene Rolle an.
+- Die Spalte _[!UICONTROL Customer Type]_&#x200B;wird aktualisiert und zeigt die dem Benutzer zugewiesene Rolle an.
 
-  Wenn der Kunde zum ersten Mal einem Unternehmen zugewiesen wurde, wird die Spalte _[!UICONTROL Customer Type]_von_[!UICONTROL Individual user]_ auf _[!UICONTROL Company User]_aktualisiert.
+  Wenn der Kunde zum ersten Mal einem Unternehmen zugewiesen wurde, wird die Spalte _[!UICONTROL Customer Type]_&#x200B;von&#x200B;_[!UICONTROL Individual user]_ auf _[!UICONTROL Company User]_&#x200B;aktualisiert.
 
-- Die Spalte _[!UICONTROL Group]_ändert sich in den Namen der Kundengruppe (oder des freigegebenen Katalogs), die bzw. der dem Unternehmen zugewiesen ist.
+- Die Spalte _[!UICONTROL Group]_&#x200B;ändert sich in den Namen der Kundengruppe (oder des freigegebenen Katalogs), die bzw. der dem Unternehmen zugewiesen ist.
 
-- In der Spalte _[!UICONTROL Company]_wird der Name des Unternehmens angezeigt, mit dem das Kundenprofil jetzt verknüpft ist.
+- In der Spalte _[!UICONTROL Company]_&#x200B;wird der Name des Unternehmens angezeigt, mit dem das Kundenprofil jetzt verknüpft ist.
 
 ## Zuweisen eines Benutzers zu einem oder mehreren Unternehmenskonten
 
@@ -80,7 +90,7 @@ Wenn Sie einen neuen Benutzer zuweisen, ist das erste Unternehmen, das Sie mit d
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
+1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
 
 1. Wählen Sie im linken Bedienfeld **[!UICONTROL Account Information]** aus.
 
@@ -90,7 +100,7 @@ Wenn Sie einen neuen Benutzer zuweisen, ist das erste Unternehmen, das Sie mit d
 
 ## Unternehmenszuweisung aus einem Benutzerkonto entfernen
 
-Wenn Sie eine Firma aus einem Benutzerprofil entfernen, wird der Benutzerzugriff auf diese Firma aufgehoben. Benutzerdaten bleiben in Admin verfügbar. Wenn Sie alle Unternehmenszuweisungen entfernen, ändert sich die _[!UICONTROL Customer Type]_in *[!UICONTROL Individual user]*Deaktivieren der B2B-Funktionen für das Konto.
+Wenn Sie eine Firma aus einem Benutzerprofil entfernen, wird der Benutzerzugriff auf diese Firma aufgehoben. Benutzerdaten bleiben in Admin verfügbar. Wenn Sie alle Unternehmenszuweisungen entfernen, ändert sich die _[!UICONTROL Customer Type]_&#x200B;in *[!UICONTROL Individual user]*&#x200B;Deaktivieren der B2B-Funktionen für das Konto.
 
 1. Bearbeiten Sie im Kundenraster in der Admin das zu aktualisierende Kundenprofil.
 

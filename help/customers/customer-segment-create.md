@@ -4,11 +4,19 @@ description: Kunden können die mit der Bestellung verbundenen Rückerstattungsi
 exl-id: 8a13271d-d0b5-4fc6-a701-3edfae04bfca
 feature: Customers, Configuration
 TQID: https://experienceleague.adobe.com/D31F3AtNhNhDaTcOHxX4qNos-0MIP-nh0UVszKQh5y0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 978
@@ -20,17 +28,17 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Das Erstellen eines Kundensegments ähnelt dem Erstellen [Warenkorb-Preisregel](../merchandising-promotions/price-rules-cart.md) mit dem Unterschied, dass die Optionen [Kundensegmentspezifische Attribute) ](../customers/customer-segments.md).
+Das Erstellen eines Kundensegments ähnelt dem Erstellen [Warenkorb-Preisregel](../merchandising-promotions/price-rules-cart.md) mit dem Unterschied, dass die Optionen [Kundensegmentspezifische Attribute) &#x200B;](../customers/customer-segments.md).
 
 ![Kundensegmentliste](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_**[!UICONTROL Customer Segments]Raster **_
+_&#x200B;**[!UICONTROL Customer Segments]Raster &#x200B;** _
 
 | Spalte | Beschreibung |
 |--- |--- |
 | **[!UICONTROL ID]** | Die eindeutige ID des Kundensegments. |
 | **[!UICONTROL Segment]** | Der Name des Kundensegments. |
-| **[!UICONTROL Status]** | Gibt an, ob das Kundensegment _[!UICONTROL Active]_oder_[!UICONTROL Inactive]_ ist. |
+| **[!UICONTROL Status]** | Gibt an, ob das Kundensegment _[!UICONTROL Active]_&#x200B;oder&#x200B;_[!UICONTROL Inactive]_ ist. |
 | **[!UICONTROL Website]** | Gibt die Website an, zu der das Kundensegment gehört. |
 
 {style="table-layout:auto"}
@@ -88,7 +96,7 @@ Die folgenden Schritte verwenden ein Beispiel für die Erstellung eines Kundense
 
 1. Klicken Sie auf **[!UICONTROL Save and Continue Edit]**.
 
-   Nach dem Speichern der _[!UICONTROL General Properties]_werden im linken Bedienfeld zusätzliche Optionen verfügbar.
+   Nach dem Speichern der _[!UICONTROL General Properties]_&#x200B;werden im linken Bedienfeld zusätzliche Optionen verfügbar.
 
    ![Segmenteigenschaften](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
@@ -121,7 +129,7 @@ Die möglichen Bedingungen sind in die folgenden Gruppen unterteilt:
 
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Conditions]**.
 
-   Die Standardbedingung beginnt mit dem _[!UICONTROL If ALL of these conditions are TRUE:]_auf der Seite.
+   Die Standardbedingung beginnt mit dem _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;auf der Seite.
 
    ![Bedingungen](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -167,7 +175,7 @@ Die möglichen Bedingungen sind in die folgenden Gruppen unterteilt:
 
 1. Das Kundensegment kann jetzt für Targeting-Promotions, Inhalte und Mailings verwendet werden.
 
-_**[!UICONTROL Matched Customers]Raster **_
+_&#x200B;**[!UICONTROL Matched Customers]Raster &#x200B;** _
 
 | Spalte | Beschreibung |
 |--- |--- |
@@ -197,7 +205,7 @@ _**[!UICONTROL Matched Customers]Raster **_
 
 | Schaltfläche | Beschreibung |
 |--- |--- |
-| **[!UICONTROL Back]** | Kehrt zur _[!UICONTROL Customer Segments]_zurück, ohne die Änderungen zu speichern. |
+| **[!UICONTROL Back]** | Kehrt zur _[!UICONTROL Customer Segments]_&#x200B;zurück, ohne die Änderungen zu speichern. |
 | **[!UICONTROL Delete]** | Löscht das aktuelle Kundensegment. Kunden oder abgeschlossene Bestellungen, die mit dem Kunden im Segment verknüpft sind, werden nicht entfernt. |
 | **[!UICONTROL Reset]** | Setzt alle nicht gespeicherten Änderungen im Kundensegmentformular auf ihre vorherigen Werte zurück. |
 | **[!UICONTROL Refresh Segment Data]** | Aktualisiert die Segmentdaten auf die zuletzt gespeicherten Werte. Relevant, wenn Segmentdaten nicht verfügbar oder veraltet sind. |

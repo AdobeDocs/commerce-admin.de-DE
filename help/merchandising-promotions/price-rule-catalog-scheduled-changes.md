@@ -4,11 +4,22 @@ description: Erfahren Sie, wie Sie Katalogpreisregeln im Rahmen einer Kampagne p
 exl-id: ec4b915f-0a27-438d-b1b0-f1bcd297af6d
 feature: Merchandising, Price Rules, Catalog Management
 TQID: https://experienceleague.adobe.com/OP-QPlP2xYEQYnxy9bWEiQJyCiMqFu-k2YblXvXSscw
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 836
@@ -64,7 +75,7 @@ Wenn eine aktive Preisregel ohne Enddatum erstellt wurde und Sie sie zu einem be
 
    >[!NOTE]
    >
-   >Stellen Sie bei jeder Aktualisierung von Regelinformationsparametern sicher, dass die _[!UICONTROL Status]_korrekt eingestellt ist. Wenn die Änderung zu einer aktiv angewendeten Regel führen soll, setzen Sie den Status auf `Active`.
+   >Stellen Sie bei jeder Aktualisierung von Regelinformationsparametern sicher, dass die _[!UICONTROL Status]_&#x200B;korrekt eingestellt ist. Wenn die Änderung zu einer aktiv angewendeten Regel führen soll, setzen Sie den Status auf `Active`.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
@@ -74,7 +85,7 @@ Wenn eine aktive Preisregel ohne Enddatum erstellt wurde und Sie sie zu einem be
 
 >[!NOTE]
 >
->Wenn eine Kampagne mit mehr als einer Katalogpreisregel verknüpft ist, können Sie die Kampagne nur über das [Inhalts-Staging-Dashboard“ ](../content-design/content-staging-dashboard.md).
+>Wenn eine Kampagne mit mehr als einer Katalogpreisregel verknüpft ist, können Sie die Kampagne nur über das [Inhalts-Staging-Dashboard“ &#x200B;](../content-design/content-staging-dashboard.md).
 
 1. Klicken Sie im **[!UICONTROL Scheduled Changes]** oben auf der Seite auf **[!UICONTROL View/Edit]**.
 
@@ -96,7 +107,7 @@ Wenn eine aktive Preisregel ohne Enddatum erstellt wurde und Sie sie zu einem be
 
    ![Liste geplanter Aktualisierungen für ein bestimmtes Datum](./assets/price-rule-catalog-scheduled-preview-calendar.png){width="600" zoomable="yes"}
 
-1. **[!UICONTROL Date & Time]** Um eine Vorschau eines anderen Tages oder einer anderen Uhrzeit anzuzeigen, klicken Sie auf das ![ „Kalender](../assets/icon-calendar.png) und führen Sie folgende Schritte aus:
+1. **[!UICONTROL Date & Time]** Um eine Vorschau eines anderen Tages oder einer anderen Uhrzeit anzuzeigen, klicken Sie auf das ![&#x200B; „Kalender](../assets/icon-calendar.png) und führen Sie folgende Schritte aus:
 
    - Wählen Sie ein anderes Datum und/oder eine andere Uhrzeit.
 
@@ -118,4 +129,4 @@ Wenn eine aktive Preisregel ohne Enddatum erstellt wurde und Sie sie zu einem be
 
    Um geplante Änderungen für verschiedene Store-Ansichten anzuzeigen, klicken Sie in der Kopfzeile der Seite „Vorschau“ auf **[!UICONTROL Scope]**. Wählen Sie die Website-, Store- oder Store-Ansicht aus, die Sie in der Vorschau anzeigen möchten.
 
-1. Kehren Sie bei Bedarf zum Kalender zurück und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View/Edit]**, um eine weitere geplante Aktualisierung zu öffnen.
+1. Kehren Sie bei Bedarf zum Kalender zurück und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL View/Edit]**, um eine weitere geplante Aktualisierung zu öffnen.

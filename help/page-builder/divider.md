@@ -4,11 +4,20 @@ description: Erfahren Sie mehr über den Inhaltstyp „Unterteilung“, der zum 
 exl-id: e1052170-6d2f-4893-a78b-a845a8b6c0d9
 feature: Page Builder, Page Content
 TQID: https://experienceleague.adobe.com/6OxxIz3QSkS2S8yRRrnrKj8iF60zp-qM3SGZIyJRTeA
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 903
@@ -18,7 +27,7 @@ ht-degree: 0%
 
 # Elemente - Trennlinie
 
-Verwenden Sie _Inhaltstyp_ Trennzeichen“, um eine Regel als visuellen Trennzeichen zwischen Inhaltsabschnitten in der [[!DNL Page Builder] Phase) ](workspace.md#stage). Sie können die Linienfarbe, Stärke und Breite der Trennlinie angeben. Sie können auch die Ausrichtung steuern und die Ränder, den Abstand und das Format des Containerrahmens festlegen. Standardmäßig ist die Trennlinie eine Haarlinie, die die gesamte Breite des Containers ausdehnt, wobei Abstände berücksichtigt werden.
+Verwenden Sie _Inhaltstyp_ Trennzeichen“, um eine Regel als visuellen Trennzeichen zwischen Inhaltsabschnitten in der [[!DNL Page Builder] Phase) &#x200B;](workspace.md#stage). Sie können die Linienfarbe, Stärke und Breite der Trennlinie angeben. Sie können auch die Ausrichtung steuern und die Ränder, den Abstand und das Format des Containerrahmens festlegen. Standardmäßig ist die Trennlinie eine Haarlinie, die die gesamte Breite des Containers ausdehnt, wobei Abstände berücksichtigt werden.
 
 ![Standardunterteilung in einem Container ohne Rahmen](./assets/pb-elements-divider-default.png){width="500" zoomable="yes"}
 
@@ -60,7 +69,7 @@ Obwohl die meisten Container mit Trennlinien unsichtbar sind, wird im folgenden 
 
 ## Ändern der Teilereinstellungen
 
-1. Bewegen Sie den Mauszeiger über den Trennungs-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den Trennungs-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( (](./assets/pb-icon-settings.png){width="20"}) aus.
 
    ![Teiler-Toolbox](./assets/pb-elements-divider-toolbox.png){width="500" zoomable="yes"}
 
@@ -79,7 +88,7 @@ Obwohl die meisten Container mit Trennlinien unsichtbar sind, wird im folgenden 
 
    ![Festlegen der Linienfarbe, -dicke und -breite](./assets/pb-elements-divider-settings-line-color-thickness-width.png){width="600" zoomable="yes"}
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
 
    - Um die Positionierung der Trennlinie innerhalb des übergeordneten Containers zu steuern, wählen Sie die **[!UICONTROL Alignment]**:
 
@@ -152,7 +161,7 @@ Bei einer formatierten Trennlinie mit bestimmten Einstellungen ist es effiziente
 
    ![Duplizierter Trenner](./assets/pb-elements-divider-duplicate.png){width="500" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den neuen Trennungs-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Verschieben![ ((Symbol ](./assets/pb-icon-move.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den neuen Trennungs-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Verschieben![&#x200B; ((Symbol &#x200B;](./assets/pb-icon-move.png){width="20"} ) aus.
 
    ![Verschieben einer Trennlinie](./assets/pb-elements-divider-move.png){width="500" zoomable="yes"}
 

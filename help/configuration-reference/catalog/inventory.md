@@ -4,11 +4,20 @@ description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UI
 exl-id: 80113a31-3585-4ee1-95af-31efc09389eb
 feature: Configuration, Inventory
 TQID: https://experienceleague.adobe.com/kxlKhWRjFDUH97FDenycl4nU1QdBWzceDCKfhZ0MTAc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1225
@@ -75,8 +84,8 @@ ht-degree: 0%
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Run asynchronously] | Global | Bestimmt, ob Massenvorgänge asynchron für Massenproduktaktionen ausgeführt werden, einschließlich [Massenzuweisung](../../inventory-management/bulk-assignment.md) Zuweisen von Quellen, Aufheben der Zuweisung von Quellen und [Übertragen des Inventars an die Quelle](../../inventory-management/inventory-transfer.md). Sie sammelt Massenaktionen bis zum _[!UICONTROL Asynchronous batch size]_und führt diese Aktionen aus. Diese Funktion ist standardmäßig deaktiviert. Es wird empfohlen, vor der Aktivierung die Leistung mit Massenaktionen zu überprüfen. Optionen:<br/>**`Yes`**: Führt alle Massenvorgänge für [!DNL Inventory Management] asynchron aus. Zur Aktivierung müssen Sie einen Manager für asynchrone Warteschlangen konfigurieren.<br/>**`No`**- Standard. Führt keine Massenvorgänge asynchron aus. |
-| [!UICONTROL Asynchronous batch size] | Global | Legen Sie **[!UICONTROL Run asynchronously]** auf `Yes` fest, um einen Wert für _[!UICONTROL Asynchronous batch size]_Feld einzugeben. <br/>Die standardmäßige Batch-Größe ist 100. Wenn Massenprozesse diesen Wert erreichen, werden sie ausgeführt. |
+| [!UICONTROL Run asynchronously] | Global | Bestimmt, ob Massenvorgänge asynchron für Massenproduktaktionen ausgeführt werden, einschließlich [Massenzuweisung](../../inventory-management/bulk-assignment.md) Zuweisen von Quellen, Aufheben der Zuweisung von Quellen und [Übertragen des Inventars an die Quelle](../../inventory-management/inventory-transfer.md). Sie sammelt Massenaktionen bis zum _[!UICONTROL Asynchronous batch size]_&#x200B;und führt diese Aktionen aus. Diese Funktion ist standardmäßig deaktiviert. Es wird empfohlen, vor der Aktivierung die Leistung mit Massenaktionen zu überprüfen. Optionen:<br/>**`Yes`**: Führt alle Massenvorgänge für [!DNL Inventory Management] asynchron aus. Zur Aktivierung müssen Sie einen Manager für asynchrone Warteschlangen konfigurieren.<br/>**`No`**- Standard. Führt keine Massenvorgänge asynchron aus. |
+| [!UICONTROL Asynchronous batch size] | Global | Legen Sie **[!UICONTROL Run asynchronously]** auf `Yes` fest, um einen Wert für _[!UICONTROL Asynchronous batch size]_&#x200B;Feld einzugeben. <br/>Die standardmäßige Batch-Größe ist 100. Wenn Massenprozesse diesen Wert erreichen, werden sie ausgeführt. |
 
 {style="table-layout:auto"}
 
@@ -113,7 +122,7 @@ ht-degree: 0%
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Google API key] | Global | Geben Sie den Google-API-Schlüssel für den Google MAP-Provider ein. Der Schlüssel stammt aus dem [!DNL Google Maps Platform] und sollte [!DNL Geocoding API] und [!DNL Distance Matrix API] aktiviert haben. Weitere Informationen finden Sie unter [Konfigurieren des Distance Priority ](../../inventory-management/distance-priority-algorithm.md#configure-the-distance-priority-algorithm)) im _Inventory management-Handbuch_. |
+| [!UICONTROL Google API key] | Global | Geben Sie den Google-API-Schlüssel für den Google MAP-Provider ein. Der Schlüssel stammt aus dem [!DNL Google Maps Platform] und sollte [!DNL Geocoding API] und [!DNL Distance Matrix API] aktiviert haben. Weitere Informationen finden Sie unter [Konfigurieren des Distance Priority &#x200B;](../../inventory-management/distance-priority-algorithm.md#configure-the-distance-priority-algorithm)) im _Inventory management-Handbuch_. |
 | [!UICONTROL Computation mode] | Global | Bestimmt die Richtungen und Pfade zur Berechnung des Abstands von der Versandadresse und allen dem Lager zugewiesenen Quellen. Standardmäßig verwenden Berechnungen den Fahrmodus . Optionen: <br/>**`Driving`**- Standardeinstellung, fordert Standard-Fahrtrichtungen über das Straßennetz an.<br/>**`Walking`** - Fragen Sie nach einer Wegbeschreibung über Fußgängerwege und Bürgersteige (sofern verfügbar). <br/>**`Bicycling`**- Beantragt Radwege über Radwege und bevorzugte Straßen (derzeit nur in den USA und einigen kanadischen Städten verfügbar). |
 | [!UICONTROL Value] | Global | Gibt an, was für die Entfernung und Zeit der Quellorte berechnet und an die Versandzieladresse zurückgegeben werden soll. Der Distance Priority Algorithm empfiehlt die Quelle mit der kürzesten Entfernung oder kürzesten Zeit zur Versandzieladresse, was eine schnellere und möglicherweise billigere Erfüllung von Sendungen ermöglicht. Optionen: <br/>**`Distance`**- Gibt die Entfernung zwischen Punkten in Metriken (Kilometer und Meter) oder in „imperial“ (Meilen und Füße) zurück.<br/>**`Time to Destination`** - Gibt die benötigte Zeit zurück, um von den Quellorten zur Lieferadresse zu reisen, in Stunden und Minuten. |
 

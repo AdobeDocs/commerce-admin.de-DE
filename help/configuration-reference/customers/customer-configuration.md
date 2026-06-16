@@ -4,12 +4,26 @@ description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UI
 exl-id: 596359d7-3891-4e0c-9604-3647032188fd
 feature: Configuration, Customers
 TQID: https://experienceleague.adobe.com/eZF-dmYG4p8BwVNA5SWtj-3y2flfLP1H9CRcPsd1tFI
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1908
@@ -64,7 +78,7 @@ ht-degree: 0%
 | [!UICONTROL Default Welcome Email] | Shop-Ansicht | Gibt die E-Mail-Vorlage an, die für die standardmäßige _Begrüßungs-)_ verwendet wird. |
 | [!UICONTROL Default Welcome Email Without Password] | Shop-Ansicht | Eine alternative Willkommens-E-Mail-Vorlage, die für neue, vom Administrator erstellte Kundenkonten verwendet wird, denen noch kein Kennwort zugewiesen wurde. |
 | [!UICONTROL Email Sender] | Shop-Ansicht | Identifiziert den Store-Kontakt, der als Absender der Begrüßungs-E-Mail angezeigt wird. |
-| [!UICONTROL Require Emails Confirmation] | Website | Legt fest, ob eine Anforderung zum Erstellen eines Kontos eine Bestätigung vom Kunden erfordert. Optionen: `Yes` / `No`. <br/><br/> _**Hinweis:**_ Ab Version 2.4.7 müssen Kunden unabhängig vom Browser ihre E-Mail-Adresse und ihr Passwort erneut eingeben, um sich nach der E-Mail-Bestätigung bei ihrem Konto anzumelden. |
+| [!UICONTROL Require Emails Confirmation] | Website | Legt fest, ob eine Anforderung zum Erstellen eines Kontos eine Bestätigung vom Kunden erfordert. Optionen: `Yes` / `No`. <br/><br/> _&#x200B;**Hinweis:**&#x200B;_ Ab Version 2.4.7 müssen Kunden unabhängig vom Browser ihre E-Mail-Adresse und ihr Passwort erneut eingeben, um sich nach der E-Mail-Bestätigung bei ihrem Konto anzumelden. |
 | [!UICONTROL Confirmation Link Email] | Shop-Ansicht | Identifiziert die E-Mail-Vorlage, die für die Bestätigungs-E-Mail verwendet wird. Standardvorlage: `New account confirmation key` |
 | [!UICONTROL Welcome Email] | Shop-Ansicht | Identifiziert die E-Mail-Vorlage, die für die Begrüßungsnachricht verwendet wird, die nach der Bestätigung des Kontos gesendet wird. |
 | [!UICONTROL Generate Human-Friendly Customer ID] | Global | Bestimmt, ob das Feld, das zum Eingeben und Speichern der MwSt.-ID-Nummer verwendet wird, in der Storefront sichtbar ist. Optionen: `Yes` / `No` |
@@ -221,8 +235,8 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable CAPTCHA on Storefront] | Website | Aktiviert CAPTCHA in den Stores, die mit der Commerce-Website verknüpft sind. Optionen: `Yes` / `No` |
 | [!UICONTROL Font] | Website | Bestimmt die Schriftart, die für die Anzeige von CAPTCHA verwendet wird. Um Ihre eigene Schriftart hinzuzufügen, fügen Sie die Schriftartdatei in dasselbe Verzeichnis wie Ihre Commerce-Installation ein und fügen Sie die Deklaration zur `config.xml` unter `app/code/Magento/Captcha/etc` hinzu. |
-| [!UICONTROL Forms] | Website | Bestimmt die Formulare, in denen CAPTCHA verwendet wird. Optionen: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (siehe [Sicherheits-Patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)) <br />`Add Gift Card Code` ](../../assets/adobe-logo.svg) ![Adobe Commerce<br />`Create company` ](../../assets/adobe-logo.svg) ![Adobe Commerce <br /><br />_**Hinweis:**_ Die Formulare „Benutzer erstellen“, „Kennwort vergessen“ und „Payflow Pro“ sind immer aktiviert, wenn sie ausgewählt sind. |
-| [!UICONTROL Displaying Mode] | Website | Bestimmt, wann das CAPTCHA angezeigt wird. Optionen: <br/>**`Always`**- CAPTCHA ist immer für die Anmeldung erforderlich.<br/>**`After number of attempts to login`** - Diese Option gilt nur für das Admin-Anmeldeformular. Wenn diese Option ausgewählt ist, wird das Feld _[!UICONTROL Number of Unsuccessful Attempts to Login]_angezeigt. Geben Sie die Anzahl der Anmeldeversuche ein, die Sie zulassen möchten. Ein Wert von `0` (null) ähnelt der Einstellung von [!UICONTROL Displaying Mode] auf `Always`.<br/>_**Hinweis:**_Um die Anzahl der erfolglosen Anmeldeversuche zu verfolgen, wird jeder Anmeldeversuch unter einer E-Mail-Adresse und von einer IP-Adresse gezählt. Die maximale Anzahl von Anmeldeversuchen, die von derselben IP-Adresse aus zulässig sind, beträgt 1.000. Diese Einschränkung gilt nur, wenn CAPTCHA aktiviert ist. |
+| [!UICONTROL Forms] | Website | Bestimmt die Formulare, in denen CAPTCHA verwendet wird. Optionen: <br />`Applying Coupon Code` <br />`Checkout/Placing Order`<br />`Create user` <br />`Login` <br />`Forgot password` <br />`Contact Us` <br />`Change password` <br />`Share Wishlist Form` <br />`Send to Friend Form` <br />`Payflow Pro` (siehe [Sicherheits-Patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.html)) <br />`Add Gift Card Code` ![&#128279;](../../assets/adobe-logo.svg) ![Adobe Commerce<br />`Create company` &#x200B;](../../assets/adobe-logo.svg) Adobe Commerce <br /><br />_&#x200B;**Hinweis:**&#x200B;_ Die Formulare „Benutzer erstellen“, „Kennwort vergessen“ und „Payflow Pro“ sind immer aktiviert, wenn sie ausgewählt sind. |
+| [!UICONTROL Displaying Mode] | Website | Bestimmt, wann das CAPTCHA angezeigt wird. Optionen: <br/>**`Always`**- CAPTCHA ist immer für die Anmeldung erforderlich.<br/>**`After number of attempts to login`** - Diese Option gilt nur für das Admin-Anmeldeformular. Wenn diese Option ausgewählt ist, wird das Feld _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;angezeigt. Geben Sie die Anzahl der Anmeldeversuche ein, die Sie zulassen möchten. Ein Wert von `0` (null) ähnelt der Einstellung von [!UICONTROL Displaying Mode] auf `Always`.<br/>_&#x200B;**Hinweis:**&#x200B;_Um die Anzahl der erfolglosen Anmeldeversuche zu verfolgen, wird jeder Anmeldeversuch unter einer E-Mail-Adresse und von einer IP-Adresse gezählt. Die maximale Anzahl von Anmeldeversuchen, die von derselben IP-Adresse aus zulässig sind, beträgt 1.000. Diese Einschränkung gilt nur, wenn CAPTCHA aktiviert ist. |
 | [!UICONTROL Number of Unsuccessful Attempts to Login] | Website | Gibt an, wie oft sich ein Kunde anmelden kann, bevor das Konto gesperrt wird. |
 | [!UICONTROL CAPTCHA Timeout (minutes)] | Website | Bestimmt die Lebensdauer des aktuellen CAPTCHA. Wenn das CAPTCHA abläuft, muss der Benutzer die Seite neu laden. |
 | [!UICONTROL Number of Symbols] | Website | Bestimmt die Anzahl der Symbole, die im CAPTCHA angezeigt werden, mit maximal 8. Sie können auch einen Bereich angeben, z. B. 5-8. |

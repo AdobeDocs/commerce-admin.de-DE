@@ -3,11 +3,18 @@ title: Menü [!UICONTROL Sales]
 description: Commerce Admin enthält das Menü [!UICONTROL Sales] , das je nach Position im Workflow Zugriff auf Tools zur Bearbeitung von Aufträgen bietet.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
 TQID: https://experienceleague.adobe.com/mliJ1Q1-DEkR5rAoIRLQ9qBxQopBytjicPiqzWTg7ac
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 579
@@ -73,7 +80,7 @@ Eine [Gutschrift](credit-memos.md) ist ein Dokument, das den Betrag anzeigt, der
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
-Kunden[ die einen Artikel zum Austausch oder zur Rückerstattung ](returns.md) möchten, kann eine „Rücksendung von Waren“ (RMA) erteilt werden. RMAs können für die Produktarten „Einfach“, „Gruppiert“, „Konfigurierbar“ und „Bundle“ ausgestellt werden. RMAs sind jedoch nicht für virtuelle und herunterladbare Produkte oder Geschenkgutscheine verfügbar.
+Kunden[&#x200B; die einen Artikel zum Austausch oder zur Rückerstattung &#x200B;](returns.md) möchten, kann eine „Rücksendung von Waren“ (RMA) erteilt werden. RMAs können für die Produktarten „Einfach“, „Gruppiert“, „Konfigurierbar“ und „Bundle“ ausgestellt werden. RMAs sind jedoch nicht für virtuelle und herunterladbare Produkte oder Geschenkgutscheine verfügbar.
 
 ### [!UICONTROL Billing Agreements]
 

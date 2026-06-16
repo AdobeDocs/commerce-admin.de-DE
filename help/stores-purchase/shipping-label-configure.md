@@ -4,11 +4,19 @@ description: Erfahren Sie, wie Sie den Store zum Generieren von Versandkennzeich
 exl-id: 0693d74b-8b36-4a36-8739-c9fe5a934ff0
 feature: Shipping/Delivery, Orders
 TQID: https://experienceleague.adobe.com/ypUZN4-Oz4bkYrJ0TQCnHmxc1t14PMNI7z707OAinfQ
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 594
@@ -33,7 +41,7 @@ Die folgenden Einstellungen müssen auf Produktebene und in der Konfiguration je
 
 ## Schritt 1: Überprüfen Sie das Herstellungsland
 
-Das Herstellungsland ist für alle Produkte, die von USPS und FedEx international versendet werden, erforderlich. Wenn Sie über viele Produkte verfügen, die aktualisiert werden sollten, können [ die Aktualisierungen entweder ](../systems/data-import.md) (importieren) oder das Inventarraster verwenden, um mehrere Datensätze zu aktualisieren.
+Das Herstellungsland ist für alle Produkte, die von USPS und FedEx international versendet werden, erforderlich. Wenn Sie über viele Produkte verfügen, die aktualisiert werden sollten, können [&#x200B; die Aktualisierungen entweder &#x200B;](../systems/data-import.md) (importieren) oder das Inventarraster verwenden, um mehrere Datensätze zu aktualisieren.
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 

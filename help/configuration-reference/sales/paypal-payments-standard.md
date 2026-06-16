@@ -4,11 +4,22 @@ description: Überprüfen Sie die Konfigurationseinstellungen im Abschnitt [!UIC
 exl-id: 846d9b6f-92b9-4610-b894-625f67f4cff8
 feature: Configuration, Payments
 TQID: https://experienceleague.adobe.com/ug4g3aE3n-2wOikBNn97TD4-WBEjq0RJI1Gj1C0lDIc
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1267
@@ -21,7 +32,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**PSD2-Anforderungen:**<br/>
->Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2}-](../../getting-started/compliance-payment-services-directive.md) nicht erfüllen. [!DNL PayPal Payments Standard] müssen keine Maßnahmen ergreifen, um PSD2 zu erfüllen, da alle Anforderungen von PayPal abgewickelt werden.
+>Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2&rbrace;-](../../getting-started/compliance-payment-services-directive.md) nicht erfüllen. [!DNL PayPal Payments Standard] müssen keine Maßnahmen ergreifen, um PSD2 zu erfüllen, da alle Anforderungen von PayPal abgewickelt werden.
 
 {{config}}
 
@@ -88,7 +99,7 @@ ht-degree: 0%
 | [!UICONTROL Shortcut Buttons Flavor] | Shop-Ansicht | Bestimmt den Typ des Bildes, das für die PayPal-Akzeptanzschaltfläche verwendet wird. Optionen: <br/>**`Dynamic`**- (Empfohlen) Zeigt ein Bild an, das dynamisch vom PayPal-Server geändert werden kann.<br/>**`Static`** - Zeigt ein statisches Bild an, das nicht dynamisch geändert werden kann. |
 | [!UICONTROL Enable PayPal Guest Checkout] | Website | Ermöglicht Kunden, die keine PayPal-Konten haben, Käufe mit PayPal Express Checkout zu tätigen. Optionen: `Yes` / `No` |
 | [!UICONTROL Require Customer's Billing Address] | Website | Bestimmt, ob die Rechnungsadresse des Kunden erforderlich ist. Optionen: `Yes` / `No` / `For Virtual Quotes Only` |
-| [!UICONTROL Billing Agreement Signup] | Website | Legt fest, ob Kundinnen und Kunden mit Ihrem [ einen ](../../stores-purchase/paypal-billing-agreements.md) abschließen können. Optionen: <br/>**`Auto`**- Der Kunde kann sich während des Express-Checkouts für einen Abrechnungsvertrag anmelden.<br/>**`Ask Customer`** - Kunden werden gefragt, ob sie sich für eine Abrechnungsvereinbarung anmelden möchten. <br/>**`Never`**- Kunden wird nicht angeboten, sich für eine Abrechnungsvereinbarung zu registrieren. |
+| [!UICONTROL Billing Agreement Signup] | Website | Legt fest, ob Kundinnen und Kunden mit Ihrem [&#x200B; einen &#x200B;](../../stores-purchase/paypal-billing-agreements.md) abschließen können. Optionen: <br/>**`Auto`**- Der Kunde kann sich während des Express-Checkouts für einen Abrechnungsvertrag anmelden.<br/>**`Ask Customer`** - Kunden werden gefragt, ob sie sich für eine Abrechnungsvereinbarung anmelden möchten. <br/>**`Never`**- Kunden wird nicht angeboten, sich für eine Abrechnungsvereinbarung zu registrieren. |
 | [!UICONTROL Skip Order Review Step] | Website | Legt fest, ob Kundinnen und Kunden die Transaktion über die PayPal-Website abschließen können oder verpflichtet sind, zu Ihrem Geschäft zurückzukehren und den Schritt zur Bestellüberprüfung auszuführen, bevor sie die Bestellung übermitteln. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
@@ -140,7 +151,7 @@ ht-degree: 0%
 | [!UICONTROL PayPal Merchant Pages Style] |  |  |
 | [!UICONTROL Page Style] | Shop-Ansicht | Bestimmt das Erscheinungsbild Ihrer PayPal-Händlerseite. Zulässige Werte: <br/>**`paypal`**- Verwendet den PayPal-Seitenstil.<br/>**`primary`** - Verwendet den Seitenstil, den Sie in Ihrem Kontoprofil als „primären“ Stil identifiziert haben. <br/>**`your_custom_value`**- Verwendet einen benutzerdefinierten Zahlungsseitenstil, der in Ihrem Kontoprofil angegeben ist. |
 | [!UICONTROL Header Image URL] | Shop-Ansicht | Die URL des Bildes, das oben links auf der Kaufbestätigungsseite angezeigt wird. Die maximale Größe beträgt 750 x 90 Pixel. <br/><br/>**_Hinweis:_** PayPal empfiehlt, das Bild auf einem sicheren (https) Server zu speichern. Andernfalls kann der Browser des Kunden warnen, dass „die Seite sowohl sichere als auch nicht sichere Elemente enthält“. |
-| [!UICONTROL Header Image Background Color] | Shop-Ansicht | Der aus sechs Zeichen [Hexadezimalfarbe) bestehende ](https://en.wikipedia.org/wiki/Web_colors) für die Hintergrundfarbe des Headers auf der Kaufbestätigungsseite. Sie können den Code entweder in Groß- oder Kleinbuchstaben eingeben. |
+| [!UICONTROL Header Image Background Color] | Shop-Ansicht | Der aus sechs Zeichen [Hexadezimalfarbe) bestehende &#x200B;](https://en.wikipedia.org/wiki/Web_colors) für die Hintergrundfarbe des Headers auf der Kaufbestätigungsseite. Sie können den Code entweder in Groß- oder Kleinbuchstaben eingeben. |
 | [!UICONTROL Header Image Border Color] | Shop-Ansicht | Der sechsstellige hexadezimale Farbcode für den Zwei-Pixel-Rahmen um die Kopfzeile. |
 | [!UICONTROL Page Background Color] | Shop-Ansicht | Der sechsstellige hexadezimale Farbcode für die Hintergrundfarbe der Checkout-Seite, die hinter der Kopfzeile und dem Zahlungsformular angezeigt wird. |
 

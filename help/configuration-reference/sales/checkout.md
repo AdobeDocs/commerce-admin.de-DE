@@ -4,11 +4,20 @@ description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UI
 exl-id: a912beb0-37a9-407b-83bd-dc6cd0554dc4
 feature: Configuration, Checkout
 TQID: https://experienceleague.adobe.com/clTASsRXJy-IJagl7oAV3LuviEosmuIi4rYEjMpjbIE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 648
@@ -30,7 +39,7 @@ ht-degree: 0%
 |------------------------------------------------------------------|--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Guest Checkout Login] | Shop-Ansicht | Aktivieren Sie diese Einstellung, damit nicht authentifizierte Benutzer (Storefront und APIs) abfragen können, ob bereits eine E-Mail-Adresse mit einem Kundenkonto verknüpft ist. Dies kann verwendet werden, um den Checkout-Workflow für Gäste zu verbessern, indem eine Anmeldeaufforderung angezeigt wird, wenn die eingegebene E-Mail-Adresse bereits bei einem Kundenkonto registriert ist, aber zum Preis der Offenlegung von Informationen für nicht authentifizierte Benutzer.  Optionen: `Yes` / `No` |
 | [!UICONTROL Enable Onepage Checkout] | Shop-Ansicht | Bestimmt, ob [Einseitiger Auscheck](../../stores-purchase/checkout-process.md#checkout-options) das standardmäßige Auscheckformat ist. Optionen: `Yes` / `No` |
-| [!UICONTROL Allow Guest Checkout] | Shop-Ansicht | Legt fest, ob Gäste für ein Konto [ Ihrem Geschäft ](../../stores-purchase/checkout-guest.md) (Checkout ohne Registrierung) durchlaufen können. Optionen: `Yes` / `No` |
+| [!UICONTROL Allow Guest Checkout] | Shop-Ansicht | Legt fest, ob Gäste für ein Konto [&#x200B; Ihrem Geschäft &#x200B;](../../stores-purchase/checkout-guest.md) (Checkout ohne Registrierung) durchlaufen können. Optionen: `Yes` / `No` |
 | [!UICONTROL Enable Terms and Conditions] | Shop-Ansicht | Legt fest, ob Kunden vor dem Kauf den [Geschäftsbedingungen](../../stores-purchase/terms-and-conditions.md) des Verkaufs zustimmen müssen. Optionen: `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | Shop-Ansicht | Bestimmt den Speicherort der Rechnungsadresse während des Checkouts. Optionen: `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | Shop-Ansicht | Bestimmt die maximale Anzahl von Elementen, die während des Checkouts in der _Bestellzusammenfassung_ angezeigt werden können. Der Standardwert lautet `10`. |
@@ -47,7 +56,7 @@ ht-degree: 0%
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Quote Lifetime (days)] | Website | Bestimmt die [Lebensdauer eines angegebenen ](../../stores-purchase/cart-configuration.md#quote-lifetime) in Tagen. |
+| [!UICONTROL Quote Lifetime (days)] | Website | Bestimmt die [Lebensdauer eines angegebenen &#x200B;](../../stores-purchase/cart-configuration.md#quote-lifetime) in Tagen. |
 | [!UICONTROL After Adding a Product Redirect to Shopping Cart] | Shop-Ansicht | Bestimmt, ob die [Warenkorbseite](../../stores-purchase/cart-configuration.md#redirect-to-cart) unmittelbar nach dem Hinzufügen eines Produkts zum Warenkorb angezeigt wird. Optionen: `Yes` / `No` |
 | [!UICONTROL Number of Items to Display Pager] | Shop-Ansicht | Bestimmt die Anzahl der Artikel im Warenkorb, bevor der Pager ausgelöst wird. Standardwert: `20` |
 | [!UICONTROL Show Cross-sell Items in the Shopping Cart] | Shop-Ansicht | Gibt an, ob [Crosssell-Artikel](../../catalog/related-products-up-sells-cross-sells.md#cross-sells) im Warenkorb angezeigt werden, sodass Kunden zusätzliche Verkaufsoptionen erhalten. Optionen: `Yes` (Standard) / `No` |

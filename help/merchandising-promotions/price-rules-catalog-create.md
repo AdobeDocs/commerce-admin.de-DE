@@ -4,11 +4,22 @@ description: Erfahren Sie, wie Sie eine Katalogpreisregel erstellen, die einen R
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
 TQID: https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1730
@@ -26,7 +37,7 @@ Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New Rule]**.
 
-   Der Abschnitt _[!UICONTROL Rule Information]_enthält erweiterbare Abschnitte für **[!UICONTROL Conditions]**und **[!UICONTROL Actions]**.
+   Der Abschnitt _[!UICONTROL Rule Information]_&#x200B;enthält erweiterbare Abschnitte für **[!UICONTROL Conditions]**&#x200B;und **[!UICONTROL Actions]**.
 
    ![Katalogpreisregel - Informationen](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -49,7 +60,7 @@ Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden
 
 1. ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Geben Sie **[!UICONTROL From]** und **[!UICONTROL To]** ein, um zu bestimmen, wann die Preisregel in Kraft ist.
 
-   Sie können die Daten eingeben oder die **[!UICONTROL Calendar]** (![Kalendersymbol) ](../assets/icon-calendar.png), um die Daten auszuwählen. Wenn Sie die Datumsangaben leer lassen, wird die Regel beim Speichern der Preisregel aktiviert.
+   Sie können die Daten eingeben oder die **[!UICONTROL Calendar]** (![Kalendersymbol) &#x200B;](../assets/icon-calendar.png), um die Daten auszuwählen. Wenn Sie die Datumsangaben leer lassen, wird die Regel beim Speichern der Preisregel aktiviert.
 
    >[!NOTE]
    >
@@ -213,9 +224,9 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
 1. Aktualisieren von Eigenschaften für eine Regel:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die _[!UICONTROL Rule Information]_anzuzeigen.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die _[!UICONTROL Rule Information]_&#x200B;anzuzeigen.
 
-   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die _[!UICONTROL Rule Information]_anzuzeigen.
+   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die _[!UICONTROL Rule Information]_&#x200B;anzuzeigen.
 
 1. Testen Sie die Regel, um sicherzustellen, dass sie korrekt funktioniert.
 

@@ -4,11 +4,20 @@ description: Erfahren Sie, wie Sie Rechnungen erstellen und drucken, um die Auft
 exl-id: 6141b182-1467-4416-a07f-864333318428
 feature: Invoices, Admin Workspace
 TQID: https://experienceleague.adobe.com/EGRiNGxTpww0k17-XeVPyrR5h1WDSZnseov8L-Yej-w
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1208
@@ -18,7 +27,7 @@ ht-degree: 0%
 
 # Rechnungen
 
-Eine Rechnung ist ein Datensatz über die Zahlung für eine Bestellung. Für [ Bestellung können mehrere Rechnungen erstellt ](#create-an-invoice). Jede Rechnung kann so viele oder so wenige der von Ihnen angegebenen gekauften Produkte enthalten. Sie können auch [druckfertige PDF-Rechnungen](#print-invoices) als Verkaufsdokumente für Ihre Kunden erstellen.
+Eine Rechnung ist ein Datensatz über die Zahlung für eine Bestellung. Für [&#x200B; Bestellung können mehrere Rechnungen erstellt &#x200B;](#create-an-invoice). Jede Rechnung kann so viele oder so wenige der von Ihnen angegebenen gekauften Produkte enthalten. Sie können auch [druckfertige PDF-Rechnungen](#print-invoices) als Verkaufsdokumente für Ihre Kunden erstellen.
 
 Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _Vorgänge_ > **Rechnungen**, um das Raster _Rechnungen_ zu öffnen und auf Ihre erstellten Rechnungen zuzugreifen.
 
@@ -77,7 +86,7 @@ Bevor die Bestellung gedruckt werden kann, muss eine Rechnung für die Bestellun
 
    >[!NOTE]
    >
-   >Die Option _[!UICONTROL Invoice]_wird nicht angezeigt, wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) für Ihre bestimmte [Zahlungsmethode](../configuration-reference/sales/payment-methods.md) auf `Authorize and Capture` festgelegt ist, wodurch automatisch eine Rechnung generiert wird. Dies ist auch der Fall, wenn die Bestellung aufgegeben und die Zahlungsaktion für Ihre Zahlungsmethode auf `Authorize` gesetzt und die Bestellung fakturiert wird.
+   >Die Option _[!UICONTROL Invoice]_&#x200B;wird nicht angezeigt, wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) für Ihre bestimmte [Zahlungsmethode](../configuration-reference/sales/payment-methods.md) auf `Authorize and Capture` festgelegt ist, wodurch automatisch eine Rechnung generiert wird. Dies ist auch der Fall, wenn die Bestellung aufgegeben und die Zahlungsaktion für Ihre Zahlungsmethode auf `Authorize` gesetzt und die Bestellung fakturiert wird.
 
    ![Rechnung - Kundenauftrag](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -137,7 +146,7 @@ Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor jedoch eine Re
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Suchen Sie im _[!UICONTROL Invoices]_die Rechnung und klicken Sie in der Spalte_ Aktion _auf **[!UICONTROL View]**.
+1. Suchen Sie im _[!UICONTROL Invoices]_&#x200B;die Rechnung und klicken Sie in der Spalte_ Aktion _auf **[!UICONTROL View]**.
 
 1. Klicken Sie oben auf der Rechnung auf **[!UICONTROL Print]** , um eine PDF der Rechnung zu generieren.
 
@@ -147,7 +156,7 @@ Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor jedoch eine Re
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
 
-1. Aktivieren Sie im _[!UICONTROL Invoices]_das Kontrollkästchen für jede zu druckende Rechnung.
+1. Aktivieren Sie im _[!UICONTROL Invoices]_&#x200B;das Kontrollkästchen für jede zu druckende Rechnung.
 
 1. Setzen Sie das **[!UICONTROL Actions]** auf `PDF Invoices`.
 

@@ -4,12 +4,22 @@ description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UI
 exl-id: 330eabeb-edab-4a9f-968e-37d0b95cdedb
 feature: Configuration, Companies
 TQID: https://experienceleague.adobe.com/pfLr7IPJq34ChjpQYqJdmnl8oqUfpIsv8-nXKrWGsvI
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 843
@@ -39,7 +49,7 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Allow Company Registration from the Storefront] | Website | Legt fest, ob Besucher in Ihrem Geschäft die Wahl haben[ sich für ](../../customers/customer-sign-in.md) Unternehmenskonto oder ein einzelnes Konto zu registrieren. Optionen: `Yes` / `No` |
+| [!UICONTROL Allow Company Registration from the Storefront] | Website | Legt fest, ob Besucher in Ihrem Geschäft die Wahl haben[&#x200B; sich für &#x200B;](../../customers/customer-sign-in.md) Unternehmenskonto oder ein einzelnes Konto zu registrieren. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}
 
@@ -100,7 +110,7 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 | [!UICONTROL Send Email Copy Method] | Shop-Ansicht | Die E-Mail-Methode, die zum Senden der Kopie der Gutschriftsänderungsbenachrichtigung verwendet wird. Optionen: `Bcc` / `Separate Email` |
 | [!UICONTROL Allocated Email Template] | Shop-Ansicht | Die E-Mail-Vorlage, die bei der Zuordnung des Firmenguthabens standardmäßig verwendet wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Credit Limit Allocated` |
 | [!UICONTROL Updated Email Template] | Shop-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn das Kreditlimit eines Unternehmens aktualisiert wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Credit Limit Updated` |
-| [!UICONTROL Reimbursed Email Template] | Shop-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird[ wenn eine ](../../b2b/credit-company.md#apply-a-payment-to-a-company-account) (Rückerstattung) auf das Guthaben des Unternehmens gutgeschrieben wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Credit Reimbursed` |
+| [!UICONTROL Reimbursed Email Template] | Shop-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird[&#x200B; wenn eine &#x200B;](../../b2b/credit-company.md#apply-a-payment-to-a-company-account) (Rückerstattung) auf das Guthaben des Unternehmens gutgeschrieben wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Credit Reimbursed` |
 | [!UICONTROL Refunded Email Template] | Shop-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn ein Betrag aus einer Bestellung auf das Firmenguthaben zurückerstattet wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Order Refunded to Company Credit` |
 | [!UICONTROL Reverted Email Template] | Shop-Ansicht | Die E-Mail-Vorlage, die standardmäßig verwendet wird, wenn eine Bestellung auf einen Firmenkredit zurückgesetzt wird. Diese E-Mail wird an den Unternehmensadministrator gesendet. Standardvorlage: `Order Reverted to Company Credit` |
 

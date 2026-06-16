@@ -4,11 +4,20 @@ description: Sehen Sie sich ein Beispiel für den Import von Produktdaten für e
 exl-id: bb8b2a6d-867e-4ab2-bdfd-98a01d79c457
 feature: Products, Data Import/Export
 TQID: https://experienceleague.adobe.com/wTnZwGiENB0-ACjShAkmfx5lP5ToWy7QwrkYy9YcH34
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 950
@@ -74,7 +83,7 @@ Im folgenden Beispiel fügen Sie eine Reihe von Produktvarianten für eine neue 
 
    - Legen Sie **[!UICONTROL Export File Format]** auf `CSV` fest.
 
-1. Scrollen Sie unter _[!UICONTROL Entity Attributes]_nach unten oder verwenden Sie den Attributbeschriftungsfilter, um das **[!UICONTROL SKU]**zu finden. Gehen Sie dann wie folgt vor:
+1. Scrollen Sie unter _[!UICONTROL Entity Attributes]_&#x200B;nach unten oder verwenden Sie den Attributbeschriftungsfilter, um das **[!UICONTROL SKU]**&#x200B;zu finden. Gehen Sie dann wie folgt vor:
 
    - Geben Sie die SKU des konfigurierbaren Produkts ein, das Sie exportieren möchten, und klicken Sie auf **[!UICONTROL Continue]**.
 
@@ -158,13 +167,13 @@ Im folgenden Beispiel wird der Satz von XML-Größen kopiert und in das Arbeitsb
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL System]** > _[!UICONTROL Data Transfer]_>**[!UICONTROL Import]**.
 
-1. Legen Sie unter _[!UICONTROL Import Settings]_**[!UICONTROL Entity Type]**auf `Products` fest.
+1. Legen Sie unter _[!UICONTROL Import Settings]_&#x200B;**[!UICONTROL Entity Type]**&#x200B;auf `Products` fest.
 
-1. Legen Sie unter _[!UICONTROL Import Behavior]_**[!UICONTROL Import Behavior]**auf `Add/Update` fest.
+1. Legen Sie unter _[!UICONTROL Import Behavior]_&#x200B;**[!UICONTROL Import Behavior]**&#x200B;auf `Add/Update` fest.
 
    ![Verhalten beim Datenimport](./assets/data-transfer-configurable-product-import-behavior.png){width="600" zoomable="yes"}
 
-1. Klicken Sie unter _[!UICONTROL File to Import]_auf **[!UICONTROL Choose File]**und navigieren Sie zur CSV-Datei, die Sie für den Import vorbereitet haben, und wählen Sie die Datei aus.
+1. Klicken Sie unter _[!UICONTROL File to Import]_&#x200B;auf **[!UICONTROL Choose File]**&#x200B;und navigieren Sie zur CSV-Datei, die Sie für den Import vorbereitet haben, und wählen Sie die Datei aus.
 
    ![Datenimportdatei](./assets/data-import-file-to-import.png){width="600" zoomable="yes"}
 

@@ -4,11 +4,20 @@ description: Erfahren Sie, wie Sie Sonderpreise für einen bestimmten Zeitraum a
 exl-id: 4a1e2045-f0a8-4bae-a5a3-8ce8b258b217
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/j6DspCgn2P4-pHxXuOd-AiJCL0SBezxg-rn6yYmMIk8
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 855
@@ -56,7 +65,7 @@ Adobe Commerce unterstützt [geplante Updates](../content-design/content-staging
 
    In der Storefront sollte der Sonderpreis sowohl in der Katalogliste als auch auf der Produktseite angezeigt werden.
 
-   Die _[!UICONTROL Scheduled Change]_wird oben auf der Seite angezeigt.
+   Die _[!UICONTROL Scheduled Change]_&#x200B;wird oben auf der Seite angezeigt.
 
    ![Geplante Änderung](./assets/product-price-special-scheduled-change.png){width="600" zoomable="yes"}
 
@@ -68,7 +77,7 @@ Magento Open Source bietet in den erweiterten Preisoptionen einfache Start- und 
 
 1. Öffnen Sie das Produkt im Bearbeitungsmodus.
 
-1. Scrollen Sie nach unten zum Feld _[!UICONTROL Price]_, klicken Sie auf **[!UICONTROL Advanced Pricing]**und geben Sie den **[!UICONTROL Special Price]**ein.
+1. Scrollen Sie nach unten zum Feld _[!UICONTROL Price]_, klicken Sie auf **[!UICONTROL Advanced Pricing]**&#x200B;und geben Sie den **[!UICONTROL Special Price]**&#x200B;ein.
 
 1. Verwenden Sie das Symbol _Kalender_ ( ![Kalendersymbol](../assets/icon-calendar.png) ), um die **[!UICONTROL Start Date]** und **[!UICONTROL End Date]** für die Sonderpreisaktion auszuwählen.
 
@@ -90,7 +99,7 @@ Sie können auch mehreren Produkten einen Sonderpreis zuweisen, z. B. mehreren V
 
 Das folgende Beispiel zeigt, wie Sie mehreren Produktvarianten eines konfigurierbaren Produkts in Adobe Commerce denselben Sonderpreis zuweisen.
 
-1. Klicken Sie auf der Seite _[!UICONTROL Products]_auf **[!UICONTROL Filters]**und geben Sie die **[!UICONTROL Name]**des konfigurierbaren Produkts ein.
+1. Klicken Sie auf der Seite _[!UICONTROL Products]_&#x200B;auf **[!UICONTROL Filters]**&#x200B;und geben Sie die **[!UICONTROL Name]**&#x200B;des konfigurierbaren Produkts ein.
 
 1. Legen Sie **[!UICONTROL Type]** auf `Configurable Product` fest und klicken Sie auf **[!UICONTROL Apply Filters]**.
 
@@ -100,7 +109,7 @@ Das folgende Beispiel zeigt, wie Sie mehreren Produktvarianten eines konfigurier
 
 1. Setzen Sie das **[!UICONTROL Actions]** auf `Update attributes`.
 
-1. Scrollen Sie nach unten zum Feld _[!UICONTROL Special Price]_und aktivieren Sie das Kontrollkästchen **[!UICONTROL Change]**unter dem Feld_[!UICONTROL Special Price]_ und geben Sie den Sonderpreis ein, den Sie anbieten möchten.
+1. Scrollen Sie nach unten zum Feld _[!UICONTROL Special Price]_&#x200B;und aktivieren Sie das Kontrollkästchen **[!UICONTROL Change]**&#x200B;unter dem Feld&#x200B;_[!UICONTROL Special Price]_ und geben Sie den Sonderpreis ein, den Sie anbieten möchten.
 
    ![Sonderpreisfelder](./assets/product-price-special-commerce.png){width="600" zoomable="yes"}
 

@@ -4,11 +4,21 @@ description: Erfahren Sie mehr über die für Produktattribute verfügbaren Eing
 exl-id: c35b3b9d-57b0-4c33-abdb-662ac6d0260e
 feature: Catalog Management, Products
 TQID: https://experienceleague.adobe.com/8WwqU3ZSqmORqSD2061Pa5MTRqYbH71dOxouz-nLwbo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 780
@@ -27,15 +37,15 @@ In der Administratoransicht sind Attribute die Felder, die Sie ausfüllen, wenn 
 | [!UICONTROL Text Field] | Ein einzeiliges Eingabefeld für Text. |
 | [!UICONTROL Text Area] | Ein mehrzeiliges Eingabefeld zum Eingeben von Textabsätzen, z. B. eine Produktbeschreibung. Sie können den WYSIWYG-Editor verwenden, um den Text mit HTML-Tags zu formatieren, oder die Tags direkt in den Text eingeben. |
 | [!UICONTROL Text Editor] | Ein voll funktionsfähiger Texteditor am Attributspeicherort. |
-| [!UICONTROL Date] | Zeigt einen Datumswert im [bevorzugten Format](#date-and-time-options) und [Zeitzone](../getting-started/store-details.md#locale-options) an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis:_**Je nach Systemkonfiguration können_ Admin_-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](#date-and-time-options). |
+| [!UICONTROL Date] | Zeigt einen Datumswert im [bevorzugten Format](#date-and-time-options) und [Zeitzone](../getting-started/store-details.md#locale-options) an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis:_**&#x200B;Je nach Systemkonfiguration können_ Admin_-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](#date-and-time-options). |
 | [!UICONTROL Date and Time] | Zeigt einen Datums- und Uhrzeitwert im [bevorzugten Format](#date-and-time-options) und [Zeitzone](../getting-started/store-details.md#locale-options) an. Datum und Uhrzeit können manuell eingegeben oder aus einem Kalender ausgewählt werden. Beispielformat: MM/TT/JJJJ hh:MM |
 | [!UICONTROL Yes/No] | Zeigt eine Dropdown-Liste mit vordefinierten Optionen `Yes` und `No` an. |
 | Dropdown | Zeigt eine Dropdown-Liste mit Werten an, die nur eine einzige Auswahl akzeptieren. Der Dropdown-Eingabetyp ist eine Schlüsselkomponente von [konfigurierbaren Produkten](../catalog/product-create-configurable.md). |
 | [!UICONTROL Multiple Select] | Zeigt eine Dropdown-Liste mit Werten an, die mehrere Auswahlmöglichkeiten akzeptieren. |
 | [!UICONTROL Number] [!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} | Ein numerisches Eingabefeld, das Dezimalwerte speichert. Im Gegensatz zum **Preis**-Eingabetyp wird keine Währungsformatierung angewendet und es werden negative Werte akzeptiert. Verwenden Sie diesen Eingabetyp für Messungen, Abmessungen oder technische Spezifikationen wie Temperaturbereiche. |
 | [!UICONTROL Price] | Dieser Eingabetyp wird verwendet, um Preisfelder zu erstellen, die zusätzlich zu den vordefinierten Attributen erstellt werden: `Price`, `Special Price`, `Tier Price` und `Cost`. Die verwendete Währung wird von Ihrer Systemkonfiguration bestimmt. |
-| [!UICONTROL Media Image] | Ordnet einem Produkt ein zusätzliches Bild zu, z. B. ein Produktlogo, Pflegehinweise oder Zutaten von einem Lebensmitteletikett. Wenn Sie dem Attributsatz eines Produkts ein Medienbildattribut hinzufügen, wird es zu einem zusätzlichen Bildtyp, zusammen mit „Basis“, „Klein“ und „Miniatur“. Das Medienbildattribut kann aus dem „Storefront[Medienbrowser“ ](catalog-images-video.md#storefront-media-browser) werden. |
-| [!UICONTROL File] [!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} | Ermöglicht das Hochladen einer Datei und deren Verknüpfung mit einem Produktattribut. Unterstützte Dateitypen und maximale Dateigröße werden in &quot;[&quot; ](../configuration-reference/catalog/product-file-attributes.md). Verwenden Sie diesen Eingabetyp für Dokumente wie Produkthandbücher, Datenblätter oder Zertifikate. |
+| [!UICONTROL Media Image] | Ordnet einem Produkt ein zusätzliches Bild zu, z. B. ein Produktlogo, Pflegehinweise oder Zutaten von einem Lebensmitteletikett. Wenn Sie dem Attributsatz eines Produkts ein Medienbildattribut hinzufügen, wird es zu einem zusätzlichen Bildtyp, zusammen mit „Basis“, „Klein“ und „Miniatur“. Das Medienbildattribut kann aus dem „Storefront[Medienbrowser“ &#x200B;](catalog-images-video.md#storefront-media-browser) werden. |
+| [!UICONTROL File] [!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} | Ermöglicht das Hochladen einer Datei und deren Verknüpfung mit einem Produktattribut. Unterstützte Dateitypen und maximale Dateigröße werden in &quot;[&quot; &#x200B;](../configuration-reference/catalog/product-file-attributes.md). Verwenden Sie diesen Eingabetyp für Dokumente wie Produkthandbücher, Datenblätter oder Zertifikate. |
 | [!UICONTROL Fixed Product Tax] | Ermöglicht die Definition [FPT](../stores-purchase/fixed-product-tax.md)Tarife basierend auf den Anforderungen Ihres Gebietsschemas. |
 | [!UICONTROL Visual Swatch] | Zeigt ein Farbfeld an, das die Farbe, Textur oder das Muster eines konfigurierbaren Produkts darstellt. Ein [visuelles Farbfeld](swatches.md) kann mit einem hexadezimalen Farbwert ausgefüllt werden oder ein hochgeladenes Bild anzeigen, das die Farbe, das Material, die Textur oder das Muster der Option darstellt. |
 | [!UICONTROL Text Swatch] | Eine textbasierte Darstellung einer konfigurierbaren Produktoption, die häufig für die Größe verwendet wird. [Textmuster](swatches.md) können auch hexadezimale Farbwerte enthalten. |

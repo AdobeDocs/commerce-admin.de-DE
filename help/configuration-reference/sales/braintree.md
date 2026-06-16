@@ -4,11 +4,23 @@ description: Überprüfen Sie die Konfigurationseinstellungen für den Abschnitt
 exl-id: cf08bc4d-8d88-45e7-af71-f1ff90023766
 feature: Configuration, Payments
 TQID: https://experienceleague.adobe.com/nYlyPsbZ5YhBI6C6pzOk9Ns-6pA6VME3uzKfRhJ5HLo
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2710
@@ -40,12 +52,12 @@ ht-degree: 0%
 | [!UICONTROL Title] | Shop-Ansicht | Standardwert: `Credit Card` (Braintree) |
 | [!UICONTROL Environment] | Shop-Ansicht | Optionen: `Sandbox` / `Production` |
 | [!UICONTROL Payment Action] | Shop-Ansicht | Bestimmt, welche Aktion Braintree bei der Zahlungsabwicklung durchführt. Optionen: <br/>**`Authorize`**- Das Geld auf der Kreditkarte des Kunden wird autorisiert, aber nicht vom Konto übertragen. Eine Bestellung wird in Ihrem Store-Admin erstellt. Sie können den Verkauf später erfassen und eine Rechnung erstellen.<br/>**`Intent Sale`** (zuvor in früheren Versionen `Authorize and Capture`) - Die Guthaben auf der Kreditkarte des Kunden werden von Braintree autorisiert und erfasst, und eine Bestellung und eine Rechnung werden in Ihrem Store-Administrator erstellt. |
-| [!UICONTROL Sandbox Merchant ID] | Shop-Ansicht | Dies ist die eindeutige Kennung für Ihr gesamtes Sandbox-Gateway-Konto. Ihre Händler _ID wird auch als „öffentliche_&quot; oder _Produktions-ID_ bezeichnet und unterscheidet sich für Ihre Produktions- und Sandbox-Gateways. Dieses Feld wird angezeigt, wenn das _[!UICONTROL Environment]_Feld auf `Sandbox` gesetzt ist. |
-| [!UICONTROL Sandbox Public Key] | Shop-Ansicht | Dies ist Ihre benutzerspezifische, öffentliche Kennung, die den Zugriff auf verschlüsselte Daten einschränkt. Jeder Benutzer, der mit Ihrem Sandbox Braintree-Gateway verknüpft ist, hat seinen eigenen öffentlichen Sandbox-Schlüssel. Dieses Feld wird angezeigt, wenn das _[!UICONTROL Environment]_Feld auf `Sandbox` gesetzt ist. |
-| [!UICONTROL Sandbox Private Key] | Shop-Ansicht | Dies ist Ihre benutzerspezifische, private Kennung, die den Zugriff auf verschlüsselte Daten einschränkt. Jeder Benutzer, der mit Ihrem Sandbox Braintree-Gateway verknüpft ist, hat seinen eigenen privaten Schlüssel für die Sandbox. Dieses Feld wird angezeigt, wenn das _[!UICONTROL Environment]_Feld auf `Sandbox` gesetzt ist. |
-| [!UICONTROL Merchant ID] | Shop-Ansicht | Dies ist die eindeutige Kennung für Ihr gesamtes Gateway-Konto, einschließlich der mehreren Händler-Konten, die sich möglicherweise in Ihrem Gateway befinden. Ihre Händler _ID wird auch als „öffentliche_&quot; oder _Produktions-ID_ bezeichnet und unterscheidet sich für Ihre Produktions- und Sandbox-Gateways. Dieses Feld wird angezeigt, wenn das _[!UICONTROL Environment]_Feld auf `Production` gesetzt ist. |
-| [!UICONTROL Public Key] | Shop-Ansicht | Dies ist Ihre benutzerspezifische, öffentliche Kennung, die den Zugriff auf verschlüsselte Daten einschränkt. Jeder mit Ihrem Braintree-Gateway verknüpfte Benutzer verfügt über einen eigenen öffentlichen Schlüssel. Dieses Feld wird angezeigt, wenn das _[!UICONTROL Environment]_Feld auf `Production` gesetzt ist. |
-| [!UICONTROL Private Key] | Shop-Ansicht | Dies ist Ihre benutzerspezifische, private Kennung, die den Zugriff auf verschlüsselte Daten einschränkt. Jeder mit Ihrem Braintree-Gateway verknüpfte Benutzer verfügt über einen eigenen privaten Schlüssel. Dieses Feld wird angezeigt, wenn das _[!UICONTROL Environment]_Feld auf `Production` gesetzt ist. |
+| [!UICONTROL Sandbox Merchant ID] | Shop-Ansicht | Dies ist die eindeutige Kennung für Ihr gesamtes Sandbox-Gateway-Konto. Ihre Händler _ID wird auch als „öffentliche_&quot; oder _Produktions-ID_ bezeichnet und unterscheidet sich für Ihre Produktions- und Sandbox-Gateways. Dieses Feld wird angezeigt, wenn das _[!UICONTROL Environment]_&#x200B;Feld auf `Sandbox` gesetzt ist. |
+| [!UICONTROL Sandbox Public Key] | Shop-Ansicht | Dies ist Ihre benutzerspezifische, öffentliche Kennung, die den Zugriff auf verschlüsselte Daten einschränkt. Jeder Benutzer, der mit Ihrem Sandbox Braintree-Gateway verknüpft ist, hat seinen eigenen öffentlichen Sandbox-Schlüssel. Dieses Feld wird angezeigt, wenn das _[!UICONTROL Environment]_&#x200B;Feld auf `Sandbox` gesetzt ist. |
+| [!UICONTROL Sandbox Private Key] | Shop-Ansicht | Dies ist Ihre benutzerspezifische, private Kennung, die den Zugriff auf verschlüsselte Daten einschränkt. Jeder Benutzer, der mit Ihrem Sandbox Braintree-Gateway verknüpft ist, hat seinen eigenen privaten Schlüssel für die Sandbox. Dieses Feld wird angezeigt, wenn das _[!UICONTROL Environment]_&#x200B;Feld auf `Sandbox` gesetzt ist. |
+| [!UICONTROL Merchant ID] | Shop-Ansicht | Dies ist die eindeutige Kennung für Ihr gesamtes Gateway-Konto, einschließlich der mehreren Händler-Konten, die sich möglicherweise in Ihrem Gateway befinden. Ihre Händler _ID wird auch als „öffentliche_&quot; oder _Produktions-ID_ bezeichnet und unterscheidet sich für Ihre Produktions- und Sandbox-Gateways. Dieses Feld wird angezeigt, wenn das _[!UICONTROL Environment]_&#x200B;Feld auf `Production` gesetzt ist. |
+| [!UICONTROL Public Key] | Shop-Ansicht | Dies ist Ihre benutzerspezifische, öffentliche Kennung, die den Zugriff auf verschlüsselte Daten einschränkt. Jeder mit Ihrem Braintree-Gateway verknüpfte Benutzer verfügt über einen eigenen öffentlichen Schlüssel. Dieses Feld wird angezeigt, wenn das _[!UICONTROL Environment]_&#x200B;Feld auf `Production` gesetzt ist. |
+| [!UICONTROL Private Key] | Shop-Ansicht | Dies ist Ihre benutzerspezifische, private Kennung, die den Zugriff auf verschlüsselte Daten einschränkt. Jeder mit Ihrem Braintree-Gateway verknüpfte Benutzer verfügt über einen eigenen privaten Schlüssel. Dieses Feld wird angezeigt, wenn das _[!UICONTROL Environment]_&#x200B;Feld auf `Production` gesetzt ist. |
 | [!UICONTROL Enable Card Payments] | Website | Legt fest, ob die Kreditkartenzahlungsmethode von Braintree Ihren Kunden als Zahlungsmethode zur Verfügung steht. Optionen: `Yes` / `No` |
 | [!UICONTROL Enable Vault for Card Payments] | Website | Wenn diese Option aktiviert ist, bietet einen sicheren Speicher für Kundenzahlungsinformationen, sodass Kunden ihre Kreditkarteninformationen nicht bei jedem Kauf erneut eingeben müssen. Optionen: `Yes` / `No` |
 | [!UICONTROL Enable Vault CVV Re-verification] | Website | Wenn diese Option aktiviert ist, erfolgt die Validierung für die Einrichtung der CVV-Regeln in Ihrem Braintree-Konto. Optionen: `Yes` / `No` |
@@ -137,7 +149,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Die gebündelte Braintree-Erweiterung unterstützt nicht alle in der Entwicklerdokumentation zu [Braintree aufgeführten lokalen ](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Weitere lokale Zahlungsmethoden werden derzeit entwickelt, um in zukünftigen Versionen unterstützt zu werden.
+>Die gebündelte Braintree-Erweiterung unterstützt nicht alle in der Entwicklerdokumentation zu [Braintree aufgeführten lokalen &#x200B;](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Weitere lokale Zahlungsmethoden werden derzeit entwickelt, um in zukünftigen Versionen unterstützt zu werden.
 
 ## [!UICONTROL GooglePay through Braintree]
 
@@ -163,7 +175,7 @@ ht-degree: 0%
 |--- |--- |--- |
 | [!UICONTROL Enable Venmo through Braintree] | Website | Bestimmt, ob [!DNL Venmo] als Zahlungsmethode über Braintree enthalten ist. Optionen: `Yes` / `No` |
 | [!UICONTROL Enable Vault for Venmo] | Website | Kunden können ihre Venmo-Zahlungsmethode für die zukünftige Verwendung absichern. Sobald die Zahlungsdetails geVault sind, kann der Kunde die Venmo-Zahlungsmethode verwenden, ohne die Daten erneut einzugeben oder seine Zahlungsinformationen erneut zu authentifizieren. Optionen: `Yes` / `No` |
-| [!UICONTROL Payment Action] | Website | Bestimmt, welche Aktion Braintree bei der Zahlungsabwicklung durchführt. Optionen: <br/>**`Authorize`**- Das Geld auf der Karte des Kunden wird autorisiert, aber nicht vom Konto des Kunden übertragen. Eine Bestellung wird in Ihrem Store-Admin erstellt. Sie können den Verkauf später erfassen und eine Rechnung erstellen.<br/>**`Intent Sale`** - Das Geld auf der Kundenkarte wird von Braintree autorisiert und erfasst, und eine Bestellung und eine Rechnung werden in Ihrem Shop-Administrator erstellt. **_Hinweis:_**Dies war_ Authorize and Capture_ in 2.3.x und früheren Versionen. |
+| [!UICONTROL Payment Action] | Website | Bestimmt, welche Aktion Braintree bei der Zahlungsabwicklung durchführt. Optionen: <br/>**`Authorize`**- Das Geld auf der Karte des Kunden wird autorisiert, aber nicht vom Konto des Kunden übertragen. Eine Bestellung wird in Ihrem Store-Admin erstellt. Sie können den Verkauf später erfassen und eine Rechnung erstellen.<br/>**`Intent Sale`** - Das Geld auf der Kundenkarte wird von Braintree autorisiert und erfasst, und eine Bestellung und eine Rechnung werden in Ihrem Shop-Administrator erstellt. **_Hinweis:_**&#x200B;Dies war_ Authorize and Capture_ in 2.3.x und früheren Versionen. |
 | [!UICONTROL Sort Order] | Website | Bestimmt die Bestellung, dass Venmo während des Checkouts mit anderen Zahlungsmethoden aufgelistet wird. |
 
 {style="table-layout:auto"}
@@ -219,7 +231,7 @@ Die Optionen und Einstellungen in diesem Abschnitt variieren je nach der Einstel
 
 **[!UICONTROL PayPal Button]**
 
-Die Optionen und Einstellungen in diesem Abschnitt variieren je nach dem im Feld _[!UICONTROL PayPal Button Type]_ausgewählten Schaltflächentyp.
+Die Optionen und Einstellungen in diesem Abschnitt variieren je nach dem im Feld _[!UICONTROL PayPal Button Type]_&#x200B;ausgewählten Schaltflächentyp.
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

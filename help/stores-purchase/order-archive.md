@@ -4,11 +4,20 @@ description: Erfahren Sie, wie Sie das Auftragsarchiv konfigurieren, um die Leis
 exl-id: 12025591-bfe2-4f44-9358-a38ea4493b5c
 feature: Orders, Configuration
 TQID: https://experienceleague.adobe.com/Zl8qJPnr8JcSSyIHewPH-GFKBkweyAmh7So9u7vHDSk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 750
@@ -24,7 +33,7 @@ Die regelmäßige Archivierung von Aufträgen verbessert die Leistung und hält 
 
 >[!NOTE]
 >
->Die Option _[!UICONTROL Archive]_wird nur dann im Menü [[!UICONTROL Sales] angezeigt](sales-menu.md) wenn die Archivierung [aktiviert](../configuration-reference/sales/sales.md).
+>Die Option _[!UICONTROL Archive]_&#x200B;wird nur dann im Menü [[!UICONTROL Sales] angezeigt](sales-menu.md) wenn die Archivierung [aktiviert](../configuration-reference/sales/sales.md).
 
 ## Konfigurieren des Auftragsarchivs
 
@@ -58,7 +67,7 @@ Ihr Store kann so konfiguriert werden, dass Bestellungen, Rechnungen, Sendungen 
 
 ## Anzeigen archivierter Dokumente
 
-1. Wählen Sie im _[!UICONTROL Sales]_Menü unter_[!UICONTROL Archive]_ eine der folgenden Optionen:
+1. Wählen Sie im _[!UICONTROL Sales]_&#x200B;Menü unter&#x200B;_[!UICONTROL Archive]_ eine der folgenden Optionen:
 
    - **[!UICONTROL Orders]**
    - **[!UICONTROL Invoices]**
@@ -117,7 +126,7 @@ Wählen Sie jedes Dokument als Ziel der Aktion aus und wählen Sie eine der folg
 
 1. Klicken Sie auf **[!UICONTROL Export]**.
 
-Ihr Store kann so konfiguriert werden, dass Bestellungen, Rechnungen, Sendungen und Gutschriften nach einer bestimmten Anzahl von Tagen archiviert werden. Sie können Bestellungen und zugehörige Dokumente in das Archiv verschieben oder in den vorherigen Status zurückversetzen. Archivierte Bestellungen werden nicht gelöscht und bleiben vom Administrator verfügbar. Archivierte Daten können in eine CSV-Datei exportiert und in einer Tabelle geöffnet werden. Nach der Aktivierung wird der Befehl _[!UICONTROL Archive]_oben im Arbeitsbereich angezeigt.
+Ihr Store kann so konfiguriert werden, dass Bestellungen, Rechnungen, Sendungen und Gutschriften nach einer bestimmten Anzahl von Tagen archiviert werden. Sie können Bestellungen und zugehörige Dokumente in das Archiv verschieben oder in den vorherigen Status zurückversetzen. Archivierte Bestellungen werden nicht gelöscht und bleiben vom Administrator verfügbar. Archivierte Daten können in eine CSV-Datei exportiert und in einer Tabelle geöffnet werden. Nach der Aktivierung wird der Befehl _[!UICONTROL Archive]_&#x200B;oben im Arbeitsbereich angezeigt.
 
 ## Bestellungen manuell archivieren
 
@@ -127,7 +136,7 @@ Ihr Store kann so konfiguriert werden, dass Bestellungen, Rechnungen, Sendungen 
 
 1. Legen Sie das **[!UICONTROL Actions]** auf `Move to Archive` fest und suchen Sie nach der Meldung, dass die Bestellung archiviert wurde.
 
-   ![Verschieben ausgewählter Bestellungen in das ](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
+   ![Verschieben ausgewählter Bestellungen in das &#x200B;](./assets/order-move-to-archive.png){width="700" zoomable="yes"}
 
 >[!TIP]
 >
@@ -137,13 +146,13 @@ Ihr Store kann so konfiguriert werden, dass Bestellungen, Rechnungen, Sendungen 
 
 1. Öffnen Sie die Archivansicht mit einer der folgenden Methoden:
 
-   - Klicken Sie in der Schaltflächenleiste über dem _[!UICONTROL Orders]_auf **[!UICONTROL Go to Archive]**.
+   - Klicken Sie in der Schaltflächenleiste über dem _[!UICONTROL Orders]_&#x200B;auf **[!UICONTROL Go to Archive]**.
 
    - Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**.
 
    >[!NOTE]
    >
-   >Wie bei Bestellungen wird der Titel der archivierten Bestellungsseite _[!UICONTROL Orders]_. Der einzige bemerkbare Unterschied ist die Option in der Schaltflächenleiste, um zu_[!UICONTROL Return to Orders Management]_. Die URL der Seite gibt auch an, dass Sie sich im Auftragsarchiv befinden.
+   >Wie bei Bestellungen wird der Titel der archivierten Bestellungsseite _[!UICONTROL Orders]_. Der einzige bemerkbare Unterschied ist die Option in der Schaltflächenleiste, um zu&#x200B;_[!UICONTROL Return to Orders Management]_. Die URL der Seite gibt auch an, dass Sie sich im Auftragsarchiv befinden.
 
 1. Klicken Sie in _Spalte_ Aktion **[!UICONTROL View]** auf.
 

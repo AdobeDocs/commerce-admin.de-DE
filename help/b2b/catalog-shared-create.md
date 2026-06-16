@@ -5,12 +5,22 @@ exl-id: 969c352c-ff88-4902-8347-334ee8b79afb
 feature: B2B, Companies, Catalog Management
 role: Admin
 TQID: https://experienceleague.adobe.com/UaH40o7aZu8AYc1TuOfvXqxHebFod-rmGg0tobIKzjg
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cbid: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 872
@@ -35,7 +45,7 @@ Die folgenden Aspekte eines freigegebenen Katalogs müssen eingerichtet werden, 
 
 ## Preisspanne
 
-Wenn Sie eine Multisite-Installation haben, stellen Sie sicher, dass Sie den Preisbereich konfigurieren, bevor Sie Ihre freigegebenen Kataloge erstellen. Der [Preisbereich](../catalog/catalog-price-scope.md) kann auf `Global` oder `Website` festgelegt werden. Sie kann jedoch erst zu Beginn des Einrichtungsprozesses festgelegt werden. Die Website-Auswahl wird in Schritt 2 der [freigegebenen Katalogeinrichtung“ ](catalog-shared-pricing-structure.md).
+Wenn Sie eine Multisite-Installation haben, stellen Sie sicher, dass Sie den Preisbereich konfigurieren, bevor Sie Ihre freigegebenen Kataloge erstellen. Der [Preisbereich](../catalog/catalog-price-scope.md) kann auf `Global` oder `Website` festgelegt werden. Sie kann jedoch erst zu Beginn des Einrichtungsprozesses festgelegt werden. Die Website-Auswahl wird in Schritt 2 der [freigegebenen Katalogeinrichtung“ &#x200B;](catalog-shared-pricing-structure.md).
 
 ![Website-Auswahl](./assets/shared-catalog-scope-pricing.png){width="600" zoomable="yes"}
 
@@ -79,7 +89,7 @@ Es gibt zwei Möglichkeiten, einen freigegebenen Katalog zu erstellen. Sie könn
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-   Der neue Katalog wird im _[!UICONTROL Shared Catalogs]_angezeigt.
+   Der neue Katalog wird im _[!UICONTROL Shared Catalogs]_&#x200B;angezeigt.
 
 ### Methode 2: Duplizieren eines vorhandenen freigegebenen Katalogs
 
@@ -104,15 +114,15 @@ Wenn ein öffentlicher freigegebener Katalog dupliziert wird, ändert sich der T
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-   Das Duplikat wird im _[!UICONTROL Shared Catalogs]_mit einer eindeutigen ID angezeigt.
+   Das Duplikat wird im _[!UICONTROL Shared Catalogs]_&#x200B;mit einer eindeutigen ID angezeigt.
 
 ## Schritt 2: Abschließen der Einrichtung
 
-Nachdem Sie einen neuen freigegebenen Katalog erstellt haben, müssen Sie ihn mit der entsprechenden Produktauswahl, [Unternehmenszuweisungen](catalog-shared-assign-companies.md) und [Kategorieberechtigungen“ ](../catalog/category-permissions.md). Weitere Informationen finden Sie unter [Festlegen von Preisen und Strukturen](catalog-shared-pricing-structure.md).
+Nachdem Sie einen neuen freigegebenen Katalog erstellt haben, müssen Sie ihn mit der entsprechenden Produktauswahl, [Unternehmenszuweisungen](catalog-shared-assign-companies.md) und [Kategorieberechtigungen“ &#x200B;](../catalog/category-permissions.md). Weitere Informationen finden Sie unter [Festlegen von Preisen und Strukturen](catalog-shared-pricing-structure.md).
 
 >[!NOTE]
 >
->**[B2B-Version 1.3.](release-notes.md#b2b-v130) und höher** - Wenn Sie einen freigegebenen Katalog erstellen, wird jede [Kategorieberechtigung](../catalog/category-permissions.md) für den Katalog auf _[!UICONTROL Allow for the Display Product Prices]_und_[!UICONTROL Add to Cart]_ für Kundengruppen festgelegt, denen dieser Zugriff in den Katalogberechtigungseinstellungen zugewiesen ist. Zuvor wurden diese Einstellungen automatisch auf `Deny` gesetzt, auch wenn die Katalogberechtigungen auf `Allow` gesetzt waren.
+>**[B2B-Version 1.3.](release-notes.md#b2b-v130) und höher** - Wenn Sie einen freigegebenen Katalog erstellen, wird jede [Kategorieberechtigung](../catalog/category-permissions.md) für den Katalog auf _[!UICONTROL Allow for the Display Product Prices]_&#x200B;und&#x200B;_[!UICONTROL Add to Cart]_ für Kundengruppen festgelegt, denen dieser Zugriff in den Katalogberechtigungseinstellungen zugewiesen ist. Zuvor wurden diese Einstellungen automatisch auf `Deny` gesetzt, auch wenn die Katalogberechtigungen auf `Allow` gesetzt waren.
 
 ## Demo zum freigegebenen Katalog
 

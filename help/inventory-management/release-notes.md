@@ -4,11 +4,22 @@ description: Informationen zu allen Versionen finden  [!DNL Inventory Management
 exl-id: 856b9503-7621-4beb-ac2f-3eb1a240cebc
 feature: Inventory, Release Notes
 TQID: https://experienceleague.adobe.com/UaHQorWcNwDPzAMuV-e27DDH-G5D0k5qENPTINNfiTk
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 3533
@@ -30,7 +41,7 @@ Diese Versionshinweise beschreiben Versionen von [!DNL Inventory Management] und
 
 ## v1.2.7
 
-[!DNL Inventory Management] Versionshinweise zu 1.2.7 sind in den Versionshinweisen zu [Core 2.4.7“ ](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
+[!DNL Inventory Management] Versionshinweise zu 1.2.7 sind in den Versionshinweisen zu [Core 2.4.7“ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7#inventory-management-1).
 
 ## v1.2.6
 
@@ -127,17 +138,17 @@ Inventory management 1.2.4 (Modulversion: `magento/inventory-metapackage = 1.2.4
 
 ![Problem behoben](../assets/fix.svg) Durch die inkrementelle Indizierung gruppierter untergeordneter Produktprodukte werden andere gruppierte Produkte nicht mehr falsch indiziert, wenn untergeordnete Produkte freigegeben werden. <!--- MC-41963-->
 
-![Es wurde ](../assets/fix.svg) Problem behoben: Auf der Kategorieseite der Storefront wird jetzt die richtige Produktanzahl angezeigt, nachdem ein Produkt per API aus einer Kategorie entfernt wurde. Zuvor war die Produktzahl der Kategorieseite falsch, bis eine Neuindizierung stattfand. <!--- MC-42287-->
+![Es wurde &#x200B;](../assets/fix.svg) Problem behoben: Auf der Kategorieseite der Storefront wird jetzt die richtige Produktanzahl angezeigt, nachdem ein Produkt per API aus einer Kategorie entfernt wurde. Zuvor war die Produktzahl der Kategorieseite falsch, bis eine Neuindizierung stattfand. <!--- MC-42287-->
 
 ![Problem behoben](../assets/fix.svg) Konfigurierbare Produkte können jetzt beim Erstellen einer Gutschrift auf Lager zurückgegeben werden, wenn die Option **[!UICONTROL Manage Stock]** deaktiviert ist. Zuvor hat Commerce das Kontrollkästchen **Zurück an Lager** auf der Seite zur Erstellung von Gutschriften nicht angezeigt, wenn diese Option deaktiviert war. <!--- MC-42002-->
 
 ![Problem behoben](../assets/fix.svg) Die Verwaltung des Lagerbestands, der 10.000 Artikel überschreitet, wurde verbessert. Zuvor hinderten Leistungsprobleme Händler manchmal daran, den Bestand im Admin zu bearbeiten, bevor sie ihre Website aufriefen. <!--- MC-42643-->
 
-![Problem behoben](../assets/fix.svg) Die Seite **[!UICONTROL User Roles]** in der Admin wird aktualisiert und bietet Admins eingeschränkte Berechtigungen für den Zugriff auf die Konfiguration der Versandmethoden. Der Abschnitt _Versandmethoden_ wurde in _[!UICONTROL Delivery methods]_umbenannt und_[!UICONTROL In-Store Pickup]_ wird unter den Abschnitt _[!UICONTROL Delivery methods]_verschoben. [GitHub-30053](https://github.com/magento/magento2/issues/30053)-<!--- MC-41545-->
+![Problem behoben](../assets/fix.svg) Die Seite **[!UICONTROL User Roles]** in der Admin wird aktualisiert und bietet Admins eingeschränkte Berechtigungen für den Zugriff auf die Konfiguration der Versandmethoden. Der Abschnitt _Versandmethoden_ wurde in _[!UICONTROL Delivery methods]_&#x200B;umbenannt und&#x200B;_[!UICONTROL In-Store Pickup]_ wird unter den Abschnitt _[!UICONTROL Delivery methods]_&#x200B;verschoben. [GitHub-30053](https://github.com/magento/magento2/issues/30053)-<!--- MC-41545-->
 
 ![Problem behoben](../assets/fix.svg) Adobe Commerce erstellt keine doppelte Produktreservierung mehr, nachdem eine Gutschrift von der API aktualisiert wurde. <!--- MC-41757-->
 
-![Es wurde ](../assets/fix.svg), dass beim Wechsel von der Registerkarte &quot;_[!UICONTROL Pick up in Store]_&quot; zur Registerkarte &quot;_[!UICONTROL Shipping]_&quot; im Checkout-Workflow kein JavaScript-Fehler mehr Trigger wird, wenn nur der In-Store-Pick-up-Versand verfügbar ist. <!--- MC-42808-->
+![Es wurde &#x200B;](../assets/fix.svg), dass beim Wechsel von der Registerkarte &quot;_[!UICONTROL Pick up in Store]_&quot; zur Registerkarte &quot;_[!UICONTROL Shipping]_&quot; im Checkout-Workflow kein JavaScript-Fehler mehr Trigger wird, wenn nur der In-Store-Pick-up-Versand verfügbar ist. <!--- MC-42808-->
 
 ![Problem behoben](../assets/fix.svg) Verkaufsfähige Produktmenge und Lagerproduktmenge werden jetzt korrekt synchronisiert. Zuvor wurde die Ausgleichszahlung für Lagerreservierungen für stornierte Bestellungen nicht neu erstellt. <!--- MC-42485-->
 
@@ -195,7 +206,7 @@ Inventory management 1.2.4 (Modulversion: `magento/inventory-metapackage = 1.2.4
 
 ![Neu](../assets/new.svg) **Erhöhte Testabdeckung.** Neue Funktionen werden durch automatisierte Tests abgedeckt, einschließlich einer erweiterten Abdeckung erkannter und behobener Probleme.
 
-![Bekanntes Problem](../assets/bug.svg) **Bekanntes Problem.** Das Fehlen des Felds `object_id` in den Reservierungs-Metadaten verhindert, dass der `inventory_cleanup_reservations` Cron-Auftrag ordnungsgemäß funktioniert. Dieses Problem wurde in [magento/inventory#3046) ](https://github.com/magento/inventory/pull/3046).
+![Bekanntes Problem](../assets/bug.svg) **Bekanntes Problem.** Das Fehlen des Felds `object_id` in den Reservierungs-Metadaten verhindert, dass der `inventory_cleanup_reservations` Cron-Auftrag ordnungsgemäß funktioniert. Dieses Problem wurde in [magento/inventory#3046) &#x200B;](https://github.com/magento/inventory/pull/3046).
 
 **Problemumgehung:** Führen Sie die folgenden MySQL-Abfragen aus, um Reservierungen manuell zu bereinigen:
 
@@ -226,9 +237,9 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.4 (Modulversion: `inventory-composer-metapackage = 1.1.4`) wird mit Version 2.3.4 unterstützt und ist mit den Versionen 2.3.3, 2.3.2, 2.3.1 und 2.3.0 von Adobe Commerce, Adobe Commerce on Cloud Infrastructure und der Magento Open Source Code-Basis kompatibel.
 
-![Problem behoben ](../assets/fix.svg)**Leistung gesteigert.** Es wurde eine Bündelungslogik für den CLI-Befehl für Inventarreservierungen eingeführt, um die Speichernutzung zu reduzieren und Fälle zu vermeiden, in denen der Prozess ohne Antwort hängt.
+![Problem behoben &#x200B;](../assets/fix.svg)**Leistung gesteigert.** Es wurde eine Bündelungslogik für den CLI-Befehl für Inventarreservierungen eingeführt, um die Speichernutzung zu reduzieren und Fälle zu vermeiden, in denen der Prozess ohne Antwort hängt.
 
-![Neu ](../assets/new.svg)**Erhöhte Testabdeckung.** Es wurden viele neue Funktionstests eingeführt. Fast alle manuellen Inventarszenarien werden mit automatisierten Tests abgedeckt.
+![Neu &#x200B;](../assets/new.svg)**Erhöhte Testabdeckung.** Es wurden viele neue Funktionstests eingeführt. Fast alle manuellen Inventarszenarien werden mit automatisierten Tests abgedeckt.
 
 ![Bekanntes Problem](../assets/bug.svg) Zahlreiche Fehlerbehebungen zur Behebung von Problemen mit Gutschriften, gruppierten Produkten sowie Quell- und Lagerdatenaktionen.
 
@@ -236,15 +247,15 @@ DELETE FROM inventory_reservation where reservation_id IN (result_of_the_first_q
 
 [!DNL Inventory Management] 1.1.3 (Modulversion: `inventory-composer-metapackage = 1.1.3`) wird mit Version 2.3.3 unterstützt und ist mit den Versionen 2.3.2, 2.3.1 und 2.3.0 von Adobe Commerce, Adobe Commerce on Cloud Infrastructure und der Magento Open Source Code-Basis kompatibel.
 
-![Problem behoben ](../assets/fix.svg)**Bessere Integration mit Adobe Commerce- und B2B-Funktionen.** [!DNL Inventory Management] funktioniert jetzt mit den folgenden Funktionen für Websites, die nicht standardmäßige Inventarquellen und -bestände verwenden, ordnungsgemäß:
+![Problem behoben &#x200B;](../assets/fix.svg)**Bessere Integration mit Adobe Commerce- und B2B-Funktionen.** [!DNL Inventory Management] funktioniert jetzt mit den folgenden Funktionen für Websites, die nicht standardmäßige Inventarquellen und -bestände verwenden, ordnungsgemäß:
 
 - Bestellung nach SKU (Adobe Commerce)
 - Schnellbestellung (B2B)
 - Anforderungslisten (B2B)
 
-![Neu ](../assets/new.svg)**Erhöhte Leistung.** Die Leistung beim Durchsuchen des Storefront-Katalogs wurde für Websites verbessert, auf denen der standardmäßige Inventarbestand und die Standardquelle ausgeführt werden.
+![Neu &#x200B;](../assets/new.svg)**Erhöhte Leistung.** Die Leistung beim Durchsuchen des Storefront-Katalogs wurde für Websites verbessert, auf denen der standardmäßige Inventarbestand und die Standardquelle ausgeführt werden.
 
-![Neu ](../assets/new.svg)**Erhöhte Testabdeckung.** Die Abdeckung der automatisierten Funktions- und Integrationstests hat deutlich zugenommen.
+![Neu &#x200B;](../assets/new.svg)**Erhöhte Testabdeckung.** Die Abdeckung der automatisierten Funktions- und Integrationstests hat deutlich zugenommen.
 
 ## 1.1.2
 

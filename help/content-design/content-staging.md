@@ -5,10 +5,17 @@ exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 1015
@@ -32,7 +39,7 @@ Felder, die sich auf das Start- und Enddatum beziehen, wurden aus Adobe Commerce
 
 Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h., jede Entität kann nur jeweils eine geplante Aktualisierung haben. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb ihres Zeitrahmens angewendet. Daher kann eine Entität nicht gleichzeitig verschiedene geplante Aktualisierungen für verschiedene Store-Ansichten haben. Alle Entitätsattributwerte in allen Store-Ansichten, die nicht von der aktuellen geplanten Aktualisierung betroffen sind, werden aus den Standardwerten übernommen, nicht aus der vorherigen geplanten Aktualisierung.
 
-Wenn ein neues geplantes Update für eines der folgenden Objekte erstellt wird, wird eine entsprechende Kampagne als Platzhalter erstellt, und das _[!UICONTROL Scheduled Changes]_wird am oberen Rand der Seite angezeigt. Die Platzhalterkampagne hat ein Startdatum, aber kein Enddatum. Sie können Aktualisierungen des Inhalts als Teil einer Kampagne planen und dann eine Vorschau anzeigen und die Änderungen nach Datum, Uhrzeit oder Store-Ansicht freigeben. Nachdem Sie eine neue Kampagne für ein Objekt erstellt haben, können Sie sie anderen Objekten als geplante Aktualisierung zuweisen.
+Wenn ein neues geplantes Update für eines der folgenden Objekte erstellt wird, wird eine entsprechende Kampagne als Platzhalter erstellt, und das _[!UICONTROL Scheduled Changes]_&#x200B;wird am oberen Rand der Seite angezeigt. Die Platzhalterkampagne hat ein Startdatum, aber kein Enddatum. Sie können Aktualisierungen des Inhalts als Teil einer Kampagne planen und dann eine Vorschau anzeigen und die Änderungen nach Datum, Uhrzeit oder Store-Ansicht freigeben. Nachdem Sie eine neue Kampagne für ein Objekt erstellt haben, können Sie sie anderen Objekten als geplante Aktualisierung zuweisen.
 
 - [PRODUCT](../catalog/product-scheduled-changes.md)
 - [Kategorien](../catalog/category-scheduled-changes.md)
@@ -45,7 +52,7 @@ Wenn ein neues geplantes Update für eines der folgenden Objekte erstellt wird, 
 
 1. **Erstellen des Grundlinieninhalts**
 
-   Die Grundlinie ist der Inhalt eines Assets ohne Kampagne und umfasst alles, was sich unter dem Abschnitt _[!UICONTROL Scheduled Changes]_oben auf der Seite befindet. Der Baseline-Inhalt wird immer verwendet, es sei denn, es gibt eine aktive Kampagne mit Änderungen, die für diesen Ort in der Timeline geplant sind.
+   Die Grundlinie ist der Inhalt eines Assets ohne Kampagne und umfasst alles, was sich unter dem Abschnitt _[!UICONTROL Scheduled Changes]_&#x200B;oben auf der Seite befindet. Der Baseline-Inhalt wird immer verwendet, es sei denn, es gibt eine aktive Kampagne mit Änderungen, die für diesen Ort in der Timeline geplant sind.
 
 1. **Erstellen der ersten Kampagne**
 
@@ -61,7 +68,7 @@ Wenn ein neues geplantes Update für eines der folgenden Objekte erstellt wird, 
 
    >[!NOTE]
    >
-   >Wenn eine Kampagne mit mehr als einer Entität verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard“ bearbeitet ](content-staging-dashboard.md).
+   >Wenn eine Kampagne mit mehr als einer Entität verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard“ bearbeitet &#x200B;](content-staging-dashboard.md).
 
 1. **Baseline-Inhalt wiederherstellen**
 

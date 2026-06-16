@@ -3,11 +3,20 @@ title: Administratorraster-Steuerelemente
 description: Erfahren Sie, wie Sie in Admin-Seiten arbeiten, die Daten verwalten und eine Sammlung von Datensätzen in einem Raster anzeigen.
 exl-id: a4a9531d-eb2f-41d6-bb36-dc6d8811ee95
 TQID: https://experienceleague.adobe.com/-BGRS0qjthE3-oWu1DbrxeEUVk1aXdgW-RPRO1dYND0
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 519
@@ -55,7 +64,7 @@ Admin-Seiten, die Daten verwalten, zeigen eine Sammlung von Datensätzen in eine
    >
    >Produktdaten können nicht aus dem Raster exportiert werden. Weitere Informationen finden Sie unter [Exportieren](../systems/data-export.md).
 
-1. Wählen Sie _Menü_ Export![ (](../assets/icon-export.png)) oben rechts eines der folgenden Dateiformate aus:
+1. Wählen Sie _Menü_ Export![&#x200B; (](../assets/icon-export.png)) oben rechts eines der folgenden Dateiformate aus:
 
    - `CSV`
    - `Excel XML`
@@ -104,7 +113,7 @@ Scrollen Sie nach unten, um alle verfügbaren Spalten anzuzeigen.
 
 ### Ändern der Rasteransicht
 
-1. Klicken Sie auf _Steuerelement_ Ansicht![ (](../assets/icon-view-eye.png)).
+1. Klicken Sie auf _Steuerelement_ Ansicht![&#x200B; (](../assets/icon-view-eye.png)).
 
 1. Führen Sie einen der folgenden Schritte aus:
 

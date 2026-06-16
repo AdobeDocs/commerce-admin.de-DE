@@ -4,11 +4,25 @@ description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UI
 exl-id: fc25ae80-aaa7-42c4-bba2-f03d3caa7970
 feature: Configuration, Catalog Management
 TQID: https://experienceleague.adobe.com/YbozeuP9oPvSfHp1zSajemcBuqgkfrkxbfiJmuD625U
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 3350
@@ -63,7 +77,7 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on List Default Value] | Shop-Ansicht | Bestimmt die Anzahl der standardmäßig pro Seite angezeigten Produkte in der Listenansicht. |
 | Produktliste sortieren nach | Shop-Ansicht | Bestimmt die Sortierreihenfolge der Suchergebnisliste. Die Auswahl der Optionen wird durch die Anzeigeeinstellungen der Kategorie und die verfügbaren Attribute bestimmt, die als `Used for Sorting in Product Listing` festgelegt sind. Der Standardwert ist auf `Use All Available Attributes` festgelegt und umfasst normalerweise den besten Wert, den Namen und den Preis. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | Shop-Ansicht | Ist hierfür `Yes` festgelegt, wird die Option `ALL` in das Steuerelement „Pro Seite anzeigen“ einbezogen. |
-| [!UICONTROL Remember Category Pagination] | Global | Wenn auf `Yes` festgelegt, werden die aktuellen Paginierungswerte der Kategorie gespeichert, wenn Kundinnen und Kunden in (Produktlisten[ von einer Kategorie zur anderen ](../../catalog/navigation-product-listings.md). Wenn Sie den Wert speichern, wird mehr Cache-Speicher belegt. Dies kann sich auf die Art und Weise auswirken, wie Seiten von Suchmaschinen indiziert werden. Optionen: `Yes` / `No` (Standard) |
+| [!UICONTROL Remember Category Pagination] | Global | Wenn auf `Yes` festgelegt, werden die aktuellen Paginierungswerte der Kategorie gespeichert, wenn Kundinnen und Kunden in (Produktlisten[&#x200B; von einer Kategorie zur anderen &#x200B;](../../catalog/navigation-product-listings.md). Wenn Sie den Wert speichern, wird mehr Cache-Speicher belegt. Dies kann sich auf die Art und Weise auswirken, wie Seiten von Suchmaschinen indiziert werden. Optionen: `Yes` / `No` (Standard) |
 | [!UICONTROL Use Flat Catalog Category] | Global | Aktiviert die [flache Kategoriestruktur](../../catalog/catalog-flat.md) (nicht empfohlen). Optionen: `Yes` / `No` |
 | [!UICONTROL Use Flat Catalog Product] | Global | Aktiviert die flache Produktstruktur. (nicht empfohlen) Optionen: `Yes` / `No` |
 | [!UICONTROL Swatches per Product] | Shop-Ansicht | Bestimmt die Anzahl der für jedes Produkt verfügbaren Farbfelder. Standard: `16` |
@@ -216,12 +230,12 @@ ht-degree: 0%
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | Shop-Ansicht | Bestimmt, ob _Beliebte Suchbegriffe_ im Store implementiert sind. Diese Einstellung gilt nicht für Stores, die die [Live Search“ ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). Optionen: `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | Shop-Ansicht | Bestimmt, ob _Beliebte Suchbegriffe_ im Store implementiert sind. Diese Einstellung gilt nicht für Stores, die die [Live Search“ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html). Optionen: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Shop-Ansicht | Bestimmt, ob ein Suffix, wie HTML oder HTML, auf Produkt-URLs angewendet wird. Wenn verwendet, wird ein Punkt vor dem Suffix nicht eingefügt, da er automatisch angewendet wird. |
 | [!UICONTROL Category URL Suffix] | Shop-Ansicht | Bestimmt, ob ein Suffix wie HTML oder HTML auf Kategorie-URLs angewendet wird. Wenn verwendet, wird ein Punkt vor dem Suffix nicht eingefügt, da er automatisch angewendet wird. |
 | [!UICONTROL Use Categories Path for Product URLs] | Shop-Ansicht | Bestimmt, ob Kategoriepfade in Produkt-URLs in der Storefront enthalten sind. Dies kann dazu führen, dass mehrere URLs auf dieselbe Seite verweisen, was sich auf den Suchrang auswirken kann. Weitere Informationen finden Sie unter [Kanonisches Meta-Tag](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | Shop-Ansicht | Legt fest, ob bei jeder Änderung eines URL-Schlüssels automatisch eine permanente Umleitung erstellt wird Nach der Implementierung ist das Kontrollkästchen Benutzerdefinierte Umleitung für alte URL erstellen unter dem Feld Produkt-URL-Schlüssel standardmäßig aktiviert. Optionen: `Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | Global | Legt fest, ob Adobe Commerce Daten generiert und in Rewrite-Tabellen speichert, wenn ein Benutzer eine Kategorie mit vielen zugewiesenen Produkten speichert.  <br/><br/>Das Ändern dieser Option wirkt sich nicht darauf aus, wie Produkt-URLs in Adobe Commerce aufgelöst werden, da das System Produkt-URLs unabhängig von dieser Einstellung automatisch auflöst. <br/><br/>Optionen: `Yes` / `No` <br/><br/>**_Important:_** Das Speichern dieser generierten Daten in einer URL-Umschreibungstabelle kann die Leistung beeinträchtigen. Weitere Informationen finden [ unter ](../../merchandising-promotions/url-redirect-product-automatic.md) Produktweiterleitungen . |
+| [!UICONTROL Generate "category/product" URL Rewrites] | Global | Legt fest, ob Adobe Commerce Daten generiert und in Rewrite-Tabellen speichert, wenn ein Benutzer eine Kategorie mit vielen zugewiesenen Produkten speichert.  <br/><br/>Das Ändern dieser Option wirkt sich nicht darauf aus, wie Produkt-URLs in Adobe Commerce aufgelöst werden, da das System Produkt-URLs unabhängig von dieser Einstellung automatisch auflöst. <br/><br/>Optionen: `Yes` / `No` <br/><br/>**_Important:_** Das Speichern dieser generierten Daten in einer URL-Umschreibungstabelle kann die Leistung beeinträchtigen. Weitere Informationen finden [&#x200B; unter &#x200B;](../../merchandising-promotions/url-redirect-product-automatic.md) Produktweiterleitungen . |
 | [!UICONTROL Apply transliteration for product URL] | Shop-Ansicht | Bestimmt, ob beim Erstellen oder Aktualisieren von Produkt-URLs Transliteration angewendet wird. Optionen: `Yes` / `No`. Die Standardeinstellung ist `Yes`. <br/><br/>Für bestimmte Anwendungsfälle sollten Sie die Transliteration deaktivieren. Wenn Sie beispielsweise einen Online-Store auf Chinesisch betreiben, empfehlen die Best Practices von SEO, dass die Produkt-URLs mit dem Produktnamen übereinstimmen. Wenn Sie die Option auf `No` setzen, können chinesische Zeichen in Produkt-URLs anstelle einer ASCII-Entsprechung verwendet werden. |
 | [!UICONTROL Page Title Separator] | Shop-Ansicht | Gibt das Zeichen an, das den Kategorienamen und die Unterkategorie in der Titelleiste des Browsers trennt. |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | Shop-Ansicht | Wenn mehrere URLs auf dieselbe Kategorieseite verweisen, verwendet diese Option ein kanonisches Meta-Tag, um die Kategorie-URL zu identifizieren, die Suchmaschinen indizieren sollten. Die URL enthält einen vollständigen Namen für die Kategorie unter Verwendung des Meta-Tags. Dies reduziert doppelte Inhalte und verbessert die SEO. Optionen: `Yes` / `No` |
@@ -289,7 +303,7 @@ Adobe Commerce unterstützt OpenSearch und Elasticsearch. Die Adobe Commerce-Ver
 | [!UICONTROL OpenSearch HTTP Password] | Global | Wenn _Elasticsearch HTTP-Authentifizierung aktivieren_ auf `Yes` gesetzt ist, gibt das Kennwort für die OpenSearch- oder Elasticsearch HTTP-Authentifizierung an. |
 | [!UICONTROL OpenSearch Server Timeout] | Global | Bestimmt die Anzahl der Sekunden, nach denen eine Anfrage an den OpenSearch- oder Elasticsearch-Server das Zeitlimit überschreitet. Standardwert: `15` |
 | [!UICONTROL Test Connection] |  | Validiert die OpenSearch- oder Elasticsearch-Verbindung. |
-| [!UICONTROL Enable Search Recommendations] | Shop-Ansicht | Bestimmt, ob Suchempfehlungen angeboten werden, wenn eine Suche keine Ergebnisse zurückgibt und auf der Suchergebnisseite unter dem Abschnitt `Related search terms` angezeigt wird. Optionen: `Yes` / `No` <br/>Wenn auf „Ja“ gesetzt, werden zusätzliche Optionen für _[!UICONTROL Search Recommendations Count]_und_[!UICONTROL Shows Results Count for Each Recommendation]_ angezeigt. |
+| [!UICONTROL Enable Search Recommendations] | Shop-Ansicht | Bestimmt, ob Suchempfehlungen angeboten werden, wenn eine Suche keine Ergebnisse zurückgibt und auf der Suchergebnisseite unter dem Abschnitt `Related search terms` angezeigt wird. Optionen: `Yes` / `No` <br/>Wenn auf „Ja“ gesetzt, werden zusätzliche Optionen für _[!UICONTROL Search Recommendations Count]_&#x200B;und&#x200B;_[!UICONTROL Shows Results Count for Each Recommendation]_ angezeigt. |
 | [!UICONTROL Search Recommendations Count] | Shop-Ansicht | Gibt die Anzahl der Suchbegriffe an, die als Empfehlungen angeboten werden. Standardmäßig werden nicht mehr als fünf angezeigt. |
 | [!UICONTROL Show Results Count for Each Recommendation] | Shop-Ansicht | Bei Festlegung auf `Yes` wird die Anzahl der für die vorgeschlagene Suchempfehlung gefundenen Produkte in Klammern angezeigt. Optionen: `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | Shop-Ansicht | Legt fest, ob Suchvorschläge für häufige Rechtschreibfehler angezeigt werden. Wenn diese Option aktiviert ist, werden Suchvorschläge für alle Anfragen angeboten, die keine Ergebnisse zurückgeben und unter dem Abschnitt `Did you mean` auf der Seite **Suchergebnisse** angezeigt werden. Suchvorschläge können die Leistung der Suche beeinträchtigen. Bei `Yes` werden zusätzliche Optionen für Suchempfehlungen aktivieren und zugehörige Felder angezeigt. Optionen: `Yes` / `No` |
@@ -312,7 +326,7 @@ Adobe Commerce unterstützt OpenSearch und Elasticsearch. Die Adobe Commerce-Ver
 | [!UICONTROL Default Link Title] | Shop-Ansicht | Der Standardlink für alle herunterladbaren Titel. |
 | [!UICONTROL Opens Links in New Window] | Website | Bestimmt, ob der Download-Link in einem neuen Browser-Fenster geöffnet wird. Optionen: `Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | Shop-Ansicht | Bestimmt, wie der Link zum herunterladbaren Inhalt als E-Mail-Anhang oder als Inline-Link in einem Browser-Fenster bereitgestellt wird. Optionen: <br/>**`Attachment`**- Der Download-Link wird als E-Mail-Anhang bereitgestellt.<br/>**`Inline`** - Der Download-Link wird als Inline-Link auf einer Web-Seite bereitgestellt. |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Website | Legt fest, ob Gäste, die herunterladbare Produkte kaufen, sich für ein Konto registrieren und sich anmelden müssen, um den Checkout-Prozess abzuschließen. Optionen: <br/>**`Yes`**- Wenn der Warenkorb herunterladbare Produkte enthält, muss sich der Gast entweder für ein Konto registrieren oder bei einem vorhandenen Konto anmelden, um den Kauf abzuschließen.<br/>**`No`** - Der Download-Link wird als Inline-Link im Textkörper der E-Mail-Nachricht bereitgestellt.  <br/> _**Hinweis**_ Der Gast-Checkout ist nur für Download-Produkte verfügbar, wenn die Option Freigeben auf `Yes` festgelegt ist. |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Website | Legt fest, ob Gäste, die herunterladbare Produkte kaufen, sich für ein Konto registrieren und sich anmelden müssen, um den Checkout-Prozess abzuschließen. Optionen: <br/>**`Yes`**- Wenn der Warenkorb herunterladbare Produkte enthält, muss sich der Gast entweder für ein Konto registrieren oder bei einem vorhandenen Konto anmelden, um den Kauf abzuschließen.<br/>**`No`** - Der Download-Link wird als Inline-Link im Textkörper der E-Mail-Nachricht bereitgestellt.  <br/> _&#x200B;**Hinweis**&#x200B;_ Der Gast-Checkout ist nur für Download-Produkte verfügbar, wenn die Option Freigeben auf `Yes` festgelegt ist. |
 
 {style="table-layout:auto"}
 
