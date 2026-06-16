@@ -3,9 +3,15 @@ title: Daten exportieren
 description: Erfahren Sie mehr über Datenexportfilter und -attribute und darüber, wie Sie Daten aus Ihrem Store exportieren.
 exl-id: 80e7a2fc-beaa-416e-a00f-a3cad5055975
 feature: Products, Customers, Data Import/Export
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+TQID: https://experienceleague.adobe.com/492se11mto54gQuwodcRcALtCf7LJe3GGKQntW9kkWQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: 821
 ht-degree: 0%
 
 ---
@@ -28,9 +34,9 @@ Exportfilter werden verwendet, um die Daten, die Sie in die Exportdatei aufnehme
 
 Sie können Filter verwenden, um zu bestimmen, welche SKUs in der Exportdatei enthalten sind. Wenn Sie beispielsweise einen Wert im Filter Herstellungsland eingeben, enthält die exportierte CSV-Datei nur die in diesem Land hergestellten Produkte.
 
-Der Filtertyp entspricht dem Datentyp. Bei Datumsfeldern können Sie das Datum im Kalender (![) &#x200B;](../assets/icon-calendar.png). Weitere Informationen finden [&#x200B; unter &quot;](../catalog/attributes-input-types.md)-Eingabetypen“.
+Der Filtertyp entspricht dem Datentyp. Bei Datumsfeldern können Sie das Datum im Kalender (![) ](../assets/icon-calendar.png). Weitere Informationen finden [ unter &quot;](../catalog/attributes-input-types.md)-Eingabetypen“.
 
-Das Format des Datums wird durch das [Gebietsschema“ &#x200B;](../getting-started/store-details.md#locale-options).
+Das Format des Datums wird durch das [Gebietsschema“ ](../getting-started/store-details.md#locale-options).
 
 Um nur Datensätze mit einem bestimmten Wert einzubeziehen, z. B. eine SKU, geben Sie den Wert in das Feld Filter ein. Einige Felder wie „Preis“, „Gewicht“ und „Produkt als neu festlegen“ haben einen Wertebereich von/bis .
 
@@ -80,7 +86,7 @@ Das Kontrollkästchen in der ersten Spalte wird verwendet, um Attribute aus der 
 
 1. Scrollen Sie nach unten und klicken Sie in der rechten unteren Ecke der Seite auf **[!UICONTROL Continue]** .
 
-   Nach Abschluss der Aufgabe wird die Datei über eine Nachrichtenwarteschlange verarbeitet (stellen Sie sicher, dass Ihr Cron-Auftrag ausgeführt wird). Die exportierte Datei wird im `var/export/ folder` gespeichert. Weitere Informationen zur Nachrichtenwarteschlange finden Sie unter [Verwalten von Nachrichtenwarteschlangen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=de) im _Konfigurationshandbuch_.
+   Nach Abschluss der Aufgabe wird die Datei über eine Nachrichtenwarteschlange verarbeitet (stellen Sie sicher, dass Ihr Cron-Auftrag ausgeführt wird). Die exportierte Datei wird im `var/export/ folder` gespeichert. Weitere Informationen zur Nachrichtenwarteschlange finden Sie unter [Verwalten von Nachrichtenwarteschlangen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) im _Konfigurationshandbuch_.
 
    Sie können die exportierte CSV-Datei als Tabelle speichern oder öffnen, dann die Daten bearbeiten und sie wieder in Ihren Store importieren.
 
@@ -92,4 +98,4 @@ Das Kontrollkästchen in der ersten Spalte wird verwendet, um Attribute aus der 
 
 Hilfe bei der Fehlerbehebung bei Problemen mit dem Datenexport finden Sie in den folgenden Artikeln der Commerce-Support-Wissensdatenbank:
 
-- [Exportierte Produkte.csv-Datei wird nicht angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=de)
+- [Exportierte .csv-Produktdatei wird nicht angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)

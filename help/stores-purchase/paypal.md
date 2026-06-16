@@ -3,10 +3,16 @@ title: PayPal-Zahlungslösungen
 description: Erfahren Sie mehr über die Integrationen der PayPal-Zahlungslösung, die für Ihren Shop verfügbar sind.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/Rj1ey1lK7PkyUR-m6CPw6v-C-Mie-vmJtlZAA917K28
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: 1248
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ PayPal ist ein weltweit führender Anbieter von Online-Zahlungen und bietet Ihre
 >[!IMPORTANT]
 >
 >**PSD2-Anforderungen:** <br/>
->Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2&rbrace;-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Bei den meisten PayPal-Lösungen ist keine Maßnahme erforderlich, um PSD2 einzuhalten, da diese Anforderungen von PayPal erfüllt werden.
+>Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die die [PSD2}-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Bei den meisten PayPal-Lösungen ist keine Maßnahme erforderlich, um PSD2 einzuhalten, da diese Anforderungen von PayPal erfüllt werden.
 
 ## PayPal-Geschäftskonto
 
@@ -98,12 +104,12 @@ PayPal bietet zwei Payment Gateway-Lösungen für Ihr Unternehmen. Sie können P
 
 ## PayPal-Betrugsmanagementfilter
 
-PayPal-Filter zur Betrugsverwaltung erleichtern die Erkennung und Reaktion auf betrügerische Transaktionen und können so konfiguriert werden, dass riskantere Zahlungen markiert, zur Überprüfung gespeichert oder verweigert werden. Die mit Commerce [Bestellstatus) &#x200B;](order-status.md) Werte wurden entsprechend den Einstellungen für den Betrugsfilter geändert:
+PayPal-Filter zur Betrugsverwaltung erleichtern die Erkennung und Reaktion auf betrügerische Transaktionen und können so konfiguriert werden, dass riskantere Zahlungen markiert, zur Überprüfung gespeichert oder verweigert werden. Die mit Commerce [Bestellstatus) ](order-status.md) Werte wurden entsprechend den Einstellungen für den Betrugsfilter geändert:
 
 | Aktion | Ergebnis |
 | --- | --- |
 | [!UICONTROL Review] | Die verdächtige Bestellung erhält den Status _Zahlungsüberprüfung_ wenn die Bestellung aufgegeben wird. Sie können die Bestellung überprüfen und die Zahlung im Admin oder auf der PayPal-Seite genehmigen oder stornieren. Wenn Sie auf **[!UICONTROL Accept Payment]** oder **[!UICONTROL Deny Payment]** klicken, werden keine neuen Transaktionen für die Bestellung erstellt. <br/><br/>Wenn Sie den Status der Transaktion auf der PayPal-Website ändern, müssen Sie auf der Seite Bestellung des Administrators auf **[!UICONTROL Get Payment Update]** klicken, um die Änderungen anzuwenden. Wenn Sie auf **[!UICONTROL Accept Payment]** oder **[!UICONTROL Deny Payment]** klicken, werden die auf der PayPal-Website vorgenommenen Änderungen übernommen. |
-| [!UICONTROL Deny] | Der Verdachtsauftrag kann vom Kunden nicht erteilt werden, da die entsprechende Transaktion von PayPal abgelehnt wird. <br/><br/>Um die Zahlung vom Administrator abzulehnen, klicken Sie oben rechts auf der Seite auf **[!UICONTROL Deny Payment]** . Der Bestellstatus ändert sich in `Canceled`, die Transaktion wird rückgängig gemacht und das Guthaben wird auf dem Kundenkonto freigegeben. Die entsprechenden Informationen werden im _[!UICONTROL Comments History]_&#x200B;Abschnitt der Bestellansicht hinzugefügt. |
+| [!UICONTROL Deny] | Der Verdachtsauftrag kann vom Kunden nicht erteilt werden, da die entsprechende Transaktion von PayPal abgelehnt wird. <br/><br/>Um die Zahlung vom Administrator abzulehnen, klicken Sie oben rechts auf der Seite auf **[!UICONTROL Deny Payment]** . Der Bestellstatus ändert sich in `Canceled`, die Transaktion wird rückgängig gemacht und das Guthaben wird auf dem Kundenkonto freigegeben. Die entsprechenden Informationen werden im _[!UICONTROL Comments History]_Abschnitt der Bestellansicht hinzugefügt. |
 | [!UICONTROL Flag] | Der Status der verdächtigen Bestellung wird bei ihrer Platzierung `Processing`. Die entsprechende Transaktion ist in der Liste der Händlerkontobuchungen mit einer Markierung gekennzeichnet. |
 
 {style="table-layout:auto"}

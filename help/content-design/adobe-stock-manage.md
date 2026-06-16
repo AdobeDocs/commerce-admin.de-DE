@@ -3,10 +3,15 @@ title: Verwenden von Adobe Stock-Bildern
 description: Verbessern Sie Ihre Shopseiten mit Bildern aus Adobe Stock.
 exl-id: 8f7d6f0a-511f-4f4b-821d-10a06e18041e
 feature: CMS, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/itiuGqPqSJAuYHf84wspWxkarrQ1npYIb-i20Xvkzh0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: 1051
 ht-degree: 0%
 
 ---
@@ -21,13 +26,13 @@ Die [[!DNL Media Gallery]](media-gallery.md) bietet eine direkte Integration mit
 
 Der Adobe Stock-Suchbereich ist verfügbar, wenn Sie [eine Seite hinzufügen oder bearbeiten](page-add.md), wenn Sie [eine Kategorie erstellen oder bearbeiten](../catalog/category-create.md) oder wenn Sie [Bilder über den Inhaltseditor einfügen](editor-insert-image.md).
 
-**_So suchen Sie Adobe Stock-Assets und fügen ein Stock-Bild zu einer Seite hinzu:_**
+**_Suchen von Adobe Stock-Assets und Hinzufügen eines Stock-Bildes zu einer Seite:_**
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
 1. Klicken Sie auf **[!UICONTROL Add a New Page]**.
 
-   Wenn Sie eine vorhandene Seite bearbeiten möchten, können Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Select]**&#x200B;klicken und **[!UICONTROL Edit]**&#x200B;auswählen.
+   Wenn Sie eine vorhandene Seite bearbeiten möchten, können Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**klicken und **[!UICONTROL Edit]**auswählen.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Content]** und führen Sie folgende Schritte aus:
 
@@ -39,7 +44,7 @@ Der Adobe Stock-Suchbereich ist verfügbar, wenn Sie [eine Seite hinzufügen ode
 
 1. Klicken Sie auf **[!UICONTROL Search Adobe Stock]**.
 
-**_So suchen Sie Adobe Stock-Assets und fügen ein Stock-Bild zu einer Kategorie hinzu:_**
+**_Suchen von Adobe Stock-Assets und Hinzufügen eines Stock-Bildes zu einer Kategorie:_**
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Categories]**.
 
@@ -47,7 +52,7 @@ Der Adobe Stock-Suchbereich ist verfügbar, wenn Sie [eine Seite hinzufügen ode
 
    Wenn Sie das Bild zu einer vorhandenen Kategorie hinzufügen möchten, klicken Sie auf den Kategorienamen in der Liste auf der linken Seite.
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Content]** und klicken Sie unter _[!UICONTROL Category Image]_&#x200B;auf **[!UICONTROL Select from Gallery]**.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Content]** und klicken Sie unter _[!UICONTROL Category Image]_auf **[!UICONTROL Select from Gallery]**.
 
 1. Klicken Sie auf **[!UICONTROL Search Adobe Stock]**.
 
@@ -77,7 +82,7 @@ Standardmäßig werden die Suchergebnisse aus einer von Adobe Stock kuratierten 
 
 ### Filtern von Adobe Stock-Assets
 
-1. [Führen Sie eine Keyword-Suche nach Adobe Stock-Assets &#x200B;](#search-for-adobe-stock-assets-by-keywords).
+1. [Führen Sie eine Keyword-Suche nach Adobe Stock-Assets ](#search-for-adobe-stock-assets-by-keywords).
 
 1. Klicken Sie auf **[!UICONTROL Filters]**.
 
@@ -102,7 +107,7 @@ Standardmäßig werden die Suchergebnisse aus einer von Adobe Stock kuratierten 
 
 ## Anzeigen von Bilddetails
 
-Jedes Bild verfügt über Details, die angezeigt werden können. Über diese Detailansicht sind zusätzliche bildspezifische Aktionen verfügbar[&#x200B; z. B](adobe-stock-save-preview.md) Speichern von Bildvorschauen oder [Speichern (und optional Lizenzieren](adobe-stock-license-image.md) von Bildern).
+Jedes Bild verfügt über Details, die angezeigt werden können. Über diese Detailansicht sind zusätzliche bildspezifische Aktionen verfügbar[ z. B](adobe-stock-save-preview.md) Speichern von Bildvorschauen oder [Speichern (und optional Lizenzieren](adobe-stock-license-image.md) von Bildern).
 
 1. [Zugriff auf das Adobe Stock-Suchraster](#access-the-adobe-stock-search-grid).
 
@@ -119,13 +124,13 @@ Jedes Bild verfügt über Details, die angezeigt werden können. Über diese Det
 
 ## Beim Adobe-Konto anmelden
 
-Um vollständigen Zugriff auf ein Bild zu erhalten und das Adobe Stock-Wasserzeichen zu entfernen, müssen Sie [mit einem Adobe-Konto anmelden](https://helpx.adobe.com/de/manage-account/using/access-adobe-id-account.html) und Credits erwerben, um Lizenzrechte für die Verwendung eines Bildes zu erhalten.
+Um vollständigen Zugriff auf ein Bild zu erhalten und das Adobe Stock-Wasserzeichen zu entfernen, müssen Sie [mit einem Adobe-Konto anmelden](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html) und Credits erwerben, um Lizenzrechte für die Verwendung eines Bildes zu erhalten.
 
 1. [Zugriff auf das Adobe Stock-](#access-the-adobe-stock-search-grid).
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Sign In]** .
 
-   Ein neues Browser-Fenster führt Sie durch den [Adobe-Anmeldeprozess](https://helpx.adobe.com/de/manage-account/using/access-adobe-id-account.html).
+   Ein neues Browser-Fenster führt Sie durch den [Adobe-Anmeldeprozess](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html).
 
    Nach Abschluss des Anmeldevorgangs wird der lizenzierte Status von Bildern in den Suchergebnissen als Kennzeichnung angezeigt.
 
@@ -165,7 +170,7 @@ Eine Bildvorschau ist eine Version eines Adobe Stock-Assets mit Wasserzeichen. B
 
 #### Speichern eines lizenzierten Bildes
 
-Adobe Stock-Assets, die Sie für Ihre Produktions-[!DNL Commerce] verwenden möchten, sollten lizenziert werden. Durch die Lizenzierung wird sichergestellt, dass Sie rechtlichen Zugriff auf das Bild haben und das Adobe Stock-Wasserzeichen, das in allen [Bildvorschauen“ vorhanden ist, entfernt &#x200B;](adobe-stock-save-preview.md). Um Bilder zu lizenzieren oder bereits lizenzierte Bilder zu speichern, müssen Sie bei Ihrem Adobe-Konto angemeldet sein.
+Adobe Stock-Assets, die Sie für Ihre Produktions-[!DNL Commerce] verwenden möchten, sollten lizenziert werden. Durch die Lizenzierung wird sichergestellt, dass Sie rechtlichen Zugriff auf das Bild haben und das Adobe Stock-Wasserzeichen, das in allen [Bildvorschauen“ vorhanden ist, entfernt ](adobe-stock-save-preview.md). Um Bilder zu lizenzieren oder bereits lizenzierte Bilder zu speichern, müssen Sie bei Ihrem Adobe-Konto angemeldet sein.
 
 1. [Beim Adobe-Konto anmelden](#log-in-to-your-adobe-account).
 
@@ -179,9 +184,9 @@ Adobe Stock-Assets, die Sie für Ihre Produktions-[!DNL Commerce] verwenden möc
 
      >[!NOTE]
      >
-     >Sie müssen über [Adobe Stock-Guthaben](https://helpx.adobe.com/de/stock/help/credit-packs.html) in Ihrem Konto verfügen, um das Bild zu lizenzieren.
+     >Sie müssen über [Adobe Stock-Guthaben](https://helpx.adobe.com/stock/help/credit-packs.html) in Ihrem Konto verfügen, um das Bild zu lizenzieren.
 
-   In dieser Aktion werden Sie aufgefordert, einen Dateinamen anzugeben, mit dem das Bild im [Medienspeicher“ gespeichert &#x200B;](media-storage.md). Es wird ein standardmäßiger Dateiname bereitgestellt, Sie können den Namen jedoch an Ihre Anforderungen anpassen.
+   In dieser Aktion werden Sie aufgefordert, einen Dateinamen anzugeben, mit dem das Bild im [Medienspeicher“ gespeichert ](media-storage.md). Es wird ein standardmäßiger Dateiname bereitgestellt, Sie können den Namen jedoch an Ihre Anforderungen anpassen.
 
 1. Klicken Sie auf **[!UICONTROL Confirm]**.
 

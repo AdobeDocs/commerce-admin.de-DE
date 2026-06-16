@@ -4,10 +4,17 @@ description: Erfahren Sie, wie Sie CAPTCHA für den Admin-Zugriff und verschiede
 exl-id: b2867ad5-7d48-4e9f-b84e-3cf0a14ec16f
 role: Admin
 feature: Configuration, Security
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/w7DLKLlK4MsGrK9kOw3-dsgEUqsGhszgjiZ7F9Vr0ak
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: 992
 ht-degree: 0%
 
 ---
@@ -52,7 +59,7 @@ Als zusätzliche Sicherheitsstufe können Sie der Seite „Admin-Anmeldung“ un
    - Legen Sie **[!UICONTROL Displaying Modes]** auf eine der folgenden Einstellungen fest:
 
       - `Always` - CAPTCHA ist immer erforderlich, um sich beim Administrator anzumelden.
-      - `After number of attempts to login` - Diese Option gilt nur für das Admin-Anmeldeformular. Wenn diese Option ausgewählt ist, wird das Feld _[!UICONTROL Number of Unsuccessful Attempts to Login]_&#x200B;angezeigt. Geben Sie die Anzahl der Anmeldeversuche ein, die Sie zulassen möchten. Der Wert 0 (Null) entspricht der Einstellung des Anzeigemodus `Always`.
+      - `After number of attempts to login` - Diese Option gilt nur für das Admin-Anmeldeformular. Wenn diese Option ausgewählt ist, wird das Feld _[!UICONTROL Number of Unsuccessful Attempts to Login]_angezeigt. Geben Sie die Anzahl der Anmeldeversuche ein, die Sie zulassen möchten. Der Wert 0 (Null) entspricht der Einstellung des Anzeigemodus `Always`.
 
      Um die Anzahl erfolgloser Anmeldeversuche zu verfolgen, wird jeder Anmeldeversuch unter einer E-Mail-Adresse und von einer IP-Adresse gezählt. Die maximale Anzahl von Anmeldeversuchen, die von derselben IP-Adresse aus zulässig sind, beträgt 1.000. Diese Einschränkung gilt nur, wenn CAPTCHA aktiviert ist.
 

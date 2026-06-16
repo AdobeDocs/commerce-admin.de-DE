@@ -3,9 +3,15 @@ title: Steuerrichtlinien nach Land
 description: Überprüfen Sie die empfohlenen Steuereinstellungen je nach Land.
 exl-id: 027da0a2-0ff4-40a7-9b9c-eefad888bb7a
 feature: Taxes
-source-git-commit: f8254db7d69e58c8e9a78948ee6e40f5ea88cea0
+TQID: https://experienceleague.adobe.com/hs8-0P0zSc-du-ubuYHiw7Yg9ps7SMPudBxcJgh-VCc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: 1337
 ht-degree: 0%
 
 ---
@@ -132,7 +138,7 @@ Diese empfohlenen Einstellungen können für die meisten Steuerkonfigurationen f
 | Steuerberechnung | Bei Element |
 | Versand besteuern? | Ja |
 | Rabatt anwenden | Vor Steuern, Rabatt auf Preise, einschließlich Steuern. |
-| Kommentar | B2B-Händler sollten einfachere Überlegungen zur MwSt.-Lieferkette anstellen. Die Steuerberechnung in Zeile ist ebenfalls gültig. Wenden Sie sich jedoch an Ihre Steuerzuständigkeit. Setup geht davon aus, dass sich ein Händler in der Lieferkette befindet und die verkauften Waren von anderen Anbietern für Mehrwertsteuerrabatte usw. verwendet werden. Diese Definition erleichtert die Unterscheidung der Steuern nach Posten, was eine schnellere Rabatterstellung ermöglicht. <br/><br/>**_Hinweis _**&#x200B;Einige Länder und Gebiete erfordern unterschiedliche Rundungsstrategien, die derzeit nicht von Commerce unterstützt werden, und nicht alle Länder und Gebiete erlauben eine Steuer auf Element- oder Zeilenebene. |
+| Kommentar | B2B-Händler müssen einfachere Überlegungen zur MwSt. anstellen. supply chain Die Steuerberechnung in Zeile ist ebenfalls gültig. Wenden Sie sich jedoch an Ihre Steuerzuständigkeit. Setup geht davon aus, dass sich ein Händler in der supply chain befindet und verkaufte Waren von anderen Anbietern für Mehrwertsteuerrabatte usw. verwendet werden. Diese Definition erleichtert die Unterscheidung der Steuern nach Posten, was eine schnellere Rabatterstellung ermöglicht. <br/><br/>**_Hinweis:_** Einige Gerichtsbarkeiten erfordern unterschiedliche Rundungsstrategien, die derzeit nicht von Commerce unterstützt werden, und die nicht in allen Gerichtsbarkeiten eine Steuer auf Element- oder Zeilenebene zulassen. |
 
 {style="table-layout:auto"}
 
@@ -264,7 +270,7 @@ Um eine Aufrechnung der Steuer zu vermeiden und die berechnete Steuer korrekt al
 
 | Feld | Empfohlene Einstellung |
 |--- |--- |
-| -Name | `Retail-Canada-GST` |
+| Name | `Retail-Canada-GST` |
 | [!UICONTROL Customer Tax Class] | `Retail Customer` |
 | [!UICONTROL Product Tax Class] | `Taxable GoodsShipping` |
 | [!UICONTROL Tax Rate] | `Canada-GST` |
@@ -407,7 +413,7 @@ Füllen Sie die folgenden allgemeinen Steuereinstellungen aus:
 
    - Deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use Website]** nach jedem Feld.
 
-   - Aktualisieren Sie die folgenden Werte, um den Versandeinstellungen [&#x200B; Website (](shipping-settings.md#point-of-origin)) zu entsprechen:
+   - Aktualisieren Sie die folgenden Werte, um den Versandeinstellungen [ Website (](shipping-settings.md#point-of-origin)) zu entsprechen:
 
       - Standardland
       - Standardzustand

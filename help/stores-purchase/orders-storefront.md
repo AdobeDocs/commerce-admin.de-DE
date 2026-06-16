@@ -3,9 +3,15 @@ title: Storefront-Bestellverwaltung
 description: Erfahren Sie, wie Kunden ihren Auftragsverlauf in der Commerce-Storefront anzeigen und verwalten können.
 exl-id: 85d953e6-f5a1-4a5e-a6ef-36b9cf6988bb
 feature: Orders, Storefront
-source-git-commit: c13a4b730ed70ed4829cc20b13c2723137dcbb3a
+TQID: https://experienceleague.adobe.com/FGexEy3ZXcnDUoHOiGc3B24ri2AuP4vX-vX7q3tcbRA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: 753
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ Kunden haben von ihrem Konto aus Zugriff auf alle Bestellungen. Bestellungen kö
 
 {{b2b-feature}}
 
-Ihre ersten _[!UICONTROL My Orders]_&#x200B;enthalten auch übereinstimmende Bestellungen von untergeordneten Benutzern aller Websites innerhalb der Commerce-Instanz. Ein Kunde, der einem Unternehmenskonto zugeordnet ist, kann die Auftragsliste filtern, um Datensätze in den Ergebnissen schnell zu finden. Um die Filteroptionen anzuzeigen, klickt der Kunde auf &quot;**[!UICONTROL Filter]**&quot; und auf &quot;**[!UICONTROL Close]**&quot;, um die Filter auszublenden.
+Ihre ersten _[!UICONTROL My Orders]_enthalten auch übereinstimmende Bestellungen von untergeordneten Benutzern aller Websites innerhalb der Commerce-Instanz. Ein Kunde, der einem Unternehmenskonto zugeordnet ist, kann die Auftragsliste filtern, um Datensätze in den Ergebnissen schnell zu finden. Um die Filteroptionen anzuzeigen, klickt der Kunde auf &quot;**[!UICONTROL Filter]**&quot; und auf &quot;**[!UICONTROL Close]**&quot;, um die Filter auszublenden.
 
 ![Meine Bestellungen](./assets/account-dashboard-my-orders-b2b.png){width="700" zoomable="yes"}
 
@@ -42,7 +48,7 @@ Ein Kunde findet die Bestellung in der Liste und klickt auf **[!UICONTROL View O
 
 Der **[!UICONTROL Recent Orders]** wird in der Seitenleiste und auf der **[!UICONTROL My Account]** für Kunden angezeigt, die nach einer Bestellung angemeldet sind. Es zeigt fünf Produkte aus dem letzten Kauf an.
 
-Der Kunde kann Produkte aus dem Warenkorb lesen, indem er die Produkte auswählt und auf **[!UICONTROL Add to Cart]** klickt. Sie können die letzte Reihenfolge auch anzeigen, indem sie auf **[!UICONTROL View all]** klicken, das zur _[!UICONTROL My Account]_&#x200B;Seite und zum **[!UICONTROL Recent Orders]**&#x200B;weiterleitet.
+Der Kunde kann Produkte aus dem Warenkorb lesen, indem er die Produkte auswählt und auf **[!UICONTROL Add to Cart]** klickt. Sie können die letzte Reihenfolge auch anzeigen, indem sie auf **[!UICONTROL View all]** klicken, das zur _[!UICONTROL My Account]_Seite und zum **[!UICONTROL Recent Orders]**weiterleitet.
 
 ### Druckreihenfolge
 
@@ -103,7 +109,7 @@ Ein Kunde kann die Funktion zur Neuanordnung für eine bestimmte Bestellung von 
 
 ## Neu anordnen
 
-Der _[!UICONTROL Reorder]_&#x200B;Link wird in der Liste mit Bestellungen nahe dem&#x200B;_[!UICONTROL View]_ Link angezeigt.
+Der _[!UICONTROL Reorder]_Link wird in der Liste mit Bestellungen nahe dem_[!UICONTROL View]_ Link angezeigt.
 
 ![Link auf der Seite „Meine Bestellung“ neu anordnen](./assets/account-dashboard-reorder.png){width="700" zoomable="yes"}
 
@@ -117,7 +123,7 @@ Der Kunde wird zum Warenkorb weitergeleitet, und alle Produkte werden zum Warenk
 >
 >Es ist möglich, `Not Visible Individually` Produkte neu zu bestellen.
 
-Der _[!UICONTROL Reorder]_&#x200B;Link wird nicht auf den Seiten&#x200B;_[!UICONTROL My Orders]_ und _[!UICONTROL View Order]_&#x200B;angezeigt.
+Der _[!UICONTROL Reorder]_Link wird nicht auf den Seiten_[!UICONTROL My Orders]_ und _[!UICONTROL View Order]_angezeigt.
 
 ![Meine Bestellseite](./assets/account-dashboard-reorder-grid.png){width="700" zoomable="yes"}
 
@@ -135,7 +141,7 @@ Ein Kunde kann die Abbruchfunktion für eine bestimmte Bestellung von drei Seite
 - Seite „Bestellansicht“
 - Seite Mein Konto
 
-Der _[!UICONTROL Cancel Order]_&#x200B;Link wird neben dem&#x200B;_[!UICONTROL Reorder]_ Link angezeigt. Wenn die Bestellung nicht storniert werden kann, wird der Link nicht angezeigt.
+Der _[!UICONTROL Cancel Order]_Link wird neben dem_[!UICONTROL Reorder]_ Link angezeigt. Wenn die Bestellung nicht storniert werden kann, wird der Link nicht angezeigt.
 
 ![Link „Abbrechen“ auf der Seite „Meine Bestellung“](./assets/account-dashboard-cancel.png){width="700" zoomable="yes"}
 
@@ -153,7 +159,7 @@ Um den Abbruch durchzuführen, muss der Kunde:
 
    ![Abbrechen auf der Seite Meine Bestellung](./assets/cancel-order.png){width="700" zoomable="yes"}
 
-   Nach der Stornierung werden die Bestellungen, die sich im Status _[!UICONTROL Pending]_&#x200B;befanden, in den Status&#x200B;_[!UICONTROL Canceled]_ geändert, die Bestellungen, die sich im Status _[!UICONTROL Processing]_&#x200B;befanden, in den Status&#x200B;_[!UICONTROL Closed]_ und eine Rückerstattung verarbeitet.
+   Nach der Stornierung werden die Bestellungen, die sich im Status _[!UICONTROL Pending]_befanden, in den Status_[!UICONTROL Canceled]_ geändert, die Bestellungen, die sich im Status _[!UICONTROL Processing]_befanden, in den Status_[!UICONTROL Closed]_ und eine Rückerstattung verarbeitet.
 
    Nach Abschluss der Stornierung wird eine E-Mail an den Kunden gesendet.
 

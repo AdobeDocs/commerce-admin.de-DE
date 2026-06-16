@@ -3,9 +3,15 @@ title: Konfigurieren Sie [!DNL Inventory Management]
 description: Erfahren Sie mehr über die Konfiguration  [!DNL Inventory Management]  Optionen, die die Quellverfügbarkeit, Storefront-Produkte und den Bestellversand bestimmen.
 exl-id: 1696999e-77b1-45c7-9b0b-dd1512427cff
 feature: Inventory, Configuration
-source-git-commit: 67cbb0d05f9f63ef51ccff3580cd27df86645fd0
+TQID: https://experienceleague.adobe.com/3ay4K29pe2WkzYT-A5NXh83sHRvd5YJ8aoVqusrbZeE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: 776
 ht-degree: 0%
 
 ---
@@ -14,9 +20,9 @@ ht-degree: 0%
 
 Das [!DNL Inventory Management]-Modul unterstützt Lagerkonfigurationseinstellungen auf Produkt- und globaler Ebene und bietet zusätzliche Einstellungen, die sich auf die Quellverfügbarkeit, Storefront-Produkte und den Bestellversand auswirken. Die Konfigurationseinstellungen gelten für:
 
-- Den gesamten Katalog finden Sie unter **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Erweitern Sie dann **[!UICONTROL Catalog]**&#x200B;im linken Bereich und wählen Sie **[!UICONTROL Inventory]**&#x200B;aus.
+- Den gesamten Katalog finden Sie unter **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**. Erweitern Sie dann **[!UICONTROL Catalog]**im linken Bereich und wählen Sie **[!UICONTROL Inventory]**aus.
 
-- Spezifische Produkte: Gehen Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**. Öffnen Sie das Produkt dann im Bearbeitungsmodus und klicken Sie im Abschnitt _[!UICONTROL Sources]_&#x200B;auf **[!UICONTROL Advanced Inventory]**.
+- Spezifische Produkte: Gehen Sie zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**. Öffnen Sie das Produkt dann im Bearbeitungsmodus und klicken Sie im Abschnitt _[!UICONTROL Sources]_auf **[!UICONTROL Advanced Inventory]**.
 
 Ihr Katalog kann so konfiguriert werden, dass Inventardaten in Ihrer Storefront angezeigt werden, aktive Warenkörbe verwaltet werden und vieles mehr. Zeigt die Verfügbarkeit jedes Artikels als _Auf Lager_ oder _Nicht vorrätig_ und den verfügbaren Lagerbestand an, wenn der Lagerbestand niedrig ist.
 
@@ -39,18 +45,18 @@ Eine weitere Möglichkeit, den Schwellenwert für die Lagerverfügbarkeit zu ver
 | [!UICONTROL Maximum Qty Allowed in Shopping Cart] | Legt die maximale Menge des Produkts fest, die in einer einzelnen Bestellung gekauft werden kann. |
 | [!UICONTROL Qty Uses Decimals] | Ermöglicht Dezimalbeträge anstelle von Ganzzahlen für die Menge eines Produkts. Diese Einstellung ist hilfreich für Produkte, die nach Gewicht, Volumen oder Länge verkauft werden. Wird auf der Source-Ebene angegeben und auf der Lagerebene basierend auf zugewiesenen Quellen berechnet. |
 | [!UICONTROL Allow Multiple Boxes for Shipping] | Legt fest, ob Teile eines Produkts separat versendet werden können. Diese Option ist sichtbar, wenn **[!UICONTROL Qty Uses Decimals]** = `Yes`. |
-| [!UICONTROL Backorders] | Gibt an, ob Auftragsrückstände zulässig sind. Wird auf der Source-Ebene angegeben und auf der Lagerebene basierend auf zugewiesenen Quellen berechnet. Wenn diese Option aktiviert ist, um Auftragsrückstände zuzulassen, wird empfohlen, einen negativen Wert für den Schwellenwert für nicht vorrätige Aufträge festzulegen (siehe [Konfigurieren von &#x200B;](backorders.md)). Optionen: <br />**[!UICONTROL No Backorders]**: Akzeptiert keine Nachbestellungen, wenn das Produkt nicht vorrätig ist.<br />**[!UICONTROL Allow Qty Below 0]**: Akzeptiert Nachbestellungen, wenn die Menge unter null fällt.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: Akzeptiert Nachbestellungen, wenn die Menge unter null fällt, benachrichtigt Kunden jedoch, dass weiterhin Bestellungen aufgegeben werden können. |
+| [!UICONTROL Backorders] | Gibt an, ob Auftragsrückstände zulässig sind. Wird auf der Source-Ebene angegeben und auf der Lagerebene basierend auf zugewiesenen Quellen berechnet. Wenn diese Option aktiviert ist, um Auftragsrückstände zuzulassen, wird empfohlen, einen negativen Wert für den Schwellenwert für nicht vorrätige Aufträge festzulegen (siehe [Konfigurieren von ](backorders.md)). Optionen: <br />**[!UICONTROL No Backorders]**: Akzeptiert keine Nachbestellungen, wenn das Produkt nicht vorrätig ist.<br />**[!UICONTROL Allow Qty Below 0]**: Akzeptiert Nachbestellungen, wenn die Menge unter null fällt.<br />**[!UICONTROL Allow Qty Below 0 and Notify Customer]**: Akzeptiert Nachbestellungen, wenn die Menge unter null fällt, benachrichtigt Kunden jedoch, dass weiterhin Bestellungen aufgegeben werden können. |
 | [!UICONTROL Notify for Quantity Below] | Legt die Menge fest, für die eine Benachrichtigung „Menge unter“ Trigger wird, die auf geringe Lagerbestände hinweist. Dieser Betrag wird von der Verkaufsmenge abgezogen, nicht von der Lagermenge. |
 | [!UICONTROL Enable Qty Increments] | Bestimmt, ob das Produkt in Mengenschritten verkauft werden kann. Wenn diese Option aktiviert ist, geben Sie die Menge der Produkte ein, die in einem inkrementellen Schritt gekauft werden müssen. Inkremente legen fest, wie viele Produktelemente als einzelnes Produkt und als untergeordnetes Element von konfigurierbaren, gruppierten und gebündelten Produkten erworben werden müssen. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | [!DNL Inventory Management] verwendet diesen Wert nicht. Wenn Sie eine Rücksendung oder Gutschrift abschließen, wird die Produktmenge automatisch an die entsprechende Bezugsmenge zurückgegeben. Siehe [Konfigurieren von Produktoptionen](product-options.md). |
 
 ## Konfigurationsfallback und Vererbung
 
-Konfigurationen überschreiben oder wenden im folgenden Pfad der Vererbung an: Der Abschnitt &quot;_[!UICONTROL Sources]_&quot; überschreibt den&#x200B;_[!UICONTROL Advanced Options]_ „Globaler _[!UICONTROL Inventory]_&quot;.
+Konfigurationen überschreiben oder wenden im folgenden Pfad der Vererbung an: Der Abschnitt &quot;_[!UICONTROL Sources]_&quot; überschreibt den_[!UICONTROL Advanced Options]_ „Globaler _[!UICONTROL Inventory]_&quot;.
 
 Wenn [!DNL Commerce] prüft, ob benutzerdefinierte Einstellungen angewendet werden können, folgt sie dieser Reihenfolge:
 
-1. Sucht im Abschnitt _[!UICONTROL Sources]_&#x200B;nach benutzerdefinierten Einstellungen auf Produktebene. Einige Einstellungen sind verfügbar.
+1. Sucht im Abschnitt _[!UICONTROL Sources]_nach benutzerdefinierten Einstellungen auf Produktebene. Einige Einstellungen sind verfügbar.
 
 1. Überprüft die _[!UICONTROL Advanced Inventory]_.
 

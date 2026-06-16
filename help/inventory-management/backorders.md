@@ -3,9 +3,15 @@ title: configure [!DNL Inventory Management] backorders
 description: Erfahren Sie, wie Sie Nachbestellungen konfigurieren, um den Verkauf von nicht vorrätigen Produkten zu unterstützen.
 exl-id: 2fe778df-781e-4cda-8b85-47cf973c9e94
 feature: Inventory, Orders
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/-lJVY97Onykamv--OTs7byd-lNcuNTdgRBs-59A-h1c
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: 750
 ht-degree: 0%
 
 ---
@@ -47,7 +53,7 @@ Wenn Kunden die verfügbaren 25 Produkte kaufen, gehen neue Bestellungen als Nac
 
 >[!NOTE]
 >
->Wenn ein Kunde einen Auftrag mit _[!UICONTROL backorder qty]_&#x200B;aufgibt, zieht [!DNL Inventory Management] die Menge automatisch von der verkaufsfähigen Menge ab. Wenn ein Auftrag nicht versendet und storniert wird, wird die Menge auf die aggregierte virtuelle Verkaufsmenge zurückgesetzt. Die **_stornierte Bestellmenge wird keiner der Quellen zugeordnet_**&#x200B;sondern an die Gesamtzahl der zum Verkauf verfügbaren Produkte zurückgegeben (_[!UICONTROL Salable Quantity]_ Spalte im Produktraster).
+>Wenn ein Kunde einen Auftrag mit _[!UICONTROL backorder qty]_aufgibt, zieht [!DNL Inventory Management] die Menge automatisch von der verkaufsfähigen Menge ab. Wenn ein Auftrag nicht versendet und storniert wird, wird die Menge auf die aggregierte virtuelle Verkaufsmenge zurückgesetzt. Die **_stornierte Bestellmenge wird keiner der Quellen zugeordnet_**sondern an die Gesamtzahl der zum Verkauf verfügbaren Produkte zurückgegeben (_[!UICONTROL Salable Quantity]_ Spalte im Produktraster).
 
 <!--
 ### Notify for Quantity Below JIRA MDVA-8099 MDVA-33783
@@ -97,7 +103,7 @@ Konfigurationen auf Produktebene überschreiben globale Konfigurationen. Möglic
 
 1. Öffnen Sie ein Produkt im **[!UICONTROL Edit]**-Modus und blättern Sie auf der Seite nach unten zum Bereich _[!UICONTROL Sources]_.
 
-   Bei Produkten, die ohne [!DNL Inventory Management] konfiguriert wurden, wird die Registerkarte nicht angezeigt. Die Schaltfläche `Advanced Inventory` wird unter dem Feld _[!UICONTROL Quantity]_&#x200B;angezeigt.
+   Bei Produkten, die ohne [!DNL Inventory Management] konfiguriert wurden, wird die Registerkarte nicht angezeigt. Die Schaltfläche `Advanced Inventory` wird unter dem Feld _[!UICONTROL Quantity]_angezeigt.
 
 1. Klicken Sie auf **[!UICONTROL Advanced Inventory]**.
 

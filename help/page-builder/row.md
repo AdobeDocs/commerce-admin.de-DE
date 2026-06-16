@@ -3,9 +3,15 @@ title: Layout - Zeile
 description: Erfahren Sie mehr über den Inhaltstyp der Zeile, der zum Hinzufügen einer Zeile in der  [!DNL Page Builder]  verwendet wird.
 exl-id: 0aa8bf6f-7ae3-4718-9f76-430ed63ba05c
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/69IYa3jE6VTO6PXToXkDhfu8B4-KJw9sv0cO-NgUBOM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: 1620
 ht-degree: 0%
 
 ---
@@ -38,9 +44,9 @@ Die Zeilen-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Zeilen-Cont
 
 ## Zeile hinzufügen
 
-1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_&#x200B;einen neuen **[!UICONTROL Row]**&#x200B;auf das Stadium, direkt unter der ersten Zeile.
+1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Layout]_einen neuen **[!UICONTROL Row]**auf das Stadium, direkt unter der ersten Zeile.
 
-1. Um die Zeile zu formatieren, bewegen Sie den Mauszeiger über den Zeilen-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; aus (Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
+1. Um die Zeile zu formatieren, bewegen Sie den Mauszeiger über den Zeilen-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ aus (Symbol Einstellungen](./assets/pb-icon-settings.png){width="20"} ).
 
    In den folgenden Abschnitten finden Sie detaillierte Informationen zum Abschließen der verfügbaren Einstellungen.
 
@@ -48,7 +54,7 @@ Die Zeilen-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Zeilen-Cont
 
 ## Zeileneinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über den Zeilen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Zeilen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
    ![Zeilen-Toolbox](./assets/pb-tutorial1-row-toolbox.png){width="600" zoomable="yes"}
 
@@ -114,7 +120,7 @@ Ein Hintergrundtyp kann ein Bild oder ein Video sein. [!DNL Page Builder] ist st
 
 ### Einstellungen für Bildtyp
 
-Wenn Sie die _[!UICONTROL Background Type]_&#x200B;auf `Image` setzen, verwenden Sie die folgenden Einstellungen, um die Hintergrundbildanzeige zu definieren.
+Wenn Sie die _[!UICONTROL Background Type]_auf `Image` setzen, verwenden Sie die folgenden Einstellungen, um die Hintergrundbildanzeige zu definieren.
 
 ![Hintergrundbild](./assets/pb-tutorial1-row-settings-background-image-selected.png){width="600" zoomable="yes"}
 

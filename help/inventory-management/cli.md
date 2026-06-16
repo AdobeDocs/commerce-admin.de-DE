@@ -4,10 +4,15 @@ description: Erfahren Sie mehr über die Befehle, die das  [!DNL Inventory Manag
 exl-id: d92dffce-94a1-443c-8c72-98fecbbd5320
 level: Experienced
 feature: Inventory, Configuration
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: b4623ada788d44f4628930dcf5dfcb51dd88ee3a
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/jdlLgwIe50ExZ2giXBiGf5cG8L4DQDZe4psbB16F5JE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: 858
 ht-degree: 0%
 
 ---
@@ -27,8 +32,8 @@ Bei Reservierungen wird eine Verkaufsmenge für Produkt-SKUs pro Lager zurückge
 
 [!DNL Inventory Management] bietet zwei Befehle zum Überprüfen und Beheben von Reservierungsinkonsistenzen:
 
-- [`inventar:reservation:list-inconsistences`](#list-inconsistencies-command)
-- [`inventar:reservation:create-kompensations`](#create-compensations-command)
+- [`inventory:reservation:list-inconsistencies`](#list-inconsistencies-command)
+- [`inventory:reservation:create-compensations`](#create-compensations-command)
 
 ### Ursachen für Reservierungsinkonsistenzen
 
@@ -48,8 +53,8 @@ Sie können Reservierungen in der `inventory_reservation` Tabelle manuell überp
 
 Die folgenden Konfigurationen und Ereignisse können zu Inkonsistenzen bei der Reservierung führen:
 
-- **Upgrade auf 2.3.x mit Bestellungen, die sich noch nicht im endgültigen Status befinden (abgeschlossen, storniert oder geschlossen).** [!DNL Inventory Management] erstellt Ausgleichsreservierungen für diese Bestellungen, aber er nimmt die ursprüngliche Reservierung, die von der Verkaufsmenge abgezogen wird, nicht ein oder verfügt nicht über diese. Es wird empfohlen, nach dem Upgrade auf Adobe Commerce oder Magento Open Source v2.3.x von 2.1.x oder 2.2.x diese Befehle zu verwenden. Wenn Sie ausstehende Bestellungen haben, aktualisieren die Befehle Ihre Verkaufsmenge und Reservierungen für Verkauf und Bestellabwicklung korrekt.
-- **Sie verwalten kein Lager und ändern Sie diese Konfiguration später.** Sie können 2.3.x verwenden, wobei **[!UICONTROL Manage Stock]** in der Konfiguration auf `No` gesetzt ist. [!DNL Commerce] platziert keine Reservierungen bei Bestell- und Versandveranstaltungen. Wenn Sie später die **[!UICONTROL Manage Stock]**-Konfiguration aktivieren und einige Bestellungen erstellt werden, wird die Verkaufsmenge bei der Bearbeitung und Ausführung dieser Bestellung durch eine Ausgleichsreservierung beschädigt.
+- **Upgrade auf 2.3.x mit Bestellungen, die sich noch nicht im endgültigen Status befinden (abgeschlossen, storniert oder geschlossen).** [!DNL Inventory Management] erstellt Ausgleichsreservierungen für diese Bestellungen, aber es gibt nicht die ursprüngliche Reservierung ein oder verfügt nicht über die Reservierung, die von der Verkaufsmenge abzieht. Es wird empfohlen, nach dem Upgrade auf Adobe Commerce oder Magento Open Source v2.3.x von 2.1.x oder 2.2.x diese Befehle zu verwenden. Wenn Sie ausstehende Bestellungen haben, aktualisieren die Befehle Ihre Verkaufsmenge und Reservierungen für Verkauf und Bestellabwicklung korrekt.
+- **Sie verwalten Stock nicht und ändern Sie diese Konfiguration später.** Sie können 2.3.x verwenden, wobei **[!UICONTROL Manage Stock]** in der Konfiguration auf `No` gesetzt ist. [!DNL Commerce] platziert keine Reservierungen bei Bestell- und Versandveranstaltungen. Wenn Sie später die **[!UICONTROL Manage Stock]**-Konfiguration aktivieren und einige Bestellungen erstellt werden, wird die Verkaufsmenge bei der Bearbeitung und Ausführung dieser Bestellung durch eine Ausgleichsreservierung beschädigt.
 - **Sie weisen das Lager für eine Website neu zu, während Bestellungen an diese Website gesendet werden**. Die Erstreservierung geht für den Anfangsbestand ein, und alle Ausgleichsreservierungen gehen in den neuen Bestand ein.
 - **Die Gesamtzahl aller Reservierungen wird möglicherweise nicht auf `0` aufgelöst.** Alle Reservierungen im Umfang einer Bestellung in einem endgültigen Status (abgeschlossen, storniert, geschlossen) sollten auf `0` aufgelöst werden, wobei alle verkaufbaren Lagerbestände gelöscht werden.
 

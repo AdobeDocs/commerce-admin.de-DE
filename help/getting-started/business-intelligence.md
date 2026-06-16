@@ -3,10 +3,17 @@ title: '[!DNL Commerce Intelligence]'
 description: Erfahren Sie, wie Adobe Commerce- und Magento Open Source-Händler Commerce Intelligence-Tools verwenden können, um die insight zu erhalten, mit der fundierte Geschäftsentscheidungen getroffen werden.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/fXuvq380YffN-gCcGRcpwN5x-bc1EHcyrUaDFctaLKo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: ae1249e3-cd01-42c9-8377-4223879bf9deid: bd0aa680-a881-4f35-9dcf-843b0574bc5f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: 1221
 ht-degree: 0%
 
 ---
@@ -17,7 +24,7 @@ Verwenden Sie Commerce Intelligence-Tools, um die insight zu erhalten, die für 
 
 ## [!DNL Commerce Intelligence]
 
-Wenn Sie ein [!DNL Commerce Intelligence] über Adobe aktivieren, erhalten Sie Zugriff auf fünf Dashboards mit etwa 70 Berichten. Diese Berichte bieten Einblicke in Ihre Daten und beantworten Fragen wie: „Wie wachsen meine Bestellungen von Monat zu Monat?“, „Wer sind meine treuesten Kunden?“ und „Funktioniert meine Couponstrategie?“ Ausführliche Informationen zu diesem Toolset finden Sie im [Commerce Intelligence-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=de).
+Wenn Sie ein [!DNL Commerce Intelligence] über Adobe aktivieren, erhalten Sie Zugriff auf fünf Dashboards mit etwa 70 Berichten. Diese Berichte bieten Einblicke in Ihre Daten und beantworten Fragen wie: „Wie wachsen meine Bestellungen von Monat zu Monat?“, „Wer sind meine treuesten Kunden?“ und „Funktioniert meine Couponstrategie?“ Ausführliche Informationen zu diesem Toolset finden Sie im [Commerce Intelligence-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html).
 
 ## [!DNL Advanced Reporting]
 
@@ -43,11 +50,11 @@ Technische Informationen finden Sie im [[!DNL Advanced Reporting]](https://devel
 
 * In der [!DNL Commerce] für Store-URLs müssen **[!UICONTROL Use Secure URLs on Storefront]** und **[!UICONTROL Use Secure URLs in Admin]** auf `Yes` gesetzt werden.
 
-* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=de) wird erstellt und Cron-Aufträge werden auf dem installierten Server ausgeführt.
+* [[!DNL Commerce] crontab](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html) wird erstellt und Cron-Aufträge werden auf dem installierten Server ausgeführt.
 
 >[!NOTE]
 >
->[!DNL Advanced Reporting] können nur mit [!DNL Commerce] Anlagen verwendet werden, die ständig eine einzige [Basiswährung“ &#x200B;](../stores-purchase/currency-configuration.md).
+>[!DNL Advanced Reporting] können nur mit [!DNL Commerce] Anlagen verwendet werden, die ständig eine einzige [Basiswährung“ ](../stores-purchase/currency-configuration.md).
 
 
 ### Schritt 1: [!DNL Advanced Reporting] aktivieren
@@ -122,7 +129,7 @@ Wenn Sie die 404-Meldung „Seite nicht gefunden“ erhalten, überprüfen Sie, 
 
 ### Einzel-Basiswährung überprüfen
 
-[!DNL Advanced Reporting] können nur mit [!DNL Commerce] Anlagen verwendet werden, die seit der Installation nur [&#x200B; (](../stores-purchase/currency-configuration.md)) verwendet haben. Das Ergebnis ist, dass in der Historie alle Bestellungen dieselbe Basiswährung verwenden. [!DNL Advanced Reporting] funktioniert nicht, wenn Sie zu irgendeinem Zeitpunkt Ihre Basiswährung geändert haben und Bestellungen in Ihrem Verlauf mit unterschiedlichen Basiswährungen verarbeitet wurden.
+[!DNL Advanced Reporting] können nur mit [!DNL Commerce] Anlagen verwendet werden, die seit der Installation nur [ (](../stores-purchase/currency-configuration.md)) verwendet haben. Das Ergebnis ist, dass in der Historie alle Bestellungen dieselbe Basiswährung verwenden. [!DNL Advanced Reporting] funktioniert nicht, wenn Sie zu irgendeinem Zeitpunkt Ihre Basiswährung geändert haben und Bestellungen in Ihrem Verlauf mit unterschiedlichen Basiswährungen verarbeitet wurden.
 
 Um festzustellen, ob Ihr Store mehrere Basiswährungen hat, können Sie Ihre [!DNL Commerce]-Datenbank über die Befehlszeile mit dem folgenden MySQL-Beispiel abfragen. Möglicherweise müssen Sie die Tabellennamen ändern, damit sie Ihrer Datenstruktur entsprechen:
 

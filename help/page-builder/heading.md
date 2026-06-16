@@ -3,9 +3,15 @@ title: Elemente - Überschrift
 description: Erfahren Sie mehr über den Inhaltstyp der Überschrift, der zum Hinzufügen eines Text-Containers mit einer Überschriftenebene von H1 bis H6 zur  [!DNL Page Builder]  verwendet wird.
 exl-id: dc51e7f6-a235-49dc-a978-1419a63fa33e
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/5oFGY5Vemq0aLKOaCQ5DTIvfj0Zzvd1qVKkuDjS-kgM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: 940
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 Überschriftenebenen legen eine Hierarchie fest, die Inhalte organisiert und Suchmaschinen dabei hilft, jede Seite zu indizieren. Verwenden Sie den _Überschrift_-Inhaltstyp in [[!DNL Page Builder] Phase](workspace.md#stage), um der Phase einen Text-Container mit einer Überschriftenebene von H1 bis H6 hinzuzufügen. Überschriften werden entsprechend dem Stylesheet formatiert, das mit dem aktuellen Design verknüpft ist.
 
-Das [Inhaltsüberschrift](workspace.md) im _[!UICONTROL Content]_&#x200B;Abschnitt kann verwendet werden, um eine H1-Überschrift oben auf der Seite hinzuzufügen. Das Feld ist jedoch ein älteres Feld aus früheren [!DNL Commerce] Versionen und wird zur Unterstützung älterer Inhalte bereitgestellt. In diesem Feld werden die erweiterten Funktionen von [!DNL Page Builder] nicht genutzt. Es wird empfohlen, das Feld Inhaltsüberschrift leer zu lassen und den Inhaltstyp [!DNL Page Builder] Überschrift zu verwenden, um der Seite Überschriften einer beliebigen Ebene hinzuzufügen.
+Das [Inhaltsüberschrift](workspace.md) im _[!UICONTROL Content]_Abschnitt kann verwendet werden, um eine H1-Überschrift oben auf der Seite hinzuzufügen. Das Feld ist jedoch ein älteres Feld aus früheren [!DNL Commerce] Versionen und wird zur Unterstützung älterer Inhalte bereitgestellt. In diesem Feld werden die erweiterten Funktionen von [!DNL Page Builder] nicht genutzt. Es wird empfohlen, das Feld Inhaltsüberschrift leer zu lassen und den Inhaltstyp [!DNL Page Builder] Überschrift zu verwenden, um der Seite Überschriften einer beliebigen Ebene hinzuzufügen.
 
 Das folgende Beispiel zeigt, wie die Inhaltsüberschrift und der Inhaltstyp der Überschrift angezeigt werden, wenn sie durch das Luma-Design formatiert sind.
 
@@ -66,7 +72,7 @@ Wie bei allen Inhalts-Containern wird die Toolbox angezeigt, wenn Sie den Mausze
 
 ## Header-Einstellungen bearbeiten
 
-1. Bewegen Sie den Mauszeiger über den Überschriften-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( (](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den Überschriften-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="20"}) aus.
 
    ![Überschriften-Toolbox](./assets/pb-elements-heading-toolbox.png){width="500" zoomable="yes"}
 
@@ -74,7 +80,7 @@ Wie bei allen Inhalts-Containern wird die Toolbox angezeigt, wenn Sie den Mausze
 
    Sie können diesen Inhalt auch im Überschrifteneditor aktualisieren.
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
 
    - Um die Positionierung der Überschrift innerhalb des übergeordneten Containers zu steuern, wählen Sie ein **[!UICONTROL Alignment]** aus:
 
@@ -141,7 +147,7 @@ Bei einer formatierten Überschrift mit bestimmten Einstellungen ist es effizien
 
    ![Duplizieren eines Überschriften-Containers](./assets/pb-elements-heading-duplicate.png){width="500" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den neuen Überschriften-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Verschieben![&#x200B; ((Symbol &#x200B;](./assets/pb-icon-move.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den neuen Überschriften-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Verschieben![ ((Symbol ](./assets/pb-icon-move.png){width="20"} ) aus.
 
    ![Verschieben einer Überschrift](./assets/pb-elements-heading-move.png){width="500" zoomable="yes"}
 

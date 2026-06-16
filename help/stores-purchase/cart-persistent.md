@@ -3,9 +3,15 @@ title: Warenkorb-Persistenz
 description: Erfahren Sie, wie ein persistenter Warenkorb nicht gekaufte Artikel im Warenkorb nachverfolgt und die Informationen für den nächsten Besuch des Kunden speichert.
 exl-id: 95c336b3-77ac-4cf6-8fb5-23f4ac4b67d6
 feature: Shopping Cart, Configuration
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/CZFFzI8KEfpQQAEHB46wW6Bk4BK-4zbdkvZ9h9nROr0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: 1050
 ht-degree: 0%
 
 ---
@@ -28,17 +34,17 @@ Um die Verwendung der Warenkorbpersistenz für Ihre Site oder in bestimmten Stor
 
 Wenn der persistente Warenkorb [aktiviert](#configure-a-persistent-cart) ist, hängt der Workflow von Folgendem ab:
 
-- Die Werte der _[!UICONTROL Enable Remember Me]_- und&#x200B;_[!UICONTROL Clear Persistence on Log Out]_
-- Die Entscheidung des Kunden, das Kontrollkästchen _[!UICONTROL Remember Me]_&#x200B;zu aktivieren oder zu deaktivieren
+- Die Werte der _[!UICONTROL Enable Remember Me]_- und_[!UICONTROL Clear Persistence on Log Out]_
+- Die Entscheidung des Kunden, das Kontrollkästchen _[!UICONTROL Remember Me]_zu aktivieren oder zu deaktivieren
 - Wenn das persistente Cookie gelöscht wird
 
 Wenn die Kundensitzung abläuft, wird unter folgenden Bedingungen ein `Not Jane Smith?` Link in der Kopfzeile der Seite angezeigt:
-- Der angemeldete Kunde hat die Option _[!UICONTROL Remember Me]_&#x200B;ausgewählt und ein persistentes Cookie wird angewendet
-- Der Kunde meldet sich ab, wenn das System mit _[!UICONTROL Clear Persistence on Sign Out]_&#x200B;auf `No` konfiguriert ist.
+- Der angemeldete Kunde hat die Option _[!UICONTROL Remember Me]_ausgewählt und ein persistentes Cookie wird angewendet
+- Der Kunde meldet sich ab, wenn das System mit _[!UICONTROL Clear Persistence on Sign Out]_auf `No` konfiguriert ist.
 
 Das System speichert die Warenkorbinhalte auf dem aktuellen Gerät, auch wenn die angemeldete Sitzung abläuft. Über den `Not Jane Smith?` Link kann der Kunde die persistente Sitzung beenden und als Gast arbeiten bzw. sich als anderer oder derselbe Kunde anmelden.
 
-Wenn der Kunde beim Anmelden das Kontrollkästchen _[!UICONTROL Remember Me]_&#x200B;aktiviert hat, erstellt und verwaltet Ihr Store ein separates persistentes Cookie. Dieses Cookie hilft, den Warenkorb des Kunden auch dann zugänglich zu halten, wenn er den Browser schließt oder zu einer anderen Site navigiert und seine angemeldete Sitzung abläuft.
+Wenn der Kunde beim Anmelden das Kontrollkästchen _[!UICONTROL Remember Me]_aktiviert hat, erstellt und verwaltet Ihr Store ein separates persistentes Cookie. Dieses Cookie hilft, den Warenkorb des Kunden auch dann zugänglich zu halten, wenn er den Browser schließt oder zu einer anderen Site navigiert und seine angemeldete Sitzung abläuft.
 
 Wenn derselbe Kunde Ihren Shop über mehrere Browser besucht, während er angemeldet ist, oder eine persistente Sitzung aktiv ist, werden die Änderungen, die der Kunde in einem Browser am Warenkorbinhalt vornimmt, in anderen Browsern angezeigt, wenn die Seite aktualisiert wird.
 
@@ -48,7 +54,7 @@ Wenn derselbe Kunde Ihren Shop über mehrere Browser besucht, während er angeme
 
 ### Verhalten des Kontrollkästchens „Angaben speichern“
 
-Kunden können das Kontrollkästchen _[!UICONTROL Remember Me]_&#x200B;auf der Anmeldeseite, im Authentifizierungs-Popup, bei der Anmeldung zum Checkout oder bei der Erstellung eines neuen Kontos aktivieren, um den Inhalt des Warenkorbs auf dem aktuellen Gerät verfügbar zu halten, wenn die angemeldete Sitzung abläuft.
+Kunden können das Kontrollkästchen _[!UICONTROL Remember Me]_auf der Anmeldeseite, im Authentifizierungs-Popup, bei der Anmeldung zum Checkout oder bei der Erstellung eines neuen Kontos aktivieren, um den Inhalt des Warenkorbs auf dem aktuellen Gerät verfügbar zu halten, wenn die angemeldete Sitzung abläuft.
 
 | Mich erinnern? | Ergebnis |
 | ------------ |  ------ |
@@ -58,7 +64,7 @@ Kunden können das Kontrollkästchen _[!UICONTROL Remember Me]_&#x200B;auf der A
 {style="table-layout:auto"}
 
 ![Angaben zur Kundenanmeldung speichern](./assets/remember-me-customer-login.png){width="600" zoomable="yes"}
-![Pop-up „Angaben zur Authentifizierung speichern“](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
+![Popup zur Authentifizierung über „Angaben speichern“](./assets/remember-me-authentication-pop-up.png){width="600" zoomable="yes"}
 ![Merken Sie sich meine Checkout-Anmeldungen](./assets/remember-me-checkout-sign-ins.png){width="600" zoomable="yes"}
 
 ### Persistenz für Abmeldeverhalten löschen

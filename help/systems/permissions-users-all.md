@@ -4,9 +4,16 @@ description: Erfahren Sie, wie Sie Admin-Benutzerkonten erstellen und Rollen zuw
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-source-git-commit: e2644f16f8e8adb77d070ddb66c724c00a15a525
+TQID: https://experienceleague.adobe.com/DLTxCkTvqUobFaP-0ccPFIrqbaObTto08EPLn1li3TA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: 1041
 ht-degree: 0%
 
 ---
@@ -19,7 +26,7 @@ Wenn andere Team-Mitglieder oder Dienstleister Zugriff benötigen, können Sie f
 
 >[!NOTE]
 >
->Adobe Commerce-Händler, die über eine Adobe ID verfügen und eine optimierte Anmeldung bei Adobe Commerce- und Adobe Business-Produkten wünschen, können die Commerce-Authentifizierung mit dem Adobe IMS-Authentifizierungs-Workflow integrieren. Nachdem diese Integration für Ihren Commerce Store aktiviert wurde, muss sich jeder Admin-Benutzer mit seinen Adobe-Anmeldeinformationen, nicht mit seinen Commerce-Anmeldeinformationen anmelden. Siehe Übersicht über die Integration von [Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html?lang=de).
+>Adobe Commerce-Händler, die über eine Adobe ID verfügen und eine optimierte Anmeldung bei Adobe Commerce- und Adobe Business-Produkten wünschen, können die Commerce-Authentifizierung mit dem Adobe IMS-Authentifizierungs-Workflow integrieren. Nachdem diese Integration für Ihren Commerce Store aktiviert wurde, muss sich jeder Admin-Benutzer mit seinen Adobe-Anmeldeinformationen, nicht mit seinen Commerce-Anmeldeinformationen anmelden. Siehe Übersicht über die Integration von [Adobe Identity Management Service (IMS)](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview.html).
 
 Für temporäre Benutzer oder Rollen können Sie auch ein Ablaufdatum für das Benutzerkonto festlegen.
 
@@ -31,9 +38,9 @@ Für temporäre Benutzer oder Rollen können Sie auch ein Ablaufdatum für das B
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New User]**.
 
-   Um einen vorhandenen Benutzer zu bearbeiten, klicken Sie auf einen Benutzernamen im Raster. Sie können die Abschnitte _[!UICONTROL User Info]_&#x200B;und&#x200B;_[!UICONTROL User Role]_ nach Bedarf ändern.
+   Um einen vorhandenen Benutzer zu bearbeiten, klicken Sie auf einen Benutzernamen im Raster. Sie können die Abschnitte _[!UICONTROL User Info]_und_[!UICONTROL User Role]_ nach Bedarf ändern.
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Account Information]_&#x200B;wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Account Information]_wie folgt vor:
 
    ![Informationen zum Benutzerkonto](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
@@ -65,21 +72,21 @@ Für temporäre Benutzer oder Rollen können Sie auch ein Ablaufdatum für das B
 
    Das Definieren eines Ablaufdatums ist hilfreich, wenn ein Benutzer oder eine Rolle temporär ist. Nach dem Ablaufdatum ändert sich der Benutzerkontenstatus in `Inactive` und kann bei Bedarf aktualisiert werden.
 
-1. Geben Sie unter _[!UICONTROL Current User Identity Verification]_&#x200B;Ihr Benutzerkonto-Kennwort ein.
+1. Geben Sie unter _[!UICONTROL Current User Identity Verification]_Ihr Benutzerkonto-Kennwort ein.
 
 >[!IMPORTANT]
 >
->Wenn der Abschnitt _[!UICONTROL Account Information]_&#x200B;abgeschlossen ist, können Sie den Benutzer speichern. Der neue Benutzer wird im&#x200B;_[!UICONTROL Users]_ angezeigt, der Benutzername kann sich jedoch erst anmelden, wenn ihm eine Rolle zugewiesen wurde.
+>Wenn der Abschnitt _[!UICONTROL Account Information]_abgeschlossen ist, können Sie den Benutzer speichern. Der neue Benutzer wird im_[!UICONTROL Users]_ angezeigt, der Benutzername kann sich jedoch erst anmelden, wenn ihm eine Rolle zugewiesen wurde.
 
 ## Benutzerrolle zuweisen
 
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL User Role]**.
 
-   Das Raster listet alle vorhandenen Benutzerrollen auf. Für einen neuen Store ist _[!UICONTROL Administrators]_&#x200B;die einzige verfügbare Rolle.
+   Das Raster listet alle vorhandenen Benutzerrollen auf. Für einen neuen Store ist _[!UICONTROL Administrators]_die einzige verfügbare Rolle.
 
    ![Admin - Add new user role](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
-1. Wählen Sie in der Spalte _[!UICONTROL Assigned]_&#x200B;eine Benutzerrolle aus.
+1. Wählen Sie in der Spalte _[!UICONTROL Assigned]_eine Benutzerrolle aus.
 
    Sie können [vorhandene Benutzerrollen anzeigen oder zusätzliche Benutzerrollen definieren](permissions-user-roles.md). Nachdem eine Rolle definiert wurde, müssen Sie das Benutzerkonto bearbeiten, um die neue Rolle zuzuweisen.
 
@@ -105,7 +112,7 @@ Für temporäre Benutzer oder Rollen können Sie auch ein Ablaufdatum für das B
 
 1. Geben Sie bei Aufforderung Ihr Kennwort ein, um Ihre Identität zu bestätigen, und klicken Sie erneut auf **[!UICONTROL Save User]**.
 
-   Das _[!UICONTROL Users]_&#x200B;Raster öffnet und listet alle Benutzer auf.
+   Das _[!UICONTROL Users]_Raster öffnet und listet alle Benutzer auf.
 
 ## Admin-Benutzer löschen
 

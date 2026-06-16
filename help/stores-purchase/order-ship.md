@@ -3,9 +3,15 @@ title: Bestellung versenden
 description: Erfahren Sie, wie Sie die Versandinformationen für einen Verarbeitungsauftrag ausfüllen und Versand- und Tracking-Informationen anzeigen.
 exl-id: 60b0e66a-8ee6-4091-94ce-179cc2fdf57a
 feature: Orders, Shipping/Delivery
-source-git-commit: abd125cc6e61850db55fb31dbcbd9dc38ac0fca5
+TQID: https://experienceleague.adobe.com/w1MPvqsRVfsRwEcRB5uClGM3vnwAda3sOtkZzuLBKAA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: 453
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ Eine Bestellung, die bezahlt wurde, aber auf den Versand wartet, hat den Status 
 
 1. Wählen Sie in der _Admin_-Seitenleiste **[!UICONTROL Sales]** > **[!UICONTROL Orders]** aus.
 
-1. Suchen Sie in der _[!UICONTROL Orders]_&#x200B;die zu versendende Bestellung und klicken Sie darauf, um sie zu öffnen.
+1. Suchen Sie in der _[!UICONTROL Orders]_die zu versendende Bestellung und klicken Sie darauf, um sie zu öffnen.
 
 1. Klicken Sie oben rechts auf die Schaltfläche **[!UICONTROL Ship]** .
 
@@ -26,7 +32,7 @@ Eine Bestellung, die bezahlt wurde, aber auf den Versand wartet, hat den Status 
 
 1. Um vom Spediteur einen Versandtitel erstellen zu lassen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Create Shipping Label]** und legen Sie die Optionen fest:
 
-   - Um eine Tracking-Nummer hinzuzufügen, scrollen Sie nach unten zum Abschnitt _[!UICONTROL Shipping Information]_&#x200B;und klicken Sie auf **[!UICONTROL Add Tracking Number]**.
+   - Um eine Tracking-Nummer hinzuzufügen, scrollen Sie nach unten zum Abschnitt _[!UICONTROL Shipping Information]_und klicken Sie auf **[!UICONTROL Add Tracking Number]**.
 
    - Führen Sie einen der folgenden Schritte aus:
 
@@ -62,7 +68,7 @@ Eine Bestellung, die bezahlt wurde, aber auf den Versand wartet, hat den Status 
 
 1. Suchen Sie die Sendung in der Liste und klicken Sie, um den Datensatz zu öffnen.
 
-1. Wenn Sie der Bestellung einen Kommentar hinzufügen möchten, scrollen Sie zum Abschnitt _[!UICONTROL Comments History]_&#x200B;und geben Sie den Kommentar in das Feld ein.
+1. Wenn Sie der Bestellung einen Kommentar hinzufügen möchten, scrollen Sie zum Abschnitt _[!UICONTROL Comments History]_und geben Sie den Kommentar in das Feld ein.
 
    - Um den Kommentar per E-Mail an den Kunden zu senden, aktivieren Sie das Kontrollkästchen **[!UICONTROL Notify Customer by Email]** .
 
@@ -78,7 +84,7 @@ Eine Bestellung, die bezahlt wurde, aber auf den Versand wartet, hat den Status 
 
 1. Suchen Sie den Versandauftrag im Raster und klicken Sie auf **[!UICONTROL View]**.
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Shipping & Handling Information]_&#x200B;und klicken Sie auf **[!UICONTROL Track Order]**.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Shipping & Handling Information]_und klicken Sie auf **[!UICONTROL Track Order]**.
 
    Alle verfügbaren Tracking-Informationen werden in einem Popup-Fenster angezeigt.
 

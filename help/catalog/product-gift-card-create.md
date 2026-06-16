@@ -3,9 +3,15 @@ title: Geschenkkartenprodukt
 description: Erfahren Sie, wie Sie ein Geschenkkartenprodukt erstellen, das einen eindeutigen Code erzeugt, der von einem Empfängerkunden während des Checkouts eingelöst werden kann.
 exl-id: bc4b60fe-10b3-4d17-85ce-35c2720c90a2
 feature: Catalog Management, Products, Gift
-source-git-commit: e72977596c4479d2e94b1e066ee166d22cb12405
+TQID: https://experienceleague.adobe.com/NXGOm4ZRIEPM02IPR8yJ7Ai9s1G6IPOKh2ER8f4kJNY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: 966
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Jede Geschenkkarte hat einen einzigartigen Code, der von nur einem Kunden während des Checkouts eingelöst werden kann. Ein [Code-Pool](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) muss eingerichtet werden, bevor Geschenkgutscheine verkauft werden können. Informationen [, wie Geschenkgutscheine im Warenkorb eingelöst &#x200B;](../stores-purchase/product-gift-card-workflow.md), finden Sie unter „Arbeitsablauf für Geschenkgutscheine“.
+Jede Geschenkkarte hat einen einzigartigen Code, der von nur einem Kunden während des Checkouts eingelöst werden kann. Ein [Code-Pool](../stores-purchase/product-gift-card-accounts.md#step-3-establish-the-gift-card-code-pool) muss eingerichtet werden, bevor Geschenkgutscheine verkauft werden können. Informationen [, wie Geschenkgutscheine im Warenkorb eingelöst ](../stores-purchase/product-gift-card-workflow.md), finden Sie unter „Arbeitsablauf für Geschenkgutscheine“.
 
 ![Geschenkkarte Produktseite](./assets/storefront-giftcard-product-page.png){width="700" zoomable="yes"}
 
@@ -34,7 +40,7 @@ Die folgenden Anweisungen zeigen den Prozess der Erstellung einer Geschenkkarte 
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Wählen Sie oben rechts im Menü _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Gift Card]**&#x200B;aus.
+1. Wählen Sie oben rechts im Menü _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Gift Card]**aus.
 
    ![Geschenkkarte hinzufügen](./assets/product-add-gift-card.png){width="700" zoomable="yes"}
 
@@ -143,7 +149,7 @@ Füllen Sie die Informationen in den folgenden Abschnitten nach Bedarf aus:
 
    **Methode 2: Speichern und schließen**
 
-   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
+   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
 
 ## Zu beachtende Dinge
 

@@ -3,9 +3,15 @@ title: Elemente - HTML-Code
 description: Erfahren Sie mehr über den HTML-Code-Inhaltstyp, der zum Hinzufügen von Ausschnitten aus HTML-, CSS- und JavaScript-Code in der  [!DNL Page Builder]  verwendet wird.
 exl-id: b6e2dff5-ceac-4c7e-a87f-f95a542ada28
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/ik99YngYtSz14nSTu5-aXkKyJlm20oixkNIVn-O1UyM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: 985
 ht-degree: 0%
 
 ---
@@ -68,7 +74,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font](https://fonts.google.com/)-Co
 
    ![Ziehen eines HTML-Code-Platzhalters auf das Stadium](./assets/pb-elements-html-code-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Fügen Sie den von Ihnen vorbereiteten Einbettungs-Google-Schriftarten-Code und die Stildeklarationen in das Textfeld ein.
 
@@ -76,7 +82,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font](https://fonts.google.com/)-Co
 
    ![HTML-Code und -Stile](./assets/pb-elements-html-code-example.png){width="500" zoomable="yes"}
 
-1. Aktualisieren Sie die verbleibenden Einstellungen nach Bedarf (weitere Informationen finden [&#x200B; unter „Ändern &#x200B;](#html-settings) HTML-Codeeinstellungen„).
+1. Aktualisieren Sie die verbleibenden Einstellungen nach Bedarf (weitere Informationen finden [ unter „Ändern ](#html-settings) HTML-Codeeinstellungen„).
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Save]** , um die Einstellungen anzuwenden und zum Arbeitsbereich [!DNL Page Builder] zurückzukehren.
 
@@ -84,19 +90,19 @@ Das folgende Beispiel zeigt, wie Sie [Google Font](https://fonts.google.com/)-Co
 
 ### Schritt 3: Vorschau der Seite
 
-1. Legen Sie im _[!UICONTROL Currently Active]_&#x200B;Abschnitt **[!UICONTROL Enable Page]**&#x200B;auf `Yes` fest.
+1. Legen Sie im _[!UICONTROL Currently Active]_Abschnitt **[!UICONTROL Enable Page]**auf `Yes` fest.
 
    ![Aktivieren der Seite](./assets/pb-elements-html-code-enable-page.png){width="600" zoomable="yes"}
 
 1. Klicken Sie oben rechts auf den **[!UICONTROL Save]** und wählen Sie **[!UICONTROL Save & Close]** aus.
 
-1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_&#x200B;aus.
+1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Actions]_aus.
 
    ![Vorschau der Seitenüberschriften mit der neuen Schriftfamilie anzeigen](./assets/pb-elements-html-code-preview.png){width="700" zoomable="yes"}
 
 ## Ändern der HTML-Code-Einstellungen {#html-settings}
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( &#x200B;](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( ](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Bearbeiten Sie den Code im Textfeld nach Bedarf.
 
@@ -110,7 +116,7 @@ Das folgende Beispiel zeigt, wie Sie [Google Font](https://fonts.google.com/)-Co
    | Bild einfügen… | Klicken Sie, um ein hochgeladenes Bild oder ein Bild aus der Galerie an der Cursorposition in das HTML-Textfeld einzufügen. |
    | Variable einfügen… | Klicken Sie, um eine Variable an der Cursorposition in das HTML-Textfeld einzufügen. |
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
 
    - Um die Positionierung des Codes innerhalb des übergeordneten Containers zu steuern, wählen Sie ein **[!UICONTROL Alignment]** aus:
 

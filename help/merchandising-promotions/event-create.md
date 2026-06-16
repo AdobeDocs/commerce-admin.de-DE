@@ -3,10 +3,15 @@ title: Ereignisse erstellen und aktualisieren
 description: Erfahren Sie, wie Sie ein mit einer Kategorie verknüpftes Ereignis aus Ihrem Katalog erstellen.
 exl-id: 6c9f6a33-6785-4c3a-add6-dc2a6b16ed88
 feature: Marketing Tools, Promotions/Events
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/6ipZ7CKTvNo1BGDU6ERhsJpJcKQ9yuoKKxqdIE6iEiM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: 604
 ht-degree: 0%
 
 ---
@@ -90,7 +95,7 @@ Ereignisse können entweder über die Seite Ereignisse oder über die Kategorie 
 | [!UICONTROL Category] | Global | Beim Erstellen eines Ereignisses wird dieses Feld mit der Kategoriestruktur verknüpft. Beim Bearbeiten eines Ereignisses wird eine Verknüpfung mit der Kategorieseite erstellt, die sich auf das Ereignis bezieht. |
 | [!UICONTROL Start Date] | Global | Das Startdatum und die Startzeit des Ereignisses im `MMDDYYYY HH;MM`. Klicken Sie auf das Kalendersymbol, um das Datum auszuwählen. |
 | [!DNL End Date] | Global | Das Enddatum und die Endzeit des Ereignisses `MMDDYYYY HH;MM` Format. Klicken Sie auf das Kalendersymbol, um das Datum auszuwählen. |
-| [!UICONTROL Image] | Shop-Ansicht | Lädt ein Bild hoch, das im [Widget Katalogereignisse - Karussell“ angezeigt &#x200B;](../content-design/widget-event-carousel.md). |
+| [!UICONTROL Image] | Shop-Ansicht | Lädt ein Bild hoch, das im [Widget Katalogereignisse - Karussell“ angezeigt ](../content-design/widget-event-carousel.md). |
 | [!UICONTROL Sort Order] | Global | Bestimmt die Reihenfolge, in der dieses Ereignis angezeigt wird, wenn es mit anderen Ereignissen aufgelistet wird. |
 | [!UICONTROL Display Countdown Ticker On] | Global | Zeigt den Countdown-Ticker in der Kopfzeile jeder angegebenen Seite an. Optionen: `Category Page` / `Product Page` |
 | [!UICONTROL Status] | Global | Gibt den Status des Ereignisses basierend auf dem Start- und Enddatumsbereich an. Status ist ein schreibgeschützter Wert. Werte: `Open` / `Closed` / `Upcoming` |

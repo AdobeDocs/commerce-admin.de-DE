@@ -3,9 +3,16 @@ title: Verbesserte Storefront-Erlebnisse
 description: Erfahren Sie mehr über die vielen Tools, mit denen Sie Kundeninteraktion, Kundenbindung und Loyalität maximieren können.
 exl-id: 04d196fa-0d19-4ff2-870c-6cd3666ac2cf
 feature: Storefront
-source-git-commit: 837da039e03db94014056fbb4e945c47fa37b7c1
+TQID: https://experienceleague.adobe.com/dvX5iw-uZFfhD8BXiugyXjeZYAPoNM-rcSdnlICZvXo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: 1775
 ht-degree: 0%
 
 ---
@@ -17,7 +24,7 @@ Zusätzlich zu den Standardelementen, mit denen Kundinnen und Kunden in Ihrem Ge
 <!-- 
 This is not currently working >[!TIP]
 >
->![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/?lang=de)<br>
+>![Adobe Commerce](../assets/adobe-logo.svg) [**Commerce Site Assessment**](https://experienceleague.adobe.com/tools/commerce-site-assessment/)<br>
 >
 >Use this helpful tool to identify the features offered by Adobe Commerce that can turn website visitors into buying customers. 
 -->
@@ -50,7 +57,7 @@ Mit Adobe Commerce und Magento Open Source können Sie ganz einfach ein benutzer
 
 - **Einkaufs-Tools** - Ihr Store enthält eine Reihe von [Einkaufs-Tools](../stores-purchase/email-a-friend.md) die Ihren Kunden Möglichkeiten bieten, mit Ihrem Store zu interagieren, sich über soziale Medien zu verbinden und mit Freunden zu teilen.
 
-- **Intelligente Suche** - [Produkt &#x200B;](../catalog/search.md) Preis, Hersteller oder andere Kriterien filtern, um die Kaufzeit zu verkürzen.
+- **Intelligente Suche** - [Produkt ](../catalog/search.md) Preis, Hersteller oder andere Kriterien filtern, um die Kaufzeit zu verkürzen.
 
 ## Differenzieren und personalisieren
 
@@ -70,7 +77,7 @@ Adobe Commerce und Magento Open Source bieten eine Reihe von Tools, mit denen Si
 
 - **Gezielte Werbeaktionen** - Verwenden Sie Preisregeln für Kataloge und Warenkorb, um [Werbeaktionen](../merchandising-promotions/introduction.md#promotions) zu erstellen, die in Gang kommen, wenn eine Reihe von Bedingungen erfüllt ist. Segmentieren Sie in Adobe Commerce Kundinnen und Kunden dynamisch und erstellen Sie Segmente auf der Grundlage spezifischer Merkmale wie Kundenadresse, Bestellverlauf, Warenkorbinhalt und vieles mehr. Verwenden Sie dann [[!DNL Page Builder]](../page-builder/introduction.md) , um einen dynamischen Block zu erstellen, der durch eine Promotion ausgelöst wird und nur für das Zielkundensegment angezeigt wird.
 
-- **Werbeveranstaltungen** - Führen Sie eine [-Veranstaltung &#x200B;](../merchandising-promotions/events-private-sales.md), um eine Marke zu starten, und bieten Sie einen [Countdown-Ticker](../merchandising-promotions/events-private-sales.md#event-ticker) für Verkäufe an, die nur Mitglieder sind.
+- **Werbeveranstaltungen** - Führen Sie eine [-Veranstaltung ](../merchandising-promotions/events-private-sales.md), um eine Marke zu starten, und bieten Sie einen [Countdown-Ticker](../merchandising-promotions/events-private-sales.md#event-ticker) für Verkäufe an, die nur Mitglieder sind.
 
 - **Gutscheine** - Erstellen Sie zeitlich begrenzte Angebote und [Gutscheine](../merchandising-promotions/price-rules-cart-coupon.md) die Kunden mit ihrem Smartphone scannen und auf einen Kauf anwenden können.
 
@@ -80,13 +87,13 @@ Adobe Commerce und Magento Open Source bieten eine Reihe von Tools, mit denen Si
 
 - **Vollständige Seitenzwischenspeicherung** - Verbessern der Leistung durch [Zwischenspeichern primärer Seiten](../systems/cache-management.md#full-page-caching). Das Caching von Seiten verbessert die Antwortzeiten des Servers, reduziert die Auslastung und erhöht den nachhaltigen Traffic. Sie können Tags verwenden, um zu definieren, welche Komponenten zwischengespeichert werden sollen, sodass beim Aktualisieren nur relevante Seiten zwischengespeichert werden. Außerdem können damit Besucher und Käufer identifiziert und unterschieden werden.
 
-- **Kundenauftragsarchiv** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) [Aufträge &#x200B;](../stores-purchase/order-archive.md) Ressourcen frei und verbessert die Leistung, wenn Vertriebsmitarbeiter Kunden bei Bestellungen unterstützen.
+- **Kundenauftragsarchiv** - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) [Aufträge ](../stores-purchase/order-archive.md) Ressourcen frei und verbessert die Leistung, wenn Vertriebsmitarbeiter Kunden bei Bestellungen unterstützen.
 
 - **Indexverwaltung** - Die automatische [Neuindizierung](../systems/index-management.md) erfolgt bei Preisänderungen, Warenkorbaktualisierungen oder der Erstellung neuer Kategorien. Die Neuindizierung ist ein Hintergrundprozess, der Speichervorgänge nicht beeinträchtigt.
 
 ## Geschäftsprozesse und Rentabilität optimieren
 
-- **[!DNL Advanced Reporting]** - Erhalten Sie mit dynamischen Produkt-, Auftrags- und Kundenberichten auf der Basis von [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html?lang=de) wertvolle Erkenntnisse auf einen Blick.
+- **[!DNL Advanced Reporting]** - Erhalten Sie mit dynamischen Produkt-, Auftrags- und Kundenberichten auf der Basis von [Business Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/getting-started.html) wertvolle Erkenntnisse auf einen Blick.
 
 - **Dashboard-Momentaufnahmen** - Um Ihr Marketing-Budget zu maximieren, ist es von entscheidender Bedeutung zu wissen, was auf Ihrer Site von Interesse ist. Verwenden Sie diese [Informationen auf Ihrem Dashboard](admin-dashboard.md), um zu bestimmen, was Sie an treue Kunden weiterverkaufen und aufstocken sollen oder welche Produkte zum Verkauf angeboten werden sollen.
 
@@ -100,11 +107,11 @@ Adobe Commerce und Magento Open Source bieten eine Reihe von Tools, mit denen Si
 
 Machen Sie es Kunden leicht, ihre Käufe abzuschließen. Adobe Commerce und Magento Open Source helfen Ihnen, Ihren Checkout-Prozess zu optimieren und gleichzeitig die Konversionsraten zu steigern.
 
-**Sofortiger Kauf** - Vereinfachen Sie die Bestellung und erhöhen Sie die Konversionsraten, indem Sie Ihren Kunden [&#x200B; ermöglichen, durch &#x200B;](../stores-purchase/checkout-instant-purchase.md) Verwendung gespeicherter Zahlungs- und Versandinformationen die Geschwindigkeit der Bestellung zu erhöhen.
+**Sofortiger Kauf** - Vereinfachen Sie die Bestellung und erhöhen Sie die Konversionsraten, indem Sie Ihren Kunden [ ermöglichen, durch ](../stores-purchase/checkout-instant-purchase.md) Verwendung gespeicherter Zahlungs- und Versandinformationen die Geschwindigkeit der Bestellung zu erhöhen.
 
 **Einkaufsunterstützung** - [Assisted Shopping](../stores-purchase/shopping-assisted-cart-manage.md) erleichtert es den Kundendienstmitarbeitern, Bestellungen für Kunden zu erstellen. In Adobe Commerce haben Kundendienstmitarbeiter, die in der Admin arbeiten, Zugriff auf den Inhalt des Warenkorbs und können Artikel von einer Wunschliste in einen Warenkorb verschieben, Couponcodes anwenden und vieles mehr.
 
-**Sicherheit** - Unabhängig davon, ob eine Bestellung online oder telefonisch erfüllt wird, bietet [!DNL Commerce] [hoch entwickelte &#x200B;](../systems/security.md), einschließlich [CAPTCHA](../systems/security-captcha.md) und SSL-Verschlüsselung, mit erstklassiger Verschlüsselung und Hash-Algorithmen, um die Sicherheit des Systems zu schützen.
+**Sicherheit** - Unabhängig davon, ob eine Bestellung online oder telefonisch erfüllt wird, bietet [!DNL Commerce] [hoch entwickelte ](../systems/security.md), einschließlich [CAPTCHA](../systems/security-captcha.md) und SSL-Verschlüsselung, mit erstklassiger Verschlüsselung und Hash-Algorithmen, um die Sicherheit des Systems zu schützen.
 
 **Auftragsverarbeitung** - [!DNL Commerce] unterstützt einen vollständigen Workflow [Auftragsverarbeitung](../stores-purchase/order-processing.md). Der Bestellstatus kann einfach angepasst und die Kommunikation zwischen Vertriebsmitarbeitern und Kunden verfolgt werden.
 

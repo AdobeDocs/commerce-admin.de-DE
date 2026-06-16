@@ -3,9 +3,15 @@ title: Feste Produktsteuer (FPT)
 description: Erfahren Sie, wie Sie eine feste Produktsteuer (FPT) einrichten können, die zu bestimmten Produktarten hinzugefügt werden muss.
 exl-id: f1b475cb-a6fe-4b51-a0c3-7d0a202bd332
 feature: Checkout, Invoices, Taxes, Products
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/7jectO0ppETNscBLFCJp5DSWMqXyBYbW75-YoujWaR4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: 879
 ht-degree: 0%
 
 ---
@@ -33,7 +39,7 @@ Seien Sie vorsichtig, wenn Sie FPT-Preise in E-Mails angeben, da der Preisunters
 
 ## Konfigurieren von FPT
 
-Mit der FPT (Fixed Product Tax[&#x200B; (Eingabetyp](../catalog/attributes-input-types.md) wird ein Abschnitt mit Feldern für die Steuerverwaltung für jede Region erstellt.
+Mit der FPT (Fixed Product Tax[ (Eingabetyp](../catalog/attributes-input-types.md) wird ein Abschnitt mit Feldern für die Steuerverwaltung für jede Region erstellt.
 
 Die folgenden Anweisungen zeigen, wie Sie am Beispiel „Ökosteuer“ eine feste Produktsteuer für Ihr Geschäft einrichten. Nachdem Sie den Umfang der Steuer und die Länder und Bundesstaaten festgelegt haben, in denen die Steuer gilt, und je nach den von Ihnen gewählten Optionen können sich die Eingabefelder entsprechend den lokalen Anforderungen ändern. Weitere Informationen finden Sie unter [Produktattribute erstellen](../catalog/attribute-product-create.md).
 
@@ -89,7 +95,7 @@ Die folgenden Anweisungen zeigen, wie Sie am Beispiel „Ökosteuer“ eine fest
 
    - **[!UICONTROL Add to Column Options]** : Wenn das FPT-Feld in der [Produktliste“ angezeigt werden soll](../catalog/products-list.md) legen Sie auf `Yes` fest.
 
-   - **[!UICONTROL Use in Filter Options]** : Wenn Sie Produkte im Raster basierend [&#x200B; dem Wert des FPT](../getting-started/admin-workspace.md)Felds filtern möchten, legen Sie auf `Yes` fest.
+   - **[!UICONTROL Use in Filter Options]** : Wenn Sie Produkte im Raster basierend [ dem Wert des FPT](../getting-started/admin-workspace.md)Felds filtern möchten, legen Sie auf `Yes` fest.
 
    ![Erweiterte Attributeigenschaften](./assets/tax-fpt-advanced-attribute-properties.png){width="600" zoomable="yes"}
 

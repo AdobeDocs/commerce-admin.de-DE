@@ -3,9 +3,15 @@ title: Elemente - Schaltflächen
 description: Erfahren Sie mehr über den Inhaltstyp „Schaltflächen“, der zum Hinzufügen einer einzelnen Schaltfläche oder einer Reihe von Schaltflächen in der  [!DNL Page Builder]  verwendet wird.
 exl-id: 9f1681c5-04b0-4259-aaf6-5d8081bd8cdb
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/-Q-eKvElwVRaCuqHqXfAYmeanp-H-qHXTab0huUhXMM
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: 1588
 ht-degree: 0%
 
 ---
@@ -59,7 +65,7 @@ Wenn Sie mit dem Inhaltstyp Schaltflächen arbeiten, fügen Sie einzelne Schaltf
 
    ![Eine Schaltfläche auf die Bühne ziehen](./assets/pb-elements-button-drag.png){width="500" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über die Schaltfläche, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; (](./assets/pb-icon-settings.png)) aus.
+1. Bewegen Sie den Mauszeiger über die Schaltfläche, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ (](./assets/pb-icon-settings.png)) aus.
 
 1. Geben Sie die **[!UICONTROL Button Text]** ein, die auf der Schaltfläche angezeigt werden soll.
 
@@ -117,13 +123,13 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
 ### Schritt 1: Zweite Schaltfläche erstellen
 
-1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Hinzufügen![&#x200B; ((Symbol hinzufügen](./assets/pb-icon-add-button.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Hinzufügen![ ((Symbol hinzufügen](./assets/pb-icon-add-button.png){width="20"} ) aus.
 
    ![Eine weitere Schaltfläche hinzufügen](./assets/pb-elements-buttons-toolbox-add.png){width="500" zoomable="yes"}
 
 1. Geben Sie den Text ein, der auf der zweiten Schaltfläche angezeigt werden soll.
 
-1. Klicken Sie auf die Schaltfläche „Neu“, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ((](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Klicken Sie auf die Schaltfläche „Neu“, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ((](./assets/pb-icon-settings.png){width="20"}) aus.
 
    ![Bearbeiten der Schaltfläche](./assets/pb-elements-button-set-edit-button2-toolbox.png){width="500" zoomable="yes"}
 
@@ -157,11 +163,11 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
 ### Schritt 3: Button-Container aktualisieren
 
-1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
    ![Schaltflächen-Container-Toolbox](./assets/pb-elements-buttons-toolbox-settings.png){width="500" zoomable="yes"}
 
-1. Wählen Sie unter _[!UICONTROL Appearance]_&#x200B;die Option **[!UICONTROL Stacked]**&#x200B;aus.
+1. Wählen Sie unter _[!UICONTROL Appearance]_die Option **[!UICONTROL Stacked]**aus.
 
 1. Legen Sie **[!UICONTROL All Buttons are same size]** auf `Yes` fest.
 
@@ -185,7 +191,7 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
 ## Ändern der Einstellungen für eine Schaltfläche
 
-1. Klicken Sie auf die Schaltfläche auf der Bühne, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( &#x200B;](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Klicken Sie auf die Schaltfläche auf der Bühne, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( ](./assets/pb-icon-settings.png){width="20"} ) aus.
 
    ![Schaltflächen-Toolboxes](./assets/pb-elements-button-toolboxes.png){width="500" zoomable="yes"}
 
@@ -220,7 +226,7 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
 ## Ändern der Einstellungen für einen Schaltflächen-Container
 
-1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Schaltflächen-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( Einstellungssymbol](./assets/pb-icon-settings.png){width="20"} ) aus.
 
 1. Aktualisieren Sie die **[!UICONTROL Appearance]** nach Bedarf.
 
@@ -243,7 +249,7 @@ In den folgenden Abschnitten wird eine Reihe von Schritten beschrieben, die mit 
 
 ## Erweiterte Einstellungen ändern
 
-Sie können die _[!UICONTROL Advanced]_&#x200B;für einzelne Schaltflächen und für den Schaltflächen-Container ändern.
+Sie können die _[!UICONTROL Advanced]_für einzelne Schaltflächen und für den Schaltflächen-Container ändern.
 
 1. Um die Positionierung innerhalb des übergeordneten Containers zu steuern, wählen Sie die **[!UICONTROL Alignment]**:
 

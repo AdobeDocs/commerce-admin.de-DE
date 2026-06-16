@@ -3,16 +3,23 @@ title: Kategorien - Inhaltseinstellungen
 description: Erfahren Sie mehr über die Verwendung der [!UICONTROL Content]-Einstellungen zum Definieren zusätzlicher Inhalte, die auf der Kategorieseite angezeigt werden.
 exl-id: 988083e1-0993-4e08-b5e6-8b0855e56467
 feature: Catalog Management, Categories, Page Content
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/PKCKw4i-EDB10X3AU-daMiyVMT96naqRLF8vrVBp24s
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: 450
 ht-degree: 0%
 
 ---
 
 # Kategorien - Inhaltseinstellungen
 
-Die _[!UICONTROL Content]_&#x200B;Einstellungen bestimmen, ob zusätzliche Inhalte auf der Kategorieseite angezeigt werden. Zusätzlich zur Liste der Kategorieprodukte kann die Seite ein Bild, eine Beschreibung und einen CMS-Block enthalten. Sie können die [[!DNL Page Builder]](../page-builder/introduction.md) Inhaltswerkzeuge verwenden, um die Kategoriebeschreibung zu definieren.
+Die _[!UICONTROL Content]_Einstellungen bestimmen, ob zusätzliche Inhalte auf der Kategorieseite angezeigt werden. Zusätzlich zur Liste der Kategorieprodukte kann die Seite ein Bild, eine Beschreibung und einen CMS-Block enthalten. Sie können die [[!DNL Page Builder]](../page-builder/introduction.md) Inhaltswerkzeuge verwenden, um die Kategoriebeschreibung zu definieren.
 
 ## Hinzufügen der Kategoriebeschreibung in [!DNL Page Builder]
 

@@ -3,9 +3,15 @@ title: Warnhinweise für Produkte
 description: Erfahren Sie mehr über Produktwarnungen und deren Verwendung, um Kunden über den Lagerstatus und Preisänderungen für Produkte zu informieren.
 exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 feature: Inventory, Configuration
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/n1n2tqb97EiM-vXZqifVgMOdBqNRdwNM-pjDI-D-b8M
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: 653
 ht-degree: 0%
 
 ---
@@ -32,7 +38,7 @@ Der Warnhinweis auf Lager erstellt für jedes Produkt _das nicht vorrätig ist, 
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen Sie darunter **[!UICONTROL Catalog]**.
 
-1. Klicken Sie, um den Abschnitt _[!UICONTROL Product Alerts]_&#x200B;zu erweitern, und gehen Sie folgendermaßen vor:
+1. Klicken Sie, um den Abschnitt _[!UICONTROL Product Alerts]_zu erweitern, und gehen Sie folgendermaßen vor:
 
    ![Produktbenachrichtigungen](assets/config-catalog-product-alerts.png){width="600" zoomable="yes"}
 
@@ -64,7 +70,7 @@ Ausführlichere Informationen zur Verwendung von E-Mail-Nachrichten finden Sie u
 
 1. Wählen _unter „Standardvorlage laden_ die **[!UICONTROL Template]** aus, die Sie anpassen möchten.
 
-   Sie können die in Ihrem Design enthaltene Warnhinweisvorlage auswählen. Sie können auch die `Price Alert` oder `Stock Alert` Vorlagen unter _[!UICONTROL Magento_PriceAlert]_&#x200B;auswählen.
+   Sie können die in Ihrem Design enthaltene Warnhinweisvorlage auswählen. Sie können auch die `Price Alert` oder `Stock Alert` Vorlagen unter _[!UICONTROL Magento_PriceAlert]_auswählen.
 
 1. Klicken Sie auf **[!UICONTROL Load Template]**.
 

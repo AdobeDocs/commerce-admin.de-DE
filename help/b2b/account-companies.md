@@ -3,9 +3,16 @@ title: Unternehmenskonten
 description: Erfahren Sie, wie in Ihrem Adobe Commerce Store verwaltete Unternehmenskonten es ermöglichen, mehrere Käufer, die zum selben Unternehmen gehören, in einem einzigen Unternehmenskonto zu vereinen.
 exl-id: 0b3c3635-a1cf-4ee6-a8bc-e7cbcb4e2e63
 feature: B2B, Companies, Configuration
-source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
+TQID: https://experienceleague.adobe.com/gHdiA49ndaE4yFfIPAPaCUOhWnkkZIg2WKfSeSrwBQQ
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: 753
 ht-degree: 0%
 
 ---
@@ -22,7 +29,7 @@ Vorteile eines Firmenkontos:
 
 - Bietet unbegrenzte [Firmenbenutzer](account-company-users.md) und die Erstellung zusätzlicher Konten, was den Unternehmenskauf vereinfacht.
 
-- Umfasst Unterstützung für eine _Smart_-Unternehmenskontenhierarchie mit verschiedenen [&#x200B; (Rollen und Berechtigungen](account-company-roles-permissions.md) für die Auftragserteilung.
+- Umfasst Unterstützung für eine _Smart_-Unternehmenskontenhierarchie mit verschiedenen [ (Rollen und Berechtigungen](account-company-roles-permissions.md) für die Auftragserteilung.
 
 - Bietet einen Mechanismus für Händler zur Einkommenssteigerung, indem sie [Firmenkundenkredit](credit-company.md) als Zahlungsmethode anbieten.
 
@@ -30,7 +37,7 @@ Vorteile eines Firmenkontos:
 
 ## Anzeigen von Unternehmenskonten
 
-Das _Firmen_-Raster listet alle aktiven Unternehmenskonten und ausstehenden Anfragen auf, unabhängig von der Statuseinstellung. Darüber hinaus stehen die Tools zum [&#x200B; (Erstellen](account-company-create.md) und [) &#x200B;](account-company-manage.md) Unternehmenskonten zur Verfügung. Verwenden Sie die standardmäßigen Rastersteuerelemente, um die Liste zu filtern und das Spaltenlayout anzupassen. Eine Liste der Spaltenbeschreibungen finden Sie im Abschnitt _Spaltenbeschreibungen_ in [Verwalten von Unternehmenskonten](account-company-manage.md).
+Das _Firmen_-Raster listet alle aktiven Unternehmenskonten und ausstehenden Anfragen auf, unabhängig von der Statuseinstellung. Darüber hinaus stehen die Tools zum [ (Erstellen](account-company-create.md) und [) ](account-company-manage.md) Unternehmenskonten zur Verfügung. Verwenden Sie die standardmäßigen Rastersteuerelemente, um die Liste zu filtern und das Spaltenlayout anzupassen. Eine Liste der Spaltenbeschreibungen finden Sie im Abschnitt _Spaltenbeschreibungen_ in [Verwalten von Unternehmenskonten](account-company-manage.md).
 
 Kunden können ein Unternehmenskonto in der Storefront erstellen oder ein Händler kann eines in der Admin erstellen. Standardmäßig ist die Möglichkeit zum Erstellen von Unternehmenskonten in der Storefront aktiviert. Wenn die Konfiguration dies zulässt, kann ein Besucher des Stores die Eröffnung eines Unternehmenskontos anfordern. Nachdem das Unternehmenskonto genehmigt wurde, kann der Unternehmensadministrator die Unternehmensstruktur und Benutzer mit verschiedenen Berechtigungsebenen einrichten.
 

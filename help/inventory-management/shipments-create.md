@@ -3,9 +3,15 @@ title: Sendungen aus mehreren Quellen erstellen
 description: Erfahren Sie, wie Händler mit mehreren Quellen Sendungen erstellen und senden können.
 exl-id: d2995139-0fc3-4379-a4ec-b0d38ed566bb
 feature: Inventory, Shipping/Delivery
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/IpRJ-mlwOVkNJymlJFV8o-aQp1oDU-xyNE7C6iVDR2E
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -43,7 +49,7 @@ Wenn Sie Lieferungen eingeben, werden die eingegebenen Beträge von den Lagerbes
 
      >[!IMPORTANT]
      >
-     >Wenn Sie den Distance Priority-Algorithmus für Versand und Routen verwenden und die Daten für den ausgewählten [Berechnungsmodus) (](distance-priority-algorithm.md), Fahrradfahren oder Gehen) für eine Sendung nicht zurückgegeben werden, verwendet die SSA standardmäßig die Source-Priorität. Es wird empfohlen, auch die [Priorität für Quellen pro Lager) &#x200B;](stocks-prioritize-sources.md).
+     >Wenn Sie den Distance Priority-Algorithmus für Versand und Routen verwenden und die Daten für den ausgewählten [Berechnungsmodus) (](distance-priority-algorithm.md), Fahrradfahren oder Gehen) für eine Sendung nicht zurückgegeben werden, verwendet die SSA standardmäßig die Source-Priorität. Es wird empfohlen, auch die [Priorität für Quellen pro Lager) ](stocks-prioritize-sources.md).
 
 
    - Wählen Sie **[!UICONTROL Select a Source to Ship from]** eine Quelle aus, um eine Sendung zu versenden.
@@ -54,9 +60,9 @@ Wenn Sie Lieferungen eingeben, werden die eingegebenen Beträge von den Lagerbes
 
      ![Wählen Sie eine Source aus und geben Sie eine Menge ein](assets/shipment-adobe-shipping-sources.png){width="350" zoomable="yes"}
 
-1. Überprüfen Sie die _[!UICONTROL New Shipment]_&#x200B;Seite und geben Sie bei Bedarf zusätzliche Änderungen ein.
+1. Überprüfen Sie die _[!UICONTROL New Shipment]_Seite und geben Sie bei Bedarf zusätzliche Änderungen ein.
 
-   Im Abschnitt _[!UICONTROL Inventory]_&#x200B;werden die Herkunft, die Lieferprodukte, die bestellte Gesamtmenge und die zu versendende Menge angezeigt.
+   Im Abschnitt _[!UICONTROL Inventory]_werden die Herkunft, die Lieferprodukte, die bestellte Gesamtmenge und die zu versendende Menge angezeigt.
 
    ![Lagerdetails für die Lieferung, z. B. Teillieferung](assets/inventory-shipment-details.png){width="350" zoomable="yes"}
 

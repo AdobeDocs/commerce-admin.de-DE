@@ -3,10 +3,16 @@ title: Cron (geplante Aufgaben)
 description: Erfahren Sie, wie Sie die Ausführung und Planung von Commerce Cron-Aufträgen über den Administrator steuern können.
 exl-id: e0da08ab-212f-4977-9387-0b4b40560cfb
 feature: System, Configuration
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/6zjak78aoXbzoHzdnOL4tvXgq4KAAjwMNLlLPax4ovE
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: cc250cf1-34eb-4863-80d0-d170d45ea067id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -24,14 +30,14 @@ Adobe Commerce und Magento Open Source führen einige Vorgänge planmäßig durc
 
 >[!IMPORTANT]
 >
->Commerce-Services müssen in Crontab installiert werden, um sicherzustellen, dass Kernkomponenten und einige Erweiterungen von Drittanbietern erwartungsgemäß funktionieren. Siehe die [Anweisungen im _Installationshandbuch_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html?lang=de) für detaillierte Informationen über die Installation von Services auf crontab.
+>Commerce-Services müssen in Crontab installiert werden, um sicherzustellen, dass Kernkomponenten und einige Erweiterungen von Drittanbietern erwartungsgemäß funktionieren. Siehe die [Anweisungen im _Installationshandbuch_](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html) für detaillierte Informationen über die Installation von Services auf crontab.
 
 Darüber hinaus können Sie Folgendes so konfigurieren, dass es gemäß einem Cron-Zeitplan ausgeführt wird:
 
 - Systemrasteraktualisierungen und -neuindizierung bestellen
 - Ausstehende Zahlungsdauer
 
-Stellen Sie sicher, dass [Basis-URLs](../stores-purchase/store-urls.md) für den Store korrekt festgelegt sind, damit die URLs, die während Cron-Vorgängen generiert werden, korrekt sind. Informationen zu Adobe Commerce in Cloud-Infrastrukturen finden Sie unter [Einrichten von Cron](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=de) im _Handbuch zu Commerce in Cloud-Infrastrukturen_. Für On-Premise siehe [Konfigurieren und Ausführen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=de)) im _Konfigurationshandbuch_.
+Stellen Sie sicher, dass [Basis-URLs](../stores-purchase/store-urls.md) für den Store korrekt festgelegt sind, damit die URLs, die während Cron-Vorgängen generiert werden, korrekt sind. Informationen zu Adobe Commerce in Cloud-Infrastrukturen finden Sie unter [Einrichten von Cron](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html) im _Handbuch zu Commerce in Cloud-Infrastrukturen_. Für On-Premise siehe [Konfigurieren und Ausführen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html)) im _Konfigurationshandbuch_.
 
 ## Cron konfigurieren
 

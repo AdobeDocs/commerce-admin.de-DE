@@ -2,9 +2,15 @@
 title: Menü [!UICONTROL Sales]
 description: Commerce Admin enthält das Menü [!UICONTROL Sales] , das je nach Position im Workflow Zugriff auf Tools zur Bearbeitung von Aufträgen bietet.
 exl-id: 105106a4-85f7-4143-8411-69ff67ff9331
-source-git-commit: 621b4729e23952ddd720b4dcc49b5341baae64cc
+TQID: https://experienceleague.adobe.com/mliJ1Q1-DEkR5rAoIRLQ9qBxQopBytjicPiqzWTg7ac
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: 579
 ht-degree: 0%
 
 ---
@@ -17,13 +23,13 @@ Im Menü Verkauf werden die Transaktionen nach ihrer Position im Auftrags-Workfl
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 ![Menü „Verkauf](./assets/admin-menu-sales.png){width="450" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 ![Menü „Verkauf](./assets/admin-menu-sales-accs.png){width="450" zoomable="yes"}
 
@@ -67,11 +73,11 @@ Eine [Gutschrift](credit-memos.md) ist ein Dokument, das den Betrag anzeigt, der
 
 ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce)
 
-Kunden[&#x200B; die einen Artikel zum Austausch oder zur Rückerstattung &#x200B;](returns.md) möchten, kann eine „Rücksendung von Waren“ (RMA) erteilt werden. RMAs können für die Produktarten „Einfach“, „Gruppiert“, „Konfigurierbar“ und „Bundle“ ausgestellt werden. RMAs sind jedoch nicht für virtuelle und herunterladbare Produkte oder Geschenkgutscheine verfügbar.
+Kunden[ die einen Artikel zum Austausch oder zur Rückerstattung ](returns.md) möchten, kann eine „Rücksendung von Waren“ (RMA) erteilt werden. RMAs können für die Produktarten „Einfach“, „Gruppiert“, „Konfigurierbar“ und „Bundle“ ausgestellt werden. RMAs sind jedoch nicht für virtuelle und herunterladbare Produkte oder Geschenkgutscheine verfügbar.
 
 ### [!UICONTROL Billing Agreements]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Eine [Abrechnungsvereinbarung](paypal-billing-agreements.md) ähnelt einer Bestellung, mit dem Unterschied, dass sie nicht auf einen einzigen Kauf beschränkt ist. Beim Checkout wählt der Kunde als Zahlungsmethode die Abrechnungsvereinbarung. Eine Abrechnungsvereinbarung optimiert den Checkout-Prozess, da der Kunde nicht für jeden Kauf Zahlungsinformationen eingeben muss.
 
@@ -81,7 +87,7 @@ Die [Transaktionen](transactions.md) Seite listet alle Zahlungsaktivitäten auf,
 
 ### [!UICONTROL Braintree Virtual Terminal]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Auf der Seite Braintree Virtual Terminal kann ein Administrator die Zahlung für den ausgewählten Betrag akzeptieren. Um die Terminalfunktion verfügbar zu machen, sollte ein Händler die grundlegenden [Braintree-Einstellungen konfigurieren](braintree.md). Braintree bietet ein vollständig anpassbares Checkout-Erlebnis mit Betrugserkennung und PayPal-Integration.
 

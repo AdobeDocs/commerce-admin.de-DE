@@ -3,10 +3,16 @@ title: Widget „Liste neuer Produkte“
 description: Erfahren Sie, wie Sie mit dem Widget Liste neuer Produkte eine Liste der zuletzt hinzugefügten Produkte anzeigen können.
 exl-id: bdff3655-cd14-4a19-a51f-4cabeb274d2a
 feature: Page Content, Products
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/zFJ9KJgBGtqDaCf-5ZLKHaPquWikVtG90g01QjGo1m0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: 638
 ht-degree: 0%
 
 ---
@@ -23,7 +29,7 @@ Die Liste der neuen Produkte ist ein Beispiel für dynamische Inhalte und besteh
 
 ![Adobe Commerce](../assets/adobe-logo.svg) Informationen zu Adobe Commerce-Stores finden Sie unter [Planen einer Aktualisierung](content-staging-scheduled-update.md) und fahren Sie dann mit Schritt 2 auf dieser Seite fort.
 
-_[!UICONTROL Set Product as New]_&#x200B;Einstellung für den Datumsbereich kann nur in geplanten Aktualisierungen konfiguriert werden.
+_[!UICONTROL Set Product as New]_Einstellung für den Datumsbereich kann nur in geplanten Aktualisierungen konfiguriert werden.
 
 Wenn Sie ein Produkt als neu festlegen, wird das Produkt zur Liste _Neue Produkte_ hinzugefügt. Sie können die Einstellung jederzeit wieder zurücksetzen, wenn Sie sie nicht mehr in die Liste aufnehmen möchten.
 
@@ -47,7 +53,7 @@ Der Code, der den Inhalt der Liste Neue Produkte und deren Platzierung in Ihrem 
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add Widget]**.
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Settings]_&#x200B;wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Settings]_wie folgt vor:
 
    - Legen Sie **[!UICONTROL Type]** auf `Catalog New Products List` fest.
 
@@ -57,7 +63,7 @@ Der Code, der den Inhalt der Liste Neue Produkte und deren Platzierung in Ihrem 
 
    ![Einstellungen für neue Produktlisten-Widgets](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_&#x200B;wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_wie folgt vor:
 
    - Geben Sie **[!UICONTROL Widget Title]** einen beschreibenden Titel für das Widget ein. (Dieser Titel ist nur in der Datei _Admin_ sichtbar.)
 
@@ -71,7 +77,7 @@ Der Code, der den Inhalt der Liste Neue Produkte und deren Platzierung in Ihrem 
 
 ## Schritt 3: Speicherort auswählen
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_&#x200B;auf **[!UICONTROL Add Layout Update]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_auf **[!UICONTROL Add Layout Update]**.
 
 1. **[!UICONTROL Display On]** auf `Specified Page.` festlegen
 
@@ -97,7 +103,7 @@ Der Code, der den Inhalt der Liste Neue Produkte und deren Platzierung in Ihrem 
 1. Legen Sie **[!UICONTROL Display Products]** auf eine der folgenden Einstellungen fest:
 
    - `All Products` - Listet Produkte der Reihe nach auf, beginnend mit dem zuletzt hinzugefügten.
-   - `New Products` - Listet nur die Produkte auf, die als „neu _gekennzeichnet_. Ein Produkt gilt während des in _[!UICONTROL Set Product As New From/To]_&#x200B;angegebenen Datumsbereichs als neu. Die Liste ist leer, wenn der Datumsbereich abläuft, ohne dass neue Produkte definiert wurden.
+   - `New Products` - Listet nur die Produkte auf, die als „neu _gekennzeichnet_. Ein Produkt gilt während des in _[!UICONTROL Set Product As New From/To]_angegebenen Datumsbereichs als neu. Die Liste ist leer, wenn der Datumsbereich abläuft, ohne dass neue Produkte definiert wurden.
 
 1. Um Navigationssteuerelemente für Listen mit mehreren Seiten bereitzustellen, legen Sie **[!UICONTROL Display Page Control]** auf `Yes` fest.
 

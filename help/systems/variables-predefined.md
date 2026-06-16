@@ -4,9 +4,15 @@ description: Erfahren Sie mehr über die vordefinierten Variablen und wie Sie si
 exl-id: 01e909c4-c932-4262-9f33-bd2740a6355f
 role: Admin, User
 feature: System, Variables, Page Content, Communications
-source-git-commit: 64ccc2d5016e915a554c2253773bb50f4d33d6f4
+TQID: https://experienceleague.adobe.com/TKhaNVRFLc3VK0iDkCpqoWSnvFRJmDWAIw1uBPzlh00
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: 387
 ht-degree: 0%
 
 ---
@@ -27,11 +33,11 @@ ht-degree: 0%
 
    - Um die Variable in einer neuen Vorlage zu verwenden, klicken Sie auf **[!UICONTROL Add New Template]** und passen Sie den Code der Standardvorlage an. Siehe [Nachrichtenvorlagen](email-template-custom.md#message-templates).
 
-1. Wählen Sie unter _[!UICONTROL Load default template]_&#x200B;die **[!UICONTROL Template]**&#x200B;aus, die Sie anpassen möchten.
+1. Wählen Sie unter _[!UICONTROL Load default template]_die **[!UICONTROL Template]**aus, die Sie anpassen möchten.
 
 1. Um eine Vorlage anzuwenden, klicken Sie auf **[!UICONTROL Load Template]**.
 
-   Das Feld _[!UICONTROL Currently used for]_&#x200B;zeigt den Konfigurationspfad für die Vorlage an. Die&#x200B;_[!UICONTROL Template Subject]_ und _[!UICONTROL Template Content]_&#x200B;werden automatisch relativ zur ausgewählten Vorlage generiert.
+   Das Feld _[!UICONTROL Currently used for]_zeigt den Konfigurationspfad für die Vorlage an. Die_[!UICONTROL Template Subject]_ und _[!UICONTROL Template Content]_werden automatisch relativ zur ausgewählten Vorlage generiert.
 
    - **[!UICONTROL Template Subject]** - Dieser Text wird in der Betreffzeile einer E-Mail angezeigt.
 

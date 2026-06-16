@@ -3,9 +3,15 @@ title: Medien - Zuordnung
 description: Erfahren Sie mehr über den Inhaltstyp „Zuordnen“, der zum Hinzufügen einer Zuordnung von  [!DNL Google Maps]  zu der  [!DNL Page Builder]  verwendet wird.
 exl-id: 91fea8f8-d48a-43f1-ba2a-212c7130cee9
 feature: Page Builder, Page Content
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/0Q0wGtAK-MYI949ELjgcM2Omg2ASHCtlJ2T-so1Uoms
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: 1604
 ht-degree: 0%
 
 ---
@@ -68,13 +74,13 @@ Je nachdem, ob Sie bereits über einen [!DNL Google Maps] verfügen, können Sie
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Content Management]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
    ![Erweiterte Inhalts-Tools](../configuration-reference/general/assets/content-management-advanced-content-tools.png){width="600" zoomable="yes"}
 
-   Weitere Informationen zu den Konfigurationsoptionen für die erweiterten Content-Management-Tools finden Sie [&#x200B; „Konfigurationshandbuch](../configuration-reference/general/content-management.md).
+   Weitere Informationen zu den Konfigurationsoptionen für die erweiterten Content-Management-Tools finden Sie [ „Konfigurationshandbuch](../configuration-reference/general/content-management.md).
 
 1. Fügen Sie **[!UICONTROL Google Maps API Key]** den in Schritt 1 kopierten Schlüssel ein.
 
@@ -102,9 +108,9 @@ Je nachdem, ob Sie bereits über einen [!DNL Google Maps] verfügen, können Sie
 
 ## Benutzerdefinierte Map-Position hinzufügen
 
-1. Bewegen Sie den Mauszeiger über den Zuordnungs-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( (](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den Zuordnungs-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="20"}) aus.
 
-1. Klicken Sie oben rechts auf der _[!UICONTROL Edit Map]_&#x200B;auf **[!UICONTROL Add Location]**.
+1. Klicken Sie oben rechts auf der _[!UICONTROL Edit Map]_auf **[!UICONTROL Add Location]**.
 
 1. Geben Sie die **[!UICONTROL Location Name]** ein, die mit der Nadel auf der Karte verknüpft werden soll.
 
@@ -148,7 +154,7 @@ Je nachdem, ob Sie bereits über einen [!DNL Google Maps] verfügen, können Sie
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-   Der neue Ort wird auf der Karte und im Map-Standortraster auf der _[!UICONTROL Edit Map]_&#x200B;angezeigt.
+   Der neue Ort wird auf der Karte und im Map-Standortraster auf der _[!UICONTROL Edit Map]_angezeigt.
 
    ![[!DNL Page Builder] - Karten Standortraster](./assets/pb-media-maps-settings-add-location-grid.png){width="600" zoomable="yes"}
 
@@ -160,7 +166,7 @@ Verwenden Sie den [!DNL Google Maps] Platform-Stilassistenten, um eines von sech
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Content Management]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 
@@ -197,7 +203,7 @@ Verwenden Sie den [!DNL Google Maps] Platform-Stilassistenten, um eines von sech
 
    {style="table-layout:auto"}
 
-1. Ändern Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf:
+1. Ändern Sie die _[!UICONTROL Advanced]_nach Bedarf:
 
    - Um die horizontale Positionierung des Zuordnungsinhalts zu steuern, der zum Container hinzugefügt wurde, wählen Sie eine **[!UICONTROL Alignment]** aus:
 
@@ -266,7 +272,7 @@ Die Rastergröße bestimmt die Größe der Zuordnung in Bezug auf eine [Spalte](
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Content Management]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL Advanced Content Tools]**.
 

@@ -1,47 +1,53 @@
 ---
 title: '[!UICONTROL My Quote Templates]'
-description: Erfahren Sie mehr über die Kundenerlebnis für Angebotsvorlagen, die in der Storefront Konto Dashboard verfügbar ist.
+description: Erfahren Sie mehr über das Kundenerlebnis für Angebotsvorlagen, das im Dashboard des Storefront-Kontos verfügbar ist.
 feature: B2B, Companies, Quotes
 exl-id: 3d95a44e-b874-442b-af96-0dc6b589d0f7
-source-git-commit: 15f85631741859280450ae1b477e2f3859c42773
+TQID: https://experienceleague.adobe.com/E2xR1PkAHidID85ro6fIz--mGtI358VvmXdKcSApVww
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: 973
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL My Quote Templates]
 
-Wenn Angebote aktiviert sind, werden im _[!UICONTROL My Quotes Template]_&#x200B;Abschnitt der Kunden Konto Dashboard alle Angebotsvorlagen aufgelistet, die mit der Kunden Konto verknüpft sind. Abhängig von ihren Berechtigungen können nur Käufer, die im Namen eines Firma einkaufen, ein Angebot Vorlage Anfrage und Angebotspreise und -bedingungen für wiederkehrende Bestellungen aushandeln.
+Wenn Angebote aktiviert sind, werden im Abschnitt _[!UICONTROL My Quotes Template]_des Kundenkonto-Dashboards alle mit dem Kundenkonto verknüpften Angebotsvorlagen aufgelistet. Abhängig von ihren Berechtigungen können nur Einkäufer, die im Namen eines Unternehmens Einkäufe tätigen, eine Angebotsvorlage anfordern und Angebotspreise und Bedingungen für wiederkehrende Bestellungen aushandeln.
 
-![Mein Zitat Vorlagen](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
+![Meine Angebotsvorlagen](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
-Das Zitat Vorlage Liste organisiert Vorlagen nach Status.
+Die Liste der Angebotsvorlagen organisiert Vorlagen nach Status.
 
-- **[!UICONTROL Active Quote Templates]** listet Vorlagen auf, die ausgehandelt und zur Verwendung genehmigt wurden. Zu den Informationen gehören die Mindestanzahl der Angebote und der aufgegebenen Bestellungen, wenn diese Optionen während des Verhandlungsprozesses konfiguriert wurden. Einkäufer können ein verknüpftes Angebot aus dem Vorlage generieren, um ein bestellen basierend auf Angebotsbedingungen abzugeben.
+- **[!UICONTROL Active Quote Templates]** listet Vorlagen auf, die ausgehandelt und zur Verwendung genehmigt wurden. Zu den Informationen gehören die Mindestanzahl der Angebote und der aufgegebenen Bestellungen, wenn diese Optionen während des Verhandlungsprozesses konfiguriert wurden. Käufer können ein verknüpftes Angebot aus der Vorlage generieren, um eine Bestellung auf der Grundlage von Angebotsbedingungen einzureichen.
 
-- **[!UICONTROL In Review]** Listet Vorlagen im Verhandlungsprozess auf, zeigt den aktuellen Status an und bietet eine verknüpfen zum Öffnen der Vorlage.
+- **[!UICONTROL In Review]** werden Vorlagen im Verhandlungsprozess aufgelistet, die den aktuellen Status anzeigen und einen Link zum Öffnen der Vorlage bereitstellen.
 
-- **[!UICONTROL Inactive]** Listet Vorlagen auf, die abgelaufen sind, storniert wurden oder nicht mehr gültig sind, weil ein Einkäufer die Anzahl der zulässigen Aufträge aufgebraucht hat.
+- **[!UICONTROL Inactive]** listet Vorlagen auf, die abgelaufen sind, storniert wurden oder nicht mehr gültig sind, weil ein Käufer die zulässige Anzahl an gebundenen Aufträgen aufgebraucht hat.
 
-Für die Einkäufer ist das *[!UICONTROL My Quotes Templates]* Seite der Dreh- und Angelpunkt für die gesamte Kommunikation zwischen Einkäufer und Verkäufer während des Verhandlungsprozesses.
+Für den Käufer ist die *[!UICONTROL My Quotes Templates]* die Anlaufstelle für alle Kommunikation zwischen Käufer und Verkäufer während des Verhandlungsprozesses.
 
-Ein Einkäufer, der die vom Verkäufer angebotenen ausgehandelten Bedingungen akzeptiert, kann die Vorlage akzeptieren und sie dann verwenden, um vorab genehmigte verknüpfte Angebote zu erstellen, die zur Platzierung von Aufträgen verwendet werden können.
+Ein Käufer, der die vom Verkäufer angebotenen ausgehandelten Bedingungen akzeptiert, kann die Vorlage akzeptieren und sie dann verwenden, um vorab genehmigte verknüpfte Angebote zu generieren, die für die Auftragserteilung verwendet werden können.
 
-- Aktionen im Zusammenhang mit der Verwaltung des Angebots Vorlage:
+- Aktionen im Zusammenhang mit der Verwaltung der Angebotsvorlage:
 
-   - Abbrechen ein Vorlage
-   - Senden an den Verkäufer zur Überprüfung
-   - Akzeptieren das Zitat Vorlage
-   - ändern des Zitats Vorlage Gültigkeit Datum
-   - hinzufügen eine Lieferadresse
-   - Verweis-Dokument Links verwalten
+   - Abbrechen einer Vorlage
+   - An Verkäufer zur Überprüfung senden
+   - Angebotsvorlage akzeptieren
+   - Ablaufdatum der Angebotsvorlage ändern
+   - Lieferadresse hinzufügen
+   - Referenzdokument-Links verwalten
 
-- Aktionen für die Aktualisierung des Angebots Vorlage Details während des Verhandlungsprozesses:
+- Aktionen zum Aktualisieren der Details der Angebotsvorlage während des Verhandlungsprozesses:
 
-   - prüfen Artikelpreise und Updates.
-   - Wenn Anzahl Schwellenwerte für die Vorlage der Angebote konfiguriert wurden, passen Sie die Mindest- und Höchstwerte an.
-   - Verfolgen Sie den Verhandlungsprozess von [!UICONTROL Comments] und [!UICONTROL History] Abschnitten.
+   - Überprüfen Sie die Artikelpreise und Aktualisierungen.
+   - Wenn in der Angebotsvorlage Mengenschwellen konfiguriert wurden, passen Sie die Mindest- und Höchstwerte an.
+   - Verfolgen Sie den Verhandlungsprozess aus [!UICONTROL Comments] und [!UICONTROL History] Abschnitten.
    - Bei Vorlagen, die noch geprüft werden, kann der Käufer die Angebotsvorlage ändern, indem er Elemente entfernt.
    - Kommunizieren und verhandeln Sie mit dem Verkäufer, indem Sie Notizen auf Zeileneintrags- und Angebotsebene hinzufügen.
    - Referenzdokument-Links zu externen Verträgen und Vereinbarungen hinzufügen, bearbeiten oder entfernen.
@@ -82,17 +88,17 @@ Der Käufer kann eine Angebotsvorlage erst annehmen, wenn er über eine Lieferad
 
 1. Der Käufer meldet sich bei seinem Konto an.
 
-1. Wählen Sie im linken Bereich .**[!UICONTROL My Quote Templates]**
+1. Wählen Sie im linken Bedienfeld **[!UICONTROL My Quote Templates]** aus.
 
-1. Wählt das gewünschte Zitat Vorlage aus.
+1. Wählt die gewünschte Angebotsvorlage aus.
 
-1. Klicken Sie im **[!UICONTROL Shipping Information]** Abschnitt auf **[!UICONTROL Add New Address]**.
+1. Klicken Sie im Abschnitt **[!UICONTROL Shipping Information]** auf **[!UICONTROL Add New Address]**.
 
-1. Füllt Details für die neue Adresse aus.
+1. Füllen Sie die Details für die neue Adresse aus.
 
-1. Klickt **[!UICONTROL Save Address]** auf .
+1. Klicks **[!UICONTROL Save Address]**.
 
-Nachdem der Einkäufer die Adresse hinzugefügt hat, sendet er die Vorlage zur Überprüfung an den Verkäufer zurück. Der Verkäufer stellt die Versand- und Lieferoptionen zur Verfügung. Diese Aktualisierungen können sich auf die ausgehandelten Angebotspreise auswirken. Die Versandoptionen sind beim Checkout gesperrt.
+Nachdem der Käufer die Adresse hinzugefügt hat, senden sie die Vorlage zur Überprüfung an den Verkäufer zurück. Der Verkäufer stellt die Versand- und Lieferoptionen zur Verfügung. Diese Aktualisierungen können sich auf die ausgehandelten Angebotspreise auswirken. Die Versandoptionen sind beim Checkout gesperrt.
 
 ## Verknüpftes Angebot erstellen
 
@@ -108,44 +114,44 @@ Käufer können die folgenden Aktionen über ein verknüpftes Angebot abschließ
 
 - Wenn das Angebot mit Mengenschwellen konfiguriert ist, passen Sie die Bestellmenge für die Positionen an.
 - Zur Kasse gehen, um eine Bestellung einzureichen.
-- Löschen oder drucken Sie das Angebot aus.
-- Öffnen Sie das Angebot Vorlage das zur Generierung des Angebots verwendet wurde.
+- Löschen oder drucken Sie das Angebot.
+- Öffnen Sie die Angebotsvorlage, die zum Generieren des Angebots verwendet wird.
 
-## Abbrechen ein Zitat Vorlage
+## Abbrechen einer Angebotsvorlage
 
-Klicken Sie im Zitat Vorlage Seite auf **[!UICONTROL Cancel Quote Template]**.
+Klicken Sie auf der Seite mit der Angebotsvorlage auf **[!UICONTROL Cancel Quote Template]**.
 
-Das Angebot Vorlage wird storniert und der Angebotsstatus ändert sich in `Closed`. Das geschlossene Zitat verbleibt in Ihrer Liste der *[!UICONTROL Inactive]* Anführungszeichen und bleibt im _[!UICONTROL Quote Templates]_&#x200B;Raster im Admin aufgeführt.
+Die Angebotsvorlage wird abgebrochen, und der Angebotsstatus ändert sich in `Closed`. Das geschlossene Anführungszeichen verbleibt in Ihrer Liste *[!UICONTROL Inactive]* Anführungszeichen und bleibt im _[!UICONTROL Quote Templates]_in der Admin-Liste aufgeführt.
 
-## Verweis-Dokument Links verwalten
+## Referenzdokument-Links verwalten
 
-Die Funktion &quot;Referenz Dokument Links&quot; ermöglicht es Käufern und Verkäufern, während des Angebotsprozesses externe Dokumente (z. B. Verträge, Vereinbarungen oder Spezifikationen) hinzuzufügen, zu bearbeiten und zu Vorlage managen.
+Die Funktion Referenzdokument-Links ermöglicht Käufern und Verkäufern das Hinzufügen, Bearbeiten und Verwalten von Links zu externen Dokumenten (z. B. Verträgen, Vereinbarungen oder Spezifikationen) während des Vorlagenprozesses für Angebote.
 
-### hinzufügen einen Verweis Dokument verknüpfen
+### Referenzdokument-Link hinzufügen
 
-1. Öffnen Sie das Angebot Vorlage.
+1. Öffnen Sie die Angebotsvorlage.
 
-1. Klicken Sie im **[!UICONTROL Reference Documents]** Abschnitt auf .**[!UICONTROL Add]**
+1. Klicken Sie im Abschnitt **[!UICONTROL Reference Documents]** auf **[!UICONTROL Add]**.
 
-1. Im Dialogfeld &quot;Dokument Informationen&quot;:
-   - Geben Sie ein **[!UICONTROL Document Name]** (erforderlich)
-   - Geben Sie eine **[!UICONTROL Document Identifier]** (optionale)
-   - Geben Sie ein **[!UICONTROL Reference Document URL]** (erforderlich)
+1. Im Dialogfeld Dokumentinformationen :
+   - **[!UICONTROL Document Name]** eingeben (erforderlich)
+   - **[!UICONTROL Document Identifier]** eingeben (optional)
+   - **[!UICONTROL Reference Document URL]** eingeben (erforderlich)
 
 1. Klicken Sie auf **[!UICONTROL Add to Quote Template]**.
 
-   Der Verweis Dokument verknüpfen wird dem Vorlage im folgenden Format hinzugefügt:
+   Der Link zum Referenzdokument wird der Angebotsvorlage im folgenden Format hinzugefügt:
    `Document Name, Document Identifier https://document-url`
 
-### Bearbeiten eines Verweises Dokument verknüpfen
+### Referenzdokument-Link bearbeiten
 
-1. Öffnen Sie das Angebot Vorlage.
+1. Öffnen Sie die Angebotsvorlage.
 
-1. Klicken Sie im **[!UICONTROL Reference Documents]** Abschnitt neben **[!UICONTROL Edit]** der Dokument verknüpfen die Sie ändern möchten.
+1. Klicken Sie im Abschnitt **[!UICONTROL Reference Documents]** auf **[!UICONTROL Edit]** neben dem Dokument-Link, den Sie ändern möchten.
 
-1. Aktualisieren Sie die Dokument Informationen im Dialogfeld:
+1. Aktualisieren Sie die Dokumentinformationen im Dialogfeld:
    - Dokumentname
-   - Dokument Kennung
+   - Dokumentkennung
    - Referenzdokument-URL
 
 1. Klicken Sie auf **[!UICONTROL Add to Quote Template]**.

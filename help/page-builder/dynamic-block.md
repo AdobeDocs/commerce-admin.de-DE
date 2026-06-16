@@ -3,9 +3,15 @@ title: Inhalt hinzufügen - Dynamischer Block
 description: Erfahren Sie mehr über den Inhaltstyp „Dynamischer Block“, der zum Hinzufügen eines wiederverwendbaren dynamischen Blocks zum  [!DNL Page Builder]  verwendet wird.
 exl-id: 04c90f47-9e32-4d34-ac0d-a2f2cec95ffc
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/5M3Pz-NB6CdERDJj8lhHzj6ibsR0NJ-bVgpfUG7cdPw
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: 827
 ht-degree: 0%
 
 ---
@@ -41,7 +47,7 @@ Verwenden Sie den Inhaltstyp Dynamischer Block , um einen vorhandenen [dynamisch
 
    ![Ziehen eines Platzhalters für einen dynamischen Block auf den Schritt](./assets/pb-dynamic-block-drag.png){width="600" zoomable="yes"}
 
-1. Bewegen Sie den Mauszeiger über den leeren dynamischen Block-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; ( (](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den leeren dynamischen Block-Container, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ ( (](./assets/pb-icon-settings.png){width="20"}) aus.
 
    ![Toolbox für dynamische Blöcke](./assets/pb-dynamic-block-settings.png){width="600" zoomable="yes"}
 
@@ -129,7 +135,7 @@ Verwenden Sie den Inhaltstyp Dynamischer Block , um einen vorhandenen [dynamisch
 
 ## Bearbeiten der Einstellungen des dynamischen Block-Containers
 
-1. Bewegen Sie den Mauszeiger über den Container mit den dynamischen Blöcken, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![&#x200B; (Symbol &#x200B;](./assets/pb-icon-settings.png){width="20"}) aus.
+1. Bewegen Sie den Mauszeiger über den Container mit den dynamischen Blöcken, um die Toolbox anzuzeigen, und wählen Sie _Symbol_ Einstellungen![ (Symbol ](./assets/pb-icon-settings.png){width="20"}) aus.
 
    ![Toolbox für dynamische Blöcke](./assets/pb-add-content-dynamic-block-toolbox.png){width="500" zoomable="yes"}
 
@@ -161,7 +167,7 @@ Verwenden Sie den Inhaltstyp Dynamischer Block , um einen vorhandenen [dynamisch
 
 ## Entfernen eines dynamischen Blocks aus der Phase
 
-1. Bewegen Sie den Mauszeiger über den Container mit den dynamischen Blöcken, um die Toolbox anzuzeigen, und wählen _das Symbol_ Entfernen![&#x200B; aus (Symbol &#x200B;](./assets/pb-icon-remove.png){width="20"} entfernen).
+1. Bewegen Sie den Mauszeiger über den Container mit den dynamischen Blöcken, um die Toolbox anzuzeigen, und wählen _das Symbol_ Entfernen![ aus (Symbol ](./assets/pb-icon-remove.png){width="20"} entfernen).
 
 1. Wenn Sie zum Bestätigen aufgefordert werden, klicken Sie auf **[!UICONTROL OK]**.
 

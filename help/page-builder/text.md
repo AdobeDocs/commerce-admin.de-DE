@@ -3,16 +3,22 @@ title: Elemente - Text
 description: Erfahren Sie mehr über den Textinhaltstyp, der zum Hinzufügen eines Text-Containers in der  [!DNL Page Builder]  verwendet wird.
 exl-id: 3f14af35-9c04-4f4b-b3dd-d3406d56a9c0
 feature: Page Builder, Page Content
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/Sck0z8smCIZyQcXfhZuTiJoWqkYRcKbcsIU474iW4ow
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: 944
 ht-degree: 0%
 
 ---
 
 # Elemente - Text
 
-Verwenden Sie den _Text_-Inhaltstyp, um einen Text-Container mit einem WYSIWYG-Editor (“What You See Is What You Get„) in der &quot;[[!DNL Page Builder] &quot; &#x200B;](workspace.md#stage). Darüber hinaus können Sie Links, Bilder, [Variablen](../systems/variables-predefined.md) und Widgets zum Text über die Editor-Symbolleiste hinzufügen.
+Verwenden Sie den _Text_-Inhaltstyp, um einen Text-Container mit einem WYSIWYG-Editor (“What You See Is What You Get„) in der &quot;[[!DNL Page Builder] &quot; ](workspace.md#stage). Darüber hinaus können Sie Links, Bilder, [Variablen](../systems/variables-predefined.md) und Widgets zum Text über die Editor-Symbolleiste hinzufügen.
 
 ![Formatierter Text auf einem Banner](./assets/pb-storefont-banner-with-button.png){width="700"}
 
@@ -90,7 +96,7 @@ Informationen zum Erstellen eines Links für eine Telefonnummer oder E-Mail find
 
 1. Platzieren Sie den Cursor an der Stelle, an der das Bild eingefügt werden soll.
 
-1. Klicken Sie _der Editor-Symbolleiste auf_ Bild einfügen/bearbeiten![&#x200B; ( Schaltfläche &#x200B;](./assets/icon-pb-add-image.png){width="20"}Bild einfügen/bearbeiten).
+1. Klicken Sie _der Editor-Symbolleiste auf_ Bild einfügen/bearbeiten![ ( Schaltfläche ](./assets/icon-pb-add-image.png){width="20"}Bild einfügen/bearbeiten).
 
 1. Klicken Sie **[!UICONTROL Source]** auf das Suchsymbol, um den Medienspeicher zum Suchen und Auswählen eines Bildes zu verwenden.
 
@@ -106,7 +112,7 @@ Informationen zum Erstellen eines Links für eine Telefonnummer oder E-Mail find
 
 ## Texteinstellungen ändern
 
-1. Bewegen Sie den Mauszeiger über den Text-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( &#x200B;](./assets/pb-icon-settings.png){width="20"} ) aus.
+1. Bewegen Sie den Mauszeiger über den Text-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( ](./assets/pb-icon-settings.png){width="20"} ) aus.
 
    >[!NOTE]
    >
@@ -114,7 +120,7 @@ Informationen zum Erstellen eines Links für eine Telefonnummer oder E-Mail find
 
 1. Aktualisieren Sie den Inhalt nach Bedarf.
 
-1. Aktualisieren Sie die _[!UICONTROL Advanced]_&#x200B;nach Bedarf.
+1. Aktualisieren Sie die _[!UICONTROL Advanced]_nach Bedarf.
 
    - Um die Positionierung des Textes innerhalb des übergeordneten Containers zu steuern, wählen Sie ein **[!UICONTROL Alignment]** aus:
 

@@ -3,16 +3,23 @@ title: Produktzuweisungen für Kategorien
 description: Erfahren Sie, wie Sie mit den [!UICONTROL Products in Category] Einstellungen steuern können, welche Produkte derzeit der Kategorie zugewiesen sind.
 exl-id: e7ab11c0-2d55-4824-a397-a1c858344d4f
 feature: Catalog Management, Categories, Products
-source-git-commit: 5aea3aa13ab0eb74866fc0cbcbfe08b5099abe95
+TQID: https://experienceleague.adobe.com/jP75K4-JqaEJUbu733h6crHkX80w8idR9KHbVQF12ag
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fc
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: 791
 ht-degree: 0%
 
 ---
 
 # Produktzuweisungen für Kategorien
 
-Für eine Kategorie können Sie im Abschnitt _[!UICONTROL Products in Category]_&#x200B;die Produkte überprüfen, die derzeit der Kategorie zugewiesen sind. Die Suchfilter oben in jeder Spalte werden verwendet, um Produkte zur Kategorie hinzuzufügen und daraus zu entfernen. Sie können auch [Kategorieregeln](../merchandising-promotions/category-product-rules.md) verwenden (nur ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce), um die Produktauswahl dynamisch zu ändern, wenn eine Reihe von Bedingungen erfüllt ist. Weitere Informationen finden Sie unter [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
+Für eine Kategorie können Sie im Abschnitt _[!UICONTROL Products in Category]_die Produkte überprüfen, die derzeit der Kategorie zugewiesen sind. Die Suchfilter oben in jeder Spalte werden verwendet, um Produkte zur Kategorie hinzuzufügen und daraus zu entfernen. Sie können auch [Kategorieregeln](../merchandising-promotions/category-product-rules.md) verwenden (nur ![Adobe Commerce](../assets/adobe-logo.svg) Adobe Commerce), um die Produktauswahl dynamisch zu ändern, wenn eine Reihe von Bedingungen erfüllt ist. Weitere Informationen finden Sie unter [Visual Merchandiser](../merchandising-promotions/visual-merchandiser.md)).
 
 >[!TIP]
 >
@@ -22,7 +29,7 @@ Für eine Kategorie können Sie im Abschnitt _[!UICONTROL Products in Category]_
 
 >[!NOTE]
 >
->In _Spalte „Lager_ wird nur die verfügbare Produktmenge für _&#x200B;**ausgewählten**&#x200B;_) angezeigt. Wenn mehrere Lager für Produkte verwaltet werden, sollten Sie zwischen den entsprechenden Umfängen wechseln, um andere _Lager_ Spaltenwerte im Raster _Kategorie Produkte_ anzuzeigen.
+>In _Spalte „Lager_ wird nur die verfügbare Produktmenge für _**ausgewählten**_) angezeigt. Wenn mehrere Lager für Produkte verwaltet werden, sollten Sie zwischen den entsprechenden Umfängen wechseln, um andere _Lager_ Spaltenwerte im Raster _Kategorie Produkte_ anzuzeigen.
 
 ## Kategorieregel anwenden
 
@@ -76,7 +83,7 @@ Für eine Kategorie können Sie im Abschnitt _[!UICONTROL Products in Category]_
 
 | Option | Beschreibung |
 |--- |--- |
-| [!UICONTROL Attribute] | Bestimmt das Attribut, das als Grundlage für die Bedingung verwendet wird. Optionen: <br/>**[!UICONTROL Clone Category ID(s)]**- Klont Produkte dynamisch ohne Sortierung und Reihenfolge aus mehreren Kategorien basierend auf der Kategorie-ID.<br/>**[!UICONTROL Color]** - Enthält Produkte basierend auf der Farbe. <br/>**[!UICONTROL Date Created (days ago)]**- Enthält Produkte basierend auf der Anzahl der Tage seit dem Hinzufügen der Produkte zum Katalog.<br/>**[!UICONTROL Date Modified (days ago)]** - Enthält Produkte basierend auf der Anzahl der Tage seit der letzten Änderung der Produkte. <br/>**[!UICONTROL Name]**- Enthält Produkte basierend auf dem Produktnamen.<br/>**[!UICONTROL Price]** - Enthält Produkte basierend auf dem Preis. <br/>**[!UICONTROL Quantity]**- Enthält Produkte basierend auf der Lagermenge.<br/>**&#x200B; SKU &#x200B;**- Enthält Produkte basierend auf SKU. |
+| [!UICONTROL Attribute] | Bestimmt das Attribut, das als Grundlage für die Bedingung verwendet wird. Optionen: <br/>**[!UICONTROL Clone Category ID(s)]**- Klont Produkte dynamisch ohne Sortierung und Reihenfolge aus mehreren Kategorien basierend auf der Kategorie-ID.<br/>**[!UICONTROL Color]** - Enthält Produkte basierend auf der Farbe. <br/>**[!UICONTROL Date Created (days ago)]**- Enthält Produkte basierend auf der Anzahl der Tage seit dem Hinzufügen der Produkte zum Katalog.<br/>**[!UICONTROL Date Modified (days ago)]** - Enthält Produkte basierend auf der Anzahl der Tage seit der letzten Änderung der Produkte. <br/>**[!UICONTROL Name]**- Enthält Produkte basierend auf dem Produktnamen.<br/>**[!UICONTROL Price]** - Enthält Produkte basierend auf dem Preis. <br/>**[!UICONTROL Quantity]**- Enthält Produkte basierend auf der Lagermenge.<br/>** SKU **- Enthält Produkte basierend auf SKU. |
 | [!UICONTROL Operator] | Gibt den Operator an, der auf den Attributwert angewendet wird, um die Bedingung zu erfüllen. Sofern kein Operator angegeben ist, wird `Equal` als Standard verwendet. Optionen: `Equal` / `Not equal` / `Greater than` / `Greater than or equal to` / `Less than` / `Less than or equal to` / `Contains` |
 | [!UICONTROL Value] | Gibt den Wert an, den das Attribut aufweisen muss, um die Bedingung zu erfüllen. |
 | [!UICONTROL Logic] | Wird zum Definieren mehrerer Bedingungen verwendet und wird nur angezeigt, wenn eine andere Bedingung hinzugefügt wird. Optionen: `OR` / `AND` |

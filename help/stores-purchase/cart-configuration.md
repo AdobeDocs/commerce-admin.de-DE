@@ -3,9 +3,15 @@ title: Warenkorbkonfiguration
 description: Erfahren Sie mehr über die Funktionen des Warenkorbs, die Sie konfigurieren können, um das Kauferlebnis in Ihrem Geschäft zu unterstützen.
 exl-id: b98ec7ce-9354-4f03-b67e-dd1587f0c866
 feature: Shopping Cart, Configuration
-source-git-commit: 61df9a4bcfaf09491ae2d353478ceb281082fa74
+TQID: https://experienceleague.adobe.com/WujjOYsEVIPOEEdvRD2F5S-810YCju22sJY74RG18J8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: 2417
 ht-degree: 0%
 
 ---
@@ -115,7 +121,7 @@ Die Warenkorbseite kann so konfiguriert werden, dass sie immer dann angezeigt wi
 
 ## Angebotslebensdauer
 
-Mit der Installation und Aktivierung von Adobe Commerce B2B können Sie Unterstützung für die Funktion _Quotes_ hinzufügen. Mit dieser Funktion können autorisierte Käufer den Prozess der Preisaushandlung starten, indem sie eine Anfrage aus dem Warenkorb senden. Das _Quotes_-Raster listet jedes erhaltene Angebot auf und bewahrt einen Verlauf der Kommunikation zwischen Käufer und Verkäufer auf. Weitere Informationen zu den B2B-Funktionen finden Sie unter [Ausgehandelte &#x200B;](../b2b/quotes.md)) im _Adobe Commerce B2B-Benutzerhandbuch_.
+Mit der Installation und Aktivierung von Adobe Commerce B2B können Sie Unterstützung für die Funktion _Quotes_ hinzufügen. Mit dieser Funktion können autorisierte Käufer den Prozess der Preisaushandlung starten, indem sie eine Anfrage aus dem Warenkorb senden. Das _Quotes_-Raster listet jedes erhaltene Angebot auf und bewahrt einen Verlauf der Kommunikation zwischen Käufer und Verkäufer auf. Weitere Informationen zu den B2B-Funktionen finden Sie unter [Ausgehandelte ](../b2b/quotes.md)) im _Adobe Commerce B2B-Benutzerhandbuch_.
 
 Sie können feststellen, wie lange ein Preis gültig ist, indem Sie die Lebensdauer des Warenkorbangebots in der Konfiguration festlegen. Wenn beispielsweise ein Käufer einen Warenkorb nach mehreren Tagen unbeaufsichtigt lässt, ist der Angebotspreis für einige Artikel möglicherweise nicht mehr identisch. Standardmäßig ist die Lebensdauer des Angebots auf 30 Tage festgelegt.
 
@@ -235,12 +241,12 @@ Das Miniaturbild für gruppierte und konfigurierbare Produkte kann so eingestell
 
    ![Die Konfigurationseinstellungen für den Warenkorb wurden auf der Seite erweitert](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"}
 
-1. Legen Sie **[!UICONTROL Grouped Product Image]** fest, um die Miniaturansicht zu bestimmen, die im Warenkorb für (gruppierte [) verwendet &#x200B;](../catalog/product-create-grouped.md):
+1. Legen Sie **[!UICONTROL Grouped Product Image]** fest, um die Miniaturansicht zu bestimmen, die im Warenkorb für (gruppierte [) verwendet ](../catalog/product-create-grouped.md):
 
    - `Product Thumbnail Itself` - Verwendet die Miniaturansicht, die der Produktvariante zugewiesen ist, die dem Warenkorb hinzugefügt wird.
    - `Parent Product Thumbnail` - Verwendet die Miniaturansicht, die dem übergeordneten Produkt zugewiesen ist.
 
-1. Legen Sie **[!UICONTROL Configurable Product Image]** fest, um die Miniaturansicht zu bestimmen, die im Warenkorb für ([&#x200B; Produkte) verwendet &#x200B;](../catalog/product-create-configurable.md):
+1. Legen Sie **[!UICONTROL Configurable Product Image]** fest, um die Miniaturansicht zu bestimmen, die im Warenkorb für ([ Produkte) verwendet ](../catalog/product-create-configurable.md):
 
    - `Product Thumbnail Itself` - Verwendet die Miniaturansicht, die der Produktvariante zugewiesen ist, die dem Warenkorb hinzugefügt wird.
    - `Parent Product Thumbnail` - Verwendet die Miniaturansicht, die dem übergeordneten Produkt zugewiesen ist.
@@ -321,7 +327,7 @@ Das Geschenkverpackungsbild sollte ein Muster sein, das das sich wiederholende M
 
 1. Um eine Miniaturansicht **[!UICONTROL Image]** Geschenkverpackung hochzuladen, klicken Sie auf **[!UICONTROL Choose File]** und wählen Sie die hochzuladende Datei aus Ihrem Verzeichnis aus.
 
-   Nach dem Speichern des Datensatzes wird in der _[!UICONTROL Gift Wrapping Information]_&#x200B;eine Miniaturansicht des Bildes angezeigt.
+   Nach dem Speichern des Datensatzes wird in der _[!UICONTROL Gift Wrapping Information]_eine Miniaturansicht des Bildes angezeigt.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 

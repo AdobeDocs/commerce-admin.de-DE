@@ -3,9 +3,15 @@ title: Dashboard für das Daten-Management
 description: Erfahren Sie, wie Sie auf Einblicke zu Datenströmen für [!DNL Catalog Service],  [!DNL Live Search] und  [!DNL Product Recommendation] zugreifen können.
 feature: Products, Customers, Data Import/Export
 exl-id: 63c261c1-1a52-46f7-93f8-81055edf1f7b
-source-git-commit: 08d10741838037236c57cb53ead55f3677641496
+TQID: https://experienceleague.adobe.com/5WxRmKbBDfWM4JHypuXKCmrUTn5VjQeAUdLRJUWQXtc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 802
 ht-degree: 0%
 
 ---
@@ -16,11 +22,11 @@ Das Daten-Management-Dashboard bietet einen Überblick über den Synchronisierun
 
 >[!NOTE]
 >
->Wenn Sie den [Adobe Commerce Optimizer-Connector](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/overview) installiert haben, um Katalogdaten nach Adobe Commerce Optimizer zu exportieren, verwenden Sie die [Datensynchronisierungsseite](https://experienceleague.adobe.com/de/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio, um eine erfolgreiche Datensynchronisierung zu überprüfen, und nicht das Data Management Dashboard.
+>Wenn Sie den [Adobe Commerce Optimizer-Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview) installiert haben, um Katalogdaten nach Adobe Commerce Optimizer zu exportieren, verwenden Sie die [Datensynchronisierungsseite](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio, um eine erfolgreiche Datensynchronisierung zu überprüfen, und nicht das Data Management Dashboard.
 
 ## Zielgruppe
 
-Das Daten-Management-Dashboard steht allen Commerce-Händlern, die [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/de/docs/commerce/live-search/guide-overview) oder [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/de/docs/commerce/catalog-service/guide-overview) mit einer aktiven Lizenz verwenden, ohne zusätzliche Kosten zur Verfügung.
+Das Daten-Management-Dashboard steht allen Commerce-Händlern, die [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview) oder [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) mit einer aktiven Lizenz verwenden, ohne zusätzliche Kosten zur Verfügung.
 
 Das Daten-Management-Dashboard befindet sich unter *System* > Datenübertragung > *Daten-Management-Dashboard*.
 
@@ -31,8 +37,8 @@ Das Dashboard enthält die folgenden Felder:
 | Feld | Beschreibung |
 |--- |--- |
 | Umfang | Spezifische Website für die synchronisierten Daten. |
-| [!DNL Product Recommendations] | Zeigt den Synchronisierungsstatus, die Anzahl der synchronisierten Produkte und eine Tabelle der [anzeigbaren](https://experienceleague.adobe.com/de/docs/commerce-admin/config/catalog/inventory#stock-options) synchronisierten Produkte für [!DNL Product Recommendations] an. |
-| [!DNL Live Search] | Zeigt den Synchronisierungsstatus, die Anzahl der synchronisierten Produkte und eine Tabelle der [anzeigbaren](https://experienceleague.adobe.com/de/docs/commerce-admin/config/catalog/inventory#stock-options) synchronisierten Produkte für [!DNL Live Search] an. |
+| [!DNL Product Recommendations] | Zeigt den Synchronisierungsstatus, die Anzahl der synchronisierten Produkte und eine Tabelle der [anzeigbaren](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) synchronisierten Produkte für [!DNL Product Recommendations] an. |
+| [!DNL Live Search] | Zeigt den Synchronisierungsstatus, die Anzahl der synchronisierten Produkte und eine Tabelle der [anzeigbaren](https://experienceleague.adobe.com/en/docs/commerce-admin/config/catalog/inventory#stock-options) synchronisierten Produkte für [!DNL Live Search] an. |
 | [!DNL Catalog Service] | Zeigt den Synchronisierungsstatus, die Anzahl der synchronisierten Produkte und eine Tabelle der synchronisierten Produkte für [!DNL Catalog Service] an. |
 | Einstellungen | Öffnet ein Dialogfeld, in dem Sie [die Katalogdaten manuell neu synchronisieren](#resync-catalog-data). |
 | Synchronisierungsstatus | Zeigt die Anzahl der Produkte an, die innerhalb der letzten drei Stunden von der Commerce-Datenbank zu einem der SaaS-Services übertragen wurden. Wenn Sie Ihren Katalog gelegentlich aktualisieren, ist dieser Wert häufig null. Wenn eine Synchronisierung ausgeführt wird, klicken Sie auf **[!UICONTROL Refresh]** , um eine aktualisierte Anzahl abzurufen. |
@@ -51,7 +57,7 @@ Wenn die Anzahl der verarbeiteten Produkte mit der Anzahl der aktualisierten Pro
 
 >[!NOTE]
 >
->Adobe bietet außerdem eine Befehlszeilenschnittstelle und Systemprotokolle, die Entwickler und Systemintegratoren verwenden können, um Synchronisierungsvorgänge zu verwalten und zu verfolgen und Fehler für Commerce SaaS-Services zu beheben. Weitere Informationen finden Sie im [SaaS-Datenexporthandbuch](https://experienceleague.adobe.com/de/docs/commerce/saas-data-export/overview).
+>Adobe bietet außerdem eine Befehlszeilenschnittstelle und Systemprotokolle, die Entwickler und Systemintegratoren verwenden können, um Synchronisierungsvorgänge zu verwalten und zu verfolgen und Fehler für Commerce SaaS-Services zu beheben. Weitere Informationen finden Sie im [SaaS-Datenexporthandbuch](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
 
 ### Liste der synchronisierten Produkte
 
@@ -61,7 +67,7 @@ Um die Details eines synchronisierten Produkts anzuzeigen, klicken Sie in der Ta
 
 ### Katalogdaten neu synchronisieren
 
-Um sicherzustellen, dass Ihre Commerce SaaS-Services immer mit den neuesten Produktinformationen aktualisiert werden, sollten Sie [einen Zeitplan) &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) Synchronisieren von Katalogdaten implementieren.
+Um sicherzustellen, dass Ihre Commerce SaaS-Services immer mit den neuesten Produktinformationen aktualisiert werden, sollten Sie [einen Zeitplan) ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) Synchronisieren von Katalogdaten implementieren.
 
 Sie können zwar [manuell initiieren](#manually-resync-catalog) eine Neusynchronisierung von Katalogdaten aus der Commerce-Datenbank mit SaaS-Services durchführen, dies wird jedoch nicht empfohlen, da dies die Belastung der Hardwareressourcen erhöhen kann. In den folgenden Szenarien kann es jedoch erforderlich sein, den Katalog manuell neu zu synchronisieren:
 

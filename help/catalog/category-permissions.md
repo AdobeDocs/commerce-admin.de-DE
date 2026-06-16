@@ -3,9 +3,16 @@ title: Kategorieberechtigungen
 description: Erfahren Sie, wie Sie mithilfe von Kategorien die Anzeige von Produktpreisen steuern, bestimmen können, welche Kundengruppen Produkte zum Warenkorb hinzufügen können, und die Landingpage angeben.
 exl-id: d80a0545-918e-4c08-9f37-4aa3cd7771f4
 feature: Catalog Management, Categories, Customers, Configuration
-source-git-commit: 01148770946a236ece2122be5a88b963a0f07d1f
+TQID: https://experienceleague.adobe.com/dtRyq4TsN2ruBV9iQvyFAhv6RUqBFVpzRiqPVqSxJEA
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: 780
 ht-degree: 0%
 
 ---
@@ -74,7 +81,7 @@ Gehen **_wie folgt vor, um den Zugriff auf eine_** einzuschränken und zu ihr um
 
    >[!NOTE]
    >
-   >Obwohl die _[!UICONTROL Allow Browsing Category]_&#x200B;Einstellung für alle Kategorien auf der Website gilt, können Sie für jede Shop-Ansicht eine andere Landingpage konfigurieren.
+   >Obwohl die _[!UICONTROL Allow Browsing Category]_Einstellung für alle Kategorien auf der Website gilt, können Sie für jede Shop-Ansicht eine andere Landingpage konfigurieren.
 
 ### [!UICONTROL Display Product Prices]
 
@@ -134,7 +141,7 @@ Legen Sie diese Option fest, um zu verhindern, dass Mitglieder einer bestimmten 
 
    >[!NOTE]
    >
-   >Wenn für eine übergeordnete Kategorie die Berechtigung `Browsing Category` = `Deny` festgelegt ist, wird sie nicht im Breadcrumb[Protokoll &#x200B;](navigation-breadcrumb-trail.md) untergeordneten Kategorieseite angezeigt.
+   >Wenn für eine übergeordnete Kategorie die Berechtigung `Browsing Category` = `Deny` festgelegt ist, wird sie nicht im Breadcrumb[Protokoll ](navigation-breadcrumb-trail.md) untergeordneten Kategorieseite angezeigt.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 

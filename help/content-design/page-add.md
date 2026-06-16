@@ -2,17 +2,23 @@
 title: Hinzufügen und Entfernen von Seiten
 description: Erfahren Sie, wie Sie Inhaltsseiten, die in Ihrem -Store verwendet werden [!DNL Commerce]  hinzufügen und entfernen.
 exl-id: a7a503ea-3631-4be2-81e4-aed2ae9419dc
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 7ef8b9a1c56e4c8ee5ce8d3be30bf336c35a6241
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/NUP56gvdWU0EMfq9HSMD9GG1YcZhFgYaEIXVQqtxl4U
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: 1216
 ht-degree: 0%
 
 ---
 
 # Hinzufügen und Entfernen von Seiten
 
-Der Prozess des Hinzufügens einer Inhaltsseite zu Ihrem Store ist für jeden Seitentyp, den Sie erstellen möchten, im Wesentlichen identisch. Sie können Text, Bilder, Inhaltsblöcke, Variablen und Widgets einschließen. Die meisten Inhaltsseiten sind so konzipiert, dass sie zuerst von Suchmaschinen und dann von Personen gelesen werden. Berücksichtigen Sie bei der Auswahl des Seitentitels und der URL sowie bei der Erstellung der Metadaten und Inhalte die Bedürfnisse jeder dieser beiden Zielgruppen. Wenn Ihre Seite vollständig ist, kann sie zur Navigation Ihres Stores hinzugefügt, mit anderen Seiten verknüpft, über die Fußzeile Ihres Stores verknüpft oder als neue ([) &#x200B;](page-home-new.md) verwendet werden.
+Der Prozess des Hinzufügens einer Inhaltsseite zu Ihrem Store ist für jeden Seitentyp, den Sie erstellen möchten, im Wesentlichen identisch. Sie können Text, Bilder, Inhaltsblöcke, Variablen und Widgets einschließen. Die meisten Inhaltsseiten sind so konzipiert, dass sie zuerst von Suchmaschinen und dann von Personen gelesen werden. Berücksichtigen Sie bei der Auswahl des Seitentitels und der URL sowie bei der Erstellung der Metadaten und Inhalte die Bedürfnisse jeder dieser beiden Zielgruppen. Wenn Ihre Seite vollständig ist, kann sie zur Navigation Ihres Stores hinzugefügt, mit anderen Seiten verknüpft, über die Fußzeile Ihres Stores verknüpft oder als neue ([) ](page-home-new.md) verwendet werden.
 
 ![Seitenraster](./assets/pages-grid.png){width="700" zoomable="yes"}
 
@@ -32,11 +38,11 @@ Die folgenden Anweisungen führen Sie durch die einzelnen Schritte zum Erstellen
 
 1. Geben Sie die **[!UICONTROL Page Title]** ein.
 
-   Der Seitentitel wird in der [Breadcrumb“ &#x200B;](../catalog/navigation-breadcrumb-trail.md).
+   Der Seitentitel wird in der [Breadcrumb“ ](../catalog/navigation-breadcrumb-trail.md).
 
 ### Schritt 2: Inhalt abschließen
 
-Fügen Sie je nach [&#x200B; Konfiguration der erweiterten &#x200B;](../configuration-reference/general/content-management.md) den Seiteninhalt hinzu.
+Fügen Sie je nach [ Konfiguration der erweiterten ](../configuration-reference/general/content-management.md) den Seiteninhalt hinzu.
 
 >[!NOTE]
 >
@@ -50,7 +56,7 @@ Fügen Sie je nach [&#x200B; Konfiguration der erweiterten &#x200B;](../configur
 
 1. Geben Sie in das **[!UICONTROL Content Heading]** die Überschrift ein, die oben auf der Seite angezeigt werden soll.
 
-   Wenn diese Option aktiviert ist[&#x200B; werden das &#x200B;](../page-builder/introduction.md) und Bedienfeld „Page Builder“ unter der Überschrift „Inhalt“ angezeigt. Weitere Informationen finden Sie unter [Workspace](../page-builder/workspace.md). Wenn _Page Builder_ nicht aktiviert ist, wird der Editor im WYSIWYG-Modus geöffnet, wobei die Symbolleiste oben angezeigt wird.
+   Wenn diese Option aktiviert ist[ werden das ](../page-builder/introduction.md) und Bedienfeld „Page Builder“ unter der Überschrift „Inhalt“ angezeigt. Weitere Informationen finden Sie unter [Workspace](../page-builder/workspace.md). Wenn _Page Builder_ nicht aktiviert ist, wird der Editor im WYSIWYG-Modus geöffnet, wobei die Symbolleiste oben angezeigt wird.
 
 1. Vervollständigen Sie den Inhalt und formatieren Sie den Text nach Bedarf.
 
@@ -64,7 +70,7 @@ Fügen Sie je nach [&#x200B; Konfiguration der erweiterten &#x200B;](../configur
 
 1. Vervollständigen Sie den Inhalt und formatieren Sie den Text nach Bedarf.
 
-   Sie können nach [&#x200B; (](media-storage.md)), [Variablen](../systems/variables-predefined.md) und [Widgets](widgets.md) hinzufügen. Weitere Informationen finden Sie unter [Verwenden des Editors](editor.md).
+   Sie können nach [ (](media-storage.md)), [Variablen](../systems/variables-predefined.md) und [Widgets](widgets.md) hinzufügen. Weitere Informationen finden Sie unter [Verwenden des Editors](editor.md).
 
 ### Schritt 3: Vervollständigen Sie die SEO-Informationen
 
@@ -150,13 +156,13 @@ Fügen Sie je nach [&#x200B; Konfiguration der erweiterten &#x200B;](../configur
 
 1. Klicken Sie auf den **[!UICONTROL Save]** Pfeil und wählen Sie **[!UICONTROL Save & Close]** aus, um zum Seitenraster zurückzukehren.
 
-1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Action]_&#x200B;aus.
+1. Suchen Sie die Seite im Raster und wählen Sie **[!UICONTROL View]** in der Spalte _[!UICONTROL Action]_aus.
 
 1. Um zum Raster zurückzukehren, klicken Sie in der oberen linken Ecke des Browser-Fensters auf **[!UICONTROL Back]** .
 
 ### Schritt 8: Veröffentlichen der Seite
 
-1. Wählen Sie **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_&#x200B;des Rasters aus.
+1. Wählen Sie **[!UICONTROL Edit]** in der Spalte _[!UICONTROL Action]_des Rasters aus.
 
 1. Legen Sie **[!UICONTROL Enable Page]** auf `Yes` fest.
 
@@ -170,7 +176,7 @@ Jede Inhaltsseite kann als Vorlage verwendet und als Duplikat gespeichert werden
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Suchen Sie im Raster die Seite, die Sie duplizieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
+1. Suchen Sie im Raster die Seite, die Sie duplizieren möchten, und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
 1. Klicken Sie auf den **[!UICONTROL Save]** Pfeil und wählen Sie **[!UICONTROL Save & Duplicate]** aus.
 
@@ -211,7 +217,7 @@ Jede Inhaltsseite kann als Vorlage verwendet und als Duplikat gespeichert werden
 
 ## Löschen einer Seite
 
-Es gibt zwei Möglichkeiten, eine erstellte Seite zu entfernen. Sie können sie aus dem _[!UICONTROL Pages]_&#x200B;oder von der&#x200B;_[!UICONTROL Edit]_ entfernen.
+Es gibt zwei Möglichkeiten, eine erstellte Seite zu entfernen. Sie können sie aus dem _[!UICONTROL Pages]_oder von der_[!UICONTROL Edit]_ entfernen.
 
 ### Methode 1: Entfernen einer Seite aus dem Seitenraster
 
@@ -229,7 +235,7 @@ Es gibt zwei Möglichkeiten, eine erstellte Seite zu entfernen. Sie können sie 
 
 1. Suchen Sie die zu löschende Seite.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Actions]_&#x200B;für die Seitenentität auf **[!UICONTROL Select]**&#x200B;und wählen Sie **[!UICONTROL Edit]**&#x200B;aus.
+1. Klicken Sie in der Spalte _[!UICONTROL Actions]_für die Seitenentität auf **[!UICONTROL Select]**und wählen Sie **[!UICONTROL Edit]**aus.
 
 1. Klicken Sie in der Schaltflächenleiste auf **[!UICONTROL Delete Page]**.
 

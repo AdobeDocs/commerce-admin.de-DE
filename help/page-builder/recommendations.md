@@ -3,20 +3,26 @@ title: Inhalt hinzufügen - Produktempfehlungen
 description: Erfahren Sie mehr über den Content-Typ „Produktempfehlungen“, mit dem eine Liste von Empfehlungen zur  [!DNL Page Builder]  hinzugefügt wird.
 exl-id: ca90c10d-8d7a-42a2-bb13-2602aa9d6eef
 feature: Page Builder, Page Content, Recommendations
-source-git-commit: 4a3aa2aa32b692341edabd41fdb608e3cff5d8e0
+TQID: https://experienceleague.adobe.com/-k8EyTQjwCcPq4hrMG425GkOD9oYcVSCRhRwUgxFWsY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: 962
 ht-degree: 0%
 
 ---
 
 # Inhalt hinzufügen - Produktempfehlungen
 
-Verwenden Sie den _Produktempfehlungen_ Content-Typ, um eine vorhandene, aktive [Empfehlungseinheit](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/admin/create) zum [[!DNL Page Builder] Schritt](workspace.md#stage) für eine CMS-Seite, einen -Block oder einen dynamischen Block hinzuzufügen.
+Verwenden Sie den _Produktempfehlungen_ Content-Typ, um eine vorhandene, aktive [Empfehlungseinheit](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) zum [[!DNL Page Builder] Schritt](workspace.md#stage) für eine CMS-Seite, einen -Block oder einen dynamischen Block hinzuzufügen.
 
 >[!NOTE]
 >
->Der Content-Typ [!DNL Page Builder] _Produktempfehlungen_ wird in Adobe Commerce 2.4.4 und höher unterstützt und ist im [Product Recommendations-Metapaket Version 3.0.x oder höher) &#x200B;](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Informationen zum Hinzufügen [!DNL Page Builder] Unterstützung für Produktempfehlungen [finden Sie in den Installationsinformationen](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/getting-started/install-configure). **Dieser Inhaltstyp ist für Magento Open Source nicht verfügbar.**
+>Der Content-Typ [!DNL Page Builder] _Produktempfehlungen_ wird in Adobe Commerce 2.4.4 und höher unterstützt und ist im [Product Recommendations-Metapaket Version 3.0.x oder höher) ](https://commercemarketplace.adobe.com/magento-product-recommendations.html). Informationen zum Hinzufügen [!DNL Page Builder] Unterstützung für Produktempfehlungen [finden Sie in den Installationsinformationen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/getting-started/install-configure). **Dieser Inhaltstyp ist für Magento Open Source nicht verfügbar.**
 
 {{$include /help/_includes/page-builder-save-timeout.md}}
 
@@ -37,7 +43,7 @@ Verwenden Sie den _Produktempfehlungen_ Content-Typ, um eine vorhandene, aktive 
 
 ## Hinzufügen einer vorhandenen Empfehlungseinheit
 
-1. Stellen Sie sicher, [&#x200B; Sie bereits eine Empfehlungseinheit &#x200B;](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/admin/create) den [!DNL Page Builder] Seitentyp erstellt haben.
+1. Stellen Sie sicher, [ Sie bereits eine Empfehlungseinheit ](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/admin/create) den [!DNL Page Builder] Seitentyp erstellt haben.
 
 >[!NOTE]
 >
@@ -45,11 +51,11 @@ Verwenden Sie den _Produktempfehlungen_ Content-Typ, um eine vorhandene, aktive 
 
 1. Öffnen Sie die Seite, den Block oder den dynamischen Block im Bearbeitungsmodus.
 
-1. Erweitern Sie den Abschnitt _[!UICONTROL Content]_&#x200B;und klicken Sie im Bereich Inhaltsvorschau auf **[!UICONTROL Edit with Page Builder]**&#x200B;oder , um den [!DNL Page Builder] Workspace zu öffnen.
+1. Erweitern Sie den Abschnitt _[!UICONTROL Content]_und klicken Sie im Bereich Inhaltsvorschau auf **[!UICONTROL Edit with Page Builder]**oder , um den [!DNL Page Builder] Workspace zu öffnen.
 
-1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_&#x200B;einen **[!UICONTROL Row]**&#x200B;Platzhalter auf die Bühne.
+1. Ziehen Sie im [!DNL Page Builder] Bedienfeld unter _[!UICONTROL Layout]_einen **[!UICONTROL Row]**Platzhalter auf die Bühne.
 
-1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Add Content]_&#x200B;einen **[!UICONTROL Product Recommendation]**&#x200B;Platzhalter in die Zeile.
+1. Ziehen Sie im [!DNL Page Builder] unter _[!UICONTROL Add Content]_einen **[!UICONTROL Product Recommendation]**Platzhalter in die Zeile.
 
    ![Hinzufügen des Inhaltstyps für Produktempfehlungen](./assets/pb-add-prex-drag.png){width="600" zoomable="yes"}
 
@@ -60,7 +66,7 @@ Verwenden Sie den _Produktempfehlungen_ Content-Typ, um eine vorhandene, aktive 
 
    ![Produktempfehlung bearbeiten](./assets/pb-prex-toolbox.png){width="600" zoomable="yes"}
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Selection]_&#x200B;auf **[!UICONTROL Select]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Selection]_auf **[!UICONTROL Select]**.
 
 1. Suchen Sie in der Liste der aktiven Produktempfehlungen die Zeile mit der Empfehlungseinheit, die Sie hinzufügen möchten, und klicken Sie auf **[!UICONTROL Select]** in der letzten Spalte.
 
@@ -68,7 +74,7 @@ Verwenden Sie den _Produktempfehlungen_ Content-Typ, um eine vorhandene, aktive 
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add Selected]**.
 
-   Der Name der ausgewählten Produktempfehlung wird im Abschnitt _[!UICONTROL Selection]_&#x200B;der Seite&#x200B;_[!UICONTROL Edit Product Recommendation]_ angezeigt.
+   Der Name der ausgewählten Produktempfehlung wird im Abschnitt _[!UICONTROL Selection]_der Seite_[!UICONTROL Edit Product Recommendation]_ angezeigt.
 
 1. Nehmen Sie die erforderlichen Änderungen an den [Erweiterten Einstellungen](#advanced-settings) vor.
 
@@ -84,7 +90,7 @@ Verwenden Sie den _Produktempfehlungen_ Content-Typ, um eine vorhandene, aktive 
 
 ## Einstellungen der Empfehlungseinheit bearbeiten
 
-1. Bewegen Sie den Mauszeiger über den Container mit den Empfehlungseinheiten, um die Toolbox anzuzeigen, und klicken Sie _das Symbol_ Einstellungen![&#x200B; (](./assets/pb-icon-settings.png)).
+1. Bewegen Sie den Mauszeiger über den Container mit den Empfehlungseinheiten, um die Toolbox anzuzeigen, und klicken Sie _das Symbol_ Einstellungen![ (](./assets/pb-icon-settings.png)).
 
    ![Recommendations-Toolbox](./assets/pb-placeholder-toolbox.png){width="600" zoomable="yes"}
 

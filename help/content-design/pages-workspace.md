@@ -3,10 +3,15 @@ title: Steuerelemente für den Seitenarbeitsbereich
 description: Erfahren Sie mehr über die Arbeitsbereich-Tools, die zum Suchen und Aktualisieren von Inhaltsseiten verwendet werden.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: 1385
 ht-degree: 0%
 
 ---
@@ -72,7 +77,7 @@ Der Seitenarbeitsbereich enthält Tools, mit denen Sie die benötigten Seiten sc
 | [!UICONTROL Custom design from/to] | Gibt das Start- und Enddatum an, an dem das ausgewählte Design auf die Seite angewendet wird. ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source). |
 | [!UICONTROL Custom Theme] | Wendet ein benutzerdefiniertes Design auf die Seite an |
 | [!UICONTROL Custom Layout] | Bestimmt das benutzerdefinierte Layout der Seite |
-| [!UICONTROL Meta Title] | Meta-Titel für die Seite |
+| [!UICONTROL Meta Title] | Meta-Seitentitel |
 | [!UICONTROL Meta Keywords] | Die Meta-Schlüsselwörter für die Seite |
 | [!UICONTROL Meta Description] | Die Meta-Beschreibung für die Seite |
 
@@ -80,7 +85,7 @@ Der Seitenarbeitsbereich enthält Tools, mit denen Sie die benötigten Seiten sc
 
 ## Seitensuche
 
-Das Suchfeld oben links im _[!UICONTROL Pages]_&#x200B;Raster kann verwendet werden, um bestimmte Seiten nach Keyword zu finden. Für eine erweiterte Suche können Sie [&#x200B; Suche &#x200B;](../getting-started/admin-grid-controls.md) mehreren Parametern filtern.
+Das Suchfeld oben links im _[!UICONTROL Pages]_Raster kann verwendet werden, um bestimmte Seiten nach Keyword zu finden. Für eine erweiterte Suche können Sie [ Suche ](../getting-started/admin-grid-controls.md) mehreren Parametern filtern.
 
 ### Nach Keyword suchen
 
@@ -94,7 +99,7 @@ Das Suchfeld oben links im _[!UICONTROL Pages]_&#x200B;Raster kann verwendet wer
 
 1. Klicken Sie ggf. auf **[!UICONTROL Clear All]** , um die vorherigen Suchkriterien zu löschen.
 
-1. Um die Auswahl der Suchfilter anzuzeigen, klicken Sie auf das **[!UICONTROL Filters]** !([Trichtersymbol](../assets/icon-filter-search.png)) Registerkarte.
+1. Um die Auswahl der Suchfilter anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Filters]** !([Funnel-Symbol](../assets/icon-filter-search.png)).
 
 1. Schließen Sie so viele Filter wie nötig ab, um die Seiten zu beschreiben, die Sie finden möchten.
 
@@ -140,7 +145,7 @@ Seiten können bearbeitet, deaktiviert, aktiviert und gelöscht werden. Um eine 
 
 ### Einzelklage
 
-Verwenden Sie die Spalte _[!UICONTROL Action]_&#x200B;ganz rechts, um eine der folgenden Aktionen auf die einzelne Seite anzuwenden:
+Verwenden Sie die Spalte _[!UICONTROL Action]_ganz rechts, um eine der folgenden Aktionen auf die einzelne Seite anzuwenden:
 
 - [!UICONTROL Edit] - öffnet die Seite im Bearbeitungsmodus
 - [!UICONTROL Delete] - löscht die Seite (Bestätigung erforderlich)
@@ -150,7 +155,7 @@ Verwenden Sie die Spalte _[!UICONTROL Action]_&#x200B;ganz rechts, um eine der f
 
 ### Massenaktionen
 
-Wenden Sie mithilfe der _[!UICONTROL Action]_&#x200B;oben links eine der folgenden Aktionen auf mehrere ausgewählte Seiten gleichzeitig an:
+Wenden Sie mithilfe der _[!UICONTROL Action]_oben links eine der folgenden Aktionen auf mehrere ausgewählte Seiten gleichzeitig an:
 
 - [!UICONTROL Delete] - löscht die Seiten (Bestätigung erforderlich)
 - [!UICONTROL Disable] - Deaktiviert die Seiten in der Storefront
@@ -177,7 +182,7 @@ Klicken Sie in der oberen rechten Ecke auf das Steuerelement _Spalten_ (![Spalte
 
 ### Ansicht speichern
 
-1. Klicken Sie auf _Steuerelement_ Ansicht![&#x200B; (Augensymbol](../assets/icon-view-eye.png)) und dann auf **[!UICONTROL Save View As]**.
+1. Klicken Sie auf _Steuerelement_ Ansicht![ (Augensymbol](../assets/icon-view-eye.png)) und dann auf **[!UICONTROL Save View As]**.
 
 1. Geben Sie einen Namen für die Ansicht ein.
 
@@ -205,7 +210,7 @@ Beachten Sie beim Konfigurieren von Zeitplänen für Seitenänderungen und beim 
 
 - Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h., jede Entität kann immer nur eine geplante Aktualisierung haben. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb ihres Zeitrahmens angewendet. Daher kann eine Entität nicht gleichzeitig verschiedene geplante Aktualisierungen für verschiedene Store-Ansichten haben. Alle Entitätsattributwerte in allen Store-Ansichten, die nicht von der aktuellen geplanten Aktualisierung betroffen sind, werden aus den Standardwerten übernommen, nicht aus der vorherigen geplanten Aktualisierung.
 
-- Wenn eine Kampagne mit mehr als einer Seite verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard“ bearbeitet &#x200B;](content-staging-dashboard.md).
+- Wenn eine Kampagne mit mehr als einer Seite verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard“ bearbeitet ](content-staging-dashboard.md).
 
 - Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne nicht später bearbeitet werden, um ein Enddatum einzuschließen. In diesem Fall müssen Sie eine doppelte Kampagne erstellen und das erforderliche Enddatum eingeben.
 

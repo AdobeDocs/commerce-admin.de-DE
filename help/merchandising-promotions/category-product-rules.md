@@ -3,10 +3,16 @@ title: Kategorieregeln für Merchandising
 description: Erfahren Sie, wie Sie eine Regel erstellen, um die Produktauswahl entsprechend einem Satz von Bedingungen dynamisch zu ändern.
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 6d782e3aafa7460a0e0d5ca07a2bde2ae371a9ea
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/Be3PacClITSThEtPIbG7NcxdrmZj7hoCTxTDAqRYN1E
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: 1115
 ht-degree: 0%
 
 ---
@@ -25,11 +31,11 @@ Jede Bedingung besteht aus einem Attribut, einem Wert und einem logischen Operat
 
 >[!NOTE]
 >
->Stellen Sie sicher, dass Sie jedes Attribut, das in der Regel verwendet wird, als [_smart_-Attribut &#x200B;](smart-attributes-configure.md).
+>Stellen Sie sicher, dass Sie jedes Attribut, das in der Regel verwendet wird, als [_smart_-Attribut ](smart-attributes-configure.md).
 
 ![Kategorienproduktregel](../catalog/assets/category-product-rule-with-stock.png){width="600" zoomable="yes"}
 
-Kategorienproduktregeln können den Prozess der Zuweisung spezifischer Produkte zu Kategorien beschleunigen, basierend auf Bedingungen, die bestimmen, welche Produkte in der Kategorie angezeigt werden. Die „intelligenten“ Attribute, die mit Kategorieproduktregeln verwendet werden können, sind in der Konfiguration &quot;[&#x200B; Merchandiser“ &#x200B;](visual-merchandiser.md).
+Kategorienproduktregeln können den Prozess der Zuweisung spezifischer Produkte zu Kategorien beschleunigen, basierend auf Bedingungen, die bestimmen, welche Produkte in der Kategorie angezeigt werden. Die „intelligenten“ Attribute, die mit Kategorieproduktregeln verwendet werden können, sind in der Konfiguration &quot;[ Merchandiser“ ](visual-merchandiser.md).
 
 >[!NOTE]
 >
@@ -41,7 +47,7 @@ Kategorienproduktregeln können den Prozess der Zuweisung spezifischer Produkte 
 
    >[!NOTE]
    >
-   >Stellen Sie sicher, dass das ausgewählte Attribut KEINE Mehrfachauswahl-_[!UICONTROL Input Type]_&#x200B;ist.
+   >Stellen Sie sicher, dass das ausgewählte Attribut KEINE Mehrfachauswahl-_[!UICONTROL Input Type]_ist.
 
 1. Schließen Sie die [Konfiguration](smart-attributes-configure.md) ab, um jedes _Smart_-Attribut zu identifizieren, das mit Visual Merchandiser verwendet werden soll.
 

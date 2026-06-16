@@ -3,10 +3,16 @@ title: Seiten
 description: Erfahren Sie mehr über die wichtigsten Inhaltsseiten, die im Demo [!DNL Commerce] Store enthalten sind, und über das Ändern der Konfiguration der Standardseiten.
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: 943
 ht-degree: 0%
 
 ---
@@ -29,7 +35,7 @@ Die Demo[Startseite](../getting-started/storefront.md#home-page) enthält ein Ba
 
 ### Datenschutzrichtlinie
 
-Die Seite [&#x200B; Store-](../getting-started/privacy-policy.md) sollte mit Ihren eigenen Informationen aktualisiert werden. Als Best Practice sollte Ihre Datenschutzrichtlinie Ihren Kunden erklären, welche Art von Informationen Ihr Unternehmen erfasst und wie sie verwendet werden.
+Die Seite [ Store-](../getting-started/privacy-policy.md) sollte mit Ihren eigenen Informationen aktualisiert werden. Als Best Practice sollte Ihre Datenschutzrichtlinie Ihren Kunden erklären, welche Art von Informationen Ihr Unternehmen erfasst und wie sie verwendet werden.
 
 ### 404 nicht gefunden
 
@@ -65,7 +71,7 @@ Die Konfiguration _Standardseiten_ bestimmt die Landingpage, die mit der [Basis-
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Web]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Web]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Default Pages]** .
 
@@ -88,7 +94,7 @@ Die Konfiguration _Standardseiten_ bestimmt die Landingpage, die mit der [Basis-
 
    >[!NOTE]
    >
-   >Deaktivieren Sie für eine bestimmte Store-Ansicht das Kontrollkästchen **[!UICONTROL Use Default]** neben _[!UICONTROL Default Web URL]_&#x200B;und ändern Sie alle anderen Standardeinstellungen.
+   >Deaktivieren Sie für eine bestimmte Store-Ansicht das Kontrollkästchen **[!UICONTROL Use Default]** neben _[!UICONTROL Default Web URL]_und ändern Sie alle anderen Standardeinstellungen.
 
 1. Legen Sie **[!UICONTROL CMS Home Page]** auf die CMS-Seite fest, die als Startseite verwendet werden soll. Andere erstellte Seiten können als Homepage verwendet werden, z. B.:
 

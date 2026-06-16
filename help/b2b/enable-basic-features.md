@@ -4,9 +4,16 @@ description: Erfahren Sie mehr über die Aktivierung von B2B-Funktionen für Ihr
 exl-id: aed203ef-f39b-4f7e-b32f-ded53eca09a8
 feature: B2B, Configuration
 role: Admin
-source-git-commit: 99285b700b91e0072340a2231c39a8050818fd17
+TQID: https://experienceleague.adobe.com/T2b19hxJNTlHpCcxLifJkx3lGUXcqFF4Y3rl3wneCeY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: 1637
 ht-degree: 0%
 
 ---
@@ -45,7 +52,7 @@ Die Optionen zum Konfigurieren von Adobe Commerce B2B-Funktionen sind nur für C
 
    Wenn Sie eine Multi-Site-Installation haben, legen Sie das **[!UICONTROL Store View]**-Steuerelement in der oberen linken Ecke auf die Website fest, für die die Konfiguration gilt.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL B2B Features]**:
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL B2B Features]**:
 
    ![B2B-Konfiguration - allgemein](./assets/b2b-features.png){width="600"}
 
@@ -220,7 +227,7 @@ Nach der Aktivierung wird der Abschnitt &quot;**[!UICONTROL Approval Rules]**&qu
 
 >[!NOTE]
 >
->Der Zugriff auf Bestellungen für die Storefront muss vom Unternehmensadministrator auf der Grundlage von [Berechtigungen der Unternehmensbenutzerrolle) gewährt &#x200B;](account-company-roles-permissions.md).
+>Der Zugriff auf Bestellungen für die Storefront muss vom Unternehmensadministrator auf der Grundlage von [Berechtigungen der Unternehmensbenutzerrolle) gewährt ](account-company-roles-permissions.md).
 
 ## Konfigurieren der Zahlung auf Konto
 
@@ -255,7 +262,7 @@ So aktivieren Sie die Zahlung auf Konto für Ihren Store:
 1. Legen Sie **[!UICONTROL Payment from Applicable Countries]** auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` - Nachdem Sie diese Option ausgewählt haben, wird die _[!UICONTROL Payment from Specific Countries]_&#x200B;angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Optionen.
+   - `Specific Countries` - Nachdem Sie diese Option ausgewählt haben, wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Optionen.
 
 1. Legen Sie **[!UICONTROL Minimum Order Total]** und **[!UICONTROL Maximum Order Total]** auf die Bestellbeträge fest, die für diese Zahlungsmethode erforderlich sind.
 

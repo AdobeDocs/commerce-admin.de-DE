@@ -3,9 +3,15 @@ title: Erstellen eines individuellen Kundenkontos
 description: Besucher können einfach ein individuelles Kundenkonto erstellen, um ihre Käufe zu verwalten.
 exl-id: 8d08c0e1-f3ba-4423-98a7-ffa8ba5a1b8b
 feature: Customers, Storefront
-source-git-commit: 06673ccb7eb471d3ddea97218ad525dd2cdcf380
+TQID: https://experienceleague.adobe.com/WwW2j0QIwKOe0r7XqH01-NGxggVfg-QBYewdD6a4GFs
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: 1281
 ht-degree: 0%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 0%
 
 Besucher Ihres Geschäfts können ein Konto eröffnen, um ihre Käufe und Aktivitäten zu verwalten. Kunden erstellen in der Regel ihre eigenen Konten in Ihrem Geschäft. Sie können jedoch auch Kundenkonten direkt von der Administratorin bzw. dem Administrator erstellen. Dies ist nützlich, um Kunden telefonisch zu helfen.
 
-Die folgenden Anweisungen stellen die standardmäßige Kundenkontenkonfiguration dar. Informationen zum Ändern der Auswahl und des Verhaltens einiger Felder im Formular finden Sie unter [&#x200B; von Kundenkonten](../customers/customer-account-scope.md).
+Die folgenden Anweisungen stellen die standardmäßige Kundenkontenkonfiguration dar. Informationen zum Ändern der Auswahl und des Verhaltens einiger Felder im Formular finden Sie unter [ von Kundenkonten](../customers/customer-account-scope.md).
 
 Als Store-Administrator können Sie auch die [Optionen für neue Konten](../customers/account-options-new.md) festlegen, um eine Bestätigungs-E-Mail an neue registrierte Kunden zu senden, wodurch sichergestellt wird, dass registrierte Konten gültig sind.
 
@@ -67,7 +73,7 @@ Ein Store-Kunde erstellt ein Konto in der Storefront.
 
 1. Klicken Sie abschließend auf **Konto erstellen**.
 
-Der Kunde kann dann seine E-Mail-Adresse und sein Passwort verwenden[&#x200B; um sich bei &#x200B;](../customers/customer-sign-in.md) Konto anzumelden und die Adressinformationen auszufüllen.
+Der Kunde kann dann seine E-Mail-Adresse und sein Passwort verwenden[ um sich bei ](../customers/customer-sign-in.md) Konto anzumelden und die Adressinformationen auszufüllen.
 
 ## Erstellen eines Kontos über den Administrator
 
@@ -116,7 +122,7 @@ Als Händler können Sie über den Administrator ein Kundenkonto erstellen.
 
    >[!INFO]
    >
-   >Nachdem das Kundenkonto gespeichert wurde, wird der vollständige Satz von Optionen im linken Bereich und im Menü oben auf der Seite angezeigt. Auf der Registerkarte _[!UICONTROL Customer View]_&#x200B;wird eine Zusammenfassung des Kontos angezeigt.
+   >Nachdem das Kundenkonto gespeichert wurde, wird der vollständige Satz von Optionen im linken Bereich und im Menü oben auf der Seite angezeigt. Auf der Registerkarte _[!UICONTROL Customer View]_wird eine Zusammenfassung des Kontos angezeigt.
 
    ![Kundenansicht](assets/customer-account-create-saved.png){width="600" zoomable="yes"}
 
@@ -147,7 +153,7 @@ Als Händler können Sie über den Administrator ein Kundenkonto erstellen.
 
    Klicken Sie andernfalls auf **[!UICONTROL Save and Continue Edit]** und wiederholen Sie die vorherigen Schritte, um weitere Adressen hinzuzufügen.
 
-   Die neue Adresse wird auf der Seite [!UICONTROL Addresses] mit den ausgewählten _[!UICONTROL Default Billing]_&#x200B;und&#x200B;_[!UICONTROL Default Shipping]_ Adressen über der vollständigen Liste angezeigt.
+   Die neue Adresse wird auf der Seite [!UICONTROL Addresses] mit den ausgewählten _[!UICONTROL Default Billing]_und_[!UICONTROL Default Shipping]_ Adressen über der vollständigen Liste angezeigt.
 
    ![Adressansicht](assets/address-list.png){width="600" zoomable="yes"}
 
@@ -157,7 +163,7 @@ Kundenkonten, die über den Administrator erstellt wurden, wurden zunächst kein
 
 1. Suchen Sie das neue Kundenkonto im Raster.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
 1. Klicken Sie oben auf der Seite in der Menüleiste auf **[!UICONTROL Reset Password]**.
 
@@ -169,7 +175,7 @@ Zusätzliche Schaltflächen werden verfügbar, wenn das Profil zum ersten Mal ge
 
 | Schaltfläche | Beschreibung |
 |--- |--- |
-| **[!UICONTROL Back]** | Kehrt zur _[!UICONTROL Customers]_&#x200B;zurück, ohne die Änderungen zu speichern. |
+| **[!UICONTROL Back]** | Kehrt zur _[!UICONTROL Customers]_zurück, ohne die Änderungen zu speichern. |
 | **[!UICONTROL Delete Customer]** | Löscht den aktuellen Kunden. Abgeschlossene Bestellungen, die mit dem Kunden verknüpft sind, werden nicht entfernt. |
 | **[!UICONTROL Reset]** | Setzt alle nicht gespeicherten Änderungen im Kundenformular auf ihre vorherigen Werte zurück. |
 | **[!UICONTROL Create Order]** | Erstellt eine Bestellung für den Kunden. |
@@ -189,11 +195,11 @@ Zusätzliche Schaltflächen werden verfügbar, wenn das Profil zum ersten Mal ge
 |--- |--- |
 | **[!UICONTROL Associate to Website]** | Identifiziert die mit dem Kundenkonto verknüpfte Website. |
 | **[!UICONTROL Group]** | Gibt die [Kundengruppe“ an](../customers/customer-groups.md) bei der der Kunde Mitglied ist. Aktivieren Sie bei Bedarf das Kontrollkästchen, um die automatische Gruppenänderung auf Grundlage der MwSt. zu deaktivieren. |
-| **[!UICONTROL Name Prefix]** | Falls verwendet, das Präfix, das dem Namen des Kunden zugeordnet ist (z. B. Herr, Frau oder Dr.). Die Präfixwerte werden durch die [Konfiguration“ &#x200B;](../configuration-reference/customers/customer-configuration.md). Je nach Konfiguration kann das Eingabesteuerelement ein Textfeld oder eine Liste von Optionen sein. |
+| **[!UICONTROL Name Prefix]** | Falls verwendet, das Präfix, das dem Namen des Kunden zugeordnet ist (z. B. Herr, Frau oder Dr.). Die Präfixwerte werden durch die [Konfiguration“ ](../configuration-reference/customers/customer-configuration.md). Je nach Konfiguration kann das Eingabesteuerelement ein Textfeld oder eine Liste von Optionen sein. |
 | **[!UICONTROL First Name]** | Der Vorname des Kunden. |
 | **[!UICONTROL Middle Name / Initial]** | Der zweite Vorname oder Initial des Kunden. Dieses Feld ist nur enthalten, wenn es im Thema [Konfiguration](../configuration-reference/customers/customer-configuration.md) angegeben ist. |
 | **[!UICONTROL Last Name]** | Der Nachname des Kunden. |
-| **[!UICONTROL Name Suffix]** | Falls verwendet, das Suffix, das dem Namen des Kunden zugeordnet ist (z. B. Jr., Sr. oder III). Die Suffix-Werte werden durch die [Konfiguration“ &#x200B;](../configuration-reference/customers/customer-configuration.md). Je nach Konfiguration kann das Eingabesteuerelement ein Textfeld oder eine Dropdown-Liste von Optionen sein. |
+| **[!UICONTROL Name Suffix]** | Falls verwendet, das Suffix, das dem Namen des Kunden zugeordnet ist (z. B. Jr., Sr. oder III). Die Suffix-Werte werden durch die [Konfiguration“ ](../configuration-reference/customers/customer-configuration.md). Je nach Konfiguration kann das Eingabesteuerelement ein Textfeld oder eine Dropdown-Liste von Optionen sein. |
 | **[!UICONTROL Email]** | Die E-Mail-Adresse des Kunden. |
 | **[!UICONTROL Date of Birth]** | Das Geburtsdatum des Kunden. Das Geburtsdatum ist enthalten, wenn es im Thema [Konfiguration](../configuration-reference/customers/customer-configuration.md) angegeben ist. <br><br>Halten Sie sich im Einklang mit den aktuellen Best Practices für Sicherheit und Datenschutz über mögliche rechtliche und Sicherheitsrisiken im Zusammenhang mit der Speicherung des vollständigen Geburtsdatums der Kundinnen und Kunden (Monat, Tag, Jahr) mit anderen persönlichen Kennungen im Klaren. Es wird empfohlen, die Speicherung der vollständigen Geburtsdaten von Kundinnen und Kunden zu begrenzen und alternativ ein Kundenjahr zu verwenden. |
 | **[!UICONTROL Tax / VAT Number]** | Die Steuer- oder Umsatzsteuer-Nummer des Kunden, falls zutreffend. |

@@ -3,9 +3,15 @@ title: Einrichtung der Geschenkregistrierung
 description: Erfahren Sie, wie Sie Geschenkregistrierungstypen für Ihre Store-Kunden einrichten.
 exl-id: d618c769-10be-4881-a799-42484d35c57b
 feature: Gift, Storefront
-source-git-commit: eb0fe395020dbe2e2496aba13d2f5c2bf2d0fc27
+TQID: https://experienceleague.adobe.com/LslheZ8xJdGz9NOe8Fkd6QK6uVN8Gz8M8pE-dPwC-5s
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: 1098
 ht-degree: 0%
 
 ---
@@ -134,7 +140,7 @@ Wählen Sie den Typ der Daten- und Eingabesteuerung aus, die mit dem Attribut ve
 | [!UICONTROL Event Date] | Bestimmt, wie das Datumsattribut im Store verwendet wird. Optionen: <br/>**[!UICONTROL Searchable]**- Bestimmt, ob das Attribut für die erweiterte Suche verfügbar ist. Optionen: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Bestimmt, ob das Ereignis in der Liste der Ereignisse enthalten ist, die im Store verfügbar ist. Optionen: `Yes` / `No`. <br/>**[!UICONTROL Date Format]**- Bestimmt das Format des Ereignisdatums. Optionen: `Short (3/23/2014)` / `Medium (Mar 23, 1914)` / `Long (March 23, 1914)` / `Full (Sunday, March 23, 2014)` |
 | [!UICONTROL Event Country] | Zeigt das Attribut als Liste von Ländern an. Optionen: <br/>**[!UICONTROL Searchable]**- Bestimmt, ob das Attribut für die erweiterte Suche verfügbar ist. Optionen: `Yes` / `No`.<br/>**[!UICONTROL Is Listed]** - Bestimmt, ob das Ereignis in der Liste der Ereignisse enthalten ist, die im Store verfügbar ist. Optionen: `Yes` / `No`. <br/>**[!UICONTROL Show Region]**- Bestimmt die Region des Ereignisses. |
 | [!UICONTROL Event Location] | Der Ort des Ereignisses, das mit der Geschenkregistrierung in Verbindung steht. <br/>**[!UICONTROL Is Searcheable]** festlegen auf: `Yes` / `No` <br/>**[!UICONTROL Is Listed]** festlegen auf: `Yes` / `No` |
-| [!UICONTROL Role] | Die Rolle, die den Geschenkempfänger identifiziert. Beispiel: `Bride`, `Groom` oder `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Auf `Yes`/`No` festlegen<br/>**&#x200B; Ist aufgeführt &#x200B;**- Auf `Yes`/`No` setzen<br/>**[!UICONTROL Add New Option]** - Klicken Sie, um dem Dropdown-Menü weitere Bedingungen hinzuzufügen:<br/>**Code** - Ein eindeutiger Name, der das Attribut intern identifiziert.<br/>**[!UICONTROL Label]**- Der Name, der das Attribut im Konto-Dashboard des Kunden identifiziert.<br/>**[!UICONTROL Is Default]** - Stellen Sie diesen Schalter auf die Standardbedingung.<br/>**[!UICONTROL Delete Option]**- Klicken, um die Option zu löschen. |
+| [!UICONTROL Role] | Die Rolle, die den Geschenkempfänger identifiziert. Beispiel: `Bride`, `Groom` oder `Partner`.<br/>**[!UICONTROL Is Searcheable]**- Auf `Yes`/`No` festlegen<br/>** Ist aufgeführt **- Auf `Yes`/`No` setzen<br/>**[!UICONTROL Add New Option]** - Klicken Sie, um dem Dropdown-Menü weitere Bedingungen hinzuzufügen:<br/>**Code** - Ein eindeutiger Name, der das Attribut intern identifiziert.<br/>**[!UICONTROL Label]**- Der Name, der das Attribut im Konto-Dashboard des Kunden identifiziert.<br/>**[!UICONTROL Is Default]** - Stellen Sie diesen Schalter auf die Standardbedingung.<br/>**[!UICONTROL Delete Option]**- Klicken, um die Option zu löschen. |
 
 {style="table-layout:auto"}
 

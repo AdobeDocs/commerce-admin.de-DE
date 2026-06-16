@@ -2,9 +2,15 @@
 title: Verwalten von Inventarquellen
 description: Erfahren Sie mehr über Quellen und darüber, wie sie die physischen Orte definieren, an denen der Produktbestand zur Auftragserfüllung verwaltet und versandt wird oder wo Services verfügbar sind.
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
-source-git-commit: 4d89212585fa846eb94bf83a640d0358812afbc5
+TQID: https://experienceleague.adobe.com/bVWqSGSgW08l7zZ7bLuZIcJUjqmj7Npn55yEdZn-aB0
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: 695
 ht-degree: 0%
 
 ---
@@ -36,7 +42,7 @@ Sie können den Namen, die Adresse, den GPS-Standort und die Kontaktinformatione
 
 Wenn Sie die standardmäßige Source bearbeiten, können Sie alle Konfigurationen mit Ausnahme des Namens und des Codes bearbeiten. Es wird empfohlen, dass Händler aus einer Hand Informationen hinzufügen, die ihrem Standort entsprechen.
 
-Auf der _[!UICONTROL Manage Sources]_&#x200B;Seite werden alle verfügbaren Lagerplätze und Erfüllungseinrichtungen aufgelistet. Sie können neue Inventarquellen hinzufügen und vorhandene Standorte bearbeiten.
+Auf der _[!UICONTROL Manage Sources]_Seite werden alle verfügbaren Lagerplätze und Erfüllungseinrichtungen aufgelistet. Sie können neue Inventarquellen hinzufügen und vorhandene Standorte bearbeiten.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Inventory]_>**[!UICONTROL Sources]**.
 
@@ -61,7 +67,7 @@ Auf der _[!UICONTROL Manage Sources]_&#x200B;Seite werden alle verfügbaren Lage
 | [!UICONTROL Code] | Ein eindeutiger alphanumerischer Code, der vom System zur Identifizierung der Inventarquelle verwendet wird. |
 | [!UICONTROL Name] | Ein eindeutiger Name, der die Inventarquelle für Admin-Benutzerinnen und -Benutzer identifiziert. |
 | [!UICONTROL Is Enabled] | Gibt an, ob die Bestandsquelle aktiv und verwendbar ist. |
-| [!UICONTROL Pickup Location] | Gibt an, ob die Quelle als Abholort für den [Versand im Geschäft) aktiv &#x200B;](../stores-purchase/shipping-in-store-delivery.md). |
+| [!UICONTROL Pickup Location] | Gibt an, ob die Quelle als Abholort für den [Versand im Geschäft) aktiv ](../stores-purchase/shipping-in-store-delivery.md). |
 | [!UICONTROL Action] | Durch Klicken auf **[!UICONTROL Edit]** wird der Inventarquellendatensatz im Bearbeitungsmodus geöffnet. |
 
 ## Andere Spalten

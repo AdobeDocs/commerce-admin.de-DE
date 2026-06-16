@@ -2,10 +2,16 @@
 title: Verwenden eines Widgets zum Positionieren eines Blocks
 description: Erfahren Sie, wie Sie mit einem statischen Block-Widget einen vorhandenen Inhalt nahezu überall in Ihrem Store platzieren können.
 exl-id: 174deef2-33c4-4f1a-8ca8-4969be209bc7
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/LZt31t9uNhrCglxO5L8E0XfVsFrwEKcv2H-TcKF46Ng
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: 598
 ht-degree: 0%
 
 ---
@@ -28,7 +34,7 @@ Mit dem _statischen CMS_ Block[Widget](widgets.md) können Sie einen vorhandenen
 
    ![Widget-Einstellungen](./assets/widget-settings.png){width="600" zoomable="yes"}
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_&#x200B;wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Storefront Properties]_wie folgt vor:
 
    - Geben Sie **[!UICONTROL Widget Title]** einen beschreibenden Titel für das Widget ein.
 
@@ -44,7 +50,7 @@ Mit dem _statischen CMS_ Block[Widget](widgets.md) können Sie einen vorhandenen
 
 ## Schritt 2: Abschließen der Widget-Layout-Aktualisierungen
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_&#x200B;auf **[!UICONTROL Add Layout Update]**.
+1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_auf **[!UICONTROL Add Layout Update]**.
 
 1. Legen Sie **[!UICONTROL Display On]** auf die Kategorie, das Produkt oder die Seite fest, auf der der Block angezeigt werden soll.
 
@@ -68,9 +74,9 @@ Mit dem _statischen CMS_ Block[Widget](widgets.md) können Sie einen vorhandenen
 | **_[!UICONTROL Products]_** |  |
 | Alle Produktarten | Zeigt das Widget entweder auf einer bestimmten Produktseite oder auf allen Produktseiten an. <br/>**[!UICONTROL Products]**- Produkte, für die das Widget angezeigt wird. Optionen: `All`/` Specific Products`<br/>**[!UICONTROL Container]** - Legen Sie den Container auf den Teil des Seiten-Layouts fest, in dem Sie das Widget anzeigen möchten.<br/>**[!UICONTROL Template]**- Bestimmt das Design des Layouts. |
 | **_[!UICONTROL Generic Pages]_** |  |
-| [!UICONTROL All Pages] | Zeigt das Widget auf allen Seiten an. <br/>**[!UICONTROL Container]**: Legen Sie den Container auf den Teil des Seiten-Layouts fest, in dem Sie das Widget anzeigen möchten.<br/>**[!UICONTROL Template]** - Bestimmt das Design des Layouts. |
-| [!UICONTROL Specified Page] | Zeigt das Widget auf einer bestimmten Seite an. Optionen: <br/>**[!UICONTROL Page]**- Seiten, für die das Widget angezeigt wird.<br/>**[!UICONTROL Container]** : Legen Sie den Container auf den Teil des Seiten-Layouts fest, in dem Sie das Widget anzeigen möchten.<br/>**Vorlage** - Bestimmt das Design des Layouts. |
-| [!UICONTROL Page Layouts] | Zeigt das Widget auf Seiten mit einem bestimmten Layout an. <br/>**[!UICONTROL Page]**- Seiten, für die das Widget angezeigt wird.<br/>**[!UICONTROL Container]** : Legen Sie den Container auf den Teil des Seiten-Layouts fest, in dem Sie das Widget anzeigen möchten.<br/>**[!UICONTROL Template]**- Bestimmt das Design des Layouts. |
+| [!UICONTROL All Pages] | Zeigt das Widget auf allen Seiten an. <br/>**[!UICONTROL Container]**- Den Container auf den Teil des Seiten-Layouts festlegen, in dem das Widget angezeigt werden soll.<br/>**[!UICONTROL Template]** - Bestimmt das Design des Layouts. |
+| [!UICONTROL Specified Page] | Zeigt das Widget auf einer bestimmten Seite an. Optionen: <br/>**[!UICONTROL Page]**- Seiten, für die das Widget angezeigt wird.<br/>**[!UICONTROL Container]** - Den Container auf den Teil des Seiten-Layouts festlegen, in dem das Widget angezeigt werden soll.<br/>**Vorlage** - Bestimmt das Design des Layouts. |
+| [!UICONTROL Page Layouts] | Zeigt das Widget auf Seiten mit einem bestimmten Layout an. <br/>**[!UICONTROL Page]**- Seiten, für die das Widget angezeigt wird.<br/>**[!UICONTROL Container]** - Den Container auf den Teil des Seiten-Layouts festlegen, in dem das Widget angezeigt werden soll.<br/>**[!UICONTROL Template]**- Bestimmt das Design des Layouts. |
 
 {style="table-layout:auto"}
 

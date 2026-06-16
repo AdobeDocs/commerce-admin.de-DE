@@ -3,16 +3,22 @@ title: Konfigurieren  [!DNL Inventory Management]  globalen Optionen
 description: Erfahren Sie, wie Sie die  [!DNL Inventory Management] -Konfigurationsoptionen für Produkt und Stock für Ihre Websites konfigurieren.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
-source-git-commit: 7384481d1a4a2a04882d4c99448cca75abc9be31
+TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 0%
+source-wordcount: 648
+ht-degree: 1%
 
 ---
 
 # Konfigurieren [!DNL Inventory Management] globalen Optionen
 
-Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und Lager für Ihre Websites. Einige dieser Einstellungen können pro Produkt über „Konfigurieren von [&quot; überschrieben &#x200B;](product-options.md). Informationen zum Konfigurieren der Distanzprioritätseinstellungen finden Sie [Konfigurieren des Distanzprioritätsalgorithmus](distance-priority-algorithm.md).
+Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und Lager für Ihre Websites. Einige dieser Einstellungen können pro Produkt über „Konfigurieren von [&quot; überschrieben ](product-options.md). Informationen zum Konfigurieren der Distanzprioritätseinstellungen finden Sie [Konfigurieren des Distanzprioritätsalgorithmus](distance-priority-algorithm.md).
 
 ## Globale Konfiguration von Produkt- und Lageroptionen
 
@@ -82,11 +88,11 @@ Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und
 
    - **[!UICONTROL Run asynchronously]** für die asynchrone Ausführung von Massenvorgängen für Massenproduktaktionen
 
-     Zu diesen Vorgängen gehören [&#x200B; „Zuordnung und Aufhebung der Zuweisung von &#x200B;](bulk-assignment.md)&quot; und [Übertragung von Inventar zur Quelle](inventory-transfer.md). Sie erfasst Massenaktionen bis zur asynchronen Batch-Größe und führt diese Aktionen aus. Diese Option ist standardmäßig deaktiviert. Es wird empfohlen, vor der Aktivierung Ihre Leistung mit Massenaktionen zu überprüfen.
+     Zu diesen Vorgängen gehören [ „Zuordnung und Aufhebung der Zuweisung von ](bulk-assignment.md)&quot; und [Übertragung von Inventar zur Quelle](inventory-transfer.md). Sie erfasst Massenaktionen bis zur asynchronen Batch-Größe und führt diese Aktionen aus. Standardmäßig ist diese Option deaktiviert. Es wird empfohlen, vor der Aktivierung Ihre Leistung mit Massenaktionen zu überprüfen.
 
      >[!NOTE]
      >
-     >Zum Konfigurieren und Unterstützen _asynchroner Warteschlangenmanager_ müssen Sie einen Befehl über die Befehlszeile eingeben. Für diesen Schritt ist möglicherweise die Unterstützung eines Entwicklers erforderlich. Siehe [Starten von Nachrichtenwarteschlangen-](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=de) im _Konfigurationshandbuch_.
+     >Zum Konfigurieren und Unterstützen _asynchroner Warteschlangenmanager_ müssen Sie einen Befehl über die Befehlszeile eingeben. Für diesen Schritt ist möglicherweise die Unterstützung eines Entwicklers erforderlich. Siehe [Starten von Nachrichtenwarteschlangen-](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) im _Konfigurationshandbuch_.
 
    - Wenn aktiviert, legen Sie die **[!UICONTROL Asynchronous batch size]** fest. Die standardmäßige Batch-Größe ist 100. Wenn Massenprozesse diesen Wert erreichen, wird er vom System Trigger.
 

@@ -3,9 +3,15 @@ title: Verkaufs-E-Mails
 description: Erfahren Sie, wie Sie Verkaufs-E-Mails konfigurieren, um Kunden über ihre Bestellungen zu informieren.
 exl-id: b205dc61-08cc-4783-810c-686ccf2ba300
 feature: Communications, Orders
-source-git-commit: 8b5af316ab1d2e632ed5fc2066974326830ab3f7
+TQID: https://experienceleague.adobe.com/M9-GhmO0XeRC9sgZmQXpv759NN-5cM92Bd8ZxxM96yg
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 436
 ht-degree: 0%
 
 ---
@@ -35,7 +41,7 @@ Stellen Sie sicher, dass Sie die Vorlage [E-Mail](../systems/email-template-cust
    - `Disable` - Sendet eine Verkaufs-E-Mail, wenn sie durch ein Ereignis ausgelöst wird.
    - `Enable` - Sendet Verkaufs-E-Mails in vorab festgelegten, regelmäßigen Abständen.
 
-   Der Adobe Commerce-Support empfiehlt die Aktivierung des asynchronen Versands, um die Leistung bei der Bestellplatzierung zu verbessern. Siehe [Best Practices für die Konfiguration der Auftragsverarbeitung](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html?lang=de) in der Wissensdatenbank zum Adobe Commerce-Support.
+   Der Adobe Commerce-Support empfiehlt die Aktivierung des asynchronen Versands, um die Leistung bei der Bestellplatzierung zu verbessern. Siehe [Best Practices für die Konfiguration der Auftragsverarbeitung](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/order-processing-configuration.html) in der Wissensdatenbank zum Adobe Commerce-Support.
 
 ## Schritt 3. Füllen Sie die Details für jede Verkaufs-E-Mail-Nachricht aus
 
@@ -72,4 +78,4 @@ Stellen Sie sicher, dass Sie die Vorlage [E-Mail](../systems/email-template-cust
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-   Wenn Sie dazu aufgefordert werden[&#x200B; klicken Sie auf den Link &#x200B;](../systems/cache-management.md)Cache-Verwaltung“ in der Nachricht oben im Arbeitsbereich und löschen Sie alle ungültigen Caches.
+   Wenn Sie dazu aufgefordert werden[ klicken Sie auf den Link ](../systems/cache-management.md)Cache-Verwaltung“ in der Nachricht oben im Arbeitsbereich und löschen Sie alle ungültigen Caches.

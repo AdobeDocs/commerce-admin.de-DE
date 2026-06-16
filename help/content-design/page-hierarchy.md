@@ -2,10 +2,16 @@
 title: Seitenhierarchie
 description: Erfahren Sie, wie Sie mit dem Seitenhierarchiesystem Ihre Inhaltsseiten organisieren und Seitenumbrüche, Navigation und Menüs hinzufügen können.
 exl-id: 2ce79b85-1420-4640-a4f7-0143a608a71a
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/FjbEcEVUdtL-3iun4t3ou8ITfI2RI7HmvoqoAkJc71Y
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: 964
 ht-degree: 0%
 
 ---
@@ -28,7 +34,7 @@ Die Konfigurationseinstellungen aktivieren das Seitenhierarchiesystem und die Me
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Content Management]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Content Management]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) **[!UICONTROL CMS Page Hierarchy]** und nehmen Sie die erforderlichen Änderungen vor.
 
@@ -60,7 +66,7 @@ Verwenden Sie zum Verknüpfen mit einem Knoten das [Widget](widgets.md)-Tool, um
 
 1. Klicken Sie über dem Raster auf **[!UICONTROL Add Node...]**.
 
-1. Geben Sie unter _[!UICONTROL Page Properties]_&#x200B;einen **[!UICONTROL Title]**&#x200B;für den Knoten und einen geeigneten **[!UICONTROL URL Key]**&#x200B;ein.
+1. Geben Sie unter _[!UICONTROL Page Properties]_einen **[!UICONTROL Title]**für den Knoten und einen geeigneten **[!UICONTROL URL Key]**ein.
 
    Der URL-Schlüssel stellt eine eindeutige Web-Adresse für den Knoten bereit. Es müssen nur Kleinbuchstaben verwendet werden, wobei Bindestriche anstelle von Leerzeichen verwendet werden müssen, um Wörter zu trennen.
 
@@ -86,7 +92,7 @@ Verwenden Sie zum Verknüpfen mit einem Knoten das [Widget](widgets.md)-Tool, um
 
 1. Klicken Sie auf den Knoten oben in der Hierarchie.
 
-   Im Abschnitt _[!UICONTROL Page Properties]_&#x200B;werden jetzt Informationen zum Knoten angezeigt.
+   Im Abschnitt _[!UICONTROL Page Properties]_werden jetzt Informationen zum Knoten angezeigt.
 
 1. Gehen Sie unter **[!UICONTROL Render Metadata in HTML Head]** wie folgt vor:
 
@@ -130,7 +136,7 @@ Wenn der Knoten im Menü angezeigt werden soll, gehen Sie wie folgt vor:
 1. Um die Position des Menüs in Bezug auf den Inhalt anzugeben, legen Sie die **[!UICONTROL Menu Layout]** fest:
 
    - `Content` - Das Menü-Layout befindet sich im Inhalt.
-   - `Use Default` - Verwendet den in der [&#x200B; angegebenen Menüstil](../configuration-reference/general/content-management.md).
+   - `Use Default` - Verwendet den in der [ angegebenen Menüstil](../configuration-reference/general/content-management.md).
    - `Left Column` - Das Menü wird links neben dem Inhalt angezeigt.
    - `Right Column` - Das Menü wird rechts neben dem Inhalt angezeigt.
 

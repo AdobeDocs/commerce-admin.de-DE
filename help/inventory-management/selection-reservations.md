@@ -3,9 +3,15 @@ title: Source-Algorithmen und -Reservierungen
 description: Erfahren Sie mehr über den Source-Auswahlalgorithmus und Reservierungssysteme, die im Hintergrund ausgeführt werden, um Ihre Verkaufsmengen auf dem neuesten Stand zu halten.
 exl-id: dcd63322-fb4c-4448-b6e7-0c54350905d7
 feature: Inventory, Shipping/Delivery
-source-git-commit: a8e9389ee2b94f816915de3e61516004d2b32e9d
+TQID: https://experienceleague.adobe.com/x3UFGWtRSiodcnEF4Di3yFmR8GY8xoHSvVVsDg-J-qY
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: 2181
 ht-degree: 0%
 
 ---
@@ -16,7 +22,7 @@ Das Herzstück von [!DNL Inventory Management] verfolgt jedes verfügbare Produk
 
 >[!NOTE]
 >
->Informationen [&#x200B; programmgesteuerten Arbeiten mit dem [!DNL Inventory Management] finden &#x200B;](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) in der Entwicklerdokumentation .
+>Informationen [ programmgesteuerten Arbeiten mit dem [!DNL Inventory Management] finden ](https://developer.adobe.com/commerce/php/development/framework/inventory-management/) in der Entwicklerdokumentation .
 
 ## Source-Auswahlalgorithmus
 
@@ -86,7 +92,7 @@ Anstatt sofort Produktinventarmengen abzuziehen oder hinzuzufügen, behalten Res
 
 >[!NOTE]
 >
->[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Für die Reservierungsfunktion muss die `inventory.reservations.updateSalabilityStatus` Nachrichtenwarteschlange kontinuierlich ausgeführt werden. Um zu überprüfen, ob es ausgeführt wird, verwenden Sie den `bin/magento queue:consumers:list`. Wenn der Nachrichtenwarteschlangenbenutzer nicht aufgeführt ist, starten Sie ihn: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
+>[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Für die Reservierungsfunktion muss die `inventory.reservations.updateSalabilityStatus` Nachrichtenwarteschlange kontinuierlich ausgeführt werden. Um zu überprüfen, ob es ausgeführt wird, verwenden Sie den `bin/magento queue:consumers:list`. Wenn der Nachrichtenwarteschlangenbenutzer nicht aufgeführt ist, starten Sie ihn: `bin/magento queue:consumers:start inventory.reservations.updateSalabilityStatus`.
 
 ### Reservierungen bestellen
 
@@ -191,7 +197,7 @@ Die drei `quantity` summieren sich bis zu 0 (-25 + 5 + 20). Das System ändert k
 
 Der `inventory_cleanup_reservations` Cron-Auftrag führt SQL-Abfragen aus, um die Reservierungsdatenbanktabelle zu löschen. Standardmäßig wird sie täglich um Mitternacht ausgeführt, aber Sie können die Zeiten und die Häufigkeit konfigurieren. Der Cron-Auftrag führt ein Skript aus, das die Datenbank abfragt, um vollständige Reservierungssequenzen zu finden, in denen die Summe der Mengenwerte 0 ist. Wenn alle Reservierungen für ein bestimmtes Produkt, die am selben Tag (oder einer anderen konfigurierten Zeit) entstanden sind, kompensiert wurden, löscht der Cron-Auftrag die Reservierungen alle auf einmal.
 
-Der `inventory_reservations_cleanup` Cron-Auftrag ist nicht identisch mit dem `inventory.reservations.cleanup` Nachrichtenwarteschlange-Verbraucher. Der -Verbraucher löscht Reservierungen asynchron nach Produkt-SKU, nachdem ein Produkt entfernt wurde, während der Cron-Auftrag die gesamte Reservierungstabelle löscht. Der -Verbraucher wird benötigt, wenn Sie die Stock [**Option „Mit Katalog synchronisieren**](../configuration-reference/catalog/inventory.md) in der Store-Konfiguration aktivieren. Siehe [Verwalten von Nachrichtenwarteschlangen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=de){target="_blank"} im _Konfigurationshandbuch_.
+Der `inventory_reservations_cleanup` Cron-Auftrag ist nicht identisch mit dem `inventory.reservations.cleanup` Nachrichtenwarteschlange-Verbraucher. Der -Verbraucher löscht Reservierungen asynchron nach Produkt-SKU, nachdem ein Produkt entfernt wurde, während der Cron-Auftrag die gesamte Reservierungstabelle löscht. Der -Verbraucher wird benötigt, wenn Sie die Stock [**Option „Mit Katalog synchronisieren**](../configuration-reference/catalog/inventory.md) in der Store-Konfiguration aktivieren. Siehe [Verwalten von Nachrichtenwarteschlangen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html){target="_blank"} im _Konfigurationshandbuch_.
 
 Häufig können alle anfänglichen Reservierungen, die an einem einzigen Tag erstellt wurden, nicht am selben Tag kompensiert werden. Diese Situation kann auftreten, wenn ein Kunde eine Bestellung aufgibt, kurz bevor der Cron-Auftrag beginnt, oder den Kauf mit einer Offline-Zahlungsmethode tätigt, wie z. B. einer Banküberweisung. Die kompensierten Reservierungssequenzen verbleiben in der Datenbank, bis sie alle kompensiert werden. Diese Vorgehensweise beeinträchtigt die Reservierungsberechnungen nicht, da die Summe für jede Reservierung 0 beträgt.
 

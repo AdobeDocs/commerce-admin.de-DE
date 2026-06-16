@@ -3,22 +3,29 @@ title: Verwalten von Unternehmenskonten
 description: Erfahren Sie, wie Sie Unternehmenskonten für Ihren Adobe Commerce-Store mithilfe der Seite „Unternehmen“ und der im Raster verfügbaren Tools verwalten.
 exl-id: 9e125fc2-d20e-463e-a391-582fa0bcb68d
 feature: B2B, Companies, Configuration
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+subfeature_v2: id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '2728'
+source-wordcount: 2728
 ht-degree: 0%
 
 ---
 
 # Verwalten von Unternehmenskonten
 
-Auf der Seite _[!UICONTROL Companies]_&#x200B;werden alle aktuellen Unternehmenskonten unabhängig vom Status aufgelistet. Alle ausstehenden Genehmigungsanfragen werden oben in der Liste angezeigt.
+Auf der Seite _[!UICONTROL Companies]_werden alle aktuellen Unternehmenskonten unabhängig vom Status aufgelistet. Alle ausstehenden Genehmigungsanfragen werden oben in der Liste angezeigt.
 
 ![Firmen-Raster](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Verwenden Sie das *[!UICONTROL Columns]*-Steuerelement, um die im Raster angezeigten Spalten anzupassen. Passen Sie die in der Ansicht angezeigten Unternehmen mithilfe der Such- und Filterfunktionen an.
 
-- Suchen Sie mithilfe der _[!UICONTROL Search]_&#x200B;nach Unternehmen **Raster**&#x200B;Firmen. Die Suche indiziert die Spalten **Firmenname**&#x200B;und **Übergeordnet**.
+- Suchen Sie mithilfe der _[!UICONTROL Search]_nach Unternehmen **Raster**Firmen. Die Suche indiziert die Spalten **Firmenname**und **Übergeordnet**.
 
 - Passen Sie die Ansicht so an, dass Datensätze einbezogen werden, die bestimmte Kriterien erfüllen, indem Sie die [!UICONTROL Filter] verwenden. Wenn die B2B-Site beispielsweise so konfiguriert ist, dass sowohl einzelne Unternehmenskonten als auch [Unternehmenshierarchien](manage-companies.md) verwaltet werden, können Sie nach `[!UICONTROL Company Type - Company]` filtern, um nur einzelne Unternehmen anzuzeigen, oder nach `[!UICONTROL Company Type - Parent]`, um nur die übergeordnete Firma für jede Hierarchie anzuzeigen.
 
@@ -104,7 +111,7 @@ Gelöschte Unternehmenskonten können nicht wiederhergestellt werden. Der Status
 
 ### Unternehmenseinstellungen ändern
 
-Aktualisieren Sie die Konfiguration [Erweiterte &#x200B;](account-company-create.md#advanced-settings)), um dieselben Einstellungen auf mehrere im Raster *Unternehmen“ ausgewählte Unternehmen*.
+Aktualisieren Sie die Konfiguration [Erweiterte ](account-company-create.md#advanced-settings)), um dieselben Einstellungen auf mehrere im Raster *Unternehmen“ ausgewählte Unternehmen*.
 
 >[!NOTE]
 >
@@ -166,7 +173,7 @@ Methode 2: **Vollständige Bearbeitung**
 
 1. Suchen Sie im Raster nach dem Firmendatensatz, der bearbeitet werden soll.
 
-1. Wählen Sie **[!UICONTROL Edit]** aus der Spalte _[!UICONTROL Action]_&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Edit]** aus der Spalte _[!UICONTROL Action]_aus.
 
 1. Nehmen Sie die erforderlichen Änderungen an den Unternehmensinformationen vor.
 
@@ -176,7 +183,7 @@ Methode 2: **Vollständige Bearbeitung**
 
 ## Zuweisen eines Vertriebsmitarbeiters
 
-Der Vertriebsmitarbeiter ist ein [Admin-Benutzer](../systems/permissions.md) der als Ansprechpartner für ein Firmenkonto zugewiesen ist und alle automatisierten E-[-Nachrichten &#x200B;](../b2b/enable-basic-features.md#configure-company-email-options) Unternehmen erhält. Pro Unternehmenskonto kann nur ein Vertriebsmitarbeiter zugewiesen werden, aber ein einziger Vertriebsmitarbeiter kann mehrere Unternehmenskonten verwalten. Das standardmäßige Admin-Benutzerkonto wird als Vertriebsmitarbeiter zugewiesen, es sei denn, es wurde ein anderer Admin-Benutzer zugewiesen.
+Der Vertriebsmitarbeiter ist ein [Admin-Benutzer](../systems/permissions.md) der als Ansprechpartner für ein Firmenkonto zugewiesen ist und alle automatisierten E-[-Nachrichten ](../b2b/enable-basic-features.md#configure-company-email-options) Unternehmen erhält. Pro Unternehmenskonto kann nur ein Vertriebsmitarbeiter zugewiesen werden, aber ein einziger Vertriebsmitarbeiter kann mehrere Unternehmenskonten verwalten. Das standardmäßige Admin-Benutzerkonto wird als Vertriebsmitarbeiter zugewiesen, es sei denn, es wurde ein anderer Admin-Benutzer zugewiesen.
 
 Der Name und die E-Mail-Adresse des zugeordneten Vertriebsmitarbeiters sind für die Mitglieder des Unternehmens auf der Seite mit dem Unternehmenskonto und den Angeboten sichtbar.
 
@@ -198,7 +205,7 @@ Das Unternehmensprofil kann vom Unternehmensadministrator in der Storefront und 
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Suchen Sie das Unternehmen im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
+1. Suchen Sie das Unternehmen im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
 1. Aktualisieren Sie die Feldwerte in jedem Abschnitt nach Bedarf, indem Sie die Feldbeschreibungen als Referenz verwenden.
 
@@ -208,7 +215,7 @@ Das Unternehmensprofil kann vom Unternehmensadministrator in der Storefront und 
 
 In diesem Video erfahren Sie mehr über die Verwaltung von Unternehmenskonten:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411354?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## Unternehmensleitung
 
@@ -216,7 +223,7 @@ Nachdem eine Firma erstellt wurde, können Admin-Benutzer mit entsprechenden Ber
 
 Wenn eine Firma zu einer Hierarchie hinzugefügt wurde, zeigt das [!UICONTROL Company Hierarchy] die übergeordnete Firma und alle zugewiesenen Firmen im Raster an.
 
-Weitere Informationen finden [&#x200B; unter &#x200B;](manage-company-hierarchy.md) von Unternehmenshierarchien .
+Weitere Informationen finden [ unter ](manage-company-hierarchy.md) von Unternehmenshierarchien .
 
 ## Unternehmensoptionen und -spalten
 

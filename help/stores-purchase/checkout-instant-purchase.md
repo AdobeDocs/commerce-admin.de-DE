@@ -3,9 +3,15 @@ title: Sofortkauf
 description: Erfahren Sie mehr über Instant Purchase und wie damit ein schneller Checkout für registrierte Kundenkonten ermöglicht werden kann.
 exl-id: f299f364-d7e3-4567-8c7b-955129011a19
 feature: Checkout
-source-git-commit: 5da244a548b15863fe31b5df8b509f8e63df27c2
+TQID: https://experienceleague.adobe.com/sxfhq1vK7ohJBBli3U05dNoOvV2cdHc3j17nwvf3Le4
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: 403
 ht-degree: 0%
 
 ---
@@ -18,13 +24,13 @@ _Sofortiger Kauf_ ermöglicht es Kunden, den Checkout-Prozess mithilfe von Infor
 
 ## Kundenanforderungen
 
-- Der Kunde [&#x200B; bei &#x200B;](../customers/customer-sign-in.md) Konto angemeldet.
+- Der Kunde [ bei ](../customers/customer-sign-in.md) Konto angemeldet.
 
 - Das Kundenkonto hat eine [Standard-Rechnungs- und Lieferadresse](../customers/account-dashboard-address-book.md).
 
 - Mindestens eine [Versandmethode](delivery.md) ist für das Land verfügbar, das in der Standard-Versandadresse angegeben ist.
 
-- Für das Kundenkonto ist eine [gespeicherte &#x200B;](../stores-purchase/stored-payment-methods.md)&quot; mit aktiviertem Tresor verfügbar.
+- Für das Kundenkonto ist eine [gespeicherte ](../stores-purchase/stored-payment-methods.md)&quot; mit aktiviertem Tresor verfügbar.
 
   Die folgenden Zahlungsmethoden können verwendet werden, um einen sicheren Zugriff auf gespeicherte Kreditkarteninformationen zu ermöglichen:
 
@@ -57,11 +63,11 @@ Sie können Instant Purchase mit Braintree oder Payment Services für Adobe Comm
 Erfahren Sie, wie Sie die Zahlungsmethode konfigurieren und Vaulting für Braintree oder Payment Services aktivieren:
 
 - [Braintree](braintree.md)
-- [Dokumentation zu Zahlungsdiensten](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=de)
+- [Dokumentation zu Zahlungs-Services](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
 
 ### Schritt 3: Sofortigen Kauf aktivieren
 
-1. Wählen Sie im linken Bedienfeld unter dem Abschnitt _[!UICONTROL Sales]_&#x200B;die Option **[!UICONTROL Sales]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter dem Abschnitt _[!UICONTROL Sales]_die Option **[!UICONTROL Sales]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Instant Purchase]** .
 

@@ -3,10 +3,16 @@ title: Produktbewertungen
 description: Erfahren Sie, wie Produktbewertungen Ihren Shop verbessern und Ihren Produkten mehr Glaubwürdigkeit verleihen können.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 7e28081ef2723d4113b957edede6a8e13612ad2f
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: 693
 ht-degree: 0%
 
 ---
@@ -20,8 +26,7 @@ Commerce enthält eine native Funktion zur Produktüberprüfung, die Sie über d
 >[!NOTE]
 >
 >Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source enthielten die vom Yotpo-Anbieter entwickelte Erweiterung. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Bundle der Hauptversion enthalten und muss von der Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
->&#x200B;><br><br>
->&#x200B;>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=de) im _Upgrade-Handbuch_ für weitere Informationen.
+><br><br>>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrades auf 2.4.4 aktualisieren und zukünftige Erweiterungsaktualisierungen verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html) im _Upgrade-Handbuch_ für weitere Informationen.
 
 ## Produktbewertungen in der Storefront
 
@@ -43,7 +48,7 @@ Die Anzahl der Sterne gibt die Zufriedenheitsbewertung des Produkts an. Besucher
 
 ### [!UICONTROL My Product Reviews]
 
-Im Abschnitt _[!UICONTROL My Product Reviews]_&#x200B;des Kundenkonto-Dashboards werden alle vom Kunden eingereichten und zur Veröffentlichung genehmigten Bewertungen aufgelistet. Jede Überprüfungszusammenfassung enthält das Datum, an dem die Überprüfung eingereicht wurde, Links zur Produktseite und Details zur Überprüfung.
+Im Abschnitt _[!UICONTROL My Product Reviews]_des Kundenkonto-Dashboards werden alle vom Kunden eingereichten und zur Veröffentlichung genehmigten Bewertungen aufgelistet. Jede Überprüfungszusammenfassung enthält das Datum, an dem die Überprüfung eingereicht wurde, Links zur Produktseite und Details zur Überprüfung.
 
 ![Meine Produktbewertungen](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -91,7 +96,7 @@ Mit den Commerce-Produktbewertungen können Kunden Bewertungen zuweisen, wenn si
 
    ![Admin - Ratings](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Geben Sie im Abschnitt _[!UICONTROL Rating Title]_&#x200B;die **[!UICONTROL Default Value]**&#x200B;für die neue Bewertung ein.
+1. Geben Sie im Abschnitt _[!UICONTROL Rating Title]_die **[!UICONTROL Default Value]**für die neue Bewertung ein.
 
    Geben Sie gegebenenfalls auch die Übersetzung für jede Shop-Ansicht ein.
 

@@ -3,10 +3,16 @@ title: Adobe Stock-Integration
 description: Integrieren Sie Adobe Stock in Ihre  [!DNL Commerce] , um auf unzählige Medien-Assets zur Verwendung in Ihrem Store zuzugreifen.
 exl-id: 0f399ea7-5726-476c-a945-c37e44a9ea55
 feature: CMS, Media, Configuration, Integration
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 9aec049cfaa12f342d66f45a75af0ce50a23c2c8
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/VwiTbOAj5V8s7OWtkq5hfoP4LcvNLPR9QaKStaCdArs
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: 427
 ht-degree: 0%
 
 ---
@@ -28,7 +34,7 @@ Diese Integration erfordert:
 
 Die Lizenzierung von Adobe Stock-Bildern erfordert Folgendes:
 
-- Ein [Adobe-Konto](https://helpx.adobe.com/de/manage-account/using/access-adobe-id-account.html)
+- Ein [Adobe-Konto](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
 - Ein gebührenpflichtiger [Adobe Stock](https://stock.adobe.com)-Plan, der mit dem Konto verknüpft ist
 
 ## Integrieren von [!DNL Commerce] und Adobe Stock
@@ -42,9 +48,9 @@ Die Konfiguration der Adobe Stock-Integration für Adobe Commerce erfolgt in zwe
 
 1. Navigieren Sie zur [Adobe Developer Console](https://developer.adobe.com/console/home).
 
-1. Klicken Sie unter _[!UICONTROL Quick Start]_&#x200B;auf **[!UICONTROL Create new project]**.
+1. Klicken Sie unter _[!UICONTROL Quick Start]_auf **[!UICONTROL Create new project]**.
 
-1. Klicken Sie im _[!UICONTROL Project overview]_&#x200B;auf **[!UICONTROL Add API]**.
+1. Klicken Sie im _[!UICONTROL Project overview]_auf **[!UICONTROL Add API]**.
 
 1. Wählen Sie **[!UICONTROL Adobe Stock]** aus der Liste Integrationen aus und klicken Sie auf **[!UICONTROL Next]**.
 
@@ -92,6 +98,6 @@ Verwenden Sie zum Festlegen der Systemkonfiguration in Ihrem [!DNL Commerce]-Adm
 
    ![Erweiterte Konfiguration - Adobe Stock-Integration](./assets/system-adobe-stock-integration.png){width="600" zoomable="yes"}
 
-   Geben Sie der Validierung einige Sekunden Zeit. Wenn Ihre Anmeldeinformationen gültig sind, sollte eine grüne angezeigt werden _Verbindung erfolgreich!Nachricht_.
+   Geben Sie der Validierung einige Sekunden Zeit. Wenn Ihre Anmeldeinformationen gültig sind, sollte eine grüne angezeigt werden _Verbindung erfolgreich!_ Nachricht.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.

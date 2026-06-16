@@ -3,9 +3,15 @@ title: Konfigurierbares Produkt
 description: Erfahren Sie, wie Sie ein konfigurierbares Produkt erstellen, das Käufern Varianten zur Auswahl bietet.
 exl-id: 2066fd20-5227-41e9-b213-31825a58ebd9
 feature: Catalog Management, Products
-source-git-commit: 6fcbcd3b7cace10f0841a46b3cd27343862b3f3b
+TQID: https://experienceleague.adobe.com/-T3-DNO39JLnWyhjbXzzSbA0NJ3QeGtnQgyjJBOQn-I
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: 1994
 ht-degree: 0%
 
 ---
@@ -48,7 +54,7 @@ Anweisungen zum Erstellen von Attributen finden Sie unter [Produktattribute](pro
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Configurable Product]**&#x200B;aus.
+1. Wählen Sie im Menü _[!UICONTROL Add Product]_![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} oben rechts **[!UICONTROL Configurable Product]**aus.
 
    ![Konfigurierbares Produkt hinzufügen](./assets/product-add-configurable.png){width="700" zoomable="yes"}
 
@@ -83,7 +89,7 @@ Der [Attributsatz](attribute-sets.md) bestimmt, welche Felder im Produktformular
 
 1. Klicken Sie auf **[!UICONTROL Save]** und fahren Sie fort.
 
-   Wenn das Produkt gespeichert wird, wird [&#x200B; Auswahl „Store](introduction.md#product-scope)Ansicht“ in der oberen linken Ecke angezeigt.
+   Wenn das Produkt gespeichert wird, wird [ Auswahl „Store](introduction.md#product-scope)Ansicht“ in der oberen linken Ecke angezeigt.
 
 1. Wählen Sie die **[!UICONTROL Store View]** aus, in der das Produkt verfügbar sein soll.
 
@@ -150,7 +156,7 @@ Die folgenden Schritte zeigen, wie Sie Konfigurationen für mehrere Varianten hi
 
 ### Schritt 6: Variantenattribute auswählen
 
-1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Configurations]_&#x200B;und klicken Sie auf **[!UICONTROL Create Configurations]**.
+1. Scrollen Sie nach unten zum Abschnitt _[!UICONTROL Configurations]_und klicken Sie auf **[!UICONTROL Create Configurations]**.
 
    ![Konfigurationen](./assets/product-configurable-create-configurations.png){width="600" zoomable="yes"}
 
@@ -254,7 +260,7 @@ _Einzelne Source-Händler :_
 
 Geben Sie die **[!UICONTROL Quantity]** ein.
 
-_Händler mit mehreren Sources, die [Inventory management verwenden &#x200B;](../inventory-management/introduction.md):_
+_Händler mit mehreren Sources, die [Inventory management verwenden ](../inventory-management/introduction.md):_
 
 Quellen zuweisen und Mengen für alle generierten Produktvarianten hinzufügen:
 
@@ -274,7 +280,7 @@ _Einzelne Source-Händler :_
 
 Geben Sie die **[!UICONTROL Quantity]** für jeden Attributwert ein.
 
-_Händler mit mehreren Sources, die [Inventory management verwenden &#x200B;](../inventory-management/introduction.md):_
+_Händler mit mehreren Sources, die [Inventory management verwenden ](../inventory-management/introduction.md):_
 
 Quellen zuweisen und Mengen für alle generierten Produktvarianten hinzufügen:
 
@@ -346,7 +352,7 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
    **Methode 2: Speichern und schließen**
 
-   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
+   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
 
 ## Lagerstatus konfigurieren
 

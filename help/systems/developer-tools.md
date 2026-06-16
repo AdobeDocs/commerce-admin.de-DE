@@ -3,10 +3,16 @@ title: Entwickler-Tools
 description: Erfahren Sie mehr über die erweiterten Entwickler-Tools, die Entwicklern zur Verfügung stehen, die an Anpassungsprojekten arbeiten.
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 9a68d9702cec9b812414d39e8d04c71751121a37
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: cc250cf1-34eb-4863-80d0-d170d45ea067id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: 1709
 ht-degree: 0%
 
 ---
@@ -27,7 +33,7 @@ Verwenden Sie die erweiterten Entwickler-Tools, um den Kompilierungsmodus währe
 
 Ihre Adobe Commerce- oder Magento Open Source-Instanz kann bereitgestellt werden, um entweder im _- oder_-_ausgeführt_. Auf die speziell für Entwickler entwickelten Tools und Konfigurationseinstellungen kann nur zugegriffen werden, während der Store im _Entwicklermodus_ ausgeführt wird.
 
-Der Betriebsmodus kann nur über die Befehlszeile des Servers von einem Benutzer mit entsprechenden Berechtigungen geändert werden. Weitere [&#x200B; finden Sie unter „Festlegen &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html?lang=de) Betriebsmodus“ _&quot;_&quot;.
+Der Betriebsmodus kann nur über die Befehlszeile des Servers von einem Benutzer mit entsprechenden Berechtigungen geändert werden. Weitere [ finden Sie unter „Festlegen ](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/set-mode.html) Betriebsmodus“ _&quot;_&quot;.
 
 Die meisten Themen in der Händlerdokumentation gelten für eine Commerce-Instanz, die im Produktionsmodus ausgeführt wird. Die folgenden Konfigurationseinstellungen und -tools können jedoch nur verwendet werden, wenn die Installation im Entwicklermodus ausgeführt wird.
 
@@ -38,7 +44,7 @@ Siehe [Client-seitige LESS-Kompilierung vs. Server-seitig](https://developer.ado
 
 >[!NOTE]
 >
->Die Konfiguration des Frontend-Entwicklungs-Workflows ist nur im [-Modus &#x200B;](../systems/developer-tools.md#operation-modes).
+>Die Konfiguration des Frontend-Entwicklungs-Workflows ist nur im [-Modus ](../systems/developer-tools.md#operation-modes).
 
 ![Erweiterte Konfiguration - Frontend-Entwicklungs-Workflow](../configuration-reference/advanced/assets/developer-frontend-development-workflow.png){width="600" zoomable="yes"}
 
@@ -59,11 +65,11 @@ Siehe [Client-seitige LESS-Kompilierung vs. Server-seitig](https://developer.ado
 
 Das Hinzufügen einer digitalen Signatur zur URL statischer Dateien ermöglicht es Browsern zu erkennen, wann eine neuere Version der Datei verfügbar ist. Zu den statischen Dateien, die mit digitalen Signaturen verfolgt werden können, gehören JavaScript, CSS, Bilder und Schriftarten. Die Signatur wird direkt nach der Basis-URL an den Pfad angehängt. Wenn sich die Signatur einer Datei von der unterscheidet, die im Cache des Browsers gespeichert ist, wird die neuere Version der Datei verwendet.
 
-Siehe [Statisches Inhaltssignieren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=de){:target="_blank"} in der Entwicklerdokumentation zu Commerce.
+Siehe [Statisches Inhaltssignieren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target="_blank"} in der Entwicklerdokumentation zu Commerce.
 
 >[!NOTE]
 >
->Die Konfiguration Statischer Dateieinstellungen ist nur im [Entwicklermodus“ &#x200B;](../systems/developer-tools.md#operation-modes).
+>Die Konfiguration Statischer Dateieinstellungen ist nur im [Entwicklermodus“ ](../systems/developer-tools.md#operation-modes).
 
 ![Erweiterte Konfiguration - Einstellungen für statische Dateien](../configuration-reference/advanced/assets/developer-static-files-settings.png){width="600" zoomable="yes"}
 
@@ -91,7 +97,7 @@ Der Zeitaufwand für das Laden von Ressourcendateien kann durch das Zusammenfüh
 
 Standardmäßig führen Adobe Commerce und Magento Open Source keine Dateien zusammen, bündeln oder minimieren sie nicht. Der Projektentwickler sollte festlegen, welche Dateioptimierungsmethoden verwendet werden sollen.
 
-Weitere Informationen finden [&#x200B; unter &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=de) Practices für die Leistung .
+Weitere Informationen finden [ unter ](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html) Practices für die Leistung .
 
 >[!NOTE]
 >
@@ -118,7 +124,7 @@ Weitere Informationen finden [&#x200B; unter &#x200B;](https://experienceleague.
 
    ![Erweiterte Konfiguration - CSS-Einstellungen](../configuration-reference/advanced/assets/developer-css-settings.png){width="600" zoomable="yes"}
 
-[_CSS_Settings](../configuration-reference/advanced/developer.md)
+   [_CSS-Einstellungen_](../configuration-reference/advanced/developer.md)
 
 1. Um JavaScript-Dateien zu optimieren, erweitern ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL JavaScript Settings]** und führen Sie folgende Schritte aus:
 
@@ -135,15 +141,15 @@ Weitere Informationen finden [&#x200B; unter &#x200B;](https://experienceleague.
 
 ## Client-Einschränkungen
 
-Auf die Zulassungsliste setzen Bevor Sie ein Tool wie [Vorlagenpfadhinweise](#template-path-hints) verwenden, fügen Sie Ihre IP-Adresse zur Seite „Client-Einschränkungen für Entwickler“ hinzu, um zu vermeiden, dass das Einkaufserlebnis der Kunden im Store beeinträchtigt wird. Wenn Sie Ihre IP-Adresse nicht kennen, können Sie online danach suchen.
+Bevor Sie ein Tool wie [Vorlagenpfadhinweise](#template-path-hints) verwenden, fügen Sie Ihre IP-Adresse zur Seite „Client-Einschränkungen für Entwickler“ hinzu, um zu vermeiden, dass das Einkaufserlebnis der Kunden im Store beeinträchtigt wird. Wenn Sie Ihre IP-Adresse nicht kennen, können Sie online danach suchen.
 
 >[!NOTE]
 >
 >Client-Einschränkungen für Entwickler können nur im [Entwicklermodus](../systems/developer-tools.md#operation-modes) festgelegt werden.
 
-Technische Informationen finden Sie unter [Benutzerdefinierte VCL zum Zulassen von Anfragen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html?lang=de) im _Handbuch zu Commerce in Cloud-Infrastrukturen_.
+Technische Informationen finden Sie unter [Benutzerdefinierte VCL zum Zulassen von Anfragen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-allowlist.html) im _Handbuch zu Commerce in Cloud-Infrastrukturen_.
 
-**_So fügen Sie Ihre IP-Adresse zur Zulassungsliste hinzu:_**
+**_So fügen Sie Ihre IP-Adresse zur hinzu:_**
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -173,7 +179,7 @@ Siehe [Suchen von Vorlagen, Layouts und Stilen](https://developer.adobe.com/comm
 
 ![Beispiel-Storefront - Hinweise auf Vorlagenpfade](./assets/storefront-template-path-hints.png){width="700" zoomable="yes"}
 
-### Auf die Zulassungsliste setzen Schritt 1: Hinzufügen der IP-Adresse zur
+### Schritt 1: Hinzufügen der IP-Adresse zur
 
 Bevor Sie Hinweise für Vorlagenpfade verwenden, fügen Sie Ihre IP-Adresse zur Zulassungsliste [hinzu](#client-restrictions) um Interferenzen mit Kunden zu vermeiden, die im Geschäft einkaufen. Wenn Sie fertig sind, stellen Sie sicher, dass Sie den Commerce-Cache löschen, um alle Hinweise aus dem Store zu entfernen.
 

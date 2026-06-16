@@ -2,9 +2,15 @@
 title: Lager und Quellen
 description: Erfahren Sie mehr über die Beziehungen zwischen Produkten, Quellen und Lagern.
 exl-id: 01bbbd82-898b-4757-ab40-0d8b89ec59bc
-source-git-commit: 7288a4f47940e07c4d083826532308228d271c5e
+TQID: https://experienceleague.adobe.com/3nQssDNA41zHJH0SCN6VdMqqfbHCeyc6K0B91-BF8Kc
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: 809
 ht-degree: 0%
 
 ---
@@ -29,7 +35,7 @@ In diesem Beispiel verfügt der Händler über ein Mountainbike, das in Geschäf
 
 [Stocks](stocks-manage.md) stellt ein virtuelles, aggregiertes Inventar von Produkten dar, die für Ihre Vertriebskanäle (Websites) zum Verkauf angeboten werden. Jedes Lager ordnet Ihre Vertriebskanäle den Quellen für verfügbare Lagerbestände und Verkaufsmengen zu. Abhängig von Ihrer Site-Konfiguration kann das Lager einem oder mehreren Vertriebskanälen und Quellen zugewiesen werden.
 
-Sales Channel stellen Entitäten dar, die Ihren Bestand verkaufen, einschließlich Websites, Shop-Ansichten, B2B-Kundengruppen usw. Vertriebskanäle können nur einem Lager zugeordnet werden. Jedem Verkaufskanal kann nur ein Lager zugewiesen werden, und ein einzelnes Lager kann mehreren Websites zugewiesen werden. Über den Bestand können Sie die Priorisierung der beim Versand von Bestellungen verwendeten Quellen und den [Source-Auswahlalgorithmus](selection-reservations.md) ändern.
+Vertriebskanäle stellen Entitäten dar, die Ihren Bestand verkaufen, einschließlich Websites, Storeansichten, B2B-Kundengruppen usw. Vertriebskanäle können nur einem Lager zugeordnet werden. Jedem Verkaufskanal kann nur ein Lager zugewiesen werden, und ein einzelnes Lager kann mehreren Websites zugewiesen werden. Über den Bestand können Sie die Priorisierung der beim Versand von Bestellungen verwendeten Quellen und den [Source-Auswahlalgorithmus](selection-reservations.md) ändern.
 
 Sie beginnen mit einem Standardlager, das mit der standardmäßigen Source und Ihrer Website zugewiesen wird und am besten von Einzelhändler verwendet wird. Diesem Lager kann nur die Standard-Source zugewiesen werden. Händler, die mehrere Quellen nutzen, erstellen nach Bedarf benutzerdefinierte Lager für benutzerdefinierte Quellen und Websites.
 
@@ -39,18 +45,18 @@ Sie beginnen mit einem Standardlager, das mit der standardmäßigen Source und I
 
 Die Menge ist die Anzahl der Produkte im aktiven Bestand, die zum Kauf verfügbar sind. Die Produktmenge erhöht sich und verringert sich, wenn Sie Lieferungen abschließen oder den Bestand anpassen. Das Hinzufügen von Produkten zu einem Warenkorb wirkt sich nicht auf diesen Betrag aus. Die Verkaufsmenge verfolgt die Verfügbarkeit des Produkts für einen Verkaufskanal und verwendet diesen Wert auch für die Ermittlung des verfügbaren Lagerbestands für den Kauf. Je nach Anzahl Ihrer Quellen können Sie die Produktmenge für eine der folgenden Aktionen anzeigen und verwalten:
 
-- **Menge** - Bei Händlern mit einer einzigen Quelle verfolgen die _[!UICONTROL Quantity]_&#x200B;Spalte und der Wert die Menge des verfügbaren Lagerbestands.
-- **Menge pro Source** - Bei Händlern mit mehreren Bezugsquellen verfolgen die _[!UICONTROL Quantity per Source]_&#x200B;und -werte den verfügbaren Lagerbestand nach Standort. Wenn Sie mehrere Quellen hinzufügen, ersetzt dieser Wert die Menge und listet alle Quellen und zugewiesenen Mengen auf.
+- **Menge** - Bei Händlern mit einer einzigen Quelle verfolgen die _[!UICONTROL Quantity]_Spalte und der Wert die Menge des verfügbaren Lagerbestands.
+- **Menge pro Source** - Bei Händlern mit mehreren Bezugsquellen verfolgen die _[!UICONTROL Quantity per Source]_und -werte den verfügbaren Lagerbestand nach Standort. Wenn Sie mehrere Quellen hinzufügen, ersetzt dieser Wert die Menge und listet alle Quellen und zugewiesenen Mengen auf.
 
 Reservierungen verfolgen Lageranfragen für den gesamten Einkaufsprozess - Hinzufügen von Produkten zum Warenkorb, Abschließen des Checkouts und Verwalten von Rückerstattungen. Für verfügbare Lagerbestände und Lagerreservierungen reservieren Sie Lagerbestände pro Bestellung durch den Checkout-Prozess, abgezogen von der Verkaufsmenge. Reservierungen wandeln bei der Fakturierung und dem Versand von Produkten Mengenabzüge um.
 
-Verkaufsmenge : Berechnet den virtuellen Bestand an Produkten (oder deren Verfügbarkeit) unter Verwendung konfigurierter Schwellenwerte, reservierter oder verkaufter Mengen und Mengen pro Quelle. Für jeden Bestand greift [!DNL Commerce] auf alle zugeordneten Quellen und Aggregate der zugehörigen Produktmengen zu. Mit diesem Basiswert werden dann alle Reservierungsbeträge und der _[!UICONTROL Notify for Quantity Below]_&#x200B;abgezogen.
+Verkaufsmenge : Berechnet den virtuellen Bestand an Produkten (oder deren Verfügbarkeit) unter Verwendung konfigurierter Schwellenwerte, reservierter oder verkaufter Mengen und Mengen pro Quelle. Für jeden Bestand greift [!DNL Commerce] auf alle zugeordneten Quellen und Aggregate der zugehörigen Produktmengen zu. Mit diesem Basiswert werden dann alle Reservierungsbeträge und der _[!UICONTROL Notify for Quantity Below]_abgezogen.
 
 ![Verkaufsmenge für einen Bestand berechnen](assets/diagram-salable-quantity.png){width="600" zoomable="yes"}
 
 ## Bestandskonfigurationen
 
-Jedes Produkt, jede Quelle und jedes Lager umfasst mehrere Optionen zum Konfigurieren für Ihren Store auf globaler, Quell-, Lager- und Produktebene. Eine vollständige Liste dieser Optionen finden Sie unter [&#x200B; von Inventory management](configuration.md).
+Jedes Produkt, jede Quelle und jedes Lager umfasst mehrere Optionen zum Konfigurieren für Ihren Store auf globaler, Quell-, Lager- und Produktebene. Eine vollständige Liste dieser Optionen finden Sie unter [ von Inventory management](configuration.md).
 
 Die folgenden Optionen sind für [!DNL Inventory Management] wichtig:
 
@@ -65,4 +71,4 @@ Die folgenden Optionen sind für [!DNL Inventory Management] wichtig:
 
 In diesem Video erfahren Sie mehr über Inventory management-Quellen und -Stocks:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411976?quality=12&learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)

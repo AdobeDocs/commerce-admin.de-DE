@@ -1,11 +1,18 @@
 ---
 title: Mehrwertsteuer (MwSt.)
-description: Beschreibung hinzufügen&gt;
+description: <Hier Beschreibung hinzufügen>
 exl-id: 20dbcb86-e558-47f2-968d-b5c9ec5f665b
 feature: Taxes
-source-git-commit: cace9d1de00955494d8bc607c017778ff7df4806
+TQID: https://experienceleague.adobe.com/CEUmSPDUdWxMGWRC4bXjSsBfuYJqkPNYtVx-mqxt1-M
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2: id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: 2021
 ht-degree: 0%
 
 ---
@@ -201,7 +208,7 @@ Wenn die Validierung der MwSt.-ID aktiviert ist, wird jedem Kunden nach der Regi
 
 Nachdem ein Kunde die MwSt.-Nummer und andere Adressfelder angegeben und die Speicherung ausgewählt hat, speichert das System die Adresse und sendet die MwSt.-ID-Validierungsanfrage an den Server der Europäischen Kommission. Gemäß den Ergebnissen der Validierung wird einem Kunden eine der Standardgruppen zugewiesen. Diese Gruppe kann geändert werden, wenn ein Kunde oder Administrator die MwSt.-Kennung der Standardadresse ändert oder die gesamte Standardadresse ändert. Manchmal kann die Gruppe beim einseitigen Auschecken vorübergehend geändert (Gruppenänderung wird emuliert) werden.
 
-Wenn diese Option aktiviert ist, können Sie die Validierung der MwSt.-ID für einzelne Kunden überschreiben, indem Sie das Kontrollkästchen auf der Seite _[!UICONTROL Customer Information]_&#x200B;aktivieren.
+Wenn diese Option aktiviert ist, können Sie die Validierung der MwSt.-ID für einzelne Kunden überschreiben, indem Sie das Kontrollkästchen auf der Seite _[!UICONTROL Customer Information]_aktivieren.
 
 ### Checkout-Workflow
 
@@ -223,7 +230,7 @@ Die folgenden Beispiele zeigen, wie Steuerklassen und -sätze für die MwSt.-ID-
 
 | #1 der Steuerregel |  |
 |--- |--- |
-| Debitorensteuerklasse | Kundensteuerklassen müssen Folgendes umfassen: <br />A-Klasse für inländische Kunden. <br />Eine Klasse für Kunden mit falsch formatierten MwSt.-IDs.<br />Eine Klasse für Kunden, bei denen die Validierung der MwSt.-ID fehlgeschlagen ist. |
+| Debitorensteuerklasse | Kundensteuerklassen müssen Folgendes umfassen: <br />A-Klasse für inländische Kunden. <br />Eine Klasse für Kunden mit falsch formatierten MwSt.-IDs.<br />Eine Klasse für Kunden, deren MwSt.-ID-Validierung fehlgeschlagen ist. |
 | Produkt-Steuerklasse | Produktsteuerklassen müssen eine Klasse für Produkte aller Typen, mit Ausnahme von Paketen und virtuellen Produkten, enthalten. |
 | Steuersatz | Der Steuersatz muss den Mehrwertsteuersatz des Landes enthalten, in dem der Händler ansässig ist. |
 
@@ -275,7 +282,7 @@ Jede Steuerregel wird von drei Entitäten definiert:
 Erstellen Sie die [Steuerregeln](tax-rules.md), um die MwSt.-ID-Validierung effektiv zu verwenden.
 
 - Zu den Steuervorschriften gehören Steuersätze und [Steuerklassen](tax-class.md).
-- Steuerklassen werden „Kundengruppen[&#x200B; zugeordnet](../customers/customer-groups.md).
+- Steuerklassen werden „Kundengruppen[ zugeordnet](../customers/customer-groups.md).
 
 #### Schritt 3: Validierung der MwSt.-ID aktivieren und konfigurieren
 

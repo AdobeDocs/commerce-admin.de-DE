@@ -3,16 +3,22 @@ title: Optionen für Kundennamen und Adressen
 description: Die Optionen Kundenname und Adresse bestimmen, welche Felder in den Namen- und Adressformularen enthalten sind.
 exl-id: 28949cfc-2c96-4d0a-a35b-b37b3aa2d1e9
 feature: Customers, Configuration
-source-git-commit: 7de285d4cd1e25ec890f1efff9ea7bdf2f0a9144
+TQID: https://experienceleague.adobe.com/qMXVcVWZJCrCNywOJF3psuO5vLWkNt9LoNtgFfFBzT8
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: 809
 ht-degree: 0%
 
 ---
 
 # Optionen für Kundennamen und Adressen
 
-Die _Name- und Adressoptionen_ bestimmen, welche Felder in den Namen- und Adressformularen enthalten sind, wenn Kundinnen und Kunden ein ([) &#x200B;](../customers/account-create.md) Ihrem Geschäft erstellen.
+Die _Name- und Adressoptionen_ bestimmen, welche Felder in den Namen- und Adressformularen enthalten sind, wenn Kundinnen und Kunden ein ([) ](../customers/account-create.md) Ihrem Geschäft erstellen.
 
 ![Anmeldeformular für Kundenkonto](assets/storefront-customer-account-address-book.png){width="500" zoomable="yes"}
 
@@ -41,7 +47,7 @@ Sie können die Namen- und Adressoptionen konfigurieren, die Kunden in der Store
 
    >[!INFO]
    >
-   >Der Abschnitt _[!UICONTROL Name and Address Options]_&#x200B;wird nicht angezeigt, wenn der Bereich auf `Default Store View` festgelegt ist.
+   >Der Abschnitt _[!UICONTROL Name and Address Options]_wird nicht angezeigt, wenn der Bereich auf `Default Store View` festgelegt ist.
 
    ![Konfigurationsbereich](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 
@@ -75,7 +81,7 @@ Sie können die Namen- und Adressoptionen konfigurieren, die Kunden in der Store
 
 1. Klicken Sie in der Meldung oben auf der Seite auf **[!UICONTROL Cache Management]** und [aktualisieren](../systems/cache-management.md) auf jeden ungültigen Cache.
 
-## Konfigurieren von Name- und Adressoptionen für die Magento Open Source
+## Konfigurieren von Name- und Adressoptionen für Magento Open Source
 
 Konfigurieren Sie die Namen- und Adressoptionen, die Kundinnen und Kunden in der Storefront angezeigt werden, wenn sie ihr Konto erstellen.
 
@@ -120,7 +126,7 @@ Konfigurieren Sie die Namen- und Adressoptionen, die Kundinnen und Kunden in der
    >
    >Standardmäßig umfasst die Straßenadresse drei Zeilen.
 
-1. Um ein Präfix (z. B. Herr oder Frau) als Teil des Namens einzufügen, setzen Sie **Präfix anzeigen** auf `Yes`.
+1. So fügen Sie ein Präfix ein (z. B. Herr oder Frau) Legen Sie als Teil des Namens **Präfix anzeigen** auf `Yes` fest.
 
    ![Präfix im Formular für die Kundenanmeldung](assets/storefront-customer-account-prefix.png){width="600" zoomable="yes"}
 
@@ -130,7 +136,7 @@ Konfigurieren Sie die Namen- und Adressoptionen, die Kundinnen und Kunden in der
 
 1. Um ein optionales Feld für den zweiten oder ersten Vornamen des Kunden einzuschließen, setzen Sie **[!UICONTROL Show Middle Name (initial)]** auf `Yes`.
 
-1. Um ein Suffix einzuschließen (z. B. Jr. oder Sr.) nach dem Kundennamen setzen Sie **[!UICONTROL Show Suffix]** auf eine der folgenden Einstellungen:
+1. Um ein Suffix einzuschließen (z. B. Jr. oder Sr.) Legen Sie **[!UICONTROL Show Suffix]** nach dem Kundennamen auf einen der folgenden Werte fest:
 
    - `Optional`
    - `Required`
