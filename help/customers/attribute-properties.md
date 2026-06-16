@@ -189,4 +189,4 @@ Kundenattribute liefern die Informationen, die zur Unterstützung der Auftrags-,
 
 Sehen Sie sich dieses Video an, um zu demonstrieren, wie Sie Kundenattribute erstellen:
 
->[!VIDEO](https://video.tv.adobe.com/v/343661?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411969?captions=ger&quality=12&learn=on)
