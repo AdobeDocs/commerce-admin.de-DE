@@ -3,7 +3,7 @@ title: Konfigurieren von Ereignissen
 description: Erfahren Sie, wie Sie die Basiskonfiguration abschließen, um Ereignisse zu aktivieren und den Ereignisblock in der Seitenleiste der Storefront einzurichten.
 exl-id: 620b2d60-ce6f-4f31-93bb-18d3dd9cdce6
 feature: Marketing Tools, Promotions/Events
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/nALbSUw8Agac54QLSV4bdCLPse53VywtlMiydvL1L8w
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

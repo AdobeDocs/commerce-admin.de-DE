@@ -3,7 +3,7 @@ title: Neuschreibungen der Produkt-URL
 description: Erfahren Sie, wie Sie Produkt-URL-Neuschreibungen verwenden, um Links zur URL eines anderen Produkts in Ihrem Commerce Store umzuleiten.
 exl-id: 42b28ff7-e148-44f2-b6b4-63a38458e752
 feature: Products, Configuration
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/Gf-FKoKTnWSHVNB2EsutTTQEc7KL-sL3z8LklPF-1Z8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -32,7 +32,7 @@ ht-degree: 2%
 
 ![Kategorieoptionen](./assets/xml-sitemap-categories-options.png)<!-- zoom -->
 
-<!-- [Categories Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Categories Options](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 ![Produktoptionen](./assets/xml-sitemap-products-options.png)<!-- zoom -->
 
-<!-- [Products Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Products Options](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 ![Optionen für CMS-Seiten](./assets/xml-sitemap-cms-pages-options.png)<!-- zoom -->
 
-<!-- [CMS Pages Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [CMS Pages Options](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -81,7 +81,7 @@ ht-degree: 2%
 
 ![Erzeugungseinstellungen](./assets/xml-sitemap-generation-settings.png)<!-- zoom -->
 
-<!-- [Generation Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Generation Settings](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 ![Sitemap-Dateibeschränkungen](./assets/xml-sitemap-sitemap-file-limits.png)<!-- zoom -->
 
-<!-- [Sitemap File Limits](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Sitemap File Limits](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -112,7 +112,7 @@ ht-degree: 2%
 
 ![Einstellungen für die Suchmaschinenübermittlung](./assets/xml-sitemap-search-engine-submission-settings.png)<!-- zoom -->
 
-<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/sitemap-xml) -->
+<!-- [Search Engine Submission Settings](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/seo/sitemap-xml) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

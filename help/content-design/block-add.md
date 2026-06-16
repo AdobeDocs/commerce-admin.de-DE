@@ -2,7 +2,7 @@
 title: Inhaltsbausteine hinzufügen
 description: Erstellen Sie benutzerdefinierte Inhaltsblöcke, die Sie auf einer beliebigen Seite oder in einem anderen Block wiederverwenden können.
 exl-id: 2f104d77-a1d1-4f10-82ce-014955fe560b
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/9ToI71n7HPsSKQWgldcHXJQsfEcQOPU-76BXCYMrKdY
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

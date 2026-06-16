@@ -2,7 +2,7 @@
 title: Widgets
 description: Erfahren Sie mehr über Widgets, die ein Code-Fragment bereitstellen, mit dem Sie eine breite Palette von Inhalten anzeigen und bei bestimmten Blockreferenzen in Ihrem Store platzieren können.
 exl-id: 993ba2ca-a8de-4f7e-8cab-7ba7d16eebe7
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/ov5Wt8dIf--1UoXqFtv-NiAaEVL97UaQodxU4bGe8zo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

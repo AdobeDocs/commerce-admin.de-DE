@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Ein [!DNL Commerce]-Konto ist Ihr zentraler Zugriffspunkt für die Verwaltung von Adobe Commerce-Services für Adobe Commerce-Projekte, die in der Cloud-Infrastruktur oder lokal bereitgestellt werden. Über das Konto-Dashboard können Sie Abonnements anzeigen, Commerce Services-API-Schlüssel verwalten, historische Rechnungsinformationen überprüfen und mit anderen Benutzenden in Ihrem Unternehmen zusammenarbeiten.
 
-Wenn Sie Ihr erstes [&#x200B; einreichen oder &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) Adobe Commerce-Beziehung verwalten müssen, anstatt in einer bestimmten Storefront zu arbeiten, erstellen oder greifen Sie zunächst auf Ihr [!DNL Commerce]-Konto zu.
+Wenn Sie Ihr erstes [&#x200B; einreichen oder &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) Adobe Commerce-Beziehung verwalten müssen, anstatt in einer bestimmten Storefront zu arbeiten, erstellen oder greifen Sie zunächst auf Ihr [!DNL Commerce]-Konto zu.
 
 Sie können über die [!DNL Commerce]-Website auf Ihr [!DNL Commerce]-Konto zugreifen. Im Konto-Dashboard können Sie Informationen zu den von Ihnen erworbenen Produkten und Services anzeigen und anderen Benutzern [freigegebenen Zugriff](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) gewähren. Einige Informationen, z. B. Commerce Services-API-Schlüssel, sind nur für Lizenzinhaber sichtbar.
 
@@ -123,7 +123,7 @@ Jeder kann ein kostenloses [!DNL Commerce] Konto erstellen. Die von Ihnen verwen
 
 Mit Shared Access können Sie vertrauenswürdigen Benutzenden (z. B. Kollegen, Partnern oder Administratoren) die Berechtigung erteilen, Ihre Adobe Commerce-Beziehung in Ihrem Namen zu verwalten, ohne Ihre persönliche Anmeldung zu verwenden. Dazu gehört auch, anderen das Öffnen und Verfolgen von Support-Fällen zu ermöglichen.
 
-Im Abschnitt [Freigeben eines Commerce-](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en)&quot; in den ersten Schritten mit Adobe Commerce finden Sie ausführliche Schritte zum Einrichten eines freigegebenen Kontos.
+Im Abschnitt [Freigeben eines Commerce-](https://experienceleague.adobe.com/de/docs/commerce-admin/start/commerce-account/commerce-account-share?lang=en)&quot; in den ersten Schritten mit Adobe Commerce finden Sie ausführliche Schritte zum Einrichten eines freigegebenen Kontos.
 
 Detaillierte Anweisungen zum Senden eines Commerce-Support-Falls finden Sie im [Benutzerhandbuch für das Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
 

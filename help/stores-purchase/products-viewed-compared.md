@@ -3,7 +3,7 @@ title: Kürzlich angesehene oder verglichene Produkte
 description: Erfahren Sie, wie Sie die Inhaltsbausteine der Storefronts für kürzlich angesehene und verglichene Produkte konfigurieren.
 exl-id: a4580835-68c2-4eb0-825e-0939eeab921b
 feature: Products, Storefront
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/YeayJ1RkE6Muq0wNnd6KAQmmZcyjTQrSZOqEltlj8T8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

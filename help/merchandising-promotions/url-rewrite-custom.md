@@ -3,7 +3,7 @@ title: Benutzerdefinierte URL-Neuschreibungen
 description: Erfahren Sie, wie Sie benutzerdefinierte URL-Neuschreibungen verwenden können, um verschiedene Weiterleitungen in Ihrem Commerce-Store zu verwalten.
 exl-id: b15054be-e463-48e6-b6c1-0a8a2141cc01
 feature: Search, Configuration
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/S79sN1Z6sEUM0IsAv525-RvGmLn7ajkwK7P7hE1Mhrc
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -2,7 +2,7 @@
 title: Dynamische Blöcke
 description: Verwenden Sie dynamische Blöcke, um umfangreiche, interaktive Inhalte zu erstellen, die von der Logik der Preisregeln und Kundensegmente gesteuert werden.
 exl-id: 0c842ad9-2e46-48aa-9a12-2f74a54c352e
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/Xbv5IqrZPF2xDERIGOFilHgiXKAyy8yxyXISRj17s0A
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

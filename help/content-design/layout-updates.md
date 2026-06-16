@@ -2,7 +2,7 @@
 title: Layout-Aktualisierungen
 description: Erfahren Sie, wie Sie mit Layout-Aktualisierungen das Layout einer Seite anpassen können.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/PjeNmdtN39seTDCdzbt8K7DhoRZgFB3PksoKTJaFLsk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

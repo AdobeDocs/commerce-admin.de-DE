@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ![Checkout-Optionen](./assets/checkout-checkout-options.png)<!-- zoom -->
 
-<!--[Checkout Options](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process#checkout-options) -->
+<!--[Checkout Options](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-process#checkout-options) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |------------------------------------------------------------------|--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ![Einkaufswagen](./assets/checkout-shopping-cart.png)<!-- zoom -->
 
-<!--[Shopping Cart](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration) -->
+<!--[Shopping Cart](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ![Mein Warenkorb-Link](./assets/checkout-my-cart-link.png)<!-- zoom -->
 
-<!-- [*My Cart Link*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
+<!-- [*My Cart Link*](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ![Mini-Warenkorb](./assets/checkout-mini-cart.png)<!-- zoom -->
 
-<!-- [*Mini Cart*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
+<!-- [*Mini Cart*](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart-configuration#mini-cart) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ![Fehlgeschlagene E-Mails](./assets/checkout-payment-failed-emails.png)<!-- zoom -->
 
-<!-- [*Payment Failed Emails*](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails) -->
+<!-- [*Payment Failed Emails*](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/point-of-purchase/checkout/checkout-payment-failed-emails) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

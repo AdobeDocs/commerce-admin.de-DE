@@ -3,7 +3,7 @@ title: Neuschreibungen der Kategorie-URL
 description: Erfahren Sie, wie Sie Kategorie-URL-Neuschreibungen verwenden, um Links zur URL einer anderen Kategorie in Ihrem Commerce Store umzuleiten.
 exl-id: fc18f472-4aa8-4203-ade9-7ca576689d61
 feature: Categories, Configuration
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/pIcBllfXpvaTiAJJFL8kpeU62krmeC1LJ4xKf-9Kr08
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

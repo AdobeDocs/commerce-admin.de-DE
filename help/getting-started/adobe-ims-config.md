@@ -51,7 +51,7 @@ Diese Integration unterstützt Commerce-Händler mit Admin-Benutzern, die über 
 
 Der Administrator, der diese Integration konfiguriert, benötigt während der Aktivierung des Moduls die folgenden Anmeldeinformationen:
 
-* Organisations-ID (bezogen von [Adobe Admin Console](https://adminconsole.adobe.com/)), die mindestens 24 Zeichen lang sein muss. Der authentifizierte Benutzer muss zu dieser IMS-Organisation gehören. Informationen zum Ermitteln Ihrer Organisations-ID finden Sie unter [Organisationen in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+* Organisations-ID (bezogen von [Adobe Admin Console](https://adminconsole.adobe.com/)), die mindestens 24 Zeichen lang sein muss. Der authentifizierte Benutzer muss zu dieser IMS-Organisation gehören. Informationen zum Ermitteln Ihrer Organisations-ID finden Sie unter [Organisationen in Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de).
 * 2FA sollte auf Organisationsebene in Adobe Admin Console erzwungen werden, um das Modul zu aktivieren. Überprüfen Sie [Authentifizierungseinstellungen](https://helpx.adobe.com/enterprise/using/authentication-settings.html#two-step-verification).
 * Client-ID
 * Client-Geheimnis

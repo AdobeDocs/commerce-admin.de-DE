@@ -3,7 +3,7 @@ title: '[!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Admin Panel]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Security] > [!UICONTROL Google reCAPTCHA Admin Panel] des Commerce Admin.
 exl-id: e4e6771a-487a-43ee-8b98-6acee4599aaf
 feature: Configuration, Security
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/hUSNxEvyF010uV6Rp4-osf4azLHtOxtTBSR-XW2m1fA
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

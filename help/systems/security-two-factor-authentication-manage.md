@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die Zwei-Faktor-Authentifizierung verwalten u
 exl-id: 68256214-2d50-4c42-846f-306ffc305f25
 role: Admin
 feature: Configuration, Security, User Account
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/aE-36667-f0E4GSXDjZZmFUkS3wa-xTLUMbVtjwS6qk
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

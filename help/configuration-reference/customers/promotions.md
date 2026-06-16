@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ![Regeln für automatische E-Mail-Erinnerungen](./assets/promotions-automated-email-reminder-rules.png)<!-- zoom -->
 
-<!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
+<!-- [Automated Email Reminder Rules](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/communications/email-reminders/email-reminder-rules#configure-email-reminders) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ![Automatisch generierte spezifische Gutscheincodes](./assets/promotions-auto-generated-specific-coupon-codes.png)<!-- zoom -->
 
-<!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
+<!-- [Auto Generated Specific Coupon Codes](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#configure-coupon-codes)  -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

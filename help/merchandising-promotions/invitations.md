@@ -3,7 +3,7 @@ title: Ereigniseinladungen
 description: Erfahren Sie, wie Kunden über das Dashboard ihrer Kundenkonten Einladungen zu Veranstaltungen und privaten Verkäufen senden und anzeigen können.
 exl-id: 6a9123a0-bdb4-4cd6-99cd-658f728aa90c
 feature: Promotions/Events, Communications
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/3UEoAOAfcoM6obqizRsQkgBv-C3hi98rMjO6rPGHuL0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

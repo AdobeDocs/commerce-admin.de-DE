@@ -3,7 +3,7 @@ title: Kategorieregeln für Merchandising
 description: Erfahren Sie, wie Sie eine Regel erstellen, um die Produktauswahl entsprechend einem Satz von Bedingungen dynamisch zu ändern.
 exl-id: 765b863a-bb83-418b-9fca-ef0a148b09eb
 feature: Categories, Merchandising
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/Be3PacClITSThEtPIbG7NcxdrmZj7hoCTxTDAqRYN1E
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

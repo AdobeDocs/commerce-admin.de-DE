@@ -66,7 +66,7 @@ Verwenden Sie für die Ersteinrichtung die Standardregel *Übereinstimmung nach 
 
 1. Geben Sie die **[!UICONTROL Asset Selector IMS Client ID]** ein.
 
-   Die [Asset-Selektor-IMS](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props)Client-ID) wird vom [!UICONTROL Assets Selector] benötigt, einer AEM Assets-Funktion, mit der Benutzende visuelle Assets direkt in Commerce-Produktseiten einbetten können.
+   Die [Asset-Selektor-IMS](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/asset-selector/asset-selector-integration/integrate-asset-selector-adobe-app#ims-auth-props)Client-ID) wird vom [!UICONTROL Assets Selector] benötigt, einer AEM Assets-Funktion, mit der Benutzende visuelle Assets direkt in Commerce-Produktseiten einbetten können.
 
 1. Wählen Sie die [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) für die Authentifizierung von Anfragen zwischen Commerce und dem Asset Matching-Service aus.
 

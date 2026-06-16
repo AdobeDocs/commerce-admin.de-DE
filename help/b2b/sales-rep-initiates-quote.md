@@ -44,7 +44,7 @@ Ein Vertriebsmitarbeiter kann ein Angebot aus dem Angebots- oder Kundenraster er
 
 >[!NOTE]
 >
->Eine Videodemo eines Verkäufers, in der ein Angebot für einen Käufer erstellt wird, finden Sie unter [Der Vertriebsmitarbeiter initiiert das Angebot](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html) in _Commerce-Videos und -Tutorials_.
+>Eine Videodemo eines Verkäufers, in der ein Angebot für einen Käufer erstellt wird, finden Sie unter [Der Vertriebsmitarbeiter initiiert das Angebot](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote.html?lang=de) in _Commerce-Videos und -Tutorials_.
 
 ### Erstellen eines Angebots aus dem Anführungsraster
 

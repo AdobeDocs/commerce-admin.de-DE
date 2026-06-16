@@ -98,6 +98,6 @@ In diesem Video erfahren Sie mehr über Inhalts-Staging:
 
 Hilfe bei der Fehlerbehebung bei Problemen mit der Inhalts-Staging-Umgebung finden Sie in den folgenden Artikeln der [!DNL Commerce]-Support-Wissensdatenbank:
 
-- [Fehler 404 auf allen Seiten aufgrund eines Problems mit der Inhaltserstellung](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html)
+- [Fehler 404 auf allen Seiten aufgrund eines Problems mit der Inhaltserstellung](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.html?lang=de)
 - [Geplante Staging-Aktualisierungen von Inhalten werden nicht mit veraltetem Fastly-Cache angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.html)
-- [Kann ich Aktualisierungen der Inhalts-Staging-Umgebung für Preise in einem freigegebenen Katalog planen?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html)
+- [Kann ich Aktualisierungen der Inhalts-Staging-Umgebung für Preise in einem freigegebenen Katalog planen?](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.html?lang=de)

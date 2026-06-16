@@ -71,7 +71,7 @@ Sie können Instant Purchase mit Braintree oder Payment Services für Adobe Comm
 Erfahren Sie, wie Sie die Zahlungsmethode konfigurieren und Vaulting für Braintree oder Payment Services aktivieren:
 
 - [Braintree](braintree.md)
-- [Dokumentation zu Zahlungs-Services](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html)
+- [Dokumentation zu Zahlungs-Services](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=de)
 
 ### Schritt 3: Sofortigen Kauf aktivieren
 

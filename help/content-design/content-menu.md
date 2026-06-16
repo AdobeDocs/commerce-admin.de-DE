@@ -2,7 +2,7 @@
 title: Menü [!UICONTROL Content]
 description: Verwenden Sie das Menü [!UICONTROL Content] , um auf mehrere Funktionen zum Verwalten des Inhalts in Ihrem Store zuzugreifen.
 exl-id: 4e149836-f13c-4240-8700-882f2fc1619a
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/UTh5IKGTXZUcSXGQvP7rHtja8EnEELc75EPpvPvSD3E
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -33,13 +33,13 @@ ht-degree: 0%
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 ![Das im Admin angezeigte [!UICONTROL Content]-Menü](./assets/admin-menu-content.png){width="400" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 ![Das im Admin angezeigte [!UICONTROL Content]-Menü](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"}
 

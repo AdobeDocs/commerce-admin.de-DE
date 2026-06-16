@@ -3,7 +3,7 @@ title: Speichern einer Adobe Stock-Bildvorschau
 description: Bildvorschauen sind kostenlos und eine gute Möglichkeit, mit verschiedenen Adobe Stock-Bildern zu experimentieren, bevor Sie sich für den Kauf einer Lizenz entscheiden.
 exl-id: 148d8445-fbbb-4f27-8de8-d8c1943d2afe
 feature: CMS, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/AsWG5XAAHFaj5L1I-gpUimcbVGgxZ1SFPeHA2zzNlrw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

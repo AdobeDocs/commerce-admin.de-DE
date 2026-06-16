@@ -196,4 +196,4 @@ Darüber hinaus sollten Sie [die Konfiguration der Admin-Basis](https://experien
 
 >[!NOTE]
 >
->Wenn ein Verstoß vermutet wird, entfernen Sie alle unbekannten Admin-Benutzer und setzen Sie alle Admin-Kennwörter zurück. Überprüfen Sie [Sicherheits-Aktionsplan](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security) auf weitere Schritte.
+>Wenn ein Verstoß vermutet wird, entfernen Sie alle unbekannten Admin-Benutzer und setzen Sie alle Admin-Kennwörter zurück. Überprüfen Sie [Sicherheits-Aktionsplan](https://experienceleague.adobe.com/de/docs/commerce-admin/systems/security/security) auf weitere Schritte.

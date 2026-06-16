@@ -3,7 +3,7 @@ title: PayPal-Zahlungsstandard
 description: Erfahren Sie, wie Sie PayPal Payments Standard als Online-Zahlungslösung in Ihrem Geschäft einrichten.
 exl-id: b4024dac-34d7-4f1a-ad9d-0fc406194609
 feature: Payments
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/Cn4Fx-2iPKw828MK2lH8lFDsUX4fC7rsYDx6V8L-6Mw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -3,7 +3,7 @@ title: Private Verkäufe und Veranstaltungen
 description: Erfahren Sie, wie Sie mit privaten Verkäufen und anderen Katalogereignissen den Umsatz für Ihren bestehenden Kundenstamm steigern und neue Leads generieren können.
 exl-id: 0b890463-b1e5-4327-8d8a-372afd53312a
 feature: Reporting, Promotions/Events
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/8MvnlOp5muOQbx3b7dSKguc4wf-k47v9AtaHXu7b9pU
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

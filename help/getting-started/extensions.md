@@ -173,4 +173,4 @@ Setup-Anweisungen und technische Details finden Sie im [[!DNL Catalog Service] B
 
 [!DNL Payment Services] ist eine schlüsselfertige Zahlungslösung für Adobe Commerce und Magento Open Source Stores, die umfangreiche Zahlungsabwicklungsfunktionen bietet. Der Service integriert sichere Zahlungs-Gateway-Funktionen mit integriertem Betrugsschutz und bietet mehrere Zahlungsoptionen, einschließlich Kredit-/Debitkarten, PayPal, Venmo (US) und PayLater-Pläne. Sie bietet einheitliche Transaktionsberichte und ein einheitliches Auftragsmanagement über die Commerce Admin Interface, sodass Händler Zahlungen einfach verfolgen, Cashflows verwalten und Finanzdaten an einem Ort abstimmen können.
 
-Detaillierte Konfigurationsschritte und Zahlungsoptionen finden Sie im [[!DNL Payment Services] Benutzerhandbuch](https://experienceleague.adobe.com/en/docs/commerce/payment-services/overview).
+Detaillierte Konfigurationsschritte und Zahlungsoptionen finden Sie im [[!DNL Payment Services] Benutzerhandbuch](https://experienceleague.adobe.com/de/docs/commerce/payment-services/overview).

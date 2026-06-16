@@ -3,7 +3,7 @@ title: Entwickler-Tools
 description: Erfahren Sie mehr über die erweiterten Entwickler-Tools, die Entwicklern zur Verfügung stehen, die an Anpassungsprojekten arbeiten.
 exl-id: 34529aa9-201f-4817-b53b-a15b6a78a923
 role: Admin, Developer
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/l7Ub5CCeiR6ec3PiRkVXXaVyPaqDMJLf5TqKpIvL7T8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -77,7 +77,7 @@ Siehe [Client-seitige LESS-Kompilierung vs. Server-seitig](https://developer.ado
 
 Das Hinzufügen einer digitalen Signatur zur URL statischer Dateien ermöglicht es Browsern zu erkennen, wann eine neuere Version der Datei verfügbar ist. Zu den statischen Dateien, die mit digitalen Signaturen verfolgt werden können, gehören JavaScript, CSS, Bilder und Schriftarten. Die Signatur wird direkt nach der Basis-URL an den Pfad angehängt. Wenn sich die Signatur einer Datei von der unterscheidet, die im Cache des Browsers gespeichert ist, wird die neuere Version der Datei verwendet.
 
-Siehe [Statisches Inhaltssignieren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html){:target="_blank"} in der Entwicklerdokumentation zu Commerce.
+Siehe [Statisches Inhaltssignieren](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/static-content-signing.html?lang=de){:target="_blank"} in der Entwicklerdokumentation zu Commerce.
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ Der Zeitaufwand für das Laden von Ressourcendateien kann durch das Zusammenfüh
 
 Standardmäßig führen Adobe Commerce und Magento Open Source keine Dateien zusammen, bündeln oder minimieren sie nicht. Der Projektentwickler sollte festlegen, welche Dateioptimierungsmethoden verwendet werden sollen.
 
-Weitere Informationen finden [&#x200B; unter &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html) Practices für die Leistung .
+Weitere Informationen finden [&#x200B; unter &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html?lang=de) Practices für die Leistung .
 
 >[!NOTE]
 >

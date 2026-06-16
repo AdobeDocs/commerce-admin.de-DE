@@ -3,7 +3,7 @@ title: Übersicht über Visual Merchandiser
 description: Erfahren Sie mehr über die Visual Merchandiser-Tools, mit denen Sie Produkte positionieren und bestimmen können, welche Produkte in der Kategorieliste angezeigt werden.
 exl-id: 00fe8b7f-0c33-4f06-a3cd-1f0bd18079f1
 feature: Categories, Merchandising, Products
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/MbeCfIBdepAr5U2B1I-lfFGNm1b5DiKGevM5365brpo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

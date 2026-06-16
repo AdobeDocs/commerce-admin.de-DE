@@ -3,7 +3,7 @@ title: '[!DNL Commerce Intelligence]'
 description: Erfahren Sie, wie Adobe Commerce- und Magento Open Source-Händler Commerce Intelligence-Tools verwenden können, um die insight zu erhalten, mit der fundierte Geschäftsentscheidungen getroffen werden.
 exl-id: 687d04e4-841b-44f7-94ca-bbb20fbe2d8b
 feature: Commerce Intelligence, Reporting
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/fXuvq380YffN-gCcGRcpwN5x-bc1EHcyrUaDFctaLKo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -42,7 +42,7 @@ Verwenden Sie Commerce Intelligence-Tools, um die insight zu erhalten, die für 
 
 ## [!DNL Commerce Intelligence]
 
-Wenn Sie ein [!DNL Commerce Intelligence] über Adobe aktivieren, erhalten Sie Zugriff auf fünf Dashboards mit etwa 70 Berichten. Diese Berichte bieten Einblicke in Ihre Daten und beantworten Fragen wie: „Wie wachsen meine Bestellungen von Monat zu Monat?“, „Wer sind meine treuesten Kunden?“ und „Funktioniert meine Couponstrategie?“ Ausführliche Informationen zu diesem Toolset finden Sie im [Commerce Intelligence-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html).
+Wenn Sie ein [!DNL Commerce Intelligence] über Adobe aktivieren, erhalten Sie Zugriff auf fünf Dashboards mit etwa 70 Berichten. Diese Berichte bieten Einblicke in Ihre Daten und beantworten Fragen wie: „Wie wachsen meine Bestellungen von Monat zu Monat?“, „Wer sind meine treuesten Kunden?“ und „Funktioniert meine Couponstrategie?“ Ausführliche Informationen zu diesem Toolset finden Sie im [Commerce Intelligence-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=de).
 
 ## [!DNL Advanced Reporting]
 

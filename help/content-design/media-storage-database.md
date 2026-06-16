@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie mit einer Mediendatenbank Ihre  [!DNL Commerc
 exl-id: b59349fb-0cb6-4812-a126-6e0d8d37564f
 feature: Page Content, Media, Configuration
 level: Experienced
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/QUhPGliOg0grz9UcLAcWWiPd5Zh4pIvB-n-QeORilfg
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

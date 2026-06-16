@@ -57,4 +57,4 @@ Es gibt viele Lichtboxen und Schieberegler von Drittanbietern, die Sie verwenden
 Hilfe bei der Fehlerbehebung bei Bild- und Videoproblemen finden Sie in den folgenden Artikeln in der Commerce-Support-Wissensdatenbank:
 
 - [Produktbilder werden trotz der Rollen „Produktbild bearbeiten“ nicht angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/product-images-do-not-display-despite-product-edit-image-roles.html)
-- [Bilder speichern, die nach der Bereitstellung nicht angezeigt werden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html)
+- [Bilder speichern, die nach der Bereitstellung nicht angezeigt werden](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/storefront/store-images-not-displayed-after-deployment.html?lang=de)

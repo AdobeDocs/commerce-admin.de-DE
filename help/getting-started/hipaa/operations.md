@@ -2,7 +2,7 @@
 title: Vorgänge
 description: Richtlinien für die Migration zu einem HIPAA-fähigen Angebot und für die Verwendung der sekundären Staging-Umgebung zur Fehlerbehebung.
 exl-id: 058b43de-1cee-4557-b2e3-87ee7422bf9b
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/w3CGUMXmuXy8006HmWG0K-q3ntjbHFAaC61O6t7S4Ao
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

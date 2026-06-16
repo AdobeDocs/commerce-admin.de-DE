@@ -3,7 +3,7 @@ title: PayPal Express-Checkout
 description: Erfahren Sie, wie Sie PayPal Express Checkout als Online-Zahlungslösung in Ihrem Geschäft einrichten.
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

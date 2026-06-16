@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ![Abonnementoptionen](./assets/newsletter-subscription-options.png)<!-- zoom -->
 
-<!-- [Subscription Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
+<!-- [Subscription Options](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/communications/newsletters/newsletters) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

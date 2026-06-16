@@ -3,7 +3,7 @@ title: PayPal Payments Pro
 description: Erfahren Sie, wie Sie PayPal Payments Pro als Online-Zahlungslösung in Ihrem Geschäft einrichten.
 exl-id: 9cc5c3a6-d471-4198-85a2-c4cf9dfd378b
 feature: Payments
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/MbyNmKyZsbvHP9t7GI6nxn73HQVSWKCtb8p-Zo0DaUs
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

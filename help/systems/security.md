@@ -40,11 +40,11 @@ Es gibt mehrere Möglichkeiten, Ihren Speicher zu schützen und Ihre Datensicher
 >
 >Bei Stores mit aktivierter [!DNL Adobe Identity Management Services]-Authentifizierung (IMS) sind die native Adobe Commerce und Magento Open Source 2FA deaktiviert. Admin-Benutzende, die mit ihren Adobe-Anmeldeinformationen bei ihrer Commerce-Instanz angemeldet sind, müssen sich für viele Admin-Aufgaben nicht erneut authentifizieren. Die Authentifizierung wird von Adobe IMS durchgeführt, wenn sich der Administrator bei seiner aktuellen Sitzung anmeldet. Siehe Übersicht über die [[!DNL Adobe Identity Management Service] (IMS)-Integration](../getting-started/adobe-ims-integration-overview.md).
 
-Besuchen Sie das [Sicherheitscenter](https://helpx.adobe.com/security.html){:target="_blank"}, um die neuesten Informationen über potenzielle Sicherheitslücken zu erhalten, sich für Adobe-Sicherheitsbenachrichtigungen zu registrieren und auf das Adobe Trust Center zuzugreifen.
+Besuchen Sie das [Sicherheitscenter](https://helpx.adobe.com/de/security.html){:target="_blank"}, um die neuesten Informationen über potenzielle Sicherheitslücken zu erhalten, sich für Adobe-Sicherheitsbenachrichtigungen zu registrieren und auf das Adobe Trust Center zuzugreifen.
 
 ![Sicherheitszentrum](./assets/product-security-home.png){width="700" zoomable="yes"}
 
-Informationen zu Best Practices für die Sicherheit finden Sie unter [Sichern der Commerce-Site und &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html)) im _Implementierungs-Playbook_.
+Informationen zu Best Practices für die Sicherheit finden Sie unter [Sichern der Commerce-Site und &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=de)) im _Implementierungs-Playbook_.
 
 ## Sicherheits-Aktionsplan
 
@@ -58,4 +58,4 @@ Wenn Sie vermuten, dass Ihre Adobe Commerce- oder Magento Open Source-Site gefä
 
 1. **Bericht**: Wenn Sie glauben, dass Sie eine bestimmte Sicherheitslücke in Commerce gefunden haben, [eröffnen Sie ein Problem mit Adobe](https://hackerone.com/adobe?type=team) und fügen Sie technische Details hinzu.
 
-1. **Upgrade**: Planen Sie jetzt Ihr Upgrade auf [Adobe Commerce in unserer Cloud-Architektur, um die zusätzliche Sicherheit zu &#x200B;](https://business.adobe.com/products/magento/cloud-delivery.html), die durch den 24/7-Support entsteht.
+1. **Upgrade**: Planen Sie jetzt Ihr Upgrade auf [Adobe Commerce in unserer Cloud-Architektur, um die zusätzliche Sicherheit zu &#x200B;](https://business.adobe.com/de/products/magento/cloud-delivery.html), die durch den 24/7-Support entsteht.

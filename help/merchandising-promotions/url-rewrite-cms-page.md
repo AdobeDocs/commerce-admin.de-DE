@@ -3,7 +3,7 @@ title: Neuschreibungen der Inhaltsseite
 description: Erfahren Sie, wie Sie die URL-Neuschreibungen von Inhaltsseiten verwenden, um Links zur URL einer anderen Inhaltsseite in Ihrem Commerce Store umzuleiten.
 exl-id: e29c45fd-cf25-4b51-a8ae-9e188dc2a61c
 feature: Page Content, Configuration
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/qqavUzi-GFdvuM5YhKm0sxXHnJOJAX4fMvFDqZrM89A
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

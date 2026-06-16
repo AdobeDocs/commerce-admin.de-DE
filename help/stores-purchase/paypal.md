@@ -3,7 +3,7 @@ title: PayPal-Zahlungslösungen
 description: Erfahren Sie mehr über die Integrationen der PayPal-Zahlungslösung, die für Ihren Shop verfügbar sind.
 exl-id: d447b98e-d30c-4759-9ae0-94ccbeed9ba4
 feature: Payments
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/Rj1ey1lK7PkyUR-m6CPw6v-C-Mie-vmJtlZAA917K28
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
