@@ -33,7 +33,7 @@ Ihr [!DNL Commerce]-Konto enthält Informationen, die Sie vertrauenswürdigen Mi
 
 Der primäre Kontoinhaber ist befugt, anderen [!DNL Commerce] Kontoinhabern eingeschränkten Zugang zu gewähren. Freigegebener Zugriff kann widerrufen, aber nicht übertragen werden. Bei ``Cloud Shared Access from MAG[XYZ]`` Einträgen kann der Benutzerdatensatz **hier nicht gelöscht werden** aber der Zugriff **weiterhin widerrufen werden**.
 
-Nur der Inhaber des primären Kontos mit den entsprechenden Berechtigungen kann formell geteilten Zugriff gewähren. Wenn der Hauptkontoinhaber keinen Zugriff mehr hat oder das Unternehmen verlassen hat, sollte der Kunde den [Commerce-Kontoübertragungsprozess verwenden](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-transfer) um den Besitz an einen neuen Kontakt zu übertragen. Obwohl das Commerce-Supportteam möglicherweise in bestimmten Fällen stellvertretend für den Kunden agieren kann, sollte der freigegebene Zugriff vom Kunden konfiguriert werden, um das Sicherheits- und Haftungsrisiko zu reduzieren.
+Nur der Inhaber des primären Kontos mit den entsprechenden Berechtigungen kann formell geteilten Zugriff gewähren. Wenn der Hauptkontoinhaber keinen Zugriff mehr hat oder das Unternehmen verlassen hat, sollte der Kunde den [Commerce-Kontoübertragungsprozess verwenden](https://experienceleague.adobe.com/de/docs/commerce-admin/start/commerce-account/commerce-account-transfer) um den Besitz an einen neuen Kontakt zu übertragen. Obwohl das Commerce-Supportteam möglicherweise in bestimmten Fällen stellvertretend für den Kunden agieren kann, sollte der freigegebene Zugriff vom Kunden konfiguriert werden, um das Sicherheits- und Haftungsrisiko zu reduzieren.
 
 
 ![Freigegebene Zugriffseinstellungen](./assets/shared-access.png){width="600" zoomable="yes"}
@@ -113,7 +113,7 @@ Die folgenden Anweisungen sind aus der Sicht eines freigegebenen Benutzers gesch
 
    ![Support](./assets/shared-support.png){width="600" zoomable="yes"}
 
-   Sie können das [Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/overview) über das freigegebene Konto nach Artikeln und Informationen zur Fehlerbehebung suchen, Patches für bekannte Probleme suchen und Support-Tickets erstellen.
+   Sie können das [Adobe Commerce Help Center](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/overview) über das freigegebene Konto nach Artikeln und Informationen zur Fehlerbehebung suchen, Patches für bekannte Probleme suchen und Support-Tickets erstellen.
 
    >[!NOTE]
    >
@@ -136,7 +136,7 @@ Die folgenden Anweisungen sind aus der Sicht eines freigegebenen Benutzers gesch
    > Wenn sie nicht gelöscht werden kann, lassen Sie einfach den Kontoinhaber das Konto mit gemeinsamem Zugriff ändern und unter Kontoberechtigungen erteilen jedes Element deaktivieren. Nach diesem Update kann der Benutzer nicht mehr auf Kontoressourcen zugreifen.
    > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
-   > Stellen Sie außerdem sicher, dass Benutzer aus dem Projekt entfernt werden, sodass sie keine E-Mail-Benachrichtigungen mehr erhalten: [Ehemalige Team-Mitglieder erhalten E-Mails zur Cloud-Benachrichtigung von Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
+   > Stellen Sie außerdem sicher, dass Benutzer aus dem Projekt entfernt werden, sodass sie keine E-Mail-Benachrichtigungen mehr erhalten: [Ehemalige Team-Mitglieder erhalten E-Mails zur Cloud-Benachrichtigung von Adobe Commerce](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails)
 
 
 1. Wenn Sie zum Bestätigen aufgefordert werden, klicken Sie auf **[!UICONTROL Delete User]**.

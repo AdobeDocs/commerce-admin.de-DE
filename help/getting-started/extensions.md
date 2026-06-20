@@ -3,7 +3,7 @@ title: Erweiterungen aus Adobe
 description: Informationen zu Erweiterungen für Adobe Commerce und Magento Open Source, die von Adobe veröffentlicht wurden, finden Sie.
 exl-id: 86338edc-c32a-41c8-9594-6aec26f53ac6
 feature: Extensions
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/-QGqm0VMRlCNuKqHGdGVKjs8ZgNcjYZjFaeIFsOLWCA
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -129,7 +129,7 @@ Adobe bietet zusätzliche Erweiterungen, die mit Composer separat installiert we
 
 [!DNL Adobe Commerce B2B] ist eine integrierte Erweiterung, die standardmäßige Commerce-Stores in umfassende Business-to-Business-Plattformen umwandelt. Es ermöglicht Unternehmen die Verwaltung komplexer Organisationsstrukturen mit mehreren Käufern, benutzerdefinierten Rollen und Kaufberechtigungen unter einheitlichen Unternehmenskonten. Zu den wichtigsten Funktionen gehören unternehmensspezifische Kataloge und Preise, verhandelbare Angebote, Bestellverwaltung, Anforderungslisten und Schnellbestellfunktionen. Die Lösung unterstützt sowohl B2B- als auch B2C-Modelle in einer einzigen Instanz, was sie flexibel für unterschiedliche Geschäftsanforderungen macht. Die Erweiterung erfordert eine separate Lizenz und lässt sich nahtlos in die Kernfunktionen von Adobe Commerce integrieren, um eine vollständige B2B-E-Commerce-Lösung zu bieten.
 
-Wenden Sie sich für die Bereitstellung an Ihren Adobe-Kundenbetreuer. Implementierungsdetails und Konfigurationsschritte finden Sie im [[!DNL B2B for Adobe Commerce] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html).
+Wenden Sie sich für die Bereitstellung an Ihren Adobe-Kundenbetreuer. Implementierungsdetails und Konfigurationsschritte finden Sie im [[!DNL B2B for Adobe Commerce] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=de).
 
 ### [!DNL AEM Assets Integration for Commerce]
 
@@ -145,7 +145,7 @@ Wenden Sie sich für die Bereitstellung an Ihren Adobe-Kundenbetreuer. Implement
 
 Die Live-Suche ist eine exklusive Funktion von Adobe Commerce, die eine KI-gestützte Suchlösung mit Echtzeit-Suchfunktion nach dem „gewünschten“ Typ bietet. Es liefert schnelle, relevante Ergebnisse mit Produktminiaturen, während Käufer tippen, zusammen mit intelligenter Facettierung, die Filter automatisch an das Einkaufsverhalten anpasst. Die Lösung umfasst Merchandising-Funktionen für die Produktverbesserung und -vergütung, die Verwaltung von Synonymen und Suchanalysen. Adobe Commerce ist ohne zusätzliche Kosten im Lieferumfang enthalten [!DNL Live Search] ersetzt die standardmäßige Suchfunktion durch ein komplexeres SaaS-basiertes Sucherlebnis. Es erfordert nur eine minimale Konfiguration, um zu beginnen.
 
-Details zur Implementierung und technische Anforderungen finden Sie im [Live Search-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
+Details zur Implementierung und technische Anforderungen finden Sie im [Live Search-Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=de).
 
 ### [!DNL Product Recommendations]
 
@@ -161,7 +161,7 @@ Informationen zur Implementierung und Best Practices finden Sie im [[!DNL Produc
 
 [!DNL Catalog Service] ist eine leistungsstarke Lösung für Adobe Commerce und Magento Open Source, die über GraphQL-Endpunkte optimierten Zugriff auf Katalogdaten bietet. Sie unterhält eine separate synchronisierte Datenbank für Produktdetails und zugehörige Informationen, wobei die direkte Anwendungskommunikation umgangen wird, um schnellere Seitenladezeiten zu erzielen. Der Service ist besonders für Produktdetailseiten, Kategorienlisten und Suchergebnisseiten nützlich, was ihn sowohl für herkömmliche als auch für Headless-Commerce-Implementierungen ideal macht.
 
-Setup-Anweisungen und technische Details finden Sie im [[!DNL Catalog Service] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html).
+Setup-Anweisungen und technische Details finden Sie im [[!DNL Catalog Service] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=de).
 
 >[!NOTE]
 >

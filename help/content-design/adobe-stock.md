@@ -42,7 +42,7 @@ Diese Integration erfordert:
 
 Die Lizenzierung von Adobe Stock-Bildern erfordert Folgendes:
 
-- Ein [Adobe-Konto](https://helpx.adobe.com/manage-account/using/access-adobe-id-account.html)
+- Ein [Adobe-Konto](https://helpx.adobe.com/de/manage-account/using/access-adobe-id-account.html)
 - Ein gebührenpflichtiger [Adobe Stock](https://stock.adobe.com)-Plan, der mit dem Konto verknüpft ist
 
 ## Integrieren von [!DNL Commerce] und Adobe Stock

@@ -3,7 +3,7 @@ title: HIPAA-Bereitschaft auf Adobe Commerce
 description: Erfahren Sie, wie Sie in Adobe Commerce die Erweiterung für HIPAA-Konformität hinzufügen und zusätzliche Funktionen für die Einhaltung der HIPAA-Vorschriften nutzen können.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/0K0f6Rb5ukFbiCj4ySxhl-4-OzJ4Luu2nKwhTHGeYW8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -96,7 +96,7 @@ Installieren Sie die neueste Version der HIPAA-fähigen Service-Erweiterung (`ma
 
 >[!NOTE]
 >
->Um sicherzustellen, dass Backoffice-Ereignisdaten, die an Experience Platform gesendet werden, HIPAA-fähig sind, lesen Sie das [Handbuch zur Datenverbindungserweiterung](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Um sicherzustellen, dass Backoffice-Ereignisdaten, die an Experience Platform gesendet werden, HIPAA-fähig sind, lesen Sie das [Handbuch zur Datenverbindungserweiterung](https://experienceleague.adobe.com/de/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. Wechseln Sie auf Ihrer lokalen Workstation in das Projektverzeichnis für Ihr Adobe Commerce on Cloud-Infrastrukturprojekt.
 
@@ -304,13 +304,13 @@ In der folgenden Tabelle sind die Adobe Commerce-Services aufgeführt, die für 
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Ja | Ja |
 | [API Mesh für Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/) | Ja | Ja |
-| [SaaS-Datenexport](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Ja | Ja |
-| [Live-Suche](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Nein | Nein |
-| [Produktempfehlungen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Nein | Nein |
-| [Zahlungsdienste](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Nein | Nein |
+| [SaaS-Datenexport](https://experienceleague.adobe.com/de/docs/commerce/saas-data-export/overview) | Ja | Ja |
+| [Live-Suche](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview) | Nein | Nein |
+| [Produktempfehlungen](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/overview) | Nein | Nein |
+| [Zahlungsdienste](https://experienceleague.adobe.com/de/docs/commerce/payment-services/guide-overview) | Nein | Nein |
 | [Back-Office-Ereignisse der Datenverbindung](https://experienceleague.adobe.com/de/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
 | [Datenverbindungs-Storefront-Ereignisse](https://experienceleague.adobe.com/de/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nein | Nein |
-| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Nein | Nein |
+| [Audience Activation](https://experienceleague.adobe.com/de/docs/commerce-admin/customers/audience-activation) | Nein | Nein |
 
 ### Tools
 

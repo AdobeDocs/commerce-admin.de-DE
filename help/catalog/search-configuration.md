@@ -28,7 +28,7 @@ ht-degree: 0%
 
 # Konfigurieren der Katalogsuche
 
-Es gibt zwei Varianten der Konfiguration für die Katalogsuche. Die erste Methode beschreibt die verfügbaren Einstellungen, wenn [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html) installiert ist. Die zweite Methode beschreibt die Konfigurationseinstellungen für native Adobe Commerce mit [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html?lang=de){:target="_blank"}.
+Es gibt zwei Varianten der Konfiguration für die Katalogsuche. Die erste Methode beschreibt die verfügbaren Einstellungen, wenn [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=de) installiert ist. Die zweite Methode beschreibt die Konfigurationseinstellungen für native Adobe Commerce mit [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html?lang=de){:target="_blank"}.
 
 >[!NOTE]
 >

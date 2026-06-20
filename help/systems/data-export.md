@@ -108,4 +108,4 @@ Das Kontrollkästchen in der ersten Spalte wird verwendet, um Attribute aus der 
 
 Hilfe bei der Fehlerbehebung bei Problemen mit dem Datenexport finden Sie in den folgenden Artikeln der Commerce-Support-Wissensdatenbank:
 
-- [Exportierte .csv-Produktdatei wird nicht angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html)
+- [Exportierte .csv-Produktdatei wird nicht angezeigt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-.csv-file-does-not-appear.html?lang=de)

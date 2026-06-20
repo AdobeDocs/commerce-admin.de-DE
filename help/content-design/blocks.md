@@ -2,7 +2,7 @@
 title: Inhaltsbausteine
 description: Ein Block kann verwendet werden, um feste Informationen wie Text, Bilder und eingebettete Videos sowie dynamische Informationen anzuzeigen.
 exl-id: 545740f7-802c-459e-acd1-a3b3ede29d07
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/J3WLLi92Tawt6kK-LKOhFuM-KwuKxqk0vQevScMP-8A
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

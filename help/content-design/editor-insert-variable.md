@@ -3,7 +3,7 @@ title: Einfügen einer Variablen in den Editor
 description: Fügen Sie Ihrem Inhalt im WYSIWYG-Editor vordefinierte oder benutzerdefinierte Variablen hinzu.
 exl-id: 49b05df0-f425-4706-a402-f1c3f868cb49
 feature: Page Content, Variables
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/5tz40-9rojeIQhgPHQTQlA0YHIp-Hpio1qkxjWU4Ig0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
