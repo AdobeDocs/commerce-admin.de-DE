@@ -3,7 +3,7 @@ title: Widget „Katalogereignisse - Karussell“
 description: Erfahren Sie, wie Sie mit einem Karussell-Widget für Katalogereignisse einen Schieberegler für anstehende Ereignisse auf einer Seite anzeigen können.
 exl-id: 4e88b253-f320-4c94-9996-94d7005effc6
 feature: Page Content, Promotions/Events
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/vXrTBTqPkpIevzmmE-iHnFkqjpKSV6ynK027M404a7c
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

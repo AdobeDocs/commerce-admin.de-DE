@@ -2,7 +2,7 @@
 title: Dynamischen Block hinzufügen
 description: Präsentieren Sie eine Bildschirmpräsentation mit interaktiven Inhalten auf der Storefront, indem Sie einem Rotator mehrere dynamische Blöcke hinzufügen.
 exl-id: 3d338014-cf26-4171-b48b-d37b3d7b0e81
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/9fMqGoH1y1T0S9Njq9frKcspGhyTVZ-H2OzAJbWwhjU
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

@@ -2,7 +2,7 @@
 title: Layoutbeispiele für Storefronts
 description: Sehen Sie sich die Beispiele für Seitenlayoutoptionen an.
 exl-id: 1cda1175-269b-42b9-bf4e-9bf14483da1d
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/rYnP28GqKMyPGcZSkCWAJAjlA6tNv2Rr-l4DDegU-UQ
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

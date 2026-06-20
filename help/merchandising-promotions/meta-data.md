@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Informationen zu Adobe Commerce as a Cloud Service finden Sie unter [Metadatenrichtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) in der Dokumentation zu Commerce Storefront
+>Informationen zu Adobe Commerce as a Cloud Service finden Sie unter [Metadatenrichtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=de) in der Dokumentation zu Commerce Storefront
 
 Ihr Store enthält Orte, an denen Sie schlüsselwortreiche Metadaten eingeben können, um die Art und Weise zu verbessern, wie Suchmaschinen Ihre Site indizieren. Beim Einrichten Ihres Stores geben Sie möglicherweise vorläufige Metadaten ein, die Sie später abschließen möchten. Im Laufe der Zeit können Sie die Metadaten entsprechend den Kaufmustern und -präferenzen Ihrer Kunden anpassen.
 

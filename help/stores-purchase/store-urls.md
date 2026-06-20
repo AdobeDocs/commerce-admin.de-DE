@@ -172,7 +172,7 @@ Obwohl es möglich ist, die Admin-URL und den Pfad zu einem anderen Speicherort 
 
 >[!NOTE]
 >
->Versuchen Sie vorsichtshalber nicht, die Admin-URL selbst zu ändern, es sei denn, Sie wissen, wie Sie Konfigurationsdateien auf dem Server bearbeiten. Ändern Sie für Adobe Commerce-Projekte, die in der Cloud-Infrastruktur bereitgestellt werden, die Admin-URL, indem Sie die [Anweisungen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html#admin-url) im Handbuch *Adobe Commerce on Cloud Infrastructure* befolgen.
+>Versuchen Sie vorsichtshalber nicht, die Admin-URL selbst zu ändern, es sei denn, Sie wissen, wie Sie Konfigurationsdateien auf dem Server bearbeiten. Ändern Sie für Adobe Commerce-Projekte, die in der Cloud-Infrastruktur bereitgestellt werden, die Admin-URL, indem Sie die [Anweisungen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=de#admin-url) im Handbuch *Adobe Commerce on Cloud Infrastructure* befolgen.
 
 ### Methode 1: Wechsel vom Administrator
 

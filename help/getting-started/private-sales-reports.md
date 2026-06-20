@@ -3,7 +3,7 @@ title: Berichte zum privaten Verkauf
 description: Die in Adobe Commerce verfügbaren privaten Verkaufsberichte bieten nützliche Informationen über Veranstaltungen und privaten Verkauf.
 exl-id: e1c2b01f-500a-475e-b61e-20f3ccbc0e70
 feature: Promotions/Events, Reporting
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/PD538YpWbu4svlU2EQZ3x8Ssgf8Ghj8Yk5cLa1b63eM
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
