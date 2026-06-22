@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 42029ed6d13cd4203c4a5d8300297315aac1abf5
 workflow-type: tm+mt
 source-wordcount: 866
 ht-degree: 1%
@@ -46,6 +46,7 @@ Die Vorlage fügt die folgenden Ressourcen zur Authoring-Umgebung von AEM Assets
 - Ein [Beispiel für getaggte und genehmigte Commerce](https://github.com/ankumalh/assets-commerce/blob/main/ui.content/src/main/content/jcr_root/content/dam/wknd/en/activities/hiking/equipment_6.jpg/.content.xml)Assets`equipment_6.jpg` zur Unterstützung der anfänglichen Asset-Synchronisierung. Nur genehmigte Commerce-Assets können von AEM Assets mit Adobe Commerce synchronisiert werden.
 
 >[!NOTE]
+>
 >Weitere Informationen zur `commerce-assets` AEM-Projektvorlage finden Sie in der [Readme](https://github.com/ankumalh/assets-commerce).
 
 Sie benötigen die folgenden Ressourcen und Berechtigungen, um dieses AEM-Projekt zum Aktualisieren der Umgebungskonfiguration verwenden zu können:
@@ -132,9 +133,7 @@ Die Komponente Produktdaten-Benutzeroberfläche wird automatisch auf Grundlage d
 #### Anwenden des Metadatenprofils auf den Commerce Assets-Quellordner
 
 1. Wählen Sie auf [!UICONTROL &#x200B; Metadata Profiles] Seite das Integrationsprofil Commerce aus.
-
 1. Wählen Sie im Menü Aktion die Option **[!UICONTROL Apply Metadata Profiles to Folders]** aus.
-
 1. Wählen Sie den Ordner aus, der Commerce-Assets enthält.
 
    Erstellen Sie einen Commerce-Ordner, wenn er noch nicht vorhanden ist.
