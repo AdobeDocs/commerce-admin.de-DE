@@ -3,7 +3,8 @@ user-guide-title: Handbuch zur Kundenverwaltung
 user-guide-description: Umfassende Informationen zu den Funktionen zur Konto-, Gruppen- und Segmentverwaltung für Adobe Commerce- und Magento Open Source-Administratoren.
 breadcrumb-title: Kundenverwaltung
 feature: Customers
-source-git-commit: da825af42f490845527d4298d1ae5191fe3b6a59
+nudge: true
+source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
