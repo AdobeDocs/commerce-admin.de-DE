@@ -4,22 +4,12 @@ description: Erfahren Sie, wie Sie konfigurieren können, wie Ihre Produkte den 
 exl-id: c721fb3b-ee31-4d2b-b4ea-9ae2c80aa800
 feature: Catalog Management, Search
 TQID: https://experienceleague.adobe.com/66fWLxfEO03dyaOfxN0M-JlUPqupTY4txCRybKxF4n8
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c18ed297-2187-4aec-affb-9d9654eca6fcid: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 913
 ht-degree: 0%
@@ -30,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Auf dieser Seite werden Standardsuchfunktionen beschrieben, die sich von der [Live Search“ &#x200B;](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=de).
+>Auf dieser Seite werden Standardsuchfunktionen beschrieben, die sich von der [Live Search“ ](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html).
 
 Die _Suchergebnisse_ enthält alle Produkte, die den im Feld „Schnellsuche“ oder im Formular „Erweiterte Suche“ angegebenen Suchkriterien entsprechen. Jede Produktliste im Katalog verfügt im Wesentlichen über dieselben Steuerelemente. Der einzige Unterschied besteht darin, dass einer das Ergebnis einer Suchanfrage ist und der andere das Ergebnis von [Navigation](navigation.md).
 
@@ -46,7 +36,7 @@ Mit **Elasticsearch**:
 
 >[!IMPORTANT]
 >
->Aufgrund der Ankündigung zum Ende der Unterstützung für Elasticsearch 7 im August 2023 wird empfohlen, dass alle Adobe Commerce-Kunden zur OpenSearch 2.x -Suchmaschine migrieren. Informationen zur Migration Ihrer Suchmaschine während des Produkt-Upgrades finden Sie unter [Migration zu OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html?lang=de) im _Upgrade-Handbuch_.
+>Aufgrund der Ankündigung zum Ende der Unterstützung für Elasticsearch 7 im August 2023 wird empfohlen, dass alle Adobe Commerce-Kunden zur OpenSearch 2.x -Suchmaschine migrieren. Informationen zur Migration Ihrer Suchmaschine während des Produkt-Upgrades finden Sie unter [Migration zu OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration.html) im _Upgrade-Handbuch_.
 
 ## Keyword-Mapping zur Erweiterung der Suchergebnisse
 
@@ -96,15 +86,15 @@ Im folgenden Beispiel wird die Schlüsselwortzuordnung basierend auf der SKU ver
    ![Abschnitt „Attribute“ mit Suchbegriff](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
-1. Wechseln Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;und aktualisieren Sie die **[!UICONTROL Page Cache]**.
+1. Wechseln Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**und aktualisieren Sie die **[!UICONTROL Page Cache]**.
 
 ### Schritt 3: Zweites Produkt zuordnen
 
-1. Öffnen Sie in der _[!UICONTROL Products]_&#x200B;die `Chaz Kangaroo Hoodie` (MH01) im Bearbeitungsmodus.
+1. Öffnen Sie in der _[!UICONTROL Products]_die `Chaz Kangaroo Hoodie` (MH01) im Bearbeitungsmodus.
 1. Scrollen Sie nach unten und erweitern Sie den Abschnitt **[!UICONTROL Attributes]** .
 1. Geben Sie im Feld **[!UICONTROL Search Keywords]** die SKU für das andere Produkt `MJ03` ein.
 1. Klicken Sie auf **[!UICONTROL Save]**.
-1. Wechseln Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;und aktualisieren Sie die **[!UICONTROL Page Cache]**.
+1. Wechseln Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**und aktualisieren Sie die **[!UICONTROL Page Cache]**.
 
 ### Schritt 4: Testen in der Storefront
 
@@ -134,3 +124,4 @@ Produktattributen, die für die Katalogsuche aktiviert sind, kann eine Gewichtun
    ![Suchgewichtung](./assets/search-weight.png){width="600" zoomable="yes"}
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Attribute]**.
+
