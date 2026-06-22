@@ -19,7 +19,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 834
 ht-degree: 0%
@@ -146,3 +146,4 @@ Es gibt zwei Varianten der Konfiguration für die Katalogsuche. Die erste Method
 Um die Mindestanzahl von Begriffen aus Ihrer Abfrage zu steuern, mit denen die Suchergebnisse für die Rückgabe übereinstimmen sollen, geben Sie einen Wert für **[!UICONTROL Minimum Terms to Match]** an. Durch die Angabe dieses Werts wird eine optimale Ergebnisrelevanz für Erstkäufer sichergestellt. Eine Liste der zulässigen Werte finden Sie unter [minimum_should_match-Parameter](https://opensearch.org/docs/latest/query-dsl/minimum-should-match/) in der OpenSearch-Dokumentation.
 
 Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
+

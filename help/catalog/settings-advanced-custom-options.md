@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 821
 ht-degree: 0%
@@ -109,3 +109,4 @@ Wenn eine Warenkorb-Preisregel durch den Kauf ausgelöst wird, gilt die ursprün
 | [!UICONTROL Date] | Ermöglicht dem Kunden die Eingabe eines Datums oder einer Uhrzeit oder die Auswahl des Werts aus einem Kalender. Optionen: <br />**[!UICONTROL Date]**: Ein Eingabefeld für einen Datumswert. Das Datum kann direkt in das Feld eingegeben oder aus einer Liste oder einem Kalender ausgewählt werden. Die Eingabemethode und das Format werden durch die Konfiguration [Datums- und Uhrzeitoptionen](attributes-input-types.md#date-and-time-options) bestimmt<br />**[!UICONTROL Date & Time]** - Ein Eingabefeld für einen Datums- und Uhrzeitwert.<br />**[!UICONTROL Time]**: Ein Eingabefeld für einen Zeitwert. |
 
 {style="table-layout:auto"}
+

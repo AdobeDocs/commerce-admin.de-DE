@@ -16,7 +16,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
 workflow-type: tm+mt
 source-wordcount: 313
 ht-degree: 0%
@@ -76,3 +76,4 @@ Wenn die Produktdetails mit dem 3D-Modell aktualisiert werden:
 >[!NOTE]
 >
 > Eine Reihe von Demovideos eines Benutzers, in denen er ein 3D-Modell zu einem Produkt hinzufügt, finden Sie auf der Seite [AR-Viewer für Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/catalog/augmented-reality.html?lang=de) in _Commerce-Videos und -Tutorials_.
+
