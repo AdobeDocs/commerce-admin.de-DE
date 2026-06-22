@@ -6,12 +6,30 @@ seo-description: Documentation and resources for Adobe Commerce and Magento Open
 breadcrumb-title: Admin-Benutzerhandbücher
 exl-id: e30f769f-9140-4370-943e-75007b39ebc0
 TQID: https://experienceleague.adobe.com/zoHXvfhkWovXcAk0S9hTpQOTIHbLYhfjyFqc-cCjLLE
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: c18ed297-2187-4aec-affb-9d9654eca6fcid: c32adafa-ed01-4b31-997e-2413013911b0id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: e91a50b1-0b31-436e-9033-00e4776e94cbid: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eb30f47f-d87a-400f-8f78-63ce7979ff56id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 nudge: true
 source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
 workflow-type: tm+mt
@@ -20,7 +38,7 @@ ht-degree: 0%
 
 ---
 
-# <!-- use banner as heading -->![Admin-Dokumentation](./assets/banner-user-home.png) {#documentation}
+# &#x200B;<!-- use banner as heading -->![Admin-Dokumentation](./assets/banner-user-home.png) {#documentation}
 
 Willkommen bei der nächsten Generation der weltweit führenden Digital-Commerce-Plattform. Adobe Commerce bietet Online-Händlern beispiellose Flexibilität und Kontrolle über das Aussehen, den Inhalt und die Funktionalität ihrer Online-Shops. Der Administrator bietet leistungsstarke Marketing-, Suchmaschinenoptimierungs- und Produktmanagement-Tools, mit denen Sie Websites erstellen können, die auf Ihre individuellen Geschäftsanforderungen zugeschnitten sind.
 
@@ -52,7 +70,7 @@ Magento Open Source ist die Code-Basis, zu der Adobe offiziell beiträgt, und ge
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip=„Gilt für Adobe Commerce nur für Cloud-Projekte (Adobe-verwaltete PaaS-Infrastruktur) und lokale Projekte.“}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt für Adobe Commerce nur für Cloud-Projekte (Adobe-verwaltete PaaS-Infrastruktur) und lokale Projekte."}
     <div><em>Dieser Funktionssatz wurde entwickelt, um die Anforderungen von Verkäufern (Händlern) zu erfüllen, deren Kunden hauptsächlich Unternehmen sind - möglicherweise mit komplexen Organisationsstrukturen und mehreren Mitarbeitern mit verschiedenen Rollen und Ebenen der Kaufberechtigung.</em>
     <br></div>
   </td>
@@ -89,7 +107,7 @@ Magento Open Source ist die Code-Basis, zu der Adobe offiziell beiträgt, und ge
 <tr>
     <td valign="top">
        <img alt="Page Builder" src="./assets/icon-web-pages.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip=„Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und in lokalen Projekten.“}
+   <td valign="top"><a href="../page-builder/guide-overview.md"> <strong>[!DNL Page Builder]</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und in lokalen Projekten."}
     <div><em>[!DNL Page Builder] erleichtert die Erstellung von inhaltsreichen Seiten mit benutzerdefinierten Layouts. Diese Funktionen verbessern die Qualität und reduzieren den Zeit- und Kostenaufwand für die Erstellung benutzerdefinierter Seiten.</em></div>
   </td>
 </tr>
