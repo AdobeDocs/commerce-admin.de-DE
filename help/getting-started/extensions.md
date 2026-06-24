@@ -153,7 +153,7 @@ Details zur Implementierung und technische Anforderungen finden Sie im [Live Sea
 
 [!DNL Product Recommendations] ist eine exklusive Funktion von Adobe Commerce auf Basis der Adobe AI-Technologie, die personalisierte Produktvorschläge auf der gesamten Customer Shopping-Journey liefert. Die Lösung analysiert das Kundenverhalten und die Produktbeziehungen in Echtzeit, um automatisch relevante Empfehlungen zu generieren, ohne dass manuelle Merchandising-Regeln erforderlich sind. Dieser KI-gestützte Ansatz trägt dazu bei, Konversionsraten und Umsatzpotenziale zu steigern und gleichzeitig attraktivere Produkterlebnisse für Kunden zu schaffen.
 
-Informationen zur Implementierung und Best Practices finden Sie im [[!DNL Product Recommendations] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html).
+Informationen zur Implementierung und Best Practices finden Sie im [[!DNL Product Recommendations] Benutzerhandbuch](https://experienceleague.adobe.com/docs/commerce/product-recommendations/overview.html?lang=de).
 
 ### [!DNL Catalog Service]
 
