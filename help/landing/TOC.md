@@ -14,7 +14,7 @@ ht-degree: 12%
 # Adobe Commerce Admin-Benutzerhandbücher {#user-guides}
 
 - [Adobe Commerce-Händlerdokumentation](home.md)
-- [Erste Schritte](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html)
+- [Erste Schritte](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html?lang=de)
 - [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=de)
 - [Katalogverwaltung](https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html?lang=de)
 - [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html?lang=de)
