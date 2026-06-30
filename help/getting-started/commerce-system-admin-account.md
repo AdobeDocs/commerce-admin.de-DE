@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Nur ein aktueller Systemadministrator kann die Systemadministratorrolle in Adobe Admin Console für andere Adobe-Produkte und -Services als Adobe Commerce zuweisen, ändern oder entfernen.
 
-Um einen neuen Systemadministrator zuzuweisen oder eine bestehende Administratorrolle für andere Adobe-Produkte und -Services, einschließlich App Builder, zu ändern, muss sich ein bestehender Administrator bei der Adobe Admin Console anmelden und die Administratorrollen des Unternehmens aktualisieren. Siehe [Administratorrollen](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles).
+Um einen neuen Systemadministrator zuzuweisen oder eine bestehende Administratorrolle für andere Adobe-Produkte und -Services, einschließlich App Builder, zu ändern, muss sich ein bestehender Administrator bei der Adobe Admin Console anmelden und die Administratorrollen des Unternehmens aktualisieren. Siehe [Administratorrollen](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-roles).
 
 ## Einen neuen Systemadministrator zuweisen
 
