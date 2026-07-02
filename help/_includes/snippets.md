@@ -1,7 +1,7 @@
 ---
 title: Snippets
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: 35147f5ec256445d4cb1dfb2d48d9cfcdc1ff47e
+source-git-commit: df2920f654bf932385e78f8cc894bae0daee017a
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%
@@ -13,19 +13,19 @@ ht-degree: 0%
 ## Funktion nur anzeigen {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce-Funktion" src="../assets/adobe-logo.svg" width="20" height="20" /> Hierbei handelt es sich um eine exklusive Funktion, die nur in Adobe Commerce und nicht in Magento Open Source verfügbar ist. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de#product-editions">Weitere Informationen</a>)</td></tr>
+<tr><td><img alt="Adobe Commerce-Funktion" src="/help/assets/adobe-logo.svg" width="20" height="20" /> Hierbei handelt es sich um eine exklusive Funktion, die nur in Adobe Commerce und nicht in Magento Open Source verfügbar ist. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de#product-editions">Weitere Informationen</a>)</td></tr>
 </table>
 
 ## Funktion nur B2B {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce B2B-Funktion" src="../assets/b2b.svg" width="20" height="20" /> Exklusive Funktion nur bei <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=de">Adobe Commerce B2B verfügbar</a></td></tr>
+<tr><td><img alt="Adobe Commerce B2B-Funktion" src="/help/assets/b2b.svg" width="20" height="20" /> Exklusive Funktion nur bei <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=de">Adobe Commerce B2B verfügbar</a></td></tr>
 </table>
 
 ## Nur CE-Funktion {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Magento Open Source-Funktion" src="../assets/open-source.svg" width="20" height="20" /> Für Magento Open Source ist eine alternative Methode erforderlich (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de#product-editions">Weitere Informationen</a>)</td></tr>
+<tr><td><img alt="Magento Open Source-Funktion" src="/help/assets/open-source.svg" width="20" height="20" /> Für Magento Open Source ist eine alternative Methode erforderlich (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de#product-editions">Weitere Informationen</a>)</td></tr>
 </table>
 
 ## IMS-Administratorauthentifizierungshinweis {#ims-admin-note}
@@ -75,7 +75,7 @@ Um auf die Store-Konfigurationseinstellungen zuzugreifen, wählen Sie **[!UICONT
 
 | Dokumentationsressource | Beschreibung |
 |----------------------- | ----------- |
-| [Adobe Commerce 2.4 Admin-Benutzerhandbücher](../landing/home.md) | Dokumentation und Ressourcen für Händler, die in der Verwaltung arbeiten. |
+| [Adobe Commerce 2.4 Admin-Benutzerhandbücher](/help/landing/home.md) | Dokumentation und Ressourcen für Händler, die in der Verwaltung arbeiten. |
 | [Dokumentation zu Services für Adobe Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=de) | Dokumentation zur Unterstützung einer Sammlung von Merchandising-Services, die Händlern die Integration wichtiger Komponenten ihres Geschäfts in ihren Store erleichtern. |
 | [Handbuch zu Commerce in der Cloud-Infrastruktur](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html?lang=de) | Schrittweise Anleitungen für die Bereitstellung von Adobe Commerce auf einer verwalteten, automatisierten Hosting-Cloud-Plattform. |
 | [Adobe Commerce 2.4-Betriebshandbücher](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=de) | Systemdokumentation zu den Konzepten, Prozessen, Tools und Best Practices für die Entwicklung, Bereitstellung und Wartung von Adobe Commerce in Cloud- und lokalen Projekten. |
