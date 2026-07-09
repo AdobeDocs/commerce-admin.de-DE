@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 4bd199ede56ca5a34da513beb305cdba02dfe80d
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: 325
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 # Produkteinstellungen - [!UICONTROL Content]
 
 Der Abschnitt _[!UICONTROL Content]_&#x200B;wird verwendet, um die Hauptproduktbeschreibung, die auf der Produktseite angezeigt wird, einzugeben und zu bearbeiten. Die Kurzbeschreibung kann in den meisten RSS-Feeds verwendet werden und kann je nach [&#x200B; auch in Kataloglisten &#x200B;](../content-design/themes.md).
+
+>[!NOTE]
+>
+>Bei der Kataloganreicherung können von KI vorgeschlagene Aktualisierungen für den Produktnamen und die lange Beschreibung in diesem Abschnitt angewendet werden. Weitere Informationen finden Sie unter [Kataloganreicherung](catalog-enrichment.md).
 
 ## Hinzufügen der Produktbeschreibung in [!DNL Page Builder]
 

@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9958c3ea938ea5ef743f4b347d11e4f833ee1483
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 492
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 # Produktarbeitsbereich
 
 Der Arbeitsbereich Produkt ist für alle Produkttypen grundsätzlich identisch, obwohl sich die Auswahl der Felder je nach verwendetem Attributsatz ändert. Die Produktattribute befinden sich am Anfang des Formulars, gefolgt von erweiterbaren Abschnitten mit Produktinformationen. Wenn ein neues Produkt zum ersten Mal gespeichert wird, wird die _[!UICONTROL Store View]_-Auswahl oben links im Formular angezeigt.
+
+>[!NOTE]
+>
+>Angewendete Aktualisierungen der Kataloganreicherung werden im Produktnamen oben im Formular und im Abschnitt **[!UICONTROL Content]** angezeigt. Weitere Informationen finden Sie unter [Kataloganreicherung](catalog-enrichment.md).
 
 ![Produktarbeitsbereich](./assets/product-workspace-ee.png){width="700" zoomable="yes"}
 

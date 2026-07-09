@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: 329
 ht-degree: 5%
 
 ---
@@ -44,6 +44,7 @@ Dieses Handbuch behandelt Folgendes:
 | [Katalogsuche](search.md) | Überprüfen Sie die Tools, mit denen Kunden Produkte in der Storefront finden können, und konfigurieren Sie das Sucherlebnis entsprechend Ihrem Produktkatalog. |
 | [Kategorien](categories.md) | Legen Sie die grundlegende Kategoriestruktur Ihres Katalogs so fest, dass das Kundenerlebnis in Ihrer Storefront optimiert wird. |
 | [Produkte](products-list.md) | Erstellen Sie Produkte von einfach bis komplex mit mehreren Optionen, Farbfeldern und anpassbaren Bundles. Erstellen Sie herunterladbare Produkte und virtuelle Produkte für Dienstleistungen und andere nicht greifbare Elemente. |
+| [Kataloganreicherung](catalog-enrichment.md) | Überprüfen und wenden Sie die von KI vorgeschlagenen Verbesserungen an Produktnamen und -beschreibungen an, damit Ihr Katalog in LLM und der KI-unterstützten Erkennung korrekt dargestellt wird. |
 | [Produktattribute](product-attributes.md) | Erstellen Sie Attribute mit Eingabesteuerelementen für Produktoptionen und um zusätzliche Informationen auf Produktseiten bereitzustellen. |
 
 {style="table-layout:auto"}

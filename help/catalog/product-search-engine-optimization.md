@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
 workflow-type: tm+mt
-source-wordcount: 504
+source-wordcount: 531
 ht-degree: 0%
 
 ---
@@ -33,6 +33,10 @@ _Suchmaschinenoptimierung_ (SEO) ist die Praxis der Feinabstimmung des Inhalts u
 Die _[!UICONTROL Search Engine Optimization]_&#x200B;für ein Produkt geben die Felder [URL-Schlüssel](catalog-urls.md) und [Meta-Daten](../merchandising-promotions/meta-data.md) an, die von Suchmaschinen zur Indizierung des Produkts verwendet werden. Obwohl einige Suchmaschinen Meta-Keywords ignorieren, werden diese von anderen Suchmaschinen weiterhin verwendet. Die aktuelle [SEO Best Practice](../merchandising-promotions/seo-overview.md) besteht darin, hochwertige Keywords sowohl in den Meta-Titel als auch in die Meta-Beschreibung einzubinden.
 
 Der Standardwert für jedes Metadatenfeld kann automatisch basierend auf den in der Konfiguration angegebenen Werten generiert werden. Jedes Feld enthält einen Platzhalter, der durch einen tatsächlichen Wert ersetzt wird. Weitere Informationen finden Sie unter [Produktfelder automatisch generieren](../configuration-reference/catalog/catalog.md#uicontrol-product-fields-auto-generation).
+
+>[!NOTE]
+>
+>Die Kataloganreicherung hilft bei der Verbesserung von Produktnamen und Beschreibungen für LLM und die KI-gestützte Erkennung. SEO-Metafelder werden nicht ersetzt. Weitere Informationen finden Sie unter [Kataloganreicherung](catalog-enrichment.md).
 
 ## Ausfüllen der SEO-Felder
 

@@ -16,16 +16,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 8a65689c36ccc2e7cced2b13d0cddbfdf5046a02
 workflow-type: tm+mt
-source-wordcount: 178
+source-wordcount: 241
 ht-degree: 0%
 
 ---
 
 # Menü [!UICONTROL Catalog]
 
-Das Menü [!UICONTROL Catalog] bietet einfachen Zugriff auf Tools zur Produkterstellung, Kategorie- und Bestandsverwaltung sowie freigegebene Kataloge für benutzerdefinierte Preise in [B2B-Stores](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=de).
+Das Menü [!UICONTROL Catalog] bietet einfachen Zugriff auf Tools zur Produkterstellung, Kategorie- und Bestandsverwaltung, freigegebene Kataloge für benutzerdefinierte Preise in [B2B-Stores](https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=de) und Kataloganreicherung für die KI-unterstützte Erkennung.
 
 >[!BEGINTABS]
 
@@ -62,3 +62,11 @@ Erstellen Sie die [Kategorie](categories.md)-Struktur, die die Grundlage für di
 Bei Shops mit installiertem und aktiviertem Adobe Commerce B2B [&#x200B; Sie mit &#x200B;](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html?lang=de)freigegebenen Katalogen“ benutzerdefinierte Preise für verschiedene Unternehmen festlegen können.
 
 ![Freigegebene Katalogprodukte](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
+
+## [!UICONTROL Catalog enrichment]
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
+Verwenden Sie [Kataloganreicherung](catalog-enrichment.md), um die von KI vorgeschlagenen Verbesserungen der Produktnamen und langen Beschreibungen zu überprüfen und anzuwenden, damit Ihr Katalog in LLM und KI-unterstützten Discovery korrekt dargestellt wird.
+
+![Kataloganreicherung](./assets/agentic-opportunities.png)
