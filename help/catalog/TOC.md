@@ -4,10 +4,10 @@ user-guide-description: Umfassende Informationen zu Katalogverwaltungsfunktionen
 breadcrumb-title: Katalogverwaltung
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 736cf0404983dbaee76bb46aa2d88a2becdc5f14
+source-git-commit: 9f782ec5412555c9a2cdfaa92c3fd4c05620fc0d
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 0%
+source-wordcount: '251'
+ht-degree: 1%
 
 ---
 
@@ -89,6 +89,7 @@ ht-degree: 0%
       + [Design](settings-advanced-design.md)
       + [AutoSettings](product-autosettings.md)
       + [Geschenkoptionen](product-gift-options.md)
+   + {hide-from-toc}[Kataloganreicherung](catalog-enrichment.md)
 + Produktattribute {#product-attributes}
    + [Attributübersicht](product-attributes.md)
    + [Attributeingabetyp](attributes-input-types.md)
@@ -98,4 +99,4 @@ ht-degree: 0%
       + [Attribute erstellen und löschen](attribute-product-create.md)
       + [Massenaktualisierungen](bulk-product-attribute-update.md)
       + [Attributsätze](attribute-sets.md)
-+ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de)
++ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)
