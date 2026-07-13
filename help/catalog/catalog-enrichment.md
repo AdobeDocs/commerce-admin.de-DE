@@ -4,7 +4,7 @@ description: Verwenden Sie die native Kataloganreicherungsfunktion in Adobe Comm
 role: Admin, User, Leader
 recommendations: noCatalog
 hide: true
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -32,7 +32,7 @@ Die Kataloganreicherung ist eine native [!DNL Adobe Commerce]-Funktion, mit der 
 
 >[!NOTE]
 >
->Die Anreicherung von Katalogen basiert auf [!DNL Commerce Catalog Agent] und [!DNL Adobe LLM Optimizer] hinter den Kulissen. Sie verwenden die Anreicherung im Rahmen Ihres Commerce-Katalog-Workflows. Sie verwalten keine separate LLM Optimizer-Integration, um genehmigte Name- und Beschreibungsaktualisierungen anzuwenden. Eine umfassendere LLM-Überwachung und -Optimierung außerhalb von Commerce finden Sie in der [LLM Optimizer-Produktdokumentation](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home).
+>Die Anreicherung von Katalogen basiert auf [!DNL Commerce Catalog Agent] und [!DNL Adobe LLM Optimizer] hinter den Kulissen. Sie verwenden die Anreicherung im Rahmen Ihres Commerce-Katalog-Workflows. Sie verwalten keine separate LLM Optimizer-Integration, um genehmigte Name- und Beschreibungsaktualisierungen anzuwenden. Eine umfassendere LLM-Überwachung und -Optimierung außerhalb von Commerce finden Sie in der [LLM Optimizer-Produktdokumentation](https://experienceleague.adobe.com/de/docs/llm-optimizer/using/home).
 
 ## Funktionsweise {#how-it-works}
 
@@ -63,8 +63,8 @@ Die folgenden Voraussetzungen gelten, wenn Sie Zugriff auf die Kataloganreicheru
 
 - Ihre Storefront kann durch LLM-orientierte und agentische Bots crawlen werden, bei denen eine crawlen Abdeckung für katalogorientierte Vorschläge erforderlich ist.
 - Die erforderlichen Commerce-Services und die Katalogkonnektivität sind aktiviert und funktionieren ordnungsgemäß. Weitere Informationen [&#x200B; Sie unter &#x200B;](#enable-catalog-enrichment) der Kataloganreicherung aktivieren .
-- [IMS ist konfiguriert](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
-- Sie haben Zugriff auf die [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- [IMS ist konfiguriert](https://experienceleague.adobe.com/de/docs/core-services/interface/administration/organizations).
+- Sie haben Zugriff auf die [Adobe Admin Console](https://helpx.adobe.com/de/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 
 > Wenn Sie keine IMS-Organisation haben, wenden Sie sich an Ihr Adobe-Accountteam, um eine bereitzustellen.
 
@@ -81,7 +81,7 @@ Arbeiten Sie mit Ihrem Commerce-Administrator oder Implementierungspartner zusam
    composer update magento/module-catalog-enrichment
    ```
 
-1. Wenn Sie noch keine Katalog-Services installiert haben, [&#x200B; Sie (](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)).
+1. Wenn Sie noch keine Katalog-Services installiert haben, [&#x200B; Sie (](https://experienceleague.adobe.com/de/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)).
 
    **[!UICONTROL Catalog enrichment]** ist jetzt in Ihrer Commerce-Instanz verfügbar.
 
