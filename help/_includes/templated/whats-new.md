@@ -23,7 +23,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">Kataloganreicherung</a> mit Anleitungen zum Überprüfen und Anwenden von durch KI vorgeschlagenen Produktnamen- und Beschreibungsaktualisierungen im Admin-Bereich hinzugefügt und das Thema über die Themen <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">Katalogmenü</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">Anleitungsübersicht</a> und verwandte Produkteinstellungen verknüpft.</p>
+      <td><p>Es wurde <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/products/catalog-enrichment">Kataloganreicherung</a> mit Anleitungen zum Überprüfen und Anwenden von durch KI vorgeschlagenen Produktnamen- und Beschreibungsaktualisierungen im Admin-Bereich hinzugefügt und das Thema über die Themen <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/catalog-menu">Katalogmenü</a>, <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/guide-overview">Anleitungsübersicht</a> und verwandte Produkteinstellungen verknüpft.</p>
 </td>
       <td>
         Neues Thema
@@ -45,7 +45,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Aktualisierung des Systemadministratorzugriffs</a> mit Anleitungen für die Verwaltung von Systemadministratorzuweisungen in Adobe Admin Console hinzugefügt.</p>
+      <td><p>Es wurde <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Aktualisierung des Systemadministratorzugriffs</a> mit Anleitungen für die Verwaltung von Systemadministratorzuweisungen in Adobe Admin Console hinzugefügt.</p>
 </td>
       <td>
         Feedback
@@ -67,7 +67,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde die Möglichkeit hinzugefügt<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes"> in Adobe Commerce as a Cloud Service benutzerdefinierte Gutscheincodes </a> erstellen.</p>
+      <td><p>Es wurde die Möglichkeit hinzugefügt<a href="https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes"> in Adobe Commerce as a Cloud Service benutzerdefinierte Gutscheincodes </a> erstellen.</p>
 </td>
       <td>
         Größere Aktualisierung
@@ -89,7 +89,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Die Commerce-Dokumentation <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import">Datenimport</a> wurde mit Anleitungen aktualisiert, wie eine unnötige URL-Neuschreibungsgenerierung während Importvorgängen vermieden werden kann.</p>
+      <td><p>Die Commerce-Dokumentation <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/systems/data-transfer/import/data-import">Datenimport</a> wurde mit Anleitungen aktualisiert, wie eine unnötige URL-Neuschreibungsgenerierung während Importvorgängen vermieden werden kann.</p>
 </td>
       <td>
         Feedback, technisch
