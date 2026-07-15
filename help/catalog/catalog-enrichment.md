@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 69e598995a3f7fbbb23c4cde3bc28334ef2feafe
+source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
 workflow-type: tm+mt
-source-wordcount: 1649
+source-wordcount: 1697
 ht-degree: 0%
 
 ---
@@ -65,8 +65,11 @@ Die folgenden Voraussetzungen gelten, wenn Sie Zugriff auf die Kataloganreicheru
 - Die erforderlichen Commerce-Services und die Katalogkonnektivität sind aktiviert und funktionieren ordnungsgemäß. Weitere Informationen [&#x200B; Sie unter &#x200B;](#enable-catalog-enrichment) der Kataloganreicherung aktivieren .
 - [IMS ist konfiguriert](https://experienceleague.adobe.com/de/docs/core-services/interface/administration/organizations).
 - Sie haben Zugriff auf die [Adobe Admin Console](https://helpx.adobe.com/de/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Ihre Organisation hat den GenAI-Fahrer für die zugrunde liegenden KI-Services unterzeichnet oder sich ausdrücklich dagegen entschieden.
 
-> Wenn Sie keine IMS-Organisation haben, wenden Sie sich an Ihr Adobe-Accountteam, um eine bereitzustellen.
+>[!NOTE]
+>
+>Im Rahmen der Einrichtung überprüft Commerce, ob Ihr Unternehmen den GenAI-Treiber unterzeichnet hat, der die KI-Services hinter der Kataloganreicherung abdeckt. Wenn Sie den Fahrer noch nicht angemeldet oder sich abgemeldet haben, werden Sie aufgefordert, den Fahrer zu signieren oder zu aktualisieren, bevor Sie die Kataloganreicherung verwenden können.
 
 ## Kataloganreicherung aktivieren {#enable-catalog-enrichment}
 
