@@ -19,9 +19,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: aafd8101d1380e3f6ce774ab6ccdcb36e2788bb0
+source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1653
 ht-degree: 0%
 
 ---
@@ -112,11 +112,7 @@ Konfigurieren Sie die Kataloganreicherung auf der Registerkarte **[!UICONTROL Se
    - **[!UICONTROL Store View URL]**: URL, die der Store-Ansicht entspricht (z. B. `https://brand.example.com/fr/`).
    - **[!UICONTROL Environment ID]**: Eindeutige Kennung für die [!DNL Adobe Commerce] Umgebung, auf die die Verbindung zugreift.
    - **[!UICONTROL Website Code]**, **[!UICONTROL Store Code]** und **[!UICONTROL Store View Code]**: Website-, Store- und Store-Ansichtscodes für die Commerce-Website. Diese Werte müssen mit den Codes in Ihrem Commerce-Admin übereinstimmen.
-
-1. Optional: Geben Sie **[!UICONTROL Host Name]** und **[!UICONTROL API Key]** ein, wenn Ihre Umgebung dies erfordert.
-
    - **[!UICONTROL Host Name]**: Host-Name Ihrer [!DNL Adobe Commerce].
-   - **[!UICONTROL API Key]**: Authentifizierungsschlüssel für den sicheren Zugriff auf [!DNL Adobe Commerce] APIs. Klicken Sie auf **[!UICONTROL Copy]** neben dem Feld, wenn Sie den Schlüssel an eine andere Stelle kopieren müssen.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -135,8 +131,7 @@ Erforderliche Felder sind im **[!UICONTROL Commerce Configuration]** Formular mi
 | Website-Code | Ja | Website-Code der Commerce-Website. |
 | Speichercode | Ja | Store-Code der Commerce-Website. |
 | Code für Shop-Ansicht | Ja | Store-Ansicht der Commerce-Website. |
-| Host-Name | Nein | Hostname der [!DNL Adobe Commerce]. |
-| API-Schlüssel | Nein | Authentifizierungsschlüssel für den sicheren Zugriff auf [!DNL Adobe Commerce] APIs. Behandeln Sie sie wie Produktionsberechtigungen. |
+| Host-Name | Ja | Hostname der [!DNL Adobe Commerce]. |
 
 ### Überprüfen und Anwenden der Kataloganreicherung {#review-and-apply}
 
