@@ -3,32 +3,16 @@ title: HIPAA-Bereitschaft auf Adobe Commerce
 description: Erfahren Sie, wie Sie in Adobe Commerce die Erweiterung für HIPAA-Konformität hinzufügen und zusätzliche Funktionen für die Einhaltung der HIPAA-Vorschriften nutzen können.
 feature: Security, Compliance
 exl-id: 4b3eb5b0-4475-47df-92a9-10d12fec1e66
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/0K0f6Rb5ukFbiCj4ySxhl-4-OzJ4Luu2nKwhTHGeYW8
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
 workflow-type: tm+mt
-source-wordcount: 2567
+source-wordcount: 2612
 ht-degree: 1%
 
 ---
@@ -68,8 +52,8 @@ Die folgende Tabelle zeigt die Kompatibilität zwischen Adobe Commerce-Versionen
 
 | Adobe Commerce | Unterstützt | Notizen |
 |----------------|-----------|-------|
-| 2.4.8-p5 | 1.3.0 | Unterstützung für 2.4.8-p5 erfordert einen [Kompatibilitäts-Patch](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-30555) |
-| 2.4.7-p4 und höher -p Versionen | 1.2.0 | Unterstützung für 2.4.7-P4 erfordert einen [Kompatibilitäts-Patch](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-27147) |
+| 2.4.8-p5 | 1.3.0 | Unterstützung für 2.4.8-p5 erfordert einen [Kompatibilitäts-Patch](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-30555) |
+| 2.4.7-p4 und höher -p Versionen | 1.2.0 | Unterstützung für 2.4.7-P4 erfordert einen [Kompatibilitäts-Patch](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27147) |
 | 2.4.6-p9 - 2.4.6-p10 | 1.2.0 | |
 | 2.4.6-p8 | 1.1.0 | Die Unterstützung für [Datendienste](#adobe-commerce-services) wurde mit Version 1.1.0 eingeführt |
 | 2.4.6-p3 - 2.4.6-p7 | 1.0.0 | |
@@ -88,7 +72,7 @@ Die folgende Tabelle zeigt die Kompatibilität zwischen Adobe Commerce-Versionen
 >[!BEGINSHADEBOX]
 
 - Adobe hat Ihr Adobe Commerce-Konto für den Zugriff auf die HIPAA-fähige Erweiterung bereitgestellt.
-- Zugriff auf [repo.magento.com](https://repo.magento.com) zur Installation der Erweiterung. Informationen zum Generieren von Schlüsseln und zum Abrufen der erforderlichen Berechtigungen finden Sie unter [Abrufen Ihrer Authentifizierungsschlüssel](https://experienceleague.adobe.com/de/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
+- Zugriff auf [repo.magento.com](https://repo.magento.com) zur Installation der Erweiterung. Informationen zum Generieren von Schlüsseln und zum Abrufen der erforderlichen Berechtigungen finden Sie unter [Abrufen Ihrer Authentifizierungsschlüssel](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
 
 >[!ENDSHADEBOX]
 
@@ -96,13 +80,13 @@ Installieren Sie die neueste Version der HIPAA-fähigen Service-Erweiterung (`ma
 
 >[!NOTE]
 >
->Um sicherzustellen, dass Backoffice-Ereignisdaten, die an Experience Platform gesendet werden, HIPAA-fähig sind, lesen Sie das [Handbuch zur Datenverbindungserweiterung](https://experienceleague.adobe.com/de/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
+>Um sicherzustellen, dass Backoffice-Ereignisdaten, die an Experience Platform gesendet werden, HIPAA-fähig sind, lesen Sie das [Handbuch zur Datenverbindungserweiterung](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/install#install-the-data-services-hipaa-extension).
 
 1. Wechseln Sie auf Ihrer lokalen Workstation in das Projektverzeichnis für Ihr Adobe Commerce on Cloud-Infrastrukturprojekt.
 
    >[!NOTE]
    >
-   >Informationen zur lokalen Verwaltung von Commerce-Projektumgebungen finden Sie unter [Verwalten von Verzweigungen mit der CLI](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/develop/cli-branches) im _Benutzerhandbuch für Adobe Commerce auf Cloud-Infrastruktur_.
+   >Informationen zur lokalen Verwaltung von Commerce-Projektumgebungen finden Sie unter [Verwalten von Verzweigungen mit der CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/cli-branches) im _Benutzerhandbuch für Adobe Commerce auf Cloud-Infrastruktur_.
 
 1. Checken Sie die Umgebungsverzweigung aus, um sie mithilfe der Adobe Commerce Cloud-CLI zu aktualisieren.
 
@@ -130,7 +114,7 @@ Installieren Sie die neueste Version der HIPAA-fähigen Service-Erweiterung (`ma
    git push origin <branch-name>
    ```
 
-   Durch das Pushen der Aktualisierungen wird der [Commerce-Cloud-Bereitstellungsprozess](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/develop/deploy/process) zum Anwenden der Änderungen initiiert. Überprüfen Sie den Bereitstellungsstatus im [Bereitstellungsprotokoll](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
+   Durch das Pushen der Aktualisierungen wird der [Commerce-Cloud-Bereitstellungsprozess](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/process) zum Anwenden der Änderungen initiiert. Überprüfen Sie den Bereitstellungsstatus im [Bereitstellungsprotokoll](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations).
 
 ### Installation überprüfen
 
@@ -185,23 +169,23 @@ Das _Aktionslogs_ Berichtsraster (**[!UICONTROL System]** > Aktionsprotokolle > 
 
 1. Es wurden zwei Spalten hinzugefügt:
    - ***Source***: Zeigt an, wo die Aktion ausgeführt wurde.
-Werte: `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
+     Werte: `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***Client-***: Zeigt den Client-Typ an.
-Werte: Kunde | Admin | Integration
+     Werte: Kunde | Admin | Integration
 
 2. Die Spalte ***Benutzername*** wurde in &quot;***&quot;***
    - ***Client-Kennung***: Zeigt die Anmelde-ID des Benutzers an, der die Aktion ausgeführt hat.
-Werte:
-      - eine E-Mail, wenn Client-Typ Kunde ist
-      - Benutzername, wenn Client-Typ „Admin“ ist
-      - ein Name, wenn Client-Typ „Integration“ ist
+     Werte:
+     - eine E-Mail, wenn Client-Typ Kunde ist
+     - Benutzername, wenn Client-Typ „Admin“ ist
+     - ein Name, wenn Client-Typ „Integration“ ist
 
 3. Die Spalte ***Vollständiger Aktionsname*** wurde in &quot;***&quot;***
    - ***Target***: Zeigt den Aktionsnamen an.
-Werte:
-      - Ein Endpunkt, wenn Source eine REST-API oder SOAP-API ist
-      - Abfrage- oder Mutationsname einer GraphQL-API
-      - Ein Aktionsname in einer Admin-Benutzeroberfläche oder Kunden-Benutzeroberfläche.
+     Werte:
+     - Ein Endpunkt, wenn Source eine REST-API oder SOAP-API ist
+     - Abfrage- oder Mutationsname einer GraphQL-API
+     - Ein Aktionsname in einer Admin-Benutzeroberfläche oder Kunden-Benutzeroberfläche.
 
 #### Konfigurieren von Admin-Aktionen für die Protokollierung
 
@@ -253,7 +237,7 @@ Die Verbesserungen der Import- und Exportfunktionen konzentrieren sich auf die V
 
 #### Protokollierung administrativer Aktionen
 
-Eine der wichtigsten Verbesserungen bei den Import- und Exportfunktionen ist die verbesserte Protokollierung von Verwaltungsaktionen. Diese Verbesserung bietet die Möglichkeit, tiefere Einblicke in Aktivitäten im Zusammenhang mit dem Datenimport und -export zu erhalten, was zu einer verbesserten Nachverfolgung und Auditierbarkeit beiträgt. Die folgenden Aktionen werden jetzt protokolliert und im Raster **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**&#x200B;angezeigt:
+Eine der wichtigsten Verbesserungen bei den Import- und Exportfunktionen ist die verbesserte Protokollierung von Verwaltungsaktionen. Diese Verbesserung bietet die Möglichkeit, tiefere Einblicke in Aktivitäten im Zusammenhang mit dem Datenimport und -export zu erhalten, was zu einer verbesserten Nachverfolgung und Auditierbarkeit beiträgt. Die folgenden Aktionen werden jetzt protokolliert und im Raster **[!UICONTROL System]> _[!UICONTROL Action Logs]_>[!UICONTROL Report]**angezeigt:
 
 | Typ | Aktionen |
 | ---- | ------- |
@@ -304,13 +288,13 @@ In der folgenden Tabelle sind die Adobe Commerce-Services aufgeführt, die für 
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | [Adobe Developer App Builder](https://developer.adobe.com/app-builder/docs/intro_and_overview/) | Ja | Ja |
 | [API Mesh für Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/) | Ja | Ja |
-| [SaaS-Datenexport](https://experienceleague.adobe.com/de/docs/commerce/saas-data-export/overview) | Ja | Ja |
-| [Live-Suche](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview) | Nein | Nein |
-| [Produktempfehlungen](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/overview) | Nein | Nein |
-| [Zahlungsdienste](https://experienceleague.adobe.com/de/docs/commerce/payment-services/guide-overview) | Nein | Nein |
-| [Back-Office-Ereignisse der Datenverbindung](https://experienceleague.adobe.com/de/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
-| [Datenverbindungs-Storefront-Ereignisse](https://experienceleague.adobe.com/de/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nein | Nein |
-| [Audience Activation](https://experienceleague.adobe.com/de/docs/commerce-admin/customers/audience-activation) | Nein | Nein |
+| [SaaS-Datenexport](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview) | Ja | Ja |
+| [Live-Suche](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) | Nein | Nein |
+| [Produktempfehlungen](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) | Nein | Nein |
+| [Zahlungsdienste](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) | Nein | Nein |
+| [Back-Office-Ereignisse der Datenverbindung](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events-backoffice) | Ja | Ja |
+| [Datenverbindungs-Storefront-Ereignisse](https://experienceleague.adobe.com/en/docs/commerce/data-connection/event-forwarding/events#storefront-events) | Nein | Nein |
+| [Audience Activation](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/audience-activation) | Nein | Nein |
 
 ### Tools
 
@@ -322,7 +306,7 @@ Mit dem [Security Scan Tool](../../systems/security-scan.md) für Adobe Commerce
 - Alle installierten Erweiterungen entsprechen einer vordefinierten Zulassungsliste
 - Es sind keine nicht unterstützten Adobe-Services installiert
 
-Sie können [das Tool konfigurieren](../../systems/security-scan.md#run-a-security-scan) um Ihnen E-Mail-Benachrichtigungen mit Details aus geplanten Scans zu senden oder [Berichte manuell anzuzeigen](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/launch/overview).
+Sie können [das Tool konfigurieren](../../systems/security-scan.md#run-a-security-scan) um Ihnen E-Mail-Benachrichtigungen mit Details aus geplanten Scans zu senden oder [Berichte manuell anzuzeigen](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/launch/overview).
 
 ## Deaktivierte Funktionen
 
@@ -330,10 +314,12 @@ Um HIPAA-Anforderungen zu erfüllen, sind einige von Adobe Commerce unterstützt
 
 Die folgenden Funktionen sind im Modul HIPAA-Bereitschaft standardmäßig deaktiviert. Händler können diese Funktionen auf eigenes Risiko aktivieren.
 
-- **[Transaktions-E-](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/project/sendgrid)**: SendGrid ist standardmäßig deaktiviert, da der Service nicht HIPAA-fähig ist. Adobe Commerce bietet eine Integrationsoption, die Sie mit Ihrem eigenen [AWS Simple Email Service](https://docs.aws.amazon.com/ses/)-Konto verwenden können. Weitere Konfigurationsdetails erhalten Sie von Ihrem Customer Technical Account Manager oder dem Adobe Commerce Support.
+- **[Transaktions-E-](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/sendgrid)**: SendGrid ist standardmäßig deaktiviert, da der Service nicht HIPAA-fähig ist. Adobe Commerce bietet eine Integrationsoption, die Sie mit Ihrem eigenen [AWS Simple Email Service](https://docs.aws.amazon.com/ses/)-Konto verwenden können. Weitere Konfigurationsdetails erhalten Sie von Ihrem Customer Technical Account Manager oder dem Adobe Commerce Support.
 
 - **[Gast-Checkout](../../stores-purchase/checkout-guest.md)** - Diese Funktion stellt ein potenzielles Risiko für verschiedene Aspekte von HIPAA dar, einschließlich Protokollierung, Zugriffskontrolle, PHI-Hygiene und Herkunft und möglicherweise mehr.
 
 - **[Newsletter-Funktion](../../merchandising-promotions/newsletters.md)** - Diese Funktion ist deaktiviert, um die Verwendung von PHI in einem Marketing-Kontext zu verhindern.
 
 - **[Einstellung des erweiterten Reporting-](../../getting-started/business-intelligence.md)**: Diese Konfigurationseinstellung ist deaktiviert, um zu verhindern, dass PHI für die Analyse und das Reporting verwendet wird.
+
+- **[Kataloganreicherung](../../catalog/catalog-enrichment.md)** - Diese Funktion ist deaktiviert, da sie auf nicht HIPAA-fähige KI-Services ([!DNL Commerce Catalog Agent] und [!DNL Adobe LLM Optimizer]) angewiesen ist, die Storefront- und Katalogsignale außerhalb der HIPAA-fähigen Grenze analysieren. Die Aktivierung dieser Funktion könnte PHI für Systeme verfügbar machen, die nicht von den HIPAA-fähigen Services von Adobe abgedeckt werden.
