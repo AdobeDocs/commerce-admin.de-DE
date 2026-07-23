@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
 workflow-type: tm+mt
-source-wordcount: 2567
+source-wordcount: 2612
 ht-degree: 1%
 
 ---
@@ -185,23 +185,23 @@ Das _Aktionslogs_ Berichtsraster (**[!UICONTROL System]** > Aktionsprotokolle > 
 
 1. Es wurden zwei Spalten hinzugefügt:
    - ***Source***: Zeigt an, wo die Aktion ausgeführt wurde.
-Werte: `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
+     Werte: `Admin UI` | `Customer UI` | `REST API` | `SOAP API` | `GraphQL API`
    - ***Client-***: Zeigt den Client-Typ an.
-Werte: Kunde | Admin | Integration
+     Werte: Kunde | Admin | Integration
 
 2. Die Spalte ***Benutzername*** wurde in &quot;***&quot;***
    - ***Client-Kennung***: Zeigt die Anmelde-ID des Benutzers an, der die Aktion ausgeführt hat.
-Werte:
-      - eine E-Mail, wenn Client-Typ Kunde ist
-      - Benutzername, wenn Client-Typ „Admin“ ist
-      - ein Name, wenn Client-Typ „Integration“ ist
+     Werte:
+     - eine E-Mail, wenn Client-Typ Kunde ist
+     - Benutzername, wenn Client-Typ „Admin“ ist
+     - ein Name, wenn Client-Typ „Integration“ ist
 
 3. Die Spalte ***Vollständiger Aktionsname*** wurde in &quot;***&quot;***
    - ***Target***: Zeigt den Aktionsnamen an.
-Werte:
-      - Ein Endpunkt, wenn Source eine REST-API oder SOAP-API ist
-      - Abfrage- oder Mutationsname einer GraphQL-API
-      - Ein Aktionsname in einer Admin-Benutzeroberfläche oder Kunden-Benutzeroberfläche.
+     Werte:
+     - Ein Endpunkt, wenn Source eine REST-API oder SOAP-API ist
+     - Abfrage- oder Mutationsname einer GraphQL-API
+     - Ein Aktionsname in einer Admin-Benutzeroberfläche oder Kunden-Benutzeroberfläche.
 
 #### Konfigurieren von Admin-Aktionen für die Protokollierung
 
@@ -337,3 +337,5 @@ Die folgenden Funktionen sind im Modul HIPAA-Bereitschaft standardmäßig deakti
 - **[Newsletter-Funktion](../../merchandising-promotions/newsletters.md)** - Diese Funktion ist deaktiviert, um die Verwendung von PHI in einem Marketing-Kontext zu verhindern.
 
 - **[Einstellung des erweiterten Reporting-](../../getting-started/business-intelligence.md)**: Diese Konfigurationseinstellung ist deaktiviert, um zu verhindern, dass PHI für die Analyse und das Reporting verwendet wird.
+
+- **[Kataloganreicherung](../../catalog/catalog-enrichment.md)** - Diese Funktion ist deaktiviert, da sie auf nicht HIPAA-fähige KI-Services ([!DNL Commerce Catalog Agent] und [!DNL Adobe LLM Optimizer]) angewiesen ist, die Storefront- und Katalogsignale außerhalb der HIPAA-fähigen Grenze analysieren. Die Aktivierung dieser Funktion könnte PHI für Systeme verfügbar machen, die nicht von den HIPAA-fähigen Services von Adobe abgedeckt werden.

@@ -3,7 +3,6 @@ title: Kataloganreicherung
 description: Verwenden Sie die native Kataloganreicherungsfunktion in Adobe Commerce, um die von KI vorgeschlagenen Verbesserungen der Produktnamen und langen Beschreibungen für LLM und die KI-unterstützte Erkennung zu überprüfen und anzuwenden.
 role: Admin, User, Leader
 recommendations: noCatalog
-hide: true
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
@@ -19,9 +18,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ca07fcb79b3a1c7d4c1f72f1680ccf3ac5241307
+source-git-commit: a5d9ef32b56d3f422e7af6352002ed5827fc185c
 workflow-type: tm+mt
-source-wordcount: 1653
+source-wordcount: 2182
 ht-degree: 0%
 
 ---
@@ -240,4 +239,37 @@ Diese Regeln helfen Ihnen zu ermitteln, ob Kataloganreicherung, Aufnahme-Feeds o
 - Koordinieren Sie sich mit SEO- und Marken-Teams, bevor Sie Titel oder Beschreibungen in großen Mengen anwenden.
 - Führen Sie nach wichtigen Katalogimporten eine Synchronisierung bzw. Neuanalyse durch, damit die Vorschläge den aktuellen Katalogstatus widerspiegeln.
 
-<!--## Examples This section will provide examples of what enrichment before/after looks like:-->
+## Beispiele
+
+Die folgenden Beispiele zeigen, wie die Kataloganreicherung technische Rohattribute in kundenorientierte, erzählerische Produktkopien umwandelt, die LLMs zur Beantwortung von Fragen zum Einkauf verwenden können.
+
+### Beispiel: Kaffeeprodukt mit technischen Attributen
+
+Ein Coffee retailer-Katalog speichert nur die technischen Daten für ein Kaffeebohnen-Produkt mit mittlerer Röstung: Bohnensorte, Ursprungsregion, Verarbeitungsmethode, Röstniveau und Höhenbereich. Diese Felder beschreiben das Produkt, vermitteln dem Käufer jedoch nicht seinen Wert, sodass ein KI-Assistent wenig zu tun hat, wenn er eine Frage wie „Welcher Kaffee hat einen glatten, säurearmen Geschmack?“ beantwortet.
+
+Die Kataloganreicherung liest die technischen Attribute und Gründe durch ihre Interaktion, um daraus käuferrelevante Merkmale abzuleiten:
+
+| Technisches Attribut | Abgeleitetes Merkmal | Überlegung |
+| --- | --- | --- |
+| Honigverfahren, Medium Roast | Niedriger Säuregehalt | Obstschleim, der während der Honigverarbeitung auf der Bohne verbleibt, unterdrückt den Säuregehalt, und der mittlere Braten zersetzt die restlichen sauren Verbindungen. |
+| Honigverfahren, Arabica, Medium Roast | Haselnussaroma | Fruchtzucker aus dem Schleim verbinden sich mit Arabicas natürlichen Nussnoten, verstärkt bei mittlerem Rösten. |
+| Honigverfahren, Arabica | Reichhaltiges, cremiges Mundgefühl | Öle, die während der Trocknung aus dem Schleim absorbiert werden, erhöhen die Viskosität und den Körper. |
+| Honigverfahren, Höhe 900-1200m | Karamelll-Untertöne | Die dichteren, hoch gelegenen Bohnen entwickeln komplexere Zucker, die durch die Honigverarbeitung vertieft werden. |
+
+Die Kataloganreicherung wendet diese abgeleiteten Merkmale auf die Produktkopie an:
+
+- **Vorher**: &quot;Medium Röstkaffeebohnen - Arabica, Brasilien Minas Gerais, Honigverfahren, 900-1200m“
+- **Nachher**: „Arabica-Bohnen, die in 900-1200m im brasilianischen Minas Gerais angebaut werden, Honig verarbeitet und mittelgeröstet, entwickeln ein natürlich süßes, cremiges Mundgefühl mit ausgeprägtem Haselnuss-Charakter, Karamelll-Untertönen und geringer Säure. Ein konsistenter, zugänglicher Spezialkaffee, den man am besten durch Umgießen erleben kann.“
+
+Der aktualisierte Name und die aktualisierte Beschreibung werden direkt im Commerce-Katalog gespeichert, sodass die Storefront, die LLM-Feeds und andere Kanäle, die diese Felder lesen, alle dieselbe angereicherte Kopie widerspiegeln.
+
+### Beispiel: Modulare Möbelkonfiguration
+
+Ein Möbel-retailer verkauft eine modulare Sektionalcouch, bei der die Produktbeschreibung nur die Konfigurationscodes und Stoffnamen auflistet, z. B. `6 Standard Seats + 6 Standard Sides in Sapphire Navy Corded Velvet`. Diese Kurzschreibweise ist für einen wiederkehrenden Kunden verständlich, gibt einem KI-Assistenten jedoch wenig Kontext darüber, wie das Produkt funktioniert oder was es langlebig oder komfortabel macht.
+
+Die Kataloganreicherung erweitert die Konfigurations- und Fabric-Attribute zu einer erzählenden Beschreibung, die erklärt, was jede Komponente tut und warum sie für einen Käufer wichtig ist:
+
+- **Vorher**: „6 Standardsitze + 6 Standardseiten in Sapphire Navy Corded Velvet“
+- **Nachher**: „Diese Konfiguration umfasst 6 Standard-Sitzeinsätze und 6 Standard-Seiteneinsätze, die austauschbar als Arme oder Rücken fungieren und die modularen Bausteine Ihres Layouts bilden. Jeder Sitz verfügt über Standardschaum mit drei hochdichten Schichten, die entwickelt wurden, um den Auftrieb zu erhalten und dem Durchhängen zu widerstehen. Die Sapphire Navy Corded Velvet Hülle ist genauso haltbar wie luxuriös, mit strukturierten Kordeln, die einen subtilen Glanz und ein weiches, weiches Gefühl erzeugen. Die Abdeckungen werden von Hand genäht, um einen präzisen, maßgeschneiderten Look zu erzielen, und sind maschinenwaschbar und veränderbar, sodass sich Ihr Schnitt mit Ihrem Raum entwickeln kann.“
+
+Da die angereicherte Beschreibung in den Commerce-Katalog zurückgeschrieben wird, ist sie für KI-Bots verfügbar, die die Produktdetailseite crawlen haben, sowie für jeden nachgelagerten Kanal oder Feed, der die Katalogdaten des Produkts verwendet, ohne das Layout oder Design zu ändern, das Kundinnen und Kunden auf der Seite sehen.
