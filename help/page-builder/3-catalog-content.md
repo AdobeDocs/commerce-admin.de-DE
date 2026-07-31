@@ -201,7 +201,7 @@ In diesem Schritt erstellen Sie zwei neue benutzerdefinierte Attribute, um zu ze
 
    Verwenden Sie für dieses Beispiel `My Page Builder Attribute` für die Bezeichnung .
 
-1. Legen Sie **[!UICONTROL Catalog Input Type for Store Owner]** auf `Page Builder` fest. [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+1. Legen Sie **[!UICONTROL Catalog Input Type for Store Owner]** auf `Page Builder` fest. [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
    Beim Erstellen eines benutzerdefinierten Attributs können Sie den Editor, der für das Programm am besten geeignet ist, entweder als `Page Builder` oder als standardmäßige WYSIWYG-`Text Editor` angeben.
 
