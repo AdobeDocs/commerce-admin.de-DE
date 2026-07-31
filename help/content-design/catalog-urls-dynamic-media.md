@@ -3,7 +3,7 @@ title: Dynamic Media-URLs
 description: Erfahren Sie mehr über die Verwendung einer Dynamic Media-URL als relativer Verweis auf ein Bild oder ein anderes Medien-Asset.
 exl-id: 41aabde2-f6cc-4b83-8d56-9753a7aa93e9
 feature: CMS, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/nml-pHTHdSPcvIVnRwlyjJPhEo2PWdTEKfkn2AFKjvA
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047

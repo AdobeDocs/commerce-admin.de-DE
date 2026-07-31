@@ -2,7 +2,7 @@
 title: Einfügen eines Widgets in den Editor
 description: Fügen Sie einer Seite mithilfe des Widget-Tools im WYSIWYG-Editor verschiedene Inhaltselemente hinzu.
 exl-id: bbc5e059-06d8-4dda-89a7-6c9826b73fd3
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/NdvL4SUXxRGF451r8SpP6JJ5iBa0gJoU4QIqTMefvc8
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
