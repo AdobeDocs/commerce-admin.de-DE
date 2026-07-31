@@ -3,10 +3,11 @@ title: Asset-Management für Mediensammlung
 description: Erfahren Sie, wie Sie hochgeladene Mediendateien und Assets verwalten, die Sie über eine Adobe Stock-Integration erhalten.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+last-update: 2026-03-27T00:00:00Z
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -70,7 +71,7 @@ Assets kann nur in `pub/media/wysywig`, `pub/media/catalog/category` oder andere
 
 ## Verwenden von Assets
 
-Assets kann im gesamten Admin-Bereich umfassend verwendet werden, z. B[&#x200B; (Hinzufügen oder Bearbeiten einer Seite](page-add.md), [Erstellen oder Bearbeiten einer Kategorie](../catalog/category-create.md) oder [Einfügen von Bildern aus dem Inhaltseditor](editor-insert-image.md).
+Assets kann im gesamten Admin-Bereich umfassend verwendet werden, z. B[ (Hinzufügen oder Bearbeiten einer Seite](page-add.md), [Erstellen oder Bearbeiten einer Kategorie](../catalog/category-create.md) oder [Einfügen von Bildern aus dem Inhaltseditor](editor-insert-image.md).
 
 1. Greifen Sie in einem Bereich auf die neue Mediensammlung zu, in dem Sie Medien-Assets verwenden können.
 
@@ -106,7 +107,7 @@ Assets kann im gesamten Admin-Bereich umfassend verwendet werden, z. B[&#x200B; 
 
 >[!NOTE]
 >
->Die Funktion _Verwendet in_ erfordert, dass [!UICONTROL Media Gallery Image Optimization] in den [Konfigurationseinstellungen“ aktiviert &#x200B;](media-gallery-image-optimization.md).
+>Die Funktion _Verwendet in_ erfordert, dass [!UICONTROL Media Gallery Image Optimization] in den [Konfigurationseinstellungen“ aktiviert ](media-gallery-image-optimization.md).
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 
