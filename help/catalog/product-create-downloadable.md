@@ -22,7 +22,8 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-05-22
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1638
 ht-degree: 0%
@@ -215,8 +216,8 @@ Nach der Aktivierung besteht der _[!UICONTROL Downloadable Information]_&#x200B;
 
    - Wählen Sie sowohl für **[!UICONTROL File]**- als auch für **[!UICONTROL Sample]**-Dateien eine der folgenden Verteilungsmethoden für die Downloads:
 
-      - `Upload File` : Wählen Sie diese Methode aus, um die Verteilungsdatei auf den Server hochzuladen. Navigieren Sie zur Datei und wählen Sie sie zum Hochladen aus.
-      - `URL` : Wählen Sie diese Methode aus, um über eine URL auf die Verteilungsdatei zuzugreifen. Geben Sie die vollständige URL zum Herunterladen der Datei ein.
+     - `Upload File` : Wählen Sie diese Methode aus, um die Verteilungsdatei auf den Server hochzuladen. Navigieren Sie zur Datei und wählen Sie sie zum Hochladen aus.
+     - `URL` : Wählen Sie diese Methode aus, um über eine URL auf die Verteilungsdatei zuzugreifen. Geben Sie die vollständige URL zum Herunterladen der Datei ein.
 
    >[!NOTE]
    >
@@ -224,16 +225,16 @@ Nach der Aktivierung besteht der _[!UICONTROL Downloadable Information]_&#x200B;
 
    - Legen Sie **[!UICONTROL Shareable]** auf eine der folgenden Einstellungen fest:
 
-      - `No` - Erfordert, dass sich Kunden bei ihren Konten anmelden, um auf den Download-Link zuzugreifen.
+     - `No` - Erfordert, dass sich Kunden bei ihren Konten anmelden, um auf den Download-Link zuzugreifen.
 
-      - `Yes` - Sendet den Link per E-Mail, die Kundinnen und Kunden für andere freigeben können.
+     - `Yes` - Sendet den Link per E-Mail, die Kundinnen und Kunden für andere freigeben können.
 
-      - `Use Config` - Verwendet die Methode, die in der Konfiguration [Herunterladbare Produktoptionen](../configuration-reference/catalog/catalog.md) angegeben ist.
+     - `Use Config` - Verwendet die Methode, die in der Konfiguration [Herunterladbare Produktoptionen](../configuration-reference/catalog/catalog.md) angegeben ist.
 
    - Führen Sie einen der folgenden Schritte aus:
 
-      - Um Downloads pro Kunde zu begrenzen, geben Sie die maximale Anzahl für **[!UICONTROL Max. Downloads]** ein.
-      - Um unbegrenzte Downloads zuzulassen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Unlimited]** .
+     - Um Downloads pro Kunde zu begrenzen, geben Sie die maximale Anzahl für **[!UICONTROL Max. Downloads]** ein.
+     - Um unbegrenzte Downloads zuzulassen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Unlimited]** .
 
    ![Link-Detail](./assets/product-downloadable-link-detail.png){width="600" zoomable="yes"}
 
@@ -253,8 +254,8 @@ Nach der Aktivierung besteht der _[!UICONTROL Downloadable Information]_&#x200B;
 
    - Wählen Sie eine der folgenden Verteilungsmethoden:
 
-      - `Upload File` : Wählen Sie diese Methode aus, um die Verteilungsdatei auf den Server hochzuladen. Navigieren Sie zur Datei und wählen Sie sie zum Hochladen aus.
-      - `URL` : Wählen Sie diese Methode aus, um über eine URL auf die Verteilungsdatei zuzugreifen. Geben Sie die vollständige URL zum Herunterladen der Datei ein.
+     - `Upload File` : Wählen Sie diese Methode aus, um die Verteilungsdatei auf den Server hochzuladen. Navigieren Sie zur Datei und wählen Sie sie zum Hochladen aus.
+     - `URL` : Wählen Sie diese Methode aus, um über eine URL auf die Verteilungsdatei zuzugreifen. Geben Sie die vollständige URL zum Herunterladen der Datei ein.
 
    - Um ein weiteres Beispiel hinzuzufügen, klicken Sie auf **[!UICONTROL Add Link]** und wiederholen Sie diese Schritte.
 

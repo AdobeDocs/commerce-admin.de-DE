@@ -19,16 +19,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 780
+source-wordcount: 804
 ht-degree: 0%
 
 ---
 
 # Attributeingabetypen
 
-In der Administratoransicht sind Attribute die Felder, die Sie ausfüllen, wenn Sie ein Produkt erstellen. Der Eingabetyp, der einem Attribut zugewiesen ist, bestimmt den Typ der einzugebenden Daten und das Format des Felds oder Eingabesteuerelements. Aus Sicht des Kunden liefern Attribute Informationen über das Produkt und sind die Optionen und Dateneingabefelder, die zum Kauf eines Produkts ausgefüllt werden müssen.
+In der Administratoransicht sind Attribute die Felder, die Sie ausfüllen, wenn Sie ein Produkt erstellen. Der Eingabetyp, der einem Attribut zugewiesen ist, bestimmt den Typ der einzugebenden Daten und das Format des Felds oder Eingabesteuerelements. Für den Kunden liefern Attribute Informationen über das Produkt und sind die Optionen und Dateneingabefelder, die für den Kauf eines Produkts ausgefüllt werden müssen.
 
 ## Eingabetypen
 
@@ -49,7 +49,7 @@ In der Administratoransicht sind Attribute die Felder, die Sie ausfüllen, wenn 
 | [!UICONTROL Fixed Product Tax] | Ermöglicht die Definition [FPT](../stores-purchase/fixed-product-tax.md)Tarife basierend auf den Anforderungen Ihres Gebietsschemas. |
 | [!UICONTROL Visual Swatch] | Zeigt ein Farbfeld an, das die Farbe, Textur oder das Muster eines konfigurierbaren Produkts darstellt. Ein [visuelles Farbfeld](swatches.md) kann mit einem hexadezimalen Farbwert ausgefüllt werden oder ein hochgeladenes Bild anzeigen, das die Farbe, das Material, die Textur oder das Muster der Option darstellt. |
 | [!UICONTROL Text Swatch] | Eine textbasierte Darstellung einer konfigurierbaren Produktoption, die häufig für die Größe verwendet wird. [Textmuster](swatches.md) können auch hexadezimale Farbwerte enthalten. |
-| [!UICONTROL Page Builder] | Ein [[!DNL Page Builder]](../page-builder/workspace.md) Arbeitsbereich am Attributspeicherort, der das Hinzufügen ansprechender Inhalte zur Produktseite erleichtert. |
+| [!UICONTROL Page Builder] [!BADGE nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} | Ein [[!DNL Page Builder]](../page-builder/workspace.md) Arbeitsbereich am Attributspeicherort, der das Hinzufügen ansprechender Inhalte zur Produktseite erleichtert. |
 
 {style="table-layout:auto"}
 

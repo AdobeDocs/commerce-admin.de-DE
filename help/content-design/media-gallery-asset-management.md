@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie hochgeladene Mediendateien und Assets verwalt
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 7052319eb322cbf219aacebf4ba7642dbeb5ca96
+last-update: 2026-03-27T00:00:00Z
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---

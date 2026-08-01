@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 922
 ht-degree: 0%
 
 ---
@@ -40,25 +40,9 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
 1. Geben Sie **[!UICONTROL Default Label]** einen Titel ein, der das Attribut identifiziert.
 
-1. Um den Typ des Eingabedialogs zu bestimmen, der für die Dateneingabe verwendet wird, legen Sie **[!UICONTROL Catalog Input Type for Store Owner]** auf einen der folgenden Werte fest:
+1. Legen Sie **[!UICONTROL Catalog Input Type for Store Owner]** auf den Typ des [Eingabedialogs](attributes-input-types.md) fest, der für die Dateneingabe verwendet werden soll.
 
-   | Eigenschaft | Beschreibung |
-   |--- |--- |
-   | `Text Field` | Ein einzeiliges Eingabefeld für Text. |
-   | `Text Area` | Ein mehrzeiliges Eingabefeld zum Eingeben von Textabsätzen, z. B. eine Produktbeschreibung. Sie können den WYSIWYG-Editor verwenden, um den Text mit HTML-Tags zu formatieren, oder die Tags direkt in den Text eingeben. |
-   | `Text Editor` | Ein voll funktionsfähiger Texteditor am Attributspeicherort. |
-   | Datum | Zeigt einen Datumswert im [bevorzugten Format](attributes-input-types.md#date-and-time-options) und [Zeitzone](../getting-started/store-details.md#locale-options) an. Datumswerte können aus einer Liste oder einem Kalender ausgewählt werden ( ![Kalendersymbol](../assets/icon-calendar.png) ). <br/><br/>**_Hinweis:_**&#x200B;Je nach Systemkonfiguration können_ Admin_-Benutzer Datumsangaben direkt in ein Feld eingeben oder ein Datum aus dem Kalender oder der Liste auswählen. Weitere Informationen zum Angeben von Datums- und Uhrzeitwerten finden Sie unter [Optionen für Datum und Uhrzeit](attributes-input-types.md#date-and-time-options). |
-   | `Yes/No` | Zeigt eine Dropdown-Liste mit vordefinierten Optionen `Yes` und `No` an. |
-   | `Dropdown` | Zeigt eine Dropdown-Liste mit Werten an, die nur eine einzige Auswahl akzeptieren. Der Dropdown-Eingabetyp ist eine Schlüsselkomponente von [konfigurierbaren Produkten](product-create-configurable.md). |
-   | `Multiple Select` | Zeigt eine Dropdown-Liste mit Werten an, die mehrere Auswahlmöglichkeiten akzeptieren. |
-   | `Price` | Dieser Eingabetyp wird verwendet, um Preisfelder zu erstellen, die zusätzlich zu den vordefinierten Attributen erstellt werden: Preis, Sonderpreis, Stufenpreis und Kosten. Die verwendete Währung wird von Ihrer Systemkonfiguration bestimmt. |
-   | `Media Image` | Ordnet einem Produkt ein zusätzliches Bild zu, z. B. ein Produktlogo, Pflegehinweise oder Zutaten von einem Lebensmitteletikett. Wenn Sie dem Attributsatz eines Produkts ein Medienbildattribut hinzufügen, wird es zu einem zusätzlichen Bildtyp, zusammen mit „Basis“, „Klein“ und „Miniatur“. Das Medienbildattribut kann aus dem „Storefront[Medienbrowser“ &#x200B;](catalog-images-video.md#storefront-media-browser) werden. |
-   | `Fixed Product Tax` | Ermöglicht die Definition [FPT](../stores-purchase/fixed-product-tax.md)Tarife basierend auf den Anforderungen Ihres Gebietsschemas. |
-   | `Visual Swatch` | Zeigt ein Farbfeld an, das die Farbe, Textur oder das Muster eines konfigurierbaren Produkts darstellt. Ein [visuelles Farbfeld](swatches.md) kann mit einem hexadezimalen Farbwert ausgefüllt werden oder ein hochgeladenes Bild anzeigen, das die Farbe, das Material, die Textur oder das Muster der Option darstellt. |
-   | `Text Swatch` | Eine textbasierte Darstellung einer konfigurierbaren Produktoption, die häufig für die Größe verwendet wird. [Textmuster](swatches.md#text-based-swatches) können auch hexadezimale Farbwerte enthalten. |
-   | `Page Builder` | Ein voll funktionsfähiger [Page Builder](../page-builder/introduction.md)-Arbeitsbereich am Attributspeicherort, der das Hinzufügen ansprechender Inhalte zur Produktseite erleichtert. |
-
-   {style="table-layout:auto"}
+   Wenn das Attribut für ein (konfigurierbares [) verwendet wird](product-create-configurable.md) wählen Sie `Dropdown`. Legen Sie dann **[!UICONTROL Required]** auf `Yes` fest.
 
 1. Wenn Sie eine Optionsauswahl benötigen, bevor der Kunde das Produkt kaufen kann, setzen Sie **[!UICONTROL Values Required]** auf `Yes`.
 
@@ -88,7 +72,7 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
    Die verfügbaren Optionen hängen von der _[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;ab.
 
-1. Legen Sie **[!UICONTROL Scope]** fest, um anzugeben, wo in [Store-](../getting-started/websites-stores-views.md)&quot; das Attribut verwendet werden kann.
+1. Um anzugeben, wo in [Store-](../getting-started/websites-stores-views.md) das Attribut verwendet werden kann, legen Sie **[!UICONTROL Scope]** fest.
 
 1. Wenn Sie eine doppelte Werteingabe verhindern möchten, setzen Sie **[!UICONTROL Unique Value]** auf `Yes`.
 
@@ -134,7 +118,7 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
 1. Wenn das Attribut für die Suche verfügbar sein soll, setzen Sie **[!UICONTROL Use in Search]** auf `Yes`.
 
-   - Legen Sie den **[!UICONTROL Search Weight]** fest, um zu steuern, wo das Element in den Suchergebnissen angezeigt werden soll: 1 (niedrigste Gewichtung) bis 10 (höchste Gewichtung).
+   - Um zu steuern, wo das Element in den Suchergebnissen angezeigt werden soll, legen Sie den **[!UICONTROL Search Weight]** Wert fest: 1 (niedrigste Gewichtung) bis 10 (höchste Gewichtung).
 
    - Legen Sie die **[!UICONTROL Visible in Advanced Search]** nach Bedarf fest. Weitere Informationen finden Sie unter [Erweiterte Suche](search.md#advanced-search).
 
@@ -191,7 +175,7 @@ Jedes Attribut, das als Dropdown-Liste von Optionen für ein [konfigurierbares P
 
 Wenn ein Attribut gelöscht wird, wird es aus allen zugehörigen Produkten und Attributsätzen entfernt. Systemattribute sind Teil der Kernfunktionalität Ihres Stores und können nicht gelöscht werden.
 
-Bevor Sie ein Attribut löschen, stellen Sie sicher, dass es derzeit von keinem Produkt in Ihrem Katalog verwendet wird. Eine einfache Möglichkeit, um festzustellen, ob ein Attribut verwendet wird, besteht darin, das Tool [Export](../systems/data-export.md) zu verwenden, um die Liste der Produktentitätsattribute zu überprüfen. Wenn das Attribut nicht in der Liste enthalten ist, wird es von keinem Produkt im Katalog verwendet.
+Stellen Sie vor dem Löschen eines Attributs sicher, dass es derzeit von keinem Produkt in Ihrem Katalog verwendet wird. Eine einfache Möglichkeit, um festzustellen, ob ein Attribut verwendet wird, besteht darin, das Tool [Export](../systems/data-export.md) zu verwenden, um die Liste der Produktentitätsattribute zu überprüfen. Wenn die Liste das Attribut nicht enthält, wird es von keinem Produkt im Katalog verwendet.
 
 **_Löschen eines Attributs:_**
 

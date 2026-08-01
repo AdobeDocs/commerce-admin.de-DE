@@ -19,7 +19,8 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+last-update: 2023-09-11
+source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
 workflow-type: tm+mt
 source-wordcount: 1540
 ht-degree: 0%
@@ -76,21 +77,21 @@ Die Bild-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Bild-Containe
 
    - _&#x200B;**Neues Bild hochladen**&#x200B;_: Verwenden Sie diese Methode, um eine neue Bilddatei von Ihrem System hochzuladen.
 
-      - Klicken Sie auf **[!UICONTROL Upload Image]**.
+     - Klicken Sie auf **[!UICONTROL Upload Image]**.
 
-      - Suchen Sie das Bild und wählen Sie es aus, um es der Galerie und dem Ziel-Container hinzuzufügen.
+     - Suchen Sie das Bild und wählen Sie es aus, um es der Galerie und dem Ziel-Container hinzuzufügen.
 
      Alternativ können Sie auch eine Bilddatei aus Ihrem System ziehen und auf dem Symbol _Kamera_ ( ![Kamerasymbol](./assets/pb-icon-camera.png){width="20"} ) ablegen.
 
    - _&#x200B;**Vorhandenes Asset auswählen**&#x200B;_: Verwenden Sie diese Methode, um ein vorhandenes Bild-Asset aus dem Medienspeicher/der Mediensammlung auszuwählen.
 
-      - Klicken Sie auf **[!UICONTROL Select from Gallery]**.
+     - Klicken Sie auf **[!UICONTROL Select from Gallery]**.
 
-      - Navigieren Sie mithilfe der Baumstruktur zum Bild.
+     - Navigieren Sie mithilfe der Baumstruktur zum Bild.
 
-      - Klicken Sie auf die Miniaturansicht und dann auf **[!UICONTROL Add Selected]**.
+     - Klicken Sie auf die Miniaturansicht und dann auf **[!UICONTROL Add Selected]**.
 
-        ![Ausgewähltes Bild hinzufügen](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![Ausgewähltes Bild hinzufügen](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - _&#x200B;**Adobe Stock-Bild suchen und auswählen**&#x200B;_: Verwenden Sie diese Methode, um ein Bild aus Adobe Stock zu suchen.
 
@@ -98,13 +99,13 @@ Die Bild-Toolbox wird angezeigt, wenn Sie den Mauszeiger über den Bild-Containe
      >
      >Für diese Methode ist eine [Adobe Stock-Integration](../content-design/adobe-stock.md) für Ihren Administrator konfiguriert.
 
-      - Klicken Sie auf **[!UICONTROL Search Adobe Stock]** und suchen Sie nach einem Bild.
+     - Klicken Sie auf **[!UICONTROL Search Adobe Stock]** und suchen Sie nach einem Bild.
 
-      - Speichern Sie die Vorschau oder das lizenzierte Bild in der Galerie.
+     - Speichern Sie die Vorschau oder das lizenzierte Bild in der Galerie.
 
-        Weitere [&#x200B; zum Arbeiten mit Adobe Stock-Assets finden &#x200B;](../content-design/adobe-stock-manage.md) unter „Verwenden von Adobe StockBildern“.
+       Weitere [&#x200B; zum Arbeiten mit Adobe Stock-Assets finden &#x200B;](../content-design/adobe-stock-manage.md) unter „Verwenden von Adobe StockBildern“.
 
-      - Wählen Sie die Asset-Miniaturansicht in der Galerie aus und klicken Sie auf **[!UICONTROL Add Selected]**.
+     - Wählen Sie die Asset-Miniaturansicht in der Galerie aus und klicken Sie auf **[!UICONTROL Add Selected]**.
 
    Das Bild wird im Ziel-Container an der Position des Platzhalters angezeigt. Im Gegensatz zu einem Hintergrundbild können Sie das Bild an eine andere Position innerhalb des aktuellen Containers oder in einen anderen Container verschieben.
 
@@ -125,19 +126,19 @@ Der Dateiname, die Abmessungen und die Dateigröße werden unter dem aktuellen B
 
    - _&#x200B;**Neues Bild hochladen**&#x200B;_: Verwenden Sie diese Methode, um eine neue Bilddatei von Ihrem System hochzuladen.
 
-      - Klicken Sie auf **[!UICONTROL Upload Image]**.
+     - Klicken Sie auf **[!UICONTROL Upload Image]**.
 
-      - Suchen Sie das Bild und wählen Sie es aus, um es der Galerie und dem Ziel-Container hinzuzufügen.
+     - Suchen Sie das Bild und wählen Sie es aus, um es der Galerie und dem Ziel-Container hinzuzufügen.
 
    - _&#x200B;**Vorhandenes Asset auswählen**&#x200B;_: Verwenden Sie diese Methode, um ein vorhandenes Bild-Asset aus dem Medienspeicher/der Mediensammlung auszuwählen.
 
-      - Klicken Sie auf **[!UICONTROL Select from Gallery]**.
+     - Klicken Sie auf **[!UICONTROL Select from Gallery]**.
 
-      - Navigieren Sie mithilfe der Baumstruktur zum Bild.
+     - Navigieren Sie mithilfe der Baumstruktur zum Bild.
 
-      - Klicken Sie auf die Miniaturansicht und dann auf **[!UICONTROL Add Selected]**.
+     - Klicken Sie auf die Miniaturansicht und dann auf **[!UICONTROL Add Selected]**.
 
-        ![Ausgewähltes Bild hinzufügen](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
+       ![Ausgewähltes Bild hinzufügen](./assets/pb-media-image-gallery-add-selected.png){width="600" zoomable="yes"}
 
    - **Adobe Stock-Bild suchen und auswählen**: Verwenden Sie diese Methode, um ein Bild aus Adobe Stock zu suchen.
 
@@ -145,13 +146,13 @@ Der Dateiname, die Abmessungen und die Dateigröße werden unter dem aktuellen B
      >
      >Für diese Methode ist eine [Adobe Stock-Integration](../content-design/adobe-stock.md) für Ihren Administrator konfiguriert.
 
-      - Klicken Sie auf **[!UICONTROL Search Adobe Stock]** und suchen Sie nach einem Bild.
+     - Klicken Sie auf **[!UICONTROL Search Adobe Stock]** und suchen Sie nach einem Bild.
 
-      - Speichern Sie die Vorschau oder das lizenzierte Bild in der Galerie.
+     - Speichern Sie die Vorschau oder das lizenzierte Bild in der Galerie.
 
-        Weitere [&#x200B; zum Arbeiten mit Adobe Stock-Assets finden &#x200B;](../content-design/adobe-stock-manage.md) unter „Verwenden von Adobe StockBildern“.
+       Weitere [&#x200B; zum Arbeiten mit Adobe Stock-Assets finden &#x200B;](../content-design/adobe-stock-manage.md) unter „Verwenden von Adobe StockBildern“.
 
-      - Wählen Sie die Asset-Miniaturansicht in der Galerie aus und klicken Sie auf **[!UICONTROL Add Selected]**.
+     - Wählen Sie die Asset-Miniaturansicht in der Galerie aus und klicken Sie auf **[!UICONTROL Add Selected]**.
 
 1. Verwenden Sie zum Hinzufügen eines **[!UICONTROL Mobile Image]** dieselben im vorherigen Schritt beschriebenen Methoden, um ein Bild auszuwählen, das für die Anzeige auf Mobilgeräten verwendet werden soll.
 
