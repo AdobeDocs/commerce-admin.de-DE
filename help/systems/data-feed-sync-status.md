@@ -6,11 +6,25 @@ role: Admin
 level: Beginner
 exl-id: 4e1b9da0-450c-4488-8693-1938a948e792
 TQID: https://experienceleague.adobe.com/Y8vYxKS-8iX-bCLSJpAiJOItWlJk348bSMWfk1Cgpbg
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 424b379815ffbf818c2490d0195bf0bf7dd51ab7
 workflow-type: tm+mt
 source-wordcount: 1664
@@ -42,7 +56,7 @@ Navigieren Sie im Admin-Bereich zu **[!UICONTROL System]** > **[!UICONTROL Data 
 
 >[!NOTE]
 >
-> Auf dieser Seite wird nur der Exportstatus angezeigt. Ein Erfolgsstatus bedeutet, dass Daten erfolgreich exportiert wurden - es wird nicht bestätigt, dass Daten in Connected Services verfügbar sind. Detaillierte [ finden Sie unter „Bestätigen von Daten ](#confirm-data-in-connected-services) verbundenen Services“.
+> Auf dieser Seite wird nur der Exportstatus angezeigt. Ein Erfolgsstatus bedeutet, dass Daten erfolgreich exportiert wurden - es wird nicht bestätigt, dass Daten in Connected Services verfügbar sind. Detaillierte [&#x200B; finden Sie unter „Bestätigen von Daten &#x200B;](#confirm-data-in-connected-services) verbundenen Services“.
 
 ## Verfügbare Export-Feeds
 
@@ -117,7 +131,7 @@ Wenn Sie produkt- und kategoriebezogene Entitäten in der Commerce-Datenbank akt
 >
 > Die Dauer der Datensynchronisation hängt von der Größe des Katalogs, dem Volumen der aktualisierten Daten und der Leistung des externen Services ab.
 
-Wenn die Anzahl der erfolgreich gesendeten Nachrichten mit der Quellanzahl für einen Feed übereinstimmt und keine Elemente mehr auf die Übermittlung warten oder fehlgeschlagen sind, hat Commerce den Export für diesen Feed abgeschlossen. Verwenden Sie das entsprechende Dashboard, um [nachgelagerte Verfügbarkeit zu ](#confirm-data-in-connected-services).
+Wenn die Anzahl der erfolgreich gesendeten Nachrichten mit der Quellanzahl für einen Feed übereinstimmt und keine Elemente mehr auf die Übermittlung warten oder fehlgeschlagen sind, hat Commerce den Export für diesen Feed abgeschlossen. Verwenden Sie das entsprechende Dashboard, um [nachgelagerte Verfügbarkeit zu &#x200B;](#confirm-data-in-connected-services).
 
 >[!NOTE]
 >
@@ -151,7 +165,7 @@ Um die End-to-End-Synchronisierung nach Abschluss der Exporte zu überprüfen, v
 
 - **[!DNL Adobe Commerce as a Cloud Service]mit Commerce-Services:** Überprüfen Sie das entsprechende [Data Management Dashboard](data-dashboard.md), um die nachgelagerte Verfügbarkeit zu bestätigen.
 - **Adobe Commerce on Cloud oder On-Premise mit Adobe Commerce Optimizer Connector**: Überprüfen Sie zuerst den Exportstatus für Commerce Admin und dann die Seite [Datensynchronisierung](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio]
-- **[!DNL Adobe Commerce Optimizer](eigenständig):** Daten werden nicht aus dem Commerce-Backend exportiert. Verwenden Sie die [Datensynchronisierungsseite](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio], um die Verfügbarkeit der Daten zu bestätigen.
+- **[!DNL Adobe Commerce Optimizer] (eigenständig):** Daten werden nicht aus dem Commerce-Backend exportiert. Verwenden Sie die [Datensynchronisierungsseite](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio], um die Verfügbarkeit der Daten zu bestätigen.
 
 >[!TIP]
 >
@@ -170,7 +184,7 @@ Um die End-to-End-Synchronisierung nach Abschluss der Exporte zu überprüfen, v
 | Hohe Ausfallraten | Viele Datensätze zeigen den Status *Fehlgeschlagen, Aufmerksamkeit erforderlich* an | <ul><li>Status und Konfiguration des externen Services überprüfen</li><li>Prüfen Sie die Fehlermeldungen auf Muster in der Spalte [!UICONTROL Error] .</li><li>Nachdem Sie das zugrunde liegende Problem behoben haben, lesen Sie [Verwalten und Resynchronisieren fehlgeschlagener Exporte](#manage-failed-exports)</li><li>Wenden Sie sich bei Bedarf an den externen Support</li></ul> |
 | Langsame Exportleistung | Hoher Änderungsrückstand oder langsame Statusaktualisierungen | <ul><li>Prüfen Sie [feed health indicators](#feed-health-indicators) auf Indexer und Rückstandsstatus</li><li>Indizierung erneut ausführen, wenn **Reindex required** angezeigt wird</li><li>Überwachen der Reaktionszeiten externer Services</li><li>Planen Sie Exporte nach Möglichkeit außerhalb der Spitzenzeiten</li><li>Überprüfen der Systemressourcen und -leistung</li></ul> |
 | Authentifizierungsfehler | 401- oder 403-Status-Codes in der Spalte [!UICONTROL Error] | <ul><li>API-Anmeldeinformationen und Token überprüfen</li><li>Prüfen der Berechtigungen für externe Dienstkonten</li><li>Verlängern Sie abgelaufene Token oder wenden Sie sich an Ihren Dienstleister</li><li>Nachdem die Anmeldeinformationen wiederhergestellt wurden, [betroffenen Datensätze neu synchronisiert](#manage-failed-exports)</li></ul> |
-| Fehlende Seite „Synchronisierungsstatus für Daten-Feed“ | **[!UICONTROL Data Feed Sync Status]** wird nach der Aktivierung eines Connected Services nicht unter **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** aufgeführt | <ul><li>Bestätigen Sie für Commerce as a Cloud Service, dass ein berechtigter Service aktiviert ist (siehe [Zielgruppe und Verfügbarkeit](#audience))</li><li>Nur für Commerce in der Cloud oder On-Premise ([ Sie die Erweiterung manuell](#install-the-extension)</li></ul> |
+| Fehlende Seite „Synchronisierungsstatus für Daten-Feed“ | **[!UICONTROL Data Feed Sync Status]** wird nach der Aktivierung eines Connected Services nicht unter **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** aufgeführt | <ul><li>Bestätigen Sie für Commerce as a Cloud Service, dass ein berechtigter Service aktiviert ist (siehe [Zielgruppe und Verfügbarkeit](#audience))</li><li>Nur für Commerce in der Cloud oder On-Premise ([&#x200B; Sie die Erweiterung manuell](#install-the-extension)</li></ul> |
 
 Adobe Commerce in der Cloud-Infrastruktur oder lokal: Vergewissern Sie sich, dass ein berechtigter Service oder der Adobe Commerce Optimizer-Connector aktiviert ist. Wenn die Seite noch fehlt, befolgen Sie die manuellen Installationsanweisungen.
 ACCS oder Adobe Commerce Optimizer: Installieren Sie das Modul nicht manuell. Verwenden Sie die produktverwaltete Synchronisierung oder wenden Sie sich an das entsprechende Service-Supportteam.
