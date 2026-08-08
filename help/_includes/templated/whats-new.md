@@ -1,7 +1,7 @@
 ---
-source-git-commit: acc04085de45edfcd956971aa09732ca91cf5f1a
+source-git-commit: ddb16ac856b75e3a4fcc1bd620b6e5b1dab321d5
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '264'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## Neue Funktionen
 
 Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenommen wurden. Wir schließen alle kleineren Aktualisierungen, wie z. B. die Bearbeitung von Kopien, von dieser Liste aus.
+
+### &#x200B;4. August 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beschreibung</th>
+      <th>Typ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Das Thema <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Daten-Feed-Synchronisierungsstatus</a> wurde entsprechend dem aktuellen Admin-Erlebnis aktualisiert. Es wurde klargestellt, dass die Seite nur den Exportstatus meldet, und dokumentiert, wann die Funktion in allen Commerce-Service-Lizenzen verfügbar ist.</p>
+</td>
+      <td>
+        Größere Aktualisierung
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/9d7ecab0454b1a1041f1bcd8b4fbda8032ebaac5">verpflichten</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### &#x200B;29. Juli 2026
 
@@ -23,7 +45,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Erfahren Sie, wie Sie bestimmte Kategorien automatisierter System-E-Mails, wie z. B. Bestellungen oder Marketing-Benachrichtigungen, direkt über den Administrator in <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/config/services/email-suppression">E-Mail-Unterdrückung</a> unterdrücken können.</p>
+      <td><p>Erfahren Sie, wie Sie bestimmte Kategorien automatisierter System-E-Mails, wie z. B. Bestellungen oder Marketing-Benachrichtigungen, direkt über den Administrator in <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">E-Mail-Unterdrückung</a> unterdrücken können.</p>
 </td>
       <td>
         Größere Aktualisierung, neues Thema
@@ -45,7 +67,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/products/catalog-enrichment">Kataloganreicherung</a> mit Anleitungen zum Überprüfen und Anwenden von durch KI vorgeschlagenen Produktnamen- und Beschreibungsaktualisierungen im Admin-Bereich hinzugefügt und das Thema über die Themen <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/catalog-menu">Katalogmenü</a>, <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/guide-overview">Anleitungsübersicht</a> und verwandte Produkteinstellungen verknüpft.</p>
+      <td><p>Es wurde <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">Kataloganreicherung</a> mit Anleitungen zum Überprüfen und Anwenden von durch KI vorgeschlagenen Produktnamen- und Beschreibungsaktualisierungen im Admin-Bereich hinzugefügt und das Thema über die Themen <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">Katalogmenü</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">Anleitungsübersicht</a> und verwandte Produkteinstellungen verknüpft.</p>
 </td>
       <td>
         Neues Thema
@@ -67,56 +89,12 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Aktualisierung des Systemadministratorzugriffs</a> mit Anleitungen für die Verwaltung von Systemadministratorzuweisungen in Adobe Admin Console hinzugefügt.</p>
+      <td><p>Es wurde <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Aktualisierung des Systemadministratorzugriffs</a> mit Anleitungen für die Verwaltung von Systemadministratorzuweisungen in Adobe Admin Console hinzugefügt.</p>
 </td>
       <td>
         Feedback
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/927b633eaa9af471440cfb950b429a60b3df94a8">verpflichten</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### &#x200B;3. Juni 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beschreibung</th>
-      <th>Typ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Es wurde die Möglichkeit hinzugefügt<a href="https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon#method-3-custom-coupon-codes"> in Adobe Commerce as a Cloud Service benutzerdefinierte Gutscheincodes </a> erstellen.</p>
-</td>
-      <td>
-        Größere Aktualisierung
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/4b59525dc5d2d9a8ec1fe4271bf4c9dee8e02c15">verpflichten</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### &#x200B;2. Juni 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beschreibung</th>
-      <th>Typ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Die Commerce-Dokumentation <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/systems/data-transfer/import/data-import">Datenimport</a> wurde mit Anleitungen aktualisiert, wie eine unnötige URL-Neuschreibungsgenerierung während Importvorgängen vermieden werden kann.</p>
-</td>
-      <td>
-        Feedback, technisch
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/b224cff0c5db4c1b318d3e7165aa34f4662f7e3e">verpflichten</a></td>
     </tr>
   </tbody>
 </table>
