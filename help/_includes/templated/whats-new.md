@@ -23,7 +23,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Das Thema <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Daten-Feed-Synchronisierungsstatus</a> wurde entsprechend dem aktuellen Admin-Erlebnis aktualisiert. Es wurde klargestellt, dass die Seite nur den Exportstatus meldet, und dokumentiert, wann die Funktion in allen Commerce-Service-Lizenzen verfügbar ist.</p>
+      <td><p>Das Thema <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Daten-Feed-Synchronisierungsstatus</a> wurde entsprechend dem aktuellen Admin-Erlebnis aktualisiert. Es wurde klargestellt, dass die Seite nur den Exportstatus meldet, und dokumentiert, wann die Funktion in allen Commerce-Service-Lizenzen verfügbar ist.</p>
 </td>
       <td>
         Größere Aktualisierung
@@ -45,7 +45,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Erfahren Sie, wie Sie bestimmte Kategorien automatisierter System-E-Mails, wie z. B. Bestellungen oder Marketing-Benachrichtigungen, direkt über den Administrator in <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">E-Mail-Unterdrückung</a> unterdrücken können.</p>
+      <td><p>Erfahren Sie, wie Sie bestimmte Kategorien automatisierter System-E-Mails, wie z. B. Bestellungen oder Marketing-Benachrichtigungen, direkt über den Administrator in <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/config/services/email-suppression">E-Mail-Unterdrückung</a> unterdrücken können.</p>
 </td>
       <td>
         Größere Aktualisierung, neues Thema
@@ -67,7 +67,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">Kataloganreicherung</a> mit Anleitungen zum Überprüfen und Anwenden von durch KI vorgeschlagenen Produktnamen- und Beschreibungsaktualisierungen im Admin-Bereich hinzugefügt und das Thema über die Themen <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">Katalogmenü</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">Anleitungsübersicht</a> und verwandte Produkteinstellungen verknüpft.</p>
+      <td><p>Es wurde <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/products/catalog-enrichment">Kataloganreicherung</a> mit Anleitungen zum Überprüfen und Anwenden von durch KI vorgeschlagenen Produktnamen- und Beschreibungsaktualisierungen im Admin-Bereich hinzugefügt und das Thema über die Themen <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/catalog-menu">Katalogmenü</a>, <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/guide-overview">Anleitungsübersicht</a> und verwandte Produkteinstellungen verknüpft.</p>
 </td>
       <td>
         Neues Thema
@@ -89,7 +89,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Aktualisierung des Systemadministratorzugriffs</a> mit Anleitungen für die Verwaltung von Systemadministratorzuweisungen in Adobe Admin Console hinzugefügt.</p>
+      <td><p>Es wurde <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Aktualisierung des Systemadministratorzugriffs</a> mit Anleitungen für die Verwaltung von Systemadministratorzuweisungen in Adobe Admin Console hinzugefügt.</p>
 </td>
       <td>
         Feedback
