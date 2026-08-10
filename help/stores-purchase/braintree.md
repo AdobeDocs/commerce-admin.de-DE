@@ -5,12 +5,25 @@ exl-id: 781b385f-926e-4047-b7da-6f7c090d75d8
 feature: Payments
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/UxFg1yY9mnWzuP5pI3N9j4EZ1v34FyED7UQIxVHN42A
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: b5f00040-57a0-4a6d-a39e-383b1936c2c9id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c1256247-af4b-46d8-9dca-0c654ecfa157id: d1e21356-0064-4f48-9089-16e3f0dbd2a6id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-subfeature_v2: id: f2261633-201d-46c5-8a66-999e70527a83
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+subfeature_v2:
+  - id: f2261633-201d-46c5-8a66-999e70527a83
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
 workflow-type: tm+mt
 source-wordcount: 2973
@@ -43,9 +56,9 @@ Wechseln Sie zu [Braintree Payments](https://www.braintreepayments.com/) und mel
 
    - Wenn Ihre Commerce-Installation über mehrere Websites, Stores oder Ansichten verfügt, wählen Sie oben links die **[!UICONTROL Store View]** aus, für die die Konfiguration gilt.
 
-   - Stellen Sie im Abschnitt _[!UICONTROL Merchant Location]_sicher, dass **[!UICONTROL Merchant Country]**auf den Standort Ihres Unternehmens eingestellt ist.
+   - Stellen Sie im Abschnitt _[!UICONTROL Merchant Location]_&#x200B;sicher, dass **[!UICONTROL Merchant Country]**&#x200B;auf den Standort Ihres Unternehmens eingestellt ist.
 
-1. Klicken Sie unter _[!UICONTROL Recommended Solutions]_im Abschnitt_[!UICONTROL Braintree Payments] ([GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [Versionshinweise](https://support.gene.co.uk/support/solutions/articles/35000278668)_auf **[!UICONTROL Configure]**.
+1. Klicken Sie unter _[!UICONTROL Recommended Solutions]_&#x200B;im Abschnitt_[!UICONTROL Braintree Payments] ([GENE Commerce](https://www.gene.co.uk/gene-braintree-payments/) v4.7.0 - [Versionshinweise](https://support.gene.co.uk/support/solutions/articles/35000278668)_auf **[!UICONTROL Configure]**.
 
    ![Konfigurieren von Braintree](./assets/braintree-payments.png){width="600" zoomable="yes"}
 
@@ -60,7 +73,7 @@ Wechseln Sie zu [Braintree Payments](https://www.braintreepayments.com/) und mel
 1. Legen Sie **[!UICONTROL Payment Action]** auf eine der folgenden Einstellungen fest:
 
    - `Authorize Only` - Genehmigt den Kauf und legt die Mittel fest. Der Betrag wird erst dann vom Bankkonto des Kunden abgehoben, wenn der Verkauf vom Händler _eingezogen_.
-   - `Intent Sale` - Der Betrag des Kaufs wird autorisiert und sofort vom Konto des Kunden zurückgezogen. **_Hinweis:_**Dieser Wert war_ Authorize and Capture_ in 2.3.x und früheren Versionen.|
+   - `Intent Sale` - Der Betrag des Kaufs wird autorisiert und sofort vom Konto des Kunden zurückgezogen. **_Hinweis:_**&#x200B;Dieser Wert war_ Authorize and Capture_ in 2.3.x und früheren Versionen.|
 
 1. Geben Sie die **[!UICONTROL Sandbox Merchant ID / Merchant ID]** aus Ihrem Braintree-Konto ein.
 
@@ -121,7 +134,7 @@ Wechseln Sie zu [Braintree Payments](https://www.braintreepayments.com/) und mel
 
 1. Legen Sie **[!UICONTROL Enable Webhook]** auf `Yes` fest, um die Webhook-Funktion für den Schutz vor Betrug, ACH-Zahlungen und lokale Zahlungsmethoden zu aktivieren.
 
-1. Kopieren Sie die URL in das **[!UICONTROL Fraud Protection URL]** Feld und fügen Sie sie Ihrem Braintree-Konto als _[!UICONTROL Webhook Destination URL]_hinzu.
+1. Kopieren Sie die URL in das **[!UICONTROL Fraud Protection URL]** Feld und fügen Sie sie Ihrem Braintree-Konto als _[!UICONTROL Webhook Destination URL]_&#x200B;hinzu.
 
    >[!IMPORTANT]
    >
@@ -140,7 +153,7 @@ Wechseln Sie zu [Braintree Payments](https://www.braintreepayments.com/) und mel
 1. Legen Sie **[!UICONTROL Payment from Applicable Countries]** auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jedes Land in der Liste aus, in dem Kunden in Ihrem Geschäft Einkäufe tätigen können.
+   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_&#x200B;angezeigt. Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jedes Land in der Liste aus, in dem Kunden in Ihrem Geschäft Einkäufe tätigen können.
 
    ![Länderspezifische Einstellungen](../configuration-reference/sales/assets/payment-methods-braintree-country-specific-config.png){width="600" zoomable="yes"}
 
@@ -168,7 +181,7 @@ Wechseln Sie zu [Braintree Payments](https://www.braintreepayments.com/) und mel
 
 1. Um [!DNL Apple Pay] als Zahlungsoption mit Braintree einzubeziehen, setzen Sie **[!UICONTROL Enable ApplePay through Braintree]** auf `Yes`.
 
-   Stellen Sie sicher[ dass Sie zuerst Ihren Domain](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3)Namen in Ihrem Braintree-Konto überprüfen.
+   Stellen Sie sicher[&#x200B; dass Sie zuerst Ihren Domain](https://developer.paypal.com/braintree/docs/guides/apple-pay/configuration/javascript/v3)Namen in Ihrem Braintree-Konto überprüfen.
 
 1. Wenn Sie Kundeninformationen sicher speichern möchten, sodass Kunden sie nicht bei jedem Kauf mit Apple Pay erneut eingeben müssen, setzen Sie **[!UICONTROL Enable Vault for ApplePay]** auf `Yes`.
 
@@ -199,7 +212,7 @@ Wechseln Sie zu [Braintree Payments](https://www.braintreepayments.com/) und mel
 
    >[!NOTE]
    >
-   >Die gebündelte Braintree-Erweiterung unterstützt nicht alle in der Entwicklerdokumentation zu [Braintree aufgeführten lokalen ](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Weitere lokale Zahlungsmethoden werden derzeit entwickelt, um in zukünftigen Versionen unterstützt zu werden.
+   >Die gebündelte Braintree-Erweiterung unterstützt nicht alle in der Entwicklerdokumentation zu [Braintree aufgeführten lokalen &#x200B;](https://developer.paypal.com/braintree/docs/guides/local-payment-methods/overview). Weitere lokale Zahlungsmethoden werden derzeit entwickelt, um in zukünftigen Versionen unterstützt zu werden.
 
 1. Geben Sie **[!UICONTROL Sort Order]** eine Zahl ein, um die Reihenfolge zu bestimmen, in der die lokale Zahlungsmethode angezeigt wird, wenn sie während des Checkouts mit anderen Zahlungsoptionen aufgelistet wird.
 
@@ -259,7 +272,7 @@ Wechseln Sie zu [Braintree Payments](https://www.braintreepayments.com/) und mel
 
      >[!NOTE]
      >
-     >PayPal-Guthaben ist nur in den Vereinigten Staaten und Großbritannien verfügbar. PayPal-Guthaben ist deaktiviert, wenn der ausgewählte Wert für das Feld _[!UICONTROL Merchant Country]_nicht `US` oder `UK` ist.
+     >PayPal-Guthaben ist nur in den Vereinigten Staaten und Großbritannien verfügbar. PayPal-Guthaben ist deaktiviert, wenn der ausgewählte Wert für das Feld _[!UICONTROL Merchant Country]_&#x200B;nicht `US` oder `UK` ist.
 
    - Um [!DNL PayPal PayLater] als Zahlungsoption mit Braintree einzubeziehen, setzen Sie **[!UICONTROL Enable PayPal PayLater through Braintree]** auf `Yes`.
 
@@ -285,7 +298,7 @@ Wechseln Sie zu [Braintree Payments](https://www.braintreepayments.com/) und mel
 1. Legen Sie **[!UICONTROL Payment from Applicable Countries]** für Braintree-Transaktionen, die von PayPal verarbeitet werden, auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jedes Land in der Liste aus, in dem Kunden in Ihrem Geschäft Einkäufe tätigen können.
+   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_&#x200B;angezeigt. Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jedes Land in der Liste aus, in dem Kunden in Ihrem Geschäft Einkäufe tätigen können.
 
    ![PayPal über Braintree Settings 2](../configuration-reference/sales/assets/payment-methods-braintree-paypal-config-2.png){width="550" zoomable="yes"}
 
@@ -323,7 +336,7 @@ Die Optionen und Einstellungen in diesem Abschnitt variieren je nach der Einstel
 
 **[!UICONTROL PayPal Button]**
 
-Die Optionen und Einstellungen in diesem Abschnitt variieren je nach dem im Feld _[!UICONTROL PayPal Button Type]_ausgewählten Schaltflächentyp.
+Die Optionen und Einstellungen in diesem Abschnitt variieren je nach dem im Feld _[!UICONTROL PayPal Button Type]_&#x200B;ausgewählten Schaltflächentyp.
 
 1. Um die PayPal-Schaltfläche auf der Storefront am ausgewählten Ort anzuzeigen, setzen Sie **[!UICONTROL Show PayPal Button]** auf `Yes`.
 
@@ -406,7 +419,7 @@ Wenn diese Optionen festgelegt sind, können Sie die Vorschau der PayPal-Schaltf
 4. Legen Sie **[!UICONTROL Verify for Applicable Countries]** auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Verify for Specific Countries]_angezeigt. Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jedes Land in der Liste aus, in dem Kunden in Ihrem Geschäft Einkäufe tätigen können.
+   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Verify for Specific Countries]_&#x200B;angezeigt. Halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jedes Land in der Liste aus, in dem Kunden in Ihrem Geschäft Einkäufe tätigen können.
 
    ![3D-Verifizierungseinstellungen](../configuration-reference/sales/assets/payment-methods-braintree-3d-secure-verify-config.png){width="600" zoomable="yes"}
 
