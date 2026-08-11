@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 207d5fac67567c7f83c88d5a430bf24cf3e97828
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: 318
 ht-degree: 0%
 
 ---
@@ -41,6 +41,10 @@ Zeigen Sie den [Bericht zu Aktionsprotokollen](action-log-report.md) an, um prot
 ![Erweiterte Konfiguration - Protokollierung von Admin-Aktionen](../configuration-reference/advanced/assets/admin-actions-logging.png){width="600" zoomable="yes"}
 
 Eine detaillierte Liste der Konfigurationseinstellungen finden Sie unter [Admin-](../configuration-reference/advanced/system.md)-Archivierung“ in _Konfigurationsreferenz_.
+
+>[!NOTE]
+>
+>Auf der [!DNL Adobe Commerce as a Cloud Service] können Sie den Aktionsprotokollbericht, das Aktionsprotokollarchiv und das Massenaktionsprotokoll nicht konfigurieren. Sie können die Berichtausgabe jedoch über das Menü **[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;im Admin-Bereich überprüfen.
 
 ## Konfigurieren von Admin-Aktionen für die Protokollierung
 
