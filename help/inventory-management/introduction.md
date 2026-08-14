@@ -3,11 +3,20 @@ title: Einführung in [!DNL Inventory Management]
 description: Erfahren Sie, wie Sie  [!DNL Inventory Management] for [!DNL Commerce] verwenden können, um Lagerbestände über Quellen und Lager hinweg zu verwalten, verkäufliche Mengen zu berechnen, Reservierungen zu verfolgen und die Auftragserfüllung zu unterstützen. Verwenden Sie den Administrator, um die Einstellungen zu konfigurieren und Berichte zu generieren, und die Befehlszeilenschnittstelle für Setup- und Hintergrundänderungen.
 exl-id: 6a7dd27e-248f-4c40-b2db-0d70529422a1
 TQID: https://experienceleague.adobe.com/7v-G-DZEki7y-4HSmq-rJxsmu6vih26jRYYCRRUF-XY
-product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2:
+  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 125a49f740639bce0ced8063074ca43d627c0eac
 workflow-type: tm+mt
 source-wordcount: 371
@@ -44,7 +53,7 @@ Zu den [!DNL Inventory Management] Funktionen gehören:
 
 Es ist wichtig, dass Sie die folgenden Begriffe bei der Arbeit mit [!DNL Inventory Management] verstehen:
 
-[!UICONTROL Sources] stellen physische Standorte dar, an denen verfügbare Produkte gelagert und versendet werden. Beispiele [ Diagramme finden Sie unter ](sources-stocks.md) und Quellen . (Ein beliebiger Speicherort kann als Quelle für virtuelle Produkte angegeben werden.)
+[!UICONTROL Sources] stellen physische Standorte dar, an denen verfügbare Produkte gelagert und versendet werden. Beispiele [&#x200B; Diagramme finden Sie unter &#x200B;](sources-stocks.md) und Quellen . (Ein beliebiger Speicherort kann als Quelle für virtuelle Produkte angegeben werden.)
 
 [!UICONTROL Stocks] einen Vertriebskanal (derzeit auf Websites beschränkt) Quellstandorten und verfügbarem Bestand zuordnen. Ein Lager kann mehreren Vertriebskanälen zugeordnet werden, ein Vertriebskanal kann jedoch nur einem Lager zugewiesen werden.
 
