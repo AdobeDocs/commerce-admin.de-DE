@@ -80,4 +80,4 @@ Die folgenden Optionen sind für [!DNL Inventory Management] wichtig:
 
 Sehen Sie sich dieses Video an, um mehr über [!DNL Inventory Management] und -bestände zu erfahren:
 
->[!VIDEO](https://video.tv.adobe.com/v/343748?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411976?captions=ger&quality=12&learn=on)
