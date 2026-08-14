@@ -1,28 +1,17 @@
 ---
 title: Aktivieren [!DNL Inventory Management]
-description: Erfahren Sie, wie Sie  [!DNL Inventory Management]  auf globaler Store- oder Produktebene aktivieren.
+description: Aktivieren oder deaktivieren [!DNL Inventory Management]  und verwalten Sie den Bestand auf Store- oder Produktebene, um die Verkaufsmenge und das Fulfillment-Tracking zu steuern.
 exl-id: 89bd2f8b-b9e4-4b9a-b729-f7bd71f764c9
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/evCX34nY-m7WQnZt3xw7ng6-It7Xlf5DTanjKbP1fCk
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-  - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: 309
 ht-degree: 0%
 
 ---
@@ -31,7 +20,12 @@ ht-degree: 0%
 
 Um Ihren Produktbestand zu verwalten, aktivieren Sie [!DNL Inventory Management] auf globaler Store- oder Produktebene. Wenn die Option _Lager verwalten_ aktiviert ist, verfolgt [!DNL Inventory Management] automatisch die für die Site verfügbaren Produktmengen über konfigurierte Lager und Quellen. Jede Funktion und Option beginnt mit dem Tracking und Reporting, wenn sie aktiviert sind, ohne zusätzliche Konfiguration.
 
-Ihr Unternehmen läuft und aktualisiert Ihren Bestand mit der Geschwindigkeit des Verkaufs. Wenn Kunden einkaufen, erhalten Sie exakte, aktualisierte Informationen zu verfügbaren Lagerbeständen pro Vertriebskanal und Quelle. Verfügbare verkäufliche Mengen werden pro Lager aktualisiert, wenn Kunden Produkte zum Warenkorb hinzufügen und Käufe abschließen und wenn und Sie Bestellungen verwalten, Sendungen erstellen und Rückerstattungen ausstellen. Ankunft von neuen oder übertragenen Lageraktualisierungen zu Ihren Quellen, sofort für Online-Verkäufe verfügbar. Nachbestellungen werden bis zu den angegebenen Schwellenwerten abgeschlossen, ohne dass unendliche Bestellungen oder zusätzliche Konfigurationen erforderlich sind. Und Sie können Teil- oder Volllieferungen über eine oder mehrere Quellen mit Empfehlungen eingeben und abschließen, sodass Sie die volle Kontrolle über die Auftragserfüllung und den Lagerbestand haben.
+Wenn [!DNL Inventory Management] aktiviert ist, wird der Bestand mit Ihrer Verkaufsaktivität aktualisiert:
+
+- Die Verkaufsmengen werden pro Lager aktualisiert, wenn Kunden Produkte in den Warenkorb legen, den Checkout abschließen und wenn Sie Bestellungen versenden oder zurückerstatten.
+- Neue oder übertragene Lagerbestände an einer Quelle stehen nach der Mengenaktualisierung für Online-Verkäufe zur Verfügung.
+- Rückstände berücksichtigen konfigurierte Schwellenwerte ohne zusätzliche Einrichtung.
+- Sie können Teil- oder Volllieferungen aus einer oder mehreren Quellen mithilfe von Algorithmusempfehlungen oder manueller Quellauswahl erstellen.
 
 >[!NOTE]
 >
