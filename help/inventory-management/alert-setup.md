@@ -1,6 +1,6 @@
 ---
 title: Warnhinweise für Produkte
-description: Erfahren Sie mehr über Produktwarnungen und deren Verwendung, um Kunden über den Lagerstatus und Preisänderungen für Produkte zu informieren.
+description: Richten Sie Warnungen für vorrätige und preisverändernde Produkte ein, erstellen Sie E-Mail-Vorlagen und führen Sie Einstellungen in der  [!DNL Inventory Management] -Konfiguration aus.
 exl-id: c9f736c5-7bba-4e3e-804d-5b0fe52c8f9b
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/n1n2tqb97EiM-vXZqifVgMOdBqNRdwNM-pjDI-D-b8M
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 653
+source-wordcount: 650
 ht-degree: 0%
 
 ---

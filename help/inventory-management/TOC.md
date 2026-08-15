@@ -1,14 +1,14 @@
 ---
 user-guide-title: '[!DNL Inventory Management] Benutzerhandbuch'
-user-guide-description: Erfahren Sie, wie Sie  [!DNL Inventory Management]  Funktionen verwenden können, um Mengen für den Verkauf zu verwalten und Lieferungen zu  [!DNL Commerce] .
+user-guide-description: Erfahren Sie, wie Sie  [!DNL Inventory Management]  verwenden, um Lager, Quellen und Mengen zu verwalten, Einstellungen in der Admin- oder Befehlszeilenschnittstelle zu konfigurieren und Bestellungen und Sendungen für Ihren - [!DNL Commerce]  zu verwalten.
 breadcrumb-title: '[!DNL Inventory Management]'
 role: Admin, Leader, User
 feature: Inventory
 nudge: true
-source-git-commit: 9306ad4525114dbc2ef454cb966fa47309b66277
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 6%
+source-wordcount: '154'
+ht-degree: 5%
 
 ---
 
@@ -19,44 +19,44 @@ ht-degree: 6%
 - [Einführung in [!DNL Inventory Management]](introduction.md)
 - [Versionshinweise](release-notes.md)
 - Grundlagen zum Inventar {#basics}
-   - [Quellen und Lagerbestände](sources-stocks.md)
-   - [Source-Auswahl und -Reservierungen](selection-reservations.md)
-   - [Bestell- und Reservierungsstatus](order-status.md)
-   - [Produktarten](product-types.md)
+  - [Quellen und Lagerbestände](sources-stocks.md)
+  - [Source-Auswahl und -Reservierungen](selection-reservations.md)
+  - [Bestell- und Reservierungsstatus](order-status.md)
+  - [Produktarten](product-types.md)
 - Erste Schritte {#get-started}
-   - [Commerce-Upgrades](migrate.md)
-   - [Installieren und Aktualisieren](install-update.md)
-   - [Einkauf im Handel](merchant-sourcing.md)
-   - [Inventar erweitern und neu strukturieren](expand-restructure.md)
+  - [Commerce-Upgrades](migrate.md)
+  - [Installieren und Aktualisieren](install-update.md)
+  - [Einkauf im Handel](merchant-sourcing.md)
+  - [Inventar erweitern und neu strukturieren](expand-restructure.md)
 - Konfiguration {#configuration}
-   - [Überblick](configuration.md)
-   - [Aktivieren [!DNL Inventory Management]](enable.md)
-   - [Konfigurieren globaler Optionen](global-options.md)
-   - [Konfigurieren von Produktoptionen](product-options.md)
-   - [Konfigurieren von Nachbestellungen](backorders.md)
-   - [Konfigurieren der Quellpriorität](source-priority-algorithm.md)
-   - [Konfigurieren der Entfernungspriorität](distance-priority-algorithm.md)
-   - Warnhinweise für Produkte {#product-alerts}
-      - [Einrichten von Warnhinweisen für Produkte](alert-setup.md)
-      - [Szenarien für Stock-Nachrichten](stock-messages.md)
+  - [Überblick](configuration.md)
+  - [Aktivieren [!DNL Inventory Management]](enable.md)
+  - [Konfigurieren globaler Optionen](global-options.md)
+  - [Konfigurieren von Produktoptionen](product-options.md)
+  - [Konfigurieren von Nachbestellungen](backorders.md)
+  - [Konfigurieren der Quellpriorität](source-priority-algorithm.md)
+  - [Konfigurieren der Entfernungspriorität](distance-priority-algorithm.md)
+  - Warnhinweise für Produkte {#product-alerts}
+    - [Einrichten von Warnhinweisen für Produkte](alert-setup.md)
+    - [Szenarien für Stock-Nachrichten](stock-messages.md)
 - Verwalten von Quellen {#sources}
-   - [Überblick](sources-manage.md)
-   - [Quellen hinzufügen](sources-add.md)
-   - [Quellen deaktivieren](sources-disable.md)
+  - [Überblick](sources-manage.md)
+  - [Quellen hinzufügen](sources-add.md)
+  - [Quellen deaktivieren](sources-disable.md)
 - Lagerverwaltung {#stocks}
-   - [Überblick](stocks-manage.md)
-   - [Lager hinzufügen](stocks-add.md)
-   - [Quellen für Bestände priorisieren](stocks-prioritize-sources.md)
-   - [Löschen von Lagern](stocks-delete.md)
+  - [Überblick](stocks-manage.md)
+  - [Lager hinzufügen](stocks-add.md)
+  - [Quellen für Bestände priorisieren](stocks-prioritize-sources.md)
+  - [Löschen von Lagern](stocks-delete.md)
 - Lagermengen verwalten {#quantities}
-   - [Überblick](quantities-manage.md)
-   - [Zuweisen von Quellen pro Produkt](sources-assign-per-product.md)
-   - [Mengen pro Produkt zuweisen](quantities-assign-per-product.md)
-   - [Massenzuweisung und -aufhebung](bulk-assignment.md)
-   - [Inventar an Quelle übertragen](inventory-transfer.md)
-   - [Inventar importieren und exportieren](inventory-import-export.md)
+  - [Überblick](quantities-manage.md)
+  - [Zuweisen von Quellen pro Produkt](sources-assign-per-product.md)
+  - [Mengen pro Produkt zuweisen](quantities-assign-per-product.md)
+  - [Massenzuweisung und -aufhebung](bulk-assignment.md)
+  - [Inventar an Quelle übertragen](inventory-transfer.md)
+  - [Inventar importieren und exportieren](inventory-import-export.md)
 - Bestellungen und Sendungen verwalten {#orders}
-   - [Überblick](shipments.md)
-   - [Sendungen erstellen](shipments-create.md)
+  - [Überblick](shipments.md)
+  - [Sendungen erstellen](shipments-create.md)
 - [CLI-Referenz](cli.md)
 - [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de)

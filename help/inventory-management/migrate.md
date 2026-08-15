@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Commerce] Upgrades'
-description: Erfahren Sie, wie sich Adobe Commerce- und Magento Open Source-Upgrades auf Kataloge und  [!DNL Inventory Management]  auswirken.
+description: Erfahren Sie, wie sich die Aktualisierung auf Adobe Commerce 2.4.x auf das Verhalten des Katalogbestands, der Lager und der  [!DNL Inventory Management]  auswirkt.
 exl-id: ba640b91-0f29-46df-bfd9-1c43433a751f
 feature: Inventory, Upgrade
 TQID: https://experienceleague.adobe.com/rAnH5pJjtg4ujbQdHow-B6urN090iTTt19mv4sadVnc
@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ee163e043412ee9719458f2660e116050afa0d1f
 workflow-type: tm+mt
-source-wordcount: 749
+source-wordcount: 754
 ht-degree: 0%
 
 ---
@@ -41,21 +41,21 @@ Bei der Installation von Magento Open Source 2.4.x oder Adobe Commerce 2.4.x tre
   >
   >Von der Verwendung des Standard-Stock und der Standard-Source wird dringend abgeraten, da sie Teil des `CatalogInventory` sind, das jetzt nicht mehr unterstützt wird. Es wird empfohlen, stattdessen benutzerdefinierte Stocks und Quellen zu erstellen und zu verwenden.
 
-   - Stocks bietet eine aggregierte, virtuelle Verkaufsmenge mit Reservierungen, um Warenkörbe und Bestellungen zu verfolgen und so einen gleichzeitigen Checkout zu gewährleisten.
+  - Stocks bietet eine aggregierte, virtuelle Verkaufsmenge mit Reservierungen, um Warenkörbe und Bestellungen zu verfolgen und so einen gleichzeitigen Checkout zu gewährleisten.
 
-   - Alle vorhandenen Produkte in Ihrem Katalog werden der standardmäßigen Source zugewiesen. Bis zum Hinzufügen neuer Quellen ändert sich die Produktoberfläche nicht. Wenn Sie nur Produkte von einem Ort aus versenden, gibt es keine anderen Unterschiede für Quellen. Sie können benutzerdefinierte [Quellen](sources-add.md) erstellen und [Mengen zuweisen](quantities-manage.md) pro Lieferort.
+  - Alle vorhandenen Produkte in Ihrem Katalog werden der standardmäßigen Source zugewiesen. Bis zum Hinzufügen neuer Quellen ändert sich die Produktoberfläche nicht. Wenn Sie nur Produkte von einem Ort aus versenden, gibt es keine anderen Unterschiede für Quellen. Sie können benutzerdefinierte [Quellen](sources-add.md) erstellen und [Mengen zuweisen](quantities-manage.md) pro Lieferort.
 
-   - Sie können eine Quelle als Abholort konfigurieren und [&#x200B; dieser Quelle &#x200B;](quantities-manage.md)Mengen zuweisen“.
+  - Sie können eine Quelle als Abholort konfigurieren und [&#x200B; dieser Quelle &#x200B;](quantities-manage.md)Mengen zuweisen“.
 
-   - Ihre Website weist dem Standardlager zu. Sie können benutzerdefinierte [Stocks“ erstellen](stocks-add.md) um Verkaufskanäle (Websites) und Quellen (Standorte) zu verbinden.
+  - Ihre Website weist dem Standardlager zu. Sie können benutzerdefinierte [Stocks“ erstellen](stocks-add.md) um Verkaufskanäle (Websites) und Quellen (Standorte) zu verbinden.
 
 - Zusätzliche [Konfigurationsoptionen](configuration.md) zu Ihren Produkten und Ihrem globalen Store hinzufügen. Einige vorhandene Konfigurationsoptionen erhalten aktualisierte Optionen und Verhaltensweisen:
 
-   - Für Menge unten benachrichtigen sendet Benachrichtigungen und zieht von der verkaufsfähigen Menge ab.
+  - Für Menge unten benachrichtigen sendet Benachrichtigungen und zieht von der verkaufsfähigen Menge ab.
 
-   - Der Schwellenwert für nicht vorrätige Artikel unterstützt positive Beträge, null und negative Beträge. Bei aktivierten Auftragsrückständen werden positive Beträge ignoriert und als Null (oder unendlich) betrachtet.
+  - Der Schwellenwert für nicht vorrätige Artikel unterstützt positive Beträge, null und negative Beträge. Bei aktivierten Auftragsrückständen werden positive Beträge ignoriert und als Null (oder unendlich) betrachtet.
 
-   - Nachbestellungen unterstützen Null (unendliche) und negative Beträge. Wenn diese Option aktiviert ist, wird die unten stehende Menge nicht von der verkaufsfähigen Menge abgezogen.
+  - Nachbestellungen unterstützen Null (unendliche) und negative Beträge. Wenn diese Option aktiviert ist, wird die unten stehende Menge nicht von der verkaufsfähigen Menge abgezogen.
 
 - Neue Reservierungen verfolgen potenzielle Verkäufe und konvertieren sie in Mengenabzüge, wenn der Auftrag ausgeliefert wird. Sie können nie direkt auf Reservierungen zugreifen oder diese erstellen. [!DNL Commerce] erstellt und verwaltet Reservierungen hinter den Kulissen durch Bestellungen, Lieferungen und Gutschriften.
 

@@ -1,6 +1,6 @@
 ---
 title: Szenarien für Stock-Nachrichten
-description: Erfahren Sie mehr über die Kombination aus Konfigurationseinstellungen, die Nachrichten zur Lagerverfügbarkeit auf Produktseiten und in Listen von Produkten auf Katalogseiten steuern.
+description: Konfigurieren Sie  [!DNL Inventory Management] -Stock-Verfügbarkeitsmeldungen, die auf Storefront-Produktseiten und Kategorieproduktlisten angezeigt werden.
 exl-id: 63114305-e695-445b-91cd-9e0fb2729ec4
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/9kPHtr75C7PkM9vD-2-AeG8JnAfKAao0GKEH9MhkBbU
@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 353
-ht-degree: 1%
+source-wordcount: 338
+ht-degree: 2%
 
 ---
 
 # Szenarien für Stock-Nachrichten
 
-Sie können eine Kombination aus Konfigurationseinstellungen verwenden, um Nachrichten zur Verfügbarkeit von Lagern auf Produktseiten und in Listen von Produkten auf Katalogseiten zu steuern.
+Konfigurieren Sie anhand der Einstellungen in den folgenden Abschnitten, wie Meldungen zur Verfügbarkeit von Lagern auf Produktseiten und Kataloglisten angezeigt werden.
 
 ![Gruppiertes Produkt mit Nachricht „Nicht vorrätig“](assets/storefront-out-of-stock-message.png){width="600" zoomable="yes"}
 

@@ -1,6 +1,6 @@
 ---
-title: Handbuch  [!DNL Inventory Management]  Inventory management
-description: Umfassende Informationen zu  [!DNL Inventory Management]  für Adobe Commerce- und Magento Open Source-Administratoren, einschließlich Migration und Konfiguration.
+title: Handbuch zu [!DNL Inventory Management]
+description: Admin- und CLI-Handbuch für  [!DNL Inventory Management] , Quellen, Mengen, Konfiguration, Bestellungen und Lieferungen in Adobe Commerce und Magento Open Source.
 seo-title: Adobe Commerce Inventory Management Guide
 seo-description: Describes how to use the [!DNL Inventory Management] module in Adobe Commerce or Magento Open Source.
 exl-id: 8013bc13-b057-4ad7-bbed-ee00c2f6e4eb
@@ -24,48 +24,49 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 94e419120b8e16848cc1d449650f023f361a2af7
 workflow-type: tm+mt
-source-wordcount: 394
-ht-degree: 0%
+source-wordcount: 329
+ht-degree: 1%
 
 ---
 
-# [!DNL Inventory Management]
+# Übersicht über [!DNL Inventory Management]
 
-Dieses Handbuch richtet sich an Administratoren, die in Adobe Commerce und Magento Open Source Admin arbeiten. Es enthält detaillierte Informationen zur Aktivierung dieses Moduls, einschließlich Konfiguration und Verwaltung seiner Funktionen. Es setzt ein grundlegendes Verständnis der Konfiguration und Funktionalität der [!DNL Commerce] voraus.
+Dieses Handbuch richtet sich an Admins, die Lagerbestände an mehreren Standorten in Adobe Commerce und Magento Open Source verwalten. Es stellt Konfigurations- und Verwaltungsverfahren für das [!DNL Inventory Management] bereit und setzt ein grundlegendes Verständnis der [!DNL Commerce] voraus.
 
-[!DNL Inventory Management] gibt es zwei Bereiche für Administratoren:
-
-- Der Administrator: Verwenden Sie diesen Bereich, um auf die Konfigurations-Benutzeroberfläche und Berichte zuzugreifen.
-- Die Befehlszeilenschnittstelle: Verwenden Sie dieses Tool, um Installations- und Backend-Konfigurationsaufgaben auszuführen.
+Verwenden Sie **Admin** für Konfigurations-, Reporting- und tägliche Inventaraufgaben. Verwenden Sie die **Befehlszeilenschnittstelle** für Installation, Upgrades und Backend-Konfiguration.
 
 Dieses Handbuch behandelt Folgendes:
 
 | Subjekt | Beschreibung |
 | ------- | ----------- |
-| [Einführung](introduction.md) | Überblick über die [!DNL Inventory Management] Funktionen, mit denen Sie Lagerbestände an mehreren Orten verwalten können, sodass Ihr Commerce-Store den physischen Bestand genau widerspiegelt. |
-| [Versionshinweise](release-notes.md) | Informationen zu allen Versionen finden Sie in [!DNL Inventory Management] Versionshinweisen . |
-| Grundlagen zum Inventar | Lernen Sie die Grundlagen zur Verwaltung des Inventars kennen: [Lager und Quellen](sources-stocks.md), [Quellenauswahl und &#x200B;](selection-reservations.md) [, Bestell- und Reservierungsstatus](order-status.md) und [Produkttypen](product-types.md) |
-| Erste Schritte | Erfahren Sie mehr über das [!DNL Inventory Management] und wie es in Ihre Commerce-Instanz und Ihre Speichervorgänge passt: [Commerce-Upgrades](migrate.md), [Modulinstallation und -aktualisierung](install-update.md), [Merchant-Sourcing-Typen](merchant-sourcing.md) und [Sourcing-Strukturänderungen](expand-restructure.md) |
-| [Konfiguration](configuration.md) | Erfahren Sie mehr über die Konfiguration [!DNL Inventory Management] Optionen, die die Quellverfügbarkeit, Storefront-Produkte und den Bestellversand bestimmen. |
-| [Quellen verwalten](sources-manage.md) | Erfahren Sie mehr über Quellen und darüber, wie sie die physischen Orte definieren, an denen der Produktbestand zur Auftragserfüllung verwaltet und versandt wird oder wo Services verfügbar sind. |
-| [Verwalten von Lagerbeständen](stocks-manage.md) | Erfahren Sie, wie Stock verwendet wird, um einen virtuellen, aggregierten Bestand von Produkten für Quellen Ihrer Vertriebskanäle darzustellen. |
-| [Mengen verwalten](quantities-manage.md) | Erfahren Sie, wie Sie Quellen und Mengen für neue Produkte zuweisen oder vorhandene Produkte ändern. |
-| [Bestellungen und Sendungen verwalten](shipments.md) | Erfahren Sie mehr über die zusätzlichen [!DNL Inventory Management] Funktionen und Optionen zur Verwaltung von Lagermengen während des Versandprozesses. |
-| [CLI-Referenz](cli.md) | Erfahren Sie mehr über die Befehle, die das Modul [!DNL Inventory Management] zum Verwalten von Inventardaten und Konfigurationseinstellungen bereitstellt. |
+| [Einführung](introduction.md) | Funktionen, Terminologie und die passende [!DNL Inventory Management] für Ihren Store. |
+| [Versionshinweise](release-notes.md) | Versionsverlauf des Moduls und bekannte Probleme. |
+| [Grundlagen zum Inventar](sources-stocks.md) | Konzepte für [Lager und Quellen](sources-stocks.md), [Quellauswahl und &#x200B;](selection-reservations.md), [Bestell- und &#x200B;](order-status.md) und [Produkttypen](product-types.md). |
+| Erste Schritte | [Commerce](migrate.md)-Upgrades[&#x200B; (Installation und &#x200B;](install-update.md)), [Merchant-Sourcing-](merchant-sourcing.md) und [Inventarumstrukturierung](expand-restructure.md). |
+| [Konfiguration](configuration.md) | Globale, Produkt- und Algorithmuseinstellungen für Anzeige und Versand in der Storefront. |
+| [Quellen verwalten](sources-manage.md) | Erstellen und Verwalten von Orten für die Erfüllung |
+| [Verwalten von Lagerbeständen](stocks-manage.md) | Zuordnen von Quellen zu Vertriebskanälen. |
+| [Mengen verwalten](quantities-manage.md) | Zuweisen und Aktualisieren von Produktmengen pro Quelle. |
+| [Bestellungen und Sendungen verwalten](shipments.md) | Bestellungen ausführen und Lieferungen aus dem Bestand verwalten. |
+| [CLI-Referenz](cli.md) | Befehlszeileninventar- und Konfigurationsaufgaben. |
 
 {style="table-layout:auto"}
 
 ## Entwicklerinformationen
 
-Siehe [[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/rest/inventory/) in der Entwicklerdokumentation für Details zur Modularchitektur, zu APIs und zur Algorithmusanpassung.
+Zugriff auf erweiterte Ressourcen für APIs, Anpassung und Modularchitektur. Technische Details zu APIs und zur Anpassung von Algorithmen finden Sie unter [[!DNL Inventory Management]](https://developer.adobe.com/commerce/webapi/rest/inventory/) in der Entwicklerdokumentation zur REST-API .
 
 ## Dokumentation zu Commerce
+
+Hier finden Sie Händler-, Cloud- und Entwicklerhandbücher, die Ihnen bei allen Aspekten von Adobe Commerce helfen. Verwenden Sie diese Ressourcen für alle Einrichtungs- oder Verwaltungsanforderungen.
 
 {{docs-links}}
 
 ## Fehlerbehebung und Support
+
+Verwenden Sie Support-Artikel und Ticketsysteme, um Inventarprobleme schnell zu lösen. Erhalten Sie zusätzliche Hilfe für den Lagerstatus oder die Produktverwaltung.
 
 Wenn Sie Informationen benötigen oder Fragen haben, die in diesem Handbuch nicht behandelt werden, verwenden Sie die folgenden Ressourcen:
 

@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren  [!DNL Inventory Management]  globalen Optionen
-description: Erfahren Sie, wie Sie die  [!DNL Inventory Management] -Konfigurationsoptionen für Produkt und Stock für Ihre Websites konfigurieren.
+description: Konfigurieren Sie  [!DNL Inventory Management]  globalen Katalogeinstellungen für Produktbestandsoptionen, Schwellenwerte und die Anzeige von Storefronts auf allen Websites.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
 TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
@@ -18,14 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: 657
 ht-degree: 1%
 
 ---
 
 # Konfigurieren [!DNL Inventory Management] globalen Optionen
+
+Diese globalen Einstellungen gelten für Ihren gesamten Katalog unter **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**.
 
 Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und Lager für Ihre Websites. Einige dieser Einstellungen können pro Produkt über „Konfigurieren von [&quot; überschrieben &#x200B;](product-options.md). Informationen zum Konfigurieren der Distanzprioritätseinstellungen finden Sie [Konfigurieren des Distanzprioritätsalgorithmus](distance-priority-algorithm.md).
 

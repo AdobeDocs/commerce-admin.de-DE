@@ -1,6 +1,6 @@
 ---
-title: Einführung in Inventory management
-description: Erfahren Sie, wie Sie  [!DNL Inventory Management] -Funktionen verwenden können, um Lagerbestände an mehreren Orten zu verwalten, sodass  [!DNL Commerce]  Ladengeschäft den physischen Bestand genau widerspiegelt.
+title: Einführung in [!DNL Inventory Management]
+description: Erfahren Sie, wie Sie  [!DNL Inventory Management] for [!DNL Commerce] verwenden können, um Lagerbestände über Quellen und Lager hinweg zu verwalten, verkäufliche Mengen zu berechnen, Reservierungen zu verfolgen und die Auftragserfüllung zu unterstützen. Verwenden Sie den Administrator, um die Einstellungen zu konfigurieren und Berichte zu generieren, und die Befehlszeilenschnittstelle für Setup- und Hintergrundänderungen.
 exl-id: 6a7dd27e-248f-4c40-b2db-0d70529422a1
 TQID: https://experienceleague.adobe.com/7v-G-DZEki7y-4HSmq-rJxsmu6vih26jRYYCRRUF-XY
 product_v2:
@@ -17,23 +17,31 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 125a49f740639bce0ced8063074ca43d627c0eac
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 371
 ht-degree: 0%
 
 ---
 
-# Einführung in Inventory management
+# Einführung in [!DNL Inventory Management]
 
-[!DNL Inventory Management] für [!DNL Commerce] stellt Ihnen die Tools zur Verwaltung Ihres Produktbestands zur Verfügung. Händler mit einem einzigen Shop für mehrere Lager, Geschäfte, Abholorte, Drop-Versender und mehr können diese Funktionen verwenden, um Mengen für den Verkauf zu verwalten und Sendungen zu bearbeiten, um Bestellungen abzuschließen. Sie können Ihre Lagermengen verfolgen, genaue verkaufbare Lagerbestände für Kunden für alle Ihre Websites bereitstellen und gemäß Empfehlungen versenden, die auf Entfernung oder Priorität basieren. Sie können Ihre bevorzugten Produktkonfigurationen auch global (für alle Geschäfte und Produkte), pro Quelle und pro Produkt konfigurieren. Diese Funktionen wachsen mit Ihrem Unternehmen und ermöglichen es Ihnen, von einem einzigen Lager oder einem komplexen Versandnetzwerk mit einigen zusätzlichen Einstellungen zu arbeiten.
+[!DNL Inventory Management] für [!DNL Commerce] hilft Händlern bei der Verwaltung des Inventars auf einer oder mehreren Websites und physischen oder virtuellen Produktstandorten. Es bietet Tools in der Admin- und Befehlszeilenschnittstelle, um den Bestand zu konfigurieren, verfügbare und aggregierte Verkaufsmengen zu verfolgen, den Bestand während des Checkouts zu schützen und die Bestellabwicklung zu unterstützen. Sie können [!DNL Inventory Management] für eine einzelne Quelle oder ein Multi-Source-Netzwerk verwenden, das Lager, Geschäfte, Abholorte, Abholer und andere Erfüllungsorte umfasst.
+
+## Verwendungsmöglichkeiten von [!DNL Inventory Management]
+
+- **Admin:** Legen Sie Inventaroptionen fest und generieren Sie Inventarberichte.
+- **Befehlszeilenschnittstelle:** Sie Setup-Befehle aus und wenden Sie Inventaränderungen im Hintergrund an.
+- **Konfigurationsbereich:** Konfigurieren Sie Inventareinstellungen global, pro Quelle oder pro Produkt.
+
+## Wichtigste Funktionen
 
 Zu den [!DNL Inventory Management] Funktionen gehören:
 
-- Verschiedene Konfigurationen für Händler, deren Inventar aus einer einzigen Quelle und aus mehreren Quellen stammt
-- Lagerbestände zur Ermittlung verfügbarer aggregierter Mengen aus zugewiesenen Quellen
+- Unterschiedliche Konfigurationen für Händler, deren Inventar aus einer einzigen oder mehreren Quellen stammt
+- Lagerbestände zur Ermittlung aggregierter Verkaufsmengen aus zugewiesenen Quellen
 - Gleichzeitiger Auscheckschutz
-- Algorithmen zum Abgleich von Sendungen
+- Algorithmen zum Sendungsabgleich, die Erfüllungsempfehlungen basierend auf Entfernung oder Priorität unterstützen
 
 >[!NOTE]
 >
@@ -45,10 +53,10 @@ Zu den [!DNL Inventory Management] Funktionen gehören:
 
 Es ist wichtig, dass Sie die folgenden Begriffe bei der Arbeit mit [!DNL Inventory Management] verstehen:
 
-[!UICONTROL **Quellen**] stellen physische Standorte dar, an denen verfügbare Produkte gespeichert und versendet werden. Zu diesen Standorten können Lagerhäuser, stationäre Läden, Vertriebszentren und Verlader gehören. (Ein beliebiger Speicherort kann als Quelle für virtuelle Produkte angegeben werden.)
+[!UICONTROL Sources] stellen physische Standorte dar, an denen verfügbare Produkte gelagert und versendet werden. Beispiele [&#x200B; Diagramme finden Sie unter &#x200B;](sources-stocks.md) und Quellen . (Ein beliebiger Speicherort kann als Quelle für virtuelle Produkte angegeben werden.)
 
-[!UICONTROL **Lager**] Ordnen Sie einen Verkaufskanal (derzeit auf Websites beschränkt) Quellstandorten und verfügbarem Inventar zu. Ein Lager kann mehreren Vertriebskanälen zugeordnet werden, ein Vertriebskanal kann jedoch nur einem Lager zugewiesen werden.
+[!UICONTROL Stocks] einen Vertriebskanal (derzeit auf Websites beschränkt) Quellstandorten und verfügbarem Bestand zuordnen. Ein Lager kann mehreren Vertriebskanälen zugeordnet werden, ein Vertriebskanal kann jedoch nur einem Lager zugewiesen werden.
 
-[!UICONTROL **Aggregierte Verkaufsmenge**] ist der gesamte virtuelle Bestand, der über einen Verkaufskanal verkauft werden kann. Der Betrag wird für alle einem Lager zugeordneten Quellen berechnet.
+[!UICONTROL Aggregate Salable Quantity] ist der gesamte virtuelle Bestand, der über einen Vertriebskanal verkauft werden kann. Der Betrag wird für alle einem Lager zugeordneten Quellen berechnet.
 
-[!UICONTROL **Reservierungen**] Verfolgen Sie Abzüge von der verkaufsfähigen Menge, wenn Kunden Produkte zum Warenkorb hinzufügen und den Checkout abschließen. Wenn ein Auftrag ausgeliefert wird, werden die ausgelieferten Beträge durch die Reservierung verrechnet und von den jeweiligen Lagerbestandsmengen abgezogen.
+[!UICONTROL Reservations] verfolgen Abzüge von der Verkaufsmenge, wenn Kunden Produkte zum Warenkorb hinzufügen und den Checkout abschließen. Wenn ein Auftrag ausgeliefert wird, werden die ausgelieferten Beträge durch die Reservierung verrechnet und von den jeweiligen Lagerbestandsmengen abgezogen.

@@ -1,6 +1,6 @@
 ---
 title: Lagermengen verwalten
-description: Erfahren Sie, wie Sie Quellen und Mengen für neue Produkte zuweisen oder vorhandene Produkte ändern.
+description: Übersicht über die Administrationsverfahren zur Zuordnung von Quellen und Stückzahlen für neue und vorhandene Produkte in [!DNL Inventory Management].
 exl-id: b3d4a4c0-725a-4e62-854f-efb6a5709f73
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/ykiHTLnzZGtJrRdp2wZvlL7YLbEb7iAiYlcbY8K7IX8
@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 464a5510b4215a8402f0180077ec313629de74af
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 # Lagermengen verwalten
 
-Die folgenden Informationen beschreiben, wie Sie Quellen und Mengen für neue Produkte zuordnen oder vorhandene Produkte ändern.
+Verwenden Sie die folgenden Richtlinien, um Quellen und Mengen für neue oder vorhandene Produkte zuzuweisen.
 
 Weisen Sie beim Erstellen von Produkten Quellen und Mengen während der Produkterstellung zu. Vollständige Anweisungen finden [&#x200B; unter &#x200B;](../catalog/product-create.md)Erstellen eines Produkts“. Diese Seiten enthalten Informationen aus einer und mehreren Quellen für Quellen und Mengen pro Quelle.
 

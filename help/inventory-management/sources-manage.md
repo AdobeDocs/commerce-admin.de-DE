@@ -1,6 +1,6 @@
 ---
 title: Verwalten von Inventarquellen
-description: Erfahren Sie mehr über Quellen und darüber, wie sie die physischen Orte definieren, an denen der Produktbestand zur Auftragserfüllung verwaltet und versandt wird oder wo Services verfügbar sind.
+description: Übersicht über Admin-Aufgaben zum Hinzufügen, Bearbeiten, Aktivieren und Deaktivieren  [!DNL Inventory Management]  Quellen, die das Produktinventar speichern und versenden.
 exl-id: 1315a8c9-7791-4c4b-9463-3126b79793c2
 TQID: https://experienceleague.adobe.com/bVWqSGSgW08l7zZ7bLuZIcJUjqmj7Npn55yEdZn-aB0
 product_v2:
@@ -17,16 +17,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 695
+source-wordcount: 623
 ht-degree: 0%
 
 ---
 
 # Verwalten von Quellen
 
-Quellen sind die physischen Orte, an denen das Produktinventar verwaltet und zur Auftragserfüllung versendet wird oder an denen Services verfügbar sind. Zu diesen Standorten können Lagerhäuser, stationäre Geschäfte, Verteilzentren, Abholstandorte und Verlader gehören. Sie ordnen diesen Quellen Lagermengen zu und aggregiert [!DNL Commerce] automatisch die gesamten verkaufsfähigen Produkte für Ihre Lager. Fügen Sie für große Unternehmen mehrere Quellen für alle Ihre Standorte hinzu: an verschiedenen geografischen Standorten nach Land und Kontinent, Standorte in einer Stadt, basierend auf der Art des Inventars, sogar basierend auf Dienstleistungen.
+Verwenden Sie dieses Thema, um Quellen hinzuzufügen, zu bearbeiten, zu aktivieren und zu deaktivieren. Informationen über die Beziehung zwischen den Quellen und den Lagerbeständen finden Sie unter [Lager und Quellen](sources-stocks.md).
 
 Es wird empfohlen, beim Erstellen einer Quelle bestimmte physische geografische Positionen anzugeben. Dadurch kann der _Distance Priority Algorithm_ den Standort der Versandzieladresse mit den verfügbaren Quellstandorten vergleichen, um die nächstgelegene Quelle für die Erfüllung von Sendungen zu ermitteln. Sie können Google Maps oder Offline-Berechnungen verwenden, die Geocodes verwenden. Weitere Informationen zu diesem _Distance Priority Algorithm_ finden Sie unter [Konfigurieren des Distance Priority Algorithm](distance-priority-algorithm.md).
 

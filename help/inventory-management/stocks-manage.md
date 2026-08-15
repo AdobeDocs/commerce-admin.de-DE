@@ -1,6 +1,6 @@
 ---
-title: Lagerbestand verwalten
-description: Erfahren Sie, wie Stock verwendet wird, um einen virtuellen, aggregierten Bestand von Produkten für Quellen Ihrer Vertriebskanäle darzustellen.
+title: Lagerverwaltung
+description: Verwalten Sie die Lagerbestände im Admin, um Quellen den Vertriebskanälen zuzuordnen, die Erfüllung zu priorisieren und die verkäuflichen Mengen genau zu halten.
 exl-id: 076b1325-2de4-46d3-9976-d900bd2cef47
 TQID: https://experienceleague.adobe.com/IeG1bA1etAjxiDjSWY83GLNugllHT1mUrZBde45Ha8g
 product_v2:
@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: 522
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Bei einer Multi-Store-Installation wird der Standardbestand zunächst der [Haupt
 |--|--|
 | [!UICONTROL Add New Stock] | Öffnet das _[!UICONTROL New Stock]_&#x200B;Formular, mit dem ein neuer Lagerbestand für die Zuordnung von Lagerbestand und Vertriebskanal eingegeben wird. |
 
-## Verwalten von Stock-Spaltenbeschreibungen
+## Beschreibungen der Lagerspalten verwalten
 
 | Spalte | Beschreibung |
 |--|--|
