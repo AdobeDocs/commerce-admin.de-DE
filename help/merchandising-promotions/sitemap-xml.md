@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1345
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Wenn diese Option aktiviert ist, erstellt Commerce eine Datei mit dem Namen `sit
 
 Während sich Ihre Site in Entwicklung befindet, können Sie in die `robots.txt` für Web-Crawler Anweisungen aufnehmen, um die Indizierung der Site zu vermeiden. Vor dem Launch können Sie dann die Anweisungen ändern, damit die Site indiziert werden kann.
 
-Technische Informationen finden Sie unter [Sitemap und robots.txt hinzufügen](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=de) im Handbuch zu _Commerce in Cloud-Infrastrukturen_.
+Technische Informationen finden Sie unter [Sitemap und robots.txt hinzufügen](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/configure-store/robots-sitemap) im Handbuch zu _Commerce in Cloud-Infrastrukturen_.
 
 ![Sitemap-Raster](./assets/marketing-sitemap-grid-generated.png){width="700" zoomable="yes"}
 
@@ -118,7 +118,7 @@ Gehen Sie wie folgt vor, um Sitemaps für eine Multi-Store-Instanz zu erstellen:
    
 >[!NOTE]
 >
->Wenn Ihre Site die [Apache](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html?lang=de)-Webserver-Engine verwendet, sollten Sie die [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)-Datei im Stammverzeichnis Ihrer Website aktualisieren, um alle anderen Sitemap-Anfragen an den richtigen Ort zu leiten.
+>Wenn Ihre Site die [Apache](https://experienceleague.adobe.com/de/docs/commerce-operations/installation-guide/prerequisites/web-server/apache)-Webserver-Engine verwendet, sollten Sie die [`.htaccess`](https://httpd.apache.org/docs/current/howto/htaccess.html)-Datei im Stammverzeichnis Ihrer Website aktualisieren, um alle anderen Sitemap-Anfragen an den richtigen Ort zu leiten.
 
 ## Spaltenbeschreibungen
 
@@ -152,13 +152,13 @@ Ihre Sitemap sollte so oft aktualisiert werden, wie sich der Inhalt auf Ihrer Si
 
    - Legen Sie **[!UICONTROL Frequency]** auf eine der folgenden Einstellungen fest:
 
-      - `Always`
-      - `Hourly`
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
-      - `Yearly`
-      - `Never`
+     - `Always`
+     - `Hourly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
+     - `Yearly`
+     - `Never`
 
    - Geben Sie **[!UICONTROL Priority]** einen Wert zwischen `0.0` und `1.0` ein. Null hat die niedrigste Priorität.
 
@@ -206,16 +206,16 @@ Ihre Sitemap sollte so oft aktualisiert werden, wie sich der Inhalt auf Ihrer Si
 
    - Legen Sie **[!UICONTROL Generation Method]** auf eine der folgenden Einstellungen fest:
 
-      - `Standard` - Verarbeitet alle Daten im Speicher.
-      - `Batch` - Verwendet eine speicheroptimierte Verarbeitung für große Kataloge. Diese Option ist ab Version 2.4.9 verfügbar.
+     - `Standard` - Verarbeitet alle Daten im Speicher.
+     - `Batch` - Verwendet eine speicheroptimierte Verarbeitung für große Kataloge. Diese Option ist ab Version 2.4.9 verfügbar.
 
    - Legen Sie **[!UICONTROL Start Time]** auf die Stunde, Minute und Sekunde fest, zu der die Sitemap aktualisiert werden soll.
 
    - Legen Sie **[!UICONTROL Frequency]** auf eine der folgenden Einstellungen fest:
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - Geben Sie **[!UICONTROL Error Email Recipient]** die E-Mail-Adresse der Person ein, die benachrichtigt werden soll, wenn während einer Sitemap-Aktualisierung ein Fehler auftritt.
 

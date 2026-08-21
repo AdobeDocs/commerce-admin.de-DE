@@ -17,9 +17,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 403
+source-wordcount: 404
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ _Sofortiger Kauf_ ermöglicht es Kunden, den Checkout-Prozess mithilfe von Infor
 
   Die folgenden Zahlungsmethoden können verwendet werden, um einen sicheren Zugriff auf gespeicherte Kreditkarteninformationen zu ermöglichen:
 
-   - [Braintree-Kreditkarten](braintree.md) (Sofortkauf kann nicht mit Braintree-Kreditkarten verwendet werden, wenn 3D Secure aktiviert ist.)
-   - [Braintree mit aktiviertem PayPal](braintree.md)
-   - [PayPal Payflow Pro](paypal-payflow-pro.md)
+  - [Braintree-Kreditkarten](braintree.md) (Sofortkauf kann nicht mit Braintree-Kreditkarten verwendet werden, wenn 3D Secure aktiviert ist.)
+  - [Braintree mit aktiviertem PayPal](braintree.md)
+  - [PayPal Payflow Pro](paypal-payflow-pro.md)
 
 ## Sofortiger Kauf in der Storefront
 
@@ -71,7 +71,7 @@ Sie können Instant Purchase mit Braintree oder Payment Services für Adobe Comm
 Erfahren Sie, wie Sie die Zahlungsmethode konfigurieren und Vaulting für Braintree oder Payment Services aktivieren:
 
 - [Braintree](braintree.md)
-- [Dokumentation zu Zahlungs-Services](https://experienceleague.adobe.com/docs/commerce/payment-services/guide-overview.html?lang=de)
+- [Dokumentation zu Zahlungs-Services](https://experienceleague.adobe.com/de/docs/commerce/payment-services/guide-overview)
 
 ### Schritt 3: Sofortigen Kauf aktivieren
 

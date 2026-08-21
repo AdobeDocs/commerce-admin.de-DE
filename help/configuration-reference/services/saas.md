@@ -18,16 +18,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 238
-ht-degree: 2%
+source-wordcount: 246
+ht-degree: 4%
 
 ---
 
 # [!UICONTROL Services] > [!UICONTROL Commerce Services Connector]
 
-Informationen zum Verbinden Ihres Stores mit Adobe Commerce-Services finden Sie unter [Commerce-Services](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=de).
+Informationen zum Verbinden Ihres Stores mit Adobe Commerce-Services finden Sie unter [Commerce-Services](https://experienceleague.adobe.com/de/docs/commerce/user-guides/integration-services/saas).
 
 {{config}}
 
@@ -60,7 +60,7 @@ Informationen zum Verbinden Ihres Stores mit Adobe Commerce-Services finden Sie 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Project] | Global | Name des SaaS-Projekts, das alle Ihre SaaS-Datenräume gruppiert. Wenn _SaaS-Projekte nicht vorhanden sind, wird die Schaltfläche_ Projekt erstellen“ angezeigt. |
-| [!UICONTROL Data Space] | Global | Listet die SaaS-Datenräume im angegebenen SaaS-Projekt auf. Die Anzahl der SaaS-Datenräume hängt von Ihrer [Commerce-Lizenz ab](https://experienceleague.adobe.com/docs/commerce/user-guides/integration-services/saas.html?lang=de)<br />Adobe Commerce: ein Produktionsdatenraum; zwei Testdatenräume;<br />Magento Open Source: ein Produktionsdatenraum; keine Testdatenräume |
+| [!UICONTROL Data Space] | Global | Listet die SaaS-Datenräume im angegebenen SaaS-Projekt auf. Die Anzahl der SaaS-Datenräume hängt von Ihrer [Commerce-Lizenz ab](https://experienceleague.adobe.com/de/docs/commerce/user-guides/integration-services/saas)<br />Adobe Commerce: ein Produktionsdatenraum; zwei Testdatenräume;<br />Magento Open Source: ein Produktionsdatenraum; keine Testdatenräume |
 
 {style="table-layout:auto"}
 

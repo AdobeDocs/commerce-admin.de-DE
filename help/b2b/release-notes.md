@@ -26,9 +26,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 11091
+source-wordcount: 11212
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ In diesen Versionshinweisen für die B2B-Erweiterung werden Ergänzungen und Feh
 
 >[!NOTE]
 >
->Unter [Produktverfügbarkeit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html?lang=de) finden Sie Informationen zu Versionen der B2B-Commerce-Erweiterung, die für verfügbare Adobe Commerce-Versionen unterstützt werden.
+>Unter [Produktverfügbarkeit](https://experienceleague.adobe.com/de/docs/commerce-operations/release/product-availability) finden Sie Informationen zu Versionen der B2B-Commerce-Erweiterung, die für verfügbare Adobe Commerce-Versionen unterstützt werden.
 
 ## B2B v1.5.3
 
@@ -51,7 +51,7 @@ In diesen Versionshinweisen für die B2B-Erweiterung werden Ergänzungen und Feh
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.9, 2.4.8.
 
-Die B2B-Version 1.5.3 enthält Qualitätsverbesserungen, Fehlerbehebungen und die in [Security Bulletin APSB26-05“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb26-05.html).
+Die B2B-Version 1.5.3 enthält Qualitätsverbesserungen, Fehlerbehebungen und die in [Security Bulletin APSB26-05“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
 
 ### Verhandelbares Angebot
 
@@ -192,7 +192,7 @@ Keine bekannten Probleme in dieser Version.
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitspatches der Adobe Commerce-Versionen 2.4.8-p5, 2.4.7-p10 und 2.4.6-p15.
 Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p10, 2.4.6 bis 2.4.6-p15.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB26-49](https://helpx.adobe.com/de/security/products/magento/apsb26-49.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB26-49](https://helpx.adobe.com/security/products/magento/apsb26-49.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.5.2-p4
 
@@ -201,7 +201,7 @@ Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p10, 2.4.6 bis 2.4.6-p15.
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitspatches der Adobe Commerce-Versionen 2.4.8-p4, 2.4.7-p9 und 2.4.6-p14.
 Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p9, 2.4.6 bis 2.4.6-p14.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB26-05](https://helpx.adobe.com/de/security/products/magento/apsb26-05.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB26-05](https://helpx.adobe.com/security/products/magento/apsb26-05.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.5.2-p3
 
@@ -210,7 +210,7 @@ Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p9, 2.4.6 bis 2.4.6-p14.
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitspatches der Adobe Commerce-Versionen 2.4.8-p3, 2.4.7-p8 und 2.4.6-p13.
 Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p7, 2.4.6 bis 2.4.6-p12.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-94](https://helpx.adobe.com/de/security/products/magento/apsb25-94.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-94](https://helpx.adobe.com/security/products/magento/apsb25-94.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B v1.5.2-p2
 
@@ -219,7 +219,7 @@ Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p7, 2.4.6 bis 2.4.6-p12.
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitspatches der Adobe Commerce-Versionen 2.4.8-p2, 2.4.7-p7 und 2.4.6-p12.
 Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p6, 2.4.6 bis 2.4.6-p11.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ## B2B v1.5.2-p1
 
@@ -228,7 +228,7 @@ Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p6, 2.4.6 bis 2.4.6-p11.
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitspatches der Adobe Commerce-Versionen 2.4.8-p1, 2.4.7-p6 und 2.4.6-p11.
 Kompatibel mit Adobe Commerce 2.4.7 bis 2.4.7-p5, 2.4.6 bis 2.4.6-p10.
 
-![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/de/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
+![Problem behoben](../assets/fix.svg) Umfasst die in [Security Bulletin APSB25-50](https://helpx.adobe.com/security/products/magento/apsb25-50.html) dokumentierten Sicherheitskorrekturen.
 
 ## B2B 1.5.2
 
@@ -326,7 +326,7 @@ Die B2B-Version 1.5.0 enthält neue Funktionen, Qualitätsverbesserungen und Feh
 
 - **Firmenkonfiguration skaliert verwalten**<!--B2B-2849--> - Ändern Sie die Unternehmenkonfigurationseinstellungen für ausgewählte Unternehmen schnell mithilfe der *[!UICONTROL Change company setting]* Massenaktion, die jetzt beim Verwalten von Unternehmen über das *[!UICONTROL Companies]*- oder *[!UICONTROL Company Hierarchy]* verfügbar ist. Wenn Sie beispielsweise einen neuen freigegebenen Katalog für eine Gruppe von Unternehmen erstellen, können Sie die Konfiguration des freigegebenen Katalogs in einer einzigen Aktion ändern, anstatt jedes Unternehmen einzeln zu bearbeiten.
 
-- API-Entwicklerinnen und -Entwickler können die neue Company Relations REST-API-Endpunkt-`/V1/company/{parentId}/relations` verwenden, um Unternehmenszuweisungen zu erstellen, anzuzeigen und zu entfernen. Siehe [Verwalten von Unternehmensobjekten](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object/) im *Web API-Entwicklerhandbuch*.
+- API-Entwicklerinnen und -Entwickler können die neue Company Relations REST-API-Endpunkt-`/V1/company/{parentId}/relations` verwenden, um Unternehmenszuweisungen zu erstellen, anzuzeigen und zu entfernen. Siehe [Verwalten von Unternehmensobjekten](https://developer.adobe.com/commerce/webapi/rest/b2b/company-object) im *Web API-Entwicklerhandbuch*.
 
 #### Unternehmenskonten
 
@@ -391,7 +391,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce-Sicherheits-Patch-Versionen 2.4.7-p8+ und 2.4.6-p13+.
 
-- Enthält die in [Sicherheitsbulletin APSB25-94“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-94.html).
+- Enthält die in [Sicherheitsbulletin APSB25-94“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
 
 {{b2b-compatibility}}
 
@@ -401,7 +401,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Sicherheitsaktualisierungen für Adobe Commerce 2.4.7-p7+ und 2.4.6-p12+.
 
-- Enthält die in [Sicherheitsbulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
+- Enthält die in [Sicherheitsbulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 {{b2b-compatibility}}
 
@@ -411,7 +411,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce-Sicherheits-Patch-Versionen 2.4.7-p6+ und 2.4.6-p11+.
 
-- Enthält die in [Sicherheitsbulletin APSB25-50“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-50.html).
+- Enthält die in [Sicherheitsbulletin APSB25-50“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
 
 {{b2b-compatibility}}
 
@@ -423,7 +423,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 - Die Kompatibilität mit Adobe Commerce-Sicherheits-Patches der Versionen 2.4.7-p5+ und 2.4.6-p10+ wurde hinzugefügt.
 
-- Enthält die in [Sicherheitsbulletin APSB25-26“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-26.html).
+- Enthält die in [Sicherheitsbulletin APSB25-26“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 {{b2b-compatibility}}
 
@@ -435,7 +435,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 - Die Kompatibilität mit Adobe Commerce 2.4.7-p4+ und 2.4.6-p9+ Sicherheits-Patch-Versionen wurde hinzugefügt.
 
-- Enthält die in [Sicherheitsbulletin APSB25-08](https://helpx.adobe.com/de/security/products/magento/apsb25-08.html) dokumentierten Sicherheitskorrekturen.
+- Enthält die in [Sicherheitsbulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) dokumentierten Sicherheitskorrekturen.
 
 {{b2b-compatibility}}
 
@@ -447,7 +447,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 - Die Kompatibilität mit Adobe Commerce-Sicherheits-Patches der Versionen 2.4.7-p3+ und 2.4.6-p8+ wurde hinzugefügt.
 
-- Enthält die in [Sicherheitsbulletin APSB24-73“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb24-73.html).
+- Enthält die in [Sicherheitsbulletin APSB24-73“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 {{b2b-compatibility}}
 
@@ -461,7 +461,7 @@ Verbesserungen der Angebotsfunktionen helfen Käufern und Verkäufern, Angebote 
 
 - Die Kompatibilität mit Adobe Commerce 2.4.7-p2+ und 2.4.6-p7+ Sicherheits-Patch-Versionen wurde hinzugefügt.
 
-- Umfasst die im Sicherheitsbulletin (APSB24-73[&#x200B; dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb24-73.html).
+- Umfasst die im Sicherheitsbulletin (APSB24-73[&#x200B; dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 {{b2b-compatibility}}
 
@@ -493,7 +493,7 @@ Die B2B-Version 1.4.2 enthält Qualitätsverbesserungen und Fehlerbehebungen.
 
 *7. August 2023*
 
-[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=de). Kompatibel mit Adobe Commerce 2.4.7-beta1.
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} [Adobe Commerce 2.4.6-p2](https://experienceleague.adobe.com/de/docs/commerce-operations/release/notes/security-patches/2-4-6-patches). Kompatibel mit Adobe Commerce 2.4.7-beta1.
 
 Die B2B-Version 1.4.1 enthält Qualitätsverbesserungen und Fehlerbehebungen.
 
@@ -505,13 +505,13 @@ Die B2B-Version 1.4.1 enthält Qualitätsverbesserungen und Fehlerbehebungen.
 
 - &#x200B;<!--ACP2E-1793-->Der Musterselektor für ein konfigurierbares Produkt wird nun wie erwartet auf der Konfigurationsseite des Anforderungslistenelements angezeigt. Zuvor wurde die Musterauswahl als Dropdown-Feld auf der Konfigurationsseite des Anforderungslistenelements angezeigt.
 
-- &#x200B;<!--ACP2E-1968-->Wenn Sie die [Abfrage von Company GraphQL](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company/#return-the-company-structure) zum Zurückgeben von Unternehmensdetails verwenden, werden die Ergebnisse jetzt erfolgreich und ohne Fehler zurückgegeben.
+- &#x200B;<!--ACP2E-1968-->Wenn Sie die [Abfrage von Company GraphQL](https://developer.adobe.com/commerce/webapi/graphql/schema/b2b/company/queries/company#return-the-company-structure) zum Zurückgeben von Unternehmensdetails verwenden, werden die Ergebnisse jetzt erfolgreich und ohne Fehler zurückgegeben.
 
 ### B2B v1.4.0
 
 *13. Juni 2023*
 
-[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=de). Kompatibel mit Adobe Commerce 2.4.7-beta1.
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} [Adobe Commerce 2.4.6-p1](https://experienceleague.adobe.com/de/docs/commerce-operations/release/notes/security-patches/2-4-6-patches). Kompatibel mit Adobe Commerce 2.4.7-beta1.
 
 Diese Version enthält neue Funktionen und Verbesserungen für B2B-verhandelbare Angebote und mehrere Fehlerbehebungen.
 
@@ -537,7 +537,7 @@ Diese Version enthält neue Funktionen und Verbesserungen für B2B-verhandelbare
 
 #### Bekanntes Problem
 
-Beim Installieren oder Aktualisieren von B2B 1.4.0 auf [Adobe Commerce Version 2.4.6-p1](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/security-patches/2-4-6-p1.html?lang=de) tritt der folgende Fehler auf:
+Beim Installieren oder Aktualisieren von B2B 1.4.0 auf [Adobe Commerce Version 2.4.6-p1](https://experienceleague.adobe.com/de/docs/commerce-operations/release/notes/security-patches/2-4-6-patches) tritt der folgende Fehler auf:
 
 ```
 Your requirements could not be resolved to an installable set of packages.
@@ -549,7 +549,7 @@ Your requirements could not be resolved to an installable set of packages.
 Installation failed, reverting ./composer.json and ./composer.lock to their original content.
 ```
 
-Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das B2B-Sicherheitspaket mit einem &quot;[-Tag“ &#x200B;](https://getcomposer.org/doc/04-schema.md#package-links). Anweisungen finden Sie in der [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1.4.0-installation-fails-on-adobe-commerce-2.4.6-p1-on-premises.html?lang=de).
+Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das B2B-Sicherheitspaket mit einem &quot;[-Tag“ &#x200B;](https://getcomposer.org/doc/04-schema.md#package-links). Anweisungen finden Sie in der [Adobe Commerce Knowledge Base](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/b2b-1-4-0-installation-fails-on-adobe-commerce-2-4-6-p1-on-premises).
 
 ### B2B v1.3.5-p13
 
@@ -557,7 +557,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce-Sicherheits-Patch-Versionen 2.4.6-p13+.
 
-- Enthält die in [Sicherheitsbulletin APSB25-94“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-94.html).
+- Enthält die in [Sicherheitsbulletin APSB25-94“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
 
 ### B2B v1.3.5-p12
 
@@ -565,7 +565,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce-Sicherheits-Patch-Versionen 2.4.6-p12+.
 
-- Enthält die in [Sicherheitsbulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
+- Enthält die in [Sicherheitsbulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ### B2B v1.3.5-p10
 
@@ -575,7 +575,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 - Die Kompatibilität mit den Adobe Commerce-Sicherheits-Patch-Versionen 2.4.6-p10 wurde hinzugefügt.
 
-- Enthält die in [Sicherheitsbulletin APSB25-26“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-26.html).
+- Enthält die in [Sicherheitsbulletin APSB25-26“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 ### B2B v1.3.5-p9
 
@@ -585,7 +585,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 - Es wurde Kompatibilität mit den Adobe Commerce 2.4.6-p9-Sicherheits-Patch-Versionen hinzugefügt.
 
-- Enthält die in [Sicherheitsbulletin APSB25-08](https://helpx.adobe.com/de/security/products/magento/apsb25-08.html) dokumentierten Sicherheitskorrekturen.
+- Enthält die in [Sicherheitsbulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) dokumentierten Sicherheitskorrekturen.
 
 ### B2B v1.3.5-p8
 
@@ -595,7 +595,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 - Es wurde Kompatibilität mit den Adobe Commerce-Sicherheits-Patch-Versionen 2.4.6-p8 hinzugefügt.
 
-- Enthält die in [Sicherheitsbulletin APSB24-73“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb24-73.html).
+- Enthält die in [Sicherheitsbulletin APSB24-73“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 ### B2B v1.3.5-p7
 
@@ -617,7 +617,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 >[!NOTE]
 >
->Stellen Sie nach dem Upgrade von Commerce von 2.4.6 auf [neueste Version](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=de#2.4.6) sicher, dass Sie auf die unterstützte Patch-Version B2B 1.3.5 aktualisieren. Oder aktualisieren Sie die B2B-Erweiterung von Version 1.3.5 auf Version 1.4.0 oder höher, um die neuesten Funktionen zu erhalten.
+>Stellen Sie nach dem Upgrade von Commerce von 2.4.6 auf [neueste Version](https://experienceleague.adobe.com/de/docs/commerce-operations/release/versions#2.4.6) sicher, dass Sie auf die unterstützte Patch-Version B2B 1.3.5 aktualisieren. Oder aktualisieren Sie die B2B-Erweiterung von Version 1.3.5 auf Version 1.4.0 oder höher, um die neuesten Funktionen zu erhalten.
 
 - Hinzugefügte Unterstützung für Adobe Commerce 2.4.6.
 
@@ -647,7 +647,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.5-p16 (erweiterte Unterstützung)
 
-- Enthält die in [Sicherheitsbulletin APSB26-05“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb26-05.html).
+- Enthält die in [Sicherheitsbulletin APSB26-05“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
 
 ### B2B v1.3.4-p15
 
@@ -655,7 +655,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.0 und neuere Versionen
 
-- Enthält die in [Sicherheitsbulletin APSB25-94“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-94.html).
+- Enthält die in [Sicherheitsbulletin APSB25-94“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
 
 ### B2B v1.3.4-p14
 
@@ -663,7 +663,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.0 und neuere Versionen
 
-- Enthält die in [Sicherheitsbulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
+- Enthält die in [Sicherheitsbulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ### B2B v1.3.4-p13
 
@@ -673,7 +673,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 - Hinzugefügte Unterstützung für Adobe Commerce 2.4.5-p12.
 
-- Enthält die in [Sicherheitsbulletin APSB25-50“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-50.html).
+- Enthält die in [Sicherheitsbulletin APSB25-50“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
 
 ### B2B v1.3.4-p12
 
@@ -683,7 +683,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 - Hinzugefügte Unterstützung für Adobe Commerce 2.4.5-p12.
 
-- Enthält die in [Sicherheitsbulletin APSB25-26“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-26.html).
+- Enthält die in [Sicherheitsbulletin APSB25-26“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-26.html).
 
 ### B2B v1.3.4-p11
 
@@ -693,7 +693,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 - Hinzugefügte Unterstützung für Adobe Commerce 2.4.5-p11.
 
-- Enthält die in [Sicherheitsbulletin APSB25-08](https://helpx.adobe.com/de/security/products/magento/apsb25-08.html) dokumentierten Sicherheitskorrekturen.
+- Enthält die in [Sicherheitsbulletin APSB25-08](https://helpx.adobe.com/security/products/magento/apsb25-08.html) dokumentierten Sicherheitskorrekturen.
 
 ### B2B v1.3.4-p10
 
@@ -703,7 +703,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 - Hinzugefügte Unterstützung für Adobe Commerce 2.4.5-p10.
 
-- Enthält die in [Sicherheitsbulletin APSB24-73“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb24-73.html).
+- Enthält die in [Sicherheitsbulletin APSB24-73“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 ### B2B v1.3.4
 
@@ -745,7 +745,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.4-p17 (erweiterte Unterstützung)
 
-- Enthält die in [Sicherheitsbulletin APSB26-05“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb26-05.html).
+- Enthält die in [Sicherheitsbulletin APSB26-05“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb26-05.html).
 
 ### B2B v1.3.3-p16
 
@@ -753,7 +753,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.0 und neuere Versionen
 
-- Enthält die in [Sicherheitsbulletin APSB25-94“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-94.html).
+- Enthält die in [Sicherheitsbulletin APSB25-94“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-94.html).
 
 ### B2B v1.3.3-p15
 
@@ -761,7 +761,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 [!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.0 und neuere Versionen
 
-- Enthält die in [Sicherheitsbulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-71.html).
+- Enthält die in [Sicherheitsbulletin APSB25-71“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-71.html).
 
 ### B2B v1.3.3-p14
 
@@ -771,7 +771,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 - Hinzugefügte Unterstützung für Adobe Commerce 2.4.5-p12.
 
-- Enthält die in [Sicherheitsbulletin APSB25-50“ dokumentierten &#x200B;](https://helpx.adobe.com/de/security/products/magento/apsb25-50.html).
+- Enthält die in [Sicherheitsbulletin APSB25-50“ dokumentierten &#x200B;](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
 
 ### B2B v1.3.3
 
@@ -987,7 +987,7 @@ Sie können dieses Problem beheben, indem Sie manuelle Abhängigkeiten für das 
 
 - Adobe Commerce zeigt manchmal einen 404-Fehler an, wenn ein Käufer eine Bestellung erstellt und dann zur Kasse navigiert. Dieser Fehler tritt auf, wenn ein Käufer zuvor eine andere Bestellung mit einer Online-Zahlungsmethode erstellt hat, bevor er zur Kasse navigiert, ohne den vorherigen Kauf abzuschließen. Der Käufer kann die Bestellung dennoch aufgeben. **_Problemumgehung_**: Keine. <!--- B2B-1605-->
 
-- Rabatte für eine bestimmte Zahlungsmethode bleiben während des Checkouts für eine Bestellung bestehen, auch wenn der Käufer seine Zahlungsmethode während des endgültigen Checkouts ändert. Kunden können somit einen Rabatt erhalten, zu dem sie keinen Anspruch haben. Dieses Problem tritt auf, weil für die ursprüngliche Zahlungsmethode trotz der Änderung der Zahlungsmethode weiterhin eine Warenkorbregel angewendet wird. **_Problemumgehung_**: Keine. Siehe den bekannten Artikel [Adobe Commerce 2.4.2 B2B: Rabatt bleibt für Online-Bestellungen bestehen, nachdem die Zahlungsmethode geändert wurde](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2.4.2-b2b-discount-remains-pay-method-change.html?lang=de) _Wissensdatenbank_. <!-- B2B-1012 -->
+- Rabatte für eine bestimmte Zahlungsmethode bleiben während des Checkouts für eine Bestellung bestehen, auch wenn der Käufer seine Zahlungsmethode während des endgültigen Checkouts ändert. Kunden können somit einen Rabatt erhalten, zu dem sie keinen Anspruch haben. Dieses Problem tritt auf, weil für die ursprüngliche Zahlungsmethode trotz der Änderung der Zahlungsmethode weiterhin eine Warenkorbregel angewendet wird. **_Problemumgehung_**: Keine. Siehe den bekannten Artikel [Adobe Commerce 2.4.2 B2B: Rabatt bleibt für Online-Bestellungen bestehen, nachdem die Zahlungsmethode geändert wurde](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change) _Wissensdatenbank_. <!-- B2B-1012 -->
 
 - Die `deleteRequisitionListOutput` Abfrage gibt Details zur gelöschten Anforderungsliste anstelle der übrigen Anforderungslisten zurück. <!--- MC-39894-->
 

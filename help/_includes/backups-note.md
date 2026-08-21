@@ -1,9 +1,9 @@
 ---
 title: Backup-Hinweis
 description: Wiederverwendbarer Hinweis zu Backups
-source-git-commit: 5ade2f23132e634db5e611a5ccfcbc4d6816cf92
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->**Deaktivierte Funktion:** Sicherung ist standardmäßig deaktiviert. Die Aktivierung dieser Funktion erfordert möglicherweise die Unterstützung durch einen Entwickler. Informationen zum Aktivieren _Backups finden Sie_ folgenden Thema im Installationshandbuch: [Sichern und Zurücksetzen von Dateisystem, Medien und Datenbank](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/backup.html?lang=de).
+>**Deaktivierte Funktion:** Sicherung ist standardmäßig deaktiviert. Die Aktivierung dieser Funktion erfordert möglicherweise die Unterstützung durch einen Entwickler. Informationen zum Aktivieren _Backups finden Sie_ folgenden Thema im Installationshandbuch: [Sichern und Zurücksetzen von Dateisystem, Medien und Datenbank](https://experienceleague.adobe.com/de/docs/commerce-operations/installation-guide/tutorials/backup).
 
 >[!NOTE]
 >

@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 829
+source-wordcount: 831
 ht-degree: 2%
 
 ---
@@ -58,9 +58,9 @@ Weitere Informationen finden Sie unter [Unternehmensverwaltung](manage-companies
 
 Services für Adobe Commerce sind gehostete Services, die erweiterte Funktionen für Adobe Commerce und Magento Open Source bereitstellen. Folgende Services unterstützen B2B-Workflows:
 
-* [Katalog-Service](https://experienceleague.adobe.com/docs/commerce/catalog-service/guide-overview.html?lang=de)
-* [Live Search](https://experienceleague.adobe.com/docs/commerce/live-search/guide-overview.html?lang=de)
-* [Produkt Recommendations](https://experienceleague.adobe.com/docs/commerce/product-recommendations/guide-overview.html?lang=de)
+* [Katalog-Service](https://experienceleague.adobe.com/de/docs/commerce/catalog-service/guide-overview)
+* [Live Search](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview)
+* [Produkt Recommendations](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/guide-overview)
 
 ## Freigegebene Kataloge
 

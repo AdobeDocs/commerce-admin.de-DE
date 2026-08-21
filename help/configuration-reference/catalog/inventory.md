@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1225
+source-wordcount: 1224
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Inventory Management] für Adobe Commerce und Magento Open Source bietet Ihnen die Tools zur Verwaltung Ihres Produktbestands. Händler mit einem einzigen Shop für mehrere Lager, Geschäfte, Abholorte, Drop-Versender und mehr können diese Funktionen verwenden, um Mengen für den Verkauf zu verwalten und Sendungen zu bearbeiten, um Bestellungen abzuschließen. Weitere Informationen zu diesen Funktionen und deren Verwendung zur Verwaltung von Lagern an mehreren Orten finden Sie im [_[!DNL Inventory Management] Benutzerhandbuch _](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=de).
+>[!DNL Inventory Management] für Adobe Commerce und Magento Open Source bietet Ihnen die Tools zur Verwaltung Ihres Produktbestands. Händler mit einem einzigen Shop für mehrere Lager, Geschäfte, Abholorte, Drop-Versender und mehr können diese Funktionen verwenden, um Mengen für den Verkauf zu verwalten und Sendungen zu bearbeiten, um Bestellungen abzuschließen. Weitere Informationen zu diesen Funktionen und deren Verwendung zur Verwaltung von Lagern an mehreren Orten finden Sie im [_[!DNL Inventory Management] Benutzerhandbuch _](/help/inventory-management/introduction.md).
 
 ## [!UICONTROL Stock Options]
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Manage Stock] | Global | Legt fest, ob die Artikel im Katalog mit vollständiger Bestandskontrolle verwaltet werden. Optionen: <br/>**Ja** - Aktiviert die vollständige Bestandskontrolle, um die Anzahl der aktuell auf Lager befindlichen Artikel zu verfolgen. <br/>**Nein** - Verfolgt nicht die Anzahl der aktuell auf Lager befindlichen Artikel. |
 | [!UICONTROL Backorders] | Global | Legt fest, wie Ihr Store Auftragsrückstände verwaltet. Eine Nachbestellung ändert den Verarbeitungsstatus der Bestellung nicht. Die Mittel werden unmittelbar nach Auftragserteilung noch bewilligt oder eingezogen, unabhängig davon, ob das Produkt auf Lager ist. Sobald das Produkt verfügbar wird, wird es versendet. Optionen: <br/>**Keine**: - Akzeptiert keine Nachbestellungen, wenn das Produkt nicht vorrätig ist. <br/>**Menge unter 0 zulassen** - Akzeptiert Nachbestellungen, wenn die Menge unter null fällt. <br/>**Menge unter 0 zulassen und Kunde benachrichtigen** - Akzeptiert Nachbestellungen, wenn die Menge unter null fällt, benachrichtigt Kunden jedoch, dass weiterhin Bestellungen aufgegeben werden können. |
-| [!UICONTROL Use deferred Stock update] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (nur Adobe Commerce) Legt fest, ob die Lageraktualisierung aufgeschoben werden soll, wenn Auftragsrückstände zulässig sind (die Option _Auftragsrückstände_ ist auf einen Wert festgelegt, der über den `No backorders` Standardwert hinausgeht). Sie funktioniert für ein einzelnes Produkt oder eine gesamte Website und verwendet den Mechanismus _Auftragswarteschlange_, damit die Inventarmengenindikatoren nach der Bestellung asynchron aktualisiert werden können. Diese Option funktioniert auch mit [asynchroner Auftragserteilung](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/high-throughput-order-processing.html?lang=de#asynchronous-order-placement) in Kombination mit [Inventory management](../../inventory-management/introduction.md). |
+| [!UICONTROL Use deferred Stock update] | Global | ![Adobe Commerce](../../assets/adobe-logo.svg) (nur Adobe Commerce) Legt fest, ob die Lageraktualisierung aufgeschoben werden soll, wenn Auftragsrückstände zulässig sind (die Option _Auftragsrückstände_ ist auf einen Wert festgelegt, der über den `No backorders` Standardwert hinausgeht). Sie funktioniert für ein einzelnes Produkt oder eine gesamte Website und verwendet den Mechanismus _Auftragswarteschlange_, damit die Inventarmengenindikatoren nach der Bestellung asynchron aktualisiert werden können. Diese Option funktioniert auch mit [asynchroner Auftragserteilung](https://experienceleague.adobe.com/de/docs/commerce-operations/performance-best-practices/high-throughput-order-processing#asynchronous-order-placement) in Kombination mit [Inventory management](../../inventory-management/introduction.md). |
 | Maximal zulässige Menge im Warenkorb | Global | Bestimmt die maximale Anzahl eines Produkts, das in einer einzigen Bestellung gekauft werden kann. Standardmäßig ist die maximale Menge auf 10.000 festgelegt. |
 | [!UICONTROL Out-of-Stock Threshold] | Global | Bestimmt den Lagerbestand, bei dem ein Produkt als nicht vorrätig gilt. Optionen: <br/>**Positiver Betrag** - Wenn _Nachbestellungen_ deaktiviert ist, geben Sie einen positiven Betrag ein. Bei aktivierten Auftragsrückständen wird dieser Betrag ignoriert. <br/>**Null** - Wenn &quot;_Backorders_ aktiviert ist, ermöglicht die Eingabe von `0` unendliche Backorders. <br/>**Negativer Betrag** - Bei aktiviertem _Backorders_ wird empfohlen, einen negativen Betrag einzugeben. Der Betrag wird der Verkaufsmenge hinzugefügt. Geben Sie beispielsweise -50 ein, um Bestellungen bis zu diesem Wert zuzulassen. |
 | [!UICONTROL Minimum Qty Allowed in Shopping Cart] | Global | Bestimmt den Mindestbetrag eines Artikels, der je nach Kundengruppe zum Kauf verfügbar ist. Standardmäßig ist die Mindestmenge auf 1 festgelegt. Klicken Sie auf **[!UICONTROL Add Minimum Qty]** , um einen anderen Wert für eine bestimmte Kundengruppe einzugeben. |
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Zum Konfigurieren und Unterstützen **asynchroner Warteschlangen** Manager“ müssen Sie die Befehlszeile verwenden. Dies erfordert möglicherweise die Unterstützung eines Entwicklers. Siehe [Starten von Nachrichtenwarteschlangen-](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html?lang=de) im _Konfigurationshandbuch_.
+>Zum Konfigurieren und Unterstützen **asynchroner Warteschlangen** Manager“ müssen Sie die Befehlszeile verwenden. Dies erfordert möglicherweise die Unterstützung eines Entwicklers. Siehe [Starten von Nachrichtenwarteschlangen-](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cli/start-message-queues) im _Konfigurationshandbuch_.
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

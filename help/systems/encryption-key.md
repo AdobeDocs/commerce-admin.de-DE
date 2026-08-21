@@ -20,9 +20,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: 536
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Wenn Sie versucht haben, diese Schritte auszuführen und Probleme haben, lesen Sie den Artikel [Fehlerbehebung bei der Rotation von Verschlüsselungsschlüsseln: CVE-2024-34102](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102) Knowledge Base“.
+>Wenn Sie versucht haben, diese Schritte auszuführen und Probleme haben, lesen Sie den Artikel [Fehlerbehebung bei der Rotation von Verschlüsselungsschlüsseln: CVE-2024-34102](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-27134) Knowledge Base“.
 
 Adobe Commerce und Magento Open Source verwenden zum Schutz von Passwörtern und anderen sensiblen Daten einen Verschlüsselungsschlüssel. Ein [!DNL ChaCha20-Poly1305]-Algorithmus nach Industriestandard wird mit einem 256-Bit-Schlüssel verwendet, um alle Daten zu verschlüsseln, die verschlüsselt werden müssen. Dazu gehören Kreditkartendaten und Passwörter für die Integration (Zahlungs- und Versandmodul). Darüber hinaus wird ein starker sicherer Hash-Algorithmus (SHA-256) verwendet, um alle Daten zu hashen, für die keine Entschlüsselung erforderlich ist.
 
 Während der Erstinstallation werden Sie aufgefordert, Commerce entweder einen eigenen Verschlüsselungsschlüssel generieren zu lassen oder einen eigenen einzugeben. Mit dem Verschlüsselungsschlüssel-Tool können Sie den Schlüssel nach Bedarf ändern. Der Verschlüsselungsschlüssel sollte regelmäßig geändert werden, um die Sicherheit zu verbessern, und der ursprüngliche Schlüssel kann jederzeit gefährdet sein.
 
-Technische Informationen finden Sie unter [Erweiterte lokale Installation](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=de) im _Installationshandbuch_ und [Datenwiederverschlüsselung](https://developer.adobe.com/commerce/php/development/security/data-encryption/) im _PHP-Entwicklerhandbuch_.
+Technische Informationen finden Sie unter [Erweiterte lokale Installation](https://experienceleague.adobe.com/de/docs/commerce-operations/installation-guide/advanced) im _Installationshandbuch_ und [Datenwiederverschlüsselung](https://developer.adobe.com/commerce/php/development/security/data-encryption) im _PHP-Entwicklerhandbuch_.
 
 >[!IMPORTANT]
 >
@@ -85,7 +85,7 @@ Für die folgenden Anweisungen ist der Zugriff auf ein Terminal erforderlich.
    encryption:key:change Change the encryption key inside the env.php file.
    ```
 
-   Wenn Sie diese Ausgabe sehen, führen Sie den folgenden CLI-Befehl aus und stellen Sie sicher, dass er fehlerfrei abgeschlossen wird. Wenn Sie bestimmte Systemkonfigurationswerte oder Zahlungsfelder erneut verschlüsseln müssen, lesen Sie das detaillierte [Handbuch zur erneuten Verschlüsselung](https://developer.adobe.com/commerce/php/development/security/data-encryption/) im _PHP-Entwicklerhandbuch_.
+   Wenn Sie diese Ausgabe sehen, führen Sie den folgenden CLI-Befehl aus und stellen Sie sicher, dass er fehlerfrei abgeschlossen wird. Wenn Sie bestimmte Systemkonfigurationswerte oder Zahlungsfelder erneut verschlüsseln müssen, lesen Sie das detaillierte [Handbuch zur erneuten Verschlüsselung](https://developer.adobe.com/commerce/php/development/security/data-encryption) im _PHP-Entwicklerhandbuch_.
 
    ```bash
    bin/magento encryption:key:change

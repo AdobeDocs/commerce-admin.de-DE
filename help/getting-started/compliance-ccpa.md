@@ -26,7 +26,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
 source-wordcount: 2309
 ht-degree: 0%
@@ -134,8 +134,8 @@ Erfassen Sie eine Bestandsaufnahme Ihrer digitalen Objekte, einschließlich alle
 
 1. In den folgenden Themen finden Sie die entsprechenden Datenflussdiagramme und Datenbankentitätszuordnungen für jede Version:
 
-   - [Referenz zu personenbezogenen Daten (2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=de)
-   - [Referenz zu personenbezogenen Daten (1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=de)
+   - [Referenz zu personenbezogenen Daten (2.x)](https://experienceleague.adobe.com/de/docs/commerce-operations/security-and-compliance/reference/data-m2)
+   - [Referenz zu personenbezogenen Daten (1.x)](https://experienceleague.adobe.com/de/docs/commerce-operations/security-and-compliance/reference/data-m1)
 
    ![Diagramm](./assets/privacy-frontend-diagram.svg)
 
@@ -169,8 +169,8 @@ Händler sind für Folgendes verantwortlich:
 
    - **Löschanfragen**
 
-      - Händler, deren Stores auf Adobe Commerce Cloud gehostet werden, sollten sich an den Adobe-Support wenden, um Unterstützung beim Löschen personenbezogener Daten zu erhalten. Wenden Sie sich an Ihren Adobe Technical Account Manager oder den Support, um weitere Informationen zu erhalten.
-      - Händler, die On-Premise-Installationen von Adobe Commerce oder Magento Open Source ausführen, müssen ihren eigenen Prozess und ihr eigenes Skript implementieren, um personenbezogene Daten auf Anfrage zu löschen.
+     - Händler, deren Stores auf Adobe Commerce Cloud gehostet werden, sollten sich an den Adobe-Support wenden, um Unterstützung beim Löschen personenbezogener Daten zu erhalten. Wenden Sie sich an Ihren Adobe Technical Account Manager oder den Support, um weitere Informationen zu erhalten.
+     - Händler, die On-Premise-Installationen von Adobe Commerce oder Magento Open Source ausführen, müssen ihren eigenen Prozess und ihr eigenes Skript implementieren, um personenbezogene Daten auf Anfrage zu löschen.
 
 #### Schritt 5: Inhalt für die erforderlichen Kundenbenachrichtigungen schreiben
 
@@ -186,12 +186,12 @@ Händler sind für Folgendes verantwortlich:
 
    - **So senden Sie eine Anfrage zur Erfassung und Verwendung personenbezogener Daten**: Anweisungen für Einzelpersonen zur Einreichung einer Anfrage, dass Sie die personenbezogenen Daten, die Sie über die Person erfasst haben, offenlegen, einschließlich:
 
-      - Spezifische persönliche Informationen, die Sie über den Verbraucher gesammelt haben
-      - Kategorien personenbezogener Daten, die Sie über den Verbraucher gesammelt haben
-      - Kategorien von Quellen, aus denen die personenbezogenen Daten erfasst werden
-      - Kategorien von personenbezogenen Daten über den Verbraucher, die Sie zu Geschäftszwecken verkauft oder offen gelegt haben
-      - Kategorien von Dritten, an die die personenbezogenen Daten zu Geschäftszwecken verkauft oder weitergegeben wurden
-      - Die Gründe, warum Ihr Unternehmen personenbezogene Daten erfasst und/oder verkauft
+     - Spezifische persönliche Informationen, die Sie über den Verbraucher gesammelt haben
+     - Kategorien personenbezogener Daten, die Sie über den Verbraucher gesammelt haben
+     - Kategorien von Quellen, aus denen die personenbezogenen Daten erfasst werden
+     - Kategorien von personenbezogenen Daten über den Verbraucher, die Sie zu Geschäftszwecken verkauft oder offen gelegt haben
+     - Kategorien von Dritten, an die die personenbezogenen Daten zu Geschäftszwecken verkauft oder weitergegeben wurden
+     - Die Gründe, warum Ihr Unternehmen personenbezogene Daten erfasst und/oder verkauft
 
 1. Senden Sie den Inhalt an das Team und, wenn möglich, Ihren Rechtsbeistand zur Überprüfung.
 
@@ -215,9 +215,9 @@ Händler sind für Folgendes verantwortlich:
 
 - **Alter der Einwilligung**: Wenn Sie personenbezogene Daten über Minderjährige erfassen oder verwenden, können Sie den folgenden Anforderungen unterliegen:
 
-   - **Minderjährige &lt; 13**: Minderjährige unter 13 Jahren benötigen eine elterliche Genehmigung, um sich für den Verkauf ihrer personenbezogenen Daten zu entscheiden.
+  - **Minderjährige &lt; 13**: Minderjährige unter 13 Jahren benötigen eine elterliche Genehmigung, um sich für den Verkauf ihrer personenbezogenen Daten zu entscheiden.
 
-   - **Minderjährige 13 bis &lt; 16**: Minderjährige im Alter von mindestens 13 Jahren und unter 16 Jahren können sich für den Verkauf ihrer personenbezogenen Daten entscheiden, sofern das Unternehmen ein angemessenes Verfahren zur Dokumentation der Aktion einführt. Der Prozess muss in der „Datenschutzrichtlinie“ des [&#x200B; beschrieben &#x200B;](privacy-policy.md). Wenn ein Unternehmen Anfragen von Minderjährigen in dieser Altersgruppe erhält, muss es sie über ihr Recht informieren, diese später auszuschließen, und erklären, wie dies zu tun ist.
+  - **Minderjährige 13 bis &lt; 16**: Minderjährige im Alter von mindestens 13 Jahren und unter 16 Jahren können sich für den Verkauf ihrer personenbezogenen Daten entscheiden, sofern das Unternehmen ein angemessenes Verfahren zur Dokumentation der Aktion einführt. Der Prozess muss in der „Datenschutzrichtlinie“ des [&#x200B; beschrieben &#x200B;](privacy-policy.md). Wenn ein Unternehmen Anfragen von Minderjährigen in dieser Altersgruppe erhält, muss es sie über ihr Recht informieren, diese später auszuschließen, und erklären, wie dies zu tun ist.
 
   >[!IMPORTANT]
   >

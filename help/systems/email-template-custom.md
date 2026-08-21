@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1314
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 # E-Mail-Vorlagen anpassen
 
-Commerce enthält eine standardmäßige E-Mail-Vorlage für den Hauptteil jeder Nachricht, die vom System gesendet wird. Die Vorlage für den Hauptteil des Inhalts wird mit den Kopf- und Fußzeilenvorlagen kombiniert, um die vollständige Nachricht zu erstellen. Der Inhalt ist mit HTML und CSS formatiert und kann einfach bearbeitet und angepasst werden, indem [Variablen](variables-predefined.md) hinzugefügt werden. E-Mail-Vorlagen können für jede Website, jeden Store oder jede Store-Ansicht angepasst werden. Wenn Sie benutzerdefinierte Vorlagen verwenden, aktualisieren Sie die [Systemkonfiguration](email-templates.md#configure-email-templates) um sicherzustellen, dass die richtige Vorlage verwendet wird. Informationen dazu, wie Sie bedingte Anweisungen zum Anpassen der E-Mail-Vorlage verwenden können, finden Sie unter [Entwicklerdokumentation](https://developer.adobe.com/commerce/frontend-core/guide/templates/email/#theme-based-customizations-1).
+Commerce enthält eine standardmäßige E-Mail-Vorlage für den Hauptteil jeder Nachricht, die vom System gesendet wird. Die Vorlage für den Hauptteil des Inhalts wird mit den Kopf- und Fußzeilenvorlagen kombiniert, um die vollständige Nachricht zu erstellen. Der Inhalt ist mit HTML und CSS formatiert und kann einfach bearbeitet und angepasst werden, indem [Variablen](variables-predefined.md) hinzugefügt werden. E-Mail-Vorlagen können für jede Website, jeden Store oder jede Store-Ansicht angepasst werden. Wenn Sie benutzerdefinierte Vorlagen verwenden, aktualisieren Sie die [Systemkonfiguration](email-templates.md#configure-email-templates) um sicherzustellen, dass die richtige Vorlage verwendet wird. Informationen dazu, wie Sie bedingte Anweisungen zum Anpassen der E-Mail-Vorlage verwenden können, finden Sie unter [Entwicklerdokumentation](https://developer.adobe.com/commerce/frontend-core/guide/templates/email#theme-based-customizations-1).
 
 ![Beispiel - Vorschau für Willkommens-E-Mails](./assets/email-template-preview.png){width="500" zoomable="yes"}
 

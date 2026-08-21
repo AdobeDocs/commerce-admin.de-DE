@@ -25,9 +25,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 67cbbb1d57e1306bd250237a9f767e5dbca335e6
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: 386
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Adobe bietet eine Fülle von geschäftlichen und technischen Ressourcen, Selbsth
 
 | Ökosystemressource | Beschreibung |
 | ------------------ | ----------- |
-| [Produktdokumentation](https://experienceleague.adobe.com/docs/commerce.html?lang=de) | Händler, Designer und Entwickler können die Dokumentation verwenden, um einen tieferen Einblick in die Möglichkeiten zu erhalten, wie sie die Macht der [!DNL Commerce] nutzen können, um ihr Geschäft auszubauen. |
+| [Produktdokumentation](https://experienceleague.adobe.com/de/docs/commerce) | Händler, Designer und Entwickler können die Dokumentation verwenden, um einen tieferen Einblick in die Möglichkeiten zu erhalten, wie sie die Macht der [!DNL Commerce] nutzen können, um ihr Geschäft auszubauen. |
 | [Commerce-Ressourcenbibliothek](https://business.adobe.com/de/resources/commerce.html) | Greifen Sie auf E-Books, Commerce-Whitepapers und Webinare zu, um erfahrene insight- und Online-Geschäftsressourcen zu erhalten, die Sie bei der Entwicklung und Verbesserung Ihres Shops unterstützen. |
 | [Reaktion auf Adobe-Produktsicherheitsvorfälle](https://helpx.adobe.com/de/security.html) | Treten Sie der Registrierung von Sicherheitswarnungen bei, um die neuesten Informationen zu potenziellen Sicherheitslücken und [Best Practices für die Sicherheit](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf) zu erhalten. |
 | [blog](https://business.adobe.com/de/blog/?ch_Products=Commerce) | Im Blog finden Sie aktuelle Informationen zu neuen Funktionen, Trends, Best Practices, kommenden Veranstaltungen und mehr. |

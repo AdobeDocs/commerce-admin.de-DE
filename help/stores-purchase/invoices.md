@@ -18,7 +18,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1208
 ht-degree: 0%
@@ -100,17 +100,17 @@ Bevor die Bestellung gedruckt werden kann, muss eine Rechnung für die Bestellun
 
    - Tracking-Nummer einschließen:
 
-      - Klicken Sie auf **[!UICONTROL Add Tracking Number]**.
-      - Tracking-Informationen eingeben: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ und _[!UICONTROL Number]_
+     - Klicken Sie auf **[!UICONTROL Add Tracking Number]**.
+     - Tracking-Informationen eingeben: _[!UICONTROL Carrier]_,_[!UICONTROL Title]_ und _[!UICONTROL Number]_
 
      ![Erstellen einer Fedex-Sendung](./assets/invoice-create-shipment-fedex.png){width="600" zoomable="yes"}
 
    - Optional können Sie eine Teilrechnung erstellen:
 
-      - Aktualisieren Sie im _Artikel auf Rechnung_ die Spalte **[!UICONTROL Qty to Invoice]** so, dass nur bestimmte Artikel in die Rechnung aufgenommen werden.
-      - Klicken Sie dann auf **[!UICONTROL Update Qty's]**.
+     - Aktualisieren Sie im _Artikel auf Rechnung_ die Spalte **[!UICONTROL Qty to Invoice]** so, dass nur bestimmte Artikel in die Rechnung aufgenommen werden.
+     - Klicken Sie dann auf **[!UICONTROL Update Qty's]**.
 
-        ![Zu fakturierende Artikel](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
+       ![Zu fakturierende Artikel](./assets/invoice-items-to-invoice.png){width="600" zoomable="yes"}
 
 1. Wenn für die Bestellung eine Online-Zahlungsmethode verwendet wurde, setzen Sie **[!UICONTROL Amount]** auf die entsprechende Option.
 
@@ -170,7 +170,7 @@ Die Rechnungen werden in einer einzigen PDF-Datei gespeichert, die an einen Druc
 
 Um Händlern größere Flexibilität bei Teilerfassungen und speziellen Zahlungsszenarien zu bieten, unterstützt die Rechnung-API benutzerdefinierte Erfassungsbeträge mithilfe von Erweiterungsattributen.
 
-Sie können REST-Aufrufe ausführen, um beim Erstellen einer Rechnung einen benutzerdefinierten Betrag zu erfassen.  Verwenden Sie den [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas/) REST-Endpunkt und geben Sie den benutzerdefinierten Betrag im Feld `extension_attributes.custom_capture_amount` der Payload an.
+Sie können REST-Aufrufe ausführen, um beim Erstellen einer Rechnung einen benutzerdefinierten Betrag zu erfassen.  Verwenden Sie den [`POST V1/order/:orderId/invoice`](https://developer.adobe.com/commerce/webapi/reference/rest/saas) REST-Endpunkt und geben Sie den benutzerdefinierten Betrag im Feld `extension_attributes.custom_capture_amount` der Payload an.
 
 >[!NOTE]
 >

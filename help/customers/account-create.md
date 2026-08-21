@@ -21,7 +21,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1281
 ht-degree: 0%
@@ -192,7 +192,7 @@ Zusätzliche Schaltflächen werden verfügbar, wenn das Profil zum ersten Mal ge
 | **[!UICONTROL Reset]** | Setzt alle nicht gespeicherten Änderungen im Kundenformular auf ihre vorherigen Werte zurück. |
 | **[!UICONTROL Create Order]** | Erstellt eine Bestellung für den Kunden. |
 | **[!UICONTROL Reset Password]** | Sendet einen Link [Kennwort zurücksetzen](../customers/password-reset.md) per E-Mail an den Kunden. |
-| **[!UICONTROL Force Sign-in]** | Widerruft die OAuth-Zugriffstoken, die mit dem Kundenkonto verknüpft sind. Diese Funktion kann nur mit Kundenkonten verwendet werden, denen OAuth-Token als Teil einer Web-API zugewiesen wurden [Integration](../systems/integrations.md). Weitere Informationen finden Sie unter [OAuth-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in der Entwicklerdokumentation. |
+| **[!UICONTROL Force Sign-in]** | Widerruft die OAuth-Zugriffstoken, die mit dem Kundenkonto verknüpft sind. Diese Funktion kann nur mit Kundenkonten verwendet werden, denen OAuth-Token als Teil einer Web-API zugewiesen wurden [Integration](../systems/integrations.md). Weitere Informationen finden Sie unter [OAuth-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) in der Entwicklerdokumentation. |
 | **[!UICONTROL Manage Shopping Cart]** | Ermöglicht dem Administrator, den Warenkorb für den Kunden zu verwalten. |
 | **[!UICONTROL Save and Continue Edit]** | Speichert Änderungen und hält das Kundenprofil offen. |
 | **[!UICONTROL Save Customer]** | Speichert Änderungen und schließt das Kundenprofil. |

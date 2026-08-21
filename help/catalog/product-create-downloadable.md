@@ -23,9 +23,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2023-05-22
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1638
+source-wordcount: 1639
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ Nach der Aktivierung besteht der _[!UICONTROL Downloadable Information]_&#x200B;
 
    >[!NOTE]
    >
-   >Sie können keine Links zu externen Ressourcen als herunterladbare Produkte verwenden. Gültige Link-Domains sind programmgesteuert in der `env.php`-Datei vordefiniert (siehe [env.php](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/config-reference-envphp.html?lang=de) im _Configuration Guide_).
+   >Sie können keine Links zu externen Ressourcen als herunterladbare Produkte verwenden. Gültige Link-Domains sind programmgesteuert in der `env.php`-Datei vordefiniert (siehe [env.php](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/files/config-reference-envphp) im _Configuration Guide_).
 
    - Legen Sie **[!UICONTROL Shareable]** auf eine der folgenden Einstellungen fest:
 

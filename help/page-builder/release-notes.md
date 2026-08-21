@@ -19,7 +19,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 2839
 ht-degree: 0%
@@ -197,9 +197,9 @@ Diese Version von [!DNL Page Builder] ist nur ein Versionsnummernupdate für Ado
 
 >[!IMPORTANT]
 >
->Wenn Sie zusätzliche Datenbankentitäten zum Speichern [!DNL Page Builder] Inhalte erstellt haben, _müssen_ fügen Sie diese Entitäten zu Ihrer `etc/di.xml` hinzu. Andernfalls wird der in Ihrer Entität gespeicherte [!DNL Page Builder]-Inhalt nicht aktualisiert, was zu potenziellen Datenverlust- und Anzeigeproblemen führt. Wenn Sie beispielsweise eine Blog-Entität erstellt haben, die [!DNL Page Builder] speichert, müssen Sie Ihre Blog-Entität als `UpgradableEntitiesPool`-Typ zu Ihrer `etc/di.xml`-Datei hinzufügen, damit die Upgrade-Bibliothek die in Ihrem Blog verwendeten [!DNL Page Builder]-Inhaltstypen aktualisieren kann. Weitere Informationen und Anweisungen zur Verwendung der Upgrade-Bibliothek finden Sie unter [Aktualisieren von Inhaltstypen](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types/) im _Page Builder-Entwicklerhandbuch_.
+>Wenn Sie zusätzliche Datenbankentitäten zum Speichern [!DNL Page Builder] Inhalte erstellt haben, _müssen_ fügen Sie diese Entitäten zu Ihrer `etc/di.xml` hinzu. Andernfalls wird der in Ihrer Entität gespeicherte [!DNL Page Builder]-Inhalt nicht aktualisiert, was zu potenziellen Datenverlust- und Anzeigeproblemen führt. Wenn Sie beispielsweise eine Blog-Entität erstellt haben, die [!DNL Page Builder] speichert, müssen Sie Ihre Blog-Entität als `UpgradableEntitiesPool`-Typ zu Ihrer `etc/di.xml`-Datei hinzufügen, damit die Upgrade-Bibliothek die in Ihrem Blog verwendeten [!DNL Page Builder]-Inhaltstypen aktualisieren kann. Weitere Informationen und Anweisungen zur Verwendung der Upgrade-Bibliothek finden Sie unter [Aktualisieren von Inhaltstypen](https://developer.adobe.com/commerce/frontend-core/page-builder/upgrade-content-types) im _Page Builder-Entwicklerhandbuch_.
 
-![Neu](../assets/new.svg) **Dokumentation zum Hinzufügen neuer Erscheinungsbilder** - Entwicklerinformationen, die jetzt über [Hinzufügen von Erscheinungsbildern](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances/) für vorhandene oder benutzerdefinierte Inhaltstypen veröffentlicht wurden.
+![Neu](../assets/new.svg) **Dokumentation zum Hinzufügen neuer Erscheinungsbilder** - Entwicklerinformationen, die jetzt über [Hinzufügen von Erscheinungsbildern](https://developer.adobe.com/commerce/frontend-core/page-builder/content-types/extend/add-appearances) für vorhandene oder benutzerdefinierte Inhaltstypen veröffentlicht wurden.
 
 ![Problem behoben](../assets/fix.svg) **Verschiedene Fehlerbehebungen**
 

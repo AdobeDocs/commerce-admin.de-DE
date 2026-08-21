@@ -1,9 +1,9 @@
 ---
 title: Snippets
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: df2920f654bf932385e78f8cc894bae0daee017a
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -13,19 +13,19 @@ ht-degree: 0%
 ## Funktion nur anzeigen {#ee-feature}
 
 <table style="border:1px solid red">
-<tr><td><img alt="Adobe Commerce-Funktion" src="/help/assets/adobe-logo.svg" width="20" height="20" /> Hierbei handelt es sich um eine exklusive Funktion, die nur in Adobe Commerce und nicht in Magento Open Source verfügbar ist. (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de#product-editions">Weitere Informationen</a>)</td></tr>
+<tr><td><img alt="Adobe Commerce-Funktion" src="/help/assets/adobe-logo.svg" width="20" height="20" /> Hierbei handelt es sich um eine exklusive Funktion, die nur in Adobe Commerce und nicht in Magento Open Source verfügbar ist. (<a href="/help/landing/home.md#product-editions">Weitere Informationen</a>)</td></tr>
 </table>
 
 ## Funktion nur B2B {#b2b-feature}
 
 <table style="border:1px solid green">
-<tr><td><img alt="Adobe Commerce B2B-Funktion" src="/help/assets/b2b.svg" width="20" height="20" /> Exklusive Funktion nur bei <a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/introduction.html?lang=de">Adobe Commerce B2B verfügbar</a></td></tr>
+<tr><td><img alt="Adobe Commerce B2B-Funktion" src="/help/assets/b2b.svg" width="20" height="20" /> Exklusive Funktion nur bei <a href="/help/b2b/introduction.md">Adobe Commerce B2B verfügbar</a></td></tr>
 </table>
 
 ## Nur CE-Funktion {#ce-feature}
 
 <table style="border:1px solid orange">
-<tr><td><img alt="Magento Open Source-Funktion" src="/help/assets/open-source.svg" width="20" height="20" /> Für Magento Open Source ist eine alternative Methode erforderlich (<a href="https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de#product-editions">Weitere Informationen</a>)</td></tr>
+<tr><td><img alt="Magento Open Source-Funktion" src="/help/assets/open-source.svg" width="20" height="20" /> Für Magento Open Source ist eine alternative Methode erforderlich (<a href="/help/landing/home.md#product-editions">Weitere Informationen</a>)</td></tr>
 </table>
 
 ## IMS-Administratorauthentifizierungshinweis {#ims-admin-note}
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Preisregeln werden automatisch mit anderen Systemregeln verarbeitet. Die Verarbeitungsfrequenz hängt von der [cron-Konfiguration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=de) ab. Wenn Sie eine Preisregel erstellen, warten Sie, bis sie in das System aufgenommen wurde. Testen Sie die Regel, wenn Sie sicher sind, dass sie sich im System befindet.
+>Preisregeln werden automatisch mit anderen Systemregeln verarbeitet. Die Verarbeitungsfrequenz hängt von der [cron-Konfiguration](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) ab. Wenn Sie eine Preisregel erstellen, warten Sie, bis sie in das System aufgenommen wurde. Testen Sie die Regel, wenn Sie sicher sind, dass sie sich im System befindet.
 
 ## Konfigurationseinstellungen {#config}
 
@@ -68,7 +68,7 @@ Um auf die Store-Konfigurationseinstellungen zuzugreifen, wählen Sie **[!UICONT
 >
 >Ab Juni 2024 können Adobe Commerce-Händler keine Transaktionen mehr mit der aktuellen UPS-Integration durchführen. Dies liegt daran, dass die von der nativen Adobe Commerce-Integration verwendeten United Parcel Service (UPS)-APIs derzeit das erforderliche OAuth 2.0-Sicherheitsmodell nicht unterstützen. Um die Integration zu aktivieren[&#x200B; erstellen Sie eine Anwendung auf der UPS Entwicklerplattform, &#x200B;](https://developer.ups.com/get-started) die für OAuth 2.0 erforderlichen Anmeldeinformationen abzurufen. Verwenden Sie die neuen Anmeldeinformationen als `username` und `password` in der Commerce UPS Versandkonfiguration. Weitere Informationen zur Änderung des Sicherheitsmodells finden Sie unter [Handbuch zur Migration des Zugriffsschlüssels für das Entwicklerportal_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
->Händler sollten [ein Qualitäts-Patch](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.html?lang=de)Update auf ihren Store anwenden, um von der SOAP-API zur RESTful-API zu migrieren, die OAuth 2.0-Authentifizierungsprotokolle unterstützt.
+>Händler sollten [ein Qualitäts-Patch](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-27146)Update auf ihren Store anwenden, um von der SOAP-API zur RESTful-API zu migrieren, die OAuth 2.0-Authentifizierungsprotokolle unterstützt.
 
 
 ## Verfügbare Dokumentation {#docs-links}
@@ -76,10 +76,10 @@ Um auf die Store-Konfigurationseinstellungen zuzugreifen, wählen Sie **[!UICONT
 | Dokumentationsressource | Beschreibung |
 |----------------------- | ----------- |
 | [Adobe Commerce 2.4 Admin-Benutzerhandbücher](/help/landing/home.md) | Dokumentation und Ressourcen für Händler, die in der Verwaltung arbeiten. |
-| [Dokumentation zu Services für Adobe Commerce](https://experienceleague.adobe.com/docs/commerce/user-guides/home.html?lang=de) | Dokumentation zur Unterstützung einer Sammlung von Merchandising-Services, die Händlern die Integration wichtiger Komponenten ihres Geschäfts in ihren Store erleichtern. |
-| [Handbuch zu Commerce in der Cloud-Infrastruktur](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html?lang=de) | Schrittweise Anleitungen für die Bereitstellung von Adobe Commerce auf einer verwalteten, automatisierten Hosting-Cloud-Plattform. |
-| [Adobe Commerce 2.4-Betriebshandbücher](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=de) | Systemdokumentation zu den Konzepten, Prozessen, Tools und Best Practices für die Entwicklung, Bereitstellung und Wartung von Adobe Commerce in Cloud- und lokalen Projekten. |
-| [Entwicklerdokumentation zu Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs) | Entwicklerorientierte Dokumentation zur Anpassung von Adobe Commerce und Integration mit Drittanbietersystemen. |
+| [Dokumentation zu Services für Adobe Commerce](https://experienceleague.adobe.com/de/docs/commerce/user-guides/home) | Dokumentation zur Unterstützung einer Sammlung von Merchandising-Services, die Händlern die Integration wichtiger Komponenten ihres Geschäfts in ihren Store erleichtern. |
+| [Handbuch zu Commerce in der Cloud-Infrastruktur](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/overview) | Schrittweise Anleitungen für die Bereitstellung von Adobe Commerce auf einer verwalteten, automatisierten Hosting-Cloud-Plattform. |
+| [Adobe Commerce 2.4-Betriebshandbücher](https://experienceleague.adobe.com/de/docs/commerce-operations/operational-guides/home) | Systemdokumentation zu den Konzepten, Prozessen, Tools und Best Practices für die Entwicklung, Bereitstellung und Wartung von Adobe Commerce in Cloud- und lokalen Projekten. |
+| [Entwicklerdokumentation zu Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs/) | Entwicklerorientierte Dokumentation zur Anpassung von Adobe Commerce und Integration mit Drittanbietersystemen. |
 
 {style="table-layout:auto"}
 

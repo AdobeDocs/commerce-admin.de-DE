@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 # Integrationen
 
-Durch die Definition einer Integration in Commerce Admin wird der Speicherort der OAuth-Anmeldeinformationen und der Umleitungs-URL für Drittanbieterintegrationen festgelegt sowie die verfügbaren API-Ressourcen identifiziert, die für die Integration erforderlich sind. Weitere Informationen zum Integrationsregistrierungsprozess finden Sie unter [OAuth-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in der Entwicklerdokumentation von Commerce.
+Durch die Definition einer Integration in Commerce Admin wird der Speicherort der OAuth-Anmeldeinformationen und der Umleitungs-URL für Drittanbieterintegrationen festgelegt sowie die verfügbaren API-Ressourcen identifiziert, die für die Integration erforderlich sind. Weitere Informationen zum Integrationsregistrierungsprozess finden Sie unter [OAuth-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) in der Entwicklerdokumentation von Commerce.
 
 ![Integrationen](./assets/integrations.png){width="700" zoomable="yes"}
 
@@ -64,8 +64,8 @@ Durch die Definition einer Integration in Commerce Admin wird der Speicherort de
 
    - Legen Sie **[!UICONTROL Resource Access]** auf eine der folgenden Einstellungen fest:
 
-      - `All`
-      - `Custom`
+     - `All`
+     - `Custom`
 
    - Aktivieren Sie für den benutzerdefinierten Zugriff das Kontrollkästchen jeder benötigten Ressource.
 
@@ -119,7 +119,7 @@ Standardmäßig lässt das System keinen anonymen Gastzugriff auf CMS, den Katal
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
-Weitere Informationen finden Sie unter [Einschränken des Zugriffs auf anonyme Web-APIs](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security/) in der Entwicklerdokumentation zu Commerce.
+Weitere Informationen finden Sie unter [Einschränken des Zugriffs auf anonyme Web-APIs](https://developer.adobe.com/commerce/webapi/rest/use-rest/anonymous-api-security) in der Entwicklerdokumentation zu Commerce.
 
 ## Löschen einer Integration
 

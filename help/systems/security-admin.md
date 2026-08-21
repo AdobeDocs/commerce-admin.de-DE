@@ -24,16 +24,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 865
 ht-degree: 0%
 
 ---
 
 # Konfigurieren der Admin-Sicherheit
 
-Wir empfehlen Ihnen, einen vielseitigen Ansatz zu wählen, um die Sicherheit Ihres Geschäfts zu schützen. Sie können mit einer [benutzerdefinierten Admin-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) beginnen, die nicht einfach zu erraten ist, anstatt mit dem offensichtlichen „Admin“ oder „Backend“. Standardmäßig müssen Kennwörter, die für die [&#x200B; beim &#x200B;](../getting-started/admin-signin.md) verwendet werden, mindestens sieben Zeichen lang sein und sowohl Buchstaben als auch Zahlen enthalten. Sie können die erforderliche Mindestkennwortlänge konfigurieren, um die Sicherheit je nach den Anforderungen Ihres Unternehmens zu erhöhen. Verwenden [&#x200B; als Best &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices.html?lang=de) nur sichere Administratorkennwörter, die aus einer Kombination aus Buchstaben, Zahlen und Symbolen bestehen. Adobe Commerce und Magento Open Source erlauben nicht die Wiederverwendung der letzten vier dem Konto zugewiesenen Kennwörter.
+Wir empfehlen Ihnen, einen vielseitigen Ansatz zu wählen, um die Sicherheit Ihres Geschäfts zu schützen. Sie können mit einer [benutzerdefinierten Admin-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) beginnen, die nicht einfach zu erraten ist, anstatt mit dem offensichtlichen „Admin“ oder „Backend“. Standardmäßig müssen Kennwörter, die für die [&#x200B; beim &#x200B;](../getting-started/admin-signin.md) verwendet werden, mindestens sieben Zeichen lang sein und sowohl Buchstaben als auch Zahlen enthalten. Sie können die erforderliche Mindestkennwortlänge konfigurieren, um die Sicherheit je nach den Anforderungen Ihres Unternehmens zu erhöhen. Verwenden [&#x200B; als Best &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices) nur sichere Administratorkennwörter, die aus einer Kombination aus Buchstaben, Zahlen und Symbolen bestehen. Adobe Commerce und Magento Open Source erlauben nicht die Wiederverwendung der letzten vier dem Konto zugewiesenen Kennwörter.
 
 Die Admin-Sicherheitskonfiguration bietet folgende Möglichkeiten:
 
@@ -52,7 +52,7 @@ Zusätzlich zu den Sicherheitseinstellungen in diesem Abschnitt ist eine [Zwei-F
 >
 >Bei Stores mit aktivierter [!DNL Adobe Identity Management Services]-Authentifizierung (IMS) sind die native Adobe Commerce und Magento Open Source 2FA deaktiviert. Admin-Benutzende, die mit ihren Adobe-Anmeldeinformationen bei ihrer Commerce-Instanz angemeldet sind, müssen sich für viele Admin-Aufgaben nicht erneut authentifizieren. Die Authentifizierung wird von Adobe IMS durchgeführt, wenn sich der Administrator bei seiner aktuellen Sitzung anmeldet. Siehe Übersicht über die [[!DNL Adobe Identity Management Service] (IMS)-Integration](../getting-started/adobe-ims-integration-overview.md).
 
-Technische Informationen finden Sie unter [Sicherheitsübersicht](https://developer.adobe.com/commerce/php/architecture/basics/security/){:target="_blank"} in der Entwicklerdokumentation.
+Technische Informationen finden Sie unter [Sicherheitsübersicht](https://developer.adobe.com/commerce/php/architecture/basics/security){:target="_blank"} in der Entwicklerdokumentation.
 
 ![Admin-Sicherheit](../configuration-reference/advanced/assets/admin-security.png){width="600" zoomable="yes"}
 
@@ -103,8 +103,8 @@ Technische Informationen finden Sie unter [Sicherheitsübersicht](https://develo
 
    - Legen Sie **[!UICONTROL Password Change]** auf eine der folgenden Einstellungen fest:
 
-      - `Forced` - Erfordert, dass Admin-Benutzer ihr Passwort nach der Einrichtung des Kontos ändern.
-      - `Recommended` - empfiehlt Admin-Benutzern, ihre Kennwörter nach der Einrichtung des Kontos zu ändern.
+     - `Forced` - Erfordert, dass Admin-Benutzer ihr Passwort nach der Einrichtung des Kontos ändern.
+     - `Recommended` - empfiehlt Admin-Benutzern, ihre Kennwörter nach der Einrichtung des Kontos zu ändern.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 

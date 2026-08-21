@@ -28,9 +28,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1500
+source-wordcount: 1504
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Siehe [Einrichten der Site-Suche](https://support.google.com/analytics/answer/10
 
 ## Schritt 2. Konfigurieren des [!DNL Google Tag Manager]
 
-Die folgenden Anweisungen zeigen, wie Sie einen neuen Container mit den Grundeinstellungen konfigurieren. Eine Beispielkonfigurationsdatei [Composer](https://developer.adobe.com/commerce/php/development/composer/) (.json) wird verwendet, um den Prozess zu vereinfachen, indem importiert wird, um ein Tag in einem neuen Container zu generieren. In diesem Beispiel wird empfohlen, einen Container zu erstellen, anstatt einen vorhandenen Container zu ändern.
+Die folgenden Anweisungen zeigen, wie Sie einen neuen Container mit den Grundeinstellungen konfigurieren. Eine Beispielkonfigurationsdatei [Composer](https://developer.adobe.com/commerce/php/development/composer) (.json) wird verwendet, um den Prozess zu vereinfachen, indem importiert wird, um ein Tag in einem neuen Container zu generieren. In diesem Beispiel wird empfohlen, einen Container zu erstellen, anstatt einen vorhandenen Container zu ändern.
 
 >[!NOTE]
 >

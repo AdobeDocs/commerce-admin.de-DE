@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: 796
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Wenn Sie die maximale Sitzungsgröße überschreiten, wird kein Fehler angezeigt
 
 Adobe Commerce und Magento Open Source ermöglichen es Ihnen, Sitzungsvariablen zu validieren, um vor möglichen Sitzungsfixierungsangriffen oder Versuchen zu schützen, Benutzersitzungen zu vergiften oder zu entführen. Die Sitzungsvalidierungseinstellungen bestimmen, wie Sitzungsvariablen bei jedem Store-Besuch validiert werden und ob die Sitzungs-ID in der URL des Stores enthalten ist.
 
-Technische Informationen finden Sie unter [Verwenden von Redis für &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html?lang=de) Sitzungsspeicherung) im _Konfigurationshandbuch_.
+Technische Informationen finden Sie unter [Verwenden von Redis für &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cache/redis/redis-session) Sitzungsspeicherung) im _Konfigurationshandbuch_.
 
 ![Allgemeine Konfiguration - Validierung von Web-Sitzungen](../configuration-reference/general/assets/web-session-validation-settings.png){width="600" zoomable="yes"}
 

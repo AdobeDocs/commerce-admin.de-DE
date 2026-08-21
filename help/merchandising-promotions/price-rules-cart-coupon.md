@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2338
+source-wordcount: 2339
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Die Länge und das Format der automatisch generierten Couponcodes werden von der
 
 >[!NOTE]
 >
->[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Bevor Sie Coupons erstellen, überprüfen Sie mit dem `bin/magento cron:run`-Befehl, ob cron ausgeführt wird. Weitere Informationen finden [&#x200B; unter „Ausführen von &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=de#run-cron-from-the-command-line) über die Befehlszeile _im Konfigurationshandbuch_.
+>[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Bevor Sie Coupons erstellen, überprüfen Sie mit dem `bin/magento cron:run`-Befehl, ob cron ausgeführt wird. Weitere Informationen finden [&#x200B; unter „Ausführen von &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line) über die Befehlszeile _im Konfigurationshandbuch_.
 
 ### Methode 1: Erstellen eines bestimmten Coupons
 
@@ -124,23 +124,23 @@ Die Länge und das Format der automatisch generierten Couponcodes werden von der
 
      **Option 1:** Planen einer neuen Aktualisierung
 
-      - Klicken Sie oben rechts auf der Seite auf **[!UICONTROL Schedule New Update]** .
+     - Klicken Sie oben rechts auf der Seite auf **[!UICONTROL Schedule New Update]** .
 
-        ![Aktualisierung planen](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
+       ![Aktualisierung planen](./assets/coupon-schedule-new-update.png){width="600" zoomable="yes"}
 
-      - Geben Sie den **[!UICONTROL Update Name]** und die **[!UICONTROL Description]** ein.
+     - Geben Sie den **[!UICONTROL Update Name]** und die **[!UICONTROL Description]** ein.
 
-      - Wählen Sie **Startdatum** und **[!UICONTROL End Date]** Sie im Kalender aus ( ![Kalendersymbol](../assets/icon-calendar.png) ). Wenn Sie den Datumsbereich leer lassen, läuft die Regel nicht ab.
+     - Wählen Sie **Startdatum** und **[!UICONTROL End Date]** Sie im Kalender aus ( ![Kalendersymbol](../assets/icon-calendar.png) ). Wenn Sie den Datumsbereich leer lassen, läuft die Regel nicht ab.
 
-      - Klicken Sie abschließend auf **[!UICONTROL Save]**.
+     - Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-        ![Warenkorb-Preisregel - Geplante Änderung](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
+       ![Warenkorb-Preisregel - Geplante Änderung](./assets/coupon-scheduled-change.png){width="600" zoomable="yes"}
 
      **Option 2:** einer bestehenden Aktualisierung zuweisen:
 
-      - Wählen Sie **[!UICONTROL Assign to Another Update]** aus.
+     - Wählen Sie **[!UICONTROL Assign to Another Update]** aus.
 
-      - Suchen Sie das Update in der Liste und klicken Sie auf **[!UICONTROL Select]**.
+     - Suchen Sie das Update in der Liste und klicken Sie auf **[!UICONTROL Select]**.
 
 1. Füllen Sie [Warenkorb-Preisregel](price-rules-cart.md) nach Bedarf aus.
 
@@ -170,9 +170,9 @@ Die Erstellung von Rabattgutscheinen ist ein asynchroner Vorgang, der im Hinterg
 
    - Legen Sie die **[!UICONTROL Code Format]** auf einen der folgenden Werte fest:
 
-      - `Alphanumeric`
-      - `Alphabetical`
-      - `Numeric`
+     - `Alphanumeric`
+     - `Alphabetical`
+     - `Numeric`
 
    - (Optional) Geben Sie einen **[!UICONTROL Code Prefix]** ein, der am Anfang des Codes hinzugefügt werden soll.
 
@@ -221,7 +221,7 @@ Um benutzerdefinierte Gutscheincodes zu löschen, wählen Sie die zu löschenden
 
 Um benutzerdefinierte Gutscheincodes zu bearbeiten oder Nutzungsdetails anzuzeigen, klicken Sie in der Spalte **[!UICONTROL Actions]** auf **[!UICONTROL Edit]** .
 
-&lt;InlineAlert variant="info" slots="text"/>
+<InlineAlert variant="info" slots="text"/>
 
 Der Haupt-Couponcode, der zur Warenkorbpreisregel gehört, kann nicht bearbeitet oder gelöscht werden.
 
@@ -288,16 +288,16 @@ Im folgenden Beispiel wurde der Couponcode „H20“ von zwei Kunden verwendet. 
 
    - Legen Sie **[!UICONTROL Date Used]** auf eine der folgenden Einstellungen fest:
 
-      - `Order Created`
-      - `Order Updated`
+     - `Order Created`
+     - `Order Updated`
 
      Der _Auftrag aktualisiert_-Bericht wird in Echtzeit erstellt und erfordert keine Aktualisierung.
 
    - Um den vom Bericht abgedeckten Zeitraum zu definieren, legen Sie **[!UICONTROL Period]** auf einen der folgenden Werte fest:
 
-      - `Day`
-      - `Month`
-      - `Year`
+     - `Day`
+     - `Month`
+     - `Year`
 
    - Um den Datumsbereich des Berichts zu definieren, geben Sie die Daten **Von** und **Bis** im M/D/JJ-Format ein.
 
@@ -307,8 +307,8 @@ Im folgenden Beispiel wurde der Couponcode „H20“ von zwei Kunden verwendet. 
 
    - Um die im Bericht enthaltenen Couponaktivitäten zu definieren, führen Sie einen der folgenden Schritte aus:
 
-      - Um alle Couponaktivitäten aus allen Preisregeln einzubeziehen, setzen Sie **[!UICONTROL Cart Price Rule]** auf `Any`.
-      - Um nur Aktivitäten einzubeziehen, die sich auf eine bestimmte Preisregel beziehen, setzen Sie **[!UICONTROL Cart Price Rule]** auf `Specified` und wählen Sie die Warenkorb-Preisregel in der Liste aus.
+     - Um alle Couponaktivitäten aus allen Preisregeln einzubeziehen, setzen Sie **[!UICONTROL Cart Price Rule]** auf `Any`.
+     - Um nur Aktivitäten einzubeziehen, die sich auf eine bestimmte Preisregel beziehen, setzen Sie **[!UICONTROL Cart Price Rule]** auf `Specified` und wählen Sie die Warenkorb-Preisregel in der Liste aus.
 
 1. Wenn Sie bereit sind, den Bericht auszuführen, klicken Sie auf **[!UICONTROL Show Report]**.
 

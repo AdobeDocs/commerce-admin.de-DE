@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 last-update: 2026-06-03
-source-git-commit: 2aec8bcf2c4736ff1b1be4c718938ef360b6daa9
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 2178
+source-wordcount: 2179
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ Die drei `quantity` summieren sich bis zu 0 (-25 + 5 + 20). Das System ändert k
 
 Der `inventory_cleanup_reservations` Cron-Auftrag führt SQL-Abfragen aus, um die Reservierungsdatenbanktabelle zu löschen. Standardmäßig wird sie täglich um Mitternacht ausgeführt, aber Sie können die Zeiten und die Häufigkeit konfigurieren. Der Cron-Auftrag führt ein Skript aus, das die Datenbank abfragt, um vollständige Reservierungssequenzen zu finden, in denen die Summe der Mengenwerte 0 ist. Wenn alle Reservierungen für ein bestimmtes Produkt, die am selben Tag (oder einer anderen konfigurierten Zeit) entstanden sind, kompensiert wurden, löscht der Cron-Auftrag die Reservierungen alle auf einmal.
 
-Der `inventory_reservations_cleanup` Cron-Auftrag ist nicht identisch mit dem `inventory.reservations.cleanup` Nachrichtenwarteschlange-Verbraucher. Der -Verbraucher löscht Reservierungen asynchron nach Produkt-SKU, nachdem ein Produkt entfernt wurde, während der Cron-Auftrag die gesamte Reservierungstabelle löscht. Der -Verbraucher wird benötigt, wenn Sie die Stock [**Option „Mit Katalog synchronisieren**](../configuration-reference/catalog/inventory.md) in der Store-Konfiguration aktivieren. Siehe [Verwalten von Nachrichtenwarteschlangen](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html?lang=de){target="_blank"} im _Konfigurationshandbuch_.
+Der `inventory_reservations_cleanup` Cron-Auftrag ist nicht identisch mit dem `inventory.reservations.cleanup` Nachrichtenwarteschlange-Verbraucher. Der -Verbraucher löscht Reservierungen asynchron nach Produkt-SKU, nachdem ein Produkt entfernt wurde, während der Cron-Auftrag die gesamte Reservierungstabelle löscht. Der -Verbraucher wird benötigt, wenn Sie die Stock [**Option „Mit Katalog synchronisieren**](../configuration-reference/catalog/inventory.md) in der Store-Konfiguration aktivieren. Siehe [Verwalten von Nachrichtenwarteschlangen](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues){target="_blank"} im _Konfigurationshandbuch_.
 
 Häufig können alle anfänglichen Reservierungen, die an einem einzigen Tag erstellt wurden, nicht am selben Tag kompensiert werden. Diese Situation kann auftreten, wenn ein Kunde eine Bestellung aufgibt, kurz bevor der Cron-Auftrag beginnt, oder den Kauf mit einer Offline-Zahlungsmethode tätigt, wie z. B. einer Banküberweisung. Die kompensierten Reservierungssequenzen verbleiben in der Datenbank, bis sie alle kompensiert werden. Diese Vorgehensweise beeinträchtigt die Reservierungsberechnungen nicht, da die Summe für jede Reservierung 0 beträgt.
 

@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 393
 ht-degree: 0%
@@ -34,7 +34,7 @@ Kunden setzen ihre Kennwörter in der Regel aus der Storefront zurück, indem si
 | Funktion | Beschreibung |
 | --- | --- |
 | Passwort zurücksetzen | Eine E-Mail zum Zurücksetzen des Kennworts wird direkt an das E-Mail-Konto des Kunden gesendet. Der Store-Administrator kann keinen Zugriff auf das Kennwort des Kunden erhalten. |
-| Anmeldung erzwingen | Widerruft die OAuth-Zugriffstoken, die mit dem Kundenkonto verknüpft sind. Dies kann nur mit Kundenkonten verwendet werden, denen OAuth-Token als Teil einer Web-API ([) zugewiesen &#x200B;](../systems/integrations.md). Weitere Informationen finden Sie unter [OAuth-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/) in der Entwicklerdokumentation. <br/><br/>Standardkundenkonten, die aus der Storefront oder vom Administrator erstellt wurden, haben keine OAuth-Token. |
+| Anmeldung erzwingen | Widerruft die OAuth-Zugriffstoken, die mit dem Kundenkonto verknüpft sind. Dies kann nur mit Kundenkonten verwendet werden, denen OAuth-Token als Teil einer Web-API ([) zugewiesen &#x200B;](../systems/integrations.md). Weitere Informationen finden Sie unter [OAuth-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth) in der Entwicklerdokumentation. <br/><br/>Standardkundenkonten, die aus der Storefront oder vom Administrator erstellt wurden, haben keine OAuth-Token. |
 
 {style="table-layout:auto"}
 

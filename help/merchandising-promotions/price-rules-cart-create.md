@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 3399
+source-wordcount: 3400
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
 
    - Um einen Coupon mit einer Preisregel zu verknüpfen, setzen Sie **[!UICONTROL Coupon]** auf `Specific Coupon` und gehen Sie wie folgt vor:
 
-      - Geben Sie eine Freitext-**[!UICONTROL Coupon Code]** ein, die der Kunde eingeben muss, um den Rabatt zu erhalten.
+     - Geben Sie eine Freitext-**[!UICONTROL Coupon Code]** ein, die der Kunde eingeben muss, um den Rabatt zu erhalten.
 
-      - Um festzulegen, wie oft der Coupon verwendet werden kann, füllen Sie die folgenden Optionen aus:
+     - Um festzulegen, wie oft der Coupon verwendet werden kann, füllen Sie die folgenden Optionen aus:
 
      | Option | Beschreibung |
      |------|-----------|
@@ -228,7 +228,7 @@ Sie können eine Bedingung für eine Warenkorb-Preisregel basierend auf einer Re
    | `Name` | Name der Zielgruppe, z. B. `Orders over $50` |
    | `Description` | Beschreibung der Zielgruppe, z. B. `People who placed an order over $50 in the last month.`. |
    | `Source` | Gibt an, woher die Zielgruppe stammt, z. B. `Experience Platform`. |
-   | `Website` | Gibt an, welche Website Sie mit dem Datenstrom verknüpft haben, der die Zielgruppen enthält. Sie erstellen diesen Link, wenn Sie Ihre Commerce-Instanz über die [[!DNL Data Connection]](https://experienceleague.adobe.com/docs/commerce/data-connection/fundamentals/connect-data.html?lang=de) mit der Experience Platform verbinden. |
+   | `Website` | Gibt an, welche Website Sie mit dem Datenstrom verknüpft haben, der die Zielgruppen enthält. Sie erstellen diesen Link, wenn Sie Ihre Commerce-Instanz über die [[!DNL Data Connection]](https://experienceleague.adobe.com/de/docs/commerce/data-connection/fundamentals/connect-data) mit der Experience Platform verbinden. |
 
    {style="table-layout:auto"}
 

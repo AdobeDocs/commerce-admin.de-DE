@@ -16,9 +16,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: 1049
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ Die folgenden Schritte zeigen, wie Sie mit einer Layout-Aktualisierung einen Blo
 
 ### Schritt 2: Layout-Aktualisierung in XML erstellen
 
-1. Erstellen Sie die Layout-Anweisungen in XML, um [auf einen CMS-Block zu verweisen](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/).
+1. Erstellen Sie die Layout-Anweisungen in XML, um [auf einen CMS-Block zu verweisen](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage).
 
-1. Speichern Sie die [Layoutanweisungen](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/) auf dem Server im Layout-Ordner, in dem XML-Dateien für das Design gespeichert werden.
+1. Speichern Sie die [Layoutanweisungen](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions) auf dem Server im Layout-Ordner, in dem XML-Dateien für das Design gespeichert werden.
 
    Beispiel:
 

@@ -7,9 +7,9 @@ feature: Page Builder
 role: User
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 nudge: true
-source-git-commit: dcc66df3d9024368ea07fad1e93846cf98726523
+source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '116'
 ht-degree: 6%
 
 ---
@@ -22,30 +22,30 @@ ht-degree: 6%
 - [Versionshinweise](release-notes.md)
 - [Konfiguration und Einrichtung](setup.md)
 - Anleitung {#walkthrough}
-   - [Teil 1: Einfache Seite](1-simple-page.md)
-   - [Teil 2: Bausteine](2-blocks.md)
-   - [Teil 3: Kataloginhalt](3-catalog-content.md)
+  - [Teil 1: Einfache Seite](1-simple-page.md)
+  - [Teil 2: Bausteine](2-blocks.md)
+  - [Teil 3: Kataloginhalt](3-catalog-content.md)
 - [Workspace](workspace.md)
 - Layout {#layout}
-   - [Zeilen](row.md)
-   - [Spalten](column.md)
-   - [Registerkarten](tabs.md)
+  - [Zeilen](row.md)
+  - [Spalten](column.md)
+  - [Registerkarten](tabs.md)
 - Elemente {#elements}
-   - [Text](text.md)
-   - [Überschrift](heading.md)
-   - [Schaltflächen](buttons.md)
-   - [Teiler](divider.md)
-   - [HTML-Code](html-code.md)
+  - [Text](text.md)
+  - [Überschrift](heading.md)
+  - [Schaltflächen](buttons.md)
+  - [Teiler](divider.md)
+  - [HTML-Code](html-code.md)
 - Medien {#media}
-   - [Bild](image.md)
-   - [Video](video.md)
-   - [Banner](banner.md)
-   - [Schieberegler](slider.md)
-   - [Zuordnung](map.md)
+  - [Bild](image.md)
+  - [Video](video.md)
+  - [Banner](banner.md)
+  - [Schieberegler](slider.md)
+  - [Zuordnung](map.md)
 - Inhalt hinzufügen {#add-content}
-   - [Blockieren](block.md)
-   - [Dynamischer Block](dynamic-block.md)
-   - [PRODUCT](products.md)
-   - [Produkt Recommendations](recommendations.md)
+  - [Blockieren](block.md)
+  - [Dynamischer Block](dynamic-block.md)
+  - [PRODUCT](products.md)
+  - [Produkt Recommendations](recommendations.md)
 - [Vorlagen](templates.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=de)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)

@@ -19,9 +19,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
 workflow-type: tm+mt
-source-wordcount: 541
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=de) bietet ein schnelles, extrem relevantes und intuitives Sucherlebnis und ist für Adobe Commerce ohne zusätzliche Kosten verfügbar. In diesem Abschnitt wird die Standardsuchfunktion beschrieben, die sich von [!DNL Live Search] unterscheiden kann.
+>[[!DNL Live Search]](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview) bietet ein schnelles, extrem relevantes und intuitives Sucherlebnis und ist für Adobe Commerce ohne zusätzliche Kosten verfügbar. In diesem Abschnitt wird die Standardsuchfunktion beschrieben, die sich von [!DNL Live Search] unterscheiden kann.
 
 Untersuchungen zeigen, dass Personen, die die -Suche verwenden, mit größerer Wahrscheinlichkeit einen Kauf tätigen als Kunden, die nur auf die Navigation angewiesen sind. Tatsächlich tätigen Menschen, die die Suche nutzen, laut einigen Studien mit fast doppelt so hoher Wahrscheinlichkeit einen Kauf.
 
@@ -64,7 +64,7 @@ Das Suchfeld in der Kopfzeile des Stores hilft Besuchern, Produkte in Ihrem Kata
 
 >[!NOTE]
 >
->Die hier beschriebene Funktion der erweiterten Formularsuche gilt nicht für [[!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce/live-search/overview.html?lang=de).
+>Die hier beschriebene Funktion der erweiterten Formularsuche gilt nicht für [[!DNL Live Search]](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview).
 
 Mit der erweiterten Suche können Käufer den Katalog anhand der in ein Formular eingegebenen Werte durchsuchen. Da das Formular mehrere Felder enthält, kann eine einzelne Suche mehrere Parameter enthalten. Das Ergebnis ist eine Liste aller Produkte im Katalog, die den Kriterien entsprechen. Ein Link zur erweiterten Suche befindet sich in der Fußzeile Ihres Stores.
 

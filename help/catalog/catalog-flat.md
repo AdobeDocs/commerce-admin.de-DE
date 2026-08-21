@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
 workflow-type: tm+mt
-source-wordcount: 704
+source-wordcount: 705
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die Verwendung eines flachen Katalogs wird nicht mehr als Best Practice empfohlen. Es ist bekannt, dass die kontinuierliche Verwendung dieser Funktion zu Leistungseinbußen und anderen Indizierungsproblemen führt. Eine ausführliche Beschreibung und Lösung finden Sie im [Hilfe-Center](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=de).<br/><br/>Betroffene Versionen sind unter anderem: <br/>- Adobe Commerce auf Cloud-Infrastruktur, 2.3.x und höher<br/>- Adobe Commerce (On-Premise), 2.3.x und höher<br/>- Magento Open Source, 2.3.x und höher <br/><br/>In jeder Release-Version funktionieren einige Erweiterungen nur mit flachen Tabellen, was ein Risiko darstellt, wenn Sie flache Tabellen deaktivieren. Wenn Sie wissen, dass Sie einige Erweiterungen haben, die Indexer für flache Kataloge verwenden, müssen Sie sich dieses Risikos bewusst sein, wenn Sie diese Werte auf `No` setzen.
+>Die Verwendung eines flachen Katalogs wird nicht mehr als Best Practice empfohlen. Es ist bekannt, dass die kontinuierliche Verwendung dieser Funktion zu Leistungseinbußen und anderen Indizierungsproblemen führt. Eine ausführliche Beschreibung und Lösung finden Sie im [Hilfe-Center](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons).<br/><br/>Betroffene Versionen sind unter anderem: <br/>- Adobe Commerce auf Cloud-Infrastruktur, 2.3.x und höher<br/>- Adobe Commerce (On-Premise), 2.3.x und höher<br/>- Magento Open Source, 2.3.x und höher <br/><br/>In jeder Release-Version funktionieren einige Erweiterungen nur mit flachen Tabellen, was ein Risiko darstellt, wenn Sie flache Tabellen deaktivieren. Wenn Sie wissen, dass Sie einige Erweiterungen haben, die Indexer für flache Kataloge verwenden, müssen Sie sich dieses Risikos bewusst sein, wenn Sie diese Werte auf `No` setzen.
 
 Commerce speichert Katalogdaten in der Regel in mehreren Tabellen, basierend auf dem Entitätenattribut-Wert-Modell (EAV). Da Produktattribute in vielen Tabellen gespeichert sind, sind SQL-Abfragen manchmal lang und komplex.
 

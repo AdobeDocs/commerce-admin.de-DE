@@ -21,9 +21,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: 873
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Die _[!UICONTROL Advanced Pricing]_&#x200B;definieren die erforderlichen Bedingu
 
 Erweiterte Preisdaten werden mit Produktseiten synchronisiert. Wenn Sie beispielsweise eine Preismenge aktualisieren, aktualisiert das System den Wert auf der Produktseite.
 
-![Adobe Commerce B2B](../assets/b2b.svg) (nur verfügbar mit [Adobe Commerce B2B](./b2b/../introduction.md)) Wenn Sie freigegebene Kataloge verwenden, werden die erweiterten Preisdaten sowohl mit Produktseiten als auch mit freigegebenen Katalogen synchronisiert. Wenn Sie beispielsweise die Preismenge einer Stufe aktualisieren, aktualisiert das System den Wert im freigegebenen Katalog und auf der Produktseite. Alle benutzerdefinierten Preise, die im freigegebenen Katalog angegeben sind, haben Vorrang vor den Preisen der Kundengruppe. Weitere Informationen finden Sie [Festlegen von Preisen und Strukturen für freigegebene Kataloge](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=de) im _Adobe Commerce B2B-Handbuch_.
+![Adobe Commerce B2B](../assets/b2b.svg) (nur verfügbar mit [Adobe Commerce B2B](./b2b/../introduction.md)) Wenn Sie freigegebene Kataloge verwenden, werden die erweiterten Preisdaten sowohl mit Produktseiten als auch mit freigegebenen Katalogen synchronisiert. Wenn Sie beispielsweise die Preismenge einer Stufe aktualisieren, aktualisiert das System den Wert im freigegebenen Katalog und auf der Produktseite. Alle benutzerdefinierten Preise, die im freigegebenen Katalog angegeben sind, haben Vorrang vor den Preisen der Kundengruppe. Weitere Informationen finden Sie [Festlegen von Preisen und Strukturen für freigegebene Kataloge](/help/b2b/catalog-shared-pricing-structure.md) im _Adobe Commerce B2B-Handbuch_.
 
 ![Advanced Pricing](./assets/product-pricing-advanced-link.png){width="600" zoomable="yes"}
 

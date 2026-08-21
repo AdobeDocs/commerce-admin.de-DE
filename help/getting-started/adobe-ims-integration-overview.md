@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 783
+source-wordcount: 848
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Commerce Admin-APIs sind betroffen, wenn die Admin-Authentifizierung mit Adobe I
 
 Nachdem die Adobe IMS-Integration aktiviert wurde, müssen Admin-Benutzer [Adobe IMS OAuth-Token](https://developer.adobe.com/developer-console/docs/guides/authentication/) für Adobe Commerce-API-Endpunkte verwenden, für die eine Authentifizierung erforderlich ist. Client-Lösungen erhalten die Token dynamisch für die Web-API-Verwendung. Dieser Authentifizierungsmechanismus ist für REST- und SOAP-Web-API-Bereiche im Rahmen der Konfiguration dieser Integration aktiviert.
 
-Unter [Token-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token/) finden Sie einen Überblick darüber, wie Web-APIs Commerce-Zugriffstoken, einschließlich IMS-Zugriffstoken, verwenden.
+Unter [Token-basierte Authentifizierung](https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-token) finden Sie einen Überblick darüber, wie Web-APIs Commerce-Zugriffstoken, einschließlich IMS-Zugriffstoken, verwenden.
 
 ## Commerce-Sitzungsverwaltung und Adobe IMS-Zugriffstoken
 
