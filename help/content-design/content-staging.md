@@ -92,7 +92,7 @@ Das [!UICONTROL Content Staging] [Dashboard](content-staging-dashboard.md) biete
 
 In diesem Video erfahren Sie mehr über Inhalts-Staging:
 
->[!VIDEO](https://video.tv.adobe.com/v/343784?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3411362?captions=ger&quality=12&learn=on)
 
 ## Fehlerbehebung bei Ressourcen
 

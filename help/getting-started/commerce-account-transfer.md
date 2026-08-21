@@ -101,7 +101,7 @@ Verwenden Sie diesen Pfad, wenn der aktuelle Besitzer über eine MAGEID verfügt
 
 Nachdem der neue Eigentümer die E-Mail-Adresse überprüft hat, fahren Sie mit [Letzte Schritte](#final-steps) fort, damit der Adobe Commerce-Support Kontodatensätze wie das [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/) aktualisieren kann.
 
->[!VIDEO](https://video.tv.adobe.com/v/3435325/?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3447668/?captions=ger&learn=on){transcript=true}
 
 ## Nur E-Mail-Änderung {#email-change}
 
