@@ -30,7 +30,7 @@ Jede Adobe Commerce- und Magento Open Source-Installation verfügt über [Hierar
 
 >[!NOTE]
 >
->Weitere Informationen finden Sie unter [Mehrere Websites oder Stores](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) in der [!DNL Commerce] Entwicklerdokumentation.
+>Weitere Informationen finden Sie unter [Mehrere Websites oder Stores](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/multi-sites/ms-overview) in der [!DNL Commerce] Entwicklerdokumentation.
 
 ## Websites
 

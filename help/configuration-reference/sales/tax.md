@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source enthielten die vom Vertex-Anbieter entwickelte Erweiterung, die zur Integration mit dem [!UICONTROL Vertex Cloud] verwendet wurde. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Bundle der Hauptversion enthalten und muss von der Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
 ><br><br>
->Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Weitere Informationen [&#x200B; Sie unter „Upgrade](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade)Module und -Erweiterungen“ _„Upgrade-Handbuch_.
+>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Weitere Informationen [&#x200B; Sie unter „Upgrade](https://experienceleague.adobe.com/de/docs/commerce-operations/upgrade-guide/modules/upgrade)Module und -Erweiterungen“ _„Upgrade-Handbuch_.
 
 {{config}}
 

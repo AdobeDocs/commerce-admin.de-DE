@@ -228,7 +228,7 @@ Sie können eine Bedingung für eine Warenkorb-Preisregel basierend auf einer Re
    | `Name` | Name der Zielgruppe, z. B. `Orders over $50` |
    | `Description` | Beschreibung der Zielgruppe, z. B. `People who placed an order over $50 in the last month.`. |
    | `Source` | Gibt an, woher die Zielgruppe stammt, z. B. `Experience Platform`. |
-   | `Website` | Gibt an, welche Website Sie mit dem Datenstrom verknüpft haben, der die Zielgruppen enthält. Sie erstellen diesen Link, wenn Sie Ihre Commerce-Instanz über die [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data) mit der Experience Platform verbinden. |
+   | `Website` | Gibt an, welche Website Sie mit dem Datenstrom verknüpft haben, der die Zielgruppen enthält. Sie erstellen diesen Link, wenn Sie Ihre Commerce-Instanz über die [[!DNL Data Connection]](https://experienceleague.adobe.com/de/docs/commerce/data-connection/fundamentals/connect-data) mit der Experience Platform verbinden. |
 
    {style="table-layout:auto"}
 

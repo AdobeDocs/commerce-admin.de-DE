@@ -4,7 +4,7 @@ description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UI
 exl-id: ffdaf7b5-c508-4fab-93ec-21f28cff6d3d
 role: Admin, Developer
 feature: Configuration, System
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/9QNzCxuwy1v5xR6YNE4On3woJ4mw-SnWB3m-me-nrb0
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -206,7 +206,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Vollsei
 |--- |--- |--- |
 | [!UICONTROL Caching Application] | Global | Bestimmt die Anwendung, die zum Verwalten des ganzseitigen Caches verwendet wird. Optionen: <br/>**`Built-in Application`**- Wird für die Produktionsumgebung nicht empfohlen.<br/>**`Varnish Caching`** - Wird für die Produktionsumgebung empfohlen. |
 | [!UICONTROL TTL for public content] | Global | Bestimmt die Lebensdauer des öffentlichen Inhalts-Caches in Sekunden. Standardwert: `120` |
-| [!UICONTROL Handles param size] | global | Gibt die maximale Anzahl von [Layout-Handles](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) an, die am [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP-Endpunkt verarbeitet werden sollen. Durch Größenbeschränkungen können die Sicherheit und Leistung verbessert werden. Standardwert: `100` |
+| [!UICONTROL Handles param size] | global | Gibt die maximale Anzahl von [Layout-Handles](https://developer.adobe.com/commerce/frontend-core/guide/layouts/#layout-handles) an, die am [`{BASE-URL}/page_cache/block/esi`](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cache/varnish/use-varnish-esi) HTTP-Endpunkt verarbeitet werden sollen. Durch Größenbeschränkungen können die Sicherheit und Leistung verbessert werden. Standardwert: `100` |
 | **[!UICONTROL Varnish Configuration]** |  |  |
 | [!UICONTROL Access list] | Global | Gibt die IP-Adressen an, die die Lackkonfiguration bereinigen können, um eine Konfigurationsdatei zu generieren. Trennen Sie mehrere Einträge durch Kommas. Standardwert: `localhost` |
 | [!UICONTROL Backend host] | Global | Gibt den Backend-Host an, der Konfigurationsdateien generiert. Standardwert: `localhost` |
@@ -286,7 +286,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Geplant
 
 ![Erweiterte Konfiguration - Bild-Upload-Konfiguration](./assets/system-image-upload-configuration.png)<!-- zoom -->
 
-<!-- [Image Upload Configuration](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
+<!-- [Image Upload Configuration](https://experienceleague.adobe.com/de/docs/commerce-admin/systems/action-logs/action-log-bulk-actions) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

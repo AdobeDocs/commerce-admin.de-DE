@@ -70,5 +70,5 @@ Verwenden Sie Support-Artikel und Ticketsysteme, um Inventarprobleme schnell zu 
 
 Wenn Sie Informationen benötigen oder Fragen haben, die in diesem Handbuch nicht behandelt werden, verwenden Sie die folgenden Ressourcen:
 
-- [Lagerstatus nach der Bestandsinstallation falsch](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29910)
-- [Support-](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case): Senden Sie ein Ticket, um zusätzliche Hilfe zu erhalten.
+- [Lagerstatus nach der Bestandsinstallation falsch](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-29910)
+- [Support-](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case): Senden Sie ein Ticket, um zusätzliche Hilfe zu erhalten.

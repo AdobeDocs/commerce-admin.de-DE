@@ -56,7 +56,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Preisregeln werden automatisch mit anderen Systemregeln verarbeitet. Die Verarbeitungsfrequenz hängt von der [cron-Konfiguration](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) ab. Wenn Sie eine Preisregel erstellen, warten Sie, bis sie in das System aufgenommen wurde. Testen Sie die Regel, wenn Sie sicher sind, dass sie sich im System befindet.
+>Preisregeln werden automatisch mit anderen Systemregeln verarbeitet. Die Verarbeitungsfrequenz hängt von der [cron-Konfiguration](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) ab. Wenn Sie eine Preisregel erstellen, warten Sie, bis sie in das System aufgenommen wurde. Testen Sie die Regel, wenn Sie sicher sind, dass sie sich im System befindet.
 
 ## Konfigurationseinstellungen {#config}
 
@@ -68,7 +68,7 @@ Um auf die Store-Konfigurationseinstellungen zuzugreifen, wählen Sie **[!UICONT
 >
 >Ab Juni 2024 können Adobe Commerce-Händler keine Transaktionen mehr mit der aktuellen UPS-Integration durchführen. Dies liegt daran, dass die von der nativen Adobe Commerce-Integration verwendeten United Parcel Service (UPS)-APIs derzeit das erforderliche OAuth 2.0-Sicherheitsmodell nicht unterstützen. Um die Integration zu aktivieren[&#x200B; erstellen Sie eine Anwendung auf der UPS Entwicklerplattform, &#x200B;](https://developer.ups.com/get-started) die für OAuth 2.0 erforderlichen Anmeldeinformationen abzurufen. Verwenden Sie die neuen Anmeldeinformationen als `username` und `password` in der Commerce UPS Versandkonfiguration. Weitere Informationen zur Änderung des Sicherheitsmodells finden Sie unter [Handbuch zur Migration des Zugriffsschlüssels für das Entwicklerportal_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
->Händler sollten [ein Qualitäts-Patch](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27146)Update auf ihren Store anwenden, um von der SOAP-API zur RESTful-API zu migrieren, die OAuth 2.0-Authentifizierungsprotokolle unterstützt.
+>Händler sollten [ein Qualitäts-Patch](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-27146)Update auf ihren Store anwenden, um von der SOAP-API zur RESTful-API zu migrieren, die OAuth 2.0-Authentifizierungsprotokolle unterstützt.
 
 
 ## Verfügbare Dokumentation {#docs-links}
@@ -76,9 +76,9 @@ Um auf die Store-Konfigurationseinstellungen zuzugreifen, wählen Sie **[!UICONT
 | Dokumentationsressource | Beschreibung |
 |----------------------- | ----------- |
 | [Adobe Commerce 2.4 Admin-Benutzerhandbücher](/help/landing/home.md) | Dokumentation und Ressourcen für Händler, die in der Verwaltung arbeiten. |
-| [Dokumentation zu Services für Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home) | Dokumentation zur Unterstützung einer Sammlung von Merchandising-Services, die Händlern die Integration wichtiger Komponenten ihres Geschäfts in ihren Store erleichtern. |
-| [Handbuch zu Commerce in der Cloud-Infrastruktur](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/overview) | Schrittweise Anleitungen für die Bereitstellung von Adobe Commerce auf einer verwalteten, automatisierten Hosting-Cloud-Plattform. |
-| [Adobe Commerce 2.4-Betriebshandbücher](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-guides/home) | Systemdokumentation zu den Konzepten, Prozessen, Tools und Best Practices für die Entwicklung, Bereitstellung und Wartung von Adobe Commerce in Cloud- und lokalen Projekten. |
+| [Dokumentation zu Services für Adobe Commerce](https://experienceleague.adobe.com/de/docs/commerce/user-guides/home) | Dokumentation zur Unterstützung einer Sammlung von Merchandising-Services, die Händlern die Integration wichtiger Komponenten ihres Geschäfts in ihren Store erleichtern. |
+| [Handbuch zu Commerce in der Cloud-Infrastruktur](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/overview) | Schrittweise Anleitungen für die Bereitstellung von Adobe Commerce auf einer verwalteten, automatisierten Hosting-Cloud-Plattform. |
+| [Adobe Commerce 2.4-Betriebshandbücher](https://experienceleague.adobe.com/de/docs/commerce-operations/operational-guides/home) | Systemdokumentation zu den Konzepten, Prozessen, Tools und Best Practices für die Entwicklung, Bereitstellung und Wartung von Adobe Commerce in Cloud- und lokalen Projekten. |
 | [Entwicklerdokumentation zu Adobe Commerce 2.4](https://developer.adobe.com/commerce/docs/) | Entwicklerorientierte Dokumentation zur Anpassung von Adobe Commerce und Integration mit Drittanbietersystemen. |
 
 {style="table-layout:auto"}
@@ -87,7 +87,7 @@ Um auf die Store-Konfigurationseinstellungen zuzugreifen, wählen Sie **[!UICONT
 
 >[!IMPORTANT]
 >
->Adobe Commerce B2B ab Version 1.4.2 ist mit PHP 8.2 kompatibel. Wenn Sie die Commerce-Instanz auf Version 2.4.7 oder höher aktualisieren, stellen Sie sicher, dass die Instanz PHP Version 8.2 verwendet, um die Kompatibilität mit der Adobe Commerce B2B-Version zu gewährleisten. Darüber hinaus unterstützt die B2B-Version 1.4.2+ nicht den [GraphQL-Anwendungsserver](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/concepts/application-server).
+>Adobe Commerce B2B ab Version 1.4.2 ist mit PHP 8.2 kompatibel. Wenn Sie die Commerce-Instanz auf Version 2.4.7 oder höher aktualisieren, stellen Sie sicher, dass die Instanz PHP Version 8.2 verwendet, um die Kompatibilität mit der Adobe Commerce B2B-Version zu gewährleisten. Darüber hinaus unterstützt die B2B-Version 1.4.2+ nicht den [GraphQL-Anwendungsserver](https://experienceleague.adobe.com/de/docs/commerce-operations/performance-best-practices/concepts/application-server).
 
 ## reCAPTCHA-Formularliste {#recaptcha-forms-list}
 
@@ -101,8 +101,8 @@ Um auf die Store-Konfigurationseinstellungen zuzugreifen, wählen Sie **[!UICONT
 - [!UICONTROL Enable for Newsletter Subscription]
 - [!UICONTROL Enable for Gift Card] (nur Adobe Commerce)
 - [!UICONTROL Enable for Invitation Create Account]
-- [!UICONTROL Enable for Send To Friend] - [!BADGE nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+- [!UICONTROL Enable for Send To Friend] - [!BADGE nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 - [!UICONTROL Enable for Checkout/Placing Order]
 - [!UICONTROL Enable for Wishlist Sharing]
 - [!UICONTROL Enable for Coupon Codes]
-- [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+- [!UICONTROL Enable for PayPal PayflowPro payment form] - [!BADGE nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}

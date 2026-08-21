@@ -40,7 +40,7 @@ Die Informationen in diesem Handbuch bieten einen Überblick über das Onboardin
 
 ## [!DNL AR Viewer]
 
-Die [!DNL AR Viewer] ist sowohl mit [!DNL Magento Open Source] als auch mit Adobe Commerce kompatibel. Weitere [&#x200B; zu unterstützten Versionen finden &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/lifecycle-policy){target=_blank} unter „Lebenszyklusrichtlinie.
+Die [!DNL AR Viewer] ist sowohl mit [!DNL Magento Open Source] als auch mit Adobe Commerce kompatibel. Weitere [&#x200B; zu unterstützten Versionen finden &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-operations/release/planning/lifecycle-policy){target=_blank} unter „Lebenszyklusrichtlinie.
 
 Weitere Informationen finden [&#x200B; unter  [!DNL AR Viewer] Installieren der &#x200B;](../catalog/ar-viewer-setup.md)-Erweiterung).
 

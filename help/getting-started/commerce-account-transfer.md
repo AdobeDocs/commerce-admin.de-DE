@@ -29,13 +29,13 @@ ht-degree: 0%
 
 Wenn sich die geschäftlichen Zuständigkeiten ändern, müssen Sie möglicherweise Ihr Adobe Commerce-Konto an einen neuen Eigentümer oder an eine andere E-Mail-Adresse übertragen. Diese Übertragung erfordert eine Änderung der mit dem Konto verknüpften E-Mail-Adresse des primären Benutzers.
 
-Die folgenden Informationen beschreiben den Prozess zur Übertragung eines Adobe Commerce-Accounts (MAGEID). Sie umfasst keine Änderungen an Adobe Commerce in Bezug auf die Eigentümerschaft an Cloud-Infrastrukturprojekten oder die [!DNL New Relic]. Weitere Informationen zum Zugriff auf Cloud-Projekte finden Sie unter [Verwalten des Benutzerzugriffs](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access) im Handbuch _Commerce in Cloud-Infrastruktur_.
+Die folgenden Informationen beschreiben den Prozess zur Übertragung eines Adobe Commerce-Accounts (MAGEID). Sie umfasst keine Änderungen an Adobe Commerce in Bezug auf die Eigentümerschaft an Cloud-Infrastrukturprojekten oder die [!DNL New Relic]. Weitere Informationen zum Zugriff auf Cloud-Projekte finden Sie unter [Verwalten des Benutzerzugriffs](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/project/user-access) im Handbuch _Commerce in Cloud-Infrastruktur_.
 
 >[!IMPORTANT]
 >
 >Wenn der neue Kontoinhaber mithilfe von Shared Access Erweiterungen erworben hat, geht der Zugriff auf diese Erweiterungen verloren, sobald die Kontoübertragung beginnt.
 >
->Bevor Sie die Kontoübertragung anfordern, stellen Sie sicher, dass der neue Eigentümer die Bestell-IDs für die Käufe von [&#x200B; [!DNL Commerce Marketplace] Konto](https://commercemarketplace.adobe.com/sales/order/history/) abruft und eine Rückerstattung vom [[!DNL Commerce Marketplace] Team](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) anfordert. Erweiterungskäufe können nicht auf ein anderes Konto übertragen werden.
+>Bevor Sie die Kontoübertragung anfordern, stellen Sie sicher, dass der neue Eigentümer die Bestell-IDs für die Käufe von [&#x200B; [!DNL Commerce Marketplace] Konto](https://commercemarketplace.adobe.com/sales/order/history/) abruft und eine Rückerstattung vom [[!DNL Commerce Marketplace] Team](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) anfordert. Erweiterungskäufe können nicht auf ein anderes Konto übertragen werden.
 
 ## Art der Übertragung angeben
 
@@ -145,7 +145,7 @@ Führen Sie diese Schritte aus, um die Adobe ID des aktuellen Besitzers mit eine
 
 >[!NOTE]
 >
->Wenn Sie nicht auf die E-Mail-Adresse des aktuellen Besitzers zugreifen können, bitten Sie Ihr IT-Team, die E-Mail-Weiterleitung für die E-Mail-Adresse des Kontos in Ihrem E-Mail-System des Unternehmens einzurichten. Wenn die E-Mail-Weiterleitung nicht konfiguriert werden kann, stellen Sie sicher, dass der neue Kontoinhaber über eine Adobe ID verfügt, und [senden Sie dann eine Support-Anfrage](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) mit allen erforderlichen Details, um die Kontoübertragung einzuleiten.
+>Wenn Sie nicht auf die E-Mail-Adresse des aktuellen Besitzers zugreifen können, bitten Sie Ihr IT-Team, die E-Mail-Weiterleitung für die E-Mail-Adresse des Kontos in Ihrem E-Mail-System des Unternehmens einzurichten. Wenn die E-Mail-Weiterleitung nicht konfiguriert werden kann, stellen Sie sicher, dass der neue Kontoinhaber über eine Adobe ID verfügt, und [senden Sie dann eine Support-Anfrage](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) mit allen erforderlichen Details, um die Kontoübertragung einzuleiten.
 
 1. Navigieren Sie zu [account.adobe.com](https://account.adobe.com/) und melden Sie sich bei Adobe an.
 
@@ -189,7 +189,7 @@ Nachdem der neue Eigentümer die E-Mail-Adresse überprüft hat, fahren Sie mit 
 
 Führen Sie diese Schritte nach Abschluss des Prozesses [Neue Adobe ID- und E](#new-adobe-id-and-email-change)Mail-Änderung[, Nur E-Mail-Änderung](#email-change) oder [Wechsel des Adobe ID-](#adobe-id-account-switch) aus.
 
-1. Als neuer Eigentümer [&#x200B; Sie (eine Support-Anfrage einreichen](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
+1. Als neuer Eigentümer [&#x200B; Sie (eine Support-Anfrage einreichen](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
 
    Fügen Sie die folgenden Details hinzu:
 

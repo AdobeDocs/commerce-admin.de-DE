@@ -134,8 +134,8 @@ Erfassen Sie eine Bestandsaufnahme Ihrer digitalen Objekte, einschließlich alle
 
 1. In den folgenden Themen finden Sie die entsprechenden Datenflussdiagramme und Datenbankentitätszuordnungen für jede Version:
 
-   - [Referenz zu personenbezogenen Daten (2.x)](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/reference/data-m2)
-   - [Referenz zu personenbezogenen Daten (1.x)](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/reference/data-m1)
+   - [Referenz zu personenbezogenen Daten (2.x)](https://experienceleague.adobe.com/de/docs/commerce-operations/security-and-compliance/reference/data-m2)
+   - [Referenz zu personenbezogenen Daten (1.x)](https://experienceleague.adobe.com/de/docs/commerce-operations/security-and-compliance/reference/data-m1)
 
    ![Diagramm](./assets/privacy-frontend-diagram.svg)
 

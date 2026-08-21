@@ -3,7 +3,7 @@ title: Inhalts-Staging
 description: Mit der Inhalts-Staging-Funktion kann Ihr Business-Team eine breite Palette von Inhaltsaktualisierungen für Ihren Store einfach erstellen, in der Vorschau anzeigen und direkt vom Administrator planen.
 exl-id: 929cd020-cbc7-40bf-a22c-02df35212ecf
 feature: Page Content, Staging
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/XAMnUUL9JH0atN6vlwwe2l9x4P-uAqJA3BH-h9LbIXU
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -98,6 +98,6 @@ In diesem Video erfahren Sie mehr über Inhalts-Staging:
 
 Hilfe bei der Fehlerbehebung bei Problemen mit der Inhalts-Staging-Umgebung finden Sie in den folgenden Artikeln der [!DNL Commerce]-Support-Wissensdatenbank:
 
-- [Fehler 404 auf allen Seiten aufgrund eines Problems mit der Inhaltserstellung](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27785)
-- [Geplante Staging-Aktualisierungen von Inhalten werden nicht mit veraltetem Fastly-Cache angezeigt](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache)
-- [Kann ich Aktualisierungen der Inhalts-Staging-Umgebung für Preise in einem freigegebenen Katalog planen?](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog)
+- [Fehler 404 auf allen Seiten aufgrund eines Problems mit der Inhaltserstellung](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-27785)
+- [Geplante Staging-Aktualisierungen von Inhalten werden nicht mit veraltetem Fastly-Cache angezeigt](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache)
+- [Kann ich Aktualisierungen der Inhalts-Staging-Umgebung für Preise in einem freigegebenen Katalog planen?](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/faq/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog)
