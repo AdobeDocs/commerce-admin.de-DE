@@ -4,21 +4,12 @@ description: Wenn Sie die Funktion „Anmeldung als Kunde“ verwenden, können 
 exl-id: 6842ae7a-6440-45f1-af18-e6427088d29d
 feature: Customers, Customer Service
 TQID: https://experienceleague.adobe.com/-bORZ%2D%2D%2Du2UGZ-JcOT7E8u2i58a1c-Iq57-moezBJ78
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c1256247-af4b-46d8-9dca-0c654ecfa157
-  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 97a3e3469e45ec9c7e3316f1ce5ca7894ea2ddb7
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c1256247-af4b-46d8-9dca-0c654ecfa157id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
 source-wordcount: 1189
 ht-degree: 0%
@@ -35,7 +26,7 @@ Alle Aktionen, die während der Anmeldung als Kunde durchgeführt werden, werden
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Wenn sie für einen _Admin_-Benutzer aktiviert ist, wird die _[!UICONTROL Login as Customer]_-Schaltfläche auf mehreren Seiten angezeigt:
 
@@ -49,7 +40,7 @@ Wenn sie für einen _Admin_-Benutzer aktiviert ist, wird die _[!UICONTROL Login 
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 In Adobe Commerce as a Cloud Service verwendet die Funktion „Als Kunde anmelden“ einen **Einmalcode (OTC)-** anstelle einer direkten Anmeldung. Admins generieren einen kurzlebigen Einmalcode für einen Kunden. Dieser Code kann dann über GraphQL in ein Kunden-Zugriffstoken umgetauscht werden, sodass eine passwortlose Anmeldung als Kunden-Workflows für verkäuferunterstützte Einkaufsszenarien möglich ist.
 
@@ -116,7 +107,7 @@ Um den Kontozugriff für Mitarbeiter des Store-Supports über die Admin zu aktiv
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 1. Der Kunde navigiert zur Seite **[!UICONTROL Account Information]** .
 
@@ -128,7 +119,7 @@ Um den Kontozugriff für Mitarbeiter des Store-Supports über die Admin zu aktiv
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 Für den Kunden muss das `login_as_customer_assistance_allowed`-Erweiterungsattribut auf &quot;**&quot;**. Dies kann auf der Seite **Kunde bearbeiten** in der Admin Console oder über GraphQL beim Erstellen oder Bearbeiten eines Kunden konfiguriert werden.
 
@@ -138,7 +129,7 @@ Für den Kunden muss das `login_as_customer_assistance_allowed`-Erweiterungsattr
 
 ![Konfiguration des Kundeneinverständniserweiterungs-Attributs auf der Seite „Kunde bearbeiten“](assets/customer-consent-attribute.png){width="600" zoomable="yes"}
 
-Um diese Berechtigung für ein bestehendes Kundenkonto mit GraphQL festzulegen, legen Sie die `allow_remote_shopping_assistance`-Eingabe mithilfe der [`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2/) oder [`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2/) Mutationen auf `true` fest.
+Um diese Berechtigung für ein bestehendes Kundenkonto mit GraphQL festzulegen, legen Sie die `allow_remote_shopping_assistance`-Eingabe mithilfe der [`updateCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/update-v2) oder [`createCustomerV2`](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-v2) Mutationen auf `true` fest.
 
 >[!ENDTABS]
 
@@ -148,7 +139,7 @@ Um diese Berechtigung für ein bestehendes Kundenkonto mit GraphQL festzulegen, 
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > [!UICONTROL _Alle Kunden_].
 
@@ -164,7 +155,7 @@ Um diese Berechtigung für ein bestehendes Kundenkonto mit GraphQL festzulegen, 
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 >[!NOTE]
 >
@@ -192,7 +183,7 @@ Um diese Berechtigung für ein bestehendes Kundenkonto mit GraphQL festzulegen, 
 
 >[!IMPORTANT]
 >
->Der generierte OTC-Einmalcode ist standardmäßig 60 Sekunden lang gültig und wird nach einer einzigen Verwendung ungültig. Die TTL kann durch Senden eines -Support[Tickets konfiguriert &#x200B;](https://experienceleague.adobe.com/home?lang=de&support-tab=home#support).
+>Der generierte OTC-Einmalcode ist standardmäßig 60 Sekunden lang gültig und wird nach einer einzigen Verwendung ungültig. Die TTL kann durch Senden eines -Support[Tickets konfiguriert ](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 Nachdem der Einmalcode generiert wurde, können Sie ihn verwenden, indem Sie zu Ihrer Storefront navigieren und sich mit den folgenden Anmeldeinformationen anmelden:
 

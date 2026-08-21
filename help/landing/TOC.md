@@ -4,24 +4,24 @@ user-guide-description: Dokumentation und Ressourcen für Adobe Commerce- und Ma
 title: Adobe Commerce Admin-Benutzerhandbücher
 feature: Admin Workspace
 nudge: true
-source-git-commit: da318a9bf0a2be406aee9f539ca46b443f811188
+source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 12%
+source-wordcount: '160'
+ht-degree: 11%
 
 ---
 
 # Adobe Commerce Admin-Benutzerhandbücher {#user-guides}
 
 - [Adobe Commerce-Händlerdokumentation](home.md)
-- [Erste Schritte](https://experienceleague.adobe.com/docs/commerce-admin/start/guide-overview.html?lang=de)
-- [Adobe Commerce B2B](https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=de)
-- [Katalogverwaltung](https://experienceleague.adobe.com/docs/commerce-admin/catalog/guide-overview.html?lang=de)
-- [[!DNL Inventory Management]](https://experienceleague.adobe.com/docs/commerce-admin/inventory/guide-overview.html?lang=de)
-- [Merchandising und Promotions](https://experienceleague.adobe.com/docs/commerce-admin/marketing/guide-overview.html?lang=de)
-- [Inhalt und Design](https://experienceleague.adobe.com/docs/commerce-admin/content-design/guide-overview.html?lang=de)
-- [[!DNL Page Builder]](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/guide-overview.html?lang=de)
-- [Kundenverwaltung](https://experienceleague.adobe.com/docs/commerce-admin/customers/guide-overview.html?lang=de)
-- [Stores und Kauferlebnis](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/guide-overview.html?lang=de)
-- [Admin-Systeme](https://experienceleague.adobe.com/docs/commerce-admin/systems/guide-overview.html?lang=de)
-- [Konfigurationshandbuch](https://experienceleague.adobe.com/docs/commerce-admin/config/guide-overview.html?lang=de)
+- [Erste Schritte](https://experienceleague.adobe.com/en/docs/commerce-admin/start/guide-overview)
+- [Adobe Commerce B2B](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/guide-overview)
+- [Katalogverwaltung](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview)
+- [[!DNL Inventory Management]](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/guide-overview)
+- [Merchandising und Promotions](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/guide-overview)
+- [Inhalt und Design](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview)
+- [[!DNL Page Builder]](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/guide-overview)
+- [Kundenverwaltung](https://experienceleague.adobe.com/en/docs/commerce-admin/customers/guide-overview)
+- [Stores und Kauferlebnis](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/guide-overview)
+- [Admin-Systeme](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/guide-overview)
+- [Konfigurationshandbuch](https://experienceleague.adobe.com/en/docs/commerce-admin/config/guide-overview)

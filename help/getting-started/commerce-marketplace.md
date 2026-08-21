@@ -4,28 +4,15 @@ description: Erfahren Sie mehr über das  [!DNL Commerce Marketplace], das Händ
 exl-id: e04e48f2-3b1d-45bf-b0f6-3a1ed43e78c5
 feature: Extensions
 TQID: https://experienceleague.adobe.com/iWL-VJ99oPBafRQOK16YYTeEUvAoYGK-6bFxPHroYkk
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-  - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
-subfeature_v2:
-  - id: f8ddfd3b-6194-46e8-a176-0e918039be56
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6b1ee79bdfd54de298e6ab80d63222b7b12bb96c
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: c32adafa-ed01-4b31-997e-2413013911b0id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+subfeature_v2: id: f8ddfd3b-6194-46e8-a176-0e918039be56
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
 workflow-type: tm+mt
-source-wordcount: 1425
+source-wordcount: 1438
 ht-degree: 0%
 
 ---
@@ -47,23 +34,23 @@ Die folgenden Ressourcen bieten einen Ausgangspunkt für neue Benutzende, um sic
 ### Commerce-Ressourcen
 
 - [Einrichten von I/O-Ereignissen für Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/)
-- [Konfigurieren von Ereignissen für Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce/)
+- [Konfigurieren von Ereignissen für Adobe Commerce](https://developer.adobe.com/commerce/extensibility/events/configure-commerce)
 - [Einrichten der Admin-Benutzeroberfläche SDK](https://developer.adobe.com/commerce/extensibility/admin-ui-sdk/)
 - [Konvertieren einer Erweiterung in eine App](https://developer.adobe.com/commerce/extensibility/app-development/#how-do-i-port-an-extension-into-an-app)
 
 ### App Builder-Ressourcen
 
 - [Übersicht über Commerce App Builder](https://developer.adobe.com/commerce/extensibility/app-development/)
-- [Einrichten von API-Mesh für Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/gateway/getting-started/)
-- [Bereitstellen von App Builder-Apps](https://developer.adobe.com/app-builder/docs/guides/deployment/)
-- [CI/CD für App Builder Apps](https://developer.adobe.com/app-builder/docs/guides/deployment/ci_cd_for_firefly_apps/)
+- [Einrichten von API-Mesh für Adobe Developer App Builder](https://developer.adobe.com/graphql-mesh-gateway/mesh/basic/)
+- [Bereitstellen von App Builder-Apps](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/deployment)
+- [CI/CD für App Builder Apps](https://developer.adobe.com/app-builder/docs/guides/app_builder_guides/deployment/cicd-for-app-builder-apps)
 - Erste Schritte mit App Builder/Developer Console
-  - [Erste Schritte mit App Builder](https://developer.adobe.com/app-builder/docs/getting_started/)
-  - [Projekte und Arbeitsbereiche](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces/)
+  - [Erste Schritte mit App Builder](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app)
+  - [Projekte und Arbeitsbereiche](https://developer.adobe.com/app-builder/docs/resources/videos/exploring/projects-and-workspaces)
 
 ## [!DNL Marketplace]
 
-Bevor Sie eine von [!DNL Commerce Marketplace] erworbene Erweiterung installieren können, melden Sie sich bei Ihrem [!DNL Commerce] Konto an und stellen Sie sicher, dass Sie über einen aktiven Zugriffsschlüssel verfügen. Sie können sich über die Kopfzeile von [[!DNL Marketplace]](https://marketplace.magento.com/) oder [Magento.com bei Ihrem [!DNL Commerce]-Konto &#x200B;](https://business.adobe.com/de/products/magento/magento-commerce.html).
+Bevor Sie eine von [!DNL Commerce Marketplace] erworbene Erweiterung installieren können, melden Sie sich bei Ihrem [!DNL Commerce] Konto an und stellen Sie sicher, dass Sie über einen aktiven Zugriffsschlüssel verfügen. Sie können sich über die Kopfzeile von [[!DNL Marketplace]](https://marketplace.magento.com/) oder [Magento.com bei Ihrem [!DNL Commerce]-Konto ](https://business.adobe.com/products/magento/magento-commerce.html).
 
 Ihr Zugriffsschlüssel ist ein Satz öffentlicher und privater Schlüssel, mit denen Sie Ihre [!DNL Commerce] mit Ihrem [!DNL Commerce] synchronisieren und Ihre Anmeldeinformationen überprüfen können. Nachdem Ihr Konto synchronisiert wurde, müssen Sie bei jeder Installation einer Erweiterung oder eines Moduls aus Commerce Marketplace bzw. bei jedem Upgrade Ihrer [!DNL Commerce] Ihren privaten Schlüssel eingeben.
 
@@ -73,13 +60,13 @@ Sie können mehrere Zugriffsschlüssel für verschiedene Zwecke erstellen und si
 
 1. Melden Sie sich bei Ihrem [!DNL Commerce] Konto an.
 
-1. Wählen Sie auf der Seite _[!UICONTROL My Account]_&#x200B;die Registerkarte **[!UICONTROL Marketplace]**&#x200B;aus.
+1. Wählen Sie auf der Seite _[!UICONTROL My Account]_die Registerkarte **[!UICONTROL Marketplace]**aus.
 
 1. Klicken Sie oben rechts neben Ihrem Namen auf den Abwärtspfeil und wählen Sie **[!UICONTROL My Profile]** aus.
 
    ![Ihr [!DNL Marketplace] Profil](./assets/marketplace-profile.png){width="600"}
 
-1. Klicken Sie auf der Registerkarte _[!UICONTROL Marketplace]_&#x200B;unter&#x200B;_[!UICONTROL My Products]_ auf **[!UICONTROL Access Keys]**, und führen Sie dann einen der folgenden Schritte aus:
+1. Klicken Sie auf der Registerkarte _[!UICONTROL Marketplace]_unter_[!UICONTROL My Products]_ auf **[!UICONTROL Access Keys]**, und führen Sie dann einen der folgenden Schritte aus:
 
    - Überprüfen Sie, ob Sie bereits über einen Satz von Zugriffsschlüsseln für Ihre Marketplace-Käufe verfügen. Sie können mehrere Sets von Zugriffsschlüsseln für verschiedene Zwecke erstellen.
 
@@ -97,7 +84,7 @@ Sie können mehrere Zugriffsschlüssel für verschiedene Zwecke erstellen und si
 
 >[!IMPORTANT]
 >
->Ab Adobe Commerce und Magento Open Source 2.4.0 wird der Websetup-Assistent entfernt, und Sie müssen die Befehlszeile verwenden, um Ihre Instanz [installieren](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/advanced.html?lang=de) oder [aktualisieren](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=de). Diese Anforderung umfasst auch [Module](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html?lang=de) und [Erweiterungen](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html?lang=de).
+>Ab Adobe Commerce und Magento Open Source 2.4.0 wird der Websetup-Assistent entfernt, und Sie müssen die Befehlszeile verwenden, um Ihre Instanz [installieren](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced) oder [aktualisieren](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade). Diese Anforderung umfasst auch [Module](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) und [Erweiterungen](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions).
 
 Der Installationsprozess für [!DNL Marketplace] Käufe unterscheidet sich bei On _Premise-Installationen_ Commerce von den auf [Adobe Cloud Architecture](https://www.adobe.com/commerce/magento/enterprise.html) gehosteten Installationen.
 
@@ -125,11 +112,11 @@ Anmeldeprobleme hängen normalerweise mit einer Diskrepanz zwischen Ihrer MAGEID
 
 >[!INFO]
 >
->Käufe von Mobile Apps und Erweiterungen können nicht [&#x200B; ein neues &#x200B;](#purchase-transfers) übertragen werden.
+>Käufe von Mobile Apps und Erweiterungen können nicht [ ein neues ](#purchase-transfers) übertragen werden.
 
 ### Open Source-Fragen
 
-Das Marketplace-Supportteam löst Probleme, die mit den Sites [commerceMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) und [commerceDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) zusammenhängen. Bitte richten Sie Fragen zu Magento Open Source an einen [Partner](https://business.adobe.com/de/products/magento/partners.html) der Magento Open Source unterstützen kann.
+Das Marketplace-Supportteam löst Probleme, die mit den Sites [commerceMarketplace.adobe.com/](https://commercemarketplace.adobe.com/) und [commerceDeveloper.adobe.com/](https://commercedeveloper.adobe.com/) zusammenhängen. Bitte richten Sie Fragen zu Magento Open Source an einen [Partner](https://business.adobe.com/products/magento/partners.html) der Magento Open Source unterstützen kann.
 
 ### Erstattungsanträge
 
@@ -153,8 +140,8 @@ Um eine Auftragsrechnung für einen Marketplace-Kauf herunterzuladen, melden Sie
 
 ### Kaufübertragungen
 
-Das Marketplace-Supportteam hat keine Möglichkeit, Käufe auf ein anderes Konto zu übertragen. Sie müssen alle Apps und Erweiterungen unter dem primären Commerce-Konto erwerben, um Installations- und Bereitstellungsprobleme zu vermeiden. Adobe Commerce ist zu einer eindeutigen Kennung berechtigt. Da Composer für die Installation verwendet wird, kann nur ein Satz von [Zugriffsschlüsseln](#create-an-access-key) verwendet werden, die mit dem primären Konto verknüpft sind. Die einzige verfügbare Lösung besteht darin[&#x200B; eine Rückerstattung &#x200B;](#refund-requests) dem Marketplace-Kaufkonto anzufordern (sofern gemäß der Rückerstattungsrichtlinie von Adobe Commerce zulässig).
+Das Marketplace-Supportteam hat keine Möglichkeit, Käufe auf ein anderes Konto zu übertragen. Sie müssen alle Apps und Erweiterungen unter dem primären Commerce-Konto erwerben, um Installations- und Bereitstellungsprobleme zu vermeiden. Adobe Commerce ist zu einer eindeutigen Kennung berechtigt. Da Composer für die Installation verwendet wird, kann nur ein Satz von [Zugriffsschlüsseln](#create-an-access-key) verwendet werden, die mit dem primären Konto verknüpft sind. Die einzige verfügbare Lösung besteht darin[ eine Rückerstattung ](#refund-requests) dem Marketplace-Kaufkonto anzufordern (sofern gemäß der Rückerstattungsrichtlinie von Adobe Commerce zulässig).
 
-Sie können [&#x200B; Commerce](commerce-account-share.md)Instanz über das Primärkonto freigeben. Der freigegebene Zugriff gewährt einem untergeordneten Konto von einem primären Konto aus spezielle Berechtigungen. Der freigegebene Zugriffspunkt wird vom primären Konto generiert. Das primäre Konto kann das berechtigte Commerce-Konto, das Haupt-Händlerkonto oder ein innerhalb eines Unternehmens freigegebenes Konto sein.
+Sie können [ Commerce](commerce-account-share.md)Instanz über das Primärkonto freigeben. Der freigegebene Zugriff gewährt einem untergeordneten Konto von einem primären Konto aus spezielle Berechtigungen. Der freigegebene Zugriffspunkt wird vom primären Konto generiert. Das primäre Konto kann das berechtigte Commerce-Konto, das Haupt-Händlerkonto oder ein innerhalb eines Unternehmens freigegebenes Konto sein.
 
 Diese Sonderberechtigungen gewähren dieselbe Zugriffsebene auf Adobe Commerce wie die primäre Instanz, sie werden jedoch nicht in den Adobe Commerce Marketplace oder das Entwicklerportal übertragen. Das bedeutet, dass der Kauf einer Erweiterung von einem untergeordneten Konto auf dem Marketplace nicht mit dem primären Konto geteilt werden kann. Shared Access ist eine Einbahnstraße (primäres Konto untergeordnet). Dies funktioniert nicht, wenn ein untergeordnetes Konto versucht, eine Freigabe für die primäre Instanz durchzuführen.

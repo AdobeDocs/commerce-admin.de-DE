@@ -2,23 +2,16 @@
 title: Layout-Aktualisierungen
 description: Erfahren Sie, wie Sie mit Layout-Aktualisierungen das Layout einer Seite anpassen können.
 exl-id: e2d8261f-cae1-4bd4-a047-f861dd7ca14e
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: https://experienceleague.adobe.com/PjeNmdtN39seTDCdzbt8K7DhoRZgFB3PksoKTJaFLsk
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2c0e8254c0ede5ba505ebe384e13e49ce24b7f95
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: 1049
 ht-degree: 0%
 
 ---
@@ -56,7 +49,7 @@ Im folgenden Diagramm sind die Namen, die auf Container verweisen, schwarz und d
 
 [Layout-Aktualisierungen](layout-updates.md) ermöglichen es, das Layout einer Seite anzupassen. Layout-Aktualisierungen bieten mehr Flexibilität als [Widget](widgets.md) erfordern jedoch Zugriff auf den Server und grundlegende XML-Kenntnisse.
 
-Die folgenden Schritte zeigen, wie Sie mit einer Layout-Aktualisierung einen Block auf einer Seite platzieren. Spezifische Beispiele und Hilfe zur Syntax finden Sie unter [Allgemeine Aufgaben zur Anpassung &#x200B;](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) Layouts _im Frontend-_.
+Die folgenden Schritte zeigen, wie Sie mit einer Layout-Aktualisierung einen Block auf einer Seite platzieren. Spezifische Beispiele und Hilfe zur Syntax finden Sie unter [Allgemeine Aufgaben zur Anpassung ](https://developer.adobe.com/commerce/frontend-core/guide/layouts/) Layouts _im Frontend-_.
 
 ### Schritt 1: Erstellen des Blocks
 
@@ -66,9 +59,9 @@ Die folgenden Schritte zeigen, wie Sie mit einer Layout-Aktualisierung einen Blo
 
 ### Schritt 2: Layout-Aktualisierung in XML erstellen
 
-1. Erstellen Sie die Layout-Anweisungen in XML, um [auf einen CMS-Block zu verweisen](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage/).
+1. Erstellen Sie die Layout-Anweisungen in XML, um [auf einen CMS-Block zu verweisen](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-manage).
 
-1. Speichern Sie die [Layoutanweisungen](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions/) auf dem Server im Layout-Ordner, in dem XML-Dateien für das Design gespeichert werden.
+1. Speichern Sie die [Layoutanweisungen](https://developer.adobe.com/commerce/frontend-core/guide/layouts/xml-instructions) auf dem Server im Layout-Ordner, in dem XML-Dateien für das Design gespeichert werden.
 
    Beispiel:
 
