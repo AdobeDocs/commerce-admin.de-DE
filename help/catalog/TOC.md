@@ -4,7 +4,7 @@ user-guide-description: Umfassende Informationen zu Katalogverwaltungsfunktionen
 breadcrumb-title: Katalogverwaltung
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: c67474ee4b72744766421090e30c56c85d687495
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -99,4 +99,4 @@ ht-degree: 1%
     + [Attribute erstellen und löschen](attribute-product-create.md)
     + [Massenaktualisierungen](bulk-product-attribute-update.md)
     + [Attributsätze](attribute-sets.md)
-+ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
++ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
