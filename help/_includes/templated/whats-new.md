@@ -23,7 +23,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Adobe Commerce 2.4.8-p5 wurde aus der Liste der unterstützten Versionen für <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a> entfernt. 2.4.8 Kunden sollten stattdessen die B2B-Version 1.5.3 verwenden.</p>
+      <td><p>Adobe Commerce 2.4.8-p5 wurde aus der Liste der unterstützten Versionen für <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a> entfernt. 2.4.8 Kunden sollten stattdessen die B2B-Version 1.5.3 verwenden.</p>
 </td>
       <td>
         Technisch
@@ -45,7 +45,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Das Thema <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Daten-Feed-Synchronisierungsstatus</a> wurde entsprechend dem aktuellen Admin-Erlebnis aktualisiert. Es wurde klargestellt, dass die Seite nur den Exportstatus meldet, und dokumentiert, wann die Funktion in allen Commerce-Service-Lizenzen verfügbar ist.</p>
+      <td><p>Das Thema <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/systems/data-transfer/data-sync/data-feed-sync-status">Daten-Feed-Synchronisierungsstatus</a> wurde entsprechend dem aktuellen Admin-Erlebnis aktualisiert. Es wurde klargestellt, dass die Seite nur den Exportstatus meldet, und dokumentiert, wann die Funktion in allen Commerce-Service-Lizenzen verfügbar ist.</p>
 </td>
       <td>
         Größere Aktualisierung
@@ -67,7 +67,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Erfahren Sie, wie Sie bestimmte Kategorien automatisierter System-E-Mails, wie z. B. Bestellungen oder Marketing-Benachrichtigungen, direkt über den Administrator in <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/config/services/email-suppression">E-Mail-Unterdrückung</a> unterdrücken können.</p>
+      <td><p>Erfahren Sie, wie Sie bestimmte Kategorien automatisierter System-E-Mails, wie z. B. Bestellungen oder Marketing-Benachrichtigungen, direkt über den Administrator in <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/config/services/email-suppression">E-Mail-Unterdrückung</a> unterdrücken können.</p>
 </td>
       <td>
         Größere Aktualisierung, neues Thema
@@ -89,7 +89,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
   </thead>
   <tbody>
     <tr>
-      <td><p>Es wurde <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/catalog-enrichment">Kataloganreicherung</a> mit Anleitungen zum Überprüfen und Anwenden von durch KI vorgeschlagenen Produktnamen- und Beschreibungsaktualisierungen im Admin-Bereich hinzugefügt und das Thema über die Themen <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog-menu">Katalogmenü</a>, <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/guide-overview">Anleitungsübersicht</a> und verwandte Produkteinstellungen verknüpft.</p>
+      <td><p>Es wurde <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/products/catalog-enrichment">Kataloganreicherung</a> mit Anleitungen zum Überprüfen und Anwenden von durch KI vorgeschlagenen Produktnamen- und Beschreibungsaktualisierungen im Admin-Bereich hinzugefügt und das Thema über die Themen <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/catalog-menu">Katalogmenü</a>, <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/guide-overview">Anleitungsübersicht</a> und verwandte Produkteinstellungen verknüpft.</p>
 </td>
       <td>
         Neues Thema
