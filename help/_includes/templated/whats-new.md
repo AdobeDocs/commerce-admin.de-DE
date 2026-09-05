@@ -1,7 +1,7 @@
 ---
-source-git-commit: ddb16ac856b75e3a4fcc1bd620b6e5b1dab321d5
+source-git-commit: 5de2260c4c7324a509aa0f4154220b7ff8bedd73
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '270'
 ht-degree: 2%
 
 ---
@@ -10,6 +10,28 @@ ht-degree: 2%
 ## Neue Funktionen
 
 Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenommen wurden. Wir schließen alle kleineren Aktualisierungen, wie z. B. die Bearbeitung von Kopien, von dieser Liste aus.
+
+### &#x200B;31. August 2026
+
+<table style="table-layout:auto;">
+  <thead>
+    <tr>
+      <th>Beschreibung</th>
+      <th>Typ</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><p>Adobe Commerce 2.4.8-p5 wurde aus der Liste der unterstützten Versionen für <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/b2b/release-notes#b2b-v152-p5">B2B 1.5.2-p5</a> entfernt. 2.4.8 Kunden sollten stattdessen die B2B-Version 1.5.3 verwenden.</p>
+</td>
+      <td>
+        Technisch
+      </td>
+      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/fab7dc8f780fa68c147a06752dc96bd7b03444a2">verpflichten</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ### &#x200B;4. August 2026
 
@@ -73,28 +95,6 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
         Neues Thema
       </td>
       <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/6cd9281329fd909e38e4bbf41159eadfed2f9ad3">verpflichten</a></td>
-    </tr>
-  </tbody>
-</table>
-
-### &#x200B;30. Juni 2026
-
-<table style="table-layout:auto;">
-  <thead>
-    <tr>
-      <th>Beschreibung</th>
-      <th>Typ</th>
-      <th>Source</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><p>Es wurde <a href="https://experienceleague.adobe.com/de/docs/commerce-admin/start/commerce-account/commerce-system-admin-account">Aktualisierung des Systemadministratorzugriffs</a> mit Anleitungen für die Verwaltung von Systemadministratorzuweisungen in Adobe Admin Console hinzugefügt.</p>
-</td>
-      <td>
-        Feedback
-      </td>
-      <td><a href="https://github.com/AdobeDocs/commerce-admin.en/commit/927b633eaa9af471440cfb950b429a60b3df94a8">verpflichten</a></td>
     </tr>
   </tbody>
 </table>
