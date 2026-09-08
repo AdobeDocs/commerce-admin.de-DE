@@ -5,9 +5,9 @@ breadcrumb-title: Merchandising und Promotions
 role: Admin, Leader, User
 feature: Merchandising, Promotions/Events
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: ef07733f89af030f047576770655f6599b370351
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,7 @@ ht-degree: 1%
     - [Übersicht über Warenkorbpreisregeln](price-rules-cart.md)
     - [Erstellen einer Warenkorb-Preisregel](price-rules-cart-create.md)
     - [Couponcodes](price-rules-cart-coupon.md)
+    - [Kostenlose Geschenk-Aktionen](price-rules-cart-free-gift.md)
     - [Geplante Änderungen für Warenkorbpreisregeln](price-rule-cart-scheduled-changes.md)
     - [Beispiel: kostenlose Versandaktion](price-rules-cart-free-shipping.md)
     - [Beispiel: Kaufen Sie dies und erhalten Sie es kostenlos](price-rules-cart-buy-this-get-that.md)
@@ -87,4 +88,4 @@ ht-degree: 1%
   - [Google Analytics](google-analytics.md)
   - [Google Tag Manager](google-tag-manager.md)
   - [Google Adwords](google-adwords.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
