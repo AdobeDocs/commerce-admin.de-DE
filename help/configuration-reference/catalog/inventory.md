@@ -18,9 +18,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+source-git-commit: 449593264c88c9090b26ffbc8e87a8d70d4cbfe9
 workflow-type: tm+mt
-source-wordcount: 1224
+source-wordcount: 1296
 ht-degree: 0%
 
 ---
@@ -69,6 +69,18 @@ ht-degree: 0%
 | [!UICONTROL Enable Qty Increments] | Global | Legt fest, ob Artikel in Mengenschritten verkauft werden können. Optionen: `Yes` / `No` |
 | [!UICONTROL Qty Increments] | Global | Bestimmt die Anzahl der Produkte, aus denen ein Mengenzuwachs besteht. |
 | [!UICONTROL Automatically Return Credit Memo Item to Stock] | Global | Legt fest, ob Artikel, die in Gutschriften enthalten sind, automatisch an das Lager zurückgegeben werden. Optionen: `Yes` / `No` |
+
+{style="table-layout:auto"}
+
+## [!UICONTROL Per-Source Availability (Storefront)]
+
+![Verfügbarkeit pro Source (Storefront)](./assets/catalog-inventory-per-source-availability.png)<!-- zoom -->
+
+<!-- [Per-Source Availability (Storefront)](https://experienceleague.adobe.com/de/docs/commerce-admin/inventory/configuration/global-options) -->
+
+| Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
+|--- |--- |--- |
+| [!UICONTROL Enable sourceAvailability GraphQL Query] | Shop-Ansicht | Wenn auf `Yes` festgelegt, gibt die Abfrage „Storefront-[`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"}&quot; pro Quelle Lagerbestände für den Verkaufskanal des Stores zurück. Optionen: `Yes` / `No`. Standard: `No`, da die Abfrage offenlegt, welche Quellen eine SKU lagern. Wenn diese Option deaktiviert ist, gibt die Abfrage einen Fehler zurück. Die von der Abfrage zurückgegebenen exakten Mengen bleiben maskiert, bis die Quellmenge die im Abschnitt [Aktienoptionen](#stock-options) festgelegte **[!UICONTROL Only X left Threshold]** erreicht. |
 
 {style="table-layout:auto"}
 

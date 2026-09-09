@@ -20,9 +20,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+source-git-commit: efbe6e4f07ff66b2deb91127b4f69eca5e4015f1
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1168
 ht-degree: 0%
 
 ---
@@ -157,6 +157,10 @@ Kategorienproduktregeln können den Prozess der Zuweisung spezifischer Produkte 
   >Die Menge eines konfigurierbaren Produkts mit untergeordneten Optionen wird berechnet, indem alle verkäuflichen untergeordneten Produktmengen kombiniert werden. Betrachten Sie ein Beispiel, bei dem Sie ein konfigurierbares Produkt _Basic Fitness Tank_ mit violetten, roten und gelben Farboptionen und unterschiedlichen Mengen von jedem haben. In diesem Fall ist die Menge des Stammprodukts (Basic Fitness Tank) die kombinierte verkaufsfähige Menge der lila-, rot- und gelbfarbenen untergeordneten Produkte.
 
 - **[!UICONTROL Operator]** - Gibt den Operator an, der auf den Attributwert angewendet wird, um die Bedingung zu erfüllen. Sofern kein Operator angegeben ist, wird `Equal` als Standard verwendet. Optionen: `Equal`, `Not equal`, `Greater than`, `Greater than or equal to`, `Less than`, `Less than or equal to` und `Contains`
+
+  Der **[!UICONTROL Contains]** Operator akzeptiert mehrere kommagetrennte Werte und stimmt überein, wenn der Attributwert mindestens einen davon enthält, ähnlich wie bei einem logischen OR-Vorgang. Beispiel: **[!UICONTROL Contains]**: `casual, party` entspricht jedem Wert, der `casual` oder `party` enthält.
+
+  Verwenden Sie diesen Operator, um mehrere Begriffe in einer Regelzeile zu kombinieren, anstatt für jeden Begriff eine eigene Zeile zu erstellen.
 
 - **[!UICONTROL Value]** - Gibt den Wert an, den das Attribut aufweisen muss, um die Bedingung zu erfüllen.
 

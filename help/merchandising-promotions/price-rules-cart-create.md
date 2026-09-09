@@ -20,12 +20,13 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 6f1f13b75aa01c5142cc8ea03cef2df6d2d3aaf3
 workflow-type: tm+mt
-source-wordcount: 3400
+source-wordcount: 3608
 ht-degree: 0%
 
 ---
+
 
 # Erstellen einer Warenkorb-Preisregel
 
@@ -73,6 +74,7 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
      ![Warenkorb-Preisregel - Couponeinstellungen](./assets/price-rule-cart-coupon-settings-ee.png){width="600" zoomable="yes"}
 
    - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Verwenden Sie _Kalender_ (![Kalendersymbol](../assets/icon-calendar.png)), um den **[!UICONTROL From]** und **[!UICONTROL To]** Datumsbereich für die Promotion auszuwählen.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce as a Cloud Service) Verwenden Sie den _Kalender_ (![Kalendersymbol](../assets/icon-calendar.png)), um den **[!UICONTROL From]** und **[!UICONTROL To]** Datums- und Zeitbereich für die Promotion auszuwählen.
 
 1. Geben Sie eine Zahl ein, um die **[!UICONTROL Priority]** dieser Preisregel in Bezug auf die Aktionseinstellungen anderer Preisregeln zu definieren, die gleichzeitig aktiv sind.
 
@@ -250,6 +252,7 @@ Die Preisregelaktionen für den Warenkorb beschreiben, wie Preise aktualisiert w
    | `Fixed amount discount` | Rabattartikel, indem ein fester Betrag vom ursprünglichen Preis jedes qualifizierten Artikels im Warenkorb abgezogen wird. Beispiel: Geben Sie `10` in [!UICONTROL Discount Amount] für einen aktualisierten Preis ein, der 10 $ unter dem ursprünglichen Preis liegt. |
    | Fester Rabatt für den gesamten Warenkorb | Rabatte auf den gesamten Warenkorb, indem ein fester Betrag von der Summe des Warenkorbs abgezogen wird. Beispiel: Geben Sie 10 in [!UICONTROL Discount Amount] ein, um 10 $ von der Gesamtsumme des Warenkorbs abzuziehen. Standardmäßig gilt der Rabatt nur für die Zwischensumme des Warenkorbs. Um den Rabatt auf die Zwischensumme und den Versand separat anzuwenden, verwenden Sie die Option _[!UICONTROL Apply to Shipping Amount]_. |
    | `Buy X get Y free` | Definiert eine Menge X, die der Kunde erwerben muss, um eine Menge Y **desselben Produkts/derselben Variante)** erhalten. (Der [!UICONTROL Discount Amount] ist Y.) Eine Gesamtmenge von X+Y desselben Artikels muss im Warenkorb vorhanden/hinzugefügt werden, damit der Rabatt angewendet werden kann. |
+   | `Free Gift` | Fügt ein kostenloses Geschenkprodukt in den Warenkorb, wenn die Regelbedingungen erfüllt sind. Wählen Sie das kostenlose Produkt und die Menge aus, die zum Warenkorb hinzugefügt werden soll. <br/><br/>**Hinweis:** ![Adobe Commerce](../assets/adobe-logo.svg) Hierbei handelt es sich um eine exklusive Funktion, die nur in Adobe Commerce verfügbar ist und nicht in Magento Open Source. ([Weitere Informationen](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home#product-editions)) <br/><br/>Diese Funktion wird in Luma-Storefronts nicht unterstützt. Sie ist über [GraphQL) &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/) und in Edge Delivery Services (EDS)-Storefronts verfügbar. |
 
    {style="table-layout:auto"}
 
@@ -363,8 +366,8 @@ In diesem Video erfahren Sie mehr über das Erstellen von Regeln für den Warenk
 | [!UICONTROL Uses per Customer] | Bestimmt, wie oft die Warenkorb-Preisregel von demselben registrierten Kunden verwendet werden kann, der zu einer ausgewählten Kundengruppe gehört. Gilt nicht für Gasteinkäufer, die Mitglieder der Kundengruppe NOT LOGGED IN sind, oder für Kunden, die einkaufen, ohne sich bei ihren Konten anzumelden. Für keine Beschränkung lassen Sie das Feld leer. |
 | [!UICONTROL Priority] | Eine Zahl, die die Priorität dieser Regel im Verhältnis zu anderen angibt. Die Prioritäten von der höchsten zur niedrigsten sind `0,1,2,3...` |
 | [!UICONTROL Public in RSS Feed] | Legt fest, ob die Promotion im öffentlichen RSS-Feed Ihres Stores enthalten ist. Optionen: `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Das erste Datum, an dem der Coupon verwendet werden kann. |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Das letzte Datum, an dem der Coupon verwendet werden kann. |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Das erste Datum, an dem der Coupon verwendet werden kann.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) (nur [!DNL Adobe Commerce as a Cloud Service]) Das Datum und die Uhrzeit, zu der der Coupon verwendet werden kann. |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Das letzte Datum, an dem der Coupon verwendet werden kann.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) (nur [!DNL Adobe Commerce as a Cloud Service]) Das letzte Datum und die letzte Uhrzeit, zu der der Coupon verwendet werden kann. |
 
 {style="table-layout:auto"}
 
@@ -401,7 +404,7 @@ Gibt die Bedingungen an, die erfüllt sein müssen, bevor die Warenkorbpreisrege
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Apply] | Bestimmt die Art der Berechnung, die auf den Kauf angewendet wird. Optionen: <br/>**[!UICONTROL Percent of product price discount]**- Rabattartikel, indem ein Prozentsatz vom ursprünglichen Preis abgezogen wird. Beispiel: Geben Sie `10` in _[!UICONTROL Discount Amount]_&#x200B;für einen aktualisierten Preis ein, der 10 % unter dem ursprünglichen Preis liegt.<br/>**[!UICONTROL Fixed amount discount]**- Rabattartikel, indem ein fester Betrag vom ursprünglichen Preis jedes qualifizierten Artikels im Warenkorb abgezogen wird. Beispiel: Geben Sie `10` in&#x200B;_[!UICONTROL Discount Amount]_ für einen aktualisierten Preis ein, der 10 $ unter dem ursprünglichen Preis liegt. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Rabatte für den gesamten Warenkorb, indem ein fester Betrag von der Zwischensumme des Warenkorbs subtrahiert wird. Beispiel: Geben Sie `10` in _[!UICONTROL Discount Amount]_&#x200B;ein, um $10 von der Zwischensumme des Warenkorbs abzuziehen. Standardmäßig gilt der Rabatt nur für die Zwischensumme des Warenkorbs. Um den Rabatt auf die Zwischensumme und den Versand separat anzuwenden, siehe_Auf Versandbetrag anwenden _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definiert eine Menge, die der Kunde erwerben muss, um eine Menge kostenlos zu erhalten. (Der&#x200B;_[!UICONTROL Discount Amount]_ ist Y.) |
+| [!UICONTROL Apply] | Bestimmt die Art der Berechnung, die auf den Kauf angewendet wird. Optionen: <br/>**[!UICONTROL Percent of product price discount]**- Rabattartikel, indem ein Prozentsatz vom ursprünglichen Preis abgezogen wird. Beispiel: Geben Sie `10` in _[!UICONTROL Discount Amount]_&#x200B;für einen aktualisierten Preis ein, der 10 % unter dem ursprünglichen Preis liegt.<br/>**[!UICONTROL Fixed amount discount]**- Rabattartikel, indem ein fester Betrag vom ursprünglichen Preis jedes qualifizierten Artikels im Warenkorb abgezogen wird. Beispiel: Geben Sie `10` in&#x200B;_[!UICONTROL Discount Amount]_ für einen aktualisierten Preis ein, der 10 $ unter dem ursprünglichen Preis liegt. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Rabatte für den gesamten Warenkorb, indem ein fester Betrag von der Zwischensumme des Warenkorbs subtrahiert wird. Beispiel: Geben Sie `10` in _[!UICONTROL Discount Amount]_&#x200B;ein, um $10 von der Zwischensumme des Warenkorbs abzuziehen. Standardmäßig gilt der Rabatt nur für die Zwischensumme des Warenkorbs. Um den Rabatt auf die Zwischensumme und den Versand separat anzuwenden, siehe_Auf Versandbetrag anwenden _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definiert eine Menge, die der Kunde erwerben muss, um eine Menge kostenlos zu erhalten. (Der&#x200B;_[!UICONTROL Discount Amount]_ ist Y.) <br/>**[!UICONTROL Free Gift]**- Fügt ein kostenloses Geschenkprodukt in den Warenkorb, wenn die Regelbedingungen erfüllt sind. Wählen Sie das kostenlose Produkt und die Menge aus, die zum Warenkorb hinzugefügt werden soll. ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce). Diese Funktion wird in Luma-Storefronts nicht unterstützt. Sie ist über [GraphQL) &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/) und in Edge Delivery Services (EDS)-Storefronts verfügbar. |
 | [!UICONTROL Discount Amount] | (Erforderlich) Der Rabattbetrag, der angeboten wird. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Legt die maximale Anzahl von Produkten fest, auf die der Rabatt im selben Kauf angewendet werden kann. |
 | [!UICONTROL Discount Qty Step (Buy X)] | Legt die Anzahl der Produkte fest, die von `X` in einer `Buy X Get Y Free`-Promotion repräsentiert werden. Außerdem definiert, wie viele Produkte in Stapeln zum Warenkorb hinzugefügt werden müssen, um `Fixed amount discount`- und `Percent of product price discount`-Aktionen anzuwenden. |
