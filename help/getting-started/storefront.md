@@ -6,29 +6,40 @@ feature: Storefront
 TQID: https://experienceleague.adobe.com/b8JEobTQ3fDladcIZj5Bt7eaYPN7-p7PsB-siKLITCw
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Content reuse
+source-git-commit: 4e39d90f62de53be1aa892ca325f20f5aedc845a
 workflow-type: tm+mt
-source-wordcount: 1223
+source-wordcount: '1347'
 ht-degree: 0%
-
 ---
-
 # Was ist die Storefront?
 
 Innerhalb Ihrer Adobe Commerce- oder Magento Open Source-Implementierung ist die Storefront der externe, öffentlich zugängliche Teil Ihres Stores. Es stellt die Inhalte und funktionalen Komponenten bereit, die Ihre Kunden zum Einkaufen und Kaufen verwenden.
@@ -51,7 +62,7 @@ Mit der Einführung der [!DNL **Commerce-Storefront mit Edge Delivery Services**
 
 Die Commerce Storefront powered by Edge Delivery Services bietet mehrere wichtige Funktionen, die sowohl für Händler als auch für Entwickler von Vorteil sind. Diese Funktionen ermöglichen es Unternehmen, ansprechende Einkaufserlebnisse zu schaffen und gleichzeitig die Flexibilität zu behalten, ihre Storefronts entsprechend ihren Anforderungen anzupassen und zu skalieren.
 
-Weitere Informationen und Anleitungen zum Einrichten und Optimieren Ihrer Commerce-Storefront finden Sie in der [Dokumentation zur Adobe Commerce-Storefront](https://experienceleague.adobe.com/de/docs/commerce).
+Weitere Informationen und Anleitungen zum Einrichten und Optimieren Ihrer Commerce-Storefront finden Sie in der [Dokumentation zur Adobe Commerce-Storefront](https://experienceleague.adobe.com/en/docs/commerce).
 
 >[!BEGINTABS]
 
@@ -100,13 +111,15 @@ Wussten Sie, dass Personen, die die -Suche verwenden, mit fast doppelt so hoher 
 
 ### [!DNL Live Search]
 
-Mit [[!DNL Live Search]](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview) für Adobe Commerce bietet Ihr Store ein schnelles, extrem relevantes und intuitives Sucherlebnis und ist ohne zusätzliche Kosten für Adobe Commerce verfügbar.
+Mit [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) für Adobe Commerce bietet Ihr Store ein schnelles, extrem relevantes und intuitives Sucherlebnis und ist ohne zusätzliche Kosten für Adobe Commerce verfügbar.
 
 ![Beispiel für die Live-Suche - Suche während der Eingabe](./assets/storefront-search-as-you-type.png){width="700"}
 
 ### Standardkatalogsuche
 
 Bei [Standardkatalogsuche](../catalog/search.md) enthält Ihr Store oben rechts ein Suchfeld und in der Fußzeile einen Link zur erweiterten Suche. Alle Suchbegriffe, die Käufer einreichen, werden gespeichert, sodass Sie genau sehen können, wonach sie suchen. Sie können Vorschläge unterbreiten und Synonyme und häufige Rechtschreibfehler eingeben. Zeigen Sie dann eine bestimmte Seite an, wenn ein Suchbegriff eingegeben wird.
+
+Eine Anleitung zu Suchbegriff-Umleitungen, URL-Umschreibungen und zum Routing für [!DNL Live Search] oder [!DNL Edge Delivery Services] finden Sie unter [Suchbegriff-Umleitungen und Storefront-Routing](../merchandising-promotions/search-term-redirects.md).
 
 ![Beispiel für standardmäßige Katalogsuchergebnisse](./assets/storefront-search-results-page-full.png){width="700"}
 
@@ -129,7 +142,7 @@ Der Checkout-Prozess besteht aus zwei Schritten:
 1. Lieferinformationen
 
    Der erste Schritt des Checkout-Prozesses besteht darin, dass der Kunde die Informationen zur Versandadresse ausfüllt und die Versandmethode wählt. Wenn der Kunde über ein Konto verfügt, wird die Lieferadresse automatisch eingegeben, kann aber bei Bedarf geändert werden.
-Wenn ein Gastkunde eine E-Mail-Adresse eingibt, die als zuvor registriert erkannt wird, wird die Anmeldeaufforderung angezeigt, wenn das Feld [!UICONTROL Enable Guest Checkout Login] in der Store-Konfiguration auf `Yes` gesetzt ist (siehe [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) im _Configuration Reference Guide_). Diese Einstellung kann jedoch Kundeninformationen für nicht authentifizierte Benutzer verfügbar machen.
+   Wenn ein Gastkunde eine E-Mail-Adresse eingibt, die als zuvor registriert erkannt wird, wird die Anmeldeaufforderung angezeigt, wenn das Feld [!UICONTROL Enable Guest Checkout Login] in der Store-Konfiguration auf `Yes` gesetzt ist (siehe [[!UICONTROL Checkout Options]](../configuration-reference/sales/checkout.md#checkout-options) im _Configuration Reference Guide_). Diese Einstellung kann jedoch Kundeninformationen für nicht authentifizierte Benutzer verfügbar machen.
 
    ![Beispiel für eine Storefront-Checkout-Seite](./assets/storefront-checkout-shipping-full.png){width="700"}
 
