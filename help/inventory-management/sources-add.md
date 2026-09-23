@@ -60,7 +60,7 @@ Wenn Sie die standardmäßige Source bearbeiten, können Sie alle Konfiguratione
 
      Diese Option ist standardmäßig auf `No` festgelegt. Wenn Sie sie auf `Yes` setzen, kann es bis zur Lebensdauer des Abfrage-Caches dauern, bis die Quelle in den Ergebnissen angezeigt wird. Wenn Sie diese Option dann auf `No` setzen, wird die Quelle sofort aus den Abfrageergebnissen entfernt.
 
-     Die [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL-Abfrage bietet Zugriff auf Stock-Informationen für Quellen, die in der Storefront sichtbar sind. Sie müssen die `sourceAvailability` Abfrage für die Store-Ansicht in den &quot;[ Optionen“ ](global-options.md).
+     Die [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL-Abfrage bietet Zugriff auf Stock-Informationen für Quellen, die in der Storefront sichtbar sind. Sie müssen die `sourceAvailability` Abfrage für die Store-Ansicht in den &quot;[&#x200B; Optionen“ &#x200B;](global-options.md).
 
    - Geben Sie einen kurzen **[!UICONTROL Description]** für diesen Speicherort ein, um einen schnellen Überblick oder zusätzliche Details zu erhalten.
 
