@@ -1,30 +1,37 @@
 ---
 title: Hinzufügen einer Inventarquelle
-description: Fügen Sie  [!DNL Inventory Management]  Admin eine Quelle für ein Warehouse, einen Store, ein Verteilungscenter oder einen anderen Erfüllungsort hinzu.
+description: Fügen Sie in der Admin eine [!DNL Inventory Management] für ein Warehouse, einen Store, ein Verteilungscenter oder einen anderen Erfüllungsort hinzu.
 exl-id: 1bff9986-8722-4fb5-ac83-41de82325f7b
 feature: Inventory, Products
 TQID: https://experienceleague.adobe.com/hDIRVPayqLXgx3nxOSeDf6R7sT9t6d9AFGEeyQpyj6o
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: 2e0212c62ed6183d1b66a9260e6177177ca2a61a
 workflow-type: tm+mt
-source-wordcount: 858
+source-wordcount: '1033'
 ht-degree: 0%
-
 ---
-
 # Quelle hinzufügen
 
 Verwalten Sie die Inventar- und Bestellabwicklung von mehreren Standorten aus mit benutzerdefinierten Quellen. Erstellen Sie für jeden Standort eine Quelle, z. B. Lager, stationäre Läden, Vertriebszentren und Ablieferer. Quellen zuweisen und Mengen pro Produkt aktualisieren.
@@ -48,6 +55,12 @@ Wenn Sie die standardmäßige Source bearbeiten, können Sie alle Konfiguratione
      Der Code unterstützt Groß- und Kleinbuchstaben, Zahlen, Bindestriche und Unterstriche. Der Code ist eine eindeutige ID, die bei der Zuweisung zu Stock-Daten und beim Export/Import von Daten verwendet wird.
 
    - Wenn diese Bestandsquelle einsatzbereit ist, setzen Sie **[!UICONTROL Is Enabled]** auf `Yes`.
+
+   - Um den Bestand dieser Quelle für die Storefront verfügbar zu machen, setzen Sie **[!UICONTROL Visible on Storefront]** auf `Yes`. [!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+
+     Diese Option ist standardmäßig auf `No` festgelegt. Wenn Sie sie auf `Yes` setzen, kann es bis zur Lebensdauer des Abfrage-Caches dauern, bis die Quelle in den Ergebnissen angezeigt wird. Wenn Sie diese Option dann auf `No` setzen, wird die Quelle sofort aus den Abfrageergebnissen entfernt.
+
+     Die [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} GraphQL-Abfrage bietet Zugriff auf Stock-Informationen für Quellen, die in der Storefront sichtbar sind. Sie müssen die `sourceAvailability` Abfrage für die Store-Ansicht in den &quot;[&#x200B; Optionen“ &#x200B;](global-options.md).
 
    - Geben Sie einen kurzen **[!UICONTROL Description]** für diesen Speicherort ein, um einen schnellen Überblick oder zusätzliche Details zu erhalten.
 
@@ -121,6 +134,7 @@ Wenn Sie die standardmäßige Source bearbeiten, können Sie alle Konfiguratione
 | [!UICONTROL Name] | (Erforderlich) Ein eindeutiger Name, der die Inventarquelle für Admin-Benutzerinnen und -Benutzer identifiziert. |
 | [!UICONTROL Code] | (Erforderlich) Ein eindeutiger alphanumerischer Code, der vom System zur Identifizierung der Inventarquelle verwendet wird. Geben Sie den Code in Groß- oder Kleinbuchstaben und/oder Zahlen ohne Leerzeichen ein. Bei Bedarf kann anstelle eines Leerzeichens ein Bindestrich oder ein Unterstrich verwendet werden. Der Code kann nach der Erstellung der Quelle nicht bearbeitet werden. Es handelt sich um eine eindeutige ID, die verwendet wird, wenn Sie Lagerbeständen Quellen zuweisen und Produktdaten exportieren und/oder importieren. |
 | [!UICONTROL Is Enabled] | Legt fest, ob die Bestandsquelle verwendet werden kann. Optionen: Ja / Nein |
+| [!UICONTROL Visible on Storefront] [!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} | Legt fest, ob die Storefront [`sourceAvailability`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/source-availability){target="_blank"} die GraphQL-Abfrage Lagerbestandsdaten für diese Bestandsquelle zurückgeben kann. |
 | [!UICONTROL Description] | Eine kurze Beschreibung des Lagerplatzes der Bestandsquelle. Enthalten Details, die für Ihre Admin-Benutzer hilfreich sind. |
 | [!UICONTROL Latitude] | Gibt die Breitenkoordinate der Inventarquelle für GPS an. Geben Sie den Wert als Zahl ein, gefolgt von einem Plus- oder Minuszeichen nach Bedarf. Das Gradsymbol und die Buchstaben sind nicht erlaubt. Beispiel: Latitude 32.7555 |
 | [!UICONTROL Longitude] | Gibt die Längenkoordinate der Inventarquelle für GPS an. Geben Sie den Wert als Zahl ein, gefolgt von einem Plus- oder Minuszeichen nach Bedarf. Das Gradsymbol und die Buchstaben sind nicht erlaubt. Beispiel: `-97.3308` |
