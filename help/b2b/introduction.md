@@ -67,10 +67,10 @@ Weitere Informationen finden Sie unter [Unternehmensverwaltung](manage-companies
 
 Services für Adobe Commerce sind gehostete Services, die erweiterte Funktionen für Adobe Commerce und Magento Open Source bereitstellen. Folgende Services unterstützen B2B-Workflows:
 
-* [Katalog-Service](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
-* [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
-* [Produkt Recommendations](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
-* [Adobe Commerce Optimizer-Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
+* [Katalog-Service](https://experienceleague.adobe.com/de/docs/commerce/catalog-service/guide-overview)
+* [Live Search](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview)
+* [Produkt Recommendations](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/guide-overview)
+* [Adobe Commerce Optimizer-Connector](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/overview)
 
 Der [!DNL Adobe Commerce Optimizer Connector] synchronisiert Katalog- und Preisdaten aus Adobe Commerce in [!DNL Adobe Commerce Optimizer], um die KI-gesteuerte Produkterkennung, Empfehlungen und Headless-Storefronts zu unterstützen, während Adobe Commerce das Aufzeichnungssystem bleibt.
 
@@ -78,7 +78,7 @@ Der [!DNL Adobe Commerce Optimizer Connector] synchronisiert Katalog- und Preisd
 >
 >Für B2B-Händler synchronisiert der [!DNL Adobe Commerce Optimizer Connector for B2B] Ihre freigegebenen Kataloge automatisch in [!DNL Adobe Commerce Optimizer] als geschützte Katalogansichten, gesichert durch eingeschränkte Zugriffsschlüssel, sodass das vertragsspezifische Produktsortiment und die Preise zwischen den beiden Systemen synchron bleiben.
 
-Weitere Informationen finden Sie im [[!DNL Adobe Commerce Optimizer Connector] Integrationshandbuch](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview).
+Weitere Informationen finden Sie im [[!DNL Adobe Commerce Optimizer Connector] Integrationshandbuch](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/overview).
 
 ## Freigegebene Kataloge
 

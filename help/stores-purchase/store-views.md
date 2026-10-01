@@ -72,7 +72,7 @@ Um die Synchronisierung zu aktivieren oder zu deaktivieren, bearbeiten Sie die *
 
    ![Store-Ansicht erstellen - Adobe Commerce Optimizer Exporter-Einstellungen](./assets/stores-optimizer-export-settings.png){width="600" zoomable="yes"}
 
-   Wenn Sie diese Einstellung nach den ersten Synchronisierungs-Triggern ändern, wird eine vollständige Neuindizierung durchgeführt. Siehe [Anpassen der Exportkonfiguration für Commerce](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) im *Adobe Commerce Optimizer Connector-Handbuch*.
+   Wenn Sie diese Einstellung nach den ersten Synchronisierungs-Triggern ändern, wird eine vollständige Neuindizierung durchgeführt. Siehe [Anpassen der Exportkonfiguration für Commerce](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) im *Adobe Commerce Optimizer Connector-Handbuch*.
 
 1. Klicken Sie auf **[!UICONTROL Save Store View]**.
 
