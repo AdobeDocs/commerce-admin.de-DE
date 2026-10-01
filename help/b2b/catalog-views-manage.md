@@ -53,7 +53,7 @@ Der Connector schützt Katalogansichten mit eingeschränkten Zugriffsschlüsseln
 
 Informationen zum Konfigurieren der Token-Lebensdauer oder Deaktivieren der Token-Ausgabe finden Sie unter [Services > ACO-Katalogansicht](/help/configuration-reference/services/aco-catalog-view.md).
 
-Sie können diese Katalogansichten überprüfen und ihre zugewiesenen Schlüssel entweder über die Registerkarte _[!UICONTROL Catalog Views]_des freigegebenen Katalogs oder den Abschnitt_[!UICONTROL Catalog Views]_ des zugehörigen Unternehmens verwalten. Beide listen dieselben Katalogansichten und aktuelle Schlüsselzuweisungen auf. Unter [Bearbeiten von eingeschränkten Zugriffsschlüsseln](#edit-restricted-access-keys) finden Sie den genauen Navigationspfad zu den einzelnen Speicherorten.
+Sie können diese Katalogansichten überprüfen und ihre zugewiesenen Schlüssel entweder über die Registerkarte _[!UICONTROL Catalog Views]_&#x200B;des freigegebenen Katalogs oder den Abschnitt&#x200B;_[!UICONTROL Catalog Views]_ des zugehörigen Unternehmens verwalten. Beide listen dieselben Katalogansichten und aktuelle Schlüsselzuweisungen auf. Unter [Bearbeiten von eingeschränkten Zugriffsschlüsseln](#edit-restricted-access-keys) finden Sie den genauen Navigationspfad zu den einzelnen Speicherorten.
 
 Informationen zum Überwachen der Synchronisierung freigegebener Katalogdaten mit [!DNL Adobe Commerce Optimizer] finden Sie [Überwachung des Synchronisierungsstatus der Katalogansicht](/help/systems/catalog-view-sync-status.md).
 

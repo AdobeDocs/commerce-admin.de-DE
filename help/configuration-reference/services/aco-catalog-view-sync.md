@@ -35,7 +35,7 @@ ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync]
 
-Verwenden Sie diese Einstellungen, um zu steuern, wie die [!DNL Adobe Commerce Optimizer Connector for B2B] freigegebene B2B-Katalogkonfigurationen - Katalogansicht, Richtlinie, Preisbuch und Schlüssel - in [!DNL Adobe Commerce Optimizer] synchronisiert und wie Konfigurationsunterschiede zwischen den beiden Systemen aufgelöst werden. Informationen [ Überwachung der Ergebnisse dieser Einstellungen finden ](../../systems/catalog-view-sync-status.md) unter „Catalog View Sync Status Monitoring“.
+Verwenden Sie diese Einstellungen, um zu steuern, wie die [!DNL Adobe Commerce Optimizer Connector for B2B] freigegebene B2B-Katalogkonfigurationen - Katalogansicht, Richtlinie, Preisbuch und Schlüssel - in [!DNL Adobe Commerce Optimizer] synchronisiert und wie Konfigurationsunterschiede zwischen den beiden Systemen aufgelöst werden. Informationen [&#x200B; Überwachung der Ergebnisse dieser Einstellungen finden &#x200B;](../../systems/catalog-view-sync-status.md) unter „Catalog View Sync Status Monitoring“.
 
 {{config}}
 

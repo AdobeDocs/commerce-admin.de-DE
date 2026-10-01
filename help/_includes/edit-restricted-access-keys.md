@@ -8,13 +8,13 @@ ht-degree: 0%
 ---
 # Bearbeiten von eingeschränkten Zugriffsschlüsseln
 
-Zuweisen oder Aufheben der Zuweisung von Schlüsseln in einer Katalogansicht, nicht im [!UICONTROL Restricted Access Keys]. Sie können diese Änderung entweder über die Registerkarte _[!UICONTROL Catalog Views]_des freigegebenen Katalogs oder den Abschnitt_[!UICONTROL Catalog Views]_ des zugehörigen Unternehmens vornehmen. Beide listen dieselben Katalogansichten und aktuelle Schlüsselzuweisungen auf.
+Zuweisen oder Aufheben der Zuweisung von Schlüsseln in einer Katalogansicht, nicht im [!UICONTROL Restricted Access Keys]. Sie können diese Änderung entweder über die Registerkarte _[!UICONTROL Catalog Views]_&#x200B;des freigegebenen Katalogs oder den Abschnitt&#x200B;_[!UICONTROL Catalog Views]_ des zugehörigen Unternehmens vornehmen. Beide listen dieselben Katalogansichten und aktuelle Schlüsselzuweisungen auf.
 
 Eine Katalogansicht muss mindestens einen Schlüssel haben und kann höchstens drei enthalten. Wenn Sie versuchen, einen vierten Schlüssel zuzuweisen, schlägt das Speichern fehl und Sie werden in einer Meldung aufgefordert, zuerst einen zu entfernen.
 
-1. Öffnen Sie das _[!UICONTROL Catalog Views]_für die Katalogansicht, die Sie aktualisieren möchten, mithilfe eines der folgenden Pfade:
+1. Öffnen Sie das _[!UICONTROL Catalog Views]_&#x200B;für die Katalogansicht, die Sie aktualisieren möchten, mithilfe eines der folgenden Pfade:
 
-   - _Aus dem freigegebenen Katalog_ — Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**. Wählen Sie für den freigegebenen Katalog **[!UICONTROL General Settings]** aus der Spalte **[!UICONTROL Action]** aus. Wählen Sie dann im _[!UICONTROL Shared Catalog Information]_Bedienfeld **[!UICONTROL Catalog Views]**aus.
+   - _Aus dem freigegebenen Katalog_ — Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**. Wählen Sie für den freigegebenen Katalog **[!UICONTROL General Settings]** aus der Spalte **[!UICONTROL Action]** aus. Wählen Sie dann im _[!UICONTROL Shared Catalog Information]_&#x200B;Bedienfeld **[!UICONTROL Catalog Views]**&#x200B;aus.
    - _Vom Unternehmen_ — Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**. Wählen Sie für das Unternehmen **[!UICONTROL Edit]** aus der Spalte **[!UICONTROL Action]** aus. Erweitern Sie dann den Abschnitt **[!UICONTROL Catalog Views]** .
 
    Beide Raster listen die Katalogansichten auf, die für den freigegebenen Katalog erstellt wurden, der dem Unternehmen zugewiesen wurde, einschließlich der zugewiesenen Schlüssel.
