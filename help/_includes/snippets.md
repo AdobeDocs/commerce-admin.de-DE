@@ -1,13 +1,11 @@
 ---
 title: Snippets
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 0%
-
 ---
-
 # Snippets
 
 ## Funktion nur anzeigen {#ee-feature}
@@ -69,7 +67,6 @@ Um auf die Store-Konfigurationseinstellungen zuzugreifen, wählen Sie **[!UICONT
 >Ab Juni 2024 können Adobe Commerce-Händler keine Transaktionen mehr mit der aktuellen UPS-Integration durchführen. Dies liegt daran, dass die von der nativen Adobe Commerce-Integration verwendeten United Parcel Service (UPS)-APIs derzeit das erforderliche OAuth 2.0-Sicherheitsmodell nicht unterstützen. Um die Integration zu aktivieren[&#x200B; erstellen Sie eine Anwendung auf der UPS Entwicklerplattform, &#x200B;](https://developer.ups.com/get-started) die für OAuth 2.0 erforderlichen Anmeldeinformationen abzurufen. Verwenden Sie die neuen Anmeldeinformationen als `username` und `password` in der Commerce UPS Versandkonfiguration. Weitere Informationen zur Änderung des Sicherheitsmodells finden Sie unter [Handbuch zur Migration des Zugriffsschlüssels für das Entwicklerportal_](https://developer.ups.com/oauth-developer-guide). <br/>
 >
 >Händler sollten [ein Qualitäts-Patch](https://experienceleague.adobe.com/de/docs/experience-cloud-kcs/kbarticles/ka-27146)Update auf ihren Store anwenden, um von der SOAP-API zur RESTful-API zu migrieren, die OAuth 2.0-Authentifizierungsprotokolle unterstützt.
-
 
 ## Verfügbare Dokumentation {#docs-links}
 

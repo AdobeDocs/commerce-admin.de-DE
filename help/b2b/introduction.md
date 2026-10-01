@@ -6,28 +6,37 @@ feature: B2B
 TQID: https://experienceleague.adobe.com/dt7QZnXH9yO6vMFJBIgt4g43XVfk6Da1gyXEMqqvJlo
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+    internal-label: Administration
+source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '962'
 ht-degree: 2%
-
 ---
-
 # Einführung in [!DNL Adobe Commerce B2B]
 
 Im Gegensatz zum Standard-Business-to-Consumer-Modell sind integrierte B2B-Funktionen (Business-to-Business) so konzipiert, dass sie den Anforderungen von Verkäufern (Adobe Commerce-Händler) entsprechen, die Kunden haben, die Unternehmen sind. Es unterstützt Unternehmen mit komplexen Organisationsstrukturen und mehreren Benutzern mit verschiedenen Rollen und Kaufberechtigungsebenen. Ein typischer B2B-Kunde kann der Manager eines Einzelhandelsgeschäfts oder ein Käufer sein, der im Namen eines Unternehmens Einkäufe tätigt. In beiden Fällen findet die Transaktion zwischen Ihrem Unternehmen und deren Kunden statt. Sie können auch Produkte direkt an den Verbraucher verkaufen. [!DNL Adobe Commerce B2B] ist eine integrierte Lösung, die sowohl B2B- als auch B2C-Modelle unterstützt.
@@ -61,12 +70,25 @@ Services für Adobe Commerce sind gehostete Services, die erweiterte Funktionen 
 * [Katalog-Service](https://experienceleague.adobe.com/de/docs/commerce/catalog-service/guide-overview)
 * [Live Search](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview)
 * [Produkt Recommendations](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/guide-overview)
+* [Adobe Commerce Optimizer-Connector](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/overview)
+
+Der [!DNL Adobe Commerce Optimizer Connector] synchronisiert Katalog- und Preisdaten aus Adobe Commerce in [!DNL Adobe Commerce Optimizer], um die KI-gesteuerte Produkterkennung, Empfehlungen und Headless-Storefronts zu unterstützen, während Adobe Commerce das Aufzeichnungssystem bleibt.
+
+>[!NOTE]
+>
+>Für B2B-Händler synchronisiert der [!DNL Adobe Commerce Optimizer Connector for B2B] Ihre freigegebenen Kataloge automatisch in [!DNL Adobe Commerce Optimizer] als geschützte Katalogansichten, gesichert durch eingeschränkte Zugriffsschlüssel, sodass das vertragsspezifische Produktsortiment und die Preise zwischen den beiden Systemen synchron bleiben.
+
+Weitere Informationen finden Sie im [[!DNL Adobe Commerce Optimizer Connector] Integrationshandbuch](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/overview).
 
 ## Freigegebene Kataloge
 
 Gemeinsam genutzte Kataloge sind die Preisniveaus, mit denen benutzerdefinierte Preise pro Produkt für verschiedene Unternehmen auf einer oder mehreren Websites festgelegt werden können. Mithilfe freigegebener Kataloge können Sie Produkte verkaufen, indem Sie unterschiedliche Preisstufen für verschiedene Kundengruppen anwenden. Die Unterstützung für freigegebene Kataloge ist nur für Commerce-Stores verfügbar, die für die Unterstützung von Unternehmenskonten konfiguriert sind.
 
 Weitere Informationen finden Sie unter [Arbeiten mit freigegebenen Katalogen](catalog-shared.md).
+
+>[!NOTE]
+>
+>Wenn die [!DNL Adobe Commerce Optimizer Connector for B2B]-Erweiterung installiert ist, wird jeder benutzerdefinierte freigegebene Katalog auch als eine oder mehrere Katalogansichten in [!DNL Adobe Commerce Optimizer] projiziert - eine pro Shop-Ansicht im freigegebenen Katalog. Weitere Informationen finden Sie unter [Konfiguration der Katalogansicht verwalten](catalog-views-manage.md) und [Überwachung des Synchronisierungsstatus der Katalogansicht](/help/systems/catalog-view-sync-status.md).
 
 ## Schnellauftrag
 

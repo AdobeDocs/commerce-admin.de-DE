@@ -5,13 +5,11 @@ breadcrumb-title: Handbuch für Admin-Systeme
 role: Admin, Leader
 feature: System
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: af5848a2337563c3d57109b0bd93495a3ab7def0
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '217'
 ht-degree: 3%
-
 ---
-
 
 # Handbuch für Admin-Systeme {#systems}
 
@@ -51,6 +49,9 @@ ht-degree: 3%
   - Datensynchronisation für Commerce-Services {#data-sync}
     - [Dashboard für das Daten-Management](data-dashboard.md)
     - [Synchronisierungsstatus von Daten-Feeds](data-feed-sync-status.md)
+    - Synchronisierung der Katalogansicht und Zugriffsschlüssel {#catalog-view-sync}
+      - [Synchronisierungsstatus der Katalogansicht](catalog-view-sync-status.md)
+      - [Schlüssel mit eingeschränktem Zugriff](restricted-access-keys.md)
 - Aktionsprotokolle {#action-logs}
   - [Überblick](action-log.md)
   - [Bericht zu Aktionslogs](action-log-report.md)

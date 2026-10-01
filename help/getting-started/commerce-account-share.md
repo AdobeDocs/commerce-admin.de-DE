@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 47f4b72b7b4ef201251423522a7917825415cb25
+source-git-commit: f9f21f675d5c608547db790f33d1aa9be90a36eb
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -141,7 +141,7 @@ Die folgenden Anweisungen sind aus der Sicht eines freigegebenen Benutzers gesch
    >[!NOTE]
    >
    > Wenn **[!UICONTROL Delete]** nicht angezeigt wird, überprüfen Sie, ob die **[!UICONTROL Share Name]** das Namensmuster `Cloud Shared Access from MAG0XYZ` enthält. Wenn das Konto dieses [Namensmuster aufweist und nicht gelöscht werden kann](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users) liegt dies daran, dass der freigegebene Zugriff von einer API und nicht direkt aus dem [Commerce-Konto erstellt &#x200B;](https://account.magento.com/).
-   > 
+   >
    > Wenn sie nicht gelöscht werden kann, lassen Sie einfach den Kontoinhaber das Konto mit gemeinsamem Zugriff ändern und unter Kontoberechtigungen erteilen jedes Element deaktivieren. Nach diesem Update kann der Benutzer nicht mehr auf Kontoressourcen zugreifen.
    > ![image](https://git.corp.adobe.com/AdobeDocs/commerce-admin.en/assets/38345/55f383e5-89c7-4832-bada-f765b522f4b5)
    >
@@ -150,11 +150,10 @@ Die folgenden Anweisungen sind aus der Sicht eines freigegebenen Benutzers gesch
 
 1. Wenn Sie zum Bestätigen aufgefordert werden, klicken Sie auf **[!UICONTROL Delete User]**.
 
->[!NOTE]
->
->Sie können keine Benutzer mit dem Freigabenamen _Cloud Shared Access von MAG[XYZ)]_ dieser Benutzeroberfläche löschen. Siehe [Löschen von Benutzern, denen über ein Cloud-Projekt gemeinsamer Zugriff gewährt wurde?](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users).
+   >[!NOTE]
+   >
+   >Sie können keine Benutzer mit dem Freigabenamen _Cloud Shared Access von MAG[XYZ)]_ dieser Benutzeroberfläche löschen. Siehe [Löschen von Benutzern, denen über ein Cloud-Projekt gemeinsamer Zugriff gewährt wurde?](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#remove-cloud-shared-access-users).
 
 ## Verwandtes Lesen
 
 [Fehlerbehebung bei freigegebenem Zugriff](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/shared-access-troubleshooting)
-
