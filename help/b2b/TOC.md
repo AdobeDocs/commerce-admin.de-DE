@@ -1,18 +1,16 @@
 ---
 user-guide-title: Handbuch zu [!DNL Adobe Commerce B2B]
-user-guide-description: Erfahren Sie, wie Sie die für Adobe Commerce verfügbaren integrierten B2B-Funktionen verwenden.
+user-guide-description: Erfahren Sie, wie Sie die integrierten B2B-Funktionen für Adobe Commerce verwenden, z. B. Unternehmenskonten und freigegebene Katalogverwaltung.
 breadcrumb-title: '[!DNL Adobe Commerce B2B]'
 role: Admin, Leader, User
 feature: B2B
 recommendations: noDisplay
 nudge: true
-source-git-commit: c67474ee4b72744766421090e30c56c85d687495
+source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '182'
 ht-degree: 5%
-
 ---
-
 
 # Handbuch zu [!DNL Adobe Commerce B2B] {#b2b}
 
@@ -46,6 +44,7 @@ ht-degree: 5%
     + [Festlegen von Katalogpreisen und -strukturen](catalog-shared-pricing-structure.md)
     + [Zuweisen von Firmen zu einem Katalog](catalog-shared-assign-companies.md)
   + [Verwalten freigegebener Kataloge](catalog-shared-manage.md)
+  + [Konfiguration der Katalogansicht verwalten](catalog-views-manage.md)
 + [Schnellbestellungen](quick-order.md)
 + Bestellungen {#purchase-orders}
   + [Bestellungen für Unternehmen](purchase-order-flow.md)
@@ -69,4 +68,4 @@ ht-degree: 5%
 + Verweis {#reference}
   + [Abwärtsinkompatible Änderungen](backward-incompatible-changes.md)
   + [Packages](packages.md)
-+ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
++ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

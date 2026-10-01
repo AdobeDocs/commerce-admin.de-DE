@@ -6,41 +6,56 @@ feature: B2B, Companies, Configuration
 TQID: https://experienceleague.adobe.com/a4IAHlQLzc9pX6V2z8V9nLUaWToWizjdOomV7TfS7to
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: b32c28afffe75b3f684f0fef81bd61e9cdcb485a
 workflow-type: tm+mt
-source-wordcount: 2728
+source-wordcount: '2804'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Unternehmenskonten
 
-Auf der Seite _[!UICONTROL Companies]_&#x200B;werden alle aktuellen Unternehmenskonten unabhängig vom Status aufgelistet. Alle ausstehenden Genehmigungsanfragen werden oben in der Liste angezeigt.
+Auf der Seite _[!UICONTROL Companies]_werden alle aktuellen Unternehmenskonten unabhängig vom Status aufgelistet. Alle ausstehenden Genehmigungsanfragen werden oben in der Liste angezeigt.
 
 ![Firmen-Raster](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Verwenden Sie das *[!UICONTROL Columns]*-Steuerelement, um die im Raster angezeigten Spalten anzupassen. Passen Sie die in der Ansicht angezeigten Unternehmen mithilfe der Such- und Filterfunktionen an.
 
-- Suchen Sie mithilfe der _[!UICONTROL Search]_&#x200B;nach Unternehmen **Raster**&#x200B;Firmen. Die Suche indiziert die Spalten **Firmenname**&#x200B;und **Übergeordnet**.
+- Suchen Sie mithilfe der _[!UICONTROL Search]_nach Unternehmen **Raster**Firmen. Die Suche indiziert die Spalten **Firmenname**und **Übergeordnet**.
 
 - Passen Sie die Ansicht so an, dass Datensätze einbezogen werden, die bestimmte Kriterien erfüllen, indem Sie die [!UICONTROL Filter] verwenden. Wenn die B2B-Site beispielsweise so konfiguriert ist, dass sowohl einzelne Unternehmenskonten als auch [Unternehmenshierarchien](manage-companies.md) verwaltet werden, können Sie nach `[!UICONTROL Company Type - Company]` filtern, um nur einzelne Unternehmen anzuzeigen, oder nach `[!UICONTROL Company Type - Parent]`, um nur die übergeordnete Firma für jede Hierarchie anzuzeigen.
 
@@ -126,7 +141,7 @@ Gelöschte Unternehmenskonten können nicht wiederhergestellt werden. Der Status
 
 ### Unternehmenseinstellungen ändern
 
-Aktualisieren Sie die Konfiguration [Erweiterte &#x200B;](account-company-create.md#advanced-settings)), um dieselben Einstellungen auf mehrere im Raster *Unternehmen“ ausgewählte Unternehmen*.
+Aktualisieren Sie die Konfiguration [Erweiterte ](account-company-create.md#advanced-settings)), um dieselben Einstellungen auf mehrere im Raster *Unternehmen“ ausgewählte Unternehmen*.
 
 >[!NOTE]
 >
@@ -188,7 +203,7 @@ Methode 2: **Vollständige Bearbeitung**
 
 1. Suchen Sie im Raster nach dem Firmendatensatz, der bearbeitet werden soll.
 
-1. Wählen Sie **[!UICONTROL Edit]** aus der Spalte _[!UICONTROL Action]_&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Edit]** aus der Spalte _[!UICONTROL Action]_aus.
 
 1. Nehmen Sie die erforderlichen Änderungen an den Unternehmensinformationen vor.
 
@@ -198,7 +213,7 @@ Methode 2: **Vollständige Bearbeitung**
 
 ## Zuweisen eines Vertriebsmitarbeiters
 
-Der Vertriebsmitarbeiter ist ein [Admin-Benutzer](../systems/permissions.md) der als Ansprechpartner für ein Firmenkonto zugewiesen ist und alle automatisierten E-[-Nachrichten &#x200B;](../b2b/enable-basic-features.md#configure-company-email-options) Unternehmen erhält. Pro Unternehmenskonto kann nur ein Vertriebsmitarbeiter zugewiesen werden, aber ein einziger Vertriebsmitarbeiter kann mehrere Unternehmenskonten verwalten. Das standardmäßige Admin-Benutzerkonto wird als Vertriebsmitarbeiter zugewiesen, es sei denn, es wurde ein anderer Admin-Benutzer zugewiesen.
+Der Vertriebsmitarbeiter ist ein [Admin-Benutzer](../systems/permissions.md) der als Ansprechpartner für ein Firmenkonto zugewiesen ist und alle automatisierten E-[-Nachrichten ](../b2b/enable-basic-features.md#configure-company-email-options) Unternehmen erhält. Pro Unternehmenskonto kann nur ein Vertriebsmitarbeiter zugewiesen werden, aber ein einziger Vertriebsmitarbeiter kann mehrere Unternehmenskonten verwalten. Das standardmäßige Admin-Benutzerkonto wird als Vertriebsmitarbeiter zugewiesen, es sei denn, es wurde ein anderer Admin-Benutzer zugewiesen.
 
 Der Name und die E-Mail-Adresse des zugeordneten Vertriebsmitarbeiters sind für die Mitglieder des Unternehmens auf der Seite mit dem Unternehmenskonto und den Angeboten sichtbar.
 
@@ -220,7 +235,7 @@ Das Unternehmensprofil kann vom Unternehmensadministrator in der Storefront und 
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Suchen Sie das Unternehmen im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
+1. Suchen Sie das Unternehmen im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
 1. Aktualisieren Sie die Feldwerte in jedem Abschnitt nach Bedarf, indem Sie die Feldbeschreibungen als Referenz verwenden.
 
@@ -230,7 +245,7 @@ Das Unternehmensprofil kann vom Unternehmensadministrator in der Storefront und 
 
 In diesem Video erfahren Sie mehr über die Verwaltung von Unternehmenskonten:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411354?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## Unternehmensleitung
 
@@ -238,7 +253,19 @@ Nachdem eine Firma erstellt wurde, können Admin-Benutzer mit entsprechenden Ber
 
 Wenn eine Firma zu einer Hierarchie hinzugefügt wurde, zeigt das [!UICONTROL Company Hierarchy] die übergeordnete Firma und alle zugewiesenen Firmen im Raster an.
 
-Weitere Informationen finden [&#x200B; unter &#x200B;](manage-company-hierarchy.md) von Unternehmenshierarchien .
+Weitere Informationen finden [ unter ](manage-company-hierarchy.md) von Unternehmenshierarchien .
+
+## Konfiguration der Katalogansicht verwalten
+
+Wenn die [!DNL Adobe Commerce Optimizer Connector for B2B]-Erweiterung installiert ist, werden im _[!UICONTROL Catalog Views]_Abschnitt eines Firmenkontos die [!DNL Adobe Commerce Optimizer] Katalogansichten aufgelistet, die aus dem freigegebenen Katalog projiziert werden, der dem Unternehmen zugewiesen wurde, und Sie können die eingeschränkten Zugriffsschlüssel verwalten, die sie schützen.
+
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
+
+1. Suchen Sie das Unternehmen, das Sie überprüfen möchten, und wählen Sie **[!UICONTROL Edit]** in der Spalte **[!UICONTROL Action]** aus.
+
+1. Erweitern Sie den Abschnitt **[!UICONTROL Catalog Views]** .
+
+Weitere Informationen zu Katalogansichten und zum Bearbeiten von eingeschränkten Zugriffsschlüsseln finden Sie unter [Konfiguration der Katalogansicht verwalten](catalog-views-manage.md).
 
 ## Unternehmensoptionen und -spalten
 
@@ -247,7 +274,7 @@ Die folgenden Abschnitte enthalten eine Referenz für die verfügbaren Aktionen,
 ### Optionen zur Aktionssteuerung
 
 | Option | Beschreibung |
-|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Set Active] | Setzt den Status aller ausgewählten Firmendatensätze auf `Active`. Unternehmensadministratoren erhalten Anweisungen, wie sie ihre Passwörter festlegen, damit sie über die Storefront auf ihre Konten zugreifen und ihre Unternehmen verwalten können. |
 | [!UICONTROL Block] | Schränkt nicht angesehene Unternehmenskonten ein, behält aber das Konto bei. Firmenmitglieder können sich anmelden und auf den Katalog zugreifen, aber sie können keine Bestellungen im Namen des Unternehmens aufgeben. |
 | [!UICONTROL Delete] | Löscht ausgewählte Unternehmenskonten. Der Status von Benutzerkonten, die mit einem gelöschten Unternehmen verknüpft sind, wird auf `Inactive` festgelegt und die Unternehmens-ID wird aus den Profilen von Benutzerkonten entfernt. Informationen über Unternehmensaktivitäten und -transaktionen werden im System gespeichert. |
@@ -263,7 +290,7 @@ Die folgenden Abschnitte enthalten eine Referenz für die verfügbaren Aktionen,
 #### Standardspaltenlayout
 
 | Spalte | Beschreibung |
-|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Select] | Kontrollkästchen zur Auswahl von Unternehmensdatensätzen, die Gegenstand einer Aktion sein sollen, oder zur Auswahl/Abwahl aller Datensätze über die Auswahlsteuerung in der Spaltenüberschrift. |
 | [!UICONTROL ID] | Eine eindeutige numerische Kennung, die zugewiesen wird, wenn die Anfrage zum Erstellen einer Firma gesendet wird. |
 | [!UICONTROL Company Name] | Der Firmenname wird bei der ersten Erstellung des Firmenkontos eingegeben und kann eine gekürzte Version des vollständigen rechtlichen Namens sein. |
@@ -289,7 +316,7 @@ Die folgenden Abschnitte enthalten eine Referenz für die verfügbaren Aktionen,
 Die folgenden Spalten sind verfügbar, indem Sie das [Spalten-Layout](../getting-started/admin-grid-controls.md) des Rasters ändern.
 
 | Spalte | Beschreibung |
-|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Company Legal Name] | Der vollständige rechtliche Name der Firma. |
 | [!UICONTROL Street Address] | Die Straße, an der das Unternehmen für die Geschäftstätigkeit registriert ist. |
 | [!UICONTROL ZIP] | Die Postleitzahl, bei der das Unternehmen für die Ausübung seiner Geschäftstätigkeit registriert ist. |
@@ -306,7 +333,7 @@ Die folgenden Spalten sind verfügbar, indem Sie das [Spalten-Layout](../getting
 ### Schaltflächenleiste
 
 | Schaltfläche | Beschreibung |
-|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Back] | Kehrt zur Seite Unternehmen zurück, ohne die Änderungen zu speichern. |
 | [!DNL Delete Company] | Löscht das Unternehmenskonto. Der Status von Benutzerkonten, die mit dem Unternehmen verknüpft sind, wird auf `Inactive` festgelegt und die Unternehmens-ID wird aus den Profilen von Benutzerkonten entfernt. Informationen über Unternehmensaktivitäten und -transaktionen werden im System gespeichert. |
 | [!DNL Reset] | Stellt die ursprünglichen Werte in allen Feldern mit nicht gespeicherten Änderungen wieder her. |
@@ -319,7 +346,7 @@ Die folgenden Spalten sind verfügbar, indem Sie das [Spalten-Layout](../getting
 ### Feldbeschreibungen
 
 | Feld | Beschreibung |
-|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Company Name] | Der Firmenname wird bei der ersten Erstellung des Firmenkontos eingegeben und kann eine gekürzte Version des vollständigen rechtlichen Namens sein. |
 | [!UICONTROL Status] | Gibt den [Status](account-company-approve.md) des Firmenkontos an. Optionen: <br/>**[!UICONTROL Active]**- Das Unternehmenskonto wird vom Store-Administrator genehmigt. Der Unternehmensadministrator und die zugehörigen Mitglieder können sich beim Konto in der Storefront anmelden und Käufe tätigen.<br/>**[!UICONTROL Pending Approval]** - Es wurde eine Anfrage zum Öffnen eines Unternehmenskontos eingereicht, die jedoch noch nicht vom Store-Administrator genehmigt wurde. <br/>**[!UICONTROL Rejected]**- Eine Anfrage zum Öffnen eines Unternehmenskontos wurde eingereicht, aber vom Store-Administrator nicht genehmigt. Die ursprünglichen Anmeldedaten, die zum Senden der Anfrage verwendet wurden, sind blockiert.<br/>**[!UICONTROL Blocked]** - Mitglieder des Unternehmens können sich anmelden und auf den Katalog zugreifen, jedoch keine Käufe tätigen. Der Store-Administrator kann ein Firmenkonto sperren, das keinen guten Ruf hat. Die Sperre des Kontos kann vom Store-Administrator jederzeit entfernt werden. |
 | [!UICONTROL Company Email] | Die mit dem Unternehmenskonto verknüpfte E-Mail-Adresse. |
@@ -330,7 +357,7 @@ Die folgenden Spalten sind verfügbar, indem Sie das [Spalten-Layout](../getting
 #### [!UICONTROL Account Information]
 
 | Feld | Beschreibung |
-|---------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Company Legal Name] | Der vollständige rechtliche Name der Firma. |
 | [!UICONTROL VAT / TAX ID] | Die Steuer- oder [Umsatzsteuer](../stores-purchase/vat.md)-Nummer, die dem Unternehmen zu Steuerberichtszwecken zugewiesen wird. |
 | [!UICONTROL Reseller ID] | Die Wiederverkaufsnummer, die dem Unternehmen zu Steuerberichtszwecken zugewiesen wird. |
@@ -341,7 +368,7 @@ Die folgenden Spalten sind verfügbar, indem Sie das [Spalten-Layout](../getting
 #### [!UICONTROL Company Hierarchy]
 
 | Spalten | Beschreibung |
-|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Company ID] | Die ID-Nummer der Firma. |
 | [!UICONTROL Company Name] | Der vollständige Name der Firma. <br/>Ein `current company indicator` wird in der bearbeiteten Firmenzeile angezeigt. |
 | [!UICONTROL Company Email] | Die mit dem Unternehmenskonto verknüpfte E-Mail-Adresse. |
@@ -354,10 +381,14 @@ Die folgenden Spalten sind verfügbar, indem Sie das [Spalten-Layout](../getting
 
 {style="table-layout:auto"}
 
+#### [!UICONTROL Catalog Views]
+
+{{$include /help/_includes/catalog-views-reference-table.md}}
+
 #### [!UICONTROL Legal Address]
 
 | Spalten | Beschreibung |
-|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Street Address] | Die Straße, an der das Unternehmen für die Geschäftstätigkeit registriert ist. |
 | [!UICONTROL City] | Die Stadt, in der das Unternehmen für die Geschäftstätigkeit registriert ist. |
 | [!UICONTROL Country] | Das Land, in dem das Unternehmen für die Ausübung seiner Geschäftstätigkeit registriert ist. |
@@ -370,7 +401,7 @@ Die folgenden Spalten sind verfügbar, indem Sie das [Spalten-Layout](../getting
 #### [!UICONTROL Company Admin]
 
 | Feld | Beschreibung |
-|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Website] | Legen Sie [Website-Umfang](../getting-started/websites-stores-views.md) für das Unternehmenskonto fest. Die Standardeinstellung ist *[!UICONTROL Main Website]*. |
 | [!UICONTROL Job Title] | Der Titel des Unternehmensadministrators, der das Unternehmenskonto verwaltet. |
 | [!UICONTROL Work Phone Number] | Die Telefonnummer des Unternehmensadministrators, der das Unternehmenskonto verwaltet. |
@@ -388,7 +419,7 @@ Die folgenden Spalten sind verfügbar, indem Sie das [Spalten-Layout](../getting
 #### [!UICONTROL Company Credit]
 
 | Feld | Beschreibung |
-|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Credit Currency] | Die Währung, die vom Store für Käufe auf Firmenguthaben akzeptiert wird. |
 | [!UICONTROL Credit Limit] | Das Kreditlimit, das auf das Unternehmenskonto erweitert wird. |
 | [!UICONTROL Allow to Exceed Credit Limit] | Gibt an, ob die Firma berechtigt ist, das Kreditlimit zu überschreiten. Optionen: Ja / Nein |
@@ -399,7 +430,7 @@ Die folgenden Spalten sind verfügbar, indem Sie das [Spalten-Layout](../getting
 #### [!UICONTROL Advanced Settings]
 
 | Feld | Beschreibung |
-|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --- | --- |
 | [!UICONTROL Customer Group] | Gibt die [Kundengruppe](../customers/customer-groups.md) oder den [freigegebenen Katalog](catalog-shared.md) an, die bzw. der dem Unternehmen zugewiesen ist. |
 | [!UICONTROL Allow Quotes] | Legt fest, ob Firmenmitglieder verhandelbare Angebote im Namen der Firma vorbereiten und einreichen können. |
 | [!UICONTROL Enable Purchase Orders] | Legt fest, ob Bestellungen für das Unternehmen zulässig sind. Damit Bestellungen für Mitgliedskonten von Unternehmen funktionieren, muss der Unternehmensadministrator diese Funktion auch in der Storefront aktivieren. |

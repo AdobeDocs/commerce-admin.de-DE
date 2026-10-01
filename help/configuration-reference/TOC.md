@@ -5,13 +5,11 @@ breadcrumb-title: Konfigurationsreferenz
 role: Admin, Developer, User
 feature: Configuration
 nudge: true
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: f6c2f4b74fae59264faf75de3c025c596cab048f
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '184'
 ht-degree: 2%
-
 ---
-
 
 # Konfigurationshandbuch {#config}
 
@@ -78,11 +76,14 @@ ht-degree: 2%
 - [Vertriebskanäle](./sales-channels.md)
 - Dienste {#services}
   - [Web-API](./services/magento-web-api.md)
-  - [Commerce Services](./services/saas.md)
+  - [Commerce Services-Connector](./services/saas.md)
   - [OAuth](./services/oauth.md)
   - [E-Mail-Unterdrückung](./services/email-suppression.md)
+  - [ACO-Katalogansicht](./services/aco-catalog-view.md)
+  - [ACO-Katalogansicht - Synchronisieren](./services/aco-catalog-view-sync.md)
+  - [ACO-Schlüssel mit eingeschränktem Zugriff](./services/aco-restricted-access-keys.md)
 - Erweitert {#advanced}
   - [Administrator](./advanced/admin.md)
   - [System](./advanced/system.md)
   - [Entwickler](./advanced/developer.md)
-- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
+- [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
