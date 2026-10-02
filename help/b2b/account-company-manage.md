@@ -42,20 +42,21 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b32c28afffe75b3f684f0fef81bd61e9cdcb485a
+last-update: 2026-10-01
+source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
 workflow-type: tm+mt
 source-wordcount: '2804'
 ht-degree: 0%
 ---
 # Verwalten von Unternehmenskonten
 
-Auf der Seite _[!UICONTROL Companies]_&#x200B;werden alle aktuellen Unternehmenskonten unabhängig vom Status aufgelistet. Alle ausstehenden Genehmigungsanfragen werden oben in der Liste angezeigt.
+Auf der Seite _[!UICONTROL Companies]_werden alle aktuellen Unternehmenskonten unabhängig vom Status aufgelistet. Alle ausstehenden Genehmigungsanfragen werden oben in der Liste angezeigt.
 
 ![Firmen-Raster](./assets/companies-grid-view.png){width="700" zoomable="yes"}
 
 Verwenden Sie das *[!UICONTROL Columns]*-Steuerelement, um die im Raster angezeigten Spalten anzupassen. Passen Sie die in der Ansicht angezeigten Unternehmen mithilfe der Such- und Filterfunktionen an.
 
-- Suchen Sie mithilfe der _[!UICONTROL Search]_&#x200B;nach Unternehmen **Raster**&#x200B;Firmen. Die Suche indiziert die Spalten **Firmenname**&#x200B;und **Übergeordnet**.
+- Suchen Sie mithilfe der _[!UICONTROL Search]_nach Unternehmen **Raster**Firmen. Die Suche indiziert die Spalten **Firmenname**und **Übergeordnet**.
 
 - Passen Sie die Ansicht so an, dass Datensätze einbezogen werden, die bestimmte Kriterien erfüllen, indem Sie die [!UICONTROL Filter] verwenden. Wenn die B2B-Site beispielsweise so konfiguriert ist, dass sowohl einzelne Unternehmenskonten als auch [Unternehmenshierarchien](manage-companies.md) verwaltet werden, können Sie nach `[!UICONTROL Company Type - Company]` filtern, um nur einzelne Unternehmen anzuzeigen, oder nach `[!UICONTROL Company Type - Parent]`, um nur die übergeordnete Firma für jede Hierarchie anzuzeigen.
 
@@ -141,7 +142,7 @@ Gelöschte Unternehmenskonten können nicht wiederhergestellt werden. Der Status
 
 ### Unternehmenseinstellungen ändern
 
-Aktualisieren Sie die Konfiguration [Erweiterte &#x200B;](account-company-create.md#advanced-settings)), um dieselben Einstellungen auf mehrere im Raster *Unternehmen“ ausgewählte Unternehmen*.
+Aktualisieren Sie die Konfiguration [Erweiterte ](account-company-create.md#advanced-settings)), um dieselben Einstellungen auf mehrere im Raster *Unternehmen“ ausgewählte Unternehmen*.
 
 >[!NOTE]
 >
@@ -203,7 +204,7 @@ Methode 2: **Vollständige Bearbeitung**
 
 1. Suchen Sie im Raster nach dem Firmendatensatz, der bearbeitet werden soll.
 
-1. Wählen Sie **[!UICONTROL Edit]** aus der Spalte _[!UICONTROL Action]_&#x200B;aus.
+1. Wählen Sie **[!UICONTROL Edit]** aus der Spalte _[!UICONTROL Action]_aus.
 
 1. Nehmen Sie die erforderlichen Änderungen an den Unternehmensinformationen vor.
 
@@ -213,7 +214,7 @@ Methode 2: **Vollständige Bearbeitung**
 
 ## Zuweisen eines Vertriebsmitarbeiters
 
-Der Vertriebsmitarbeiter ist ein [Admin-Benutzer](../systems/permissions.md) der als Ansprechpartner für ein Firmenkonto zugewiesen ist und alle automatisierten E-[-Nachrichten &#x200B;](../b2b/enable-basic-features.md#configure-company-email-options) Unternehmen erhält. Pro Unternehmenskonto kann nur ein Vertriebsmitarbeiter zugewiesen werden, aber ein einziger Vertriebsmitarbeiter kann mehrere Unternehmenskonten verwalten. Das standardmäßige Admin-Benutzerkonto wird als Vertriebsmitarbeiter zugewiesen, es sei denn, es wurde ein anderer Admin-Benutzer zugewiesen.
+Der Vertriebsmitarbeiter ist ein [Admin-Benutzer](../systems/permissions.md) der als Ansprechpartner für ein Firmenkonto zugewiesen ist und alle automatisierten E-[-Nachrichten ](../b2b/enable-basic-features.md#configure-company-email-options) Unternehmen erhält. Pro Unternehmenskonto kann nur ein Vertriebsmitarbeiter zugewiesen werden, aber ein einziger Vertriebsmitarbeiter kann mehrere Unternehmenskonten verwalten. Das standardmäßige Admin-Benutzerkonto wird als Vertriebsmitarbeiter zugewiesen, es sei denn, es wurde ein anderer Admin-Benutzer zugewiesen.
 
 Der Name und die E-Mail-Adresse des zugeordneten Vertriebsmitarbeiters sind für die Mitglieder des Unternehmens auf der Seite mit dem Unternehmenskonto und den Angeboten sichtbar.
 
@@ -235,7 +236,7 @@ Das Unternehmensprofil kann vom Unternehmensadministrator in der Storefront und 
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 
-1. Suchen Sie das Unternehmen im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
+1. Suchen Sie das Unternehmen im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
 1. Aktualisieren Sie die Feldwerte in jedem Abschnitt nach Bedarf, indem Sie die Feldbeschreibungen als Referenz verwenden.
 
@@ -245,7 +246,7 @@ Das Unternehmensprofil kann vom Unternehmensadministrator in der Storefront und 
 
 In diesem Video erfahren Sie mehr über die Verwaltung von Unternehmenskonten:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411354?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344447?quality=12&learn=on)
 
 ## Unternehmensleitung
 
@@ -253,11 +254,11 @@ Nachdem eine Firma erstellt wurde, können Admin-Benutzer mit entsprechenden Ber
 
 Wenn eine Firma zu einer Hierarchie hinzugefügt wurde, zeigt das [!UICONTROL Company Hierarchy] die übergeordnete Firma und alle zugewiesenen Firmen im Raster an.
 
-Weitere Informationen finden [&#x200B; unter &#x200B;](manage-company-hierarchy.md) von Unternehmenshierarchien .
+Weitere Informationen finden [ unter ](manage-company-hierarchy.md) von Unternehmenshierarchien .
 
 ## Konfiguration der Katalogansicht verwalten
 
-Wenn die [!DNL Adobe Commerce Optimizer Connector for B2B]-Erweiterung installiert ist, werden im _[!UICONTROL Catalog Views]_&#x200B;Abschnitt eines Firmenkontos die [!DNL Adobe Commerce Optimizer] Katalogansichten aufgelistet, die aus dem freigegebenen Katalog projiziert werden, der dem Unternehmen zugewiesen wurde, und Sie können die eingeschränkten Zugriffsschlüssel verwalten, die sie schützen.
+Wenn die [!DNL Adobe Commerce Optimizer Connector for B2B]-Erweiterung installiert ist, werden im _[!UICONTROL Catalog Views]_Abschnitt eines Firmenkontos die [!DNL Adobe Commerce Optimizer] Katalogansichten aufgelistet, die aus dem freigegebenen Katalog projiziert werden, der dem Unternehmen zugewiesen wurde, und Sie können die eingeschränkten Zugriffsschlüssel verwalten, die sie schützen.
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL Companies]**.
 

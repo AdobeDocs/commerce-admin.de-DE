@@ -29,7 +29,8 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+last-update: 2026-10-01
+source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 0%
@@ -41,11 +42,11 @@ Verwenden Sie die Seite „Schlüssel für eingeschränkten Zugriff“, um Zugri
 
 >[!NOTE]
 >
->Bei manuell erstellten Schlüsseln, mit denen private Kataloge in Nicht-B2B-Szenarien verwaltet werden (z. B. Partnerportale), verwalten Sie Schlüssel von [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/de/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} aus.
+>Bei manuell erstellten Schlüsseln, mit denen private Kataloge in Nicht-B2B-Szenarien verwaltet werden (z. B. Partnerportale), verwalten Sie Schlüssel von [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} aus.
 
 ## Zielgruppe und Verfügbarkeit {#audience}
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce auf Cloud-Infrastruktur- und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce auf Cloud-Infrastruktur- und lokale Projekte."}
 
 Die [!UICONTROL Restricted Access Keys]-Seite ist für Adobe Commerce in der Cloud-Infrastruktur und für Händler vor Ort verfügbar, die B2B-freigegebene Kataloge mit dem -[!DNL Adobe Commerce Optimizer Connector for B2B] verwenden. Der Connector installiert und aktiviert die Seite automatisch.
 
@@ -120,4 +121,4 @@ Um den Standardablaufzeitraum für neu erstellte Schlüssel zu ändern, gehen Si
 > - [Services > ACO-Schlüssel mit eingeschränktem Zugriff](../configuration-reference/services/aco-restricted-access-keys.md) — Konfigurieren des Standardablaufzeitraums für Schlüssel
 > - [Services > ACO-Katalogansicht](../configuration-reference/services/aco-catalog-view.md) — Konfigurieren der Lebensdauer des Zugriffs-Tokens für die Storefront und Aktivieren oder Deaktivieren der Ausgabe
 > - [Verwalten von eingeschränkten Zugriffsschlüsseln](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} im *Adobe Commerce Optimizer Connector-Handbuch* — Erfahren Sie, wie diese Schlüssel in die Synchronisierung des B2B-freigegebenen Katalogs passen
-> - [Eingeschränkte Zugriffsschlüssel](https://experienceleague.adobe.com/de/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} im *Adobe Commerce Optimizer-Handbuch* - Der manuelle, ACO Studio-basierte Schlüsselfluss für Nicht-B2B-Anwendungsfälle
+> - [Eingeschränkte Zugriffsschlüssel](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} im *Adobe Commerce Optimizer-Handbuch* - Der manuelle, ACO Studio-basierte Schlüsselfluss für Nicht-B2B-Anwendungsfälle
