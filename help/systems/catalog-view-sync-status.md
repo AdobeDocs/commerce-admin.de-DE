@@ -190,6 +190,6 @@ Zeilen auf dieser Registerkarte werden nach 90 Tagen automatisch gelöscht.
 > - [Synchronisierungsstatus des Daten-Feeds](data-feed-sync-status.md)
 > - [Services > ACO Catalog View Sync](../configuration-reference/services/aco-catalog-view-sync.md) — Konfigurieren der Übergangsperioden für das Löschen und die Erstellung sowie des Drift-Abstimmers
 > - [Verwaltung von eingeschränkten Zugriffsschlüsseln](restricted-access-keys.md) - Verwalten Sie die Schlüssel, deren Gültigkeit auf dieser Seite angezeigt wird
-> - [Überwachen der Synchronisierung der Katalogansicht für freigegebene B2B](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)Kataloge im *Adobe Commerce Optimizer Connector-Handbuch*
+> - [Überwachen der Synchronisierung der Katalogansicht für freigegebene B2B](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)Kataloge im *Adobe Commerce Optimizer Connector-Handbuch*
 > - [Private Katalogansichten](https://experienceleague.adobe.com/de/docs/commerce/optimizer/setup/private-catalog-view)
 > - [Schlüssel mit eingeschränktem Zugriff](https://experienceleague.adobe.com/de/docs/commerce/optimizer/setup/restricted-access-keys)
