@@ -68,7 +68,7 @@ Da Produktnamen und lange Beschreibungen in Commerce live sind, kann die einmali
 Die folgenden Voraussetzungen gelten, wenn Sie Zugriff auf die Kataloganreicherung haben.
 
 - Ihre Storefront kann durch LLM-orientierte und agentische Bots crawlen werden, bei denen eine crawlen Abdeckung für katalogorientierte Vorschläge erforderlich ist.
-- Die erforderlichen Commerce-Services und die Katalogkonnektivität sind aktiviert und funktionieren ordnungsgemäß. Weitere Informationen [ Sie unter ](#enable-catalog-enrichment) der Kataloganreicherung aktivieren .
+- Die erforderlichen Commerce-Services und die Katalogkonnektivität sind aktiviert und funktionieren ordnungsgemäß. Weitere Informationen [&#x200B; Sie unter &#x200B;](#enable-catalog-enrichment) der Kataloganreicherung aktivieren .
 - [IMS ist konfiguriert](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations).
 - Sie haben Zugriff auf die [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Ihre Organisation hat den GenAI-Fahrer für die zugrunde liegenden KI-Services unterzeichnet oder sich ausdrücklich dagegen entschieden.
@@ -90,7 +90,7 @@ Arbeiten Sie mit Ihrem Commerce-Administrator oder Implementierungspartner zusam
    composer update magento/module-catalog-enrichment
    ```
 
-1. Wenn Sie noch keine Katalog-Services installiert haben, [ Sie (](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)).
+1. Wenn Sie noch keine Katalog-Services installiert haben, [&#x200B; Sie (](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)).
 
    **[!UICONTROL Catalog enrichment]** ist jetzt in Ihrer Commerce-Instanz verfügbar.
 
