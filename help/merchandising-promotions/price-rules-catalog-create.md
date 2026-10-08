@@ -6,27 +6,36 @@ feature: Merchandising, Price Rules, Catalog Management
 TQID: https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: 6d1de809dfbdccea260fb7d5f8963a5c20cde15c
 workflow-type: tm+mt
-source-wordcount: 1730
+source-wordcount: '1807'
 ht-degree: 0%
-
 ---
-
 # Erstellen einer Katalogpreisregel
 
 Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden, wenn eine Reihe von Bedingungen erfüllt ist. Die Preisregel für den Katalog tritt in Kraft, bevor das Produkt in den Warenkorb gelegt wird.
@@ -37,7 +46,7 @@ Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New Rule]**.
 
-   Der Abschnitt _[!UICONTROL Rule Information]_&#x200B;enthält erweiterbare Abschnitte für **[!UICONTROL Conditions]**&#x200B;und **[!UICONTROL Actions]**.
+   Der Abschnitt _[!UICONTROL Rule Information]_enthält erweiterbare Abschnitte für **[!UICONTROL Conditions]**und **[!UICONTROL Actions]**.
 
    ![Katalogpreisregel - Informationen](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -58,13 +67,17 @@ Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden
    - Die zur Auswahl verfügbaren Optionen hängen von den Kundengruppen ab, die in _Kunden_ > _Kundengruppen_ erstellt und verwaltet werden.
    - Zur Auswahl mehrerer Gruppen halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Optionen.
 
-1. ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Geben Sie **[!UICONTROL From]** und **[!UICONTROL To]** ein, um zu bestimmen, wann die Preisregel in Kraft ist.
+1. Zeitplan für die Preisregel festlegen:
 
-   Sie können die Daten eingeben oder die **[!UICONTROL Calendar]** (![Kalendersymbol) &#x200B;](../assets/icon-calendar.png), um die Daten auszuwählen. Wenn Sie die Datumsangaben leer lassen, wird die Regel beim Speichern der Preisregel aktiviert.
+   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Geben Sie **[!UICONTROL From]** und **[!UICONTROL To]** ein, um zu bestimmen, wann die Preisregel in Kraft ist.
+
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur [!DNL Adobe Commerce as a Cloud Service]) Geben Sie die **[!UICONTROL From]** und **[!UICONTROL To]** Daten und Zeiten ein, um zu bestimmen, wann die Preisregel beginnt und endet.
+
+   Sie können die Werte eingeben oder die **[!UICONTROL Calendar]** (![Kalendersymbol) ](../assets/icon-calendar.png), um sie auszuwählen.
 
    >[!NOTE]
    >
-   >Die Felder `From` und `To` wurden aus der Seite Konfiguration der Katalogpreisregel in Adobe Commerce entfernt und können nicht direkt in der Katalogpreisregel geändert werden. Sie müssen ein geplantes Update erstellen, um den Zeitplan für die Aktivierung der Preisregel festzulegen.
+   >Bei Adobe Commerce in Cloud- und On-Premise-Projekten sind die Felder `From` und `To` auf der Seite Katalogpreisregel-Konfiguration nicht verfügbar. Sie müssen ein [Geplantes Update“ erstellen](#step-5-schedule-the-rule) um den Zeitplan für die Aktivierung der Preisregel festzulegen.
 
 1. Geben Sie eine Zahl ein, um die **[!UICONTROL Priority]** dieser Regel im Verhältnis zu anderen Regeln festzulegen.
 
@@ -224,19 +237,21 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
 1. Aktualisieren von Eigenschaften für eine Regel:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die _[!UICONTROL Rule Information]_&#x200B;anzuzeigen.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die _[!UICONTROL Rule Information]_anzuzeigen.
 
-   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die _[!UICONTROL Rule Information]_&#x200B;anzuzeigen.
+   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die _[!UICONTROL Rule Information]_anzuzeigen.
 
 1. Testen Sie die Regel, um sicherzustellen, dass sie korrekt funktioniert.
 
    Preisregeln werden jede Nacht automatisch mit anderen Systemregeln verarbeitet. Wenn Sie eine Preisregel erstellen, lassen Sie ausreichend Zeit, damit sie in das System aufgenommen wird, bevor Sie die Regel testen, um ihre ordnungsgemäße Funktionsweise sicherzustellen. Mit der Einführung neuer Regeln berechnet Commerce die Preise und Prioritäten entsprechend neu.
 
+   In [!DNL Adobe Commerce as a Cloud Service] sucht Commerce jede Minute nach aktiven Regeln, die ihre Start- oder Endzeit erreicht haben, und aktualisiert die Preise der betroffenen Produkte.
+
 ## Demo zur Katalogpreisregel
 
 In diesem Video erfahren Sie mehr über das Erstellen von Katalogpreisregeln:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411361?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Feldbeschreibungen
 
@@ -250,8 +265,8 @@ In diesem Video erfahren Sie mehr über das Erstellen von Katalogpreisregeln:
 | [!UICONTROL Customer Groups] | (Erforderlich) Identifiziert die Kundengruppen, für die die Regel gilt. |
 | [!UICONTROL Priority] | Eine Zahl, die die Priorität dieser Regel im Verhältnis zu anderen angibt. Die Prioritäten von der höchsten zur niedrigsten sind `0,1,2,3...` |
 | [!UICONTROL Status] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Bestimmt, ob die Regel im Store aktiv ist. Optionen: `Yes` / `No` |
-| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Gibt den ersten Tag an, an dem die Preisregel in Kraft ist. Wenn Sie das Feld leer lassen, wird die Preisregel beim Speichern wirksam. |
-| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Gibt den letzten Tag an, an dem die Preisregel in Kraft ist. Wenn dies leer gelassen wird, wird die Preisregel auf unbestimmte Zeit fortgesetzt. |
+| [!UICONTROL From] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Gibt den ersten Tag an, an dem die Preisregel in Kraft ist. Wenn Sie das Feld leer lassen, wird die Preisregel beim Speichern wirksam.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) (nur [!DNL Adobe Commerce as a Cloud Service]) Gibt das Datum und die Uhrzeit an, zu der die Preisregel in Kraft tritt. Wenn Sie das Feld leer lassen, wird die Preisregel beim Speichern wirksam. |
+| [!UICONTROL To] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Gibt den letzten Tag an, an dem die Preisregel in Kraft ist. Wenn dies leer gelassen wird, wird die Preisregel auf unbestimmte Zeit fortgesetzt.<br><br>![Adobe Commerce](../assets/adobe-logo.svg) (nur [!DNL Adobe Commerce as a Cloud Service]) Gibt das Datum und die Uhrzeit an, zu der die Preisregel endet. Wenn dies leer gelassen wird, wird die Preisregel auf unbestimmte Zeit fortgesetzt. |
 
 {style="table-layout:auto"}
 
