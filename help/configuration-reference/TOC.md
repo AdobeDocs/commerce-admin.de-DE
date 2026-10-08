@@ -5,9 +5,9 @@ breadcrumb-title: Konfigurationsreferenz
 role: Admin, Developer, User
 feature: Configuration
 nudge: true
-source-git-commit: f6c2f4b74fae59264faf75de3c025c596cab048f
+source-git-commit: 64df962f11de1b79e72dc31d7bc3cc0cc4b832f0
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '186'
 ht-degree: 2%
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 2%
   - [Speichern von E-Mail-Adressen](./general/store-email-addresses.md)
   - [Kontakte](./general/contacts.md)
   - [Berichte](./general/reports.md)
+  - [Bulk-API](./general/bulk-api.md)
   - [Content-Management](./general/content-management.md)
   - [Erweiterte Berichterstellung](./general/advanced-reporting.md)
 - Katalog {#catalog}
