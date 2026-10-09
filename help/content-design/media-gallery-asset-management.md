@@ -3,15 +3,31 @@ title: Asset-Management für Mediensammlung
 description: Erfahren Sie, wie Sie hochgeladene Mediendateien und Assets verwalten, die Sie über eine Adobe Stock-Integration erhalten.
 exl-id: 4fc489ae-b1e5-4aa4-832d-cd88c58d103a
 feature: Page Content, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-last-update: 2026-03-27T00:00:00Z
-source-git-commit: f2afd9e3516ea92d18bfbb85047e2583534af235
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+last-update: 2026-03-27
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
-
 ---
-
 # Asset-Management für Mediensammlung
 
 Die neue [Mediensammlung](media-gallery.md) bietet Tools zum Verwalten hochgeladener Mediendateien und Assets, die Sie über eine [Adobe Stock-Integration](adobe-stock.md) erwerben. Wenn Sie eine Adobe Stock [Bildvorschau) gespeichert haben](adobe-stock-save-preview.md) können Sie das Bild auch [lizenzieren](adobe-stock-license-image.md) in der neuen Mediensammlung speichern.
@@ -71,7 +87,7 @@ Assets kann nur in `pub/media/wysywig`, `pub/media/catalog/category` oder andere
 
 ## Verwenden von Assets
 
-Assets kann im gesamten Admin-Bereich umfassend verwendet werden, z. B[&#x200B; (Hinzufügen oder Bearbeiten einer Seite](page-add.md), [Erstellen oder Bearbeiten einer Kategorie](../catalog/category-create.md) oder [Einfügen von Bildern aus dem Inhaltseditor](editor-insert-image.md).
+Assets kann im gesamten Admin-Bereich umfassend verwendet werden, z. B[ (Hinzufügen oder Bearbeiten einer Seite](page-add.md), [Erstellen oder Bearbeiten einer Kategorie](../catalog/category-create.md) oder [Einfügen von Bildern aus dem Inhaltseditor](editor-insert-image.md).
 
 1. Greifen Sie in einem Bereich auf die neue Mediensammlung zu, in dem Sie Medien-Assets verwenden können.
 
@@ -107,7 +123,7 @@ Assets kann im gesamten Admin-Bereich umfassend verwendet werden, z. B[&#x200B; 
 
 >[!NOTE]
 >
->Die Funktion _Verwendet in_ erfordert, dass [!UICONTROL Media Gallery Image Optimization] in den [Konfigurationseinstellungen“ aktiviert &#x200B;](media-gallery-image-optimization.md).
+>Die Funktion _Verwendet in_ erfordert, dass [!UICONTROL Media Gallery Image Optimization] in den [Konfigurationseinstellungen“ aktiviert ](media-gallery-image-optimization.md).
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Media]_>**[!UICONTROL Media Gallery]**.
 

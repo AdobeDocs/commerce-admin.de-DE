@@ -3,7 +3,8 @@ title: Verwalten freigegebener Kataloge
 description: Erfahren Sie mehr über die Informationen und Tools, die auf der Seite Freigegebene Kataloge verfügbar sind.
 exl-id: a01ac292-240d-42e7-b4c9-2982f293c521
 feature: B2B, Companies, Catalog Management
-TQID: https://experienceleague.adobe.com/q2dtQ-y3ByGhtMNp68-3lN-PqZJ-1mRX4BMCu0lfB54
+last-update: 2026-10-01
+TQID: 'https://experienceleague.adobe.com/q2dtQ-y3ByGhtMNp68-3lN-PqZJ-1mRX4BMCu0lfB54'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -18,6 +19,8 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
     internal-label: B2B
@@ -36,21 +39,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-last-update: 2026-10-01
-source-git-commit: 82862dcdd7667b46cfe7bd08863926ae5bafd24b
+source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 0%
 ---
 # Verwalten freigegebener Kataloge
 
-Die _[!UICONTROL Shared Catalogs]_&#x200B;bietet Zugriff auf die Tools, die zur Verwaltung Ihrer freigegebenen Kataloge erforderlich sind, einschließlich Produktauswahl, benutzerdefinierter Preise, Kategorieberechtigungen und Katalogdetails. Die Seite ähnelt dem standardmäßigen Admin Workspace mit Filtern und Aktionssteuerelementen. Im Raster werden alle freigegebenen Kataloge aufgelistet, einschließlich des standardmäßigen öffentlichen freigegebenen Katalogs und aller benutzerdefinierten Kataloge, die Sie eingerichtet haben.
+Die _[!UICONTROL Shared Catalogs]_bietet Zugriff auf die Tools, die zur Verwaltung Ihrer freigegebenen Kataloge erforderlich sind, einschließlich Produktauswahl, benutzerdefinierter Preise, Kategorieberechtigungen und Katalogdetails. Die Seite ähnelt dem standardmäßigen Admin Workspace mit Filtern und Aktionssteuerelementen. Im Raster werden alle freigegebenen Kataloge aufgelistet, einschließlich des standardmäßigen öffentlichen freigegebenen Katalogs und aller benutzerdefinierten Kataloge, die Sie eingerichtet haben.
 
 Wenn die [!DNL Adobe Commerce Optimizer Connector for B2B]-Erweiterung installiert ist, bietet die Seite auch Zugriff auf die [!DNL Adobe Commerce Optimizer] Katalogansichten, die erstellt werden, wenn der Connector Daten aus jedem freigegebenen Katalog mit [!DNL Adobe Commerce Optimizer] synchronisiert, und auf die eingeschränkten Zugriffsschlüssel, die die Katalogansichten für B2B-Storefront-Erlebnisse sichern.
 
 ## Aktualisieren der Produktauswahl
 
-Die Auswahl von Produkten in einem freigegebenen Katalog kann einfach über die Spalte _[!UICONTROL Action]_&#x200B;des Rasters Freigegebene Kataloge aktualisiert werden. Die von Ihnen vorgenommenen Änderungen sind für Mitglieder aller zugehörigen Unternehmenskonten sichtbar. Der Prozess ist der gleiche wie die Auswahl von Produkten für eine neue [Katalogstruktur](catalog-shared-pricing-structure.md) mit der Ausnahme, dass der Umfang der Konfiguration nicht geändert werden kann.
+Die Auswahl von Produkten in einem freigegebenen Katalog kann einfach über die Spalte _[!UICONTROL Action]_des Rasters Freigegebene Kataloge aktualisiert werden. Die von Ihnen vorgenommenen Änderungen sind für Mitglieder aller zugehörigen Unternehmenskonten sichtbar. Der Prozess ist der gleiche wie die Auswahl von Produkten für eine neue [Katalogstruktur](catalog-shared-pricing-structure.md) mit der Ausnahme, dass der Umfang der Konfiguration nicht geändert werden kann.
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
@@ -62,7 +64,7 @@ Die Auswahl von Produkten in einem freigegebenen Katalog kann einfach über die 
 
    Sie können das erste Element überspringen, da der Umfang eines freigegebenen Katalogs nach dem ersten Speichern nicht mehr geändert werden kann.
 
-Wenn Sie mit einem bestimmten Produkt arbeiten, werden im Abschnitt _[!UICONTROL Products In Shared Catalog]_&#x200B;alle freigegebenen Kataloge aufgelistet, in denen das Produkt verfügbar ist. Weitere Informationen finden Sie unter [Hinzufügen von Produkten zu einem freigegebenen Katalog](catalog-shared-product-add.md).
+Wenn Sie mit einem bestimmten Produkt arbeiten, werden im Abschnitt _[!UICONTROL Products In Shared Catalog]_alle freigegebenen Kataloge aufgelistet, in denen das Produkt verfügbar ist. Weitere Informationen finden Sie unter [Hinzufügen von Produkten zu einem freigegebenen Katalog](catalog-shared-product-add.md).
 
 ![Produkt in freigegebenen Katalogen](./assets/shared-catalog-assigned.png){width="600" zoomable="yes"}
 
@@ -74,7 +76,7 @@ Die benutzerdefinierten Preise von Produkten in einem freigegebenen Katalog kön
 
 1. Wechseln Sie für den freigegebenen Katalog im Raster, den Sie aktualisieren möchten, zur Spalte **[!UICONTROL Action]** und wählen Sie **[!UICONTROL Set Pricing and Structure]** aus.
 
-1. Klicken Sie auf der Seite _[!UICONTROL Catalog Structure]_&#x200B;auf **[!UICONTROL Configure]**&#x200B;und führen Sie einen der folgenden Schritte aus:
+1. Klicken Sie auf der Seite _[!UICONTROL Catalog Structure]_auf **[!UICONTROL Configure]**und führen Sie einen der folgenden Schritte aus:
 
    - Klicken Sie in der Fortschrittsanzeige oben auf der Seite auf **[!UICONTROL Pricing]**.
    - Klicken Sie oben rechts auf **[!UICONTROL Next]**.
@@ -87,7 +89,7 @@ Die benutzerdefinierten Preise von Produkten in einem freigegebenen Katalog kön
 
 >[!NOTE]
 >
->**[B2B-Version 1.3](release-notes.md#b2b-v130)0 und höher** - Wenn Sie einen freigegebenen Katalog erstellen, wird jede [Kategorieberechtigung](../catalog/category-permissions.md) für _[!UICONTROL Display Product Prices]_&#x200B;und&#x200B;_[!UICONTROL Add to Cart]_ für zugewiesene Kundengruppen auf `Allow` festgelegt. Zuvor wurden diese Einstellungen automatisch auf `Deny` gesetzt, auch wenn die Katalogberechtigungen auf `Allow` gesetzt waren.
+>**[B2B-Version 1.3](release-notes.md#b2b-v130)0 und höher** - Wenn Sie einen freigegebenen Katalog erstellen, wird jede [Kategorieberechtigung](../catalog/category-permissions.md) für _[!UICONTROL Display Product Prices]_und_[!UICONTROL Add to Cart]_ für zugewiesene Kundengruppen auf `Allow` festgelegt. Zuvor wurden diese Einstellungen automatisch auf `Deny` gesetzt, auch wenn die Katalogberechtigungen auf `Allow` gesetzt waren.
 
 >[!IMPORTANT]
 >
@@ -137,13 +139,13 @@ Die Detailinformationen eines freigegebenen Katalogs können einfach über die S
 
 ## Konfiguration der Katalogansicht verwalten
 
-Wenn die [!DNL Adobe Commerce Optimizer Connector for B2B]-Erweiterung installiert ist, werden im _[!UICONTROL Catalog Views]_&#x200B;Abschnitt eines freigegebenen Katalogs die [!DNL Adobe Commerce Optimizer] Katalogansichten aufgelistet, die aus dem freigegebenen Katalog projiziert werden, und Sie können die eingeschränkten Zugriffsschlüssel verwalten, die sie schützen.
+Wenn die [!DNL Adobe Commerce Optimizer Connector for B2B]-Erweiterung installiert ist, werden im _[!UICONTROL Catalog Views]_Abschnitt eines freigegebenen Katalogs die [!DNL Adobe Commerce Optimizer] Katalogansichten aufgelistet, die aus dem freigegebenen Katalog projiziert werden, und Sie können die eingeschränkten Zugriffsschlüssel verwalten, die sie schützen.
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Shared Catalogs]**.
 
 1. Gehen Sie für den freigegebenen Katalog, den Sie überprüfen möchten, zur Spalte **[!UICONTROL Action]** und klicken Sie auf **[!UICONTROL General Settings]**.
 
-1. Wählen Sie im _[!UICONTROL Shared Catalog Information]_&#x200B;Bedienfeld **[!UICONTROL Catalog Views]**&#x200B;aus.
+1. Wählen Sie im _[!UICONTROL Shared Catalog Information]_Bedienfeld **[!UICONTROL Catalog Views]**aus.
 
 Weitere Informationen zu Katalogansichten und zum Bearbeiten von eingeschränkten Zugriffsschlüsseln finden Sie unter [Konfiguration der Katalogansicht verwalten](catalog-views-manage.md).
 
