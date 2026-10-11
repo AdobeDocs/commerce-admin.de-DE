@@ -4,13 +4,29 @@ description: Erfahren Sie, wie Sie mit der Medienspeicherung Commerce-Mediendate
 exl-id: 5cf1bb20-d747-4a12-8558-e167c229efe8
 feature: Page Content, Media
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '488'
 ht-degree: 0%
-
 ---
-
 # Medienspeicher
 
 Mit der Medienspeicherung können Sie Mediendateien, die auf dem Server gespeichert sind, organisieren und auf sie zugreifen. Der Pfad zum Speicherort der Dateien wird durch die Konfiguration [Basis-URL](../stores-purchase/store-urls.md) bestimmt. Auf Dateien im Medienspeicher kann vom Editor aus zugegriffen werden, während an Seiten und statischen Blöcken gearbeitet wird. Normalerweise befindet sich der Medienspeicher im Dateisystem auf demselben Server wie die [!DNL Commerce] Programmdateien.
