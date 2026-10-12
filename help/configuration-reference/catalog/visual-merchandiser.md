@@ -42,7 +42,7 @@ ht-degree: 7%
 
 ![Allgemeine Optionen](./assets/catalog-visual-merchandiser-general-options.png)<!-- zoom -->
 
-<!-- [General Options](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
+<!-- [General Options](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/merchandising/visual-merch/smart-attributes-configure) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

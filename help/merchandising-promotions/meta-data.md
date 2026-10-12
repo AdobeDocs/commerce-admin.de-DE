@@ -3,7 +3,7 @@ title: Meta-Daten
 description: Erfahren Sie, wie Sie schlüsselwortreiche Metadaten eingeben können, um die Art und Weise zu verbessern, wie Suchmaschinen Ihre Commerce-Site indizieren.
 exl-id: 2acc1523-9da6-4e6f-8e4f-607603a61559
 feature: Merchandising, Search
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: 'https://experienceleague.adobe.com/hl0i6mlFJY5r5bIWNG6gQMGlWQMmaWOWBnt8pCpKT50'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Informationen zu Adobe Commerce as a Cloud Service finden Sie unter [Metadatenrichtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/) in der Dokumentation zu Commerce Storefront
+>Informationen zu Adobe Commerce as a Cloud Service finden Sie unter [Metadatenrichtlinien](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/metadata/?lang=de) in der Dokumentation zu Commerce Storefront
 
 Ihr Store enthält Orte, an denen Sie schlüsselwortreiche Metadaten eingeben können, um die Art und Weise zu verbessern, wie Suchmaschinen Ihre Site indizieren. Beim Einrichten Ihres Stores geben Sie möglicherweise vorläufige Metadaten ein, die Sie später abschließen möchten. Im Laufe der Zeit können Sie die Metadaten entsprechend den Kaufmustern und -präferenzen Ihrer Kunden anpassen.
 
