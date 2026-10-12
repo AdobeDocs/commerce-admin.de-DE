@@ -3,7 +3,7 @@ title: Erstellen einer Katalogpreisregel
 description: Erfahren Sie, wie Sie eine Katalogpreisregel erstellen, die einen Rabatt auf bestimmte Produkte anwendet, wenn eine Reihe von Bedingungen erfüllt ist.
 exl-id: 53c5745b-f1c4-4ee8-b995-d2c70f639c7d
 feature: Merchandising, Price Rules, Catalog Management
-TQID: https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4
+TQID: 'https://experienceleague.adobe.com/rX7YtAYqk0z8140ueglCAzHQUeC2Y-lwRywB5uDdNG4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -14,6 +14,10 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -31,7 +35,7 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d1de809dfbdccea260fb7d5f8963a5c20cde15c
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 0%
@@ -46,7 +50,7 @@ Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New Rule]**.
 
-   Der Abschnitt _[!UICONTROL Rule Information]_&#x200B;enthält erweiterbare Abschnitte für **[!UICONTROL Conditions]**&#x200B;und **[!UICONTROL Actions]**.
+   Der Abschnitt _[!UICONTROL Rule Information]_enthält erweiterbare Abschnitte für **[!UICONTROL Conditions]**und **[!UICONTROL Actions]**.
 
    ![Katalogpreisregel - Informationen](./assets/price-rule-catalog-new-ee.png){width="700" zoomable="yes"}
 
@@ -73,7 +77,7 @@ Folgen Sie diesen Anweisungen, um einen Rabatt auf bestimmte Produkte anzuwenden
 
    - ![Adobe Commerce](../assets/adobe-logo.svg) (nur [!DNL Adobe Commerce as a Cloud Service]) Geben Sie die **[!UICONTROL From]** und **[!UICONTROL To]** Daten und Zeiten ein, um zu bestimmen, wann die Preisregel beginnt und endet.
 
-   Sie können die Werte eingeben oder die **[!UICONTROL Calendar]** (![Kalendersymbol) &#x200B;](../assets/icon-calendar.png), um sie auszuwählen.
+   Sie können die Werte eingeben oder die **[!UICONTROL Calendar]** (![Kalendersymbol) ](../assets/icon-calendar.png), um sie auszuwählen.
 
    >[!NOTE]
    >
@@ -237,9 +241,9 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
 1. Aktualisieren von Eigenschaften für eine Regel:
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die _[!UICONTROL Rule Information]_&#x200B;anzuzeigen.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]** , um die _[!UICONTROL Rule Information]_anzuzeigen.
 
-   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die _[!UICONTROL Rule Information]_&#x200B;anzuzeigen.
+   - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Klicken Sie auf die Regel in der Liste, um die _[!UICONTROL Rule Information]_anzuzeigen.
 
 1. Testen Sie die Regel, um sicherzustellen, dass sie korrekt funktioniert.
 
@@ -251,7 +255,7 @@ Die meisten verfügbaren Bedingungen basieren auf vorhandenen Attributwerten. Um
 
 In diesem Video erfahren Sie mehr über das Erstellen von Katalogpreisregeln:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411361?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343834?quality=12&learn=on)
 
 ## Feldbeschreibungen
 

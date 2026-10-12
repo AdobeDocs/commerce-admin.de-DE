@@ -3,27 +3,35 @@ title: Attributsätze
 description: Erfahren Sie, wie Sie Attribute in Gruppen organisieren können, die bestimmen, wo sie im Produktdatensatz angezeigt werden.
 exl-id: de0c5fa2-158c-44ff-b84d-e4904ed8aa7d
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/MXe9ockAmhKgFC-ND2CUxqHRAsShfA5Tf8yJsJWy04o
+TQID: 'https://experienceleague.adobe.com/MXe9ockAmhKgFC-ND2CUxqHRAsShfA5Tf8yJsJWy04o'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '393'
 ht-degree: 0%
-
 ---
-
 # Attributsätze
 
 Einer der ersten Schritte beim Erstellen eines Produkts besteht darin, den Attributsatz auszuwählen, der als Vorlage für den Produktdatensatz verwendet wird. Der Attributsatz bestimmt die Felder, die bei der Dateneingabe verfügbar sind, und die Werte, die dem Kunden angezeigt werden.
@@ -56,7 +64,7 @@ Die Attribute sind in Gruppen unterteilt, die bestimmen, wo sie im Produktdatens
 
    >[!NOTE]
    >
-   >Systemattribute sind mit einem Punkt gekennzeichnet und können nicht aus der _[!UICONTROL Groups]_&#x200B;entfernt werden. Sie können jedoch in eine andere Gruppe im Attributsatz gezogen werden.
+   >Systemattribute sind mit einem Punkt gekennzeichnet und können nicht aus der _[!UICONTROL Groups]_entfernt werden. Sie können jedoch in eine andere Gruppe im Attributsatz gezogen werden.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
@@ -64,7 +72,7 @@ Die Attribute sind in Gruppen unterteilt, die bestimmen, wo sie im Produktdatens
 
 ## Erstellen einer Attributgruppe
 
-1. Klicken Sie in der Spalte _[!UICONTROL Groups]_&#x200B;des Attributsatzes auf **[!UICONTROL Add New]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Groups]_des Attributsatzes auf **[!UICONTROL Add New]**.
 
 1. Geben Sie einen **[!UICONTROL Name]** für die neue Gruppe ein und klicken Sie auf **[!UICONTROL OK]**.
 

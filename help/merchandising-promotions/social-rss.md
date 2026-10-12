@@ -3,29 +3,41 @@ title: Social Media und RSS-Feeds
 description: Erfahren Sie, wie Sie Social Media- und andere RSS-Feed-Integrationen hinzufügen, um die Markenwahrnehmung und das Produktbewusstsein zu steigern.
 exl-id: e4a48870-f53e-4848-8faa-8f2aedaf53b7
 feature: Merchandising, Communications
-TQID: https://experienceleague.adobe.com/jO5CAIJOQ7caLuno4OP4vnhJhIMZahlxL7waFwDyHzY
+TQID: 'https://experienceleague.adobe.com/jO5CAIJOQ7caLuno4OP4vnhJhIMZahlxL7waFwDyHzY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: '1175'
 ht-degree: 0%
-
 ---
-
 # Social Media und RSS-Feeds
 
 Viele Händler nutzen soziale Medien und andere digitale Tools, um Markenbewusstsein und Produktbewusstsein aufzubauen. Sie können Ihren Store in Ihre sozialen Netzwerke integrieren, indem Sie eine Marketplace-Erweiterung installieren oder ein Plug-in zu Ihren Inhaltsseiten hinzufügen. Verwenden Sie RSS-Feeds, um Ihre Produktinformationen auf Shopping-Aggregations-Websites zu veröffentlichen und sogar in Ihre Newsletter einzuschließen. Kunden können Ihre RSS-Feeds abonnieren, um mehr über neue Produkte und Werbeaktionen zu erfahren.
@@ -38,7 +50,7 @@ Social-Networking-Websites verfügen über eine Vielzahl von Plug-ins, die einfa
 
 >[!NOTE]
 >
->Adobe Commerce hat die native _Magento Social/Facebook_ Integration entfernt und unterstützt die Erweiterung nicht mehr. Wechseln Sie zur [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target="_blank"}, um alternative Erweiterungen für die Facebook-Integration zu finden.
+>Adobe Commerce hat die native Facebook-Integration _Magento Social_ entfernt und unterstützt die Erweiterung nicht mehr. Wechseln Sie zur [Commerce Marketplace](https://marketplace.magento.com/catalogsearch/result/?q=Facebook){:target="_blank"}, um alternative Erweiterungen für die Facebook-Integration zu finden.
 
 ### Schritt 1. Button-Code abrufen
 
@@ -111,7 +123,7 @@ Social-Networking-Websites verfügen über eine Vielzahl von Plug-ins, die einfa
 
    - Geben Sie eine Zahl in das **[!UICONTROL Sort Order]** ein, um die Reihenfolge des Blocks zu bestimmen, wenn er so zugewiesen ist, dass er an derselben Stelle auf der Seite wie andere Inhaltselemente angezeigt wird. Die obere Position ist null.
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_&#x200B;auf **[!UICONTROL Add Layout Update]**&#x200B;und legen Sie **[!UICONTROL Display On]**&#x200B;auf die Kategorie, das Produkt oder die Seite fest, in der bzw. der der Block angezeigt werden soll.
+1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_auf **[!UICONTROL Add Layout Update]**und legen Sie **[!UICONTROL Display On]**auf die Kategorie, das Produkt oder die Seite fest, in der bzw. der der Block angezeigt werden soll.
 
    Wenn Sie beispielsweise `All Pages` auswählen und den Block in der Kopf- oder Fußzeile platzieren, wird der Block an derselben Stelle auf jeder Seite des Stores angezeigt.
 
@@ -133,7 +145,7 @@ Social-Networking-Websites verfügen über eine Vielzahl von Plug-ins, die einfa
 
 1. Befolgen Sie bei Aufforderung die Anweisungen oben im Arbeitsbereich, um den Index und den Seiten-Cache zu aktualisieren.
 
-   Das Widget wird jetzt in der _[!UICONTROL Widgets]_&#x200B;angezeigt.
+   Das Widget wird jetzt in der _[!UICONTROL Widgets]_angezeigt.
 
 ### Schritt 4. Überprüfen des Speicherorts im Store
 

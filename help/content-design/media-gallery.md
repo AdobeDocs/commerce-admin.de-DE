@@ -1,29 +1,38 @@
 ---
-title: Die  [!DNL Media Gallery]
+title: Die [!DNL Media Gallery]
 description: Verwenden Sie die Mediensammlung, um Ihre Mediendateien auf dem Server zu organisieren und zu verwalten.
 exl-id: bf730e46-70f3-405c-88cf-62d0a3e8634f
 feature: Page Content, Media
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-TQID: https://experienceleague.adobe.com/PL80USg-GVh-vlWwoYCuWRzJdO-FzHDFmFSDjxhavo8
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: 'https://experienceleague.adobe.com/PL80USg-GVh-vlWwoYCuWRzJdO-FzHDFmFSDjxhavo8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 # Die [!DNL Media Gallery]
 
 Mit Adobe Commerce oder Magento Open Source 2.4 können Händler den neuen _erweiterten_-[!DNL Media Gallery] verwenden, um ihre Mediendateien auf dem Server zu organisieren und zu verwalten. Dieser neue [!DNL Media Gallery] enthält dieselben Funktionen wie der vorhandene Medienspeicher, bietet jedoch eine verbesserte Benutzeroberfläche und eine engere Integration mit [Adobe Stock](https://stock.adobe.com).
@@ -32,7 +41,7 @@ Mit Adobe Commerce oder Magento Open Source 2.4 können Händler den neuen _erwe
 
 >[!NOTE]
 >
->Produktbilder, die zum Abschnitt [_[!UICONTROL Images and Videos]_&#x200B;hinzugefügt &#x200B;](../catalog/product-image.md#upload-an-image), werden vom [!DNL Media Gallery] nicht verwaltet. In der neuen [!DNL Media Gallery] werden nur Bilder angezeigt und gefiltert, die im Abschnitt&#x200B;_[!UICONTROL Content]_ verwendet werden.
+>Produktbilder, die zum Abschnitt [_[!UICONTROL Images and Videos]_hinzugefügt ](../catalog/product-image.md#upload-an-image), werden vom [!DNL Media Gallery] nicht verwaltet. In der neuen [!DNL Media Gallery] werden nur Bilder angezeigt und gefiltert, die im Abschnitt_[!UICONTROL Content]_ verwendet werden.
 
 ## Aktivieren des neuen [!DNL Media Gallery]
 
@@ -50,15 +59,15 @@ Mit Adobe Commerce oder Magento Open Source 2.4 können Händler den neuen _erwe
 
 1. Wenn Sie dazu aufgefordert werden, klicken Sie auf den Link **[!UICONTROL Cache Management]** in der Systemmeldung und aktualisieren Sie den ungültigen Cache.
 
-   Das [[!UICONTROL Content] zeigt &#x200B;](/help/content-design/content-menu.md) die neue _[!UICONTROL Media Gallery]_&#x200B;an.
+   Das [[!UICONTROL Content] zeigt ](/help/content-design/content-menu.md) die neue _[!UICONTROL Media Gallery]_an.
 
 >[!NOTE]
 >
->Für die volle Funktionalität neuer [!DNL Media Gallery] müssen `media.gallery.synchronization`- und `media.content.synchronization`-Warteschlangenverbraucher für die Erstsynchronisierung gestartet werden. Weitere [&#x200B; finden Sie unter „Verwalten &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) Nachrichtenwarteschlangen _im_ Konfigurationshandbuch“.
+>Für die volle Funktionalität neuer [!DNL Media Gallery] müssen `media.gallery.synchronization`- und `media.content.synchronization`-Warteschlangenverbraucher für die Erstsynchronisierung gestartet werden. Weitere [ finden Sie unter „Verwalten ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) Nachrichtenwarteschlangen _im_ Konfigurationshandbuch“.
 
 ## Zugriff auf die neue [!DNL Media Gallery]
 
-Auf die neue [!DNL Media Gallery] kann über das Menü Inhalt oder beim [Hinzufügen oder Bearbeiten einer Seite“ zugegriffen &#x200B;](/help/content-design/page-add.md). Sie können darauf auch zugreifen, wenn Sie [eine Kategorie erstellen oder bearbeiten](/help/catalog/category-create.md) oder wenn Sie [Bilder mit dem Inhaltseditor einfügen](/help/content-design/editor-insert-image.md).
+Auf die neue [!DNL Media Gallery] kann über das Menü Inhalt oder beim [Hinzufügen oder Bearbeiten einer Seite“ zugegriffen ](/help/content-design/page-add.md). Sie können darauf auch zugreifen, wenn Sie [eine Kategorie erstellen oder bearbeiten](/help/catalog/category-create.md) oder wenn Sie [Bilder mit dem Inhaltseditor einfügen](/help/content-design/editor-insert-image.md).
 
 So greifen Sie über das Menü [!UICONTROL Content] auf die neue [!UICONTROL Media Gallery] zu:
 
@@ -70,7 +79,7 @@ So greifen Sie beim Hinzufügen oder Bearbeiten einer Seite auf die neue Mediens
 
 1. Klicken Sie auf **[!UICONTROL Add a New Page]**.
 
-   Wenn Sie eine vorhandene Seite bearbeiten möchten, können Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Select]**&#x200B;klicken und **[!UICONTROL Edit]**&#x200B;auswählen.
+   Wenn Sie eine vorhandene Seite bearbeiten möchten, können Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**klicken und **[!UICONTROL Edit]**auswählen.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Content]** und führen Sie folgende Schritte aus:
 
@@ -84,4 +93,4 @@ So greifen Sie beim Hinzufügen oder Bearbeiten einer Seite auf die neue Mediens
 
 Weitere Informationen zum [!DNL Media Gallery] finden Sie in diesem Video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3417562?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343785?quality=12&learn=on)

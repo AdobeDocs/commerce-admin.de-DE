@@ -3,32 +3,46 @@ title: Katalog- und Produkt-URLs
 description: Erfahren Sie mehr über die URL-Formattypen für Ihre Katalogprodukte und deren Konfiguration.
 exl-id: 47405dc6-9b5e-4ca8-87eb-5a222de40793
 feature: Catalog Management, Products, Search, Categories
-TQID: https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w
+TQID: 'https://experienceleague.adobe.com/Lf7Xh4w-rI-o-S1HEqM7nJZWuYGhOsB2ZccDg7Hb-3w'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # Katalog- und Produkt-URLs
 
 Die URLs, die Sie Produkten und Kategorien zuweisen, spielen eine wichtige Rolle bei der Bestimmung, wie gut Ihre Site von Suchmaschinen indiziert wird. Bevor Sie mit der Erstellung Ihres Katalogs beginnen, ziehen Sie die verfügbaren Optionen in Betracht. Um das aktuelle URL-Format anzuzeigen, gehen Sie zur Storefront und navigieren Sie zu einem beliebigen Produkt in Ihrem Katalog. Das Format der URL hängt von den aktuellen Konfigurationseinstellungen und der Methode ab, die Sie zum Suchen der Seite verwenden.
@@ -44,7 +58,7 @@ Eine dynamische URL wird _laufender Zeit erstellt_ kann eine Abfragezeichenfolge
 
 ### Statische URL
 
-Eine statische URL ist eine feste Adresse für eine bestimmte Seite. Eine statische URL kann in einem suchmaschinenfreundlichen Format angezeigt werden oder in einem Format, das Produkte und Kategorien nach ID referenziert. Diese URLs enthalten Wörter, mit denen Benutzer nach einem Produkt suchen können, und für die Webserver-Neuschreibungen aktiviert sein müssen. Dateien mit statischen URLs werden häufig für Produkt- und Kategorieseiten, Inhaltsseiten und (Design[Assets) &#x200B;](../content-design/theme-assets.md).
+Eine statische URL ist eine feste Adresse für eine bestimmte Seite. Eine statische URL kann in einem suchmaschinenfreundlichen Format angezeigt werden oder in einem Format, das Produkte und Kategorien nach ID referenziert. Diese URLs enthalten Wörter, mit denen Benutzer nach einem Produkt suchen können, und für die Webserver-Neuschreibungen aktiviert sein müssen. Dateien mit statischen URLs werden häufig für Produkt- und Kategorieseiten, Inhaltsseiten und (Design[Assets) ](../content-design/theme-assets.md).
 
 - `http://mystore.com/antonia-racer-tank.html`
 
@@ -52,7 +66,7 @@ Eine statische URL ist eine feste Adresse für eine bestimmte Seite. Eine statis
 
 ### URL-Schlüssel
 
-Der URL-Schlüssel ist der Teil einer statischen URL, die das Produkt oder die Kategorie beschreibt. Wenn Sie ein Produkt oder eine Kategorie erstellen, wird automatisch ein erster URL-Schlüssel basierend auf dem Namen generiert. Informationen zum Ändern des URL-Schlüssels finden [&#x200B; im Abschnitt &#x200B;](product-search-engine-optimization.md)Suchmaschinenoptimierung“ der Produktinformationen.
+Der URL-Schlüssel ist der Teil einer statischen URL, die das Produkt oder die Kategorie beschreibt. Wenn Sie ein Produkt oder eine Kategorie erstellen, wird automatisch ein erster URL-Schlüssel basierend auf dem Namen generiert. Informationen zum Ändern des URL-Schlüssels finden [ im Abschnitt ](product-search-engine-optimization.md)Suchmaschinenoptimierung“ der Produktinformationen.
 
 >[!NOTE]
 >
@@ -132,7 +146,7 @@ Um zu verhindern, dass Suchmaschinen mehrere URLs indizieren, die zum selben Inh
 | Feld | [Umfang](../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Add Store Code to URLs] | Global | Wenn Webserver-Neuschreibungen aktiviert sind, wird durch Aktivieren dieser Einstellung der Store-Code der aktuellen Ansicht in die URL eingefügt. Optionen: `Yes` / `No` |
-| [!UICONTROL Auto-redirect to Base URL] | Global | (Bei Einzelspeicher-Setups) Wenn auf Ihrer Site ein fehlerhafter Link vorhanden ist, wird der Traffic an die Basis-URL und nicht an eine Seite mit der Meldung „404 Seite nicht gefunden“ umgeleitet. Optionen: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_wichtig!_**&#x200B;Verwenden Sie keine automatische Umleitung zur Basis-URL für Multi-Store-Setups. |
+| [!UICONTROL Auto-redirect to Base URL] | Global | (Bei Einzelspeicher-Setups) Wenn auf Ihrer Site ein fehlerhafter Link vorhanden ist, wird der Traffic an die Basis-URL und nicht an eine Seite mit der Meldung „404 Seite nicht gefunden“ umgeleitet. Optionen: `No` / `Yes (302 Found)` / `Yes (301 Moved Permanently)` <br /><br />**_wichtig!_**Verwenden Sie keine automatische Umleitung zur Basis-URL für Multi-Store-Setups. |
 | [!UICONTROL Catalog media URL format] | Global | Definiert das URL-Format, das Produkten und Kategorien zugewiesen ist. Optionen: <br />**[!UICONTROL Unique hash per image variant (Legacy mode)]**- Definiert den konvertierten Dateinamen als eindeutigen Hash-Wert.<br />**[!UICONTROL Image optimization based on query parameters]** - Definiert [Bildoptimierungsprozess](../content-design/media-gallery-image-optimization.md) abhängig von Abfrageparametern. |
 
 {style="table-layout:auto"}

@@ -3,29 +3,38 @@ title: Währungskonfiguration
 description: Erfahren Sie, wie Sie den Umfang der Basiswährung festlegen und die Währungen angeben, die Sie akzeptieren, sowie die Währung, die Sie für die Preisanzeige verwenden möchten.
 exl-id: ba78095f-36eb-4e38-a6e8-72d85e0cf980
 feature: Currency, Configuration, Data Import/Export
-TQID: https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE
+TQID: 'https://experienceleague.adobe.com/-8zl9x0ORJssQFyubtdVbht9iOjWIi5zCv4LuN0ORhE'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ad33b22f893986a79bbb746f476e8490080fb0d
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 826
+source-wordcount: '826'
 ht-degree: 0%
-
 ---
-
 # Währungskonfiguration
 
-Bevor Sie individuelle Währungskurse einrichten, müssen Sie zunächst den Umfang der [Basiswährung“ &#x200B;](../configuration-reference/general/currency-setup.md). Sie ist standardmäßig als global festgelegt, wodurch die Einstellung der Basiswährung auf die gesamte [Store-Hierarchie“ angewendet &#x200B;](../getting-started/websites-stores-views.md). Wenn Sie eine Adobe Commerce- oder Magento Open Source-Installation für mehrere Sites haben, können Sie mehrere Basiswährungen verwalten, indem Sie den Umfang auf die Website-Ebene festlegen.
+Bevor Sie individuelle Währungskurse einrichten, müssen Sie zunächst den Umfang der [Basiswährung“ ](../configuration-reference/general/currency-setup.md). Sie ist standardmäßig als global festgelegt, wodurch die Einstellung der Basiswährung auf die gesamte [Store-Hierarchie“ angewendet ](../getting-started/websites-stores-views.md). Wenn Sie eine Adobe Commerce- oder Magento Open Source-Installation für mehrere Sites haben, können Sie mehrere Basiswährungen verwalten, indem Sie den Umfang auf die Website-Ebene festlegen.
 
 Außerdem geben Sie die Währungen an, die Sie akzeptieren, und welche Währung Sie für die Anzeige von [Preisen](../catalog/catalog-price-scope.md) in Ihrem Geschäft verwenden möchten. Im folgenden Diagramm wird der Umfang der Basiswährung auf Website-Ebene festgelegt, sodass jede Website eine andere Basiswährung haben kann.
 
@@ -53,7 +62,7 @@ Außerdem geben Sie die Währungen an, die Sie akzeptieren, und welche Währung 
 
    Eine ausführliche Beschreibung jeder dieser Konfigurationseinstellungen finden Sie unter [Währungsoptionen](../configuration-reference/general/currency-setup.md) im _Konfigurationsreferenzhandbuch_.
 
-1. Wenn Sie aufgefordert werden, den Cache zu aktualisieren _klicken Sie auf_ Schließen![&#x200B; ( Feld schließen](../assets/icon-close-x.png) ) in der rechten oberen Ecke der Systemmeldung.
+1. Wenn Sie aufgefordert werden, den Cache zu aktualisieren _klicken Sie auf_ Schließen![ ( Feld schließen](../assets/icon-close-x.png) ) in der rechten oberen Ecke der Systemmeldung.
 
    Sie können [den Cache aktualisieren](../systems/cache-management.md) später.
 
@@ -83,37 +92,37 @@ Außerdem geben Sie die Währungen an, die Sie akzeptieren, und welche Währung 
 
    - _So stellen Sie eine Verbindung zum Service [fixer.io her](https://fixer.io/):_
 
-      - Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Fixer.io]** .
+     - Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Fixer.io]** .
 
-      - Geben Sie Ihre fixer.io-**[!UICONTROL API key]** ein.
+     - Geben Sie Ihre fixer.io-**[!UICONTROL API key]** ein.
 
-      - Geben Sie **[!UICONTROL Connection Timeout in Seconds]** die Anzahl Sekunden der Inaktivität ein, die erlaubt sein sollen, bevor die Verbindung unterbrochen wird.
+     - Geben Sie **[!UICONTROL Connection Timeout in Seconds]** die Anzahl Sekunden der Inaktivität ein, die erlaubt sein sollen, bevor die Verbindung unterbrochen wird.
 
      ![Allgemeine Konfiguration - Währungseinrichtung - Fixer.io-Optionen](../configuration-reference/general/assets/currency-setup-fixer.png){width="600" zoomable="yes"}
 
    - _Verbindung mit dem [[!DNL Fixer Api (APILayer)] Dienst](https://apilayer.com/):_
 
-      - Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Fixer Api (APILayer)]** .
+     - Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Fixer Api (APILayer)]** .
 
-      - Geben Sie Ihre [!DNL APILayer] **[!UICONTROL API key]** ein.
+     - Geben Sie Ihre [!DNL APILayer] **[!UICONTROL API key]** ein.
 
-      - Geben Sie **[!UICONTROL Connection Timeout in Seconds]** die Anzahl Sekunden der Inaktivität ein, die erlaubt sein sollen, bevor die Verbindung unterbrochen wird.
+     - Geben Sie **[!UICONTROL Connection Timeout in Seconds]** die Anzahl Sekunden der Inaktivität ein, die erlaubt sein sollen, bevor die Verbindung unterbrochen wird.
 
      ![Allgemeine Konfiguration - Währungseinrichtung - Optionen der Fixer-API (APILayer)](../configuration-reference/general/assets/currency-setup-fixer-api.png){width="600" zoomable="yes"}
 
    - _Verbindung mit dem [[!DNL Currency Convertor API] Dienst](https://free.currencyconverterapi.com/):_
 
-      - Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Currency Convertor API]** .
+     - Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Currency Convertor API]** .
 
-      - Geben Sie die **[!UICONTROL API key]** Ihres Währungsumrechners ein.
+     - Geben Sie die **[!UICONTROL API key]** Ihres Währungsumrechners ein.
 
-      - Geben Sie **[!UICONTROL Connection Timeout in Seconds]** die Anzahl Sekunden der Inaktivität ein, die erlaubt sein sollen, bevor die Verbindung unterbrochen wird.
+     - Geben Sie **[!UICONTROL Connection Timeout in Seconds]** die Anzahl Sekunden der Inaktivität ein, die erlaubt sein sollen, bevor die Verbindung unterbrochen wird.
 
      ![Allgemeine Konfiguration - Währungseinrichtung - Währungsumrechner-API-Optionen](../configuration-reference/general/assets/currency-setup-converter.png){width="600" zoomable="yes"}
 
 ## Schritt 3: Konfigurieren der Einstellungen für den geplanten Import
 
-1. Erweitern Sie unter „Währungseinstellungen“ den ![&#x200B; „Erweiterungsauswahl](../assets/icon-display-expand.png) auf den Abschnitt **[!UICONTROL Scheduled Import Settings]**.
+1. Erweitern Sie unter „Währungseinstellungen“ den ![ „Erweiterungsauswahl](../assets/icon-display-expand.png) auf den Abschnitt **[!UICONTROL Scheduled Import Settings]**.
 
    ![Allgemeine Konfiguration - Einstellungen für den geplanten Import der Währung](../configuration-reference/general/assets/currency-setup-scheduled-import-settings.png){width="600" zoomable="yes"}
 
@@ -127,9 +136,9 @@ Außerdem geben Sie die Währungen an, die Sie akzeptieren, und welche Währung 
 
    - **[!UICONTROL Frequency]** - Legen Sie eine der folgenden Einstellungen fest, um zu bestimmen, wie oft die Raten aktualisiert werden:
 
-      - `Daily`
-      - `Weekly`
-      - `Monthly`
+     - `Daily`
+     - `Weekly`
+     - `Monthly`
 
    - **[!UICONTROL Error Email Recipient]** - Geben Sie die E-Mail-Adresse der Person ein, die eine E-Mail-Benachrichtigung erhalten soll, wenn während des Importvorgangs ein Fehler auftritt.
 
@@ -157,13 +166,13 @@ Die Verwaltung von Währungssymbolen bietet Ihnen die Möglichkeit, das Symbol a
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**.
 
-   Jede Währung, die für Ihren Store aktiviert ist, wird in der _[!UICONTROL Currency]_&#x200B;angezeigt.
+   Jede Währung, die für Ihren Store aktiviert ist, wird in der _[!UICONTROL Currency]_angezeigt.
 
 1. Ändern Sie die Einstellungen in der Liste nach Bedarf:
 
    - Geben Sie für jede Währung, die Sie verwenden möchten, ein benutzerdefiniertes Symbol ein, oder aktivieren Sie das Kontrollkästchen &quot;**[!UICONTROL Use Standard]**&quot; für jede Währung.
 
-   - Um das Standardsymbol zu überschreiben, deaktivieren Sie das Kontrollkästchen _[!UICONTROL Use Standard]_&#x200B;und geben Sie das gewünschte Symbol ein.
+   - Um das Standardsymbol zu überschreiben, deaktivieren Sie das Kontrollkästchen _[!UICONTROL Use Standard]_und geben Sie das gewünschte Symbol ein.
 
    >[!NOTE]
    >

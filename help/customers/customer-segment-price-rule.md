@@ -3,35 +3,44 @@ title: Kundensegmente in Preisregeln
 description: Erfahren Sie, wie Sie Kundensegmente mit einer Warenkorb-Preisregel verknüpfen, damit Sie zielgerichtete Promotions für Ihren Store definieren können.
 exl-id: eaa04e7a-c0f9-4f09-8e65-75965ccbdc69
 feature: Customers, Configuration, Price Rules
-TQID: https://experienceleague.adobe.com/MSMNikJwG2lQuLlQxnK82zjCOeF-u8JEjmabKFJgpZU
+TQID: 'https://experienceleague.adobe.com/MSMNikJwG2lQuLlQxnK82zjCOeF-u8JEjmabKFJgpZU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 232
+source-wordcount: '232'
 ht-degree: 0%
-
 ---
-
 # Kundensegmente in Preisregeln
 
 {{ee-feature}}
 
-Ein Kundensegment kann für zielgerichtete Promotions verwendet werden, indem es mit einer [Warenkorb-Preisregel) verknüpft &#x200B;](../merchandising-promotions/price-rules-cart.md).
+Ein Kundensegment kann für zielgerichtete Promotions verwendet werden, indem es mit einer [Warenkorb-Preisregel) verknüpft ](../merchandising-promotions/price-rules-cart.md).
 
 ![Warenkorb-Preisregel - Zielkundensegment](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_&#x200B;**So verknüpfen Sie ein Segment mit einer Warenkorb-Preisregel:**&#x200B;_
+_**So verknüpfen Sie ein Segment mit einer Warenkorb-Preisregel:**_
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
 
@@ -44,7 +53,7 @@ _&#x200B;**So verknüpfen Sie ein Segment mit einer Warenkorb-Preisregel:**&#x20
 
 1. Fügen Sie die Bedingung hinzu.
 
-   * Klicken Sie auf _Symbol_ Hinzufügen![&#x200B; (](../assets/icon-add-green-circle.png)), um die Liste der Bedingungen anzuzeigen. Wählen Sie dann **[!UICONTROL Customer Segment]**.
+   * Klicken Sie auf _Symbol_ Hinzufügen![ (](../assets/icon-add-green-circle.png)), um die Liste der Bedingungen anzuzeigen. Wählen Sie dann **[!UICONTROL Customer Segment]**.
 
    ![Warenkorb-Preisregel - Kundensegmentbedingung hinzufügen](assets/condition-customer-segment.png){width="600" zoomable="yes"}
 

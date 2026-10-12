@@ -3,28 +3,41 @@ title: Verwandte Produktregeln
 description: Erfahren Sie mehr über verwandte Produktregeln und wie sie verwendet werden, um verwandte Produkte, Upsell-Angebote und Crosssell-Angebote dynamisch Ihren Kunden zu präsentieren.
 exl-id: ff566e13-cbe8-42f1-be3a-684e364b86dd
 feature: Merchandising, Products, Storefront
-TQID: https://experienceleague.adobe.com/-S2cHqetXQ0raH1d7LGRU1zW80jJ2vA9dmgSmvABNEI
+TQID: 'https://experienceleague.adobe.com/-S2cHqetXQ0raH1d7LGRU1zW80jJ2vA9dmgSmvABNEI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 879
+source-wordcount: '879'
 ht-degree: 0%
-
 ---
-
 # Verwandte Produktregeln (Zielgruppenregeln)
 
 {{ee-feature}}
@@ -43,8 +56,8 @@ Um auf die zugehörigen Produktregeln zuzugreifen, gehen Sie zu **[!UICONTROL Ma
 |--- |--- |
 | [!UICONTROL ID] | Eine eindeutige numerische Kennung, die jeder zugehörigen Produktregel zugewiesen ist |
 | [!UICONTROL Rule] | Der Name der zugehörigen Produktregel |
-| [!UICONTROL Start] | Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_&#x200B;und&#x200B;_[!UICONTROL From:]_), um die Liste nach dem Startdatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
-| [!UICONTROL End] | Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_&#x200B;und&#x200B;_[!UICONTROL From:]_), um die Liste nach dem Enddatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
+| [!UICONTROL Start] | Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_und_[!UICONTROL From:]_), um die Liste nach dem Startdatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
+| [!UICONTROL End] | Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_und_[!UICONTROL From:]_), um die Liste nach dem Enddatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
 | [!UICONTROL Priority] | Geben Sie Text in dieses Feld ein, um die Liste nach der für eine Regel definierten Priorität zu filtern. |
 | [!UICONTROL Applies To] | Diese Option filtert die Liste der Regeln, die für `Related Products`, `Up-sells` und `Cross-sells` gelten. |
 | [!UICONTROL Status] | Verwenden Sie diese Option, um die Liste nach Regelstatus (`Active` oder `Inactive`) zu filtern. |
@@ -62,7 +75,7 @@ Die Anzahl der Produkt-IDs, die in eine Produktbeziehungsregel aufgenommen werde
 Angenommen, Sie haben drei Regeln mit der Priorität `1`, `2` und `3`.
 
 - Es werden zwei übereinstimmende Produkte für _Regel 1_ zurückgegeben, sechs übereinstimmende Produkte für _Regel 2_ und 20 übereinstimmende Produkte für _Regel 3_.
-- In der -Konfiguration ist der _[!UICONTROL Maximum Number of Products for Related Products List]_&#x200B;auf `6` festgelegt.
+- In der -Konfiguration ist der _[!UICONTROL Maximum Number of Products for Related Products List]_auf `6` festgelegt.
 
   | Regeln | Priorität | Übereinstimmende Produkte |
   |---|---|-----|
@@ -110,15 +123,15 @@ Das Verhalten von Produktbeziehungsregeln und die Anzeige übereinstimmender Pro
 
    - Legen Sie **[!UICONTROL Show Cross-Sell Products]** auf eine der folgenden Einstellungen fest:
 
-      - `Both Selected and Rule Based`
-      - `Selected Only`
-      - `Rule-Based Only`
+     - `Both Selected and Rule Based`
+     - `Selected Only`
+     - `Rule-Based Only`
 
    - Legen Sie **[!UICONTROL Rotation Mode for Products in Cross-Sell Product List]** auf eine der folgenden Einstellungen fest:
 
-      - `By Priority, Then by ID`
-      - `By Priority, Then Random`
-      - `Weighted Random`
+     - `By Priority, Then by ID`
+     - `By Priority, Then Random`
+     - `Weighted Random`
 
 1. Gehen Sie wie folgt vor, um die Upsell-Produkteinstellungen abzuschließen:
 
@@ -126,15 +139,15 @@ Das Verhalten von Produktbeziehungsregeln und die Anzeige übereinstimmender Pro
 
    - Legen Sie **[!UICONTROL Show Upsell Products]** auf eine der folgenden Einstellungen fest:
 
-      - `Both Selected and Rule Based`
-      - `Selected Only`
-      - `Rule-Based Only`
+     - `Both Selected and Rule Based`
+     - `Selected Only`
+     - `Rule-Based Only`
 
    - Legen Sie **[!UICONTROL Rotation Mode for Products in Upsell Product List]** auf eine der folgenden Einstellungen fest:
 
-      - `By Priority, Then by ID`
-      - `By Priority, Then Random`
-      - `Weighted Random`
+     - `By Priority, Then by ID`
+     - `By Priority, Then Random`
+     - `Weighted Random`
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
@@ -150,4 +163,4 @@ Das Verhalten von Produktbeziehungsregeln und die Anzeige übereinstimmender Pro
 
 ## Real-Time CDP-Zielgruppen verwenden, um über zugehörige Produktregeln zu informieren
 
-Erfahren Sie, wie [&#x200B; Real-Time CDP](../customers/audience-activation.md)Zielgruppen in Ihrer Adobe Commerce-Instanz aktivieren, um Informationen zu verwandten Produktregeln zu erhalten.
+Erfahren Sie, wie [ Real-Time CDP](../customers/audience-activation.md)Zielgruppen in Ihrer Adobe Commerce-Instanz aktivieren, um Informationen zu verwandten Produktregeln zu erhalten.

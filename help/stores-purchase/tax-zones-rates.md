@@ -3,26 +3,33 @@ title: Steuergebiete und Steuersätze
 description: Erfahren Sie, wie Sie Steuersätze für jedes geografische Gebiet definieren, in dem Sie Steuern erheben und abführen.
 exl-id: d8eb0743-d277-438d-91ed-fc711a6ba3ae
 feature: Taxes
-TQID: https://experienceleague.adobe.com/HHCiYX6ihYArvccmTswjnZ5SNP09D29Srn2JvWiw4tY
+TQID: 'https://experienceleague.adobe.com/HHCiYX6ihYArvccmTswjnZ5SNP09D29Srn2JvWiw4tY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 380
+source-wordcount: '380'
 ht-degree: 0%
-
 ---
-
 # Steuergebiete und Steuersätze
 
 Die Steuersätze gelten im Allgemeinen für Transaktionen, die innerhalb eines bestimmten geografischen Gebiets stattfinden. Verwenden Sie das _Steuerzonen und Steuersätze_, um den Steuersatz für jedes geografische Gebiet anzugeben, aus dem Sie Steuern einziehen und abführen. Da jede Steuerzone und jeder Steuersatz über eine eindeutige Kennung verfügt, können Sie für ein bestimmtes geografisches Gebiet mehrere Steuersätze haben (z. B. Orte, an denen keine Lebensmittel oder Medikamente besteuert werden, aber andere Gegenstände besteuert werden).
@@ -69,7 +76,7 @@ Die Gewerbesteuer wird anhand der Adresse des Geschäfts berechnet. Die tatsäch
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
 
-1. Suchen Sie den Steuersatz im _[!UICONTROL Tax Zones and Rates]_&#x200B;und öffnen Sie den Datensatz im Bearbeitungsmodus.
+1. Suchen Sie den Steuersatz im _[!UICONTROL Tax Zones and Rates]_und öffnen Sie den Datensatz im Bearbeitungsmodus.
 
    Wenn die Liste viele Tarife enthält, können Sie über die [Filterfeldern](../getting-started/admin-grid-controls.md) nach der benötigten Tarifierung suchen.
 

@@ -3,29 +3,43 @@ title: Daten exportieren
 description: Erfahren Sie mehr über Datenexportfilter und -attribute und darüber, wie Sie Daten aus Ihrem Store exportieren.
 exl-id: 80e7a2fc-beaa-416e-a00f-a3cad5055975
 feature: Products, Customers, Data Import/Export
-TQID: https://experienceleague.adobe.com/492se11mto54gQuwodcRcALtCf7LJe3GGKQntW9kkWQ
+TQID: 'https://experienceleague.adobe.com/492se11mto54gQuwodcRcALtCf7LJe3GGKQntW9kkWQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '823'
 ht-degree: 0%
-
 ---
-
 # Daten exportieren
 
 Die beste Möglichkeit, sich mit der Struktur Ihrer Datenbank vertraut zu machen, besteht darin, die Daten zu exportieren und in einer Tabelle zu öffnen. Nachdem Sie sich mit dem Prozess vertraut gemacht haben, können Sie ihn als effiziente Methode zum Verwalten großer Informationsmengen verwenden.
@@ -44,9 +58,9 @@ Exportfilter werden verwendet, um die Daten, die Sie in die Exportdatei aufnehme
 
 Sie können Filter verwenden, um zu bestimmen, welche SKUs in der Exportdatei enthalten sind. Wenn Sie beispielsweise einen Wert im Filter Herstellungsland eingeben, enthält die exportierte CSV-Datei nur die in diesem Land hergestellten Produkte.
 
-Der Filtertyp entspricht dem Datentyp. Bei Datumsfeldern können Sie das Datum im Kalender (![) &#x200B;](../assets/icon-calendar.png). Weitere Informationen finden [&#x200B; unter &quot;](../catalog/attributes-input-types.md)-Eingabetypen“.
+Der Filtertyp entspricht dem Datentyp. Bei Datumsfeldern können Sie das Datum im Kalender (![) ](../assets/icon-calendar.png). Weitere Informationen finden [ unter &quot;](../catalog/attributes-input-types.md)-Eingabetypen“.
 
-Das Format des Datums wird durch das [Gebietsschema“ &#x200B;](../getting-started/store-details.md#locale-options).
+Das Format des Datums wird durch das [Gebietsschema“ ](../getting-started/store-details.md#locale-options).
 
 Um nur Datensätze mit einem bestimmten Wert einzubeziehen, z. B. eine SKU, geben Sie den Wert in das Feld Filter ein. Einige Felder wie „Preis“, „Gewicht“ und „Produkt als neu festlegen“ haben einen Wertebereich von/bis .
 
@@ -96,7 +110,7 @@ Das Kontrollkästchen in der ersten Spalte wird verwendet, um Attribute aus der 
 
 1. Scrollen Sie nach unten und klicken Sie in der rechten unteren Ecke der Seite auf **[!UICONTROL Continue]** .
 
-   Nach Abschluss der Aufgabe wird die Datei über eine Nachrichtenwarteschlange verarbeitet (stellen Sie sicher, dass Ihr Cron-Auftrag ausgeführt wird). Die exportierte Datei wird im `var/export/ folder` gespeichert. Weitere Informationen zur Nachrichtenwarteschlange finden Sie unter [Verwalten von Nachrichtenwarteschlangen](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) im _Konfigurationshandbuch_.
+   Nach Abschluss der Aufgabe wird die Datei über eine Nachrichtenwarteschlange verarbeitet (stellen Sie sicher, dass Ihr Cron-Auftrag ausgeführt wird). Die exportierte Datei wird im `var/export/ folder` gespeichert. Weitere Informationen zur Nachrichtenwarteschlange finden Sie unter [Verwalten von Nachrichtenwarteschlangen](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) im _Konfigurationshandbuch_.
 
    Sie können die exportierte CSV-Datei als Tabelle speichern oder öffnen, dann die Daten bearbeiten und sie wieder in Ihren Store importieren.
 
@@ -108,4 +122,4 @@ Das Kontrollkästchen in der ersten Spalte wird verwendet, um Attribute aus der 
 
 Hilfe bei der Fehlerbehebung bei Problemen mit dem Datenexport finden Sie in den folgenden Artikeln der Commerce-Support-Wissensdatenbank:
 
-- [Exportierte .csv-Produktdatei wird nicht angezeigt](https://experienceleague.adobe.com/de/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear)
+- [Exportierte .csv-Produktdatei wird nicht angezeigt](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear)

@@ -3,28 +3,39 @@ title: Konfigurieren des Source-Prioritätsalgorithmus
 description: Konfigurieren Sie die Quellprioritätsreihenfolge in einem Lager, sodass der Source-Prioritätsalgorithmus Quellen für Sendungen und Abzüge empfiehlt.
 exl-id: 7b25212d-0cd0-4280-be23-c67f06db900a
 feature: Inventory, Shipping/Delivery
-TQID: https://experienceleague.adobe.com/TB4THYjkzbNvEbsjNzOewNtYS6JoRvLDiQQCovSMkbI
+TQID: 'https://experienceleague.adobe.com/TB4THYjkzbNvEbsjNzOewNtYS6JoRvLDiQQCovSMkbI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 269
+source-wordcount: '269'
 ht-degree: 0%
-
 ---
-
 # Konfigurieren des Source-Prioritätsalgorithmus
 
 Benutzerdefinierte Lager enthalten eine zugewiesene Liste von Quellen für den Verkauf und Versand des verfügbaren Produktbestands über Ihre Storefront. Dieser Algorithmus verwendet die Reihenfolge der zugewiesenen Quellen in Ihrem Lager, um Empfehlungen zu geben.
@@ -45,11 +56,11 @@ Zur Konfiguration ordnen Sie diese Quellen für die Auftragserfüllung von oben 
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Inventory]** > **[!UICONTROL Stocks]**.
 
-1. Öffnen Sie ein Lager im Bearbeitungsmodus und navigieren Sie zum _[!UICONTROL Sources]_&#x200B;Bereich.
+1. Öffnen Sie ein Lager im Bearbeitungsmodus und navigieren Sie zum _[!UICONTROL Sources]_Bereich.
 
 1. Klicken Sie auf **[!UICONTROL Assign Sources]**.
 
-1. Aktivieren Sie in der _[!UICONTROL Assign Sources]_&#x200B;das Kontrollkästchen für die gewünschte Quelle und klicken Sie dann auf **[!UICONTROL Done]**, um dem Lager eine Quelle zuzuweisen.
+1. Aktivieren Sie in der _[!UICONTROL Assign Sources]_das Kontrollkästchen für die gewünschte Quelle und klicken Sie dann auf **[!UICONTROL Done]**, um dem Lager eine Quelle zuzuweisen.
 
 >[!NOTE]
 >

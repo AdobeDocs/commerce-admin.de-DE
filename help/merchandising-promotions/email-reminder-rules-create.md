@@ -3,26 +3,37 @@ title: E-Mail-Erinnerungen erstellen
 description: Erfahren Sie, wie Sie eine E-Mail-Erinnerungsregel einrichten, die eine vorhandene Warenkorb-Preisregel verwendet.
 exl-id: b04dc8a3-5daa-43f2-bf52-d85bfd2554b7
 feature: Merchandising, Communications
-TQID: https://experienceleague.adobe.com/p7WUWpQFlu2gUeyTU6ZrIHkRJzw8XTp2Mxkvi9Vu-eU
+TQID: 'https://experienceleague.adobe.com/p7WUWpQFlu2gUeyTU6ZrIHkRJzw8XTp2Mxkvi9Vu-eU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1035
+source-wordcount: '1035'
 ht-degree: 0%
-
 ---
-
 # E-Mail-Erinnerungen erstellen
 
 Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenkorb-Preisregel einrichten](price-rules-cart-create.md) um die angebotene Promotion zu definieren. Regelbedingungen, die den Trigger einer E-Mail-Erinnerung ermöglichen, können auf Warenkorbeigenschaften, Wunschlisteneigenschaften oder beidem basieren.
@@ -35,7 +46,7 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenk
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New Rule]**.
 
-1. Vervollständigen Sie die _[!UICONTROL Rule Information]_&#x200B;wie folgt:
+1. Vervollständigen Sie die _[!UICONTROL Rule Information]_wie folgt:
 
    ![E-Mail-Erinnerungsregel](./assets/email-reminder-new.png){width="700" zoomable="yes"}
 
@@ -57,7 +68,7 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenk
 
 1. Wählen Sie im Bedienfeld auf der linken Seite **[!UICONTROL Conditions]**.
 
-   Für die Regel muss mindestens eine Bedingung definiert sein. Der Prozess ähnelt dem Erstellen [&#x200B; Katalogpreisregel](price-rules-catalog.md)
+   Für die Regel muss mindestens eine Bedingung definiert sein. Der Prozess ähnelt dem Erstellen [ Katalogpreisregel](price-rules-catalog.md)
 
    ![E-Mail-Erinnerungsbedingungen](./assets/email-reminder-conditions.png){width="600" zoomable="yes"}
 
@@ -68,9 +79,9 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenk
 
    >[!NOTE]
    >
-   >Wenn ein Kunde über mehr als einen übereinstimmenden, nicht mehr in den Warenkorb gelegten Warenkorb, eine Wunschliste oder eine Kombination aus beidem verfügt, wird die E-Mail-Erinnerung nur einmal für diesen Kunden ausgelöst. Um dieselbe E-Mail-Erinnerung erneut Trigger, legen Sie im Feld _[!UICONTROL Repeat Schedule]_&#x200B;die Anzahl der Tage zwischen den E-Mails fest. <br/>
+   >Wenn ein Kunde über mehr als einen übereinstimmenden, nicht mehr in den Warenkorb gelegten Warenkorb, eine Wunschliste oder eine Kombination aus beidem verfügt, wird die E-Mail-Erinnerung nur einmal für diesen Kunden ausgelöst. Um dieselbe E-Mail-Erinnerung erneut Trigger, legen Sie im Feld _[!UICONTROL Repeat Schedule]_die Anzahl der Tage zwischen den E-Mails fest. <br/>
    >
-   >Dieselbe E-Mail-Erinnerung **_nicht erneut ausgelöst_** für denselben Kunden für **_neue_** abgebrochene Warenkörbe und Wunschlisten **_nach_** der _[!UICONTROL Repeat Schedule]_&#x200B;ist vorbei.
+   >Dieselbe E-Mail-Erinnerung **_nicht erneut ausgelöst_** für denselben Kunden für **_neue_** abgebrochene Warenkörbe und Wunschlisten **_nach_** der _[!UICONTROL Repeat Schedule]_ist vorbei.
    >
    >Adobe Commerce as a Cloud Service verfügt über eine experimentelle Funktion, mit der eine einzelne Regel mehrmals angewendet werden kann. Weitere Informationen finden Sie [Regelwiederholbarkeit](#rule-repeatability).
 
@@ -80,9 +91,9 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenk
 
 1. Wählen Sie im Bedienfeld auf der linken Seite **[!UICONTROL Emails and Labels]**.
 
-   ![E-Mail-Erinnerungsregel - E-Mails und Beschriftungsvorlagen &#x200B;](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
+   ![E-Mail-Erinnerungsregel - E-Mails und Beschriftungsvorlagen ](./assets/email-reminder-rule-emails-labels-email-templates.png){width="600" zoomable="yes"}
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Email Templates]** die E-Mail-Vorlage aus, die für jede Website und Store-Ansicht in Ihrer [Store-Hierarchie“ verwendet &#x200B;](../getting-started/websites-stores-views.md) soll.
+1. Wählen Sie im Abschnitt **[!UICONTROL Email Templates]** die E-Mail-Vorlage aus, die für jede Website und Store-Ansicht in Ihrer [Store-Hierarchie“ verwendet ](../getting-started/websites-stores-views.md) soll.
 
    Wenn Sie die Erinnerungs-E-Mail nicht an Kunden einer Store-Ansicht senden möchten, lassen Sie den Wert `Not Selected`.
 
@@ -98,7 +109,7 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenk
 
      ![E-Mail-Erinnerungen - Titel und Beschreibungen](./assets/email-reminders-emails-and-labels-default-titles-description.png){width="500" zoomable="yes"}
 
-   - Geben Sie im Abschnitt _[!UICONTROL Titles and Descriptions Per Store View]_&#x200B;den **[!UICONTROL Rule Title]**&#x200B;und die **[!UICONTROL Description]**&#x200B;für die_ Store-Standardansicht“ _. Geben Sie für mehrere Store-Ansichten den entsprechenden Titel und die entsprechende Beschreibung für jede Ansicht ein.
+   - Geben Sie im Abschnitt _[!UICONTROL Titles and Descriptions Per Store View]_den **[!UICONTROL Rule Title]**und die **[!UICONTROL Description]**für die_ Store-Standardansicht“ _. Geben Sie für mehrere Store-Ansichten den entsprechenden Titel und die entsprechende Beschreibung für jede Ansicht ein.
 
      >[!NOTE]
      >
@@ -106,7 +117,7 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenk
 
      ![Titel und Beschreibungen - Store-Ansicht](./assets/email-reminder-rules-title-descriptions-per-store-view.png){width="500" zoomable="yes"}
 
-1. [!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Wenn Sie [!DNL Adobe Commerce as a Cloud Service] verwenden, können Sie [Regelwiederholbarkeit](#rule-repeatability) aktivieren, indem Sie das Kontrollkästchen [!UICONTROL Rule Repeatability] aktivieren.
+1. [!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Wenn Sie [!DNL Adobe Commerce as a Cloud Service] verwenden, können Sie [Regelwiederholbarkeit](#rule-repeatability) aktivieren, indem Sie das Kontrollkästchen [!UICONTROL Rule Repeatability] aktivieren.
 
    >[!IMPORTANT]
    >
@@ -116,7 +127,7 @@ Bevor Sie eine E-Mail-Erinnerungsregel einrichten, müssen Sie zunächst [Warenk
 
 ## Regelwiederholbarkeit
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 >[!IMPORTANT]
 >

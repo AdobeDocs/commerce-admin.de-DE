@@ -3,35 +3,44 @@ title: Konfigurieren von E-Mail-Nachrichten
 description: Erfahren Sie, wie Sie E-Mail-Nachrichten konfigurieren, einschließlich des Routings zurückgegebener E-Mails oder Antworten auf eine bestimmte E-Mail-Adresse.
 exl-id: 7e62e9c5-f214-4fd5-becc-99dcb093cd5c
 feature: Communications, Configuration
-TQID: https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww
+TQID: 'https://experienceleague.adobe.com/0spSxu59rF2KomOWVI5iR9pcg2r-VLm-GiXvJvatnww'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 310
+source-wordcount: '310'
 ht-degree: 0%
-
 ---
-
 # Konfigurieren von E-Mail-Nachrichten
 
 Mit _E-Mail-_ können Sie zurückgegebene E-Mails oder Antworten auf E-Mails an eine bestimmte Adresse weiterleiten. Wenn Ihr Store auf einem SMTP- oder Windows-Server ausgeführt wird, können Sie die Host- und Port-Einstellungen überprüfen.
 
 >[!IMPORTANT]
 >
->**Sicherheitshinweis** Alle Händler sollten sofort ihre E-Mail-Versandkonfiguration einstellen, um sich vor einem kürzlich identifizierten potenziellen Remote-Code-Ausführungsangriff zu schützen. Solange dieses Problem nicht behoben ist, wird dringend empfohlen, [!DNL Sendmail] nicht für E-Mail-Nachrichten zu verwenden. Stellen Sie in der _[!UICONTROL Mail Sending Settings]_&#x200B;sicher, dass&#x200B;_[!UICONTROL Set Return Path]_ auf `No` gesetzt ist.
+>**Sicherheitshinweis** Alle Händler sollten sofort ihre E-Mail-Versandkonfiguration einstellen, um sich vor einem kürzlich identifizierten potenziellen Remote-Code-Ausführungsangriff zu schützen. Solange dieses Problem nicht behoben ist, wird dringend empfohlen, [!DNL Sendmail] nicht für E-Mail-Nachrichten zu verwenden. Stellen Sie in der _[!UICONTROL Mail Sending Settings]_sicher, dass_[!UICONTROL Set Return Path]_ auf `No` gesetzt ist.
 
 Eine detaillierte Liste der Konfigurationseinstellungen finden Sie unter [_[!UICONTROL Mail Sending Settings]_](../configuration-reference/advanced/system.md) in der _Konfigurationsreferenz_.
 
@@ -51,22 +60,22 @@ Eine detaillierte Liste der Konfigurationseinstellungen finden Sie unter [_[!UIC
 
    - Wenn er auf einem SMTP- oder Windows-Server ausgeführt wird, überprüfen Sie die folgenden Einstellungen:
 
-      - **[!UICONTROL Host]** - `localhost` oder andere
+     - **[!UICONTROL Host]** - `localhost` oder andere
 
-      - **[!UICONTROL Port (25)]** - `25` oder andere
+     - **[!UICONTROL Port (25)]** - `25` oder andere
 
    - Wählen Sie **[!UICONTROL Set Return Path]** eine der folgenden Optionen:
 
-      - `No` - (Empfohlene Sicherheitsmaßnahme) Routes hat die E-Mail an die Standard-Store-E-Mail-Adresse zurückgegeben.
-      - `Yes` - Routet die zurückgegebene E-Mail an die Standard-Store-E-Mail-Adresse.
-      - `Specified` - Routet die zurückgesendete E-Mail an die in **[!UICONTROL Return Path Email]** angegebene E-Mail-Adresse.
+     - `No` - (Empfohlene Sicherheitsmaßnahme) Routes hat die E-Mail an die Standard-Store-E-Mail-Adresse zurückgegeben.
+     - `Yes` - Routet die zurückgegebene E-Mail an die Standard-Store-E-Mail-Adresse.
+     - `Specified` - Routet die zurückgesendete E-Mail an die in **[!UICONTROL Return Path Email]** angegebene E-Mail-Adresse.
 
    - Konfigurieren Sie die Verbindung, wenn sie auf einem SMTP-Server ausgeführt wird:
 
-      - **[!UICONTROL Username]** - Geben Sie den Anmeldenamen für den SMTP-Server ein.
-      - **[!UICONTROL Password]** - Geben Sie das Passwort für die SMTP-Server-Anmeldung ein.
-      - **[!UICONTROL Auth]** : Wählen Sie den Authentifizierungstyp für die SMTP-Server-Verbindung aus: `NONE` , `PLAIN` oder `LOGIN`
-      - **[!UICONTROL SSL]** : Wählen Sie den Verifizierungstyp für das Server-Sicherheitszertifikat aus: `SSL` oder `TLS`
+     - **[!UICONTROL Username]** - Geben Sie den Anmeldenamen für den SMTP-Server ein.
+     - **[!UICONTROL Password]** - Geben Sie das Passwort für die SMTP-Server-Anmeldung ein.
+     - **[!UICONTROL Auth]** : Wählen Sie den Authentifizierungstyp für die SMTP-Server-Verbindung aus: `NONE` , `PLAIN` oder `LOGIN`
+     - **[!UICONTROL SSL]** : Wählen Sie den Verifizierungstyp für das Server-Sicherheitszertifikat aus: `SSL` oder `TLS`
 
      ![Erweiterte Konfiguration - Einstellungen für den E-Mail-Versand](../configuration-reference/advanced/assets/system-mail-sending-settings-smtp.png){width="600" zoomable="yes"}
 

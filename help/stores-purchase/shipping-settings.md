@@ -3,27 +3,35 @@ title: Versandeinstellungen
 description: Erfahren Sie, wie Sie die Versandeinstellungen konfigurieren, die den Ursprungsort und die Versandrichtlinie für Ihren Store definieren.
 exl-id: 767b3039-39c7-4692-a0a8-a8fde27622cc
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/9sMHWFMnoS-OVhdWjjq8r-KE9hdVD2owO2tI8LoGN0s
+TQID: 'https://experienceleague.adobe.com/9sMHWFMnoS-OVhdWjjq8r-KE9hdVD2owO2tI8LoGN0s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 555
+source-wordcount: '555'
 ht-degree: 0%
-
 ---
-
 # Versandeinstellungen
 
 Die Versandkonfiguration legt den Ausgangspunkt für alle Sendungen, Ihre Versandrichtlinie und die Handhabung von Sendungen an mehrere Adressen fest.
@@ -98,7 +106,7 @@ Die Versandoptionen für mehrere Adressen ermöglichen es Kunden, eine Bestellun
 
 ## Tracking-URLs von E-Mails zu Sendungen
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 Standardmäßig sind Sendungsverfolgungsnummern, die in Kunden-E-Mails gesendet werden, Klartext. Sie können diese Tracking-Nummern in anklickbare Links umwandeln, indem Sie die URL-Funktion für benutzerdefiniertes Tracking aktivieren. Mit dieser Funktion können Sie eine Vorlage für Tracking-URLs für verschiedene Versanddienstleister definieren. Jede Vorlage enthält die vollständige URL zur Tracking-Website und einen Platzhalter für die Tracking-Nummer. Commerce ersetzt den Platzhalter durch die tatsächliche Tracking-Nummer in der E-Mail.
 

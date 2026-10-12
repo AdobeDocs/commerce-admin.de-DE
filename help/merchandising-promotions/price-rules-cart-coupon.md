@@ -3,31 +3,47 @@ title: Couponcodes
 description: Erfahren Sie, wie Sie Gutscheincodes mit Warenkorbpreisregeln verwenden können, um einen Rabatt anzuwenden, wenn eine Reihe von Bedingungen erfüllt ist.
 exl-id: 4f2e6203-0de2-44eb-a5f7-edd7b5f714d1
 feature: Merchandising, Price Rules, Shopping Cart
-TQID: https://experienceleague.adobe.com/axmELQfcYT3VH7GBKMh-Z3xdN1v6eROpIp9FDYb6zBg
+TQID: 'https://experienceleague.adobe.com/axmELQfcYT3VH7GBKMh-Z3xdN1v6eROpIp9FDYb6zBg'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2339
+source-wordcount: '2339'
 ht-degree: 0%
-
 ---
-
 # Couponcodes
 
 Couponcodes werden mit [Warenkorbpreisregeln](price-rules-cart.md) verwendet, um einen Rabatt anzuwenden, wenn eine Reihe von Bedingungen erfüllt ist. Beispielsweise kann ein Gutscheincode für eine bestimmte Kundengruppe oder für jede Person erstellt werden, die einen Kauf über einen bestimmten Betrag tätigt. Um den Coupon auf einen Kauf anzuwenden, kann der Kunde den Couponcode im Warenkorb oder möglicherweise an der Kasse Ihres _-Mörtel-_ eingeben. Im Folgenden finden Sie einige Möglichkeiten, wie Sie Gutscheine in Ihrem Store verwenden können:
@@ -91,7 +107,7 @@ Die Länge und das Format der automatisch generierten Couponcodes werden von der
 
 >[!NOTE]
 >
->[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Bevor Sie Coupons erstellen, überprüfen Sie mit dem `bin/magento cron:run`-Befehl, ob cron ausgeführt wird. Weitere Informationen finden [&#x200B; unter „Ausführen von &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line) über die Befehlszeile _im Konfigurationshandbuch_.
+>[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} Bevor Sie Coupons erstellen, überprüfen Sie mit dem `bin/magento cron:run`-Befehl, ob cron ausgeführt wird. Weitere Informationen finden [ unter „Ausführen von ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs#run-cron-from-the-command-line) über die Befehlszeile _im Konfigurationshandbuch_.
 
 ### Methode 1: Erstellen eines bestimmten Coupons
 
@@ -101,7 +117,7 @@ Die Länge und das Format der automatisch generierten Couponcodes werden von der
 
 1. Geben Sie einen **[!UICONTROL Coupon Code]** ein, der für die Promotion verwendet werden soll.
 
-   Das Format des Codes (numerisch, alphanumerisch oder alphabetisch) wird durch die [Konfiguration“ &#x200B;](#configure-coupon-codes).
+   Das Format des Codes (numerisch, alphanumerisch oder alphabetisch) wird durch die [Konfiguration“ ](#configure-coupon-codes).
 
 1. Gehen Sie wie folgt vor, um zu begrenzen, wie oft der Coupon verwendet werden kann:
 
@@ -201,11 +217,11 @@ Um Gutscheincodes zu löschen, wählen Sie einen oder mehrere Codes aus der List
 
 ### Methode 3: Benutzerdefinierte Gutscheincodes
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 Nachdem Sie eine [Warenkorb-Preisregel](price-rules-cart.md) erstellt haben, können Sie der Regel manuell benutzerdefinierte Couponcodes hinzufügen.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;und wählen Sie die Regel aus, der Sie benutzerdefinierte Couponcodes hinzufügen möchten.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**und wählen Sie die Regel aus, der Sie benutzerdefinierte Couponcodes hinzufügen möchten.
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Manage Coupon Codes]** und klicken Sie auf **[!UICONTROL Add Coupon Code]**.
 
@@ -231,7 +247,7 @@ Der Haupt-Couponcode, der zur Warenkorbpreisregel gehört, kann nicht bearbeitet
 
 Wenn Sie über eine Liste vordefinierter Gutscheincodes verfügen, können Sie diese aus einer CSV-Datei an die Warenkorbpreisregel anhängen, anstatt jeden Code einzeln hinzuzufügen. Die CSV-Datei sollte aus einer einzigen Spalte mit den Couponcodes bestehen.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**&#x200B;und wählen Sie die Regel aus, in die Sie benutzerdefinierte Couponcodes importieren möchten.
+1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _[!UICONTROL Promotions]_>**[!UICONTROL Cart Price Rules]**und wählen Sie die Regel aus, in die Sie benutzerdefinierte Couponcodes importieren möchten.
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Manage Coupon Codes]** und klicken Sie auf **[!UICONTROL Import]**.
 
@@ -260,11 +276,11 @@ Wenn Sie über eine Liste vordefinierter Gutscheincodes verfügen, können Sie d
 
    ![Gutscheinergebnis importieren](./assets/import-coupons-result.png){width="600" zoomable="yes"}
 
-Um den Fortschritt und die detaillierten Ergebnisse des Imports zu überwachen, klicken Sie auf **[!UICONTROL View progress in Bulk Actions Log]** oder gehen Sie zu **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Jeder Import wird als einzelner Eintrag im **[!UICONTROL Bulk Actions]**&#x200B;angezeigt und Sie können einen Eintrag auswählen.
+Um den Fortschritt und die detaillierten Ergebnisse des Imports zu überwachen, klicken Sie auf **[!UICONTROL View progress in Bulk Actions Log]** oder gehen Sie zu **[!UICONTROL System]** > _[!UICONTROL Action Log]_>**[!UICONTROL Bulk Actions]**. Jeder Import wird als einzelner Eintrag im **[!UICONTROL Bulk Actions]**angezeigt und Sie können einen Eintrag auswählen.
 
 ## Bericht zu Coupons
 
-Der _Coupons_-Bericht aggregiert Daten aus jedem Coupon, der während eines bestimmten Datumsbereichs verwendet wird. Da Gutscheine aus dem Warenkorb angewendet werden, enthält der Bericht Daten aus allen eingelösten Gutscheinen, unabhängig vom [&#x200B; (Bestellstatus](../stores-purchase/order-status.md). Daher kann der Bericht sowohl die projizierten als auch die tatsächlichen Gesamtwerte enthalten. Der Bericht kann nach einer bestimmten Store-Ansicht, einem bestimmten Zeitraum, einem Bestellstatus und einer Warenkorb-Preisregel gefiltert werden.
+Der _Coupons_-Bericht aggregiert Daten aus jedem Coupon, der während eines bestimmten Datumsbereichs verwendet wird. Da Gutscheine aus dem Warenkorb angewendet werden, enthält der Bericht Daten aus allen eingelösten Gutscheinen, unabhängig vom [ (Bestellstatus](../stores-purchase/order-status.md). Daher kann der Bericht sowohl die projizierten als auch die tatsächlichen Gesamtwerte enthalten. Der Bericht kann nach einer bestimmten Store-Ansicht, einem bestimmten Zeitraum, einem Bestellstatus und einer Warenkorb-Preisregel gefiltert werden.
 
 Im folgenden Beispiel wurde der Couponcode „H20“ von zwei Kunden verwendet. Eine der Bestellungen wird fakturiert, die andere ist jedoch noch _ausstehend_. Die Spalten Projizierte Umsatzzwischensumme, Verkaufsrabatt und Verkaufssumme zeigen die aggregierten Beträge aus beiden Aufträgen an, aber nur der tatsächlich fakturierte Auftrag wird in den Spalten Zwischensumme, Rabatt und Gesamtsumme angezeigt. Jede Zeile im Bericht stellt eine einzelne Gutscheinaktion dar.
 

@@ -3,35 +3,46 @@ title: Integration konfigurieren
 description: Erfahren Sie, wie Sie Ihre Adobe Commerce- und Experience Manager Assets-Projekte verbinden, um die Synchronisierung von Assets zwischen diesen beiden Systemen zu aktivieren.
 feature: CMS, Media
 exl-id: cc3ae56b-f1c8-4c96-a284-bcd726ce2bab
-TQID: https://experienceleague.adobe.com/c31KPRTUtXyMBCFiOEMPS7erhR3d-dQoxdB5ScgN1tk
+TQID: 'https://experienceleague.adobe.com/c31KPRTUtXyMBCFiOEMPS7erhR3d-dQoxdB5ScgN1tk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: '560'
 ht-degree: 3%
-
 ---
-
 # Integration konfigurieren
 
 Konfigurieren Sie die Integration, indem Sie Commerce mit der AEM Assets-Instanz verbinden und die entsprechende Strategie für die Synchronisierung von Assets auswählen.
 
 Nachdem Sie das AEM Assets-Projekt identifiziert haben, wählen Sie die Zuordnungsregel für die Synchronisierung von Assets zwischen Adobe Commerce und AEM Assets aus.
 
-- **[!UICONTROL Match by product SKU]** - Standardregel, die die SKU in den Asset-Metadaten mit der [Commerce-Produkt-SKU](https://experienceleague.adobe.com/de/docs/commerce-operations/implementation-playbook/glossary#sku) abgleicht, um sicherzustellen, dass Assets mit den richtigen Produkten verknüpft sind.
+- **[!UICONTROL Match by product SKU]** - Standardregel, die die SKU in den Asset-Metadaten mit der [Commerce-Produkt-SKU](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#sku) abgleicht, um sicherzustellen, dass Assets mit den richtigen Produkten verknüpft sind.
 
 - **[!UICONTROL Custom match]** - Matching-Regel für komplexere Szenarien oder spezifische Geschäftsanforderungen, die eine benutzerdefinierte Matching-Logik erfordern. Für die Implementierung des benutzerdefinierten Abgleichs ist die Entwicklung von benutzerdefiniertem Code in Adobe Developer App Builder erforderlich, um zu definieren, wie Assets mit Produkten abgeglichen werden. Weitere Details folgen in Kürze…
 
@@ -45,11 +56,11 @@ Verwenden Sie für die Ersteinrichtung die Standardregel *Übereinstimmung nach 
 
 - Erstellen Sie ein Support-Ticket, um die Aktivierung für die Integration von AEM Assets für Commerce anzufordern. Fügen Sie im Ticket die **[!UICONTROL Program ID]**, **[!UICONTROL Environment ID]** und **[!UICONTROL IMS Org ID]** für die AEM Assets-Authoring-Umgebung ein, mit der Sie eine Verbindung zu Commerce herstellen möchten.
 
-- Geben Sie die **[!UICONTROL Asset Selector IMS Client ID]** an. Siehe [ImsAuthProps](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications) in der *AEM Assets-Selektor*-Dokumentation.
+- Geben Sie die **[!UICONTROL Asset Selector IMS Client ID]** an. Siehe [ImsAuthProps](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications) in der *AEM Assets-Selektor*-Dokumentation.
 
 ## Konfigurieren der Verbindung
 
-1. Rufen Sie die Projekt- und Umgebungs-ID der [&#128279;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/sites/authoring/quick-start)0&rbrace;AEM Assets-Autorenumgebung ab.
+1. Rufen Sie die Projekt- und Umgebungs-ID der ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start)0}AEM Assets-Autorenumgebung ab.[
 
    1. Öffnen Sie die AEM Sites-Konsole und wählen Sie **[!UICONTROL Assets]** aus.
 
@@ -66,7 +77,7 @@ Verwenden Sie für die Ersteinrichtung die Standardregel *Übereinstimmung nach 
 
 1. Geben Sie die **[!UICONTROL Asset Selector IMS Client ID]** ein.
 
-   Die [Asset-Selektor-IMS](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)Client-ID) wird vom [!UICONTROL Assets Selector] benötigt, einer AEM Assets-Funktion, mit der Benutzende visuelle Assets direkt in Commerce-Produktseiten einbetten können.
+   Die [Asset-Selektor-IMS](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)Client-ID) wird vom [!UICONTROL Assets Selector] benötigt, einer AEM Assets-Funktion, mit der Benutzende visuelle Assets direkt in Commerce-Produktseiten einbetten können.
 
 1. Wählen Sie die [[!UICONTROL Commerce integration]](aem-assets-configure-commerce.md#add-the-integration-to-the-commerce-environment) für die Authentifizierung von Anfragen zwischen Commerce und dem Asset Matching-Service aus.
 
@@ -86,7 +97,7 @@ Verwenden Sie für die Ersteinrichtung die Standardregel *Übereinstimmung nach 
 
 ### Konfigurieren der benutzerdefinierten Domain-URL
 
-Wenn ein Händler in seinem AEM[Dashboard einen &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank}benutzerdefinierten Domain-Namen“ festlegt, muss diese **benutzerdefinierte Domain-URL** in Commerce hinzugefügt werden, damit die AEM Assets-Integration sie verwenden kann.
+Wenn ein Händler in seinem AEM[Dashboard einen ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank}benutzerdefinierten Domain-Namen“ festlegt, muss diese **benutzerdefinierte Domain-URL** in Commerce hinzugefügt werden, damit die AEM Assets-Integration sie verwenden kann.
 
 1. Navigieren Sie zu **[!UICONTROL Store]** > Konfiguration > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**.
 

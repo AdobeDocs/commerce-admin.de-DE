@@ -15,10 +15,23 @@ feature_v2:
     internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 67a00b294f1946da5795cd8fb7ea9fac1c80edcd
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -46,7 +59,7 @@ Verwenden Sie die folgende Anleitung, um die Funktion zu ermitteln, die Ihrer An
 | Anforderung | Empfohlene Funktion |
 | --- | --- |
 | Senden einer bestimmten Abfrage von der Standardsuche [!DNL Adobe Commerce] eine Seite | Konfigurieren Sie einen Suchbegriff in [Suchbegriffe verwalten](../catalog/search-terms.md), sofern unterstützt. |
-| Ändern des Produkt-Rankings oder der Sichtbarkeit in Suchergebnissen | Verwenden Sie [!DNL Live Search] [Synonyme](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-admin/synonyms/synonyms) oder [Merchandising-Regeln](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-admin/rules/rules-add). |
+| Ändern des Produkt-Rankings oder der Sichtbarkeit in Suchergebnissen | Verwenden Sie [!DNL Live Search] [Synonyme](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/synonyms/synonyms) oder [Merchandising-Regeln](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/rules/rules-add). |
 | Alte Produkt-, Kategorie- oder CMS-URL umleiten | Verwenden Sie das Commerce [URL Rewrite](url-rewrite.md)-Tool, wenn es auf Ihre Bereitstellung anwendbar ist. |
 | [!DNL Edge Delivery Services] umleiten | Storefront- oder CDN-Routing verwenden. |
 | Alte URLs nach einer Storefront-Migration beibehalten | Erstellen und testen Sie eine Umleitungszuordnung von einer veralteten zu einer neuen URL. |
@@ -83,13 +96,13 @@ Für Bereitstellungen, die das URL Rewrite-Tool unterstützen, gehen Sie zu **[!
 
 Verwenden Sie [!DNL Live Search], wenn Sie die Suchrelevanz, das Produkt-Ranking oder die Sichtbarkeit des Produkts ändern müssen. Verwenden Sie Synonyme, wenn verschiedene Wörter ähnliche Produkte zurückgeben sollen. Verwenden Sie Merchandising-Regeln, wenn Produkte geboostert, beerdigt oder anders eingestuft werden müssen.
 
-[!DNL Live Search] Suchverhalten sollte nicht als Dropdown-Ersatz für jede native Commerce-Suchbegriffkonfiguration behandelt werden. Wenn eine Abfrage zu einer Inhalts- oder Kampagnenseite navigieren muss, implementieren Sie die Umleitung in der Storefront oder Edge-Routing-Ebene, die die Anfrage erhält. Weitere Informationen finden Sie in der [[!DNL Live Search] Dokumentation](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview).
+[!DNL Live Search] Suchverhalten sollte nicht als Dropdown-Ersatz für jede native Commerce-Suchbegriffkonfiguration behandelt werden. Wenn eine Abfrage zu einer Inhalts- oder Kampagnenseite navigieren muss, implementieren Sie die Umleitung in der Storefront oder Edge-Routing-Ebene, die die Anfrage erhält. Weitere Informationen finden Sie in der [[!DNL Live Search] Dokumentation](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
 
 ## Edge-Bereitstellungsdienste
 
 Für eine Storefront mit [!DNL Edge Delivery Services] verwalten Sie Umleitungen in der Storefront- oder Edge-Routing-Ebene. Gehen Sie nicht davon aus, dass [!DNL Adobe Commerce] Admin-URL jede Anfrage neu schreibt.
 
-Wenn Sie das Erstellen von Dokumenten verwenden, verwalten Sie Umleitungszuordnungen in der Umleitungskonfiguration der Site. Verwenden Sie für Umleitungen, die ausgeführt werden müssen, bevor eine Anfrage die Quelle erreicht, die entsprechende CDN- oder Edge-Konfiguration. Weitere Informationen zu SEO finden Sie unter [SEO-Richtlinien für Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/?lang=de).
+Wenn Sie das Erstellen von Dokumenten verwenden, verwalten Sie Umleitungszuordnungen in der Umleitungskonfiguration der Site. Verwenden Sie für Umleitungen, die ausgeführt werden müssen, bevor eine Anfrage die Quelle erreicht, die entsprechende CDN- oder Edge-Konfiguration. Weitere Informationen zu SEO finden Sie unter [SEO-Richtlinien für Commerce Storefront](https://experienceleague.adobe.com/developer/commerce/storefront/setup/seo/indexing/).
 
 ## Aus Luma migrieren
 

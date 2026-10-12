@@ -3,26 +3,35 @@ title: Währungskurse aktualisieren
 description: Erfahren Sie, wie Sie Währungskurse manuell festlegen oder in Ihren Store importieren.
 exl-id: 316a7bc8-1118-46e7-82ff-891ada04cd13
 feature: Currency, Configuration, Data Import/Export
-TQID: https://experienceleague.adobe.com/tEt15Mzt7MeDtf6MZfu9n6EsvJKUCNBdGhUo0-RK3zk
+TQID: 'https://experienceleague.adobe.com/tEt15Mzt7MeDtf6MZfu9n6EsvJKUCNBdGhUo0-RK3zk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3033d2ab-c1d2-5b52-b865-72d9e5ad2c37
+    internal-label: Currency
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: '275'
 ht-degree: 0%
-
 ---
-
 # Währungskurse aktualisieren
 
 Die Währungskurse können manuell festgelegt oder in den Store importiert werden. Um sicherzustellen, dass Ihr Geschäft über die aktuellen Kurse verfügt, können Sie die Währungskurse so konfigurieren, dass sie automatisch planmäßig aktualisiert werden.
@@ -53,7 +62,7 @@ Bevor Sie Währungskurse importieren, schließen Sie die [Währungskurseinrichtu
 
 1. Klicken Sie auf **[!UICONTROL Import]**.
 
-   Die aktualisierten Tarife werden in der Liste _[!UICONTROL Currency Rates]_&#x200B;angezeigt. Wenn sich die Kurse seit der letzten Aktualisierung geändert haben, wird der alte Kurs unten als Referenz angezeigt.
+   Die aktualisierten Tarife werden in der Liste _[!UICONTROL Currency Rates]_angezeigt. Wenn sich die Kurse seit der letzten Aktualisierung geändert haben, wird der alte Kurs unten als Referenz angezeigt.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Currency Rates]**.
 
@@ -63,9 +72,9 @@ Bevor Sie Währungskurse importieren, schließen Sie die [Währungskurseinrichtu
 
 ## Währungskurse planmäßig importieren
 
-1. Stellen Sie sicher[&#x200B; dass &quot;](../systems/cron.md)&quot; für Ihren Store aktiviert ist.
+1. Stellen Sie sicher[ dass &quot;](../systems/cron.md)&quot; für Ihren Store aktiviert ist.
 
-1. Um die Währungen anzugeben, die Sie akzeptieren, und die Importverbindung und den Zeitplan einzurichten, schließen Sie die Einrichtung [Währungskurses“ &#x200B;](currency-configuration.md).
+1. Um die Währungen anzugeben, die Sie akzeptieren, und die Importverbindung und den Zeitplan einzurichten, schließen Sie die Einrichtung [Währungskurses“ ](currency-configuration.md).
 
 1. Um sicherzustellen, dass die Tarife planmäßig importiert werden, überprüfen Sie die _[!UICONTROL Currency Rates]_.
 

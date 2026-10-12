@@ -3,26 +3,40 @@ title: '[!UICONTROL My Requisition Lists]'
 description: Erfahren Sie mehr über das Kundenerlebnis für Anforderungslisten, die in ihrem Konto-Dashboard verfügbar sind.
 exl-id: ed1b41aa-9c36-49f8-80f2-ad0eb151b7a5
 feature: B2B, Companies
-TQID: https://experienceleague.adobe.com/pwiF8OEOXHcE4Pqb2wNbE8kravY2fx7k359g-loTcns
+TQID: 'https://experienceleague.adobe.com/pwiF8OEOXHcE4Pqb2wNbE8kravY2fx7k359g-loTcns'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 588
+source-wordcount: '611'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL My Requisition Lists]
 
 Der Hauptgrund für die Pflege einer Anforderungsliste besteht darin, die Neubestellung von Produkten zu vereinfachen. Autorisierte Kunden können Artikel einfach aus einer Anforderungsliste neu anordnen, indem sie sie zum Warenkorb hinzufügen und Artikel von einer Liste in eine andere verschieben oder kopieren.
@@ -102,7 +116,7 @@ Um Produktoptionen in der Liste zu bearbeiten, führt der Kunde Folgendes aus:
 
 Ein Produkt in der Anforderungsliste kann bearbeitet werden, wenn:
 
-- Das Produkt hat **[!UICONTROL all options set]** (wenn es sich um ein &quot;[&#x200B; Produkt“ &#x200B;](../catalog/product-create-configurable.md) der Anforderungsliste handelt).
+- Das Produkt hat **[!UICONTROL all options set]** (wenn es sich um ein &quot;[ Produkt“ ](../catalog/product-create-configurable.md) der Anforderungsliste handelt).
 
   Das Produkt ist **[!UICONTROL added to this Requisition List]**.
 
@@ -164,7 +178,7 @@ Die Paginierungssteuerelemente werden am unteren Rand der Liste angezeigt, wenn 
 >[!NOTE]
 >
 > Produkte, die Ihre Aufmerksamkeit erfordern (z. B. nicht vorrätige Produkte), werden oben in der Liste angezeigt, wenn sie in die aktuelle Seite der Paginierung fallen. Die Anzahl der Produkte, die Ihre Aufmerksamkeit erfordern, wird oberhalb der Liste angezeigt.
-> ![Elemente, die Aufmerksamkeit erfordern](./assets/requisition-list-product-requiring-attention.png){width="500"}
+> ![Elemente, die bearbeitet werden müssen](./assets/requisition-list-product-requiring-attention.png){width="500"}
 
 ### Steuerung der Storefront-Paginierung
 

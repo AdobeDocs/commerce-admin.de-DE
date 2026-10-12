@@ -3,31 +3,42 @@ title: Navigation oben
 description: Erfahren Sie, wie Sie das Hauptmenü eines Geschäfts definieren, das für die verschiedenen Abteilungen wie ein Verzeichnis funktioniert.
 exl-id: 8b71fe73-2716-4820-9e57-4cb1e6888132
 feature: Catalog Management, Categories, Site Navigation
-TQID: https://experienceleague.adobe.com/REad4AtBdJeK2eVNRo1XiTrrjJqmTs6oJfum260IfOk
+TQID: 'https://experienceleague.adobe.com/REad4AtBdJeK2eVNRo1XiTrrjJqmTs6oJfum260IfOk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 48c59cc5-3c2e-5df1-8756-f5c139a28932
+    internal-label: Site Navigation
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 581
+source-wordcount: '581'
 ht-degree: 0%
-
 ---
-
 # Navigation oben
 
 Das Hauptmenü Ihres Geschäfts ist wie ein Verzeichnis zu den verschiedenen Abteilungen in Ihrem Geschäft. Jede Option stellt eine andere Kategorie von Produkten dar. Position und Darstellung der oberen Navigation können je nach Thema variieren, aber die Funktionsweise ist im Wesentlichen die gleiche.
@@ -74,7 +85,7 @@ Damit eine Kategorie in der oberen Navigation eines Stores angezeigt wird, führ
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
 
-Bei einer Multi-Store-Installation kann jedem (Store) ein anderes Hauptmenü als [Stammkategorie](category-root.md) zugewiesen [&#128279;](../stores-purchase/stores.md#add-stores).
+Bei einer Multi-Store-Installation kann jedem (Store) ein anderes Hauptmenü als [Stammkategorie](category-root.md) zugewiesen [](../stores-purchase/stores.md#add-stores).
 
 ### Schritt 2: Legen Sie die Tiefe der oberen Navigation fest
 
@@ -86,9 +97,9 @@ Bei einer Multi-Store-Installation kann jedem (Store) ein anderes Hauptmenü als
 
    ![Oberste Navigation der Kategorie](../configuration-reference/catalog/assets/catalog-category-top-navigation.png){width="600" zoomable="yes"}
 
-   Da die Tiefe der oberen Navigation einen globalen [Konfigurationsbereich) hat](../getting-started/websites-stores-views.md#scope-settings) gilt die Einstellung für alle Websites, Stores und Store-Ansichten in der Commerce-Installation. Der Abschnitt _[!UICONTROL Category Top Navigation]_-Konfiguration ist nur verfügbar, wenn&#x200B;_[!UICONTROL Store View]_ in der oberen linken Ecke auf `Default Config` eingestellt ist.
+   Da die Tiefe der oberen Navigation einen globalen [Konfigurationsbereich) hat](../getting-started/websites-stores-views.md#scope-settings) gilt die Einstellung für alle Websites, Stores und Store-Ansichten in der Commerce-Installation. Der Abschnitt _[!UICONTROL Category Top Navigation]_-Konfiguration ist nur verfügbar, wenn_[!UICONTROL Store View]_ in der oberen linken Ecke auf `Default Config` eingestellt ist.
 
-   Eine detaillierte Liste dieser Optionen finden Sie unter [Oberste Navigation &#x200B;](../configuration-reference/catalog/catalog.md#layered-navigation) Kategorie“ _Konfigurationsreferenz_.
+   Eine detaillierte Liste dieser Optionen finden Sie unter [Oberste Navigation ](../configuration-reference/catalog/catalog.md#layered-navigation) Kategorie“ _Konfigurationsreferenz_.
 
 1. Um die Anzahl der Unterkategorien zu begrenzen, die in der oberen Navigation angezeigt werden, geben Sie die Zahl für **[!UICONTROL Maximal Depth]** ein.
 

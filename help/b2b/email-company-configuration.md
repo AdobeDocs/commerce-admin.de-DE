@@ -4,28 +4,36 @@ description: Erfahren Sie mehr über die E-Mail-Optionen und -Vorlagen, die zum 
 exl-id: fd61c0c6-0887-4ff2-8002-906ff615bad9
 feature: B2B, Companies, Configuration
 role: Admin
-TQID: https://experienceleague.adobe.com/MeNTcQzgfeH-DJ3TVQ-655Okr-Qt5Lv97pGZJ-67sxQ
+TQID: 'https://experienceleague.adobe.com/MeNTcQzgfeH-DJ3TVQ-655Okr-Qt5Lv97pGZJ-67sxQ'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 0%
-
+source-wordcount: '676'
+ht-degree: 3%
 ---
-
 # Konfigurieren von E-Mail-Optionen für Unternehmen
 
 Der [Vertriebsmitarbeiter](account-company-manage.md) der als primärer Kontakt für eine Firma zugewiesen ist, ist standardmäßig als Absender vieler automatisierter E-Mail-Nachrichten konfiguriert, die an die Firma gesendet werden.
@@ -48,8 +56,8 @@ Der [Vertriebsmitarbeiter](account-company-manage.md) der als primärer Kontakt 
 
    - Legen Sie **[!UICONTROL Send Email Copy Method]** auf eine der folgenden Einstellungen fest, um zu bestimmen, wie die Kopie der Benachrichtigung gesendet wird:
 
-      - `Bcc` - Sendet eine _Blinde Höflichkeitskopie_ indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.
-      - `Separate Email` - Sendet die Kopie als separate E-Mail.
+     - `Bcc` - Sendet eine _Blinde Höflichkeitskopie_ indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.
+     - `Separate Email` - Sendet die Kopie als separate E-Mail.
 
    - Wenn Sie eine E-Mail-Vorlage vorbereitet haben, die anstelle der Standardvorlage verwendet werden soll, legen Sie **[!UICONTROL Default Company Registration Email]** auf den Namen der Vorlage fest. Standardmäßig wird die `Company Registration Request` verwendet.
 
@@ -77,8 +85,8 @@ Der [Vertriebsmitarbeiter](account-company-manage.md) der als primärer Kontakt 
 
    - Legen Sie **[!UICONTROL Send Email Copy Method]** auf eine der folgenden Einstellungen fest, um zu bestimmen, wie die Kopie der Benachrichtigung gesendet wird:
 
-      - `Bcc` - Sendet eine _Blinde Höflichkeitskopie_ indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.
-      - `Separate Email` - Sendet die Kopie als separate E-Mail.
+     - `Bcc` - Sendet eine _Blinde Höflichkeitskopie_ indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.
+     - `Separate Email` - Sendet die Kopie als separate E-Mail.
 
    - Wenn Sie über eine vorbereitete E-Mail-Vorlage verfügen, die anstelle der Standardvorlage verwendet werden soll, wenn sich der Unternehmensstatus von `Pending Approval` in `Active` ändert, legen Sie **[!UICONTROL Default 'Company Status Change to Active 1' Email]** auf diese Vorlage fest. Standardmäßig wird die `Company Status Active 1` verwendet.
 
@@ -100,16 +108,16 @@ Der [Vertriebsmitarbeiter](account-company-manage.md) der als primärer Kontakt 
 
    - Legen Sie **[!UICONTROL Send Email Copy Method]** auf eine der folgenden Einstellungen fest, um zu bestimmen, wie die Kopie der Benachrichtigung gesendet wird:
 
-      - `Bcc` - Sendet eine _Blinde Höflichkeitskopie_ indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.
-      - `Separate Email` - Sendet die Kopie als separate E-Mail.
+     - `Bcc` - Sendet eine _Blinde Höflichkeitskopie_ indem der Empfänger in die Kopfzeile derselben E-Mail eingefügt wird, die an den Kunden gesendet wird. Der BCC-Empfänger ist für den Kunden nicht sichtbar.
+     - `Separate Email` - Sendet die Kopie als separate E-Mail.
 
    - Wenn Sie E-Mail-Vorlagen vorbereitet haben, die anstelle der Standardvorlagen verwendet werden sollen, wählen Sie die Vorlage für jede der folgenden Benachrichtigungen aus, die an den Unternehmensadministrator gesendet werden.
 
-      - **[!UICONTROL Allocated Email Template]**
-      - **[!UICONTROL Updated Email Template]**
-      - **[!UICONTROL Reimbursed Email Template]**
-      - **[!UICONTROL Refunded Email Template]**
-      - **[!UICONTROL Reverted Email Template]**
+     - **[!UICONTROL Allocated Email Template]**
+     - **[!UICONTROL Updated Email Template]**
+     - **[!UICONTROL Reimbursed Email Template]**
+     - **[!UICONTROL Refunded Email Template]**
+     - **[!UICONTROL Reverted Email Template]**
 
    ![Kundenkonfiguration - E-Mails zu Firmenkrediten](./assets/company-email-options-company-credit.png){width="600" zoomable="yes"}
 

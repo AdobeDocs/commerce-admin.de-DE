@@ -3,27 +3,35 @@ title: Versandtabelle
 description: Erfahren Sie, wie Sie eine Versandoption mit tabellarischer Rate für Ihren Store einrichten.
 exl-id: f73adc9a-4c6c-477d-9553-3a3f28647bdd
 feature: Shipping/Delivery
-TQID: https://experienceleague.adobe.com/14LYGw55vIlhbg71AApSGuuUKzaFEmStaUcw-Uig87E
+TQID: 'https://experienceleague.adobe.com/14LYGw55vIlhbg71AApSGuuUKzaFEmStaUcw-Uig87E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1044
+source-wordcount: '1044'
 ht-degree: 3%
-
 ---
-
 # Versandtabelle
 
 Die Versandmethode _Tabellensatz_ verweist auf eine Datentabelle, um Versandraten basierend auf einer Kombination von Bedingungen zu berechnen, einschließlich:
@@ -48,7 +56,7 @@ Der erste Schritt besteht darin, die Standardeinstellungen für die Tarife abzus
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im _[!UICONTROL Sales]_&#x200B;Bereich des linken Bedienfelds **[!UICONTROL Delivery Methods]**&#x200B;aus.
+1. Wählen Sie im _[!UICONTROL Sales]_Bereich des linken Bedienfelds **[!UICONTROL Delivery Methods]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Table Rates]** .
 
@@ -84,8 +92,8 @@ Der erste Schritt besteht darin, die Standardeinstellungen für die Tarife abzus
 
    - **[!UICONTROL Calculate Handling Fee]** festlegen:
 
-      - `Fixed`
-      - `Percent`
+     - `Fixed`
+     - `Percent`
 
    - Geben Sie den **[!UICONTROL Handling Fee]** nach der Methode ein, die zur Berechnung der Gebühr verwendet wurde.
 
@@ -98,7 +106,7 @@ Der erste Schritt besteht darin, die Standardeinstellungen für die Tarife abzus
 1. **[!UICONTROL Ship to Applicable Countries]** festlegen:
 
    - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können diese Versandmethode verwenden.
-   - `Specific Countries` - Wenn Sie diese Option wählen, wird die _[!UICONTROL Ship to Specific Countries]_&#x200B;angezeigt. Wählen Sie jedes Land in der Liste aus, in dem diese Versandmethode verwendet werden kann.
+   - `Specific Countries` - Wenn Sie diese Option wählen, wird die _[!UICONTROL Ship to Specific Countries]_angezeigt. Wählen Sie jedes Land in der Liste aus, in dem diese Versandmethode verwendet werden kann.
 
 1. Legen Sie **[!UICONTROL Show Method if Not Applicable]** auf `Yes` fest, wenn Sie die Tabellensätze immer anzeigen möchten
 
@@ -129,10 +137,10 @@ Der erste Schritt besteht darin, die Standardeinstellungen für die Tarife abzus
 1. Füllen Sie die Tabelle mit den entsprechenden Werten für die Versandberechnungsbedingung aus.
 
    - Verwenden Sie ein Sternchen (*) als Platzhalter für alle möglichen Werte in einer beliebigen Kategorie.
-   - Die Spalte _[!UICONTROL Country]_&#x200B;muss für jede Zeile [gültigen &#x200B;](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)-Code) enthalten.
+   - Die Spalte _[!UICONTROL Country]_muss für jede Zeile [gültigen ](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)-Code) enthalten.
    - Sortieren Sie die Daten nach _[!UICONTROL Region/State]_, sodass die spezifischen Speicherorte oben in der Liste und die Platzhalterspeicherorte unten angezeigt werden. Mit dieser Methode werden die Regeln zuerst mit den absoluten Werten und später mit den Platzhalterwerten verarbeitet.
    - Postleitzahlbereiche werden nicht unterstützt. Verwenden Sie ein Sternchen (*), um alle Codes innerhalb der Region/des Bundeslandes zuzulassen, oder geben Sie einen einzelnen Code für eine bestimmte Position in der Spalte &quot;_[!UICONTROL Zip/Postal Code]_&quot; an.
-   - Werte in der Spalte _[!UICONTROL Weight (and above)]_&#x200B;können maximal vier Dezimalstellen aufweisen (z. B. `2.5075`). Die Verwendung von mehr Dezimalstellen in den Daten führt dazu, dass der Import fehlschlägt.
+   - Werte in der Spalte _[!UICONTROL Weight (and above)]_können maximal vier Dezimalstellen aufweisen (z. B. `2.5075`). Die Verwendung von mehr Dezimalstellen in den Daten führt dazu, dass der Import fehlschlägt.
 
    ![Gewicht vs. Ziel (Australien)](./assets/table-rates-weight-destination-csv.png){width="500"}
 

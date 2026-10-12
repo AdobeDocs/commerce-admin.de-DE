@@ -3,30 +3,44 @@ title: Gutschriften
 description: Erfahren Sie mehr über Gutschriften und darüber, wie sie zur Ausstellung einer teilweisen oder vollständigen Rückerstattung verwendet werden.
 exl-id: dc2faf86-0182-4661-9543-bc6e00e06dbf
 feature: Orders, Invoices, Returns
-TQID: https://experienceleague.adobe.com/-G3nrlvCcdrsFJFxGWKZB7j3LsmhBTzNdncuNzsFuE4
+TQID: 'https://experienceleague.adobe.com/-G3nrlvCcdrsFJFxGWKZB7j3LsmhBTzNdncuNzsFuE4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: ac07462c-732c-5c1c-947b-4ce533b4fcfb
+    internal-label: Returns
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 583
+source-wordcount: '583'
 ht-degree: 0%
-
 ---
-
 # Gutschriften
 
 Eine _Gutschrift_ ist ein Dokument, das den Betrag anzeigt, der dem Kunden für eine vollständige oder teilweise Rückerstattung geschuldet wird. Der Betrag kann auf einen Kauf angerechnet oder dem Kunden zurückerstattet werden. Sie können eine Gutschrift für einen einzelnen Auftrag oder für mehrere Bestellungen als Stapel drucken. Bevor eine Gutschrift gedruckt werden kann, muss sie zuerst für die Bestellung generiert werden. Auf _Seite „Gutschriften_ werden die Gutschriften aufgelistet, die Kunden ausgestellt wurden.
@@ -40,15 +54,15 @@ Die [Zahlungsmethode](payments.md) für die Bestellung bestimmt in gewissem Umfa
 Sie können Bestellungen auf drei Arten zurückerstatten:
 
 - Kontoguthaben - Bestellungen, die über ein Kreditkonto bezahlt wurden, können als Kontoguthaben zurückerstattet werden:
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) [Gutschrift speichern](../customers/store-credit-using.md)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B) [Zahlung auf Rechnung](../b2b/enable-basic-features.md#configure-payment-on-account) (Offline-Methode)
-   - ![Adobe Commerce B2B](../assets/b2b.svg) (mit Adobe Commerce B2B verfügbar) [Firmenguthaben](../b2b/credit-company.md)
+  - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) [Gutschrift speichern](../customers/store-credit-using.md)
+  - ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B) [Zahlung auf Rechnung](../b2b/enable-basic-features.md#configure-payment-on-account) (Offline-Methode)
+  - ![Adobe Commerce B2B](../assets/b2b.svg) (mit Adobe Commerce B2B verfügbar) [Firmenguthaben](../b2b/credit-company.md)
 - [Online-Rückerstattung](payments.md#online-payment-methods) - Bestellungen, die per Kreditkarte über ein Zahlungs-Gateway wie PayPal oder Braintree bezahlt werden, werden online über den Zahlungsprozessor zurückerstattet.
 - [Offline-Rückerstattung](payments.md#offline-payment-methods) - Bestellungen, die per Nachnahme ([COD](cash-on-delivery.md)) oder per [Scheck oder Zahlungsanweisung bezahlt werden](check-money-order.md) werden offline zurückerstattet.
 
 Sie können für jede Zahlungsmethode eine Offline-Rückerstattung oder Kontogutschrift (falls aktiviert) vornehmen.
 
-Eine Bestellung, die per Nachnahme ([&#128279;](cash-on-delivery.md) COD) oder per [Scheck oder &#x200B;](check-money-order.md) bezahlt wurde, wird offline zurückerstattet.
+Eine Bestellung, die per Nachnahme ([](cash-on-delivery.md) COD) oder per [Scheck oder ](check-money-order.md) bezahlt wurde, wird offline zurückerstattet.
 
 ## Erstattungs-Workflow
 

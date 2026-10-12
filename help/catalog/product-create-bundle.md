@@ -3,29 +3,39 @@ title: Produkt im Paket
 description: Erfahren Sie, wie Sie ein Produktpaket erstellen, mit dem Käufer ein benutzerdefiniertes Produkt in Ihrem Geschäft erstellen können.
 exl-id: dfa31eb8-2330-44eb-889b-5d10ce56ef13
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/T4-rAn2fY1I71IAt00o5kKY62NTAYhr-WO0QGdkyNE0
+TQID: 'https://experienceleague.adobe.com/T4-rAn2fY1I71IAt00o5kKY62NTAYhr-WO0QGdkyNE0'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1616
+source-wordcount: '1616'
 ht-degree: 0%
-
 ---
-
 # Produkt im Paket
 
 Ein Bundle ist ein _eigenes erstellen_, anpassbares Produkt. Jedes Element in einem Bundle kann auf einem der folgenden Produkttypen basieren:
@@ -55,7 +65,7 @@ Die folgenden Anweisungen führen Sie durch den Prozess der Erstellung eines Pro
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
-1. Wählen Sie oben rechts im Menü _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Bundle Product]**&#x200B;aus.
+1. Wählen Sie oben rechts im Menü _[!UICONTROL Add Product]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Bundle Product]**aus.
 
    ![Bundle-Produkt hinzufügen](./assets/product-add-bundle.png){width="700" zoomable="yes"}
 
@@ -98,7 +108,7 @@ Das Formular wird mit der Änderung aktualisiert.
 
 1. Klicken Sie auf **[!UICONTROL Save]** und fahren Sie fort.
 
-   Wenn das Produkt gespeichert wird, wird [&#x200B; Auswahl „Store](introduction.md#product-scope)Ansicht“ in der oberen linken Ecke angezeigt.
+   Wenn das Produkt gespeichert wird, wird [ Auswahl „Store](introduction.md#product-scope)Ansicht“ in der oberen linken Ecke angezeigt.
 
 1. Wählen Sie die **[!UICONTROL Store View]** aus, in der das Produkt verfügbar sein soll.
 
@@ -131,7 +141,7 @@ Das Formular wird mit der Änderung aktualisiert.
 
 1. Akzeptieren Sie die **[!UICONTROL Visibility]** Standardeinstellung von `Catalog, Search`.
 
-1. Um dem Produkt _[!UICONTROL Categories]_&#x200B;zuzuweisen, klicken Sie auf das **[!UICONTROL Select…]**&#x200B;und führen Sie einen der folgenden Schritte aus:
+1. Um dem Produkt _[!UICONTROL Categories]_zuzuweisen, klicken Sie auf das **[!UICONTROL Select…]**und führen Sie einen der folgenden Schritte aus:
 
    **Vorhandene Kategorie auswählen:**
 
@@ -155,7 +165,7 @@ Das Formular wird mit der Änderung aktualisiert.
 
 ## Schritt 5: Bundle-Elemente hinzufügen
 
-Der Abschnitt _[!UICONTROL Bundle Items]_&#x200B;wird verwendet, um Elemente zu einem Bundle-Produkttyp hinzuzufügen und die aktuelle Auswahl von Elementen zu bearbeiten.
+Der Abschnitt _[!UICONTROL Bundle Items]_wird verwendet, um Elemente zu einem Bundle-Produkttyp hinzuzufügen und die aktuelle Auswahl von Elementen zu bearbeiten.
 
 ![Für ein Produkt definierte Bundle-Elemente](./assets/product-bundle-items-ball.png){width="600" zoomable="yes"}
 
@@ -164,7 +174,7 @@ Der Abschnitt _[!UICONTROL Bundle Items]_&#x200B;wird verwendet, um Elemente zu 
    - `Separately`
    - `Together`
 
-   Wenn Sie `Together` auswählen, müssen allen Bundle-Elementen dieselbe [Quelle“ zugewiesen &#x200B;](../inventory-management/sources-manage.md).
+   Wenn Sie `Together` auswählen, müssen allen Bundle-Elementen dieselbe [Quelle“ zugewiesen ](../inventory-management/sources-manage.md).
 
 1. Klicken Sie auf **[!UICONTROL Add Option]** und führen Sie folgende Schritte aus:
 
@@ -172,10 +182,10 @@ Der Abschnitt _[!UICONTROL Bundle Items]_&#x200B;wird verwendet, um Elemente zu 
 
    - Legen Sie **[!UICONTROL Input Type]** auf eine der folgenden Einstellungen fest:
 
-      - `Drop-down`
-      - `Radio buttons`
-      - `Checkbox`
-      - `Multiple Select`
+     - `Drop-down`
+     - `Radio buttons`
+     - `Checkbox`
+     - `Multiple Select`
 
    - Um das Feld zu einem erforderlichen Eintrag zu machen, aktivieren Sie das Kontrollkästchen **[!UICONTROL Required]** .
 
@@ -249,7 +259,7 @@ Scrollen Sie nach unten und füllen Sie die Informationen in den folgenden Absch
 
    **Methode 2:** Speichern und schließen
 
-   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**&#x200B;aus.
+   Wählen Sie im Menü _[!UICONTROL Save]_( ![Menüpfeil](../assets/icon-menu-down-arrow-red.png){width="25"} ) die Option **[!UICONTROL Save & Close]**aus.
 
 ## Eingabedialoge
 

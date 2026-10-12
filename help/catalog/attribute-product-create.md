@@ -3,32 +3,42 @@ title: Produktattribute erstellen und löschen
 description: Erfahren Sie mehr über das Erstellen und Entfernen von Produktattributen, mit denen bestimmte Merkmale der Produkte in Ihrem Katalog beschrieben werden.
 exl-id: fd0e5d5b-a917-4e55-8ec2-7ebb040d3d06
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q
+TQID: 'https://experienceleague.adobe.com/6N9gBrz24wtV4ljexgluyonOcjVbP8p2fQUQaLyJo3Q'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 48a3ef28a4d4b99c77a5e24a5f09987d57935b9a
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 922
+source-wordcount: '922'
 ht-degree: 0%
-
 ---
-
 # Produktattribute erstellen und löschen
 
-Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!UICONTROL Product Attributes]_&#x200B;arbeiten. Die folgenden Schritte zeigen, wie Sie Attribute über das Menü&#x200B;_[!UICONTROL Stores]_ erstellen.
+Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!UICONTROL Product Attributes]_arbeiten. Die folgenden Schritte zeigen, wie Sie Attribute über das Menü_[!UICONTROL Stores]_ erstellen.
 
 ## Schritt 1: Grundlegende Attributeigenschaften beschreiben
 
@@ -48,7 +58,7 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
 1. Gehen Sie für die Eingabetypen [!UICONTROL Dropdown] und [!UICONTROL Multiple Select] wie folgt vor:
 
-   - Klicken Sie unter _[!UICONTROL Manage Options]_&#x200B;auf **[!UICONTROL Add Option]**.
+   - Klicken Sie unter _[!UICONTROL Manage Options]_auf **[!UICONTROL Add Option]**.
 
    - Geben Sie den ersten Wert ein, der in der Liste angezeigt werden soll.
 
@@ -70,7 +80,7 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
    ![Produktattribut - Erweiterte Eigenschaften](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-   Die verfügbaren Optionen hängen von der _[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;ab.
+   Die verfügbaren Optionen hängen von der _[!UICONTROL Catalog Input Type for Store Owner]_ab.
 
 1. Um anzugeben, wo in [Store-](../getting-started/websites-stores-views.md) das Attribut verwendet werden kann, legen Sie **[!UICONTROL Scope]** fest.
 
@@ -91,8 +101,8 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
 1. Um dieses Attribut zur &quot;[&quot; hinzuzufügen](products-list.md) legen Sie die folgenden Optionen auf `Yes` fest.
 
-   - **Zu Spaltenoptionen hinzufügen** - Schließt das Attribut als Spalte in die _[!UICONTROL Products]_&#x200B;ein.
-   - **In Filteroptionen verwenden** - Fügt der Spaltenüberschrift in der _[!UICONTROL Products]_&#x200B;ein Filtersteuerelement hinzu.
+   - **Zu Spaltenoptionen hinzufügen** - Schließt das Attribut als Spalte in die _[!UICONTROL Products]_ein.
+   - **In Filteroptionen verwenden** - Fügt der Spaltenüberschrift in der _[!UICONTROL Products]_ein Filtersteuerelement hinzu.
 
 ## Schritt 3: Feldbezeichnung eingeben
 
@@ -106,7 +116,7 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
    >[!NOTE]
    >
-   > Wenn Sie beabsichtigen, dieses Attribut als Facette in der Live-Suche zu verwenden, müssen Sie eine Store-spezifische Beschriftung angeben. Andernfalls wird der Attributname möglicherweise nicht korrekt auf der Seite zur Facettenkonfiguration angezeigt. Um die Konfiguration zu aktualisieren, bearbeiten Sie den Titel manuell mit der Option [Bearbeiten“ in der Facette Live Search](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) im _Live Search-Handbuch_.
+   > Wenn Sie beabsichtigen, dieses Attribut als Facette in der Live-Suche zu verwenden, müssen Sie eine Store-spezifische Beschriftung angeben. Andernfalls wird der Attributname möglicherweise nicht korrekt auf der Seite zur Facettenkonfiguration angezeigt. Um die Konfiguration zu aktualisieren, bearbeiten Sie den Titel manuell mit der Option [Bearbeiten“ in der Facette Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) im _Live Search-Handbuch_.
 
 ## Schritt 4: Beschreiben Sie die Eigenschaften der Storefront
 
@@ -114,7 +124,7 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
    ![Produktattribute - Storefront-Eigenschaften](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-   Die verfügbaren Optionen hängen von der _[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;ab.
+   Die verfügbaren Optionen hängen von der _[!UICONTROL Catalog Input Type for Store Owner]_ab.
 
 1. Wenn das Attribut für die Suche verfügbar sein soll, setzen Sie **[!UICONTROL Use in Search]** auf `Yes`.
 

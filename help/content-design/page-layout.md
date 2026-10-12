@@ -2,19 +2,30 @@
 title: Seiten-Layouts
 description: Erfahren Sie mehr über die Abschnitte zum Seiten-Layout und zum Konfigurieren von Standard-Layouts.
 exl-id: 397a92cf-6f20-4729-8d7c-c5f672fc1c9a
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '906'
 ht-degree: 0%
-
 ---
-
 # Seiten-Layouts
 
 Das Layout jeder Seite in Ihrem Store besteht aus verschiedenen Abschnitten oder Containern, die die Kopfzeilen-, Fußzeilen- und Inhaltsbereiche der Seite definieren. Je nach Layout kann jede Seite eine, zwei, drei Spalten oder mehr haben. Sie können sich das Layout als &quot;_&quot;_ Seite vorstellen und ein spezifisches Layout zuweisen, das als Standard für CMS-, Produkt- und Kategorieseiten verwendet wird.
 
-Auf der Seite werden Inhaltsblöcke je nach Abschnitt des Seitenlayouts, in dem sie angezeigt werden sollen, so verschoben[&#x200B; dass sie &#x200B;](layout-updates.md) verfügbaren Platz ausfüllen. Beachten Sie, dass beim Ändern des Layouts von einem dreispaltigen zu einem zweispaltigen Layout der Inhalt des Hauptbereichs erweitert wird, um den verfügbaren Platz zu füllen. Beachten Sie außerdem, dass alle Blöcke, die mit der nicht verwendeten Seitenleiste verknüpft sind, zu verschwinden scheinen. Wenn Sie jedoch das dreispaltige Layout wiederherstellen, werden die Blöcke erneut angezeigt. Dieser fließende Ansatz oder _Liquid Layout_ ermöglicht es, das Seiten-Layout zu ändern, ohne den Inhalt überarbeiten zu müssen. Wenn Sie es gewohnt sind, mit einzelnen HTML-Seiten zu arbeiten, erfordert dieser modulare _Baustein_-Ansatz eine andere Denkweise.
+Auf der Seite werden Inhaltsblöcke je nach Abschnitt des Seitenlayouts, in dem sie angezeigt werden sollen, so verschoben[ dass sie ](layout-updates.md) verfügbaren Platz ausfüllen. Beachten Sie, dass beim Ändern des Layouts von einem dreispaltigen zu einem zweispaltigen Layout der Inhalt des Hauptbereichs erweitert wird, um den verfügbaren Platz zu füllen. Beachten Sie außerdem, dass alle Blöcke, die mit der nicht verwendeten Seitenleiste verknüpft sind, zu verschwinden scheinen. Wenn Sie jedoch das dreispaltige Layout wiederherstellen, werden die Blöcke erneut angezeigt. Dieser fließende Ansatz oder _Liquid Layout_ ermöglicht es, das Seiten-Layout zu ändern, ohne den Inhalt überarbeiten zu müssen. Wenn Sie es gewohnt sind, mit einzelnen HTML-Seiten zu arbeiten, erfordert dieser modulare _Baustein_-Ansatz eine andere Denkweise.
 
 ![Standard, zweispaltig, mit Seitenlayout in der linken Leiste](./assets/storefront-2-column-ee.png){width="700" zoomable="yes"}
 
@@ -22,7 +33,7 @@ Auf der Seite werden Inhaltsblöcke je nach Abschnitt des Seitenlayouts, in dem 
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Web]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Web]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Default Layouts]** .
 
@@ -99,13 +110,13 @@ Das _[!UICONTROL 2 Columns with Left Bar]_-Layout wird häufig für Seiten mit N
 
 ![Diagramm - Zwei-Spalten-Layout mit rechter Leiste](./assets/layout-2-col-rt-bar-th.png){zoomable="yes"}
 
-Mit einem _[!UICONTROL 2 Columns with Right Bar]_&#x200B;Layout ist der Hauptinhaltsbereich groß genug für ein ansprechendes Bild oder Banner. Dieses Layout wird auch häufig für Produktseiten mit Blöcken unterstützender Inhalte auf der rechten Seite verwendet.
+Mit einem _[!UICONTROL 2 Columns with Right Bar]_Layout ist der Hauptinhaltsbereich groß genug für ein ansprechendes Bild oder Banner. Dieses Layout wird auch häufig für Produktseiten mit Blöcken unterstützender Inhalte auf der rechten Seite verwendet.
 
 ### Drei Spalten
 
 ![Diagramm - Drei-Spalten-Layout](./assets/layout-3-col-th.png){zoomable="yes"}
 
-Das _[!UICONTROL 3 Column]_&#x200B;Layout verfügt über eine mittlere Spalte, die breit genug für den Haupttext der Seite ist, mit Platz auf jeder Seite für zusätzliche Navigation und Blöcke mit unterstützenden Inhalten.
+Das _[!UICONTROL 3 Column]_Layout verfügt über eine mittlere Spalte, die breit genug für den Haupttext der Seite ist, mit Platz auf jeder Seite für zusätzliche Navigation und Blöcke mit unterstützenden Inhalten.
 
 ### leer
 

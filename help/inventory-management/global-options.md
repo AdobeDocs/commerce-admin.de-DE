@@ -1,35 +1,44 @@
 ---
-title: Konfigurieren  [!DNL Inventory Management]  globalen Optionen
-description: Konfigurieren Sie  [!DNL Inventory Management]  globalen Katalogeinstellungen für Produktbestandsoptionen, Schwellenwerte und die Anzeige von Storefronts auf allen Websites.
+title: Konfigurieren [!DNL Inventory Management] globalen Optionen
+description: Konfigurieren Sie globale [!DNL Inventory Management] für Produktbestandsoptionen, Schwellenwerte und die Anzeige von Storefronts auf allen Websites.
 exl-id: 1a8c9605-ae61-4d45-b549-64911b329203
 feature: Inventory, Configuration
-TQID: https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY
+TQID: 'https://experienceleague.adobe.com/X4jFdmL4uXR6J5NY9z7b-swhmrVYWLTgOZVdNebJtXY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ca077051a26ab57194eef45f57351e2f6b1b0b6b
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: '759'
 ht-degree: 1%
-
 ---
-
 # Konfigurieren [!DNL Inventory Management] globalen Optionen
 
 Diese globalen Einstellungen gelten für Ihren gesamten Katalog unter **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**.
 
-Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und Lager für Ihre Websites. Einige dieser Einstellungen können pro Produkt über „Konfigurieren von [&quot; überschrieben &#x200B;](product-options.md). Informationen zum Konfigurieren der Distanzprioritätseinstellungen finden Sie [Konfigurieren des Distanzprioritätsalgorithmus](distance-priority-algorithm.md).
+Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und Lager für Ihre Websites. Einige dieser Einstellungen können pro Produkt über „Konfigurieren von [&quot; überschrieben ](product-options.md). Informationen zum Konfigurieren der Distanzprioritätseinstellungen finden Sie [Konfigurieren des Distanzprioritätsalgorithmus](distance-priority-algorithm.md).
 
 ## Globale Konfiguration von Produkt- und Lageroptionen
 
@@ -97,7 +106,7 @@ Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und
 
    >[!NOTE]
    >
-   >Die `sourceAvailability`-Abfrage ist standardmäßig deaktiviert, da sie angibt, aus welchen Quellen eine SKU stammt. Exakte Mengen bleiben maskiert, bis die Quellmenge die im _[!UICONTROL Stock Options]_&#x200B;festgelegte **[!UICONTROL Only X left Threshold]**&#x200B;erreicht. Jede Inventarquelle verfügt über eine **[!UICONTROL Visible on Storefront]**, die standardmäßig deaktiviert ist. Das Lager einer Quelle wird erst zurückgegeben, wenn es ein Händler aktiviert hat. Um sie festzulegen, gehen Sie zu **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, bearbeiten Sie eine Quelle und aktivieren Sie **[!UICONTROL Visible on Storefront]**.
+   >Die `sourceAvailability`-Abfrage ist standardmäßig deaktiviert, da sie angibt, aus welchen Quellen eine SKU stammt. Exakte Mengen bleiben maskiert, bis die Quellmenge die im _[!UICONTROL Stock Options]_festgelegte **[!UICONTROL Only X left Threshold]**erreicht. Jede Inventarquelle verfügt über eine **[!UICONTROL Visible on Storefront]**, die standardmäßig deaktiviert ist. Das Lager einer Quelle wird erst zurückgegeben, wenn es ein Händler aktiviert hat. Um sie festzulegen, gehen Sie zu **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, bearbeiten Sie eine Quelle und aktivieren Sie **[!UICONTROL Visible on Storefront]**.
 
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Admin bulk operations]** und legen Sie die Optionen fest:
@@ -106,11 +115,11 @@ Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und
 
    - **[!UICONTROL Run asynchronously]** für die asynchrone Ausführung von Massenvorgängen für Massenproduktaktionen
 
-     Zu diesen Vorgängen gehören [&#x200B; „Zuordnung und Aufhebung der Zuweisung von &#x200B;](bulk-assignment.md)&quot; und [Übertragung von Inventar zur Quelle](inventory-transfer.md). Sie erfasst Massenaktionen bis zur asynchronen Batch-Größe und führt diese Aktionen aus. Standardmäßig ist diese Option deaktiviert. Es wird empfohlen, vor der Aktivierung Ihre Leistung mit Massenaktionen zu überprüfen.
+     Zu diesen Vorgängen gehören [ „Zuordnung und Aufhebung der Zuweisung von ](bulk-assignment.md)&quot; und [Übertragung von Inventar zur Quelle](inventory-transfer.md). Sie erfasst Massenaktionen bis zur asynchronen Batch-Größe und führt diese Aktionen aus. Standardmäßig ist diese Option deaktiviert. Es wird empfohlen, vor der Aktivierung Ihre Leistung mit Massenaktionen zu überprüfen.
 
      >[!NOTE]
      >
-     >Zum Konfigurieren und Unterstützen _asynchroner Warteschlangenmanager_ müssen Sie einen Befehl über die Befehlszeile eingeben. Für diesen Schritt ist möglicherweise die Unterstützung eines Entwicklers erforderlich. Siehe [Starten von Nachrichtenwarteschlangen-](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cli/start-message-queues) im _Konfigurationshandbuch_.
+     >Zum Konfigurieren und Unterstützen _asynchroner Warteschlangenmanager_ müssen Sie einen Befehl über die Befehlszeile eingeben. Für diesen Schritt ist möglicherweise die Unterstützung eines Entwicklers erforderlich. Siehe [Starten von Nachrichtenwarteschlangen-](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/start-message-queues) im _Konfigurationshandbuch_.
 
    - Wenn aktiviert, legen Sie die **[!UICONTROL Asynchronous batch size]** fest. Die standardmäßige Batch-Größe ist 100. Wenn Massenprozesse diesen Wert erreichen, wird er vom System Trigger.
 

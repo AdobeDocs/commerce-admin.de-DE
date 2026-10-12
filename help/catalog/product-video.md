@@ -3,29 +3,41 @@ title: Hinzufügen von Produktvideos
 description: Erfahren Sie, wie Sie Produktvideos für Ihren Store konfigurieren. Dafür wird ein YouTube-Daten-API-Schlüssel von einem Google-Konto benötigt, und fügen Sie einen Video-Link für ein Produkt hinzu.
 exl-id: 0cfcee67-a2e2-41cb-ac70-304452f5db6d
 feature: Catalog Management, Products, Media
-TQID: https://experienceleague.adobe.com/5OKezHnnZ3xhLOAEdxNZZXKn0wUuC37E0I5iHI-4N58
+TQID: 'https://experienceleague.adobe.com/5OKezHnnZ3xhLOAEdxNZZXKn0wUuC37E0I5iHI-4N58'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: '716'
 ht-degree: 0%
-
 ---
-
 # Hinzufügen von Produktvideos
 
 Um ein Produktvideo hinzuzufügen, müssen Sie zunächst einen API-Schlüssel von Ihrem Google-Konto abrufen und ihn in die Konfiguration Ihres Stores eingeben. Anschließend können Sie vom Produkt aus eine Verknüpfung zum Video herstellen.
@@ -60,7 +72,7 @@ Um ein Produktvideo hinzuzufügen, müssen Sie zunächst einen API-Schlüssel vo
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen Sie darunter **[!UICONTROL Catalog]**.
 
-1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Product Video]_&#x200B;und fügen Sie Ihre **[!UICONTROL YouTube API key]**&#x200B;ein.
+1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt _[!UICONTROL Product Video]_und fügen Sie Ihre **[!UICONTROL YouTube API key]**ein.
 
    ![Konfiguration des Produktvideos](../configuration-reference/catalog/assets/catalog-product-video.png){width="600" zoomable="yes"}
 
@@ -72,7 +84,7 @@ Um ein Produktvideo hinzuzufügen, müssen Sie zunächst einen API-Schlüssel vo
 
 1. Öffnen Sie ein Produkt im Bearbeitungsmodus.
 
-1. Scrollen Sie zum Abschnitt _[!UICONTROL Images and Videos]_&#x200B;und erweitern Sie ihn.
+1. Scrollen Sie zum Abschnitt _[!UICONTROL Images and Videos]_und erweitern Sie ihn.
 
    ![Bilder und Videos](./assets/product-simple-images-videos.png){width="600" zoomable="yes"}
 
@@ -110,7 +122,7 @@ Um ein Produktvideo hinzuzufügen, müssen Sie zunächst einen API-Schlüssel vo
 
    >[!NOTE]
    >
-   >Wenn die _[!UICONTROL Autostart base video]_&#x200B;Konfigurationsoption auf `Yes` festgelegt ist, das Video jedoch nicht automatisch wiedergegeben wird, kann dies an den automatischen Wiedergaberichtlinien liegen, die vom Browser erzwungen werden und nicht von Adobe Commerce gesteuert werden können. Jeder unterstützte Browser verfügt über seine eigenen Richtlinien zur automatischen Wiedergabe, die sich im Laufe der Zeit ändern können, und Ihr Video wird in Zukunft möglicherweise nicht automatisch wiedergegeben. Als Best Practice wird empfohlen, sich nicht auf die automatische Wiedergabe für geschäftskritische Funktionen zu verlassen und das Verhalten der automatischen Videowiedergabe in Ihrem Store mit jedem unterstützten Browser zu testen.
+   >Wenn die _[!UICONTROL Autostart base video]_Konfigurationsoption auf `Yes` festgelegt ist, das Video jedoch nicht automatisch wiedergegeben wird, kann dies an den automatischen Wiedergaberichtlinien liegen, die vom Browser erzwungen werden und nicht von Adobe Commerce gesteuert werden können. Jeder unterstützte Browser verfügt über seine eigenen Richtlinien zur automatischen Wiedergabe, die sich im Laufe der Zeit ändern können, und Ihr Video wird in Zukunft möglicherweise nicht automatisch wiedergegeben. Als Best Practice wird empfohlen, sich nicht auf die automatische Wiedergabe für geschäftskritische Funktionen zu verlassen und das Verhalten der automatischen Videowiedergabe in Ihrem Store mit jedem unterstützten Browser zu testen.
 
 ## Verwalten von Videorollen auf Store-Ansichtsebene
 
@@ -120,7 +132,7 @@ Wenn Sie ein Video hinzufügen oder bearbeiten, während Sie in einem bestimmten
 
 ## API-Zugriff verwalten
 
-Gemäß den Google-[&#x200B; (Nutzungsbedingungen](https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services) kann YouTube den API-Zugriff für Konten deaktivieren, die seit mehr als 90 Tagen inaktiv sind. Dieses Ereignis kann dazu führen, dass Ihre Videos nicht angezeigt werden. Um den API-Zugriff auf dem neuesten Stand zu halten, verwenden Sie einen Cron-Auftrag, um die API in regelmäßigen Abständen anzupingen:
+Gemäß den Google-[ (Nutzungsbedingungen](https://developers.google.com/youtube/terms/developer-policies#d.-accessing-youtube-api-services) kann YouTube den API-Zugriff für Konten deaktivieren, die seit mehr als 90 Tagen inaktiv sind. Dieses Ereignis kann dazu führen, dass Ihre Videos nicht angezeigt werden. Um den API-Zugriff auf dem neuesten Stand zu halten, verwenden Sie einen Cron-Auftrag, um die API in regelmäßigen Abständen anzupingen:
 
 ```code
 30 10 1 * * curl -i -G -e https://yourdomain.com/ -d "part=snippet&maxResults=1&q=test&key=YOUTUBEAPIKEY" https://www.googleapis.com/youtube/v3/search >/dev/null 2>&1

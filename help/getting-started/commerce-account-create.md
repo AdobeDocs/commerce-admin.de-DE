@@ -1,39 +1,48 @@
 ---
-title: 'Konto erstellen und  [!DNL Commerce] '
-description: Erfahren Sie mehr über  [!DNL Commerce] -Konten, die die von Ihnen erworbenen Produkte und Services verwalten.
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+title: '[!DNL Commerce] Konto erstellen und aufrufen'
+description: Erfahren Sie mehr über [!DNL Commerce]-Konten, die die von Ihnen erworbenen Produkte und Services verwalten.
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 exl-id: 45f938c8-9bd9-4bd3-ac12-cce722a61e03
 feature: User Account
-TQID: https://experienceleague.adobe.com/yLnMGRFDtzHhx0bEg5QhKJWc2cr-psvuq9RMEhbHX0s
+TQID: 'https://experienceleague.adobe.com/yLnMGRFDtzHhx0bEg5QhKJWc2cr-psvuq9RMEhbHX0s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
 subfeature_v2:
   - id: d41d3a54-9721-475c-abd6-295bebfba9e4
+    internal-label: Login credentials and URLs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a3817847081e56272e3677dede02d992e760a2d4
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: '1133'
 ht-degree: 0%
-
 ---
-
 # Zugriff auf Ihr [!DNL Commerce]
 
 Ein [!DNL Commerce]-Konto ist Ihr zentraler Zugriffspunkt für die Verwaltung von Adobe Commerce-Services für Adobe Commerce-Projekte, die in der Cloud-Infrastruktur oder lokal bereitgestellt werden. Über das Konto-Dashboard können Sie Abonnements anzeigen, Commerce Services-API-Schlüssel verwalten, historische Rechnungsinformationen überprüfen und mit anderen Benutzenden in Ihrem Unternehmen zusammenarbeiten.
 
-Wenn Sie Ihr erstes [&#x200B; einreichen oder &#x200B;](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) Adobe Commerce-Beziehung verwalten müssen, anstatt in einer bestimmten Storefront zu arbeiten, erstellen oder greifen Sie zunächst auf Ihr [!DNL Commerce]-Konto zu.
+Wenn Sie Ihr erstes [ einreichen oder ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) Adobe Commerce-Beziehung verwalten müssen, anstatt in einer bestimmten Storefront zu arbeiten, erstellen oder greifen Sie zunächst auf Ihr [!DNL Commerce]-Konto zu.
 
-Sie können über die [!DNL Commerce]-Website auf Ihr [!DNL Commerce]-Konto zugreifen. Im Konto-Dashboard können Sie Informationen zu den von Ihnen erworbenen Produkten und Services anzeigen und anderen Benutzern [freigegebenen Zugriff](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) gewähren. Einige Informationen, z. B. Commerce Services-API-Schlüssel, sind nur für Lizenzinhaber sichtbar.
+Sie können über die [!DNL Commerce]-Website auf Ihr [!DNL Commerce]-Konto zugreifen. Im Konto-Dashboard können Sie Informationen zu den von Ihnen erworbenen Produkten und Services anzeigen und anderen Benutzern [freigegebenen Zugriff](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#provide-shared-access) gewähren. Einige Informationen, z. B. Commerce Services-API-Schlüssel, sind nur für Lizenzinhaber sichtbar.
 
 >[!NOTE]
 >
@@ -49,7 +58,7 @@ Benutzende, die ihre Anmeldung bei Adobe Commerce- und Adobe Business-Produkten 
 
 >[!NOTE]
 >
->Nachdem Sie Ihr -Konto erstellt haben, wird empfohlen, die Zwei-Faktor-Authentifizierung (TFA) zu verwenden, um [Ihr -Konto zu &#x200B;](commerce-account-secure.md).
+>Nachdem Sie Ihr -Konto erstellt haben, wird empfohlen, die Zwei-Faktor-Authentifizierung (TFA) zu verwenden, um [Ihr -Konto zu ](commerce-account-secure.md).
 
 ## Beim [!DNL Commerce]-Konto anmelden
 
@@ -57,7 +66,7 @@ Für den Zugriff auf Ihr [!DNL Commerce] ist eine Adobe ID erforderlich. Wenn Si
 
 >[!WARNING]
 >
->Wenn Sie beim Senden eines Adobe Commerce-[Support-Falls](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) die Commerce-Organisation nicht finden können, bedeutet dies normalerweise Folgendes: Der Kontoinhaber hat keine Adobe ID erstellt, oder es gibt eine Adobe ID, die jedoch nicht mit dem Commerce-Konto verknüpft ist.
+>Wenn Sie beim Senden eines Adobe Commerce-[Support-Falls](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) die Commerce-Organisation nicht finden können, bedeutet dies normalerweise Folgendes: Der Kontoinhaber hat keine Adobe ID erstellt, oder es gibt eine Adobe ID, die jedoch nicht mit dem Commerce-Konto verknüpft ist.
 
 1. Navigieren Sie zur [[!DNL Commerce]](https://account.magento.com/customer/account/login/).
 
@@ -125,7 +134,7 @@ Mit Shared Access können Sie vertrauenswürdigen Benutzenden (z. B. Kollegen, P
 
 Im Abschnitt [Freigeben eines Commerce-](/help/getting-started/commerce-account-share.md)&quot; in den ersten Schritten mit Adobe Commerce finden Sie ausführliche Schritte zum Einrichten eines freigegebenen Kontos.
 
-Detaillierte Anweisungen zum Senden eines Commerce-Support-Falls finden Sie im [Benutzerhandbuch für das Adobe Commerce Help Center](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
+Detaillierte Anweisungen zum Senden eines Commerce-Support-Falls finden Sie im [Benutzerhandbuch für das Adobe Commerce Help Center](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
 
 ## Zusammenfassung
 

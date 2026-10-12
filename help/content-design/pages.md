@@ -1,31 +1,40 @@
 ---
 title: Seiten
-description: Erfahren Sie mehr über die wichtigsten Inhaltsseiten, die im Demo [!DNL Commerce] Store enthalten sind, und über das Ändern der Konfiguration der Standardseiten.
+description: Erfahren Sie mehr über die wichtigsten Inhaltsseiten, die im [!DNL Commerce] Demo-Store enthalten sind, und über das Ändern der Konfiguration der Standardseiten.
 exl-id: 4be7d3d6-ce36-42bc-9224-4804c3211f16
 feature: Page Content, Configuration
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-TQID: https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: 'https://experienceleague.adobe.com/8vTCiNl1daEV7Tpxxusbwhv8R9-qwZh6-fimyORElIk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: '944'
 ht-degree: 0%
-
 ---
-
 # Seiten
 
 Inhalte können in Bezug auf ihre Haltbarkeit angezeigt werden, genau wie jedes Produkt in einem Geschäft. Wussten Sie, dass die Haltbarkeit von Social-Media-Inhalten weniger als 24 Stunden beträgt? Die potenzielle Haltbarkeit der von Ihnen erstellten Inhalte kann Ihnen bei der Entscheidung helfen, wo Sie Ihre Ressourcen investieren möchten.
@@ -44,7 +53,7 @@ Die Demo[Startseite](../getting-started/storefront.md#home-page) enthält ein Ba
 
 ### Datenschutzrichtlinie
 
-Die Seite [&#x200B; Store-](../getting-started/privacy-policy.md) sollte mit Ihren eigenen Informationen aktualisiert werden. Als Best Practice sollte Ihre Datenschutzrichtlinie Ihren Kunden erklären, welche Art von Informationen Ihr Unternehmen erfasst und wie sie verwendet werden.
+Die Seite [ Store-](../getting-started/privacy-policy.md) sollte mit Ihren eigenen Informationen aktualisiert werden. Als Best Practice sollte Ihre Datenschutzrichtlinie Ihren Kunden erklären, welche Art von Informationen Ihr Unternehmen erfasst und wie sie verwendet werden.
 
 ### 404 nicht gefunden
 
@@ -80,7 +89,7 @@ Die Konfiguration _Standardseiten_ bestimmt die Landingpage, die mit der [Basis-
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Web]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Web]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Default Pages]** .
 
@@ -103,7 +112,7 @@ Die Konfiguration _Standardseiten_ bestimmt die Landingpage, die mit der [Basis-
 
    >[!NOTE]
    >
-   >Deaktivieren Sie für eine bestimmte Store-Ansicht das Kontrollkästchen **[!UICONTROL Use Default]** neben _[!UICONTROL Default Web URL]_&#x200B;und ändern Sie alle anderen Standardeinstellungen.
+   >Deaktivieren Sie für eine bestimmte Store-Ansicht das Kontrollkästchen **[!UICONTROL Use Default]** neben _[!UICONTROL Default Web URL]_und ändern Sie alle anderen Standardeinstellungen.
 
 1. Legen Sie **[!UICONTROL CMS Home Page]** auf die CMS-Seite fest, die als Startseite verwendet werden soll. Andere erstellte Seiten können als Homepage verwendet werden, z. B.:
 

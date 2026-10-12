@@ -3,30 +3,41 @@ title: '[!UICONTROL General] > [!UICONTROL General]'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL General] > [!UICONTROL General] des Commerce Admin.
 exl-id: 67760d24-ad12-4c49-9649-0607c57f5cf0
 feature: Configuration, System
-TQID: https://experienceleague.adobe.com/DD7DU4-tlIuIqWiGmRkKaRtAe-dglczocFvEaoIuxSc
+TQID: 'https://experienceleague.adobe.com/DD7DU4-tlIuIqWiGmRkKaRtAe-dglczocFvEaoIuxSc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1028
-ht-degree: 0%
-
+source-wordcount: '1032'
+ht-degree: 1%
 ---
-
 # [!UICONTROL General] > [!UICONTROL General]
 
 {{config}}
@@ -88,7 +99,7 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Zugriff
 |--- |--- |--- |
 | [!UICONTROL Access Restriction] | Website | Bestimmt, ob die Website im eingeschränkten Modus ausgeführt wird.<br /> <br />**`Yes`**- Der Zugriff auf die Website ist auf die in den folgenden Feldern festgelegte Weise eingeschränkt.<br />**`No`** - Einschränkungen sind deaktiviert und die folgenden Einstellungen haben keine Auswirkungen. |
 | [!UICONTROL Restriction Mode] | Website | Bestimmt die Art der Zugriffsbeschränkung, die für die Website gilt.<br /> <br />**`Website Closed`**- Sämtlicher Zugriff auf die Storefront ist eingeschränkt und Storefront-URLs werden vorübergehend zur Landingpage weitergeleitet. Diese Einstellung kann während der Site-Wartung oder vor dem Start nützlich sein.<br />**`Private Sales: Login Only`** - Nur registrierte Kunden können sich anmelden, um auf die Storefront zuzugreifen. Alle Storefront-URLs werden vorübergehend entweder zur angegebenen Landingpage oder zum Anmeldeformular umgeleitet. Benutzende können in diesem Modus kein Konto erstellen.<br />**`Private Sales: Login and Register`**- Benutzer müssen sich anmelden, um auf die Storefront zugreifen zu können. Alle Storefront-URLs werden vorübergehend zum Anmeldeformular umgeleitet, bis sich der Benutzer anmeldet. Benutzer können sich für ein Konto registrieren, während sich die Website in diesem Modus befindet. |
-| [!UICONTROL Startup Page] | Shop-Ansicht | Wenn sich die Website im privaten Verkaufsmodus befindet, bestimmt diese Einstellung die Seite, die angezeigt wird, bis sich der Kunde anmeldet.<br />  <br />**`To login form`**- Benutzer werden zum Anmeldeformular weitergeleitet, bis sie sich anmelden.<br />**`To landing page`** - Benutzer werden zur unten angegebenen statischen Seite weitergeleitet, bis sie sich anmelden.<br /> <br />**_Wichtig!_**&#x200B;Stellen Sie sicher, dass Sie von der angegebenen Landingpage aus einen Link zur Anmeldeseite einfügen, damit sich Kunden anmelden können, um auf die vollständige Site zuzugreifen. |
+| [!UICONTROL Startup Page] | Shop-Ansicht | Wenn sich die Website im privaten Verkaufsmodus befindet, bestimmt diese Einstellung die Seite, die angezeigt wird, bis sich der Kunde anmeldet.<br />  <br />**`To login form`**- Benutzer werden zum Anmeldeformular weitergeleitet, bis sie sich anmelden.<br />**`To landing page`** - Benutzer werden zur unten angegebenen statischen Seite weitergeleitet, bis sie sich anmelden.<br /> <br />**_Wichtig!_**Stellen Sie sicher, dass Sie von der angegebenen Landingpage aus einen Link zur Anmeldeseite einfügen, damit sich Kunden anmelden können, um auf die vollständige Site zuzugreifen. |
 | [!UICONTROL Landing Page] | Shop-Ansicht | Bestimmt die erste Seite, die angezeigt wird, wenn sich die Website im privaten Verkaufsmodus befindet. |
 | [!UICONTROL HTTP Response] | Website | Bestimmt die HTTP-Antwort, die gesendet wird, wenn die Website geschlossen wird und ein Bot, Crawler oder Spider einen Verbindungsversuch unternimmt.<br /> <br />**`503 Service unavailable`**- Die Seite ist nicht verfügbar, aber die Spinne sollte den Index nicht aktualisieren.<br />**`200 OK`** - Die Landingpage ist korrekt und sollte von der Spinne als einzige Seite auf der Website behandelt werden. |
 | [!UICONTROL Enable Autocomplete on login/forgot password forms] | Website | Bestimmt, ob die Felder in den _Anmelden_ und _Kennwort vergessen_ Formularen automatisch aus vorherigen Einträgen ausgefüllt werden. Optionen: `Yes` / `No` |
@@ -134,6 +145,6 @@ Weitere Informationen zum Ändern dieser Einstellungen finden Sie unter [Einzels
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Commerce Events Enabled] | Global | Diese Konfiguration ist standardmäßig deaktiviert, wenn Sie im Gesundheitswesen tätig sind und die [Data Services HIPAA](https://experienceleague.adobe.com/de/docs/commerce/data-connection/hipaa-readiness)-Erweiterung installiert haben. Daher werden Storefront-Ereignisdaten, die von der Live-Suche und von Produktempfehlungen verwendet werden, nicht mehr erfasst. Dies liegt daran, dass Storefront-Ereignisdaten Client-seitig generiert werden. Um weiterhin Ereignisdaten für die Storefront zu erfassen und zu senden, die von den Services [Live Search](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview) und [Product Recommendations](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/guide-overview) verwendet werden können, setzen Sie **Commerce Events Enabled** auf `Yes`. |
+| [!UICONTROL Commerce Events Enabled] | Global | Diese Konfiguration ist standardmäßig deaktiviert, wenn Sie im Gesundheitswesen tätig sind und die [Data Services HIPAA](https://experienceleague.adobe.com/en/docs/commerce/data-connection/hipaa-readiness)-Erweiterung installiert haben. Daher werden Storefront-Ereignisdaten, die von der Live-Suche und von Produktempfehlungen verwendet werden, nicht mehr erfasst. Dies liegt daran, dass Storefront-Ereignisdaten Client-seitig generiert werden. Um weiterhin Ereignisdaten für die Storefront zu erfassen und zu senden, die von den Services [Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) und [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview) verwendet werden können, setzen Sie **Commerce Events Enabled** auf `Yes`. |
 
 {style="table-layout:auto"}

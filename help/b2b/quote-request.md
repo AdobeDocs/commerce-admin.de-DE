@@ -4,27 +4,40 @@ description: Erfahren Sie, wie Kunden, die mit einem Unternehmenskonto verknüpf
 exl-id: c52176a7-4076-4cea-8ddb-17e0d1a77fd9
 feature: B2B, Quotes
 role: Admin, User
-TQID: https://experienceleague.adobe.com/lRPDBgKHCTklbiZ1QWsvXD--n86T-IySJDu9nv-umsU
+TQID: 'https://experienceleague.adobe.com/lRPDBgKHCTklbiZ1QWsvXD--n86T-IySJDu9nv-umsU'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 258
+source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 # Angebotsanfrage
 
 Wenn Angebote in der Konfiguration [Verkaufsfunktionen](configure-quotes.md) aktiviert sind, kann ein autorisierter Käufer eines Unternehmens den Preisaushandlungsprozess starten, indem er ein Angebot aus seinem Warenkorb anfordert. Wenn ein Käufer nicht bereit ist, ein Angebot zur Verhandlung einzureichen, kann er es als Entwurf speichern.
@@ -35,13 +48,13 @@ Wenn Angebote in der Konfiguration [Verkaufsfunktionen](configure-quotes.md) akt
 
 ## Kundenerlebnis bei Angebotsanfrage
 
-1. Der Kunde meldet sich bei seinem Benutzerkonto als Käufer mit ([) &#x200B;](account-company-roles-permissions.md), um ein Angebot anzufordern.
+1. Der Kunde meldet sich bei seinem Benutzerkonto als Käufer mit ([) ](account-company-roles-permissions.md), um ein Angebot anzufordern.
 
 1. Fügt die Produkte, die im Angebot enthalten sein sollen, zum Warenkorb hinzu.
 
    >[!TIP]
    > 
-   >Kunden können eine Liste von Produkt-SKUs mithilfe von &quot;[&quot; schneller in den Warenkorb &#x200B;](quick-order.md).
+   >Kunden können eine Liste von Produkt-SKUs mithilfe von &quot;[&quot; schneller in den Warenkorb ](quick-order.md).
 
 1. Wählt **[!UICONTROL Request a Quote]** aus.
 

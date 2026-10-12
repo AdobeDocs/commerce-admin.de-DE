@@ -3,27 +3,35 @@ title: Steuern
 description: Erfahren Sie, wie Sie Ihren Store so konfigurieren, dass die Steuern entsprechend den Anforderungen Ihres Gebietsschemas berechnet werden.
 exl-id: bf807132-416f-497a-82c4-b00dba4d3092
 feature: Taxes
-TQID: https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk
+TQID: 'https://experienceleague.adobe.com/qHEJDNo0hUjdWLJjQpXeB7cwzmtCz1t2xnlubLmC3fk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1129
+source-wordcount: '1129'
 ht-degree: 0%
-
 ---
-
 # Steuern
 
 Konfigurieren Sie Ihren Store, um die Steuern entsprechend den Anforderungen Ihres Gebietsschemas zu berechnen. Sie können [Steuerklassen](tax-class.md) für Produkte und Kundengruppen einrichten und [Steuerregeln](tax-rules.md) erstellen, die Produkt- und Kundenklassen, Steuerzonen und Sätze kombinieren. Commerce bietet außerdem Konfigurationseinstellungen für feste Produktsteuern, zusammengesetzte Steuern und die Anzeige von Preisen über internationale Grenzen hinweg. Wenn Sie eine ([) Mehrwertsteuer einziehen müssen](vat.md) können Sie Ihr Geschäft so einrichten, dass der entsprechende Betrag automatisch mit Validierung berechnet wird.
@@ -32,7 +40,7 @@ Konfigurieren Sie Ihren Store, um die Steuern entsprechend den Anforderungen Ihr
 >
 >Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source enthielten die vom Vertex-Anbieter entwickelte Erweiterung , die für die Integration mit Vertex Cloud verwendet wird, um Steuerverwaltung und Adressbereinigung bereitzustellen. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Bundle der Hauptversion enthalten und muss von Commerce Marketplace oder direkt vom Anbieter installiert und aktualisiert werden. [Kontaktieren Sie Vertex](https://marketplace.magento.com/partner/vertex_inc), um Informationen zur Erweiterung und Dokumentation zu erhalten.<br><br>
 >
->Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-](https://experienceleague.adobe.com/de/docs/commerce-operations/upgrade-guide/modules/upgrade) im _Upgrade-Handbuch_.
+>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) im _Upgrade-Handbuch_.
 
 ## Kurzübersicht
 
@@ -103,7 +111,7 @@ Händler, die auf Steuern geprüft werden, die für digitale Waren gezahlt werde
 - Die Lieferadresse des Kunden und ein Nachweis über einen erfolgreichen Zahlungsvorgang können zur Ermittlung des Wohnorts des Kunden verwendet werden. (Die Zahlung wird nur akzeptiert, wenn die Lieferadresse mit den Angaben des Zahlungsanbieters übereinstimmt.)
 - Die Informationen können auch direkt aus dem Datenspeicher in den Commerce-Datenbanktabellen erfasst werden.
 
-_&#x200B;**So erfassen Sie Steuerinformationen für digitale Waren:**&#x200B;_
+_**So erfassen Sie Steuerinformationen für digitale Waren:**_
 
 1. Laden Sie die Steuersätze für alle EU-Mitgliedsländer.
 

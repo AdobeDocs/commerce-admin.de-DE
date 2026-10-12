@@ -3,28 +3,39 @@ title: Verwalten von Newsletter-Abonnenten
 description: Erfahren Sie, wie Sie Ihre Newsletter-Abonnenten mithilfe einer einfachen Liste aktiver Abonnements verwalten können.
 exl-id: c7e8e642-e3fd-4979-9ea3-2d96839730b2
 feature: Customers, Communications
-TQID: https://experienceleague.adobe.com/l4Kmwm62UeLYZva-SCsVHPmf4IbKQhgoyN9N7zo4O0g
+TQID: 'https://experienceleague.adobe.com/l4Kmwm62UeLYZva-SCsVHPmf4IbKQhgoyN9N7zo4O0g'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: '509'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Newsletter-Abonnenten
 
 Als Best Practice sollten Sie Ihre Abonnement-Liste regelmäßig verwalten und sicherstellen, dass Sie alle Anfragen zur Abmeldung bearbeiten. In einigen Ländern ist es gesetzlich vorgeschrieben, dass Abmeldeanfragen innerhalb eines bestimmten Zeitraums bearbeitet werden.
@@ -41,7 +52,7 @@ Wenn Sie Newsletter über einen Drittanbieterdienst versenden möchten, können 
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
 
-1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Edit]**.
+1. Suchen Sie den Kunden im Raster und klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Edit]**.
 
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Newsletter]** .
 
@@ -73,7 +84,7 @@ Wenn Sie Newsletter über einen Drittanbieterdienst versenden möchten, können 
    >
    >Für eine Massenabmeldung aktivieren Sie das Kontrollkästchen jedes Abonnenten, den Sie abbrechen möchten.
 
-1. Legen Sie das _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Unsubscribe]**&#x200B;fest und klicken Sie auf **[!UICONTROL Submit]**.
+1. Legen Sie das _[!UICONTROL Action]_auf **[!UICONTROL Unsubscribe]**fest und klicken Sie auf **[!UICONTROL Submit]**.
 
    ![Newsletter abbestellen](./assets/newsletter-unsubscribe.png){width="600" zoomable="yes"}
 
@@ -98,6 +109,6 @@ Wenn Sie Newsletter über einen Drittanbieterdienst versenden möchten, können 
 
 1. Suchen Sie den Abonnenten im Raster und aktivieren Sie das Kontrollkästchen in der ersten Spalte.
 
-1. Legen Sie das _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Delete]**&#x200B;fest und klicken Sie auf **[!UICONTROL Submit]**.
+1. Legen Sie das _[!UICONTROL Action]_auf **[!UICONTROL Delete]**fest und klicken Sie auf **[!UICONTROL Submit]**.
 
 1. Wenn Sie zum Bestätigen aufgefordert werden, klicken Sie auf **[!UICONTROL OK]**.

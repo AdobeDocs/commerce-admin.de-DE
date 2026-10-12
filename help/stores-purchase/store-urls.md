@@ -3,32 +3,46 @@ title: URLs speichern
 description: Erfahren Sie mehr über Store-URLs und das Konfigurieren der Basis-URL und Store-Codes.
 exl-id: dd7a6317-b0cf-4d0c-9b31-a963c467026b
 feature: Site Management, System
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-TQID: https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: 'https://experienceleague.adobe.com/t-vp20uVrUmg-dRVONHjUUcgxzYBT5--uB8U1XorRPs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1611
+source-wordcount: '1611'
 ht-degree: 1%
-
 ---
-
 # URLs speichern
 
 Jede Website in einer Adobe Commerce- oder Magento Open Source-Installation verfügt über eine Basis-URL, die der Storefront zugewiesen ist, und eine weitere URL, die dem Administrator zugewiesen ist. Adobe verwendet Variablen, um interne Links in Bezug auf die Basis-URL zu definieren. Dies ermöglicht es, einen gesamten Store von einem Speicherort an einen anderen zu verschieben, ohne die Links zu aktualisieren. Standard-Basis-URLs beginnen mit `http` und sichere Basis-URLs beginnen mit `https`.
@@ -65,7 +79,7 @@ Adobe Commerce und Magento Open Source können so konfiguriert werden, dass stan
 
      >[!NOTE]
      >
-     >Ändern Sie den Platzhalter im Feld _[!UICONTROL Base Link URL]_&#x200B;nicht. Dies ist ein Platzhalter, der zum Erstellen relativer Links zur Basis-URL verwendet wird.
+     >Ändern Sie den Platzhalter im Feld _[!UICONTROL Base Link URL]_nicht. Dies ist ein Platzhalter, der zum Erstellen relativer Links zur Basis-URL verwendet wird.
 
    - **[!UICONTROL Base URL for Static View Files]** - (Optional) Geben Sie einen alternativen Speicherort für die Basis-URL für statische Ansichtsdateien an, indem Sie den Pfad eingeben, der mit dem folgenden Platzhalter beginnt:
 
@@ -110,7 +124,7 @@ Wenn Ihre Domain über ein gültiges Sicherheitszertifikat verfügt, können Sie
    - **[!UICONTROL Use Secure URLs on Storefront]**
    - **[!UICONTROL Use Secure URLs in Admin]**
 
-1. Gehen Sie _[!UICONTROL Enhanced Security Settings]_&#x200B;wie folgt vor:
+1. Gehen Sie _[!UICONTROL Enhanced Security Settings]_wie folgt vor:
 
    - **[!UICONTROL Enable HTTP Strict Transport Security (HSTS)]** - Wenn Ihr Store nur sichere HTTPS-Seitenanfragen anzeigen soll, setzen Sie auf `Yes`.
 
@@ -130,7 +144,7 @@ Wenn Ihre Domain über ein gültiges Sicherheitszertifikat verfügt, können Sie
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie unter _[!UICONTROL General]_&#x200B;im linken Bedienfeld **[!UICONTROL Web]**&#x200B;aus.
+1. Wählen Sie unter _[!UICONTROL General]_im linken Bedienfeld **[!UICONTROL Web]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL URL Options]** .
 
@@ -156,7 +170,7 @@ Wenn nach den Konfigurationsanweisungen einige Seiten weiterhin mit der unsicher
 
 ## Benutzerdefinierte Admin-URL verwenden
 
-Als [Best Practice für die Sicherheit](https://experienceleague.adobe.com/de/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices) empfiehlt Adobe die Verwendung einer eindeutigen Admin-URL anstelle des Standardbegriffs _admin_ oder eines allgemeinen Begriffs wie _Backend_. Obwohl Ihre Site dadurch nicht direkt vor einem bestimmten schlechten Akteur geschützt wird, kann dies die Offenlegung gegenüber Skripten reduzieren, die versuchen, nicht autorisierten Zugriff zu erhalten.
+Als [Best Practice für die Sicherheit](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices) empfiehlt Adobe die Verwendung einer eindeutigen Admin-URL anstelle des Standardbegriffs _admin_ oder eines allgemeinen Begriffs wie _Backend_. Obwohl Ihre Site dadurch nicht direkt vor einem bestimmten schlechten Akteur geschützt wird, kann dies die Offenlegung gegenüber Skripten reduzieren, die versuchen, nicht autorisierten Zugriff zu erhalten.
 
 >[!NOTE]
 >
@@ -172,7 +186,7 @@ Obwohl es möglich ist, die Admin-URL und den Pfad zu einem anderen Speicherort 
 
 >[!NOTE]
 >
->Versuchen Sie vorsichtshalber nicht, die Admin-URL selbst zu ändern, es sei denn, Sie wissen, wie Sie Konfigurationsdateien auf dem Server bearbeiten. Ändern Sie für Adobe Commerce-Projekte, die in der Cloud-Infrastruktur bereitgestellt werden, die Admin-URL, indem Sie die [Anweisungen](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url) im Handbuch *Adobe Commerce on Cloud Infrastructure* befolgen.
+>Versuchen Sie vorsichtshalber nicht, die Admin-URL selbst zu ändern, es sei denn, Sie wissen, wie Sie Konfigurationsdateien auf dem Server bearbeiten. Ändern Sie für Adobe Commerce-Projekte, die in der Cloud-Infrastruktur bereitgestellt werden, die Admin-URL, indem Sie die [Anweisungen](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin#admin-url) im Handbuch *Adobe Commerce on Cloud Infrastructure* befolgen.
 
 ### Methode 1: Wechsel vom Administrator
 
@@ -218,7 +232,7 @@ Obwohl es möglich ist, die Admin-URL und den Pfad zu einem anderen Speicherort 
 
    >[!TIP]
    >
-   >Für Adobe Commerce in der Cloud-Infrastruktur können Sie einen benutzerdefinierten Administratorpfad mithilfe der Variablen `ADMIN_URL` in der Cloud-Benutzeroberfläche einrichten. Siehe [Thema Admin-Variablen](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin) im Handbuch zu _Commerce in Cloud-Infrastrukturen_.
+   >Für Adobe Commerce in der Cloud-Infrastruktur können Sie einen benutzerdefinierten Administratorpfad mithilfe der Variablen `ADMIN_URL` in der Cloud-Benutzeroberfläche einrichten. Siehe [Thema Admin-Variablen](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/env/stage/variables-admin) im Handbuch zu _Commerce in Cloud-Infrastrukturen_.
 
    - **Standard-Administratorpfad**
 

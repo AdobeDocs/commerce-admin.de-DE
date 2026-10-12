@@ -4,36 +4,52 @@ description: Erfahren Sie mehr über die Erstellung von Unternehmenskonten in Ad
 exl-id: 8c06395b-102b-4a41-8eb3-e6a344feac70
 feature: B2B, Companies, Configuration, Storefront
 role: Admin, User
-TQID: https://experienceleague.adobe.com/XJPHU9LGy6OSzy6D67S-2qF8Td4d6Wl3Y49LS1roCkw
+TQID: 'https://experienceleague.adobe.com/XJPHU9LGy6OSzy6D67S-2qF8Td4d6Wl3Y49LS1roCkw'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: f42e0a1a-0d79-488d-a83f-f2c30672b137
+    internal-label: Reporting
+  - id: e9004f3c-09ae-5d24-acd2-fa0987fdb66e
+    internal-label: Companies
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2455
+source-wordcount: '2455'
 ht-degree: 0%
-
 ---
-
 # Erstellen eines Unternehmenskontos
 
 Mit Unternehmenskonten können B2B-Unternehmen Einkauf, Benutzer und Kredite innerhalb von Adobe Commerce verwalten. In diesem Abschnitt wird der gesamte Prozess zum Erstellen, Konfigurieren und Aktivieren von Unternehmenskonten beschrieben.
@@ -52,19 +68,19 @@ Alle Unternehmenskonten müssen vor ihrer Aktivierung vom Administrator genehmig
 Stellen Sie vor dem Erstellen von Unternehmenskonten sicher, dass die folgenden Anforderungen erfüllt sind:
 
 * **Systemanforderungen:**
-   * [B2B-Funktionen sind &#x200B;](enable-basic-features.md) Ihrer Adobe Commerce-Installation aktiviert
-   * Die Unternehmensregistrierung ist für die Erstellung von Storefronts aktiviert
-   * E-Mail-Benachrichtigungen sind für Validierungs-Workflows konfiguriert
+  * [B2B-Funktionen sind ](enable-basic-features.md) Ihrer Adobe Commerce-Installation aktiviert
+  * Die Unternehmensregistrierung ist für die Erstellung von Storefronts aktiviert
+  * E-Mail-Benachrichtigungen sind für Validierungs-Workflows konfiguriert
 
 * **Geschäftsanforderungen:**
-   * Genehmigungsprozesse und -richtlinien werden eingerichtet
-   * Vertriebsmitarbeiter werden zugewiesen (für vom Administrator erstellte Konten)
-   * Kreditrichtlinien werden definiert (wenn Firmenkredite verwendet werden)
-   * Kundengruppen und freigegebene Kataloge sind konfiguriert
+  * Genehmigungsprozesse und -richtlinien werden eingerichtet
+  * Vertriebsmitarbeiter werden zugewiesen (für vom Administrator erstellte Konten)
+  * Kreditrichtlinien werden definiert (wenn Firmenkredite verwendet werden)
+  * Kundengruppen und freigegebene Kataloge sind konfiguriert
 
 * **Administratorzugriff:**
-   * Entsprechende Berechtigungen für die Unternehmensverwaltung
-   * Zugriff auf die Abschnitte zur Kunden- und Unternehmensverwaltung
+  * Entsprechende Berechtigungen für die Unternehmensverwaltung
+  * Zugriff auf die Abschnitte zur Kunden- und Unternehmensverwaltung
 
 Das System weist die Rolle [Unternehmensadministrator](account-company-admin.md) der Person zu, die ein Unternehmenskonto in der Storefront eingerichtet hat. Nachdem der Store-Administrator die Anforderung zur Erstellung des Unternehmenskontos in der Admin-Instanz genehmigt hat, kann der Unternehmensadministrator ein Kontokennwort festlegen und sich beim Konto anmelden.
 
@@ -87,24 +103,24 @@ Das System weist die Rolle [Unternehmensadministrator](account-company-admin.md)
 
    >[!NOTE]
    >
-   >Wenn ein Besucher bei einem registrierten Benutzerkonto angemeldet ist, kann er ein Unternehmenskonto erstellen, indem er zu _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**&#x200B;navigiert.
+   >Wenn ein Besucher bei einem registrierten Benutzerkonto angemeldet ist, kann er ein Unternehmenskonto erstellen, indem er zu _[!UICONTROL Customer Profile]_>**[!UICONTROL Company Structure]**>**[!UICONTROL Create a Company Account]**navigiert.
 
-1. Im Abschnitt _[!UICONTROL Company Information]_&#x200B;führt der Kunde Folgendes aus:
+1. Im Abschnitt _[!UICONTROL Company Information]_führt der Kunde Folgendes aus:
 
    * Füllen Sie die erforderlichen Felder aus:
 
-      * **[!UICONTROL Company Name]**
-      * **[!UICONTROL Company Email]**
+     * **[!UICONTROL Company Name]**
+     * **[!UICONTROL Company Email]**
 
    * Füllen Sie die verbleibenden Felder aus, falls zutreffend:
 
-      * **[!UICONTROL Company Legal Name]**
-      * **[!UICONTROL VAT/TAX ID]**
-      * **[!UICONTROL Reseller ID]**
+     * **[!UICONTROL Company Legal Name]**
+     * **[!UICONTROL VAT/TAX ID]**
+     * **[!UICONTROL Reseller ID]**
 
    ![Unternehmensinformationen](./assets/company-information-storefront.png){width="700" zoomable="yes"}
 
-1. Füllen Sie die erforderlichen Felder im Abschnitt _[!UICONTROL Legal Address]_&#x200B;aus.
+1. Füllen Sie die erforderlichen Felder im Abschnitt _[!UICONTROL Legal Address]_aus.
 
    * **[!UICONTROL Street Address]**
    * **[!UICONTROL City]**
@@ -115,7 +131,7 @@ Das System weist die Rolle [Unternehmensadministrator](account-company-admin.md)
 
    ![Anschrift](./assets/company-legal-address-storefront.png){width="700" zoomable="yes"}
 
-1. Führt im Abschnitt _[!UICONTROL Company Administrator]_&#x200B;folgende Schritte aus:
+1. Führt im Abschnitt _[!UICONTROL Company Administrator]_folgende Schritte aus:
 
    * Gibt die **[!UICONTROL Email address]** für den Unternehmensadministrator ein.
 
@@ -125,9 +141,9 @@ Das System weist die Rolle [Unternehmensadministrator](account-company-admin.md)
 
    * Füllen Sie optional die folgenden Felder aus:
 
-      * **[!UICONTROL Job Title]**
-      * **[!UICONTROL Work Phone Number]**
-      * **[!UICONTROL Gender]**
+     * **[!UICONTROL Job Title]**
+     * **[!UICONTROL Work Phone Number]**
+     * **[!UICONTROL Gender]**
 
    ![Unternehmensadministrator](./assets/company-administrator-account-storefront.png)
 
@@ -139,7 +155,7 @@ Das System weist die Rolle [Unternehmensadministrator](account-company-admin.md)
 
    ![Beispiel-Begrüßungs-E-Mail](./assets/company-admin-welcome-email.png){width="500"}
 
-   Wenn das Kennwort festgelegt ist, kann sich der Unternehmensadministrator [&#x200B; dem Konto &#x200B;](../customers/customer-sign-in.md).
+   Wenn das Kennwort festgelegt ist, kann sich der Unternehmensadministrator [ dem Konto ](../customers/customer-sign-in.md).
 
 ## Methode 2: Händler erstellt das Konto vom Administrator
 
@@ -160,20 +176,20 @@ Der Prozess der Erstellung einer Firma aus der Admin ist im Wesentlichen der gle
 
    * Füllen Sie die folgenden erforderlichen Felder aus:
 
-      * **[!UICONTROL Company Name]**
-      * **[!UICONTROL Company Email]**
+     * **[!UICONTROL Company Name]**
+     * **[!UICONTROL Company Email]**
 
    * Wenn Sie noch nicht bereit sind, das Konto zu aktivieren, legen Sie **[!UICONTROL Status]** auf `Pending Approval` fest. (Standardmäßig auf `Active` festgelegt.)
 
    * Wählen Sie ggf. das Administratorkonto des **[!UICONTROL Sales Representative]** aus, der das Konto verwalten soll.
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Account Information]_&#x200B;wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Account Information]_wie folgt vor:
 
    * Füllen Sie je nach Bedarf die folgenden Felder aus:
 
-      * **[!UICONTROL Company Legal Name]**
-      * **[!UICONTROL VAT/TAX ID]**
-      * **[!UICONTROL Reseller ID]**
+     * **[!UICONTROL Company Legal Name]**
+     * **[!UICONTROL VAT/TAX ID]**
+     * **[!UICONTROL Reseller ID]**
 
    * Geben Sie **[!UICONTROL Comment]** ggf. zusätzliche Informationen zum Kunden ein.
 
@@ -181,9 +197,9 @@ Der Prozess der Erstellung einer Firma aus der Admin ist im Wesentlichen der gle
 
    ![Kontoinformationen](./assets/company-create-account-information-admin.png){width="700" zoomable="yes"}
 
-1. Beim erstmaligen Erstellen einer Firma erscheint das _[!UICONTROL Company Hierarchy]_&#x200B;beim Erweitern leer. Nachdem Sie das Unternehmen gespeichert haben, können Sie es in eine Unternehmenshierarchie einbeziehen. Siehe [Unternehmensverwaltung](manage-companies.md).
+1. Beim erstmaligen Erstellen einer Firma erscheint das _[!UICONTROL Company Hierarchy]_beim Erweitern leer. Nachdem Sie das Unternehmen gespeichert haben, können Sie es in eine Unternehmenshierarchie einbeziehen. Siehe [Unternehmensverwaltung](manage-companies.md).
 
-1. Füllen Sie im Abschnitt _[!UICONTROL Legal Address]_&#x200B;die folgenden erforderlichen Felder aus:
+1. Füllen Sie im Abschnitt _[!UICONTROL Legal Address]_die folgenden erforderlichen Felder aus:
 
    * **[!UICONTROL Street Address]**
    * **[!UICONTROL City]**
@@ -191,27 +207,27 @@ Der Prozess der Erstellung einer Firma aus der Admin ist im Wesentlichen der gle
    * **[!UICONTROL ZIP/Postal Code]**
    * **[!UICONTROL Phone Number]**
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Company Admin]_&#x200B;wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Company Admin]_wie folgt vor:
 
    * Füllen Sie die folgenden erforderlichen Felder aus:
 
-      * **[!UICONTROL Email]**
-      * **[!UICONTROL First Name]**
-      * **[!UICONTROL Last Name]**
+     * **[!UICONTROL Email]**
+     * **[!UICONTROL First Name]**
+     * **[!UICONTROL Last Name]**
 
    * Füllen Sie die folgenden optionalen Teile des Namens aus, die möglicherweise häufiger für einige Kundennamen gelten als für andere und nach eigenem Ermessen verwendet werden können:
 
-      * **[!UICONTROL Prefix]**
-      * **[!UICONTROL Middle Name/Initial]**
-      * **[!UICONTROL Suffix]**
+     * **[!UICONTROL Prefix]**
+     * **[!UICONTROL Middle Name/Initial]**
+     * **[!UICONTROL Suffix]**
 
    * Wenn die Informationen verfügbar sind, füllen Sie die restlichen Felder aus, um den Unternehmensadministrator zu beschreiben:
 
-      * **[!UICONTROL Website]**
-      * **[!UICONTROL Job Title]**
-      * **[!UICONTROL Work Phone Number]**
-      * **[!UICONTROL Gender]**
-      * **[!UICONTROL Send Welcome Email From]**
+     * **[!UICONTROL Website]**
+     * **[!UICONTROL Job Title]**
+     * **[!UICONTROL Work Phone Number]**
+     * **[!UICONTROL Gender]**
+     * **[!UICONTROL Send Welcome Email From]**
 
    ![Unternehmensadministrator](./assets/company-create-company-admin.png){width="700" zoomable="yes"}
 
@@ -224,7 +240,7 @@ Der Prozess der Erstellung einer Firma aus der Admin ist im Wesentlichen der gle
 
    ![Firmenkredit](./assets/company-create-credit-admin.png){width="700" zoomable="yes"}
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Advanced Settings]_&#x200B;wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Advanced Settings]_wie folgt vor:
 
    >[!NOTE]
    >
@@ -252,7 +268,7 @@ Der Prozess der Erstellung einer Firma aus der Admin ist im Wesentlichen der gle
 
      | Option | Beschreibung |
      |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-     | `B2B Shipping Methods` | (Standard) Aktiviert alle ([&#x200B; festgelegten Versandmethoden) &#x200B;](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) B2B-Bestellungen. |
+     | `B2B Shipping Methods` | (Standard) Aktiviert alle ([ festgelegten Versandmethoden) ](../configuration-reference/general/b2b-features.md#default-b2b-shipping-methods) B2B-Bestellungen. |
      | `All Enabled Shipping Methods` | Stellt alle [aktivierten Versandmethoden](../configuration-reference/sales/delivery-methods.md) für Kundenkonten zur Verfügung, die mit dem Firmenkonto verknüpft sind. |
      | `Selected Shipping Methods` | Ermöglicht die Auswahl der Versandmethoden, die für mit dem Firmenkonto verknüpfte Kundenkonten verfügbar sind. Um mehrere Versandmethoden auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jede Option aus. |
 
@@ -262,7 +278,7 @@ Der Prozess der Erstellung einer Firma aus der Admin ist im Wesentlichen der gle
 
    Wenn die Anforderung zum Erstellen eines Firmenkontos vom Händler genehmigt wird, wird eine E-Mail-Benachrichtigung an die E-Mail-Adresse des Unternehmensadministrators gesendet.
 
-   Wenn das Kennwort festgelegt ist, kann sich der Unternehmensadministrator [&#x200B; dem Konto &#x200B;](../customers/customer-sign-in.md).
+   Wenn das Kennwort festgelegt ist, kann sich der Unternehmensadministrator [ dem Konto ](../customers/customer-sign-in.md).
 
 ## Nach der Kontoerstellung
 
@@ -361,7 +377,7 @@ Beim Erstellen und Verwalten von Unternehmenskonten:
 | Feld | Beschreibung |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Company Name] | Der Firmenname wird bei der ersten Erstellung des Firmenkontos eingegeben und kann eine gekürzte Version des vollständigen rechtlichen Namens sein. |
-| [!UICONTROL Status] | (Nur Admin) Gibt den aktuellen Status des Unternehmenskontos an. Optionen: <br/>**[!UICONTROL Active]**- Das Unternehmenskonto wird vom Store-Administrator genehmigt. Der Unternehmensadministrator und die zugehörigen Mitglieder können sich beim Konto in der Storefront anmelden und Käufe tätigen.<br/>**[!UICONTROL Pending Approval]** - Es wurde eine Anfrage zum Öffnen eines Unternehmenskontos eingereicht, die jedoch noch nicht vom Store-Administrator genehmigt wurde. <br/>**[!UICONTROL Rejected]**- Eine Anfrage zum Öffnen eines Unternehmenskontos wurde eingereicht, aber vom Store-Administrator nicht genehmigt. Die ursprünglichen Anmeldedaten, die zum Senden der Anfrage verwendet wurden, sind blockiert.<br/>**&#x200B; Blockiert &#x200B;**- Mitglieder des Unternehmens können sich anmelden und auf den Katalog zugreifen, jedoch keine Käufe tätigen. Der Store-Administrator kann ein Firmenkonto sperren, das keinen guten Ruf hat. Die Sperre des Kontos kann vom Store-Administrator jederzeit entfernt werden. |
+| [!UICONTROL Status] | (Nur Admin) Gibt den aktuellen Status des Unternehmenskontos an. Optionen: <br/>**[!UICONTROL Active]**- Das Unternehmenskonto wird vom Store-Administrator genehmigt. Der Unternehmensadministrator und die zugehörigen Mitglieder können sich beim Konto in der Storefront anmelden und Käufe tätigen.<br/>**[!UICONTROL Pending Approval]** - Es wurde eine Anfrage zum Öffnen eines Unternehmenskontos eingereicht, die jedoch noch nicht vom Store-Administrator genehmigt wurde. <br/>**[!UICONTROL Rejected]**- Eine Anfrage zum Öffnen eines Unternehmenskontos wurde eingereicht, aber vom Store-Administrator nicht genehmigt. Die ursprünglichen Anmeldedaten, die zum Senden der Anfrage verwendet wurden, sind blockiert.<br/>** Blockiert **- Mitglieder des Unternehmens können sich anmelden und auf den Katalog zugreifen, jedoch keine Käufe tätigen. Der Store-Administrator kann ein Firmenkonto sperren, das keinen guten Ruf hat. Die Sperre des Kontos kann vom Store-Administrator jederzeit entfernt werden. |
 | [!UICONTROL Company Email] | Die mit dem Unternehmenskonto verknüpfte E-Mail-Adresse. |
 | [!UICONTROL Sales Representative] | (Nur Admin) Der Admin-Benutzer, der der primäre Kontakt für das Unternehmenskonto ist. |
 

@@ -1,34 +1,46 @@
 ---
-title: 'Konto  [!DNL Commerce] '
-description: Erfahren Sie, wie Sie die Zwei-Faktor-Authentifizierung verwenden, um Ihr - [!DNL Commerce]  zu schützen.
+title: Schützen [!DNL Commerce] Kontos
+description: Erfahren Sie, wie Sie mit der Zwei-Faktor-Authentifizierung Ihr [!DNL Commerce]-Konto schützen können.
 exl-id: 4847b5cb-a93a-40d0-8c31-c30afa27c0ce
 feature: User Account
-TQID: https://experienceleague.adobe.com/AG9ZJu83LRAHgPaKFBWI5HQ2EPredJsOKL5FwEzGeZc
+TQID: 'https://experienceleague.adobe.com/AG9ZJu83LRAHgPaKFBWI5HQ2EPredJsOKL5FwEzGeZc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1751
+source-wordcount: '1753'
 ht-degree: 0%
-
 ---
-
 # Schützen [!DNL Commerce] Kontos
 
 Die Zwei-Faktor-Authentifizierung (TFA oder 2FA) ist eine zusätzliche Sicherheitsebene, um Ihr [!DNL Commerce]-Konto besser vor unbefugtem Zugriff zu schützen. Um den Anmeldevorgang abzuschließen, erfordert der TFA _zweiten Faktor_ zusätzlich zu den standardmäßigen Benutzernamen- und Kennwortberechtigungen. Dieser zweite Faktor besteht aus temporären Verifizierungs-Codes, die kontinuierlich von einer auf Ihrem Mobilgerät installierten TFA-Anwendung generiert und mit Ihrem [!DNL Commerce]-Konto gepaart werden.
@@ -87,7 +99,7 @@ Um TFA verwenden zu können, muss auf Ihrem persönlichen Gerät (z. B. Smartpho
 
    Wenn Sie bei Ihrem [!DNL Commerce]-Konto keinen Verifizierungs-Code angeben können, müssen Sie einen Wiederherstellungs-Code verwenden, um den Zugriff auf das Konto wiederzuerlangen.
 
-   Jeder Wiederherstellungs-Code kann nur einmal verwendet werden, aber Sie können [&#x200B; neue &#x200B;](#generate-new-recovery-codes) generieren. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden.
+   Jeder Wiederherstellungs-Code kann nur einmal verwendet werden, aber Sie können [ neue ](#generate-new-recovery-codes) generieren. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden.
 
 1. Aktivieren Sie das Bestätigungs-Kontrollkästchen und klicken Sie auf **[!UICONTROL Submit]** , um fortzufahren.
 
@@ -155,7 +167,7 @@ Um TFA verwenden zu können, muss auf Ihrem persönlichen Gerät (z. B. Smartpho
 
 1. Wählen Sie **[!UICONTROL Submit]** aus, um den Anmeldevorgang abzuschließen.
 
-Nachdem Sie einen temporären Wiederherstellungs-Code für den Zugriff auf Ihr Konto verwendet haben[&#x200B; generieren Sie neue Wiederherstellungs-Codes &#x200B;](#generate-new-recovery-codes) speichern Sie sie, um weitere Probleme beim Zugriff auf das Konto zu vermeiden.
+Nachdem Sie einen temporären Wiederherstellungs-Code für den Zugriff auf Ihr Konto verwendet haben[ generieren Sie neue Wiederherstellungs-Codes ](#generate-new-recovery-codes) speichern Sie sie, um weitere Probleme beim Zugriff auf das Konto zu vermeiden.
 
 ## Wiederherstellungs-Codes anzeigen
 
@@ -179,7 +191,7 @@ Nachdem Sie einen temporären Wiederherstellungs-Code für den Zugriff auf Ihr K
 
    Wenn Sie keinen Verifizierungs-Code für die Anmeldung bei Ihrem [!DNL Commerce]-Konto angeben können, ist die Verwendung eines Wiederherstellungs-Codes die einzige Möglichkeit, den Zugriff auf das Konto wiederzuerlangen.
 
-   Jeder Wiederherstellungs-Code ist nur eine einmalige Verwendung, aber Sie können immer [&#x200B; neue &#x200B;](#generate-new-recovery-codes) generieren. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden.
+   Jeder Wiederherstellungs-Code ist nur eine einmalige Verwendung, aber Sie können immer [ neue ](#generate-new-recovery-codes) generieren. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden.
 
    ![Wiederherstellungs-Codes anzeigen](./assets/2fa-view-recovery.png){width="400"}
 
@@ -265,7 +277,7 @@ Nachdem Sie einen temporären Wiederherstellungs-Code für den Zugriff auf Ihr K
 
    Wenn Sie bei Ihrem [!DNL Commerce]-Konto keinen Verifizierungs-Code angeben können, können Sie den Zugriff auf das Konto nur mit einem Wiederherstellungs-Code zurückgewinnen.
 
-   Jeder Wiederherstellungs-Code ist nur eine einmalige Verwendung, aber Sie können immer [&#x200B; neue &#x200B;](#generate-new-recovery-codes) generieren. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden.
+   Jeder Wiederherstellungs-Code ist nur eine einmalige Verwendung, aber Sie können immer [ neue ](#generate-new-recovery-codes) generieren. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden. Bei Wiederherstellungs-Codes wird zwischen Groß- und Kleinschreibung unterschieden.
 
 1. Aktivieren Sie das Kontrollkästchen zur Bestätigung und wählen Sie **[!UICONTROL Submit]** aus, um fortzufahren.
 

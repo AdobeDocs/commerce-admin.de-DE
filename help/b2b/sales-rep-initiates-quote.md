@@ -4,30 +4,40 @@ description: Erfahren Sie, wie ein Verkäufer ein Angebot für einen bestimmten 
 exl-id: 7bbb281f-7b6a-45fa-b906-da314d159bc8
 feature: B2B, Quotes
 role: Admin, User
-TQID: https://experienceleague.adobe.com/CbwUuAqkrVxLcqdbz-gV-x1i-mRHM6y62KPaBeA3sds
+TQID: 'https://experienceleague.adobe.com/CbwUuAqkrVxLcqdbz-gV-x1i-mRHM6y62KPaBeA3sds'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 792a7e9b-6519-5e99-a913-56c3dd2408da
+    internal-label: Quotes
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 081ea630e449f66122e708d1e91103c50b82f1c8
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '823'
 ht-degree: 0%
-
 ---
-
 # Starten eines Angebots für einen Käufer
 
 Wenn Angebote in der Konfiguration [Verkaufsfunktionen](configure-quotes.md) aktiviert sind, kann ein Vertriebsmitarbeiter den Verhandlungsprozess mit einem Firmenkäufer starten, indem er ein Angebot vom Administrator erstellt.
@@ -44,11 +54,11 @@ Ein Vertriebsmitarbeiter kann ein Angebot aus dem Angebots- oder Kundenraster er
 
 >[!NOTE]
 >
->Eine Videodemo eines Verkäufers, in der ein Angebot für einen Käufer erstellt wird, finden Sie unter [Der Vertriebsmitarbeiter initiiert das Angebot](https://experienceleague.adobe.com/de/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote) in _Commerce-Videos und -Tutorials_.
+>Eine Videodemo eines Verkäufers, in der ein Angebot für einen Käufer erstellt wird, finden Sie unter [Der Vertriebsmitarbeiter initiiert das Angebot](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/b2b/b2b-quote/sales-rep-initiates-quote) in _Commerce-Videos und -Tutorials_.
 
 ### Erstellen eines Angebots aus dem Anführungsraster
 
-1. Der Vertriebsmitarbeiter meldet sich beim Administrator als Administrator mit „Berechtigungen für [&#x200B; Vorgänge“ an](../systems/permissions.md) um Angebote zu verwalten.
+1. Der Vertriebsmitarbeiter meldet sich beim Administrator als Administrator mit „Berechtigungen für [ Vorgänge“ an](../systems/permissions.md) um Angebote zu verwalten.
 
 1. Wechseln Sie in der Admin-Liste zum [!UICONTROL Quotes] Raster, indem Sie **[!UICONTROL Sales]** auswählen, und wählen Sie dann **[!UICONTROL Quotes]** aus.
 
@@ -96,7 +106,7 @@ Fügen Sie nach der Erstellung des Angebotsentwurfs Produktelemente hinzu, wende
 
    >[!NOTE]
    >
-   >Eine Videodemo zur Funktionsweise von Rabatten bei einem Zeileneintrag finden Sie unter [Der Vertriebsmitarbeiter wendet Rabatt auf einen Angebotspositionselement an](https://experienceleague.adobe.com/de/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount) in _Commerce-Videos und -Tutorials_.
+   >Eine Videodemo zur Funktionsweise von Rabatten bei einem Zeileneintrag finden Sie unter [Der Vertriebsmitarbeiter wendet Rabatt auf einen Angebotspositionselement an](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/b2b/b2b-quote/quote-line-item-discount) in _Commerce-Videos und -Tutorials_.
 
 1. Wenden Sie bei Bedarf einen Rabatt auf Angebotsebene an:
 

@@ -3,30 +3,41 @@ title: Datenschutzrichtlinie speichern
 description: In Ihrer Datenschutzrichtlinie sollten Sie beschreiben, welche Art von Informationen Ihr Unternehmen erfasst und wie sie verwendet werden.
 exl-id: d8eaa946-2a12-4a36-8f7e-025778ffa7dd
 feature: Compliance
-TQID: https://experienceleague.adobe.com/643rt9zfz1cfPwuZs9ZFPXmb5Hgi-5lV8zmDqWlZBeA
+TQID: 'https://experienceleague.adobe.com/643rt9zfz1cfPwuZs9ZFPXmb5Hgi-5lV8zmDqWlZBeA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Privacy
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 427
+source-wordcount: '427'
 ht-degree: 0%
-
 ---
-
 # Datenschutzrichtlinie speichern
 
 Ihr Store enthält eine beispielhafte Datenschutzrichtlinie, die mit Ihren eigenen Informationen aktualisiert werden muss. In Ihrer Datenschutzrichtlinie sollten Sie beschreiben, welche Art von Informationen Ihr Unternehmen erfasst und wie sie verwendet werden. Es sollte auch die Dateinamen von [Cookies](compliance-cookie-law.md#default-cookies) auflisten, die auf den Computern von Personen platziert werden, die Ihren Shop besuchen. Alle zusätzlichen Cookies, die mit Erweiterungen und Add-ons von Drittanbietern verknüpft sind, sollten in die Liste aufgenommen werden.
@@ -53,7 +64,7 @@ Jede Darstellung von Informationen, die es ermöglicht, die Identität einer Per
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Suchen Sie im Raster nach **[!UICONTROL Privacy Policy]**. Klicken Sie dann in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Select]**&#x200B;und wählen Sie **[!UICONTROL Edit]**&#x200B;aus.
+1. Suchen Sie im Raster nach **[!UICONTROL Privacy Policy]**. Klicken Sie dann in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**und wählen Sie **[!UICONTROL Edit]**aus.
 
    >[!NOTE]
    >
@@ -61,7 +72,7 @@ Jede Darstellung von Informationen, die es ermöglicht, die Identität einer Per
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Content]** und nehmen Sie die erforderlichen Änderungen am Inhalt vor.
 
-   Weitere Informationen zur Verwendung der Tools für Seiteninhalte finden Sie unter [Vervollständigen des &#x200B;](../content-design/page-add.md#step-2-complete-the-content) im _Content and Design Guide_.
+   Weitere Informationen zur Verwendung der Tools für Seiteninhalte finden Sie unter [Vervollständigen des ](../content-design/page-add.md#step-2-complete-the-content) im _Content and Design Guide_.
 
    ![Datenschutzseite - Inhalt bearbeiten](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 

@@ -1,33 +1,44 @@
 ---
-title: Konfigurieren  [!DNL Inventory Management]  Produktoptionen
-description: Konfigurieren Sie  [!DNL Inventory Management]  Produkt- und erweiterten Inventaroptionen, die die globalen Lager- und Quelleinstellungen außer Kraft setzen.
+title: Konfigurieren [!DNL Inventory Management] Produktoptionen
+description: Konfigurieren Sie [!DNL Inventory Management] und erweiterte Inventaroptionen für einzelne Produkte, die die globalen Lager- und Quelleinstellungen außer Kraft setzen.
 exl-id: b5cff7d2-5197-4362-9503-b07c80793ac7
 feature: Inventory, Products
-TQID: https://experienceleague.adobe.com/Fz3Z2nuzHQygjnE5EZYNYi2riXQ1fV2Ufn0sNmjns2s
+TQID: 'https://experienceleague.adobe.com/Fz3Z2nuzHQygjnE5EZYNYi2riXQ1fV2Ufn0sNmjns2s'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 047d1bdc0cbefa7618fb95713f08962c59c4da9e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 916
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # Konfigurieren [!DNL Inventory Management] Produktoptionen
 
-Diese Konfigurationen gelten nur für das bearbeitete Produkt und überschreiben alle Konfigurationen auf der globalen Website-Ebene. Ändern Sie diese Einstellungen beim Bearbeiten eines Produkts über den Abschnitt _[!UICONTROL Sources]_&#x200B;und&#x200B;_[!UICONTROL Advanced Inventory]_ Seite.
+Diese Konfigurationen gelten nur für das bearbeitete Produkt und überschreiben alle Konfigurationen auf der globalen Website-Ebene. Ändern Sie diese Einstellungen beim Bearbeiten eines Produkts über den Abschnitt _[!UICONTROL Sources]_und_[!UICONTROL Advanced Inventory]_ Seite.
 
 - Konfigurieren von Produktoptionen nach Quelle
 - Konfigurieren von Produktoptionen für eine erweiterte Inventarisierung
@@ -66,8 +77,8 @@ Konfigurieren Sie die Mengen und zusätzlichen Einstellungen pro [hinzugefügte 
 | [!UICONTROL Status] | Global | Produkt ist im Katalog aktiviert oder deaktiviert. |
 | [!UICONTROL Source Item Status] | Global | Legt die aktuelle Verfügbarkeit des Produkts fest. Optionen: <br />`In Stock` - Macht das Produkt zum Kauf verfügbar.<br />`Out of Stock` - Wenn keine Auftragsrückstände aktiviert sind, verhindert , dass das Produkt zum Kauf verfügbar ist, und entfernt die Auflistung aus dem Katalog. |
 | [!UICONTROL Qty] | Global | Verfügbare Lagerbestände für jede Quelle oder jeden Standort. |
-| [!UICONTROL Notify Quantity] | Global | Ein Betrag für die _[!UICONTROL Notify for Quantity Below]_&#x200B;für diese spezifische Quelle, wenn&#x200B;_[!UICONTROL Notify Quantity Use Default]_ nicht ausgewählt ist. |
-| [!UICONTROL Notify Quantity Use Default] | Global | Gibt an, dass die Standardeinstellung für _[!UICONTROL Notify for Quantity Below]_&#x200B;in der&#x200B;_[!UICONTROL Advanced Inventory]_ oder die globale Einstellung in der Store-Konfiguration verwendet werden soll. |
+| [!UICONTROL Notify Quantity] | Global | Ein Betrag für die _[!UICONTROL Notify for Quantity Below]_für diese spezifische Quelle, wenn_[!UICONTROL Notify Quantity Use Default]_ nicht ausgewählt ist. |
+| [!UICONTROL Notify Quantity Use Default] | Global | Gibt an, dass die Standardeinstellung für _[!UICONTROL Notify for Quantity Below]_in der_[!UICONTROL Advanced Inventory]_ oder die globale Einstellung in der Store-Konfiguration verwendet werden soll. |
 
 ## Erweiterte Produktoptionen
 
@@ -89,9 +100,9 @@ Konfigurieren Sie die Mengen und zusätzlichen Einstellungen pro [hinzugefügte 
 
    | Wert | Beschreibung |
    | ----- | ----- |
-   | Positiver Betrag | Geben Sie bei deaktiviertem _[!UICONTROL Backorders]_&#x200B;einen positiven Wert ein. |
-   | Null | Wenn _[!UICONTROL Backorders]_&#x200B;aktiviert ist, ermöglicht die Eingabe von `0` unendliche Nachbestellungen. |
-   | Negativer Betrag | Bei aktiviertem _[!UICONTROL Backorders]_&#x200B;wird die Eingabe eines negativen Werts empfohlen. Der Betrag wird der Verkaufsmenge hinzugefügt. Geben Sie beispielsweise `-50` ein, um Bestellungen bis zu diesem Betrag zuzulassen. |
+   | Positiver Betrag | Geben Sie bei deaktiviertem _[!UICONTROL Backorders]_einen positiven Wert ein. |
+   | Null | Wenn _[!UICONTROL Backorders]_aktiviert ist, ermöglicht die Eingabe von `0` unendliche Nachbestellungen. |
+   | Negativer Betrag | Bei aktiviertem _[!UICONTROL Backorders]_wird die Eingabe eines negativen Werts empfohlen. Der Betrag wird der Verkaufsmenge hinzugefügt. Geben Sie beispielsweise `-50` ein, um Bestellungen bis zu diesem Betrag zuzulassen. |
 
 1. Geben Sie die **[!UICONTROL Minimum Qty Allowed in Shopping Cart]** ein.
 

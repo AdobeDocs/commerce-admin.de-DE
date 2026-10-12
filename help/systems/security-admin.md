@@ -4,36 +4,50 @@ description: Erfahren Sie, wie Sie die Sicherheit für Ihren Store-Administrator
 exl-id: 931fd8ad-96b7-42e5-9c3e-4bb9ca85b1ba
 role: Admin
 feature: Admin Workspace, Configuration, Security
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-TQID: https://experienceleague.adobe.com/UFK-C-W5E0DngIy4VncIVRzM2f6tNS5RgNqaNVk9GJc
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: 'https://experienceleague.adobe.com/UFK-C-W5E0DngIy4VncIVRzM2f6tNS5RgNqaNVk9GJc'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
   - id: e8818fe6-9c8b-4bc0-9ef8-377a10b7bc75
+    internal-label: Architecture
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: '865'
 ht-degree: 0%
-
 ---
-
 # Konfigurieren der Admin-Sicherheit
 
-Wir empfehlen Ihnen, einen vielseitigen Ansatz zu wählen, um die Sicherheit Ihres Geschäfts zu schützen. Sie können mit einer [benutzerdefinierten Admin-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) beginnen, die nicht einfach zu erraten ist, anstatt mit dem offensichtlichen „Admin“ oder „Backend“. Standardmäßig müssen Kennwörter, die für die [&#x200B; beim &#x200B;](../getting-started/admin-signin.md) verwendet werden, mindestens sieben Zeichen lang sein und sowohl Buchstaben als auch Zahlen enthalten. Sie können die erforderliche Mindestkennwortlänge konfigurieren, um die Sicherheit je nach den Anforderungen Ihres Unternehmens zu erhöhen. Verwenden [&#x200B; als Best &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices) nur sichere Administratorkennwörter, die aus einer Kombination aus Buchstaben, Zahlen und Symbolen bestehen. Adobe Commerce und Magento Open Source erlauben nicht die Wiederverwendung der letzten vier dem Konto zugewiesenen Kennwörter.
+Wir empfehlen Ihnen, einen vielseitigen Ansatz zu wählen, um die Sicherheit Ihres Geschäfts zu schützen. Sie können mit einer [benutzerdefinierten Admin-URL](../stores-purchase/store-urls.md#use-a-custom-admin-url) beginnen, die nicht einfach zu erraten ist, anstatt mit dem offensichtlichen „Admin“ oder „Backend“. Standardmäßig müssen Kennwörter, die für die [ beim ](../getting-started/admin-signin.md) verwendet werden, mindestens sieben Zeichen lang sein und sowohl Buchstaben als auch Zahlen enthalten. Sie können die erforderliche Mindestkennwortlänge konfigurieren, um die Sicherheit je nach den Anforderungen Ihres Unternehmens zu erhöhen. Verwenden [ als Best ](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/launch/security-best-practices) nur sichere Administratorkennwörter, die aus einer Kombination aus Buchstaben, Zahlen und Symbolen bestehen. Adobe Commerce und Magento Open Source erlauben nicht die Wiederverwendung der letzten vier dem Konto zugewiesenen Kennwörter.
 
 Die Admin-Sicherheitskonfiguration bietet folgende Möglichkeiten:
 
@@ -46,7 +60,7 @@ Die Admin-Sicherheitskonfiguration bietet folgende Möglichkeiten:
 
 Um die Sicherheit zu erhöhen, können Sie die Dauer der Tastaturinaktivität konfigurieren, bevor die aktuelle Sitzung abläuft, und dabei die Groß-/Kleinschreibung bei Benutzernamen und Kennwort berücksichtigen.
 
-Zusätzlich zu den Sicherheitseinstellungen in diesem Abschnitt ist eine [Zwei-Faktor-Authentifizierung](security-two-factor-authentication.md) (2FA) erforderlich, um die Identität von Benutzern mit einem einmaligen Kennwort zu überprüfen, das von einer App oder einem Gerät generiert wird. Beim ersten Anmelden beim Administrator werden Sie aufgefordert, 2FA einzurichten. Zur zusätzlichen Sicherheit kann die Admin-Anmeldung auch so konfiguriert werden, dass ein [CAPTCHA“ erforderlich &#x200B;](security-captcha.md).
+Zusätzlich zu den Sicherheitseinstellungen in diesem Abschnitt ist eine [Zwei-Faktor-Authentifizierung](security-two-factor-authentication.md) (2FA) erforderlich, um die Identität von Benutzern mit einem einmaligen Kennwort zu überprüfen, das von einer App oder einem Gerät generiert wird. Beim ersten Anmelden beim Administrator werden Sie aufgefordert, 2FA einzurichten. Zur zusätzlichen Sicherheit kann die Admin-Anmeldung auch so konfiguriert werden, dass ein [CAPTCHA“ erforderlich ](security-captcha.md).
 
 >[!NOTE]
 >
@@ -60,7 +74,7 @@ Technische Informationen finden Sie unter [Sicherheitsübersicht](https://develo
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Advanced]_&#x200B;die Option **[!UICONTROL Admin]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL Advanced]_die Option **[!UICONTROL Admin]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Security]** .
 

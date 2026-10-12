@@ -3,29 +3,39 @@ title: Hinzufügen von Attributen zu einem Produkt
 description: Erfahren Sie, wie Sie Attribute zu Produkten in Ihrem Katalog hinzufügen.
 exl-id: 1f92807a-2362-48a2-8d3a-4aef90a5671f
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/UjUC1RvGmumw8smkucJTNMYlrnQ43uurysnPdD48eog
+TQID: 'https://experienceleague.adobe.com/UjUC1RvGmumw8smkucJTNMYlrnQ43uurysnPdD48eog'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 867
+source-wordcount: '867'
 ht-degree: 0%
-
 ---
-
 # Hinzufügen von Attributen zu einem Produkt
 
 Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stores-menu.md) verwaltet werden, können Sie bei der _an einem Produkt auch_ hinzufügen. Sie können aus der Liste der vorhandenen Attribute auswählen oder ein Attribut erstellen. Das neue Attribut wird zu dem [Attributsatz“ hinzugefügt](../catalog/attribute-sets.md) auf dem das Produkt basiert.
@@ -52,7 +62,7 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
 
 ![Attributeigenschaften](./assets/product-attribute-add-new.png){width="600" zoomable="yes"}
 
-1. Geben Sie unter _[!UICONTROL Attribute Properties]_&#x200B;ein **[!UICONTROL Attribute Label]**&#x200B;ein, um das Attribut zu identifizieren.
+1. Geben Sie unter _[!UICONTROL Attribute Properties]_ein **[!UICONTROL Attribute Label]**ein, um das Attribut zu identifizieren.
 
 1. Legen Sie **[!UICONTROL Catalog Input Type for Store Owner]** auf den Typ des [Eingabedialogs](attributes-input-types.md) fest, der für die Dateneingabe verwendet werden soll.
 
@@ -101,7 +111,7 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
 
 1. Wenn Sie das Attribut als Spalte in das Produktraster einbeziehen möchten, setzen Sie **[!UICONTROL Add to Column Options]** auf `Yes`.
 
-1. Wenn Sie das _[!UICONTROL Products]_&#x200B;nach dieser Spalte filtern können möchten, setzen Sie **[!UICONTROL Use in Filter Options]**&#x200B;auf `Yes`.
+1. Wenn Sie das _[!UICONTROL Products]_nach dieser Spalte filtern können möchten, setzen Sie **[!UICONTROL Use in Filter Options]**auf `Yes`.
 
 ## Schritt 4: Feldbezeichnung eingeben
 
@@ -115,7 +125,7 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
 
    >[!NOTE]
    >
-   > Wenn Sie beabsichtigen, dieses Attribut als Facette in der Live-Suche zu verwenden, müssen Sie eine Store-spezifische Beschriftung angeben. Andernfalls wird der Attributname möglicherweise nicht korrekt auf der Seite zur Facettenkonfiguration angezeigt. Um die Konfiguration zu aktualisieren, bearbeiten Sie den Titel manuell mit der Option [Bearbeiten“ in der Facette Live Search](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) im _Live Search-Handbuch_.
+   > Wenn Sie beabsichtigen, dieses Attribut als Facette in der Live-Suche zu verwenden, müssen Sie eine Store-spezifische Beschriftung angeben. Andernfalls wird der Attributname möglicherweise nicht korrekt auf der Seite zur Facettenkonfiguration angezeigt. Um die Konfiguration zu aktualisieren, bearbeiten Sie den Titel manuell mit der Option [Bearbeiten“ in der Facette Live Search](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-admin/facets/facets-add#step-2-edit-facet-properties-optional) im _Live Search-Handbuch_.
 
 ## Schritt 5: Eigenschaften der Storefront beschreiben
 
@@ -135,7 +145,7 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
 
    >[!NOTE]
    >
-   >Wenn die _[!UICONTROL Use in Search]_&#x200B;auf `No` festgelegt ist, wird die&#x200B;_[!UICONTROL Use in Search Results Layered Navigation]_ nicht angezeigt und das Produktattribut wird bei der Suche mit keinem [!UICONTROL Use in Layered Navigation] Einstellwert verwendet.
+   >Wenn die _[!UICONTROL Use in Search]_auf `No` festgelegt ist, wird die_[!UICONTROL Use in Search Results Layered Navigation]_ nicht angezeigt und das Produktattribut wird bei der Suche mit keinem [!UICONTROL Use in Layered Navigation] Einstellwert verwendet.
 
 1. Um das -Attribut in der mehrschichtigen Navigation auf Suchergebnisseiten zu verwenden, setzen Sie **[!UICONTROL Use in Search Results Layered Navigation]** auf `Yes` und geben Sie eine Zahl in das Feld **[!UICONTROL Position]** ein.
 
@@ -143,7 +153,7 @@ Obwohl Attribute hauptsächlich über das Menü [Stores](../stores-purchase/stor
 
    >[!NOTE]
    >
-   >Das Feld _[!UICONTROL Position]_&#x200B;ist standardmäßig abgeblendet und Sie müssen das Attribut speichern, bevor Sie diese Einstellung ändern können.
+   >Das Feld _[!UICONTROL Position]_ist standardmäßig abgeblendet und Sie müssen das Attribut speichern, bevor Sie diese Einstellung ändern können.
 
 1. Um das Attribut in Preisregeln zu verwenden, setzen Sie **[!UICONTROL Use for Promo Rule Conditions]** auf `Yes`.
 

@@ -4,30 +4,46 @@ description: Erfahren Sie, wie Sie Admin-Benutzerkonten erstellen und Rollen zuw
 exl-id: 65cca7a8-3d44-4c8c-a758-c0de03d53e11
 role: Admin
 feature: Admin Workspace, Roles/Permissions, User Account, Security
-TQID: https://experienceleague.adobe.com/DLTxCkTvqUobFaP-0ccPFIrqbaObTto08EPLn1li3TA
+TQID: 'https://experienceleague.adobe.com/DLTxCkTvqUobFaP-0ccPFIrqbaObTto08EPLn1li3TA'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: e439352c-5b67-587d-b34e-d2a0aa5a0242
+    internal-label: Roles/Permissions
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
 subfeature_v2:
   - id: b01a71b7-d17a-42b2-a9ac-af4b8d9d2ef5
+    internal-label: 2FA
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: '1029'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Admin-Benutzerkonten
 
 Bei der Erstinstallation Ihres Stores wird ein standardmäßiges Admin-Konto mit Anmeldedaten erstellt, über das Sie vollständigen Administratorzugriff erhalten. Als Best Practice sollten Sie ein weiteres Benutzerkonto mit vollem Administratorzugriff erstellen. Auf diese Weise können Sie ein Konto für Ihre alltäglichen administrativen Aktivitäten verwenden und das andere als „Superadmin“-Konto reservieren. Dies kann hilfreich sein, wenn Sie Ihre regulären Anmeldedaten vergessen haben oder diese irgendwie unbrauchbar werden.
@@ -48,9 +64,9 @@ Für temporäre Benutzer oder Rollen können Sie auch ein Ablaufdatum für das B
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New User]**.
 
-   Um einen vorhandenen Benutzer zu bearbeiten, klicken Sie auf einen Benutzernamen im Raster. Sie können die Abschnitte _[!UICONTROL User Info]_&#x200B;und&#x200B;_[!UICONTROL User Role]_ nach Bedarf ändern.
+   Um einen vorhandenen Benutzer zu bearbeiten, klicken Sie auf einen Benutzernamen im Raster. Sie können die Abschnitte _[!UICONTROL User Info]_und_[!UICONTROL User Role]_ nach Bedarf ändern.
 
-1. Gehen Sie im Abschnitt _[!UICONTROL Account Information]_&#x200B;wie folgt vor:
+1. Gehen Sie im Abschnitt _[!UICONTROL Account Information]_wie folgt vor:
 
    ![Informationen zum Benutzerkonto](./assets/permissions-user-new.png){width="600" zoomable="yes"}
 
@@ -82,21 +98,21 @@ Für temporäre Benutzer oder Rollen können Sie auch ein Ablaufdatum für das B
 
    Das Definieren eines Ablaufdatums ist hilfreich, wenn ein Benutzer oder eine Rolle temporär ist. Nach dem Ablaufdatum ändert sich der Benutzerkontenstatus in `Inactive` und kann bei Bedarf aktualisiert werden.
 
-1. Geben Sie unter _[!UICONTROL Current User Identity Verification]_&#x200B;Ihr Benutzerkonto-Kennwort ein.
+1. Geben Sie unter _[!UICONTROL Current User Identity Verification]_Ihr Benutzerkonto-Kennwort ein.
 
 >[!IMPORTANT]
 >
->Wenn der Abschnitt _[!UICONTROL Account Information]_&#x200B;abgeschlossen ist, können Sie den Benutzer speichern. Der neue Benutzer wird im&#x200B;_[!UICONTROL Users]_ angezeigt, der Benutzername kann sich jedoch erst anmelden, wenn ihm eine Rolle zugewiesen wurde.
+>Wenn der Abschnitt _[!UICONTROL Account Information]_abgeschlossen ist, können Sie den Benutzer speichern. Der neue Benutzer wird im_[!UICONTROL Users]_ angezeigt, der Benutzername kann sich jedoch erst anmelden, wenn ihm eine Rolle zugewiesen wurde.
 
 ## Benutzerrolle zuweisen
 
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL User Role]**.
 
-   Das Raster listet alle vorhandenen Benutzerrollen auf. Für einen neuen Store ist _[!UICONTROL Administrators]_&#x200B;die einzige verfügbare Rolle.
+   Das Raster listet alle vorhandenen Benutzerrollen auf. Für einen neuen Store ist _[!UICONTROL Administrators]_die einzige verfügbare Rolle.
 
    ![Admin - Add new user role](./assets/permissions-user-roles.png){width="600" zoomable="yes"}
 
-1. Wählen Sie in der Spalte _[!UICONTROL Assigned]_&#x200B;eine Benutzerrolle aus.
+1. Wählen Sie in der Spalte _[!UICONTROL Assigned]_eine Benutzerrolle aus.
 
    Sie können [vorhandene Benutzerrollen anzeigen oder zusätzliche Benutzerrollen definieren](permissions-user-roles.md). Nachdem eine Rolle definiert wurde, müssen Sie das Benutzerkonto bearbeiten, um die neue Rolle zuzuweisen.
 
@@ -122,7 +138,7 @@ Für temporäre Benutzer oder Rollen können Sie auch ein Ablaufdatum für das B
 
 1. Geben Sie bei Aufforderung Ihr Kennwort ein, um Ihre Identität zu bestätigen, und klicken Sie erneut auf **[!UICONTROL Save User]**.
 
-   Das _[!UICONTROL Users]_&#x200B;Raster öffnet und listet alle Benutzer auf.
+   Das _[!UICONTROL Users]_Raster öffnet und listet alle Benutzer auf.
 
 ## Admin-Benutzer löschen
 

@@ -3,27 +3,35 @@ title: Geplante Produkt-Updates
 description: Erfahren Sie, wie Sie Änderungen an Ihren Produktlisten planen können, um Kampagnen und Werbeprogramme zu unterstützen.
 exl-id: ce1aebe6-9032-438d-b950-4b13116b8ed3
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/eG4RXNCToWJxbPB6GQC9htRnh4z4ktPTb4FPrefJVtk
+TQID: 'https://experienceleague.adobe.com/eG4RXNCToWJxbPB6GQC9htRnh4z4ktPTb4FPrefJVtk'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 715
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # Planen von Produkt-Updates
 
 {{ee-feature}}
@@ -36,7 +44,7 @@ Beachten Sie beim Konfigurieren von Zeitplänen für Produktaktualisierungen und
 
 - Eine Staging-Vorschau für ein geplantes Update beginnt immer in der **Standard** Store-Ansicht, die das Kundenerlebnis beim Navigieren durch die Staging-Update-Kampagne emuliert.
 
-- Wenn eine Kampagne mit mehr als einem Produkt verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard für Inhalte“ bearbeitet &#x200B;](../content-design/content-staging-dashboard.md).
+- Wenn eine Kampagne mit mehr als einem Produkt verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard für Inhalte“ bearbeitet ](../content-design/content-staging-dashboard.md).
 
 - Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne nicht später bearbeitet werden, um ein Enddatum einzuschließen. In diesem Fall müssen Sie eine doppelte Kampagne erstellen und das erforderliche Enddatum eingeben.
 
@@ -67,7 +75,7 @@ Beachten Sie beim Konfigurieren von Zeitplänen für Produktaktualisierungen und
 
    ![Als neues Update planen](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. Scrollen Sie nach unten zu _[!UICONTROL Price]_&#x200B;und klicken Sie auf **[!UICONTROL Advanced Pricing]**.
+1. Scrollen Sie nach unten zu _[!UICONTROL Price]_und klicken Sie auf **[!UICONTROL Advanced Pricing]**.
 
 1. Geben Sie während der geplanten Kampagne einen **[!UICONTROL Special Price]** für das Produkt ein und klicken Sie auf **[!UICONTROL Done]**.
 
@@ -99,7 +107,7 @@ Die geplante Änderung wird oben auf der Produktseite mit dem Start- und Enddatu
 
 ## Geplante Änderung bearbeiten
 
-1. Klicken Sie im _[!UICONTROL Scheduled Changes]_&#x200B;oben auf der Seite auf **[!UICONTROL View/Edit]**.
+1. Klicken Sie im _[!UICONTROL Scheduled Changes]_oben auf der Seite auf **[!UICONTROL View/Edit]**.
 
 1. Nehmen Sie die erforderlichen Änderungen an der geplanten Aktualisierung vor.
 
@@ -107,7 +115,7 @@ Die geplante Änderung wird oben auf der Produktseite mit dem Start- und Enddatu
 
 ## Geplante Änderung entfernen
 
-1. Klicken Sie im _[!UICONTROL Scheduled Changes]_&#x200B;oben auf der Seite auf **[!UICONTROL View/Edit]**.
+1. Klicken Sie im _[!UICONTROL Scheduled Changes]_oben auf der Seite auf **[!UICONTROL View/Edit]**.
 
 1. Klicken Sie in der oberen Leiste auf **[!UICONTROL Remove from Update]**.
 
@@ -121,7 +129,7 @@ Die geplante Änderung wird oben auf der Produktseite mit dem Start- und Enddatu
 
 {{ce-feature}}
 
-Im Abschnitt _[!UICONTROL Schedule Design Update]_&#x200B;können Sie temporäre Änderungen am Erscheinungsbild der Produktseite vornehmen. Sie können Design-Änderungen für eine Saison, eine Promotion oder einfach nur planen, um Dinge neu zu gestalten. Konstruktionsänderungen können im Voraus geplant werden, sodass sie in dem von Ihnen festgelegten Zeitplan in Kraft treten_ oder _tropfen).
+Im Abschnitt _[!UICONTROL Schedule Design Update]_können Sie temporäre Änderungen am Erscheinungsbild der Produktseite vornehmen. Sie können Design-Änderungen für eine Saison, eine Promotion oder einfach nur planen, um Dinge neu zu gestalten. Konstruktionsänderungen können im Voraus geplant werden, sodass sie in dem von Ihnen festgelegten Zeitplan in Kraft treten_ oder _tropfen).
 
 ![Geplante Design-Aktualisierung](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

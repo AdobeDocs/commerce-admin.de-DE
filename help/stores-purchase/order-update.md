@@ -3,27 +3,40 @@ title: Aktualisieren einer Bestellung
 description: Erfahren Sie, wie Sie die Bestellung eines Kunden in Admin aktualisieren können.
 exl-id: 15c73d27-f4bd-47d6-8d36-902074f9c3e6
 feature: Orders, Customer Service
-TQID: https://experienceleague.adobe.com/-p3rOdUeSmF-IcUJS9DP9eSxfjZGXs7UhlkvhPkbzOM
+TQID: 'https://experienceleague.adobe.com/-p3rOdUeSmF-IcUJS9DP9eSxfjZGXs7UhlkvhPkbzOM'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 769
-ht-degree: 0%
-
+source-wordcount: '777'
+ht-degree: 1%
 ---
-
 # Aktualisieren einer Bestellung
 
 Wenn Sie einem Kunden helfen, der eine Bestellung aufgegeben hat, müssen Sie den Status der Bestellung ermitteln. Die verfügbaren Optionen für eine `Pending` unterscheiden sich von den Optionen für eine `Processing`. Weitere Informationen finden Sie unter [Bearbeiten einer Bestellung](order-processing.md).
@@ -42,7 +55,7 @@ Wenn Sie wesentliche Teile einer Bestellung ändern, wird die ursprüngliche Bes
 | **[!UICONTROL Login as Customer]** | Ermöglicht es einem Admin-Benutzer, Kunden bei ihren Bestellungen zu unterstützen. |
 | **[!UICONTROL Cancel]** | Storniert die ausstehende Bestellung. |
 | **[!UICONTROL Send Email]** | Sendet eine E-Mail über die ausstehende Bestellung an den Kunden. |
-| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändert den Status der ausstehenden Bestellung in `On Hold`. Um den Haltebereich zu lösen, wählen Sie _[!UICONTROL Unhold]_&#x200B;aus. |
+| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändert den Status der ausstehenden Bestellung in `On Hold`. Um den Haltebereich zu lösen, wählen Sie _[!UICONTROL Unhold]_aus. |
 | **[!UICONTROL Invoice]** | Erstellt eine [Rechnung](invoices.md#create-an-invoice) aus der ausstehenden Bestellung, indem die Bestellung in eine Rechnung umgewandelt wird, und ändert den Bestellstatus in `processing`. |
 | **[!UICONTROL Ship]** | Erstellt einen [Sendung](shipments.md#create-a-shipment)-Datensatz für die Bestellung. |
 | **[!UICONTROL Reorder]** | Erstellt einen neuen ausstehenden Auftrag, der ein Duplikat des aktuellen ausstehenden Auftrags ist. |
@@ -73,19 +86,19 @@ Sie können eine `Processing` Bestellung nicht wesentlich ändern, aber Sie kön
 | **[!UICONTROL Send Email]** | Sendet eine E-Mail über die Bestellung an den Kunden. |
 | **[!UICONTROL Void]** | [Voids](#void-a-processing-order) eine Auftragstransaktion oder eine Teilauftragstransaktion. |
 | **[!UICONTROL Credit Memo]** | Startet den Prozess zum Erstellen einer [Gutschrift](credit-memo-create.md). |
-| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändert den Status des Kundenauftrags in `On Hold`. Um die Sperre des Kundenauftrags aufzuheben, wählen Sie _[!UICONTROL Unhold]_&#x200B;aus. |
+| **[!UICONTROL Hold]** / **[!UICONTROL Unhold]** | Ändert den Status des Kundenauftrags in `On Hold`. Um die Sperre des Kundenauftrags aufzuheben, wählen Sie _[!UICONTROL Unhold]_aus. |
 | **[!UICONTROL Reorder]** | Erstellt einen neuen ausstehenden Auftrag basierend auf dem aktuellen Auftrag. |
-| **[!UICONTROL Create Returns]** | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Initiiert den Prozess zum [&#x200B; (](returns.md)) eines oder mehrerer Elemente aus der Bestellung. |
+| **[!UICONTROL Create Returns]** | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Initiiert den Prozess zum [ (](returns.md)) eines oder mehrerer Elemente aus der Bestellung. |
 
 {style="table-layout:auto"}
 
 ## Aufheben einer Verarbeitungsreihenfolge
 
-Wenn sich eine Bestellung noch im Status `Processing` befindet und die Zahlungsintegration auf `Authorize` (nicht `Authorize and Capture`) gesetzt ist, können Sie nur eine Transaktion stornieren oder eine Bestellung stornieren. [Durch das Stornieren einer Bestellung &#x200B;](#cancel-a-pending-order) auch die Autorisierung aufgehoben.
+Wenn sich eine Bestellung noch im Status `Processing` befindet und die Zahlungsintegration auf `Authorize` (nicht `Authorize and Capture`) gesetzt ist, können Sie nur eine Transaktion stornieren oder eine Bestellung stornieren. [Durch das Stornieren einer Bestellung ](#cancel-a-pending-order) auch die Autorisierung aufgehoben.
 
 Wenn eine Bestellung mit einer Zahlungsmethode aufgegeben wird, bei der der Zahlungsvorgang auf `Authorize and Capture` gesetzt ist, können Sie das Guthaben per Gutschrift zurückerstatten, es jedoch nicht stornieren, da es in Rechnung gestellt und die Zahlung erfasst wird.
 
-Ihre Zahlungsmethode bestimmt Ihre verfügbaren Zahlungsaktionen. Weitere Informationen [&#x200B; Sie unter &#x200B;](../configuration-reference/sales/payment-methods.md#payment-actions)Zahlungsaktionen“.
+Ihre Zahlungsmethode bestimmt Ihre verfügbaren Zahlungsaktionen. Weitere Informationen [ Sie unter ](../configuration-reference/sales/payment-methods.md#payment-actions)Zahlungsaktionen“.
 
 **_So stornieren Sie eine Bestellung:_**
 
@@ -133,9 +146,9 @@ Um die Sperre einer Bestellung aufzuheben, bearbeiten Sie die Bestellung erneut 
 
 Beim Abbrechen einer Bestellung ändert sich ihr Status von `Pending` in `Canceled`.
 
-1. Suchen Sie im _[!UICONTROL Orders]_&#x200B;Raster nach der ausstehenden Bestellung, die storniert werden soll.
+1. Suchen Sie im _[!UICONTROL Orders]_Raster nach der ausstehenden Bestellung, die storniert werden soll.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL View]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View]**.
 
 1. Klicken Sie auf **[!UICONTROL Cancel]** , um die Bestellung abzubrechen.
 

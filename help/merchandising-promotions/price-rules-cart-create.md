@@ -3,30 +3,45 @@ title: Erstellen einer Warenkorb-Preisregel
 description: Erfahren Sie, wie Sie eine Warenkorb-Preisregel basierend auf Warenkorb- oder Produktattributen erstellen.
 exl-id: 7260e7c3-3b1e-43e5-9c09-c40538e37378
 feature: Merchandising, Price Rules, Shopping Cart
-TQID: https://experienceleague.adobe.com/wCXMFRIybcV59Hj3WwLoseT-IzxdfVCiS96rZv0enTY
+TQID: 'https://experienceleague.adobe.com/wCXMFRIybcV59Hj3WwLoseT-IzxdfVCiS96rZv0enTY'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 58c984c2-e237-5c50-9718-500e40d1e82c
+    internal-label: Merchandising
+  - id: a507b1ed-4937-53da-97ae-57d36bd5b9e0
+    internal-label: Price Rules
+  - id: df8eaa0e-dd74-553a-8ad5-28129f8e8d3d
+    internal-label: Shopping Cart
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f1f13b75aa01c5142cc8ea03cef2df6d2d3aaf3
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 3608
+source-wordcount: '3608'
 ht-degree: 0%
-
 ---
-
 
 # Erstellen einer Warenkorb-Preisregel
 
@@ -38,13 +53,13 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
 
 1. Klicken Sie auf **[!UICONTROL Add New Rule]** und führen Sie folgende Schritte aus:
 
-   - Füllen Sie unter _[!UICONTROL Rule Information]_&#x200B;die **[!UICONTROL Rule Name]**&#x200B;und die **[!UICONTROL Description]**&#x200B;aus.
+   - Füllen Sie unter _[!UICONTROL Rule Information]_die **[!UICONTROL Rule Name]**und die **[!UICONTROL Description]**aus.
 
    - Wenn die Regel nicht sofort in Kraft treten soll, setzen Sie **[!UICONTROL Active]** auf `No`.
 
    ![Warenkorb-Preisregel - Regelinformationen](./assets/price-rule-cart-new.png){width="600" zoomable="yes"}
 
-1. Gehen Sie wie folgt vor[&#x200B; um den &#x200B;](../getting-started/websites-stores-views.md#scope-settings)Umfang“ der Regel festzulegen:
+1. Gehen Sie wie folgt vor[ um den ](../getting-started/websites-stores-views.md#scope-settings)Umfang“ der Regel festzulegen:
 
    - Die **[!UICONTROL Websites]** auswählen, in der die Promotion verfügbar sein soll.
 
@@ -86,7 +101,7 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
 
    - ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Nach dem Speichern der Regel wird der Name der Warenkorbpreisregel oben auf der Seite angezeigt.
 
-   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Nach dem Speichern der Regel werden der Name der Warenkorbpreisregel und das Feld [Geplante &#x200B;](price-rule-cart-scheduled-changes.md)&quot; oben auf der Seite angezeigt.
+   - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Nach dem Speichern der Regel werden der Name der Warenkorbpreisregel und das Feld [Geplante ](price-rule-cart-scheduled-changes.md)&quot; oben auf der Seite angezeigt.
 
      ![Warenkorb-Preisregel - Geplante Änderungen](./assets/price-rule-cart-scheduled-changes.png){width="600" zoomable="yes"}
 
@@ -98,7 +113,7 @@ Führen Sie die folgenden Schritte aus, um eine Regel hinzuzufügen, die Bedingu
 
 In diesem Schritt werden die Bedingungen beschrieben, die für eine Bestellung erfüllt sein müssen, um sich für die Promotion zu qualifizieren. Bedingungen wirken sich auf folgende Weise auf die Regeln für den Warenkorbpreis aus:
 
-- Die Preisregel für den Warenkorb wird auf **_jedes_** Produkt im Warenkorb angewendet, wenn die auf der Registerkarte _[!UICONTROL Conditions]_&#x200B;festgelegten Bedingungen erfüllt sind. Um die Anzahl der Produkte zu begrenzen, die von der Warenkorbpreisregel betroffen sind, fügen Sie Bedingungen auf der Registerkarte&#x200B;_[!UICONTROL Actions]_ hinzu, um die Anzahl der Produkte zu begrenzen, die von der Warenkorbpreisregel betroffen sind.
+- Die Preisregel für den Warenkorb wird auf **_jedes_** Produkt im Warenkorb angewendet, wenn die auf der Registerkarte _[!UICONTROL Conditions]_festgelegten Bedingungen erfüllt sind. Um die Anzahl der Produkte zu begrenzen, die von der Warenkorbpreisregel betroffen sind, fügen Sie Bedingungen auf der Registerkarte_[!UICONTROL Actions]_ hinzu, um die Anzahl der Produkte zu begrenzen, die von der Warenkorbpreisregel betroffen sind.
 
 - Wenn mindestens ein bedingtes Produktattribut einen leeren Wert aufweist, wird die Warenkorbpreisregel nicht auf das Produkt angewendet.
 
@@ -148,7 +163,7 @@ In diesem Schritt werden die Bedingungen beschrieben, die für eine Bestellung e
 
 1. Aktivieren Sie das Kontrollkästchen der Kategorie, die Sie als Bedingung für die Preisregel verwenden möchten, und klicken Sie auf das Symbol ![Hinzufügen](../assets/icon-checkmark-green-circle.png), um die Kategorieauswahl zu akzeptieren.
 
-   Die Bedingung kann auf einer beliebigen Kategorie basieren, die ein untergeordnetes Element der [Stammkategorie“ des Stores &#x200B;](../catalog/category-root.md).
+   Die Bedingung kann auf einer beliebigen Kategorie basieren, die ein untergeordnetes Element der [Stammkategorie“ des Stores ](../catalog/category-root.md).
 
    ![Preisregelbedingung für den Warenkorb - Produktkategorie](./assets/subselection-category.png){width="600" zoomable="yes"}
 
@@ -183,7 +198,7 @@ In diesem Schritt werden die Bedingungen beschrieben, die für eine Bestellung e
 
 ### Hinzufügen eines Produktattributs zu Warenkorb-Preisregeln
 
-1. Wechseln Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**&#x200B;und öffnen Sie das Produktattribut.
+1. Wechseln Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**und öffnen Sie das Produktattribut.
 
 1. Wählen Sie im linken Bedienfeld **[!UICONTROL Storefront Properties]** aus.
 
@@ -211,7 +226,7 @@ In diesem Schritt werden die Bedingungen beschrieben, die für eine Bestellung e
 
 ### Verwenden von Real-Time CDP-Zielgruppen zum Festlegen einer Bedingung
 
-Sie können eine Bedingung für eine Warenkorb-Preisregel basierend auf einer Real-Time CDP (Zielgruppe[&#x200B; festlegen](../customers/audience-activation.md).
+Sie können eine Bedingung für eine Warenkorb-Preisregel basierend auf einer Real-Time CDP (Zielgruppe[ festlegen](../customers/audience-activation.md).
 
 1. Erweitern Sie **[!UICONTROL Conditions]**, klicken Sie auf das Symbol &quot;+&quot; und wählen Sie **[!UICONTROL Real-Time CDP Audience]** aus der Liste aus.
 
@@ -230,7 +245,7 @@ Sie können eine Bedingung für eine Warenkorb-Preisregel basierend auf einer Re
    | `Name` | Name der Zielgruppe, z. B. `Orders over $50` |
    | `Description` | Beschreibung der Zielgruppe, z. B. `People who placed an order over $50 in the last month.`. |
    | `Source` | Gibt an, woher die Zielgruppe stammt, z. B. `Experience Platform`. |
-   | `Website` | Gibt an, welche Website Sie mit dem Datenstrom verknüpft haben, der die Zielgruppen enthält. Sie erstellen diesen Link, wenn Sie Ihre Commerce-Instanz über die [[!DNL Data Connection]](https://experienceleague.adobe.com/de/docs/commerce/data-connection/fundamentals/connect-data) mit der Experience Platform verbinden. |
+   | `Website` | Gibt an, welche Website Sie mit dem Datenstrom verknüpft haben, der die Zielgruppen enthält. Sie erstellen diesen Link, wenn Sie Ihre Commerce-Instanz über die [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce/data-connection/fundamentals/connect-data) mit der Experience Platform verbinden. |
 
    {style="table-layout:auto"}
 
@@ -242,7 +257,7 @@ Die Preisregelaktionen für den Warenkorb beschreiben, wie Preise aktualisiert w
 
 1. Scrollen Sie nach unten zu **[!UICONTROL Actions]** und erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt.
 
-   ![Warenkorb-Preisregel - Aktionen &#x200B;](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
+   ![Warenkorb-Preisregel - Aktionen ](./assets/price-rule-cart-actions.png){width="600" zoomable="yes"}
 
 1. Legen Sie **[!UICONTROL Apply]** auf eine der folgenden Rabattoptionen fest:
 
@@ -252,7 +267,7 @@ Die Preisregelaktionen für den Warenkorb beschreiben, wie Preise aktualisiert w
    | `Fixed amount discount` | Rabattartikel, indem ein fester Betrag vom ursprünglichen Preis jedes qualifizierten Artikels im Warenkorb abgezogen wird. Beispiel: Geben Sie `10` in [!UICONTROL Discount Amount] für einen aktualisierten Preis ein, der 10 $ unter dem ursprünglichen Preis liegt. |
    | Fester Rabatt für den gesamten Warenkorb | Rabatte auf den gesamten Warenkorb, indem ein fester Betrag von der Summe des Warenkorbs abgezogen wird. Beispiel: Geben Sie 10 in [!UICONTROL Discount Amount] ein, um 10 $ von der Gesamtsumme des Warenkorbs abzuziehen. Standardmäßig gilt der Rabatt nur für die Zwischensumme des Warenkorbs. Um den Rabatt auf die Zwischensumme und den Versand separat anzuwenden, verwenden Sie die Option _[!UICONTROL Apply to Shipping Amount]_. |
    | `Buy X get Y free` | Definiert eine Menge X, die der Kunde erwerben muss, um eine Menge Y **desselben Produkts/derselben Variante)** erhalten. (Der [!UICONTROL Discount Amount] ist Y.) Eine Gesamtmenge von X+Y desselben Artikels muss im Warenkorb vorhanden/hinzugefügt werden, damit der Rabatt angewendet werden kann. |
-   | `Free Gift` | Fügt ein kostenloses Geschenkprodukt in den Warenkorb, wenn die Regelbedingungen erfüllt sind. Wählen Sie das kostenlose Produkt und die Menge aus, die zum Warenkorb hinzugefügt werden soll. <br/><br/>**Hinweis:** ![Adobe Commerce](../assets/adobe-logo.svg) Hierbei handelt es sich um eine exklusive Funktion, die nur in Adobe Commerce verfügbar ist und nicht in Magento Open Source. ([Weitere Informationen](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home#product-editions)) <br/><br/>Diese Funktion wird in Luma-Storefronts nicht unterstützt. Sie ist über [GraphQL) &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/) und in Edge Delivery Services (EDS)-Storefronts verfügbar. |
+   | `Free Gift` | Fügt ein kostenloses Geschenkprodukt in den Warenkorb, wenn die Regelbedingungen erfüllt sind. Wählen Sie das kostenlose Produkt und die Menge aus, die zum Warenkorb hinzugefügt werden soll. <br/><br/>**Hinweis:** ![Adobe Commerce](../assets/adobe-logo.svg) Hierbei handelt es sich um eine exklusive Funktion, die nur in Adobe Commerce verfügbar ist und nicht in Magento Open Source. ([Weitere Informationen](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home#product-editions)) <br/><br/>Diese Funktion wird in Luma-Storefronts nicht unterstützt. Sie ist über [GraphQL) ](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/) und in Edge Delivery Services (EDS)-Storefronts verfügbar. |
 
    {style="table-layout:auto"}
 
@@ -348,7 +363,7 @@ Die Bezeichnung wird im Abschnitt „Gesamtsummen“ der Bestellung angezeigt, u
 
 In diesem Video erfahren Sie mehr über das Erstellen von Regeln für den Warenkorbpreis:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411359?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343835?quality=12&learn=on)
 
 ## Feldbeschreibungen
 
@@ -361,7 +376,7 @@ In diesem Video erfahren Sie mehr über das Erstellen von Regeln für den Warenk
 | [!UICONTROL Active] | (Erforderlich) Bestimmt, ob die Regel im Store aktiv ist. Optionen: `Yes` / `No` |
 | [!UICONTROL Websites] | (Erforderlich) Gibt die Websites an, auf denen die Regel verwendet werden kann. |
 | [!UICONTROL Customer Groups] | (Erforderlich) Identifiziert die Kundengruppen, für die die Regel gilt. |
-| [!UICONTROL Coupon] | (Erforderlich) Zeigt an, ob der Regel ein Coupon zugeordnet ist. Optionen: <br/>**[!UICONTROL No Coupon]**- Der Regel ist kein Coupon zugeordnet.<br/>**[!UICONTROL Specific Coupon]** - Der Regel ist ein bestimmter Coupon zugeordnet. <br/>**[!UICONTROL Coupon Code]**: Geben Sie bei Aufforderung den Gutscheincode ein, den der Kunde eingeben muss, um die Promotion nutzen zu können.<br/>**[!UICONTROL Use Auto Generation]** - Aktivieren Sie das Kontrollkästchen, um automatisch mehrere Gutscheincodes zu generieren, die mit der Promotion verwendet werden können. <br/>**[!UICONTROL Auto]**- Zeigt den _[!UICONTROL Manage Coupon Codes]_&#x200B;an, um das Format der zu generierenden Couponcodes zu definieren. |
+| [!UICONTROL Coupon] | (Erforderlich) Zeigt an, ob der Regel ein Coupon zugeordnet ist. Optionen: <br/>**[!UICONTROL No Coupon]**- Der Regel ist kein Coupon zugeordnet.<br/>**[!UICONTROL Specific Coupon]** - Der Regel ist ein bestimmter Coupon zugeordnet. <br/>**[!UICONTROL Coupon Code]**: Geben Sie bei Aufforderung den Gutscheincode ein, den der Kunde eingeben muss, um die Promotion nutzen zu können.<br/>**[!UICONTROL Use Auto Generation]** - Aktivieren Sie das Kontrollkästchen, um automatisch mehrere Gutscheincodes zu generieren, die mit der Promotion verwendet werden können. <br/>**[!UICONTROL Auto]**- Zeigt den _[!UICONTROL Manage Coupon Codes]_an, um das Format der zu generierenden Couponcodes zu definieren. |
 | [!UICONTROL Uses per Coupon] | Bestimmt, wie oft der Gutscheincode verwendet werden kann. Wenn es keine Beschränkung gibt, lassen Sie das Feld leer. |
 | [!UICONTROL Uses per Customer] | Bestimmt, wie oft die Warenkorb-Preisregel von demselben registrierten Kunden verwendet werden kann, der zu einer ausgewählten Kundengruppe gehört. Gilt nicht für Gasteinkäufer, die Mitglieder der Kundengruppe NOT LOGGED IN sind, oder für Kunden, die einkaufen, ohne sich bei ihren Konten anzumelden. Für keine Beschränkung lassen Sie das Feld leer. |
 | [!UICONTROL Priority] | Eine Zahl, die die Priorität dieser Regel im Verhältnis zu anderen angibt. Die Prioritäten von der höchsten zur niedrigsten sind `0,1,2,3...` |
@@ -404,7 +419,7 @@ Gibt die Bedingungen an, die erfüllt sein müssen, bevor die Warenkorbpreisrege
 
 | Feld | Beschreibung |
 |--- |--- |
-| [!UICONTROL Apply] | Bestimmt die Art der Berechnung, die auf den Kauf angewendet wird. Optionen: <br/>**[!UICONTROL Percent of product price discount]**- Rabattartikel, indem ein Prozentsatz vom ursprünglichen Preis abgezogen wird. Beispiel: Geben Sie `10` in _[!UICONTROL Discount Amount]_&#x200B;für einen aktualisierten Preis ein, der 10 % unter dem ursprünglichen Preis liegt.<br/>**[!UICONTROL Fixed amount discount]**- Rabattartikel, indem ein fester Betrag vom ursprünglichen Preis jedes qualifizierten Artikels im Warenkorb abgezogen wird. Beispiel: Geben Sie `10` in&#x200B;_[!UICONTROL Discount Amount]_ für einen aktualisierten Preis ein, der 10 $ unter dem ursprünglichen Preis liegt. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Rabatte für den gesamten Warenkorb, indem ein fester Betrag von der Zwischensumme des Warenkorbs subtrahiert wird. Beispiel: Geben Sie `10` in _[!UICONTROL Discount Amount]_&#x200B;ein, um $10 von der Zwischensumme des Warenkorbs abzuziehen. Standardmäßig gilt der Rabatt nur für die Zwischensumme des Warenkorbs. Um den Rabatt auf die Zwischensumme und den Versand separat anzuwenden, siehe_Auf Versandbetrag anwenden _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definiert eine Menge, die der Kunde erwerben muss, um eine Menge kostenlos zu erhalten. (Der&#x200B;_[!UICONTROL Discount Amount]_ ist Y.) <br/>**[!UICONTROL Free Gift]**- Fügt ein kostenloses Geschenkprodukt in den Warenkorb, wenn die Regelbedingungen erfüllt sind. Wählen Sie das kostenlose Produkt und die Menge aus, die zum Warenkorb hinzugefügt werden soll. ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce). Diese Funktion wird in Luma-Storefronts nicht unterstützt. Sie ist über [GraphQL) &#x200B;](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/) und in Edge Delivery Services (EDS)-Storefronts verfügbar. |
+| [!UICONTROL Apply] | Bestimmt die Art der Berechnung, die auf den Kauf angewendet wird. Optionen: <br/>**[!UICONTROL Percent of product price discount]**- Rabattartikel, indem ein Prozentsatz vom ursprünglichen Preis abgezogen wird. Beispiel: Geben Sie `10` in _[!UICONTROL Discount Amount]_für einen aktualisierten Preis ein, der 10 % unter dem ursprünglichen Preis liegt.<br/>**[!UICONTROL Fixed amount discount]**- Rabattartikel, indem ein fester Betrag vom ursprünglichen Preis jedes qualifizierten Artikels im Warenkorb abgezogen wird. Beispiel: Geben Sie `10` in_[!UICONTROL Discount Amount]_ für einen aktualisierten Preis ein, der 10 $ unter dem ursprünglichen Preis liegt. <br/>**[!UICONTROL Fixed amount discount for whole cart]**- Rabatte für den gesamten Warenkorb, indem ein fester Betrag von der Zwischensumme des Warenkorbs subtrahiert wird. Beispiel: Geben Sie `10` in _[!UICONTROL Discount Amount]_ein, um $10 von der Zwischensumme des Warenkorbs abzuziehen. Standardmäßig gilt der Rabatt nur für die Zwischensumme des Warenkorbs. Um den Rabatt auf die Zwischensumme und den Versand separat anzuwenden, siehe_Auf Versandbetrag anwenden _.<br/>**[!UICONTROL Buy X Get Y Free (discount amount is Y)]**- Definiert eine Menge, die der Kunde erwerben muss, um eine Menge kostenlos zu erhalten. (Der_[!UICONTROL Discount Amount]_ ist Y.) <br/>**[!UICONTROL Free Gift]**- Fügt ein kostenloses Geschenkprodukt in den Warenkorb, wenn die Regelbedingungen erfüllt sind. Wählen Sie das kostenlose Produkt und die Menge aus, die zum Warenkorb hinzugefügt werden soll. ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce). Diese Funktion wird in Luma-Storefronts nicht unterstützt. Sie ist über [GraphQL) ](https://developer.adobe.com/commerce/webapi/graphql/schema/cart/mutations/select-free-gift/) und in Edge Delivery Services (EDS)-Storefronts verfügbar. |
 | [!UICONTROL Discount Amount] | (Erforderlich) Der Rabattbetrag, der angeboten wird. |
 | [!UICONTROL Maximum Qty Discount is Applied To] | Legt die maximale Anzahl von Produkten fest, auf die der Rabatt im selben Kauf angewendet werden kann. |
 | [!UICONTROL Discount Qty Step (Buy X)] | Legt die Anzahl der Produkte fest, die von `X` in einer `Buy X Get Y Free`-Promotion repräsentiert werden. Außerdem definiert, wie viele Produkte in Stapeln zum Warenkorb hinzugefügt werden müssen, um `Fixed amount discount`- und `Percent of product price discount`-Aktionen anzuwenden. |

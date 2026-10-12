@@ -3,35 +3,49 @@ title: Gutschrift ausstellen
 description: Erfahren Sie, wie Sie eine Gutschrift für eine fakturierte Bestellung generieren und drucken.
 exl-id: 84ec72ba-7f72-4fa1-a9bf-91c17f43a3a7
 feature: Orders, Invoices
-TQID: https://experienceleague.adobe.com/hOyqjpQzYKj5n3xsNKc9PfbUZ7CvBkg8Li8WR9LRUe4
+TQID: 'https://experienceleague.adobe.com/hOyqjpQzYKj5n3xsNKc9PfbUZ7CvBkg8Li8WR9LRUe4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
 subfeature_v2:
   - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2140
+source-wordcount: '2140'
 ht-degree: 0%
-
 ---
-
 # Gutschrift ausstellen
 
-Bevor eine Gutschrift gedruckt werden kann, muss sie zunächst für eine &quot;[&#x200B; Bestellung“ generiert &#x200B;](invoices.md#create-an-invoice). Sie können sowohl online als auch offline Rückerstattungen (teilweise oder vollständig) von einer offenen Gutschrift ausstellen, je nach Zahlungsmethode.
+Bevor eine Gutschrift gedruckt werden kann, muss sie zunächst für eine &quot;[ Bestellung“ generiert ](invoices.md#create-an-invoice). Sie können sowohl online als auch offline Rückerstattungen (teilweise oder vollständig) von einer offenen Gutschrift ausstellen, je nach Zahlungsmethode.
 
 - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Rückerstattungen können für Speichergutschriften angewendet werden.
 - ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B)-Rückerstattungen können auf Firmenkredite angewendet werden.
@@ -48,7 +62,7 @@ Mit Gutschriften können Sie:
 - Mehrere Rechnungen pro Bestellung zurückerstatten, wobei der Gesamtbetrag der Bestellung nicht überschritten werden darf.
 - Erstattet einen Teil der Menge für einen Zeileneintrag, z. B. drei der fünf Hemden in einer Bestellung.
 
-Weitere Informationen [&#x200B; Sie unter &#x200B;](invoices.md#create-an-invoice) erstellen.
+Weitere Informationen [ Sie unter ](invoices.md#create-an-invoice) erstellen.
 
 ## Einstellung der Zahlungsaktion
 
@@ -62,7 +76,7 @@ Der Rückerstattungs-Workflow für per Kreditkarte bezahlte Bestellungen wird du
 
 ## Erstellen einer Gutschrift
 
-Bestimmen Sie die Art der Rückerstattung, die Sie ausstellen möchten - für einen [Kreditkauf](#issue-a-refund-for-a-credit-purchase) oder für [Scheck oder &#x200B;](#issue-an-offline-refund-for-check-or-money-order)) und generieren Sie die Gutschrift und stellen Sie eine Rückerstattung aus.
+Bestimmen Sie die Art der Rückerstattung, die Sie ausstellen möchten - für einen [Kreditkauf](#issue-a-refund-for-a-credit-purchase) oder für [Scheck oder ](#issue-an-offline-refund-for-check-or-money-order)) und generieren Sie die Gutschrift und stellen Sie eine Rückerstattung aus.
 
 ### Rückerstattung für einen Kreditkauf ausstellen
 
@@ -72,12 +86,12 @@ Bestimmen Sie die Art der Rückerstattung, die Sie ausstellen möchten - für ei
 
 1. Suchen Sie die Reihenfolge im Raster und klicken Sie auf **[!UICONTROL View]**.
 
-1. Wenn die Schaltfläche _[!UICONTROL Credit Memo]_&#x200B;in der Schaltflächenleiste sichtbar ist, führen Sie einen der folgenden Schritte aus:
+1. Wenn die Schaltfläche _[!UICONTROL Credit Memo]_in der Schaltflächenleiste sichtbar ist, führen Sie einen der folgenden Schritte aus:
 
    - Um eine `offline` Rückerstattung zu erhalten, gehen Sie zu Schritt #6.
    - Um eine `online` Rückerstattung zu erhalten, fahren Sie mit Schritt #4 fort.
 
-   Weitere Informationen [&#x200B; Offline- und Online-Rückerstattungen finden Sie &#x200B;](credit-memos.md)Gutschriften“.
+   Weitere Informationen [ Offline- und Online-Rückerstattungen finden Sie ](credit-memos.md)Gutschriften“.
 
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Invoices]** .
 
@@ -135,7 +149,7 @@ Bestimmen Sie die Art der Rückerstattung, die Sie ausstellen möchten - für ei
 
    - ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B) Wenn der Kauf mit Firmenguthaben bezahlt wurde, klicken Sie auf **[!UICONTROL Refund to Company Credit]**.
 
-   Weitere Informationen [&#x200B; Offline- und Online-Rückerstattungen finden Sie &#x200B;](credit-memos.md)Gutschriften“.
+   Weitere Informationen [ Offline- und Online-Rückerstattungen finden Sie ](credit-memos.md)Gutschriften“.
 
    ![Gesamtrückerstattung bestellen](./assets/credit-memo-order-total-refund.png){width="600" zoomable="yes"}
 
@@ -159,7 +173,7 @@ Bestimmen Sie die Art der Rückerstattung, die Sie ausstellen möchten - für ei
 
    - Aktivieren Sie das Kontrollkästchen **[!UICONTROL Return to Stock]** , wenn Sie das zurückgegebene Produkt an den Bestand zurückgeben möchten.
 
-     Bei aktiviertem Inventory management wird die Lagermenge an die Quelle zurückgegeben, die die Lieferung versendet hat. Das Produkt wird automatisch auf Lager [, wenn &#x200B;](../inventory-management/enable.md)Produktaktienoptionen“ auf &quot;`Automatically Return Credit Memo Item to Stock`&quot; eingestellt ist.
+     Bei aktiviertem Inventory management wird die Lagermenge an die Quelle zurückgegeben, die die Lieferung versendet hat. Das Produkt wird automatisch auf Lager [, wenn ](../inventory-management/enable.md)Produktaktienoptionen“ auf &quot;`Automatically Return Credit Memo Item to Stock`&quot; eingestellt ist.
 
    - Aktualisieren Sie die **[!UICONTROL Qty to Refund]** und klicken Sie auf **[!UICONTROL Update Qty's]**.
 
@@ -285,7 +299,7 @@ Die für die Bestellung verwendete Zahlungsmethode bestimmt die Rückerstattungs
 |--- |--- |
 | **[!UICONTROL Refund]** | Wenn der ursprüngliche Kauf per Kreditkarte über ein Zahlungs-Gateway bezahlt wurde, wird der Rückerstattungsbetrag vom Zahlungsverarbeiter verwaltet. Informationen zur Verwaltung von Rückerstattungen finden Sie in der von Ihrem Zahlungsanbieter bereitgestellten Dokumentation. |
 | **[!UICONTROL Refund Offline]** | Wenn der ursprüngliche Kauf per Scheck oder Zahlungsanweisung bezahlt wurde, wird die Rückerstattung direkt an den Kunden gezahlt, indem ein Scheck, eine Geschenkkarte oder Bargeld ausgestellt wird, wenn Sie eine Ladenfront aus Backstein und Mörtel haben. Die Gutschrift dient als Nachweis für die Offline-Transaktion. |
-| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B) Wenn der Kauf auf Firmenkredite angerechnet wurde, wird die Rückerstattung auf das [Firmenkonto“ &#x200B;](../b2b/credit-company.md). |
+| **[!UICONTROL Refund to Company Credit]** | ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B) Wenn der Kauf auf Firmenkredite angerechnet wurde, wird die Rückerstattung auf das [Firmenkonto“ ](../b2b/credit-company.md). |
 
 {style="table-layout:auto"}
 

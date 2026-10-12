@@ -3,36 +3,51 @@ title: Produktliste
 description: Erfahren Sie mehr über die Seite „_[!UICONTROL Products]_“ in Admin, auf der Sie Produkte erstellen und vorhandene bearbeiten können.
 exl-id: 47e14f72-017f-456a-8904-6d32ef47e6f1
 feature: Catalog Management, Products, Admin Workspace
-TQID: https://experienceleague.adobe.com/tCvjmMlTzn0ejytHyuLPIKKpHn7CGiVkrAwJWmvN-Ro
+TQID: 'https://experienceleague.adobe.com/tCvjmMlTzn0ejytHyuLPIKKpHn7CGiVkrAwJWmvN-Ro'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
 subfeature_v2:
   - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ccaac3a13a346ce192a724efb3384ef2d612c980
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 836
+source-wordcount: '836'
 ht-degree: 0%
-
 ---
-
 # Produktliste
 
 Auf alle Produkte im Katalog kann über die Seite &quot;_[!UICONTROL Products]_&quot; in der Admin Console zugegriffen werden. Dort können Sie Produkte erstellen und vorhandene bearbeiten. Bei einer Multi-Site-Installation kann jede Website eine andere Auswahl von Produkten zum Verkauf aus demselben Katalog anbieten.
 
-Die _[!UICONTROL Products]_&#x200B;Liste enthält alle Produkte im Katalog, gibt die Websites an, auf denen sie verfügbar sind, und ob sie derzeit für den Verkauf aktiviert sind. In Adobe Commerce B2B-Installationen mit [freigegebenen Katalogen](../b2b/catalog-shared.md) enthält das Raster eine Spalte, die angibt, für welche Produkte in einem freigegebenen Katalog alternative Rabattpreise gelten.
+Die _[!UICONTROL Products]_Liste enthält alle Produkte im Katalog, gibt die Websites an, auf denen sie verfügbar sind, und ob sie derzeit für den Verkauf aktiviert sind. In Adobe Commerce B2B-Installationen mit [freigegebenen Katalogen](../b2b/catalog-shared.md) enthält das Raster eine Spalte, die angibt, für welche Produkte in einem freigegebenen Katalog alternative Rabattpreise gelten.
 
 Sie können die Liste Seite für Seite durchsuchen oder nach bestimmten Produkten suchen. Verwenden Sie die standardmäßigen [Steuerelemente](../getting-started/admin-grid-controls.md), um die Liste zu sortieren und zu filtern und [Aktionen](../getting-started/admin-actions-control.md) auf ausgewählte Produkte anzuwenden.
 
@@ -52,7 +67,7 @@ Diese Konfigurationseinstellung für die Begrenzung der Produktanzeige ist stand
 
 >[!NOTE]
 >
->Wenn Ihr Produktraster nicht beschränkt werden soll, verwenden Sie Filter präziser, um eine Sammlung zu erstellen, die weniger Elemente als die im Feld _[!UICONTROL Records Limit]_&#x200B;angegebene Anzahl enthält.
+>Wenn Ihr Produktraster nicht beschränkt werden soll, verwenden Sie Filter präziser, um eine Sammlung zu erstellen, die weniger Elemente als die im Feld _[!UICONTROL Records Limit]_angegebene Anzahl enthält.
 
 **_So konfigurieren Sie die Begrenzung der Produktanzeige:_**
 

@@ -3,31 +3,38 @@ title: Steuerklassen
 description: Erfahren Sie, wie Sie die Steuerklassen konfigurieren, die für Steuerregeln verwendet werden.
 exl-id: dd867eba-3f1e-45a8-9332-9e668a2092e1
 feature: Taxes
-TQID: https://experienceleague.adobe.com/wzq0p5sH7Ulpl6hiY5IaWPe9AvsrwJjrAZsX4PFZ2-Y
+TQID: 'https://experienceleague.adobe.com/wzq0p5sH7Ulpl6hiY5IaWPe9AvsrwJjrAZsX4PFZ2-Y'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 42e094d8-211b-5acf-b52f-d8979151ab30
+    internal-label: Taxes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: '501'
 ht-degree: 0%
-
 ---
-
 # Steuerklassen
 
 Steuerklassen können Kunden, Produkten und Versand zugeordnet werden. Commerce analysiert den Warenkorb jedes Kunden und berechnet die entsprechende Steuer entsprechend der Klasse des Kunden, der Klasse der Produkte im Warenkorb und der Region. Die Region wird durch die Lieferadresse des Kunden, die Rechnungsadresse oder die Versandherkunft bestimmt. Neue Steuerklassen können erstellt werden, wenn eine [Steuerregel](tax-rules.md) definiert wird.
 
-- **Kunde** - Sie können beliebig viele Debitorensteuerklassen erstellen und sie &quot;[&quot; &#x200B;](../customers/customer-groups.md). So werden beispielsweise in einigen Steuergebieten Großhandelsumsätze nicht besteuert, wohl aber Einzelhandelsumsätze. Sie können Mitglieder der Gruppe „Großkunden“ mit der Steuerklasse „Großhandel“ verknüpfen.
+- **Kunde** - Sie können beliebig viele Debitorensteuerklassen erstellen und sie &quot;[&quot; ](../customers/customer-groups.md). So werden beispielsweise in einigen Steuergebieten Großhandelsumsätze nicht besteuert, wohl aber Einzelhandelsumsätze. Sie können Mitglieder der Gruppe „Großkunden“ mit der Steuerklasse „Großhandel“ verknüpfen.
 
 - **Produkt** - Produktklassen werden in Berechnungen verwendet, um den korrekten Steuersatz zu bestimmen, der im Warenkorb angewendet wird. Wenn Sie ein Produkt erstellen, wird es einer bestimmten Steuerklasse zugewiesen. Beispielsweise dürfen Lebensmittel möglicherweise nicht oder anders besteuert werden.
 
@@ -35,7 +42,7 @@ Steuerklassen können Kunden, Produkten und Versand zugeordnet werden. Commerce 
 
 ## Steuerklassen konfigurieren
 
-Die Steuerklasse, die für den Versand verwendet wird, und die standardmäßigen Steuerklassen für [Produkte und Kunden](#add-a-product-tax-class) werden in der _[!UICONTROL Sales]_&#x200B;Konfiguration festgelegt.
+Die Steuerklasse, die für den Versand verwendet wird, und die standardmäßigen Steuerklassen für [Produkte und Kunden](#add-a-product-tax-class) werden in der _[!UICONTROL Sales]_Konfiguration festgelegt.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

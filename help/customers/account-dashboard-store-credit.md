@@ -3,31 +3,42 @@ title: Guthaben im Dashboard des Kundenkontos speichern
 description: Auf der Seite [!UICONTROL Store Credit] des Dashboards für Kundenkonten werden Beträge aus Rücksendungen und Rückerstattungen aufgelistet, die auf zukünftige Käufe angewendet werden können.
 exl-id: 9273b9a3-6095-4fc9-ad6f-3e4a6da60a89
 feature: Customers, Storefront, Checkout
-TQID: https://experienceleague.adobe.com/I64vMgYhCmEBnFluH3uTqF5aqdy-YEZc-0bbKfiVfe4
+TQID: 'https://experienceleague.adobe.com/I64vMgYhCmEBnFluH3uTqF5aqdy-YEZc-0bbKfiVfe4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+  - id: 22bad240-8308-569b-a9d5-578f1ff890ca
+    internal-label: Customers
+  - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 219
+source-wordcount: '219'
 ht-degree: 0%
-
 ---
-
 # Guthaben im Dashboard des Kundenkontos speichern
 
 {{ee-feature}}
 
-Auf der Seite _[!UICONTROL Store Credit]_&#x200B;des Dashboards für Kundenkonten werden Beträge aus Rücksendungen und Rückerstattungen aufgelistet, die auf zukünftige Käufe angewendet werden können. Kunden können den Wert auch von einer Geschenkkarte einlösen.
+Auf der Seite _[!UICONTROL Store Credit]_des Dashboards für Kundenkonten werden Beträge aus Rücksendungen und Rückerstattungen aufgelistet, die auf zukünftige Käufe angewendet werden können. Kunden können den Wert auch von einer Geschenkkarte einlösen.
 
 ![Kundenkreditgeschäft](assets/account-dashboard-store-credit.png){width="700" zoomable="yes"}
 
@@ -67,4 +78,4 @@ Methode 2: **Von der Seite _Überprüfung und Zahlungen_**
 
 1. Wenn ein Warenkorb verfügbar ist, klickt der Kunde auf **Warenkorb verwenden**.
 
-1. Wenn der Kunde sich von der Verwendung des Gutscheins für den Store ändert, klickt auf **[!UICONTROL Remove]** im _[!UICONTROL Order Summary]_&#x200B;Abschnitt.
+1. Wenn der Kunde sich von der Verwendung des Gutscheins für den Store ändert, klickt auf **[!UICONTROL Remove]** im _[!UICONTROL Order Summary]_Abschnitt.

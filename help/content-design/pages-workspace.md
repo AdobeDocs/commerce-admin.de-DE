@@ -3,25 +3,37 @@ title: Steuerelemente für den Seitenarbeitsbereich
 description: Erfahren Sie mehr über die Arbeitsbereich-Tools, die zum Suchen und Aktualisieren von Inhaltsseiten verwendet werden.
 exl-id: c53e3e70-9f88-46ec-b44d-133a2ff5d0d5
 feature: Page Content, Admin Workspace
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-TQID: https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: 'https://experienceleague.adobe.com/xtwiVV3F8lpix-1dJw-Bg8SAgoC7SfXoGvQzQN560lo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1385
+source-wordcount: '1385'
 ht-degree: 0%
-
 ---
-
 # Steuerelemente für den Seitenarbeitsbereich
 
 Der Seitenarbeitsbereich enthält Tools, mit denen Sie die benötigten Seiten schnell finden können, sowie Befehle zur Durchführung von Routinewartungsaufgaben auf einzelnen oder mehreren Seiten. Sie können die Seiteneigenschaften auch schnell über das Raster aktualisieren.
@@ -91,7 +103,7 @@ Der Seitenarbeitsbereich enthält Tools, mit denen Sie die benötigten Seiten sc
 
 ## Seitensuche
 
-Das Suchfeld oben links im _[!UICONTROL Pages]_&#x200B;Raster kann verwendet werden, um bestimmte Seiten nach Keyword zu finden. Für eine erweiterte Suche können Sie [&#x200B; Suche &#x200B;](../getting-started/admin-grid-controls.md) mehreren Parametern filtern.
+Das Suchfeld oben links im _[!UICONTROL Pages]_Raster kann verwendet werden, um bestimmte Seiten nach Keyword zu finden. Für eine erweiterte Suche können Sie [ Suche ](../getting-started/admin-grid-controls.md) mehreren Parametern filtern.
 
 ### Nach Keyword suchen
 
@@ -151,7 +163,7 @@ Seiten können bearbeitet, deaktiviert, aktiviert und gelöscht werden. Um eine 
 
 ### Einzelklage
 
-Verwenden Sie die Spalte _[!UICONTROL Action]_&#x200B;ganz rechts, um eine der folgenden Aktionen auf die einzelne Seite anzuwenden:
+Verwenden Sie die Spalte _[!UICONTROL Action]_ganz rechts, um eine der folgenden Aktionen auf die einzelne Seite anzuwenden:
 
 - [!UICONTROL Edit] - öffnet die Seite im Bearbeitungsmodus
 - [!UICONTROL Delete] - löscht die Seite (Bestätigung erforderlich)
@@ -161,7 +173,7 @@ Verwenden Sie die Spalte _[!UICONTROL Action]_&#x200B;ganz rechts, um eine der f
 
 ### Massenaktionen
 
-Wenden Sie mithilfe der _[!UICONTROL Action]_&#x200B;oben links eine der folgenden Aktionen auf mehrere ausgewählte Seiten gleichzeitig an:
+Wenden Sie mithilfe der _[!UICONTROL Action]_oben links eine der folgenden Aktionen auf mehrere ausgewählte Seiten gleichzeitig an:
 
 - [!UICONTROL Delete] - löscht die Seiten (Bestätigung erforderlich)
 - [!UICONTROL Disable] - Deaktiviert die Seiten in der Storefront
@@ -188,7 +200,7 @@ Klicken Sie in der oberen rechten Ecke auf das Steuerelement _Spalten_ (![Spalte
 
 ### Ansicht speichern
 
-1. Klicken Sie auf _Steuerelement_ Ansicht![&#x200B; (Augensymbol](../assets/icon-view-eye.png)) und dann auf **[!UICONTROL Save View As]**.
+1. Klicken Sie auf _Steuerelement_ Ansicht![ (Augensymbol](../assets/icon-view-eye.png)) und dann auf **[!UICONTROL Save View As]**.
 
 1. Geben Sie einen Namen für die Ansicht ein.
 
@@ -216,7 +228,7 @@ Beachten Sie beim Konfigurieren von Zeitplänen für Seitenänderungen und beim 
 
 - Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h., jede Entität kann immer nur eine geplante Aktualisierung haben. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb ihres Zeitrahmens angewendet. Daher kann eine Entität nicht gleichzeitig verschiedene geplante Aktualisierungen für verschiedene Store-Ansichten haben. Alle Entitätsattributwerte in allen Store-Ansichten, die nicht von der aktuellen geplanten Aktualisierung betroffen sind, werden aus den Standardwerten übernommen, nicht aus der vorherigen geplanten Aktualisierung.
 
-- Wenn eine Kampagne mit mehr als einer Seite verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard“ bearbeitet &#x200B;](content-staging-dashboard.md).
+- Wenn eine Kampagne mit mehr als einer Seite verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard“ bearbeitet ](content-staging-dashboard.md).
 
 - Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne nicht später bearbeitet werden, um ein Enddatum einzuschließen. In diesem Fall müssen Sie eine doppelte Kampagne erstellen und das erforderliche Enddatum eingeben.
 

@@ -3,26 +3,38 @@ title: Bestellungen
 description: Erfahren Sie mehr über den Arbeitsbereich „Bestellungen“ und die Suchfunktionen, mit denen Sie in Admin Bestellungen finden.
 exl-id: 6ec8b8c7-97c4-446e-9420-e36e72e90237
 feature: Orders, Admin Workspace
-TQID: https://experienceleague.adobe.com/mfQL2HinWuVbjDzgR2rmWNCuBNWwiAlJ5LIb0R9BBME
+TQID: 'https://experienceleague.adobe.com/mfQL2HinWuVbjDzgR2rmWNCuBNWwiAlJ5LIb0R9BBME'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1150
+source-wordcount: '1150'
 ht-degree: 0%
-
 ---
-
 # Bestellungen
 
 Das Raster _Bestellungen_ listet alle aktuellen Bestellungen auf und verfolgt deren Fortschritt und [Bestellstatus](order-status.md) über den [Workflow](order-processing.md). Ein einfacher Weg, den grundlegenden Prozess zu verstehen, besteht darin, dass aus einer Bestellung eine [Rechnung](invoices.md) und aus einer Rechnung eine [Lieferung](shipments.md) wird. Das Raster stellt den ersten Schritt des Prozesses dar und ist der Ort, an dem Sie [aktualisieren](order-update.md) und Bestellungen erstellen können.
@@ -31,7 +43,7 @@ In der Regel werden Bestellungen erstellt, wenn Kunden den Checkout-Prozess in d
 
 ## Arbeitsbereich Bestellungen
 
-Im Arbeitsbereich Bestellungen werden alle aktuellen Bestellungen aufgelistet. Sie haben die Möglichkeit, vorhandene Bestellungen zu bearbeiten und [Bestellungen zu &#x200B;](customer-account-create-order.md). Jede Zeile im Raster steht für eine Kundenreihenfolge, und jede Spalte steht für ein Attribut oder ein Datenfeld. Verwenden Sie die standardmäßigen [Steuerelemente](../getting-started/admin-grid-controls.md), um die Liste zu sortieren und zu filtern, Bestellungen zu finden und [Aktionen](../getting-started/admin-actions-control.md) auf ausgewählte Bestellungen anzuwenden. Verwenden Sie die Registerkarten oberhalb der Steuerelemente für die Paginierung, um die Liste zu filtern, die Standardansicht zu ändern, Spalten zu ändern und neu anzuordnen und Daten zu exportieren.
+Im Arbeitsbereich Bestellungen werden alle aktuellen Bestellungen aufgelistet. Sie haben die Möglichkeit, vorhandene Bestellungen zu bearbeiten und [Bestellungen zu ](customer-account-create-order.md). Jede Zeile im Raster steht für eine Kundenreihenfolge, und jede Spalte steht für ein Attribut oder ein Datenfeld. Verwenden Sie die standardmäßigen [Steuerelemente](../getting-started/admin-grid-controls.md), um die Liste zu sortieren und zu filtern, Bestellungen zu finden und [Aktionen](../getting-started/admin-actions-control.md) auf ausgewählte Bestellungen anzuwenden. Verwenden Sie die Registerkarten oberhalb der Steuerelemente für die Paginierung, um die Liste zu filtern, die Standardansicht zu ändern, Spalten zu ändern und neu anzuordnen und Daten zu exportieren.
 
 ![Auftragsraster](./assets/orders-grid.png){width="700" zoomable="yes"}
 
@@ -54,7 +66,7 @@ Klicken Sie oben rechts auf das Steuerelement _Spalten_ ( ![Spalteneinstellungen
 
 1. Um die Rasterspalten zurückzusetzen, klicken Sie auf **[!UICONTROL Reset]**.
 
-   Das Rasterlayout ändert sich, sodass nur [&#x200B; (Standardspalten) &#x200B;](#column-descriptions).
+   Das Rasterlayout ändert sich, sodass nur [ (Standardspalten) ](#column-descriptions).
 
 #### Spalte verschieben
 
@@ -86,7 +98,7 @@ Klicken Sie auf das Steuerelement **[!UICONTROL View]** ( ![Augensymbol](../asse
 
 | Kontrolle | Beschreibung |
 |--- |--- |
-| [!UICONTROL Create New Order] | Erstellt einen Auftrag. Weitere Informationen [&#x200B; Sie unter &#x200B;](customer-account-create-order.md) erstellen. |
+| [!UICONTROL Create New Order] | Erstellt einen Auftrag. Weitere Informationen [ Sie unter ](customer-account-create-order.md) erstellen. |
 | [!UICONTROL Go to Archive] | Zeigt die Liste der archivierten Bestellungen an. |
 | [!UICONTROL Search] | Startet eine Suche nach Bestellungen anhand der aktuellen Filter. |
 | [!UICONTROL Filters] | Definiert einen Satz von Suchparametern, mit denen die im Raster angezeigten Datensätze gefiltert werden. |
@@ -124,7 +136,7 @@ Um eine Aktion auf bestimmte Bestellungen anzuwenden, aktivieren Sie das Kontrol
 | [!UICONTROL Grand Total (Base)] | Die Gesamtsumme der Bestellung. |
 | [!UICONTROL Grand Total (Purchased)] | Die Gesamtsumme der in der Bestellung gekauften Produkte. |
 | [!UICONTROL Status] | Der aktuelle Bestellstatus. |
-| [!UICONTROL Action] | _[!UICONTROL View]_&#x200B;öffnet die Bestellung im Bearbeitungsmodus. |
+| [!UICONTROL Action] | _[!UICONTROL View]_öffnet die Bestellung im Bearbeitungsmodus. |
 | [!UICONTROL Allocated sources] | Die Quellen, die dieser bestimmten Bestellung zugeordnet sind. |
 
 {style="table-layout:auto"}

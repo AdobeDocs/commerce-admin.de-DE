@@ -3,34 +3,45 @@ title: Übersicht über die Katalogsuche
 description: Erfahren Sie mehr über die Tools für die Schnellsuche und die erweiterte Suche, die Kunden verwenden können, um Produkte in der Storefront zu finden.
 exl-id: a796fa48-212a-47c7-ab6e-98edd4d040f4
 feature: Catalog Management, Search
-TQID: https://experienceleague.adobe.com/PV3ZrkqHaUZw-2LFHCNKUeDcvJmkvFcuoR3ZxxURP54
+TQID: 'https://experienceleague.adobe.com/PV3ZrkqHaUZw-2LFHCNKUeDcvJmkvFcuoR3ZxxURP54'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: '543'
 ht-degree: 0%
-
 ---
-
 # Übersicht über die Katalogsuche
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview) bietet ein schnelles, extrem relevantes und intuitives Sucherlebnis und ist für Adobe Commerce ohne zusätzliche Kosten verfügbar. In diesem Abschnitt wird die Standardsuchfunktion beschrieben, die sich von [!DNL Live Search] unterscheiden kann.
+>[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) bietet ein schnelles, extrem relevantes und intuitives Sucherlebnis und ist für Adobe Commerce ohne zusätzliche Kosten verfügbar. In diesem Abschnitt wird die Standardsuchfunktion beschrieben, die sich von [!DNL Live Search] unterscheiden kann.
 
 Untersuchungen zeigen, dass Personen, die die -Suche verwenden, mit größerer Wahrscheinlichkeit einen Kauf tätigen als Kunden, die nur auf die Navigation angewiesen sind. Tatsächlich tätigen Menschen, die die Suche nutzen, laut einigen Studien mit fast doppelt so hoher Wahrscheinlichkeit einen Kauf.
 
@@ -48,7 +59,7 @@ In den folgenden Abschnitten werden die grundlegenden Funktionen der Katalogsuch
 
 >[!NOTE]
 >
->Wenn [[!DNL Live Search]](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview) installiert und das [[!DNL Storefront Popover]](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-storefront/storefront-popover)-Widget aktiviert ist, gibt das Suchfeld die Ergebnisse „Suche während der Eingabe“ in einem Popup zurück.
+>Wenn [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) installiert und das [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover)-Widget aktiviert ist, gibt das Suchfeld die Ergebnisse „Suche während der Eingabe“ in einem Popup zurück.
 
 Das Suchfeld in der Kopfzeile des Stores hilft Besuchern, Produkte in Ihrem Katalog zu finden. Der Suchtext kann der vollständige oder teilweise Produktname oder ein anderes Wort oder eine Phrase sein, das bzw. die das Produkt beschreibt. Die Suchbegriffe, die Benutzer verwenden, um Produkte zu finden, können über den Administrator verwaltet werden.
 
@@ -64,7 +75,7 @@ Das Suchfeld in der Kopfzeile des Stores hilft Besuchern, Produkte in Ihrem Kata
 
 >[!NOTE]
 >
->Die hier beschriebene Funktion der erweiterten Formularsuche gilt nicht für [[!DNL Live Search]](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview).
+>Die hier beschriebene Funktion der erweiterten Formularsuche gilt nicht für [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
 
 Mit der erweiterten Suche können Käufer den Katalog anhand der in ein Formular eingegebenen Werte durchsuchen. Da das Formular mehrere Felder enthält, kann eine einzelne Suche mehrere Parameter enthalten. Das Ergebnis ist eine Liste aller Produkte im Katalog, die den Kriterien entsprechen. Ein Link zur erweiterten Suche befindet sich in der Fußzeile Ihres Stores.
 

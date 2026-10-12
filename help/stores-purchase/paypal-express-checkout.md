@@ -3,31 +3,42 @@ title: PayPal Express-Checkout
 description: Erfahren Sie, wie Sie PayPal Express Checkout als Online-Zahlungslösung in Ihrem Geschäft einrichten.
 exl-id: 0cd90306-cf47-4a5f-8994-6ae96904ae2f
 feature: Payments
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-TQID: https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: 'https://experienceleague.adobe.com/7aaiT94I7NENXKmz72TZNNlh6VO8tKedFZbIXRUL79E'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 3148
+source-wordcount: '3201'
 ht-degree: 0%
-
 ---
-
 # PayPal Express-Checkout
 
 Der PayPal Express Checkout hilft, den Umsatz zu steigern, indem er Ihren Kunden die Möglichkeit gibt, mit Kreditkarte oder über die Sicherheit ihrer persönlichen PayPal-Konten zu bezahlen. Während des Checkouts wird der Kunde zur sicheren PayPal-Website weitergeleitet, um die Zahlungsinformationen auszufüllen. Der Kunde wird dann in Ihr Geschäft zurückgeschickt, um den restlichen Checkout-Prozess abzuschließen. Wenn Sie Express Checkout wählen, wird Ihrem Geschäft die vertraute PayPal-Schaltfläche hinzugefügt, die laut Berichten den Umsatz steigert.
@@ -35,9 +46,9 @@ Der PayPal Express Checkout hilft, den Umsatz zu steigern, indem er Ihren Kunden
 >[!IMPORTANT]
 >
 >**PSD2-Anforderungen:** <br/>
->Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die die [PSD2&rbrace;-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Die Einhaltung von PSD2 durch PayPal Express Checkout erfordert keine Maßnahmen, da alle Anforderungen durch PayPal abgewickelt werden.
+>Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2}-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Die Einhaltung von PSD2 durch PayPal Express Checkout erfordert keine Maßnahmen, da alle Anforderungen durch PayPal abgewickelt werden.
 
-Kunden mit aktuellen PayPal-Konten können einen Kauf in einem einzigen Schritt tätigen, indem sie auf die Schaltfläche _[!UICONTROL Check out with PayPal]_&#x200B;klicken. Express Checkout kann als eigenständige oder mit einer der PayPal-All-in-One-Lösungen verwendet werden. Wenn Sie bereits Kreditkarten online akzeptieren, können Sie Express Checkout als zusätzliche Option anbieten, um neue Kunden zu gewinnen, die lieber mit PayPal bezahlen möchten.
+Kunden mit aktuellen PayPal-Konten können einen Kauf in einem einzigen Schritt tätigen, indem sie auf die Schaltfläche _[!UICONTROL Check out with PayPal]_klicken. Express Checkout kann als eigenständige oder mit einer der PayPal-All-in-One-Lösungen verwendet werden. Wenn Sie bereits Kreditkarten online akzeptieren, können Sie Express Checkout als zusätzliche Option anbieten, um neue Kunden zu gewinnen, die lieber mit PayPal bezahlen möchten.
 
 >[!NOTE]
 >
@@ -111,13 +122,13 @@ Sie können zwei PayPal-Lösungen gleichzeitig aktivieren: PayPal Express Checko
 
 1. Wenn Ihre Installation über mehrere Websites, Stores oder Ansichten verfügt, legen Sie **[!UICONTROL Store View]** auf die Store-Ansicht fest, in der Sie diese Konfiguration anwenden möchten.
 
-1. Wählen Sie im Abschnitt _[!UICONTROL Merchant Location]_&#x200B;die **[!UICONTROL Merchant Country]**&#x200B;aus, in der sich Ihr Unternehmen befindet.
+1. Wählen Sie im Abschnitt _[!UICONTROL Merchant Location]_die **[!UICONTROL Merchant Country]**aus, in der sich Ihr Unternehmen befindet.
 
    Diese Einstellung bestimmt die Auswahl der PayPal-Lösungen, die in der Konfiguration angezeigt werden.
 
    ![Handelsland](../configuration-reference/sales/assets/payment-methods-merchant-location.png){width="600" zoomable="yes"}
 
-1. Klicken Sie unter _[!UICONTROL Recommended Solutions]_&#x200B;auf **[!UICONTROL Configure]**&#x200B;für **[!UICONTROL PayPal Express Checkout]**.
+1. Klicken Sie unter _[!UICONTROL Recommended Solutions]_auf **[!UICONTROL Configure]**für **[!UICONTROL PayPal Express Checkout]**.
 
    ![Konfigurieren von PayPal Express Checkout](./assets/paypal-express-checkout.png){width="600"}
 
@@ -329,11 +340,11 @@ Legen Sie **[!UICONTROL Enable PayPal PayLater Experience]** auf eine der folgen
    - `Sale` - Der Betrag des Kaufs wird autorisiert und sofort vom Konto des Kunden zurückgezogen.
    - `Order` - Der Betrag der Bestellung wird nicht erfasst oder autorisiert im Kundensaldo, Bankkonto oder Kreditkarte bei PayPal. Die Aktion „Bestellen“ stellt eine Vereinbarung zwischen dem PayPal-Zahlungssystem und dem Händler dar. Sie ermöglicht es dem Händler, einen oder mehrere Beträge bis zur bestellten Gesamtsumme über einen Zeitraum von bis zu 29 Tagen vom Kundenkäuferkonto zu erfassen. Nachdem die Gelder bestellt wurden, kann der Händler sie jederzeit während des folgenden 29-tägigen Zeitraums erfassen. Die Erfassung des Bestellbetrags kann nur vom Commerce-Administrator durchgeführt werden, indem eine oder mehrere Rechnungen erstellt werden.
 
-1. Um die Schaltfläche _[!UICONTROL Check out with PayPal]_&#x200B;auf der Produktseite anzuzeigen, setzen Sie **[!UICONTROL Display on Product Details Page]**&#x200B;auf `Yes`.
+1. Um die Schaltfläche _[!UICONTROL Check out with PayPal]_auf der Produktseite anzuzeigen, setzen Sie **[!UICONTROL Display on Product Details Page]**auf `Yes`.
 
 1. Wenn die Zahlungsaktion auf `Order` gesetzt ist, führen Sie Folgendes aus
 
-   - **[!UICONTROL Authorization Honor Period (days)]** - Legt fest, wie lange die primäre Autorisierung gültig bleibt. Der Wert sollte gleich dem entsprechenden Wert in Ihrem PayPal-Händlerkonto sein. Der Standardwert in Ihrem PayPal-Händlerkonto ist `3`. Um diese Zahl zu erhöhen, müssen Sie sich an PayPal wenden. Die Autorisierung wird um 11:49 Uhr US Pacific Time des letzten Tages ungültig.
+   - **[!UICONTROL Authorization Honor Period (days)]** - Legt fest, wie lange die primäre Autorisierung gültig bleibt. Der Wert sollte gleich dem entsprechenden Wert in Ihrem PayPal-Händlerkonto sein. Der Standardwert in Ihrem PayPal-Händlerkonto ist `3`. Um diese Zahl zu erhöhen, müssen Sie sich an PayPal wenden. Die Autorisierung wird um 23:49 Uhr (US Pacific Time) des letzten Tages ungültig.
 
    - **[!UICONTROL Order Valid Period (days)]** - Legt fest, wie lange die Bestellung gültig bleibt. Wenn die Bestellung ungültig wird, können Sie keine Rechnungen mehr dafür erstellen. Geben Sie in Ihrem PayPal-Händlerkonto einen Wert ein, der dem Wert für den Zeitraum der gültigen Bestellung entspricht. Der Standardwert in Ihrem PayPal-Händlerkonto ist `29`. Um diese Nummer zu ändern, müssen Sie sich an PayPal wenden.
 
@@ -350,7 +361,7 @@ Legen Sie **[!UICONTROL Enable PayPal PayLater Experience]** auf eine der folgen
 1. Legen Sie **[!UICONTROL Payment Applicable From]** auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen Ländern, die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_&#x200B;angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Elemente.
+   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Elemente.
 
 1. Um die Kommunikation mit dem Zahlungssystem in die Protokolldatei zu schreiben, setzen Sie **[!UICONTROL Debug Mode]** auf `Yes`.
 
@@ -427,7 +438,7 @@ Ein [Abrechnungsvertrag](paypal-billing-agreements.md) ist ein Kaufvertrag zwisc
 1. Legen Sie **[!UICONTROL Payment Applicable From]** auf eine der folgenden Einstellungen fest:
 
    - `All Allowed Countries` - Kunden aus allen Ländern, die in Ihrer Store-Konfiguration angegeben sind, können diese Zahlungsmethode verwenden.
-   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_&#x200B;angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Länder.
+   - `Specific Countries` - Nach Auswahl dieser Option wird die _[!UICONTROL Payment from Specific Countries]_angezeigt. Zur Auswahl mehrerer Länder halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Länder.
 
 1. Um die Kommunikation mit dem Zahlungssystem in der Protokolldatei aufzuzeichnen, setzen Sie **[!UICONTROL Debug Mode]** auf `Yes`.
 
@@ -451,8 +462,8 @@ Ein [Abrechnungsvertrag](paypal-billing-agreements.md) ist ein Kaufvertrag zwisc
 
    - Wenn Sie sich für den sicheren PayPal-FTP-Server angemeldet haben, geben Sie die folgenden SFTP-Anmeldedaten ein:
 
-      - Login
-      - Kennwort
+     - Login
+     - Kennwort
 
    - Um Testberichte vor der Live _-Schaltung mit_ Express-Checkout auf Ihrer Site auszuführen, setzen Sie **[!UICONTROL Sandbox Mode]** auf `Yes`.
 
@@ -470,13 +481,13 @@ Ein [Abrechnungsvertrag](paypal-billing-agreements.md) ist ein Kaufvertrag zwisc
 
    - Legen Sie **[!UICONTROL Schedule]** auf eine der folgenden Einstellungen fest:
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal bewahrt jeden Bericht 45 Tage lang auf.
 
@@ -504,9 +515,9 @@ Verwenden Sie die Frontend-Erlebniseinstellungen , um zu entscheiden, welche Pay
 
    - Geben Sie den Namen der **[!UICONTROL Page Style]** ein, die Sie auf Ihre PayPal-Händlerseiten anwenden möchten:
 
-      - `paypal` - Verwendet den PayPal-Seitenstil.
-      - `primary` - Verwendet den Seitenstil, den Sie im Kontoprofil als _primären_ Stil identifiziert haben.
-      - `your_custom_value` - Verwendet einen benutzerdefinierten Zahlungsseitenstil, der in Ihrem Kontoprofil angegeben ist.
+     - `paypal` - Verwendet den PayPal-Seitenstil.
+     - `primary` - Verwendet den Seitenstil, den Sie im Kontoprofil als _primären_ Stil identifiziert haben.
+     - `your_custom_value` - Verwendet einen benutzerdefinierten Zahlungsseitenstil, der in Ihrem Kontoprofil angegeben ist.
 
    - Geben Sie **[!UICONTROL Header Image URL]** die URL des Bildes ein, das in der linken oberen Ecke der Zahlungsseite angezeigt werden soll. Die maximale Dateigröße beträgt 750 Pixel breit und 90 Pixel hoch.
 
@@ -516,9 +527,9 @@ Verwenden Sie die Frontend-Erlebniseinstellungen , um zu entscheiden, welche Pay
 
    - Um die Farbe für Ihre Seiten festzulegen, geben Sie für jede der folgenden Aktionen den sechsstelligen Hexadezimalcode ohne `#` ein:
 
-      - **[!UICONTROL Header Background Color]** - Hintergrundfarbe für die Kopfzeile der Kaufbestätigungsseite.
-      - **[!UICONTROL Header Border Color]** - Farbe für Zwei-Pixel-Rahmen um die Kopfzeile.
-      - **[!UICONTROL Page Background Color]** - Hintergrundfarbe für die Checkout-Seite und um die Kopfzeile und das Zahlungsformular.
+     - **[!UICONTROL Header Background Color]** - Hintergrundfarbe für die Kopfzeile der Kaufbestätigungsseite.
+     - **[!UICONTROL Header Border Color]** - Farbe für Zwei-Pixel-Rahmen um die Kopfzeile.
+     - **[!UICONTROL Page Background Color]** - Hintergrundfarbe für die Checkout-Seite und um die Kopfzeile und das Zahlungsformular.
 
 #### Anpassen von Smart-Schaltflächen
 

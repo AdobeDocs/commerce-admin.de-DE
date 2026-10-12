@@ -1,29 +1,41 @@
 ---
-title: Installieren, Aktualisieren und Entfernen [!DNL Inventory Management]
-description: Installieren, Aktivieren, Deaktivieren, Entfernen oder Aktualisieren  [!DNL Inventory Management]  Metapakets.
+title: Installieren, Aktualisieren und Entfernen von [!DNL Inventory Management]
+description: Installieren, Aktivieren, Deaktivieren, Entfernen oder Aktualisieren des [!DNL Inventory Management]-Metapakets.
 exl-id: d088ff35-c0e1-41c8-89fb-78180eaefbf7
 level: Experienced
 feature: Inventory, Install
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-TQID: https://experienceleague.adobe.com/-koENBfshZ7WkXih0dee4geUb2Mnx-mtTxUxt-s6yUo
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+TQID: 'https://experienceleague.adobe.com/-koENBfshZ7WkXih0dee4geUb2Mnx-mtTxUxt-s6yUo'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 8dc0e58b-adf0-51bb-8db5-bb36e3e656fb
+    internal-label: Inventory
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93d8f5959f9e46f5cda86dfbdd795e6522314bca
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 681
+source-wordcount: '682'
 ht-degree: 0%
-
 ---
-
 # Installieren, Aktualisieren und Entfernen von [!DNL Inventory Management]
 
 [!DNL Inventory Management] Module bieten alle Inventarfunktionen und Optionen für Einzelhändler und Händler mit mehreren Quellen, um Produktmengen und Lagerbestände für Vertriebskanäle zu verwalten. Diese Funktionen sind in Version 2.4.x von Adobe Commerce und Magento Open Source verfügbar.
@@ -32,7 +44,7 @@ Diese Funktionen und Erweiterungen wurden im Rahmen des [Inventory-Projekts](htt
 
 [!DNL Inventory Management] wird in den Versionen 2.3.x und 2.4.x von Adobe Commerce und Magento Open Source installiert, wobei alle Funktionen standardmäßig aktiviert sind. Zur Aktivierung dieser Inventarfunktionen sind keine zusätzlichen Schritte erforderlich. Bei Upgrades von Version 2.1.x oder 2.2.x sind möglicherweise zusätzliche Schritte erforderlich. Siehe [Inventory management aktualisieren](#upgrade-inventory-management).
 
-Die Installation gemäß [Schnellstart-Installation vor Ort](https://experienceleague.adobe.com/de/docs/commerce-operations/installation-guide/composer){target="_blank"} wird empfohlen. Installieren Sie mit einem Metapaket, um alle [!DNL Inventory Management] Module zu erhalten.
+Die Installation gemäß [Schnellstart-Installation vor Ort](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer){target="_blank"} wird empfohlen. Installieren Sie mit einem Metapaket, um alle [!DNL Inventory Management] Module zu erhalten.
 
 Die folgende Zeile im `composer.json`-Metapaket installiert [!DNL Inventory Management]:
 
@@ -96,7 +108,7 @@ Der [!DNL Inventory Management]-Installationsprozess fügt alle Module zur `<Mag
 
 ## [!DNL Inventory Management] aktivieren
 
-Nach der Installation, dem Upgrade oder der Aktualisierung ist die Option _[!UICONTROL Manage Stock]_&#x200B;in Admin standardmäßig aktiviert. Diese Option ermöglicht die Inventarverfolgung und -verwaltung, hat jedoch keine Auswirkungen auf den Modulstatus. Informationen zum Deaktivieren von Modulen finden Sie im nächsten Abschnitt.
+Nach der Installation, dem Upgrade oder der Aktualisierung ist die Option _[!UICONTROL Manage Stock]_in Admin standardmäßig aktiviert. Diese Option ermöglicht die Inventarverfolgung und -verwaltung, hat jedoch keine Auswirkungen auf den Modulstatus. Informationen zum Deaktivieren von Modulen finden Sie im nächsten Abschnitt.
 
 Weitere Informationen zu Konfigurationen finden Sie unter [Konfigurieren [!DNL Inventory Management]](configuration.md).
 
@@ -111,7 +123,7 @@ Sie können [!DNL Inventory Management] Module deaktivieren, um:
 * Beschleunigen Sie den Upgrade-Prozess für Händler, die von 2.0.x, 2.1.x, 2.2.x oder 2.3.x auf 2.4.x migrieren.
 * Verwenden Sie benutzerdefinierte oder Systemmodule für Inventar- und Bestellverwaltung von Drittanbietern.
 
-Informationen zum Deaktivieren der [&#x200B; Module finden &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-operations/installation-guide/tutorials/manage-modules) auf der Seite _Module aktivieren oder deaktivieren_ im Installationshandbuch.
+Informationen zum Deaktivieren der [ Module finden ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules) auf der Seite _Module aktivieren oder deaktivieren_ im Installationshandbuch.
 
 Nach Abschluss des Vorgangs stellt das System eine Liste der Module und Werte in `<Magento_installation_directory>/app/etc/config.php` bereit, beginnend mit:
 
@@ -253,5 +265,5 @@ Aktualisieren Sie Ihre Metapaket-Version, um die neueste Version zu erhalten:
 
 In den folgenden Handbüchern finden Sie weitere Informationen zu Commerce-Upgrades:
 
-* [Commerce-Aktualisierungshandbuch](https://experienceleague.adobe.com/de/docs/commerce-operations/upgrade-guide/overview){target="_blank"}
-* [Module aktivieren oder deaktivieren](https://experienceleague.adobe.com/de/docs/commerce-operations/installation-guide/tutorials/manage-modules){target="_blank"}
+* [Commerce-Aktualisierungshandbuch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview){target="_blank"}
+* [Module aktivieren oder deaktivieren](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules){target="_blank"}
