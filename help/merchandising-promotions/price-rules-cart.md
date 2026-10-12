@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: c855fa4ca30318b8b0256ce67649d3204b3de814
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '515'
 ht-degree: 0%
 ---
 # Warenkorb-Preisregeln
@@ -77,11 +77,11 @@ Die Regeln für den Warenkorbpreis wenden Rabatte auf Artikel im Warenkorb an, d
 | [!UICONTROL Status] | Verwenden Sie diese Option, um die Liste nach Regelstatus (`Active` oder `Inactive`) zu filtern. |
 | [!UICONTROL Web Site] | Verwenden Sie diese Option, um die Liste nach für eine Regel definierten Websites zu filtern. |
 | [!UICONTROL Action] | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Klicken Sie auf **[!UICONTROL Edit]**, um die Seite &quot;_[!UICONTROL Rule Information]_&quot; anzuzeigen und die Regeleinstellungen zu aktualisieren (ähnlich wie beim Erstellen einer Regel). |
-| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_&#x200B;und&#x200B;_[!UICONTROL From:]_), um die Liste nach dem Startdatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. |
-| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source) Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_&#x200B;und&#x200B;_[!UICONTROL From:]_), um die Liste nach dem Enddatum für die Regel zu filtern, wie es zum Zeitpunkt der Regelerstellung definiert wurde. |
+| [!UICONTROL Start] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source und Adobe Commerce as a Cloud Service) Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_und_[!UICONTROL From:]_), um die Liste nach dem Startdatum für die Regel zu filtern, wie es bei der Erstellung der Regel definiert wurde. <br><br>![Adobe Commerce](../assets/adobe-logo.svg) (nur [!DNL Adobe Commerce as a Cloud Service]) Verwenden Sie die dynamischen Kalenderfelder (An: und Von:), um die Liste nach dem Startdatum und der Startzeit für die Regel zu filtern. |
+| [!UICONTROL End] | ![Magento Open Source](../assets/open-source.svg) (nur Magento Open Source und Adobe Commerce as a Cloud Service) Verwenden Sie die dynamischen Kalenderfelder (_[!UICONTROL To:]_und_[!UICONTROL From:]_), um die Liste nach dem Enddatum für die Regel zu filtern, wie es zum Zeitpunkt der Regelerstellung definiert wurde. <br><br>![Adobe Commerce](../assets/adobe-logo.svg) (nur [!DNL Adobe Commerce as a Cloud Service]) Verwenden Sie die dynamischen Kalenderfelder (An: und Von:), um die Liste nach Enddatum und -zeit für die Regel zu filtern. |
 
 {style="table-layout:auto"}
 
 ## Verwenden Sie Real-Time CDP-Zielgruppen, um die Preisregeln für den Warenkorb zu informieren
 
-Erfahren Sie, wie [&#x200B; Real-Time CDP](../customers/audience-activation.md)Zielgruppen in Ihrer Adobe Commerce-Instanz aktivieren, um über die Regeln für den Warenkorbpreis zu informieren.
+Erfahren Sie, wie [ Real-Time CDP](../customers/audience-activation.md)Zielgruppen in Ihrer Adobe Commerce-Instanz aktivieren, um über die Regeln für den Warenkorbpreis zu informieren.
