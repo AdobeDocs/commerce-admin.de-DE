@@ -3,13 +3,24 @@ title: Seiten-Layouts
 description: Erfahren Sie mehr über die Abschnitte zum Seiten-Layout und zum Konfigurieren von Standard-Layouts.
 exl-id: 397a92cf-6f20-4729-8d7c-c5f672fc1c9a
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-source-git-commit: 57a913b21f4cbbb4f0800afe13012ff46d578f8e
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '906'
 ht-degree: 0%
-
 ---
-
 # Seiten-Layouts
 
 Das Layout jeder Seite in Ihrem Store besteht aus verschiedenen Abschnitten oder Containern, die die Kopfzeilen-, Fußzeilen- und Inhaltsbereiche der Seite definieren. Je nach Layout kann jede Seite eine, zwei, drei Spalten oder mehr haben. Sie können sich das Layout als &quot;_&quot;_ Seite vorstellen und ein spezifisches Layout zuweisen, das als Standard für CMS-, Produkt- und Kategorieseiten verwendet wird.

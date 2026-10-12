@@ -2,13 +2,24 @@
 title: Verwalten von Kundenkonten
 description: Verwenden Sie das [!UICONTROL Customers] Raster, um ein beliebiges Kundenkonto zu finden und auf Informationen für einzelne Kundenkonten zuzugreifen.
 exl-id: 5f817ca8-9d1f-4498-b3bd-989713f0b6ad
-source-git-commit: 0316475a37ee09948b9ba3649e059155212ab1ae
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Kundenkonten
 
 Verwenden Sie das _[!UICONTROL Customers]_&#x200B;Raster, um ein beliebiges Kundenkonto zu finden. Sie können die standardmäßigen [Arbeitsplatzsteuerelemente“ verwenden](../getting-started/admin-workspace.md) um die Liste zu filtern, das [Spaltenlayout](../getting-started/admin-grid-controls.md) zu ändern, Ansichten zu speichern und Daten zu exportieren. Mit [Aktionssteuerung](../getting-started/admin-actions-control.md) über dem Raster können Sie einen Vorgang auf mehrere Kundendatensätze anwenden.

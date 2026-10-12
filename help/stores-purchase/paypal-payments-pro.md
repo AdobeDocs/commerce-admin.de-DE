@@ -4,28 +4,37 @@ description: Erfahren Sie, wie Sie PayPal Payments Pro als Online-Zahlungslösun
 exl-id: 9cc5c3a6-d471-4198-85a2-c4cf9dfd378b
 feature: Payments
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-TQID: https://experienceleague.adobe.com/MbyNmKyZsbvHP9t7GI6nxn73HQVSWKCtb8p-Zo0DaUs
+TQID: 'https://experienceleague.adobe.com/MbyNmKyZsbvHP9t7GI6nxn73HQVSWKCtb8p-Zo0DaUs'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 2266
+source-wordcount: '2314'
 ht-degree: 0%
-
 ---
-
 # PayPal Payments Pro
 
 [PayPal Payments Pro](https://developer.paypal.com/docs/paypal-payments-pro/) bietet Ihnen alle Vorteile eines Händlerkontos und eines Zahlungs-Gateways in einem Paket sowie die Möglichkeit, Ihr eigenes, vollständig angepasstes Checkout-Erlebnis zu erstellen. PayPal Express Checkout wird automatisch mit PayPal Payments Pro aktiviert, sodass Sie mehr als 110 Millionen aktive PayPal-Benutzer nutzen können.
@@ -35,7 +44,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >**PSD2-Anforderungen:** <br/>
->Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die die [PSD2&rbrace;-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Um PSD2 zu erfüllen, muss PayPal Payments Pro mit einem Plug-in eines Drittanbieters integriert sein.
+>Ab dem 14. September 2019 können europäische Banken Zahlungen ablehnen, die [PSD2&rbrace;-](../getting-started/compliance-payment-services-directive.md) nicht erfüllen. Um PSD2 zu erfüllen, muss PayPal Payments Pro mit einem Plug-in eines Drittanbieters integriert sein.
 
 >[!NOTE]
 >
@@ -130,10 +139,10 @@ Bevor Sie PayPal Payments Pro in Commerce einrichten, müssen Sie Ihr Händlerko
 
    - Füllen Sie die erforderlichen Felder in den folgenden Abschnitten des _[!UICONTROL Add User]_&#x200B;Formulars aus:
 
-      - [!UICONTROL Admin Confirmation]
-      - [!UICONTROL User Information]
-      - [!UICONTROL User Login Information]
-      - [!UICONTROL Assign Privilege to User]
+     - [!UICONTROL Admin Confirmation]
+     - [!UICONTROL User Information]
+     - [!UICONTROL User Login Information]
+     - [!UICONTROL Assign Privilege to User]
 
    - Klicken Sie auf **[!UICONTROL Update]**.
 
@@ -405,8 +414,8 @@ Legen Sie **[!UICONTROL Enable PayPal PayLater Experience]** auf eine der folgen
 
    - Wenn Sie sich für den sicheren FTP-Server von PayPal angemeldet haben, geben Sie die folgenden SFTP-Anmeldedaten ein:
 
-      - Login
-      - Kennwort
+     - Login
+     - Kennwort
 
    - Um Testberichte auszuführen, bevor Sie mit Payments Pro auf Ihrer Site live gehen, setzen Sie **[!UICONTROL Sandbox Mode]** auf `Yes`.
 
@@ -424,13 +433,13 @@ Legen Sie **[!UICONTROL Enable PayPal PayLater Experience]** auf eine der folgen
 
    - Legen Sie **[!UICONTROL Schedule]** auf eine der folgenden Einstellungen fest:
 
-      - `Daily`
-      - `Every 3 Days`
-      - `Every 7 Days`
-      - `Every 10 Days`
-      - `Every 14 Days`
-      - `Every 30 Days`
-      - `Every 40 Days`
+     - `Daily`
+     - `Every 3 Days`
+     - `Every 7 Days`
+     - `Every 10 Days`
+     - `Every 14 Days`
+     - `Every 30 Days`
+     - `Every 40 Days`
 
      PayPal bewahrt jeden Bericht 45 Tage lang auf.
 
@@ -458,9 +467,9 @@ Verwenden Sie die _[!UICONTROL Frontend Experience Settings]_, um festzulegen, w
 
    - Geben Sie den Namen der **[!UICONTROL Page Style]** ein, die Sie auf Ihre PayPal-Händlerseiten anwenden möchten:
 
-      - `paypal` - Verwendet den PayPal-Seitenstil.
-      - `primary` - Verwendet den Seitenstil, den Sie im Kontoprofil als _primären_ Stil identifiziert haben.
-      - `your_custom_value` - Verwendet einen benutzerdefinierten Zahlungsseitenstil, der in Ihrem Kontoprofil angegeben ist.
+     - `paypal` - Verwendet den PayPal-Seitenstil.
+     - `primary` - Verwendet den Seitenstil, den Sie im Kontoprofil als _primären_ Stil identifiziert haben.
+     - `your_custom_value` - Verwendet einen benutzerdefinierten Zahlungsseitenstil, der in Ihrem Kontoprofil angegeben ist.
 
    - Geben Sie **[!UICONTROL Header Image URL]** die URL des Bildes ein, das in der linken oberen Ecke der Zahlungsseite angezeigt werden soll. Die maximale Dateigröße beträgt 750 Pixel breit und 90 Pixel hoch.
 
@@ -470,9 +479,9 @@ Verwenden Sie die _[!UICONTROL Frontend Experience Settings]_, um festzulegen, w
 
    - Um die Farbe für Ihre Seiten festzulegen, geben Sie für jede der folgenden Aktionen den sechsstelligen Hexadezimalcode ohne `#` ein:
 
-      - **[!UICONTROL Header Background Color]** - Hintergrundfarbe für die Kopfzeile der Kaufbestätigungsseite.
-      - **[!UICONTROL Header Border Color]** - Farbe für Zwei-Pixel-Rahmen um die Kopfzeile.
-      - **[!UICONTROL Page Background Color]** - Hintergrundfarbe für die Checkout-Seite und um die Kopfzeile und das Zahlungsformular.
+     - **[!UICONTROL Header Background Color]** - Hintergrundfarbe für die Kopfzeile der Kaufbestätigungsseite.
+     - **[!UICONTROL Header Border Color]** - Farbe für Zwei-Pixel-Rahmen um die Kopfzeile.
+     - **[!UICONTROL Page Background Color]** - Hintergrundfarbe für die Checkout-Seite und um die Kopfzeile und das Zahlungsformular.
 
 ### Schritt 6: Vervollständigen Sie die Grundeinstellungen für PayPal Express Checkout
 

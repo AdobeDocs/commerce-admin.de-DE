@@ -3,7 +3,7 @@ title: Store- und Site-Struktur
 description: Erfahren Sie mehr über die Hierarchie der Website-, Store- und Store-Ansichten.
 exl-id: d745cbd0-151b-4f82-bb6c-fb6b9565a014
 feature: Site Management, System
-TQID: https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4
+TQID: 'https://experienceleague.adobe.com/Qx4MO7bO5PoWmt4XxYeqsHeCq4Ov2mPp5Q0JAIDeaY4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -12,6 +12,10 @@ feature_v2:
     internal-label: Security
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
     internal-label: Configuration
+  - id: 938d2364-5176-55ec-80f1-9415253e5e51
+    internal-label: Site Management
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 0%
@@ -166,7 +170,7 @@ Installationen von Adobe Commerce oder Magento Open Source an mehreren Standorte
 
      ![Website erstellen - Adobe Commerce Optimizer Exporter-Einstellungen](./assets/website-optimizer-export-settings.png){width="600" zoomable="yes"}
 
-     Wenn Sie diese Einstellung nach den ersten Synchronisierungs-Triggern ändern, wird eine vollständige Neuindizierung durchgeführt. Siehe [Anpassen der Exportkonfiguration für Commerce](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) im *Adobe Commerce Optimizer Connector-Handbuch*.
+     Wenn Sie diese Einstellung nach den ersten Synchronisierungs-Triggern ändern, wird eine vollständige Neuindizierung durchgeführt. Siehe [Anpassen der Exportkonfiguration für Commerce](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) im *Adobe Commerce Optimizer Connector-Handbuch*.
 
 1. Klicken Sie auf **[!UICONTROL Save Web Site]**.
 

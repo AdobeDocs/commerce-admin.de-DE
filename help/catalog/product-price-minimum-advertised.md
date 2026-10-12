@@ -3,30 +3,41 @@ title: Angebotshöchstpreis
 description: Erfahren Sie, wie Sie mit der MAP-Funktion (Minimum Advertised Price) die Anforderungen des Herstellers in Bezug auf Sonderpreise erfüllen können.
 exl-id: ccd44cfe-3967-4d82-b5b2-3f92701d152e
 feature: Catalog Management, Products
-TQID: https://experienceleague.adobe.com/DRNm0PPX81W4jzLnu7ALhJ1lQZYUpTcO6ojp1E50vto
+TQID: 'https://experienceleague.adobe.com/DRNm0PPX81W4jzLnu7ALhJ1lQZYUpTcO6ojp1E50vto'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
   - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1143
+source-wordcount: '1143'
 ht-degree: 0%
-
 ---
-
 # Angebotshöchstpreis
 
 Händlern ist es manchmal untersagt, einen Preis anzuzeigen, der unter dem vom Hersteller vorgeschlagenen Einzelhandelspreis liegt. Der Mindest-Werbepreis (MAP) bietet Ihnen die Möglichkeit, die Anforderungen des Herstellers zu erfüllen und Ihren Kunden einen besseren Preis zu bieten. Da die Anforderungen von Hersteller zu Hersteller unterschiedlich sind, können Sie Ihren Shop so konfigurieren, dass der tatsächliche Preis auf Seiten, auf denen er nicht zulässig ist, nicht angezeigt wird.
@@ -106,9 +117,9 @@ Verwenden Sie eine der folgenden Methoden, um die MAP-Einstellungen zu konfiguri
    - Um den Standardwert zu ändern, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use system value]** .
 
    - Legen Sie **Tatsächlichen Preis anzeigen** auf eine der folgenden Einstellungen fest:
-      - `In Cart`
-      - `Before Order Confirmation`
-      - `On Gesture (on click)`
+     - `In Cart`
+     - `Before Order Confirmation`
+     - `On Gesture (on click)`
 
 1. Geben Sie den Text ein, der im **[!UICONTROL Default Popup Text Message]** angezeigt werden soll.
 

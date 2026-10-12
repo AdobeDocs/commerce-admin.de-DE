@@ -3,27 +3,35 @@ title: Rückgabe
 description: Erfahren Sie mehr über den Rückgabe-Workflow und das Ausstellen einer Warenrückgabegenehmigung.
 exl-id: 9dde0360-aa99-4fc4-92ff-976d9874ffec
 feature: Returns
-TQID: https://experienceleague.adobe.com/aqLSVZ943i7njT3XKZowZo9KhQz4azqZ6watc4J1w-Y
+TQID: 'https://experienceleague.adobe.com/aqLSVZ943i7njT3XKZowZo9KhQz4azqZ6watc4J1w-Y'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: d1e21356-0064-4f48-9089-16e3f0dbd2a6
+    internal-label: Storefront
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: ac07462c-732c-5c1c-947b-4ce533b4fcfb
+    internal-label: Returns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 687
+source-wordcount: '687'
 ht-degree: 0%
-
 ---
-
 # Rückgabe
 
 Kunden _die einen Artikel zum Austausch oder zur Rückerstattung_ möchten, kann eine „Rücksendung von Waren“ (RMA) erteilt werden. In der Regel kontaktiert der Kunde den Händler, um eine Rückerstattung zu beantragen. Bei Validierung wird eine eindeutige RMA-Nummer zur Identifizierung des zurückgegebenen Produkts zugewiesen. In der Konfiguration können Sie RMA entweder für alle Produkte aktivieren oder RMA nur für bestimmte Produkte zulassen. Das _[!UICONTROL Returns]_&#x200B;Raster listet die aktuell zurückgegebenen Merchandising Requests (RMAs) auf und wird zur Eingabe neuer Return Requests verwendet.

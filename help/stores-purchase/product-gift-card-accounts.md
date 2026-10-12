@@ -3,30 +3,42 @@ title: Geschenkkartenkonten
 description: Erfahren Sie mehr über Geschenkkartenkonten und darüber, wie Sie die Standardeinstellungen für die Code-Pool-Verwaltung konfigurieren.
 exl-id: f8caff04-38fd-4195-ab11-77dae900976d
 feature: Products, Gift, Configuration
-TQID: https://experienceleague.adobe.com/Yc9uWjM1Je77Cw1BO5PJVjg05icRtI4Ehhytr5mTCBI
+TQID: 'https://experienceleague.adobe.com/Yc9uWjM1Je77Cw1BO5PJVjg05icRtI4Ehhytr5mTCBI'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: 4fc0a729-4349-5307-bd06-1b4bfbaf5d0c
+    internal-label: Gift
 subfeature_v2:
   - id: d9ced453-36f4-4eb5-b2f3-1d593e32476b
+    internal-label: Account management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 935
+source-wordcount: '935'
 ht-degree: 0%
-
 ---
-
 # Geschenkkartenkonten
 
 Für jede gekaufte Geschenkkarte wird automatisch ein Geschenkkartenkonto erstellt. Der Wert der Geschenkkarte kann dann auf den Kauf eines Produkts in Ihrem Geschäft angewendet werden. Sie können Geschenkkartenkonten auch über den Administrator als Promotion oder Service für Kunden erstellen. Die Kontonummer des Geschenkgutscheins entspricht dem Geschenkgutschein-Code.
@@ -90,11 +102,11 @@ Siehe [Speichern von E-Mail](../configuration-reference/general/store-email-addr
 
    - Um den Code anzupassen, füllen Sie Folgendes entsprechend Ihren Anforderungen aus:
 
-      - Codelänge
-      - Codeformat
-      - Code-Präfix
-      - Code-Suffix
-      - Strich alle X Zeichen
+     - Codelänge
+     - Codeformat
+     - Code-Präfix
+     - Code-Suffix
+     - Strich alle X Zeichen
 
    - Geben Sie die **[!UICONTROL New Pool Size]** ein, um die Anzahl der zu generierenden Codes zu bestimmen.
 

@@ -1,31 +1,42 @@
 ---
 title: Installieren von Adobe Commerce-Paketen
-description: Erfahren Sie, wie Sie die  [!DNL AEM Assets Integration for Adobe Commerce]  und auf einer Adobe Commerce-Instanz installieren.
+description: Erfahren Sie, wie Sie die [!DNL AEM Assets Integration for Adobe Commerce]-Erweiterung und auf einer Adobe Commerce-Instanz installieren.
 feature: CMS, Media
 exl-id: 2f8b3165-354d-4b7b-a46e-1ff46af553aa
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
-TQID: https://experienceleague.adobe.com/pV03hqwc27n12BZzTVw-TvidSSXIKC95CNfy-PAXTE4
+TQID: 'https://experienceleague.adobe.com/pV03hqwc27n12BZzTVw-TvidSSXIKC95CNfy-PAXTE4'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
   - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5ffc471432810c8f67c4f8bf742b9892e58b105e
+    internal-label: Administration
+source-git-commit: acc7571574eb9c7e96911266897350a77913488e
 workflow-type: tm+mt
-source-wordcount: 1694
+source-wordcount: '1695'
 ht-degree: 0%
-
 ---
-
 # Installieren von Adobe Commerce-Paketen
 
 Die AEM Assets Integration for Commerce-Erweiterung (`aem-assets-integration`) ermöglicht die Synchronisierung von Assets zwischen Adobe Commerce und Adobe Experience Manager Assets. Die Erweiterung bietet eine Reihe von Tools und Services zum plattformübergreifenden Verwalten von Assets, einschließlich Produktbildern, Videos und anderen Medien-Assets.
