@@ -57,7 +57,7 @@ Darüber hinaus können Sie Folgendes so konfigurieren, dass es gemäß einem Cr
 - Systemrasteraktualisierungen und -neuindizierung bestellen
 - Ausstehende Zahlungsdauer
 
-Stellen Sie sicher, dass [Basis-URLs](../stores-purchase/store-urls.md) für den Store korrekt festgelegt sind, damit die URLs, die während Cron-Vorgängen generiert werden, korrekt sind. Informationen zu Adobe Commerce in Cloud-Infrastrukturen finden Sie unter [Einrichten von Cron](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property) im _Handbuch zu Commerce in Cloud-Infrastrukturen_. Für On-Premise siehe [Konfigurieren und Ausführen ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)) im _Konfigurationshandbuch_.
+Stellen Sie sicher, dass [Basis-URLs](../stores-purchase/store-urls.md) für den Store korrekt festgelegt sind, damit die URLs, die während Cron-Vorgängen generiert werden, korrekt sind. Informationen zu Adobe Commerce in Cloud-Infrastrukturen finden Sie unter [Einrichten von Cron](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property) im _Handbuch zu Commerce in Cloud-Infrastrukturen_. Für On-Premise siehe [Konfigurieren und Ausführen &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)) im _Konfigurationshandbuch_.
 
 ## Cron konfigurieren
 

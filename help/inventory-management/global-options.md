@@ -38,7 +38,7 @@ ht-degree: 1%
 
 Diese globalen Einstellungen gelten für Ihren gesamten Katalog unter **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**>**[!UICONTROL Catalog]**>**[!UICONTROL Inventory]**.
 
-Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und Lager für Ihre Websites. Einige dieser Einstellungen können pro Produkt über „Konfigurieren von [&quot; überschrieben ](product-options.md). Informationen zum Konfigurieren der Distanzprioritätseinstellungen finden Sie [Konfigurieren des Distanzprioritätsalgorithmus](distance-priority-algorithm.md).
+Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und Lager für Ihre Websites. Einige dieser Einstellungen können pro Produkt über „Konfigurieren von [&quot; überschrieben &#x200B;](product-options.md). Informationen zum Konfigurieren der Distanzprioritätseinstellungen finden Sie [Konfigurieren des Distanzprioritätsalgorithmus](distance-priority-algorithm.md).
 
 ## Globale Konfiguration von Produkt- und Lageroptionen
 
@@ -106,7 +106,7 @@ Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und
 
    >[!NOTE]
    >
-   >Die `sourceAvailability`-Abfrage ist standardmäßig deaktiviert, da sie angibt, aus welchen Quellen eine SKU stammt. Exakte Mengen bleiben maskiert, bis die Quellmenge die im _[!UICONTROL Stock Options]_festgelegte **[!UICONTROL Only X left Threshold]**erreicht. Jede Inventarquelle verfügt über eine **[!UICONTROL Visible on Storefront]**, die standardmäßig deaktiviert ist. Das Lager einer Quelle wird erst zurückgegeben, wenn es ein Händler aktiviert hat. Um sie festzulegen, gehen Sie zu **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, bearbeiten Sie eine Quelle und aktivieren Sie **[!UICONTROL Visible on Storefront]**.
+   >Die `sourceAvailability`-Abfrage ist standardmäßig deaktiviert, da sie angibt, aus welchen Quellen eine SKU stammt. Exakte Mengen bleiben maskiert, bis die Quellmenge die im _[!UICONTROL Stock Options]_&#x200B;festgelegte **[!UICONTROL Only X left Threshold]**&#x200B;erreicht. Jede Inventarquelle verfügt über eine **[!UICONTROL Visible on Storefront]**, die standardmäßig deaktiviert ist. Das Lager einer Quelle wird erst zurückgegeben, wenn es ein Händler aktiviert hat. Um sie festzulegen, gehen Sie zu **[!UICONTROL Stores]**>_[!UICONTROL Inventory]_ > **[!UICONTROL Sources]**, bearbeiten Sie eine Quelle und aktivieren Sie **[!UICONTROL Visible on Storefront]**.
 
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Admin bulk operations]** und legen Sie die Optionen fest:
@@ -115,7 +115,7 @@ Konfigurieren Sie die standardmäßigen Konfigurationsoptionen für Produkte und
 
    - **[!UICONTROL Run asynchronously]** für die asynchrone Ausführung von Massenvorgängen für Massenproduktaktionen
 
-     Zu diesen Vorgängen gehören [ „Zuordnung und Aufhebung der Zuweisung von ](bulk-assignment.md)&quot; und [Übertragung von Inventar zur Quelle](inventory-transfer.md). Sie erfasst Massenaktionen bis zur asynchronen Batch-Größe und führt diese Aktionen aus. Standardmäßig ist diese Option deaktiviert. Es wird empfohlen, vor der Aktivierung Ihre Leistung mit Massenaktionen zu überprüfen.
+     Zu diesen Vorgängen gehören [&#x200B; „Zuordnung und Aufhebung der Zuweisung von &#x200B;](bulk-assignment.md)&quot; und [Übertragung von Inventar zur Quelle](inventory-transfer.md). Sie erfasst Massenaktionen bis zur asynchronen Batch-Größe und führt diese Aktionen aus. Standardmäßig ist diese Option deaktiviert. Es wird empfohlen, vor der Aktivierung Ihre Leistung mit Massenaktionen zu überprüfen.
 
      >[!NOTE]
      >

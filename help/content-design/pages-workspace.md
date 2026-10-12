@@ -103,7 +103,7 @@ Der Seitenarbeitsbereich enthält Tools, mit denen Sie die benötigten Seiten sc
 
 ## Seitensuche
 
-Das Suchfeld oben links im _[!UICONTROL Pages]_Raster kann verwendet werden, um bestimmte Seiten nach Keyword zu finden. Für eine erweiterte Suche können Sie [ Suche ](../getting-started/admin-grid-controls.md) mehreren Parametern filtern.
+Das Suchfeld oben links im _[!UICONTROL Pages]_&#x200B;Raster kann verwendet werden, um bestimmte Seiten nach Keyword zu finden. Für eine erweiterte Suche können Sie [&#x200B; Suche &#x200B;](../getting-started/admin-grid-controls.md) mehreren Parametern filtern.
 
 ### Nach Keyword suchen
 
@@ -163,7 +163,7 @@ Seiten können bearbeitet, deaktiviert, aktiviert und gelöscht werden. Um eine 
 
 ### Einzelklage
 
-Verwenden Sie die Spalte _[!UICONTROL Action]_ganz rechts, um eine der folgenden Aktionen auf die einzelne Seite anzuwenden:
+Verwenden Sie die Spalte _[!UICONTROL Action]_&#x200B;ganz rechts, um eine der folgenden Aktionen auf die einzelne Seite anzuwenden:
 
 - [!UICONTROL Edit] - öffnet die Seite im Bearbeitungsmodus
 - [!UICONTROL Delete] - löscht die Seite (Bestätigung erforderlich)
@@ -173,7 +173,7 @@ Verwenden Sie die Spalte _[!UICONTROL Action]_ganz rechts, um eine der folgenden
 
 ### Massenaktionen
 
-Wenden Sie mithilfe der _[!UICONTROL Action]_oben links eine der folgenden Aktionen auf mehrere ausgewählte Seiten gleichzeitig an:
+Wenden Sie mithilfe der _[!UICONTROL Action]_&#x200B;oben links eine der folgenden Aktionen auf mehrere ausgewählte Seiten gleichzeitig an:
 
 - [!UICONTROL Delete] - löscht die Seiten (Bestätigung erforderlich)
 - [!UICONTROL Disable] - Deaktiviert die Seiten in der Storefront
@@ -200,7 +200,7 @@ Klicken Sie in der oberen rechten Ecke auf das Steuerelement _Spalten_ (![Spalte
 
 ### Ansicht speichern
 
-1. Klicken Sie auf _Steuerelement_ Ansicht![ (Augensymbol](../assets/icon-view-eye.png)) und dann auf **[!UICONTROL Save View As]**.
+1. Klicken Sie auf _Steuerelement_ Ansicht![&#x200B; (Augensymbol](../assets/icon-view-eye.png)) und dann auf **[!UICONTROL Save View As]**.
 
 1. Geben Sie einen Namen für die Ansicht ein.
 
@@ -228,7 +228,7 @@ Beachten Sie beim Konfigurieren von Zeitplänen für Seitenänderungen und beim 
 
 - Alle geplanten Aktualisierungen werden nacheinander angewendet, d. h., jede Entität kann immer nur eine geplante Aktualisierung haben. Jede geplante Aktualisierung wird auf alle Store-Ansichten innerhalb ihres Zeitrahmens angewendet. Daher kann eine Entität nicht gleichzeitig verschiedene geplante Aktualisierungen für verschiedene Store-Ansichten haben. Alle Entitätsattributwerte in allen Store-Ansichten, die nicht von der aktuellen geplanten Aktualisierung betroffen sind, werden aus den Standardwerten übernommen, nicht aus der vorherigen geplanten Aktualisierung.
 
-- Wenn eine Kampagne mit mehr als einer Seite verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard“ bearbeitet ](content-staging-dashboard.md).
+- Wenn eine Kampagne mit mehr als einer Seite verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard“ bearbeitet &#x200B;](content-staging-dashboard.md).
 
 - Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne nicht später bearbeitet werden, um ein Enddatum einzuschließen. In diesem Fall müssen Sie eine doppelte Kampagne erstellen und das erforderliche Enddatum eingeben.
 

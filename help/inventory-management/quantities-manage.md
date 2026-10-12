@@ -38,7 +38,7 @@ ht-degree: 0%
 
 Verwenden Sie die folgenden Richtlinien, um Quellen und Mengen für neue oder vorhandene Produkte zuzuweisen.
 
-Weisen Sie beim Erstellen von Produkten Quellen und Mengen während der Produkterstellung zu. Vollständige Anweisungen finden [ unter ](../catalog/product-create.md)Erstellen eines Produkts“. Diese Seiten enthalten Informationen aus einer und mehreren Quellen für Quellen und Mengen pro Quelle.
+Weisen Sie beim Erstellen von Produkten Quellen und Mengen während der Produkterstellung zu. Vollständige Anweisungen finden [&#x200B; unter &#x200B;](../catalog/product-create.md)Erstellen eines Produkts“. Diese Seiten enthalten Informationen aus einer und mehreren Quellen für Quellen und Mengen pro Quelle.
 
 Beim erstmaligen Zugriff auf ein upgegradetes [!DNL Commerce] mit [!DNL Inventory Management] werden alle Produkte und Mengen der Standard-Source zugewiesen. Beim Importieren neuer Produkte über eine CSV-Datei werden diese ebenfalls der Standard-Source zugewiesen.
 

@@ -45,7 +45,7 @@ ht-degree: 0%
 ---
 # [!UICONTROL My Quote Templates]
 
-Wenn Angebote aktiviert sind, werden im Abschnitt _[!UICONTROL My Quotes Template]_des Kundenkonto-Dashboards alle mit dem Kundenkonto verknüpften Angebotsvorlagen aufgelistet. Abhängig von ihren Berechtigungen können nur Einkäufer, die im Namen eines Unternehmens Einkäufe tätigen, eine Angebotsvorlage anfordern und Angebotspreise und Bedingungen für wiederkehrende Bestellungen aushandeln.
+Wenn Angebote aktiviert sind, werden im Abschnitt _[!UICONTROL My Quotes Template]_&#x200B;des Kundenkonto-Dashboards alle mit dem Kundenkonto verknüpften Angebotsvorlagen aufgelistet. Abhängig von ihren Berechtigungen können nur Einkäufer, die im Namen eines Unternehmens Einkäufe tätigen, eine Angebotsvorlage anfordern und Angebotspreise und Bedingungen für wiederkehrende Bestellungen aushandeln.
 
 ![Meine Angebotsvorlagen](./assets/account-dashboard-quote-templates-list.png){width="700" zoomable="yes"}
 
@@ -148,7 +148,7 @@ Käufer können die folgenden Aktionen über ein verknüpftes Angebot abschließ
 
 Klicken Sie auf der Seite mit der Angebotsvorlage auf **[!UICONTROL Cancel Quote Template]**.
 
-Die Angebotsvorlage wird abgebrochen, und der Angebotsstatus ändert sich in `Closed`. Das geschlossene Anführungszeichen verbleibt in Ihrer Liste *[!UICONTROL Inactive]* Anführungszeichen und bleibt im _[!UICONTROL Quote Templates]_in der Admin-Liste aufgeführt.
+Die Angebotsvorlage wird abgebrochen, und der Angebotsstatus ändert sich in `Closed`. Das geschlossene Anführungszeichen verbleibt in Ihrer Liste *[!UICONTROL Inactive]* Anführungszeichen und bleibt im _[!UICONTROL Quote Templates]_&#x200B;in der Admin-Liste aufgeführt.
 
 ## Referenzdokument-Links verwalten
 

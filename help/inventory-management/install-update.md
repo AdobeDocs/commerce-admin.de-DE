@@ -108,7 +108,7 @@ Der [!DNL Inventory Management]-Installationsprozess fügt alle Module zur `<Mag
 
 ## [!DNL Inventory Management] aktivieren
 
-Nach der Installation, dem Upgrade oder der Aktualisierung ist die Option _[!UICONTROL Manage Stock]_in Admin standardmäßig aktiviert. Diese Option ermöglicht die Inventarverfolgung und -verwaltung, hat jedoch keine Auswirkungen auf den Modulstatus. Informationen zum Deaktivieren von Modulen finden Sie im nächsten Abschnitt.
+Nach der Installation, dem Upgrade oder der Aktualisierung ist die Option _[!UICONTROL Manage Stock]_&#x200B;in Admin standardmäßig aktiviert. Diese Option ermöglicht die Inventarverfolgung und -verwaltung, hat jedoch keine Auswirkungen auf den Modulstatus. Informationen zum Deaktivieren von Modulen finden Sie im nächsten Abschnitt.
 
 Weitere Informationen zu Konfigurationen finden Sie unter [Konfigurieren [!DNL Inventory Management]](configuration.md).
 
@@ -123,7 +123,7 @@ Sie können [!DNL Inventory Management] Module deaktivieren, um:
 * Beschleunigen Sie den Upgrade-Prozess für Händler, die von 2.0.x, 2.1.x, 2.2.x oder 2.3.x auf 2.4.x migrieren.
 * Verwenden Sie benutzerdefinierte oder Systemmodule für Inventar- und Bestellverwaltung von Drittanbietern.
 
-Informationen zum Deaktivieren der [ Module finden ](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules) auf der Seite _Module aktivieren oder deaktivieren_ im Installationshandbuch.
+Informationen zum Deaktivieren der [&#x200B; Module finden &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules) auf der Seite _Module aktivieren oder deaktivieren_ im Installationshandbuch.
 
 Nach Abschluss des Vorgangs stellt das System eine Liste der Module und Werte in `<Magento_installation_directory>/app/etc/config.php` bereit, beginnend mit:
 

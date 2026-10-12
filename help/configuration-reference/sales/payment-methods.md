@@ -232,7 +232,7 @@ Eine umfassende Liste der individuellen Konfigurationsoptionen finden Sie im Abs
 
 >[!NOTE]
 >
->Wählen Sie die Option _[!UICONTROL Not Capture]_nur aus, wenn Sie sicher sind, dass Sie die Zahlung später über Commerce erfassen werden. Sie können erst dann eine Gutschrift erstellen, wenn die Zahlung mit der Schaltfläche „Erfassen“ erfasst wurde.
+>Wählen Sie die Option _[!UICONTROL Not Capture]_&#x200B;nur aus, wenn Sie sicher sind, dass Sie die Zahlung später über Commerce erfassen werden. Sie können erst dann eine Gutschrift erstellen, wenn die Zahlung mit der Schaltfläche „Erfassen“ erfasst wurde.
 
 ## [!UICONTROL Purchase Order]
 

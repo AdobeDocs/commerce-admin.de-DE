@@ -41,7 +41,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Auf dieser Seite werden Standardsuchfunktionen beschrieben, die sich von der [Live Search“ ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
+>Auf dieser Seite werden Standardsuchfunktionen beschrieben, die sich von der [Live Search“ &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
 
 Die _Suchergebnisse_ enthält alle Produkte, die den im Feld „Schnellsuche“ oder im Formular „Erweiterte Suche“ angegebenen Suchkriterien entsprechen. Jede Produktliste im Katalog verfügt im Wesentlichen über dieselben Steuerelemente. Der einzige Unterschied besteht darin, dass einer das Ergebnis einer Suchanfrage ist und der andere das Ergebnis von [Navigation](navigation.md).
 
@@ -107,15 +107,15 @@ Im folgenden Beispiel wird die Schlüsselwortzuordnung basierend auf der SKU ver
    ![Abschnitt „Attribute“ mit Suchbegriff](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
-1. Wechseln Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**und aktualisieren Sie die **[!UICONTROL Page Cache]**.
+1. Wechseln Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;und aktualisieren Sie die **[!UICONTROL Page Cache]**.
 
 ### Schritt 3: Zweites Produkt zuordnen
 
-1. Öffnen Sie in der _[!UICONTROL Products]_die `Chaz Kangaroo Hoodie` (MH01) im Bearbeitungsmodus.
+1. Öffnen Sie in der _[!UICONTROL Products]_&#x200B;die `Chaz Kangaroo Hoodie` (MH01) im Bearbeitungsmodus.
 1. Scrollen Sie nach unten und erweitern Sie den Abschnitt **[!UICONTROL Attributes]** .
 1. Geben Sie im Feld **[!UICONTROL Search Keywords]** die SKU für das andere Produkt `MJ03` ein.
 1. Klicken Sie auf **[!UICONTROL Save]**.
-1. Wechseln Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**und aktualisieren Sie die **[!UICONTROL Page Cache]**.
+1. Wechseln Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;und aktualisieren Sie die **[!UICONTROL Page Cache]**.
 
 ### Schritt 4: Testen in der Storefront
 

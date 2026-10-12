@@ -56,7 +56,7 @@ Nach der Konfiguration des CDN müssen Sie die Konfiguration über den Administr
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_die Option **[!UICONTROL Web]**aus.
+1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL Web]**&#x200B;aus.
 
 1. Legen Sie in der oberen linken Ecke nach Bedarf **[!UICONTROL Store View]** fest.
 

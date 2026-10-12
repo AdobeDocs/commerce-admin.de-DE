@@ -81,7 +81,7 @@ In diesem Abschnitt wird beschrieben, wie Sie eine kostenlose Geschenkaktion im 
 
    1. Klicken Sie auf **[!UICONTROL Save and Continue Edit]** und vervollständigen Sie den Rest der Regel nach Bedarf.
 
-1. [Füllen Sie den Titel ](price-rules-cart.md) der Anleitung zur Warenkorbpreisregel aus, um den Titel einzugeben, der während des Checkouts angezeigt wird.
+1. [Füllen Sie den Titel &#x200B;](price-rules-cart.md) der Anleitung zur Warenkorbpreisregel aus, um den Titel einzugeben, der während des Checkouts angezeigt wird.
 
 ![Warenkorb-Preisregel - Kostenloses Geschenk-Label](./assets/free-gift-promotion-label.png){width="600" zoomable="yes"}
 

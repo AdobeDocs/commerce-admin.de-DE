@@ -34,7 +34,7 @@ ht-degree: 0%
 ---
 # Produkteinstellungen - [!UICONTROL Product in Websites]
 
-Im _[!UICONTROL Product in Websites]_Abschnitt werden die einzelnen Websites aufgeführt, auf denen das Produkt verfügbar ist (entsprechend der [-Hierarchie](../stores-purchase/stores.md).
+Im _[!UICONTROL Product in Websites]_&#x200B;Abschnitt werden die einzelnen Websites aufgeführt, auf denen das Produkt verfügbar ist (entsprechend der [-Hierarchie](../stores-purchase/stores.md).
 
 ![Diagramm zum Umfang der Produkt-Website](./assets/scope-product-website.svg){width="550"}
 

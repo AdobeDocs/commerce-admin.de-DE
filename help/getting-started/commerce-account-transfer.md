@@ -44,7 +44,7 @@ Die folgenden Informationen beschreiben den Prozess zur Übertragung eines Adobe
 >
 >Wenn der neue Kontoinhaber mithilfe von Shared Access Erweiterungen erworben hat, geht der Zugriff auf diese Erweiterungen verloren, sobald die Kontoübertragung beginnt.
 >
->Bevor Sie die Kontoübertragung anfordern, stellen Sie sicher, dass der neue Eigentümer die Bestell-IDs für die Käufe von [ [!DNL Commerce Marketplace] Konto](https://commercemarketplace.adobe.com/sales/order/history/) abruft und eine Rückerstattung vom [[!DNL Commerce Marketplace] Team](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) anfordert. Erweiterungskäufe können nicht auf ein anderes Konto übertragen werden.
+>Bevor Sie die Kontoübertragung anfordern, stellen Sie sicher, dass der neue Eigentümer die Bestell-IDs für die Käufe von [&#x200B; [!DNL Commerce Marketplace] Konto](https://commercemarketplace.adobe.com/sales/order/history/) abruft und eine Rückerstattung vom [[!DNL Commerce Marketplace] Team](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) anfordert. Erweiterungskäufe können nicht auf ein anderes Konto übertragen werden.
 
 ## Art der Übertragung angeben
 
@@ -62,7 +62,7 @@ In den folgenden Szenarien werden die verfügbaren Übertragungsoptionen anhand 
 
 >[!NOTE]
 >
->Da Adobe Commerce weiterhin mit anderen Adobe-Lösungen integriert wird, ist für ein Adobe Commerce-Konto (MAGEID) jetzt eine Verknüpfung mit einer Adobe ID erforderlich. Der Adobe ID verwendet dieselbe E-Mail-Adresse, die mit Ihrem [Adobe Commerce-Konto verbunden ](/help/getting-started/commerce-account-create.md#create-a-commerce-account).
+>Da Adobe Commerce weiterhin mit anderen Adobe-Lösungen integriert wird, ist für ein Adobe Commerce-Konto (MAGEID) jetzt eine Verknüpfung mit einer Adobe ID erforderlich. Der Adobe ID verwendet dieselbe E-Mail-Adresse, die mit Ihrem [Adobe Commerce-Konto verbunden &#x200B;](/help/getting-started/commerce-account-create.md#create-a-commerce-account).
 
 ## Überprüfen einer Adobe ID-E-Mail-Änderung
 
@@ -86,7 +86,7 @@ Mehrere Übertragungspfade verwenden denselben Verifizierungs-Workflow auf [acco
 
 Verwenden Sie diesen Pfad, wenn der aktuelle Besitzer über eine MAGEID verfügt, die noch nicht mit einer Adobe ID verknüpft ist. Der aktuelle Eigentümer erstellt und verknüpft zunächst eine Adobe ID und ändert dann diese Adobe ID-E-Mail-Adresse in die E-Mail-Adresse des neuen Eigentümers.
 
-1. Navigieren Sie zur Anmeldeseite des Adobe Commerce-Kontos {0](https://account.magento.com/customer/account/login/).[
+1. Navigieren Sie zur Anmeldeseite des Adobe Commerce-Kontos &lbrace;0[&#128279;](https://account.magento.com/customer/account/login/).
 
 1. Klicken Sie auf **[!UICONTROL Sign in with Adobe ID]**.
 
@@ -96,7 +96,7 @@ Verwenden Sie diesen Pfad, wenn der aktuelle Besitzer über eine MAGEID verfügt
 
 1. Klicken Sie auf **[!UICONTROL Continue]**.
 
-   In diesem Schritt wird eine Adobe ID erstellt und mit dem aktuellen Adobe Commerce-Konto (MAGEID) verknüpft. Mit diesem Konto-Link wird das Feld _[!UICONTROL Email]_für alle Änderungen gesperrt. Die Konfiguration der zugehörigen E-Mail-Adresse wird über das Adobe ID-Konto verwaltet.
+   In diesem Schritt wird eine Adobe ID erstellt und mit dem aktuellen Adobe Commerce-Konto (MAGEID) verknüpft. Mit diesem Konto-Link wird das Feld _[!UICONTROL Email]_&#x200B;für alle Änderungen gesperrt. Die Konfiguration der zugehörigen E-Mail-Adresse wird über das Adobe ID-Konto verwaltet.
 
 1. Navigieren Sie zu [account.adobe.com](https://account.adobe.com/).
 
@@ -198,7 +198,7 @@ Nachdem der neue Eigentümer die E-Mail-Adresse überprüft hat, fahren Sie mit 
 
 Führen Sie diese Schritte nach Abschluss des Prozesses [Neue Adobe ID- und E](#new-adobe-id-and-email-change)Mail-Änderung[, Nur E-Mail-Änderung](#email-change) oder [Wechsel des Adobe ID-](#adobe-id-account-switch) aus.
 
-1. Als neuer Eigentümer [ Sie (eine Support-Anfrage einreichen](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
+1. Als neuer Eigentümer [&#x200B; Sie (eine Support-Anfrage einreichen](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case).
 
    Fügen Sie die folgenden Details hinzu:
 

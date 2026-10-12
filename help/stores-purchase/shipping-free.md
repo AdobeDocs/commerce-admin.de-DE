@@ -32,7 +32,7 @@ ht-degree: 0%
 ---
 # Kostenloser Versand
 
-_Kostenloser Versand_ ist eine der effektivsten Aktionen, die Sie anbieten können. Sie kann auf einem Mindestkauf basieren oder als [Warenkorbpreisregel“ eingerichtet ](../merchandising-promotions/price-rules-cart.md), die angewendet wird, wenn eine Reihe von Bedingungen erfüllt ist. Wenn beide für dieselbe Reihenfolge gelten, hat die Konfigurationseinstellung Vorrang vor der Warenkorbregel.
+_Kostenloser Versand_ ist eine der effektivsten Aktionen, die Sie anbieten können. Sie kann auf einem Mindestkauf basieren oder als [Warenkorbpreisregel“ eingerichtet &#x200B;](../merchandising-promotions/price-rules-cart.md), die angewendet wird, wenn eine Reihe von Bedingungen erfüllt ist. Wenn beide für dieselbe Reihenfolge gelten, hat die Konfigurationseinstellung Vorrang vor der Warenkorbregel.
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ _Kostenloser Versand_ ist eine der effektivsten Aktionen, die Sie anbieten könn
 
    >[!TIP]
    >
-   >Um den kostenlosen Versand mit [Tabellenraten](shipping-table-rate.md) zu verwenden, müssen Sie die _[!UICONTROL Minimum Order Amount]_so hoch gestalten, dass sie nie erfüllt wird. Die Verwendung dieses hohen Werts verhindert, dass der kostenlose Versand in Kraft tritt, es sei denn, er wird durch eine Preisregel ausgelöst.
+   >Um den kostenlosen Versand mit [Tabellenraten](shipping-table-rate.md) zu verwenden, müssen Sie die _[!UICONTROL Minimum Order Amount]_&#x200B;so hoch gestalten, dass sie nie erfüllt wird. Die Verwendung dieses hohen Werts verhindert, dass der kostenlose Versand in Kraft tritt, es sei denn, er wird durch eine Preisregel ausgelöst.
 
 1. **[!UICONTROL Include Tax to Amount]** festlegen:
 
@@ -73,7 +73,7 @@ _Kostenloser Versand_ ist eine der effektivsten Aktionen, die Sie anbieten könn
 
    - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können den kostenlosen Versand verwenden.
 
-   - `Specific Countries` - Nachdem Sie diesen Wert ausgewählt haben, wird die _[!UICONTROL Ship to Specific Countries]_angezeigt. Wählen Sie jedes Land in der Liste aus, in dem der kostenlose Versand verwendet werden kann.
+   - `Specific Countries` - Nachdem Sie diesen Wert ausgewählt haben, wird die _[!UICONTROL Ship to Specific Countries]_&#x200B;angezeigt. Wählen Sie jedes Land in der Liste aus, in dem der kostenlose Versand verwendet werden kann.
 
 1. **[!UICONTROL Show Method if Not Applicable]** festlegen:
 

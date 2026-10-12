@@ -39,7 +39,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Das [ „Aktionen](action-log.md)-Archiv listet die CSV-Protokolldateien auf, die auf dem Server gespeichert sind.
+Das [&#x200B; „Aktionen](action-log.md)-Archiv listet die CSV-Protokolldateien auf, die auf dem Server gespeichert sind.
 
 [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} In der -Konfiguration können Sie angeben, wie lange die Protokolleinträge gespeichert werden und wie oft sie archiviert werden. Standardmäßig enthält der Dateiname das aktuelle Datum im ISO-Format: `yyyyMMddHH`
 

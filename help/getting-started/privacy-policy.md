@@ -64,7 +64,7 @@ Jede Darstellung von Informationen, die es ermöglicht, die Identität einer Per
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Content]** > _[!UICONTROL Elements]_>**[!UICONTROL Pages]**.
 
-1. Suchen Sie im Raster nach **[!UICONTROL Privacy Policy]**. Klicken Sie dann in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL Select]**und wählen Sie **[!UICONTROL Edit]**aus.
+1. Suchen Sie im Raster nach **[!UICONTROL Privacy Policy]**. Klicken Sie dann in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL Select]**&#x200B;und wählen Sie **[!UICONTROL Edit]**&#x200B;aus.
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ Jede Darstellung von Informationen, die es ermöglicht, die Identität einer Per
 
 1. Erweitern Sie den Abschnitt **[!UICONTROL Content]** und nehmen Sie die erforderlichen Änderungen am Inhalt vor.
 
-   Weitere Informationen zur Verwendung der Tools für Seiteninhalte finden Sie unter [Vervollständigen des ](../content-design/page-add.md#step-2-complete-the-content) im _Content and Design Guide_.
+   Weitere Informationen zur Verwendung der Tools für Seiteninhalte finden Sie unter [Vervollständigen des &#x200B;](../content-design/page-add.md#step-2-complete-the-content) im _Content and Design Guide_.
 
    ![Datenschutzseite - Inhalt bearbeiten](./assets/page-privacy-content-edit.png){width="600" zoomable="yes"}
 

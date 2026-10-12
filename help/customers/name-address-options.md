@@ -42,7 +42,7 @@ ht-degree: 0%
 ---
 # Optionen für Kundennamen und Adressen
 
-Die _Name- und Adressoptionen_ bestimmen, welche Felder in den Namen- und Adressformularen enthalten sind, wenn Kundinnen und Kunden ein ([) ](../customers/account-create.md) Ihrem Geschäft erstellen.
+Die _Name- und Adressoptionen_ bestimmen, welche Felder in den Namen- und Adressformularen enthalten sind, wenn Kundinnen und Kunden ein ([) &#x200B;](../customers/account-create.md) Ihrem Geschäft erstellen.
 
 ![Anmeldeformular für Kundenkonto](assets/storefront-customer-account-address-book.png){width="500" zoomable="yes"}
 
@@ -71,7 +71,7 @@ Sie können die Namen- und Adressoptionen konfigurieren, die Kunden in der Store
 
    >[!INFO]
    >
-   >Der Abschnitt _[!UICONTROL Name and Address Options]_wird nicht angezeigt, wenn der Bereich auf `Default Store View` festgelegt ist.
+   >Der Abschnitt _[!UICONTROL Name and Address Options]_&#x200B;wird nicht angezeigt, wenn der Bereich auf `Default Store View` festgelegt ist.
 
    ![Konfigurationsbereich](assets/customer-configuration-scope-ee.png){width="700" zoomable="yes"}
 

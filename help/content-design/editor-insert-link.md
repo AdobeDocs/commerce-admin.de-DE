@@ -31,7 +31,7 @@ Eine einfache Möglichkeit, einen Link einzufügen, besteht darin, die Schaltfl�
 
    ![Editor-Symbolleiste - Link einfügen](./assets/editor-toolbar-link-button.png){width="700" zoomable="yes"}
 
-   Diese Aktion öffnet das _[!UICONTROL Insert link]_Dialogfeld.
+   Diese Aktion öffnet das _[!UICONTROL Insert link]_&#x200B;Dialogfeld.
 
    ![Editor - Dialogfeld „Link einfügen“](./assets/editor-dialog-insert-link.png){width="250" zoomable="yes"}
 

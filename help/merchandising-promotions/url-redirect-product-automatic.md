@@ -67,7 +67,7 @@ Ihr Store kann so konfiguriert werden, dass er automatisch eine permanente Weite
 
 >[!NOTE]
 >
-> URL-Neuschreibungen können für die Store-Ansicht oder den Website-Umfang generiert werden. Legen Sie im Admin-Bereich unter **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]****[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**den URL-Rewrite-Bereich fest. Wählen Sie den Bereich im Feld_[!UICONTROL Product URL Rewrite Scope]_ aus.
+> URL-Neuschreibungen können für die Store-Ansicht oder den Website-Umfang generiert werden. Legen Sie im Admin-Bereich unter **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**&#x200B;**[!UICONTROL Catalog]**>**[!UICONTROL Catalog]**>**[!UICONTROL Search Engine Optimization]**&#x200B;den URL-Rewrite-Bereich fest. Wählen Sie den Bereich im Feld&#x200B;_[!UICONTROL Product URL Rewrite Scope]_ aus.
 
 ## Produkt-URLs automatisch umleiten
 
@@ -75,7 +75,7 @@ Ihr Store kann so konfiguriert werden, dass er automatisch eine permanente Weite
 
 1. Suchen Sie das Produkt in der Liste und klicken Sie darauf, um den Datensatz zu öffnen.
 
-1. Erweitern Sie ![Erweiterungsauswahl ](../assets/icon-display-expand.png) Abschnitt **[!UICONTROL Search Engine Optimization]** .
+1. Erweitern Sie ![Erweiterungsauswahl &#x200B;](../assets/icon-display-expand.png) Abschnitt **[!UICONTROL Search Engine Optimization]** .
 
    ![Optimierung der Produktsuchmaschine - permanente Weiterleitung](./assets/product-search-engine-optimization-create-permanent-redirect.png){width="600" zoomable="yes"}
 

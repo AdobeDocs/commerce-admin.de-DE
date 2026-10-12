@@ -84,7 +84,7 @@ Um eine unterstützte Einkaufssession zu starten, muss der Kunde in seinem Konto
    >
    >Um den Kundendatensatz schnell zu finden, verwenden Sie das Steuerelement [Filter](../getting-started/admin-grid-controls.md).
 
-   Im Kundenprofil unter _[!UICONTROL Personal Information]_zeigt das_[!UICONTROL Last Logged In]_ Datum und die Uhrzeit an, dass der Kunde online ist.
+   Im Kundenprofil unter _[!UICONTROL Personal Information]_&#x200B;zeigt das&#x200B;_[!UICONTROL Last Logged In]_ Datum und die Uhrzeit an, dass der Kunde online ist.
 
    ![Kundenprofil eines Online-Kunden](./assets/customer-account-manage-cart.png){width="600" zoomable="yes"}
 
@@ -192,7 +192,7 @@ Sie können Artikel aus der Wunschliste eines Kunden in den Warenkorb legen und 
 
    - Geben Sie **[!UICONTROL Apply Coupon Code]** einen gültigen Gutscheincode ein.
 
-   - Klicken Sie auf _Pfeil_&#x200B;Übernehmen![ ( Pfeilsymbol](../assets/icon-apply-arrow.png) ).
+   - Klicken Sie auf _Pfeil_&#x200B;Übernehmen![&#x200B; ( Pfeilsymbol](../assets/icon-apply-arrow.png) ).
 
 1. Passen Sie die bestellte Menge nach Bedarf an:
 
@@ -204,7 +204,7 @@ Sie können Artikel aus der Wunschliste eines Kunden in den Warenkorb legen und 
 
 1. Klicken Sie auf **[!UICONTROL Create Order]**.
 
-   Auf der Seite _[!UICONTROL Create New Order]_werden die Artikel im Warenkorb angezeigt, gefolgt von den Versand- und Zahlungsinformationen.
+   Auf der Seite _[!UICONTROL Create New Order]_&#x200B;werden die Artikel im Warenkorb angezeigt, gefolgt von den Versand- und Zahlungsinformationen.
 
 1. Füllen Sie die Versand- und Zahlungsinformationen aus.
 

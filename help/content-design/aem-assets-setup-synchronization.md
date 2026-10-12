@@ -60,7 +60,7 @@ Verwenden Sie für die Ersteinrichtung die Standardregel *Übereinstimmung nach 
 
 ## Konfigurieren der Verbindung
 
-1. Rufen Sie die Projekt- und Umgebungs-ID der ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start)0}AEM Assets-Autorenumgebung ab.[
+1. Rufen Sie die Projekt- und Umgebungs-ID der [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/quick-start)0&rbrace;AEM Assets-Autorenumgebung ab.
 
    1. Öffnen Sie die AEM Sites-Konsole und wählen Sie **[!UICONTROL Assets]** aus.
 
@@ -97,7 +97,7 @@ Verwenden Sie für die Ersteinrichtung die Standardregel *Übereinstimmung nach 
 
 ### Konfigurieren der benutzerdefinierten Domain-URL
 
-Wenn ein Händler in seinem AEM[Dashboard einen ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank}benutzerdefinierten Domain-Namen“ festlegt, muss diese **benutzerdefinierte Domain-URL** in Commerce hinzugefügt werden, damit die AEM Assets-Integration sie verwenden kann.
+Wenn ein Händler in seinem AEM[Dashboard einen &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/custom-domain-names/add-custom-domain-name){target=_blank}benutzerdefinierten Domain-Namen“ festlegt, muss diese **benutzerdefinierte Domain-URL** in Commerce hinzugefügt werden, damit die AEM Assets-Integration sie verwenden kann.
 
 1. Navigieren Sie zu **[!UICONTROL Store]** > Konfiguration > **[!UICONTROL ADOBE SERVICES]** > **[!UICONTROL AEM Assets Integration]**.
 

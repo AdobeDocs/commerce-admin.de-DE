@@ -41,7 +41,7 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Die Funktion „Aktionsprotokolle“ zeichnet jede Änderung auf, die von einem Administrator bzw. einer Administratorin, der bzw. die in Ihrem Geschäft arbeitet, vorgenommen wird. Auf diese Weise können Sie alle Änderungen verfolgen, die an Ihrem Store vorgenommen wurden. Das Tracking dieser Änderungen kann zusammen mit dem [ von ](permissions.md) für einen Benutzer dazu beitragen, Ihren Store vor unerwünschten Änderungen zu schützen.
+Die Funktion „Aktionsprotokolle“ zeichnet jede Änderung auf, die von einem Administrator bzw. einer Administratorin, der bzw. die in Ihrem Geschäft arbeitet, vorgenommen wird. Auf diese Weise können Sie alle Änderungen verfolgen, die an Ihrem Store vorgenommen wurden. Das Tracking dieser Änderungen kann zusammen mit dem [&#x200B; von &#x200B;](permissions.md) für einen Benutzer dazu beitragen, Ihren Store vor unerwünschten Änderungen zu schützen.
 
 Bei den meisten Admin-Aktionen umfassen die protokollierten Informationen die Aktion, den Namen des Benutzers, den Erfolg oder Misserfolg der Aktion und die ID des von der Aktion betroffenen Objekts. IP-Adresse und Datum werden ebenfalls protokolliert.
 
@@ -55,7 +55,7 @@ Eine detaillierte Liste der Konfigurationseinstellungen finden Sie unter [Admin-
 
 >[!NOTE]
 >
->Auf der [!DNL Adobe Commerce as a Cloud Service] können Sie den Aktionsprotokollbericht, das Aktionsprotokollarchiv und das Massenaktionsprotokoll nicht konfigurieren. Sie können die Berichtausgabe jedoch über das Menü **[!UICONTROL System]** > _[!UICONTROL Action Logs]_im Admin-Bereich überprüfen.
+>Auf der [!DNL Adobe Commerce as a Cloud Service] können Sie den Aktionsprotokollbericht, das Aktionsprotokollarchiv und das Massenaktionsprotokoll nicht konfigurieren. Sie können die Berichtausgabe jedoch über das Menü **[!UICONTROL System]** > _[!UICONTROL Action Logs]_&#x200B;im Admin-Bereich überprüfen.
 
 ## Konfigurieren von Admin-Aktionen für die Protokollierung
 

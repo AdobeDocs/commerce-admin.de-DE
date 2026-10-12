@@ -77,7 +77,7 @@ Um auf die Konfigurationseinstellungen für Payment Services zuzugreifen, gehen 
 | [!UICONTROL 3DS Secure authentication] | Website | Aktivieren oder deaktivieren Sie [3DS Secure Authentication](https://experienceleague.adobe.com/en/docs/commerce/payment-services/security-compliance/security#3ds). Optionen: [!UICONTROL Always] / [!UICONTROL When Required] / [!UICONTROL Off] |
 | [!UICONTROL Show on checkout page] | Website | Aktivieren oder deaktivieren Sie Kreditkartenfelder, die auf der Kasse angezeigt werden sollen. Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Vault enabled] | Shop-Ansicht | Aktivieren oder Deaktivieren [Kreditkarten-Vaulting](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/vaulting). Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
-| [!UICONTROL Show vaulted payment methods in Admin] | Shop-Ansicht | Aktivieren oder deaktivieren Sie die Möglichkeit, Bestellungen für Kunden in der Admin [mit einer Tresorzahlmethode) ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/vaulting). Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
+| [!UICONTROL Show vaulted payment methods in Admin] | Shop-Ansicht | Aktivieren oder deaktivieren Sie die Möglichkeit, Bestellungen für Kunden in der Admin [mit einer Tresorzahlmethode) &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/payments-checkout/vaulting). Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Debug Mode] | Website | Aktivieren oder Deaktivieren des Debugging-Modus. Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
 
 {style="table-layout:auto"}
@@ -90,8 +90,8 @@ Um auf die Konfigurationseinstellungen für Payment Services zuzugreifen, gehen 
 |---|---|---|
 | [!UICONTROL Title] | Shop-Ansicht | Fügen Sie den Text hinzu, der während des Checkouts als Titel für diese Zahlungsoption in der Ansicht Zahlungsmethode angezeigt werden soll. |
 | [!UICONTROL Payment Action] | Website | Die [Zahlungsaktion](payment-methods.md#payment-actions){target="_blank"} für die angegebene Zahlungsmethode. Optionen: [!UICONTROL Authorize] / [!UICONTROL Authorize and Capture] |
-| [!UICONTROL Show PayPal buttons on checkout page] | Shop-Ansicht | Aktivieren oder Deaktivieren von [!DNL PayPal Smart Buttons] auf der Kaufbestätigungsseite. Optionen: [!UICONTROL  Yes] / [!UICONTROL No] |
-| [!UICONTROL Show PayPal buttons on product detail page] | Shop-Ansicht | Aktivieren oder Deaktivieren von [!DNL PayPal Smart Buttons] auf der Produktdetailseite. Optionen: [!UICONTROL  Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on checkout page] | Shop-Ansicht | Aktivieren oder Deaktivieren von [!DNL PayPal Smart Buttons] auf der Kaufbestätigungsseite. Optionen: [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
+| [!UICONTROL Show PayPal buttons on product detail page] | Shop-Ansicht | Aktivieren oder Deaktivieren von [!DNL PayPal Smart Buttons] auf der Produktdetailseite. Optionen: [!UICONTROL &#x200B; Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons in mini-cart preview] | Shop-Ansicht | Aktivieren oder deaktivieren Sie [!DNL PayPal Smart Buttons] in der Vorschau des Mini-Warenkorbs. Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal buttons on cart page] | Shop-Ansicht | Aktivieren oder Deaktivieren von [!DNL PayPal Smart Buttons] auf der Warenkorbseite. Optionen: [!UICONTROL Yes] / [!UICONTROL No] |
 | [!UICONTROL Show PayPal Pay Later button] | Shop-Ansicht | Aktivieren oder deaktivieren Sie die Option „Später bezahlen“, wenn die Zahlungsschaltflächen angezeigt werden. Optionen: [!UICONTROL Yes] / [!UICONTROL No] |

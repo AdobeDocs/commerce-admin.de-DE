@@ -62,7 +62,7 @@ Bevor Sie Währungskurse importieren, schließen Sie die [Währungskurseinrichtu
 
 1. Klicken Sie auf **[!UICONTROL Import]**.
 
-   Die aktualisierten Tarife werden in der Liste _[!UICONTROL Currency Rates]_angezeigt. Wenn sich die Kurse seit der letzten Aktualisierung geändert haben, wird der alte Kurs unten als Referenz angezeigt.
+   Die aktualisierten Tarife werden in der Liste _[!UICONTROL Currency Rates]_&#x200B;angezeigt. Wenn sich die Kurse seit der letzten Aktualisierung geändert haben, wird der alte Kurs unten als Referenz angezeigt.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Currency Rates]**.
 
@@ -72,9 +72,9 @@ Bevor Sie Währungskurse importieren, schließen Sie die [Währungskurseinrichtu
 
 ## Währungskurse planmäßig importieren
 
-1. Stellen Sie sicher[ dass &quot;](../systems/cron.md)&quot; für Ihren Store aktiviert ist.
+1. Stellen Sie sicher[&#x200B; dass &quot;](../systems/cron.md)&quot; für Ihren Store aktiviert ist.
 
-1. Um die Währungen anzugeben, die Sie akzeptieren, und die Importverbindung und den Zeitplan einzurichten, schließen Sie die Einrichtung [Währungskurses“ ](currency-configuration.md).
+1. Um die Währungen anzugeben, die Sie akzeptieren, und die Importverbindung und den Zeitplan einzurichten, schließen Sie die Einrichtung [Währungskurses“ &#x200B;](currency-configuration.md).
 
 1. Um sicherzustellen, dass die Tarife planmäßig importiert werden, überprüfen Sie die _[!UICONTROL Currency Rates]_.
 

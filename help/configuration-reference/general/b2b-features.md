@@ -66,7 +66,7 @@ Wenn die Funktion „Unternehmen“ aktiviert ist, stehen zusätzliche Felder f�
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |------- |----------------------------------------------------------------------- |------------ |
 | [[!UICONTROL Enable Shared Catalog]](../../b2b/catalog-shared.md) | Website | Wenn diese Option aktiviert ist, können kuratierte Kataloge mit benutzerdefinierten Preisen erstellt werden, die entweder global verfügbar oder auf bestimmte Unternehmen beschränkt sind. Optionen: `Yes` / `No` |
-| [!UICONTROL Enable Shared Catalog direct products price assigning] | Website | Wenn das _[!UICONTROL Enable Shared Catalog]_Feld auf `Yes` gesetzt ist, ist diese Option verfügbar. Wenn diese Option aktiviert ist, werden nur Produkte, die einem freigegebenen Katalog zugewiesen sind, im Preisindex gespeichert. Produkte, die nicht dem freigegebenen Katalog zugewiesen sind, werden nicht in der Storefront angezeigt. Optionen: `Yes` / `No` |
+| [!UICONTROL Enable Shared Catalog direct products price assigning] | Website | Wenn das _[!UICONTROL Enable Shared Catalog]_&#x200B;Feld auf `Yes` gesetzt ist, ist diese Option verfügbar. Wenn diese Option aktiviert ist, werden nur Produkte, die einem freigegebenen Katalog zugewiesen sind, im Preisindex gespeichert. Produkte, die nicht dem freigegebenen Katalog zugewiesen sind, werden nicht in der Storefront angezeigt. Optionen: `Yes` / `No` |
 | [[!UICONTROL Enable B2B Quote]](../../b2b/configure-quotes.md) | Website | Wenn diese Option aktiviert ist, können Unternehmenskäufer eine Angebotsanfrage aus dem Warenkorb senden. Optionen: `Yes` / `No` |
 
 {style="table-layout:auto"}

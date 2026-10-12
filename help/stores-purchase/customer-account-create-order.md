@@ -37,7 +37,7 @@ ht-degree: 0%
 ---
 # Bestellung erstellen
 
-Für registrierte Kunden, die Hilfe benötigen, können Sie direkt vom Administrator aus eine ganze Bestellung erstellen. Das _[!UICONTROL Create New Order]_Formular enthält alle Informationen, die für den normalen Checkout-Prozess erforderlich sind, einschließlich Aktivitätszusammenfassungen aus dem Konto-Dashboard des Kunden.
+Für registrierte Kunden, die Hilfe benötigen, können Sie direkt vom Administrator aus eine ganze Bestellung erstellen. Das _[!UICONTROL Create New Order]_&#x200B;Formular enthält alle Informationen, die für den normalen Checkout-Prozess erforderlich sind, einschließlich Aktivitätszusammenfassungen aus dem Konto-Dashboard des Kunden.
 
 ![Bestellung für einen Kunden erstellen](./assets/create-new-order.png){width="700" zoomable="yes"}
 
@@ -103,7 +103,7 @@ Sie können Artikel aus der Wunschliste eines Kunden oder aus kürzlich angesehe
 
    - Klicken Sie auf **[!UICONTROL Add Selected Product(s) to Order]** , um den Warenkorb zu aktualisieren.
 
-1. Wenn ein Produkt für „Geschenkoptionen[ konfiguriert ist](../catalog/product-gift-options.md) legen Sie die Optionen nach Bedarf fest.
+1. Wenn ein Produkt für „Geschenkoptionen[&#x200B; konfiguriert ist](../catalog/product-gift-options.md) legen Sie die Optionen nach Bedarf fest.
 
 1. Den Preis eines Artikels überschreiben, falls erforderlich:
 
@@ -120,11 +120,11 @@ Sie können Artikel aus der Wunschliste eines Kunden oder aus kürzlich angesehe
    - [!UICONTROL Payment Method]
    - [!UICONTROL Shipping Method]
    - [!UICONTROL Order Comments]
-   - [!UICONTROL [Benutzerdefinierte Sortierattribute]](../stores-purchase/order-processing.md#custom-order-attributes)
+   - [[!UICONTROL [Benutzerdefinierte Sortierattribute]]](../stores-purchase/order-processing.md#custom-order-attributes)
 
 >[!NOTE]
 >
->Weitere Informationen zu Zahlungsmethoden[ die diese Funktion unterstützen, wenn die ](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) installiert und konfiguriert ist, finden Sie im „Payment Services Guide“.
+>Weitere Informationen zu Zahlungsmethoden[&#x200B; die diese Funktion unterstützen, wenn die &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview) installiert und konfiguriert ist, finden Sie im „Payment Services Guide“.
 
 ## Schritt 3: Bestellung übermitteln
 

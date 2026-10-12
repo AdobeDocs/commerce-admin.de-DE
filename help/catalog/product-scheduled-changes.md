@@ -44,7 +44,7 @@ Beachten Sie beim Konfigurieren von Zeitplänen für Produktaktualisierungen und
 
 - Eine Staging-Vorschau für ein geplantes Update beginnt immer in der **Standard** Store-Ansicht, die das Kundenerlebnis beim Navigieren durch die Staging-Update-Kampagne emuliert.
 
-- Wenn eine Kampagne mit mehr als einem Produkt verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard für Inhalte“ bearbeitet ](../content-design/content-staging-dashboard.md).
+- Wenn eine Kampagne mit mehr als einem Produkt verknüpft ist, kann die Kampagne nur über das [Staging-Dashboard für Inhalte“ bearbeitet &#x200B;](../content-design/content-staging-dashboard.md).
 
 - Wenn eine aktive Kampagne anfänglich ohne Enddatum erstellt wird, kann die Kampagne nicht später bearbeitet werden, um ein Enddatum einzuschließen. In diesem Fall müssen Sie eine doppelte Kampagne erstellen und das erforderliche Enddatum eingeben.
 
@@ -75,7 +75,7 @@ Beachten Sie beim Konfigurieren von Zeitplänen für Produktaktualisierungen und
 
    ![Als neues Update planen](./assets/product-schedule-as-new.png){width="600" zoomable="yes"}
 
-1. Scrollen Sie nach unten zu _[!UICONTROL Price]_und klicken Sie auf **[!UICONTROL Advanced Pricing]**.
+1. Scrollen Sie nach unten zu _[!UICONTROL Price]_&#x200B;und klicken Sie auf **[!UICONTROL Advanced Pricing]**.
 
 1. Geben Sie während der geplanten Kampagne einen **[!UICONTROL Special Price]** für das Produkt ein und klicken Sie auf **[!UICONTROL Done]**.
 
@@ -107,7 +107,7 @@ Die geplante Änderung wird oben auf der Produktseite mit dem Start- und Enddatu
 
 ## Geplante Änderung bearbeiten
 
-1. Klicken Sie im _[!UICONTROL Scheduled Changes]_oben auf der Seite auf **[!UICONTROL View/Edit]**.
+1. Klicken Sie im _[!UICONTROL Scheduled Changes]_&#x200B;oben auf der Seite auf **[!UICONTROL View/Edit]**.
 
 1. Nehmen Sie die erforderlichen Änderungen an der geplanten Aktualisierung vor.
 
@@ -115,7 +115,7 @@ Die geplante Änderung wird oben auf der Produktseite mit dem Start- und Enddatu
 
 ## Geplante Änderung entfernen
 
-1. Klicken Sie im _[!UICONTROL Scheduled Changes]_oben auf der Seite auf **[!UICONTROL View/Edit]**.
+1. Klicken Sie im _[!UICONTROL Scheduled Changes]_&#x200B;oben auf der Seite auf **[!UICONTROL View/Edit]**.
 
 1. Klicken Sie in der oberen Leiste auf **[!UICONTROL Remove from Update]**.
 
@@ -129,7 +129,7 @@ Die geplante Änderung wird oben auf der Produktseite mit dem Start- und Enddatu
 
 {{ce-feature}}
 
-Im Abschnitt _[!UICONTROL Schedule Design Update]_können Sie temporäre Änderungen am Erscheinungsbild der Produktseite vornehmen. Sie können Design-Änderungen für eine Saison, eine Promotion oder einfach nur planen, um Dinge neu zu gestalten. Konstruktionsänderungen können im Voraus geplant werden, sodass sie in dem von Ihnen festgelegten Zeitplan in Kraft treten_ oder _tropfen).
+Im Abschnitt _[!UICONTROL Schedule Design Update]_&#x200B;können Sie temporäre Änderungen am Erscheinungsbild der Produktseite vornehmen. Sie können Design-Änderungen für eine Saison, eine Promotion oder einfach nur planen, um Dinge neu zu gestalten. Konstruktionsänderungen können im Voraus geplant werden, sodass sie in dem von Ihnen festgelegten Zeitplan in Kraft treten_ oder _tropfen).
 
 ![Geplante Design-Aktualisierung](./assets/product-design-update-scheduled-ce.png){width="600" zoomable="yes"}
 

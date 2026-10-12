@@ -38,7 +38,7 @@ ht-degree: 0%
 ---
 # Produktattribute erstellen und löschen
 
-Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!UICONTROL Product Attributes]_arbeiten. Die folgenden Schritte zeigen, wie Sie Attribute über das Menü_[!UICONTROL Stores]_ erstellen.
+Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!UICONTROL Product Attributes]_&#x200B;arbeiten. Die folgenden Schritte zeigen, wie Sie Attribute über das Menü&#x200B;_[!UICONTROL Stores]_ erstellen.
 
 ## Schritt 1: Grundlegende Attributeigenschaften beschreiben
 
@@ -58,7 +58,7 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
 1. Gehen Sie für die Eingabetypen [!UICONTROL Dropdown] und [!UICONTROL Multiple Select] wie folgt vor:
 
-   - Klicken Sie unter _[!UICONTROL Manage Options]_auf **[!UICONTROL Add Option]**.
+   - Klicken Sie unter _[!UICONTROL Manage Options]_&#x200B;auf **[!UICONTROL Add Option]**.
 
    - Geben Sie den ersten Wert ein, der in der Liste angezeigt werden soll.
 
@@ -80,7 +80,7 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
    ![Produktattribut - Erweiterte Eigenschaften](./assets/product-attribute-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
-   Die verfügbaren Optionen hängen von der _[!UICONTROL Catalog Input Type for Store Owner]_ab.
+   Die verfügbaren Optionen hängen von der _[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;ab.
 
 1. Um anzugeben, wo in [Store-](../getting-started/websites-stores-views.md) das Attribut verwendet werden kann, legen Sie **[!UICONTROL Scope]** fest.
 
@@ -101,8 +101,8 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
 1. Um dieses Attribut zur &quot;[&quot; hinzuzufügen](products-list.md) legen Sie die folgenden Optionen auf `Yes` fest.
 
-   - **Zu Spaltenoptionen hinzufügen** - Schließt das Attribut als Spalte in die _[!UICONTROL Products]_ein.
-   - **In Filteroptionen verwenden** - Fügt der Spaltenüberschrift in der _[!UICONTROL Products]_ein Filtersteuerelement hinzu.
+   - **Zu Spaltenoptionen hinzufügen** - Schließt das Attribut als Spalte in die _[!UICONTROL Products]_&#x200B;ein.
+   - **In Filteroptionen verwenden** - Fügt der Spaltenüberschrift in der _[!UICONTROL Products]_&#x200B;ein Filtersteuerelement hinzu.
 
 ## Schritt 3: Feldbezeichnung eingeben
 
@@ -124,7 +124,7 @@ Sie können Attribute erstellen, während Sie an einem Produkt oder auf der _[!U
 
    ![Produktattribute - Storefront-Eigenschaften](./assets/product-attribute-add-storefront-properties.png){width="600" zoomable="yes"}
 
-   Die verfügbaren Optionen hängen von der _[!UICONTROL Catalog Input Type for Store Owner]_ab.
+   Die verfügbaren Optionen hängen von der _[!UICONTROL Catalog Input Type for Store Owner]_&#x200B;ab.
 
 1. Wenn das Attribut für die Suche verfügbar sein soll, setzen Sie **[!UICONTROL Use in Search]** auf `Yes`.
 

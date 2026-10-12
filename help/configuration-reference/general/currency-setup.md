@@ -37,7 +37,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Weitere Informationen [ diesen Konfigurationen finden ](../../stores-purchase/currency-configuration.md) unter „Währungskonfiguration“.
+>Weitere Informationen [&#x200B; diesen Konfigurationen finden &#x200B;](../../stores-purchase/currency-configuration.md) unter „Währungskonfiguration“.
 
 ## [!UICONTROL Currency Options]
 
