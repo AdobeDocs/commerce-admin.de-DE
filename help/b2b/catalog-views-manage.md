@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Der Connector schützt Katalogansichten mit eingeschränkten Zugriffsschlüsseln
 
 Informationen zum Konfigurieren der Token-Lebensdauer oder Deaktivieren der Token-Ausgabe finden Sie unter [Services > ACO-Katalogansicht](/help/configuration-reference/services/aco-catalog-view.md).
 
-Sie können diese Katalogansichten überprüfen und ihre zugewiesenen Schlüssel entweder über die Registerkarte _[!UICONTROL Catalog Views]_&#x200B;des freigegebenen Katalogs oder den Abschnitt&#x200B;_[!UICONTROL Catalog Views]_ des zugehörigen Unternehmens verwalten. Beide listen dieselben Katalogansichten und aktuelle Schlüsselzuweisungen auf. Unter [Bearbeiten von eingeschränkten Zugriffsschlüsseln](#edit-restricted-access-keys) finden Sie den genauen Navigationspfad zu den einzelnen Speicherorten.
+Sie können diese Katalogansichten überprüfen und ihre zugewiesenen Schlüssel entweder über die Registerkarte _[!UICONTROL Catalog Views]_des freigegebenen Katalogs oder den Abschnitt_[!UICONTROL Catalog Views]_ des zugehörigen Unternehmens verwalten. Beide listen dieselben Katalogansichten und aktuelle Schlüsselzuweisungen auf. Unter [Bearbeiten von eingeschränkten Zugriffsschlüsseln](#edit-restricted-access-keys) finden Sie den genauen Navigationspfad zu den einzelnen Speicherorten.
 
 Informationen zum Überwachen der Synchronisierung freigegebener Katalogdaten mit [!DNL Adobe Commerce Optimizer] finden Sie [Überwachung des Synchronisierungsstatus der Katalogansicht](/help/systems/catalog-view-sync-status.md).
 
@@ -85,3 +85,5 @@ Weitere Informationen finden Sie unter [Verwalten von eingeschränkten Zugriffss
 > - [Überwachung des Synchronisationsstatus der Katalogansicht](/help/systems/catalog-view-sync-status.md)
 > - [Freigegebene Kataloge verwalten](catalog-shared-manage.md)
 > - [Verwalten von Unternehmenskonten](account-company-manage.md)
+
+<!-- Last updated from includes: 2026-10-01 08:33:41 -->
