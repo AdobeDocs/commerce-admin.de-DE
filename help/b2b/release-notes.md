@@ -44,7 +44,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: bb5da9eea16601303b62ccc06327c6a832062c49
 workflow-type: tm+mt
 source-wordcount: '11211'
 ht-degree: 0%
@@ -60,6 +60,8 @@ In diesen Versionshinweisen für die B2B-Erweiterung werden Ergänzungen und Feh
 >[!NOTE]
 >
 >Unter [Produktverfügbarkeit](https://experienceleague.adobe.com/de/docs/commerce-operations/release/product-availability) finden Sie Informationen zu Versionen der B2B-Commerce-Erweiterung, die für verfügbare Adobe Commerce-Versionen unterstützt werden.
+
+{{$include /help/_includes/templated/release-notes-v1-5-4.md}}
 
 ## B2B v1.5.3
 
@@ -1160,3 +1162,5 @@ Diese Version umfasst Verbesserungen bei Auftragsgenehmigungen, Versandmethoden,
 - Adobe Commerce löst während des Upgrades auf B2B 1.2.0 in einer Bereitstellung für mehrere Websites eine Ausnahme aus. Beim Ausführen von `setup:upgrade` tritt dieser Fehler im `PurchaseOrder` Modul auf: `Module Magento_PurchaseOrder: Unable to apply data patch Magento\PurchaseOrder\Setup\Patch\Data\InitPurchaseOrderSalesSequence for moduleMagento_PurchaseOrder`. **Problemumgehung**: Installieren Sie die `B2B-716 Add NonTransactionableInterface`-Schnittstelle zum `InitPurchaseOrderSalesSequence`-Daten-Patch-Hotfix, der jetzt im Abschnitt **Mein Konto** > **Downloads** des `magento.com` verfügbar ist.
 - Wenn ein Rabattcode abläuft, bevor eine Bestellung genehmigt wurde, zeigt die Bestellung weiterhin den reduzierten Betrag an. Nach der Genehmigung der Bestellung wird die Bestellung jedoch zum nicht reduzierten Gesamtbetrag aufgegeben. **Problemumgehung**: Installieren Sie den `B2B-709 Purchase Order Discount patch` Hotfix für dieses Problem, der jetzt im Abschnitt **Mein Konto** > **Downloads** von `magento.com` verfügbar ist.
 - Wenn Artikel in einer Bestellung nicht vorrätig sind oder die Menge nicht ausreicht, wenn die Bestellung in eine tatsächliche Bestellung umgewandelt wird, tritt ein Fehler auf. Wenn Nachbestellungen aktiviert sind, wird die Bestellung normal verarbeitet.
+
+<!-- Last updated from includes: 2026-10-09 17:06:14 -->

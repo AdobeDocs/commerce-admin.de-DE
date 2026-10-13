@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '2804'
 ht-degree: 0%
@@ -441,3 +441,5 @@ Die folgenden Spalten sind verfügbar, indem Sie das [Spalten-Layout](../getting
 | [!UICONTROL Payment Methods] | (Nur Admin) Wird aktiv, wenn bestimmte Zahlungsmethoden angegeben sind. Um mehrere Zahlungsmethoden auszuwählen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und klicken Sie auf die einzelnen Optionen. |
 
 {style="table-layout:auto"}
+
+<!-- Last updated from includes: 2026-09-22 10:00:25 -->

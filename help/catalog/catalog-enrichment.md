@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 68a48c6de1c76eca5b4cee4442e8793fb4bd29ee
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2429'
 ht-degree: 0%
 ---
 # Kataloganreicherung
@@ -50,7 +50,7 @@ Die Kataloganreicherung ist eine native [!DNL Adobe Commerce]-Funktion, mit der 
 
 >[!NOTE]
 >
->Die Anreicherung von Katalogen basiert auf [!DNL Commerce Catalog Agent] und [!DNL Adobe LLM Optimizer] hinter den Kulissen. Sie verwenden die Anreicherung im Rahmen Ihres Commerce-Katalog-Workflows. Sie verwalten keine separate LLM Optimizer-Integration, um genehmigte Name- und Beschreibungsaktualisierungen anzuwenden. Eine umfassendere LLM-Überwachung und -Optimierung außerhalb von Commerce finden Sie in der [LLM Optimizer-Produktdokumentation](https://experienceleague.adobe.com/de/docs/brand-visibility/using/home).
+>Die Anreicherung von Katalogen basiert auf [!DNL Commerce Catalog Agent] und [!DNL Adobe Brand Visibility] hinter den Kulissen. Sie verwenden die Anreicherung im Rahmen Ihres Commerce-Katalog-Workflows. Sie verwalten keine separate Adobe Brand Visibility-Integration, um genehmigte Name- und Beschreibungsaktualisierungen anzuwenden. Eine umfassendere LLM-Überwachung und -Optimierung außerhalb von Commerce finden Sie unter [[!DNL Adobe Brand Visibility] Produktdokumentation](https://experienceleague.adobe.com/de/docs/brand-visibility/using/home).
 
 ## Funktionsweise {#how-it-works}
 
@@ -81,13 +81,25 @@ Die folgenden Voraussetzungen gelten, wenn Sie Zugriff auf die Kataloganreicheru
 
 - Ihre Storefront kann durch LLM-orientierte und agentische Bots crawlen werden, bei denen eine crawlen Abdeckung für katalogorientierte Vorschläge erforderlich ist.
 - Die erforderlichen Commerce-Services und die Katalogkonnektivität sind aktiviert und funktionieren ordnungsgemäß. Weitere Informationen [&#x200B; Sie unter &#x200B;](#enable-catalog-enrichment) der Kataloganreicherung aktivieren .
-- [IMS ist konfiguriert](https://experienceleague.adobe.com/de/docs/core-services/interface/administration/organizations).
+- Der Commerce-Admin-Benutzer, der über Adobe IMS auf die Anmeldungen zur Kataloganreicherung zugreift. Siehe [IMS-Anmeldung und Organisationsanforderungen](#ims-sign-in-requirements).
 - Sie haben Zugriff auf die [Adobe Admin Console](https://helpx.adobe.com/de/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Ihre Organisation hat den GenAI-Fahrer für die zugrunde liegenden KI-Services unterzeichnet oder sich ausdrücklich dagegen entschieden.
 
 >[!NOTE]
 >
 >Im Rahmen der Einrichtung überprüft Commerce, ob Ihr Unternehmen den GenAI-Treiber unterzeichnet hat, der die KI-Services hinter der Kataloganreicherung abdeckt. Wenn Sie den Fahrer noch nicht angemeldet oder sich abgemeldet haben, werden Sie aufgefordert, den Fahrer zu signieren oder zu aktualisieren, bevor Sie die Kataloganreicherung verwenden können.
+
+### Anforderungen an die IMS-Anmeldung und Organisation {#ims-sign-in-requirements}
+
+Die Kataloganreicherung verwendet das Adobe IMS-Zugriffstoken des angemeldeten Commerce-Admin-Benutzers, um eine Verbindung zu [!DNL Adobe Brand Visibility] herzustellen. Eine native Commerce-Admin-Anmeldung mit nur einem Commerce-Benutzernamen und -Kennwort erzeugt dieses Token nicht. Daher muss sich der Admin-Benutzer, der auf die Kataloganreicherung zugreift, über Adobe IMS anmelden.
+
+Um die IMS-Anmeldung zu unterstützen, muss für Ihre Commerce-Instanz die Commerce Admin-Integration mit Adobe ID aktiviert sein. Siehe [Konfigurieren der Commerce Admin-Integration mit Adobe ID](/help/getting-started/adobe-ims-config.md).
+
+>[!IMPORTANT]
+>
+>Die Aktivierung der Commerce Admin-Integration mit Adobe ID ist eine instanzweite Änderung. Nach der Aktivierung muss sich jeder Admin-Benutzer über Adobe IMS authentifizieren, und die native Anmeldung mit Benutzername und Kennwort bei Commerce ist nicht mehr verfügbar. Lesen Sie [Übersicht über die Adobe Identity Management Service (IMS)-Integration](/help/getting-started/adobe-ims-integration-overview.md) bevor Sie diese Integration aktivieren.
+
+Die Adobe IMS-Organisation, die Ihrer Commerce-Instanz zugeordnet ist, unterscheidet sich in der Regel von der IMS-Organisation, die Ihre [!DNL Adobe Brand Visibility] innehat. Die Aktivierung der Commerce Admin-Integration mit Adobe ID gewährt allein keinen Zugriff auf die Markensichtbarkeit-Berechtigung, und die beiden Organisationen müssen nicht identisch sein. Arbeiten Sie mit Ihrem Adobe-Administrator oder Account-Team zusammen, um zu bestätigen, welche IMS-Organisationsmitgliedschaften und Kontozugriffskatalog-Anreicherung in Ihrem Setup erforderlich sind.
 
 ## Kataloganreicherung aktivieren {#enable-catalog-enrichment}
 
@@ -112,16 +124,18 @@ Nach der Installation der Erweiterungen Catalog Enrichment und Catalog Services 
 
 ![Kataloganreicherung](./assets/catalog-enrichment-menu.png){zoomable="yes"}
 
-### Konfigurieren der Kataloganreicherung
+### Konfigurieren der Kataloganreicherung {#configure-catalog-enrichment}
 
 Konfigurieren Sie die Kataloganreicherung auf der Registerkarte **[!UICONTROL Settings]** , damit [!DNL Commerce Catalog Agent] eine Verbindung zu Ihrer [!DNL Adobe Commerce]-Umgebung herstellen und Vorschläge in Commerce Admin einblenden können.
+
+Die Felder auf dieser Registerkarte identifizieren die Commerce-Umgebung und die Store-Ansicht, mit der sich die Kataloganreicherung verbindet. Sie sind nicht mit der Adobe IMS-Organisation identisch, die Ihre [!DNL Adobe Brand Visibility]-Berechtigung besitzt. Siehe [IMS-Anmeldung und Organisationsanforderungen](#ims-sign-in-requirements).
 
 1. Navigieren Sie in der Admin-Liste zu **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
 1. Wählen Sie in der **[!UICONTROL Scope]** oben auf der Seite die Store-Ansicht aus, die Sie konfigurieren möchten, oder lassen Sie **[!UICONTROL All Store Views]**, um die Einstellungen in allen Store-Ansichten zu verwalten.
 1. Öffnen Sie die Registerkarte **[!UICONTROL Settings]** .
 1. Erweitern Sie in **[!UICONTROL Commerce Configuration]** das Ansichtsfeld Store mit der Bezeichnung und der URL.
 
-   Geben Sie Details zur [!DNL Adobe Commerce] an, um den Katalog-LLM Optimizer-Service und Audit-Workflows zu aktivieren.
+   Geben Sie Details zur [!DNL Adobe Commerce] an, um den Katalog-Adobe Brand Visibility-Service und Audit-Workflows zu aktivieren.
 
    ![Commerce-Konfiguration auf der Registerkarte „Kataloganreicherungseinstellungen“](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 

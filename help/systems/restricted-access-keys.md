@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15f1e2ee152fb047443da68dec2cc69551e6c7a0
+source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 0%
@@ -128,3 +128,5 @@ Um den Standardablaufzeitraum für neu erstellte Schlüssel zu ändern, gehen Si
 > - [Services > ACO-Katalogansicht](../configuration-reference/services/aco-catalog-view.md) — Konfigurieren der Lebensdauer des Zugriffs-Tokens für die Storefront und Aktivieren oder Deaktivieren der Ausgabe
 > - [Verwalten von eingeschränkten Zugriffsschlüsseln](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/restricted-access-keys){target="_blank"} im *Adobe Commerce Optimizer Connector-Handbuch* — Erfahren Sie, wie diese Schlüssel in die Synchronisierung des B2B-freigegebenen Katalogs passen
 > - [Eingeschränkte Zugriffsschlüssel](https://experienceleague.adobe.com/de/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} im *Adobe Commerce Optimizer-Handbuch* - Der manuelle, ACO Studio-basierte Schlüsselfluss für Nicht-B2B-Anwendungsfälle
+
+<!-- Last updated from includes: 2026-10-01 08:33:41 -->
