@@ -3,11 +3,9 @@ title: Lager - Quellen und Mengen zuordnen
 description: Wiederverwendeter Abschnitt zum Zuweisen von Quellen und Mengen beim Erstellen von Katalogprodukten.
 source-git-commit: f36925217230e558043078fdc274f5e69c096c1e
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 # Lager - Quellen und Mengen zuordnen
 
 Für Händler, die mehrere Quellen verwenden und [[!DNL Inventory Management]](../inventory-management/introduction.md) verwenden, scrollen Sie nach unten zum Abschnitt **Quellen** und weisen Sie Quellen und Mengen zu:
