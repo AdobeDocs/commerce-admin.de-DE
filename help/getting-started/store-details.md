@@ -46,7 +46,7 @@ Zu den grundlegenden Informationen für Ihren Store gehören der Name und die Ad
 
 ## [!UICONTROL Store Information]
 
-Der Abschnitt _[!UICONTROL Store Information]_enthält die grundlegenden Informationen, die auf den Verkaufsbelegen und in anderen Mitteilungen angezeigt werden.
+Der Abschnitt _[!UICONTROL Store Information]_&#x200B;enthält die grundlegenden Informationen, die auf den Verkaufsbelegen und in anderen Mitteilungen angezeigt werden.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -219,7 +219,7 @@ Weitere Informationen zu den Konfigurationsoptionen für Zahlungsmethoden finden
 
 ## Währung
 
-Währung einrichten - Definiert die [ (Währung](../stores-purchase/currency-configuration.md) und alle zusätzlichen Währungen, die als Zahlung akzeptiert werden. Richtet außerdem die Importverbindung und den Zeitplan ein, mit denen die Wechselkurse automatisch aktualisiert werden.
+Währung einrichten - Definiert die [&#x200B; (Währung](../stores-purchase/currency-configuration.md) und alle zusätzlichen Währungen, die als Zahlung akzeptiert werden. Richtet außerdem die Importverbindung und den Zeitplan ein, mit denen die Wechselkurse automatisch aktualisiert werden.
 
 Währungssymbole - Definiert die [Währungssymbole](../stores-purchase/currency-configuration.md#step-5-customize-currency-symbols-optional) die in Produktpreisen und Verkaufsdokumenten wie Bestellungen und Rechnungen angezeigt werden. [!DNL Commerce] unterstützt Währungen aus über 200 Ländern weltweit.
 
@@ -357,7 +357,7 @@ Die Luma-Beispieldaten enthalten einen _Kontaktieren Sie uns Info_-Block, der f�
    >
    >Wenn Sie [[!DNL Page Builder] deaktiviert](../page-builder/setup.md#disable-dnl-page-builder) haben, können Sie den Text mit dem Editor [Symbolleiste](../content-design/editor.md) formatieren und [Bilder](../content-design/editor-insert-image.md) und [Links](../content-design/editor-insert-link.md).
 
-1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![ ( ](../page-builder/assets/pb-icon-settings.png) ) aus.
+1. Bewegen Sie den Mauszeiger über den HTML-Container, um die Toolbox anzuzeigen, und wählen _das Symbol_ Einstellungen![&#x200B; ( &#x200B;](../page-builder/assets/pb-icon-settings.png) ) aus.
 
 1. Bearbeiten Sie den HTML-Code entsprechend den Kontaktinformationen für Ihren Store und klicken Sie auf **[!UICONTROL Save]**.
 
