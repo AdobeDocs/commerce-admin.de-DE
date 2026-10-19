@@ -3,7 +3,8 @@ title: Kataloganreicherung
 description: Verwenden Sie die native Kataloganreicherungsfunktion in Adobe Commerce, um die von KI vorgeschlagenen Verbesserungen der Produktnamen und langen Beschreibungen für LLM und die KI-unterstützte Erkennung zu überprüfen und anzuwenden.
 role: Admin, User, Leader
 recommendations: noCatalog
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+touch: true
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -39,7 +40,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 68a48c6de1c76eca5b4cee4442e8793fb4bd29ee
+source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 0%
@@ -50,7 +51,7 @@ Die Kataloganreicherung ist eine native [!DNL Adobe Commerce]-Funktion, mit der 
 
 >[!NOTE]
 >
->Die Anreicherung von Katalogen basiert auf [!DNL Commerce Catalog Agent] und [!DNL Adobe Brand Visibility] hinter den Kulissen. Sie verwenden die Anreicherung im Rahmen Ihres Commerce-Katalog-Workflows. Sie verwalten keine separate Adobe Brand Visibility-Integration, um genehmigte Name- und Beschreibungsaktualisierungen anzuwenden. Eine umfassendere LLM-Überwachung und -Optimierung außerhalb von Commerce finden Sie unter [[!DNL Adobe Brand Visibility] Produktdokumentation](https://experienceleague.adobe.com/de/docs/brand-visibility/using/home).
+>Die Anreicherung von Katalogen basiert auf [!DNL Commerce Catalog Agent] und [!DNL Adobe Brand Visibility] hinter den Kulissen. Sie verwenden die Anreicherung im Rahmen Ihres Commerce-Katalog-Workflows. Sie verwalten keine separate Adobe Brand Visibility-Integration, um genehmigte Name- und Beschreibungsaktualisierungen anzuwenden. Eine umfassendere LLM-Überwachung und -Optimierung außerhalb von Commerce finden Sie unter [[!DNL Adobe Brand Visibility] Produktdokumentation](https://experienceleague.adobe.com/en/docs/brand-visibility/using/home).
 
 ## Funktionsweise {#how-it-works}
 
@@ -80,9 +81,9 @@ Da Produktnamen und lange Beschreibungen in Commerce live sind, kann die einmali
 Die folgenden Voraussetzungen gelten, wenn Sie Zugriff auf die Kataloganreicherung haben.
 
 - Ihre Storefront kann durch LLM-orientierte und agentische Bots crawlen werden, bei denen eine crawlen Abdeckung für katalogorientierte Vorschläge erforderlich ist.
-- Die erforderlichen Commerce-Services und die Katalogkonnektivität sind aktiviert und funktionieren ordnungsgemäß. Weitere Informationen [&#x200B; Sie unter &#x200B;](#enable-catalog-enrichment) der Kataloganreicherung aktivieren .
+- Die erforderlichen Commerce-Services und die Katalogkonnektivität sind aktiviert und funktionieren ordnungsgemäß. Weitere Informationen [ Sie unter ](#enable-catalog-enrichment) der Kataloganreicherung aktivieren .
 - Der Commerce-Admin-Benutzer, der über Adobe IMS auf die Anmeldungen zur Kataloganreicherung zugreift. Siehe [IMS-Anmeldung und Organisationsanforderungen](#ims-sign-in-requirements).
-- Sie haben Zugriff auf die [Adobe Admin Console](https://helpx.adobe.com/de/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+- Sie haben Zugriff auf die [Adobe Admin Console](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 - Ihre Organisation hat den GenAI-Fahrer für die zugrunde liegenden KI-Services unterzeichnet oder sich ausdrücklich dagegen entschieden.
 
 >[!NOTE]
@@ -114,7 +115,7 @@ Arbeiten Sie mit Ihrem Commerce-Administrator oder Implementierungspartner zusam
    composer update magento/module-catalog-enrichment
    ```
 
-1. Wenn Sie noch keine Katalog-Services installiert haben, [&#x200B; Sie (](https://experienceleague.adobe.com/de/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)).
+1. Wenn Sie noch keine Katalog-Services installiert haben, [ Sie (](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)).
 
    **[!UICONTROL Catalog enrichment]** ist jetzt in Ihrer Commerce-Instanz verfügbar.
 
