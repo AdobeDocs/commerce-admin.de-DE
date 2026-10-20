@@ -305,7 +305,7 @@ Die für die Bestellung verwendete Zahlungsmethode bestimmt die Rückerstattungs
 
 ## Gutschrift drucken
 
-Zum Drucken oder Anzeigen der ausgefüllten Gutschrift muss ein PDF-Lesegerät installiert sein. Sie können [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader abrufen") kostenlos herunterladen.
+Zum Drucken oder Anzeigen der ausgefüllten Gutschrift muss ein PDF-Lesegerät installiert sein. Sie können [Adobe Reader](https://www.adobe.com/de/acrobat/pdf-reader.html "Adobe Reader abrufen") kostenlos herunterladen.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Credit Memos]**.
 
