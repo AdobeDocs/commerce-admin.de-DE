@@ -58,7 +58,7 @@ Wenn Sie noch keine Domain haben, enthält Ihre Store-URL eine Reihe von vier Za
 >
 >Rufen Sie für Adobe Commerce as a Cloud Service Ihre Admin-Links von Commerce Cloud Manager ab. Siehe [Auswählen einer Admin-](admin-unified-experience.md#classic-ui)) für Zugriffsoptionen und URL-Formate. Die folgenden installationsbasierten URL-Beispiele gelten nicht für Adobe Commerce as a Cloud Service.
 
-Die Adresse für Ihren [ (](admin.md)) wird während der Installation eingerichtet. Die Standardadresse entspricht der Ihres Geschäfts, am Ende steht jedoch `/admin`. Obwohl in den Beispielen in diesem Handbuch das Standardverzeichnis verwendet wird, empfiehlt es sich, Ihre Admin von einem für Ihren Store eindeutigen Speicherort aus auszuführen.
+Die Adresse für Ihren [&#x200B; (](admin.md)) wird während der Installation eingerichtet. Die Standardadresse entspricht der Ihres Geschäfts, am Ende steht jedoch `/admin`. Obwohl in den Beispielen in diesem Handbuch das Standardverzeichnis verwendet wird, empfiehlt es sich, Ihre Admin von einem für Ihren Store eindeutigen Speicherort aus auszuführen.
 
 - `http://mydomain.com/admin`
 - `http://www.mydomain.com/admin`

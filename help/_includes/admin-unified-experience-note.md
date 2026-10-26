@@ -10,4 +10,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Der Commerce-Administrator in Adobe Commerce as a Cloud Service verwendet Adobe Unified Experience mit freigegebener Adobe-Navigation am oberen Bildschirmrand und aktualisierter Commerce-Linksnavigation. Detaillierte Informationen finden Sie unter [Commerce-Admin ](/help/getting-started/admin-unified-experience.md) Adobe Unified Experience. Die Bildschirmaufnahmen auf dieser Seite zeigen die klassische Commerce-Admin-Oberfläche, die von Adobe Commerce in Cloud-Infrastrukturen und lokalen Bereitstellungen verwendet wird.
+>Der Commerce-Administrator in Adobe Commerce as a Cloud Service verwendet Adobe Unified Experience mit freigegebener Adobe-Navigation am oberen Bildschirmrand und aktualisierter Commerce-Linksnavigation. Detaillierte Informationen finden Sie unter [Commerce-Admin &#x200B;](/help/getting-started/admin-unified-experience.md) Adobe Unified Experience. Die Bildschirmaufnahmen auf dieser Seite zeigen die klassische Commerce-Admin-Oberfläche, die von Adobe Commerce in Cloud-Infrastrukturen und lokalen Bereitstellungen verwendet wird.
