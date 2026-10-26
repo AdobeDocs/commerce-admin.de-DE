@@ -5,26 +5,35 @@ exl-id: 61cc53ab-e1c5-4349-b306-a15eb7c5ab57
 TQID: https://experienceleague.adobe.com/RGT21TI5joLEYx3fiOErU5ZoIrXsq0nqZpnI8c40hz4
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
 feature_v2:
   - id: c1256247-af4b-46d8-9dca-0c654ecfa157
+    internal-label: Order Management System
   - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b9626700040bdf9de5aa9a987dec28a08243a9e1
+    internal-label: Administration
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: '528'
 ht-degree: 0%
-
 ---
-
 # Die Admin-Tools und der Arbeitsbereich
+
+{{$include /help/_includes/admin-unified-experience-note.md}}
 
 Der Admin-Arbeitsbereich bietet Zugriff auf alle Tools, Daten und Inhalte, die zum Ausführen Ihres Stores verwendet werden. Die standardmäßige Startseite kann in der Konfiguration festgelegt werden. Viele Admin-Seiten verfügen über ein Raster, das die Daten für den Abschnitt auflistet, mit einer Reihe von Tools zum Suchen, Sortieren, Filtern, Auswählen und Anwenden von Aktionen. Standardmäßig ist das [Dashboard](admin-dashboard.md) die Startseite für den Administrator. Sie können jedoch bei der Anmeldung eine beliebige andere Seite auswählen, die als Startseite angezeigt werden soll. Sie können auf das Logo in der Admin-Seitenleiste klicken, um zur Admin-Startseite zurückzukehren.
 
@@ -63,7 +72,7 @@ Um einen Datensatz in der Datenbank zu finden, verwenden Sie das Lupensymbol in 
 
 ## Ändern der Admin-Startseite
 
-Das [Dashboard](admin-workspace.md#the-dashboard) ist die standardmäßige Startseite für Admins, obwohl Sie eine andere Startseite konfigurieren können.
+Das Dashboard ist die standardmäßige Startseite für Admins. Sie können jedoch eine andere Startseite konfigurieren.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 

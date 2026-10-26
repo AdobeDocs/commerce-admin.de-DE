@@ -1,19 +1,17 @@
 ---
 user-guide-title: Erste Schritte für Adobe Commerce-Admins
-user-guide-description: Wenn Sie Adobe Commerce- oder Magento Open Source-Admin noch nicht kennen, entdecken Sie Ressourcen des - [!DNL Commerce] , folgen Sie der Kunden-Journey, um Ihren Store zu erkunden, und erfahren Sie mehr über die wichtigsten Admin-Funktionen.
+user-guide-description: Wenn Sie Adobe Commerce- oder Magento Open Source-Admin noch nicht kennen, entdecken Sie Ressourcen des [!DNL Commerce]-Ökosystems, folgen Sie der Kunden-Journey, um Ihren Store zu erkunden, und erfahren Sie mehr über die wichtigsten Admin-Funktionen.
 breadcrumb-title: Erste Schritte
 role: Admin, Leader, User
 feature: Admin Workspace
 recommendations: noDisplay
 nudge: true
 color: red
-source-git-commit: 2013d287b934dd4f3dfa0a688b131abb7b946f7b
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 0%
-
 ---
-
 
 # Erste Schritte für Adobe Commerce-Admins {#start}
 
@@ -40,6 +38,7 @@ ht-degree: 0%
   + [Barrierefreiheit](navigation-accessibility.md)
 + Der Administrator {#admin}
   + [Was ist der Administrator?](admin.md)
+  + [Unified Experience Admin](admin-unified-experience.md)
   + [Ihr Admin-Benutzerkonto](admin-signin.md)
   + Integration von Adobe Identity Management Service (IMS) {#ims}
     + [Übersicht über die IMS-Integration](adobe-ims-integration-overview.md)
@@ -73,4 +72,4 @@ ht-degree: 0%
   + [Ökosystem](resources.md)
   + [Erweiterungen](extensions.md)
   + [[!DNL Commerce Marketplace]](commerce-marketplace.md)
-+ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/de/docs/commerce-admin/user-guides/home)
++ [Zurück zu Admin-Benutzerhandbüchern](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

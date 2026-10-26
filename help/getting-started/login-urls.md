@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '416'
 ht-degree: 0%
 ---
 # Anmeldedaten und URLs
@@ -54,7 +54,11 @@ Wenn Sie noch keine Domain haben, enthält Ihre Store-URL eine Reihe von vier Za
 
 ## Admin-URL
 
-Die Adresse für Ihren [&#x200B; (](admin.md)) wird während der Installation eingerichtet. Die Standardadresse entspricht der Ihres Geschäfts, am Ende steht jedoch `/admin`. Obwohl in den Beispielen in diesem Handbuch das Standardverzeichnis verwendet wird, empfiehlt es sich, Ihre Admin von einem für Ihren Store eindeutigen Speicherort aus auszuführen.
+>[!NOTE]
+>
+>Rufen Sie für Adobe Commerce as a Cloud Service Ihre Admin-Links von Commerce Cloud Manager ab. Siehe [Auswählen einer Admin-](admin-unified-experience.md#classic-ui)) für Zugriffsoptionen und URL-Formate. Die folgenden installationsbasierten URL-Beispiele gelten nicht für Adobe Commerce as a Cloud Service.
+
+Die Adresse für Ihren [ (](admin.md)) wird während der Installation eingerichtet. Die Standardadresse entspricht der Ihres Geschäfts, am Ende steht jedoch `/admin`. Obwohl in den Beispielen in diesem Handbuch das Standardverzeichnis verwendet wird, empfiehlt es sich, Ihre Admin von einem für Ihren Store eindeutigen Speicherort aus auszuführen.
 
 - `http://mydomain.com/admin`
 - `http://www.mydomain.com/admin`
@@ -69,6 +73,6 @@ Richten Sie während Ihrer Lernphase im Laden unbedingt einen Test ([-Konto) ein
 
 ## Beispieldaten
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
-Adobe bietet einen Beispieldatensatz mit einem Beispielspeicher mit mehr als 250 Produkten (etwa 200 davon sind konfigurierbare Produkte), Kategorien, Preisregeln für Werbeaktionen, CMS-Seiten, Bannern usw. Beispieldaten verwenden das _Luma_-Design in der Storefront. [Die Installation dieser Beispieldaten](https://experienceleague.adobe.com/de/docs/commerce-operations/installation-guide/next-steps/sample-data/overview) ist optional, kann aber beim Testen und Entwickeln von Anpassungen für Ihr E-Commerce-Unternehmen hilfreich sein.
+Adobe bietet einen Beispieldatensatz mit einem Beispielspeicher mit mehr als 250 Produkten (etwa 200 davon sind konfigurierbare Produkte), Kategorien, Preisregeln für Werbeaktionen, CMS-Seiten, Bannern usw. Beispieldaten verwenden das _Luma_-Design in der Storefront. [Die Installation dieser Beispieldaten](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/sample-data/overview) ist optional, kann aber beim Testen und Entwickeln von Anpassungen für Ihr E-Commerce-Unternehmen hilfreich sein.
