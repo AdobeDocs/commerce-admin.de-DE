@@ -86,7 +86,7 @@ Wenn der Status neuer Bestellungen auf `Processing` gesetzt ist, wird die Option
 >
 >Rechnungen werden für Bestellungen, die über `Gift Card`, `Store Credit`, `Reward Points` oder andere Offline-Zahlungsmethoden aufgegeben werden, nicht automatisch erstellt.
 
-Bevor die Bestellung gedruckt werden kann, muss eine Rechnung für die Bestellung generiert werden. Um die PDF anzuzeigen oder zu drucken, laden Sie zunächst einen PDF-Reader wie [Adobe Acrobat Reader herunter und installieren Sie ihn](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader abrufen").
+Bevor die Bestellung gedruckt werden kann, muss eine Rechnung für die Bestellung generiert werden. Um die PDF anzuzeigen oder zu drucken, laden Sie zunächst einen PDF-Reader wie [Adobe Acrobat Reader herunter und installieren Sie ihn](https://www.adobe.com/de/acrobat/pdf-reader.html "Adobe Reader abrufen").
 
 **_So fakturieren Sie eine Bestellung:_**
 
@@ -154,7 +154,7 @@ Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor jedoch eine Re
 
 >[!NOTE]
 >
->Zum Anzeigen oder Drucken der PDF benötigen Sie ein PDF-Lesegerät. Sie können [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader abrufen") kostenlos herunterladen.
+>Zum Anzeigen oder Drucken der PDF benötigen Sie ein PDF-Lesegerät. Sie können [Adobe Reader](https://www.adobe.com/de/acrobat/pdf-reader.html "Adobe Reader abrufen") kostenlos herunterladen.
 
 ### Eine einzelne Rechnung drucken
 
@@ -180,7 +180,7 @@ Die Rechnungen werden in einer einzigen PDF-Datei gespeichert, die an einen Druc
 
 ## Benutzerdefinierte Erfassungsbeträge
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 Um Händlern größere Flexibilität bei Teilerfassungen und speziellen Zahlungsszenarien zu bieten, unterstützt die Rechnung-API benutzerdefinierte Erfassungsbeträge mithilfe von Erweiterungsattributen.
 
