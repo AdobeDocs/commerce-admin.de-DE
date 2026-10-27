@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 1%
@@ -38,7 +38,7 @@ DHL bietet integrierte internationale Dienstleistungen und maßgeschneiderte, ku
 
 ## Schritt 1: DHL aktivieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Delivery Methods]**.
 
@@ -124,7 +124,7 @@ Wenn Sie die DHL-XML-API verwenden, müssen Sie die folgenden Anmeldeinformation
 
    Zur Auswahl mehrerer Methoden halten Sie die Strg-Taste (PC) bzw. die Befehlstaste (Mac) gedrückt und klicken auf die einzelnen Optionen.
 
-   Um die richtige Liste der Versandmethoden anzuzeigen, müssen Sie zunächst das [Ursprungsland“ &#x200B;](../configuration-reference/sales/shipping-settings.md).
+   Um die richtige Liste der Versandmethoden anzuzeigen, müssen Sie zunächst das [Ursprungsland“ ](../configuration-reference/sales/shipping-settings.md).
 
 1. Geben Sie **[!UICONTROL Ready Time]** die Anzahl der Stunden nach dem Einreichen einer Bestellung ein, zu der ein Paket versandbereit ist.
 

@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Wenn Kunden ihre Passwörter vergessen haben, wird ein Link zum Zurücksetzen an
 
 Sie können den Store so konfigurieren, dass Kunden nach der Anmeldung zu ihrem Konto-Dashboard weitergeleitet werden, oder ihnen ermöglichen, ihren Einkauf fortzusetzen.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Customer Configuration]**.
 
@@ -110,7 +110,7 @@ Bei Stores mit konfigurierter [!DNL Amazon Pay]- und [!DNL Login with Amazon] k�
 
 ## Abmelden von einem Kundenkonto
 
-1. Der Kunde klickt in der oberen rechten Ecke neben _[!UICONTROL Welcome, Customer Name!]_&#x200B;auf die **[!UICONTROL v]**.
+1. Der Kunde klickt in der oberen rechten Ecke neben _[!UICONTROL Welcome, Customer Name!]_auf die **[!UICONTROL v]**.
 
 1. Wählen Sie **[!UICONTROL Sign Out]**.
 

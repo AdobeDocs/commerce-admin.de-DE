@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -40,13 +40,13 @@ _Sofortiger Kauf_ ermöglicht es Kunden, den Checkout-Prozess mithilfe von Infor
 
 ## Kundenanforderungen
 
-- Der Kunde [&#x200B; bei &#x200B;](../customers/customer-sign-in.md) Konto angemeldet.
+- Der Kunde [ bei ](../customers/customer-sign-in.md) Konto angemeldet.
 
 - Das Kundenkonto hat eine [Standard-Rechnungs- und Lieferadresse](../customers/account-dashboard-address-book.md).
 
 - Mindestens eine [Versandmethode](delivery.md) ist für das Land verfügbar, das in der Standard-Versandadresse angegeben ist.
 
-- Für das Kundenkonto ist eine [gespeicherte &#x200B;](../stores-purchase/stored-payment-methods.md)&quot; mit aktiviertem Tresor verfügbar.
+- Für das Kundenkonto ist eine [gespeicherte ](../stores-purchase/stored-payment-methods.md)&quot; mit aktiviertem Tresor verfügbar.
 
   Die folgenden Zahlungsmethoden können verwendet werden, um einen sicheren Zugriff auf gespeicherte Kreditkarteninformationen zu ermöglichen:
 
@@ -70,7 +70,7 @@ _Sofortiger Kauf_ ermöglicht es Kunden, den Checkout-Prozess mithilfe von Infor
 
 ### Schritt 1: Konfigurationsseite öffnen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 ### Schritt 2: Konfigurieren des Tresors für die Zahlungsmethode
 
@@ -79,11 +79,11 @@ Sie können Instant Purchase mit Braintree oder Payment Services für Adobe Comm
 Erfahren Sie, wie Sie die Zahlungsmethode konfigurieren und Vaulting für Braintree oder Payment Services aktivieren:
 
 - [Braintree](braintree.md)
-- [Dokumentation zu Zahlungs-Services](https://experienceleague.adobe.com/de/docs/commerce/payment-services/guide-overview)
+- [Dokumentation zu Zahlungs-Services](https://experienceleague.adobe.com/en/docs/commerce/payment-services/guide-overview)
 
 ### Schritt 3: Sofortigen Kauf aktivieren
 
-1. Wählen Sie im linken Bedienfeld unter dem Abschnitt _[!UICONTROL Sales]_&#x200B;die Option **[!UICONTROL Sales]**&#x200B;aus.
+1. Wählen Sie im linken Bedienfeld unter dem Abschnitt _[!UICONTROL Sales]_die Option **[!UICONTROL Sales]**aus.
 
 1. Erweitern Sie ![Erweiterungsauswahl](../assets/icon-display-expand.png) den Abschnitt **[!UICONTROL Instant Purchase]** .
 

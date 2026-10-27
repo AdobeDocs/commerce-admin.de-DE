@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Die Rückgabeattribute werden verwendet, um Informationen zu speichern, die wäh
 
 ## Erstellen eines Rückgabeattributs
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Returns]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Returns]**.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New Attribute]**.
 
@@ -87,7 +87,7 @@ Die Rückgabeattribute werden verwendet, um Informationen zu speichern, die wäh
    - `Strip HTML Tags`
    - `Escape  HTML Entities`
 
-1. Um das Attribut für Kunden sichtbar zu machen, legen Sie im Abschnitt _[!UICONTROL Storefront Properties]_&#x200B;den Wert **[!UICONTROL Show on Storefront]**&#x200B;auf `Yes` fest.
+1. Um das Attribut für Kunden sichtbar zu machen, legen Sie im Abschnitt _[!UICONTROL Storefront Properties]_den Wert **[!UICONTROL Show on Storefront]**auf `Yes` fest.
 
 1. (Optional) Geben Sie **[!UICONTROL Sort Order]** eine Zahl ein, um zu bestimmen, wo dieses Attribut relativ zu den anderen im selben Teil der Seite angezeigt wird. (`0` = First, `1` = Second, `2` = Third usw.)
 

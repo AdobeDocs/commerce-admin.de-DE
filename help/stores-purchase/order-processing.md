@@ -38,7 +38,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1838'
 ht-degree: 0%
@@ -67,11 +67,11 @@ Wenn ein Kunde eine Bestellung aufgibt, wird ein Kundenauftrag als temporärer D
 
 ## Bestellung anzeigen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Suchen Sie die Reihenfolge im Raster.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;auf **[!UICONTROL View]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Action]_auf **[!UICONTROL View]**.
 
 1. Bestellstatus überprüfen:
 
@@ -97,7 +97,7 @@ Um eine `Pending` Reihenfolge zu öffnen, klicken Sie oben rechts auf **[!UICONT
 
 >[!NOTE]
 >
->Bestellungen können nur bearbeitet werden, wenn sie sich im Status `Pending` befinden. Die Schaltfläche „Bearbeiten“ ist nicht für Bestellungen mit einem anderen Status oder für Bestellungen sichtbar, die auf einem &quot;[&#x200B; Angebot“ &#x200B;](../b2b/quotes.md).
+>Bestellungen können nur bearbeitet werden, wenn sie sich im Status `Pending` befinden. Die Schaltfläche „Bearbeiten“ ist nicht für Bestellungen mit einem anderen Status oder für Bestellungen sichtbar, die auf einem &quot;[ Angebot“ ](../b2b/quotes.md).
 
 ![Kundenauftrag bearbeiten](./assets/order-pending.png){width="600" zoomable="yes"}
 
@@ -139,7 +139,7 @@ Um eine `Pending` Reihenfolge zu öffnen, klicken Sie oben rechts auf **[!UICONT
 
 Sie können [stornieren](order-update.md) Bestellungen, die noch nicht fakturiert wurden. Eine [Gutschrift](credit-memos.md) muss ausgestellt werden, wenn ein Kunde eine Bestellung stornieren möchte, nachdem sie in Rechnung gestellt wurde (Zahlung wird erfasst).
 
-Wenn eine Bestellung `Pending` oder `Processing` wird und die Zahlung nicht oder nicht vollständig erfasst wird, können Sie [&#x200B; Bestellung stornieren](#void-an-order) anstatt sie zu stornieren.
+Wenn eine Bestellung `Pending` oder `Processing` wird und die Zahlung nicht oder nicht vollständig erfasst wird, können Sie [ Bestellung stornieren](#void-an-order) anstatt sie zu stornieren.
 
 Um eine stornierte Bestellung wiederherzustellen, klicken Sie auf die Schaltfläche **[!UICONTROL Reorder]** und eine neue Bestellung wird mit dem Status `Pending` erstellt.
 
@@ -174,7 +174,7 @@ Nur Kundenaufträge, die nicht fakturiert wurden, den Status `Processing` und di
 | [!UICONTROL Customer Name] | Der Name des Kunden oder Käufers, der die Bestellung aufgegeben hat. Der Kundenname ist mit dem Kundenprofil verknüpft. |
 | [!UICONTROL Email] | Die E-Mail-Adresse des Kunden oder Käufers. Die E-Mail-Adresse ist mit dem Öffnen einer neuen E-Mail-Nachricht verknüpft. |
 | [!UICONTROL Customer Group] | Der Name der Kundengruppe oder des freigegebenen Katalogs, dem der Kunde zugewiesen ist. |
-| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B) Der Name des Unternehmens, mit dem der Käufer verknüpft ist und für das die Bestellung aufgegeben wird. Der Firmenname ist mit dem [Firmenprofil“ &#x200B;](../b2b/account-companies.md). |
+| [!UICONTROL Company Name] | ![Adobe Commerce B2B](../assets/b2b.svg) (verfügbar mit Adobe Commerce B2B) Der Name des Unternehmens, mit dem der Käufer verknüpft ist und für das die Bestellung aufgegeben wird. Der Firmenname ist mit dem [Firmenprofil“ ](../b2b/account-companies.md). |
 
 {style="table-layout:auto"}
 
@@ -202,7 +202,7 @@ Nur Kundenaufträge, die nicht fakturiert wurden, den Status `Processing` und di
 
 ### Benutzerdefinierte Bestellattribute
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 Benutzerdefinierte Bestellattribute ermöglichen es Ihnen, zusätzliche Informationen, die auf Ihre Geschäftsanforderungen zugeschnitten sind, mit der Bestellung zu verknüpfen.
 
@@ -283,4 +283,4 @@ Gehen Sie im Abschnitt **[!UICONTROL Order Total]** wie folgt vor:
 
 Sehen Sie sich dieses Video an, um mehr über die Auftragsverarbeitung und den Status zu erfahren:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411358/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343935/?quality=12&learn=on)

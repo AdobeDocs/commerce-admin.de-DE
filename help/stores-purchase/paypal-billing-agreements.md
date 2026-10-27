@@ -3,7 +3,7 @@ title: PayPal-Abrechnungsvereinbarungen
 description: Erfahren Sie, wie Sie PayPal-Abrechnungsvereinbarungen und eine Zahlungsmethode in Ihrem Geschäft unterstützen können.
 exl-id: b0800b41-816a-4c48-a54d-41ddc1d586ce
 feature: Payments
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: 'https://experienceleague.adobe.com/Tg37Iu-rlC4Bp-PHbXig-QVzlbpRkaCLGHOQ3yrNY9M'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -51,15 +51,15 @@ Um den Checkout-Prozess zu vereinfachen, können Kunden einen Abrechnungsvertrag
 
 ## Abrechnungsvereinbarungen verwalten
 
-Auf der Seite _[!UICONTROL Billing Agreements]_&#x200B;werden alle Abrechnungsvereinbarungen zwischen Ihrem Geschäft und seinen Kunden aufgelistet. Händler können die Datensätze nach dem Kunden oder den Rechnungsvereinbarungsinformationen filtern, einschließlich Rechnungsvereinbarungs-Referenz-ID, Status und Erstellungsdatum. Jeder Datensatz enthält allgemeine Informationen zum Abrechnungsvertrag und zu allen Aufträgen, die ihn als Zahlungsmethode verwendet haben. Sie können Kunden-Abrechnungsvereinbarungen anzeigen, stornieren oder löschen. Eine stornierte Abrechnungsvereinbarung kann nur vom Store-Administrator gelöscht werden.
+Auf der Seite _[!UICONTROL Billing Agreements]_werden alle Abrechnungsvereinbarungen zwischen Ihrem Geschäft und seinen Kunden aufgelistet. Händler können die Datensätze nach dem Kunden oder den Rechnungsvereinbarungsinformationen filtern, einschließlich Rechnungsvereinbarungs-Referenz-ID, Status und Erstellungsdatum. Jeder Datensatz enthält allgemeine Informationen zum Abrechnungsvertrag und zu allen Aufträgen, die ihn als Zahlungsmethode verwendet haben. Sie können Kunden-Abrechnungsvereinbarungen anzeigen, stornieren oder löschen. Eine stornierte Abrechnungsvereinbarung kann nur vom Store-Administrator gelöscht werden.
 
 ### Rechnungsvereinbarung anzeigen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Suchen Sie die Abrechnungsvereinbarung in der Liste und klicken Sie darauf, um sie zu öffnen.
 
-Jede Seite eines Abrechnungsvertrags besteht aus zwei Registerkarten: _[!UICONTROL General Information]_&#x200B;und&#x200B;_[!UICONTROL Related Orders]_.
+Jede Seite eines Abrechnungsvertrags besteht aus zwei Registerkarten: _[!UICONTROL General Information]_und_[!UICONTROL Related Orders]_.
 
 #### Allgemeine Informationen
 
@@ -68,8 +68,8 @@ Diese Registerkarte enthält allgemeine Informationen zum Abrechnungsvertrag:
 - [!UICONTROL Reference ID]: Eine eindeutige numerische Kennung, die der aktuellen Abrechnungsvereinbarung zugewiesen ist.
 - [!UICONTROL Customer]: Konto des Kunden, das dem aktuellen Abrechnungsvertrag zugewiesen ist.
 - [!UICONTROL Status]: Status der Zahlungsvereinbarung.
-- [!UICONTROL Created At]&#x200B;: Erstellungsdatum.
-- [!UICONTROL Updated At]&#x200B;: Aktualisierungsdatum.
+- [!UICONTROL Created At]: Erstellungsdatum.
+- [!UICONTROL Updated At]: Aktualisierungsdatum.
 
 ![Rechnungsvereinbarungsansicht](./assets/billing-agreement-view.png){width="600" zoomable="yes"}
 
@@ -81,7 +81,7 @@ Auf dieser Registerkarte wird die Liste der Bestellungen angezeigt, die unter Ve
 
 ### Abrechnungsvereinbarung stornieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Suchen Sie die Abrechnungsvereinbarung in der Liste und klicken Sie darauf, um sie zu öffnen.
 
@@ -91,7 +91,7 @@ Auf dieser Registerkarte wird die Liste der Bestellungen angezeigt, die unter Ve
 
 ### Löschen einer Abrechnungsvereinbarung
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Suchen Sie die Abrechnungsvereinbarung in der Liste und klicken Sie darauf, um sie zu öffnen.
 

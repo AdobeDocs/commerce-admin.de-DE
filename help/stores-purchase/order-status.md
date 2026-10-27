@@ -27,14 +27,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
 ---
 # Bestellstatus
 
-Alle Bestellungen haben einen Bestellstatus, der mit einem Schritt in der Auftragsverarbeitung (Workflow[&#x200B; verknüpft &#x200B;](order-processing.md).\
+Alle Bestellungen haben einen Bestellstatus, der mit einem Schritt in der Auftragsverarbeitung (Workflow[ verknüpft ](order-processing.md).\
 Der Unterschied zwischen Bestellstatus und Bestellstatus besteht darin, dass **[!UICONTROL order states]** programmgesteuert verwendet werden. Sie sind es nicht
 Sichtbar für Kunden oder Admin-Benutzer. Sie bestimmen den Ablauf eines Auftrags und welche Vorgänge für einen Auftrag möglich sind
 Bestellung in einem bestimmten Zustand.\
@@ -92,7 +92,7 @@ Zusätzlich zu den voreingestellten Bestellstatus-Einstellungen können Sie eige
 
 ### Erstellen eines benutzerdefinierten Bestellstatus
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Order Status]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Order Status]**.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Create New Status]**.
 
@@ -104,7 +104,7 @@ Zusätzlich zu den voreingestellten Bestellstatus-Einstellungen können Sie eige
 
    - Geben Sie **[!UICONTROL Status Label]** einen Titel ein, der die Statuseinstellung sowohl in der Admin- als auch in der Storefront identifiziert.
 
-1. Geben Sie im Abschnitt _[!UICONTROL Store View Specific Labels]_&#x200B;alle Beschriftungen ein, die für verschiedene Store-Ansichten erforderlich sind.
+1. Geben Sie im Abschnitt _[!UICONTROL Store View Specific Labels]_alle Beschriftungen ein, die für verschiedene Store-Ansichten erforderlich sind.
 
 1. Klicken Sie auf **[!UICONTROL Save Status]**.
 
@@ -138,7 +138,7 @@ Zusätzlich zu den voreingestellten Bestellstatus-Einstellungen können Sie eige
 
 ### Bearbeiten eines vorhandenen Bestellstatus
 
-1. Öffnen Sie im _[!UICONTROL Order Status]_&#x200B;den Statusdatensatz im Bearbeitungsmodus.
+1. Öffnen Sie im _[!UICONTROL Order Status]_den Statusdatensatz im Bearbeitungsmodus.
 
 1. Statuseinstellungen nach Bedarf aktualisieren.
 
@@ -150,15 +150,15 @@ Zusätzlich zu den voreingestellten Bestellstatus-Einstellungen können Sie eige
 >
 >Die Zuweisung einer Statuseinstellung zu einem Status kann nicht aufgehoben werden, wenn der Status in Verwendung ist.
 
-1. Suchen Sie im _[!UICONTROL Order Status]_&#x200B;Raster nach dem Datensatz mit dem Bestellstatus, dessen Zuweisung aufgehoben werden soll.
+1. Suchen Sie im _[!UICONTROL Order Status]_Raster nach dem Datensatz mit dem Bestellstatus, dessen Zuweisung aufgehoben werden soll.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Action]_&#x200B;ganz rechts in der Zeile auf den Link **[!UICONTROL Unassign]**.
+1. Klicken Sie in der Spalte _[!UICONTROL Action]_ganz rechts in der Zeile auf den Link **[!UICONTROL Unassign]**.
 
    Oben im Arbeitsbereich wird eine Meldung angezeigt, dass die Zuweisung des Bestellstatus aufgehoben wurde. Obwohl die Beschriftung Bestellstatus weiterhin in der Liste angezeigt wird, ist sie keinem Status mehr zugewiesen. Einstellungen zum Bestellstatus können nicht gelöscht werden.
 
 >[!NOTE]
 >
->Wenn die Zuweisung des Standardbestellungsstatus zum Bestellstatus aufgehoben wird, wird _&#x200B;**ein anderer**&#x200B;_ Bestellstatus _&#x200B;**automatisch festgelegt**&#x200B;_ als Standard für diesen Bestellstatus festgelegt.
+>Wenn die Zuweisung des Standardbestellungsstatus zum Bestellstatus aufgehoben wird, wird _**ein anderer**_ Bestellstatus _**automatisch festgelegt**_ als Standard für diesen Bestellstatus festgelegt.
 
 ## Benachrichtigung
 
@@ -166,7 +166,7 @@ Kunden können den Status ihrer Bestellungen über [RSS-Feed](../merchandising-p
 
 ### Benachrichtigung zum Bestellstatus aktivieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen Sie darunter **[!UICONTROL RSS Feeds]**.
 
@@ -180,7 +180,7 @@ Kunden können den Status ihrer Bestellungen über [RSS-Feed](../merchandising-p
 
 ### Konfigurieren von E-Mail-Benachrichtigungen für neue Bestellungen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie darunter **[!UICONTROL Sales Emails]**.
 

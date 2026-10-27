@@ -34,16 +34,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1206'
 ht-degree: 0%
 ---
 # Rechnungen
 
-Eine Rechnung ist ein Datensatz über die Zahlung für eine Bestellung. Für [&#x200B; Bestellung können mehrere Rechnungen erstellt &#x200B;](#create-an-invoice). Jede Rechnung kann so viele oder so wenige der von Ihnen angegebenen gekauften Produkte enthalten. Sie können auch [druckfertige PDF-Rechnungen](#print-invoices) als Verkaufsdokumente für Ihre Kunden erstellen.
+Eine Rechnung ist ein Datensatz über die Zahlung für eine Bestellung. Für [ Bestellung können mehrere Rechnungen erstellt ](#create-an-invoice). Jede Rechnung kann so viele oder so wenige der von Ihnen angegebenen gekauften Produkte enthalten. Sie können auch [druckfertige PDF-Rechnungen](#print-invoices) als Verkaufsdokumente für Ihre Kunden erstellen.
 
-Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _Vorgänge_ > **Rechnungen**, um das Raster _Rechnungen_ zu öffnen und auf Ihre erstellten Rechnungen zuzugreifen.
+Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Invoices]** , um das Raster _Rechnungen_ zu öffnen und auf Ihre erstellten Rechnungen zuzugreifen.
 
 ![Rechnungsraster](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -86,11 +86,11 @@ Wenn der Status neuer Bestellungen auf `Processing` gesetzt ist, wird die Option
 >
 >Rechnungen werden für Bestellungen, die über `Gift Card`, `Store Credit`, `Reward Points` oder andere Offline-Zahlungsmethoden aufgegeben werden, nicht automatisch erstellt.
 
-Bevor die Bestellung gedruckt werden kann, muss eine Rechnung für die Bestellung generiert werden. Um die PDF anzuzeigen oder zu drucken, laden Sie zunächst einen PDF-Reader wie [Adobe Acrobat Reader herunter und installieren Sie ihn](https://www.adobe.com/de/acrobat/pdf-reader.html "Adobe Reader abrufen").
+Bevor die Bestellung gedruckt werden kann, muss eine Rechnung für die Bestellung generiert werden. Um die PDF anzuzeigen oder zu drucken, laden Sie zunächst einen PDF-Reader wie [Adobe Acrobat Reader herunter und installieren Sie ihn](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader abrufen").
 
 **_So fakturieren Sie eine Bestellung:_**
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Ermitteln Sie den Kundenauftrag mit dem Status `Processing` im Raster. Gehen Sie dann wie folgt vor:
 
@@ -100,7 +100,7 @@ Bevor die Bestellung gedruckt werden kann, muss eine Rechnung für die Bestellun
 
    >[!NOTE]
    >
-   >Die Option _[!UICONTROL Invoice]_&#x200B;wird nicht angezeigt, wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) für Ihre bestimmte [Zahlungsmethode](../configuration-reference/sales/payment-methods.md) auf `Authorize and Capture` festgelegt ist, wodurch automatisch eine Rechnung generiert wird. Dies ist auch der Fall, wenn die Bestellung aufgegeben und die Zahlungsaktion für Ihre Zahlungsmethode auf `Authorize` gesetzt und die Bestellung fakturiert wird.
+   >Die Option _[!UICONTROL Invoice]_wird nicht angezeigt, wenn die [Zahlungsaktion](../configuration-reference/sales/payment-methods.md#payment-actions) für Ihre bestimmte [Zahlungsmethode](../configuration-reference/sales/payment-methods.md) auf `Authorize and Capture` festgelegt ist, wodurch automatisch eine Rechnung generiert wird. Dies ist auch der Fall, wenn die Bestellung aufgegeben und die Zahlungsaktion für Ihre Zahlungsmethode auf `Authorize` gesetzt und die Bestellung fakturiert wird.
 
    ![Rechnung - Kundenauftrag](./assets/invoice-sales-order.png){width="700" zoomable="yes"}
 
@@ -154,13 +154,13 @@ Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor jedoch eine Re
 
 >[!NOTE]
 >
->Zum Anzeigen oder Drucken der PDF benötigen Sie ein PDF-Lesegerät. Sie können [Adobe Reader](https://www.adobe.com/de/acrobat/pdf-reader.html "Adobe Reader abrufen") kostenlos herunterladen.
+>Zum Anzeigen oder Drucken der PDF benötigen Sie ein PDF-Lesegerät. Sie können [Adobe Reader](https://www.adobe.com/acrobat/pdf-reader.html "Adobe Reader abrufen") kostenlos herunterladen.
 
 ### Eine einzelne Rechnung drucken
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
-1. Suchen Sie im _[!UICONTROL Invoices]_&#x200B;die Rechnung und klicken Sie in der Spalte_ Aktion _auf **[!UICONTROL View]**.
+1. Suchen Sie im _[!UICONTROL Invoices]_die Rechnung und klicken Sie in der Spalte_ Aktion _auf **[!UICONTROL View]**.
 
 1. Klicken Sie oben auf der Rechnung auf **[!UICONTROL Print]** , um eine PDF der Rechnung zu generieren.
 
@@ -168,9 +168,9 @@ Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor jedoch eine Re
 
 ### Mehrere Rechnungen drucken
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
-1. Aktivieren Sie im _[!UICONTROL Invoices]_&#x200B;das Kontrollkästchen für jede zu druckende Rechnung.
+1. Aktivieren Sie im _[!UICONTROL Invoices]_das Kontrollkästchen für jede zu druckende Rechnung.
 
 1. Setzen Sie das **[!UICONTROL Actions]** auf `PDF Invoices`.
 
@@ -180,7 +180,7 @@ Die Rechnungen werden in einer einzigen PDF-Datei gespeichert, die an einen Druc
 
 ## Benutzerdefinierte Erfassungsbeträge
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 Um Händlern größere Flexibilität bei Teilerfassungen und speziellen Zahlungsszenarien zu bieten, unterstützt die Rechnung-API benutzerdefinierte Erfassungsbeträge mithilfe von Erweiterungsattributen.
 

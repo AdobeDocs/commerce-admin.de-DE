@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Die Gewerbesteuer wird anhand der Adresse des Geschäfts berechnet. Die tatsäch
 
 ## Definieren eines neuen Steuersatzes
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New Tax Rate]**.
 
@@ -74,9 +74,9 @@ Die Gewerbesteuer wird anhand der Adresse des Geschäfts berechnet. Die tatsäch
 
 ## Vorhandenen Steuersatz bearbeiten
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
-1. Suchen Sie den Steuersatz im _[!UICONTROL Tax Zones and Rates]_&#x200B;und öffnen Sie den Datensatz im Bearbeitungsmodus.
+1. Suchen Sie den Steuersatz im _[!UICONTROL Tax Zones and Rates]_und öffnen Sie den Datensatz im Bearbeitungsmodus.
 
    Wenn die Liste viele Tarife enthält, können Sie über die [Filterfeldern](../getting-started/admin-grid-controls.md) nach der benötigten Tarifierung suchen.
 
@@ -88,7 +88,7 @@ Die Gewerbesteuer wird anhand der Adresse des Geschäfts berechnet. Die tatsäch
 
 ## Steuersatz löschen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
 1. Suchen Sie den zu löschenden Steuersatz und öffnen Sie ihn im Bearbeitungsmodus.
 

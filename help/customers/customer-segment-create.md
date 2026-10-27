@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -36,24 +36,24 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Das Erstellen eines Kundensegments ähnelt dem Erstellen [Warenkorb-Preisregel](../merchandising-promotions/price-rules-cart.md) mit dem Unterschied, dass die Optionen [Kundensegmentspezifische Attribute) &#x200B;](../customers/customer-segments.md).
+Das Erstellen eines Kundensegments ähnelt dem Erstellen [Warenkorb-Preisregel](../merchandising-promotions/price-rules-cart.md) mit dem Unterschied, dass die Optionen [Kundensegmentspezifische Attribute) ](../customers/customer-segments.md).
 
 ![Kundensegmentliste](assets/customer-segments.png){width="700" zoomable="yes"}
 
-_&#x200B;**[!UICONTROL Customer Segments]Raster &#x200B;** _
+_**[!UICONTROL Customer Segments]Raster **_
 
 | Spalte | Beschreibung |
 |--- |--- |
 | **[!UICONTROL ID]** | Die eindeutige ID des Kundensegments. |
 | **[!UICONTROL Segment]** | Der Name des Kundensegments. |
-| **[!UICONTROL Status]** | Gibt an, ob das Kundensegment _[!UICONTROL Active]_&#x200B;oder&#x200B;_[!UICONTROL Inactive]_ ist. |
+| **[!UICONTROL Status]** | Gibt an, ob das Kundensegment _[!UICONTROL Active]_oder_[!UICONTROL Inactive]_ ist. |
 | **[!UICONTROL Website]** | Gibt die Website an, zu der das Kundensegment gehört. |
 
 {style="table-layout:auto"}
 
 ## Voraussetzung: Kundensegmente aktivieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Customer Configuration]**.
 
@@ -104,7 +104,7 @@ Die folgenden Schritte verwenden ein Beispiel für die Erstellung eines Kundense
 
 1. Klicken Sie auf **[!UICONTROL Save and Continue Edit]**.
 
-   Nach dem Speichern der _[!UICONTROL General Properties]_&#x200B;werden im linken Bedienfeld zusätzliche Optionen verfügbar.
+   Nach dem Speichern der _[!UICONTROL General Properties]_werden im linken Bedienfeld zusätzliche Optionen verfügbar.
 
    ![Segmenteigenschaften](assets/customer-segment-saved.png){width="600" zoomable="yes"}
 
@@ -137,7 +137,7 @@ Die möglichen Bedingungen sind in die folgenden Gruppen unterteilt:
 
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Conditions]**.
 
-   Die Standardbedingung beginnt mit dem _[!UICONTROL If ALL of these conditions are TRUE:]_&#x200B;auf der Seite.
+   Die Standardbedingung beginnt mit dem _[!UICONTROL If ALL of these conditions are TRUE:]_auf der Seite.
 
    ![Bedingungen](assets/customer-segment-conditions.png){width="600" zoomable="yes"}
 
@@ -183,7 +183,7 @@ Die möglichen Bedingungen sind in die folgenden Gruppen unterteilt:
 
 1. Das Kundensegment kann jetzt für Targeting-Promotions, Inhalte und Mailings verwendet werden.
 
-_&#x200B;**[!UICONTROL Matched Customers]Raster &#x200B;** _
+_**[!UICONTROL Matched Customers]Raster **_
 
 | Spalte | Beschreibung |
 |--- |--- |
@@ -213,7 +213,7 @@ _&#x200B;**[!UICONTROL Matched Customers]Raster &#x200B;** _
 
 | Schaltfläche | Beschreibung |
 |--- |--- |
-| **[!UICONTROL Back]** | Kehrt zur _[!UICONTROL Customer Segments]_&#x200B;zurück, ohne die Änderungen zu speichern. |
+| **[!UICONTROL Back]** | Kehrt zur _[!UICONTROL Customer Segments]_zurück, ohne die Änderungen zu speichern. |
 | **[!UICONTROL Delete]** | Löscht das aktuelle Kundensegment. Kunden oder abgeschlossene Bestellungen, die mit dem Kunden im Segment verknüpft sind, werden nicht entfernt. |
 | **[!UICONTROL Reset]** | Setzt alle nicht gespeicherten Änderungen im Kundensegmentformular auf ihre vorherigen Werte zurück. |
 | **[!UICONTROL Refresh Segment Data]** | Aktualisiert die Segmentdaten auf die zuletzt gespeicherten Werte. Relevant, wenn Segmentdaten nicht verfügbar oder veraltet sind. |
@@ -226,4 +226,4 @@ _&#x200B;**[!UICONTROL Matched Customers]Raster &#x200B;** _
 
 Sehen Sie sich dieses Video an, um zu demonstrieren, wie Sie Kundensegmente erstellen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3411974/?captions=ger&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/343659/?quality=12&learn=on)

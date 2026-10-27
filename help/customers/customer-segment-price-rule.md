@@ -27,22 +27,22 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '231'
 ht-degree: 0%
 ---
 # Kundensegmente in Preisregeln
 
 {{ee-feature}}
 
-Ein Kundensegment kann für zielgerichtete Promotions verwendet werden, indem es mit einer [Warenkorb-Preisregel) verknüpft &#x200B;](../merchandising-promotions/price-rules-cart.md).
+Ein Kundensegment kann für zielgerichtete Promotions verwendet werden, indem es mit einer [Warenkorb-Preisregel) verknüpft ](../merchandising-promotions/price-rules-cart.md).
 
 ![Warenkorb-Preisregel - Zielkundensegment](assets/price-rule-cart-condition-segments.png){width="700" zoomable="yes"}
 
-_&#x200B;**So verknüpfen Sie ein Segment mit einer Warenkorb-Preisregel:**&#x200B;_
+_**So verknüpfen Sie ein Segment mit einer Warenkorb-Preisregel:**_
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > _Promotions_ > **[!UICONTROL Cart Price Rules]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]**.
 
 1. Öffnen Sie eine neue oder vorhandene Regel:
 
@@ -53,7 +53,7 @@ _&#x200B;**So verknüpfen Sie ein Segment mit einer Warenkorb-Preisregel:**&#x20
 
 1. Fügen Sie die Bedingung hinzu.
 
-   * Klicken Sie auf _Symbol_ Hinzufügen![&#x200B; (](../assets/icon-add-green-circle.png)), um die Liste der Bedingungen anzuzeigen. Wählen Sie dann **[!UICONTROL Customer Segment]**.
+   * Klicken Sie auf _Symbol_ Hinzufügen![ (](../assets/icon-add-green-circle.png)), um die Liste der Bedingungen anzuzeigen. Wählen Sie dann **[!UICONTROL Customer Segment]**.
 
    ![Warenkorb-Preisregel - Kundensegmentbedingung hinzufügen](assets/condition-customer-segment.png){width="600" zoomable="yes"}
 

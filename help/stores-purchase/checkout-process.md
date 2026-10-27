@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Das Ziel des Checkout-Prozesses besteht darin, die Informationen zu sammeln, die
 
 Der erste Schritt des Checkout-Prozesses besteht darin, dass der Kunde die Informationen zur Versandadresse ausfüllt und die Versandmethode wählt. Wenn der Kunde über ein Konto verfügt, wird die Lieferadresse automatisch eingegeben, kann aber bei Bedarf geändert werden.
 
-![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Das Format der Straßenadresse für den Empfänger und den Absender wird durch die Eigenschaften des [Kundenadressattributs) &#x200B;](../customers/address-attributes.md). Die Eingabevalidierungseinstellung bestimmt die gültigen Zeichen, die in einer Versandadresse verwendet werden können.
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Das Format der Straßenadresse für den Empfänger und den Absender wird durch die Eigenschaften des [Kundenadressattributs) ](../customers/address-attributes.md). Die Eingabevalidierungseinstellung bestimmt die gültigen Zeichen, die in einer Versandadresse verwendet werden können.
 
 Die Fortschrittsleiste oben auf der Seite folgt jedem Schritt des Checkout-Prozesses und die Bestellzusammenfassung zeigt die bisher eingegebenen Informationen an.
 
@@ -63,9 +63,9 @@ Die Fortschrittsleiste oben auf der Seite folgt jedem Schritt des Checkout-Proze
 
 #### Adresse hinzufügen
 
-1. Am Ende des _[!UICONTROL Shipping Address]_&#x200B;Abschnitts klickt der Kunde auf **[!UICONTROL + New Address]**.
+1. Am Ende des _[!UICONTROL Shipping Address]_Abschnitts klickt der Kunde auf **[!UICONTROL + New Address]**.
 
-1. Füllen Sie das _[!UICONTROL Shipping Address]_&#x200B;Formular aus.
+1. Füllen Sie das _[!UICONTROL Shipping Address]_Formular aus.
 
    Standardmäßig werden der Vor- und Nachname des Kunden zunächst im Formular angezeigt.
 
@@ -121,7 +121,7 @@ Admin-Benutzer können die maximale Anzahl der Artikel ändern, die in der Beste
 
 ![Anzahl der in der Bestellübersicht angezeigten Artikel](./assets/order-summary.png){width="700" zoomable="yes"}
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Checkout]**.
 
@@ -151,7 +151,7 @@ Eine ausführliche Beschreibung jeder dieser Konfigurationseinstellungen finden 
 
 ### Ändern der Checkout-Optionen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Checkout]**.
 1. Legen Sie eine der folgenden erforderlichen Optionen fest.
 1. Klicken Sie auf **[!UICONTROL Save Config]**.
@@ -171,11 +171,11 @@ Eine ausführliche Beschreibung jeder dieser Konfigurationseinstellungen finden 
 | Feld | [Umfang](../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Enable Onepage Checkout] | Shop-Ansicht | Bestimmt, ob [einseitiger Checkout](checkout-one-page.md) das standardmäßige Checkout-Format ist. Optionen: Ja / Nein |
-| [!UICONTROL Allow Guest Checkout] | Shop-Ansicht | Legt fest, ob Gäste für ein Konto [&#x200B; Ihrem Geschäft &#x200B;](checkout-guest.md) (Checkout ohne Registrierung) durchlaufen können. Optionen: `Yes` / `No` |
+| [!UICONTROL Allow Guest Checkout] | Shop-Ansicht | Legt fest, ob Gäste für ein Konto [ Ihrem Geschäft ](checkout-guest.md) (Checkout ohne Registrierung) durchlaufen können. Optionen: `Yes` / `No` |
 | [!UICONTROL Enable Terms and Conditions] | Shop-Ansicht | Legt fest, ob Kunden vor dem Kauf den [Geschäftsbedingungen](terms-and-conditions.md) des Verkaufs zustimmen müssen. Optionen: `Yes` / `No` |
 | [!UICONTROL Display Billing Address On] | Shop-Ansicht | Bestimmt den Speicherort der Rechnungsadresse während des Checkouts. Optionen: `Payment Method` / `Payment Page` |
 | [!UICONTROL Maximum Number of Items to Display in Order Summary] | Shop-Ansicht | Legt die maximale Anzahl von Artikeln fest, die während des Checkouts in der Bestellübersicht angezeigt werden können. Der Standardwert lautet `10`. |
-| [!UICONTROL Enable Address Search] | Website | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Legt fest, ob Kunden die [Adresssuche](checkout-address-search.md) für _Versand_ und die _Überprüfen und Zahlungen_ verwenden können. Wenn diese Funktion aktiviert ist, können Sie über die _[!UICONTROL Number of Customer Addresses Limit]_&#x200B;die Anzahl der gespeicherten Adressen festlegen, die erforderlich sind, um diese Funktion während des Checkouts zu aktivieren. Optionen: `Yes` / `No` |
+| [!UICONTROL Enable Address Search] | Website | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Legt fest, ob Kunden die [Adresssuche](checkout-address-search.md) für _Versand_ und die _Überprüfen und Zahlungen_ verwenden können. Wenn diese Funktion aktiviert ist, können Sie über die _[!UICONTROL Number of Customer Addresses Limit]_die Anzahl der gespeicherten Adressen festlegen, die erforderlich sind, um diese Funktion während des Checkouts zu aktivieren. Optionen: `Yes` / `No` |
 | [!UICONTROL Number of Customer Addresses Limit] | Website | ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Wenn die Adresssuche **[!UICONTROL Enabled]** ist, bestimmt die Anzahl der gespeicherten Adressen, die erforderlich sind, um diese Funktion während des Checkouts zu aktivieren. Wenn die Anzahl der gespeicherten Adressen des Kunden diese Zahl erreicht oder überschreitet, wird nur die Standardadresse in den Schritten _Versand_ und _Überprüfen und_) gerendert. Der Kunde kann eine Suchfunktion nutzen, um die ausgewählte Adresse zu ändern. Der Standardwert lautet 10. |
 
 {style="table-layout:auto"}

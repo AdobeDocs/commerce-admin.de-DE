@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Die folgenden Einstellungen müssen auf Produktebene und in der Konfiguration je
 
 ## Schritt 1: Überprüfen Sie das Herstellungsland
 
-Das Herstellungsland ist für alle Produkte, die von USPS und FedEx international versendet werden, erforderlich. Wenn Sie über viele Produkte verfügen, die aktualisiert werden sollten, können [&#x200B; die Aktualisierungen entweder &#x200B;](../systems/data-import.md) (importieren) oder das Inventarraster verwenden, um mehrere Datensätze zu aktualisieren.
+Das Herstellungsland ist für alle Produkte, die von USPS und FedEx international versendet werden, erforderlich. Wenn Sie über viele Produkte verfügen, die aktualisiert werden sollten, können [ die Aktualisierungen entweder ](../systems/data-import.md) (importieren) oder das Inventarraster verwenden, um mehrere Datensätze zu aktualisieren.
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
@@ -83,7 +83,7 @@ Das Herstellungsland ist für alle Produkte, die von USPS und FedEx internationa
 
 ## Schritt 2 Überprüfen der Store-Informationen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Shipping Settings]**.
 

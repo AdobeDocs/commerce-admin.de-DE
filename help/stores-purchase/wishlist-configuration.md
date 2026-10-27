@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Die Konfiguration der Wunschliste ermöglicht Wunschlisten und bestimmt die E-Ma
 
 ## Wunschlistenfunktion aktivieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Wish List]**.
 
@@ -87,7 +87,7 @@ Jede öffentliche Wunschliste finden Sie mit dem Wunschlisten-Such-[Widget](../c
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add Widget]**.
 
-1. Gehen Sie auf der Registerkarte _[!UICONTROL Settings]_&#x200B;wie folgt vor:
+1. Gehen Sie auf der Registerkarte _[!UICONTROL Settings]_wie folgt vor:
 
    - Legen Sie **[!UICONTROL Type]** auf `Wish List Search` fest.
 
@@ -105,7 +105,7 @@ Jede öffentliche Wunschliste finden Sie mit dem Wunschlisten-Such-[Widget](../c
 
      `0` = Erster (Standard), `1` = Zweiter, `2` = Dritter usw.
 
-1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_&#x200B;auf **[!UICONTROL Add Layout Update]**&#x200B;und legen Sie **[!UICONTROL Display on]**&#x200B;auf eine der folgenden Einstellungen fest:
+1. Klicken Sie im Abschnitt _[!UICONTROL Layout Updates]_auf **[!UICONTROL Add Layout Update]**und legen Sie **[!UICONTROL Display on]**auf eine der folgenden Einstellungen fest:
 
    - _[!UICONTROL Categories]_
 

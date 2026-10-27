@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Der Link kann so konfiguriert werden, dass die Anzahl verschiedener Produkte (od
 
 ### Konfigurieren des Mini-Cart
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Checkout]**.
 
@@ -97,7 +97,7 @@ Der Link kann so konfiguriert werden, dass die Anzahl verschiedener Produkte (od
 
 ### Konfigurieren des Warenkorb-Links
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Checkout]**.
 
@@ -118,7 +118,7 @@ Die Warenkorbseite kann so konfiguriert werden, dass sie immer dann angezeigt wi
 
 **_So konfigurieren Sie, wann der Warenkorb angezeigt wird:_**
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Checkout]**.
 
@@ -139,13 +139,13 @@ Die Warenkorbseite kann so konfiguriert werden, dass sie immer dann angezeigt wi
 
 ## Angebotslebensdauer
 
-Mit der Installation und Aktivierung von Adobe Commerce B2B können Sie Unterstützung für die Funktion _Quotes_ hinzufügen. Mit dieser Funktion können autorisierte Käufer den Prozess der Preisaushandlung starten, indem sie eine Anfrage aus dem Warenkorb senden. Das _Quotes_-Raster listet jedes erhaltene Angebot auf und bewahrt einen Verlauf der Kommunikation zwischen Käufer und Verkäufer auf. Weitere Informationen zu den B2B-Funktionen finden Sie unter [Ausgehandelte &#x200B;](../b2b/quotes.md)) im _Adobe Commerce B2B-Benutzerhandbuch_.
+Mit der Installation und Aktivierung von Adobe Commerce B2B können Sie Unterstützung für die Funktion _Quotes_ hinzufügen. Mit dieser Funktion können autorisierte Käufer den Prozess der Preisaushandlung starten, indem sie eine Anfrage aus dem Warenkorb senden. Das _Quotes_-Raster listet jedes erhaltene Angebot auf und bewahrt einen Verlauf der Kommunikation zwischen Käufer und Verkäufer auf. Weitere Informationen zu den B2B-Funktionen finden Sie unter [Ausgehandelte ](../b2b/quotes.md)) im _Adobe Commerce B2B-Benutzerhandbuch_.
 
 Sie können feststellen, wie lange ein Preis gültig ist, indem Sie die Lebensdauer des Warenkorbangebots in der Konfiguration festlegen. Wenn beispielsweise ein Käufer einen Warenkorb nach mehreren Tagen unbeaufsichtigt lässt, ist der Angebotspreis für einige Artikel möglicherweise nicht mehr identisch. Standardmäßig ist die Lebensdauer des Angebots auf 30 Tage festgelegt.
 
 **_So konfigurieren Sie die Angebotslebensdauer:_**
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Checkout]**.
 
@@ -169,7 +169,7 @@ Mit der Konfiguration können Sie einen Mindestbetrag angeben, den Zwischensumme
 
 **_So konfigurieren Sie einen Mindestbestellbetrag:_**
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie darunter **[!UICONTROL Sales]**.
 
@@ -219,7 +219,7 @@ Mit der Konfiguration können Sie einen Mindestbetrag angeben, den Zwischensumme
 
 Sie können die für einen Auftrag zulässige Mindestmenge festlegen. Die Mindestmenge kann auch entsprechend jeder Kundengruppe konfiguriert werden.
 
-1. Navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen Sie **[!UICONTROL Inventory]**.
 
@@ -251,7 +251,7 @@ Das Miniaturbild für gruppierte und konfigurierbare Produkte kann so eingestell
 
 **_So konfigurieren Sie Miniaturansichten für den Warenkorb:_**
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Checkout]**.
 
@@ -259,12 +259,12 @@ Das Miniaturbild für gruppierte und konfigurierbare Produkte kann so eingestell
 
    ![Die Konfigurationseinstellungen für den Warenkorb wurden auf der Seite erweitert](../configuration-reference/sales/assets/checkout-shopping-cart.png){width="600" zoomable="yes"}
 
-1. Legen Sie **[!UICONTROL Grouped Product Image]** fest, um die Miniaturansicht zu bestimmen, die im Warenkorb für (gruppierte [) verwendet &#x200B;](../catalog/product-create-grouped.md):
+1. Legen Sie **[!UICONTROL Grouped Product Image]** fest, um die Miniaturansicht zu bestimmen, die im Warenkorb für (gruppierte [) verwendet ](../catalog/product-create-grouped.md):
 
    - `Product Thumbnail Itself` - Verwendet die Miniaturansicht, die der Produktvariante zugewiesen ist, die dem Warenkorb hinzugefügt wird.
    - `Parent Product Thumbnail` - Verwendet die Miniaturansicht, die dem übergeordneten Produkt zugewiesen ist.
 
-1. Legen Sie **[!UICONTROL Configurable Product Image]** fest, um die Miniaturansicht zu bestimmen, die im Warenkorb für ([&#x200B; Produkte) verwendet &#x200B;](../catalog/product-create-configurable.md):
+1. Legen Sie **[!UICONTROL Configurable Product Image]** fest, um die Miniaturansicht zu bestimmen, die im Warenkorb für ([ Produkte) verwendet ](../catalog/product-create-configurable.md):
 
    - `Product Thumbnail Itself` - Verwendet die Miniaturansicht, die der Produktvariante zugewiesen ist, die dem Warenkorb hinzugefügt wird.
    - `Parent Product Thumbnail` - Verwendet die Miniaturansicht, die dem übergeordneten Produkt zugewiesen ist.
@@ -281,7 +281,7 @@ Die Konfiguration der Geschenkoptionen gilt für die gesamte Website, kann jedoc
 
 ### Geschenkoptionen aktivieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie darunter **[!UICONTROL Sales]**.
 
@@ -321,7 +321,7 @@ Das Geschenkverpackungsbild sollte ein Muster sein, das das sich wiederholende M
 
 #### Geschenkpapier-Design hinzufügen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**.
 
    ![Geschenkverpackungsraster](./assets/gift-wrapping.png){width="700" zoomable="yes"}
 
@@ -345,13 +345,13 @@ Das Geschenkverpackungsbild sollte ein Muster sein, das das sich wiederholende M
 
 1. Um eine Miniaturansicht **[!UICONTROL Image]** Geschenkverpackung hochzuladen, klicken Sie auf **[!UICONTROL Choose File]** und wählen Sie die hochzuladende Datei aus Ihrem Verzeichnis aus.
 
-   Nach dem Speichern des Datensatzes wird in der _[!UICONTROL Gift Wrapping Information]_&#x200B;eine Miniaturansicht des Bildes angezeigt.
+   Nach dem Speichern des Datensatzes wird in der _[!UICONTROL Gift Wrapping Information]_eine Miniaturansicht des Bildes angezeigt.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
 #### Bearbeiten eines Geschenkverpackungsdesigns
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**.
 
 1. Suchen Sie den Geschenkpapier-Datensatz in der Liste.
 
@@ -391,7 +391,7 @@ Die Preise für Geschenkverpackungen und gedruckte Geschenkkarten können so kon
 
 **_So konfigurieren Sie die Steuern für Geschenkoptionen:_**
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Tax]**.
 

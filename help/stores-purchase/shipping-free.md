@@ -25,14 +25,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
 ---
 # Kostenloser Versand
 
-_Kostenloser Versand_ ist eine der effektivsten Aktionen, die Sie anbieten können. Sie kann auf einem Mindestkauf basieren oder als [Warenkorbpreisregel“ eingerichtet &#x200B;](../merchandising-promotions/price-rules-cart.md), die angewendet wird, wenn eine Reihe von Bedingungen erfüllt ist. Wenn beide für dieselbe Reihenfolge gelten, hat die Konfigurationseinstellung Vorrang vor der Warenkorbregel.
+_Kostenloser Versand_ ist eine der effektivsten Aktionen, die Sie anbieten können. Sie kann auf einem Mindestkauf basieren oder als [Warenkorbpreisregel“ eingerichtet ](../merchandising-promotions/price-rules-cart.md), die angewendet wird, wenn eine Reihe von Bedingungen erfüllt ist. Wenn beide für dieselbe Reihenfolge gelten, hat die Konfigurationseinstellung Vorrang vor der Warenkorbregel.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ _Kostenloser Versand_ ist eine der effektivsten Aktionen, die Sie anbieten könn
 
 ## Schritt 1: Konfigurieren des kostenlosen Versands
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Delivery Methods]**.
 
@@ -58,7 +58,7 @@ _Kostenloser Versand_ ist eine der effektivsten Aktionen, die Sie anbieten könn
 
    >[!TIP]
    >
-   >Um den kostenlosen Versand mit [Tabellenraten](shipping-table-rate.md) zu verwenden, müssen Sie die _[!UICONTROL Minimum Order Amount]_&#x200B;so hoch gestalten, dass sie nie erfüllt wird. Die Verwendung dieses hohen Werts verhindert, dass der kostenlose Versand in Kraft tritt, es sei denn, er wird durch eine Preisregel ausgelöst.
+   >Um den kostenlosen Versand mit [Tabellenraten](shipping-table-rate.md) zu verwenden, müssen Sie die _[!UICONTROL Minimum Order Amount]_so hoch gestalten, dass sie nie erfüllt wird. Die Verwendung dieses hohen Werts verhindert, dass der kostenlose Versand in Kraft tritt, es sei denn, er wird durch eine Preisregel ausgelöst.
 
 1. **[!UICONTROL Include Tax to Amount]** festlegen:
 
@@ -73,7 +73,7 @@ _Kostenloser Versand_ ist eine der effektivsten Aktionen, die Sie anbieten könn
 
    - `All Allowed Countries` - Kunden aus allen [Ländern](../getting-started/store-details.md#country-options) die in Ihrer Store-Konfiguration angegeben sind, können den kostenlosen Versand verwenden.
 
-   - `Specific Countries` - Nachdem Sie diesen Wert ausgewählt haben, wird die _[!UICONTROL Ship to Specific Countries]_&#x200B;angezeigt. Wählen Sie jedes Land in der Liste aus, in dem der kostenlose Versand verwendet werden kann.
+   - `Specific Countries` - Nachdem Sie diesen Wert ausgewählt haben, wird die _[!UICONTROL Ship to Specific Countries]_angezeigt. Wählen Sie jedes Land in der Liste aus, in dem der kostenlose Versand verwendet werden kann.
 
 1. **[!UICONTROL Show Method if Not Applicable]** festlegen:
 

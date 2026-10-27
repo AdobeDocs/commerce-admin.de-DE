@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 {{ee-feature}}
 
-Wenn diese Option aktiviert ist, können RMA-Anfragen von Kunden über die Storefront gesendet werden. Eine Rücksendung kann nur generiert werden, wenn ein Artikel in der Bestellung vorhanden ist, der zur Rücksendung zur Verfügung steht. Anfragen zur Rückgabe einzelner Elemente werden vom Attribut _RMA aktivieren_ in jedem Produktdatensatz verwaltet. Standardmäßig werden die Konfigurationseinstellungen auf das Produkt angewendet (_[!UICONTROL Use Config Settings]_&#x200B;ist ausgewählt). Wenn&#x200B;_[!UICONTROL Enable RMA]_ auf `No` gesetzt ist, wird das Produkt nicht in der Liste der Elemente angezeigt, die für die Rückgabe verfügbar sind. Wenn Sie die Einstellung _RMA aktivieren_ ändern, gilt sie sowohl für neue als auch für bestehende Bestellungen.
+Wenn diese Option aktiviert ist, können RMA-Anfragen von Kunden über die Storefront gesendet werden. Eine Rücksendung kann nur generiert werden, wenn ein Artikel in der Bestellung vorhanden ist, der zur Rücksendung zur Verfügung steht. Anfragen zur Rückgabe einzelner Elemente werden vom Attribut _RMA aktivieren_ in jedem Produktdatensatz verwaltet. Standardmäßig werden die Konfigurationseinstellungen auf das Produkt angewendet (_[!UICONTROL Use Config Settings]_ist ausgewählt). Wenn_[!UICONTROL Enable RMA]_ auf `No` gesetzt ist, wird das Produkt nicht in der Liste der Elemente angezeigt, die für die Rückgabe verfügbar sind. Wenn Sie die Einstellung _RMA aktivieren_ ändern, gilt sie sowohl für neue als auch für bestehende Bestellungen.
 
 ## RMAs für Ihren Store aktivieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie darunter **[!UICONTROL Sales]**.
 
@@ -58,7 +58,7 @@ Wenn diese Option aktiviert ist, können RMA-Anfragen von Kunden über die Store
 
    Diese Einstellung bestimmt das Verhalten für das Attribut _RMA aktivieren_ für einzelne Produkte in der Storefront:
 
-   - Wenn [!UICONTROL Enable RMA on Product Level] auf `Yes` gesetzt ist, können Kunden in der Storefront alle einzelnen Produkte zurückgeben. Sie enthält sowohl _[!UICONTROL Enable RMA]_= `Yes` als auch&#x200B;_[!UICONTROL Enable RMA]_ = `No` Produktattributwerte.
+   - Wenn [!UICONTROL Enable RMA on Product Level] auf `Yes` gesetzt ist, können Kunden in der Storefront alle einzelnen Produkte zurückgeben. Sie enthält sowohl _[!UICONTROL Enable RMA]_= `Yes` als auch_[!UICONTROL Enable RMA]_ = `No` Produktattributwerte.
    - Wenn [!UICONTROL Enable RMA on Product Level] auf `No` gesetzt ist, können Kunden in der Storefront nur die Produkte mit einem _[!UICONTROL Enable RMA]_= `Yes` Produktattributwert zurückgeben.
 
 1. Legen Sie **[!UICONTROL Use Store Address]** auf einen der folgenden Werte fest:
@@ -72,7 +72,7 @@ Wenn diese Option aktiviert ist, können RMA-Anfragen von Kunden über die Store
 
 ## Konfigurieren der Versandmethoden für Rücksendungen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Delivery Methods]**.
 

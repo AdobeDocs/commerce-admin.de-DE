@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 0%
@@ -61,13 +61,13 @@ Seien Sie vorsichtig, wenn Sie FPT-Preise in E-Mails angeben, da der Preisunters
 
 ## Konfigurieren von FPT
 
-Mit der FPT (Fixed Product Tax[&#x200B; (Eingabetyp](../catalog/attributes-input-types.md) wird ein Abschnitt mit Feldern für die Steuerverwaltung für jede Region erstellt.
+Mit der FPT (Fixed Product Tax[ (Eingabetyp](../catalog/attributes-input-types.md) wird ein Abschnitt mit Feldern für die Steuerverwaltung für jede Region erstellt.
 
 Die folgenden Anweisungen zeigen, wie Sie am Beispiel „Ökosteuer“ eine feste Produktsteuer für Ihr Geschäft einrichten. Nachdem Sie den Umfang der Steuer und die Länder und Bundesstaaten festgelegt haben, in denen die Steuer gilt, und je nach den von Ihnen gewählten Optionen können sich die Eingabefelder entsprechend den lokalen Anforderungen ändern. Weitere Informationen finden Sie unter [Produktattribute erstellen](../catalog/attribute-product-create.md).
 
 ### Schritt 1: Feste Produktsteuer aktivieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Tax]**.
 
@@ -101,7 +101,7 @@ Die folgenden Anweisungen zeigen, wie Sie am Beispiel „Ökosteuer“ eine fest
 
 ### Schritt 2: Erstellen eines FPT-Attributs
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New Attribute]** und führen Sie folgende Schritte aus:
 
@@ -117,7 +117,7 @@ Die folgenden Anweisungen zeigen, wie Sie am Beispiel „Ökosteuer“ eine fest
 
    - **[!UICONTROL Add to Column Options]** : Wenn das FPT-Feld in der [Produktliste“ angezeigt werden soll](../catalog/products-list.md) legen Sie auf `Yes` fest.
 
-   - **[!UICONTROL Use in Filter Options]** : Wenn Sie Produkte im Raster basierend [&#x200B; dem Wert des FPT](../getting-started/admin-workspace.md)Felds filtern möchten, legen Sie auf `Yes` fest.
+   - **[!UICONTROL Use in Filter Options]** : Wenn Sie Produkte im Raster basierend [ dem Wert des FPT](../getting-started/admin-workspace.md)Felds filtern möchten, legen Sie auf `Yes` fest.
 
    ![Erweiterte Attributeigenschaften](./assets/tax-fpt-advanced-attribute-properties.png){width="600" zoomable="yes"}
 
@@ -131,7 +131,7 @@ Die folgenden Anweisungen zeigen, wie Sie am Beispiel „Ökosteuer“ eine fest
 
 ### Schritt 3: Hinzufügen des FPT-Attributs zu einem Attributsatz
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Attribute Set]**.
 
 1. Klicken Sie in der Liste auf das Attribut set , um den Datensatz im Bearbeitungsmodus zu öffnen.
 

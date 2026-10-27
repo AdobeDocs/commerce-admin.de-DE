@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2042'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Bei bestimmten Umsätzen zwischen Unternehmen wird die MwSt nicht erhoben. Comme
 
 Der Prozess der Erstellung einer Steuerregel beginnt mit dem Hinzufügen eines Steuersatzes.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
    ![Einrichten von Debitorensteuerklassen](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -95,7 +95,7 @@ Basierend auf dem übermittelten Steuersatz können Sie nachfolgende Steuerregel
 
 ### Schritt 2: Einrichten von Produktsteuerklassen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Klicken Sie auf **[!UICONTROL Add New Tax Rule]**.
 
@@ -117,7 +117,7 @@ Basierend auf dem übermittelten Steuersatz können Sie nachfolgende Steuerregel
 
 ### Schritt 3: Einrichten von Steuerzonen und Steuersätzen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
    In diesem Beispiel können Sie die US-Steuersätze entfernen oder sie unverändert lassen.
 
@@ -145,7 +145,7 @@ Basierend auf dem übermittelten Steuersatz können Sie nachfolgende Steuerregel
 
 Eine Steuerregel ist eine Kombination aus einer Debitorensteuerklasse, einer Produktsteuerklasse und einem Steuersatz.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Fügen Sie neue Steuerregeln wie folgt hinzu:
 
@@ -167,7 +167,7 @@ Eine Steuerregel ist eine Kombination aus einer Debitorensteuerklasse, einer Pro
 
 ### Schritt 5: Anwenden von Steuerklassen auf Produkte
 
-1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Öffnen Sie ein Produkt aus Ihrem Katalog im Bearbeitungsmodus.
 
@@ -230,7 +230,7 @@ Wenn die Validierung der MwSt.-ID aktiviert ist, wird jedem Kunden nach der Regi
 
 Nachdem ein Kunde die MwSt.-Nummer und andere Adressfelder angegeben und die Speicherung ausgewählt hat, speichert das System die Adresse und sendet die MwSt.-ID-Validierungsanfrage an den Server der Europäischen Kommission. Gemäß den Ergebnissen der Validierung wird einem Kunden eine der Standardgruppen zugewiesen. Diese Gruppe kann geändert werden, wenn ein Kunde oder Administrator die MwSt.-Kennung der Standardadresse ändert oder die gesamte Standardadresse ändert. Manchmal kann die Gruppe beim einseitigen Auschecken vorübergehend geändert (Gruppenänderung wird emuliert) werden.
 
-Wenn diese Option aktiviert ist, können Sie die Validierung der MwSt.-ID für einzelne Kunden überschreiben, indem Sie das Kontrollkästchen auf der Seite _[!UICONTROL Customer Information]_&#x200B;aktivieren.
+Wenn diese Option aktiviert ist, können Sie die Validierung der MwSt.-ID für einzelne Kunden überschreiben, indem Sie das Kontrollkästchen auf der Seite _[!UICONTROL Customer Information]_aktivieren.
 
 ### Checkout-Workflow
 
@@ -304,11 +304,11 @@ Jede Steuerregel wird von drei Entitäten definiert:
 Erstellen Sie die [Steuerregeln](tax-rules.md), um die MwSt.-ID-Validierung effektiv zu verwenden.
 
 - Zu den Steuervorschriften gehören Steuersätze und [Steuerklassen](tax-class.md).
-- Steuerklassen werden „Kundengruppen[&#x200B; zugeordnet](../customers/customer-groups.md).
+- Steuerklassen werden „Kundengruppen[ zugeordnet](../customers/customer-groups.md).
 
 #### Schritt 3: Validierung der MwSt.-ID aktivieren und konfigurieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Legen Sie bei Bedarf die **[!UICONTROL Store View]** für die Konfiguration fest.
 

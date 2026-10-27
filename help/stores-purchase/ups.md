@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -48,7 +48,7 @@ United Parcel Service (UPS) bietet inländische und internationale Verschiffen a
 
 ## Schritt 1: Öffnen Sie ein UPS Versandkonto
 
-Um diese Versandart Ihren Kunden anzubieten, müssen Sie zunächst ein UPS-Konto eröffnen und den Antrag ausfüllen, um eine Versender-Kontonummer zu erhalten. Siehe [Kostenloses UPS-Konto &#x200B;](https://www.ups.com/us/en/business-solutions/open-an-account).
+Um diese Versandart Ihren Kunden anzubieten, müssen Sie zunächst ein UPS-Konto eröffnen und den Antrag ausfüllen, um eine Versender-Kontonummer zu erhalten. Siehe [Kostenloses UPS-Konto ](https://www.ups.com/us/en/business-solutions/open-an-account).
 
 ## Schritt 2: Abrufen von UPS OAUTH-Anmeldeinformationen
 
@@ -58,7 +58,7 @@ Wenn Sie die USV-Einstellungen in Admin konfigurieren, verwenden Sie die Werte d
 
 ## Schritt 3: UPS für Ihren Shop aktivieren
 
-1. Navigieren Sie in _Admin_ Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in _Admin_ Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Wählen Sie im Bedienfeld links unter **[!UICONTROL Sales]** die Option **[!UICONTROL Delivery Methods]** aus.
 
@@ -87,7 +87,7 @@ Wenn Sie die USV-Einstellungen in Admin konfigurieren, verwenden Sie die Werte d
 
    >[!NOTE]
    >
-   >Der Standardtyp Einheitlicher Paketdienst ist für die Einstellung geplant. Verwenden Sie für neue Konfigurationen den standardmäßigen `United Parcel Service REST`. Der REST-Typ ist auch erforderlich, um ([) &#x200B;](shipping-labels.md) generieren.<br/>
+   >Der Standardtyp Einheitlicher Paketdienst ist für die Einstellung geplant. Verwenden Sie für neue Konfigurationen den standardmäßigen `United Parcel Service REST`. Der REST-Typ ist auch erforderlich, um ([) ](shipping-labels.md) generieren.<br/>
    >Für die Version 2.4.7 wird **[!UICONTROL UPS Type]** entfernt, da `UPS`- und `UPS XML`-Typen zur Einstellung geplant sind und `UPS REST` der Standard ist. Die von der nativen Adobe Commerce-Integration verwendeten United Parcel Service (UPS)-APIs werden vorübergehend nicht mehr unterstützt, da sie derzeit das OAuth 2.0-Sicherheitsmodell nicht unterstützen.
 
    >[!IMPORTANT]
@@ -210,7 +210,7 @@ Die Bearbeitungsgebühr ist optional und erscheint als zusätzliche Gebühr, die
 
 1. Vergewissern Sie sich, dass Ihre [Store-Informationen](../getting-started/store-details.md#store-information) vollständig sind.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Shipping Settings]** aus.
 

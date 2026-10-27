@@ -27,14 +27,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
 ---
 # Währungskonfiguration
 
-Bevor Sie individuelle Währungskurse einrichten, müssen Sie zunächst den Umfang der [Basiswährung“ &#x200B;](../configuration-reference/general/currency-setup.md). Sie ist standardmäßig als global festgelegt, wodurch die Einstellung der Basiswährung auf die gesamte [Store-Hierarchie“ angewendet &#x200B;](../getting-started/websites-stores-views.md). Wenn Sie eine Adobe Commerce- oder Magento Open Source-Installation für mehrere Sites haben, können Sie mehrere Basiswährungen verwalten, indem Sie den Umfang auf die Website-Ebene festlegen.
+Bevor Sie individuelle Währungskurse einrichten, müssen Sie zunächst den Umfang der [Basiswährung“ ](../configuration-reference/general/currency-setup.md). Sie ist standardmäßig als global festgelegt, wodurch die Einstellung der Basiswährung auf die gesamte [Store-Hierarchie“ angewendet ](../getting-started/websites-stores-views.md). Wenn Sie eine Adobe Commerce- oder Magento Open Source-Installation für mehrere Sites haben, können Sie mehrere Basiswährungen verwalten, indem Sie den Umfang auf die Website-Ebene festlegen.
 
 Außerdem geben Sie die Währungen an, die Sie akzeptieren, und welche Währung Sie für die Anzeige von [Preisen](../catalog/catalog-price-scope.md) in Ihrem Geschäft verwenden möchten. Im folgenden Diagramm wird der Umfang der Basiswährung auf Website-Ebene festgelegt, sodass jede Website eine andere Basiswährung haben kann.
 
@@ -42,7 +42,7 @@ Außerdem geben Sie die Währungen an, die Sie akzeptieren, und welche Währung 
 
 ## Schritt 1: Akzeptierte Währungen auswählen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Setzen Sie **[!UICONTROL Scope]** in der oberen linken Ecke auf die Store-Ansicht, für die die Konfiguration gilt.
 
@@ -62,7 +62,7 @@ Außerdem geben Sie die Währungen an, die Sie akzeptieren, und welche Währung 
 
    Eine ausführliche Beschreibung jeder dieser Konfigurationseinstellungen finden Sie unter [Währungsoptionen](../configuration-reference/general/currency-setup.md) im _Konfigurationsreferenzhandbuch_.
 
-1. Wenn Sie aufgefordert werden, den Cache zu aktualisieren _klicken Sie auf_ Schließen![&#x200B; ( Feld schließen](../assets/icon-close-x.png) ) in der rechten oberen Ecke der Systemmeldung.
+1. Wenn Sie aufgefordert werden, den Cache zu aktualisieren _klicken Sie auf_ Schließen![ ( Feld schließen](../assets/icon-close-x.png) ) in der rechten oberen Ecke der Systemmeldung.
 
    Sie können [den Cache aktualisieren](../systems/cache-management.md) später.
 
@@ -122,7 +122,7 @@ Außerdem geben Sie die Währungen an, die Sie akzeptieren, und welche Währung 
 
 ## Schritt 3: Konfigurieren der Einstellungen für den geplanten Import
 
-1. Erweitern Sie unter „Währungseinstellungen“ den ![&#x200B; „Erweiterungsauswahl](../assets/icon-display-expand.png) auf den Abschnitt **[!UICONTROL Scheduled Import Settings]**.
+1. Erweitern Sie unter „Währungseinstellungen“ den ![ „Erweiterungsauswahl](../assets/icon-display-expand.png) auf den Abschnitt **[!UICONTROL Scheduled Import Settings]**.
 
    ![Allgemeine Konfiguration - Einstellungen für den geplanten Import der Währung](../configuration-reference/general/assets/currency-setup-scheduled-import-settings.png){width="600" zoomable="yes"}
 
@@ -164,15 +164,15 @@ Die Verwaltung von Währungssymbolen bietet Ihnen die Möglichkeit, das Symbol a
 
 ![Währungssymbole](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Currency Symbols]**.
 
-   Jede Währung, die für Ihren Store aktiviert ist, wird in der _[!UICONTROL Currency]_&#x200B;angezeigt.
+   Jede Währung, die für Ihren Store aktiviert ist, wird in der _[!UICONTROL Currency]_angezeigt.
 
 1. Ändern Sie die Einstellungen in der Liste nach Bedarf:
 
    - Geben Sie für jede Währung, die Sie verwenden möchten, ein benutzerdefiniertes Symbol ein, oder aktivieren Sie das Kontrollkästchen &quot;**[!UICONTROL Use Standard]**&quot; für jede Währung.
 
-   - Um das Standardsymbol zu überschreiben, deaktivieren Sie das Kontrollkästchen _[!UICONTROL Use Standard]_&#x200B;und geben Sie das gewünschte Symbol ein.
+   - Um das Standardsymbol zu überschreiben, deaktivieren Sie das Kontrollkästchen _[!UICONTROL Use Standard]_und geben Sie das gewünschte Symbol ein.
 
    >[!NOTE]
    >

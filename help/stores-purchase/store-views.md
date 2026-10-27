@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Um die Synchronisierung zu aktivieren oder zu deaktivieren, bearbeiten Sie die *
 
 ## Shop-Ansicht hinzufügen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
    ![Alle Stores](./assets/stores-all.png){width="700" zoomable="yes"}
 
@@ -94,11 +94,11 @@ Wenn Ihre Adobe Commerce- oder Magento Open Source-Installation über eine Multi
 
 {style="table-layout:auto"}
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Store View]_&#x200B;des Rasters auf den Namen der Ansicht, die Sie bearbeiten möchten.
+1. Klicken Sie in der Spalte _[!UICONTROL Store View]_des Rasters auf den Namen der Ansicht, die Sie bearbeiten möchten.
 
-   Beim Bearbeiten der Standardansicht sind die Felder _[!UICONTROL Store]_&#x200B;und&#x200B;_[!UICONTROL Status]_ nicht verfügbar.
+   Beim Bearbeiten der Standardansicht sind die Felder _[!UICONTROL Store]_und_[!UICONTROL Status]_ nicht verfügbar.
 
    ![Store-Ansicht - Standardansicht bearbeiten](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 
