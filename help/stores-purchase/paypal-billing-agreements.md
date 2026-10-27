@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Auf der Seite _[!UICONTROL Billing Agreements]_&#x200B;werden alle Abrechnungsve
 
 ### Rechnungsvereinbarung anzeigen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Suchen Sie die Abrechnungsvereinbarung in der Liste und klicken Sie darauf, um sie zu öffnen.
 
@@ -81,7 +81,7 @@ Auf dieser Registerkarte wird die Liste der Bestellungen angezeigt, die unter Ve
 
 ### Abrechnungsvereinbarung stornieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Suchen Sie die Abrechnungsvereinbarung in der Liste und klicken Sie darauf, um sie zu öffnen.
 
@@ -91,7 +91,7 @@ Auf dieser Registerkarte wird die Liste der Bestellungen angezeigt, die unter Ve
 
 ### Löschen einer Abrechnungsvereinbarung
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Billing Agreements]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Billing Agreements]**.
 
 1. Suchen Sie die Abrechnungsvereinbarung in der Liste und klicken Sie darauf, um sie zu öffnen.
 

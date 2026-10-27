@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Adobe Commerce und Magento Open Source können so konfiguriert werden, dass stan
 
 ## Konfigurieren der Basis-URL
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Wählen _im_ Bereich unter „Allgemein“ die Option &quot;**[!UICONTROL Web]**&quot;.
 
@@ -142,7 +142,7 @@ Wenn Ihre Domain über ein gültiges Sicherheitszertifikat verfügt, können Sie
 >
 >Wenn die Option _Store-Code zu URLs hinzufügen_ auf `Yes` festgelegt ist, müssen Sie Store-Codes in Ihre Browser-URLs einfügen. Diese Einstellung stellt sicher, dass URL-Neuschreibungen korrekt zugeordnet werden und alle Seiten erfolgreich geöffnet werden, ohne dass _Fehler „404 Seite nicht gefunden“_.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Wählen Sie unter _[!UICONTROL General]_&#x200B;im linken Bedienfeld **[!UICONTROL Web]**&#x200B;aus.
 
@@ -190,7 +190,7 @@ Obwohl es möglich ist, die Admin-URL und den Pfad zu einem anderen Speicherort 
 
 ### Methode 1: Wechsel vom Administrator
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Advanced]** und wählen Sie **[!UICONTROL Admin]**.
 

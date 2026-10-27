@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Befolgen Sie die Standardanweisungen für die Installation der Language Pack-Erw
 
 ## Schritt 2: Erstellen Sie eine Store-Ansicht für die Sprache
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. Klicken Sie auf **[!UICONTROL Create Store View]**.
 
@@ -62,7 +62,7 @@ Befolgen Sie die Standardanweisungen für die Installation der Language Pack-Erw
 
 ## Schritt 3: Ändern des Gebietsschemas der Store-Ansicht
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Scope]** die zu konfigurierende Store-Ansicht aus und klicken Sie auf **[!UICONTROL OK]**, wenn Sie dazu aufgefordert werden.
 
@@ -102,7 +102,7 @@ Wenn Ihr Store mehrere Ansichten in verschiedenen Sprachen hat, sind in jeder St
 
 ### Schritt 2: Übersetzen von Feldbezeichnungen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. Suchen Sie in der Liste das zu übersetzende Attribut und öffnen Sie es im Bearbeitungsmodus.
 
@@ -148,7 +148,7 @@ Wenn Ihr Store mehrere Ansichten in verschiedenen Sprachen hat, sind in jeder St
 
 ### Schritt 4: Optionen für Produktattribute und -attribute übersetzen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. Wählen Sie das zu übersetzende Attribut aus.
 

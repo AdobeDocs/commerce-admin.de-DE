@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 3%
@@ -54,7 +54,7 @@ Die Daten, die zur Berechnung der Tariftabellen verwendet werden, werden in eine
 
 Der erste Schritt besteht darin, die Standardeinstellungen für die Tarife abzuschließen. Sie können diesen Schritt abschließen, ohne den Umfang der Konfiguration zu ändern.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Wählen Sie im _[!UICONTROL Sales]_&#x200B;Bereich des linken Bedienfelds **[!UICONTROL Delivery Methods]**&#x200B;aus.
 

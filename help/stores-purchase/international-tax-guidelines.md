@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 0%
@@ -184,7 +184,7 @@ Das folgende Beispiel zeigt, wie Sie GST-Steuersätze für Kanada und PST-Steuer
 
 ### Schritt 1: Einstellungen für die Steuerberechnung abschließen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Legen Sie für eine Multi-Site-Konfiguration **[!UICONTROL Store View]** auf die Website und den Store fest, der das Ziel der Konfiguration ist.
 
@@ -370,13 +370,13 @@ Erstellen Sie die folgenden Steuerregeln:
 
 ### Schritt 4: Einrichten einer Shop-Ansicht für Deutschland
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL All Stores]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
 1. Erstellen Sie unter der Standard-Website eine Store-Ansicht für **[!UICONTROL Germany]**.
 
 1. Gehen Sie dann wie folgt vor:
 
-   - Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+   - Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
    - Setzen Sie sich in der oberen linken Ecke **[!UICONTROL Default Config]** den französischen Laden.
 
@@ -421,7 +421,7 @@ Füllen Sie die folgenden allgemeinen Steuereinstellungen aus:
 
 ### Schritt 6: Steuereinstellungen für Deutschland konfigurieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Setzen Sie in der oberen rechten Ecke **[!UICONTROL Store View]** auf die Ansicht zum deutschen Geschäft und klicken Sie zur Bestätigung auf **[!UICONTROL OK]** .
 

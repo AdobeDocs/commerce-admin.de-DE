@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Der Link kann so konfiguriert werden, dass die Anzahl verschiedener Produkte (od
 
 ### Konfigurieren des Mini-Cart
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Checkout]**.
 
@@ -97,7 +97,7 @@ Der Link kann so konfiguriert werden, dass die Anzahl verschiedener Produkte (od
 
 ### Konfigurieren des Warenkorb-Links
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Checkout]**.
 
@@ -118,7 +118,7 @@ Die Warenkorbseite kann so konfiguriert werden, dass sie immer dann angezeigt wi
 
 **_So konfigurieren Sie, wann der Warenkorb angezeigt wird:_**
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Checkout]**.
 
@@ -145,7 +145,7 @@ Sie können feststellen, wie lange ein Preis gültig ist, indem Sie die Lebensda
 
 **_So konfigurieren Sie die Angebotslebensdauer:_**
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Checkout]**.
 
@@ -169,7 +169,7 @@ Mit der Konfiguration können Sie einen Mindestbetrag angeben, den Zwischensumme
 
 **_So konfigurieren Sie einen Mindestbestellbetrag:_**
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie darunter **[!UICONTROL Sales]**.
 
@@ -219,7 +219,7 @@ Mit der Konfiguration können Sie einen Mindestbetrag angeben, den Zwischensumme
 
 Sie können die für einen Auftrag zulässige Mindestmenge festlegen. Die Mindestmenge kann auch entsprechend jeder Kundengruppe konfiguriert werden.
 
-1. Navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Catalog]** und wählen Sie **[!UICONTROL Inventory]**.
 
@@ -251,7 +251,7 @@ Das Miniaturbild für gruppierte und konfigurierbare Produkte kann so eingestell
 
 **_So konfigurieren Sie Miniaturansichten für den Warenkorb:_**
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Checkout]**.
 
@@ -281,7 +281,7 @@ Die Konfiguration der Geschenkoptionen gilt für die gesamte Website, kann jedoc
 
 ### Geschenkoptionen aktivieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie darunter **[!UICONTROL Sales]**.
 
@@ -321,7 +321,7 @@ Das Geschenkverpackungsbild sollte ein Muster sein, das das sich wiederholende M
 
 #### Geschenkpapier-Design hinzufügen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**.
 
    ![Geschenkverpackungsraster](./assets/gift-wrapping.png){width="700" zoomable="yes"}
 
@@ -351,7 +351,7 @@ Das Geschenkverpackungsbild sollte ein Muster sein, das das sich wiederholende M
 
 #### Bearbeiten eines Geschenkverpackungsdesigns
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Other Settings]_>**[!UICONTROL Gift Wrapping]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Gift Wrapping]**.
 
 1. Suchen Sie den Geschenkpapier-Datensatz in der Liste.
 
@@ -391,7 +391,7 @@ Die Preise für Geschenkverpackungen und gedruckte Geschenkkarten können so kon
 
 **_So konfigurieren Sie die Steuern für Geschenkoptionen:_**
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Tax]**.
 

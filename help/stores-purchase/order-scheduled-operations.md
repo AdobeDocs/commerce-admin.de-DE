@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Verwenden Sie [Cron](../systems/cron.md)-Aufträge, um die folgenden Auftragsver
 
 Die Lebensdauer von Bestellungen mit ausstehenden Zahlungen wird durch die Konfiguration _Bestellungen Cron-Einstellungen_ bestimmt. Der Standardwert ist 480 Minuten, d. h. acht Stunden.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich den Abschnitt **[!UICONTROL Sales]** und wählen Sie darunter **[!UICONTROL Sales]**.
 
@@ -73,7 +73,7 @@ Durch die Planung dieser Aufgaben können Sie die Sperren vermeiden, die beim Sp
 
 Wenn [Standardmodus](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/setup/application-modes#default-mode) aktiviert ist, führen Sie die folgenden Schritte aus:
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich den Abschnitt **[!UICONTROL Advanced]** und wählen Sie **[!UICONTROL Developer]**.
 

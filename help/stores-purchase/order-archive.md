@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Die regelmäßige Archivierung von Aufträgen verbessert die Leistung und hält 
 
 Ihr Store kann so konfiguriert werden, dass Bestellungen, Rechnungen, Sendungen und Gutschriften nach einer bestimmten Anzahl von Tagen archiviert werden. Sie können Bestellungen und zugehörige Dokumente in das Archiv verschieben oder in den vorherigen Status zurückversetzen. Archivierte Bestellungen werden nicht gelöscht und bleiben vom Administrator verfügbar. Archivierte Daten können in eine CSV-Datei exportiert und in einer Tabelle geöffnet werden. Nach der Aktivierung _die_ Archivieren“ oben im Arbeitsbereich angezeigt.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich den Abschnitt **[!UICONTROL Sales]** und wählen Sie darunter **[!UICONTROL Sales]**.
 
@@ -139,7 +139,7 @@ Ihr Store kann so konfiguriert werden, dass Bestellungen, Rechnungen, Sendungen 
 
 ## Bestellungen manuell archivieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Um die Reihenfolge im Raster festzulegen, aktivieren Sie das Kontrollkästchen in der ersten Spalte.
 
@@ -157,7 +157,7 @@ Ihr Store kann so konfiguriert werden, dass Bestellungen, Rechnungen, Sendungen 
 
    - Klicken Sie in der Schaltflächenleiste über dem _[!UICONTROL Orders]_&#x200B;auf **[!UICONTROL Go to Archive]**.
 
-   - Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Archive]_>**[!UICONTROL Orders]**.
+   - Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
    >[!NOTE]
    >
@@ -173,7 +173,7 @@ Ihr Store kann so konfiguriert werden, dass Bestellungen, Rechnungen, Sendungen 
 >
 >Eine aus einer archivierten Bestellung wiederhergestellte Bestellung wird entsprechend der in der [!UICONTROL Archive Orders Purchased]-Einstellung konfigurierten Anzahl von Tagen erneut archiviert (siehe [Bestellarchiv konfigurieren](#configure-the-order-archive)). Die Anzahl der Tage wird anhand des [!UICONTROL Updated At] für die Bestellung berechnet, das geändert wird, wenn die Bestellung aus dem Archiv verschoben wird.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Klicken Sie in der Schaltflächenleiste auf **[!UICONTROL Go to Archive]**.
 
@@ -187,6 +187,6 @@ Suchen Sie nach der Meldung, dass die archivierte Bestellung aus dem Archiv entf
 
 ## Archivierte Reihenfolge exportieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Klicken Sie im Menü Aktion auf **[!UICONTROL Export]** und wählen Sie das gewünschte Format aus.

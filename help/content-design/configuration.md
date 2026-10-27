@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: fdb0968c8d6caf4917e8658a2a8b3432f60909dc
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '413'
 ht-degree: 0%
 ---
 # Design-Konfiguration
@@ -77,7 +77,5 @@ Die Design-Konfiguration erleichtert die Bearbeitung von Design-bezogenen Regeln
    - [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."} [[!UICONTROL Search Engine Robots]](../merchandising-promotions/seo-overview.md#search-engine-robots)
    - [[!UICONTROL Product Image Watermarks]](../catalog/product-image.md#watermarks)
    - [[!UICONTROL Transactional Emails]](../systems/email-templates.md#configure-email-templates)
-
-   ![Andere Einstellungen, die sich auf das Design auswirken](./assets/configuration-other-settings.png){width="500" zoomable="yes"}
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Configuration]**.

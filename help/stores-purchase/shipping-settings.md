@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Der Ursprungsort wird verwendet, um die Gebühr für Sendungen aus Ihrem Lager o
 
 ![Herkunft](../configuration-reference/sales/assets/shipping-settings-origin.png){width="600" zoomable="yes"}
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Shipping Settings]**.
 
@@ -64,7 +64,7 @@ Eine Versandrichtlinie sollte die Geschäftsregeln und Richtlinien Ihres Unterne
 
 Um Ihre Versandrichtlinie während des Checkouts anzuzeigen, füllen Sie die Parameter für die Versandrichtlinie in der Konfiguration aus. Der Text wird angezeigt, wenn Kunden beim Checkout _Siehe unsere Versandrichtlinie_ klicken.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Shipping Settings]**.
 
@@ -86,7 +86,7 @@ Um Ihre Versandrichtlinie während des Checkouts anzuzeigen, füllen Sie die Par
 
 Die Versandoptionen für mehrere Adressen ermöglichen es Kunden, eine Bestellung während des Checkouts an mehrere Adressen zu versenden und die maximale Anzahl der Adressen zu bestimmen, an die eine Bestellung versendet werden kann.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Multishipping Settings]**.
 
@@ -119,7 +119,7 @@ Die folgenden Spediteure werden unterstützt:
 
 So aktivieren oder bearbeiten Sie benutzerdefinierte Tracking-URLs:
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Shipping Settings]**.
 

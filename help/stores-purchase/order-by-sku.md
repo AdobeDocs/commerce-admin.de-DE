@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
@@ -51,7 +51,7 @@ _Order by SKU_ ist ein [Widget](../content-design/widgets.md) das im Store als K
 
 ## Bestellung nach SKU konfigurieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich den Abschnitt **[!UICONTROL Sales]** und wählen Sie darunter **[!UICONTROL Sales]**.
 
@@ -69,7 +69,7 @@ _Order by SKU_ ist ein [Widget](../content-design/widgets.md) das im Store als K
 
 ![Adobe Commerce B2B](../assets/b2b.svg) (nur Adobe Commerce B2B) _&#x200B;**Um die Funktion „Bestellung nach SKU“ zu aktivieren, deaktivieren Sie die Funktion „Schnellbestellung“:**&#x200B;_
 
-1. Navigieren Sie zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Wählen Sie im linken Bedienfeld unter _[!UICONTROL General]_&#x200B;die Option **[!UICONTROL B2B Features]**
 

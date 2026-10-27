@@ -48,12 +48,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: eec5be4541c143c34dd75cda1903990ac4b74f8c
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1270'
 ht-degree: 0%
 ---
 # Ihr Admin-Konto
+
+>[!NOTE]
+>
+>Melden Sie sich für Adobe Commerce as a Cloud Service über Adobe Experience Cloud an und öffnen Sie eine Instanz über Commerce Cloud Manager. Unter [Commerce-Administrator in Adobe Unified Experience](admin-unified-experience.md#open-the-commerce-admin) finden Sie Zugriffsinformationen und [Benutzerverwaltung](https://experienceleague.adobe.com/de/docs/commerce/cloud-service/user-management) zum Verwalten von Adobe Commerce as a Cloud Service-Benutzern und -Rollen. Die folgenden Anweisungen für das installationsbasierte Konto und die lokale Anmeldung beschreiben nicht den Anmeldeablauf für Adobe Commerce as a Cloud Service.
 
 Das primäre Admin-Konto wurde ursprünglich während der Installation eingerichtet und kann anfängliche Platzhalterinformationen oder Beispieldateninformationen enthalten. Der festgelegte Besitzer dieses Kontos kann den Benutzernamen und das Kennwort personalisieren und den Vornamen, Nachnamen und die E-Mail-Adresse jederzeit aktualisieren. Dieses Konto, _Superuser_ mit standardmäßig allen Berechtigungen, erstellt in der Regel die für das Unternehmen erforderlichen Admin-Benutzerkonten.
 

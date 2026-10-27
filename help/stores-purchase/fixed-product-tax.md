@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Die folgenden Anweisungen zeigen, wie Sie am Beispiel „Ökosteuer“ eine fest
 
 ### Schritt 1: Feste Produktsteuer aktivieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Sales]** und wählen Sie **[!UICONTROL Tax]**.
 
@@ -101,7 +101,7 @@ Die folgenden Anweisungen zeigen, wie Sie am Beispiel „Ökosteuer“ eine fest
 
 ### Schritt 2: Erstellen eines FPT-Attributs
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Product]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Product]**.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New Attribute]** und führen Sie folgende Schritte aus:
 
@@ -131,7 +131,7 @@ Die folgenden Anweisungen zeigen, wie Sie am Beispiel „Ökosteuer“ eine fest
 
 ### Schritt 3: Hinzufügen des FPT-Attributs zu einem Attributsatz
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Attribute Set]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Attribute Set]**.
 
 1. Klicken Sie in der Liste auf das Attribut set , um den Datensatz im Bearbeitungsmodus zu öffnen.
 

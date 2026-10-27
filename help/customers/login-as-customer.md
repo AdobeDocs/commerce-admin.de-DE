@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1188'
 ht-degree: 0%
 ---
 # Kundenunterstützung bereitstellen
@@ -81,7 +81,7 @@ Für die Aktivierung _Als Kunde anmelden_ müssen Sie die Funktion in Ihrer Comm
 
 ### Funktion aktivieren
 
-1. Navigieren Sie in der Seitenleiste Admin zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der Admin -Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie im linken Bereich **[!UICONTROL Customers]** und wählen Sie **[!UICONTROL Login as Customer]**.
 
@@ -101,7 +101,7 @@ Für die Aktivierung _Als Kunde anmelden_ müssen Sie die Funktion in Ihrer Comm
 
 ### Aktivieren des Zugriffs für Admin-Benutzer
 
-1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL System]** > _Berechtigungen_ > **[!UICONTROL User Roles]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL System]** > **[!UICONTROL User Roles]**.
 
 1. Klicken Sie auf die Rolle in der Liste.
 

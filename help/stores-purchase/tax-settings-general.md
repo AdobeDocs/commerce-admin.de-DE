@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Admin [permissions](../systems/permissions.md) kann so eingestellt werden, dass 
 
 ## Konfigurieren der allgemeinen Steuereinstellungen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Legen Sie für eine Multi-Site-Konfiguration **[!UICONTROL Store View]** auf die Website und den Store fest, der das Ziel der Konfiguration ist.
 
@@ -235,7 +235,7 @@ Händler, die in verschiedenen Regionen und Regionen tätig sind, können einen 
 
 **_So ermöglichen Sie eine grenzübergreifende Preiskonsistenz:_**
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Legen Sie für eine Multi-Site-Konfiguration **[!UICONTROL Store View]** auf die Website und den Store fest, der das Ziel der Konfiguration ist.
 

@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '1976'
 ht-degree: 1%
@@ -225,7 +225,7 @@ Nachdem Sie die [!DNL Audience Activation]-Erweiterung installiert haben, müsse
    >
    >Wenn Sie eine Datenstrom-ID angeben[&#x200B; verknüpfen Sie sie mit einer bestimmten Website &#x200B;](https://experienceleague.adobe.com/de/docs/commerce/data-connection/fundamentals/connect-data#data-collection) der [!DNL Data Connection]. Wenn Ihr Commerce-Store über mehrere Websites verfügt[&#x200B; erstellen Sie &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/connect-destination) für jede Website in Real-Time CDP ein Ziel und verwenden Sie für jede eine andere Datenstrom-ID.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Erweitern Sie **[!UICONTROL Services]** und wählen Sie **[!UICONTROL [!DNL Data Connection]]**.
 
@@ -448,7 +448,7 @@ Beispiel:
 ### Falscher Authentifizierungstyp in Konfiguration ausgewählt
 
 1. Öffnen Sie Ihre Commerce-Instanz.
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 1. Erweitern Sie **[!UICONTROL Services]** und wählen Sie **[!UICONTROL [!DNL Data Connection]]**.
 1. Stellen Sie sicher, dass die im Feld **[!UICONTROL Authentication Type]** angegebene Server-zu-Server-Autorisierungsmethode korrekt ist. Adobe empfiehlt die Verwendung von **OAuth**. [JWT ist veraltet](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/security/jwt-credentials-deprecation-in-adobe-developer-console) alle aktuellen Zertifikate laufen am 1. März 2026 ab.
 

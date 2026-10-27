@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
 workflow-type: tm+mt
 source-wordcount: '1615'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Kundenadressattribute werden in den folgenden Formen verwendet:
 
 ## Schritt 1: Vervollständigen Sie die Attributeigenschaften
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Attributes]_>**[!UICONTROL Customer Address]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Customer Address]**.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Add New Attribute]**.
 

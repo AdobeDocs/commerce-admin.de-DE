@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Außerdem geben Sie die Währungen an, die Sie akzeptieren, und welche Währung 
 
 ## Schritt 1: Akzeptierte Währungen auswählen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Setzen Sie **[!UICONTROL Scope]** in der oberen linken Ecke auf die Store-Ansicht, für die die Konfiguration gilt.
 
@@ -164,7 +164,7 @@ Die Verwaltung von Währungssymbolen bietet Ihnen die Möglichkeit, das Symbol a
 
 ![Währungssymbole](./assets/stores-currency-symbols.png){width="600" zoomable="yes"}
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Currency]_>**[!UICONTROL Currency Symbols]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Currency Symbols]**.
 
    Jede Währung, die für Ihren Store aktiviert ist, wird in der _[!UICONTROL Currency]_&#x200B;angezeigt.
 

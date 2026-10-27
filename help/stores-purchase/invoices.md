@@ -34,16 +34,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1206'
 ht-degree: 0%
 ---
 # Rechnungen
 
 Eine Rechnung ist ein Datensatz über die Zahlung für eine Bestellung. Für [&#x200B; Bestellung können mehrere Rechnungen erstellt &#x200B;](#create-an-invoice). Jede Rechnung kann so viele oder so wenige der von Ihnen angegebenen gekauften Produkte enthalten. Sie können auch [druckfertige PDF-Rechnungen](#print-invoices) als Verkaufsdokumente für Ihre Kunden erstellen.
 
-Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _Vorgänge_ > **Rechnungen**, um das Raster _Rechnungen_ zu öffnen und auf Ihre erstellten Rechnungen zuzugreifen.
+Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Invoices]** , um das Raster _Rechnungen_ zu öffnen und auf Ihre erstellten Rechnungen zuzugreifen.
 
 ![Rechnungsraster](./assets/invoices.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ Bevor die Bestellung gedruckt werden kann, muss eine Rechnung für die Bestellun
 
 **_So fakturieren Sie eine Bestellung:_**
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Orders]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 
 1. Ermitteln Sie den Kundenauftrag mit dem Status `Processing` im Raster. Gehen Sie dann wie folgt vor:
 
@@ -158,7 +158,7 @@ Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor jedoch eine Re
 
 ### Eine einzelne Rechnung drucken
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
 1. Suchen Sie im _[!UICONTROL Invoices]_&#x200B;die Rechnung und klicken Sie in der Spalte_ Aktion _auf **[!UICONTROL View]**.
 
@@ -168,7 +168,7 @@ Rechnungen können einzeln oder als Stapel gedruckt werden. Bevor jedoch eine Re
 
 ### Mehrere Rechnungen drucken
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > _[!UICONTROL Operations]_>**[!UICONTROL Invoices]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Sales]** > **[!UICONTROL Invoices]**.
 
 1. Aktivieren Sie im _[!UICONTROL Invoices]_&#x200B;das Kontrollkästchen für jede zu druckende Rechnung.
 

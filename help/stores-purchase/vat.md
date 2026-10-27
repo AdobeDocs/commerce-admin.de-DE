@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 9d3fe9829bb5a7f2a75ad3c89edd38010f816a0c
 workflow-type: tm+mt
 source-wordcount: '2042'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Bei bestimmten Umsätzen zwischen Unternehmen wird die MwSt nicht erhoben. Comme
 
 Der Prozess der Erstellung einer Steuerregel beginnt mit dem Hinzufügen eines Steuersatzes.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
    ![Einrichten von Debitorensteuerklassen](./assets/vat-zones.png){width="600" zoomable="yes"}
 
@@ -95,7 +95,7 @@ Basierend auf dem übermittelten Steuersatz können Sie nachfolgende Steuerregel
 
 ### Schritt 2: Einrichten von Produktsteuerklassen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Klicken Sie auf **[!UICONTROL Add New Tax Rule]**.
 
@@ -117,7 +117,7 @@ Basierend auf dem übermittelten Steuersatz können Sie nachfolgende Steuerregel
 
 ### Schritt 3: Einrichten von Steuerzonen und Steuersätzen
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Zones and Rates]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Tax Zones and Rates]**.
 
    In diesem Beispiel können Sie die US-Steuersätze entfernen oder sie unverändert lassen.
 
@@ -145,7 +145,7 @@ Basierend auf dem übermittelten Steuersatz können Sie nachfolgende Steuerregel
 
 Eine Steuerregel ist eine Kombination aus einer Debitorensteuerklasse, einer Produktsteuerklasse und einem Steuersatz.
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Taxes]_>**[!UICONTROL Tax Rules]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Tax Rules]**.
 
 1. Fügen Sie neue Steuerregeln wie folgt hinzu:
 
@@ -167,7 +167,7 @@ Eine Steuerregel ist eine Kombination aus einer Debitorensteuerklasse, einer Pro
 
 ### Schritt 5: Anwenden von Steuerklassen auf Produkte
 
-1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Manage Products]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Catalog]** > **[!UICONTROL Products]**.
 
 1. Öffnen Sie ein Produkt aus Ihrem Katalog im Bearbeitungsmodus.
 
@@ -308,7 +308,7 @@ Erstellen Sie die [Steuerregeln](tax-rules.md), um die MwSt.-ID-Validierung effe
 
 #### Schritt 3: Validierung der MwSt.-ID aktivieren und konfigurieren
 
-1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 
 1. Legen Sie bei Bedarf die **[!UICONTROL Store View]** für die Konfiguration fest.
 
