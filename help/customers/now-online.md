@@ -1,6 +1,6 @@
 ---
 title: Kunden jetzt online
-description: Die Option _Now Online_ im Menü [!UICONTROL Customers ]listet alle Kunden und Besucher auf, die derzeit in Ihrem Geschäft online sind.
+description: Die Option _Now Online_ im Menü [!UICONTROL Customers &#x200B;]listet alle Kunden und Besucher auf, die derzeit in Ihrem Geschäft online sind.
 exl-id: 69af669d-f9aa-471b-9d62-5657f3fb2103
 TQID: https://experienceleague.adobe.com/jtyDgy3jFmn0XymAYcpc2AOLLWSTDw-3OGkvG9a1SDc
 product_v2:

@@ -31,7 +31,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Wenn die neue [[!DNL Media Gallery]](media-gallery.md) aktiviert ist, wird der Abschnitt _[!UICONTROL Media]_mit einer einzigen Option für den Zugriff auf die [!DNL Media Gallery] angezeigt. Legen Sie die **[!UICONTROL Enable Old Media Gallery]**Option auf `No` fest, indem Sie zu **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** wechseln und im linken Bereich **[!UICONTROL Advanced]** > **[!UICONTROL System]** wählen.
+>Wenn die neue [[!DNL Media Gallery]](media-gallery.md) aktiviert ist, wird der Abschnitt _[!UICONTROL Media]_&#x200B;mit einer einzigen Option für den Zugriff auf die [!DNL Media Gallery] angezeigt. Legen Sie die **[!UICONTROL Enable Old Media Gallery]**&#x200B;Option auf `No` fest, indem Sie zu **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** wechseln und im linken Bereich **[!UICONTROL Advanced]** > **[!UICONTROL System]** wählen.
 
 >[!BEGINTABS]
 
@@ -57,14 +57,14 @@ Wählen Sie in der _Admin_-Seitenleiste **[!UICONTROL Content]** aus.
 
 - Erstellen [Seiten](pages.md) mit Text, Bildern, Blöcken, Variablen und Widgets. Ihre Seiten können in die Navigation Ihres Stores integriert und mit anderen Seiten verknüpft werden.
 - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Organisieren Sie Ihre Seiten in einer [Hierarchie](page-hierarchy.md) mit Navigation.
-- Erstellen [ Inhaltsblöcke ](blocks.md) Schreiben von Code. Blöcke können Text, Bilder und sogar Videos enthalten und jedem Teil des Seiten-Layouts zugewiesen werden.
+- Erstellen [&#x200B; Inhaltsblöcke &#x200B;](blocks.md) Schreiben von Code. Blöcke können Text, Bilder und sogar Videos enthalten und jedem Teil des Seiten-Layouts zugewiesen werden.
 - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Erstellen Sie [dynamische Blöcke](dynamic-blocks.md) um umfangreiche, interaktive Inhalte zu integrieren, die von Logiken aus [Preisregeln](../merchandising-promotions/introduction.md#promotions) und [Kundensegmenten](../customers/customer-segments.md) werden.
 - Erstellen Sie [Widgets](widgets.md) die dynamische Daten anzeigen und Blöcke, Links und interaktive Elemente an den meisten Stellen im Store hinzufügen.
 - Erstellen Sie [Vorlagen](../page-builder/templates.md) aus Ihren Page Builder-Inhalten und verbessern Sie die Effizienz beim Hinzufügen neuer Inhalte (oder beim Ersetzen älterer Inhalte).
 
 >[!NOTE]
 >
->Die _[!UICONTROL Banners]_Option in diesem Menü ist seit 2.3.1 veraltet und wurde entfernt. Seine Funktionalität wird durch dynamische Blöcke ersetzt.
+>Die _[!UICONTROL Banners]_&#x200B;Option in diesem Menü ist seit 2.3.1 veraltet und wurde entfernt. Seine Funktionalität wird durch dynamische Blöcke ersetzt.
 
 ## [!UICONTROL Design] {#design-features}
 

@@ -87,7 +87,7 @@ Die Rückgabeattribute werden verwendet, um Informationen zu speichern, die wäh
    - `Strip HTML Tags`
    - `Escape  HTML Entities`
 
-1. Um das Attribut für Kunden sichtbar zu machen, legen Sie im Abschnitt _[!UICONTROL Storefront Properties]_den Wert **[!UICONTROL Show on Storefront]**auf `Yes` fest.
+1. Um das Attribut für Kunden sichtbar zu machen, legen Sie im Abschnitt _[!UICONTROL Storefront Properties]_&#x200B;den Wert **[!UICONTROL Show on Storefront]**&#x200B;auf `Yes` fest.
 
 1. (Optional) Geben Sie **[!UICONTROL Sort Order]** eine Zahl ein, um zu bestimmen, wo dieses Attribut relativ zu den anderen im selben Teil der Seite angezeigt wird. (`0` = First, `1` = Second, `2` = Third usw.)
 

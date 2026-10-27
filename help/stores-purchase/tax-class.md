@@ -34,7 +34,7 @@ ht-degree: 0%
 
 Steuerklassen können Kunden, Produkten und Versand zugeordnet werden. Commerce analysiert den Warenkorb jedes Kunden und berechnet die entsprechende Steuer entsprechend der Klasse des Kunden, der Klasse der Produkte im Warenkorb und der Region. Die Region wird durch die Lieferadresse des Kunden, die Rechnungsadresse oder die Versandherkunft bestimmt. Neue Steuerklassen können erstellt werden, wenn eine [Steuerregel](tax-rules.md) definiert wird.
 
-- **Kunde** - Sie können beliebig viele Debitorensteuerklassen erstellen und sie &quot;[&quot; ](../customers/customer-groups.md). So werden beispielsweise in einigen Steuergebieten Großhandelsumsätze nicht besteuert, wohl aber Einzelhandelsumsätze. Sie können Mitglieder der Gruppe „Großkunden“ mit der Steuerklasse „Großhandel“ verknüpfen.
+- **Kunde** - Sie können beliebig viele Debitorensteuerklassen erstellen und sie &quot;[&quot; &#x200B;](../customers/customer-groups.md). So werden beispielsweise in einigen Steuergebieten Großhandelsumsätze nicht besteuert, wohl aber Einzelhandelsumsätze. Sie können Mitglieder der Gruppe „Großkunden“ mit der Steuerklasse „Großhandel“ verknüpfen.
 
 - **Produkt** - Produktklassen werden in Berechnungen verwendet, um den korrekten Steuersatz zu bestimmen, der im Warenkorb angewendet wird. Wenn Sie ein Produkt erstellen, wird es einer bestimmten Steuerklasse zugewiesen. Beispielsweise dürfen Lebensmittel möglicherweise nicht oder anders besteuert werden.
 
@@ -42,7 +42,7 @@ Steuerklassen können Kunden, Produkten und Versand zugeordnet werden. Commerce 
 
 ## Steuerklassen konfigurieren
 
-Die Steuerklasse, die für den Versand verwendet wird, und die standardmäßigen Steuerklassen für [Produkte und Kunden](#add-a-product-tax-class) werden in der _[!UICONTROL Sales]_Konfiguration festgelegt.
+Die Steuerklasse, die für den Versand verwendet wird, und die standardmäßigen Steuerklassen für [Produkte und Kunden](#add-a-product-tax-class) werden in der _[!UICONTROL Sales]_&#x200B;Konfiguration festgelegt.
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL Configuration]**.
 

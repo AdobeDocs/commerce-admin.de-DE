@@ -48,7 +48,7 @@ United Parcel Service (UPS) bietet inländische und internationale Verschiffen a
 
 ## Schritt 1: Öffnen Sie ein UPS Versandkonto
 
-Um diese Versandart Ihren Kunden anzubieten, müssen Sie zunächst ein UPS-Konto eröffnen und den Antrag ausfüllen, um eine Versender-Kontonummer zu erhalten. Siehe [Kostenloses UPS-Konto ](https://www.ups.com/us/en/business-solutions/open-an-account).
+Um diese Versandart Ihren Kunden anzubieten, müssen Sie zunächst ein UPS-Konto eröffnen und den Antrag ausfüllen, um eine Versender-Kontonummer zu erhalten. Siehe [Kostenloses UPS-Konto &#x200B;](https://www.ups.com/us/en/business-solutions/open-an-account).
 
 ## Schritt 2: Abrufen von UPS OAUTH-Anmeldeinformationen
 
@@ -87,7 +87,7 @@ Wenn Sie die USV-Einstellungen in Admin konfigurieren, verwenden Sie die Werte d
 
    >[!NOTE]
    >
-   >Der Standardtyp Einheitlicher Paketdienst ist für die Einstellung geplant. Verwenden Sie für neue Konfigurationen den standardmäßigen `United Parcel Service REST`. Der REST-Typ ist auch erforderlich, um ([) ](shipping-labels.md) generieren.<br/>
+   >Der Standardtyp Einheitlicher Paketdienst ist für die Einstellung geplant. Verwenden Sie für neue Konfigurationen den standardmäßigen `United Parcel Service REST`. Der REST-Typ ist auch erforderlich, um ([) &#x200B;](shipping-labels.md) generieren.<br/>
    >Für die Version 2.4.7 wird **[!UICONTROL UPS Type]** entfernt, da `UPS`- und `UPS XML`-Typen zur Einstellung geplant sind und `UPS REST` der Standard ist. Die von der nativen Adobe Commerce-Integration verwendeten United Parcel Service (UPS)-APIs werden vorübergehend nicht mehr unterstützt, da sie derzeit das OAuth 2.0-Sicherheitsmodell nicht unterstützen.
 
    >[!IMPORTANT]

@@ -96,9 +96,9 @@ Wenn Ihre Adobe Commerce- oder Magento Open Source-Installation über eine Multi
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > **[!UICONTROL All Stores]**.
 
-1. Klicken Sie in der Spalte _[!UICONTROL Store View]_des Rasters auf den Namen der Ansicht, die Sie bearbeiten möchten.
+1. Klicken Sie in der Spalte _[!UICONTROL Store View]_&#x200B;des Rasters auf den Namen der Ansicht, die Sie bearbeiten möchten.
 
-   Beim Bearbeiten der Standardansicht sind die Felder _[!UICONTROL Store]_und_[!UICONTROL Status]_ nicht verfügbar.
+   Beim Bearbeiten der Standardansicht sind die Felder _[!UICONTROL Store]_&#x200B;und&#x200B;_[!UICONTROL Status]_ nicht verfügbar.
 
    ![Store-Ansicht - Standardansicht bearbeiten](./assets/edit-store-view-info.png){width="600" zoomable="yes"}
 
