@@ -73,6 +73,7 @@ Informationen zum Zugriffsverfahren finden Sie unter [Zugriff auf eine Instanz](
 >[!ENDTABS]
 
 -->
+
 ### Admin-Benutzeroberfläche auswählen {#classic-ui}
 
 Für die erste Version von Commerce Admin in Unified Experience unterstützt Adobe Commerce as a Cloud Service zwei Commerce Admin-Erlebnisse: Adobe Unified Experience und die Classic-Benutzeroberfläche.
