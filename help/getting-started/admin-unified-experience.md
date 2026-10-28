@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e10d4cd8b48e1714c0f32b6c6733524eaac0aa8c
+source-git-commit: af49ec1ee144f689101b020bb805aea72f49ef16
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1433'
 ht-degree: 0%
 ---
 # Commerce Admin in Adobe Unified Experience
@@ -56,18 +56,23 @@ Mit dem Anmeldefluss können Sie zwischen Commerce-Instanzen wechseln, ohne sich
 Sie können ohne weitere Eingabeaufforderungen zwischen Adobe-Produkten und Commerce-Instanzen wechseln.
 
 Informationen zum Zugriffsverfahren finden Sie unter [Zugriff auf eine Instanz](https://experienceleague.adobe.com/de/docs/commerce/cloud-service/getting-started#access-an-instance){target="_blank"} im _Adobe Commerce as a Cloud Service-Handbuch_.
+<!--
 
 >[!BEGINTABS]
 
->[!TAB Öffnen Sie den Administrator über Commerce Cloud Manager]
+>[!TAB Open the Admin from Commerce Cloud Manager]
 
-![Admin öffnen](./assets/admin-uex-seamless-login-cloud-manager-to-instance.png){width="800" zoomable="yes" border="light"}
+-->
+![Admin öffnen](./assets/admin-uex-seamless-login-cloud-manager-to-instance-edited.png){width="800" zoomable="yes" border="light"}
 
->[!TAB Sehen Sie es in Aktion]
+<!--
+>[!TAB See it in action]
 
-![Öffnen Sie den Administrator über Commerce Cloud Manager](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
+![Open the Admin from Commerce Cloud Manager](./assets/admin-uex-seamless-login-cloud-manager-to-instance.gif){width="800" zoomable="yes" border="light"}
 
 >[!ENDTABS]
+
+-->
 
 ### Admin-Benutzeroberfläche auswählen {#classic-ui}
 
@@ -82,7 +87,7 @@ Die Links für Unified Experience Manager und die klassische Benutzeroberfläche
 | **[!UICONTROL Admin URL (Unified Shell UI)]** | Öffnet den Administrator in Unified Experience Platform. |
 | **[!UICONTROL Admin URL (Classic UI)]** | Öffnet die vorherige Admin-Benutzeroberfläche. |
 
-![Abbildung der Commerce Cloud Manager-Instanzdetails mit den Links Admin-URL (Unified Shell-Benutzeroberfläche) und Admin-URL (klassische Benutzeroberfläche)](./assets/admin-unified-experience-cloud-manager-instance-details.png){width="800" zoomable="yes" border="light"}
+![Abbildung der Commerce Cloud Manager-Instanzdetails mit den Links Admin-URL (Unified Shell-Benutzeroberfläche) und Admin-URL (klassische Benutzeroberfläche)](./assets/admin-unified-experience-cloud-manager-instance-details-edited.png){width="800" zoomable="yes" border="light"}
 
 _Abbildung basierend auf dem Screenshot der Instanzliste und dem aktualisierten Design der Instanzdetails. Die angezeigten URLs verwenden Staging-Hosts._
 
