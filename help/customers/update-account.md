@@ -121,7 +121,7 @@ Im Abschnitt [Geschenkregistrierung](../merchandising-promotions/gift-registry-s
 
 Auf [&#x200B; Registerkarte &#x200B;](../customers/store-credit.md)Store-Guthaben) wird ein Betrag angezeigt, der in einem Kundenkonto wiederhergestellt wurde. Der Administrator kann diesen Wert verwalten.
 
-[!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Die Registerkarte &quot;[!UICONTROL Store Credit]&quot; und die **[!UICONTROL Store Credit Balance]** auf der Registerkarte &quot;**[!UICONTROL Customer View]**&quot; werden nur angezeigt, wenn die Benutzerrolle die **[!UICONTROL Manage Store Credit Balances]** Ressource enthält. Siehe [Speichern von Ressourcen für Kreditorenfunktionen](../customers/store-credit-using.md#store-credit-role-resources).
+[!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Die Registerkarte &quot;[!UICONTROL Store Credit]&quot; und die **[!UICONTROL Store Credit Balance]** auf der Registerkarte &quot;**[!UICONTROL Customer View]**&quot; werden nur angezeigt, wenn die Benutzerrolle die **[!UICONTROL Manage Store Credit Balances]** Ressource enthält. Siehe [Speichern von Ressourcen für Kreditorenfunktionen](../customers/store-credit-using.md#store-credit-role-resources).
 
 ### [!UICONTROL Newsletter]
 

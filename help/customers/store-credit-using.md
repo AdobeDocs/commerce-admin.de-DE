@@ -44,7 +44,7 @@ Shop-Administratoren können den Guthabensaldo und die Historie aus dem Kundenko
 
 ## Ressourcen für Kreditorenrolle speichern
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 Mit den folgenden Ressourcen wird festgelegt, welche Admin-Benutzer das Filialguthaben eines Kunden ändern können und welche Benutzer Filialguthaben auf eine Bestellung anwenden können. Informationen zum Zuweisen von Ressourcen zu einer Benutzerrolle finden Sie unter [Rollenressourcen](../systems/permissions-user-roles.md#role-resources).
 
@@ -94,7 +94,7 @@ Als Store-Administrator können Sie verschiedene Dinge im Namen eines Kunden tun
 
 ![Den Kontostand für den Shop auf die Bestellung anwenden](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
-[!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Das Kontrollkästchen **[!UICONTROL Use Store Credit]** wird nur angezeigt, wenn die **[!UICONTROL Can Spend Store Credit]**-Ressource in Ihrer Benutzerrolle enthalten ist. Siehe [Speichern von Ressourcen für Kreditorenfunktionen](#store-credit-role-resources).
+[!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Das Kontrollkästchen **[!UICONTROL Use Store Credit]** wird nur angezeigt, wenn die **[!UICONTROL Can Spend Store Credit]**-Ressource in Ihrer Benutzerrolle enthalten ist. Siehe [Speichern von Ressourcen für Kreditorenfunktionen](#store-credit-role-resources).
 
 ## Warenkorb-Guthaben während des Checkouts anwenden
 
