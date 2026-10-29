@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
+source-git-commit: b2b09a49ecd0c585d6ea456f0c00e05d813e324d
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '521'
 ht-degree: 0%
 ---
 # Store-Guthaben anwenden
@@ -42,6 +42,18 @@ Shop-Administratoren können den Guthabensaldo und die Historie aus dem Kundenko
 
 ![Kundenkredit- und -historie](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
 
+## Ressourcen für Kreditorenrolle speichern
+
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+
+Mit den folgenden Ressourcen wird festgelegt, welche Admin-Benutzer das Filialguthaben eines Kunden ändern können und welche Benutzer Filialguthaben auf eine Bestellung anwenden können. Informationen zum Zuweisen von Ressourcen zu einer Benutzerrolle finden Sie unter [Rollenressourcen](../systems/permissions-user-roles.md#role-resources).
+
+- **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]** ermöglicht Benutzern das Anzeigen und Aktualisieren von Speicherguthaben. Ohne sie sind die Registerkarte **[!UICONTROL Store Credit]** und die **[!UICONTROL Store Credit Balance]** auf der Registerkarte **[!UICONTROL Customer View]** nicht sichtbar. Der/die Benutzende kann weiterhin andere Änderungen an Kundenkonten vornehmen.
+
+- **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]** ermöglicht es Benutzern, beim [ (Erstellen einer Bestellung) eine Gutschrift ](../stores-purchase/customer-account-create-order.md). Ohne sie ist das Kontrollkästchen **[!UICONTROL Use Store Credit]** nicht sichtbar.
+
+Admin-Benutzer und -Integrationen, die die REST-API verwenden, benötigen die **[!UICONTROL Can Spend Store Credit]** Ressource, um einen Warenkorb mit einem Warenkorb zu belegen oder um eine Bestellung für einen Warenkorb aufzugeben, dem bereits ein Warenkorb-Guthaben zugewiesen wurde. Weitere Informationen finden Sie unter [Gutschrift speichern](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/).
+
 ## Kreditsaldo anzeigen
 
 1. Navigieren Sie in der _Admin_-Seitenleiste zu **[!UICONTROL Customers]** > **[!UICONTROL All Customers]**.
@@ -50,7 +62,7 @@ Shop-Administratoren können den Guthabensaldo und die Historie aus dem Kundenko
 
 1. Klicken Sie in _Spalte_ Aktion **[!UICONTROL Edit]** auf.
 
-1. Scrollen Sie _[!UICONTROL Customer View]_&#x200B;Seite und zeigen Sie die **[!UICONTROL Store Credit Balance]**&#x200B;unten an.
+1. Scrollen Sie _[!UICONTROL Customer View]_Seite und zeigen Sie die **[!UICONTROL Store Credit Balance]**unten an.
 
 ![Kontostand speichern](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -82,6 +94,8 @@ Als Store-Administrator können Sie verschiedene Dinge im Namen eines Kunden tun
 
 ![Den Kontostand für den Shop auf die Bestellung anwenden](assets/store-credit-apply.png){width="500" zoomable="yes"}
 
+[!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Das Kontrollkästchen **[!UICONTROL Use Store Credit]** wird nur angezeigt, wenn die **[!UICONTROL Can Spend Store Credit]**-Ressource in Ihrer Benutzerrolle enthalten ist. Siehe [Speichern von Ressourcen für Kreditorenfunktionen](#store-credit-role-resources).
+
 ## Warenkorb-Guthaben während des Checkouts anwenden
 
 Wenn ein Guthaben für die Website vorhanden ist, kann der Kunde eine Gutschrift auf den Bestellsaldo anwenden, bevor er die Bestellung in der Storefront aufgibt.
@@ -94,7 +108,7 @@ Wenn ein Guthaben für die Website vorhanden ist, kann der Kunde eine Gutschrift
 
    >[!INFO]
    >
-   >Die Bestellsumme wird neu berechnet, und der Betrag der angewendeten Speichergutschrift wird im _[!UICONTROL Order Summary]_&#x200B;angezeigt.
+   >Die Bestellsumme wird neu berechnet, und der Betrag der angewendeten Speichergutschrift wird im _[!UICONTROL Order Summary]_angezeigt.
 
    ![Auf die Bestellung angewendetes Guthaben speichern](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 
