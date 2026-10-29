@@ -50,7 +50,7 @@ Mit den folgenden Ressourcen wird festgelegt, welche Admin-Benutzer das Filialgu
 
 - **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]** ermöglicht Benutzern das Anzeigen und Aktualisieren von Speicherguthaben. Ohne sie sind die Registerkarte **[!UICONTROL Store Credit]** und die **[!UICONTROL Store Credit Balance]** auf der Registerkarte **[!UICONTROL Customer View]** nicht sichtbar. Der/die Benutzende kann weiterhin andere Änderungen an Kundenkonten vornehmen.
 
-- **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]** ermöglicht es Benutzern, beim [ (Erstellen einer Bestellung) eine Gutschrift ](../stores-purchase/customer-account-create-order.md). Ohne sie ist das Kontrollkästchen **[!UICONTROL Use Store Credit]** nicht sichtbar.
+- **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]** ermöglicht es Benutzern, beim [&#x200B; (Erstellen einer Bestellung) eine Gutschrift &#x200B;](../stores-purchase/customer-account-create-order.md). Ohne sie ist das Kontrollkästchen **[!UICONTROL Use Store Credit]** nicht sichtbar.
 
 Admin-Benutzer und -Integrationen, die die REST-API verwenden, benötigen die **[!UICONTROL Can Spend Store Credit]** Ressource, um einen Warenkorb mit einem Warenkorb zu belegen oder um eine Bestellung für einen Warenkorb aufzugeben, dem bereits ein Warenkorb-Guthaben zugewiesen wurde. Weitere Informationen finden Sie unter [Gutschrift speichern](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/).
 
@@ -62,7 +62,7 @@ Admin-Benutzer und -Integrationen, die die REST-API verwenden, benötigen die **
 
 1. Klicken Sie in _Spalte_ Aktion **[!UICONTROL Edit]** auf.
 
-1. Scrollen Sie _[!UICONTROL Customer View]_Seite und zeigen Sie die **[!UICONTROL Store Credit Balance]**unten an.
+1. Scrollen Sie _[!UICONTROL Customer View]_&#x200B;Seite und zeigen Sie die **[!UICONTROL Store Credit Balance]**&#x200B;unten an.
 
 ![Kontostand speichern](assets/store-credit-balance.png){width="600" zoomable="yes"}
 
@@ -108,7 +108,7 @@ Wenn ein Guthaben für die Website vorhanden ist, kann der Kunde eine Gutschrift
 
    >[!INFO]
    >
-   >Die Bestellsumme wird neu berechnet, und der Betrag der angewendeten Speichergutschrift wird im _[!UICONTROL Order Summary]_angezeigt.
+   >Die Bestellsumme wird neu berechnet, und der Betrag der angewendeten Speichergutschrift wird im _[!UICONTROL Order Summary]_&#x200B;angezeigt.
 
    ![Auf die Bestellung angewendetes Guthaben speichern](assets/store-credit-checkout.png){width="700" zoomable="yes"}
 

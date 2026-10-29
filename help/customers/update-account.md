@@ -31,7 +31,7 @@ ht-degree: 0%
 ---
 # Kundenprofil aktualisieren
 
-Das linke Bedienfeld der _[!UICONTROL Customer Information]_enthält Informationen über Kundenaktivität, Adressen, Bestellstatistiken, aktuelle Bestellungen, den Inhalt des Warenkorbs, Produktbewertungen und Newsletter-Abonnements.
+Das linke Bedienfeld der _[!UICONTROL Customer Information]_&#x200B;enthält Informationen über Kundenaktivität, Adressen, Bestellstatistiken, aktuelle Bestellungen, den Inhalt des Warenkorbs, Produktbewertungen und Newsletter-Abonnements.
 
 ![Kundenprofil](assets/cust-profile.png){width="700" zoomable="yes"}
 
@@ -98,11 +98,11 @@ Das Raster [Bestellungen](../stores-purchase/orders.md) enthält eine Liste alle
 
 {{ee-feature}}
 
-Auf [ Registerkarte ](../stores-purchase/returns.md)Rückgaben“ werden die aktuellen zurückgegebenen Kundenanfragen aufgelistet.
+Auf [&#x200B; Registerkarte &#x200B;](../stores-purchase/returns.md)Rückgaben“ werden die aktuellen zurückgegebenen Kundenanfragen aufgelistet.
 
 ### [!UICONTROL Shopping cart]
 
-Auf [ Registerkarte ](../stores-purchase/cart.md)Warenkorb“ werden Produkte angezeigt, die sich derzeit im Warenkorb befinden. Aus irgendeinem Grund wurde der Kauf jedoch nicht abgeschlossen.
+Auf [&#x200B; Registerkarte &#x200B;](../stores-purchase/cart.md)Warenkorb“ werden Produkte angezeigt, die sich derzeit im Warenkorb befinden. Aus irgendeinem Grund wurde der Kauf jedoch nicht abgeschlossen.
 
 ### [!UICONTROL Wish List]
 
@@ -119,7 +119,7 @@ Im Abschnitt [Geschenkregistrierung](../merchandising-promotions/gift-registry-s
 
 {{ee-feature}}
 
-Auf [ Registerkarte ](../customers/store-credit.md)Store-Guthaben) wird ein Betrag angezeigt, der in einem Kundenkonto wiederhergestellt wurde. Der Administrator kann diesen Wert verwalten.
+Auf [&#x200B; Registerkarte &#x200B;](../customers/store-credit.md)Store-Guthaben) wird ein Betrag angezeigt, der in einem Kundenkonto wiederhergestellt wurde. Der Administrator kann diesen Wert verwalten.
 
 [!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Die Registerkarte &quot;[!UICONTROL Store Credit]&quot; und die **[!UICONTROL Store Credit Balance]** auf der Registerkarte &quot;**[!UICONTROL Customer View]**&quot; werden nur angezeigt, wenn die Benutzerrolle die **[!UICONTROL Manage Store Credit Balances]** Ressource enthält. Siehe [Speichern von Ressourcen für Kreditorenfunktionen](../customers/store-credit-using.md#store-credit-role-resources).
 
@@ -129,11 +129,11 @@ Die [Newsletter](../merchandising-promotions/newsletters.md) zeigt alle E-Mails 
 
 ### [!UICONTROL Billing Agreements]
 
-Auf [ Registerkarte ](../stores-purchase/paypal-billing-agreements.md)Abrechnungsvereinbarungen“ werden alle PayPal-Abrechnungsvereinbarungen zwischen dem Geschäft und dem Kunden aufgeführt.
+Auf [&#x200B; Registerkarte &#x200B;](../stores-purchase/paypal-billing-agreements.md)Abrechnungsvereinbarungen“ werden alle PayPal-Abrechnungsvereinbarungen zwischen dem Geschäft und dem Kunden aufgeführt.
 
 ### [!UICONTROL Product Reviews]
 
-Auf [ Registerkarte ](../catalog/settings-advanced-product-reviews.md)Produktbewertungen“ werden alle von diesem Kunden gesendeten Überprüfungen angezeigt.
+Auf [&#x200B; Registerkarte &#x200B;](../catalog/settings-advanced-product-reviews.md)Produktbewertungen“ werden alle von diesem Kunden gesendeten Überprüfungen angezeigt.
 
 ### [!UICONTROL Reward Points]
 
