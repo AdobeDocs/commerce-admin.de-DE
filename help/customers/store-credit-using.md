@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 117720d06227a9122059a1f72fa498465b8cc644
+source-git-commit: b2b09a49ecd0c585d6ea456f0c00e05d813e324d
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '521'
 ht-degree: 0%
 ---
 # Store-Guthaben anwenden
@@ -41,6 +41,18 @@ ht-degree: 0%
 Shop-Administratoren können den Guthabensaldo und die Historie aus dem Kundenkonto einsehen und auch eine Shop-Gutschrift auf einen Kauf anwenden.
 
 ![Kundenkredit- und -historie](assets/store-credit-balance-history.png){width="600" zoomable="yes"}
+
+## Ressourcen für Kreditorenrolle speichern
+
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+
+Mit den folgenden Ressourcen wird festgelegt, welche Admin-Benutzer das Filialguthaben eines Kunden ändern können und welche Benutzer Filialguthaben auf eine Bestellung anwenden können. Informationen zum Zuweisen von Ressourcen zu einer Benutzerrolle finden Sie unter [Rollenressourcen](../systems/permissions-user-roles.md#role-resources).
+
+- **[!UICONTROL Customers]** > **[!UICONTROL All Customers]** > **[!UICONTROL Manage Store Credit Balances]** ermöglicht Benutzern das Anzeigen und Aktualisieren von Speicherguthaben. Ohne sie sind die Registerkarte **[!UICONTROL Store Credit]** und die **[!UICONTROL Store Credit Balance]** auf der Registerkarte **[!UICONTROL Customer View]** nicht sichtbar. Der/die Benutzende kann weiterhin andere Änderungen an Kundenkonten vornehmen.
+
+- **[!UICONTROL Sales]** > **[!UICONTROL Operations]** > **[!UICONTROL Orders]** > **[!UICONTROL Actions]** > **[!UICONTROL Create]** > **[!UICONTROL Can Spend Store Credit]** ermöglicht es Benutzern, beim [&#x200B; (Erstellen einer Bestellung) eine Gutschrift &#x200B;](../stores-purchase/customer-account-create-order.md). Ohne sie ist das Kontrollkästchen **[!UICONTROL Use Store Credit]** nicht sichtbar.
+
+Admin-Benutzer und -Integrationen, die die REST-API verwenden, benötigen die **[!UICONTROL Can Spend Store Credit]** Ressource, um einen Warenkorb mit einem Warenkorb zu belegen oder um eine Bestellung für einen Warenkorb aufzugeben, dem bereits ein Warenkorb-Guthaben zugewiesen wurde. Weitere Informationen finden Sie unter [Gutschrift speichern](https://developer.adobe.com/commerce/webapi/rest/saas-integrations/store-credit/).
 
 ## Kreditsaldo anzeigen
 
@@ -81,6 +93,8 @@ Der aktualisierte Saldo sollte in **[!UICONTROL Balance History]** angezeigt wer
 Als Store-Administrator können Sie verschiedene Dinge im Namen eines Kunden tun, einschließlich der Abgabe von Bestellungen. Wenn Sie [eine Bestellung erstellen](../stores-purchase/customer-account-create-order.md) können Sie ein dem Kunden geschuldetes Filialguthaben zuordnen. Der verfügbare Saldo wird im Abschnitt _Zahlungs- und Versandinformationen_ angezeigt. Aktivieren Sie das Kontrollkästchen &quot;**[!UICONTROL Use Store Credit]**&quot;, um den Saldo anzuwenden, oder einen Teil des Saldos, wenn die Bestellsumme kleiner ist.
 
 ![Den Kontostand für den Shop auf die Bestellung anwenden](assets/store-credit-apply.png){width="500" zoomable="yes"}
+
+[!BADGE Nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} Das Kontrollkästchen **[!UICONTROL Use Store Credit]** wird nur angezeigt, wenn die **[!UICONTROL Can Spend Store Credit]**-Ressource in Ihrer Benutzerrolle enthalten ist. Siehe [Speichern von Ressourcen für Kreditorenfunktionen](#store-credit-role-resources).
 
 ## Warenkorb-Guthaben während des Checkouts anwenden
 

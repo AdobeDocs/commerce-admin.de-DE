@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b8d426f123be4b9fedf1198a8864d552cb6e1059
+source-git-commit: c073327e16e3738b5c92f79e442489572046f739
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2437'
 ht-degree: 0%
 ---
 # Kataloganreicherung
@@ -263,6 +263,7 @@ Diese Regeln helfen Ihnen zu ermitteln, ob Kataloganreicherung, Aufnahme-Feeds o
 
 ## Einschränkungen und Überlegungen {#limits}
 
+- Die Anreicherung unterstützt derzeit nur englischsprachige Produktinhalte.
 - Die Anreicherung gilt nur für Produktnamen und lange Beschreibungen. Das PDP-Layout, Widgets oder andere Storefront-Inhalte auf Seitenebene werden nicht geändert.
 - Große Kataloge und eine hohe URL-Anzahl können sich darauf auswirken, wie schnell die Analyse abgeschlossen wird und wie viele Vorschläge gleichzeitig angezeigt werden.
 - Aussagekräftige Vorschläge gehen davon aus, dass LLM-relevante Bots auf die von Ihnen gewünschten Produkt-URLs zugreifen können. Roboterregeln, Authentifizierung, Geoblocking und umfassende Personalisierung können die Abdeckung verringern.
