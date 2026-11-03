@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c073327e16e3738b5c92f79e442489572046f739
+source-git-commit: a0d661434bd61349bd5616d6635b4c43340308bc
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '3173'
 ht-degree: 0%
 ---
 # Kataloganreicherung
@@ -108,22 +108,33 @@ Arbeiten Sie mit Ihrem Commerce-Administrator oder Implementierungspartner zusam
 
 ### Installieren von Erweiterungen für Kataloganreicherung und Katalog-Services
 
-1. Installieren Sie die Kataloganreicherungserweiterung in Ihrer Commerce-Instanz, indem Sie den folgenden Befehl ausführen:
+1. Installieren Sie die Kataloganreicherungserweiterung in Ihrer Commerce-Instanz und wenden Sie die Änderungen an:
 
    ```bash
-   composer require magento/module-catalog-enrichment --no-update
-   composer update magento/module-catalog-enrichment
+   composer require magento/module-catalog-enrichment:^2.1
+   bin/magento setup:upgrade
+   bin/magento cache:flush
    ```
+
+   `setup:upgrade` aktiviert die Erweiterung, erstellt ihre Datenbanktabelle und gewährt den Admin-Berechtigungen. Leeren Sie den Cache danach, damit die Berechtigungen wirksam werden. Im Produktionsmodus auch `bin/magento setup:di:compile` und `bin/magento setup:static-content:deploy` ausführen.
 
 1. Wenn Sie noch keine Katalog-Services installiert haben, [&#x200B; Sie (](https://experienceleague.adobe.com/de/docs/commerce/catalog-service/installation#install-the-catalog-service-extension)).
 
    **[!UICONTROL Catalog enrichment]** ist jetzt in Ihrer Commerce-Instanz verfügbar.
 
+>[!IMPORTANT]
+>
+>Catalog Enrichment 2.1.2 und höher erfordert Adobe Commerce 2.4.7 oder höher in PHP 8.3 oder höher und kann nicht zusammen mit der [!DNL Adobe Brand Visibility]-Erweiterung (`magento/llm-optimizer`) installiert werden. Wenn Sie es installiert haben, entfernen Sie es vor dem Upgrade. Siehe [Upgrade von früheren Versionen](#upgrade-from-earlier-versions) in den Versionshinweisen.
+
 ### Zugriff auf die Kataloganreicherung
 
-Nach der Installation der Erweiterungen Catalog Enrichment und Catalog Services ist die Funktion Catalog Enrichment in Admin unter **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]** verfügbar.
+Nach der Installation der Erweiterungen Catalog Enrichment und Catalog Services ist die Funktion Catalog Enrichment in Admin unter **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]** verfügbar.
 
 ![Kataloganreicherung](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>Das **[!UICONTROL AI Product Discovery]** Menü enthält auch **[!UICONTROL Product Details Page Enrichment (Beta)]**. Die Anreicherung der Produktdetailseite befindet sich in der Beta-Phase und ist noch nicht allgemein verfügbar.
 
 ### Konfigurieren der Kataloganreicherung {#configure-catalog-enrichment}
 
@@ -131,7 +142,7 @@ Konfigurieren Sie die Kataloganreicherung auf der Registerkarte **[!UICONTROL Se
 
 Die Felder auf dieser Registerkarte identifizieren die Commerce-Umgebung und die Store-Ansicht, mit der sich die Kataloganreicherung verbindet. Sie sind nicht mit der Adobe IMS-Organisation identisch, die Ihre [!DNL Adobe Brand Visibility]-Berechtigung besitzt. Siehe [IMS-Anmeldung und Organisationsanforderungen](#ims-sign-in-requirements).
 
-1. Navigieren Sie in der Admin-Liste zu **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Enrichment]**.
+1. Navigieren Sie in der Admin-Liste zu **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**.
 1. Wählen Sie in der **[!UICONTROL Scope]** oben auf der Seite die Store-Ansicht aus, die Sie konfigurieren möchten, oder lassen Sie **[!UICONTROL All Store Views]**, um die Einstellungen in allen Store-Ansichten zu verwalten.
 1. Öffnen Sie die Registerkarte **[!UICONTROL Settings]** .
 1. Erweitern Sie in **[!UICONTROL Commerce Configuration]** das Ansichtsfeld Store mit der Bezeichnung und der URL.
@@ -308,3 +319,79 @@ Die Kataloganreicherung erweitert die Konfigurations- und Fabric-Attribute zu ei
 - **Nachher**: „Diese Konfiguration umfasst 6 Standard-Sitzeinsätze und 6 Standard-Seiteneinsätze, die austauschbar als Arme oder Rücken fungieren und die modularen Bausteine Ihres Layouts bilden. Jeder Sitz verfügt über Standardschaum mit drei hochdichten Schichten, die entwickelt wurden, um den Auftrieb zu erhalten und dem Durchhängen zu widerstehen. Die Sapphire Navy Corded Velvet Hülle ist genauso haltbar wie luxuriös, mit strukturierten Kordeln, die einen subtilen Glanz und ein weiches, weiches Gefühl erzeugen. Die Abdeckungen werden von Hand genäht, um einen präzisen, maßgeschneiderten Look zu erzielen, und sind maschinenwaschbar und veränderbar, sodass sich Ihr Schnitt mit Ihrem Raum entwickeln kann.“
 
 Da die angereicherte Beschreibung in den Commerce-Katalog zurückgeschrieben wird, ist sie für KI-Bots verfügbar, die die Produktdetailseite crawlen haben, sowie für jeden nachgelagerten Kanal oder Feed, der die Katalogdaten des Produkts verwendet, ohne das Layout oder Design zu ändern, das Kundinnen und Kunden auf der Seite sehen.
+
+## Versionshinweise {#release-notes}
+
+In diesen Versionshinweisen werden Ergänzungen und Fehlerbehebungen in der Catalog Enrichment Extension (`magento/module-catalog-enrichment`) erfasst:
+
+![Neu](../assets/new.svg) Neue Funktionen
+![Problem behoben](../assets/fix.svg) Fehlerbehebungen und Verbesserungen
+![Bekanntes Problem](../assets/bug.svg) Bekannte Probleme
+
+### v2.1.2
+
+*22. Oktober 2026*
+
+[!BADGE Unterstützt]{type=Informative tooltip="Unterstützt"} Adobe Commerce 2.4.9, 2.4.8, 2.4.7 auf PHP 8.3 bis 8.5.
+
+Version 2.1.2 macht die Kataloganreicherung zu einer eigenständigen Erweiterung. Sie enthält jetzt alles, was zuvor von der separaten [!DNL Adobe Brand Visibility]-Erweiterung (`magento/llm-optimizer`) bereitgestellt wurde: Anwenden genehmigter Vorschläge auf den Katalog, Zurücksetzen dieser Vorschläge und Schützen der eigenen Bearbeitungen vor Überschreibungen.
+
+#### Upgrade von früheren Versionen {#upgrade-from-earlier-versions}
+
+>[!IMPORTANT]
+>
+>Version 2.1.2 kann nicht zusammen mit der [!DNL Adobe Brand Visibility]-Erweiterung installiert werden. Wenn Sie es installiert haben, entfernen Sie es als Teil des Upgrades.
+
+1. Entfernen Sie die [!DNL Adobe Brand Visibility] Erweiterung, falls sie installiert ist:
+
+   ```bash
+   composer remove magento/llm-optimizer
+   ```
+
+   Wenn die Erweiterung durch Kopieren oder Symlinking von `Magento/LlmoCatalog` nach `app/code` installiert wurde, löschen Sie dieses Verzeichnis. Deaktivieren Sie nicht nur das Modul . Ein deaktiviertes Modul, das sich noch auf der Festplatte befindet, kann dazu führen, dass `setup:upgrade` die Tabelle verwerfen, in der die Originalwerte von angereicherten Produkten gespeichert sind.
+
+1. Aktualisieren Sie die Kataloganreicherung und wenden Sie die Änderungen an:
+
+   ```bash
+   composer require magento/module-catalog-enrichment:^2.1
+   bin/magento setup:upgrade
+   bin/magento cache:flush
+   ```
+
+   Leeren Sie den Cache nach dem Upgrade. Bei einem Upgrade werden bestehende Zugriffsberechtigungen auf neue Berechtigungsressourcen verschoben, und diese Berechtigungen werden erst wirksam, wenn der Cache gelöscht wird.
+
+#### Anforderungen
+
+![Neu](../assets/new.svg) **PHP 8.3 und Adobe Commerce 2.4.7 oder höher**—PHP 8.1 ist das Ende des Lebenszyklus und PHP 8.2 erreicht am 31. Dezember 2026 das Ende des Lebenszyklus, sodass keines von beiden unterstützt wird. Adobe Commerce 2.4.6 und früher wird nicht unterstützt.
+
+#### Neue Funktionen
+
+![Neu](../assets/new.svg) Menü **[!UICONTROL AI Product Discovery]** - Die Seiten zur Kataloganreicherung haben jetzt einen eigenen Abschnitt in der Admin-Seitenleiste. Navigieren Sie zu **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]**. Zuvor war die Seite unter **[!UICONTROL Catalog]**.
+
+![Neu](../assets/new.svg) [!BADGE Beta]{type=Informative tooltip="Noch nicht allgemein verfügbar"} **[!UICONTROL Product Details Page Enrichment (Beta)]** - Eine neue Seite unter **[!UICONTROL AI Product Discovery]**, auf der Anreicherungsvorschläge für Produktdetailseiten überprüft werden können. Die Anreicherung der Produktdetailseite befindet sich in der Beta-Phase und ist noch nicht allgemein verfügbar.
+
+![Neu](../assets/new.svg) **Genehmigte Vorschläge anwenden und zurücksetzen** - Genehmigte Name- und Beschreibungsaktualisierungen werden von dieser Erweiterung in den Katalog geschrieben. Commerce zeichnet den ursprünglichen Wert jedes angereicherten Attributs auf, wenn es sich zum ersten Mal ändert. Daher wird bei einem Rollback immer der Wert wiederhergestellt, den Sie vor der Anreicherung hatten, auch nachdem mehrere Vorschläge auf dasselbe Attribut angewendet wurden.
+
+![Neu](../assets/new.svg) **Ihre Bearbeitungen werden berücksichtigt** - Wenn Sie einen angereicherten Namen oder eine Beschreibung im Admin-Produktformular ändern, mit **[!UICONTROL Update Attributes]** oder durch einen Import, wird Ihr Wert beibehalten und der zugehörige Vorschlag wird *Veraltet*. Eine Änderung am Standardbereich betrifft nur Store-Ansichten, die den Wert erben.
+
+![Neu](../assets/new.svg) **Schreibgeschützter Katalogzugriff für Vorschläge** - [!DNL Commerce Catalog Agent] können Produkt-, Kategorie-, Attributsatz- und Produkttypdaten lesen, um Produkte für die Analyse auszuwählen. Der Lesevorgang gibt nur Attribute zurück, die mit **[!UICONTROL Used in Product Listing]** gekennzeichnet sind, sowie die Attribute, die angereichert werden können. Katalogdaten können nicht geändert werden.
+
+#### Fehlerbehebungen und Verbesserungen
+
+![Problem behoben](../assets/fix.svg) **Erfolge beim Anwenden von Berichten** - Wenn eine Anfrage zum Anwenden nach bereits abgeschlossenem Vorgang erneut versucht wird, werden die Änderungen jetzt als angewendet gemeldet, anstatt keine Änderungen zu melden. Nichts wird zweimal geschrieben.
+
+![Problem behoben](../assets/fix.svg) **Nur genehmigte Services können den Katalog ändern**—Apply und Rollback akzeptieren nur Anfragen von [!DNL Commerce Catalog Agent]. Zuvor wurde jedes gültige Adobe IMS-Token akzeptiert. Dieselbe Prüfung gilt jetzt auch für SOAP-Anfragen.
+
+![Problem behoben](../assets/fix.svg) **deutlichere Fehler** - Ein Adobe IMS-Ausfall gibt jetzt `401` anstelle von `500` zurück, sodass die Anfrage nicht erneut für den Katalog versucht wird und eine nicht erkannte Adobe IMS-Umgebung abgelehnt wird, anstatt als Staging behandelt zu werden.
+
+![Problem behoben](../assets/fix.svg) **Adobe IMS-Umgebung** - Die Kataloganreicherung meldet sich jetzt standardmäßig bei der Adobe IMS-Produktionsumgebung an, einschließlich der Instanzen, die mit einem [!DNL Commerce Services]-Datenbereich verbunden sind. Zuvor wurden diese Instanzen an die Staging-Umgebung gesendet.
+
+![Problem behoben](../assets/fix.svg) **Anmelden nach der [!DNL Adobe Brand Visibility] Domain-Änderung** - Die Seite Kataloganreicherung wird jetzt von `abv.adobe.com` geladen, was eine Anmeldungsschleife behebt, nachdem die vorherige Domain weitergeleitet wurde.
+
+#### Bekannte Probleme
+
+![Bekanntes Problem](../assets/bug.svg) **Rollen mit [!UICONTROL Catalog] Zugriff** - Eine Benutzerrolle, die vor dieser Version gespeichert wurde und der **[!UICONTROL Catalog]** Zugriff gewährt wurde, behält den Zugriff auf die **[!UICONTROL Catalog Enrichment Service API]** Ressource. Überprüfen Sie diese Rollen in **[!UICONTROL System]** > **[!UICONTROL Permissions]** > **[!UICONTROL User Roles]** und löschen Sie die Ressource, in der sie nicht benötigt wird.
+
+### v1.0.2
+
+Erste Version der Admin-Seite für die Kataloganreicherung. Erfordert, dass die [!DNL Adobe Brand Visibility] Erweiterung Vorschläge auf den Katalog anwendet.
