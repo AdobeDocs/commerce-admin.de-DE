@@ -22,16 +22,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d10dbf4560352b3898c5c4f750e094a4dfe62dae
+source-git-commit: e997501de8a627ce6c9ab52e75154ae3541a98de
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 0%
 ---
 # Menü [!UICONTROL Content]
 
 >[!NOTE]
 >
->Wenn die neue [[!DNL Media Gallery]](media-gallery.md) aktiviert ist, wird der Abschnitt _[!UICONTROL Media]_&#x200B;mit einer einzigen Option für den Zugriff auf die [!DNL Media Gallery] angezeigt. Legen Sie die **[!UICONTROL Enable Old Media Gallery]**&#x200B;Option auf `No` fest, indem Sie zu **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** wechseln und im linken Bereich **[!UICONTROL Advanced]** > **[!UICONTROL System]** wählen.
+>Wenn die [[!DNL Media Gallery]](media-gallery.md) aktiviert ist, wird der Abschnitt _[!UICONTROL Media]_&#x200B;mit einer einzigen Option für den Zugriff auf die [!DNL Media Gallery] angezeigt. Wenn diese Option nicht angezeigt wird, stellen Sie sicher, dass **[!UICONTROL Enable Old Media Gallery]**&#x200B;Option auf `No` gesetzt ist. Weitere Informationen finden Sie unter [Überprüfen der  [!DNL Media Gallery] -Konfiguration](media-gallery.md#enable-the-new-media-gallery).
 
 >[!BEGINTABS]
 
