@@ -22,28 +22,28 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d10dbf4560352b3898c5c4f750e094a4dfe62dae
+source-git-commit: e997501de8a627ce6c9ab52e75154ae3541a98de
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 0%
 ---
 # Menü [!UICONTROL Content]
 
 >[!NOTE]
 >
->Wenn die neue [[!DNL Media Gallery]](media-gallery.md) aktiviert ist, wird der Abschnitt _[!UICONTROL Media]_&#x200B;mit einer einzigen Option für den Zugriff auf die [!DNL Media Gallery] angezeigt. Legen Sie die **[!UICONTROL Enable Old Media Gallery]**&#x200B;Option auf `No` fest, indem Sie zu **[!UICONTROL Stores]**>_[!UICONTROL Settings]_ > **[!UICONTROL Configuration]** wechseln und im linken Bereich **[!UICONTROL Advanced]** > **[!UICONTROL System]** wählen.
+>Wenn die [[!DNL Media Gallery]](media-gallery.md) aktiviert ist, wird der Abschnitt _[!UICONTROL Media]_mit einer einzigen Option für den Zugriff auf die [!DNL Media Gallery] angezeigt. Wenn diese Option nicht angezeigt wird, stellen Sie sicher, dass **[!UICONTROL Enable Old Media Gallery]**Option auf `No` gesetzt ist. Weitere Informationen finden Sie unter [Überprüfen der  [!DNL Media Gallery] -Konfiguration](media-gallery.md#enable-the-new-media-gallery).
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 ![Das im Admin angezeigte [!UICONTROL Content]-Menü](./assets/admin-menu-content.png){width="400" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 ![Das im Admin angezeigte [!UICONTROL Content]-Menü](./assets/admin-menu-content-accs.png){width="400" zoomable="yes"}
 
@@ -57,14 +57,14 @@ Wählen Sie in der _Admin_-Seitenleiste **[!UICONTROL Content]** aus.
 
 - Erstellen [Seiten](pages.md) mit Text, Bildern, Blöcken, Variablen und Widgets. Ihre Seiten können in die Navigation Ihres Stores integriert und mit anderen Seiten verknüpft werden.
 - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Organisieren Sie Ihre Seiten in einer [Hierarchie](page-hierarchy.md) mit Navigation.
-- Erstellen [&#x200B; Inhaltsblöcke &#x200B;](blocks.md) Schreiben von Code. Blöcke können Text, Bilder und sogar Videos enthalten und jedem Teil des Seiten-Layouts zugewiesen werden.
+- Erstellen [ Inhaltsblöcke ](blocks.md) Schreiben von Code. Blöcke können Text, Bilder und sogar Videos enthalten und jedem Teil des Seiten-Layouts zugewiesen werden.
 - ![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) Erstellen Sie [dynamische Blöcke](dynamic-blocks.md) um umfangreiche, interaktive Inhalte zu integrieren, die von Logiken aus [Preisregeln](../merchandising-promotions/introduction.md#promotions) und [Kundensegmenten](../customers/customer-segments.md) werden.
 - Erstellen Sie [Widgets](widgets.md) die dynamische Daten anzeigen und Blöcke, Links und interaktive Elemente an den meisten Stellen im Store hinzufügen.
 - Erstellen Sie [Vorlagen](../page-builder/templates.md) aus Ihren Page Builder-Inhalten und verbessern Sie die Effizienz beim Hinzufügen neuer Inhalte (oder beim Ersetzen älterer Inhalte).
 
 >[!NOTE]
 >
->Die _[!UICONTROL Banners]_&#x200B;Option in diesem Menü ist seit 2.3.1 veraltet und wurde entfernt. Seine Funktionalität wird durch dynamische Blöcke ersetzt.
+>Die _[!UICONTROL Banners]_Option in diesem Menü ist seit 2.3.1 veraltet und wurde entfernt. Seine Funktionalität wird durch dynamische Blöcke ersetzt.
 
 ## [!UICONTROL Design] {#design-features}
 
