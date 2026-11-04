@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 55f9389c51fd4e1f9aa2475ad999c79f5f7f00df
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1677'
 ht-degree: 0%
 ---
 # Übertragen eines Adobe Commerce-Kontos
@@ -44,7 +44,11 @@ Die folgenden Informationen beschreiben den Prozess zur Übertragung eines Adobe
 >
 >Wenn der neue Kontoinhaber mithilfe von Shared Access Erweiterungen erworben hat, geht der Zugriff auf diese Erweiterungen verloren, sobald die Kontoübertragung beginnt.
 >
+>Überprüfen Sie die Marketplace-Erweiterungen, bevor Sie mit einer Kontoübertragung beginnen. Erweiterungen und Zugriffsschlüssel sind mit BILD-IDs verknüpft. Wenn die Übertragung beginnt, geht der Zugriff auf Erweiterungen verloren, die unter Shared Access erworben wurden. Beim standardmäßigen Kontoübertragungsprozess werden Erweiterungskäufe nicht auf ein anderes Konto übertragen. Möglicherweise müssen Sie eine Rückerstattung anfordern und die Erweiterungen unter dem vorgesehenen Konto zurückkaufen. Wenn Ihre Übertragung Teil einer Lizenzumstrukturierung ist, wenden Sie sich an den Adobe Commerce-Support, um zu bestätigen, ob ein separater Übertragungsprozess angewendet wird.
+>
 >Bevor Sie die Kontoübertragung anfordern, stellen Sie sicher, dass der neue Eigentümer die Bestell-IDs für die Käufe von [&#x200B; [!DNL Commerce Marketplace] Konto](https://commercemarketplace.adobe.com/sales/order/history/) abruft und eine Rückerstattung vom [[!DNL Commerce Marketplace] Team](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-case) anfordert. Erweiterungskäufe können nicht auf ein anderes Konto übertragen werden.
+>
+>Planen Sie außerdem, neue Zugriffsschlüssel für die empfangende MAGE-ID zu generieren und die Composer-Anmeldeinformationen zu aktualisieren, die von Ihren -Bereitstellungen verwendet werden. Führen Sie die entsprechende Erweiterung und die wichtigsten Schritte aus, bevor Sie mit der Kontoübertragung beginnen.
 
 ## Art der Übertragung angeben
 
@@ -193,6 +197,12 @@ Nachdem der neue Eigentümer seine Adobe ID erfolgreich mit der ursprünglichen 
 1. Führen Sie die [E-Mail-Verifizierungsschritte](#verify-an-adobe-id-email-change) aus.
 
 Nachdem der neue Eigentümer die E-Mail-Adresse überprüft hat, fahren Sie mit [Letzte Schritte](#final-steps) fort, damit der Adobe Commerce-Support Kontodatensätze wie das [[!DNL Commerce Marketplace]](https://commercemarketplace.adobe.com/) aktualisieren kann.
+
+## Benötigen Sie Hilfe bei Ihrer Kontoübertragung?**
+
+Wenn keiner der oben genannten Übertragungstypen Ihrer Situation entspricht oder Sie nicht auf die E-Mail-Adresse des aktuellen Besitzers zugreifen können, reichen Sie ein Adobe Commerce Support-Ticket ein.
+
+Erklären Sie in Ihrer Anfrage, welcher Übertragungstyp nicht zutrifft und ob die E-Mail-Adresse des aktuellen Besitzers zugänglich ist. Schließen Sie die MAGEIDs, Adobe-IDs und die zugehörigen E-Mail-Adressen des aktuellen und neuen Besitzers ein, falls bekannt. Der Adobe-Support kann Ihre Situation überprüfen und Sie über die nächsten Schritte informieren.
 
 ## Letzte Schritte
 
