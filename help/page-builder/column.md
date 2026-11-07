@@ -53,7 +53,7 @@ Sie können das Layout des [!DNL Columns]-Containers ändern, indem Sie eine Spa
 
 Sehen Sie sich dieses Video an, um zu demonstrieren, wie Sie mit dem [!DNL Columns]-Container Ihre Seiten-Layouts verfeinern können:
 
->[!VIDEO](https://video.tv.adobe.com/v/345828?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507537?captions=ger&quality=12&learn=on)
 
 ## Spalten-Toolbox
 
