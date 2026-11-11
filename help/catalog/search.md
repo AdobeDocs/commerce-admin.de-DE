@@ -41,7 +41,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) bietet ein schnelles, extrem relevantes und intuitives Sucherlebnis und ist für Adobe Commerce ohne zusätzliche Kosten verfügbar. In diesem Abschnitt wird die Standardsuchfunktion beschrieben, die sich von [!DNL Live Search] unterscheiden kann.
+>[[!DNL Live Search]](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview) bietet ein schnelles, extrem relevantes und intuitives Sucherlebnis und ist für Adobe Commerce ohne zusätzliche Kosten verfügbar. In diesem Abschnitt wird die Standardsuchfunktion beschrieben, die sich von [!DNL Live Search] unterscheiden kann.
 >
 >Wenn Ihre Adobe Commerce as a Cloud Service-Instanz mit dem Composable Catalog Data Model (CCDM) bereitgestellt wird, konfigurieren Sie Sucheinstellungen, Facetten, Synonyme und Merchandising-Regeln in [Merchandising Services mit CCDM](/help/optimizer/overview.md).
 
@@ -61,7 +61,7 @@ In den folgenden Abschnitten werden die grundlegenden Funktionen der Katalogsuch
 
 >[!NOTE]
 >
->Wenn [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) installiert und das [[!DNL Storefront Popover]](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/storefront-popover)-Widget aktiviert ist, gibt das Suchfeld die Ergebnisse „Suche während der Eingabe“ in einem Popup zurück.
+>Wenn [[!DNL Live Search]](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview) installiert und das [[!DNL Storefront Popover]](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-storefront/storefront-popover)-Widget aktiviert ist, gibt das Suchfeld die Ergebnisse „Suche während der Eingabe“ in einem Popup zurück.
 
 Das Suchfeld in der Kopfzeile des Stores hilft Besuchern, Produkte in Ihrem Katalog zu finden. Der Suchtext kann der vollständige oder teilweise Produktname oder ein anderes Wort oder eine Phrase sein, das bzw. die das Produkt beschreibt. Die Suchbegriffe, die Benutzer verwenden, um Produkte zu finden, können über den Administrator verwaltet werden.
 
@@ -77,7 +77,7 @@ Das Suchfeld in der Kopfzeile des Stores hilft Besuchern, Produkte in Ihrem Kata
 
 >[!NOTE]
 >
->Die hier beschriebene Funktion der erweiterten Formularsuche gilt nicht für [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
+>Die hier beschriebene Funktion der erweiterten Formularsuche gilt nicht für [[!DNL Live Search]](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview).
 
 Mit der erweiterten Suche können Käufer den Katalog anhand der in ein Formular eingegebenen Werte durchsuchen. Da das Formular mehrere Felder enthält, kann eine einzelne Suche mehrere Parameter enthalten. Das Ergebnis ist eine Liste aller Produkte im Katalog, die den Kriterien entsprechen. Ein Link zur erweiterten Suche befindet sich in der Fußzeile Ihres Stores.
 
