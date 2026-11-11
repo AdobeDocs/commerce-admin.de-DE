@@ -32,16 +32,18 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '967'
 ht-degree: 3%
 ---
 # Suchergebnisse
 
 >[!NOTE]
 >
->Auf dieser Seite werden Standardsuchfunktionen beschrieben, die sich von der [Live Search“ &#x200B;](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview).
+>Auf dieser Seite werden Standardsuchfunktionen beschrieben, die sich von der [Live Search“ ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
+>
+>Informationen zu Instanzen, die mit dem Composable Catalog Data Model (CCDM) bereitgestellt werden, finden Sie unter [Suchabgleich und Rangfolge](/help/optimizer/manage-results/search-relevance-matching.md) in Merchandising Services.
 
 Die _Suchergebnisse_ enthält alle Produkte, die den im Feld „Schnellsuche“ oder im Formular „Erweiterte Suche“ angegebenen Suchkriterien entsprechen. Jede Produktliste im Katalog verfügt im Wesentlichen über dieselben Steuerelemente. Der einzige Unterschied besteht darin, dass einer das Ergebnis einer Suchanfrage ist und der andere das Ergebnis von [Navigation](navigation.md).
 
@@ -57,7 +59,7 @@ Mit **Elasticsearch**:
 
 >[!IMPORTANT]
 >
->Aufgrund der Ankündigung zum Ende der Unterstützung für Elasticsearch 7 im August 2023 wird empfohlen, dass alle Adobe Commerce-Kunden zur OpenSearch 2.x -Suchmaschine migrieren. Informationen zur Migration Ihrer Suchmaschine während des Produkt-Upgrades finden Sie unter [Migration zu OpenSearch](https://experienceleague.adobe.com/de/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) im _Upgrade-Handbuch_.
+>Aufgrund der Ankündigung zum Ende der Unterstützung für Elasticsearch 7 im August 2023 wird empfohlen, dass alle Adobe Commerce-Kunden zur OpenSearch 2.x -Suchmaschine migrieren. Informationen zur Migration Ihrer Suchmaschine während des Produkt-Upgrades finden Sie unter [Migration zu OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) im _Upgrade-Handbuch_.
 
 ## Keyword-Mapping zur Erweiterung der Suchergebnisse
 
@@ -107,15 +109,15 @@ Im folgenden Beispiel wird die Schlüsselwortzuordnung basierend auf der SKU ver
    ![Abschnitt „Attribute“ mit Suchbegriff](./assets/search-keywords-attribute.png){width="600" zoomable="yes"}
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save]**.
-1. Wechseln Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;und aktualisieren Sie die **[!UICONTROL Page Cache]**.
+1. Wechseln Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**und aktualisieren Sie die **[!UICONTROL Page Cache]**.
 
 ### Schritt 3: Zweites Produkt zuordnen
 
-1. Öffnen Sie in der _[!UICONTROL Products]_&#x200B;die `Chaz Kangaroo Hoodie` (MH01) im Bearbeitungsmodus.
+1. Öffnen Sie in der _[!UICONTROL Products]_die `Chaz Kangaroo Hoodie` (MH01) im Bearbeitungsmodus.
 1. Scrollen Sie nach unten und erweitern Sie den Abschnitt **[!UICONTROL Attributes]** .
 1. Geben Sie im Feld **[!UICONTROL Search Keywords]** die SKU für das andere Produkt `MJ03` ein.
 1. Klicken Sie auf **[!UICONTROL Save]**.
-1. Wechseln Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**&#x200B;und aktualisieren Sie die **[!UICONTROL Page Cache]**.
+1. Wechseln Sie zu **[!UICONTROL System]** > _[!UICONTROL Tools]_>**[!UICONTROL Cache Management]**und aktualisieren Sie die **[!UICONTROL Page Cache]**.
 
 ### Schritt 4: Testen in der Storefront
 

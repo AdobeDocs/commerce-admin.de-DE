@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '797'
 ht-degree: 0%
 ---
 # Dashboard für das Daten-Management
@@ -50,11 +50,13 @@ Das Daten-Management-Dashboard bietet einen Überblick über den Synchronisierun
 
 >[!NOTE]
 >
->Wenn Sie den [Adobe Commerce Optimizer-Connector](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/overview) installiert haben, um Katalogdaten nach Adobe Commerce Optimizer zu exportieren, verwenden Sie die [Datensynchronisierungsseite](https://experienceleague.adobe.com/de/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio, um eine erfolgreiche Datensynchronisierung zu überprüfen, und nicht das Data Management Dashboard.
+>Wenn Sie den [Adobe Commerce Optimizer-Connector](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview) installiert haben, um Katalogdaten nach Adobe Commerce Optimizer zu exportieren, verwenden Sie die [Datensynchronisierungsseite](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio, um eine erfolgreiche Datensynchronisierung zu überprüfen, und nicht das Data Management Dashboard.
+>
+>Informationen zu Instanzen, die mit dem Composable Catalog Data Model (CCDM) bereitgestellt werden, finden Sie unter [Katalogsynchronisierung](/help/optimizer/setup/data-sync.md) in Merchandising Services.
 
 ## Zielgruppe
 
-Das Daten-Management-Dashboard steht allen Commerce-Händlern, die [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/de/docs/commerce/live-search/guide-overview) oder [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/de/docs/commerce/catalog-service/guide-overview) mit einer aktiven Lizenz verwenden, ohne zusätzliche Kosten zur Verfügung.
+Das Daten-Management-Dashboard steht allen Commerce-Händlern, die [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview), [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/guide-overview) oder [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview) mit einer aktiven Lizenz verwenden, ohne zusätzliche Kosten zur Verfügung.
 
 Das Daten-Management-Dashboard befindet sich unter *System* > Datenübertragung > *Daten-Management-Dashboard*.
 
@@ -85,7 +87,7 @@ Wenn die Anzahl der verarbeiteten Produkte mit der Anzahl der aktualisierten Pro
 
 >[!NOTE]
 >
->Adobe bietet außerdem eine Befehlszeilenschnittstelle und Systemprotokolle, die Entwickler und Systemintegratoren verwenden können, um Synchronisierungsvorgänge zu verwalten und zu verfolgen und Fehler für Commerce SaaS-Services zu beheben. Weitere Informationen finden Sie im [SaaS-Datenexporthandbuch](https://experienceleague.adobe.com/de/docs/commerce/saas-data-export/overview).
+>Adobe bietet außerdem eine Befehlszeilenschnittstelle und Systemprotokolle, die Entwickler und Systemintegratoren verwenden können, um Synchronisierungsvorgänge zu verwalten und zu verfolgen und Fehler für Commerce SaaS-Services zu beheben. Weitere Informationen finden Sie im [SaaS-Datenexporthandbuch](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
 
 ### Liste der synchronisierten Produkte
 
@@ -95,7 +97,7 @@ Um die Details eines synchronisierten Produkts anzuzeigen, klicken Sie in der Ta
 
 ### Katalogdaten neu synchronisieren
 
-Um sicherzustellen, dass Ihre Commerce SaaS-Services immer mit den neuesten Produktinformationen aktualisiert werden, sollten Sie [einen Zeitplan) &#x200B;](https://experienceleague.adobe.com/de/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) Synchronisieren von Katalogdaten implementieren.
+Um sicherzustellen, dass Ihre Commerce SaaS-Services immer mit den neuesten Produktinformationen aktualisiert werden, sollten Sie [einen Zeitplan) ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#reindex) Synchronisieren von Katalogdaten implementieren.
 
 Sie können zwar [manuell initiieren](#manually-resync-catalog) eine Neusynchronisierung von Katalogdaten aus der Commerce-Datenbank mit SaaS-Services durchführen, dies wird jedoch nicht empfohlen, da dies die Belastung der Hardwareressourcen erhöhen kann. In den folgenden Szenarien kann es jedoch erforderlich sein, den Katalog manuell neu zu synchronisieren:
 

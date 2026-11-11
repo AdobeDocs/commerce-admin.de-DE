@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -41,6 +41,8 @@ ht-degree: 0%
 # Produktbeziehungen
 
 Produkte in Ihrem Katalog können auf anderen Seiten beworben werden, indem die Art der Beziehung zwischen den Produkten definiert wird. Diese Beziehungen helfen, Käufer entsprechend ihrem Interesse an einem ähnlichen oder verwandten Produkt anzusprechen.
+
+{{ccdm-merchandising-note}}
 
 ## In den Produkteinstellungen definiert
 
@@ -64,4 +66,4 @@ Wenn Sie ein Produkt erstellen oder aktualisieren, können Sie mit [Produkteinst
 
 ## Produktempfehlungen mit Adobe AI
 
-![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) [Product Recommendations](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/overview) powered by Adobe AI vereinfacht die Definition von Produktbeziehungen durch die Verwendung von Algorithmen für künstliche Intelligenz und maschinelles Lernen, um eine gründliche Analyse aggregierter Besucherdaten durchzuführen. Wenn diese Daten mit Ihrem Adobe Commerce-Katalog kombiniert werden, ergeben sich für den Erstkäufer sehr ansprechende, relevante und personalisierte Erlebnisse.
+![Adobe Commerce](../assets/adobe-logo.svg) (nur Adobe Commerce) [Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/overview) powered by Adobe AI vereinfacht die Definition von Produktbeziehungen durch die Verwendung von Algorithmen für künstliche Intelligenz und maschinelles Lernen, um eine gründliche Analyse aggregierter Besucherdaten durchzuführen. Wenn diese Daten mit Ihrem Adobe Commerce-Katalog kombiniert werden, ergeben sich für den Erstkäufer sehr ansprechende, relevante und personalisierte Erlebnisse.

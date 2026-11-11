@@ -1,6 +1,6 @@
 ---
 title: Menü [!UICONTROL Stores]
-description: Commerce Admin enthält das Menü [!UICONTROL Stores] , das Zugriff auf Tools zum Einrichten von Shophierarchie, Konfiguration, Inventar, Steuern und Attributen bietet.
+description: Das Menü [!UICONTROL Stores] bietet Zugriff auf Tools zum Einrichten von Shophierarchie, Konfiguration, Inventar, Steuern und Attributen.
 exl-id: b9d8ea6b-5b4b-42af-b74d-7afa48ccf2ff
 TQID: https://experienceleague.adobe.com/LEoQUYqvin2UfF55kCMUiEUh8YungghN-VuEwUOu7gY
 product_v2:
@@ -26,26 +26,26 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bc4baccc4b40fb7ecdc7f489bfaf3c797881db88
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '453'
 ht-degree: 0%
 ---
 # Menü [!UICONTROL Stores]
 
-Das Menü _[!UICONTROL Stores]_&#x200B;bietet Zugriff auf Einstellungen, die weniger häufig verwendet werden, aber auf die während der gesamten Installation von Adobe Commerce oder Magento Open Source verwiesen wird. Zu diesen Funktionen gehören die Einrichtung der Store-Hierarchie, Konfiguration, Verkaufs- und Auftragseinstellungen, Steuer und Währung, Produktattribute, Produktbewertungsbewertungen und Kundengruppen.
+Das Menü _[!UICONTROL Stores]_bietet Zugriff auf Einstellungen, die weniger häufig verwendet werden, aber auf die während der gesamten Installation von Adobe Commerce oder Magento Open Source verwiesen wird. Zu diesen Funktionen gehören die Einrichtung der Store-Hierarchie, Konfiguration, Verkaufs- und Auftragseinstellungen, Steuer und Währung, Produktattribute, Produktbewertungsbewertungen und Kundengruppen.
 
 >[!BEGINTABS]
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 ![Admin - Speichermenü](./assets/stores-menu.png){width="500" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 ![Admin - Speichermenü](./assets/stores-menu-accs.png){width="500" zoomable="yes"}
 
@@ -63,7 +63,7 @@ Verwalten Sie die Hierarchie [Websites, Stores und Store-](stores.md#store-and-s
 
 ### [!UICONTROL Inventory]
 
-[Verwalten und Erstellen von &#x200B;](../inventory-management/introduction.md), um Ihre Vertriebskanäle oder Websites mit [Quellen](../inventory-management/sources-manage.md) zu verknüpfen. Die Lagerbestände liefern eine aggregierte verkaufsfähige Menge an Erzeugnissen. Einzelne Source-Händler verwenden den Standardbestand, während Händler mit mehreren Source zusätzliche benutzerdefinierte Lager verwenden.
+[Verwalten und Erstellen von ](../inventory-management/introduction.md), um Ihre Vertriebskanäle oder Websites mit [Quellen](../inventory-management/sources-manage.md) zu verknüpfen. Die Lagerbestände liefern eine aggregierte verkaufsfähige Menge an Erzeugnissen. Einzelne Source-Händler verwenden den Standardbestand, während Händler mit mehreren Source zusätzliche benutzerdefinierte Lager verwenden.
 
 ### [!UICONTROL Taxes]
 
@@ -75,7 +75,7 @@ Verwalten Sie die Kurse für die [Währungen](currency.md) die als Zahlung in Ih
 
 ### [!UICONTROL Attributes]
 
-Verwalten Sie Attribute, die für [Kunden](../customers/attribute-properties.md) oder [Produktinformationen](../catalog/attribute-product-create.md), Rückgaben und Produktbewertungen verwendet werden. Sie können Attribute erstellen, vorhandene Attribute bearbeiten und ([) &#x200B;](../catalog/attribute-sets.md).
+Verwalten Sie Attribute, die für [Kunden](../customers/attribute-properties.md) oder [Produktinformationen](../catalog/attribute-product-create.md), Rückgaben und Produktbewertungen verwendet werden. Sie können Attribute erstellen, vorhandene Attribute bearbeiten und ([) ](../catalog/attribute-sets.md).
 
 ### [!UICONTROL Other Settings]
 
@@ -85,6 +85,8 @@ Verwalten Sie zusätzliche Einstellungen für [Prämienwechselkurse](../merchand
 
 Nach der Installation der [!DNL Adobe Commerce Optimizer Connector] können Sie die Website synchronisieren und Ansichtsdaten mit [!DNL Adobe Commerce Optimizer] speichern. Der Umfang der Website steuert [Preissynchronisierung](stores.md#step-1-create-a-website) (Preise und Preisbücher). Steuerelemente für den Ansichtsbereich [Produktsynchronisierung](store-views.md#add-a-store-view) (Produkte und Produktattribute).
 
-Die im [!UICONTROL All Stores] Raster angezeigten Synchronisationsstatusindikatoren finden Sie unter [Adobe Commerce Optimizer-Synchronisationsstatus](store-views.md#optimizer-sync-status). Informationen zum Einrichten und Konfigurieren des Connectors finden Sie unter [Anpassen der Exportkonfiguration für Commerce-Bereiche](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) im *Adobe Commerce Optimizer Connector-Handbuch*.
+Die im [!UICONTROL All Stores] Raster angezeigten Synchronisationsstatusindikatoren finden Sie unter [Adobe Commerce Optimizer-Synchronisationsstatus](store-views.md#optimizer-sync-status). Informationen zum Einrichten und Konfigurieren des Connectors finden Sie unter [Anpassen der Exportkonfiguration für Commerce-Bereiche](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/get-started#customize-the-commerce-scopes-export-configuration) im *Adobe Commerce Optimizer Connector-Handbuch*.
 
 Wenn die [!DNL Adobe Commerce Optimizer Connector for B2B] installiert ist, werden die Daten auch für verfügbare freigegebene B2B-Kataloge synchronisiert. Siehe [Verwalten von Katalogansichten](../b2b/catalog-views-manage.md).
+
+Mit dem Composable Catalog Data Model (CCDM) bereitgestellte Instanzen synchronisieren Website-, Store-, Ansicht- und Preisdaten nativ und verwenden nicht den Connector. Siehe [Merchandising-Services mit CCDM](/help/optimizer/overview.md).

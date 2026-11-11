@@ -1,8 +1,8 @@
 ---
 title: '[!UICONTROL Services] > ACO-Katalogansicht'
-description: Überprüfen und aktualisieren Sie die Adobe Commerce Optimizer-Konfigurationseinstellungen auf der Seite [!UICONTROL Services] > [!UICONTROL ACO Catalog View] des Commerce-Administrators.
+description: Überprüfen und aktualisieren Sie die Adobe Commerce Optimizer-Einstellungen auf der [!UICONTROL ACO Catalog View] [!UICONTROL Services] > des Commerce Admin-Bereichs.
 feature: Configuration, Security
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b32c28afffe75b3f684f0fef81bd61e9cdcb485a
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 3%
+source-wordcount: '239'
+ht-degree: 2%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View]
 
 Verwenden Sie diese Einstellungen, um die von der [!DNL Adobe Commerce Optimizer Connector for B2B] ausgegebenen Zugriffstoken zu steuern. Storefronts verwenden diese Token, um sich bei privaten Commerce Optimizer-Katalogansichten zu authentifizieren, die mit Daten gefüllt sind, die aus benutzerdefinierten, im Administrator konfigurierten freigegebenen Katalogen synchronisiert wurden.
+
+>[!NOTE]
+>
+>Diese Seite gilt für den Connector. Instanzen, die mit dem Composable Catalog Data Model (CCDM) bereitgestellt werden, synchronisieren Daten nativ und verwenden den Connector nicht. Siehe [Merchandising-Services mit CCDM](/help/optimizer/overview.md).
 
 {{config}}
 

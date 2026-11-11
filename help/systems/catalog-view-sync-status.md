@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1358'
 ht-degree: 0%
 ---
 
@@ -52,10 +52,12 @@ Verwenden Sie die Seite „Synchronisierungsstatus von Katalogansicht“, um die
 >[!NOTE]
 >
 >Um den Synchronisierungsstatus für Katalogdaten-Feeds zu verfolgen, verwenden Sie die Seite [[!UICONTROL Data Feed Sync Status]](data-feed-sync-status.md) .
+>
+>Diese Seite gilt für Katalogansichten, die vom Connector erstellt werden. Informationen zu Instanzen, die mit dem Composable Catalog Data Model (CCDM) bereitgestellt werden, finden Sie unter [Katalogsynchronisierung](/help/optimizer/setup/data-sync.md) in Merchandising Services.
 
 ## Zielgruppe und Verfügbarkeit {#audience}
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce auf Cloud-Infrastruktur- und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce auf Cloud-Infrastruktur- und lokale Projekte."}
 
 Die [!UICONTROL Catalog View Sync Status]-Seite ist für Adobe Commerce in Cloud-Infrastruktur und lokale Händler verfügbar, die freigegebene B2B-Kataloge mit der [!DNL Adobe Commerce Optimizer Connector for B2B]-Integration verwenden. Die Seite wird automatisch installiert und aktiviert, wenn die Connector-Erweiterung installiert wird.
 
@@ -196,6 +198,6 @@ Zeilen auf dieser Registerkarte werden nach 90 Tagen automatisch gelöscht.
 > - [Synchronisierungsstatus des Daten-Feeds](data-feed-sync-status.md)
 > - [Services > ACO Catalog View Sync](../configuration-reference/services/aco-catalog-view-sync.md) — Konfigurieren der Übergangsperioden für das Löschen und die Erstellung sowie des Drift-Abstimmers
 > - [Verwaltung von eingeschränkten Zugriffsschlüsseln](restricted-access-keys.md) - Verwalten Sie die Schlüssel, deren Gültigkeit auf dieser Seite angezeigt wird
-> - [Überwachen der Synchronisierung der Katalogansicht für freigegebene B2B](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)Kataloge im *Adobe Commerce Optimizer Connector-Handbuch*
-> - [Private Katalogansichten](https://experienceleague.adobe.com/de/docs/commerce/optimizer/setup/private-catalog-view)
-> - [Schlüssel mit eingeschränktem Zugriff](https://experienceleague.adobe.com/de/docs/commerce/optimizer/setup/restricted-access-keys)
+> - [Überwachen der Synchronisierung der Katalogansicht für freigegebene B2B](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/manage-sync/catalog-view-sync/catalog-view-sync-status)Kataloge im *Adobe Commerce Optimizer Connector-Handbuch*
+> - [Private Katalogansichten](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/private-catalog-view)
+> - [Schlüssel mit eingeschränktem Zugriff](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/restricted-access-keys)

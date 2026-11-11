@@ -1,6 +1,6 @@
 ---
 title: Überwachen des Synchronisierungsstatus von Daten-Feeds in Commerce
-description: Exporte verfolgen. Diagnose von Synchronisationsproblemen für [!DNL Catalog Service], [!DNL Live Search], [!DNL Product Recommendations] und [!DNL Adobe Commerce Optimizer Connector].
+description: Verfolgen Sie Exporte und Synchronisierungsprobleme für [!DNL Catalog Service], [!DNL Live Search], [!DNL Product Recommendations] und [!DNL Adobe Commerce Optimizer Connector].
 feature: Products, Customers, Data Import/Export
 role: Admin
 level: Beginner
@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1683'
 ht-degree: 0%
 ---
 
@@ -59,10 +59,10 @@ Auf der [!UICONTROL Data Feed Sync Status] Seite können Commerce-Admins den Exp
 
 Die Seite Status der Daten-Feed-Synchronisierung steht Commerce-Händlern mit einer aktiven Lizenz für einen der folgenden Services ohne zusätzliche Kosten zur Verfügung:
 
-- [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/de/docs/commerce/product-recommendations/guide-overview)
-- [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview)
-- [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/de/docs/commerce/catalog-service/guide-overview)
-- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/overview)
+- [[!DNL Product Recommendations v6.0.0]](https://experienceleague.adobe.com/en/docs/commerce/product-recommendations/guide-overview)
+- [[!DNL Live Search v4.1.0]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview)
+- [[!DNL Catalog Service v1.17]](https://experienceleague.adobe.com/en/docs/commerce/catalog-service/guide-overview)
+- [[!DNL Adobe Commerce Optimizer Connector]](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/overview)
 
 Die Seite Status der Daten-Feed-Synchronisierung ist in unterstützten Commerce-Service-Konfigurationen automatisch verfügbar. Wenn auf Adobe Commerce in Cloud-Infrastrukturen und On-Premise-Bereitstellungen die Seite fehlt, nachdem ein entsprechender Service oder Connector aktiviert wurde, befolgen Sie die folgenden manuellen Installationsanweisungen. Verwenden Sie nicht das Installationsverfahren von Composer für produktverwaltete SaaS-Erlebnisse.
 
@@ -74,15 +74,15 @@ Navigieren Sie im Admin-Bereich zu **[!UICONTROL System]** > **[!UICONTROL Data 
 
 >[!NOTE]
 >
-> Auf dieser Seite wird nur der Exportstatus angezeigt. Ein Erfolgsstatus bedeutet, dass Daten erfolgreich exportiert wurden - es wird nicht bestätigt, dass Daten in Connected Services verfügbar sind. Detaillierte [&#x200B; finden Sie unter „Bestätigen von Daten &#x200B;](#confirm-data-in-connected-services) verbundenen Services“.
+> Auf dieser Seite wird nur der Exportstatus angezeigt. Ein Erfolgsstatus bedeutet, dass Daten erfolgreich exportiert wurden - es wird nicht bestätigt, dass Daten in Connected Services verfügbar sind. Detaillierte [ finden Sie unter „Bestätigen von Daten ](#confirm-data-in-connected-services) verbundenen Services“.
 
 ## Verfügbare Export-Feeds
 
 Die Liste der verfügbaren Export-Feeds, die Sie auf der Seite Datensynchronisierungsstatus verwalten können, hängt davon ab, welche Commerce-Services verbunden sind.
 
-- **Für [!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service] mit konfigurierten Commerce-Services:** Siehe [Unterstützte Feeds](https://experienceleague.adobe.com/de/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds) im _SaaS-Datenexporthandbuch_.
+- **Für [!DNL Adobe Commerce on Cloud, On Premises, and Commerce as a Cloud Service] mit konfigurierten Commerce-Services:** Siehe [Unterstützte Feeds](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/feed-table-reference#supported-feeds) im _SaaS-Datenexporthandbuch_.
 
-- **Für Cloud- oder On-Premise-Bereitstellungen von Adobe Commerce, die mit dem konfiguriert sind[!DNL Adobe Commerce Optimizer Connector]:** Siehe [Unterstützte Feeds](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds) im _Adobe Commerce Optimizer Connector-Handbuch_.
+- **Für Cloud- oder On-Premise-Bereitstellungen von Adobe Commerce, die mit dem konfiguriert sind[!DNL Adobe Commerce Optimizer Connector]:** Siehe [Unterstützte Feeds](https://experienceleague.adobe.com/en/docs/commerce/aco-optimizer-connector/reference/connector-reference#supported-feeds) im _Adobe Commerce Optimizer Connector-Handbuch_.
 
 
 ## Zusammenfassung des Synchronisierungsstatus von Daten-Feeds {#data-feed-sync-status-summary}
@@ -149,11 +149,11 @@ Wenn Sie produkt- und kategoriebezogene Entitäten in der Commerce-Datenbank akt
 >
 > Die Dauer der Datensynchronisation hängt von der Größe des Katalogs, dem Volumen der aktualisierten Daten und der Leistung des externen Services ab.
 
-Wenn die Anzahl der erfolgreich gesendeten Nachrichten mit der Quellanzahl für einen Feed übereinstimmt und keine Elemente mehr auf die Übermittlung warten oder fehlgeschlagen sind, hat Commerce den Export für diesen Feed abgeschlossen. Verwenden Sie das entsprechende Dashboard, um [nachgelagerte Verfügbarkeit zu &#x200B;](#confirm-data-in-connected-services).
+Wenn die Anzahl der erfolgreich gesendeten Nachrichten mit der Quellanzahl für einen Feed übereinstimmt und keine Elemente mehr auf die Übermittlung warten oder fehlgeschlagen sind, hat Commerce den Export für diesen Feed abgeschlossen. Verwenden Sie das entsprechende Dashboard, um [nachgelagerte Verfügbarkeit zu ](#confirm-data-in-connected-services).
 
 >[!NOTE]
 >
-> Adobe bietet außerdem Befehlszeilenschnittstellen-Tools und Systemprotokolle, die Entwickler und Systemintegratoren verwenden können, um Synchronisierungsvorgänge zu verwalten und zu verfolgen. Weitere Informationen finden Sie im [SaaS-Datenexporthandbuch](https://experienceleague.adobe.com/de/docs/commerce/saas-data-export/overview).
+> Adobe bietet außerdem Befehlszeilenschnittstellen-Tools und Systemprotokolle, die Entwickler und Systemintegratoren verwenden können, um Synchronisierungsvorgänge zu verwalten und zu verfolgen. Weitere Informationen finden Sie im [SaaS-Datenexporthandbuch](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview).
 
 ### Fehlgeschlagene Exporte verwalten {#manage-failed-exports}
 
@@ -179,15 +179,16 @@ Führen Sie in folgenden Fällen eine manuelle Neusynchronisierung durch:
 
 ### Bestätigen von Daten in Connected Services {#confirm-data-in-connected-services}
 
-Um die End-to-End-Synchronisierung nach Abschluss der Exporte zu überprüfen, verwenden Sie eine der folgenden Methoden. Die Beschränkungen des Exportstatus auf dieser Seite finden Sie unter [Hinweis oben](#export-status-scope).
+Um die End-to-End-Synchronisierung nach Abschluss der Exporte zu überprüfen, verwenden Sie eine der folgenden Methoden. Die Beschränkungen des Exportstatus auf dieser Seite finden Sie unter [Hinweis oben](#access-data-feed-sync-status-page).
 
 - **[!DNL Adobe Commerce as a Cloud Service]mit Commerce-Services:** Überprüfen Sie das entsprechende [Data Management Dashboard](data-dashboard.md), um die nachgelagerte Verfügbarkeit zu bestätigen.
-- **Adobe Commerce on Cloud oder On-Premise mit Adobe Commerce Optimizer Connector**: Überprüfen Sie zuerst den Exportstatus für Commerce Admin und dann die Seite [Datensynchronisierung](https://experienceleague.adobe.com/de/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio]
-- **[!DNL Adobe Commerce Optimizer] (eigenständig):** Daten werden nicht aus dem Commerce-Backend exportiert. Verwenden Sie die [Datensynchronisierungsseite](https://experienceleague.adobe.com/de/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio], um die Verfügbarkeit der Daten zu bestätigen.
+- **[!DNL Adobe Commerce as a Cloud Service]mit CCDM:** Produkt- und Preisdaten werden nativ synchronisiert. Verwenden Sie [Katalogsynchronisierung](/help/optimizer/setup/data-sync.md) in Merchandising-Services, um die Verfügbarkeit der Daten zu bestätigen.
+- **Adobe Commerce on Cloud oder On-Premise mit Adobe Commerce Optimizer Connector**: Überprüfen Sie zuerst den Exportstatus für Commerce Admin und dann die Seite [Datensynchronisierung](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio]
+- **[!DNL Adobe Commerce Optimizer](eigenständig):** Daten werden nicht aus dem Commerce-Backend exportiert. Verwenden Sie die [Datensynchronisierungsseite](https://experienceleague.adobe.com/en/docs/commerce/optimizer/setup/data-sync) in [!DNL Commerce Optimizer Studio], um die Verfügbarkeit der Daten zu bestätigen.
 
 >[!TIP]
 >
-> Weitere Informationen zum Datensynchronisierungsprozess finden Sie unter [Synchronisieren von Daten mit dem SaaS](https://experienceleague.adobe.com/de/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process)Datenexport im *SaaS-Datenexporthandbuch*.
+> Weitere Informationen zum Datensynchronisierungsprozess finden Sie unter [Synchronisieren von Daten mit dem SaaS](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-synchronization/data-sync-manage#view-and-manage-the-synchronization-process)Datenexport im *SaaS-Datenexporthandbuch*.
 
 ## Best Practices {#best-practices}
 
@@ -202,7 +203,7 @@ Um die End-to-End-Synchronisierung nach Abschluss der Exporte zu überprüfen, v
 | Hohe Ausfallraten | Viele Datensätze zeigen den Status *Fehlgeschlagen, Aufmerksamkeit erforderlich* an | <ul><li>Status und Konfiguration des externen Services überprüfen</li><li>Prüfen Sie die Fehlermeldungen auf Muster in der Spalte [!UICONTROL Error] .</li><li>Nachdem Sie das zugrunde liegende Problem behoben haben, lesen Sie [Verwalten und Resynchronisieren fehlgeschlagener Exporte](#manage-failed-exports)</li><li>Wenden Sie sich bei Bedarf an den externen Support</li></ul> |
 | Langsame Exportleistung | Hoher Änderungsrückstand oder langsame Statusaktualisierungen | <ul><li>Prüfen Sie [feed health indicators](#feed-health-indicators) auf Indexer und Rückstandsstatus</li><li>Indizierung erneut ausführen, wenn **Reindex required** angezeigt wird</li><li>Überwachen der Reaktionszeiten externer Services</li><li>Planen Sie Exporte nach Möglichkeit außerhalb der Spitzenzeiten</li><li>Überprüfen der Systemressourcen und -leistung</li></ul> |
 | Authentifizierungsfehler | 401- oder 403-Status-Codes in der Spalte [!UICONTROL Error] | <ul><li>API-Anmeldeinformationen und Token überprüfen</li><li>Prüfen der Berechtigungen für externe Dienstkonten</li><li>Verlängern Sie abgelaufene Token oder wenden Sie sich an Ihren Dienstleister</li><li>Nachdem die Anmeldeinformationen wiederhergestellt wurden, [betroffenen Datensätze neu synchronisiert](#manage-failed-exports)</li></ul> |
-| Fehlende Seite „Synchronisierungsstatus für Daten-Feed“ | **[!UICONTROL Data Feed Sync Status]** wird nach der Aktivierung eines Connected Services nicht unter **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** aufgeführt | <ul><li>Bestätigen Sie für Commerce as a Cloud Service, dass ein berechtigter Service aktiviert ist (siehe [Zielgruppe und Verfügbarkeit](#audience))</li><li>Nur für Commerce in der Cloud oder On-Premise ([&#x200B; Sie die Erweiterung manuell](#install-the-extension)</li></ul> |
+| Fehlende Seite „Synchronisierungsstatus für Daten-Feed“ | **[!UICONTROL Data Feed Sync Status]** wird nach der Aktivierung eines Connected Services nicht unter **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** aufgeführt | <ul><li>Bestätigen Sie für Commerce as a Cloud Service, dass ein berechtigter Service aktiviert ist (siehe [Zielgruppe und Verfügbarkeit](#audience))</li><li>Nur für Commerce in der Cloud oder On-Premise ([ Sie die Erweiterung manuell](#install-the-extension)</li></ul> |
 
 Adobe Commerce in der Cloud-Infrastruktur oder lokal: Vergewissern Sie sich, dass ein berechtigter Service oder der Adobe Commerce Optimizer-Connector aktiviert ist. Wenn die Seite noch fehlt, befolgen Sie die manuellen Installationsanweisungen.
 ACCS oder Adobe Commerce Optimizer: Installieren Sie das Modul nicht manuell. Verwenden Sie die produktverwaltete Synchronisierung oder wenden Sie sich an das entsprechende Service-Supportteam.
@@ -213,9 +214,9 @@ Eine manuelle Installation ist für Adobe Commerce in Cloud- oder On-Premise-Ber
 
 ### Voraussetzungen
 
-- Adobe Commerce 2.4.4+. Detaillierte Anforderungen finden Sie unter [Systemanforderungen](https://experienceleague.adobe.com/de/docs/commerce-operations/installation-guide/system-requirements).
-- [Adobe Commerce-Datenexporterweiterung](https://experienceleague.adobe.com/de/docs/commerce/saas-data-export/reference/manage-extension), Version 103.4.15 oder höher
-- Authentifizierungsschlüssel mit der Berechtigung zum Herunterladen des erforderlichen Pakets aus dem Adobe Commerce-Repository. Informationen zum Erstellen von Authentifizierungsschlüsseln und zum Abrufen des erforderlichen Paketzugriffs finden Sie unter [Abrufen Ihrer Authentifizierungsschlüssel](https://experienceleague.adobe.com/de/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Informationen zu Cloud-Installationen finden Sie im Handbuch zu [Commerce in Cloud-Infrastrukturen](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
+- Adobe Commerce 2.4.4+. Detaillierte Anforderungen finden Sie unter [Systemanforderungen](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements).
+- [Adobe Commerce-Datenexporterweiterung](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/reference/manage-extension), Version 103.4.15 oder höher
+- Authentifizierungsschlüssel mit der Berechtigung zum Herunterladen des erforderlichen Pakets aus dem Adobe Commerce-Repository. Informationen zum Erstellen von Authentifizierungsschlüsseln und zum Abrufen des erforderlichen Paketzugriffs finden Sie unter [Abrufen Ihrer Authentifizierungsschlüssel](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys). Informationen zu Cloud-Installationen finden Sie im Handbuch zu [Commerce in Cloud-Infrastrukturen](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/authentication-keys).
 - Zugriff auf die Befehlszeile des Adobe Commerce-Anwendungsservers.
 
 ### Installationsschritte
@@ -228,10 +229,10 @@ composer require magento/module-data-exporter-status
 
 Detaillierte Informationen zu den Installationsschritten finden Sie in den folgenden Handbüchern:
 
-- [Installieren der Erweiterung für Adobe Commerce in der Cloud-Infrastruktur](https://experienceleague.adobe.com/de/docs/commerce-on-cloud/user-guide/configure-store/extensions)
-- [Installieren der Erweiterung auf Adobe Commerce On-Premise](https://experienceleague.adobe.com/de/docs/commerce-operations/installation-guide/tutorials/extensions)
+- [Installieren der Erweiterung für Adobe Commerce in der Cloud-Infrastruktur](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)
+- [Installieren der Erweiterung auf Adobe Commerce On-Premise](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)
 
 >[!MORELIKETHIS]
 >
 > - [Daten-Management-Dashboard](data-dashboard.md)
-> - [SaaS-Datenexport-Handbuch](https://experienceleague.adobe.com/de/docs/commerce/saas-data-export/overview)
+> - [SaaS-Datenexport-Handbuch](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/overview)

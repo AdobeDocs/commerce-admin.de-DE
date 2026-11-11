@@ -2,7 +2,7 @@
 title: '[!UICONTROL Services] > ACO-Katalogansicht synchronisieren'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync] des Commerce Admin.
 feature: Configuration, Security
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
+badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '333'
 ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Catalog View Sync]
 
-Verwenden Sie diese Einstellungen, um zu steuern, wie die [!DNL Adobe Commerce Optimizer Connector for B2B] freigegebene B2B-Katalogkonfigurationen - Katalogansicht, Richtlinie, Preisbuch und Schlüssel - in [!DNL Adobe Commerce Optimizer] synchronisiert und wie Konfigurationsunterschiede zwischen den beiden Systemen aufgelöst werden. Informationen [&#x200B; Überwachung der Ergebnisse dieser Einstellungen finden &#x200B;](../../systems/catalog-view-sync-status.md) unter „Catalog View Sync Status Monitoring“.
+Verwenden Sie diese Einstellungen, um zu steuern, wie die [!DNL Adobe Commerce Optimizer Connector for B2B] freigegebene B2B-Katalogkonfigurationen - Katalogansicht, Richtlinie, Preisbuch und Schlüssel - in [!DNL Adobe Commerce Optimizer] synchronisiert und wie Konfigurationsunterschiede zwischen den beiden Systemen aufgelöst werden. Informationen [ Überwachung der Ergebnisse dieser Einstellungen finden ](../../systems/catalog-view-sync-status.md) unter „Catalog View Sync Status Monitoring“.
+
+>[!NOTE]
+>
+>Diese Seite gilt für den Connector. Instanzen, die mit dem Composable Catalog Data Model (CCDM) bereitgestellt werden, synchronisieren Daten nativ und verwenden den Connector nicht. Siehe [Merchandising-Services mit CCDM](/help/optimizer/overview.md).
 
 {{config}}
 

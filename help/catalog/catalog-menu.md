@@ -24,13 +24,11 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ae2baff593e99593826d93101aba6a7f7e5d36bb
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: 224
+source-wordcount: '224'
 ht-degree: 0%
-
 ---
-
 # Menü [!UICONTROL Catalog]
 
 Das Menü [!UICONTROL Catalog] bietet einfachen Zugriff auf Tools zur Produkterstellung, Kategorie- und Bestandsverwaltung, freigegebene Kataloge für benutzerdefinierte Preise in [B2B-Stores](/help/b2b/introduction.md) und Kataloganreicherung für die KI-unterstützte Erkennung.
@@ -39,17 +37,19 @@ Das Menü [!UICONTROL Catalog] bietet einfachen Zugriff auf Tools zur Produkters
 
 >[!TAB Adobe Commerce]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 ![Menü Katalog](./assets/admin-menu-catalog.png){width="300" zoomable="yes"}
 
 >[!TAB Adobe Commerce as a Cloud Service]
 
-[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
+[!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."}
 
 ![Menü Katalog](./assets/admin-menu-catalog-accs.png){width="300" zoomable="yes"}
 
 >[!ENDTABS]
+
+{{ccdm-merchandising-note}}
 
 Klicken Sie in der _Admin_-Seitenleiste auf **[!UICONTROL Catalog]**.
 
@@ -67,13 +67,13 @@ Erstellen Sie die [Kategorie](categories.md)-Struktur, die die Grundlage für di
 
 ## [!UICONTROL Shared Catalogs]
 
-Bei Shops mit installiertem und aktiviertem Adobe Commerce B2B [&#x200B; Sie mit &#x200B;](/help/b2b/catalog-shared.md)freigegebenen Katalogen“ benutzerdefinierte Preise für verschiedene Unternehmen festlegen können.
+Bei Shops mit installiertem und aktiviertem Adobe Commerce B2B [ Sie mit ](/help/b2b/catalog-shared.md)freigegebenen Katalogen“ benutzerdefinierte Preise für verschiedene Unternehmen festlegen können.
 
 ![Freigegebene Katalogprodukte](./assets/shared-catalog-setup.png){width="700" zoomable="yes"}
 
 ## [!UICONTROL Catalog enrichment]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Verwenden Sie [Kataloganreicherung](catalog-enrichment.md), um die von KI vorgeschlagenen Verbesserungen der Produktnamen und langen Beschreibungen zu überprüfen und anzuwenden, damit Ihr Katalog in LLM und KI-unterstützten Discovery korrekt dargestellt wird.
 
