@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-03
-source-git-commit: 007b6b960a2b17a082d3397c703f9f8375a23a9f
+source-git-commit: 837bdd15f7c690be65e72cce8b888d5c2b981fe6
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '801'
 ht-degree: 0%
 ---
 # &#x200B;<!-- use banner as heading -->![Admin-Dokumentation](./assets/banner-user-home.png) {#documentation}
@@ -85,7 +85,7 @@ Magento Open Source ist die Code-Basis, zu der Adobe offiziell beiträgt, und ge
 <tr>
   <td valign="top">
       <img alt="Adobe Commerce B2B" src="./assets/icon-building.svg" width="40" height="40"/></td>
-   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a> [!BADGE PaaS only]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt für Adobe Commerce nur für Cloud-Projekte (Adobe-verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+   <td valign="top"><a href="../b2b/guide-overview.md"><strong>Adobe Commerce B2B</strong></a>
     <div><em>Dieser Funktionssatz wurde entwickelt, um die Anforderungen von Verkäufern (Händlern) zu erfüllen, deren Kunden hauptsächlich Unternehmen sind - möglicherweise mit komplexen Organisationsstrukturen und mehreren Mitarbeitern mit verschiedenen Rollen und Ebenen der Kaufberechtigung.</em>
     <br></div>
   </td>
@@ -103,6 +103,15 @@ Magento Open Source ist die Code-Basis, zu der Adobe offiziell beiträgt, und ge
        <img alt="Inventory management" src="./assets/icon-transfer.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../inventory-management/guide-overview.md"> <strong>[!DNL Inventory Management]</strong></a>
     <div><em>Die [!DNL Inventory Management] Funktionen ermöglichen es Händlern mit einem einzigen Shop, mehrere Lager, Geschäfte, Abholorte, Dropshipping-Kunden und mehr zu bedienen. Verwenden Sie diese Funktionen, um Mengen für den Verkauf zu verwalten und Sendungen zu bearbeiten, um Aufträge abzuschließen. </em></div>
+  </td>
+</tr>
+<tr>
+  <td valign="top">
+    <img alt="Merchandising-Services" src="./assets/icon-merchandising-ccdm.svg" width="40" height="40"/>
+  </td>
+  <td valign="top">
+    <a href="../optimizer/overview.md"><strong>Merchandising-Services mit dem Composable Catalog Data Model (CCDM)</strong></a> [!BADGE SaaS only]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Instanzen, die nur mit CCDM bereitgestellt werden (Adobe-verwaltete SaaS-Infrastruktur)."}
+    <div><em>Konfigurieren Sie Katalogansichten und -richtlinien, verwalten Sie Merchandising-Regeln und -Empfehlungen, überprüfen Sie die Leistung der Storefront und überwachen Sie die Katalogsynchronisierung in Commerce Admin.</em></div>
   </td>
 </tr>
 <tr>

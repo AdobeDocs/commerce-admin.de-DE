@@ -1,9 +1,9 @@
 ---
 title: Snippets
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: 2a77353224b36200662f8c5a5a0450073fe8506c
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '846'
 ht-degree: 0%
 ---
 # Snippets
@@ -85,6 +85,12 @@ Um auf die Store-Konfigurationseinstellungen zuzugreifen, wählen Sie **[!UICONT
 >[!IMPORTANT]
 >
 >Adobe Commerce B2B ab Version 1.4.2 ist mit PHP 8.2 kompatibel. Wenn Sie die Commerce-Instanz auf Version 2.4.7 oder höher aktualisieren, stellen Sie sicher, dass die Instanz PHP Version 8.2 verwendet, um die Kompatibilität mit der Adobe Commerce B2B-Version zu gewährleisten. Darüber hinaus unterstützt die B2B-Version 1.4.2+ nicht den [GraphQL-Anwendungsserver](https://experienceleague.adobe.com/de/docs/commerce-operations/performance-best-practices/concepts/application-server).
+
+## Hinweis zu CCDM Merchandising Services {#ccdm-merchandising-note}
+
+>[!NOTE]
+>
+>Wenn Ihre Adobe Commerce as a Cloud Service-Instanz mit dem Composable Catalog Data Model (CCDM) bereitgestellt wird, verwalten Sie Katalogansichten, Richtlinien, Merchandising und Berichte in Merchandising Services. Siehe [Merchandising-Services mit CCDM](/help/optimizer/overview.md).
 
 ## reCAPTCHA-Formularliste {#recaptcha-forms-list}
 

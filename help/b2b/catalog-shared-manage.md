@@ -39,16 +39,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1132'
 ht-degree: 0%
 ---
 # Verwalten freigegebener Kataloge
 
 Die _[!UICONTROL Shared Catalogs]_&#x200B;bietet Zugriff auf die Tools, die zur Verwaltung Ihrer freigegebenen Kataloge erforderlich sind, einschließlich Produktauswahl, benutzerdefinierter Preise, Kategorieberechtigungen und Katalogdetails. Die Seite ähnelt dem standardmäßigen Admin Workspace mit Filtern und Aktionssteuerelementen. Im Raster werden alle freigegebenen Kataloge aufgelistet, einschließlich des standardmäßigen öffentlichen freigegebenen Katalogs und aller benutzerdefinierten Kataloge, die Sie eingerichtet haben.
 
-Wenn die [!DNL Adobe Commerce Optimizer Connector for B2B]-Erweiterung installiert ist, bietet die Seite auch Zugriff auf die [!DNL Adobe Commerce Optimizer] Katalogansichten, die erstellt werden, wenn der Connector Daten aus jedem freigegebenen Katalog mit [!DNL Adobe Commerce Optimizer] synchronisiert, und auf die eingeschränkten Zugriffsschlüssel, die die Katalogansichten für B2B-Storefront-Erlebnisse sichern.
+Wenn die [!DNL Adobe Commerce Optimizer Connector for B2B]-Erweiterung installiert ist, bietet die Seite auch Zugriff auf die [!DNL Adobe Commerce Optimizer] Katalogansichten, die erstellt werden, wenn der Connector Daten aus jedem freigegebenen Katalog mit [!DNL Adobe Commerce Optimizer] synchronisiert, und auf die eingeschränkten Zugriffsschlüssel, die die Katalogansichten für B2B-Storefront-Erlebnisse sichern. Bei Instanzen, die mit dem Composable Catalog Data Model (CCDM) bereitgestellt werden, generiert die native Synchronisierung Katalogansichten aus freigegebenen Katalogen. Siehe [B2B-Katalogansichten](/help/optimizer/setup/catalog-view.md#b2b-catalog-views).
 
 ## Aktualisieren der Produktauswahl
 

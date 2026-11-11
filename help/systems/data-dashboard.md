@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '797'
 ht-degree: 0%
 ---
 # Dashboard für das Daten-Management
@@ -51,6 +51,8 @@ Das Daten-Management-Dashboard bietet einen Überblick über den Synchronisierun
 >[!NOTE]
 >
 >Wenn Sie den [Adobe Commerce Optimizer-Connector](https://experienceleague.adobe.com/de/docs/commerce/aco-optimizer-connector/overview) installiert haben, um Katalogdaten nach Adobe Commerce Optimizer zu exportieren, verwenden Sie die [Datensynchronisierungsseite](https://experienceleague.adobe.com/de/docs/commerce/optimizer/setup/data-sync) in Commerce Optimizer Studio, um eine erfolgreiche Datensynchronisierung zu überprüfen, und nicht das Data Management Dashboard.
+>
+>Informationen zu Instanzen, die mit dem Composable Catalog Data Model (CCDM) bereitgestellt werden, finden Sie unter [Katalogsynchronisierung](/help/optimizer/setup/data-sync.md) in Merchandising Services.
 
 ## Zielgruppe
 

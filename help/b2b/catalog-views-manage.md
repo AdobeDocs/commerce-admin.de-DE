@@ -33,12 +33,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '412'
 ht-degree: 0%
 ---
 # Konfiguration der Katalogansicht verwalten
+
+>[!NOTE]
+>
+>In diesem Thema wird die Implementierung der Katalogansicht für Commerce-Bereitstellungen mit dem Adobe Commerce Optimizer Connector für B2B beschrieben. Wenn Sie Adobe Commerce as a Cloud Service mit Merchandising Services und das Composable Catalog Data Model (CCDM) verwenden, finden Sie weitere Informationen unter Einrichten [Katalogansichten](../optimizer/setup/catalog-view.md) im Handbuch _Merchandising Services mit CCDM_.
 
 Wenn die [!DNL Adobe Commerce Optimizer Connector for B2B]-Erweiterung installiert ist, werden auf der Seite Katalogansichten die [!DNL Adobe Commerce Optimizer] ([) aufgelistet](https://experienceleague-review.adobe.com/en/docs/commerce/aco-optimizer-connector/b2b-shared-catalog-projection){target="_blank"} die für benutzerdefinierten freigegebenen Katalog erstellt wurden.  Eine _Projektion_ ist die Katalogansicht, die erstellt wird, wenn der Connector freigegebene Katalogdaten mit [!DNL Adobe Commerce Optimizer] synchronisiert. Der Connector erstellt für jede Shop-Ansicht im freigegebenen Katalog eine separate Projektion, sodass ein freigegebener Katalog mehrere Katalogansichten haben kann. In Storefront-Erlebnissen sind diese Katalogansichten nur für Unternehmen zugänglich, die dem zugehörigen freigegebenen Katalog zugewiesen sind.
 

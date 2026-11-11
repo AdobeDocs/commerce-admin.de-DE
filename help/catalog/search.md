@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # Übersicht über die Katalogsuche
@@ -42,6 +42,8 @@ ht-degree: 0%
 >[!TIP]
 >
 >[[!DNL Live Search]](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview) bietet ein schnelles, extrem relevantes und intuitives Sucherlebnis und ist für Adobe Commerce ohne zusätzliche Kosten verfügbar. In diesem Abschnitt wird die Standardsuchfunktion beschrieben, die sich von [!DNL Live Search] unterscheiden kann.
+>
+>Wenn Ihre Adobe Commerce as a Cloud Service-Instanz mit dem Composable Catalog Data Model (CCDM) bereitgestellt wird, konfigurieren Sie Sucheinstellungen, Facetten, Synonyme und Merchandising-Regeln in [Merchandising Services mit CCDM](/help/optimizer/overview.md).
 
 Untersuchungen zeigen, dass Personen, die die -Suche verwenden, mit größerer Wahrscheinlichkeit einen Kauf tätigen als Kunden, die nur auf die Navigation angewiesen sind. Tatsächlich tätigen Menschen, die die Suche nutzen, laut einigen Studien mit fast doppelt so hoher Wahrscheinlichkeit einen Kauf.
 

@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '967'
 ht-degree: 3%
 ---
 # Suchergebnisse
@@ -42,6 +42,8 @@ ht-degree: 3%
 >[!NOTE]
 >
 >Auf dieser Seite werden Standardsuchfunktionen beschrieben, die sich von der [Live Search“ &#x200B;](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview).
+>
+>Informationen zu Instanzen, die mit dem Composable Catalog Data Model (CCDM) bereitgestellt werden, finden Sie unter [Suchabgleich und Rangfolge](/help/optimizer/manage-results/search-relevance-matching.md) in Merchandising Services.
 
 Die _Suchergebnisse_ enthält alle Produkte, die den im Feld „Schnellsuche“ oder im Formular „Erweiterte Suche“ angegebenen Suchkriterien entsprechen. Jede Produktliste im Katalog verfügt im Wesentlichen über dieselben Steuerelemente. Der einzige Unterschied besteht darin, dass einer das Ergebnis einer Suchanfrage ist und der andere das Ergebnis von [Navigation](navigation.md).
 

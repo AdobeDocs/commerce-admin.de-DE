@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: 1129
+source-wordcount: '1129'
 ht-degree: 1%
-
 ---
-
 # Einführung in Commerce Merchandising und Promotions
 
 Targeting von Werbeaktionen und Schaffung von Möglichkeiten für Kundeninteraktion und Umwandlung von Käufern in Käufer. Verwalten Sie Kundenbeziehungen, indem Sie Aktivitäten nach dem Kauf unterstützen und wiederkehrenden Kunden spezielle Rabatte anbieten. Best Practices und Techniken zur Unterstützung Ihrer SEO-Initiativen
+
+{{ccdm-merchandising-note}}
 
 ## Verkauf von Waren
 

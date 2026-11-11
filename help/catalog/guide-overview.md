@@ -33,13 +33,11 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5e73225b71682f6d2527dab772abe0301ce5f0c8
+source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
 workflow-type: tm+mt
-source-wordcount: 329
-ht-degree: 5%
-
+source-wordcount: '498'
+ht-degree: 3%
 ---
-
 # Handbuch zur Katalogverwaltung in Adobe Commerce
 
 Dieses Handbuch richtet sich an Produkt-Merchandiser und Inventar-Manager, die in der Adobe Commerce und Magento Open Source Admin arbeiten. Es enthält detaillierte Informationen zu den Funktionen des Produktkatalogs, einschließlich der Erstellung der Navigationsstrukturen für einen Katalog. Es setzt ein grundlegendes Verständnis der [!DNL Commerce] Konfiguration und Funktionalität voraus.
@@ -55,8 +53,11 @@ Dieses Handbuch behandelt Folgendes:
 | [Katalogsuche](search.md) | Überprüfen Sie die Tools, mit denen Kunden Produkte in der Storefront finden können, und konfigurieren Sie das Sucherlebnis entsprechend Ihrem Produktkatalog. |
 | [Kategorien](categories.md) | Legen Sie die grundlegende Kategoriestruktur Ihres Katalogs so fest, dass das Kundenerlebnis in Ihrer Storefront optimiert wird. |
 | [Produkte](products-list.md) | Erstellen Sie Produkte von einfach bis komplex mit mehreren Optionen, Farbfeldern und anpassbaren Bundles. Erstellen Sie herunterladbare Produkte und virtuelle Produkte für Dienstleistungen und andere nicht greifbare Elemente. |
+| [Freigegebene Kataloge](../b2b/enable-basic-features.md) | Gemeinsame Kataloge ermöglichen es Händlern, verschiedene Unternehmen kuratierte Produktsortimente und benutzerdefinierte Preise anzubieten. Erfordert die Lizenzierung und Konfiguration von Adobe Commerce B2B, einschließlich Unternehmenskonten und Funktionen für den freigegebenen Katalog. |
 | [Kataloganreicherung](catalog-enrichment.md) | Überprüfen und wenden Sie die von KI vorgeschlagenen Verbesserungen an Produktnamen und -beschreibungen an, damit Ihr Katalog in LLM und der KI-unterstützten Erkennung korrekt dargestellt wird. |
 | [Produktattribute](product-attributes.md) | Erstellen Sie Attribute mit Eingabesteuerelementen für Produktoptionen und um zusätzliche Informationen auf Produktseiten bereitzustellen. |
+| [Nur Katalogansichten](../optimizer/setup/catalog-view.md) [!BADGE SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} | Für Commerce-Bereitstellungen mit Merchandising Services und dem Composable Catalog Data Model (CCDM) definieren Sie die Produkte und Preise, die ein Kunde abrufen kann, indem Sie Katalogquellen, Katalogebenen, Richtlinien und Preislisten für jede Marke, Region, Geschäftseinheit oder jeden Kanal kombinieren. Optional können Sie die Katalogansicht einschränken, um sie privat zu machen. |
+| [Richtlinien](../optimizer/setup/policies.md) [!BADGE nur SaaS]{type=Positive url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service- und Adobe Commerce Optimizer-Projekte (von Adobe verwaltete SaaS-Infrastruktur)."} | Für Commerce-Bereitstellungen mit CDM definieren Sie die Datenzugriffsfilter, die steuern, welche Produkte jede Katalogansicht bereitstellt, sodass der richtige Inhalt an das richtige Ziel gesendet wird. |
 
 {style="table-layout:auto"}
 

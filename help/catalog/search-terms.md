@@ -36,12 +36,14 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
 ---
 # Verwalten von Suchbegriffen
+
+{{ccdm-merchandising-note}}
 
 Die [Landingpage](../content-design/pages.md) für einen Suchbegriff kann eine Inhaltsseite, eine Kategorieseite, eine Produktdetailseite oder auch eine Seite auf einer anderen Site sein.
 

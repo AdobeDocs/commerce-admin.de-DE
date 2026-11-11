@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a7f68c3aa26f7be14a6a247ba8f7c8c032421b46
+source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '830'
 ht-degree: 0%
 ---
 
@@ -49,6 +49,8 @@ Verwenden Sie die Seite „Schlüssel für eingeschränkten Zugriff“, um Zugri
 >[!NOTE]
 >
 >Bei manuell erstellten Schlüsseln, mit denen private Kataloge in Nicht-B2B-Szenarien verwaltet werden (z. B. Partnerportale), verwalten Sie Schlüssel von [[!DNL Adobe Commerce Optimizer Studio]](https://experienceleague.adobe.com/de/docs/commerce/optimizer/setup/restricted-access-keys){target="_blank"} aus.
+>
+>Informationen zu Instanzen, die mit dem Composable Catalog Data Model (CCDM) bereitgestellt werden, finden Sie unter [Eingeschränkte Zugriffsschlüssel](/help/optimizer/setup/restricted-access-keys.md) in Merchandising Services.
 
 ## Zielgruppe und Verfügbarkeit {#audience}
 

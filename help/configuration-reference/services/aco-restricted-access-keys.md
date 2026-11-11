@@ -1,5 +1,5 @@
 ---
-title: '[!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]'
+title: '[!UICONTROL Services] > ACO - Schlüssel mit eingeschränktem Zugriff'
 description: Überprüfen Sie die Konfigurationseinstellungen auf der Seite [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys] des Commerce Admin.
 feature: Configuration, Security
 badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9ec73be87dd329dc04e7b133885fcc156f4ffcb6
+source-git-commit: df30ce0e482be65523f346d578be481b3ff893c8
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 4%
+source-wordcount: '215'
+ht-degree: 3%
 ---
 # [!UICONTROL Services] > [!UICONTROL ACO Restricted Access Keys]
 
 Verwenden Sie diese Einstellung, um den Standardablaufzeitraum zu steuern, den die [!DNL Adobe Commerce Optimizer Connector for B2B] für eingeschränkte Zugriffsschlüssel anwendet, die sie für freigegebene B2B-Katalogansichten bereitstellt. Informationen zum Erstellen, Zuweisen und Löschen dieser Schlüssel finden Sie unter [Verwaltung von eingeschränkten Zugriffsschlüsseln](../../systems/restricted-access-keys.md).
+
+>[!NOTE]
+>
+>Diese Seite gilt für den Connector. Instanzen, die mit dem Composable Catalog Data Model (CCDM) bereitgestellt werden, synchronisieren Daten nativ und verwenden den Connector nicht. Siehe [Merchandising-Services mit CCDM](/help/optimizer/overview.md).
 
 {{config}}
 
