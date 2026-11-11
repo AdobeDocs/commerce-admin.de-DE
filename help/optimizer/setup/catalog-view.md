@@ -123,7 +123,7 @@ Bestätigen Sie bei B2B-Implementierungen auch, dass die durch die Synchronisier
 
 ### CDM-Katalogbildschirme sind in Commerce Admin nicht sichtbar
 
-[Bestätigen Sie, dass die ausgewählte Instanz CCDM verwendet ](../overview.md) dass Sie in Unified Experience auf [Commerce Admin zugreifen](../../getting-started/admin-unified-experience.md). Eine Instanz, die Catalog Services v1 ausführt, verfügt nicht über die CCDM-Administrationsbildschirme.
+[Bestätigen Sie, dass die ausgewählte Instanz CCDM verwendet &#x200B;](../overview.md) dass Sie in Unified Experience auf [Commerce Admin zugreifen](../../getting-started/admin-unified-experience.md). Eine Instanz, die Catalog Services v1 ausführt, verfügt nicht über die CCDM-Administrationsbildschirme.
 
 ## Verwandte Inhalte
 
