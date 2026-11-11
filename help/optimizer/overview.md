@@ -89,7 +89,7 @@ Die Berichterstellung hängt von den Aktivitätsdaten der Storefront ab, die von
 <!--
 Watch the following video for a high-level overview of [!DNL Adobe Commerce Optimizer]:
 
->[!VIDEO](https://video.tv.adobe.com/v/3450226)
+>[!VIDEO](https://video.tv.adobe.com/v/3450472?captions=ger)
 -->
 
 ## Bestätigen, dass eine Instanz CDM verwendet
