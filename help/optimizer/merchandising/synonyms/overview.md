@@ -1,7 +1,7 @@
 ---
 title: Übersicht über Synonyme
 description: Erfahren Sie mehr über Synonyme in [!DNL Adobe Commerce Optimizer] und wie sie die Suchergebnisse verbessern.
-badgeSaas: label="Nur SaaS" type="Positive" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Instanzen, die mit CCDM bereitgestellt werden (von Adobe verwaltete SaaS-Infrastruktur)."
+badgeSaas: label="Nur SaaS" type="Positive" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce as a Cloud Service-Instanzen, die mit CCDM bereitgestellt werden (von Adobe verwaltete SaaS-Infrastruktur)."
 autotag-review: '2026-11-02T19:38:02.670Z'
 TQID: 'https://experienceleague.adobe.com/as8iK1e2r8YlffS05bFbRrdk4eaFbedZJ6oauUmmKWc'
 product_v2:
@@ -19,7 +19,8 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 742236e7fdb26c56a80f66a44b0a4960210f4dac
+last-update: 2026-11-11
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 0%

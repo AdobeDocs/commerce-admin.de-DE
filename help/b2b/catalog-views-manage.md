@@ -2,7 +2,7 @@
 title: Konfiguration der Katalogansicht verwalten
 description: Erfahren Sie, wie Sie die für freigegebene B2B-Kataloge erstellten Adobe Commerce Optimizer-Katalogansichten überprüfen und die eingeschränkten Zugriffsschlüssel zuweisen, die sie schützen.
 feature: B2B, Companies, Catalog Management
-last-update: 2026-10-01
+last-update: 2026-11-11
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
     internal-label: Commerce
@@ -33,7 +33,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c425649d00a0a57f84ce4042d33f6d0c5eabe99c
+source-git-commit: eb34ebcf7dbe70738bad8105abfc4c48d9c9a143
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Der Connector schützt Katalogansichten mit eingeschränkten Zugriffsschlüsseln
 
 Informationen zum Konfigurieren der Token-Lebensdauer oder Deaktivieren der Token-Ausgabe finden Sie unter [Services > ACO-Katalogansicht](/help/configuration-reference/services/aco-catalog-view.md).
 
-Sie können diese Katalogansichten überprüfen und ihre zugewiesenen Schlüssel entweder über die Registerkarte _[!UICONTROL Catalog Views]_&#x200B;des freigegebenen Katalogs oder den Abschnitt&#x200B;_[!UICONTROL Catalog Views]_ des zugehörigen Unternehmens verwalten. Beide listen dieselben Katalogansichten und aktuelle Schlüsselzuweisungen auf. Unter [Bearbeiten von eingeschränkten Zugriffsschlüsseln](#edit-restricted-access-keys) finden Sie den genauen Navigationspfad zu den einzelnen Speicherorten.
+Sie können diese Katalogansichten überprüfen und ihre zugewiesenen Schlüssel entweder über die Registerkarte _[!UICONTROL Catalog Views]_des freigegebenen Katalogs oder den Abschnitt_[!UICONTROL Catalog Views]_ des zugehörigen Unternehmens verwalten. Beide listen dieselben Katalogansichten und aktuelle Schlüsselzuweisungen auf. Unter [Bearbeiten von eingeschränkten Zugriffsschlüsseln](#edit-restricted-access-keys) finden Sie den genauen Navigationspfad zu den einzelnen Speicherorten.
 
 Informationen zum Überwachen der Synchronisierung freigegebener Katalogdaten mit [!DNL Adobe Commerce Optimizer] finden Sie [Überwachung des Synchronisierungsstatus der Katalogansicht](/help/systems/catalog-view-sync-status.md).
 
