@@ -1,7 +1,7 @@
 ---
-source-git-commit: bc8f33290be7bdc71772b9659c1a6f40c1c77d64
+source-git-commit: 9ccd8f3d267875124a80509bb376ab27ffa9af90
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # Neue Vorlage
@@ -12,6 +12,7 @@ Dieser Abschnitt enthält die Änderungen, die in den letzten 60 Tagen vorgenomm
 
 | Beschreibung | Typ | Datum/Quelle |
 | --- | --- | --- |
+| Es wurde Dokumentation für Merchandising-Services mit dem Composable Catalog Data Model (CCDM) für Adobe Commerce as a Cloud Service hinzugefügt:<br/>- Es wurden die [Übersicht über Merchandising-Services](https://experienceleague.adobe.com/de/docs/commerce-admin/merchandising-with-ccdm/overview) und die [Merchandising-Services-Aufgaben nach Rolle](https://experienceleague.adobe.com/de/docs/commerce-admin/merchandising-with-ccdm/get-started-merchandising-ccdm) hinzugefügt<br/>- [Katalogansichten](https://experienceleague.adobe.com/de/docs/commerce-admin/merchandising-with-ccdm/setup/catalog-view) und [Preislisten](https://experienceleague.adobe.com/de/docs/commerce-admin/merchandising-with-ccdm/setup/pricebooks) Themen hinzugefügt.<br/>- Es wurden Hinweise zu Suche, Empfehlungen, Katalogsynchronisierung und Connector-Themen hinzugefügt, die CDM-Benutzer zu Merchandising-Services leiten. | Größere Aktualisierung, neues Thema | [11. November 2026](https://github.com/AdobeDocs/commerce-admin.en/commit/f31ba4b981fb70f10cb0e1438dbd445550e6253b) |
 | Die [Kataloganreicherung](https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/products/catalog-enrichment) wurde aktualisiert und enthält jetzt Versionshinweise, eine neue Menünavigation und Installationsschritte. | Versionshinweise | [2. November 2026](https://github.com/AdobeDocs/commerce-admin.en/commit/6809e8121b81b0565ce9767e3fcf444ad3342f8f) |
 | Es wurden [Ressourcen für Filialguthaben](https://experienceleague.adobe.com/de/docs/commerce-admin/customers/customer-accounts/store-credit/store-credit-using#store-credit-role-resources) hinzugefügt, um zu steuern, welche Admin-Benutzer Filialguthaben verwalten können. | Größere Aktualisierung | [29. Oktober 2026](https://github.com/AdobeDocs/commerce-admin.en/commit/72b270ab3fd062fab4268bd4667d61ccab4d8676) |
 | Die Admin-Benutzerhandbücher für die Unified Shell-Benutzeroberfläche wurden aktualisiert:<br/>- Überarbeitete Navigationsanweisungen und aktualisierte Screenshots in den Handbüchern, einschließlich der Referenz [Admin Sidebar](https://experienceleague.adobe.com/de/docs/commerce-admin/start/admin/tools/admin-menu) mit dem Eintrag SaaS-only App Management.<br/>- Klargestellte [Inhalts- und Designfunktionen](https://experienceleague.adobe.com/de/docs/commerce-admin/content-design/guide-overview) für Adobe Commerce as a Cloud Service, einschließlich Produktbild-Wasserzeichen und Transaktions-E-Mails. | Größere Aktualisierung | [27. Oktober 2026](https://github.com/AdobeDocs/commerce-admin.en/commit/d6950d5fa02a2b50e3b481afe36f232da35560b5) |
