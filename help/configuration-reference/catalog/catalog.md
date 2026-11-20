@@ -37,13 +37,11 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9dcafbc313b9267939d07c27d270c39c797bde16
+source-git-commit: 6a7e2a6f32d89c269a6d767c5d98b46c2c25aa83
 workflow-type: tm+mt
-source-wordcount: 3358
+source-wordcount: '3381'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Catalog] > [!UICONTROL Catalog]
 
 {{config}}
@@ -52,7 +50,7 @@ ht-degree: 0%
 
 ![Automatische Generierung von Produktfeldern](./assets/catalog-product-fields-auto-generation.png)<!-- zoom -->
 
-<!-- [Product Fields Auto-Generation](https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/products/product-workspace#default-field-values) -->
+<!-- [Product Fields Auto-Generation](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/product-workspace#default-field-values) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -67,11 +65,11 @@ ht-degree: 0%
 
 ![Produktbewertungen](./assets/catalog-product-reviews.png)<!-- zoom -->
 
-<!-- [Product Reviews](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews) -->
+<!-- [Product Reviews](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/merchandising/product-reviews/product-reviews) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
-| [!UICONTROL Enabled] | Shop-Ansicht | Ermöglicht Produktbewertungen. Optionen: `Yes` / `No` |
+| [!UICONTROL Enabled] | Shop-Ansicht | Ermöglicht Produktbewertungen. Optionen: `Yes` / `No`<br/>Der Standardwert ist in Adobe Commerce in der Cloud-Infrastruktur und in Adobe Commerce On-Premise `Yes` und in Adobe Commerce as a Cloud Service `No`. |
 | [!UICONTROL Allow Guests to Write Reviews] | Website | Legt fest, ob Kunden ein Konto bei Ihrem Geschäft eröffnen müssen, um Produktbewertungen schreiben zu können. |
 
 {style="table-layout:auto"}
@@ -80,7 +78,7 @@ ht-degree: 0%
 
 ![Storefront](./assets/catalog-storefront.png)<!-- zoom -->
 
-<!-- [Storefront](https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/catalog/navigation/navigation-product-listings) -->
+<!-- [Storefront](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-product-listings) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -89,9 +87,9 @@ ht-degree: 0%
 | [!UICONTROL Products per Page on Grid Default Value] | Shop-Ansicht | Bestimmt die Anzahl der Produkte, die standardmäßig in der Rasteransicht pro Seite angezeigt werden. |
 | [!UICONTROL Products per Page on List Allowed Values] | Shop-Ansicht | Bestimmt die Anzahl der in der Listenansicht angezeigten Produkte. Um eine Auswahl von Optionen bereitzustellen, geben Sie mehrere Werte ein, die durch Kommas getrennt sind. |
 | [!UICONTROL Products per Page on List Default Value] | Shop-Ansicht | Bestimmt die Anzahl der standardmäßig pro Seite angezeigten Produkte in der Listenansicht. |
-| Produktliste sortieren nach | Shop-Ansicht | Bestimmt die Sortierreihenfolge der Suchergebnisliste. Die Auswahl der Optionen wird durch die Anzeigeeinstellungen der Kategorie und die verfügbaren Attribute bestimmt, die als `Used for Sorting in Product Listing` festgelegt sind. Der Standardwert ist auf `Use All Available Attributes` festgelegt und umfasst normalerweise den besten Wert, den Namen und den Preis. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/de/docs/commerce/live-search/live-search-storefront/plp-styling). |
+| Produktliste sortieren nach | Shop-Ansicht | Bestimmt die Sortierreihenfolge der Suchergebnisliste. Die Auswahl der Optionen wird durch die Anzeigeeinstellungen der Kategorie und die verfügbaren Attribute bestimmt, die als `Used for Sorting in Product Listing` festgelegt sind. Der Standardwert ist auf `Use All Available Attributes` festgelegt und umfasst normalerweise den besten Wert, den Namen und den Preis. Diese Einstellung gilt nicht für das [!DNL Live Search] [Widget „Produktauflistungsseite](https://experienceleague.adobe.com/en/docs/commerce/live-search/live-search-storefront/plp-styling). |
 | [!UICONTROL Allow All Products per Page] | Shop-Ansicht | Ist hierfür `Yes` festgelegt, wird die Option `ALL` in das Steuerelement „Pro Seite anzeigen“ einbezogen. |
-| [!UICONTROL Remember Category Pagination] | Global | Wenn auf `Yes` festgelegt, werden die aktuellen Paginierungswerte der Kategorie gespeichert, wenn Kundinnen und Kunden in (Produktlisten[&#x200B; von einer Kategorie zur anderen &#x200B;](../../catalog/navigation-product-listings.md). Wenn Sie den Wert speichern, wird mehr Cache-Speicher belegt. Dies kann sich auf die Art und Weise auswirken, wie Seiten von Suchmaschinen indiziert werden. Optionen: `Yes` / `No` (Standard) |
+| [!UICONTROL Remember Category Pagination] | Global | Wenn auf `Yes` festgelegt, werden die aktuellen Paginierungswerte der Kategorie gespeichert, wenn Kundinnen und Kunden in (Produktlisten[ von einer Kategorie zur anderen ](../../catalog/navigation-product-listings.md). Wenn Sie den Wert speichern, wird mehr Cache-Speicher belegt. Dies kann sich auf die Art und Weise auswirken, wie Seiten von Suchmaschinen indiziert werden. Optionen: `Yes` / `No` (Standard) |
 | [!UICONTROL Use Flat Catalog Category] | Global | Aktiviert die [flache Kategoriestruktur](../../catalog/catalog-flat.md) (nicht empfohlen). Optionen: `Yes` / `No` |
 | [!UICONTROL Use Flat Catalog Product] | Global | Aktiviert die flache Produktstruktur. (nicht empfohlen) Optionen: `Yes` / `No` |
 | [!UICONTROL Swatches per Product] | Shop-Ansicht | Bestimmt die Anzahl der für jedes Produkt verfügbaren Farbfelder. Standard: `16` |
@@ -104,7 +102,7 @@ ht-degree: 0%
 
 ![Produktbenachrichtigungen](./assets/catalog-product-alerts.png)<!-- zoom -->
 
-<!-- [Product Alerts](https://experienceleague.adobe.com/de/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
+<!-- [Product Alerts](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -120,7 +118,7 @@ ht-degree: 0%
 
 ![Einstellungen für die Ausführung von Produktwarnhinweisen](./assets/catalog-product-alerts-run-settings.png)<!-- zoom -->
 
-<!-- [Product Alerts Run Settings](https://experienceleague.adobe.com/de/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
+<!-- [Product Alerts Run Settings](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/configuration/product-alerts/alert-setup) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -136,7 +134,7 @@ ht-degree: 0%
 
 ![Platzhalter für Produktbilder](./assets/catalog-product-image-placeholders.png)<!-- zoom -->
 
-<!-- [Product Image Placeholders](https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/products/digital-assets/product-image-config#image-placeholders) -->
+<!-- [Product Image Placeholders](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-image-config#image-placeholders) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -150,11 +148,11 @@ ht-degree: 0%
 
 ## [!UICONTROL Recently Viewed/Compared Products]
 
-[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 ![Kürzlich angesehene/verglichene Produkte](./assets/catalog-recently-viewed-and-compared-products.png)<!-- zoom -->
 
-<!-- Recently Viewed/Compared Products](https://experienceleague.adobe.com/de/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared) -->
+<!-- Recently Viewed/Compared Products](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/products-viewed-compared) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -171,7 +169,7 @@ ht-degree: 0%
 
 ![Produktvideos](./assets/catalog-product-video.png)<!-- zoom -->
 
-<!-- [Product Videos](https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/products/digital-assets/product-video) -->
+<!-- [Product Videos](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/digital-assets/product-video) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -186,7 +184,7 @@ ht-degree: 0%
 
 ![Preis](./assets/catalog-price.png)<!-- zoom -->
 
-<!--Price](https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/products/pricing/catalog-price-scope) -->
+<!--Price](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/pricing/catalog-price-scope) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -199,9 +197,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Die in diesem Abschnitt beschriebene Standardsuchkonfiguration unterscheidet sich für die [Live-Suche](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview).
+>Die in diesem Abschnitt beschriebene Standardsuchkonfiguration unterscheidet sich für die [Live-Suche](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview).
 
-<!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
+<!-- [Layered Navigation - Automatic (equalize price ranges)](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-layered#configure-layered-navigation) -->
 
 ![Mehrschichtige Navigation - Automatisch (Preisausgleiche)](./assets/layered-navigation-equalize-price-range.png)<!-- zoom -->
 
@@ -224,7 +222,7 @@ ht-degree: 0%
 
 ![Kategorieberechtigungen](./assets/catalog-category-permissions.png)<!-- zoom -->
 
-<!-- [Category Permissions](https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/categories/category-permissions) -->
+<!-- [Category Permissions](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/categories/category-permissions) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -240,16 +238,16 @@ ht-degree: 0%
 
 ![Suchmaschinenoptimierung](./assets/catalog-search-engine-optimization.png)<!-- zoom -->
 
-<!-- [Search Engine Optimization](https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization) -->
+<!-- [Search Engine Optimization](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/settings/product-search-engine-optimization) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Popular Search Terms] | Shop-Ansicht | Bestimmt, ob _Beliebte Suchbegriffe_ im Store implementiert sind. Diese Einstellung gilt nicht für Stores, die die [Live Search“ &#x200B;](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview). Optionen: `Enable` / `Disable` |
+| [!UICONTROL Popular Search Terms] | Shop-Ansicht | Bestimmt, ob _Beliebte Suchbegriffe_ im Store implementiert sind. Diese Einstellung gilt nicht für Stores, die die [Live Search“ ](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview). Optionen: `Enable` / `Disable` |
 | [!UICONTROL Product URL Suffix] | Shop-Ansicht | Bestimmt, ob ein Suffix, wie HTML oder HTML, auf Produkt-URLs angewendet wird. Wenn verwendet, wird ein Punkt vor dem Suffix nicht eingefügt, da er automatisch angewendet wird. |
 | [!UICONTROL Category URL Suffix] | Shop-Ansicht | Bestimmt, ob ein Suffix wie HTML oder HTML auf Kategorie-URLs angewendet wird. Wenn verwendet, wird ein Punkt vor dem Suffix nicht eingefügt, da er automatisch angewendet wird. |
 | [!UICONTROL Use Categories Path for Product URLs] | Shop-Ansicht | Bestimmt, ob Kategoriepfade in Produkt-URLs in der Storefront enthalten sind. Dies kann dazu führen, dass mehrere URLs auf dieselbe Seite verweisen, was sich auf den Suchrang auswirken kann. Weitere Informationen finden Sie unter [Kanonisches Meta-Tag](../../merchandising-promotions/meta-data.md#canonical-meta-tag). |
 | [!UICONTROL Create Permanent Redirect for URLs if URL Key Changed] | Shop-Ansicht | Legt fest, ob bei jeder Änderung eines URL-Schlüssels automatisch eine permanente Umleitung erstellt wird Nach der Implementierung ist das Kontrollkästchen Benutzerdefinierte Umleitung für alte URL erstellen unter dem Feld Produkt-URL-Schlüssel standardmäßig aktiviert. Optionen: `Yes` / `No` |
-| [!UICONTROL Generate "category/product" URL Rewrites] | Global | Legt fest, ob Adobe Commerce Daten generiert und in Rewrite-Tabellen speichert, wenn ein Benutzer eine Kategorie mit vielen zugewiesenen Produkten speichert.  <br/><br/>Das Ändern dieser Option wirkt sich nicht darauf aus, wie Produkt-URLs in Adobe Commerce aufgelöst werden, da das System Produkt-URLs unabhängig von dieser Einstellung automatisch auflöst. <br/><br/>Optionen: `Yes` / `No` <br/><br/>**_Important:_** Das Speichern dieser generierten Daten in einer URL-Umschreibungstabelle kann die Leistung beeinträchtigen. Weitere Informationen finden [&#x200B; unter &#x200B;](../../merchandising-promotions/url-redirect-product-automatic.md) Produktweiterleitungen . |
+| [!UICONTROL Generate "category/product" URL Rewrites] | Global | Legt fest, ob Adobe Commerce Daten generiert und in Rewrite-Tabellen speichert, wenn ein Benutzer eine Kategorie mit vielen zugewiesenen Produkten speichert.  <br/><br/>Das Ändern dieser Option wirkt sich nicht darauf aus, wie Produkt-URLs in Adobe Commerce aufgelöst werden, da das System Produkt-URLs unabhängig von dieser Einstellung automatisch auflöst. <br/><br/>Optionen: `Yes` / `No` <br/><br/>**_Important:_** Das Speichern dieser generierten Daten in einer URL-Umschreibungstabelle kann die Leistung beeinträchtigen. Weitere Informationen finden [ unter ](../../merchandising-promotions/url-redirect-product-automatic.md) Produktweiterleitungen . |
 | [!UICONTROL Apply transliteration for product URL] | Shop-Ansicht | Bestimmt, ob beim Erstellen oder Aktualisieren von Produkt-URLs Transliteration angewendet wird. Optionen: `Yes` / `No`. Die Standardeinstellung ist `Yes`. <br/><br/>Für bestimmte Anwendungsfälle sollten Sie die Transliteration deaktivieren. Wenn Sie beispielsweise einen Online-Store auf Chinesisch betreiben, empfehlen die Best Practices von SEO, dass die Produkt-URLs mit dem Produktnamen übereinstimmen. Wenn Sie die Option auf `No` setzen, können chinesische Zeichen in Produkt-URLs anstelle einer ASCII-Entsprechung verwendet werden. |
 | [!UICONTROL Page Title Separator] | Shop-Ansicht | Gibt das Zeichen an, das den Kategorienamen und die Unterkategorie in der Titelleiste des Browsers trennt. |
 | [!UICONTROL Use Canonical Link Meta Tag for Categories] | Shop-Ansicht | Wenn mehrere URLs auf dieselbe Kategorieseite verweisen, verwendet diese Option ein kanonisches Meta-Tag, um die Kategorie-URL zu identifizieren, die Suchmaschinen indizieren sollten. Die URL enthält einen vollständigen Namen für die Kategorie unter Verwendung des Meta-Tags. Dies reduziert doppelte Inhalte und verbessert die SEO. Optionen: `Yes` / `No` |
@@ -261,7 +259,7 @@ ht-degree: 0%
 
 ![Oberste Navigation der Kategorie](./assets/catalog-category-top-navigation.png)<!-- zoom -->
 
-<!-- Category Top Navigation](https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/catalog/navigation/navigation-top) -->
+<!-- Category Top Navigation](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/navigation/navigation-top) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -271,7 +269,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Catalog Search]
 
-Sie können die Katalogsuche mithilfe von [[!DNL Live Search]](https://experienceleague.adobe.com/de/docs/commerce/live-search/overview) oder Suchmaschinendiensten von Drittanbietern konfigurieren, die von Adobe Commerce unterstützt werden. Folgen Sie den Installationsanweisungen.
+Sie können die Katalogsuche mithilfe von [[!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce/live-search/overview) oder Suchmaschinendiensten von Drittanbietern konfigurieren, die von Adobe Commerce unterstützt werden. Folgen Sie den Installationsanweisungen.
 
 ### Adobe Commerce mit [!DNL Live Search]
 
@@ -279,7 +277,7 @@ Wenn die Live Search installiert ist, umfasst die Katalogsuche die folgenden Kon
 
 ![Katalogsuche für die Live Search](./assets/catalog-search-live-search.png)<!-- zoom -->
 
-<!-- [Catalog Search for Live Search](https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/catalog/search/search-configuration) -->
+<!-- [Catalog Search for Live Search](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/search/search-configuration) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -296,7 +294,7 @@ Adobe Commerce unterstützt OpenSearch und Elasticsearch. Die Adobe Commerce-Ver
 
 >[!IMPORTANT]
 >
->- Aufgrund der Ankündigung zum Ende der Unterstützung für Elasticsearch 7 im August 2023 empfiehlt Adobe allen Adobe Commerce-Kunden, zur OpenSearch 2.x -Suchmaschine zu migrieren. Informationen zur Migration Ihrer Suchmaschine während eines Upgrades finden Sie unter [Migration zu OpenSearch](https://experienceleague.adobe.com/de/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) im _Upgrade-Handbuch_.
+>- Aufgrund der Ankündigung zum Ende der Unterstützung für Elasticsearch 7 im August 2023 empfiehlt Adobe allen Adobe Commerce-Kunden, zur OpenSearch 2.x -Suchmaschine zu migrieren. Informationen zur Migration Ihrer Suchmaschine während eines Upgrades finden Sie unter [Migration zu OpenSearch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/opensearch-migration) im _Upgrade-Handbuch_.
 >- In den Versionen 2.4.4 und 2.4.3-p2 gelten alle Felder mit der Bezeichnung Elasticsearch auch für OpenSearch. Mit der Einführung der Unterstützung für Elasticsearch 8.x in Version 2.4.6 wurden neue Bezeichnungen erstellt, um zwischen Elasticsearch- und OpenSearch-Konfigurationen zu unterscheiden. Die Konfigurationsoptionen für beide sind jedoch identisch.
 
 ![Konfigurationsoptionen für die Katalogsuche](./assets/catalog-search-opensearch.png){zoomable="yes"}
@@ -317,7 +315,7 @@ Adobe Commerce unterstützt OpenSearch und Elasticsearch. Die Adobe Commerce-Ver
 | [!UICONTROL OpenSearch HTTP Password] | Global | Wenn _Elasticsearch HTTP-Authentifizierung aktivieren_ auf `Yes` gesetzt ist, gibt das Kennwort für die OpenSearch- oder Elasticsearch HTTP-Authentifizierung an. |
 | [!UICONTROL OpenSearch Server Timeout] | Global | Bestimmt die Anzahl der Sekunden, nach denen eine Anfrage an den OpenSearch- oder Elasticsearch-Server das Zeitlimit überschreitet. Standardwert: `15` |
 | [!UICONTROL Test Connection] |  | Validiert die OpenSearch- oder Elasticsearch-Verbindung. |
-| [!UICONTROL Enable Search Recommendations] | Shop-Ansicht | Bestimmt, ob Suchempfehlungen angeboten werden, wenn eine Suche keine Ergebnisse zurückgibt und auf der Suchergebnisseite unter dem Abschnitt `Related search terms` angezeigt wird. Optionen: `Yes` / `No` <br/>Wenn auf „Ja“ gesetzt, werden zusätzliche Optionen für _[!UICONTROL Search Recommendations Count]_&#x200B;und&#x200B;_[!UICONTROL Shows Results Count for Each Recommendation]_ angezeigt. |
+| [!UICONTROL Enable Search Recommendations] | Shop-Ansicht | Bestimmt, ob Suchempfehlungen angeboten werden, wenn eine Suche keine Ergebnisse zurückgibt und auf der Suchergebnisseite unter dem Abschnitt `Related search terms` angezeigt wird. Optionen: `Yes` / `No` <br/>Wenn auf „Ja“ gesetzt, werden zusätzliche Optionen für _[!UICONTROL Search Recommendations Count]_und_[!UICONTROL Shows Results Count for Each Recommendation]_ angezeigt. |
 | [!UICONTROL Search Recommendations Count] | Shop-Ansicht | Gibt die Anzahl der Suchbegriffe an, die als Empfehlungen angeboten werden. Standardmäßig werden nicht mehr als fünf angezeigt. |
 | [!UICONTROL Show Results Count for Each Recommendation] | Shop-Ansicht | Bei Festlegung auf `Yes` wird die Anzahl der für die vorgeschlagene Suchempfehlung gefundenen Produkte in Klammern angezeigt. Optionen: `Yes` / `No` |
 | [!UICONTROL Enable Search Suggestions] | Shop-Ansicht | Legt fest, ob Suchvorschläge für häufige Rechtschreibfehler angezeigt werden. Wenn diese Option aktiviert ist, werden Suchvorschläge für alle Anfragen angeboten, die keine Ergebnisse zurückgeben und unter dem Abschnitt `Did you mean` auf der Seite **Suchergebnisse** angezeigt werden. Suchvorschläge können die Leistung der Suche beeinträchtigen. Bei `Yes` werden zusätzliche Optionen für Suchempfehlungen aktivieren und zugehörige Felder angezeigt. Optionen: `Yes` / `No` |
@@ -329,7 +327,7 @@ Adobe Commerce unterstützt OpenSearch und Elasticsearch. Die Adobe Commerce-Ver
 
 ![Download-Produktoptionen](./assets/catalog-downloadable-product-options.png)<!-- zoom -->
 
-<!-- [Downloadable Product Options](https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/products/types/product-create-downloadable#configure-the-download-options) -->
+<!-- [Downloadable Product Options](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/products/types/product-create-downloadable#configure-the-download-options) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -340,7 +338,7 @@ Adobe Commerce unterstützt OpenSearch und Elasticsearch. Die Adobe Commerce-Ver
 | [!UICONTROL Default Link Title] | Shop-Ansicht | Der Standardlink für alle herunterladbaren Titel. |
 | [!UICONTROL Opens Links in New Window] | Website | Bestimmt, ob der Download-Link in einem neuen Browser-Fenster geöffnet wird. Optionen: `Yes` / `No` |
 | [!UICONTROL Use Content Disposition] | Shop-Ansicht | Bestimmt, wie der Link zum herunterladbaren Inhalt als E-Mail-Anhang oder als Inline-Link in einem Browser-Fenster bereitgestellt wird. Optionen: <br/>**`Attachment`**- Der Download-Link wird als E-Mail-Anhang bereitgestellt.<br/>**`Inline`** - Der Download-Link wird als Inline-Link auf einer Web-Seite bereitgestellt. |
-| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Website | Legt fest, ob Gäste, die herunterladbare Produkte kaufen, sich für ein Konto registrieren und sich anmelden müssen, um den Checkout-Prozess abzuschließen. Optionen: <br/>**`Yes`**- Wenn der Warenkorb herunterladbare Produkte enthält, muss sich der Gast entweder für ein Konto registrieren oder bei einem vorhandenen Konto anmelden, um den Kauf abzuschließen.<br/>**`No`** - Der Download-Link wird als Inline-Link im Textkörper der E-Mail-Nachricht bereitgestellt.  <br/> _&#x200B;**Hinweis**&#x200B;_ Der Gast-Checkout ist nur für Download-Produkte verfügbar, wenn die Option Freigeben auf `Yes` festgelegt ist. |
+| [!UICONTROL Disable Guest Checkout if Cart Contains Downloadable Items] | Website | Legt fest, ob Gäste, die herunterladbare Produkte kaufen, sich für ein Konto registrieren und sich anmelden müssen, um den Checkout-Prozess abzuschließen. Optionen: <br/>**`Yes`**- Wenn der Warenkorb herunterladbare Produkte enthält, muss sich der Gast entweder für ein Konto registrieren oder bei einem vorhandenen Konto anmelden, um den Kauf abzuschließen.<br/>**`No`** - Der Download-Link wird als Inline-Link im Textkörper der E-Mail-Nachricht bereitgestellt.  <br/> _**Hinweis**_ Der Gast-Checkout ist nur für Download-Produkte verfügbar, wenn die Option Freigeben auf `Yes` festgelegt ist. |
 
 {style="table-layout:auto"}
 
@@ -348,7 +346,7 @@ Adobe Commerce unterstützt OpenSearch und Elasticsearch. Die Adobe Commerce-Ver
 
 ![Benutzerdefinierte Optionen für Datum und Uhrzeit](./assets/catalog-date-time-custom-options.png)<!-- zoom -->
 
-<!-- Date & Time Custom Options](https://experienceleague.adobe.com/de/docs/commerce-admin/catalog/product-attributes/attributes-input-types#date-and-time-options) -->
+<!-- Date & Time Custom Options](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/attributes-input-types#date-and-time-options) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -365,7 +363,7 @@ Adobe Commerce unterstützt OpenSearch und Elasticsearch. Die Adobe Commerce-Ver
 
 ![Katalogereignisse](./assets/catalog-events.png)<!-- zoom -->
 
-<!-- [Catalog Events](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/promotions/events/events-private-sales) -->
+<!-- [Catalog Events](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/events/events-private-sales) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
@@ -382,7 +380,7 @@ Adobe Commerce unterstützt OpenSearch und Elasticsearch. Die Adobe Commerce-Ver
 
 ![Regelbasierte Produktbeziehungen](./assets/catalog-rule-based-product-relations.png)<!-- zoom -->
 
-<!-- [Rule-Based Product Relations](https://experienceleague.adobe.com/de/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) -->
+<!-- [Rule-Based Product Relations](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/product-relationships/product-related-rules) -->
 
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |

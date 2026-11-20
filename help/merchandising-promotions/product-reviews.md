@@ -3,7 +3,6 @@ title: Produktbewertungen
 description: Erfahren Sie, wie Produktbewertungen Ihren Shop verbessern und Ihren Produkten mehr Glaubwürdigkeit verleihen können.
 exl-id: 82f96b24-626f-4b2d-be42-3d655d08dfda
 feature: Merchandising, Products
-badgePaas: label="Nur PaaS" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."
 TQID: 'https://experienceleague.adobe.com/GVmMoMMhnS4nHjCoa-6ylW8ah5-itrJKXiK9GKrdHd8'
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -34,9 +33,9 @@ topic_v2:
     internal-label: Customer engagement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 560b0b1584040e8d840645328cdea5e51bdca640
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '866'
 ht-degree: 0%
 ---
 # Produktbewertungen
@@ -49,9 +48,15 @@ Commerce enthält eine native Funktion zur Produktüberprüfung, die Sie über d
 >
 >Die Versionen 2.4.0 bis 2.4.3 von Adobe Commerce und Magento Open Source enthielten die vom Yotpo-Anbieter entwickelte Erweiterung. Ab Version 2.4.4 ist diese Erweiterung nicht mehr im Bundle der Hauptversion enthalten und muss von der Commerce Marketplace installiert und aktualisiert werden. Der Marketplace bietet außerdem Zugriff auf die aktuelle Dokumentation, die vom Erweiterungsentwickler bereitgestellt wird.
 ><br><br>
->Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/de/docs/commerce-operations/upgrade-guide/modules/upgrade) im _Upgrade-Handbuch_ für weitere Informationen.
+>Wenn Sie die gebündelte Erweiterung aktiviert und konfiguriert haben, müssen Sie Ihre Datei „composer.json“ im Rahmen des Upgrade-Prozesses auf 2.4.4 aktualisieren, um zukünftige Erweiterungs-Updates zu verwalten. Siehe [Upgrade-Module](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/modules/upgrade) im _Upgrade-Handbuch_ für weitere Informationen.
 
 ## Produktbewertungen in der Storefront
+
+[!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
+
+>[!NOTE]
+>
+>In diesem Abschnitt werden Produktbewertungen für die Luma-Storefront in Adobe Commerce on Cloud Infrastructure und Adobe Commerce On-Premise beschrieben. Adobe Commerce as a Cloud Service umfasst die Luma-Storefront nicht. Daher werden durch die Aktivierung von Produktüberprüfungen im Admin-Bereich keine Überprüfungsfunktionen zu Ihrer Storefront hinzugefügt. Stattdessen müssen Sie die [`reviews`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/queries/reviews) GraphQL-Abfrage verwenden, um Überprüfungen abzurufen, und die [`createProductReview`](https://developer.adobe.com/commerce/webapi/graphql/schema/products/mutations/create-review) Mutation, um Überprüfungen zu erstellen.
 
 Wenn die native Funktion für Produktbewertungen aktiviert ist, können Kunden für jedes Produkt in Ihrem Katalog Bewertungen schreiben. Bewertungen können über die Produktseite geschrieben werden, indem Sie auf Folgendes klicken:
 
@@ -71,7 +76,7 @@ Die Anzahl der Sterne gibt die Zufriedenheitsbewertung des Produkts an. Besucher
 
 ### [!UICONTROL My Product Reviews]
 
-Im Abschnitt _[!UICONTROL My Product Reviews]_&#x200B;des Kundenkonto-Dashboards werden alle vom Kunden eingereichten und zur Veröffentlichung genehmigten Bewertungen aufgelistet. Jede Überprüfungszusammenfassung enthält das Datum, an dem die Überprüfung eingereicht wurde, Links zur Produktseite und Details zur Überprüfung.
+Im Abschnitt _[!UICONTROL My Product Reviews]_des Kundenkonto-Dashboards werden alle vom Kunden eingereichten und zur Veröffentlichung genehmigten Bewertungen aufgelistet. Jede Überprüfungszusammenfassung enthält das Datum, an dem die Überprüfung eingereicht wurde, Links zur Produktseite und Details zur Überprüfung.
 
 ![Meine Produktbewertungen](./assets/account-dashboard-my-product-reviews.png){width="700" zoomable="yes"}
 
@@ -83,11 +88,11 @@ Im Abschnitt _[!UICONTROL My Product Reviews]_&#x200B;des Kundenkonto-Dashboards
 
 ## Produktüberprüfungsfunktionen aktivieren
 
-Die Commerce-Produktüberprüfungsfunktion ist standardmäßig aktiviert.
+Die Commerce-Produktüberprüfungsfunktion ist in Adobe Commerce on Cloud Infrastructure und Adobe Commerce On-Premise standardmäßig aktiviert. Sie ist in Adobe Commerce as a Cloud Service standardmäßig deaktiviert.
 
 >[!NOTE]
 >
->Um diese Felder zum `No` und Deaktivieren von Commerce-Produktüberprüfungen festzulegen, müssen Sie die Kontrollkästchen **Systemwert verwenden** deaktivieren.
+>Um diese Felder von ihren Standardwerten zu ändern, müssen Sie zunächst die **[!UICONTROL Use system value]** Kontrollkästchen deaktivieren.
 
 1. Navigieren Sie in _Admin_-Seitenleiste zu **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
@@ -99,11 +104,11 @@ Die Commerce-Produktüberprüfungsfunktion ist standardmäßig aktiviert.
 
 1. Legen Sie **[!UICONTROL Enabled]** auf `Yes` fest.
 
-   Dies ist die Standardeinstellung, die Produktüberprüfungen ermöglicht.
+   Diese Einstellung ermöglicht Produktbewertungen.
 
 1. Legen Sie **[!UICONTROL Allow Guests to Write Reviews]** auf `Yes` fest.
 
-   Dies ist die Standardeinstellung, die bestimmt, ob Kunden ein Konto bei Ihrem Geschäft eröffnen müssen, um Produktbewertungen schreiben zu können.
+   Diese Einstellung bestimmt, ob Kunden ein Konto bei Ihrem Geschäft eröffnen müssen, um Produktbewertungen schreiben zu können.
 
 1. Klicken Sie abschließend auf **[!UICONTROL Save Config]**.
 
@@ -119,7 +124,7 @@ Mit den Commerce-Produktbewertungen können Kunden Bewertungen zuweisen, wenn si
 
    ![Admin - Ratings](./assets/product-reviews-rating.png){width="700" zoomable="yes"}
 
-1. Geben Sie im Abschnitt _[!UICONTROL Rating Title]_&#x200B;die **[!UICONTROL Default Value]**&#x200B;für die neue Bewertung ein.
+1. Geben Sie im Abschnitt _[!UICONTROL Rating Title]_die **[!UICONTROL Default Value]**für die neue Bewertung ein.
 
    Geben Sie gegebenenfalls auch die Übersetzung für jede Shop-Ansicht ein.
 
