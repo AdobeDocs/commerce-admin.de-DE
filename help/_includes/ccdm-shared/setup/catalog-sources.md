@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.en/blob/main/help/_includes/ccdm-shared/setup/catalog-sources.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Katalogquellen
 
 Katalogquellen stellen autoritative Bereiche von Produkten, Attributen und Kategorien dar. Sie werden normalerweise Sprachgrenzen, Zielgruppen- oder Systemgrenzen zugeordnet und bestimmen das Such-, Filter- und Sortierverhalten.
@@ -30,7 +40,7 @@ Katalogquellen werden über die Katalogdatenaufnahme befüllt. Wie Sie diese Dat
 
 * Eine Katalogquelle wird erstellt, wenn Katalogdaten für ein neues Gebietsschema oder Quellsystem zum ersten Mal von der Merchandising Services-Datenschicht empfangen werden.
 * Die Einzigartigkeit des Produkts wird durch die SKU und die Katalogquelle bestimmt.
-* Käufer greifen nicht direkt auf Katalogquellen zu. Katalogdaten werden über (Katalogansichten[&#x200B; der Storefront &#x200B;](catalog-view.md).
+* Käufer greifen nicht direkt auf Katalogquellen zu. Katalogdaten werden über (Katalogansichten[ der Storefront ](catalog-view.md).
 
 ## Modellierungsanleitung
 
