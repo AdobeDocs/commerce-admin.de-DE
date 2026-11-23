@@ -1,9 +1,19 @@
 ---
-source-git-commit: 293f07bf3a6a4de70ac8ababffa6334b5c319e97
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.de-DE/blob/main/help/_includes/ccdm-shared/setup/private-catalog-view.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Private Katalogansichten
 
 Standardmäßig ist eine [Katalogansicht](catalog-view.md) öffentlich. Beschränken Sie den Zugriff auf eine Katalogansicht, damit nur Anfragen mit einem gültigen signierten Token die Daten abrufen können.
@@ -39,7 +49,7 @@ In jedem dieser Fälle zeigt das System die folgende Validierungsmeldung an: `A 
 
 ## Automatische private Katalogansichten für freigegebene B2B-Kataloge
 
-[!BADGE Private beta]{type=Caution tooltip="Erfordert die Adobe Commerce Optimizer Connector B2B-Erweiterung, die sich derzeit in der privaten Beta-Version befindet."}
+[!BADGE Private Beta]{type=Caution tooltip="Erfordert die Adobe Commerce Optimizer Connector B2B-Erweiterung, die sich derzeit in der privaten Beta-Version befindet."}
 
 Bei Adobe Commerce B2B-Bereitstellungen, die Merchandising Services mit CCDM verwenden, erstellt und konfiguriert das System automatisch private Katalogansichten, basierend auf der freigegebenen Katalogkonfiguration in [!DNL Adobe Commerce]. Diese Konfiguration umfasst die Katalogansicht, die Richtlinie, einen ersten eingeschränkten Zugriffsschlüssel und eine Preisbuchreferenz. Mit dieser Konfiguration verwalten Sie eingeschränkte Zugriffsschlüssel über die Commerce-Admin-Seite **eingeschränkte Zugriffsschlüssel** (**System** > **Datenübertragung**).
 

@@ -1,9 +1,19 @@
 ---
-source-git-commit: 814e6356d707fb1ff4b9d63845f78ecab210d637
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 1%
+source-wordcount: '1154'
+ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.de-DE/blob/main/help/_includes/ccdm-shared/merchandising/rules/workspace.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Merchandising-Regeln - Workspace
 
 Der *Merchandising-Regeln*-Arbeitsbereich listet die aktuelle Auswahl von Regeln und deren Status auf und bietet Zugriff auf Tools, die Sie zum Erstellen und Verwalten von Regeln benötigen. Sie können Regeln auf alle [Katalogansichten](https://experienceleague.adobe.com/de/docs/commerce/optimizer/setup/catalog-view) (global) oder auf eine einzelne Katalogansicht beschränken. Informationen [&#x200B; Filtern nach Katalogansicht und &#x200B;](#select-catalog-view) Erstellen von Regeln pro Katalogansicht finden Sie unter „Auswählen Katalogansicht“. Im Arbeitsbereich haben Sie folgende Möglichkeiten:
@@ -13,6 +23,8 @@ Der *Merchandising-Regeln*-Arbeitsbereich listet die aktuelle Auswahl von Regeln
 - Regeln aktivieren/deaktivieren
 - Regeln löschen
 - Zugriff auf den Regeleditor
+
+Der Arbeitsbereich enthält auch **[Unterdrückungsregeln für Suchen](https://experienceleague.adobe.com/de/docs/commerce/optimizer/merchandising/rules/overview#search-suppression-rules)**. Verwenden Sie dieselben Regelverwaltungssteuerelemente zum Bearbeiten, Planen, Aktivieren oder Deaktivieren dieser Regeln. Informationen zum Konfigurieren von Abfragebedingungen und Veröffentlichungsänderungen finden Sie unter [Erstellen und Verwalten von Unterdrückungsregeln für Suchen](https://experienceleague.adobe.com/de/docs/commerce/optimizer/merchandising/rules/add#search-suppression-rules). Für Unterdrückungsregeln für Suchen wird keine Vorschau angezeigt.
 
 ![Merchandising-Regeln - Workspace](/help/assets/ccdm-shared/rules/rules-workspace.png)
 
@@ -50,6 +62,14 @@ Im Detailbereich werden der Regelname, der Status, Bedingungen und Ereignisse, d
    - Regel bearbeiten
    - Regel löschen
    - Regel aktivieren/deaktivieren
+
+## Aktivieren oder Deaktivieren einer Regel {#enable-disable-rule}
+
+1. Suchen Sie die Regel im Arbeitsbereich *Merchandising-*).
+1. Öffnen Sie **Mehr** (…) und wählen Sie **Regel aktivieren** oder **Regel deaktivieren**. Sie können auch das Steuerelement **Aktiviert** im Detailbereich verwenden.
+1. Bestätigen Sie den aktualisierten Status. Eine aktivierte Regel mit einem zukünftigen Startdatum bleibt bis zu diesem Datum geplant.
+
+Bei einer **Suchunterdrückungsregel** verhindert das Deaktivieren der Regel, dass diese Regel übereinstimmende Abfragen blockiert, ohne ihre Bedingungen zu löschen. Andere aktive Unterdrückungsregeln können diese Abfragen weiterhin blockieren. Um die Bedingungen oder Daten der Regel zu ändern, wählen Sie **Bearbeiten**, überprüfen Sie die Änderungen und klicken Sie auf **Speichern und veröffentlichen**.
 
 ## Spaltenbeschreibungen
 
@@ -114,6 +134,6 @@ Verhaltensdaten, die [intelligentes Ranking“ &#x200B;](add.md#intelligent-rank
    Die von Ihnen erstellte Regel wird auf die ausgewählte Katalogansicht angewendet.
 1. Erstellen Sie Ihre Regel im [Regeleditor](add.md).
 
-   Definieren Sie im Editor Bedingungen, Ereignisse und Details. Die Regel gilt nur für Suchergebnisse in dieser Katalogansicht.
+   Definieren Sie im Editor die Bedingungen, Ereignisse und Details, die für den Regeltyp gelten. Suchunterdrückungsregeln verwenden Abfragebedingungen, um Ergebnisse nur in der ausgewählten Katalogansicht zu blockieren. Sie ändern die Sichtbarkeit von Produkten nicht durch Kategoriennavigation, Merchandising-Seiten, Empfehlungen oder direkte Produkt-URLs.
 
 Sie können die Katalogansicht (den Umfang) einer Regel nicht ändern, nachdem sie erstellt wurde. Um eine ähnliche Logik auf eine andere Katalogansicht anzuwenden, erstellen Sie eine neue Regel und wählen Sie diese Katalogansicht aus, bevor Sie sie erstellen.

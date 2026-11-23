@@ -1,9 +1,19 @@
 ---
-source-git-commit: 7651ac8a38244adc8b185450e762bffe57dec72b
+source-git-commit: c5e3739c5246f77fb7e601d31f0e20485911775d
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '917'
 ht-degree: 0%
 ---
+<!--
+SOURCE OF TRUTH: Edit this file in the commerce.en repo:
+https://github.com/Adobe-Enterprise-Docs/commerce.de-DE/blob/main/help/_includes/ccdm-shared/manage-results/recommendation-performance.md
+
+This content is shared by the Adobe Commerce Optimizer Guide (commerce.en) and the
+Merchandising Services with CCDM Guide (commerce-admin.en). Changes made in commerce.en
+are synced automatically to commerce-admin.en, so do not edit the copy in that repo.
+This includes related images in help/assets/ccdm-shared/.
+-->
+
 # Recommendations-Leistung
 
 Auf der Seite Recommendations-Performance wird eine Liste der konfigurierten Recommendations zusammen mit Schlüsselmetriken angezeigt, anhand derer Sie deren Effektivität bewerten können. Sie können die Ansicht so konfigurieren, dass Metriken für den letzten Tag, die letzte Woche oder den letzten Monat angezeigt werden. Diese Einblicke zeigen, wie oft jede Empfehlungseinheit angezeigt oder angeklickt wird, sodass Sie die Leistung bewerten und Optimierungsmöglichkeiten identifizieren können.
@@ -102,5 +112,5 @@ Die Produktverfügbarkeit wird pro Katalogansicht auch für Empfehlungseinheiten
 **Beispiel: Empfehlung mit Einschlussfiltern unter der Auswahl Alle Ansichten**
 
 - **Alle Ansichten** Die Empfehlung enthält SKUs: SKU_ABC, SKU_CDE, SKU_XYZ.
-- **Katalogansicht: Kingsbluff** kann SKU_ABC oder SKU_CDE nicht verkaufen. **Angezeigt:** Nur SKU_XYZ, sofern alle anderen aktivierten Filter erfüllt sind.
-- **Katalogansicht: Arkbridge** kann keine der enthaltenen SKUs verkaufen. **Angezeigt:** Keine Empfehlungseinheit, da keine SKU sowohl den Einschlussfilter als auch die Verfügbarkeit der Katalogansicht erfüllt.
+- **Katalogansicht: Kingsbluff** kann SKU_ABC oder SKU_CDE nicht verkaufen. **Angezeigt:** SKU_XYZ plus alle anderen SKUs, die für Kingsbluff gültig sind.
+- **Katalogansicht: Arkbridge** kann keine der enthaltenen SKUs verkaufen. **Angezeigt:** Nur SKUs erlaubt von Arkbridge. Wenn keine verfügbar sind, wird die Empfehlungseinheit nicht in dieser Storefront angezeigt.
