@@ -48,9 +48,9 @@ topic_v2:
     internal-label: Administration
 nudge: true
 last-update: 2026-11-20
-source-git-commit: cf5a7bc3eb73bd404deb72fe67842543bf7b0931
+source-git-commit: 2baac8054363a312720e9c30637ed556912d51ff
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '828'
 ht-degree: 0%
 ---
 # &#x200B;<!-- use banner as heading -->![Admin-Dokumentation](./assets/banner-user-home.png) {#documentation}
@@ -119,6 +119,13 @@ Magento Open Source ist die Code-Basis, zu der Adobe offiziell beiträgt, und ge
        <img alt="Merchandising und Promotions" src="./assets/icon-labels.svg" width="40" height="40"/></td>
    <td valign="top"><a href="../merchandising-promotions/guide-overview.md"> <strong>Merchandising und Promotions</strong></a>
     <div><em>Erstellen Sie zielgerichtete Angebote und Möglichkeiten für Kundeninteraktionen, die Kunden zu Käufern machen. Verwalten Sie Kundenbeziehungen, indem Sie Aktivitäten nach dem Kauf unterstützen und wiederkehrenden Kunden spezielle Rabatte anbieten. Erfahren Sie mehr über Best Practices und Techniken, die Ihre SEO-Initiativen unterstützen.</em></div>
+  </td>
+</tr>
+<tr>
+    <td valign="top">
+       <img alt="KI-Produkterkennung" src="./assets/icon-color-wheel.svg" width="40" height="40"/></td>
+   <td valign="top"><a href="../ai-product-discovery/guide-overview.md"> <strong>KI-Produkterkennung</strong></a>
+    <div><em>Erfahren Sie, wie [!DNL Adobe Commerce] Kataloganreicherung und PDP-Anreicherung Lücken in strukturierten Produktdaten und kundenorientierten Kopien für die KI-Produkterkennung schließen.</em></div>
   </td>
 </tr>
 <tr>

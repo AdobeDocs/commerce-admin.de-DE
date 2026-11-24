@@ -4,13 +4,11 @@ user-guide-description: Umfassende Informationen zu Katalogverwaltungsfunktionen
 breadcrumb-title: Katalogverwaltung
 role: Admin, Leader, User
 feature: Catalog Management
-source-git-commit: c67474ee4b72744766421090e30c56c85d687495
+source-git-commit: 58face244f8963cdd5eb8da355f60c34e223b591
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
-
 ---
-
 
 # Handbuch zur Katalogverwaltung {#catalog}
 
@@ -89,7 +87,7 @@ ht-degree: 1%
     + [Design](settings-advanced-design.md)
     + [AutoSettings](product-autosettings.md)
     + [Geschenkoptionen](product-gift-options.md)
-  + [Kataloganreicherung](catalog-enrichment.md)
+    + [Kataloganreicherung](catalog-enrichment.md)
 + Produktattribute {#product-attributes}
   + [Attributübersicht](product-attributes.md)
   + [Attributeingabetyp](attributes-input-types.md)

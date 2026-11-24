@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1041abe0e7d7c1212a717d5fd03180ce7fd32958
+source-git-commit: 4bf2ad3e392f1a53859b647f64419736acc8d997
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 0%
 ---
 # Menü [!UICONTROL Catalog]
@@ -76,5 +76,3 @@ Bei Shops mit installiertem und aktiviertem Adobe Commerce B2B [&#x200B; Sie mit
 [!BADGE Nur PaaS]{type=Informative url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Gilt nur für Adobe Commerce in Cloud-Projekten (von Adobe verwaltete PaaS-Infrastruktur) und lokale Projekte."}
 
 Verwenden Sie [Kataloganreicherung](catalog-enrichment.md), um die von KI vorgeschlagenen Verbesserungen der Produktnamen und langen Beschreibungen zu überprüfen und anzuwenden, damit Ihr Katalog in LLM und KI-unterstützten Discovery korrekt dargestellt wird.
-
-![Kataloganreicherung](./assets/agentic-opportunities.png)

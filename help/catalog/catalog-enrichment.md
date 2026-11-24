@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a0d661434bd61349bd5616d6635b4c43340308bc
+source-git-commit: 43d0b6e49ef882ec365442c8f4f720af0080feea
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3172'
 ht-degree: 0%
 ---
 # Kataloganreicherung
@@ -130,7 +130,9 @@ Arbeiten Sie mit Ihrem Commerce-Administrator oder Implementierungspartner zusam
 
 Nach der Installation der Erweiterungen Catalog Enrichment und Catalog Services ist die Funktion Catalog Enrichment in Admin unter **[!UICONTROL AI Product Discovery]** > **[!UICONTROL Catalog Enrichment]** verfügbar.
 
-![Kataloganreicherung](./assets/catalog-enrichment-menu.png){zoomable="yes"}
+>[!NOTE]
+>
+>Das **[!UICONTROL AI Product Discovery]** Menü enthält auch **[!UICONTROL Product Details Page Enrichment (Beta)]**. Die Anreicherung der Produktdetailseite befindet sich in der Beta-Phase und ist noch nicht allgemein verfügbar.
 
 >[!NOTE]
 >
@@ -148,8 +150,6 @@ Die Felder auf dieser Registerkarte identifizieren die Commerce-Umgebung und die
 1. Erweitern Sie in **[!UICONTROL Commerce Configuration]** das Ansichtsfeld Store mit der Bezeichnung und der URL.
 
    Geben Sie Details zur [!DNL Adobe Commerce] an, um den Katalog-Adobe Brand Visibility-Service und Audit-Workflows zu aktivieren.
-
-   ![Commerce-Konfiguration auf der Registerkarte „Kataloganreicherungseinstellungen“](./assets/catalog-enrichment-commerce-config.png){zoomable="yes"}
 
 1. Geben Sie die erforderlichen Verbindungsdetails für die Store-Ansicht ein.
 
@@ -187,8 +187,6 @@ Die Kataloganreicherung verwendet die folgenden Workflow-Ansichten:
 - **[!UICONTROL Fixed Suggestions]**: Elemente, die Sie bereits angewendet oder aufgelöst haben.
 - **[!UICONTROL Ignored Suggestions]**: Elemente, die Sie absichtlich von der Aktion ausgeschlossen haben.
 
-![Kataloganreicherung](./assets/agentic-opportunities.png){zoomable="yes"}
-
 ### Genehmigte Vorschläge bereitstellen {#review-deploy-catalog}
 
 So stellen Sie genehmigte Vorschläge bereit:
@@ -221,8 +219,6 @@ Nachdem Sie eine Aktualisierung angewendet haben, wechseln die Vorschläge zu **
 
    Das Produktformular zeigt den angereicherten Produktnamen und/oder die Beschreibung an.
 
-   ![Angereicherter Produktname](./assets/enriched-product-name.png){zoomable="yes"}
-
 1. Optional: Wählen Sie **[!UICONTROL Override Catalog Agent provided Product Name]** aus, wenn Sie stattdessen einen manuell eingegebenen Namen beibehalten möchten.
 
    Manuelle Überschreibungen beeinflussen, wie Vorschläge mit dem Katalog synchronisiert werden. Weitere Informationen finden Sie unter [Manuelles Überschreiben in der Admin](#manual-override-in-the-admin).
@@ -230,8 +226,6 @@ Nachdem Sie eine Aktualisierung angewendet haben, wechseln die Vorschläge zu **
 1. Erweitern Sie den Abschnitt **[!UICONTROL Content]** und suchen Sie das Feld Beschreibung .
 
    Die angereicherte Beschreibung wird angezeigt, wenn Sie Änderungen der Beschreibung angewendet haben.
-
-   ![Produktbeschreibung anreichern](./assets/enrich-product-description.png){zoomable="yes"}
 
 1. Optional: Wählen Sie **[!UICONTROL Override Catalog Agent provided Description]** aus, wenn Sie stattdessen eine manuell eingegebene Beschreibung beibehalten möchten.
 
