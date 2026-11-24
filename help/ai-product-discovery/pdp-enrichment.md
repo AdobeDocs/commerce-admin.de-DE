@@ -78,7 +78,7 @@ Es gibt zwei Pfade zum Empfang von PDP-Anreicherungen:
 
 ## PDP-Anreicherungsaktivität überprüfen
 
-Die Seite PDP-Anreicherung wird auf der Registerkarte **[!UICONTROL Optimizations]** geöffnet. Verwenden Sie das Dashboard, um die Anreicherungsabdeckung, die Vorgangsaktivität und die Vorgänge zu überprüfen, die Aufmerksamkeit erfordern. Verwenden Sie die Registerkarte **[!UICONTROL Settings]** , um [ Commerce](settings.md)Instanz mit der KI-Produkterkennung zu verknüpfen.
+Die Seite PDP-Anreicherung wird auf der Registerkarte **[!UICONTROL Optimizations]** geöffnet. Verwenden Sie das Dashboard, um die Anreicherungsabdeckung, die Vorgangsaktivität und die Vorgänge zu überprüfen, die Aufmerksamkeit erfordern. Verwenden Sie die Registerkarte **[!UICONTROL Settings]** , um [&#x200B; Commerce](settings.md)Instanz mit der KI-Produkterkennung zu verknüpfen.
 
 ### Suchen Sie nach Jobs, die Aufmerksamkeit erfordern
 
@@ -107,7 +107,7 @@ In diesem Abschnitt erfahren Sie, wie Sie eine Anreicherungsseite für Produktde
 1. Klicken Sie auf **[!DNL Next]** , um die spezifischen Produkte zu bestätigen, die Sie anreichern möchten.
 1. Klicken Sie auf **[!DNL Run enrichment]**.
 
-   Der Anreicherungsvorgang wird ausgeführt und in der Tabelle **Optimierungen** angezeigt. Nach Abschluss der Ausführung können Sie [ Optimierungen ](#review-and-deploy-an-enrichment-job) und bereitstellen.
+   Der Anreicherungsvorgang wird ausgeführt und in der Tabelle **Optimierungen** angezeigt. Nach Abschluss der Ausführung können Sie [&#x200B; Optimierungen &#x200B;](#review-and-deploy-an-enrichment-job) und bereitstellen.
 
 ### Überprüfen eines Anreicherungsauftrags {#review-and-deploy-an-enrichment-job}
 

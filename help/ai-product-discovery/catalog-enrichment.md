@@ -76,7 +76,7 @@ Der Arbeitsbereich Kataloganreicherung enthält die Registerkarten **[!UICONTROL
 
 - Verwenden Sie die Registerkarte **[!UICONTROL Optimizations]** , um den auf dem Agent-Traffic basierenden Erkennungssignalen zu überprüfen und Anreicherungsaufträge zu verwalten.
 - Verwenden Sie die Registerkarte **[!UICONTROL Brand Governance]** , um [Anforderungen](brand-governance.md) für die von [!DNL Commerce Catalog Agent] generierten Produktnamen und Beschreibungen zu definieren.
-- Verwenden Sie die Registerkarte **[!UICONTROL Settings]** , um [Ihre Commerce-Instanz ](settings.md) KI-Produkterkennung zu verbinden.
+- Verwenden Sie die Registerkarte **[!UICONTROL Settings]** , um [Ihre Commerce-Instanz &#x200B;](settings.md) KI-Produkterkennung zu verbinden.
 
 Die gemeinsame Erweiterung ermöglicht auch die PDP-Anreicherung, die über einen separaten Workflow zur Bereitstellung strukturierter Produktfakten für KI-Agenten verfügt. Siehe [Anreicherung der Produktdetailseite](pdp-enrichment.md).
 
@@ -123,7 +123,7 @@ In der **[!UICONTROL All jobs]** Tabelle werden die einzelnen Vorgangs-IDs, der 
 1. Klicken Sie auf **[!DNL Next]** , um die spezifischen Produkte zu bestätigen, die Sie anreichern möchten.
 1. Klicken Sie auf **[!DNL Run enrichment]**.
 
-   Der Anreicherungsvorgang wird ausgeführt und in der Tabelle Optimierungen angezeigt. Nach Abschluss der Ausführung können Sie [ Optimierungen ](#review-deploy-catalog) und bereitstellen.
+   Der Anreicherungsvorgang wird ausgeführt und in der Tabelle Optimierungen angezeigt. Nach Abschluss der Ausführung können Sie [&#x200B; Optimierungen &#x200B;](#review-deploy-catalog) und bereitstellen.
 
 ### Überprüfen und Bereitstellen eines Anreicherungsauftrags {#review-deploy-catalog}
 

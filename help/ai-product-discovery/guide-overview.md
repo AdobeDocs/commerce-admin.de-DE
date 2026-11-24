@@ -39,7 +39,7 @@ Selbst wenn diese Informationen zugänglich sind, sind sie möglicherweise nicht
 
 Die PDP-Anreicherung erstellt eine strukturierte Daten-Payload mit relevanten Produktinformationen, einschließlich Attributen, Varianten, Optionen, Feature Bullets, Kategorienbeziehungen, Preisen und Verfügbarkeit. Dadurch erhalten KI-Agenten ein vollständigeres und strukturierteres Verständnis der Funktionen, Möglichkeiten und verfügbaren Konfigurationen eines Produkts.
 
-Mit [ Technologie von „Optimize at Edge](#prerequisites) werden die angereicherten Produktinformationen den KI-Crawler direkt zugänglich gemacht, ohne dass Änderungen an der für Menschen sichtbaren Storefront erforderlich sind. Händler können die Art und Weise verbessern, wie Produktinformationen KI-Agenten präsentiert werden, ohne das Layout von Storefronts zu ändern, neue Komponenten mit Käufersicht einzuführen oder benutzerdefinierte Storefronts zu entwickeln.
+Mit [&#x200B; Technologie von „Optimize at Edge](#prerequisites) werden die angereicherten Produktinformationen den KI-Crawler direkt zugänglich gemacht, ohne dass Änderungen an der für Menschen sichtbaren Storefront erforderlich sind. Händler können die Art und Weise verbessern, wie Produktinformationen KI-Agenten präsentiert werden, ohne das Layout von Storefronts zu ändern, neue Komponenten mit Käufersicht einzuführen oder benutzerdefinierte Storefronts zu entwickeln.
 
 Siehe [Anreicherung der Produktdetailseite](pdp-enrichment.md).
 
