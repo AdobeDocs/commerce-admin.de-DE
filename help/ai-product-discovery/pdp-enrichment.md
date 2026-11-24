@@ -4,7 +4,7 @@ description: Verwenden Sie [!DNL Adobe Commerce] Anreicherung von Produktdetails
 role: Admin, User, Leader
 recommendations: noCatalog
 touch: true
-badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
+badgePaas or on-premises: label="Cloud or on-premises only" type="Informative" url="https://experienceleague.adobe.com/de/docs/commerce/user-guides/product-solutions" tooltip="Applies to Adobe Commerce on Cloud projects (Adobe-managed Cloud or on-premises infrastructure) and on-premises projects only."
 autotag-review: '2026-06-23T17:36:07.142Z'
 TQID: 'https://experienceleague.adobe.com/cjHuva7PP7UzP-yVhe0rkDzHgAYjfSdYEx3g5gorxwk'
 product_v2:
@@ -129,7 +129,7 @@ Die Vorschläge sind in drei Ansichten unterteilt: **Aktuelle Vorschläge**, **F
 
 Nachdem Sie die Vorschläge geprüft und die zu optimierenden Produktseiten ausgewählt haben, klicken Sie auf **Optimierungen bereitstellen**, um die Anreicherung mit Optimieren bei Edge zu veröffentlichen. In **Bestätigungsdialogfeld „Für Edge bereitstellen** werden die ausgewählten Produkt-URLs, der Optimierungstyp und die angewendete Anreicherung angezeigt. Nach der Bereitstellung wird in einem Bestätigungsbildschirm bestätigt, welche Produktseiten erfolgreich optimiert wurden.
 
-Die Optimierung wird ausschließlich an KI-Benutzeragenten über die [Optimieren bei Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) bereitgestellt. Besuchende sehen Ihr bestehendes Storefront-Erlebnis weiterhin genau wie zuvor, ohne dass sich Ihr PDP-Design, Ihre Seitenleistung oder Ihr Markenerlebnis ändern.
+Die Optimierung wird ausschließlich an KI-Benutzeragenten über die [Optimieren bei Edge](https://experienceleague.adobe.com/de/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) bereitgestellt. Besuchende sehen Ihr bestehendes Storefront-Erlebnis weiterhin genau wie zuvor, ohne dass sich Ihr PDP-Design, Ihre Seitenleistung oder Ihr Markenerlebnis ändern.
 
 ## Einschränkungen und Überlegungen {#limits}
 
@@ -137,7 +137,7 @@ Die Optimierung wird ausschließlich an KI-Benutzeragenten über die [Optimieren
 - In der Anreicherung werden bereits im Katalog vorhandene Fakten organisiert. Es werden keine neuen Produktinformationen hinzugefügt.
 - Der Workflow für die PDP-Anreicherung ändert die Storefront nicht.
 - PDP-Anreicherungsaufträge und Kataloganreicherungsaufträge haben unterschiedliche Zwecke und Workflows.
-- Die PDP-Optimierung verwendet [Optimieren bei Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) .
+- Die PDP-Optimierung verwendet [Optimieren bei Edge](https://experienceleague.adobe.com/de/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn) .
 
 ## Best Practices {#best-practices}
 
