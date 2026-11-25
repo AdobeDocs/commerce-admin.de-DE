@@ -16,7 +16,7 @@ Bevor Sie die Kataloganreicherung oder die PDP-Anreicherung verwenden, bestätig
 | Anforderung | Gilt für | Details |
 | --- | --- | --- |
 | Optimieren bei Edge | PDP-Anreicherung | Erforderlich. Optimieren bei Edge stellt die angereicherten Produktdaten für KI-Agenten bereit. Siehe das [Optimieren in Edge](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/optimize-at-edge/fastly-byocdn). |
-| Protokollweiterleitung | Beide Workflows | Optional. Aktiviert Anreicherungsempfehlungen basierend auf agentem Traffic. Ohne sie können Sie Produkte oder Produktseiten weiterhin manuell auswählen. Weitere Informationen finden [ im Handbuch zur ](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview). |
+| Protokollweiterleitung | Beide Workflows | Optional. Aktiviert Anreicherungsempfehlungen basierend auf agentem Traffic. Ohne sie können Sie Produkte oder Produktseiten weiterhin manuell auswählen. Weitere Informationen finden [&#x200B; im Handbuch zur &#x200B;](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview). |
 | Crawlbare Storefront | Kataloganreicherung | Erforderlich für crawlen-basierte Empfehlungen. LLM-orientierte und agentische Bots müssen in der Lage sein, auf Ihre Produktseiten zuzugreifen. |
 | [!DNL Adobe Admin Console] | Beide Workflows | Erforderlich. Während des Setups überprüft [!DNL Adobe Commerce] den GenAI-Treiberstatus Ihres Unternehmens. Sie haben Zugriff, es sei denn, Ihr Unternehmen hat sich vom GenAI-Fahrer abgemeldet. |
 
@@ -34,7 +34,7 @@ Für [!DNL Adobe Commerce] in der Cloud-Infrastruktur oder lokal installieren Si
 
 **Bevor Sie beginnen:**
 
-- [!DNL Adobe Commerce] 2.4.7 oder höher in PHP 8.3 oder höher. Siehe [ Versionshinweise ](release-notes.md).
+- [!DNL Adobe Commerce] 2.4.7 oder höher in PHP 8.3 oder höher. Siehe [&#x200B; Versionshinweise &#x200B;](release-notes.md).
 - Eine [!DNL Adobe IMS] Organisation. Wenn Ihr Unternehmen über keine verfügt, lesen Sie den Abschnitt [Übersicht über die Adobe IMS-Integration](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/ims/adobe-ims-integration-overview). Die Kataloganreicherung verwendet das IMS-Zugriffstoken des angemeldeten Admin-Benutzers. Wenn Sie sich nur mit einem Commerce-Benutzernamen und -Kennwort anmelden, wird dieses Token nicht bereitgestellt.
 - Befehlszeilenzugriff auf den Commerce-Anwendungsserver und Berechtigung zum Herunterladen von Paketen aus `repo.magento.com`.
 
