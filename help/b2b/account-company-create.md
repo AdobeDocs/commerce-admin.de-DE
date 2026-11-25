@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '2455'
+source-wordcount: '2640'
 ht-degree: 0%
 ---
 # Erstellen eines Unternehmenskontos
@@ -96,6 +96,8 @@ Das System weist die Rolle [Unternehmensadministrator](account-company-admin.md)
 >[!IMPORTANT]
 >
 >Um diese Methode zu unterstützen (sodass Kundinnen und Kunden ihr Unternehmen über die Storefront registrieren können), stellen Sie sicher, dass die [B2B-Funktionen](enable-basic-features.md) aktiviert sind.
+
+Für Storefronts, die die `createCompany` GraphQL-Mutation verwenden, können bei der Registrierung die Einstellungen des Unternehmensadressbuchs übermittelt werden, wenn **[!UICONTROL Allow Company Configuration on Storefront Registration]** in der [Unternehmenskonfiguration“ &#x200B;](../configuration-reference/customers/company-configuration.md#general) ist. Diese Einstellung ist standardmäßig deaktiviert und aktiviert das Adressbuch für ein Unternehmen nicht selbst.
 
 1. In der oberen rechten Ecke der Kopfzeile der Storefront klickt der Kunde auf **[!UICONTROL Create an Account]** und wählt **[!UICONTROL Create New Company Account]** aus.
 
@@ -254,6 +256,10 @@ Der Prozess der Erstellung einer Firma aus der Admin ist im Wesentlichen der gle
 
    * Wenn Sie Firmenmitarbeitern erlauben möchten, Bestellungen über ihr Konto zu erstellen und zu verwenden, setzen Sie **[!UICONTROL Enable Purchase Orders]** auf `Yes`.
 
+   * Um ein freigegebenes Unternehmensadressbuch zu aktivieren, setzen Sie **[!UICONTROL Enable Company Address Book]** auf `Yes`. Diese Einstellung ist standardmäßig `No`.
+
+   * Um eine temporäre Versandadresse an der Kasse zuzulassen, wenn das Firmenadressbuch aktiviert ist, setzen Sie **[!UICONTROL Allow Custom Shipping Address]** auf `Yes`. Diese Einstellung ist standardmäßig `No`.
+
    * Um die für das Unternehmen verfügbaren **[!UICONTROL Applicable Payment Methods]** zu ändern, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Use config settings]** und wählen Sie eine der folgenden Optionen aus:
 
      | Option | Beschreibung |
@@ -304,6 +310,8 @@ Nach der Aktivierung sollten Unternehmensadministratoren:
 * **[Firmenbenutzer verwalten](account-company-users.md)** - Mitarbeiter hinzufügen und Rollen zuweisen
 * **[Bestellungen einrichten](purchase-order-flow.md)** - Bei Bedarf Validierungs-Workflows konfigurieren
 * **[Krediteinstellungen überprüfen](credit-company.md)** - Firmenkredite verstehen und verwalten (falls aktiviert)
+
+Wenn das Firmenadressbuch für eine unterstützte Storefront aktiviert ist, können Firmenbenutzende an der Kasse Firmenadressen anstelle ihres persönlichen Adressbuchs verwenden. Für die Abrechnung ist eine bestehende Firmenadresse erforderlich. Für den Versand ist eine Firmenadresse erforderlich, es sei denn, benutzerdefinierte Versandadressen sind zulässig. Abholorte sind ausgenommen. Unternehmensrollen können separate Berechtigungen zum Hinzufügen, Bearbeiten, Löschen und Festlegen von Standardfirmenadressen erhalten. Ein Unternehmen kann über separate standardmäßige Abrechnungs- und Versandadressen verfügen.
 
 ## Häufige Probleme und Fehlerbehebung
 
@@ -462,6 +470,8 @@ Sie können erweiterte Einstellungen für einzelne Unternehmen konfigurieren. We
 | [!UICONTROL Customer Group] | (Nur Admin) Zeigt die [Kundengruppe](../customers/customer-groups.md) oder [freigegebenen Katalog](catalog-shared.md) an, die dem Unternehmen zugewiesen sind. |
 | [!UICONTROL Allow Quotes] | (Nur Admin) Legt fest, ob Firmenmitglieder verhandelbare Angebote im Namen der Firma vorbereiten und einreichen können. |
 | [!UICONTROL Enable Purchase Orders] | (Nur Admin) Legt fest, ob Firmenmitglieder Bestellungen als [Bestellungen](account-dashboard-my-purchase-orders.md) im Namen der Firma einreichen können. |
+| [!UICONTROL Enable Company Address Book] | (Nur Admin) Aktiviert die Unternehmensadressen für das Unternehmen in unterstützten Storefront-Flüssen. Optionen: `Yes` / `No` (Standard). |
+| [!UICONTROL Allow Custom Shipping Address] | (Nur Admin) Ermöglicht temporäre Versandadressen an der Kasse, wenn das Firmenadressbuch aktiviert ist. Für die Abrechnung ist weiterhin eine bestehende Firmenadresse erforderlich. Optionen: `Yes` / `No` (Standard). |
 | Anwendbare Zahlungsmethoden | (Nur Admin) Zeigt die Zahlungsmethoden an, die für Unternehmenskäufe verfügbar sind. Optionen: `B2B Payment Methods` / `All Enabled Payment Methods` / `Selected Payment Methods` |
 | [!UICONTROL Payment Methods] | (Nur Admin) Wird aktiv, wenn Sie bestimmte Zahlungsmethoden aktivieren. Um mehrere Zahlungsmethoden für das Firmenkonto zur Verfügung zu stellen, halten Sie die Strg-Taste (PC) oder die Befehlstaste (Mac) gedrückt und wählen Sie jede Option aus. |
 | [!UICONTROL Applicable Shipping Methods] | (Nur Admin) Zeigt die Versandmethoden an, die für Unternehmenskäufe verfügbar sind. Optionen: `B2B Shipping Methods` / `All Enabled Shipping Methods` / `Selected Shipping Methods` |

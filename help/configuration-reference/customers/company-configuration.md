@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acc7571574eb9c7e96911266897350a77913488e
+source-git-commit: 15d8881376a2dbec72b43fd32d40101e210f9530
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '878'
 ht-degree: 3%
 ---
 # [!UICONTROL Customers] > [!UICONTROL Company Configuration]
@@ -60,6 +60,7 @@ Weitere Informationen zum Konfigurieren dieser Einstellungen finden Sie unter [G
 | Feld | [Umfang](../../getting-started/websites-stores-views.md#scope-settings) | Beschreibung |
 |--- |--- |--- |
 | [!UICONTROL Allow Company Registration from the Storefront] | Website | Legt fest, ob Besucher in Ihrem Geschäft die Wahl haben[&#x200B; sich für &#x200B;](../../customers/customer-sign-in.md) Unternehmenskonto oder ein einzelnes Konto zu registrieren. Optionen: `Yes` / `No` |
+| [!UICONTROL Allow Company Configuration on Storefront Registration] | Website | Bestimmt, ob die `createCompany` GraphQL-Mutation die Unternehmenskonfiguration während der Storefront-Registrierung akzeptiert, einschließlich der Einstellungen für das Adressbuch des Unternehmens. Diese Option ist verfügbar, wenn **[!UICONTROL Allow Company Registration from the Storefront]** auf `Yes` gesetzt ist. Das Adressbuch ist nicht für jedes Unternehmen verfügbar. Optionen: `Yes` / `No` (Standard) |
 
 {style="table-layout:auto"}
 
